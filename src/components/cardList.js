@@ -4,8 +4,12 @@ import Card from "./card"
 
 export default function CardList({ posts }) {
   return (
-    <div className={styles.container}>
-      {posts && posts.map(({ node }) => <Card node={node} />)}
-    </div>
+    <section className="pt-80">
+      <div className={styles.cardlist}>
+        <div className="grid-33">
+          {posts && posts.map(({ node }) => <Card node={node} />)}
+        </div>
+      </div>
+    </section>
   )
 }

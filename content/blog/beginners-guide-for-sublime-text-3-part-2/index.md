@@ -1,7 +1,7 @@
 ---
 title: "Beginner's Guide for Sublime Text 3 Part 2"
 date: "2015-11-10"
-coverImage: "Beginner-Guide-Sublime-Text-Part-2-150x150.png"
+coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 ---

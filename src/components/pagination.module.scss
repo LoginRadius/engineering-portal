@@ -1,13 +1,7 @@
 @import "../styles/variables.scss";
-.container {
+.pagination {
   display: flex;
   justify-content: center;
-  margin: 80px 0 0;
-}
-.wrapper {
-  line-height: 32px;
-  display: flex;
-  width: fit-content;
   a {
     width: 32px;
     height: 32px;
@@ -15,12 +9,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin: 0px 10px;
+    margin: 0 10px;
     box-shadow: none;
     font-weight: 500;
+    &.active,
     &:hover {
-      color: #f8f9fc;
-      background-color: #0d8dcf;
+      color: $white;
+      background-color: $blue-bright;
       transition: all 0.2s;
     }
     &[rel="next"],
@@ -36,6 +31,10 @@
         right: 8px;
         transform: rotate(45deg);
       }
+    }
+    &[rel="next"],
+    &[rel="prev"] {
+      position: relative;
       &:after {
         content: "";
         width: 15px;
@@ -46,43 +45,30 @@
         right: 8px;
         transform: rotate(-45deg);
       }
-      &:hover:before,
-      &:hover:after {
-        background: #fff;
-      }
     }
     &[rel="prev"] {
-      position: relative;
       &:before {
         transform: rotate(-45deg);
         right: auto;
       }
+    }
+    &[rel="prev"] {
       &:after {
         transform: rotate(45deg);
         right: auto;
       }
     }
+    &[rel="next"],
+    &[rel="prev"] {
+      &:hover {
+        &:after,
+        &:before {
+          background-color: $white;
+        }
+      }
+    }
   }
-  img {
-    width: 18px;
-    height: 18px;
-  }
-}
-.active {
-  color: #f8f9fc;
-  background-color: #0d8dcf;
-  transition: all 0.2s;
-}
-
-@media all and (max-width: 420px) {
-  .wrapper a {
-    width: 25px;
-    height: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    margin: 0 4px;
-    box-shadow: none;
+  p {
+    margin-bottom: 0;
   }
 }

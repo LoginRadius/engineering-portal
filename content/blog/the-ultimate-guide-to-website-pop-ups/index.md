@@ -6,7 +6,7 @@ author: "Team LoginRadius"
 tags: ["CSS"]
 ---
 
-![The Ultimate Guide To Website Pop-ups](The-Ultimate-guide-to-website-pop-ups.png)POPUPS! They can annoy you but if used properly, they can be a boon to any marketing campaign. In 2015, Taylor wrote an article on best practices to use popup. While the article discussed how to optimize popup, in this article I am going to list down the types of articles and how you can implement them. I have added codes for every type of popup for a better idea.
+POPUPS! They can annoy you but if used properly, they can be a boon to any marketing campaign. In 2015, Taylor wrote an article on best practices to use popup. While the article discussed how to optimize popup, in this article I am going to list down the types of articles and how you can implement them. I have added codes for every type of popup for a better idea.
 
 ### **1\. Creating a basic popup:**
 

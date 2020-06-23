@@ -1,82 +1,35 @@
-@import "../styles/variables.scss";
-.container {
-  margin: 64px 0 30px;
-  display: flex;
-  flex-direction: column;
-}
-.author {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  p {
-    font-size: 24px;
-    font-weight: 400;
-    background-image: linear-gradient(
-      90deg,
-      #d1d5da 50%,
-      hsla(0, 0%, 100%, 0) 0
-    );
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 10px 2px;
-    display: inline;
-    padding-bottom: 4px;
-  }
-  h3 {
-    margin: 0 0 10px;
-    position: relative;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.38;
-    box-shadow: none;
-    white-space: nowrap;
-  }
-}
-.author-social {
-  padding: 1em 0;
-  display: flex;
-  width: 75%;
-  @media all and (max-width: 600px) {
-    width: 100%;
-  }
-  .name {
-    font-size: 20px;
-  }
-  .bio {
-    color: $black;
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-.author-icon {
-  margin-right: 15px;
-  img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    max-width: unset;
-    margin-bottom: 0;
-  }
-}
-
-.author-social-icon {
-  display: flex;
-  a {
-    margin-right: 15px;
-  }
-  svg {
-    width: 20px !important;
-    height: 20px !important;
-    color: #000;
-  }
-}
-
-@media all and (max-width: 420px) {
-  .container {
-    flex-direction: column;
-    margin: 0 0 2em 0;
-  }
+.author-page {
   .author {
-    margin: 2em 0;
+    flex-direction: column;
+    align-items: center;
+    .author-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .about-author {
+      align-items: center;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    .author-social-icon {
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        li {
+          padding: 0 20px;
+          a {
+            display: block;
+            svg {
+              width: 30px;
+              height: 30px;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
   }
 }

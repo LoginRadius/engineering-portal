@@ -1,7 +1,7 @@
 ---
 title: "Be More Manipulative with Underscore JS"
 date: "2016-02-16"
-coverImage: "underscore-e1462167834737-150x26.png"
+coverImage: "underscore.png"
 author: "Zakary Hughes"
 tags: ["Javascript", "UnderscoreJs"]
 ---
