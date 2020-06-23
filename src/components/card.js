@@ -13,34 +13,17 @@ const Card = ({ node }) => {
   let coverImagePath = node.frontmatter.coverImage
   let descriptionText = node.frontmatter.description || node.excerpt
   return (
-    <div className={styles.user}>
-      {coverImagePath ? (
-        <Img
-          fluid={coverImagePath.childImageSharp.fluid}
-          Tag="div"
-          className={styles.avatar}
-        />
-      ) : (
-        <img src={defaultImg} className={styles.avatar} alt="default-img" />
-      )}
-      <div className={styles.description}>
-        <header className={styles.header}>
-          <h3>
-            <Link className={styles.title} to={node.fields.slug}>
-              {node.frontmatter.title || node.fields.slug}
-            </Link>
-          </h3>
-        </header>
-        {descriptionText && (
-          <section>
-            <p
-              className={styles.descriptionText}
-              dangerouslySetInnerHTML={{
-                __html: descriptionText,
-              }}
-            />
-          </section>
-        )}
+    <div className={`${styles.user} mb-80`}>
+      <div className={styles.avatar}>
+        <Link className="bs-md" to={node.fields.slug}>
+          {coverImagePath ? (
+            <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+          ) : (
+            <img src={defaultImg} alt="default-img" />
+          )}
+        </Link>
+      </div>
+      <div className={styles.descriptionWrap}>
         <div className={styles.tag}>
           {tags &&
             tags.map((tag, index) => (
@@ -49,10 +32,21 @@ const Card = ({ node }) => {
                 aria-label={tag}
                 to={`/blog/tags/${kebabCase(tag)}/`}
               >
-                {" "}
-                {tag}{" "}
+                {tag}
               </Link>
             ))}
+        </div>
+        <div className={styles.description}>
+          <h3>
+            <Link to={node.fields.slug}>
+              {node.frontmatter.title || node.fields.slug}
+            </Link>
+          </h3>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: descriptionText,
+            }}
+          />
         </div>
         {node.frontmatter.author && (
           <Bio date={node.frontmatter.date} author={node.frontmatter.author} />

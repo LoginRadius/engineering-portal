@@ -6,7 +6,7 @@ author: "Team LoginRadius"
 tags: ["Engineering"]
 ---
 
-![Open Source Business Validator By Loginradius](./Open-Source-Business-Validator-By-Loginradius.png)While creating Lead Generation form at LoginRadius, Marketers wanted to sure that visitors enter business emails. To that end, I created a list in JSON format to block free mail providers like Gmail, Outlook etc.
+While creating Lead Generation form at LoginRadius, Marketers wanted to sure that visitors enter business emails. To that end, I created a list in JSON format to block free mail providers like Gmail, Outlook etc.
 
 Business mail validator makes sure users enters only business emails in submission forms on a web page. User can’t enter with free email’s that provided by the third party (free email) service provider.
 

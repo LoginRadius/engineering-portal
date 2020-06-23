@@ -66,9 +66,9 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>
                   {children}
-                  {!hideTagMenu && (
+                  {/* {!hideTagMenu && (
                     <TagMenu list={data.allMarkdownRemark.group} />
-                  )}
+                  )} */}
                 </div>
               </div>
               <FreeTrial />

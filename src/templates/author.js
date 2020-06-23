@@ -29,78 +29,89 @@ export default ({
       location={location.pathname}
     />
     <main>
-      <div className={styles.container}>
-        <div className={styles.author}>
-          <div className={styles.authorIcon}>
-            <img
-              src={
-                github
-                  ? `https://github.com/${github}.png?size=100`
-                  : `https://ui-avatars.com/api/?name=${id}&size=460`
-              }
-              alt={id}
-            />
-          </div>
-          <div>
-            <h3>{id}</h3>
+      <section>
+        <div class={`${styles.authorPage} pt-80`}>
+          <div class={`${styles.author} d-flex`}>
+            <div class={styles.authorImage}>
+              <img
+                src={
+                  github
+                    ? `https://github.com/${github}.png?size=100`
+                    : `https://ui-avatars.com/api/?name=${id}&size=460`
+                }
+                alt={id}
+                class="circle extra-large"
+              />
+            </div>
+            <div class={styles.aboutAuthor}>
+              <h3>{id}</h3>
+              <p>{bio}</p>
+            </div>
             <div className={styles.authorSocialIcon}>
-              {github && (
-                <a
-                  href={`https://github.com/${github}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faGithub} title={"Github"} />
-                </a>
-              )}
-              {stackoverflow && (
-                <a
-                  href={`https://stackoverflow.com/users/${stackoverflow}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    title={"StackOverflow"}
-                    icon={faStackOverflow}
-                  />
-                </a>
-              )}
-              {linkedin && (
-                <a
-                  href={`https://linkedin.com/in/${linkedin}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon title={"Linkedin"} icon={faLinkedin} />
-                </a>
-              )}
-              {medium && (
-                <a
-                  href={`https://medium.com/${medium}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon title={"Medium"} icon={faMedium} />
-                </a>
-              )}
-              {twitter && (
-                <a
-                  href={`https://twitter.com/${twitter}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon title={"Twitter"} icon={faTwitter} />
-                </a>
-              )}
+              <ul>
+                {github && (
+                  <li>
+                    <a
+                      href={`https://github.com/${github}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithub} title={"Github"} />
+                    </a>
+                  </li>
+                )}
+                {stackoverflow && (
+                  <li>
+                    <a
+                      href={`https://stackoverflow.com/users/${stackoverflow}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        title={"StackOverflow"}
+                        icon={faStackOverflow}
+                      />
+                    </a>
+                  </li>
+                )}
+                {linkedin && (
+                  <li>
+                    <a
+                      href={`https://linkedin.com/in/${linkedin}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon title={"Linkedin"} icon={faLinkedin} />
+                    </a>
+                  </li>
+                )}
+                {medium && (
+                  <li>
+                    <a
+                      href={`https://medium.com/${medium}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon title={"Medium"} icon={faMedium} />
+                    </a>
+                  </li>
+                )}
+                {twitter && (
+                  <li>
+                    <a
+                      href={`https://twitter.com/${twitter}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon title={"Twitter"} icon={faTwitter} />
+                    </a>
+                  </li>
+                )}
+              </ul>
             </div>
           </div>
         </div>
-        <div className={styles.authorSocial}>
-          <div>
-            <p className={styles.bio}>{bio}</p>
-          </div>
-        </div>
-      </div>
+      </section>
       <CardList posts={postNodes} />
     </main>
   </Layout>
@@ -125,7 +136,7 @@ export const pageQuery = graphql`
             tags
             coverImage {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }

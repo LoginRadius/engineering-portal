@@ -1,0 +1,263 @@
+@import "../styles/variables.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+  border: 0;
+  display: block;
+  margin-bottom: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0 0 0 40px;
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  a {
+    color: $black;
+  }
+}
+h1 {
+  margin-bottom: 30px;
+  line-height: 48px;
+  font-size: 40px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 40px;
+}
+h3 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 32px;
+}
+h4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 28px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 32px;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: $blue-bright;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    color: $blue-bright;
+    transition: all 0.3s;
+  }
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+}
+.btn-primary {
+  padding: 0 24px;
+  height: 56px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 200px;
+  background-color: $blue-bright;
+  color: $white;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  transition: all 0.3s;
+  border: 0;
+  &.small {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: $basefont;
+    text-transform: capitalize;
+    padding: 0 16px;
+    &:hover {
+      box-shadow: none;
+      transform: scale(1);
+      color: $white;
+    }
+  }
+  &:hover {
+    box-shadow: 0 4px 10px rgba(20, 92, 133, 0.5);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    color: $white;
+    transition: box-shadow 0.2s ease-in 0s, transform 0.2s ease-in 0s;
+  }
+}
+.mb-0 {
+  margin-bottom: $space-0;
+}
+.py-40 {
+  padding: 40px 0;
+}
+.py-80 {
+  padding: $space-80 0;
+  @media (max-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.pt-80 {
+  padding-top: $space-80;
+  @media (max-width: 768px) {
+    padding-top: 40px;
+  }
+}
+.pb-80 {
+  padding-bottom: $space-80;
+  @media (max-width: 768px) {
+    padding-bottom: 40px;
+  }
+}
+.mb-80 {
+  margin-bottom: $space-80;
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+.circle {
+  border-radius: 100%;
+}
+.extra-large {
+  width: 100px;
+  height: 100px;
+}
+.large {
+  width: 50px;
+  height: 50px;
+}
+.small {
+  width: 40px;
+  height: 40px;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+section {
+  & > div {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 1248px;
+    .grid-33 {
+      display: flex;
+      flex-wrap: wrap;
+      & > div {
+        display: inline-block;
+        margin-right: 24px;
+        width: calc(33.33% - #{24px * 2 / 3});
+        @media (max-width: 768px) {
+          width: calc(50% - #{24px * 1 / 2});
+        }
+        @media (max-width: 767px) {
+          width: 100%;
+          margin-right: 0;
+        }
+        &:nth-child(3n) {
+          margin-right: 0;
+          @media (max-width: 768px) {
+            margin-right: 24px;
+          }
+          @media (max-width: 767px) {
+            margin-right: 0;
+          }
+        }
+        @media (max-width: 768px) {
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .grid-70-30 {
+      display: flex;
+      flex-wrap: wrap;
+      & > div {
+        display: inline-block;
+        margin-right: 24px;
+        width: calc(70% - #{24px * 1 / 2});
+        &:nth-child(2n) {
+          margin-right: 0;
+          width: calc(30% - #{24px * 1 / 2});
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+        }
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.mb-sm {
+  margin-bottom: 24px;
+}
+.ml-sm {
+  margin-left: 20px;
+}
+.bg-light {
+  background-color: $gray-lightest;
+}
+.bs-md {
+  box-shadow: $bs-md;
+  border-radius: 8px;
+  &:hover {
+    box-shadow: $bs-lg;
+  }
+  img {
+    border-radius: 8px;
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "JSON Web Token"
 date: "2018-07-11"
-coverImage: "json-web-token.jpg"
+coverImage: "jwt.png"
 author: "Mayank Agarwal"
 tags: ["JWT", "JSON Web Token"]
 ---

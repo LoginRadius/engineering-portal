@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         name: "Docs",
-        slug: "https://www.loginradius.com/docs/",
+        slug: "https://www.loginradius.com/docs/developer",
       },
       {
         name: "Open Source",

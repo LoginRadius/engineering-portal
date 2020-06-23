@@ -29,7 +29,7 @@ const PinnedCard = () => {
                   tags
                   coverImage {
                     childImageSharp {
-                      fluid(maxWidth: 300, quality: 80) {
+                      fluid(quality: 80) {
                         ...GatsbyImageSharpFluid_noBase64
                       }
                     }
@@ -50,53 +50,53 @@ const PinnedCard = () => {
       `}
       render={data => {
         const node = data.allMarkdownRemark.edges[0].node
-        const tags = node.frontmatter.tags || ""
+        const tags = node.frontmatter.tags || []
         let coverImagePath = node.frontmatter.coverImage
         return (
-          <div className={`${styles.user} ${styles.pinned}`}>
-            {coverImagePath ? (
-              <Img
-                fluid={coverImagePath.childImageSharp.fluid}
-                Tag="div"
-                className={styles.avatarPinned}
-              />
-            ) : (
-              <img
-                src={defaultImg}
-                className={styles.avatarPinned}
-                alt="default-img"
-              />
-            )}
-            <div className={styles.description}>
-              <header className={styles.header}>
-                <h3>
-                  <Link className={styles.pinnedtitle} to={node.fields.slug}>
-                    {node.frontmatter.title || node.fields.slug}
-                  </Link>
-                </h3>
-              </header>
-              <section>
-                <p
-                  className={styles.pinneddescriptionText}
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-              <div className={styles.pinnedtag}>
-                {tags &&
-                  tags.map(tag => (
-                    <Link to={`/blog/tags/${kebabCase(tag)}/`}> {tag} </Link>
-                  ))}
+          <section className={`${styles.pinnedwrap} py-80`}>
+            <div className={styles.blogContentPinned}>
+              <div className={styles.avatarPinned}>
+                <Link to={node.fields.slug} className="bs-md">
+                  {coverImagePath ? (
+                    <Img
+                      fluid={coverImagePath.childImageSharp.fluid}
+                      Tag="div"
+                    />
+                  ) : (
+                    <img src={defaultImg} alt="default-img" />
+                  )}
+                </Link>
               </div>
-              {node.frontmatter.author && (
-                <Bio
-                  date={node.frontmatter.date}
-                  author={node.frontmatter.author}
-                />
-              )}
+              <div className={styles.descriptionPinned}>
+                <div className={`${styles.tag} ${styles.pinned}`}>
+                  {tags &&
+                    tags.map(tag => (
+                      <Link to={`/blog/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                    ))}
+                </div>
+                <div className={styles.description}>
+                  <h1>
+                    <Link to={node.fields.slug}>
+                      {node.frontmatter.title || node.fields.slug}
+                    </Link>
+                  </h1>
+                  <p
+                    className={`${styles.descriptiontext} ${styles.pinned}`}
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </div>
+                {node.frontmatter.author && (
+                  <Bio
+                    date={node.frontmatter.date}
+                    author={node.frontmatter.author}
+                    pinned
+                  />
+                )}
+              </div>
             </div>
-          </div>
+          </section>
         )
       }}
     />
