@@ -1,0 +1,151 @@
+import React from "react"
+import Layout from "../components/layout"
+
+import styles from "./author.module.scss"
+import CardList from "../components/cardList"
+import SEO from "../components/seo"
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGithub,
+  faTwitter,
+  faLinkedin,
+  faStackOverflow,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons"
+
+export default ({
+  data: {
+    authorYaml: { id, bio, github, stackoverflow, linkedin, medium, twitter },
+    allMarkdownRemark: { edges: postNodes },
+  },
+  location,
+}) => (
+  <Layout hideTagMenu={true}>
+    <SEO
+      title={id}
+      description={bio}
+      image={github}
+      location={location.pathname}
+    />
+    <main>
+      <div className={styles.container}>
+        <div className={styles.author}>
+          <div className={styles.authorIcon}>
+            <img
+              src={
+                github
+                  ? `https://github.com/${github}.png?size=100`
+                  : `https://ui-avatars.com/api/?name=${id}&size=460`
+              }
+              alt={id}
+            />
+          </div>
+          <div>
+            <h3>{id}</h3>
+            <div className={styles.authorSocialIcon}>
+              {github && (
+                <a
+                  href={`https://github.com/${github}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} title={"Github"} />
+                </a>
+              )}
+              {stackoverflow && (
+                <a
+                  href={`https://stackoverflow.com/users/${stackoverflow}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    title={"StackOverflow"}
+                    icon={faStackOverflow}
+                  />
+                </a>
+              )}
+              {linkedin && (
+                <a
+                  href={`https://linkedin.com/in/${linkedin}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon title={"Linkedin"} icon={faLinkedin} />
+                </a>
+              )}
+              {medium && (
+                <a
+                  href={`https://medium.com/${medium}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon title={"Medium"} icon={faMedium} />
+                </a>
+              )}
+              {twitter && (
+                <a
+                  href={`https://twitter.com/${twitter}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon title={"Twitter"} icon={faTwitter} />
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+        <div className={styles.authorSocial}>
+          <div>
+            <p className={styles.bio}>{bio}</p>
+          </div>
+        </div>
+      </div>
+      <CardList posts={postNodes} />
+    </main>
+  </Layout>
+)
+
+export const pageQuery = graphql`
+  query PostsByAuthorId($authorId: String!) {
+    allMarkdownRemark(
+      filter: { fields: { authorId: { eq: $authorId } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            author {
+              id
+              github
+            }
+            date(formatString: "MMMM DD, YYYY")
+            tags
+            coverImage {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
+            }
+          }
+          fields {
+            authorId
+            slug
+          }
+        }
+      }
+    }
+    authorYaml(id: { eq: $authorId }) {
+      id
+      bio
+      github
+      stackoverflow
+      linkedin
+      medium
+      twitter
+    }
+  }
+`

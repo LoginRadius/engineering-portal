@@ -1,0 +1,25 @@
+@import "../styles/variables.scss";
+.text {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: $black;
+  flex: 1 1 0%;
+  .date {
+    color: $gray-dark;
+    font-size: 12px;
+  }
+}
+
+.container {
+  margin: 16px 0 0;
+  display: flex;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+}

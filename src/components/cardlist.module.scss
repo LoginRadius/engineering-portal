@@ -1,0 +1,249 @@
+@import "../styles/variables.scss";
+.user {
+  display: flex;
+  margin: 0 auto 12px auto;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid $gray-light;
+    margin-bottom: calc(1.75rem - 1px);
+    padding-bottom: calc(1.75rem - 1px);
+  }
+  img {
+    border-style: none;
+    border-radius: 8px;
+  }
+  img:before {
+    content: " ";
+    display: block;
+    background-image: url("https://i1.wp.com/prefer.nz/app/uploads/2017/01/iStock-510488086-blog-content-management-tinyfied.jpg?w=1182&ssl=1");
+    border-style: none;
+    border-radius: 0 12px;
+    width: 300px;
+    height: 200px;
+    margin-top: 15px;
+    background-size: cover;
+  }
+}
+
+.pinned {
+  background: $blue-darkest;
+  padding: 40px 0;
+  border-radius: 0;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  .description {
+    margin: 0;
+  }
+  .pinnedtitle {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.38;
+    color: $white;
+    box-shadow: none;
+  }
+  .pinneddescriptionText {
+    color: $white;
+    padding-bottom: 16px;
+  }
+  .pinnedtag {
+    a {
+      background-color: $blue-bright;
+      color: $white;
+    }
+  }
+}
+
+.container {
+  margin-right: 5%;
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+  }
+}
+
+.title {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: $black;
+  box-shadow: none;
+}
+
+.user:last-child {
+  margin-bottom: 0;
+}
+
+.avatar {
+  width: 300px;
+  height: 170px;
+  margin: 5px 0 0 0;
+  @media screen and (max-width: 999px) {
+    width: 100px;
+    height: 60px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+}
+
+.avatar-pinned {
+  width: 50%;
+  margin: 0;
+  height: 320px;
+  @media screen and (max-width: 768px) {
+    height: 250px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.description {
+  flex: 1;
+  padding-left: 40px;
+  @media screen and (max-width: 768px) {
+    padding: 0 0 0 20px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0;
+  }
+}
+
+.header {
+  margin: 0 0 10px 0;
+  h3 {
+    line-height: normal;
+    margin-top: 0px;
+  }
+}
+
+.pinnedtag,
+.tag {
+  a {
+    text-transform: capitalize;
+    color: $blue-bright;
+    margin-right: 10px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 12px;
+    line-height: 1.84615385;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: $blue-light;
+    border-radius: 3px;
+    min-width: 50px;
+    &:first-child {
+      margin-left: 0px;
+    }
+    &:hover {
+      background-color: $blue-bright;
+      color: $white;
+      transition: all 0.2s;
+    }
+  }
+}
+.tag {
+  a {
+    background-color: transparent;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: 600;
+    margin-right: 10px;
+    padding-right: 10px;
+    line-height: 14px;
+    &:not(:last-child) {
+      border-right: 1px solid $blue-bright;
+    }
+    &:first-child {
+      padding-left: 0px;
+    }
+    &:hover {
+      background-color: transparent;
+      transition: all 0.2s;
+      color: $blue-dark;
+    }
+  }
+}
+
+.tag-container {
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  .tag-menu {
+    margin: 30px 0 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: scroll;
+    @media screen and (max-width: 768px) {
+      height: 40vh;
+    }
+    a {
+      font-weight: 400;
+      font-size: 15px;
+      text-transform: capitalize;
+      color: #0d8dcf;
+      background-color: #f8f9fc;
+      padding: 8px 16px;
+      text-decoration: none;
+      margin-right: 11px;
+      margin-bottom: 10px;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 4px;
+      &:hover {
+        background-color: $blue-bright;
+        color: $white;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .tag-header {
+    margin: 1.75em 0 1em 0;
+  }
+}
+
+.description-text {
+  color: $black;
+}
+
+.username {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.excerpt {
+  margin: 0;
+}
+
+@media all and (max-width: 420px) {
+  .user {
+    flex-direction: column;
+  }
+  .tag-container {
+    display: none;
+  }
+}
