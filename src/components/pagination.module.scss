@@ -12,6 +12,9 @@
     margin: 0 10px;
     box-shadow: none;
     font-weight: 500;
+    @media (max-width: 768px) {
+      padding: 0 5px;
+    }
     &.active,
     &:hover {
       color: $white;
