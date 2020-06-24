@@ -1,7 +1,7 @@
 ---
 title: "How to use Maven Dependency in Eclipse"
 date: "2017-07-11"
-coverImage: "download.jpg"
+coverImage: "maven.png"
 author: "Giriraj Yadav"
 tags: ["Java", "Maven", "Eclipse"]
 ---

@@ -22,7 +22,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         <img src={logo} alt={`logo`} />
       </Link>
       <div className={headerStyles.menuLinks}>
-        <nav className={headerStyles.menuLinks}>
+        <nav className={headerStyles.menuLinksinner}>
           <ul>
             {menuLinks.map((link, index) => (
               <li>
@@ -42,7 +42,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         <div className={headerStyles.navRightSide}>
           <div className={headerStyles.freeSignup}>
             <a
-              className={"btn-primary"}
+              className={"btn-primary small"}
               href={`https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login`}
               target="_blank"
               rel="noopener noreferrer"
@@ -51,11 +51,8 @@ const Header = ({ menuLinks, searchIndex }) => {
               {"Free Sign Up"}
             </a>
           </div>
-          <div className={headerStyles.searchWrapper}>
-            <a href="#" className={headerStyles.searchButton}></a>
-          </div>
+          <Search searchIndex={searchIndex} />
         </div>
-        {/* <Search searchIndex={searchIndex} /> */}
       </div>
     </div>
   )

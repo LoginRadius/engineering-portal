@@ -106,6 +106,7 @@ ul {
   transition: all 0.3s;
   border: 0;
   &.small {
+    width: auto;
     height: 40px;
     line-height: 40px;
     font-weight: 500;
