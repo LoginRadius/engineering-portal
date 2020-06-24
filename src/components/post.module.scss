@@ -17,6 +17,17 @@
     .post-description {
       border-bottom: 1px solid $gray-light;
     }
+    blockquote {
+      color: $blue-bright;
+      background-color: $blue-light;
+      border: 1px solid $blue-bright;
+      border-radius: 6px;
+      padding: 8px 16px;
+      margin: 0 0 30px 0;
+      strong {
+        font-weight: bold;
+      }
+    }
   }
   .sidebar {
     hr {
