@@ -15,6 +15,14 @@ const logger = function (linkName, headerLink) {
   })
 }
 
+const signUplogger = function () {
+  ReactGA.event({
+    category: "Signup",
+    action: "User clicked on Free signup button",
+    label: "Signup",
+  })
+}
+
 const Header = ({ menuLinks, searchIndex }) => {
   return (
     <div className={headerStyles.header}>
@@ -46,7 +54,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               href={`https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login`}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={logger}
+              onClick={signUplogger}
             >
               {"Free Sign Up"}
             </a>

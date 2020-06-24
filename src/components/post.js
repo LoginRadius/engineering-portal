@@ -16,11 +16,11 @@ import TagMenu from "./tagMenu"
 
 import ReactGA from "react-ga"
 
-const logger = function (linkName, headerLink) {
+const logger = function () {
   ReactGA.event({
-    category: "Header Menu Clicks",
-    action: `User clicked on ${linkName}`,
-    label: `${headerLink}`,
+    category: "LoginRadius Docs",
+    action: "User clicked on Loginradius Docs button",
+    label: "Docs",
   })
 }
 
@@ -69,11 +69,7 @@ const Post = ({ post, relatedPost }) => {
                 ))}
             </div>
             <div className={headStyles.description}>
-              <h1>
-                <Link to={post.fields.slug}>
-                  {post.frontmatter.title || post.fields.slug}
-                </Link>
-              </h1>
+              <h1>{post.frontmatter.title || post.fields.slug}</h1>
               <p
                 className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
                 dangerouslySetInnerHTML={{
@@ -126,7 +122,8 @@ const Post = ({ post, relatedPost }) => {
                 <p>Implement Authentication in Minutes</p>
                 <a
                   className={"btn-primary"}
-                  href={`https://www.loginradius.com/docs/developer`}
+                  href={"https://www.loginradius.com/docs/developer"}
+                  key={"docs-link"}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={logger}
