@@ -24,7 +24,7 @@ const FreeTrial = () => {
             </p>
           </div>
           <a
-            className={"btn-primary small"}
+            className={"btn-primary"}
             href={`https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login`}
             target="_blank"
             rel="noopener noreferrer"

@@ -62,6 +62,10 @@
           &:hover {
             color: $white;
           }
+          @media (max-width: 479px) {
+            padding: 0 15px;
+            font-size: 18px;
+          }
         }
       }
     }
@@ -138,7 +142,7 @@
   }
   ul {
     width: 300px;
-    top: 69px;
+    top: 42px;
     padding: 1em;
     position: absolute;
     list-style: none;

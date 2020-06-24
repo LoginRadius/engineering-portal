@@ -1,7 +1,7 @@
 ---
 title: "How to Maintain Test Cases in Excel Sheets"
 date: "2015-11-03"
-coverImage: "maintain-test-case-excel-150x150.png"
+coverImage: "test_cases.png"
 author: "Shefali Yaduvanshi"
 tags: ["Excel", "Tes"]
 ---
