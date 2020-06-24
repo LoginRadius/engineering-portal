@@ -44,7 +44,7 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LoginRadius Inc.
+              {" LoginRadius Inc."}
             </a>
           </div>
           <nav className={styles.menuLinks}>

@@ -1,7 +1,7 @@
 ---
 title: "Why do you need to validate your site on W3C?"
 date: "2015-01-26"
-coverImage: "w3schools_001.png"
+coverImage: "w3c.png"
 author: "Team LoginRadius"
 tags: ["W3C", "Validation"]
 ---

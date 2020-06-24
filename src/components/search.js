@@ -33,7 +33,11 @@ export default class Search extends Component {
 
   bodyClickHandler = () => {
     if (this._shouldClose) {
-      this._toggleSearch()
+      this.setState({
+        toggleOpen: false,
+        results: [],
+        query: "",
+      })
     }
   }
 
