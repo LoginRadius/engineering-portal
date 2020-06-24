@@ -16,7 +16,6 @@ const BlogList = ({ data, pageContext, location }) => {
         pathname={location.pathname}
       />
       <main>
-        <h2> All Engineering articles </h2>
         <CardList posts={data.allMarkdownRemark.edges} total={total} />
         <Pagination pages={numPages} currentPage={currentPage} />
       </main>
@@ -46,7 +45,7 @@ export const blogListQuery = graphql`
             tags
             coverImage {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }

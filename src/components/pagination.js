@@ -31,8 +31,8 @@ const Pagination = ({ pages, currentPage }) => {
   ]
 
   return (
-    <div className={styles.container}>
-      <div className={styles.wrapper}>
+    <section className="bg-light py-40">
+      <div className={styles.pagination}>
         {!isFirst && <Link to={`/blog/${prevPage}`} rel="prev" />}
         {!intialPages && (
           <Link
@@ -42,7 +42,7 @@ const Pagination = ({ pages, currentPage }) => {
             {1}
           </Link>
         )}
-        {!intialPages && <Link to="">...</Link>}
+        {!intialPages && <p to="">...</p>}
         {pageArray.map((k, i) => (
           <Link
             to={`${k === 1 ? `/blog/` : `/blog/${k}`}`}
@@ -52,7 +52,7 @@ const Pagination = ({ pages, currentPage }) => {
             {k}
           </Link>
         ))}
-        {!lastPages && <Link>...</Link>}
+        {!lastPages && <p>...</p>}
         {!lastPages && (
           <Link
             to={`/blog/${pages}`}
@@ -65,7 +65,7 @@ const Pagination = ({ pages, currentPage }) => {
 
         {!isLast && <Link to={`/blog/${nextPage}`} rel="next" />}
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -22,7 +22,11 @@ const Tags = ({ pageContext, data, location }) => {
         location={location.pathname}
       />
       <main>
-        <h2> {tagHeader} </h2>
+        <section>
+          <div className="pt-80">
+            <h2 className="mb-0"> {tagHeader} </h2>
+          </div>
+        </section>
         <CardList posts={edges} />
       </main>
     </Layout>
@@ -82,7 +86,7 @@ export const pageQuery = graphql`
             tags
             coverImage {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid {
                   ...GatsbyImageSharpFluid_noBase64
                 }
               }

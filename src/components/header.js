@@ -5,16 +5,15 @@ import headerStyles from "./header.module.scss"
 
 import logo from "../../static/engineering-blog.svg"
 import Search from "./search"
-import ReactGA from 'react-ga'
+import ReactGA from "react-ga"
 
-const logger = function(linkName, headerLink) {
+const logger = function (linkName, headerLink) {
   ReactGA.event({
-    category: 'Header Menu Clicks',
+    category: "Header Menu Clicks",
     action: `User clicked on ${linkName}`,
-    label: `${headerLink}`
+    label: `${headerLink}`,
   })
 }
-
 
 const Header = ({ menuLinks, searchIndex }) => {
   return (
@@ -23,7 +22,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         <img src={logo} alt={`logo`} />
       </Link>
       <div className={headerStyles.menuLinks}>
-        <nav className={headerStyles.menuLinks}>
+        <nav className={headerStyles.menuLinksinner}>
           <ul>
             {menuLinks.map((link, index) => (
               <li>
@@ -40,7 +39,20 @@ const Header = ({ menuLinks, searchIndex }) => {
             ))}
           </ul>
         </nav>
-        <Search searchIndex={searchIndex} />
+        <div className={headerStyles.navRightSide}>
+          <div className={headerStyles.freeSignup}>
+            <a
+              className={"btn-primary small"}
+              href={`https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={logger}
+            >
+              {"Free Sign Up"}
+            </a>
+          </div>
+          <Search searchIndex={searchIndex} />
+        </div>
       </div>
     </div>
   )

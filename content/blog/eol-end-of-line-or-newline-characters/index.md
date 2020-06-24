@@ -1,7 +1,7 @@
 ---
 title: "EOL End of Line or Newline Characters"
 date: "2017-09-06"
-coverImage: "endofline.png"
+coverImage: "eol.png"
 author: "Govind Malviya"
 tags: ["Engineering", "EOL", "Linux"]
 ---

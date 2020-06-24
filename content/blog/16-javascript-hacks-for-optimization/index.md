@@ -7,7 +7,7 @@ tags: ["Engineering","JavaScript","Hacks","Array"]
 
 ---
 
-![Sweet 16 Javascript Hacks and Tips To Optimize Performance and Save time](16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png)JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.
+JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.
 
 An optimized code is a combination of smartly programmed logics and small hacks to optimize performance, speed and save time.
 
