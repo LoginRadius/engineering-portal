@@ -12,7 +12,7 @@
 ## Contribution Flow
 This is a rough outline of what a contributor's workflow looks like:
 
- - Create a topic branch from where you want to base your work (usually master).
+ - Create a topic branch from `dev` branch to base your work.
  - Make commits of logical units.
  - Make sure your commit messages are in the proper format (see below).
  - Push your changes to a topic branch in your fork of the repository.
