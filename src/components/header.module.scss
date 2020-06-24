@@ -64,7 +64,7 @@
           }
           @media (max-width: 479px) {
             padding: 0 15px;
-            font-size: 18px;
+            font-size: 16px;
           }
         }
       }
@@ -93,6 +93,7 @@
       -ms-flex-align: center;
       align-items: center;
       margin-right: 60px;
+      z-index: 1;
       @media (max-width: 768px) {
         margin-right: 0;
       }
@@ -139,6 +140,7 @@
     font-size: 16px;
     border-radius: 4px;
     padding: 0;
+    z-index: -1;
   }
   ul {
     width: 300px;
@@ -194,6 +196,7 @@
   opacity: 1 !important;
   border-radius: 4px 0 0 4px !important;
   padding: 0 15px !important;
+  z-index: 2 !important;
   @media (max-width: 768px) {
     width: calc(100% - 65px) !important;
   }

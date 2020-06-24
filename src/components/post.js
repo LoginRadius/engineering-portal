@@ -96,30 +96,31 @@ const Post = ({ post, relatedPost }) => {
             />
             <div class={styles.sidebar}>
               {relatedPost.length ? (
-                <div class={styles.relatedPost}>
-                  <h3>Related Posts</h3>
-                  {relatedPost.map(({ node }, i) => (
-                    <div class={styles.relatedPostRow}>
-                      <div class={styles.description}>
-                        <h4>
-                          <Link to={node.fields.slug} rel="prev">
-                            {node.frontmatter.title}
-                          </Link>
-                        </h4>
+                <>
+                  <div class={styles.relatedPost}>
+                    <h3>Related Posts</h3>
+                    {relatedPost.map(({ node }, i) => (
+                      <div class={styles.relatedPostRow}>
+                        <div class={styles.description}>
+                          <h4>
+                            <Link to={node.fields.slug} rel="prev">
+                              {node.frontmatter.title}
+                            </Link>
+                          </h4>
+                        </div>
+                        <div class={styles.tag}>
+                          {node.frontmatter.tags.map(tag => (
+                            <Link to={`/blog/tags/${kebabCase(tag)}/`}>
+                              {tag}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
-                      <div class={styles.tag}>
-                        {node.frontmatter.tags.map(tag => (
-                          <Link to={`/blog/tags/${kebabCase(tag)}/`}>
-                            {tag}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                  <hr />
+                </>
               ) : null}
-
-              <hr />
               <div>
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
