@@ -108,12 +108,11 @@ const Post = ({ post, relatedPost }) => {
                         </h4>
                       </div>
                       <div class={styles.tag}>
-                        {tags &&
-                          tags.map(tag => (
-                            <Link to={`/blog/tags/${kebabCase(tag)}/`}>
-                              {tag}
-                            </Link>
-                          ))}
+                        {node.frontmatter.tags.map(tag => (
+                          <Link to={`/blog/tags/${kebabCase(tag)}/`}>
+                            {tag}
+                          </Link>
+                        ))}
                       </div>
                     </div>
                   ))}

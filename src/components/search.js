@@ -2,8 +2,6 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSearch } from "@fortawesome/free-solid-svg-icons"
 
 // Search component
 export default class Search extends Component {
@@ -12,28 +10,64 @@ export default class Search extends Component {
     this.state = {
       query: ``,
       results: [],
+      toggleOpen: false,
     }
   }
 
+  _shouldClose = false
+
+  _toggleSearch = () => {
+    const { toggleOpen } = this.state
+    if (toggleOpen) {
+      this.setState({
+        toggleOpen: false,
+        results: [],
+        query: "",
+      })
+    } else {
+      this.setState({
+        toggleOpen: true,
+      })
+    }
+  }
+
+  bodyClickHandler = () => {
+    if (this._shouldClose) {
+      this._toggleSearch()
+    }
+  }
+
+  componentDidMount() {
+    document.body.addEventListener("click", this.bodyClickHandler)
+  }
+
+  componentWillUnmount() {
+    document.body.removeEventListener("click", this.bodyClickHandler)
+  }
+
   render() {
-    const { results } = this.state
+    const { results, toggleOpen } = this.state
     return (
       <div
         className={`${headerStyles.searchWrapper} ${
           results.length ? headerStyles.searchList : ""
         }`}
+        onMouseOver={() => (this._shouldClose = false)}
+        onMouseLeave={() => (this._shouldClose = true)}
       >
-        <div className={headerStyles.search}>
-          <input
-            type="text"
-            className={headerStyles.searchTerm}
-            placeholder="Search..."
-            onChange={this.search}
-          />
-          <span className={headerStyles.searchButton}>
-            <FontAwesomeIcon icon={faSearch} />
-          </span>
-        </div>
+        <input
+          type="text"
+          className={`${headerStyles.searchTerm}  ${
+            toggleOpen ? headerStyles.searchTermOpen : ""
+          }`}
+          placeholder="Search..."
+          onChange={this.search}
+        />
+        <a
+          className={headerStyles.searchButton}
+          onClick={this._toggleSearch}
+        ></a>
+
         {results.length ? (
           <ul>
             {results.slice(0, 4).map(page => (
