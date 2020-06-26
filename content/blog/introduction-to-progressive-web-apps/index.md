@@ -333,7 +333,7 @@ Now our application is made as fully PWA supported, you can verify it by running
 
 We are done with the code, now the last thing remaining in to host it in any of the `https` domain. As the PWA will require to run in the secure domain.
 
-You can get the full source code of this example in this [Github repo](/)
+You can get the full source code of this example in this [Github repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/ProgressiveWebApp/MyFirstPWA)
 
 I hope you enjoyed this tutorial and found it useful. Please let me know what you think in the comments below.
 
