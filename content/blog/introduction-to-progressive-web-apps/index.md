@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Progressive Web App with example"
-date: "2020-06-25"
-coverImage: "pwa.png"
+date: "2020-06-26"
+coverImage: "cover.png"
 author: "Mohammed Modi"
 tags: ["PWA", "JavaScript"]
 ---
