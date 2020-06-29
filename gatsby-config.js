@@ -140,6 +140,7 @@ module.exports = {
     `gatsby-transformer-yaml`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
+    `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-feed`,
@@ -192,28 +193,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve:`gatsby-plugin-netlify`,
-      options: {
-        headers: {
-          "/public/**/*.html": [
-            "cache-control: public",
-            "cache-control:  max-age=0", 
-            "cache-control: must-revalidate"
-          ],
-          "/sw.js": [
-            "cache-control: public",
-            "cache-control:  max-age=0", 
-            "cache-control: must-revalidate"
-          ],
-          "/public/page-data/*": [
-            "cache-control: public",
-            "cache-control:  max-age=0", 
-            "cache-control: must-revalidate"
-          ]
-        }
-      }
-    }
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
