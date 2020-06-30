@@ -1,12 +1,12 @@
 ---
-title: "Self-Hosted MongoDB — Part I"
-date: "2020-06-27"
+title: "Self-Hosted MongoDB"
+date: "2020-06-30T12:00:00"
 coverImage: "cover.jpeg"
 author: "Chinmaya Pati"
 tags: ["MongoDB", "Mongo", "AWS", "Atlas"]
 ---
 
-You’re probably hosting your MongoDB on a reliable cloud service provider say [Atlas](cloud.mongodb.com) for instance because you really want to focus on your idea and delegate all the subtle key management areas such as networking, storage, access, etc.
+You’re probably hosting your MongoDB on a reliable cloud service provider say [Atlas](https://cloud.mongodb.com) for instance because you really want to focus on your idea and delegate all the subtle key management areas such as networking, storage, access, etc.
 
 It all looks good initially until your small idea starts turning into a business and the cost starts skyrocketing. Even if that is not the case, this post will still give you a general overview of the technical complexities involved (and bucks saved!) if you were to migrate to a self-hosted solution.
 
@@ -15,7 +15,7 @@ BTW, how much savings are we talking about? Let’s do a quick comparison betwee
 **Atlas (~$166/month)**
 
 !["Atlas Pricing"](atlas.png "Atlas Pricing")
-$0.23/hour based on the above-selected requirements (~ [cloud.mongodb.com](cloud.mongodb.com))
+$0.23/hour based on the above-selected requirements (~ [cloud.mongodb.com](https://cloud.mongodb.com))
 
 <br><br>**AWS (~$36/month)**
 !["AWS Pricing"](aws.png "AWS Pricing")
@@ -35,8 +35,6 @@ Now that you know the major why(s) and are still reading this post, without furt
 4. Delta-sync to bridge the connection switch latency (not applicable to stale clusters)
 
 Since the entire content can be a bit exhausting in one place, I’m going to divide this into 2 related posts.
-
-<br><br>
 
 # 1. Setting up the Infrastructure
 I’m going to mention below the guide for setting up an instance running **RedHat Enterprise Linux 8** on AWS. This is because MongoDB generally performs better with the xfs file-system. [Here is an article to understand it better.](https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/)
@@ -122,7 +120,7 @@ Open the `/etc/security/limits.conf` file and add the following entries.
 
 Now that all of the infra related prerequisites are sorted, **reboot** the instance, and let’s proceed to MongoDB installation.
 
-<br><br><hr /><br><br>
+<hr />
 
 # 1. Setting up MongoDB
 ## Add the Repo Source
@@ -144,7 +142,7 @@ $ sudo yum -y install mongodb-org
 ## Create directories and setup permissions
 MongoDB by default uses the following paths to store the data and the internal logs:
 
->**/var/lib/mongo** → Data<br>**/var/log/mongodb** → Logs
+> **/var/lib/mongo** → Data<br>**/var/log/mongodb** → Logs
 
 **Create the directories**
 ```bash
@@ -220,5 +218,4 @@ $ mongo -u admin -p password
 
 That is it about the initial setup! Please stay tuned for my next related post on the detailed migration process and tips on keeping the DB production-ready.
 
-<br><br>
 P.S. Thanks to [Piyush Kumar](https://twitter.com/MrEnvoy17) for helping curate this post!
