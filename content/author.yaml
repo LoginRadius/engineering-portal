@@ -102,6 +102,8 @@
   github: "mohammed786"
   stackoverflow: "5688477"
   linkedin: "mohammed-modi-2016307a"
+  medium: "@mohammedmodi"
+  twitter: "momscoolguy"
 
 - id: Sudhey Sharma
   bio: I am a testing consultant, coach * enthusiast, who's been in the software testing industry since 2004. Currently, I am working as QA Manager. Striving to improve the testing craft.
@@ -122,3 +124,10 @@
   github: "rkpareek"
   stackoverflow: "4875077"
   linkedin: "rkpareek"
+
+- id: Chinmaya Pati
+  bio: I'm a software engineer with expertise in fullstack web development. I've strong command on JS and related frameworks. Interested in database technologies and system design.
+  github: "cnp96"
+  linkedin: "chinmayapati"
+  stackoverflow: "5790355"
+
