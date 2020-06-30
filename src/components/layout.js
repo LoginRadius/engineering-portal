@@ -4,7 +4,6 @@ import Footer from "./footer"
 import FreeTrial from "./freeTrail"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
-import TagMenu from "./tagMenu"
 import favicon from "../../static/favicon.png"
 import Helmet from "react-helmet"
 import SEO from "./seo"
@@ -66,9 +65,6 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>
                   {children}
-                  {/* {!hideTagMenu && (
-                    <TagMenu list={data.allMarkdownRemark.group} />
-                  )} */}
                 </div>
               </div>
               <FreeTrial />
