@@ -18,9 +18,13 @@
       border-bottom: 1px solid $gray-light;
     }
     blockquote {
-      border-left: 3px solid #000;
+      border-left: 3px solid $blue-bright;
+      border-radius: 0 6px 6px 0;
       padding: 8px 16px;
       margin: 0 0 30px;
+      border: 1px solid #efefef;
+      border-left-width: 3px;
+      border-left-color: $blue-bright;
       font-style: italic;
       strong {
         font-weight: bold;
