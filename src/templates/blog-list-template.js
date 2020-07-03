@@ -41,6 +41,7 @@ export const blogListQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            description
             title
             tags
             coverImage {
