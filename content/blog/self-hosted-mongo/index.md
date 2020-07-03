@@ -4,6 +4,7 @@ date: "2020-06-30T12:00:00"
 coverImage: "cover.jpeg"
 author: "Chinmaya Pati"
 tags: ["MongoDB", "Mongo", "AWS", "Atlas"]
+description: "Looking to optimize your db cost? This post will guide you with the complete migration steps from a cloud to a self-hosted environment…"
 ---
 
 You’re probably hosting your MongoDB on a reliable cloud service provider say [Atlas](https://cloud.mongodb.com) for instance because you really want to focus on your idea and delegate all the subtle key management areas such as networking, storage, access, etc.

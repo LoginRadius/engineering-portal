@@ -4,7 +4,7 @@ Here are some guidelines that you must follow while writing the blog for enginee
 
 1. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode have `HTML` preview. My favourite is [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
 
-2. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1024px x 768px** and the minimum image size can be **600px x 400px**.
+2. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **600px x 400px**.
 
 3. The blog should have the metatags at the top of you MD files which should have the below properties.
     * **title (Required)** : A meaningfull title.
