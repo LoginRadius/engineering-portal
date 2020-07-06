@@ -2,6 +2,8 @@ const path = require(`path`)
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+const SERVER_DATE = new Date().toISOString().slice(0, 10)
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -12,6 +14,9 @@ exports.createPages = async ({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
+          filter: {
+            frontmatter: { date: { lte: "${SERVER_DATE}" } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
