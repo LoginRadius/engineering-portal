@@ -25,9 +25,14 @@ const BlogList = ({ data, pageContext, location }) => {
 
 export default BlogList
 
+const SERVER_DATE = new Date().toISOString().slice(0, 10)
+
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
+      filter: {
+        frontmatter: { date: { lte: "${SERVER_DATE}" } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
