@@ -1,6 +1,6 @@
 - id: Team LoginRadius
   bio: LoginRadius is a leading provider of cloud-based Customer Identity and Access Management (cIAM) platform.
-  github: 'LoginRadius'
+  github: "LoginRadius"
 
 - id: Puneet Singh
   bio: Very curious about this world and blogging whenever learning something new
@@ -10,7 +10,7 @@
 
 - id: Ravi Teja Ghanta
   bio: First curious cat at Gatsby Curious Community. Blogs at dev.wgao19.cc.
-  github: 'ravitejag'
+  github: "ravitejag"
 
 - id: Govind Malviya
   bio: Director of Product Development @ LoginRadius. Likes tech, reading/writing, founding things.
@@ -18,7 +18,7 @@
 
 - id: Zakary Hughes
   bio: Zak is our resident front end development and design intern. He studied web design and development at the Northern Alberta Institute of Technology. One of his passions, outside of work, is fitness. Legend has it that he once ate a two-bite brownie in a single bite.
-  
+
 - id: Chris Yee
   bio: A software engineer who graduated with a Bachelor of Software Engineering from the University of British Columbia.
 
@@ -64,7 +64,7 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering. 
+  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering.
 
 - id: Lucius Yu
   bio: Lucius is a Software Developer at LoginRadius. He was born and raised in China, but came to Edmonton to graduate from the University of Alberta, double majoring in Computer Sciences and Mathematics. Besides coding, which is his real passion, he enjoys playing ping pong and swimming.
@@ -108,7 +108,7 @@
 - id: Sudhey Sharma
   bio: I am a testing consultant, coach * enthusiast, who's been in the software testing industry since 2004. Currently, I am working as QA Manager. Striving to improve the testing craft.
   github: "sudheysharma"
-  
+
 - id: Himanshi Sharma
   bio: I am Full Stack Automation Engineer,  working since 7 years in IT Industry. I have keen interest in test automation primarily because of the wide range of challenging problems inherited in this field.
   github: "Himanshi0512"
@@ -132,13 +132,12 @@
   stackoverflow: "5790355"
   twitter: chiku__p
 
-
 - id: Priyadarshan Mohanty
-  bio: Data Engineer at LoginRadius
-  github: priyadarshan1995
-  linkedin: darshanmohanty14
+  bio: Priyadarshan Mohanty is a Data Engineer at LoginRadius and has experience in working in Big Data technologies like Hadoop, Hive, Spark and Kafka. Interested in database technologies and distributed systems.
+  github: "priyadarshan1995"
+  linkedin: "darshanmohanty14"
+  medium: "@darshan.mohanty14"
 
 - id: Piyush Kumar
   bio: Software Engineer
   github: kpiyush17
-  
