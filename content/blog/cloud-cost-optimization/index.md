@@ -41,19 +41,13 @@ Cloud infrastructure is increasing day by day. Choosing the right cloud provider
 - Pricing structure
 - Location wise availability 
 
-#### Different types of Instances
-All Big Cloud Providers are providing spot instances. Spot instances are unused instances. Cloud Providers offered up to 90% discount on these instances compared to on-demand or reserved instances.AWS, Azure, and Google (GCP) all provide the option to use Spot Instances.
-- AWS Spot Instances 
-- Azure Low Priority VMS
-- GCP Preemptible VMS
-
 #### Discounted Instances
 All Big Cloud Providers are providing discounted Instances or spot instances. Spot instances are unused instances. Cloud Providers offered up to 90% discount on these instances compared to on-demand or reserved instances. The majority of organizations have some workloads that are not critical, We can reduce the cost for not critical workload by using spot instances. AWS, Azure, and Google (GCP) all provide the option to use Spot Instances.
 - AWS Spot Instances 
 - Azure Low Priority VMS
 - GCP Preemptible VMS
 
-##### Identify Instance Right Size  
+#### Identify Instance Right Size  
 Identify the right size for the Instance, not an easy task. We need to configure multiple matrices in our cloud service provider. Key metrics to look for are CPU and memory usage. Identify instances with a maximum CPU usage and memory usage of the month.
 
 ###### How Check metrics
@@ -73,20 +67,20 @@ As expected, the 99th percentile is higher than the average. 99th percentile is 
 The conclusion is We need to always check the 99th percentile. The average can mislead and it can impact your users.
 
 ### Creating Underutilization Alarm 
-We can create different types of resources and applications utilization monitoring matrix and based on the data we can configure multiple alarms. You can configure notification or alarms on email, SMS from the Cloud provider dashboard. you can also configure alarms that automatically stop or terminate EC2 instances or VM when instance unused or underutilized according to the configured threshold. For example, if you are a DevOps or developer, you can create a group of alarms that sends an email notification to developers whose instances have been underutilized or ideal for some hours, then terminates an instance. It will save the overall infra cost. different cloud providers provide different ways for creating these type alarms
+We can create different types of resources and applications utilization monitoring matrix and based on the data we can configure multiple alarms. You can configure notification or alarms on email, SMS from the Cloud provider dashboard. you can also configure alarms that automatically stop or terminate EC2 instances or VM when instance unused or underutilized according to the configured threshold. During the development or some POC as a developer or devops person we have to create some instances or resources but sometimes we forgot to terminate the instances or resources. You can minimize the this extra cost by creating a group of alarms that sends an email notification to developers whose instances have been underutilized or ideal for some hours, then terminates an instance. It will save the overall infra cost. different cloud providers provide different ways for creating these type alarms
 -  [Amazone (Aws)](https://aws.amazon.com/cloudwatch/features/)
 -  [Azure](https://azure.microsoft.com/en-in/blog/announcing-azure-advisor-azure-monitor-and-resource-health/) 
 -  [Google Cloud](https://cloud.google.com/compute/docs/instances/viewing-and-applying-idle-vm-recommendations)
 
 
-#### Creating time based  actions
+### Creating time based  actions
 You can save around 75% cost for your Non - Production Development, Staging, and QA environment. Non - Production environment generally needed during working days. You can turn off these servers during off-hours. Cost-saving depends on the infrastructure size, it can be hundred, thousands of dollars
 
 You can create automation scripts for infrastructure deployment. Schedule the script in your cloud provider         
 
 
 ###  In-memory cache Storage
-Application in-memory cache reduces the cost of transferring data in the network and overall application performance because reduce the traffic between the database servers or any other external application reduce the network level cost in the cloud also caching improves data accessibility by moving frequently accessed things in-memory instead of retrieving data from the storage server. Suppose your application is fetching user configuration or settings in every request from the database server. We can keep this type of configuration, which is not changing frequently in the in-memory cache. it will save a lot network-level cost 
+Application in-memory cache reduces the cost of transferring data in the network and overall application performance because reduce the traffic between the database servers or any other external application reduce the network level cost in the cloud also caching improves  the efficiency and accessibility of data that used repeatedly or frequently accessed. Suppose your application is fetching user configuration or settings in every request from the database server. You can keep this type of configuration, which is not changing frequently in the in-memory cache. it will save a lot network-level cost 
 
 ### Data Transfer Cost Optimization 
 Data Transfer cost mostly hidden or Some time we don't take care of it. Generally, data transfer is free in the same region between different services Storage, Compute service, etc. 
