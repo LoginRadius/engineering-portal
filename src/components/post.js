@@ -43,7 +43,7 @@ const Post = ({ post, relatedPost }) => {
         ></script>
         <script
           defer
-          src="https://dev.social9.com/comments/js/commento.js"
+          src="https://social9.com/comments/js/commento.js"
         ></script>
       </Helmet>
       <SEO
