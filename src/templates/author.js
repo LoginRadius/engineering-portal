@@ -24,7 +24,7 @@ export default ({
   <Layout hideTagMenu={true}>
     <SEO
       title={id}
-      description={bio}
+      description={`${id} - ${bio}`}
       image={github}
       location={location.pathname}
     />
