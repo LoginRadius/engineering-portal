@@ -7,11 +7,11 @@ tags: ["Security","HTTP Headers"]
 description: "HTTP security headers are a fundamental part of website security. Upon implementation, they protect you against the types of attacks that your site is most likely to come across. These headers protect against XSS, code injection, clickjacking, etc. This article explains most commonly used HTTP headers in context to application security"
 ---
 
-### What are HTTP Security Headers
+### What are HTTP Security Headers ? 
 
 When we visit any website in the browser, the browser sends some request headers to the server and the server responds with HTTP response headers. These headers are used by the client and server to share information as a part of the HTTP protocol. Browsers have defined behavior of the web page according to these headers during communication with the server. These headers are mainly a combination of key-value pairs separated by a colon `:`. There are many HTTP headers, but here I'm covering some very useful web security headers, which will improve your website security. 
 
-### Why Http Security Header Are Necessary
+### Why HTTP Security Headers are necessary ? 
 As you know, nowadays too many data breaches are happening, many websites are hacked due to misconfiguration or lack of protection. These security headers will protect your website from some common attacks like XSS, code injection, clickjacking, etc. Additionally these headers increases your website SEO score.
 
 #### 1. Enforcing HTTPS (HTTP Strict Transport Security (HSTS))
