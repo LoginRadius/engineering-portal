@@ -27,6 +27,7 @@ const PinnedCard = () => {
                   date(formatString: "MMMM DD, YYYY")
                   title
                   tags
+                  description
                   coverImage {
                     childImageSharp {
                       fluid(quality: 80) {
