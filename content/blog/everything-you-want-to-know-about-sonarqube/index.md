@@ -4,6 +4,7 @@ date: "2020-07-11"
 coverImage: "sonarqube.png"
 author: "Kheenvraj Lomror"
 tags: ["Code Quality", "SonarQube"]
+description: "SonarQube is a very universal tool for static code analysis that has become more or less the industry standard. Keeping code clean, simple and easy to read is also a lot easier with SonarQube."
 ---
 ### Why SonarQube
 Developers working with hard deadlines to deliver the required functionality to the customer. It is so important for developers that many times they compromise with the code quality, potential bugs, code duplications, and bad distribution of complexity. Additionally they tend to leave unused variables, methods, etc. In this scenario, code would work in the desired way but do you think this is a proper way to deliver the functionality? No. 
