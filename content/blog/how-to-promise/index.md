@@ -3,7 +3,7 @@ title: "How to Promise"
 date: "2016-01-05"
 coverImage: "promise-300x300.png"
 author: "Solomon Yu"
-tags: ["Javascript", "Promise"]
+tags: ["JavaScript", "Promise"]
 ---
 
 As a front-end developer, if you haven't heard about Promise in Javascript, well ...  

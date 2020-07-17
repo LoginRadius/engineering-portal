@@ -3,7 +3,7 @@ title: "NodeJS and MongoDB application authentication by JWT"
 date: "2020-03-20"
 coverImage: "jwt.png"
 author: "Ashish Sharma"
-tags: ["NodeJS", "JWT","MongoDB","Authentication"]
+tags: ["NodeJS", "JWT","MongoDB","Authentication", "JSON Web Token"]
 ---
 
 In this blog, we’ll be implementing authentication with JWT  in a NodeJS web application. For this, we’ll be using **jsonwebtoken** package 
