@@ -1,7 +1,7 @@
 ---
 title: "React State Management using React hooks and Redux"
 date: "2020-07-17"
-coverImage: "title-image.jpg"
+coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["React","Redux","Hooks"]
 description: "React components has a built-in  state  object. State is encapsulated data  where you store assets that is persistent between component  renderings. State is just a fancy term for a JavaScript data structure."
