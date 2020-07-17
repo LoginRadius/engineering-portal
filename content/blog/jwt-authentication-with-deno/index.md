@@ -3,7 +3,7 @@ title: How to create and validate JSON Web Tokens in Deno
 date: "2020-07-10"
 coverImage: "deno_jwt.png"
 author: "Puneet Singh"
-tags: ["Deno","JWT"]
+tags: ["Deno","JWT", "JSON Web Token"]
 ---
 
 In this blog, we’ll see how to create and validate a JWT(JSON Web Token) in Deno. For this, we’ll be using [djwt](https://github.com/timonson/djwt), the absolute minimum library to make JSON Web Tokens in deno and [Oak framework](https://deno.land/x/oak)

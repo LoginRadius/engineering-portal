@@ -3,7 +3,7 @@ title: "Using JWT with OAuth2: When and Why"
 date: "2019-03-11"
 coverImage: "photo-1454165804606-c3d57bc86b40.jpeg"
 author: Ti Zhang
-tags: ["JWT","OAuth"]
+tags: ["JWT","OAuth", "JSON Web Token"]
 ---
 
 ## What is JWT? What is OAuth2?
