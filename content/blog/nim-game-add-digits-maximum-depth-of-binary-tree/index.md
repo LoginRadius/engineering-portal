@@ -3,7 +3,7 @@ title: "Nim Game, Add Digits, Maximum Depth of Binary Tree"
 date: "2015-11-24"
 coverImage: "nim-blog-150x150.png"
 author: "Lucius Yu"
-tags: ["Nim", "Javascript"]
+tags: ["Nim", "JavaScript"]
 ---
 
 ### 1\. Nim Game

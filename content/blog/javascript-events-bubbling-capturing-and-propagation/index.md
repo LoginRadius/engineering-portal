@@ -3,7 +3,7 @@ title: "JavaScript Events: Bubbling, Capturing, and Propagation"
 date: "2019-07-22"
 coverImage: "bubbles.png"
 author: "Greg Sakai"
-tags: ["Javascript", "Javascript Events"]
+tags: ["JavaScript", "JavaScript Events"]
 ---
 
 **A basic example of a JavaScript event**

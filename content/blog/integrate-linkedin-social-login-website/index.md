@@ -3,7 +3,7 @@ title: "Integrating LinkedIn Social Login on a Website"
 date: "2015-02-11"
 coverImage: "linkedin-feat-img.png"
 author: "Lucius Yu"
-tags: ["Linkedin", "SocialLogin", "Javascript"]
+tags: ["LinkedIn", "SocialLogin", "JavaScript"]
 ---
 
 It is important nowadays to allow your user to sign into your website with their social network account, it provides better experience for your user and also lets you obtain more information about your user. The most welcomed social platforms are Facebook, Twitter, LinkedIn and Google. In this article we will cover how to integrate LinkedIn social login authentication into your website.

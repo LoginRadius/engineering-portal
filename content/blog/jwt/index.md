@@ -1,5 +1,5 @@
 ---
-title: "JSON Web Token"
+title: "What is JSON Web Token"
 date: "2018-07-11"
 coverImage: "jwt.png"
 author: "Mayank Agarwal"

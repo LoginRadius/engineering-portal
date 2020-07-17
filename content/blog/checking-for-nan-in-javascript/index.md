@@ -3,7 +3,7 @@ title: "Checking for NaN in JavaScript"
 date: "2019-11-22"
 coverImage: "numbers-1.jpg"
 author: "Greg Sakai"
-tags: ["Javascript"]
+tags: ["JavaScript"]
 ---
 
 **What is NaN?**
