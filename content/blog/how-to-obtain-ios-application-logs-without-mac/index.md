@@ -1,6 +1,6 @@
 ---
 title: "How to obtain iOS application logs without Mac"
-date: "2020-22-07"
+date: "2020-07-22"
 coverImage: "Log.png"
 author: "Tanvi Jain"
 tags: ["Logs","iOS","Xcode","iPhone","troubleshoot","Mac"]
