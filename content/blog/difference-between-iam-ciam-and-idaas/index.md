@@ -21,6 +21,8 @@ In this article, let’s discuss the following commonly used terminologies for t
 
 These terminologies revolve around the IAM, CIAM, and IDaaS platforms. The infographic below categorizes these terminologies within these platforms:
 
+![IAM CIAM and IDAAS Comparison](iam_ciam_idaas.png)
+
 ## Know the definition
 
 **IAM** defines and manages the roles and access privileges of network users and the cases in which users are granted or denied them. The primary purpose of IAM systems is one digital identity per individual. The established digital identity is then maintained, modified, and monitored throughout users' access lifecycles. 
