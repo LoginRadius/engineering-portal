@@ -10,7 +10,7 @@ description: "Agile is becoming another SDLC methodology but in reality it is be
 Agile is becoming another SDLC methodology but in reality it is beyond normal project management. With time It’s been accessorized a lot and leaving behind the basic building blocks and the important entity the **Agile Development Teams**. 
 
 Does anybody want a product full of bugs, non-scaleable,difficult to maintain, certainly No.
-No matter what is the agile framework we use, the ultimate goal is a wonderful product with complete customer satisfaction. And it's the developers who sit in the centre and build the product and are responsible for the quality.
+No matter whatever the agile framework we use, the ultimate goal is a wonderful product with complete customer satisfaction. And it's the developers who sit in the centre and build the product and are responsible for the quality.
 
 **<p style="text-align: center;">Agile + Development Team = Agile Development Team</p>**
 
