@@ -4,11 +4,12 @@ date: "2020-07-29"
 coverImage: "snapshot_nightwatch.png"
 author: "Nitesh Jain"
 tags: ["QA", "Nightwatch","snapshot-testing"]
+description: "Snapshot testing is one of many different testing tools, which compares the previous and current snapshot. Unlike TDD, snapshot testing relies on the fact that your component renders correctly already. "
 ---
 
 ### Snapshot Testing
 
-**Snapshot tests** are a very useful tool whenever you want to make sure your UI does not change unexpectedly. A typical **snapshot test** case for a website/mobile app renders a UI component, takes a **snapshot**, then compares it to a reference **snapshot** file stored alongside the **test**.
+**Snapshot tests** as the name implies, is a very powerful tool to test whether you the UI has change or not. A typical **snapshot test** case for a website/mobile app renders a UI component, takes a **snapshot**, then compares it to a reference **snapshot** file stored alongside the **test**.
 
 ### Snapshot Testing  Benefits
 
@@ -58,7 +59,7 @@ After creating a snapshot, sometimes we need to update snapshot due to improveme
 
 1.  If we want to update all snapshots by single command then we need to follow below instruction.
 
-    - Create a root folder file(update\_snapshot.js) and paste code on it. →
+    Create a root folder file(update\_snapshot.js) and paste code on it. →
         ```JavaScript
         (
           function(){
@@ -66,7 +67,7 @@ After creating a snapshot, sometimes we need to update snapshot due to improveme
           }
         )()
         ```
-    - Add in package.json
+    Add in package.json
 
       ![(https://cdn.filestackcontent.com/TTvchMDTW6F5x87J0688)](https://cdn.filestackcontent.com/TTvchMDTW6F5x87J0688) 
 
@@ -83,4 +84,6 @@ After creating a snapshot, sometimes we need to update snapshot due to improveme
 
 > Important-: If we want to run only a snapshot test then we will need a small change in the nightwatch.json file.
 
-    ![(https://cdn.filestackcontent.com/EkBrPZffRv2ElZ0Qez36)](https://cdn.filestackcontent.com/EkBrPZffRv2ElZ0Qez36)
+![(https://cdn.filestackcontent.com/EkBrPZffRv2ElZ0Qez36)](https://cdn.filestackcontent.com/EkBrPZffRv2ElZ0Qez36)
+
+You can find the complete reposrtory link [here](https://github.com/niteshjain1987/NightWatch-Snapshot)
