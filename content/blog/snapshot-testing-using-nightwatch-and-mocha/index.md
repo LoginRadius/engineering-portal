@@ -59,14 +59,13 @@ After creating a snapshot, sometimes we need to update snapshot due to improveme
 
 1.  If we want to update all snapshots by single command then we need to follow below instruction.
 
-    Create a root folder file(update\_snapshot.js) and paste code on it. →
-        ```JavaScript
-        (
-          function(){
-              process.env.UPDATE\=1;
-          }
-        )()
-        ```
+    Create a root folder file(update\_snapshot.js) and paste code on it.
+
+    ```javascript
+    (function(){
+          process.env.UPDATE\=1;
+    })()
+    ```
     Add in package.json
 
       ![(https://cdn.filestackcontent.com/TTvchMDTW6F5x87J0688)](https://cdn.filestackcontent.com/TTvchMDTW6F5x87J0688) 

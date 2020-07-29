@@ -51,7 +51,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.freeSignup}>
             <a
               className={"btn-primary small"}
-              href={`https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login`}
+              href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={signUplogger}
