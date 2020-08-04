@@ -17,25 +17,25 @@ In addition to vulnerability scanning, a comprehensive tool should compare the a
 
 ## Answer to **Why it is important?**
 
-While tools like kubernetes and Container Registries have become household names for developer community because these tools make their life  much more easier to develop and deploy applications, many are still catching up on the need to integrate container security tools in order to secure their containerized application throughout the container lifecycle.  As the world is already shifted to containerized applications, taking a good care of you docker images is also equally important.
+While tools like Kubernetes and Container Registries have become household names for developer community because these tools make their life much easier to develop and deploy applications, many are still catching up on the need to integrate container security tools to secure their containerized application throughout the container lifecycle.  As the world is already shifted to containerized applications, taking good care of you docker images is also equally important.
 
-One of the main unique feature of continers is how layers are used to build a container image. A service is piled up with a application server layer, a linux layer and so on. One of these layers is updated, we can rebuild the application with a new updated version.
+One of the main unique features of containers is how layers are used to build a container image. A service is piled up with an application server layer, a Linux layer and so on. One of these layers is updated, we can rebuild the application with a new updated version.
 
-It would be unthinking idea to get into container-based strategy without integrating a well grounded and inclsive container scanning security solution into the CI/CD setup.
+It would be an unthinking idea to get into a container-based strategy without integrating a well-grounded and inclusive container scanning security solution into the CI/CD setup.
 
 
 ## What are the factors to keep in mind while selecting the right tool?
 
 - The CVE database should be up-to-date to any new vulnerability.
 
-- The tool should give a good coverage and should be easy to integrate.
+- The tool should give good coverage and should be easy to integrate.
 
 - Few Image registries like Amazon ECR and Docker Hub, they have it as inbuild container security solution.
 
 
 ## Let's get Implemented.
 
-I am here, implementing clair tool  in gitlab-ci.yml to get secure docker images.
+I am here, implementing a Clair tool in gitlab-ci.yml to get secure docker images.
 
 ```
 image_scanning:
@@ -74,4 +74,4 @@ image_scanning:
 ```
 
 
-`gitlab-org-docker` is a gitlab shared-runner to run this analysis ( a agent on which the above described job will run), it will fetch the latest ms image and  will run it against the CVE database, at last record the report in the json file which we can store as artifacts. These artifacts can be further used by developer to see and resolve the vulnerabilities.
+`gitlab-org-docker` is a GitLab shared-runner to run this analysis (an agent on which the above-described job will run), it will fetch the latest ms image and will run it against the CVE database, at last record the report in the JSON file which we can store as artifacts. These artifacts can be further used by the developer to see and resolve the vulnerabilities.
