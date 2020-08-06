@@ -19,8 +19,7 @@ Design Thinking plays an important role to reiterate the understanding of proble
 
 ### How to define a problem for the business problem with DESIGN THINKING
 
-
-Image Ref: https://www.stephaniebaseman.com/design-thinking-process
+![Design Thinking Process](design_thinking_process.png)
 
   1. **Empathise** the emotions
   Observation of user needs with past and market trends and economic forecasts. It includes interaction with the target user to hear and see the user’s desire and the real cause within the contextual area.
