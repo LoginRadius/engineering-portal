@@ -24,6 +24,7 @@ const PinnedCard = () => {
                   slug
                 }
                 frontmatter {
+                  description
                   date(formatString: "MMMM DD, YYYY")
                   title
                   tags
