@@ -115,7 +115,7 @@ this.state = {
 
 ### useEffect()
 
-React `useeffect()` function can be execeuted in 3 different Reacrt component life cycles that are
+React `useEffect()` function can be execeuted in 3 different React component life cycles that are
  1. componentDidMount
  2. componentDidUpdate
  3. componentWillUnmount
@@ -144,7 +144,7 @@ export default App;
 
 As you can see, In this example we have used the `useEffect` hook to trigger the `setMessage` method the change the `message` variable after 1 second.
 
-But there is one problem, while executing this component you can will see that the `console.log` is triggered twice. The reason is the `useEffect` hook will by default trigger on change of either `state` or `props` similar to the `componentDidUpdate` method in our class component.
+But there is one problem, while executing this component you can will see that the `console.log` will trigger twice. The reason is the `useEffect` hook will by default trigger on change of either `state` or `props` similar to the `componentDidUpdate` method in our class component.
 
 To overcome this kind of case we need to pass the **Empty array ([])** as the second argument in the useEffect hooks. So updated code will look like this
 
