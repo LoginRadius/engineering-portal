@@ -4,7 +4,7 @@ date: "2020-08-06"
 coverImage: "design_led_thinking.png"
 author: "Deepali Soni"
 tags: ["Design", "Design Thinking","UX"]
-description: "Design thinking is a solution orieneted, iteratve process where the team create the design while keeping the end customers in mind. This blog guides you about how does design led thinking wroks."
+description: "Design thinking is a solution-oriented, iterative process where the team creates the design while keeping the end customers in mind. This blog guides you about how does design-led thinking works."
 ---
 
 ### Overview
