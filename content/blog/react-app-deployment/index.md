@@ -6,10 +6,16 @@ author: "Aman Agrawal"
 tags: ["React", "PM2", "Deployment"]
 ---
 
-Yes, you have learned React and now you can develop a full-fledged front end application even with redux. The `create-react-app` helps you to set up and run a React project, including it code transpiling, basic linting, testing, and build systems. 
-In short, you can start writing React code with minimal preparation. But once your application is done, it is time to deploy the same on the server, you are stuck and you will seek help from your backend or DevOps mates. Wait!! Being a front end gut it seems to be difficult, but it is relatively easier than writing state management in redux. 
+Yes, you have learned React and now you can develop a full-fledged front end application. The `create-react-app` helps you to set up and run a React project, including it code transpiling, basic linting, testing, and build systems. 
+In short, you can start writing React code with minimal preparation. But once your application is done, it is time to deploy the same on the server, you are stuck and you will seek help from your backend or DevOps mates.
 
-In this post, we will learn how to deploy a React application on an Ubuntu 18.04 server using `Node.js`, `serve`, and `pm2`.
+Wait!! Being a front end guy it seems to be difficult, but depolying your application on server is relatively easier than writing state management in redux. 
+
+In this post, we will learn how to deploy a React application on an Ubuntu 18.04 server using `Node.js`, `serve`, and [pm2](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+
+
+> pm2 is a process manager for the JavaScript runtime Node.js. This is an open-source daemon process manager that helps to manage and keep application 24/7
+
 
 ### Prerequisites
 To follow this tutorial, you’ll need the following:
@@ -46,8 +52,6 @@ To follow this tutorial, you’ll need the following:
       npm install -g pm2
       ```
 
-> pm2 is a process manager for the JavaScript runtime Node.js. This is an open-source daemon process manager that helps to manage and keep application 24/7
-
 
 5. Since you are in the root directory of your project, run the following command to create a production build of your app.
   This will create a directory named `build` in the project root directory
@@ -74,9 +78,9 @@ Now you can see that your application is running on 8081 port while you have log
 
 ```
 pm2 list
-
 ```
 ![pm2 List](pm2list.png)
+
 
 **Bonus**: Below are some utility commands to manage the pm2 process
 
