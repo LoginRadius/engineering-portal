@@ -2,7 +2,7 @@
 title: "A Journey through React Hooks"
 date: "2020-08-07"
 author: "Mohammed Modi"
-coverImage: "react-hooks.jpg"
+coverImage: "react-hooks.png"
 tags: ["React", "Hooks"]
 description: "Have you ever assigned a task to change the functional component which is full of UI and business logic to a Class Component just because the new feature requires the use of state, just to toggle some text colour to red on some events occurred? Then this article is for you."
 ---
@@ -13,7 +13,7 @@ Have you ever assigned a task to change the **functional component** which is fu
 
 Chances are there if you are a react developer, Hopefull we can solve this using the [Hooks](https://reactjs.org/docs/hooks-intro.html). 
 
-## What are Hooks
+## What are Hooks?
 
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
@@ -120,7 +120,7 @@ React `useEffect()` function can be execeuted in 3 different React component lif
  2. componentDidUpdate
  3. componentWillUnmount
 
-Let's understand the `useEffect()` hook by taking the above example. So let's say I want to change the message 1 second after the component as mounted.
+Let's understand the `useEffect()` hook by taking the above example. So let's say I want to change the message 1 second after the component is mounted.
 
 ```jsx
 import React, { useState, useEffect } from "react";
