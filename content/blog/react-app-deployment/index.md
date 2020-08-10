@@ -79,6 +79,7 @@ Now you can see that your application is running on 8081 port while you have log
   ```
   pm2 list
   ```
+
  ![pm2 List](pm2list.png)
 
 
@@ -91,5 +92,5 @@ Now you can see that your application is running on 8081 port while you have log
 
 Reference links :-
 
-1. [pm2 quick start](https://pm2.keymetrics.io/docs/usage/quick-start/)
-2. [process management with pm2](https://pm2.keymetrics.io/docs/usage/process-management/)
+1. [Quick start pm2 ](https://pm2.keymetrics.io/docs/usage/quick-start/)
+2. [Process management with pm2](https://pm2.keymetrics.io/docs/usage/process-management/)
