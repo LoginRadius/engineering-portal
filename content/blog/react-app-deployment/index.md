@@ -34,18 +34,18 @@ To follow this tutorial, you’ll need the following:
       ```
 ### Deploying the app
 
-1. First of all, create the app using `npx create-react-app` 
-        ```
-          npx create-react-app my-app
-        ```
+  1.First of all, create the app using `npx create-react-app` 
+      ```
+        npx create-react-app my-app
+      ```
 
-2. Now you can run the app by running following command in the project directory root
+  2.Now you can run the app by running following command in the project directory root
       ```
         npm start
       ```
-3. The default react app will run in http://localhost:3000
+  3.The default react app will run in http://localhost:3000
 
-4. Now install serve and pm2 packages globally on the system/server 
+  4.Now install serve and pm2 packages globally on the system/server 
 
       ```
       npm install -g serve
@@ -53,18 +53,18 @@ To follow this tutorial, you’ll need the following:
       ```
 
 
-5. Since you are in the root directory of your project, run the following command to create a production build of your app.
+  5.Since you are in the root directory of your project, run the following command to create a production build of your app.
   This will create a directory named `build` in the project root directory
 
       ```
       npm run build 
       ```
 
-6. Now we can run the following command to deploy the app  
+  6.Now we can run the following command to deploy the app  
 
-  ```
-    pm2 serve <path> <port> --spa
-  ```
+      ```
+        pm2 serve <path> <port> --spa
+      ```
   In our case, we can run the following command
   ```
     pm2 serve build 8082 --spa 
@@ -76,10 +76,10 @@ Now you can see that your application is running on 8081 port while you have log
 
 - Check the status of the application following command in the shell. 
 
-```
-pm2 list
-```
-![pm2 List](pm2list.png)
+  ```
+  pm2 list
+  ```
+ ![pm2 List](pm2list.png)
 
 
 **Bonus**: Below are some utility commands to manage the pm2 process
@@ -88,3 +88,8 @@ pm2 list
 - Delete all pm2 process  `pm2 delete all`
 - Delete specific process `pm2 delete <app-name>`
 - Check the CPU and memory usage `pm2 monit`
+
+Reference links :-
+
+1. [pm2 quick start](https://pm2.keymetrics.io/docs/usage/quick-start/)
+2. [process management with pm2](https://pm2.keymetrics.io/docs/usage/process-management/)
