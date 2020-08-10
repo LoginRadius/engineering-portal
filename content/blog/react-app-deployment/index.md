@@ -80,7 +80,7 @@ Now you can see that your application is running on 8081 port while you have log
   pm2 list
   ```
 
- ![pm2 List](pm2list.png)
+ <!-- ![pm2 List](pm2list.png) -->
 
 
 **Bonus**: Below are some utility commands to manage the pm2 process
