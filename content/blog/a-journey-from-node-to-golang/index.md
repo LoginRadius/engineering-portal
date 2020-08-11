@@ -3,7 +3,7 @@ title: "A journey from Node to GoLang"
 date: "2020-08-11"
 author: "Narendra Pareek"
 coverImage: "node-go.png"
-tags: ["Node", "NodeJs", "Golang", "Hapi", "Restify", "Fastify", "Express"]
+tags: ["NodeJs", "Golang", "Performance"]
 description: "If your existing technology is not fulfilling all your needs and you are thinking about switching to the new one. Also, if you are concerned about the performance. Here is the blog that can help you in this direction."
 ---
 
