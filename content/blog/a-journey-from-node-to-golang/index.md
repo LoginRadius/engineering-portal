@@ -4,7 +4,7 @@ date: "2020-08-11"
 author: "Narendra Pareek"
 coverImage: "node-go.png"
 tags: ["Node", "NodeJs", "Golang", "Hapi", "Restify", "Fastify", "Express"]
-description: "If your existing technology is not fullfilly all your needs and you are thinking about to switch to the new one. Also if your are concerned about the performacne. Here is the blog that can help you in this direction"
+description: "If your existing technology is not fulfilling all your needs and you are thinking about switching to the new one. Also, if you are concerned about the performance. Here is the blog that can help you in this direction."
 ---
 
 
@@ -14,6 +14,7 @@ Migrating your existing code to a new programming language is a very tedious tas
 So here our journey started to transform (not conversion) our existing code to a new language. You might think that why I’ve used word transformation rather than conversion so -
 
 **Conversion:** Conversion is just about to write your existing code in different languages as it is.
+
 **Transformation:** Transformation is about to leverage all possible benefits of a new language and convert accordingly.
 
 ## Why we decided to change?
@@ -34,7 +35,9 @@ So, we drew out a few goals for our new solution
 
 After research with our requirement, we were able to figure out that we can achieve these with Golang, developed by google.
 On the basis of our research, we also did some benchmarking on different node js framework and GoLang.
+
 **Benchmarking sever** we’ve used with below configurations
+
 | | |
 | -------------------- | ----------------------------------- |
 | benchmarking\_server | 4 GB RAM                            |
@@ -69,7 +72,7 @@ On the basis of our research, we also did some benchmarking on different node js
 | Transfer Rate kb/s               | 72672.04     | 23277.44  | 17394.29  | 24017.08  | 26806.07  |
 | Failed Request (req)             | 0            | 0         | 0         | 0         | 0         |
 
-There was a big difference, For better clarity let’s see the below graphs
+There was a big difference, For better clarity let’s see the below graphs.
 
 ### Total Time taken for Test(s)
 
@@ -92,6 +95,6 @@ The below chart is showing that the Number of requests is very high compared to 
 
 ### Total Data Transferred
 
-All the data clearly shows the direction so we decided to move to GoLang.
-
 ![chart](chart.png)
+
+All the data clearly shows the direction so we decided to move to GoLang.
