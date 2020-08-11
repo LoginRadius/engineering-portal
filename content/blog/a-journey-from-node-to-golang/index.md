@@ -38,39 +38,20 @@ On the basis of our research, we also did some benchmarking on different node js
 
 **Benchmarking sever** we’ve used with below configurations
 
-| | |
-| -------------------- | ----------------------------------- |
-| benchmarking\_server | 4 GB RAM                            |
-|                      | 2 vCPUs                             |
-|                      | 80 GB SSD                           |
-| Zone                 | Ubuntu Mumbai, Zone A (ap-south-1a) |
-| Operating System     | Ubuntu 16.04.6 LTS                  |
-| Kernel               | Linux 4.4.0-1052-aws                |
-| Architecture         | x86-64                              |
+![server](server.png)
 
 
-**The benchmarking result** was pretty much similor that we are thinking. Here are the benchmarking result, Both the below table having 
-- 100000 Requests 5000 Concurrency
-- 100000 Requests 7500 Concurrency
+**The benchmarking result** was pretty much similor that we are thinking. Here are the benchmarking result -
 
-|                                  | GO(FastHTTP) | Express   | Hapi      | Restify   | Fastify   |
-| -------------------------------- | ------------ | --------- | --------- | --------- | --------- |
-| Total Time is taken for Test (s) | 9.036        | 21.514    | 30.008    | 21.357    | 23.07     |
-| Total data transferred (bytes)   | 686400000    | 553900000 | 554200000 | 547400000 | 547200000 |
-| Request per second (s)           | 11067.08     | 4648.11   | 3332.49   | 4682.25   | 4334.55   |
-| Time per request (ms)            | 451.79       | 1075.705  | 1500.379  | 1067.863  | 1153.522  |
-| Transfer Rate kb/s               | 74184.01     | 25142.48  | 18035.8   | 25029.92  | 23162.76  |
-| Failed Request (req)             | 0            | 0         | 0         | 0         | 0         |
+#### 100000 Requests 5000 Concurrency
+
+![sheet1](sheet1.png)
 
 
-|                                  | GO(FastHTTP) | Express   | Hapi      | Restify   | Fastify   |
-| -------------------------------- | ------------ | --------- | --------- | --------- | --------- |
-| Total Time is taken for Test (s) | 9.224        | 23.238    | 31.114    | 22.258    | 19.935    |
-| Total data transferred (bytes)   | 686400000    | 553900000 | 554200000 | 547400000 | 547200000 |
-| Request per second (s)           | 10841.52     | 4303.32   | 3213.96   | 4492.78   | 5016.34   |
-| Time per request (ms)            | 691.785      | 1742.84   | 2333.572  | 1669.344  | 1495.114  |
-| Transfer Rate kb/s               | 72672.04     | 23277.44  | 17394.29  | 24017.08  | 26806.07  |
-| Failed Request (req)             | 0            | 0         | 0         | 0         | 0         |
+
+#### 100000 Requests 7500 Concurrency
+
+![sheet2](sheet2.png)
 
 There was a big difference, For better clarity let’s see the below graphs.
 
