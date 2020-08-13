@@ -4,7 +4,7 @@ date: "2020-08-13"
 coverImage: "ux-ui.jpg"
 author: "Hitesh Kumawat"
 tags: ["Design", "UX", "Tools"]
-description: "As a designer, often wondered which new tools and utilities, other designers are using ? So here is a list of all the tools and utilities famous around the world in designers."
+description: "As a designer, often wondered which new tools and utilities, other designers are using? So here is a list of all the tools and utilities famous around the world in designers."
 ---
 # **Contents**
 
@@ -19,47 +19,40 @@ description: "As a designer, often wondered which new tools and utilities, other
 9. Tools that speed up your workflow
 10. Collaboration Tools
 
-## 1. **Inspiration**
+##  **Inspiration**
 
 These are the websites where the world’s top design talents share their works and ideas.
 
-### 1. **Behance**
-
-#### **Top Creative Work On Behance**
+### 1. **Behance -Top Creative Work On Behance**
 
  Showcase and discover the latest work from top online portfolios by creative professionals across industries.
 
  [www.behance.net](https://www.behance.net)
 
-### 2. **Dribble**
-
-#### **Dribbble - Discover the World's Top Designers & Creative Professionals**
+### 2. **Dribble - Discover the World's Top Designers & Creative Professionals**
 
 Dribbble is where designers gain inspiration, feedback, community, and jobs and are your best resource to discover
 
 
-https://dribbble.com
+[dribbble.com](https://dribbble.com)
 
 
 
-### 3. **Awwwards**
-
-#### **Awwwards - Website Awards - Best Web Design Trends**
+### 3. **Awwwards - Website Awards(Best Web Design Trends)**
 
 
 Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers and designers.
 
 
-https://www.awwwards.com
+[www.awwwards.com](https://www.awwwards.com)
 
 ### 4. **Mobile UI Design Patterns**
 
 #### **Mobbin - Latest Mobile Design Patterns**
 
-
 Check out the hand-picked collection of latest mobile design patterns from apps that reflect the best in design.
 
-https://mobbin.design.com
+[mobbin.design.com](https://mobbin.design.com)
 
 ### 5. **UI Sources (Real App Interaction)**
 
@@ -68,39 +61,29 @@ https://mobbin.design.com
 
 Over 500+ interactions from the world's best designed and highest-grossing apps.
 
-www.uisources.com
+[www.uisources.com](www.uisources.com)
 
-### 6. **Bestfolios**
-
-#### **Bestfolios - UI/UX Design Portfolio Inspiration and Showcase**
-
+### 6. **Bestfolios - UI/UX Design Portfolio Inspiration and Showcase**
 
 The largest collection of the best portfolio websites from top designers in the industry.
 
-
-https://www.bestfolios.com
+[www.bestfolios.com](https://www.bestfolios.com)
 
 ### 7. **Muzil Design Inspiration**
 
-#### **Muzli Design Inspiration**
-
-
 Designers' Secret Source: all the design inspiration you need. Served fresh.
 
+[muz.li](https://muz.li)
 
-https://muz.li
-
-## 2. **Color Tools**
+## Color Tools
 
 Use these tools to explore different color schemes quickly.
-
-
 
 ### 1. **Adobe Color**
 
 Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
 
-https://Color.adobe.com
+[color.adobe.com](https://color.adobe.com)
 
 ### 2. **Color Tool — Material Design**
 
@@ -108,7 +91,7 @@ https://Color.adobe.com
 
 Create and share color palettes for your UI, and measure the accessibility of any color combination.
 
-https://material.io
+[material.io](https://material.io)
 
 ### 3. **Muzil Color Palette Generator**
 
@@ -116,7 +99,7 @@ https://material.io
 
 Search, discover, test and create beautiful color palettes for your projects
 
-https://colors.muz.li
+[colors.muz.li](https://colors.muz.li)
 
 ### 4. **Colorable (Color contrast tester)**
 
@@ -124,7 +107,7 @@ https://colors.muz.li
 
 Contrast is the difference in luminance or color that makes an object (or its representation in an image or display)
 
-https://colorable.jxnblk.com
+[colorable.jxnblk.com](https://colorable.jxnblk.com)
 
 ### 5. **ColorBox**
 
@@ -132,7 +115,7 @@ https://colorable.jxnblk.com
 
 Colorbox is a color tool to produce color sets.
 
-https://www.colorbox.io
+[www.colorbox.io](https://www.colorbox.io)
 
 ### 6. **Web Gradient**
 
@@ -140,7 +123,7 @@ https://www.colorbox.io
 
 Come to WebGradients.com for 180 beautiful linear gradients in CSS3, Photoshop, and Sketch.
 
-https://webgradients.com
+[webgradients.com](https://webgradients.com)
 
 ### 7. **Brand Colors**
 
@@ -148,7 +131,7 @@ https://webgradients.com
 
 The biggest collection of official brand color codes around. Includes hex color codes for 500+ brands including…
 
-https://brandcolors.net
+[brandcolors.net](https://brandcolors.net)
 
 ### 8. **Color Hunt**
 
@@ -156,9 +139,9 @@ https://brandcolors.net
 
 A curated collection of the most popular and trendy color palettes. Get the perfect color ideas for your design.
 
-https://colorhunt.co
+[colorhunt.co](https://colorhunt.co)
 
-## 3. **Components**
+## Components
 
 Drawing illustration could be time-consuming, why not start with this template and use it as a draft/underlay and build your design on top of that?
 
@@ -168,7 +151,7 @@ Drawing illustration could be time-consuming, why not start with this template a
 
 Open-source illustrations for every project you can imagine and create.
 
-https://undraw.co
+[undraw.co](https://undraw.co)
 
 ### 2. **Ouch by Icons8 (Illustration)**
 
@@ -176,7 +159,7 @@ https://undraw.co
 
 Creators who don't draw face the problem of the boring content for app screens, articles, landing pages, and emails…
 
-https://icons8.com
+[icons8.com](https://icons8.com)
 
 ### 3. **Opendoodle (Illustration)**
 
@@ -184,7 +167,7 @@ https://icons8.com
 
 A library of sketchy illustrations of people free for personal and commercial use.
 
-https://www.opendoodles.com
+[www.opendoodles.com](https://www.opendoodles.com)
 
 ### 4. **Glaze (Illustration)**
 
@@ -192,7 +175,7 @@ https://www.opendoodles.com
 
 Free illustrations, for everything. Memorable products, brands, & presentations start with our curated royalty-fr
 
-https://www.glazestock.com
+[www.glazestock.com](https://www.glazestock.com)
 
 ### 5. **UI Faces (Avatars for design mockups)**
 
@@ -200,16 +183,17 @@ https://www.glazestock.com
 
 An aggregator that indexes various free avatar sources that you can use in your design mockups by copy-paste, API, plugins…
 
-uifaces.co
+[uifaces.co](https://uifaces.co)
 
-## 4. **Mockups**
+##  Mockups
+
 ### 1. **Facebook Design — Devices (Various HQ Device Mockup for download)**
 
 #### **Facebook Design — Devices**
 
 Images and Sketch files of popular devices.
 
-[facebook.design](facebook.design)
+[facebook.design](https://facebook.design/)
 
 ### 2. **Free Mockup World**
 
@@ -217,7 +201,7 @@ Images and Sketch files of popular devices.
 
 Big library of high quality best free UI & UX mockups
 
-https://www.freemockupworld.com
+[www.freemockupworld.com](https://www.freemockupworld.com)
 
 ### 3. **Is Graphics**
 
@@ -225,7 +209,7 @@ https://www.freemockupworld.com
 
 Huge collection of free mockups, patterns, illustrations, scene creators, DIY scenes, for Photoshop, Sketch, and Figma
 
-[www.ls.graphics](www.ls.graphics)
+[www.ls.graphics](https://www.ls.graphics/)
 
 ### 4. **The Mockup Club**
 
@@ -233,24 +217,22 @@ Huge collection of free mockups, patterns, illustrations, scene creators, DIY sc
 
 A directory of the best free design mockups for Photoshop, Sketch, Figma, and InVision Studio.
 
-[themockup.club](themockup.club)
+[themockup.club](https://themockup.club/)
 
-## 5. **Design Systems**
+## Design Systems
 ### 1. **iOS Human Interface Guideline - Apple**
 
 #### **Design - Apple Developer**
 
 Find documentation and resources for designing great apps for Apple platforms.
 
-https://developer.apple.com
+[https://developer.apple.com](https://developer.apple.com)
 
 ### 2. **Material Design — Google**
 
-#### **Design**
-
 Build beautiful, usable products faster. Material Design is an adaptable system-backed by open-source.
 
-https://material.io
+[material.io](https://material.io)
 
 ### 3. **Airbnb Design**
 
@@ -258,7 +240,7 @@ https://material.io
 
 Behind the scenes of our new design system, This article is part of a series on our new Design Language System.
 
-[airbnb.design](airbnb.design)
+[airbnb.design](https://airbnb.design/)
 
 ### 4. **Uber Design**
 
@@ -266,46 +248,38 @@ Behind the scenes of our new design system, This article is part of a series on 
 
 With our company’s growth and new direction, we need a brand identity that is efficient to use, flexible across applications, and able to feature localized content in a globally consistent way. 
 
-https://brand.uber.com
+[brand.uber.com](https://brand.uber.com)
 
 ### 5. **Shopify Polaris**
 
-#### **Shopify Polaris**
-
 Our style guide helps us collaborate across disciplines to build a great experience for all of Shopify’s merchants.
 
-https://polaris.shopify.com
+[polaris.shopify.com](https://polaris.shopify.com)
 
 ### 6. **Atlassian Design**
 
-#### **Atlassian Design**
-
 Use Atlassian’s end-to-end design language to create straightforward and beautiful experiences.
 
-https://atlassian.design
+[atlassian.design](https://atlassian.design)
 
 ### 7. **Microsoft Design**
 
-#### **Microsoft Design**
+[www.microsoft.com](https://www.microsoft.com)
 
-https://www.microsoft.com
-
-8. **Facebook Design**
-
-#### **Facebook Design - Tools and Resources**
+8. **Facebook Design Tools and Resources**
 
 A collection of tools and resources from Facebook Design.
 
-[facebook.design](facebook.design)
+[facebook.design](https://facebook.design/)
 
-## 6. **Font**
+## Font
 ### 1. **Google Fonts**
 
 #### **Google Fonts**
 
 Making the web more beautiful, fast, and open through great typography
 
-https://fonts.google.com
+[fonts.google.com](https://fonts.google.com)
 
 ### 2. **Typewolf**
 
@@ -313,7 +287,7 @@ https://fonts.google.com
 
 Typewolf helps designers choose the perfect font combination for their next design project-features web fonts in the…
 
-https://www.typewolf.com
+[www.typewolf.com](https://www.typewolf.com)
 
 ### 3. **DaFont**
 
@@ -321,7 +295,7 @@ https://www.typewolf.com
 
 Archive of freely downloadable fonts. Browse by alphabetical listing, by style, by author or by popularity.
 
-https://www.dafont.com
+[www.dafont.com](https://www.dafont.com)
 
 
 
@@ -342,9 +316,9 @@ https://www.fontsquirrel.com
 
 Here at Typ.io, we're revealing designers' decisions for all to see; peeking under the hood of beautiful websites…
 
-typ.io
+[typ.io](http://typ.io/)
 
-## 7. **Prototyping Tool**
+## Prototyping Tool
 
 Create a testable design prototype for your interviewee and get feedback
 
@@ -389,7 +363,7 @@ https://www.sketch.com
 
 A new tool for designing modern interfaces, built and used by designers at Facebook
 
-[origami.design](origami.design)
+[origami.design](https://origami.design)
 
 ### 6. **Framer**
 
@@ -417,20 +391,17 @@ https://principleformac.com
 
 The world's first user flow diagramming tool tailored for designers. Build and present beautiful user flow diagrams…
 
-overflow.io
+[overflow.io](https://overflow.io)
 
-## 8. **Stock Photos**
+## Stock Photos
 
-### **1. Pexels**
-
+### 1. Pexels
 
 #### **Free stock photos · Pexels**
 
-
 Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No attribution required
 
-
-https://www.pexels.com
+[www.pexels.com](https://www.pexels.com)
 
 
 ### **2.Unsplash**
@@ -440,11 +411,10 @@ https://www.pexels.com
 
 Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock…
 
-https://unsplash.com
+[unsplash.com](https://unsplash.com)
 
 
 ### **3. Burst By Shopify**
-
 
 #### **Free Stock Photos: High-Res Images for Websites & Commercial Use**
 
@@ -462,7 +432,7 @@ A collection of stock photography in a single style. Good for collages. Free for
 
 https://photos.icons8.com
 
-## 9. **Tools that speed up your workflow**
+## Tools that speed up your workflow
 ### 1. **Glitch Image/Gif/Video Generator**
 
 #### **PHOTOMOSH**
@@ -501,7 +471,7 @@ https://tinypng.com
 
 made with ♥ All trademarks, service marks, trade names, product names, logos, and trade dress appearing on our…
 
-www.remove.bg
+[www.remove.bg](https://www.remove.bg)
 
 ### 6. **Service Design Toolkit**
 
@@ -511,20 +481,19 @@ This toolkit is an introduction to the methodology of service design
 
 [www.servicedesigntoolkit.orgs](www.servicedesigntoolkit.orgs)
 
-## 10. **Collaboration Tools**
+## Collaboration Tools
 ### 1. **Zeplin (Collaboration & Handoff tool)**
 
 #### **Zeplin**
 
 Connected space for product teams. Handoff designs and style guides with accurate specs, assets, code…
 
-zeplin.io
+[zeplin.io](https://zeplin.io)
 
 ### 2. **Realtime Board (Collaboration Tool)**
 
 ####  **Team collaboration software & online whiteboard for teams | Miro**
 
 Scalable, secure, cross-device, and enterprise-ready team collaboration tool for distributed teams. Join 2M+ users &…
-
 
 https://realtimeboard.com
