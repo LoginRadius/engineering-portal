@@ -266,7 +266,7 @@ Use Atlassian’s end-to-end design language to create straightforward and beaut
 
 [www.microsoft.com](https://www.microsoft.com)
 
-8. **Facebook Design Tools and Resources**
+### 8. **Facebook Design Tools and Resources**
 
 A collection of tools and resources from Facebook Design.
 
@@ -373,7 +373,7 @@ A framer is coming to the web. Learn more › Why Framer X Resources Framer X Fr
 
 https://www.framer.com
 
-7. **Principle**
+### 7. **Principle**
 
 #### **Principle**
 
