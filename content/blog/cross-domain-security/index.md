@@ -4,12 +4,12 @@ date: "2020-08-16"
 coverImage: "cross_domain_security.png"
 author: "Abhimanyu Singh Rathore"
 tags: ["Security", "Web Security", "Cross-Domain"]
-description: "Cross domain security address this security threat by enabling the information sharing in more reliable and secure environments. Cross domain security is a inclusive approach to defending against all kind of threats to data connections at the boundaries of sensitive or classified networks."
+description: "Cross domain security address security threat by enabling the information sharing in more reliable and secure environments. Cross domain security is an inclusive approach to defending against all kind of threats to data connections at the boundaries of sensitive or classified networks."
 ---
 
 ## **Every Web Developer should know about cross-domain security**
 
-While working in the world of internet, all of the complex systems are interconnected in a shareable environment, where information is shared across multiple computers. But exposing systems in outer world will invite to security vulnerabilities in for the organization and data breaaches. Cross domain security address this security threat by enabling the information sharing in more reliable and secure environments. Cross domain security is a inclusive approach to defending against all kind of threats to data connections at the boundaries of sensitive or classified networks.
+While working in the world of the internet, all of the complex systems are interconnected in a shareable environment. But exposing systems in the outer world will invite security vulnerabilities and data breach for the organization. Cross-domain security address this security threat by enabling information sharing in more reliable and secure environments. Cross-domain security is an inclusive approach to defending against all kinds of threats to data connections at the boundaries of sensitive or classified networks.
 
 ## The Major Concepts of Security
 
