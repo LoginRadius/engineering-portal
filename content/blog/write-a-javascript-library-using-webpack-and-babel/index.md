@@ -1,5 +1,5 @@
 ---
-title: "Let's Write a JavaScript Library in ES6  using Webpack and Babel"
+title: "Let's Write a JavaScript Library in ES6 using Webpack and Babel"
 date: "2020-08-18"
 coverImage: "cover.png"
 author: "Hridayesh Sharma"
@@ -152,7 +152,7 @@ demo
 
 #### Step 5: One last step. I know I keep saying that but I promise this is last 😬.
 
-We have added our source files, now let's add a `npm script` to build final code using webpack and modify the `main` property inside our `package.json` to point it to our bundled code.
+We have added our source files, now let's add an `npm script` to build final code using webpack and modify the `main` property inside our `package.json` to point it to our bundled code.
 
 `package.json`
 
@@ -210,3 +210,5 @@ Run `$npm run build` to generate the bundled code and use it in the next step.
 ```
 
 Save it and run it in your browser. You will see the name capitalized.
+
+The complete code is available at [LoginRadius Engineering Blog Sample Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/JavaScript/WebpackBabelJSLibrary)
