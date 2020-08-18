@@ -3,7 +3,7 @@ title: "Let's Write a JavaScript Library in ES6 using Webpack and Babel"
 date: "2020-08-18"
 coverImage: "cover.png"
 author: "Hridayesh Sharma"
-tags: ["JavaScript, WebPack, NodeJS"]
+tags: ["JavaScript", "Webpack", "NodeJS"]
 description: "Writing your own webpack configuration for a JavaScript library in ES6 and learn webpack along the way."
 ---
 
@@ -83,8 +83,9 @@ So far we got the source code ready but we still need to bundle it so that the b
 
 #### Step 3: Let's install some of our project dev dependencies as they are only needed during development.
 
-`$ npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader`
-
+```bash
+ $ npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader
+```
 We need `webpack` to bundle our code and `webpack-cli` is a command-line tool that uses `webpack` to do the same. Also webpack requires `babel-loader` to transpile our ES6 code to ES5 before bundling (Remember, what I said about being responsible developers 😃).
 
 #### Step 4: Now let's get our webpack and babel configuration in place. (We are almost there)
@@ -182,7 +183,7 @@ We have added our source files, now let's add an `npm script` to build final cod
 
 In `package.json` the `main` property is a direction to the entry point of the module that the package.json is describing.
 
-#### Hurray! We have finally created our utility library using ES6.🥳🥳
+#### Hurray! We have finally created our utility library using ES6.🥳
 
 Run `$npm run build` to generate the bundled code and use it in the next step.
 
