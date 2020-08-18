@@ -149,7 +149,7 @@
   stackoverflow: "1063165"
 
 - id: Kheenvraj Lomror
-  bio: Software Developer @LoginRadius. JavaScript Lover, love to work with Angular, React 
+  bio: Software Developer @LoginRadius. JavaScript Lover, love to work with Angular, React
   github: "rajlomror"
   linkedin: "kheevraj-lomror-26936982"
   stackoverflow: "13910473"
@@ -187,7 +187,7 @@
   github: "pareek-narendra"
   linkedin: "narendra-pareek"
   stackoverflow: "13819129"
-  
+
 - id: Hitesh Kumawat
   bio: I care deeply about creating world-class, useful, and beautiful products and web that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to design, creative direction, system design, and even the front-end and WordPress build.
   linkedin: "hitesh-kumawat-01548466"
@@ -200,3 +200,10 @@
   medium: "abhir95"
   linkedin: "abhi-rathore"
 
+- id: Hridayesh Sharma
+  bio: Hridayesh Sharma is a Software Engineer at LoginRadius who is interested in how the web works and developer tools that make working with web easier.
+  github: "vyasriday"
+  stackoverflow: "6235787"
+  linkedin: "hridayesh-sharma"
+  medium: "vyasriday"
+  twitter: "vyasriday"
