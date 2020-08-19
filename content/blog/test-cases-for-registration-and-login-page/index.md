@@ -8,7 +8,7 @@ description: "Here is a set of Use Cases for Login and Registration Pages to tes
 ---
 
 
-Writing test cases (which is an important task for a tester in application testing) requires experience and a keen eye for detail in order to build scenarios. This means that an application tester needs to focus on creating a set of variables or conditions which will help him to determine whether the software meets requirements and functions lawlessly. To reduce that hassle, we have compiled a list of use cases that you need to test a signup or login page.
+Writing test cases (which is an important task for a tester in application testing) requires experience and a keen eye for detail to build scenarios. This means that an application tester needs to focus on creating a set of variables or conditions which will help him to determine whether the software meets requirements and functions lawlessly. To reduce that hassle, we have compiled a list of use cases that you need to test a signup or login page.
 We hope they will help you to create more error-free Register/Login pages.
 
 
@@ -69,7 +69,7 @@ Signup and login page by assuming some client requirements, such as:
 |12 | TC-012| Password  Validation | Check the password limit when enter value greater than max | 1. Enter alphanumeric value but more than 32. <br/> 2.Click on Register button    | Any Random string with numbers| It should show validation message    |
 |13 | TC-013| Password  Validation | Check the password when passing only numbers | 1. Enter a value in numbers which is in between 8-32 <br/> 2.Click on Register button   | 1. 12345678| It should show validation message    |
 |14 | TC-014| Password  Validation | Check the password when passing valid data   | 1. Enter value in alphanumeric which is in between 8-32  <br/> 2.Click on Register button   | 1. Pass123456 | It should not show any validation message |
-|15 | TC-015| Required  Fields| Verify if blank spaces are  passed in required fields.  | 1. Go to the Site. <br/> 2. Passed blamk spaces in  required fields. <br/> 3. Click on the Register button  | N/a   | Those Blank spaces should trim and  Validation error message for required  fields should visible.|
+|15 | TC-015| Required  Fields| Verify if blank spaces are passed in required fields.  | 1. Go to the Site. <br/> 2. Passed blank spaces in required fields. <br/> 3. Click on the Register button  | N/a   | Those Blank spaces should trim and  Validation error message for required fields should visible.|
 |16 | TC-016| Required  Fields| Verify user can verify its Email ID| 1. Go to the Email. <br/> 2. Click on the verification link.| test22@gmail.com   | User should get a verification link and able to verify his/her Email ID.   |
 |17 | TC-017| Phone  Number  Validation | Verify if the length of the phone number is incorrect i.e. less than 10.    | 1. Enter phone number less than 10 digits. <br/> 2.Enter all required fields. <br/> 3.Click on Register Button | 91901122   | It should show the validation error message for phone number length.  |
 |18 | TC-018| Phone  Number  Validation | Verify if the length of the phone number is incorrect i.e. more than 10| 1. Enter phone number less than 10 digits. <br/> 2.Enter all required fields. <br/> 3.Click on Register Button | 91901122445566| It should show the validation error message for phone number length.  |
