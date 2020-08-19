@@ -49,8 +49,9 @@ Our utility library contains two functions `capital`, to capitalize a string and
 
 ```javascript
 function capital(string) {
-  return (capitalizedString =
-    string.substring(0, 1).toUpperCase() + string.substring(1))
+  const capitalizedString =
+    string.substring(0, 1).toUpperCase() + string.substring(1)
+  return capitalizedString
 }
 
 export default capital
@@ -86,6 +87,7 @@ So far we got the source code ready but we still need to bundle it so that the b
 ```bash
  $ npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader
 ```
+
 We need `webpack` to bundle our code and `webpack-cli` is a command-line tool that uses `webpack` to do the same. Also webpack requires `babel-loader` to transpile our ES6 code to ES5 before bundling (Remember, what I said about being responsible developers 😃).
 
 #### Step 4: Now let's get our webpack and babel configuration in place. (We are almost there)
@@ -122,7 +124,7 @@ There are a couple of things we need to understand about webpack configuration. 
 
 - `entry`: In order for webpack to know where to start with, it needs to know the entry point to our app.
 - `module.rules`: Each file in `Node` is treated like a module. Webpack itself understands only Javascript and JSON modules. Since we want to transpile ES6, we need `babel-loader` and webpack needs to know the rules on how to process the Javascript using the given loader.
-- `output`: After creating the bundle, webpack needs to know what name to give it and where to put it.`library` and `libraryTarget` are used to expose our library where `library` being the name,`$` here and `libraryTarget` is the environment we are targetting.
+- `output`: After creating the bundle, webpack needs to know what name to give it and where to put it.`library` and `libraryTarget` are used to expose our library where `library` being the name,`$` here and `libraryTarget` is the property to configure, how the library will be exposed. Here we will be using UMD. UMD is a module system capable of working everywhere, be it in the client, on the server or elsewhere.
 - mode: Webpack bundles code into either development mode (unminified) or in production(minified) mode. I am using a hard coded value here for the demo. You can set it using environment variables too.
 
   4.2. Create a `.babelrc` file at the root of the project.
@@ -200,7 +202,7 @@ Run `$npm run build` to generate the bundled code and use it in the next step.
     <title>Demo</title>
   </head>
   <body>
-    <script src="paht/to/index_bundle.js"></script>
+    <script src="dist/index_bundle.js"></script>
     <script>
       console.log($)
       alert($.capital("hridayesh"))
