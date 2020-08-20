@@ -22,7 +22,7 @@ module.exports = {
       {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
-      },
+      }
     ],
     footerLinks: [
       {
