@@ -1,5 +1,5 @@
 ---
-title: "HOW TO WRITE TEST CASES FOR REGISTRATION AND LOGIN PAGE"
+title: "How to write test cases for registration and login page"
 date: "2020-08-19"
 author: "Gaurav Bewal"
 coverImage: "writing-good-test-cases.png"
