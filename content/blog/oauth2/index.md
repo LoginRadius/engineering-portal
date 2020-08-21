@@ -1,10 +1,10 @@
 ---
 title: Getting Started with OAuth 2.0
 date: "2020-06-11"
-coverImage: "image1.png"
+coverImage: "oauth2.png"
 author: "Indrasen Kumar"
 tags: ["Engineering", "OAuth", "Authentication"]
-description: "Using this blog one can easily understand the basic concept of Oauth 2.0 "
+description: "Using this blog one can easily understand the basic concept of Oauth 2.0"
 ---
 
 
@@ -14,8 +14,6 @@ OAuth has been a jargon for quite some time now and it is difficult for a beginn
 
 Let’s start with the basics: OAuth stands for Open Authorization. It’s a process through which an application or website can access private data from another website.
 It provides applications the ability for “secure designated access.” For example, you can tell Google that it’s OK for abc.com to access your google account or contact without having to give abc.com your google password. 
-
-![Oauth2.0](./image1.png)
 
 
 OAuth never share password data but instead uses authorization tokens to prove an identity between consumers and service providers. OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password.
