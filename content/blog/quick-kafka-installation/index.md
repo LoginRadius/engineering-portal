@@ -1,9 +1,9 @@
 ---
-title: "Quick Kafka Installation on Windows"
+title: "Setting Up and Running Apache Kafka on Windows OS"
 date: "2018-08-24"
 coverImage: "messagelog.png"
 author: "Ashish Sharma"
-tags: ["Kafka"]
+tags: ["Kafka", "Windows"]
 ---
 
 
