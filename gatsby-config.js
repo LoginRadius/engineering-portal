@@ -22,7 +22,7 @@ module.exports = {
       {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
-      }
+      },
     ],
     footerLinks: [
       {
@@ -157,13 +157,16 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              let _this = this
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
+                  title: edge.node.frontmatter.title,
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.feedUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.feedUrl + edge.node.fields.slug,
+                  enclosure: edge.node.frontmatter.coverImage && {
+                    url: site.siteMetadata.feedUrl + edge.node.frontmatter.coverImage.publicURL,
+                  },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -171,6 +174,8 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
+                  limit: 1000
+                  filter: { fileAbsolutePath: { regex: "//content/blog//" } }
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   edges {
@@ -181,6 +186,9 @@ module.exports = {
                       frontmatter {
                         title
                         date
+                        coverImage {
+                          publicURL
+                        }
                       }
                     }
                   }
