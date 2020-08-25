@@ -1,6 +1,6 @@
 ---
 title: "StackExchange - The 8 best resources every developer must follow"
-date: "2020-08-25"
+date: "2020-04-25"
 coverImage: "8-stackexchange-resources-dev-follow.png"
 author: "Govind Malviya"
 tags: ["Programmer","Skills"]
