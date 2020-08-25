@@ -1,6 +1,6 @@
 ---
 title: "Setting Up and Running Apache Kafka on Windows OS"
-date: "2018-08-24"
+date: "2020-08-25"
 coverImage: "messagelog.png"
 author: "Ashish Sharma"
 tags: ["Kafka", "Windows"]
