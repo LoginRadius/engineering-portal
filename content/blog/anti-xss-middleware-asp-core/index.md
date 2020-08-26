@@ -339,8 +339,7 @@ As we run the default API which is https://localhost:44369/weatherforecast we wi
 ]
 ```
 
-Now if we inject any script in the above url like [https://localhost:44369/weatherforecast](https://localhost:44369/weatherforecast)`<script></script>`
-we will get the response as 
+Now if we inject any script in the above url like `https://localhost:44369/weatherforecast<script></script>` we will get the response as 
 
 ```json
 {
