@@ -8,9 +8,9 @@ tags: ["Callbacks", "Promises", "Async/Await"]
 
 # Callback vs Promises vs Async Await
 
-This blog explains the fundamental concepts that JavaScript relies on to handle asynchronous operations. These concepts include: **Callback functions**, **Promises** and the use of **Async,** and **Await **to handle deferred operations in JavaScript.
+This blog explains the fundamental concepts that JavaScript relies on to handle asynchronous operations. These concepts include **Callback functions**, **Promises** and the use of **Async,** and **Await** to handle deferred operations in JavaScript.
 
- So before we decode the comparison between the three, let's get a brief understanding of  synchronous (blocking) and asynchronous(non-blocking).
+ So before we decode the comparison between the three, let's get a brief understanding of synchronous (blocking) and asynchronous(non-blocking).
 
 
 ## Difference Between Sync and Async
@@ -18,8 +18,6 @@ This blog explains the fundamental concepts that JavaScript relies on to handle 
 To make it easy to understand, let’s take a live example which probably will explain the difference between **asynchronous** and synchronous. 
 
 Imagine we go to a restaurant, a waiter comes to a table, takes your order and gives it to the kitchen. Then they move on to the server on another table, while the chef is preparing the meal So the same person can serve the many different tables. The table has to wait for the chef to cook one meal before they serve another table. This is what we called asynchronous or non-blocking architecture. Here the waiter is like a thread allocated to handle requests. So a single thread is used to handle multiple requests. 
-
-g
 
 In contrast to non-blocking or asynchronous architecture, we have blocking or synchronous architecture. Let's see how that works. So back to the restaurant example, imagine you go to another restaurant and in this restaurant, a waiter is allocated to you. He takes your order and gives it to the kitchen. Now he is sitting in the kitchen waiting for the chef to prepare your meal and this time he is not doing anything else he is just waiting for he is not going to take any order from another table until your meal is ready. This is what we called synchronous or blocking architecture. 
 
@@ -39,7 +37,7 @@ We can also pass functions as parameters to other functions and call them inside
 Let's take an example of callback function:
 
 
-```
+```js
 function printString(){
    console.log("Tom"); 
    setTimeout(function()  { console.log("Jacob"); }, 300); 
@@ -60,9 +58,7 @@ Mark
 ```
 
 
- \
- \
-But the setTimeout is async function then the output of the above code will be: 
+But the setTimeout is an async function then the output of the above code will be: 
 
 
 ```
@@ -72,8 +68,8 @@ Jacob
 ```
 
 
-There is a built-in method in JavaScript called “setTimeout”, which calls a function or evaluates an expression after a given period of time (in milliseconds). \
- \
+There is a built-in method in JavaScript called “setTimeout”, which calls a function or evaluates an expression after a given period of time (in milliseconds). 
+
 In other words, the message function is being called after something happened (after 3 seconds passed for this example), but not before. So the callback is the function that is passed as the argument to setTimeout.
 
 
@@ -82,7 +78,7 @@ In other words, the message function is being called after something happened (a
 If you prefer, you can also write the above same callback function as an ES6 arrow function, which is a newer type of function in JavaScript:
 
 
-```
+```js
 function printString(){
    console.log("Tom"); 
    setTimeout(() =>  { console.log("Jacob"); }, 300); 
@@ -114,7 +110,6 @@ A promise is used to handle the asynchronous result of an operation. JavaScript 
 First of all, a Promise is an object. There are 3 states of the Promise object:
 
 
-
 *   Pending: Initial State, before the Promise succeeds or fails.
 *   Resolved: Completed Promise
 *   Rejected: Failed Promise, throw an error
@@ -128,7 +123,7 @@ If we achieve to get the information from the server, the Promise will be resolv
 Firstly, we use a constructor to create a Promise object. The promise has two parameters, one for success (resolve) and one for fail (reject):
 
 
-```
+```js
 const myPromise = new Promise((resolve, reject) => {  
     // condition
 });
@@ -138,7 +133,7 @@ const myPromise = new Promise((resolve, reject) => {
 Let’s create a promise: 
 
 
-```
+```js
 const myFirstPromise = new Promise((resolve, reject) => { 
     const condition = true;   
     if(condition) {
@@ -156,10 +151,10 @@ In the above Promise If Condition is true, resolve the promise returning the “
 
 **Using Promise:**
 
-To use the above create Promise we use then() for resolve and catch() for reject. 
+To use the above create Promise we use `then()` for resolve and `catch()` for reject. 
 
 
-```
+```js
 myFirstPromise
 .then((successMsg) => {
     console.log(successMsg);
@@ -173,17 +168,15 @@ myFirstPromise
 let's take this a step further:
 
 
-```
+```js
 const demoPromise= function() {
-
-myFirstPromise
-.then((successMsg) => {
-     console.log("Success:" + successMsg);
-})
-.catch((errorMsg) => { 
-    console.log("Error:" + errorMsg);
-})
-
+  myFirstPromise
+  .then((successMsg) => {
+      console.log("Success:" + successMsg);
+  })
+  .catch((errorMsg) => { 
+      console.log("Error:" + errorMsg);
+  })
 }
 
 demoPromise();
@@ -198,7 +191,7 @@ Success: Promise is resolved!
 ```
 
 
-So if the promise gets rejected, it will jump to the catch( ) method and this time we will see a different message on the console.
+So if the promise gets rejected, it will jump to the `catch()` method and this time we will see a different message on the console.
 
 
 ```
@@ -213,7 +206,7 @@ Error: Promise is rejected!
 So we create another promise:
 
 
-```
+```js
 const helloPromise  = function() {
   return new Promise(function(resolve, reject) {
     const message = `Hi, How are you!`;
@@ -227,18 +220,17 @@ const helloPromise  = function() {
 We chain this promise to our earlier “myFirstPromise” operation like so:
 
 
-```
+```js
 const demoPromise= function() {
 
-myFirstPromise
-.then(helloPromise)
-.then((successMsg) => {
-     console.log("Success:" + successMsg);
-})
-.catch((errorMsg) => { 
-    console.log("Error:" + errorMsg);
-})
-
+  myFirstPromise
+  .then(helloPromise)
+  .then((successMsg) => {
+      console.log("Success:" + successMsg);
+  })
+  .catch((errorMsg) => { 
+      console.log("Error:" + errorMsg);
+  })
 }
 
 demoPromise();
@@ -263,7 +255,7 @@ Await is basically syntactic sugar for Promises. It makes your asynchronous code
 Syntax of Async and Await:
 
 
-```
+```js
 async function printMyAsync(){
   await printString("one")
   await printString("two")
@@ -272,7 +264,7 @@ async function printMyAsync(){
 ```
 
 
- \
+
 You can see that we use the “async” keyword for the wrapper function printMyAsync. This lets JavaScript know that we are using async/await syntax, and is necessary if you want to use Await. This means you can’t use Await at the global level.  It always needs a wrapper function. Or we can say await is only used with an async function. 
 
 The await keyword is used in an async function to ensure that all promises returned in the async function are synchronized, ie. they wait for each other. Await eliminates the use of callbacks in .then() and .catch(). In using async and await, async is prepended when returning a promise, await is prepended when calling a promise. try and catch are also used to get the rejection value of an async function.
@@ -280,17 +272,16 @@ The await keyword is used in an async function to ensure that all promises retur
 Let's take an example to understand the Async and Await with our demoPromise:
 
 
-```
+```js
 async function demoPromise() {
-try {
-let message = await myFirstPromise;
-let message  = await helloPromise();
-console.log(message);
+  try {
+    let message = await myFirstPromise;
+    let message  = await helloPromise();
+    console.log(message);
 
-}catch((error) => { 
-    console.log("Error:" + error.message);
-})
-
+  }catch((error) => { 
+      console.log("Error:" + error.message);
+  })
 }
 
 // finally, call our async function
