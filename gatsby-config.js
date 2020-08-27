@@ -1,5 +1,7 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
 
+const makeFeedHtml = require('./src/utils/makeFeedHtml')
+
 module.exports = {
   siteMetadata: {
     title: `LoginRadius Engineering`,
@@ -158,6 +160,10 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
+                const html = makeFeedHtml(
+                  edge.node.htmlAst,
+                  site.siteMetadata.feedUrl
+                )
                 return Object.assign({}, edge.node.frontmatter, {
                   title: edge.node.frontmatter.title,
                   description: edge.node.excerpt,
@@ -165,9 +171,11 @@ module.exports = {
                   url: site.siteMetadata.feedUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.feedUrl + edge.node.fields.slug,
                   enclosure: edge.node.frontmatter.coverImage && {
-                    url: site.siteMetadata.feedUrl + edge.node.frontmatter.coverImage.publicURL,
+                    url:
+                      site.siteMetadata.feedUrl +
+                      edge.node.frontmatter.coverImage.publicURL,
                   },
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ "content:encoded": html }],
                 })
               })
             },
@@ -181,7 +189,7 @@ module.exports = {
                   edges {
                     node {
                       excerpt
-                      html
+                      htmlAst
                       fields { slug }
                       frontmatter {
                         title
