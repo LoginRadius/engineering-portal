@@ -44,4 +44,4 @@ This attribute verifies whether the email domain has valid MX records or not. Th
 
 The response received for the above three attributes of API can help you take further action. These attributes are not just limited to registration use cases, you can utilize them for other use cases like if you have an existing user base but would like to limit the spammers (who have registered using disposable emails) from commenting on the blog or accessing your application resources.
 
-*This API tool has been developed and designed as a way of giving back to the developer community initiative by LoginRadius Developers.*
+*This API tool has been developed and designed as a way of giving back to the developer community initiative by LoginRadius Developers. Your opinion is important to us. This way we can keep improving our product for the developer community. Please share your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSfa76A9ES0wvIF0_I7ebLAFugVhhDKB7em-WPbMjHPj1w7mOw/viewform)*
