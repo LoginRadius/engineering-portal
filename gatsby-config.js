@@ -168,11 +168,18 @@ module.exports = {
                     url:
                       site.siteMetadata.feedUrl +
                       edge.node.frontmatter.coverImage.publicURL,
-                    type: 'image/jpeg',
-                    size: 768
+                    type: "image/jpeg",
+                    size: 768,
                   },
-                  description:
-                    edge.node.frontmatter.description || edge.node.excerpt,
+                  custom_elements: [
+                    {
+                      "content:encoded": `<p> ${
+                        edge.node.frontmatter.description || edge.node.excerpt
+                      } </p> <br/>  <a href="${
+                        site.siteMetadata.feedUrl + edge.node.fields.slug
+                      }">Read On</a>`,
+                    },
+                  ],
                 })
               })
             },
@@ -185,7 +192,7 @@ module.exports = {
                 ) {
                   edges {
                     node {
-                      excerpt
+                      excerpt(pruneLength: 280)
                       fields { slug }
                       frontmatter {
                         title
