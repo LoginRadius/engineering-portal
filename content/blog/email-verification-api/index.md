@@ -4,7 +4,7 @@ date: "2020-08-31"
 coverImage: "eva.png"
 author: "Aman Agrawal"
 tags: ["Free tool","Developer Resources ","Verification", "Email"]
-description: "Email authentication, being the traditional way of authentication till now and still used most widely. But due to incresing spams, the disposable email registrations has also been increased significantly. How can we reduce and identify such unwanted users, EVA(Email Verification API) tool is developed by LoginRadius developer can help us in this regard."
+description: "Email authentication, being the traditional way of authentication and used most widely. Increase in the spams has also increased the disposable email registrations. To reduce and identify such unwanted users, EVA(Email Verification API) is the tool, developed by LoginRadius developers."
 ---
 
 
