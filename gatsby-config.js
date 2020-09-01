@@ -22,7 +22,7 @@ module.exports = {
       {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
-      }
+      },
     ],
     footerLinks: [
       {
@@ -157,30 +157,54 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              let _this = this
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
+                  title: edge.node.frontmatter.title,
                   url: site.siteMetadata.feedUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.feedUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  pubDate: edge.node.frontmatter.date,
+                  author: edge.node.frontmatter.author.id,
+                  categories: edge.node.frontmatter.tags,
+                  enclosure: {
+                    url:
+                      site.siteMetadata.feedUrl +
+                      edge.node.frontmatter.coverImage.publicURL,
+                    type: "image/jpeg",
+                    size: 768,
+                  },
+                  custom_elements: [
+                    {
+                      "content:encoded": `<p> ${
+                        edge.node.frontmatter.description || edge.node.excerpt
+                      } </p> <br/>  <a href="${
+                        site.siteMetadata.feedUrl + edge.node.fields.slug
+                      }">Read On</a>`,
+                    },
+                  ],
                 })
               })
             },
             query: `
               {
                 allMarkdownRemark(
+                  limit: 1000
+                  filter: { fileAbsolutePath: { regex: "//content/blog//" } }
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   edges {
                     node {
-                      excerpt
-                      html
+                      excerpt(pruneLength: 280)
                       fields { slug }
                       frontmatter {
                         title
-                        date
+                        description
+                        date(formatString: "MMMM DD, YYYY")
+                        coverImage {
+                          publicURL
+                        }
+                        author {
+                          id
+                        }
+                        tags
                       }
                     }
                   }
@@ -188,7 +212,12 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Your Site's RSS Feed",
+            title: "LoginRadius Engineering Blog",
+            feed_url: "https://www.loginradius.com/engineering/rss.xml",
+            site_url: "https://www.loginradius.com/engineering/",
+            description:
+              "Company Updates, Technology Articles from LoginRadius",
+            language: "en-us",
           },
         ],
       },
