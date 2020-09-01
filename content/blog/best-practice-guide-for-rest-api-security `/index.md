@@ -1,9 +1,10 @@
 ---
 title: "Best Practice Guide For Rest API Security | LoginRadius"
-date: "2020-08-20"
+date: "2020-09-01"
 coverImage: "index.jpg"
 author: "Vijay Singh Shekhawat"
 tags: ["RestAPI", "Rest API","Rest API Security", "Best Practice", "Rest API Developer Guide", "Security"]
+description: "RESTful APIs are the most common way of intercating with the backend in stateles manner. Since these APIs are exposed to public, we need to make sure the suitable security mechanisms to prevent abuse, protect sensitive data, and ensure that only authenticated and authorized users can access them. In this blog we will understand some of the basic concepts related to REST API security."
 ---
 
 
