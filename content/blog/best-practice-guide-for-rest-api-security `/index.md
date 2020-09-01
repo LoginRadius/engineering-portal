@@ -1,7 +1,7 @@
 ---
 title: "Best Practice Guide For Rest API Security | LoginRadius"
 date: "2020-08-20"
-coverImage: "index.png"
+coverImage: "index.jpg"
 author: "Vijay Singh Shekhawat"
 tags: ["RestAPI", "Rest API","Rest API Security", "Best Practice", "Rest API Developer Guide", "Security"]
 ---
