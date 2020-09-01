@@ -1,7 +1,5 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
 
-const makeFeedHtml = require('./src/utils/makeFeedHtml')
-
 module.exports = {
   siteMetadata: {
     title: `LoginRadius Engineering`,
@@ -160,22 +158,20 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
-                const html = makeFeedHtml(
-                  edge.node.htmlAst,
-                  site.siteMetadata.feedUrl
-                )
                 return Object.assign({}, edge.node.frontmatter, {
                   title: edge.node.frontmatter.title,
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
                   url: site.siteMetadata.feedUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.feedUrl + edge.node.fields.slug,
-                  enclosure: edge.node.frontmatter.coverImage && {
+                  pubDate: edge.node.frontmatter.date,
+                  author: edge.node.frontmatter.author.id,
+                  enclosure: {
                     url:
                       site.siteMetadata.feedUrl +
                       edge.node.frontmatter.coverImage.publicURL,
+                    type: 'image/jpeg',
+                    size: 768
                   },
-                  custom_elements: [{ "content:encoded": html }],
+                  description:
+                    edge.node.frontmatter.description || edge.node.excerpt,
                 })
               })
             },
@@ -189,13 +185,16 @@ module.exports = {
                   edges {
                     node {
                       excerpt
-                      htmlAst
                       fields { slug }
                       frontmatter {
                         title
-                        date
+                        description
+                        date(formatString: "MMMM DD, YYYY")
                         coverImage {
                           publicURL
+                        }
+                        author {
+                          id
                         }
                       }
                     }
@@ -204,7 +203,11 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Your Site's RSS Feed",
+            title: "LoginRadius Engineering Blog",
+            url: "https://www.loginradius.com/engineering",
+            description:
+              "Company Updates, Technology Articles from LoginRadius",
+            language: "en-us",
           },
         ],
       },
