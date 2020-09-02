@@ -43,6 +43,11 @@ Going Live: After revisions, your editor will publish your article, LoginRadius 
             <li>Simplicity, Ease of Implementation of the content, developer-friendly and effectiveness</li>
           </ul>
 
+          <h3>Apply Now</h3>
+          <p>
+            If you are familiar with git, we encourage you to raise a pull request directly into our <a href="https://github.com/LoginRadius/engineering-portal">public repository</a>. You can directly follow the <a href="https://github.com/LoginRadius/engineering-portal/blob/master/CONTRIBUTING.md">contribution guidelines</a> and raise a pull request accordingly.
+          </p>
+          <p>If not, then no worries, please fill <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgNfb54rpqAob8S7AyK9rUPLmIVs-1GDRHZ2qmiF9KPBdcnw/viewform">this form</a> and we will get back to you.</p>
         </div>
 
       </Static>
