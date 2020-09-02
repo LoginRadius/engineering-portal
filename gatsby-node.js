@@ -109,6 +109,19 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  const staticPages = [
+    {
+      name: "contribute"
+    }
+  ]
+  staticPages.forEach(staticPage => {
+    createPage({
+      path: `/page/${staticPage.name}`,
+      component: require.resolve(`./src/templates/contribute.js`),
+      context: { staticPage },
+    })
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
