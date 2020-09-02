@@ -7,6 +7,7 @@ tags: ["Free tool","Developer Resources ","Verification", "Email"]
 description: "Email authentication, being the traditional way of authentication and used most widely. Increase in the spams has also increased the disposable email registrations. To reduce and identify such unwanted users, EVA(Email Verification API) is the tool, developed by LoginRadius developers."
 ---
 
+## Introduction
 
 Authentication is the necessary implementation for secure and genuine access to resources of web and mobile applications. It helps to authorize the user and provide access control for applications based on the user’s credentials. 
 
@@ -22,6 +23,8 @@ You can effectively reduce such spams for your applications by analyzing the use
 
 There are some tools available that could help you analyze the above factors, and one such tool is [EVA](https://eva.pingutil.com), an Email Verification API. It is a free API and analyzes the user’s email for all of the factors mentioned above. 
 
+### API Details
+
 The details of Email Verification API (API) is as follows:
 
 | Parameters  | Value  | 
@@ -32,13 +35,14 @@ The details of Email Verification API (API) is as follows:
 
 Valid_syntax, disposable, and deliverable are three attributes of this API, let’s see how these works:
 
-**Valid_syntax** 
+#### Output Parameters:
+`valid_syntax`
 This attribute verifies the syntax of the entered email address matches the standard email address format or not. It is useful in the cases where the end-user might misspell email addresses while typing.
 
-**Disposable**
+`disposable`
 This attribute verifies whether the entered email address domain belongs to the disposable email service. EVA checks the email address against a valid database of more than 4500 disposable email services. Thus, it can effectively help the developer to prevent users from registering using disposable email.
 
-**Deliverable**
+`deliverable`
 This attribute verifies whether the email domain has valid MX records or not. The email address is considered deliverable if the valid MX record for the email domain is found.
 
  > **Note**: A mail exchanger record (MX record) specifies the mail server responsible for accepting email messages on behalf of a domain name. It is a resource record in the Domain Name System (DNS). 
