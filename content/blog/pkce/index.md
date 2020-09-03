@@ -4,7 +4,7 @@ date: "2020-09-03"
 author: "Narendra Pareek"
 coverImage: "pkce.png"
 tags: ["PKCE", "OAuth", "OIDC"]
-description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this artical will help you to understand everything about PKCE."
+description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this article will help you to understand everything about PKCE."
 ---
 
 This blog assumes that you have an idea about the OIDC and OAuth authorization code flow. The flow is used to generate the code after authentication, and later on, the code will get exchanged with the token.
@@ -19,7 +19,7 @@ In this blog, we will see how PKCE is useful in authorization code flow for OAut
 
 PKCE (Proof Key for Code Exchange) pronounced pixie is a key to prevent several attacks and perform code authorization flow securely. I would say, PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.
 
-PKCE is mainly useful for the client-side application or any web apps that are using the client secret key and used to replace the static secret used in the authorization flow. This flow is basically works with two params **Code Verifier** and **Code challenge**. Let's see what are these parameters, how we use and generate them.
+PKCE is mainly useful for the client-side application or any web apps that are using the client secret key and used to replace the static secret used in the authorization flow. This flow basically works with two params **Code Verifier** and **Code challenge**. Let's see what are these parameters, how we use, and generate them.
 
 
 ### PKCE code verifier and challenge
@@ -54,8 +54,8 @@ var verifier = base64URLEncode(crypto.randomBytes(32));
 console.log("code_verifier: ", verifier)
 
 if(verifier){
-	var challenge = base64URLEncode(sha256(verifier));
-	console.log("code_challenge: ",challenge)
+    var challenge = base64URLEncode(sha256(verifier));
+    console.log("code_challenge: ",challenge)
 }
 
 
