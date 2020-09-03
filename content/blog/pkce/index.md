@@ -4,7 +4,7 @@ date: "2020-09-03"
 author: "Narendra Pareek"
 coverImage: "pkce.png"
 tags: ["PKCE", "OAuth", "OIDC"]
-description: "If you are working with OAuth and OIDC and want to setup PKCE flow then here you can understand everything about PKCE."
+description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this artical will help you to understand everything about PKCE."
 ---
 
 This blog assumes that you have an idea about the OIDC and OAuth authorization code flow. The flow is used to generate the code after authentication, and later on, the code will get exchanged with the token.
@@ -39,7 +39,9 @@ Here you can see the examples to generate the Code verifier and code challenge i
 
 
 **NodeJs**
-```
+
+```javascript
+
 var crypto = require("crypto")
 
 function base64URLEncode(str) {
@@ -60,11 +62,12 @@ if(verifier){
 function sha256(buffer) {
     return crypto.createHash('sha256').update(buffer).digest();
 }
+
 ```
 
 **Golang**
 
-```
+```golang
 
 package main
  
