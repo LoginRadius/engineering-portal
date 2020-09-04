@@ -115,8 +115,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const staticPages = [
     {
-      name: "contribute"
-    }
+      name: "contribute",
+    },
   ]
   staticPages.forEach(staticPage => {
     createPage({
@@ -161,7 +161,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 }
 
 exports.onPostBuild = function () {
-  if (process.env.APP_ENV !== "DEV") {
+  if (process.env.APP_ENV === "PRODUCTION") {
     fs.renameSync(
       path.join(__dirname, "public"),
       path.join(__dirname, "public-blog")
