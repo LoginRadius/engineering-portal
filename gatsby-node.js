@@ -1,6 +1,9 @@
 const path = require(`path`)
+const fs = require("fs")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+require("dotenv").config({ path: `${__dirname}/.env` })
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -57,7 +60,7 @@ exports.createPages = async ({ graphql, actions }) => {
         previous,
         next,
         pageNumber: Math.ceil(index / postsPerPage),
-        tags: post.node.frontmatter.tags || []
+        tags: post.node.frontmatter.tags || [],
       },
     })
   })
@@ -112,8 +115,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const staticPages = [
     {
-      name: "contribute"
-    }
+      name: "contribute",
+    },
   ]
   staticPages.forEach(staticPage => {
     createPage({
@@ -155,4 +158,20 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `
   createTypes(typeDefs)
+}
+
+exports.onPostBuild = function () {
+  if (process.env.APP_ENV === "PRODUCTION") {
+    fs.renameSync(
+      path.join(__dirname, "public"),
+      path.join(__dirname, "public-blog")
+    )
+
+    fs.mkdirSync(path.join(__dirname, "public"))
+
+    fs.renameSync(
+      path.join(__dirname, "public-blog"),
+      path.join(__dirname, "public", "engineering")
+    )
+  }
 }
