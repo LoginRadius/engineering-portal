@@ -62,6 +62,7 @@ const Post = ({ post, relatedPost }) => {
               fluid={image.childImageSharp.fluid}
               Tag="div"
               className="bs-md"
+              alt={post.frontmatter.title}
             />
           </div>
           <div className={headStyles.descriptionPinned}>
