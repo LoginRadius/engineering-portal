@@ -15,11 +15,11 @@ MEMEs can light the environment for every programmer in the world. On that note,
 
 ## Here is our developer picked list of 21 complied MEME for you:
 
-### 1. Always ready for new!!! - [Kunal](blog/author/kunal/) 
+### 1. Always ready for new!!! - [Kunal](/author/kunal/) 
 
 ![](1.png) 
 
-### 2. Nothing Changes With Time - [Tanvi Jain](/blog/author/tanvi-jain/)
+### 2. Nothing Changes With Time - [Tanvi Jain](/author/tanvi-jain/)
 
 ![](2.png)
 
