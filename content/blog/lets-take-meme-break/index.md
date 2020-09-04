@@ -51,7 +51,7 @@ MEMEs can light the environment for every programmer in the world. On that note,
 
 ![](9.png)
 
-### 10. Every IT Administrator. - [Rashmi Jain](/blog/author/rashmi-jain/)
+### 10. Every IT Administrator. - [Narendra Pareek](/blog/author/narendra-pareek/)
 
 ![](10.png)
 
