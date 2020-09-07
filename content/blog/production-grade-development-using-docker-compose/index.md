@@ -26,9 +26,9 @@ Here in this *kind of* practical example, we are going to demonstrate a similar 
 ![title](example-arch.png)
 
 
-The picture above depicts architecture of a hypothietical portal of flash sale.
+The picture above depicts architecture of a hypothetical portal of flash sale.
 
-*Flash Sale is an e-commerce concept, where an item is made available for sale to public on portal at a specific time and in a limited quantity.*
+*Flash Sale is an e-commerce concept, where an item is made available for sale to the public on a portal at a specific time and in a limited quantity.*
 
 The components of the application are
 
@@ -39,7 +39,7 @@ The components of the application are
 * Listener (node.js)
 * DataStore (mongo-db)
 
-The application is otherwise fairly simple. Go to the portal hit the green button which call an API, the API drops a message to the queue, the listener picks the messages, grabs the item from database reduces the quantity and updates the datastore again.
+The application is otherwise fairly simple. Go to the portal, hit the green button which calls an API, the API drops a message to the queue, the listener picks the messages, grabs the item from the database reduces the quantity and updates the datastore again.
 
 So far so good!
 
@@ -53,13 +53,13 @@ You may fork a copy from here.
 
 ### The use of docker-compose and why?
 
-Exactly! What is the problem? As such there is no problem, but it may arise if we do not program or develop it well in an integrated manner. Programming a component and managing it well reduce the time-to-production by a greater degree.
+Exactly! What is the problem? As such there is no problem, but it may arise if we do not program or develop it well in an integrated manner. Programming a component and managing it well reduces the time-to-production by a greater degree.
 
 > *I am not a great programmer; I am just a good programmer with great habits.*
 >
-> - Matin Fowler
+> - Martin Fowler
 
-While desiging and developing complicated systems where microservices are involved, integration and debugging becomes cumbersome.
+While designing and developing complicated systems where microservices are involved, integration and debugging becomes cumbersome.
 
 To ease it up docker-compose acts a friend.
 
@@ -82,7 +82,7 @@ COPY . .
 CMD ["npm", "run", "start"]
 ```
 
-Since, the other two components, listener and frontend are also written in JavaScript the Dockerfile does not change at all for them too, for the example.
+Since the other two components, listener and frontend are also written in JavaScript the Dockerfile does not change at all for them too, for this particular example.
 
 ```
 FROM nginx
@@ -91,12 +91,12 @@ COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
 The other 2 components :
 
-* Mongodb has its own image we will leverage that while writing the docker-compose.
+* Mongodb has its own image. We will leverage that while writing the docker-compose.
 * SQS is emulated using softwaremill/elasticmq image.
 
 ### Action!
 
-First things first, file version. Since it is all yaml out there file version tells docker-compose about the data strucure. The data structure which is expected by docker "compose".
+First things first, file version. Since it is all yaml out there, the file `version` tells docker-compose about the data strucure. The data structure which is expected by docker "compose".
 
 so we start the docker-compose as
 
@@ -175,10 +175,10 @@ The more you are seeing here is *environment* and *restart* options. Environment
 
 `restart` is a bit interesting. One may specify a restart policy if the application crashes, which leads to stop the docker image itself. always specifies to restart the container if it exit. The word exit reminds of exit code. On a non zero exit code, that is  `on-failure` of the application the `on-failure` policy helps much.
 
-In the environment section, one can see mqserver and mongo, instead the regular localhost and loopback address. This is because when we run docker-compose, it creates a DNS recordset of all the `services` mentioned. The services can reffered by their names. A slight deviation here may happen when container is explicitly named. `container_name = mongo` is used at a later point of time in the other container environments as mongo and not mongodbdb.
+In the environment section, one can see mqserver and mongo, instead the regular localhost and loopback address. This is because when we run docker-compose, it creates a DNS recordset of all the `services` mentioned. The services can referred by their names. A slight deviation here may happen when container is explicitly named. `container_name = mongo` is used at a later point of time in the other container environments as mongo and not mongodbdb.
 
 
-The polling mod and forntend services are quite same.
+The pollingmod and forntend services are quite same.
 
 ```
     pollingmod:
@@ -222,7 +222,7 @@ upstream apiserver{
 }
 ```
 
-The nginix container opens port 80 to an external port 5500. The nginx container keeps configuration where user can wee just one port 5500 from out of the system, everything else is gray.
+The nginx container opens port 80 to an external port 5500. The nginx container keeps configuration where the user can see just one port 5500 from out of the system, everything else is gray.
 
 
 ![User to System](UserToSystem.png)
