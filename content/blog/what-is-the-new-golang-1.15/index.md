@@ -48,7 +48,7 @@ Go 1.15 has improved the code build process now unused code is eliminating in th
 Always in every new version release Go come with various minor changes and updates to the library. I m including some useful and important changes  
 
 #### tzdata Package
-A new embedded tzdata package was added that permits embedding the timezone database into a program. Importing this package (as import _ "time/tzdata") which allows the program to find timezone information without the timezone database is not available on the local system. You can also embed the timezone database by building with -tags timet/zdata. Either approach increases the size of the program by about 800 KB.
+A new embedded tzdata package was added that permits embedding the timezone database into a program. Importing this package (as import _ "time/tzdata") which allows the program to find timezone information without the timezone database is not available on the local system. You can also embed the timezone database by building with -tags timet/zdata. This approach increases the size of the program by about 800 KB. This might be useful if you want to test some code with the virtualized environments like Go playground.
 
 #### X.509 CommonName deprecation
 The standard library's testing package is quite minimalist — the Go philosophy is to avoid domain-specific languages for writing tests and assertions, and instead to just write plain Go, which the developer already knows. But the core developers found creating a temporary directory useful enough to approve adding a TempDir() method that lazily creates a temporary directory for the current test and deletes it automatically when the test is finished.
@@ -62,6 +62,6 @@ Go 1.15 have released with various improvements, bug fixes. You can get all impr
 
 ### Referance 
 - [Go Blog]("https://blog.golang.org/")
-- [Go 1.15]("https://golang.org/doc/go1.15#runtime")
+- [Go 1.15]("https://golang.org/doc/go1.15")
 
 
