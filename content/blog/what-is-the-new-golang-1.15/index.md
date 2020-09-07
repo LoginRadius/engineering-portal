@@ -1,5 +1,5 @@
 ---
-title: "What is the New in the golang1.15| LoginRadius"
+title: "What is the New in the golang 1.15"
 date: "2020-09-07"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
@@ -30,7 +30,7 @@ Go now generates Windows ASLR executables when -buildmode=pie cmd/link flag is p
 
 The -race and -msan flags now always enable `-d=checkptr`, which checks uses of unsafe. Pointer. This was previously the case on all OSes except Windows.
 
-#### Andiord
+#### Android
 
 Mobile applications were crashing in some devices due to some invalid lld linker versions so now avoiding the crashing the latest Go 1.15 version explicitly selects the lld linker available in recent versions of the NDK. This explicitly lld linker avoids crashes on some devices. it becomes the default NDK linker in a future NDK version.
 
