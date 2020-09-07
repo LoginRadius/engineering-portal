@@ -1,6 +1,6 @@
 ---
 title: "What is the New in the golang1.15| LoginRadius"
-date: "2020-08-20"
+date: "2020-09-07"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
 tags: ["Go", "golang","Go 1.15", "Go Features", "Go Improvement", "Go Package", "Go New Features"]
