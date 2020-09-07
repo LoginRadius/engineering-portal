@@ -1,5 +1,5 @@
 ---
-title: "What is the New in the golang 1.15"
+title: "What is the New in the go 1.15"
 date: "2020-09-07"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
