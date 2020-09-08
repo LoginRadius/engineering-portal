@@ -1,6 +1,6 @@
 ---
 title: "Angular State Management With NGXS"
-date: "2020-09-07"
+date: "2020-09-08"
 coverImage: "title-image.png"
 author: "Akshaya Sharma"
 tags: ["Angular","NGXS","Redux"]
