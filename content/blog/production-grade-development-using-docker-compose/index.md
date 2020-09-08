@@ -117,7 +117,7 @@ mqserver:
             - '9324:9324'
 ```
 
-That is analogues to `docker run -it -p '9324:9324' softwaremill/elasticmq`.
+That is analogous to `docker run -it -p '9324:9324' softwaremill/elasticmq`.
 
 A bit more complicated service next, mongodb.
 
