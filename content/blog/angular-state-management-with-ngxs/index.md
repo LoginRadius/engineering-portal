@@ -21,15 +21,15 @@ NGXS is modeled after the CQRS pattern popularly implemented in libraries like R
 
 
 ## How NGXS works:
-NGXS is very simple to use as compared to other state management patterns like redux and Akita. NGXS takes full advantages of angular and typescript over the redux pattern.
+NGXS is very simple to use as compared to other state management patterns like redux and Akita. NGXS takes full advantage of angular and typescript over the redux pattern.
 There are majors 4 concepts to NGXS
 #### 1. Store: 
-It is a global state container and manages the states of the application.We can dispatche the actions to perform certain operations.
+It is a global state container and manages the states of the application.We can dispatch the actions to perform certain operations.
 ```typescript
     this.store.dispatch(new TodoActions.AddTodo(form));
 ```
 #### 2. Actions 
-An Actions is a type of command which should be called when something happens or you want to trigger at any event like for adding new todo,listing todo etc.
+An Action is a type of command which should be called when something happens or you want to trigger at any event like for adding new todo, listing todo etc.
 ```typescript
 export class AddTodo {
     static readonly type = '[Todo] Add';
@@ -52,7 +52,7 @@ import { State } from '@ngxs/store';
 export class TodoState {}
 ```
 #### 4. Select
-Selects are functions that slice a specific portion of state from the global state container i.e. to get the data from specific global state whenever you want to use.
+Selects are functions that slice a specific portion of the state from the global state container i.e. to get the data from the specific global state whenever you want to use.
 ```typescript
   @Select(TodoState) todoList$: Observable<ITodo>;
 ```
@@ -108,7 +108,7 @@ export class AppComponent {
 }
 ```
 #### 3. Create your actions
-Create folder `state` and put the `todo-actions.ts` file and add below code
+Create a folder `state` and put the `todo-actions.ts` file and add below code
 
 ```typescript 
 // File name todo-actions.ts
@@ -134,8 +134,8 @@ export class DeleteTodo {
 
 #### 4. Create your State:
 
-Here we have created the state of the todo, it contails the global state of the todo list.
-Create folder `state` and put the `todo-state.ts` file and add below code
+Here we have created the state of the todo, it contains the global state of the todo list.
+Create a folder `state` and put the `todo-state.ts` file and add below code
 ```typescript
 
 // File name todo-state.ts
@@ -219,7 +219,7 @@ put this code in your `app.component.html`
     </li>
   </ul>
 ```
-After lots of code, it's time to see the results. So here is the UI you will get. To get the complete code please go to [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/To-do-App-in-angular-with-NGXS)
+After lots of code, it's time to see the results. So here is the UI you will get. To get the complete code please go to [Github Repo.](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/To-do-App-in-angular-with-NGXS)
 ![Image](result.png)
 
 ## Conclusion
