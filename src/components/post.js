@@ -16,6 +16,9 @@ import TagMenu from "./tagMenu"
 
 import ReactGA from "react-ga"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+
 const logger = function () {
   ReactGA.event({
     category: "LoginRadius Docs",
@@ -121,6 +124,29 @@ const Post = ({ post, relatedPost }) => {
                   <hr />
                 </>
               ) : null}
+              <div>
+                <h3>Follow LoginRadius </h3>
+                <div className={styles.followBtn}>
+                  <a
+                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
+                    target="blank"
+                  >
+                    <img
+                      id="feedlyFollow"
+                      src="http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
+                      alt="follow us in feedly"
+                      width="28"
+                      height="28"
+                    />
+                    <p> via feedly </p>
+                  </a>
+                  <a href="https://twitter.com/LoginRadius" target="blank">
+                    <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
+                    <p> on twitter </p>
+                  </a>
+                </div>
+              </div>
+              <hr />
               <div>
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
