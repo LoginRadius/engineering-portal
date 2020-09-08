@@ -6,10 +6,10 @@ author: "Akshaya Sharma"
 tags: ["Angular","NGXS","Redux"]
 description: "NGXS is a state management pattern + library for Angular. It acts as a single source of truth for your application's state, providing simple rules for predictable state mutations."
 ---
-In this article, we will learn about state management in Angular with NGXS. Here we will understand the basic concept of NGXS and will create a simple TO-DO App.
+In this article, we will learn about state management in Angular with NGXS. Here we will understand the basic concept of NGXS and create a simple TO-DO App.
 
 ## What is State
-In the bigger app, to manage the data states is very complicated. In angular, each component has its state, to share the data/state between the components we normally use @Input and @Output decorators, but when the application goes bigger, its challenging to maintain the data consistency. So to solve this problem, redux was introduced. It provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.
+In the bigger app, managing the data states is very complicated. In angular, each component has its state, to share the data/state between the components we normally use @Input and @Output decorators, but when the application goes bigger, its challenging to maintain the data consistency. So to solve this problem, redux was introduced. It provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.
 
 ![Image](redux.png)
 
@@ -21,15 +21,15 @@ NGXS is modeled after the CQRS pattern popularly implemented in libraries like R
 
 
 ## How NGXS works:
-NGXS is very simple to use as compared to other state management redux and Akita. NGXS takes full advantages of angular and typescript over the redux pattern.
+NGXS is very simple to use as compared to other state management patterns like redux and Akita. NGXS takes full advantages of angular and typescript over the redux pattern.
 There are majors 4 concepts to NGXS
 #### 1. Store: 
-It is a global state container and manage the states of the application.it dispatches actions.
+It is a global state container and manages the states of the application.We can dispatche the actions to perform certain openrations.
 ```typescript
     this.store.dispatch(new TodoActions.AddTodo(form));
 ```
 #### 2. Actions 
-Actions is a type of command which should be called when something happens or you want to trigger at any event like for adding new todo,listing todo etc.
+An Actions is a type of command which should be called when something happens or you want to trigger at any event like for adding new todo,listing todo etc.
 ```typescript
 export class AddTodo {
     static readonly type = '[Todo] Add';
@@ -74,9 +74,8 @@ import { NgxsModule } from '@ngxs/store';
 export class AppModule {}
 ```
 #### 2. Create your store
-Here we have created a component that dispatches actions to create the to-do and for other operations. Apart from that, we are using a selector `TodoState`, from which we are getting the updated to-do list.
+Here we have created a component that dispatches actions to create the to-do and for other operations. Apart from that, we are using a selector `TodoState`, from which we are listening the updated to-do list.
 
-A store is a global state manager that dispatches actions for your state listen
 Put this code in the `app.component.ts`
 ```typescript
 // File name app.component.ts
@@ -203,7 +202,7 @@ export class TodoState implements NgxsOnInit {
 ```
 #### 5. Create your html view
 
-Here we have created a form which we use to create todo and listed all todo.
+Here we have created a form for what we use to create todo and listed all todo.
 put this code in your `app.component.html`
 ```html
 <!-- File name  app.component.html -->
@@ -220,8 +219,7 @@ put this code in your `app.component.html`
     </li>
   </ul>
 ```
-Code code again code, now time to see the result so here is the UI you will get, to get the complete code please go [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/To-do-App-in-angular-with-NGXS)
-
+After lots of code, it's time to see the results. So here is the UI you will get. To get the complete code please go to [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/To-do-App-in-angular-with-NGXS)
 ![Image](result.png)
 
 ## Conclusion
