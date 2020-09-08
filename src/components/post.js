@@ -133,7 +133,7 @@ const Post = ({ post, relatedPost }) => {
                   >
                     <img
                       id="feedlyFollow"
-                      src="http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
+                      src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
                       alt="follow us in feedly"
                       width="28"
                       height="28"
