@@ -9,7 +9,7 @@ description: "NGXS is a state management pattern + library for Angular. It acts 
 In this article, we will learn about state management in Angular with NGXS. Here we will understand the basic concept of NGXS and create a simple TO-DO App.
 
 ## What is State
-In the bigger app, managing the data states is very complicated. In angular, each component has its state, to share the data/state between the components we normally use @Input and @Output decorators, but when the application goes bigger, its challenging to maintain the data consistency. So to solve this problem, redux was introduced. It provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.
+In the bigger apps, managing the data states is very complicated. In angular, each component has its own state, to share the data/state between the components we normally use @Input and @Output decorators, but when the application goes bigger, its challenging to maintain the data consistency. So to solve this problem, redux was introduced. It provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.
 
 ![Image](redux.png)
 
@@ -29,7 +29,7 @@ It is a global state container and manages the states of the application.We can 
     this.store.dispatch(new TodoActions.AddTodo(form));
 ```
 #### 2. Actions 
-An Action is a type of command which should be called when something happens or you want to trigger at any event like for adding new todo, listing todo etc.
+An action is a type of command which should be called when something happens or you want to trigger at any event like adding a new todo, listing todos etc.
 ```typescript
 export class AddTodo {
     static readonly type = '[Todo] Add';
@@ -74,7 +74,7 @@ import { NgxsModule } from '@ngxs/store';
 export class AppModule {}
 ```
 #### 2. Create your store
-Here we have created a component that dispatches actions to create the to-do and for other operations. Apart from that, we are using a selector `TodoState`, from which we are listening the updated to-do list.
+Here we have created a component that dispatches actions to create a to-do and for other operations. Apart from that, we are using a selector `TodoState`, from which we are listening for the updated to-do list.
 
 Put this code in the `app.component.ts`
 ```typescript
@@ -202,7 +202,7 @@ export class TodoState implements NgxsOnInit {
 ```
 #### 5. Create your html view
 
-Here we have created a form for what we use to create todo and listed all todo.
+Here we have created a form that we use to create todo and listed all todos.
 put this code in your `app.component.html`
 ```html
 <!-- File name  app.component.html -->
