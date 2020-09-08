@@ -68,6 +68,24 @@
         }
       }
     }
+    .follow-btn {
+      a {
+        display: flex;
+        margin-top: 0.5em;
+        p {
+          margin: 0 0 0 0.5em;
+          line-height: normal;
+          color: $gray-dark;
+          &:hover {
+            color: $black;
+          }
+        }
+        svg {
+          width: 1.5em;
+          margin-top: 3px;
+        }
+      }
+    }
   }
 }
 

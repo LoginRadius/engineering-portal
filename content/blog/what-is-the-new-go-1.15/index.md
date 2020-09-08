@@ -1,5 +1,5 @@
 ---
-title: "What is the New in the go 1.15"
+title: "What's new in the go 1.15"
 date: "2020-09-07"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
@@ -61,7 +61,7 @@ Go 1.15 have released with various improvements, bug fixes. You can get all impr
 
 
 ### Referance 
-- [Go Blog]("https://blog.golang.org/")
-- [Go 1.15]("https://golang.org/doc/go1.15")
+- [Go Blog](https://blog.golang.org/)
+- [Go 1.15](https://golang.org/doc/go1.15)
 
 
