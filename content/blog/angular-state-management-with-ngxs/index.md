@@ -24,7 +24,7 @@ NGXS is modeled after the CQRS pattern popularly implemented in libraries like R
 NGXS is very simple to use as compared to other state management patterns like redux and Akita. NGXS takes full advantages of angular and typescript over the redux pattern.
 There are majors 4 concepts to NGXS
 #### 1. Store: 
-It is a global state container and manages the states of the application.We can dispatche the actions to perform certain openrations.
+It is a global state container and manages the states of the application.We can dispatche the actions to perform certain operations.
 ```typescript
     this.store.dispatch(new TodoActions.AddTodo(form));
 ```
