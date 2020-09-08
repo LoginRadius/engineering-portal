@@ -1,5 +1,5 @@
 ---
-title: "Web Workers: A Simple Introduction"
+title: "Web Workers: Adding Multi-threading to JavaScript"
 date: "2020-09-07"
 coverImage: "cover.jpg"
 author: "Hridayesh Sharma"
@@ -14,7 +14,7 @@ It appears that like JavaScript they are single-threaded too and don't know abou
 
 ##### Well, let's teach them some basics about web workers. 😎
 
-## Web Workers: A Short Introduction
+## Web Workers: Adding Multi-threading to JavaScript
 
 ### What are web workers ?
 
@@ -24,7 +24,7 @@ _From MDN_:
 
 In short, web workers let's you do multi-threading in JavaScript which is a single-threaded language.
 
-Let's create our own virtual **JavaScripters** and we are going to make sure that someone innocent doesn't gets yelled at by using multi-threading provided by web workers. 🤩
+Let's create our own virtual **JavaScripters** and we are going to make sure that someone innocent doesn't gets yelled at by adding multi-threading to our JavaScript using web workers. 🤩
 
 ### Let's get the party started. 🕺
 
