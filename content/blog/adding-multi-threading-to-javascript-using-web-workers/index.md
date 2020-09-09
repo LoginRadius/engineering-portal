@@ -133,7 +133,7 @@ function registerMember(member) {
 
 Now, the problem I faced when I went to the club with Hriday was that I (and everyone else after me) had to wait for my registration process to complete. We don't want that to happen to our virtual club and therefore we added one more person (thread) who is in charge of the whole registration process. Once registration is done, he will tell the main guy(thread) to let the new person in.
 
-#### Here's what we did to solve it our code.
+#### Here's what we did to solve it in our code.
 
 1. First of all we check for each person if they are a member or not. If they are, we let them in.
 2. If someone is not a member of the club yet, we create a worker thread for it using `new Worker('path to worker code')` and pass that person to the worker thread using `worker.postMessage()` and add the person as a member after registering them.
