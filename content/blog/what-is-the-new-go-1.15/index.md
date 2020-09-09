@@ -51,7 +51,8 @@ Always in every new version release Go come with various minor changes and updat
 A new embedded tzdata package was added that permits embedding the timezone database into a program. Importing this package (as import _ "time/tzdata") which allows the program to find timezone information without the timezone database is not available on the local system. You can also embed the timezone database by building with -tags timet/zdata. This approach increases the size of the program by about 800 KB. This might be useful if you want to test some code with the virtualized environments like Go playground.
 
 #### X.509 CommonName deprecation
-The standard library's testing package is quite minimalist — the Go philosophy is to avoid domain-specific languages for writing tests and assertions, and instead to just write plain Go, which the developer already knows. But the core developers found creating a temporary directory useful enough to approve adding a TempDir() method that lazily creates a temporary directory for the current test and deletes it automatically when the test is finished.
+Go older versions were using CommonName field on X.509 certificates as a hostname when there is no Subject
+Alternative Names, Now it is disabled by default. If Still, you want to use this legacy behavior then you need to add x509ignoreCN=0 in the GODEBUG environment variable.
 
 #### net/url Package
 The `net/url` package adds a new URL. The redacted () method that returns the URL as a string. This is proposed in the [34855](https://github.com/golang/go/issues/34855). It is a very useful improvement for audit logging and security. It's a simple derivation from the URL.String() that masks the password if exists from the string being passed. It does not modify at all to the URL itself but a copy of it.
