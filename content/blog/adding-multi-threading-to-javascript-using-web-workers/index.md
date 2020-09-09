@@ -1,6 +1,6 @@
 ---
 title: "Web Workers: Adding Multi-threading to JavaScript"
-date: "2020-09-07"
+date: "2020-09-09"
 coverImage: "cover.jpg"
 author: "Hridayesh Sharma"
 tags: ["JavaScript", "Web"]
@@ -74,7 +74,7 @@ const persons = [
 ]
 
 // Our club container
-const club = document.getElementById("root")
+const club = document.getElementById("club")
 let worker
 
 /**
@@ -93,7 +93,7 @@ function entry(persons) {
       worker.postMessage(name)
       // listen to any data passed from worker thread
       worker.addEventListener("message", event => {
-        if (e.data) {
+        if (event.data) {
           club.appendChild(listItem)
         }
       })
@@ -113,7 +113,7 @@ entry(persons)
 // addEventListener is directly accessible in worker file
 addEventListener("message", event => {
   // extract person passed from main thread from event object
-  let person = e.data
+  let person = event.data
   registerMember(person)
 })
 
@@ -129,7 +129,7 @@ function registerMember(member) {
 }
 ```
 
-#### Step3: On to some Explanations about what just happened.
+#### Step 3: On to some Explanations about what just happened.
 
 Now, the problem I faced when I went to the club with Hriday was that I (and everyone else after me) had to wait for my registration process to complete. We don't want that to happen to our virtual club and therefore we added one more person (thread) who is in charge of the whole registration process. Once registration is done, he will tell the main guy(thread) to let the new person in.
 
@@ -137,7 +137,7 @@ Now, the problem I faced when I went to the club with Hriday was that I (and eve
 
 1. First of all we check for each person if they are a member or not. If they are, we let them in.
 2. If someone is not a member of the club yet, we create a worker thread for it using `new Worker('path to worker code')` and pass that person to the worker thread using `worker.postMessage()` and add the person as a member after registering them.
-3. To simulate the registration process we are doing some processing using a long `while` loop. In real life this could be some cryptographic code, image processing or anything that is CPU intensive and might block the main thread and makes page unresponsive.
+3. To simulate the registration process we are doing some processing using a long `while` loop. In real life this could be some cryptographic code, image processing or anything that is CPU intensive and might block the main thread and makes the page unresponsive.
 4. Once registered, the worker thread let's the main thread know about it by sending data using `postMessage` and the main thread listens for it using `onmessage handler` and let's the person in the club i.e add to DOM.
 5. Once we get the result from the worker thread, then we close it using `close()`.
 
@@ -186,7 +186,7 @@ const persons = [
 ]
 
 // Our club container
-const club = document.getElementById("root")
+const club = document.getElementById("club")
 let worker
 
 function entry() {
