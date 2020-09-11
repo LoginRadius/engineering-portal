@@ -6,13 +6,13 @@ author: "Anurag Choudhary"
 tags: ["Docker", "Docker-compose"]
 ---
 
-> Assuming that reader of this blog has fair idea of docker ecosystem!
+> Assuming that the reader of this blog has a fair idea of docker ecosystem!
 
-Docker has changed the world of software development! Since the last few years docker has helped the community and enterprises and startups create solutions quickly and effectively, while deployment is relatively hassle free (conditions apply), at least the “Works fine on my system” problem.
+Docker has changed the world of software development! Since the last few years, docker has helped the developer community, enterprises, and startups to create solutions quickly and effectively. Also, deployment is relatively hassle-free with docker (conditions apply). And worth mentioning is, it resolves the “Works fine on my system” problem.  
 
 Well, just not docker, there are many container ecosystems available as an alternative to docker. For example, Mesos by Apache and Vagrant by Terraform. Docker is more loved for what it is **not**, and that is Bulky! Docker is otherwise lightweight, works mostly with linux and eventually was identified by Kubernetes in 2015. But, that story... some other time!!
 
-Straight to the context, Docker Compose! Docker compose is a powerful utility which is bundled with docker installation. Docker-Compose can be used for production and development, to make things virtually seamless.
+Straight to the context, Docker Compose! Docker compose is a powerful utility that is bundled with docker installation. Docker-Compose can be used for production and development, to make things virtually seamless.
 
 ### Microservices and Docker
 
@@ -26,7 +26,7 @@ While working on microservices where quite a few ( *being reasonably complicated
 
 the developer has two choices, create a script in a scripting language of choice, or choose docker-compose. Well, docker-compose is an easier option.
 
-Here in this *kind of* practical example, we are going to demonstrate a similar situation, where multiple containers talk to each other. We are going to use docker-compose as our primary tool build and deploy images.
+Here in this *kind of* practical example, we are going to demonstrate a similar situation, where multiple containers talk to each other. We are going to use docker-compose as our primary tool to build and deploy images.
 
 ![title](example-arch.png)
 
@@ -58,19 +58,19 @@ You may fork a copy from here.
 
 ### The use of docker-compose and why?
 
-Exactly! What is the problem? As such there is no problem, but it may arise if we do not program or develop it well in an integrated manner. Programming a component and managing it well reduces the time-to-production by a greater degree.
+Exactly! What is the problem? As such, there is no problem, but it may arise if we do not program or develop it well in an integrated manner. Programming a component and managing it well reduces the time-to-production to a greater degree.
 
 > *I am not a great programmer; I am just a good programmer with great habits.*
 >
 > - Martin Fowler
 
-While designing and developing complicated systems where microservices are involved, integration and debugging becomes cumbersome.
+While designing and developing complicated systems where microservices are involved, integration and debugging become cumbersome.
 
 To ease it up docker-compose acts a friend.
 
 For the example above we are going to write a docker-compose. Docker-Compose has got *powers* to
 
-* Building the program and images
+* Build images
 * Bring up the whole application ecosystem
 * Wipe it up from the memory in one command
 
@@ -89,6 +89,8 @@ CMD ["npm", "run", "start"]
 
 Since the other two components, listener and frontend are also written in JavaScript the Dockerfile does not change at all for them too, for this particular example.
 
+The following is a two-liner Dockerfile for gateway. The conf file targets apiserver and frontend. Please have a look at the configuration file in the repository itself .
+
 ```
 FROM nginx
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
@@ -96,12 +98,12 @@ COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
 The other 2 components :
 
-* Mongodb has its own image. We will leverage that while writing the docker-compose.
+* Mongodb has its image. We will leverage that while writing the docker-compose.
 * SQS is emulated using softwaremill/elasticmq image.
 
 ### Action!
 
-First things first, file version. Since it is all yaml out there, the file `version` tells docker-compose about the data strucure. The data structure which is expected by docker "compose".
+First things first, file version. Since it is all yaml out there, the file `version` tells docker-compose about the data structure. The data structure which is expected by docker "compose".
 
 so we start the docker-compose as
 
@@ -144,7 +146,7 @@ There are a couple of things one may notice more here.
 
 > Docker is only liable to check the containers when we use depends_on, if you want to check whether your service (which you have embedded) is ready to use or not, use `healthcheck `and `link`.
 
-Apart from this, we are mounting a volume and exposing ports for an image mongo which gets pulled directly from the docker container registry. `container_name` will give the service a name, so that it can be *discovered *in the network. *Kind of a domain name in the internal docker-compose network.*
+Apart from this, we are mounting a volume and exposing ports for an image mongo which gets pulled directly from the docker container registry. `container_name` will give the service a name, so that it can be discovered *in the network. *Kind of a domain name in the internal docker-compose network.
 
 Now the developer's proprietary API service:
 
@@ -178,9 +180,9 @@ The `build `tag will be used by `docker-compose build` command to build an image
 
 The more you are seeing here is *environment* and *restart* options. Environment variables are used to set environment variables while running the image. This is another part where docker-compose comes handy. Think about setting all nine environment variables with `docker run`.
 
-`restart` is a bit interesting. One may specify a restart policy if the application crashes, which leads to stop the docker image itself. always specifies to restart the container if it exit. The word exit reminds of exit code. On a non zero exit code, that is  `on-failure` of the application the `on-failure` policy helps much.
+`restart` is a bit interesting. One may specify a restart policy if the application crashes, which leads to stop the docker image itself. always specifies to restart the container if it exit.
 
-In the environment section, one can see mqserver and mongo, instead the regular localhost and loopback address. This is because when we run docker-compose, it creates a DNS recordset of all the `services` mentioned. The services can referred by their names. A slight deviation here may happen when container is explicitly named. `container_name = mongo` is used at a later point of time in the other container environments as mongo and not mongodbdb.
+In the environment section, one can see mqserver and mongo, instead of the regular localhost and loopback address. This is because when we run docker-compose, it creates a DNS recordset of all the `services` mentioned. The services can be referred to by their names. A slight deviation here may happen when the container is explicitly named. Here, container_name = mongo is used for service mongodbdb. Hence, the other containers in the environment shall refer to it by mongo and not mongodbdb.
 
 
 The pollingmod and forntend services are quite same.
@@ -235,7 +237,7 @@ The nginx container opens port 80 to an external port 5500. The nginx container 
 And this is, how it happens in the real world as well!
 
 
-Finally, we have a docker-compose.yml. And following are simple commands which makes life even simpler when we need to build and run & stop the entire ecosystem.
+Finally, we have a docker-compose.yml. And following are simple commands which make life even simpler when we need to build and run & stop the entire ecosystem.
 
 To build
 
