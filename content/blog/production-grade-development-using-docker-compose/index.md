@@ -1,5 +1,10 @@
-# Production Grade Development using Docker-Compose
-
+---
+title: "Production Grade Development using Docker-Compose"
+date: "2020-09-11"
+coverImage: "index.png"
+author: "Anurag Choudhary"
+tags: ["Docker", "Docker-compose"]
+---
 
 > Assuming that reader of this blog has fair idea of docker ecosystem!
 
