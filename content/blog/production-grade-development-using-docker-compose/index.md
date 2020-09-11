@@ -6,17 +6,17 @@ author: "Anurag Choudhary"
 tags: ["Docker", "Docker-compose"]
 ---
 
-> Assuming that the reader of this blog has a fair idea of docker ecosystem!
+> Assuming that the reader of this blog has a fair idea of the docker ecosystem!
 
 Docker has changed the world of software development! Since the last few years, docker has helped the developer community, enterprises, and startups to create solutions quickly and effectively. Also, deployment is relatively hassle-free with docker (conditions apply). And worth mentioning is, it resolves the “Works fine on my system” problem.  
 
-Well, just not docker, there are many container ecosystems available as an alternative to docker. For example, Mesos by Apache and Vagrant by Terraform. Docker is more loved for what it is **not**, and that is Bulky! Docker is otherwise lightweight, works mostly with linux and eventually was identified by Kubernetes in 2015. But, that story... some other time!!
+Well, just not docker, there are many container ecosystems available as an alternative to Docker. For example, Mesos by Apache and Vagrant by Terraform. Docker is more loved for what it is **not**, and that is Bulky! Docker is otherwise lightweight, works mostly with Linux and eventually was identified by Kubernetes in 2015. But, that story... some other time!!
 
-Straight to the context, Docker Compose! Docker compose is a powerful utility that is bundled with docker installation. Docker-Compose can be used for production and development, to make things virtually seamless.
+Straight to the context, Docker Compose! Docker compose is a powerful utility that is bundled with Docker installation. Docker-Compose can be used for production and development, to make things virtually seamless.
 
 ### Microservices and Docker
 
-Docker is doing a great job, when it comes to describing and developing microservices.
+Docker is doing a great job when it comes to describing and developing microservices.
 
 While working on microservices where quite a few ( *being reasonably complicated, in our example 6* ) containers talk to each other to complete a task and since it is an end to end task, the whole thing looks very complicated. To rectify :
 
@@ -31,7 +31,7 @@ Here in this *kind of* practical example, we are going to demonstrate a similar 
 ![title](example-arch.png)
 
 
-The picture above depicts architecture of a hypothetical portal of flash sale.
+The picture above depicts the architecture of a hypothetical portal of flash sale.
 
 *Flash Sale is an e-commerce concept, where an item is made available for sale to the public on a portal at a specific time and in a limited quantity.*
 
@@ -89,7 +89,7 @@ CMD ["npm", "run", "start"]
 
 Since the other two components, listener and frontend are also written in JavaScript the Dockerfile does not change at all for them too, for this particular example.
 
-The following is a two-liner Dockerfile for gateway. The conf file targets apiserver and frontend. Please have a look at the configuration file in the repository itself .
+The following is a two-liner Dockerfile for gateway. The conf file targets apiserver and frontend. Please have a look at the configuration file in the repository itself.
 
 ```
 FROM nginx
@@ -176,16 +176,16 @@ apiserver:
             - '5000:5000'
 ```
 
-The `build `tag will be used by `docker-compose build` command to build an image. Build is defined as Dockerfile and the context is docker context, the directory which you want to use as context. Equivalent to :  `docker build -f filename . `
+The `build `tag will be used by the `docker-compose build` command to build an image. The build is defined as Dockerfile and the context is docker context, the directory which you want to use as context. Equivalent to:  `docker build -f filename.`
 
 The more you are seeing here is *environment* and *restart* options. Environment variables are used to set environment variables while running the image. This is another part where docker-compose comes handy. Think about setting all nine environment variables with `docker run`.
 
-`restart` is a bit interesting. One may specify a restart policy if the application crashes, which leads to stop the docker image itself. always specifies to restart the container if it exit.
+`restart` is a bit interesting. One may specify a restart policy if the application crashes, which leads to stopping the docker image itself. always specifies to restart the container if it exit.
 
 In the environment section, one can see mqserver and mongo, instead of the regular localhost and loopback address. This is because when we run docker-compose, it creates a DNS recordset of all the `services` mentioned. The services can be referred to by their names. A slight deviation here may happen when the container is explicitly named. Here, container_name = mongo is used for service mongodbdb. Hence, the other containers in the environment shall refer to it by mongo and not mongodbdb.
 
 
-The pollingmod and forntend services are quite same.
+The pollingmod and frontend services are quite the same.
 
 ```
     pollingmod:
@@ -217,7 +217,7 @@ The pollingmod and forntend services are quite same.
             - '3000:3000'
 ```
 
-Finally, the gateway. So, a gateway is created on the front using nginx to make the development production-grade. If you go through the gateway code you will find that the services are accessed by their name `frontend` and `apiserver`.
+Finally, the gateway. So, a gateway is created on the front using Nginx to make the development production-grade. If you go through the gateway code you will find that the services are accessed by their name `frontend` and `apiserver`.
 
 ```
 upstream frontend{
@@ -229,7 +229,7 @@ upstream apiserver{
 }
 ```
 
-The nginx container opens port 80 to an external port 5500. The nginx container keeps configuration where the user can see just one port 5500 from out of the system, everything else is gray.
+The Nginx container opens port 80 to an external port 5500. The Nginx container keeps configuration where the user can see just one port 5500 from out of the system, everything else is gray.
 
 
 ![User to System](UserToSystem.png)
@@ -237,7 +237,7 @@ The nginx container opens port 80 to an external port 5500. The nginx container 
 And this is, how it happens in the real world as well!
 
 
-Finally, we have a docker-compose.yml. And following are simple commands which make life even simpler when we need to build and run & stop the entire ecosystem.
+Finally, we have docker-compose.yml. And following are simple commands which make life even simpler when we need to build and run & stop the entire ecosystem.
 
 To build
 
