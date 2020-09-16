@@ -2,14 +2,16 @@
 
 Here are some guidelines that you must follow while writing the blog for the engineering portal:
 
-1. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
-2. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+1. First of all create a directory in `blog` under `content` directory The name of the directory will be the path of your blog.
+2. Add an `index.md` file and write your blog in it. Any relevant images used in the blog should be placed in the same directory as `index.md`.
+3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
+4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-3. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **600px x 400px**.
+5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **600px x 400px**.
 
-4. The blog should have the meta tags at the top of you MD files which should have the below properties.
+6. The blog should have the meta tags at the top of you MD files which should have the below properties.
 
-   - **title (Required)** : A meaningfull title.
+   - **title (Required)** : A meaningful title.
      Note: This title will appear in the post so no need to again include it in the `md` files.
    - **date (Required)**: A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
    - **coverImage (Required)**: The name of the image with format should come here. Please make sure the image should be present in the directory where your `.md` the file is there.
@@ -32,7 +34,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
    ```
 
-5. As discussed above while submitting the pull request you need to mention the **author details** in the pull request description. The format should be as below.
+7. As discussed above while submitting the pull request you need to mention the **author details** in the pull request description. The format should be as below.
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
    - **bio (optional)**: A short intro about you.
