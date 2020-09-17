@@ -1,19 +1,19 @@
 ---
-title: "Login With Facebook"
+title: "How to implement Facebook Login"
 date: "2020-09-16"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
 tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "OAuth"]
-description: "This article will explain about creating a Facebook App and everything about adding SignIn using Facebook."
+description: "This article will explain about social login benefits and how we can implement Sign In using Facebook on your website or mobile app."
 ---
 
 There are more than 1 million websites or apps are using **"SignIn with Facebook"** or **"Login with Facebook"**. Do you know why they are using Facebook login and how it is beneficial in conversion?
 
 According to multiple surveys, there are more than 3 billion users worldwide are using social media and it is around 50% of the world's population. 
 
-![login-with-facebook](wow.png)
+![login-with-facebook](facebook-login-wow.png)
 
-There are more than 1 billion sites or apps on the world wide. The biggest challenge and most important things are to make user registration and login quick and easy while developing our application. The registration forms required a lot of data that need to be filled by users manually and it causes lost, potential users. Additionally, users need to enter their usernames/emails and passwords in the login forms to authenticate themselves and also need to remember more individual IDs and passwords. 
+The biggest challenge and most important things are to make user registration and login quick and easy while developing our application. The registration forms required a lot of data that need to be filled by users manually and it causes lost, potential users. Additionally, users need to enter their usernames/emails and passwords in the login forms to authenticate themselves and also need to remember more individual IDs and passwords. 
 
 Social Login allows customers to bring their existing social identities and use them to register and log in without creating a new profile explicitly. 
 
@@ -21,13 +21,14 @@ Facebook is the most favorite social media provider in comparison to other socia
 
 In this article, I will explain how you can implement **“Log in with Facebook”**  on your website or mobile app in a very easy manner. 
  
-Facebook work on the OAuth2 protocol and most of the social providers like Facebook, Google, Microsoft, Linkedin are supporting OAuth2. Refer to this article [Getting Started with OAuth 2.0](https://www.loginradius.com/engineering/blog/oauth2/) to know about OAuth flow. 
+Facebook work on the OAuth 2.0 protocol and most of the social providers like Facebook, Google, Microsoft, Linkedin are supporting OAuth 2.0. Refer to this article [Getting Started with OAuth 2.0](https://www.loginradius.com/engineering/blog/oauth2/) to know about OAuth flow. 
 
 ### Create Your Facebook Login App
 Here you can find the complete step by step guide to create your Facebook Login App.
 
 #### Step 1
 Go to [Facebook Developer](https://developers.facebook.com) and log in using your Facebook credentials.
+
 **NOTE**: Please do not log in using a business account as Facebook will not allow you to create an app if you do so.
 
 ![Facebook Login](loginadius-facebook-img1.png)
@@ -78,7 +79,7 @@ When a user logs into your website or app via Facebook Login, you can access the
 ### Submit Your Facebook Login App For Review 
 To grab more than basic profile data points or asking for additional permissions from your users, your Facebook apps go through the review process. Sometimes businesses require some additional permissions on the Facebook app and for that, you need to submit your Facebook app for approval before starting to ask for additional information. 
 
-The Facebook app review process is simple pretty much simple. Please refer to this document [here](https://www.loginradius.com/docs/api/v2/admin-console/social-provider/app-reviews/facebook-app-review/) for the Facebook App Review Process. 
+The Facebook app review process is pretty much simple, Please refer to this document [here](https://www.loginradius.com/docs/api/v2/admin-console/social-provider/app-reviews/facebook-app-review/) for the Facebook App Review Process. 
 
 ### Add Login with the Facebook button on Your Site 
 
@@ -88,7 +89,7 @@ Let's see how we can add the Facebook login interface. For this, we just need to
 
 Place this code in the body section of your HTML code. 
 
-```
+```javascript
 
 <!-- The JS SDK Login Button -->
 
@@ -103,7 +104,7 @@ Place this code in the body section of your HTML code.
 
 Now you need to include the JavaScript section. It'll loads the Facebook SDK JavaScript asynchronously.
 
-```
+```javascript
 <!-- Load the JS SDK asynchronously -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
@@ -111,7 +112,7 @@ Now you need to include the JavaScript section. It'll loads the Facebook SDK Jav
 
 Next, we'll add the Facebook init function. We just need to replace the app id placeholder with the app id of your app you created in the beginning. You’ll find the placeholder in this line appId: '{your-app-id}'. 
 
-```
+```javascript
 window.fbAsyncInit = function() {
     FB.init({
       appId      : '{your-app-id}',
@@ -123,7 +124,7 @@ window.fbAsyncInit = function() {
 
 Next, we need to add the function that handles the response and alters the page contents based on the type of response. I have added this function at the very top of the scripts section.
 
-```
+```javascript
 function checkFacebookLoginStatusCallback(response) {  // Called with the results from FB.getLoginStatus().
     console.log(' Checking Facebook Login Status');
     console.log(response);                   // The current login status of the person.
@@ -137,7 +138,7 @@ function checkFacebookLoginStatusCallback(response) {  // Called with the result
 
 As you can see, the above function receives a response variable and checks it's status. If it is connected it fetches the logged in users info and outputs this information in the console of your browser, that area is where you could build more onto this script to handle the data. When the login is not authorized, this function changed the HTML on your page to ask you to log in.
 
-```
+```javascript
 function checkLoginState() {               // Called when a person is finished with the Login Button.
     FB.getLoginStatus(function(response) {   // See the onlogin handler
       checkFacebookLoginStatusCallback(response);
