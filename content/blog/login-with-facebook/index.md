@@ -159,7 +159,7 @@ function checkLoginState() {               // Called when a person is finished w
   }
 ```
 
-Now if you save this page as login.html and open it in a browser you should see the Facebook Login button. You can also download this code from my [GitHub Repo]("https://github.com/VijayShekhawat/login-with-facebook") and I have customized it to make it a bit shorter for an explanation.
+Now if you save this page as login.html and open it in a browser you should see the Facebook Login button. You can also download this code from my [GitHub Repo](https://github.com/VijayShekhawat/login-with-facebook) and I have customized it to make it a bit shorter for an explanation.
 
 Now just Log In and check the console output. You’ll now see some basic info including id, email, first_name, gender, last_name.
 
@@ -175,5 +175,5 @@ LoginRadius supports Sign with Facebook with more than 40 other popular social n
 
 [statista](https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/) 
 
-[netcraft](https://news.netcraft.com/archives/2020/01/21/january-2020-web-server-survey.html)) 
+[netcraft](https://news.netcraft.com/archives/2020/01/21/january-2020-web-server-survey.html) 
 
