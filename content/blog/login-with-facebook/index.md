@@ -4,13 +4,14 @@ date: "2020-09-16"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
 tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "OAuth"]
+description: "This article will explain about creating a Facebook App and everything about adding SignIn using Facebook."
 ---
 
 There are more than 1 million websites or apps are using **"SignIn with Facebook"** or **"Login with Facebook"**. Do you know why they are using Facebook login and how it is beneficial in conversion?
 
 According to multiple surveys, there are more than 3 billion users worldwide are using social media and it is around 50% of the world's population. 
 
-![login-with-facebook](./images/login-with-facebook-wow.gif)
+![login-with-facebook](wow.png)
 
 There are more than 1 billion sites or apps on the world wide. The biggest challenge and most important things are to make user registration and login quick and easy while developing our application. The registration forms required a lot of data that need to be filled by users manually and it causes lost, potential users. Additionally, users need to enter their usernames/emails and passwords in the login forms to authenticate themselves and also need to remember more individual IDs and passwords. 
 
