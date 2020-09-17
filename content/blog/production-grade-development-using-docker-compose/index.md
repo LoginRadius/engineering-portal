@@ -10,7 +10,7 @@ tags: ["Docker", "Docker-compose"]
 
 Docker has changed the world of software development! Since the last few years, docker has helped the developer community, enterprises, and startups to create solutions quickly and effectively. Also, deployment is relatively hassle-free with docker (conditions apply). And worth mentioning is, it resolves the “Works fine on my system” problem.  
 
-Well, just not docker, there are many container ecosystems available as an alternative to Docker. For example, Mesos by Apache and Vagrant by Terraform. Docker is more loved for what it is **not**, and that is Bulky! Docker is otherwise lightweight, works mostly with Linux and eventually was identified by Kubernetes in 2015. But, that story... some other time!!
+Well, just not docker, there are many container ecosystems available as an alternative to Docker. For example, Mesos by Apache and Vagrant by Hashicorp. Docker is more loved for what it is **not**, and that is Bulky! Docker is otherwise lightweight, works mostly with Linux and eventually was identified by Kubernetes in 2015. But, that story... some other time!!
 
 Straight to the context, Docker Compose! Docker compose is a powerful utility that is bundled with Docker installation. Docker-Compose can be used for production and development, to make things virtually seamless.
 
