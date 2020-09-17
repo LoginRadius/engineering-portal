@@ -4,7 +4,7 @@ date: "2020-09-16"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
 tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "OAuth"]
-description: "This article will explain about social login benefits and how we can implement Sign In using Facebook on your website or mobile app."
+description: "This article will explain about social login benefits and how we can implement Sign In using Facebook on our website or mobile app."
 ---
 
 There are more than 1 million websites or apps are using **"SignIn with Facebook"** or **"Login with Facebook"**. Do you know why they are using Facebook login and how it is beneficial in conversion?
