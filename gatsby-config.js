@@ -23,6 +23,10 @@ module.exports = {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
+      {
+        name: "Hacktoberfest2020",
+        slug: "https://www.loginradius.com/engineering/hacktoberfest",
+      },
     ],
     footerLinks: [
       {
