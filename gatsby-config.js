@@ -80,15 +80,15 @@ module.exports = {
               maxWidth: 768,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-vscode`,
-          //   options: {
-          //     theme: "Dark+ (default dark)",
-          //     languageAliases: {
-          //       html: "js",
-          //     },
-          //   },
-          // },
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: "Dark+ (default dark)",
+              languageAliases: {
+                html: "js",
+              },
+            },
+          },
         ],
       },
     },
@@ -175,9 +175,9 @@ module.exports = {
                     {
                       "content:encoded": `<p> ${
                         edge.node.frontmatter.description || edge.node.excerpt
-                      } </p> <br/>  <a href="${
+                        } </p> <br/>  <a href="${
                         site.siteMetadata.feedUrl + edge.node.fields.slug
-                      }">Read On</a>`,
+                        }">Read On</a>`,
                     },
                   ],
                 })
