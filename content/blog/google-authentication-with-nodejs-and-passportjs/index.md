@@ -1,9 +1,10 @@
 ---
-title: Google authentication with Node.js and Passport.js
+title: Google OAuth2 Authentication in NodeJS
 date: "2020-02-12"
 coverImage: "google_cover.jpg"
 author: "Puneet Singh"
 tags: ["NodeJS","SocialLogin","OAuth"]
+description: "Learn how to implement Google OAuth2 Authentication in NodeJS using Passport"
 ---
 
 In this blog, we’ll be implementing authentication via Google in a Node.js web application. For this, we’ll be using [Passport.js](http://www.passportjs.org/), an authentication package for Node.js.

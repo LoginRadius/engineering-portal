@@ -1,9 +1,10 @@
 ---
-title: "EOL End of Line or Newline Characters"
+title: "EOL or End of Line or newline ascii character"
 date: "2017-09-06"
 coverImage: "eol.png"
 author: "Govind Malviya"
 tags: ["Engineering", "EOL", "Linux"]
+description: "Learn what are EOL or End of Line or newline ascii characters (\\n\\r) and why there are two (\\n\\r) newline characters."
 ---
 
 Which character do you consider as the end of line or newline? Most developers will answer \\n (except for front-end developers, they would say: "\</br>tag" :) ). But this is not true, let's understand why.

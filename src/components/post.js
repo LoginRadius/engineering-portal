@@ -165,6 +165,17 @@ const Post = ({ post, relatedPost }) => {
               <TagMenu />
             </div>
           </div>
+          <div className="grid-70-30">
+            <div className={styles.postContent}>
+              <h2>About LoginRadius</h2>
+              <p>
+                LoginRadius provides a comprehensive set of APIs to enable authentication, identity verification, single sign-on, user management, and account protection capabilities such as multi-factor authentication on any web or mobile application. The company offers open source SDKs, integrations with over 150 third party applications, pre-designed and customizable login interfaces, and best-in-class data security products. The platform is already loved by over 3,000 businesses with a monthly reach of 1.17 billion users worldwide.
+              <br />
+                <br />
+                For more information, visit <a href="https://loginradius.com" target="blank">LoginRadius</a>
+              </p>
+            </div>
+          </div>
           <div class={`${styles.author} d-flex py-80`}>
             <div class={styles.authorImage}>
               <img

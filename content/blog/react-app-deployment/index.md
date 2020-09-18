@@ -4,6 +4,7 @@ date: "2020-08-10"
 coverImage: "deploy_react_app.png"
 author: "Aman Agrawal"
 tags: ["React", "PM2", "Deployment"]
+descripiton: "Learn how to deploy a react app using pm2 and serve easily"
 ---
 
 Yes, you have learned React and now you can develop a full-fledged front end application. The `create-react-app` helps you to set up and run a React project, including it code transpiling, basic linting, testing, and build systems. 

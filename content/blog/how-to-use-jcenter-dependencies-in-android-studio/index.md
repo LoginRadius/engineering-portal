@@ -1,9 +1,10 @@
 ---
-title: "How to use jCenter Dependencies in Android Studio"
+title: "jCenter Dependencies in Android Studio"
 date: "2017-07-11"
 coverImage: "jCenter.png"
 author: "Hitesh Pamnani"
 tags: ["JCenter", "Android"]
+description: "Learn how to make use of jCenter dependencies in Android Studio."
 ---
 
 jCenter is the public repository hosted at [bintray](https://bintray.com/) that is free to use for open source library publishers. It is the largest repository in the world for Java and Android OSS libraries, packages and components. All the content in JCenter is served over a CDN, with a secure HTTPS connection. In this article, we’ll discuss how to make use of jCenter dependencies in Android Studio.

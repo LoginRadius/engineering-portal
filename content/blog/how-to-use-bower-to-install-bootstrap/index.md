@@ -1,9 +1,10 @@
 ---
-title: "How to Install Bootstrap with Bower"
+title: "Install Bootstrap with Bower"
 date: "2017-07-05"
 coverImage: "bower-logo.png"
 author: "Pascal Noel"
 tags: ["Bootstrap", "Bower"]
+description: "Learn how the Bower package manager helps into quick components  deploy and install Bootstrap using Bower"
 ---
 
 Bower is a popular package manager to help you quickly deploy components. In this article I'm going to show you how to install Bower and how to use it to install Bootstrap.

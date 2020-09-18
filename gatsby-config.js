@@ -175,9 +175,9 @@ module.exports = {
                     {
                       "content:encoded": `<p> ${
                         edge.node.frontmatter.description || edge.node.excerpt
-                      } </p> <br/>  <a href="${
+                        } </p> <br/>  <a href="${
                         site.siteMetadata.feedUrl + edge.node.fields.slug
-                      }">Read On</a>`,
+                        }">Read On</a>`,
                     },
                   ],
                 })

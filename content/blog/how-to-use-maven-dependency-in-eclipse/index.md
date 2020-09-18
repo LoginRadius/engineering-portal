@@ -1,9 +1,10 @@
 ---
-title: "How to use Maven Dependency in Eclipse"
+title: "Maven Dependency in Eclipse"
 date: "2017-07-11"
 coverImage: "maven.png"
 author: "Giriraj Yadav"
 tags: ["Java", "Maven", "Eclipse"]
+description: "Learn step by step setting up and resolution of maven dependency using eclipse IDE."
 ---
 
 Maven is a project build management software, it means it lets you define your project dependencies, features, and behaviors. To do this, Maven downloads plugins and dependencies for various online repositories. People who want to share their libraries, develop using Maven and upload the binaries in a repository. In this article, we’ll discuss how to configure and use Maven dependency.

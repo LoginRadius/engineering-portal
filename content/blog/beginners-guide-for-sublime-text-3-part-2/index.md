@@ -1,9 +1,10 @@
 ---
-title: "Beginner's Guide for Sublime Text 3 Part 2"
+title: "Beginner's Guide for Sublime Text 3 Plugins"
 date: "2015-11-10"
 coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
+description: "Getting started with one of the lightweight Code Editor Sublime Text and introduction to Snippets, Project and Macros"
 ---
 
 In this blog, I will cover some of my favorite Sublime features. Using these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your work really fun. I will start with some basic features that come with a fresh install of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but I kinda feel there should be more about these fundamental features, as I have seen lots of people who are familiar with the plugins but not these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
