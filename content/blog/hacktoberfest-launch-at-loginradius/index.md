@@ -34,8 +34,10 @@ During this time, anyone who wishes to be part of this month-long fest needs to 
 
 Finding projects can be a bit challenging. It can be the tools you are already using, or different tools can be used to find the issues based on various labels. Tools like [http://issuehub.io/](http://issuehub.io/) are really helpful for the same.
 
-This year [LoginRadius](https://www.loginradius.com/) is going to be part of Hacktoberfest by open-sourcing a lot of its projects and accepting contributions including its [Engineering Blog](https://www.loginradius.com/engineering/blog).
+This year [LoginRadius](https://www.loginradius.com/) is going to be part of Hacktoberfest by open-sourcing a lot of its projects and accepting contributions on them including its [Engineering Blog](https://www.loginradius.com/engineering/blog).
 
-We will soon share a list of our Open Source Projects on our [Blog](https://www.loginradius.com/engineering/blog).
+### Getting LogiRadius branded swags
+
+Like I said, this year **LoginRadius** will be part of hacktoberfest and yes, we are here with some **cool swags.** We have got around **500 t-shirts** for people contributing to our open source repositories. We will soon share details on how to get LoginRadius swags as well our open source repositories on our [Blog](https://www.loginradius.com/engineering/blog).
 
 Stay tuned and **don’t forget to mention your open-source projects for us to contribute.**
