@@ -80,15 +80,15 @@ module.exports = {
               maxWidth: 768,
             },
           },
-          {
-            resolve: `gatsby-remark-vscode`,
-            options: {
-              theme: "Dark+ (default dark)",
-              languageAliases: {
-                html: "js",
-              },
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-vscode`,
+          //   options: {
+          //     theme: "Dark+ (default dark)",
+          //     languageAliases: {
+          //       html: "js",
+          //     },
+          //   },
+          // },
         ],
       },
     },

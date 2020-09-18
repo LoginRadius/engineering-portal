@@ -4,7 +4,7 @@ date: "2020-07-17"
 coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["React","Redux","Hooks"]
-description: "React components has a built-in state object. The state is encapsulated data where you store assets that is persistent between component renderings. The state is just a fancy term for a JavaScript data structure."
+description: "Learn about React state management and why do we need state management using React hooks and Redux"
 ---
 
 Biggest Challenge in React application is the management of state for frontend developers. In large applications, React alone is not sufficient to handle the complexity which is why some developers use React hooks and others use state management libraries such as Redux.

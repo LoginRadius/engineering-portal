@@ -165,6 +165,16 @@ const Post = ({ post, relatedPost }) => {
               <TagMenu />
             </div>
           </div>
+          <div className="grid-70-30">
+            <h1>About LoginRadius</h1>
+            <p>
+              LoginRadius was established with the vision of securing the identity of every person on the internet. The LoginRadius Identity Platform helps companies securely manage customer identities and data to deliver a unified customer experience. LoginRadius secures 1.17B digital identities worldwide and offers suites of modules to serve businesses from startups to Fortune 500 enterprises with hundreds of millions of users.
+              <br />
+              <br />
+              For more information, Visit https://loginradius.com or follow us on twitter handle and linkedIn
+
+            </p>
+          </div>
           <div class={`${styles.author} d-flex py-80`}>
             <div class={styles.authorImage}>
               <img

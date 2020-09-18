@@ -4,6 +4,7 @@ date: "2015-01-26"
 coverImage: "w3c.png"
 author: "Team LoginRadius"
 tags: ["W3C", "Validation"]
+description: "Learn how to validate your web page for W3C standards and know about the benefits of W3C Validation"
 ---
 
 **What is W3C Validation?**

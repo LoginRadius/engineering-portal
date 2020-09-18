@@ -1,9 +1,10 @@
 ---
-title: "Relational Database Management System (RDBMS) vs noSQL"
+title: "RDBMS vs NoSQL"
 date: "2015-04-28"
 coverImage: "rdbms-vs-nosql.png"
 author: "Team LoginRadius"
 tags: ["Database"]
+description: "Learn about RDBMS and NoSQL Database systems, their differences, benefits and limitations"
 ---
 
 Today in the market various type of Database options are available like RDBMS, NoSQL, Big Data, Database Appliance, etc. developers can get very confused with all the choice. They do not understand why they should consider a newer, alternative database when RDBMSs have been around for 25+ years. However, many big enterprises are already using alternative databases and are saving money, innovating more quickly, and completing projects.
