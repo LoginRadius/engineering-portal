@@ -1,9 +1,9 @@
 ---
-title: "Hacktoberfest 2020"
-date: "2020-09-15"
-coverImage: "cover.png"
+title: "LoginRadius Supports Hacktoberfest 2020"
+date: "2020-09-18"
+coverImage: "hacktober-fest-banner.png"
 author: "Hridayesh Sharma"
-tags: ["hacktoberfest", "open-source"]
+tags: ["hacktoberfest", "open-source", "loginradius"]
 ---
 
 ## Have you ever thought about what the world would be like if open-source didn't exist?
@@ -38,6 +38,6 @@ This year [LoginRadius](https://www.loginradius.com/) is going to be part of Hac
 
 ### Getting LogiRadius branded swags
 
-Like I said, this year **LoginRadius** will be part of hacktoberfest and yes, we are here with some **cool swags.** We have got around **500 t-shirts** for people contributing to our open source repositories. We will soon share details on how to get LoginRadius swags as well our open source repositories on our [Blog](https://www.loginradius.com/engineering/blog).
+Like I said, this year **LoginRadius** will be part of hacktoberfest and yes, we are here with some **cool swags.** We have got around **500 t-shirts** for people contributing to our open source repositories. We will soon share details on how to get LoginRadius swags as well as our open source repositories on our [Blog](https://www.loginradius.com/engineering/blog).
 
 Stay tuned and **don’t forget to mention your open-source projects for us to contribute.**
