@@ -167,13 +167,12 @@ const Post = ({ post, relatedPost }) => {
           </div>
           <div className="grid-70-30">
             <div className={styles.postContent}>
-              <h1>About LoginRadius</h1>
+              <h2>About LoginRadius</h2>
               <p>
-                LoginRadius was established with the vision of securing the identity of every person on the internet. The LoginRadius Identity Platform helps companies securely manage customer identities and data to deliver a unified customer experience. LoginRadius secures 1.17B digital identities worldwide and offers suites of modules to serve businesses from startups to Fortune 500 enterprises with hundreds of millions of users.
+                LoginRadius provides a comprehensive set of APIs to enable authentication, identity verification, single sign-on, user management, and account protection capabilities such as multi-factor authentication on any web or mobile application. The company offers open source SDKs, integrations with over 150 third party applications, pre-designed and customizable login interfaces, and best-in-class data security products. The platform is already loved by over 3,000 businesses with a monthly reach of 1.17 billion users worldwide.
               <br />
                 <br />
-              For more information, Visit https://loginradius.com
-
+                For more information, visit <a href="https://loginradius.com" target="blank">LoginRadius</a>
               </p>
             </div>
           </div>
