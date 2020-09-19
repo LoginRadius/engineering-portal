@@ -1,9 +1,10 @@
 ---
-title: "Sweet 16 Javascript Hacks and Tips To Optimize Performance and Save time"
+title: "Javascript tips and tricks to Optimize Performance"
 date: "2017-04-07"
 coverImage: "16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png"
 author: "Team LoginRadius"
 tags: ["Engineering","JavaScript","Hacks","Array"]
+description: "Learn how to optimize performance using some useful javascript hacks, tips and tricks."
 
 ---
 

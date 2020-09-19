@@ -1,9 +1,10 @@
 ---
-title: "What is the difference between OAuth1 and OAuth2?"
+title: "OAuth 1.0 VS OAuth 2.0"
 date: "2019-05-31"
 coverImage: "pexels-photo-373543.jpeg"
 author: Ti Zhang
 tags: ["OAuth","Engineering"]
+description: "Learn about the differences between OAuth 1.0 and OAuth 2.0 and how OAuth 2.0 is superior to OAuth 1.0"
 ---
 
 OAuth2 is an authorization delegation protocol that allows one party’s accessing of an end user’s resources stored with another party without sharing any credentials. OAuth2 is often compared with SAML and OpenID Connect as their purposes and uses overlap, however these comparisons often refer to OAuth2 as OAuth. This has resulted in some confusion regarding OAuth2 and OAuth1.

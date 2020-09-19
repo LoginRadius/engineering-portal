@@ -1,9 +1,10 @@
 ---
-title: "Animating \"A simple CSS popup tutorial\""
+title: "Animate the modal popup using CSS"
 date: "2015-03-23"
 coverImage: "simplepop.png"
 author: "Team LoginRadius"
 tags: ["Slide","CSS","Swirl","PopUp"]
+description: "Learn how to animate the modal popup using CSS keyframe"
 ---
 
 By now you’ve probably seen the cool and simple way(not to mention, without using jQuery) of creating a  popup by Zoie Carnegie. If not, you can click this [link](/blog/simple-popup-tutorial/) to go and follow that tutorial. Cool?

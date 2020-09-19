@@ -1,9 +1,10 @@
 ---
-title: "Introduction to Stream Processing using Kafka Streams"
+title: "Stream Processing using Kafka Streams"
 date: "2020-07-01"
 coverImage: "header.png"
 author: "Priyadarshan Mohanty"
 tags: ["Scala", "Kafka", "Kafka Streams"]
+description: "Learn about Kafka Streams, key concepts and highlights with simple streaming or a word count application using Kafka Streams in Scala"
 ---
 
 Kafka Streams is a Java library developed to help applications that do stream processing built on Kafka. To learn about Kafka Streams, you need to have a basic idea about Kafka to understand better.  If you’ve worked with Kafka before, Kafka Streams is going to be easy to understand; otherwise, you can look up some basic tutorials online to get going with this article. 

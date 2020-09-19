@@ -1,9 +1,10 @@
 ---
-title: Google authentication with Go Language and Goth
+title: Google OAuth2 Authentication in Golang
 date: "2020-06-11"
 coverImage: "google_golang.png"
 author: "Puneet Singh"
 tags: ["Go","SocialLogin","OAuth"]
+description: "Learn how to implement Google OAuth2 Authentication in Golang using Goath"
 ---
 
 In this blog, we’ll be implementing authentication via Google in a Go web application. For this, we’ll be using [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication Package for Go

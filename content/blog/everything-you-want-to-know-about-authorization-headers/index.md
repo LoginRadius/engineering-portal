@@ -1,9 +1,10 @@
 ---
-title: "Everything you want to know about Authorization Headers"
+title: "Authorization header"
 date: "2020-06-19"
 coverImage: "http_authorization.png"
 author: "Ankit Singh"
 tags: ["HTTP", "Authorization"]
+description: "Learn what is authorization header, How to use it for various kind of HTTP authentications, e.g. JWT, OAuth, Basic etc."
 ---
 
 This blog will give an insight of Authorization Request Header. Before we dive into the blog let's get a brief Idea about Authorization Request Headers.

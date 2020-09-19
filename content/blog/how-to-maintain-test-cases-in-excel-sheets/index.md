@@ -1,9 +1,10 @@
 ---
-title: "How to Maintain Test Cases in Excel Sheets"
+title: "Maintain Test Cases in Excel Sheets"
 date: "2015-11-03"
 coverImage: "test_cases.png"
 author: "Shefali Yaduvanshi"
 tags: ["Excel", "Tes"]
+description: "Learn how to maintain test cases in Excel sheets"
 ---
 
 Hi guys! When you write test cases, do you face the problem of sharing your test cases with your team members or having to use multiple colors for test cases?  
