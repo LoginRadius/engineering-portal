@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: "Hacktoberfest2020",
-        slug: "https://www.loginradius.com/engineering/hacktoberfest",
+        slug: "/hacktoberfest",
       },
     ],
     footerLinks: [
