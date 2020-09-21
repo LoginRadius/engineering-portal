@@ -4,7 +4,7 @@ date: "2020-09-21"
 coverImage: "gomongo.png"
 author: "Puneet Singh"
 tags: ["Go","MongoDB"]
-description: "In this tutorial, we will use the official MongoDB Go Driver to manage our MongoDB database. In the due process, we will write a program to learn how to install the MongoDB Go Driver and perform CRUD operations with it."
+description: "Learn how to use MongoDB as a data source for your Go application using the mongo-go driver"
 ---
 
 ## Before You Get Started
