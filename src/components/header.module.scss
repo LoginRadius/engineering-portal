@@ -72,6 +72,7 @@
       list-style: none;
       display: flex;
       margin: 0;
+      flex-wrap: wrap;
       @media (max-width: 768px) {
         justify-content: center;
       }
