@@ -41,7 +41,6 @@ const hacktoberfestLogger = function () {
 
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
-  const [hacktoberfestBar, showHacktoberfestBar] = useState(true)
   return (
     <>
       {!shouldClose ? (
@@ -77,27 +76,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           ></button>
         </div>
       ) : null}
-      {/* {showHacktoberfestBar ? (
-        <div className={headerStyles.topStrip}>
-          <p>
-            Get LoginRadius Swags in Hacktoberfest 2020. Check our
-            <a
-              href={"/hacktoberfest"}
-              key={"hacktoberfest"}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => hacktoberfestLogger()}
-            >
-              {" hacktoberfest page"}
-            </a>
-            for more details.
-          </p>
-          <button
-            onClick={() => showHacktoberfestBar(false)}
-            className={headerStyles.closeIcon}
-          ></button>
-        </div>
-      ) : null} */}
+
       <div className={headerStyles.header}>
         <Link className={logo} to={"/blog"}>
           <img src={logo} alt={`logo`} />
