@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: "Hacktoberfest2020",
-        slug: "/hacktoberfest",
+        slug: "/hacktoberfest2020",
       },
     ],
     footerLinks: [
@@ -84,15 +84,15 @@ module.exports = {
               maxWidth: 768,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-vscode`,
-          //   options: {
-          //     theme: "Dark+ (default dark)",
-          //     languageAliases: {
-          //       html: "js",
-          //     },
-          //   },
-          // },
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: "Dark+ (default dark)",
+              languageAliases: {
+                html: "js",
+              },
+            },
+          },
         ],
       },
     },

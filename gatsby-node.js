@@ -117,9 +117,6 @@ exports.createPages = async ({ graphql, actions }) => {
     {
       name: "contribute",
     },
-    {
-      name: "hacktoberfest",
-    },
   ]
   staticPages.forEach(staticPage => {
     createPage({
@@ -127,11 +124,6 @@ exports.createPages = async ({ graphql, actions }) => {
       component: require.resolve(`./src/templates/contribute.js`),
       context: { staticPage },
     })
-  })
-  createPage({
-    path: "/hacktoberfest",
-    component: require.resolve(`./src/templates/hacktoberfest.js`),
-    context: { staticPage },
   })
 }
 
