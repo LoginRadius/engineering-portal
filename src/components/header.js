@@ -33,9 +33,9 @@ const demologger = function () {
 
 const hacktoberfestLogger = function () {
   ReactGA.event({
-    category: "Hacktoberfest Page",
+    category: "Hacktoberfest",
     action: "User clicked on Hacktoberfest Page button",
-    label: "Hacktoberfest Page",
+    label: "Hacktoberfest Page - Header Button",
   })
 }
 
