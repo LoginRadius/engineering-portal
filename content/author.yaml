@@ -148,7 +148,7 @@
 
 - id: Vijay Singh Shekhawat
   bio: Lead Product Architect @LoginRadius. Technology Lover, Breakthrough thinker, DevOps Guy
-  github: "VijayShekhawat"
+  github: "code-vj"
   linkedin: "vijaydotnetdeveloper"
   stackoverflow: "1063165"
 
@@ -234,3 +234,12 @@
 - id: Nathan Nguyen
   bio: Nathan Nguyen is a Software Engineer at LoginRadius. With deep interest in creating user-facing applications, he spends a lot of his time with web and mobile technology stacks, off and on the job, looking to build applications that are ever more intuitive and helpful to end users. Loves food, travel, photography and video games.
   github: "nathannguyenn"
+  
+- id: Apeksha Gupta
+  bio: I am an software engineer at Loginradius, striving to learn new skills and sharing it with others! 
+  github: "ApekshaAgarwal"
+  linkedin: "apeksha-gupta-0906"
+
+- id: Nick Chim
+  bio: Software Developer at LoginRadius with an interest in large scale applications, backend development and aviation. 
+  github: "nickc95"

@@ -1,6 +1,6 @@
 ---
 title: "Understanding React Rendering"
-date: "2020-09-21"
+date: "2020-09-23"
 coverImage: "index.png"
 author: Nathan Nguyen
 tags: ["JavaScript", "Node", "React", "Render", "function", "method", "dom", "virtual dom"]
