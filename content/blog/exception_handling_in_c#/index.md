@@ -1,7 +1,7 @@
 ---
 title: "Exception Handling in C#"
 date: "2020-09-22"
-coverImage: ""
+coverImage: "CoverImage.jpg"
 author: "Hemant Manwani"
 tags: ["C#","Exception","Exception Handling",".NET"]
 ---
