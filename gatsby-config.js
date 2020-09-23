@@ -23,10 +23,10 @@ module.exports = {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
-      // {
-      //   name: "Hacktoberfest2020",
-      //   slug: "/hacktoberfest2020",
-      // },
+      {
+        name: "Hacktoberfest2020",
+        slug: "/hacktoberfest2020",
+      },
     ],
     footerLinks: [
       {
@@ -179,9 +179,9 @@ module.exports = {
                     {
                       "content:encoded": `<p> ${
                         edge.node.frontmatter.description || edge.node.excerpt
-                        } </p> <br/>  <a href="${
+                      } </p> <br/>  <a href="${
                         site.siteMetadata.feedUrl + edge.node.fields.slug
-                        }">Read On</a>`,
+                      }">Read On</a>`,
                     },
                   ],
                 })
