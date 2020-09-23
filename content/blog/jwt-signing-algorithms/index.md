@@ -1,6 +1,6 @@
 ---
 title: "JWT Signing Algorithms"
-date: "2020-09-21"
+date: "2020-09-24"
 coverImage: "unsplash.png"
 author: "Nick Chim"
 tags: ["JWT", "JSON Web Tokens"]
