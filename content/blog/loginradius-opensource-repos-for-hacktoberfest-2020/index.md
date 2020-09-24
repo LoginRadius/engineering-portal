@@ -30,4 +30,5 @@ Here is a list of our open source projects available on Github for hacktoberfest
 - [PS-Softlist](https://github.com/LoginRadius/ps-softlist)
   - A power shell script to detect non-whitelisted installed software on Windows machines.
 
-Stay tuned for more updates from LoginRadius and don't forget to check our Hacktoberfest Page to get around **500 swags** from LoginRadius.
+> Check the open issues on each of the projects as well as Pull Request before creating a new one. Happy Coding!
+> Stay tuned for more updates from LoginRadius and don't forget to check our Hacktoberfest Page to get around **500 swags** from LoginRadius.
