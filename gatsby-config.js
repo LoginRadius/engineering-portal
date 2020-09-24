@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: "Hacktoberfest2020",
-        slug: "/hacktoberfest2020",
+        slug: "/page/hacktoberfest2020",
       },
     ],
     footerLinks: [

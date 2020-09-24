@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import HeroImage from "../../static/hacktober-fest-banner.png"
 import "./hacktoberfest.scss"
-const Hacktoberfest = () => {
+const Hacktoberfest2020 = () => {
   return (
     <Layout>
       <div className="wrapper hacktoberfest">
@@ -128,4 +128,4 @@ const Hacktoberfest = () => {
   )
 }
 
-export default Hacktoberfest
+export default Hacktoberfest2020
