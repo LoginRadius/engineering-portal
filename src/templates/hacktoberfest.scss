@@ -19,3 +19,56 @@
 ul {
   margin-left: 16px;
 }
+.github-project {
+  .github-project-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    & > div {
+      @media (min-width: 769px) {
+        width: calc(50% - 64px);
+        margin-right: 64px;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+      .description-wrap {
+        display: flex;
+        flex-direction: column;
+        // min-height: 195px;
+        .tag {
+          margin: 12px 0;
+          display: flex;
+          flex-wrap: wrap;
+          a {
+            color: $gray-dark;
+            font-size: 16px;
+            position: relative;
+            margin: 0;
+            background: transparent;
+            padding: 0;
+            border-radius: 0;
+            &:not(:last-child) {
+              margin-right: 10px;
+              padding-right: 10px;
+              &:after {
+                right: 0px;
+                top: 0;
+                position: absolute;
+                content: "|";
+              }
+            }
+
+            &:hover {
+              color: $blue-bright;
+            }
+          }
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
