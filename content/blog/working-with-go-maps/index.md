@@ -1,6 +1,6 @@
 ---
-title: "Working with Go Maps"
-date: "2020-09-21"
+title: "Working with Golang Maps"
+date: "2020-09-25"
 coverImage: "index.png"
 author: "Chris Yee"
 tags: ["Go", "dictionaries", "maps"]
