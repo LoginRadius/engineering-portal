@@ -87,6 +87,33 @@ Some properties of hashed data:
 
 The output of a hashing algorithm is a hashed value, also known as a message digest. Analogous to a fingerprint.
 
+### Argon2 [d/i/id]
+
+Argon2 is a password-hashing (key-derivation) function designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich. The algorithm *generally* takes two **primary** inputs: a password/secret-key of any length between 0 to (2^32)-1 bytes long, and a '*salt*' of any length between 8 to (2^32)-1 bytes long, and also the following **secondary** parameters:
+
+  * a '*memory cost*' - usage memory of the algorithm [can be any integer number of kilobytes from 8 to (2^32) − 1 long]
+  * a '*time cost*' - the execution time of the algorithm (calculated by the number of iterations) [can be any
+integer number from 1 to (2^32) − 1]
+  * a '*parallelisation factor*' - the number of parallel threads [it may take any integer value from 1 to (2^24) − 1]
+  * a '*hash length*' - how long the output hash will be [it can be between 4 and (2^32) − 1 characters long].
+  * a '*version*' - version number [19 decimal]
+  * the '*hash type*' - a number indicating which variant of the algorithm to use [0=Argon2d, 1=Argon2i, 2=Argon2id]
+
+    ... and the following are optional: ...
+
+  * a '*key*' - optional (secondary) key [can be 0 to (2^32) − 1 bytes large]
+  * and some '*associated data*' - arbitrary extra data [can be between 0 to (2^32) − 1 bytes large]
+
+
+#### Vulnerabilities
+Attack/Variant | Aragon2 | Aragon2d | Aragon2i | Aragon2id |
+---------------|---------|----------|----------|-----------|
+Optimised to resist ***GPU cracking attacks*** | x | ✓ | x | ✓ |
+Optimised to resist ***side-channel attacks*** | x | x | x | ✓ |
+#### Operation
+The Argon2 algorithm essentially first concatenates all the parameters and the length of the *password*, *salt*, *key*, and *associated data*, and stores this in a buffer. The special hash function that uses the Blake2b hash function is applied to the buffer to produce a 64 byte hash. An empty 2D array of 1 Kib blocks with a block count of (Floor(memory cost, 4 * parallelisation factor)), and a column count of (block count / parallelisation factor) is then created. Then for each row (block), its first and second column of the 2D array is then populated - using the same special hash function that was mentioned earlier. This generates a 1024-byte digest using the 64 byte hash-ed buffer value which was also mentioned before. Then the remaining columns of each row are populated with: the hash of (the compression of (the previous column's value in that row, hash of "the block index")). This compression function can be found in the Argon2's specification along with the 'special hash' function.
+Then this population of the 2D array is repeated again for however many iterations (time cost value) is specified (if iterations > 1) using the same logic as mentioned above. This 2D array is used to "compute the final block" using an XOR statement of the last column of every row. Then finally this final computed block is used as the input of the special hash function once more to produce a hash with the length of the *hash length* parameter.
+
 ### MD4
 
 The Message Digest 4 (MD4) algorithm takes an input text of arbitrary length, and outputs a 128-bit digest in the form of a 32-digit hexadecimal number. The algorithm works by first padding the text to a certain length, and then appending to it a 64-bit binary representation of the text. Next, the text is processed in blocks of 512-bits, with each block undergoing three rounds of bit manipulation. MD4 is insecure, as a collision attack was found. This is where two input texts produce the same output digest (a hash collision), thus allowing for issues such as forging digital signatures.
@@ -133,7 +160,7 @@ Identification
 
 ### Encoding
 
-The process of transforming the data by using an algorithm (that is publicly available) into another format. 
+The process of transforming the data by using an algorithm (that is publicly available) into another format.
 
 The motivation behind encoding is to change information with the goal that it can be appropriately (and securely) fed to a different system. The main objective is not to keep data secret, but instead to guarantee that it is ready to be legitimately used.
 
