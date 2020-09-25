@@ -275,32 +275,225 @@ const Hacktoberfest2020 = () => {
                   <div className="description-wrap">
                     <div className="tag">
                       <a
-                        aria-label="golang"
-                        href="https://github.com/topics/golang"
+                        aria-label="scanning"
+                        href="https://github.com/topics/scanning"
                         target="_blank"
                       >
-                        Tag
+                        scanning
                       </a>
                       <a
-                        aria-label="go"
-                        href="https://github.com/topics/go"
+                        aria-label="powershell"
+                        href="https://github.com/topics/powershell"
                         target="_blank"
                       >
-                        Tag
+                        powershell
                       </a>
                       <a
-                        aria-label="SAML"
-                        href="https://github.com/topics/saml"
+                        aria-label="windows"
+                        href="https://github.com/topics/windows"
                         target="_blank"
                       >
-                        Tag
+                        windows
+                      </a>
+                    </div>
+                    <div>
+                      <h3>
+                        <a
+                          href="https://github.com/LoginRadius/ps-softlist"
+                          target="_blank"
+                        >
+                          ps-softlist
+                        </a>
+                      </h3>
+                      <p>
+                      A power shell script to detect non-whitelisted installed software on windows machines.
+                      </p>
+                    </div>
+                    <div className="bio-module--bio--3cpvH d-flex">
+                      <div class="text">
+                        <a
+                          href="https://github.com/LoginRadius/ps-softlist"
+                          target="_blank"
+                        >
+                          <strong>View Github Repo</strong>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-80">
+                  <div className="description-wrap">
+                    <div className="tag">
+                      <a
+                        aria-label="csharp"
+                        href="https://github.com/topics/csharp"
+                        target="_blank"
+                      >
+                        csharp
                       </a>
                       <a
-                        aria-label="open-source"
-                        href="https://github.com/topics/sso"
+                        aria-label="asp.net"
+                        href="https://github.com/topics/asp.net"
                         target="_blank"
                       >
-                        Tag
+                        asp.net
+                      </a>
+                      <a
+                        aria-label="security"
+                        href="https://github.com/topics/security"
+                        target="_blank"
+                      >
+                        security
+                      </a>
+                    </div>
+                    <div>
+                      <h3>
+                        <a
+                          href="https://github.com/LoginRadius/csharp-password-hash"
+                          target="_blank"
+                        >
+                          csharp-password-hash
+                        </a>
+                      </h3>
+                      <p>
+                      .NET standard library to secure the passwords using multiple hashing algorithms.
+                      </p>
+                    </div>
+                    <div className="bio-module--bio--3cpvH d-flex">
+                      <div class="text">
+                        <a
+                          href="https://github.com/LoginRadius/csharp-password-hash"
+                          target="_blank"
+                        >
+                          <strong>View Github Repo</strong>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-80">
+                  <div className="description-wrap">
+                    <div className="tag">
+                      <a
+                        aria-label="wordpress"
+                        href="https://github.com/topics/wordpress"
+                        target="_blank"
+                      >
+                        wordpress
+                      </a>
+                      <a
+                        aria-label="php"
+                        href="https://github.com/topics/php"
+                        target="_blank"
+                      >
+                        php
+                      </a>
+                      <a
+                        aria-label="IAM"
+                        href="https://github.com/topics/IAM"
+                        target="_blank"
+                      >
+                        IAM
+                      </a>
+                    </div>
+                    <div>
+                      <h3>
+                        <a
+                          href="https://github.com/LoginRadius/wordpress-identity-plugin"
+                          target="_blank"
+                        >
+                          wordpress-identity-plugin
+                        </a>
+                      </h3>
+                      <p>
+                      The LoginRadius WordPress plugin will let you integrate LoginRadius' customer identity platform with your WordPress CMS.
+                      </p>
+                    </div>
+                    <div className="bio-module--bio--3cpvH d-flex">
+                      <div class="text">
+                        <a
+                          href="https://github.com/LoginRadius/wordpress-identity-plugin"
+                          target="_blank"
+                        >
+                          <strong>View Github Repo</strong>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-80">
+                  <div className="description-wrap">
+                    <div className="tag">
+                      <a
+                        aria-label="signature"
+                        href="https://github.com/topics/signature"
+                        target="_blank"
+                      >
+                        signature
+                      </a>
+                      <a
+                        aria-label="react"
+                        href="https://github.com/topics/react"
+                        target="_blank"
+                      >
+                        react
+                      </a>
+                      <a
+                        aria-label="javascript"
+                        href="https://github.com/topics/javascript"
+                        target="_blank"
+                      >
+                        javascript
+                      </a>
+                    </div>
+                    <div>
+                      <h3>
+                        <a
+                          href="https://github.com/LoginRadius/egnature"
+                          target="_blank"
+                        >
+                          egnature
+                        </a>
+                      </h3>
+                      <p>
+                      Egnature is an email signature generator tool, which is an open source and free to use.
+                      </p>
+                    </div>
+                    <div className="bio-module--bio--3cpvH d-flex">
+                      <div class="text">
+                        <a
+                          href="https://github.com/LoginRadius/egnature"
+                          target="_blank"
+                        >
+                          <strong>View Github Repo</strong>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-80">
+                  <div className="description-wrap">
+                    <div className="tag">
+                      <a
+                        aria-label="typescript"
+                        href="https://github.com/topics/typescript"
+                        target="_blank"
+                      >
+                       typescript 
+                      </a>
+                      <a
+                        aria-label="javascript"
+                        href="https://github.com/topics/javascript"
+                        target="_blank"
+                      >
+                        javascript
+                      </a>
+                      <a
+                        aria-label="reactjs"
+                        href="https://github.com/topics/reactjs"
+                        target="_blank"
+                      >
+                        reactjs
                       </a>
                     </div>
                     <div>
