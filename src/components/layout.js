@@ -1,7 +1,7 @@
 import { graphql, StaticQuery } from "gatsby"
 import React from "react"
 import Footer from "./footer"
-import FreeTrial from "./freeTrail"
+import FreeTrial from "./freeTrial"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
 import favicon from "../../static/favicon.png"

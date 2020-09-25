@@ -13,14 +13,14 @@ const logger = function () {
 
 const FreeTrial = () => {
   return (
-    <section class={`py-80 ${styles.freetrialWrap}`}>
-      <div class={styles.freetrial}>
-        <div class={styles.content}>
+    <section className={`py-80 ${styles.freetrialWrap}`}>
+      <div className={styles.freetrial}>
+        <div className={styles.content}>
           <h3>Try a Modern Authentication Solution</h3>
-          <div class={styles.heading}>
+          <div className={styles.heading}>
             <p>
               {" "}
-              <span class={styles.number}>$0</span>/ month{" "}
+              <span className={styles.number}>$0</span>/ month{" "}
             </p>
           </div>
           <a
@@ -33,7 +33,7 @@ const FreeTrial = () => {
             {"Free Sign Up"}
           </a>
         </div>
-        <div class={styles.lists}>
+        <div className={styles.lists}>
           <ul>
             <li> 5,000 MAU </li>
             <li>1 Web or mobile app </li>
