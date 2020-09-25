@@ -37,10 +37,6 @@ Below are the common .NET exceptions which we can see on a regular basis of codi
 
 The process of handling any run time error is called exception handling. The exception handling is performed to maintain the normal flow of the application. 
 
-Exception handling is like
-
-![Exception Handling](Exception_Handling.gif)
-
 In C# we can achieve this using below techniques:
 
 ### Try,Catch & Finally blocks
@@ -52,6 +48,10 @@ This is a very basic Exception handling technique in which try, catch, and final
 **catch block:** In this block the exception is caught which means if an exception is thrown from the try block then we write the code to handle or log it.
 
 **finally block:** In this block we write the certain code which we want to execute if an exception is thrown or not. For example: disposing of an object or closing the database connection.
+
+Exception Handling after using try, catch blocks
+
+![Exception Handling](ExceptionHandling.jpg)
 
 **Note:** Multiple finally blocks are not allowed. Also, the finally block cannot have the return, continue, or break keywords. It doesn't let control leave the finally block.
 
