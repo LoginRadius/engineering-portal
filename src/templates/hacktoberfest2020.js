@@ -328,28 +328,6 @@ const Hacktoberfest2020 = () => {
                 </div>
               </div>
             </div>
-            <br />
-            Here is a list of some of our Projects on Github:
-            <ul>
-              <li>
-                <a href="https://github.com/LoginRadius/engineering-portal">
-                  Engineering Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/LoginRadius/docs">
-                  Developer Documentation
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/LoginRadius/go-saml">go-saml</a>
-              </li>
-              <li>
-                <a href="https://github.com/LoginRadius/cascade">
-                  Developer Portal
-                </a>
-              </li>
-            </ul>
             <p>
               Check out{" "}
               <a href="https://github.com/LoginRadius">LoginRadius Github</a>{" "}
