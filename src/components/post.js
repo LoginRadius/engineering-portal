@@ -34,6 +34,24 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
+  const countWords = text => text.split(" ").length
+
+  const stripPostHtml = html => {
+    const withoutStyleTag = html.split("<style")[0]
+    const strippedString = withoutStyleTag.replace(/(<([^>]+)>)/gi, "")
+    return strippedString
+  }
+
+  const getTimeToRead = text => {
+    const strippedText = stripPostHtml(text)
+    const wpm = 220 // human word reading speed
+    const estimatedRaw = countWords(strippedText) / wpm
+    const minutes = Math.round(estimatedRaw)
+    const readingTime = minutes < 1 ? "less than a min" : minutes + " min read"
+    return readingTime
+  }
+
   return (
     <>
       <Helmet>
@@ -85,7 +103,12 @@ const Post = ({ post, relatedPost }) => {
               />
             </div>
             {author && (
-              <Bio date={post.frontmatter.date} author={author} pinned />
+              <Bio
+                readingTime={getTimeToRead(post.html)}
+                date={post.frontmatter.date}
+                author={author}
+                pinned
+              />
             )}
           </div>
         </div>
