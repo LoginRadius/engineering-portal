@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImage from "../../static/hacktober-fest-banner.png"
+import HeroImage from "../../static/hacktober-fest-cover-image.png"
+
 import "./hacktoberfest.scss"
 const Hacktoberfest2020 = () => {
   return (
@@ -58,7 +59,7 @@ const Hacktoberfest2020 = () => {
             <p>
               Apart from getting limited edition t-shirts from DigitalOcean,
               LoginRadius will also provide it's{" "}
-              <span calssName="highlight">limited edition branded swags </span>
+              <span className="highlight">limited edition branded swags </span>
               including <span className="highlight">awesome t-shirts </span>,
               and <span className="highlight">stickers</span> to people
               contributing to our codebase. Yes!{" "}
@@ -97,29 +98,29 @@ const Hacktoberfest2020 = () => {
               </a>{" "}
               or contributing to our different open source projects on{" "}
               <a href="https://github.com/LoginRadius/">Github</a>.
-              <br />
+            </p>
+            <br />
               Here is a list of some of our Projects on Github:
               <ul>
-                <li>
-                  <a href="https://github.com/LoginRadius/engineering-portal">
-                    Engineering Blog
+              <li>
+                <a href="https://github.com/LoginRadius/engineering-portal">
+                  Engineering Blog
                   </a>
-                </li>
-                <li>
-                  <a href="https://github.com/LoginRadius/docs">
-                    Developer Documentation
+              </li>
+              <li>
+                <a href="https://github.com/LoginRadius/docs">
+                  Developer Documentation
                   </a>
-                </li>
-                <li>
-                  <a href="https://github.com/LoginRadius/go-saml">go-saml</a>
-                </li>
-                <li>
-                  <a href="https://github.com/LoginRadius/cascade">
-                    Developer Portal
+              </li>
+              <li>
+                <a href="https://github.com/LoginRadius/go-saml">go-saml</a>
+              </li>
+              <li>
+                <a href="https://github.com/LoginRadius/cascade">
+                  Developer Portal
                   </a>
-                </li>
-              </ul>
-            </p>
+              </li>
+            </ul>
             <p>
               Check out{" "}
               <a href="https://github.com/LoginRadius">LoginRadius Github</a>{" "}

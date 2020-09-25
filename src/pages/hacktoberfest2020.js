@@ -1,8 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImage from "../../static/hacktober-fest-banner.png"
+import HeroImage from "../../static/hacktober-fest-cover-image.png"
 import "./hacktoberfest.scss"
 const Hacktoberfest = () => {
+  console.log("HeroImage ", HeroImage);
   return (
     <Layout>
       <div className="wrapper hacktoberfest">
@@ -46,7 +47,7 @@ const Hacktoberfest = () => {
             <p>
               Apart from getting limited edition t-shirts from DigitalOcean,
               LoginRadius will also provide it's{" "}
-              <span calssName="highlight">limited edition branded swags</span>
+              <span className="highlight">limited edition branded swags</span>
               including <span className="highlight">t-shirts </span>, to people
               contributing to our codebase. Yes!{" "}
               <span className="highlight">
