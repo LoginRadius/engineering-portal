@@ -6,9 +6,9 @@ import lrLogo from "../../static/logo-new.svg"
 
 const Footer = ({ menuLinks, socialLinks, postPage }) => {
   return (
-    <section class={styles.footerWrap}>
+    <section className={styles.footerWrap}>
       <div>
-        <div class={styles.lrContent}>
+        <div className={styles.lrContent}>
           <img src={lrLogo} alt={"lr-logo"} />
           <p>
             LoginRadius empowers businesses to deliver a delightful customer
@@ -17,7 +17,7 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
             protecting customer accounts and complying with data privacy
             regulations.
           </p>
-          <nav class={styles.social}>
+          <nav className={styles.social}>
             <ul>
               {socialLinks.map((link, index) => (
                 <li key={index}>
@@ -50,7 +50,7 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
           <nav className={styles.menuLinks}>
             <ul>
               {menuLinks.map((link, index) => (
-                <li>
+                <li key={index}>
                   <a
                     href={link.slug}
                     key={index}

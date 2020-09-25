@@ -87,7 +87,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <nav className={headerStyles.menuLinksinner}>
             <ul>
               {menuLinks.map((link, index) => (
-                <li>
+                <li key={index}>
                   <a
                     href={link.slug}
                     key={index}
