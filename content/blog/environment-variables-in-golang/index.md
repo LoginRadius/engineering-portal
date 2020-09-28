@@ -11,39 +11,38 @@ description: "Learn about environment variables and different ways to use them i
 This tutorial assumes you have:
 
 *   A basic understanding of Go Language
-*   Latest GoLang version installed on your system
+*   Latest Golang version installed on your system
 *   A few minutes of your time.
 
 In this article, we will see what are the usage of environment variables in an application, and how to access the environment variables in a Go application with different inbuilt and third-party packages.
 
 ## What are environment variables?
 
-Environment variables are key-value pair on a system-wide level, that can be accessed by running processes on the system. Environment variables are often used to make the same program behave different in separate deploy environments like PROD, DEV, or TEST. 
+Environment variables are key-value pair on a system-wide level, that can be accessed by running processes on the system. Environment variables are often used to make the same program behave differently in separate deploy environments like PROD, DEV, or TEST. 
 Storing configuration in the environment is one of the principles of a twelve-factor app it enables applications to be built with portability.
 
 ## Why should you use environment variables
 
-- If you are entering the sensitive information in the code, then all the unauthorized who have access the code will have the sensitive information, you might not want that.
+- If you are entering the sensitive information in the code, then all the unauthorized users who have access the code will have the sensitive information, you might not want that.
 
-- If you are using the code versioning tool like `git`, you may push your DB credentials with the code and it will go public
- 
+- If you are using the code versioning tool like `git`, you may push your DB credentials with the code and it will go public.
 
 - If you are managing these variables in one place, In case of any changes, you don't have to change it in all the places in application code it has been used. 
  
-- You can manage multiple deploy environments like PROD, DEV, or TEST. Environment variables are easy to change between deploys without changing any application code
+- You can manage multiple deploy environments like PROD, DEV, or TEST. Environment variables are easy to change between deploys without changing any application code.
 
 > Never forget to include your environment variable files in the .gitignore
 
 ## Inbuilt OS package
 
-You don't need any external package to access the environment variables in golang, you can do that with the standard `os` package. Below is the list of functions related to environment variables and there uses
+You don't need any external package to access the environment variables in golang, you can do that with the standard `os` package. Below is the list of functions related to environment variables and there uses.
 
 
-- `os.Setenv()` sets the value of an environment value
+- `os.Setenv()` sets the value of an environment value.
 
 - `os.Getenv()` gets the value environment variable named by the key.
 
-- `os.Unsetenv()` delete a single environment value named by the key, if we try to get that environment value using `os.Getenv()` it will return an empty value
+- `os.Unsetenv()` delete a single environment value named by the key, if we try to get that environment value using `os.Getenv()` it will return an empty value.
 
 - `os.ExpandEnv` replaces ${var} or $var in the string as per the values of environment variables. If any environment variable is not present it will be replaced by an empty string.
 
@@ -230,7 +229,7 @@ DB:
   NAME: "testdb"
 ```
 
-In below code we are using viper to load environment variables from config.yaml, we can load the config file from any path we want  and can also set the default values for any environment variable if any environment variable is not available in config file default value will be loaded
+In below code we are using viper to load environment variables from config.yaml, we can load the config file from any path we want  and can also set the default values for any environment variable if any environment variable is not available in config file default value will be loaded.
 
 ```go
 // main.go
