@@ -18,6 +18,7 @@ import ReactGA from "react-ga"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import getTimeToRead from "../utils/timeToRead"
 
 const eventLogger = function ({category, action, label}) {
   ReactGA.event({
@@ -35,22 +36,7 @@ const Post = ({ post, relatedPost }) => {
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
-  const countWords = text => text.split(" ").length
-
-  const stripPostHtml = html => {
-    const withoutStyleTag = html.split("<style")[0]
-    const strippedString = withoutStyleTag.replace(/(<([^>]+)>)/gi, "")
-    return strippedString
-  }
-
-  const getTimeToRead = text => {
-    const strippedText = stripPostHtml(text)
-    const wpm = 220 // human word reading speed
-    const estimatedRaw = countWords(strippedText) / wpm
-    const minutes = Math.round(estimatedRaw)
-    const readingTime = minutes < 1 ? "less than a min" : minutes + " min read"
-    return readingTime
-  }
+  
 
   return (
     <>
