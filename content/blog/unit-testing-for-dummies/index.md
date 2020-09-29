@@ -22,7 +22,7 @@ Well, it is not that a developer loves to find bugs in his/her coded code but wh
 
 2. Is my written code fulfilling the business requirement for which I have written the code?
 
-3. How many other application areas is my code impacting and are the values passed from the new block causing an impact on existing areas? Here I would like to state that one has to focus more on the behavior of the existing code with new values. The earlier we do it in the coding cycle the better it is in terms of rework at the developer's end.
+3. How many other application areas is my code impacting? Are the values passed from the new block causing an impact on existing areas? Here I would like to state that one has to focus more on the behavior of the existing code with new values. The earlier we do it in the coding cycle the better it is in terms of rework at the developer's end.
 
 4. If you can follow a specific framework like Junit or Nunit etc, for conducting the unit testing is fine, but if not, you are not able to do that it does not matter as I can always pass a set of values(both positive or negative) to my written code.
 
@@ -35,6 +35,8 @@ Well, it is not that a developer loves to find bugs in his/her coded code but wh
 8. If my code involves a UI can I have a quick run-through by a BA or PM or Tester from a usability point of view?
 
 
-In the end,  remember that I am the first and the most basic foundation in a big building of Quality and have to always keep the same in mind whenever I code since no one is interested to buy a well-packaged product if its ingredients are not of high quality. By doing the above I am not only contributing to high-quality software but i can devote by later high bug-fixing time in things like improving the performance/security of my code and avoiding going back to the drawing board for issues related to performance or security etc. Always remember in the Software development unit testing serves as "A stitch in time saves nine".
+In the end,  remember that I am the first and the most basic foundation in a big building of Quality and have to always keep the same in mind whenever I code since no one is interested to buy a well-packaged product if its ingredients are not of high quality.
+
+By doing the above I am not only contributing to high-quality software but I can devote by later high bug-fixing time in things like improving the performance/security of my code and avoiding going back to the drawing board for issues related to performance or security etc. Always remember in the Software development unit testing serves as "A stitch in time saves nine".
 
 
