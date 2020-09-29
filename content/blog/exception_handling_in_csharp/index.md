@@ -1,9 +1,9 @@
 ---
 title: "Exception Handling in C#"
-date: "2020-09-23"
+date: "2020-09-29"
 coverImage: "CoverImage.jpg"
 author: "Hemant Manwani"
-tags: ["C#","Exception","Exception Handling",".NET"]
+tags: ["C#","Exception","Exception Handling",".NET","Exception Handling Best Practices"]
 ---
 C# and the .NET CLR use exceptions to show that an error condition has arisen during program execution. C# programs are under constant threat of running into some sort of problem. As a program’s complexity grows, the probability that something odd would happen during its execution also gets higher.
  
@@ -20,7 +20,7 @@ Every time when we are developing an application and it got successfully build w
  
 For that, it is good practice to use exception handling.
  
-## Common .NET Exceptions :
+### Common .NET Exceptions :
 Below are the common .NET exceptions which we can see on a regular basis of coding.
  
 **System.NullReferenceException** – Occurs when calling a method on a null object reference
@@ -32,6 +32,10 @@ Below are the common .NET exceptions which we can see on a regular basis of codi
 **System.OutOfMemoryException** – Occurs when the app runs out of memory
  
 **System.InvalidCastException** – Occurs when you try to cast an object to a type that it can’t be cast to
+ 
+**System.InvalidOperationException** - Occurs when a method call is invalid for the object's current state 
+ 
+**System.ArgumentException** - Occurs when one of the arguments provided to a method is not valid
  
 ## Exception Handling
  
@@ -92,7 +96,7 @@ finally{
 //Any cleanup code
 }
 ```
-## Catch multiple exceptions in the single catch block
+### Catch multiple exceptions in the single catch block
 We can use the generic exception class as well to catch all types of exception in that case we have to write the catch block as below:
  
 ```C#
@@ -137,7 +141,7 @@ finally
 }
  
 ```
-## Nested try-catch
+### Nested try-catch
  
 C# allows nested try-catch blocks. When using nested try-catch blocks, an exception will be caught in the first matching catch block that follows the try block where an exception occurred.
  
@@ -169,7 +173,55 @@ An inner catch block will be executed in the above example because it is the fir
  
 If there is not an inner catch block that matches with raised exception type, then the control will flow to the outer catch block until it finds an appropriate exception filter.
  
-## User-defined Exceptions
+### Throw an Exception
+ 
+C# allows throwing an exception. The `throw` keyword is used for that purpose. One of the benefits of throwing an exception can be when a problem occurs in the middle of the complicated method execution because handling that situation in that complicated method would make that method even more complex. Then we should throw an exception and let the catch block to handle it.
+ 
+The throw keyword can only be used with the Exception object except for the catch block. It will be discussed in the next section.
+ 
+```C#
+try
+{
+    //throw exception
+    throw new Exception();
+}
+catch (Exception ex)
+{
+    //some code to hadle the exception
+}
+```
+**Note**: The throw keyword is used to throw/create the new exception. If the throw keyword is used and if there is any catch block then the catch block will be executed next.
+ 
+### Rethrow an Exception
+ 
+When an exception is caught in the catch block, we can do some operations and then re-throw the exception. Rethrow an exception means calling the `throw` keyword without an exception object inside a catch block.
+ 
+Here is the point to note that if we follow the below approach to rethrow the exception then the proper stack trace will not be maintained means it will not point out that actually where the exception occurred it will show in the stack trace the line number from which the exception is rethrown.
+ 
+```C#
+try
+{
+    // Code which can cause an exception.
+}
+catch (Exception ex)
+{
+    throw ex;//Exception is rethrown with the exception object
+}
+```
+Now if we follow the below approach then the proper stack trace will be maintained with maintaining the exact line number where the exception actually occurred.
+ 
+```C#
+try
+{
+    // Code which can cause an exception.
+}
+catch (Exception ex)
+{
+    throw;//Exception is rethrown with the exception object
+}
+```
+ 
+### User-defined Exceptions
  
 User-defined exceptions are those exceptions that are not defined by the programming language. In C# we can create our own custom exceptions(User-defined exceptions)
  
@@ -202,8 +254,43 @@ Creating your own C# custom exceptions is helpful only when you are going to cat
         }
     }
 ```
-**Note**: The throw keyword is used to throw/create the new exception. If the throw keyword is used then the catch block will be executed next and will catch the exception.
+ 
+## Exception Handling Best Practices
+ 
+### Log Exception
+ 
+It is considered a good practice to log all the exception which are coming into our application. The main benefit of logging exceptions that we can know exactly what are the conditions on which the code is failing instead of asking from the user that what inputs he has provided we can log all the required information and use that data to solve the error.
+ 
+In many cases, we just ignore the catch block by writing nothing in it. There are some .NET libraries available for logging purposes like NLog, Serilog, etc.
+ 
+We can log exception into the catch block. Every exception is coming into our application is crucial as they are critical to finding the problems in the code.
+ 
+```C#
+try
+{
+   //Some code
+}
+catch (Exception ex)
+{
+   //Log Exception here!!!
+   Log.Error(ex); // log the inputs provided by the user or any specific condition
+}
+```
+ 
+### First Chance & Second Chance Exception
+ 
+The first chance exception is mainly designed for debugging purposes. Like whenever an exception occurs it first goes to the debugger giving the first chance to you and then to the program/application. If that exception is unhandled in the program/application then it gets back to the debugger giving a second chance to you to do something with your code before and after the application itself decides to do.
+ 
+It gives you visibility into every .NET exception being thrown.
+ 
+We can enable the first chance exception in the Visual Studio by going into the 
+Debug > Windows > Exception Settings > check next to "Common Language Runtime Exceptions"
+ 
+You can also select the exceptions you want the debugger to break automatically in the above setting.
  
 ## Conclusion
-In this blog, we learned about the basics of Exception and Exception handling. It is a good practice to use the exception handling in the application that will help the application to run smoother and without any bad user experience.
+In this blog, we learned about the basics of Exception, Exception Handling, and some best practices of exception handling. Use of the exception handling with its best practices in the application will help the application to run smoother and without any bad user experience.
+ 
+ 
+ 
 
