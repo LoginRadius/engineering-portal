@@ -57,6 +57,7 @@ export const blogListQuery = graphql`
             author {
               id
               github
+              featuredImage
             }
           }
         }

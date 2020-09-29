@@ -210,6 +210,8 @@
   stackoverflow: "6235787"
   linkedin: "hridayesh-sharma"
   twitter: "vyasriday"
+  featuredImage: 'ninja.jpg'
+
 
 - id: Gaurav Bewal
   bio: Gaurav Bewal is an Automation Engineer, always ready to grab the opportunity of learning new things. Having working knowledge in Selenium-Java, Cucumber-Java, Nodejs-Nightwatch, Mocha-Chai, Appium and many more. Apart from this, He is also having interest in Music and all type of sports.
