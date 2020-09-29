@@ -18,6 +18,7 @@ This is a rough outline of what a contributor's workflow looks like:
 - Push your changes to a topic branch in your fork of the repository.
 - Make sure to proofread the content before submitting
 - Submit a pull request to the original repository.
+- **Please ensure that you raise a PR on `dev` branch instead of `master`.**
 
 #### Commit Messages
 
