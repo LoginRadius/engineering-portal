@@ -1,5 +1,5 @@
 ---
-title: "Exception Handling in C#"
+title: "Exceptions and Exception Handling in C#"
 date: "2020-09-29"
 coverImage: "CoverImage.jpg"
 author: "Hemant Manwani"
@@ -190,7 +190,7 @@ catch (Exception ex)
     //some code to hadle the exception
 }
 ```
-**Note**: The throw keyword is used to throw/create the new exception. If the throw keyword is used and if there is any catch block then the catch block will be executed next.
+**Note**: The throw keyword is used to throw or create the new exception. If the throw keyword is used and if there is any catch block then the catch block will be executed next.
  
 ### Rethrow an Exception
  
