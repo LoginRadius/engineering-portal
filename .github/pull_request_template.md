@@ -7,9 +7,11 @@ Thank you for your pull request. Please review the below requirements.
 <!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->
 
 - [ ] You have read the [Contribution Guidlines](https://github.com/LoginRadius/engineering-portal/blob/master/CONTRIBUTING.md) before creating this PR.
+- [ ] You created a branch from `dev` branch
 - [ ] Blog follows [Blog Guidelines](https://github.com/LoginRadius/engineering-portal/blob/master/GUIDELINES.md).
 - [ ] Checked for all grammatical errors in the blog.
 - [ ] Checked for any duplicate blog entry.
+- [ ] You PR is raised on `dev` branch and not on`master`.
 
 ##### Description of change
 
