@@ -1,6 +1,5 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
+  "name": "engineering-portal",
   "description": "A collection of resources by Loginradius engineering team to share their practical learning, development challenges, open-source initiatives in dev, QA, Infra, or implementation.",
   "version": "0.1.0",
   "author": "loginradius <support@loginradius.com>",
