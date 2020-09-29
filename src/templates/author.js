@@ -16,7 +16,7 @@ import {
 
 export default ({
   data: {
-    authorYaml: { id, bio, github, stackoverflow, linkedin, medium, twitter },
+    authorYaml: { id, bio, github, featuredImage, stackoverflow, linkedin, medium, twitter },
     allMarkdownRemark: { edges: postNodes },
   },
   location,
@@ -33,15 +33,15 @@ export default ({
         <div class={`${styles.authorPage} pt-80`}>
           <div class={`${styles.author} d-flex`}>
             <div class={styles.authorImage}>
-              <img
-                src={
-                  github
-                    ? `https://github.com/${github}.png?size=100`
-                    : `https://ui-avatars.com/api/?name=${id}&size=460`
-                }
-                alt={id}
-                class="circle extra-large"
-              />
+                <img 
+                  src={
+                    featuredImage
+                      ? require(`../../content/assets/images/${featuredImage}`)
+                      : `https://ui-avatars.com/api/?name=${id}&size=460`
+                  }
+                  alt={id}
+                  class="circle extra-large"
+                />
             </div>
             <div class={styles.aboutAuthor}>
               <h3>{id}</h3>
@@ -131,7 +131,7 @@ export const pageQuery = graphql`
             author {
               id
               github
-            }
+           }
             date(formatString: "MMMM DD, YYYY")
             tags
             coverImage {
@@ -154,9 +154,10 @@ export const pageQuery = graphql`
       bio
       github
       stackoverflow
+      featuredImage
       linkedin
       medium
       twitter
     }
-  }
+}
 `

@@ -45,6 +45,7 @@ export const pageQuery = graphql`
           id
           github
           bio
+          featuredImage
         }
       }
     }
@@ -68,5 +69,7 @@ export const pageQuery = graphql`
         }
       }
     }
+
+
   }
 `

@@ -31,9 +31,11 @@ const Post = ({ post, relatedPost }) => {
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
-  const githubUrl = author.github
-    ? `https://github.com/${author.github}.png?size=100`
-    : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+  const authorImg = author.featuredImage
+  const imageName = authorImg ? 
+  require(`../../content/assets/images/${authorImg}`) 
+  : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
   return (
     <>
       <Helmet>
@@ -199,7 +201,7 @@ const Post = ({ post, relatedPost }) => {
             <div class={styles.authorImage}>
               <img
                 className={`circle extra-large`}
-                src={githubUrl}
+                src={imageName}
                 alt={author.id}
               />
             </div>
