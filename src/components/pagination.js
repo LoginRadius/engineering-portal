@@ -10,12 +10,12 @@ const Pagination = ({ pages, currentPage }) => {
   const nextPage = (currentPage + 1).toString()
 
   let pageArray = []
-  let intialPages = false
+  let initialPages = false
   let lastPages = false
   let startIndex = 0
   if (currentPage <= 3) {
     startIndex = 1
-    intialPages = true
+    initialPages = true
   } else if (currentPage + 3 > pages) {
     startIndex = pages - 4
     lastPages = true
