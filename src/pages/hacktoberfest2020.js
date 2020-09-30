@@ -60,7 +60,7 @@ const Hacktoberfest = () => {
             </p>
             <ol>
               <li>
-                Submit atleast 1 successfull pull request on LoginRadius Open
+                Submit atleast 1 successful pull request on LoginRadius Open
                 Source projects.
               </li>
               <li>
