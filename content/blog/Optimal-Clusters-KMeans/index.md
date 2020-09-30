@@ -1,7 +1,7 @@
 ---
 title: Optimal clusters for KMeans Algorithm
 date: "2020-10-01"
-coverImage: "coverImage.png"
+coverImage: "cover.png"
 author: "Neeraj Ap"
 tag: Machine learning
 ---
@@ -14,7 +14,7 @@ We've got only two variables, x and y coordinates
 
 Now, if we run the K means clustering algorithm on this dataset with three clusters or with K pre-determine the clusters to be three, then the result will look something like this.
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Screenshot (44).png "Logo Title Text 1")
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/intial.png "Logo Title Text 1")
 
 
 We need a specific metric we need a way to understand or evaluate how a certain number of clusters performs compared to a different number of clusters, and preferably, that metric should be quantifiable.
@@ -25,7 +25,7 @@ And there is such a metric called the within-cluster sum of squares. (WCSS)
 
 
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Screenshot (44).png "Logo Title Text 1")
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png "Logo Title Text 1")
 
 
 So you can see here that it jump from 8000 down to 3000, that's a massive change of 5000 let's just call them units 5000 units and then from 3000 as we increase the number of the close from two to 3, they jump from 3000 to 1000.
@@ -35,7 +35,7 @@ Again quite a large drop And then from three to four what's going to happen is g
 
 Look for that elbow in your chart where the drop goes from being quite substantial to being not as significant not as proven is not as great, and therefore, that point in your chart will be the optimal number of clusters.
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Screenshot (44).png "Logo Title Text 1")
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/ "Logo Title Text 1")
 
 In this case, it is indeed three clusters.
 
