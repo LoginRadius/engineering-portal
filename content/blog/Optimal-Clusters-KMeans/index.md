@@ -39,7 +39,7 @@ Again quite a large drop And then from three to four what's going to happen is g
 Look for that elbow in your chart where the drop goes from being quite substantial to being not as significant not as proven is not as great, and therefore, that point in your chart will be the optimal number of clusters.
 
 
-In this case, it is indeed three clusters.
+In this case, it is indeed three clusters
 
 That is the optimal number. And as you can imagine, this method is entirely arbitrary.
 Sometimes, the situations are not as pronounced as the elbow might not be as evident as in this case, and therefore, somebody might pick one number of clusters. Someone else might come along and select a different number.
