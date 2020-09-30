@@ -32,4 +32,4 @@ Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
 ## License
 
-[MIT](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
+For more information on licensing, please refer to [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
