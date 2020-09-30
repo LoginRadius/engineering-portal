@@ -18,5 +18,5 @@ This is proper support, too. Google has updated the Flutter toolchain to properl
 **Concluding Thoughts**
 “Flutter is Beautiful, Fast, Productive and Open because as a developer, you’ve full control over your application. You can create highly powered animations, allow you to change your code and literally in real-time see them appear on the application, an entirely free and open source.”
 
-Considering the importance of Flutter, it is a great choice, perhaps better than React Native. Flutter is all set of high standards, and undeniably sounds promising for the future.
+Considering the importance of Flutter, it is a great choice, perhaps better than React Native and others. Flutter is all set of high standards, and undeniably sounds promising for the future.
 **Happyyyyy coding!**
