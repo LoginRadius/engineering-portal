@@ -21,11 +21,18 @@ We need a specific metric we need a way to understand or evaluate how a certain 
 
 So what kind of metric can we impose upon our clustering algorithm that will tell us something about the final result?
 
+
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png "Logo Title Text 1")
+
 And there is such a metric called the within-cluster sum of squares. (WCSS)
 
 
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png "Logo Title Text 1")
+
+
+
+
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/ "Logo Title Text 1")
 
 
 So you can see here that it jump from 8000 down to 3000, that's a massive change of 5000 let's just call them units 5000 units and then from 3000 as we increase the number of the close from two to 3, they jump from 3000 to 1000.
@@ -35,7 +42,6 @@ Again quite a large drop And then from three to four what's going to happen is g
 
 Look for that elbow in your chart where the drop goes from being quite substantial to being not as significant not as proven is not as great, and therefore, that point in your chart will be the optimal number of clusters.
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/ "Logo Title Text 1")
 
 In this case, it is indeed three clusters.
 
