@@ -20,10 +20,6 @@ Now, if we run the K means clustering algorithm on this dataset with three clust
 We need a specific metric we need a way to understand or evaluate how a certain number of clusters performs compared to a different number of clusters, and preferably, that metric should be quantifiable.
 
 So what kind of metric can we impose upon our clustering algorithm that will tell us something about the final result?
-
-
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png "Logo Title Text 1")
-
 And there is such a metric called the within-cluster sum of squares. (WCSS)
 
 
@@ -32,7 +28,7 @@ And there is such a metric called the within-cluster sum of squares. (WCSS)
 
 
 
-![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/ "Logo Title Text 1")
+![alt text](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png "Logo Title Text 1")
 
 
 So you can see here that it jump from 8000 down to 3000, that's a massive change of 5000 let's just call them units 5000 units and then from 3000 as we increase the number of the close from two to 3, they jump from 3000 to 1000.
