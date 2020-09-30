@@ -36,16 +36,15 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
         </div>
         <div className={styles.copyrightwrap}>
           <div className={styles.copyright}>
-            © Copyright {new Date().getFullYear()}
-            {`, `}
             <a
               style={{ boxShadow: "none" }}
               href={"https://www.loginradius.com"}
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" LoginRadius Inc."}
+              {" LoginRadius Inc. "}
             </a>
+            © {new Date().getFullYear()}
           </div>
           <nav className={styles.menuLinks}>
             <ul>
