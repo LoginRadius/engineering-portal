@@ -56,7 +56,7 @@ for i in range(1, 11):
 
   kmeans.fit(X)
   
-wcss.append(kmeans.inertia_)
+  wcss.append(kmeans.inertia_)
 
 plt.plot(range(1, 11), wcss)
 
