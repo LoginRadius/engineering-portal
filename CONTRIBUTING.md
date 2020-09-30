@@ -38,7 +38,7 @@ Thanks for your contributions!
 - The post should be of 600-900 words.
 - The topic must relate to technology/programming/coding.
 - Post must not be published elsewhere.
-- The author gets only these linkS in bio, GitHub, StackOverflow, LinkedIn.
+- The author gets only these link(s) in bio, GitHub, StackOverflow, LinkedIn.
 - The post should adhere to our [Blog writing guideline](GUIDELINES.md)
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
