@@ -53,6 +53,8 @@ Here are some guidelines that you must follow while writing the blog for the eng
    twitter:
    ```
 
+8. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
+
 ## Some tips that you can keep in mind while writing the blog.
 
 - Keep post's language simple and easy to understand, we are making our blogs for the mass and our audience doesn't need to be only native English speakers
