@@ -25,6 +25,7 @@ When you open your repository on Github, you will now see a new tab called “Ac
 
 ![action2](action2.png)
 
+
 We will start by creating a YAML file that is commonly used for configurations. We can do so either by clicking “setup a workflow yourself” link in the Actions tab (see the above screenshot) or by creating a file in your favorite IDE. We first have to create .github/workflows folder in the root of the repository, and in that folder, we will create a file called first-workflow.yml.
 
 In this file, we will define the actions that we need to perform. We will be defining 3 actions which include running unit tests, building an apk file, and uploading the apk file to Github servers.
@@ -75,6 +76,7 @@ jobs:
         name: App
         path: ${{ github.workspace }}/app/build/outputs/apk/debug/app-debug.apk
 ```
+        
         
 We will cover what each line means one by one.
 
@@ -127,7 +129,9 @@ Now we define the steps to be performed in this job with steps:
 
 Now when you commit this file and push it the master branch you could see the workflow starts running and if all of your unit tests pass then you should see something like this.
 
+
 ![action3](action3.png)
+
 
 Your first workflow is up and running.
 
@@ -164,9 +168,12 @@ Now we define steps:
 
 After you commit this file and push it to the master branch, the workflow will start executing, and after the APK is built and uploaded you would see something like this.
 
+
 ![action4](action4.png)
 
+
 In order to see and download the APK that was generated and uploaded, we can click on the workflow name (In our case it is “Android CI”). We should see the following screen.
+
 
 ![action5](action5.png)
 
