@@ -6,51 +6,50 @@ author: "Nivedita Singh"
 tags: ["html","email"]
 description: "If you choose to code your HTML email by hand-code, there are many different things needs to use during creating HTML email"
 ---
-When you create an email using a drag-and-drop or module-based tool, you're actually generating an HTML email.
-HTML emails are easy to spot -- most of the styled, multimedia marketing emails in your inbox are HTML emails.
 
-As we know so many tools are for rendering email, for desktop like AOL, Outlook and Thunderbird and web-based email services like Google, Hotmail and Yahoo! Mail. If you thought it was hard to ensure the cross-browser compatibility, be aware that this is a whole new game – each of these email software tools can display the same email in very different ways.
+There are two types of email you can send and receive, that are plain text emails (any email that contains just plain old text with no formatting) and HTML emails, these are formatted and styled using HTML and inline CSS.
+HTML email is the use of a subset of HTML to provide formatting and semantic markup capabilities in email that are not available with plain text.
 
-HTML emails are easy to spot -- most of the styled, multimedia marketing emails in your inbox are HTML emails.
+An HTML email is designed just like a website with the help of graphics, table columns, colors and links. You don't need to be a programmer to create it since email marketing services provide flexible campaign builders. Email client vendors have not been as developing as web browser vendors in adopting new standards. 
+
+**Definition**
+
+Email that is formatted using Hypertext Markup Language(HTML), as opposed to plain text email.
 
 **How to Create an HTML Email**
 
-There's good news if you aren't an HTML expert: most tools that create and send email (like HubSpot) will offer pre-formatted, ready-to-go HTML templates that enable you to design emails without ever needing to access the actual code on the back-end.
+There are many tools that create and send email will offer pre-formatted, already built HTML templates that allows you to design emails without knowing or accessing any code of back-end.
 
-As you make changes in the email editor, those changes will be automatically coded into the final product. Email building tools like this are an ideal option if you don't have an email designer on your team, but you still want to send professional-looking marketing emails. You can check out our complete list of email newsletter tools right here to find one that's right for your specific needs.
+The best way to understand any process is to carry it out yourself, from the zero level. As We make any changes in the email editor, those changes will be automatically coded into the final result. This email building tools is a best option if you don't have an email designer, but you still want to send any professional  marketing emails.
 
-If you're comfortable with HTML and want more direct control over the code of your emails, most email tools will allow you to import HTML files directly for use as custom email templates. There are a wide variety of free HTML email templates available on the web (some of which we'll share below), and if you know your way around an HTML file, it's usually quite straightforward to adapt the template to the email building tool of your choice.
+If want more control over the code of your emails and you are comfortable with HTML(that is just basic and easy), most email tools will allow you to import HTML files directly for using it as custom email templates. They have a wide variety of free HTML email templates available on the internet and if you are fimiliar with HTML, it is a straightforward process to use that template to the email building tool of your own choice.
 
-To create an HTML email completely from scratch, you'll need to have an advanced knowledge of HTML (or work with a developer who does). This guide offers a solid overview of coding a basic HTML email. Because the process of creating an HTML email from scratch can be quite involved, we recommend working with a developer or using a pre-made HTML email template.
-
-**Developing an HTML email specifically for HubSpot?**
-
-If you're developing an HTML email template specifically for use in HubSpot, you'll want to make sure you include the required HubL tokens (these ensure your emails can be customized and are compliant with CAN-SPAM laws). You can find a complete guide to coding HubSpot-specific HTML email templates here. Or alternatively, just use our simple what-you-see-is-what-you-get email editor.
+To create an HTML email from scratch, you will need to have an advanced knowledge of HTML. Because creating an HTML email from scratch can be quite difficult, we recommend you working with a developer for this process or you may go with template for easy process.
 
 **If you choose to code your HTML email by hand-code, there are following things needs to use during creating HTML email:**
 
-1. Emails should be 600-700 max width.
-2. Use basic, cross-platform font such Arial, Verdana, Georgia and Times New Roman.
-3. Avoid the use of flash and JavaScript if design has animation then use .gif animated file.
-4. Needs to use HTML tables to control the design layout and some presentation.
-5. Needs to use inline CSS to control elements within your email such as background colors and fonts.
-6. CSS style declarations needs to below the body tag, not before the </head> tags.
-7. Do not use CSS shorthand code – Instead of using the shorthand style font: 12px/16px Arial, Helvetica, you needs to break this shorthand into individual properties like: font-family, font-size, and line-height.
-8. Use “display: block” for every image tag for removing the gaps under images in Yahoo!, Hotmail and Gmail.
-9. Use six digit hexadecimal code for color “#000000”, don’t use “#000” it may not work for all email client.
-10. Use spacer image for spacing between column and row to maintain the cross-browser compatibility.
-11. Needs to use “line-height and font-size” 1pixel under “<TD>” where you place the space images to maintain the same spacing under Outlook2013.
-12. Need to use inline style for the text in each “<TD>” or other tags where the content is available.
-13. Need to use Absolute images.
-14. Must declare the cellpadding=”0” and cellspacing=”0” in main table tag.
+1. Emails should have 600-700 max width.
+2. If design has animation then use .gif animated file and try to avoid the use of flash and JavaScript.
+3. To control the design layout and some presentation, use HTML tables .
+4. Use inline CSS to control elements within your email.
+5. CSS style declarations needs to below the body tag.
+6. Do not use CSS shorthand code.
+7. Use “display: block” for every image tag.
+8. Use six digit hexadecimal code for color “#000000”.
+9. Use spacer image for spacing between column and row to maintain the cross-browser compatibility.
+10. Use “line-height and font-size” 1pixel under “<TD>” where you place the space images.
+11. Use inline style for the text in each “<TD>”.
+12. Try to use Absolute images.
+13. Declare the cellpadding=”0” and cellspacing=”0” in main table tag.
 
-**How to Create Email Template files for Outlook?**
+**What if you have to design HTML emails to be sent through Outlook?**
 
-1. Composing and email in outlook.
-2. Add Recipients Email addresses, Subject and add the Newsletter in main body text.
-3. Now in file menu click Save AS.
-4. From Save As type list select Outlook Template (.otf) and give the template appropriate name then click the save on appropriate location.
-5. When you open any time this template by double click it will show saved Newsletter with all specific detail which we have provided at the time of Save As then we can send this template to any other recipients by edit the previous recipients.
+1. Select more commands to customize your quick access toolbar(suggestion).
+2. Choose "attach" function and then "add" it to the toolbar.
+3. Open "attach a file" window from the quick access toolbar.
+4. Select HTML file you need to import BUT do not click to INSERT yet.
+5. Switch "insert" button with the "insert as a text" button and click.
+6. Now, you just need to send it to your audience.
 
 **You can check HTML Email Template here:**
 
