@@ -6,7 +6,7 @@ This repository contains the complete code used in the engineering portal writte
 
 ## LoginRadius
 
-[LoginRadius](https://www.loginradius.com/) empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations to your customers.
+[LoginRadius](https://www.loginradius.com/) empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations of your customers.
 
 ## Running Project Locally
 
