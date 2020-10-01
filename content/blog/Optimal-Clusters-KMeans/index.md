@@ -5,7 +5,45 @@ coverImage: "cover.png"
 author: "Neeraj Ap"
 tag: Machine learning
 ---
-This blog will discuss the method behind finding out the right number of clusters on a K-Means clustering algorithm.
+
+Before we get into details of finding out optimal clusters let's first see what is KMeans clustering algorithm and some basics!!
+
+
+## Unsupervised learning :
+
+Unsupervised Learning is a machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with the unlabelled data.
+Unsupervised Learning Algorithms allow users to perform more complex processing tasks compared to supervised learning. Although, unsupervised learning can be more unpredictable compared with other natural learning methods. Unsupervised learning algorithms include clustering, anomaly detection, neural networks, etc.
+Clustering is a part of unsupervised learning
+
+## What is Clustering?
+
+Let’s kick things off with a simple example. A bank wants to give credit card offers to its customers. Currently, they look at the details of each customer and based on this information, decide which offer should be given to which customer.
+
+Now, the bank can potentially have millions of customers. Does it make sense to look at the details of each customer separately and then make a decision? Certainly not! It is a manual process and will take a huge amount of time.
+
+```Clustering is the process of dividing the entire data into groups (also known as clusters) based on the patterns in the data```
+
+## What is KMeans clustering alogrithm?
+
+The K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids
+It halts creating and optimizing clusters when either:
+The centroids have stabilized — there is no change in their values because the clustering has been successful.
+The defined number of iterations has been achieved.
+
+## Intial Imports :
+```python
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+%matplotlib inline
+
+```
+
+## Method :
+
+Now let's discuss the method behind finding out the right number of clusters on a K-Means clustering algorithm.
 So we'll learn how to decide what number of clusters to input into your K-Means algorithm.
 Here we've got a data science problem.
 We've got only two variables, x and y coordinates
@@ -37,6 +75,7 @@ In this case, it is indeed three clusters
 That is the optimal number. And as you can imagine, this method is entirely arbitrary.
 Sometimes, the situations are not as pronounced as the elbow might not be as evident as in this case, and therefore, somebody might pick one number of clusters. Someone else might come along and select a different number.
 
+## CODE :
 
 ```python
 
