@@ -126,3 +126,54 @@ Now we define the steps to be performed in this job with steps:
     In the third step, we run the tests with run: action using the gradle wrapper command-line tool.
 
 Now when you commit this file and push it the master branch you could see the workflow starts running and if all of your unit tests pass then you should see something like this.
+
+![action3](action3.png)
+
+Your first workflow is up and running.
+
+Now let's look at the second job: build
+
+```
+build:
+  name: Generate APK
+  runs-on: ubuntu-latest
+
+steps:
+  - uses: actions/checkout@v2
+  - name: set up JDK 1.8
+    uses: actions/setup-java@v1
+    with:
+      java-version: 1.8
+
+  - name: Build Debug APK
+    run: bash ./gradlew :app:assembleDebug
+
+  - name: Upload APK
+    uses: actions/upload-artifact@v2
+    with:
+      name: App
+      path: ${{ github.workspace }}/app/build/outputs/apk/debug/app-debug.apk
+```
+It starts with the job name “Generate APK” and we define which virtual machine it runs on just like we did for test job.
+
+Now we define steps:
+
+    Checking out the repository and setting up java is done in the same way we did earlier. We have defined it again as this job will run in a different container parallel to the first one.
+    Now we build the APK with run: action using the gradle wrapper command-line tool.
+    Next, we upload the APK using predefined action actions/upload-artifact@v2. Here we define the name of the artifact which will be shown on the Artifacts Github page and the path where the APK was generated in the above step.
+
+After you commit this file and push it to the master branch, the workflow will start executing, and after the APK is built and uploaded you would see something like this.
+
+![action4](action4.png)
+
+In order to see and download the APK that was generated and uploaded, we can click on the workflow name (In our case it is “Android CI”). We should see the following screen.
+
+![action5](action5.png)
+
+We can see the link named “App” under the Artifacts heading. If we click on it then a zip file will be downloaded which contains the APK.
+
+That's it. You have defined CI/CD flow in a very simple way that will make your software development faster and reliable.
+
+I hope you have learned how to set up and use Github Actions.
+
+Happy learning.
