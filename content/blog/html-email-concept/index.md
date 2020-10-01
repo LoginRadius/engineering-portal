@@ -28,6 +28,7 @@ To create an HTML email completely from scratch, you'll need to have an advanced
 If you're developing an HTML email template specifically for use in HubSpot, you'll want to make sure you include the required HubL tokens (these ensure your emails can be customized and are compliant with CAN-SPAM laws). You can find a complete guide to coding HubSpot-specific HTML email templates here. Or alternatively, just use our simple what-you-see-is-what-you-get email editor.
 
 **If you choose to code your HTML email by hand-code, there are following things needs to use during creating HTML email:**
+
 1. Emails should be 600-700 max width.
 2. Use basic, cross-platform font such Arial, Verdana, Georgia and Times New Roman.
 3. Avoid the use of flash and JavaScript if design has animation then use .gif animated file.
@@ -44,6 +45,7 @@ If you're developing an HTML email template specifically for use in HubSpot, you
 14. Must declare the cellpadding=”0” and cellspacing=”0” in main table tag.
 
 **How to Create Email Template files for Outlook?**
+
 1. Composing and email in outlook.
 2. Add Recipients Email addresses, Subject and add the Newsletter in main body text.
 3. Now in file menu click Save AS.
