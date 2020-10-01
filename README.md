@@ -10,15 +10,15 @@ This repository contains the complete code used in the engineering portal writte
 
 ## Running Project Locally
 
-To run the project locally you need to have Nodejs and npm installed.
+To run the project locally you need to have Nodejs and npm installed:
 
-1. Install the Project Dependencies
+1. Install the Project Dependencies:
 
 ```bash
   $ npm i
 ```
 
-2. Run Gatsby Server
+2. Run Gatsby Server:
 
 ```bash
   $ npm run develop
