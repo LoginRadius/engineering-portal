@@ -1,7 +1,7 @@
 ---
 title: "Exceptions and Exception Handling in C#"
 date: "2020-09-29"
-coverImage: "CoverImage.jpg"
+coverImage: "csharplogo.png"
 author: "Hemant Manwani"
 tags: ["C#","Exception","Exception Handling",".NET","Exception Handling Best Practices"]
 ---
