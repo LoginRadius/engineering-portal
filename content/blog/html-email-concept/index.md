@@ -14,6 +14,7 @@ As we know so many tools are for rendering email, for desktop like AOL, Outlook 
 HTML emails are easy to spot -- most of the styled, multimedia marketing emails in your inbox are HTML emails.
 
 **How to Create an HTML Email**
+
 There's good news if you aren't an HTML expert: most tools that create and send email (like HubSpot) will offer pre-formatted, ready-to-go HTML templates that enable you to design emails without ever needing to access the actual code on the back-end.
 
 As you make changes in the email editor, those changes will be automatically coded into the final product. Email building tools like this are an ideal option if you don't have an email designer on your team, but you still want to send professional-looking marketing emails. You can check out our complete list of email newsletter tools right here to find one that's right for your specific needs.
@@ -23,6 +24,7 @@ If you're comfortable with HTML and want more direct control over the code of yo
 To create an HTML email completely from scratch, you'll need to have an advanced knowledge of HTML (or work with a developer who does). This guide offers a solid overview of coding a basic HTML email. Because the process of creating an HTML email from scratch can be quite involved, we recommend working with a developer or using a pre-made HTML email template.
 
 **Developing an HTML email specifically for HubSpot?**
+
 If you're developing an HTML email template specifically for use in HubSpot, you'll want to make sure you include the required HubL tokens (these ensure your emails can be customized and are compliant with CAN-SPAM laws). You can find a complete guide to coding HubSpot-specific HTML email templates here. Or alternatively, just use our simple what-you-see-is-what-you-get email editor.
 
 **If you choose to code your HTML email by hand-code, there are following things needs to use during creating HTML email:**
@@ -49,4 +51,5 @@ If you're developing an HTML email template specifically for use in HubSpot, you
 5. When you open any time this template by double click it will show saved Newsletter with all specific detail which we have provided at the time of Save As then we can send this template to any other recipients by edit the previous recipients.
 
 **You can check HTML Email Template here:**
+
 https://github.com/designmodo/html-email-templates
