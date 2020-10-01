@@ -1,6 +1,7 @@
 # Engineering Portal
 
 Engineers at LoginRadius are not limited to develop, test, deploy, and maintain the **LoginRadius Identity Platform**. They are highly motivated to build and learn something new every day. As a part of our Giving Back To Community initiative, we aim to share the same with the developers worldwide via our [Engineering Portal](https://www.loginradius.com/engineering/blog).
+LoginRadius is Built for Developers with Robust APIs and Pre-Designed Interfaces
 
 This repository contains the complete code used in the engineering portal written for the initiative mentioned above.
 
