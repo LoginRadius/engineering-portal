@@ -11,12 +11,12 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 6. The blog should have the meta tags at the top of you MD files which should have the below properties.
 
-   - **title (Required)** : A meaningful title.
+   - **title (Required)**: A meaningful title.
      Note: This title will appear in the post so no need to again include it in the `md` files.
    - **date (Required)**: A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
    - **coverImage (Required)**: The name of the image with format should come here. Please make sure the image should be present in the directory where your `.md` the file is there.
    - **author (Required)**: The name of the author, make sure the author name should match with the one you have added in you Pull Request description.
-   - **tags: (optional)** : You can add the relevant the in the Array of string `for eg: ["NodeJs"]`. Please make sure tags should not be more than three.
+   - **tags: (optional)**: You can add the relevant the in the Array of string `for example: ["NodeJs"]`. Please make sure tags should not be more than three.
    - **description** (optional): You can add the short description, which will appear in the card of your blog, it should not be more than 160 characters. If you don't specify the description by default the first 160 characters of your blog will be shown.
 
    This is an example of the meta info in your blog
@@ -39,7 +39,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
    - **bio (optional)**: A short intro about you.
    - **social profiles (optional)**: You need to mention the id of your social profiles, supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
-     Note: For StackOverflow, you need to add your id which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
+     Note: For StackOverflow, you need to add your id which is in **number**, for example: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
    This is an example of the author info
 
