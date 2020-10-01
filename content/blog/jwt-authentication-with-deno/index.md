@@ -51,7 +51,7 @@ app.use(router.allowedMethods());
 await app.listen({ port: 8000 });
 ```
 
-Once our program is ready for accepting request lets import djwt functions to generate JWT token, In below code we can use a secret key, expiry time for JWT token in 1 hour from the time program will run and we are using HS256 algorithm.
+Once our program is ready for accepting request Let's import djwt functions to generate JWT token, In below code we can use a secret key, expiry time for JWT token in 1 hour from the time program will run and we are using HS256 algorithm.
 
 Add the below code in index.ts and update the router as shown below, you can now get a brand new token on `http://localhost:8000/generate`
 

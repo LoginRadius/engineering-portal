@@ -89,7 +89,7 @@ React provides some built-in Hooks like `useState`, `UseEffect` and `useReducer`
 Please see the following examples of some react hooks as follows:
 ##### What is useState and its use
 
-`useState` is a Hook that lets you add React state to function components.
+`useState` is a Hook that Let's you add React state to function components.
 Example:
 Declaring a State Variable in class and initialize count state with 0 by setting this.state  to {count:0}.
 
