@@ -26,5 +26,8 @@ When it comes to the role of Hackers, they are left scrambling to find out data 
 data packets are then rerouted to an already existing path, or an additional path is established which leads us resulting in negligible network downtime.
 3. Speed / Performance: Since the data flow from multiple independent paths using unique methods which led to increasing available bandwidth, and optimizing data flow on individual pathways. Hence, speed and performance are increased.
 
+Conclusion
+
+Today, Dispersive Technologies’ business is largely government-centric, with initial forays into commercial industries with high-value targets like banks and utilities There are also many opportunities for Dispersive technology in the cloud computing world. Not only can the cloud easily host the deflects at the core of their approach, but cloud environments can leverage Dispersive to establish secure interactions between clouds or between on-premise data centres and clouds. These hybrid cloud scenarios often depend upon VPNs, which tend to be flaky and slow. With Dispersive Technologies, VPNs become a thing of the past – improving the security, performance, and manageability of hybrid clouds as well as virtual private clouds. 
 
 As with any industry, change can be frightening (especially when sensitive data is part of the equation), but if the organization is aware of the new developments, they can begin implementing some of these security technologies into their existing IT infrastructure and enjoy some peace of mind without worrying about future threats.
