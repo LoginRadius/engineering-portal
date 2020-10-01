@@ -27,7 +27,7 @@ For example, let's consider that our application has two sections `A` and `B`. S
 ### Prerequisites
 To follow this tutorial, you’ll need the following:
 
-- **Latest Node version** installed
+- [**Latest Node version**](https://nodejs.org/en/download/) installed
 - `create-react-app` tool 
 
 	```
@@ -101,7 +101,7 @@ If you are working with React version prior to 16.6, then you won't have Suspens
 
 - Our HOC (`lazyLoader.js`)
 	```
-	const lazyLoader = (import Comp)=>{
+	const lazyLoader = (importComp)=>{
 		return class extends React.Component{
 			state:{
 				component :null //initializing state
@@ -109,18 +109,18 @@ If you are working with React version prior to 16.6, then you won't have Suspens
 
 			//loading the component and setting it to state
 			componentDidMount(){
-				import Comp()
+				importComp()
 					.then(comp => setState({component:comp.default}));
 			}
 
 			//rendering the component
 			render(){
 				const C = this.state.component;
-				return C?<C {...this.props}/>?null;
+				return C?<C {...this.props}/>:null;
 			}
 		}
 	}
-	export lazyLoader;
+	export default lazyLoader;
 	```
 - Our calling component, in this case `Home.js`
 	```
@@ -148,4 +148,30 @@ If you are working with React version prior to 16.6, then you won't have Suspens
 		}
 	}
 	```
-	If you need the fall back feature, you can update HOC's render method where it is returning null, instead it can return your fallback component.
+	If you need the fall back feature, you can update HOC's render method where it is returning null, instead of null you can return your fallback component and it can be passed as props too.
+
+	So now our HOC would look like - 
+	```
+	const lazyLoader = (importComp, fallback)=>{
+		return class extends React.Component{
+			state={
+				component :null //initializing state
+			}
+
+			//loading the component and setting it to state
+			componentDidMount(){
+				importComp()
+					.then(comp => setState({component:comp.default}));
+			}
+
+			//rendering the component
+			render(){
+				const C = this.state.component;
+				return C?<C {...this.props}/>: (fallback?fallback:<div>loading</div>);
+				// If component is not loaded then return fallback component, if fallback is not provided then use default loading
+			}
+		}
+	}
+	export default lazyLoader;
+	```
+
