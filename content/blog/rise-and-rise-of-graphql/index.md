@@ -86,7 +86,7 @@ mutation {
 
 Despite its powers, you might not need graphQL in your applications -
 
-- Since it adds unnecessary overhead and complex architecture for simple Applications
+- Since it adds unnecessary overhead and complex architecture for simple applications.
 - It makes web caching difficult to implement.
 
 ## Conclusion
