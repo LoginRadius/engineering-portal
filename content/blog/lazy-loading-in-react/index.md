@@ -67,7 +67,7 @@ To follow this tutorial, you’ll need the following:
 From React 16.6+, react added [React Suspense](https://reactjs.org/docs/react-api.html#reactsuspense) which performs lazy loading.
 
 1. In our `Home.js`, we will lazy load Admin and Customer
-	```
+	```js
 	import React, {Suspense} from 'react'
 	const Customer = React.lazy(()=>import('./Customer.js'));
 	const Admin = React.lazy(()=>import('./Admin.js'));
@@ -100,7 +100,7 @@ From React 16.6+, react added [React Suspense](https://reactjs.org/docs/react-ap
 If you are working with React version prior to 16.6, you won't have the Suspense component. It is best to upgrade to the latest version and use Suspense. If you're not able to upgrade and still want this feature, it is still possible to create your own React Suspense component. I will be using [Higher Order Component(HOC)](https://reactjs.org/docs/higher-order-components.html).
 
 - Our HOC (`lazyLoader.js`)
-	```
+	```js
 	const lazyLoader = (importComp)=>{
 		return class extends React.Component{
 			state:{
@@ -123,7 +123,7 @@ If you are working with React version prior to 16.6, you won't have the Suspense
 	export default lazyLoader;
 	```
 - Our calling component, in this case `Home.js`
-	```
+	```js
 	import React from 'react'
 	import {lazyLoader} from './lazyLoader';
 
@@ -151,7 +151,7 @@ If you are working with React version prior to 16.6, you won't have the Suspense
 	If you need the fall back feature, you can update HOC's render method where it is returning null. Instead of null you can return your fallback component and it can be passed as props too.
 
 	Now our HOC would look like - 
-	```
+	```js
 	const lazyLoader = (importComp, fallback)=>{
 		return class extends React.Component{
 			state={
