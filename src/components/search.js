@@ -25,6 +25,7 @@ export default class Search extends Component {
         query: "",
       })
     } else {
+      document.getElementById("search").focus()
       this.setState({
         toggleOpen: true,
       })
@@ -66,6 +67,7 @@ export default class Search extends Component {
           }`}
           placeholder="Search..."
           onChange={this.search}
+          id={"search"}
         />
         <a
           className={headerStyles.searchButton}
