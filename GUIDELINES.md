@@ -8,6 +8,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
 4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **600px x 400px**.
+   - Use [this Figma file template](https://www.figma.com/file/y3Drn5WlJ0o2L9hKeLZXNU/LoginRadius-Engineering-Portal-Blog-Cover-Image-Template?node-id=0%3A1) to make your cover images easily online.
 
 6. The blog should have the meta tags at the top of you MD files which should have the below properties.
 
