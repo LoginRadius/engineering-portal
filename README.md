@@ -26,7 +26,7 @@ To run the project locally you need to have Nodejs and npm installed.
 
 ## How to contribute
 
-We appreciate all kinds of contributions from anyone, be it finding an issue or writing a blog.
+We appreciate all kinds of contributions from anyone, let it be finding an issue or writing a blog.
 
 Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
