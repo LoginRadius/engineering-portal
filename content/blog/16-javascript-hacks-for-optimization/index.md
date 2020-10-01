@@ -8,17 +8,17 @@ description: "Learn how to optimize performance using some useful javascript hac
 
 ---
 
-JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.
+JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of a minified Javascript file but few are aware of an Optimized Javascript code.
 
 An optimized code is a combination of smartly programmed logics and small hacks to optimize performance, speed and save time.
 
-Here are sweet 16 **JS hacks and tips** for developers  for optimizing Javascript to improve JS performance and improve execution time without affecting server resources.
+Here are sweet 16 **JS hacks and tips** for developers for optimizing Javascript to improve JS performance and improve execution time without affecting server resources.
 
 ### **1. Use Array Filter**
 
-It is a small hack to filter out bucket of elements from the array pool. This method creates an array filled with all array elements that pass a test (provided as a function). According to requirement create a callback function for non-required elements.
+It is a small hack to filter out a bucket of elements from the array pool. This method creates an array filled with all array elements that pass a test (provided as a function). According to the requirement create a callback function for non-required elements.
 
-In below example the bucket elements are _null_ and are ready to get filtered out. 
+In the below example, the bucket elements are _null_ and are ready to get filtered out. 
 
 Example:
 ```js
