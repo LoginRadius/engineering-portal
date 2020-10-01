@@ -1,7 +1,7 @@
 ---
 title: "JAVA vs. C++"
 date: "2020-10-01"
-coverImage: "google-home-max-13.jpg"
+coverImage: "coverimage.png"
 author: "Rashita Mehta"
 tags: ["Engineering","programming"]
 ---
