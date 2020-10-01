@@ -1,7 +1,7 @@
 ---
 title: "Social Provider Social Sharing Troubleshooting Resources"
 date: "2015-02-09"
-coverImage: "social-troubleshoot-150x150.png"
+coverImage: "social.png"
 author: "Karl Wittig"
 tags: ["Engineering","SocialSharing","Facebook","Google","LinkedIn"]
 ---

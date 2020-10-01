@@ -76,7 +76,7 @@ const Hacktoberfest2020 = () => {
                 <a href="https://forms.gle/aUYJXoVJVivPgGuM8">form</a>
               </li>
               <li>
-                Submit atleast 1 successfull pull request on LoginRadius Open
+                Submit atleast 1 successful pull request on LoginRadius Open
                 Source projects.
               </li>
               <li>
