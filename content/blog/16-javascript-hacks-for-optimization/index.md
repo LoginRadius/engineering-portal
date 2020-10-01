@@ -8,7 +8,7 @@ description: "Learn how to optimize performance using some useful javascript hac
 
 ---
 
-JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.
+JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of a minified Javascript file but few are aware of an Optimized Javascript code.
 
 An optimized code is a combination of smartly programmed logics and small hacks to optimize performance, speed and save time.
 
@@ -138,7 +138,7 @@ This is probably the one of the best **optimization tips for javascript**. It **
 
 Using splice instead of delete is a good practice, it will save some”null/undefined space” in your code.
 
-The downside of **using delete** is it will delete the object property, but will **not reindex the array** or update its length, leaving undefined values. Also it consumes a-lot of time in execution.
+The downside of **using delete** is it will delete the object property, but will **not reindex the array** or update its length, leaving undefined values. Also it consumes a lot of time in execution.
 
 Using _splice_
 
@@ -196,7 +196,7 @@ Make it short by using combination of a verified variable and a function using _
 
  Now above code can be made in one line
 ```js
-loggedin && welcome\_messege();
+logged in && welcome\_messege();
 ```
 ### **12\. Getting the last item in the array**
 
@@ -235,12 +235,12 @@ For beautifying your Javascript  code use [jsbeautifier](http://jsbeautifier.or
 
 ### **15. Checking JS Performance**
 
-To check how well a Javascript code is performing and share results use [jsperf](https://jsperf.com/). It is easiest way to create and share testcases.
+To check how well a Javascript code is performing and share results use [jsperf](https://jsperf.com/). It is easiest way to create and share test cases.
 
 ### **16. Online javascript editor**
 
 [Jsfiddle](http://jsfiddle.net/) and [jsbin](http://jsbin.com/) is a tool for experimenting with your Javascript code and other web languages.
 
-It is also a code sharing site. As you type into one of the editor panels the output is generated in real-time in the output panel.
+It is also a code-sharing site. As you type into one of the editor panels the output is generated in real-time in the output panel.
 
 These are some useful hacks and tips for optimizing javascript performance. It is not mandatory to use them all the time because cases and conditions will vary. If you have tricks other than these, do share with us in comment section.
