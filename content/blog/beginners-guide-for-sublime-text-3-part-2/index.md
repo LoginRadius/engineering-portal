@@ -7,7 +7,7 @@ tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and introduction to Snippets, Project and Macros"
 ---
 
-In this blog, I will cover some of my favorite Sublime features. Use of these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your worktime really fun. I will start with some of the most basic features that come with fresh installation of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but I feel there should be more about these fundamental features. I have seen many people who are familiar with the plugins but not with these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
+In this blog, I will cover some of my favorite Sublime features. Use of these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your worktime really fun. I will start with some of the most basic features that come with fresh installation of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but  I feel there should be more about these fundamental features. I have seen many people who are familiar with the plugins but not with these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
 
 Here we go:
 
