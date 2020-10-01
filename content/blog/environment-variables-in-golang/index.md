@@ -18,18 +18,18 @@ In this article, we will know about environment variables and why to use them. A
 
 ## What are environment variables?
 
-Environment variables are key-value pair on a system-wide level, and running processes can access that. These are often used to make the same program behave differently in different deploy environments like PROD, DEV, or TEST. 
-Storing configuration in the environment is one of the principles of a twelve-factor app it enables applications to be portable.
+Environment variables are key-value pair on a system-wide level, and running processes can access that. These are often used to make the same program behave differently in different deployment environments like PROD, DEV, or TEST. 
+Storing configuration in the environment is one of the principles of a twelve-factor app. It enables applications to be portable.
 
 ## Why should you use environment variables
 
-- If you are entering the sensitive information in the code, then all the unauthorized users who have access the code will have the sensitive data, you might not want that.
+- If you are using the sensitive information in the code, then all the unauthorized users who have access to the code will have sensitive data, you might not want that.
 
-- If you are using the code versioning tool like `git`, you may push your DB credentials with the code, and it will go public.
+- If you are using the code versioning tool like `git`, you may push your DB credentials with the code, and it will become public.
 
-- If you are managing variables in one place. In case of any changes, you don't have to change it in all the places in application code. 
+- If you are managing variables in one place, in case of any changes, you don't have to change it in all the places in application code.
  
-- You can manage multiple deploy environments like PROD, DEV, or TEST. Environment variables are easy to change between deploys without changing any application code.
+- You can manage multiple deployment environments like PROD, DEV, or TEST. Environment variables are easy to change between deploys without changing any application code.
 
 > Never forget to include your environment variable files in the .gitignore
 
@@ -208,7 +208,7 @@ godotenv : DB Host = localhost
 
 ## Viper package
 
-> Viper is a complete configuration solution for Go applications including 12-Factor apps. It is designed to work within an application and can handle all types of configuration needs and formats.
+> Viper is a complete configuration solution for Go applications including twelve-factor apps. It is designed to work within an application and can handle all types of configuration needs and formats.
 
 [Viper](https://github.com/spf13/viper) supports many file formats to load environment variables, e.g., Reading from JSON, TOML, YAML, HCL, envfile and Java properties config files. So in this example, we will look at how to load environment variables from a YAML file.
 
@@ -288,7 +288,7 @@ viper : Database Port = 27017
 
 ## Conclusion
 
-Using environment variables is an excellent way to handle configuration in our application. Overall, it provides you with easy configuration, better security, multiple deploy environments and fewer production mistakes.
+Using environment variables is an excellent way to handle configuration in our application. Overall, it provides you with easy configuration, better security, multiple deployment environments and fewer production mistakes.
 
 Now you can manage environment variables in your go application, and You can found the complete code used in this tutorial on our [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/GoLang/EnvironmentVariables)
 
