@@ -2,7 +2,7 @@
 title: "Handling the Cheapest Fuel- “Data”"
 date: "2020-10-01"
 author: "Samriddhi Mishra"
-coverImage: "a.gif"
+coverImage: "a.png"
 tags: ["Data", "BigData", "Hadoop"]
 description: "You can have data without information, but you cannot have information without data. Large amount of data generated per data, the issues in handling. How the big companies manage and analyze huge amount of data?"
 ---
@@ -13,7 +13,7 @@ description: "You can have data without information, but you cannot have informa
 
  **~Daniel Keys Moran**
  
-![a](a.gif)
+![a](a.png)
 
 ## Who runs the World?
 **Simple Question! Isn’t it?**
@@ -31,9 +31,9 @@ As 1 Exabyte = 1 quintillion bytes, so 2.5 Exabytes ( 2.5 * 10¹⁸ bytes) of da
 
 ![b](b.png)
 
-Big companies like Google, Amazon, Netflix, Instagram, Facebook, Twitter, and many more are generating tons of data daily.
+Big companies like Google, Amazon, Netflix, Instagram, Facebook, Twitter, and many more are generating tons of data daily. 
+Information is taken from [here](https://www.smartdatacollective.com/how-much-big-data-companies-make-on-internet/).
 
-## Some Insights into their data generation-
 ## Google: 40,000 Google Web Searches Per Second
 More than 3.7 billion humans now have regular access to and use the internet. That results in about 40,000 web searches per second — on Google alone.
 
@@ -90,7 +90,7 @@ One of the concepts that solve the above problem is Distributed Storage.
 
 ![d](d.png)
 
-Distributed storage is an attempt to offer the advantages of centralized storage with the scalability and cost base of local storage. A distributed object store is made up of many individual object stores, normally consisting of one or a small number of physical disks. These object stores run on commodity server hardware, which might be the compute nodes or might be separate servers configured solely for providing storage services. As such, the hardware is relatively inexpensive. The disk of each virtual machine is broken up into a large number of small segments, typically a few megabytes in size each, and each segment is stored several times (often three) on different object stores. Each copy of each segment is called a replica. The team of master and slave nodes working together for one purpose called a cluster.
+Distributed storage is basically a method that provides huge storage(even exceeding from physical storage) shared by multiple systems. These systems or the servers are connected following horizontal scaling. These multiple commodity server hardwares are comparatively cheap than optimized servers with large storage(Hard Disk). Each virtual machine contributes directory to centralized system and thereby shares its storage. The team of master and slave nodes working together for one purpose called a cluster.
 
 One of the Topologies or the architecture used for implementing a Distributed storage system is **Master-slave architecture**.
 Master-slave architecture- Master-slave is a model of asymmetric communication or control where one device(the “master”) connected to one or more other devices(the “slaves”) are connected using a protocol(Network), where the slave nodes/devices can contribute a part/whole of their storage devices to the master node, like this centralized master node can store data exceeding its local storage limit.
@@ -104,4 +104,4 @@ As the data is split and stored in(and loaded from) other devices/nodes, the I/O
 ![e](e.png)
 
 Distributed storage is just a concept and some companies have launched different software or products that work on this concept which solve the problem of Big Data. One such company is **APACHE and the software APACHE HADOOP**.
-The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage.
+The Apache Hadoop software is a collection of libraries that provides facility to create clusters/network of systems following the distributed system. It can be used in processing the huge data distributes in thousands of machines, each offering local computation and storage.
