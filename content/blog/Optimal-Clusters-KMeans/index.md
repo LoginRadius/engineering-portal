@@ -5,8 +5,6 @@ coverImage: "cover.png"
 author: "Neeraj Ap"
 tag: Machine learning
 ---
-
-
 This blog will discuss the method behind finding out the right number of clusters on a K-Means clustering algorithm.
 So we'll learn how to decide what number of clusters to input into your K-Means algorithm.
 Here we've got a data science problem.
@@ -21,11 +19,6 @@ We need a specific metric we need a way to understand or evaluate how a certain 
 
 So what kind of metric can we impose upon our clustering algorithm that will tell us something about the final result?
 And there is such a metric called the within-cluster sum of squares. (WCSS)
-
-
-
-
-
 
 
 ![Wcss](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png )
