@@ -177,3 +177,19 @@ That's it. You have defined CI/CD flow in a very simple way that will make your 
 I hope you have learned how to set up and use Github Actions.
 
 Happy learning.
+
+### Author Information
+
+## id: Akshita Gupta
+
+bio: Loves Coding eating repeating.
+
+<h3>Connect with me!</h3>
+ 
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/akshita-gupta-a4a895187/) [<img src = "https://img.shields.io/badge/twitter-%2320A1F1.svg?&style=for-the-badge&logo=twitter&logoColor=white">](https://twitter.com/Akshita_archer/)
+[<img src="https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://medium.com/@akshitagupta15june)   [<img src="https://img.shields.io/badge/BLOGS-%23292929.svg?&style=for-the-badge&logo=BLOGS&logoColor=white" />](https://akshita1506.home.blog) 
+
+![](https://visitor-badge.glitch.me/badge?page_id=akshitagupta15june.akshitagupta15june)
+
+
+
