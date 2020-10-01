@@ -19,7 +19,7 @@ const Hacktoberfest = () => {
             <p>
               Hacktoberfest 2020 is around the corner and this year
               <span className="highlight"> LoginRadius </span> is welcoming
-              Hacktoberfest with open hands by open sourcing some of it's code
+              Hacktoberfest with open hands by open sourcing some of its code
               for people to contribute.
             </p>
             <p>
@@ -36,8 +36,8 @@ const Hacktoberfest = () => {
             </p>
             <h3>LoginRadius is supporting Hacktoberfest 2020.</h3>
             <p>
-              Yes, this year LoginRadius will be supporting hacktoberfest by
-              open sourcing some of it's codebase. Check out the{" "}
+              Yes, this year LoginRadius will be supporting Hacktoberfest by
+              open sourcing some of its codebase. Check out the{" "}
               <a href="">LoginRadius Github </a> for we will be providing
               well-labeled issues for people to contribute. We will soon update
               the list of our open source projects on our{" "}
@@ -46,7 +46,7 @@ const Hacktoberfest = () => {
             <h3>Rewards from LoginRadius</h3>
             <p>
               Apart from getting limited edition t-shirts from DigitalOcean,
-              LoginRadius will also provide it's{" "}
+              LoginRadius will also provide its{" "}
               <span className="highlight">limited edition branded swags</span>
               including <span className="highlight">t-shirts </span>, to people
               contributing to our codebase. Yes!{" "}
@@ -60,7 +60,7 @@ const Hacktoberfest = () => {
             </p>
             <ol>
               <li>
-                Submit atleast 1 successful pull request on LoginRadius Open
+                Submit at least 1 successful pull request on LoginRadius Open
                 Source projects.
               </li>
               <li>
@@ -72,7 +72,7 @@ const Hacktoberfest = () => {
                 form.
               </li>
             </ol>
-            <h3> How can you contribute to LoginRadius Open Sourc</h3>
+            <h3> How can you contribute to LoginRadius Open Source</h3>
             <p>
               We accept all kinds of contributions, be it improving our{" "}
               <a href="https://github.com/LoginRadius/docs">Docs</a>, writing
