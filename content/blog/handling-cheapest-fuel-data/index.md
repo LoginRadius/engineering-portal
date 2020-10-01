@@ -7,6 +7,8 @@ tags: ["Data", "BigData", "Hadoop"]
 description: "You can have data without information, but you cannot have information without data. Large amount of data generated per data, the issues in handling. How the big companies manage and analyze huge amount of data?"
 ---
 
+# Handling the Cheapest Fuel- “Data”
+
 ## You can have data without information, but you cannot have information without data
 
  **~Daniel Keys Moran**
