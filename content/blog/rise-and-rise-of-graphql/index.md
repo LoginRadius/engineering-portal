@@ -6,7 +6,7 @@ author: "Anup Aglawe"
 tags: ["Engineering", "API", "GraphQL", "Performance"]
 ---
 
-GraphQL's popularity has been skyrocketed since its release in 2015. It is the modern way of developing and querying APIs. As its popularity increased its industry adoption also clearly increased, it is backed by many tech giants such as Facebook, Github, Twitter, and AirBnB.
+GraphQL's popularity has been skyrocketed since its release in 2015. It is the modern way of developing and querying APIs. As its popularity increased its industry adoption also clearly increased, it is backed by many tech giants such as Facebook, Github, Twitter, and Airbnb.
 
 ## Origin of GraphQL
 
@@ -14,7 +14,7 @@ It was developed internally by Facebook in 2012 before being publicly released i
 
 ## What is GraphQL?
 
-GraphQL is an application-level query language which helps data fetching and serving between client and server runtime, by providing a standard protocol for queries. Its strength lies behind the fact that it offers a modern, simpler and efficient way to query and develop APIs. But, the real deal is its **flexible data fetching** 🔥 -- application only loads relevant data from the server. Also GraphQL is hierarchical in nature; it structures relationships in simple hierarchical manner to avoid complex queries while fetching data.
+GraphQL is an application-level query language which helps data fetching and serving between client and server runtime, by providing a standard protocol for queries. Its strength lies behind the fact that it offers a modern, simpler and efficient way to query and develop APIs. But, the real deal is its **flexible data fetching** 🔥 -- application only loads relevant data from the server. Also, GraphQL is hierarchical in nature; it structures relationships in a simple hierarchical manner to avoid complex queries while fetching data.
 
 ## Why to use GraphQL?
 
@@ -24,7 +24,7 @@ Data fetching is one of the most critical factors responsible for the performanc
 
 The current scenario where traditional REST APIs offer no clean way to solve this problem, GraphQL comes to the rescue. It allows **clients to define the structure of the data** required, and the same structure of the data is returned from the server. Therefore preventing fetching loads and loads of data, ultimately increasing performance.
 
-API endpoints generally fetch specific data, hence to load a certain data-rich application there has to be **multiple requests to the server.** But, applications should fetch relevant data in one round trip, to avoid **degrading performance.** The flexibility and richness of the GraphQL, allows us to define all the data to fetch, in a single request, avoiding mutliple Round trips
+API endpoints generally fetch specific data, hence to load a certain data-rich application there has to be **multiple requests to the server.** But, applications should fetch relevant data in one round trip, to avoid **degrading performance.** The flexibility and richness of the GraphQL, allows us to define all the data to fetch, in a single request, avoiding multiple Round trips
 
 ![Wrapping a REST API in GraphQL](./wrapper.png)
 _Wrapping REST API in graphQL - Source - Joey Ng'ethe | TwigaTech_
@@ -49,16 +49,16 @@ type Person {
 ```
 
 **Query**
-The data or information that a client needs from a server, can be fetched in request using queries.
+The data or information that a client needs from a server, can be fetched in a request using queries.
 
 ```json
-# This query fetch all specifically names of all users
+# This query fetches all specifically names of all users
 {
   users {
     name
   }
 }
-# This query fetch all names of all friends of user "Anup".
+# This query fetches all names of all friends of user "Anup".
 {
   user(name: "Anup") {
     name
