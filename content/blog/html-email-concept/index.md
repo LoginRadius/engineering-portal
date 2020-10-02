@@ -26,10 +26,10 @@ If want more control over the code of your emails and you are comfortable with H
 
 To create an HTML email from scratch, you will need to have an advanced knowledge of HTML. Because creating an HTML email from scratch can be quite difficult, we recommend you working with a developer for this process or you may go with template for easy process.
 
-**If you choose to code your HTML email by hand-code, there are following things needs to use during creating HTML email:**
+**There are following things needs to use during creating HTML email, If you choose to code your HTML email by hand-code:**
 
-1. Emails should have 600-700 max width.
-2. If design has animation then use .gif animated file and try to avoid the use of flash and JavaScript.
+1. If design has animation then use .gif animated file and try to avoid the use of flash and JavaScript.
+2. Your Emails should have max width of 600-700.
 3. To control the design layout and some presentation, use HTML tables .
 4. Use inline CSS to control elements within your email.
 5. CSS style declarations needs to below the body tag.
@@ -37,7 +37,7 @@ To create an HTML email from scratch, you will need to have an advanced knowledg
 7. Use “display: block” for every image tag.
 8. Use six digit hexadecimal code for color “#000000”.
 9. Use spacer image for spacing between column and row to maintain the cross-browser compatibility.
-10. Use “line-height and font-size” 1pixel under “<TD>” where you place the space images.
+10. Use “line-height and font-size” 1pixel under “<TD>”.
 11. Use inline style for the text in each “<TD>”.
 12. Try to use Absolute images.
 13. Declare the cellpadding=”0” and cellspacing=”0” in main table tag.
