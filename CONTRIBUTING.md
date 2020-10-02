@@ -25,7 +25,7 @@ This is a rough outline of what a contributor's workflow looks like:
 Please follow the below format while writing commit messages
 
 ```
-  title: One line description about your change
+  title: One line description of your change
   <Blank Line>
   description: An optional description of your changes.
 ```
