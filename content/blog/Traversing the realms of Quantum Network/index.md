@@ -35,12 +35,13 @@ information. Thus, quantum computers promise you a very secure future!
 But then, how is all this information transmitted? It is Quantum networks that facilitate the transmission of information through qubits. It is an essential part of quantum
 computing and quantum communication systems. For quantum communication to be possible, qubits have to move from one quantum processor to the other, over long distances. Thus, an
 intra-connection of local quantum networks with quantum internet is required. To understand quantum network even better, let us take a look at its elements. The classical
-network and quantum network have a lot in common. Firstly, we require quantum processors with at least one qubit. A quantum processor is a small quantum computer which is
-capable of performing quantum logic gates on a given number of qubits.These quantum processors along with one qubit are known as end nodes, on which the application is run.
+network and quantum network have a lot in common. 
 
-Some applications might also require more than one qubit to function. Secondly. transfer of qubits requires communication lines, for which standard telecom fibres can be used.
-Thirdly, optical switches are required to optimize the communication infrastructure as they deliver qubits to the required processors. Fourthly, we require quantum repeaters so
-that qubits or information can travel through long distances. 
+They are:
+
+* Firstly, we require quantum processors with at least one qubit. A quantum processor is a small quantum computer which is capable of performing quantum logic gates on a given number of qubits.These quantum processors along with one qubit are known as end nodes, on which the application is run. Some applications might also require more than one qubit to function. 
+- Secondly. transfer of qubits requires communication lines, for which standard telecom fibres can be used.
++ Thirdly, optical switches are required to optimize the communication infrastructure as they deliver qubits to the required processors. Fourthly, we require quantum repeaters so that qubits or information can travel through long distances. 
 
 According to the current scenario, IBM has 18 quantum computers and Google AI Quantum is also advancing towards quantum computing. The current period of quantum computing is
 referred to as the Intermediate-Scale Quantum (NISQ) era by quantum computing scientists. Quantum supremacy is not too far as Quantum computers of over 50 qubits have already
