@@ -51,3 +51,33 @@ if (mtype == "Add")
 {
 	Console.WriteLine(num1 + num2);
 }
+```
+`Break;` is used at the end of each case to terminate the case. Without it, `case "Sub"` would be a part of `case "Add"`.
+
+Now let's say that we had several equations, and we want this calculator to stay open so we aren't having to relaunch the program after every time we do an equation. This can be achieved using a `while` loop.
+
+```c
+bool loop = true;
+while (loop == true)
+{
+	//our entire calculator program goes in here
+
+	Console.WriteLine("Would you like to continue? y/n");
+	cont = Console.ReadLine();
+
+	switch(cont)
+	{
+		case "y":
+			loop = true;
+			break;
+		case "n":
+			loop = false;
+			break;
+	{
+```
+First, we define a `loop` variable and set it to `true`. Then we say `while (loop == true)`, which will loop the code in the brackets forever until `loop == false`. The switch statement at the end is used to either continue the program, or end it.
+
+I hope you learned something by reading this post. If you did, consider checking out my [website](http://daarcher04.github.io).
+
+Thanks,
+Damien Archer
