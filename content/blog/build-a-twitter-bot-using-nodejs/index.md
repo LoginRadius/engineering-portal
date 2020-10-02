@@ -48,7 +48,8 @@ var client = new Twitter({
 	consumer_secret: process.env.CONSUMER_SECRET,
 	access_token_key: process.env.ACCESS_TOKEN_KEY,
 	access_token_secret: process.env.ACCESS_TOKEN_SECRET
-});```
+});
+```
 
 **Do not add your Consumer or Access Token keys or secrets directly in the `index.js`.** These should be managed accordingly using *enviroment variables*.
 
@@ -63,7 +64,7 @@ ACCESS_TOKEN_SECRET=.................................
 
 ### 4. Start Coding 🎯
 
-I will use [Official Joke API](https://github.com/15Dkatz/official_joke_api) to automatically fetch content for my tweet. You can visit the repository and learn more about the endpoints. But the only [endpoint](https://github.com/15Dkatz/official_joke_api#grab-a-random-joke) we will work with is https://official-joke-api.appspot.com/random_joke . Click on this and you will receive a JSON response with fields id, type, setup and punchline. The only thing we are concerned with is setup and punchline. 
+I will use [Official Joke API](https://github.com/15Dkatz/official_joke_api) to automatically fetch content for my tweet. You can visit the repository and learn more about the endpoints. But the only [endpoint](https://github.com/15Dkatz/official_joke_api#grab-a-random-joke) we will work with is [random_joke](https://official-joke-api.appspot.com/random_joke). Click on this and you will receive a JSON response with fields id, type, setup and punchline. The fields we are concerned with are setup and punchline. 
 
 We will use [axios](https://github.com/axios/axios) for calling the API endpoint. Run `npm install axios` and add `var axios = require('axios');` in `index.js`.
 
@@ -87,7 +88,7 @@ At this point, your index.js should look like this.
 
 ![index.js](code.png)
 
-### Congratulations!
+### Congratulations! 🎊
 
 That's it! You have created your first Twitter Bot which tweets content after directly calling it from an API. You may take a look at the [repository](https://github.com/Ninjavin/Twitter-Bot/) if you encountered any errors. Here, I have used different APIs to fetch content and tweet. Moreover, I have added a script which will search posts with a particular hashtag and like them. 
 
