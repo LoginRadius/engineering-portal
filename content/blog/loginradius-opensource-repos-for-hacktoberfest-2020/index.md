@@ -22,7 +22,7 @@ Just 1 week left in hacktoberfest 2020 and being part of it, we at LoginRadius a
 - [LoginRadius Docs](https://github.com/LoginRadius/docs)
   - LoginRadius Developer Documentation
 - [Egnature](https://github.com/LoginRadius/egnature)
-  - An another email signature generator
+  - Another email signature generator
 - [Cascade](https://github.com/LoginRadius/cascade)
   - Create your internal developers' portal using Cascade.
 - [C# Password Hash Library](https://github.com/LoginRadius/csharp-password-hash)
@@ -33,4 +33,4 @@ Just 1 week left in hacktoberfest 2020 and being part of it, we at LoginRadius a
   - A power shell script to detect non-whitelisted installed software on Windows machines.
 
 > Check the open issues on each of the projects as well as Pull Request before creating a new one. Happy Coding!
-> Stay tuned for more updates from LoginRadius and don't forget to check our Hacktoberfest Page to get around **500 swags** from LoginRadius.
+> Stay tuned for more updates from LoginRadius and don't forget to check our [Hacktoberfest Page](https://www.loginradius.com/engineering/page/hacktoberfest2020) to get around **500 swags** from LoginRadius.
