@@ -22,7 +22,7 @@ This is a rough outline of what a contributor's workflow looks like:
 
 #### Commit Messages
 
-Please follow the below format while writing commit messages
+Please follow the format below while writing commit messages
 
 ```
   title: One line description about your change
