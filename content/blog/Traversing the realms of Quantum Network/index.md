@@ -1,7 +1,7 @@
 ---
 title: "Traversing the realms of Quantum Network"
 date: "2020-10-02"
-coverImage: ""
+coverImage: "https://github.com/markandevansh99/engineering-portal/blob/master/content/blog/Traversing%20the%20realms%20of%20Quantum%20Network/quantum_comp_FB.png"
 author: "Devansh Markan"
 tags: ["Engineering","Quantum","Networking"]
 description: "Basic structure and knowledge of Quantum Networking and how it can change the field of technology"
@@ -20,6 +20,10 @@ Quantum computers, on the other hand, are based on qubits. A qubit or quantum bi
 particles, such as the spin of an electron and hence differ in various ways. We know that electron spin can either up or down, but when it comes to quantum mechanics, things
 change. It follows the concept of superposition according to which an electron can exist in a state in which it has a spin in both the directions simultaneously. This may sound
 strange according to what we observe generally, yet this is how Quantum mechanics work. 
+
+![alt text][Quantum]
+
+[Quantum]: https://github.com/markandevansh99/engineering-portal/blob/master/content/blog/Traversing%20the%20realms%20of%20Quantum%20Network/Phio-Network-by-Quantum-Xchange-1.jpg "Network"
 
 The peculiar behaviour that particles display can be useful in various ways. Qubits can store much more information than conventional bits. This can be explained as two bits
 will have one of the four possible values, 00, 01, 10 or 11. Qubits, on the other hand, can be both 0 and 1 at once. This implies they can have all the four values all at once.
