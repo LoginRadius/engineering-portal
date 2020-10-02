@@ -6,7 +6,7 @@ This repository contains the complete code used in the engineering portal writte
 
 ## LoginRadius
 
-[LoginRadius](https://www.loginradius.com/) empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations to your customers.
+[LoginRadius](https://www.loginradius.com/) empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with your customers' data privacy regulations.
 
 ## Running Project Locally
 
@@ -32,4 +32,4 @@ Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
 ## License
 
-For more information on licensing, please refer to [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
+For more information on licensing, please refer to the [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
