@@ -117,11 +117,11 @@ Password-Based Key Derivation Function 2 (PBKDF2) is a hashing algorithm designe
 
 ### Argon 2
 
-Argon2 is cryptographic hashing algorithm, most recommended for password hashing. It hashes a plain text input to a hash as per the parameters mentioned. It is governed by 6 parameters : password, salt, memory cost, time cost, parallelism factor, hash length along with one of the 3 algos included in it.
+Argon2 is a cryptographic hashing algorithm, most recommended for password hashing. It hashes a plain text input to a hash as per the parameters mentioned. It is governed by six parameters: password, salt, memory cost, time cost, parallelism factor, the hash length, along with one of the three algorithms included in it.
 
 Argon2 has 3 versions: Argon2d, Argon2i and Argon2id.
 1. Argon2d is more resistant to GPU attacks as it accesses the memory array in a password dependent order reducing the possibility for TMTO attacks but leaves itself vulnerable to side-channel attacks.
-2. Argon2i, unlike '2d' , accesses memory in a password independent order which increases resistance against side channel attacks.
+2. Argon2i, unlike '2d', accesses memory in a password independent order which increases resistance against side-channel attacks.
 3. Argon2id is a hybrid of '2i' and '2d'. It is always recommended one except when there are reasons to prefer one of the other two modes.
 
 It has experienced two attacks on Argon2i. The first attack is applicable only to the old version of Argon2i. The second attack has not been secured yet.
