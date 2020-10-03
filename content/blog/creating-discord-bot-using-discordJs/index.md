@@ -5,7 +5,7 @@ title: Creating a discord bot using discordJs
 
 date: "2020-10-03"
 
-coverImage: "discord.png"
+coverImage: "discord.jpg"
 
 author: "Sanidhya Purohit"
 
