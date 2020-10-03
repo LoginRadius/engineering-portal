@@ -72,7 +72,7 @@ const Hacktoberfest = () => {
                 form.
               </li>
             </ol>
-            <h3> How can you contribute to LoginRadius Open Sourc</h3>
+            <h3> How can you contribute to LoginRadius Open Source projects?</h3>
             <p>
               We accept all kinds of contributions, be it improving our{" "}
               <a href="https://github.com/LoginRadius/docs">Docs</a>, writing
