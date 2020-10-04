@@ -94,6 +94,8 @@ With all the settings done, our little API is already able to store the files se
 
 ```jsx
 const express = require("express")
+const multer = require("multer")
+
 const app = express()
 
 const storage = multer.diskStorage({
@@ -112,7 +114,6 @@ app.post("/upload/single", uploadStorage.single("file"), (req, res) => {
   console.log(req.file)
   return res.send("Single file")
 })
-
 //Multiple files
 app.post("/upload/multiple", uploadStorage.array("file", 10), (req, res) => {
   console.log(req.files)
