@@ -9,26 +9,14 @@ tag: Machine learning
 Before we get into details of finding out optimal clusters let's first see what is KMeans clustering algorithm and some basics!!
 
 
-## Unsupervised learning :
-
-Unsupervised Learning is a machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with the unlabelled data.
-Unsupervised Learning Algorithms allow users to perform more complex processing tasks compared to supervised learning. Although, unsupervised learning can be more unpredictable compared with other natural learning methods. Unsupervised learning algorithms include clustering, anomaly detection, neural networks, etc.
-Clustering is a part of unsupervised learning
-
 ## What is Clustering?
-
-Let’s kick things off with a simple example. A bank wants to give credit card offers to its customers. Currently, they look at the details of each customer and based on this information, decide which offer should be given to which customer.
-
-Now, the bank can potentially have millions of customers. Does it make sense to look at the details of each customer separately and then make a decision? Certainly not! It is a manual process and will take a huge amount of time.
+Clustering is a  unsupervised ML technique where in we cluster the data inorder to get insights from the data , Clusterig the data is quite important for some business models
+and problems, It gives us conclusions on what is a cluster i.e data which is similar and in form of cluster or groups.
 
 ```Clustering is the process of dividing the entire data into groups (also known as clusters) based on the patterns in the data```
 
 ## What is KMeans clustering alogrithm?
-
-The K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids
-It halts creating and optimizing clusters when either:
-The centroids have stabilized — there is no change in their values because the clustering has been successful.
-The defined number of iterations has been achieved.
+It is an algorithm for clustering We, will be discussing this method with code in the further sections.
 
 ## Intial Imports :
 ```python
