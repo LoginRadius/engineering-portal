@@ -15,7 +15,7 @@ Different map visualizations can highlight different aspects of a dataset. Heatm
 
 In this blog, I shall go over using a powerful JavaScript library to build a web map and deploy it on Netlify.
 
-![](map.jpg)
+![Cover Image](map.jpg)
 
 ## Using Leaflet
 
@@ -25,7 +25,7 @@ Leaflet is a great library for implementing interactive webmaps as it provides m
 >
 > _source: leafletjs.com_
 
-![](leaflet.png)
+![Leaflet Logo](leaflet.png)
 
 We can include Leaflet in our application by including the CSS stylesheet and the JS file from the unpkg CDN. Let's start building the application by starting with the following code at the project root. Create a file named `index.html` and put the following markup in it. The map shall be rendered in `div#mapid`.
 
@@ -173,7 +173,7 @@ fetch(dataUrl)
 
 As the dataset contains `Point` features, markers will be added at the respective coordinates. Our web page will now look like the following:
 
-![](mapInitial.jpg)
+![Map with Markers](mapInitial.jpg)
 
 We can show tooltips upon clicking on the markers by modifying the code as follows, to include some custom HTML using the properties in the feature, in the popup:
 
@@ -202,7 +202,7 @@ We can show tooltips upon clicking on the markers by modifying the code as follo
 
 Uupon clicking any marker, we will now see the following popup:
 
-![](mapPopup.jpg)
+![Map with Popups](mapPopup.jpg)
 
 We can also customize the marker icon using the `pointToLayer` option of the `geoJSON` constructor as follows:
 
@@ -236,7 +236,7 @@ We can also customize the marker icon using the `pointToLayer` option of the `ge
 
 Our updated web page will now look like the following:
 
-![](mapIcon.jpg)
+![Map with Custom Icon](mapIcon.jpg)
 
 Now, we can move on to deploy this web page on Netlify.
 
@@ -244,23 +244,23 @@ Now, we can move on to deploy this web page on Netlify.
 
 Netlify is an awesome platform to host your web applications. It also offers many other features such as serverless functions.
 
-![](netlify.png)
+![Netlify Logo](netlify.png)
 
 Once you have pushed your web page to a Git repository, hosted either on GitHub, GitLab or BitBucket, navigate to [Netlify](https://app.netlify.com) and click on the **New Site from Git** button.
 
-![](netlifySigningUp.jpg)
+![Starting with Netlify](netlifySigningUp.jpg)
 
 Next, select your Git provider and your repository:
 
-![](gitRepo.jpg)
+![Git Provider Selection](gitRepo.jpg)
 
 
-![](repoSelection.jpg)
+![Git Respository Selection](repoSelection.jpg)
 
 
 Go ahead with the defaults and now your site shall be published on Netlify, and all future pushes should result in a Netlify deployment:
 
-![](deployment.jpg)
+![Netlify Deployment](deployment.jpg)
 
 Nice! Now we have a web map, even though a very basic one, live! Check out the [Leaflet documentation](https://leafletjs.com/reference.html) for more!
 
