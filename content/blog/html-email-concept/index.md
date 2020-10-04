@@ -26,21 +26,21 @@ If want more control over the code of your emails and you are comfortable with H
 
 To create an HTML email from scratch, you will need to have an advanced knowledge of HTML. Because creating an HTML email from scratch can be quite difficult, we recommend you working with a developer for this process or you may go with template for easy process.
 
-**There are following things needs to use during creating HTML email, If you choose to code your HTML email by hand-code:**
+**If you choose to code your HTML email by hand, These are the necessary steps need to use during creating HTML email :**
 
-1. If design has animation then use .gif animated file and try to avoid the use of flash and JavaScript.
-2. Your Emails should have max width of 600-700.
-3. To control the design layout and some presentation, use HTML tables .
-4. Use inline CSS to control elements within your email.
-5. CSS style declarations needs to below the body tag.
-6. Do not use CSS shorthand code.
-7. Use “display: block” for every image tag.
-8. Use six digit hexadecimal code for color “#000000”.
-9. Use spacer image for spacing between column and row to maintain the cross-browser compatibility.
-10. Use “line-height and font-size” 1pixel under “<TD>”.
-11. Use inline style for the text in each “<TD>”.
-12. Try to use Absolute images.
-13. Declare the cellpadding=”0” and cellspacing=”0” in main table tag.
+1. If design has animation then use .gif animated file because interactive elements like Flash, JavaScript, or HTML forms won't work in most email inboxes.
+2. The perfect email template size should have 600-700 of max width.
+3. Try to use HTML tables (HTML tables present tabular data in a semantic and structurally appropriate manner) for your presentation.
+4. To improve the presentation of Web, use inline CSS within your HTML email.
+5. CSS style should be either in a separate CSS file or below the body tag and not under the head tags.
+6. To save yourself the trouble, avoid the use of CSS shorthand code.
+7. Be sure to always use “display: block;" for your image tags (either inline or embedded CSS) because this takes the baseline out of the equation and keeps everything arranged neatly and in order.
+8. The most genuine way of coding background colors is to use six digit hexadecimal code for color (like #000000 i.e. for black).
+9. If you must have padding on columns it might be more cross-browser, so you can always create spacer DIVs in between the columns (or between rows).
+10. Try adding a line-height and font-size of 1 under “<TD>” (or the desired size).
+11. Inline styles to <TD> and tables are the right way to go for html emails.
+12. You need to use absolute paths for your images.
+13. In an HTML table, you can set the cellpadding and cellspacing to zero to eliminate the unwanted spacing in our layout.
 
 **What if you have to design HTML emails to be sent through Outlook?**
 
