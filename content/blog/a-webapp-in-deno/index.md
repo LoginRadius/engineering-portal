@@ -12,7 +12,7 @@ I am assuming that you are familiar with the basic setup of deno. If not you can
 
 ### Simple Web Application
 
-So without wasting time lets jump into the code and write a simple hello world program using the **abc** module.
+So without wasting time Let's jump into the code and write a simple hello world program using the **abc** module.
 
 Create a file `index.ts`, and copy the code there.
 ```js
@@ -37,7 +37,7 @@ Deno is secure by default. Therefore, unless you specifically enable it, a deno 
 
 Now once you run the above cmd you can see the **Hello, Abc!** in the browser by redirecting to http://localhost:8000/hello
 
-### Lets Go Deeper!!!
+### Let's Go Deeper!!!
 
 Now let's try to serve the static file using the `abc` module. In the above example, `app` will have lots of different methods that we can use, one of them is `static()`, it used to serve the static files.
 
@@ -96,7 +96,7 @@ After successful compile, you will see the output as below.
 ### Creating a basic calculator app
 Hence after the successful serving of our static file, we can also add `js` in it. Let start with the basic calculator app for now.
 
-Firstly lets modify our `index.html` file and add the below code
+Firstly Let's modify our `index.html` file and add the below code
 ```html
 <html>
   <head>
@@ -143,7 +143,7 @@ Firstly lets modify our `index.html` file and add the below code
   </body>
 </html>
 ```
-As you can see the above code we have already imported our `js` and `css` inside to so lets create JS file called `script.js` and add the following functions in it.
+As you can see the above code we have already imported our `js` and `css` inside to so Let's create JS file called `script.js` and add the following functions in it.
 ```js
 //function that display value
 function dis(val) {

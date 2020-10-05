@@ -23,7 +23,7 @@ Press
 ctrl + `(Normally the one under Esc)
 ```
 
-Then paste the code from above link into your console, it could be confusing to paste a big graph of code into your sublime python console, but it does work, so lets do it.
+Then paste the code from above link into your console, it could be confusing to paste a big graph of code into your sublime python console, but it does work, so Let's do it.
 
 Now try pressing
 

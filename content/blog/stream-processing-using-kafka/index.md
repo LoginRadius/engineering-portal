@@ -35,7 +35,7 @@ There is actually a close relationship between streams and tables, the so-called
 
 Let's Start with the Setup using Scala instead of Java. The Kafka Streams DSL for Scala library is a wrapper over the existing Java APIs for Kafka Streams DSL.
 
-To Setup things, we need to create a `KafkaStreams` Instance. It needs a topology and configuration (`java.util.Properties`). We also need a input topic and output topic. Lets look through a simple example of sending data from an input topic to an output topic using the Streams API
+To Setup things, we need to create a `KafkaStreams` Instance. It needs a topology and configuration (`java.util.Properties`). We also need a input topic and output topic. Let's look through a simple example of sending data from an input topic to an output topic using the Streams API
 
 You can create a topic using the below commands (need to have Kafka pre installed)
 
