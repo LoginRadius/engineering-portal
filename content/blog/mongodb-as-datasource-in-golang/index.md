@@ -82,7 +82,7 @@ booksCollection := client.Database("testdb").Collection("books")
 
 ## Insert Documents
 
-First Lets create a Book struct to insert into the collection, in below code we are using `collection.InsertOne` function to insert a single document in the collection
+First Let's create a Book struct to insert into the collection, in below code we are using `collection.InsertOne` function to insert a single document in the collection
 
 ```go
 // Insert One document
