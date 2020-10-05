@@ -58,7 +58,7 @@ Selects are functions that slice a specific portion of the state from the global
 ```
 
 
-## Lets build a To-Do App:
+## Let's build a To-Do App:
 #### 1. Get started
 Install the `npm install @ngxs/store --save` then import the below code in  `app.module.ts`
 ```typescript

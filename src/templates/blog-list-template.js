@@ -42,6 +42,7 @@ export const blogListQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             description
