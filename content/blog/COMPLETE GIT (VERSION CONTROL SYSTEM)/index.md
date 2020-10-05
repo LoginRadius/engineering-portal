@@ -1,6 +1,6 @@
 ---
 title: "GitHub CLI Tool ⚒"
-date: "2020-09-28"
+date: "2020-10-05"
 coverImage: "GitHub CLI Tool.png"
 author: "Saravanan Vijayamuthu"
 tags: ["Cloud", "GIT", "Version control"]
