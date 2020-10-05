@@ -18,6 +18,7 @@ import ReactGA from "react-ga"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import getTimeToRead from "../utils/timeToRead"
 
 const eventLogger = function ({category, action, label}) {
   ReactGA.event({
@@ -34,6 +35,9 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
+  
+
   return (
     <>
       <Helmet>
@@ -85,7 +89,12 @@ const Post = ({ post, relatedPost }) => {
               />
             </div>
             {author && (
-              <Bio date={post.frontmatter.date} author={author} pinned />
+              <Bio
+                readingTime={getTimeToRead(post.html)}
+                date={post.frontmatter.date}
+                author={author}
+                pinned
+              />
             )}
           </div>
         </div>
