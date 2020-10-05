@@ -1,3 +1,12 @@
+---
+title: EternalBlue: A retrospective on one of the biggest Windows exploits ever
+date: "2020-10-05"
+coverImage: "etbluecover.png"
+author: "Bas Palinckx"
+tags: ["Cyber Security", "Exploits", "Virus"]
+description: "It's been more than three years since EternalBlue, let's do a recap"
+---
+
 # EternalBlue: A retrospective on one of the biggest Windows exploits ever
 
 There are many stories floating around on the internet about computers viruses and worms that made an enormous impact on the world. From legends like the blistering fast SLAMMER worm from 2003 or the I LOVE Bug worm that set the stage for the fishing email notoriety we see today. But the story behind **EternalBlue** really has it all. Leaked straight out of the **NSA's** toolbox, it was a key asset for the well-known **WannaCry** ransomware to wreak havoc on the world. Some will even argue that it led to a full on "Cyber War"...
