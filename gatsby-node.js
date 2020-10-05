@@ -163,10 +163,19 @@ exports.createSchemaCustomization = ({ actions }) => {
       frontmatter: Frontmatter
     }
     type Frontmatter {
-      coverImage: File @fileByRelativePath
+      coverImage: File @fileByRelativePath,
     }
   `
-  createTypes(typeDefs)
+
+  const imgDef = `
+    type AuthorYaml implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      featuredImage: File @fileByRelativePath,
+    }
+  `
+  createTypes(imgDef, typeDefs)
 }
 
 exports.onPostBuild = function () {

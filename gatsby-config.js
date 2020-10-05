@@ -68,7 +68,7 @@ module.exports = {
         path: `${__dirname}/content`,
         name: `content`,
       },
-    },
+    },  
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -141,7 +141,17 @@ module.exports = {
         filter: (node, getNode) => node.frontmatter.tags !== "exempt",
       },
     },
-    `gatsby-transformer-yaml`,
+   
+      `gatsby-transformer-yaml`,
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/content`,
+          name: `content`
+        },
+      },
+    
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,

@@ -45,9 +45,17 @@ export const pageQuery = graphql`
           id
           github
           bio
+          featuredImage {
+            childImageSharp{
+                      fluid {
+                        ...GatsbyImageSharpFluid_noBase64
+                      }
+                  }
+            }
         }
       }
     }
+
     allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: $tags } }
@@ -68,5 +76,7 @@ export const pageQuery = graphql`
         }
       }
     }
+
+
   }
 `
