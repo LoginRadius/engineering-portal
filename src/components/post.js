@@ -31,12 +31,10 @@ const Post = ({ post, relatedPost }) => {
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
-  const authorImg = author.featuredImage
-  const imageName = authorImg ? 
-  require(`../../content/assets/images/${authorImg}`) 
-  : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+  const authorImagePath = author.featuredImage && author.featuredImage.childImageSharp.fluid
+  const imageName = `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
-  return (
+ return (
     <>
       <Helmet>
         <script
@@ -199,11 +197,10 @@ const Post = ({ post, relatedPost }) => {
           </div>
           <div class={`${styles.author} d-flex py-80`}>
             <div class={styles.authorImage}>
-              <img
-                className={`circle extra-large`}
-                src={imageName}
-                alt={author.id}
-              />
+              {authorImagePath ?
+                <Img fluid={authorImagePath} className={`circle large`} Tag="div" />
+                : <img className={`circle large`} src={imageName} alt={author.id} />
+              }
             </div>
             <div class={styles.aboutAuthor}>
               <div class={styles.aboutAuthorInner}>

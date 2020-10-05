@@ -45,10 +45,17 @@ export const pageQuery = graphql`
           id
           github
           bio
-          featuredImage
+          featuredImage {
+            childImageSharp{
+                      fluid {
+                        ...GatsbyImageSharpFluid_noBase64
+                      }
+                  }
+            }
         }
       }
     }
+
     allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: $tags } }

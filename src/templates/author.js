@@ -13,14 +13,20 @@ import {
   faStackOverflow,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons"
+import Img from 'gatsby-image'
 
 export default ({
   data: {
-    authorYaml: { id, bio, github, featuredImage, stackoverflow, linkedin, medium, twitter },
+    authorYaml: { id, bio, github, stackoverflow, featuredImage, linkedin, medium, twitter },
     allMarkdownRemark: { edges: postNodes },
   },
   location,
-}) => (
+}) => {
+  const authorImagePath = featuredImage && featuredImage.childImageSharp.fluid
+  let imageName = `https://github.com/${github}.png?size=50`
+
+
+  return (
   <Layout hideTagMenu={true}>
     <SEO
       title={id}
@@ -33,15 +39,12 @@ export default ({
         <div class={`${styles.authorPage} pt-80`}>
           <div class={`${styles.author} d-flex`}>
             <div class={styles.authorImage}>
-                <img 
-                  src={
-                    featuredImage
-                      ? require(`../../content/assets/images/${featuredImage}`)
-                      : `https://ui-avatars.com/api/?name=${id}&size=460`
-                  }
-                  alt={id}
-                  class="circle extra-large"
-                />
+                
+                {authorImagePath ?
+                  <Img fluid={authorImagePath} className={`circle large`} Tag="div" alt={id}/>
+                  : <img className={`circle large`} src={imageName} alt={id} />
+                }
+
             </div>
             <div class={styles.aboutAuthor}>
               <h3>{id}</h3>
@@ -115,7 +118,7 @@ export default ({
       <CardList posts={postNodes} />
     </main>
   </Layout>
-)
+)}
 
 export const pageQuery = graphql`
   query PostsByAuthorId($authorId: String!) {
@@ -129,9 +132,16 @@ export const pageQuery = graphql`
           frontmatter {
             title
             author {
-              id
-              github
-           }
+            id
+            github
+            featuredImage {
+            childImageSharp {
+                fluid(maxWidth: 100, quality: 100){
+                      ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
             date(formatString: "MMMM DD, YYYY")
             tags
             coverImage {
@@ -154,7 +164,13 @@ export const pageQuery = graphql`
       bio
       github
       stackoverflow
-      featuredImage
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 100, quality: 100){
+                  ...GatsbyImageSharpFluid
+            }
+          }
+      }
       linkedin
       medium
       twitter

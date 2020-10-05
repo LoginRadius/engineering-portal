@@ -19,7 +19,7 @@ const BlogList = ({ data, pageContext, location }) => {
         )}`}
       />
       <main>
-        <CardList posts={data.allMarkdownRemark.edges} total={total} />
+        <CardList posts={data.allMarkdownRemark.edges} total={total}/>
         <Pagination pages={numPages} currentPage={currentPage} />
       </main>
     </Layout>
@@ -34,34 +34,40 @@ export const blogListQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
-    ) {
-      totalCount
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            description
-            title
-            tags
-            coverImage {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid_noBase64
-                }
+    ){
+    totalCount
+    edges {
+      node {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          title
+          tags
+          coverImage {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_noBase64
               }
             }
-            author {
-              id
-              github
-              featuredImage
+          }
+          author {
+            id
+            github
+            featuredImage {
+              childImageSharp {
+                 fluid(maxWidth: 100, quality: 100){
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }
       }
     }
+  }
   }
 `
