@@ -9,7 +9,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **900px x 600px**.
 
-6. The blog should have the meta tags at the top of you MD files which should have the below properties.
+6. The blog should have the meta tags at the top of your MD files which should have the below properties.
 
    - **title (Required)** : A meaningful title.
      Note: This title will appear in the post so no need to again include it in the `md` files.
