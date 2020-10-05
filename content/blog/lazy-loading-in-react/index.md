@@ -1,27 +1,27 @@
 ---
 title: "Lazy loading in React"
-date: "2020-10-01"
+date: "2020-10-05"
 coverImage: "react.jpg"
 author: "Akshay Avinash"
 tags: ["React", "Lazy loading", "React Suspense"]
-descripiton: "Lazy loading in React and how/when to use it"
+descripiton: "Learn about lazy loading in React and how/when to use it"
 ---
 
 ### Overview
-Lazy loading is not a new concept. It has been available for quite some time. In essence, lazy loading means that a component or a part of code must get loaded only when it is required. It is also referred to as `code splitting` and `data fetching`.
+Lazy loading is not a new concept. It has been available for quite some time. In essence, lazy loading means that a component or a part of code must get loaded when it is required. It is also referred to as `code splitting` and `data fetching`.
 
-Talking about `React` specifically, it bundles the complete code and deploys all of it at the same time. Now, usually that's not a bad idea, since React SPAs (Single page applicaiton) are quite small and do not affect the performance. But what if we have a gigantic application, like a content management system with customer portal, admin portal etc. In such a case it does not seem like a smart idea to load the complete application.
-- It will be a huge application and will cost a lot of unnecessary data transfer which can lead to slow loading of website.
-- A customer login, will not have access to admin specific features so loading it is a waste of memory and time.
+Talking about `React` specifically, it bundles the complete code and deploys all of it at the same time. Now, usually, that's not a bad idea, since React SPAs (Single page application) are quite small and do not affect the performance. But what if we have a gigantic application, like a content management system with a customer portal, admin portal etc. In such a case, it does not seem like a smart idea to load the complete application.
+- It will be a huge application and will cost a lot of unnecessary data transfer which can lead to slow loading of the website.
+- A customer login, will not have access to admin specific features, so loading it is a waste of memory and time.
 
-In this post, I will try to explain advantages of lazy loading and how to implement it in `React`.
+In this post, I will try to explain the advantages of lazy loading and how to implement it in `React`.
 
 ### Advantages
-In situations where we know that certain code/features will not be accessible to all the users or the user does not access it frequently, it is best to load them when the user actually requests for it. This improves user experience as well as initial loading time.
+In situations where we know that certain code/features will not be accessible to all the users or the user does not access it frequently, it is best to load them when the user requests for it. This improves user experience as well as initial loading time.
 
-For example, let's consider that our application has two sections, `A` and `B`. Size of A is 1 MB and its loading time is approximately 1 second. Size of B is also 1 MB and so its loading time is also 1 second. And we know that a user will access either of the sections, or a user accessing section A will rarely access section B and vice versa. If we were to load the complete application at the starting of our application, it will cost the user 2 MB of data and the loading time will also be 2 seconds. The user might not like to wait for 2 seconds or won't be happy that a site is costing them a lot of data. This can be improved and halved with proper lazy loading.
+For example, let's consider that our application has two sections, `A` and `B`. Size of A is 1 MB and its loading time is approximately 1 second. Size of B is also 1 MB and so its loading time is also 1 second. And we know that a user will access either of the sections, or a user accessing section A will rarely access section B and vice versa. If we were to load the complete application at the starting of our application, it would cost the user 2 MB of data and the loading time will also be 2 seconds. The user might not like to wait for 2 seconds or won't be happy that a site is costing them a lot of data. This can be improved and halved with proper lazy loading.
 
-> Note: This is not the general case. Small single page applications are usually in kbs.
+> Note: This is not the general case. Small single-page applications are usually in kbs.
 
 
 ### Prerequisites
@@ -61,7 +61,7 @@ To follow this tutorial, you’ll need the following:
 	|	|-app.js
 	|-index.js
 	```
-6. Application will first render `app.js` which will have an input field, we will pass the input received as props to Home, and render `Home.js`. On the basis of props received, we will either render `Admin` or `Customer`.
+6. Application will first render `app.js` which will have an input field. We will pass the input received as props to Home, and render `Home.js`. Based on props received, we will either render `Admin` or `Customer`.
 
 ### Using React Suspense (`React 16.6+`)
 From React 16.6+, react added [React Suspense](https://reactjs.org/docs/react-api.html#reactsuspense) which performs lazy loading.
@@ -148,7 +148,7 @@ If you are working with React version prior to 16.6, you won't have the Suspense
 		}
 	}
 	```
-	If you need the fall back feature, you can update HOC's render method where it is returning null. Instead of null you can return your fallback component and it can be passed as props too.
+	If you need the fallback feature, you can update HOC's render method where it is returning null. Instead of null, you can return your fallback component, and it can be passed as props too.
 
 	Now our HOC would look like - 
 	```js
