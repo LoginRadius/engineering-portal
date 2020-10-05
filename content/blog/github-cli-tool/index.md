@@ -4,6 +4,7 @@ date: "2020-10-05"
 coverImage: "GitHub CLI Tool.png"
 author: "Saravanan Vijayamuthu"
 tags: ["Cloud", "GIT", "Version control"]
+description: "Learn about GitHub CLI tool and how/when to use it"
 ---
 
 _The [GitHub CLI] (<https://cli.github.com/>) is a recent GitHub released tool that takes tasks of issue / PR management to the terminal. It will be a useful tool that will put more of our workflow for software creation into the textual domain rather than the visual domain. It’s just called ```gh```._

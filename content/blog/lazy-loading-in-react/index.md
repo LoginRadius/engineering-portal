@@ -4,7 +4,7 @@ date: "2020-10-05"
 coverImage: "react.jpg"
 author: "Akshay Avinash"
 tags: ["React", "Lazy loading", "React Suspense"]
-descripiton: "Learn about lazy loading in React and how/when to use it"
+description: "Learn about lazy loading in React and how/when to use it"
 ---
 
 ### Overview
