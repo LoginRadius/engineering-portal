@@ -9,7 +9,6 @@ tags: ["Cloud", "GIT", "Version control"]
 _The [GitHub CLI] (<https://cli.github.com/>) is a recent GitHub released tool that takes tasks of issue / PR management to the terminal. It will be a useful tool that will put more of our workflow for software creation into the textual domain rather than the visual domain. It’s just called ```gh```._
 
 ****Installation of GitHub CLI 💡****
-![Installation of GitHub CLI 💡](Installation.gif)
 
 GitHub CLI has [releases](https://cli.github.com/manual/installation) with significant operating systems, visit the [installation](https://cli.github.com/manual/installation) page and find instructions on how to install GitHub CLI for your operating system.
 
@@ -31,7 +30,8 @@ brew install github
 
 → Debian/Ubuntu Linux
 
-```sudo apt install git &amp;&amp; sudo dpkg -i gh_*_linux_amd64.deb
+```bash
+sudo apt install git &amp;&amp; sudo dpkg -i gh_*_linux_amd64.deb
 ```
 
 → Fedora/Centos Linux
