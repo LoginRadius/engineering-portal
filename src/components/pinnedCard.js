@@ -39,6 +39,13 @@ const PinnedCard = () => {
                   author {
                     id
                     github
+                     featuredImage {
+                      childImageSharp {
+                        fluid(maxWidth: 100, quality: 100){
+                          ...GatsbyImageSharpFluid
+                        }
+                      }
+                    }
                   }
                 }
                 fields {

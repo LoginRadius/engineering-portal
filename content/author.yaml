@@ -21,6 +21,9 @@
 
 - id: Chris Yee
   bio: A software engineer who graduated with a Bachelor of Software Engineering from the University of British Columbia.
+  featuredImage: 'assets/images/ninja.jpg'
+
+  
 
 - id: Zoie Carnegie
   bio: Graduated from NAIT Digital Media and IT specializing in application development. PHP is my favorite language. I am a continuous learner always trying new languages, applications, frameworks. Passions are Programming, Photography and Travel.
@@ -210,7 +213,6 @@
   stackoverflow: "6235787"
   linkedin: "hridayesh-sharma"
   twitter: "vyasriday"
-  featuredImage: 'ninja.jpg'
 
 
 - id: Gaurav Bewal
@@ -232,6 +234,8 @@
   github: "choudharyanurag"
   linkedin: "anurag-choudhary-ta"
   stackoverflow: "3548966"
+  featuredImage: 'assets/images/ninja.jpg'
+
 
 - id: Nathan Nguyen
   bio: Nathan Nguyen is a Software Engineer at LoginRadius. With deep interest in creating user-facing applications, he spends a lot of his time with web and mobile technology stacks, off and on the job, looking to build applications that are ever more intuitive and helpful to end users. Loves food, travel, photography and video games.

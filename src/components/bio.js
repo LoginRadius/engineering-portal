@@ -2,17 +2,25 @@ import { Link } from "gatsby"
 import _ from "lodash"
 import React from "react"
 import styles from "./bio.module.scss"
+import Img from "gatsby-image"
+
 
 const Bio = ({ date, author, pinned }) => {
-  const authorImg = author.featuredImage
-    
-  const imageName = authorImg
-    ? require(`../../content/assets/images/${authorImg}`) 
-    : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+  let authorImagePath = author.featuredImage && author.featuredImage.childImageSharp.fluid
+  let imageName = `https://github.com/${author.github}.png?size=50`
+  
+
+
   return (
     <div className={`${styles.bio} d-flex ${pinned ? styles.pinned : ""}`}>
       <div>
-        <img className={`circle large`} src={imageName} alt={author.id} />
+        {authorImagePath ?
+         <Img fluid={authorImagePath} className={`circle large`} Tag="div" />
+          : <img className={`circle large`} src={imageName} alt={author.id} />
+        }
+
+       
+
       </div>
       <div className="text ml-sm">
         <Link to={`/blog/author/${_.kebabCase(author.id)}/`}>
