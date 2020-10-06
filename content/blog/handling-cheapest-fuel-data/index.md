@@ -4,7 +4,7 @@ date: "2020-10-06"
 author: "Samriddhi Mishra"
 coverImage: "a.png"
 tags: ["Data", "BigData", "Hadoop"]
-description: "You can have data without information, but you cannot have information without data. A large amount of data generated per data, the issues in handling. How big companies manage and analyze a huge amount of data?"
+description: "You can have data without information, but you cannot have information without data. Huge data is generated per day. What are the issues in handling it? How big companies manage and analyze it?"
 ---
 
 
@@ -22,7 +22,7 @@ The correct answer would be data. Precisely, the information we gain from data. 
 
 ## Can you imagine?
 
-**7.8 Billion** people currently live on Earth, and almost **4.57 Billion** people are active internet users, encompassing 59 per cent of the global population.
+**7.8 Billion** people currently live on Earth, and almost **4.57 Billion** people are active internet users, encompassing 59 percent of the global population.
 This is the sixth edition of DOMO's report, and according to their research:
 ** "Over 2.5 quintillion bytes of data are created every single day, and it's only going to grow from there. By 2020, it's estimated that 1.7MB of data will be created every second for every person on earth."**
 As 1 Exabyte = 1 quintillion bytes, so 2.5 Exabytes ( 2.5 * 10¹⁸ bytes) of data is generated per day.
@@ -62,15 +62,15 @@ Here are some of the per-minute ratings for various social networks:
 
 **Skype:** 154,200 calls made by users
 
-These companies use this data to uncover the hidden patterns, correlations, and also to give insights so as to make proper business decisions. They analyze data for Customer Acquisition and Retention and try to personalize their products for their customers to establish a solid customer base.
+These companies use this data to uncover the hidden patterns, correlations, and also to give insights to make proper business decisions. They analyze data for Customer Acquisition and Retention and try to personalize their products for their customers to establish a solid customer base.
 
 As of August 2020, desktop hard disk drives typically had a capacity of 1 to 8 terabytes, with the largest-capacity drives reaching 20 terabytes (single-disk drives, "dual" drives are available up to 24 TB).
 
 ## Another Question- How they do it?
-If the capacity of storage devices is much lesser than the data generated per day by such companies, how they manage it. How they process such a large amount of data without storing it anywhere? How Google search gives results in just a few seconds after processing the data stored from years? Can we store data in a storage device whose volume exceeds the capacity of the hardware?
+If the capacity of storage devices is much lesser than the data generated per day by such companies, how they manage it. How they process such a large amount of data without storing it anywhere? How Google search gives results in just a few seconds after processing the data stored for years? Can we store data in a storage device whose volume exceeds the capacity of the hardware?
 
 ## Problem:- Big Data
-All these problems combined together called Big Data. Below are some subparts of the Big Data problem-
+All these problems combined are called Big Data. Below are some subparts of the Big Data problem-
 1) Firstly, the **volume of data** is too large. Even if we build storage devices of huge capacity, we can't cope up with the increasing data per day.
 
 2) Secondly, the **cost of manufacturing**. Even if we manufacture large size storage, it is not possible to afford their manufacturing prices even for high-profit organizations. So, What are the solutions for low- budget companies? How can they manage data?
@@ -88,12 +88,12 @@ One of the concepts that solve the above problem is Distributed Storage.
 
 ![d](d.png)
 
-Distributed storage is basically a method that provides huge storage(even exceeding from physical storage) shared by multiple systems. These systems or the servers are connected following horizontal scaling. This multiple commodity server hardware is comparatively cheap than optimized servers with large storage(Hard Disk). Each virtual machine contributes directory to a centralized system and thereby shares its storage. The team of master and slave nodes working together for one purpose called a cluster.
+Distributed storage is a method that provides huge storage(even exceeding from physical storage) shared by multiple systems. These systems or the servers are connected following horizontal scaling. This multiple commodity server hardware is comparatively cheap than optimized servers with large storage(Hard Disk). Each virtual machine contributes directory to a centralized system and thereby shares its storage. The team of master and slave nodes working together for one purpose called a cluster.
 
 One of the Topologies or the architecture used for implementing a Distributed storage system is **Master-slave architecture**.
 Master-slave architecture- Master-slave is a model of asymmetric communication or control where one device(the "master") connected to one or more other devices(the "slaves") are connected using a protocol(Network), where the slave nodes/devices can contribute a part/whole of their storage devices to the master node, like this centralized master node can store data exceeding its local storage limit.
 
-The slave nodes can be commodity hardware/device that need not be expensive and high functioning.
+The slave nodes can be commodity hardware/devices that need not be expensive and high functioning.
 As the data is split and stored in(and loaded from) other devices/nodes, the I/O operations (data transfer) can be performed parallelly on all the devices. Thus, reducing the time consumption by a large factor.
 
 **Hence, distributed storage solves all the problems- Volume, Cost, and Velocity.**
