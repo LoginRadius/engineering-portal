@@ -1,23 +1,24 @@
 ---
-title: "End-to-End Testing with Jest and Puppeteer"
-date: "2020-10-05"
+title: "End-to-End Testing with Jest and Puppeteer."
+date: "2020-10-12"
 coverImage: "jest-puppeteer.png"
 author: "Shreya Sharma"
 tags: ["Testing", "Jest", "Puppeteer"]
+description: "Learn how to integrate Jest and Puppeteer in your project for End-to-End Testing"
 ---
 
-Writing a foolproof code is hard, especially with a team collaborating on a single project. Thus it becomes increasingly important to ensure that no new code breaks an exsisting functionality. And for this purpose automated tests are used. 
+Writing a foolproof code is hard, especially with a team collaborating on a single project. Thus it becomes increasingly important to ensure that no new code breaks existing functionality. And for this purpose automated tests are used. 
 
 ## Requirements
 
 1. Basic knowledge of Javascript
 2. Familiarity with Node.js
 
-In this blog we're going to learn how to integrate jest and puppeteer in our project for End-to-End Testing. [Jest](https://github.com/facebook/jest) is a javascript testing framework maintained by Facebook . [Puppeteer](https://github.com/puppeteer/puppeteer) is a Node library created by Google which provides high-level API to control headless Chrome. Before we delve deeper into Jest and Puppeteer, let's familiarise ourselves with a few things.
+In this blog, we're going to learn how to integrate Jest and Puppeteer in our project for End-to-End Testing. [Jest] https://github.com/facebook/jest) is a javascript testing framework maintained by Facebook. [Puppeteer](https://github.com/puppeteer/puppeteer) is a Node library created by Google which provides high-level API to control headless Chrome. Before we delve deeper into Jest and Puppeteer, let's familiarise ourselves with a few things.
 
-**End-to-End(E2E) Testing :** E2E testing refers to the testing of a complete functionality of some application. It checks that a functionality acts as intended.
+**End-to-End(E2E) Testing:** E2E testing refers to the testing of a complete functionality of some application. It checks that a functionality acts as intended.
 
-**Headless Testing :** Headless testing is a way or running browser UI tests without any browser UI. This is a preferred method mainly due to its performance. It is fast, light-weight and less resource intensive. 
+**Headless Testing:** Headless testing is a way or running browser UI tests without any browser UI. This is a preferred method mainly due to its performance. It is fast, light-weight and less resource-intensive. 
 
 ## Installation
 
@@ -27,9 +28,9 @@ To install Jest and Puppeteer, open the command line in your project directory a
 `npm install --save-dev jest puppeteer jest-puppeteer`
 
 **For yarn users:**  
-`yarn add --dev jest puppeteer jest-puppeteer`
+`yarn add --dev jest puppeteer jest-puppeteer.`
 
-Now that we've installed jest and puppeteer, it is time to set up the testing environment. Create a file `jest.config.js` in the project root directory and write the following code in it:
+Now that we've installed Jest and Puppeteer, it is time to set up the testing environment. Create a file `jest.config.js` in the project root directory and write the following code in it:
 
 ```js
 module.exports = {
@@ -44,7 +45,7 @@ module.exports = {
 };
 ```
 
-Defining the preset sets up a puppeteer environment for testing. Test match directs it to the folder where tests are defined. For a more detailed knowldege about running jest with puppeteer [check this out](https://jestjs.io/docs/en/puppeteer).
+Defining the preset sets up a puppeteer environment for testing. Test match directs it to the folder where tests are defined, for a piece of more detailed knowledge about running Jest with Puppeteer [check this out](https://jestjs.io/docs/en/puppeteer).
 
 Now create a file `jest-puppeteer.config.js` in the project root directory. Here we define the testing environment further. To begin with you can add the following in this file:
 
@@ -61,7 +62,7 @@ module.exports = {
 
 ## Testing
 
-Now we can begin writing our tests. In this example we'll begin with writing a basic test to check the title of the page opened. Now head over to the tests folder defined and create a file `title.test.js`. As you might have noticed `.test.js` would be the file extension of the jest tests defined. 
+Now we can begin writing our tests. In this example, we'll begin with writing a basic test to check the title of the page opened. Now head over to the tests folder defined and create a file `title.test.js`. As you might have noticed `.test.js` would be the file extension of the jest tests defined. 
 
 This is what a typical `title.test.js` would look like:
 
@@ -87,11 +88,11 @@ describe('Title of the page', () => {
 });
 ```
 
-Hurrayyyy! You've added Headless UI tests to your project. Now you can similarly define tests for different functionalities using the docs [here](https://devdocs.io/puppeteer/).
+Hurray! You've added Headless UI tests to your project. Now you can similarly define tests for different functionalities using the docs [here](https://devdocs.io/puppeteer/).
 
 ## Cons of using jest-puppeteer
 
-1. It is headless and hence fast, light-weight and less resource intensive. 
+1. It is headless and hence fast, light-weight and less resource-intensive. 
 2. It can stimulate keyboard-press and mouse-click akin to manual testing functions.
 3. It is simple and easy to use, and basically works out of the box.
 
