@@ -2,7 +2,7 @@
 Title: BEST KODI ADDONS
 Date:06-10-2020
 author:"Abhishek Kumar"
-coverImage: cover_img.png
+coverImage: cover-image.png
 description:The blog is mainly describes about the technology 
 ---
 BEST KODI ADDONS
