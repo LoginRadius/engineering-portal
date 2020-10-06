@@ -1,25 +1,23 @@
 ---
-title: "Visualizing Data using Leaflet and Netlify"
-date: "2020-10-04"
+title: "Visualizing Data using Leaflet and Netlify."
+date: "2020-10-14"
 coverImage: "map.jpg"
 author: Sudipto Ghosh
 tags: ["GIS", "Serverless", "JavaScript"]
-description: "Let's visualize geo-spatial data on the web using Leaflet and host it on Netlify!"
+description: "Let's visualize geospatial data on the web using Leaflet and host it on Netlify!"
 ---
 
 ## Motivation
 
-Maps are an effective intuitive way to understand data in some use-cases. Interactive web maps can help us visualize the data better and derive better insights.
+Maps are an effective, intuitive way to understand data in some use-cases. Interactive web maps can help us visualize the data better and derive better insights.
 
 Different map visualizations can highlight different aspects of a dataset. Heatmaps, Choropleth maps and Clustering maps are frequently used for this purpose.
 
 In this blog, I shall go over using a powerful JavaScript library to build a web map and deploy it on Netlify.
 
-![Cover Image](map.jpg)
-
 ## Using Leaflet
 
-Leaflet is a great library for implementing interactive webmaps as it provides many UI features, like smooth canvas panning, zooming, mouse events, and all the involved work in animations, which one would otherwise have to implement from scratch.
+The Leaflet is a great library for implementing interactive web maps as it provides many UI features, like smooth canvas panning, zooming, mouse events, and all the involved work in animations, which one would otherwise have to implement from scratch.
 
 > Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 39 KB of JS, it has all the mapping features most developers ever need.
 >
@@ -125,7 +123,7 @@ Before we begin adding the layers to our map, we need to instantiate a Leaflet `
 const map = L.map('mapid').setView([38.8977, -77.0365], 15);
 ```
 
-As we need a basemap (the base layer) for our map, we can use one that is provided by Mapbox. In order to use that, you need a Mapbox API access token that you can create on [their portal](https://account.mapbox.com/).
+As we need a base map (the base layer) for our map, we can use one that is provided by Mapbox. In order to use that, you need a Mapbox API access token that you can create on [their portal](https://account.mapbox.com/).
 
 The following snippet instantiates a `tileLayer` object and adds it to our map:
 
@@ -258,7 +256,7 @@ Next, select your Git provider and your repository:
 ![Git Respository Selection](repoSelection.jpg)
 
 
-Go ahead with the defaults and now your site shall be published on Netlify, and all future pushes should result in a Netlify deployment:
+Go ahead with the defaults, and now your site shall be published on Netlify, and all future pushes should result in a Netlify deployment:
 
 ![Netlify Deployment](deployment.jpg)
 
