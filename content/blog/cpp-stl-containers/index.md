@@ -1,6 +1,6 @@
 ---
 title: STL Containers & Data Structures in C++
-date: "2020-04-10"
+date: "2020-10-13"
 coverImage: "cover.jpg"
 author: "Aryan Rawlani"
 tags: "C++", "STL"
@@ -13,7 +13,7 @@ STL stands for Standard Template Library. If you've used C++ even in small proje
 Loosely speaking, the first components you'd typically understand and use of STL are Containers & Algorithms. Then there's also Iterators & Functors, but you should try to take them on one by one, in that order perhaps. This blog will expand a bit on STL Containers.
 
 ### Containers
-Suppose you are at your favorite cinema hall and it's the launch of a big movie. Since it's the launch, there are likely many people waiting in line to buy their tickets. Naturally, you join the queue at the back and wait for your turn. In the computing world, we have a queue too! This is a popular data structure. If you've had a Data Structures class before, you are most likely familiar with some other data structures as well. These are often used, so the STL provides a great implementation of all these data structures otherwise known as containers.
+Suppose you are at your favorite cinema hall and it's the launch of a big movie. Since it's the launch, there are likely many people waiting in line to buy their tickets. Naturally, you join the queue at the back and wait for your turn. In the computing world, we have a queue too! This is a popular data structure. If you've had a Data Structures class before, you are most likely familiar with some other data structures as well. These are often used, so the STL provides a great implementation of all these data structures, otherwise known as containers.
 
 Take arrays, for example. Arrays are elements with the same type, stored in contiguous blocks of memory. In C++, you can use arrays as you would in C, like this:
 ```cpp
@@ -47,17 +47,17 @@ Other containers in C++ include:
   students.push_back("Paul");
   students.push_back("Jack");
   ```
-  Paul & Jack are stored in contiguous memory blocks, even though we didn't provide a specific limit at the start - as we do with arrays.
+   Paul & Jack are stored in contiguous memory blocks, even though we didn't provide a specific limit at the start - as we do with arrays.
   - `std::forward_list`: Singly linked-list.
   ```
   A -> B -> C -> D
   ```
-  is a simple example of linked-lists. Once you're at a point, let's say "C" - you can only go forwards.
+  This is a simple example of linked-lists. Once you're at a point, let's say "C" - you can only go forwards.
   - `std::list`: Doubly linked-list.
   ```
   A <-> B <-> C <-> D
   ```
-  is a simple example of a doubly linked-list. Unlike Singly linked-lists, if you're at "C", you can go either way. To "B" or "D".
+  Above is a simple example of a doubly linked-list. Unlike Singly linked-lists, if you're at "C", you can go either way. To "B" or "D".
   - `std::deque`: Double-ended queues - insertion and removal possible at both ends.
 
 - Container Adaptors: (different interface of accessibility from sequence containers)
@@ -70,8 +70,8 @@ Other containers in C++ include:
 
 - Associative containers: (sorted in a specific order, these containers boast search speeds of O(log N))
   - `std::set`: Each element inserted into a set is it's own identifier, meaning that unique elements are entered. Each element acts as it's own "key" - which uniquely identifies it. For example, suppose you are a volunteer for entering student information for new students entering into the semester. They are uniquely identified by their roll numbers. Suppose you enter the same student's Roll No (the ID) twice into a set, it will be inserted just once - because a "set" can only have unique values.
-  - `std::multiset`: Like a set, but here multiple same elements are allowed. Entering the roll no from before twice into an `std::multiset` will result in it being added twice.
-  - `std::map`: Take a literal map for example. When you point to a location on the map, it tells you the details. The "point" is the key, and the details of that location are the "values". The keys are unique, and values can be anything. An `std::map` works the same way. Perhaps an example will help understanding more about it:
+  - `std::multiset`: Like a set, but here same multiple elements are allowed. Entering the roll no from before twice into an `std::multiset` will result in it being added twice.
+  - `std::map`: Take a literal map, for example. When you point to a location on the map, it tells you the details. The "point" is the key, and the details of that location are the "values". The keys are unique, and values can be anything. An `std::map` works the same way. Perhaps an example will help understanding more about it:
   ```cpp
   // This maps a student name to his marks. But is this correct?
   std::map<std::string, int> mapOfStudentNameToMarks;
