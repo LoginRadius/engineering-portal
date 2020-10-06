@@ -115,6 +115,17 @@ Hash-based Message Authentication Code SHA-256 (HMAC-SHA256) uses the SHA-256 ha
 
 Password-Based Key Derivation Function 2 (PBKDF2) is a hashing algorithm designed to be used for passwords. By design, hashing using PBKDF2 is slow, making it much more difficult to brute force a password. This is because the algorithm takes in a random salt, as well as the desired number of times to hash the password. Other inputs include the desired length of the output, and the hashing function used. Typically, the recommended number of iterations range in the tens of thousands, but depends on the hashing function and capabilities of the application. However, brute force still remains a threat, especially with weakly chosen salts and a small number of iterations.
 
+### Argon 2
+
+Argon2 is a cryptographic hashing algorithm, most recommended for password hashing. It hashes a plain text input to a hash as per the parameters mentioned. It is governed by six parameters: password, salt, memory cost, time cost, parallelism factor, the hash length, along with one of the three algorithms included in it.
+
+Argon2 has 3 versions: Argon2d, Argon2i and Argon2id.
+1. Argon2d is more resistant to GPU attacks as it accesses the memory array in a password dependent order reducing the possibility for TMTO attacks but leaves itself vulnerable to side-channel attacks.
+2. Argon2i, unlike '2d', accesses memory in a password independent order which increases resistance against side-channel attacks.
+3. Argon2id is a hybrid of '2i' and '2d'. It is always recommended one except when there are reasons to prefer one of the other two modes.
+
+It has experienced two attacks on Argon2i. The first attack is applicable only to the old version of Argon2i. The second attack has not been secured yet.
+
 ### Use Cases
 
 Authentication
