@@ -88,6 +88,11 @@ Because when you call a function using `.` (dot) it first calls `__getattribute(
 ## Use speed up applications
 
 For python's slow speed, some projects have been taken to decrease runtime. Pypy and Numba two of them. In most of the programming contests you will see pypy if it allows python. This applications will reduce your programmes runtime.
+
+## Use latest release of python
+
+Python is updated and upgraded regularly and every release is faster and more optimized. So always use the latest version of python.
+
  
 
 These was some of the tips to decrease runtime of python code. There are a few more techniques that you can use. Use a search engine to find those and write efficient code!
