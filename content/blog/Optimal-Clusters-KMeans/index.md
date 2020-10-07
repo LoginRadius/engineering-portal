@@ -1,7 +1,7 @@
 ---
 title: Optimal clusters for KMeans Algorithm
 date: "2020-10-01"
-coverImage: "cover3.png"
+coverImage: "cover.png"
 author: "Neeraj Ap"
 tag: Machine learning
 ---
