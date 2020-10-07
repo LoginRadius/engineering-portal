@@ -71,5 +71,23 @@ The above code may seem efficient because it used set to delete duplicate data. 
 for element in L:
     ...
 ```
+## Do not use dot operation
+
+Try to avoid dot operation. See the below programme.
+```python
+import math
+val = math.sqrt(60)
+```
+Instead of above style write code like this:
+```python
+from math import sqrt
+val = sqrt(60)
+```
+Because when you call a function using `.` (dot) it first calls `__getattribute()__` or `__getattr()__` which then use dictionary operation which costs time. So, try using `from module import function`.
+
+## Use speed up applications
+
+For python's slow speed, some projects have been taken to decrease runtime. Pypy and Numba two of them. In most of the programming contests you will see pypy if it allows python. This applications will reduce your programmes runtime.
+ 
 
 These was some of the tips to decrease runtime of python code. There are a few more techniques that you can use. Use a search engine to find those and write efficient code!
