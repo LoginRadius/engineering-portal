@@ -9,7 +9,7 @@ Generally, MIM attacks are breaking to believe the traditional encryption techno
 
 What is a MIM attack?
 
-MIM stands for man-in-the-middle. In the World of Cybersecurity, a man-in-the-middle attack (MIM) is an attack where the attacker breaks into the middle of the network pathway silently such that the sender and receiver are not able to intercept and they believe they are directly communicating with each other. One such example of a MIM attack is active eavesdropping. In this example, an attacker can be simply be sitting with a piece of software somewhere in the network path and capturing all the relevant network traffic for later analysis. The attacker is able to intercept all relevant messages passing between the two victims and by smartly monitor and alter old ones or inject new ones. It can become difficult and arise problems for the organization.
+MIM stands for man-in-the-middle. In the World of Cybersecurity, a man-in-the-middle attack (MIM) is an attack where the attacker breaks into the middle of the network pathway silently such that the sender and receiver are not able to intercept and they believe they are directly communicating with each other. One such example of a MIM attack is active eavesdropping. In this example, an attacker can be sitting with a piece of software somewhere in the network path and capturing all the relevant network traffic for later analysis. The attacker can intercept all relevant messages passing between the two victims and by smartly monitor and alter old ones or inject new ones. It can become complicated and arise problems for the organization.
 
 Does the question arise how about using SSL and Virtual Private Networks?
 
