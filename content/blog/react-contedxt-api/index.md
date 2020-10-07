@@ -3,11 +3,13 @@ title: "What Is React Context API and How To Use It Best"
 date: "2020-10-05"
 coverImage: "react.png"
 author: "Eylon Ronen"
-tags: ["React", "Redux", "State Management", "React Hooks", "React Higher Order Component"]
----
+tags: ["React", "Redux", "State Management", "React Hooks"]
+description: "Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
+ Let's see how to use it."
 
+---
 ## What is Context API?
-Context API is a (kinda) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
+Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
 
 ### How it works
 React.createContext() is all you need. It returns a consumer and a provider.
@@ -16,27 +18,26 @@ React.createContext() is all you need. It returns a consumer and a provider.
 More information can be found on [React's documentation page](https://reactjs.org/docs/context.html)
 
 ### **Does it replace Redux?**
-No... Well not entirely.  
-Redux is great and came perfectly to answer the need for state management. Actually it answered this need so well that it came to be known that you can't be a "true" React developer if you don't know your way around Redux.
-However Redux has its disadvantages and that's why it's important to know what Context API gives us that Redux doesn't:
+No. Well, not entirely.  
+Redux is great and came perfectly to answer the need for state management. Actually, it answered this need so well that it came to be known that you can't be a "true" React developer if you don't know your way around Redux.
+However, Redux has its disadvantages, and that's why it's important to know what Context API gives us that Redux doesn't:
 * Simplicity - When using redux people tend to manage almost all of their state in redux and it causes 2 problems:  
   1. Overhead - Why should I create/update 3 files just to add one tiny feature? 
-  2. One of the great advantages of React's one-way data binding is that it's easy to understand - A component passes state to its children. Using Redux takes it away from us.
-* Using Context API we can define several unrelated contexts (stores) and use each in it's proper place in the app.  
+  2. One of the significant advantages of React's one-way data binding is that it's easy to understand - A component passes state to its children. Using Redux takes it away from us.
+* Using Context API we can define several unrelated contexts (stores) and use each in its proper place in the app.  
 ### Important Note
-Redux is just a concept really. If you are comfortable with using reducres and actions and don't find hindering than you may also create reducers and actions that wrap Context API as the store as Redux's author [Dan Abramov](https://github.com/gaearon) explaind in [his medium article about whether Redux is always required](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
+Redux is just a concept. If you are comfortable with using reducers and actions and don't find hindering than you may also create reducers and actions that wrap Context API as the store as Redux's author [Dan Abramov](https://github.com/gaearon) explained in [his medium article about whether Redux is always required](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
 
 ## How to use the best
-You might think to yourself: "Well I'm convinced. How do I implement Context API in my app?"
+You might think to yourself: "Well, I'm convinced. How do I implement Context API in my app?"
 First, make sure you need it. Sometimes people use shared state across nested components instead of just passing it as props.
 And if you do need it you should follow these very few steps:
 1. Create a folder under your app root named contexts (not required. just a convention)
-2. Create a file named \<your context name\>Context.js e.g. userContext.js
+2. Create a file named \<your context name\>Context.js, e.g. userContext.js
 3. import and create a context like so:
 
 ```js
 import React, { createContext } from "react";
-
 const UserContext = createContext();
 ```
 
@@ -47,7 +48,6 @@ Example using React Hooks:
 const UserProvider = ({ children }) => {
   const [name, setName] = useState("John Doe");
   const [age, setAge] = useState(1);
-
   const happyBirthday = () => setAge(age + 1);
   return (
     <UserContext.Provider value={{ name, age, happyBirthday }}>
@@ -68,7 +68,7 @@ const withUser = (Child) => (props) => (
   </UserContext.Consumer>
 );
 ```
-The difference between the two options above is if you want the context to be a single nested property by this name, to explode it to its properties (which in my opinion is more convenient)
+The difference between the two options above is if you want the context to be a single nested property by this name, to explode it to its properties (which in my opinion is more convenient).
 
 6. Finally export them
 
@@ -91,8 +91,8 @@ ReactDOM.render(
 export default withUser(LoginForm);
 ```
 
-You'll also be able to notice I used the new Hooks" feature that is shipped with React since version 16.8 to make it even neater and easier to create contexts.
+You'll also be able to notice I used the new "Hooks" feature that is shipped with React since version 16.8 to make it even neater and easier to create contexts.
 
 ### Final piece of advice
-I mentiond how people overuse Redux and it also applies to Context API. Use it only when you need to share state between lot's of components with a lot of nesting.
-Most of the time the data you have in one component will only be relevant to it's children, so passing it in props is more indicative and nicer.
+I mentioned how people overuse Redux, and it also applies to Context API. Use it only when you need to share state between lot's of components with a lot of nesting.
+Most of the time, the data you have in one component will only be relevant to its children, so passing it in props is more indicative and nicer.
