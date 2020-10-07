@@ -40,11 +40,7 @@ const Hacktoberfest2020 = () => {
               sourcing many of it's projects on Github. We will be providing
               well-labeled issues for anyone to contribute to our projects on
               our GitHub Repositories. We will soon update the list of our open
-              source projects on our{" "}
-              <a href="https://www.loginradius.com/engineering/blog">
-                Engineering Blog
-              </a>
-              .
+              source projects on our <a href="/">Engineering Blog</a>.
             </p>
             <h3>Why should you contribute?</h3>
             <p>
