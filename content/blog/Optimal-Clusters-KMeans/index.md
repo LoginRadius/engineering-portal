@@ -1,22 +1,22 @@
 ---
 title: Optimal clusters for KMeans Algorithm
-date: "2020-10-01"
+date: "2020-10-12"
 coverImage: "cover.png"
 author: "Neeraj Ap"
 tag: Machine learning
 ---
 
-Before we get into details of finding out optimal clusters let's first see what is KMeans clustering algorithm and some basics!!
+Before we get into details of finding out optimal clusters, let's first see what KMeans clustering algorithm and some basics is!!
 
 
 ## What is Clustering?
-Clustering is a  unsupervised ML technique where in we cluster the data inorder to get insights from the data , Clusterig the data is quite important for some business models
-and problems, It gives us conclusions on what is a cluster i.e data which is similar and in form of cluster or groups.
+Clustering is an unsupervised ML technique wherein we cluster the data in order to get insights from the data, clustering the data is quite important for some business models
+and problems, It gives us conclusions on what is a cluster, i.e. data which is similar and in the form of cluster or groups.
 
 ```Clustering is the process of dividing the entire data into groups (also known as clusters) based on the patterns in the data```
 
 ## What is KMeans clustering alogrithm?
-It is an algorithm for clustering We, will be discussing this method with code in the further sections.
+It is an algorithm for clustering. We will be discussing this method with code in the further sections.
 
 ## Intial Imports :
 ```python
@@ -34,11 +34,11 @@ from sklearn.cluster import KMeans
 Now let's discuss the method behind finding out the right number of clusters on a K-Means clustering algorithm.
 So we'll learn how to decide what number of clusters to input into your K-Means algorithm.
 Here we've got a data science problem.
-We've got only two variables, x and y coordinates
+We've got only two variables, x and y coordinates.
 
 Now, if we run the K means clustering algorithm on this dataset with three clusters or with K pre-determine the clusters to be three, then the result will look something like this.
 
-![intial](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/intial.png)
+![intial](intial.png)
 
 
 We need a specific metric we need a way to understand or evaluate how a certain number of clusters performs compared to a different number of clusters, and preferably, that metric should be quantifiable.
@@ -47,7 +47,7 @@ So what kind of metric can we impose upon our clustering algorithm that will tel
 And there is such a metric called the within-cluster sum of squares. (WCSS)
 
 
-![Wcss](https://github.com/NEERAJAP2001/engineering-portal/tree/master/content/blog/Optimal-Clusters-KMeans/Wcss.png )
+![Wcss](Wcss.png )
 
 
 So you can see here that it jump from 8000 down to 3000, that's a massive change of 5000 let's just call them units 5000 units and then from 3000 as we increase the number of the close from two to 3, they jump from 3000 to 1000.
@@ -58,7 +58,7 @@ Again quite a large drop And then from three to four what's going to happen is g
 Look for that elbow in your chart where the drop goes from being quite substantial to being not as significant not as proven is not as great, and therefore, that point in your chart will be the optimal number of clusters.
 
 
-In this case, it is indeed three clusters
+In this case, it is indeed three clusters.
 
 That is the optimal number. And as you can imagine, this method is entirely arbitrary.
 Sometimes, the situations are not as pronounced as the elbow might not be as evident as in this case, and therefore, somebody might pick one number of clusters. Someone else might come along and select a different number.
