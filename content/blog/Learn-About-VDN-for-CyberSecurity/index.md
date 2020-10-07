@@ -1,9 +1,9 @@
 ---
-Title:  Virtual Dispersive Networking
-Date: "2020-10-07"
-CoverImage: "MIM.jpg"
-Author: "Binay Agarwal"
-Description: "Learn About VDN for CyberSecurity"
+title:  Virtual Dispersive Networking
+date: "2020-10-07"
+coverImage: "MIM.jpg"
+author: "Binay Agarwal"
+description: "Learn About VDN for CyberSecurity"
 ---             
 Generally, MIM attacks are breaking to believe the traditional encryption technologies and targeting the intermediate nodes between the sender and receiver.
 
