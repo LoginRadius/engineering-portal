@@ -1,6 +1,6 @@
 ---
 title: "What Is React Context API and How To Use It Best"
-date: "2020-10-05"
+date: "2020-10-07"
 coverImage: "react.jpg"
 author: "Eylon Ronen"
 tags: ["React", "Redux", "State Management", "React Hooks"]
