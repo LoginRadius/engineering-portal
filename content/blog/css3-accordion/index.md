@@ -88,7 +88,7 @@ Repeat the ```div``` without a class for as many as you want depending on how ma
   </div>
 </div>
 ```
-That's it with the HTMl, and it should be looking like this:
+That's it with the HTML, and it should be looking like this:
 ![plain-html](plain-html.png)
 
 Now let's start playing with the CSS part.
@@ -168,4 +168,3 @@ Next thing to do is to show the content of the accordion tab if the label is cli
 ```
 Hurrayy🎉, we now have a very beautiful and functioning accordion that looks like this
 ![css3-accordion](css3-accordion.png)
-}
