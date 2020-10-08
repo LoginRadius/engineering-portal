@@ -60,7 +60,9 @@ const Header = ({ menuLinks, searchIndex }) => {
             <br />
             Get LoginRadius Swags in Hacktoberfest 2020. Check our
             <a
-               href={"/page/hacktoberfest2020"}
+               href={
+                "https://www.loginradius.com/engineering/page/hacktoberfest2020"
+              }
               key={"hacktoberfest"}
               target="_blank"
               rel="noopener noreferrer"
