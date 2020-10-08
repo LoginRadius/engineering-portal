@@ -1,9 +1,11 @@
 ---
+
 Title: Best Hacking Tools
-Date:2020-10-08
+Date: "2020-10-08"
 coverImage: "cover.jpg"
 Author: "Akshay Nagle"
 description: Learn about basic hacking tool.
+
 ---
 
 Ever since you enter the sphere of ethical Hacking, you usually need to get your hand on most of the Hacking Tools. More tools you recognise, more your hacking career is getting ready to fly off. Therefore let's discuss some of the necessary hacking tools.
