@@ -57,8 +57,8 @@ Share your first app with your parents and friends and feel proud. 👏
 
 ![HelloWorld](Image5.jpg)
 
-< Note: If you want to debug or run any existing app/demo instead of developing your own. For ex. You might have some project downloaded from Github on your local system. Now follow the instructions from project's Github to explore the project. 
-< Just open the project in Xcode and run in simulator or real device by following step 4 described above.
+> Note: If you want to debug or run any existing app/demo instead of developing your own. For ex. You might have some project downloaded from Github on your local system. Now follow the instructions from project's Github to explore the project. 
+> Just open the project in Xcode and run in simulator or real device by following step 4 described above.
 
 That's it. 
 
