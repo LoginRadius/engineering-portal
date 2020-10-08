@@ -18,7 +18,7 @@ I suggest you watch these talks by Ryan: He talks about his mistakes with Nodejs
 * Has a set of reviewed (audited) standard modules that are guaranteed to work with Deno.
 Scripts can be bundled into a single JavaScript file.
 
-### Lets Build Something!!!
+### Let's Build Something!!!
 
 In this article, we're going to build a simple cli tool to demonstrate some of the features of [deno](https://deno.land/). Our cli will be interacting with a **COVID** API to fetch live data.
 

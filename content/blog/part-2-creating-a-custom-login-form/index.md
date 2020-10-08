@@ -49,7 +49,7 @@ Remember me
 
 ![login-2-custom](./login-2-custom.png)
 
-Lets take a look at that custom form
+Let's take a look at that custom form
 
 
 ## Handling the Login Form response

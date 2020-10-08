@@ -16,7 +16,7 @@ Sprite - Google said it’s a fairy. This is not a fairy. It’s just a bunch of
 
 CSS - Cascading Style Sheet. If you don’t know what this is, I have bad news for ya.
 
-### Lets Begin
+### Let's Begin
 
 ![icons](icons.png)
 
