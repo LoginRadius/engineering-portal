@@ -49,7 +49,7 @@ So to sum up,
  #### Cool, how do I get started?
  Well, there is a learning curve, but it's worth it. Although this steep curve is exaggerated in the online world and the **quitting vim joke** is getting very old ( It's:q btw ).
 
- Install Vim `sudo apt-get vim or pacman -S vim` for Linux user and type `vim <filename>` in your terminal. Press `i` to go to insert mode. Type some gibberish. Press `:wq` to save and quit . `:q!` to save without quitting.
+ Install Vim `sudo apt-get vim or pacman -S vim` for Linux user and type `vim <filename>` in your terminal. Press `i` to go to insert mode. Type some gibberish. Press `:wq` to save and quit . `:q!` to quit without saving.
 
  First of all, don't get disheartened when you see VIM for the first time, it's known to make a **horrible first impression.** We'll learn to customize it later in the blog.
 
@@ -124,7 +124,7 @@ Pheww!!..
 So you see there's a plugin for anything and everything. These plugins are more than enough to make vim a full-blown IDE.
 
 #### Summing up !!
-VIM makes you write code in the speed of thoughts. Just get started, and the rest will follow. Steal your friend's vimrc or find one on the internet (there are tons of them) if you dont wanna make one of your own.
+VIM makes you write code in the speed of thoughts. Just get started, and the rest will follow. Steal your friend's vimrc or find one on the internet (there are tons of them) if you dont want to make one of your own.
 
 If you want to slowly blend in into the world of vim then use some vim plugin for your text editor. All popular text editors have a vim plugin ( [Here's one for VsCode ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim))
 Here you go, best of both worlds! When you're comfortable enough, go for that complete switch.
