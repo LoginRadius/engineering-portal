@@ -1,46 +1,45 @@
 ---
 title: How to make a telegram bot
-date: "2020-10-3"
+date: "2020-10-12"
 coverImage: "bot.png"
 author: "Rajan Puri"
 tags: ["Telegram Bot", "Python"]
-description: "What is a bot and How to make our own Telegram bot"
+description: "What is a bot and How to make our own Telegram bot."
 ---
 
 
 ## What is Bot?
 
-According to Wikipedia, It is a software application that runs automated tasks (scripts) over the Internet. In other terms, It is a program written to mimic 
-human behavior in order to perform some tasks. Bots takes an input and does simple and repetitive tasks which is much faster than human. 
+According to Wikipedia, It is a software application that runs automated tasks (scripts) over the Internet. In other terms, It is a program written to mimic human behaviour in order to perform some tasks. Bots take input and do simple and repetitive tasks which is much faster than human. 
 
-There are 2 types of bots:
+There are two types of bots:
 
-* Good Bots: Bots that are  benificial to organisations as well as individuls such as ChatBots, Social Media bots etc
+* Good Bots: Bots that are  beneficial to organisations as well as individuals such as ChatBots, Social Media bots etc
 * Bad Bots: These are the bots that are used to perform malicious activities such as Scraping and Spamming.
 
-In this, We will make Telegram Chatbot which would be send the copy of input which the user has sent.
+In this, We will make Telegram Chatbot which would send the copy of input which the user has sent.
 
-## Making our own Telegram Chatbot
+## Making our Telegram Chatbot
 
 We will be using **Python language** to make the bot and will be using **Telegram package** for our bot.
 You can know more about telegram package from [here](https://python-telegram-bot.readthedocs.io/en/stable/telegram.html)
 
 
-Firstly, we will generate our telegram token. Here are the steps to follow to generate your own token.
+Firstly, we will generate our telegram token. Below are the steps to follow to generate your own token.
 
 1)  Search BotFather on Telegram.
 2)  Type **/start** to get started.
 3)  Type **/newbot** to get a bot.
-4)  Enter your Bot name and unique Username which should end with bot.
-5)  Then you would get your Bot Token.
+4)  Enter your Bot name and unique Username which should end with the bot.
+5)  Then you would get your Bot token.
 
-After generating our token, we will make a python program to make a Telegram bot which will sends the Text, Emojis and Stickers similar to the users input.
+After generating our token, we will make a python program to create a Telegram bot which will send the Text, Emojis and Stickers similar to the user's input.
 
 - Importing libraries required.
 
 ```python
 import logging
-from telegram.ext import Updater,Filters, CommandHandler, MessageHandler
+from telegram.ext import Updater, Filters, CommandHandler, MessageHandler
 ```
 
 
@@ -49,11 +48,11 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 ```
-This script does basic configuration for the logging system. It takes time, level and name.
+This script does a basic configuration for the logging system. It takes time, level and name.
 
 
 
-- Now, we will make a variable Token which will take  your Telegram token.
+- Now, we will make a variable Token which will take your Telegram token.
 
 ```python
 TOKEN = "ENTER YOUR TOKEN"  
@@ -86,14 +85,14 @@ def error(bot,update):
 
 **start** function would be taking the users input and would be sending, Hi with the user's name.
 
-**helf** function will prompt the message how can I help you.
+**help** function will prompt the message of how can I help you.
 
 **echo_text** and **sticker** function will send the same message or the stickers which the user has sent.
 
-**error** function would be printing the error message  on the command prompt.
+**error** function would be printing the error message on the command prompt.
 
 
-- Finally, we will make a main function, which would be executed first on running the program. It will take the updates and handle the updates.
+- Finally, we will make the main function, which would be executed first on running the program. It will take the updates and handle the updates.
 
 ```python
 def main():
@@ -114,10 +113,10 @@ if __name__=="__main__":
 ```    
 
 
-> Save the program and execute the program to check the working of the telegram bot on telegram.
+> Save the program and execute the it to check the working of the telegram bot on telegram.
 
 
 You can get the source code to make the Telegram bot from this Github Repository. [Bot :robot:](https://github.com/rjn01/TelegramBot) or
-You can also make some changes to the code to make bot do cool stuffs such as Getting News, Articles or Movies recommendations.
+You can also make some changes to the code to make the bot do cool stuff such as Getting News, Articles or Movies recommendations.
 You can check this [github repository](https://github.com/rjn01/Wiki-Bot) for making changes to the program.
 
