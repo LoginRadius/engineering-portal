@@ -1,9 +1,9 @@
 ---
-title: "BLOCKCHAIN: The new technology of trust"
+title: "Blockchain: The new technology of trust"
 date: "2020-10-08"
 coverImage: "CoverPage.jpg"
 author: "Shraddha V Prasad"
-tags: ["Blockchain"]
+tags: ["Blockchain", "Cyber Security"]
 description: "Learn about Blockchain technology and how it works."
 ---
 

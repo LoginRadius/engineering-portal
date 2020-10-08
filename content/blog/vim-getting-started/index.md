@@ -3,7 +3,7 @@ title: "Vim : Getting started"
 date: "2020-10-08"
 author: "Shubhankar Khare"
 coverImage: "Vim.png"
-tags: ["Vim"]
+tags: ["Vim", "Text Editor"]
 description: "A guide to getting you started with VIM: What is VIM, Why is VIM,  How to configure VIM."
 ---
 
