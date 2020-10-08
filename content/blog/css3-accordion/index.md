@@ -1,5 +1,5 @@
 ---
-title: "CSS# Accordion"
+title: "CSS3 Accordion"
 date: "2020-10-08"
 coverImage: "css3-accordion.png"
 author: "Isaac Anohene"
