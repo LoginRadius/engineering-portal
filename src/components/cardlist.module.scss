@@ -98,6 +98,8 @@
 .cardlist {
   .user {
     .avatar {
+      overflow: hidden;
+      border-radius: 8px;
       a {
         display: block;
         & > div {
@@ -107,15 +109,21 @@
           @media (max-width: 480px) {
             height: 257px;
           }
+          display: block;
+          transition: 0.4s ease-out;
         }
       }
     }
   }
+  .user:hover > .avatar > a > div{
+    transform: scale(1.2);
+  }
 }
+
 .description-wrap {
   display: flex;
   flex-direction: column;
-  // min-height: 195px;
+
   .tag {
     margin: 12px 0;
     display: flex;

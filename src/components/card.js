@@ -17,11 +17,12 @@ const Card = ({ node }) => {
     <div className={`${styles.user} mb-80`}>
       <div className={styles.avatar}>
         <Link className="bs-md" to={node.fields.slug}>
-          {coverImagePath ? (
-            <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+            {coverImagePath ? (
+            <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div"/>
           ) : (
-            <img src={defaultImg} alt="default-img" />
+            <img src={defaultImg} alt="default-img" Tag="div"/>
           )}
+          
         </Link>
       </div>
       <div className={styles.descriptionWrap}>
