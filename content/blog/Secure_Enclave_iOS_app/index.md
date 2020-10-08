@@ -15,10 +15,10 @@ For ex- to save session of logged in user, we save username and password. But th
 
 Now here **Secure Enclave** comes in the role. 
 
-In this blog, we will use Secure Enclave to generate keypair and use those in encryption/decryption of sensitive data further.
+In this blog, we will use Secure Enclave to generate key pair and use those in encryption/decryption of sensitive data further.
 
-Here I am gonna create a wrapper to generate keypair using Secure Enclave and use them to encrypt/decrypt sensitive data. And also a viewcontroller to show how to use wrapper to get encrypted and decrypted data.
-You may implement wrapper's methods as common methods and use wherever needed in project. But its recommended to use a separate wrapper for handling communication with Secure Enclave.
+Here I am gonna create a wrapper to generate key pair using Secure Enclave and use them to encrypt/decrypt sensitive data. And also a viewcontroller to show how to use wrapper to get encrypted and decrypted data.
+You may implement wrapper's methods as common methods and use wherever needed in project. But it is recommended to use a separate wrapper for handling communication with Secure Enclave.
 
  ## Wrapper
  
@@ -234,7 +234,7 @@ Now I am creating ViewController.h and .m files. In viewDidLoad in .m file, havi
     NSData *decrypted =[keychainItem decryptData:encrypted];
     NSString *strDecrypted = [[NSString alloc] initWithData:decrypted encoding:NSUTF8StringEncoding];
     
-    NSLog(@"decrrypted string as real string%@",strDecrypted);
+    NSLog(@"decrypted string as real string%@",strDecrypted);
 
 }
 ```
