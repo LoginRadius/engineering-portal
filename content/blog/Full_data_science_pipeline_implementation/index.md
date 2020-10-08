@@ -1,24 +1,23 @@
 ---
-title: " Full data_science pipeline implementation "
-date: "2020-10-01"
+title: " Full data_science pipeline implementation."
+date: "2020-10-09"
 coverImage: "ds.jpg"
 author: "Rinki Nag"
-tags: ["DataScience","Python","Webscrapping","Natural Language Processing","Machine learning"]
-description: "Learn how to implement the full datascience pipeline right from collecting the data to implementing ML algorithms."
-
+tags: ["DataScience","Python","Web scraping","NLP","Machine learning"]
+description: "Learn how to implement the full data science pipeline right from collecting the data to implementing ML algorithms."
 ---
 
-## What is data enrichment and why is it so Important ?
+## What is data enrichment? and its importance
 
-Data enrichment is the process of combining first party data from internal sources with disparate data from other internal systems or third party data from external sources.
+Data enrichment is the process of combining first-party data from internal sources with disparate data from other internal systems or third-party data from external sources.
 
-Usually the data available from clients or stakeholders are usually not enough to solve the given problem statement , like if a client comes with a problem statement to build a recommendation engine for his mutual fund industry , the usual data they have is old purchase data but thats not enough as client behaviour changes with time and is impacted by the present market condition, oil prices , etc which needs to be incorporated in the model to make it efficient .
+Usually, the data available from clients or stakeholders are not enough to solve the given problem statement, like if a client comes with a problem statement to build a recommendation engine for his mutual fund industry, the usual data they have is old purchase data but that's not enough as client behaviour changes with time and is impacted by the present market condition, oil prices, etc. which needs to be incorporated in the model to make it efficient.
 
 Codes for this tutorial is at [Link](https://github.com/eaglewarrior/Full_pipeline_IMDB)
 
 **The whole process id divided into four steps:**
 
-I have implemented full pipeline of datascience from scrapping data from web to implementing ml and NLP classification
+I have implemented a full pipeline of data science from scrapping data from web to implementing ml and NLP classification.
 
 - Phase I:
 
@@ -36,13 +35,13 @@ I have prepared the data for NLP classification (multilabel_prep.py)
 
 I have implemented multilabel NLP classifier using various techniques like chain classifier etc. (multilabel_nlp_classifier.ipynb)
 
-## What is web scrapping ? 
+## What is web scraping? 
 
-Web scraping is the process of collecting and parsing raw data from the Web.Web scraping is a technique which helps data scientist to make their data-rich and is an efficient technique of data collection.
+Web scraping is the process of extracting and parsing raw data from the web. Web scraping is a technique which helps data scientist to make their data-rich and is an efficient technique of data collection.
 
-This world is full of data but unfortunately most of them are not in the form to be used. Data is like crude oil or technically we say it is in unstructured form .For a datascientist or engineer our first challenge is to make the data model consumption ready, which takes the majority of time and this whole process is collectively known as data preprocessing.
+This world is full of data, but unfortunately, most of them are not in the form to be used. Data is like crude oil, or we say it is in unstructured form. For a data scientist or engineer, our first challenge is to make the data model consumption ready, which takes the majority of the time, and this whole process is collectively known as data preprocessing.
 
-For performing webscrapping its necessary to know HTML which is one form of basic markup language which is the base framework of mostly all websites.
+HTML  is a form of primary markup language and the base framework of mostly all websites. For performing web scraping its necessary to know it
 
 Here we will start with requesting the web page using python package requests.
 
@@ -55,7 +54,7 @@ Here we will start with requesting the web page using python package requests.
 ```
 
 The whole web page is now stored in the variable object response.
-Then we parse the web page using beautiful soup package
+Then we parse the web page using beautiful soup package.
 
 ```python
   from bs4 import BeautifulSoup
@@ -63,12 +62,12 @@ Then we parse the web page using beautiful soup package
   type(html_soup)
 ```
 
-Then I will store all the div with class named lister-item mode-advanced in variable movie_containers.
+Then I will store all the div with the class named lister-item mode-advanced in variable movie_containers.
 
 ```python
 movie_containers = html_soup.find_all('div', class_ = 'lister-item mode-advanced')
 ```
-Then I iterate through this object and store the information in lists to make my final DataFrame , using simple for loops.
+Then I iterate through this object and store the information in lists to make my final DataFrame, using simple for loops.
 
 ```python
 # Lists to store the scraped data in
@@ -133,18 +132,18 @@ print(one_df.info())
 one_df.to_csv('50_movie_details.csv')
 ```
 
-But this was only for one page which has data for 50 movies only which is not enough to build a model .
+But this was only for one page which has data for 50 movies only which is not enough to build a model.
 
-Please refer my code to understand how I used simple for loops to iterate through all the movies and downloading data for 20 years(approx) data using simple technique.
+Please refer my code to understand how I use simple for loops to iterate through all the movies and downloading data for 20 years(approx).
 
 ## Implementing simple linear algorithms in numerical data we just scrapped
 
 Whats is linear regression??
 
-One of the most widely used of all statistical techniques
+It is one of the most popular and used statistical techniques
   • Used to understand the relationship between variables
   
-  • Can also be used to predict a value ofinterest for new observations
+  • Can also be used to predict a value of interest for new observations
   
   • The aim is to predict the value of a continuous numeric variable of interest (known as the response or dependent or target variable)
   
@@ -154,7 +153,7 @@ One of the most widely used of all statistical techniques
   
   • More predictors = multiple regression
 
-Here I just tried to use firstly metascore of movies to predict IMDB ratings and secondly I tried to enhance it by using metascore and votes to predict IMDB rating .This was a simple experiment I tried .
+Here I just tried to use metascore of movies firstly to predict IMDB ratings and secondly I wanted to enhance it by using metascore and votes to predict IMDB rating. 
 
 ```python
 ## ML model
@@ -203,12 +202,12 @@ mean_squared_error(y_test, y_pred)
 # 0.15729132122310804 good score
 ```
 
-I tried to scrape data from the IMDB site and then applied ML regression techniques on it. Later I found that the movies listed are multiclass like Logan belongs to Action, Drama, Sci-Fi.Which led me to think how to implement classifier model in the multilabel data .Usually the data we get in real world is mostly multilabelled like chatbot data the intent are many and like thies movies which are multiclass .
+I tried to scrape data from the IMDB site and then applied ML regression techniques on it. Later I found that the movies listed are multi-class like Logan belongs to Action, Drama, Sci-Fi, which led me to think about how to implement the classifier model in the multilabel data. Usually, the data we get in real-world is mostly multi labelled like chatbot data; the intent is many and like these movies which are multi-class.
 
-Here we will firstly see how we prep our data for multilabel classification.
+Here we will first see how we prep our data for multilabel classification.
 
 
-Here we as we have all tags in one single column which is not usable while we do classification , so we have to make separate columns for all labels and if the row doesn't belongs to that category it wil be filled by 0 else 1 .
+Here we as we have all tags in one single column which is not usable while we do classification, so we have to make separate columns for all labels, and if the row doesn't belong to that category, it will be filled by 0 else 1.
 ```python
 import os
 os.chdir('Desktop/web_scraping/imdb scrapper_ml/')
@@ -243,20 +242,20 @@ for i in range(0,6116):
 
 de.to_csv('multilabel_nlp_classification.csv')
 ```
-Now as our data is ready now we can start with NLP implementation.
+Now, as our data is ready, we can start with NLP implementation.
 
 For multilabel classification, I used techniques like classifier chain, label powerset, etc.
 
-Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to .This is popular use case take an example of ecommerce product description data , now instead of manually assigning the labels to it we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs .
+Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to. It is popular use case take an example of ecommerce product description data; now instead of manually assigning the labels to it, we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs.
 
-I start with Exploratory data analysis and then data cleaning which is most important step as if all the description has some very 30-50 common words it will simply make the data heavy and model slow and inneficient.
+I start with Exploratory data analysis and then data cleaning, which is the most crucial step as if all the description has some very 30-50 common words it will simply make the data-heavy and model slow and inefficient.
 
-Then we go on to make the data model ready as ML models don't understand text data we have to feed numbers in it. For that purpose we use TfidfVectorizer.
+Then we go on to make the data model ready as ML models don't understand text data we have to feed numbers in it. For that purpose, we use TfidfVectorizer.
 
 ### What is TfidfVectorizer?
-TfidfVectorizer - Transforms text to feature vectors that can be used as input to estimator.
+TfidfVectorizer - Transforms text to feature vectors that can be used as input to the estimator.
 
-Then simply diving the data in train and test split 
+Then simply diving the data in train and test split. 
 
 ```python
 x_train = vectorizer.transform(train_text)
@@ -268,8 +267,8 @@ y_test = test.drop(labels = ['id','movie decription'], axis=1)
 I tried first with applying logistic regression and one vs rest classifier.
 ### What is OneVsRestClassifier??
 
-OneVsRestClassifier strategy splits a multi-class classification into one binary classification problem per class
-OneVsRestClassifier is when we want to do multiclass or multilabel classification and it's strategy consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes. 
+OneVsRestClassifier strategy splits a multi-class classification into one binary classification problem per class.
+OneVsRestClassifier is when we want to do multi-class or multilabel classification, and its strategy consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes. 
 
 ```python
 # Using pipeline for applying logistic regression and one vs rest classifier
@@ -288,10 +287,10 @@ for category in categories:
     print('Test accuracy is {}'.format(accuracy_score(test[category], prediction)))
     print("\n")
 ```
-Next I tried with BinaryRelevance
+Next, I tried with BinaryRelevance
 
 ### What is BinaryRelevance?
-This is a simple technique which treats each label as a separate single class classification problem.
+It is a simple technique which treats each label as a separate single class classification problem.
 
 ```python
 # using binary relevance
@@ -309,10 +308,10 @@ classifier.fit(x_train, y_train)
 predictions = classifier.predict(x_test)
 ```
 
-Next I tried using ClassifierChain
+Next, I tried using ClassifierChain.
 
 ### What is ClassifierChain?
-This is almost similar to BinaryRelevance , here the first classifier is trained just on the input data and then each next classifier is trained on the input space and all the previous classifiers in the chain.  
+It is almost similar to BinaryRelevance, here the first classifier is trained just on the input data, and then each next classifier is trained on the input space and all the previous classifiers in the chain.  
 
 ```python
 from skmultilearn.problem_transform import ClassifierChain
@@ -329,7 +328,7 @@ classifier.fit(x_train, y_train)
 predictions = classifier.predict(x_test)
 ```
 
-Next I tried using Label Powerset
+Next, I tried using Label Powerset.
 
 ### What is LabelPowerset?
 Here we transform the problem into a multi-class problem with one multi-class classifier is trained on all unique label combinations found in the training data.
@@ -352,12 +351,12 @@ Please refer my notebook multilabel_nlp_classifier.ipynb from my repo for more d
 
 1) More feature engineering and data to avoid this overfitting and make more efficient pipeline
 
-2) If we collect more data , deep learning and state of art algorithms like BERT can help us to leverage the efficiency of the model.
+2) If we collect more data, deep learning and state of the art algorithms like BERT can help us to leverage the efficiency of the model.
 
 ## Summary:
 
 - We have learnt how to collect data by web scraping and tools to perform the same.
-- We performed the modelling techniques on in numerical data
+- We completed the modelling techniques on in numerical data
 - We prepared the label data to be model fed ready
-- We learnt how different ML techiques can be applied on text data and build a multilabel classifier .
+- We learnt how different ML techniques could be applied to text data and build a multilabel classifier.
 
