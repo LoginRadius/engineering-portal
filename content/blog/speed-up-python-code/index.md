@@ -7,7 +7,7 @@ author: "Md. Tahmid Hossain"
 
 # A Few Ways to Speed Up Your Python Code
 
-Python, one of the most popular languages all over the world. Now-a-days it is being used in compititive programming also because of it's simple syntax and rich libraries. Most the us probably started coding with Python. At first everything goes simple and easy. But when problem hard algorithmic problem most of us suffer from `Time Limit  Exceeded`. However it is not a problem of Python, it is the programmer's problem. It a programmer writes efficient programme it will get `Accepted` for sure. Here is some tips to speed up your python programme.
+Python, one of the most popular languages all over the world. Now-a-days it is being used in compititive programming also because of it's simple syntax and rich libraries. Most the us probably started coding with Python. At first everything goes simple and easy. But while solving hard algorithmic problem most of us suffer from `Time Limit  Exceeded`. However it is not a problem of Python, it is the programmer's problem. I am not saying that python is not slow but if a programmer writes efficient programme it will get `Accepted` for sure. Here is some tips to speed up your python programme.
 
 ## Use proper data structure
 
@@ -54,6 +54,18 @@ Python has `global` keyword to declare global variables. But global variables ta
 
 Do not write your own function (manually) if it is already in the library. Library functions are highly efficient and you will probably won't be able to code with that efficiency.
 
+## Concatenate strings with join
+
+In python, you can concatenate strings with `+` operation.
+```python
+concatenatedString = "Programming " + "is " + "fun."
+```
+It can also be done with `join()` method.
+```python
+concatenatedString = " ".join (["Programming", "is", "fun."])
+```
+`join()` concatenates strings faster than `+` operation. Because `+` operators creates a new strings and then copies the old content at each step. But `join()` doesn't work that way.
+
 ## Use generators
 
 If you have a large amount of data in your list and you need to use one data at a time and for once then use `generator`s. It will save your time.
@@ -85,9 +97,34 @@ val = sqrt(60)
 ```
 Because when you call a function using `.` (dot) it first calls `__getattribute()__` or `__getattr()__` which then use dictionary operation which costs time. So, try using `from module import function`.
 
+## Use 1 for infinity loops
+
+Use `while 1` instead of `while True`. It will reduce some runtime.
+
+## Try different approach
+
+Try new ways to write your code efficiently. See the below code.
+```python
+if a_condition:
+    if another_condition:
+        do_something
+else:
+    raise exception
+```
+Instead of the above code you can write:
+```python
+if (not a_condition) or (not another_condition):
+    raise exception
+do_something
+```
+
 ## Use speed up applications
 
 For python's slow speed, some projects have been taken to decrease runtime. Pypy and Numba two of them. In most of the programming contests you will see pypy if it allows python. This applications will reduce your programmes runtime.
+
+## Use special libraries to process large datasets
+
+C/C++ is really faster than python. So, many packages and modules have been written in C/C++ that you can use in your python programme. `Numpy`, `Scipy` and `Pandas` are three of them and are popular for processing large datasets.
 
 ## Use latest release of python
 
