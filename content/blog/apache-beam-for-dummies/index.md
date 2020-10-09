@@ -1,14 +1,13 @@
 ---
-title: "Apache Beam for Dummies - An introduction"
-date: "2020-10-07"
+title: "Apache Beam for Dummies - An introduction."
+date: "2020-10-16"
 coverImage: "main.png"
 author: "Abhilash K R"
 tags: ["Engineering","Big Data","Streaming","Apache Beam","Java"]
-description: "Learn the basics of apache beam by writing your first pipeline"
-
+description: "Learn the basics of apache beam by writing your first pipeline."
 ---
 
-Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. Processing of data can be categorized into 2 different paradigms. One is Batch Processing and other is Stream Processing. For different paradigms,  different technologies came into existence solving different problems in the big data world. For ex. Apache Spark, Apache Flink, Apache Storm etc. As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
+Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. Processing of data can be categorized into two different paradigms. One is Batch Processing, and other is Stream Processing. For different paradigms,  different technologies came into existence, solving various problems in the big data world, for, e.g. Apache Spark, Apache Flink, Apache Storm etc. As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
 
 
 ![Timeline of Big Data Frameworks](timeline-bigdata-frameworks.png)
@@ -16,29 +15,29 @@ Ever since the concept of big data got introduced to the programming world, a lo
 
 ## What is Apache Beam?
 
-Apache Beam (Batch + strEAM) is an open source, unified model for defining both batch and streaming data-parallel processing pipelines. 
+Apache Beam (Batch + strEAM) is an open-source, unified model for defining both batch and streaming data-parallel processing pipelines. 
 
-Unified Model as in beam exposes single API abstraction layer for both batch and stream processing jobs unlike other frameworks that have different APIs for batch and stream processing.
+Unified model as in beam exposes single API abstraction layer for both batch and stream processing jobs, unlike other frameworks that have different APIs for batch and stream processing.
 
 ![Beam-Model](beam_architecture.png)
 
 ## Unique Features of Apache Beam
 
-The unique features of beam are as follows:
+The unique features of the beam are as follows:
 
 1. Unified - Use a single programming model for both batch and streaming use cases.
-2. Portable - Execute pipelines on multiple execution environments. Here, execution environments mean different runners. Ex. Spark Runner, Dataflow Runner etc
+2. Portable - Execute pipelines in multiple execution environments. Here, execution environments mean different runners. Ex. Spark Runner, Dataflow Runner etc
 3. Extensible - Write custom SDKs, IO connectors, and transformation libraries.
 
 ## Beam SDKs and Runners
 
-As of today, beam has three progamming SDKs
+As of today, the beam has three programming SDKs
 
 1. Java
 2. Python
 3. Golang
 
-Beam Runners translate the beam pipeline to the API compatible backend processing of your choice. Beam currently supports runners that work with the following backends
+Beam Runners translate the beam pipeline to the API compatible backend processing of your choice. Beam currently supports runners that work with the following backends.
 
 1. Apache Spark
 2. Apache Flink
@@ -47,11 +46,11 @@ Beam Runners translate the beam pipeline to the API compatible backend processin
 5. Hazelcast Jet
 6. Twister2
 
-Direct Runner to run on the host machine which is basically used for testing purpose.
+Direct Runner to run on the host machine which is used for testing purpose.
 
 ## Basic Concepts in Apache Beam
 
-Apache Beam has 3 main abstractions. They are
+Apache Beam has three main abstractions. They are
 
 1. Pipeline
 2. PCollection
@@ -61,11 +60,11 @@ Apache Beam has 3 main abstractions. They are
 
 ### Pipeline:
 
-A pipeline is the first abstraction to be created. It holds the complete data processing job from start to finish including reading data, manipulating data and writing data to a sink. Every pipeline takes in options/parameters that indicate where and how to run. 
+A pipeline is the first abstraction to be created. It holds the complete data processing job from start to finish, including reading data, manipulating data and writing data to a sink. Every pipeline takes in options/parameters that indicate where and how to run. 
 
 ### PCollection:
 
-A pcollection is an abstraction of distributed data. A pcollection can be bounded i.e finite data or unbounded i.e infinite data. The initial pcollection is created by reading data from source. From then on, pcollections are source and sink of every step in the pipeline.
+A pcollection is an abstraction of distributed data. A pcollection can be bounded i.e. finite data or unbounded i.e. infinite data. The initial pcollection is created by reading data from the source. From then on, pcollections are the source and sink of every step in the pipeline.
 
 ### Transform:
 
@@ -87,7 +86,7 @@ Let's take a sample input. Name the file as `input.json`
 {"name": "Ojha"}
 ```
 
-The input should be newline delimited json.
+The input should be newline delimited JSON.
 
 Include the following dependencies in your `pom.xml`
 
@@ -143,7 +142,7 @@ Let's code the beam pipeline. Follow the steps
         }))
     ```
     
-    The filter transform takes a SerializableFunction Object where the `apply` method is overridden. Every json string record is converted to a json. The first character of the `name` is checked if it's a vowel. The transform is applied to each input json record. Based on the boolean value returned, the record is retained or discarded.
+    The filter transform takes a SerializableFunction Object where the `apply` method is overridden. Every json-string record is converted to a JSON. The first character of the `name` is checked if it's a vowel. The transform is applied to each input JSON record. Based on the boolean value returned, the record is retained or discarded.
 
 4. Write the results to a file
 
