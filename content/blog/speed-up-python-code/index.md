@@ -1,7 +1,7 @@
 ---
 title: Speed Up Python Code
 date: "2020-08-14"
-coverImage: "speed-up-python-code.jpg"
+coverImage: "speed-up-python-code-1.jpg"
 author: "Md. Tahmid Hossain"
 ---
 
