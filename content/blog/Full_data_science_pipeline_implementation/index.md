@@ -54,7 +54,7 @@ Here we will start with requesting the web page using python package requests.
 ```
 
 The whole web page is now stored in the variable object response.
-Then we parse the web page using beautiful soup package.
+Then we parse the web page using beautifulsoup package.
 
 ```python
   from bs4 import BeautifulSoup
@@ -207,7 +207,7 @@ I tried to scrape data from the IMDB site and then applied ML regression techniq
 Here we will first see how we prep our data for multilabel classification.
 
 
-Here we as we have all tags in one single column which is not usable while we do classification, so we have to make separate columns for all labels, and if the row doesn't belong to that category, it will be filled by 0 else 1.
+Here we have all tags in one single column which is not usable while we do classification, so we have to make separate columns for all labels, and if the row doesn't belong to that category, it will be filled by 0 else 1.
 ```python
 import os
 os.chdir('Desktop/web_scraping/imdb scrapper_ml/')
@@ -246,7 +246,7 @@ Now, as our data is ready, we can start with NLP implementation.
 
 For multilabel classification, I used techniques like classifier chain, label powerset, etc.
 
-Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to. It is popular use case take an example of ecommerce product description data; now instead of manually assigning the labels to it, we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs.
+Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to. It is a popular use case. Take an example of ecommerce product description data; now instead of manually assigning the labels to it, we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs.
 
 I start with Exploratory data analysis and then data cleaning, which is the most crucial step as if all the description has some very 30-50 common words it will simply make the data-heavy and model slow and inefficient.
 
