@@ -90,7 +90,7 @@ At this point, your index.js should look like this.
 
 ### Congratulations! 🎊
 
-That's it! You have created your first Twitter Bot which tweets content after directly calling it from an API. You may take a look at the [repository](https://github.com/Ninjavin/Twitter-Bot/) if you encountered any errors. Here, I have used different APIs to fetch content and tweet. Moreover, I have added a script which will search posts with a particular hashtag and like them. 
+That's it! You have created your first Twitter Bot which tweets content after directly calling it from an API. You may take a look at the [repository](https://github.com/Ninjavin/engineering-blog-samples/tree/master/NodeJs/TwitterBot) if you encountered any errors. Here, I have used different APIs to fetch content and tweet. Moreover, I have added a script which will search posts with a particular hashtag and like them. 
 
 > **While pushing your code to GitHub, make sure to add `.gitignore` file and include `node_modules` and `.env` in it.**
 
