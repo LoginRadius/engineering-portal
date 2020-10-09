@@ -21,7 +21,7 @@ std::string students[10];
 students[0] = "Adam";
 ```
 
-But wait, STL provides a container for arrays too. It's available in the header `array.h`. Example usage of it would look like this:
+But wait, STL provides a container for arrays too. It's available in the header `<array>`. Example usage of it would look like this:
 ```cpp
 #include <iostream>
 #include <string>
@@ -93,5 +93,5 @@ Other containers in C++ include:
 -- 
 
 ### STL - What next?
-Containers aren't the only part of STL. It is huge! You are encouraged to read up more on STL, as it makes your life easier in every manner! You don't need to reinvent the wheel. Next, you could try looking up the various algorithms contained in the STL. They're present in the header file `<algorithm.h>`. Good luck on your journey!
+Containers aren't the only part of STL. It is huge! You are encouraged to read up more on STL, as it makes your life easier in every manner! You don't need to reinvent the wheel. Next, you could try looking up the various algorithms contained in the STL. They're present in the header file `<algorithm>`. Good luck on your journey!
 
