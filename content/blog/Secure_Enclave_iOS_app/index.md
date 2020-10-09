@@ -7,6 +7,7 @@ tags: ["ios","objective-c","swift","security","data","encryption","private key",
 ---
 
 ## Introduction
+
 The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using sec enclave we can create the key, securely store key, and perform operations with key. Thus makes it difficult for the key to be compromised. 
 
 We usually save data persistently in the app using UserDefaults, Keychain, Core Data or SQLite.
@@ -21,18 +22,18 @@ In this blog, we will use Secure Enclave to generate key pair and use those in e
 Here I am gonna create a wrapper to generate key pair using Secure Enclave and use them to encrypt/decrypt sensitive data. And also a viewcontroller to show how to use wrapper to get encrypted and decrypted data.
 You may implement wrapper's methods as common methods and use wherever needed in project. But its recommended to use a separate wrapper for handling communication with Secure Enclave.
 
- ## Wrapper
+## Wrapper
  
  I have created .h and .m files named as SecEnclaveWrapper as subclass of NSObject.
  In .h file I am declaring function for being accessible from other classes like: 
  ```
  /**
- Return encrypted form of data
+ Return encrypted value of data using kSecKeyAlgorithmECIESEncryptionStandardX963SHA256AESGCM algo
  */
  - (NSData *_Nonnull)encryptData:(NSData *_Nonnull)data ;
  
 /**
-Return decryrpted value of encrypted data
+Return decryrpted data of encrypted data  using kSecKeyAlgorithmECIESEncryptionStandardX963SHA256AESGCM algo
 */
  - (NSData *_Nonnull)decryptData:(NSData *_Nonnull)data ;
  
@@ -87,7 +88,7 @@ The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'loo
     id keyClass;
     
     if (publicKeyRef != NULL) {
-        // already exists in memory, return
+        // if already resides in memory, return
         return publicKeyRef;
     }
     tag = [kPublicKeyName dataUsingEncoding:NSUTF8StringEncoding];
@@ -102,7 +103,7 @@ The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'loo
         (__bridge id) kSecAttrKeyClass : keyClass,
         (__bridge id) kSecReturnRef : (__bridge id) kCFBooleanTrue
     };
-    
+    //else look key in keychain and return
     sanityCheck = SecItemCopyMatching((__bridge CFDictionaryRef) queryDict, (CFTypeRef *) &publicKeyRef);
     if (sanityCheck != errSecSuccess) {
         NSLog(@"Error trying to retrieve key from server.  sanityCheck: %d", (int)sanityCheck);
@@ -117,7 +118,6 @@ The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'loo
     CFDictionarySetValue(getPrivateKeyRef, kSecAttrKeyClass, kSecAttrKeyClassPrivate);
     CFDictionarySetValue(getPrivateKeyRef, kSecAttrLabel, kPrivateKeyName);
     CFDictionarySetValue(getPrivateKeyRef, kSecReturnRef, kCFBooleanTrue);
-    //   CFDictionarySetValue(getPrivateKeyRef, kSecUseOperationPrompt, @"Authenticate to sign data");
     
     OSStatus status = SecItemCopyMatching(getPrivateKeyRef, (CFTypeRef *)&privateKeyRef);
     if (status == errSecItemNotFound)
@@ -140,7 +140,7 @@ Following methods will actually deal with Secure Enclave to generate private key
                                                                     );
     
     if (error != errSecSuccess) {
-        NSLog(@"Generate key error: %@\n", error);
+        NSLog(@"Generating key pair, error: %@\n", error);
     }
     
     return [self generateKeyPairWithAccessControlObject:sacObject];
@@ -148,7 +148,7 @@ Following methods will actually deal with Secure Enclave to generate private key
 
 - (bool) generateKeyPairWithAccessControlObject:(SecAccessControlRef)accessControlRef
 {
-    // create dict of private key info
+    // create dictionary of private key 
     CFMutableDictionaryRef accessControlDict = newCFDict;;
 #if !TARGET_IPHONE_SIMULATOR
     
@@ -157,7 +157,7 @@ Following methods will actually deal with Secure Enclave to generate private key
     CFDictionaryAddValue(accessControlDict, kSecAttrIsPermanent, kCFBooleanTrue);
     CFDictionaryAddValue(accessControlDict, kSecAttrLabel, kPrivateKeyName);
     
-    // create dict which actually saves key into keychain
+    // create dictionary for saving key into keychain
     CFMutableDictionaryRef generatePairRef = newCFDict;
 #if !TARGET_IPHONE_SIMULATOR
     
@@ -241,11 +241,12 @@ Now I am creating ViewController.h and .m files. In viewDidLoad in .m file, havi
 ```
 
 ## Conclusion
+
 In this blog, we learned about the basics of key generation via Secure Enclave and encryption and decryption using keys.
-By default asymmetric key-pairs are created and stored in the secure enclave. The private key is available only at creation time and can not be obtained later. Asymmetric operations that use the private key obtain it from the keychain without exposing it to user code.
+By default key-pairs are generated in the Secure Enclave. The private key is available only at creation time and can not be obtained later as it is saved in Secure Enclave. Operations can be performed with it without exposing it to user code. Only Public Key will be stored and retrieved.
  
 
- You can find the complete repository link ![here](https://github.com/tanvijn/SecureEnclaveDemo)
+You can find the complete repository link ![here](https://github.com/tanvijn/SecureEnclaveDemo)
 
 Also watch ![Youtube video](https://www.youtube.com/watch?v=c_1E_NV4NBk&list=PL3PS687CKFEGZP657wT-AzYGjQPOZBhpE&index=5) for ease and get ready to dive into implementation.
 
