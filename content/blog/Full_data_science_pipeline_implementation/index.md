@@ -13,7 +13,7 @@ Data enrichment is the process of combining first-party data from internal sourc
 
 Usually, the data available from clients or stakeholders are not enough to solve the given problem statement, like if a client comes with a problem statement to build a recommendation engine for his mutual fund industry, the usual data they have is old purchase data but that's not enough as client behaviour changes with time and is impacted by the present market condition, oil prices, etc. which needs to be incorporated in the model to make it efficient.
 
-Codes for this tutorial is at [Link](https://github.com/eaglewarrior/Full_pipeline_IMDB)
+Codes for this tutorial is at [Link](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Data_Science/Full_DataScience_Pipeline_Implementation)
 
 **The whole process id divided into four steps:**
 
