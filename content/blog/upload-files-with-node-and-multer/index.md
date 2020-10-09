@@ -1,6 +1,6 @@
 ---
 title: "Upload files using NodeJS + Multer"
-date: "2020-10-03"
+date: "2020-10-12"
 coverImage: "fb-feat-img-150x150.png" -> Adicionar
 author: Gabriel Rabelo
 tags: ["NodeJS", "Express", "Multer", "Upload Files"]
@@ -8,7 +8,7 @@ tags: ["NodeJS", "Express", "Multer", "Upload Files"]
 
 # Introduction
 
-When building APIs, the need to upload files is common, which can be images, text documents, scripts, pdfs, among others. In the development of this functionality, some problems can be found such as: number of files, valid file types, sizes of these files, and several others. And to solve this problem we have the [Multer](https://github.com/expressjs/multer) library. Multer is a node.js middleware for handling `multipart/form-data` that is used to send files in forms.
+When building APIs, the need to upload files is expected, which can be images, text documents, scripts, pdfs, among others. In the development of this functionality, some problems can be found, such as the number of files, valid file types, sizes of these files, and several others. And to save us from these problems we have the [Multer](https://github.com/expressjs/multer) library. Multer is a node.js middleware for handling `multipart/form-data` that is used to send files in forms.
 
 # First steps
 
@@ -43,7 +43,7 @@ With the project created, configured and with Express installed, we will add the
 yarn add multer
 ```
 
-The next step is to import the multer into our `app.js` file
+The next step is to import the multer into our `app.js` file.
 
 ```jsx
 const multer = require("multer")
@@ -53,7 +53,7 @@ We are almost there. Now create a folder called `uploads` where we will store th
 
 # Configuring and validating the upload
 
-Now we are at a very important stage which is the configuration of `diskStorage`. `DiskStorage` is a method made available by multer where we configure the destination of the file, the name of the file and we can also add validations regarding the type of the file. These settings are according to the needs of your project. Below I will leave a very simple example of configuration.
+Now we are at a very important stage which is the configuration of `diskStorage`. `DiskStorage` is a method made available by multer where we configure the destination of the file, the name of the file and we can also add validations regarding the type of the file. These settings are according to the needs of your project. Below I will leave an elementary example of the configuration.
 
 ```jsx
 const storage = multer.diskStorage({
@@ -66,7 +66,7 @@ const storage = multer.diskStorage({
 })
 ```
 
-In the configuration above, we indicate the destination for the files received in the upload and the change in the name of this file is also made.
+In the configuration above, we mentioned the destination for the uploaded files and also change the name of the file .
 
 # Providing an upload route
 
@@ -86,7 +86,7 @@ app.post("/upload/multiple", uploadStorage.array("file", 10), (req, res) => {
 })
 ```
 
-In the code snippet above we created 2 POST routes for sending files. The first `/upload/single` route receives only a single file, note that the uploadStorage variable receives our diskStorage settings and as a middleware in the route, it calls the `single` method for uploading a single file. The `/upload/multiple` route receives several files, but with a maximum limit of 10 files, note that the uploadStorage variable now calls the ʻarray` method for uploading multiple files.
+In the code snippet above, we created 2 POST routes for sending files. The first `/upload/single` route receives only a single file, note that the uploadStorage variable receives our diskStorage settings. As a middleware in the route, it calls the `single` method for uploading a single file. The `/upload/multiple` route receives several files, but with a maximum limit of 10 files, note that the uploadStorage variable now calls the ʻarray` method for uploading multiple files.
 
 # The end
 
@@ -125,4 +125,4 @@ app.listen(3000 || process.env.PORT, () => {
 })
 ```
 
-Now it's up to you !
+Now it's up to you!
