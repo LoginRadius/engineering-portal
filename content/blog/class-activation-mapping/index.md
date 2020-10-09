@@ -1,6 +1,6 @@
 ---
 title: "Class Activation Mapping in Deep Learning"
-date: "2020-10-06"
+date: "2020-10-10"
 coverImage: "Cover.png"
 author: "Ankit Choraria"
 tags: ["Explainable AI", "Deep Learning", "CNN", "Machine Learning"]
