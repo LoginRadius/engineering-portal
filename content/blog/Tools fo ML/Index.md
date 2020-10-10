@@ -1,8 +1,8 @@
 ---
 Title: Famous tools for Machine Learning
-Date:06-10-2020
+Date:10-10-2020
 author:"Abhishek Kumar"
-coverImage: cover-image.png
+coverImage: cover.jpg
 description:The blog is mainly describes about the technology about ML
 ---
 Famous tools for Machine Learning
