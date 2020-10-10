@@ -116,7 +116,5 @@ if __name__=="__main__":
 > Save the program and execute the it to check the working of the telegram bot on telegram.
 
 
-You can get the source code to make the Telegram bot from this Github Repository. [Bot :robot:](https://github.com/rjn01/TelegramBot) or
-You can also make some changes to the code to make the bot do cool stuff such as Getting News, Articles or Movies recommendations.
-You can check this [github repository](https://github.com/rjn01/Wiki-Bot) for making changes to the program.
+You can get the source code to make the Telegram bot from this Github Repository [Bot :robot:](https://github.com/LoginRadius/engineering-blog-samples/tree/master/TelegramBot). You can also make some changes to the code to make the bot do cool stuff such as Getting News, Articles or Movies recommendations.
 
