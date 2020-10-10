@@ -27,13 +27,13 @@ It is designed to make web-scale cloud computing easier for developers. <br>
 **Here are some of the important steps while setting up new EC2 Instance->** <br>
 
 Choose an Amazon AMI.
-![AWS](AWS_EC21.PNG)
+![AWS](AWS_EC21.png)
 
 Choose instance type.
-![AWS](AWS_EC22.PNG)
+![AWS](AWS_EC22.png)
 
 Configure security group(It allows specific IP's that user will give permission to specific ports as per requirement.)
-![AWS](AWS_EC23.PNG)
+![AWS](AWS_EC23.png)
 
 
 
@@ -49,7 +49,7 @@ sudo su
 Amazon Relational Database Service is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
 After setting up RDS you can logged in to local tool(SQL Developer/ MY SQL Workbench) and copy endpoint of RDS with Username/Password configured while setting RDS.
 
-![Available Databases](AWS_RDS.PNG)
+![Available Databases](AWS_RDS.png)
 
 ## AWS Elasti Cache
 Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud.This service is commonly used to avoid unnecessary calls to RDS and impriving the user experience by displaying the data at faster rate.
@@ -68,7 +68,7 @@ There are few components of BOT that need to be understood in order to build it.
 - Slots:- Data provided by user to fulfill the intent.
 - Prompts:-These are queris/questions asked by user to input the data.
 
-![AWS Lex](AWS_Lex.PNG)
+![AWS Lex](AWS_Lex.png)
 
 
 ## AWS API Gateway
@@ -85,6 +85,6 @@ In this there are different terminologies as that of normal database.Secondary I
 - Partition & Sort Keys
 - Local & Global Secondary Indexes
 
-![AWS Dynammo](AWS_Dynammo.PNG)
+![AWS Dynammo](AWS_Dynammo.png)
 
 
