@@ -1,3 +1,14 @@
+# What's a Decentralized autonomous organisation(DAO)?
+
+<meta>
+Title - What's a Decentralized autonomous organisation(DAO)?
+Date - 2020-10-10
+coverImage - DAO.jpeg
+author - Hritwik Tripathi
+tags - #blockchain #distributedsystems #computerscience #DAO
+</meta>
+
+
 **Disclaimer: I have tried to do a lot of research on this topic but I am not 100% sure if everything aligns right. I can say that I am 92% sure. Also this is my personal view and we can have different opinions on a specific topic so feel free to jam pack the comments section if you feel different. Also DAO and blockchain are banned in some countries so please refer to your federal laws before making a DAO.**
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/e6lizqfhnlt10akki004.jpg)
