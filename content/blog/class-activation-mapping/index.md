@@ -22,22 +22,23 @@ The Global Average Pooling (GAP) is preferred over Global Max Pooling (GMP) beca
 
 ### Mathematical equations governing CAMs
 
-Let $f(x,y)$ be the activation map of unit $k$ in the last convolutional layer at spatial location $(x,y)$.
+Let `f(x,y)` be the activation map of unit `k` in the last convolutional layer at spatial location `(x,y)`.
 
 _The result of GAP is represented as:-_
 
-$$\Large F_{k}= \sum_{x,y}f_{k}(x,y)$$
+```\Large F_{k}= \sum_{x,y}f_{k}(x,y)```
 
 _For a class c, an input to the softmax will be:-_
 
-$$\Large S_{c}= \sum_{k}w^{c}_{k}F_{k}$$
+```\Large S_{c}= \sum_{k}w^{c}_{k}F_{k}```
 
 _Output of Softmax layer:-_
 
-$$\Large P_{c}=\frac{e^{S_{c}}}{\sum_{c}e^{S_{c}}}$$
+```\Large P_{c}=\frac{e^{S_{c}}}{\sum_{c}e^{S_{c}}}```
+
 Thus, **the final equation** for an activation map of class c would be:- 
 
-$$\Large M_{c}(x,y)=\sum_{k}w^{c}_{k}f_{k}(x,y)$$
+```\Large M_{c}(x,y)=\sum_{k}w^{c}_{k}f_{k}(x,y)```
   
 
 ### Weakly-supervised Object Localization
