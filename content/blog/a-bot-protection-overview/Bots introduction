@@ -1,0 +1,48 @@
+# What Are Bots
+An Internet bot is a software application that runs automated tasks over the internet. Tasks run by bots are typically simple and performed at a much higher rate compared to human Internet activity.
+
+Some bots are legitimate—for example, Googlebot is an application used by Google to crawl the Internet and index it for search. Other bots are malicious—for example, bots used to automatically scan websites for software vulnerabilities and execute simple attack patterns.
+
+# What Is a Botnet
+There are many types of malware that infect end-user devices, with the objective of enlisting them into a botnet. Any device that becomes infected starts communicating with a Command and Control (C&C) center and can perform automated activities under the attacker’s central control.
+
+Many threat actors are actively engaged in building massive botnets, with the biggest ones spanning millions of computers. Often, the botnet can grow itself, for example by using infected devices to send out spam emails, which can infect more machines.
+
+Botnet owners use them for large-scale malicious activity, commonly Distributed Denial of Service (DDoS) attacks. Botnets can also be used for any other malicious bot activity, such as spam bots or social bots (described below), albeit on a much larger scale.
+
+# Types of Bots
+There are many types of bots active on the Internet, both legitimate and malicious. Below are several common examples.
+
+# Spider Bots
+Spider bots, also known as web spiders or crawlers, browse the web by following hyperlinks, with the objective of retrieving and indexing web content. Spiders download HTML and other resources, such as CSS, JavaScript, and images, and use them to process site content.
+
+If you have a large number of web pages, you can place a robots.txt file in the root of your web server, and provide instructions to bots, specifying which parts of your site they can crawl, and how frequently.
+
+# Scraper Bots
+Scrapers are bots that read data from websites with the objective of saving them offline and enabling their reuse. This may take the form of scraping the entire content of web pages or scraping web content to obtain specific data points, such as names and prices of products on eCommerce sites.
+
+Web scraping is a gray area -in some cases, scraping is legitimate and may be permitted by website owners. In other cases, bot operators may be violating website terms of use, or worse—leveraging scraping to steal sensitive or copyrighted content.
+
+# Spam Bots
+A spambot is an Internet application designed to gather email addresses for spam mailing lists. A spam bot can gather emails from websites, social media websites, businesses and organizations, leveraging the distinctive format of email addresses.
+
+After attackers have amassed a large list of email addresses, they can use them not only to send spam email, but also for other nefarious purposes:
+
+Credential cracking—pairing emails with common passwords to gain unauthorized access to accounts.
+Form spam—automatically inserting spam, such as ads or malware links, into forms on popular websites, typically comment or feedback forms.
+Apart from the direct damage caused to end-users and organizations affected by spam campaigns, spam bots can also choke server bandwidth and increase costs for Internet Service Providers (ISPs).
+
+# Social Media Bots
+Bots are operated on social media networks, and used to automatically generate messages, advocate ideas, act as a follower of users, and as fake accounts to gain followers themselves. It is estimated that 9-15% of Twitter accounts are social bots.
+
+Social bots can be used to infiltrate groups of people and used to propagate specific ideas. Since there is no strict regulation governing their activity, social bots play a major role in online public opinion.
+
+Social bots can create fake accounts (although this is becoming more difficult as social networks become more sophisticated), amplify the bot operator’s message, and generate fake followers/likes. It is difficult to identify and mitigate social bots, because they can exhibit very similar behavior to that of real users.
+
+# Download Bots
+Download bots are automated programs that can be used to automatically download software or mobile apps. They can be used to influence download statistics, for example to gain more downloads on popular app stores and help new apps get to the top of the charts. They can also be used to attack download sites, creating fake downloads as part of an application-layer Denial of Service (DoS) attack.
+
+# Ticketing Bots
+Ticketing Bots are an automated way to purchase tickets to popular events, with the aim of reselling those tickets for a profit. This activity is illegal in many countries, and even if not prohibited by law, it is an annoyance to event organizers, ticket sellers and consumers.
+
+Ticketing bots tend to be very sophisticated, emulating the same behaviors as human ticket buyers. In many ticketing domains, the proportion of tickets purchased by automated bots ranges between 40-95%.
