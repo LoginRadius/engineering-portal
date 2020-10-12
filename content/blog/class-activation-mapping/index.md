@@ -22,24 +22,23 @@ The Global Average Pooling (GAP) is preferred over Global Max Pooling (GMP) beca
 
 ### Mathematical equations governing CAMs
 
-Let `f(x,y)` be the activation map of unit `k` in the last convolutional layer at spatial location `(x,y)`.
+Let ![Equation 1](https://latex.codecogs.com/png.latex?f%28x%2Cy%29) be the activation map of unit ![Equation 2](https://latex.codecogs.com/png.latex?k) in the last convolutional layer at spatial location ![Equation 3](https://latex.codecogs.com/png.latex?%28x%2Cy%29).
 
 _The result of GAP is represented as:-_
 
-```\Large F_{k}= \sum_{x,y}f_{k}(x,y)```
+![Equation 4](https://latex.codecogs.com/png.latex?F_%7Bk%7D%3D%20%5Csum_%7Bx%2Cy%7Df_%7Bk%7D%28x%2Cy%29)
 
 _For a class c, an input to the softmax will be:-_
 
-```\Large S_{c}= \sum_{k}w^{c}_{k}F_{k}```
+![Equation 5](https://latex.codecogs.com/png.latex?S_%7Bc%7D%3D%20%5Csum_%7Bk%7Dw%5E%7Bc%7D_%7Bk%7DF_%7Bk%7D)
 
 _Output of Softmax layer:-_
 
-```\Large P_{c}=\frac{e^{S_{c}}}{\sum_{c}e^{S_{c}}}```
+![Equation 6](https://latex.codecogs.com/png.latex?P_c%3D%20%5Cfrac%7Be%5E%7BS_c%7D%7D%7B%5Csum_ce%5E%7BS_c%7D%7D)
 
 Thus, **the final equation** for an activation map of class c would be:- 
 
-```\Large M_{c}(x,y)=\sum_{k}w^{c}_{k}f_{k}(x,y)```
-  
+![Equation 7](https://latex.codecogs.com/png.latex?M_%7Bc%7D%28x%2Cy%29%3D%5Csum_%7Bk%7Dw%5E%7Bc%7D_%7Bk%7Df_%7Bk%7D%28x%2Cy%29)  
 
 ### Weakly-supervised Object Localization
 
