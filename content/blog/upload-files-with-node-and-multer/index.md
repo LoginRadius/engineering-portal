@@ -1,9 +1,9 @@
 ---
 title: "Upload files using NodeJS + Multer"
 date: "2020-10-12"
-coverImage: "fb-feat-img-150x150.png" -> Adicionar
+coverImage: "node-multer-upload.png"
 author: Gabriel Rabelo
-tags: ["NodeJS", "Express", "Multer", "Upload Files"]
+tags: ["NodeJS", "Express", "Multer"]
 ---
 
 # Introduction
@@ -26,7 +26,7 @@ yarn add express
 
 Create a file named `app.js` inside the `src/` folder. The next step is to start our Express server in our `app.js`
 
-```jsx
+```js
 const express = require("express")
 const app = express()
 
@@ -39,7 +39,7 @@ app.listen(3000 || process.env.PORT, () => {
 
 With the project created, configured and with Express installed, we will add the multer to our project.
 
-```jsx
+```js
 yarn add multer
 ```
 
@@ -55,7 +55,7 @@ We are almost there. Now create a folder called `uploads` where we will store th
 
 Now we are at a very important stage which is the configuration of `diskStorage`. `DiskStorage` is a method made available by multer where we configure the destination of the file, the name of the file and we can also add validations regarding the type of the file. These settings are according to the needs of your project. Below I will leave an elementary example of the configuration.
 
-```jsx
+```js
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "uploads/")
@@ -70,7 +70,7 @@ In the configuration above, we mentioned the destination for the uploaded files 
 
 # Providing an upload route
 
-```jsx
+```js
 const uploadStorage = multer({ storage: storage })
 
 // Single file
@@ -92,7 +92,7 @@ In the code snippet above, we created 2 POST routes for sending files. The first
 
 With all the settings done, our little API is already able to store the files sent.
 
-```jsx
+```js
 const express = require("express")
 const multer = require("multer")
 
