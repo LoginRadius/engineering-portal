@@ -67,6 +67,5 @@ As soon as the github page is enabled on a branch, github automatically creates 
 - If you are not familiar with git or a person who is not a developer, setting up and customising jekyll may be a bit tough for you. You can look at wordpress or blogger, where all the things are get done using UI. 
 
 - You don't know much about blogging and looking for a ready-made solution, jekyll may not be a right fit. 
-It is always nice to have someone, hold your back. Lets get started with blogging using Jekyll & Github pages.
 
-Happy blogging!!
+Lets get started with blogging using Jekyll & Github pages. Happy blogging!!
