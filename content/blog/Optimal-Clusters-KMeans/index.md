@@ -1,7 +1,7 @@
 ---
 title: Optimal clusters for KMeans Algorithm
 date: "2020-10-12"
-coverImage: "cover.png"
+coverImage: "cover.jpg"
 author: "Neeraj Ap"
 tags: ["Machine Learning"]
 ---
@@ -38,7 +38,7 @@ We've got only two variables, x and y coordinates.
 
 Now, if we run the K means clustering algorithm on this dataset with three clusters or with K pre-determine the clusters to be three, then the result will look something like this.
 
-![intial](intial.png)
+![initial](initial.png)
 
 
 We need a specific metric, we need a way to understand or evaluate how a certain number of clusters performs compared to a different number of clusters, and preferably, that metric should be quantifiable.
