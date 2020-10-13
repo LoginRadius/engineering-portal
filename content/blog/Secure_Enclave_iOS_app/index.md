@@ -3,7 +3,7 @@ title: "Securer Enclave in iOS App"
 date: "2020-10-13"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
-description: "SecureEnclaveDemo is an xcode project containing helper named as "SecEnclaveWrapper". You can use this wrapper in your project to encrypt/decrypt sensitive data using Secure Enclave. Let's understand more about in the blog."
+description: "SecureEnclaveDemo is an xcode project containing helper named as SecEnclaveWrapper. You can use this wrapper in your project to encrypt/decrypt sensitive data using Secure Enclave. Let's understand more about in the blog."
 tags: ["ios","security","data","encryption","private key","xcode"]
 ---
 
