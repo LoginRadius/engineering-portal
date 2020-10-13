@@ -3,6 +3,7 @@ title: "Securer Enclave in iOS App"
 date: "2020-10-13"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
+description: "SecureEnclaveDemo is an xcode project containing helper named as "SecEnclaveWrapper". You can use this wrapper in your project to encrypt/decrypt sensitive data using Secure Enclave. Let's understand more about in the blog."
 tags: ["ios","security","data","encryption","private key","xcode"]
 ---
 
@@ -246,7 +247,7 @@ In this blog, we learned about the basics of key generation via Secure Enclave a
 By default, key-pairs are generated in the Secure Enclave. The private key is available only at creation time and can not be obtained later as it is saved in Secure Enclave. Operations can be performed with it without exposing it to user code. Only Public Key will be stored and retrieved.
  
 
-You can find the complete repository link [here](https://github.com/tanvijn/SecureEnclaveDemo)
+You can find the complete repository link [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/iOS/SecureEnclave/SecureEnclaveDemo)
 
 Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c_1E_NV4NBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
