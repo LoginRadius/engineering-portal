@@ -1,5 +1,5 @@
 ---
-title: "Securer Enclave in iOS App"
+title: "Secure Enclave in iOS App"
 date: "2020-10-13"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
