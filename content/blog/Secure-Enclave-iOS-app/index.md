@@ -9,7 +9,7 @@ tags: ["ios","security","data","encryption","private key","xcode"]
 
 ## Introduction
 
-The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using a sec enclave, we can create the key, securely store the key, and perform operations with the key. Thus makes it difficult for the key to be compromised. 
+The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using a secure enclave, we can create the key, securely store the key, and perform operations with the key. Thus makes it difficult for the key to be compromised. 
 
 We usually save data persistently in the app using UserDefaults, Keychain, Core Data or SQLite.
 For example, To save the session of logged in user, we save username and password. But this process puts our data at high-security risk. So it's always recommended to store sensitive data in an encrypted format. But again, it's a challenge to secure keys used in encryption/decryption.
