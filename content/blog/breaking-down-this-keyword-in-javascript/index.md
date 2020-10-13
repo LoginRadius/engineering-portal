@@ -1,5 +1,5 @@
 ---
-title : "Breaking down the 'this' keyword in Javascript."
+title : "Breaking down the 'this' keyword in Javascript"
 date: "2020-10-06"
 coverImage: "this-image.png"
 author: "Efereyan Karen"

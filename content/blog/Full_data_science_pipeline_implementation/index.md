@@ -1,5 +1,5 @@
 ---
-title: " Full data science pipeline implementation."
+title: " Full data science pipeline implementation"
 date: "2020-10-09"
 coverImage: "ds.jpg"
 author: "Rinki Nag"
