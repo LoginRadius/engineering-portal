@@ -3,7 +3,7 @@ title: STL Containers & Data Structures in C++
 date: "2020-10-13"
 coverImage: "cover.jpg"
 author: "Aryan Rawlani"
-tags: "C++", "STL"
+tags: ["C++", "STL"]
 ---
 
 ## What is STL?
