@@ -1,7 +1,7 @@
 ---
 title: IoT and AI - The Perfect Macth
 date: "2020-10-12"
-coverImage: "AI & IoT-The Perfect Match.jpg"
+coverImage: "cover.jpg"
 author: "Devansh Agarwal"
 ---
 
