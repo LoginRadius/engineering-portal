@@ -1,17 +1,17 @@
 ---
 title: "Securer Enclave in iOS App"
-date: "2020-10-07"
+date: "2020-10-13"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
-tags: ["ios","objective-c","swift","security","data","encryption","private key","secure enclave","persistent","decryption","keychain","xcode","mac","public key"]
+tags: ["ios","security","data","encryption","private key","xcode"]
 ---
 
 ## Introduction
 
-The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using sec enclave we can create the key, securely store key, and perform operations with key. Thus makes it difficult for the key to be compromised. 
+The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using a secure enclave, we can create the key, securely store the key, and perform operations with the key. Thus makes it difficult for the key to be compromised. 
 
 We usually save data persistently in the app using UserDefaults, Keychain, Core Data or SQLite.
-For ex. - To save session of logged in user, we save username and password. But this process puts our data at high security risk. So it's always recommended to store sensitive data in encrypted format. But again it's a challenge to secure keys used in encryption/decryption.
+For example, To save the session of logged in user, we save username and password. But this process puts our data at high-security risk. So it's always recommended to store sensitive data in an encrypted format. But again, it's a challenge to secure keys used in encryption/decryption.
 
 ![Secure Enclave](image2.jpg)
 
@@ -19,14 +19,14 @@ Now here **Secure Enclave** comes in the role.
 
 In this blog, we will use Secure Enclave to generate key pair and use those in encryption/decryption of sensitive data further.
 
-Here I am gonna create a wrapper to generate key pair using Secure Enclave and use them to encrypt/decrypt sensitive data. And also a viewcontroller to show how to use wrapper to get encrypted and decrypted data.
-You may implement wrapper's methods as common methods and use wherever needed in project. But its recommended to use a separate wrapper for handling communication with Secure Enclave.
+Here I will create a wrapper to generate key pair using Secure Enclave and use them to encrypt/decrypt sensitive data. And also a viewcontroller to show how to use a wrapper to get encrypted and decrypted data.
+You may implement wrapper's methods as common methods and use wherever needed in the project. But its recommended to use a separate wrapper for handling communication with Secure Enclave.
 
 ## Wrapper
  
- I have created .h and .m files named as SecEnclaveWrapper as subclass of NSObject.
+ I have created .h and .m files named as SecEnclaveWrapper as a subclass of NSObject.
  In .h file I am declaring function for being accessible from other classes like: 
- ```
+ ```objective-c
  /**
  Return encrypted value of data using kSecKeyAlgorithmECIESEncryptionStandardX963SHA256AESGCM algo
  */
@@ -38,15 +38,15 @@ Return decryrpted data of encrypted data  using kSecKeyAlgorithmECIESEncryptionS
  - (NSData *_Nonnull)decryptData:(NSData *_Nonnull)data ;
  
 /**
-Return an initialized instance of wrapper
+Return an initialized instance of the wrapper
 */
  - (instancetype)init;
 ````
 
-Then in .m file, define following methods as : 
+Then in .m file, define the following methods as : 
 
-The method 'init' initializes and return object of this wrapper class. And 'encryptData' and 'decryptData' method return encrypted data and decrypted data of encrypted data respectively.
-```
+The method `init` initializes and returns the object of this wrapper class. And 'encryptData' and 'decryptData' method return encrypted data and decrypted data of encrypted data, respectively.
+```objective-c
 - (instancetype)init {
     self = [super init];
     
@@ -79,8 +79,8 @@ The method 'init' initializes and return object of this wrapper class. And 'encr
 }
 ```
 
-The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'lookupPrivateKeyRef' method search for private key and return key if found.
-```
+The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'lookupPrivateKeyRef' method search for the private key and return key if found.
+```objective-c
 - (SecKeyRef) lookupPublicKeyRef
 {
     OSStatus sanityCheck = noErr;
@@ -127,8 +127,8 @@ The 'lookupPublicKeyRef' method below will lookup keychain for public key & 'loo
 }
 ```
 
-Following methods will actually deal with Secure Enclave to generate private key and public key.
-```
+The following methods will actually deal with Secure Enclave to generate a private key and public key.
+```objective-c
 - (bool) generatePasscodeKeyPair
 {
     CFErrorRef error = NULL;
@@ -180,7 +180,7 @@ Following methods will actually deal with Secure Enclave to generate private key
 ```
 
 The private key is generated and stored in Secure Enclave which cannot be directly used. Whereas public key have to be stored manually in keychain by following method.
-```
+```objective-c
 - (bool) savePublicKeyFromRef:(SecKeyRef)publicKeyRef
 {   OSStatus sanityCheck = noErr;
     NSData *tag;
@@ -219,8 +219,8 @@ The private key is generated and stored in Secure Enclave which cannot be direct
 ```
 ## Demo
 
-Now I am creating ViewController.h and .m files. In viewDidLoad in .m file, having a string to be stored in UserDefaults. I will encrypt this string by private key generated above and then store persistently encrypted data for later use.
-```
+Now I am creating ViewController.h and .m files. In viewDidLoad in .m file, having a string to be stored in UserDefaults. I will encrypt this string by a private key generated above and then store persistently encrypted data for later use.
+```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString *strDatatosave = @"example data to save";
@@ -243,10 +243,10 @@ Now I am creating ViewController.h and .m files. In viewDidLoad in .m file, havi
 ## Conclusion
 
 In this blog, we learned about the basics of key generation via Secure Enclave and encryption and decryption using keys.
-By default key-pairs are generated in the Secure Enclave. The private key is available only at creation time and can not be obtained later as it is saved in Secure Enclave. Operations can be performed with it without exposing it to user code. Only Public Key will be stored and retrieved.
+By default, key-pairs are generated in the Secure Enclave. The private key is available only at creation time and can not be obtained later as it is saved in Secure Enclave. Operations can be performed with it without exposing it to user code. Only Public Key will be stored and retrieved.
  
 
-You can find the complete repository link ![here](https://github.com/tanvijn/SecureEnclaveDemo)
+You can find the complete repository link [here](https://github.com/tanvijn/SecureEnclaveDemo)
 
-Also watch ![Youtube video](https://www.youtube.com/watch?v=c_1E_NV4NBk&list=PL3PS687CKFEGZP657wT-AzYGjQPOZBhpE&index=5) for ease and get ready to dive into implementation.
-
+Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c_1E_NV4NBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
