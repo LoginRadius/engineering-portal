@@ -3,12 +3,13 @@ title: "Build A Twitter Bot Using NodeJS"
 date: "2020-10-14"
 coverImage: "cover.jpg"
 author: "Vineeta Jain"
+description: "Learn how to create a twitter bot using NodeJS that let us tweet using the command line directly"
 tags: ["Nodejs", "Twitter", "Bot"]
 ---
 
 ## Build a Twitter Bot with NodeJs
 
-Hey there! In this blog post, we will build a twitter bot that lets us tweet using the command line directly. 
+Hey there! In this blog post, we will build a twitter bot that let us tweet using the command line directly. 
 
 > [Node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/) (or, yarn) must be installed on your system. 
 
