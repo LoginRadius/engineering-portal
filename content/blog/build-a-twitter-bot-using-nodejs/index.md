@@ -1,6 +1,6 @@
 ---
 title: "Build A Twitter Bot Using NodeJS"
-date: "2020-10-02"
+date: "2020-10-14"
 coverImage: "cover.jpg"
 author: "Vineeta Jain"
 tags: ["Nodejs", "Twitter", "Bot"]
@@ -8,7 +8,7 @@ tags: ["Nodejs", "Twitter", "Bot"]
 
 ## Build a Twitter Bot with NodeJs
 
-Hey there! In this blog post we will build a twitter bot which lets us tweet using the command line directly. 
+Hey there! In this blog post, we will build a twitter bot that lets us tweet using the command line directly. 
 
 > [Node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/) (or, yarn) must be installed on your system. 
 
@@ -22,7 +22,7 @@ To be able to access Twitter API, you need a Twitter Developer Account. Apply fo
 
 ![Twitter Developer Account](twitter.png)
 
-It will ask you to login. Select appropriate settings after logging in. It will also generate **keys** and **secret tokens** like Consumer Key, Consumer Secret, Access Token Key, Access Token Secret. Copy and save them somewhere for future use. 
+It will ask you to log in. Select appropriate settings after logging in. It will also generate **keys** and **secret tokens** like Consumer Key, Consumer Secret, Access Token Key, Access Token Secret. Copy and save them somewhere for future use. 
 
 ### 2. Setup Project
 
@@ -34,9 +34,9 @@ Since our project will be dependent on **twitter** client library, it's time we 
 
 ### 3. Setup Files
 
-Now we will start with the actual coding part. At the moment, your project folder will have a `node_modules` folder, a `package.json` file and a `package-lock.json` file. If you have gone with the default options while running `npm init`, then `index.js` is the file we will be working upon.
+Now we will start with the actual coding part. At the moment, your project folder will have a `node_modules` folder, a `package.json` file, and a `package-lock.json` file. If you have gone with the default options while running `npm init`, then `index.js` is the file we will be working upon.
 
-Open `index.js`. To be able to use the **twitter** library which we have installed, you need to include it in `index.js`. 
+Open `index.js`. To be able to use the **twitter** library, which we have installed, you need to include it in `index.js`. 
 
 `var Twitter = require('twitter');`
 
@@ -51,9 +51,9 @@ var client = new Twitter({
 });
 ```
 
-**Do not add your Consumer or Access Token keys or secrets directly in the `index.js`.** These should be managed accordingly using *enviroment variables*.
+**Do not add your Consumer or Access Token keys or secrets directly in the `index.js`.** These should be managed accordingly using *environment variables*.
 
-> We will use `dotenv` library to manage our enviroment variables in NodeJS.  Run `npm install dotenv` and follow [these](https://www.npmjs.com/package/dotenv#usage) instructions. Your `.env` will look something like this.
+> We will use `dotenv` library to manage our environment variables in NodeJS.  Run `npm install dotenv` and follow [these](https://www.npmjs.com/package/dotenv#usage) instructions. Your `.env` will look something like this.
 
 ```js
 CONSUMER_KEY=........................................
@@ -64,11 +64,11 @@ ACCESS_TOKEN_SECRET=.................................
 
 ### 4. Start Coding 🎯
 
-I will use [Official Joke API](https://github.com/15Dkatz/official_joke_api) to automatically fetch content for my tweet. You can visit the repository and learn more about the endpoints. But the only [endpoint](https://github.com/15Dkatz/official_joke_api#grab-a-random-joke) we will work with is [random_joke](https://official-joke-api.appspot.com/random_joke). Click on this and you will receive a JSON response with fields id, type, setup and punchline. The fields we are concerned with are setup and punchline. 
+I will use [Official Joke API](https://github.com/15Dkatz/official_joke_api) to automatically fetch content for my tweet. You can visit the repository and learn more about the endpoints. But the only [endpoint](https://github.com/15Dkatz/official_joke_api#grab-a-random-joke) we will work with is [random_joke](https://official-joke-api.appspot.com/random_joke). Click on this, and you will receive a JSON response with fields id, type, setup, and punchline. The fields we are concerned with are setup and punchline. 
 
 We will use [axios](https://github.com/axios/axios) for calling the API endpoint. Run `npm install axios` and add `var axios = require('axios');` in `index.js`.
 
-Now everything has been laid out. We need to connect the dots. The Official Joke API will return a JSON response. We will grab the required data i.e. the setup and the punchline from it. And then make use of [client.post](https://github.com/desmondmorris/node-twitter/tree/master/examples#tweet) functionality of **twitter** package.
+Now everything has been laid out. We need to connect the dots. The Official Joke API will return a JSON response. We will grab the required data, i.e., the setup and the punchline from it. And then make use of [client.post](https://github.com/desmondmorris/node-twitter/tree/master/examples#tweet) functionality of **twitter** package.
 
 ```js
 axios("https://official-joke-api.appspot.com/random_joke").then(Response => {
@@ -82,7 +82,7 @@ axios("https://official-joke-api.appspot.com/random_joke").then(Response => {
 });
 ```
 Now run `node index.js` on the terminal and see the output. 
-If everything went well you will see a *tweet* response, otherwise an *error* message. The successful message would look something like [this](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/post-and-engage/api-reference/post-statuses-update#example-response).
+If everything went well, you would see a *tweet* response, otherwise an *error* message. The successful message would look something like [this](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/post-and-engage/api-reference/post-statuses-update#example-response).
 
 At this point, your index.js should look like this.
 
@@ -90,7 +90,7 @@ At this point, your index.js should look like this.
 
 ### Congratulations! 🎊
 
-That's it! You have created your first Twitter Bot which tweets content after directly calling it from an API. You may take a look at the [repository](https://github.com/Ninjavin/engineering-blog-samples/tree/master/NodeJs/TwitterBot) if you encountered any errors. Here, I have used different APIs to fetch content and tweet. Moreover, I have added a script which will search posts with a particular hashtag and like them. 
+That's it! You have created your first Twitter Bot, which tweets content after directly calling it from an API. You might take a look at the [repository](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/TwitterBot) if you encountered any errors. Here, I have used different APIs to fetch content and tweet. Moreover, I have added a script that will search posts with a particular hashtag and like them. 
 
 > **While pushing your code to GitHub, make sure to add `.gitignore` file and include `node_modules` and `.env` in it.**
 
@@ -98,6 +98,6 @@ That's it! You have created your first Twitter Bot which tweets content after di
 
 > The world is yours to explore.
 
-And the dev world is based entirely on exploring technologies and frameworks. Play with this **twitter** library and see what interesting stuff can be built with it. Maybe, search tweets with a particular hashtag and like them? Or maybe, retweet tweets of any particular user? You are free to use your imagination and coding skills to explore more and more. If `axios` and `dotenv` are new to you, then go ahead and read their documentations. Get hold of the concepts of environment variables. And come up with your own cool Twitter Bot.
+And the dev world is based entirely on exploring technologies and frameworks. Play with this **twitter** library and see what interesting stuff can be built with it. Maybe, search tweets with a particular hashtag and like them? Or maybe, retweet tweets of any particular user? You are free to use your imagination and coding skills to explore more and more. If `axios` and `dotenv` are new to you, then go ahead and read their documentation. Get hold of the concepts of environment variables. And come up with your own cool Twitter Bot.
 
 > Keep in mind Twitter's [Developer Policy & Terms](https://developer.twitter.com/en/developer-terms) and [Twitter Terms & Conditions](https://twitter.com/en/tos). These should not be violated in whatever project you are building.
