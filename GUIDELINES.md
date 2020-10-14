@@ -19,7 +19,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    - **tags: (optional)** : You can add the relevant the in the Array of string `for eg: ["NodeJs"]`. Please make sure tags should not be more than three.
    - **description** (optional): You can add the short description, which will appear in the card of your blog, it should not be more than 160 characters. If you don't specify the description by default the first 160 characters of your blog will be shown.
 
-   This is an example of the meta info in your blog
+   This is an example of the meta info in your blog:
 
    ```
    ---
@@ -41,7 +41,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    - **social profiles (optional)**: You need to mention the id of your social profiles, supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
      Note: For StackOverflow, you need to add your id which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
-   This is an example of the author info
+   This is an example of the author info:
 
    ```
    id: Jon Doe
@@ -57,19 +57,19 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 ## Some tips that you can keep in mind while writing the blog.
 
-- Keep post's language simple and easy to understand, we are making our blogs for the mass and our audience doesn't need to be only native English speakers
+- Keep post's language simple and easy to understand, we are making our blogs for the mass and our audience doesn't need to be only native English speakers.
 
-- Use short paragraphs, break down longer paragraphs into smaller one, people lose their interest more while reading a long paragraph
+- Use short paragraphs, break down longer paragraphs into smaller one, people lose their interest more while reading a long paragraph.
 
-- Use headers to structure your post, use large headers for the main heading and smaller for sub-sections in it
+- Use headers to structure your post, use large headers for the main heading and smaller for sub-sections in it.
 
-- Try to use complete words then abbreviations, spell out an acronym that isn’t well-known
+- Try to use complete words then abbreviations, spell out an acronym that isn’t well-known.
 
 - If your code contains a code snippet, don't forget to syntax highlighting it, You can also specify the programming language for which you want syntax highlighting.
   **For example:** in markdown typing, ```js will give you JavaScript syntax highlighting.
 
-- Try to use images/screenshots in your post to example things better, images are also visible when you share the post in social media
+- Try to use images/screenshots in your post to example things better, images are also visible when you share the post in social media.
 
-- Always provide a GitHub demo link whenever you post contains the code.
+- Always provide a GitHub demo link whenever your post contains any code.
 
-- Simplicity, Ease of Implementation of the content, developer-friendly and effectiveness
+- Simplicity, Ease of Implementation of the content, developer-friendly and effectiveness.
