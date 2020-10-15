@@ -1,7 +1,7 @@
 ---
 title: "Start using template strings now!"
 date: "2020-10-15"
-coverImage: "16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png"
+coverImage: "cockroach-70295_1280_0.jpg"
 author: "Team LoginRadius"
 tags: ["Engineering","JavaScript","Strings"]
 description: "Boost your code with template strings."
