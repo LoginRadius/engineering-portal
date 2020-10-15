@@ -1,8 +1,10 @@
 ---
 title: Speed Up Python Code
-date: "2020-08-14"
+date: "2020-10-15"
 coverImage: "speed-up-python-code-1.jpg"
 author: "Md. Tahmid Hossain"
+tags: ["python", "performance"]
+description: "Learn a few ways to speed up your python code."
 ---
 
 # A Few Ways to Speed Up Your Python Code
@@ -11,7 +13,7 @@ Python is one of the most popular languages all over the world. Nowadays it is b
 
 ## Use proper data structure
 
-Use of proper data structure has a significant effect on runtime. Python has list, tuple, set and dictionary as the built-in data structure. However, most of the people use the list in all cases. But it is not a right choice. Use proper data structures depending on your task. Especially use a tuple instead of a list. Because iterating over tuple is easier than iterating over a list.
+Use of proper data structure has a significant effect on runtime. Python has list, tuple, set and dictionary as the built-in data structures. However, most of the people use the list in all cases. But it is not a right choice. Use proper data structures depending on your task. Especially use a tuple instead of a list. Because iterating over tuple is easier than iterating over a list.
 
 ## Decrease the use of for loop
 
