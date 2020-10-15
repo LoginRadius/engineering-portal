@@ -67,5 +67,40 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+#### Complete Code
+```
+import cv2
+import numpy as np
+
+#Making a sketch generating function
+def sketch(img):
+    #Converting image into grayscale
+    img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    #Clean up image using Gausian Blur
+    img_gray_blur = cv2.GaussianBlur(img_gray, (5,5), 0)
+    
+    #Extracting edges
+    canny_edges = cv2.Canny(img_gray_blur, 10, 70)
+    
+    #Do an invert binarize the image
+    ret, mask = cv2.threshold(canny_edges, 70, 255, cv2.THRESH_BINARY_INV)
+    return mask
+cap=cv2.VideoCapture(0)
+
+while True:
+    ret, frame = cap.read()
+    cv2.imshow('Our Live Sketcher', sketch(frame))
+    
+    k= cv2.waitKey(13)
+    if k == 27:
+        break
+        
+cap.release()
+cv2.destroyAllWindows()
+```
+
 #### Results
 Voila! Your Live Sketch!<br>
+
+<img src ="https://github.com/sharur7/engineering-portal/blob/new/content/blog/live-sketch-through-webcam/sketch.gif?raw=true" alt="sketch">
