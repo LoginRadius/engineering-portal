@@ -255,3 +255,8 @@ To stop
 This scratches the surface of using docker-compose for a production-grade development environment.
 
 ![No Animals Harmed](noanimalsharmed.png)
+
+
+Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G-s2GXGAjTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

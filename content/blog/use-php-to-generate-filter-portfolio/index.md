@@ -20,7 +20,7 @@ The logic is like this, first we have a folder to contain all the portfolio imag
 
 And in the "businesses" folder, we have some sub-folders to put all the images in different categories, like this:  
 
-Each sub-folder contains different images in that category, and our goal is to use those sub-folders name as the filters, and the images under each category will be added automatically. Lets do it.
+Each sub-folder contains different images in that category, and our goal is to use those sub-folders name as the filters, and the images under each category will be added automatically. Let's do it.
 
 - First we need to implement a filter portfolio.
 

@@ -83,4 +83,7 @@ Thanks for visiting us! We hope you find this knowledge base useful! Our mission
 
 Please write to us for suggestions and for the contents we should come up with!
 
+Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KTnFtIvoDiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

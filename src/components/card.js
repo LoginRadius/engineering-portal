@@ -7,6 +7,7 @@ import defaultImg from "../../content/assets/default-blog.jpg"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 import Img from "gatsby-image"
+import getTimeToRead from "../utils/timeToRead"
 
 const Card = ({ node }) => {
   const tags = node.frontmatter.tags || ""
@@ -49,7 +50,7 @@ const Card = ({ node }) => {
           />
         </div>
         {node.frontmatter.author && (
-          <Bio date={node.frontmatter.date} author={node.frontmatter.author} />
+          <Bio date={node.frontmatter.date} author={node.frontmatter.author} readingTime={getTimeToRead(node.html)}/>
         )}
       </div>
     </div>

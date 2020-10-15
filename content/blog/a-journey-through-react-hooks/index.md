@@ -82,7 +82,7 @@ export default () => {
 
 ## Types Of Hooks
 
-Lets us understand some basic hooks with examples.
+Let's us understand some basic hooks with examples.
 
 1. useState()
 2. useEffect()
