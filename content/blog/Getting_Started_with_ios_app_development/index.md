@@ -4,7 +4,7 @@ date: "2020-10-06"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
 tags: [ios","swift","app development","xcode","mac"]
-description: "Lets learn how to get stared wit iOS development."
+description: "Lets learn how to get stared with iOS development."
 ---
 
 ## Introduction
