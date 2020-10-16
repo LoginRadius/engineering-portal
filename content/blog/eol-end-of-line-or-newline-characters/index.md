@@ -3,11 +3,11 @@ title: "EOL or End of Line or newline ascii character"
 date: "2017-09-06"
 coverImage: "eol.png"
 author: "Govind Malviya"
-tags: ["Engineering", "EOL", "Linux"]
-description: "Learn what are EOL or End of Line or newline ascii characters (\\n\\r) and why there are two (\\n\\r) newline characters."
+tags: ["Engineering", "EOL", "LF", "Linux"]
+description: "Learn what are EOL (End of Line) or LF (Line Feed) or NL (New Line) ascii characters (\\n\\r) and why there are two (\\n\\r) newline characters."
 ---
 
-Which character do you consider as the end of line or newline? Most developers will answer \\n (except for front-end developers, they would say: "\</br>tag" :) ). But this is not true, let's understand why.
+Which character do you consider as the end of line or newline? Most developers will answer \\n (except for front-end developers, they would say: "\</br>tag" 😊 ). But this is not true, let's understand why.
 
 **What is an End of Line character:**
 
@@ -40,3 +40,7 @@ Press the key combination of Ctrl + Shift + F and select 'Extended' under the se
 **How to convert**
 
 Let's stick with notepad++ for this, too. Open any file that you would like to convert, click on the Edit menu, scroll down to the EOL conversion option, and select the format that you would like to convert the file to.
+
+**Reference**
+- [Unicode Character (U+000A)](https://www.compart.com/en/unicode/U+000A)
+- [Unicode Character (U+000D)](https://www.compart.com/en/unicode/U+000D)
