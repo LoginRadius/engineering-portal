@@ -3,6 +3,7 @@ title: Using Virtual Environment In Python
 date: "2020-10-16"
 coverImage: "python.jpg"
 author: "Ashish Maharjan"
+tags: ["python"]
 description: "To work in python virtual environment."
 ---
 
