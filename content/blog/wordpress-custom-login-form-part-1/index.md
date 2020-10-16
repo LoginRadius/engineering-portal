@@ -50,9 +50,9 @@ get_header(); ?&amp;amp;amp;gt;
 
 To initialize this page template, make sure to activate the theme you've selected in "Appearance/Themes" in your admin dashboard and then navigate to a page or post. On the right hand side of your page/post editor you should now see a dropdown available for template under "Page Attributes". Change your template to "Login" or to the name that you specified in "Template Name:" and that will attach that page theme to this page/post.
 
-Now we're ready to start editing this page-login.php template file. So first open this file in your favorite editor and lets get a login page started.
+Now we're ready to start editing this page-login.php template file. So first open this file in your favorite editor and Let's get a login page started.
 
-To quickly show you how to get this login on the page lets paste the following code between the div with id of content.
+To quickly show you how to get this login on the page Let's paste the following code between the div with id of content.
 
 ```php
 &amp;amp;amp;lt;div id="primary" class="content-area"&amp;amp;amp;gt;
@@ -67,9 +67,9 @@ Look at what that small piece of code do
 
 ![custom-login](custom-login.png)
 
-Now we need to set some arguments that we can provide to this form to customize it. Lets take a look at the documentation for [wp_login_form()](https://developer.wordpress.org/reference/functions/wp_login_form/)
+Now we need to set some arguments that we can provide to this form to customize it. Let's take a look at the documentation for [wp_login_form()](https://developer.wordpress.org/reference/functions/wp_login_form/)
 
-In that document, it explains all the uses and arguments of wp_login_form(). Lets use those arguments section and see what happens. Paste the $args section shown in the wordpress doc right above our login form.
+In that document, it explains all the uses and arguments of wp_login_form(). Let's use those arguments section and see what happens. Paste the $args section shown in the wordpress doc right above our login form.
 
 ```php
 &amp;amp;amp;lt;?php $args = array(

@@ -11,9 +11,12 @@ const BlogList = ({ data, pageContext, location }) => {
   return (
     <Layout pinned>
       <SEO
-        title={""}
+        title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
         pathname={location.pathname}
+        description={`LoginRadius Engineering Blog - Page ${currentPage} of ${Math.ceil(
+          total / 6
+        )}`}
       />
       <main>
         <CardList posts={data.allMarkdownRemark.edges} total={total} />
@@ -39,6 +42,7 @@ export const blogListQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             description

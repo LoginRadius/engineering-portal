@@ -1,12 +1,13 @@
 ---
-title: "Beginner's Guide for Sublime Text 3 Part 2"
+title: "Beginner's Guide for Sublime Text 3 Plugins"
 date: "2015-11-10"
 coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
+description: "Getting started with one of the lightweight Code Editor Sublime Text and introduction to Snippets, Project and Macros"
 ---
 
-In this blog, I will cover some of my favorite Sublime features. Using these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your work really fun. I will start with some basic features that come with a fresh install of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but I kinda feel there should be more about these fundamental features, as I have seen lots of people who are familiar with the plugins but not these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
+In this blog, I will cover some of my favorite Sublime features. Use of these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your worktime really fun. I will start with some of the most basic features that come with fresh installation of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but I feel there should be more about these fundamental features. I have seen many people who are familiar with the plugins but not with these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
 
 Here we go:
 
@@ -14,9 +15,9 @@ Here we go:
 
 ![snippet-demo](snippet-demo.gif)
 
-When I introduce Sublime to my friends, this is usually the first feature that I demo start off with. To give a quick peek what a snippet looks like:  
+Back when i introduced Sublime editor to my friends,"Snippets" was among the first few features which really intrigued them. To give a quick peek what a snippet looks like:  
   
-This is definitely the feature you will use the most! To start using snippets, you can either create your own snippets according to your needs or download some pre-made snippets created by others to fulfill some general needs. Like the one I demonstrated, it is pre-made from a plugin called `Html Page Snippets`, and command `docjq` will create a boiler template for a Html page that contains bootstrap and jQuery.
+This is definitely the feature you will use the most! To start using snippets, you can either create your own snippets according to your needs or download some ready-made snippets created by others to fulfill some generic coding needs. Like the one I demonstrated, it is pre-made from a plugin called `Html Page Snippets`, and command `docjq` will create a boiler template for a Html page that contains bootstrap and jQuery.
 
 ![new-snippet](new-snippet.png)
 
@@ -39,7 +40,7 @@ If you can not find it, go to "Sublime" - > "Preferences" -> "Browse Packages", 
 
 ### Project
 
-Using Project to organize your projects is super easy and handy. It saves a lot of time that you'd normally spend finding different folders and then dragging and dropping to your Sublime each time. Additionally, it saves where you were last time when you closed it so you can just pick up where you left off. Let's see a quick demo:
+Using "Project" feature to organize your projects is super easy and handy. It saves a lot of time that you'd normally waste finding different folders and then dragging and dropping to your Sublime each time. Additionally, it saves your previous location so you can just pick up where you left off. Let's see a quick demo:
 
 Saving and using your projects is very straightforward.
 
@@ -56,7 +57,7 @@ That's it! You're done! Super easy right?
 
 ![without-macro](without-macro.gif)
 
-Do you always feel you are repeating yourself for some tedious task? Hmm... at least that's how I feel when I need to covert a vertical line of data into an array. Tasks like this are pretty common when you need to copy a line of data from spreadsheets. Using shortcuts, the best way I can come up with to accomplish this would be like so:  
+Do you always feel frustrated by repeating the same tedious task again & again? Hmm... at least that's how I feel when I need to covert a vertical line of data into an array. Tasks like these are pretty common when you need to copy a line of data from spreadsheets. Using shortcuts, the best way I can come up with to accomplish this would be like so:  
 
 It takes about 8 shortcuts to finish each process, that's including the first paste action and then adding a space character after each comma. Imagine having to do this for each line of a table, and for every single spreadsheet you have to work on. It would be hundreds of shortcuts you need to press and each time you are just repeating the exact same sequence of keys.
 
@@ -72,7 +73,7 @@ Magic! Lots of time and lives will be saved by this little gadget. So now, how t
     
 - Do your operations
 
-Usually you will have something copied in your clipboard, so it could start with a "Paste" command. Now it's your time to shine, do a clean and precise set of operations to format the data.
+Usually you would have something copied in your clipboard, so it could start with a "Paste" command. Now it's your time to shine, do a clean and precise set of operations to format the data.
 
 - Stop your macro  
     
@@ -80,7 +81,7 @@ Usually you will have something copied in your clipboard, so it could start with
     
 - Playback
 
-You can find it under the same "Tools" menu. Just use it to make sure it did what you want, sometimes even though you recorded it properly, the macro does not recognize the operation correctly. For this reason it's important to make sure everything is correct and smooth, and if it is not, try find some alternatives for your operations.
+You can find it under the same "Tools" menu. Just use it to make sure it did what you want, sometimes even though you recorded it properly, the macro doesn't recognize the operations correctly. For this reason it's important to make sure everything is correct and smooth, and if it's not, try find some alternatives for your operations.
 
 - Save It!
 
@@ -88,4 +89,5 @@ Similar to other Sublime tools, it will be saved with an extension called ".subl
 
 ### To Be Continued ..
 
-I hope you had fun and learned something new about Sublime. Next time we will cover some really good packages/plugins that you should consider using to make your life and work even simpler. Happy coding.
+I hope you had fun and learned something new about Sublime. Next time we will cover some really good packages/plugins that you should consider using to make your life and work even simpler. 
+Happy coding!!!

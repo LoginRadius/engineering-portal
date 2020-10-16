@@ -16,11 +16,15 @@ import TagMenu from "./tagMenu"
 
 import ReactGA from "react-ga"
 
-const logger = function () {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import getTimeToRead from "../utils/timeToRead"
+
+const eventLogger = function ({category, action, label}) {
   ReactGA.event({
-    category: "LoginRadius Docs",
-    action: "User clicked on Loginradius Docs button",
-    label: "Docs",
+    category: category,
+    action: action,
+    label: label,
   })
 }
 
@@ -31,6 +35,9 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
+  
+
   return (
     <>
       <Helmet>
@@ -41,7 +48,10 @@ const Post = ({ post, relatedPost }) => {
           content="3eb69d6a4ae94cb1a27493eb04268fdb"
           src="//cdn.social9.com/js/socialshare.min.js"
         ></script>
-        <script defer src="https://cdn.commento.io/js/commento.js"></script>
+        <script
+          defer
+          src="https://social9.com/comments/js/commento.js"
+        ></script>
       </Helmet>
       <SEO
         title={post.frontmatter.title}
@@ -59,6 +69,7 @@ const Post = ({ post, relatedPost }) => {
               fluid={image.childImageSharp.fluid}
               Tag="div"
               className="bs-md"
+              alt={post.frontmatter.title}
             />
           </div>
           <div className={headStyles.descriptionPinned}>
@@ -78,7 +89,12 @@ const Post = ({ post, relatedPost }) => {
               />
             </div>
             {author && (
-              <Bio date={post.frontmatter.date} author={author} pinned />
+              <Bio
+                readingTime={getTimeToRead(post.html)}
+                date={post.frontmatter.date}
+                author={author}
+                pinned
+              />
             )}
           </div>
         </div>
@@ -118,6 +134,40 @@ const Post = ({ post, relatedPost }) => {
                 </>
               ) : null}
               <div>
+                <h3>Follow LoginRadius </h3>
+                <div className={styles.followBtn}>
+                  <a 
+                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
+                    onClick={() => eventLogger({
+                      category: "Social Clicks",
+                      action: "Clicked on Feedly",
+                      label: "Feedly"
+                    })} 
+                    target="blank"
+                  >
+                    <img
+                      id="feedlyFollow"
+                      src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
+                      alt="follow us in feedly"
+                      width="28"
+                      height="28"
+                    />
+                    <p> via feedly </p>
+                  </a>
+                  <a href="https://twitter.com/LoginRadius" 
+                   onClick={() => eventLogger({
+                    category: "Social Clicks",
+                    action: "Clicked on Twitter",
+                    label: "Twitter"
+                  })}
+                  target="blank">
+                    <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
+                    <p> on twitter </p>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div>
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
                 <a
@@ -126,13 +176,32 @@ const Post = ({ post, relatedPost }) => {
                   key={"docs-link"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={logger}
+                  onClick={() => eventLogger({
+                    category: "LoginRadius Docs",
+                    action: "User clicked on Loginradius Docs button",
+                    label: "Docs"
+                  })}
                 >
                   {"click here"}
                 </a>
               </div>
               <hr />
               <TagMenu />
+            </div>
+          </div>
+          <div className="grid-70-30">
+            <div className={styles.postContent}>
+              <h2>About LoginRadius</h2>
+              <p>
+                LoginRadius provides a comprehensive set of APIs to enable authentication, identity verification, single sign-on, user management, and account protection capabilities such as multi-factor authentication on any web or mobile application. The company offers open source SDKs, integrations with over 150 third party applications, pre-designed and customizable login interfaces, and best-in-class data security products. The platform is already loved by over 3,000 businesses with a monthly reach of 1.17 billion users worldwide.
+              <br />
+                <br />
+                For more information, visit <a href="https://loginradius.com"  onClick={() => eventLogger({
+                    category: "LoginRadius Home",
+                    action: "User clicked on LoginRadius home page",
+                    label: "LoginRadius Home"
+                  })} target="blank">LoginRadius</a>
+              </p>
             </div>
           </div>
           <div class={`${styles.author} d-flex py-80`}>

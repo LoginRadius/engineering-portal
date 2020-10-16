@@ -7,6 +7,7 @@ import defaultImg from "../../content/assets/default-blog.jpg"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 import Img from "gatsby-image"
+import getTimeToRead from "../utils/timeToRead"
 
 const PinnedCard = () => {
   return (
@@ -23,10 +24,13 @@ const PinnedCard = () => {
                 fields {
                   slug
                 }
+                html
                 frontmatter {
+                  description
                   date(formatString: "MMMM DD, YYYY")
                   title
                   tags
+                  description
                   coverImage {
                     childImageSharp {
                       fluid(quality: 80) {
@@ -92,6 +96,7 @@ const PinnedCard = () => {
                     date={node.frontmatter.date}
                     author={node.frontmatter.author}
                     pinned
+                    readingTime={getTimeToRead(node.html)}
                   />
                 )}
               </div>

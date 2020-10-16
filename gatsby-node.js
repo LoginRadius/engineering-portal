@@ -1,6 +1,9 @@
 const path = require(`path`)
+const fs = require("fs")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+require("dotenv").config({ path: `${__dirname}/.env` })
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -43,7 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
-  const postsPerPage = 6
+  const postsPerPage = 9
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
@@ -57,7 +60,7 @@ exports.createPages = async ({ graphql, actions }) => {
         previous,
         next,
         pageNumber: Math.ceil(index / postsPerPage),
-        tags: post.node.frontmatter.tags || []
+        tags: post.node.frontmatter.tags || [],
       },
     })
   })
@@ -109,6 +112,28 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  const staticPages = [
+    {
+      name: "contribute",
+    },
+    {
+      name: "hacktoberfest2020",
+    },
+  ]
+  staticPages.forEach(staticPage => {
+    staticPage.name === "hacktoberfest2020"
+      ? createPage({
+          path: `/page/${staticPage.name}`,
+          component: require.resolve(`./src/templates/hacktoberfest2020.js`),
+          context: { staticPage },
+        })
+      : createPage({
+          path: `/page/${staticPage.name}`,
+          component: require.resolve(`./src/templates/contribute.js`),
+          context: { staticPage },
+        })
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -142,4 +167,20 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `
   createTypes(typeDefs)
+}
+
+exports.onPostBuild = function () {
+  if (process.env.APP_ENV === "PRODUCTION") {
+    fs.renameSync(
+      path.join(__dirname, "public"),
+      path.join(__dirname, "public-blog")
+    )
+
+    fs.mkdirSync(path.join(__dirname, "public"))
+
+    fs.renameSync(
+      path.join(__dirname, "public-blog"),
+      path.join(__dirname, "public", "engineering")
+    )
+  }
 }

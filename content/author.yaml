@@ -1,6 +1,6 @@
 - id: Team LoginRadius
   bio: LoginRadius is a leading provider of cloud-based Customer Identity and Access Management (cIAM) platform.
-  github: 'LoginRadius'
+  github: "LoginRadius"
 
 - id: Puneet Singh
   bio: Very curious about this world and blogging whenever learning something new
@@ -10,7 +10,7 @@
 
 - id: Ravi Teja Ghanta
   bio: First curious cat at Gatsby Curious Community. Blogs at dev.wgao19.cc.
-  github: 'ravitejag'
+  github: "ravitejag"
 
 - id: Govind Malviya
   bio: Director of Product Development @ LoginRadius. Likes tech, reading/writing, founding things.
@@ -18,7 +18,7 @@
 
 - id: Zakary Hughes
   bio: Zak is our resident front end development and design intern. He studied web design and development at the Northern Alberta Institute of Technology. One of his passions, outside of work, is fitness. Legend has it that he once ate a two-bite brownie in a single bite.
-  
+
 - id: Chris Yee
   bio: A software engineer who graduated with a Bachelor of Software Engineering from the University of British Columbia.
 
@@ -64,7 +64,7 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering. 
+  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering.
 
 - id: Lucius Yu
   bio: Lucius is a Software Developer at LoginRadius. He was born and raised in China, but came to Edmonton to graduate from the University of Alberta, double majoring in Computer Sciences and Mathematics. Besides coding, which is his real passion, he enjoys playing ping pong and swimming.
@@ -85,12 +85,16 @@
 
 - id: Vincent Lin
 
-- id: Indrasen
-  bio: He is a software engineer who continually seeks clean, elegant solutions to business challenges. His lifelong passion for technology drives him to proactively expand horizons, constantly exploring and evaluating new languages, platforms, frameworks and tools.
+- id: Indrasen Kumar
+  bio: A software engineer who continually seeks clean, elegant solutions to business challenges. My lifelong passion for technology drives me to proactively expand my horizons, constantly exploring and evaluating new languages, platforms, frameworks, tools, and best practices and applying them in my work to produce truly awesome results.
+  github: "indrasen715"
+  linkedin: "indrasen-kumar-a1952611a"
+  medium: "@indrasenkumar715"
 
 - id: Ashish Sharma
   bio: Ashish is a software engineer who continually seeks clean, elegant solutions to business challenges. His lifelong passion for technology drives him to proactively expand horizons, constantly exploring and evaluating new languages, platforms, frameworks and tools.
   github: "ashish8947"
+  linkedin: "ashish-sharma-8996b213a"
   medium: "@sharma.ashish894789"
 
 - id: Aman Agrawal
@@ -108,7 +112,7 @@
 - id: Sudhey Sharma
   bio: I am a testing consultant, coach * enthusiast, who's been in the software testing industry since 2004. Currently, I am working as QA Manager. Striving to improve the testing craft.
   github: "sudheysharma"
-  
+
 - id: Himanshi Sharma
   bio: I am Full Stack Automation Engineer,  working since 7 years in IT Industry. I have keen interest in test automation primarily because of the wide range of challenging problems inherited in this field.
   github: "Himanshi0512"
@@ -132,13 +136,219 @@
   stackoverflow: "5790355"
   twitter: chiku__p
 
-
 - id: Priyadarshan Mohanty
-  bio: Data Engineer at LoginRadius
-  github: priyadarshan1995
-  linkedin: darshanmohanty14
+  bio: Priyadarshan Mohanty is a Data Engineer at LoginRadius and has experience in working in Big Data technologies like Hadoop, Hive, Spark and Kafka. Interested in database technologies and distributed systems.
+  github: "priyadarshan1995"
+  linkedin: "darshanmohanty14"
+  medium: "@darshan.mohanty14"
 
 - id: Piyush Kumar
   bio: Software Engineer
   github: kpiyush17
+
+- id: Vijay Singh Shekhawat
+  bio: Lead Product Architect @LoginRadius. Technology Lover, Breakthrough thinker, DevOps Guy
+  github: "code-vj"
+  linkedin: "vijaydotnetdeveloper"
+  stackoverflow: "1063165"
+
+- id: Kheenvraj Lomror
+  bio: Software Developer @LoginRadius. JavaScript Lover, love to work with Angular, React
+  github: "rajlomror"
+  linkedin: "kheevraj-lomror-26936982"
+  stackoverflow: "13910473"
+
+- id: Tanvi Jain
+  bio: A Mobile application developer based on Jaipur, India. Having 6+ years of experience in iOS App development with Client based & Product based organizations.
+  github: "tanvijn"
+  linkedin: "tanvi-jain-044b6585"
+
+- id: Archna Yadav
+  bio: Archna is an analyst turned writer. Who loves doing Solution Analysis and R&D; and then writes articles about the same.
+  linkedin: "archna-yadav-25b508a2"
+
+- id: Vikram Jain
+  bio: Vikram Jain is Software Development Manager at LoginRadius. An Agile Consultant and Transformation Agent.
+  linkedin: "jainvikram1512"
+  medium: "@vikram.kothari1987"
+
+- id: Nitesh Jain
+  bio: Nitesh Jain is Software Engineer at LoginRadius, a full stack web developer working in React and Node.JS. He is very confident for learning new language of programming, because as per his saying, the basic concept for all languages are same and  belongs to single root under the multiple technology.
+  github: "niteshjain1987"
+  linkedin: "nitesh26"
+
+- id: Rashmi Jain
+  bio: Very curious about this world and blogging whenever learning something new
+  linkedin: "jain-rashmi"
+  stackoverflow: "4693458"
+
+- id: Deepali Soni
+  bio: Analyst Enthusiast . Rapid and Deep Thinker.
+  linkedin: "deepali-soni-8071b548"
+
+- id: Narendra Pareek
+  bio: Narendra is a Software Developer at LoginRadius, where he is utilizing his skills in different NodeJS and GO language projects. He has worked with different languages i.e PHP, AngularJS and also has a good knowledge of handling technical support.
+  github: "pareek-narendra"
+  linkedin: "narendra-pareek"
+  stackoverflow: "13819129"
+
+- id: Hitesh Kumawat
+  bio: I care deeply about creating world-class, useful, and beautiful products and web that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to design, creative direction, system design, and even the front-end and WordPress build.
+  linkedin: "hitesh-kumawat-01548466"
+
+- id: Abhimanyu Singh Rathore
+  bio: A Fun loving, Technocrat, Artist, Photographer, Nature Lover, Bold, Leisure traveller, Sightseer, Developer, A Surprise Package to Explore!
+  github: "abhir9"
+  stackoverflow: "4822703"
+  twitter: "abhir96"
+  medium: "abhir95"
+  linkedin: "abhi-rathore"
+
+- id: Hridayesh Sharma
+  bio: Hridayesh Sharma is a Software Engineer at LoginRadius who is interested in how the web works and developer tools that make working with web easier.
+  github: "vyasriday"
+  stackoverflow: "6235787"
+  linkedin: "hridayesh-sharma"
+  twitter: "vyasriday"
+
+- id: Gaurav Bewal
+  bio: Gaurav Bewal is an Automation Engineer, always ready to grab the opportunity of learning new things. Having working knowledge in Selenium-Java, Cucumber-Java, Nodejs-Nightwatch, Mocha-Chai, Appium and many more. Apart from this, He is also having interest in Music and all type of sports.
+  github: "GauravBewal"
+
+- id: Hemant Manwani
+  bio: Hemant Manwani is a Software Engineer at LoginRadius who is interested in how the web works and developer tools that make working with web easier.
+  github: "hemant404"
+  linkedin: "hemant-manwani-1a035478"
+
+- id: Akshaya Sharma
+  bio: Akshaya Sharma is a Software Engineer at LoginRadius and loves to work on javascript and frameworks.
+  github: "akshay-s-770"
+  linkedin: "akshay-sharma-770"
+
+- id: Anurag Choudhary
+  bio: Anurag is a developer by heart, has got 13 years of industry experience in multiple languages. He loves programming, technology and devops. He is a reader, movie lover, traveller and a human being. He hates traffic on the roads but not on network!
+  github: "choudharyanurag"
+  linkedin: "anurag-choudhary-ta"
+  stackoverflow: "3548966"
+
+- id: Nathan Nguyen
+  bio: Nathan Nguyen is a Software Engineer at LoginRadius. With deep interest in creating user-facing applications, he spends a lot of his time with web and mobile technology stacks, off and on the job, looking to build applications that are ever more intuitive and helpful to end users. Loves food, travel, photography and video games.
+  github: "nathannguyenn"
+
+- id: Apeksha Gupta
+  bio: I am an software engineer at Loginradius, striving to learn new skills and sharing it with others!
+  github: "ApekshaAgarwal"
+  linkedin: "apeksha-gupta-0906"
+
+- id: Nick Chim
+  bio: Software Developer at LoginRadius with an interest in large scale applications, backend development and aviation.
+  github: "nickc95"
+
+- id: Saravanan Vijayamuthu
+  bio: Software Developer intern at Digilocker. Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+  github: "SaravananVijayamuthu"
+  linkedin: "saravanan-vm"
+  medium: "saravananvijayamuthu"
+
+- id: Sudhanshu Pandey
+  bio: A seasoned IT professional with over 2.5 decades of IT experience in Coding, Design, Networking, Database Administration, Customer Support, Training, QA and consulting.
+  linkedin: "sudhanshu-pandey-63b02a11"
+
+- id: Anup Aglawe
+  bio: A computer science and engineering undergraduate student at IIT Gandhinagar. I am immensely interested in developing applications and utilities.
+  github: "anup-a"
+  linkedin: "anup-aglawe-294087148"
+
+- id: Shreya Sharma
+  bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
+  github: "shreyaa-sharmaa"
+  linkedin: "shreyaa-sharma"
+  
+- id: Akshay Avinash
+  bio: A tech enthusiast
+  github: "akshay11298"
+  linkedin: "akshay11298"
+
+- id: Binay Agarwal
+  bio: A CyberSecurity Geek
+  github: "agarwalBinay18"
+
+- id: Rinki Nag
+  bio: Hi, I'm Rinki, an AI enthusiast and currently working with the AIML team. at Fractal analytics. I love experimenting and learning new technologies.
+  github: "eaglewarrior"
+  linkedin: "rinki-nag"
+
+- id: Samriddhi Mishra
+  bio: An undergrad student pursuing BTech. Eager to learn new things.
+  github: "SamriddhiMishra"
+  linkedin: "samriddhi-mishra"
+  medium: "@samriddhi2958"
+  twitter: "samriddhi07"
+
+- id: Nivedita Singh
+  bio: B. Tech Student, Nivedita Singh is a passionate Web Developer and is an open source enthusiast.
+  github: "Nivedita967"
+  linkedin: "nivedita-singh-195b6818a"
+  twitter: "Nivedit95025806"
+
+- id: Shraddha V Prasad
+  bio: Developer in the making,blogger by passion,Open source enthusiast
+  github: "shraddhavp"
+  stackoverflow: "14385751"
+  linkedin: "shraddha-prasad-6a60b0188"
+  medium: "@anitha.shraddha"
+  twitter: "shraddhavprasa1"
+
+- id: Efereyan Karen
+  bio: Web Developer. Passionate about open source. Interested in data science and public speaking
+  github: "KarenEfereyan"
+  stackoverflow: "8204912"
+  linkedin: "karen-efereyan-6918aa12b"
+  medium: "@karenefereyan"
+  twitter: "EfereyanK"
+
+- id: Eylon Ronen
+  github: "eylonronen"
+
+- id: Shubhankar Khare
+  bio: A delligent and promp learner, Shubhankar Khare is a passionate full stack web developer from India. He is crazy about learning new technologies and is an open source enthusiast
+  github: "iamshubhankarkhare"
+  linkedin: "shubhankar-khare"
+
+- id: Neeraj Ap
+  bio: A computer science and engineering undergraduate.
+  github: "NEERAJAP2001"
+  linkedin: "neeraj-adityananth"
+
+- id: Ankit Choraria
+  bio: Machine learning and Deep Learning enthusiast.
+  github: "Ankit810"
+  linkedin: "ankit-choraria-3b45a1181"
+
+- id: Gabriel Rabelo
+  bio: Passionate about programming and any type of technology.
+  github: "gabrielrab"
+
+- id: Aryan Rawlani
+  bio: Soon to graduate CS student, passionate about Software Engineering & GameDev!
+  github: "aryanrawlani28"
+  stackoverflow: "8903479"
+  linkedin: "aryanrawlani28"
+  
+- id: Vineeta Jain
+  bio: Third-year undergraduate and a Full Stack Web Developer. A team-player with a can-do attitude.
+  github: "Ninjavin"
+  twitter: "vineeta_vj"
+  medium: "vinjain2006"
+
+- id: Sudipto Ghosh
+  bio: CS Undergraduate Student @ University of Delhi
+  github: "sudiptog81"
+  stackoverflow: "10780031"
+  twitter: "ScientificGhosh"
+  linkedin: "sudiptoghosh99"
+
+- id: Md. Tahmid Hossain
+  bio: I am a programmer, developer and digital-marketer.
+  github: "tahmid02016"
   

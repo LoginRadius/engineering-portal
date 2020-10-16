@@ -6,7 +6,7 @@ author: "Govind Malviya"
 tags: ["SocialLogin", "QQ"]
 ---
 
-QQ is the most popular ID provider for Chinese people since the 90s, it is always the first choice for websites who want to provide social login functionality for their Chinese users. But similar to other ID providers from China, the app you created needs to be reviewed before actually launching it. Reading Chinese and using Google translate for each line is not that much of fun, and in this tutorial we will go through step by step to figure out how to submit a QQ app for review. Do note: You can always download a Google translate extension for your browser to translate each page to English, it would probably be the easiest way for you, but here I decide to keep it Chinese, lets go.
+QQ is the most popular ID provider for Chinese people since the 90s, it is always the first choice for websites who want to provide social login functionality for their Chinese users. But similar to other ID providers from China, the app you created needs to be reviewed before actually launching it. Reading Chinese and using Google translate for each line is not that much of fun, and in this tutorial we will go through step by step to figure out how to submit a QQ app for review. Do note: You can always download a Google translate extension for your browser to translate each page to English, it would probably be the easiest way for you, but here I decide to keep it Chinese, Let's go.
 
 1. ### Navigate to [QQ Connect](http://connect.qq.com/)
     

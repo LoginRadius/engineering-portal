@@ -3,7 +3,7 @@ title: "Be More Manipulative with Underscore JS"
 date: "2016-02-16"
 coverImage: "underscore.png"
 author: "Zakary Hughes"
-tags: ["Javascript", "UnderscoreJs"]
+tags: ["JavaScript", "UnderscoreJs"]
 ---
 
 Manipulating collections like arrays and objects can be a hassle with vanilla JS. Thankfully there are libraries like Underscore which offer some extremely useful low level utility functions.

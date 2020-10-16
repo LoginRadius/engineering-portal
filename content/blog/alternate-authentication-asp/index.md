@@ -1,9 +1,10 @@
 ---
-title: "Types of Authentication in Asp Dot Net"
+title: "Types of Authentication in Asp.Net"
 date: "2015-10-01"
 coverImage: "alternate-authentication-asp-dot-net1-150x150.png"
 author: "Team LoginRadius"
-tags: ["Engineering","Authentication","Asp.Net","Multipass","JWT"]
+tags: ["Engineering","Authentication","Asp.Net","Multipass","JWT", "JSON Web Token"]
+description: "Learn types of Authentication in Asp.Net and how it plays an important role in any system."
 ---
 
 **Introduction**

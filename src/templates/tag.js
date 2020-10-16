@@ -18,6 +18,7 @@ const Tags = ({ pageContext, data, location }) => {
     <Layout location={""} title={""}>
       <SEO
         title={tag}
+        description={`LoginRadius Engineering Blog - Posts related to ${tag}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
         location={location.pathname}
       />
@@ -80,6 +81,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
