@@ -3,22 +3,25 @@ title: "EOL End of Line or Newline Characters"
 date: "2017-09-06"
 coverImage: "eol.png"
 author: "Govind Malviya"
-tags: ["Engineering", "EOL", "Linux"]
+tags: ["Engineering", "EOL", "Linux", "Mac","Windows"]
 ---
 
 Which character do you consider as the end of line or newline? Most developers will answer \\n (except for front-end developers, they would say: "\</br>tag" :) ). But this is not true, let's understand why.
 
 **What is an End of Line character:**
 
-It is a character in a string which represents a line break, which means that after this character, a new line will start. There are two basic new line characters:
+It is a character in a string which represents a line break, which means that after this character, a new line will start. There are three basic new line characters:
 
 **LF** (character : \\n, Unicode : U+000A, ASCII : 10, hex : 0x0a): This is simply the '\\n' character which we all know from our early programming days. This character is commonly known as the ‘Line Feed’ or ‘Newline Character’.
 
 **CR** (character : \\r, Unicode : U+000D, ASCII : 13, hex : 0x0d) : This is simply the 'r' character. This character is commonly known as ‘Carriage Return’.
-
 As matter of fact, \\r has also has a different meaning. In older printers, \\r meant moving the print head back to the start of line and \\n meant starting a new line.
 
+**EOL** (character : \r\n, Unicode: 0x0D0A ) : This is the two ASCII characters and is a combination of the CR and LF characters. This character is know as ‘End Of Line’.This character is used as the new line character in most other non-Unix operating systems, including Microsoft Windows and Symbian OS.
+
 **OS support**
+
+Different platforms use different characters to signify a new line
 
 Unix: Unix systems consider '\\n' as a line terminator. Unix considers \\r as going back to the start of the same line.
 
