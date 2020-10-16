@@ -1,6 +1,6 @@
 ---
 title: How to make a telegram bot
-date: "2020-10-12"
+date: "2020-10-20"
 coverImage: "bot.png"
 author: "Rajan Puri"
 tags: ["Telegram Bot", "Python"]
@@ -10,19 +10,19 @@ description: "What is a bot and How to make our own Telegram bot."
 
 ## What is Bot?
 
-According to Wikipedia, It is a software application that runs automated tasks (scripts) over the Internet. In other terms, It is a program written to mimic human behaviour in order to perform some tasks. Bots take input and do simple and repetitive tasks which is much faster than human. 
+According to Wikipedia, It is a software application that runs automated tasks (scripts) over the Internet. In other terms, It is a program written to mimic human behaviour in order to perform some tasks. Bots take input and do simple and repetitive tasks, which is much faster than humans. 
 
 There are two types of bots:
 
-* Good Bots: Bots that are  beneficial to organisations as well as individuals such as ChatBots, Social Media bots etc
+* Good Bots: Bots that are  beneficial to organizations as well as individuals such as ChatBots, Social Media bots, etc
 * Bad Bots: These are the bots that are used to perform malicious activities such as Scraping and Spamming.
 
-In this, We will make Telegram Chatbot which would send the copy of input which the user has sent.
+In this, We will make Telegram Chatbot, which would send a copy of the input that the user has sent.
 
 ## Making our Telegram Chatbot
 
 We will be using **Python language** to make the bot and will be using **Telegram package** for our bot.
-You can know more about telegram package from [here](https://python-telegram-bot.readthedocs.io/en/stable/telegram.html)
+You can know more about the telegram package from [here](https://python-telegram-bot.readthedocs.io/en/stable/telegram.html)
 
 
 Firstly, we will generate our telegram token. Below are the steps to follow to generate your own token.
@@ -30,10 +30,10 @@ Firstly, we will generate our telegram token. Below are the steps to follow to g
 1)  Search BotFather on Telegram.
 2)  Type **/start** to get started.
 3)  Type **/newbot** to get a bot.
-4)  Enter your Bot name and unique Username which should end with the bot.
-5)  Then you would get your Bot token.
+4)  Enter your Bot name and unique Username, which should end with the bot.
+5)  Then, you would get your Bot token.
 
-After generating our token, we will make a python program to create a Telegram bot which will send the Text, Emojis and Stickers similar to the user's input.
+After generating our token, we will make a python program to create a Telegram bot that will send the Text, Emojis, and Stickers similar to the user's input.
 
 - Importing libraries required.
 
@@ -48,17 +48,17 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 ```
-This script does a basic configuration for the logging system. It takes time, level and name.
+This script does a basic configuration for the logging system. It takes time, level, and name.
 
 
 
-- Now, we will make a variable Token which will take your Telegram token.
+- Now, we will make a variable Token, which will take your Telegram token.
 
 ```python
 TOKEN = "ENTER YOUR TOKEN"  
 ```
 
-- After writing the token, we will make some functions which our bot will perform.
+- After writing the token, we will make some functions that our bot will perform.
 
 ```python
 def start(bot,update):
@@ -83,7 +83,7 @@ def error(bot,update):
 
 ```
 
-**start** function would be taking the users input and would be sending, Hi with the user's name.
+**start** function would be taking the user's input and would be sending, Hi, with the user's name.
 
 **help** function will prompt the message of how can I help you.
 
@@ -113,8 +113,8 @@ if __name__=="__main__":
 ```    
 
 
-> Save the program and execute the it to check the working of the telegram bot on telegram.
+> Save the program and execute it to check the working of the telegram bot on telegram.
 
 
-You can get the source code to make the Telegram bot from this Github Repository [Bot :robot:](https://github.com/LoginRadius/engineering-blog-samples/tree/master/TelegramBot). You can also make some changes to the code to make the bot do cool stuff such as Getting News, Articles or Movies recommendations.
+You can get the source code to make the Telegram bot from this Github Repository [Bot :robot:](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Telegram-Bot). You can also make some changes to the code to make the bot do cool stuff such as Getting News, Articles, or Movies recommendations.
 
