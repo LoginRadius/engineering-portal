@@ -7,7 +7,7 @@ tags: ["Engineering","Big Data","Streaming","Apache Beam","Java"]
 description: "Learn the basics of apache beam by writing your first pipeline."
 ---
 
-Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. Processing of data can be categorized into two different paradigms. One is Batch Processing, and other is Stream Processing. For different paradigms,  different technologies came into existence, solving various problems in the big data world, for, e.g. Apache Spark, Apache Flink, Apache Storm etc. As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
+Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. The processing of data can be categorized into two different paradigms. One is Batch Processing, and the other is Stream Processing. Different technologies came into existence for different paradigms, solving various big data world problems, for, e.g., Apache Spark, Apache Flink, Apache Storm, etc. As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
 
 
 ![Timeline of Big Data Frameworks](timeline-bigdata-frameworks.png)
@@ -15,9 +15,9 @@ Ever since the concept of big data got introduced to the programming world, a lo
 
 ## What is Apache Beam?
 
-Apache Beam (Batch + strEAM) is an open-source, unified model for defining both batch and streaming data-parallel processing pipelines. 
+Apache Beam (Batch + strEAM) is an open-source, unified model for defining batch and streaming data-parallel processing pipelines. 
 
-Unified model as in beam exposes single API abstraction layer for both batch and stream processing jobs, unlike other frameworks that have different APIs for batch and stream processing.
+Unified model as in beam exposes single API abstraction layer for both batch and stream processing jobs, unlike other frameworks with different APIs for batch and stream processing.
 
 ![Beam-Model](beam_architecture.png)
 
@@ -26,7 +26,7 @@ Unified model as in beam exposes single API abstraction layer for both batch and
 The unique features of the beam are as follows:
 
 1. Unified - Use a single programming model for both batch and streaming use cases.
-2. Portable - Execute pipelines in multiple execution environments. Here, execution environments mean different runners. Ex. Spark Runner, Dataflow Runner etc
+2. Portable - Execute pipelines in multiple execution environments. Here, execution environments mean different runners. Ex. Spark Runner, Dataflow Runner, etc
 3. Extensible - Write custom SDKs, IO connectors, and transformation libraries.
 
 ## Beam SDKs and Runners
@@ -46,7 +46,7 @@ Beam Runners translate the beam pipeline to the API compatible backend processin
 5. Hazelcast Jet
 6. Twister2
 
-Direct Runner to run on the host machine which is used for testing purpose.
+Direct Runner to run on the host machine, which is used for testing purpose.
 
 ## Basic Concepts in Apache Beam
 
@@ -60,11 +60,11 @@ Apache Beam has three main abstractions. They are
 
 ### Pipeline:
 
-A pipeline is the first abstraction to be created. It holds the complete data processing job from start to finish, including reading data, manipulating data and writing data to a sink. Every pipeline takes in options/parameters that indicate where and how to run. 
+A pipeline is the first abstraction to be created. It holds the complete data processing job from start to finish, including reading data, manipulating data, and writing data to a sink. Every pipeline takes in options/parameters that indicate where and how to run. 
 
 ### PCollection:
 
-A pcollection is an abstraction of distributed data. A pcollection can be bounded i.e. finite data or unbounded i.e. infinite data. The initial pcollection is created by reading data from the source. From then on, pcollections are the source and sink of every step in the pipeline.
+A pcollection is an abstraction of distributed data. A pcollection can be bounded, i.e., finite data, or unbounded, i.e., infinite data. The initial pcollection is created by reading data from the source. From then on, pcollections are the source and sink of every step in the pipeline.
 
 ### Transform:
 
@@ -150,7 +150,7 @@ Let's code the beam pipeline. Follow the steps
     inputCollection.apply("write to file", TextIO.write().to("result").withSuffix(".txt").withoutSharding());
     ```
     
-    The results of the `Filter` transform are stored to a text file using the write method of the `TextIO` transform. As PCollections are distributed across machines, the results are written to multiple files/shards. In order to avoid this, we use `withoutSharding` where all the output is written to a single file.
+    The results of the `Filter` transform are stored in a text file using the write method of the `TextIO` transform. As PCollections are distributed across machines, the results are written to multiple files/shards. To avoid this, we use `withoutSharding` where all the output is written to a single file.
 
 
 Output:
