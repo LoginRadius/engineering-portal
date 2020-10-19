@@ -1,5 +1,5 @@
 ---
-title: "Understanding Kubernetes"
+title: "Understanding Basics of Kubernetes"
 date: "2020-10-18"
 coverImage: "image3.png"
 author: Prabhat Kumar
