@@ -1,6 +1,6 @@
 ---
 title: "Three Ways to do CRUD Operations On Redis"
-date: "2020-10-15"
+date: "2020-10-21"
 coverImage: "index.png"
 author: "Chris Yee"
 tags: ["Redis", "NodeJS", "CLI", "GUI"]
@@ -9,15 +9,15 @@ description: "Start working with Redis in three different ways."
 
 ## Introduction
 
-The usage of Redis as both a temporary data store, and even as a permanent data store is increasing today, as memory has started becoming much cheaper. Redis’ quick memory based CRUD operations allow database interactions to happen significantly faster than interactions with other databases that use drive based storage. This blog is about three different methods to interact with your Redis data.
+The usage of Redis as both a temporary data store and even as a permanent data store is increasing today, as memory has started becoming much cheaper. Redis’ quick memory-based CRUD operations allow database interactions to happen significantly faster than interactions with other databases that use drive-based storage. This blog is about three different methods to interact with your Redis data.
 
-This blog will require having access to a Redis instance. Guides can be found to setup a local Redis instance for Windows [here](https://redislabs.com/blog/redis-on-windows-10/) and for UNIX based machines like Mac or other Linux distros, it can be found [here](https://redis.io/topics/quickstart). Alternatively, you can use a remote instance, but be aware that some of the commands in this blog may delete or modify the data.
+This blog will require having access to a Redis instance. Guides can be found to set up a local Redis instance for Windows [here](https://redislabs.com/blog/redis-on-windows-10/) and for UNIX based machines like Mac or other Linux distros, it can be found [here](https://redis.io/topics/quickstart). Alternatively, you can use a remote instance, but be aware that some of the commands in this blog may delete or modify the data.
 
 ## Redis Insight
 
-For users that do not like working with command line interfaces, the first tool introduced in this blog is a GUI interface called RedisInsight. This can be found [here](https://redislabs.com/redis-enterprise/redis-insight/). After filling in their download form and installing, running the application will start a server on localhost which you can access with a browser.
+For users that do not like working with command-line interfaces, the first tool introduced in this blog is a GUI interface called RedisInsight. This can be found [here](https://redislabs.com/redis-enterprise/redis-insight/). After filling in their download form and installing, running the application will start a server on the localhost, which you can access with a browser.
 
-After installing and running the application, you will be able to add the connection information for your Redis instance. If running a local instance of Redis, the connection information in the image will typically suffice. If connecting to a remote instance, you might need to fill some additional details for TLS such as connection certificates.
+After installing and running the application, you will be able to add the connection information for your Redis instance. If running a local instance of Redis, the connection information in the image will typically suffice. If connecting to a remote instance, you might need to fill in some additional details for TLS, such as connection certificates.
 
 ![Connect](connect.png)
 
@@ -25,7 +25,7 @@ When connected to your Redis instance, the dashboard UI appears. Clicking the Br
 
 ![Browser](browser.png)
 
-From here CRUD operations are relatively straightforward. Key-value pair creation can be done by using the ADD KEY button. This will prompt for the type of key-value pair to be added (Hash, String, JSON, etc.) and the data that will be stored with the key.
+From here, CRUD operations are relatively straightforward. Key-value pair creation can be done by using the ADD KEY button. This will prompt for the type of key-value pair to be added (Hash, String, JSON, etc.) and the data that will be stored with the key.
 
 If a specific key is required to be queried, fill in the field next to the blue filter icon with search criteria, then click the icon. It will prompt for the type of data stored with the key, and the results will be displayed.
 
@@ -35,7 +35,7 @@ Finally, keys can be deleted by clicking the trash can icon on the right side.
 
 ## Redis CLI
 
-The Redis command line interface is a more common approach for developers to interact with data from a Redis store. If you followed the steps in the beginning of the blog, the CLI should already be installed. To do a ping test to the server, type the following command in the terminal:
+The Redis command line-interface is a more common approach for developers to interact with data from a Redis store. If you followed the steps in the beginning of the blog, the CLI should already be installed. To do a ping test to the server, type the following command in the terminal:
 
 ```console
 chris@LR-ENG-17:~$ redis-cli -h localhost -p 6379 ping
@@ -151,4 +151,4 @@ Reply: 1
 
 ## Conclusion
 
-This blog has only touched the surface of the different operations Redis can do. There are many more resources online that can help you go further into your understanding of Redis. Whether using Redis as a temporary store, like a cache, or using it as a primary, permanent store, the speed of the operations are definitely something to be acknowledged and considered when building your next big app.
+This blog has only touched the surface of the different operations Redis can do. There are many more resources online that can help you go further into your understanding of Redis. Whether using Redis as a temporary store, like a cache or using it as a primary, permanent store, the speed of the operations are definitely something to be acknowledged and considered when building your next big app.
