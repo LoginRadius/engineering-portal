@@ -1,7 +1,7 @@
 ---
 title: "Start using template strings now!"
 date: "2020-10-15"
-coverImage: "coder.jpg"
+coverImage: "code.jpg"
 author: "Team LoginRadius"
 tags: ["Engineering","JavaScript","Strings"]
 description: "Boost your code with template strings."
