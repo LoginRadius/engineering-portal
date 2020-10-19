@@ -61,7 +61,7 @@ For running the app on a real device, connect the device via cable to Mac. The d
 
 Share your first app with your parents and friends, and feel proud. 👏 
 
-![HelloWorld](Image5.jpg)
+![HelloWorld](hello_word.png)
 
 > Note: If you want to debug or run any existing app/demo instead of developing your own. For example, You might have some projects downloaded from Github on your local system. Now follow the instructions from project's Github to explore the project. 
 > Open the project in Xcode and run in a simulator or real device by following step 4 described above.
