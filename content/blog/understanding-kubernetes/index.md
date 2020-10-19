@@ -59,7 +59,7 @@ A Kubernetes cluster can be deployed on either physical or virtual machines. A s
 - **kubectl cluster-info** - It fetches all the metadata related to the cluster. 
 - **kubectl delete pod {POD_NAME}** - It deletes the deployed pods specified using the pod name.
 
-#### Conclusion: 
+### Conclusion: 
 There are many benefits of learning Kubernetes as it releases a lot of stress of deployment from the developer's shoulders. It helps in auto-scaling, intelligent utilization of available resources and enables low downtime for maintenance. Without k8s a lot of human effort and money is gone into these things but with the help of k8s everything can be automated.
 
 Since K8s is a very big technology, it is impossible to wrap all things in just one blog. To simplify things, I will be publishing more blogs in near future related to k8s Deployments, ReplicaSets, Services, Ingress Controller, Master and Worker Processes, Kubectl etc. Stay connected and keep learning.
