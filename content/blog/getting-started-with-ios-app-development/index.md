@@ -3,7 +3,7 @@ title: "Start with iOS App Development"
 date: "2020-10-19"
 coverImage: "CoverImage.jpg"
 author: "Tanvi Jain"
-tags: [ios","swift","app development","xcode","mac"]
+tags: ["ios","swift","app development","xcode","mac"]
 description: "Lets learn how to get stared with iOS development."
 ---
 
