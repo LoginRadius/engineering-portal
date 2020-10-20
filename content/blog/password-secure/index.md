@@ -10,13 +10,14 @@ When we start thinking about authentication in any kind of software (it can be w
 
 **Let's start our journey**
 
-1. Plain text passwords: Plain text passwords are stored directly in a database without any encryption. These passwords are very insecure because:
+# Plain text passwords [Never Store Plain text Passwords]
+Plain text passwords are stored directly in a database without any encryption. These passwords are very insecure because:
     - If someone hacks your database he can access any account and do anything possible after login.
     - Developers or employees who are working on a project commonly misuse the password and spread these passwords to other people for misuse.
 
   As a hard and fast rule plain text passwords should NOT be accepted in any case or used for any project or product.
 
-2. Encrypted passwords:
+# Encrypted passwords [Not recommended]:
 
 Encryption helps us by protecting data from hackers. In network communication, the same techniques can be used in saving passwords. Any encryption algorithm can be used to protect passwords. So on registration plain text passwords are encrypted and saved to your database.
 
@@ -33,7 +34,7 @@ Match with user entered password.
 
 But passwords will still not be fully secured because encrypted data can be always be de-crypted with the encryption key if someone get the key then they can de-crypt your password.
 
-3.Hashed passwords
+# Hashed passwords [Recommended]
 
 Hashing is a method of encryption to get original data from hash. Hashing algorithms are used in network data communications. The encryption encrypts the data but hashing protects tampering with the encrypted data. Hashing algorithms are widely used in securing passwords.
 
@@ -114,14 +115,14 @@ If(PasswordHash == inputPasswordHash){
 }
 ```
 
-**Some popular encryption methods :** Most of people use following algorithms for hashing passwords, explaining all algorithms is out of scope of this blog. I am adding reference URLs for more reading.
+**Some popular encryption methods :** Most of people use following algorithms for hashing passwords, explaining all algorithms is out of scope of this blog. I am adding reference URLs for more reading. I am adding only strong hashing algorithms 
 
-1. SHA algorithms ([Wikipedia](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm))
-2. MD5 ([Wikipedia](http://en.wikipedia.org/wiki/MD5))
-3. HMAC based algorithms ([Wikipedia](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code))
-4. PhPass ([Openwall](http://www.openwall.com/phpass/))
+1. [PBKDF2](http://en.wikipedia.org/wiki/PBKDF2)
+2. [bcrypt](http://en.wikipedia.org/wiki/Bcrypt)
+3. [scrypt](http://www.tarsnap.com/scrypt.html)
+4. [Argon2](https://en.wikipedia.org/wiki/Argon2)
 
-**Hash cracking techniques**
+## Hash cracking techniques
 
 **Brute force:** It is the most popular password cracking technique, in this loop every combination of numbers and alphabets are tried. Suppose one system have password minimum length is 6 digits then
 
@@ -142,8 +143,11 @@ it is just extended version of brute force attack, in this attacker attack by di
 
 A rainbow table is a precomputed table for reversing cryptographic hash functions, usually for cracking password hashes. Tables are usually used in recovering a plain text password up to a certain length consisting of a limited set of characters. It is a practical example of a space/time trade-off, using less computer processing time and more storage than a brute-force attack which calculates a hash on every attempt, but more processing time and less storage than a simple look-up table with one entry per hash. Use of a key derivation function that employs a salt makes this attack unfeasible. ([Wikipedia](http://en.wikipedia.org/wiki/Rainbow_table))
 
-**Migrating Hashing algorithm:** Sometimes people realize that their Hashing algorithm is weak so they think to migrate system to one algorithm to another but hashing algorithms are one way so getting original password is not possible so the question becomes how to make this possible. There are two ways to do this.
+## Migrating Hashing algorithm 
+Sometimes people realize that their Hashing algorithm is weak so they think to migrate system to one algorithm to another but hashing algorithms are one way so getting original password is not possible so the question becomes how to make this possible. There are two ways to do this.
 
 **Reset all passwords:** In this approach just migrate your algorithm from one to another but keep password hash same, but password will not be matched because hash of one algorithm doesn't match with hash of another algorithm, so email to user about it that our system has improved security system and send link with this email for resetting password, so user will reset password.
 
 **Migrate on login:** this approach is tricky in this case maintain one parameter for checking is password upgraded to new algorithm, set false for all user by default and when use come for login check this check if it is false then compare password with old algorithm and if password get matched then start user's session and get newer hash from plain text password and saved to database and update is password upgraded check to true. Now from next time user's password will be checked by newer algorithm.
+
+

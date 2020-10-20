@@ -1,4 +1,3 @@
-
 ---
 title: "12 Vue.js Libraries you must Try!"
 date: "2020-10-15"
