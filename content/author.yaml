@@ -263,7 +263,7 @@
   bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
   github: "shreyaa-sharmaa"
   linkedin: "shreyaa-sharma"
-  
+
 - id: Akshay Avinash
   bio: A tech enthusiast
   github: "akshay11298"
@@ -334,7 +334,7 @@
   github: "aryanrawlani28"
   stackoverflow: "8903479"
   linkedin: "aryanrawlani28"
-  
+
 - id: Vineeta Jain
   bio: Third-year undergraduate and a Full Stack Web Developer. A team-player with a can-do attitude.
   github: "Ninjavin"
@@ -351,7 +351,7 @@
 - id: Md. Tahmid Hossain
   bio: I am a programmer, developer and digital-marketer.
   github: "tahmid02016"
-  
+
 - id: Abhilash K R
   stackoverflow: "6849682"
   github: "Better-Boy"
@@ -360,3 +360,7 @@
   bio: Just a beginner trying to learn more and more
   github: "AshishMhrzn10"
   linkedin: "%C3%A3shish-mhrzn-59b7b4188"
+
+- id: Rajan Puri
+  bio: Just a beginner trying to learn more and more,
+  github: rjn01
