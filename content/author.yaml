@@ -263,7 +263,7 @@
   bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
   github: "shreyaa-sharmaa"
   linkedin: "shreyaa-sharma"
-  
+
 - id: Akshay Avinash
   bio: A tech enthusiast
   github: "akshay11298"
@@ -334,7 +334,7 @@
   github: "aryanrawlani28"
   stackoverflow: "8903479"
   linkedin: "aryanrawlani28"
-  
+
 - id: Vineeta Jain
   bio: Third-year undergraduate and a Full Stack Web Developer. A team-player with a can-do attitude.
   github: "Ninjavin"
@@ -361,7 +361,12 @@
   github: "AshishMhrzn10"
   linkedin: "%C3%A3shish-mhrzn-59b7b4188"
   
-- id: Ri Nandiya
-  bio: Computer Science Graduate and Junior Data Scientist
-  github: nandiya
-  linkedin: Padmeswari Nandiya
+- id: Rajan Puri
+  bio: Just a beginner trying to learn more and more
+  github: rjn01
+
+- id: Devansh Agarwal
+  bio: Devansh is a Data Analyst with a high degree of inclination towards Business Intelligence and Digital Analytics. He is working as a Technical Content Writer from past couple of years.
+  github: "Devanshh"
+  linkedin: "devansh-agarwal-a70474153"
+  medium: "@devanshagarwal121"

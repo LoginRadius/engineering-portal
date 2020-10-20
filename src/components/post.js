@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
 
-const eventLogger = function ({category, action, label}) {
+const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
     category: category,
     action: action,
@@ -35,8 +35,6 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
-
-  
 
   return (
     <>
@@ -136,13 +134,15 @@ const Post = ({ post, relatedPost }) => {
               <div>
                 <h3>Follow LoginRadius </h3>
                 <div className={styles.followBtn}>
-                  <a 
+                  <a
                     href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
-                    onClick={() => eventLogger({
-                      category: "Social Clicks",
-                      action: "Clicked on Feedly",
-                      label: "Feedly"
-                    })} 
+                    onClick={() =>
+                      eventLogger({
+                        category: "Social Clicks",
+                        action: "Clicked on Feedly",
+                        label: "Feedly",
+                      })
+                    }
                     target="blank"
                   >
                     <img
@@ -154,13 +154,17 @@ const Post = ({ post, relatedPost }) => {
                     />
                     <p> via feedly </p>
                   </a>
-                  <a href="https://twitter.com/LoginRadius" 
-                   onClick={() => eventLogger({
-                    category: "Social Clicks",
-                    action: "Clicked on Twitter",
-                    label: "Twitter"
-                  })}
-                  target="blank">
+                  <a
+                    href="https://twitter.com/LoginRadius"
+                    onClick={() =>
+                      eventLogger({
+                        category: "Social Clicks",
+                        action: "Clicked on Twitter",
+                        label: "Twitter",
+                      })
+                    }
+                    target="blank"
+                  >
                     <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
                     <p> on twitter </p>
                   </a>
@@ -176,11 +180,13 @@ const Post = ({ post, relatedPost }) => {
                   key={"docs-link"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={() => eventLogger({
-                    category: "LoginRadius Docs",
-                    action: "User clicked on Loginradius Docs button",
-                    label: "Docs"
-                  })}
+                  onClick={() =>
+                    eventLogger({
+                      category: "LoginRadius Docs",
+                      action: "User clicked on Loginradius Docs button",
+                      label: "Docs",
+                    })
+                  }
                 >
                   {"click here"}
                 </a>
@@ -193,14 +199,31 @@ const Post = ({ post, relatedPost }) => {
             <div className={styles.postContent}>
               <h2>About LoginRadius</h2>
               <p>
-                LoginRadius provides a comprehensive set of APIs to enable authentication, identity verification, single sign-on, user management, and account protection capabilities such as multi-factor authentication on any web or mobile application. The company offers open source SDKs, integrations with over 150 third party applications, pre-designed and customizable login interfaces, and best-in-class data security products. The platform is already loved by over 3,000 businesses with a monthly reach of 1.17 billion users worldwide.
-              <br />
+                LoginRadius provides a comprehensive set of APIs to enable
+                authentication, identity verification, single sign-on, user
+                management, and account protection capabilities such as
+                multi-factor authentication on any web or mobile application.
+                The company offers open source SDKs, integrations with over 150
+                third party applications, pre-designed and customizable login
+                interfaces, and best-in-class data security products. The
+                platform is already loved by over 3,000 businesses with a
+                monthly reach of 1.17 billion users worldwide.
                 <br />
-                For more information, visit <a href="https://loginradius.com"  onClick={() => eventLogger({
-                    category: "LoginRadius Home",
-                    action: "User clicked on LoginRadius home page",
-                    label: "LoginRadius Home"
-                  })} target="blank">LoginRadius</a>
+                <br />
+                For more information, visit{" "}
+                <a
+                  href="https://loginradius.com"
+                  onClick={() =>
+                    eventLogger({
+                      category: "LoginRadius Home",
+                      action: "User clicked on LoginRadius home page",
+                      label: "LoginRadius Home",
+                    })
+                  }
+                  target="blank"
+                >
+                  LoginRadius
+                </a>
               </p>
             </div>
           </div>
