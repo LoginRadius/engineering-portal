@@ -7,7 +7,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
 3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
 4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **900px x 600px**.
+5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px X 800px** and the minimum image size can be **900px X 600px**.
 
 6. The blog should have the meta tags at the top of your MD files which should have the below properties.
 
