@@ -1,10 +1,10 @@
 ---
 
 Title: Best Hacking Tools
-Date: "2020-10-08"
-coverImage: "cover.jpg"
+Date: "2020-10-22"
+coverImage: "cover1.jpg"
 Author: "Akshay Nagle"
-description: Learn about basic hacking tool.
+description: Learn about the basic hacking tools.
 tags: ["Hacking", "Security"]
 
 ---
@@ -30,7 +30,7 @@ It supports a large variety of OS that is:
 It uses raw IP packets to determine 
   * Hosts that are accessible on the specific networks. 
   * Services that are offered by hosts, i.e., Application name together with its versions.
-  * Operating system and its version that's running on the target system, type of firewall on the target system.
+  * Operating system and its version running on the target system, type of firewall on the target system.
   * Scans for the exploitation of the open port, both TCP and UDP protocols.
 			
 
@@ -49,7 +49,7 @@ It uses a vulnerable system on that security testing may be conducted to use the
 Metasploit may enforce as follows:
   * Initially, protocol port scanning is complete to get data concerning the target system.
   * Host lists and services running on them may be read and analyzed within the project view. 
-  * Now, the vulnerability scan is running on the target system's information that enlists the failings inside the system.
+  * Now, the vulnerability scan runs on the target system's information that enlists the failings inside the system.
   * This data used for designing the attack on the target system.
 			
 
@@ -92,7 +92,7 @@ John the Ripper working:
   * Next, we tend to enter the valid John the ripper command that is used in extracting the password from the hash password given as an input.
 			
 
-The rate at which the password is going to be cracked depends utterly on the strength of the password and also offered wordlist. It keeps attempting to break the password continuously till the termination command isn't given.
+The rate at which the password is going to be cracked depends utterly on the password's strength and offered wordlist. It keeps attempting to break the password continuously till the termination command isn't given.
 			
 
 John the ripper download link:
@@ -104,18 +104,18 @@ https://www.openwall.com/john/
 			
 
 It is an integrated platform that's used for activity a check on net application security.
-It provides a large variety of tools that are used from initial mapping to exploiting the vulnerabilities within the applications. Once the issues are detected, hackers will use it to break into the security of the system. 
+It provides a large variety of tools that are used from initial mapping to exploiting the applications' vulnerabilities. Once the issues are detected, hackers will use it to break into the security of the system. 
 			
 
 Burp Suite comes in 3 editions:
   1. Community Edition: It is available free of charge for downloading.
-  2. Professional Edition: Penetration testers and bug bounty hunters utilizes it.
-  3. Enterprise Edition: An organization utilises it.
+  2. Professional Edition: Penetration testers and bug bounty hunters utilize it.
+  3. Enterprise Edition: An organization utilizes it.
 			
 
 Burp Suite features:
   * It may be used to launch attacks on internet Applications. It will check and detect Cross-site scripting (XSS) and SQL injection.
-  * It operates as an internet proxy server that helps in permitting interception, inspection, and modification of network traffic.
+  * It operates as an internet proxy server that helps permit interception, inspection, and modification of network traffic.
 			
 
 Burp Suite download link:
@@ -145,7 +145,7 @@ Angry IP Scanner download link:
 ![](NIKTO-Scanner.png)
 			
 
-It is a web-server assessment tool. It is an open-source platform that performs tests against web servers to seek out multiple vulnerable files, misconfigurations, out-of-date servers, and programs on its web server.
+It is a web-server assessment tool. It is an open-source platform that performs tests against web servers to seek multiple vulnerable files, misconfigurations, out-of-date servers, and programs on its web server.
 It depends on HTTP response to seeing whether or not a page or script exists on the target.
 			
 
