@@ -1,5 +1,5 @@
 ---
-title: "Visualizing Data using Leaflet and Netlify."
+title: "Visualizing Data using Leaflet and Netlify"
 date: "2020-10-14"
 coverImage: "map.jpg"
 author: Sudipto Ghosh

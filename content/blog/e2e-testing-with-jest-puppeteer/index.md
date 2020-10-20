@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Testing with Jest and Puppeteer."
+title: "End-to-End Testing with Jest and Puppeteer"
 date: "2020-10-15"
 coverImage: "jest-puppeteer.png"
 author: "Shreya Sharma"

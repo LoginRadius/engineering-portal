@@ -1,5 +1,5 @@
 ---
-title: "Apache Beam for Dummies - An introduction."
+title: "Apache Beam for Dummies - An introduction"
 date: "2020-10-16"
 coverImage: "main.png"
 author: "Abhilash K R"
