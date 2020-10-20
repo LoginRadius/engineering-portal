@@ -13,6 +13,8 @@ people often get confused between typescript and JavaScript and they don't know 
 between these two sothis blog is all about typescript versus JavaScript. So, here we will understand how typescript and 
 JavaScript are similar yet different in their own ways. 
 ## Quick introduction to Javascript
+![](JavaScript.jpg)
+
 So first is JavaScript Now, javascript is actually a scripting language which is primarily used for creating web pages it is 
 also used to enhance HTML pages and is generally embedded in HTML code now JavaScript does not need to be compiled as it is 
 an in-depth language it helps to create dynamic creative and interactive web pages now javascript files are identified by the 
@@ -34,6 +36,8 @@ not just that most popular websites like Google, Facebook, Netflix, Amazon etc. 
 like mobile application digital art web servers and server applications javascript is also used to make games now a lot of developers are building 
 small-scale games and apps using javascript so this was about javascript and what it actually does. 
 ## Quick introduction to Typescript
+![](typescript.png)
+
 Now Let's move on and see what is typescript. So, typescript is basically an open source programming language that lets you write JavaScript 
 the way you want to now typescript is nothing but a superset of JavaScript that compiles into simple JavaScript it is purely object oriented 
 with classes and interfaces it also helps programmers to write object-oriented programs and have them compiled to JavaScript both on the server 
