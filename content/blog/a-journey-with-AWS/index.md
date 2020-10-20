@@ -54,6 +54,12 @@ After setting up RDS you can logged in to local tool(SQL Developer/ MY SQL Workb
 ## AWS Elasti Cache
 Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud.This service is commonly used to avoid unnecessary calls to RDS and impriving the user experience by displaying the data at faster rate.
 
+There are two types of cluster engine supported by AWS Elasti Cache
+- Redis
+- Memcached
+
+![AWS Elasti Cache](AWS_EC.png)
+
 Login redis in local via this command (First port can be anyone except 6379 as it will direct AWS redis to local redis installed on machine) and after first port just paste the endpoint of redis.
 
 ```
@@ -68,6 +74,8 @@ There are few components of BOT that need to be understood in order to build it.
 - Slots:- Data provided by user to fulfill the intent.
 - Prompts:-These are queris/questions asked by user to input the data.
 
+Moreover there are VERSIONS mapped to bots, intents and custom slots whenever we create we have to provide version ,main agenda of version is to make Immutable versions of bot that is created using AWS Lex.
+
 ![AWS Lex](AWS_Lex.png)
 
 
@@ -79,11 +87,17 @@ Here are some of pointers that explains the need of this service.
 - Cost saving at scale.
 - Flexible Security Controls.
 
+This services enables to make API's on the go with few clicks ,also we can use Mocking approach to make dummy routes without any original data in this faking data is used and bouncing back to without any activity.
+
+![AWS API Gateway](AWS_API.png)
+
 ## AWS DynammoDB
 Dynammo DB is NO SQL database provide by Amazon Web Services.The main job of Dynammo DB is to Store & Retrieve any amount of data and serve any level requests of traffic.
 In this there are different terminologies as that of normal database.Secondary Indexes is Data Structure that contains a subset of attributes from a table.
-- Partition & Sort Keys
+- Partition & Sort Keys (Partition key is single primary key composed of one attribute only)
 - Local & Global Secondary Indexes
+  - Local Index: Index with same partition key as of base table but different sort key
+  - Global Index: In global index both partition key as well as sort key can differ from that of base table.  
 
 ![AWS Dynammo](AWS_Dynammo.png)
 
