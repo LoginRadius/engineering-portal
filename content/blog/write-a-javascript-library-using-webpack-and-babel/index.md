@@ -215,3 +215,7 @@ Run `$npm run build` to generate the bundled code and use it in the next step.
 Save it and run it in your browser. You will see the name capitalized.
 
 The complete code is available at [LoginRadius Engineering Blog Sample Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/JavaScript/WebpackBabelJSLibrary)
+
+Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lXlpshtv_IU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

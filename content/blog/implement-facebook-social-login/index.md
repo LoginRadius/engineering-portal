@@ -12,7 +12,7 @@ The first thing you’ll need to do is create a Facebook app since an app Id is 
 
 Next, we’ll implement login using Facebook. All we need to do is copy and paste the code provided to us by Facebook to create the Facebook social login and replace the placeholder with your own Facebook app id. I will be explaining the same code with my customization provided in the codepen below.
 
-Lets add the Facebook login interface. You'll want to place this code in the body section of your html code.
+Let's add the Facebook login interface. You'll want to place this code in the body section of your html code.
 
 ```js
 <!--
@@ -57,7 +57,7 @@ Next we'll add the function that handles the response and alters the page conten
 ```javascript
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
-    // The response object is returned with a status field that lets the app know the current login status of the person.
+    // The response object is returned with a status field that Let's the app know the current login status of the person.
     if (response.status === 'connected') {
         console.log('Welcome! Fetching your information.... ');
         FB.api('/me', function(response) {

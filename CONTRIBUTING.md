@@ -18,6 +18,7 @@ This is a rough outline of what a contributor's workflow looks like:
 - Push your changes to a topic branch in your fork of the repository.
 - Make sure to proofread the content before submitting
 - Submit a pull request to the original repository.
+- **Please ensure that you raise a PR on `dev` branch instead of `master`.**
 
 #### Commit Messages
 
@@ -37,7 +38,7 @@ Thanks for your contributions!
 - The post should be of 600-900 words.
 - The topic must relate to technology/programming/coding.
 - Post must not be published elsewhere.
-- The author gets only these linkS in bio, GitHub, StackOverflow, LinkedIn.
+- The author gets only these link(s) in bio, GitHub, StackOverflow, LinkedIn.
 - The post should adhere to our [Blog writing guideline](GUIDELINES.md)
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
