@@ -197,22 +197,26 @@ const Post = ({ post, relatedPost }) => {
           </div>
           <div className="grid-70-30">
             <div className={styles.postContent}>
-              <h2>About LoginRadius</h2>
+              <h2>Are your customers safe on your application?</h2>
               <p>
-                LoginRadius provides a comprehensive set of APIs to enable
-                authentication, identity verification, single sign-on, user
-                management, and account protection capabilities such as
-                multi-factor authentication on any web or mobile application.
-                The company offers open source SDKs, integrations with over 150
-                third party applications, pre-designed and customizable login
-                interfaces, and best-in-class data security products. The
-                platform is already loved by over 3,000 businesses with a
-                monthly reach of 1.17 billion users worldwide.
+                According to Forbes, data breaches exposed 4.1 billion records
+                in the first six months of 2019. If this gets you worried, we
+                have got your back!
                 <br />
                 <br />
-                For more information, visit{" "}
+                LoginRadius protects your customers’ identities. We provide
+                world class security for your customers during login,
+                registration, password setup, and any other data touchpoints,
+                and make sure that their data is safe. In parallel, it offers
+                open source SDKs, integrations with over 150 third party
+                applications, pre-designed and customizable login interfaces,
+                and best-in-class data security products such as MFA, RBA,
+                Advanced Password Policies. The platform is already loved by
+                over 3,000 businesses with a monthly reach of 1.17 billion users
+                worldwide.
                 <a
-                  href="https://loginradius.com"
+                  href="https://accounts.loginradius.com/?utm_source=async&utm_medium=blog&utm_campaign=fodb"
+                  className={"btn-primary btn-cta"}
                   onClick={() =>
                     eventLogger({
                       category: "LoginRadius Home",
@@ -222,7 +226,7 @@ const Post = ({ post, relatedPost }) => {
                   }
                   target="blank"
                 >
-                  LoginRadius
+                  Know more about LoginRadius
                 </a>
               </p>
             </div>

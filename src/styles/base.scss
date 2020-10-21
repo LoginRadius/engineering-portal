@@ -129,6 +129,13 @@ ul {
     transition: box-shadow 0.2s ease-in 0s, transform 0.2s ease-in 0s;
   }
 }
+
+.btn-cta {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 16px;
+  background: #ffc048;
+}
 .mb-0 {
   margin-bottom: $space-0;
 }
