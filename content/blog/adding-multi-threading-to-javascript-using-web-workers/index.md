@@ -7,7 +7,7 @@ tags: ["JavaScript", "Web"]
 description: "Web workers have been around for a long time and add multi-threading capability to JavaScript. Let's dive in and see how they work."
 ---
 
-Once upon a time, me and my friend Hriday went to a club called **JavaScripters**. The club had some rules, that in order to enter you need to be a member of the club. There was this guy at the door who was checking for membership and if you are not a member, he would register you right there and give you a membership card. Hriday was a long time member and went in, and me, it was just my first time to any club. 😅 So, I got stuck in the registration process and so did everyone else after me. After 2-3 minutes I went in and everyone else after me.
+Once upon a time, me and my friend Hriday went to a club called **JavaScripters**. The club had some rules - in order to enter, you need to be a member of the club. There was this guy at the door who was checking for membership and if you are not a member, he would register you right there and give you a membership card. Hriday was a long time member and went in, and me, it was just my first time to any club. 😅 So, I got stuck in the registration process and so did everyone else after me. After 2-3 minutes I went in and everyone else after me.
 
 While coming back, I thought why don't these guys add one more person who would be in charge of registring people and once registred can be allowed entry, so that others don't get stuck and someone like me doesn't get yelled at for no reason.😏
 It appears that like JavaScript they are single-threaded too and don't know about web workers yet.🤔
@@ -22,9 +22,9 @@ _From MDN_:
 
 > Web Workers makes it possible to run a script operation in a background thread separate from the main execution thread of a web application. The advantage of this is that laborious processing can be performed in a separate thread, allowing the main (usually the UI) thread to run without being blocked/slowed down.
 
-In short, web workers let's you do multi-threading in JavaScript which is a single-threaded language.
+In short, web workers lets you do multi-threading in JavaScript which is a single-threaded language.
 
-Let's create our own virtual **JavaScripters** and we are going to make sure that someone innocent doesn't gets yelled at by adding multi-threading to our JavaScript using web workers. 🤩
+Let's create our own virtual **JavaScripters** and we are going to make sure that someone innocent doesn't gets yelled at, by adding multi-threading to our JavaScript using web workers. 🤩
 
 ### Let's get the party started. 🕺
 
@@ -138,8 +138,8 @@ Now, the problem I faced when I went to the club with Hriday was that I (and eve
 1. First of all we check for each person if they are a member or not. If they are, we let them in.
 2. If someone is not a member of the club yet, we create a worker thread for it using `new Worker('path to worker code')` and pass that person to the worker thread using `worker.postMessage()` and add the person as a member after registering them.
 3. To simulate the registration process we are doing some processing using a long `while` loop. In real life this could be some cryptographic code, image processing or anything that is CPU intensive and might block the main thread and makes the page unresponsive.
-4. Once registered, the worker thread let's the main thread know about it by sending data using `postMessage` and the main thread listens for it using `onmessage handler` and let's the person in the club i.e add to DOM.
-5. Once we get the result from the worker thread, then we close it using `close()`.
+4. Once registered, the worker thread let's the main thread know about it by sending data using `postMessage` and the main thread listens for it using `onmessage handler` and lets the person in the club i.e add to DOM.
+5. Once we get the result from the worker thread, we close it using `close()`.
 
 #### Let's understand more about web workers.
 
