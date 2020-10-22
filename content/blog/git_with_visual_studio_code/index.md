@@ -1,7 +1,7 @@
 ---
 title: Git with Visual Studio Code
 date: "2020-10-24"
-coverImage: ""
+coverImage: "Coverphotoforblog.png"
 author: "Roshan Jha"
 tags: ["tutorial","git-github", "time-saviour","visual-studio-code","useful-for-all"]
 description: "Learn to integrate Git with your Visual Studio Code."
@@ -28,7 +28,7 @@ for a UI flow, then this is going to turn out **very useful** for you.
 > **Note:** If you have already performed any step (like initialising the git repo) from VS Code you can just skip to the next step as Visual Studio Code keeps a track of your entire 
 Git History.
 
-> **Extras:** If you are like me and prefer keyboard shortcuts over clicking around with your mouse, do check out Step 6 👀.
+> **Extras:** If you prefer keyboard shortcuts over clicking around with your mouse, do check out Step 6 👀.
 
 ### Step 1: Initialise a git repo
 
