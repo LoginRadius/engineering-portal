@@ -1,9 +1,9 @@
 ---
 
-Title: Best Hacking Tools
-Date: "2020-10-22"
+title: Best Hacking Tools
+date: "2020-10-22"
 coverImage: "cover1.jpg"
-Author: "Akshay Nagle"
+author: "Akshay Nagle"
 description: Learn about the basic hacking tools.
 tags: ["Ethical Hacking", "Security", "Testing"]
 
