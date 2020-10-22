@@ -5,7 +5,7 @@ Date: "2020-10-22"
 coverImage: "cover1.jpg"
 Author: "Akshay Nagle"
 description: Learn about the basic hacking tools.
-tags: ["Hacking", "Security"]
+tags: ["Ethical Hacking", "Security", "Testing"]
 
 ---
 Ever since you enter the sphere of ethical Hacking, you usually need to get your hand on most of the Hacking Tools. The more tools you recognize, the more your hacking career is getting ready to fly off. Therefore let's discuss some of the necessary hacking tools.
