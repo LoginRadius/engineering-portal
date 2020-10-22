@@ -27,7 +27,7 @@ module is basically used to control the motors that are connected for the locomo
 the Arduino to move or rotate in the specific directon.It can control Four Gear motors at maximum, also speed of the motors can be handles by this IC.
 
 
-Objective:
+D.) Objective:
 1.) The main motive behind this project is to expand the knowledge for the smart micro-controllers like Arduino, which is widely used in the latest IOT technologies.
 2.) Making the use of Connectivity Modules like Bluetooth HC-05, to understand the different modes of operating and communications with the micro-controller board.
 3.) To get familiar with Codes and programs used for the controlling of the Arduino Uno board.
@@ -52,6 +52,7 @@ Pin Connections:
 3.) Connect same GND of motor driver  to GND (in analog) of Arduino.
 4.) Pins of HC-05 are connected to Arduino like this: GND(in analog pins) to GND; VCC(in analog) to 5V; RX to TX(in digital pins) and TX to RX(in digital pins).
 Connect anode and cathode of LED to Pin 9 (in digital pins) and 3.3V (in analog pins) pins respectively.
+5.) Use of the LED light is the optional parameter in this project.
 
 E.) Here,i want to tell one important point that, The code that will be given , should be uploaded before connection of the pins , else you will face error in uploadind the code,
 so, just first copy the code provided below,  and paste in the arduino software and upload it ot the board before the pin connections.
@@ -59,7 +60,103 @@ so, just first copy the code provided below,  and paste in the arduino software 
 F.) Software details: Arduino: 1.8.9 (Windows Store 1.8.21.0) (Windows 10), Board: "Arduino/Genuino Uno“
 G.) Application used for Controlling the car is "Arduino Car", can be found on Playstore.
 
+
 H.) CODE FOR THE ABOVE PROJECT:
 
+---
+ARDUINO BLUETOOTH CAR CODING
+---
+
+
+
+
+char t;
+ 
+void setup() {
+pinMode(13,OUTPUT);   //left motors forward
+pinMode(12,OUTPUT);   //left motors reverse
+pinMode(11,OUTPUT);   //right motors forward
+pinMode(10,OUTPUT);   //right motors reverse
+pinMode(9,OUTPUT);   //Led
+Serial.begin(9600);
+ 
+}
+ 
+void loop() {
+if(Serial.available()){
+  t = Serial.read();
+  Serial.println(t);
+}
+ 
+if(t == 'F'){            //move forward(all motors rotate in forward direction)
+  digitalWrite(13,HIGH);
+  digitalWrite(11,HIGH);
+}
+ 
+else if(t == 'G'){      //move reverse (all motors rotate in reverse direction)
+  digitalWrite(12,HIGH);
+  digitalWrite(10,HIGH);
+}
+ 
+else if(t == 'R'){      //turn right (left side motors rotate in forward direction, right side motors doesn't rotate)
+  digitalWrite(11,HIGH);
+}
+ 
+else if(t == 'L'){      //turn left (right side motors rotate in forward direction, left side motors doesn't rotate)
+  digitalWrite(13,HIGH);
+}
+
+else if(t == 'M'){    //turn led on or off)
+  digitalWrite(9,HIGH);
+}
+else if(t == 'm'){
+  digitalWrite(9,LOW);
+}
+ 
+else if(t == 'S'){      //STOP (all motors stop)
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+}
+else if(t == 'Q'){
+   digitalWrite(13,HIGH);
+  delay(2000);
+    digitalWrite(13,HIGH);
+  digitalWrite(11,HIGH);
+  delay(2000) ;
+  digitalWrite(13,LOW);
+  digitalWrite(11,LOW);
+}
+ else if(t == 'E'){
+   digitalWrite(11,HIGH);
+  delay(2000);
+    digitalWrite(13,HIGH);
+  digitalWrite(11,HIGH);
+  delay(2000); 
+  digitalWrite(13,LOW);
+  digitalWrite(11,LOW);
+}
+ else if(t == 'Z'){
+   digitalWrite(13,HIGH);
+  delay(2000);
+  digitalWrite(12,HIGH);
+  digitalWrite(10,HIGH);
+  delay(2000) ;
+  digitalWrite(12,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(13,LOW);
+}
+ else if(t == 'C'){
+   digitalWrite(11,HIGH);
+  delay(2000);
+    digitalWrite(12,HIGH);
+  digitalWrite(10,HIGH);
+  delay(2000); 
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+}
+}
 
 
