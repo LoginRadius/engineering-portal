@@ -28,16 +28,10 @@ the Arduino to move or rotate in the specific directon.It can control Four Gear 
 
 
 Objective:
-•	Many of the wireless-controlled robots use RF modules. But this project make use of Android smartphone and Bluetooth for robotic control.
-
-•	 The control commands available are more than RF modules. For this the android mobile user must install an application on her/his mobile. 
-   Then user needs to turn on the Bluetooth in the mobile. 
-
-•	The wireless communication techniques used to control the robot is Bluetooth technology. 
-  User can use various commands like move forward, move reverse, move left, move right using these commands which are sent from the Android mobile.
-
-•	 Robot has a Bluetooth receiver unit which receives the commands and give it to the microcontroller circuit to control the motors. 
-   The microcontroller then transmits the signal to the motor driver IC’s to operate the motors.
+1.) The main motive behind this project is to expand the knowledge for the smart micro-controllers like Arduino, which is widely used in the latest IOT technologies.
+2.) Making the use of Connectivity Modules like Bluetooth HC-05, to understand the different modes of operating and communications with the micro-controller board.
+3.) To get familiar with Codes and programs used for the controlling of the Arduino Uno board.
+4.) Introductory project for Every Electronics And Electrical Student , to get the working of the Arduino board and its software.
    
 
 Components Required for the project:
@@ -60,10 +54,12 @@ Pin Connections:
 Connect anode and cathode of LED to Pin 9 (in digital pins) and 3.3V (in analog pins) pins respectively.
 
 E.) Here,i want to tell one important point that, The code that will be given , should be uploaded before connection of the pins , else you will face error in uploadind the code,
-so, just first copy the code from the file provided in the arduino software and upload it ot the board before the pin connections.
+so, just first copy the code provided below,  and paste in the arduino software and upload it ot the board before the pin connections.
 
 F.) Software details: Arduino: 1.8.9 (Windows Store 1.8.21.0) (Windows 10), Board: "Arduino/Genuino Uno“
+G.) Application used for Controlling the car is "Arduino Car", can be found on Playstore.
 
-G.) Code is given the file named "Arduino car code" file.
+H.) CODE FOR THE ABOVE PROJECT:
+
 
 
