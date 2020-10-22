@@ -75,9 +75,11 @@ There are a few components of BOT that need to be understood in order to build i
 - Slots:- Data provided by the user to fulfill the intent.
 - Prompts:-These are queries/questions asked by the user to input the data.
 
-Moreover, there are VERSIONS mapped to bots, intents, and custom slots whenever we create we have to provide version ,main agenda of version is to make Immutable versions of bot that is created using AWS Lex.
-
 ![AWS Lex](AWS_Lex.png)
+
+Moreover, there are VERSIONS linked with bots, intents, and custom slots. With the help of versions we can make changes in dev version without any impact occuring in PROD hence it helps to make Immutable versions of bot that is created using AWS Lex.
+
+![AWS Lex Versions](AWS_LexV.png)
 
 
 ## AWS API Gateway
