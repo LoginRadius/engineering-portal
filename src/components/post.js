@@ -226,7 +226,7 @@ const Post = ({ post, relatedPost }) => {
                   }
                   target="blank"
                 >
-                  Know more about LoginRadius
+                  Secure Your Application Now
                 </a>
               </p>
             </div>
