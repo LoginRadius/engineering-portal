@@ -3,11 +3,11 @@ title: "Why RPA is important for businesses"
 date: "2020-10-23"
 coverImage: "RPA.jpg"
 author: "Vikram Jain"
-Description: "It's very important for every business to evolve with technologies, understand their customers needs and and market senitment to sustain and grow.This article will give you some insights that how RPA can help in that with different industries/domain."
+description: "It's very important for every business to evolve with technologies, understand their customers needs and and market senitment to sustain and grow.This article will give you some insights that how RPA can help in that with different industries/domain."
 tags: ["Engineering","RPA","Automation"]
 ---
 
-Robotic process automation(RPA) process to get the repetitive tasks done through bots and reduce manual efforts.
+#### Robotic process automation(RPA) process to get the repetitive tasks done through bots and reduce manual efforts.
 
 In definitive words, we can say ** "Impersonating human activities in a sequential fashion to achieve a designated result without any manual intervention is known as Robotic Process Automation."**
 
