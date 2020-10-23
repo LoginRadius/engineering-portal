@@ -9,8 +9,8 @@ tags: ["JavaScript", "Promise"]
 As a front-end developer, if you haven't heard about Promise in Javascript, well ...  
 At least you have heard about it now! And it is truly amazing.
 
-Promise is a the standard way of handling asynchronous operations, such as calling APIs. It is comprehensive but elegant, espeically with a series of Async operations and handling the errors from them.  
-It has been widely supported by mordern browsers. But of course IE is not one of the modern ones, so do not forget to find a promise-polyfill for your IE users.
+Promise is the standard way of handling asynchronous operations, such as calling APIs. It is comprehensive but elegant, especially with a series of Async operations and handling the errors from them.  
+It has been widely supported by modern browsers. But of course IE is not one of the modern ones, so do not forget to find a promise-polyfill for your IE users.
 
 [Can I use Promise](http://caniuse.com/#feat=promises)  
 [Polyfill for IE](https://github.com/taylorhakes/promise-polyfill)
