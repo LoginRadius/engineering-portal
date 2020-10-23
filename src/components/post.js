@@ -200,20 +200,20 @@ const Post = ({ post, relatedPost }) => {
               <h2>Are your customers safe on your application?</h2>
               <p>
                 According to Forbes, data breaches exposed 4.1 billion records
-                in the first six months of 2019. If this gets you worried, we
-                have got your back!
+                in the first six months of 2019. If this gets you worried, we’ve
+                got your back!
                 <br />
                 <br />
                 LoginRadius protects your customers’ identities. We provide
-                world class security for your customers during login,
+                world-class security for your customers during login,
                 registration, password setup, and any other data touchpoints,
-                and make sure that their data is safe. In parallel, it offers
-                open source SDKs, integrations with over 150 third party
-                applications, pre-designed and customizable login interfaces,
-                and best-in-class data security products such as MFA, RBA,
-                Advanced Password Policies. The platform is already loved by
-                over 3,000 businesses with a monthly reach of 1.17 billion users
-                worldwide.
+                and make sure that their data is safe. We do so through by
+                offering open source SDKs, integrations with over 150 third
+                party applications, pre-designed and customizable login
+                interfaces, and best-in-class data security products such as
+                MFA, RBA, and Advanced Password Policies. The platform is
+                already loved by over 3,000 businesses with a monthly reach of
+                1.17 billion users worldwide.
                 <a
                   href="https://accounts.loginradius.com/?utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta"}
