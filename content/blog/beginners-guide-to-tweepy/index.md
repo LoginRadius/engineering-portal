@@ -13,17 +13,17 @@ In simple words, Tweepy is basically an open-source python package which provide
 
 ### Installation
 Tweepy can installed by using Python package manager **pip**. A simple demonstration can be seen below:
-![installation](installation.PNG)
+![installation](installation.PNG "Installation")
 
 Installation on Linux and MacOS should follow similar steps as well.
 
 
 Twitter API uses OAuth for authentication, so initially you need to apply for authentication credentials from Twitter. These authentication credentials basically consists of 4 components namely : _consumer_key, consumer_secret_key, access_token, access_token_secret_ . These credentials from twitter are used to instantiate the API. **Each account gets a unique key so don't reuse someone else's keys.** 
 For getting those credentials from twitter, apply for a developer account on the [Twitter Developers](https://developer.twitter.com/en) page.
-![](twitterdev.png "Twitter Dev Dashboard")
+![twitterdev](twitterdev.png "Twitter Dev Dashboard")
 This is what the account looks like. Here you will get detailed information about total no. of requests made, your API credentials and much more information. After creating an account, you need to create an app, wherein you will be asked to name your app alongwith a short description. You must be wondering what is an app? 
 App is like a gateway which contains set of permissions and keys used to access the Twitter API. An app is needed for accessing the Twitter API as a part of Twitter's OAuth authentication. After creating an app, generate new authentication tokens for authorization purpose.
-![](keys.png)
+![keys](keys.png)
 
 ### Getting Started : Tweepy
 There are 4 common basic steps in any tweepy application.
