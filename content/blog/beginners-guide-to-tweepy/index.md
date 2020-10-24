@@ -13,7 +13,7 @@ In simple words, Tweepy is basically an open-source python package which provide
 
 ### Installation
 Tweepy can installed by using Python package manager **pip**. A simple demonstration can be seen below:
-![](installation.png "Installation")
+![](installation.png)
 
 Installation on Linux and MacOS should follow similar steps as well.
 
