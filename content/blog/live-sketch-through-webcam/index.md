@@ -6,7 +6,7 @@ author: "Sharvari Raut"
 tags: ["Technology","OpenCV","Sketch","Computer Vision","Python"]
 ---
 
-Computer Vision is a field in Computer science which focuses on enabling computers to see, identify, and process images in the same way as the human mind does. OpenCV is a very powerful computer vision library. In, this blog article we will see how we can use this library to implement a Computer Vision model that creates a live video black and white sketch of real-time webcam video.
+Computer Vision is a field in Computer science which focuses on enabling computers to see, identify, and process images in the same way as the human mind does. The importance of computer vision is in the problems it can solve. It is one of the main technologies that enable the digital world to interact with the physical world. OpenCV is a very powerful computer vision library. There are many other applications of computer vision using OpenCV, For eg: Face Detection, Face Recognition, License plate reading, etc. In, this blog article we will see how we can use this library to implement a Computer Vision model that creates a live video black and white sketch of real-time webcam video.
 
 Before we start make sure you have installed "OpenCV" and "NumPy" libraries in your system. By using the following commands:
 
@@ -16,7 +16,7 @@ Before we start make sure you have installed "OpenCV" and "NumPy" libraries in y
 ```
 
 ### Importing Libraries
-Importing our OpenCV and NumPy libraries.
+The most important step, importing our OpenCV and NumPy libraries.
 ```
 import cv2
 import numpy as np
@@ -28,7 +28,7 @@ We will make a function in which we will generate our sketch:
 def sketch(img):
 ```
 #### Converting image into grayscale
-Converting an image into grayscale to remove colors that are present in our image.
+As, we are making our black and white live sketcher we should convert an image into grayscale to remove colors that are present in our image.
  ```
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ```
@@ -103,4 +103,17 @@ cv2.destroyAllWindows()
 #### Results
 Voila! Your Live Sketch!<br>
 
-<img src ="https://github.com/sharur7/engineering-portal/blob/new/content/blog/live-sketch-through-webcam/sketch.gif?raw=true" alt="sketch">
+<img src ="https://github.com/sharur7/engineering-portal/blob/new/content/blog/live-sketch-through-webcam/sketch.gif?raw=true" alt="sketch"><br><br>
+
+#### Implemantation
+You can also implement to covert an image to add some filter or make your own live filter example:
+
+1) Sepia filter
+2) Cartoonization filter
+3) Duo-Tone Image
+4) Embossing Image
+5) Colourful Live Sketcher
+6) Oldify Image
+7) Low Poly Image
+8) Grayscale Filter
+9) Water Colour Filter
