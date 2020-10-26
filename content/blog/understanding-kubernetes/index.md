@@ -22,7 +22,7 @@ Kubernetes (also known as k8s) is a container orchestration tool widely used to 
 
  - Each organization wants its deployments to scale according to users' needs, i.e., if more user's requests are coming, then more CPU and Memory should be automatically allocated to the deployment; otherwise, the server will crash.
  
- - Furthermore, no one wants to pay more for CPU and Memory on cloud services if there are no such requirements every time. So there should be some intelligent system that effectively allocated and manages the CPU and Memory utilization as per need.
+ - Furthermore, no one wants to pay more for CPU and Memory on cloud services if there are no such requirements every time. So there should be some intelligent system that effectively allocates and manages the CPU and Memory utilization as per need.
  
 That is where Kubernetes comes into the picture. It handles all the above requirements effectively and reduces a lot of burden from the developer's shoulders.
  
