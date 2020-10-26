@@ -1,12 +1,13 @@
 ---
-title: "CSS3 Accordion"
-date: "2020-10-08"
+title: "A Simple CSS3 Accordion Tutorial"
+date: "2020-10-27"
 coverImage: "css3-accordion.png"
 author: "Isaac Anohene"
 tags: ["CSS", "Accordion", "UI"]
+description: "Learn how to make a beautiful accordion with HTML and CSS only"
 ---
 
-Hello everybody, in this article, we are going to learn how to make a beautiful accordion with HTML and CSS only! Yes! You heard that right, just plain HTML and CSS with no Javascript at all!
+Hello everybody, in this article, we will learn how to make a beautiful accordion with HTML and CSS only! Yes! You heard that right, plain HTML, and CSS with no Javascript at all!
 
 ### Let's Begin
 
@@ -92,15 +93,17 @@ That's it with the HTML, and it should be looking like this:
 ![plain-html](plain-html.png)
 
 Now let's start playing with the CSS part.
-We'll start by styling the ```div``` with the class of ```accordion```.
+We'll begin by styling the ```div``` with the class of ```accordion```.
 We will give it a:
-  - ```max-width``` to set a size for it.
-  - ```box-shadow``` to give it a beautiful shadow.
-  - ```border-radius``` to give it nice rounded corners.
-  - ```overflow``` to hide the content of the accordion tab when it is closed.
-  - ```background-color``` to set the color of the accordion tabs.
+
+  - `max-width` to set a size for it.
+  - `box-shadow` to provide it with a beautiful shadow.
+  - `border-radius` to give it nice, rounded corners.
+  - `overflow` to hide the content of the accordion tab when it is closed.
+  - `background-color` to set the color of the accordion tabs.
 
 So now we have: 
+
 ```css
 .accordion{
     max-width: 400px;
@@ -111,19 +114,23 @@ So now we have:
 }
 ```
 Now we will set some padding to the label and content so that there is some space between them and their borders.
+
 ```css
 .accordion__label, .accordion__content{
     padding: 14px 20px;
 }
 ```
 Next, we will style the accordion label and set the following properties:
-  - ```display: block``` to make the label take the full width of the accordion.
-  - ```color: white``` to make the text of the label white.
-  - ```font-weight: bold``` to make the text of the label bold.
-  - ```cursor: pointer``` to make the cursor pointer when it is hovered on the label. This is important to make the user know the label can be clicked.
-  - ```transition: background-color 0.1s```
-  - ```position: relative```
-So we it looks like this when combined:
+
+  - `display: block` to make the label take the full width of the accordion.
+  - `color: white` to make the text of the label white.
+  - `font-weight: bold` to make the text of the label bold.
+  - `cursor: pointer` to make the cursor pointer when it hovers on the label. It is important to make the user know that the label can be clicked.
+  - `transition: background-color 0.1s`
+  - `position: relative`
+  
+So it looks like this when combined:
+
 ```css
 .accordion__label{
     display: block;
@@ -134,18 +141,22 @@ So we it looks like this when combined:
     transition: background-color 0.1s;
 }
 ```
-Now, we will make the color of the label darker when the user hovers on it. This is also just to make the user know that he/she has placed the cursor on something that can be clicked.
+Now, we will make the color of the label darker when the user hovers on it. This is also to make the user know that he/she has placed the cursor on something that can be clicked.
+
 ```css
 .accordion__label:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
 ```
 Next up, we will style the content of the accordion and set the following properties:
-  - ```background: white``` to make the background color of the content of the accordion white.
-  - ```line-height: 1.6``` to increase the the line height of the text in the content.
-  - ```font-size: 0.85em``` to set the font size of the text of the content.
-  - ```display: none``` this is the most important property here, so that we can hide the content of the accordion tab by default until the label is clicked.
+
+  - `background: white` to make the background color of the content of the accordion white.
+  - `line-height: 1.6` to increase the line-height of the text in the content.
+  - `font-size: 0.85em` to set the font size of the text of the content.
+  - `display: none` this is the most important property here so that we can hide the content of the accordion tab by default until the label is clicked.
+
 So when we put it together, we have this:
+
 ```css
 .accordion__content{
     background: white;
@@ -160,11 +171,12 @@ Now we have to hide the checkbox from showing. To do that, we set the ```display
     display: none;
 }
 ```
-Next thing to do is to show the content of the accordion tab if the label is clicked. To do this, we have to set the ```display``` property of it to ```block``` when the label is clicked. We are able to know that the label is clicked by using the check-state of the checkbox that we hid earlier.
+The next thing to do is to show the accordion tab's content if the label is clicked. To do this, we have to set the ```display``` property of it to ```block``` when the label is clicked. We can know that the label is clicked using the check-state of the checkbox that we hid earlier.
+
 ```css
 .accordion__input:checked ~ .accordion__content{
     display: block;
 }
 ```
-Hurrayy🎉, we now have a very beautiful and functioning accordion that looks like this
+Hurray🎉, we now have a lovely and functioning accordion that looks like this
 ![css3-accordion](css3-accordion.png)
