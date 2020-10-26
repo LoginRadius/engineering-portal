@@ -382,3 +382,15 @@
   github: "Akshay-Nagle"
   linkedin: "akshay-nagle-3408a1179"
   twitter: "akshaynagle"
+
+- id: Malathi T
+  bio: Software developer
+  github: "malathit"
+  linkedin: "malathit"
+  stackoverflow: "1237402"
+
+- id: Prabhat Kumar
+  bio: I am a Machine Learning Engineer who loves to program and deploy large scale application on cloud
+  github: "prabhatkgupta"
+  linkedin: "prabhatkgupta-kgp168"
+  stackoverflow: "11812454"
