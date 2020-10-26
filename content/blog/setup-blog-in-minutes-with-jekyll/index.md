@@ -55,7 +55,7 @@ As soon as the github page is enabled on a branch, github automatically creates 
 ## Advantages of using Jekyll & Github pages
 - Open-source
 - Free hosting by Github, though there is some restriction as mentioned [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages#usage-limits). But the restriction would be more than enough for personal websites and for getting started with a blog
-- You don't need to be a Html or CSS expert to get started. The blog posts are written with markdown. One can even use an online markdown editor such as [Dillinger](http://dillinger.io/).
+- You don't need to be a HTML or CSS expert to get started. The blog posts are written in markdown. One can even use an online markdown editor such as [Dillinger](http://dillinger.io/).
 - It is faster as there is no database and the content is mostly static
 - You can use your domain name or use the free github.io subdomain
 - Free SSL support
