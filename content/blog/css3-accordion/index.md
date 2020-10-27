@@ -1,7 +1,7 @@
 ---
 title: "A Simple CSS3 Accordion Tutorial"
 date: "2020-10-27"
-coverImage: "css3-accordion.png"
+coverImage: "cover-accordion.png"
 author: "Isaac Anohene"
 tags: ["CSS", "Accordion", "UI"]
 description: "Learn how to make a beautiful accordion with HTML and CSS only"
