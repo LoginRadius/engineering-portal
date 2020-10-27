@@ -370,3 +370,27 @@
   github: "Devanshh"
   linkedin: "devansh-agarwal-a70474153"
   medium: "@devanshagarwal121"
+
+- id: Devansh Markan
+  bio: I am a Student and Computer Science Enthusiast
+  github: "markandevansh99"
+  linkedin: "devansh-markan-65940817b"
+  medium: "@markandevansh99"
+
+- id: Akshay Nagle
+  bio: Seeking opportunity in Ethical Hacking
+  github: "Akshay-Nagle"
+  linkedin: "akshay-nagle-3408a1179"
+  twitter: "akshaynagle"
+
+- id: Malathi T
+  bio: Software developer
+  github: "malathit"
+  linkedin: "malathit"
+  stackoverflow: "1237402"
+
+- id: Prabhat Kumar
+  bio: I am a Machine Learning Engineer who loves to program and deploy large scale application on cloud
+  github: "prabhatkgupta"
+  linkedin: "prabhatkgupta-kgp168"
+  stackoverflow: "11812454"
