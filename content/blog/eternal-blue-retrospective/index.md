@@ -1,5 +1,5 @@
 ---
-title: "EternalBlue: A retrospective on one of the biggest Windows exploits ever."
+title: "EternalBlue: A retrospective on one of the biggest Windows exploits ever"
 date: "2020-10-27"
 coverImage: "etbluecover.png"
 author: "Bas Palinckx"
