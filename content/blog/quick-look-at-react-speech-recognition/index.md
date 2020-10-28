@@ -93,7 +93,7 @@ const Dictaphone = () => {
 
 export default Dictaphone1;
 ```
-2. Next, we need to fetch certain props out of useSpeechRecognition. The props we will need are *transcript, interimTranscript, finalTranscript, resetTranscript,* and *listening*. You can do so like this:
+2. Next, we need to fetch certain props out of *useSpeechRecognition*. The props we will need are *transcript, interimTranscript, finalTranscript, resetTranscript,* and *listening*. You can do so like this:
 ```js
 const {
    transcript,
@@ -103,7 +103,7 @@ const {
    listening,
  } = useSpeechRecognition();
 ```
-We will also need to enable commands through this hook so add commands to gain access:
+We will also need to enable commands through this hook so add *commands* to gain access:
 ```js
 } = useSpeechRecognition({ commands });
 ```
@@ -170,9 +170,10 @@ If you go to **localhost:3000** in your browser, the dictaphone should now be wo
 
 Now that our dictaphone is working, let's add some commands. We won't do anything too complex, but rather access the functions we already have at our disposal.
 
-Within the dictaphone component declare an array called commands. This will be an array of objects containing two properties each:
+Within the dictaphone component declare an array called **commands**. This will be an array of objects containing two properties each:
   * a command (string or regular expression)
   * a callback
+
 A voice command that resets the transcript should look like this:
 
 ```js
@@ -194,7 +195,26 @@ Let's add a response feature. If we add a react hook to manipulate the state lik
 ```js
 const [message, setMessage] = useState('');
 ```
-Then add the *message* to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’ the app would print back ‘Hi there!’ or something to that effect. Below, I've incorporated some simple commands and with that our quick dictaphone is complete! Take a look at this code where it all comes together:
+Then add the *message* to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’ the app would print back ‘Hi there!’ or something to that effect. Below, I've written some simple commands.
+
+```js
+ const commands = [
+   {
+     command: 'reset',
+     callback: () => resetTranscript()
+   },
+   {
+     command: 'shut up',
+     callback: () => setMessage('I wasn\'t talking.')
+   },
+   {
+     command: 'Hello',
+     callback: () => setMessage('Hi there!')
+   },
+ ]
+ ```
+
+With that our quick dictaphone is complete! Take a look at this code where it all comes together:
 
 ```js
 import React, { useEffect, useState } from 'react';
