@@ -1,6 +1,6 @@
 ---
 title: IoT and AI - The Perfect Macth
-date: "2020-10-12"
+date: "2020-10-28"
 coverImage: "cover.jpg"
 author: "Devansh Agarwal"
 tags: ["AI", "IOT"]
