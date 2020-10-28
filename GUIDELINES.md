@@ -4,8 +4,8 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 1. First of all create a directory in `blog` under `content` directory The name of the directory will be the path of your blog.
 2. Add an `index.md` file and write your blog in it. Any relevant images used in the blog should be placed in the same directory as `index.md`.
-3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
-4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode that has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
+4. You can also refer to this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **900px x 600px**.
 
@@ -16,7 +16,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    - **date (Required)**: A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
    - **coverImage (Required)**: The name of the image with format should come here. Please make sure the image should be present in the directory where your `.md` the file is there.
    - **author (Required)**: The name of the author, make sure the author name should match with the one you have added in you Pull Request description.
-   - **tags: (optional)** : You can add the relevant the in the Array of string `for eg: ["NodeJs"]`. Please make sure tags should not be more than three.
+   - **tags: (optional)** : You can add the relevant tags in the Array of string `for eg: ["NodeJs"]`. Please make sure tags should not be more than three.
    - **description** (optional): You can add the short description, which will appear in the card of your blog, it should not be more than 160 characters. If you don't specify the description by default the first 160 characters of your blog will be shown.
 
    This is an example of the meta info in your blog
@@ -70,6 +70,6 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 - Try to use images/screenshots in your post to example things better, images are also visible when you share the post in social media
 
-- Always provide a GitHub demo link whenever you post contains the code.
+- Always provide a GitHub demo link whenever your post contains the code.
 
 - Simplicity, Ease of Implementation of the content, developer-friendly and effectiveness
