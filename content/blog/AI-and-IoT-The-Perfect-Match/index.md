@@ -2,7 +2,7 @@
 title: IoT and AI - The Perfect Macth
 date: "2020-10-12"
 coverImage: "cover.jpg"
-author: "Devansh Agarwal",
+author: "Devansh Agarwal"
 tags: ["AI", "IOT"]
 description: "AI and IOT are very popular these days. Let's understand Why IoT and AI together make the perfect match!"
 ---
