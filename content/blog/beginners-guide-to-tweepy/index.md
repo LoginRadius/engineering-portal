@@ -1,6 +1,6 @@
 ---
 title: "Beginners Guide to Tweepy "
-date: "2020-10-27"
+date: "2020-11-02"
 coverImage: "coverimage.jpg"
 author: "Sameer Mahajan"
 tags: ["Twitter","Tweepy","Python"]
