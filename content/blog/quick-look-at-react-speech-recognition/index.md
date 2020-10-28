@@ -1,10 +1,10 @@
 ---
 title: "A Quick Look at the React Speech Recognition Hook"
-date: "2020-10-27"
+date: "2020-10-29"
 coverImage: "mic.png"
 author: "Krista Singleton"
-tags: ["React", "React Speech Recognition", "React Speech", “React Hook”]
-description: "Learning and exploring the react-speech-recognition hook basics"
+tags: ["React", "React Speech Recognition", "React Speech", "React Hook"]
+description: "Learning and exploring the react-speech-recognition hook basics."
 ---
 ## Overview
 
@@ -12,24 +12,24 @@ React Speech Recognition is a react hook that accesses the Web Speech API to con
 
 There are two hooks in this framework:
 
-- *useSpeechRecognition*, a React hook that gives a component access to a transcript of speech picked up from the user’s microphone.
+- *useSpeechRecognition*, a React hook that gives component access to a transcript of speech picked up from the user’s microphone.
 
-- *SpeechRecognition* which manages the global state of the Web Speech API, exposing functions to turn the microphone on and off.
+- *SpeechRecognition* manages the global state of the Web Speech API, exposing functions to turn the microphone on and off.
 
 ## Prerequisites
 
-This version requires React 16.8 so that React hooks can be used, please see the full framework README [here](https://www.npmjs.com/package/react-speech-recognition) for more information.
+This version requires React 16.8 so that React hooks can be used; please see the full framework README [here](https://www.npmjs.com/package/react-speech-recognition) for more information.
 
 Note: This framework uses WebSpeech API. Browser support for this API is currently limited, with Chrome having the best experience. As of June 2020 these browsers support the API:
   * Chrome (desktop): this is by far the smoothest experience
   * Microsoft Edge
-  * Chrome (Android): a word of warning about this platform, which is that there can be an annoying beeping sound when turning the microphone on. This is part of the Android OS and cannot be controlled from the browser
+  * Chrome (Android): a word of warning about this platform: there can be an annoying beeping sound when turning the microphone on. This is part of the Android OS and cannot be controlled from the browser
   * Android webview
   * Samsung Internet
 
 ## What We’ll Make
 
-I will be making a simple voice memo app with basic voice commands that runs in the browser. If you would like to follow this tutorial please be ready to work with the create-react-app boilerplate.
+I will be making a simple voice memo app with basic voice commands that run in the browser. If you would like to follow this tutorial, please be ready to work with the create-react-app boilerplate.
 
 ![example](styledExample.png)
 
@@ -60,7 +60,7 @@ function App() {
 
 export default App;
 ```
-NOTE: We haven't built the Dictaphone component yet, we'll jump into that next!
+NOTE: We haven't built the Dictaphone component yet; we'll jump into that next!
 
 3. In the root directory of your app, install the react hook using:
 
@@ -115,7 +115,7 @@ We will also need to enable commands through this hook so add *commands* to gain
    }
  }, [interimTranscript, finalTranscript]);
  ```
-4. Then, we will add a listening function to start our dictaphone as well as throw in a quick conditional to alert the user if their browser is not compatible with this API. These functions would look like:
+4. Then, we will add a listening function to start our dictaphone and throw in a quick conditional to alert the user if their browser is not compatible with this API. These functions would look like:
 
 ```js
  if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
@@ -134,9 +134,9 @@ We will also need to enable commands through this hook so add *commands* to gain
 ```
 ### Step 3: Building the dictaphone controls and page elements
 
-Now, we will add some page elements to access our dictaphone and print the words to the page. We will need three buttons: *stop, listen,* and *reset* - to control the dictaphone and to reset the transcript. We may also want to add an indicator that informs the user if the dictaphone is listening or not. Within Dictaphone's return div create the following elements:
+We will add some page elements to access our dictaphone and print the words to the page. We will need three buttons: *stop, listen,* and *reset* - to control the dictaphone and reset the transcript. We may also want to add an indicator that informs the user if the dictaphone is listening or not. Within Dictaphone's return div create the following elements:
 
-1. A span that houses a ternary conditional that uses the *listening* prop of *useSpeechRecognition* to tell if the dictaphone is currently accessing the microphone or not. Add a 'Listening:' label for clarity reasons (Please see below diagram for clearer explanation).
+1. A span that houses a ternary conditional that uses the *listening* prop of *useSpeechRecognition* to tell if the dictaphone is currently accessing the microphone or not. Add a 'Listening:' label for clarity reasons (Please see below diagram for more precise explanation).
 2. A *reset* button that will use the built-in function resetTranscript to- you guessed it- reset the transcript.
 3. A *listen* and *stop* button that will use the functions *listenContinuously* and *SpeechRecogniton.stopListening* respectively to control the dictaphone.
 4. One last span where we are housing our transcript.
@@ -168,9 +168,9 @@ If you go to **localhost:3000** in your browser, the dictaphone should now be wo
 
 ### Step 4: Adding commands
 
-Now that our dictaphone is working, let's add some commands. We won't do anything too complex, but rather access the functions we already have at our disposal.
+Now that our dictaphone is working, let's add some commands. We won't do anything too complicated but instead access the functions we already have at our disposal.
 
-Within the dictaphone component declare an array called **commands**. This will be an array of objects containing two properties each:
+Within the dictaphone component, declare an array called **commands**. This will be an array of objects containing two properties each:
   * a command (string or regular expression)
   * a callback
 
@@ -195,7 +195,7 @@ Let's add a response feature. If we add a react hook to manipulate the state lik
 ```js
 const [message, setMessage] = useState('');
 ```
-Then add the *message* to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’ the app would print back ‘Hi there!’ or something to that effect. Below, I've written some simple commands.
+Then add the *message* to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’, the app would print back 'Hi there!' or something to that effect. Below, I've written some simple commands.
 
 ```js
  const commands = [
@@ -288,4 +288,4 @@ const Dictaphone1 = () => {
 
 export default Dictaphone1;
 ```
-Thanks for following along and I hope this helps!
+Thanks for following along, and I hope this helps!
