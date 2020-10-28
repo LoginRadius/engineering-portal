@@ -12,9 +12,9 @@ React Speech Recognition is a react hook that accesses the Web Speech API to con
 
 There are two hooks in this framework:
 
-- ‘useSpeechRecognition’, a React hook that gives a component access to a transcript of speech picked up from the user’s microphone.
+- *useSpeechRecognition*, a React hook that gives a component access to a transcript of speech picked up from the user’s microphone.
 
-- ‘SpeechRecognition’ which manages the global state of the Web Speech API, exposing functions to turn the microphone on and off.
+- *SpeechRecognition* which manages the global state of the Web Speech API, exposing functions to turn the microphone on and off.
 
 ## Prerequisites
 
@@ -46,13 +46,13 @@ npx create-react-app dictaphone
 2. Gut the App.js file and add the dictaphone component like so:
 
 ```js
-import Dictaphone1 from './dictaphoneSetup.js'
+import Dictaphone from './dictaphoneSetup.js'
 
 function App() {
   return (
     <div className="App">
       <header className="Dictaphone-Tester">
-        <Dictaphone1 />
+        <Dictaphone />
       </header>
     </div>
   );
@@ -60,7 +60,7 @@ function App() {
 
 export default App;
 ```
-NOTE: We haven't built Dictaphone1 yet, we'll jump into that next!
+NOTE: We haven't built the Dictaphone component yet, we'll jump into that next!
 
 3. In the root directory of your app, install the react hook using:
 
@@ -85,7 +85,7 @@ And that's it for our basic setup!
 import React, { useEffect, useState } from 'react';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
-const Dictaphone1 = () => {
+const Dictaphone = () => {
  return (
    <div></div>
  );
@@ -93,7 +93,7 @@ const Dictaphone1 = () => {
 
 export default Dictaphone1;
 ```
-2. Next, we need to fetch certain props out of useSpeechRecognition. The props we will need are transcript, interimTranscript, finalTranscript, resetTranscript, and listening. You can do so like this:
+2. Next, we need to fetch certain props out of useSpeechRecognition. The props we will need are *transcript, interimTranscript, finalTranscript, resetTranscript,* and *listening*. You can do so like this:
 ```js
 const {
    transcript,
@@ -103,11 +103,11 @@ const {
    listening,
  } = useSpeechRecognition();
 ```
-We will also need to enable commands through this hook so add commands to gain access-
+We will also need to enable commands through this hook so add commands to gain access:
 ```js
 } = useSpeechRecognition({ commands });
 ```
-3. Moving swiftly onward, we need to need to add several functions that are built into the hook and React. First we will be using 'useEffect' to print the transcript to the page.
+3. Moving swiftly onward, we need to need to add several functions that are built into the hook and React. First we will be using *useEffect* to print the transcript to the page.
 ```js
  useEffect(() => {
    if (finalTranscript !== '') {
@@ -134,11 +134,11 @@ We will also need to enable commands through this hook so add commands to gain a
 ```
 ### Step 3: Building the dictaphone controls and page elements
 
-Now, we will add some page elements to access our dictaphone and print the words to the page. We will need three buttons: stop, listen, and reset - to control the dictaphone and to reset the transcript. We may also want to add an indicator that informs the user if the dictaphone is listening or not. Within Dictaphone1's return div create the following elements:
+Now, we will add some page elements to access our dictaphone and print the words to the page. We will need three buttons: *stop, listen,* and *reset* - to control the dictaphone and to reset the transcript. We may also want to add an indicator that informs the user if the dictaphone is listening or not. Within Dictaphone's return div create the following elements:
 
-1. A span that houses a ternary conditional that uses the ‘listening’ prop of useSpeechRecognition to tell if the dictaphone is currently accessing the microphone or not. Add a 'Listening:' label for clarity reasons (Please see below diagram for clearer explanation).
-2. A 'reset' button that will use the built-in function resetTranscript to- you guessed it- reset the transcript.
-3. A 'listen' and 'stop' button that will use the functions 'listenContinuously' and 'SpeechRecogniton.stopListening' respectively to control the dictaphone.
+1. A span that houses a ternary conditional that uses the *listening* prop of *useSpeechRecognition* to tell if the dictaphone is currently accessing the microphone or not. Add a 'Listening:' label for clarity reasons (Please see below diagram for clearer explanation).
+2. A *reset* button that will use the built-in function resetTranscript to- you guessed it- reset the transcript.
+3. A *listen* and *stop* button that will use the functions *listenContinuously* and *SpeechRecogniton.stopListening* respectively to control the dictaphone.
 4. One last span where we are housing our transcript.
 
 Your return statement should look similar to this:
@@ -164,7 +164,7 @@ Your return statement should look similar to this:
     </div>
   );
 ```
-If you go to localhost:3000 in your browser, the dictaphone should now be working.
+If you go to **localhost:3000** in your browser, the dictaphone should now be working.
 
 ### Step 4: Adding commands
 
@@ -194,7 +194,7 @@ Let's add a response feature. If we add a react hook to manipulate the state lik
 ```js
 const [message, setMessage] = useState('');
 ```
-Then add the 'message' to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’ the app would print back ‘Hi there!’ or something to that effect. Below, I've incorporated some simple commands and with that our quick dictaphone is complete! Take a look at this code where it all comes together:
+Then add the *message* to the output, we can add commands that generate a response. For instance, if I were to say ‘Hello’ the app would print back ‘Hi there!’ or something to that effect. Below, I've incorporated some simple commands and with that our quick dictaphone is complete! Take a look at this code where it all comes together:
 
 ```js
 import React, { useEffect, useState } from 'react';
@@ -268,3 +268,4 @@ const Dictaphone1 = () => {
 
 export default Dictaphone1;
 ```
+Thanks for following along and I hope this helps!
