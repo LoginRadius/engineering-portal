@@ -1,7 +1,7 @@
 ---
 title: "A Quick Look at the React Speech Recognition Hook"
 date: "2020-10-29"
-coverImage: "mic.png"
+coverImage: "mic.jpg"
 author: "Krista Singleton"
 tags: ["React", "React Speech Recognition", "React Speech", "React Hook"]
 description: "Learning and exploring the react-speech-recognition hook basics."
