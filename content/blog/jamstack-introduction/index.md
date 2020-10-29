@@ -1,7 +1,7 @@
 ---
 title: "Introduction to JAMstack"
 date: "2020-10-29"
-coverImage: "jamstack_cover.pngjamstack_cover.pngjamstack_cover.pngjamstack_cover.png"
+coverImage: "jamstack_cover.png"
 author: "Versha Gupta"
 tags: ["Jamstack", "Web"]
 description: "You may have heard the term JAMstack before, but you may not have understood what it means. In this article, We will introduce you to JAMstack as to why you need, best practice, and value."
