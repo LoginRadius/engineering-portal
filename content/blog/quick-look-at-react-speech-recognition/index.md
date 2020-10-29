@@ -43,7 +43,7 @@ I will be making a simple voice memo app with basic voice commands that run in t
 npx create-react-app dictaphone
 ```
 
-2. Gut the App.js file and add the dictaphone component like so:
+2. Modify the App.js file and add the dictaphone component like so:
 
 ```js
 import Dictaphone from './dictaphoneSetup.js'
