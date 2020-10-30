@@ -8,7 +8,7 @@ description: "Login process is the most important feature for any system/applica
 ---
 
 A **login screen** is a web **page** or an entry **page** to a web/mobile application that requires user identification and authentication, regularly performed by entering a username and password combination. 
-The login process is the most essential feature for any system/application as it provides access to an entire ** web-site/application** or part of it. So, testing of the login screen needs complete coverage. 
+The login process is the most essential feature for any system/application as it provides access to an entire **web-site/application** or part of it. So, testing of the login screen needs complete coverage. 
 
 ![Login Screen](Login-Page.png)
 
