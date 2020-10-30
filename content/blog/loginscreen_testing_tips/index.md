@@ -2,7 +2,7 @@
 title: "Login Screen - Tips and Ideas for Testing"
 date: "2020-10-30"
 author: "Sudhey Sharma"
-coverImage: "CoverImage.png"
+coverImage: "CoverImage.jpg"
 tags: ["LoginScreen", "TestingTips"]
 description: "Login process is the most important feature for any system/application as it provides access to an entire web-site/application or part of it. This article is providing you with some important tips & ideas about login testing."
 ---
