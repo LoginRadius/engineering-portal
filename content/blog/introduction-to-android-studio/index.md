@@ -7,10 +7,10 @@ tags: ["Android Studio", "Android App"]
 description: "Getting Started with Android Studio and making your first app."
 ---
 ### What is Android Studio?
-In recent times, Android became the world's most popular operating system for various reasons. As an android programmer, I want to share what the android studio is? Android Studio is an IDE for Google Android Development launched on 16th May 2013, during Google's I/O 2013 event. Android Studio contains all the Android tools to design, test, debug, and profile your application. The Android Studio uses [Gradle](https://gradle.org/) to manage your project, a Build Automation Tool.
+In recent times, Android became the world's most popular operating system for various reasons. As an Android programmer, I want to share what the Android Studio is? Android Studio is an IDE for Google Android Development launched on 16th May 2013, during Google's I/O 2013 event. Android Studio contains all the Android tools to design, test, debug, and profile your application. The Android Studio uses [Gradle](https://gradle.org/) to manage your project, a Build Automation Tool.
 
 For developing your first app, you need to download Android Studio for your preferred platform (Windows®, Mac OS X, or Linux) from the [Android developers site](https://developer.android.com/studio). Android Studio can develop and test your application on either a real device or an emulator.
-##### Android Studio has many exciting features that can help you to develop your android application like : 
+##### Android Studio has many exciting features that can help you to develop your Android application like : 
 * Powerful code editor with smart editing and code re-factoring.
 * Emulator to show your code output in various resolutions, including Nexus 4, Nexus 7, Nexus 10, and many other android phones.
 * Gradle based build support.
