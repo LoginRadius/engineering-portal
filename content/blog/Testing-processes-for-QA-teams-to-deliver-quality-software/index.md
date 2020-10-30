@@ -1,55 +1,63 @@
 ---
 title: "Testing : processes for QA teams to deliver quality software "
-date: "2020-10-28"
-coverImage: "Software-testing.png"
+date: "2020-10-30"
+coverImage: "software-testing.png"
 author: "Neha Vyas"
 tags: ["QA","Processes","Testing"]
 ---
 
-As a QA person, We have to sign off on the quality of a major release every two weeks. Each major release normally includes many tasks and bug fixes. And in one release normally 8-10 people from development and QA teams work together. So, to avoid having to spend nights and weekends at work, our team should adopt some practices to make the workload manageable while ensuring that the releases we approve maintain the highest standards of quality.
 
+Being a Quality Analyst, it’s our responsibility to run test cycles on the system and push releases every two weeks to make sure the system is also updated with the latest fixes and everything is bug free on the live platform. Normally every release includes amendments as well as fixes done. If we talk about the resources then normally the team has 8-10 resources including developers and QA team.
 
+Therefore, we should always be pre-active about every release and to avoid any stress during the release everything has to be managed properly when it comes to execution from development end or testing from QA end. For that purpose we have to follow proper strategies to ensure that everything is being tested properly and the release which we approve met the expected quality standards.
+  
 
-### Take a break from the classical roles and responsibilities of QA
+### Break away from the conventional roles and obligations of QA
 
-We have penetrated limits in the two ways. In this day and age we are a client confronting unit, and we get with our clients about issues they experience and what highlights they might want to find in our item. On the opposite end, we effectively take an interest in plan conversations, offering the info we get from clients. 
+We have breached boundaries in both directions. In today’s world we are a customer-facing unit, as we hear from our customers directly about their issues which they experience over the system or what are the features which they want to incorporate on the platform. Also We are actively participating in the design discussions, or if any inputs required from our end which we receive from clients’ end to make sure we are going in the right direction as per client’s vision.
 
-Also, our code testing information and experience encourages us to recognize plans imperfections before anybody invests energy coding, which essentially decreases improvement cycles and causes us to meet client desires as we adaptively release new versions.
+Along with, our experience of testing always helps to detect any flaw or defects before doing any coding work which helps to reduce additional efforts and minimize the work. This way we can ensure to have everything done based on the client given timeline and a quality outcome.
 
-### Selection of release criteria
+### Opt for releases very carefully
 
-You can't test everything in an endeavor item for each delivery, and luckily, you don't have to. You can at present be sure about the item you favor in the event that you center around areas of your code where the most critical changes were made. Before another delivery cycle starts, our group sits with all the partners to comprehend which parts of the item will be moved by new or refreshed code. We utilize that data to organize our testing efforts. We center around those pieces of the code and utilize existing mechanization tests to deal with different parts. On the off chance that you realize something worked in the last delivery and you're not contacting it in this delivery, at that point you don't have to invest an excess of energy in testing. So base your delivery measures on new code that is being included. 
+As it's not possible to test everything every time whenever you push any release. For that purpose you just have to target the part of code which has been worked on, this way you can actually test the main piece of work without delaying things and then run a complete test cycle to make sure no other part has been conflicted by the changes. For this purpose, whenever there is a new release check with the team which part of code has been updated and what are the outcomes, and mostly focus on that part to run tests. This way you can prioritize the work and efforts which need to be put. We focus on those parts of the code and use existing automation tests to handle other parts. If you know something worked in the last release and you're not touching it in this release, then you don't need to spend too much time testing. So base your release criteria on new code that is being added.
 
+### Always have a proper plan based on priorities
 
-### Prioritize bug fixes based on usage
+QA has to make sure that whatever work needs to be done, is properly prioritized. For instance, if a particular area of a platform is not affecting things much and can be taken care of at later stage then it should be on the lowest priority; If less than one percent of our users are on a particular browser, issues specific to that browser get less attention. And the area which is affecting the whole system should be done on the very first priority. There should be priorities defined like – Blocker, Emergency, Highest, High, Normal, and Low! So always work as per the required attention on specific areas of feature, also need to consider the target user demands. What is their feedback or issues which they want to have access on. If something did get past us and users discover bugs, those bugs get priority for fixes in the next release.
+  
 
-Fixing bugs is an extra aspect of any new delivery, and for that bugs ought to be prioritized.For model, on the off chance that we realize that one region of an application is infrequently utilized, a bug in that aspect of the code gets lower need. On the off chance that short of what one percent of our clients are on a specific program, issues explicit to that program get less consideration. However, we additionally tune in to our clients. The exact opposite thing we need is for our clients to encounter bugs. On the off chance that something moved beyond us and clients find bugs, those bugs get need for fixes in the following delivery. 
+### Always make sure to have proper environments ready!
 
+You will often hear from the development team that, “…. It works fine with me; there must be some network issue or system issue on your end”. We have to make sure not to have such conflicts in between, because at the end our goal has to be – Delivering bug free solutions!
 
-### Stay close to the relevant environment
+For that purpose, Our QA and our development teams run exactly the same environment.
 
-Each QA group has heard the designer remark, "...but it works on my machine." How do you avoid that situation?
+As our builds move through the development pipeline, however, we must test the code under production conditions, so we build our staging environment to simulate our customers' production environments.
 
-Our QA and our improvement groups run the very same environment As our builds move through the improvement pipeline, notwithstanding, we should test the code under creation conditions, so we fabricate our organizing climate to reenact our clients' production environments.
+  
+### The importance of having a dedicated team for performance testing:
 
+Always plan to arrange for a dedicated performance team who can run tests as soon as a product is stable, and brief the team about new versions and features so that they can assess the performance risks.
 
-### Create a dedicated performance testing team
+And to update performance teams with all latest information and provide them with an environment as close to production as you can. To make sure that there shouldn’t be any gaps in between and the product can be tested properly.
 
-Have a dedicated performance team run tests when an item is steady, and brief the group about new forms and highlights with the goal that they can assess the performance risks. 
+### Run a regression cycle
 
-Continuously update performance teams with all the latest information and give them an environment as close to production as you can. 
+The QA team runs a regression cycle in the last phase of product stabilization, and it is that process that gives the confirmation for the product delivery. If any of the regression tests fails, QA informs the managers / stakeholders so that appropriate actions can be taken for further release.
 
-### Run a regression cycle 
-We run our regression cycle in the final phase of product stabilization, and it is that cycle that gives the confirmation for the product delivery. On the off chance that any of the regression test falls flat, QA ought to illuminate the administrators/partners so that appropriate actions can be taken
+As it’s never acceptable to deliver the product if any of the test fails which might end up in bigger problems for the team as well as client. So the QA team always makes sure to run regression tests to properly verify everything.
 
-We also automate our regression cycle, so it just takes a couple of days to run. 
+We also automate our regression cycle, so it only takes a few days to run.
 
+### Production environment testing on customer accounts is necessary 
 
-### Verify customer accounts on production 
+As we maintain customer data in our databases, we have to ensure that it should remain attuned with any new versions that have been released or about to release. Whenever we release a new version, we run several updates to check that no data was harmed, and in case we find any data-corrupting bugs, those become our highest priority. We also spend a day or two on manual backwards compatibility testing while we take steps towards finding an automated and more efficient approach. However, you still need to do some manual testing, as this is one of the last phases before production.
 
-Since we keep up client information in our databases, we should guarantee that it stays viable with any new versions that we release. At the point when we release a new version, we run updates to check that no data was harmed, and if we find any data-corrupting bugs, those become our highest priority. We likewise go through a day or two on manual in backwards compatibility testing while we take steps towards finding an automated and more efficient approach. In any case, you actually need to do some manual testing, as this is one of the last stages before creation. 
+### Sanity testing on production environment 
 
+We perform post-release sanity tests on our production account to authorize that everything works as projected, including all third-party systems. We first perform tests using our existing production account but then create a new account to validate that the process will continue to work correctly as new customers sign up.  
 
-### Perform sanity tests on production
+### In a nutshell:
 
-We perform post-release sanity tests post-release sanity tests on our production account to validate that everything works as expected, including all third-party systems. We first perform tests using our existing production account but then create a new account to validate that the process will continue to work correctly as new customers sign up.
+The best testing practices should inculcate all other processes in general and risk management processes in particular in them. The focus should be to improve the overall quality of the software while aiming for reducing the cost with continuous monitoring during and after the release of the software. While doing quality assurance testing, the tester should ensure to comply with all the fundamental principles and industry practices; along with looking at the product from the end-users’ perspective.
