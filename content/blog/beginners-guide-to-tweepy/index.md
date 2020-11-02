@@ -32,19 +32,20 @@ There are four common basic steps in any Tweepy application.
 2. Setting the authentication credentials.
 3. Instantiating the API.
 4. Creating API object.
+
 ```python
 import tweepy
-# authenticating twitter api credentials
+\# authenticating twitter api credentials
 consumer_key = '2OsNoPKOYCpxxxxxxxxxxxxxxxxxxxxxx'
 consumer_secret = 'Xw07uU51xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 access_token = '24621057xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 access_token_secret = 'pXt5xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-# instantiating the api
+\# instantiating the api
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-# creating API object
+\# creating API object
 api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 
 import tabulate
@@ -52,7 +53,9 @@ user = api.get_user("Cristiano")
 print("User Details:")
 print(tabulate([["Name","Description","Location"],[user.name,user.description,user.location]],headers="firstrow"))
 ```
-###### Note: Use your credentials in the hidden keys above._ 
+
+###### Note: Use your credentials in the hidden keys above.
+
 Objects created from the Tweepy. API class helps us access most of Twitter's available functionality like tweets, retweets, likes, etc. In the code snippet, we used the api.get_user method for getting information about a certain user on Twitter. Likewise, there can be several use cases of different methods(discussed below) made available by Twitter to developers. You can find the link for this code [here.](https://colab.research.google.com/drive/1dN02ioXElOQPOktIzNBACCncyrI2eiBR?usp=sharing)
 
 Now we will see different methods provided by Twitter. The API methods have been divided into groups based on their functionality. The detailed guide for the API methods can be found at the official [API Reference](https://tweepy.readthedocs.io/en/latest/api.html) documentation. 
