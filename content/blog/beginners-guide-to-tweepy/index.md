@@ -4,12 +4,13 @@ date: "2020-11-02"
 coverImage: "coverimage.jpg"
 author: "Sameer Mahajan"
 tags: ["Twitter","Tweepy","Python"]
+description: "Learn how to use Twitter APIs using Tweepy, a python package,"
 ---
 
-As we all know, Twitter is one of the most preffered microblogging websites when it comes to putting your thoughts on the internet. Big organizations use this platform to advertise their product; government institutions even use it to provide prompt customer resolution; various groups use Twitter to run social awareness campaigns and media campaigns. Twitter has close to 330 million monthly active users worldwide, out of which 17 million hits are generated from India itself along with more than 1 billion downloads on Play Store. With all this in mind, Twitter allows access to Twitter API to developers to create some cool applications like bots, automation tools, etc. This Twitter API gives developers access to almost all of Twitter's functionalities like likes, retweets, tweets, etc. Tweepy, a python package, helps us in achieving all this.
+As we all know, Twitter is one of the most preferred microblogging websites when it comes to putting your thoughts on the internet. Big organizations use this platform for advertising their product; government institutions even use it to provide prompt customer resolution; various groups use Twitter to run social awareness campaigns and media campaigns. Twitter has close to 330 million monthly active users worldwide, out of which 17 million hits are generated from India itself along with more than 1 billion downloads on Play Store. With all this in mind, Twitter allows access to Twitter API to developers to create some cool applications like bots, automation tools, etc. This Twitter API gives developers access to almost all of Twitter's functionalities like likes, retweets, tweets, etc. Tweepy, a python package, helps us in achieving all this.
 
-Tweepy is a python package that smoothly and transparently accesses the Twitter's endpoints made available for the developers. Without tweepy, the user would have to take care of various low-level details pertaining to HTTP requests, rate limiting, authentication, serialization, etc. Tweepy handles all this mess on behalf of the user making the application prone to errors. 
-In simple words, Tweepy is an open-source python package that provides a way for developers to communicate with the Twitter API. But keep in mind that Twitter levies a rate limit on the number of requests made to the Twitter API. To be precise, 900 requests/15 minutes are allowed; anything above that is fed an error by Twitter.
+Tweepy is a python package that smoothly and transparently accesses Twitter's endpoints made available for the developers. Without Tweepy, the user would have to take care of various low-level details about HTTP requests, rate limiting, authentication, serialization, etc. Tweepy handles all this mess on behalf of the user making the application prone to errors. 
+In simple words, Tweepy is an open-source python package that provides a way for developers to communicate with the Twitter API. But keep in mind that Twitter levies a rate limit on the number of requests made to the Twitter API. To be precise, 900 requests/15 minutes are allowed; Twitter feeds anything above that an error.
 
 ### Installation
 Tweepy can be installed by using Python package manager **pip**. A simple demonstration can be seen below:
@@ -18,15 +19,15 @@ Tweepy can be installed by using Python package manager **pip**. A simple demons
 Installation on Linux and macOS should follow similar steps as well.
 
 
-Twitter API uses OAuth for authentication, so initially, you need to apply for authentication credentials from Twitter. These authentication credentials basically consists of 4 components namely : _consumer_key, consumer_secret_key, access_token, access_token_secret_ . These credentials from twitter are used to instantiate the API. **Each account gets a unique key, so don't reuse someone else's keys.** 
-For getting those credentials from twitter, apply for a developer account on the [Twitter Developers](https://developer.twitter.com/en) page.
+Twitter API uses OAuth for authentication, so initially, you need to apply for authentication credentials from Twitter. These authentication credentials basically consists of 4 components namely : _consumer_key, consumer_secret_key, access_token, access_token_secret_ . These credentials from Twitter are used to instantiate the API. **Each account gets a unique key, so don't reuse someone else's keys.** 
+For getting those credentials from Twitter, apply for a developer account on the [Twitter Developers](https://developer.twitter.com/en) page.
 ![twitterdev](twitterdev.PNG "Twitter Dev Dashboard")
 This is what the account looks like. Here you will get detailed information about the total no. of requests made, your API credentials, and much more information. After creating an account, you need to create an app wherein you will be asked to name your app and a short description. You must be wondering what an app is? 
 The app is like a gateway that contains a set of permissions and keys used to access the Twitter API. An app is needed for accessing the Twitter API as a part of Twitter's OAuth authentication. After creating an app, generate new authentication tokens for authorization purposes.
 ![keys](keys.PNG)
 
 ### Getting Started: Tweepy
-There are four common basic steps in any tweepy application.
+There are four common basic steps in any Tweepy application.
 1. Importing tweepy package.
 2. Setting the authentication credentials.
 3. Instantiating the API.
@@ -51,8 +52,8 @@ user = api.get_user("Cristiano")
 print("User Details:")
 print(tabulate([["Name","Description","Location"],[user.name,user.description,user.location]],headers="firstrow"))
 ```
-###### Note : Use your credentials in the hidden keys above._ 
-Objects created from the tweepy.API class helps us access most of Twitter's available functionality like tweets, retweets, likes, etc. In the code snippet, we used api.get_user method for getting information of a certain user on Twitter. Likewise, there can be several use cases of different methods(discussed below) made available by Twitter to developers. You can find the link for this code [here.](https://colab.research.google.com/drive/1dN02ioXElOQPOktIzNBACCncyrI2eiBR?usp=sharing)
+###### Note: Use your credentials in the hidden keys above._ 
+Objects created from the Tweepy. API class helps us access most of Twitter's available functionality like tweets, retweets, likes, etc. In the code snippet, we used the api.get_user method for getting information about a certain user on Twitter. Likewise, there can be several use cases of different methods(discussed below) made available by Twitter to developers. You can find the link for this code [here.](https://colab.research.google.com/drive/1dN02ioXElOQPOktIzNBACCncyrI2eiBR?usp=sharing)
 
 Now we will see different methods provided by Twitter. The API methods have been divided into groups based on their functionality. The detailed guide for the API methods can be found at the official [API Reference](https://tweepy.readthedocs.io/en/latest/api.html) documentation. 
 * Timeline methods
