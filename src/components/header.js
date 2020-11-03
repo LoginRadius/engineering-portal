@@ -31,13 +31,6 @@ const demologger = function () {
   })
 }
 
-const hacktoberfestLogger = function () {
-  ReactGA.event({
-    category: "Hacktoberfest",
-    action: "User clicked on Hacktoberfest Page button",
-    label: "Hacktoberfest Page - Header Button",
-  })
-}
 
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
@@ -57,20 +50,6 @@ const Header = ({ menuLinks, searchIndex }) => {
             </a>
             , while our product experts provide a detailed walkthrough of our
             enterprise platform.
-            <br />
-            Get LoginRadius Swags in Hacktoberfest 2020. Check our
-            <a
-              href={
-                "https://www.loginradius.com/engineering/page/hacktoberfest2020"
-              }
-              key={"hacktoberfest"}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => hacktoberfestLogger()}
-            >
-              {" hacktoberfest page "}
-            </a>
-            for more details.
           </p>
           <button
             onClick={() => close(true)}
