@@ -3,7 +3,7 @@ title: "Bluetooth Controlled Arduino Car Miniature"
 date: "2020-11-04"
 coverImage: "Arduinocar.png"
 author: "Abhishek Potekar"
-tags:["Arduino","Bluetooth"]
+tags: ["Arduino","Bluetooth"]
 description: "In this blog, you will learn how to make a Bluetooth controlled Arduino Car."
 ---
 
