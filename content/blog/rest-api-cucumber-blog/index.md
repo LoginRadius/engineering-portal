@@ -63,7 +63,7 @@ https://maven.apache.org/download.cgi
 - Open pom.xml file to add necessary dependencies 
   
  	```
-        <dependency>
+  <dependency>
 		<groupId>io.cucumber</groupId>
 		<artifactId>cucumber-java</artifactId>
 		<version>6.6.0</version>
@@ -137,7 +137,7 @@ We have a chrome extension(Tidy Gherkin) to convert your feature into a step def
 Copy your scenario from the feature file and paste it in Tidy Gherkin and click on Java Steps; copy the Java Steps.
 Create a new file name a StepDefinition.java and paste the Java Steps
 
-```
+```java
 package com.loginradius.login
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -208,7 +208,7 @@ Now we have Our Feature file and StepDefinition Ready, we need a runner file to 
 A runner will help us to run the feature file and acts as an interlink between the feature file and StepDefinition Class
 Below is the code which will help you to run the tests
 
-```
+```java
 package runner;
 import io.cucumber.testng.CucumberOptions;
 
