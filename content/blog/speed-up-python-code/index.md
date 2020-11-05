@@ -9,7 +9,7 @@ description: "Learn a few ways to speed up your python code."
 
 # A Few Ways to Speed Up Your Python Code
 
-Python is one of the most popular languages all over the world. Nowadays it is being used in competitive programming also because of its simple syntax and rich libraries. Most of us probably started coding with python. At first, everything goes simple and easy. But while solving a hard algorithmic problem, most of us suffer from `Time Limit  Exceeded`. However, it is not a problem of python; it is the programmer's problem. I am not saying that language is not slow, but if a programmer writes an efficient programme, it will get `Accepted` for sure. Here are some tips to speed up your python programme.
+Python is one of the most popular programming languages all over the world. Nowadays it is being used in competitive programming also because of its simple syntax and rich libraries. Most of us probably started programming with python. At first, everything goes simple and easy. But while solving a hard algorithmic problem, most of us suffer from `Time Limit  Exceeded`. However, it is not a problem of python; it is the programmer's problem. I am not saying that python is not slow, but if a programmer writes an efficient programme, it will get `Accepted` for sure. Here are some tips to speed up your python programme.
 
 ## Use proper data structure
 
@@ -36,7 +36,7 @@ Using list comprehension, it would be:
 L = [i for i in range (1, 1000) if i%3 == 0]
 ```
 
-List comprehension works faster than using the append method.
+List comprehension works faster than the append method.
 
 ## Use multiple assignments
 
