@@ -115,22 +115,22 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const staticPages = [
     {
-      name: "contribute",
+      name: "guest-blog",
     },
   ]
   staticPages.forEach(staticPage => {
-    switch(staticPage.name) {
-      case "contribute":
+    switch (staticPage.name) {
+      case "guest-blog":
         createPage({
           path: `/page/${staticPage.name}`,
-          component: require.resolve(`./src/templates/contribute.js`),
+          component: require.resolve(`./src/templates/guest-blog.js`),
           context: { staticPage },
         })
-        break;
+        break
       default:
         createPage({
           path: `/page/${staticPage.name}`,
-          component: require.resolve(`./src/templates/contribute.js`),
+          component: require.resolve(`./src/templates/guest-blog.js`),
           context: { staticPage },
         })
     }
