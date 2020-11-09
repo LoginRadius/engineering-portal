@@ -10,13 +10,13 @@ const Hacktoberfest2020 = () => {
         <section className="hero-section">
           <div className="grid-50">
             <div>
-              <h2>LoginRadius Guest Blogging Program</h2>
+              <h2>Write for LoginRadius Guest Blogging Program</h2>
               <p>
                 For technical people who have practical, tangible, hands-on
                 experience to share with our blog readers about relevant
-                industry topics or LoginRadius products, we provide a guest
-                blogging opportunity to write an article for The LoginRadius
-                Engineering Blog.
+                industry topics or LoginRadius products, it is a great
+                opportunity to write an article for The LoginRadius Engineering
+                Blog.
               </p>
             </div>
             <div>
@@ -26,15 +26,6 @@ const Hacktoberfest2020 = () => {
         </section>
         <section className="content py-80">
           <div>
-            {/* <h2>LoginRadius Guest Blogging Program</h2>
-            <p>
-              For technical people who have practical, tangible, hands-on
-              experience to share with our blog readers about relevant industry
-              topics or LoginRadius products, we provide a guest blogging
-              opportunity to write an article for The LoginRadius Engineering
-              Blog.
-            </p> */}
-
             <h3>Why write for LoginRadius?</h3>
             <p>
               We don’t think about the LoginRadius blog as a marketing channel
