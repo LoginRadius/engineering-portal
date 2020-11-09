@@ -2,13 +2,22 @@
 .guest-blog {
   .hero-section {
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background: $blue-darkest;
+    padding: 1.5rem;
     img {
       margin: 0 auto;
       display: block;
+    }
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & > div {
+        width: 50%;
+        &:first-child {
+          padding-right: 1.25rem;
+        }
+      }
     }
   }
   .content {
