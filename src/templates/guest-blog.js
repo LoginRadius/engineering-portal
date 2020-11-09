@@ -42,8 +42,8 @@ const Hacktoberfest2020 = () => {
             </p>
             <h3>Monetary Rewards: $200 Per Blog!</h3>
             <p>
-              We belive you should be paid for your efforts. For each blog
-              shortlisted for our Engineering Blog, we offer $200.
+              We believe you should be paid for your efforts. For each blog
+              shortlisted for our Engineering Blog, we offer $200 USD.
             </p>
 
             <h3>What is the publication process?</h3>
