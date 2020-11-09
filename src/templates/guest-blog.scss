@@ -1,0 +1,30 @@
+@import "../styles/variables.scss";
+.guest-blog {
+  .hero-section {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $blue-darkest;
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    .highlight {
+      color: $blue-bright;
+    }
+  }
+}
+
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  margin-left: 16px;
+}
