@@ -1,31 +1,31 @@
 ---
 title: "Using PGP Encryption with Nodejs"
-date: "2020-11-09"
+date: "2020-11-10"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Security", "NodeJS", "Encryption"]
-description: "Starter guide on PGP with Nodejs."
+description: "Starter guide on Pretty Good Privacy(PGP) with Nodejs. PGP a cryptographic process used to encrypt and decrypt information."
 ---
 
 ## What is PGP?
 
 PGP (Pretty Good Privacy) is a cryptographic process used to encrypt and decrypt information. It combines concepts from symmetric and asymmetric key encryption, maintaining some of the best security and usability aspects of both.
 
-One way PGP can be used is to protect the confidentiality of information. Once the information is encrypted, nobody will be able to decrypt it unless they have the right key. In practice, PGP is commonly used in sending and receiving emails, sharing information on the Dark Web, and others. This is because both on and off the Internet, there are ways to intercept information being sent, which makes encryption using PGP or similar critial.
+One way PGP can be used is to protect the confidentiality of information. Once the information is encrypted, nobody will be able to decrypt it unless they have the right key. In practice, PGP is commonly used in sending and receiving emails, sharing information on the Dark Web, and others. This is because both on and off the Internet, there are ways to intercept information being sent, making encryption using PGP or similar critical.
 
-On a high-level the process between a sender and reciever looks like this:
+On a high-level the process between a sender and receiver looks like this:
 1. The recipient generates public and private keys.
-2. The recipient sends their public key to the sender.
+2. The recipient sends its public key to the sender.
 3. The sender encrypts the message using the given public key.
 4. The sender sends the encrypted message to the recipient.
-5. The recipient decrypts the message using their private key.
+5. The recipient decrypts the message using its private key.
 
 ## PGP Examples in Node.js
 
 Now, let's go over some examples in Node.js using the [openpgp library](https://www.npmjs.com/package/openpgp).
 - OpenPGP is a protocol that defines the standards for PGP. OpenPGP.js implements the OpenPGP protocol in JavaScript.
 
-We'll go over some basic examples and also show how to encrypt & decrypt large files using Node.js streams.
+We'll go over some basic examples and show how to encrypt & decrypt large files using Node.js streams.
 
 First, set up your Node.js project and install openpgp.js:
 
@@ -38,9 +38,9 @@ Note: examples use openpgp v4.10.8
 
 ### Generating keys
 
-When generating private and public PGP keys with OpenPGP, you can define which curve to use in Elliptic-curve cryptography. In this example we use Ed25519 for its performance and small key size. For the full list of curves you can choose from, refer to OpenPGP.js docs.
+When generating private and public PGP keys with OpenPGP, you can define which curve to use in Elliptic-curve cryptography. In this example, we use Ed25519 for its performance and small key size. For the full list of curves, you can choose from, refer to OpenPGP.js docs.
 
-You also need to define a passphrase, which is used to decrypt files along with the private key. In practice, this should be a strong, randomized secret generated for a single-use.
+You also need to define a passphrase used to decrypt files and the private key. In practice, this should be a strong, randomized secret generated for a single-use.
 
 ```
 // generate-keys.js
@@ -82,7 +82,7 @@ AQCfb3lij9JGlIMNDQgceeougl+Lw4Gb0kQCnsNQRggTDw==
 -----END PGP PRIVATE KEY BLOCK-----
 ```
 
-And public key:
+And the public key:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -185,7 +185,7 @@ async function decrypt() {
 Which logs the decrypted file contents:
 
 ```
-This file contains secret information
+This file contains secret information.
 ```
 
 ### Using Streams for Large Files
@@ -210,7 +210,7 @@ async function encrypt() {
 ```
 
 And then, we decrypt the newly created `encrypted-dataset.txt` using streams:
-- Notice that we set the flag allow_unauthenticated_stream to true, which allows streaming data before the message integrity has been checked. This is because in our case, our OpenPGP message only has a single integrity tag at the end. This means the entire message gets loaded into memory, and we get heap out of memory error since our file is too large to fit into memory at once.
+- Notice that we set the flag allow_unauthenticated_stream to true, which allows streaming data before the message integrity has been checked. This is because, in our case, our OpenPGP message only has a single integrity tag at the end. This means the entire message gets loaded into memory, and we get a heap out of memory error since our file is too large to fit into memory at once.
 
 ```
 openpgp.config.allow_unauthenticated_stream = true;
