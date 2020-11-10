@@ -25,7 +25,7 @@ module.exports = {
       },
       // {
       //   name: "Write for Us",
-      //   slug: "https://www.loginradius.com/engineering/page/contribute",
+      //   slug: "https://www.loginradius.com/engineering/page/guest-blog",
       // },
     ],
     footerLinks: [

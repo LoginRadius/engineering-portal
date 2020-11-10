@@ -116,33 +116,13 @@ One compelling reason to use gRPC is that it provides high performance
 
 _How does it differ from REST?_
 
-**gRPC**
+| | **gRPC** | **REST** |
+| -- | -- | --|
+| API | Contract-based i.e. stubs | Resource-based and relies on HTTP verbs i.e. GET/PUT/POST/DELETE
+| Network protocol | HTTP/2 | HTTP/1.1 or HTTP/2 |
+| Data serialization format | Protocol buffers | JSON |
+| Streaming | Built-in support for client, server, and bi-directional streaming | REST on HTTP/1.1 does not allow streaming |
 
-**REST**
-
-API
-
-Contract-based i.e. stubs
-
-Resource-based and relies on http verbs i.e. GET/PUT/POST
-
-Network Protocol
-
-HTTP/2
-
-HTTP/1.1 or HTTP/2
-
-Data Serialization Format
-
-Protocol buffers
-
-JSON
-
-Streaming
-
-Built-in support for client, server, and bidirectional streaming
-
-REST on HTTP/1.1 does not allow streaming
 
 **Other Considerations**
 
