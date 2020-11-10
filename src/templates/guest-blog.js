@@ -51,14 +51,14 @@ const Hacktoberfest2020 = () => {
             <ul style={{ paddingLeft: "16px" }}>
               <li>
                 Apply: Apply to the program with your topic idea, an outline of
-                your tutorial, and a writing sample that showcases your ability
-                to explain your technical knowledge to others. We publish only
+                your blog, and a writing sample that showcases your ability to
+                explain your technical knowledge to others. We publish only
                 original, first-run content under a Creative Commons license.
               </li>
-              <li>
+              {/* <li>
                 Guidance : If you're accepted, you'll work with the editorial
                 team to refine your topic and outline for your tutorial.
-              </li>
+              </li> */}
               <li>
                 Write: Once your topic is approved, it's time to write. We
                 provide resources, like our writing guidelines and best
@@ -66,9 +66,18 @@ const Hacktoberfest2020 = () => {
               </li>
               <li>
                 Review: Submit your first draft and collaborate one-on-one with
-                a professional editor to revise your work. Going Live: After
-                revisions, your editor will publish your article, LoginRadius
-                will also promote your article across all of our social networks
+                a professional editor to revise your work. LoginRadius holds all
+                the rights to approve or reject any of the blog entries that
+                does not follow our guidelines.
+              </li>
+              <li>
+                Refine: After review, you will be asked to make any changes
+                necessary before the blog can go live.
+              </li>
+              <li>
+                Go Live: After revisions, your editor will publish your article,
+                LoginRadius will also promote your article across all of our
+                social networks
               </li>
               <li>
                 Repeat: Build a relationship with the editorial team by
@@ -119,6 +128,7 @@ const Hacktoberfest2020 = () => {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfgNfb54rpqAob8S7AyK9rUPLmIVs-1GDRHZ2qmiF9KPBdcnw/viewform"
               className="btn btn-primary"
+              target="_blank"
             >
               Apply Now
             </a>

@@ -23,10 +23,10 @@ module.exports = {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
-      // {
-      //   name: "Write for Us",
-      //   slug: "https://www.loginradius.com/engineering/page/contribute",
-      // },
+      {
+        name: "Write for Us",
+        slug: "https://www.loginradius.com/engineering/page/guest-blog",
+      },
     ],
     footerLinks: [
       {
@@ -84,15 +84,15 @@ module.exports = {
               maxWidth: 768,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-vscode`,
-          //   options: {
-          //     theme: "Dark+ (default dark)",
-          //     languageAliases: {
-          //       html: "js",
-          //     },
-          //   },
-          // },
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: "Dark+ (default dark)",
+              languageAliases: {
+                html: "js",
+              },
+            },
+          },
         ],
       },
     },
