@@ -4,7 +4,7 @@ date: "2020-11-10"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Security", "NodeJS", "Encryption"]
-description: "Starter guide on Pretty Good Privacy(PGP) with Nodejs. PGP a cryptographic process used to encrypt and decrypt information."
+description: "Starter guide on Pretty Good Privacy(PGP) with Nodejs. PGP, a cryptographic process used to encrypt and decrypt information."
 ---
 
 ## What is PGP?
