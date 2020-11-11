@@ -23,10 +23,10 @@ module.exports = {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
-      // {
-      //   name: "Write for Us",
-      //   slug: "https://www.loginradius.com/engineering/page/guest-blog",
-      // },
+      {
+        name: "Write for Us",
+        slug: "https://www.loginradius.com/engineering/page/guest-blog",
+      },
     ],
     footerLinks: [
       {
