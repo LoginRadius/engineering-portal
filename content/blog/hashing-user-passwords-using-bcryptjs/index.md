@@ -4,18 +4,18 @@ date: "2020-11-11"
 coverImage: "index.jpg"
 author: "Hridayesh Sharma"
 tags: ["NodeJS", "JavaScript", "Hashing"]
-description: "Storing plain text passwords is one of the worst habits of our time. Don't store plain text passwords, use passwords hashing instead."
+description: "Storing plain text passwords is one of the worst habits of our time. Don't store plain text passwords, instead use passwords hashing."
 ---
 
-Imagine a scenario where you store all the user passwords in plain text in your database i.e passwords are stored as it is in the database without any modification. Now some hacker gets access to your database and they can see any of the user credentials stored in the database and do whatever they want. Congratulation, all your user data is compromised.
+Imagine a scenario where you store all the user passwords in plain text in your database, i.e., passwords are stored in the database without any modification. Now some hacker gets access to your database, and they can see any of the user credentials stored in the database and do whatever they want. Congratulation, all your user data is compromised.
 
-What if we could prevent this from happening? What if there was a way to prevent a hacker to get access to your user passwords even if your database is compromised? Yes, there is one called **Password Hashing**.
+What if we could prevent this from happening? What if there was a way to prevent a hacker from accessing your user passwords even if your database is compromised? Yes, there is one called **Password Hashing**.
 
 ### What is password hashing?
 Hashing is a one-way ticket to data encryption. Hashing performs a one-way transformation on a password, turning the password into another String, called the hashed password. Hashing is called one way because it's practically impossible to get the original text from a hash.
 
 ### Prerequisites
-Before moving on I am assuming you have some idea about the following:
+Before moving on, I am assuming you have some idea about the following:
   - Working with Node Ecosystem
   - A brief idea about MongoDB
   - and Some JavaScript Knowledge
@@ -34,16 +34,16 @@ Make sure you have the following installed on your system to move forward with t
 
 **Step 2**: Installing some of the project dependencies.
 
-We will be using `expressjs` to create a new server and `mongoose` to interact with mongodb in our node application. 
+We will use `expressjs` to create a new server and `mongoose` to interact with MongoDB in our node application. 
 
 ```bash
   npm install --save mongoose express
 ```
 
 
-**Step 3**: Let's write our server using express and connect it to mongodb using mongoose.
+**Step 3**: Let's write our server using express and connect it to MongoDB using mongoose.
 
-  - create a new file called server.js in the root of the project.
+  - create a new file called server.js at the root of the project.
   
   `server.js`
   ```js
@@ -67,9 +67,9 @@ We will be using `expressjs` to create a new server and `mongoose` to interact w
 
 Run your server using `node server.js`. This is a simple server running on port 3000. Here we are using express' json middleware to parse form data.
 
-Note: In order to see updated changes after every step you need to run your server multiple times or you can use a package like [nodemon](https://www.npmjs.com/package/nodemon) which will watch for any file changes.
+> Note: To see updated changes after every step, you need to run your server multiple times or use a package like [nodemon](https://www.npmjs.com/package/nodemon), which will watch for any file changes.
 
-**Step 4** Now we will create our user schema
+**Step 4** Now, we will create our user schema
   - create a file called `userModel.js` in the root of the project and add the following code to it.
   
   `userModel.js`
@@ -84,12 +84,12 @@ Note: In order to see updated changes after every step you need to run your serv
     module.exports = mongoose.model('user', UserSchema)
   ```
 
-  Here we created a simple user model with email and password and exported it. I am not using any validations here as this is not a tutorial on mongoose. You must use data validations in a real application.
+  Here we created a simple user model with email and password and exported it. I am not using any validations here, as this is not a tutorial on the mongoose. You must use data validations in a real application.
   
-**Step 5** Create our routes for login and singup
+**Step 5** Create our routes for login and signup
 
   - Install the bcrypt module in our project: `npm i --save bcrypt`.
-  - create a separate file called `userRoutes.js` in the root of the project and add the following code in it
+  - create a separate file called `userRoutes.js` in the root of the project and add the following code to it
   
   `userRoutes.js`
   ```js
@@ -133,11 +133,11 @@ Note: In order to see updated changes after every step you need to run your serv
 
     module.exports = router;
   ```
-  Here we used express Router to create our routes in a separate file so that we can keep our `server.js` as clean as possible.
+  Here we used express Router to create our routes in a separate file to keep our `server.js` as clean as possible.
 
-  We are using `bcrypt` to hash user password and then store them in the database. This way we are not storing the plain text passwords in the database and even if someone can get access to hashed password they won't be able to login.
+We are using `bcrypt` to hash user password and then store them in the database. This way, we are not storing the plain text passwords in the database, and even if someone can get access to a hashed password, they won't be able to log in.
 
-  - Import the user routes in the server.js. See upadted code below.
+  - Import the user routes in the server.js. See the updated code below.
   
   `server.js`
   ```js
@@ -158,24 +158,20 @@ Note: In order to see updated changes after every step you need to run your serv
 
     app.listen(3000, () => console.log("Running on port 3000"));
   ```
-  Now we want express to use our userRoutes for all incoming request at `/auth/something`, like `/auth/login` and `/auth/signup`.
+  We want express to use our userRoutes for all incoming requests at `/auth/something`, like `/auth/login` and `/auth/signup`.
 
 
-With everything in place we have finally got a node server up and running with hashing the passwords instead of storing in plain texts. We have created two routes, one for login and one for signup. We are using hashing while storing the user passwords using `bcrypt.hash` method and later on we compare the origina passwords with hashed password using `bcrypt.comapre` when user logs in.
+We have finally got a node server up and running with hashing the passwords instead of storing them in plain texts with everything in place. We have created two routes, one for login and one for signup. We are using hashing while storing the user passwords using the `bcrypt.hash` method, and later on, we compare the original passwords with a hashed password using `bcrypt.comapre` when the user logs in.
 
 **Step 6**: Let's test our server now.
 
 Now we will test our server using [Postman](https://www.postman.com/). 
 - Creating a new user
-  - Create a new user with a random email and password in the request body by sending a `post` request at `http://localhost:3000/auth/signup`. Notice you will get the hashed password in the response. You can also check in the database locally how password is stored. We named our database to be `demo` here.
-- Login using above credentials.
-  - Similary send a post request at `http://localhost:3000/auth/login` and you will get a message as valid password in the reponse.
+  - Create a new user with a random email and password in the request body by sending a `post` request at `http://localhost:3000/auth/signup`. Notice you will get the hashed password in the response. You can also check in the database locally how the password is stored. We named our database to be `demo` here.
+ - Log in using the above credentials.
+   - Similarly, send a post request at `http://localhost:3000/auth/login`, and you will get a message as a valid password in the response.
   
 ### Conclusion
 
-Finally we have created a basic node server and implemented password hashing to prevent any attacker to get access to original passwords. Hashing user passwords is really important as user data is very crucial for any organization. You can read more about hashing and encryption at [Encryption and Hashing](https://www.loginradius.com/engineering/blog/encryption-and-hashing/).
+Finally, we have created a primary node server and implemented password hashing to prevent any attacker from accessing original passwords. Hashing user passwords is essential as user data is very crucial for any organization. You can read more about hashing and encryption at [Encryption and Hashing](https://www.loginradius.com/engineering/blog/encryption-and-hashing/).
 The complete code for this blog can be found at [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/BcryptPasswordHashing)
-
-
-
-  
