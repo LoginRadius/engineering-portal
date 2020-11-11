@@ -174,6 +174,7 @@ Now we will test our server using [Postman](https://www.postman.com/).
 ### Conclusion
 
 Finally we have created a basic node server and implemented password hashing to prevent any attacker to get access to original passwords. Hashing user passwords is really important as user data is very crucial for any organization. You can read more about hashing and encryption at [Encryption and Hashing](https://www.loginradius.com/engineering/blog/encryption-and-hashing/).
+The complete code for this blog can be found at [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/BcryptPasswordHasing)
 
 
   
