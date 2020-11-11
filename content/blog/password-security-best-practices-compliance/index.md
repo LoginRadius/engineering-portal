@@ -1,9 +1,9 @@
 ---
 title: "Password Security Best Practices & Compliance"
-date: "2015-05-14"
+date: "2020-11-11"
 coverImage: "password-security.png"
 author: "Vijay Singh Shekhawat"
-"tags: ["Security", "Password"]
+"tags: ["Security", "Password","Compliance","Passowrd Policy"]
 ---
 
 Application Security is one of the primary concerns for a software developer. People trust your application and share sensitive or personal information. As a software developer, you need to take care of your application user information security. Authentication and authorization both play critical roles in application security. They confirm the identity of the user and grant access to your website or application.
