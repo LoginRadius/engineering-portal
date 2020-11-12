@@ -43,7 +43,7 @@ git cherry-pick is a useful tool but isn't best practise always. Cherry picking 
 A team will often find individual members working in or around the same code sometimes. Perhaps there is a backend and frontend component of a new product feature. There may be some shared code between two sectors of the product. Perhaps the developer of the backend produces a data structure that will also need to be used by the frontend. In order to select the commit in which this hypothetical data structure was created, the frontend developer could use git cherry-pick. This selection would allow the developer of the front end to continue progress on their project side.
 
 ####  Quick fixes
-When a bug is discovered it is important to fix that quickly as possible. For an example scenario,say a developer has started work on a new feature. while development of new feature they find a existing bug. The developer creates an explicit commit to fix this bug. This new patch commit can be cherry-picked directly to the master branch to quick fix the bug.
+When a bug is discovered it is important to fix that quickly as possible. For an example, lets say a developer has started work on a new feature. while development of new feature they find a existing bug. The developer creates an explicit commit to fix this bug. This new patch commit can be cherry-picked directly to the master branch to quick fix the bug.
 
 ####  Undo and restore commits
 A feature branch can often go stale and not be merged into a master. Often, without merging, a pull request might be closed. Git never sacrifices those commits, and they can be identified and cherry picked back to life by commands such as git log and git reflog.
