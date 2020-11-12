@@ -102,7 +102,7 @@ Most of the data breaches are happing because of Common or weak passwords. MFA, 
 
 ### Source
 
-https://www.fda.gov/food/online-registration-food-facilities/random-password-generator-fda-industry-systems#:~:text=Passwords%20for%20FDA%20Industry%20Systems,At%20least%20one%20lowercase%20letter.
+https://www.fda.gov/food/online-registration-food-facilities/random-password-generator-fda-industry-systems
 
 https://uwm.edu/hipaa/security-guidelines/#password
 
