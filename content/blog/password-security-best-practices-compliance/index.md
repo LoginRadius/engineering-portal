@@ -1,7 +1,7 @@
 ---
 title: "Password Security Best Practices & Compliance"
 date: "2020-11-12"
-coverImage: "password-security.png"
+coverImage: "password-security.jpg"
 author: "Vijay Singh Shekhawat"
 tags: ["Security", "Password","Compliance","Passowrd Policy"]
 ---
