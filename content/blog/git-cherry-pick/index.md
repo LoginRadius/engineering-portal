@@ -1,3 +1,11 @@
+---
+title: Git Cherry Pick
+date: "2020-11-11"
+coverImage: "cherrypck.jpg"
+author: "Abhimanyu Singh Rathore"
+description: "introduction about Git Cherry pick and its usages"
+---
+
 ![cherry](cherrypck.jpg)
 
 # Git Cherry Pick
