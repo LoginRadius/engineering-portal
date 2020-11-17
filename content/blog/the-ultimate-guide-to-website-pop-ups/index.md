@@ -138,7 +138,6 @@ document.getElementsByClassName('popup-layout')\[0\].style.display = "block";
 
 ### **4\. Creating a Scroll / Time \[5 second\] popup:**
 
-![Creating a Scroll/timer based popup](/engineering/wp-content/uploads/sites/2/2017/02/Creating-a-Scroll-timer-popup.gif)
 
 Pretty much the same as above but this one shows popup after 5 seconds of scrolling .
 
