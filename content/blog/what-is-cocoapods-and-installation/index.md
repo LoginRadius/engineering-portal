@@ -3,7 +3,7 @@ title: "Cocoapods : What It Is And How To Install?"
 date: "2017-09-06"
 coverImage: "cocoapods-orange-on-grey.jpg"
 author: Thompson Sanjoto
-tags: ["Swift","Objective-C","XCode"]
+tags: ["Swift","Objective-C","xcode"]
 ---
 
 Cocoapod is a package dependency manager for Objective-C and Swift projects with XCode. Those Languages are used to make applications that run iOS, macOS, watchOS and tvOS. Cocoapods also acts as a coding hub to share your code with other people. That way we as a community of coders don’t have to “re-invent the wheel” to tackle problems that have already been solved.
