@@ -279,7 +279,7 @@ deno run --allow-net server.ts
 
 Now open the postman and hit the get URL [http://localhost:8080/todos/](http://localhost:8080/todos/)
 
-![Browser output](get_all_output.PNG)
+![Browser output](get_all_output.png)
 
 To check the getByID router, copy the ID of any task and hit the URL like 
 
