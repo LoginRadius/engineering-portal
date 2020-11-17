@@ -1,11 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 import HeroImage from "../../content/assets/contribute_lr.jpg"
+import SEO from "../components/seo"
 
 import "./guest-blog.scss"
 const Hacktoberfest2020 = () => {
   return (
     <Layout>
+      <SEO
+        title={`Write for Us`}
+        description={`LoginRadius provides a guest blogging opportunity to write an article for the LoginRadius Engineering blog specific to technical geeks.`}
+        image={HeroImage}
+      />
       <div className="guest-blog">
         <section className="hero-section">
           <div className="grid-50">
