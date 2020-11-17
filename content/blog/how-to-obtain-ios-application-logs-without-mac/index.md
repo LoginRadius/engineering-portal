@@ -3,7 +3,7 @@ title: "How to obtain iOS application logs without Mac"
 date: "2020-07-22"
 coverImage: "Log.png"
 author: "Tanvi Jain"
-tags: ["Logs","iOS","Xcode","iPhone","troubleshoot","Mac"]
+tags: ["Logs","iOS","xcode","iPhone","troubleshoot","Mac"]
 ---
 
 Logs are very helpful in finding the root cause of the issues you may be experiencing in an app. It is an efficient way to resolve issues by knowing the exact reason after checking Logs.
