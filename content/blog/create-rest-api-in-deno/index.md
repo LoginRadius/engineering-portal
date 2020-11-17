@@ -78,7 +78,7 @@ Open the browser and hit the URL [localhost:8080](http://localhost:8080)
 
 You can see the following output in your browser
 
-![Browser output](deno_localhost_output.png)
+![Browser output](output_localhost.png)
 
 
 5. Now following the directory structure, we will create following folders in our project with the help of below command
