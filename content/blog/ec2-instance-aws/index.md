@@ -1,5 +1,5 @@
 ---
-title: "Creating an EC2 Instance in AWS"
+title: "How to create an EC2 Instance in AWS"
 date: "2020-11-18"
 coverImage: "ec2cover.png"
 author: "Puneet Singh"
