@@ -40,11 +40,11 @@ The next step is to choose the type of instance we need. AWS provides many types
 
 ![EC2 Types](5_type.png)
 
-On the Instance Configuration Details Page, we have options to run more than one instance at once, and there are other configuration regarding roles and access management. We will skip all this and click on the `Next: Add Storage` button.
+On the Instance Configuration Details Page, we have options to run more than one instance at once, and there are other configurations regarding roles and access management. We will skip all this and click on the `Next: Add Storage` button.
 
 ![Configure Instance Details](6_configuratio.png)
 
-We can increase or decrease the size of instance storage while creating it; the free tier is eligible till 30GB; if you need more storage, it will be billed according to [Elastic Block Store (EBS) Pricing](https://aws.amazon.com/ebs/pricing/)
+We can increase or decrease the size of instance storage while creating it; the free tier is eligible upto 30GB; if you need more storage, it will be billed according to [Elastic Block Store (EBS) Pricing](https://aws.amazon.com/ebs/pricing/)
 
 ![Storage](7_storage.png)
 
@@ -56,11 +56,11 @@ We can define the firewall rules in a security group attached to our instance. W
 
 ![Security Group](9_security.png)
 
-Once we finish with firewall rules, we can review the complete detail of our new instance on a single page, and here we can click `Launch` button to launch the instance.
+Once we are done with firewall rules, we can review the complete detail of our new instance on a single page, and here we can click `Launch` button to launch the instance.
 
 ![Review](10_review.png)
 
-When we click `Launch`, it will open a pop-up that will require you to select a pre-existing public-private key-pair or create one to connect to our instance securely. Once you selected/download the key, you will be able to launch the instance.
+When we click `Launch`, it will open a pop-up that will require you to select a pre-existing public-private key-pair or create one to connect to our instance securely. Once you select/download the key, you will be able to launch the instance.
 
 ![Security Key](11_key.png)
 
