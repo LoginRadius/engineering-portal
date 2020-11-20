@@ -80,10 +80,10 @@ XOR sign table could be useful to understand the sign of result:
 |-|-|+|
 
 
-Above approch will work with negative inputs but if we have positive and negative then? 
+Above approach will work with negative inputs but if we have positive and negative then? 
 ##### How XOR operation works with positive and negative numbers?
 Let's performs `-5 ^ 2`
-Follow the same above approch to get complement code of `-5`.
+Follow the same above approach to get complement code of `-5`.
 
 ```javascript
 complement of -5 :          1111 1011
