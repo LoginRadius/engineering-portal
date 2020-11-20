@@ -8,7 +8,7 @@ description: "Everything essential you need to know about React Router."
 ---
 
 
-React thrives on being one of the premier tools to build single-page applications, which used to be a fairly foreign concept when I started building my first React app. Back then, I was used to the concept of serving separate web pages whenever the user redirects from an URL path to another, and it was rather challenging at first to wrap my head around how React handles https://github.com/nathannguyenn/engineering-portal/wikinavigation.
+React thrives on being one of the premier tools to build single-page applications, which used to be a fairly foreign concept when I started building my first React app. Back then, I was used to the concept of serving separate web pages whenever the user redirects from an URL path to another, and it was rather challenging at first to wrap my head around how React handles navigation.
 
 With that in mind, this blog post aims to lay down and explain the basic aspects of navigation using React Router, one of the most, if not the most, popular solutions for navigation within a React app.
 
