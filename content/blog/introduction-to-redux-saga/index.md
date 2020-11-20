@@ -1,10 +1,10 @@
 ---
-title: "Introduction to React Saga"
+title: "Introduction to Redux Saga"
 date: "2020-11-20"
 coverImage: "unsplash.png"
 author: "Nick Chim"
 tags: ["React", "Redux", "Redux Saga"]
-description: "A high level introduction to React Saga."
+description: "A high level introduction to Redux Saga."
 ---
 
 A High Level Introduction to Redux Saga
@@ -24,21 +24,21 @@ The solution
 
 A Redux middleware lies between an action and a reducer. This enables actions to contain something else other than a plain object, as long as the middleware intercepts this, performs its logic, and returns a plain object to pass along to the reducer. 
 
-Redux Thunk, a common alternative to React Saga, allows functions to be passed into the Redux store dispatch, which checks to see if it is a function or an action object, executing the function in the former case, and directly passing along the action object to the reducer in the latter case. These functions can then perform whatever complex asynchronous logic that it wants, and produce a plain action object to be then passed into the reducer.
+Redux Thunk, a common alternative to Redux Saga, allows functions to be passed into the Redux store dispatch, which checks to see if it is a function or an action object, executing the function in the former case, and directly passing along the action object to the reducer in the latter case. These functions can then perform whatever complex asynchronous logic that it wants, and produce a plain action object to be then passed into the reducer.
 
 Redux Sagas are slightly different in that a separate set of actions are defined in your Redux application, which are captured exclusively by watcher functions (as part of your saga). Upon capturing the action, the saga will execute the corresponding logic, and dispatch a resultant action to your application’s reducer. The saga essentially acts like a separate thread to your application, listening for specific actions from your main application to perform complex asynchronous tasks, and updating your application’s state once it is completed. 
 
 
-React Saga vs alternatives
+Redux Saga vs alternatives
 ---
 
-While I wouldn’t say React Saga is inherently better than any of the alternatives available, it does have a few benefits that might make you want to consider using it.
+While I wouldn’t say Redux Saga is inherently better than any of the alternatives available, it does have a few benefits that might make you want to consider using it.
 
-React Saga offers a place completely decoupled from your action creators for you to handle your application’s side effects. Some people may feel that this makes your application’s data flows harder to follow (which I would agree with), but I think that this decoupling makes organizing your codebase and extending functionality easier down the road. 
+Redux Saga offers a place completely decoupled from your action creators for you to handle your application’s side effects. Some people may feel that this makes your application’s data flows harder to follow (which I would agree with), but I think that this decoupling makes organizing your codebase and extending functionality easier down the road. 
 
-For example, in a situation where you might need to support a workflow that requires multiple HTTP requests to different services in a particular order, React Saga allows you to compose granular sagas into a single one, and represent this new high level function with a separate action. Your application can still access each individual HTTP resource in other workflows, but for this particular one, your React component can simply call this high level action to load whatever it needs from a single place. As far as your component is concerned, your asynchronous logic to load multiple resources in a particular order is abstracted away. 
+For example, in a situation where you might need to support a workflow that requires multiple HTTP requests to different services in a particular order, Redux Saga allows you to compose granular sagas into a single one, and represent this new high level function with a separate action. Your application can still access each individual HTTP resource in other workflows, but for this particular one, your React component can simply call this high level action to load whatever it needs from a single place. As far as your component is concerned, your asynchronous logic to load multiple resources in a particular order is abstracted away. 
 
-React Saga also offers us a collection of helper functions that are used to spawn your tasks when some specific actions are dispatched. These can be used to help organize when and how your tasks are executed.
+Redux Saga also offers us a collection of helper functions that are used to spawn your tasks when some specific actions are dispatched. These can be used to help organize when and how your tasks are executed.
 
 For example, one of the most commonly used helper functions is `takeEvery()`. This instructs the middleware to spawn a new task for every action dispatched to your store matching a given pattern. This provides a behaviour similar to Redux Thunk, and is as simple as it gets: “Application tells you to fetch something, go fetch it”.
 
