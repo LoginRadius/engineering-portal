@@ -1,6 +1,6 @@
 ---
 title: "React Router Basics: Routing in a Single-page Application"
-date: "2020-11-19"
+date: "2020-11-20"
 coverImage: "index.png"
 author: Nathan Nguyen
 tags: ["JavaScript", "Node", "React", "React Router"]
