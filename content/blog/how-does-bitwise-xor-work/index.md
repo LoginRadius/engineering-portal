@@ -1,3 +1,11 @@
+---
+title: "How does bitwise ^ (XOR) work?"
+date: "2020-11-20"
+coverImage: "xor.png"
+author: Kheenvraj Lomror
+tags: ["bitwise operator", "XOR"]
+description: "Everything know about bitwise ^ xor operator."
+---
 ## How does bitwise ^ (XOR) work?
 XOR is a bitwise operator and it stands for "exclusive or". It performs **logical** operation, if input bits are the same then output will be false(0) else true(1).
 
