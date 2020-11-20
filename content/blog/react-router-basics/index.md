@@ -3,11 +3,12 @@ title: "React Router Basics: Routing in a Single-page Application"
 date: "2020-11-19"
 coverImage: "index.png"
 author: Nathan Nguyen
-tags: ["JavaScript", "Node", "React", "Router", "routing", "url", "history"]
-description: "Everything essential you need to know about React Router"
+tags: ["JavaScript", "Node", "React", "React Router"]
+description: "Everything essential you need to know about React Router."
 ---
 
-React thrives on being one of the premier tools to build single-page applications, which used to be a fairly foreign concept to me when I started building my first React app. Back then I was used to the concept of serving separate web pages whenever the user redirects from an URL path to another, and it was rather challenging at first to wrap my head around how React handles navigation.
+
+React thrives on being one of the premier tools to build single-page applications, which used to be a fairly foreign concept when I started building my first React app. Back then, I was used to the concept of serving separate web pages whenever the user redirects from an URL path to another, and it was rather challenging at first to wrap my head around how React handles https://github.com/nathannguyenn/engineering-portal/wikinavigation.
 
 With that in mind, this blog post aims to lay down and explain the basic aspects of navigation using React Router, one of the most, if not the most, popular solutions for navigation within a React app.
 
@@ -17,7 +18,7 @@ Throughout the first section below, please reference [this CodePen example](http
 
 1. **Link, Switch and Router**
 
-As hinted at in the preface of this writing, routing in React does not involve replacing the HTML, CSS or JavaScript resources currently being served, or reloading the browser content. Instead, using libraries like <code>react-router</code> allows containers to be swapped in and out dynamically based on the current URL location, and this all happens client side. With that in mind, React Router can more generally be understood as a wrapper that handles conditional rendering based on URL path.
+As hinted at in the preface of this writing, routing in React does not involve replacing the HTML, CSS or JavaScript resources currently being served or reloading the browser content. Instead, using libraries like <code>react-router</code> allows containers to be swapped in and out dynamically based on the current URL location, and this all happens client-side. With that in mind, React Router can more generally be understood as a wrapper that handles conditional rendering based on URL path.
 
 To accomplish this, the basic building blocks that developers get to play with are <code>&lt;Route></code>, <code>&lt;Switch></code> and <code>&lt;Link></code>. Let us look at a basic example making use of these 3 components:
 
@@ -163,8 +164,7 @@ export default withRouter<SampleComponentProps>(SampleComponent);
 
 In the example above, you can see all the components required to extract the <code>history</code> object, as well as the <code>history.push()</code> call to perform the redirection.
 
-For a more updated approach, React Router introduced the hook [<code>useHistory</code>](https://reactrouter.com/web/api/Hooks/usehistory) which should blend in more naturally when programming with a React Hooks intensive workflow.
-
+For a more updated approach, React Router introduced the hook [<code>useHistory</code>](https://reactrouter.com/web/api/Hooks/usehistory), which should blend in more naturally when programming with a React Hooks intensive workflow.
 
 
 3. **Passing states on redirects**
@@ -246,4 +246,4 @@ The state access is in <code> componentDidMount</code> in the example above.
 
 4. **Parting Words**
 
-At this point, hopefully we have covered all the big bullet points to help you get started with navigation using React Router. I hope this writeup has been informative and helpful to your understanding of navigation in React, as well as helping you build your next React application.
+At this point, hopefully, we have covered all the big bullet points to help you get started with navigation using React Router. I hope this write-up has been informative and helpful to your understanding of navigation in React, as well as helping you build your next React application.
