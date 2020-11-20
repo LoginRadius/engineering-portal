@@ -1,5 +1,6 @@
 ## How does bitwise ^ (XOR) work?
-XOR is a bitwise operator and it stands for "exclusive or". It performs **logical** operation, if input bits are the same then output will be false(0) else true(1).
+
+XOR is a bitwise operator, and it stands for "exclusive or." It performs **logical** operation. If input bits are the same, then the output will be false(0) else true(1).
 
 XOR table:
 
@@ -20,9 +21,9 @@ In binary:
  Result:     1011  => (7)
 ```
 #### XOR with negative numbers
-Lets understand with an example `-4^-2 = 2`
+Let's understand with an example `-4^-2 = 2`
 In the above example, we can see `-4^-2 `output will be `2`
-but the question arises how? because if we represent both inputs in the binary form then we do XOR of bits then the output will be `0000 0110` and in decimal, it will be `6` but as we know output should be `2`.
+but the question arises how? Because if we represent both inputs in the binary form, then we do XOR of bits, then the output will be `0000 0110` and in decimal, it will be `6` but as we know output should be `2`.
 ```javascript
   1000 0100 (-4)
 ^ 1000 0010 (-2)
@@ -30,12 +31,12 @@ but the question arises how? because if we represent both inputs in the binary f
   0000 0110 => (6) // incorrect output
 ```
 
-> Note : Here, leftmost bit position is reserved for the sign of the
+> Note: Here, the leftmost bit position is reserved for the sign of the
 > value (positive or negative) and doesn't contribute towards the value of number.
 
 
 
- Lets undertand how XOR operation works with negative numbers.
+ Let's understand how the XOR operation works with negative numbers.
 ##### How XOR operation works with negative numbers?
 First, the XOR operation is to XOR each bit (the same is 0, the difference is 1), but you need to convert the number into a complement first.
 
@@ -61,7 +62,7 @@ complement of -2 : 1111 1110
 Result:            0000 0010 	=> 2
 ```
 
-*Here the  MSB bit of result will denote the sign and the  rest of the bits will denote the value of the final result.*
+*Here, the MSB bit of result will denote the sign and the rest of the bits will denote the value of the final result.*
 XOR sign table could be useful to understand the sign of result:
 |       X         |Y|X^Y|
 |----------------|-------------------------------|-----------------------------|
@@ -73,7 +74,7 @@ XOR sign table could be useful to understand the sign of result:
 
 Above approch will work with negative inputs but if we have positive and negative then? 
 ##### How XOR operation works with positive and negative numbers?
-Lets performs `-5 ^ 2`
+Let's performs `-5 ^ 2`
 Follow the same above approch to get complement code of `-5`.
 
 ```javascript
