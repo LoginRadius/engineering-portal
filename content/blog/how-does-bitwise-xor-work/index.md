@@ -3,7 +3,7 @@ title: "How does bitwise ^ (XOR) work?"
 date: "2020-11-24"
 coverImage: "xor.png"
 author: Kheenvraj Lomror
-tags: ["bitwise operator", "XOR"]
+tags: ["bitwise", "XOR"]
 description: "Everything you should know about bitwise ^ xor operator."
 ---
 ## How does bitwise ^ (XOR) work?
