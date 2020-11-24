@@ -1,31 +1,45 @@
 ---
-title: "A Journey through React Hooks"
+title: "React Hooks: A Beginners Guide"
 date: "2020-08-07"
 author: "Mohammed Modi"
 coverImage: "react-hooks.png"
 tags: ["React", "Hooks"]
-description: "Have you ever assigned a task to change the functional component which is full of UI and business logic to a Class Component just because the new feature requires the use of state, just to toggle some text colour to red on some events occurred? Then this article is for you."
+description: "A walkthrough guide on React Hooks, what is React Hooks, benefits of Hooks, and how to use Hooks in React and more."
 ---
 
-# Overview
+## Overview
+
+I want to explain the inspiration for React Hooks in this walkthrough, what React Hook is and the advantages of hooks, and more. This article covers only an introduction to React Hooks. React Hooks have been introduced in React function components as a way of utilising state and side effects.
 
 Have you ever assigned a task to change the **functional component** which is full of UI and business logic to a **Class Component** just because the new feature requires the use of **state**, just to toggle some text colour to red on some events occurred?
 
-Chances are there if you are a react developer, Hopefull we can solve this using the [Hooks](https://reactjs.org/docs/hooks-intro.html). 
+Chances are there if you are a react developer, Hopefully we can solve this using the Hooks.
 
 ## What are Hooks?
 
+Hooks are features that allow you to “hook into” the features of [React state](https://www.loginradius.com/engineering/blog/react-state-management/) and lifecycle from function components. Hooks do not function inside classes. Without classes, they let you use React.
+
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
-[Dan Abramov](https://twitter.com/dan_abramov) has provided a well-rounded introduction to the API, and how and why the framework that many of us use has evolved to where it is now. You can read about it and watch his ReactConf 2018 keynote introducing the hooks proposal [here](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889).
+[Dan Abramov](https://twitter.com/dan_abramov) has provided a well-rounded introduction to the API, and how and why the framework that many of us use has evolved to where it is now. You can read about it and watch his [ReactConf 2018 keynote](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) introducing the hooks proposal.
 
 The key takeaway maybe this:
 
 >If the React community embraces **hooks**, it will reduce the number of concepts you need to juggle when writing React applications. Hooks let you always use functions instead of having to constantly switch between functions, classes, higher-order components, and render props.
 
-## Why React Hooks?
+## Benefits of React Hooks
 
-React Hooks enables the functional components to attach the local state to it, so that you can use React functionality without using of **class component**.
+React Hooks enables the functional components to attach the local state to it, so that you can use React functionality without using a **class component**.
+
+Advantages of react hooks:
+
+- Readable
+- Lesser Code.
+- Overall Optimized component
+- Writing a Functional component with state
+- Writing complex components became easier
+- Handling events & logics in functional components.
+- Performance boost up with Functional Components
 
 ### A Practical View
 
@@ -68,26 +82,16 @@ export default () => {
 };
 ```
 
-### Advantages: 
-
-- Readable 
-- Lesser Code. 
-- Overall Optimized component 
-- Writing a Functional component with state 
-- Writing complex components became easier 
-- Handling events & logics in functional components. 
-- Performance boost up with Functional Components  
-
 > If you disagree with any of the above, you can play with it in practice. I’m sure that would change your mind! 
 
-## Types Of Hooks
+## Basics Of React Hooks
 
-Let's us understand some basic hooks with examples.
+Let us understand some basic hooks with examples.
 
 1. useState()
 2. useEffect()
 
-I will take one example and will explain all the hooks in that example using a various scenario.
+I will take one example and will explain all the hooks in that example using a various scenarios.
 
 ### useState()
 
@@ -115,7 +119,7 @@ this.state = {
 
 ### useEffect()
 
-React `useEffect()` function can be execeuted in 3 different React component life cycles that are
+React `useEffect()` function can be executed in 3 different React component life cycles that are
  1. componentDidMount
  2. componentDidUpdate
  3. componentWillUnmount
@@ -144,7 +148,7 @@ export default App;
 
 As you can see, In this example we have used the `useEffect` hook to trigger the `setMessage` method the change the `message` variable after 1 second.
 
-But there is one problem, while executing this component you can will see that the `console.log` will trigger twice. The reason is the `useEffect` hook will by default trigger on change of either `state` or `props` similar to the `componentDidUpdate` method in our class component.
+But there is one problem, while executing this component you can see that the `console.log` will trigger twice. The reason is the `useEffect` hook will by default trigger on change of either `state` or `props` similar to the `componentDidUpdate` method in our class component.
 
 To overcome this kind of case we need to pass the **Empty array ([])** as the second argument in the useEffect hooks. So updated code will look like this
 
@@ -168,13 +172,13 @@ const App = () => {
 export default App;
 ```
 
-The above code means that hook will never be triggered as we have empty array there, if we want to trigger the hook on a specific variable change of `props` or `state` we can add that variable in the array.
+The above code means that hook will never be triggered as we have an empty array there, if we want to trigger the hook on a specific variable change of `props` or `state` we can add that variable in the array.
 
 For eg : `[state.message]` here hook will fire on the update of message variable only.
 
-I have covered the two basic and important hooks in this tutorial, there are many more types of hooks available in React, you can find the detailed explanation in the [React docs](https://reactjs.org/docs/hooks-reference.html#usecontext)
+I have covered the two basic and important hooks in this tutorial, there are many more types of hooks available in React, you can find the [detailed explanation](https://reactjs.org/docs/hooks-custom.html) in the React docs.
 
-### Rules of Using a Hook
+### The Rules of Hooks
 
 1. Hooks can only be called at the Top Level, it can't be called **inside the loops or condition or nested functions**.
 2. Hooks can only be called in the **React Function** or **Custom Hooks**, never use hooks in the regular javascript function.
@@ -186,11 +190,3 @@ I have covered the two basic and important hooks in this tutorial, there are man
 So, from multiple points of view, we have covered the power of Hooks and seen how we can use controlled state in our Components without utilizing classes. 
 
 I hope you find this article useful, Happy Reading !!!
-
-
-
-
-
- 
-
-

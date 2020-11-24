@@ -1,37 +1,42 @@
 ---
-title: "Apache Beam for Dummies - An introduction"
+title: "Apache Beam: A Basic Guide"
 date: "2020-10-16"
 coverImage: "main.png"
 author: "Abhilash K R"
 tags: ["Engineering","Big Data","Streaming","Apache Beam","Java"]
-description: "Learn the basics of apache beam by writing your first pipeline."
+description: "Apache Beam simplifies large-scale data processing dynamics. Let’s read more about the features, basic concepts, and the fundamentals of Apache beam."
 ---
 
-Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. The processing of data can be categorized into two different paradigms. One is Batch Processing, and the other is Stream Processing. Different technologies came into existence for different paradigms, solving various big data world problems, for, e.g., Apache Spark, Apache Flink, Apache Storm, etc. As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
+We'll talk about Apache Beam in this guide and discuss its fundamental concepts. We will begin by showing the features and advantages of using Apache Beam, and then we will cover basic concepts and terminologies.
 
+Ever since the concept of big data got introduced to the programming world, a lot of different technologies, frameworks have emerged. The processing of data can be categorized into two different paradigms. One is Batch Processing, and the other is Stream Processing. 
+
+Different technologies came into existence for different paradigms, solving various big data world problems, for, e.g., Apache Spark, Apache Flink, Apache Storm, etc. 
+
+As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
 
 ![Timeline of Big Data Frameworks](timeline-bigdata-frameworks.png)
 
 
 ## What is Apache Beam?
 
-Apache Beam (Batch + strEAM) is an open-source, unified model for defining batch and streaming data-parallel processing pipelines. 
+Apache Beam is an open source, centralised model for describing parallel-processing pipelines for both batch and streaming data. The programming model of the Apache Beam simplifies large-scale data processing dynamics. 
 
-Unified model as in beam exposes single API abstraction layer for both batch and stream processing jobs, unlike other frameworks with different APIs for batch and stream processing.
+The Apache Beam model offers helpful abstractions that insulate you from distributed processing information at low levels, such as managing individual staff, exchanging databases, and other activities. These low-level information are handled entirely by Dataflow. 
 
 ![Beam-Model](beam_architecture.png)
 
-## Unique Features of Apache Beam
+## Features of Apache Beam
 
-The unique features of the beam are as follows:
+The unique features of Apache  beam are as follows:
 
 1. Unified - Use a single programming model for both batch and streaming use cases.
 2. Portable - Execute pipelines in multiple execution environments. Here, execution environments mean different runners. Ex. Spark Runner, Dataflow Runner, etc
 3. Extensible - Write custom SDKs, IO connectors, and transformation libraries.
 
-## Beam SDKs and Runners
+## Apache Beam SDKs and Runners
 
-As of today, the beam has three programming SDKs
+As of today, there are 3 Apache beam programming SDKs
 
 1. Java
 2. Python
@@ -46,7 +51,7 @@ Beam Runners translate the beam pipeline to the API compatible backend processin
 5. Hazelcast Jet
 6. Twister2
 
-Direct Runner to run on the host machine, which is used for testing purpose.
+Direct Runner to run on the host machine, which is used for testing purposes.
 
 ## Basic Concepts in Apache Beam
 
@@ -71,7 +76,7 @@ A pcollection is an abstraction of distributed data. A pcollection can be bounde
 A transform is a data processing operation. A transform is applied on one or more pcollections. Complex transforms have other transform nested within them. Every transform has a generic `apply` method where the logic of the transform sits in.
 
 
-## Example Pipeline
+## Example of Pipeline
 
 Here, let's write a pipeline to output all the jsons where the name starts with a vowel.
 
@@ -86,7 +91,7 @@ Let's take a sample input. Name the file as `input.json`
 {"name": "Ojha"}
 ```
 
-The input should be newline delimited JSON.
+The input should be a newline delimited JSON.
 
 Include the following dependencies in your `pom.xml`
 
@@ -190,4 +195,4 @@ pipeLine.apply("Read My File",
 pipeLine.run().waitUntilFinish();
 ```
 
-For more advanced concepts, refer to the documentation of [Apache Beam](https://beam.apache.org/)
+For more advanced concepts, refer to the official site - beam.apache.org
