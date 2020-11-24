@@ -13,4 +13,9 @@ In this blog I am going to show you how you can set up any open source project l
 #### Prerequisites
 
 - git installed locally on your system.
+  
+### Steps to make contributions in open source
+
+
+## Step 1: Fork the Project First
 
