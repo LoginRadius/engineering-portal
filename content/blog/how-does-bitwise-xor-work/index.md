@@ -1,10 +1,10 @@
 ---
 title: "How does bitwise ^ (XOR) work?"
-date: "2020-11-20"
+date: "2020-11-24"
 coverImage: "xor.png"
 author: Kheenvraj Lomror
 tags: ["bitwise operator", "XOR"]
-description: "Everything know about bitwise ^ xor operator."
+description: "Everything you should know about bitwise ^ xor operator."
 ---
 ## How does bitwise ^ (XOR) work?
 
@@ -39,8 +39,7 @@ but the question arises how? Because if we represent both inputs in the binary f
   0000 0110 => (6) // incorrect output
 ```
 
-> Note: Here, the leftmost bit position is reserved for the sign of the
-> value (positive or negative) and doesn't contribute towards the value of number.
+> Note: Here, the leftmost bit position is reserved for the sign of the value (positive or negative) and doesn't contribute towards the value of the number.
 
 
 
@@ -70,7 +69,7 @@ complement of -2 : 1111 1110
 Result:            0000 0010 	=> 2
 ```
 
-*Here, the MSB bit of result will denote the sign and the rest of the bits will denote the value of the final result.*
+*Here, the MSB bit of result will denote the sign, and the rest of the bits will denote the value of the final result.*
 XOR sign table could be useful to understand the sign of result:
 |       X         |Y|X^Y|
 |----------------|-------------------------------|-----------------------------|
@@ -80,10 +79,10 @@ XOR sign table could be useful to understand the sign of result:
 |-|-|+|
 
 
-Above approach will work with negative inputs but if we have positive and negative then? 
+The above approach will work with negative inputs, but if we have positive and negative, then? 
 ##### How XOR operation works with positive and negative numbers?
 Let's performs `-5 ^ 2`
-Follow the same above approach to get complement code of `-5`.
+Follow the same above approach to get a complement code of `-5`.
 
 ```javascript
 complement of -5 :          1111 1011
