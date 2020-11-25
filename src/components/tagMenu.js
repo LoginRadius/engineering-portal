@@ -27,7 +27,7 @@ const TagMenu = () => {
             <div className={styles.tag}>
               <h3> Most Popular Tags </h3>
               {group.slice(0, 10).map(item => (
-                <Link to={`/blog/tags/${kebabCase(item.tag)}/`}>
+                <Link to={`/tags/${kebabCase(item.tag)}/`}>
                   {item.tag}
                 </Link>
               ))}

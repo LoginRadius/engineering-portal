@@ -59,7 +59,7 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div className={headerStyles.header}>
-        <Link className={logo} to={"/blog"}>
+        <Link className={logo} to={"/"}>
           <img src={logo} alt={`logo`} />
         </Link>
         <div className={headerStyles.menuLinks}>

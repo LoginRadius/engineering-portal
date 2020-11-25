@@ -13,7 +13,7 @@ const Bio = ({ date, author, pinned, readingTime }) => {
         <img className={`circle large`} src={githubUrl} alt={author.id} />
       </div>
       <div className="text ml-sm">
-        <Link to={`/blog/author/${_.kebabCase(author.id)}/`}>
+        <Link to={`/author/${_.kebabCase(author.id)}/`}>
           <strong>{author.id}</strong>
         </Link>
         <div className={styles.date}>{date}</div>
