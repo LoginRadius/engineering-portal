@@ -1,5 +1,5 @@
 ---
-title: "Stream Processing using Kafka Streams"
+title: "Kafka Streams: A stream processing guide"
 date: "2020-07-01"
 coverImage: "header.png"
 author: "Priyadarshan Mohanty"
@@ -7,31 +7,47 @@ tags: ["Scala", "Kafka", "Kafka Streams"]
 description: "Learn about Kafka Streams, key concepts and highlights with simple streaming or a word count application using Kafka Streams in Scala"
 ---
 
-Kafka Streams is a Java library developed to help applications that do stream processing built on Kafka. To learn about Kafka Streams, you need to have a basic idea about Kafka to understand better.  If you’ve worked with Kafka before, Kafka Streams is going to be easy to understand; otherwise, you can look up some basic tutorials online to get going with this article. 
+Kafka Streams is a Java library developed to help applications that do stream processing built on Kafka. To learn about Kafka Streams, you need to have a basic idea about Kafka to understand better.  If you’ve worked with Kafka before, Kafka Streams is going to be easy to understand.
 
-Let us get started with some highlights of Kafka Streams:
+## What are Kafka Streams?
+
+Kafka Streams is a streaming application building library, specifically applications that turn Kafka input topics into Kafka output topics. Kafka Streams enables you to do this in a way that is distributed and fault-tolerant, with succinct code.
+
+## What is Stream processing?
+
+Stream processing is the ongoing, concurrent, and record-by-record real-time processing of data.
+
+**Let us get started with some highlights of Kafka Streams:**
+
 * Low Barrier to Entry:  Quickly write and run a small-scale POC on a single instance. You only need to run multiple instances of the application on various machines to scale up to high-volume production workloads.
 * Lightweight and straightforward client library:  Can be easily embedded in any Java application and integrated with any existing packaging, deployment, and operational tools.
-* No external dependencies on systems other than Apache Kafka itself
+* No external dependencies on systems other than [Apache Kafka](https://en.wikipedia.org/wiki/Apache_Kafka) itself
 * Fault-tolerant local state: Enables fast and efficient stateful operations like windowed joins and aggregations
 * Supports exactly-once processing: Each record will be processed once and only once, even when there is a failure.
 * One-record-at-a-time processing to achieve millisecond processing latency supports event-time-based windowing operations with out-of-order arrival of records.
 
-## Key Concepts:
-**Stream**:  An ordered, replayable, and fault-tolerant sequence of immutable data records, where each data record is defined as a key-value pair.
+## Kafka Streams Concepts:
 
-**Stream Processor**:  A node in the processor topology represents a processing step to transform data in streams by receiving one input record at a time from its source in the topology, applying any operation to it, and may subsequently produce one or more output records to its sinks.
+ - **Stream**:  An ordered, replayable, and fault-tolerant sequence of immutable data records, where each data record is defined as a key-value pair.
+
+ - **Stream Processor**:  A node in the processor topology represents a processing step to transform data in streams by receiving one input record at a time from its source in the topology, applying any operation to it, and may subsequently produce one or more output records to its sinks.
+  
 There are two individual processors in the topology:
-* **Source Processor**: A source processor is a special type of stream processor that does not have any upstream processors. It produces an input stream to its topology from one or multiple Kafka topics by consuming records from these topics and forwarding them to its down-stream processors.
-* **Sink Processor**: A sink processor is a special type of stream processor that does not have down-stream processors. It sends any received records from its up-stream processors to a specified Kafka topic.
+
+ - **Source Processor**: A source processor is a special type of stream processor that does not have any upstream processors. It produces an input stream to its topology from one or multiple Kafka topics by consuming records from these topics and forwarding them to its down-stream processors.
+  
+ - **Sink Processor**: A sink processor is a special type of stream processor that does not have down-stream processors. It sends any received records from its up-stream processors to a specified Kafka topic.
 
 ![Toplogy Example](streams-architecture-topology.jpg)
 
-* **Kstream**: KStream is nothing but that, a Kafka Stream. It’s a never-ending flow of data in a stream. Each piece of data — a record or a fact — is a collection of key-value pairs. Data records in a record stream are always interpreted as an "INSERT".
+ - **Kstream**: KStream is nothing but that, a Kafka Stream. It’s a never-ending flow of data in a stream. Each piece of data — a record or a fact — is a collection of key-value pairs. Data records in a record stream are always interpreted as an "INSERT".
 
-* **KTable**: A KTable is just an abstraction of the stream, where only the latest value is kept. Data records in a record stream are always interpreted as an "UPDATE".
+ - **KTable**: A KTable is just an abstraction of the stream, where only the latest value is kept. Data records in a record stream are always interpreted as an "UPDATE".
 
-There is actually a close relationship between streams and tables, the so-called [stream-table duality](https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/).
+There is actually a close relationship between streams and tables, the so-called stream-table duality
+
+
+## Implementing Kafka Streams
 
 Let's Start with the Setup using Scala instead of Java. The Kafka Streams DSL for Scala library is a wrapper over the existing Java APIs for Kafka Streams DSL.
 
@@ -113,5 +129,4 @@ val wordCounts: KTable[String, Long] = textLines
 	wordCounts.toStream.to(outputTopic)(producedFromSerde(Serdes.String(),Serdes.Long())
 ```
 
-With the above process, we can now implement a simple streaming application or a word count application using Kafka Streams in Scala. 
-Checkout the [documentation](https://kafka.apache.org/documentation/streams/) in their website for more applications!
+With the above process, we can now implement a simple streaming application or a word count application using Kafka Streams in Scala. If you want to set up kafka on Windows, here is a quick guide to implement apache [kafka on windows OS](https://www.loginradius.com/engineering/blog/quick-kafka-installation/). 
