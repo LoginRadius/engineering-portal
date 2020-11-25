@@ -181,7 +181,7 @@ exports.onPostBuild = function () {
 
     fs.renameSync(
       path.join(__dirname, "public-blog"),
-      path.join(__dirname, "public", "engineering")
+      path.join(__dirname, "public", "blog", "async")
     )
   }
 }
