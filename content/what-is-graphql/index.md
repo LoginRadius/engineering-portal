@@ -9,7 +9,7 @@ tags: ["Engineering", "API", "GraphQL", "Performance"]
 
 GraphQL's popularity has skyrocketed since its release in 2015. It is the modern way of developing and querying APIs. GraphQL is an application programming interface (API) query language and server-side runtime that prioritises giving customers precisely the data they request.
 
-GraphQL is designed to make fast, scalable, and [developer-friendly APIs](https://www.loginradius.com/engineering/blog/what-is-an-api/). GraphQL allows developers to build requests that pull data from multiple data sources in a single API call as an alternative to REST.
+GraphQL is designed to make fast, scalable, and [developer-friendly APIs](/what-is-an-api/). GraphQL allows developers to build requests that pull data from multiple data sources in a single API call as an alternative to REST.
 
 ## Foundation of GraphQL
 
@@ -25,7 +25,7 @@ GraphQL **offers much power and flexibility** over Traditional APIs. One of the 
 
 Data fetching is one of the most critical factors responsible for the performance of the application. Most of the time, the data provided by the API isn't required to run the application. This problem is termed as **"Over fetching"**, which can be a more significant issue in mobile devices. Since devices with slower network connection are bound to take more load time, it creates a **negative impact on end-users.**
 
-In the current scenario, traditional [REST APIs](https://www.loginradius.com/engineering/blog/best-practice-guide-for-rest-api-security/) offer no clean way to solve this problem; GraphQL comes to the rescue. It allows **clients to define the structure of the data** required, and the same structure of the data is returned from the server. Therefore preventing fetching loads and loads of data, ultimately increasing performance.
+In the current scenario, traditional [REST APIs](/best-practice-guide-for-rest-api-security/) offer no clean way to solve this problem; GraphQL comes to the rescue. It allows **clients to define the structure of the data** required, and the same structure of the data is returned from the server. Therefore preventing fetching loads and loads of data, ultimately increasing performance.
 
 API endpoints generally fetch specific data, hence to load a certain data-rich application, there have to be **multiple requests to the server.** But, applications should fetch relevant data in one round trip to avoid **degrading performance.** The flexibility and richness of the GraphQL, allows us to define all the data to fetch in a single request, avoiding multiple Round trips
 

@@ -171,7 +171,7 @@ module.exports = {
                   categories: edge.node.frontmatter.tags,
                   enclosure: {
                     url:
-                      site.siteMetadata.feedUrl +
+                      site.siteMetadata.siteUrl +
                       edge.node.frontmatter.coverImage.publicURL,
                     type: "image/jpeg",
                     size: 768,
