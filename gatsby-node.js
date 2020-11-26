@@ -178,6 +178,7 @@ exports.onPostBuild = function () {
     )
 
     fs.mkdirSync(path.join(__dirname, "public"))
+    fs.mkdirSync(path.join(__dirname, "public", "blog"))
 
     fs.renameSync(
       path.join(__dirname, "public-blog"),
