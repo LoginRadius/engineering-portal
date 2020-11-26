@@ -87,7 +87,7 @@ In other words, Redux gives you code organization and debugging superpowers. Thi
 
 These are functions that hook you into React state and features from function components. Hooks don't work inside classes  and it allows you to use React features without writing a class. 
 
-Hooks are backwards-compatible, which means it doesn't keep any breaking changes. [React provides some built-in Hooks](https://www.loginradius.com/engineering/blog/a-journey-through-react-hooks/) like `useState`, `UseEffect` and `useReducer` etc. You can also make custom hooks.
+Hooks are backwards-compatible, which means it doesn't keep any breaking changes. [React provides some built-in Hooks](/react-hooks-guide/) like `useState`, `UseEffect` and `useReducer` etc. You can also make custom hooks.
 
 ### React Hook Rules
 -   Call hook at the top level only means that you need to call inside a loop, nested function, or conditions.

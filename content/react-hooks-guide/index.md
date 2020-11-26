@@ -17,7 +17,7 @@ Chances are there if you are a react developer, Hopefully we can solve this usin
 
 ## What are Hooks?
 
-Hooks are features that allow you to “hook into” the features of [React state](https://www.loginradius.com/engineering/blog/react-state-management/) and lifecycle from function components. Hooks do not function inside classes. Without classes, they let you use React.
+Hooks are features that allow you to “hook into” the features of [React state](/react-state-management/) and lifecycle from function components. Hooks do not function inside classes. Without classes, they let you use React.
 
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 

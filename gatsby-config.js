@@ -154,7 +154,8 @@ module.exports = {
           {
             site {
               siteMetadata {
-                feedUrl
+                feedUrl,
+                siteUrl
               }
             }
           }
