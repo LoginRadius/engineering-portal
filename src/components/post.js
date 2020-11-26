@@ -74,7 +74,7 @@ const Post = ({ post, relatedPost }) => {
             <div className={`${headStyles.tag} ${headStyles.pinned}`}>
               {tags &&
                 tags.map(tag => (
-                  <Link to={`/blog/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
                 ))}
             </div>
             <div className={headStyles.description}>
@@ -120,7 +120,7 @@ const Post = ({ post, relatedPost }) => {
                         </div>
                         <div class={styles.tag}>
                           {node.frontmatter.tags.map(tag => (
-                            <Link to={`/blog/tags/${kebabCase(tag)}/`}>
+                            <Link to={`/tags/${kebabCase(tag)}/`}>
                               {tag}
                             </Link>
                           ))}
@@ -243,7 +243,7 @@ const Post = ({ post, relatedPost }) => {
               <div class={styles.aboutAuthorInner}>
                 <h3>{author.id}</h3>
                 <p>{author.bio}</p>
-                <Link to={`/blog/author/${_.kebabCase(author.id)}/`}>
+                <Link to={`/author/${_.kebabCase(author.id)}/`}>
                   View Profile
                 </Link>
               </div>

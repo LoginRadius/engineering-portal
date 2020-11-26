@@ -101,7 +101,7 @@ At the point where user input is received, filter as strictly as possible based 
 ###### 2. Use appropriate response headers:
 To prevent XSS in HTTP responses that aren't intended to contain any HTML or JavaScript, you can use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend.
 
-If you want to know more details about the security headers. Please go to [Security Headers](https://www.loginradius.com/engineering/blog/http-security-headers/)
+If you want to know more details about the security headers. Please go to [Security Headers](/http-security-headers/)
 
 ###### 3. Use Content Security Policy: 
 As a last line of defense against attackers, you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur.

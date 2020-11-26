@@ -129,4 +129,4 @@ val wordCounts: KTable[String, Long] = textLines
 	wordCounts.toStream.to(outputTopic)(producedFromSerde(Serdes.String(),Serdes.Long())
 ```
 
-With the above process, we can now implement a simple streaming application or a word count application using Kafka Streams in Scala. If you want to set up kafka on Windows, here is a quick guide to implement apache [kafka on windows OS](https://www.loginradius.com/engineering/blog/quick-kafka-installation/). 
+With the above process, we can now implement a simple streaming application or a word count application using Kafka Streams in Scala. If you want to set up kafka on Windows, here is a quick guide to implement apache [kafka on windows OS](/quick-kafka-installation/). 

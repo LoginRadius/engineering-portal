@@ -70,7 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // Make tag pages
   tags.forEach(tag => {
     createPage({
-      path: `/blog/tags/${_.kebabCase(tag.fieldValue)}/`,
+      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
       component: tagTemplate,
       context: {
         tag: tag.fieldValue,
@@ -82,7 +82,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const numPages = Math.ceil((posts.length - 1) / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      path: i === 0 ? `/` : `/${i + 1}`,
       component: path.resolve("./src/templates/blog-list-template.js"),
       context: {
         limit: postsPerPage,
@@ -105,7 +105,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const authorList = Array.from(authorSet)
   authorList.forEach(author => {
     createPage({
-      path: `/blog/author/${_.kebabCase(author)}/`,
+      path: `/author/${_.kebabCase(author)}/`,
       component: authorPage,
       context: {
         authorId: author,
@@ -178,10 +178,11 @@ exports.onPostBuild = function () {
     )
 
     fs.mkdirSync(path.join(__dirname, "public"))
+    fs.mkdirSync(path.join(__dirname, "public", "blog"))
 
     fs.renameSync(
       path.join(__dirname, "public-blog"),
-      path.join(__dirname, "public", "engineering")
+      path.join(__dirname, "public", "blog", "async")
     )
   }
 }

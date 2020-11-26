@@ -21,7 +21,7 @@ Facebook is the most favorite social media provider in comparison to other socia
 
 In this article, I will explain how you can implement **“Log in with Facebook”**  on your website or mobile app in a very easy manner. 
  
-Facebook work on the OAuth 2.0 protocol and most of the social providers like Facebook, Google, Microsoft, Linkedin are supporting OAuth 2.0. Refer to this article [Getting Started with OAuth 2.0](https://www.loginradius.com/engineering/blog/oauth2/) to know about OAuth flow. 
+Facebook work on the OAuth 2.0 protocol and most of the social providers like Facebook, Google, Microsoft, Linkedin are supporting OAuth 2.0. Refer to this article [Getting Started with OAuth 2.0](/oauth2/) to know about OAuth flow. 
 
 ### Create Your Facebook Login App
 Here you can find the complete step by step guide to create your Facebook Login App.

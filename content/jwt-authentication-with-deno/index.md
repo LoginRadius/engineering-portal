@@ -27,7 +27,7 @@ JWT is a good way of securely sending information between parties. Because JWTs 
 
 JWT can contain user information in the payload and also can be used in the session to authenticate the user. 
 
-If you want to know more about JSON Web Token, We have a very good [article](https://www.loginradius.com/engineering/blog/jwt/) about it.
+If you want to know more about JSON Web Token, We have a very good [article](/jwt/) about it.
 
 ### How to generate JWT token in Deno
 

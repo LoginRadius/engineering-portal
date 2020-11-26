@@ -7,7 +7,7 @@ module.exports = {
     description:
       "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
     siteUrl: "https://www.loginradius.com",
-    feedUrl: "https://www.loginradius.com/engineering",
+    feedUrl: "https://www.loginradius.com/blog/async",
     image: "/engineering-blog.svg",
     owner: "LoginRadius",
     menuLinks: [
@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: "Write for Us",
-        slug: "https://www.loginradius.com/engineering/page/guest-blog",
+        slug: "https://www.loginradius.com/blog/async/page/guest-blog",
       },
     ],
     footerLinks: [
@@ -154,7 +154,8 @@ module.exports = {
           {
             site {
               siteMetadata {
-                feedUrl
+                feedUrl,
+                siteUrl
               }
             }
           }
@@ -171,7 +172,7 @@ module.exports = {
                   categories: edge.node.frontmatter.tags,
                   enclosure: {
                     url:
-                      site.siteMetadata.feedUrl +
+                      site.siteMetadata.siteUrl +
                       edge.node.frontmatter.coverImage.publicURL,
                     type: "image/jpeg",
                     size: 768,
@@ -192,7 +193,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000
-                  filter: { fileAbsolutePath: { regex: "//content/blog//" } }
+                  filter: { fileAbsolutePath: { regex: "//content//" } }
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   edges {
@@ -218,8 +219,8 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: "LoginRadius Engineering Blog",
-            feed_url: "https://www.loginradius.com/engineering/rss.xml",
-            site_url: "https://www.loginradius.com/engineering/",
+            feed_url: "https://www.loginradius.com/blog/async/rss.xml",
+            site_url: "https://www.loginradius.com/blog/async/",
             description:
               "Company Updates, Technology Articles from LoginRadius",
             language: "en-us",
@@ -231,5 +232,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: `/engineering`,
+  pathPrefix: `/blog/async`,
 }
