@@ -21,7 +21,7 @@ XOR table:
 				
 									
 Example:  `4^3 = 7`
-``` javascript
+```javascript
 In binary: 
 	     1000
 	   ^ 0011
@@ -32,6 +32,7 @@ In binary:
 Let's understand with an example `-4^-2 = 2`
 In the above example, we can see `-4^-2 `output will be `2`
 but the question arises how? Because if we represent both inputs in the binary form, then we do XOR of bits, then the output will be `0000 0110` and in decimal, it will be `6` but as we know output should be `2`.
+
 ```javascript
   1000 0100 (-4)
 ^ 1000 0010 (-2)
@@ -39,7 +40,8 @@ but the question arises how? Because if we represent both inputs in the binary f
   0000 0110 => (6) // incorrect output
 ```
 
-> Note: Here, the leftmost bit position is reserved for the sign of the value (positive or negative) and doesn't contribute towards the value of the number.
+> Note: Here, the leftmost bit position is reserved for the sign of the
+> value (positive or negative) and doesn't contribute towards the value of the number.
 
 
 
@@ -60,8 +62,9 @@ complement (Increment by 1): 	1111 1100
 In binary: 			1000 0010
 Reverse: 			1111 1101
 complement (Increment by 1): 	1111 1110
-```
+
 Final result:
+
 ```javascript
 complement of -4 : 1111 1100
 complement of -2 : 1111 1110
@@ -71,13 +74,14 @@ Result:            0000 0010 	=> 2
 
 *Here, the MSB bit of result will denote the sign, and the rest of the bits will denote the value of the final result.*
 XOR sign table could be useful to understand the sign of result:
+
 |       X         |Y|X^Y|
 |----------------|-------------------------------|-----------------------------|
 |+|+|+|
 |+|-|-|
 |-|+|-|
 |-|-|+|
-
+				
 
 The above approach will work with negative inputs, but if we have positive and negative, then? 
 ##### How XOR operation works with positive and negative numbers?
