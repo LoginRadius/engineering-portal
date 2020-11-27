@@ -1,7 +1,7 @@
 ---
 title: "Building a Node Server using Node Http"
 date: "2020-11-27"
-coverImage: "index.png"
+coverImage: "coverImage.jpg"
 author: "Hridayesh Sharma"
 tags: ["NodeJS", "JavaScript"]
 description: "Let us understand the core http module in NodeJS, which is the basic building block of frameworks like ExpressJS etc."
@@ -161,7 +161,7 @@ Update the `serverHandler` function with the following code snippet in your `ser
 - We have also added an else statement to handle all other requests where we simply return a message to the browser that the request is not supported.
   
 
-With that, we have created a simple node server to serve static content as well a simple api to return JSON data. 
+With that, we have created a simple node server to serve static content as well a simple API to return JSON data. 
 
 
 ### Conclusion
