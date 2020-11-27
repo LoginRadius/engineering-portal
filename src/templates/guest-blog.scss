@@ -37,3 +37,19 @@
 ul {
   margin-left: 16px;
 }
+
+@media (max-width: 675px) {
+  .guest-blog {
+    .hero-section {
+      & > div {
+        flex-direction: column;
+        & > div {
+          width: 90%;
+          &:first-child {
+            padding-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
