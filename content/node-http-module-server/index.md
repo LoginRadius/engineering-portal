@@ -1,5 +1,5 @@
 ---
-title: "Building a Node Server using Node Http"
+title: "NodeJS Server using Core HTTP Module"
 date: "2020-11-27"
 coverImage: "coverImage.jpg"
 author: "Hridayesh Sharma"
