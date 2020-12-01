@@ -3,7 +3,7 @@ title: "Hello world with Deno"
 date: "2020-06-02"
 coverImage: "deno.png"
 author: "Ashish Sharma"
-tags: ["Deno", "HelloWorld","NodeJS"]
+tags: ["Deno", "HelloWorld","NodeJs"]
 ---
 
 ### Hello, Deno

@@ -3,7 +3,7 @@ title: "Password Hashing in NodeJS using Bcrypt"
 date: "2020-11-11"
 coverImage: "index.jpg"
 author: "Hridayesh Sharma"
-tags: ["NodeJS", "JavaScript", "Hashing"]
+tags: ["NodeJs", "JavaScript", "Hashing"]
 description: "Storing plain text passwords is one of the worst habits of our time. Don't store plain text passwords, instead use passwords hashing."
 ---
 
@@ -22,7 +22,7 @@ Before moving on, I am assuming you have some idea about the following:
   
 Make sure you have the following installed on your system to move forward with the blog
   - [NodeJS](https://nodejs.org/en/) and npm
-  - [MongoDB](mongodb.com)
+  - [MongoDB](https://mongodb.com)
 
 
 ### Let's implement passwords hashing in our node application!

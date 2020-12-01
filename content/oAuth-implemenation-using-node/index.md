@@ -3,7 +3,7 @@ title: "OAuth implementation with Node.js and Github"
 date: "2020-03-22"
 coverImage: "oauth.png"
 author: "Puneet Singh"
-tags: ["oAuth", "NodeJS"]
+tags: ["oAuth", "NodeJs"]
 ---
 
 In this blog, we’ll be implementing OAuth by Github in a Node.js Application

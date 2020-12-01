@@ -3,7 +3,7 @@ title: "Node Package Manager (NPM)"
 date: "2017-08-04"
 coverImage: "the-guide-to-NPM.png"
 author: "Eric Chan"
-tags: ["NodeJS", "NPM"]
+tags: ["NodeJs", "NPM"]
 ---
 
 ##### ![the guide to NPM](./the-guide-to-NPM.png)What is This, and Why Should I Care?

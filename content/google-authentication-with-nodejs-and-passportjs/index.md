@@ -3,7 +3,7 @@ title: Google OAuth2 Authentication in NodeJS
 date: "2020-02-12"
 coverImage: "google_cover.jpg"
 author: "Puneet Singh"
-tags: ["NodeJS","SocialLogin","OAuth"]
+tags: ["NodeJs","SocialLogin","OAuth"]
 description: "Learn how to implement Google OAuth2 Authentication in NodeJS using Passport"
 ---
 

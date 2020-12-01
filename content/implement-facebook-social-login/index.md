@@ -95,4 +95,4 @@ Log In and look at the console output. You’ll now see some basic info includin
 
 That is all there is to it. Of course, there are many more scopes you can use which allow you to collect more data currently this script has a scope of public\_profile and email, features and API calls you can play with to create your desired app just explore the Facebook documentation to discover all these features.
 
-Want to extend your social systems with additional provider functionality check out these posts on [LinkedIn social login](/blog/integrate-linkedin-social-login-website/ "Integrating LinkedIn Social Login on a Website") and [Twitter social login](/blog/integrating-twitter-social-login/ "Integrating Twitter Social Login").
+Want to extend your social systems with additional provider functionality check out these posts on [LinkedIn social login](/integrate-linkedin-social-login-website/ "Integrating LinkedIn Social Login on a Website") and [Twitter social login](/integrating-twitter-social-login/ "Integrating Twitter Social Login").

@@ -7,7 +7,7 @@ tags: ["Slide","CSS","Swirl","PopUp"]
 description: "Learn how to animate the modal popup using CSS keyframe"
 ---
 
-By now you’ve probably seen the cool and simple way(not to mention, without using jQuery) of creating a  popup by Zoie Carnegie. If not, you can click this [link](/blog/simple-popup-tutorial/) to go and follow that tutorial. Cool?
+By now you’ve probably seen the cool and simple way(not to mention, without using jQuery) of creating a  popup by Zoie Carnegie. If not, you can click this [link](/simple-popup-tutorial/) to go and follow that tutorial. Cool?
 
 Once you’re done creating your css popup. We’re now going to animate it with CSS3. Why? because we’re tired of seeing things that just pop onto users screen and you don’t know where it came from. Also, to make it fun for your users. Let's get started.
 

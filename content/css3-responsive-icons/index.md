@@ -75,7 +75,7 @@ The positioning of 0 0 will map it to the top left of the element.
 
 ![here-icon](here-icon.png)
 
-For the background-color, you can get almost all of the official social icon colors in hex [here](/blog/social-media-colors-hex/).
+For the background-color, you can get almost all of the official social icon colors in hex [here](/social-media-colors-hex/).
 
 How about the rest? Well, there’s a simple formula for that.
 

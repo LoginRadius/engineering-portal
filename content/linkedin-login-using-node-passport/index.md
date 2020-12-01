@@ -3,7 +3,7 @@ title: "LinkedIn Login using Node JS and passport"
 date: "2020-06-10"
 coverImage: "linkedin_login_node.png"
 author: "Aman Agrawal"
-tags: ["LinkedIn", "Login", "NodeJS", "PassportJS"]
+tags: ["LinkedIn", "Login", "NodeJs", "PassportJS"]
 description: "Learn social login benefits and how we can implement LinkedIn Login on our website or mobile app."
 ---
 

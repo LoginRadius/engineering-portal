@@ -31,7 +31,7 @@ Example of og meta tags that can be included in your html head tag:
 ```
 
   
-If you are modifying these tags it can take some time for the changes to translate over to Facebook. You can refer to [this blog](/blog/social-provider-social-sharing-troubleshooting-resources/) on troubleshooting, testing, and force updating your configured sharing systems.
+If you are modifying these tags it can take some time for the changes to translate over to Facebook. You can refer to [this blog](/social-provider-social-sharing-troubleshooting-resources/) on troubleshooting, testing, and force updating your configured sharing systems.
 
 **Google**
 
@@ -78,4 +78,4 @@ The best way to customize your Twitter shares is to modify the URL query string 
 ```
 
   
-Various providers will utilize some of the above methods with open graph tags being one of the most common methods for controlling the shared content. Other systems will customize this content based off of parameters that are passed into the script or URL that is used to trigger the share interface. Getting these to be correctly configured can be a bit of a trial and error process, you can use the resources detailed in [this blog post](/blog/social-provider-social-sharing-troubleshooting-resources/) to help test and verify that you have correctly configured your social sharing content.
+Various providers will utilize some of the above methods with open graph tags being one of the most common methods for controlling the shared content. Other systems will customize this content based off of parameters that are passed into the script or URL that is used to trigger the share interface. Getting these to be correctly configured can be a bit of a trial and error process, you can use the resources detailed in [this blog post](/social-provider-social-sharing-troubleshooting-resources/) to help test and verify that you have correctly configured your social sharing content.

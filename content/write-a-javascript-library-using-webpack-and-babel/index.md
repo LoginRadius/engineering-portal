@@ -3,7 +3,7 @@ title: "Let's Write a JavaScript Library in ES6 using Webpack and Babel"
 date: "2020-08-18"
 coverImage: "cover.png"
 author: "Hridayesh Sharma"
-tags: ["JavaScript", "Webpack", "NodeJS"]
+tags: ["JavaScript", "Webpack", "NodeJs"]
 description: "Writing your own webpack configuration for a JavaScript library in ES6 and learn webpack along the way."
 ---
 

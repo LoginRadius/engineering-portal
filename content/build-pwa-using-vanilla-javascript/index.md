@@ -330,7 +330,7 @@ Now our application is made as fully PWA supported, you can verify it by running
 
 #### Finishing Up
 
-We are done with the code, now the last thing remaining in to host it in any of the `https` domain. As the PWA will be required to run in [the secure domain](https://www.loginradius.com/engineering/blog/everything-you-want-to-know-about-authorization-headers/).
+We are done with the code, now the last thing remaining in to host it in any of the `https` domain. As the PWA will be required to run in [the secure domain](/everything-you-want-to-know-about-authorization-headers/).
 
 You can get the full source code of this example in this [Github repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/ProgressiveWebApp/MyFirstPWA)
 

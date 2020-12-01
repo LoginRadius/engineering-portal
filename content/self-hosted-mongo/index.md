@@ -21,7 +21,7 @@ $0.23/hour based on the above-selected requirements (~ [cloud.mongodb.com](https
 <br><br>**AWS (~$36/month)**
 !["AWS Pricing"](aws.png "AWS Pricing")
 
-$0.0416/hour for the instance and additional pricing based on the EBS type and storage (~ [calculator.aws](calculator.aws))
+$0.0416/hour for the instance and additional pricing based on the EBS type and storage (~ [calculator.aws](https://calculator.aws/))
 
 > It is almost 4.5x savings just in terms of the infrastructure!
 

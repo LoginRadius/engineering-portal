@@ -10,7 +10,7 @@ It is important nowadays to allow your user to sign into your website with their
 
 **Create a LinkedIn App**
 
-Creating an app for the social platform is always the first step no matter which platform you are working with in this case the created app will service the LinkedIn social login. Basically you are creating a gate to let your user go through this gate and access the service, and in this gate you can specify the permissions and the preferences you want to grant to your user. You can refer to the instructions [here](https://docs.loginradius.com/development/social-network/linkedin-app-review) for clear instructions on how to create a LinkedIn social login app.
+Creating an app for the social platform is always the first step no matter which platform you are working with in this case the created app will service the LinkedIn social login. Basically you are creating a gate to let your user go through this gate and access the service, and in this gate you can specify the permissions and the preferences you want to grant to your user. You can refer to the instructions [here](https://www.loginradius.com/docs/api/v2/admin-console/social-provider/app-reviews/linkedin-app-review/) for clear instructions on how to create a LinkedIn social login app.
 
 **Set your App**
 
@@ -44,4 +44,4 @@ If everything has been done correctly, load your page and you will see this love
 
 ![luciusblog2-3](luciusblog2-3.png)
 
-Want to extend your social systems with additional provider functionality check out this post on [Twitter social login](/blog/integrating-twitter-social-login/ "Integrating Twitter Social Login").
+Want to extend your social systems with additional provider functionality check out this post on [Twitter social login](/integrating-twitter-social-login/ "Integrating Twitter Social Login").

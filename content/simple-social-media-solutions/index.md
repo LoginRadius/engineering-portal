@@ -13,9 +13,9 @@ Integrating social into your site can drastically improve user engagement with y
 Social Login, also known as Social Sign On, Allows you to bypass traditional registration forms and utilize the systems in place by social providers in order to retrieve a copy of the users data and a unique identifier for the user that can be used to identify that user in your system.
 
 The following guides go over setting up Social Login with a few common Social Providers:  
-Facebook: [How to Implement Facebook Social Login](/blog/implement-facebook-social-login/)  
-Twitter: [Integrating Twitter Social Login](/blog/integrating-twitter-social-login/)  
-LinkedIn: [Integrating LinkedIn Social Login on a Website](/blog/integrate-linkedin-social-login-website/)
+Facebook: [How to Implement Facebook Social Login](/implement-facebook-social-login/)  
+Twitter: [Integrating Twitter Social Login](/integrating-twitter-social-login/)  
+LinkedIn: [Integrating LinkedIn Social Login on a Website](/integrate-linkedin-social-login-website/)
 
 ## Social Sharing
 

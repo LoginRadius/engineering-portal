@@ -61,7 +61,7 @@ Check out the hand-picked collection of latest mobile design patterns from apps 
 
 Over 500+ interactions from the world's best designed and highest-grossing apps.
 
-[www.uisources.com](www.uisources.com)
+[www.uisources.com](https://www.uisources.com)
 
 ### 6. **Bestfolios - UI/UX Design Portfolio Inspiration and Showcase**
 
@@ -479,7 +479,7 @@ made with ♥ All trademarks, service marks, trade names, product names, logos, 
 
 This toolkit is an introduction to the methodology of service design
 
-[www.servicedesigntoolkit.orgs](www.servicedesigntoolkit.orgs)
+[www.servicedesigntoolkit.orgs](https://www.servicedesigntoolkit.orgs)
 
 ## Collaboration Tools
 ### 1. **Zeplin (Collaboration & Handoff tool)**

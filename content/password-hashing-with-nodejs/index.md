@@ -3,7 +3,7 @@ title: "Password hashing with NodeJS"
 date: "2020-06-25"
 coverImage: "cover.png"
 author: "Ashish Sharma"
-tags: ["Security", "NodeJS"]
+tags: ["Security", "NodeJs"]
 ---
 
 In this blog, we’ll be implementing authentication with password hashing in a Node.js web application. For this, we’ll be using **crypto**, a package password hashing for Node.js.
