@@ -27,7 +27,7 @@ Some of those packages are:
 3. **ColorHighlighter**If you're the kind of person who remembers the hex code for colors, you are one talented individual. Ya see, it's hard to visualize colors using hex code. ColorHighlighter puts a background on those colors for you to easily visualize what kind of color #00427c is (regal blue, btw).
 4. **SFTP**This one is a cool package. It lets you edit, sync, and save on-upload files from any of your sftp or ftp servers. But only if you configure it properly. If you use any preprocessors and you're worried that you have to upload the processed file manually. Worry no more as you can make sftp monitor that file if it has changed and automatically upload it. Pretty neat, huh?
 
-_And since we're talking about sublime and packages, [check out this nifty blog about sublime text and their packages.](/blog/beginners-guide-for-sublime-text/)_
+_And since we're talking about sublime and packages, [check out this nifty blog about sublime text and their packages.](/beginners-guide-for-sublime-text/)_
 
 #### Codekit
 

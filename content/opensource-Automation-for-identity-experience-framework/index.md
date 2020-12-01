@@ -22,7 +22,7 @@ The Standard Authentication Functionality which is available with LoginRadius Id
 
 ### What is the technology/framework used to build this automation suite?
 -   The script is written in [Nightwatch](https://nightwatchjs.org/) framework.
--   [NodeJS](/loginradius/qa/open-source-automation/ief-open-automation/-/blob/master/nodejs.org) Core Assertion Testing Library is used for assertions.
+-   [NodeJS](https://nodejs.org/en/) Core Assertion Testing Library is used for assertions.
 
 
 ### Test cases covered:

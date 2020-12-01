@@ -3,7 +3,7 @@ title: Facebook authentication using NodeJS and PassportJS
 date: "2020-06-01"
 coverImage: "facebook_node_passport.png"
 author: "Aman Agrawal"
-tags: ["Facebook","NodeJS","Authentication", "PassportJS"]
+tags: ["Facebook","NodeJs","Authentication", "PassportJS"]
 ---
 
 

@@ -15,7 +15,7 @@ A common featured for navigation menus is the drop down functionality for displa
 First we start out building a simple un-ordered list, and give it some list items each of which contain a link that point nowhere in particular.  
 ![dropdownscreen1](dropdownScreen1.png)
 
-By the way, if you're on Sublime Text there's a great shortcut for making lists: ul>li+li+li+li and then "Tab" creates an un-ordered list with 4 list item tags inside of it. For more excellent Sublime tips check out my amigo Lucius' [blog post](/blog/beginners-guide-for-sublime-text/) on the topic.
+By the way, if you're on Sublime Text there's a great shortcut for making lists: ul>li+li+li+li and then "Tab" creates an un-ordered list with 4 list item tags inside of it. For more excellent Sublime tips check out my amigo Lucius' [blog post](/beginners-guide-for-sublime-text/) on the topic.
 
 Now that we've got the bare bones, let's give this skeleton a spine. We're now going to put another ul inside of those list items, and once again more list items inside of those lists which contain, you guessed it, links to nowhere.  
 ![dropdownscreen2](dropdownScreen2.png)

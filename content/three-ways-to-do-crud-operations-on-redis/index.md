@@ -3,7 +3,7 @@ title: "Three Ways to do CRUD Operations On Redis"
 date: "2020-10-21"
 coverImage: "index.png"
 author: "Chris Yee"
-tags: ["Redis", "NodeJS", "CLI", "GUI"]
+tags: ["Redis", "NodeJs", "CLI", "GUI"]
 description: "Start working with Redis in three different ways."
 ---
 

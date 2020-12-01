@@ -3,7 +3,7 @@ title : "Breaking down the 'this' keyword in Javascript"
 date: "2020-10-06"
 coverImage: "this-image.png"
 author: "Efereyan Karen"
-tags: ["Javascript", "JSConcepts"]
+tags: ["JavaScript", "JSConcepts"]
 description: "As one of the most popular programming languages currently being used all around the world, understanding the core of Javascript is essential. The 'this' keyword is one of the most difficult concepts to grasp. This blog post aims to break down the 'this' keyword into small and understandable bits."
 ---
 

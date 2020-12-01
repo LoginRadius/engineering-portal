@@ -10,7 +10,7 @@ LinkedIn has recently revamped their API systems and added many new restrictions
 
 ## Getting Your Site Ready
 
-The first step will be setting up your login button which will prompt the user to authenticate with their LinkedIn credentials. We have provided a guide to getting a basic login button setup [here](/blog/integrate-linkedin-social-login-website/). The linked guide will get you as far as setting up a button that allows your users to login with LinkedIn and display a personalized welcome message. Below we will go over extending this functionality to allow you to handle more complex features for your users after logging in.
+The first step will be setting up your login button which will prompt the user to authenticate with their LinkedIn credentials. We have provided a guide to getting a basic login button setup [here](/integrate-linkedin-social-login-website/). The linked guide will get you as far as setting up a button that allows your users to login with LinkedIn and display a personalized welcome message. Below we will go over extending this functionality to allow you to handle more complex features for your users after logging in.
 
 ## Event Handling
 

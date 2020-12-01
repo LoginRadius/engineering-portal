@@ -8,7 +8,7 @@ tags: ["Deno"]
 
 Hello, let's create a simple web app using deno, In this blog, I will be using the [Deno Third-Party Module](https://deno.land/x/) called **[abc](https://deno.land/x/abc)** for creating a simple web application.
 
-I am assuming that you are familiar with the basic setup of deno. If not you can start with basic deno installation from [here](/blog/hello-world-deno/)
+I am assuming that you are familiar with the basic setup of deno. If not you can start with basic deno installation from [here](/hello-world-deno/)
 
 ### Simple Web Application
 

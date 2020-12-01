@@ -11,7 +11,7 @@ Deno, the creation of Ryan Dahl is a simple, modern, and secure runtime for Java
 
 When it comes to learning a new language, the first thing that comes to our mind is the creation of a todo app, supporting CRUD functionality. So here we will be creating a very simple Todo application using the Deno. 
 
-So before starting I assume you have installed Deno on your system, if not then you can find the link [here](/blog/hello-world-deno/). 
+So before starting I assume you have installed Deno on your system, if not then you can find the link [here](/hello-world-deno/). 
 For the database, we will be using the `JSON` file as of now to completely focus on creating web API using Deno. Not more words and now let's start.
 
 The file structure we are going to follow is as below

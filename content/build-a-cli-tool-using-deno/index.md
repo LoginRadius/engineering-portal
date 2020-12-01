@@ -22,7 +22,7 @@ Scripts can be bundled into a single JavaScript file.
 
 In this article, we're going to build a simple cli tool to demonstrate some of the features of [deno](https://deno.land/). Our cli will be interacting with a **COVID** API to fetch live data.
 
-> Requirement: make sure you have deno installed. If you don't, refer to this [link](/blog/hello-world-deno/). It's pretty straightforward.
+> Requirement: make sure you have deno installed. If you don't, refer to this [link](/hello-world-deno/). It's pretty straightforward.
 
 Deno has the entry file `mod.ts` so we will follow the same in this article if you are following this article along with the coding you can create a folder named `covid-cli`, inside that folder you can create a file called `mod.ts` and copy the below code there.
 
@@ -44,7 +44,7 @@ After running the above code you will see the **output** as
 
 I will be using the [this](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest) postman doc for all the COVID related API and we will perform the below to action through our CLI.
 1. A summary of new and total cases globally updated daily.
-1. A summary of new and total cases per country updated daily.
+2. A summary of new and total cases per country updated daily.
 
 Let's write out the function for our first command, so our `mod.ts` file will look like this.
 ```ts
@@ -135,7 +135,7 @@ To test our program, we're going to run $ deno run `--allow-net mod.ts -g`. We s
 
 That's all there is for our cli tool. If you'd like to see the full code, the repository is linked [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/covid-cli). In conclusion, Deno is a very exciting project especially because you get all the benefits of typescript out of the box without the need to compile your files to js. 
 
-You can build a lot with it, ranging from cli Programs to HTTP servers. Do have a look at one of my [blog](blog/a-webapp-in-deno/) where I have built a basic calculator app using the [abc](https://deno.land/x/abc) module.
+You can build a lot with it, ranging from cli Programs to HTTP servers. Do have a look at one of my [blog](/a-webapp-in-deno/) where I have built a basic calculator app using the [abc](https://deno.land/x/abc) module.
 
 
 

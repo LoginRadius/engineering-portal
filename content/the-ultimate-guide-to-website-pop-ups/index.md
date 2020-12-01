@@ -75,7 +75,7 @@ cursor: pointer;
 &amp;amp;lt;/style&amp;amp;gt;
 ```
 
-Moreover, you can also check out this tutorial of [creating a basic popup](/blog/simple-popup-tutorial/) if you want to learn the basic understanding.
+Moreover, you can also check out this tutorial of [creating a basic popup](/simple-popup-tutorial/) if you want to learn the basic understanding.
 
 #### **C. Add Script \[for action on close button\]**
 
@@ -178,4 +178,4 @@ document.getElementsByClassName('popup-layout')\[0\].style.display = "block";
 &amp;amp;lt;/script&amp;amp;gt;
 ```
 
-So guys, I hope this guide helped you through various types of popups. If you love animating your pop-up, you might want to check out this tutorial of [creating an animated CSS pop-up](/blog/animating-simple-css-popup-tutorial/). Do try them and let us know your experiences.
+So guys, I hope this guide helped you through various types of popups. If you love animating your pop-up, you might want to check out this tutorial of [creating an animated CSS pop-up](/animating-simple-css-popup-tutorial/). Do try them and let us know your experiences.

@@ -63,4 +63,4 @@ Define the definitions as you did in step 2.
 
 At this point your user is logged in and you can make calls to [Twitter social login APIs](https://dev.twitter.com/rest/public) and you have successfully set login using Twitter on your page.
 
-Want to extend your social systems with additional provider functionality check out this post on [LinkedIn social login](/blog/integrate-linkedin-social-login-website/ "Integrating LinkedIn Social Login on a Website").
+Want to extend your social systems with additional provider functionality check out this post on [LinkedIn social login](/integrate-linkedin-social-login-website/ "Integrating LinkedIn Social Login on a Website").

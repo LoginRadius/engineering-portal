@@ -3,7 +3,7 @@ title: "Creating a Google Hangout Bot with Express and Node.js"
 date: "2018-06-06"
 coverImage: "hangoutchatimgage2.jpg"
 author: "Andy Yeung"
-tags: ["Express", "NodeJS", "Hangout"]
+tags: ["Express", "NodeJs", "Hangout"]
 ---
 
 Time Required: 20 minutes.  

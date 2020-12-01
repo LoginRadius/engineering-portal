@@ -13,7 +13,7 @@ In this blog, we will see how we can read and write into a local file with the h
  
 ## Before You Get Started
 
-This tutorial assumes you have basic knowledge about Deno and you have latest Deno version installed on your system, if you haven't installed Deno on your system or never ran Deno code please look at this great introductory blog - [Hello world with Deno](/blog/hello-world-deno/) 
+This tutorial assumes you have basic knowledge about Deno and you have latest Deno version installed on your system, if you haven't installed Deno on your system or never ran Deno code please look at this great introductory blog - [Hello world with Deno](/hello-world-deno/) 
 
 ### Part 1: Read a file and print text out of it
 

@@ -7,7 +7,7 @@ tags: ["React", "Redux", "State Management", "React Hooks"]
 description: "Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease. Let's see how to use it."
 ---
 
-React context API, In this article you will explore what is Context API and how to use it in your React project. The Context API is a [React structure that enables](React structure that enables) you to exchange unique details and assists in solving prop-drilling from all levels of your application.
+React context API, In this article you will explore what is Context API and how to use it in your React project. The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.
 
 ## What is Context API?
 

@@ -4,7 +4,7 @@ date: "2020-10-14"
 coverImage: "cover.jpg"
 author: "Vineeta Jain"
 description: "Learn how to create a twitter bot using NodeJS that let us tweet using the command line directly"
-tags: ["Nodejs", "Twitter", "Bot"]
+tags: ["NodeJs", "Twitter", "Bot"]
 ---
 
 ## Build a Twitter Bot with NodeJs
