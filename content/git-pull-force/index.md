@@ -10,7 +10,7 @@ description: "How to Overwrite Local Changes With Git"
 # Git Pull Force
 ## How to Overwrite Local Changes With Git
 
-It is fine  when you and the rest of your team are working on different files. but sometime when you and your teammates simultaneously working on same files. And that's where the problems arise.
+It is fine when you and the rest of your team are working on different files. but sometimes when you and your teammates simultaneously working on same files. And that's where the problems arise.
 
 Just a Note: `git pull = git fetch + git merge`
 
@@ -33,7 +33,7 @@ In this scenario when you have local changes in your system and pulling the late
 
 `git fetch` (fetch the local machine folder)
 `git stash` (stash the local changes clean the workspace)
-`git merge '@{u}'` (merge the changes from loca folder to workspace folder)
+`git merge '@{u}'` (merge the changes from local folder to workspace folder)
 `git stash pop` (apply the latest stash )
 
 By default, the stash changes will become staged. If you want to unstage them, use `git restore --staged` (git ver > 2.25.0).
@@ -47,7 +47,7 @@ By default, the stash changes will become staged. If you want to unstage them, u
 
 `git fetch` (fetch the local machine folder)
 `git reset --hard HEAD` (reset to the head means remove all local changes)
-`git merge '@{u}'`  (merge the changes from loca folder to workspace folder)
+`git merge '@{u}'`  (merge the changes from local folder to workspace folder)
 
 
 ### git pull --force 
