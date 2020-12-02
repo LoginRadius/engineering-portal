@@ -1,5 +1,5 @@
 ---
-title: "What is Kubernetes? - A Basic Guide - LoginRadius Engineering"
+title: "What is Kubernetes? - A Basic Guide"
 date: "2020-10-26"
 coverImage: "image3.png"
 author: Prabhat Kumar
