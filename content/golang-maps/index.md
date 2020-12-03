@@ -1,19 +1,25 @@
 ---
-title: "Working with Golang Maps"
+title: "Golang Maps - A Beginner’s Guide"
 date: "2020-09-25"
 coverImage: "index.png"
 author: "Chris Yee"
 tags: ["Go", "dictionaries", "maps"]
-description: "Explore and learn about the usage of maps in Go."
+description: "A map is a builtin sort used for storing key-value pairs. Find out more in this article on how Golang maps work and why to use them."
 ---
 
-## Introduction
+Golang Maps is a compilation of unordered key-value pairs. It is commonly used because it offers simple searches and values with the aid of keys that can be retrieved, modified or deleted. It is a reference to a table with a hash.
 
-Maps (also called dictionaries) are a very useful tool in helping to store and organize objects to be accessed in an efficient method. Most basic implementations of a map involve using a key to access a value in the map, resulting in key-value pairs, in which one key is associated with a specific value in the map. Within Go, maps follow this definition. This blog will cover the basic use cases of maps in Go, and how a newcomer to the language may utilize them for their applications.
+This blog will cover the basic use of maps in Go, and how a newcomer to the language may utilize them for their applications.
+
+## What is a Map?
+
+Maps (also called dictionaries) are a very useful tool in helping to store and organize objects to be accessed in an efficient method. 
+
+Most basic implementations of a map involve using a key to access a value in the map, resulting in key-value pairs, in which one key is associated with a specific value in the map. Within Golang, maps follow this definition.
 
 ![Dictionary](dictionary.jpg)
 
-## Initialization
+## How to create a map?
 
 Initialization of a map can be done using the `make` command. This is similar to the initialization of a slice:
 
@@ -21,7 +27,11 @@ Initialization of a map can be done using the `make` command. This is similar to
 mapObject := make(map[string]string)
 ```
 
-In this case, `mapObject` is a map that uses strings as a key to map to another string. When creating a map, the key type must be a type that is `Comparable`, or more specifically types that can be compared using the `==` operator. Examples of valid key types include booleans, numbers, strings and several other primitives can be used as keys. For reference on types, check out this link. One extra thing to note is that structs can be used as a key, provided that all the properties of the struct are `Comparable`.
+In this case, `mapObject` is a map that uses strings as a key to map to another string. When creating a map, the key type must be a type that is `Comparable`, or more specifically types that can be compared using the `==` operator.
+
+Examples of valid key types include booleans, numbers, strings and several other primitives can be used as keys. 
+
+One more thing to note is that structs can be used as a key, provided that all the properties of the struct are `Comparable`.
 
 Maps can also be created using a map literal. For an empty map:
 
@@ -39,7 +49,7 @@ mapObject := map[string]string{
 }
 ```
 
-## Use Cases
+## How to use Go Maps (with Examples)
 
 ### Setting
 
@@ -100,8 +110,14 @@ There is no specific order in which the map is iterated. If a specific order is 
 
 ### Concurrency
 
-Although Go has a lot of support for concurrency through the use of goroutines and channels, maps alone are not a reliable approach to handling data in a concurrent setting. To work with maps that support concurrency, a separate synchronization method should be used, like `sync.RWMutex`. Alternatively, an open source map package which implements the synchronizations can be used.
+Although Go has a lot of support for concurrency through the use of goroutines and channels, maps alone are not a reliable approach to handling data in a concurrent setting. 
 
-### Conclusion
+To work with maps that support concurrency, a separate synchronization method should be used, like `sync.RWMutex`. Alternatively, an open source map package which implements the synchronizations can be used.
 
-With the market space and number of applications being created by Go increasing, hopefully this blog will help touch onto the basics of one of the major structures in Go. Although, it doesn’t support concurrency, maps in Go are still a useful tool in most applications developed in Go, to reliably access and manage data.
+## Conclusion
+
+With the market space and number of applications being created by Go increasing, hopefully this blog will help touch onto the basics of one of the major structures in Go.
+
+Although it doesn’t support concurrency, maps in Go are still a useful tool in most applications developed in Go, to reliably access and manage data.
+
+If you want to learn more about golang here is a quick guide on, [how to send email with golang](https://www.loginradius.com/blog/async/sending-emails-with-golang/). If you like what you read leave a comment or any question and will communicate further. 
