@@ -114,7 +114,7 @@ Although Go has a lot of support for concurrency through the use of goroutines a
 
 To work with maps that support concurrency, a separate synchronization method should be used, like `sync.RWMutex`. Alternatively, an open source map package which implements the synchronizations can be used.
 
-### Conclusion
+## Conclusion
 
 With the market space and number of applications being created by Go increasing, hopefully this blog will help touch onto the basics of one of the major structures in Go.
 
