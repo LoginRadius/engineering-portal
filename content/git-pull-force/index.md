@@ -1,7 +1,7 @@
 ---
 title: "How to Perform a Git Force Pull"
 date: "2020-12-03"
-coverImage: "pull.png"
+coverImage: "pull.jpg"
 author: "Abhimanyu Singh Rathore"
 tags: ["git"]
 description: "How to Overwrite Local Changes With Git Force Pull"
