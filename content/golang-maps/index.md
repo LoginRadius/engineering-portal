@@ -15,7 +15,7 @@ This blog will cover the basic use of maps in Go, and how a newcomer to the lang
 
 Maps (also called dictionaries) are a very useful tool in helping to store and organize objects to be accessed in an efficient method. 
 
-[Most basic implementations](https://www.loginradius.com/blog/async/environment-variables-in-golang/) of a map involve using a key to access a value in the map, resulting in key-value pairs, in which one key is associated with a specific value in the map. Within Golang, maps follow this definition.
+Most basic implementations of a map involve using a key to access a value in the map, resulting in key-value pairs, in which one key is associated with a specific value in the map. Within Golang, maps follow this definition.
 
 ![Dictionary](dictionary.jpg)
 
