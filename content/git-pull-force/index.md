@@ -1,13 +1,13 @@
 ---
-title: "Git Pull Force"
+title: "How to Perform a Git Force Pull"
 date: "2020-12-03"
 coverImage: "pull.png"
 author: "Abhimanyu Singh Rathore"
-tags: ["Git"]
-description: "How to Overwrite Local Changes With Git"
+tags: ["git"]
+description: "How to Overwrite Local Changes With Git Force Pull"
 ---
 
-It is fine when you and the rest of your team are working on different files. But sometimes, when you and your teammates simultaneously working on the same files. And that's where the problems arise.
+It is fine when you and the rest of your team are working on different files. But sometimes, multiple people simultaneously work on the same files, and that's where the problems arise.
 
 Just a Note: `git pull = git fetch + git merge`
 
@@ -18,7 +18,7 @@ In this scenario, when you have local changes in your system and you pull the la
 `Aborting...`
 
 
-## Now you have major 2 choices
+## Now you have 2 major choices
 
 ### Choice 1: you want to keep local changes
 
@@ -51,6 +51,6 @@ By default, the stash changes will become staged. If you want to unstage them, u
 
 Now you must be thinking, what is `git pull --force` then?
 
-it feels like it would help to overwrite local changes. instead, it fetch forcefully but not merge forcefully (`git pull --force` = `git fetch --force` + `git merge`).
+it feels like it would help to overwrite local changes. instead, it fetches forcefully but does not merge forcefully (`git pull --force` = `git fetch --force` + `git merge`).
 
 Like git push, git fetch allows us to specify which local and remote branch we want to work on. `git fetch origin/ft-1:my-ft` means the changes in the `ft-1` branch from the remote repository will end up visible on the local branch `my-ft`. When such kind of operation modifies the existing history, it is not allowed by the Git without an explicit --force parameter.
