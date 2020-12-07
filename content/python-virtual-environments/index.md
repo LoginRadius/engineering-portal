@@ -1,5 +1,5 @@
 ---
-title: Python Virtual Environment: What is it and how it works?
+title: "Python Virtual Environment: What is it and how it works?"
 date: "2020-10-16"
 coverImage: "python.jpg"
 author: "Ashish Maharjan"

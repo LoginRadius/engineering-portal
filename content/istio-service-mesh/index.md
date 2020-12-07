@@ -1,7 +1,7 @@
 ---
 title: "Istio Service Mesh: A Beginners Guide"
-date: "2020-01-07"
-coverImage: "istio.png"
+date: "2020-12-07"
+coverImage: "Istio.png"
 author: "Piyush Kumar"
 tags: ["Istio", "Service Mesh"]
 description: "This post will give a high-level introduction to Istio and its related concepts and terminologies."
