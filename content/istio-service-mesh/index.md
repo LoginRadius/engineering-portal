@@ -8,17 +8,20 @@ description: "This post will give a high-level introduction to Istio and its rel
 ---
 
 
-# What is Istio?
+## What is Istio?
 
 Istio is an Open Source service mesh (developed in partnership between teams from Google, IBM, and Lyft), providing a dedicated infrastructure layer for creating service-to-service communication that is safe, fast, and reliable. Having such a fanatical communication layer can provide various advantages, like providing observability into communications, providing secure connections, or automating retries and backoff for failed requests.
+
 A service mesh also often has more complex operational requirements, like A/B testing, canary rollouts, rate limiting, access control, and end-to-end authentication.
+
 Istio does this by adding a sidecar proxy which intercepts all network communication between microservices, then configures and manages Istio using its control plane functionality, which incorporates:
+
  1. Granular control over the service-to-service communication and its routing with the additional functionality of retries, fault injection, circuit breakers.
  2. Providing secure mTLS without any changes in the application code.
  3. Cluster to cluster communication using ingress and egress gateways.
 
 
-# Architecture
+## Istio Architecture
 
 An Istio service mesh is logically split into a data plane and a control plane.
 
@@ -28,7 +31,7 @@ The control plane manages and configures the proxies to route traffic.
 
 ![Istio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.svg)
 
-# Core Components
+## Istio Core Components
 
 ### Pilot
 
@@ -42,9 +45,9 @@ Responsible for controlling the authentication and identity management between s
 
 Responsible for enforcing access control and usage policies across the service mesh and collects telemetry data from the Envoy proxy and other services.
 
-# Features
+## Istio Features
 
-## Traffic Management
+### Traffic Management
 
 It is the basic feature of Istio, which facilitates the routing between services. Istio simplifies the configuration of service-level properties like circuit breakers, timeouts, and retries.
 All traffic that your mesh services send and receive (data plane traffic) is proxied through Envoy, making it easy to direct and control traffic around your mesh without making any changes to your services.
@@ -184,7 +187,7 @@ spec:
 ```
 The Service Entry should be in the same namespace as that of the calling service. This is helpful, especially in the case where the service is not exposed to a public endpoint and can be accessed using internal service DNS like the above example.
 
-## Security
+### Security
 
 Istio provides security features that will help us to establish a zero-trust network. Istio enables security by default and provides various authentication and authorization policy to regulate security.
 
