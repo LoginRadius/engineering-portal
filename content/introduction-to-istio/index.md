@@ -1,9 +1,10 @@
 ---
 title: "Istio Service Mesh: A Beginners Guide"
-date: "2020-01-04"
+date: "2020-01-07"
 coverImage: "istio.png"
 author: "Piyush Kumar"
 tags: ["Istio", "Service Mesh"]
+description: "This post will give a high-level introduction to Istio and its related concepts and terminologies."
 ---
 
 
@@ -12,10 +13,10 @@ This post will give a high-level introduction to Istio and its related concepts 
 
 # What is Istio?
 
-Istio is an Open Source service mesh (developed in partnership between teams from Google, IBM, and Lyft), providing a dedicated infrastructure layer for creating service-to-service communication safe, fast, and reliable. Having such a fanatical communication layer can provide various advantages, like providing observability into communications, providing secure connections, or automating retries and backoff for failed requests.
+Istio is an Open Source service mesh (developed in partnership between teams from Google, IBM, and Lyft), providing a dedicated infrastructure layer for creating service-to-service communication that is safe, fast, and reliable. Having such a fanatical communication layer can provide various advantages, like providing observability into communications, providing secure connections, or automating retries and backoff for failed requests.
 A service mesh also often has more complex operational requirements, like A/B testing, canary rollouts, rate limiting, access control, and end-to-end authentication.
-Istio does this by adding a sidecar proxy which intercepts all network communication between microservices, then configure and manage Istio using its control plane functionality, which incorporates,
- 1. Granular control over the service-service communication and its routing with the additional functionality of retries, fault injection, circuit breakers.
+Istio does this by adding a sidecar proxy which intercepts all network communication between microservices, then configures and manages Istio using its control plane functionality, which incorporates:
+ 1. Granular control over the service-to-service communication and its routing with the additional functionality of retries, fault injection, circuit breakers.
  2. Providing secure mTLS without any changes in the application code.
  3. Cluster to cluster communication using ingress and egress gateways.
 
@@ -205,8 +206,8 @@ spec:
   mtls:
     mode: STRICT
 ```
-Here we define a peer authentication object for a service labeled **my-svc**, which tells that any service that needs to talk to **my-svc** will communicate using mtls. The service will accept only TLS connection. By default, Istio enabled **PERMISSIVE** mode, which accepts both plaintext and encrypted communication. 
+Here we define a peer authentication object for a service labeled **my-svc**, which tells that any service that needs to talk to **my-svc** will communicate using mtls. The service will accept only TLS connection. By default, Istio enables **PERMISSIVE** mode, which accepts both plaintext and encrypted communication. 
 
 We can define peer authentication on the mesh, namespace, and pod level.
 
-This is all for the introduction to Istio. In the next part, we will look at installing Istio and configuring services to use Istio.
+That is all for the introduction to Istio. In the next part, we will look at installing Istio and configuring services to use Istio.
