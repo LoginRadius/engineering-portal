@@ -8,9 +8,6 @@ description: "This post will give a high-level introduction to Istio and its rel
 ---
 
 
-This post will give a high-level introduction to Istio and its related concepts and terminologies.
-
-
 # What is Istio?
 
 Istio is an Open Source service mesh (developed in partnership between teams from Google, IBM, and Lyft), providing a dedicated infrastructure layer for creating service-to-service communication that is safe, fast, and reliable. Having such a fanatical communication layer can provide various advantages, like providing observability into communications, providing secure connections, or automating retries and backoff for failed requests.
