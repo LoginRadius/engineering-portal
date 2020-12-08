@@ -7,21 +7,17 @@ tags: ["Docker", "Go"]
 description: "Guide on how to build and push Docker images programmatically using Go."
 ---
 
-## Introduction
 
 Let's walk through how to build and push Docker images programmatically using Go. To do this, we need to talk to the Docker daemon via the [Docker Engine API](https://docs.docker.com/engine/api/). This is similar to how the Docker CLI works, but instead of entering commands through a CLI, we'll be writing code with Docker's Go SDK.
 
 At the time of writing, the official Docker Go SDK [docs](https://docs.docker.com/engine/api/sdk/examples/) provide great examples of running basic Docker commands with Go. However, it's missing examples on building and pushing Docker images, so we'll go over those in this blog.
 
-Before we begin, this blog assumes you have a working knowledge of Docker and Go.
+Before we begin, this blog assumes you have a working knowledge of Docker and Go. We'll go over the following:
 
-## Examples in Go
-
-We'll go over the following:
 - Building an image from local source code
 - Pushing an image to a remote registry
 
-### Set Up
+## Environment Setup 
 
 First, we need to set up the environment. Create a project and include the app we want to containerize:
 ```
@@ -50,7 +46,7 @@ Next, install the [Go SDK](https://docs.docker.com/engine/api/sdk/). These are t
 "github.com/docker/docker/pkg/archive"
 ```
 
-### Build an Image
+## Build Docker Image
 
 One way to build a Docker image from our local files is to compress those files into a tar archive first.
 
@@ -228,7 +224,7 @@ The equivalent Docker CLI command would be:
 docker build -t <dockerRegistryUserID>/node-hello .
 ```
 
-### Push an Image
+## Push Docker Image
 
 We'll push the Docker image we created to Docker Hub. But, we need to authenticate with Docker Hub by providing credentials encoded in base64.
 - In practice, don't hardcode your credentials in your source code.
