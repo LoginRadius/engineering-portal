@@ -1,6 +1,6 @@
 ---
 title: "Build and Push Docker Images with Go"
-date: "2020-12-07"
+date: "2020-12-08"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Docker", "Go"]
@@ -8,11 +8,12 @@ description: "Guide on how to build and push Docker images programmatically usin
 ---
 
 ## Introduction
-Let's walk through how to build and push Docker images programmatically using Go. To do this, we need to talk to the Docker daemon via the [Docker Engine API](https://docs.docker.com/engine/api/). This is similar to how the Docker CLI works, but instead of entering commands through a CLI, we'll be writing code with the Go SDK provided by Docker.
 
-At the time of writing, the official Docker Go SDK [docs](https://docs.docker.com/engine/api/sdk/examples/) provide great examples on running basic Docker commands with Go. However, it's missing examples on building and pushing Docker images, so we'll go over those in this blog.
+Let's walk through how to build and push Docker images programmatically using Go. To do this, we need to talk to the Docker daemon via the [Docker Engine API](https://docs.docker.com/engine/api/). This is similar to how the Docker CLI works, but instead of entering commands through a CLI, we'll be writing code with Docker's Go SDK.
 
-Before we begin, this blog assumes you have a working knowledge with Docker and Go.
+At the time of writing, the official Docker Go SDK [docs](https://docs.docker.com/engine/api/sdk/examples/) provide great examples of running basic Docker commands with Go. However, it's missing examples on building and pushing Docker images, so we'll go over those in this blog.
+
+Before we begin, this blog assumes you have a working knowledge of Docker and Go.
 
 ## Examples in Go
 
@@ -51,7 +52,7 @@ Next, install the [Go SDK](https://docs.docker.com/engine/api/sdk/). These are t
 
 ### Build an Image
 
-To build a Docker image from our local files, one way is to compress those files into a tar archive first.
+One way to build a Docker image from our local files is to compress those files into a tar archive first.
 
 We use the archive package provided by Docker:
 ```
@@ -110,7 +111,8 @@ This prints the following:
 {"stream":"Successfully tagged lrblake/node-hello:latest\n"}
 ```
 
-Last step would be checking the response for errors, so if something went wrong during the build, we can handle it.
+The last step would be checking the response for errors, so if something went wrong during the build, we could handle it.
+
 ```
 errLine := &ErrorLine{}
 json.Unmarshal([]byte(lastLine), errLine)
@@ -120,12 +122,14 @@ if errLine.Error != "" {
 ```
 
 For example, the following error can occur during build:
+
 ```
 {"errorDetail":{"message":"COPY failed: stat /var/lib/docker/tmp/docker-builder887191115/z: no such file or directory"},"error":"COPY failed: stat /var/lib/docker/tmp/docker-builder887191115/z: no such file or directory"}
 ```
 
 All together, the file looks like this:
-```
+
+```go
 package main
 
 import (
@@ -273,6 +277,7 @@ func imagePush(dockerClient *client.Client) error {
 ```
 
 The equivalent Docker CLI command (after docker login) would be:
+
 ```
 docker push <dockerRegistryUserID>/node-hello
 ```
