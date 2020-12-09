@@ -7,8 +7,6 @@ tags: ["WebAuthn", "FIDO", "Authentication"]
 description: "Login with a new way using WebAuthn."
 ---
 
-## Introduction
-
 WebAuthn is a new standard for authentication published by the World Wide Web Consortium and supported by the FIDO alliance. The standard works by providing a way for users to authenticate through a third-party authenticator. These authenticators can be built into the operating system software, like Windows Hello or Android biometrics, or through external authenticators, like a USB authenticator.
 
 ![Authenticators](authenticators.png)
