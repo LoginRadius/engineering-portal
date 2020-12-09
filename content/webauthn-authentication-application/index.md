@@ -1,6 +1,6 @@
 ---
 title: "WebAuthn: A Guide To Authenticate Your Application"
-date: "2020-12-08"
+date: "2020-12-09"
 coverImage: "webauthn-logo.png"
 author: "Chris Yee"
 tags: ["WebAuthn", "FIDO", "Authentication"]

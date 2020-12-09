@@ -42,15 +42,14 @@ After creating the Maven project, a pom.xml is generated. You can find the file 
 Now, you can add a dependency in pom.xml. For example, if you want to add LoginRadius for Java library/dependency, you can add as follows:
 
 ```
-&amp;lt;dependencies&amp;gt;
-….
-&amp;lt;dependency&amp;gt;
-            &amp;lt;groupId&amp;gt;com.loginradius.sdk&amp;lt;/groupId&amp;gt;
-            &amp;lt;artifactId&amp;gt;java-sdk&amp;lt;/artifactId&amp;gt;
-            &amp;lt;version&amp;gt;3.2.0&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-…..
-&amp;lt;/dependencies&amp;gt;
+<dependencies>
+    <dependency>
+        <groupId>com.loginradius.sdk</groupId>
+        <artifactId>java-sdk</artifactId>
+        <version>11.0.0</version>
+    </dependency>
+    ......
+</dependencies>
 ```
 
 You should now be able to quickly import any libraries that you want o use in your project via Maven.
