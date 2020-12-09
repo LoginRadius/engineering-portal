@@ -3,18 +3,18 @@ title: "Integrate Authentication in React application"
 date: "2020-12-02"
 coverImage: "authentication-main.svg"
 author: "Versha Gupta"
-tags: ["Authentication", "LoginRadius"]
+tags: ["Authentication", "LoginRadius", "React"]
 ---
 
 # Integrate Authentication in React application
-Using LoginRadius, we can easily and quickly add authentication to your React application. In this article, if you have customized login / registration page then I will give you steps to add authentication.
+Using LoginRadius, we can easily and quickly add authentication to our React application. In this article, if you have customized login / registration page then I will give you steps to add authentication.
 
 ## Configure LoginRadius
 
 A new application was created for you when you [signed up] (https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for LoginRadius. Form here, you get some essential information.
 
 1. API Key  [How to get API Key?](https://www.loginradius.com/docs/developer/faq/api-credentials/)
-2. Sott  [Work with SSO](https://www.loginradius.com/docs/developer/howto/work-with-sott/)
+2. Sott  [Work with Sott](https://www.loginradius.com/docs/developer/howto/work-with-sott/)
 
 ## Add following LoginRadius JS library into your application
 
@@ -25,7 +25,7 @@ A new application was created for you when you [signed up] (https://accounts.log
 ### Add Login to your application
 
 We will use API framework to call LoginRadius APIs for authentication.  Create new file **LoginPage.js** and add the following code.
-
+```javascript
     import  React, { useState } from  "react";
     const  lrconfig = {
     apiKey:  "*************************", //LoginRadius API key
@@ -58,24 +58,25 @@ We will use API framework to call LoginRadius APIs for authentication.  Create n
       );
       };
       export  default  LoginButton;
-
-In above code , You will see the lrConfig object which have apikey that you will get from LoginRadius. After calling `loginradius.api.login` you will get the response in which you will get the access Token through which you can get the user profile.
+```
+In above code , you will see the `lrConfig` object which has apikey that you will get from LoginRadius account. After calling `loginradius.api.login` you will get the response in which you will get the access Token through which you can get the user profile.
 
 ### Add Logout to your application
 Create **LogoutPage.js** file and add following code:
 
+```javascript
     import React, { useState } from "react";
-    
+
     const lrconfig = {
       apiKey: "*************************", //LoginRadius API key
     };
-    
+
     const loginradius = {};
     if (window.LoginRadiusV2) {
       loginradius = new window.LoginRadiusV2(lrconfig);
       loginradius.api.init(lrconfig);
     }
-    
+
     const LogoutButton = () => {
       const token  = '************'; // Access Token that you got after login
       const logoutButtonHandler = () => {
@@ -96,15 +97,16 @@ Create **LogoutPage.js** file and add following code:
        </React.Fragment>
        );
     };
-      export default LogoutButton;
+    export default LogoutButton;
+```
 In above code, We have called invalidate token api which expire your access token.
 
 
 ### Add Signup to your application
 
-   Create **SignupPage.js** file and add following code:
-
-        import  React, { useState } from  "react";
+Create **SignupPage.js** file and add following code:
+```javascript
+    import  React, { useState } from  "react";
     const  lrconfig = {
     apiKey:  "*************************", //LoginRadius API key
     sott:  "***************************"  //Secure Token for signup functionality
@@ -139,6 +141,7 @@ In above code, We have called invalidate token api which expire your access toke
       );
       };
       export  default  SignupButton;
+  ```
 
 In above code, You will get success/error response after calling registration api.
 
