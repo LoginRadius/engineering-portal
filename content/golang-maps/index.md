@@ -120,4 +120,4 @@ With the market space and number of applications being created by Go increasing,
 
 Although it doesn’t support concurrency, maps in Go are still a useful tool in most applications developed in Go, to reliably access and manage data.
 
-If you want to learn more about golang here is a quick guide on, [how to send email with golang](https://www.loginradius.com/blog/async/sending-emails-with-golang/). If you like what you read leave a comment or any question and will communicate further. 
+If you want to learn more about golang here is a quick guide on, [how to send email with golang](/sending-emails-with-golang/). If you like what you read leave a comment or any question and will communicate further. 

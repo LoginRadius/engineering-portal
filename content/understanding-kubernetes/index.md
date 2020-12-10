@@ -9,7 +9,7 @@ tags: ["Kubernetes","Deployment","Distributed Systems"]
 
 Kubernetes is a standard container orchestration open-source platform, that is, for managing applications constructed from several, often self-contained runtimes called containers.
 
-Since the Docker containerization project launched in 2013, [containers have become increasingly](https://www.loginradius.com/blog/async/container-security-scanning/) common, but massive distributed containerized apps can become increasingly difficult to coordinate.
+Since the Docker containerization project launched in 2013, [containers have become increasingly](/container-security-scanning/) common, but massive distributed containerized apps can become increasingly difficult to coordinate.
 
 Kubernetes became a central part of the container revolution by making containerized systems significantly more straightforward to handle at scale.
 
@@ -34,7 +34,7 @@ By using Kubernetes, developers can build cloud-native applications with Kuberne
 
 ### Kubernetes vs. Docker
 
-Often mistaken as a choice between one or the other, Kubernetes and [Docker for running containerized applications](https://www.loginradius.com/blog/async/production-grade-development-using-docker-compose/) are different but complementary technologies.
+Often mistaken as a choice between one or the other, Kubernetes and [Docker for running containerized applications](/production-grade-development-using-docker-compose/) are different but complementary technologies.
 
 [Docker](https://docs.docker.com/get-started/overview/) lets you put everything you need into a box that can be stored and opened when and where it is required to run your application. It would help if you had a way to handle them once you start boxing up your applications, and that's what Kubernetes does.
 

@@ -18,7 +18,7 @@ These are simply the directories so that unlimited virtual environments can be c
 
 ## Why do we need a virtual environment?
 
-[Python has various modules](https://www.loginradius.com/blog/async/python-basics-in-minutes/) and packages for different applications. During our project, it may require a third-party library, which we install. Another project also uses the same directory for retrieval and storage but doesn't require any other third-party packages.
+[Python has various modules](/python-basics-in-minutes/) and packages for different applications. During our project, it may require a third-party library, which we install. Another project also uses the same directory for retrieval and storage but doesn't require any other third-party packages.
 
 So, the virtual environment can come into play and make a separate isolated environment for both projects, and each project can store and retrieve packages from their specific environment.
 
@@ -50,7 +50,7 @@ After successful installation of virtualenv, now you can create a virtual enviro
 
 <img src="name.png" alt="Check" /><br>
 
-Here, I created `venv` as the name of my virtual environment. You can name it whatever you desire. The folder with the name `venv` is created that contains all the necessary executables to [run the Python project](https://www.loginradius.com/blog/async/speed-up-python-code/). This is the folder where all your python packages will run.
+Here, I created `venv` as the name of my virtual environment. You can name it whatever you desire. The folder with the name `venv` is created that contains all the necessary executables to [run the Python project](/speed-up-python-code/). This is the folder where all your python packages will run.
 
 To specify the Python interpreter of your choice, you can do it easily by specifying Python{version-name}.
 Eg: To create python2.7 virtual environment, we use following command:
