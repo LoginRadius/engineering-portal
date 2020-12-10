@@ -1,7 +1,7 @@
 ---
 title: "A Guide To React User Authentication with LoginRadius"
-date: "2020-12-02"
-coverImage: "authentication-main.svg"
+date: "2020-12-10"
+coverImage: "authentication-main.png"
 author: "Versha Gupta"
 tags: ["Authentication", "LoginRadius", "React"]
 description: "This article focuses on helping developers to learn how to integrate user authentication in React applications and also learn the basic principles of authentication with React."
@@ -10,7 +10,7 @@ description: "This article focuses on helping developers to learn how to integra
 
 To authenticate react applications, this guide uses LoginRadius API, which gives react developers a more straightforward way to add user authentication to react applications. To handle a lot of authentication implementation information, LoginRadius offers a high-level API. Using security best practices, you can now protect your respond apps while writing less code.
 
-This article [focuses on helping developers](https://www.loginradius.com/blog/async/react-hooks-guide/) learn how to integrate user authentication in the React application. To practice the following security principles, you can improve a starter React application:
+This article [focuses on helping developers](/react-hooks-guide/) learn how to integrate user authentication in the React application. To practice the following security principles, you can improve a starter React application:
 
 - Add user login and user login.
 
@@ -18,7 +18,7 @@ This article [focuses on helping developers](https://www.loginradius.com/blog/as
 
 - Attach a tab for sign-up.
 
-In the React application, we can [easily and quickly](https://www.loginradius.com/blog/async/react-context-api/) add authentication by using LoginRadius. If you already have a customized login/registration page ready, then I'll guide you to the next step of adding authentication in react apps.
+In the React application, we can [easily and quickly](/react-context-api/) add authentication by using LoginRadius. If you already have a customized login/registration page ready, then I'll guide you to the next step of adding authentication in react apps.
 
 ## Configure LoginRadius for React Application
 

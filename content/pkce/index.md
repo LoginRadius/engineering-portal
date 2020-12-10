@@ -1,5 +1,5 @@
 ---
-title: "PKCE"
+title: "PKCE: What it is and how to use it with OAuth 2.0"
 date: "2020-09-03"
 author: "Narendra Pareek"
 coverImage: "pkce.png"
@@ -7,19 +7,24 @@ tags: ["PKCE", "OAuth", "OIDC"]
 description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this article will help you to understand everything about PKCE."
 ---
 
-This blog assumes that you have an idea about the OIDC and OAuth authorization code flow. The flow is used to generate the code after authentication, and later on, the code will get exchanged with the token.
 
-## Overview
+PKCE is an OAuth 2.0 security extension for public clients on mobile devices intended to avoid a malicious programme creeping into the same computer from intercepting the authorisation code. The [RFC 7636](https://oauth.net/2/pkce/) introduction discusses the mechanisms of such an attack.
 
-It is pretty much essential to secure sensitive information, especially in a flow wherein the data is moving around. It is critical to the client-side application to keep there secret safe and secure and should not be open for all.
+PKCE has a different specification of its own. It allows applications to use the most reliable OAuth 2.0 flows in public or untrusted clients - the Authorization Code flow. In order to efficiently use a dynamically generated password, it achieves this by doing some setup work before the flow and some verification at the end of the flow. 
+
+This is important because getting a fixed secret in a public client is not safe.
 
 In this blog, we will see how PKCE is useful in authorization code flow for OAuth and OIDC and how you can use this with your OAuth and OpenID Connect providers.
 
-## What is PKCE (Proof Key for Code Exchange)
+## What is PKCE
 
-PKCE (Proof Key for Code Exchange) pronounced pixie is a key to prevent several attacks and perform code authorization flow securely. I would say, PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.
+Proof Key for Code Exchange as known as PKCE, is a key for preventing malicious attacks and securely performing code authorization flow.
 
-PKCE is mainly useful for the client-side application or any web apps that are using the client secret key and used to replace the static secret used in the authorization flow. This flow basically works with two params **Code Verifier** and **Code challenge**. Let's see what are these parameters, how we use, and generate them.
+I would say, PKCE is used to provide one more security layer to the authorization code flow in [OAuth](/oauth2/) and OpenID Connect.
+
+PKCE is mainly useful for the client-side application or any web apps that are using the client secret key and used to replace the static secret used in the authorization flow.
+
+This flow basically works with two parameters **Code Verifier** and **Code challenge**. Let's see what are these parameters, how we use them, and generate them.
 
 
 ### PKCE code verifier and challenge
@@ -30,12 +35,9 @@ Once the client has generated the code verifier, it uses that to create the **co
 For devices that can perform a SHA256 hash, the code challenge is a BASE64-URL-encoded string of the SHA256 hash of the code verifier.
 
 
-
-
-
 ### Generate code verifier and code challenge
 
-Here you can see the examples to generate the Code verifier and code challenge in different languages. Either you can find Node and Go Packages for this but I would recommend you to not depend on any package for such small things.
+Here you can see the examples to generate the Code verifier and code challenge in different languages. Either you [can find Node](/oAuth-implemenation-using-node/) and [Go Packages](/golang-maps/) for this but I would recommend you to not depend on any package for such small things.
 
 
 **NodeJs**
@@ -124,10 +126,9 @@ func main() {
     fmt.Println("code_challenge :", challenge)
 }
  
-
 ```
 
-## OAuth2.0 PKCE Flow
+## Implement the OAuth 2.0 Authorization Code with PKCE Flow 
 
 ### Get the Authorization code
 In the OAuth Authorization flow, we need to have the code verifier and code challenge to start with the authentication and obviously an OAuth provider to connect.
