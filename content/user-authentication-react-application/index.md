@@ -22,7 +22,7 @@ In the React application, we can [easily and quickly](/react-context-api/) add a
 
 ## Configure LoginRadius for React Application
 
-A new application was created for you when you [signed up] (https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for LoginRadius. Form here, you get some essential information.
+A new application was created for you when you [signed up](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for LoginRadius. Form here, you get some essential information.
 
 1. API Key  [How to get API Key?](https://www.loginradius.com/docs/developer/faq/api-credentials/)
 2. Sott  [Work with Sott](https://www.loginradius.com/docs/developer/howto/work-with-sott/)
