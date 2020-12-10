@@ -1,15 +1,26 @@
 ---
-title: "Integrate Authentication in React application"
+title: "A Guide To React User Authentication with LoginRadius"
 date: "2020-12-02"
 coverImage: "authentication-main.svg"
 author: "Versha Gupta"
 tags: ["Authentication", "LoginRadius", "React"]
+description: "This article focuses on helping developers to learn how to integrate user authentication in React applications and also learn the basic principles of authentication with React."
+
 ---
 
-# Integrate Authentication in React application
-Using LoginRadius, we can easily and quickly add authentication to our React application. In this article, if you have customized login / registration page then I will give you steps to add authentication.
+To authenticate react applications, this guide uses LoginRadius API, which gives react developers a more straightforward way to add user authentication to react applications. To handle a lot of authentication implementation information, LoginRadius offers a high-level API. Using security best practices, you can now protect your respond apps while writing less code.
 
-## Configure LoginRadius
+This article [focuses on helping developers](https://www.loginradius.com/blog/async/react-hooks-guide/) learn how to integrate user authentication in the React application. To practice the following security principles, you can improve a starter React application:
+
+- Add user login and user login.
+
+- User information retrieval.
+
+- Attach a tab for sign-up.
+
+In the React application, we can [easily and quickly](https://www.loginradius.com/blog/async/react-context-api/) add authentication by using LoginRadius. If you already have a customized login/registration page ready, then I'll guide you to the next step of adding authentication in react apps.
+
+## Configure LoginRadius for React Application
 
 A new application was created for you when you [signed up] (https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for LoginRadius. Form here, you get some essential information.
 
@@ -22,7 +33,7 @@ A new application was created for you when you [signed up] (https://accounts.log
 
 ## Add Authentication when you have customized Login Page
 
-### Add Login to your application
+### Add Login to your react application
 
 We will use API framework to call LoginRadius APIs for authentication.  Create new file **LoginPage.js** and add the following code.
 ```javascript
@@ -40,7 +51,9 @@ We will use API framework to call LoginRadius APIs for authentication.  Create n
       loginradius.api.login({emailid:  emailValue,
       password:  passwordValue},
       (successResponse)=>{
-      //Here you will get the access Token of user
+      //Here you will get the access Token of 
+      
+      
       console.log(successResponse);
       },
       (errors) => {
@@ -61,7 +74,7 @@ We will use API framework to call LoginRadius APIs for authentication.  Create n
 ```
 In above code , you will see the `lrConfig` object which has apikey that you will get from LoginRadius account. After calling `loginradius.api.login` you will get the response in which you will get the access Token through which you can get the user profile.
 
-### Add Logout to your application
+### Add Logout to your react application
 Create **LogoutPage.js** file and add following code:
 
 ```javascript
@@ -102,7 +115,7 @@ Create **LogoutPage.js** file and add following code:
 In above code, We have called invalidate token api which expire your access token.
 
 
-### Add Signup to your application
+### Add Signup to your react application
 
 Create **SignupPage.js** file and add following code:
 ```javascript
@@ -147,5 +160,6 @@ In above code, You will get success/error response after calling registration ap
 
 ## Wrap up
 
-  Here we have used the LoginRadius API Framework so that if you have your own designed forms, call the LoginRadius API. If you want to integrate our hosted page, follow [this] (https://www.loginradius.com/docs/developer/howto/authentication-theme/) documentation.
+The most common authentication use case for a React application was covered in this tutorial: quick login and logout. However, LoginRadius is an expandable and versatile platform that can help you accomplish much more. In this guide, We have used the LoginRadius API Framework. If you want to incorporate our hosted page to your application, you can do so by following this [documentation](https://www.loginradius.com/docs/developer/howto/authentication-theme/).
 
+Let me know what you think of this tutorial in the comments below. Thanks for reading :)
