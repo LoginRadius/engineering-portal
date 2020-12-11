@@ -3,7 +3,7 @@ title: "How to Fetch a Remote Branch using Git"
 date: "2020-12-11"
 coverImage: "cover.png"
 author: "Versha Gupta"
-tags: ["Git", "fetch"]
+tags: ["Git",]
 ---
 
 ## Git: Fetch a Remote Branch
@@ -15,7 +15,7 @@ You Simply  need to do:
 git fetch <remote-repository>
 ```
 
-This fetch command will fetch all remote branches and also stored all references/objects. Once all branches are loaded successfully, you can checkout the branch you are interested in, giving you a local working copy. Now you can inspect and play with code.
+This fetch command will fetch all remote branches and also store all references/objects. Once all branches are loaded successfully, you can checkout to the branch you are interested in, giving you a local working copy. Now you can inspect and play with code.
 
 Run this command
 
@@ -57,4 +57,4 @@ To verify what tracking branches you have set up, you can use the `-vv` option w
 git branch -vv
 ```
 
-If you want to learn more about GIT here is a quick guide on, [How to use Git Cherry Pick](/git-cherry-pick/). If you like what you read leave a comment or any question and will communicate further.
+If you want to learn more about GIT here is a quick guide on, [How to use Git Cherry Pick](/git-cherry-pick/). If you like what you learnt, leave a comment in the comments below.
