@@ -1,22 +1,22 @@
 ---
 title: "Live Data Migration In MongoDB"
-date: "2020-12-10"
+date: "2020-12-15"
 coverImage: "index.png"
 author: "Chinmaya Pati"
-tags: ["data-migration", "mongo", "database", "atlas", "livedata"]
+tags: ["MongoDB"]
 description: "This article covers the guide to migrate data from offline or live MongoDB instance using oplog replay alongside mitigate connection switch latency with existing utilities."
 ---
 
-If you’re coming here for the first time, please take a look at the prequel [Self-Hosted MongoDB](./self-hosted-mongo/).
+If you're coming here for the first time, please take a look at the prequel [Self-Hosted MongoDB](./self-hosted-mongo/).
 
-Alright then, picking from where we left off, let’s get started with the data migration.
+Alright then, picking from where we left off, let's get started with the data migration.
 Now, the basic steps to migrate data from one MongoDB to another would be:
 
 1. Create a zipped backup of the existing data
 2. Dump the data in a new DB
 
-This is very straight forward when the source database is not online. Because we know for sure that there won’t be any new documents created/updated during the migration process.
-Let’s look at simple migration first before diving into the live scenario.
+This is very straight forward when the source database is not online because we know that there won't be any new documents created/updated during the migration process.
+Let's look at simple migration first before diving into the live scenario.
 
 <hr />
 
@@ -24,7 +24,7 @@ Let’s look at simple migration first before diving into the live scenario.
 
 ## Creating a backup
 
-We’re going to use an existing utility program [mongodump](https://docs.mongodb.com/database-tools/mongodump/) for creating the database backup.
+We're going to use an existing utility program [mongodump](https://docs.mongodb.com/database-tools/mongodump/) for creating the database backup.
 
 Run this command in the source database server
 
@@ -38,19 +38,19 @@ mongodump --host="hostname:port" \
 
 **`--host`**: The source MongoDB hostname along with the port. It defaults to `localhost:27017`. If it is a connection string you can use this option `—-uri="mongodb://username:password@host1[:port1]..."`
 
-**`--username`** : Specifies a username with which to authenticate to a MongoDB database that uses authentication.
+**`--username`**: Specifies a username to authenticate to a MongoDB database that uses authentication.
 
-**`--password`** : Specifies a password with which to authenticate to a MongoDB database that uses authentication.
+**`--password`**: Specifies a password to authenticate to a MongoDB database that uses authentication.
 
-**`--authenticationDatabase`** : Specifies the authentication database where the specified `--username` has been created.
+**`--authenticationDatabase`**: Specifies the authentication database where the specified `--username` has been created.
 
-> If you do not specify an authentication database or a database to export, mongodump assumes the admin database holds the user’s credentials.
+> If you do not specify an authentication database or a database to export, mongodump assumes the admin database holds the user's credentials.
 
-**`--db`** : Specifies the database to take a backup from. If you do not specify a database, mongodump collects from all databases in this instance.
+**`--db`**: Specifies the database to take a backup from. If you do not specify a database, mongodump collects from all databases in this instance.
 
 > Alternatively, you can also specify the database directly in the [URI connection string](https://docs.mongodb.com/database-tools/mongodump/#cmdoption-mongodump-uri) i.e. `mongodb://username:password@uri/dbname`. <br /> Providing a connection string while also using `--db` and specifying conflicting information **will result in an error**.
 
-**`--collection`** : Specifies a collection to backup. If you do not specify a collection, this option copies all collections in the specified database or instance to the dump files.
+**`--collection`**: Specifies a collection to backup. If you do not specify a collection, this option copies all collections in the specified database or instance to the dump files.
 
 **`--query`** : Provides a [JSON document](https://docs.mongodb.com/manual/reference/glossary/#term-json-document) as a query that optionally limits the documents included in the output of mongodump. <br />
 You must enclose the query document in single quotes `('{ ... }')` to ensure that it does not interact with your  environment.<br />
@@ -58,13 +58,13 @@ The query must be in [Extended JSON v2 format (either relaxed or canonical/stric
 
 > To use the `--query` option, you must also specify the [`--collection`](https://docs.mongodb.com/database-tools/mongodump/#cmdoption-mongodump-collection) option.
 
-**`--forceTableScan`** : Forces mongodump to scan the data store directly. Typically, mongodump saves entries as they appear in the index of the `_id` field. <br />
+**`--forceTableScan`**: Forces mongodump to scan the data store directly. Typically, mongodump saves entries as they appear in the index of the `_id` field. <br />
 
 > If you specify a query `--query`, mongodump will use the most appropriate index to support that query. <br />**Hence , you cannot use [`--forceTableScan`](https://docs.mongodb.com/database-tools/mongodump/#cmdoption-mongodump-forcetablescan) with the [`--query`](https://docs.mongodb.com/database-tools/mongodump/#cmdoption-mongodump-query) option**.
 
-**`--gzip`** : Compresses the output. If mongodump outputs to the dump directory, the new feature compresses the individual files. The files have the suffix `.gz`.
+**`--gzip`**: Compresses the output. If mongodump outputs to the dump directory, the new feature compresses the individual files. The files have the suffix `.gz`.
 
-**`--out`** : Specifies the directory where mongodump will write [`BSON`](https://docs.mongodb.com/manual/reference/glossary/#term-bson) files for the dumped databases. By default, mongodump saves output files in a directory named dump in the current working directory.
+**`--out`**: Specifies the directory where mongodump will write [`BSON`](https://docs.mongodb.com/manual/reference/glossary/#term-bson) files for the dumped databases. By default, mongodump saves output files in a directory named dump in the current working directory.
 
 ## Restoring the backup
 
@@ -96,11 +96,11 @@ The only challenge with migrating from an online database is not able to pause t
 1. Run an initial bulk migration with `oplogs` capture
 2. Run a sync job to mitigate the database connection switch latency
 
-> Now in order to capture `oplogs`, a replica set must be initialized in the source and destination databases. This is because the `oplogs` are captured from **`local.oplog.rs`** namespace which is created after initializing a replica set. <br /><br />You can follow [this guide](https://medium.com/swlh/self-hosted-mongodb-deployment-7f1b6fb4973f#1cdf) to configure a replica set.
+> Now, to capture `oplogs`, a replica set must be initialized in the source and destination databases. This is because the `oplogs` are captured from **`local.oplog.rs`** namespace, which is created after initializing a replica set. <br /><br />You can follow [this guide](https://medium.com/swlh/self-hosted-mongodb-deployment-7f1b6fb4973f#1cdf) to configure a replica set.
 
 ## Initial Migration with Oplog Capture
 
-Oplogs in simple words are the operation logs created per operation in the database. They represent a partial document state or in other words the database state. So we are going to capture any updates in our old database during the migration process using these `oplogs`.
+Oplogs, in simple words, are the operation logs created per operation in the database. They represent a partial document state or, in other words, the database state. So we are going to capture any updates in our old database during the migration process using these `oplogs`.
 
 Run the mongodump program with the following options,
 ```
@@ -112,7 +112,7 @@ mongodump --uri=".../?authSource=admin" \
 
 ## Restore the data with oplog replay
 
-In order to replay the oplogs, a special role is required. Let’s create and assign the role to the database user being used for migration.
+In order to replay the oplogs, a special role is required. Let's create and assign the role to the database user being used for migration.
 
 ### Create the role
 ```
@@ -152,9 +152,9 @@ In the above command, using the same user **`admin`** with whom the role was ass
 
 Alright, so far we are done with most of the heavy lifting. The only thing that remains is maintaining consistency between the databases during the connection switch in our application servers.
 
-> If you’re running MongoDB version 3.6+ then its better to go for the Change Stream approach which is a event based mechanism introduced to capture changes in your database in an optimized way. Here is an article that covers it https://www.mongodb.com/blog/post/an-introduction-to-change-streams
+> If you're running MongoDB version 3.6+, it's better to go for the Change Stream approach, which is a event-based mechanism introduced to capture changes in your database in an optimized way. Here is an article that covers it https://www.mongodb.com/blog/post/an-introduction-to-change-streams
 
-Check out the [generic sync script](https://gist.github.com/cnp96/7be1756f7eb76ea78c9b832966e84dbf#file-delta-sync-sh) that I've written which you can run as a CRON job every minute.
+Check out the [generic sync script](https://gist.github.com/cnp96/7be1756f7eb76ea78c9b832966e84dbf#file-delta-sync-sh), which you can run as a CRON job every minute.
 
 Update the variables in this script and run as
 ```
@@ -168,13 +168,13 @@ Or you can set up a cron job to run this every minute.
 * * * * * ~/delta-sync.sh
 ```
 
-The output can be monitored with the following command (I’m running RHEL 8, refer to your OS guide for cron output)
+The output can be monitored with the following command (I'm running RHEL 8, refer to your OS guide for cron output)
 
 ```
 $ tail -f /var/log/cron | grep CRON
 ```
 
-This is a sample sync log
+This is a sample sync log.
 
 ```
 CMD (~/cron/dsync.sh)
@@ -202,8 +202,6 @@ CMDOUT (2020-11-03T19:01:05.055+0000#0110 document(s) restored successfully. 0 d
 CMDOUT (INFO: Restore success!)
 ```
 
-You can stop this script after verifying that no more **oplogs** are being created i.e. the when source DB went offline.
+You can stop this script after verifying that no more `oplogs` are being created, i.e., when source DB went offline.
 
-This concludes the complete self-hosted MongoDB guide. Please let me know your feedback in the comments 😃
-
-<br /><br /><br />
+This concludes the complete self-hosted MongoDB guide. Please let me know your feedback in the comments.
