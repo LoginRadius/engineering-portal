@@ -130,11 +130,12 @@
   linkedin: "rkpareek"
 
 - id: Chinmaya Pati
-  bio: I'm a software engineer with expertise in fullstack web development. I've strong command on JS and related frameworks. Interested in database technologies and system design.
+  bio: I'm an avid FOSS enthusiast and contributor interested in system design, web-dev, UI/UX, data-driven technologies, and DevOps.
   github: "cnp96"
   linkedin: "chinmayapati"
   stackoverflow: "5790355"
   twitter: chiku__p
+  medium: "@chinmaya-cp"
 
 - id: Priyadarshan Mohanty
   bio: Priyadarshan Mohanty is a Data Engineer at LoginRadius and has experience in working in Big Data technologies like Hadoop, Hive, Spark and Kafka. Interested in database technologies and distributed systems.
