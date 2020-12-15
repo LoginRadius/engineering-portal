@@ -3,7 +3,7 @@ title: "How to Fetch a Remote Branch using Git"
 date: "2020-12-11"
 coverImage: "cover.png"
 author: "Versha Gupta"
-tags: ["Git",]
+tags: ["Git"]
 description: The Git remote branch is a way to access the independent work of a co-worker. Find out how to fetch a remote branch using git in this article.
 ---
 
@@ -26,7 +26,7 @@ Run this command
 git checkout -b <local-branch> <remote-repository>/<remote-branch>
 ```
 
-    or
+or
 
 ```
 git branch <local-branch> <remote-repository>/<remote-branch>
