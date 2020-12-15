@@ -4,9 +4,12 @@ date: "2020-12-11"
 coverImage: "cover.png"
 author: "Versha Gupta"
 tags: ["Git",]
+description: The Git remote branch is a way to access the independent work of a co-worker. Find out how to fetch a remote branch using git in this article.
 ---
 
-## Git: Fetch a Remote Branch
+We, as developers, also work with Git. Developers need to understand how [to work with Git](https://www.loginradius.com/blog/async/github-api/) and the different possibilities of working with repositories and code in Git (such as managing the size of your reports, etc.). Along those lines, testing out a remote branch is one thing you'll be doing at least regularly, so we put together a short guide to cover the ins and outs of dealing with small branches in Git.
+
+## Git: How to Fetch a Remote Branch
 
 When working in the team, You will need to fetch the branch from a remote repository using Git.
 You Simply  need to do:
@@ -57,4 +60,8 @@ To verify what tracking branches you have set up, you can use the `-vv` option w
 git branch -vv
 ```
 
-If you want to learn more about GIT here is a quick guide on, [How to use Git Cherry Pick](/git-cherry-pick/). If you like what you learnt, leave a comment in the comments below.
+### Conclusion
+
+For software developers, Git is a way to track their code for different modifications. It stores all the various models in a unique database. Git enables several developers to work concurrently on the same principle. A programmer will also need to access the independent job, or "branch," of a coworker. This is made possible by the git remote branch operation.
+
+If you want to learn more about GIT here is a quick guide on, [how to use git cherry pick](/git-cherry-pick/). If you like the tutorial, then leave a comment below and let's talk.
