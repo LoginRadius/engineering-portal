@@ -1,20 +1,25 @@
 ---
-title: "Checking for NaN in JavaScript"
+title: "NaN in JavaScript: An Essential Guide"
 date: "2019-11-22"
 coverImage: "numbers-1.jpg"
 author: "Greg Sakai"
 tags: ["JavaScript"]
+description: "In this guide you'll learn about JavasScript NaN, how to verify whether a value is NaN, and how to manage NaN effectively."
 ---
 
-**What is NaN?**
+You'll learn about JavasScript NaN in this tutorial, how to check whether a value is NaN, and how to effectively handle NaN.
+
+## What is NaN in Javascript?
 
 NaN, in JavaScript, can be many things. In fact, it can be almost anything, so long as it is _Not a Number_. Its type is technically “number” (when evaluated with “typeof”), although it stands for **Not a Number**.  
 
-**What causes values to become NaN?**
+## Values in NaN Javascript
 
-Values can become NaN through a variety of means, which usually involve erroneous math calculations (such as 0/0), or as a result of type coercion, either implicit or explicit. A common example is when you run parseInt on a string that starts with an alphabetical character. This isn’t exclusive to parseInt, as it also applies when using explicit coercion with Number(), or with the unary “+” operator.  
+Values can become NaN through a variety of means, which usually involve erroneous math calculations (such as 0/0), or as a result of type coercion, either implicit or explicit.
 
-**How do you check for NaN?**  
+A common example is when you run parseInt on a string that starts with an alphabetical character. This isn’t exclusive to parseInt, as it also applies when using explicit coercion with Number(), or with the unary “+” operator.  
+
+## How to check NaN in Javascript? 
 
 Before selecting a method for checking for NaN, _how should you_ **_not_** _check for NaN?_
 
@@ -47,11 +52,13 @@ NaN !== NaN // true
 
   
 
-**Method 1: isNaN or Number.isNaN**
+### Method 1: isNaN or Number.isNaN
 
 JavaScript has a built-in method, appropriately named “isNaN,” which checks for NaN. There is a newer function called Number.isNaN, which is included in the ES2015 spec.  
 
-The difference between isNaN and Number.isNaN is that isNaN coerces the argument into a number type. To avoid complicated and unexpected outcomes, it is often advised to use the newer, more robust Number.isNaN to avoid these side effects. Number.isNaN does not perform any forcible type conversion, so it simply returns the boolean based on the parameter.  
+The difference between isNaN and Number.isNaN is that isNaN coerces the argument into a number type. To avoid complicated and unexpected outcomes, it is often advised to use the newer, more robust Number.isNaN to avoid these side effects.
+
+Number.isNaN does not perform any forcible type conversion, so it simply returns the boolean based on the parameter.  
 
 Here is an example of the difference between the two methods:  
 
@@ -66,9 +73,9 @@ isNaN, when passed undefined, returns true because undefined becomes NaN after n
 
 Number.isNaN, on the other hand, returns false. This is because no coercion takes place, and undefined is _not_ NaN, it is simply undefined.  
 
-It is also important to note that Number.isNaN is a newer (ES2015) method in JavaScript, so browser support for Number.isNaN is not as stable as isNaN, which has been around since ES1 (1997).  
+It is also important to note that Number.isNaN is a newer (ES2015) [method in JavaScript](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/), so browser support for Number.isNaN is not as stable as isNaN, which has been around since ES1 (1997).  
 
-**Method 2: Object.is**
+### Method 2: Object.is
 
 `Object.is` is a JavaScript method which checks for sameness. It generally performs the same evaluations as a strict equality operator (===), although it treats NaN differently from strict equality.  
 
@@ -83,6 +90,6 @@ Object.is(NaN, NaN) // true
 
 `Object.is(NaN, NaN)` will in fact return true, while we already know that NaN === NaN returns false. That makes this yet another valid way to check if something is not a number.
 
-**Conclusion**  
+## Conclusion
 
 Between the given methods of checking for NaN, the most common is to use the global isNaN function, or the ES2015 Number.isNaN method. While method #2 is valid, most people will typically use isNaN or Number.isNaN, which were created specifically for checking for NaN.
