@@ -1,6 +1,6 @@
 ---
 title: "How to Fetch a Remote Branch using Git"
-date: "2020-12-11"
+date: "2020-12-15"
 coverImage: "cover.png"
 author: "Versha Gupta"
 tags: ["Git"]

@@ -1,6 +1,6 @@
 ---
 title: "How to Migrate Data In MongoDB"
-date: "2020-12-15"
+date: "2020-12-14"
 coverImage: "index.png"
 author: "Chinmaya Pati"
 tags: ["MongoDB"]
