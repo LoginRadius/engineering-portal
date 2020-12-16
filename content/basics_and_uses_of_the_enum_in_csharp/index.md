@@ -81,7 +81,7 @@ Output:
 ```
 Car
 ```
-2. *Enum.TryParse(string? value,out enumType result)* - This method gives the result in bool value. if the string representation of the name or numeric value of enum member into enumType object is parsed then the result will be true and the parsed value will be in the out variable. If the string value is not parsed then the result will be false.
+2. *Enum.TryParse(string? value,out enumType result)* - This method gives the result in bool value. if the string representation of the name or numeric value of enum member into enumType object is parsed then the result will be true and the parsed value will be in the `out` variable. If the string value is not parsed then the result will be false.
  
  
 ```c#
