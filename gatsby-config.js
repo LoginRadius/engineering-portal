@@ -173,7 +173,7 @@ module.exports = {
                   enclosure: {
                     url:
                       site.siteMetadata.siteUrl +
-                      edge.node.frontmatter.coverImage.publicURL,
+                      edge.node.frontmatter.coverImage.childImageSharp.fluid.src,
                     type: "image/jpeg",
                     size: 768,
                   },
@@ -205,7 +205,12 @@ module.exports = {
                         description
                         date(formatString: "MMMM DD, YYYY")
                         coverImage {
-                          publicURL
+                          publicURL,
+                          childImageSharp {
+                            fluid {
+                              src
+                            }
+                          }
                         }
                         author {
                           id
