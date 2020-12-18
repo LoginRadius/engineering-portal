@@ -1,19 +1,31 @@
 ---
-title: "Basics and uses of the Enum in C#"
+title: "How to Use Enum in C#"
 date: "2020-12-18"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
 tags: ["C#","Enum"]
-description: "In this article, we will learn some basics and use cases of the Enum in C#."
+description: "Would you like to become more proficient in your C# programming in the use of enums? To learn the basics and use cases for Enum in C#, read this post."
 ---
+
+Enum is a typed constant that is specified for the new data form of Enumeration. An effective way to describe a set of named integral constants assigned to a variable is to include a Typesafe enumeration. Enums make the code more readable and less vulnerable to mistakes. If you have a set of functionally important and unchanged values, Enums are useful for developers.
+
+Enums' key benefit is to make it possible in the future to adjust values. Enums are a robust alternative to the short String or Int constants used to describe sets of similar objects in far older APIs.
  
-Sometimes we must use the constant variable in our application so that its values should not be changed throughout the application. One of the methods to declare the constant variables are `Enum`. Let's discuss it.
+Sometimes we must use the constant variable in our application to not be changed throughout the application. One of the methods to declare the continuous variables are `Enum.` Let's discuss it.
  
-## What is Enum?
+## Using Enum in C#
  
-Enum is the short form of Enumeration. They are used to define the constant values such that it is more readable and easy to use. Enum consumes less memory and space because they are value types, which means they store the value in memory. Also, Enums are strongly typed named constants. 
+Enum is the short form of Enumeration. Enum consumes less memory and space because they are value types, which means they store memory value. Also, Enums are strongly typed named constants. 
+
+Enums written by developers are used in the [.NET system](https://en.wikipedia.org/wiki/.NET_Framework) to develop numeric constants. A numeric value must be allocated to all the members of an enum. Here are the main points about Enums:
+
+- In C#, Keyword Enums build enumerated types of data
+- Enums are made for developers
+- Enums are strongly typed constants, as described above.
+- An enum of one form cannot be allocated automatically to another type of enum.
+- Enum values are fixed
  
-Enums are of two types in C#
+**Enums are of two types in C#**
  
 **Simple Enum** - The members of this enum contain a single value.
  
@@ -145,3 +157,5 @@ Bike
 ## Conclusion
  
 The advantages of using enums are that they are very easy to use and represented as strings but processed as integers. Enums are easy to maintain and improve code readability because they provide symbolic named constants, which means you need to remember the names, not the integer values.
+
+If you want to learn more about C programming, here is another article written on C# [Exceptions and Exception Handling in C#](https://www.loginradius.com/blog/async/exception_handling_in_csharp/) I hope you learn something new today and will going to try it out, if you have any questions feel free to drop a comment below.
