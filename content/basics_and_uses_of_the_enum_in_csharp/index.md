@@ -1,24 +1,23 @@
 ---
 title: "Basics and uses of the Enum in C#"
-date: "2020-12-16"
+date: "2020-12-18"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
 tags: ["C#","Enum"]
 description: "In this article, we will learn some basics and use cases of the Enum in C#."
 ---
-## Introduction
  
-Sometimes we are required to use the constant variable in our application so that its values should not be changed throughout the application. One of the methods to declare the constant variables are `Enum`. Let's discuss it.
+Sometimes we must use the constant variable in our application so that its values should not be changed throughout the application. One of the methods to declare the constant variables are `Enum`. Let's discuss it.
  
 ## What is Enum?
  
-Enum is the short form of Enumeration. They are used to define the constant values such that it is more readable and easy to use. Enum consumes less memory and space because they are value types, that means they store the value in memory. Also, Enums are strongly typed named constants. 
+Enum is the short form of Enumeration. They are used to define the constant values such that it is more readable and easy to use. Enum consumes less memory and space because they are value types, which means they store the value in memory. Also, Enums are strongly typed named constants. 
  
 Enums are of two types in C#
  
 **Simple Enum** - The members of this enum contain a single value.
  
-**Flags Enum** - The members of this enum contain multiple values or multiple values that are combined using a bitwise OR operator. These enums are often used for bitwise operators.
+**Flags Enum** - The members of this enum contain multiple values or multiple values combined using a bitwise OR operator. These enums are often used for bitwise operators.
  
 Here we will talk about the Simple Enum only.
  
@@ -40,7 +39,7 @@ In the above code, an enum for the Vehicle is created. The enum values are start
  
 That means the `Car` enum has the value `0` and the `Bike` enum assigned the value `3` that means the `Bike` enum now has the value `3` and the next enums are incremented by 1 means `Truck` and `Taxi` enum have the value `4` and `5` respectively.
  
-By default, the type for enum elements is **int**. We can set different type by adding a colon like the example below. 
+By default, the type for enum elements is **int**. We can set different type by adding a colon like an example below. 
 ```c#
 public enum Vehicle: byte
 {
@@ -72,7 +71,7 @@ Bike
  
 For parsing the string value into enum we have 2 methods
  
-1. *Enum.Parse(Type enumType,string value)* - This method directly parses the string representation of the name or numeric value of enum member into enumType object. If the string representation of the name is not found then it will give the exception.
+1. *Enum.Parse(Type enumType,string value)* - This method directly parses the string representation of the name or numeric value of enum member into enumType object. If the string representation of the name is not found, then it will give the exception.
  
 ```c#
 Console.WriteLine(Enum.Parse(typeof(Vehicle),"Car"));
@@ -81,7 +80,7 @@ Output:
 ```
 Car
 ```
-2. *Enum.TryParse(string? value,out enumType result)* - This method gives the result in bool value. if the string representation of the name or numeric value of enum member into enumType object is parsed then the result will be true and the parsed value will be in the `out` variable. If the string value is not parsed then the result will be false.
+2. *Enum.TryParse(string? value,out enumType result)* - This method gives the result in bool value. if the string representation of the name or numeric value of enum member into enumType object is parsed, then the result will be true, and the parsed value will be in the `out` variable. If the string value is not parsed, then the result will be false.
  
  
 ```c#
@@ -120,7 +119,7 @@ foreach (var data in Enum.GetNames(typeof(Vehicle)))
     Console.WriteLine(data+" - "+ (int)Enum.Parse(typeof(Vehicle), data));
 }
 ```
-Here *Enum.GetNames(Type enumType)* method is used which retrieves an array of the names from the specified enum.
+Here *Enum.GetNames(Type enumType)* method is used, which retrieves an array of the names from the specified enum.
  
 Output:
 ```
@@ -132,7 +131,7 @@ Taxi - 5
  
 ## Call an enum by the integral value
  
-We can call the enum member by its integral value. If there is no corresponding value related to that integral value then it will print that integral value.
+We can call the enum member by its integral value. If there is no corresponding value related to that integral value, then it will print that integral value.
  
 ```c#
  Console.WriteLine((Vehicle)3);
@@ -145,4 +144,4 @@ Bike
  
 ## Conclusion
  
-The advantages of using enums are that they are very easy to use and represented as strings but processed as integers. Enums are easy to maintain and improves the readability of code because they provide symbolic named constants, that means you need to just remember the names, not the integer values.
+The advantages of using enums are that they are very easy to use and represented as strings but processed as integers. Enums are easy to maintain and improve code readability because they provide symbolic named constants, which means you need to remember the names, not the integer values.
