@@ -13,7 +13,7 @@ Enums' key benefit is to make it possible in the future to adjust values. Enums 
  
 Sometimes we must use the constant variable in our application to not be changed throughout the application. One of the methods to declare the continuous variables are `Enum.` Let's discuss it.
  
-## Using Enum in C \#
+## Using Enum in C Sharp
  
 Enum is the short form of Enumeration. Enum consumes less memory and space because they are value types, which means they store memory value. Also, Enums are strongly typed named constants. 
 
