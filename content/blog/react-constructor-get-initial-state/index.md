@@ -3,7 +3,7 @@ title: "Constructor vs getInitialState in React"
 date: "2020-12-21"
 coverImage: "index.png"
 author: Nathan Nguyen
-tags: ["JavaScript", "Node", "React", "getInitialState", "ES5", "ES6", "ECMA", "hook", "constructor"]
+tags: ["JavaScript", "React"]
 description: "No ES6? No problem."
 ---
 
