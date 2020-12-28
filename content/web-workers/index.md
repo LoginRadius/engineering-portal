@@ -1,6 +1,6 @@
 ---
 title: "Web Workers in JS - An Introductory Guide"
-date: "2020-12-23"
+date: "2020-12-28"
 coverImage: "unsplash.png"
 author: "Nick Chim"
 tags: ["Web Workers"]
