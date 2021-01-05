@@ -1,15 +1,15 @@
 ---
 title: "Constructor vs getInitialState in React"
-date: "2020-12-21"
+date: "2021-01-05"
 coverImage: "index.png"
 author: Nathan Nguyen
 tags: ["JavaScript", "React"]
-description: "No ES6? No problem."
+description: "No ES6? No problem. getInitialState is the ES5 friendly method to define the initial state of a React component."
 ---
 
 One fairly popular question that got asked on programming bulletin boards has to do with the similarities and differences between React’s <code>constructor</code> and the built in method <code>getInitialState</code>. While the simple answer to this question is indeed simple: “getInitialState is the ES5 friendly method to define the initial state of a React component,” there are a couple more details around <code>getInitialState</code> as well as React’s ES5 support that are interesting and useful to highlight.
 
-**Constructor vs getInitialState: With or without Classes:**
+## Constructor vs getInitialState: With or without Classes:
 
 One of the fundamental differences between ES5 and ES6 in regards to React implementation is the new <code>class</code> keyword. It allows definition of React components as classes, which is a familiar data structure for anyone who has had experience with more traditional object-oriented languages such as Java or C++. The class structure also allows for natural organization of the component’s elements like state, props, lifecycle methods and member functions. However, ES5 did not provide the same convenience. So instead of defining a React component as a class:
 
@@ -68,7 +68,7 @@ class HelloWorld extends React.Component {
 }
 ```
 
-**Autobinding**
+## Autobinding
 
 One difference worth noting is that the `create-react-class` method automatically binds `this` to every attribute method. This no longer holds true if you define React components using the common ES6 class syntax, making it so that you have to manually bind `this` to internal methods:
 
@@ -109,7 +109,7 @@ class HelloWorld extends React.Component {
 }
 ```
 
-**Parting Words**
+## Parting Words
 
 Since the update to ES6, there have been multiple new React iterations. You could now forgo the `constructor` declaration altogether and just declare `state` inline as a class member, or utilize React Hooks as a new way to initialize states. However, the ES5 support remains useful for legacy systems and adds to the overall flexibility of React as a toolset.
 
