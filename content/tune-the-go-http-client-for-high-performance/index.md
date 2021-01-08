@@ -1,6 +1,12 @@
+---
+title: Tune The Go HTTP Client For High-Performance
+date: "2021-01-08"
+coverImage: "index.jpg"
+author: "Mayank Agarwal"
+tags: ["Golang", "http", "performance"]
+description: "Tune your HTTP client to make production ready with high performance."
+---
 # Tune The Go HTTP Client For High-Performance
-
-![Tune The Go HTTP Client For High-Performance](banner.jpg)
 
 ## Overview
 
