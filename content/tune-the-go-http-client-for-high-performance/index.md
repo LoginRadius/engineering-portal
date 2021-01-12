@@ -1,27 +1,26 @@
 ---
 title: Tune The Go HTTP Client For High-Performance
-date: "2021-01-08"
+date: "2021-01-12"
 coverImage: "index.jpg"
 author: "Mayank Agarwal"
-tags: ["Golang", "http", "performance"]
-description: "Tune your HTTP client to make production ready with high performance."
+tags: ["Golang", "HTTP", "Performance"]
+description: "Tune your HTTP client to make production-ready with high performance."
 ---
-# Tune The Go HTTP Client For High-Performance
 
 ## Overview
 
-HTTP(hypertext transfer protocol) is a communication protocol that transfers data between client and server. HTTP requests are very essential to access resources from the same or remote server. In Golang, net Http package comes with the default settings that we need to adjust according to our requirement for high performance.
+HTTP(hypertext transfer protocol) is a communication protocol that transfers data between client and server. HTTP requests are very essential to access resources from the same or remote server. In Golang, the `net/http` package comes with the default settings that we need to adjust according to our high-performance requirement.
 
-While working on the Golang projects, I came to know that improper configuration of HTTP may can crash your server anytime.
+While working on the Golang projects, I realized that improper configuration of HTTP might crash your server anytime.
 
-In the time when I was working with HTTP Client, Observed some problems and there solutions, listed below:
+In the time when I was working with HTTP Client, I Observed some problems and their solutions, listed below:
 
 ### Problem:1 Default Http Client
 
 The HTTP client does not contain the request timeout setting by default.
-If you are using http.Get(URL) or &Client{} that uses the http.DefaultClient. DefaultClient has not timeout setting, it comes with `no timeout`
+If you are using http.Get(URL) or &Client{} that uses the http.DefaultClient. DefaultClient has not timeout setting; it comes with `no timeout`
 
-If the Rest API where you are making the request is broken not sending the response back that keeps the connection open. More request came, open connection count will increase, So will increase the server resources utilization, that will result in crashing you server when resource limits being reached.
+Suppose the Rest API where you are making the request is broken, not sending the response back that keeps the connection open. More requests came, and open connection count will increase, Increasing server resources utilization, resulting in crashing your server when resource limits are reached.
 
 ### Solution: Don't use the default HTTP client, always specify the timeout in http.Client according to your use case
 ```
@@ -35,9 +34,9 @@ If the Requested resource is not responded to in 10 seconds, the HTTP connection
 
 
 ### Problem:2 Default Http Transport
-By default, the Golang Http client performs the connection pooling. When the request completes that connection remains open until the idle connection timeout(default is 90 seconds),  so if another request came, that uses the same established connection instead of creating a new connection, after the idle connection time, the connection will return to the pool.
+By default, the Golang Http client performs the connection pooling. When the request completes, that connection remains open until the idle connection timeout(default is 90 seconds). If another request came, that uses the same established connection instead of creating a new connection, after the idle connection time, the connection will return to the pool.
 
-By using the connection pooling, it will keep less connection open and more requests will be served with minimal server resources
+Using the connection pooling will keep less connection open and more requests will be served with minimal server resources.
 
 When we not defined transport in the http.Client, it uses the default transport [Go HTTP Transport](https://golang.org/src/net/http/transport.go)
 
@@ -54,13 +53,13 @@ var DefaultTransport RoundTripper = &Transport{
 const DefaultMaxIdleConnsPerHost = 2
 ```
 
-MaxIdleConns is the connection pool size, this is the maximum connection that can be open, its default value is 100 connection
+MaxIdleConns is the connection pool size, and this is the maximum connection that can be open; its default value is 100 connections.
 
 There is problem with the default setting `DefaultMaxIdleConnsPerHost` with value of 2 connection, 
-DefaultMaxIdleConnsPerHost is the number of connection can be allowed to open per host basic
-Means for any particular host out of 100 connection from the  Connection pool only 2 connection will be allocated to that host.
+DefaultMaxIdleConnsPerHost is the number of connection can be allowed to open per host basic.
+Means for any particular host out of 100 connection from the  Connection pool only two connection will be allocated to that host.
 
-With the more request came, it will process only 2 requests, other request will wait for the connection to communicate with the host server and go in the `TIME_WAIT` state, As more request came, increase the connection to the `TIME_WAIT` state and increase the server resource utilization, at the limit, the server will crash
+With the more request came, it will process only two requests; other requests will wait for the connection to communicate with the host server and go in the `TIME_WAIT` state. As more request came, increase the connection to the `TIME_WAIT` state and increase the server resource utilization; at the limit, the server will crash.
 
 ### Solution: Don't use Default Transport and increase MaxIdleConnsPerHost
 
