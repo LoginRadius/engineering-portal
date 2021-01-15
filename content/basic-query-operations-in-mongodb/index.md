@@ -1,9 +1,13 @@
 ---
 title: How to Perform Basic Query Operations in MongoDB
 date: "2021-01-15"
+coverImage: "coverImage.png"
 author: "Anil Gupta"
 ---
 # Basic Query Operations in MongoDB
+
+![Basic Query Operations in MongoDB](coverImage.png)
+
 ## Overview
 
 MongoDB is an open source and document oriented database. It’s also a NoSQL database. I assume that you have a basic understanding of the RDBMS and know the querying data from tables. In this blog we will learn how to perform the same basic query operations in MongoDB like RDBMS.
