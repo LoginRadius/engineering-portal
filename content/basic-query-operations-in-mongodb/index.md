@@ -1,3 +1,8 @@
+---
+title: How to Perform Basic Query Operations in MongoDB
+date: "2021-01-15"
+author: "Anil Gupta"
+---
 # Basic Query Operations in MongoDB
 ## Overview
 
