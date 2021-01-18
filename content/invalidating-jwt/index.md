@@ -1,13 +1,12 @@
 ---
 title: "Invalidating JSON Web Tokens"
-date: "2021-01-15"
+date: "2021-01-18"
 coverImage: "unsplash.png"
 author: "Nick Chim"
 tags: ["JSON Web Tokens", "JWT"]
 description: "A discussion on invalidating JSON Web Tokens."
 ---
 
-## Invalidating JSON Web Tokens
 
 As we all know, JSON Web Tokens are a way of sending information between parties in a way where the sender's authenticity can be verified. It is essentially a JSON object with a signature. Using this signature, services that issue these tokens can verify that they are the ones who issued this token and thus can trust the claims which are contained within. 
 
@@ -26,7 +25,7 @@ You can think of an authorization token as an elementary school hall pass. The t
 * Wait till the hall pass expires (wait till the token expiry claim passes). Green hall passes are only valid on Mondays. He can still roam the halls freely for the remainder of Monday (the horror).
 * Change the entire format of the hall pass (change the secret used to sign the token). The crisis has been averted, but now you'll need to handicraft another 5 whole hall passes for the class.
 
-Other than the 3rd option which may or may not be feasible depending on your use case (most likely not), we can see that it is not possible to reliably remove or revoke a token without maintaining state. The solutions that I've looked up on Stack Overflow for invalidating these tokens boil down to relying on some form of state, one way or another. Don't get me wrong however, this is not a bad thing in my opinion. Using JSON Web Tokens can and do allow us to minimize the state that we do have to maintain, with minimal added complexity.
+Other than the 3rd option which may or may not be feasible depending on your use case (most likely not), we can see that it is not possible to reliably remove or revoke a token without maintaining state. The solutions that I've looked upon Stack Overflow for invalidating these tokens boil down to relying on some form of state, one way or another. Don't get me wrong however, this is not a bad thing in my opinion. Using JSON Web Tokens can and do allow us to minimize the state that we do have to maintain, with minimal added complexity.
 
 So let's look at some ways that we can couple state and JSON Web Tokens that allow us to invalidate these tokens effectively.
 
