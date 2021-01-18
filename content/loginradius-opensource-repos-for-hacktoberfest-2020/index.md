@@ -4,7 +4,7 @@ date: "2020-09-25"
 coverImage: "hacktober-fest-banner.png"
 author: "Hridayesh Sharma"
 description: "Checkout LoginRadius Open Source Repositories where you can contribute for hackotberfest 2020"
-tags: ["hacktoberfest", "open-source", "loginradius"]
+tags: ["hacktoberfest", "open-source", "LoginRadius"]
 ---
 
 ## LoginRadius Open Source Projects

@@ -3,7 +3,7 @@ title: "Python Virtual Environment: What is it and how it works?"
 date: "2020-10-16"
 coverImage: "python.jpg"
 author: "Ashish Maharjan"
-tags: ["python"]
+tags: ["Python"]
 description: "We'll cover the basics of virtual environments in this guide and how to use them. We will then take a closer look at how virtual environments actually work."
 ---
 

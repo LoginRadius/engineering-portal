@@ -3,7 +3,7 @@ title: "What's new in the go 1.15"
 date: "2020-09-07"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
-tags: ["Go", "golang","Go 1.15", "Go Features", "Go Improvement", "Go Package", "Go New Features"]
+tags: ["Go", "Golang","Go 1.15"]
 ---
 
 
