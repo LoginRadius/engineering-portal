@@ -3,7 +3,7 @@ title: Speed Up Python Code
 date: "2020-10-15"
 coverImage: "speed-up-python-code-1.jpg"
 author: "Md. Tahmid Hossain"
-tags: ["python", "performance"]
+tags: ["Python", "Performance"]
 description: "Learn a few ways to speed up your python code."
 ---
 
