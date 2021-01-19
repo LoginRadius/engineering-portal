@@ -3,12 +3,13 @@ title: How to Perform Basic Query Operations in MongoDB
 date: "2021-01-15"
 coverImage: "coverImage.png"
 author: "Anil Gupta"
+Description: In this blog, we will learn how query operations can be performed in MongoDB. Also, how we can perform fundamental query operations, as we do in RDBMS.
 tags: ["MongoDB"]
 ---
 
-## Overview
+In this article, we will address how to perform basic query operations in MongoDB. We are producing data at an unparalleled pace now following the global spread of the internet. Since it will require us to collect/request the required data from the database to conduct some kind of analysis, it is of utmost importance that we choose the right tool to query the data.
 
-MongoDB is an open-source and document-oriented database. It’s also a NoSQL database. I assume that you have a basic understanding of the RDBMS and know the querying data from tables. In this blog, we will learn how to perform the same basic query operations in MongoDB like RDBMS.
+This is where MongoDB comes in, specifically. MongoDB is an unstructured database which, in the form of documents, stores data. In addition, MongoDB is very effective in [handling enormous amounts of data](https://www.loginradius.com/blog/async/live-data-migration-mongodb/) and is the most commonly used NoSQL database as it provides rich query language and versatile and easy data access.
 
 ## Create a Sample Database
 
@@ -389,7 +390,7 @@ You can use the $nin operator to retrieve the documents where a field’s value 
 ```
 ### Indexing
 
-We know that indexing is very important if we are performing the queries on a large database. Without indexing execution of a query can be expensive. We can add a simple ascending index on a single field by using the following statement.
+We know that [indexing is very important](https://www.loginradius.com/blog/async/index-in-mongodb/) if we are performing the queries on a large database. Without indexing execution of a query can be expensive. We can add a simple ascending index on a single field by using the following statement.
 ```
 >db.Orders.createIndex({"Customer":1})
 ```
@@ -398,6 +399,6 @@ MongoDB creates a unique index on ‘_id’ field by default. A unique index wil
 db.Orders.createIndex( { "OrderId": 1 }, { unique: true } )
 ```
 
-## Summary
-In this blog, we had a look at some basic query operators in MongoDB. We learned how we can perform basic query operations as we do in RDBMS. We also learned about the simple indexing in MongoDB to perform efficient queries. If this article helps you please share in the comment section.
+## Conclusion
 
+I hope you learned something new today, If you want to learn few more stuff on MongoDB, here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/) I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments below.
