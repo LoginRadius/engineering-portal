@@ -3,19 +3,18 @@ title: How to Perform Basic Query Operations in MongoDB
 date: "2021-01-15"
 coverImage: "coverImage.png"
 author: "Anil Gupta"
-tags: ["MongoDB","Find Query"]
+tags: ["MongoDB"]
 ---
-# Basic Query Operations in MongoDB
 
 ## Overview
 
-MongoDB is an open source and document oriented database. It’s also a NoSQL database. I assume that you have a basic understanding of the RDBMS and know the querying data from tables. In this blog we will learn how to perform the same basic query operations in MongoDB like RDBMS.
+MongoDB is an open-source and document-oriented database. It’s also a NoSQL database. I assume that you have a basic understanding of the RDBMS and know the querying data from tables. In this blog, we will learn how to perform the same basic query operations in MongoDB like RDBMS.
 
 ## Create a Sample Database
 
-Before start we will create a sample DB with some sample data to perform all operations.
+Before the start, we will create a sample DB with some sample data to perform all operations.
 
-We will create a database with name _myDB_ and will create a collection with name _orders_. For this the statement would be as follows.
+We will create a database with name _myDB_ and will create a collection with name _orders_. For this, the statement would be as follows.
 
 
 ```
@@ -79,7 +78,7 @@ _A document is the equivalent of an RDBMS row. It doesn't need to have the same 
 
 ## Query Documents
 ### find() method
-You need to use the find() method to query documents from MongoDB collections. Following statement will retrieve all documents from the collection.
+You need to use the find() method to query documents from MongoDB collections. The following statement will retrieve all documents from the collection.
 ```
 > db.orders.find()
 	{
@@ -236,7 +235,7 @@ _This query can be written also like below_
 >
 ```
 #### 2. $gt Operator
-You can use the $gt operator to retrieve the documents where a field’s value is greater than the specified value. Following statement will fetch the documents where _OrderTotal_ is greater than 800.
+You can use the $gt operator to retrieve the documents where a field’s value is greater than the specified value. The following statement will fetch the documents where _OrderTotal_ is greater than 800.
 ```
 >db.orders.find( { OrderTotal: { $gt: 800.00 } } )
 ```
@@ -255,7 +254,7 @@ SELECT * FROM orders WHERE OrderTotal>800.00
 >
 ```
 #### 3. $gte Operator
-You can use the $gte operator to retrieve the documents where a field’s value is greater than or equal to the specified value. Following statement will fetch the documents where _OrderTotal_ is greater than or equal to 800.
+You can use the $gte operator to retrieve the documents where a field’s value is greater than or equal to the specified value. The following statement will fetch the documents where _OrderTotal_ is greater than or equal to 800.
 ```
 >db.orders.find( { OrderTotal: { $gte: 800.00 } } )
 ```
@@ -279,7 +278,7 @@ SELECT * FROM orders WHERE OrderTotal>=800.00
 >
 ```
 #### 4. $lt Operator
-You can use the $lt operator to retrieve the documents where a field’s value is less than the specified value. Following statement will fetch the documents where _OrderTotal_ is less than 800.
+You can use the $lt operator to retrieve the documents where a field’s value is less than the specified value. The following statement will fetch the documents where _OrderTotal_ is less than 800.
 ```
 >db.orders.find( { OrderTotal: { $lt: 800.00 } } )
 ```
@@ -342,7 +341,7 @@ SELECT * FROM orders WHERE PaymentMode != "Card"
 ```
 
 #### 6. $in Operator
-You can use the $in operator to retrieve the documents where a field’s value is equal to the any value in the specified array.
+You can use the $in operator to retrieve the documents where a field’s value is equal to any value in the specified array.
 ```
 >db.orders.find( { OrderItems.ItemName: { $in: ["journal","paper"] } } )
 ```
@@ -371,7 +370,7 @@ You can use the $in operator to retrieve the documents where a field’s value i
 >
 ```
 #### 7. $nin Operator
-You can use the $nin operator to retrieve the documents where a field’s value is not equal to the any value in the specified array. It will also select the documents where the field does not exist.
+You can use the $nin operator to retrieve the documents where a field’s value is not equal to any value in the specified array. It will also select the documents where the field does not exist.
 ```
 >db.orders.find( { OrderItems.ItemName: { $nin: ["journal","paper"] } } )
 ```
@@ -394,11 +393,11 @@ We know that indexing is very important if we are performing the queries on a la
 ```
 >db.Orders.createIndex({"Customer":1})
 ```
-MongoDB creates an unique index on ‘_id’ field by default. A unique index will prevent insertion of two documents with the same value for that field. If you want to create an unique index then the statement would be as follows.
+MongoDB creates a unique index on ‘_id’ field by default. A unique index will prevent insertion of two documents with the same value for that field. If you want to create a unique index then the statement would be as follows.
 ```
 db.Orders.createIndex( { "OrderId": 1 }, { unique: true } )
 ```
 
-## Summery
-In this blog we had a look on some basic query operators in MongoDB. We learned how we can perform basic query operations as we do in RDBMS. We also learned about the simple indexing in MongoDB to perform efficient queries. If this article helps you please share in the comment section.
+## Summary
+In this blog, we had a look at some basic query operators in MongoDB. We learned how we can perform basic query operations as we do in RDBMS. We also learned about the simple indexing in MongoDB to perform efficient queries. If this article helps you please share in the comment section.
 
