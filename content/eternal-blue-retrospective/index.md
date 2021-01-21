@@ -42,26 +42,26 @@ Scary stuff, right? Should you still be worried about EternalBlue in 2020? Well,
 But what can you do, you might ask? If we can take one thing from all of this, we should stop using SMB over the internet. EternalBlue is undoubtedly not the last SMB related exploit. Blue's younger brother, SMBleed (CVE-2020-1206), is a new vulnerability and works very similar. It was only patched by Microsoft in June of this year.
 
 ### Used Sources
-https://arstechnica.com/information-technology/2017/04/nsa-leaking-shadow-brokers-just-dumped-its-most-damaging-release-yet/
+https<span></span>://arstechnica.com/information-technology/2017/04/nsa-leaking-shadow-brokers-just-dumped-its-most-damaging-release-yet/
 
-https://research.checkpoint.com/2017/eternalblue-everything-know/
+https<span></span>://research.checkpoint.com/2017/eternalblue-everything-know/
 
-https://docs.microsoft.com/nl-nl/security-updates/securitybulletins/2010/ms10-017
+https<span></span>://docs.microsoft.com/nl-nl/security-updates/securitybulletins/2010/ms10-017
 
-https://www.independent.co.uk/news/uk/home-news/nissan-sunderland-cyber-attack-ransomware-nhs-malware-wannacry-car-factory-a7733936.html
+https<span></span>://www.independent.co.uk/news/uk/home-news/nissan-sunderland-cyber-attack-ransomware-nhs-malware-wannacry-car-factory-a7733936.html
 
-https://www.cbsnews.com/news/hospitals-across-britain-hit-by-ransomware-cyberattack/
+https<span></span>://www.cbsnews.com/news/hospitals-across-britain-hit-by-ransomware-cyberattack/
 
-https://www.bbc.com/news/world-europe-39907965
+https<span></span>://www.bbc.com/news/world-europe-39907965
 
-https://www.bbc.com/news/technology-40706093
+https<span></span>://www.bbc.com/news/technology-40706093
 
-https://www.nytimes.com/2017/06/28/world/europe/ukraine-ransomware-cyberbomb-accountants-russia.html
+https<span></span>://www.nytimes.com/2017/06/28/world/europe/ukraine-ransomware-cyberbomb-accountants-russia.html
 
-https://www.independent.co.uk/news/world/europe/chernobyl-ukraine-petya-cyber-attack-hack-nuclear-power-plant-danger-latest-a7810941.html
+https<span></span>://www.independent.co.uk/news/world/europe/chernobyl-ukraine-petya-cyber-attack-hack-nuclear-power-plant-danger-latest-a7810941.html
 
-https://www.securityweek.com/smbleed-vulnerability-impacts-windows-smb-protocol
+https<span></span>://www.securityweek.com/smbleed-vulnerability-impacts-windows-smb-protocol
 
-https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/putting-the-eternal-in-eternalblue-mapping-the-use-of-the-infamous-exploit
+https<span></span>://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/putting-the-eternal-in-eternalblue-mapping-the-use-of-the-infamous-exploit
 
-https://www.darkreading.com/vulnerabilities---threats/eternalblue-longevity-underscores-patching-problem/d/d-id/1337233
+https<span></span>://www.darkreading.com/vulnerabilities---threats/eternalblue-longevity-underscores-patching-problem/d/d-id/1337233

@@ -100,12 +100,12 @@ NIST creates a set of rules or guidelines for the businesses that are providing 
 I have explained why we needed a strong password policy & compliance. It doesn't matter how strong a password you are using, but bad guys are using new methods or technologies for exposing the user data.
 Most of the data breaches are happing because of Common or weak passwords. MFA, passwordless, or one-time password are providing additional security for a user account.  
 
-### Source
+### Source 
 
-https://www.fda.gov/food/online-registration-food-facilities/random-password-generator-fda-industry-systems
+https<span></span>://www.fda.gov/food/online-registration-food-facilities/random-password-generator-fda-industry-systems
 
-https://uwm.edu/hipaa/security-guidelines/#password
+https<span></span>://uwm.edu/hipaa/security-guidelines/#password
 
-https://pcipolicyportal.com/blog/pci-compliance-password-requirements-best-practices-know/
+https<span></span>://pcipolicyportal.com/blog/pci-compliance-password-requirements-best-practices-know/
 
-https://spycloud.com/new-nist-guidelines/
+https<span></span>://spycloud.com/new-nist-guidelines/
