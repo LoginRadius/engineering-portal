@@ -1,17 +1,17 @@
 ---
-title: "Istio Service Mesh: Installation and Service Configuration"
+title: "How to Install and Configure Istio"
 date: "2021-01-22"
 coverImage: "Istio.png"
 author: "Piyush Kumar"
 tags: ["Istio", "Service Mesh"]
-description: "This post will provide steps to install and configure services using Istio."
+description: "This article will provide a step by step process on how to install and configure services using Istio."
 ---
 
+An infrastructure layer that allows you to manage communication between the microservices of your application is a service mesh. As more developers work with microservices, by consolidating common management and administrative tasks in a distributed setup, service meshes have developed to make the job easier and more effective.
 
-For basics on Istio and its terminologies, visit https://www.loginradius.com/blog/async/istio-service-mesh.
+To know more about Istio, you can read this article on [Istio service mesh](https://www.loginradius.com/blog/async/istio-service-mesh) to understand the basic terminology, In this tutorial, will explain how to install and configure Istio. Let's get started.
 
-
-# Installing Istio
+## Installing Istio
 
 Get the latest Istio release:
 ```
@@ -71,7 +71,7 @@ podAnnotations:
 	sidecar.istio.io/inject: "false"
 ```
 
-# Configuring Services
+## Configuring Services
 
 For demonstration, we will take two demo services demo-1 and demo-2, and configure both services with Istio, and will try to call demo-2 service from demo-1. Make sure there is an env variable in demo-1, which we will configure with demo-2 internal DNS url. The programming language for the two services does not matter here.
 
