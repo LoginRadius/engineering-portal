@@ -1,16 +1,12 @@
- 
 ---
 title: "Integration with electronic identity ( eID) "
 date: "2021-01-24"
 coverImage: "Integration_with_eID.jpg"
 author: "Jitender Agarwal"
 tags: ["electronic identity", "Bank ID", "Criipto", "LoginRadius"]
-description: "An electronic identity is an electronic card or device with a unique identity number issued by either a government agency or some banks.LoginRadius supports all the major industry federated SSO methods. Hence, you can integrate eID authentication with LoginRadius using some third application like Criipto, which supports the industry-standard SSO methods" 
----
+description: "An electronic identity is an electronic card or device with a unique identity number issued by either a government agency or some banks.LoginRadius supports all the major industry federated SSO methods. Hence, you can integrate eID authentication with LoginRadius using some third application like Criipto, which supports the industry-standard SSO methods"
+--- 
 
-
-## Integration with electronic identity ( eID) 
----
 E-commerce business is growing day by day as it saves time and cost for people traveling to meet or perform businesses in person. More people are conducting business online by creating accounts using email or phone verification. This has posed a challenge for everyone to identify the persons who we are claiming online. Online hackers have used false Identity to deceive or defraud someone else. Hence, Electronic Identity ( eID) provides a way for businesses to verify a person's identity online and reduce the chances of Identity Fraud. 
 ### What is an electronic identity?
 ---
