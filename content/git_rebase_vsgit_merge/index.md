@@ -1,6 +1,6 @@
 ---
-title: Git merge vs. Git Rebase: What's the difference?
-date: "2021-01-25"
+title: "Git merge vs. Git Rebase: What's the difference?"
+date: "2021-01-27"
 coverImage: "merge.png"
 author: "Abhimanyu Singh Rathore"
 description: "In this post, I will give you a walkthrough on merge and rebase, comparing Git rebase vs. Git merge to find out the similarities and differences."
