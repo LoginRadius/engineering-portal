@@ -62,8 +62,8 @@ https://maven.apache.org/download.cgi
 
 - Open pom.xml file to add necessary dependencies 
   
- 	```
-  <dependency>
+	```
+	<dependency>
 		<groupId>io.cucumber</groupId>
 		<artifactId>cucumber-java</artifactId>
 		<version>6.6.0</version>
