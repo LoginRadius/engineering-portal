@@ -1,5 +1,5 @@
 ---
-title: "Integration with electronic identity ( eID) "
+title: "Integration with electronic identity (eID) "
 date: "2021-01-29"
 coverImage: "Integration_with_eID.jpg"
 author: "Jitender Agarwal"
