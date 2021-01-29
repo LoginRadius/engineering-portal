@@ -1,6 +1,6 @@
 ---
 title: "How to Work with Nullable Types in C#"
-date: "2021-01-28"
+date: "2021-01-29"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
 tags: ["C#","Nullable"]
