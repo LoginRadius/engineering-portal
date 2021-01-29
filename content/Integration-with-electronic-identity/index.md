@@ -10,7 +10,7 @@ description: "An electronic identity is an electronic card or device with a uniq
 E-commerce business is growing day by day as it saves time and cost for people traveling to meet or perform businesses in person. More people are conducting business online by creating accounts using email or phone verification. This has posed a challenge for everyone to identify the persons who we are claiming online. Online hackers have used false Identity to deceive or defraud someone else. Hence, Electronic Identity ( eID) provides a way for businesses to verify a person's identity online and reduce the chances of Identity Fraud.
 
 ## What is an electronic identity?
----
+
 Electronic identity is an electronic card or device with a unique identity number issued by either a government agency or some banks. A consumer needs to go to the government agency or some banks and show valid identity documents. After the document verification, an Electronic Identity is issued to the consumer. Examples of e-IDs are Danish NemID, Swedish BankID, and Dutch DigiD.
  
 Most service providers such as financial institutions and insurance firms provide services online and are recognizing an opportunity in implementing eID due to strict Know Your Customer (KYC) and Anti-Money Laundering (AML) requirements.
@@ -18,7 +18,7 @@ Most service providers such as financial institutions and insurance firms provid
 eIDs are used to authenticate consumers online across multiple platforms and services. eIDs also allow the consumers to sign documents online, and the companies can trust the signature as the electronic identity is issued by the government or banks based on physical identity documents. This is fast, convenient, and secure for the consumers as they are saved from completing registration forms for multiple services. Hence, this increases the conversion for the businesses. 
  
 ## Integrating eID authentication with LoginRadius
----
+
 LoginRadius supports all the major industry federated SSO methods. Hence, you can integrate eID authentication with LoginRadius using some third application like Criipto, which supports the industry-standard SSO methods. Criipto allows the integration of an eID with the LoginRadius application using JWT SSO Login flow.  Jason Web Token ( JWT) is a signed token that transfers the information from one service to another securely. 
  
 ### Prerequisite
