@@ -1,12 +1,11 @@
 ---
-title: "Nullable types in C#"
+title: "How to Work with Nullable Types in C#"
 date: "2021-01-28"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
 tags: ["C#","Nullable"]
-description: "In this article, we will learn about Nullable types in C#."
+description: "Nullable is a term in C# that allows an extra value null to be owned by a form. We will learn in this article how to work with Nullable types in C#."
 ---
-## Introduction
  
 In C#, We have majorly two types of data types *Value* and *Reference* type. We can not assign a null value directly to the Value data type. In this case, C# 2.0 provides us the Nullable types to assign a value data type to null. 
 
@@ -44,7 +43,7 @@ Nullable<int> b = 9;
 Console.WriteLine(b.HasValue); // Print True
 ```
 
-**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` exception when the variable value is null.
+**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` [exception when the variable](https://www.loginradius.com/blog/async/exception_handling_in_csharp/) value is null.
 
 ```c#
 Nullable<int> a = null;
@@ -117,4 +116,4 @@ In the above example, if the variable a value is null,, it will assign the value
  
 ## Conclusion
 
-In this article, We have discussed the Nullable types, and it's properties and methods. The main advantage of using the Nullable types is that we can store the Null value in a column of a database using this type.
+In this article, We have discussed the Nullable types, and it's properties and methods. The main advantage of using the Nullable types is that we can store the Null value in a column of a database using this type. If you want to learn more about C# here is an article written by me on [How to Use Enum in C#](https://www.loginradius.com/blog/async/enum-csharp/)
