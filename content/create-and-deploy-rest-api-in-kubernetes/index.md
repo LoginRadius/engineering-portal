@@ -118,7 +118,7 @@ node_modules
 ```
 
 Then, build the image and push it to the Docker Hub registry:
-- If you want to skip this step, you can use the existing image [here](https://hub.docker.com/repository/docker/andyy5/my-backend-api).
+- If you want to skip this step, you can use the existing image [here](https://hub.docker.com/r/andyy5/my-backend-api).
 
 ```
 docker build -t <YOUR_DOCKER_ID>/my-backend-api .
