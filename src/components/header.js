@@ -71,6 +71,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
+                    class="ga_event"
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
