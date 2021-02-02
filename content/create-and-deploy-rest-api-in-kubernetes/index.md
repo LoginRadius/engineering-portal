@@ -4,26 +4,26 @@ date: "2021-01-29"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Kubernetes"]
-description: "Guide on creating and deploying a REST API in local Kubernetes"
+description: "Guide on creating and deploying a REST API in local Kubernetes."
 ---
 
 
 This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a simple API to deploy.
 
-There are already a lot of great free resources available explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners, but assumes you already have a basic understanding of Kubernetes and Docker concepts.
+There are already a lot of great free resources available explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners but assumes you already have a basic understanding of Kubernetes and Docker concepts.
 
 ## Set Up Local Kubernetes
 
-There's a couple options for running Kubernetes locally, with the most popular ones including [minikube](https://github.com/kubernetes/minikube), [k3s](https://github.com/k3s-io/k3s), [kind](https://github.com/kubernetes-sigs/kind), [microk8s](https://github.com/ubuntu/microk8s). In this guide, any of these will work, but we will be using k3s because of it's lightweight installation.
+There's a couple options for running Kubernetes locally, with the most popular ones including [minikube](https://github.com/kubernetes/minikube), [k3s](https://github.com/k3s-io/k3s), [kind](https://github.com/kubernetes-sigs/kind), [microk8s](https://github.com/ubuntu/microk8s). In this guide, any of these will work, but we will be using k3s because of the lightweight installation.
 
-Install [k3d](https://github.com/rancher/k3d), which is a utility for running k3s. k3s will be running in Docker, so make sure you have that installed as well. For this blog, k3d v4.0 is being used.
+Install [k3d](https://github.com/rancher/k3d), which is a utility for running k3s. k3s will be running in Docker, so make sure you have that installed as well. We used k3d v4.0 in this blog.
 
 ```
 curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 ```
 
 Set up a cluster named test:
-- The port flag is for mapping port 80 from our machine to port 80 on the k3s load balancer. This is needed later when we use Ingress.
+- The port flag is for mapping port 80 from our machine to port 80 on the k3s load balancer. This is needed later when we use the Ingress.
 
 ```
 k3d cluster create test -p "80:80@loadbalancer"
@@ -36,13 +36,13 @@ kubectl config view
 kubectl config current-context
 ```
 
-Optionally, check in Docker that k3s is running. There should be 2 containers up, one for k3s and the other for load balancing:
+Optionally, confirm that k3s is running in Docker. There should be two containers up, one for k3s and the other for load balancing:
 
 ```
 docker ps
 ```
 
-Make sure that all the pods are running. If they are stuck in pending status, it may be that there is not enough disk space on your machine. You can get more information with describe:
+Make sure that all the pods are running. If they are stuck in pending status, it may be that there is not enough disk space on your machine. You can get more information by describing:
 
 ```
 kubectl get pods -A
@@ -57,7 +57,7 @@ kubectl api-resources
 
 ## Create a Simple API
 
-We will create a very simple API using Express.js.
+We will create a simple API using Express.js.
 
 Set up the project:
 
@@ -86,7 +86,7 @@ app.listen(80, () => {
 });
 ```
 
-Optionally, you can try running it if you have Node.js installed, and test the endpoint /user/{id} with curl:
+Optionally, you can try running it if you have Node.js installed and test the endpoint /user/{id} with curl:
 
 ```
 node server.js
@@ -209,17 +209,17 @@ Once the pod is running, the API is accessible within the cluster only. One quic
 kubectl port-forward my-backend-api-84bb9d79fc-m9ddn 3000:80
 ```
 
-- Now you can send a curl request from your machine
+- Now, you can send a curl request from your machine
 
 ```
 curl http://localhost:3000/user/123
 ```
 
-To properly manage external access to the services in a cluster, we need to use ingress. Close the port-forwarding and let's expose our API by creating an ingress resource.
+To correctly manage external access to the services in a cluster, we need to use Ingress. Close the port-forwarding and let's expose our API by creating an ingress resource.
 - An ingress controller is also required, but k3d by default deploys the cluster with a Traefik ingress controller (listening on port 80).
 - Recall that when we created our cluster, we set a port flag with the value "80:80@loadbalancer". If you missed this part, go back and create your cluster again.
 
-Create a Ingress resource with the following YAML file:
+Create an Ingress resource with the following YAML file:
 
 ```
 kubectl create -f ingress.yaml
@@ -253,4 +253,4 @@ spec:
 curl http://localhost:80/user/123
 ```
 
-If you want to learn more on how to deploy using a managed Kubernetes service in the cloud, such as Google Kubernetes Engine, then check out the awesome guides on the official Kubernetes docs [here](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
+If you want to learn more on how to deploy using a managed Kubernetes service in the cloud, such as Google Kubernetes Engine, then check out the excellent guides on the official Kubernetes docs [here](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
