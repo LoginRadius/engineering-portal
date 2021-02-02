@@ -24,7 +24,7 @@ const FreeTrial = () => {
             </p>
           </div>
           <a
-            className={"btn-primary"}
+            className={"btn-primary ga_event"}
             href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
             target="_blank"
             rel="noopener noreferrer"
