@@ -175,7 +175,7 @@ const Post = ({ post, relatedPost }) => {
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
                 <a
-                  className={"btn-primary"}
+                  className={"btn-primary ga_event"}
                   href={"https://www.loginradius.com/docs/developer"}
                   key={"docs-link"}
                   target="_blank"
@@ -216,7 +216,7 @@ const Post = ({ post, relatedPost }) => {
                 1.17 billion users worldwide.
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
-                  className={"btn-primary btn-cta"}
+                  className={"btn-primary btn-cta ga_event"}
                   onClick={() =>
                     eventLogger({
                       category: "LoginRadius Home",

@@ -43,6 +43,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               href={"https://www.loginradius.com/resources/#live-product-demo"}
               key={"live_demo"}
               target="_blank"
+              class="ga_event"
               rel="noopener noreferrer"
               onClick={() => demologger()}
             >
@@ -84,7 +85,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
               <a
-                className={"btn-primary small"}
+                className={"btn-primary small ga_event"}
                 href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
                 target="_blank"
                 rel="noopener noreferrer"
