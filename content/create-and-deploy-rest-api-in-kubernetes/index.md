@@ -1,18 +1,19 @@
 ---
-title: "Deploy a REST API in Kubernetes"
+title: "How to Deploy REST API in Kubernetes"
 date: "2021-01-29"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Kubernetes"]
-description: "Guide on creating and deploying a REST API in local Kubernetes."
+description: "The Kubernetes API is the front end of the Kubernetes control plane, Check out how to create and deploy a REST API in local Kubernetes."
 ---
 
+The Kubernetes API is the front end of the control plane of Kubernetes and is how users communicate with their cluster of Kubernetes. The server of the API decides whether a request is legitimate and processes it afterwards.
 
-This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a simple API to deploy.
+This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a [simple API](https://www.loginradius.com/blog/async/what-is-an-api/) to deploy.
 
-There are already a lot of great free resources available explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners but assumes you already have a basic understanding of Kubernetes and Docker concepts.
+There are already a lot of [free resources available](https://www.quora.com/What-are-the-best-resources-to-learn-Kubernetes) explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners but assumes you already have a [basic understanding of Kubernetes](https://www.loginradius.com/blog/async/understanding-kubernetes/) and Docker concepts.
 
-## Set Up Local Kubernetes
+## 1. Set Up Local Kubernetes
 
 There's a couple options for running Kubernetes locally, with the most popular ones including [minikube](https://github.com/kubernetes/minikube), [k3s](https://github.com/k3s-io/k3s), [kind](https://github.com/kubernetes-sigs/kind), [microk8s](https://github.com/ubuntu/microk8s). In this guide, any of these will work, but we will be using k3s because of the lightweight installation.
 
@@ -55,7 +56,7 @@ There's a lot of kubectl commands you can try, so I recommend checking out the l
 kubectl api-resources
 ```
 
-## Create a Simple API
+## 2. Create a Simple API
 
 We will create a simple API using Express.js.
 
@@ -125,7 +126,7 @@ docker build -t <YOUR_DOCKER_ID>/my-backend-api .
 docker push <YOUR_DOCKER_ID>/my-backend-api
 ```
 
-## Deploy
+## 3. Deploy
 
 Now, we deploy the image to our local Kubernetes cluster. We use the default namespace.
 
@@ -253,4 +254,6 @@ spec:
 curl http://localhost:80/user/123
 ```
 
-If you want to learn more on how to deploy using a managed Kubernetes service in the cloud, such as Google Kubernetes Engine, then check out the excellent guides on the official Kubernetes docs [here](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
+In this walkthrough, we have just scratched the surface. See the [API guide](https://kubernetes.io/docs/reference/) for additional tools. It would be a good idea to follow the API modifications community board for this knowledge for power users considering editing the API in which Kubernetes comes bundled.
+
+If you want to learn more on how to deploy using a managed Kubernetes service in the cloud, such as Google Kubernetes Engine, then check out the excellent guides on the [official Kubernetes docs](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
