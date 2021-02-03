@@ -1,13 +1,11 @@
 ---
-title: "How to Deploy REST API in Kubernetes"
+title: "How to Deploy a REST API in Kubernetes"
 date: "2021-02-03"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Kubernetes"]
-description: "The Kubernetes API is the front end of the Kubernetes control plane, Check out how to create and deploy a REST API in local Kubernetes."
+description: "Beginner guide on how to create and deploy a REST API in local Kubernetes."
 ---
-
-The Kubernetes API is the front end of the control plane of Kubernetes and is how users communicate with their cluster of Kubernetes. The server of the API decides whether a request is legitimate and processes it afterwards.
 
 This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a [simple API](https://www.loginradius.com/blog/async/what-is-an-api/) to deploy.
 
@@ -24,7 +22,7 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 ```
 
 Set up a cluster named test:
-- The port flag is for mapping port 80 from our machine to port 80 on the k3s load balancer. This is needed later when we use the Ingress.
+- The port flag is for mapping port 80 from our machine to port 80 on the k3s load balancer. This is needed later when we use ingress.
 
 ```
 k3d cluster create test -p "80:80@loadbalancer"
@@ -43,7 +41,7 @@ Optionally, confirm that k3s is running in Docker. There should be two container
 docker ps
 ```
 
-Make sure that all the pods are running. If they are stuck in pending status, it may be that there is not enough disk space on your machine. You can get more information by describing:
+Make sure that all the pods are running. If they are stuck in pending status, it may be that there is not enough disk space on your machine. You can get more information by using the describe command:
 
 ```
 kubectl get pods -A
@@ -216,7 +214,7 @@ kubectl port-forward my-backend-api-84bb9d79fc-m9ddn 3000:80
 curl http://localhost:3000/user/123
 ```
 
-To correctly manage external access to the services in a cluster, we need to use Ingress. Close the port-forwarding and let's expose our API by creating an ingress resource.
+To correctly manage external access to the services in a cluster, we need to use ingress. Close the port-forwarding and let's expose our API by creating an ingress resource.
 - An ingress controller is also required, but k3d by default deploys the cluster with a Traefik ingress controller (listening on port 80).
 - Recall that when we created our cluster, we set a port flag with the value "80:80@loadbalancer". If you missed this part, go back and create your cluster again.
 
@@ -253,7 +251,5 @@ spec:
 ```
 curl http://localhost:80/user/123
 ```
-
-In this walkthrough, we have just scratched the surface. See the [API guide](https://kubernetes.io/docs/reference/) for additional tools. It would be a good idea to follow the API modifications community board for this knowledge for power users considering editing the API in which Kubernetes comes bundled.
 
 If you want to learn more on how to deploy using a managed Kubernetes service in the cloud, such as Google Kubernetes Engine, then check out the excellent guides on the [official Kubernetes docs](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
