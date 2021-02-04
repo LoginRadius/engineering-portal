@@ -1,9 +1,12 @@
-﻿title: "What is API Testing and It's benefits during Software Development"
+﻿---
+title: "What is API Testing and It's benefits during Software Development."
 date: "2021-02-04"
-coverImage: ""
+coverImage: "api-testing.png"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "API Testing", "Agile", "Benefits of API Testing"]
-description: "This article is about what is API testing and its importance / benefits in Software development"
+description: "This article is about what is API testing and its importance / benefits in Software development."
+---
+
 
 **What is API Testing?**
 Application Programming Interface often called as **API**. An API is a set of methods, procedures that developers “open up” to other programmers in order to have their applications communicate and interact with other applications. Once an API is built, it is necessary to test the interface to provide truly secure, reliable and scalable connections between platforms.
