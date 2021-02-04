@@ -98,7 +98,7 @@ https://maven.apache.org/download.cgi
  ```
  Feature: Login Functionality
  @validLogin
- Scenario: User Should Login With Valid Scredentials 
+ Scenario: User Should Login With Valid Credentials 
     Given Post Login API
     When Provide Valid Credential
     Then Status_code equals 200    
