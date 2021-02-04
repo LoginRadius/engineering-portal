@@ -1,6 +1,6 @@
 ---
 title: "Image Colorizer Tool - Kolorizer; to help you match the imagery on a website with your brand"
-date: "2021-01-27"
+date: "2021-02-03"
 coverImage: "cover.jpg"
 author: "Max Sergeyenko"
 tags: ["Design","Photos","Brand"]
