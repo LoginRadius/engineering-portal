@@ -1,7 +1,7 @@
 ---
 title: "PWA vs Native App: Which one is Better for you?"
-date: "2020-01-29"
-coverImage: "index.jpg"
+date: "2021-02-04"
+coverImage: "index.png"
 author: Nathan Nguyen
 tags: ["Progressive App", "PWA", "JavaScript"]
 description: "How do Native Apps compare to Progressive Web Apps, and which platform does your company use to communicate with your clients? read on!"
