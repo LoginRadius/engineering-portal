@@ -116,7 +116,7 @@ LoginRadius supports various forms of biometric authentication e.g. TouchID. You
 
 **Pros:** It is extremely difficult to hack biometrics. 
 
-**Cons:** You can only login into the devices with biometric verification capabilities. The registered services can misuse your biometrics. Once your biometrics are hacked, you can not use it for any applications in the future. 
+**Cons:** You can only login into the devices with biometric verification capabilities. The registered services can misuse your biometrics. Once your biometrics are hacked, you can not use them for any applications in the future. 
 
 
 ## Location factor 
@@ -130,10 +130,10 @@ When the consumer tries to log in to a device, the device location is derived fr
 
 **Cons:** You can only access the device in specific locations or devices. 
 
-You can leverage any Multi-factor Authentication method to improve security over the traditional username and password authentication. But none of the MFA methods is 100% foolproof and should not be used as a single factor of account protection. Also,  MFA causes the login process longer for the consumer. Hence, the choice of any or combination of  MFA methods depends on your business requirements around security and user experience. Here are the some recommendations: 
+You can leverage any Multi-factor Authentication method to improve security over the traditional username and password authentication. But none of the MFA methods is 100% foolproof and should not be used as a single factor of account protection. Also,  MFA causes the login process longer for the consumer. Hence, the choice of any or combination of  MFA methods depends on your business requirements around security and user experience. Here are some recommendations: 
 
 
 
-*   U2F keys provide the best security layer especially for. remote users allowing them to access the system securely while on the outside the company network. Also, if the U2F keys are compromised, you can simply order a new device to update it.
+*   U2F keys provide the best security layer especially for. remote users allowing them to access the system securely while outside the company network. Also, if the U2F keys are compromised, you can simply order a new device to update it.
 *   Most consumers carry cell phones these days, hence, SMS authentication provides the best user experience as they don’t have to install any software or memorize answers. 
 *   Time-Based One Time Password (TOTP)  via authenticator app provides better security than SMS authenticator but requires the consumer to install the software. It falls between U2F and SMS authentication for convenience and security purposes. 
