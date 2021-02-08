@@ -1,37 +1,38 @@
 ---
-title: "Cloud Cost Optmization"
+title: "Cloud Cost Optimization in 2021"
 date: "2020-07-09"
 coverImage: "cloud.png"
 author: "Vijay Singh Shekhawat"
+description: Optimization of cloud costs lowers spending by recognizing mismanaged capital, reserving higher discount space, and proper sizing.
 tags: ["Cloud", "Optmization"]
 ---
 
+Cloud Cost Optimization is the method of reducing the total cloud spending by finding mismanaged capital and scale-up of Right Sizing computing services. CCO only charge for the services you use, the cloud gives companies infinite scalability and lower IT costs.
 
-Organizations adopting cloud infrastructure also they are increasingly working with multiple cloud providers. 
-"By 2021, over 75% of midsize and large organizations will have adopted a multi-cloud and/or hybrid IT strategy."
-Gartner Predicts
+1. As per Gartner [report](https://www.gartner.com/smarterwithgartner/4-trends-impacting-cloud-adoption-in-2020/) cloud cost optimization is the first factor that will impact cloud adoption in 2020. Also Gartner predicts *"75% of midsize and large organizations will have adopted a multi-cloud and/or hybrid IT strategy in 2021."*
 
-A recent [Gartner](https://www.gartner.com/smarterwithgartner/4-trends-impacting-cloud-adoption-in-2020/) report cloud cost optimization is the first factor that will impact cloud adoption in 2020. There all some other factors also but they will come in the future  
+2. As [per G2](https://research.g2.com/insights/2020-trends/it-cloud-computing-trends-2020) *"General necessity for a broad hardware stack will fade away as solutions become increasingly cloud-driven, virtualized, and software-defined. “Appliance-attached” solutions will decline in favor of dedicated, pure software solutions performing similar functions.*
 
-### Infrastructure Journey
-##### On-Premise
+## Infrastructure Journey
+
+### On-Premise
 On-Premise Infrastructure was only option around 10 years ago but managing On-premise Infrastructure include the extra cost with other challenges, Challenges are Network, Hardware, Cooling, Power, Space also needed technical staff for taking care all infrastructure
 
-##### Colocation
+### Colocation
 The Colocation is when a business places its own server in a third-party data center and uses its infrastructure services. Colocation takes responsibility for Network, Hardware, Cooling, Space also business not need to worry about technical man force for managing servers
 
 Still business have more challenges OS software, Application security, Data storage   
 
-##### Cloud 
+### Cloud 
  
 The Cloud service provider is providing solutions for all the challenges. The cloud service provider takes total responsibility for hardware, network, space, power, maintaining, and security also they are managing all technical workforce for the whole infrastructure 
 
   ![infra 1](infra1.png)
   
-#### How to Reduce Cloud Cost 
+## How to Reduce Cloud Cost 
 Reducing Cloud cost is not a one time task. it is a recurring process. We need to identify underutilized resources, Right size machine, reserving capacity for higher discounts also need to optimization Application for reducing hardware cost. Let's start 
  
-#### Choose the Right Cloud Provider 
+### Choose the Right Cloud Provider 
 Cloud infrastructure is increasing day by day. Choosing the right cloud provider is the most important decision for long term success. The big three cloud providers are  Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). These three cloud providers are providing mostly services so they might be confused about choosing the right cloud provider. We can easily evaluate the right cloud provider from the following steps
 
 - Compliance
@@ -41,16 +42,16 @@ Cloud infrastructure is increasing day by day. Choosing the right cloud provider
 - Pricing structure
 - Location wise availability 
 
-#### Discounted Instances
+### Discounted Instances
 All Big Cloud Providers are providing discounted Instances or spot instances. Spot instances are unused instances. Cloud Providers offered up to 90% discount on these instances compared to on-demand or reserved instances. The majority of organizations have some workloads that are not critical, We can reduce the cost for not critical workload by using spot instances. AWS, Azure, and Google (GCP) all provide the option to use Spot Instances.
 - AWS Spot Instances 
 - Azure Low Priority VMS
 - GCP Preemptible VMS
 
-#### Identify Instance Right Size  
+### Identify Instance Right Size  
 Identify the right size for the Instance, not an easy task. We need to configure multiple matrices in our cloud service provider. Key metrics to look for are CPU and memory usage. Identify instances with a maximum CPU usage and memory usage of the month.
 
-###### How Check metrics
+## How to Check Metrics
 Generally, people make mistakes during checking metrics. Most of the people prefer averages in monitoring but averages mislead the measurement. Let understand this by example 
 
 You are running an online technology tutorial site. Suppose 1million active users on your website in normal days. Now you are hosting weekly technology webinars in your platform. During webinars time your platform traffic should increase. At that time CPU usages and memory usages should be high compared to the rest of the time. Now suppose you have checked the 24 hours average CPU usages and memory usages. It was around 40% and you have decided this is underutilized and scale down the lower size instance. It can impact you 5% - 10% traffic Let’s look at a real-world example. This chart shows the overall CPU usages 
@@ -89,15 +90,14 @@ If you do a lot of cross-region transfer, it will increase your network data tra
 ### Cost visibility
 This includes knowing what you spend in detail, how specific services are billed, and the ability to display how (or why) you spent a specific amount Here, keep in mind key capabilities such as the ability to create shared accountability, hold frequent cost reviews, analyze trends, and visualize the impact of your actions on a near-real-time basis. You can also use cost controls like budget alerts and quotas to keep your costs in check over time. 
 
-#### Consider a Multi-Cloud Architecture
+### Consider a Multi-Cloud Architecture
 Enterprises or Mid Level companies are adopting multi-cloud infrastructure. Consider this recent prediction from IDC: “By 2020, over 90% of enterprises will use multiple cloud services and platforms.” Or this one from 451 Research: “The future of IT is multi-cloud and hybrid with 69% of respondents planning to have some type of multi-cloud environment by 2019.”  
 
-##### Benefits of multi-cloud Architecture
+### Benefits of multi-cloud Architecture
 - Low latency
 - Competitive Pricing
 - more compliance options
 - Enhanced Security 
  
-### Conclusion
-Organizations need to develop a cost optimization culture and awareness. Cost optimization is an ongoing activity in the organization. Need to decide someone responsible for the cost optimization it can be an Engineering team or DevOps team. Most cloud providers provide billing alarm’s they can alert you in case of cost increment also we can configure budget in the Cloud provider dashboard
- 
+## Conclusion
+Organizations need to develop a cost optimization culture and awareness. Cost optimization is an ongoing activity in the organization. Need to decide someone responsible for the cost optimization it can be an Engineering team or DevOps team. Most cloud providers provide billing alarm’s they can alert you in case of cost increment also we can configure budget in the Cloud provider dashboard.
