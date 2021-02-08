@@ -11,7 +11,8 @@ Organizations adopting cloud infrastructure also they are increasingly working w
 "By 2021, over 75% of midsize and large organizations will have adopted a multi-cloud and/or hybrid IT strategy."
 Gartner Predicts
 
-A recent [Gartner](https://www.gartner.com/smarterwithgartner/4-trends-impacting-cloud-adoption-in-2020/) report cloud cost optimization is the first factor that will impact cloud adoption in 2020. There all some other factors also but they will come in the future  
+A recent [Gartner](https://www.gartner.com/smarterwithgartner/4-trends-impacting-cloud-adoption-in-2020/) report cloud cost optimization is the first factor that will impact cloud adoption in 2020. The [g2](https://research.g2.com/) also recently publish [Cloud Computing Trends](https://research.g2.com/insights/2020-trends/it-cloud-computing-trends-2020). There all some other factors also but they will come in the future  
+
 
 ### Infrastructure Journey
 ##### On-Premise
@@ -99,5 +100,4 @@ Enterprises or Mid Level companies are adopting multi-cloud infrastructure. Cons
 - Enhanced Security 
  
 ### Conclusion
-Organizations need to develop a cost optimization culture and awareness. Cost optimization is an ongoing activity in the organization. Need to decide someone responsible for the cost optimization it can be an Engineering team or DevOps team. Most cloud providers provide billing alarm’s they can alert you in case of cost increment also we can configure budget in the Cloud provider dashboard
- 
+Organizations need to develop a cost optimization culture and awareness. Cost optimization is an ongoing activity in the organization. Need to decide someone responsible for the cost optimization it can be an Engineering team or DevOps team. Most cloud providers provide billing alarm’s they can alert you in case of cost increment also we can configure budget in the Cloud provider dashboard.The [G2](https://research.g2.com/) also publish one buyer guide [Winter 2019 Buyers](https://research.g2.com/insights/cloud-computing-buyers-guide) for cloud computing infrastructure.
