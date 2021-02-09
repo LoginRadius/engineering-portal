@@ -1,5 +1,5 @@
 ---
-title: "Reduce user drops on Signup Page using Passwordless."
+title: "Reduce user drops on Signup Page using Passwordless"
 date: "2021-02-09"
 coverImage: "open-source.png"
 author: "Govind Malviya"
