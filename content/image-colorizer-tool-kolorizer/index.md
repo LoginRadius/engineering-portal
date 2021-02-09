@@ -1,12 +1,10 @@
 ---
-title: "Image Colorizer Tool - Kolorizer "
-date: "2021-02-03"
-coverImage: "cover.jpg"
+title: "Image Colorizer Tool - Kolorizer"
+date: "2021-02-09"
+coverImage: "cover.png"
 author: "Max Sergeyenko"
 tags: ["Design","Photos","Brand"]
 description: Kolorizer is a free photo coloring tool to help you align the images on a website with your brand.
-
-
 ---
 		
 
