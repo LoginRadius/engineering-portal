@@ -6,7 +6,6 @@ author: "Max Sergeyenko"
 tags: ["Design","Photos","Brand"]
 description: Kolorizer is a free photo coloring tool to help you align the images on a website with your brand.
 ---
-		
 
 Many developers overlook imagery on the websites they develop. The website design starts with image placeholders instead of images. They spend weeks creating it's structure and features. Then they spend some time on the content, and after that, the images come as the last step right before launching the website with the words “Let's just put a random image of whatever, as long as it makes sense.”
 		
