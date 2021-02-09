@@ -1,10 +1,10 @@
 ---
-title: "Image Colorizer Tool - Kolorizer; to help you match the imagery on a website with your brand"
+title: "Image Colorizer Tool - Kolorizer "
 date: "2021-02-03"
 coverImage: "cover.jpg"
 author: "Max Sergeyenko"
 tags: ["Design","Photos","Brand"]
-description: 
+description: Kolorizer is a free photo coloring tool to help you align the images on a website with your brand.
 
 
 ---
@@ -19,7 +19,9 @@ When this approach works for many websites since imagery is secondary content, i
 ## The problem
 
 
-All seems fair until you realize that your website is starting to look like a circus. With every image and photo having different colors, the website is like an intersection without any traffic lights - everybody is doing whatever they want. There is no uniformity or harmony between all of the imagery. This might seem like a small problem initially, but it hurts your business in the long run. As your business struggles to create a consistent unified brand, people do not sense the authority and quality of your product and in the end, they go to someone else that seems to know what they are doing. And if you think, “Not everybody is a designer, and most people would not notice this,” while it is true, some people would not care, but in most cases, people would start noticing this. All this will be happening subconsciously. They will not tell you precisely what is wrong, but they would feel less connection with your brand, which could make them leave in the long run if they find something that feels more right.
+All seems fair until you realize that your website is starting to look like a circus. With every image and photo having different colors, the website is like an intersection without any traffic lights - everybody is doing whatever they want. There is no uniformity or harmony between all of the imagery. This might seem like a small problem initially, but it hurts your business in the long run. 
+
+As your business struggles to create a consistent unified brand, people do not sense the authority and quality of your product and in the end, they go to someone else that seems to know what they are doing. And if you think, “Not everybody is a designer, and most people would not notice this,” while it is true, some people would not care, but in most cases, people would start noticing this. All this will be happening subconsciously. They will not tell you precisely what is wrong, but they would feel less connection with your brand, which could make them leave in the long run if they find something that feels more right.
 		
 
 If your product is selling car insurance, you want people to identify you as the leader, the main place to get everything you need for car insurance. To accomplish that, you need to build a strong brand around your product.
@@ -34,7 +36,7 @@ You might be thinking right now: “Sounds like I need an expensive designer to 
 ![Kolorizer Logo](logo.png "Kolorizer Logo")
 
 
-This is where our little tool comes in - Kolorizer. This incredibly simple online tool will have a huge impact on your brand, whether you are kicking it off or simplifying and growing an existing one.
+This is where our little tool comes in - [Kolorizer](https://kolorizer.com/). This incredibly simple online tool will have a huge impact on your brand, whether you are kicking it off or simplifying and growing an existing one.
 		
 
 The task is simple - to make colors in all the imagery on your website match your brand's colors. There are mostly two different ways of doing this in the design world: **"The overlay" method** and **“The changing of the base color” method**.
