@@ -1,9 +1,9 @@
 ---
 title: "The Importance of Multi-Factor Authentication (MFA)"
-date: "2021-02-03"
+date: "2021-02-11"
 coverImage: "multifactor-authentication.jpg"
 author: "Jitender Agarwal"
-tags: ["Multifactor Authentication", "Two-factor Authentication", "PIN Authentication", "Push-based Authentication"]
+tags: ["MFA", "2FA", "PIN Auth", "Push-based Auth"]
 description: "Multi-factor authentication verifies the consumer's identity in multiple steps using different methods. Hence, it provides another layer of security on top of the login credentials."
 --- 
 
