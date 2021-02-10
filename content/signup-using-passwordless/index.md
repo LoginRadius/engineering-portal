@@ -1,33 +1,33 @@
 ---
-title: "Reduce user drops on Signup Page using Passwordless"
+title: "Optimize Your Sign Up Page By Going Passwordless"
 date: "2021-02-09"
 coverImage: "open-source.png"
 author: "Govind Malviya"
 tags: ["Passwordless"]
-description: "How Passwordless can be an excellent approach to reduce user drops on the signup page with better UX practices."
+description: "How passwordless can be an excellent approach to reduce user drops on the signup page with better UX practices."
 ---
 
-Losing users on the signup page is wasting your marketing and growth budget because the signup page has a strong password requirement for ensuring security. If you remove complex password requirements, the user will use simple passwords that can be hacked easily. Balancing security and experience is the biggest challenge these days as People have a lot of options to try, and Hackers are ready if anything goes wrong. 
+Losing users on the signup page is wasting your marketing and growth budget because the signup page has a [strong password requirement](https://www.loginradius.com/blog/async/password-security-best-practices-compliance/) for ensuring security. If you remove complex password requirements, the user will use simple passwords that can be hacked easily. Balancing security and experience is the biggest challenge these days as People have a lot of options to try, and Hackers are ready if anything goes wrong.
 
-Passwordless is a way to solve this dilemma, remove passwords means remove complex password requirement and security concerns both. Why passwordless is more secure is covered by Puneet in his article "How Passwordless is secure".
+Passwordless is a way to solve this dilemma, remove passwords means remove complex password requirement and security concerns both. To learn more about how and Why of passwordless authentication, read this - ["Passwordless Authentication: Securing Digital Identity"](https://www.loginradius.com/blog/start-with-identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/).
 
-Let's talk about How passwordless can reduce the signup friction, What you can do with Passwordless to make it more user friendly.
+Let's talk about How passwordless can reduce the signup friction and how to make it more user friendly.
 
 ## No Password complexity
 
-In this tech era, we have a lot of online accounts on 100s of apps. and all these require following password requirements to make sure security, 
+In this tech era, we have a lot of online accounts on several apps, and the following password requirements are few examples to create a secure password:
+
 - Password must have eight lengths long
 - Password must have a small letter and a capital letter 
 - Password must have number and symbols 
 - User shouldn't use the same password before anywhere; otherwise, if that site's data get breached, the user's data will be breached here too
 - System will expire the password after a specific time 
 - Next password must be different from the last 5 Passwords 
-- User shouldn't save anywhere in plain text format 
-- blah blah
+- User shouldn't save anywhere in plain text format
 
 Seriously, this all need to do by users to keep their account safe on your app! Password Managers are a solution, but they have their issues, installing their extensions and software, Device sync available with paid plans only, and so on. 
 
-But Passwordless is the answer to it. It removes all password frictions and allows users to signup with a single click. 
+But [Passwordless is the answer](https://www.loginradius.com/passwordless-login/) to it. It removes all password frictions and allows users to signup with a single click. 
 
 ## Unified Interface 
 
@@ -43,7 +43,8 @@ It's impossible to ask for any other information with a unified interface becaus
 
 Progressive disclosure always reduces the complexity. User's love to enter without providing huge details. 
 
-## Conclusion 
+## Conclusion
+
 Passwordless can be an excellent approach to reduce user drops on the signup page with better UX practices. The most significant friction on the signup page is too many details and Complex Passwords. Remove them. Users will love it. 
 
-On the signup page, you should include better messaging to motivate the user to sign up. 
+On the signup page, you should include better messaging to motivate the user to sign up.
