@@ -1,6 +1,6 @@
 ---
 title: "Optimize Your Sign Up Page By Going Passwordless"
-date: "2021-02-09"
+date: "2021-02-10"
 coverImage: "open-source.png"
 author: "Govind Malviya"
 tags: ["Passwordless"]
