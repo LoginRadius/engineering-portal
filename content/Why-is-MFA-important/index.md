@@ -1,26 +1,25 @@
 ---
-title: "Why is Multifactor Authentication(MFA) important?"
+title: "The Importance of Multi-Factor Authentication (MFA)"
 date: "2021-02-03"
 coverImage: "multifactor-authentication.jpg"
 author: "Jitender Agarwal"
 tags: ["Multifactor Authentication", "Two-factor Authentication", "PIN Authentication", "Push-based Authentication"]
-description: "Multi-factor or Two-factor Authentication verifies the consumer's identity in multiple steps using different methods. Hence, it provides another layer of security on top of the login credentials."
+description: "Multi-factor authentication verifies the consumer's identity in multiple steps using different methods. Hence, it provides another layer of security on top of the login credentials."
 --- 
 
+In reaction to the Covid-19 pandemic, as offices closed, few of us knew that we would be working from home for months or forever, Many of us set to continue the trend of  working from home for the foreseeable future. With remote working set to become the “new normal” for many, it's important to make sure our systems are safe and secure.
 
-In today's digital world, consumers are using more and more web and mobile apps to access various services. These apps require the consumer to create accounts with usernames and passwords. This poses the threats for password breaches due to lack of strong passwords, common passwords, or re-used passwords for multiple sites. 
+In today's digital world, consumers are using more and more web and mobile apps to access various services. These apps require the consumer to create accounts with usernames and passwords. This poses the threats for password breaches due to lack of [strong passwords](https://www.loginradius.com/blog/async/password-security-best-practices-compliance), common passwords, or re-used passwords for multiple sites.
 
-Businesses are looking for ways to protect their digital assets while validating their consumer's identities and at the same time providing a smooth user experience. Multi-factor Authentication (MFA) is the simplest and the most effective tool to provide another layer on top of the login credentials.  After the consumer enters their login credentials, whether via email, phone number, username, or social profile, the consumer verifies the system with some other independent factor. Hence, it restricts any malicious attempt to access the system or service even if someone gets access to the consumer's password. 
+Businesses are looking for ways to protect their digital assets while validating their consumer's identities and at the same time providing a smooth user experience. [Multi-factor Authentication (MFA)](https://www.loginradius.com/multi-factor-authentication/) is the simplest and the most effective tool to provide another layer on top of the login credentials.  After the consumer enters their login credentials, whether via email, phone number, username, or social profile, the consumer verifies the system with some other independent factor. Hence, it restricts any malicious attempt to access the system or service even if someone gets access to the consumer's password. 
 
-Multi-factor or Two-factor Authentication verifies the consumer's identity using one of the following factors: 
-
-
+Multi-factor or [Two-factor Authentication](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-setup-2fa-in-online-accounts/) verifies the consumer's identity using one of the following factors: 
 
 *   **Knowledge Factor:** Something, only the consumer, knows like PIN 
 *   **Possession Factor:** Something only the consumer has, like a USB containing an encrypted security key, Google Authenticator app, etc. 
 *   **Inherence Factor:** Something only the consumer is like Fingerprints, Facial or Eye scan, etc.
 *   **Location Factor:** Authentication is restricted to registered devices or geographic location derived from the Internet Protocol (IP) address used for an authentication request.
-*   **Time factor: **This limits the user authentication to a specific time frame in which access to the system is permitted and prohibits access to the system outside of the timeframe.
+*   **Time factor:** This limits the user authentication to a specific time frame in which access to the system is permitted and prohibits access to the system outside of the timeframe.
 
 There are several MFA authentication methods available leveraging the above authentication factors to protect the consumer account. Businesses can use one or all of the following MFA authentication methods as per their business requirements.
 
@@ -30,7 +29,7 @@ There are several MFA authentication methods available leveraging the above auth
 
 ### PIN Authentication: 
 
-The PIN Authentication feature allows the consumer to set a PIN in addition to the password during registration. After the consumer enters their login credentials, the consumer will be asked to enter the PIN set at the time of registration. This is generally used in devices with physical interfaces like smartphones or PIN pad on the doors. Please see [https://www.loginradius.com/docs/api/v2/customer-identity-api/pin-authentication/overview/#pin-authentication-overview](https://www.loginradius.com/docs/api/v2/customer-identity-api/pin-authentication/overview/#pin-authentication-overview) for more information on the LoginRadius PIN Authentication method.
+The PIN Authentication feature allows the consumer to set a PIN in addition to the password during registration. After the consumer enters their login credentials, the consumer will be asked to enter the PIN set at the time of registration. This is generally used in devices with physical interfaces like smartphones or PIN pad on the doors. Check our [LoginRadius PIN Authentication method](https://www.loginradius.com/docs/api/v2/customer-identity-api/pin-authentication/overview/#pin-authentication-overview) to know more.
 
 **Pros:** It is easy for consumers to remember and enter the four-digit PIN into the application, eliminating the need to have a device to complete the MFA. 
 
@@ -51,7 +50,7 @@ The consumers are asked to answer some security questions at the time of registr
 
 ### Text Message (SMS) Authentication:  
 
-After the consumers enter their login credentials, they receive an instant text message with a unique authentication code. The consumers are required to enter the code into the application to get access to their accounts. Please see [https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#smsworkflow0](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#smsworkflow0) for LoginRadius SMS authentication. 
+After the consumers enter their login credentials, they receive an instant text message with a unique authentication code. The consumers are required to enter the code into the application to get access to their accounts. Visit [LoginRadius SMS authentication](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#smsworkflow0) to know more.
 
 **Pros:** MFA via SMS code is the most popular method due to its low cost and easy setup. It is also fast as the text arrives almost instantly. 
 
@@ -86,7 +85,7 @@ Instead of sending a code, a push notification is sent directly to a secure appl
 
 ### Authenticator App: 
 
-This requires the consumer to install an authenticator app, e.g., Google Authenticator, to their mobile devices. During registration, the consumers will scan a QR code from the website with the app. The app will auto-generate a Time-Based One Time Password (TOTP) that the consumer will have to enter after they've provided their login credentials.  LoginRadius supports MFA via an authenticator app, e.g., Google authenticator. Please see [https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#googleauthenticatorworkflow4](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#googleauthenticatorworkflow4)  for more information. 
+This requires the consumer to install an authenticator app, e.g., Google Authenticator, to their mobile devices. During registration, the consumers will scan a QR code from the website with the app. The app will auto-generate a Time-Based One Time Password (TOTP) that the consumer will have to enter after they've provided their login credentials.  LoginRadius supports MFA via an authenticator app, e.g., [Google authenticator](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/#googleauthenticatorworkflow4).
 
 **Pros:** It gives an advantage over SMS Authentication as the code is not sent over the telecom network, but the device is required to be connected to the internet. You can scan the QR code by multiple devices to avoid getting locked out.
 
@@ -112,7 +111,7 @@ U2F is an open authentication standard that leverages encrypted security keys to
 
 The consumer verifies the device's identity using Biometric factors like a Fingerprint, Eye scan, Facial recognition, or Voice recognition on the device. This is mostly used in mobile applications for authenticating the consumers on smartphones with biometric verification capability.
 
-LoginRadius supports various forms of biometric authentication e.g. TouchID. You can leverage Any third-party biometric services to provide secondary forms of authentication to consumers. Please see [https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/ios-library/#touchid10](https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/ios-library/#touchid10)  for more information. 
+LoginRadius supports various forms of biometric authentication e.g. [TouchID](https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/ios-library/#touchid10). You can leverage Any third-party biometric services to provide secondary forms of authentication to consumers.
 
 **Pros:** It is complicated to hack biometrics. 
 
@@ -130,8 +129,7 @@ When the consumer tries to log in to a device, the device location is derived fr
 
 **Cons:** You can only access the device in specific locations or devices. 
 
-You can leverage any Multi-factor Authentication method to improve security over the traditional username and password authentication. But none of the MFA methods is 100% foolproof and should not be used as a single factor of account protection. Also,  MFA causes the login process longer for the consumer. Hence, the choice of any or combination of  MFA methods depends on your business requirements around security and user experience. Here are some recommendations: 
-
+You can leverage any Multi-factor Authentication method to improve security over the traditional username and password authentication. But none of the MFA methods is 100% foolproof and should not be used as a single factor of account protection. Also,  MFA causes the login process longer for the consumer. Hence, the choice of any or combination of  MFA methods depends on your business requirements around security and user experience. Here are some recommendations:
 
 
 *   U2F keys provide the best security layer, especially for remote users allowing them to access the system securely while outside the company network. If the U2F keys are compromised, you can order a new device to update it.
