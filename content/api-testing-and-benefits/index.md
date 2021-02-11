@@ -1,6 +1,6 @@
 ---
 title: "What is API Testing? - Discover the Benefits"
-date: "2021-02-04"
+date: "2021-02-12"
 coverImage: "api-testing.png"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "API Testing", "Agile", "Benefits"]
