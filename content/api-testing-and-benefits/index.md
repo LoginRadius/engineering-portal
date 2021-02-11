@@ -1,12 +1,15 @@
-﻿---
-title: "What is API Testing and It's benefits during Software Development."
+---
+title: "What is API Testing? - Discover the Benefits"
 date: "2021-02-04"
 coverImage: "api-testing.png"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "API Testing", "Agile", "Benefits"]
-description: "This article is about what is API testing and its importance and benefits in Software development."
+description: "Communication between software components is handled by an API (Application Programming Interface). Discover the advantages of automated API testing."
 ---
 
+Until the modifications are introduced to production, smart companies take advantage of API testing and so do you. In both staging and production environments, API's must be checked to ensure that the software framework meets the specifications.
+
+Let's discuss how, through how your team approaches your research plan, your team can get the benefits of API testing.
 
 **What is API Testing?**
 Application Programming Interface is often called as **API**. An API is a set of methods and procedures that developers "open up" to other programmers to have their applications communicate and interact with other applications. Once an API is built, it is necessary to test the interface to provide truly secure, reliable and scalable connections between platforms.
@@ -23,7 +26,6 @@ API testing can be done on the below aspects:
  **Security Testing** checks vulnerabilities like authentication and sensitive data is encrypted over HTTP and includes penetration testing validating authentication.
  
 
- 
 
 **Advantages of API testing during Software development**
 
@@ -43,7 +45,7 @@ API tests can be executed as early as the business logic is defined and before a
 
 ***3. Technology Independent***
 
-API tests are Language Independent, Since the data is interchanged using JSON or XML and compromised HTTP requests and HTTP responses. So the QA team is free to choose the language of their choice that supports these technologies((JavaScript, Java, Ruby, Python, PHP, etc.).
+API tests are Language Independent, Since the data is interchanged using JSON or XML and compromised HTTP requests and HTTP responses. So the QA team is free to choose the language of their choice that supports these technologies(([JavaScript](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/), Java, Ruby, [Python](https://www.loginradius.com/blog/async/python-basics-in-minutes/), PHP, etc.).
 
 ***4. Greater tests stability***
 
@@ -53,7 +55,7 @@ While GUI's are dynamic and may change to accommodate new requests from stakehol
 
 Unlike unit tests, automated API tests are generally broader in scope and detail. While unit tests are focused on the limited functionality of components within a single application, problems often arise at the intersection where one layer's scope ends and the other begins.
 
-You won't find these issues with unit tests, but API-level tests are specifically designed to verify that all system components function as intended. API testing helps uncover potential defects in the interfaces, servers, and databases, improving the overall software quality and contributing to better user experiences.
+You won't find these issues with unit tests, but API-level tests are specifically designed to verify that all system components function as intended. API testing helps uncover potential defects in the interfaces, servers, and databases, improving the overall software quality and contributing to [better user experiences](https://www.loginradius.com/identity-api/).
 
 **Efficiency gains associated with an API testing tool can include:**
 
