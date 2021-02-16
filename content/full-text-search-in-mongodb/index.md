@@ -3,7 +3,7 @@ title: How to do Full-Text Search in MongoDB
 date: "2021-02-16"
 coverImage: "coverImage.png"
 author: "Anil Gupta"
-Description: MongoDB full text search tutorial. In this blog, we will learn how to perform a full-text search in MongoDB using text index.
+description: MongoDB full text search tutorial. In this blog, we will learn how to perform a full-text search in MongoDB using text index.
 tags: ["MongoDB"]
 ---
 
