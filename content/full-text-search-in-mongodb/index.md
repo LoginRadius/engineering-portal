@@ -1,17 +1,17 @@
 ---
-title: How to do full-text search in MongoDB
+title: How to do Full-Text Search in MongoDB
 date: "2021-02-16"
 coverImage: "coverImage.png"
 author: "Anil Gupta"
-Description: In this blog, we will learn how to perform a full-text search in MongoDB using text index.
+Description: MongoDB full text search tutorial. In this blog, we will learn how to perform a full-text search in MongoDB using text index.
 tags: ["MongoDB"]
 ---
 
-Full-text search is an essential feature when we talk about finding content on the internet. A google search is the best example for this when we see the content using the phrases or keywords. In this article, we will learn about full-text search capabilities in MongoDB based on text index.
+One of the leading NoSQL databases, MongoDB is well known for its fast performance, versatile schema, scalability and great [capabilities for indexing](https://www.loginradius.com/blog/async/index-in-mongodb/). Let us look at some context before we get into some details. Full-text search is an essential feature when we talk about finding content on the internet. A google search is the best example for this when we see the content using the phrases or keywords. In this article, we will learn about full-text search capabilities in MongoDB based on text index.
 
 ## Create a Sample Database
 
-Before the start, we will create a sample database that we will use for all examples in this tutorial.
+Before we begin, we will create a sample database that will be used during the tutorial.
 
 We will create a database with the name _myDB_ and create a collection with the name _books_. For this, the statement would be as follows.
 
@@ -232,4 +232,4 @@ The $text operator matches on the complete stemmed word. So if some document fie
 
 ## Conclusion
 
-I hope you learned something new today. Here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/). I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments below.
+I hope you learned something new today. Here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/). I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments section below.
