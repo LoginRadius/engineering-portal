@@ -7,7 +7,7 @@ Description: In this blog, we will learn how we can full-text search in MongoDB 
 tags: ["MongoDB"]
 ---
 
-Full text search is a very important feature when we talk about finding content on the internet. A google search is the best example for this when we find the content using the phrases or keywords. In this article we will learn about full-text search capabilities based on text index.
+Full text search is a very important feature when we talk about finding content on the internet. A google search is the best example for this when we find the content using the phrases or keywords. In this article we will learn about full-text search capabilities in MongoDB based on text index.
 
 ## Create a Sample Database
 
@@ -189,6 +189,39 @@ The text search provides a score to each document that represents the relevancy 
     "score" : 0.792857142857143
 	}
 
+```
+
+### Stop Words
+The $text operator filters out the language-specific stop words, such as a, an, the and in English. Below search will not return any document in the result.
+
+**Example**
+```
+>db.books.find({$text: {$search: "is"}},{subtitle: 1, description: 1 })
+	Fetched 0 record(s)
+
+```
+
+### Stemmed Words
+The $text operator matches on the complete stemmed word. So if some document field contains the word learning or learn, a search on the term learning or learn would result the same.
+
+**Example**
+```
+>db.books.find({$text: {$search: " learn"}},{subtitle: 1, description: 1 }) or >db.books.find({$text: {$search: " learning"}},{subtitle: 1, description: 1 })
+	{
+    "_id" : ObjectId("602b098f3cb6144ada1c2ea1"),
+    "subtitle" : "A JavaScript and jQuery Developer's Guide",
+    "description" : "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you."
+	},
+	{
+    "_id" : ObjectId("602b09a83cb6144ada1c4973"),
+    "subtitle" : "An In-Depth Guide for Programmers",
+    "description" : "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position."
+	},
+	{
+    "_id" : ObjectId("602b09b93cb6144ada1c4bca"),
+    "subtitle" : "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+    "description" : "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows."
+	}
 ```
 
 ## Conclusion
