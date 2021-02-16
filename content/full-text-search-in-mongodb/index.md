@@ -76,7 +76,7 @@ For this tutorial we will create a text index on _description_ and _subtitle_ fi
 >db.books.createIndex({"subtitle":"text","description":"text"})
 ```
 
-### $search
+## $search
 Now we will try to search documents that have the keywords 'ECMAScript' in _description_ and _subtitle_ fields. For this we can use the below statement.
 
 ```
@@ -92,7 +92,7 @@ db.books.find({$text: {$search: "ECMAScript"}})
 	}
 >
 ```
-#### Phrases
+### Phrases
 
 You can search for phrases using the text index. By default text search performs an OR search for all words in the phrase. If you want to search 'modern design patterns' then it will search for documents that have the keywords either modern, design or patterns.
 
@@ -128,7 +128,7 @@ If you want to search for exact phrases like documents that have 'modern design 
 }
 
 ```
-#### Negations
+### Negations
 If you want to exclude the documents that contain a particular word then you can use negation search. For example if you want to search all documents that have the 'JavaScript' but not 'HTML5' or 'ECMAScript', you can do search like below example.
 
 **Example**
@@ -152,7 +152,7 @@ If you want to exclude the documents that contain a particular word then you can
 
 ```
 
-#### Text Search Score
+### Text Search Score
 The text search provides a score to each document that represents the relevancy of the document with the search query. This score can be used to sort the all documents returned in the search result. A higher score will indicate a most relevant match.
  
 **Example**
