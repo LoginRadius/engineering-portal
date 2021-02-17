@@ -1,11 +1,15 @@
 ---
-title: Git commands
+title: 35+ Git Commands List Every Programmer Should Know
 date: "2021-02-17"
 coverImage: "git.png"
 author: "Abhimanyu Singh Rathore"
-description: "this post will help you to get list of all useful git commands."
+description: "In this article, I will talk about the Git Commands that you will be using often when you are working with Git."
 tags: ["GIT"]
 ---
+
+Git is an important part of daily programming and is commonly used in the software industry. Since you can use a lot of different commands, mastering Git needs time. But some commands are more commonly used. So I'm going to share the most useful Git commands in this post that every developer should know.
+
+But first you need to know the [fundamentals of Git](https://www.loginradius.com/blog/async/github-api/) to understand this article.
 
 Useful Git Commands List
 ================
@@ -52,3 +56,5 @@ Useful Git Commands List
 | `git config --global user.name "your_username"` | Set globally Username |
 | `git config --global user.email "your_email_address@example.com"` | Set globally Email id |
 | `git config --global --list` | Get global config |
+
+So these are the most helpful git commands I find in my everyday programming. There are several more things to learn about Git, I will explain them in a separate post.
