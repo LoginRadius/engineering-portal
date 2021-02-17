@@ -1,6 +1,6 @@
 ---
-title: Git commands?
-date: "2021-02-16"
+title: Git commands
+date: "2021-02-17"
 coverImage: "git.png"
 author: "Abhimanyu Singh Rathore"
 description: "this post will help you to get list of all useful git commands."
