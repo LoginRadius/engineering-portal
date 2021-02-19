@@ -1,6 +1,6 @@
 ---
 title: "How to Verify Email Addresses in Google Sheet"
-date: "2021-02-20"
+date: "2021-02-22"
 coverImage: "eva.png"
 author: "Narendra Pareek"
 tags: ["EVA", "Google Script", "Email Validation"]
