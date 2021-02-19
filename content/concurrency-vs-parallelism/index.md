@@ -1,6 +1,6 @@
 ---
 title: "Concurrency vs Parallelism: What's the Difference?"
-date: "2021-02-18"
+date: "2021-02-19"
 coverImage: "unsplash.jpg"
 author: "Nick Chim"
 tags: ["Concurrency", "Parallelism", "Multithreading", "JavaScript"]
