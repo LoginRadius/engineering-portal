@@ -1,10 +1,10 @@
 ---
-title: "Verify Emails in Google Sheet in bulk"
+title: "Bulk Email Verification in Google Sheets"
 date: "2021-02-20"
 coverImage: "eva.png"
 author: "Narendra Pareek"
 tags: ["EVA", "Google Script", "Email Validation"]
-description: "Learn how to validate email addresses using eva services in google sheet."
+description: "Learn how to validate email addresses using eva services in Google Sheets."
 ---
 
 Suppose, You have a massive amount of data and going to add them to your new product campaign. You are probably not sure that all of them belong to the right audience; some might spam or disposable email.
