@@ -1,10 +1,10 @@
 ---
-title: "Bulk Email Verification in Google Sheets"
+title: "How to Verify Email Addresses in Google Sheet"
 date: "2021-02-20"
 coverImage: "eva.png"
 author: "Narendra Pareek"
 tags: ["EVA", "Google Script", "Email Validation"]
-description: "Learn how to validate email addresses using eva services in Google Sheets."
+description: "Directly checking email addresses for authenticity in the Google spreadsheet using EVA has never been easier. In this article, you will learn how to validate email addresses using eva services in Google Sheets."
 ---
 
 Suppose, You have a massive amount of data and are going to add them to your new product campaign. You are probably not sure that all of them belong to the right audience; some might be spam or disposable emails.
@@ -19,7 +19,7 @@ Here we have the tool [EVA](https://eva.pingutil.com/) (Email Verification APIs)
 
 ## EVA service with Google Sheet
 
-Google allows you to create scripts using your custom functions with the service you wanted to use. You can make these functions in standard JavaScript with a basic understanding of JS. Here is the guide to start with [Custom Functions in Google Sheets](https://developers.google.com/apps-script/guides/sheets/functions).
+Google allows you to create scripts using your custom functions with the service you wanted to use. You can make these functions in standard JavaScript with a basic [understanding of JS](https://www.loginradius.com/blog/async/understanding-jsonp/). Here is the guide to start with [Custom Functions in Google Sheets](https://developers.google.com/apps-script/guides/sheets/functions).
 
 ## Custom Function
 
@@ -69,5 +69,5 @@ You can set up a trigger to an action (i.e. on open, edit or change in sheet) by
 ![Trigger](trigger.gif)
 
 
-## Conclustion
-In this article, I've explained EVA services to validate email addresses in bulk using the google script editor.
+## Conclusion
+In this article, I've explained EVA services to validate email addresses in bulk using the google script editor. If you like what you read, leave a "thank you note" in the comment section.
