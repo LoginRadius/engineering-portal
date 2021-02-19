@@ -1,0 +1,146 @@
+
+---
+title: "What is a DDoS attack ?  How to mitigate DDoS attack ?"
+date: "2021-02-20"
+coverImage: "What-is-a-DDoS-attack.png"
+author: "Vijay Singh Shekhawat"
+tags: ["DDoS", "DDos mitigate","DDoS Prevention"]
+---
+
+### What is DDoS Attack?
+
+![What is a DDoS attack?](What-is-a-DDoS-attack.png)
+
+A Distributed Denial of Service (DDoS) is a targeted cyber attack on a website or device where a malicious attacker's flood of traffic is sent from single or multiple sources. the main purpose of DDoS is to make a machine or network resource unavailable to its genuine users by temporarily or disrupting the services of a host connected to the Internet. if we are not using appropriate security practices or tools then it makes your application into a non-functional situation.
+
+The malicious attacker uses multiple compromised computer systems or devices or IoT devices for the attack. These all compromised devices make the DDoS attacks more effective.
+
+### What is DDoS mitigation?
+DDoS mitigation is a process in which we have used a set of techniques or tools for minimizing or mitigating the impact of distributed denial-of-service (DDoS) attacks on the targeted servers or networks. 
+
+
+### DDoS Attack Types
+
+#### 1. Volume Based Attacks
+The Volume Based Attack DDoS attack is the most common DDoS attack, attacker use multiple methods to generate massive volumes of traffic to overwhelms a machine’s network bandwidth because of creating massive volume traffic that makes it impossible for legitimate traffic to flow into or out of the targeted site. the machine continually has to deal with checking the malicious data requests and has no room to accept legitimate traffic. We can detect this type of attack easily.
+
+#### 2. Protocol Attacks 
+The Protocol attacks target Layer 3 and Layer 4. Attackers use malicious connection requests for consuming the processing capacity of network infrastructure resources like servers, firewalls, and load balancers.
+
+An SYN flood (half-open attack) is the most common way, in this attack, the attacker sends repeated initial connection requests and overwhelms all available ports on a targeted server machine or device
+
+#### 3. Application Layer Attacks
+
+The Application attacks target Layer 7 which is the topmost layer in the OSI network model. This layer is closest to the end-user, which means both the OSI application layer and the user interact directly with the software application. These attacks are typically small in volume compared to the other layers attacks so these attacks are not easy to catch. For example a small number of HTTP requests on a login page.
+
+### DDoS attack examples
+
+1. In September 2016 -The Mirai malware attack on the Internet of Things (IoT) devices. The attack caused major Internet platforms and services (Brian Krebs, DNS solution provider Dyn, etc.) to be unavailable in Europe and North America.
+
+2. In 2014, CloudFlare, a cybersecurity provider and content delivery network, was slammed by a DDoS attack estimated at approximately 400 gigabits per second of traffic.
+
+3. In March 2015— GitHub sustained a DDoS attack that was thought to be politically motivated because it focused on two GitHub projects that aimed to provide Chinese citizens with a way to circumvent Chinese state web censorship.
+
+4. On Feb 28, 2018 - GitHub—a platform for software developers—was hit with a DDoS attack that clocked in at [1.35 terabits](https://www.wired.com/story/github-ddos-memcached/) per second and lasted for roughly 20 minutes.
+
+4. In February 2020 - An attack on Amazon Web Services, the 800-pound gorilla of everything cloud computing, was hit by a gigantic DDoS attack.
+
+
+### Best Practices for Preventing DDoS attacks
+
+![How to mitigate DDoS attack?](How-to-mitigate-DDoS-attack.png)
+
+#### 1. Traffic Monitoring 
+Application traffic monitoring is important. We can identify most of the attacks using the proper monitoring. Commonly DDoS attacks are made with high volume traffic but DDoS attacks could be possible with a single HTTP request in case the request is targeting a vulnerable endpoint. 
+
+Whenever traffic exceeds a defined threshold then you should get some alert or notification. You need to do the proper configuration for the alerting in your monitoring tools it helps you for identifying the DDoS attack as early as possible and mitigate damage.
+
+#### 2. Organize a DDoS Attack Response Plan
+
+According to organizations size and policies, multiple teams have different responsibilities in infrastructure management. The DDoS attacks happen suddenly so what steps we need to follow during the attack Those steps should be documented. during the DDoS attack first, you need to think about minimizing the impact on your application. team responsibilities for key team members to ensure the organized reaction to the attack as it happens should clear, our first step is to define how it will end.
+
+Create a checklist - Define all the process and steps in a checklist like what tools you will use, who is the right person for contact
+
+Communication - All communications should in an organized way and well defined 
+
+Responsibility - Documented all team responsibilities 
+Team member reaction organized reaction 
+
+### 3. Activate a WAF
+A Web Application Firewall (WAF) is a set of rules or policies that helps protect web applications or APIs from malicious traffic. WAF sits between an application and the HTTP traffic and filters the common web exploits that can affect availability.
+
+There are various WAF solutions available, but you need to analyze which WAF solution is good for your application.
+
+
+#### 4. Rate Limit
+ Attackers can make so many repeated calls on the APIs. it can make resources unavailable to its genuine users. A rate limit is the number of API calls and app or user can make within a given period. When this limit is exceeded, block API access temporarily and return the 429 (too many requests) HTTP error code.
+
+I m adding node js examples to implement the rate limit. multiple npm packages are available for node js
+
+ **NodeJs**
+
+```javascript
+
+import rateLimit from 'express-rate-limit';
+
+export const apiRatelimit = rateLimit({
+  windowMs: 60 * 60 * 1000, // 1 hrs in milliseconds
+  max: 100,
+  message: 'You have exceeded the 100 requests in 1 hrs limit!', 
+  headers: true, // it will add X-RateLimit-Limit , X-RateLimit-Remaining and Retry-After Headers in the request 
+});
+
+//  you can add this in the middleware. it will apply a rate limit for all requests 
+app.use(API rate limit);
+
+
+```
+
+
+#### 5. Passive cache
+Active cache means if the service first attempts to read from the cache backend and falls back to reading from the actual source. The service is not dependent on requesting the data from the actual upstream server. a cache backend is a key-value store (e.g. Redis) or In-Memory cache and the actual source of data is SQL, MongoDB, etc.
+
+Passive cache architecture ensures high volume traffic never hits to actual server or service.
+
+I m adding node js examples to implement the passive cache. multiple npm packages are available for node js
+
+ **NodeJs**
+
+```javascript
+
+import nodeCache from "node-cache";
+
+const myCache = new nodeCache();
+
+// set object in the cache 
+
+obj = { userid: 909887, name: "example" };
+
+success = myCache.set( "userKey", obj, 600 ); // ttl is 600 seconds 
+
+
+//read object from the cache 
+value = myCache.get( "userKey" );
+if ( value == undefined ){
+  // handle miss!
+}
+
+```
+#### 6. Cloud-Based DDoS Mitigation
+
+Several vendors are providing DDoS mitigation service as software as a service model. they have charged license fee first time then charge according to service usages. 
+
+The Cloud-based DDoS mitigation solution has a lot of advantages. They have dedicated staff, better reaction time, High network bandwidth compared to private networks so they will perform better in case of volume-based DDoS attack, multi cross-region availability with auto replica or backup so you can switch to your application load next available region without impacting your actual users, up to date policies or rule set, a better experience for handling DDoS attacks.
+
+
+### Summary
+
+The DDoS attacks are increasing day by day. Organizations need to prepare for any attack, if the organization does not prepare in the advance and any attack happens that case damage control can take months also it will impact the organization's reputation. LoginRadius has all processes and policies well defined, 24X7 monitoring by delegating security team. Please see [Security Overview](https://www.loginradius.com/docs/security/overview/) document for the more information. 
+
+
+### Source
+
+1. https://blog.cloudflare.com/the-ddos-that-knocked-spamhaus-offline-and-ho/
+2. https://www.thesslstore.com/blog/largest-ddos-attack-in-history/
+3. https://www.a10networks.com/blog/5-most-famous-ddos-attacks/
+4. https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks
