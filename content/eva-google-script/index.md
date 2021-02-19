@@ -7,13 +7,13 @@ tags: ["EVA", "Google Script", "Email Validation"]
 description: "Learn how to validate email addresses using eva services in Google Sheets."
 ---
 
-Suppose, You have a massive amount of data and going to add them to your new product campaign. You are probably not sure that all of them belong to the right audience; some might spam or disposable email.
+Suppose, You have a massive amount of data and are going to add them to your new product campaign. You are probably not sure that all of them belong to the right audience; some might be spam or disposable emails.
 
-Now the actual problem is that how can I can validate these so many email addresses.
+#### Now the actual problem is that how can I do validate so many email addresses?
 
 Well, it would be great to verify them all together in a single shot with 100% accurate results without any manual interaction.
 
-I am writing this article as so many of us having the same concern and looking for a business email validator that can resolve this problem with accuracy.
+I am writing this article, as so many of us have the same concern and are looking for a business email validator that can resolve this problem with high accuracy.
 
 Here we have the tool [EVA](https://eva.pingutil.com/) (Email Verification APIs), which provides excellent email verification services with their open APIs.
 
