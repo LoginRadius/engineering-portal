@@ -35,15 +35,13 @@ The Application attacks target Layer 7 which is the topmost layer in the OSI net
 
 ### DDoS attack examples
 
-1. In September 2016 -The Mirai malware attack on the Internet of Things (IoT) devices. The attack caused major Internet platforms and services (Brian Krebs, DNS solution provider Dyn, etc.) to be unavailable in Europe and North America.
+1. In September 2016 - An attack on the Internet of Things (IoT) devices by Mirai malware. This attack impacted major Internet platforms and services  (Brian Krebs, DNS solution provider Dyn, etc.) that's why big [sites or services](https://en.wikipedia.org/wiki/2016_Dyn_cyberattack#Affected_services) (Github, Twitter, etc.) were unavailable in Europe and North America.
 
-2. In 2014, CloudFlare, a cybersecurity provider and content delivery network, was slammed by a DDoS attack estimated at approximately 400 gigabits per second of traffic.
+2. In Feb 2014 - According to a report on Gigaom, Cloudflare datacenters hit by the world's largest distributed denial-of-service attack (DDoS) in Europe and the U.S. This DDoS attack estimated at approximately 400 gigabits per second of traffic.
 
-3. In March 2015— GitHub sustained a DDoS attack that was thought to be politically motivated because it focused on two GitHub projects that aimed to provide Chinese citizens with a way to circumvent Chinese state web censorship.
+4. In February 2018 - the Developers platform GitHub was hit by a most powerful distributed denial-of-service attack (DDoS). This DDoS attack estimated approx [1.35 terabits](https://www.wired.com/story/github-ddos-memcached/) per second and lasted for roughly 20 minutes.
 
-4. On Feb 28, 2018 - GitHub—a platform for software developers—was hit with a DDoS attack that clocked in at [1.35 terabits](https://www.wired.com/story/github-ddos-memcached/) per second and lasted for roughly 20 minutes.
-
-4. In February 2020 - An attack on Amazon Web Services, the 800-pound gorilla of everything cloud computing, was hit by a gigantic DDoS attack.
+4. In February 2020 - Amazon Web Services was hit by a powerful gigantic DDoS attack. The attack was running for three days and was estimated at approximately 2.3 terabytes per second.
 
 
 ### Best Practices for Preventing DDoS attacks
@@ -51,7 +49,7 @@ The Application attacks target Layer 7 which is the topmost layer in the OSI net
 ![How to mitigate DDoS attack?](How-to-mitigate-DDoS-attack.png)
 
 #### 1. Traffic Monitoring 
-Application traffic monitoring is important. We can identify most of the attacks using the proper monitoring. Commonly DDoS attacks are made with high volume traffic but DDoS attacks could be possible with a single HTTP request in case the request is targeting a vulnerable endpoint. 
+Application traffic monitoring is important. We can identify most of the attacks using the proper monitoring. Commonly DDoS attacks are made with high volume traffic but DDoS attacks could be possible with a single vulnerable HTTP endpoint. 
 
 Whenever traffic exceeds a defined threshold then you should get some alert or notification. You need to do the proper configuration for the alerting in your monitoring tools it helps you for identifying the DDoS attack as early as possible and mitigate damage.
 
@@ -135,12 +133,10 @@ The Cloud-based DDoS mitigation solution has a lot of advantages. They have dedi
 
 ### Summary
 
-The DDoS attacks are increasing day by day. Organizations need to prepare for any attack, if the organization does not prepare in the advance and any attack happens that case damage control can take months also it will impact the organization's reputation. LoginRadius has all processes and policies well defined, 24X7 monitoring by delegating security team. Please see [Security Overview](https://www.loginradius.com/docs/security/overview/) document for the more information. 
+The DDoS attacks are increasing day by day. Organizations need to prepare for any attack, if the organization does not prepare in the advance and any attack happens that case damage control can take months also it will impact the organization's reputation. LoginRadius has all processes and policies well defined, 24X7 monitoring by delegating security team. Please see [Security Overview](https://www.loginradius.com/docs/security/overview/) document for more information. 
 
 
 ### Source
 
-1. [https://blog.cloudflare.com/the-ddos-that-knocked-spamhaus-offline-and-ho/](https://blog.cloudflare.com/the-ddos-that-knocked-spamhaus-offline-and-ho/)
-2. [https://www.thesslstore.com/blog/largest-ddos-attack-in-history/](https://www.thesslstore.com/blog/largest-ddos-attack-in-history/)
-3. [https://www.a10networks.com/blog/5-most-famous-ddos-attacks/](https://www.a10networks.com/blog/5-most-famous-ddos-attacks/)
+
 4. [https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks](https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks)
