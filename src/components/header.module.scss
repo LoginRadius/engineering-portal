@@ -123,6 +123,10 @@
       @media (max-width: 768px) {
         margin-right: 0;
       }
+      .navcta {
+        height: 44px;
+        line-height: 44px;
+      }
     }
   }
   a {
@@ -151,7 +155,7 @@
       background-size: 20px 25px;
       justify-content: center;
       flex-direction: column;
-      height: 42px;
+      height: 44px;
       border-radius: 0 4px 4px 0;
     }
   }
@@ -161,7 +165,7 @@
     overflow: hidden;
     opacity: 0;
     border: 1px solid $white;
-    height: 42px;
+    height: 44px;
     padding: 0 10px;
     font-size: 16px;
     border-radius: 4px;
