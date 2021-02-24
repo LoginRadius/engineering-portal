@@ -62,8 +62,7 @@ During the DDoS attack, first, you need to think about minimizing the impact on 
 
 **Communication**: You should correctly organize all communications and well-defined. 
 
-**Responsibility**: Documented all team responsibilities, 
-Team member reaction organized reaction 
+**Responsibility**: Documente all the team member's responsibilities and their reaction. 
 
 ### 3. Activate a WAF
 A Web Application Firewall (WAF) is a set of rules or policies that helps protect web applications or APIs from malicious traffic. WAF sits between an application and the HTTP traffic and filters the common web exploits that can affect availability.
@@ -72,7 +71,7 @@ There are various WAF solutions available, but you need to analyze which WAF sol
 
 
 #### 4. Rate Limit
- Attackers can make so many repeated calls on the APIs. It can make resources unavailable to its genuine users. A rate limit is the number of API calls and app or user can make within a given period. When this limit is exceeded, block API access temporarily and return the 429 (too many requests) HTTP error code.
+ Attackers can make so many repeated calls on the APIs. It can make resources unavailable to its genuine users. A rate limit is the number of API calls or requests that a user can make within a given time frame. When this limit is exceeded, block API access temporarily and return the 429 (too many requests) HTTP error code.
 
 I m adding node js examples to implement the rate limit. multiple npm packages are available for node js
 
@@ -139,6 +138,4 @@ LoginRadius has all processes and policies well defined, 24X7 monitoring by dele
 
 
 ### Source
-
-
-4. [https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks](https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks)
+[https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks](https://www.dsm.net/it-solutions-blog/prevent-ddos-attacks)
