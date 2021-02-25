@@ -33,16 +33,17 @@ As we have discussed above, Here T is the type of object for which we have to cr
  
 We can add elements directly into when we have created a list or add elements after creating a list. I will discuss both methods here.
  
-1. create list
- 
+1. **Create list**
+
 ```c#
 List<int> lst = new List<int>
 {
     1,2,3,4,5,6
 };
 ```
-2. Add items after creating list
- 
+
+2. **Add items after creating list**
+
 ```c#
 List<int> lst = new List<int>();
 lst.Add(1);
@@ -58,15 +59,16 @@ lst.Add(3);
 The list has mainly two properties.
  
 1. **Capacity**- This property tells the capacity of a list, which means how many elements a list can contain.
- 
+
 ```c#
 List<int> lst = new List<int>();
 Console.WriteLine(lst.Capacity); //Prints 0-- Default
 List<int> lst1 = new List<int>(5);
 Console.WriteLine(lst1.Capacity); // Prints 5
 ```
+
 2. **Count**- This property tells that how many elements are there in a list
- 
+
 ```c#
 List<int> lst = new List<int>(5);
 Console.WriteLine(lst.Count); // Prints 0
@@ -80,7 +82,7 @@ Console.WriteLine(lst.Count); //Prints 2
 To get all the elements of a list, we have to loop through the list. We can use for or foreach loop to get the elements. Below is the code to get all the elements using both the loops and print the element's values.
  
 1. ### Using a foreach loop
- 
+
 ```c#
 foreach (var item in lst)
 {
@@ -88,7 +90,7 @@ foreach (var item in lst)
 }
 ```
 2. ### Using for loop
- 
+
 In this method, we have to run the loop till the last element of the list. For that, I have used the **Count** property of the list
 ```c#
 for (int i = 0; i < lst.Count; i++)
@@ -96,6 +98,7 @@ for (int i = 0; i < lst.Count; i++)
     Console.WriteLine(lst[i]);
 }
 ```
+
 Both the methods will give the same output. I am taking the above list example so the result will be
  
 Output:
@@ -112,26 +115,33 @@ Output:
 To remove items from a list, we can use various list methods.
  
 1. Remove(T item)- This method removes the first occurrence of an element from a list. We have to pass the element into this method as a parameter.
- 
+
 ```c#
 lst.Remove(3); // Removes the fist occurance of element 3
 ```
+
 2. RemoveAll(`Predicate<T>` match)- This method removes all elements from a list that matches the condition defined by the specified predicate. We have to pass the predicate as a parameter.
- 
+
 ```c#
 lst.RemoveAll(x=>x==3); // Removes all the elements 3
 ```
+
 3. RemoveAt(int index)- This method removes the element from the given index. We have to pass the index as a parameter.
- 
+
 ```c#
 lst.RemoveAt(0); // Removes 0th index element from a list
 ```
+
 4. RemoveRange(int index, int count)- This method removes the element from the given index to the specified count. We have to pass the starting index and count as a parameter.
- 
+
 ```c#
 lst.RemoveRange(0,2); // Removes element 1,2 because the starting index is 0 and count is 2
 ```
+
+
 5. Clear()- This method clears all the elements from a list.
+
+
 ```c#
 lst.Clear(); // Removes all elements from a list
 ```
