@@ -1,14 +1,13 @@
 ---
-title: "How to use Lists in C#"
+title: "How to Create List in C#"
 date: "2021-02-25"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
 tags: ["C#", "List"]
-description: "In this article, we will learn how to work with lists in C#."
+description: "In this article, we will learn how to create lists in C# also how to use the C# list class to add, remove, and search items in a collection of objects."
 ---
-## Introduction
- 
-C# List class represents a collection of strongly typed objects that can be accessed by using the index. In this article, we learn how to work with lists in C# using the C# List class to add, remove, and search items in a collection of objects using List class methods and properties.
+
+A list is a set of index-accessible objects that provides functionality for searching, sorting, and manipulating list items. C# List class represents a collection of strongly typed objects that can be accessed by using the index. In this article, we learn how to work with lists in C# using the C# List class to add, remove, and search items in a collection of objects using List class methods and properties.
  
 ## What is List in C#?
  
@@ -18,7 +17,7 @@ C# List class represents a collection of strongly typed objects that can be acce
  
 `List<T>` comes under the `System.Collection.Generic` namespace and the index start from `0`.
  
-## How to create a List
+## How to Create a List?
  
 We can create a list by calling the `List<T>` constructor; It takes an argument of `int` type that is the list's capacity. If we do not define the capacity, then the list size will be dynamic and every time an element is added, the list size is increased. The list can be created using the below syntax.
  
