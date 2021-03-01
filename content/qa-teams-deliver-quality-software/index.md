@@ -1,8 +1,9 @@
 ---
-title: "Testing: processes for QA teams to deliver quality software"
+title: "QA Testing Process: How to Deliver Quality Software"
 date: "2021-03-01"
 coverImage: "software-testing.png"
 author: "Neha Vyas"
+description: "A comprehensive overview of the QA testing process is given. Learn what it takes to get top-notch testing facilities."
 tags: ["QA", "Processes", "Testing"]
 ---
 
@@ -18,7 +19,9 @@ We have penetrated limits in two ways. In this day and age, we are a client conf
 
 ### Opt for releases very carefully
 
-As it's impractical to test everything each time at whatever point you push any delivery. For that reason, you need to focus on the piece of code that has been chipped away. This way, you can test the primary work component without postponing things and afterward run a total test cycle to ensure no other part has been clashed by the changes. For this reason, there is a new delivery check with the group of what piece of code has been refreshed and what are the results, and generally center around that part to run tests. This way, you can focus on the work and endeavors which should be put. We center around those pieces of the code and utilize existing computerization tests to deal with different parts. If you realize something worked in the final delivery and you're not contacting it in this delivery, at that point, you don't have to invest an excessive amount of time in testing. So base your delivery standards on the new code that is being added.
+As it's impractical to test everything each time at whatever point you push any delivery. For that reason, you need to focus on the piece of code that has been chipped away. This way, you can test the primary work component without postponing things and afterward run a total test cycle to ensure no other part has been clashed by the changes. For this reason, there is a new delivery check with the group of what piece of code has been refreshed and what are the results, and generally center around that part to run tests. This way, you can focus on the work and endeavors which should be put. 
+
+We center around those pieces of the code and utilize existing computerization tests to deal with different parts. If you realize something worked in the final delivery and you're not contacting it in this delivery, at that point, you don't have to invest an excessive amount of time in testing. So base your delivery standards on the new code that is being added.
 
 
 ## Always have a proper plan based on priorities  
@@ -29,13 +32,15 @@ QA has to make sure that whatever work needs to be done is appropriately priorit
 
 ## Always make sure to have proper environments ready!
 
-You will often hear from the development team that, "…. It works fine with me; there must be some network issue or system issue on your end". We have to make sure not to have such conflicts in between because, in the end, our goal has to be – Delivering bug free solution!  
+You will often hear from the development team that, "…. It works fine with me; there must be some network issue or system issue on your end". We have to make sure not to have such conflicts in between because, in the end, our goal has to be – Delivering bug free solution!
+
 For that purpose, Our QA and development teams run their tests in the same environment. As our builds move through the development pipeline, we should test the code under the production environment to build our staging environment to simulate our customer's production environments.
 
   
 ## Set up a dedicated performance testing team
 
-Always plan to arrange a dedicated performance team who can run tests as soon as a product is steady and tell the team about new versions and requirements to evaluate the performance risks. 
+Always plan to arrange a dedicated performance team who can run tests as soon as a product is steady and tell the team about new versions and requirements to evaluate the performance risks.
+
 To update performance teams with all the latest information and provide them with an environment close to production as you can. To make sure that there shouldn't be any gaps between and can appropriately test the product. 
 
 
@@ -55,4 +60,4 @@ We perform post-release sanity tests on our production account to authorize that
 
 ## Conclusion
 
-The best testing practices should inculcate all other processes in general and risk management processes in particular in them. The focus should be to improve the software's overall quality while aiming to reduce the cost with continuous monitoring during and after the software release. While doing quality assurance testing, the tester should comply with all the fundamental principles and industry practices and look at the product from the end user's perspective.
+The [best testing practices](https://www.loginradius.com/blog/async/unit-testing/) should inculcate all other processes in general and risk management processes in particular in them. The focus should be to improve the software's overall quality while aiming to reduce the cost with continuous monitoring during and after the software release. While doing quality assurance testing, the tester should comply with all the fundamental principles and industry practices and look at the product from the end user's perspective.
