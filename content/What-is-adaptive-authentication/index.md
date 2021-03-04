@@ -1,6 +1,6 @@
 ---
 title: "What is Adaptive Authentication/Risk-based Authentication?"
-date: "2021-03-08"
+date: "2021-03-03"
 coverImage: "adaptive-authentication.jpg"
 author: "Jitender Agarwal"
 tags: ["Adaptive Authentication", "Risk-based Authentication"]
@@ -65,4 +65,4 @@ Adaptive Authentication is evolving as Machine learning can add more risk factor
 
 Adaptive authentication is getting popular as it provides frictionless authentication for consumers while preventing fraudulent attempts to access the system. 
 
-LoginRadius provides Adaptive Authentication to its customers to assist their businesses. Please see [LoginRadius Risk Based Authentication](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/risk-based-auth/) for more information on the LoginRadius Adaptive Authentication. 
+LoginRadius provides Adaptive Authentication to its customers to assist their businesses. Please see [Risk-Based Authentication](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/risk-based-auth/) Document for more information on the LoginRadius Adaptive Authentication. 
