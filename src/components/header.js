@@ -31,7 +31,6 @@ const demologger = function () {
   })
 }
 
-
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   return (
@@ -85,7 +84,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
               <a
-                className={"btn-primary small ga_event"}
+                className={`${headerStyles.navcta} btn-primary  ga_event }`}
                 href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
                 target="_blank"
                 rel="noopener noreferrer"
