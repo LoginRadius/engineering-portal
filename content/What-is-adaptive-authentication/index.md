@@ -1,6 +1,6 @@
 ---
 title: "What is Adaptive Authentication or Risk-based Authentication?"
-date: "2021-03-03"
+date: "2021-03-09"
 coverImage: "adaptive-authentication.jpg"
 author: "Jitender Agarwal"
 tags: ["Adaptive Authentication", "Risk-based Authentication"]
