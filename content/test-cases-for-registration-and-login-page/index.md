@@ -2,7 +2,7 @@
 title: "How to write test cases for registration and login page"
 date: "2020-08-19"
 author: "Gaurav Bewal"
-coverImage: "writing-good-test-cases.png"
+coverImage: "cover.jpg"
 tags: ["Test Cases", "Quality", "Login and Registration"]
 description: "Here is a set of Use Cases for Login and Registration Pages to test and to make sure the quality."
 ---
