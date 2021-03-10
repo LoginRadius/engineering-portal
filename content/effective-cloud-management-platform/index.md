@@ -53,20 +53,16 @@ To maximize resources and service usage, businesses should adopt cloud managemen
 
 CMPs are tools that sit above cloud platforms such as IaaS (Infrastructure as a Service), SaaS (Software as a Service), and PaaS (Platform as a Service). They can quickly gather business tools, processes, and technologies, to promote cloud environment management. 
 
-1. Self-service management 
-
+1. **Self-service management:**
 Cloud management platforms support managing cloud resources and assets through self-service. This essentially means that organizations can provide resources for themselves without using a predetermined amount. CMPs help decides if the resource allocation is in sync with the cloud environment requirements.
 
-2. Task automation
-
+2. **Task automation:**
 Organizational productivity depends on reducing challenging tasks and eliminating the chances of duplicity and error to manage tasks efficiently. Cloud management platforms can automate repeatable tasks through different architectures and policies.
 
-3. Reduced cloud costs
-
+3. **Reduced cloud costs:**
 Managing expenses of cloud resources and infrastructure is necessary to maintain the financial health of a company. Cloud management platforms are built to monitor resource expenditure to help you track exactly where and how funds are being spent. This dramatically reduces unnecessary operational costs. 
 
-4. Easy cloud governance
-
+4. **Easy cloud governance:**
 With the cloud, a single piece of data can be accessible to anyone if there is a lack of constant data checks; Cloud management platforms can simplify this governance through all security levels. They enable an environment that creates and implements required policies and compliances. This provides added control over assets and access. 
 
 ## Better management equals better performance
