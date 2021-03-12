@@ -7,10 +7,9 @@ tags: ["SDET", "SDET vs Automation Engineer"]
 description: "A brief overview about the requirement of SDET role in the software industry and its responsibility"
 ---
 
-**SDET**  stands for Software Development Engineer in Test, QA Engineer or Testers on the other hand can be a manual tester or Automation Engineer who does not participate in software development. SDET is often involved in developing testing-friendly, code that is useful in the scripting of test cases or designing the automation framework which can be used as a testing tool. SDET also reviews the design and processes of the software product.
+**SDET**  stands for Software Development Engineer in Test, QA Engineer or Testers on the other hand can be a manual tester or Automation Engineer who does not participate in software development. SDET is often involved in developing testing-friendly, code that is useful in the scripting of test cases or designing automation solutions. SDET also involved in the design, processes, and functionality level decisions of the software product.
 
 > Presently several organizations are demanding such SDET professionals who can participate in the development of the software and also in the testing of the software developed.
-
 
 <p align="center">
   <img width="480" height="480" src="./sdet_role.png">
@@ -22,14 +21,13 @@ description: "A brief overview about the requirement of SDET role in the softwar
 
 - An SDET, is a developer-cum-tester who works with the development team as part of the test team. SDETs are responsible not only for testing the application but are required to participate in the code as well. SDETs are responsible to write the test cases as well fix the written code. In Agile lifecycle model. SDETs are professionals who should have very strong technical, analytical, and problem–solving skills. On the other hand, Automation Engineers should have knowledge of any automation Testing Framework with moderate programming experience as they usually are not exposed to the code.
 
-- SDET is a highly skilled resource from the development as well as testing point of view on the other hand Automation Engineers is involved in preparing, scripting, and executing the test cases by automation.
+- SDET is a highly skilled resource from the development as well as testing point of view on the other hand Automation Engineers are involved in preparing, scripting, and executing the test cases by automation.
 
-- Automation Engineers are skilled resources with programming skills and they are much focused on the black box or functional testing whereas SDETs are responsible to perform both black-box and white-box testing as well.
+- Automation Engineers are skilled resources with programming skills and they are much responsible for the functional or black-box testing whereas SDETs are responsible to perform both black-box and white-box testing as well.
 
 
-> Tester or Quality Analyst who have good programming experience and developed the test automation framework can be promoted to a new role as SDET and can participate in the review of design of software application or other test automation framework.
-
-- Automation Engineers or Quality Analyst are expected for more duties over a general testing role like performance testing, security testing, automated generation of test data, test environment setup, developing test automation tool, etc. whereas SDET is expected to have domain knowledge so that they can participate in designing the test cases. 
+> Tester or Quality Analyst who has good programming experience and developed the test automation framework can be promoted to a new role as SDET and can participate in the development cycle, acceptance testing, or unit testing.
+- Automation Engineers or Quality Analyst are expected for more duties over a general testing role like test planning, test environment setup, test execution, test-data preparation, performance, and security testing and developing test automation tool, etc. whereas SDET is expected to have domain knowledge so that they can participate in designing the test cases. 
 
 ## SDETs: The need
 
