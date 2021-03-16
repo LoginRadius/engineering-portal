@@ -59,9 +59,17 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div className={headerStyles.header}>
-        <Link className={logo} to={"/"}>
+        <Link className={headerStyles.logo} to={"/"}>
           <img src={logo} alt={`logo`} />
         </Link>
+        <input type="checkbox" id={headerStyles.navCheck} />
+        <div className={headerStyles.navBtn}>
+          <label for="navCheck">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
         <div className={headerStyles.menuLinks}>
           <nav className={headerStyles.menuLinksinner}>
             <ul>
@@ -96,6 +104,7 @@ const Header = ({ menuLinks, searchIndex }) => {
             <Search searchIndex={searchIndex} />
           </div>
         </div>
+        <div className={headerStyles.backdrop} />
       </div>
     </>
   )
