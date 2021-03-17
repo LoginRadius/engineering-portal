@@ -1,5 +1,7 @@
 @import "../styles/variables.scss";
 .top-strip {
+  position: relative;
+  z-index: 2;
   p {
     background-color: #fff;
     padding: 16px 30px;
@@ -8,6 +10,7 @@
     font-family: "Barlow", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 24px;
   }
   .close-icon {
     color: #000;
@@ -31,6 +34,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: $black;
+  position: relative;
+  z-index: 1;
   @media (max-width: 768px) {
     flex-direction: column;
     height: auto;
@@ -38,12 +43,25 @@
   img {
     margin-bottom: 0;
   }
+  .logo {
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+    img {
+      @media (max-width: 768px) {
+        max-height: 80px;
+      }
+    }
+  }
   & > a {
     display: flex;
     align-items: stretch;
     width: 280px;
     height: 96px;
     padding: 0 48px 0 32px;
+    @media (max-width: 768px) {
+      padding: 0 32px;
+    }
   }
   .menuLinks {
     position: relative;
@@ -56,6 +74,7 @@
       width: 100%;
       flex-direction: column;
       height: auto;
+      display: none;
     }
     .menuLinksinner {
       position: relative;
@@ -64,7 +83,6 @@
       height: 96px;
       list-style: none;
       @media (max-width: 768px) {
-        justify-content: center;
         height: auto;
       }
     }
@@ -85,15 +103,103 @@
           font-weight: 500;
           letter-spacing: 0.6px;
           text-decoration: none;
+          font-size: 18px;
           &:hover {
             color: $white;
           }
           @media (max-width: 479px) {
-            padding: 0 15px;
-            font-size: 16px;
+            padding: 0 22px;
           }
         }
       }
+    }
+  }
+  .nav-btn {
+    position: absolute;
+    top: 38.5px;
+    left: 16px;
+    z-index: 1;
+    @media (min-width: 769px) {
+      display: none;
+    }
+    label {
+      span {
+        display: block;
+        width: 32px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: $white;
+        border-radius: 3px;
+        transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1),
+          background 0.3s cubic-bezier(0.77, 0.2, 0.05, 1),
+          opacity 0.3s ease-in-out;
+        position: relative;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  #navCheck {
+    opacity: 0;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    z-index: 2;
+    margin-left: 8px;
+    &:checked ~ .menuLinks {
+      @media (max-width: 768px) {
+        display: block;
+        background-color: $white;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        z-index: 1;
+        padding-bottom: 32px;
+        box-shadow: $bs-md;
+        nav {
+          ul {
+            li {
+              width: 100%;
+              a {
+                color: $black;
+                padding: 20px 22px;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    &:checked ~ .nav-btn {
+      label {
+        span {
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:first-child {
+            transform: rotate(45deg) translate(3px, 3px);
+            top: 0;
+            left: 0;
+          }
+          &:last-child {
+            transform: rotate(-45deg) translate(8px, -8px);
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+    &:checked ~ .backdrop {
+      background-color: rgba(0, 0, 0, 0.36);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
     }
   }
   .nav-right-side {
@@ -107,8 +213,10 @@
     @media (max-width: 768px) {
       margin-right: 0;
       justify-content: space-between;
-      padding: 0 32px;
+      padding: 0 22px;
       margin: 0;
+      flex-direction: column;
+      height: auto;
     }
     .free-signup {
       display: flex;
@@ -122,10 +230,14 @@
       z-index: 1;
       @media (max-width: 768px) {
         margin-right: 0;
+        padding: 20px 0;
       }
       .navcta {
         height: 44px;
         line-height: 44px;
+        @media (max-width: 768px) {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -142,8 +254,9 @@
   align-items: center;
   width: 300px;
   @media (max-width: 768px) {
-    right: 32px;
-    width: calc(100% - 50px);
+    right: 0;
+    width: 100%;
+    position: relative;
   }
   a {
     &.search-button {
@@ -171,6 +284,9 @@
     border-radius: 4px;
     padding: 0;
     z-index: -1;
+    @media (max-width: 768px) {
+      border-color: $gray-medium;
+    }
   }
   ul {
     width: 300px;
@@ -191,7 +307,8 @@
     flex-direction: column;
     box-shadow: 0px 1px 2px $gray-light;
     @media (max-width: 768px) {
-      width: calc(100% - 12px);
+      width: 100%;
+      top: 44px;
     }
     li {
       border-bottom: solid 1px $gray-light;
@@ -228,7 +345,7 @@
   padding: 0 15px !important;
   z-index: 2 !important;
   @media (max-width: 768px) {
-    width: calc(100% - 65px) !important;
+    width: calc(100% - 44px) !important;
   }
   & ~ a {
     background-color: $blue-bright !important;

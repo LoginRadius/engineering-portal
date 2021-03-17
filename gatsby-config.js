@@ -20,6 +20,10 @@ module.exports = {
         slug: "https://www.loginradius.com/docs/developer",
       },
       {
+        name: "Our Blogs",
+        slug: "https://www.loginradius.com/blog/",
+      },
+      {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
@@ -201,15 +205,18 @@ module.exports = {
                   enclosure: {
                     url:
                       site.siteMetadata.siteUrl +
-                      edge.node.frontmatter.coverImage.childImageSharp.fluid.src,
+                      edge.node.frontmatter.coverImage.childImageSharp.fluid
+                        .src,
                     type: "image/jpeg",
                     size: 768,
                   },
                   custom_elements: [
                     {
-                      "content:encoded": `<p> ${edge.node.frontmatter.description || edge.node.excerpt
-                        } </p> <br/>  <a href="${site.siteMetadata.feedUrl + edge.node.fields.slug
-                        }">Read On</a>`,
+                      "content:encoded": `<p> ${
+                        edge.node.frontmatter.description || edge.node.excerpt
+                      } </p> <br/>  <a href="${
+                        site.siteMetadata.feedUrl + edge.node.fields.slug
+                      }">Read On</a>`,
                     },
                   ],
                 })
