@@ -124,7 +124,7 @@
   github: "Imankitt"
 
 - id: Rakesh Pareek
-  bio: Rakesh Pareek is a Full Stack Automation Engineer at LoginRadius and have an experience in working in most of the QA  framework including mocha, nightwatch, selenium, cucumber.
+  bio: Rakesh Pareek is Lead QA Engineer at LoginRadius. A Full Stack Automation Engineer and have experience in working with most of the QA framework including mocha, nightwatch, selenium, cucumber.
   github: "rkpareek"
   stackoverflow: "4875077"
   linkedin: "rkpareek"
@@ -455,10 +455,13 @@
   github: "maxsergeyenko"
 
 - id: "Roshan Jangid"
-  bio: Roshan Jangid is the Infromartion Security Engineering at LoginRadius. 
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius. 
   github: "roshan-jangid"
   linkedin: "roshan-jangid-140a35147"
   
 - id: "Neha Vyas"
   github: "nehavyasqa"
 
+- id: "Aayushi Sanghavi"
+  bio: "Aayushi Sanghavi is a Content Community Writer at G2, India. She has written on topics such as HR, Tech, and SaaS. You can find her reading, dancing, or brushing up on her communication skills in her free time."
+  linkedin: "aayushi-sanghavi"
