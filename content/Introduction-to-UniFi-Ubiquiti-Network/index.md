@@ -1,7 +1,7 @@
 ---
 title : "Introduction to UniFi Ubiquiti Network"
 date: "2021-03-15"
-coverImage: "cover.jpg"
+coverImage: "cover.png"
 author: "Roshan Jangid"
 tags: ["Network", "Unifi Networking", Remote Team Management, Startups Solutions]
 description: "Getting started with Unifi Network for getting the freedom of remote management of network devices. Here's what you need to know about UniFi network."
