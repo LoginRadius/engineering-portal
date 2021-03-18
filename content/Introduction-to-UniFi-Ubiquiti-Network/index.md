@@ -3,8 +3,8 @@ title : "Introduction to UniFi Ubiquiti Network"
 date: "2021-03-15"
 coverImage: "cover.jpg"
 author: "Roshan Jangid"
-tags: ["Network", "Unifi Networking"]
-description: "Getting started with Unifi Network for getting the freedom of remote management of network devices."
+tags: ["Network", "Unifi Networking", Remote Team Management, Startups Solutions]
+description: "Getting started with Unifi Network for getting the freedom of remote management of network devices. Here's what you need to know about UniFi network."
 ---
 
 ## Overview
@@ -22,11 +22,11 @@ Having an UniFi Controller on the cloud allows us easy deployment of hardware. O
 
 2. **Reduced Operating and Hardware Cost**
 
-UniFi devices are ideal for most small businesses and even for some medium-sized businesses because they don't need the extra cost to buy high-priced products like cisco enterprise equipment. Businesses can achieve almost the same performance with Ubiquiti products. Many products have advanced enterprise hardware that is not even needed, so Ubiquiti is useful for smaller businesses that want enterprise-grade equipment.
+UniFi devices are ideal and helpful for most small and <a href="https://www.loginradius.com/startups/"><b>startups businesses</b></a> and even for some medium-sized businesses because they don't need the extra cost to buy high-priced products like cisco enterprise equipment. Businesses can achieve almost the same performance with Ubiquiti products. Many products have advanced enterprise hardware that is not even needed, so Ubiquiti is useful for smaller businesses that want enterprise-grade equipment.
 
 3. **Simplified Length of Service**
 
-UniFi products are built to be controlled remotely. All the Unifi products are designed with upgrades in mind, and they keep getting updates over some time for the new feature upgradation and the bug fixes.
+UniFi products are built to be controlled remotely and its easy to <a href="https://www.loginradius.com/blog/fuel/2021/02/tips-managing-remote-team/"><b>leading and managing remote teams</b></a>. All the Unifi products are designed with upgrades in mind, and they keep getting updates over some time for the new feature upgradation and the bug fixes.
 
 4. **Total Visibility**
 
