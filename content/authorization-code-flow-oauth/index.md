@@ -4,7 +4,7 @@ date: "2021-03-24"
 coverImage: "unsplash.jpg"
 author: "Nick Chim"
 tags: ["OAuth", "Authorization Code Flow"]
-description: "This blog is about the authorization code flow to autorize request and get access token, suitable for the web applications deployed on server."
+description: "This article will help you to understand the OAuth 2.0 authorization code flow."
 ---
 
 The Authorization Code Flow for OAuth 2.0 is targeted at web applications that have a server-side component, which allows the client secret for the authorization server to be kept secret (confidential client). Typically, authorization servers will require a secret to be used when making authentication requests if more sensitive data is wanted, such as personal data or refresh tokens. Without it, you would be restricted to following the Implicit flow for [OAuth 2.0](https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/), which only returns an access token from the authorization server.
