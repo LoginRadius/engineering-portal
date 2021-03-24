@@ -1,13 +1,13 @@
 ---
-title: "How to Authorization Code Flow for OAuth 2.0"
-date: "2021-03-17"
+title: "Guide to Authorization Code Flow for OAuth 2.0"
+date: "2021-03-24"
 coverImage: "unsplash.jpg"
 author: "Nick Chim"
 tags: ["OAuth", "Authorization Code Flow"]
-description: "This blog is about the authorization code grant type is used by both web apps and native apps to get an access token after a user authorizes an app, where we explore the frequently used OAuth 2.0 grant types."
+description: "This blog is about the authorization code flow to autorize request and get access token, suitable for the web applications deployed on server."
 ---
 
-The Authorization Code Flow for OAuth 2.0 is targeted at web applications that have a server-side component, which allows the client secret for the authorization server to be kept secret (confidential client). Typically, authorization servers will require a secret to be used when making authentication requests if more sensitive data is wanted, such as personal data or refresh tokens. Without it, you would be restricted to following the Implicit flow for OAuth 2.0, which only returns an <a href="https://www.loginradius.com/blog/async/oauth2/"><b>access token from the authorization server</b></a>.
+The Authorization Code Flow for OAuth 2.0 is targeted at web applications that have a server-side component, which allows the client secret for the authorization server to be kept secret (confidential client). Typically, authorization servers will require a secret to be used when making authentication requests if more sensitive data is wanted, such as personal data or refresh tokens. Without it, you would be restricted to following the Implicit flow for [OAuth 2.0](https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/), which only returns an access token from the authorization server.
 
 In the Authorization Code flow, the server-side component of the web application can freely manage the user's session upon authenticating with the authorization server without revealing anything about the authorization server's response (such as personal data or refresh token) to the end-user.
 
@@ -25,11 +25,11 @@ The flow illustrated above aims to provide a rough overview of a typical Authori
 
 4. The retrieved Authorization Code is sent to the Client-Server. 
 
-5. The Client-Server makes a POST request to the Authorization Server, containing its client key, secret, and <a href="https://www.loginradius.com/resource/loginradius-ciam-authorization-service"><b>Authorization Code</b></a>.
+5. The Client-Server makes a POST request to the Authorization Server, containing its client key, secret, and Authorization Code.
 
 6. The Authorization Server verifies the key, secret and code, and issues an ID Token and access token. The ID Token is a JWT that is typically used to store user data from the Authorization Server.
 
-7. The Client-Server receives and processes the ID token and <a href="https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/access-token/"><b>access token</b></a>. The access token is then kept in the Client-Server, which can request resources on behalf of the User Client without exposing the token itself.
+7. The Client-Server receives and processes the ID token and access token. The access token is then kept in the Client-Server, which can request resources on behalf of the User Client without exposing the token itself.
 
 So you might ask yourself what the whole point of the Authorization Code is. At first glance, it would seem that the code is issued, only to be returned to exchange for an access token. The code is what allows us to keep the token hidden away from the User Client, which could be potentially exposed to malicious agents seeking to steal the token for nefarious means. 
 
