@@ -44,7 +44,7 @@ function eva(email) {
   var result = JSON.parse(contextText);
  
  // Logic to check Business Email
-  if (result["data"]["disposable"] === false && result["data"]["webmail"] === false &&  result["data"]["spam"]  === false) {
+  if (result["data"]["disposable"] === false && result["data"]["webmail"] === false &&  result["data"]["spam"]  === false && result["data"]["deliverable"] === true) {
     return true
   }
   return false;
