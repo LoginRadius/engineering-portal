@@ -1,6 +1,6 @@
 ---
 title: How to add SSO for your WordPress Site!
-date: "2021-03-25"
+date: "2021-03-26"
 coverImage: "coverImage.jpg"
 author: "Saikiran Babladi"
 tags: ["WordPress", "SSO", "Single Sign On"]
@@ -36,19 +36,22 @@ LoginRadius aims to help developers, web development agencies, and businesses to
 LoginRadius allows you to store your consumer profiles securely and add our customizable login interfaces into your applications in minutes. By enabling our SSO, you can create a frictionless user experience, thus boosting your conversion rate.
 
 <p><a href="https://www.loginradius.com/resource/loginradius-single-sign-on/">
-<img border="0" alt="loginradius-sso" src="https://www.loginradius.com/blog/start-with-identity/static/41cc8ea16144a85f22b499da107c16bf/2bef9/DS-LoginRadius-Single-Sign-on.png" width="360" height="108"></p></a>
+<img alt="loginradius-sso" src="https://www.loginradius.com/blog/start-with-identity/static/41cc8ea16144a85f22b499da107c16bf/2bef9/DS-LoginRadius-Single-Sign-on.png" width="360" height="108"></p></a>
+
  
 ## Benefits
+
 <a href="https://laura-nutt088.medium.com/loginradius-launches-wordpress-authentication-sso-plugin-to-streamline-login-experiences-fa5b00b4fbf2" rel="nofollow"><b>LoginRadius SSO plugin</b></a> for WordPress improves your consumers' experience by taking away password fatigue and the need to create new profiles or re-enter an email/password. Apart from configuring SSO, the LoginRadius WordPress plugin offers other benefits such as:
  
-Centralised registration/login
-<a href="https://www.loginradius.com/standard-login/"><b>Standard login</b></a> (email login)
-<a href="https://www.loginradius.com/social-login/"><b>Social login</b></a> (Facebook, Google, Twitter)
-<a href="https://www.loginradius.com/user-management/"><b>User management</b></a>
-Customizable interfaces for login, registration, and forgot password pages
+- Centralised registration/login
+- <a href="https://www.loginradius.com/standard-login/"><b>Standard login</b></a> (email login)
+- <a href="https://www.loginradius.com/social-login/"><b>Social login</b></a> (Facebook, Google, Twitter)
+- <a href="https://www.loginradius.com/user-management/"><b>User management</b></a>
+- Customizable interfaces for login, registration, and forgot password pages
  
 ## Your Take?
 We always want to hear from our customers. Like many others in the market, we want developers to install it and offer feedback. This feedback will help us enhance the plugin and make it more user-friendly.
 
+
 <p><a href="https://www.loginradius.com/book-a-demo/">
-<img border="0" alt="loginradius-book-a-demo" src="https://www.loginradius.com/blog/start-with-identity/static/f7e4f76aacdad7845a314a993f7d57a9/e5715/book-a-demo-loginradius.png" width="360" height="108"></p></a>
+<img alt="loginradius-book-a-demo" src="https://www.loginradius.com/blog/start-with-identity/static/f7e4f76aacdad7845a314a993f7d57a9/e5715/book-a-demo-loginradius.png" width="360" height="108"></p></a>
