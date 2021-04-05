@@ -135,7 +135,7 @@ const Post = ({ post, relatedPost }) => {
                 <h3>Follow LoginRadius </h3>
                 <div className={styles.followBtn}>
                   <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
+                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
                     onClick={() =>
                       eventLogger({
                         category: "Social Clicks",
