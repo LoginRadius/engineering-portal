@@ -201,6 +201,7 @@ module.exports = {
                   url: site.siteMetadata.feedUrl + edge.node.fields.slug,
                   pubDate: edge.node.frontmatter.date,
                   author: edge.node.frontmatter.author.id,
+                  authorImageURL: (edge.node.frontmatter.author.github)?"https://github.com/"+edge.node.frontmatter.author.github+".png":"https://ui-avatars.com/api/?name="+edge.node.frontmatter.author.id,
                   categories: edge.node.frontmatter.tags,
                   enclosure: {
                     url:
@@ -247,6 +248,7 @@ module.exports = {
                         }
                         author {
                           id
+                          github
                         }
                         tags
                       }

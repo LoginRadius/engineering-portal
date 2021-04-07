@@ -44,7 +44,7 @@ export default ({
               />
             </div>
             <div class={styles.aboutAuthor}>
-              <h3>{id}</h3>
+              <h1>{id}</h1>
               <p>{bio}</p>
             </div>
             <div className={styles.authorSocialIcon}>
