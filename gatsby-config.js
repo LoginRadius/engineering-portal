@@ -221,7 +221,7 @@ module.exports = {
                     {
                       authorImage: edge.node.frontmatter.author.github
                         ? `https://github.com/${edge.node.frontmatter.author.github}.png?size=100v=40`
-                        : `https://ui-avatars.com/api/?name=${edge.node.frontmatter.author.id}&size=100}`,
+                        : `https://ui-avatars.com/api/?name=${edge.node.frontmatter.author.id}&size=100`,
                     },
                   ],
                 })
