@@ -26,7 +26,7 @@ const Hacktoberfest2020 = () => {
               </p>
             </div>
             <div>
-              <img src={HeroImage} />
+              <img src={HeroImage} alt="LoginRadius Guest Blogging Program" />
             </div>
           </div>
         </section>
