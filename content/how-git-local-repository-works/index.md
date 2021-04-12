@@ -24,30 +24,32 @@ that whole environment will look like the below picture
 
 
 
-just look at this below gif for a while what is happening, 
-
-
-
-still confused let's get into it step by step and see how we perform command or action and behind the scene, git do its own activity. 
+Let's get into it step by step and see how we perform command or action and behind the scene, git do its own activity. 
 
 - Step 1. Git clone and project:
-![3](3.png)
-![4](4.png)
+  ![3](3.png)
+
+  ![4](4.png)
 - Step 2. Explore what we got in repository
-![5](5.png)
-![6](6.png)
+  ![5](5.png)
+
+  ![6](6.png)
 - Step 3. Do some modification in a files
-![7](7.png)
-![8](8.png)
+  ![7](7.png)
+
+  ![8](8.png)
 - Step 4. Add this file in to staging (ready for commit)
-![9](9.png)
-![10](10.png)
+  ![9](9.png)
+
+  ![10](10.png)
 - Step 5. Commit the file 
-![11](11.png)
-![12](12.png)
+  ![11](11.png)
+
+  ![12](12.png)
 - Step 6. Push the changes
-![13](13.png)
-![14](14.png)
+  ![13](13.png)
+
+  ![14](14.png)
 
 
 Hope this makes clear how git handling things at the local repository.
