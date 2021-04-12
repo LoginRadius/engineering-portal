@@ -7,7 +7,7 @@ module.exports = {
     description:
       "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
     siteUrl: "https://www.loginradius.com",
-    feedUrl: "https://www.loginradius.com/engineering",
+    feedUrl: "https://www.loginradius.com/blog/async",
     image: "/engineering-blog.svg",
     owner: "LoginRadius",
     menuLinks: [
@@ -20,12 +20,16 @@ module.exports = {
         slug: "https://www.loginradius.com/docs/developer",
       },
       {
+        name: "Our Blogs",
+        slug: "https://www.loginradius.com/blog/",
+      },
+      {
         name: "Open Source",
         slug: "https://github.com/LoginRadius/",
       },
       {
-        name: "Hacktoberfest2020",
-        slug: "https://www.loginradius.com/engineering/page/hacktoberfest2020",
+        name: "Write for Us",
+        slug: "https://www.loginradius.com/blog/async/page/guest-blog",
       },
     ],
     footerLinks: [
@@ -75,6 +79,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          { resolve: "gatsby-remark-copy-linked-files" },
           {
             resolve: `gatsby-remark-relative-images`,
           },
@@ -101,6 +106,34 @@ module.exports = {
       options: {
         trackingId: process.env.GA_TRACKING_ID,
         head: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GOOGLE_TAGMANAGER_ID,
+
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        //defaultDataLayer: { platform: "gatsby" },
+
+        // Specify optional GTM environment details.
+        //gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        //gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        //dataLayerName: "YOUR_DATA_LAYER_NAME",
+
+        // Name of the event that is triggered
+        // on every Gatsby route change.
+        //
+        // Defaults to gatsby-route-change
+        //routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
     {
@@ -153,7 +186,8 @@ module.exports = {
           {
             site {
               siteMetadata {
-                feedUrl
+                feedUrl,
+                siteUrl
               }
             }
           }
@@ -170,8 +204,9 @@ module.exports = {
                   categories: edge.node.frontmatter.tags,
                   enclosure: {
                     url:
-                      site.siteMetadata.feedUrl +
-                      edge.node.frontmatter.coverImage.publicURL,
+                      site.siteMetadata.siteUrl +
+                      edge.node.frontmatter.coverImage.childImageSharp.fluid
+                        .src,
                     type: "image/jpeg",
                     size: 768,
                   },
@@ -183,6 +218,11 @@ module.exports = {
                         site.siteMetadata.feedUrl + edge.node.fields.slug
                       }">Read On</a>`,
                     },
+                    {
+                      authorImage: edge.node.frontmatter.author.github
+                        ? `https://github.com/${edge.node.frontmatter.author.github}.png?size=100v=40`
+                        : `https://ui-avatars.com/api/?name=${edge.node.frontmatter.author.id}&size=100`,
+                    },
                   ],
                 })
               })
@@ -191,7 +231,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000
-                  filter: { fileAbsolutePath: { regex: "//content/blog//" } }
+                  filter: { fileAbsolutePath: { regex: "//content//" } }
                   sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   edges {
@@ -203,10 +243,16 @@ module.exports = {
                         description
                         date(formatString: "MMMM DD, YYYY")
                         coverImage {
-                          publicURL
+                          publicURL,
+                          childImageSharp {
+                            fluid {
+                              src
+                            }
+                          }
                         }
                         author {
                           id
+                          github
                         }
                         tags
                       }
@@ -217,8 +263,8 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: "LoginRadius Engineering Blog",
-            feed_url: "https://www.loginradius.com/engineering/rss.xml",
-            site_url: "https://www.loginradius.com/engineering/",
+            feed_url: "https://www.loginradius.com/blog/async/rss.xml",
+            site_url: "https://www.loginradius.com/blog/async/",
             description:
               "Company Updates, Technology Articles from LoginRadius",
             language: "en-us",
@@ -230,5 +276,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: `/engineering`,
+  pathPrefix: `/blog/async`,
 }

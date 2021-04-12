@@ -24,7 +24,7 @@ const FreeTrial = () => {
             </p>
           </div>
           <a
-            className={"btn-primary"}
+            className={"btn-primary ga_event"}
             href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
             target="_blank"
             rel="noopener noreferrer"
@@ -35,12 +35,13 @@ const FreeTrial = () => {
         </div>
         <div className={styles.lists}>
           <ul>
-            <li> 5,000 MAU </li>
-            <li>1 Web or mobile app </li>
-            <li>Standard login </li>
+            <li>7,000 Monthly Active Users </li>
+            <li>1 Web or Mobile App</li>
+            <li>Email/Password Login </li>
             <li>3 Social Login Providers </li>
+            <li>User Data Storage </li>
             <li>Transactional Email Template </li>
-            <li>Customizable Login Interfaces </li>
+            <li>Customizable Login Interfaces</li>
           </ul>
         </div>
       </div>

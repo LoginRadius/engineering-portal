@@ -124,17 +124,18 @@
   github: "Imankitt"
 
 - id: Rakesh Pareek
-  bio: Rakesh Pareek is a Full Stack Automation Engineer at LoginRadius and have an experience in working in most of the QA  framework including mocha, nightwatch, selenium, cucumber.
+  bio: Rakesh Pareek is Lead QA Engineer at LoginRadius. A Full Stack Automation Engineer and have experience in working with most of the QA framework including mocha, nightwatch, selenium, cucumber.
   github: "rkpareek"
   stackoverflow: "4875077"
   linkedin: "rkpareek"
 
 - id: Chinmaya Pati
-  bio: I'm a software engineer with expertise in fullstack web development. I've strong command on JS and related frameworks. Interested in database technologies and system design.
+  bio: I'm an avid FOSS enthusiast and contributor interested in system design, web-dev, UI/UX, data-driven technologies, and DevOps.
   github: "cnp96"
   linkedin: "chinmayapati"
   stackoverflow: "5790355"
   twitter: chiku__p
+  medium: "@chinmaya-cp"
 
 - id: Priyadarshan Mohanty
   bio: Priyadarshan Mohanty is a Data Engineer at LoginRadius and has experience in working in Big Data technologies like Hadoop, Hive, Spark and Kafka. Interested in database technologies and distributed systems.
@@ -261,7 +262,7 @@
 
 - id: Shreya Sharma
   bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
-  github: "shreyaa-sharmaa"
+  github: "cypherean"
   linkedin: "shreyaa-sharma"
 
 - id: Akshay Avinash
@@ -382,3 +383,89 @@
   github: "Akshay-Nagle"
   linkedin: "akshay-nagle-3408a1179"
   twitter: "akshaynagle"
+
+- id: Malathi T
+  bio: Software developer
+  github: "malathit"
+  linkedin: "malathit"
+  stackoverflow: "1237402"
+
+- id: Prabhat Kumar
+  bio: I am a Machine Learning Engineer who loves to program and deploy large scale application on cloud
+  github: "prabhatkgupta"
+  linkedin: "prabhatkgupta-kgp168"
+  stackoverflow: "11812454"
+
+- id: Bas Palinckx
+  bio: A software engineer interested in Cyber security.
+  github: "baspalinckx"
+  linkedin: "bas-palinckx-61b648164"
+
+- id: Isaac Anohene
+  github: "anohene1"
+  linkedin: "isaac-anohene-688276159"
+  twitter: "anohene1"
+
+- id: Krista Singleton
+  github: "krissingl"
+  linkedin: "krista-singleton"
+
+- id: Prithviraj Biswas
+  bio: Programming is not only my passion but is something that I developed over time with great effort. I am driven by my insatiable fascination for Computers I learn something new every day as there is so much yet to learn.
+  github: "prithvirajbytes"
+  linkedin: "prithviraj-biswas-a9a827169"
+
+- id: "Kapil Bansal"
+  bio: "A python developer and open source enthusiast."
+  github: "devkapilbansal"
+  linkedin: "devkapilbansal"
+
+- id: Sameer Mahajan
+  bio: Recent Computer Science Graduate
+  github: "sameermahajan101"
+  stackoverflow: "11896352"
+  linkedin: "sameer-mahajan-777105127"
+  twitter: "sameermahan101"
+
+- id: "Nitin Gupta"
+  bio: "Software Engineer in Fintech organization and loves to code"
+  github: "ng29"
+  linkedin: "ng2906"
+
+- id: "Abhishek Potekar"
+  github: "Madmaxcoder2612"
+
+- id: "Surendranath Reddy Birudala"
+  github: "reddysuren"
+
+- id: Sara Lins
+  bio: I'm a computer engineering student passionate about technology and how it can change people's lives.
+  github: "saranicoly"
+  linkedin: "sara-nicoly-66b2b0157"
+
+- id: "Anil Gupta"
+  github: "anilswm"
+
+- id: "Jitender Agarwal"
+  bio: Jitender Agarwal is the Implementation Engineering Manager at LoginRadius Inc. He’s responsible for our day-to-day operations, working with internal and external customers, and SaaS-based implementation projects for our customers.
+  github: "Jitender8360"
+  linkedin: "jitender-agarwal-a5023820"
+
+- id: "Max Sergeyenko"
+  github: "maxsergeyenko"
+
+- id: "Roshan Jangid"
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius. 
+  github: "roshan-jangid"
+  linkedin: "roshan-jangid-140a35147"
+  
+- id: "Neha Vyas"
+  github: "nehavyasqa"
+
+- id: "Aayushi Sanghavi"
+  bio: "Aayushi Sanghavi is a Content Community Writer at G2, India. She has written on topics such as HR, Tech, and SaaS. You can find her reading, dancing, or brushing up on her communication skills in her free time."
+  linkedin: "aayushi-sanghavi"
+
+- id: "Saikiran Babladi"
+  bio: "Saikiran is the Senior Solutions Engineer at LoginRadius Inc. He interacts with prospective customers to understand their use-case/pain areas and provides a fit-for-purpose solution by delivering product demos and POC's."
+  linkedin: "saikiran-babladi-5287b665"

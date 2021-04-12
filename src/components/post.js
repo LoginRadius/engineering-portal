@@ -74,7 +74,7 @@ const Post = ({ post, relatedPost }) => {
             <div className={`${headStyles.tag} ${headStyles.pinned}`}>
               {tags &&
                 tags.map(tag => (
-                  <Link to={`/blog/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
                 ))}
             </div>
             <div className={headStyles.description}>
@@ -120,7 +120,7 @@ const Post = ({ post, relatedPost }) => {
                         </div>
                         <div class={styles.tag}>
                           {node.frontmatter.tags.map(tag => (
-                            <Link to={`/blog/tags/${kebabCase(tag)}/`}>
+                            <Link to={`/tags/${kebabCase(tag)}/`}>
                               {tag}
                             </Link>
                           ))}
@@ -135,7 +135,7 @@ const Post = ({ post, relatedPost }) => {
                 <h3>Follow LoginRadius </h3>
                 <div className={styles.followBtn}>
                   <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
+                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
                     onClick={() =>
                       eventLogger({
                         category: "Social Clicks",
@@ -175,7 +175,7 @@ const Post = ({ post, relatedPost }) => {
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
                 <a
-                  className={"btn-primary"}
+                  className={"btn-primary ga_event"}
                   href={"https://www.loginradius.com/docs/developer"}
                   key={"docs-link"}
                   target="_blank"
@@ -200,23 +200,23 @@ const Post = ({ post, relatedPost }) => {
               <h2>Are your customers safe on your application?</h2>
               <p>
                 According to Forbes, data breaches exposed 4.1 billion records
-                in the first six months of 2019. If this gets you worried, we
-                have got your back!
+                in the first six months of 2019. If this gets you worried, we’ve
+                got your back!
                 <br />
                 <br />
                 LoginRadius protects your customers’ identities. We provide
-                world class security for your customers during login,
+                world-class security for your customers during login,
                 registration, password setup, and any other data touchpoints,
-                and make sure that their data is safe. In parallel, it offers
-                open source SDKs, integrations with over 150 third party
-                applications, pre-designed and customizable login interfaces,
-                and best-in-class data security products such as MFA, RBA,
-                Advanced Password Policies. The platform is already loved by
-                over 3,000 businesses with a monthly reach of 1.17 billion users
-                worldwide.
+                and make sure that their data is safe. We do so through by
+                offering open source SDKs, integrations with over 150 third
+                party applications, pre-designed and customizable login
+                interfaces, and best-in-class data security products such as
+                MFA, RBA, and Advanced Password Policies. The platform is
+                already loved by over 3,000 businesses with a monthly reach of
+                1.17 billion users worldwide.
                 <a
-                  href="https://accounts.loginradius.com/?utm_source=async&utm_medium=blog&utm_campaign=fodb"
-                  className={"btn-primary btn-cta"}
+                  href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
+                  className={"btn-primary btn-cta ga_event"}
                   onClick={() =>
                     eventLogger({
                       category: "LoginRadius Home",
@@ -243,7 +243,7 @@ const Post = ({ post, relatedPost }) => {
               <div class={styles.aboutAuthorInner}>
                 <h3>{author.id}</h3>
                 <p>{author.bio}</p>
-                <Link to={`/blog/author/${_.kebabCase(author.id)}/`}>
+                <Link to={`/author/${_.kebabCase(author.id)}/`}>
                   View Profile
                 </Link>
               </div>

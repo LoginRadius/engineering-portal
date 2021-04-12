@@ -99,13 +99,29 @@ ul {
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
-  background-color: $blue-bright;
+  background-color: $cta;
   color: $white;
   text-align: center;
   display: block;
   white-space: nowrap;
   transition: all 0.3s;
   border: 0;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
+    box-shadow 0.35s, opacity 0.35s;
+  background-color: $cta;
+  color: $white;
+  border-color: $cta;
+  transition: 0.3s ease-in 0s;
+  background-size: 250% auto;
+  background-image: linear-gradient(
+    -85deg,
+    #f15e22 0%,
+    #f15e22 40%,
+    rgba(255, 255, 255, 0.2) 50%,
+    #f15e22 60%,
+    #f15e22 100%
+  );
+
   &.small {
     width: auto;
     height: 40px;
@@ -121,12 +137,23 @@ ul {
     }
   }
   &:hover {
-    box-shadow: 0 4px 10px rgba(20, 92, 133, 0.5);
+    background-color: $cta;
+    border-color: $cta;
+    transition: 0.3s ease-in 0s;
+    background-size: 250% auto;
+    background-position: right center;
+    background-image: linear-gradient(
+      -85deg,
+      #f15e22 0%,
+      #f15e22 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      #f15e22 60%,
+      #f15e22 100%
+    );
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
     color: $white;
-    transition: box-shadow 0.2s ease-in 0s, transform 0.2s ease-in 0s;
   }
 }
 
@@ -134,8 +161,6 @@ ul {
   max-width: 400px;
   margin: 0 auto;
   margin-top: 16px;
-  background: #ffc048;
-  color: $black;
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;

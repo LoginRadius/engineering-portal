@@ -31,7 +31,7 @@ const Card = ({ node }) => {
               <Link
                 key={`${tag}-${index}`}
                 aria-label={tag}
-                to={`/blog/tags/${kebabCase(tag)}/`}
+                to={`/tags/${kebabCase(tag)}/`}
               >
                 {tag}
               </Link>
