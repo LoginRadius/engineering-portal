@@ -1,6 +1,6 @@
 ---
 title: "Implementing Authentication in Angular 2+ using LoginRadius CLI"
-date: "2021-04-09"
+date: "2021-04-13"
 coverImage: "angulat_demo_auth.jpg"
 author: "Mohammed Modi"
 description: "In this tutorial, you will learn about how to implement the authentication for Angular 2+ application in just 5 mins. We will be using LoginRadius for authentication."
@@ -12,7 +12,7 @@ Hello Guys!!!, today we will be implemented the authentication in the Angular 2+
 
 ## Configuring LoginRadius
 
-To implement authentication in the angular app, let's start registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli). 
+To implement authentication in the angular app, let's start registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli).
 
 ### LoginRadius CLI Setup
 
