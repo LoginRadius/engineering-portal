@@ -3,17 +3,16 @@ title: "Implementing Authentication in Angular 2+ using LoginRadius CLI"
 date: "2021-04-09"
 coverImage: "angulat_demo_auth.jpg"
 author: "Mohammed Modi"
-description: "In this tutorial you will learn about how to implement the authentication for Angular 2+ application in just 5 mins. We will be using LoginRadius for authentication"
+description: "In this tutorial, you will learn about how to implement the authentication for Angular 2+ application in just 5 mins. We will be using LoginRadius for authentication."
 tags: ["Authentication", "Angular", "CLI"]
 ---
 
-## Introduction
 
-Hello Guys!!!, today we will be implemented the Authentication in the Angular 2+ application within 5 mins using [LoginRadius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login).
+Hello Guys!!!, today we will be implemented the authentication in the Angular 2+ application within 5 mins using [LoginRadius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login).
 
 ## Configuring LoginRadius
 
-To implement authentication in the angular app first let's start with registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli). 
+To implement authentication in the angular app, let's start registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli). 
 
 ### LoginRadius CLI Setup
 
@@ -24,7 +23,7 @@ To implement authentication in the angular app first let's start with registerin
     ```sh
     $ brew tap loginradius/tap
     ```
-- Then you can install LR CLI via:
+- Then, you can install LR CLI via:
 
     ```sh
     $ brew install lr
@@ -34,45 +33,45 @@ To implement authentication in the angular app first let's start with registerin
 
 - Download packaged binaries from the [release page](https://github.com/loginradius/lr-cli/releases/latest).
 
-After installing the CLI you can register into the LoginRadius via the below command
+After installing the CLI, you can register into the LoginRadius via the below command.
 
 ```sh
 $ lr register
 ```
 
-This will open the Loginradius in the browser, where you can register yourself and create the app.
+This command will open the Loginradius in the browser to register yourself and create the app.
 
 ![alt_text](resgister_page.png "Register Page")
 
-Once you successfully register you will be able to see the below message on the browser, you can close the tab and come back to the browser.
+Once you successfully register, you will be able to see the below message on the browser. You can close the tab and come back to the browser.
 
 ```
-You are Successfully Authenticated, Kindly Close this browser window and go back to CLI
+You are Successfully Authenticated, Kindly Close this browser window and go back to CLI.
 ```
 
 ### Get Your Application API Credentials
 
-Once you **login/register** using the CLI, You can now run the `lr get config` command to get your API credentials 
+Once you **login/register** using the CLI, You can now run the `lr get config` command to get your API credentials. 
 
 ![alt_text](lr_get_config.png "LoginRadius CLI Get Config")
 
 ### Configuring Callback URLs
 
-A callback URL is a URL in your application where LoginRadius redirects the user after they have authenticated. The callback URL for your app must be added to your Application Configuration. If this field is not set, users will be unable to log in to the application and will get an error.
+A callback URL is a URL in your application where LoginRadius redirects the user after they have authenticated. The callback URL for your app must be added to your Application Configuration. If this field is not set, users will be unable to log in to the application and get an error.
 
 ![alt_text](whitelist_domain_error.png "Whitelist domain error")
 
-To get the list of whitelisted domains you can run `lr get domain` command from the cmd prompt. and to add a domain in the list using `lr add domain` command. 
+To get the list of whitelisted domains, you can run `lr get domain` command from the cmd prompt. And to add a domain in the list using `lr add domain` command. 
 
-> If you are following this tutorial, you should set the  http://localhost as a whitelisted domain, check the below image for how to add the domain using LoginRadius CLI.
+> If you are following this tutorial, you should set the  http://localhost as a whitelisted domain. Check the below image for how to add the domain using LoginRadius CLI.
 
 ![alt_text](lr_add_domain.png "LoginRadius CLI Add Domain")
 
 ### Setup Angular application
 
-You can implement the LoginRadius authentication in your existing Angular application or you can start from scratch by following [this tutorial](https://angular.io/guide/setup-local).
+You can implement the LoginRadius authentication in your existing Angular application, or you can start from scratch by following [this tutorial](https://angular.io/guide/setup-local).
 
-> You need to enable the routing for this tutorial if you are not aware of how to enable routing in the angular application kindly follow [this tutorial](https://angular.io/guide/router)
+> You need to enable the routing for this tutorial if you are not aware of how to enable routing in the angular application, kindly follow [this tutorial](https://angular.io/guide/router)
 
 - Create `src/app/config.ts` and add the below application configuration
     ```ts
@@ -85,7 +84,7 @@ You can implement the LoginRadius authentication in your existing Angular applic
 
 ### Add Login to Your Application
 
-If you have already created the login component add the following code in the `.ts` file else generate the login component using ng CLI `ng generate component login`. which will create a component inside the `app` folder. Add the following code to the `login.component.ts`
+If you have already created the login component, add the following code in the `.ts` file else, generate the login component using ng CLI `ng generate component login`. Which will create a component inside the `app` folder. Add the following code to the `login.component.ts`
 
 ```ts
 import { Component, OnInit } from '@angular/core';
@@ -115,12 +114,12 @@ export class LoginComponent implements OnInit {
 }
 ```
 
-So here we are redirecting the application to the **LoginRadius Auth Page** where we are passing the `return_url` as the current origin, so after successful login, the **LoginRadius Auth Page** will redirect to the angular application with `token` as a query param. Later we will use `token` for all the user-related actions.
+Here we are redirecting the application to the **LoginRadius Auth Page** where we are passing the `return_url` as the current origin, so after successful login, the **LoginRadius Auth Page** will redirect to the angular application with `token` as a query param. Later we will use `token` for all the user-related actions.
 
 ### Add Profile Page
 
-As you have seen in the above code on successful login we are redirecting to `/profile` page. So let us create a **profile** component using `ng` CLI `ng generate component profile`.
-And let's modify the `profile.component.ts` file in the `app/profile` folder which is generated by ng CLI.
+As you have seen in the above code on successful login, we redirect to `/profile` page. So let us create a **profile** component using `ng` CLI `ng generate component profile`.
+And let's modify the `profile.component.ts` file in the `app/profile` folder generated by ng CLI.
 
 ```ts
 import { Component, OnInit } from '@angular/core';
@@ -171,8 +170,8 @@ Similary add the below code to `profile.component.html` file.
 </div>
 ```
 
-The profile component will call the LoginRadius API to fetch the profile details and store them in the `profile` variable. Using that `profile` we are displaying the email in the HTML. 
-It also has the `logout()` function where we are passing the `action=logout` in the **LoginRadius Auth Page** which will help us to log out the user.
+The profile component will call the LoginRadius API to fetch the profile details and store them in the `profile` variable. Using that `profile`, we are displaying the email in the HTML. 
+It also has the `logout()` function where we pass the `action=logout` in the **LoginRadius Auth Page**, which will help us log out the user.
 
 In the profile component, you can see the two things are used.
 - ProfileService - This is the service to fetch the user profile using the token.
@@ -203,7 +202,7 @@ export class ProfileService {
 }
 ```
 
-We are going to use the HTTP module to call the Rest API so let's add the `HttpClientModule` in the  `app.module.ts` file.
+We will use the HTTP module to call the Rest API so let's add the `HttpClientModule` in the  `app.module.ts` file.
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
@@ -257,7 +256,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 ```
 
-Finally to gather all we need to modify the `app.component.ts` and add the routing logic there.
+Finally, to gather all, we need to modify the `app.component.ts` and add the routing logic.
 
 ```ts
 import { Component, OnInit } from '@angular/core';
@@ -289,23 +288,23 @@ And add the `router-outlet` to the `app.component.html` file.
 > You can find the full code in [guthub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/angular-authentication-demo)
 
 ### Testing the application
-Run `ng serve` to start the local server and you will be able to see the output on [locahost:4200](http://locahost:4200).
+Run `ng serve` to start the local server, and you will be able to see the output on [locahost:4200](http://locahost:4200).
 
 
 ### Adding Login Methods
 
-We can configure the LoginRadius Auth Page by adding social login methods like Facebook, Google etc. To add the login method you can use the command `lr get social` and `lr add social` command. Check the below image on how to add the social configuration
+We can configure the LoginRadius Auth Page by adding social login methods like Facebook, Google, etc. To add the login method, you can use the command `lr get social` and `lr add social` command. Check the below image on how to add the social configuration.
 
 ![alt_text](lr_add_social.png "Added Facebook as an loginmethod")
 
-After adding just visit the LoginRadius Auth Page either by visiting [locahost:4200](http://locahost:4200) and log out. Or using the command `lr demo`. You will find the new login method added
+After adding, visit the LoginRadius Auth Page either by visiting [locahost:4200](http://locahost:4200) and log out. Or using the command `lr demo`. You will find the new login method added.
 
 ![alt_text](add_login_method.png "Added Facebook as an loginmethod")
 
 ### Your Take
 
-With the help of LoginRadius CLI, you can setup the authentication for your Angular application in just 5 minutes. LoginRadius will take care of all the authentication related stuff for your application so that you can focus on your application development.
+With the help of LoginRadius CLI, you can setup the authentication for your Angular application in just 5 minutes. LoginRadius will take care of all the authentication-related stuff for your application so that you can focus on your application development.
 
-Hope you like this tutorial, kindly provide feedback suggestions in the comment section below.
+I hope you like this tutorial. Kindly provide feedback suggestions in the comment section below.
 
 Cheers!!!
