@@ -48,9 +48,14 @@ h1 {
   margin-bottom: 30px;
   line-height: 48px;
   font-size: 40px;
+  @media (max-width: 767px) {
+    line-height: 40px;
+    font-size: 32px;
+  }
 }
 h2 {
-  margin-bottom: 30px;
+  margin-top: 48px;
+  margin-bottom: 24px;
   font-size: 32px;
   line-height: 40px;
 }
@@ -68,7 +73,7 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 1.5;
 }
 a {
   text-decoration: none;
@@ -160,7 +165,7 @@ ul {
 .btn-cta {
   max-width: 400px;
   margin: 0 auto;
-  margin-top: 16px;
+  margin-top: 32px;
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
@@ -198,6 +203,9 @@ ul {
     margin-bottom: 40px;
   }
 }
+.mb-48 {
+  margin-bottom: 48px;
+}
 .circle {
   border-radius: 100%;
 }
@@ -229,15 +237,18 @@ section {
     margin: 0 auto;
     padding: 0 24px;
     max-width: 1248px;
+    @media (max-width: 767px) {
+      padding: 0 16px;
+    }
     .grid-33 {
       display: flex;
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: 24px;
-        width: calc(33.33% - #{24px * 2 / 3});
+        margin-right: 48px;
+        width: calc(33.33% - #{48px * 2 / 3});
         @media (max-width: 768px) {
-          width: calc(50% - #{24px * 1 / 2});
+          width: calc(50% - #{48px * 1 / 2});
         }
         @media (max-width: 767px) {
           width: 100%;
@@ -246,7 +257,7 @@ section {
         &:nth-child(3n) {
           margin-right: 0;
           @media (max-width: 768px) {
-            margin-right: 24px;
+            margin-right: 48px;
           }
           @media (max-width: 767px) {
             margin-right: 0;
@@ -292,11 +303,11 @@ section {
   background-color: $gray-lightest;
 }
 .bs-md {
-  box-shadow: $bs-md;
+  //box-shadow: $bs-md;
   border-radius: 8px;
-  &:hover {
-    box-shadow: $bs-lg;
-  }
+  // &:hover {
+  //   box-shadow: $bs-lg;
+  // }
   img {
     border-radius: 8px;
   }
