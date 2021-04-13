@@ -1,5 +1,5 @@
 ---
-title: "Implementing Authentication in Angular 2+ using LoginRadius CLI"
+title: "Implement Authentication in Angular 2+ application using LoginRadius CLI in 5 mins"
 date: "2021-04-13"
 coverImage: "angulat_demo_auth.jpg"
 author: "Mohammed Modi"
@@ -12,7 +12,7 @@ Hello Guys!!!, today we will be implemented the authentication in the Angular 2+
 
 ## Configuring LoginRadius
 
-To implement authentication in the angular app, let's start registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli).
+To implement authentication in the angular app first let's start with registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli).
 
 ### LoginRadius CLI Setup
 
@@ -43,7 +43,7 @@ This command will open the Loginradius in the browser to register yourself and c
 
 ![alt_text](resgister_page.png "Register Page")
 
-Once you successfully register, you will be able to see the below message on the browser. You can close the tab and come back to the browser.
+Once you successfully register you will be able to see the below message on the browser, you can close the tab and come back to the CLI.
 
 ```
 You are Successfully Authenticated, Kindly Close this browser window and go back to CLI.
@@ -285,7 +285,7 @@ And add the `router-outlet` to the `app.component.html` file.
 <router-outlet></router-outlet>
 ```
 
-> You can find the full code in [guthub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/angular-authentication-demo)
+> You can find the full code in [github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/angular-authentication-demo)
 
 ### Testing the application
 Run `ng serve` to start the local server, and you will be able to see the output on [locahost:4200](http://locahost:4200).
@@ -300,6 +300,10 @@ We can configure the LoginRadius Auth Page by adding social login methods like F
 After adding, visit the LoginRadius Auth Page either by visiting [locahost:4200](http://locahost:4200) and log out. Or using the command `lr demo`. You will find the new login method added.
 
 ![alt_text](add_login_method.png "Added Facebook as an loginmethod")
+
+### Contributing to LoginRadius CLI
+
+The [LoginRadius CLI](https://github.com/LoginRadius/lr-cli/) is opensourced in the [LoginRadius Organization](https://github.com/LoginRadius)  and you can contribute to it if you find any bugs or improvement by following the contributing guidelines. You can also checkout our [open source page](https://www.loginradius.com/open-source/) if you wish to contribute more in LoginRadius.
 
 ### Your Take
 
