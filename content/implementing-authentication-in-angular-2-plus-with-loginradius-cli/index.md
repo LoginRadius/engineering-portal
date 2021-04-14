@@ -1,6 +1,6 @@
 ---
 title: "Implement Authentication in Angular 2+ application using LoginRadius CLI in 5 mins"
-date: "2021-04-13"
+date: "2021-04-14"
 coverImage: "angulat_demo_auth.jpg"
 author: "Mohammed Modi"
 description: "In this tutorial, you will learn about how to implement the authentication for Angular 2+ application in just 5 mins. We will be using LoginRadius for authentication."
