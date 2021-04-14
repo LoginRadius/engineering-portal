@@ -13,6 +13,8 @@
       display: flex;
       flex-direction: column;
       padding: 15px 0;
+      filter: brightness(0.95);
+      -webkit-filter: brightness(0.95);
       &:nth-child(2) {
         padding-left: 30px;
         @media (max-width: 768px) {
@@ -27,6 +29,7 @@
       img {
         width: 100%;
       }
+
       a {
         & > div {
           @media (min-width: 769px) {
@@ -98,6 +101,8 @@
 .cardlist {
   .user {
     .avatar {
+      filter: brightness(0.95);
+      -webkit-filter: brightness(0.95);
       a {
         display: block;
         & > div {
@@ -145,6 +150,13 @@
     }
   }
   p {
+    margin-top: 12px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
     font-size: 18px;
+    color: #000;
+  }
+  h3 {
+    margin: 0 0 12px 0;
   }
 }
