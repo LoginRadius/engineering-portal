@@ -28,15 +28,17 @@ Note: We should avoid using refs because it removes the purpose of using React. 
 
 We can use `React.createRef()`method to create Refs, and then we can attach to a Dom element via the `ref` attribute after that, we can access and modify that element through the ref. 
 
-    class App extends React.Component {
-      constructor(props) {  
-        super(props);  
-        this.myRef = React.createRef();
-      }
-      render() {
-        return <div ref={this.myRef} />; 
-      }
-    }
+```JavaScript
+class App extends React.Component {
+  constructor(props) {  
+    super(props);  
+    this.myRef = React.createRef();
+  }
+  render() {
+    return <div ref={this.myRef} />; 
+  }
+}
+```
 
 In above code, We created ` this.myRef` in the constructor by calling `React.createRef()`  method.
 
@@ -50,26 +52,26 @@ React will assign the `current` property with Dom element when component mount a
 
 We can pass refs as props to the component. Example:
 
-    function MyCustomTextInput ({ myInputRef }) {  
-      return <input ref={myInputRef} />;  
-    }
-    
-    class App extends React.Component {  
-      constructor(props) {  
-        super(props);  
-        this.myInputRef = React.createRef();  
-      } 
-      
-      componentDidMount() {  
-        this.myInputRef.current.focus();  
-      }
-      
-      render() {  
-        return <MyCustomTextInput inputRef={this.myInputRef} />;  
-      }
-        
-    }
-    
+```JavaScript
+function MyCustomTextInput ({ myInputRef }) {  
+  return <input ref={myInputRef} />;  
+}
+
+class App extends React.Component {  
+  constructor(props) {  
+    super(props);  
+    this.myInputRef = React.createRef();  
+  } 
+  
+  componentDidMount() {  
+    this.myInputRef.current.focus();  
+  }
+  
+  render() {  
+    return <MyCustomTextInput inputRef={this.myInputRef} />;  
+  }
+}
+```
     
 
 In above code, `App` passed its ref as props to `MyCustomTextInput` component.
@@ -81,36 +83,38 @@ We can create ref using another way called `callback refs`; it gives us more fin
 Instead of passing `ref` returned by `createRef()` method, we will pass a function to `ref` attribute.
 The function receives React component instance or DOM element, which can be stored and accessed anywhere.
 
-    class App extends React.Component {  
-      componentDidMount() {  
-        this.input.focus();  
-      } 
-      
-      render() {  
-        return (    
-            <input ref={element => (this.input = element)} />;   
-        );  
-      }  
+```JavaScript
+class App extends React.Component {  
+  componentDidMount() {  
+    this.input.focus();  
+  } 
+  
+  render() {  
+    return (    
+        <input ref={element => (this.input = element)} />;   
+    );  
+  }  
 }
-
+```
 
 In the above code, React will call the ref callback t store the reference of the input element when the component mounts; then, it will focus the input element automatically and when the component unmounts, call it with null.
 
 We can pass callback refs between components . Example:
 
-    function MyCustomTextInput({ inputRef }) {  
-      return <input ref={inputRef} />;  
-    }
-    
-    class App extends React.Component {  
-      componentDidMount() {  
-        this.myInputElement.focus();  
-      } 
-      render() {  
-        return <MyCustomTextInput inputRef={el => (this.myInputElement = el)} />;  
-      } 
-       
-    }
+```JavaScript
+function MyCustomTextInput({ inputRef }) {  
+  return <input ref={inputRef} />;  
+}
+
+class App extends React.Component {  
+  componentDidMount() {  
+    this.myInputElement.focus();  
+  } 
+  render() {  
+    return <MyCustomTextInput inputRef={el => (this.myInputElement = el)} />;  
+  } 
+}
+```
 
 In the above code, We passed the function to `inputRef` and access it in `App` component so we can call `focus` on it to focus the input element.
 
