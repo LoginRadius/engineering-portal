@@ -16,7 +16,7 @@ const Hacktoberfest2020 = () => {
         <section className="hero-section">
           <div className="grid-50">
             <div>
-              <h2>Write for LoginRadius Guest Blogging Program</h2>
+              <h1>Write for LoginRadius Guest Blogging Program</h1>
               <p>
                 For technical people who have practical, tangible, hands-on
                 experience to share with our blog readers about relevant
