@@ -1,6 +1,6 @@
 ---
 title: "Nginx - Everything you want to know about the Nginx logs in 10 minutes"
-date: "2021-04-20"
+date: "2021-04-21"
 coverImage: "quick-10-minutes-guide-about-the-nginx-access-and-error-logs.png"
 author: "Vijay Singh Shekhawat"
 tags: ["Nginx", "Logs","Access Log", "Error Log"]
