@@ -15,7 +15,7 @@ In this article, I will explain everything about the Nginx logs.
 
 ## What is the purpose of the access log?
 
-The NGINX logs all client requests just after the request is processed in the access logs. In access logs, You will see the files are accessed, how NGINX responded to a request, which browser a client is using, client IP addresses, and more in this section. The information from the access log can be used to evaluate traffic and monitor site use over time. If a user is submitting any suspicious requests, we can monitor using the access logs, and it helps us identify the application security vulnerabilities.
+The NGINX logs all client requests just after the request is processed in the access logs. In access logs, You will see the files are accessed, how NGINX responded to a request, which browser a client is using, client IP addresses, and more in this section. The information from the access log can be used to evaluate traffic and monitor site use over time. If a user is submitting any suspicious requests, we can monitor using the access logs, and it helps us identify the <a href="https://www.loginradius.com/resource/mitigating-security-issues-in-enterprise-mobile-application/">application security</a> vulnerabilities.
 
 ## What is the purpose of the error log?
 
