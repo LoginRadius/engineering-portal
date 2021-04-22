@@ -26,7 +26,7 @@ export default ({
       title={id}
       description={`${id} - ${bio}`}
       image={github}
-      location={location.pathname}
+      pathname={location.pathname}
     />
     <main>
       <section>

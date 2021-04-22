@@ -56,7 +56,12 @@ const SEO = ({
                       href: seo.url,
                     },
                   ]
-                  : []
+                  : [
+                    {
+                      rel: "canonical",
+                      hreflang: "en",
+                      href: seo.url,
+                    },]
               }
             >
               <meta http-equiv="content-language" content="en"></meta>
