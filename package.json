@@ -32,6 +32,7 @@
     "gatsby-remark-smartypants": "^2.3.1",
     "gatsby-remark-vscode": "^2.1.1",
     "gatsby-source-filesystem": "^2.3.3",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-transformer-remark": "^2.8.8",
     "gatsby-transformer-sharp": "^2.5.2",
     "gatsby-transformer-yaml": "^2.4.1",
