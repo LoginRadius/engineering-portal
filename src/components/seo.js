@@ -58,7 +58,9 @@ const SEO = ({
                   ]
                   : [
                     {
+                      rel: "canonical",
                       hreflang: "en",
+                      href: seo.url,
                     },]
               }
             >
