@@ -60,7 +60,7 @@ const SEO = ({
                     {
                       rel: "canonical",
                       hreflang: "en",
-                      href: seo.url,
+                      href: `${siteUrl}${pathname || "/"}`,
                     },]
               }
             >
