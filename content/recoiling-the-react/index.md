@@ -1,9 +1,9 @@
 ---
-title: Recoiling the React
+title: What is recoil.js and how it is managing in react?
 date: "2021-04-30"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
-description: "In this article will talk about recoil.js, and how it is managing state in react."
+description: "Recoil is an experimental state management library and It provides several capabilities that are difficult to achieve with React alone.In this article we learn about the recoil.js, and how it is managing state in react."
 tags: [javascript,react,recoil]
 ---
 
@@ -164,4 +164,4 @@ That's all, Milord.
 
 I hope you got why I am saying this as **`light`**.
 
-Recoil is looking relatively easy, promising, and early-stage, but again this is the next generation, and it will take time to get the own space in the community.  
+Recoil is looking relatively easy, promising, and early-stage, but again this is the next generation, and it will take time to get the own space in the <a href="https://community.loginradius.com/">community</a>.  
