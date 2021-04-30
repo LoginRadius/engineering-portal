@@ -13,24 +13,24 @@ tags: [javascript,react,recoil]
 
 Though we already have Redux. Mobx, Context but here we got a new light entry in the community.
 
-why i am saying `light` you will figure out at the end of this blog.
+why I am saying `light` you will figure it out at the end of this blog.
 
 ## Why Recoil 
-- Firstly it solve global state management problem.
-- Easy to learn, there are no new major principle n logic to learn.
+- Firstly it solves the global state management problems.
+- Easy to learn, there are no new major principles n logic to learn.
 - Quite Simple, it is similar like react.
-- Though i like redux but it will not take that much to learn.
+- Though I like redux but it will not take that much time to learn.
 
 ## Recoil  concepts
 There are two major concepts:
 1. **Atoms** 
 2. **Selectors**
 
-something new ? don't worry will understand this quickly.
+something new? don't worry will understand this quickly.
 
 ### Atoms
 
- this is similar how we use `useState` hook in react, if you are new to react hooks, chekout [react hooks guide](https://www.loginradius.com/blog/async/react-hooks-guide/ "react hooks guide").
+ this is similar to how we use `useState` hook in react, if you are new to react hooks, checkout [react hooks guide](https://www.loginradius.com/blog/async/react-hooks-guide/ "react hooks guide").
 
  eg:
 
@@ -39,12 +39,12 @@ something new ? don't worry will understand this quickly.
 ```
 
 **age** : this will be used for state variable declaration.
-**setAge** :this will be used for state variable updatetion.
+**setAge** :this will be used for state variable updations.
 
 ####  1. Lets start with binding root app with Recoil
-Now you need to do a few alteration in you app's root level like below snippet.
+Now you need to do a few alterations in your app's root level like the below snippet.
 
-`RecoilRoot` will behave like global context provider, that will share the global state to your app tree.
+`RecoilRoot` will behave like a global context provider, that will share the global state to your app tree.
 
 Now update your older code snippet
 
@@ -62,7 +62,7 @@ ReactDOM.render(
 ```
 #### 2. Set the Atom
 
-Recoil call this part as **atom**, where we set the global key,value.
+Recoil calls this part as **atom**, where we set the global key, value.
 
 ```
 import { atom } from "recoil";
@@ -72,7 +72,7 @@ const age = atom({
   default: 0  // default global value for age key
 });
 ```
-Now this atom will be accessible thorugh out the app.
+Now this atom will be accessible throughout the app.
 
 #### 3. use the atom
 
@@ -89,7 +89,7 @@ import { useRecoilState } from 'recoil'
 const [ageState, setAge] = useRecoilState(age);
 ```
 
-For Larger view, here is **Full Code**
+For a Larger view, here is **Full Code**
 ```
 import { atom,useRecoilState } from 'recoil'
 
@@ -104,18 +104,18 @@ const [ageState, setAge] = useRecoilState(age);
 ```
 
 
-quite easy. isn't it ?
+quite easy. isn't it?
 Now let's move to another part **selectors**.
 
 ### Selectors
 
-This is similar how Redux manage states.
+This is similar to how Redux manage states.
 
-if a value can be derived/computed from state, then we can skip re initialize it at a another separate state key, for that use selectors.
+if a value can be derived/computed from the state, then we can skip re initialize of an another separate state key, for that use selectors.
 
 #### 1. set the selectors
 
-in below example we are getting `isChild` value from `age` key then we can directly use **selector** instead adding a new key or **atom**.
+in the below example, we are getting `isChild` value from `age` key then we can directly use **selector** instead of adding a new key or **atom**.
 
 ```
 import {selector} from 'recoil'
@@ -131,7 +131,7 @@ const isChild = selector({
 
 #### 2. use the selectors
 
-Now will use above mentioned selector.
+Now will use above-mentioned selector.
 
 below code snippet use `age` value to `isChild`.
 ```
@@ -140,7 +140,7 @@ below code snippet use `age` value to `isChild`.
   const value = useRecoilValue(isChild);
 ```
 
-For Larger view, here is **Full Code**
+For a larger view, here is **Full Code**
 ```
 import {selector, useRecoilState} from 'recoil' 
 
@@ -162,6 +162,6 @@ That's all Milord.
 
 ### Conclusion
 
-Hope you got why i am saying this as **`light`**.
+Hope you got why I am saying this as **`light`**.
 
-Recoil is looking quite easy, promising and early stage but again this is next generation and it will take time to get the own space in community.  
+Recoil is looking quite easy, promising and early-stage but again this is the next generation and it will take time to get the own space in the community.  
