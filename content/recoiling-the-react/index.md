@@ -7,32 +7,32 @@ description: "In this article will talk about recoil.js, and how it is managing 
 tags: [javascript,react,recoil]
 ---
 
-# Recoiling of  React
-
 [Recoil js](https://recoiljs.org/ "Recoil js") is another state management library for React.
 
-Though we already have Redux. Mobx, Context but here we got a new light entry in the community.
+Though we already have Redux. Mobx, Context, but here we got a new light entry in the community.
 
-why I am saying `light` you will figure it out at the end of this blog.
+Why I am saying `light` you will figure it out at the end of this blog.
 
 ## Why Recoil 
-- Firstly it solves the global state management problems.
-- Easy to learn, there are no new major principles n logic to learn.
+
+- Firstly, it solves the global state management problems.
+- Easy to learn; there are no new major principles n logic to learn.
 - Quite Simple, it is similar like react.
-- Though I like redux but it will not take that much time to learn.
+- Though I like redux, but it will not take that much time to learn.
 
 ## Recoil  concepts
+
 There are two major concepts:
 1. **Atoms** 
 2. **Selectors**
 
-something new? don't worry will understand this quickly.
+Something new? Don't worry will understand this quickly.
 
 ### Atoms
 
- this is similar to how we use `useState` hook in react, if you are new to react hooks, checkout [react hooks guide](https://www.loginradius.com/blog/async/react-hooks-guide/ "react hooks guide").
+ This is similar to how we use the `useState` hook in react. If you are new to react hooks, checkout [react hooks guide](https://www.loginradius.com/blog/async/react-hooks-guide/ "react hooks guide").
 
- eg:
+ e.g.:
 
 ```
  const [age, setAge] = useState(0);
@@ -41,12 +41,12 @@ something new? don't worry will understand this quickly.
 **age** : this will be used for state variable declaration.
 **setAge** :this will be used for state variable updations.
 
-####  1. Lets start with binding root app with Recoil
-Now you need to do a few alterations in your app's root level like the below snippet.
+####  1. Let's start with binding root app with Recoil
+Now you need to make a few alterations in your app's root level, like the below snippet.
 
-`RecoilRoot` will behave like a global context provider, that will share the global state to your app tree.
+`RecoilRoot` will behave like a global context provider that will share the global state to your app tree.
 
-Now update your older code snippet
+Now update your older code snippet.
 
 ```
 ReactDOM.render( <AppPage />, document.getElementById("root"))
@@ -77,7 +77,7 @@ Now this atom will be accessible throughout the app.
 #### 3. use the atom
 
 
-Now update your older code snippet
+Now update your older code snippet.
 
 ```
  const [age, setAge] = useState(0);
@@ -104,18 +104,18 @@ const [ageState, setAge] = useRecoilState(age);
 ```
 
 
-quite easy. isn't it?
+Quite easy. Isn't it?
 Now let's move to another part **selectors**.
 
 ### Selectors
 
-This is similar to how Redux manage states.
+This is similar to how Redux manages states.
 
 if a value can be derived/computed from the state, then we can skip re initialize of an another separate state key, for that use selectors.
 
 #### 1. set the selectors
 
-in the below example, we are getting `isChild` value from `age` key then we can directly use **selector** instead of adding a new key or **atom**.
+In the below example, we are getting `isChild` value from `age` key, then we can directly use **selector** instead of adding a new key or **atom**.
 
 ```
 import {selector} from 'recoil'
@@ -131,7 +131,7 @@ const isChild = selector({
 
 #### 2. use the selectors
 
-Now will use above-mentioned selector.
+Now will use the above-mentioned selector.
 
 below code snippet use `age` value to `isChild`.
 ```
@@ -158,10 +158,10 @@ export const AgeCalculator = () => {
 }
 ```
 
-That's all Milord.
+That's all, Milord.
 
-### Conclusion
+## Conclusion
 
-Hope you got why I am saying this as **`light`**.
+I hope you got why I am saying this as **`light`**.
 
-Recoil is looking quite easy, promising and early-stage but again this is the next generation and it will take time to get the own space in the community.  
+Recoil is looking relatively easy, promising, and early-stage, but again this is the next generation, and it will take time to get the own space in the community.  
