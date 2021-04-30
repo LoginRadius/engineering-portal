@@ -1,5 +1,5 @@
 ---
-title: Recoiling of  React
+title: Recoiling the React
 date: "2021-04-30"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
