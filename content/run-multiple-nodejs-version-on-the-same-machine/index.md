@@ -1,10 +1,10 @@
 ---
-title: Run multiple node js version on the same machine
+title: How do I install multiple node js version on the same machine
 date: "2021-05-04"
 coverImage: "index.jpg"
 author: "Mayank Agarwal"
 tags: ["Nodejs", "NVM"]
-description: "In this blog, we will get to know about running multiple node js version on the same machine."
+description: "In this blog, we will get to know and learn about running multiple node js version on the same machine with NVM ."
 ---
 
 While working on the multiple projects of NodeJs,  you might be required to run different projects on the different nodejs version or for the legacy nodejs projects, you might require an old version of the nodejs, and the others required a new version of node-js, or to checkout the new feature of nodejs, you need to install the latest version of node js 
@@ -62,7 +62,7 @@ nvm install node
 nvm install --lts
 ```
 ### Install particular NodeJs version
-Multiple NodeJs version can be installed using the below command.
+Multiple <a href="https://youtu.be/efM46qNSaeg" rel=”nofollow”>NodeJs</a> version can be installed using the below command.
 ```
 nvm install 8.11.1 // to install the 8.11.1 version
 
@@ -124,4 +124,4 @@ To completely remove nvm from the system.
 nvm unload 
 ```
 ## Conclusion
-Node Version Manager (NVM) is a great tool and easy to switch between multiple node versions while working on projects that required different NodeJs versions. It saves a lot of development time by just switching to the version of nodejs needed.
+Node Version Manager (NVM) is a great tool and easy to switch between multiple node versions while working on projects that required different <a href="https://www.loginradius.com/integrations/node-js/">NodeJs</a> versions. It saves a lot of development time by just switching to the version of nodejs needed.
