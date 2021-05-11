@@ -1,18 +1,18 @@
 ---
-title: Code spliting in react via lazy, suspense
+title: Code spliting in React via lazy, suspense
 date: "2021-05-09"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
-description: "Load Application faster with with code spliting and dynamic loading"
-tags: ["react","lazy","suspense"]
+description: "Load Application faster with code spliting and dynamic loading"
+tags: ["react"]
 ---
 
 Everyone wants their application so fast, but how to achieve that, in that case, **code splitting** comes into the picture, where we split code and set the priority loading of the code snippet.
 
-But how we set the priority or load them whenever required?
+But how do we set the priority or load them whenever required?
 
 
-##1. React.lazy()using this we can set code priority to the lower or it will load only whenever required. so how to do that? it's easy, let's understand through an example.
+##1. React.lazy() using this we can set code priority to the lower or it will load only whenever required. So how to do that? it's easy, let's understand through an example.
 
 ```
  //generally approach to import Component
@@ -22,7 +22,7 @@ But how we set the priority or load them whenever required?
 // This component is loaded dynamically or lazy load
 const BlogComponent = React.lazy(() => import('./BlogComponent'));
 ```
-##2. React.Suspense()Once the component is set for a lazy load then we need to set some kind of fallback option as well, till that code is rendered. This fallback option either could be a loader icon, screen, image, etc.
+##2. React.Suspense() Once the component is set for a lazy load then we need to set some kind of fallback option as well, till that code is rendered. This fallback option either could be a loader icon, screen, image, etc.
 
 ```
 // This component is loaded dynamically or lazy load
