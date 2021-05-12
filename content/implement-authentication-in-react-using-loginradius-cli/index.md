@@ -3,7 +3,7 @@ title: "Implement Authentication in React Applications using LoginRadius CLI "
 date: "2021-05-11"
 coverImage: "cover.jpg"
 author: "Akash Patil"
-tags: ["Authentication", "React", "LoginRadius CLI"]
+tags: ["Authentication", "React", "CLI", "LoginRadius CLI"]
 description: "In this tutorial, we will learn about implementing authentication for React applications using LoginRadius in under 5 mins. We will be using the LoginRadius CLI, through which we can perform basic actions of the LoginRadius Dashboard on the command line in a fast and proficient manner."  
 ---
 

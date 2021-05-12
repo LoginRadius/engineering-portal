@@ -455,10 +455,10 @@
   github: "maxsergeyenko"
 
 - id: "Roshan Jangid"
-  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius. 
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius.
   github: "roshan-jangid"
   linkedin: "roshan-jangid-140a35147"
-  
+
 - id: "Neha Vyas"
   github: "nehavyasqa"
 
@@ -469,3 +469,8 @@
 - id: "Saikiran Babladi"
   bio: "Saikiran is the Senior Solutions Engineer at LoginRadius Inc. He interacts with prospective customers to understand their use-case/pain areas and provides a fit-for-purpose solution by delivering product demos and POC's."
   linkedin: "saikiran-babladi-5287b665"
+
+- id: "Akash Patil"
+  bio: "Akash Patil, a graduate from BITS Pilani, is currently working as an Associate Software Engineer at LoginRadius. He has worked on projects in backend development and has an interest in learning new technologies and developer tools, especially in the field of Data Science."
+  github: "Akash-Patil"
+  linkedin: "akash-patil-100"
