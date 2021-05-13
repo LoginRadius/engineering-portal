@@ -1,6 +1,6 @@
 ---
 title: Code spliting in React via lazy, suspense
-date: "2021-05-09"
+date: "2021-05-13"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
 description: "Load Application faster with code spliting and dynamic loading"
