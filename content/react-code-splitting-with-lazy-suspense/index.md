@@ -1,5 +1,5 @@
 ---
-title: Code spliting in React via lazy, suspense
+title: Code spliting in React via lazy and suspense
 date: "2021-05-13"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
@@ -12,19 +12,24 @@ Everyone wants their application so fast, but how to achieve that, in that case,
 But how do we set the priority or load them whenever required?
 
 
-##1. React.lazy() using this we can set code priority to the lower or it will load only whenever required. So how to do that? it's easy, let's understand through an example.
+## 1. React.lazy()
 
-```
+Using this we can set code priority to the lower or it will load only whenever required. So how to do that? it's easy, let's understand through an example.
+
+```JS
  //generally approach to import Component
  import Blog from './BlogComponent';
- ```
 ```
+
+```JS
 // This component is loaded dynamically or lazy load
 const BlogComponent = React.lazy(() => import('./BlogComponent'));
 ```
-##2. React.Suspense() Once the component is set for a lazy load then we need to set some kind of fallback option as well, till that code is rendered. This fallback option either could be a loader icon, screen, image, etc.
+## 2. React.Suspense() 
 
-```
+Once the component is set for a lazy load then we need to set some kind of fallback option as well, till that code is rendered. This fallback option either could be a loader icon, screen, image, etc.
+
+```JS
 // This component is loaded dynamically or lazy load
 const BlogComponent = React.lazy(() => import('./BlogComponent'));
 
