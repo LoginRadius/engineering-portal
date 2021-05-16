@@ -6,12 +6,11 @@ author: "Vijay Singh Shekhawat"
 tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
 ---
 
+ There are several Consumer/User data protection regulations in place to protect customer data and privacy. With data protection act like the California Consumer Privacy Act (CCPA) and the European Union's GDPR improving awareness of privacy rights, many data-driven businesses have sought to determine which of their applications contain sensitive data, where the sensitive data goes, and why data is going. As a result, they are reevaluating their data protection controls for employee and consumer data.
 
- There are multiple Customer/User data privacy laws for protecting customer data & privacy. Privacy laws such as the California Consumer Privacy Act (CCPA) and the European Union's GDPR raising awareness of privacy rights, many data-driven companies have been worked to discover which of their apps contain sensitive data, where the sensitive data goes, and why data is going. This is causing them to rethink their data privacy controls for employee and customer data.
+ Your programme must record vast volumes of data in order to meet business requirements. It's likely that the application log data contains highly sensitive information. Email addresses, URL parameters such as tokens, credit card data, jobs data, Login Credentials, and Official ID Numbers (passport numbers, driver's licence numbers, social security numbers) and authentication tokens may be included in specific log messages. it is important to mask sensitive details such as authentication tokens or credit card info while logging.
 
- According to business requirements, your application needs to log large amounts of data. It might possible your application log data holds potentially confidential information. Specific log messages may include email addresses, URL parameters like tokens, credit card data, employment data, Login Credentials, Official ID Numbers (passport numbers, drivers’ license numbers, social security numbers), Authentication tokens, and other sensitive details. it is important to mask sensitive details such as authentication tokens or credit card info while logging.
-
- A few years ago, Twitter requested users to reset their passwords. According to [Twitter's release](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html), passwords were written in the logs without masking so anyone who can access logs could see the password. Generally in the startups or small companies all team memebrs have access to each tool so masking sensitive data is most important. Most of the log monitoring tools provide the feature for masking any information before it will save in the logs.
+ A few years ago, Twitter requested users to reset their passwords. According to [Twitter's release](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html), passwords were written in the logs without masking allowing those with access to the logs to see the password. In most startups or small businesses, all staff members have access to all tools, so masking confidential data is critical. Most log management tools allow you to mask any information until it is saved in the logs. Most of the log monitoring tools provide the feature for masking any information before it will save in the logs.
 
 ### Masking Sensitive Data in Nginx Logs
 
@@ -125,6 +124,7 @@ tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
 These best practices will help you keep confidential information out of your logs. It's not a full package that will get you ready for a HIPAA or SOC2 audit, but it'll get you started.
 
 The NGINX JavaScript module provides a quick and efficient approach for adding custom logic like data sanitizing to request processing. I showed how NGINX JavaScript can be used to mask personal data in the log files.
+
 
 You can get more detail about the Nginx logs and masking from here - 
 [Nginx - Everything you want to know about the Nginx logs in 10 minutes](https://www.loginradius.com/blog/async/quick-10-minutes-guide-about-the-nginx-access-and-error-logs/)
