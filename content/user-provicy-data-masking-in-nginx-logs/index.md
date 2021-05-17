@@ -1,20 +1,21 @@
 ---
-title: "Nginx - data-masking-in-nginx-logs-for-user-data-privacy-and-compliance"
+title: "Nginx: Data masking"
 date: "2021-05-17"
 coverImage: "data-masking-in-nginx-logs-for-user-data-privacy-and-compliance.png"
 author: "Vijay Singh Shekhawat"
-tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
+tags: ["Nginx", "Logs", "Data Masking", "Compliance", "Privacy"]
+description: "Learn about data masking in nginx logs for user data privacy and compliance."
 ---
 
- There are several Consumer/User data protection regulations in place to protect customer data and privacy. With data protection act like the California Consumer Privacy Act (CCPA) and the European Union's GDPR improving awareness of privacy rights, many data-driven businesses have sought to determine which of their applications contain sensitive data, where the sensitive data goes, and why data is going. As a result, they are reevaluating their data protection controls for employee and consumer data.
+There are several Consumer/User data protection regulations in place to protect customer data and privacy. With data protection act like the California Consumer Privacy Act (CCPA) and the European Union's GDPR improving awareness of privacy rights, many data-driven businesses have sought to determine which of their applications contain sensitive data, where the sensitive data goes, and why data is going. As a result, they are re-evaluating their data protection controls for employee and consumer data.
 
- Your programme must record vast volumes of data in order to meet business requirements. It's likely that the application log data contains highly sensitive information. Email addresses, URL parameters such as tokens, credit card data, jobs data, Login Credentials, and Official ID Numbers (passport numbers, driver's licence numbers, social security numbers) and authentication tokens may be included in specific log messages. it is important to mask sensitive details such as authentication tokens or credit card info while logging.
+ Your program must record vast volumes of data to meet business requirements. It's likely that the application log data contains highly sensitive information. Email addresses, URL parameters such as tokens, credit card data, jobs data, Login Credentials, and Official ID Numbers (passport numbers, driver's license numbers, social security numbers), and authentication tokens may be included in specific log messages. It is important to mask sensitive details such as authentication tokens or credit card info while logging.
 
- A few years ago, Twitter requested users to reset their passwords. According to [Twitter's release](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html), passwords were written in the logs without masking allowing those with access to the logs to see the password. In most startups or small businesses, all staff members have access to all tools, so masking confidential data is critical. Most log management tools allow you to mask any information until it is saved in the logs. Most of the log monitoring tools provide the feature for masking any information before it will save in the logs.
+ A few years ago, Twitter requested users to reset their passwords. According to [Twitter's release](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html), passwords were written in the logs without masking, allowing those with access to the logs to see the password. In most startups or small businesses, all staff members have access to all tools, so masking confidential data is critical. Most log management tools allow you to mask any information until it is saved in the logs. Most of the log monitoring tools provide the feature for masking any information before it will save in the logs.
 
 ### Masking Sensitive Data in Nginx Logs
 
- By default, Nginx logs predefined format is combined. As you know we can overwrite access log formatting as per the requirement. The NGINX JavaScript plugin can be used to enforce data masking in NGINX logs. This module is a kind of JavaScript implementation for NGINX and NGINX Plus that is intended for server-side use cases and per-request processing. When each request is logged, we run a small amount of JavaScript code to masking the sensitive data.
+ By default, Nginx logs predefined format is combined. As you know, we can overwrite access log formatting as per the requirement. The NGINX JavaScript plugin can be used to enforce data masking in NGINX logs. This module is a kind of JavaScript implementation for NGINX and NGINX Plus that is intended for server-side use cases and per-request processing. When each request is logged, we run a small amount of JavaScript code to masking the sensitive data.
 
  ### Instructions for enabling the NGINX JavaScript module
 
@@ -47,7 +48,7 @@ tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
  
  ### How to mask Query String in NGINX and NGINX Plus 
 
- An application can be passed some potentially confidential information as query string parameters like tokens, public key, etc. this information logged as part of the request URI. If your program sends personal information in this manner, you can use the NGINX JavaScript module for masking customer/user personal information in the query string.
+ An application can be passed some potentially confidential information as query string parameters like tokens, public key, etc., this information logged as part of the request URI. If your program sends personal information in this manner, you can use the NGINX JavaScript module for masking customer/user personal information in the query string.
 
 
 1. Create a new file ``` maskQueryString.js ```
@@ -109,7 +110,7 @@ tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
 
      }
 ```
- In the above example I am using the ``` maskQueryStringParameters ``` js function and Since we only need to mask the query string, so using a different variable $request_uri_masked and then using the same variable in the log format 
+ In the above example, I am using the ``` maskQueryStringParameters ``` js function and Since we only need to mask the query string, so using a different variable $request_uri_masked and then using the same variable in the log format. 
 
 3.Reload NGINX service
 
@@ -117,18 +118,15 @@ tags: ["Nginx", "Logs","Data Masking", "Compliance","Privacy"]
         sudo nginx -s reload
    ```
 
- Now nginx will store ```token```, ```accountno```,  and ```email``` in the logs after sanitizing the data 
+ Now nginx will store ```token```, ```accountno```,  and ```email``` in the logs after sanitizing the data. 
 
 
 ### Summery
 These best practices will help you keep confidential information out of your logs. It's not a full package that will get you ready for a HIPAA or SOC2 audit, but it'll get you started.
 
-The NGINX JavaScript module provides a quick and efficient approach for adding custom logic like data sanitizing to request processing. I showed how NGINX JavaScript can be used to mask personal data in the log files.
+The NGINX JavaScript module provides a quick and efficient approach for adding custom logic like data sanitizing to request processing. I showed how NGINX JavaScript could be used to mask personal data in the log files.
 
 
-You can get more detail about the Nginx logs and masking from here - 
+You can get more detail about the Nginx logs and mask from here - 
 [Nginx - Everything you want to know about the Nginx logs in 10 minutes](https://www.loginradius.com/blog/async/quick-10-minutes-guide-about-the-nginx-access-and-error-logs/)
-
-[Data Masking for User Privacy with the NGINX JavaScript Module](https://www.nginx.com/blog/data-masking-user-privacy-nginscript)
-
 
