@@ -17,29 +17,32 @@ Now let's understand the concept with the code.
 
 ### Without Error Boundaries
 
-    class UpdateCount extends Component {
-      state = {
-        count: 0
-      };
-      handleClick = () => {
-        this.setState({
-          count: this.state.count + 1
-        });
-      }
-      render() {
-      const {count} = this.state;
-        if (count === 4) {
-          // Imitate an error!
-          throw new Error('Application crashed!');
-        }
-        return (
-          <div>
-            <h1>{count}</h1>
-            <button onClick={this.handleClick}>+</button>
-          </div>
-        );
-      }
-    };
+```JS
+class UpdateCount extends Component {
+  state = {
+    count: 0
+  };
+  handleClick = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  }
+  render() {
+  const {count} = this.state;
+    if (count === 4) {
+      // Imitate an error!
+      throw new Error('Application crashed!');
+    }
+    return (
+      <div>
+        <h1>{count}</h1>
+        <button onClick={this.handleClick}>+</button>
+      </div>
+    );
+  }
+};
+```
+
 When an application encounters an error, the component unmounts completely, leaving the user/developer with a blank web page and no idea what to do next.
 
 React Error Boundaries provides a method to handle these errors efficiently!
@@ -48,56 +51,58 @@ React Error Boundaries provides a method to handle these errors efficiently!
 
 First, let's make an error boundary component. Here is an example:
 
-    class ErrorBoundary extends Component {
-      state = {
-        error: ''
-      }
-      static getDerivedStateFromError(error) { 
-        // will update the state 
-        return {error: error.toString()}
-      }
-      
-      render() {
-      const {error} =  this.state;
-        if (error) {
-          return (
+```JS
+class ErrorBoundary extends Component {
+  state = {
+    error: ''
+  }
+  static getDerivedStateFromError(error) { 
+    // will update the state 
+    return {error: error.toString()}
+  }
+  
+  render() {
+  const {error} =  this.state;
+    if (error) {
+      return (
+      <div>
+  <p>Looks like an error occurred!</p>
+        <p>
+          {error}
+        </p>
           <div>
-			<p>Looks like an error occurred!</p>
-            <p>
-              {error}
-            </p>
-             <div>
-          )
-        }
-        return <div>{this.props.children}</div>
-      }
+      )
     }
-    
+    return <div>{this.props.children}</div>
+  }
+}
+```
 
 
 In the above example code, you will see a static method `getDerivedStateFromError(error)`. This method is a lifecycle method in which we catch the error and see it as the state. If an error occurs, the state is updated, and instead of a blank web page, a human-friendly error message appears in rendering; if no error occurs, the control is returned to the original element.
 
 Now let’s see how we can use this <ErrorBoundary> class for our <UpdateCount> component.
 
-    function App() {  
-      return (  
-        <div>  
-          <p><b>Error Boundary Example code</b></p>  
-          <hr />  
-          <ErrorBoundary>  
-            <p>Two updatecounts component use same error boundary component.</p>  
-              <UpdateCount />  
-              <UpdateCount />  
-          </ErrorBoundary>  
-          <hr />  
-          <p>Two updatecounts component use their own error boundary component.</p>  
-            <ErrorBoundary><UpdateCount /></ErrorBoundary>  
-            <ErrorBoundary><UpdateCount /></ErrorBoundary>  
-        </div>  
-      );  
-    }  
-    export default App 
-
+```JS
+function App() {  
+  return (  
+    <div>  
+      <p><b>Error Boundary Example code</b></p>  
+      <hr />  
+      <ErrorBoundary>  
+        <p>Two updatecounts component use same error boundary component.</p>  
+          <UpdateCount />  
+          <UpdateCount />  
+      </ErrorBoundary>  
+      <hr />  
+      <p>Two updatecounts component use their own error boundary component.</p>  
+        <ErrorBoundary><UpdateCount /></ErrorBoundary>  
+        <ErrorBoundary><UpdateCount /></ErrorBoundary>  
+    </div>  
+  );  
+}  
+export default App 
+```
 
 In the above code, when we click on the plus (+) button, it increases the count. The program is programmed to throw an error when the count reaches 4. It simulates a JavaScript error in a component. Here, we have used the error boundary in two ways, which are given below.
 
