@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
 
-import logo from "../../static/engineering-blog.svg"
+import logoAsync from "../../static/engineering-blog.svg"
+import LrLogo from "../../static/logo.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
 
@@ -12,14 +13,6 @@ const logger = function (linkName, headerLink) {
     category: "Header Menu Clicks",
     action: `User clicked on ${linkName}`,
     label: `${headerLink}`,
-  })
-}
-
-const signUplogger = function () {
-  ReactGA.event({
-    category: "Signup",
-    action: "User clicked on Free signup button",
-    label: "Signup",
   })
 }
 
@@ -33,6 +26,7 @@ const demologger = function () {
 
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
+  const [showMenu, toggleMenu] = useState(false)
   return (
     <>
       {!shouldClose ? (
@@ -58,11 +52,19 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
       ) : null}
 
-      <div className={headerStyles.header}>
+      <div
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
+          headerStyles.header
+        }`}
+      >
         <Link className={headerStyles.logo} to={"/"}>
-          <img src={logo} alt={`logo`} />
+          <img src={LrLogo} alt={`logo`} />
         </Link>
-        <input type="checkbox" id={headerStyles.navCheck} />
+        <input
+          type="checkbox"
+          id={headerStyles.navCheck}
+          onChange={() => toggleMenu(!showMenu)}
+        />
         <div className={headerStyles.navBtn}>
           <label for="navCheck">
             <span></span>
@@ -70,6 +72,7 @@ const Header = ({ menuLinks, searchIndex }) => {
             <span></span>
           </label>
         </div>
+
         <div className={headerStyles.menuLinks}>
           <nav className={headerStyles.menuLinksinner}>
             <ul>
@@ -91,19 +94,20 @@ const Header = ({ menuLinks, searchIndex }) => {
           </nav>
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
-              <a
-                className={`${headerStyles.navcta} btn-primary  ga_event }`}
-                href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={signUplogger}
-              >
-                {"Free Sign Up"}
-              </a>
+              <form>
+                <div className={headerStyles.formGroup}>
+                  <input type="text" placeholder="Enter your email" />
+                  <input
+                    type="submit"
+                    value="Subscribe"
+                    className={`${headerStyles.navcta} btn-primary`}
+                  />
+                </div>
+              </form>
             </div>
-            <Search searchIndex={searchIndex} />
           </div>
         </div>
+        <Search searchIndex={searchIndex} />
         <div className={headerStyles.backdrop} />
       </div>
     </>
