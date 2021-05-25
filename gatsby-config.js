@@ -11,18 +11,18 @@ module.exports = {
     image: "/engineering-blog.svg",
     owner: "LoginRadius",
     menuLinks: [
-      {
-        name: "Developers",
-        slug: "https://www.loginradius.com/identity-experience-framework/",
-      },
-      {
-        name: "Docs",
-        slug: "https://www.loginradius.com/docs/developer",
-      },
-      {
-        name: "Our Blogs",
-        slug: "https://www.loginradius.com/blog/",
-      },
+      // {
+      //   name: "Developers",
+      //   slug: "https://www.loginradius.com/identity-experience-framework/",
+      // },
+      // {
+      //   name: "Docs",
+      //   slug: "https://www.loginradius.com/docs/developer",
+      // },
+      // {
+      //   name: "Our Blogs",
+      //   slug: "https://www.loginradius.com/blog/",
+      // },
       {
         name: "Open Source",
         slug: "https://www.loginradius.com/open-source/",
@@ -74,10 +74,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-html-attributes',
+      resolve: "gatsby-plugin-html-attributes",
       options: {
-        lang: 'en'
-      }
+        lang: "en",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

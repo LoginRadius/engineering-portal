@@ -34,7 +34,9 @@ ol {
   padding: 0 0 0 40px;
   margin-left: 0;
 }
-
+input[type="submit"] {
+  cursor: pointer;
+}
 h1,
 h2,
 h3,

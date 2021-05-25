@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from "./footer.module.scss"
 
-import lrLogo from "../../static/logo-new.svg"
+import lrLogo from "../../static/logo.svg"
 
 const Footer = ({ menuLinks, socialLinks, postPage }) => {
   return (
