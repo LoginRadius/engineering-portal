@@ -8,7 +8,7 @@ module.exports = {
       "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog/async",
-    image: "/engineering-blog.svg",
+    image: "/async.svg",
     owner: "LoginRadius",
     menuLinks: [
       // {

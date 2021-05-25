@@ -3,8 +3,10 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
 
-import logoAsync from "../../static/engineering-blog.svg"
-import LrLogo from "../../static/logo.svg"
+import logoAsync from "../../static/async.svg"
+import logoSwi from "../../static/swi.svg"
+import logoFuel from "../../static/fuel.svg"
+import LogoLr from "../../static/logo.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
 
@@ -58,7 +60,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
-          <img src={LrLogo} alt={`logo`} />
+          <img src={LogoLr} alt={`logo`} />
         </Link>
         <input
           type="checkbox"
@@ -74,6 +76,64 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
 
         <div className={headerStyles.menuLinks}>
+          <div className={headerStyles.allBlogsLogo}>
+            <div className={`${headerStyles.logoWrap} ${headerStyles.async} `}>
+              <div className={headerStyles.blogLogo}>
+                <div className={headerStyles.logo}>
+                  <img src={logoAsync} alt="" />
+                </div>
+                <div className={headerStyles.description}>
+                  <p>Latest news in the world of engineering</p>
+                  <a
+                    href="#"
+                    className={`${headerStyles.btnPrimary} btn-primary`}
+                  >
+                    Visit Blog
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={`${headerStyles.logoWrap} ${headerStyles.swi} `}>
+              <div className={headerStyles.blogLogo}>
+                <div className={headerStyles.logo}>
+                  <img src={logoSwi} alt="" />
+                </div>
+                <div className={headerStyles.description}>
+                  <p>
+                    Identity and Access Management (IAM), including security and
+                    customer experience.
+                  </p>
+                  <a
+                    href="#"
+                    className={`${headerStyles.btnPrimary} btn-primary`}
+                  >
+                    Visit Blog
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${headerStyles.logoWrap} ${headerStyles.fuel} ${headerStyles.active}`}
+            >
+              <div className={headerStyles.blogLogo}>
+                <div className={headerStyles.logo}>
+                  <img src={logoFuel} alt="" />
+                </div>
+                <div className={headerStyles.description}>
+                  <p>
+                    Grow your business to millions.Engage and retain your
+                    customers.
+                  </p>
+                  <a
+                    href="#"
+                    className={`${headerStyles.btnPrimary} btn-primary`}
+                  >
+                    Visit Blog
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <nav className={headerStyles.menuLinksinner}>
             <ul>
               {menuLinks.map((link, index) => (

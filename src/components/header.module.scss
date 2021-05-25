@@ -40,7 +40,7 @@
 .header {
   width: 100%;
   display: flex;
-  height: 96px;
+  min-height: 96px;
   align-items: center;
   justify-content: space-between;
   background-color: $black;
@@ -72,12 +72,9 @@
   & > a {
     display: flex;
     align-items: stretch;
-    width: 280px;
+    width: 220px;
     height: 96px;
-    padding: 0 48px 0 32px;
-    @media (max-width: 1024px) {
-      padding: 0 32px;
-    }
+    padding: 0 32px;
     @media (max-width: 480px) {
       padding: 0 64px;
     }
@@ -423,5 +420,80 @@
   }
   &:focus {
     outline: none;
+  }
+}
+.menuLinks {
+  .all-blogs-logo {
+    background-color: $blue-bright;
+    display: flex;
+    align-items: flex-start;
+    padding: 18px 16px;
+    border-radius: 0 0 8px 8px;
+    height: 108px;
+    transition: height 0.2s;
+    .logo-wrap {
+      max-width: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      .blog-logo {
+        img {
+          margin: 0 auto;
+          width: 100%;
+          max-height: 56px;
+          max-width: 140px;
+          filter: brightness(0) invert(1);
+          -webkit-filter: brightness(0) invert(1);
+          -moz-filter: brightness(0) invert(1);
+        }
+        .description {
+          opacity: 0;
+          transition: 0.2s;
+          transform: translateY(-100%);
+          padding: 0px 16px 10px 16px;
+          background: #fff;
+          border-radius: 0 0 6px 6px;
+        }
+      }
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 18px 0;
+      }
+      .btn-primary {
+        min-height: 44px;
+        line-height: 44px;
+        height: 44px;
+        margin-bottom: 6px;
+        font-size: 18px;
+      }
+      .logo {
+        max-width: 200px;
+        min-height: 72px;
+        border-radius: 6px;
+      }
+      &.active {
+        .logo {
+          background-color: $white;
+          padding: 8px ​16p;
+          width: 160px;
+        }
+        img {
+          filter: brightness(1) invert(0);
+          -webkit-filter: brightness(1) invert(0);
+          -moz-filter: brightness(1) invert(0);
+        }
+      }
+      &:hover {
+        .description {
+          transform: translateY(-24px);
+          opacity: 1;
+        }
+      }
+    }
+    &:hover {
+      height: fit-content;
+    }
   }
 }
