@@ -13,4 +13,29 @@
     margin-bottom: 0;
     color: $gray-dark;
   }
+  a {
+    strong {
+      font-weight: 600;
+    }
+  }
+  .date-wrap {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 4px;
+    .time {
+      margin-left: 16px;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background-color: $gray-dark;
+        border-radius: 3px;
+        top: 10px;
+        left: -8px;
+      }
+    }
+  }
 }

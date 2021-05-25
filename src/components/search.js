@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
-import { isMobile } from "react-device-detect";
+import { isMobile } from "react-device-detect"
 
 // Search component
 export default class Search extends Component {
@@ -55,16 +55,26 @@ export default class Search extends Component {
     const { results, toggleOpen } = this.state
     return (
       <div
-        className={`${headerStyles.searchWrapper} ${results.length ? headerStyles.searchList : ""
-          }`}
+        className={`${headerStyles.searchWrapper} ${
+          results.length ? headerStyles.searchList : ""
+        }`}
         onMouseOver={() => (this._shouldClose = false)}
         onMouseLeave={() => (this._shouldClose = true)}
       >
-
+        {/* <input
+          type="text"
+          className={`${headerStyles.searchTerm}  ${
+            toggleOpen || isMobile ? headerStyles.searchTermOpen : ""
+          }`}
+          placeholder="Search..."
+          onChange={this.search}
+          id={"search"}
+        /> */}
         <input
           type="text"
-          className={`${headerStyles.searchTerm}  ${(toggleOpen || isMobile) ? headerStyles.searchTermOpen : ""
-            }`}
+          className={`${headerStyles.searchTerm}  ${
+            toggleOpen ? headerStyles.searchTermOpen : ""
+          }`}
           placeholder="Search..."
           onChange={this.search}
           id={"search"}
@@ -90,13 +100,13 @@ export default class Search extends Component {
     )
   }
   render() {
-    return this.renderContent();
+    return this.renderContent()
   }
   getOrCreateIndex = () =>
     this.index
       ? this.index
       : // Create an elastic lunr index and hydrate with graphql query results
-      Index.load(this.props.searchIndex)
+        Index.load(this.props.searchIndex)
 
   search = evt => {
     const query = evt.target.value
