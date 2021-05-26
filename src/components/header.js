@@ -91,24 +91,42 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
 
         <div className={headerStyles.menuLinks}>
-          <div className={headerStyles.allBlogsLogo}>
-            <div className={`${headerStyles.logoWrap} ${headerStyles.async} `}>
+          <div
+            className={`${blogDropDown ? headerStyles.xyz : ""} ${
+              headerStyles.allBlogsLogo
+            }`}
+          >
+            <div
+              className={`${asyncBlogDropDown ? headerStyles.active : ""} ${
+                headerStyles.logoWrap
+              } ${headerStyles.async}`}
+              onClick={() => {
+                toggleBlog(true)
+                toggleAsyncBlog(true)
+                toggleSwiBlog(false)
+                toggleFuelBlog(false)
+              }}
+            >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoAsync} alt="" />
                 </div>
                 <div className={headerStyles.description}>
                   <p>Latest news in the world of engineering</p>
-                  <a
-                    href="#"
-                    className={`${headerStyles.btnPrimary} btn-primary`}
-                  >
-                    Visit Blog
-                  </a>
                 </div>
               </div>
             </div>
-            <div className={`${headerStyles.logoWrap} ${headerStyles.swi} `}>
+            <div
+              className={`${swiBlogDropDown ? headerStyles.active : ""} ${
+                headerStyles.logoWrap
+              } ${headerStyles.swi} `}
+              onClick={() => {
+                toggleBlog(true)
+                toggleAsyncBlog(false)
+                toggleSwiBlog(true)
+                toggleFuelBlog(false)
+              }}
+            >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoSwi} alt="" />
@@ -128,7 +146,15 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${headerStyles.logoWrap} ${headerStyles.fuel} ${headerStyles.active}`}
+              className={`${fuelBlogDropDown ? headerStyles.active : ""} ${
+                headerStyles.logoWrap
+              } ${headerStyles.fuel}`}
+              onClick={() => {
+                toggleBlog(true)
+                toggleAsyncBlog(false)
+                toggleSwiBlog(false)
+                toggleFuelBlog(true)
+              }}
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
