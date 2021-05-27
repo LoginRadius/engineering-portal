@@ -91,42 +91,24 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
 
         <div className={headerStyles.menuLinks}>
-          <div
-            className={`${blogDropDown ? headerStyles.xyz : ""} ${
-              headerStyles.allBlogsLogo
-            }`}
-          >
-            <div
-              className={`${asyncBlogDropDown ? headerStyles.active : ""} ${
-                headerStyles.logoWrap
-              } ${headerStyles.async}`}
-              onClick={() => {
-                toggleBlog(true)
-                toggleAsyncBlog(true)
-                toggleSwiBlog(false)
-                toggleFuelBlog(false)
-              }}
-            >
+          <div className={headerStyles.allBlogsLogo}>
+            <div className={`${headerStyles.logoWrap} ${headerStyles.async} `}>
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoAsync} alt="" />
                 </div>
                 <div className={headerStyles.description}>
                   <p>Latest news in the world of engineering</p>
+                  <a
+                    href="#"
+                    className={`${headerStyles.btnPrimary} btn-primary`}
+                  >
+                    Visit Blog
+                  </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${swiBlogDropDown ? headerStyles.active : ""} ${
-                headerStyles.logoWrap
-              } ${headerStyles.swi} `}
-              onClick={() => {
-                toggleBlog(true)
-                toggleAsyncBlog(false)
-                toggleSwiBlog(true)
-                toggleFuelBlog(false)
-              }}
-            >
+            <div className={`${headerStyles.logoWrap} ${headerStyles.swi} `}>
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoSwi} alt="" />
@@ -146,32 +128,70 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${fuelBlogDropDown ? headerStyles.active : ""} ${
-                headerStyles.logoWrap
-              } ${headerStyles.fuel}`}
-              onClick={() => {
-                toggleBlog(true)
-                toggleAsyncBlog(false)
-                toggleSwiBlog(false)
-                toggleFuelBlog(true)
-              }}
+              className={`${
+                blogType == "fuel" ? headerStyles.active : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              onClick={() =>
+                blogType === "fuel" ? toggleType("") : toggleType("fuel")
+              }
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
-                  <img src={logoFuel} alt="" />
+                  <img src={logoFuel} alt="Fuel" />
                 </div>
-                <div className={headerStyles.description}>
-                  <p>
-                    Grow your business to millions.Engage and retain your
-                    customers.
-                  </p>
-                  <a
-                    href="#"
-                    className={`${headerStyles.btnPrimary} btn-primary`}
-                  >
-                    Visit Blog
-                  </a>
-                </div>
+              </div>
+            </div>
+            <div
+              className={`${
+                blogType ? headerStyles.slideDown : headerStyles.slideUp
+              } ${headerStyles.logoDescription}`}
+              onMouseOver={() => (_shouldBlogClose = false)}
+              onMouseLeave={() => (_shouldBlogClose = true)}
+            >
+              <div
+                className={`${
+                  blogType == "async"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.async}`}
+              >
+                <p>Latest news in the world of engineering</p>
+              </div>
+              <div
+                className={`${
+                  blogType == "swi"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.swi}`}
+              >
+                <p>
+                  Identity and Access Management (IAM), including security and
+                  customer experience.
+                </p>
+                <a
+                  href="#"
+                  className={`${headerStyles.btnPrimary} btn-primary`}
+                >
+                  Visit Blog
+                </a>
+              </div>
+              <div
+                className={`${
+                  blogType == "fuel"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.fuel}`}
+              >
+                <p>
+                  Grow your business to millions.Engage and retain your
+                  customers.
+                </p>
+                <a
+                  href="#"
+                  className={`${headerStyles.btnPrimary} btn-primary`}
+                >
+                  Visit Blog
+                </a>
               </div>
             </div>
           </div>
