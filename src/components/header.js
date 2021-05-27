@@ -177,7 +177,12 @@ const Header = ({ menuLinks, searchIndex }) => {
         className={`${
           blogDropDown ? headerStyles.slideDown : `${headerStyles.slideUp}`
         }
-         ${headerStyles.logoDescription} `}
+        ${
+          blogDropDown
+            ? headerStyles.descriptionOpen
+            : `${headerStyles.descriptionClose}`
+        }
+         ${headerStyles.logoDescription}  `}
       >
         <div
           className={`${
