@@ -588,12 +588,12 @@
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
     }
-    &.description-close {
-      z-index: 2;
-    }
-    &.description-open {
-      z-index: 3;
-    }
+    // &.description-close {
+    //   z-index: 2;
+    // }
+    // &.description-open {
+    //   z-index: 3;
+    // }
   }
 }
 @keyframes slideUp {

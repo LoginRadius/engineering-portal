@@ -26,13 +26,28 @@ const demologger = function () {
   })
 }
 
+// const bodyClickHandler = function () {
+//   if (this.blogDropDown) {
+//     this.setState({
+//       blogDropDown: false
+//     })
+//   }
+// }
+
+// document.body.addEventListener("click", bodyClickHandler)
+
+
+// document.body.removeEventListener("click", bodyClickHandler)
+
+
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
   const [blogDropDown, toggleBlog] = useState(false)
-  const [asyncBlogDropDown, toggleAsyncBlog] = useState(true)
-  const [swiBlogDropDown, toggleSwiBlog] = useState(false)
-  const [fuelBlogDropDown, toggleFuelBlog] = useState(false)
+  const [blogType, toggleType] = useState("async")
+
+
+
   return (
     <>
       {!shouldClose ? (
@@ -59,9 +74,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
-          headerStyles.header
-        }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
+          }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} />
@@ -81,19 +95,15 @@ const Header = ({ menuLinks, searchIndex }) => {
 
         <div className={headerStyles.menuLinks}>
           <div
-            className={`${
-              blogDropDown ? headerStyles.allBlogActive : "inactive"
-            } ${headerStyles.allBlogsLogo}`}
+            className={`${blogDropDown ? headerStyles.allBlogActive : "inactive"
+              } ${headerStyles.allBlogsLogo}`}
           >
             <div
-              className={`${
-                asyncBlogDropDown ? headerStyles.active : "inactive"
-              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${blogType == "async" ? headerStyles.active : "inactive"
+                } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => {
                 toggleBlog(true)
-                toggleAsyncBlog(true)
-                toggleSwiBlog(false)
-                toggleFuelBlog(false)
+                toggleType("async")
               }}
             >
               <div className={headerStyles.blogLogo}>
@@ -103,14 +113,11 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${
-                swiBlogDropDown ? headerStyles.active : "inactive"
-              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${blogType == "swi" ? headerStyles.active : "inactive"
+                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => {
                 toggleBlog(true)
-                toggleAsyncBlog(false)
-                toggleSwiBlog(true)
-                toggleFuelBlog(false)
+                toggleType("swi")
               }}
             >
               <div className={headerStyles.blogLogo}>
@@ -120,14 +127,11 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${
-                fuelBlogDropDown ? headerStyles.active : "inactive"
-              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${blogType == "fuel" ? headerStyles.active : "inactive"
+                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => {
                 toggleBlog(true)
-                toggleAsyncBlog(false)
-                toggleSwiBlog(false)
-                toggleFuelBlog(true)
+                toggleType("fuel")
               }}
             >
               <div className={headerStyles.blogLogo}>
@@ -174,29 +178,23 @@ const Header = ({ menuLinks, searchIndex }) => {
         <div className={headerStyles.backdrop} />
       </div>
       <div
-        className={`${
-          blogDropDown ? headerStyles.slideDown : `${headerStyles.slideUp}`
-        }
-        ${
-          blogDropDown
-            ? headerStyles.descriptionOpen
-            : `${headerStyles.descriptionClose}`
-        }
+        className={`${blogDropDown ? headerStyles.slideDown : headerStyles.slideUp}
+          
+        ${blogDropDown
+            ? headerStyles.descriptionOpen : headerStyles.descriptionClose}
          ${headerStyles.logoDescription}  `}
       >
         <div
-          className={`${
-            asyncBlogDropDown
-              ? headerStyles.slideDown
-              : `${headerStyles.slideUp}`
-          }  ${headerStyles.description}`}
+          className={`${blogType == "async"
+            ? headerStyles.slideDown
+            : headerStyles.slideUp}
+            }  ${headerStyles.description}`}
         >
           <p>Latest news in the world of engineering</p>
         </div>
         <div
-          className={`${
-            swiBlogDropDown ? headerStyles.slideDown : `${headerStyles.slideUp}`
-          }  ${headerStyles.description}`}
+          className={`${blogType == "swi" ? headerStyles.slideDown : headerStyles.slideUp
+            }  ${headerStyles.description}`}
         >
           <p>
             Identity and Access Management (IAM), including security and
@@ -207,11 +205,10 @@ const Header = ({ menuLinks, searchIndex }) => {
           </a>
         </div>
         <div
-          className={`${
-            fuelBlogDropDown
-              ? headerStyles.slideDown
-              : `${headerStyles.slideUp}`
-          }  ${headerStyles.description}`}
+          className={`${blogType == "fuel"
+            ? headerStyles.slideDown
+            : headerStyles.slideUp
+            }  ${headerStyles.description}`}
         >
           <p>
             Grow your business to millions.Engage and retain your customers.
