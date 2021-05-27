@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
@@ -26,27 +26,22 @@ const demologger = function () {
   })
 }
 
-// const bodyClickHandler = function () {
-//   if (this.blogDropDown) {
-//     this.setState({
-//       blogDropDown: false
-//     })
-//   }
-// }
-
-// document.body.addEventListener("click", bodyClickHandler)
-
-
-// document.body.removeEventListener("click", bodyClickHandler)
-
+let _shouldBlogClose = false
 
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
-  const [blogDropDown, toggleBlog] = useState(false)
-  const [blogType, toggleType] = useState("async")
+  const [blogType, toggleType] = useState("")
 
+  const bodyClickHandler = () => _shouldBlogClose && toggleType("")
 
+  useEffect(() => {
+    document.body.addEventListener("click", bodyClickHandler)
+
+    return () => {
+      document.body.removeEventListener("click", bodyClickHandler)
+    }
+  }, [])
 
   return (
     <>
@@ -74,8 +69,9 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
-          }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
+          headerStyles.header
+        }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} />
@@ -95,16 +91,19 @@ const Header = ({ menuLinks, searchIndex }) => {
 
         <div className={headerStyles.menuLinks}>
           <div
-            className={`${blogDropDown ? headerStyles.allBlogActive : "inactive"
-              } ${headerStyles.allBlogsLogo}`}
+            className={`${headerStyles.allBlogsLogo}`}
+            onMouseOver={() => (_shouldBlogClose = false)}
+            onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${blogType == "async" ? headerStyles.active : "inactive"
-                } ${headerStyles.logoWrap} ${headerStyles.async}`}
-              onClick={() => {
-                toggleBlog(true)
-                toggleType("async")
-              }}
+              className={`${
+                ["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              onClick={() =>
+                blogType === "async" ? toggleType("") : toggleType("async")
+              }
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
@@ -113,12 +112,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${blogType == "swi" ? headerStyles.active : "inactive"
-                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
-              onClick={() => {
-                toggleBlog(true)
-                toggleType("swi")
-              }}
+              className={`${
+                blogType == "swi" ? headerStyles.active : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              onClick={() =>
+                blogType === "swi" ? toggleType("") : toggleType("swi")
+              }
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
@@ -127,12 +126,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${blogType == "fuel" ? headerStyles.active : "inactive"
-                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
-              onClick={() => {
-                toggleBlog(true)
-                toggleType("fuel")
-              }}
+              className={`${
+                blogType == "fuel" ? headerStyles.active : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              onClick={() =>
+                blogType === "fuel" ? toggleType("") : toggleType("fuel")
+              }
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
@@ -178,23 +177,24 @@ const Header = ({ menuLinks, searchIndex }) => {
         <div className={headerStyles.backdrop} />
       </div>
       <div
-        className={`${blogDropDown ? headerStyles.slideDown : headerStyles.slideUp}
-          
-        ${blogDropDown
-            ? headerStyles.descriptionOpen : headerStyles.descriptionClose}
-         ${headerStyles.logoDescription}  `}
+        className={`${
+          blogType ? headerStyles.slideDown : headerStyles.slideUp
+        } ${headerStyles.logoDescription}`}
+        onMouseOver={() => (_shouldBlogClose = false)}
+        onMouseLeave={() => (_shouldBlogClose = true)}
       >
         <div
-          className={`${blogType == "async"
-            ? headerStyles.slideDown
-            : headerStyles.slideUp}
+          className={`${
+            blogType == "async" ? headerStyles.slideDown : headerStyles.slideUp
+          }
             }  ${headerStyles.description}`}
         >
           <p>Latest news in the world of engineering</p>
         </div>
         <div
-          className={`${blogType == "swi" ? headerStyles.slideDown : headerStyles.slideUp
-            }  ${headerStyles.description}`}
+          className={`${
+            blogType == "swi" ? headerStyles.slideDown : headerStyles.slideUp
+          }  ${headerStyles.description}`}
         >
           <p>
             Identity and Access Management (IAM), including security and
@@ -205,10 +205,9 @@ const Header = ({ menuLinks, searchIndex }) => {
           </a>
         </div>
         <div
-          className={`${blogType == "fuel"
-            ? headerStyles.slideDown
-            : headerStyles.slideUp
-            }  ${headerStyles.description}`}
+          className={`${
+            blogType == "fuel" ? headerStyles.slideDown : headerStyles.slideUp
+          }  ${headerStyles.description}`}
         >
           <p>
             Grow your business to millions.Engage and retain your customers.
