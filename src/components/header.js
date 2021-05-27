@@ -31,6 +31,7 @@ let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
+  const [blogDropDown, toggleBlog] = useState(false)
   const [blogType, toggleType] = useState("")
 
   const bodyClickHandler = () => _shouldBlogClose && toggleType("")
@@ -139,6 +140,59 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
             </div>
+            <div
+              className={`${
+                blogType ? headerStyles.slideDown : headerStyles.slideUp
+              } ${headerStyles.logoDescription}`}
+              onMouseOver={() => (_shouldBlogClose = false)}
+              onMouseLeave={() => (_shouldBlogClose = true)}
+            >
+              <div
+                className={`${
+                  blogType == "async"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.async}`}
+              >
+                <p>Latest news in the world of engineering</p>
+              </div>
+              <div
+                className={`${
+                  blogType == "swi"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.swi}`}
+              >
+                <p>
+                  Identity and Access Management (IAM), including security and
+                  customer experience.
+                </p>
+                <a
+                  href="#"
+                  className={`${headerStyles.btnPrimary} btn-primary`}
+                >
+                  Visit Blog
+                </a>
+              </div>
+              <div
+                className={`${
+                  blogType == "fuel"
+                    ? headerStyles.slideDown
+                    : headerStyles.slideUp
+                }  ${headerStyles.description} ${headerStyles.fuel}`}
+              >
+                <p>
+                  Grow your business to millions.Engage and retain your
+                  customers.
+                </p>
+                <a
+                  href="#"
+                  className={`${headerStyles.btnPrimary} btn-primary`}
+                >
+                  Visit Blog
+                </a>
+              </div>
+            </div>
           </div>
           <nav className={headerStyles.menuLinksinner}>
             <ul>
@@ -175,47 +229,6 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <Search searchIndex={searchIndex} />
         <div className={headerStyles.backdrop} />
-      </div>
-      <div
-        className={`${
-          blogType ? headerStyles.slideDown : headerStyles.slideUp
-        } ${headerStyles.logoDescription}`}
-        onMouseOver={() => (_shouldBlogClose = false)}
-        onMouseLeave={() => (_shouldBlogClose = true)}
-      >
-        <div
-          className={`${
-            blogType == "async" ? headerStyles.slideDown : headerStyles.slideUp
-          }
-            }  ${headerStyles.description}`}
-        >
-          <p>Latest news in the world of engineering</p>
-        </div>
-        <div
-          className={`${
-            blogType == "swi" ? headerStyles.slideDown : headerStyles.slideUp
-          }  ${headerStyles.description}`}
-        >
-          <p>
-            Identity and Access Management (IAM), including security and
-            customer experience.
-          </p>
-          <a href="#" className={`${headerStyles.btnPrimary} btn-primary`}>
-            Visit Blog
-          </a>
-        </div>
-        <div
-          className={`${
-            blogType == "fuel" ? headerStyles.slideDown : headerStyles.slideUp
-          }  ${headerStyles.description}`}
-        >
-          <p>
-            Grow your business to millions.Engage and retain your customers.
-          </p>
-          <a href="#" className={`${headerStyles.btnPrimary} btn-primary`}>
-            Visit Blog
-          </a>
-        </div>
       </div>
     </>
   )
