@@ -31,6 +31,7 @@ let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
+  const [blogDropDown, toggleBlog] = useState(false)
   const [blogType, toggleType] = useState("")
 
   const bodyClickHandler = () => _shouldBlogClose && toggleType("")

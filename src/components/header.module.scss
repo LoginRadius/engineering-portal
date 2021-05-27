@@ -525,64 +525,51 @@
       z-index: -2;
     }
     &.all-blog-active {
-      color: aqua;
+      height: 96px;
+      border-radius: 0;
+    }
+    &:after {
+      width: 100%;
+      content: "";
+      border-radius: 0 0 8px 8px;
+      height: 12px;
+      left: 0;
+      bottom: -12px;
+      position: absolute;
+      background-color: $blue-bright;
+      z-index: -2;
     }
   }
 }
-.header {
-  & ~ .logo-description {
-    margin-left: 220px;
-    background-color: $blue-bright;
-    border-radius: 0 0 8px 8px;
-    max-width: 532px;
-    display: flex;
-    align-items: flex-start;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-    padding: 0 16px;
+.logo-description {
+  left: 0;
+  top: 96px;
+  background-color: $blue-bright;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  padding: 0 16px 16px;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  .description {
+    background-color: $white;
+    padding: 0 16px 16px;
     -webkit-transform: translate3d(0, -100%, 0);
     -ms-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
-    .description {
-      background-color: $white;
-      padding: 16px;
-      -webkit-transform: translate3d(0, -100%, 0);
-      -ms-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-      border-radius: 0 0 6px 6px;
-      &.slideDown {
-        width: 200px;
-        opacity: 1;
-      }
-      &.slideUp {
-        opacity: 0;
-        width: 150px;
-      }
-      &.slideUp {
-        -webkit-animation-name: slideUp;
-        animation-name: slideUp;
-        -webkit-animation-duration: 0.3s;
-        animation-duration: 0.3s;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-        -webkit-animation-direction: normal;
-        animation-direction: normal;
-        -webkit-animation-timing-function: ease-in-out;
-        animation-timing-function: ease-in-out;
-      }
-      &.slideDown {
-        -webkit-animation-name: slideDown;
-        animation-name: slideDown;
-        -webkit-animation-duration: 0.3s;
-        animation-duration: 0.3s;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-        -webkit-animation-direction: normal;
-        animation-direction: normal;
-        -webkit-animation-timing-function: ease-in-out;
-        animation-timing-function: ease-in-out;
-      }
+    border-radius: 0 0 6px 6px;
+    position: relative;
+    &.slideDown {
+      width: 200px;
+      opacity: 1;
+    }
+    &.slideUp {
+      opacity: 0;
+      width: 150px;
     }
     &.slideUp {
       -webkit-animation-name: slideUp;
@@ -608,12 +595,44 @@
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
     }
-    // &.description-close {
-    //   z-index: 2;
-    // }
-    // &.description-open {
-    //   z-index: 3;
-    // }
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 18px 0;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-color: $white;
+    }
+  }
+  &.slideUp {
+    -webkit-animation-name: slideUp;
+    animation-name: slideUp;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  &.slideDown {
+    -webkit-animation-name: slideDown;
+    animation-name: slideDown;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
 }
 @keyframes slideUp {
