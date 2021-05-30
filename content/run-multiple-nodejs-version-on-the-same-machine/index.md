@@ -3,7 +3,7 @@ title: How do I install multiple node js version on the same machine
 date: "2021-05-04"
 coverImage: "index.jpg"
 author: "Mayank Agarwal"
-tags: ["Nodejs", "NVM"]
+tags: ["NodeJs", "NVM"]
 description: "In this blog, we will get to know and learn about running multiple node js version on the same machine with NVM ."
 ---
 
