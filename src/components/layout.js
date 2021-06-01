@@ -28,6 +28,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 menuLinks {
                   name
                   slug
+                  class
                 }
                 footerLinks {
                   name
