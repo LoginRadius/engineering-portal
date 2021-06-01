@@ -46,7 +46,7 @@
   position: relative;
   z-index: 3;
   &.header-show-menu {
-    background-color: $blue-dark;
+    background-color: $blue-darkest;
     .logo,
     .search-wrapper {
       display: none;
@@ -67,6 +67,16 @@
         max-height: 80px;
       }
     }
+    .asycn-logo {
+      @media (min-width: 1025px) {
+        display: none;
+      }
+    }
+    .lr-logo {
+      @media (max-width: 1024px) {
+        display: none;
+      }
+    }
   }
   & > a {
     display: flex;
@@ -75,14 +85,14 @@
     height: 96px;
     padding: 0 32px;
     @media (max-width: 480px) {
-      padding: 0 64px;
+      padding: 0 40px;
     }
   }
   .menuLinks {
     position: relative;
     display: flex;
     align-items: stretch;
-    width: 90%;
+    width: calc(100% - 220px);
     height: 96px;
     list-style: none;
     justify-content: space-between;
@@ -125,8 +135,14 @@
           @media (max-width: 479px) {
             padding: 0 22px;
           }
+          &.swi,
+          &.fuel {
+            @media (min-width: 1025px) {
+              display: none;
+            }
+          }
         }
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
           width: 100%;
         }
       }
@@ -176,7 +192,7 @@
     &:checked ~ .menuLinks {
       @media (max-width: 1024px) {
         display: flex;
-        background-color: $blue-dark;
+        background-color: $blue-darkest;
         position: absolute;
         top: 95px;
         left: 0;
@@ -194,7 +210,7 @@
           }
         }
       }
-      @media (max-width: 767px) {
+      @media (max-width: 768px) {
         flex-direction: column;
       }
     }
@@ -221,7 +237,7 @@
     &:checked ~ .backdrop {
       background-color: rgba(0, 0, 0, 0.36);
       position: fixed;
-      top: 96px;
+      top: 200px;
       left: 0;
       right: 0;
       bottom: 0;
@@ -272,6 +288,7 @@
         }
         @media (max-width: 1024px) {
           max-width: 100%;
+          width: 145px;
         }
       }
       form {
@@ -295,6 +312,9 @@
             }
             @media (min-width: 481px) {
               max-width: 200px;
+            }
+            @media (max-width: 480px) {
+              width: 100%;
             }
           }
         }
@@ -428,7 +448,7 @@
     display: flex;
     align-items: flex-start;
     padding: 18px 16px 0 16px;
-    transition: height 0.2s;
+    transition: height 0.3s;
     position: relative;
     .logo-wrap {
       max-width: 200px;
@@ -451,7 +471,7 @@
         }
         .description {
           opacity: 0;
-          transition: 0.2s;
+          transition: 0.3s;
           padding: 0px 16px 10px 16px;
           background: #fff;
           border-radius: 0 0 6px 6px;
@@ -475,7 +495,7 @@
         border-radius: 6px;
         display: flex;
         align-items: center;
-        transition: 0.2s ease-in-out;
+        transition: 0.3s ease-in-out;
       }
       &.active {
         .logo {
@@ -497,24 +517,20 @@
       &.active {
         &.async {
           & ~ .logo-description {
-            height: 138px;
+            height: 148px;
           }
         }
         &.swi {
           & ~ .logo-description {
-            height: 272px;
+            height: 256px;
           }
         }
         &.fuel {
           & ~ .logo-description {
-            height: 246px;
+            height: 230px;
           }
         }
       }
-    }
-    &.all-blog-active {
-      height: 96px;
-      border-radius: 0;
     }
     &:after {
       width: 100%;
@@ -526,6 +542,18 @@
       position: absolute;
       background-color: $blue-bright;
       z-index: -2;
+    }
+    &.active {
+      height: 78px;
+      // .logo {
+      //   border-radius: 6px 6px 0 0;
+      // }
+      &:after {
+        border-radius: 0;
+      }
+    }
+    @media (max-width: 1024px) {
+      display: none;
     }
   }
 }
@@ -551,17 +579,17 @@
     transform: translate3d(0, -100%, 0);
     border-radius: 0 0 6px 6px;
     position: relative;
-    &.slideDown {
+    &.slideDesDown {
       width: 200px;
       opacity: 1;
     }
-    &.slideUp {
+    &.slideDesUp {
       opacity: 0;
       width: 150px;
     }
-    &.slideUp {
-      -webkit-animation-name: slideUp;
-      animation-name: slideUp;
+    &.slideDesUp {
+      -webkit-animation-name: slideDesUp;
+      animation-name: slideDesUp;
       -webkit-animation-duration: 0.3s;
       animation-duration: 0.3s;
       -webkit-animation-fill-mode: forwards;
@@ -571,9 +599,9 @@
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
     }
-    &.slideDown {
-      -webkit-animation-name: slideDown;
-      animation-name: slideDown;
+    &.slideDesDown {
+      -webkit-animation-name: slideDesDown;
+      animation-name: slideDesDown;
       -webkit-animation-duration: 0.3s;
       animation-duration: 0.3s;
       -webkit-animation-fill-mode: forwards;
@@ -586,17 +614,20 @@
     p {
       font-size: 18px;
       font-weight: 600;
-      margin: 0 0 18px 0;
+      margin: 18px 0;
     }
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 5px;
-      background-color: $white;
+    .btn-primary {
+      justify-content: center;
     }
+    // &:before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 5px;
+    //   background-color: $white;
+    // }
   }
   &.slideUp {
     -webkit-animation-name: slideUp;
@@ -625,6 +656,30 @@
 }
 @keyframes slideUp {
   0% {
+    -webkit-transform: translateY(8%);
+    -ms-transform: translateY(8%);
+    transform: translateY(8%);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(-8%);
+    -ms-transform: translateY(-8%);
+    transform: translateY(-8%);
+  }
+}
+@keyframes slideDesUp {
+  0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -635,7 +690,7 @@
     transform: translateY(-100%);
   }
 }
-@keyframes slideDown {
+@keyframes slideDesDown {
   0% {
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);

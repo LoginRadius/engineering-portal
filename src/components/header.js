@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
 
 import logoAsync from "../../static/async.svg"
+import logoAsyncDark from "../../static/async-dark.svg"
 import logoSwi from "../../static/swi.svg"
 import logoFuel from "../../static/fuel.svg"
 import LogoLr from "../../static/logo.svg"
@@ -31,7 +32,6 @@ let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
-  const [blogDropDown, toggleBlog] = useState(false)
   const [blogType, toggleType] = useState("")
 
   const bodyClickHandler = () => _shouldBlogClose && toggleType("")
@@ -53,7 +53,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               href={"https://www.loginradius.com/resources/#live-product-demo"}
               key={"live_demo"}
               target="_blank"
-              class="ga_event"
+              className="ga_event"
               rel="noopener noreferrer"
               onClick={() => demologger()}
             >
@@ -75,7 +75,12 @@ const Header = ({ menuLinks, searchIndex }) => {
         }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
-          <img src={LogoLr} alt={`logo`} />
+          <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
+          <img
+            src={logoAsyncDark}
+            alt="Async"
+            className={headerStyles.asycnLogo}
+          />
         </Link>
         <input
           type="checkbox"
@@ -92,7 +97,9 @@ const Header = ({ menuLinks, searchIndex }) => {
 
         <div className={headerStyles.menuLinks}>
           <div
-            className={`${headerStyles.allBlogsLogo}`}
+            className={`${headerStyles.allBlogsLogo} ${
+              blogType ? `${headerStyles.active}` : ""
+            }`}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
@@ -150,17 +157,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               <div
                 className={`${
                   blogType == "async"
-                    ? headerStyles.slideDown
-                    : headerStyles.slideUp
+                    ? headerStyles.slideDesDown
+                    : headerStyles.slideDesUp
                 }  ${headerStyles.description} ${headerStyles.async}`}
               >
-                <p>Latest news in the world of engineering</p>
+                <p>The latest news in the world of engineering.</p>
               </div>
               <div
                 className={`${
                   blogType == "swi"
-                    ? headerStyles.slideDown
-                    : headerStyles.slideUp
+                    ? headerStyles.slideDesDown
+                    : headerStyles.slideDesUp
                 }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
@@ -177,8 +184,8 @@ const Header = ({ menuLinks, searchIndex }) => {
               <div
                 className={`${
                   blogType == "fuel"
-                    ? headerStyles.slideDown
-                    : headerStyles.slideUp
+                    ? headerStyles.slideDesDown
+                    : headerStyles.slideDesUp
                 }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
@@ -202,7 +209,9 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    class="ga_event"
+                    class={`${
+                      link.class ? headerStyles[link.class] : ""
+                    } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >

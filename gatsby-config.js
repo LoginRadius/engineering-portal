@@ -24,12 +24,24 @@ module.exports = {
       //   slug: "https://www.loginradius.com/blog/",
       // },
       {
+        name: "SWI Blog",
+        slug: "https://www.loginradius.com/blog/start-with-identity/",
+        class: "swi",
+      },
+      {
+        name: "Fuel Blog",
+        slug: "https://www.loginradius.com/blog/fuel/",
+        class: "fuel",
+      },
+      {
         name: "Open Source",
         slug: "https://www.loginradius.com/open-source/",
+        class: "opensource",
       },
       {
         name: "Write for Us",
         slug: "https://www.loginradius.com/blog/async/page/guest-blog",
+        class: "writeus",
       },
     ],
     footerLinks: [
