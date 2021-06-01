@@ -29,7 +29,7 @@ module.exports = {
         class: "swi",
       },
       {
-        name: "Fuel Blog",
+        name: "FUEL Blog",
         slug: "https://www.loginradius.com/blog/fuel/",
         class: "fuel",
       },

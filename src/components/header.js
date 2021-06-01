@@ -96,39 +96,40 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
 
         <div className={headerStyles.menuLinks}>
-          <div className={headerStyles.allBlogsLogo}>
-            <div className={`${headerStyles.logoWrap} ${headerStyles.async} `}>
+          <div
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${
+              headerStyles.allBlogsLogo
+            } `}
+            onMouseOver={() => (_shouldBlogClose = false)}
+            onMouseLeave={() => (_shouldBlogClose = true)}
+          >
+            <div
+              className={`${
+                ["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              onClick={() =>
+                blogType === "async" ? toggleType("") : toggleType("async")
+              }
+            >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoAsync} alt="" />
                 </div>
-                <div className={headerStyles.description}>
-                  <p>Latest news in the world of engineering</p>
-                  <a
-                    href="#"
-                    className={`${headerStyles.btnPrimary} btn-primary`}
-                  >
-                    Visit Blog
-                  </a>
-                </div>
               </div>
             </div>
-            <div className={`${headerStyles.logoWrap} ${headerStyles.swi} `}>
+            <div
+              className={`${
+                blogType == "swi" ? headerStyles.active : "inactive"
+              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              onClick={() =>
+                blogType === "swi" ? toggleType("") : toggleType("swi")
+              }
+            >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
                   <img src={logoSwi} alt="" />
-                </div>
-                <div className={headerStyles.description}>
-                  <p>
-                    Identity and Access Management (IAM), including security and
-                    customer experience.
-                  </p>
-                  <a
-                    href="#"
-                    className={`${headerStyles.btnPrimary} btn-primary`}
-                  >
-                    Visit Blog
-                  </a>
                 </div>
               </div>
             </div>
