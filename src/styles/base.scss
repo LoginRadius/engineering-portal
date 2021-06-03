@@ -247,10 +247,10 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: 48px;
-        width: calc(33.33% - #{48px * 2 / 3});
+        margin-right: 24px;
+        width: calc(33.33% - #{24px * 2 / 3});
         @media (max-width: 768px) {
-          width: calc(50% - #{48px * 1 / 2});
+          width: calc(50% - #{24px * 1 / 2});
         }
         @media (max-width: 767px) {
           width: 100%;
