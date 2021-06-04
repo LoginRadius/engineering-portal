@@ -49,7 +49,21 @@
     background-color: $blue-darkest;
     .logo,
     .search-wrapper {
-      display: none;
+      @media (max-width: 1351px) {
+        display: none;
+      }
+    }
+    & + .backdrop {
+      background-color: rgba(0, 0, 0, 0.36);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      @media (min-width: 1351px) {
+        display: none;
+      }
     }
   }
   @media (max-width: 1351px) {
@@ -194,6 +208,7 @@
     height: 44px;
     z-index: 2;
     margin-left: 8px;
+    cursor: pointer;
     &:checked ~ .menuLinks {
       @media (max-width: 1351px) {
         display: flex;
@@ -237,18 +252,6 @@
             left: 0;
           }
         }
-      }
-    }
-    &:checked ~ .backdrop {
-      background-color: rgba(0, 0, 0, 0.36);
-      position: fixed;
-      top: 200px;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1;
-      @media (min-width: 1351px) {
-        display: none;
       }
     }
   }
@@ -452,9 +455,9 @@
   display: flex;
   align-items: flex-start;
   padding: 18px 16px 0 16px;
-  transition: height 0.3s;
   position: relative;
   height: fit-content;
+  transition: height 0.6s ease;
   @media (max-width: 1351px) {
     display: none;
   }
@@ -477,8 +480,8 @@
       img {
         margin: 0 auto;
         width: 100%;
-        max-height: 70px;
-        max-width: 160px;
+        max-height: 72px;
+        max-width: 150px;
         filter: brightness(0) invert(1);
         -webkit-filter: brightness(0) invert(1);
         -moz-filter: brightness(0) invert(1);
@@ -529,6 +532,7 @@
     }
     &.active {
       max-width: 200px;
+      background-color: $white;
       @media all and (max-width: 1441px) and (min-width: 1350px) {
         max-width: 150px;
       }
@@ -560,8 +564,10 @@
       border-radius: 0 0 6px 6px;
       position: relative;
       height: 0;
-      transition: all 0.6s ease;
-      top: -6px;
+      // transition: all 1s cubic-bezier(0.67, -0.51, 0.42, 1.43);
+      transition: height 0.6s ease;
+      padding: 0 16px;
+      opacity: 0;
       p {
         font-size: 16px;
         font-weight: 400;
@@ -569,7 +575,7 @@
         margin: 18px 0 0 0;
       }
       .btn-primary {
-        margin-top: 18px;
+        margin: 18px 0 16px;
         justify-content: center;
       }
     }
@@ -609,16 +615,19 @@
           }
         }
         .description {
-          padding: 0 16px 16px;
+          opacity: 1;
           @media all and (max-width: 1441px) and (min-width: 1350px) {
             max-width: 150px;
           }
         }
       }
     }
-    &:after {
-      bottom: -12px;
-    }
+    // &:after {
+    //   bottom: -12px;
+    // }
+    // .glider {
+    //   border-radius: 6px 6px 0 0;
+    // }
   }
   &:after {
     width: 100%;
