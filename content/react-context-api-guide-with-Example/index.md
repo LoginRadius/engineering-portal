@@ -1,6 +1,6 @@
 ---
 title: "React's Context API Guide with Example"
-date: "2021-06-08"
+date: "2021-06-09"
 coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["react", "redux", "context api", "statemanagement" , "hooks"]
@@ -58,7 +58,7 @@ This will also give me  `ColorContext.Provider`  and  `ColorContext.Consumer`. W
     const ColorContext = React.createContext("white");
     export default ColorContext;
 
-To use this context all over the components, we have to use provider. According to React document, every context object comes with a Provider React component that allows consuming components to subscribe to context changes.
+To use this context all over the components, we have to use the provider. According to React document, every context object comes with a Provider React component that allows consuming components to subscribe to context changes.
 
 ### Providing Context
 
@@ -82,7 +82,7 @@ As we want to access context in the entire application, we need to wrap our app 
         }
 ###  Consuming the context
 
-Approach to provide context is same for class and functional components but consuming is little different for both.
+The approach to providing context is the same for class and functional components but consuming is a little different for both.
 
 #### class component
 Mainly used way to accessing context in class component using static `contextType`. After that, you can access the context value using `this.context`.  You can refer to it in any lifecycle method and even in the render method.
