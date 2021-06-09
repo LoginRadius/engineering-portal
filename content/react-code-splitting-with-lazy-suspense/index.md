@@ -4,7 +4,7 @@ date: "2021-05-13"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
 description: "Load Application faster with code spliting and dynamic loading"
-tags: ["react"]
+tags: ["React"]
 ---
 
 Everyone wants their application so fast, but how to achieve that, in that case, **code splitting** comes into the picture, where we split code and set the priority loading of the code snippet.
