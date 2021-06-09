@@ -92,7 +92,7 @@ The approach to providing context is the same for class and functional component
 #### class component
 Mainly used way to accessing context in class component using static `contextType`. After that, you can access the context value using `this.context`.  You can refer to it in any lifecycle method and even in the render method.
 
-```
+```js
 import ColorContext from './ColorContext'
 
 class Page extends Component {
