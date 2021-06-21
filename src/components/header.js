@@ -69,9 +69,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
-          headerStyles.header
-        }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
+          }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -96,18 +95,16 @@ const Header = ({ menuLinks, searchIndex }) => {
 
         <div className={headerStyles.menuLinks}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${
-              headerStyles.allBlogsLogo
-            } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
+              } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${
-                ["async", ""].includes(blogType)
-                  ? headerStyles.active
-                  : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${["async", ""].includes(blogType)
+                ? headerStyles.active
+                : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -116,19 +113,17 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "async"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${blogType == "async"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${
-                blogType == "swi" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -137,11 +132,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "swi"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${blogType == "swi"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
@@ -156,9 +150,8 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${
-                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -167,11 +160,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "fuel"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${blogType == "fuel"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
@@ -195,9 +187,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    class={`${
-                      link.class ? headerStyles[link.class] : ""
-                    } ga_event`}
+                    class={`${link.class ? headerStyles[link.class] : ""
+                      } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
@@ -209,7 +200,16 @@ const Header = ({ menuLinks, searchIndex }) => {
           </nav>
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
-              <form>
+              <div class="sendgrid-subscription-widget widget-1919" data-emailerror="Please enter a valid email address" data-nameerror="Please enter your name" data-checkboxerror="Please tick the box to accept our conditions">
+                <form class="sg-widget" data-token="a8a0147575b32dfa7f5e76d83afbf189" onsubmit="return false;">
+                  <div class="sg-response"></div>
+                  <div className={headerStyles.formGroup}>
+                    <input class="sg_email" type="email" name="sg_email" placeholder="you@example.com" required="required" />
+                    <input type="submit" class="sg-submit-btn" id="widget-1919" value="Subscribe" />
+                  </div>
+                </form>
+              </div>
+              {/* <form>
                 <div className={headerStyles.formGroup}>
                   <input type="text" placeholder="Enter your email" />
                   <input
@@ -218,7 +218,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                     className={`${headerStyles.navcta} btn-primary`}
                   />
                 </div>
-              </form>
+              </form> */}
+
             </div>
           </div>
         </div>
