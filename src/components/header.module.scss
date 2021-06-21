@@ -307,7 +307,7 @@
         div {
           display: flex;
           align-items: center;
-          input[type="text"] {
+          input[type="email"] {
             height: 44px;
             line-height: 44px;
             border-radius: 4px 0 0 4px;
@@ -434,7 +434,7 @@
   -moz-transition: width 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
-  width: 332px !important;
+  width: 360px !important;
   opacity: 1 !important;
   border: 1px solid $white;
   border-radius: 4px 0 0 4px !important;
