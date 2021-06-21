@@ -95,7 +95,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
 
         <div className={headerStyles.menuLinks}>
-          <div
+          {/* <div
             className={`${blogType ? headerStyles.allBlogActive : ""} ${
               headerStyles.allBlogsLogo
             } `}
@@ -186,7 +186,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <span class={headerStyles.glider}></span>
-          </div>
+          </div> */}
           <nav className={headerStyles.menuLinksinner}>
             <ul>
               {menuLinks.map((link, index) => (
@@ -238,16 +238,6 @@ const Header = ({ menuLinks, searchIndex }) => {
                   </div>
                 </form>
               </div>
-              {/* <form>
-                <div className={headerStyles.formGroup}>
-                  <input type="text" placeholder="Enter your email" />
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    className={`${headerStyles.navcta} btn-primary`}
-                  />
-                </div>
-              </form> */}
             </div>
           </div>
         </div>
