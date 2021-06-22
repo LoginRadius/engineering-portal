@@ -1,15 +1,14 @@
-
 ---
-title: react renderes, react everywhere?
-date: "2021-06-21"
+title: "React renderers, react everywhere?"
+date: "2021-06-23"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
 description: "There is an advanced feature of React is that it can write renderers for multiple different env."
-tags: [JavaScript,React,Renderer]
+tags: ["JavaScript", "React", "Renderer"]
 ---
-# React Renderers:
 
-There is an advanced feature of React is that it can write renderers for multiple different env,  let discuss a few of them.
+
+There is an advanced feature of React that it can write renderers for multiple different env. Let discuss a few of them.
 
 
 ## [React-Figma](https://github.com/react-figma/react-figma "React-Figma")
@@ -19,7 +18,7 @@ This is a Renderer for Figma. It can use React components as a design source.
 
 Sample code with react-figma:
 
-```
+```JS
 import * as React from 'react';
 import { Page, View, Text } from 'react-figma';
 
@@ -34,15 +33,16 @@ export const App = () => {
 };
 ```
 
-Nowadays Figma is the most popular design tool,  similar renderers available as well: `react-sketchapp` for Sketch, `react-x`d for Adobe XD.
+Nowadays, Figma is the most popular design tool,  similar renderers available as well: `react-sketchapp` for Sketch, `react-x`d for Adobe XD.
 
 ## [React Hardware](https://github.com/iamdustan/react-hardware "React Hardware")
 
-A device like Arduino can be operated by React  components. 
+A device like Arduino can be operated by React components. 
 
 
 Let's checkout demo code :
-```
+
+```JS
 import React from 'react';
 import ReactHardware, {Led} from 'react-hardware';
 
@@ -67,7 +67,8 @@ Another React solution for CLIs. It allows you to run, build and test your CLI o
 
 
 The code of the demo:
-```
+
+```JS
 const Raiser = () => {
   const [i, setI] = useState(0);
 
@@ -83,8 +84,8 @@ const Raiser = () => {
 }
 ```
 
-Ink is a popular one which is used by libraries such a Gatsby, Parcel, Yarn 2, etc.
-`react-blessed` is one of the  similar library.
+Ink is a popular one that is used by libraries such a Gatsby, Parcel, Yarn 2, etc.
+`react-blessed` is one of the similar libraries.
 
 
 ##  [react-three-fiber](https://github.com/pmndrs/react-three-fiber "react-three-fiber")
@@ -92,7 +93,8 @@ Ink is a popular one which is used by libraries such a Gatsby, Parcel, Yarn 2, e
 This is a great  React renderer for threejs on the react-native and web.
 
 Let's see a sample code:
-```
+
+```JS
 import ReactDOM from 'react-dom'
 import React, { useRef, useState } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
@@ -128,13 +130,13 @@ ReactDOM.render(
 )
 ```
 
-The library has an great ecosystem along with packages such as `react-three-flex` ,`react-xr`, `react-postprocessing` , etc.
+The library has a great ecosystem along with packages such as `react-three-flex` ,`react-xr`, `react-postprocessing` , etc.
 
 ## [react-nil](https://github.com/pmndrs/react-nil "react-nil")
 
 A renderer for React that render nothing.
 
-```
+```JS
 import React, { useState, useEffect } from "react"
 import { render } from "react-nil"
 function MyComponent() {
@@ -152,7 +154,8 @@ It provides you kind of high-level abstraction to Node.
 Another reconciler for DOCX.js. 
 
 Let's understand with a sample code:
-```
+
+```JS
 renderAsyncDocument(
   <section>
     <paragraph heading={Docx.HeadingLevel.HEADING_1}>
@@ -178,8 +181,8 @@ renderAsyncDocument(
   </section>
 ).then((doc) => console.log(doc));
 ```
-Also, can checkout  `react-pdf` and `redocx` for similar purpose.
+Also, you can checkout  `react-pdf` and `redocx` for a similar purpose.
 
-Can visit this [Github Repo](https://github.com/chentsulin/awesome-react-renderer "Github Repo") for curated list of react renderers.
+Can visit this [Github Repo](https://github.com/chentsulin/awesome-react-renderer "Github Repo") for a curated list of react renderers.
 
  
