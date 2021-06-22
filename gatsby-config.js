@@ -1,4 +1,5 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
+const getTimeToRead = require("./src/utils/timeToReadRss");
 
 module.exports = {
   siteMetadata: {
@@ -218,11 +219,12 @@ module.exports = {
                   },
                   custom_elements: [
                     {
-                      "content:encoded": `<p> ${
-                        edge.node.frontmatter.description || edge.node.excerpt
-                      } </p> <br/>  <a href="${
-                        site.siteMetadata.feedUrl + edge.node.fields.slug
-                      }">Read On</a>`,
+                      "content:encoded": `<p> ${edge.node.frontmatter.description || edge.node.excerpt
+                        } </p> <br/>  <a href="${site.siteMetadata.feedUrl + edge.node.fields.slug
+                        }">Read On</a>`,
+                    },
+                    {
+                      timeToReadBlog: getTimeToRead(edge.node.html),
                     },
                     {
                       authorImage: edge.node.frontmatter.author.github
