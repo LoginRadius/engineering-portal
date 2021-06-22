@@ -36,7 +36,7 @@ The risk is usually assessed based on various parameters and the environment fro
  - Sensitivity of the information or system the user wants to access
  - User's device. Is it a familiar device or a new device?
 
-Based on the risk assessed, an RBA system requests additionals methods of authentication, such as:
+Based on the risk assessed, an RBA system requests additional methods of authentication, such as:
 
 - A verification link sent to the user's registered email ID
 - An OTP sent to the user's phone or email ID 

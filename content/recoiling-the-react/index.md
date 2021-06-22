@@ -4,7 +4,7 @@ date: "2021-04-30"
 coverImage: "react.png"
 author: "Abhimanyu Singh Rathore"
 description: "Recoil is an experimental state management library and It provides several capabilities that are difficult to achieve with React alone.In this article we learn about the recoil.js, and how it is managing state in react."
-tags: [JavaScript,react,recoil]
+tags: [JavaScript,React,Recoil]
 ---
 
 [Recoil js](https://recoiljs.org/ "Recoil js") is another state management library for React.
