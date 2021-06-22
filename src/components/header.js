@@ -93,9 +93,8 @@ const Header = ({ menuLinks, searchIndex }) => {
             <span></span>
           </label>
         </div>
-
-        <div className={headerStyles.menuLinks}>
-          {/* <div
+        <div className={headerStyles.bloglogoWrap}>
+          <div
             className={`${blogType ? headerStyles.allBlogActive : ""} ${
               headerStyles.allBlogsLogo
             } `}
@@ -185,8 +184,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </a>
               </div>
             </div>
-            <span class={headerStyles.glider}></span>
-          </div> */}
+            {/* <span class={headerStyles.glider}></span> */}
+          </div>
+        </div>
+        <div className={headerStyles.menuLinks}>
           <nav className={headerStyles.menuLinksinner}>
             <ul>
               {menuLinks.map((link, index) => (

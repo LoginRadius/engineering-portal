@@ -45,10 +45,14 @@
   background-color: $black;
   position: relative;
   z-index: 3;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+  }
   &.header-show-menu {
     background-color: $blue-darkest;
     .logo,
-    .search-wrapper {
+    .search-wrapper,
+    .all-blogs-logo {
       @media (max-width: 1351px) {
         display: none;
       }
@@ -66,15 +70,14 @@
       }
     }
   }
-  @media (max-width: 1351px) {
-    flex-direction: column;
-  }
+
   img {
     margin-bottom: 0;
   }
   .logo {
-    @media (max-width: 1351px) {
-      justify-content: center;
+    @media all and (max-width: 1351px) and (min-width: 1023px) {
+      width: 268px;
+      padding: 0 32px 0 80px;
     }
     img {
       @media (max-width: 1351px) {
@@ -106,7 +109,7 @@
     position: relative;
     display: flex;
     align-items: stretch;
-    width: calc(100% - 220px);
+    width: calc(100% - 802px);
     height: 96px;
     list-style: none;
     justify-content: space-between;
@@ -151,7 +154,7 @@
           }
           &.swi,
           &.fuel {
-            @media (min-width: 1351px) {
+            @media (min-width: 1023px) {
               display: none;
             }
           }
@@ -256,13 +259,7 @@
     }
   }
   .nav-right-side {
-    height: 96px;
     display: flex;
-    align-items: center;
-    margin-right: 32px;
-    position: relative;
-    justify-content: flex-end;
-    margin-left: auto;
     @media (max-width: 1351px) {
       margin-right: 0;
       justify-content: space-between;
@@ -279,7 +276,6 @@
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      margin-right: 60px;
       z-index: 1;
       @media (max-width: 1351px) {
         margin-right: 0;
@@ -344,10 +340,12 @@
   right: 32px;
   @media (max-width: 1351px) {
     top: 26px;
-    width: calc(100% - 48px) !important;
     right: 24px;
   }
-  @media (max-width: 767px) {
+  @media all and (max-width: 1351px) and (min-width: 1023px) {
+    width: calc(27% - 48px) !important;
+  }
+  @media (max-width: 1023px) {
     width: calc(100% - 32px) !important;
     right: 16px;
   }
@@ -450,211 +448,212 @@
     outline: none;
   }
 }
-.all-blogs-logo {
-  background-color: $blue-bright;
-  display: flex;
-  align-items: flex-start;
-  padding: 18px 16px 0 16px;
-  position: relative;
-  height: fit-content;
-  transition: height 0.6s ease;
-  @media (max-width: 1351px) {
+.bloglogo-wrap {
+  height: 96px;
+  @media (max-width: 1023px) {
     display: none;
   }
-  .logo-wrap {
-    max-width: 150px;
+  .all-blogs-logo {
+    background-color: $blue-bright;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    border-radius: 6px;
-    cursor: pointer;
+    align-items: flex-start;
+    padding: 18px 16px 0 16px;
     position: relative;
-    z-index: 2;
-    flex-direction: column;
-    // max-height: 72px;
-    overflow: hidden;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    .blog-logo {
-      img {
-        margin: 0 auto;
-        width: 100%;
-        max-height: 72px;
-        max-width: 150px;
-        filter: brightness(0) invert(1);
-        -webkit-filter: brightness(0) invert(1);
-        -moz-filter: brightness(0) invert(1);
-        @media all and (max-width: 1441px) and (min-width: 1350px) {
-          max-height: 50px;
-        }
-      }
-      .description {
-        opacity: 0;
-        transition: 0.3s;
-        padding: 0px 16px 10px 16px;
-        border-radius: 0 0 6px 6px;
-        width: 200px;
-      }
-    }
-    .btn-primary {
-      min-height: 44px;
-      line-height: 44px;
-      height: 44px;
-      font-size: 18px;
-    }
-    .logo {
-      max-width: 200px;
-      min-height: 72px;
-      border-radius: 6px;
+    height: fit-content;
+    .logo-wrap {
+      max-width: 150px;
       display: flex;
       align-items: center;
-      transition: 0.3s ease-in-out;
-    }
-    &.active {
-      .logo {
-        width: 200px;
-        @media all and (max-width: 1441px) and (min-width: 1350px) {
-          width: 150px;
-        }
-      }
-      img {
-        filter: brightness(1) invert(0);
-        -webkit-filter: brightness(1) invert(0);
-        -moz-filter: brightness(1) invert(0);
-      }
-    }
-    &:not(.active) {
-      .logo {
-        width: 150px;
-        padding: 0 16px;
-      }
-    }
-    &.active {
-      max-width: 200px;
-      background-color: $white;
-      @media all and (max-width: 1441px) and (min-width: 1350px) {
-        max-width: 150px;
-      }
-      &.async {
-        & ~ .glider {
-          transform: translateX(0);
-        }
-      }
-      &.swi {
-        & ~ .glider {
-          transform: translateX(calc(100% - 49.5px));
-          @media all and (max-width: 1441px) and (min-width: 1350px) {
-            transform: translateX(100%);
-          }
-        }
-      }
-      &.fuel {
-        & ~ .glider {
-          transform: translateX(calc(200% - 100px));
-          @media all and (max-width: 1441px) and (min-width: 1350px) {
-            transform: translateX(200%);
-          }
-        }
-      }
-    }
-    .description {
-      background-color: $white;
-      padding: 0;
-      border-radius: 0 0 6px 6px;
+      justify-content: flex-start;
+      border-radius: 6px;
+      cursor: pointer;
       position: relative;
-      height: 0;
-      // transition: all 1s cubic-bezier(0.67, -0.51, 0.42, 1.43);
-      transition: height 0.6s ease;
-      padding: 0 16px;
-      opacity: 0;
-      p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.3;
-        margin: 18px 0 0 0;
+      z-index: 2;
+      flex-direction: column;
+      // max-height: 72px;
+      overflow: hidden;
+      transition-property: all;
+      transition-duration: 0.4s;
+      transition-timing-function: ease;
+      .blog-logo {
+        img {
+          margin: 0 auto;
+          width: 100%;
+          max-height: 72px;
+          max-width: 150px;
+          filter: brightness(0) invert(1);
+          -webkit-filter: brightness(0) invert(1);
+          -moz-filter: brightness(0) invert(1);
+          @media all and (max-width: 1441px) and (min-width: 1350px) {
+            max-height: 50px;
+          }
+        }
+        .description {
+          opacity: 0;
+          transition: 0.3s;
+          padding: 0px 16px 10px 16px;
+          border-radius: 0 0 6px 6px;
+          width: 200px;
+        }
       }
       .btn-primary {
-        margin: 18px 0 16px;
-        justify-content: center;
+        min-height: 44px;
+        line-height: 44px;
+        height: 44px;
+        font-size: 18px;
       }
-    }
-  }
-  &.all-blog-active {
-    border-radius: 0;
-    .logo-description {
-      opacity: 1;
-    }
-    .logo-wrap {
-      transition-property: all;
-      transition-duration: 0.3s;
-      transition-timing-function: ease;
+      .logo {
+        max-width: 200px;
+        min-height: 72px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+      }
       &.active {
+        .logo {
+          width: 200px;
+          @media all and (max-width: 1441px) and (min-width: 1023px) {
+            width: 150px;
+          }
+        }
+        img {
+          filter: brightness(1) invert(0);
+          -webkit-filter: brightness(1) invert(0);
+          -moz-filter: brightness(1) invert(0);
+        }
+      }
+      &:not(.active) {
+        .logo {
+          width: 150px;
+          padding: 0 16px;
+        }
+      }
+      &.active {
+        max-width: 200px;
+        background-color: $white;
+        @media all and (max-width: 1441px) and (min-width: 1023px) {
+          max-width: 150px;
+        }
         &.async {
-          .description {
-            height: 78px;
-            @media all and (max-width: 1441px) and (min-width: 1350px) {
-              height: 100px;
-            }
+          & ~ .glider {
+            transform: translateX(0);
           }
         }
         &.swi {
-          .description {
-            height: 180px;
-            @media all and (max-width: 1441px) and (min-width: 1350px) {
-              height: 242px;
+          & ~ .glider {
+            transform: translateX(calc(100% - 49.5px));
+            @media all and (max-width: 1441px) and (min-width: 1023px) {
+              transform: translateX(100%);
             }
           }
         }
         &.fuel {
-          .description {
-            height: 160px;
-            @media all and (max-width: 1441px) and (min-width: 1350px) {
-              height: 200px;
+          & ~ .glider {
+            transform: translateX(calc(200% - 100px));
+            @media all and (max-width: 1441px) and (min-width: 1023px) {
+              transform: translateX(200%);
             }
           }
         }
-        .description {
-          opacity: 1;
-          @media all and (max-width: 1441px) and (min-width: 1350px) {
-            max-width: 150px;
-          }
+      }
+      .description {
+        padding: 0;
+        border-radius: 0 0 6px 6px;
+        position: relative;
+        height: 0;
+        // transition: all 1s cubic-bezier(0.67, -0.51, 0.42, 1.43);
+        transition: height 0.6s ease;
+        padding: 0 16px;
+        opacity: 0;
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.3;
+          margin: 18px 0 0 0;
+        }
+        .btn-primary {
+          margin: 18px 0 16px;
+          justify-content: center;
         }
       }
     }
-    // &:after {
-    //   bottom: -12px;
-    // }
-    // .glider {
-    //   border-radius: 6px 6px 0 0;
-    // }
-  }
-  &:after {
-    width: 100%;
-    content: "";
-    border-radius: 0 0 8px 8px;
-    height: 18px;
-    left: 0;
-    bottom: -18px;
-    position: absolute;
-    background-color: $blue-bright;
-    z-index: -2;
-  }
-  .logo-description {
-    opacity: 0;
-  }
-  .glider {
-    width: 200px;
-    min-height: 72px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    background-color: $white;
-    z-index: 1;
-    transition: all 0.3s ease;
-    @media all and (max-width: 1441px) and (min-width: 1350px) {
-      width: 150px;
+    &.all-blog-active {
+      border-radius: 0;
+      .logo-description {
+        opacity: 1;
+      }
+      .logo-wrap {
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        &.active {
+          &.async {
+            .description {
+              height: 78px;
+              @media all and (max-width: 1441px) and (min-width: 1023px) {
+                height: 100px;
+              }
+            }
+          }
+          &.swi {
+            .description {
+              height: 180px;
+              @media all and (max-width: 1441px) and (min-width: 1023px) {
+                height: 242px;
+              }
+            }
+          }
+          &.fuel {
+            .description {
+              height: 160px;
+              @media all and (max-width: 1441px) and (min-width: 1023px) {
+                height: 200px;
+              }
+            }
+          }
+          .description {
+            opacity: 1;
+            @media all and (max-width: 1441px) and (min-width: 1023px) {
+              max-width: 150px;
+            }
+          }
+        }
+      }
+      // &:after {
+      //   bottom: -12px;
+      // }
+      // .glider {
+      //   border-radius: 6px 6px 0 0;
+      // }
+    }
+    &:after {
+      width: 100%;
+      content: "";
+      border-radius: 0 0 8px 8px;
+      height: 18px;
+      left: 0;
+      bottom: -18px;
+      position: absolute;
+      background-color: $blue-bright;
+      z-index: -2;
+    }
+    .logo-description {
+      opacity: 0;
+    }
+    .glider {
+      width: 200px;
+      min-height: 72px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      background-color: $white;
+      z-index: 1;
+      transition: all 0.3s ease;
+      @media all and (max-width: 1441px) and (min-width: 1023px) {
+        width: 150px;
+      }
     }
   }
 }
