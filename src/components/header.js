@@ -20,9 +20,6 @@ const logger = function (linkName, headerLink) {
   })
 }
 
-
-
-
 const demologger = function () {
   ReactGA.event({
     category: "Live Demo",
@@ -36,7 +33,7 @@ const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
   const [blogType, toggleType] = useState("")
-  const [newsLetterSubscription, setNewsLetterSubscription] = useState({ subscribeEmail: "", subscribeCall: false, responseMsg: "" });
+  const [newsLetterSubscription, setNewsLetterSubscription] = useState({ subscribeEmail: "", subscribeCall: false, responseMsg: "", respClass: "" });
 
   const bodyClickHandler = () => _shouldBlogClose && toggleType("")
 
@@ -50,11 +47,11 @@ const Header = ({ menuLinks, searchIndex }) => {
   const subscribe = () => {
     setNewsLetterSubscription({ ...newsLetterSubscription, subscribeCall: true })
     if (newsLetterSubscription.subscribeEmail == "") {
-      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email field is required." })
+      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email field is required.", respClass: "error" })
       return
     }
     if (!validEmail.test(newsLetterSubscription.subscribeEmail)) {
-      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email must be a valid email address." })
+      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email must be a valid email address.", respClass: "error" })
       return
     }
 
@@ -67,24 +64,19 @@ const Header = ({ menuLinks, searchIndex }) => {
     xmlhttp.onload = function () {
       var resp = JSON.parse(xmlhttp.responseText);
       if (xmlhttp.status == 200) {
-        // if (resp.message.indexOf('error') !== -1) {
-        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message })
-        // }
-        //  else {
-        //   setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message })
-        // }
+        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message, respClass: "success" })
       } else if (xmlhttp.status == 500) {
-        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message })
+        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message, respClass: "error" })
       } else {
-        setNewsLetterSubscription({ ...newsLetterSubscription, subscribeCall: false })
+        setNewsLetterSubscription({ ...newsLetterSubscription, subscribeCall: false, respClass: "" })
       }
-
     };
     xmlhttp.send(data);
   }
 
   return (
     <>
+      <div className={`sg-response ${newsLetterSubscription.respClass}`}>{newsLetterSubscription.responseMsg}</div>
       {!shouldClose ? (
         <div className={headerStyles.topStrip}>
           <p>
@@ -216,7 +208,6 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </a>
               </div>
             </div>
-            {/* <span class={headerStyles.glider}></span> */}
           </div>
         </div>
         <div className={headerStyles.menuLinks}>
@@ -244,7 +235,6 @@ const Header = ({ menuLinks, searchIndex }) => {
 
               <div id="sg-widget-event">
                 <form className="sg-widget">
-                  <div className="sg-response">{newsLetterSubscription.responseMsg}</div>
                   <div className={headerStyles.formGroup}>
                     <input
                       className="sg_email required"
