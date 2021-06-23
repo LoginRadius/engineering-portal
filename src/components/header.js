@@ -105,13 +105,12 @@ const Header = ({ menuLinks, searchIndex }) => {
   return (
     <>
       <div
-        className={`${headerStyles.sgResponse} ${
-          headerStyles[newsLetterSubscription.respClass]
-        } `}
+        className={`${headerStyles.sgResponse} ${headerStyles[newsLetterSubscription.respClass]
+          } `}
       >
         <div>{newsLetterSubscription.responseMsg}</div>
         <button
-          onClick={() => setNewsLetterSubscription(true)}
+          onClick={() => setNewsLetterSubscription({ subscribeEmail: newsLetterSubscription.subscribeEmail })}
           class={`${headerStyles.closeIcon}`}
         ></button>
       </div>
@@ -139,9 +138,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
-          headerStyles.header
-        }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
+          }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -165,18 +163,16 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <div className={headerStyles.bloglogoWrap}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${
-              headerStyles.allBlogsLogo
-            } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
+              } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${
-                ["async", ""].includes(blogType)
-                  ? headerStyles.active
-                  : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${["async", ""].includes(blogType)
+                ? headerStyles.active
+                : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -185,19 +181,17 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "async"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${blogType == "async"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${
-                blogType == "swi" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -206,11 +200,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "swi"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${blogType == "swi"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
@@ -225,9 +218,8 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${
-                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -236,11 +228,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "fuel"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${blogType == "fuel"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
@@ -265,9 +256,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    className={`${
-                      link.class ? headerStyles[link.class] : ""
-                    } ga_event`}
+                    className={`${link.class ? headerStyles[link.class] : ""
+                      } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
