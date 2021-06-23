@@ -104,9 +104,16 @@ const Header = ({ menuLinks, searchIndex }) => {
 
   return (
     <>
-      <div className={`sg-response ${newsLetterSubscription.respClass}`}>
+      <div
+        className={`${headerStyles.sgResponse} ${
+          headerStyles[newsLetterSubscription.respClass]
+        } `}
+      >
         <div>{newsLetterSubscription.responseMsg}</div>
-        <button class={`close-icon`}></button>
+        <button
+          onClick={() => setNewsLetterSubscription(true)}
+          class={`${headerStyles.closeIcon}`}
+        ></button>
       </div>
       {!shouldClose ? (
         <div className={headerStyles.topStrip}>
