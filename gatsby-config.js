@@ -236,6 +236,7 @@ module.exports = {
                         }">Read On</a>`,
                     },
                     {
+
                       timeToReadBlog: getTimeToRead(edge.node.html),
                     },
                     {
@@ -276,6 +277,8 @@ module.exports = {
                         }
                         tags
                       }
+                      timeToRead
+                      html
                     }
                   }
                 }

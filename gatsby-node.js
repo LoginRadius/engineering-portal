@@ -187,16 +187,4 @@ exports.onPostBuild = function () {
   }
 }
 
-const addScript = url => {
-  const script = document.createElement("script")
-  script.src = url
-  script.type = "text/javascript"
-  script.defer = true
-  document.body.appendChild(script)
-}
 
-exports.onClientEntry = function () {
-  window.onload = () => {
-    addScript("//app.sgwidget.com/js/sg-widget-v2.js")
-  }
-}
