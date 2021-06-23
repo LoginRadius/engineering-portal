@@ -1,17 +1,17 @@
 ---
 title: "Add Authentication to Play Framework With OIDC and LoginRadius"
-date: "2021-06-22"
+date: "2021-06-23"
 author: "Vishnu Chilamakuru"
 coverImage: "pac4j-authentication.png"
 tags: ["OIDC","Java","pac4j","Play Framework","Authentication"]
 ---
-In this blog post, I will write a step-by-step tutorial to add Authentication to the Play Framework Application with OIDC and LoginRadius. I will be using [pac4j](http://www.pac4j.org/) and it's [play-pac4j](https://github.com/pac4j/play-pac4j) integration in this tutorial. Before jumping into the tutorial let's learn about few concepts. 
+In this blog post, I will write a step-by-step tutorial to add Authentication to the Play Framework Application with OIDC and LoginRadius. I will be using [pac4j](http://www.pac4j.org/) and it's [play-pac4j](https://github.com/pac4j/play-pac4j) integration in this tutorial. Before jumping into the tutorial, let's learn about few concepts. 
 
 ## What is OpenID Connect (OIDC) Protocol?
 
-OIDC is an authentication protocol that allows user to verify their identity when user is trying to access a protected HTTPS endpoint. OIDC is an evolutionary development of ideas implemented earlier in OAuth and OpenID.
+OIDC is an authentication protocol that allows users to verify their identity when they are trying to access a protected HTTPS endpoint. OIDC is an evolutionary development of ideas implemented earlier in OAuth and OpenID.
 
-OpenID Connect allows clients to request and receive information about authenticated sessions and end-users. It allows all types of clients including 
+OpenID Connect allows clients to request and receive information about authenticated sessions and end-users. It allows all types of clients, including 
 - Web-based
 - Mobile
 - Javascript clients etc...
@@ -22,7 +22,7 @@ You can find out more details about [OIDC here](https://openid.net/connect/)
 
 Play Framework is an open-source web application framework that follows the model–view–controller architectural pattern. It is written in Scala and usable from other programming languages that are compiled to JVM Bytecode.
 
-It makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka, Play provides predictable and minimal resource consumption (CPU, memory, threads) for highly scalable applications.
+It makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka, Play provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications.
 
 ## What is pac4j?
 
@@ -71,7 +71,7 @@ Create a new java play project using the following command
 sbt new playframework/play-java-seed.g8
 ```
 
-The above command will prompt you to fill in the project `name` and project package strucure in `organization` as shown below.
+The above command will prompt you to fill in the project `name` and project package structure in `organization` as shown below.
 
 ```
 [info] welcome to sbt 1.5.3 (Oracle Corporation Java 11.0.2)
@@ -93,7 +93,7 @@ Now that the project is created with a base template. You can test it by running
 sbt run
 ```
 
-Now visit [http://localhost:9000](http://localhost:9000) and it should look like this.
+Now visit [http://localhost:9000](http://localhost:9000), and it should look like this.
 
 
 ![play-project-homepage.png](play-project-homepage.png)
@@ -103,9 +103,9 @@ Now visit [http://localhost:9000](http://localhost:9000) and it should look like
 
 ### 1. Add pac4j dependencies to `build.sbt`
 
-Add pac4j dependencies, Java 11 as required and target version to compile the project in `build.sbt`.
+Add pac4j dependencies, Java 11 as required, and target version to compile the project in `build.sbt`.
 
-```
+```scala
 name := """loginradius-play-oidc"""
 organization := "com.loginradius.developer"
 
@@ -143,7 +143,7 @@ Create `app/modules/SecurityModule.java`. This class configures OIDC, sets up a 
 
 - SecurityModule.java
 
-```
+```Java
 package modules;
 
 import com.google.inject.AbstractModule;
@@ -235,9 +235,9 @@ In `app/controllers/HomeController.java` add the following methods
 - a method to show the profile information returned from LoginRadius(or any identity provider) on successful login.
 - a method to get profile information
 
-After adding the above methods `HomeController.java` looks like this
+After adding the above methods `HomeController.java` looks like this.
 
-```
+```Java
 package controllers;
 
 import com.google.inject.Inject;
@@ -298,7 +298,7 @@ public class HomeController extends Controller {
 
 - Update `app/views/index.scala.html` as follows to add the link protected by OIDC authentication.
 
-```
+```Html
 @()
 
 @main("Welcome to Play") {
@@ -309,9 +309,9 @@ public class HomeController extends Controller {
 
 ```
 
-- Add `app/views/protectedindex.scala.html` with the following content below.This page will be shown after Successful Login using OIDC in LoginRadius.
+- Add `app/views/protectedindex.scala.html` with the following content below. This page will be shown after Successful Login using OIDC in LoginRadius.
 
-```
+```Html
 @(profileList: java.util.List[org.pac4j.core.profile.UserProfile])
 @import scala.collection.JavaConverters._
 @profiles() = { @profileList.toList }
@@ -376,14 +376,14 @@ oidc.tokenUri = "https://cloud-api.loginradius.com/sso/oidc/v2/{loginradius-site
 
 Login to your LoginRadius account or [signup here](https://www.loginradius.com/) if you don't have one. 
 
-Once you log in u can see by default one application will be created for you. otherwise, you can create a new application here from the following screen by clicking `New App`.
+Once you log in u can see by default, one application will be created for you. Otherwise, you can create a new application here from the following screen by clicking `New App`.
 
 
 ![loginradius-dashboard.png](loginradius-dashboard.png)
  
 I will be using the existing application itself for this demo as I am using a free plan. In the free plan, you can create only one application (no need for card details).
 
-Upgrade your application subscription to the `Developer Pro` Version as OIDC is available in this version. (For free plan 21 days trial is available).
+Upgrade your application subscription to the `Developer Pro` Version as OIDC is available in this version. (For a free plan, 21 days trial is available).
 
 
 ![loginradius-upgrade-subscription-1.png](loginradius-upgrade-subscription-1.png)
@@ -427,7 +427,7 @@ Let's run our application using `sbt clean run` and visit [http://localhost:9000
 
 ### LoginRadius Consent Page
 
-Now click on the `protected url by OIDC` link in home page that will redirect you to the LoginRadius Consent Page which you configured.
+Now click on the `protected url by OIDC` link on the home page that will redirect you to the LoginRadius Consent Page, which you configured.
 
 ![loginradius-consent-page.png](loginradius-consent-page.png)
 
