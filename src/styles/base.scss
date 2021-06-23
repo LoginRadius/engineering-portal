@@ -106,6 +106,7 @@ ul {
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
+  cursor: pointer;
   background-color: $cta;
   color: $white;
   text-align: center;
@@ -312,5 +313,63 @@ section {
   // }
   img {
     border-radius: 8px;
+  }
+}
+// subscribtion message CSS
+.sg-response {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-weight: 500;
+  &.success {
+    & > div {
+      background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 512 512'%3E%3Ctitle%3Eionicons-v5-e%3C/title%3E%3Cpath d='M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z' style='fill:none;stroke:%2339b55a;stroke-miterlimit:10;stroke-width:32px'/%3E%3Cpolyline points='352 176 217.6 336 160 272' style='fill:none;stroke:%2339b55a;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/%3E%3C/svg%3E")
+        no-repeat center left $white;
+      background-size: 24px;
+      color: $success;
+    }
+  }
+  &.error {
+    & > div {
+      background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 512 512'%3E%3Ctitle%3Eionicons-v5-m%3C/title%3E%3Cpath d='M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z' style='fill:none;stroke:%23e61728;stroke-miterlimit:10;stroke-width:32px'/%3E%3Cline x1='320' y1='320' x2='192' y2='192' style='fill:none;stroke:%23e61728;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/%3E%3Cline x1='192' y1='320' x2='320' y2='192' style='fill:none;stroke:%23e61728;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/%3E%3C/svg%3E")
+        no-repeat center left $white;
+      background-size: 24px;
+      color: $error;
+    }
+  }
+  &.success,
+  &.error {
+    z-index: 99;
+    background-color: $white;
+    & > div {
+      padding-left: 32px;
+    }
+  }
+  .close-icon {
+    color: #000;
+    top: calc(50% - 8px);
+    right: 16px;
+    position: absolute;
+    text-decoration: none;
+    font-family: arial;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512.001 512.001' style='enable-background:new 0 0 512.001 512.001;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    background-color: $white;
+    @media (max-width: 767px) {
+      width: 18px;
+      height: 18px;
+      background-size: 18px;
+      margin: 0;
+      top: calc(50% - 18px);
+    }
   }
 }

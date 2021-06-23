@@ -10,7 +10,7 @@ import logoFuel from "../../static/fuel.svg"
 import LogoLr from "../../static/logo.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
-import { validEmail } from './regex.js';
+import { validEmail } from "./regex.js"
 
 const logger = function (linkName, headerLink) {
   ReactGA.event({
@@ -33,7 +33,12 @@ const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
   const [blogType, toggleType] = useState("")
-  const [newsLetterSubscription, setNewsLetterSubscription] = useState({ subscribeEmail: "", subscribeCall: false, responseMsg: "", respClass: "" });
+  const [newsLetterSubscription, setNewsLetterSubscription] = useState({
+    subscribeEmail: "",
+    subscribeCall: false,
+    responseMsg: "",
+    respClass: "",
+  })
 
   const bodyClickHandler = () => _shouldBlogClose && toggleType("")
 
@@ -45,38 +50,64 @@ const Header = ({ menuLinks, searchIndex }) => {
     }
   }, [])
   const subscribe = () => {
-    setNewsLetterSubscription({ ...newsLetterSubscription, subscribeCall: true })
+    setNewsLetterSubscription({
+      ...newsLetterSubscription,
+      subscribeCall: true,
+    })
     if (newsLetterSubscription.subscribeEmail == "") {
-      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email field is required.", respClass: "error" })
+      setNewsLetterSubscription({
+        ...newsLetterSubscription,
+        responseMsg: "The email field is required.",
+        respClass: "error",
+      })
       return
     }
     if (!validEmail.test(newsLetterSubscription.subscribeEmail)) {
-      setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: "The email must be a valid email address.", respClass: "error" })
+      setNewsLetterSubscription({
+        ...newsLetterSubscription,
+        responseMsg: "The email must be a valid email address.",
+        respClass: "error",
+      })
       return
     }
 
-    let url = 'https://app.sgwidget.com/v2/api/newsletter-signup';
-    var data = new FormData();
-    data.append('email', newsLetterSubscription.subscribeEmail);
-    data.append('token', "a8a0147575b32dfa7f5e76d83afbf189");
-    let xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", url, true);
+    let url = "https://app.sgwidget.com/v2/api/newsletter-signup"
+    var data = new FormData()
+    data.append("email", newsLetterSubscription.subscribeEmail)
+    data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
+    let xmlhttp = new XMLHttpRequest()
+    xmlhttp.open("POST", url, true)
     xmlhttp.onload = function () {
-      var resp = JSON.parse(xmlhttp.responseText);
+      var resp = JSON.parse(xmlhttp.responseText)
       if (xmlhttp.status == 200) {
-        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message, respClass: "success" })
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          responseMsg: resp.message,
+          respClass: "success",
+        })
       } else if (xmlhttp.status == 500) {
-        setNewsLetterSubscription({ ...newsLetterSubscription, responseMsg: resp.message, respClass: "error" })
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          responseMsg: resp.message,
+          respClass: "error",
+        })
       } else {
-        setNewsLetterSubscription({ ...newsLetterSubscription, subscribeCall: false, respClass: "" })
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          subscribeCall: false,
+          respClass: "",
+        })
       }
-    };
-    xmlhttp.send(data);
+    }
+    xmlhttp.send(data)
   }
 
   return (
     <>
-      <div className={`sg-response ${newsLetterSubscription.respClass}`}>{newsLetterSubscription.responseMsg}</div>
+      <div className={`sg-response ${newsLetterSubscription.respClass}`}>
+        <div>{newsLetterSubscription.responseMsg}</div>
+        <button class={`close-icon`}></button>
+      </div>
       {!shouldClose ? (
         <div className={headerStyles.topStrip}>
           <p>
@@ -101,8 +132,9 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
-          }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
+          headerStyles.header
+        }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -126,16 +158,18 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <div className={headerStyles.bloglogoWrap}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
-              } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${
+              headerStyles.allBlogsLogo
+            } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${["async", ""].includes(blogType)
-                ? headerStyles.active
-                : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${
+                ["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -144,17 +178,19 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "async"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${
+                  blogType == "async"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${
+                blogType == "swi" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -163,10 +199,11 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "swi"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${
+                  blogType == "swi"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
@@ -181,8 +218,9 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${
+                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -191,10 +229,11 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "fuel"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${
+                  blogType == "fuel"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
@@ -219,8 +258,9 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    className={`${link.class ? headerStyles[link.class] : ""
-                      } ga_event`}
+                    className={`${
+                      link.class ? headerStyles[link.class] : ""
+                    } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
@@ -232,7 +272,6 @@ const Header = ({ menuLinks, searchIndex }) => {
           </nav>
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
-
               <div id="sg-widget-event">
                 <form className="sg-widget">
                   <div className={headerStyles.formGroup}>
@@ -242,13 +281,21 @@ const Header = ({ menuLinks, searchIndex }) => {
                       name="sg_email"
                       placeholder="you@example.com"
                       required="required"
-                      onChange={(e) => { setNewsLetterSubscription({ ...newsLetterSubscription, subscribeEmail: e.target.value }) }}
+                      onChange={e => {
+                        setNewsLetterSubscription({
+                          ...newsLetterSubscription,
+                          subscribeEmail: e.target.value,
+                        })
+                      }}
                     />
                     <input
                       className={`${headerStyles.navcta} btn-primary sg-submit-btn`}
                       type="button"
                       id="widget-1919"
-                      disabled={setNewsLetterSubscription.subscribeCall || !!setNewsLetterSubscription.subscribeEmail}
+                      disabled={
+                        setNewsLetterSubscription.subscribeCall ||
+                        !!setNewsLetterSubscription.subscribeEmail
+                      }
                       onClick={() => subscribe()}
                       value="Subscribe"
                     />
