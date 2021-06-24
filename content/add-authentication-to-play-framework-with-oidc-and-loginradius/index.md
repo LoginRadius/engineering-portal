@@ -93,7 +93,7 @@ Now that the project is created with a base template. You can test it by running
 sbt run
 ```
 
-Now visit [http://localhost:9000](http://localhost:9000), and it should look like this.
+Now visit `http://localhost:9000`, and it should look like this.
 
 
 ![play-project-homepage.png](play-project-homepage.png)
@@ -231,9 +231,9 @@ public class SecurityModule extends AbstractModule {
 ### 3. Create Secured Endpoint in Controller
 
 In `app/controllers/HomeController.java` add the following methods
-- a method that is secured by the OIDC client
-- a method to show the profile information returned from LoginRadius(or any identity provider) on successful login.
-- a method to get profile information
+- A method that is secured by the OIDC client
+- A method to show the profile information returned from LoginRadius(or any identity provider) on successful login.
+- A method to get profile information
 
 After adding the above methods `HomeController.java` looks like this.
 
@@ -383,7 +383,7 @@ Once you log in you can see by default, one application will be created for you.
  
 I will be using the existing application itself for this demo as I am using a free plan. In the free plan, you can create only one application (no need for card details).
 
-Upgrade your application subscription to the `Developer Pro` Version as OIDC is available in this version. (For a free plan, 21 days trial is available).
+Upgrade your application subscription to the `Developer Pro` Plan to configure OIDC. (`Developer Pro` Plan is available with 21 days trial).
 
 
 ![loginradius-upgrade-subscription-1.png](loginradius-upgrade-subscription-1.png)
@@ -419,15 +419,15 @@ oidc.tokenUri = "https://cloud-api.loginradius.com/sso/oidc/v2/dev-svv3qlcj2y/to
 
 ## Time to test complete Integration
 
-Let's run our application using `sbt clean run` and visit [http://localhost:9000](http://localhost:9000). The Home page will look like this.
+Let's run our application using `sbt clean run` and visit `http://localhost:9000`. The Home page will look like this.
 
 ### Home Page
 
 ![home-page.png](home-page.png)
 
-### LoginRadius Consent Page
+### LoginRadius Auth Page (IDX)
 
-Now click on the `protected url by OIDC` link on the home page that will redirect you to the LoginRadius Consent Page, which you configured.
+Now click on the `protected url by OIDC` link on the home page that will redirect you to the LoginRadius Auth Page (IDX), which you configured.
 
 ![loginradius-consent-page.png](loginradius-consent-page.png)
 
