@@ -149,6 +149,9 @@
           letter-spacing: 0.6px;
           text-decoration: none;
           font-size: 18px;
+          @media all and (max-width: 1441px) and (min-width: 1350px) {
+            padding: 0 16px;
+          }
           &:hover {
             color: $white;
           }
