@@ -50,7 +50,7 @@ There are multiple options you can get started with the Play framework.
 For this tutorial, I will be using creating a new play project using `sbt`.
 
 ### Install sbt on Mac OS
-```
+```console
 brew install sbt
 ```
 You can find [Installation steps for Windows and Linux](https://www.scala-sbt.org/release/docs/Setup.html) here.
@@ -67,13 +67,13 @@ For this tutorial, I will be using
 ## Create New Play Project
 
 Create a new java play project using the following command
-```
+```console
 sbt new playframework/play-java-seed.g8
 ```
 
 The above command will prompt you to fill in the project `name` and project package structure in `organization` as shown below.
 
-```
+```console
 [info] welcome to sbt 1.5.3 (Oracle Corporation Java 11.0.2)
 [info] set current project to new (in build file:/private/var/folders/_9/rcqwq2vx1cl_1sc4xdhb5_5c0000gn/T/sbt_661d1bf7/new/)
 
@@ -89,7 +89,7 @@ Template applied in /Users/vishnuchilamakuru/self/longinradius/./loginradius-pla
 
 Now that the project is created with a base template. You can test it by running the project using the following command from `loginradius-play-oidc` folder.
 
-```
+```console
 sbt run
 ```
 
@@ -105,7 +105,7 @@ Now visit [http://localhost:9000](http://localhost:9000), and it should look lik
 
 Add pac4j dependencies, Java 11 as required, and target version to compile the project in `build.sbt`.
 
-```scala
+```Scala
 name := """loginradius-play-oidc"""
 organization := "com.loginradius.developer"
 
@@ -333,7 +333,7 @@ Now we already added methods in `HomeController.java` and configured callback, l
 
 - `conf/routes` will look like this.
 
-```
+```Scala
 # Routes
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
@@ -357,7 +357,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 Finally, configure the variables mentioned in `SecurityModule.java` in `conf/application.conf` as follows.
 
-```
+```Scala
 play {
   modules {
     enabled += modules.SecurityModule
@@ -376,7 +376,7 @@ oidc.tokenUri = "https://cloud-api.loginradius.com/sso/oidc/v2/{loginradius-site
 
 Login to your LoginRadius account or [signup here](https://www.loginradius.com/) if you don't have one. 
 
-Once you log in u can see by default, one application will be created for you. Otherwise, you can create a new application here from the following screen by clicking `New App`.
+Once you log in you can see by default, one application will be created for you. Otherwise, you can create a new application here from the following screen by clicking `New App`.
 
 
 ![loginradius-dashboard.png](loginradius-dashboard.png)
@@ -396,7 +396,7 @@ Now click on `Select & Configure` on your application and navigate to the `Integ
 
 Once you configure these `conf/application.conf` will look something like this.
 
-```
+```Scala
 # This is the main configuration file for the application.
 # https://www.playframework.com/documentation/latest/ConfigFile
 
@@ -440,7 +440,44 @@ On successful login from the above step, you will be redirected to the `protecte
 
 ### Logout Action
 
-On Clicking logout from the above step, you will be redirected to the Home page again.
+[play-pac4j](https://github.com/pac4j/play-pac4j) provides out of the box `LogoutController` which can be used to handle logout flows. It has `logout` functionality which has the logout logic implementation to clear the session. Below is the sample `logout` functionality from `org.pac4j.play.LogoutController` play-pac4j module.
+
+```Java
+
+    public CompletionStage<Result> logout(final Http.Request request) {
+
+        final HttpActionAdapter bestAdapter = FindBest.httpActionAdapter(null, config, PlayHttpActionAdapter.INSTANCE);
+        final LogoutLogic bestLogic = FindBest.logoutLogic(logoutLogic, config, DefaultLogoutLogic.INSTANCE);
+
+        final WebContext context = FindBest.webContextFactory(null, config, PlayContextFactory.INSTANCE).newContext(request);
+
+        return CompletableFuture.supplyAsync(() -> (Result) bestLogic.perform(context, sessionStore, config, bestAdapter, this.defaultUrl,
+                this.logoutUrlPattern, this.localLogout, this.destroySession, this.centralLogout), ec.current());
+    }
+
+```
+
+So to use this LogoutController, we just need to initialize it and define logout route for the same in our `routes`. We already initialized LoginController in `SecurityModule.java`.
+
+#### a. Initialize LogoutController 
+- You can configure default url which application needs to redirect after `logout` action.
+
+```Java
+    // logout
+    final LogoutController logoutController = new LogoutController();
+    logoutController.setDefaultUrl("/?defaulturlafterlogout");
+    bind(LogoutController.class).toInstance(logoutController);
+
+```
+
+#### b. Define Route for LogoutController
+- We already configured `/logout` Route using `LogoutController` in `conf/routes`.
+
+```Scala
+GET     /logout                     @org.pac4j.play.LogoutController.logout(request: Request)
+```
+
+On Clicking `logout` in our application, the session will be cleared and you will be redirected to the Home page based on our configuration. 
 
 ## Source Code
 
