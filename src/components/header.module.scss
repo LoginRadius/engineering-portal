@@ -113,6 +113,9 @@
     height: 96px;
     list-style: none;
     justify-content: space-between;
+    @media all and (max-width: 1441px) and (min-width: 1350px) {
+      width: calc(100% - 794px);
+    }
     @media (max-width: 1351px) {
       width: 100%;
       height: auto;
