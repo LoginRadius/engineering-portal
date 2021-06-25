@@ -4,7 +4,9 @@ date: "2021-06-25"
 author: "Vishnu Chilamakuru"
 coverImage: "pac4j-authentication.png"
 tags: ["OIDC","Java","pac4j","Play Framework","Authentication"]
+description: "Learn how to integrate play-pac4j and use its OIDC support to authenticate with LoginRadius using JAVA play framework."
 ---
+
 In this blog post, I will write a step-by-step tutorial to add Authentication to the Play Framework Application with OIDC and LoginRadius. I will be using [pac4j](http://www.pac4j.org/) and it's [play-pac4j](https://github.com/pac4j/play-pac4j) integration in this tutorial. Before jumping into the tutorial, let's learn about few concepts. 
 
 ## What is OpenID Connect (OIDC) Protocol?
