@@ -49,7 +49,9 @@
     flex-direction: column;
   }
   &.header-show-menu {
-    background-color: $blue-darkest;
+    @media (max-width: 1351px) {
+      background-color: $blue-darkest;
+    }
     .logo,
     .search-wrapper,
     .all-blogs-logo {
