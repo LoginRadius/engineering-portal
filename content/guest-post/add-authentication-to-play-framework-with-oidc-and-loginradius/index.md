@@ -1,6 +1,6 @@
 ---
 title: "Add Authentication to Play Framework With OIDC and LoginRadius"
-date: "2021-06-23"
+date: "2021-06-25"
 author: "Vishnu Chilamakuru"
 coverImage: "pac4j-authentication.png"
 tags: ["OIDC","Java","pac4j","Play Framework","Authentication"]
