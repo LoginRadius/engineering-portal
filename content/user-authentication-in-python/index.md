@@ -1,12 +1,12 @@
 ---
 title: Implementing User Authentication in a Python Application
-date: "2021-06-23"
+date: "2021-06-29"
 coverImage: "coverImage.jpg"
 author: "Solomon Esenyi"
 tags: ["Python", "Authentication", "Flask"]
 ---
 
-Authentication and user identity management are challenging tasks you are bound to run into when building applications. For example, you’ll need to create profiles for users, validate provided passwords, implement password reset functionalities, manage user sessions (sometimes on multiple devices), manage social media authentication, and many others.
+Authentication and user identity management are challenging tasks you are bound to run into when building applications. For example, you will need to create profiles for users, validate provided passwords, implement a password reset functionalities, manage user sessions (sometimes on multiple devices), manage social media authentication, and many others.
 
 You still have to work on other parts of your application, and you might not have a lot of time. A lot of developers might hack their way through authentication, but that could lead to improper implementations. It is not advisable to do this as you can create doorways for cyber-related attacks in your application.
 
@@ -14,35 +14,35 @@ In this tutorial, you will learn how to properly implement user authentication a
 
 > Here for the code alone? Head over to the [implementation section](#integrating-loginradius-with-python-and-flask) of this article or visit this [GitHub gist](https://gist.github.com/LordGhostX/01e9330dc4533a992a481fcd58fdd115) to browse demo code.
 
-# Introduction
+## Introduction
 
-## What Is User Authentication?
+### What Is User Authentication?
 
 User authentication is the process of validating a person’s identity to ascertain that they are who they claim to be. Authentication is achievable using passwords, one-time pins (OTP), biometrics, authentication apps, access tokens, certificates, and many more.
 
-## What Is User Identity?
+### What Is User Identity?
 
 User identity is an entity used to identify a user of an application uniquely. Forms of user identifiers include full names, email addresses, system-generated values, and [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
 
-## What Is an Identity Provider?
+### What Is an Identity Provider?
 
 An identity provider is a system that helps create, maintain, and manage user identity information. It also provides authentication services to external applications to ease their authentication flow and make it seamless.
 
-# What Is Authentication in Python?
+## What Is Authentication in Python?
 
 When referring to authentication in [Python](https://www.python.org), we talk about user authentication concerning web applications built with it. Python is actively used in making web applications with many supporting frameworks, including but not limited to [Flask](https://flask.palletsprojects.com/en/2.0.x/), Django, FastAPI, Bottle, and Hug.
 
 Every web application built with Python at one point or another would need to implement user authentication features. This article will cover implementing authentication and proper handling of user identity information using [LoginRadius](https://www.loginradius.com) and Flask.
 
-# Getting Started with LoginRadius
+## Getting Started with LoginRadius
 
-## What Is LoginRadius?
+### What Is LoginRadius?
 
 [LoginRadius](https://www.loginradius.com) is a cloud-based consumer identity and access management (CIAM) platform that allows seamless user authentication and SSO integration into your application. LoginRadius is simple to use, completely secure, and highly customizable.
 
 To proceed with this tutorial, you will need an account with LoginRadius. If you have not created one before now, create one on the [LoginRadius website](https://accounts.loginradius.com/auth.aspx?action%3Dregister).
 
-## Benefits of Using LoginRadius
+### Benefits of Using LoginRadius
 
 * It simplifies user management.
 * It provides unmatched data, user, and account security.
@@ -55,29 +55,29 @@ To proceed with this tutorial, you will need an account with LoginRadius. If you
 * This section covers setting up the demo application that we will be integrating LoginRadius into in the remaining parts of the tutorial.
 * It also covers LoginRadius integration with the Python and Flask demo application code.
 
-## Acquiring LoginRadius API Credentials
+### Acquiring LoginRadius API Credentials
 
 Login to your [LoginRadius dashboard](https://accounts.loginradius.com/auth.aspx?plan%3Ddeveloper), then navigate to the app you want to integrate with Python (LoginRadius will set up a free app for you when you create an account).
 
-![](pw6s1mqnn-yrtard7nbx.png)
+![LoginRadius Dashboard](pw6s1mqnn-yrtard7nbx.png)
 
 Next, head over to the `Configuration` tab on the LoginRadius sidebar (left side of the screen).
 
-![](i_alrgdnugpmtschkuuj.png)
+![LoginRadius Configuration](i_alrgdnugpmtschkuuj.png)
 
 Your API credentials are located under the `API Key And Secret` section. Once you have retrieved this, copy the `APP Name`, `API Key`, and `API Secret` and store them somewhere secure and easily retrievable.
 
-![](7lev6yc_ebtxcg62wrbe.png)
+![LoginRadius API credentials](7lev6yc_ebtxcg62wrbe.png)
 
-## Whitelisting Your Domains
+### Whitelisting Your Domains
 
-LoginRadius requires you to whitelist domains you’ll be integrating with your app. To whitelist a domain, scroll down to the `Whitelist Your Domain` section in the `Configuration` tab of your app dashboard and add it.
+LoginRadius requires you to whitelist domains you will be integrating with your app. To whitelist, a domain, scroll down to the `Whitelist Your Domain` section in the `Configuration` tab of your app dashboard and add it.
 
-![](5ng50vbosmuhdhfuz-gi.png)
+![Domain Whitelisting](5ng50vbosmuhdhfuz-gi.png)
 
 > By default, LoginRadius whitelists your local computer (localhost).
 
-## Installing LoginRadius Python SDK
+### Installing LoginRadius Python SDK
 
 We need to install the LoginRadius Python SDK. It provides functionalities that allow Python programs to communicate with LoginRadius APIs.
 
@@ -87,7 +87,7 @@ In the terminal, type:
 pip install LoginRadius-v2 requests cryptography pbkdf2
 ```
 
-## Setting up Our Flask Server
+### Setting up Our Flask Server
 
 First, we need to install the Flask framework from PyPI. In the terminal, type:
 
@@ -115,9 +115,9 @@ if __name__ == "__main__":
 
 When you run the `server.py` script and open your browser, you will get a response similar to the image below:
 
-![](vordrrnvz-vekwuickak.png)
+![Hello World](vordrrnvz-vekwuickak.png)
 
-## Initializing the LoginRadius SDK
+### Initializing the LoginRadius SDK
 
 Update the `server.py` file with the code below:
 
@@ -156,11 +156,11 @@ def register():
 
 In the code above, we created a `register` route that redirects users to our LoginRadius registration IDX. We also set our `AUTH_ACTION` to “register” and our `RETURN_URL` to our application home page.
 
-![](smn-8jr5ahgmhtynezje.png)
+![LoginRadius Login Page](smn-8jr5ahgmhtynezje.png)
 
 > NOTE: Don’t forget to replace the <APP_NAME> placeholder with your LoginRadius app name we saved earlier.
 
-## Authenticating Registered Users (User Login)
+### Authenticating Registered Users (User Login)
 
 To authenticate registered users, you have to redirect them to your IDX page, passing “login” as the `AUTH_ACTION`.
 
@@ -181,9 +181,9 @@ def login():
 
 In the code above, we redirect users to our LoginRadius login IDX if the `token` parameter is absent (this means LoginRadius did not redirect the user here). We also set our `AUTH_ACTION` to “login” and our `RETURN_URL` to our login page.
 
-![](7gs3xz6qhxhas7qgtjma.png)
+![LoginRadius Login Page](7gs3xz6qhxhas7qgtjma.png)
 
-![](xwzztcogdtmnyfq4j5nc.png)
+![LoggedIn](xwzztcogdtmnyfq4j5nc.png)
 
 ## Fetching User Profiles From Access Tokens
 
@@ -219,7 +219,7 @@ def dashboard():
 
 In the code above, we used the `authentication.get_profile_by_access_token` method from the LoginRadius SDK to fetch our user’s details. If the request was successful and the result does not contain an `ErrorCode` parameter, we save the access token in the user’s session and redirect them to the `dashboard` route. But if an error occurs somewhere, e.g., the access token is invalid/expired, we redirect the user back to the `login` route.
 
-![](f2p7ddnwin3yihucx2em.png)
+![LoggedIn](f2p7ddnwin3yihucx2em.png)
 
 Next, we want to add more functionality to the `dashboard` route. Instead of just displaying a dummy text, let it show the user information we fetched earlier. Update the `dashboard` route with the code below:
 
@@ -243,9 +243,9 @@ def dashboard():
 
 Here, we fetched the access token stored in the user’s session earlier, used it to get their details, and rendered the result.
 
-![](1zsvbg3rk013zlbpxx2u.png)
+![LoggedIn](1zsvbg3rk013zlbpxx2u.png)
 
-## Invalidating Access Tokens (User Logout)
+### Invalidating Access Tokens (User Logout)
 
 Invalidating access tokens means rendering particular access tokens useless and unusable. It comes in handy when we log out users. The LoginRadius SDK provides an `auth_in_validate_access_token` method that takes in an access token to be invalidated.
 
@@ -265,10 +265,10 @@ def logout():
     return "You have successfully logged out!"
 ```
 
-![](xyvodwpjtxjrjgxoffx5.png)
+![Log Out](xyvodwpjtxjrjgxoffx5.png)
 
-# Conclusion
+## Conclusion
 
 This article taught us about user authentication, user identity management, and implementing it correctly. In addition, we saw how easy it is to integrate LoginRadius services into a Python application to ease the implementation of authentication and user identity management.
 
-The source code of the demo application is available as a [GitHub gist](https://gist.github.com/LordGhostX/01e9330dc4533a992a481fcd58fdd115). You can learn more about the LoginRadius Python SDK features from the [official documentation](https://www.loginradius.com/docs/developer/references/sdk/python/). If you have any questions, don't hesitate to contact me on Twitter: [@LordGhostX](https://twitter.com/LordGhostX)
+The source code of the demo application is available as a [GitHub gist](https://gist.github.com/LordGhostX/01e9330dc4533a992a481fcd58fdd115). You can learn more about the LoginRadius Python SDK features from the [official documentation](https://www.loginradius.com/docs/developer/references/sdk/python/).
