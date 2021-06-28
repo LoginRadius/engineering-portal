@@ -14,6 +14,9 @@ Hello Guys!!!, today we will be implemented the authentication in the Angular 2+
 
 To implement authentication in the angular app first let's start with registering in the Loginradius and creating the application using [LoginRadius CLI](https://github.com/LoginRadius/lr-cli).
 
+### Why LoginRadius CLI
+
+Developer Experience plays a crucial role for us. We always think about the ways we can minimize the juggling between a quickstart tutorial, dashboard, and terminal. The LoginRadius CLI will simplify your flow by just using some simple commands to register, create an application, log in, etc., and enables you to get the job done in very little time without leaving the terminal.
 ### LoginRadius CLI Setup
 
 #### Mac or Linux
@@ -293,13 +296,39 @@ Run `ng serve` to start the local server, and you will be able to see the output
 
 ### Adding Login Methods
 
-We can configure the LoginRadius Auth Page by adding social login methods like Facebook, Google, etc. To add the login method, you can use the command `lr get social` and `lr add social` command. Check the below image on how to add the social configuration.
+You can configure the LoginRadius Auth Page by adding social login methods like Facebook, Google, etc. To add the login method, you can use the command `lr get social` and `lr add social` command. Check the below image on how to add the social configuration.
 
 ![alt_text](lr_add_social.png "Added Facebook as an loginmethod")
 
 After adding, visit the LoginRadius Auth Page either by visiting [locahost:4200](http://locahost:4200) and log out. Or using the command `lr demo`. You will find the new login method added.
 
 ![alt_text](add_login_method.png "Added Facebook as an loginmethod")
+
+### Customizing theme for LoginRadius Auth Page
+
+LoginRadius Dashboard Support three pre-defined themes for you. You can check out the [Theme Customization](https://dashboard.loginradius.com/auth-page) section in the LoginRadius Dashboard for all the customization options available. 
+
+![alt_text](theme_custom.png "Theme Customization")
+
+You can also get/set your current theme using LoginRadius CLI by using the commands like `lr get theme` and `lr set theme`.
+
+![alt_text](theme_cli.png "Theme Customization CLI")
+
+### Adding/Updating Registeration Schema for LoginRadius Auth Page
+
+LoginRadius Auth Page supports 3 predefined fields for LoginRadius Auth Page i.e Email, Password, Confirm Password. With the help of LoginRadius CLI, you can manage the registration schema for your LoginRadius Auth Page. 
+
+Check out the below commands to add the new registration field in your LoginRadius Application. After adding the new schema field you can always check your LoginRadius Auth Page by running `lr demo` command from the terminal.
+
+![alt_text](registration_schema.png "Registration Schema LoginRadius CLI")
+
+### LoginRadius Site Management
+
+LoginRadius Dashboard provides a feature where you can create and manage multiple applications for your multiple products. 
+
+With the help of LoginRadius CLI you can manage your sites via terminal using commands like `lr get site`, `lr set site`, `lr add site`, `lr delete site`.
+
+![alt_text](site_management.png "Site Management in LoginRadius CLI")
 
 ### Contributing to LoginRadius CLI
 
