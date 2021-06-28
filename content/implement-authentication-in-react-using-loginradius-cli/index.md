@@ -1,6 +1,6 @@
 ---
 title: "Implement Authentication in React Applications using LoginRadius CLI "
-date: "2021-05-12"
+date: "2021-06-28"
 coverImage: "cover.jpg"
 author: "Akash Patil"
 tags: ["Authentication", "React", "CLI", "LoginRadius CLI"]
@@ -49,11 +49,20 @@ If you already have a LoginRadius account, use the command below to directly log
 ```sh
 $ lr login
 ```
-
 Once you successfully register or login, the below message will be visible in a new tab on the browser. Close the tab and return to the CLI. 
 
 ```
 You are Successfully Authenticated, Kindly Close this browser window and go back to CLI.
+```
+If your account has multiple sites (for Developer/Developer Pro Plans), an option will be given to choose the site that you wish to login with. You can choose a site according to your preference.
+
+```sh 
+$ lr login
+  Successfully Authenticated, Fetching Your Site(s)...
+? Current Site is: <value>, Want to Switch? Yes
+? Select the site from the list: <value>
+  Site has been updated.
+  Successfully Logged In
 ```
 
 ### Fetching Application API Credentials
@@ -292,7 +301,7 @@ After changing the theme, navigate to the LoginRadius Auth Page using `lr demo` 
 
 > This functionality is only available for paid **Developer Plans and above** (not available for LoginRadius Free plan). 
 
-We can also update the Registration Page schema using the `lr add schema` command. Use the `lr get schema` command to get the current Registration fields and view all available fields with their schemas. The numbers corresponding to the fields must be passed as the `--field` flag to add them to the registration schema.  
+We can update the Registration Page schema using the `lr add schema` command. Use the `lr get schema` command with `--active` or `--all` flags to get the current Registration fields or view all available fields with their schemas. You can also configure addtional features by choosing the `setup advance configuration` option.  
 See the image below for a visual representation of the command flow. 
 
 ![alt_text](lr_schema.png "Get and Add to Reg. Schema") 
