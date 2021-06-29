@@ -1,6 +1,6 @@
 @import "../styles/variables.scss";
 .pinnedwrap {
-  border-bottom: 1px solid $gray-light;
+  border-bottom: 1px solid #d1d3d4;
   .blog-content-pinned {
     display: flex;
     margin: -15px auto;
@@ -16,7 +16,7 @@
       filter: brightness(0.95);
       -webkit-filter: brightness(0.95);
       &:nth-child(2) {
-        padding-left: 30px;
+        padding-left: 24px;
         @media (max-width: 768px) {
           padding-left: 0;
         }

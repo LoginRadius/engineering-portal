@@ -2,14 +2,14 @@ import React from "react"
 
 import styles from "./footer.module.scss"
 
-import lrLogo from "../../static/logo-new.svg"
+import LogoLr from "../../static/logo.svg"
 
 const Footer = ({ menuLinks, socialLinks, postPage }) => {
   return (
     <section className={styles.footerWrap}>
       <div>
         <div className={styles.lrContent}>
-          <img src={lrLogo} alt={"lr-logo"} />
+          <img src={LogoLr} alt={"lr-logo"} />
           <p>
             LoginRadius empowers businesses to deliver a delightful customer
             experience and win customer trust. Using the LoginRadius Identity

@@ -34,7 +34,9 @@ ol {
   padding: 0 0 0 40px;
   margin-left: 0;
 }
-
+input[type="submit"] {
+  cursor: pointer;
+}
 h1,
 h2,
 h3,
@@ -104,6 +106,7 @@ ul {
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
+  cursor: pointer;
   background-color: $cta;
   color: $white;
   text-align: center;
@@ -245,10 +248,10 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: 48px;
-        width: calc(33.33% - #{48px * 2 / 3});
+        margin-right: 24px;
+        width: calc(33.33% - #{24px * 2 / 3});
         @media (max-width: 768px) {
-          width: calc(50% - #{48px * 1 / 2});
+          width: calc(50% - #{24px * 1 / 2});
         }
         @media (max-width: 767px) {
           width: 100%;
@@ -257,7 +260,7 @@ section {
         &:nth-child(3n) {
           margin-right: 0;
           @media (max-width: 768px) {
-            margin-right: 48px;
+            margin-right: 24px;
           }
           @media (max-width: 767px) {
             margin-right: 0;
