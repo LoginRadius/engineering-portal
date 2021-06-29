@@ -449,3 +449,7 @@ Figure 13
 ## **Summary**
 
 Azure key vault helps you to keep your application's secrets out of the application. You can use it to isolate secrets from your code files. These secrets include connection strings, API keys, environment variables, etc. You can take advantage of Azure Key Vault to keep secrets out of source control or out of your application in a centralized storage place. In this article we've taken advantage of a managed identity to connect an Azure web app in .NET to an Azure Key Vault and retrieve secret value from there.
+
+The complete source code of the application discussed in this article can be found here:
+
+https://github.com/LoginRadius/engineering-blog-samples/pull/118
