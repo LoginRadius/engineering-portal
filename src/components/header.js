@@ -19,7 +19,13 @@ const logger = function (linkName, headerLink) {
     label: `${headerLink}`,
   })
 }
-
+const signUplogger = function () {
+  ReactGA.event({
+    category: "Signup",
+    action: "User clicked on Free signup button",
+    label: "Signup",
+  })
+}
 const demologger = function () {
   ReactGA.event({
     category: "Live Demo",
@@ -105,12 +111,17 @@ const Header = ({ menuLinks, searchIndex }) => {
   return (
     <>
       <div
-        className={`${headerStyles.sgResponse} ${headerStyles[newsLetterSubscription.respClass]
-          } `}
+        className={`${headerStyles.sgResponse} ${
+          headerStyles[newsLetterSubscription.respClass]
+        } `}
       >
         <div>{newsLetterSubscription.responseMsg}</div>
         <button
-          onClick={() => setNewsLetterSubscription({ subscribeEmail: newsLetterSubscription.subscribeEmail })}
+          onClick={() =>
+            setNewsLetterSubscription({
+              subscribeEmail: newsLetterSubscription.subscribeEmail,
+            })
+          }
           class={`${headerStyles.closeIcon}`}
         ></button>
       </div>
@@ -138,8 +149,9 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
-          }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
+          headerStyles.header
+        }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -164,16 +176,18 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <div className={headerStyles.bloglogoWrap}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
-              } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${
+              headerStyles.allBlogsLogo
+            } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${["async", ""].includes(blogType)
-                ? headerStyles.active
-                : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${
+                ["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -182,17 +196,19 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "async"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${
+                  blogType == "async"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${
+                blogType == "swi" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -201,17 +217,19 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "swi"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${
+                  blogType == "swi"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
                   customer experience.
                 </p>
                 <a
-                  href={menuLinks[0].slug} target="_blank"
+                  href={menuLinks[0].slug}
+                  target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
                   Visit Blog
@@ -219,8 +237,9 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${
+                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -229,17 +248,19 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${blogType == "fuel"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${
+                  blogType == "fuel"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
                   customers.
                 </p>
                 <a
-                  href={menuLinks[1].slug} target="_blank"
+                  href={menuLinks[1].slug}
+                  target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
                   Visit Blog
@@ -257,8 +278,9 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    className={`${link.class ? headerStyles[link.class] : ""
-                      } ga_event`}
+                    className={`${
+                      link.class ? headerStyles[link.class] : ""
+                    } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
@@ -270,7 +292,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           </nav>
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
-              <div id="sg-widget-event">
+              {/* <div id="sg-widget-event">
                 <form className="sg-widget">
                   <div className={headerStyles.formGroup}>
                     <input
@@ -287,7 +309,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                       }}
                     />
                     <input
-                      className={`${headerStyles.navcta} btn-primary sg-submit-btn`}
+                      className={`${headerStyles.navcta} ${headerStyles.sgSubmitBtn} btn-primary`}
                       type="button"
                       id="widget-1919"
                       disabled={
@@ -299,13 +321,27 @@ const Header = ({ menuLinks, searchIndex }) => {
                     />
                   </div>
                 </form>
-              </div>
+              </div> */}
+              <a
+                className={`${headerStyles.navcta} btn-primary  ga_event }`}
+                href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={signUplogger}
+              >
+                {"Free Sign Up"}
+              </a>
             </div>
           </div>
         </div>
         <Search searchIndex={searchIndex} />
       </div>
-      <div className={headerStyles.backdrop} onClick={() => { toggleMenu(false) }} />
+      <div
+        className={headerStyles.backdrop}
+        onClick={() => {
+          toggleMenu(false)
+        }}
+      />
     </>
   )
 }

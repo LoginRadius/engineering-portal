@@ -118,7 +118,7 @@ const PinnedCard = () => {
                 </div>
               </div>
             </section>
-            <section className={style.bgBright01}>
+            {/* <section className={style.bgBright01}>
               <div className={`${style.grid6633} ${style.ctaSmall}`}>
                 <div className={style.ctaSmallText}>
                   <h3>
@@ -145,7 +145,7 @@ const PinnedCard = () => {
                   </p>
                 </div>
               </div>
-            </section>
+            </section> */}
           </React.Fragment>
         )
       }}
