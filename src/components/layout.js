@@ -28,6 +28,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 menuLinks {
                   name
                   slug
+                  class
                 }
                 footerLinks {
                   name
@@ -63,9 +64,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 </div>
               </div>
               <div className={layoutStyles.blogContent}>
-                <div className={layoutStyles.content}>
-                  {children}
-                </div>
+                <div className={layoutStyles.content}>{children}</div>
               </div>
               <FreeTrial />
               <Footer

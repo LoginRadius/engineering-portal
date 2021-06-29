@@ -16,8 +16,10 @@ const Bio = ({ date, author, pinned, readingTime }) => {
         <Link to={`/author/${_.kebabCase(author.id)}/`}>
           <strong>{author.id}</strong>
         </Link>
-        <div className={styles.date}>{date}</div>
-        <span>{readingTime}</span>
+        <div className={styles.dateWrap}>
+          <div className={styles.date}>{date}</div>
+          <div className={styles.time}>{readingTime}</div>
+        </div>
       </div>
     </div>
   )
