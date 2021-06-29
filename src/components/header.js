@@ -152,6 +152,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         <input
           type="checkbox"
           id={headerStyles.navCheck}
+          checked={showMenu}
           onChange={() => toggleMenu(!showMenu)}
         />
         <div className={headerStyles.navBtn}>
@@ -210,7 +211,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customer experience.
                 </p>
                 <a
-                  href="#"
+                  href={menuLinks[0].slug} target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
                   Visit Blog
@@ -238,7 +239,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customers.
                 </p>
                 <a
-                  href="#"
+                  href={menuLinks[1].slug} target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
                   Visit Blog
@@ -304,7 +305,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <Search searchIndex={searchIndex} />
       </div>
-      <div className={headerStyles.backdrop} />
+      <div className={headerStyles.backdrop} onClick={() => { toggleMenu(false) }} />
     </>
   )
 }
