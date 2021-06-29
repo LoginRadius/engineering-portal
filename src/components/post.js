@@ -103,7 +103,7 @@ const Post = ({ post, relatedPost }) => {
           </div>
         </div>
       </section>
-      {/* <section className={styles.bgBright01}>
+      <section className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>
           <div className={styles.ctaSmallText}>
             <h3>Free, Secure and Trusted Way to Authenticate Your Visitors</h3>
@@ -128,7 +128,7 @@ const Post = ({ post, relatedPost }) => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
       <section className={`pt-80 ${styles.postDetail}`}>
         <div>
           <div className="grid-70-30">
