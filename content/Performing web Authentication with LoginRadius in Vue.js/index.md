@@ -1,7 +1,7 @@
 ---
 title: "Performing Web Authentication with LoginRadius in Vue.js"
 date: "2021-06-10"
-coverImage: "cover.gif"
+coverImage: "1.png"
 author: "Ukpai Ugochi"
 tags: ["Engineering","JavaScript","Vue.js","Authentication"]
 description: "Learn how to perform web authentication with LoginRadius in Vue.js."
@@ -10,28 +10,35 @@ description: "Learn how to perform web authentication with LoginRadius in Vue.js
 
 
 If you communicate over the internet in an insecure connection, cybercriminals can get hold of your personal information and conversations. For firms, they'll be fined by data compliance regulatory bodies like [GDPR](https://gdpr-info.eu/) if they don't secure user's personal information properly. This is why authentication is an important matter in the IT industry.
+
 In authentication, the identity of a user is confirmed before allowing them access to their account. Authentication, although important, doesn't have to be a tedious and daunting task. LoginRadius is a cloud-based customer identity and access management platform, allowing developers to implement authentication easily in applications.
+
+
 In this article, we'll explore how to perform web authentication in a single page application built with JavaScript's Vue.js framework.
 
 ## What Is Authentication
 
-Authentication is the process of confirming the identity of a computer user. For example, users may need to provide credentials that will be compared to an initial credential provided. Authentication isn't the same as identification. In identification, we indicate the identity of a person. For instance, you may be asked to "confirm you're not a robot" while surfing the net. However, in authentication, we verify a person's identity.
+Authentication is the process of confirming the identity of a computer user. For example, users may need to provide credentials that will be compared to an initial credential provided. 
+
+Authentication isn't the same as identification. In identification, we indicate the identity of a person. For instance, you may be asked to "confirm you're not a robot" while surfing the net. However, in authentication, we verify a person's identity.
+
+
 In application authentication, developers can incorporate single-factor or multi-factor authentication with tokens or cryptographic functions. Let's look at how to perform single-factor authentication in our Vue.js application with LoginRadius.
 
 **Prerequisites**
 
 You need the following prerequisites to perform authentication with LoginRadius in your Vue.js application.
-1. Node.js installed in your working environment. If you don't, click on this link to download it.
+1. Node.js installed in your working environment. If you don't, click on this [link](https://nodejs.org/en/download/) to download it.
 2. Basic knowledge of JavaScript and how the Vue.js framework works.
 
-## LoginRadius Set-Up
+## LoginRadius SetUp
 
 The first step is to create an account with LoginRadius. This is necessary, as you'll need your credentials to access the LoginRadius API. Click on this link to create a [free account](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login&action=register).
 When you click on the link above, you'll be directed to a sign-up page. You can choose to sign up with your email or a service provider like GitHub or Google.
 
 ![LoginRadius setup](./1.png)
 
-I chose the GitHub provider since I already have a GitHub account. You'll be redirected to authorize LoginRadius.
+I choose the GitHub provider since I already have a GitHub account. You'll be redirected to authorize LoginRadius.
 
 ![LoginRadius setup](./2.png)
 
@@ -44,13 +51,15 @@ After filling in the form and clicking on the "Jump Right in button" you'll be d
 ![LoginRadius setup](./4.png)
 
 This is the first step in setting up your LoginRadius application. You'll be asked for an app name and URL. I choose vueApp as my app name since we're building a Vue.js application. I filled the URL with port 8080 which is where my Vue.js application will run. i.e. http://localhost:8080/. Leave the data center in the EU or choose any area that's closer to your location. Then click on the "Next" button.
-You'll be directed to the page below. Ignore the "Try Signing Up Now" button. This is because we'll get an error since we've not set up our Vue.js application yet. Instead, click on "Take me to the dashboard anyways" so that you can access your API key.
+
+
+You'll be directed to the page below. Ignore the "Try Signing Up Now" button to try out signup process or click on "Take me to the dashboard anyways" to access your API key.
 
 ![LoginRadius setup](./5.png)
 
 You should be directed to your dashboard. We won't be configuring anything for now until we create our Vue.js application.
 
-## Vue.js Set-Up
+## Vue.js SetUp
 
 The first thing we'll do is install the Vue.js CLI and create our LoginRadius application. You can install Vue CLI with npm or yarn. To install Vue CLI, run the following command in your terminal.
 
@@ -66,6 +75,7 @@ Next, we'll be creating our Vue.js project. To create our LoginRadius Vue projec
 vue create loginradius
 ```
 In your terminal, you'll be asked to choose between Vue 2 and Vue 3. I highly recommend you choose Vue 2 since it's stable and Vue 3 is still in preview. Once your application is set, you'll be asked to navigate to the location of your project with `cd LoginRadius`.
+
 To start your application, run the command below in your terminal.
 
 
@@ -267,6 +277,7 @@ import HelloWorld from '@/components/HelloWorld'
 
 
 We've added our components "HelloWorld" and "Auth" and also specified the URL path for our components. We also created a path (*) with our "Auth" component. When you put * in a path, you're telling Vue that the component specified is a fallback component if a user provides an invalid URL. For most developers, they specify a 404 template as a fallback component if a user provides an invalid URL.
+
 Now that all is set, let’s test our application. Your Vue application should reload on its own. However, if you've stopped it, run the command below to start it.
 
 ```js 
