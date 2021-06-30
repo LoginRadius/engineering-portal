@@ -55,9 +55,8 @@ export default class Search extends Component {
     const { results, toggleOpen } = this.state
     return (
       <div
-        className={`${headerStyles.searchWrapper} ${
-          results.length ? headerStyles.searchList : ""
-        }`}
+        className={`${headerStyles.searchWrapper} ${results.length ? headerStyles.searchList : ""
+          }`}
         onMouseOver={() => (this._shouldClose = false)}
         onMouseLeave={() => (this._shouldClose = true)}
       >
@@ -72,9 +71,8 @@ export default class Search extends Component {
         /> */}
         <input
           type="text"
-          className={`${headerStyles.searchTerm}  ${
-            toggleOpen ? headerStyles.searchTermOpen : ""
-          }`}
+          className={`${headerStyles.searchTerm}  ${toggleOpen ? headerStyles.searchTermOpen : ""
+            }`}
           placeholder="Search..."
           onChange={this.search}
           id={"search"}
@@ -89,7 +87,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>
@@ -106,7 +104,7 @@ export default class Search extends Component {
     this.index
       ? this.index
       : // Create an elastic lunr index and hydrate with graphql query results
-        Index.load(this.props.searchIndex)
+      Index.load(this.props.searchIndex)
 
   search = evt => {
     const query = evt.target.value
