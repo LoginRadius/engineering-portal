@@ -177,7 +177,15 @@ Free illustrations, for everything. Memorable products, brands, & presentations 
 
 [www.glazestock.com](https://www.glazestock.com)
 
-### 5. **UI Faces (Avatars for design mockups)**
+### 5. **Iconscout (Illustration)**
+
+#### **Iconscout - Curated SVGs, Vector Icons, Illustrations, 3D graphics, and Lottie Animations**
+
+Iconscout comes with integrated Plugins, conversion Tools, and simple, powerful Editors that enhance and streamline your workflow.
+
+[iconscout.com](https://iconscout.com/)
+
+### 6. **UI Faces (Avatars for design mockups)**
 
 #### **UI Faces - Avatars for design mockups**
 
