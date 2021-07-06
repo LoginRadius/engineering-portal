@@ -3,6 +3,7 @@ title: Implementing User Authentication in a Python Application
 date: "2021-06-29"
 coverImage: "coverImage.jpg"
 author: "Solomon Esenyi"
+description: "Learn about user authentication, user identity management, and implementing it correctly into a Python application using LoginRadius."
 tags: ["Python", "Authentication", "Flask"]
 ---
 
@@ -32,7 +33,7 @@ An identity provider is a system that helps create, maintain, and manage user id
 
 When referring to authentication in [Python](https://www.python.org), we talk about user authentication concerning web applications built with it. Python is actively used in making web applications with many supporting frameworks, including but not limited to [Flask](https://flask.palletsprojects.com/en/2.0.x/), Django, FastAPI, Bottle, and Hug.
 
-Every web application built with Python at one point or another would need to implement user authentication features. This article will cover implementing authentication and proper handling of user identity information using [LoginRadius](https://www.loginradius.com) and Flask.
+Every web application built with Python at one point or another would need to implement user authentication features. This article will cover implementing authentication and proper handling of user identity information using [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) and Flask.
 
 ## Getting Started with LoginRadius
 
@@ -57,7 +58,7 @@ To proceed with this tutorial, you will need an account with LoginRadius. If you
 
 ### Acquiring LoginRadius API Credentials
 
-Login to your [LoginRadius dashboard](https://accounts.loginradius.com/auth.aspx?plan%3Ddeveloper), then navigate to the app you want to integrate with Python (LoginRadius will set up a free app for you when you create an account).
+Login to your [LoginRadius dashboard](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login), then navigate to the app you want to integrate with Python (LoginRadius will set up a free app for you when you create an account).
 
 ![LoginRadius Dashboard](pw6s1mqnn-yrtard7nbx.png)
 
