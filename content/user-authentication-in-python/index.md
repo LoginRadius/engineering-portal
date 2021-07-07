@@ -41,7 +41,7 @@ Every web application built with Python at one point or another would need to im
 
 [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) is a cloud-based consumer identity and access management (CIAM) platform that allows seamless user authentication and SSO integration into your application. LoginRadius is simple to use, completely secure, and highly customizable.
 
-To proceed with this tutorial, you will need an account with LoginRadius. If you have not created one before now, create one on the [LoginRadius website](https://accounts.loginradius.com/auth.aspx?action%3Dregister).
+To proceed with this tutorial, you will need an account with LoginRadius. If you have not created one before now, create one on the [LoginRadius website](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login).
 
 ### Benefits of Using LoginRadius
 
