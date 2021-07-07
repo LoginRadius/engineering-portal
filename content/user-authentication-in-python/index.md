@@ -1,6 +1,6 @@
 ---
 title: Implementing User Authentication in a Python Application
-date: "2021-06-29"
+date: "2021-07-07"
 coverImage: "coverImage.jpg"
 author: "Solomon Esenyi"
 description: "Learn about user authentication, user identity management, and implementing it correctly into a Python application using LoginRadius."
