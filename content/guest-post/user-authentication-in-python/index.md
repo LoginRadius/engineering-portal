@@ -51,7 +51,7 @@ To proceed with this tutorial, you will need an account with LoginRadius. If you
 * It integrates seamlessly into your applications.
 * It provides scalable infrastructure.
 
-# Integrating LoginRadius with Python and Flask
+<h1 id="integrating-loginradius-with-python-and-flask">Integrating LoginRadius with Python and Flask</h1>
 
 * This section covers setting up the demo application that we will be integrating LoginRadius into in the remaining parts of the tutorial.
 * It also covers LoginRadius integration with the Python and Flask demo application code.
