@@ -67,7 +67,7 @@ _It should be said that gh is not the same stuff as git. It’s because `gh` jus
 
 ****CLI Commands ➫****
 
-We’re going to cover a bunch of exciting commands. Let’s use the official [Angular.js repo](https://github.com/angular/angular%60) to run `gh` commands
+We’re going to cover a bunch of exciting commands. Let’s use the official [Angular.js repo](https://github.com/angular/angular) to run `gh` commands
 
 Clone the `Angular` repo, and navigate to the repository. You can either clone the repo through HTTPS/ ssh/ Git CLI. I’m going to clone the repo through `git CLI` since we are working on GIT CLI.
 

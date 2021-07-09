@@ -35,7 +35,7 @@ Thanks for your contributions!
 ## What we are looking for
 
 - A well-articulated technology-related blog post
-- The post should be of 600-900 words.
+- The post should be of minimum 1000 words.
 - The topic must relate to technology/programming/coding.
 - Post must not be published elsewhere.
 - The author gets only these link(s) in bio, GitHub, StackOverflow, LinkedIn.

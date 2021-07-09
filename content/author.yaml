@@ -64,7 +64,11 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering.
+  bio: I am a software enthusiast and contributor interested in React JS, UI/UX, Tech Blog, Javascript, Node JS, DevOps.
+  github: "vershagupta"
+  stackoverflow: "1455329"
+  linkedin: "versha-gupta-4865b339"
+  twitter: "Vershaa_Gupta"
 
 - id: Lucius Yu
   bio: Lucius is a Software Developer at LoginRadius. He was born and raised in China, but came to Edmonton to graduate from the University of Alberta, double majoring in Computer Sciences and Mathematics. Besides coding, which is his real passion, he enjoys playing ping pong and swimming.
@@ -124,7 +128,7 @@
   github: "Imankitt"
 
 - id: Rakesh Pareek
-  bio: Rakesh Pareek is a Full Stack Automation Engineer at LoginRadius and have an experience in working in most of the QA  framework including mocha, nightwatch, selenium, cucumber.
+  bio: Rakesh Pareek is Lead QA Engineer at LoginRadius. A Full Stack Automation Engineer and have experience in working with most of the QA framework including mocha, nightwatch, selenium, cucumber.
   github: "rkpareek"
   stackoverflow: "4875077"
   linkedin: "rkpareek"
@@ -202,7 +206,7 @@
   github: "abhir9"
   stackoverflow: "4822703"
   twitter: "abhir96"
-  medium: "abhir95"
+  medium: "@abhir95"
   linkedin: "abhi-rathore"
 
 - id: Hridayesh Sharma
@@ -223,7 +227,7 @@
 
 - id: Akshaya Sharma
   bio: Akshaya Sharma is a Software Engineer at LoginRadius and loves to work on javascript and frameworks.
-  github: "akshay-s-770"
+  github: "akshay-js"
   linkedin: "akshay-sharma-770"
 
 - id: Anurag Choudhary
@@ -262,7 +266,7 @@
 
 - id: Shreya Sharma
   bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
-  github: "shreyaa-sharmaa"
+  github: "cypherean"
   linkedin: "shreyaa-sharma"
 
 - id: Akshay Avinash
@@ -450,3 +454,47 @@
   bio: Jitender Agarwal is the Implementation Engineering Manager at LoginRadius Inc. He’s responsible for our day-to-day operations, working with internal and external customers, and SaaS-based implementation projects for our customers.
   github: "Jitender8360"
   linkedin: "jitender-agarwal-a5023820"
+
+- id: "Max Sergeyenko"
+  github: "maxsergeyenko"
+
+- id: "Roshan Jangid"
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius.
+  github: "roshan-jangid"
+  linkedin: "roshan-jangid-140a35147"
+
+- id: "Solomon Esenyi"
+  bio: "Python Developer and Technical Writer with a passion for open-source, cryptography, and serverless technologies."
+  github: "LordGhostX"
+  linkedin: "solomon-esenyi"
+  twitter: "LordGhostX"
+
+- id: "Neha Vyas"
+  github: "nehavyasqa"
+
+- id: "Aayushi Sanghavi"
+  bio: "Aayushi Sanghavi is a Content Community Writer at G2, India. She has written on topics such as HR, Tech, and SaaS. You can find her reading, dancing, or brushing up on her communication skills in her free time."
+  linkedin: "aayushi-sanghavi"
+
+- id: "Saikiran Babladi"
+  bio: "Saikiran is the Senior Solutions Engineer at LoginRadius Inc. He interacts with prospective customers to understand their use-case/pain areas and provides a fit-for-purpose solution by delivering product demos and POC's."
+  linkedin: "saikiran-babladi-5287b665"
+
+- id: "Akash Patil"
+  bio: "Akash Patil, a graduate from BITS Pilani, is currently working as an Associate Software Engineer at LoginRadius. He has worked on projects in backend development and has an interest in learning new technologies and developer tools, especially in the field of Data Science."
+  github: "Akash-Patil"
+  linkedin: "akash-patil-100"
+
+- id: Raghunath Reddy
+
+- id: "Uma Victor"
+  bio: "I am a software developer based in Nigeria, familiar with a variety of different web technologies/frameworks and keen on always finding ways to explain things as simply as possible."
+  github: "uma-victor1"
+  twitter: "umavictor_"
+
+- id: Vishnu Chilamakuru
+  bio: Technology and startup enthusiastic. Learning to lead optimised life. I write about system design, databases, microservices, backend development, developer tools, life sciences & books I read
+  github: "vishnuchilamakuru"
+  linkedin: "vishnuchilamakuru"
+  medium: "@vishnuchi"
+  twitter: "vishnuchi"

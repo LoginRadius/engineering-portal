@@ -3,7 +3,7 @@ title: "React Context API: What is it and How it works?"
 date: "2020-10-07"
 coverImage: "react.jpg"
 author: "Eylon Ronen"
-tags: ["React", "Redux", "State Management", "React Hooks"]
+tags: ["React", "Redux", "Hooks"]
 description: "Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease. Let's see how to use it."
 ---
 

@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
+import { isMobile } from "react-device-detect"
 
 // Search component
 export default class Search extends Component {
@@ -50,21 +51,28 @@ export default class Search extends Component {
     document.body.removeEventListener("click", this.bodyClickHandler)
   }
 
-  render() {
+  renderContent = () => {
     const { results, toggleOpen } = this.state
     return (
       <div
-        className={`${headerStyles.searchWrapper} ${
-          results.length ? headerStyles.searchList : ""
-        }`}
+        className={`${headerStyles.searchWrapper} ${results.length ? headerStyles.searchList : ""
+          }`}
         onMouseOver={() => (this._shouldClose = false)}
         onMouseLeave={() => (this._shouldClose = true)}
       >
-        <input
+        {/* <input
           type="text"
           className={`${headerStyles.searchTerm}  ${
-            toggleOpen ? headerStyles.searchTermOpen : ""
+            toggleOpen || isMobile ? headerStyles.searchTermOpen : ""
           }`}
+          placeholder="Search..."
+          onChange={this.search}
+          id={"search"}
+        /> */}
+        <input
+          type="text"
+          className={`${headerStyles.searchTerm}  ${toggleOpen ? headerStyles.searchTermOpen : ""
+            }`}
           placeholder="Search..."
           onChange={this.search}
           id={"search"}
@@ -79,7 +87,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>
@@ -89,11 +97,14 @@ export default class Search extends Component {
       </div>
     )
   }
+  render() {
+    return this.renderContent()
+  }
   getOrCreateIndex = () =>
     this.index
       ? this.index
       : // Create an elastic lunr index and hydrate with graphql query results
-        Index.load(this.props.searchIndex)
+      Index.load(this.props.searchIndex)
 
   search = evt => {
     const query = evt.target.value

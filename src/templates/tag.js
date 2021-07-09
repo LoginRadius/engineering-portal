@@ -20,12 +20,12 @@ const Tags = ({ pageContext, data, location }) => {
         title={tag}
         description={`LoginRadius Engineering Blog - Posts related to ${tag}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
-        location={location.pathname}
+        pathname={location.pathname}
       />
       <main>
         <section>
           <div className="pt-80">
-            <h2 className="mb-0"> {tagHeader} </h2>
+            <h1 className="mb-0"> {tagHeader} </h1>
           </div>
         </section>
         <CardList posts={edges} />

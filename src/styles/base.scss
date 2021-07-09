@@ -34,7 +34,9 @@ ol {
   padding: 0 0 0 40px;
   margin-left: 0;
 }
-
+input[type="submit"] {
+  cursor: pointer;
+}
 h1,
 h2,
 h3,
@@ -48,9 +50,14 @@ h1 {
   margin-bottom: 30px;
   line-height: 48px;
   font-size: 40px;
+  @media (max-width: 767px) {
+    line-height: 40px;
+    font-size: 32px;
+  }
 }
 h2 {
-  margin-bottom: 30px;
+  margin-top: 48px;
+  margin-bottom: 24px;
   font-size: 32px;
   line-height: 40px;
 }
@@ -68,7 +75,7 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 1.5;
 }
 a {
   text-decoration: none;
@@ -91,21 +98,38 @@ ul {
 }
 .btn-primary {
   padding: 0 24px;
-  height: 56px;
+  height: 52px;
   border-radius: 4px;
   font-size: 20px;
-  font-weight: 600;
-  line-height: 56px;
+  font-weight: 700;
+  line-height: 52px;
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
-  background-color: $blue-bright;
+  cursor: pointer;
+  background-color: $cta;
   color: $white;
   text-align: center;
   display: block;
   white-space: nowrap;
   transition: all 0.3s;
   border: 0;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
+    box-shadow 0.35s, opacity 0.35s;
+  background-color: $cta;
+  color: $white;
+  border-color: $cta;
+  transition: 0.3s ease-in 0s;
+  background-size: 250% auto;
+  background-image: linear-gradient(
+    -85deg,
+    #f15e22 0%,
+    #f15e22 40%,
+    rgba(255, 255, 255, 0.2) 50%,
+    #f15e22 60%,
+    #f15e22 100%
+  );
+
   &.small {
     width: auto;
     height: 40px;
@@ -121,21 +145,30 @@ ul {
     }
   }
   &:hover {
-    box-shadow: 0 4px 10px rgba(20, 92, 133, 0.5);
+    background-color: $cta;
+    border-color: $cta;
+    transition: 0.3s ease-in 0s;
+    background-size: 250% auto;
+    background-position: right center;
+    background-image: linear-gradient(
+      -85deg,
+      #f15e22 0%,
+      #f15e22 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      #f15e22 60%,
+      #f15e22 100%
+    );
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
     color: $white;
-    transition: box-shadow 0.2s ease-in 0s, transform 0.2s ease-in 0s;
   }
 }
 
 .btn-cta {
   max-width: 400px;
   margin: 0 auto;
-  margin-top: 16px;
-  background: #f15e22;
-  color: $black;
+  margin-top: 32px;
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
@@ -173,6 +206,9 @@ ul {
     margin-bottom: 40px;
   }
 }
+.mb-48 {
+  margin-bottom: 48px;
+}
 .circle {
   border-radius: 100%;
 }
@@ -204,6 +240,9 @@ section {
     margin: 0 auto;
     padding: 0 24px;
     max-width: 1248px;
+    @media (max-width: 767px) {
+      padding: 0 16px;
+    }
     .grid-33 {
       display: flex;
       flex-wrap: wrap;
@@ -267,11 +306,11 @@ section {
   background-color: $gray-lightest;
 }
 .bs-md {
-  box-shadow: $bs-md;
+  //box-shadow: $bs-md;
   border-radius: 8px;
-  &:hover {
-    box-shadow: $bs-lg;
-  }
+  // &:hover {
+  //   box-shadow: $bs-lg;
+  // }
   img {
     border-radius: 8px;
   }
