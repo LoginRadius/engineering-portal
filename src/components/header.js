@@ -50,7 +50,7 @@ const Header = ({ menuLinks, searchIndex }) => {
       document.body.removeEventListener("click", bodyClickHandler)
     }
   }, [])
-  const subscribe = () => {
+  const subscribeSIB = () => {
     setNewsLetterSubscription({
       ...newsLetterSubscription,
       subscribeCall: true,
@@ -72,10 +72,10 @@ const Header = ({ menuLinks, searchIndex }) => {
       return
     }
 
-    let url = "https://app.sgwidget.com/v2/api/newsletter-signup"
+    let url = "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
     var data = new FormData()
-    data.append("email", newsLetterSubscription.subscribeEmail)
-    data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
+    data.append("EMAIL", newsLetterSubscription.subscribeEmail)
+    // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
     let xmlhttp = new XMLHttpRequest()
     xmlhttp.open("POST", url, true)
     xmlhttp.onload = function () {
@@ -105,13 +105,12 @@ const Header = ({ menuLinks, searchIndex }) => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-      </Helmet>
+      </Helmet> */}
       <div
-        className={`${headerStyles.sgResponse} ${
-          headerStyles[newsLetterSubscription.respClass]
-        } `}
+        className={`${headerStyles.sgResponse} ${headerStyles[newsLetterSubscription.respClass]
+          } `}
       >
         <div>{newsLetterSubscription.responseMsg}</div>
         <button
@@ -147,9 +146,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
-          headerStyles.header
-        }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
+          }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -174,18 +172,16 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <div className={headerStyles.bloglogoWrap}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${
-              headerStyles.allBlogsLogo
-            } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
+              } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${
-                ["async", ""].includes(blogType)
-                  ? headerStyles.active
-                  : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              className={`${["async", ""].includes(blogType)
+                ? headerStyles.active
+                : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -194,19 +190,17 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "async"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${blogType == "async"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${
-                blogType == "swi" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -215,11 +209,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "swi"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${blogType == "swi"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
@@ -235,9 +228,8 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${
-                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
@@ -246,11 +238,10 @@ const Header = ({ menuLinks, searchIndex }) => {
                 </div>
               </div>
               <div
-                className={`${
-                  blogType == "fuel"
-                    ? headerStyles.slideDesDown1
-                    : headerStyles.slideDesUp1
-                }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${blogType == "fuel"
+                  ? headerStyles.slideDesDown1
+                  : headerStyles.slideDesUp1
+                  }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
@@ -276,9 +267,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    className={`${
-                      link.class ? headerStyles[link.class] : ""
-                    } ga_event`}
+                    className={`${link.class ? headerStyles[link.class] : ""
+                      } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
@@ -290,7 +280,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           </nav>
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
-              {/* <div id="sg-widget-event">
+              <div id="sg-widget-event">
                 <form className="sg-widget">
                   <div className={headerStyles.formGroup}>
                     <input
@@ -314,14 +304,14 @@ const Header = ({ menuLinks, searchIndex }) => {
                         setNewsLetterSubscription.subscribeCall ||
                         !!setNewsLetterSubscription.subscribeEmail
                       }
-                      onClick={() => subscribe()}
+                      onClick={() => subscribeSIB()}
                       value="Subscribe"
                     />
                   </div>
                 </form>
-              </div> */}
+              </div>
 
-              <div className="sib-form">
+              {/* <div className="sib-form">
                 <div id="sib-form-container" className="sib-form-container">
                   <div id="error-message" className="sib-form-message-panel">
                     <div className="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -357,8 +347,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   >
                     <form
                       id="sib-form"
-                      method="POST"
-                      action="https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA"
+
                       data-type="subscription"
                     >
                       <div>
@@ -388,7 +377,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                           <button
                             className={`${headerStyles.navcta} ${headerStyles.sgSubmitBtn} btn-primary sib-form-block__button sib-form-block__button-with-loader`}
                             form="sib-form"
-                            type="submit"
+                            // type="submit"
+                            onClick={() => subscribeSIB()}
                           >
                             <svg
                               className="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
@@ -410,7 +400,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
