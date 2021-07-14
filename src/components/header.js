@@ -299,10 +299,8 @@ const Header = ({ menuLinks, searchIndex }) => {
                     <input
                       className={`${headerStyles.navcta} ${headerStyles.sgSubmitBtn} btn-primary`}
                       type="button"
-                      id="widget-1919"
                       disabled={
-                        setNewsLetterSubscription.subscribeCall ||
-                        !!setNewsLetterSubscription.subscribeEmail
+                        newsLetterSubscription.subscribeCall
                       }
                       onClick={() => subscribeSIB()}
                       value="Subscribe"

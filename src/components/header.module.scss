@@ -300,6 +300,12 @@
         &:hover {
           transform: scale(1);
         }
+        &:input[type=button]:disabled {
+          background-color: #eee;
+          border-width: 0;
+          color: #777;
+          cursor: not-allowed;
+        }
         @media (max-width: 1351px) {
           max-width: 100%;
           width: 145px;
