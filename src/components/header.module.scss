@@ -300,8 +300,8 @@
         &:hover {
           transform: scale(1);
         }
-        &:input[type=button]:disabled {
-          background-color: #eee;
+        &:disabled {
+          background: #eee;
           border-width: 0;
           color: #777;
           cursor: not-allowed;
