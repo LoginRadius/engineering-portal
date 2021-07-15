@@ -12,6 +12,8 @@ import Search from "./search"
 import ReactGA from "react-ga"
 import { validEmail } from "./regex.js"
 import Helmet from "react-helmet"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const logger = function (linkName, headerLink) {
   ReactGA.event({
@@ -28,6 +30,8 @@ const demologger = function () {
     label: "Live Demo",
   })
 }
+
+
 
 let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
@@ -50,6 +54,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       document.body.removeEventListener("click", bodyClickHandler)
     }
   }, [])
+
+
   const subscribeSIB = () => {
     setNewsLetterSubscription({
       ...newsLetterSubscription,
@@ -58,9 +64,11 @@ const Header = ({ menuLinks, searchIndex }) => {
     if (newsLetterSubscription.subscribeEmail == "") {
       setNewsLetterSubscription({
         ...newsLetterSubscription,
-        responseMsg: "The email field is required.",
+        responseMsg: "The email is a required field.",
         respClass: "error",
       })
+      let notify = () => toast.error("The email is a required field.");
+      notify();
       return
     }
     if (!validEmail.test(newsLetterSubscription.subscribeEmail)) {
@@ -69,6 +77,8 @@ const Header = ({ menuLinks, searchIndex }) => {
         responseMsg: "The email must be a valid email address.",
         respClass: "error",
       })
+      let notify = () => toast.error("The email must be a valid email address.");
+      notify();
       return
     }
 
@@ -86,18 +96,24 @@ const Header = ({ menuLinks, searchIndex }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
+        let notify = () => toast.success(resp.message);
+        notify();
       } else if (xmlhttp.status == 500) {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
           responseMsg: resp.message,
           respClass: "error",
         })
+        let notify = () => toast.error(resp.message);
+        notify();
       } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
           subscribeCall: false,
           respClass: "",
         })
+        let notify = () => toast.error("An error has occured, please try again!");
+        notify();
       }
     }
     xmlhttp.send(data)
@@ -108,7 +124,8 @@ const Header = ({ menuLinks, searchIndex }) => {
       {/* <Helmet>
         <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
       </Helmet> */}
-      <div
+      <ToastContainer style={{ fontSize: "15px" }} />
+      {/* <div
         className={`${headerStyles.sgResponse} ${headerStyles[newsLetterSubscription.respClass]
           } `}
       >
@@ -121,7 +138,8 @@ const Header = ({ menuLinks, searchIndex }) => {
           }
           class={`${headerStyles.closeIcon}`}
         ></button>
-      </div>
+        <ToastContainer />
+      </div> */}
       {!shouldClose ? (
         <div className={headerStyles.topStrip}>
           <p>
@@ -302,6 +320,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                       disabled={
                         newsLetterSubscription.subscribeCall
                       }
+
                       onClick={() => subscribeSIB()}
                       value="Subscribe"
                     />
