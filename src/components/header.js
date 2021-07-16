@@ -119,6 +119,13 @@ const Header = ({ menuLinks, searchIndex }) => {
     xmlhttp.send(data)
   }
 
+  const checkKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      subscribeSIB();
+    }
+
+  };
   return (
     <>
       {/* <Helmet>
@@ -299,7 +306,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
               <div id="sg-widget-event">
-                <form className="sg-widget">
+                <form className="sg-widget" onKeyDown={(e) => checkKeyDown(e)}>
                   <div className={headerStyles.formGroup}>
                     <input
                       className="sg_email required"
