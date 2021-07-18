@@ -93,11 +93,13 @@ const Header = ({ menuLinks, searchIndex }) => {
       if (xmlhttp.status == 200) {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
+          subscribeEmail: "",
           responseMsg: resp.message,
           respClass: "success",
         })
-        let notify = () => toast.success(resp.message);
+        let notify = () => toast.info(resp.message);
         notify();
+        document.getElementById("subscription-form").reset()
       } else if (xmlhttp.status == 500) {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
@@ -306,12 +308,13 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
               <div id="sg-widget-event">
-                <form className="sg-widget" onKeyDown={(e) => checkKeyDown(e)}>
+                <form className="sg-widget" id="subscription-form" onKeyDown={(e) => checkKeyDown(e)}>
                   <div className={headerStyles.formGroup}>
                     <input
                       className="sg_email required"
                       type="email"
                       name="sg_email"
+                      id="sg_email"
                       placeholder="you@example.com"
                       required="required"
                       onChange={e => {
