@@ -1,5 +1,5 @@
 ---
-title: "One Vision, Many Paths: Our Contribution to freeCodeCamp and Developer Community"
+title: "One Vision, Many Paths: How We’re Supporting freeCodeCamp"
 date: "2021-07-16"
 coverImage: "cover.png"
 author: "Raghunath Reddy"
@@ -7,7 +7,7 @@ tags: ["LoginRadius", "sponsorship", "freeCodeCamp"]
 description: "LoginRadius now supports the freeCodeCamp community through a sponsorship program. We also offer $200 credits to freeCodeCamp developers to help them rapidly implement world-class customer identity and access management in their applications."
 ---
 
-It is scientifically proven that helping others makes people happy. Probably nobody knows this better than the developer community around the world, which continues to amaze by contributing extensively to free and open source software.
+It is scientifically proven that helping others makes people happy. Probably no one knows this better than the developer community around the world, which continues to amaze by contributing extensively to free and open source software.
 
 And there is [freeCodeCamp](https://www.freecodecamp.org/) community, a nonprofit started in 2014 by [Quincy Larson](https://twitter.com/ossia). It has been helping thousands of aspiring developers learn web development and find their first software jobs. The community features a self-paced learning platform that helps learn various web technologies, including Bootstrap, D3, jQuery, and React, among many others.
 
@@ -25,3 +25,5 @@ This is indeed a moment of joy and pride for everyone at LoginRadius. We would l
 
 By the way, if you want to share your expertise with the developer community, please feel free to write for the LoginRadius Blog portal. We have an open for contributions policy so anyone around the world can [contribute](https://github.com/LoginRadius/engineering-portal/blob/master/CONTRIBUTING.md). Find more details on our public [GitHub repo](https://github.com/LoginRadius/engineering-portal).
 
+
+![Squad Goals](https://media.giphy.com/media/xUPGcGJJMFeAPhqrfi/giphy.gif)
