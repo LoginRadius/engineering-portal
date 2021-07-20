@@ -81,7 +81,7 @@ We will now create an Azure Web App instance with the permissions to access Azur
 
 2.  Select Web App from the list
 
-![](media/881710611150de6c542f6656de3b727e.png)
+![Create a new resource in Azure](media/881710611150de6c542f6656de3b727e.png)
 
 Figure 1
 
@@ -89,7 +89,7 @@ Figure 1
 
 2.  Mention the resource group and app service plan for your web app
 
-![](media/5624143e58bd0b77651c034c295db13c.png)
+![Create a Web App](media/5624143e58bd0b77651c034c295db13c.png)
 
 Figure 2
 
@@ -113,7 +113,7 @@ To enable the system-assigned managed identity for the Azure Web App we just cre
 3. Copy the Object ID that is available after a few seconds
 
 
-![](media/2e9e15c8ac1dfa31c0399b8d95112706.png)
+![Enable Managed Service Identity for your Web App](media/2e9e15c8ac1dfa31c0399b8d95112706.png)
 
 Figure 3
 
@@ -133,13 +133,13 @@ We'll now create an Azure Key Vault in the Azure Portal and then add a secret to
 
 4.  Click Create
 
-![](media/9216ad5fd03240b518e4facf1d4e7127.png)
+![Create a new Key Vault Instance in Azure](media/9216ad5fd03240b518e4facf1d4e7127.png)
 
 Figure 4
 
 5. In the Create key vault screen provide the name, subscription, resource group name, location and leave the other options to their default values.
 
-![](media/9af0907aec14ae465c57c97a6c4ec146.png)
+![Specify name, subscription, resource group name, and location for the Key Vault Instance](media/9af0907aec14ae465c57c97a6c4ec146.png)
 
 Figure 5
 
@@ -165,7 +165,7 @@ Now that a Key Value instance has been created, we'll add a secret to it and the
 
 7.  Click Create
 
-![](media/f0c25e31cb9de4940c50cf37bf04e26d.png)
+![Create a new Secret](media/f0c25e31cb9de4940c50cf37bf04e26d.png)
 
 Figure 6
 
@@ -188,7 +188,7 @@ To provide access to the secret we created, follow the steps mentioned below:
 
 7.  Click Save to persist the changes and complete the process
 
-![](media/20064fe32ee34d74ab431409b7b3fcf6.png)
+![Add Access Policy for the Key Vault](media/20064fe32ee34d74ab431409b7b3fcf6.png)
 
 Figure 7
 
@@ -203,7 +203,7 @@ First of all, you will create an ASP.NET Core 5 web application. The project typ
 3.  In the "Add a new project" window, choose "ASP.NET Core Web API" from the
     list of the project templates.
 
-![](media/68f5590f4a272da6dca010ff6f0bcfde.png)
+![Create a new project in Visual Studio](media/68f5590f4a272da6dca010ff6f0bcfde.png)
 
 Figure 8
 
@@ -215,7 +215,7 @@ Figure 8
 8. In the "Additional information" window, ensure that .NET 5.0 (current) is
    selected as the framework version.
 
-![](media/307b2784a56ac53e9fac3730a568c92d.png)
+![Specify additional information for the new ASP.NET Core 5 project](media/307b2784a56ac53e9fac3730a568c92d.png)
 
 Figure 9
 
@@ -420,19 +420,19 @@ To deploy the application, follow the steps mentioned below:
 
 3.  Select Azure as the target from the Publish window as shown below:
 
-![](media/8e627ca65b5d868ab7fca443032bc43c.png)
+![Deploy the application to Azure](media/8e627ca65b5d868ab7fca443032bc43c.png)
 
 Figure 10
 
 4. Select Azure App Service (Windows) as the specific target as shown below:
 
-![](media/f80e91e7daf51e89558a3e863ce72e2a.png)
+![Specify the Azure service to host your application](media/f80e91e7daf51e89558a3e863ce72e2a.png)
 
 Figure 11
 
 5. Specify, or associate the App Service instance with your application
 
-![](media/89177ae5689c32f917b8d609f07f8ecc.png)
+![Publish your application](media/89177ae5689c32f917b8d609f07f8ecc.png)
 
 Figure 12
 
@@ -442,7 +442,7 @@ Figure 12
 
 Lastly, you can use Postman to send a Http Get request to the endpoint to retrieve the stored secret as shown below:
 
-![](media/383d2af1fcf9e2a16f2960de147ca549.png)
+![Execute the application](media/383d2af1fcf9e2a16f2960de147ca549.png)
 
 Figure 13
 
