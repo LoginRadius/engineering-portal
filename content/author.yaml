@@ -486,7 +486,7 @@
   linkedin: "akash-patil-100"
 
 - id: Raghunath Reddy
-  bio: Raghunath is a technical content writer with a graduate degree in computer science. He is also a Conversion Rate Optimization (CRO) enthusiast and enjoys studying the English language.
+  bio: "Raghunath is a technical content writer with a graduate degree in computer science. He is also a Conversion Rate Optimization (CRO) enthusiast and enjoys studying the English language."
   github: "raghunath-r-a"
   linkedin: "raghunathreddyalla"
   twitter: "_raghunath"
@@ -504,4 +504,7 @@
   twitter: "vishnuchi"
 
 - id: Erkki Muuga
+  bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
+  linkedin: "erkkimuuga"
+  facebook: "erkki.muuga"
 
