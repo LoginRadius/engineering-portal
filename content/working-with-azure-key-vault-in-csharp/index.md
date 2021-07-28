@@ -1,6 +1,6 @@
 ```
 ---
-title: **Working with Azure Key Vault in C\#**
+title: "Working with Azure Key Vault in C\#"
 date: "2020-06-11"
 coverImage: "coverImage.png"
 author: "Joydip Kanjilal"
