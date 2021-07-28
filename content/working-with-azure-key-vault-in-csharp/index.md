@@ -1,18 +1,24 @@
 ```
 ---
-title: "Working with Azure Key Vault in C\#"
+title: "Working with Azure Key Vault in C#"
 date: "2020-06-11"
 coverImage: "coverImage.png"
 author: "Joydip Kanjilal"
 description: "An article that demonstrates how to work with Azure Key Vault in C#"
+tags: ["Azure","Key Vault","C#"]
 ---
 ```
 
 ## Introduction
 
-Azure Key Vault is a highly secure, dependable, and simple method to store your keys and secrets in the cloud. This article talks about Azure Key Vault, why it is useful, how to set up and configure it, and then shows how one can read a secret value stored inside it in C\#.
+Azure Key Vault is a highly secure, dependable, and simple method to store your keys and secrets in the cloud. This article talks about:
 
-We’ll follow the following steps to read a secret stored in an Azure Key Vault instance.
+- Azure Key Vault
+- Why it is useful?
+- How to set up and configure it?
+- How to read a secret value stored inside it in C#?
+
+We’ll use the following steps to read a secret stored in an Azure Key Vault instance.
 
 1.  Create a Web App in the Azure Portal
 
@@ -58,10 +64,9 @@ If you don't have an Azure account, you can create one for free here:
 
 ## What is Azure Key Vault?
 
-Azure Key Vault is a cloud service that enables you to store your application's secrets in a safe and secure place. You can keep the keys, passwords, certificates, and other secrets safely and securely. Azure Key Vault is a service that lets you store secrets and other sensitive configuration data for a particular application. You can take advantage of Azure Key Vault to set parameters shared among multiple applications, including applications running in App Service.
+Azure Key Vault is a cloud service that helps you store your application's secrets securely: You can store and manage the keys, passwords, certificates, and other secrets. You can also leverage Azure Key Vault to set parameters shared among multiple applications, including applications running in App Service.
 
-It enables you to isolate the sensitive and non-sensitive data in your application. For example, you can use application settings to store default parameters or key-value pairs containing some default settings used by the
-application. On the contrary, you can use Azure Key Vault to store API keys, secret keys, database connection strings, or Client IDs used in your application.
+It enables you to isolate the sensitive and non-sensitive data in your application. For example, you can use application settings to store default parameters or key-value pairs containing some default settings used by the application. On the contrary, you can use Azure Key Vault to store API keys, secret keys, database connection strings, or Client IDs used in your application.
 
 ## Understanding Managed Identity
 
