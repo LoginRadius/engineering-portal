@@ -1,9 +1,9 @@
 ---
 title: "Registration and Authentication in Django using LoginRadius"
-date: "2021-7-21"
+date: "2021-07-29"
 coverImage: "coverImage.png"
 author: "Taminoturoko Briggs"
-tags: "Django, Authentication, User Registration"
+tags: ["Django, Authentication, User Registration"]
 description: "In this tutorial, you will learn how to implement user registration and authentication in Django using LoginRadius"
 ---
 
