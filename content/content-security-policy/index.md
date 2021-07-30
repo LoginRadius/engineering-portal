@@ -80,7 +80,7 @@ Listed below are a couple of CSP directives and their use cases:
 **`connect-src`** specifies permitted origins for direct JavaScript connections that use EventSource, WebSocket, or XMLHttpRequest objects.
 
 You can find a more updated and complete list maintained by Mozilla here.
-Mozilla maintains a more up-to-date and comprehensive list, which can be seen [here]("https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP").
+Mozilla maintains a more up-to-date and comprehensive list, which can be seen [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 
 ## CSP Browser Compatibility
  All major modern browsers have supported Content Security Policy.
@@ -96,7 +96,7 @@ Mozilla maintains a more up-to-date and comprehensive list, which can be seen [h
  10. Opera Android
  11. Samsung Internet
 
-Mozilla maintains a more up-to-date and comprehensive list for the CSP support in the browser, which can be seen [here]("https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#browser_compatibility").
+Mozilla maintains a more up-to-date and comprehensive list for the CSP support in the browser, which can be seen [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#browser_compatibility).
 
 
 ## Common Use cases 
@@ -192,4 +192,4 @@ In the below sample HTML browser trying to download javascript from the other so
 ## Summary
 The Content Security Policy will add an additional layer of protection to your web application. CSP is compatible with almost all current browsers and is widely used on the internet as an effective technique for decreasing the threat of cross-site scripting attacks.
 
-The Web Application Security Working Group of the Wide Web Consortium (w3c has already begun work on the specification's next [version, Content Security Policy Level 3]("https://www.w3.org/TR/CSP3/") and Content Security Policy Level 2 already [Candidate Recommendation]("https://www.w3.org/TR/CSP2/").
+The Web Application Security Working Group of the Wide Web Consortium (w3c has already begun work on the specification's next [version, Content Security Policy Level 3](https://www.w3.org/TR/CSP3/) and Content Security Policy Level 2 already [Candidate Recommendation](https://www.w3.org/TR/CSP2/).

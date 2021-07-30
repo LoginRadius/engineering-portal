@@ -1,9 +1,9 @@
 ---
 title: "Registration and Authentication in Django using LoginRadius"
-date: "2021-7-21"
+date: "2021-07-29"
 coverImage: "coverImage.png"
 author: "Taminoturoko Briggs"
-tags: "Django, Authentication, User Registration"
+tags: ["Django, Authentication, User Registration"]
 description: "In this tutorial, you will learn how to implement user registration and authentication in Django using LoginRadius"
 ---
 
@@ -69,7 +69,7 @@ You will find your API key under the **API Key and Secret** subsection.
 
 **Whitelist your Domain**
 For security reasons, LoginRadius processes the API calls that are received from the whitelisted domains. 
-Local domains (http://localhost and http://127.0.0.1) are whitelisted by default. This means you don't have to worry about whitelisting your domain if you are running your application on Django's development server. But in a production environment, you definitely have to whitelist our domain.
+Local domains (`http://localhost` and `http://127.0.0.1`) are whitelisted by default. This means you don't have to worry about whitelisting your domain if you are running your application on Django's development server. But in a production environment, you definitely have to whitelist our domain.
 To whitelist your domain, in your LoginRadius Dashboard, navigate to [Configuration > Whitelist Your Domain](https://dashboard.loginradius.com/configuration) and add your domain name.
 
 ![Whitelist your domain](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849403941_Screenshot+41.png)
@@ -352,9 +352,9 @@ we used an `onclick` event on both the register and login buttons, which when cl
 
 NOTE: Don’t forget to replace the {APP_NAME} placeholder with your LoginRadius app name.
 
-Also, in the register and login link, we replaced the {RETURN_URL} parameter with http://127.0.0.1:8000/profile/, which is the user profile page you are going to create shortly.
+Also, in the register and login link, we replaced the {RETURN_URL} parameter with `http://127.0.0.1:8000/profile/`, which is the user profile page you are going to create shortly.
 
-Run the development server and open http://127.0.0.1:8000/, you will see a page like this:
+Run the development server and open `http://127.0.0.1:8000/`, you will see a page like this:
 
 ![Register and Login page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849064162_Screenshot+48.png)
 
