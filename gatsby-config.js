@@ -1,4 +1,5 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
+const getTimeToRead = require("./src/utils/timeToReadRss");
 
 module.exports = {
   siteMetadata: {
@@ -8,28 +9,40 @@ module.exports = {
       "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog/async",
-    image: "/engineering-blog.svg",
+    image: "/async.svg",
     owner: "LoginRadius",
     menuLinks: [
+      // {
+      //   name: "Developers",
+      //   slug: "https://www.loginradius.com/identity-experience-framework/",
+      // },
+      // {
+      //   name: "Docs",
+      //   slug: "https://www.loginradius.com/docs/developer",
+      // },
+      // {
+      //   name: "Our Blogs",
+      //   slug: "https://www.loginradius.com/blog/",
+      // },
       {
-        name: "Developers",
-        slug: "https://www.loginradius.com/identity-experience-framework/",
+        name: "SWI Blog",
+        slug: "https://www.loginradius.com/blog/start-with-identity/",
+        class: "swi",
       },
       {
-        name: "Docs",
-        slug: "https://www.loginradius.com/docs/developer",
-      },
-      {
-        name: "Our Blogs",
-        slug: "https://www.loginradius.com/blog/",
+        name: "FUEL Blog",
+        slug: "https://www.loginradius.com/blog/fuel/",
+        class: "fuel",
       },
       {
         name: "Open Source",
         slug: "https://www.loginradius.com/open-source/",
+        class: "opensource",
       },
       {
         name: "Write for Us",
         slug: "https://www.loginradius.com/blog/async/page/guest-blog",
+        class: "writeus",
       },
     ],
     footerLinks: [
@@ -74,10 +87,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-html-attributes',
+      resolve: "gatsby-plugin-html-attributes",
       options: {
-        lang: 'en'
-      }
+        lang: "en",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -218,11 +231,13 @@ module.exports = {
                   },
                   custom_elements: [
                     {
-                      "content:encoded": `<p> ${
-                        edge.node.frontmatter.description || edge.node.excerpt
-                      } </p> <br/>  <a href="${
-                        site.siteMetadata.feedUrl + edge.node.fields.slug
-                      }">Read On</a>`,
+                      "content:encoded": `<p> ${edge.node.frontmatter.description || edge.node.excerpt
+                        } </p> <br/>  <a href="${site.siteMetadata.feedUrl + edge.node.fields.slug
+                        }">Read On</a>`,
+                    },
+                    {
+
+                      timeToReadBlog: getTimeToRead(edge.node.html),
                     },
                     {
                       authorImage: edge.node.frontmatter.author.github
@@ -262,6 +277,8 @@ module.exports = {
                         }
                         tags
                       }
+                      timeToRead
+                      html
                     }
                   }
                 }

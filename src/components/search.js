@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
-import { isMobile } from "react-device-detect";
+import { isMobile } from "react-device-detect"
 
 // Search component
 export default class Search extends Component {
@@ -60,10 +60,18 @@ export default class Search extends Component {
         onMouseOver={() => (this._shouldClose = false)}
         onMouseLeave={() => (this._shouldClose = true)}
       >
-
+        {/* <input
+          type="text"
+          className={`${headerStyles.searchTerm}  ${
+            toggleOpen || isMobile ? headerStyles.searchTermOpen : ""
+          }`}
+          placeholder="Search..."
+          onChange={this.search}
+          id={"search"}
+        /> */}
         <input
           type="text"
-          className={`${headerStyles.searchTerm}  ${(toggleOpen || isMobile) ? headerStyles.searchTermOpen : ""
+          className={`${headerStyles.searchTerm}  ${toggleOpen ? headerStyles.searchTermOpen : ""
             }`}
           placeholder="Search..."
           onChange={this.search}
@@ -79,7 +87,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>
@@ -90,7 +98,7 @@ export default class Search extends Component {
     )
   }
   render() {
-    return this.renderContent();
+    return this.renderContent()
   }
   getOrCreateIndex = () =>
     this.index

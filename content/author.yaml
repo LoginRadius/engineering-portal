@@ -463,6 +463,12 @@
   github: "roshan-jangid"
   linkedin: "roshan-jangid-140a35147"
 
+- id: "Solomon Esenyi"
+  bio: "Python Developer and Technical Writer with a passion for open-source, cryptography, and serverless technologies."
+  github: "LordGhostX"
+  linkedin: "solomon-esenyi"
+  twitter: "LordGhostX"
+
 - id: "Neha Vyas"
   github: "nehavyasqa"
 
@@ -485,3 +491,16 @@
   bio: "I am a software developer based in Nigeria, familiar with a variety of different web technologies/frameworks and keen on always finding ways to explain things as simply as possible."
   github: "uma-victor1"
   twitter: "umavictor_"
+
+- id: Vishnu Chilamakuru
+  bio: Technology and startup enthusiastic. Learning to lead optimised life. I write about system design, databases, microservices, backend development, developer tools, life sciences & books I read
+  github: "vishnuchilamakuru"
+  linkedin: "vishnuchilamakuru"
+  medium: "@vishnuchi"
+  twitter: "vishnuchi"
+
+- id: Taminoturoko Briggs
+  bio: An enthusiastic software developer conversant with Python and JavaScript.
+  github: "tammibriggs"
+  stackoverflow: "15485047"
+  linkedin: "taminoturoko-briggs-b98251203"
