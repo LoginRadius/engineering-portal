@@ -229,7 +229,8 @@ const Post = ({ post, relatedPost }) => {
             <div className={styles.postContent}>
               <h2>Are your customers safe on your application?</h2>
               <p>
-                We have the world’s most secure user authentication solution starting at $0
+                We have the world’s most secure user authentication solution
+                starting at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
