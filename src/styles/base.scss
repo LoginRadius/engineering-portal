@@ -166,13 +166,14 @@ ul {
 }
 
 .btn-cta {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 300px;
   margin-top: 32px;
+  width: fit-content;
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
     font-size: 18px;
+    width: 100%;
   }
 }
 .mb-0 {
