@@ -13,7 +13,7 @@ LoginRadius allows you to configure your own SMTP email provider so you can mana
 
 ### Prerequisites
 
-* You must have a configured [Mailazy](https://mailazy.com) account. 
+* You must have a configured [Mailazy](https://mailazy.com) account.
 
 ### Configure Mailazy
 
@@ -32,7 +32,7 @@ Navigate to LoginRadius [Dashboard > Click Select & Configure > Configuration](h
 
 **Step 4:** Expand Email/SMS Provider Settings 
  1. Select SMTP Provider Settings and select `other` in SMTP Provider dropdown, Type From Name, From Address.
- 2. Type SMTP Host value `smtp.mailazy.com` and SMTP Port value `587` .
+ 2. Type SMTP Host value **smtp.mailazy.com** and SMTP Port value **587** .
  3. Paste generated API Key in SMTP User Name and API Secret in SMTP Password.
  4. Enable SSL.
 
