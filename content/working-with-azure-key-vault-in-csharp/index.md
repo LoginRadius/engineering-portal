@@ -18,7 +18,7 @@ Azure Key Vault is a highly secure, dependable, and simple method to store your 
 - How to set up and configure it?
 - How to read a secret value stored inside it in C#?
 
-We’ll use the following steps to read a secret stored in an Azure Key Vault instance.
+Use the following steps to read a secret stored in an Azure Key Vault instance.
 
 1.  Create a Web App in the Azure Portal
 
@@ -70,17 +70,17 @@ It enables you to isolate the sensitive and non-sensitive data in your applicati
 
 ## Understanding Managed Identity
 
-Managed identity is a concept that eliminates the need of having to store credentials once an application has been deployed to the cloud. By using managed identity, we can securely access a variety of Azure services without having to store any credentials like as connection strings or passwords. Managed identity may be used to connect to Key Vault from an Azure Function App or an Azure Web App, as well as to connect to Azure Blob Storage from an Azure Web App.
+Managed identity is a concept that eliminates the need of having to store credentials once an application has been deployed to the cloud. By using managed identity, you can securely access a variety of Azure services without having to store any credentials like as connection strings or passwords. Managed identity may be used to connect to Key Vault from an Azure Function App or an Azure Web App, as well as to connect to Azure Blob Storage from an Azure Web App.
 
 Managed identities are of the following two types:
 
--   System-assigned - this is activated directly on the Azure cloud service. For example, you can create a managed identity for your web app that will be automatically deleted once the web app instance is deleted. 
+-   System-assigned - this is activated directly on the Azure cloud service. For example, you can create a managed identity for your web app that will be automatically deleted once the web app instance is deleted
     
--   User-assigned - this is a stand-alone Azure resource that is created independent of the actual service instance. You can assign this identifier to one or more Azure resources simultaneously. As an example, you can set this identity to both an Azure Web App and an Azure Function at the same point in time.
+-   User-assigned - this is a stand-alone Azure resource that is created independent of the actual service instance. You can assign this identifier to one or more Azure resources simultaneously. As an example, you can set this identity to both an Azure Web App and an Azure Function at the same point in time
 
 ## Create a Web App in the Azure Portal
 
-We will now create an Azure Web App instance with the permissions to access Azure Key Vault. Adhere to the steps given below that would guide you to create a new Azure Web App instance while you’re within the Azure portal:
+You will now create an Azure Web App instance with the permissions to access Azure Key Vault. Adhere to the steps given below that would guide you to create a new Azure Web App instance while you’re within the Azure portal:
 
 1.  In the Azure Portal, click on "Create a resource" from the Home screen
 
@@ -102,8 +102,8 @@ Figure 2
 4. Specify .NET 5 as the Runtime stack
 5. Set the Operation system to Windows
 6. For the region, specify one that is closest to you
-7. You can let the other options their default values and then click on "Review + Create."
-8. Verify the configuration you've specified and if all is good, click "Create."
+7. You can let the other options their default values and then click on "Review + Create"
+8. Verify the configuration you've specified and if all is good, click "Create"
 
 Once the Web App has been created successfully, you'll be able to see it on the Home screen of the Azure Portal.
 
@@ -124,11 +124,11 @@ Figure 3
 
 ## Create and Configure Azure Key Vault
 
-In this section we’ll examine how we can create and configure an Azure key Vault instance.
+In this section you’ll examine how to create and configure an Azure key Vault instance.
 
 ### Create a new Azure Key Vault Instance
 
-We'll now create an Azure Key Vault in the Azure Portal and then add a secret to it. To create a new Azure Key Vault instance, navigate to the Azure Portal and follow the steps mentioned below:
+You'll now create an Azure Key Vault in the Azure Portal and then add a secret to it. To create a new Azure Key Vault instance, navigate to the Azure Portal and follow the steps below:
 
 1.  Select "Create a resource" in the Azure Portal menu or the Home page
 
@@ -154,7 +154,7 @@ Figure 5
 
 ### Create an App Secret in Azure Key Vault
 
-Now that a Key Value instance has been created, we'll add a secret to it and then make the secret accessible to the Azure Web App we created earlier. Follow the steps mentioned below to create a secret:
+Now that a Key Value instance has been created, you'll add a secret to it and then make the secret accessible to the Azure Web App we created earlier. Follow the steps below to create a secret:
 
 1.  Select Secrets from the Settings section of the Key Vault configuration page
 
@@ -174,9 +174,9 @@ Now that a Key Value instance has been created, we'll add a secret to it and the
 
 Figure 6
 
-### Authorize the Web App to access your Key Vault
+### Authorize the Web App to access Your Key Vault
 
-To provide access to the secret we created, follow the steps mentioned below:
+To provide access to the secret you created, follow the steps below:
 
 1.  Select Access policies from the Key Vault screen
 
@@ -201,12 +201,12 @@ Figure 7
 
 First of all, you will create an ASP.NET Core 5 web application. The project type comes bundled with all the template files to create a web application, even before you add something. Follow the steps given below to create a new ASP.NET Core Web application within the Visual Studio 2019 IDE.
 
-1.  Launch Visual Studio 2019.
+1.  Launch Visual Studio 2019
 
-2.  In the start window, choose "Create a new project."
+2.  In the start window, choose "Create a new project"
 
 3.  In the "Add a new project" window, choose "ASP.NET Core Web API" from the
-    list of the project templates.
+    list of the project templates
 
 ![Create a new project in Visual Studio](media/68f5590f4a272da6dca010ff6f0bcfde.png)
 
@@ -214,21 +214,19 @@ Figure 8
 
 4. Select C\# as the programming language from the Language list
 5. Click Next
-6. In the "Configure your new project" screen, enter the name and location of
-   the new project.
-7. Then, choose Next.
-8. In the "Additional information" window, ensure that .NET 5.0 (current) is
-   selected as the framework version.
+6. In the "Configure your new project" screen, enter the name and location of the new project
+7. Then, choose Next
+8. In the "Additional information" window, ensure that .NET 5.0 (current) is selected as the framework version
 
 ![Specify additional information for the new ASP.NET Core 5 project](media/307b2784a56ac53e9fac3730a568c92d.png)
 
 Figure 9
 
-1.  Since we'll not be using authentication, HTTPS or Docker, or OpenAPI, ensure that all these checkboxes are disabled.
+1.  Since you'll not be using authentication, HTTPS or Docker, or OpenAPI, ensure that all these checkboxes are disabled
     
-2.  Click Create to complete the process.
+2.  Click Create to complete the process
 
-A new ASP.NET 5 Core application will be created in Visual Studio.
+A new ASP.NET 5 Core application will be created in Visual Studio
 
 ### Install the NuGet Packages
 
@@ -242,11 +240,11 @@ You may install these packages in one of two ways: either via the NuGet Package 
 
 ### Read Azure Key Vault Secrets in .NET Core
 
-In this section we’ll examine how to read secrets from AzureKeyVault.
+In this section you’ll examine how to read secrets from AzureKeyVault.
 
 #### Specify the Vault Uri in AppSettings
 
-Create a section named KeyVault in the appsettings.json file and specify a key
+Create a section named KeyVault in the ``appsettings.json file and specify a key
 named VaultUri in there as shown below:
 
 `"KeyVault": {`
@@ -417,11 +415,11 @@ services.AddControllersWithViews();
 
 ## Deploy the Application to Azure
 
-To deploy the application, follow the steps mentioned below:
+To deploy the application, follow the steps below:
 
 1.  Right-click on the project in the Solution Explorer Window
 
-2.  Select Publish...
+2.  Select Publish
 
 3.  Select Azure as the target from the Publish window as shown below:
 
@@ -435,7 +433,7 @@ Figure 10
 
 Figure 11
 
-5. Specify, or associate the App Service instance with your application
+5. Specify, or associate, the App Service instance with your application
 
 ![Publish your application](media/89177ae5689c32f917b8d609f07f8ecc.png)
 
@@ -453,7 +451,7 @@ Figure 13
 
 ## Summary
 
-Azure key vault helps you to keep your application's secrets out of the application. You can use it to isolate secrets from your code files. These secrets include connection strings, API keys, environment variables, etc. You can take advantage of Azure Key Vault to keep secrets out of source control or out of your application in a centralized storage place. In this article we've taken advantage of a managed identity to connect an Azure web app in .NET to an Azure Key Vault and retrieve secret value from there.
+Azure key vault helps you to keep your application's secrets out of the application. You can use it to isolate secrets from your code files. These secrets include connection strings, API keys, environment variables, etc. You can take advantage of Azure Key Vault to keep secrets out of source control or out of your application in a centralized storage place. In this article, you've used managed identity to connect an Azure web app in .NET to an Azure Key Vault and retrieve secret value from there.
 
 The complete source code of the application discussed in this article can be found here:
 
