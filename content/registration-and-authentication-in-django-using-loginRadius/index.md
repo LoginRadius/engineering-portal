@@ -11,11 +11,12 @@ description: "In this tutorial, you will learn how to implement user registratio
 You should be familiar with Python and Django, a Python framework.
 
 ## Overview
-First, we briefly introduce LoginRadius, what it is. and some benefits of using it; then, will move over to see how to implement user registration and authentication in Django using LoginRadius.
+First, we briefly introduce LoginRadius, what it is, and some benefits of using it; then, will move over to see how to implement user registration and authentication in Django using LoginRadius.
 
 ## Introduction
 
 **What is LoginRadius?**
+
 LoginRadius is a SaaS-based CIAM platform. It offers simplified, robust features to manage customer identity, privacy, and access -- allowing developers and businesses to provide a seamless and secure digital experience for their customers.
 
 The developer-friendly CIAM provides a comprehensive set of APIs for registration, authentication, identity verification, single sign-on (SSO), and more.
@@ -57,6 +58,7 @@ This section covers:
 > You must have python installed, and the minimum supported version is 2.7.
 
 **Getting API Credentials**
+
 Before using any of the APIs that LoginRadius provides, you need to get your **App Name**, **API Key**, and **API Secret**.
 On your LoginRadius app, navigate to [Configuration > API Credentials](https://dashboard.loginradius.com/configuration)
 
@@ -68,6 +70,7 @@ You will find your API key under the **API Key and Secret** subsection.
 
 
 **Whitelist your Domain**
+
 For security reasons, LoginRadius processes the API calls that are received from the whitelisted domains. 
 Local domains (`http://localhost` and `http://127.0.0.1`) are whitelisted by default. This means you don't have to worry about whitelisting your domain if you are running your application on Django's development server. But in a production environment, you definitely have to whitelist our domain.
 To whitelist your domain, in your LoginRadius Dashboard, navigate to [Configuration > Whitelist Your Domain](https://dashboard.loginradius.com/configuration) and add your domain name.
@@ -76,6 +79,7 @@ To whitelist your domain, in your LoginRadius Dashboard, navigate to [Configurat
 
 
 **Installation of Dependencies**
+
 You need to install the LoginRadius Python SDK. It provides functionalities that allow Python programs to communicate with LoginRadius APIs.
 Open VS Code, PyCharm, or any other editor you use in general.
 In the terminal, type:
@@ -115,10 +119,13 @@ Here, the project name is **radiusAuth** and the app **radiusApp** but you can u
 You now have a **radiusAuth** project and **radiusApp** app setup.
 
 **Configure Project**
+
 You need to tell Django about the app you created and the location of the app's `urls.py` file. 
 First, let Django know the location of your app.
 In your **radiusAuth** project navigate to *radiusAuth/settings.py*, modify the `INSTALLED_APPS`:
-*radiusAuth/settings.py*
+
+`radiusAuth/settings.py`
+
 ```python
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -133,7 +140,8 @@ INSTALLED_APPS = [
 
 Once you have added it, go over to the `urls.py` file in the same directory, modify the `urlpatterns` and include the apps url location.
 
-*radiusAuth/urls.py*
+`radiusAuth/urls.py`
+
 ```python
 from django.contrib import admin
 from django.urls import path, include
@@ -143,7 +151,6 @@ urlpatterns = [
     path('', include('radiusApp.urls'))
 ]
 ```
-
 
 ## User Registration and Authentication
 
@@ -158,10 +165,10 @@ https://{APP_NAME}.hub.loginradius.com/auth.aspx?action=register&return_url={RET
 ```
 
 Login Page URL:
+
 ```plaintext
 https://{APP_NAME}.hub.loginradius.com/auth.aspx?action=login&return_url={RETURN_URL}
 ```
-
 
 - The APP_NAME parameter is your LoginRadius app name, which we mentioned in the [Get API Credentials](#) section.
 - The RETURN_URL parameter refers to the URL where the user should be redirected to upon successful authentication.
@@ -169,7 +176,9 @@ https://{APP_NAME}.hub.loginradius.com/auth.aspx?action=login&return_url={RETURN
 So, what you will do now is to create links or buttons that users can click to access these URLs.
 First, create a view that will be responsible for displaying your registration and login page.
 Edit the `views.py` file of the **radiusApp** application and add the following code:
-*radiusApp/views.py*
+
+`radiusApp/views.py`
+
 ```python
 from django.shortcuts import render
 
@@ -177,11 +186,12 @@ def register_n_login(request):
     return render(request, 'index.html')
 ```
 
-all this view does is render an HTML page as a response.
-Now, you need to add the URL pattern for this view.
+All this view does is render an HTML page as a response. Now, you need to add the URL pattern for this view.
 
 In the `urls.py` file of your **radiusApp** application, add the following code:
-*radiusApp/urls.py*
+
+`radiusApp/urls.py`
+
 ```python
 from django.urls import path
 from . import views
@@ -195,7 +205,9 @@ The `register_n_login` view can now be accessed by a URL. It's time to create a 
 
 Create a **static** directory and a `style.css` file in your app directory.
 Open your terminal and type the following command:
-*radiusAuth/radiusApp*
+
+`radiusAuth/radiusApp`
+
 ```plaintext
 $ mkdir static
 $ cd static
@@ -299,10 +311,14 @@ body{
 }
 ```
 
-Now, create the template for your `register_n_login` view
+Now, create the template for your `register_n_login` view.
+
 Create a **templates** directory and a `index.html` file in your app directory.
+
 Open your terminal and type the following command:
-*radiusAuth/radiusApp*
+
+`radiusAuth/radiusApp`
+
 ```plaintext
 $ mkdir templates
 $ cd templates
@@ -310,8 +326,10 @@ $ type nul > index.html
 ```
 
 Open the `index.html` file and add the following HTML
-*templates/index.html*
- ```html
+
+`templates/index.html`
+
+```html
 {% load static %}
  
  <!DOCTYPE html>
@@ -348,9 +366,9 @@ Open the `index.html` file and add the following HTML
  </html>
 ```
 
-we used an `onclick` event on both the register and login buttons, which when clicked changes the window's location to the [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx) register and login page respectively.
+We used an `onclick` event on both the register and login buttons, which when clicked changes the window's location to the [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx) register and login page respectively.
 
-NOTE: Don’t forget to replace the {APP_NAME} placeholder with your LoginRadius app name.
+**NOTE:** Don’t forget to replace the {APP_NAME} placeholder with your LoginRadius app name.
 
 Also, in the register and login link, we replaced the {RETURN_URL} parameter with `http://127.0.0.1:8000/profile/`, which is the user profile page you are going to create shortly.
 
@@ -358,27 +376,31 @@ Run the development server and open `http://127.0.0.1:8000/`, you will see a pag
 
 ![Register and Login page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849064162_Screenshot+48.png)
 
-
-Now when you click the register or login button, you will see a page like this:
+Now, when you click the register or login button, you will see a page like this:
 
 ![Auth page (IDX)](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849029873_Screenshot+46.png)
 
 > When LoginRadius successfully authenticates a user, it attaches an access token in the query string as a token parameter to the REDIRECT_URL.
 
-
 ## Retrieve User Data using Access Token
 In this section, you are going to retrieve the authenticated user data using access token. But first you need to initialize LoingRadius SDK with your API_KEY and API_SECRET.
 
 **Intializing LoginRadius SDK**
+
 Create a new `config.py` file in your **radiusApp** directory.
+
 Open your terminal and type this command:
-*radiusAuth/radiusApp*
+
+`radiusAuth/radiusApp`
+
 ```plaintext
 $ type nul > config.py
 ```
 
 Open the `config.py` file and add the following lines of code:
-*radiusApp/config.py*
+
+`radiusApp/config.py`
+
 ```python
 from LoginRadius import LoginRadius as LR
 
@@ -390,8 +412,11 @@ loginradius = LR()
 Replace API_KEY and API_SECRET with your respective LoginRadius API credentials.
 
 Now, create the view that will be responsible for retrieving user data.
+
 Open the `views.py` file in your **radiusApp** directory and add the following lines of code:
-*radiusApp/views.py*
+
+`radiusApp/views.py`
+
 ```python
 from django.shortcuts import render, redirect
 from django.http.response import HttpResponse
@@ -414,18 +439,21 @@ def profile(request):
 ```
 
 In this code snippet, we imported the initialized LoginRadius class from the `config.py` file and also imported `redirect` and `HttpResponse` from there respective modules.
+
 We also introduced a new function called `profile`. In this function we did the following:
 
 - We first checked if there is a token parameter attached to the request. If true,
 - We created a `try` and `except` block. In the `try` block we used the `authentication.get_profile_by_access_token` method to retrieve the user data from the access token and assigned it to a variable called `user_data` while in the `except` block we returned a HttpResponse of the error that occurred if the `try` block fails.
-- If the `try` block successfully retrieved the user's data, we rendered a *profile.html* page, and also attached the `user_data` variable to the response.
+- If the `try` block successfully retrieved the user's data, we rendered a `profile.html` page, and also attached the `user_data` variable to the response.
 - Else, if there is no token parameter attached to the request, we redirect the user back to the registration and login page.
 
 Now, add the URL pattern and also create a template for your views.
 
 Modify the `urls.py` file in the **radiusApp** directory.
-*radiusApp/urls.py*
- ```python
+
+`radiusApp/urls.py`
+
+```python
 urlpatterns = [
     #...
      path('profile/', views.profile, name="profile")
@@ -435,14 +463,18 @@ urlpatterns = [
 Head over to the **templates** directory in the **radiusApp** directory and create a `profile.html` file.
 
 In the termainal type:
-*radiusApp/templates*
+
+`radiusApp/templates`
+
 ```plaintext
 $ type nul > profile.html
 ```
 
 Open your `profile.html` file and add the following HTML code:
-*templates/profile.html*
- ```html
+
+`templates/profile.html`
+
+```html
 {% load static %}
  
  <!DOCTYPE html>
@@ -480,12 +512,14 @@ Open your `profile.html` file and add the following HTML code:
 ```
 
 Here we displayed the Provider, Email and NoOfLogins from the `user_data`. These are just some of the data present in the `user_data`.
+
 Now, if you run your development server, and then register and login a user, you should see a page like this:
 
 ![Profile page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626848979749_Screenshot+51.png)
 
 
 To see the entire data present in the `user_data`, you can do something like this in your `profile.html`, file:
+
 ```html
 {% load static %}
 
