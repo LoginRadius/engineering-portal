@@ -1,7 +1,7 @@
 ---
 title: "Configure Mailazy as External SMTP Email Provider"
 date: "2021-08-05"
-coverImage: "banner.png"
+coverImage: "banner.jpg"
 author: "Kunal"
 tags: ["SMTP", "Email", "Transactional Email", "LoginRadius", "Mailazy"]
 description: "A guide to configure LoginRadius to send out authentication emails with Mailazy."
