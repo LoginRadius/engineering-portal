@@ -1,7 +1,7 @@
 ---
 title: "Working with Azure Key Vault in C#"
 date: "2020-06-11"
-coverImage: "coverImage.png"
+coverImage: "image.png"
 author: "Joydip Kanjilal"
 tags: ["Azure","Key Vault","C#"]
 description: "In this tutorial, you'll learn how to work with Azure Key Vault in C#"
