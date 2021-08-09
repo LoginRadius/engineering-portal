@@ -300,6 +300,12 @@
         &:hover {
           transform: scale(1);
         }
+        &:disabled {
+          background: #eee;
+          border-width: 0;
+          color: #777;
+          cursor: not-allowed;
+        }
         @media (max-width: 1351px) {
           max-width: 100%;
           width: 145px;
@@ -743,4 +749,8 @@
       top: calc(50% - 9px);
     }
   }
+}
+
+.font-resize {
+  font-size: 15px;
 }
