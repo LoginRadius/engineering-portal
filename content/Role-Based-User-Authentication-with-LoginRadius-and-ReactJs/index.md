@@ -1,6 +1,6 @@
 ---
 title: "Role Based User Authentication with LoginRadius and ReactJS"
-date: "2021-07-26"
+date: "2021-08-09"
 coverImage: "coverImage.png"
 author: "Victory Tuduo"
 description: "This is an article that illustrates user authentication and role assignment using LoginRadius and ReactJS"
