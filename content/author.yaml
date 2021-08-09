@@ -502,7 +502,7 @@
   linkedin: "vishnuchilamakuru"
   medium: "@vishnuchi"
   twitter: "vishnuchi"
-  
+
 - id: Erkki Muuga
   bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
   linkedin: "erkkimuuga"
@@ -513,8 +513,3 @@
   github: "tammibriggs"
   stackoverflow: "15485047"
   linkedin: "taminoturoko-briggs-b98251203"
-
-- id: "Victory Tuduo"
-  bio: "I am a Software Developer versatile with React.Js and front-end web developer."
-  github: "Victory-ET"
-  linkedin: "tuduo-victory-7ba4641a4"
