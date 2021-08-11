@@ -2,7 +2,7 @@
 
 Here are some guidelines that you must follow while writing the blog for the engineering portal:
 
-1. First of all create a directory in `blog` under `content` directory The name of the directory will be the path of your blog.
+1. First of all create a directory in `blog` under `content/guest-post` directory The name of the directory will be the path of your blog.
 2. Add an `index.md` file and write your blog in it. Any relevant images used in the blog should be placed in the same directory as `index.md`.
 3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
 4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
