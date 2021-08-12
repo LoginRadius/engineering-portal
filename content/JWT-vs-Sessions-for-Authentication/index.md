@@ -16,7 +16,7 @@ description: "A tutorial pointing out the differences between JWT vs Sessions an
 
 ## Goals
 
-In this tutorial, we will deep dive into the differences in using sessions and JSON web tokens for authentication, how serverside session store works, the advantages of sessions over JWT, and other things that concern the structure of JWT.
+In this tutorial, we will deep dive into the differences in using sessions and JSON web tokens for authentication, how serverside session store works, the advantages of sessions over JWT, the advantages of using JWT and other things that concern the structure of JWT.
 
 ## Should we use JWT or sessions?
 
@@ -25,7 +25,7 @@ Deciding to choose between JWT or session is not as simple as choosing one over 
 
 ## Comparing both JWT and Sessions
 
-Let's start with why you might prefer sessions over JWT and how server-side sessions with a session store work
+Let's start with how server-side sessions with a session store work, then we look at how client-side sessions with JWT work.
 
 ![](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628279671087_How+sessions+work.png)
 
@@ -55,6 +55,10 @@ With Sessions, logging out that one particular customer won’t be a problem at 
 
 When using server-side sessions, you do not know who is currently logged into your application as this can be useful to inflict the history of what a person is currently doing. It’s a better idea to use sessions in industries like health care, banking, insurance, or companies that deal with money. It's also good to note that JWT is signed and anyone can read it or get an idea of how data or ID is structured, or how many rows data has, which is not the case for sessions as the data is not visible to users.
 
+## Bandwidth Consumption
+
+Session cookies take up very little bandwidth, whereas the bandwidth consumption will be a little bit higher for the JWT based approach because the tokens tend to get bigger and you have the signature you have to send along for each follow up request, whereas if you have the session cookie, it's really small because its just the session ID that is being sent over.
+
 ## Revoking roles and privileges in JWT and session-based systems
 
 A lot of breaches that happen in companies is a result of an internal breach from an employee or insider that is stealing data or doing weird things. It is really important to be able to revoke privileges immediately. Imagine a scenario where one guy is locked in and he has admin rights and let's say the token is valid for like 10 minutes or so. If for whatever reason you don't want that person to have admin privileges anymore, you can easily revoke the person's access if you use sessions, but might find it difficult if you use JSON web tokens.
@@ -75,7 +79,7 @@ One of the downsides of the sessions is their maintainability, as the sessions n
 ## Multiple Platforms and Domain
 
 When using sessions in our applications, there will come a time when we will need to scale or expand our data for it to be used on multiple devices. Then we will need to worry about things like cross-origin resource sharing or even forbidden requests.
-But with JWT, we don't have to bother about cors as we can provide data to all sorts of devices and applications. Setting up a quick header configuration gets rid of any CORS problem we would have encountered
+But with JWT, we don't have to bother about CORS as we can provide data to all sorts of devices and applications. Setting up a quick header configuration gets rid of any CORS problem we would have encountered
 
     Access-Control-Allow-Origin: *
 
@@ -84,10 +88,6 @@ As long as a valid user has a valid token, data and resources are made available
 ## Platform Independent
 
 We can easily allow selective permissions for third-party applications with the help of JWT. Let’s say we build an application that we will like to share permissions with other applications, for instance sharing a video you watched on Facebook to friends on Instagram. We can also get creative building APIs that hand our special tokens to other applications so that user data can be accessed.
-
-## Bandwidth Consumption
-
-The bandwidth consumption will be a little bit higher for the JWT based approach because the tokens tend to get bigger and you have the signature you have to send along for each follow up request, where as if you have the session cookie, it's really small because its just the session ID.
 
 ## Attacking JWTs vs session-based authentication
 
