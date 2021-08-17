@@ -176,14 +176,21 @@ const Header = ({ menuLinks, searchIndex }) => {
         className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
           }`}
       >
-        <Link className={headerStyles.logo} to={"/"}>
-          <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
+
+
+        <a className={[headerStyles.logo, headerStyles.lrLogo].join(' ')} href='https://www.loginradius.com/'>
+          <img src={LogoLr} alt="LR Logo" className={headerStyles.lrLogo} />
+        </a>
+
+        <Link className={[headerStyles.logo, headerStyles.asycnLogo].join(' ')} to={"/"}>
           <img
             src={logoAsyncDark}
             alt="Async"
-            className={headerStyles.asycnLogo}
           />
         </Link>
+
+
+
         <input
           type="checkbox"
           id={headerStyles.navCheck}
