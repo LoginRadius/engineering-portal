@@ -179,7 +179,7 @@ const Header = ({ menuLinks, searchIndex }) => {
 
 
         <a className={[headerStyles.logo, headerStyles.lrLogo].join(' ')} href='https://www.loginradius.com/'>
-          <img src={LogoLr} alt="LR Logo" className={headerStyles.lrLogo} />
+          <img src={LogoLr} alt="LR Logo" />
         </a>
 
         <Link className={[headerStyles.logo, headerStyles.asycnLogo].join(' ')} to={"/"}>
