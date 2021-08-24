@@ -1,5 +1,5 @@
 ---
-title: "How to Authetucate Users: JWT vs. Session"
+title: "How to Authenticate Users: JWT vs. Session"
 date: "2021-08-17"
 coverImage: "ArticleHead.jpeg"
 author: "Uma Victor"
