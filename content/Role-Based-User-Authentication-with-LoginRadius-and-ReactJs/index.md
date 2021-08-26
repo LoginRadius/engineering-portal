@@ -1,84 +1,71 @@
 ---
-title: "Role Based User Authentication with LoginRadius and ReactJS"
-date: "2021-08-09"
+title: "How to Implement Role-Based User Authentication in React Apps"
+date: "2021-09-01"
 coverImage: "coverImage.png"
 author: "Victory Tuduo"
-description: "This is an article that illustrates user authentication and role assignment using LoginRadius and ReactJS"
-Tags: "Authentication, React"
+description: "This tutorial illustrates how to perform user authentication and assign roles to the users in React apps using LoginRadius."
+Tags: "Authentication, React, User Roles"
 ---
 
-# Role Based User Authentication with LoginRadius and ReactJS
+In modern websites that serve different kinds of users, there is a need to create a distinction between users to determine what kind of privileges are assigned to them. You can achieve this with authentication. Through authentication, we validate user specific credentials to determine if the user is genuine and then assign a specific role, which could be a simple client or administrator access, for example.
 
-![](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627316877077_cover+image.png)
-
-
-In this tutorial, we will learn how to perform user authentication and role assignment to these users using LoginRadius and ReactJS.
-
-
-> In modern websites today that attend to different kinds of users, there is a need to create a distinction between our users to determine what kind of privileges are assigned to them. We would achieve this by a method called Authentication. Through authentication, we validate certain credentials inputted by our users to determine if the user is genuine and then assign a specific role which could be a simple client or an administrator to that user.
-> User Authentication is usually carried out through the use of third-party software. In this tutorial, we would carry out user authentication and role assignment using the LoginRadius API with our ReactJS application.
-
+User authentication is usually carried out through the use of  a trusted third-party customer identity and access management (CIAM) software. This tutorial uses LoginRadius API to carry out user authentication and role assignment in a React application.
 
 ## Prerequisites
 
-knowledge of ReactJS is required to make use of this tutorial. Also, you should have the node package manager or yarn installed on your pc.
-
+You should know React to be able to follow this tutorial. Also, you should have the node package manager or yarn installed on your PC.
 
 ## Overview
 
-First, we will be installing the [LoginRadius React SDK](https://www.npmjs.com/package/loginradius-react). We will then configure it to provide authentication and role assignment for use within our React application.
-
+First, you need to install the [LoginRadius React SDK](https://www.npmjs.com/package/loginradius-react). You can then configure it to provide authentication and role assignment for use within your React application.
 
 ## Introduction
+### What is LoginRadius?
+According to its docs, "[LoginRadius](https://www.loginradius.com/docs/api/v2/getting-started/introduction/) is a SaaS-based customer identity and access management (CIAM) system with features to manage customer identity, privacy, and access. It is a simple, implementable solution for adding user authentication and authorization to your website".
 
-### What is LoginRadius
-According to its docs, "[LoginRadius](https://www.loginradius.com/docs/api/v2/getting-started/introduction/) is a SaaS-based Customer Identity and Access Management system(CIAM) with features to manage customer identity, privacy, and access. It is a simple implementable solution for adding user authentication and authorization to your website".
- LoginRadius has features to add different login authentication options including email, phone, and social network logins such as Google and Facebook. It also provides security on these data. Some of its security features it offers includes:
+LoginRadius has features to add different login authentication options, including email, phone, and social network logins, such as Google and Facebook. It also provides security on these data. Some security features it offers include:
 
-- Accessing the Admin Console: this is generally where we can control authentication factors regarding our apps.
-- Using API Secret: A unique generated key to access our API.
-- Multi-Factor Authentication (two-factor authentication)
-- SSL verification
+- **Accessing the Admin Console:** This is generally where we can control authentication factors regarding our apps.
+- **Using API Secret:** A unique generated key to access our API.
+- **Multi-Factor Authentication:** This features covers two-factor authentication.
+- **SSL Verification**
 
-LoginRadius comes with different SDKs support for different frameworks. One of them is the [LoginRadius ReactJS SDK](https://github.com/LoginRadius/loginradius-react) which allows us to add authentication within our React app.
-
+LoginRadius comes with different SDKs to support different frameworks. One of them is the [LoginRadius ReactJS SDK](https://github.com/LoginRadius/loginradius-react), which allows you to add authentication within your React app.
 
 ## Getting Started
-
 ### Creating a LoginRadius Account
-First, we would be [creating a LoginRadius account](https://accounts.loginradius.com/auth.aspx?action=register) with a "Developer Pro plan selected" instead of the free plan. This is to be able to provide role management which is only accessible to the developer pro plan. You will get a page requesting you to create a new application. Click on create a new application.
+First, you need to [create a LoginRadius account](https://accounts.loginradius.com/auth.aspx?action=register) with a Developer Pro plan selected instead of the free plan. This is to be able to access role management features, which are only available in the Developer Pro plan. 
 
-After which a page comes up where you are to enter the name of your app and the URL to your app. Input any name and URL of your choice.
-
+You'll get a page requesting you to create a new application. Click on "create a new application". After which, a page comes up where you should enter the name of your app and the URL to your app. Here, Input any name and URL of your choice.
 
 ![Naming App](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245515754_Screenshot+97.png)
 
-
-## Auth page(IDX)
-LoginRadius allows you to create a custom login page(an auth page that can be customized from our dashboard) which you can then preview. This is a page provided by LoginRadius which can be easily customized to contain different form contents. Features like user log in, signup, email, and password have already been implemented on this page. We will be using this page for registration and authentication with our react application. To learn more on how to customize this page to contain more form contents refer to [customizing Auth page.](https://www.loginradius.com/docs/developer/guide/customize-auth-page)
-
+## Auth Page (IDX)
+LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with your react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/docs/developer/guide/customize-auth-page)
 
 ![A preview of my Auth page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245718848_Screenshot+100.png)
 
+To be able to use user roles within your app, you first have to set up these roles and their respective privileges from the dashboard. In this tutorial, you'll set up two roles namely: Admin and Client. 
 
-To be able to use user roles within our app we first have to set up these roles and their respective privileges from our dashboard. In this tutorial, we will set up two roles namely: Admin and client roles. To set up roles navigate to your dashboard, click on user management. Click on manage roles and click on add roles. A popup opens in this popup we add the role name and in the permission tab add what permissions that role should have. For this tutorial we have added a client role with a permission called view and an admin role with permissions: view, edit, delete. Enable set as default for the client role to automatically assign the role of client to any user in our app by default.
+To set up roles, navigate to your dashboard, click on "user management". 
 
+Click on "manage roles" and click on "add roles". A popup opens in which you add the role name, and in the permission tab. add what permissions that role should have. 
+
+This tutorial has added a "client" role with a permission called "view" and an "admin" role with permissions: "view, edit, delete". Enable "set as default" for the client role to automatically assign the role of client to any user in our app by default.
 
 ![Role Creation](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245829693_Screenshot+101.png)
 
+## Integrate LoginRadius into ReactJS
+### Creating a React application
+To build your application, you'll be using the command line interface (CLI) with `create-react-app`
 
-
-## Integrating LoginRadius into ReactJS
-
-### Creating a ReactJS application
-To build our application we will be using the Command Line Interface with the Create React App.
 For node users:
 
-   ```powershell
+```powershell
 npx create-react-app {project name}
 ```
 
-Alternatively, if you are using yarn, write:
+Alternatively, if you're using yarn, write:
 
 ```powershell
 yarn add create-react-app {project name}
@@ -91,7 +78,8 @@ cd {project name}
 ```
 
 ## Configuring LoginRadius for React
-Next, we will install the LoginRadius react dependency using the CLI:
+Next, you'll install the LoginRadius React dependency using the CLI:
+
 For node users:
 
 ```powershell
@@ -104,8 +92,9 @@ yarn:
 yarn add loginradius-react
 ```
 
-To use the react-router components we would have to install the `react-router-dom` using our command line. Run the following code to achieve this:
-for node:
+To use the react-router components, you need to install `react-router-dom` using CLI. Run the following code to achieve this:
+
+For node:
 
 ```powershell
 npm install react-router-dom
@@ -117,7 +106,7 @@ yarn:
 yarn add react-router-dom
 ```
 
-Setup a .env file in the root directory with the following details:
+Setup a `.env` file in the root directory with the following details:
 
 ```powershell
 REACT_APP_LR_APP_NAME={app name}
@@ -127,12 +116,10 @@ REACT_APP_SECRET={your secret key}
 
 You can find the keys required above in your dashboard within user Configuration, API key and secret.
 
-
 ## Building our Login Components
+The Auth Page(IDX) is a web page created for you that reflects the configurations you create in our dashboard. You'll utilize this page as the login and signup page within your app and set up routes to route users to a different page based on their roles.
 
-The Auth Page(IDX) is a web page created for us that reflects the configurations we make in our dashboard. We will utilize this page as our login and signup page within our app and set up routes to route users to a different page based on their roles.
-
-Go to the index.js file and add:
+Go to the `index.js` file and add:
 
 ```javascript
 import React from "react";
@@ -154,9 +141,11 @@ document.getElementById("root")
 );
 ```
  
-In the above code we made imports for required modules, set up our `LRAuthProvider` component with parameters `appname` and `apikeys` from our .env file, and also made our redirect URI. in this case, it is equal to our current `window.location.origin` which is the URL of the webpage and in this case is our localhost. Localhosts are whitelisted by default if you are building your app using a hosted site you have to whitelist the URL in your dashboard. The entry component in our code is set to the `App` component.
+In the above code, you made imports for required modules, set up your `LRAuthProvider` component with parameters `appname` and `apikeys` from your `.env` file; and also created your redirect URI. In this case, it is equal to your current `window.location.origin`, which is the URL of the webpage -- in this case, it is our localhost.
 
-In our `App.js` component add the following code:
+Localhosts are whitelisted by default. If you're building your app using a hosted site, you have to whitelist the URL in your dashboard. The entry component in the code is set to the `App` component.
+
+In the `App.js` component, add the following code:
 
 ```javascript
 import React from 'react';
@@ -190,9 +179,9 @@ return (
 export default App;
 ```
 
- Here we set up our routes using the  `Browser routes`, `Switch`, and `Route` components imported from the `react-router-dom` module. The path to our home page is blank ("/"). It displays the text Application home.  It runs a `Auth` component which was earlier imported. A second route is made for a second page with a path of "/login" which runs the `CallAPI` component on the new page.
+Here, you've set up your routes using `Browser routes`, `Switch`, and `Route` components imported from the `react-router-dom` module. The path to your home page is blank ("/"). It displays the text Application home.  It runs a `Auth` component that was earlier imported. A second route is made for a second page with a path of "/login" that runs the `CallAPI` component on the new page.
 
-We will then create a page that will serve as the landing page for our site. To do this create a `Landing.js` file in your `src` folder and input the following code:
+You'll then create a page that will serve as the landing page for your site. To do this, create a `Landing.js` file in your `src` folder and input the following code:
 
  ```javascript
 import { useLRAuth } from "loginradius-react";
@@ -218,9 +207,9 @@ import { useLRAuth } from "loginradius-react";
  export default Auth;
 ```
 
-In the code written above, we made use of `loginWithRedirect`, `loginWithPopup`, and `logout` authentication methods from the `useLRAuth` hook in our components to set up our authentication flow within our react application. We can also get access to the authentication state using `isAuthenticated`. The `isAuthenticated` method is used to check if our user is already logged into the app, it returns true and displays a `log out` button which is connected to a logout function. Else if it returns false it displays a `Login/Register` button which when clicked is set up to redirect us to the path "/login". The loginWithRedirect() and logout() methods make use of the Auth Page(IDX), where Registration and Login functionality is already implemented to perform these tasks.
+In the code written above, you've used `loginWithRedirect`, `loginWithPopup`, and `logout` authentication methods from the `useLRAuth` hook in your components to set up the authentication flow within your React application. You can also get access to the authentication state using `isAuthenticated`. The `isAuthenticated` method is used to check if the user is already logged into the app; it true, it returns true and displays a `log out` button that is connected to a logout function. Else, it returns false and displays a `Login/Register` button, which when clicked is set up to redirect to the path `/login`. The `loginWithRedirect()` and `logout()` methods use the Auth Page (IDX), where registration and login functionality is already implemented to perform these tasks.
 
-We can style our button to make it easier to see by adding the following code within our App.css file:
+You can style the button to make it easier to see by adding the following code within your `App.css` file:
 
 ```css
 //for our login button on our landing page 
@@ -242,12 +231,10 @@ span{
 }
 ```
 
-
 ## Using the LoginRadius API
+As an additional feature, you can use the LoginRadius React SDK to access the API to get parameters that are assigned upon logging in using the login form. You can use this method to check if an user is a client or administrator. Whenever a user creates an account using the form, the user is assigned a unique user-id called `Uid`, which you can view in your dashboard under "manage users". You can reference this user id to determine your users’ roles. To do this, you need to fetch and return the `Uid` of the current user. The fetch request for the user role requires the `Uid` and your `app secret key` as parameters within the URL.
 
-As an additional feature, we can use the LoginRadius react SDK to access the API to get parameters that are assigned upon logging in using the login form. We will use this method to check if our user is a client or administrator. Whenever a user creates an account using the form they are assigned a unique user-id called `Uid` which we can view in our dashboard under manage users. We will reference this user id to determine our user’s roles. To do this we will need to fetch and return the uid of the current user. The fetch request for the user role requires the `Uid` and your `app secret key` as parameters within the URL.
-
-Within your `src` folder create a file name `return.js` and populate it with the following code:
+In your `src` folder, create a file name `return.js`, and populate it with the following code:
 
 ```javascript
 import React, { useEffect, useState } from "react";
@@ -286,40 +273,36 @@ export default withAuthenticationRequired(CallAPI, {
 });
 ```
 
-Here, within our `CallAPI` component, we used `usestate` hook to create two states `resp` and `setResp`  to check if we have received a response from our API. A constant `user` was made to use the `LAuth` method to get the current user data and then the next line gets the id of the current user. The `useeffect` react hook which runs after the render contains an asynchronous function that is used to fetch the role of the current user `uid` and when it returns the data and outputs it in JSON form which value is given to `SetResp` else it throws an error if the fetch request fails.
-Since it is an asynchronous function the code below it runs while it is fetching and awaiting a response. The `resp` is false during this time while waiting for the result of the asynchronous function therefore it outputs "Loading..." on the screen until the async returns the data which it then outputs. The last code block: the `export` is simply used to show "Loading..." on the screen during redirecting. 
+Here, within your `CallAPI` component, you've used `usestate` hook to create two states `resp` and `setResp` to check if you have received a response from the API. A constant `user` was made to use the `LAuth` method to get the current user data and then the next line gets the id of the current user. The `useeffect` React hook that runs after the render contains an asynchronous function is used to fetch the role of the current user `uid`. It returns the data and outputs it in JSON form which value is given to `SetResp`. Else, it throws an error if the fetch request fails.
 
+Since it is an asynchronous function, the code below it runs while fetching and awaiting a response. `resp` is false during this time while waiting for the result of the asynchronous function. Therefore, it outputs "Loading..." on the screen until the async returns the data that it then outputs. 
+
+The last code block: `export` is simply used to show "Loading..." on the screen during redirecting. 
 
 ## Running the code
-
 You can run the present code by `cd` into your parent directory and running:
+
 ```powershell
-`npm start`
+npm start
 ```
 
-When it successfully starts the server you would have a page similar to these:
-
+When it successfully starts the server, you would have a similar page as follows:
 
 ![landing page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246380248_Screenshot+102.png)
 
+This is the landing page you've built in the `Auth` component and is your `/` path in your routes within `App.js`. If you click on the "login/register" button you'll be redirected to your custom Auth Page (IDX) provided by LoginRadius where you can create a user account and login. You can manage the users who have accounts from your dashboard in "manage users".
 
-Which is the landing page we built in the `Auth` component and is our "/" path in our routes within App.js. if you click on the login/register button you will be redirected to your custom Auth Page(IDX) provided by LoginRadius where you can create a user account and login. You can manage the users who have accounts from your dashboard in manage users.
-
-After logging in with your user you will get redirected to the "/login" route which will then run the `CallAPI` component and give you a result similar to the following:
-
+After logging in with your user, you'll get redirected to the `/login` route that then runs the `CallAPI` component and gives you a result similar to the following:
 
 ![Login route](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246565180_Screenshot+110.png)
 
+This is the current role of the user. Any user would have the role of client assigned since you've set to assign the client role by default to all our users from your dashboard during the creation of roles.
 
-This is the current role of our user. Any user has the role of client assigned to him since we assigned the client role by default to all our users from our dashboard during the creation of roles.
-
-
-## Managing user authentication and data
-
+## Managing User Authentication and Data
 ### User Authentication
-In the above section, we created a user account with different parameters for the email and password. We notice, upon creation of an account we get directed to the login page where we can sign in using the details of the created account. Authentication was carried out on the parameters in the input field by the LoginRadius API set up in the Auth page. 
+In the above section, you've created a user account with different parameters for the email and password. Upon creation of an account, you get directed to the login page where you can sign in using the credentials of the created account. Authentication was carried out on the parameters in the input field by the LoginRadius API set up in the Auth Page. 
 
-Our user authentication is carried out by the API. This checks the input details against the registered user details. If an input not matching this is put in the form we get a user does not exist prompt upon clicking the login button. Upon logging-in our app key and secret are sent by our app to the authentication server, upon authentication the server responds with an access token and authorizes our user. To view this token you can create a new file called `Token.js` and key in the following codes into it:
+Your user authentication is carried out by the API. This checks the input details against the registered user details. If any input not matching this is put in the form, you'll get an alert "user does not exist" upon clicking the login button. Upon logging-in, your app key and secret are sent by your app to the authentication server. Upon authentication, the server responds with an access token and authorizes the user. To view this token, you can create a new file called `Token.js` and insert the following code into it:
 
 ```javascript
 import React, { useEffect, useState } from "react";
@@ -358,8 +341,7 @@ export default withAuthenticationRequired(CallAPI, {
     });
 ```
 
-The code above runs a fetch request for the access token and displays it when the data is returned. To view the output of this code import the newly created file into our App.JS file and since the name of the function component in the code is still `CallAPI` we dont need to edit the component called in the login route, we just need to comment out the former import for the component from our `return.js`  file as shown below:
-
+The code above runs a fetch request for the access token and displays it when the data is returned. To view the output of this code, import the newly created file into your `App.js` file. Since the name of the function component in the code is still `CallAPI`, you don't need to edit the component called in the login route. You just need to comment out the former import for the component from your `return.js` file as shown below:
 
 ```javascript
 import "./App.css";
@@ -390,45 +372,32 @@ function App() {
 export default App;
 ```
 
- We then run the code by starting the server using the `npm start` command. Upon starting the server when you log-in you will have your user token displayed on the screen. Your output will be similar to the following image:
- 
+You then need to run the code by starting the server using the `npm start` command. Upon starting the server, when you log in, you'll have your user token displayed on the screen. Your output will be similar to the following:
 
 ![access token](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628266027077_Screenshot+120.png)
 
-
-Here we can see the access token and its details. We can then return our code to the previous `CallAPI` component imported from Return.js.
-
+Here, you can see the access token and its details. You can then return your code to the previous `CallAPI` component imported from `Return.js`.
 
 ### User Data 
-We can view and manage user accounts from our dashboard. We can find the panel for this under User management:
+You can view and manage user accounts from the dashboard. You can find the panel for this under "User management":
 
 ![User Manangement](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263707754_Screenshot+117.png)
-
 
 Manage users:
 
 ![Manage users](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263762129_Screenshot+119.png)
 
+Here, you can view the account information of your users, search for a particular user details using the email, Uid, or phone number as the query in the search box. Also, the panel provides an option to reset the password of a user, block users, and delete users as the above image shows. You can create new users by clicking on the "add user" button and filling the details of the new user.
 
-Here we can view the account of information of our users, search for a particular user detail using the email, Uid or phone number as the query in the search box. Also the panel provides option to reset the password of a user, block user and delete user as shown in the image above. New users can be created by clicking on the add user button and filling the details of the new user.
+## Viewing User Permissions
+To view all roles and permissions for your app, change the URL in the fetch request to `https://api.loginradius.com/identity/v2/manage/role` keeping the rest of the URL same. That is, it still contains your `appkey` and `appsecret` parameters.
 
-
-## Viewing User permissions
-
-To view all roles and permissions for our app change the URL in the fetch request to:
-`https://api.loginradius.com/identity/v2/manage/role` 
-
-with the rest of the URL the same. That is it still contains your `appkey` and `appsecret` parameters.
-Reload your page and you will have an output similar to the image below:
-
+Reload your page, and you'll have an output similar as follows:
 
 ![All user Roles and permissions](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246708426_Screenshot+111.png)
 
-
-
-## Adding a Role to the current user
-
-To add the role of admin to the current user create objects for this by adding the following code within the parenthesis after your fetch URL:
+## Adding a Role to the Current User
+To add the Admin role to the current user, create objects for this by adding the following code within the parenthesis after your fetch URL:
 
 ```json
 method: "PUT",
@@ -440,17 +409,14 @@ method: "PUT",
      }),
 ```
 
-This will add the Admin role to the current logged-in user since it is the `Uid` that is within our URL. The `fetch` uses a GET request by default. Since we are making a change to the URL we are using a PUT method instead. You will get a result similar to the result below:
-
+This adds the Admin role to the current logged-in user since it is the `Uid` that is within our URL. `fetch` uses a GET request by default. Since you're making a change to the URL, you're using a PUT method instead. You'll get a result similar to as follows:
 
 ![Added admin role to current Uid](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246814587_Screenshot+112.png)
 
+The user has both client and admin roles because you've added client roles by default to all our users.
 
-Our user has both client  and admin roles because we added client roles by default to all our users.
-
-
-## Assigning Client and admin roles
-To assign specific roles to different people first, we would uncheck the set as default in the manage roles section of your dashboard. We can then run an `if block` to check if our user’s logged-in mails are equal to a particular set of mails and then perform the assignment of admin roles to them else assign the client roles instead. Modify your `return.js` file as shown below:
+## Assigning Client and Admin roles
+To assign specific roles to different people, first you should uncheck the set as default in the "manage roles" section of your dashboard. You can then run an `if block` to check if the users’ logged-in emails are equal to a particular set of emails and then perform the assignment of admin roles to them; else assign the client roles instead. Modify your `return.js` file as below:
 
 ```javascript
 import React, { useState } from "react";
@@ -467,7 +433,7 @@ const CallAPI = () => {
   
   
   (async () => {
-    if (emailmain.toLowerCase() === "admin@gmail.com"){
+    if (emailmain.toLowerCase() === "admin@example.com"){
       try {
           
         
@@ -526,19 +492,20 @@ export default withAuthenticationRequired(CallAPI, {
 });
 ```
 
-In the code above, we created a const email that returned an array containing the user email. To get the email specifically we created another variable `emailmain` which gets the value at a particular array position containing the user email.
-The `async` request block has now been modified to check if the user mail being used to log in is equivalent to a particular email which I declared. Alternatively, you can have your mails pulled from a database and assign the admin roles to the ones you want. The else block assigns a client role to emails that do not meet the first criteria. When you create a new account with an email similar to what I have in the `if block`, that is: admin@gmail.com; when rerouted to the "/login" path you will discover that the role of admin was assigned while any other email will have the client role assigned upon login. The return statement returns the user id of the logged-in user, the email, and then the role in a JSON format. The output would be similar to the image below:
+In the code above, you've created a const email that returned an array containing the user email. To get the email specifically we created another variable `emailmain` which gets the value at a particular array position containing the user email.
 
+The `async` request block has now been modified to check if the user email being used to log in is equivalent to a particular email which you've declared. Alternatively, you can have your emails pulled from a database and assign the admin roles to the ones you want. The else block assigns a client role to emails that do not meet the first criteria. When you create a new account with an email similar to what I have in the `if block`, that is admin@example.com; when rerouted to the `/login` path you'll discover that the role of admin was assigned while any other email will have the client role assigned upon login. The return statement returns the user id of the logged-in user, the email, and then the role in a JSON format. The output would be similar to the following:
 
 ![output on login route](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627306768831_Screenshot+114.png)
 
 ## Conclusion
+This tutorial covered:
 
-In this tutorial, we covered setting up LoginRadius with ReactJS and using it to authenticate users and assign specific roles with different privileges to them.  These privileges can be used to give users certain permissions as to what they can do on your website.
-We started by introducing LoginRadius, its uses, and its benefits. We then used it to authenticate users and perform role assignments in our React application.
+- Setting up LoginRadius with a React app 
+- Using the setup to authenticate users and assigning specific roles with different privileges  
 
-LoginRadius is a great tool that is easy to implement if you are looking to add authentication within your application.
+These privileges can be used to give users certain permissions as to what they can do on your website.
 
-A working version of the code used in this article can be found on Github at: [LoginRadius github repo](https://github.com/Victory-ET/LoginRadius).
+LoginRadius is a great tool and is easy to implement if you're looking to add authentication in your application.
 
-
+A working version of the code used in this tutorial is available [on Github](https://github.com/Victory-ET/LoginRadius).
