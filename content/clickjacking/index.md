@@ -4,7 +4,7 @@ date: "2021-08-29"
 coverImage: "clickjacking.png"
 author: "Akaash Saxena"
 description: Introduction tos Clickjacking attack and how you can protect your web application by applying different approaches
-tags: ["Clickjacking", "Security", "Fraud"]
+tags: ["Clickjacking", "Security", "Malicious"]
 ---
 
 
