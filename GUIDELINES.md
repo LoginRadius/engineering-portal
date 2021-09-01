@@ -4,9 +4,8 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
 1. First of all create a directory in `blog` under `content` directory The name of the directory will be the path of your blog.
 2. Add an `index.md` file and write your blog in it. Any relevant images used in the blog should be placed in the same directory as `index.md`.
-3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
+3. Write the post in Markdown format, it's easy, fast, multi-platform, and you can edit it in any editor, like VS Code, which has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
 4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **900px x 600px**.
 
 6. The blog should have the meta tags at the top of your MD files which should have the below properties.
@@ -27,6 +26,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    date: "2020-06-11"
    coverImage: "coverImage.png"
    author: "Jon Doe"
+   tags: ["Example1", "Example2","Example3"]
    description: "This is for test"
    ---
 
@@ -53,7 +53,8 @@ Here are some guidelines that you must follow while writing the blog for the eng
    twitter:
    ```
 
-8. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
+8. While creating a pull request, ensure that you enable `Allow edits from maintainers` permission.
+9. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
 
 ## Some tips that you can keep in mind while writing the blog.
 

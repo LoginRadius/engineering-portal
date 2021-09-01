@@ -1,5 +1,5 @@
 ---
-title: "Registration and Authentication in Django using LoginRadius"
+title: "How to Implement Registration and Authentication in Django?"
 date: "2021-07-30"
 coverImage: "coverImage.png"
 author: "Taminoturoko Briggs"
