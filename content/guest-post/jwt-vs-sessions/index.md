@@ -1,7 +1,7 @@
 ---
 title: "How to Authenticate Users: JWT vs. Session"
 date: "2021-08-26"
-coverImage: "ArticleHead.jpeg"
+coverImage: "ArticleHead.jpg"
 author: "Uma Victor"
 tags: ["Authentication","JWT","Sessions"]
 description: "In this article, you'll learn the differences between JWT and Sessions, and which one to use for authentication."
