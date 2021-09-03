@@ -1,9 +1,9 @@
 ---
 title: "How to Implement Role-Based User Authentication in React Apps"
-date: "2021-09-01"
+date: "2021-09-03"
 coverImage: "coverImage.png"
 author: "Victory Tuduo"
-description: "This tutorial illustrates how to perform user authentication and assign roles to the users in React apps using LoginRadius."
+description: "This tutorial illustrates how to perform user authentication and assign roles to users in React apps using LoginRadius."
 Tags: "Authentication, React, User Roles"
 ---
 
