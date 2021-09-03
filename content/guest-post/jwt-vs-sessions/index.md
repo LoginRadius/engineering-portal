@@ -1,15 +1,13 @@
 ---
 title: "How to Authenticate Users: JWT vs. Session"
-date: "2021-08-17"
-coverImage: "ArticleHead.jpeg"
+date: "2021-08-26"
+coverImage: "ArticleHead.jpg"
 author: "Uma Victor"
 tags: ["Authentication","JWT","Sessions"]
 description: "In this article, you'll learn the differences between JWT and Sessions, and which one to use for authentication."
 ---
 
-![](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1626661833485_Drawing-1.sketchpad.jpeg)
-
-In web applications, you try to decide when to use either JSON Web Tokens (JWTs) or sessions (cookies) for authentication. When you browse the web you use HTTP, which is a stateless protocol. So, the only way to remember the states of your application is using either sessions or tokens.
+In web applications, you try to decide when to use either [JSON Web Tokens (JWTs)](https://www.loginradius.com/blog/async/jwt/) or sessions (cookies) for authentication. When you browse the web you use HTTP, which is a stateless protocol. So, the only way to remember the states of your application is using either sessions or tokens.
 
 ## Goals
 
@@ -28,19 +26,19 @@ Deciding to choose between JWT or session is not just choosing one over the othe
 
 This article starts with how server-side sessions with a session store work, then looks at how client-side sessions with JWT work.
 
-![](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628279671087_How+sessions+work.png)
+![authentication flow](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628279671087_How+sessions+work.png)
 
 ## How Server-side Sessions Work With a Session Store
 
 Suppose, you have a website with a login form. You enter your email ID and password, and your browser sends a request to the server. Your server compares the password hashes, and if those hashes match, a session is created with a specific session ID. Then, the server returns a cookie with the session ID and the cookie is HTTP only, so it can not be read by any javascript that is not yours. It is also secured so that the cookie is never transferred over an insecure connection; that is, something that is not encrypted. Otherwise, someone can intercept the communication, like a man in the middle attack.
 
-![](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628279971421_sessionswork2.png)
+![server-side sessions with a session store](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628279971421_sessionswork2.png)
 
 If you make a follow-up request, your browser automatically sends this cookie along. Take a look at the session ID and fish it out.
 
 ## How Client-side Sessions Work with JWT
 
-![](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628281019519_Clientside.png)
+![client-side sessions with JWT](https://paper-attachments.dropbox.com/s_483BCD9E50710AD4C34073FFCB4BDCD46B2FB758D7EDCF747C5F8981B4094012_1628281019519_Clientside.png)
 
 Instead of creating a session in your session store, you check whether the password hashes match. And if they do match, you can just create a JSON signature token and the token is signed with the secret. If someone tries to modify the payload, you will know and the signature validation will fail.
 
