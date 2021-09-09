@@ -289,13 +289,13 @@ npm start
 
 When it successfully starts the server, you would have a similar page as follows:
 
-![landing page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246380248_Screenshot+102.png)
+![landing page](application-home.png)
 
 This is the landing page you've built in the `Auth` component and is your `/` path in your routes within `App.js`. If you click on the "login/register" button, you'll be redirected to your custom Auth Page (IDX) provided by LoginRadius, where you can create a user account and login. You can manage the users who have accounts from your dashboard in "manage users".
 
 After logging in with your user, you'll get redirected to the `/login` route that then runs the `CallAPI` component and gives you a result similar to the following:
 
-![Login route](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246565180_Screenshot+110.png)
+![Login route](user-roles.png)
 
 This is the current role of the user. Any user would have the role of client assigned since you've set to assign the client role by default to all our users from your dashboard during the creation of roles.
 
@@ -375,7 +375,7 @@ export default App;
 
 You then need to run the code by starting the server using the `npm start` command. Upon starting the server, when you log in, you'll have your user token displayed on the screen. Your output will be similar to the following:
 
-![access token](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628266027077_Screenshot+120.png)
+![access token](access-token.png)
 
 Here, you can see the access token and its details. You can then return your code to the previous `CallAPI` component imported from `Return.js`.
 
@@ -395,7 +395,7 @@ To view all roles and permissions for your app, change the URL in the fetch requ
 
 Reload your page, and you'll have an output similar as follows:
 
-![All user Roles and permissions](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246708426_Screenshot+111.png)
+![All user Roles and permissions](user-roles-permissions.png)
 
 ## Adding a Role to the Current User
 To add the Admin role to the current user, create objects for this by adding the following code within the parenthesis after your fetch URL:
@@ -412,7 +412,7 @@ method: "PUT",
 
 This adds the Admin role to the current logged-in user since it is the `Uid` that is within our URL. `fetch` uses a GET request by default. Since you're making a change to the URL, you're using a PUT method instead. You'll get a result similar to as follows:
 
-![Added admin role to current Uid](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627246814587_Screenshot+112.png)
+![Added admin role to current Uid](roles-client-admin.png)
 
 The user has both client and admin roles because you've added client roles by default to all our users.
 
@@ -497,7 +497,7 @@ In the code above, you've created a const email that returned an array containin
 
 The `async` request block has now been modified to check if the user email being used for logging in is equivalent to a particular email which you've declared. Alternatively, you can have your emails pulled from a database and assign the admin roles to the ones you want. The else block assigns a client role to emails that do not meet the first criteria. When you create a new account with an email similar to what I have in the `if block`, that is admin@example.com; when rerouted to the `/login` path, you'll discover that the role of admin was assigned while any other email will have the client role assigned upon login. The return statement returns the user id of the logged-in user, the email, and then the role in a JSON format. The output would be similar to the following:
 
-![output on login route](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627306768831_Screenshot+114.png)
+![output on login route](output.png)
 
 ## Conclusion
 This tutorial covered:
