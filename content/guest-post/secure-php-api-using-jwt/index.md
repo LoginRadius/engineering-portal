@@ -15,6 +15,8 @@ As the web evolves to accept more and more users, the research for secure authen
 ## What is JWT?
 Java Web Token (JWT) is a safe way to authenticate users on a web app. Using JWT, you can transfer encrypted data and information between a client computer and a server securely. 
 
+> Learn more about the [differences between sessions and JWTs here](https://www.loginradius.com/blog/async/guest-post/jwt-vs-sessions/).
+
 JWT offers many benefits. Here are some of them.
 
 ## Benefits of Using JWT
