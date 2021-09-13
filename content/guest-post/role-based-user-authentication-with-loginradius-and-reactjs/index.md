@@ -3,8 +3,8 @@ title: "How to Implement Role-Based User Authentication in React Apps"
 date: "2021-09-03"
 coverImage: "coverImage.png"
 author: "Victory Tuduo"
+tags: ["Authentication", "React", "User Roles"]
 description: "This tutorial illustrates how to perform user authentication and assign roles to users in React apps using LoginRadius."
-Tags: "Authentication, React, User Roles"
 ---
 
 In modern websites that serve different kinds of users, there is a need to create a distinction between users to determine what kind of privileges are assigned to them. You can achieve this with authentication. Through authentication, we validate user-specific credentials to determine if the user is genuine and then assign a specific role, which could be a simple client or administrator access, for example.
