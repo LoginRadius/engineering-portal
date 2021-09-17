@@ -91,7 +91,7 @@ And that's all.
 ![macro demo](vim-macro-demo.png)
 
 ## Buffers & Splitting
-In simple terms, a _buffer_ is a file that has been loaded into memory. Everything you do in VIM is in a buffer. You can list all the buffers by `:Buffers`. And then, if you want to check out a particular buffer, use `:b n` -- where n is the buffer number. 
+In simple terms, a _buffer_ is a file that has been loaded into memory. Everything you do in VIM is in a buffer. You can list all the buffers by `:buffers`. And then, if you want to check out a particular buffer, use `:b n` -- where n is the buffer number. 
 
 If you want to delete a buffer, use `:bd n` is the command.
 
@@ -104,7 +104,7 @@ For a vertical split, use `:vsp filename`.
 Here are some key bindings you might want to use for a smooth workflow.
 
 ```
-nnoremap <C-t> :tabnew<Cr>
+nnoremap <C-t> :tabnew<CR>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-J>  <C-W><C-J>
