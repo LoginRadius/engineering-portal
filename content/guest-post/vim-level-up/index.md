@@ -4,7 +4,7 @@ date: "2021-09-17"
 author: "Shubhankar Khare"
 coverImage: "Vim.png"
 tags: ["Vim", "Text Editor", "UNIX"]
-description: "Vim is Vi's newest and most common reincarnation that is supported on every known platform. Go through this to learn about what Vim is and how to make the most out of it."
+description: "Vim is Vi's newest and most common reincarnation that is supported on every known platform. Go through this tutorial to learn about what Vim is and how to make the most out of it."
 ---
 
 ## Prerequisites
