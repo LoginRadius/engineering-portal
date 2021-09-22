@@ -8,7 +8,7 @@ description: "Vim is Vi's newest and most common reincarnation, which is support
 ---
 
 ## Prerequisites
-You should know the basics of VIM beforehand. You may refer to a previous blog [Vim: Getting started](https://www.loginradius.com/blog/async/vim-getting-started/).
+You should know the basics of Vim beforehand. You may refer to a previous blog [Vim: Getting started](https://www.loginradius.com/blog/async/vim-getting-started/).
 
 This tutorial explores the following concepts:
 
@@ -19,7 +19,7 @@ This tutorial explores the following concepts:
 In addition, this tutorial explores a few other tips and tricks. It is not uncommon for folks who have been using Vim for a long time and not being familiar with these handy, useful features.
 
 ## Macros
-You don't want to miss out on macros if you want to level up your vim game. Vim macro is a powerful feature that allows you to record a sequence of keys on the fly. It helps you to automate a lot of stuff. 
+You don't want to miss out on macros if you want to level up your Vim game. Vim macro is a powerful feature that allows you to record a sequence of keys on the fly. It helps you to automate a lot of stuff. 
 
 Macros are based on the concept of registers. If you don't know what registers are, you can think of them as a bunch of spaces in memory that Vim uses to store some text.
 
@@ -91,7 +91,7 @@ And that's all.
 ![macro demo](vim-macro-demo.png)
 
 ## Buffers & Splitting
-In simple terms, a _buffer_ is a file that has been loaded into memory. Everything you do in VIM is in a buffer. You can list all the buffers by `:buffers`. And then, if you want to check out a particular buffer, use `:b n` -- where n is the buffer number. 
+In simple terms, a _buffer_ is a file that has been loaded into memory. Everything you do in Vim is in a buffer. You can list all the buffers by `:buffers`. And then, if you want to check out a particular buffer, use `:b n` -- where n is the buffer number. 
 
 If you want to delete a buffer, use `:bd n` is the command.
 
@@ -114,7 +114,7 @@ nnoremap <C-H>  <C-W><C-H>
 ```
 
 ## Global Command
-The global command in vim is very powerful and will solve a lot of your problems quickly.
+The global command in Vim is very powerful and will solve a lot of your problems quickly.
 
 The basic syntax goes something as follows:
 
@@ -165,7 +165,7 @@ The following will comment out all the print statements in a python code in one 
 :g/print/norm I#
 ```
 
-The global command can be coupled with macros using _norm_, which means you can apply a macro to certain lines matching the regex given. This was enough to blow my mind, and it made the time I spent reading about vim worthy.
+The global command can be coupled with macros using _norm_, which means you can apply a macro to certain lines matching the regex given. This was enough to blow my mind, and it made the time I spent reading about Vim worthy.
 
 Here's the syntax for using macros with global commands:
 
@@ -173,6 +173,6 @@ Here's the syntax for using macros with global commands:
 :g/const/normal @q
 ```
 ## You Made It
-Congratulations! You made it this far. You now have leveled up your vim game. All these tips and tricks will eventually be useful to you. Here's a little something for reading this far: https://pintovim.dev/ You can use this tool to make your own customized vim color scheme.
+Congratulations! You made it this far. You now have leveled up your Vim game. All these tips and tricks will eventually be useful to you. Here's a little something for reading this far: https://pintovim.dev/ You can use this tool to make your own customized Vim color scheme.
 
 Thanks for reading!
