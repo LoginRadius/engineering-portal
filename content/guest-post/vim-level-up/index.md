@@ -1,10 +1,10 @@
 ---
 title: "How to Upgrade Your Vim Skills" 
-date: "2021-09-17"
+date: "2021-09-22"
 author: "Shubhankar Khare"
 coverImage: "Vim.png"
 tags: ["Vim", "Text Editor", "UNIX"]
-description: "Vim is Vi's newest and most common reincarnation that is supported on every known platform. Go through this tutorial to learn about what Vim is and how to make the most out of it."
+description: "Vim is Vi's newest and most common reincarnation, which is supported on every known platform. Go through this tutorial to learn about what Vim is and how to make the most out of it."
 ---
 
 ## Prerequisites
@@ -173,6 +173,6 @@ Here's the syntax for using macros with global commands:
 :g/const/normal @q
 ```
 ## You Made It
-Congratulations! You made it this far. You now have leveled up your vim game. All these tips and tricks will eventually be useful to you. Here's a little something for reading this far https://pintovim.dev/. You can use this tool to make your own customized vim color scheme.
+Congratulations! You made it this far. You now have leveled up your vim game. All these tips and tricks will eventually be useful to you. Here's a little something for reading this far: https://pintovim.dev/ You can use this tool to make your own customized vim color scheme.
 
 Thanks for reading!
