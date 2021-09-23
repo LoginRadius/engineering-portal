@@ -7,7 +7,7 @@ tags: ["Hacktoberfest","Open Source","LoginRadius"]
 description: "At LoginRadius, we're excited to celebrate Hactoberfest 2021. Several of our open source projects are seeking to positively collaborate with you."
 ---
 ## What is Hacktoberfest 2021?
-[Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) is the 8th edition of Hacktoberfest hosted by [DigitalOcean](https://www.digitalocean.com/). It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to open source projects hosted across GitHub and GitLab.
+[Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) is the 8th edition of Hacktoberfest hosted by [DigitalOcean](https://www.digitalocean.com/). It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to participating open source projects hosted across GitHub and GitLab.
 
 In fact, Hacktoberfest 2020 had attracted 169,886 participants and 116,361 participating open source repositories, representing 135 countries.
 
