@@ -1,7 +1,7 @@
 ---
 title: "Hacktoberfest 2021: Contribute to Our Open Source Projects"
 date: "2021-09-23"
-coverImage: "Hacktoberfest-2021.jpg"
+coverImage: "Hacktoberfest-2021.png"
 author: "Raghunath Reddy"
 tags: ["Hacktoberfest","Open Source","LoginRadius"]
 description: "At LoginRadius, we're excited to celebrate Hactoberfest 2021. Several of our open source projects are seeking to positively collaborate with you."
