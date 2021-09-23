@@ -4,7 +4,7 @@ date: "2021-09-23"
 coverImage: "Hacktoberfest-2021.png"
 author: "Raghunath Reddy"
 tags: ["Hacktoberfest","Open Source","LoginRadius"]
-description: "At LoginRadius, we're excited to celebrate Hactoberfest 2021. Contribute to our open source projects and win cool LoginRadius branded swag to show off!"
+description: "At LoginRadius, we're excited to celebrate Hacktoberfest 2021. Contribute to our open source projects and win cool LoginRadius branded swag to show off!"
 ---
 ## What is Hacktoberfest 2021?
 [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) is the 8th edition of Hacktoberfest hosted by [DigitalOcean](https://www.digitalocean.com/). It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to participating open source projects hosted across GitHub and GitLab.
