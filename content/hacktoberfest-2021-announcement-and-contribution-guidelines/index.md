@@ -1,10 +1,10 @@
 ---
-title: "Hacktoberfest 2021: Contribute to Our Open Source Projects"
+title: "Hacktoberfest 2021: Contribute and Win Swag from LoginRadius"
 date: "2021-09-23"
 coverImage: "Hacktoberfest-2021.png"
 author: "Raghunath Reddy"
 tags: ["Hacktoberfest","Open Source","LoginRadius"]
-description: "At LoginRadius, we're excited to celebrate Hactoberfest 2021. Several of our open source projects are seeking to positively collaborate with you."
+description: "At LoginRadius, we're excited to celebrate Hactoberfest 2021. Contribute to our open source projects and win cool LoginRadius branded swag to show off!"
 ---
 ## What is Hacktoberfest 2021?
 [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) is the 8th edition of Hacktoberfest hosted by [DigitalOcean](https://www.digitalocean.com/). It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to participating open source projects hosted across GitHub and GitLab.
@@ -14,6 +14,7 @@ In fact, Hacktoberfest 2020 had attracted 169,886 participants and 116,361 parti
 You can simply [register yourself here](https://hacktoberfest.digitalocean.com/) and start contributing to any participating open source project from Oct 01 - Oct 31. And if you meet the [contribution criteria](https://hacktoberfest.digitalocean.com/resources/participation) set by DigitalOcean, you’ll receive a Hacktoberfest t-shirt from DigitalOcean!
 
 Additionally, if you make successful contributions to [LoginRadius open source projects](https://github.com/LoginRadius), you’ll separately receive a LoginRadius branded Hacktoberfest t-shirt from us, recognizing and thanking you for your valuable contributions.
+
 ## Why Contribute to LoginRadius Open Source Projects?
 LoginRadius is an industry-leading Customer Identity and Access Management (CIAM) provider with a mission to secure every identity on this planet.
 
@@ -24,12 +25,14 @@ We’ve always loved open source and the many great things it has done for the s
 Through our open source projects, we actively collaborate with the developer community and drive change and innovation for the optimistic progress of everyone.
 
 When you contribute to our open source projects, you’re helping the whole developer community become efficient, productive, and helping them manage user identities and authentication on their applications securely and scalably.
+
 ## How to Contribute?
 The exciting part about being involved in the open source community is that no matter how small or big your contributions are, the community will welcome your efforts and collaborate with you positively, sharing feedback and expressing gratitude.
 
 Especially with [LoginRadius open source projects](https://github.com/LoginRadius), your contributions can make a big difference! We also try making your collaboration with us more enjoyable.
 
 Please note that only contributions that add significant value to our projects will be eligible for swag. This will be at our sole discretion. But you may go ahead and contribute in any way you would like.
+
 ### Prerequisites
 You should have a basic to intermediate understanding of the following:
 
@@ -37,6 +40,7 @@ You should have a basic to intermediate understanding of the following:
 - GitHub
 - Forking a repository
 - Creating a pull request
+
 ### Repositories for Contributing
 Each of the following public repositories on GitHub will have a list of issues listed. You can choose to work on these issues based on your skills and expertise in solving them.
 
@@ -80,7 +84,7 @@ Please note that each project will have specific guidelines on how to contribute
 
 If you’re facing any issues with locally running a project or something else, please feel free to raise an issue for the project. Our team will help you out.
 
-## Win Swag
+## Win LoginRadius Branded Swag
 By actively participating in Hacktoberfest, you make the open source community more sustainable, and, in turn, this makes you feel at home. Empowering one another is what best depicts the open source philosophy and is a reward in itself.
 
 However, we want to make it more fun by sending cool t-shirts to all the accepted/eligible contributors. Just make sure to [fill this form](https://www.google.com/url?q=https://forms.gle/qhG6Sf8qrBznRrtQA&sa=D&source=editors&ust=1632314038203000&usg=AOvVaw3cOv-eOBvxNTaIS9j484fK) after you raise a pull request.
