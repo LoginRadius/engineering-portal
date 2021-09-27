@@ -206,7 +206,7 @@
   github: "abhir9"
   stackoverflow: "4822703"
   twitter: "abhir96"
-  medium: "abhir95"
+  medium: "@abhir95"
   linkedin: "abhi-rathore"
 
 - id: Hridayesh Sharma
@@ -227,7 +227,7 @@
 
 - id: Akshaya Sharma
   bio: Akshaya Sharma is a Software Engineer at LoginRadius and loves to work on javascript and frameworks.
-  github: "akshay-s-770"
+  github: "akshay-js"
   linkedin: "akshay-sharma-770"
 
 - id: Anurag Choudhary
@@ -316,7 +316,7 @@
   github: "eylonronen"
 
 - id: Shubhankar Khare
-  bio: A delligent and promp learner, Shubhankar Khare is a passionate full stack web developer from India. He is crazy about learning new technologies and is an open source enthusiast
+  bio: He is a passionate full stack web developer from India. He loves learning new technologies and is an open source enthusiast.
   github: "iamshubhankarkhare"
   linkedin: "shubhankar-khare"
 
@@ -459,10 +459,16 @@
   github: "maxsergeyenko"
 
 - id: "Roshan Jangid"
-  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius. 
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius.
   github: "roshan-jangid"
   linkedin: "roshan-jangid-140a35147"
-  
+
+- id: "Solomon Esenyi"
+  bio: "Python Developer and Technical Writer with a passion for open-source, cryptography, and serverless technologies."
+  github: "LordGhostX"
+  linkedin: "solomon-esenyi"
+  twitter: "LordGhostX"
+
 - id: "Neha Vyas"
   github: "nehavyasqa"
 
@@ -473,3 +479,49 @@
 - id: "Saikiran Babladi"
   bio: "Saikiran is the Senior Solutions Engineer at LoginRadius Inc. He interacts with prospective customers to understand their use-case/pain areas and provides a fit-for-purpose solution by delivering product demos and POC's."
   linkedin: "saikiran-babladi-5287b665"
+
+- id: "Akash Patil"
+  bio: "Akash Patil, a graduate from BITS Pilani, is currently working as an Associate Software Engineer at LoginRadius. He has worked on projects in backend development and has an interest in learning new technologies and developer tools, especially in the field of Data Science."
+  github: "Akash-Patil"
+  linkedin: "akash-patil-100"
+
+- id: Raghunath Reddy
+  bio: "Raghunath is a technical content writer with a graduate degree in computer science. He is also a Conversion Rate Optimization (CRO) enthusiast and enjoys studying the English language."
+  github: "raghunath-r-a"
+  linkedin: "raghunathreddyalla"
+  twitter: "_raghunath"
+
+- id: "Uma Victor"
+  bio: "I am a software developer based in Nigeria, familiar with a variety of different web technologies/frameworks and keen on always finding ways to explain things as simply as possible."
+  github: "uma-victor1"
+  twitter: "umavictor_"
+
+- id: Vishnu Chilamakuru
+  bio: Technology and startup enthusiastic. Learning to lead optimised life. I write about system design, databases, microservices, backend development, developer tools, life sciences & books I read
+  github: "vishnuchilamakuru"
+  linkedin: "vishnuchilamakuru"
+  medium: "@vishnuchi"
+  twitter: "vishnuchi"
+  
+- id: Erkki Muuga
+  bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
+  linkedin: "erkkimuuga"
+  facebook: "erkki.muuga"
+
+- id: Taminoturoko Briggs
+  bio: An enthusiastic software developer conversant with Python and JavaScript.
+  github: "tammibriggs"
+  stackoverflow: "15485047"
+  linkedin: "taminoturoko-briggs-b98251203"
+
+- id: "Victory Tuduo"
+  bio: "He is an experienced software developer skillful in React and frontend web development."
+  github: "Victory-ET"
+  linkedin: "tuduo-victory-7ba4641a4"
+
+- id: Joydip Kanjilal
+  bio: Microsoft MVP (2007 - 2012), Author and Speaker with more than 25 years experience. Familiar with C#, .NET Core, SQL Server, Microsoervices, Design Patterns, REST, GraphQL and Software Architecture
+  github: "joydipkanjilal"
+  linkedin: "joydipkanjilal"
+  medium: "@joydipkanjilal"
+  twitter: "joydipkanjilal"

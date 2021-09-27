@@ -1,25 +1,23 @@
-## Guidelines to submit the blog in Engineering Portal
+## Guidelines to submit a blog post
 
-Here are some guidelines that you must follow while writing the blog for the engineering portal:
+Here are the guidelines that you shall follow for writing a blog post for Async Blog:
 
-1. First of all create a directory in `blog` under `content` directory The name of the directory will be the path of your blog.
-2. Add an `index.md` file and write your blog in it. Any relevant images used in the blog should be placed in the same directory as `index.md`.
-3. Write the post in Markdown format, it's easy, fast, multi-platform and you can edit it in any editor like vscode has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of markdown.
-4. You can also refer this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+1. First of all, create a directory in `guest-post` under `content` directory. The name of the directory will be the slug of your blog post. Please only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
+2. Add an `index.md` file and write your blog in it. Place any relevant images used in the blog in the same directory as `index.md`.
+3. Write the post in Markdown format -- it's easy, fast, and multi-platform. And you can edit it in any editor, like VS Code, which has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of Markdown.
+4. You can also refer to this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+5. The blog should have the cover image with size **1200px x 800px**.
+6. The blog should have the meta tags at the top of your `.md` file, which should have the below properties.
 
-5. The blog should have the cover image with the aspect ratio of **3:2**, we recommend using image size of **1200px x 800px** and the minimum image size can be **900px x 600px**.
+   - **title:** A meaningful title. Max. 60 characters.
+     Note: This title will appear in the post, so no need to again include it in the `.md` file.
+   - **date:** A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
+   - **coverImage:** The name of the image with format should come here. For example, `coverimage.png`. Please make sure that the image is present in the same directory as your `.md`.
+   - **author:** The name of the author, make sure the author name should match with what you would add in your Pull Request description.
+   - **tags:** Add up to 3 relevant tags as an array of string `for eg: ["NodeJs"]`.
+   - **description:** Add a short description about your blog post, which will appear in the card of your blog. It should not be more than 160 characters. 
 
-6. The blog should have the meta tags at the top of your MD files which should have the below properties.
-
-   - **title (Required)** : A meaningful title.
-     Note: This title will appear in the post so no need to again include it in the `md` files.
-   - **date (Required)**: A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
-   - **coverImage (Required)**: The name of the image with format should come here. Please make sure the image should be present in the directory where your `.md` the file is there.
-   - **author (Required)**: The name of the author, make sure the author name should match with the one you have added in you Pull Request description.
-   - **tags: (optional)** : You can add the relevant the in the Array of string `for eg: ["NodeJs"]`. Please make sure tags should not be more than three.
-   - **description** (optional): You can add the short description, which will appear in the card of your blog, it should not be more than 160 characters. If you don't specify the description by default the first 160 characters of your blog will be shown.
-
-   This is an example of the meta info in your blog
+   This is an example of the meta info in your blog:
 
    ```
    ---
@@ -27,6 +25,7 @@ Here are some guidelines that you must follow while writing the blog for the eng
    date: "2020-06-11"
    coverImage: "coverImage.png"
    author: "Jon Doe"
+   tags: ["Example1", "Example2","Example3"]
    description: "This is for test"
    ---
 
@@ -34,12 +33,12 @@ Here are some guidelines that you must follow while writing the blog for the eng
 
    ```
 
-7. As discussed above while submitting the pull request you need to mention the **author details** in the pull request description. The format should be as below.
+7. As discussed above, while submitting the pull request, you need to mention the **author details** in the pull request description. The format should be as below.
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
-   - **bio (optional)**: A short intro about you.
-   - **social profiles (optional)**: You need to mention the id of your social profiles, supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
-     Note: For StackOverflow, you need to add your id which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
+   - **bio (optional)**: A short, meaningful intro about you.
+   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
+     Note: For StackOverflow, you need to add your id, which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
    This is an example of the author info
 
@@ -53,23 +52,31 @@ Here are some guidelines that you must follow while writing the blog for the eng
    twitter:
    ```
 
-8. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
+8. While creating a pull request, ensure that you enable `Allow edits from maintainers` permission.
+9. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
 
 ## Some tips that you can keep in mind while writing the blog.
 
-- Keep post's language simple and easy to understand, we are making our blogs for the mass and our audience doesn't need to be only native English speakers
 
-- Use short paragraphs, break down longer paragraphs into smaller one, people lose their interest more while reading a long paragraph
+- Your language shall be the [standard form](https://www.lexico.com/grammar/standard-english) of [U.S. English](https://www.lexico.com/grammar/british-and-spelling). *But feel free to use developer slang, emojis, GIFs, and quirkiness. Just don’t overdo it, eh?*
 
-- Use headers to structure your post, use large headers for the main heading and smaller for sub-sections in it
+- Use [plain language](https://www.plainlanguage.gov/about/definitions/). It helps our readers around the world easily understand and gain value from what you write.
 
-- Try to use complete words then abbreviations, spell out an acronym that isn’t well-known
+- Make sure the language in your writing is precise and doesn’t have mistakes.
 
-- If your code contains a code snippet, don't forget to syntax highlighting it, You can also specify the programming language for which you want syntax highlighting.
-  **For example:** in markdown typing, ```js will give you JavaScript syntax highlighting.
+- Use short paragraphs, break down longer paragraphs into smaller oneS, people lose their interest while reading a long paragraph.
 
-- Try to use images/screenshots in your post to example things better, images are also visible when you share the post in social media
+- Use headers to structure your post, use large headers for the main heading, and smaller for sub-sections in it.
 
-- Always provide a GitHub demo link whenever you post contains the code.
+- Try to use complete words then abbreviations, spell out an acronym that isn’t well-known.
 
-- Simplicity, Ease of Implementation of the content, developer-friendly and effectiveness
+- If your blog post contains a code snippet, don't forget to syntax highlighting it. You can also specify the programming language for which you want syntax highlighting.
+  **For example:** in Markdown, typing ```js will give you JavaScript syntax highlighting.
+
+- Use images/screenshots in your post to example things better.
+
+- Always provide a GitHub demo link whenever your blog post contains the code.
+
+- Ensure simplicity, ease of implementation of the content, developer-friendliness, and effectiveness.
+
+- When in doubt, feel free to communicate your queries with us.

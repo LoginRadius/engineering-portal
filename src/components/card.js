@@ -14,7 +14,7 @@ const Card = ({ node }) => {
   let coverImagePath = node.frontmatter.coverImage
   let descriptionText = node.frontmatter.description || node.excerpt
   return (
-    <div className={`${styles.user} mb-80`}>
+    <div className={`${styles.user} mb-48`}>
       <div className={styles.avatar}>
         <Link className="bs-md" to={node.fields.slug}>
           {coverImagePath ? (
@@ -50,7 +50,11 @@ const Card = ({ node }) => {
           />
         </div>
         {node.frontmatter.author && (
-          <Bio date={node.frontmatter.date} author={node.frontmatter.author} readingTime={getTimeToRead(node.html)}/>
+          <Bio
+            date={node.frontmatter.date}
+            author={node.frontmatter.author}
+            readingTime={getTimeToRead(node.html)}
+          />
         )}
       </div>
     </div>
