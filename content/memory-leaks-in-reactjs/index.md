@@ -3,7 +3,7 @@ title: "Memory Leaks in React JS : What is it and How to solve this?"
 date: "2021-09-27"
 coverImage: "title-image.png"
 author: "Versha Gupta"
-tags: ["react", "memory-leaks", "context api", "javascript"]
+tags: ["react", "memory-leaks", "javascript"]
 description: "Deep Dive into Memory Leaks in React JS"
 ---
 
