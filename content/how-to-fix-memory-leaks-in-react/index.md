@@ -4,7 +4,7 @@ date: "2021-09-30"
 coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["React", "Memory Leak", "Fix"]
-description: "Deep Dive into Memory Leaks in React JS"
+description: "This article helps you understand memory leaks in React and explains three different methods for fixing memory leaks."
 ---
 A memory leak is a commonly faced issue when developing React applications. It causes many problems, including:
 - affecting the project's performance by reducing the amount of available memory; 
