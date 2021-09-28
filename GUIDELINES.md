@@ -73,6 +73,8 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 - If your blog post contains a code snippet, don't forget to syntax highlighting it. You can also specify the programming language for which you want syntax highlighting.
   **For example:** in Markdown, typing ```js will give you JavaScript syntax highlighting.
 
+- If your blog contains demo code, or if you want to include demo code in a repo for easier reference, please [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a pull request.
+
 - Use images/screenshots in your post to example things better.
 
 - Always provide a GitHub demo link whenever your blog post contains the code.
