@@ -14,7 +14,7 @@ Well, this guide covers everything you need to know:
 - How to get valuable contributions from the open source community?
 - How to participate in Hacktoberfest as a maintainer?
 
-> Most Important: The project should be in Working Condition or at both Logical and Coding End (if coding project).
+> Most Important: The project should be in Working Condition or at both Logical and Coding End (if coding project). Here are the list of [OpenSource repos](https://www.loginradius.com/open-source/) by LoginRadius and the [issues/guidelines](/hacktoberfest-2021/) for contributers.
 
 If your project satisfies the above condition, you can just go ahead and implement the steps described as follows. By implementing these steps, you can successfully open source your project and get contributions for your open source project, especially during Hacktoberfest.
 
