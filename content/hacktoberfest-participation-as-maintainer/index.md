@@ -10,7 +10,7 @@ description: This ultimate guide is the resource you need to open source your pr
 You might have already participated in Hacktoberfest as a contributor. But what if you have a project that you want to open source and get contributions during Hacktoberfest?
 
 Well, this guide covers everything you need to know:
- 
+
 - How to make your repo open source?
 - How to get valuable contributions from the open source community?
 - How to participate in Hacktoberfest as a maintainer?
@@ -59,10 +59,10 @@ Each project must have a README file.
             - Add any extra information like creating a .env file or anything needed to run the application locally.
         - If it’s a library or utility that the user can directly access or use, add an API or Usage section providing a code snippet.
         - How to Contribute section (h2 Contributing)	
-            - Section 1 with a link to open issues tab. 
-                - If you want to contribute, please check the open issues (link).
-            - Section 2 with a link to CONTRIBUTING.md. Sample here.
-                - LICENSE: Mention the license of your project. Sample here.
+            - Section 1 with a link to the open issues tab. 
+                - If you want to contribute, please check the open issues (link of the issues).
+            - Section 2 with a link to CONTRIBUTING.md. [Sample](https://github.com/LoginRadius/business-email-validator/blob/master/CONTRIBUTING.md) here.
+                - LICENSE: Mention the license of your project. [Sample](https://github.com/LoginRadius/engineering-portal#license) here.
 
 ## CONTRIBUTING.MD
 
@@ -78,7 +78,7 @@ It should have instructions on how to contribute to the project. Contributions g
     - How to submit a PR? — e.g., details on what changed, what was removed, any action items needed before submitting a PR like running tests, etc.
     - You can add a `PULL_REQUEST_TEMPLATE.md` in the project root to automatically populate templated content while creating a PR.
 - Commit Message Format
-    - You can add an optional commit message format to maintain commit consistency. Recommended Commit Message Format here.
+    - You can add an optional commit message format to maintain commit consistency. Recommended [Commit Message Format](https://github.com/LoginRadius/business-email-validator/blob/master/CONTRIBUTING.md#commit-messages) here.
 
 ## License
 
@@ -100,6 +100,6 @@ Each repo should have at least 5-10 well-labeled issues to be considered for Hac
     - kind/docs
     - kind/enhancement
     - up-for-grabs
-- For more information about managing issues with labels, follow these GitHub guidelines
+- For more information about managing issues with labels, follow these [GitHub guidelines](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
 As a maintainer, you could also be eligible to win swag from DigitalOcean for participating in Hacktoberfest. For more information, [click here](https://hacktoberfest.digitalocean.com/resources/maintainers).
