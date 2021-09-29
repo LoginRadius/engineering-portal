@@ -153,7 +153,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         <div className={headerStyles.topStrip}>
           <p>
             <a
-              href={"https://www.loginradius.com/resources/#live-product-demo"}
+              href={"https://www.loginradius.com/book-a-demo/"}
               key={"live_demo"}
               target="_blank"
               className="ga_event"
