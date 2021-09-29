@@ -3,7 +3,7 @@ title: "11 Tips for Managing Remote Software Engineering Teams"
 date: "2021-07-26"
 coverImage: "cover.jpg"
 author: "Erkki Muuga"
-tags: ["Rewmote Work", "Developer", "Software Engineering"]
+tags: ["Remote Work", "Developer", "Software Engineering"]
 description: "This article will give you 11 tips for managing remote software engineering teams, so you can adjust and improve your hiring, communication, and your team's collective output."
 ---
 
