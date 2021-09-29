@@ -68,8 +68,12 @@ const PinnedCard = () => {
         }
       `}
       render={data => {
-        const pinnedNode = data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.pinned)
-        const node = pinnedNode[0].node || data.allMarkdownRemark.edges[0].node
+        const pinnedNode = data.allMarkdownRemark.edges.filter(
+          edge => edge.node.frontmatter.pinned
+        )
+        const node =
+          (pinnedNode.length && pinnedNode[0].node) ||
+          data.allMarkdownRemark.edges[0].node
         const tags = node.frontmatter.tags || []
         let coverImagePath = node.frontmatter.coverImage
         return (

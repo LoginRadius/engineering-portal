@@ -167,6 +167,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       coverImage: File @fileByRelativePath
+      pinned: Boolean
     }
   `
   createTypes(typeDefs)
