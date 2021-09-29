@@ -31,7 +31,6 @@ const PinnedCard = () => {
         query {
           allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
-            limit: 1
           ) {
             edges {
               node {
@@ -57,6 +56,7 @@ const PinnedCard = () => {
                     id
                     github
                   }
+                  pinned
                 }
                 fields {
                   authorId
@@ -68,7 +68,8 @@ const PinnedCard = () => {
         }
       `}
       render={data => {
-        const node = data.allMarkdownRemark.edges[0].node
+        const pinnedNode = data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.pinned)
+        const node = pinnedNode[0].node || data.allMarkdownRemark.edges[0].node
         const tags = node.frontmatter.tags || []
         let coverImagePath = node.frontmatter.coverImage
         return (
