@@ -28,6 +28,12 @@ To run the project locally, you need to have Nodejs and npm installed.
   $ npm run develop
 ```
 
+3. This will run the server on the port:8000 by default
+
+```
+localhost:8000
+```
+
 ## How to contribute
 
 We appreciate all kinds of contributions from anyone, be it finding an issue or writing a blog.
