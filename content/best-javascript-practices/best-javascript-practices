@@ -1,0 +1,80 @@
+The following is an article full of recommendations and general guidelines for writing clean JavaScript code
+ If you feel that your code is not clear enough for the future readers, please add a comment. Do this only to clarify your code as there is no need to have a life story in the comments.
+ Remember: comments are messages from developer to developer.
+
+~Use of Global Variables Should Be Minimized:-
+
+Use namespaces for your code to organize it into modules and to avoid code collisions. Optimal number of global variables introduced is zero and if this is not an option then stick to one. Encapsulate your code inside anonymous function and execute the function immediately:
+
+(function(){
+    // Do stuff here
+}());
+When function is executed immediately after declaration wrapp it into parens. Use this code convention to indicate immediate invokation.
+
+~USE STRICT:-
+
+Before ECMAScript 5 you were allowed to assign to variable that is not declared it would create it in a global scope:
+
+(function(){
+    name = 'John';
+}());
+With "use strict" you would just get an error:
+
+(function(){
+    'use strict';
+    name = 'John';
+}());
+It helps you avoid introducing global variables inadvertently and spot errors early.
+
+~MODULE PATTERN:-
+
+Designate a single namespace for your application:
+
+var App = (function () {
+    'use strict';
+    
+    var settings;
+    
+    return {
+    
+        init: function(initialSettings){
+            settings = initialSettings;
+        },
+        
+        getVersion: function (){
+            return settings.version;
+        }
+        
+    };
+}());
+Keep code organized in modules. Augment application by attaching modules to it:
+
+// Search module:
+(function (app) {
+
+    var module = {};
+    
+    module.find = function (query) {
+        // Perform search
+    };
+    
+    module.verifyQuery = function (query) {
+        // Ver
+    };
+    
+    // More module methods go here
+    
+    app.search = module;
+
+}(App));
+If you need or prefer to keep things private you may choose to use revealing module pattern:
+
+~It's How It Works, Not How It Looks:-
+
+Don't add styling information using JavaScript, do it by manipulating CSS classes.
+
+Don't rely on consistent structures or in other words don't add UI constrains for other developers that may work on the same application. What I mean by that is that you should not assume that when traversing DOM tree, that DOM element is what you think it is. Mark elements with CSS classes so that it serves as a marker at the same gives flexibility to maintain and change UI without affecting functionality.
+
+~Allow for Configuration;-
+
+This includes labels, CSS classes, CSS namespaces, ID's and etc. By having configuration objects we make maintenance a breeze. That also opens many opportunities for customizations.
