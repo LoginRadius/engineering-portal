@@ -37,7 +37,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
    - **bio (optional)**: A short, meaningful intro about you.
-   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
+   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, Medium, Twitter.
      Note: For StackOverflow, you need to add your id, which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
    This is an example of the author info
@@ -45,11 +45,11 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
    ```
    id: Jon Doe
    bio: A short intro about me
-   github:
-   stackoverflow:
-   linkedin:
-   medium:
-   twitter:
+   GitHub:
+   StackOverflow:
+   LinkedIn:
+   Medium:
+   Twitter:
    ```
 
 8. While creating a pull request, ensure that you enable `Allow edits from maintainers` permission.
