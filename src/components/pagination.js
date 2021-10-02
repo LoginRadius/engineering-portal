@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import styles from "./pagination.module.scss"
+import * as styles from "./pagination.module.scss"
 
 const Pagination = ({ pages, currentPage }) => {
   const isFirst = currentPage === 1

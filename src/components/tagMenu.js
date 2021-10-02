@@ -1,6 +1,6 @@
 import React from "react"
-import { Link, StaticQuery } from "gatsby"
-import styles from "./post.module.scss"
+import { Link, StaticQuery, graphql } from "gatsby"
+import * as styles from "./post.module.scss"
 
 // Utilities
 import kebabCase from "lodash/kebabCase"

@@ -1,6 +1,5 @@
 import React from "react"
-import Img from "gatsby-image"
-import styles from "./static.module.scss"
+import * as styles from "./static.module.scss"
 
 const Static = (props) => {
   return (

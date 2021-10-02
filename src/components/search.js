@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
-import headerStyles from "./header.module.scss"
+import * as headerStyles from "./header.module.scss"
 import { isMobile } from "react-device-detect"
 
 // Search component

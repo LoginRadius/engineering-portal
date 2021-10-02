@@ -1,12 +1,13 @@
 import React from "react"
-import styles from "./cardlist.module.scss"
+import * as styles from "./cardlist.module.scss"
 import { Link, StaticQuery } from "gatsby"
 import Bio from "./bio"
 import defaultImg from "../../content/assets/default-blog.jpg"
-import style from "./post.module.scss"
+import * as style from "./post.module.scss"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 import Img from "gatsby-image"
+import { graphql } from "gatsby"
 import getTimeToRead from "../utils/timeToRead"
 import ReactGA from "react-ga"
 const eventLogger = function ({ category, action, label }) {

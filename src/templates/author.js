@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-import styles from "./author.module.scss"
+import * as styles from "./author.module.scss"
 import CardList from "../components/cardList"
 import SEO from "../components/seo"
 
@@ -13,6 +13,7 @@ import {
   faStackOverflow,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons"
+import { graphql } from "gatsby"
 
 export default ({
   data: {

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./freeTrial.module.scss"
+import * as styles from "./freeTrial.module.scss"
 // import { OutboundLink } from "gatsby-plugin-google-analytics"
 import ReactGA from "react-ga"
 
