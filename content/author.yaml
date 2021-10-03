@@ -192,10 +192,11 @@
   linkedin: "deepali-soni-8071b548"
 
 - id: Narendra Pareek
-  bio: Narendra is a Software Developer at LoginRadius, where he is utilizing his skills in different NodeJS and GO language projects. He has worked with different languages i.e PHP, AngularJS and also has a good knowledge of handling technical support.
+  bio: Narendra is a Product Manager at LoginRadius, where he is utilizing his skills in driving vision and roadmap for businesses. He focuses on collaboration between customer and company. He is also having a 5 years of develoment experience in different NodeJS, GO and PHP language projects.
   github: "pareek-narendra"
   linkedin: "narendra-pareek"
   stackoverflow: "13819129"
+  twitter: "PareekNaren"
 
 - id: Hitesh Kumawat
   bio: I care deeply about creating world-class, useful, and beautiful products and web that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to design, creative direction, system design, and even the front-end and WordPress build.
@@ -316,7 +317,7 @@
   github: "eylonronen"
 
 - id: Shubhankar Khare
-  bio: A delligent and promp learner, Shubhankar Khare is a passionate full stack web developer from India. He is crazy about learning new technologies and is an open source enthusiast
+  bio: He is a passionate full stack web developer from India. He loves learning new technologies and is an open source enthusiast.
   github: "iamshubhankarkhare"
   linkedin: "shubhankar-khare"
 
@@ -486,6 +487,10 @@
   linkedin: "akash-patil-100"
 
 - id: Raghunath Reddy
+  bio: "Raghunath is a technical content writer with a graduate degree in computer science. He is also a Conversion Rate Optimization (CRO) enthusiast and enjoys studying the English language."
+  github: "raghunath-r-a"
+  linkedin: "raghunathreddyalla"
+  twitter: "_raghunath"
 
 - id: "Uma Victor"
   bio: "I am a software developer based in Nigeria, familiar with a variety of different web technologies/frameworks and keen on always finding ways to explain things as simply as possible."
@@ -498,3 +503,26 @@
   linkedin: "vishnuchilamakuru"
   medium: "@vishnuchi"
   twitter: "vishnuchi"
+  
+- id: Erkki Muuga
+  bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
+  linkedin: "erkkimuuga"
+  facebook: "erkki.muuga"
+
+- id: Taminoturoko Briggs
+  bio: An enthusiastic software developer conversant with Python and JavaScript.
+  github: "tammibriggs"
+  stackoverflow: "15485047"
+  linkedin: "taminoturoko-briggs-b98251203"
+
+- id: "Victory Tuduo"
+  bio: "He is an experienced software developer skillful in React and frontend web development."
+  github: "Victory-ET"
+  linkedin: "tuduo-victory-7ba4641a4"
+
+- id: Joydip Kanjilal
+  bio: Microsoft MVP (2007 - 2012), Author and Speaker with more than 25 years experience. Familiar with C#, .NET Core, SQL Server, Microsoervices, Design Patterns, REST, GraphQL and Software Architecture
+  github: "joydipkanjilal"
+  linkedin: "joydipkanjilal"
+  medium: "@joydipkanjilal"
+  twitter: "joydipkanjilal"
