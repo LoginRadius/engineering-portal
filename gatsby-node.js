@@ -27,6 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 tags
+                pinned
               }
             }
           }
@@ -79,14 +80,15 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Creating Blog List Pages
-  const numPages = Math.ceil((posts.length - 1) / postsPerPage)
+  const numPages = Math.ceil((posts.length - 2) / postsPerPage)
+  const pinnedNode = posts.filter(edge => edge.node.frontmatter.pinned)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/` : `/${i + 1}`,
       component: path.resolve("./src/templates/blog-list-template.js"),
       context: {
         limit: postsPerPage,
-        skip: i * postsPerPage + 1,
+        skip: pinnedNode ? i * postsPerPage : i * postsPerPage + 1,
         numPages,
         currentPage: i + 1,
       },
@@ -165,6 +167,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       coverImage: File @fileByRelativePath
+      pinned: Boolean
     }
   `
   createTypes(typeDefs)

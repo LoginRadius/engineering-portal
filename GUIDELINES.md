@@ -64,7 +64,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 - Make sure the language in your writing is precise and doesn’t have mistakes.
 
-- Use short paragraphs, break down longer paragraphs into smaller oneS, people lose their interest while reading a long paragraph.
+- Use short paragraphs, break down longer paragraphs into smaller ones, people lose their interest while reading a long paragraph.
 
 - Use headers to structure your post, use large headers for the main heading, and smaller for sub-sections in it.
 
