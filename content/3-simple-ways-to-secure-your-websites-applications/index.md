@@ -10,7 +10,7 @@ It is hard to write 100% holes-free code, no matter how hard you try. Sometimes 
 
 1\. **DO NOT trust any user-input, PERIOD.** Not even if it is yours truly. This is the most common attack vector for your web applications, whether it is just a contact form or an API end-point. For example, if a form is implemented to store data in a database, someone can try brute-forcing with classic SQL-injection techniques. Others can certainly try calling your API and see if there are any spotty error-handling issues. Sanitize all inputs as much as you can, and handle all errors behind the scenes properly and gracefully without exposing the actual details to the public.
 
-2\. **UPDATE, UPGRADE and REPEAT.** Chances are, a lot of your code is dependent on third-party libraries (open or closed source, does not matter). It is your job to make sure you are using the latest version for them all. When hackers find out you are using outdated or vulnerable code, you are done. I have seen this happening way too many times than I can count over the years when websites got hacked and outdated plugins or libraries was the main culprit.
+2\. **UPDATE, UPGRADE and REPEAT.** Chances are, a lot of your code is dependent on third-party libraries (open or closed source, does not matter). It is your job to make sure you are using the latest version for them all. When hackers find out you are using outdated or vulnerable code, you are done. I have seen this happening way too many times than I can count over the years when websites got hacked and outdated plugins or libraries were the main culprit.
 
 You might be saying, "Hey, upgrading that library will break my code!!". Well, what is your job again? Deal with it.
 
