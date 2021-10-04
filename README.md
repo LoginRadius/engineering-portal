@@ -1,4 +1,4 @@
-# Async Blog
+<h1>Async Blog <img src="https://api.netlify.com/api/v1/badges/4ca5033c-006a-4b28-8706-ce0a6c0b0e7d/deploy-status" /></h1>
 
 Async Blog is a place for developers created by developers. It contains numerous valuable resources for developers on a wide range of technical and programming topics. These resources aim to solve developer problems and are created by developers around the world and the developers from the LoginRadius engineering team.
 
@@ -26,6 +26,12 @@ To run the project locally, you need to have Nodejs and npm installed.
 
 ```bash
   $ npm run develop
+```
+
+3. This will run the server on the port:8000 by default
+
+```
+localhost:8000
 ```
 
 ## How to contribute
