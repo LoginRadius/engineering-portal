@@ -2,8 +2,11 @@ import styled from "@emotion/styled"
 import style from "./toc.module.scss"
 import React from "react"
 import tw from "twin.macro"
+
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 import ScriptTag from "react-script-tag"
-//import js from "./toc__hyperlinkNavFloating"
+import js from "./toc__hyperlinkNavFloating"
 
 const ToC = ({ headings }) => (
   <Toc id='tocUl' className={style.tableofcontents + ' ' + style.slideOut} >
@@ -17,40 +20,40 @@ const ToC = ({ headings }) => (
 
         return (
           <ToCElement key={heading.value}>
-            <ToCLink
-              href={`#${heading.value
-            .replace(/\s+/g, "-")
-            .replaceAll(':', '')
-            .replaceAll(';', '')
-            .replaceAll('\"', '')
-            .replaceAll('\'', '')
-            .replaceAll('&', '')
-            .replaceAll('|', '')
-            .replaceAll('=', '')
-            .replaceAll('+', '')
-            .replaceAll('*', '')
-            .replaceAll('>', '')
-            .replaceAll('<', '')
-            .replaceAll('^', '')
-            .replaceAll('@', '')
-            .replaceAll('#', '')
-            .replaceAll('$', '')
-            .replaceAll('%', '')
-            .replaceAll('[', '')
-            .replaceAll(']', '')
-            .replaceAll('_', '')
-            .replaceAll('!', '')
-            .replaceAll('?', '')
-            .replaceAll(',', '')
-            .replaceAll('’', "")
-            .replaceAll('.', '')
-            .replaceAll('}', '')
-            .replaceAll('{', '')
-            .replaceAll('(', '')
-            .replaceAll(')', '')
-            .toLowerCase()
-}`}
-            >
+              <ToCLink
+              onClick={() => scrollTo(`#${heading.value
+                  .replace(/\s+/g, "-")
+                  .replaceAll(':', '')
+                  .replaceAll(';', '')
+                  .replaceAll('\"', '')
+                  .replaceAll('\'', '')
+                  .replaceAll('&', '')
+                  .replaceAll('|', '')
+                  .replaceAll('=', '')
+                  .replaceAll('+', '')
+                  .replaceAll('*', '')
+                  .replaceAll('>', '')
+                  .replaceAll('<', '')
+                  .replaceAll('^', '')
+                  .replaceAll('@', '')
+                  .replaceAll('#', '')
+                  .replaceAll('$', '')
+                  .replaceAll('%', '')
+                  .replaceAll('[', '')
+                  .replaceAll(']', '')
+                  .replaceAll('_', '')
+                  .replaceAll('!', '')
+                  .replaceAll('?', '')
+                  .replaceAll('’', '')
+                  .replaceAll(',', '')
+                  .replaceAll('.', '')
+                  .replaceAll('}', '')
+                  .replaceAll('{', '')
+                  .replaceAll('(', '')
+                  .replaceAll(')', '')
+                  .toLowerCase()
+                }`)}
+              >
               {heading.value}
             </ToCLink>
           </ToCElement>
