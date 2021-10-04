@@ -6,20 +6,20 @@
   box-sizing: inherit;
 }
 img {
-  max-width: 100%;
+  max-width: 110%;
   border: 0;
   display: block;
-  margin-bottom: 0;
+  margin-bottom: 2;
 }
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 25px;
   scroll-behavior: smooth;
 }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   font-family: $font-stack;
 }
 *,
@@ -98,8 +98,8 @@ ul {
 }
 .btn-primary {
   padding: 0 24px;
-  height: 52px;
-  border-radius: 4px;
+  height: 55px;
+  border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
   line-height: 52px;
@@ -112,7 +112,7 @@ ul {
   text-align: center;
   display: block;
   white-space: nowrap;
-  transition: all 0.3s;
+  transition: all 0.5s;
   border: 0;
   transition: color 0.35s, background-color 0.35s, border-color 0.35s,
     box-shadow 0.35s, opacity 0.35s;
@@ -364,7 +364,7 @@ section {
 .sib-form-message-panel__text {
   display: flex;
   align-items: center;
-  margin: 0;
+  margin: 2;
   padding: 0.5rem;
 }
 .sib-form-message-panel__text .sib-notification__icon {
