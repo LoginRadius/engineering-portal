@@ -18,7 +18,7 @@ const Tags = ({ pageContext, data, location }) => {
     <Layout location={""} title={""}>
       <SEO
         title={tag}
-        description={`LoginRadius Engineering Blog - Posts related to ${tag}`}
+        description={`Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient. Posts related to ${tag}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
         pathname={location.pathname}
       />

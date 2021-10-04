@@ -14,7 +14,7 @@ const BlogList = ({ data, pageContext, location }) => {
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
         pathname={location.pathname}
-        description={`LoginRadius Engineering Blog - Page ${currentPage} of ${Math.ceil(
+        description={`LoginRadius Async Blog - Page ${currentPage} of ${Math.ceil(
           total / 6
         )}`}
       />
