@@ -101,7 +101,7 @@ To be successful, remote software engineering teams need natural ways of buildin
 
 ## Team One-on-One Communication
 
-Team one-on-one communication is just essential as team cohesion. This allows your team members to talk about any difficulties,  they're scared to bring up in group sessions.It's also a good moment to check in with team members about their role and whether it aligns with their overall career ambitions.
+Team one-on-one communication is just essential as team cohesion. This allows your team members to talk about any difficulties, they're scared to bring up in group sessions. It's also a good moment to check in with team members about their role and whether it aligns with their overall career ambitions.
 
 ## Key Takeaways for Managing Remote Software Engineering Teams
 
