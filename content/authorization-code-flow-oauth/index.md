@@ -35,3 +35,6 @@ So you might ask yourself what the whole point of the Authorization Code is. At 
 
 In cases where you'd like the Authorization Server to return the access token immediately, you would use the Implicit flow for OAuth 2.0. Most authorization servers will limit the amount of data that can be returned using this flow; the OAuth 2.0 spec recommends limited scopes and short lifespans for tokens returned using this flow.
 
+### How to implement it
+
+Follow LoginRadius [OAuth 2.0 Introduction](https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/) doc for implementing the Authorization Code Flow quickly. You will get all configuration and APIs details from the [OAuth 2.0 Introduction](https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/) doc. 
