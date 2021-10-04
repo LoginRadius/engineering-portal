@@ -2,7 +2,7 @@
 
 Here are the guidelines that you shall follow for writing a blog post for Async Blog:
 
-1. First of all, create a directory in `guest-post` under `content` directory. The name of the directory will be the slug of your blog post. Please only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
+1. First of all, create a directory under `/content/guest-post/`. The name of the directory will be the slug of your blog post. Please only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
 2. Add an `index.md` file and write your blog in it. Place any relevant images used in the blog in the same directory as `index.md`.
 3. Write the post in Markdown format -- it's easy, fast, and multi-platform. And you can edit it in any editor, like VS Code, which has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of Markdown.
 4. You can also refer to this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -12,10 +12,10 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
    - **title:** A meaningful title. Max. 60 characters.
      Note: This title will appear in the post, so no need to again include it in the `.md` file.
    - **date:** A date should be in `YYYY-MM-DD` format. And the date should not be greater than the current date.
-   - **coverImage:** The name of the image with format should come here. For example, `coverimage.png`. Please make sure that the image is present in the same directory as your `.md`.
-   - **author:** The name of the author, make sure the author name should match with what you would add in your Pull Request description.
+   - **coverImage:** The name of the image with format should come here. For example, `coverimage.png`. Please make sure that the image is present in the same directory as your `index.md`.
+   - **author:** The name of the author. Make sure that it matches with what you would add in the `/content/author.yaml` file.
    - **tags:** Add up to 3 relevant tags as an array of string `for eg: ["NodeJs"]`.
-   - **description:** Add a short description about your blog post, which will appear in the card of your blog. It should not be more than 160 characters. 
+   - **description:** Add a short description about your blog post, which will appear in the card of your blog. It should not be more than 160 characters.
 
    This is an example of the meta info in your blog:
 
@@ -33,14 +33,14 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
    ```
 
-7. As discussed above, while submitting the pull request, you need to mention the **author details** in the pull request description. The format should be as below.
+7. As discussed above, you shall add the **author details** in `/content/author.yaml`. The format should be as follows:
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
-   - **bio (optional)**: A short, meaningful intro about you.
+   - **bio (required)**: A short, meaningful intro about you that instills trust and confidence.
    - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
      Note: For StackOverflow, you need to add your id, which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
-   This is an example of the author info
+   This is an example of the author details:
 
    ```
    id: Jon Doe
@@ -75,9 +75,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 - If your blog contains demo code, or if you want to include demo code in a repo for easier reference, please [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a pull request.
 
-- Use images/screenshots in your post to example things better.
-
-- Always provide a GitHub demo link whenever your blog post contains the code.
+- Use images/screenshots in your post to example things better. Any stock images you use should be free for commerical use without requiring attribution.
 
 - Ensure simplicity, ease of implementation of the content, developer-friendliness, and effectiveness.
 
