@@ -20,7 +20,3 @@ Thank you for your pull request. Please review the below requirements.
 ##### Description of change
 
 <!-- In case of a bug please provide a short description of what is changed and add link of the relevant issue after this comment-->
-
-##### Author Details for Blog Post Entry
-
-<!-- Please provide your details in the format specified in the [Blog Guidelines](https://github.com/LoginRadius/engineering-portal/blob/master/GUIDELINES.md) -->
