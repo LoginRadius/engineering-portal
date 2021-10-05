@@ -9,7 +9,7 @@ const Hacktoberfest2020 = () => {
     <Layout>
       <SEO
         title={`Write for Us`}
-        description={`LoginRadius provides a guest blogging opportunity to write an article for the LoginRadius Engineering blog specific to technical geeks.`}
+        description={`Async Blog provides a guest blogging opportunity to write an article for the LoginRadius Engineering blog specific to technical geeks.`}
         image={HeroImage}
       />
       <div className="guest-blog">
@@ -21,8 +21,7 @@ const Hacktoberfest2020 = () => {
                 For technical people who have practical, tangible, hands-on
                 experience to share with our blog readers about relevant
                 industry topics or LoginRadius products, it is a great
-                opportunity to write an article for The LoginRadius Engineering
-                Blog.
+                opportunity to write an article for The LoginRadius Async Blog.
               </p>
             </div>
             <div>
