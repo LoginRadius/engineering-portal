@@ -51,6 +51,8 @@ As you've known everything about JWT, let's secure your PHP API using JWT. Follo
 
 In this blog, we'll make a simple login page and authenticate it using JWT. This will help you get started with JWT and PHP.
 
+After getting a thorough insight of what JWTs are, let us now learn the ways to use them in a PHP app. Before moving in to the steps, feel free to [clone the code](https://github.com/espark-biz/basic-php-jwt-auth-example) for this article, or you can create it by following the steps one-by-one as we go.
+
 To follow along, you'll need to have PHP and Composer installed on your computer.
 
 If you haven't already installed composer on your computer, you may do so here. Once the composer has been installed, run the tool from your project folder. Composer will assist you in installing Firebase PHP-JWT, a third-party library for working with JWTs and Apache.
