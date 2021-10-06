@@ -26,6 +26,7 @@
     "gatsby-plugin-sharp": "^3.14.0",
     "gatsby-plugin-sitemap": "^4.10.0",
     "gatsby-plugin-typography": "^3.14.0",
+    "gatsby-remark-code-buttons": "^2.0.7",
     "gatsby-remark-copy-linked-files": "^4.11.0",
     "gatsby-remark-images": "^5.11.0",
     "gatsby-remark-prismjs": "^5.11.0",
@@ -56,7 +57,7 @@
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
-},
+  },
   "homepage": "https://github.com/LoginRadius/engineering-portal#readme",
   "keywords": [
     "blog",
