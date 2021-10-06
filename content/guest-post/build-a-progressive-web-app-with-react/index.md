@@ -11,6 +11,8 @@ Progressive Web Apps (or "PWA"s) are more dynamic web applications with the abil
 
 In this article we're going to show you how you could get started in building a PWA using React. With React being a highly popular web-framework, we'll start by by going over the setup, development process and spinning it up to see how it looks. For this example we will be creating a simple Counter Page which simply adds or subtracts a number based on button controls.
 
+## Create React App with Progressive Web App Template
+
 Before we can begin coding we will need to set up our project. Let's start by ensuring you can use React, (if you already have been coding in React, you can probably skip this section!). With any development using web frameworks such as Angular, React or Vue, using NodeJS is needed, especially if you wish to use libraries and packages to assist in developing your project. A popular utility in using such packages and libraries is the Node Package Manager or simply referred to as "npm". This utility allows us to install/uninstall packages, start our React application build using webpack, and many more features. For our needs, we can also take advantage of npm to create a React application with a PWA template, which can allow us to begin coding right away. Whenever you may start to build a React app, you can use templates offered by Facebook using the 'create-react-app' command with npm. Let's build the PWA starter app by running the following command:
 
 ```powershell
@@ -18,11 +20,15 @@ npx create-react-app name-of-our-PWA-app --template cra-template-pwa
 ```
 To explain the command above, it can be broken down to this structure:
 
-- npx = every npm command needs to start with npm (or essentially with whatever node package manager you have installed, but for us we're using 'npx' which comes with npm version 5.2.0) and this will help us run npm packages and takes care of many [features](https://nodejs.dev/learn/the-npx-nodejs-package-runner)
-- create-react-app = this command initiates the popular Create React App utility that helps you to build the starter react project
-- name-of-our-PWA-app = this is a filler title to your application, name the app to whatever you would like (I've used the default 'my-app' name for mine)
-- —template = this is a argument, when you have a argument you essentially enabling an option in the same command, for us we want to specify a specific template for our starter react application
-- cra-template-pwa = the name of the PWA template for our PWA react application
+**npx**: every npm command needs to start with npm (or essentially with whatever node package manager you have installed, but for us we're using 'npx' which comes with npm version 5.2.0) and this will help us run npm packages and takes care of many [features](https://nodejs.dev/learn/the-npx-nodejs-package-runner)
+
+**create-react-app**: this command initiates the popular Create React App utility that helps you to build the starter react project
+
+**name-of-our-PWA-app**: this is a filler title to your application, name the app to whatever you would like (I've used the default 'my-app' name for mine)
+
+**—template**: this is a argument, when you have a argument you essentially enabling an option in the same command, for us we want to specify a specific template for our starter react application
+
+**cra-template-pwa**: the name of the PWA template for our PWA react application
 
 Hitting 'Enter' after this command should initiate the build our our starter PWA React application, you should see a stream of prompts in your command line interface. It may take a few minutes, but if you are able to see this screen after the command, you have the project!
 
@@ -32,34 +38,19 @@ Hitting 'Enter' after this command should initiate the build our our starter PWA
 
 Here we can see the following folder structure of our application so far, there are a few files that garner our attention when it comes to PWA's:
 
-- service-worker.js
-- serviceWorkerRegistration.js
-- manifest.json
-
 **service-worker.js**: This is a script that will run in the background once our application is running. The service worker makes sure that we can use our React application offline and handle multiple requests for the UI. ([learn more](https://developers.google.com/web/fundamentals/primers/service-workers?hl=en))
 
 **manifest.json**: This is basically a configuration file that lists different properties we can customize specifically for progressive web applications. It can be noted it can determine such things as icons, names, and colors to use when the application is displayed.
 
 **serviceWorkerRegistration.js**: This file will do the job of telling whether or not our service worker was successfully registered. If you look into the file, you will notice multiple console logs that will be displayed depending on the status of the service worker once you deploy your application.
 
+## Adding a Simple React Component
+
 For our project, we're going to be building a simple Counter component, similar (if not exactly the same) to the example provided in the React docs: [https://reactjs.org/docs/hooks-state.html](https://reactjs.org/docs/hooks-state.html)
 
 Let's start by creating a Counter component, I'll name mine Counter.jsx and place it in a "components" folder.
 
 To speed things up, you can copy/paste the following code to your specific files, I've went ahead and built out a simple page and some generic stylings for the component.
-
-*Note: I'm using Material UI's Button components, you don't need to and can substitute the Button component with:
-
-```jsx
-<button onClick={increment}>+</button>
-```
-
-To use Material UI, run the following npm commands:
-
-```powershell
-npm install @mui/material
-npm install @emotion/react @emotion/styled //these are additional dependencies for me to get Material UI working with the Counter component
-```
 
 ```jsx
 //Counter.jsx
@@ -91,6 +82,20 @@ function Counter(props) {
 
 export default Counter;
 ```
+*Note: I'm using Material UI's Button components, you don't need to and can substitute the Button component with:
+
+```jsx
+<button onClick={increment}>+</button>
+```
+
+To use Material UI, run the following npm commands:
+
+```powershell
+npm install @mui/material
+npm install @emotion/react @emotion/styled //these are additional dependencies for me to get Material UI working with the Counter component
+```
+
+## Running our Application
 
 In your command-prompt, entering 'npm start' can spin up our application to a specific [localhost](http://localhost) url. We can start to see what work we've done so far.
 
@@ -105,6 +110,8 @@ This will start the application at a set [localhost](http://localhost) URL, once
 ![counter-base-app.png](counter-base-app.png)
 
 Now it is all good and dandy to have the app live and working, but we're more interested in the PWA aspect.
+
+## Running our Progressive Web Application
 
 Focusing our attention back to the index.js file. Make the following change:
 
@@ -132,6 +139,8 @@ Once you use the serve command you should see the message below, having our appl
 If you enter the [localhost](http://localhost) URL to your browser, you should see something similar to this:
 
 ![pwa-service-worker.png](pwa-service-worker.png)
+
+## PWA Features
 
 With the PWA React application live, let's take a look under hood and open up the Developer Tools (for my browser Google Chrome, entering F12 opens the Dev Tools).
 
