@@ -28,8 +28,6 @@ Hitting 'Enter' after this command should initiate the build our our starter PWA
 
 ![cra-pwa.png](cra-pwa.png)
 
-Hitting 'Enter' after this command should initiate the build our our starter PWA React application, you should see a stream of prompts in your command line interface. It may take a few minutes, but if you are able to see this screen after the command, you have the project!
-
 ![pwa-folder-structure.png](pwa-folder-structure.png)
 
 Here we can see the following folder structure of our application so far, there are a few files that garner our attention when it comes to PWA's:
@@ -119,7 +117,7 @@ serviceWorkerRegistration.register(); //change the service worker registration f
 
 Essentially changing the service worker from unregistered to registered will allow us to utilize the app even when its offline, a key benefit when it comes to PWAs. Check Google's explanation on this topic for more information: [https://developers.google.com/web/fundamentals/primers/service-workers/registration](https://developers.google.com/web/fundamentals/primers/service-workers/registration)
 
-With the PWA files setup, in order to view the difference we will need to deploy our application in a production environment, what I did was use the 'serve' package that will deploy our application to the production environment. In a nutshell, I made sure I had the 'serve' package by installing, built the application again and used serve to deploy the application:
+With the PWA files setup, in order to view the difference we can deploy our application to a static server, using the 'serve' package that will serve our application to localhost. In a nutshell, I made sure I had the 'serve' package by installing, built the application again and used serve to deploy the application:
 
 ```powershell
 npm install serve
