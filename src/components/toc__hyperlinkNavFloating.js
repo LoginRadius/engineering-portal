@@ -14,54 +14,39 @@ var tocShown = true;
 
 window.onload = function () {
 
-    setTimeout(function () {
-
+    window.onscroll = function () {
         doSomethingAtStart();
+    };
 
+    window.onresize = function ()
+    {
+        checkMedia( media1620 );
+
+        ( checkForElement() && media1620on )
+            ? hideTOC()
+            : showTOC();
+    };
+
+    setTimeout(function () {
+        doSomethingAtStart();
     }, 2000);
 
+
     function doSomethingAtStart() {
-        if (checkforElement()) {
 
-//            console.log("doSomethingAtStart RAN");
+        if ( !checkForElement() ) return;
 
-            var elementToChangeId = "tocUl";
-            var elementToChangeClassList = document.getElementById(elementToChangeId).classList;
+        var elementToChangeId = "tocUl";
+        var elementToChangeClassList = document.getElementById(elementToChangeId).classList;
 
-            for (var i = 0; i < elementToChangeClassList.length; i++) {
-                if (elementToChangeClassList[i].includes("slideOut")) {
-
-                    slideOutName = elementToChangeClassList[i];
-                }
+        for (var i = 0; i < elementToChangeClassList.length; i++) {
+            if (elementToChangeClassList[i].includes("slideOut")) {
+                slideOutName = elementToChangeClassList[i];
             }
-
-            if (media1620on) hideTOC();
-
         }
+
+        if ( media1620on ) hideTOC();
     }
-
-
-    document.addEventListener('click', function (event) {
-
-
-        // If the clicked element doesn't have the right selector, bail
-        if (!event.target.matches("#" + elementToClickOnID)) {
-            return;
-        }
-
-        // Don't follow the link
-        event.preventDefault();
-
-
-        if (tocShown) {
-            hideTOC();
-        } else {
-            showTOC();
-        }
-
-
-    }, false);
-
 
     function hideTOC() {
         document.getElementById(elementToChangeId).classList.remove(slideOutName);
@@ -74,86 +59,33 @@ window.onload = function () {
     }
 
 
-    window.onscroll = function () {
-        if (checkforElement()) {
-            if (media1620on) hideTOC();
-        }
-    };
+    document.addEventListener('click', function (event)
+    {
+        // If the clicked element doesn't have the right selector, bail
+        if ( !event.target.matches("#" + elementToClickOnID) ) return;
+
+        // Don't follow the link
+        event.preventDefault();
+
+        ( checkForElement() && tocShown )
+            ? hideTOC()
+            : showTOC();
+
+    }, false);
 
 
-    window.onresize = function () {
-
-        checkMedia(media1620);
-
-        if (checkforElement()) {
-            if (media1620on) {
-                hideTOC();
-            } else {
-                showTOC();
-            }
-        }
-    };
-
-
-    function checkforElement() {
-        if (document.getElementById(elementToChangeId) != null) return true
-        return false;
+    function checkForElement() {
+        return ( document.getElementById(elementToChangeId ) != null );
     }
 
-//
-//    function addObserverIfDesiredNodeAvailable() {
-//
-//
-//        var mutTargetNode = document.querySelector(".py-80");
-//
-//
-//        if (!mutTargetNode) {
-//            //The node we need does not exist yet.
-//            //Wait 500ms and try again
-//            window.setTimeout(addObserverIfDesiredNodeAvailable, 500);
-//
-//            console.log("target doesnt exist");
-//
-//            return;
-//        }
-////
-//
-//        var observerOptions = {
-//            childList: false,
-//            attributes: true,
-//            attributeFilter: ['id'],
-//
-//            // Omit (or set to false) to observe only changes to the parent node
-//            subtree: false
-//        }
-//
-//        var observer = new MutationObserver(function (mutations) {
-//
-//            console.log("ID CHANGED");
-//
-//            doSomethingAtStart();
-//
-//        });
-//
-//        observer.observe(mutTargetNode, observerOptions);
-//
-//    }
-
-};
-
-
-function checkMedia(media1620) {
-    if (media1620.matches) { // If media query matches
-
-        media1620on = true;
-
-    } else {
-
-        media1620on = false;
-
-    }
+    // Call listener function at run time
+    checkMedia( media1620 );
 }
 
 
-checkMedia(media1620) // Call listener function at run time
-//media1620.addListener(checkMedia) // Attach listener function on state changes
+function checkMedia( media1620 )
+{
+    // If media query matches
+    media1620on = media1620.matches;
+    console.log(media1620on);
+}
