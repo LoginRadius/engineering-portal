@@ -1,6 +1,6 @@
 ---
 title: "How to Fix Memory Leaks in React"
-date: "2021-09-30"
+date: "2021-10-08"
 coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["React", "Memory Leak", "Fix"]
