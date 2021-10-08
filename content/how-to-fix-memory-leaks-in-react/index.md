@@ -50,7 +50,7 @@ const [value, setValue] = useState('checking value...');
 useEffect(() => {
 let isMounted = true;
 fetchValue().then(() => {
-      if(!isMounted ){
+      if(isMounted ){
       setValue("done!"); // no more error
       } 
     });
@@ -59,7 +59,7 @@ fetchValue().then(() => {
     };
 }, []);
 ```
-In the above code, I've created a boolean variable `isMounted`, whose initial value is true. And then, I've updated my state and returned to set false that variable,s which means when a new effect is to be executed, it will clean the previous effect. 
+In the above code, I've created a boolean variable `isMounted`, whose initial value is true. When `isMounted` is true the state is updated and function is returned, else if the action is unmounted before completion, then function is returned with `isMounted` as false. This ensures that when a new effect is to be executed, the previous effect will be taken care of first. 
 
 ### 2) Using AbortController
 ```
