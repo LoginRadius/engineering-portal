@@ -59,7 +59,7 @@ fetchValue().then(() => {
     };
 }, []);
 ```
-In the above code, I've created a boolean variable `isMounted`, whose initial value is true. When `isMounted` is true the state is updated and function is returned, else if the action is unmounted before completion, then function is returned with `isMounted` as false. This ensures that when a new effect is to be executed, the previous effect will be taken care of first. 
+In the above code, I've created a boolean variable `isMounted`, whose initial value is true. When `isMounted` is true, the state is updated and function is returned. Else if the action is unmounted before completion, then function is returned with `isMounted` as false. This ensures that when a new effect is to be executed, the previous effect will be first taken care of. 
 
 ### 2) Using AbortController
 ```
