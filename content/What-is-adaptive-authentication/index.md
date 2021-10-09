@@ -56,6 +56,11 @@ Whenever an authentication request is deemed as a malicious attempt based on the
 
 **Security Questions:** This forces the consumer to answer one or more security questions before authenticating the request.
 
+**Push authentication:** User authentication is accomplished by delivering a push notification to a secure application on the user's device.
+
+**FIDO U2F tokens:** FIDO U2F tokens allow users to utilise a single device to access any website or online service that supports the FIDO U2F protocol.
+
+
 ## Benefits of Adaptive Authentication
 
 [Multifactor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) creates a longer authentication process for the consumers, which causes lower consumer conversation at your application. Adaptive Authentication only triggers an elevated-risk situation while keeping the frictionless authentication process in place for normal conditions. 
