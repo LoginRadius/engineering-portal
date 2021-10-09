@@ -5,11 +5,11 @@
 [**Laravel**](https://laravel.com/) is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
 Laravel saves your time and effort as it did not requires to rewrite a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
 
-- **Authorization**
-- **Database Migrations** is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
-- **Eloquent ORM** included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
-- **Queuing**
-- **Scheduler** offers a fresh approach to managing scheduled tasks on your server.
+- **```Authorization```** In addition to providing built-in authentication services, Laravel also provides a simple way to authorize user actions against a given resource.
+- **```Database Migrations```** is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
+- **```Eloquent ORM```** included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
+- **```Queuing```** Queues in Laravel are used to make a smooth sailing application cycle by stacking heavy tasks to be handled as jobs and dispatching these jobs when it is asked to or when it does not disrupt the user's experience.
+- **```Scheduler```** offers a fresh approach to managing scheduled tasks on your server.
 
 It is open source and [source](https://github.com/laravel/laravel) can be found on github. The latest Laravel version is version 8, which was released on September 8, 2020, with new features like Laravel Jetstream, model factory classes, migration squashing, Tailwind CSS for pagination views and other usability improvements.
 
@@ -76,25 +76,25 @@ If we need to do customizations in our custom controllers with existing logged i
 The app directory is the most important part for the application. It contains:
 
 
--   **Exceptions** - *Contains application exception handler and custom exception classes.*
--   **Listeners** - *Contains all the handler classes for various events.*
--   **Console** - *Contains all the Artisan commands*
--   **Http** - *Contains all controllers, middleware, requests and routes file.*
--   **Providers** - *Contains all service providers.*
--   **Events** - *Contains all event classes.*
--   **Jobs** - *Contains all the queued job of application.*
--   **Policies** - *Contains the authorization policies of application. Policies are used to tell if a user can perform a given action against rule.*
+-   **```Exceptions```** - *Contains application exception handler and custom exception classes.*
+-   **```Listeners```** - *Contains all the handler classes for various events.*
+-   **```Console```** - *Contains all the Artisan commands*
+-   **```Http```** - *Contains all controllers, middleware, requests and routes file.*
+-   **```Providers```** - *Contains all service providers.*
+-   **```Events```** - *Contains all event classes.*
+-   **```Jobs```** - *Contains all the queued job of application.*
+-   **```Policies```** - *Contains the authorization policies of application. Policies are used to tell if a user can perform a given action against rule.*
 
 The other important directories:
 
--    ***boostrap** contains framework autoloading files and generated cache files.*
--    ***config** contains app's configuration files.*
--    ***tests** contains all tests.*
--    ***public** contains publicly available assets.*
--    ***vendor** contains all app dependencies.*
--    ***resources** contains views and localization files.*
--    ***database** contains database migrations and seeds.*
--    ***storage** contains all Blade templates, file caches and logs.*
+-    ***```boostrap```** contains framework autoloading files and generated cache files.*
+-    ***```config```** contains app's configuration files.*
+-    ***```tests```** contains all tests.*
+-    ***```public```** contains publicly available assets.*
+-    ***```vendor```** contains all app dependencies.*
+-    ***```resources```** contains views and localization files.*
+-    ***```database```** contains database migrations and seeds.*
+-    ***```storage```** contains all Blade templates, file caches and logs.*
 
 
 # Setting the Controllers
@@ -239,6 +239,13 @@ For logging out of application for any user, the logout method can be used on th
 ```
 Auth::logout();
 ```
+
+# Migrations
+The user migration files comes by default with a Laravel installation. Migrations are simply version-control for the database, allowing us to easily modify and share the application's database details. In Laravel, migrations are placed in the `database/migrations` directory. Each migration file name contains a timestamp which allows Laravel to determine the order of the migrations. Check the `database/migrations` directory and check migration files `(timestamp)_create_users_table.php` and `(timestamp)_create_password_resets_table.php` and may be others too. Now, run this command from your terminal:
+```
+php artisan migrate
+```
+The `users` and `password_resets` table will be created on running command. The value will be assigned to this `DB_DATABASE` constant automatically.
 
 
 *Reference: **Please Don't [Click](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg) here**.*
