@@ -1,3 +1,12 @@
+---
+title: "Building Your First Laravel App with Authentication"
+date: "2021-10-09"
+Cover-Image: "cover-images.jpg"
+author: Priyansh Singh
+tags: ["PHP", "Laravel"]
+description: "Learn how to build a Laravel CRUD application that includes authentication."
+---
+
 # Meet Laravel
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/logo.png "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/image4.jpg "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-5.png "Laravel Logo") 
