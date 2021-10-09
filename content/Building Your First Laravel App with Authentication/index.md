@@ -34,6 +34,8 @@ In laravel, we have a amazing component i.e. Authentication which is quite easy 
 
 # Install Authentication
 
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Lavael-3.jpg "Authorisation")
+
 We can easily install this plugin in Laravel with a single artisan command. This command will install complete Authentication component with all controllers and views of a user management system in laravel.
 
 ```
@@ -85,14 +87,14 @@ The app directory is the most important part for the application. It contains:
 
 The other important directories:
 
--    *boostrap contains framework autoloading files and generated cache files.*
--    *config contains app's configuration files.*
--    *tests contains all tests.*
--    *public contains publicly available assets.*
--    *vendor contains all app dependencies.*
--    *resources contains views and localization files.*
--    *database contains database migrations and seeds.*
--    *storage contains all Blade templates, file caches and logs.*
+-    ***boostrap** contains framework autoloading files and generated cache files.*
+-    ***config** contains app's configuration files.*
+-    ***tests** contains all tests.*
+-    ***public** contains publicly available assets.*
+-    ***vendor** contains all app dependencies.*
+-    ***resources** contains views and localization files.*
+-    ***database** contains database migrations and seeds.*
+-    ***storage** contains all Blade templates, file caches and logs.*
 
 
 # Setting the Controllers
@@ -164,6 +166,9 @@ When a user is successfully authenticated, they will be redirected to the `/home
 ```
 public const HOME = '/home';
 ```
+
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-logged-out.png "Authorisation")  ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-1.png "Laravel")
+
 # Username Customization
 
 **Email Authentication** is defined as default for authentication in **Laravel**. **Email Authentication** can be optimised to username authentication through `LoginController`:
@@ -173,6 +178,8 @@ public function username()
     return 'username';
 }
 ```
+
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-4.png "Laravel")
 
 # Storage Customization
 
@@ -188,6 +195,9 @@ $user = Auth::user();
 // Get the currently authenticated user's ID...
 $id = Auth::id();
 ```
+
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-3.png "Laravel")
+
 # Determination Of Authentication of Current User
 
 To determine if the user is already logged in or has to be logged in to peroform certain action, It can be checked using check method on the `Auth facade`, which will return true if the user is authenticated:
@@ -198,6 +208,7 @@ if (Auth::check()) {
     // The user is logged in...
 }
 ```
+
 
 # Authenticating Routes
 Route middleware is be used to allow only the authenticated users to let him perform authenticated action. Laravel ships with an `auth middleware`, which is defined at `Illuminate\Auth\Middleware\Authenticate`. We just need to attach the middleware to a route definition:
@@ -221,7 +232,7 @@ protected function redirectTo($request)
     return route('login');
 }
 ```
-
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-2.png "Laravel")
 # Logging Out
 
 For logging out of application for any user, the logout method can be used on the `Auth facade`. This will clear the authentication information in the user's session:
@@ -229,4 +240,5 @@ For logging out of application for any user, the logout method can be used on th
 Auth::logout();
 ```
 
-Reference: Don't [Click](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg) This.
+
+*Reference: **Please Don't [Click](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg) here**.*
