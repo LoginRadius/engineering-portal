@@ -82,17 +82,17 @@ The other important directories:
 -    *tests contains all tests.*
 -    *public contains publicly available assets.*
 -    *vendor contains all app dependencies.*
--    *resources contains views and localization files.
+-    *resources contains views and localization files.*
 -    *database contains database migrations and seeds.*
--    *storage contains all Blade templates, file caches and logs.
+-    *storage contains all Blade templates, file caches and logs.*
 
 
 # Setting the Controllers
 
 Open up your terminal and run the commands to create a `ListController.`
-
+```
 php artisan make:controller ListController
-
+```
 Open up `app/Http/Controllers/ListController.php` and configure it:
 
 
