@@ -1,6 +1,8 @@
 # Meet Laravel
 
-[**Laravel**](https://laravel.com/) is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](github.com)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/logo.png "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/image4.jpg "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-5.png "Laravel Logo") 
+
+[**Laravel**](https://laravel.com/) is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
 Laravel saves your time and effort as it did not requires to rewrite a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
 
 - **Authorization**
@@ -18,9 +20,15 @@ It is open source and [source](https://github.com/laravel/laravel) can be found 
 PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) in 1994.
 *(Source: [Laravel Docs](https://laravel.com/docs/8.x))*
 
-//image1
-//image2
-*(Image Source: Google)*
+# Explore Directory Structure
+
+Laravel applications is based on Model-View-Controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural design pattern.
+
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-laravel.png "MVC")
+    
+![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/laravel.jpg "MVC")
+
+*(Image Source: [Google](https://www.google.co.in/imghp?hl=en&authuser=0&ogbl))*
 
 In laravel, we have a amazing component i.e. Authentication which is quite easy to use without any code conflictions with a single command. This component is having all required things for authenticating controllers, routing etc.
 
@@ -220,3 +228,5 @@ For logging out of application for any user, the logout method can be used on th
 ```
 Auth::logout();
 ```
+
+Reference: Don't [Click](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg) This.
