@@ -1,20 +1,26 @@
-**Laravel** is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](github.com)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
+# Meet Laravel
+
+[**Laravel**](https://laravel.com/) is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](github.com)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
 Laravel saves your time and effort as it did not requires to rewrite a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
 
-- Authorization
+- **Authorization**
 - **Database Migrations** is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
 - **Eloquent ORM** included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
-- Queuing
+- **Queuing**
 - **Scheduler** offers a fresh approach to managing scheduled tasks on your server.
 
 It is open source and [source](https://github.com/laravel/laravel) can be found on github. The latest Laravel version is version 8, which was released on September 8, 2020, with new features like Laravel Jetstream, model factory classes, migration squashing, Tailwind CSS for pagination views and other usability improvements.
 
 - Repository: [Laravel Repository](https://github.com/laravel/laravel)
 - Stable release: 8.16.1 / 2020-11-25
-- Written in: **PHP**
+- Written in: [**PHP**](https://www.php.net)
+
+PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) in 1994.
+*(Source: [Laravel Docs](https://laravel.com/docs/8.x))*
+
 //image1
 //image2
-*(Source: Google)*
+*(Image Source: Google)*
 
 In laravel, we have a amazing component i.e. Authentication which is quite easy to use without any code conflictions with a single command. This component is having all required things for authenticating controllers, routing etc.
 
@@ -23,7 +29,7 @@ In laravel, we have a amazing component i.e. Authentication which is quite easy 
 We can easily install this plugin in Laravel with a single artisan command. This command will install complete Authentication component with all controllers and views of a user management system in laravel.
 
 ```
-    php artisan make:auth
+php artisan make:auth
 ```
 
 This plugin will create a middleware with name Authenticate for verifying all request to to your laravel application.
@@ -183,4 +189,34 @@ use Illuminate\Support\Facades\Auth;
 if (Auth::check()) {
     // The user is logged in...
 }
+```
+
+# Authenticating Routes
+Route middleware is be used to allow only the authenticated users to let him perform authenticated action. Laravel ships with an `auth middleware`, which is defined at `Illuminate\Auth\Middleware\Authenticate`. We just need to attach the middleware to a route definition:
+
+```
+Route::get('profile', function () {
+    // Only authenticated users may enter...
+})->middleware('auth');
+```
+
+when the auth middleware detects an unauthorized user, it will redirect the user to the login named route, which can be modified to redirect to `app/Http/Middleware/Authenticate.php` file:
+```
+/**
+ * Get the path the user should be redirected to.
+ *
+ * @param  \Illuminate\Http\Request  $request
+ * @return string
+ */
+protected function redirectTo($request)
+{
+    return route('login');
+}
+```
+
+# Logging Out
+
+For logging out of application for any user, the logout method can be used on the `Auth facade`. This will clear the authentication information in the user's session:
+```
+Auth::logout();
 ```
