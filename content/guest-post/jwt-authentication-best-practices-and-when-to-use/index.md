@@ -9,7 +9,7 @@ description: "This article helps you understand how to use JWT and learn the bes
 
 One of the most used authentication standards in web applications is the JSON Web Token standard. It is mostly used for authentication, authorization, and information exchange.
 
-JSON Web tokens are made of three parts separated by dots `.` -- and look like this typically: `xxxxx.yyyyy.zzzzz`. Then there are the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/async/jwt/).
+JSON Web tokens are made of three parts separated by dots `.` -- and look like this typically: `xxxxx.yyyyy.zzzzz`. These correspond to the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/async/jwt/).
 
 And before using them and continuing to read this article, you might want to check the advantages compared to the session authentication method. You can learn more about [JWTs vs. Sessions here](https://www.loginradius.com/blog/async/guest-post/jwt-vs-sessions/).
 
@@ -41,7 +41,7 @@ JWT doesn’t require any lookup of the database, so revoking them before the ex
 
 Revocation is very important in many cases.
 
-For example, when logging out users or banning users, or changing permissions or passwords instantly, it can happen that the user can continue to make some requests even if the user has no authorization to do it.
+For example, when logging out users or banning users, or changing permissions or passwords instantly, if the token hasn't been revoked, it might be possible for the user to continue to make requests even if this user no longer has the required authorization to do so.
 
 ### Sensible Information
 
@@ -69,9 +69,8 @@ How do you get a new access token if this one is expired? The natural first idea
 
 JWT can be used as [refresh tokens](https://www.loginradius.com/blog/async/guest-post/what-are-refresh-tokens-and-when-to-use-them/); these tokens are used to retrieve a new access token.
 
-For example, when a client requests a protected resource and receives an error, which can mean that the access token has expired, the client can issue a new access token.
-
-It can be made by sending a request with a refresh token in the headers or the body. If the refresh token is valid, a new access token will be created and sent as a response.
+For example, when a client requests a protected resource and receives an error, which can mean that the access token has expired, the client can be issued a new access token by sending a request with a refresh token in the headers or the body.
+If the refresh token is valid, a new access token will be created and sent as a response.
 
 Note that the refresh token is obtained at authentication and has a bigger lifetime.
 
@@ -81,7 +80,7 @@ Interestingly enough, JWT can be [signed using many different algorithms](https:
 
 The `alg` value in JWT headers simply tells you how the JWT was signed. For example, with an `alg` value of `RS512`. 
 
-`RS512 => RS 512` where RS is the signature algorithm and 256 the hashing algorithm, in this case, `SHA-512`.
+`RS512 => RS 512` where RS is the signature algorithm and `SHA-512` is the hashing algorithm.
 
 `SHA-512` will produce a `512-bits` hash while `SHA-256` will produce a `256-bit` hash. And each of these algorithms gives you 50% of their output size of security level. This means that, for example, `SHA-512` will provide you with `256-bits` security.
 
@@ -94,7 +93,7 @@ JWTs are hard to revoke when they are created. Most of the time, you’ll have t
 
 Additionally, you can implement your own revocation system.
 
-JWT comes with a time-based claim `iat`-- issues at. It can be used to reject tokens that are too old to be used by the resource server.
+JWT comes with a time-based claim `iat`-- issued at. It can be used to reject tokens that are too old to be used by the resource server.
 And clock skew specifies the allowed time difference (in seconds) between the server and the client clocks when verifying `exp` and `nbf` time-based claims. The default recommended default value is 5.
 
 ### 5) JWT Signature
