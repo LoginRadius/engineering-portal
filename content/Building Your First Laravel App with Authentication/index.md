@@ -183,8 +183,7 @@ On hitting the request of `/` route, it invokes the show method of `theListContr
 
 
 # Setting the Models
-
-**Laravel** Models are stored by default in the root directory. The `Usermodel` is already shipped with the Laravel framework. However, if it is needed more models to create, simply run the commands:
+**Laravel** Models are stored in the root directory, by default. The `Usermodel` is already shipped with the Laravel framework. However, if it needs more models to create, simply run the below commands:
 
 ```
 php artisan make:model <modelName>
@@ -200,13 +199,13 @@ Route::get('/', 'ListController@show');
 
 ```
 
-# Authentication
+# Authentication Process
 
-*Now we have routes setup for the included authentication controllers. We may access app in a browser since the authentication controllers already contains the code to authenticate existing users and store the newly formed users in the database.*
+*Authentication Controller contains the code to authenticate existing users, it stores the data of newly formed users into the Database*.
 
 # Path Customization
 
-When a user is successfully authenticated, they will be redirected to the `/home` URL. We can redirect the post-authentication using the `HOME` constant defined in the `RouteServiceProvider`:
+When a user is successfully authenticated, they will be redirected to the `/home` URL. We can redirect the users post-authentication using the `HOME` constant defined in the `RouteServiceProvider`:
 
 ```
 public const HOME = '/home';
@@ -214,9 +213,10 @@ public const HOME = '/home';
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-logged-out.png "Authorisation")  ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-1.png "Laravel")
 
-# Username Customization
+# Email and/or Username Customization
 
-**Email Authentication** is defined as default for authentication in **Laravel**. **Email Authentication** can be optimised to username authentication through `LoginController`:
+**Email Authentication** is defined as default for authentication in **Laravel** Framework.  **Email Authentication** can be optimised to username and/or email authentication by optimising `LoginController` method according to project need:
+
 ```
 public function username()
 {
@@ -226,26 +226,27 @@ public function username()
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-4.png "Laravel")
 
-# Storage Customization
+# User's Data Storage Customization
 
-To modify the form fields that are required to fill for registration while authentication, or to customize how new users data will be stored into the database, we may modify the `RegisterController` class. This class is mainly responsible for validation and creation of new users for the application. The validator methods of the `RegisterController` contains the validation rules for new users of the application. It can be modified in any way. The create method of the `RegisterController` is responsible for creating new `App\User` records the database using the **Eloquent ORM**. This method can be modified as per requirement and need.
+Their is a class named as `RegisterController` class. This class is mainly responsible for validation and creation of new users i.e, adding data of new user through form filling for the application. We can modify the form field that are required to fill for registration while authentication, i.e, we are taking about to customize how new users data will be stored into the database. The validator methods of the `RegisterController` contains the validation rules for new users of the application. It can be modified in any way according to our need. Similarly the `create` method of the `RegisterController` is responsible for creating new `App\User` records the database using the **Eloquent ORM**. This method can be modified as per requirement and need.
 
-# Retrieving The Authenticated User
+# Retrieving The Authenticated User Data
 
-You may access the authenticated user via `Auth facade`:
+`Auth facade` method can be use to access the authenticated users:
+
 ```
 use Illuminate\Support\Facades\Auth;
-// Get the currently authenticated user...
+// Get the current authenticated user...
 $user = Auth::user();
-// Get the currently authenticated user's ID...
+// Get the current authenticated user's ID...
 $id = Auth::id();
 ```
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-3.png "Laravel")
 
-# Determination Of Authentication of Current User
+# Checking The Authentication of Current User
 
-To determine if the user is already logged in or has to be logged in to peroform certain action, It can be checked using check method on the `Auth facade`, which will return true if the user is authenticated:
+If it is required to determine wheather the user has already logged in or has to be logged in to perform certain action, we can `check` method on the `Auth facade` class, which will return true if the user is authenticated:
 
 ```
 use Illuminate\Support\Facades\Auth;
@@ -255,8 +256,9 @@ if (Auth::check()) {
 ```
 
 
-# Authenticating Routes
-Route middleware is be used to allow only the authenticated users to let him perform authenticated action. Laravel ships with an `auth middleware`, which is defined at `Illuminate\Auth\Middleware\Authenticate`. We just need to attach the middleware to a route definition:
+# Authentication of Different Routes
+
+Laravel already ships with an `auth middleware`, which is defined at `Illuminate\Auth\Middleware\Authenticate` by default. **Route middleware** is used to allow only the authenticated users to let him perform authenticated action. We just need to attach the middleware to a route definition for authenticating the routes:
 
 ```
 Route::get('profile', function () {
@@ -264,10 +266,12 @@ Route::get('profile', function () {
 })->middleware('auth');
 ```
 
-when the auth middleware detects an unauthorized user, it will redirect the user to the login named route, which can be modified to redirect to `app/Http/Middleware/Authenticate.php` file:
+when the `auth middleware` detects that an unauthorized user is requesting the route, it will redirect that user to the `login` page route, the task of re-direction can be modified to redirect to `app/Http/Middleware/Authenticate.php` file if needed:
+
+Below code justifies the above statement:
+
 ```
 /**
- * Get the path the user should be redirected to.
  *
  * @param  \Illuminate\Http\Request  $request
  * @return string
@@ -280,17 +284,27 @@ protected function redirectTo($request)
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-2.png "Laravel")
 # Logging Out
 
-For logging out of application for any user, the logout method can be used on the `Auth facade`. This will clear the authentication information in the user's session:
+Logging out process is simple in Laravel. For logging out of application for any user, the `logout` method can be used defined on the `Auth facade` class. This will clear the authentication related information of user in the current session:
+
 ```
 Auth::logout();
 ```
 
 # Migrations
-The user migration files comes by default with a Laravel installation. Migrations are simply version-control for the database, allowing us to easily modify and share the application's database details. In Laravel, migrations are placed in the `database/migrations` directory. Each migration file name contains a timestamp which allows Laravel to determine the order of the migrations. Check the `database/migrations` directory and check migration files `(timestamp)_create_users_table.php` and `(timestamp)_create_password_resets_table.php` and may be others too. Now, run this command from your terminal:
+
+For Migration:
+- **The user migration files comes by default with a Laravel installation.**
+- **Migrations are simply version-control for the database, allowing us to easily modify and share the application's database details.**
+- **In Laravel, migrations are placed in the `database/migrations` directory.**
+- **Each migration file name contains a timestamp which allows Laravel to determine the order of the migrations.**
+- **Check the `database/migrations` directory and check migration files `(timestamp)_create_users_table.php` and `(timestamp)_create_password_resets_table.php` and may be others too.**
+- **Now, run below command from your terminal:**
+
 ```
 php artisan migrate
 ```
-The `users` and `password_resets` table will be created on running command. The value will be assigned to this `DB_DATABASE` constant automatically.
+
+The `users` and `password_resets` table will be created on running th above command. The value will be assigned to this `DB_DATABASE` constant automatically according to the project info.
 
 
-***Useful Links and reference: [Youtube](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg), [Laravel Docs](https://laravel.com/docs/8.x/releases), [PHP](https://www.php.net/), [Wikipedia](https://en.wikipedia.org/wiki/Laravel) . All image [source](https://www.google.co.in/search?q=Laravel&hl=en&authuser=0&tbm=isch&source=hp&biw=1366&bih=643&ei=K71mYavlDajY5OUP-OS04Ac&ved=0ahUKEwjrpvPfnsfzAhUoLLkGHXgyDXwQ4dUDCAY&uact=5&oq=Laravel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQA1DyBVjXEmDRFGgAcAB4AIABxAGIAYEJkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img).***
+***Useful Links and references: [Youtube](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg), [Laravel Docs](https://laravel.com/docs/8.x/releases), [PHP](https://www.php.net/), [Wikipedia](https://en.wikipedia.org/wiki/Laravel) . All image [source](https://www.google.co.in/search?q=Laravel&hl=en&authuser=0&tbm=isch&source=hp&biw=1366&bih=643&ei=K71mYavlDajY5OUP-OS04Ac&ved=0ahUKEwjrpvPfnsfzAhUoLLkGHXgyDXwQ4dUDCAY&uact=5&oq=Laravel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQA1DyBVjXEmDRFGgAcAB4AIABxAGIAYEJkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img).***
