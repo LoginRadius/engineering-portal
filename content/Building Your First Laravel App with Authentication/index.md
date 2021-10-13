@@ -9,7 +9,7 @@ description: "Learn how to build a Laravel CRUD application that includes authen
 
 # Meet Laravel
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/logo.png "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/image4.jpg "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-5.png "Laravel Logo") 
+![ image is not availiable ](logo.png "Laravel Logo") ![ image is not availiable ](image4.jpg "Laravel Logo") ![ image is not availiable ](Laravel-5.png "Laravel Logo") 
 
 [**Laravel**](https://laravel.com/) is a web application framework of [**PHP**](https://www.php.net/), with expressive, elegant syntax. Laravel is a free and open-source PHP web framework. It is especially suited for the development of web applications which follows the ([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was developed by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/), laravel is trademark of Taylor Otwell.
 Laravel saves your time and effort as it did not requires to code a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
@@ -33,9 +33,9 @@ PHP stands for **Hypertext Preprocessor** and mostly processed as server-side sc
 
 Laravel applications are based on Model-View-Controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural design pattern.
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-laravel.png "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-2.jpg "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-3.jpg "MVC")
+![ image is not availiable ](MVC-laravel.png "MVC")     ![ image is not availiable ](MVC-2.jpg "MVC")     ![ image is not availiable ](MVC-3.jpg "MVC")
     
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/laravel.jpg "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC.jpg "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/laravel-new.jpg "MVC")
+![ image is not availiable ](laravel.jpg "MVC")     ![ image is not availiable ](MVC.jpg "MVC")     ![ image is not availiable ](laravel-new.jpg "MVC")
 
 *(Image Source: [Google](https://www.google.co.in/imghp?hl=en&authuser=0&ogbl))*
 
@@ -43,7 +43,7 @@ In laravel, we have a amazing pre-built component for example **Authentication**
 
 # Install Authentication
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Lavael-3.jpg "Authorisation")
+![ image is not availiable ](Lavael-3.jpg "Authorisation")
 
 Installation of plugin in laravel is too easy. For authentication we just need to run below artisan command;
 
@@ -211,7 +211,7 @@ When a user is successfully authenticated, they will be redirected to the `/home
 public const HOME = '/home';
 ```
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-logged-out.png "Authorisation")  ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-1.png "Laravel")
+![ image is not availiable ](Laravel-logged-out.png "Authorisation")  ![ image is not availiable ](Laravel-auth-1.png "Laravel")
 
 # Email and/or Username Customization
 
@@ -224,7 +224,7 @@ public function username()
 }
 ```
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-4.png "Laravel")
+![ image is not availiable ](Laravel-auth-4.png "Laravel")
 
 # User's Data Storage Customization
 
@@ -242,7 +242,7 @@ $user = Auth::user();
 $id = Auth::id();
 ```
 
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-3.png "Laravel")
+![ image is not availiable ](Laravel-auth-3.png "Laravel")
 
 # Checking The Authentication of Current User
 
@@ -281,7 +281,7 @@ protected function redirectTo($request)
     return route('login');
 }
 ```
-![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-auth-2.png "Laravel")
+![ image is not availiable ](Laravel-auth-2.png "Laravel")
 # Logging Out
 
 Logging out process is simple in Laravel. For logging out of application for any user, the `logout` method can be used defined on the `Auth facade` class. This will clear the authentication related information of user in the current session:
