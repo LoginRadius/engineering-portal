@@ -27,7 +27,7 @@ It is open source and [source](https://github.com/laravel/laravel) can be found 
 - Written in: [**PHP**](https://www.php.net)
 
 PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) in 1994.
-*(Source: [Laravel Docs](https://laravel.com/docs/8.x))*
+*(Source: [Laravel Docs](https://en.wikipedia.org/wiki/PHP))*
 
 # Explore Directory Structure
 
