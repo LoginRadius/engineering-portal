@@ -3,7 +3,7 @@ title: "Building Your First Laravel App with Authentication"
 date: "2021-10-09"
 Cover-Image: "cover-images.jpg"
 author: Priyansh Singh
-tags: ["PHP", "Laravel"]
+tags: ["PHP", "Laravel", "MVC", "Web Development"]
 description: "Learn how to build a Laravel CRUD application that includes authentication."
 ---
 
@@ -11,8 +11,8 @@ description: "Learn how to build a Laravel CRUD application that includes authen
 
 ![ image is not availiable ](logo.png "Laravel Logo") ![ image is not availiable ](image4.jpg "Laravel Logo") ![ image is not availiable ](Laravel-5.png "Laravel Logo") 
 
-[**Laravel**](https://laravel.com/) is a web application framework of [**PHP**](https://www.php.net/), with expressive, elegant syntax. Laravel is a free and open-source PHP web framework. It is especially suited for the development of web applications which follows the ([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was developed by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/), laravel is trademark of Taylor Otwell.
-Laravel saves your time and effort as it did not requires to code a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
+[**Laravel**](https://laravel.com/) is a web application framework derived using [**PHP**](https://www.php.net/) language, with expressive, elegant syntax. Laravel is a free and open-source PHP based web framework. It is especially suited for the development of web applications which follows the Model–View–Controller [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) architectural pattern. It was developed by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/), laravel is trademark of *Taylor Otwell*.
+Laravel saves time and effort as it did not requires to code a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
 
 - **```Queuing```** Queues in Laravel are used to make a smooth sailing application cycle by stacking heavy tasks to be handled as jobs and dispatching these jobs when it is asked to or when it does not disrupt the user's experience.
 - **```Authorization```** In addition to providing built-in authentication services, Laravel also provides a simple way to authorize user actions against a given resource.
@@ -35,7 +35,7 @@ Laravel applications are based on Model-View-Controller([MVC](https://en.wikiped
 
 ![ image is not availiable ](MVC-laravel.png "MVC")     ![ image is not availiable ](MVC-2.jpg "MVC")     ![ image is not availiable ](MVC-3.jpg "MVC")
     
-![ image is not availiable ](laravel.jpg "MVC")     ![ image is not availiable ](MVC.jpg "MVC")     ![ image is not availiable ](laravel-new.jpg "MVC")
+![ image is not availiable ](laravel.jpg "MVC")         ![ image is not availiable ](MVC.jpg "MVC")       ![ image is not availiable ](laravel-new.jpg "MVC")
 
 *(Image Source: [Google](https://www.google.co.in/imghp?hl=en&authuser=0&ogbl))*
 
@@ -292,11 +292,12 @@ Auth::logout();
 
 # Migrations
 
-For Migration:
-- **The user migration files comes by default with a Laravel installation.**
+*For Migration:*
+
 - **Migrations are simply version-control for the database, allowing us to easily modify and share the application's database details.**
-- **In Laravel, migrations are placed in the `database/migrations` directory.**
+- **The user migration files comes by default with a Laravel installation.**
 - **Each migration file name contains a timestamp which allows Laravel to determine the order of the migrations.**
+- **In Laravel, migrations are placed in the `database/migrations` directory.**
 - **Check the `database/migrations` directory and check migration files `(timestamp)_create_users_table.php` and `(timestamp)_create_password_resets_table.php` and may be others too.**
 - **Now, run below command from your terminal:**
 
@@ -304,7 +305,9 @@ For Migration:
 php artisan migrate
 ```
 
-The `users` and `password_resets` table will be created on running th above command. The value will be assigned to this `DB_DATABASE` constant automatically according to the project info.
+The `users` and `password_resets` table will be created on running the above command. The value will be assigned to this `DB_DATABASE` constant automatically according to the project info.
 
 
-***Useful Links and references: [Youtube](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg), [Laravel Docs](https://laravel.com/docs/8.x/releases), [PHP](https://www.php.net/), [Wikipedia](https://en.wikipedia.org/wiki/Laravel) . All image [source](https://www.google.co.in/search?q=Laravel&hl=en&authuser=0&tbm=isch&source=hp&biw=1366&bih=643&ei=K71mYavlDajY5OUP-OS04Ac&ved=0ahUKEwjrpvPfnsfzAhUoLLkGHXgyDXwQ4dUDCAY&uact=5&oq=Laravel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQA1DyBVjXEmDRFGgAcAB4AIABxAGIAYEJkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img).***
+***Useful Links and references: [Youtube](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg), [Laravel Docs](https://laravel.com/docs/8.x/releases), [PHP](https://www.php.net/), [Wikipedia](https://en.wikipedia.org/wiki/Laravel) .***
+<br/>
+***All image [source](https://www.google.co.in/search?q=Laravel&hl=en&authuser=0&tbm=isch&source=hp&biw=1366&bih=643&ei=K71mYavlDajY5OUP-OS04Ac&ved=0ahUKEwjrpvPfnsfzAhUoLLkGHXgyDXwQ4dUDCAY&uact=5&oq=Laravel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQA1DyBVjXEmDRFGgAcAB4AIABxAGIAYEJkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img).***
