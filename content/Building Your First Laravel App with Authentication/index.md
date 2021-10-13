@@ -11,27 +11,27 @@ description: "Learn how to build a Laravel CRUD application that includes authen
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/logo.png "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/image4.jpg "Laravel Logo") ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Laravel-5.png "Laravel Logo") 
 
-[**Laravel**](https://laravel.com/) is a web application framework with expressive, elegant syntax. Laravel is a free, open-source PHP web framework and intended for the development of web applications following the model–view–controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was created by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/). 
-Laravel saves your time and effort as it did not requires to rewrite a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
+[**Laravel**](https://laravel.com/) is a web application framework of [**PHP**](https://www.php.net/), with expressive, elegant syntax. Laravel is a free and open-source PHP web framework. It is especially suited for the development of web applications which follows the ([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural pattern. It was developed by [Taylor Otwell](https://www.linkedin.com/in/taylorotwell/), laravel is trademark of Taylor Otwell.
+Laravel saves your time and effort as it did not requires to code a lot of it's functionality from scratch, it makes good use of already written and well tested components and  also it ships with a lot of features out of the box. These amazing features include:
 
-- **```Authorization```** In addition to providing built-in authentication services, Laravel also provides a simple way to authorize user actions against a given resource.
-- **```Database Migrations```** is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
-- **```Eloquent ORM```** included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
 - **```Queuing```** Queues in Laravel are used to make a smooth sailing application cycle by stacking heavy tasks to be handled as jobs and dispatching these jobs when it is asked to or when it does not disrupt the user's experience.
+- **```Authorization```** In addition to providing built-in authentication services, Laravel also provides a simple way to authorize user actions against a given resource.
+- **```DB Migrations```** is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
+- **```Eloquent ORM```** included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
 - **```Scheduler```** offers a fresh approach to managing scheduled tasks on your server.
 
-It is open source and [source](https://github.com/laravel/laravel) can be found on github. The latest Laravel version is version 8, which was released on September 8, 2020, with new features like Laravel Jetstream, model factory classes, migration squashing, Tailwind CSS for pagination views and other usability improvements.
+It is open source and [source code](https://github.com/laravel/laravel) can be found on [github](https://github.com). The latest Laravel version is version 8, which was released on September 8, 2020, with many new features like model factory classes, migration squashing, laravel jetstream, tailwind CSS for pagination views and other usability improvements.
 
 - Repository: [Laravel Repository](https://github.com/laravel/laravel)
 - Stable release: 8.16.1 / 2020-11-25
 - Written in: [**PHP**](https://www.php.net)
 
-PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) in 1994.
-*(Source: [Laravel Docs](https://en.wikipedia.org/wiki/PHP))*
+PHP stands for **Hypertext Preprocessor** and mostly processed as server-side scripting language, it is a powerful tool for making interactive and dynamic Web pages. PHP is a general-purpose scripting language. It is especially suited to web development. It is fast, flex and pragmatic. It was originally developed in 1994 by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf).
+*(Source: [Wikipedia](https://en.wikipedia.org/wiki/PHP))*
 
 # Explore Directory Structure
 
-Laravel applications is based on Model-View-Controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural design pattern.
+Laravel applications are based on Model-View-Controller([MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)) architectural design pattern.
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-laravel.png "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-2.jpg "MVC")     ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/MVC-3.jpg "MVC")
     
@@ -39,45 +39,80 @@ Laravel applications is based on Model-View-Controller([MVC](https://en.wikipedi
 
 *(Image Source: [Google](https://www.google.co.in/imghp?hl=en&authuser=0&ogbl))*
 
-In laravel, we have a amazing component i.e. Authentication which is quite easy to use without any code conflictions with a single command. This component is having all required things for authenticating controllers, routing etc.
+In laravel, we have a amazing pre-built component for example **Authentication** which is quite easy to use without any code conflictions, using just a single command. This component is having all required things for authenticating controllers, routing and others.
 
 # Install Authentication
 
 ![ image is not availiable ](https://github.com/ps-19/engineering-portal/blob/master/content/Building%20Your%20First%20Laravel%20App%20with%20Authentication/Lavael-3.jpg "Authorisation")
 
-We can easily install this plugin in Laravel with a single artisan command. This command will install complete Authentication component with all controllers and views of a user management system in laravel.
+Installation of plugin in laravel is too easy. For authentication we just need to run below artisan command;
 
 ```
 php artisan make:auth
 ```
+This command will install all laravel components with all controllers and views of a user management system required for Authentication. This plugin will create a middleware with name **Authenticate** which will perform verification of all requests from your laravel application.
 
-This plugin will create a middleware with name Authenticate for verifying all request to to your laravel application.
+# Configurations of Auth
 
-# Auth Configurations
-
-Now, we need to modify default configuration of this Authentication component. For this activity, we have config file at path  `[Laravel_Application_Root]/config/ ` with name i.e. `auth.php` . In this file, you can easily create authentication process like guards, expiry time and others.
+Their is a config file at path  `[Laravel_Application_Root]/config/ ` named as i.e. `auth.php` it need to be modified according to our need, as it is default configuration of Authentication component and contains default settings. In this file, we can easily create authentication processes like guards, expiry time and others.
 
 # Auth Routings
 
-Routing always play a most important role in setting up of direction of you website request. In case of auth routing, we just need to add only middleware name i.e. auth in routing group for making public pages of your application to gated section. Here is a example of a route setup :
-```
-    Route::group(['middleware' => 'auth'], function () {  
-       Route::get('/dashboard', 'DashboardController@index')->name('dashboard');  
-    });  
+Code of routing is given [here](https://github.com/laravel/framework/blob/5.8/src/Illuminate/Routing/Router.php), we can configure it according to our needs and the actions required.
+
+Routing always play most important role in setting up the direction of our website request. Auth::routes() is just a helper class that helps you generate all the routes required for user authentication. In case of auth routing, we just need to add the name of middleware i.e. auth in routing group for making public pages of your application to gated section. Example of route setup :
+
 ```
 
-In this example we have added dashboard path under authentication system. Anonymouse users cannot access this dashboard page without login to the application.
+Route::group(['middleware' => 'auth'], function () {  
+   Route::get('/Home', 'HomeController@index')->name('Home');  
+}); 
+
+```
+
+In this example we have added **`Home` path** under authentication system. Anonymouse users cannot access this home page without logging in to the application, only registered users can access the `Home` page.
+
+Here are some routes:
+
+<h4>The routes for authentication: </h4>
+
+```
+$this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
+$this->post('login', 'Auth\LoginController@login');
+$this->post('logout', 'Auth\LoginController@logout')->name('logout');
+
+```
+
+<h4>Below are the routes for new registration: </h4>
+
+```
+
+$this->get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+$this->post('register', 'Auth\RegisterController@register');
+
+```
+
+<h4>Defined below are the routes for password resetting of already registered users: </h4>
+
+```
+
+$this->get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm');
+$this->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');
+$this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
+$this->post('password/reset', 'Auth\ResetPasswordController@reset');
+
+```
 
 # Authenticated Users
 
-If we need to do customizations in our custom controllers with existing logged in user, we can easily implement it with the help of Auth Facade
+If some action or request requires to do customizations and changes in the custom controllers with existing logged in user, it can easily be implemented with the Auth Facade method.
 
 ```
     use Illuminate\Support\Facades\Auth;  
     if (Auth::check()) {  
-        // Logic [ if user is logged in ]  
+        // Logic for logged in user 
         $user = Auth::user();  
-        // Logout User  
+        // Logout 
         auth::logout();  
     }
 ``` 
@@ -85,35 +120,37 @@ If we need to do customizations in our custom controllers with existing logged i
 The app directory is the most important part for the application. It contains:
 
 
--   **```Exceptions```** - *Contains application exception handler and custom exception classes.*
--   **```Listeners```** - *Contains all the handler classes for various events.*
--   **```Console```** - *Contains all the Artisan commands*
--   **```Http```** - *Contains all controllers, middleware, requests and routes file.*
--   **```Providers```** - *Contains all service providers.*
--   **```Events```** - *Contains all event classes.*
--   **```Jobs```** - *Contains all the queued job of application.*
--   **```Policies```** - *Contains the authorization policies of application. Policies are used to tell if a user can perform a given action against rule.*
+-   **```Http```** - *It contains all controllers, middleware, requests and routes file.*
+-   **```Events```** - *It contains all event classes.*
+-   **```Exceptions```** - *It contains application's all exception handler and custom exception classes.*
+-   **```Listeners```** - *It contains all the handler classes for various events.*
+-   **```Console```** - *It contains all the Artisan commands*
+-   **```Policies```** - *It contains the authorization policies of application. Policies are used to tell if a user can perform a given action against defined rules.*
+-   **```Providers```** - *It contains all service providers.*
+-   **```Jobs```** - *It contains all the queued job of application.*
 
 The other important directories:
 
--    ***```boostrap```** contains framework autoloading files and generated cache files.*
--    ***```config```** contains app's configuration files.*
--    ***```tests```** contains all tests.*
--    ***```public```** contains publicly available assets.*
--    ***```vendor```** contains all app dependencies.*
--    ***```resources```** contains views and localization files.*
--    ***```database```** contains database migrations and seeds.*
--    ***```storage```** contains all Blade templates, file caches and logs.*
+
+-    ***```public```** It contains publicly available assets.*
+-    ***```boostrap```** It contains framework autoloading files and generated cache files.*
+-    ***```database```** It contains database migrations and seeds.*
+-    ***```tests```** It contains all tests.*
+-    ***```storage```** It contains all Blade templates, file caches and logs.*
+-    ***```config```** It contains app's configuration files.*
+-    ***```vendor```** It contains all app dependencies.*
+-    ***```resources```** It contains views and localization files.*
 
 
 # Setting the Controllers
 
-Open up your terminal and run the commands to create a `ListController.`
+Open up the terminal into the directory and just run the following single line commands to create a `ListController`.
+
 ```
 php artisan make:controller ListController
 ```
-Open up `app/Http/Controllers/ListController.php` and configure it:
 
+Now open up `app/Http/Controllers/ListController.php` and configure it:
 
 ```
 namespace App\Http\Controllers;
@@ -122,14 +159,19 @@ class ListController extends Controller
     public function show()
     {
        $characters = [
-         'Tony Stark' => 'Robert Downey Junior'
-         'Black Widow' => 'Scarlett Johansson'
+         'Tony Stark' => 'Robert Downey Junior',
+         'Black Widow' => 'Scarlett Johansson',
+         'Captain America' => 'Chris Evans',
+         'Thor' => 'Chris Hemsworth',
+         'Spiderman' => 'Tom Holland'
          .
          .
          .
          .
          .
-         'Thor' => 'Chris Hemsworth'
+         .
+         .
+         ....(other characters)
        ];
 
        return view('welcome')->withCharacters($characters);
@@ -137,7 +179,8 @@ class ListController extends Controller
 }
 ```
 
-On hitting the request of `/` route, it invokes the show method of `theListController` and renders the returned value in the `welcome` view.
+On hitting the request of `/` route, it invokes the show method of `theListController` and directs the returned value in the `welcome` view.
+
 
 # Setting the Models
 
@@ -149,19 +192,12 @@ php artisan make:model <modelName>
 
 # Settings related to Routes
 
-Open up `app/Http/routes.php` and configure it:
+Configure `app/Http/routes.php` as below:
+
 ```
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+
 Route::get('/', 'ListController@show');
+
 ```
 
 # Authentication
@@ -257,4 +293,4 @@ php artisan migrate
 The `users` and `password_resets` table will be created on running command. The value will be assigned to this `DB_DATABASE` constant automatically.
 
 
-*Reference: **Please Don't [Click](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg) here**.*
+***Useful Links and reference: [Youtube](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEU7PRmCpx-0%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEU7PRmCpx-0&tbnid=SkQu8z3w3maGIM&vet=12ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg..i&docid=dXivVnx-skQVFM&w=1280&h=720&q=Laravel&hl=en&authuser=0&ved=2ahUKEwj7gaff2rzzAhUHbysKHehMC6EQMyglegUIARCXAg), [Laravel Docs](https://laravel.com/docs/8.x/releases), [PHP](https://www.php.net/), [Wikipedia](https://en.wikipedia.org/wiki/Laravel) . All image [source](https://www.google.co.in/search?q=Laravel&hl=en&authuser=0&tbm=isch&source=hp&biw=1366&bih=643&ei=K71mYavlDajY5OUP-OS04Ac&ved=0ahUKEwjrpvPfnsfzAhUoLLkGHXgyDXwQ4dUDCAY&uact=5&oq=Laravel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQA1DyBVjXEmDRFGgAcAB4AIABxAGIAYEJkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img).***
