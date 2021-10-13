@@ -1,10 +1,10 @@
 ---
-title: JWT Authentication: Best practices and When To Use
+title: JWT Authentication: Best Practices and When To Use
 date: "2021-10-14"
 coverImage: "cover-image.png"
 author: "Kolawole Mangabo"
 tags: ["JWT", "Authentication","Best Practices"]
-description: "This article helps you understand how to use JWT and learn the best practices"
+description: "This article helps you understand how to use JWT and learn the best practices."
 ---
 
 One of the most used authentication standards in web applications is the JSON Web Token standard. It is mostly used for authentication, authorization, and information exchange.
@@ -43,7 +43,7 @@ Revocation is very important in many cases.
 
 For example, when logging out users or banning users, or changing permissions or passwords instantly, if the token hasn't been revoked, it might be possible for the user to continue to make requests even if this user no longer has the required authorization to do so.
 
-### Sensible Information
+### Sensitive Information
 
 JWT is usually signed to protect against data manipulation or alteration. With this, the data can be easily read or decoded.
 
