@@ -25,6 +25,11 @@ module.exports = {
       //   slug: "https://www.loginradius.com/blog/",
       // },
       {
+        name: "ASYNC Blog",
+        slug: "https://www.loginradius.com/blog/async/",
+        class: "async",
+      },
+      {
         name: "SWI Blog",
         slug: "https://www.loginradius.com/blog/start-with-identity/",
         class: "swi",
