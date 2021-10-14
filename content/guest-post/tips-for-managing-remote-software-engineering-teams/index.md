@@ -3,7 +3,7 @@ title: "11 Tips for Managing Remote Software Engineering Teams"
 date: "2021-07-26"
 coverImage: "cover.jpg"
 author: "Erkki Muuga"
-tags: ["Rewmote Work", "Developer", "Software Engineering"]
+tags: ["Remote Work", "Developer", "Software Engineering"]
 description: "This article will give you 11 tips for managing remote software engineering teams, so you can adjust and improve your hiring, communication, and your team's collective output."
 ---
 
@@ -96,6 +96,12 @@ Another way of building rapport is by providing online tools that allow team mem
 ## 11. Annual Get-Togethers, Even If Everyone Can't Make It
 
 To be successful, remote software engineering teams need natural ways of building trust. This includes annual get-togethers for the team to mingle and socialize with one another in a casual setting to chat about their projects on an individual level. This is a great opportunity for team-building activities and events.
+
+# Bonus Tip
+
+## Team One-on-One Communication
+
+Team one-on-one communication is just essential as team cohesion. This allows your team members to talk about any difficulties, they're scared to bring up in group sessions. It's also a good moment to check in with team members about their role and whether it aligns with their overall career ambitions.
 
 ## Key Takeaways for Managing Remote Software Engineering Teams
 
