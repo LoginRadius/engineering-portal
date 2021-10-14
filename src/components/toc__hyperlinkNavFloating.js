@@ -20,14 +20,19 @@ window.onscroll = function() {
 
 window.onresize = function ()
 {
+    if ( !checkForElement() ) return;
+
     checkMedia( media1620 );
 
-    ( checkForElement() && media1620on )
+    media1620on
         ? hideTOC()
         : showTOC();
 };
 
-window.onclick = function() {
+window.onclick = function(e)
+{
+    if ( e.target.id === elementToClickOnID ) return;
+
     timeoutDoSomething();
 }
 
@@ -44,9 +49,6 @@ function timeoutDoSomething()
 
     }, 2000);
 }
-
-
-
 
 
 function doSomethingAtStart()
@@ -76,13 +78,15 @@ function showTOC() {
 
 document.addEventListener('click', function (event)
 {
+    if ( !checkForElement() ) return;
+
     // If the clicked element doesn't have the right selector, bail
     if ( !event.target.matches("#" + elementToClickOnID) ) return;
 
     // Don't follow the link
     event.preventDefault();
 
-    ( checkForElement() && tocShown )
+    tocShown
         ? hideTOC()
         : showTOC();
 
