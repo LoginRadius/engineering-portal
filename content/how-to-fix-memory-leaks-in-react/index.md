@@ -26,7 +26,7 @@ React components that perform state updates and run asynchronous operations can 
 2. After that, a user clicks on a link, which navigates to another page before completing step #1.
 3. Now, the first action completes and passes the data retrieved from the API and calls function, which updates the state.
 
-Since the component was unmounted and function is being called in a component that is no longer mounted, it causes memory leak issue -- and in the console, you'll get a warning.
+Since the component was unmounted and function is being called in a component that is no longer mounted, it causes memory leak issue -- and in the console, you'' get a warning.
 
 Example of unsafe code:
 
