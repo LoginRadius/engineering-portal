@@ -28,7 +28,7 @@ This authentication uses more than one factor to authenticate a user. For exampl
 
 There are basically three types of authentication, as follows:
 
-1. **Knowledge Authentication**: The user is asked something they know -- e.g., password. This is the most common type and also the easiest.
+1. **Knowledge Authentication**: The user is asked something that only them can provide or know -- e.g., password. This is the most common type and also the easiest.
 2. **Property Authentication**: The user is asked for something they own or possess. For example, they can be asked their pet's name. The idea here is that users will be asked to set a security question and answer when creating an account. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
 3. **Biological Authentication**: The user is asked to verify their identity using something biologically unique to them -- e.g, a fingerprint or iris scan.
 
