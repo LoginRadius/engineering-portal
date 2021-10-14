@@ -98,13 +98,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: 'gatsby-remark-code-buttons',
-            options: {
-              buttonContainerClass: `code-copy__button__container`,
-              svgIconClass: `code-copy__icon`,
-            }
-          },
           { resolve: "gatsby-remark-copy-linked-files" },
           {
             resolve: `gatsby-remark-relative-images`,
