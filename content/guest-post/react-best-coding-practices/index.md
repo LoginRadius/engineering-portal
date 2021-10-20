@@ -25,19 +25,19 @@ There's basically no defined structure but you should have one style to follow t
 `React imports` <> `Library imports` <> `import * as` <> `import ./<some file>`.
 Make sure all your imports statements are on new lines as this will make your imports clean and easy to understand for all the components, 3rd-party libraries, etc.
 2. Use `index.js` for each folder to export so that all the imports are referenced on the `index.js` file and you do not have to write import statements again and again for every file.
-3. I see people getting confused between "whether to use double quotes ("") or single quotes ('') while working with react. The simple answer to that is -> `maintain consistency` whatever you're using, but also a good to consider is that you use double quotes (" ") for `JSX` attributes but single quotes (' ') for other `JS` (Follow the standard way or maintain consistency)
+3. I see people getting confused between "whether to use double quotes ("") or single quotes ('') while working with react. The simple answer to that is -> `maintain consistency` whatever you're using, but also a good to consider is that you use double quotes (" ") for `JSX` attributes and single quotes (' ') for the `JS` code (Follow the standard way or maintain consistency)
 4. Most of the time, beginners merge two-three components inside a single file and play around with that. However, that's a wrong practice to follow. Dividing the whole app into components and then working upon it on a separate file is a good practice to follow to maintain clean code.
 5. Do you also sometimes use CSS styles with jsx? However, that's a bad practice to do. Always make → `classNames` for each element and put all the styling under respective CSS files only.
 
 ## Naming Conventions
 
 1. Your filenames should always have consistent casing and extension. Either use `.js` or `.jsx` as explained in code structure for extensions. And `PascalCase` or `camelCase` for filenames.
-2. In React, name the file the same as the React component in that file (without a hyphen in the filename) for example: `Registration-Form` → ❌. `RegistrationForm` → ✔️.
+2. In React, name your file same as the React component inside that file i.e. without a hyphen in the filename. For example: `Registration-Form` → ❌. `RegistrationForm` → ✔️.
 3. Not only filename but also make sure that your `variables/functions/modules` filenames are also consistent in the casing.
 4. Use well-descriptive names for `variables/functions/modules/Actions` keeping in mind that it is application-specific, so that, even if a third party or new developer reading your code shouldn't face any difficulty in understanding.
-5. Do not use the underscore prefix for internal methods of a React component → Underscore prefixes are sometimes used as a convention in other languages to denote privacy. But, unlike those languages, there is no native support for privacy in→ JavaScript, everything is public. Regardless of your intentions, adding underscore prefixes to your properties does not → actually make them private `_onClickSubmit() → ❌`
-6. Write `Action` Types as domain/eventName → `ADD_TODO` and `INCREMENT` (CAPITALS) → This matches typical conventions in most programming languages for declaring constant values.
-7. Use `PascalCase`for react components and `camelCase` for their instances for example:-
+5. It's bad to use the underscore prefic (_) for react component's internal methods because underscore prefixes seems to be used as a convention in other langugaes to denote privacy. But everything in javascript is public and there is no native support for privacy. So, even if you add underscore prefixes to your properties, It'll not make them private. `_onClickSubmit() → ❌`
+7. Write `Action` Types as domain/eventName → `ADD_TODO` and `INCREMENT` (CAPITALS) → This matches typical conventions in most programming languages for declaring constant values.
+8. Talking about `casing` in react component, use `PascalCase` for the same and for their instances, use `camelCase`. For example:-
 
 ```
 const loginForm = <LoginForm />;
