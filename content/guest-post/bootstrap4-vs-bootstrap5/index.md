@@ -1,10 +1,10 @@
 ---
-title: Bootstrap 4 vs. Bootstrap 5 -- An Overview
-date: "2021-10-18"
+title: "Bootstrap 4 vs. Bootstrap 5: What is the Difference?"
+date: "2021-10-20"
 coverImage: "coverImage.png"
 author: "Rutam Prita Mishra"
 tags: ["Bootstrap", "Frontend", "Sass"]
-description: "This article broadly lays out the differences between Bootstrap 4 and Bootstrap 5. And helps you understand which one to use for your web projects."
+description: "This article discusses the differences between Bootstrap 4 and Bootstrap 5 and helps you understand which version you should use for your projects."
 ---
 
 ## Introduction
@@ -83,7 +83,7 @@ Bootstrap 4 was launched back in January 2018, and it was a great improvement ov
 
 The above section talked about the features of both Bootstrap 4 and Bootstrap 5. This section talks about the upgrades that Bootstrap 5 provides over Bootstrap 4.
 
-### **Enhanced Grid System**
+### Enhanced Grid System
 
 The grid system is retained in Bootstrap 5. However, an extra grid tier `xxl` has been introduced to minimize the effort in making the pages responsive on higher resolution displays.
 
@@ -91,13 +91,13 @@ Columns don't have a default `relative` position in Bootstrap 5.
 
 Classes have been added to address `vertical spacing`.
 
-### **Enhanced Form elements**
+### Enhanced Form Elements
 
 The form elements in Bootstrap 4 have defaulted to the browser-provided view. However, in Bootstrap 5, the form elements have a custom design that enables them to have a consistent look and feel in all browsers.
 
 The new form controls are based on completely semantic, standard form controls. This helps developers to avoid adding extra markups for form controls.
 
-### **Utilities API**
+### Utilities API
 
 Unlike Bootstrap 4, Bootstrap 5 enables the developers to modify and create their own utilities.
 
@@ -121,17 +121,17 @@ $utilities: (
   )
 );
 ```
-### **Support for IE**
+### Support for IE
 
 Bootstrap 5 no longer supports Internet Explorer 10 and 11 like its predecessor, Bootstrap 4.
 
-### **Extended Colors**
+### Extended Colors
 
 Bootstrap 4 had limited color options. But Bootstrap 5 has included many new color options to its color palette, enabling you to choose from the various shades available. You can find some of the color shades below.
 
 ![Bootstrap 5 Color](colors.png)
 
-### **Bootstrap Icons**
+### Bootstrap Icons
 
 Bootstrap 4 didn't have an SVG icon library. You had to use other third-Party libraries like `Font Awesome` to use icons in your applications. But Bootstrap 5 has taken care of this issue by introducing its own SVG library with 1000+ icons.
 
@@ -140,11 +140,11 @@ It also includes a web font version in the stable version release of the icon li
 ![Bootstrap 5 Icons](BootStrapIcons.png)
 
 
-### **Site Generation Strategy**
+### Site Generation Strategy
 
 Bootstrap 5 has moved to Hugo for its static site generation over Jekyll. Hugo is a fast static site generator implemented in Go and is quite popular. You can learn more about [Hugo here](https://gohugo.io/).
 
-### **Popper.js Update**
+### Popper.js Update
 
 Bootstrap 5 update brings in an update for Popper.js as well, `Popper.js v2`. Popper.js generally helps to design the tooltips and popovers. With v2, the following changes come in:
 
@@ -152,31 +152,31 @@ Bootstrap 5 update brings in an update for Popper.js as well, `Popper.js v2`. Po
 
 - `offset` option is no longer available. However, you can use the `popperConfig` parameter to achieve this.
 
-### **Placeholder Components**
+### Placeholder Components
 
 Bootstrap 5 allows loading placeholders in your pages. This means that you can utilize the space of the components by showing placeholders in their place while they're still loading the actual content.
 
 ![Placeholder Components](placeholders.png)
 
-### **Floating Labels**
+### Floating Labels
 
 Bootstrap 5 adds support for floating labels in forms for the input fields. You can simply use the `form-floating` class to enable a floating label. When you enter some value into the input fields, they automatically adjust their position to their floated area.
 
 ![Floating Labels](flabels.png)
 
-### **RTL support**
+### RTL Support
 
 Bootstrap 5 has added support for RTL (Right-to-Left), which means you can develop content that needs writing from the right side of the page and continues to the left. As a result, websites in languages like Arabic, Sindhi, and Urdu can easily be developed.
 
 ![RTL Dashboard Example](rtl.png)
 
-### **jQuery Deprecation**
+### jQuery Deprecation
 
 Bootstrap used jQuery from the very beginning as a dependency to offer dynamic features. With Bootstrap 5, jQuery is dropped, and Vanilla JS is introduced as its replacement.
 
 > **NOTE:**  There are still JS dependencies that depend on Popper and Vanilla JS modules. However, jQuery is optional and can be added based on the requirement of the project.
 
-### **Other Significant Changes**
+### Other Significant Changes
 
 - Bootstrap 5 introduces a new data attribute naming structure. `data-*` attribute has been renamed to `data-bs-*`.
 
