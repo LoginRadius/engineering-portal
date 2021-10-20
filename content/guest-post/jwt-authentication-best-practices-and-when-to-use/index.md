@@ -1,15 +1,15 @@
 ---
-title: JWT Authentication -- Best Practices and When To Use
+title: "JWT Authentication — Best Practices and When to Use"
 date: "2021-10-14"
 coverImage: "cover-image.png"
 author: "Kolawole Mangabo"
-tags: ["JWT", "Authentication", "Best Practices"]
-description: "This article helps you understand how to use JWT and learn the best practices."
+tags: ["JWT", "Authentication"]
+description: "JWT is a common way of implementing authentication in web and mobile apps. Read more to know how you can use JWT and learn the necessary best practices."
 ---
 
 One of the most used authentication standards in web applications is the JSON Web Token standard. It is mostly used for authentication, authorization, and information exchange.
 
-JSON Web tokens are made of three parts separated by dots `.` -- and look like this typically: `xxxxx.yyyyy.zzzzz`. These correspond to the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/async/jwt/).
+JSON Web tokens are made of three parts separated by dots `(.)` — and look like this typically: `xxxxx.yyyyy.zzzzz`. These correspond to the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/async/jwt/).
 
 And before using them and continuing to read this article, you might want to check the advantages compared to the session authentication method. You can learn more about [JWTs vs. Sessions here](https://www.loginradius.com/blog/async/guest-post/jwt-vs-sessions/).
 
@@ -31,11 +31,11 @@ Then if the JWT is successfully verified, it can grant or deny access to the res
 
 ### Data Exchanges
 
-JWT is also a great way to secure information transmission between parties -- two servers, for example -- and because you can verify the validity of the token (signature, structure, or the standards claimed in the JWT). 
+JWT is also a great way to secure information transmission between parties — two servers, for example — and because you can verify the validity of the token (signature, structure, or the standards claimed in the JWT). 
 
 ## When Not to Use JWT Authentication?
 
-### Revocable tokens
+### Revocable Tokens
 
 JWT doesn’t require any lookup of the database, so revoking them before the expiration is quite difficult. 
 
@@ -93,7 +93,7 @@ JWTs are hard to revoke when they are created. Most of the time, you’ll have t
 
 Additionally, you can implement your own revocation system.
 
-JWT comes with a time-based claim `iat`-- issued at. It can be used to reject tokens that are too old to be used by the resource server.
+JWT comes with a time-based claim `iat` — issued at. It can be used to reject tokens that are too old to be used by the resource server.
 And clock skew specifies the allowed time difference (in seconds) between the server and the client clocks when verifying `exp` and `nbf` time-based claims. The default recommended default value is 5.
 
 ### 5) JWT Signature
