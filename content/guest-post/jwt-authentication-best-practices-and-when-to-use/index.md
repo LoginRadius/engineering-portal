@@ -1,9 +1,9 @@
 ---
-title: JWT Authentication -- Best Practices and When To Use
+title: JWT Authentication: Best Practices and When To Use
 date: "2021-10-14"
 coverImage: "cover-image.png"
 author: "Kolawole Mangabo"
-tags: ["JWT", "Authentication", "Best Practices"]
+tags: ["JWT", "Authentication","Best Practices"]
 description: "This article helps you understand how to use JWT and learn the best practices."
 ---
 
