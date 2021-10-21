@@ -26,7 +26,7 @@ React components that perform state updates and run asynchronous operations can 
 2. After that, a user clicks on a link, which navigates to another page before completing step #1.
 3. Now, the first action completes and passes the data retrieved from the API and calls function, which updates the state.
 
-Since the component was unmounted and function is being called in a component that is no longer mounted, it causes memory leak issue -- and in the console, you'' get a warning.
+Since the component was unmounted and function is being called in a component that is no longer mounted, it causes memory leak issue -- and in the console, you'll get a warning.
 
 Example of unsafe code:
 
@@ -83,10 +83,14 @@ const [value, setValue] = useStateIfMounted('checking value...');
     }, []);
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 In the above code, I've used a [hook](https://www.loginradius.com/blog/async/react-hooks-guide/) that works just like React's `useState`, but it also checks that component is mounted before updating the state!
 =======
 In the above code, I've used a hook that works just like React's `useState`, but it also checks that component is mounted before updating the state!
 >>>>>>> 06657f1 (Memory Leaks Blog added (#769))
+=======
+In the above code, I've used a [hook](https://www.loginradius.com/blog/async/react-hooks-guide/) that works just like React's `useState`, but it also checks that component is mounted before updating the state!
+>>>>>>> 869446f (Monor updates and author info improved (#817))
 
 ## Conclusion
 
