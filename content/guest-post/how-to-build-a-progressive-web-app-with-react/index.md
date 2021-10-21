@@ -1,10 +1,10 @@
 ---
-title: "How to Build a Progressive Web App (PWA) with React?"
-date: "2021-10-11"
+title: "How to Build a Progressive Web App (PWA) with React"
+date: "2021-10-22"
 author: "Abdullah Pathan"
 coverImage: "blog-image.png"
 tags: ["React","PWA","npm"]
-description: "This article helps you learn how to develop a simple progressive web app using React."
+description: "Follow this article to understand how to develop a simple React PWA. It explains the step-by-step process to help you easily follow along."
 ---
 
 A Progressive Web App (PWA) is a more dynamic web application that can run as a standalone. It offers benefits such as: 
