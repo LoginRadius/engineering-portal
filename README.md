@@ -41,5 +41,5 @@ We appreciate all kinds of contributions from anyone, be it finding an issue or 
 Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
 ## License
+<a href="https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/LoginRadius/engineering-portal?style=for-the-badge"></a>
 
-For more information on licensing, please refer to [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
