@@ -13,6 +13,8 @@ A Progressive Web App (PWA) is a more dynamic web application that can run as a 
 - platform-specific; and, 
 - installable.
 
+> You can learn more about the [differences between native apps and PWAs here.](https://www.loginradius.com/blog/async/progressive-app-vs-native-app/)
+
 In this article, you're going to learn how to build a PWA using React. As React is a popular web framework, this article starts by going over the setup, development process, and spinning it up to see how it looks. For this example, you'll create a simple Counter Page that simply adds or subtracts a number based on button controls.
 
 ## Create a React App with the Progressive Web App Template
