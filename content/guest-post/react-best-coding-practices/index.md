@@ -40,8 +40,8 @@ There's basically no defined structure, but you should have a style to follow th
 3. Not only filename but also make sure that your `variables/functions/modules` filenames are consistent with cases.
 4. Use well-descriptive names for `variables/functions/modules/Actions`, keeping in mind that it is application-specific so that even a third party or new developer can easily understand you code.
 5. It's bad to use the underscore prefix ( _ ) for react component's internal methods because underscore prefixes seem to be used as a convention in other languages to denote private objects or variables. But everything in JavaScript is public. And there is no native support for privacy. So, even if you add underscore prefixes to your properties, It'll not make them private. `_onClickSubmit() → ❌`
-7. Write `Action` types as domain/eventName → `ADD_TODO` and `INCREMENT` (CAPITALS) → This matches typical conventions in most programming languages for declaring constant values.
-8. Talking about `cases` in react component, use `PascalCase` for the same — and for their instances, use `camelCase`. For example:-
+6. When making reducer functions. Write `Action` types as `domain/eventNames`. For example:- `ADD_TODO` and `INCREMENT` (in CAPITALS) as this matches the typical conventions in most programming languges for declaring the constant values.
+7. Talking about `cases` in react component, use `PascalCase` for the same — and for their instances, use `camelCase`. For example:-
 
 ```
 const loginForm = <LoginForm />;
