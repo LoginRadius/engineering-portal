@@ -1,10 +1,10 @@
 ---
 title: Create a webapp using opencv and streamlit
-date: "2020-06-11"
-coverImage: "google_golang.png"
-author: "Puneet Singh"
-tags: ["Go","SocialLogin","OAuth"]
-description: "Learn how to implement Google OAuth2 Authentication in Golang using Goath"
+date: "2021-10-23"
+coverImage: "coverimage.png"
+author: "Dingu Sagar"
+tags: ["OpenCV","Webapp","Streamlit"]
+description: "Learn how to build a quick webapp using streamlit in python and integrating it with an OpenCV project"
 ---
 
 In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface using the beautiful language called python. Yes, you heard it right, no html, css, javascript required. Just pure python!.
@@ -18,10 +18,10 @@ This tutorial assumes you have:
 So lets get started. 
 ### Step 1: Install necessary packages
 
-Lets install OpenCV and stremlit using pip. 
+Lets install OpenCV and stremlit using pip. We would also need Pillow, another image libary.
 
 ```py
-pip install opencv-python streamlit
+pip install opencv-python streamlit Pillow
 ```
 
 ### Step 2: Lets review a small OpenCV project
