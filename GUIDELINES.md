@@ -15,7 +15,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
    - **coverImage:** The name of the image with format should come here. For example, `coverimage.png`. Please make sure that the image is present in the same directory as your `index.md`.
    - **author:** The name of the author. Make sure that it matches with what you would add in the `/content/author.yaml` file.
    - **tags:** Add up to 3 relevant tags as an array of string `for eg: ["NodeJs"]`.
-   - **description:** Add a short description about your blog post, which will appear in the card of your blog. It should not be more than 160 characters.
+   - **description:** Add a short description of your blog post, which will appear on the card of your blog. It should not be more than 160 characters.
 
    This is an example of the meta info in your blog:
 
@@ -37,7 +37,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
    - **bio (required)**: A short, meaningful intro about you that instills trust and confidence.
-   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
+   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, Medium, Twitter.
      Note: For StackOverflow, you need to add your id, which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
    This is an example of the author details:
@@ -75,7 +75,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 - If your blog contains demo code, or if you want to include demo code in a repo for easier reference, please [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a pull request.
 
-- Use images/screenshots in your post to example things better. Any stock images you use should be free for commerical use without requiring attribution.
+- Use images/screenshots in your post to example things better. Any stock images you use should be free for commercial use without requiring attribution.
 
 - Ensure simplicity, ease of implementation of the content, developer-friendliness, and effectiveness.
 
