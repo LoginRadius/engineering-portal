@@ -176,4 +176,4 @@ Use Workbox Lighthouse for testing the capabilities of your PWA: [https://develo
 
 You've learned about what PWAs are and how to build a PWA with React.
 
-And if you want to quickly add user registration and authentication to your React PWA, you can [use LoginRadius](https://www.loginradius.com/blog/async/user-authentication-react-application/). It eliminates the burden of building and maintaining user authentication from scratch and helps you focus entirely on building your app's core features.
+If you want to quickly add user registration and authentication to your React PWA, you can [use LoginRadius](https://www.loginradius.com/blog/async/user-authentication-react-application/). It eliminates the burden of building and maintaining user authentication from scratch and helps you focus entirely on building your app's core features.
