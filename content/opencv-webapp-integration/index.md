@@ -9,17 +9,17 @@ description: "Learn how to build a quick webapp using streamlit in python and in
 
 # Create a webapp using OpenCV and Streamlit in python
 
-In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python! :blush:
+In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python! :blush:
 
 ## Before You Get Started
-**This tutorial assumes you have:**
+**This tutorial assumes:**
 *   You are comfortable with using basic [OpenCV](https://opencv.org/) functions.
 *   You are comfortable with coding in python. 
 
 So let's get started. 
 ### First let's install the dependencies
 
-Let's install OpenCV and stremlit using pip. We would also need Pillow, another image library.
+Let's install OpenCV and streamlit using pip. We would also need Pillow, another image library.
 
 ```py
 pip install opencv-python streamlit Pillow
@@ -62,12 +62,12 @@ Here we have 3 image processing functions that accept an image, do some processi
 
 These functions make use of the OpenCV functions to do the actual processing. (for eg : cv2.GaussianBlur etc). I am not explaining in-depth about them and the various parameters that they accept since this tutorial is more focused on the integration of OpenCV with Streamlit. However, feel free to jump to the OpenCV documentation or google them to know more details about them. 
 
-This program reads the image from the filepath using cv2.imread(), after that it passes the image to these functions that do the processing, finally the image is displayed using cv2.imshow(). cv2.waitKey(0) is to wait till the user presses any key after which the program is exited. 
+This program reads the image from the `filepath` using `cv2.imread()`, after that it passes the image to these functions that do the processing, finally, the image is displayed using `cv2.imshow()`. `cv2.waitKey(0)` is to wait till the user presses any key after which the program is exited. 
 
 
 ## Let's learn some basics of Streamlit.
 
-Streamlit offers some common UI components out of the box that we can place on our webpage. This makes it super easy to code up something real quick. The way streamlit works is it reruns the python script every time there is a user interaction on the components. They have some caching and optimizations, but this simple design makes it super easy to build interactive webpages using Streamlit.
+Streamlit offers some common UI components out of the box that we can place on our webpage. This makes it super easy to code up something real quick. The way streamlit work is it reruns the python script every time there is a user interaction on the components. They have some caching and optimizations, but this simple design makes it super easy to build interactive webpages using Streamlit.
 
 > As someone said “Talk is cheap. Show me the code.” So let's see some code.
 
@@ -104,12 +104,12 @@ Click on this link to open the streamlit app in your browser. you will see somet
 So if you see the code, it's very straightforward. We import streamlit as st. The default is a simple linear layout where we can place components on the webpage in a sequential manner. 
 For eg `st.title() , st.checkbox(), st.slider()` places the these components on the main page in the order in which they are called.. 
 
-Streamli also offers a side panel. In order to place components in the sidepanel, we can do it like this. 
+Streamlit also offers a side panel. In order to place components in the sidepanel, we can do it like this. 
 `st.sidebar.title() , st.sidebar.checkbox(), st.sidebar.slider()`
 
 There are other components also apart from these, you can explore more in the [docs](https://docs.streamlit.io/library/get-started).
 
-## Time to integrate Streamlit to our OpenCV project.
+## Time to integrate Streamlit into our OpenCV project.
 
 Now let's integrate our OpenCV program to Streamlit. Here is the complete code.
 
@@ -165,7 +165,7 @@ if __name__ == '__main__':
     main_loop()
 ```
 
-**Lets Understand what is happening here.**
+** Let's understand what is happening here.**
 
 Apart from the image processing functions, we have a main_loop function where we add the logic for our webpage.
 
@@ -200,9 +200,9 @@ Now we can play with the filters. Of course, these are some basic filters, but w
 
 ![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
 
-## This is all working good in my computer. But how do I make it available for the public to see.
+## This is all working well on my computer. But how do I make it available for the public to see.
 
-To do that, we need to host this program somewhere, There are different hosting providers for complex projects. But for our hobby-project, do we have any simple solution? 
+To do that, we need to host this program somewhere, There are different hosting providers for complex projects. But for our hobby project, do we have any simple and quick solution? 
 
 Looks like there is!
 We can host our streamlit application in the streamlit-cloud for free. You can host upto 3 apps in an account for free, they get upto 1GB of memory.
