@@ -8,7 +8,7 @@ description: "Learn how to build a quick webapp using streamlit in python and in
 ---
 # Create a webapp using OpenCV and Streamlit in python
 
-In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python!:)
+In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python! :blush:
 
 ### Before You Get Started
 **This tutorial assumes you have:**
@@ -192,7 +192,7 @@ Now we pass it to the different processing functions along with the `amount` par
 
 Finally we display the original image and processed image using the `st.image()` component.
 
-Our webapp is ready! To start the app, simply run
+Our webapp is ready! :rocket: To start the app, simply run
 ```
 streamlit run demo-app.py
 ```
