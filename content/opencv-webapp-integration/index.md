@@ -63,3 +63,48 @@ Here we have 3 image processing functions that accept an image, do some processi
 These functions make use of the OpenCV functions to do the actual processing. (for eg : cv2.GaussianBlur etc). I am not explaining in-depth about them and the various parameters that they accept since this tutorial is more focused on the integration of OpenCV with Streamlit. However, feel free to jump to the OpenCV documentation or google them to know more details about them. 
 
 This program reads the image from the filepath using cv2.imread(), after that it passes the image to these functions that do the processing, finally the image is displayed using cv2.imshow(). cv2.waitKey(0) is to wait till the user presses any key after which the program is exited. 
+
+
+## Let's learn some basics of Streamlit.
+
+Streamlit offers some common UI components out of the box that we can place on our webpage. This makes it super easy to code up something real quick. The way streamlit works is it reruns the python script every time there is a user interaction on the components. They have some caching and optimizations, but this simple design makes it super easy to build interactive webpages using Streamlit.
+
+> As someone said “Talk is cheap. Show me the code.” So let's see some code.
+
+Open an editor and copy-paste this to demo-app.py
+```py
+import streamlit as st
+
+st.title("OpenCV Demo App")
+st.subheader("This app allows you to play with Image filters!")
+st.text("We use OpenCV and Streamlit for this demo")
+if st.checkbox("Main Checkbox"):
+    st.text("Check Box Active")
+
+slider_value = st.slider("Slider", min_value=0.5, max_value=3.5)
+st.text(f"Slider value is {slider_value}")
+
+st.sidebar.text("text on side panel")
+st.sidebar.checkbox("Side Panel Checkbox")
+```
+To start a streamlit app, simply run the command `streamlit run` with the filename, for eg.
+`streamlit run demo-app.py`
+
+You should see something like this as output. 
+```
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.8:8501
+```
+Click on this link to open the streamlit app in your browser. you will see something like this. 
+
+![Streamlit basic Screenshot](streamlit-1.png "Streamlit Basic Demo")
+
+So if you see the code, it's very straightforward. We import streamlit as st. The default is a simple linear layout where we can place components on the webpage in a sequential manner. 
+For eg `st.title() , st.checkbox(), st.slider()` places the these components on the main page in the order in which they are called.. 
+
+Streamli also offers a side panel. In order to place components in the sidepanel, we can do it like this. 
+`st.sidebar.title() , st.sidebar.checkbox(), st.sidebar.slider()`
+
+There are other components also apart from these, you can explore more in the [docs](https://docs.streamlit.io/library/get-started).
