@@ -10,7 +10,7 @@ description: "Learn how to build a quick webapp using streamlit in python and in
 
 In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python! :blush:
 
-### Before You Get Started
+## Before You Get Started
 **This tutorial assumes you have:**
 *   You are comfortable with using basic [OpenCV](https://opencv.org/) functions.
 *   You are comfortable with coding in python. 
@@ -24,7 +24,7 @@ Let's install OpenCV and stremlit using pip. We would also need Pillow, another 
 pip install opencv-python streamlit Pillow
 ```
 
-### Now let's review a small OpenCV project
+## Now let's review a small OpenCV project
 
 ```py
 import cv2
@@ -65,7 +65,7 @@ This program reads the image from the filepath using cv2.imread(), after that it
 
 
 
-### Let's learn some basics of Streamlit.
+## Let's learn some basics of Streamlit.
 
 Streamlit offers some common UI components out of the box that we can place on our webpage. This makes it super easy to code up something real quick. The way streamlit works is it reruns the python script every time there is a user interaction on the components. They have some caching and optimizations, but this simple design makes it super easy to build interactive webpages using Streamlit.
 
@@ -109,7 +109,7 @@ Streamli also offers a side panel. In order to place components in the sidepanel
 
 There are other components also apart from these, you can explore more in the [docs](https://docs.streamlit.io/library/get-started).
 
-### Time to integrate Streamlit to our OpenCV project.
+## Time to integrate Streamlit to our OpenCV project.
 
 Now let's integrate our OpenCV program to Streamlit. Here is the complete code.
 
@@ -201,11 +201,12 @@ Now we can play with the filters. Of course, these are some basic filters, but w
 ![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
 
 
-### This is all working good in my computer. But how do I make it available for the public to see.
+## This is all working good in my computer. But how do I make it available for the public to see.
 
 To do that, we need to host this program somewhere, There are different hosting providers for complex projects. But for our hobby-project, do we have any simple solution? 
 
 Looks like there is!
 We can host our streamlit application in the streamlit-cloud for free. You can host upto 3 apps in an account for free, they get upto 1GB of memory.
-Checkout this tutorial from the community to quickly host this.
+Checkout [this tutorial](https://docs.streamlit.io/streamlit-cloud/community) from the community to host this to streamlit-cloud.
 
+**That brings us to the end of this tutorial, Hope you found it useful.**
