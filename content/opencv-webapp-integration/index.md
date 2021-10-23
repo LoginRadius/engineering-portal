@@ -199,3 +199,13 @@ streamlit run demo-app.py
 Now we can play with the filters. Of course, these are some basic filters, but we can definitely extend it to more interesting filters like cartoonify filters, etc using the rich features of OpenCV.
 
 ![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
+
+## This is all working good in my computer. But how do I make it available for the public to see.
+
+To do that, we need to host this program somewhere, There are different hosting providers for complex projects. But for our hobby-project, do we have any simple solution? 
+
+Looks like there is!
+We can host our streamlit application in the streamlit-cloud for free. You can host upto 3 apps in an account for free, they get upto 1GB of memory.
+Checkout [this tutorial](https://docs.streamlit.io/streamlit-cloud/community) from the community to host this to streamlit-cloud.
+
+**That brings us to the end of this tutorial, Hope you found it useful.**
