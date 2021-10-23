@@ -108,3 +108,94 @@ Streamli also offers a side panel. In order to place components in the sidepanel
 `st.sidebar.title() , st.sidebar.checkbox(), st.sidebar.slider()`
 
 There are other components also apart from these, you can explore more in the [docs](https://docs.streamlit.io/library/get-started).
+
+## Time to integrate Streamlit to our OpenCV project.
+
+Now let's integrate our OpenCV program to Streamlit. Here is the complete code.
+
+```py
+import cv2
+import streamlit as st
+import numpy as np
+from PIL import Image
+
+
+def brighten_image(image, amount):
+    img_bright = cv2.convertScaleAbs(image, beta=amount)
+    return img_bright
+
+
+def blur_image(image, amount):
+    blur_img = cv2.GaussianBlur(image, (11, 11), amount)
+    return blur_img
+
+
+def enhance_details(img):
+    hdr = cv2.detailEnhance(img, sigma_s=12, sigma_r=0.15)
+    return hdr
+
+
+def main_loop():
+    st.title("OpenCV Demo App")
+    st.subheader("This app allows you to play with Image filters!")
+    st.text("We use OpenCV and Streamlit for this demo")
+
+    blur_rate = st.sidebar.slider("Blurring", min_value=0.5, max_value=3.5)
+    brightness_amount = st.sidebar.slider("Brightness", min_value=-50, max_value=50, value=0)
+    apply_enhancement_filter = st.sidebar.checkbox('Enhance Details')
+
+    image_file = st.file_uploader("Upload Your Image", type=['jpg', 'png', 'jpeg'])
+    if not image_file:
+        return None
+
+    original_image = Image.open(image_file)
+    original_image = np.array(original_image)
+
+    processed_image = blur_image(original_image, blur_rate)
+    processed_image = brighten_image(processed_image, brightness_amount)
+
+    if apply_enhancement_filter:
+        processed_image = enhance_details(processed_image)
+
+    st.text("Original Image vs Processed Image")
+    st.image([original_image, processed_image])
+
+
+if __name__ == '__main__':
+    main_loop()
+```
+
+**Lets Understand what is happening here.**
+
+Apart from the image processing functions, we have a main_loop function where we add the logic for our webpage.
+
+Nothing fancy about `st.title(), st.subheader(), st.text()`, they just print some text in different sizes.
+
+Next, we have two sliders to get the amount by which we need to apply the blur and brightness filters.
+
+Note that `st.sidebar` places these components in the sidebar. 
+`slider()` takes in some arguments - name of the slider, min value, max value, and the default value of the slider. This function returns the current value of the slider.
+
+Next, we have a checkbox component.
+`checkbox()` returns True if the checkbox is checked else it would return False.
+
+Next, we place a file_uploader component, through which users can upload files of different types specified by the `type` parameter. We restrict it to the image file types for our usecase.  
+
+When the program starts, there are no files selected by the user. At this time, this component returns None. When a file is uploaded from the UI, this component returns the path of the file. 
+
+This is why we have an if-check on the return value of this component. If there are no files selected, we can skip the rest of the program by returning from the main_loop() function.
+Remember the entire program is rerun whenever there is user interaction on any components of the page. So when a user uploads a file, the whole program is executed again and this if-check fails so that the rest of the program for image processing logic gets executed.  
+
+We use `Pillow.Image()` to open this file, then we convert it to a numpy array using `np.array()` so that OpenCV can process it.
+
+Now we pass it to the different processing functions along with the `amount` parameter. 
+
+Finally we display the original image and processed image using the `st.image()` component.
+
+Our webapp is ready! :rocket: To start the app, simply run
+```
+streamlit run demo-app.py
+```
+Now we can play with the filters. Of course, these are some basic filters, but we can definitely extend it to more interesting filters like cartoonify filters, etc using the rich features of OpenCV.
+
+![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
