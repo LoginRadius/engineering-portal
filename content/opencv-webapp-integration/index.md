@@ -6,25 +6,25 @@ author: "Dingu Sagar"
 tags: ["OpenCV","Webapp","Streamlit"]
 description: "Learn how to build a quick webapp using streamlit in python and integrating it with an OpenCV project"
 ---
+# Create a webapp using OpenCV and Streamlit in python
 
-In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface using the beautiful language called python. Yes, you heard it right, no html, css, javascript required. Just pure python!.
+In this blog, we are gonna see how easy it is to convert an OpenCV project into a webapp that you can showcase it to the public. We are gonna use a library called streamlit. Using streamlit we can easily build a web user interface in python. Yes, you heard it right, no html, css or javascript required. Just pure python!:)
 
-## Before You Get Started
-This tutorial assumes you have:
+### Before You Get Started
+**This tutorial assumes you have:**
+*   You are comfortable with using basic [OpenCV](https://opencv.org/) functions.
+*   You are comfortable with coding in python. 
 
-*   Basic knowlege of what OpenCV is.
-*   Basic knowledge about python. 
+So let's get started. 
+### First let's install the dependencies
 
-So lets get started. 
-### Step 1: Install necessary packages
-
-Lets install OpenCV and stremlit using pip. We would also need Pillow, another image libary.
+Let's install OpenCV and stremlit using pip. We would also need Pillow, another image library.
 
 ```py
 pip install opencv-python streamlit Pillow
 ```
 
-### Step 2: Lets review a small OpenCV project
+### Now let's review a small OpenCV project
 
 ```py
 import cv2
@@ -54,24 +54,24 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-Here we have 3 image processing funtions that accept an image, do some processing on it and return the processed image. 
+Here we have 3 image processing functions that accept an image, do some processing on it, and return the processed image. 
 1. `brighten_image` - increases the brightness of the image.
 2. `blur_image` - applies a blur effect on the image.
 3. `enhance_details` - apply an effect to enhance the details of the image.
 
-These functions make use of the OpenCV fuctions to do the actual processing. (for eg : cv2.GaussianBlur etc). I am not explaning in depth about them and various parameters that they accept, since this tutorial is more focused on the integration of OpenCV with Streamlit. However feel free to jump to the OpenCV documentation or google them to know more details about them. 
+These functions make use of the OpenCV functions to do the actual processing. (for eg : cv2.GaussianBlur etc). I am not explaining in-depth about them and the various parameters that they accept since this tutorial is more focused on the integration of OpenCV with Streamlit. However, feel free to jump to the OpenCV documentation or google them to know more details about them. 
 
-This program reads the image from the filepath using cv2.imread(), after that it passes the image to these funtions that do the processing, finally the image is displayed using cv2.imshow(). cv2.waitKey(0) is to wait till the user presses any key after which the program is exited. 
+This program reads the image from the filepath using cv2.imread(), after that it passes the image to these functions that do the processing, finally the image is displayed using cv2.imshow(). cv2.waitKey(0) is to wait till the user presses any key after which the program is exited. 
 
 
 
-### Step 3: Streamlit Basics
+### Let's learn some basics of Streamlit.
 
-Streamlit offers several components that we can place in the webpage. It also offers a sidepanel and we can place components there as well. 
+Streamlit offers some common UI components out of the box that we can place on our webpage. This makes it super easy to code up something real quick. The way streamlit works is it reruns the python script every time there is a user interaction on the components. They have some caching and optimizations, but this simple design makes it super easy to build interactive webpages using Streamlit.
 
-Lets see some code to understand better.
+> As someone said “Talk is cheap. Show me the code.” So let's see some code.
 
-Open an editor and copy paste this to demo-app.py
+Open an editor and copy-paste this to demo-app.py
 ```py
 import streamlit as st
 
@@ -101,17 +101,17 @@ Click on this link to open the streamlit app in your browser. you will see somet
 
 ![Streamlit basic Screenshot](streamlit-1.png "Streamlit Basic Demo")
 
-So if you see the code, its very straightforward. We import streamlit as st. The default is a simple linear layout where we can place components on the webpage in a linear manner. 
-For `st.title() , st.checkbox(), st.slider()` places the these components on the main page. 
+So if you see the code, it's very straightforward. We import streamlit as st. The default is a simple linear layout where we can place components on the webpage in a sequential manner. 
+For eg `st.title() , st.checkbox(), st.slider()` places the these components on the main page in the order in which they are called.. 
 
-Now streamlit pages also have a side panel. In order to place components in the sidepanel, we can do it like this. 
+Streamli also offers a side panel. In order to place components in the sidepanel, we can do it like this. 
 `st.sidebar.title() , st.sidebar.checkbox(), st.sidebar.slider()`
 
 There are other components also apart from these, you can explore more in the [docs](https://docs.streamlit.io/library/get-started).
 
-### Step 4: Streamlit and OpenCV integration
+### Time to integrate Streamlit to our OpenCV project.
 
-Now lets integrate our OpenCV program to Streamlit. 
+Now let's integrate our OpenCV program to Streamlit. Here is the complete code.
 
 ```py
 import cv2
@@ -165,32 +165,47 @@ if __name__ == '__main__':
     main_loop()
 ```
 
-Apart from the image processing funtions, we also added a main_loop funtion to have all our streamlit component design.
+**Lets Understand what is happening here.**
 
-One important thing to keep in mind is Streamlit reruns the python script everytime there is a user interaction on the components.
+Apart from the image processing functions, we have a main_loop function where we add the logic for our webpage.
 
-`st.title(), st.subheader(), st.text()` is straightforward, they just print some text in different sizes.
+Nothing fancy about `st.title(), st.subheader(), st.text()`, they just print some text in different sizes.
 
-Next we have two sliders to get the amount of filter effects that we want to apply for blur and brightness filters.
+Next, we have two sliders to get the amount by which we need to apply the blur and brightness filters.
 
 Note that `st.sidebar` places these components in the sidebar. 
-`slider()` takes in some arguments viz name of the slider, min value, max value and the default value of the slider. Also this returns the current value of the slider.
+`slider()` takes in some arguments - name of the slider, min value, max value, and the default value of the slider. This function returns the current value of the slider.
 
-Next we have added a checkbox component.
+Next, we have a checkbox component.
 `checkbox()` returns True if the checkbox is checked else it would return False.
 
-Next we place a file_uploader component, through which users can upload files specified by the `type` parameter. 
+Next, we place a file_uploader component, through which users can upload files of different types specified by the `type` parameter. We restrict it to the image file types for our usecase.  
 
-Initially when there are no files selected, this component returns None. This is why we have a if check on the return value of this component. If there are no files selected, we can skip the rest of the program.
+When the program starts, there are no files selected by the user. At this time, this component returns None. When a file is uploaded from the UI, this component returns the path of the file. 
 
-When a file is uploaded from the UI, this component returns the path of the file. 
+This is why we have an if-check on the return value of this component. If there are no files selected, we can skip the rest of the program by returning from the main_loop() function.
+Remember the entire program is rerun whenever there is user interaction on any components of the page. So when a user uploads a file, the whole program is executed again and this if-check fails so that the rest of the program for image processing logic gets executed.  
 
 We use `Pillow.Image()` to open this file, then we convert it to a numpy array using `np.array()` so that OpenCV can process it.
 
-Now we pass it to the different processing funtions along with the amount parameter. 
+Now we pass it to the different processing functions along with the `amount` parameter. 
 
-Finally we display the original imange and processed image using the `st.image()` component.
+Finally we display the original image and processed image using the `st.image()` component.
 
-Our webapp is ready! Now we can play with the filters. Ofcourse these are some basic filters, but we can definitely use this framework to build advanced features like adding more interesting filters like cartoonify etc using the rich features of OpenCV.
+Our webapp is ready! To start the app, simply run
+```
+streamlit run demo-app.py
+```
+Now we can play with the filters. Of course, these are some basic filters, but we can definitely extend it to more interesting filters like cartoonify filters, etc using the rich features of OpenCV.
 
 ![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
+
+
+### This is all working good in my computer. But how do I make it available for the public to see.
+
+To do that, we need to host this program somewhere, There are different hosting providers for complex projects. But for our hobby-project, do we have any simple solution? 
+
+Looks like there is!
+We can host our streamlit application in the streamlit-cloud for free. You can host upto 3 apps in an account for free, they get upto 1GB of memory.
+Checkout this tutorial from the community to quickly host this.
+
