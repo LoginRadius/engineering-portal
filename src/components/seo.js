@@ -1,7 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
-import { StaticQuery, withPrefix } from "gatsby"
+import { StaticQuery, withPrefix, graphql } from "gatsby"
 
 const SEO = ({
   title = 'Async Blog — A place for developers, created by developers',

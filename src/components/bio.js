@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import _ from "lodash"
 import React from "react"
-import styles from "./bio.module.scss"
+import * as styles from "./bio.module.scss"
 
 const Bio = ({ date, author, pinned, readingTime }) => {
   const githubUrl = author.github

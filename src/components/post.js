@@ -7,11 +7,11 @@ import _ from "lodash"
 import SEO from "./seo"
 import Bio from "./bio"
 
-import styles from "./post.module.scss"
+import * as styles from "./post.module.scss"
 
 import { Link } from "gatsby"
 
-import headStyles from "./cardlist.module.scss"
+import * as headStyles from "./cardlist.module.scss"
 import TagMenu from "./tagMenu"
 
 import ReactGA from "react-ga"

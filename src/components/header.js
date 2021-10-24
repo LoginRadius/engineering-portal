@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
-import headerStyles from "./header.module.scss"
+import * as headerStyles from "./header.module.scss"
 
 import logoAsync from "../../static/async.svg"
 import logoAsyncDark from "../../static/async-dark.svg"
