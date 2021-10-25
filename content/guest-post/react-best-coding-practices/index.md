@@ -27,7 +27,7 @@ There's basically no defined structure, but you should have a style to follow th
 
     Make sure all your imports statements are on new lines, as this will make your imports clean and easy to understand for all the components, third-party libraries, etc.
 2. Use `index.js` for each folder to export so that all the imports are referenced on the `index.js` file, and you don't have to write import statements again and again for every file.
-3. It's easy to get confused about _whether to use double quotes (" ") or single quotes (' ')_ while working with react. The simple answer is: `maintain consistency` whatever you're using. 
+3. It's easy to get confused about _whether to use double quotes (" ") or single quotes (' ')_ while working with React. The simple answer is: `maintain consistency` whatever you're using. 
 
 	Also, consider that you use double quotes (" ") for `JSX` attributes and single quotes (' ') for the `JS` code (Follow the standard way or maintain consistency).
 4. Most of the time, beginners merge two-three components inside a single file and play around with that. However, that's not a good practice to follow. Dividing the whole app into components and then working on it on a separate file is a good practice to maintain clean code.
@@ -39,9 +39,9 @@ There's basically no defined structure, but you should have a style to follow th
 2. In React, name your file the same as the React component inside that file i.e. without a hyphen in the filename. For example: `Registration-Form` → ❌. `RegistrationForm` → ✔️.
 3. Not only filename but also make sure that your `variables/functions/modules` filenames are consistent with cases.
 4. Use well-descriptive names for `variables/functions/modules/Actions`, keeping in mind that it is application-specific so that even a third party or new developer can easily understand you code.
-5. It's bad to use the underscore prefix ( _ ) for react component's internal methods because underscore prefixes seem to be used as a convention in other languages to denote private objects or variables. But everything in JavaScript is public. And there is no native support for privacy. So, even if you add underscore prefixes to your properties, It'll not make them private. `_onClickSubmit() → ❌`
-6. When making reducer functions. Write `Action` types as `domain/eventNames`. For example:- `ADD_TODO` and `INCREMENT` (in CAPITALS) as this matches the typical conventions in most programming languges for declaring the constant values.
-7. Talking about `cases` in react component, use `PascalCase` for the same — and for their instances, use `camelCase`. For example:-
+5. It's bad to use the underscore prefix ( _ ) for a React component's internal methods because underscore prefixes seem to be used as a convention in other languages to denote private objects or variables. But everything in JavaScript is public. And there is no native support for privacy. So, even if you add underscore prefixes to your properties, It'll not make them private. `_onClickSubmit() → ❌`
+6. When making reducer functions, write `Action` types as `domain/eventNames`. For example: `ADD_TODO` and `INCREMENT` (in CAPITALS) as this matches the typical conventions in most programming languges for declaring the constant values.
+7. Talking about `cases` in a React component, use `PascalCase` for the same — and for their instances, use `camelCase`. For example:-
 
 ```
 const loginForm = <LoginForm />;
@@ -76,7 +76,7 @@ Either manually follow these rules or use an ESLint plugin called `eslint-plugin
 2. Remove `console. logs` — unless you have strong motivation why you would like it.
 3. Avoid multiple `if-else blocks`. Instead, use `ternary` — best for clean code practice
 4. Remove all `commented-out codes`. The biggest motivation for writing comments is the bad code that you write. It would be good to spend more time writing descriptive functions, methods, and filenames that are self-explanatory.
-5. Write `Tests` for each component. It's a good practice to write test cases for each component developed as it reduces the chances of getting errors when deployed. You can check all the possible scenarios through unit testing — and for that, some of the most commonly used react test frameworks you can use are `JEST` and `ENZYMES`.
+5. Write `Tests` for each component. It's a good practice to write test cases for each component developed as it reduces the chances of getting errors when deployed. You can check all the possible scenarios through unit testing — and for that, some of the most commonly used React test frameworks you can use are `JEST` and `ENZYMES`.
 
 ### Good Commenting Practices
 
@@ -108,7 +108,7 @@ console.log(sum);
 
 Please note that I haven't talked about automation extension and tools that can help you maintain most of the best practices easily without looking into separately. But, I wanted to bring this into consideration. Anyhow, you can use extensions like `prettier`, `EsLint`, `EditorConfig`, `PLOP` etc., to maintain your codebase efficiently.
 
-These are the best practices that I've learned practically over time by working in a team, reviewing my mates' codebase, observing open-source projects and repositories, and reading great resources, such as the [offical react docs](https://reactjs.org/docs/getting-started.html). 
+These are the best practices that I've learned practically over time by working in a team, reviewing my mates' codebase, observing open-source projects and repositories, and reading great resources, such as the [offical React docs](https://reactjs.org/docs/getting-started.html). 
 
 ## Conclusion
 
