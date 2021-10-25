@@ -73,7 +73,7 @@ android
 ### Build Variants
 Combines your build types and product flavors. Sync your project after you update your build.gradle. Then you will see all your build variants.
 
-![Build Variants](build_variants.png)
+![Build Variants](build_variants-2.png)
 
 ### 5) Learn & Use [Android Debug Bridge (ADB)](https://developer.android.com/studio/command-line/adb#:~:text=Android%20Debug%20Bridge%20(adb)%20is,of%20commands%20on%20a%20device.) to debug your application.<br/><br/>
 Android Debug Bridge (ADB) is a versatile command-line tool that lets you communicate with a device.
@@ -255,7 +255,7 @@ Over the past two years, Google Play has launched various features to make it ea
 ### 27) Introduce [Modularization](https://medium.com/google-developer-experts/modularizing-android-applications-9e2d18f244a0) in app.
 
 Split your app module into different small modules, and give those modules as dependency to required modules like ```implementation project(":network-module")``` , you will get benefit of faster builds while developing your app and reusable code. Later you can extend this to provide dynamic delivery module.<br/><br/>
-![Build Variants](modularization.png)
+![Build Variants](modularization-2.png)
 
 <br/>Read more [here](https://medium.com/swlh/modularization-by-feature-and-layer-with-android-architecture-components-80bf317d737).
 
@@ -314,7 +314,7 @@ android {
 
 Now you can separate out activity layouts, fragment layout and custom layouts in their respective folder as shown
 
-![Build Variants](layout_structure.png)
+![Build Variants](layout_structure-2.png)
 
 This will make navigating for layout files a lot easier and keep resources segregated.
 
