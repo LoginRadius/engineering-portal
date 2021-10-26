@@ -268,6 +268,8 @@ Now click on the `Deploy & Run Transactions` option in the left side bar.
 **🎉 Congratulations your Smart Contract has been Deployed. 🎉**
 
 ### Sample Transactions :
+>Now you have to remember, that whenever a transaction is getting executed it stores all the details in an unique `hash` key.
+
 Now, Under `Deployed Contract` click on `> PG AT ..... (MEMORY)`
 1. Click on the `V` icon (Dropdown Menu) of `addRoom` function.
 2. Fill up the details.
@@ -301,7 +303,7 @@ You can check the same by entering `RoomAgreementNo` : `1`
 
 <br>
 
-**🎉 Congratulations you have successfully signed you 1st agreement. 🎉**
+**🎉 Congratulations you have successfully signed your 1st agreement. 🎉**
 
 #### Your all transactions will be shown in the `terminal`.
 
@@ -309,163 +311,52 @@ You can check the same by entering `RoomAgreementNo` : `1`
 
 Now you can cross verify this by checking your `ether` account address.
 
---- 
-### Complete Code : 
-```
-pragma solidity ^0.5.16;
-contract PG{
-    address payable tenant;
-    address payable landlord;
-    uint public no_of_rooms = 0;
-    uint public no_of_agreement = 0;
-    uint public no_of_rent = 0;
-    
-    struct Room{
-        uint roomid;
-        uint agreementid;
-        string roomname;
-        string roomaddress;
-        uint rent_per_month;
-        uint securityDeposit;
-        uint timestamp;
-        bool vacant;
-        address payable landlord;
-        address payable currentTenant;
-    }
-    
-    mapping(uint => Room) public Room_by_No;
-    
-    struct RoomAgreement{
-        uint roomid;
-        uint agreementid;
-        string Roomname;
-        string RoomAddresss;
-        uint rent_per_month;
-        uint securityDeposit;
-        uint lockInPeriod;
-        uint timestamp;
-        address payable tenantAddress;
-        address payable landlordAddress;
-    }
-    
-   mapping(uint => RoomAgreement) public RoomAgreement_by_No;
-    
-    struct Rent{
-        uint rentno;
-        uint roomid;
-        uint agreementid;
-        string Roomname;
-        string RoomAddresss;
-        uint rent_per_month;
-        uint timestamp;
-        address payable tenantAddress;
-        address payable landlordAddress;
-    }
-    
-   mapping(uint => Rent) public Rent_by_No;
-    
-    modifier onlyLandlord(uint _index) {
-        require(msg.sender == Room_by_No[_index].landlord, "Only landlord can access this");
-        _;
-    }
-    
-    modifier notLandLord(uint _index) {
-        require(msg.sender != Room_by_No[_index].landlord, "Only Tenant can access this");
-        _;
-    }
-    
-    modifier OnlyWhileVacant(uint _index){
-        
-        require(Room_by_No[_index].vacant == true, "Room is currently Occupied.");
-        _;
-    }
-    
-    modifier enoughRent(uint _index) {
-        require(msg.value >= uint(Room_by_No[_index].rent_per_month), "Not enough Ether in your wallet");
-        _;
-    }
-    
-    modifier enoughAgreementfee(uint _index) {
-        require(msg.value >= uint(uint(Room_by_No[_index].rent_per_month) + uint(Room_by_No[_index].securityDeposit)), "Not enough Ether in your wallet");
-        _;
-    }
-    
-    modifier sameTenant(uint _index) {
-        require(msg.sender == Room_by_No[_index].currentTenant, "No previous agreement found with you & landlord");
-        _;
-    }
-    
-    modifier AgreementTimesLeft(uint _index) {
-        uint _AgreementNo = Room_by_No[_index].agreementid;
-        uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
-        require(now < time, "Agreement already Ended");
-        _;
-    }
-    
-    modifier AgreementTimesUp(uint _index) {
-        uint _AgreementNo = Room_by_No[_index].agreementid;
-        uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
-        require(now > time, "Times left for contract to end");
-        _;
-    }
-    
-    modifier RentTimesUp(uint _index) {
-        uint time = Room_by_No[_index].timestamp + 30 days;
-        require(now == time, "Time left to pay Rent");
-        _;
-    }
+### Advantages of smart Contract:
 
-    function addRoom(string memory _roomname, string memory _roomaddress, uint _rentcost, uint  _securitydeposit) public {
-        require(msg.sender != address(0));
-        no_of_rooms ++;
-        bool _vacancy = true;
-        Room_by_No[no_of_rooms] = Room(no_of_rooms,0,_roomname,_roomaddress, _rentcost,_securitydeposit,0,_vacancy, msg.sender, address(0)); 
-        
-    }
-    
-    function signAgreement(uint _index) public payable notLandLord(_index) enoughAgreementfee(_index) OnlyWhileVacant(_index) {
-        require(msg.sender != address(0));
-        address payable _landlord = Room_by_No[_index].landlord;
-        uint totalfee = Room_by_No[_index].rent_per_month + Room_by_No[_index].securityDeposit;
-        _landlord.transfer(totalfee);
-        no_of_agreement++;
+Now you may ask , "What is the use of smart contract, when there are other several centralised methods?".
 
-        Room_by_No[_index].currentTenant = msg.sender;
-        Room_by_No[_index].vacant = false;
-        Room_by_No[_index].timestamp = block.timestamp;
-        Room_by_No[_index].agreementid = no_of_agreement;
-        RoomAgreement_by_No[no_of_agreement]=RoomAgreement(_index,no_of_agreement,Room_by_No[_index].roomname,Room_by_No[_index].roomaddress,Room_by_No[_index].rent_per_month,Room_by_No[_index].securityDeposit,365 days,block.timestamp,msg.sender,_landlord);
-        no_of_rent++;
-        Rent_by_No[no_of_rent] = Rent(no_of_rent,_index,no_of_agreement,Room_by_No[_index].roomname,Room_by_No[_index].roomaddress,Room_by_No[_index].rent_per_month,now,msg.sender,_landlord);
-        
-    }
-    
-    function payRent(uint _index) public payable sameTenant(_index) RentTimesUp(_index) enoughRent(_index){
-        require(msg.sender != address(0));
-        address payable _landlord = Room_by_No[_index].landlord;
-        uint _rent = Room_by_No[_index].rent_per_month;
-        
-        _landlord.transfer(_rent);
-        
-        Room_by_No[_index].currentTenant = msg.sender;
-        Room_by_No[_index].vacant = false;
-        no_of_rent++;
-        Rent_by_No[no_of_rent] = Rent(no_of_rent,_index,Room_by_No[_index].agreementid,Room_by_No[_index].roomname,Room_by_No[_index].roomaddress,_rent,now,msg.sender,Room_by_No[_index].landlord);
-    }
+Now I will tell you some advantages of Smart Contract over centralised system:
+1. Here data cannot be changed or tampered. So, it is almost impossible for hackers to manipulate data.
+2. It's completely decentralised.
+3. Unlike any centralised payment wallet, you don't have to pay any commission percentages to the middle man during any transactions.
 
-    function agreementCompleted(uint _index) public payable onlyLandlord(_index) AgreementTimesUp(_index){
-        require(msg.sender != address(0));
-        require(Room_by_No[_index].vacant == false, "Room is currently Occupied.");
-        Room_by_No[_index].vacant = true;
-        address payable _Tenant = Room_by_No[_index].currentTenant;
-        uint _securitydeposit = Room_by_No[_index].securityDeposit;
-        _Tenant.transfer(_securitydeposit);
-    }
-    
-    function agreementTerminated(uint _index, uint _terminateno) public onlyLandlord(_index) AgreementTimesLeft(_index){
-        require(msg.sender != address(0));
-        Room_by_No[_index].vacant = true;
-    }
-}
-```
----
+#### Storage & others :
+Now you may also ask "How all transactions are being recorded?"
+
+So you have to remember that, Smart Contract stores data in a block of blockchain & all transactions are stored with an unique `hash` key.
+
+In Remix IDE, you can download the complete transactions history as a `json` file.
+For that you have to follow these steps :
+1. Click `Deploy & Run Transaction`
+2. Then expand the `Transactions Recorded (..) V` dropdown menu.
+3. Then Click on the `Save` icon.
+4. Press `ok`. 
+
+#### Gas Fee :
+Now you may have noticed that, whenever a transaction is getting executed, a few `wei` is getting deducted from your ether wallet. 
+<br>So, it is called `gas fee`, which is the payments made by users to compensate for the computing energy required to process and validate transactions. 
+<br>Now as more Ethereum miners will come up in near future then `gas fee` will also decrease in an inverse relation. 
+
+#### Future Possibilities :
+After this , in future if you want to build a fullstack website using `React` then you can use this `Smart Contract` as backend.
+
+For that you need to install/download : 
+
+**Frontend :**
+1. [Node.js](https://nodejs.org/en/)
+
+**Backend :**
+1. [web3.js](https://www.npmjs.com/package/web3)
+2. [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation)
+
+**For Testing Purpose :**
+1. [Ganache](https://www.trufflesuite.com/ganache)
+2. [Metamask](https://metamask.io/)
+
+And then just follow the [official documentation](https://web3js.readthedocs.io/en/v1.5.2/) of Web3.js to connect your smart contract with your react app.
+### Conclusion :
+So, now you have successfully understand what is solidity & how Smart Contract works.
+
+Also you have successfully build and deployed a perfectly working Smart Contract (where tenant can pay rent in ether directly to the landlord's wallet without paying a single wei to any middle man)
+
+<!-- To download the complete code click [here](). -->
