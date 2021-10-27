@@ -98,6 +98,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-autolink-headers`,
           { resolve: "gatsby-remark-copy-linked-files" },
           {
             resolve: `gatsby-remark-relative-images`,
@@ -295,6 +296,8 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-smoothscroll`,
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,

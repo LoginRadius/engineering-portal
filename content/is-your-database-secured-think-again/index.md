@@ -4,7 +4,6 @@ date: "2016-02-23"
 coverImage: "database_secure-300x300.png"
 author: "Kunal"
 tags: ["Database", "Security"]
-pinned: true
 ---
 
 **1\. Secure your server**

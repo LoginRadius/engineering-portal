@@ -4,8 +4,8 @@ import PropTypes from "prop-types"
 import { StaticQuery, withPrefix } from "gatsby"
 
 const SEO = ({
-  title = null,
-  description = null,
+  title = 'Async Blog — A place for developers, created by developers',
+  description = 'Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.',
   image = null,
   pathname = null,
   article = false,
