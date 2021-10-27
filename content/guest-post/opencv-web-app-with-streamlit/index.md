@@ -23,7 +23,7 @@ Install OpenCV and Streamlit using pip. You would also need Pillow — another i
 pip install opencv-python streamlit Pillow
 ```
 
-## Create    a Small OpenCV Project
+## Create a Small OpenCV Project
 
 ```py
 import cv2
