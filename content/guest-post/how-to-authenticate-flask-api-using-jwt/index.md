@@ -28,17 +28,12 @@ This authentication uses more than one factor to authenticate a user. For exampl
 
 There are basically three types of authentication, as follows:
 
-1. **Knowledge Authentication**: The user is asked something that only them can provide or know -- e.g., password. This is the most common type and also the easiest.
+1. **Knowledge Authentication**: The user is asked something that only they can provide or know -- e.g., password. This is the most common type and also the easiest.
 2. **Property Authentication**: The user is asked for something they own or possess. For example, they can be asked their pet's name. The idea here is that users will be asked to set a security question and answer when creating an account. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
 3. **Biological Authentication**: The user is asked to verify their identity using something biologically unique to them -- e.g, a fingerprint or iris scan.
 
 In most applications, knowledge and property authentication are used as an extra layer of the authentication.
 
-## What Authentication is Not?
-
-Authentication is not a form of access control. It is a process of verifying that an entity is who they claim to be. People do confuse authentication with authorization. However, authentication is not a form of authorization. 
-
-Authorization is a process of verifying that a user has permission to access a resource. For example, in an application with three kinds of users: admin, authors, and regular users. There are some resources that a normal user and an author don't have access to that an admin has access to; meanwhile, they're all authenticated.
 
 ## Authentication vs. Authorization
 
