@@ -5,6 +5,8 @@ var slideOutName = "initialValue";
 
 var gatsbyWrapperID = "gatsby-focus-wrapper";
 
+if(typeof window !== 'undefined' && window)
+{
 var media1620 = window.matchMedia("(max-width: 1620px)");
 var media1620on = false;
 
@@ -106,4 +108,5 @@ function checkMedia( media1620 )
 {
     // If media query matches
     media1620on = media1620.matches;
+}
 }
