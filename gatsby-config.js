@@ -4,7 +4,7 @@ const getTimeToRead = require("./src/utils/timeToReadRss");
 module.exports = {
   siteMetadata: {
     title: `Async Blog — A place for developers, created by developers`,
-    titleTemplate: "%s · LoginRadius Engineering",
+    titleTemplate: "%s · Async Blog",
     description:
       "Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.",
     siteUrl: "https://www.loginradius.com",
