@@ -296,6 +296,20 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "nofollow"
+          }
+        }
+        ]
+      }
+    },
     `gatsby-plugin-emotion`,
     `gatsby-plugin-smoothscroll`,
   ],
