@@ -18,8 +18,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
   font-family: $font-stack;
 }
 *,
@@ -31,7 +31,7 @@ body {
 
 ul,
 ol {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 35px;
   margin-left: 0;
 }
 input[type="submit"] {
@@ -90,7 +90,7 @@ a {
   }
 }
 button {
-  border: 0;
+  border: 2px;
   cursor: pointer;
 }
 ul {
@@ -169,7 +169,7 @@ ul {
   max-width: 300px;
   margin-top: 32px;
   width: fit-content;
-  @media (max-width: 768px) {
+  @media (max-width: 770px) {
     max-width: 100%;
     padding: 0;
     font-size: 18px;
@@ -180,7 +180,7 @@ ul {
   margin-bottom: $space-0;
 }
 .py-40 {
-  padding: 40px 0;
+  padding: 35px 0;
 }
 .py-80 {
   padding: $space-80 0;
@@ -208,7 +208,7 @@ ul {
   }
 }
 .mb-48 {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 .circle {
   border-radius: 100%;
@@ -239,8 +239,8 @@ section {
   & > div {
     overflow: hidden;
     margin: 0 auto;
-    padding: 0 24px;
-    max-width: 1248px;
+    padding: 0 25px;
+    max-width: 1250px;
     @media (max-width: 767px) {
       padding: 0 16px;
     }
@@ -251,10 +251,10 @@ section {
         display: inline-block;
         margin-right: 24px;
         width: calc(33.33% - #{24px * 2 / 3});
-        @media (max-width: 768px) {
+        @media (max-width: 770px) {
           width: calc(50% - #{24px * 1 / 2});
         }
-        @media (max-width: 767px) {
+        @media (max-width: 765px) {
           width: 100%;
           margin-right: 0;
         }
