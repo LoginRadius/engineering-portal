@@ -1,7 +1,7 @@
 ---
 title: "What is Homomorphic Encryption?"
 date: "2021-28-10"
-coverImage: "homomorphicencryption.jpg"
+coverImage: "Screenshot 2021-10-28 at 2.12.41 PM.png"
 author: "Avik Shokeen"
 tags: ["Cryptography", "Homomorphic Encryption"]
 description: "Basic Introduction of Homomorphic Encryption"
