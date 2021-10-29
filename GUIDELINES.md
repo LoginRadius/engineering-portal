@@ -4,10 +4,10 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 1. First of all, create a directory under `/content/guest-post/`. The name of the directory will be the slug of your blog post. Please only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
 2. Add an `index.md` file and write your blog in it. Place any relevant images used in the blog in the same directory as `index.md`.
-3. Write the post in Markdown format -- it's easy, fast, and multi-platform. And you can edit it in any editor, like VS Code, which has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of Markdown.
+3. Write your blog post in Markdown format — it's easy, fast, and multi-platform. And you can edit it in any editor, like VS Code, which has `HTML` preview. You can also use online tools like [Dillinger](https://dillinger.io/), where you find the sample content to understand the syntax of Markdown.
 4. You can also refer to this [Markdown Guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-5. The blog should have the cover image with size **1200px x 800px**.
-6. The blog should have the meta tags at the top of your `.md` file, which should have the below properties.
+5. The blog should have a cover image with size **1200px x 800px**.
+6. The blog should have the following meta tags at the top of your `.md` file, as explained below.
 
    - **title:** A meaningful title. Max. 60 characters.
      Note: This title will appear in the post, so no need to again include it in the `.md` file.
@@ -36,8 +36,8 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 7. As discussed above, you shall add the **author details** in `/content/author.yaml`. The format should be as follows:
 
    - **id (required)**: The name of the author, it should be the same as the name in the meta tags of the blog.
-   - **bio (required)**: A short, meaningful intro about you that instills trust and confidence.
-   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles will be GitHub, StackOverflow, LinkedIn, medium, twitter.
+   - **bio (required)**: A short, meaningful intro about you that instills trust and confidence. This ideallyy should 240 characters in length.
+   - **social profiles (optional)**: You need to mention the id of your social profiles; supported social profiles are GitHub, StackOverflow, LinkedIn, Medium, and Twitter.
      Note: For StackOverflow, you need to add your id, which is in **number**, for eg: `https://stackoverflow.com/users/5688477/modi-mohammed` for this URL id will be `5688477`.
 
    This is an example of the author details:
@@ -55,8 +55,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 8. While creating a pull request, ensure that you enable `Allow edits from maintainers` permission.
 9. We strongly **Discourage Plagiarism** and hence check all the blog pull requests for plagiarism using a plagiarism checker. Please make sure your content is not copy-pasted from anywhere else.
 
-## Some tips that you can keep in mind while writing the blog.
-
+## Some tips that you can keep in mind while writing your blog post
 
 - Your language shall be the [standard form](https://www.lexico.com/grammar/standard-english) of [U.S. English](https://www.lexico.com/grammar/british-and-spelling). *But feel free to use developer slang, emojis, GIFs, and quirkiness. Just don’t overdo it, eh?*
 
@@ -64,18 +63,18 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 - Make sure the language in your writing is precise and doesn’t have mistakes.
 
-- Use short paragraphs, break down longer paragraphs into smaller ones, people lose their interest while reading a long paragraph.
+- Use short paragraphs. And break down longer paragraphs into smaller ones. Readers easily lose interest while reading a long paragraph.
 
-- Use headers to structure your post, use large headers for the main heading, and smaller for sub-sections in it.
+- Use headers to structure your post. Start with using H2, H3, and so on.
 
-- Try to use complete words then abbreviations, spell out an acronym that isn’t well-known.
+- Try to use complete words then abbreviations. And spell out an acronym that isn’t well-known.
 
 - If your blog post contains a code snippet, don't forget to syntax highlighting it. You can also specify the programming language for which you want syntax highlighting.
   **For example:** in Markdown, typing ```js will give you JavaScript syntax highlighting.
 
-- If your blog contains demo code, or if you want to include demo code in a repo for easier reference, please [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a pull request.
+- If your blog contains demo code, or if you want to include demo code in a repo for easier reference, please [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a seperate pull request.
 
-- Use images/screenshots in your post to example things better. Any stock images you use should be free for commerical use without requiring attribution.
+- Use images/screenshots in your blog post to explain things better. Any stock images you use should be free for commerical use without requiring attribution.
 
 - Ensure simplicity, ease of implementation of the content, developer-friendliness, and effectiveness.
 
