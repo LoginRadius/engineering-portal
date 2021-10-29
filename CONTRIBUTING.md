@@ -5,7 +5,7 @@
 ## Getting Started
 
 - Fork the repository on GitHub.
-- Read the [Blog writing guideline](GUIDELINES.md) for writing and publishing your blog.
+- Read the [blog post writing guideline](GUIDELINES.md) for writing and publishing your blog.
 - If you find any bug/typo/fix in our existing blog posts, please create a pull request as mentioned in Contribution Flow.
 
 ## Contribution Flow
@@ -39,7 +39,7 @@ Thanks for your contributions!
 - The topic must relate to technology/programming/coding.
 - Post must not be published elsewhere.
 - The author gets only these link(s) in bio, GitHub, StackOverflow, LinkedIn.
-- The post should adhere to our [Blog writing guideline](GUIDELINES.md)
+- The post should adhere to our [blog post writing guideline](GUIDELINES.md)
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
