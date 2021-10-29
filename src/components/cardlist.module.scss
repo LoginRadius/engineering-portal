@@ -62,14 +62,16 @@
 }
 
 .tag {
-  &.pinned {
+  //&.pinned {
     a {
-      background-color: $gray-light;
-      padding: 0 16px;
-      border-radius: 4px;
-      color: $black;
-      line-height: 30px;
-      font-size: 16px;
+      background-color: transparent;
+      padding: 5px 16px;
+      border-radius: 20px;
+      border: 2px solid $blue-bright;
+      color: $blue-bright;
+      line-height: .8rem;
+      font-size: .8rem;
+      font-weight: 500;
       height: 30px;
       display: inline-flex;
       margin-bottom: 20px;
@@ -79,22 +81,22 @@
         color: $white;
       }
     }
-  }
-  a {
-    background-color: $gray-light;
-    padding: 0 16px;
-    border-radius: 4px;
-    color: $black;
-    line-height: 30px;
-    font-size: 16px;
-    height: 30px;
-    display: inline-flex;
-    margin-bottom: 20px;
-    &:hover {
-      background-color: $blue-bright;
-      color: $white;
-    }
-  }
+  //}
+  //a {
+  //  background-color: $gray-light;
+  //  padding: 0 16px;
+  //  border-radius: 4px;
+  //  color: $black;
+  //  line-height: 30px;
+  //  font-size: 16px;
+  //  height: 30px;
+  //  display: inline-flex;
+  //  margin-bottom: 20px;
+  //  &:hover {
+  //    background-color: $blue-bright;
+  //    color: $white;
+  //  }
+  //}
 }
 
 .cardlist {
@@ -121,30 +123,14 @@
   flex-direction: column;
   // min-height: 195px;
   .tag {
-    margin: 12px 0;
+    margin: 12px 0 0;
     display: flex;
     flex-wrap: wrap;
     a {
-      color: $gray-dark;
-      font-size: 16px;
       position: relative;
-      margin: 0;
-      background: transparent;
-      padding: 0;
-      border-radius: 0;
+      margin-bottom: 12px;
       &:not(:last-child) {
         margin-right: 10px;
-        padding-right: 10px;
-        &:after {
-          right: 0px;
-          top: 0;
-          position: absolute;
-          content: "|";
-        }
-      }
-
-      &:hover {
-        color: $blue-bright;
       }
     }
   }
