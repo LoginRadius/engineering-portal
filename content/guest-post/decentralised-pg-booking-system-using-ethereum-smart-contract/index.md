@@ -1,10 +1,10 @@
 ---
-title: Build Smart Contract using Ethereum Blockchain to book PG
+title: Build Smart Contract using Ethereum Blockchain to book Hostel
 date: "2021-10-26"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum","Solidity"]
-description: "Build your first smart contract using solidity, where you can upload your PG for rent, people can sign rental agreement and pay rent."
+description: "Build your first smart contract using solidity, where you can upload your Hostel for rent, people can sign rental agreement and pay rent."
 ---
 
 ## What is a Smart Contract?
@@ -24,7 +24,7 @@ Solidity is one of the most popular languages used for building smart contracts 
 1. Open **`Remix` IDE** from [here](https://remix.ethereum.org/).
 2. Click on `Sure` & then `Done`.
 3. Under `default_workshop`, click on `create new file`.
-4. Rename it as `pg.sol`.
+4. Rename it as `Hostel.sol`.
 
 Now you're ready to write your first **Smart Contract**. 🤩
 
@@ -32,35 +32,35 @@ Now you're ready to write your first **Smart Contract**. 🤩
 
 1. You have to provide the `solidity version` in the smart contract:
 
-```
+```ruby
 pragma solidity ^0.5.16;
 ```
 
-2. Now create the main contract named `pg`:
+2. Now create the main contract named `Hostel`:
 
-```
-contract PG{
+```ruby
+contract Hostel{
     ...
 }
 ```
 
-3. Now, inside the `contract pg{...}` follow the steps below.
+3. Now, inside the `contract Hostel{...}` follow the steps below.
 4. Create some variables where the smart contract will store the [**payable**](https://ethereum.stackexchange.com/questions/20874/payable-function-in-solidity) `address` (42 char hex string with prefix : `"0x"`) of the `Landlord` & the `Tenant`.
 
-```
+```ruby
     address payable tenant;
     address payable landlord;
 ```
 5. Create some [**public**](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices) variables where the smart contract will store some integer values. For this, there's a data-type called `uint` (256-bit unsigned integer)
 
-```
+```ruby
     uint public no_of_rooms = 0;
     uint public no_of_agreement = 0;
     uint public no_of_rent = 0;
 ```
-6. Now, create a `structure` to store details of each PG room like `PG no.`, `PG name`, `PG address`, `No of total agreements`, `Monthly rent`, `One time security deposit`, `Last agreement sign time`, `Vacancy`, `Landlord address`, and `Current Tenant Address`.
+6. Now, create a `structure` to store details of each Hostel room like `Hostel no.`, `Hostel name`, `Hostel address`, `No of total agreements`, `Monthly rent`, `One time security deposit`, `Last agreement sign time`, `Vacancy`, `Landlord address`, and `Current Tenant Address`.
 
-```
+```ruby
     struct Room{
         uint roomid;
         uint agreementid;
@@ -76,13 +76,13 @@ contract PG{
 ```
 7. `map` previous `structure` with an `uint`(named : `roomid`).
 
-```
+```ruby
 mapping(uint => Room) public Room_by_No;
 ```
 
-8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with an `uint`(named : `agreementid`). This will store details like: `PG no.`,`Agreement No`, `PG name`, `PG address`, `Monthly rent`, `One time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
+8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with an `uint`(named : `agreementid`). This will store details like: `Hostel no.`,`Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `One time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
 
-```
+```ruby
     struct RoomAgreement{
         uint roomid;
         uint agreementid;
@@ -97,13 +97,13 @@ mapping(uint => Room) public Room_by_No;
     }
 ```
 
-```
+```ruby
 mapping(uint => RoomAgreement) public RoomAgreement_by_No;
 ```
 
-9. Now, create a `structure` for each `Rent` payment and map that with an `uint`. This will store details like: `Rent No.`, `PG no.`, `Agreement No`, `PG name`, `PG address`, `Monthly rent`, `Rent payment time`, `Landlord address`, and `Tenant Address`.
+9. Now, create a `structure` for each `Rent` payment and map that with an `uint`. This will store details like: `Rent No.`, `Hostel no.`, `Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `Rent payment time`, `Landlord address`, and `Tenant Address`.
 
-```
+```ruby
     struct Rent{
         uint rentno;
         uint roomid;
@@ -117,7 +117,7 @@ mapping(uint => RoomAgreement) public RoomAgreement_by_No;
     }
 ```
 
-```
+```ruby
    mapping(uint => Rent) public Rent_by_No;
 ```
 
@@ -127,7 +127,7 @@ mapping(uint => RoomAgreement) public RoomAgreement_by_No;
 
 The following will check if the message sender is the Landlord.
 
-```
+```ruby
     modifier onlyLandlord(uint _index) {
         require(msg.sender == Room_by_No[_index].landlord, "Only landlord can access this");
         _;
@@ -136,7 +136,7 @@ The following will check if the message sender is the Landlord.
 
 The following will check if the message sender is anyone except the Landlord.
 
-```
+```ruby
     modifier notLandLord(uint _index) {
         require(msg.sender != Room_by_No[_index].landlord, "Only Tenant can access this");
         _;
@@ -145,7 +145,7 @@ The following will check if the message sender is anyone except the Landlord.
 
 The following will check whether the room is vacant or not.
 
-```   
+```ruby   
     modifier OnlyWhileVacant(uint _index){
         
         require(Room_by_No[_index].vacant == true, "Room is currently Occupied.");
@@ -155,7 +155,7 @@ The following will check whether the room is vacant or not.
 
 The following will check whether the tenant has enough `Ether` in his wallet to pay the rent.
 
-```
+```ruby
     modifier enoughRent(uint _index) {
         require(msg.value >= uint(Room_by_No[_index].rent_per_month), "Not enough Ether in your wallet");
         _;
@@ -164,7 +164,7 @@ The following will check whether the tenant has enough `Ether` in his wallet to 
 
 The following will check whether the tenant has enough `Ether` in his wallet to pay one time security deposit & one month rent in advance.
 
-``` 
+```ruby 
     modifier enoughAgreementfee(uint _index) {
         require(msg.value >= uint(uint(Room_by_No[_index].rent_per_month) + uint(Room_by_No[_index].securityDeposit)), "Not enough Ether in your wallet");
         _;
@@ -173,7 +173,7 @@ The following will check whether the tenant has enough `Ether` in his wallet to 
 
 The following will check whether the tenant address is the same as who has signed the previous rental agreement.
 
-```   
+```ruby   
     modifier sameTenant(uint _index) {
         require(msg.sender == Room_by_No[_index].currentTenant, "No previous agreement found with you & landlord");
         _;
@@ -182,7 +182,7 @@ The following will check whether the tenant address is the same as who has signe
 
 The following will check whether any time left for the agreement to end.
 
-```   
+```ruby   
     modifier AgreementTimesLeft(uint _index) {
         uint _AgreementNo = Room_by_No[_index].agreementid;
         uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
@@ -193,7 +193,7 @@ The following will check whether any time left for the agreement to end.
 
 The following will check whether 365 days have passed after the last agreement has been created.
 
-```
+```ruby
     modifier AgreementTimesUp(uint _index) {
         uint _AgreementNo = Room_by_No[_index].agreementid;
         uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
@@ -204,7 +204,7 @@ The following will check whether 365 days have passed after the last agreement h
 
 The following will check whether 30 days have passed after last rent payment.
 
-``` 
+```ruby 
     modifier RentTimesUp(uint _index) {
         uint time = Room_by_No[_index].timestamp + 30 days;
         require(now == time, "Time left to pay Rent");
@@ -216,7 +216,7 @@ The following will check whether 30 days have passed after last rent payment.
 
 The following function will be used to add Rooms.
 
-```
+```ruby
     function addRoom(string memory _roomname, string memory _roomaddress, uint _rentcost, uint  _securitydeposit) public {
         require(msg.sender != address(0));
         no_of_rooms ++;
@@ -225,9 +225,18 @@ The following function will be used to add Rooms.
         
     }
 ```
-The following function will be used to sign rental agreements: Here, the function will only run if the user's account address and the landlord's account address aren't the same, the user has enough agreement fee in thier wallet, and room should be vacant.
+Now we will create a function to sign rental agreement for hostel room between landlord & tenant.<br>
+Before creating `signAgreement` function , we have to remember this few points :<br>
+* The function will only execute : If the User is `Tenant`, means User's address & Landlord's address doesn't match.
+* The function will only execute : If the user have enough ether payable 'Ether' in his/her Ether Wallet.(By enough Ether means, One time security deposit + 1st month's rent)
+Now we will use those modifiers here, so that 
+* The function will only execute : If the said room is vacant.
 
-```
+<br>
+Remember those modifiers in point no. `10` ?
+Now we will use those modifiers here to execute this function.
+
+```ruby
     function signAgreement(uint _index) public payable notLandLord(_index) enoughAgreementfee(_index) OnlyWhileVacant(_index) {
         require(msg.sender != address(0));
         address payable _landlord = Room_by_No[_index].landlord;
@@ -246,7 +255,13 @@ The following function will be used to sign rental agreements: Here, the functio
 
 The following function will be used to pay monthly rents: Here, the function will only run if the user's account address and the previous tenant's account address is the same, user have enough rent fee in his/her wallet, there is a gap of 30 days between previous transaction.
 
-```
+Now we will create a function which will be used by Tenant to pay monthly rent landlord. <br>
+Before creating `payRent` function , we have to remember this few points :<br>
+* The function will only execute : If the User's address & Previous Tenant's address both are same, means user can only pay rent if he/she has signed an agreement with the landlord within last 365 days.
+* The function will only execute : If Tenant had paid his/her previous rent more than a month ago.
+* The function will only execute : If the user have enough ether payable 'Ether' in his/her Ether Wallet(By enough Ether means, enough room rent).
+
+```ruby
     function payRent(uint _index) public payable sameTenant(_index) RentTimesUp(_index) enoughRent(_index){
         require(msg.sender != address(0));
         address payable _landlord = Room_by_No[_index].landlord;
@@ -259,9 +274,11 @@ The following function will be used to pay monthly rents: Here, the function wil
     }
 ```
 
-The following function will be used to make a room vacant after 365 days: Here, the function will only run if the user's account address and the landlord's account address are the same, room should not be vacant, there is a gap of 365 days after previous agreement.
-
-```
+Now we will create a function which will be used by Landlord to marked an agreement completed. <br>
+Before creating `agreementCompleted` function , we have to remember this few points :<br>
+* The function will only execute : If the User's address & Landlord's address both are same.
+* The function will only execute : If Tenant had signed that agreement more than a year ago.
+```ruby
     function agreementCompleted(uint _index) public payable onlyLandlord(_index) AgreementTimesUp(_index){
         require(msg.sender != address(0));
         require(Room_by_No[_index].vacant == false, "Room is currently Occupied.");
@@ -273,7 +290,12 @@ The following function will be used to make a room vacant after 365 days: Here, 
 ```
 
 The following function will be used to terminate agreements before 365 days: Here, the function will only run if the user's account address and the landlord's account address are the same, there is a gap of less than 365 days after previous agreement.
-```
+
+Now we will create a function which will be used by Landlord to terminate an agreement. <br>
+Before creating `agreementTerminated` function , we have to remember this few points :<br>
+* The function will only execute : If the User's address & Landlord's address both are same.
+* The function will only execute : If Tenant had signed that agreement less than a year ago.
+```ruby
     function agreementTerminated(uint _index, uint _terminateno) public onlyLandlord(_index) AgreementTimesLeft(_index){
         require(msg.sender != address(0));
         Room_by_No[_index].vacant = true;
@@ -285,11 +307,11 @@ The following function will be used to terminate agreements before 365 days: Her
 Now, click on the `Solidity Compile` option in the left side bar.
 
 1. Select compiler version : `0.5.16+`
-2. Then click on : `Compile pg.sol`
+2. Then click on : `Compile Hostel.sol`
 
 Similar to as follows:
 
-<img src="https://user-images.githubusercontent.com/82683890/138772443-85038f73-35be-497c-a808-55b4e6254509.png" height="400px"/>
+<img alt="Compiler" height="400px" src="img1.png"/>
 
 ### Deploy
 
@@ -298,7 +320,7 @@ Click on the `Deploy & Run Transactions` option in the left side bar.
 1. Choose `Environment` : `JavaScript VM (London)`
 2. Now click on `Deploy`
 
-<img height="400px" alt="after deployed" src="https://user-images.githubusercontent.com/82683890/138773015-382e810f-4bb7-4ff6-a491-6b9a3a6df23b.png">
+<img alt="Deploy"height="400px" src="img2.png">
 
 **🎉 Congratulations your Smart Contract has been Deployed. 🎉**
 
@@ -306,14 +328,14 @@ Click on the `Deploy & Run Transactions` option in the left side bar.
 
 Now, you have to remember that whenever a transaction is getting executed it stores all the details in an unique `hash` key.
 
-Now, under `Deployed Contract` click on `> PG AT ..... (MEMORY)`
+Now, under `Deployed Contract` click on `> HOSTEL AT ..... (MEMORY)`
 
 1. Click on the `V` icon (Dropdown Menu) of `addRoom` function.
 2. Fill up the details.
 
 Similar to as follows:
 
-<img height="250px" alt="addroom" src="https://user-images.githubusercontent.com/82683890/138773006-276b9324-b321-4b5b-9038-e36d2b60d8cc.png">
+<img height="250px" alt="AddRoom" src="img3.png">
 
 > **Note:** You're entering your details in `wei` not in `ether` (1 ether = 1000000000000000000 wei)
 3. Then click on `transact`
@@ -326,24 +348,24 @@ Similar to as follows:
 
 4. change the `Account Address` from the drop down menu. (Choose anyone except one with 99.99 Ether)
 
-<img height="300px" alt="change address" src="https://user-images.githubusercontent.com/82683890/138773021-0312f2d3-bf17-43eb-b565-c45d113413f6.png">
+<img height="300px" alt="Change Address" src="img4.png">
 
 5. Add the total amount you previously chosen as (rent cost + security deposit)
 6. And then from the dropdown `wei` choose `ether`
 
-<img height="300px" alt="change value sign" src="https://user-images.githubusercontent.com/82683890/138773026-5ea9039f-6b4b-47c1-b3f0-6c647d236ad2.png">
+<img height="300px" alt="Change Value" src="img5.png">
 
 7. Scroll down and click on `signAgreement`, enter `1`, and press `signAgreement`
     
     You can check the same by entering `RoomAgreementNo` : `1`
 
-<img height="420px" alt="room details" src="https://user-images.githubusercontent.com/82683890/138773031-abffa4cd-58dd-45b9-bd4a-aa2619146fac.png">
+<img height="300px" alt="Agreement Details" src="img6.png">
 
 **🎉 Congratulations you have successfully signed your 1st agreement. 🎉**
 
 #### Your all transactions will be shown in the `terminal`.
 
-<img width="580" alt="transactions" src="https://user-images.githubusercontent.com/82683890/138773547-59287df8-7119-4f11-aa57-70234b8e4636.png">
+<img height="300px" alt="Terminal" src="img7.png">
 
 Now, you can cross verify this by checking your `ether` account address.
 
