@@ -320,7 +320,7 @@ Click on the `Deploy & Run Transactions` option in the left side bar.
 1. Choose `Environment` : `JavaScript VM (London)`
 2. Now click on `Deploy`
 
-<img alt="Deploy"height="400px" src="img2.png">
+<img alt="Deploy" height="400px" src="img2.png">
 
 **🎉 Congratulations your Smart Contract has been Deployed. 🎉**
 
