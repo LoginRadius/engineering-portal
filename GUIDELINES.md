@@ -4,7 +4,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 1. You shall be familiar with Markdown. The second section clearly describes how to format your blog post and submit it. This section describes the guidelines for creating the actual blog post content.
 
-1. If possible, discuss your blog post title and outline with us before drafting your blog post. We may offer you suggestions and editorial help. You can react us at `raghunath at getburner dot email.`
+1. If possible, discuss your blog post title and outline with us before drafting your blog post. We may offer you suggestions and editorial help. You can react us at `raghunath-r-a [at] getburner [dot] email`
 
 2. Your language shall be the [standard form](https://www.lexico.com/grammar/standard-english) of [U.S. English](https://www.lexico.com/grammar/british-and-spelling). *But feel free to use developer slang, emojis, GIFs, and quirkiness. Just don't overdo it, eh?*
 
