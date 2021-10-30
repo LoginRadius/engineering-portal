@@ -1,0 +1,4 @@
+Opencv was never built to be used in web-application, but with progress in applications based on Image Processing,Computer Vision in web,people have started to figure out ways to port Opencv on web.
+But till now,as far as I know usage of Opencv in web application is still server based,so most of the application processing will be held on server and result will be pushed to respective devices, which creates a bottleneck in most of the application.
+Like people have tried integrating opencv with node.js called node-opencv(peterbraden/node-opencv),Opencvjs(sakiyamaK/OpenCVjs).
+Similarly people have tried using Opencv in android using NDK to exchange input & output between java and c++.
