@@ -1,0 +1,23 @@
+##Deep learning in daily life projects
+
+#Bio-robotics#
+Bio-robotics is becoming an emerging field and is responsible for creation of commercialized products such as exoskeletons, prosthetics and robotic wheelchairs.
+The EMG(electromyography) signals have been enormously used for bio-robotics,however various challenges are faced in this arena. The electroencephalography-(EEG) based 
+control methods are used to manufacture the components of these applications.
+The assistive robots depending on this strategy have improved the quality of life of elderly and disabled people.
+Bio-robotics has improved life especially for the disabled ,physically weak and  injured people. Bio-robotics has various applications such as exoskeletons, prosthetics, intelligent    wheelchairs and  teleoperation robots that are making a great impact on everyday life.
+
+
+#CAD systems#
+The major modality used for PCa detection is  Magnetic resonance imaging (MRI) as it is acquired in the radiation free area making its visibility better.
+So, the area of developing MRI based Computer-aided detection (CAD) systems for PCa is becoming one of the most dynamic areas of research these days. 
+The examinations that are able to detect PCa  are mainly  manual and consume a lot of time. Time-consuming therefore, CAD system reduces the computational complexion
+with increased accuracy in the detection of PCa.
+This requires preprocessing the data followed by the segmentation of the required region of interest.
+
+#Automatic cars#
+There are self-driven cars using deep learning of detecting teh objects in the way to  recognize data and make self-driving cars.
+
+#Drones#
+They detect people from far away and help in delivery of products using unique id per person. Also they help to extinguish fire using 
+the deep learning and object detection and recognition.
