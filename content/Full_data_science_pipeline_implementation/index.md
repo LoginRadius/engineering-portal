@@ -17,7 +17,7 @@ Codes for this tutorial is at [Link](https://github.com/LoginRadius/engineering-
 
 **The whole process id divided into four steps:**
 
-I have implemented a full pipeline of data science from scrapping data from web to implementing ml and NLP classification.
+I have implemented a full pipeline of data science from scrapping data from web to implementing ML and NLP classification.
 
 - Phase I:
 
@@ -37,7 +37,7 @@ I have implemented multilabel NLP classifier using various techniques like chain
 
 ## What is web scraping? 
 
-Web scraping is the process of extracting and parsing raw data from the web. Web scraping is a technique which helps data scientist to make their data-rich and is an efficient technique of data collection.
+Web scraping is the process of extracting and parsing raw data from the web. Web scraping is a technique which helps data scientistS to make their data-rich and is an efficient technique of data collection.
 
 This world is full of data, but unfortunately, most of them are not in the form to be used. Data is like crude oil, or we say it is in unstructured form. For a data scientist or engineer, our first challenge is to make the data model consumption ready, which takes the majority of the time, and this whole process is collectively known as data preprocessing.
 
@@ -134,11 +134,11 @@ one_df.to_csv('50_movie_details.csv')
 
 But this was only for one page which has data for 50 movies only which is not enough to build a model.
 
-Please refer my code to understand how I use simple for loops to iterate through all the movies and downloading data for 20 years(approx).
+Please refer to my code to understand how I use simple strategy for loops to iterate through all the movies and downloading data for 20 years(approx).
 
 ## Implementing simple linear algorithms in numerical data we just scrapped
 
-Whats is linear regression??
+What is linear regression??
 
 It is one of the most popular and used statistical techniques
   • Used to understand the relationship between variables
@@ -202,7 +202,7 @@ mean_squared_error(y_test, y_pred)
 # 0.15729132122310804 good score
 ```
 
-I tried to scrape data from the IMDB site and then applied ML regression techniques on it. Later I found that the movies listed are multi-class like Logan belongs to Action, Drama, Sci-Fi, which led me to think about how to implement the classifier model in the multilabel data. Usually, the data we get in real-world is mostly multi labelled like chatbot data; the intent is many and like these movies which are multi-class.
+I tried to scrape data from the IMDB site and then applied ML regression techniques on it. Later I found that the movies listed are multi-class like Logan belongs to Action, Drama, Sci-Fi, which led me to think about how to implement the classifier model in the multilabel data. Usually, the data we get in real-world is mostly multi-labelled like chatbot data; the intent is many and like these movies which are multi-class.
 
 Here we will first see how we prep our data for multilabel classification.
 
@@ -246,7 +246,7 @@ Now, as our data is ready, we can start with NLP implementation.
 
 For multilabel classification, I used techniques like classifier chain, label powerset, etc.
 
-Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to. It is a popular use case. Take an example of ecommerce product description data; now instead of manually assigning the labels to it, we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs.
+Here the problem statement is that using the movie description our model has to guess which genre the movie belongs to. It is a popular use case. Take an example of ecommerce product description data; now instead of manually assigning the labels to it, we can use a model which will find relevant labels or genre for it and make the content relevant to the type it belongs to.
 
 I start with Exploratory data analysis and then data cleaning, which is the most crucial step as if all the description has some very 30-50 common words it will simply make the data-heavy and model slow and inefficient.
 
@@ -345,11 +345,11 @@ classifier.fit(x_train, y_train)
 predictions = classifier.predict(x_test)
 ```
 
-Please refer my notebook multilabel_nlp_classifier.ipynb from my repo for more details.
+Please refer to my notebook multilabel_nlp_classifier.ipynb from my repo for more details.
 
 ## Improvement:
 
-1) More feature engineering and data to avoid this overfitting and make more efficient pipeline
+1) More feature engineering and data to avoid this overfitting and make more efficient pipeline.
 
 2) If we collect more data, deep learning and state of the art algorithms like BERT can help us to leverage the efficiency of the model.
 
