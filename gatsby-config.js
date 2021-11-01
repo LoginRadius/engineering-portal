@@ -3,10 +3,10 @@ const getTimeToRead = require("./src/utils/timeToReadRss");
 
 module.exports = {
   siteMetadata: {
-    title: `LoginRadius Engineering`,
-    titleTemplate: "%s · LoginRadius Engineering",
+    title: `Async Blog — A place for developers, created by developers`,
+    titleTemplate: "%s · Async Blog",
     description:
-      "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
+      "Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog/async",
     image: "/async.svg",
@@ -98,6 +98,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-autolink-headers`,
           { resolve: "gatsby-remark-copy-linked-files" },
           {
             resolve: `gatsby-remark-relative-images`,
@@ -285,7 +286,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "LoginRadius Engineering Blog",
+            title: "Async Blog — A place for developers, created by developers",
             feed_url: "https://www.loginradius.com/blog/async/rss.xml",
             site_url: "https://www.loginradius.com/blog/async/",
             description:
@@ -295,6 +296,8 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-smoothscroll`,
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
