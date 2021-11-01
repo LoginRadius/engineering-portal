@@ -1,10 +1,10 @@
 ---
-title: Build Smart Contract using Ethereum Blockchain to book Hostel
-date: "2021-10-26"
+title: "Build Your First Smart Contract with Ethereum & Solidity"
+date: "2021-11-08"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
-tags: ["Blockchain", "Ethereum","Solidity"]
-description: "Build your first smart contract using solidity, where you can upload your Hostel for rent, people can sign rental agreement and pay rent."
+tags: ["Blockchain", "Ethereum", "Solidity"]
+description: "Smart contracts are an exciting way to build distributed applications (dapps) on blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
 ---
 
 ## What is a Smart Contract?
@@ -225,16 +225,16 @@ The following function will be used to add Rooms.
         
     }
 ```
-Now we will create a function to sign rental agreement for hostel room between landlord & tenant.<br>
-Before creating `signAgreement` function , we have to remember this few points :<br>
-* The function will only execute : If the User is `Tenant`, means User's address & Landlord's address doesn't match.
-* The function will only execute : If the user have enough ether payable 'Ether' in his/her Ether Wallet.(By enough Ether means, One time security deposit + 1st month's rent)
-Now we will use those modifiers here, so that 
-* The function will only execute : If the said room is vacant.
+Now, create a function to sign rental agreement for a hostel room between the landlord and a tenant.
 
-<br>
-Remember those modifiers in point no. `10` ?
-Now we will use those modifiers here to execute this function.
+Before creating `signAgreement` function, remember the following:
+* The function will only execute if the user is `Tenant`, meaning that the user's address & the landlord's address don't match.
+* The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet.(Enough ether means = one-time security deposit + 1st month's rent)
+
+Let's use those modifiers here, so that:
+* The function will only execute only if the said room is vacant.
+
+Remember those modifiers in point no.10? Use those modifiers here to execute the following function.
 
 ```ruby
     function signAgreement(uint _index) public payable notLandLord(_index) enoughAgreementfee(_index) OnlyWhileVacant(_index) {
@@ -253,13 +253,11 @@ Now we will use those modifiers here to execute this function.
     }
 ```
 
-The following function will be used to pay monthly rents: Here, the function will only run if the user's account address and the previous tenant's account address is the same, user have enough rent fee in his/her wallet, there is a gap of 30 days between previous transaction.
-
-Now we will create a function which will be used by Tenant to pay monthly rent landlord. <br>
-Before creating `payRent` function , we have to remember this few points :<br>
-* The function will only execute : If the User's address & Previous Tenant's address both are same, means user can only pay rent if he/she has signed an agreement with the landlord within last 365 days.
-* The function will only execute : If Tenant had paid his/her previous rent more than a month ago.
-* The function will only execute : If the user have enough ether payable 'Ether' in his/her Ether Wallet(By enough Ether means, enough room rent).
+Now, create a function that will be used by the tenant to pay monthly rent to the landlord.
+Before creating `payRent` function, remember the following:
+* The function will only execute if the user's address and previous tenant's address both are same, meaning that the user can only pay rent if he/she has signed an agreement with the landlord within the last 365 days.
+* The function will only execute if the tenant had paid his/her previous rent more than a month ago.
+* The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet. (enough ether = enough room rent).
 
 ```ruby
     function payRent(uint _index) public payable sameTenant(_index) RentTimesUp(_index) enoughRent(_index){
@@ -274,10 +272,11 @@ Before creating `payRent` function , we have to remember this few points :<br>
     }
 ```
 
-Now we will create a function which will be used by Landlord to marked an agreement completed. <br>
-Before creating `agreementCompleted` function , we have to remember this few points :<br>
-* The function will only execute : If the User's address & Landlord's address both are same.
-* The function will only execute : If Tenant had signed that agreement more than a year ago.
+Let's create a function that will be used by the landlord to mark an agreement complete.
+
+Before creating `agreementCompleted` function, remember the following:
+* The function will only execute if the user's address and the landlord's address are the same.
+* The function will only execute if the tenant had signed that agreement more than a year ago.
 ```ruby
     function agreementCompleted(uint _index) public payable onlyLandlord(_index) AgreementTimesUp(_index){
         require(msg.sender != address(0));
@@ -289,12 +288,12 @@ Before creating `agreementCompleted` function , we have to remember this few poi
     }
 ```
 
-The following function will be used to terminate agreements before 365 days: Here, the function will only run if the user's account address and the landlord's account address are the same, there is a gap of less than 365 days after previous agreement.
+Let's create a function that will be used by the landlord to terminate an agreement.
 
-Now we will create a function which will be used by Landlord to terminate an agreement. <br>
-Before creating `agreementTerminated` function , we have to remember this few points :<br>
-* The function will only execute : If the User's address & Landlord's address both are same.
-* The function will only execute : If Tenant had signed that agreement less than a year ago.
+Before creating `agreementTerminated` function, remember the following:
+* The function will only execute if the user's address and the landlord's address are same.
+* The function will only execute if the tenant had signed that agreement less than a year ago.
+
 ```ruby
     function agreementTerminated(uint _index, uint _terminateno) public onlyLandlord(_index) AgreementTimesLeft(_index){
         require(msg.sender != address(0));
@@ -317,20 +316,20 @@ Similar to as follows:
 
 Click on the `Deploy & Run Transactions` option in the left side bar.
 
-1. Choose `Environment` : `JavaScript VM (London)`
+1. Choose `Environment` > `JavaScript VM (London)`
 2. Now click on `Deploy`
 
 <img alt="Deploy" height="400px" src="img2.png">
 
-**🎉 Congratulations your Smart Contract has been Deployed. 🎉**
+**🎉 Congratulations, your smart contract has been deeployed. 🎉**
 
 ### Sample Transactions
 
-Now, you have to remember that whenever a transaction is getting executed it stores all the details in an unique `hash` key.
+Remember that whenever a transaction is getting executed, it stores all the details in an unique `hash` key.
 
 Now, under `Deployed Contract` click on `> HOSTEL AT ..... (MEMORY)`
 
-1. Click on the `V` icon (Dropdown Menu) of `addRoom` function.
+1. Click on the `V` icon (dropdown menu) of `addRoom` function.
 2. Fill up the details.
 
 Similar to as follows:
@@ -340,18 +339,18 @@ Similar to as follows:
 > **Note:** You're entering your details in `wei` not in `ether` (1 ether = 1000000000000000000 wei)
 3. Then click on `transact`
     
-    **🎉 Congratulations you have successfully added your 1st Room on the contract. 🎉**
+    **🎉 Congratulations, you've successfully added your 1st room in the contract. 🎉**
     
     (You can find the same in the terminal also.)
 
     Now the Landlord of the room is your 1st Ether Address. (The one with 99.99 Test Ethers in wallet.)
 
-4. change the `Account Address` from the drop down menu. (Choose anyone except one with 99.99 Ether)
+4. change the `Account Address` from the drop down menu. (Choose anyone except the one with 99.99 ether)
 
 <img height="300px" alt="Change Address" src="img4.png">
 
 5. Add the total amount you previously chosen as (rent cost + security deposit)
-6. And then from the dropdown `wei` choose `ether`
+6. And then from the dropdown `wei`, choose `ether`
 
 <img height="300px" alt="Change Value" src="img5.png">
 
@@ -361,25 +360,25 @@ Similar to as follows:
 
 <img height="300px" alt="Agreement Details" src="img6.png">
 
-**🎉 Congratulations you have successfully signed your 1st agreement. 🎉**
+**🎉 Congratulations, you've successfully signed your 1st agreement. 🎉**
 
-#### Your all transactions will be shown in the `terminal`.
+All your transactions are shown in the `terminal`.
 
 <img height="300px" alt="Terminal" src="img7.png">
 
 Now, you can cross verify this by checking your `ether` account address.
 
-### Advantages oF smart ContractS
+## Advantages of Smart Contracts
 
-Now you may ask, "What's the use of smart contracts when there are several centralised methods?"
+Now you may ask, "what's the use of smart contracts when there are several centralised methods?"
 
 Let me explain some advantages of smart contracts over centralised systems:
 1. Here data cannot be changed or tampered. So, it is almost impossible for malicious actors to manipulate data.
 2. It's completely decentralised.
-3. Unlike any centralised payment wallet, you don't have to pay any commission percentages to a middle man during any transactions.
+3. Unlike any centralised payment wallet, you don't have to pay any commission percentages to a middle man to transact.
 
-#### Storage & Others
-You may also ask "how are all transactions recorded?"
+### Storage & Others
+You may also ask "how are all the transactions recorded?"
 
 You have to remember that smart contracts store data in a block of blockchain, and all transactions are stored with an unique `hash` key.
 
@@ -389,32 +388,34 @@ In Remix IDE, you can download the complete transactions history as a `json` fil
 3. Then Click on the `Save` icon.
 4. Press `ok`.
 
-#### Gas Fee
-Now you may have noticed that whenever a transaction is executed, a few `wei` is getting deducted from your ether wallet. 
+### Gas Fee
+You may have noticed that whenever a transaction is executed, a few `wei` is getting deducted from your ether wallet.
 
-It's called `gas fee`, which is the payment made by users to compensate for the computing energy required to process and validate transactions.
+It's called _gas fee_, which is the payment made by users to compensate for the computing energy required to process and validate transactions.
 
-Aas more Ethereum miners will come up in near future, the `gas fee` will decrease in an inverse relation.
+As more Ethereum miners will come up in near future, the `gas fee` will decrease in an inverse relation.
 
-#### Future Possibilities
-After this, in future, if you want to build a fullstack website using `React`, then you can use this `Smart Contract` as backend.
+### Future Possibilities
+After this, in future, if you want to build a fullstack website using React, then you can use this Smart Contract as backend.
 
 For that you need to install/download: 
 
-**Frontend :**
+**Frontend:**
 1. [Node.js](https://nodejs.org/en/)
 
-**Backend :**
+**Backend:**
 1. [web3.js](https://www.npmjs.com/package/web3)
 2. [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation)
 
-**For Testing Purpose :**
+**Testing:**
 1. [Ganache](https://www.trufflesuite.com/ganache)
 2. [Metamask](https://metamask.io/)
 
-And then just follow the [official documentation](https://web3js.readthedocs.io/en/v1.5.2/) of Web3.js to connect your smart contract with your react app.
+Just follow the [official documentation](https://web3js.readthedocs.io/en/v1.5.2/) of Web3.js to connect your smart contract with your React app.
 
 ## Conclusion
-You've successfully understood what Solidity is and how smart contracts work. And you've successfully built and deployed a perfectly working smart contract (where tenant can pay rent in ether (ETH) directly to the landlord's wallet without paying a single wei to any middle man)
+You've successfully understood what Solidity is and how smart contracts work. And you've successfully built and deployed a perfectly working smart contract (where tenant can pay rent in ether (ETH) directly to the landlord's wallet without paying a single wei to a middle man).
 
 <!-- To download the complete code click [here](). -->
+
+Want to quickly add user login and signup functionality to your React apps? [Use LoginRadius for free.](https://www.loginradius.com/authentication/)
