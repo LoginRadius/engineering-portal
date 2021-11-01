@@ -20,6 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
 import ToC from "./toc"
+import CallToAction from "./sidebarCta"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -226,6 +227,8 @@ const Post = ({ post, relatedPost }) => {
               </div>
               <hr />
               <TagMenu />
+
+              <CallToAction />
             </div>
           </div>
           <div className="grid-70-30">

@@ -1,0 +1,29 @@
+@import "../styles/variables.scss";
+.cta-sidebar {
+  background-color: #0a2135;
+  padding: 24px;
+  color: #fff;
+  .image-wrapper {
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 85%;
+    img {
+      border: 1px solid #fff;
+      width: 65%;
+      margin: 0 auto;
+    }
+  }
+  h3 {
+    margin-bottom: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  p {
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  a {
+    max-width: 100%;
+  }
+}

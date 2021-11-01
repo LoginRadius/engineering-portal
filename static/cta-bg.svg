@@ -1,0 +1,59 @@
+<svg id="a2e2c587-5ea1-45f2-9328-35f19a77f580" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1449.23 1019.23">
+  <defs>
+    <style>
+      .b2b602a7-25ea-470c-aa6d-0d951c75d4f9 {
+        opacity: 0.05;
+      }
+
+      .a9b40017-6686-4479-b96d-e9cdaa555cd7 {
+        fill: none;
+      }
+
+      .a53cda1f-c727-4a14-b162-0980a615b78c, .a9b40017-6686-4479-b96d-e9cdaa555cd7, .b13eccef-153e-40cd-8ea6-c3eefd43afb9, .b178ab1f-da91-4f4c-82a1-5bb1d391acb7, .e71a4ae9-54a9-4a7a-9397-e900fef44894 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .a9b40017-6686-4479-b96d-e9cdaa555cd7, .b13eccef-153e-40cd-8ea6-c3eefd43afb9 {
+        stroke-width: 5.28px;
+      }
+
+      .a53cda1f-c727-4a14-b162-0980a615b78c, .b13eccef-153e-40cd-8ea6-c3eefd43afb9, .b178ab1f-da91-4f4c-82a1-5bb1d391acb7, .e71a4ae9-54a9-4a7a-9397-e900fef44894 {
+        fill: #09263c;
+      }
+
+      .a53cda1f-c727-4a14-b162-0980a615b78c {
+        stroke-width: 4.22px;
+      }
+
+      .b178ab1f-da91-4f4c-82a1-5bb1d391acb7 {
+        stroke-width: 4.51px;
+      }
+
+      .e71a4ae9-54a9-4a7a-9397-e900fef44894 {
+        stroke-width: 2.93px;
+      }
+    </style>
+  </defs>
+  <g class="b2b602a7-25ea-470c-aa6d-0d951c75d4f9">
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="1190.61" y1="285.45" x2="1403.11" y2="129.95"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="907.81" y1="84.17" x2="544.91" y2="193.11"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="339.37" y1="129.95" x2="114.1" y2="280.55"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="114.1" y1="280.55" x2="446.4" y2="485.84"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="544.91" y1="193.11" x2="446.4" y2="485.84"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="1117.35" y1="909.81" x2="907.81" y2="84.17"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="1282.8" y1="601.02" x2="1190.61" y2="285.45"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="1117.35" y1="909.81" x2="1282.8" y2="601.02"/>
+    <line class="a9b40017-6686-4479-b96d-e9cdaa555cd7" x1="269.83" y1="780.28" x2="446.4" y2="485.84"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="1190.61" cy="285.45" r="48.05"/>
+    <circle class="a53cda1f-c727-4a14-b162-0980a615b78c" cx="1403.11" cy="129.95" r="38.42"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="544.91" cy="193.11" r="30.07"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="446.4" cy="485.84" r="92.26"/>
+    <circle class="b178ab1f-da91-4f4c-82a1-5bb1d391acb7" cx="907.81" cy="84.17" r="78.86"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="114.1" cy="280.55" r="106.41"/>
+    <circle class="e71a4ae9-54a9-4a7a-9397-e900fef44894" cx="339.37" cy="129.95" r="59.12"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="269.83" cy="780.28" r="54.93"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="1117.35" cy="909.81" r="99.76"/>
+    <circle class="b13eccef-153e-40cd-8ea6-c3eefd43afb9" cx="1282.8" cy="601.02" r="81.89"/>
+  </g>
+</svg>
