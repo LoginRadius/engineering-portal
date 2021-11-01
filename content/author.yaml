@@ -64,7 +64,7 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: I am a software enthusiast and contributor interested in React JS, UI/UX, Tech Blog, Javascript, Node JS, DevOps.
+  bio: She is a software enthusiast, an avid contributor, and blogs regularly. She usually works with React, UI/UX, Javascript, Node.js, and DevOps.
   github: "vershagupta"
   stackoverflow: "1455329"
   linkedin: "versha-gupta-4865b339"
@@ -528,6 +528,32 @@
   twitter: "joydipkanjilal"
 
 - id: Mcvean Soans
-  bio: "Full Stack React Developer, UI/UX, Coding Instructor at Toppr"
+  bio: "He is a Full Stack React Developer and is enthusiastic about Web Dev, Deep Learning, UX design, and Cloud."
   github: "McTechie"
-  linkedin: "mctechiesoans" 
+  linkedin: "mctechiesoans"
+  twitter: "McTechieSoans"
+
+- id: Rutam Prita Mishra
+  bio: "He is a full-stack Java developer and a passionate tech geek who is currently exploring the open source world. He loves writing technical documentation and articles in his free time. He is also an avid traveller and loves to explore different places and their cuisines."
+  github: "Rutam21"
+  linkedin: "rutam-prita-mishra"
+  twitter: "RutamHere"
+  
+- id: Kolawole Mangabo
+  bio: "He is a full-stack engineer well-versed in React and Django. You can ask him anything about Django Rest and React. He also likes to talk about design, mobile, JavaScript, and productivity."
+  github: "koladev32"
+  linkedin: "kolawole-mangabo"
+  twitter: "koladev32"
+
+- id: "Abdullah Pathan"
+  bio: "He is a full-stack developer and an avid learner. He is well-versed in web technologies and is currently working with React. In his free time, he loves playing Halo."
+  github: "aonepathan"
+  linkedin: "aonepathan"
+  twitter: "aonepathan"
+  stackoverflow: "4151970"
+
+- id: "Anjali Rohira"
+  bio: "She is a freelance full-stack developer and a UI/UX designer. She likes to explore and contribute to open source projects. She is also a technical writer and speaks at tech conferences and meetups. When she is not coding or designing, she enthusiastically discusses startup ideas that can make a positive impact."
+  github: "rohiraanjali"
+  linkedin: "anjali-rohira-886a52187"
+  twitter: "anjali_rohira"
