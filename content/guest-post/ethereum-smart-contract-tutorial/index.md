@@ -346,7 +346,7 @@ Similar to as follows:
 
     Now the landlord of the room is your 1st Ether Address. (The one with 99.99 test ether in wallet.)
 
-4. change the `Account Address` from the dropdown menu. (Choose anyone except the one with 99.99 ether)
+4. Change the `Account Address` from the dropdown menu. (Choose anyone except the one with 99.99 ether)
 
 <img height="300px" alt="Change Address" src="img4.png">
 
