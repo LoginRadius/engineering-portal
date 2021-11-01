@@ -4,7 +4,7 @@ date: "2021-11-08"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum", "Solidity"]
-description: "Smart contracts are an exciting way to build distributed applications (dapps) on blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
+description: "Smart contracts are an exciting way to build distributed applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
 ---
 
 ## What is a Smart Contract?
@@ -13,7 +13,7 @@ description: "Smart contracts are an exciting way to build distributed applicati
 
 You can say it's like an agreement between two people in the form of computer code. The transactions that happen in a smart contract are processed by the blockchain and stored as **42 character hex address** with prefix `"0x"`). All of which means that they can be sent automatically without needing a third party.
 
-**🤔 Remember :** They're stored in a public database. And once a smart contract is deployed, it cannot be changed.
+**🤔 Remember:** They're stored in a public database. And once a smart contract is deployed, it cannot be changed.
 
 ## What is Solidity?
 
@@ -22,7 +22,7 @@ Solidity is one of the most popular languages used for building smart contracts 
 ## Build Your First Smart Contract
 
 1. Open **`Remix` IDE** from [here](https://remix.ethereum.org/).
-2. Click on `Sure` & then `Done`.
+2. Click on `Sure` and then `Done`.
 3. Under `default_workshop`, click on `create new file`.
 4. Rename it as `Hostel.sol`.
 
@@ -51,14 +51,14 @@ contract Hostel{
     address payable tenant;
     address payable landlord;
 ```
-5. Create some [**public**](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices) variables where the smart contract will store some integer values. For this, there's a data-type called `uint` (256-bit unsigned integer)
+5. Create some [**public**](https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices) variables where the smart contract will store some integer values. For this, there's a data type called `uint` (256-bit unsigned integer)
 
 ```ruby
     uint public no_of_rooms = 0;
     uint public no_of_agreement = 0;
     uint public no_of_rent = 0;
 ```
-6. Now, create a `structure` to store details of each Hostel room like `Hostel no.`, `Hostel name`, `Hostel address`, `No of total agreements`, `Monthly rent`, `One time security deposit`, `Last agreement sign time`, `Vacancy`, `Landlord address`, and `Current Tenant Address`.
+6. Now, create a `structure` to store details of each Hostel room like `Hostel no.`, `Hostel name`, `Hostel address`, `No of total agreements`, `Monthly rent`, `One-time security deposit`, `Last agreement sign time`, `Vacancy`, `Landlord address`, and `Current Tenant Address`.
 
 ```ruby
     struct Room{
@@ -74,13 +74,13 @@ contract Hostel{
         address payable currentTenant;
     }
 ```
-7. `map` previous `structure` with an `uint`(named : `roomid`).
+7. `map` previous `structure` with a `uint`(named : `roomid`).
 
 ```ruby
 mapping(uint => Room) public Room_by_No;
 ```
 
-8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with an `uint`(named : `agreementid`). This will store details like: `Hostel no.`,`Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `One time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
+8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with a `uint`(named : `agreementid`). This will store details like: `Hostel no.`,`Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `One-time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
 
 ```ruby
     struct RoomAgreement{
@@ -123,9 +123,9 @@ mapping(uint => RoomAgreement) public RoomAgreement_by_No;
 
 10. Create some [**modifiers**](https://ethereum.stackexchange.com/questions/29867/using-require-or-modifier/29868) that will help you verify a few things before running a function.
 
-    Here `require(...);` means that if the given condition is not satisfied, then the function wOn't execute and the given string will appear as error code.
+    Here `require(...);` means that if the given condition is not satisfied, then the function won't execute, and the given string will appear as an error code.
 
-The following will check if the message sender is the Landlord.
+The following will check if the message sender is the landlord.
 
 ```ruby
     modifier onlyLandlord(uint _index) {
@@ -134,7 +134,7 @@ The following will check if the message sender is the Landlord.
     }
 ```
 
-The following will check if the message sender is anyone except the Landlord.
+The following will check if the message sender is anyone except the landlord.
 
 ```ruby
     modifier notLandLord(uint _index) {
@@ -162,7 +162,7 @@ The following will check whether the tenant has enough `Ether` in his wallet to 
     }
 ```
 
-The following will check whether the tenant has enough `Ether` in his wallet to pay one time security deposit & one month rent in advance.
+The following will check whether the tenant has enough `Ether` in his wallet to pay one-time security deposit and one month's rent in advance.
 
 ```ruby 
     modifier enoughAgreementfee(uint _index) {
@@ -171,7 +171,7 @@ The following will check whether the tenant has enough `Ether` in his wallet to 
     }
 ```
 
-The following will check whether the tenant address is the same as who has signed the previous rental agreement.
+The following will check whether the tenant's address is the same as who has signed the previous rental agreement.
 
 ```ruby   
     modifier sameTenant(uint _index) {
@@ -180,7 +180,7 @@ The following will check whether the tenant address is the same as who has signe
     }
 ```
 
-The following will check whether any time left for the agreement to end.
+The following will check whether any time is left for the agreement to end.
 
 ```ruby   
     modifier AgreementTimesLeft(uint _index) {
@@ -202,7 +202,7 @@ The following will check whether 365 days have passed after the last agreement h
     }
 ```
 
-The following will check whether 30 days have passed after last rent payment.
+The following will check whether 30 days have passed after the last rent payment.
 
 ```ruby 
     modifier RentTimesUp(uint _index) {
@@ -228,7 +228,7 @@ The following function will be used to add Rooms.
 Now, create a function to sign rental agreement for a hostel room between the landlord and a tenant.
 
 Before creating `signAgreement` function, remember the following:
-* The function will only execute if the user is `Tenant`, meaning that the user's address & the landlord's address don't match.
+* The function will only execute if the user is `Tenant`, meaning that the user's address and the landlord's address don't match.
 * The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet.(Enough ether means = one-time security deposit + 1st month's rent)
 
 Let's use those modifiers here, so that:
@@ -253,7 +253,8 @@ Remember those modifiers in point no.10? Use those modifiers here to execute the
     }
 ```
 
-Now, create a function that will be used by the tenant to pay monthly rent to the landlord.
+Now, create a function that the tenant will use to pay monthly rent to the landlord.
+
 Before creating `payRent` function, remember the following:
 * The function will only execute if the user's address and previous tenant's address both are same, meaning that the user can only pay rent if he/she has signed an agreement with the landlord within the last 365 days.
 * The function will only execute if the tenant had paid his/her previous rent more than a month ago.
@@ -272,7 +273,7 @@ Before creating `payRent` function, remember the following:
     }
 ```
 
-Let's create a function that will be used by the landlord to mark an agreement complete.
+Let's create a function that the landlord will use to mark an agreement complete.
 
 Before creating `agreementCompleted` function, remember the following:
 * The function will only execute if the user's address and the landlord's address are the same.
@@ -288,7 +289,7 @@ Before creating `agreementCompleted` function, remember the following:
     }
 ```
 
-Let's create a function that will be used by the landlord to terminate an agreement.
+Let's create a function that the landlord will use to terminate an agreement.
 
 Before creating `agreementTerminated` function, remember the following:
 * The function will only execute if the user's address and the landlord's address are same.
@@ -305,8 +306,8 @@ Before creating `agreementTerminated` function, remember the following:
 
 Now, click on the `Solidity Compile` option in the left side bar.
 
-1. Select compiler version : `0.5.16+`
-2. Then click on : `Compile Hostel.sol`
+1. Select compiler version `0.5.16+`
+2. Then click on `Compile Hostel.sol`
 
 Similar to as follows:
 
@@ -314,14 +315,14 @@ Similar to as follows:
 
 ### Deploy
 
-Click on the `Deploy & Run Transactions` option in the left side bar.
+Click on the `Deploy & Run Transactions` option in the left sidebar.
 
 1. Choose `Environment` > `JavaScript VM (London)`
 2. Now click on `Deploy`
 
 <img alt="Deploy" height="400px" src="img2.png">
 
-**🎉 Congratulations, your smart contract has been deeployed. 🎉**
+**🎉 Congratulations, your smart contract has been deployed. 🎉**
 
 ### Sample Transactions
 
@@ -343,9 +344,9 @@ Similar to as follows:
     
     (You can find the same in the terminal also.)
 
-    Now the Landlord of the room is your 1st Ether Address. (The one with 99.99 Test Ethers in wallet.)
+    Now the landlord of the room is your 1st Ether Address. (The one with 99.99 test ether in wallet.)
 
-4. change the `Account Address` from the drop down menu. (Choose anyone except the one with 99.99 ether)
+4. change the `Account Address` from the dropdown menu. (Choose anyone except the one with 99.99 ether)
 
 <img height="300px" alt="Change Address" src="img4.png">
 
@@ -370,17 +371,17 @@ Now, you can cross verify this by checking your `ether` account address.
 
 ## Advantages of Smart Contracts
 
-Now you may ask, "what's the use of smart contracts when there are several centralised methods?"
+Now you may ask, "what's the use of smart contracts when there are several centralized methods?"
 
-Let me explain some advantages of smart contracts over centralised systems:
-1. Here data cannot be changed or tampered. So, it is almost impossible for malicious actors to manipulate data.
-2. It's completely decentralised.
-3. Unlike any centralised payment wallet, you don't have to pay any commission percentages to a middle man to transact.
+Let me explain some advantages of smart contracts over centralized systems:
+1. Here data cannot be changed or tampered with. So, it is almost impossible for malicious actors to manipulate data.
+2. It's completely decentralized.
+3. Unlike any centralized payment wallet, you don't have to pay any commission percentages to a middle man to transact.
 
 ### Storage & Others
 You may also ask "how are all the transactions recorded?"
 
-You have to remember that smart contracts store data in a block of blockchain, and all transactions are stored with an unique `hash` key.
+You have to remember that smart contracts store data in a block of blockchain, and all transactions are stored with a unique `hash` key.
 
 In Remix IDE, you can download the complete transactions history as a `json` file. For that, follow these steps:
 1. Click `Deploy & Run Transaction`
@@ -393,10 +394,10 @@ You may have noticed that whenever a transaction is executed, a few `wei` is get
 
 It's called _gas fee_, which is the payment made by users to compensate for the computing energy required to process and validate transactions.
 
-As more Ethereum miners will come up in near future, the `gas fee` will decrease in an inverse relation.
+As more Ethereum miners come up in near future, the `gas fee` will decrease in an inverse relation.
 
 ### Future Possibilities
-After this, in future, if you want to build a fullstack website using React, then you can use this Smart Contract as backend.
+After this, if you want to build a fullstack website using React, you can use this smart contract as backend.
 
 For that you need to install/download: 
 
