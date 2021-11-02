@@ -31,8 +31,6 @@ const demologger = function () {
   })
 }
 
-
-
 let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
@@ -128,6 +126,8 @@ const Header = ({ menuLinks, searchIndex }) => {
     }
 
   };
+
+
   return (
     <>
       {/* <Helmet>
@@ -205,15 +205,19 @@ const Header = ({ menuLinks, searchIndex }) => {
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${["async", ""].includes(blogType)
-                ? headerStyles.active
-                : headerStyles.inactive
+              className={
+                `${["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : headerStyles.inactive
                 } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
                 <div className={headerStyles.logo}>
-                  <img src={logoAsync} alt="" />
+                  <Link to={
+                    `${ (blogType && ["async", ""].includes(blogType)) ? menuLinks[0].slug : ""} `}>
+                    <img src={logoAsync} alt="" />
+                  </Link>
                 </div>
               </div>
               <div
@@ -246,7 +250,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customer experience.
                 </p>
                 <a
-                  href={menuLinks[0].slug}
+                  href={menuLinks[1].slug}
                   target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
@@ -275,7 +279,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customers.
                 </p>
                 <a
-                  href={menuLinks[1].slug}
+                  href={menuLinks[2].slug}
                   target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
