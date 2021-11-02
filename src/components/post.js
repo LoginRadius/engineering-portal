@@ -144,7 +144,7 @@ const Post = ({ post, relatedPost }) => {
               {relatedPost.length ? (
                 <>
                   <div class={styles.relatedPost}>
-                    <h3>Related Posts</h3>
+                    <h3>Featured Posts</h3>
                     {relatedPost.map(({ node }, i) => (
                       <div class={styles.relatedPostRow}>
                         <div class={styles.description}>
