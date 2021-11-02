@@ -22,6 +22,8 @@ Install OpenCV and Streamlit using pip. You would also need Pillow — another i
 ```py
 pip install opencv-python streamlit Pillow
 ```
+> If you are python 2.7 user, keep in mind that opencv has stopped support for python 2.7 in their latest versions. So you would have to specify an older version like this 
+`pip install opencv-python==4.2.0.32`
 
 ## Create a Small OpenCV Project
 
