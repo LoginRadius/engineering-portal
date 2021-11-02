@@ -3,7 +3,7 @@
   .blog-content-pinned {
     display: flex;
     margin: -15px auto;
-    @media (max-width: 768px) {
+    @media (max-width: $layoutShift1Max) {
       margin: 0 auto;
       flex-direction: column;
     }
@@ -16,11 +16,11 @@
       -webkit-filter: brightness(0.95);
       &:nth-child(2) {
         padding-left: 24px;
-        @media (max-width: 768px) {
+        @media (max-width: $layoutShift1Max) {
           padding-left: 0;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: $layoutShift1Max) {
         width: 100%;
       }
     }
@@ -31,7 +31,7 @@
 
       a {
         & > div {
-          @media (min-width: 769px) {
+         @media (min-width: $layoutShift1Min) {
             height: 402px;
           }
           @media (max-width: 480px) {
@@ -45,14 +45,14 @@
   &.post-detail {
     .blog-content-pinned {
       flex-direction: row-reverse;
-      @media (max-width: 768px) {
+      @media (max-width: $layoutShift1Max) {
         flex-direction: column;
       }
       & > div {
         &:nth-child(2) {
           padding-right: 30px;
           padding-left: 0;
-          @media (max-width: 768px) {
+          @media (max-width: $layoutShift1Max) {
             padding: 0;
           }
         }
@@ -74,8 +74,8 @@
       font-weight: 500;
       height: 30px;
       display: inline-flex;
-      margin-bottom: 20px;
-      margin-right: 10px;
+      margin-bottom: .5rem;
+      margin-right: .5rem;
       &:hover {
         background-color: $blue-bright;
         color: $white;
@@ -107,7 +107,7 @@
       a {
         display: block;
         & > div {
-          @media (min-width: 768px) {
+          @media (min-width: $layoutShift1Min) {
             height: 257px;
           }
           @media (max-width: 480px) {

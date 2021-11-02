@@ -12,7 +12,7 @@
     margin: 0 10px;
     box-shadow: none;
     font-weight: 500;
-    @media (max-width: 768px) {
+    @media (max-width: $layoutShift1Max) {
       padding: 0 5px;
     }
     &.active,

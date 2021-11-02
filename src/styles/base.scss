@@ -169,7 +169,7 @@ ul {
   max-width: 300px;
   margin-top: 32px;
   width: fit-content;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     max-width: 100%;
     padding: 0;
     font-size: 18px;
@@ -184,26 +184,26 @@ ul {
 }
 .py-80 {
   padding: $space-80 0;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 .pt-80 {
   padding-top: $space-80;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     padding-top: 40px;
   }
 }
 .pb-80 {
   padding-bottom: $space-80;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     padding-bottom: 40px;
   }
 }
 .mb-80 {
   margin-bottom: $space-80;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     margin-bottom: 40px;
   }
 }
@@ -251,7 +251,7 @@ section {
         display: inline-block;
         margin-right: 24px;
         width: calc(33.33% - #{24px * 2 / 3});
-        @media (max-width: 768px) {
+        @media (max-width: $layoutShift1Max) {
           width: calc(50% - #{24px * 1 / 2});
         }
         @media (max-width: 767px) {
@@ -260,14 +260,14 @@ section {
         }
         &:nth-child(3n) {
           margin-right: 0;
-          @media (max-width: 768px) {
+          @media (max-width: $layoutShift1Max) {
             margin-right: 24px;
           }
           @media (max-width: 767px) {
             margin-right: 0;
           }
         }
-        @media (max-width: 768px) {
+        @media (max-width: $layoutShift1Max) {
           &:nth-child(2n) {
             margin-right: 0;
           }
@@ -284,11 +284,11 @@ section {
         &:nth-child(2n) {
           margin-right: 0;
           width: calc(30% - #{24px * 1 / 2});
-          @media (max-width: 768px) {
+          @media (max-width: $layoutShift1Max) {
             width: 100%;
           }
         }
-        @media (max-width: 768px) {
+        @media (max-width: $layoutShift1Max) {
           width: 100%;
           margin-right: 0;
         }
