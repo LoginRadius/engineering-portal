@@ -11,9 +11,13 @@ exports.createPages = async ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const tagTemplate = path.resolve("./src/templates/tag.js")
   const authorPage = path.resolve("src/templates/author.js")
+  const searchTemplate = path.resolve("./src/templates/search-page.js")
   const result = await graphql(
     `
       {
+        siteSearchIndex {
+          index
+        }
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
@@ -113,6 +117,15 @@ exports.createPages = async ({ graphql, actions }) => {
         authorId: author,
       },
     })
+  })
+
+  // create search page
+  createPage({
+    path: `/search/`,
+    component: searchTemplate,
+    context: {
+      index: result.data.siteSearchIndex.index
+    },
   })
 
   const staticPages = [
