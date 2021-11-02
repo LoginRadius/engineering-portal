@@ -8,28 +8,31 @@ const CallToAction = () => {
         <React.Fragment>
             <hr />
 
-            <div className={ctaStyles.ctaSidebar}>
+            <div className={ctaStyles.sidebarCta}>
 
-                <div
-                    className={ctaStyles.imageWrapper}
-                    style={{ backgroundImage: `url(${ctaBg})` }}
-                >
-                    <img src={defaultImg} alt="default-img" />
+                {/*<div*/}
+                {/*    className={ctaStyles.image}*/}
+                {/*    style={{ backgroundImage: `url(${ctaBg})` }}*/}
+                {/*>*/}
+                {/*    <img src={defaultImg} alt="default-img" />*/}
+                {/*</div>*/}
+
+                <div className={ctaStyles.text}>
+                    <p className={ctaStyles.heading}>
+                        LoginRadius Docs
+                    </p>
+
+                    <p>Implement Authentication in Minutes</p>
+
+                    <a
+                        className={"btn-primary"}
+                        href={'https://www.loginradius.com/docs/developer'}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {"CLICK HERE"}
+                    </a>
                 </div>
-
-                <h3>Consumer Digital Identity Trend Report 2020</h3>
-
-                <p>Optimize Your Conversion Funnel With Core Customer Behavior Analysis</p>
-
-                <a
-                    className={"btn-primary mt-24"}
-                    href={'https://www.loginradius.com/resource/digital-identity-trends-2020/'}
-                    key={"docs-link"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {"Download Now"}
-                </a>
             </div>
         </React.Fragment>
     )

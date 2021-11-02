@@ -1,29 +1,34 @@
 @import "../styles/variables.scss";
-.cta-sidebar {
+.sidebar-cta {
   background-color: #0a2135;
-  padding: 24px;
   color: #fff;
-  .image-wrapper {
-    margin-bottom: 1rem;
+  .image {
+    padding: 24px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto 85%;
+    background-size: auto 90%;
     img {
       border: 1px solid #fff;
       width: 65%;
       margin: 0 auto;
     }
   }
-  h3 {
-    margin-bottom: 18px;
-    line-height: 1.2;
-    font-weight: 400;
-  }
-  p {
-    line-height: 1.2;
-    font-size: 18px;
-  }
-  a {
-    max-width: 100%;
+  .text {
+    padding: 0 24px 24px;
+    &:first-child {
+      padding-top: 24px;
+    }
+    .heading {
+      font-size: 24px;
+      margin-bottom: 18px;
+      font-weight: 400;
+    }
+    p {
+      line-height: 1.2;
+      font-size: 18px;
+    }
+    a {
+      max-width: 100%;
+    }
   }
 }
