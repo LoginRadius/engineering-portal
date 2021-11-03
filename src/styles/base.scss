@@ -166,13 +166,14 @@ ul {
 }
 
 .btn-cta {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 300px;
   margin-top: 32px;
+  width: fit-content;
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
     font-size: 18px;
+    width: 100%;
   }
 }
 .mb-0 {
@@ -314,4 +315,88 @@ section {
   img {
     border-radius: 8px;
   }
+}
+// sendinblue subscripbe widget CSS
+.sib-form {
+  form {
+    display: flex;
+    align-items: center;
+    .input {
+      height: 44px;
+      line-height: 44px;
+      border-radius: 4px 0 0 4px;
+      padding: 0 12px 0 16px;
+      border: 0;
+      font-size: 17px;
+      font-weight: 500;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+.sib-form-message-panel {
+  margin: 0 0 1.25rem 0;
+  width: 100%;
+  padding: 0.4375rem;
+  border: 1px solid;
+  display: none;
+}
+.sib-hide-loader-icon {
+  display: none;
+}
+.sib-form .clickable__icon:not(.sib-icon_standalone) {
+  margin-right: calc(0.7002rem - 1px);
+}
+.sib-form .progress-indicator__icon {
+  -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85)
+    infinite;
+  animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
+}
+.sib-form .clickable__icon {
+  height: 1.5rem;
+  vertical-align: bottom;
+  width: 1.5rem;
+}
+.sib-hide-loader-icon {
+  display: none;
+}
+.sib-form-message-panel__text {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0.5rem;
+}
+.sib-form-message-panel__text .sib-notification__icon {
+  height: 1.5em;
+  width: 1.5em;
+  flex-shrink: 0;
+  margin-right: calc(1rem - 1px);
+}
+.sib-form-message-panel__text .sib-icon {
+  contain: strict;
+  display: inline-block;
+  fill: currentColor;
+}
+.sib-form-message-panel--active {
+  display: inline-block;
+}
+.sib-form *,
+.sib-form ::after,
+.sib-form ::before {
+  box-sizing: border-box;
+}
+
+@keyframes indicator-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+.input--hidden {
+  display: none !important;
 }

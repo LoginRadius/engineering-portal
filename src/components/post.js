@@ -19,6 +19,7 @@ import ReactGA from "react-ga"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
+import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -35,12 +36,14 @@ const signUplogger = function () {
   })
 }
 const Post = ({ post, relatedPost }) => {
+  const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
 
   return (
     <>
@@ -227,23 +230,9 @@ const Post = ({ post, relatedPost }) => {
           </div>
           <div className="grid-70-30">
             <div className={styles.postContent}>
-              <h2>Are your customers safe on your application?</h2>
+              <h2>Do you want a free authentication solution?</h2>
               <p>
-                According to Forbes, data breaches exposed 4.1 billion records
-                in the first six months of 2019. If this gets you worried, we’ve
-                got your back!
-                <br />
-                <br />
-                LoginRadius protects your customers’ identities. We provide
-                world-class security for your customers during login,
-                registration, password setup, and any other data touchpoints,
-                and make sure that their data is safe. We do so through by
-                offering open source SDKs, integrations with over 150 third
-                party applications, pre-designed and customizable login
-                interfaces, and best-in-class data security products such as
-                MFA, RBA, and Advanced Password Policies. The platform is
-                already loved by over 3,000 businesses with a monthly reach of
-                1.17 billion users worldwide.
+                Add the world's most secure, reliable and easy to implement user authentication solution on your applications at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
@@ -256,7 +245,7 @@ const Post = ({ post, relatedPost }) => {
                   }
                   target="blank"
                 >
-                  Secure Your Application Now
+                  Get Started Free
                 </a>
               </p>
             </div>
@@ -280,6 +269,8 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
+
+        <ToC headings = {headings}/>
 
         <div id="commento"></div>
       </section>

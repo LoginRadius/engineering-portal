@@ -17,7 +17,7 @@ A good password manager can alleviate the problem of remembering tens of passwor
 
 So, what's the greater risk? You may ask.
 
-Millions of data records, including login credentials, are being exposed in data breaches, which continue to make headlines around the world. In fact, data breaches globally exposed more than 36 billion records in 2020.
+Millions of data records, including login credentials, are being exposed in data breaches, which continue to make headlines around the world. In fact, data breaches globally [exposed more than 36 billion records in 2020](https://www.securitymagazine.com/articles/94076-the-top-10-data-breaches-of-2020).
 
 Cybercriminals get access to these exposed records in black markets (generally on the dark web) and use them to perform credential stuffing and account takeover attacks or commit fraud. 
 
@@ -49,8 +49,10 @@ On the other hand, RBA is a non-static authentication method that requires addit
 
 Now, it's clear that better safe than sorry when it comes to authenticating users, and implementing RBA reduce account compromise risk on your apps. 
 
-That said, RBA doesn't have to stop at user authentication; you can extend it to signups, payments, and other types of online transactions.  
-How to Implement Risk-based Authentication (RBA)?
+That said, RBA doesn't have to stop at user authentication; you can extend it to signups, payments, and other types of online transactions.
+
+## How to Implement Risk-based Authentication (RBA)?
+
 You have two options:
 
  - Develop an RBA system in-house
@@ -64,7 +66,7 @@ Yes, developing an RBA system in-house is possible. But, you should ponder upon 
 
 If you got convincing responses to the above questions, you may go ahead and develop your in-house RBA system. 
 
-But a lot of you might not have that sort of resources or just don't want to focus on non-core development projects. In this case, you can rely on a reputed RBA provider - for example, LoginRadius.😉
+But a lot of you might not have that sort of resources or just don't want to focus on non-core development projects. In this case, you can rely on a reputed RBA provider -- for example, LoginRadius.😉
 
 When choosing an RBA provider, make sure the solution meets the following criteria:
 
@@ -77,4 +79,4 @@ When choosing an RBA provider, make sure the solution meets the following criter
 
 Once you have evaluated and finalized the vendor, it is vital to test the RBA solution and ensure that the user experience is as expected while minimizing risk.
 
-If you want to learn more about RBA and want to test how RBA works in LoginRadius? [Signup](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for a free account here. 
+Want to learn more about RBA and test how RBA works in LoginRadius? [Signup](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for a free account here.
