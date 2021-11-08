@@ -8,7 +8,7 @@ export default class SearchResult extends Component {
     constructor(props) {
         super(props)
 
-        const query = typeof window !== 'undefined' && window.location.search.replace('%20', " ").replace('?', "");
+        const query = typeof window !== 'undefined' && window.location.search.replace(/\s+/g, "-").replace('?', "");
         const index = Index.load(this.props.index)
 
         this.state = {
@@ -42,7 +42,20 @@ export default class SearchResult extends Component {
                         ))}
                     </div>
                 </section>
-            ) : null
+            ) : (
+                <section className='py-80' >
+                    <div className={styles.searchContent}>
+
+                        <h2>Search results for: "{query}"</h2>
+
+                        <div>
+                            <h3>
+                                There are no matches for your search, please try again.
+                            </h3>
+                        </div>
+                    </div>
+                </section>
+            )
         )
     }
 }
