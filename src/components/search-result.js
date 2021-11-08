@@ -8,7 +8,7 @@ export default class SearchResult extends Component {
     constructor(props) {
         super(props)
 
-        const query = window.location.search.replaceAll('?', '').replaceAll('%20', ' ');
+        const query = typeof window !== 'undefined' && window.location.search.replace('%20', " ").replace('?', "");
         const index = Index.load(this.props.index)
 
         this.state = {

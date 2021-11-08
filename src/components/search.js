@@ -43,7 +43,8 @@ export default class Search extends Component {
 
   handleSubmit = () => {
     const query = this.state.query;
-    window.open('/search/?'+query, "_self");
+    typeof window !== 'undefined' &&
+    window.open(`/search/?${query}`, "_self");
   }
 
   componentDidMount() {
