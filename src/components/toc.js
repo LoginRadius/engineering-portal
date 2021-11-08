@@ -23,7 +23,7 @@ const ToC = ({ headings }) => (
               <ToCLink
               onClick={() => scrollTo(`#${heading.value
                   .replace(/\s+/g, "-")
-                  .replace(/[.:;#*+=?!><^&$@%{}()|[\]\\]/g, '')
+                  .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, '')
                   .toLowerCase()
                 }`)}
               >
