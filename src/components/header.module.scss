@@ -161,6 +161,7 @@
             padding: 0 22px;
           }
           &.swi,
+          &.async,
           &.fuel {
             @media (min-width: 1023px) {
               display: none;
