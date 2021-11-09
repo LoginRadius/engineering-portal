@@ -22,7 +22,7 @@ Install OpenCV and Streamlit using pip. You would also need Pillow — another i
 ```py
 pip install opencv-python streamlit Pillow
 ```
-> If you use Python 2.7, note that OpenCV doesn't support for Python 2.7 in their latest versions. Accordingly, you have to specify an older version like this `pip install opencv-python==4.2.0.32`
+> If you use Python 2.7, note that OpenCV doesn't directly support Python 2.7 in their latest versions. Accordingly, you have to specify an older version like this `pip install opencv-python==4.2.0.32`
 
 ## Create a Small OpenCV Project
 
@@ -211,7 +211,7 @@ Now you can play with the filters. Of course, these are some basic filters, but 
 
 ![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
 
-## How to Make Your App available for the Public?
+## How to Publish Your App?
 
 To publish your app, you need to host this program somewhere. There are different hosting providers for complex projects. But for this hobby project, is there a simple and quick solution?
 
