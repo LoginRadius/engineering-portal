@@ -1,6 +1,6 @@
 ---
 title: "How to Create a OpenCV Web App with Streamlit"
-date: "2021-11-01"
+date: "2021-11-10"
 coverImage: "coverimage.png"
 author: "Dingu Sagar"
 tags: ["OpenCV", "Streamlit", "Python"]
@@ -22,8 +22,7 @@ Install OpenCV and Streamlit using pip. You would also need Pillow — another i
 ```py
 pip install opencv-python streamlit Pillow
 ```
-> If you are python 2.7 user, keep in mind that opencv has stopped support for python 2.7 in their latest versions. So you would have to specify an older version like this 
-`pip install opencv-python==4.2.0.32`
+> If you use Python 2.7, note that OpenCV doesn't support for Python 2.7 in their latest versions. Accordingly, you have to specify an older version like this `pip install opencv-python==4.2.0.32`
 
 ## Create a Small OpenCV Project
 
@@ -223,6 +222,6 @@ You can host the Streamlit application in [Streamlit Cloud](https://streamlit.io
 Check out [this tutorial](https://docs.streamlit.io/streamlit-cloud/community) from the community to host your app in Streamlit Cloud.
 
 ## Conclusion
-You can find the source code for this tutorial [here](https://github.com/dingusagar/opencv-streamlit-demo). The web app discussed above is [hosted here](https://share.streamlit.io/dingusagar/opencv-streamlit-demo/main/demo-app.py) if you want to try it out.
+You can find the source code for this tutorial [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Python/OpenCV-Streamlit-Integration). The web app discussed above is [hosted here](https://share.streamlit.io/dingusagar/opencv-streamlit-demo/main/demo-app.py) if you want to try it out.
 
 Want to add user authentication and registration in your app quickly? Check out the [LoginRadius Python integration](https://www.loginradius.com/integrations/python/).
