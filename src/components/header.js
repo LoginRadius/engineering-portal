@@ -213,12 +213,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <Link to={
-                    `${ (blogType && ["async", ""].includes(blogType)) ? menuLinks[0].slug : ""} `}>
+                <Link to={
+                  `${ (blogType && ["async", ""].includes(blogType)) ? menuLinks[0].slug : ""} `}>
+                  <div className={headerStyles.logo}>
                     <img src={logoAsync} alt="" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "async"
@@ -235,9 +235,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <img src={logoSwi} alt="" />
-                </div>
+                <Link to={
+                  `${ (blogType && ["swi", ""].includes(blogType)) ? menuLinks[1].slug : ""} `}>
+                  <div className={headerStyles.logo}>
+                    <img src={logoSwi} alt="" />
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "swi"
@@ -264,9 +267,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <img src={logoFuel} alt="Fuel" />
-                </div>
+                <Link to={
+                  `${ (blogType && ["fuel", ""].includes(blogType)) ? menuLinks[2].slug : ""} `}>
+                  <div className={headerStyles.logo}>
+                    <img src={logoFuel} alt="Fuel" />
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "fuel"
