@@ -12,8 +12,8 @@ import Search from "./search"
 import ReactGA from "react-ga"
 import { validEmail } from "./regex.js"
 import Helmet from "react-helmet"
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 const logger = function (linkName, headerLink) {
   ReactGA.event({
@@ -53,7 +53,6 @@ const Header = ({ menuLinks, searchIndex }) => {
     }
   }, [])
 
-
   const subscribeSIB = () => {
     setNewsLetterSubscription({
       ...newsLetterSubscription,
@@ -65,8 +64,8 @@ const Header = ({ menuLinks, searchIndex }) => {
         responseMsg: "The email is a required field.",
         respClass: "error",
       })
-      let notify = () => toast.error("The email is a required field.");
-      notify();
+      let notify = () => toast.error("The email is a required field.")
+      notify()
       return
     }
     if (!validEmail.test(newsLetterSubscription.subscribeEmail)) {
@@ -75,12 +74,13 @@ const Header = ({ menuLinks, searchIndex }) => {
         responseMsg: "The email must be a valid email address.",
         respClass: "error",
       })
-      let notify = () => toast.error("The email must be a valid email address.");
-      notify();
+      let notify = () => toast.error("The email must be a valid email address.")
+      notify()
       return
     }
 
-    let url = "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
+    let url =
+      "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
     var data = new FormData()
     data.append("EMAIL", newsLetterSubscription.subscribeEmail)
     // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
@@ -95,8 +95,8 @@ const Header = ({ menuLinks, searchIndex }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
-        let notify = () => toast.info(resp.message);
-        notify();
+        let notify = () => toast.info(resp.message)
+        notify()
         document.getElementById("subscription-form").reset()
       } else if (xmlhttp.status == 500) {
         setNewsLetterSubscription({
@@ -104,29 +104,28 @@ const Header = ({ menuLinks, searchIndex }) => {
           responseMsg: resp.message,
           respClass: "error",
         })
-        let notify = () => toast.error(resp.message);
-        notify();
+        let notify = () => toast.error(resp.message)
+        notify()
       } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
           subscribeCall: false,
           respClass: "",
         })
-        let notify = () => toast.error("An error has occured, please try again!");
-        notify();
+        let notify = () =>
+          toast.error("An error has occured, please try again!")
+        notify()
       }
     }
     xmlhttp.send(data)
   }
 
-  const checkKeyDown = (e) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      subscribeSIB();
+  const checkKeyDown = e => {
+    if (e.key === "Enter") {
+      e.preventDefault()
+      subscribeSIB()
     }
-
-  };
-
+  }
 
   return (
     <>
@@ -173,8 +172,9 @@ const Header = ({ menuLinks, searchIndex }) => {
       ) : null}
 
       <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${headerStyles.header
-          }`}
+        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
+          headerStyles.header
+        }`}
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -199,54 +199,72 @@ const Header = ({ menuLinks, searchIndex }) => {
         </div>
         <div className={headerStyles.bloglogoWrap}>
           <div
-            className={`${blogType ? headerStyles.allBlogActive : ""} ${headerStyles.allBlogsLogo
-              } `}
+            className={`${blogType ? headerStyles.allBlogActive : ""} ${
+              headerStyles.allBlogsLogo
+            } `}
             onMouseOver={() => (_shouldBlogClose = false)}
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={
-                `${["async", ""].includes(blogType)
+              className={`${
+                ["async", ""].includes(blogType)
                   ? headerStyles.active
                   : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.async}`}
+              } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link to={
-                  `${ (blogType && ["async", ""].includes(blogType)) ? menuLinks[0].slug : ""} `}>
+                <Link
+                  to={`${
+                    blogType && ["async", ""].includes(blogType)
+                      ? menuLinks[0].slug
+                      : typeof window !== "undefined" &&
+                        window.location.pathname
+                  } `}
+                  replace
+                >
                   <div className={headerStyles.logo}>
                     <img src={logoAsync} alt="" />
                   </div>
                 </Link>
               </div>
               <div
-                className={`${blogType == "async"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.async}`}
+                className={`${
+                  blogType == "async"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.async}`}
               >
                 <p>The latest news in the world of engineering.</p>
               </div>
             </div>
             <div
-              className={`${blogType == "swi" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.swi} `}
+              className={`${
+                blogType == "swi" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.swi} `}
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link to={
-                  `${ (blogType && ["swi", ""].includes(blogType)) ? menuLinks[1].slug : ""} `}>
+                <Link
+                  to={`${
+                    blogType && ["swi", ""].includes(blogType)
+                      ? menuLinks[1].slug
+                      : typeof window !== "undefined" &&
+                        window.location.pathname
+                  } `}
+                  replace
+                >
                   <div className={headerStyles.logo}>
                     <img src={logoSwi} alt="" />
                   </div>
                 </Link>
               </div>
               <div
-                className={`${blogType == "swi"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.swi}`}
+                className={`${
+                  blogType == "swi"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.swi}`}
               >
                 <p>
                   Identity and Access Management (IAM), including security and
@@ -262,23 +280,32 @@ const Header = ({ menuLinks, searchIndex }) => {
               </div>
             </div>
             <div
-              className={`${blogType == "fuel" ? headerStyles.active : headerStyles.inactive
-                } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
+              className={`${
+                blogType == "fuel" ? headerStyles.active : headerStyles.inactive
+              } ${headerStyles.logoWrap} ${headerStyles.fuel}`}
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link to={
-                  `${ (blogType && ["fuel", ""].includes(blogType)) ? menuLinks[2].slug : ""} `}>
+                <Link
+                  to={`${
+                    blogType && ["fuel", ""].includes(blogType)
+                      ? menuLinks[2].slug
+                      : typeof window !== "undefined" &&
+                        window.location.pathname
+                  } `}
+                  replace
+                >
                   <div className={headerStyles.logo}>
                     <img src={logoFuel} alt="Fuel" />
                   </div>
                 </Link>
               </div>
               <div
-                className={`${blogType == "fuel"
-                  ? headerStyles.slideDesDown1
-                  : headerStyles.slideDesUp1
-                  }  ${headerStyles.description} ${headerStyles.fuel}`}
+                className={`${
+                  blogType == "fuel"
+                    ? headerStyles.slideDesDown1
+                    : headerStyles.slideDesUp1
+                }  ${headerStyles.description} ${headerStyles.fuel}`}
               >
                 <p>
                   Grow your business to millions.Engage and retain your
@@ -304,8 +331,9 @@ const Header = ({ menuLinks, searchIndex }) => {
                     href={link.slug}
                     key={index}
                     target="_blank"
-                    className={`${link.class ? headerStyles[link.class] : ""
-                      } ga_event`}
+                    className={`${
+                      link.class ? headerStyles[link.class] : ""
+                    } ga_event`}
                     rel="noopener noreferrer"
                     onClick={() => logger(link.name, link.slug)}
                   >
@@ -318,7 +346,11 @@ const Header = ({ menuLinks, searchIndex }) => {
           <div className={headerStyles.navRightSide}>
             <div className={headerStyles.freeSignup}>
               <div id="sg-widget-event">
-                <form className="sg-widget" id="subscription-form" onKeyDown={(e) => checkKeyDown(e)}>
+                <form
+                  className="sg-widget"
+                  id="subscription-form"
+                  onKeyDown={e => checkKeyDown(e)}
+                >
                   <div className={headerStyles.formGroup}>
                     <input
                       className="sg_email required"
@@ -337,10 +369,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                     <input
                       className={`${headerStyles.navcta} ${headerStyles.sgSubmitBtn} btn-primary`}
                       type="button"
-                      disabled={
-                        newsLetterSubscription.subscribeCall
-                      }
-
+                      disabled={newsLetterSubscription.subscribeCall}
                       onClick={() => subscribeSIB()}
                       value="Subscribe"
                     />
