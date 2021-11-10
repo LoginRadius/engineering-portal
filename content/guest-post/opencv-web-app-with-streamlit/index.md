@@ -1,5 +1,5 @@
 ---
-title: "How to Build a OpenCV Web App with Streamlit"
+title: "How to Build an OpenCV Web App with Streamlit"
 date: "2021-11-10"
 coverImage: "coverimage.png"
 author: "Dingu Sagar"
