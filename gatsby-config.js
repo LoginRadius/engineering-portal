@@ -25,13 +25,18 @@ module.exports = {
       //   slug: "https://www.loginradius.com/blog/",
       // },
       {
+        name: "ASYNC Blog",
+        slug: "/blog/async/",
+        class: "async",
+      },
+      {
         name: "SWI Blog",
-        slug: "https://www.loginradius.com/blog/start-with-identity/",
+        slug: "/blog/start-with-identity/",
         class: "swi",
       },
       {
         name: "FUEL Blog",
-        slug: "https://www.loginradius.com/blog/fuel/",
+        slug: "/blog/fuel/",
         class: "fuel",
       },
       {
@@ -180,7 +185,7 @@ module.exports = {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
         // Fields to index
-        fields: [`title`, `tags`],
+        fields: [`title`, `tags`, `text`],
         // How to resolve each field`s value for a supported node type
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
@@ -188,6 +193,7 @@ module.exports = {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             path: node => node.fields.slug,
+            text: node => node.frontmatter.description
           },
         },
         // Optional filter to limit indexed nodes

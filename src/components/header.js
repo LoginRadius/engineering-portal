@@ -31,8 +31,6 @@ const demologger = function () {
   })
 }
 
-
-
 let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
@@ -128,6 +126,8 @@ const Header = ({ menuLinks, searchIndex }) => {
     }
 
   };
+
+
   return (
     <>
       {/* <Helmet>
@@ -205,16 +205,20 @@ const Header = ({ menuLinks, searchIndex }) => {
             onMouseLeave={() => (_shouldBlogClose = true)}
           >
             <div
-              className={`${["async", ""].includes(blogType)
-                ? headerStyles.active
-                : headerStyles.inactive
+              className={
+                `${["async", ""].includes(blogType)
+                  ? headerStyles.active
+                  : headerStyles.inactive
                 } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <img src={logoAsync} alt="" />
-                </div>
+                <Link to={
+                  `${ (blogType && ["async", ""].includes(blogType)) ? menuLinks[0].slug : ""} `}>
+                  <div className={headerStyles.logo}>
+                    <img src={logoAsync} alt="" />
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "async"
@@ -231,9 +235,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <img src={logoSwi} alt="" />
-                </div>
+                <Link to={
+                  `${ (blogType && ["swi", ""].includes(blogType)) ? menuLinks[1].slug : ""} `}>
+                  <div className={headerStyles.logo}>
+                    <img src={logoSwi} alt="" />
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "swi"
@@ -246,7 +253,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customer experience.
                 </p>
                 <a
-                  href={menuLinks[0].slug}
+                  href={menuLinks[1].slug}
                   target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
@@ -260,9 +267,12 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                <div className={headerStyles.logo}>
-                  <img src={logoFuel} alt="Fuel" />
-                </div>
+                <Link to={
+                  `${ (blogType && ["fuel", ""].includes(blogType)) ? menuLinks[2].slug : ""} `}>
+                  <div className={headerStyles.logo}>
+                    <img src={logoFuel} alt="Fuel" />
+                  </div>
+                </Link>
               </div>
               <div
                 className={`${blogType == "fuel"
@@ -275,7 +285,7 @@ const Header = ({ menuLinks, searchIndex }) => {
                   customers.
                 </p>
                 <a
-                  href={menuLinks[1].slug}
+                  href={menuLinks[2].slug}
                   target="_blank"
                   className={`${headerStyles.btnPrimary} btn-primary`}
                 >
