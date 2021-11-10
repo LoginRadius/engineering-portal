@@ -1,5 +1,5 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
-const getTimeToRead = require("./src/utils/timeToReadRss");
+const getTimeToRead = require("./src/utils/timeToReadRss")
 
 module.exports = {
   siteMetadata: {
@@ -26,17 +26,17 @@ module.exports = {
       // },
       {
         name: "ASYNC Blog",
-        slug: "/blog/async/",
+        slug: "https://www.loginradius.com/blog/async/",
         class: "async",
       },
       {
         name: "SWI Blog",
-        slug: "/blog/start-with-identity/",
+        slug: "https://www.loginradius.com/blog/start-with-identity/",
         class: "swi",
       },
       {
         name: "FUEL Blog",
-        slug: "/blog/fuel/",
+        slug: "https://www.loginradius.com/blog/fuel/",
         class: "fuel",
       },
       {
@@ -193,7 +193,7 @@ module.exports = {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             path: node => node.fields.slug,
-            text: node => node.frontmatter.description
+            text: node => node.frontmatter.description,
           },
         },
         // Optional filter to limit indexed nodes
@@ -238,12 +238,13 @@ module.exports = {
                   },
                   custom_elements: [
                     {
-                      "content:encoded": `<p> ${edge.node.frontmatter.description || edge.node.excerpt
-                        } </p> <br/>  <a href="${site.siteMetadata.feedUrl + edge.node.fields.slug
-                        }">Read On</a>`,
+                      "content:encoded": `<p> ${
+                        edge.node.frontmatter.description || edge.node.excerpt
+                      } </p> <br/>  <a href="${
+                        site.siteMetadata.feedUrl + edge.node.fields.slug
+                      }">Read On</a>`,
                     },
                     {
-
                       timeToReadBlog: getTimeToRead(edge.node.html),
                     },
                     {
