@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
+import { navigate } from "gatsby"
 
 // Search component
 export default class Search extends Component {
@@ -41,10 +42,10 @@ export default class Search extends Component {
     }
   }
 
-  handleSubmit = () => {
+  handleSubmit = event => {
+    event.preventDefault()
     const query = this.state.query
-    typeof window !== "undefined" &&
-      window.open(`/blog/async/search/?${query}`, "_self")
+    navigate(`/search/?${query}`)
   }
 
   componentDidMount() {
