@@ -158,25 +158,28 @@ The JWA specification focuses mainly on enumerating the algorithms necessary for
 
 <figure>
   <img src="JWS_algo.png" alt="JWS algorithms" align="center">
-  <figcaption align="center">**Source:**  </figcaption>
+  <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
 </figure>
 
 **Algorithms for JWE** These algorithms encrypt the Content Encryption Key (CEK) and and produce the JWE Encrypted Key
 
 <figure>
   <img src="JWE_algo.png" alt="JWE algorithms" align="center">
-  <figcaption align="center">**Source:**  </figcaption>
+  <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
 </figure>
 
 **Algorithms for JWK:** JWA specifies a set of algorithm families to be used for the public keys represented by JWK
 
 <figure>
   <img src="JWK_algo.png" align="center">
-  <figcaption align="center">**Source:**  </figcaption>
+  <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
 </figure>
 
 
-Learn more about JWA [here](https://datatracker.ietf.org/doc/html/draft-ietf-jose-json-web-algorithms-40)
+Learn more about JWA [here](https://datatracker.ietf.org/doc/html/draft-ietf-jose-json-web-algorithms-40).
+
+## Conclusion
+The IETF JSON Object Signing and Encryption (JOSE) working group was chartered to develop a secure object format based on JSON and to simplify the addition of object-based security features to Internet applications. The basic requirements for these object formats are confidentiality and integrity mechanisms encoded in JSON. JWT, JWS, JWE, JWK and JWA are the JOSE working group items intended to describe these object formats. The JOSE specifications have many use cases and are sought out for Integrity protection, Encryption, Security tokens, OAuth, Web cryptography etc. Check out this [site](https://datatracker.ietf.org/doc/rfc7165/) to know more about JOSE use cases.
 
 **References:** 
 - [https://tools.ietf.org/](https://tools.ietf.org/)
