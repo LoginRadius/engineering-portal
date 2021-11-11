@@ -4,23 +4,57 @@ import Layout from "../components/layout"
 import CardList from "../components/cardList"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+import styles from "../components/tabs.module.scss"
 
 const BlogList = ({ data, pageContext, location }) => {
   const total = data.allMarkdownRemark.totalCount
   const { currentPage, numPages } = pageContext
   return (
-    <Layout pinned>
+    <Layout>
       <SEO
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
         pathname={location.pathname}
-        description={currentPage === 1 ? "" : `LoginRadius Async Blog - Page ${currentPage} of ${Math.ceil(
-          total / 6
-        )}`}
+        description={
+          currentPage === 1
+            ? ""
+            : `LoginRadius Async Blog - Page ${currentPage} of ${Math.ceil(
+                total / 6
+              )}`
+        }
       />
       <main>
-        <CardList posts={data.allMarkdownRemark.edges} total={total} />
-        <Pagination pages={numPages} currentPage={currentPage} />
+        <Tabs className={styles.blogTabs}>
+          <TabList>
+            <Tab>Engineering</Tab>
+            <Tab>Identity</Tab>
+            <Tab>Growth</Tab>
+            <Tab>Culture</Tab>
+            <Tab>Announcements</Tab>
+          </TabList>
+
+          <TabPanel>
+            <CardList posts={data.allMarkdownRemark.edges} total={total} />
+            <Pagination pages={numPages} currentPage={currentPage} />
+          </TabPanel>
+
+          <TabPanel>
+            <h2>Any content 2</h2>
+          </TabPanel>
+
+          <TabPanel>
+            <h2>Any content 3</h2>
+          </TabPanel>
+
+          <TabPanel>
+            <h2>Any content 4</h2>
+          </TabPanel>
+
+          <TabPanel>
+            <h2>Any content 5</h2>
+          </TabPanel>
+        </Tabs>
       </main>
     </Layout>
   )

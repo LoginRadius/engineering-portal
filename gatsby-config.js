@@ -1,5 +1,5 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
-const getTimeToRead = require("./src/utils/timeToReadRss");
+const getTimeToRead = require("./src/utils/timeToReadRss")
 
 module.exports = {
   siteMetadata: {
@@ -89,6 +89,20 @@ module.exports = {
       options: {
         path: `${__dirname}/content`,
         name: `content`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/engineering`,
+        name: `engineering`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/identity`,
+        name: `identity`,
       },
     },
     {
@@ -193,7 +207,7 @@ module.exports = {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             path: node => node.fields.slug,
-            text: node => node.frontmatter.description
+            text: node => node.frontmatter.description,
           },
         },
         // Optional filter to limit indexed nodes
@@ -238,12 +252,13 @@ module.exports = {
                   },
                   custom_elements: [
                     {
-                      "content:encoded": `<p> ${edge.node.frontmatter.description || edge.node.excerpt
-                        } </p> <br/>  <a href="${site.siteMetadata.feedUrl + edge.node.fields.slug
-                        }">Read On</a>`,
+                      "content:encoded": `<p> ${
+                        edge.node.frontmatter.description || edge.node.excerpt
+                      } </p> <br/>  <a href="${
+                        site.siteMetadata.feedUrl + edge.node.fields.slug
+                      }">Read On</a>`,
                     },
                     {
-
                       timeToReadBlog: getTimeToRead(edge.node.html),
                     },
                     {

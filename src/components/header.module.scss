@@ -42,7 +42,7 @@
   display: flex;
   min-height: 96px;
   align-items: center;
-  background-color: $black;
+  //background-color: $black;
   position: relative;
   z-index: 3;
   @media (max-width: 1023px) {
@@ -146,7 +146,7 @@
         display: flex;
         a {
           padding: 0 20px;
-          color: rgba(255, 255, 255, 0.9);
+          //color: rgba(255, 255, 255, 0.9);
           font-weight: 500;
           letter-spacing: 0.6px;
           text-decoration: none;
@@ -155,7 +155,8 @@
             padding: 0 16px;
           }
           &:hover {
-            color: $white;
+            //color: $white;
+            color: $black;
           }
           @media (max-width: 479px) {
             padding: 0 22px;
