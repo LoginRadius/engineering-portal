@@ -214,19 +214,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
+                <a
+                  href={`${
                     blogType && ["async", ""].includes(blogType)
                       ? menuLinks[0].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
+                      : ""
+                  }`}
                 >
                   <div className={headerStyles.logo}>
                     <img src={logoAsync} alt="" />
                   </div>
-                </Link>
+                </a>
               </div>
               <div
                 className={`${
@@ -245,19 +243,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
+                <a
+                  href={`${
                     blogType && ["swi", ""].includes(blogType)
                       ? menuLinks[1].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
+                      : null
+                  }`}
                 >
                   <div className={headerStyles.logo}>
                     <img src={logoSwi} alt="" />
                   </div>
-                </Link>
+                </a>
               </div>
               <div
                 className={`${
@@ -286,19 +282,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
+                <a
+                  href={`${
                     blogType && ["fuel", ""].includes(blogType)
                       ? menuLinks[2].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
+                      : false
+                  }`}
                 >
                   <div className={headerStyles.logo}>
                     <img src={logoFuel} alt="Fuel" />
                   </div>
-                </Link>
+                </a>
               </div>
               <div
                 className={`${
