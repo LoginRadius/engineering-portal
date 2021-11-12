@@ -243,7 +243,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                {["async"].includes(blogType) ? (
+                {["swi"].includes(blogType) ? (
                   <a href={menuLinks[1].slug}>
                     <div className={headerStyles.logo}>
                       <img src={logoSwi} alt="" />
@@ -282,7 +282,7 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                {["async"].includes(blogType) ? (
+                {["fuel"].includes(blogType) ? (
                   <a href={menuLinks[2].slug}>
                     <div className={headerStyles.logo}>
                       <img src={logoFuel} alt="" />
