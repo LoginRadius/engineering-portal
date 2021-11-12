@@ -45,7 +45,12 @@ export default class Search extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const query = this.state.query
-    navigate(`/search/?${query}`)
+    const uri =
+      process.env.NODE_ENV == "production"
+        ? `/blog/async/search/?${query}`
+        : `/search/?${query}`
+
+    typeof window !== "undefined" && window.open(uri, "_self")
   }
 
   componentDidMount() {
