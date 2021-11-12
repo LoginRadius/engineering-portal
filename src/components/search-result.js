@@ -9,7 +9,7 @@ export default class SearchResult extends Component {
 
     const query =
       typeof window !== "undefined" &&
-      window.location.search.replace("%20", " ").replace("?", "")
+      window.location.search.replace(/%20/g, " ").replace("?", "")
     const index = Index.load(this.props.index)
 
     this.state = {
