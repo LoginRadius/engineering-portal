@@ -1,110 +1,97 @@
-if ( typeof window !== 'undefined' && window ) {
-    var elementToClickOnID = "tocTrigger";
-    var elementToChangeId = "tocUl";
+if (typeof window !== "undefined" && window) {
+  var elementToClickOnID = "tocTrigger"
+  var elementToChangeId = "tocUl"
 
-    var slideOutName = "initialValue";
+  var slideOutName = "initialValue"
 
-    var gatsbyWrapperID = "gatsby-focus-wrapper";
+  var gatsbyWrapperID = "gatsby-focus-wrapper"
 
-    var media1620 = window.matchMedia("(max-width: 1620px)");
-    var media1620on = false;
+  var media1620 = window.matchMedia("(max-width: 1620px)")
+  var media1620on = false
 
-    var tocShown = true;
+  var tocShown = true
 
+  // window.onload = function()
+  // {
 
-    // window.onload = function()
-    // {
+  window.onscroll = function () {
+    doSomethingAtStart()
+  }
 
-    window.onscroll = function() {
-        doSomethingAtStart();
-    };
+  window.onresize = function () {
+    if (!checkForElement()) return
 
-    window.onresize = function ()
-    {
-        if ( !checkForElement() ) return;
+    checkMedia(media1620)
 
-        checkMedia( media1620 );
+    media1620on ? hideTOC() : showTOC()
+  }
 
-        media1620on
-            ? hideTOC()
-            : showTOC();
-    };
+  window.onclick = function (e) {
+    if (e.target.id === elementToClickOnID) return
+    if (e.target.className.includes("ToCLink")) return
 
-    window.onclick = function(e)
-    {
-        if ( e.target.id === elementToClickOnID ) return;
+    timeoutDoSomething()
+  }
 
-        timeoutDoSomething();
+  timeoutDoSomething()
+
+  function timeoutDoSomething() {
+    setTimeout(function () {
+      checkForElement() ? doSomethingAtStart() : timeoutDoSomething()
+    }, 2000)
+  }
+
+  function doSomethingAtStart() {
+    if (!checkForElement()) return
+
+    var elementToChangeClassList = document.getElementById(elementToChangeId)
+      .classList
+
+    for (var i = 0; i < elementToChangeClassList.length; i++) {
+      if (elementToChangeClassList[i].includes("slideOut")) {
+        slideOutName = elementToChangeClassList[i]
+      }
     }
 
+    if (media1620on) hideTOC()
+  }
 
-    timeoutDoSomething();
+  function hideTOC() {
+    document.getElementById(elementToChangeId).classList.remove(slideOutName)
+    tocShown = false
+  }
 
-    function timeoutDoSomething()
-    {
-        setTimeout(function()
-        {
-            checkForElement()
-                ? doSomethingAtStart()
-                : timeoutDoSomething();
+  function showTOC() {
+    document.getElementById(elementToChangeId).classList.add(slideOutName)
+    tocShown = true
+  }
 
-        }, 2000);
-    }
+  document.addEventListener(
+    "click",
+    function (event) {
+      if (!checkForElement()) return
 
+      // If the clicked element doesn't have the right selector, bail
+      if (!event.target.matches("#" + elementToClickOnID)) return
 
-    function doSomethingAtStart()
-    {
-        if ( !checkForElement() ) return;
+      // Don't follow the link
+      event.preventDefault()
 
-        var elementToChangeClassList = document.getElementById(elementToChangeId).classList;
+      tocShown ? hideTOC() : showTOC()
+    },
+    false
+  )
 
-        for (var i = 0; i < elementToChangeClassList.length; i++) {
-            if (elementToChangeClassList[i].includes("slideOut")) {
-                slideOutName = elementToChangeClassList[i];
-            }
-        }
+  function checkForElement() {
+    return document.getElementById(elementToChangeId) != null
+  }
 
-        if ( media1620on ) hideTOC();
-    }
+  // Call listener function at run time
+  checkMedia(media1620)
+  // }
 
-    function hideTOC() {
-        document.getElementById(elementToChangeId).classList.remove(slideOutName);
-        tocShown = false;
-    }
-
-    function showTOC() {
-        document.getElementById(elementToChangeId).classList.add(slideOutName);
-        tocShown = true;
-    }
-
-    document.addEventListener('click', function (event)
-    {
-        if ( !checkForElement() ) return;
-
-        // If the clicked element doesn't have the right selector, bail
-        if ( !event.target.matches("#" + elementToClickOnID) ) return;
-
-        // Don't follow the link
-        event.preventDefault();
-
-        tocShown
-            ? hideTOC()
-            : showTOC();
-
-    }, false);
-
-    function checkForElement() {
-        return ( document.getElementById(elementToChangeId ) != null );
-    }
-
-    // Call listener function at run time
-    checkMedia( media1620 );
-    // }
-
-
-    function checkMedia( media1620 )
-    {
-        // If media query matches
-        media1620on = media1620.matches;
-    }
+  function checkMedia(media1620) {
+    // If media query matches
+    media1620on = media1620.matches
+  }
 }
