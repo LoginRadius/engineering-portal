@@ -3,15 +3,16 @@ import style from "./toc.module.scss"
 import React from "react"
 import tw from "twin.macro"
 
-import scrollTo from 'gatsby-plugin-smoothscroll';
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 import ScriptTag from "react-script-tag"
 import js from "./toc__hyperlinkNavFloating"
 
 const ToC = ({ headings }) => (
-  <Toc id='tocUl' className={style.tableofcontents + ' ' + style.slideOut} >
-
-    <Title id='tocTrigger' className={style.tochead}><Text className={style.title}>TOC</Text></Title>
+  <Toc id="tocUl" className={style.tableofcontents + " " + style.slideOut}>
+    <Title id="tocTrigger" className={style.tochead}>
+      <Text className={style.title}>TOC</Text>
+    </Title>
     <List className={style.list}>
       {headings.map(heading => {
         if (heading.depth > 4) {
@@ -20,13 +21,17 @@ const ToC = ({ headings }) => (
 
         return (
           <ToCElement key={heading.value}>
-              <ToCLink
-              onClick={() => scrollTo(`#${heading.value
-                  .replace(/\s+/g, "-")
-                  .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, '')
-                  .toLowerCase()
-                }`)}
-              >
+            <ToCLink
+              className={"ToCLink"}
+              onClick={() =>
+                scrollTo(
+                  `#${heading.value
+                    .replace(/\s+/g, "-")
+                    .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, "")
+                    .toLowerCase()}`
+                )
+              }
+            >
               {heading.value}
             </ToCLink>
           </ToCElement>
@@ -34,7 +39,7 @@ const ToC = ({ headings }) => (
       })}
     </List>
 
-    <Toggle className={style.floatingToggle}/>
+    <Toggle className={style.floatingToggle} />
 
     {/*<ScriptTag type="text/javascript" src={js} />*/}
   </Toc>
