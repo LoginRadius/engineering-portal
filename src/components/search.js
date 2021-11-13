@@ -50,7 +50,7 @@ export default class Search extends Component {
         ? `/blog/async/search/?${query}`
         : `/search/?${query}`
 
-    typeof window !== "undefined" && window.open(uri, "_self")
+    query && typeof window !== "undefined" && window.open(uri, "_self")
   }
 
   componentDidMount() {
@@ -82,6 +82,7 @@ export default class Search extends Component {
           placeholder="Search..."
           onChange={this.search}
           onFocus={this.search}
+          onSubmit={this.search}
           required
         />
         <label
