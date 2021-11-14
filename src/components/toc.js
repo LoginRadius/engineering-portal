@@ -19,16 +19,19 @@ const ToC = ({ headings }) => (
           return <div />
         }
 
+        console.log(heading.value)
         return (
           <ToCElement key={heading.value}>
             <ToCLink
               className={"ToCLink"}
               onClick={() =>
                 scrollTo(
-                  `#${heading.value
-                    .replace(/\s+/g, "-")
-                    .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, "")
-                    .toLowerCase()}`
+                  `#${CSS.escape(
+                    heading.value
+                      .replace(/\s+/g, "-")
+                      .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, "")
+                      .toLowerCase()
+                  )}`
                 )
               }
             >
