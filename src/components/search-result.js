@@ -32,7 +32,7 @@ export default class SearchResult extends Component {
           {results.map(page => (
             <div key={page.id}>
               <h3>
-                <Link to={"/" + page.path}>{page.title}</Link>
+                <Link to={page.path}>{page.title}</Link>
               </h3>
               <p>{page.text}</p>
               {/*<p>{page.tags ? page.tags.join(`, `) : ""}</p>*/}
