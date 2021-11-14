@@ -46,7 +46,7 @@ export default class Search extends Component {
     event.preventDefault()
     const query = this.state.query
     const uri =
-      process.env.NODE_ENV == "production"
+      process.env.NODE_ENV === "PRODUCTION"
         ? `/blog/async/search/?${query}`
         : `/search/?${query}`
 
@@ -97,7 +97,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>
@@ -112,7 +112,6 @@ export default class Search extends Component {
   search = evt => {
     const query = evt.target.value
     this.index = this.getOrCreateIndex()
-    console.log("props index >> " + this.index)
     this.setState({
       query,
       // Query the index with search string to get an [] of IDs
