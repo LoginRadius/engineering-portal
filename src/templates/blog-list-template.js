@@ -1,15 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import CardList from "../components/cardList"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
+
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+
+import Hamburger from "../../static/iconHamburger.svg"
+
 import styles from "../components/tabs.module.scss"
 
 const BlogList = ({ data, pageContext, location }) => {
   const total = data.allMarkdownRemark.totalCount
   const { currentPage, numPages } = pageContext
+  const [openMenu, setOpenMenu] = useState(false)
+
   return (
     <Layout>
       <SEO
@@ -26,13 +32,47 @@ const BlogList = ({ data, pageContext, location }) => {
       />
       <main>
         <Tabs className={styles.blogTabs}>
-          <TabList>
-            <Tab>Engineering</Tab>
-            <Tab>Identity</Tab>
-            <Tab>Growth</Tab>
-            <Tab>Culture</Tab>
-            <Tab>Announcements</Tab>
-          </TabList>
+          <div className={styles.containerTabs}>
+            <TabList>
+              <Tab>Engineering</Tab>
+              <Tab>Identity</Tab>
+              <Tab>Growth</Tab>
+              <Tab>Culture</Tab>
+              <Tab>Announcements</Tab>
+            </TabList>
+          </div>
+          {openMenu && (
+            <div className={styles.containerTabsMobile}>
+              <TabList>
+                <Tab>Engineering</Tab>
+                <Tab>Identity</Tab>
+                <Tab>Growth</Tab>
+                <Tab>Culture</Tab>
+                <Tab>Announcements</Tab>
+              </TabList>
+            </div>
+          )}
+          {!openMenu ? (
+            <div>
+              <img
+                src={Hamburger}
+                alt={`logo`}
+                className={styles.Hamburger}
+                onClick={() => {
+                  setOpenMenu(!openMenu)
+                }}
+              />
+            </div>
+          ) : (
+            <div
+              className={styles.closeMenu}
+              onClick={() => {
+                setOpenMenu(!openMenu)
+              }}
+            >
+              x
+            </div>
+          )}
 
           <TabPanel>
             <CardList posts={data.allMarkdownRemark.edges} total={total} />

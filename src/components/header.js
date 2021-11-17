@@ -7,7 +7,7 @@ import logoAsync from "../../static/async.svg"
 import logoAsyncDark from "../../static/async-dark.svg"
 import logoSwi from "../../static/swi.svg"
 import logoFuel from "../../static/fuel.svg"
-import LogoLr from "../../static/logo.svg"
+import LogoLr from "../../static/logo-blog.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
 import { validEmail } from "./regex.js"
@@ -178,11 +178,11 @@ const Header = ({ menuLinks, searchIndex }) => {
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
-          <img
+          {/* <img
             src={logoAsyncDark}
             alt="Async"
             className={headerStyles.asycnLogo}
-          />
+          /> */}
         </Link>
 
         <Search searchIndex={searchIndex} />

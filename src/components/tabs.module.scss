@@ -1,22 +1,86 @@
 @import "../styles/variables.scss";
 
 .blog-tabs {
+  .Hamburger {
+    position: relative;
+    top: -45px;
+    left: 16px;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
 
+  .closeMenu {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 34px;
+    line-height: 0.7;
+    color: $blue-bright;
+    z-index: 10;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
 
+  .containerTabsMobile {
+    border-bottom: 1px solid $blue-bright;
 
+    @media (max-width: 767px) {
+      display: block;
+    }
+    ul {
+      display: block;
+      min-width: 300px;
+      padding: 0 !important;
+      margin: 0 !important;
+
+      .react-tabs__tab--selected {
+        background: $blue-bright;
+        color: $white;
+      }
+
+      li {
+        text-align: left;
+        border: none !important;
+        padding: 20px 16px;
+      }
+    }
+  }
+  .containerTabs {
+    max-width: 12;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(180deg, rgba(0, 142, 207, 1), $white) 30% 0%;
+    margin: 20px 0 0;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
   ul {
     display: flex;
-    justify-content: space-between;
     list-style: none;
-    overflow: hidden;
+    // overflow: hidden;
     margin: 0 auto;
     padding: 0 24px;
     max-width: 1248px;
     @media (max-width: 767px) {
       padding: 0 16px;
+      min-width: 767px;
     }
     li {
       text-align: center;
+      cursor: pointer;
+      color: #000000a8;
+      width: 100%;
+      margin: 0 0 -2px 0;
+      padding-bottom: 20px;
+      font-weight: 800;
     }
   }
 }
