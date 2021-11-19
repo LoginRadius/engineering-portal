@@ -4,7 +4,7 @@ date: "2021-11-08"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum", "Solidity"]
-description: "Smart contracts are an exciting way to build distributed applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
+description: "Smart contracts are an exciting way to build decentralised applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
 ---
 
 ## What is a Smart Contract?
@@ -121,7 +121,7 @@ mapping(uint => RoomAgreement) public RoomAgreement_by_No;
    mapping(uint => Rent) public Rent_by_No;
 ```
 
-10. Create some [**modifiers**](https://ethereum.stackexchange.com/questions/29867/using-require-or-modifier/29868) that will help you verify a few things before running a function.
+10. Create some [**modifiers**](https://ethereum.stackexchange.com/questions/48971/what-are-function-modifiers) that will help you verify a few things before running a function.
 
     Here `require(...);` means that if the given condition is not satisfied, then the function won't execute, and the given string will appear as an error code.
 
@@ -197,7 +197,7 @@ The following will check whether 365 days have passed after the last agreement h
     modifier AgreementTimesUp(uint _index) {
         uint _AgreementNo = Room_by_No[_index].agreementid;
         uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
-        require(now > time, "Times left for contract to end");
+        require(now > time, "Time is left for contract to end");
         _;
     }
 ```
@@ -207,7 +207,7 @@ The following will check whether 30 days have passed after the last rent payment
 ```ruby 
     modifier RentTimesUp(uint _index) {
         uint time = Room_by_No[_index].timestamp + 30 days;
-        require(now == time, "Time left to pay Rent");
+        require(now >= time, "Time left to pay Rent");
         _;
     }
 ```
@@ -232,7 +232,7 @@ Before creating `signAgreement` function, remember the following:
 * The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet.(Enough ether means = one-time security deposit + 1st month's rent)
 
 Let's use those modifiers here, so that:
-* The function will only execute only if the said room is vacant.
+* The function `signAgreement` will only execute only if the said room is vacant and tenant have enough ether in his/her wallet.
 
 Remember those modifiers in point no.10? Use those modifiers here to execute the following function.
 
@@ -296,7 +296,7 @@ Before creating `agreementTerminated` function, remember the following:
 * The function will only execute if the tenant had signed that agreement less than a year ago.
 
 ```ruby
-    function agreementTerminated(uint _index, uint _terminateno) public onlyLandlord(_index) AgreementTimesLeft(_index){
+    function agreementTerminated(uint _index) public onlyLandlord(_index) AgreementTimesLeft(_index){
         require(msg.sender != address(0));
         Room_by_No[_index].vacant = true;
     }
