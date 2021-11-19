@@ -1,13 +1,13 @@
 ---
-title: "React — Best Coding Practices to Follow"
-date: "2021-10-27"
+title: "32 React Best Practices That Every Programmer Should Follow"
+date: "2021-10-26"
 coverImage: "Best-Practices.png"
 author: "Anjali Rohira"
 tags: ["React"]
-description: "Following best coding practices helps you collaborate seamlessly and ensure code maintainability. Read more to learn the most important React coding practices."
+description: "Important React best practices every React developer should follow before, during, & after writing the code. To ensure code maintainability, keep these React coding best practices handy."
 ---
 
-## Why Follow Best Coding Practices?
+## Why Follow React Coding Best Practices?
 
 Writing code to create apps isn't just enough; the code should be as clean and maintainable as your app. Before jumping into the good practices to follow, it's essential to realize the reasons behind the same. It becomes crucial for you to understand coding conventions because of the following reasons:
 
@@ -71,8 +71,7 @@ import LoginForm from './loginForm';
 
 ### Code
 
-1. *Play the game of [HOOKS](https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/) by following all its rules*. You can read more about the rules [here](https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/).
-Either manually follow these rules or use an ESLint plugin called `eslint-plugin-react-hooks` which enforces these rules. So, add these rules while working on any project
+1. *Play the game of [HOOKS](https://www.loginradius.com/blog/async/react-hooks-guide/) by following all its rules*. You can read more about the rules [here](https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/). Either manually follow these rules or use an ESLint plugin called `eslint-plugin-react-hooks` which enforces these rules. So, add these rules while working on any project
 2. Remove `console. logs` — unless you have strong motivation why you would like it.
 3. Avoid multiple `if-else blocks`. Instead, use `ternary` — best for clean code practice
 4. Remove all `commented-out codes`. The biggest motivation for writing comments is the bad code that you write. It would be good to spend more time writing descriptive functions, methods, and filenames that are self-explanatory.
@@ -116,4 +115,4 @@ I hope you gained valuable insights. If you have more suggestions or practices t
 
 Until next time, keep learning, build awesome stuff, and uplift the community.
 
-By the way, if you want to add user registration and authentication to your React apps, you can [use LoginRadius](https://www.loginradius.com/blog/async/user-authentication-react-application/). It helps you become more efficient and focus more on the core business features of your React apps.
+By the way, if you want to [add user registration and authentication to your React apps](https://www.loginradius.com/blog/async/user-authentication-react-application/), you can use LoginRadius. It helps you become more efficient and focus more on the core business features of your React apps.
