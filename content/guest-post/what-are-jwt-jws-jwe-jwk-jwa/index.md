@@ -1,6 +1,6 @@
 ---
 title: "What are JWT, JWS, JWE, JWK, and JWA?"
-date: "2021-11-12"
+date: "2021-11-24"
 coverImage: "coverImage.png"
 author: "Yashesvinee V"
 tags: ["JSON", "Encryption"]
@@ -9,7 +9,7 @@ description: "Learn about the JOSE framework and its specifications, including J
 
 JSON (JavaScript Object Notation) is a text-based, language-independent format that is easily understandable by humans and machines. 
 
-JOSE (Javascript Object Signing and Encryption) is a framework that is used to facilitate secure transfer of claims between any two parties. Its specifications provide a general approach to encryption of any content, not necessarily in JSON. However, it is built on JSON for easy use in web applications. Let's explore some of these specifications.
+JOSE (Javascript Object Signing and Encryption) is a framework used to facilitate the secure transfer of claims between any two parties. Its specifications provide a general approach to encryption of any content, not necessarily in JSON. However, it is built on JSON for easy use in web applications. Let's explore some of these specifications.
 
 ## JWT — JSON Web Token
 [JWT](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/) is a standard mechanism used for authentication. It is compact and URL-safe to represent the claims to be transferred between two parties. Claims are a set of key/value pairs that provide a target system with information about a client to apply an appropriate level of access control to its resources. Claim names could be Registered (IANA), Public, or Private. Some registered claim names are:
@@ -87,7 +87,7 @@ eyJ0eXAiOiJKV1QiLA0KICJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTk
 Learn more about JWS [here](https://openid.net/specs/draft-jones-json-web-signature-04.html)
 
 ## JWE — JSON Web Encryption
-JSON Web Encryption enables encrypting a token so that only the intended recipient can read it. It standardizes the way to represent the encoded data in a JSON data structure. Representation of the encrypted payload may by JWE compact serialization or JWE JSON serialization.
+JSON Web Encryption enables encrypting a token so that only the intended recipient can read it. It standardizes the way to represent the encoded data in a JSON data structure. Representation of the encrypted payload may be by JWE compact serialization or JWE JSON serialization.
 
 ### Structure
 The JWE compact serialization form has five main components: 
@@ -98,15 +98,19 @@ The JWE compact serialization form has five main components:
 4. JWE Ciphertext
 5. JWE Authentication Tag
 
-All these components are base64url-encoded and are concatenated using dots ' . ' .
+All these components are base64url-encoded and are concatenated using dots (` . `).
 
-- The JOSE Header being the first element of the token, is the same as the headers of the previously mentioned JWT and JWS. 
+- The JOSE Header, the first element of the token, is the same as the headers of the previously mentioned JWT and JWS. 
   
-  JWE has additional elements to the Header — `enc` and `zip`. `enc` defines the *content encryption algorithm* while the `alg` element defines the encryption algorithm for the *Content Encryption Key (CEK)*. `zip` provides a compression algorithm if token compression is needed.
+  JWE has additional elements to the Header — `enc` and `zip`.
+  
+  `enc` defines the *content encryption algorithm* while the `alg` element defines the encryption algorithm for the *Content Encryption Key (CEK)*.
+  
+  `zip` provides a compression algorithm if token compression is needed.
 - During the encryption process, the issuer generates a random key, which is 256-bits in size, that is used to encrypt the message. This is placed in the JWE Encrypted key section.
 - Some encryption algorithms require an initialization vector, which is a randomly generated number that is used along with a secret key to encrypt data. This prevents repeated encryption of the same data using the same secret key. The recipient requires this initialization vector to decrypt the message, and hence, is placed in the JWE token.
 - The fourth section of the token is the JWE ciphertext that is computed by encrypting the plaintext JSON payload. It uses the algorithm mentioned in the header's `enc` element.
-- The JWE Authentication tag is the last part of the JWE Token that is generated along with the ciphertext. It ensures the integrity of the ciphertext.
+- The JWE Authentication Tag is the last part of the JWE Token generated along with the ciphertext. It ensures the integrity of the ciphertext.
 
 ```
  "header":
@@ -131,12 +135,12 @@ Learn more about JWE [here](https://tools.ietf.org/id/draft-jones-json-web-encry
 
 ## JWK — JSON Web Key
 
-JWK is a JSON structure that represents a set of public keys as a JSON object using the Elliptic Curve or RSA algorithms. Public key representations can help verify the signature with the corresponding private key.
+JWK is a JSON structure representing a set of public keys as a JSON object using the Elliptic Curve or RSA algorithms. Public key representations can help verify the signature with the corresponding private key.
 
 ### Structure
 JWK consists of a JWK Container Object and an array of JWK Key Objects.
-- The JWK Container Object is a JSON Object that contains a specific member that is an array. This member is a required element in the Container Object.
-- The JWK Key Objects are stored within the array of the JWK Container object. They have a set of members that is common to all key types. As mentioned before, JWK Key objects can use Elliptic Curve or RSA algorithms. In order to do so, the `alg` field must hold `EC` or `RSA`, respectively. Here is an example of a JWK using RSA:
+- The JWK Container Object is a JSON object that contains a specific member that is an array. This member is a required element in the Container Object.
+- The JWK Key Objects are stored within the array of the JWK Container object. They have a set of members that is common to all key types. As mentioned before, JWK Key objects can use Elliptic Curve or RSA algorithms. To do so, the `alg` field must hold `EC` or `RSA`, respectively. Here is an example of a JWK using RSA:
 
 ```
 {
@@ -160,7 +164,7 @@ The JWA specification focuses mainly on enumerating the algorithms necessary for
 
 <figure>
   <img src="JWS_algo.png" alt="JWS algorithms" align="center">
-  <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
+  <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a></figcaption>
 </figure>
 
 **Algorithms for JWE** These algorithms encrypt the Content Encryption Key (CEK) and produce the JWE Encrypted Key
@@ -181,7 +185,7 @@ The JWA specification focuses mainly on enumerating the algorithms necessary for
 Learn more about JWA [here](https://datatracker.ietf.org/doc/html/draft-ietf-jose-json-web-algorithms-40).
 
 ## Conclusion
-The IETF JSON Object Signing and Encryption (JOSE) working group was chartered to develop a secure object format based on JSON and to simplify the addition of object-based security features to Internet applications. 
+The IETF JSON Object Signing and Encryption (JOSE) working group was chartered to develop a secure object format based on JSON and simplify adding object-based security features to internet applications. 
 
 The basic requirements for these object formats are confidentiality and integrity mechanisms encoded in JSON. JWT, JWS, JWE, JWK, and JWA are the JOSE working group items intended to describe these object formats.
 
