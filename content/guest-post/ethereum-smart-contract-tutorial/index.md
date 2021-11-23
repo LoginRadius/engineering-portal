@@ -1,17 +1,17 @@
 ---
 title: "Build Your First Smart Contract with Ethereum & Solidity"
-date: "2021-11-08"
+date: "2021-11-23"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum", "Solidity"]
-description: "Smart contracts are an exciting way to build decentralised applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
+description: "Smart contracts are an exciting way to build decentralized applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
 ---
 
 ## What is a Smart Contract?
 
-[**Smart Contracts**](https://en.wikipedia.org/wiki/Smart_contract) 📝 are simple programs that are stored on a blockchain network.
+[**Smart Contracts**](https://en.wikipedia.org/wiki/Smart_contract) 📝 are simple programs stored on a blockchain network.
 
-You can say it's like an agreement between two people in the form of computer code. The transactions that happen in a smart contract are processed by the blockchain and stored as **42 character hex address** with prefix `"0x"`). All of which means that they can be sent automatically without needing a third party.
+You can say it's like an agreement between two people in the form of computer code. The transactions in a smart contract are processed by the blockchain and stored as a **42 character hex address** with the prefix `"0x"`). All of which means that they can be sent automatically without needing a third party.
 
 **🤔 Remember:** They're stored in a public database. And once a smart contract is deployed, it cannot be changed.
 
@@ -80,7 +80,7 @@ contract Hostel{
 mapping(uint => Room) public Room_by_No;
 ```
 
-8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with a `uint`(named : `agreementid`). This will store details like: `Hostel no.`,`Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `One-time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
+8. Similar to the above, create a `structure` for each `Rental Agreement` and map that with a `uint`(named: `agreementid`). This will store details like: `Hostel no.`, `Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `One-time security deposit`,`Lockin Period`, `Agreement sign time`, `Landlord address`, and `Tenant Address`.
 
 ```ruby
     struct RoomAgreement{
@@ -101,7 +101,7 @@ mapping(uint => Room) public Room_by_No;
 mapping(uint => RoomAgreement) public RoomAgreement_by_No;
 ```
 
-9. Now, create a `structure` for each `Rent` payment and map that with an `uint`. This will store details like: `Rent No.`, `Hostel no.`, `Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `Rent payment time`, `Landlord address`, and `Tenant Address`.
+9. Now, create a `structure` for each `Rent` payment and map that with a `uint`. This will store details like: `Rent No.`, `Hostel no.`, `Agreement No`, `Hostel name`, `Hostel address`, `Monthly rent`, `Rent payment time`, `Landlord address`, and `Tenant Address`.
 
 ```ruby
     struct Rent{
@@ -123,7 +123,7 @@ mapping(uint => RoomAgreement) public RoomAgreement_by_No;
 
 10. Create some [**modifiers**](https://ethereum.stackexchange.com/questions/48971/what-are-function-modifiers) that will help you verify a few things before running a function.
 
-    Here `require(...);` means that if the given condition is not satisfied, then the function won't execute, and the given string will appear as an error code.
+    Here `require(...);` means that if the given condition is not satisfied, the function won't execute, and the given string will appear as an error code.
 
 The following will check if the message sender is the landlord.
 
@@ -162,7 +162,7 @@ The following will check whether the tenant has enough `Ether` in his wallet to 
     }
 ```
 
-The following will check whether the tenant has enough `Ether` in his wallet to pay one-time security deposit and one month's rent in advance.
+The following will check whether the tenant has enough `Ether` in his wallet to pay a one-time security deposit and one month's rent in advance.
 
 ```ruby 
     modifier enoughAgreementfee(uint _index) {
@@ -225,14 +225,14 @@ The following function will be used to add Rooms.
         
     }
 ```
-Now, create a function to sign rental agreement for a hostel room between the landlord and a tenant.
+Now, create a function to sign the rental agreement for a hostel room between the landlord and a tenant.
 
-Before creating `signAgreement` function, remember the following:
+Before creating the `signAgreement` function, remember the following:
 * The function will only execute if the user is `Tenant`, meaning that the user's address and the landlord's address don't match.
-* The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet.(Enough ether means = one-time security deposit + 1st month's rent)
+* The function will only execute if the user has enough ether (payable 'ether') in their Ethereum wallet.(Enough ether means = one-time security deposit + 1st month's rent)
 
 Let's use those modifiers here, so that:
-* The function `signAgreement` will only execute only if the said room is vacant and tenant have enough ether in his/her wallet.
+* The function `signAgreement` will only execute only if the said room is vacant and the tenant has enough ether in their wallet.
 
 Remember those modifiers in point no.10? Use those modifiers here to execute the following function.
 
@@ -253,10 +253,10 @@ Remember those modifiers in point no.10? Use those modifiers here to execute the
     }
 ```
 
-Now, create a function that the tenant will use to pay monthly rent to the landlord.
+Now, create a function that the tenant will use to pay the monthly rent to the landlord.
 
-Before creating `payRent` function, remember the following:
-* The function will only execute if the user's address and previous tenant's address both are same, meaning that the user can only pay rent if he/she has signed an agreement with the landlord within the last 365 days.
+Before creating the `payRent` function, remember the following:
+* The function will only execute if the user's address and previous tenant's address both are the same, meaning that the user can only pay rent if he/she has signed an agreement with the landlord within the last 365 days.
 * The function will only execute if the tenant had paid his/her previous rent more than a month ago.
 * The function will only execute if the user has enough ether (payable 'ether') in his/her Ethereum wallet. (enough ether = enough room rent).
 
@@ -292,7 +292,7 @@ Before creating `agreementCompleted` function, remember the following:
 Let's create a function that the landlord will use to terminate an agreement.
 
 Before creating `agreementTerminated` function, remember the following:
-* The function will only execute if the user's address and the landlord's address are same.
+* The function will only execute if the user's address and the landlord's address are the same.
 * The function will only execute if the tenant had signed that agreement less than a year ago.
 
 ```ruby
@@ -304,7 +304,7 @@ Before creating `agreementTerminated` function, remember the following:
 
 ### Compile
 
-Now, click on the `Solidity Compile` option in the left side bar.
+Now, click on the `Solidity Compile` option in the left sidebar.
 
 1. Select compiler version `0.5.16+`
 2. Then click on `Compile Hostel.sol`
@@ -326,7 +326,7 @@ Click on the `Deploy & Run Transactions` option in the left sidebar.
 
 ### Sample Transactions
 
-Remember that whenever a transaction is getting executed, it stores all the details in an unique `hash` key.
+Remember that whenever a transaction is getting executed, it stores all the details in a unique `hash` key.
 
 Now, under `Deployed Contract` click on `> HOSTEL AT ..... (MEMORY)`
 
@@ -350,7 +350,7 @@ Similar to as follows:
 
 <img height="300px" alt="Change Address" src="img4.png">
 
-5. Add the total amount you previously chosen as (rent cost + security deposit)
+5. Add the total amount you have previously chosen as (rent cost + security deposit)
 6. And then from the dropdown `wei`, choose `ether`
 
 <img height="300px" alt="Change Value" src="img5.png">
@@ -381,9 +381,9 @@ Let me explain some advantages of smart contracts over centralized systems:
 ### Storage & Others
 You may also ask "how are all the transactions recorded?"
 
-You have to remember that smart contracts store data in a block of blockchain, and all transactions are stored with a unique `hash` key.
+You have to remember that smart contracts store data in a block of the blockchain, and all transactions are stored with a unique `hash` key.
 
-In Remix IDE, you can download the complete transactions history as a `json` file. For that, follow these steps:
+In Remix IDE, you can download the complete transactions history as a JSON file. For that, follow these steps:
 1. Click `Deploy & Run Transaction`
 2. Then, expand the `Transactions Recorded (..) V` dropdown menu.
 3. Then Click on the `Save` icon.
@@ -397,7 +397,7 @@ It's called _gas fee_, which is the payment made by users to compensate for the 
 As more Ethereum miners come up in near future, the `gas fee` will decrease in an inverse relation.
 
 ### Future Possibilities
-After this, if you want to build a fullstack website using React, you can use this smart contract as backend.
+After this, if you want to build a fullstack website using React, you can use this smart contract as a backend.
 
 For that you need to install/download: 
 
@@ -415,8 +415,8 @@ For that you need to install/download:
 Just follow the [official documentation](https://web3js.readthedocs.io/en/v1.5.2/) of Web3.js to connect your smart contract with your React app.
 
 ## Conclusion
-You've successfully understood what Solidity is and how smart contracts work. And you've successfully built and deployed a perfectly working smart contract (where tenant can pay rent in ether (ETH) directly to the landlord's wallet without paying a single wei to a middle man).
+You've successfully understood what Solidity is and how smart contracts work. And you've successfully built and deployed a perfectly working smart contract (where a tenant can pay rent in ether (ETH) directly to the landlord's wallet without paying a single wei to a middle man).
 
-<!-- To download the complete code click [here](). -->
+To download the complete code used in this tutorial, click [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Solidity/decentralised-pg-booking-system-using-ethereum-smart-contract).
 
 Want to quickly add user login and signup functionality to your React apps? [Use LoginRadius for free.](https://www.loginradius.com/authentication/)
