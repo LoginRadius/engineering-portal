@@ -3,7 +3,7 @@
   .blog-content-pinned {
     display: flex;
     margin: -15px auto;
-    @media (max-width: 768px) {
+    @media (max-width: $layoutShift1Max) {
       margin: 0 auto;
       flex-direction: column;
     }
@@ -16,11 +16,11 @@
       -webkit-filter: brightness(0.95);
       &:nth-child(2) {
         padding-left: 24px;
-        @media (max-width: 768px) {
+        @media (max-width: $layoutShift1Max) {
           padding-left: 0;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: $layoutShift1Max) {
         width: 100%;
       }
     }
@@ -31,7 +31,7 @@
 
       a {
         & > div {
-          @media (min-width: 769px) {
+         @media (min-width: $layoutShift1Min) {
             height: 402px;
           }
           @media (max-width: 480px) {
@@ -45,14 +45,14 @@
   &.post-detail {
     .blog-content-pinned {
       flex-direction: row-reverse;
-      @media (max-width: 768px) {
+      @media (max-width: $layoutShift1Max) {
         flex-direction: column;
       }
       & > div {
         &:nth-child(2) {
           padding-right: 30px;
           padding-left: 0;
-          @media (max-width: 768px) {
+          @media (max-width: $layoutShift1Max) {
             padding: 0;
           }
         }
@@ -62,39 +62,41 @@
 }
 
 .tag {
-  &.pinned {
+  //&.pinned {
     a {
-      background-color: $gray-light;
-      padding: 0 16px;
-      border-radius: 4px;
-      color: $black;
-      line-height: 30px;
-      font-size: 16px;
+      background-color: transparent;
+      padding: 5px 16px;
+      border-radius: 20px;
+      border: 2px solid $blue-bright;
+      color: $blue-bright;
+      line-height: .8rem;
+      font-size: .8rem;
+      font-weight: 500;
       height: 30px;
       display: inline-flex;
-      margin-bottom: 20px;
-      margin-right: 10px;
+      margin-bottom: .5rem;
+      margin-right: .5rem;
       &:hover {
         background-color: $blue-bright;
         color: $white;
       }
     }
-  }
-  a {
-    background-color: $gray-light;
-    padding: 0 16px;
-    border-radius: 4px;
-    color: $black;
-    line-height: 30px;
-    font-size: 16px;
-    height: 30px;
-    display: inline-flex;
-    margin-bottom: 20px;
-    &:hover {
-      background-color: $blue-bright;
-      color: $white;
-    }
-  }
+  //}
+  //a {
+  //  background-color: $gray-light;
+  //  padding: 0 16px;
+  //  border-radius: 4px;
+  //  color: $black;
+  //  line-height: 30px;
+  //  font-size: 16px;
+  //  height: 30px;
+  //  display: inline-flex;
+  //  margin-bottom: 20px;
+  //  &:hover {
+  //    background-color: $blue-bright;
+  //    color: $white;
+  //  }
+  //}
 }
 
 .cardlist {
@@ -105,7 +107,7 @@
       a {
         display: block;
         & > div {
-          @media (min-width: 768px) {
+          @media (min-width: $layoutShift1Min) {
             height: 257px;
           }
           @media (max-width: 480px) {
@@ -121,30 +123,14 @@
   flex-direction: column;
   // min-height: 195px;
   .tag {
-    margin: 12px 0;
+    margin: 12px 0 0;
     display: flex;
     flex-wrap: wrap;
     a {
-      color: $gray-dark;
-      font-size: 16px;
       position: relative;
-      margin: 0;
-      background: transparent;
-      padding: 0;
-      border-radius: 0;
+      margin-bottom: 12px;
       &:not(:last-child) {
         margin-right: 10px;
-        padding-right: 10px;
-        &:after {
-          right: 0px;
-          top: 0;
-          position: absolute;
-          content: "|";
-        }
-      }
-
-      &:hover {
-        color: $blue-bright;
       }
     }
   }

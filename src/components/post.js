@@ -143,23 +143,34 @@ const Post = ({ post, relatedPost }) => {
               {relatedPost.length ? (
                 <>
                   <div class={styles.relatedPost}>
-                    <h3>Related Posts</h3>
-                    {relatedPost.map(({ node }, i) => (
-                      <div class={styles.relatedPostRow}>
-                        <div class={styles.description}>
-                          <h4>
+                    <div className={styles.relatedPostRow}>
+                      <h3>Related Posts</h3>
+                      <ul className={styles.description}>
+                        {relatedPost.map(({ node }, i) => (
+                          <li key={i}>
                             <Link to={node.fields.slug} rel="prev">
                               {node.frontmatter.title}
                             </Link>
-                          </h4>
-                        </div>
-                        <div class={styles.tag}>
-                          {node.frontmatter.tags.map(tag => (
-                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    {/*{relatedPost.map(({ node }, i) => (*/}
+                    {/*  <div class={styles.relatedPostRow}>*/}
+                    {/*    <div class={styles.description}>*/}
+                    {/*      <h4>*/}
+                    {/*        <Link to={node.fields.slug} rel="prev">*/}
+                    {/*          {node.frontmatter.title}*/}
+                    {/*        </Link>*/}
+                    {/*      </h4>*/}
+                    {/*    </div>*/}
+                    {/*    <div class={styles.tag}>*/}
+                    {/*      {node.frontmatter.tags.map(tag => (*/}
+                    {/*        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>*/}
+                    {/*      ))}*/}
+                    {/*    </div>*/}
+                    {/*  </div>*/}
+                    {/*))}*/}
                   </div>
                   <hr />
                 </>

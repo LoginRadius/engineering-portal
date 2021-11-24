@@ -1,7 +1,7 @@
 .mainContainer {
   margin: 0 auto;
   padding: 60px;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     margin: 0 auto 1.45rem auto;
     padding: 20px;
   }
@@ -14,7 +14,7 @@
   position: relative;
   width: 100%;
   height: 500px;
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     height: 200px;
     margin: 0 auto 1.45rem auto;
   }

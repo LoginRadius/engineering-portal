@@ -11,7 +11,7 @@
   }
   .post-content {
     padding-right: $space-50;
-    @media (max-width: 768px) {
+    @media (max-width: $layoutShift1Max) {
       padding-right: 0;
     }
     .post-description {
@@ -51,15 +51,16 @@
     }
     .tag {
       a {
-        background-color: $gray-light;
-        padding: 0 16px;
-        border-radius: 4px;
-        color: $black;
-        line-height: 30px;
-        font-size: 16px;
+        background-color: transparent;
+        padding: 5px 16px;
+        border-radius: 20px;
+        border: 2px solid $blue-bright;
+        color: $blue-bright;
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+        font-weight: 500;
         height: 30px;
         display: inline-flex;
-        margin-bottom: 20px;
         margin-right: 10px;
         margin-bottom: 15px;
         &:hover {
@@ -92,13 +93,13 @@
 // Authore CSS
 
 .author {
-  @media (max-width: 768px) {
+  @media (max-width: $layoutShift1Max) {
     flex-direction: column;
   }
   .author-image {
     width: 100px;
     margin-right: 30px;
-    @media (max-width: 768px) {
+    @media (max-width: $layoutShift1Max) {
       margin-right: 0;
       margin-bottom: 30px;
     }
@@ -111,7 +112,7 @@
       margin-right: 24px;
       width: calc(70% - 12px);
       padding-right: 50px;
-      @media (max-width: 768px) {
+      @media (max-width: $layoutShift1Max) {
         width: 100%;
         margin-right: 0px;
         padding-right: 0;

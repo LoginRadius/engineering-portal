@@ -70,7 +70,7 @@
             left: 0;
             position: absolute;
           }
-          @media (max-width: 768px) {
+          @media (max-width: $layoutShift1Max) {
             width: 100%;
           }
         }
