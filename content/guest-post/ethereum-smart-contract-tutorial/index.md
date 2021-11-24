@@ -1,6 +1,6 @@
 ---
 title: "Build Your First Smart Contract with Ethereum & Solidity"
-date: "2021-11-23"
+date: "2021-11-24"
 coverImage: "coverimage.png"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum", "Solidity"]
