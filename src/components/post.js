@@ -20,6 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
 import ToC from "./toc"
+import CallToAction from "./sidebarCta"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -143,7 +144,7 @@ const Post = ({ post, relatedPost }) => {
               {relatedPost.length ? (
                 <>
                   <div class={styles.relatedPost}>
-                    <h3>Related Posts</h3>
+                    <h3>Featured Posts</h3>
                     {relatedPost.map(({ node }, i) => (
                       <div class={styles.relatedPostRow}>
                         <div class={styles.description}>
@@ -161,69 +162,49 @@ const Post = ({ post, relatedPost }) => {
                       </div>
                     ))}
                   </div>
-                  <hr />
                 </>
               ) : null}
-              <div>
-                <h3>Follow LoginRadius </h3>
-                <div className={styles.followBtn}>
-                  <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Feedly",
-                        label: "Feedly",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <img
-                      id="feedlyFollow"
-                      src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
-                      alt="follow us in feedly"
-                      width="28"
-                      height="28"
-                    />
-                    <p> via feedly </p>
-                  </a>
-                  <a
-                    href="https://twitter.com/LoginRadius"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Twitter",
-                        label: "Twitter",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
-                    <p> on twitter </p>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div>
-                <h3>LoginRadius Docs</h3>
-                <p>Implement Authentication in Minutes</p>
-                <a
-                  className={"btn-primary ga_event"}
-                  href={"https://www.loginradius.com/docs/developer"}
-                  key={"docs-link"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() =>
-                    eventLogger({
-                      category: "LoginRadius Docs",
-                      action: "User clicked on Loginradius Docs button",
-                      label: "Docs",
-                    })
-                  }
-                >
-                  {"click here"}
-                </a>
-              </div>
+              {/*<div>*/}
+              {/*  <h3>Follow LoginRadius </h3>*/}
+              {/*  <div className={styles.followBtn}>*/}
+              {/*    <a*/}
+              {/*      href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"*/}
+              {/*      onClick={() =>*/}
+              {/*        eventLogger({*/}
+              {/*          category: "Social Clicks",*/}
+              {/*          action: "Clicked on Feedly",*/}
+              {/*          label: "Feedly",*/}
+              {/*        })*/}
+              {/*      }*/}
+              {/*      target="blank"*/}
+              {/*    >*/}
+              {/*      <img*/}
+              {/*        id="feedlyFollow"*/}
+              {/*        src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"*/}
+              {/*        alt="follow us in feedly"*/}
+              {/*        width="28"*/}
+              {/*        height="28"*/}
+              {/*      />*/}
+              {/*      <p> via feedly </p>*/}
+              {/*    </a>*/}
+              {/*    <a*/}
+              {/*      href="https://twitter.com/LoginRadius"*/}
+              {/*      onClick={() =>*/}
+              {/*        eventLogger({*/}
+              {/*          category: "Social Clicks",*/}
+              {/*          action: "Clicked on Twitter",*/}
+              {/*          label: "Twitter",*/}
+              {/*        })*/}
+              {/*      }*/}
+              {/*      target="blank"*/}
+              {/*    >*/}
+              {/*      <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />*/}
+              {/*      <p> on twitter </p>*/}
+              {/*    </a>*/}
+              {/*  </div>*/}
+              {/*</div>*/}
+
+              <CallToAction />
               <hr />
               <TagMenu />
             </div>
