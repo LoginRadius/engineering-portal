@@ -20,8 +20,10 @@ const Bio = ({ date, author, pinned, readingTime, lastUpdated }) => {
           <strong>{author.id}</strong>
         </Link>
         <div className={styles.dateWrap}>
-          <div className={styles.date}>{lastUpdatedDate}</div>
+          <div className={styles.date}>{date}</div>
           <div className={styles.time}>{readingTime}</div>
+          <br/>
+          {/* <div className={styles.lastUpdated}> Last Updated at: {lastUpdatedDate}</div> */}
         </div>
       </div>
       

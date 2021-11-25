@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
-
+import Moment from 'moment'
 import SEO from "./seo"
 import Bio from "./bio"
 
@@ -100,10 +100,11 @@ const Post = ({ post, relatedPost}) => {
                 readingTime={getTimeToRead(post.html)}
                 date={post.frontmatter.date}
                 author={author}
-                lastUpdated={gitAuthorTime}
                 pinned
               />
             )}
+           <div className="text ml-sm">
+             <p className={styles.lastUpdated}> Last Updated at: {Moment({gitAuthorTime}).format("MMMM, DD YYYY")}</p></div> 
           </div>
         </div>
       </section>
