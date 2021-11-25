@@ -2,6 +2,7 @@ const path = require(`path`)
 const fs = require("fs")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { execSync } = require("child_process")
 
 require("dotenv").config({ path: `${__dirname}/.env` })
 
@@ -155,6 +156,9 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
+    const gitAuthorTime = execSync(
+      `git log -1 --pretty=format:%cI ${node.fileAbsolutePath}`
+    ).toString()
     const value = createFilePath({ node, getNode })
 
     createNodeField({
@@ -162,12 +166,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    createNodeField({
+      node,
+      name: `gitAuthorTime`,
+      value: gitAuthorTime,
+    })
 
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "author")) {
       createNodeField({
         node,
         name: "authorId",
-        value: node.frontmatter.author,
+        value:  node.frontmatter.author,
       })
     }
   }
