@@ -37,5 +37,19 @@
         left: -8px;
       }
     }
+    .lastUpdated {
+      margin-left: 16px;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background-color: $gray-dark;
+        border-radius: 3px;
+        top: 10px;
+        left: -8px;
+      }
+    }
   }
 }

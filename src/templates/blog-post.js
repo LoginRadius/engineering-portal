@@ -33,6 +33,7 @@ export const pageQuery = graphql`
       }
       fields {
         slug
+        gitAuthorTime
       }
       frontmatter {
         description

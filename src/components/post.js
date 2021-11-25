@@ -35,8 +35,8 @@ const signUplogger = function () {
     label: "Signup",
   })
 }
-const Post = ({ post, relatedPost }) => {
-  const headings = post.headings
+const Post = ({ post, relatedPost}) => {
+  const {gitAuthorTime} = post.fields
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
@@ -100,6 +100,7 @@ const Post = ({ post, relatedPost }) => {
                 readingTime={getTimeToRead(post.html)}
                 date={post.frontmatter.date}
                 author={author}
+                lastUpdated={gitAuthorTime}
                 pinned
               />
             )}
@@ -145,8 +146,8 @@ const Post = ({ post, relatedPost }) => {
                   <div class={styles.relatedPost}>
                     <h3>Related Posts</h3>
                     {relatedPost.map(({ node }, i) => (
-                      <div class={styles.relatedPostRow}>
-                        <div class={styles.description}>
+                      <div className={styles.relatedPostRow}>
+                        <div className={styles.description}>
                           <h4>
                             <Link to={node.fields.slug} rel="prev">
                               {node.frontmatter.title}
