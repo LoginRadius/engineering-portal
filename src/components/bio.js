@@ -2,11 +2,8 @@ import { Link } from "gatsby"
 import _ from "lodash"
 import React from "react"
 import styles from "./bio.module.scss"
-import Moment from 'moment'
 
-const Bio = ({ date, author, pinned, readingTime, lastUpdated }) => {
-  Moment.locale('en');
-  const lastUpdatedDate = Moment(lastUpdated).format("MMMM, DD YYYY")
+const Bio = ({ date, author, pinned, readingTime }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=50`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
@@ -22,11 +19,8 @@ const Bio = ({ date, author, pinned, readingTime, lastUpdated }) => {
         <div className={styles.dateWrap}>
           <div className={styles.date}>{date}</div>
           <div className={styles.time}>{readingTime}</div>
-          <br/>
-          {/* <div className={styles.lastUpdated}> Last Updated at: {lastUpdatedDate}</div> */}
         </div>
       </div>
-      
     </div>
   )
 }

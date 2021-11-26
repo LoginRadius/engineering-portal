@@ -101,7 +101,8 @@ const Post = ({ post, relatedPost }) => {
                 pinned
               />
             )}
-            {post.frontmatter.date === gitAuthorTime ? (
+            {post.frontmatter.date === gitAuthorTime ||
+            gitAuthorTime === "Invalid date" ? (
               <div></div>
             ) : (
               <div className="text ml-sm">
