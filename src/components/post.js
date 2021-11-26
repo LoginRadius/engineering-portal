@@ -5,7 +5,7 @@ import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
 import SEO from "./seo"
 import Bio from "./bio"
-
+import ToC from "./toc"
 import styles from "./post.module.scss"
 
 import { Link } from "gatsby"
