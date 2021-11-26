@@ -3,7 +3,6 @@ import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
-import Moment from "moment"
 import SEO from "./seo"
 import Bio from "./bio"
 
@@ -36,6 +35,7 @@ const signUplogger = function () {
 }
 const Post = ({ post, relatedPost }) => {
   const { gitAuthorTime } = post.fields
+  const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
@@ -278,7 +278,9 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
-
+        <ToC headings = {headings}/>
+          
+          
         <div id="commento"></div>
       </section>
     </>
