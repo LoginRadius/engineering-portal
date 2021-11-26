@@ -96,21 +96,16 @@ const Post = ({ post, relatedPost }) => {
             {author && (
               <Bio
                 readingTime={getTimeToRead(post.html)}
-                date={post.frontmatter.date}
+                date={
+                  post.frontmatter.date === gitAuthorTime ||
+                  gitAuthorTime === "Invalid date" ||
+                  gitAuthorTime === undefined
+                    ? post.frontmatter.date
+                    : gitAuthorTime
+                }
                 author={author}
                 pinned
               />
-            )}
-            {post.frontmatter.date === gitAuthorTime ||
-            gitAuthorTime === "Invalid date" ? (
-              <div></div>
-            ) : (
-              <div className="text ml-sm">
-                <p className={styles.lastUpdated}>
-                  {" "}
-                  Last Updated at: {gitAuthorTime}
-                </p>
-              </div>
             )}
           </div>
         </div>
