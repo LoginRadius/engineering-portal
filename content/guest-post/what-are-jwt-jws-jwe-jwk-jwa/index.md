@@ -13,6 +13,7 @@ JOSE (Javascript Object Signing and Encryption) is a framework used to facilitat
 
 ## JWT — JSON Web Token
 [JWT](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/) is a standard mechanism used for authentication. It is compact and URL-safe to represent the claims to be transferred between two parties. Claims are a set of key/value pairs that provide a target system with information about a client to apply an appropriate level of access control to its resources. Claim names could be Registered (IANA), Public, or Private. Some registered claim names are:
+
 - "iss": Issuer claim — identifies the issuer of the claim
 - "sub": Subject claim — identifying the subject of a claim
 - "jti": JWT ID — Uniquely identify a claim
