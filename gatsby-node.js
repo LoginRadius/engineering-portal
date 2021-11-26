@@ -156,9 +156,7 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const gitAuthorTime = execSync(
-      `git log -1 --pretty=format:%cI ${node.fileAbsolutePath}`
-    ).toString()
+    
     const value = createFilePath({ node, getNode })
 
     createNodeField({
@@ -166,6 +164,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    const gitAuthorTime = execSync(
+      `git log origin -1 --pretty=format:%cI content${node.fields.slug}`
+    ).toString()
+    
     createNodeField({
       node,
       name: `gitAuthorTime`,
