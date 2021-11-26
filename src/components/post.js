@@ -101,7 +101,7 @@ const Post = ({ post, relatedPost }) => {
                 pinned
               />
             )}
-            {post.frontmatter.date === gitAuthorTime || gitAuthorTime === "Invalid date" ? (
+            {post.frontmatter.date === gitAuthorTime ? (
               <div></div>
             ) : (
               <div className="text ml-sm">
@@ -278,9 +278,8 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
-        <ToC headings = {headings}/>
-          
-          
+        <ToC headings={headings} />
+
         <div id="commento"></div>
       </section>
     </>
