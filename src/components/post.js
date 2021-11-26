@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
-import Moment from 'moment'
+import Moment from "moment"
 import SEO from "./seo"
 import Bio from "./bio"
 
@@ -19,7 +19,6 @@ import ReactGA from "react-ga"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
-import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -35,15 +34,14 @@ const signUplogger = function () {
     label: "Signup",
   })
 }
-const Post = ({ post, relatedPost}) => {
-  const {gitAuthorTime} = post.fields
+const Post = ({ post, relatedPost }) => {
+  const { gitAuthorTime } = post.fields
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
-
 
   return (
     <>
@@ -103,8 +101,16 @@ const Post = ({ post, relatedPost}) => {
                 pinned
               />
             )}
-           <div className="text ml-sm">
-             <p className={styles.lastUpdated}> Last Updated at: {Moment({gitAuthorTime}).format("MMMM, DD YYYY")}</p></div> 
+            {post.frontmatter.date === gitAuthorTime ? (
+              <div></div>
+            ) : (
+              <div className="text ml-sm">
+                <p className={styles.lastUpdated}>
+                  {" "}
+                  Last Updated at: {gitAuthorTime}
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -234,7 +240,8 @@ const Post = ({ post, relatedPost}) => {
             <div className={styles.postContent}>
               <h2>Do you want a free authentication solution?</h2>
               <p>
-                Add the world's most secure, reliable and easy to implement user authentication solution on your applications at $0
+                Add the world's most secure, reliable and easy to implement user
+                authentication solution on your applications at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
@@ -271,8 +278,6 @@ const Post = ({ post, relatedPost}) => {
             </div>
           </div>
         </div>
-
-        <ToC headings = {headings}/>
 
         <div id="commento"></div>
       </section>
