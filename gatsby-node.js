@@ -125,7 +125,7 @@ exports.createPages = async ({ graphql, actions }) => {
     path: `/search/`,
     component: searchTemplate,
     context: {
-      index: result.data.siteSearchIndex.index
+      index: result.data.siteSearchIndex.index,
     },
   })
 
@@ -156,7 +156,6 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    
     const value = createFilePath({ node, getNode })
 
     createNodeField({
@@ -165,9 +164,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
     const gitAuthorTime = execSync(
-      `git log origin -1 --pretty=format:%cI content${node.fields.slug}`
+      `git log -1 --pretty=format:%cI content${node.fields.slug}`
     ).toString()
-    
+
     createNodeField({
       node,
       name: `gitAuthorTime`,
@@ -178,7 +177,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: "authorId",
-        value:  node.frontmatter.author,
+        value: node.frontmatter.author,
       })
     }
   }
@@ -214,5 +213,3 @@ exports.onPostBuild = function () {
     )
   }
 }
-
-
