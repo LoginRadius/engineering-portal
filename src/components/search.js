@@ -45,7 +45,12 @@ export default class Search extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const query = this.state.query
-    navigate(`/search/?${query}`)
+    const uri =
+      process.env.NODE_ENV == "production"
+        ? `/blog/async/search/?${query}`
+        : `/search/?${query}`
+
+    query && typeof window !== "undefined" && window.open(uri, "_self")
   }
 
   componentDidMount() {
@@ -77,6 +82,7 @@ export default class Search extends Component {
           placeholder="Search..."
           onChange={this.search}
           onFocus={this.search}
+          onSubmit={this.search}
           required
         />
         <label
@@ -91,7 +97,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>

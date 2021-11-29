@@ -207,26 +207,24 @@ const Header = ({ menuLinks, searchIndex }) => {
           >
             <div
               className={`${
-                ["async", ""].includes(blogType)
+                (blogType && ["async"].includes(blogType)) || blogType == ""
                   ? headerStyles.active
                   : headerStyles.inactive
               } ${headerStyles.logoWrap} ${headerStyles.async}`}
               onClick={() => (blogType === "async" ? "" : toggleType("async"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
-                    blogType && ["async", ""].includes(blogType)
-                      ? menuLinks[0].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
-                >
+                {["async"].includes(blogType) ? (
+                  <a href={menuLinks[0].slug}>
+                    <div className={headerStyles.logo}>
+                      <img src={logoAsync} alt="" />
+                    </div>
+                  </a>
+                ) : (
                   <div className={headerStyles.logo}>
                     <img src={logoAsync} alt="" />
                   </div>
-                </Link>
+                )}
               </div>
               <div
                 className={`${
@@ -245,19 +243,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "swi" ? "" : toggleType("swi"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
-                    blogType && ["swi", ""].includes(blogType)
-                      ? menuLinks[1].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
-                >
+                {["swi"].includes(blogType) ? (
+                  <a href={menuLinks[1].slug}>
+                    <div className={headerStyles.logo}>
+                      <img src={logoSwi} alt="" />
+                    </div>
+                  </a>
+                ) : (
                   <div className={headerStyles.logo}>
                     <img src={logoSwi} alt="" />
                   </div>
-                </Link>
+                )}
               </div>
               <div
                 className={`${
@@ -286,19 +282,17 @@ const Header = ({ menuLinks, searchIndex }) => {
               onClick={() => (blogType === "fuel" ? "" : toggleType("fuel"))}
             >
               <div className={headerStyles.blogLogo}>
-                <Link
-                  to={`${
-                    blogType && ["fuel", ""].includes(blogType)
-                      ? menuLinks[2].slug
-                      : typeof window !== "undefined" &&
-                        window.location.pathname
-                  } `}
-                  replace
-                >
+                {["fuel"].includes(blogType) ? (
+                  <a href={menuLinks[2].slug}>
+                    <div className={headerStyles.logo}>
+                      <img src={logoFuel} alt="" />
+                    </div>
+                  </a>
+                ) : (
                   <div className={headerStyles.logo}>
-                    <img src={logoFuel} alt="Fuel" />
+                    <img src={logoFuel} alt="" />
                   </div>
-                </Link>
+                )}
               </div>
               <div
                 className={`${
