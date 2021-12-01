@@ -8,7 +8,7 @@ description: "This article focuses on helping developers learn how to integrate 
 
 ---
 
-This guide uses LoginRadius API for authenticating React apps. It provides React developers with a more straightforward way to add user authentication to react apps. To handle a lot of authentication implementation information, LoginRadius offers a high-level API. Using security best practices, now you can protect your response apps while writing less code.
+To authenticate react applications, this guide uses LoginRadius API, which gives react developers a more straightforward way to add user authentication to react applications. To handle a lot of authentication implementation information, LoginRadius offers a high-level API. Using security best practices, you can now protect your response apps while writing less code.
 
 This article [focuses on helping developers](/react-hooks-guide/) learn how to integrate user authentication in the React application. Practice the following security principles to improve authentication on React applications:
 
@@ -35,7 +35,7 @@ A new application was created for you when you [signed up](https://accounts.logi
 
 ### Add Login to your react application
 
-We will use an API framework to call LoginRadius APIs for authentication.  Create a new file **LoginPage.js**, and add the following code.
+We will use an API framework to call LoginRadius APIs for authentication.  Create new file **LoginPage.js** and add the following code.
 ```javascript
     import  React, { useState } from  "react";
     const  lrconfig = {
@@ -112,7 +112,7 @@ Create **LogoutPage.js** file and add following code:
     };
     export default LogoutButton;
 ```
-In the above code, we have called invalidated token api, which expires your access token.
+In the above code, We have called invalidate token api, which expires your access token.
 
 
 ### Add Signup to your react application
