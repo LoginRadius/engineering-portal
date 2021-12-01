@@ -14,10 +14,9 @@ When we start thinking about authentication in any kind of software (it can be w
 Plain text passwords are stored directly in a database without any encryption. These passwords are very insecure because:
     - If someone hacks your database he can access any account and do anything possible after login.
     - Developers or employees who are working on a project commonly misuse the password and spread these passwords to other people for misuse.
+As a hard and fast rule plain text passwords should NOT be accepted in any case or used for any project or product.
 
-  As a hard and fast rule plain text passwords should NOT be accepted in any case or used for any project or product.
-
-# Encrypted passwords [Not recommended]:
+# Encrypted passwords [Not recommended]
 
 Encryption helps us by protecting data from hackers. In network communication, the same techniques can be used in saving passwords. Any encryption algorithm can be used to protect passwords. So on registration plain text passwords are encrypted and saved to your database.
 
@@ -69,7 +68,7 @@ And compare with the saved password
 
 For making a strong hash from non-salted hash algorithms, salt is appended or prepended to your password string. Appending and prepending also has two kinds of implementations one is a universal salt and the second is per password random salt, let us understand one by one.
 
-**Universal salt :** in this implementation every password has one salt.
+**Universal salt:** In this implementation every password has one salt.
 
 - Universal salt prepend
 
@@ -82,9 +81,7 @@ For making a strong hash from non-salted hash algorithms, salt is appended or pr
   ```
     PasswordHash = Hash(Password+Salt);
   ```
-**Per password salt :**
-
-In this implementation every password has it's own random salt, but the question is how we preserve salt for a password? Answer is the salt is appended with password by a separator. And on login split that saved string by separator and get hashed password and salt.
+**Per password salt:** In this implementation every password has it's own random salt, but the question is how we preserve salt for a password? Answer is the salt is appended with password by a separator. And on login split that saved string by separator and get hashed password and salt.
 
 On registration when we save password
 
@@ -115,7 +112,7 @@ If(PasswordHash == inputPasswordHash){
 }
 ```
 
-**Some popular encryption methods :** Most of people use following algorithms for hashing passwords, explaining all algorithms is out of scope of this blog. I am adding reference URLs for more reading. I am adding only strong hashing algorithms 
+**Some popular encryption methods:** Most of people use following algorithms for hashing passwords, explaining all algorithms is out of scope of this blog. I am adding reference URLs for more reading. I am adding only strong hashing algorithms 
 
 1. [PBKDF2](http://en.wikipedia.org/wiki/PBKDF2)
 2. [bcrypt](http://en.wikipedia.org/wiki/Bcrypt)
