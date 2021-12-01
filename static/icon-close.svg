@@ -1,0 +1,15 @@
+<svg id="fb5ff2c7-6bfe-4bb3-b3a5-93dee47bec76" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.49 16.49">
+  <defs>
+    <style>
+      .b30ed152-c447-4f3a-a14b-022ef7d5648b {
+        fill: none;
+        stroke: #008ecf;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <line class="b30ed152-c447-4f3a-a14b-022ef7d5648b" x1="15.49" y1="1" x2="1" y2="15.49"/>
+  <line class="b30ed152-c447-4f3a-a14b-022ef7d5648b" x1="15.49" y1="15.49" x2="1" y2="1"/>
+</svg>

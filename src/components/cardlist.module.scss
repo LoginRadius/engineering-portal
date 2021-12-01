@@ -26,7 +26,7 @@
     }
     .avatar-pinned {
       img {
-        width: 100%;
+        width:( 1200-$gutter)/2 !important;
       }
 
       a {
@@ -40,18 +40,21 @@
         }
       }
     }
+    h1 {
+      margin-bottom: $gutter+$gutter/2;
+    }
   }
   // pinned post detail pinned section
   &.post-detail {
     .blog-content-pinned {
-      flex-direction: row-reverse;
+      // flex-direction: row-reverse;
       @media (max-width: 768px) {
         flex-direction: column;
       }
       & > div {
         &:nth-child(2) {
-          padding-right: 30px;
-          padding-left: 0;
+          padding-right: 0;
+          padding-left: $gutter*2;
           @media (max-width: 768px) {
             padding: 0;
           }
@@ -64,16 +67,23 @@
 .tag {
   &.pinned {
     a {
-      background-color: $gray-light;
-      padding: 0 16px;
-      border-radius: 4px;
-      color: $black;
-      line-height: 30px;
-      font-size: 16px;
-      height: 30px;
+      border-radius: 100px;
+      font-weight: 500;
+      padding: $gutter/3 $gutter/2;
+      border: 2px #008ECF solid;
+      font-size: 0.8rem;
+      margin-left: $gutter/2;
+      margin-bottom: $gutter/2;
       display: inline-flex;
-      margin-bottom: 20px;
-      margin-right: 10px;
+      height: auto;
+      background: none;
+      line-height: 1;
+      &:first-of-type {
+        margin-left: 0;
+      }
+      &:last-of-type {
+        margin-bottom: $gutter+$gutter/2;
+      }
       &:hover {
         background-color: $blue-bright;
         color: $white;

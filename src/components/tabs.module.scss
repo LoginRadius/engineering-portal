@@ -3,10 +3,10 @@
 .blog-tabs {
   .Hamburger {
     position: relative;
-    top: -45px;
+    top: -37px;
     left: 16px;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     z-index: 10;
     @media (min-width: 767px) {
       display: none;
@@ -15,8 +15,10 @@
 
   .closeMenu {
     position: absolute;
-    top: 16px;
+    top: 23px;
     left: 16px;
+    width: 15px;
+    height: 15px;
     font-size: 34px;
     line-height: 0.7;
     color: $blue-bright;

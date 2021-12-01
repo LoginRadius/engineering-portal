@@ -8,14 +8,16 @@ import SEO from "../components/seo"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
 
 import Hamburger from "../../static/iconHamburger.svg"
+import iconClose from "../../static/icon-close.svg"
 
 import styles from "../components/tabs.module.scss"
 
-const BlogList = ({ data, pageContext, location }) => {
+const BlogList = props => {
+  const { data, pageContext, location } = props
   const total = data.allMarkdownRemark.totalCount
   const { currentPage, numPages } = pageContext
   const [openMenu, setOpenMenu] = useState(false)
-
+  console.log(props)
   return (
     <Layout>
       <SEO
@@ -64,13 +66,14 @@ const BlogList = ({ data, pageContext, location }) => {
               />
             </div>
           ) : (
-            <div
-              className={styles.closeMenu}
-              onClick={() => {
-                setOpenMenu(!openMenu)
-              }}
-            >
-              x
+            <div className={styles.closeMenu}>
+              <img
+                src={iconClose}
+                alt={`logo`}
+                onClick={() => {
+                  setOpenMenu(!openMenu)
+                }}
+              />
             </div>
           )}
 
@@ -80,7 +83,7 @@ const BlogList = ({ data, pageContext, location }) => {
           </TabPanel>
 
           <TabPanel>
-            <h2>Any content 2</h2>
+            <CardList posts={data.allMarkdownRemark.edges} total={total} />
           </TabPanel>
 
           <TabPanel>

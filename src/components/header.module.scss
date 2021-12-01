@@ -107,12 +107,12 @@
   & > a {
     display: flex;
     align-items: stretch;
-    width: 220px;
+    width: 192px;
     height: 96px;
-    padding: 0 32px;
-    @media (max-width: 480px) {
-      padding: 0 40px;
-    }
+    // padding: 0 32px;
+    // @media (max-width: 480px) {
+    //   padding: 0 40px;
+    // }
   }
   .menuLinks {
     position: relative;
@@ -376,9 +376,9 @@
     height: 60px;
   }
   @media (max-width: 1023px) {
-    width: calc(100% - 58px) !important;
+    width: calc(100% - 47px) !important;
     right: 16px;
-    left: 60px;
+    left: 47px;
     height: 60px;
     top: 0;
   }
@@ -389,11 +389,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
-    background-size: 32px;
+    background-size: 40px;
     justify-content: center;
     flex-direction: column;
     height: 44px;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0;
     border: 0;
     cursor: pointer;
     transition: 0.3s;
@@ -418,7 +418,7 @@
     border: 0;
     background: $blue-bright;
     padding: 0 10px;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 500;
     padding: 0;
     z-index: -1;

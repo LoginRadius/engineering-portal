@@ -148,7 +148,7 @@ const Header = ({ menuLinks, searchIndex }) => {
         ></button>
         <ToastContainer />
       </div> */}
-      {!shouldClose ? (
+      {/* {!shouldClose ? (
         <div className={headerStyles.topStrip}>
           <p>
             <a
@@ -169,7 +169,7 @@ const Header = ({ menuLinks, searchIndex }) => {
             className={headerStyles.closeIcon}
           ></button>
         </div>
-      ) : null}
+      ) : null} */}
 
       <div
         className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
