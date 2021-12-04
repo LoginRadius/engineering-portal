@@ -50,7 +50,7 @@ In this tutorial, you'll work on authentication middleware for an existing API b
 To get started, clone the repository and set up the application by running the following commands:
 
 ```bash 
-git clone https://github.com/Babatunde13/loginRadius-flask-auth.git # Clone the repository
+git clone https://github.com/Babatunde13/login-radius-flask.git # Clone the repository
 cd loginRadius-flask-auth # change directory
 git checkout start # check out the start branch
 virtualenv venv # create virtual environment
@@ -85,10 +85,10 @@ app.config['SECRET_KEY']='some secret text' # this text should be make secret
 Let's create a file called `auth_middleware.py` in the root of your application and place the following inside this file:
 
 ```python
-import jwt
 from functools import wraps
+import jwt
 from flask import request, abort
-from app import app as current_app
+from flask import current_app
 import models
 
 def token_required(f):
@@ -97,9 +97,9 @@ def token_required(f):
         token = None
         if "Authorization" in request.headers:
             token = request.headers["Authorization"].split(" ")[1]
-        if not token: 
+        if not token:
             return {
-                "message": "Token is missing!",
+                "message": "Authentication Token is missing!",
                 "data": None,
                 "error": "Unauthorized"
             }, 401
@@ -108,9 +108,9 @@ def token_required(f):
             current_user=models.User().get_by_id(data["user_id"])
             if current_user is None:
                 return {
-                  "message": "Invalid Token!",
-                  "data": None,
-                  "error": "Unauthorized"
+                "message": "Invalid Authentication token!",
+                "data": None,
+                "error": "Unauthorized"
             }, 401
             if not current_user["active"]:
                 abort(403)
@@ -120,7 +120,9 @@ def token_required(f):
                 "data": None,
                 "error": str(e)
             }, 500
+
         return f(current_user, *args, **kwargs)
+
     return decorated
 
 ```
@@ -149,17 +151,20 @@ def login():
                 "error": "Bad request"
             }, 400
         # validate input
-        if not validate_email_and_password(**data):
-            return dict(message='Invalid data', data=None), 400
+        is_validated = validate_email_and_password(data.get('email'), data.get('password'))
+        if is_validated is not True:
+            return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().login(
-            data["email"], 
+            data["email"],
             data["password"]
         )
         if user:
             try:
+                # token should expire after 24 hrs
                 user["token"] = jwt.encode(
                     {"user_id": user["_id"]},
-                    app.config["SECRET_KEY"]
+                    app.config["SECRET_KEY"],
+                    algorithm="HS256"
                 )
                 return {
                     "message": "Successfully fetched auth token",
@@ -181,7 +186,6 @@ def login():
                 "error": str(e),
                 "data": None
         }, 500
-
 ```
 
 ## Protecting API Routes in Flask
@@ -202,17 +206,17 @@ def product(current_user, pdt_id):
 
 ```
 
-Add this middleware (`@token_required`) to every function you only want the authenticated users to access. In the end, your whole `app.py` file should look as follows.
+Add this middleware (`@token_required`) to every function you only want authenticated users to access. In the end, your whole `app.py` file should look as follows.
 
 ```python
-
-from bson.objectid import ObjectId
-from save_image import save_pic
 import jwt
-from validate import validate_book, validate_email_and_password, validate_user
 from flask import Flask, request, jsonify
+from save_image import save_pic
+from validate import validate_book, validate_email_and_password, validate_user
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret'
+
 from models import Books, User
 from auth_middleware import token_required
 
@@ -230,15 +234,16 @@ def add_user():
                 "data": None,
                 "error": "Bad request"
             }, 400
-        if not validate_user(**user):
-            return dict(message='Invalid data', data=None, error=""), 400
+        is_validated = validate_user(**user)
+        if is_validated is not True:
+            return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().create(**user)
         if not user:
             return {
                 "message": "User already exists",
                 "error": "Conflict",
                 "data": None
-            }
+            }, 409
         return {
             "message": "Successfully created new user",
             "data": user
@@ -261,17 +266,20 @@ def login():
                 "error": "Bad request"
             }, 400
         # validate input
-        if not validate_email_and_password(**data):
-            return dict(message='Invalid data', data=None), 400
+        is_validated = validate_email_and_password(data.get('email'), data.get('password'))
+        if is_validated is not True:
+            return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().login(
-            data["email"], 
+            data["email"],
             data["password"]
         )
         if user:
             try:
+                # token should expire after 24 hrs
                 user["token"] = jwt.encode(
                     {"user_id": user["_id"]},
-                    app.config["SECRET_KEY"]
+                    app.config["SECRET_KEY"],
+                    algorithm="HS256"
                 )
                 return {
                     "message": "Successfully fetched auth token",
@@ -294,11 +302,12 @@ def login():
                 "data": None
         }, 500
 
+
 @app.route("/users/", methods=["GET"])
 @token_required
 def get_current_user(current_user):
     return jsonify({
-        "message": "successfully retrieved a user",
+        "message": "successfully retrieved user profile",
         "data": current_user
     })
 
@@ -331,7 +340,7 @@ def disable_user(current_user):
     try:
         User().disable_account(current_user["_id"])
         return jsonify({
-            "message": "successfully disabled account",
+            "message": "successfully disabled acount",
             "data": None
         }), 204
     except Exception as e:
@@ -357,12 +366,14 @@ def add_book(current_user):
                 "message": "cover image is required",
                 "data": None
             }, 400
+
         book["image_url"] = request.host_url+"static/books/"+save_pic(request.files["cover_image"])
-        if not validate_book(**book, user_id=ObjectId(current_user["_id"])):
+        is_validated = validate_book(**book)
+        if is_validated is not True:
             return {
                 "message": "Invalid data",
                 "data": None,
-                "error": "Bad Request"
+                "error": is_validated
             }, 400
         book = Books().create(**book, user_id=current_user["_id"])
         if not book:
@@ -469,6 +480,23 @@ def delete_book(current_user, book_id):
             "data": None
         }), 400
 
+@app.errorhandler(403)
+def forbidden(e):
+    return jsonify({
+        "message": "Forbidden",
+        "error": str(e),
+        "data": None
+    }), 403
+
+@app.errorhandler(404)
+def forbidden(e):
+    return jsonify({
+        "message": "Endpoint Not Found",
+        "error": str(e),
+        "data": None
+    }), 404
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
@@ -515,9 +543,11 @@ def encrypt_password(self, password):
     return generate_password_hash(password)
 
 def login(self, email, password):
+    """Login a user"""
     user = self.get_by_email(email)
     if not user or not check_password_hash(user["password"], password):
-        return user
+        return
+    user.pop("password")
     return user
 
 ```
@@ -525,6 +555,7 @@ def login(self, email, password):
 Your `models.py` file should look as follows:
 
 ```python
+"""Application Models"""
 import bson
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -533,30 +564,33 @@ client = MongoClient("mongodb://localhost:27017/myDatabase")
 db = client.myDatabase
 
 class Books:
-  def __init__(self):
-      return
-  
-  def create(self, title="", description="", image_url="", category="", user_id=""):
-      book = self.get_by_user_id_and_title(user_id, title)
-      if book:
-          return
-      new_book = db.books.insert_one(
-          {
-              "title": title,
-              "description": description,
-              "image_url": image_url,
-              "category": category,
-              "user_id": user_id
-          }
-      )
-      return self.get_by_id(new_book.inserted_id)
+    """Books Model"""
+    def __init__(self):
+        return
 
-    
+    def create(self, title="", description="", image_url="", category="", user_id=""):
+        """Create a new book"""
+        book = self.get_by_user_id_and_title(user_id, title)
+        if book:
+            return
+        new_book = db.books.insert_one(
+            {
+                "title": title,
+                "description": description,
+                "image_url": image_url,
+                "category": category,
+                "user_id": user_id
+            }
+        )
+        return self.get_by_id(new_book.inserted_id)
+
     def get_all(self):
+        """Get all books"""
         books = db.books.find()
         return [{**book, "_id": str(book["_id"])} for book in books]
 
     def get_by_id(self, book_id):
+        """Get a book by id"""
         book = db.books.find_one({"_id": bson.ObjectId(book_id)})
         if not book:
             return
@@ -564,18 +598,22 @@ class Books:
         return book
 
     def get_by_user_id(self, user_id):
+        """Get all books created by a user"""
         books = db.books.find({"user_id": user_id})
         return [{**book, "_id": str(book["_id"])} for book in books]
-
+       
     def get_by_category(self, category):
+        """Get all books by category"""
         books = db.books.find({"category": category})
         return [book for book in books]
 
     def get_by_user_id_and_category(self, user_id, category):
+        """Get all books by category for a particular user"""
         books = db.books.find({"user_id": user_id, "category": category})
         return [{**book, "_id": str(book["_id"])} for book in books]
 
     def get_by_user_id_and_title(self, user_id, title):
+        """Get a book given its title and author"""
         book = db.books.find_one({"user_id": user_id, "title": title})
         if not book:
             return
@@ -583,11 +621,13 @@ class Books:
         return book
 
     def update(self, book_id, title="", description="", image_url="", category="", user_id=""):
+        """Update a book"""
         data={}
         if title: data["title"]=title
         if description: data["description"]=description
         if image_url: data["image_url"]=image_url
         if category: data["category"]=category
+
         book = db.books.update_one(
             {"_id": bson.ObjectId(book_id)},
             {
@@ -598,18 +638,23 @@ class Books:
         return book
 
     def delete(self, book_id):
+        """Delete a book"""
         book = db.books.delete_one({"_id": bson.ObjectId(book_id)})
         return book
 
     def delete_by_user_id(self, user_id):
+        """Delete all books created by a user"""
         book = db.books.delete_many({"user_id": bson.ObjectId(user_id)})
         return book
 
+
 class User:
+    """User Model"""
     def __init__(self):
         return
 
     def create(self, name="", email="", password=""):
+        """Create a new user"""
         user = self.get_by_email(email)
         if user:
             return
@@ -624,17 +669,21 @@ class User:
         return self.get_by_id(new_user.inserted_id)
 
     def get_all(self):
+        """Get all users"""
         users = db.users.find({"active": True})
         return [{**user, "_id": str(user["_id"])} for user in users]
 
     def get_by_id(self, user_id):
+        """Get a user by id"""
         user = db.users.find_one({"_id": bson.ObjectId(user_id), "active": True})
         if not user:
             return
         user["_id"] = str(user["_id"])
+        user.pop("password")
         return user
 
     def get_by_email(self, email):
+        """Get a user by email"""
         user = db.users.find_one({"email": email, "active": True})
         if not user:
             return
@@ -642,6 +691,7 @@ class User:
         return user
 
     def update(self, user_id, name=""):
+        """Update a user"""
         data = {}
         if name:
             data["name"] = name
@@ -655,26 +705,31 @@ class User:
         return user
 
     def delete(self, user_id):
+        """Delete a user"""
         Books().delete_by_user_id(user_id)
         user = db.users.delete_one({"_id": bson.ObjectId(user_id)})
         user = self.get_by_id(user_id)
         return user
 
     def disable_account(self, user_id):
+        """Disable a user account"""
         user = db.users.update_one(
-            {"_id": bson.ObjectId(user_id)}, 
+            {"_id": bson.ObjectId(user_id)},
             {"$set": {"active": False}}
         )
         user = self.get_by_id(user_id)
         return user
 
     def encrypt_password(self, password):
+        """Encrypt password"""
         return generate_password_hash(password)
 
     def login(self, email, password):
+        """Login a user"""
         user = self.get_by_email(email)
         if not user or not check_password_hash(user["password"], password):
-            return user
+            return
+        user.pop("password")
         return user
 
 ```
@@ -684,4 +739,4 @@ This article has explained what authentication is and how to authenticate a Flas
 
 In some cases, handling authentication yourself may not be good enough, and third-party authentication providers like LoginRadius will be what you can use. You can check out this [tutorial](https://www.loginradius.com/docs/developer/tutorial/python/) on connecting LoginRadius to your Flask application.
 
-You can find the full code for this article on [Github](https://github.com/Babatunde13/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
+You can find the full code for this article on [Github](https://github.com/Babatunde13/login-radius-flask). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
