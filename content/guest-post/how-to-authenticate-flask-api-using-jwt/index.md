@@ -79,7 +79,9 @@ Add the following to your `app.py` file below the app declaration.
 ```python
 # app = Flask(__name__)
 
-app.config['SECRET_KEY']='some secret text' # this text should be make secret
+SECRET_KEY = os.environ.get('SECRET_KEY') or 'this is a secret'
+print(SECRET_KEY)
+app.config['SECRET_KEY'] = SECRET_KEY
 ```
 
 Let's create a file called `auth_middleware.py` in the root of your application and place the following inside this file:
@@ -209,13 +211,18 @@ def product(current_user, pdt_id):
 Add this middleware (`@token_required`) to every function you only want authenticated users to access. In the end, your whole `app.py` file should look as follows.
 
 ```python
-import jwt
+import jwt, os
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from save_image import save_pic
 from validate import validate_book, validate_email_and_password, validate_user
 
+load_dotenv()
+
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secret'
+SECRET_KEY = os.environ.get('SECRET_KEY') or 'this is a secret'
+print(SECRET_KEY)
+app.config['SECRET_KEY'] = SECRET_KEY
 
 from models import Books, User
 from auth_middleware import token_required
@@ -556,11 +563,16 @@ Your `models.py` file should look as follows:
 
 ```python
 """Application Models"""
-import bson
+import bson, os
+from dotenv import load_dotenv
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 
-client = MongoClient("mongodb://localhost:27017/myDatabase")
+load_dotenv()
+
+DATABASE_URL=os.environ.get('DATABASE_URL') or 'mongodb://localhost:27017/myDatabase'
+print(DATABASE_URL)
+client = MongoClient(DATABASE_URL)
 db = client.myDatabase
 
 class Books:
