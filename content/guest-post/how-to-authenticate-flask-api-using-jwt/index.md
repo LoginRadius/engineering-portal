@@ -511,7 +511,7 @@ if __name__ == "__main__":
 
 ```
 
-Before running the application, you need to create the `save_pic` function inside the `save_image.py` file. This is the function responsible for saving uploaded pictures.
+Before running the application, let's look at the `save_pic` function inside the `save_image.py` file. This is the function responsible for saving uploaded pictures.
 
 ```python
 from PIL import Image
@@ -542,7 +542,7 @@ You should also add the following functions as helper methods of the `User` mode
 ```python
 def disable_account(self, user_id):
     user = db.users.update_one(
-        {"_id": bson.ObjectId(user_id)}, 
+        {"_id": bson.ObjectId(user_id)},
         {"$set": {"active": False}}
     )
     user = self.get_by_id(user_id)
