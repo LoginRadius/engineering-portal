@@ -53,9 +53,10 @@ To get started, clone the repository and set up the application by running the f
 git clone https://github.com/Babatunde13/login-radius-flask.git # Clone the repository
 cd loginRadius-flask-auth # change directory
 git checkout start # check out the start branch
-virtualenv venv # create virtual environment
-source venv/bin/activate # activate virtual environment
+python3 -m venv venv # create virtual environment, if you are using windows do this instead, py -m venv venv
+source venv/bin/activate # activate virtual environment, if you're using windows do this instead, source venv/Scripts/activate
 pip install -r requirements.txt # install dependencies
+# https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 ```
 
 The application is now set up and ready to run. You can run the app by using the command `flask run` in the project directory. You can test that all the endpoints are working by testing the app in an API testing tool, like postman.
