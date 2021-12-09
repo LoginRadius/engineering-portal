@@ -64,7 +64,7 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: She is a software enthusiast, an avid contributor, and blogs regularly. She usually works with React, UI/UX, Javascript, Node.js, and DevOps.
+  bio: She is a software enthusiast, an avid contributor, and a regular blog writer. She usually works with React, UI/UX, Javascript, Node.js, and DevOps.
   github: "vershagupta"
   stackoverflow: "1455329"
   linkedin: "versha-gupta-4865b339"
@@ -579,4 +579,8 @@
   linkedin: "dpgupta"
   twitter: "dip_ak"
 
-  
+- id: Babatunde Koiki
+  bio: "He is an experienced software engineer with great passion for building reliable, scalable, and maintainable products. And he loves great documentation. When he is not writing code, he hangs out with friends or watches movies."
+  github: "Babatunde13"
+  linkedin: "babatunde-koiki-2002"
+  twitter: "bkoiki950"
