@@ -1,10 +1,10 @@
 ---
-title: How To Authenticate Flask API Using JWT
+title: "How To Authenticate Flask API Using JWT"
 date: "2021-10-20"
 coverImage: "coverImage.png"
 author: "Babatunde Koiki"
 tags: ["Flask", "JWT", "API"]
-description: "This article is a step-by-step guide to implementing authentication in Flask API using JWT."
+description: "This tutorial helps you build a simple Flask API and demostrates how to secure it using JWT. In the end, you can test your API authentication using a sample schema."
 ---
 
 Authentication is an essential part of any web application. But unfortunately, it is not always easy to implement.
@@ -29,11 +29,10 @@ This authentication uses more than one factor to authenticate a user. For exampl
 There are basically three types of authentication, as follows:
 
 1. **Knowledge Authentication**: The user is asked something that only they can provide or know -- e.g., password. This is the most common type and also the easiest.
-2. **Property Authentication**: The user is asked for something they own or possess. For example, they can be asked their pet's name. The idea here is that users will be asked to set a security question and answer when creating an account. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
+2. **Property Authentication**: The user is asked for something they own or possess. For example, they can use a hardware authentication device like YubiKey or an authenticator app on their phone. The idea here is that users will be asked to set an authentication factor that verifies the identity in amore secure manner. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
 3. **Biological Authentication**: The user is asked to verify their identity using something biologically unique to them -- e.g, a fingerprint or iris scan.
 
 In most applications, knowledge and property authentication are used as an extra layer of the authentication.
-
 
 ## Authentication vs. Authorization
 
@@ -50,11 +49,10 @@ In this tutorial, you'll work on authentication middleware for an existing API b
 To get started, clone the repository and set up the application by running the following commands:
 
 ```bash 
-git clone https://github.com/Babatunde13/login-radius-flask.git # Clone the repository
-cd loginRadius-flask-auth # change directory
-git checkout start # check out the start branch
-python3 -m venv venv # create virtual environment, if you are using windows do this instead, py -m venv venv
-source venv/bin/activate # activate virtual environment, if you're using windows do this instead, source venv/Scripts/activate
+git clone https://github.com/LoginRadius/engineering-blog-samples.git # Clone the repository
+cd /Flask/loginRadius-flask-auth # change directory
+python3 -m venv env # create virtual environment; if you're using Windows, `py -m venv env`
+source env/bin/activate # activate virtual environment, if you're using windows, env/Scripts/activate
 pip install -r requirements.txt # install dependencies
 # https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 ```
@@ -748,9 +746,32 @@ class User:
 
 ```
 
+Here's an example of the user request:
+```
+{
+     "name" : "abc xyz",
+     "email" : "xyz@gmail.com",
+     "password" : "Abc@123"
+}
+```
+Here, the name should have two words and the password should have at least an uppcase later, a lower case letter, a digit, and a special character.
+
+And an example of the book request:
+```
+{
+    "title":"name of book",
+    "cover_image": "path to image file locally",
+    "category": "['romance', 'peotry', 'politics', 'picture book', 'science', 'fantasy', 'horror', 'thriller'],
+    "description":"description",
+    "user_id":"user_id"
+}
+```
+
+While passing a book request, pass it via `form-data` tab in Postman.
+
 ## Conclusion
 This article has explained what authentication is and how to authenticate a Flask API with JWT. 
 
-In some cases, handling authentication yourself may not be good enough, and third-party authentication providers like LoginRadius will be what you can use. You can check out this [tutorial](https://www.loginradius.com/docs/developer/tutorial/python/) on connecting LoginRadius to your Flask application.
+In some cases, handling authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/docs/developer/tutorial/python/) to lean how to add LoginRadius to your Flask application.
 
-You can find the full code for this article on [Github](https://github.com/Babatunde13/login-radius-flask). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
+You can find the full code for this article on [Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flask/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
