@@ -45,7 +45,9 @@ The following are the differences between authentication and authorization:
 
 ## Starter Application
 
-In this tutorial, you'll work on authentication middleware for an existing API built with Flask and PyMongo. The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the PyJWT library to generate and verify JWT tokens.
+In this tutorial, you'll work on authentication middleware for an existing API built with [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [PyMong](https://pymongo.readthedocs.io/en/stable/)o. The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the [PyJWT library](https://pyjwt.readthedocs.io/en/latest/) to generate and verify JWT tokens.
+
+> You can learn [more about JSON Web Tokens (JWT) here](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/).
 
 To get started, clone the repository and set up the application by running the following commands:
 
