@@ -3,7 +3,7 @@ title: "Understanding React Rendering"
 date: "2020-09-23"
 coverImage: "index.png"
 author: Nathan Nguyen
-tags: ["Node", "React", "Render", "function", "method", "dom", "virtual dom"]
+tags: ["Node.js", "React"]
 description: "Learn to optimize React rendering process."
 ---
 
