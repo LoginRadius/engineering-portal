@@ -44,6 +44,14 @@ const Post = ({ post, relatedPost }) => {
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
+  setTimeout(() => {
+    const mainDoc = document.querySelectorAll(".container-post a")
+    mainDoc.forEach(
+      i =>
+        !i.hostname.includes("loginradius") &&
+        i.setAttribute("target", "_blank")
+    )
+  }, 500)
 
   return (
     <>
@@ -132,7 +140,7 @@ const Post = ({ post, relatedPost }) => {
           </div>
         </div>
       </section>
-      <section className={`pt-80 ${styles.postDetail}`}>
+      <section className={`pt-80 ${styles.postDetail} container-post`}>
         <div>
           <div className="grid-70-30">
             <div
@@ -232,7 +240,8 @@ const Post = ({ post, relatedPost }) => {
             <div className={styles.postContent}>
               <h2>Do you want a free authentication solution?</h2>
               <p>
-                Add the world's most secure, reliable and easy to implement user authentication solution on your applications at $0
+                Add the world's most secure, reliable and easy to implement user
+                authentication solution on your applications at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
@@ -270,7 +279,7 @@ const Post = ({ post, relatedPost }) => {
           </div>
         </div>
 
-        <ToC headings = {headings}/>
+        <ToC headings={headings} />
 
         <div id="commento"></div>
       </section>
