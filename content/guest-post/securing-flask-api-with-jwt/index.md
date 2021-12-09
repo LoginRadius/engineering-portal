@@ -1,6 +1,6 @@
 ---
 title: "How To Authenticate Flask API Using JWT"
-date: "2021-10-20"
+date: "2021-12-09"
 coverImage: "coverImage.png"
 author: "Babatunde Koiki"
 tags: ["Flask", "JWT", "API"]
