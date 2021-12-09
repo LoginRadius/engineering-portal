@@ -4,13 +4,14 @@ date: "2021-10-20"
 coverImage: "coverImage.png"
 author: "Babatunde Koiki"
 tags: ["Flask", "JWT", "API"]
-description: "This tutorial helps you build a simple Flask API and demostrates how to secure it using JWT. In the end, you can test your API authentication using a sample schema."
+description: "This tutorial helps you build a simple Flask API and demonstrates how to secure it using JWT. In the end, you can test your API authentication using a sample schema."
 ---
 
 Authentication is an essential part of any web application. But unfortunately, it is not always easy to implement.
 
 ## What is Authentication?
-Authentication is a process of verifying that an entity is who they claim to be. For example, a user might authenticate by providing a username and password. If the username and password are valid, the system would check to see if the user can access the resource. After the system checks the user's details against its database and if the details are valid, the user is thus authenticated and can access resources that are available to the user.
+
+Authentication is a process of verifying that an entity is who they claim to be. For example, a user might authenticate by providing a username and password. If the username and password are valid, the system will check if the user can access the resource. After the system checks the user's details against its database and if the details are valid, the user is thus authenticated and can access available resources.
 
 ## Authentication Factors
 
@@ -18,7 +19,7 @@ The following factors are used to authenticate a user.
 
 ### Single-factor Authentication
 
-This authentication is used when a user provides a username/email/phone number and a password. This is the most common and weakest authentication factor. The user simply inputs the email and password, and the system checks if the data is valid; if valid, the user gets authenticated and can access the resource. What happens if another person who is not the legitimate user tries to access the resource? The system denies access to the resource.
+This authentication is used when a user provides a username/email/phone number and a password. This is the most common and weakest authentication factor. The user simply inputs the email and password, and the system checks if the data is valid; if valid, the user gets authenticated and can access the resource. What happens if another person who is not a legitimate user tries to access the resource? The system denies access to the resource.
 
 ### [Multi-factor Authentication](https://www.loginradius.com/multi-factor-authentication/)
 
@@ -26,13 +27,13 @@ This authentication uses more than one factor to authenticate a user. For exampl
 
 ## Types of Authentication
 
-There are basically three types of authentication, as follows:
+There are three types of authentication, as follows:
 
 1. **Knowledge Authentication**: The user is asked something that only they can provide or know -- e.g., password. This is the most common type and also the easiest.
-2. **Property Authentication**: The user is asked for something they own or possess. For example, they can use a hardware authentication device like YubiKey or an authenticator app on their phone. The idea here is that users will be asked to set an authentication factor that verifies the identity in amore secure manner. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
-3. **Biological Authentication**: The user is asked to verify their identity using something biologically unique to them -- e.g, a fingerprint or iris scan.
+2. **Property Authentication**: The user is asked for something they own or possess. For example, they can use a hardware authentication device like YubiKey or an authenticator app on their phone. The idea is that users will be asked to set an authentication factor that verifies the identity more securely. This isn’t always used alone; it’s used alongside another authentication type, say, `Knowledge authentication`.
+3. **Biological Authentication**: The user is asked to verify their identity using something biologically unique to them -- e.g., a fingerprint or iris scan.
 
-In most applications, knowledge and property authentication are used as an extra layer of the authentication.
+In most applications, knowledge and property authentication are used as an extra layer of authentication.
 
 ## Authentication vs. Authorization
 
@@ -40,15 +41,15 @@ The following are the differences between authentication and authorization:
 
 1. Authentication verifies identity (usually through credential validation)) while authorization grants or denies permissions to a user.
 
-2. Authentication is used to verify that a user is who they say they are. Authorization is used to verify that a user has permission to do something.
+2. Authentication is used to verify that users are who they say they are. Authorization is used to verify that a user has permission to do something.
 
 ## Starter Application
 
-In this tutorial, you'll work on authentication middleware for an existing API built with Flask and PyMongo. The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the PyJWT library to generate and verify JWT tokens. 
+In this tutorial, you'll work on authentication middleware for an existing API built with Flask and PyMongo. The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the PyJWT library to generate and verify JWT tokens.
 
 To get started, clone the repository and set up the application by running the following commands:
 
-```bash 
+```bash
 git clone https://github.com/LoginRadius/engineering-blog-samples.git # Clone the repository
 cd /Flask/loginRadius-flask-auth # change directory
 python3 -m venv env # create virtual environment; if you're using Windows, `py -m venv env`
@@ -57,11 +58,11 @@ pip install -r requirements.txt # install dependencies
 # https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 ```
 
-The application is now set up and ready to run. You can run the app by using the command `flask run` in the project directory. You can test that all the endpoints are working by testing the app in an API testing tool, like postman.
+The application is now set up and ready to run. You can run the app using the command `flask run` in the project directory. You can test that all the endpoints are working by testing the app in an API testing tool, like Postman.
 
 ## Authentication Middleware
 
-As you've noticed, anybody can access the API; you need to restrict access to the API. Create new book data if they have the correct data, then add, delete, and update book data, but you don't want that. To do this, you need to implement an authentication middleware. 
+As you've noticed, anybody can access the API; you need to restrict access to the API. Create new book data if they have the correct data, then add, delete, and update book data, but you don't want that. To do this, you need to implement an authentication middleware.
 
 Middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot.
 
@@ -130,13 +131,13 @@ def token_required(f):
 
 The function above is simply a decorator function. Inside this function, you check if there is an `Authorization` field in the headers part of the request; if this is missing, you return an authorization error.
 
-Next, you check if it exists but is not valid; if it is not valid, you also return an authorization error. 
+Next, you check if it exists but is not valid; if it is not valid, you also return an authorization error.
 
 If everything goes fine, then the view function is called. As you can see, you return `f(current_user, *args, **kwargs)`, where `f` is the next decorator or function that's being called after this decorator -- in your case, the view function, which means that the first argument of any view function that uses this decorator must be `current_user`.
 
 ## Auth Routes
 
-You currently have a route to creating a new user, but you don't have one to log in. From what you have above, you're checking if the token passed as the header is valid, but now the question is -- how do you get to know the token. Basically, the login route is where you fetch the token and send it to the client.
+You currently have a route to creating a new user, but you don't have one to log in. From what you have above, you're checking if the token passed as the header is valid, but now the question is -- how do you get to know the token. Basically, the login route fetches the token and sends it to the client.
 
 Add the following function below the `add_user` function:
 
@@ -613,7 +614,7 @@ class Books:
         """Get all books created by a user"""
         books = db.books.find({"user_id": user_id})
         return [{**book, "_id": str(book["_id"])} for book in books]
-       
+
     def get_by_category(self, category):
         """Get all books by category"""
         books = db.books.find({"category": category})
@@ -747,6 +748,7 @@ class User:
 ```
 
 Here's an example of the user request:
+
 ```
 {
      "name" : "abc xyz",
@@ -754,9 +756,11 @@ Here's an example of the user request:
      "password" : "Abc@123"
 }
 ```
-Here, the name should have two words and the password should have at least an uppcase later, a lower case letter, a digit, and a special character.
+
+Here, the name should have two words, and the password should have at least an uppercase later, a lower case letter, a digit, and a special character.
 
 And an example of the book request:
+
 ```
 {
     "title":"name of book",
@@ -767,11 +771,12 @@ And an example of the book request:
 }
 ```
 
-While passing a book request, pass it via `form-data` tab in Postman.
+While passing a book request, pass it via the `form-data` tab in Postman.
 
 ## Conclusion
-This article has explained what authentication is and how to authenticate a Flask API with JWT. 
 
-In some cases, handling authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/docs/developer/tutorial/python/) to lean how to add LoginRadius to your Flask application.
+This article has explained authentication and how to authenticate a Flask API with JWT.
 
-You can find the full code for this article on [Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flask/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
+In some cases, handling authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/docs/developer/tutorial/python/) to learn how to add LoginRadius to your Flask application.
+
+You can find the complete code for this article on [Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flask/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
