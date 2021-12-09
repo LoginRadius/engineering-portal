@@ -1,10 +1,10 @@
 ---
-title: "Understanding React Rendering"
+title: "How to Render React with optimization"
 date: "2020-09-23"
 coverImage: "index.png"
 author: Nathan Nguyen
 tags: ["Node.js", "React"]
-description: "Learn to optimize React rendering process."
+description: "Optimized rendering in the frontend is a crucial procedure. Let's learn how to optimize React rendering process."
 ---
 
 Rendering is an essential procedure a programmer has to manage in frontend development. In React, [the render() method is the only required method in a class component](https://reactjs.org/docs/react-component.html#render) and is responsible for describing the view to be rendered to the browser window. Coupled with the clever way React operates around its virtual DOM concept, there are certain subtleties in how this method works. Understanding them will greatly benefit any aspiring React developer. 
