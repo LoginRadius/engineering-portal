@@ -3,20 +3,20 @@ title: "Understanding React Rendering"
 date: "2020-09-23"
 coverImage: "index.png"
 author: Nathan Nguyen
-tags: ["JavaScript", "Node", "React", "Render", "function", "method", "dom", "virtual dom"]
+tags: ["Node", "React", "Render", "function", "method", "dom", "virtual dom"]
 description: "Learn to optimize React rendering process."
 ---
 
-Rendering is the most important procedure that a programmer has to manage in frontend development. In React, [the render() method is the only required method in a class component](https://reactjs.org/docs/react-component.html#render), and is responsible for describing the view to be rendered to the browser window. Coupled with the clever way that React operates around its virtual DOM concept, there are certain subtleties in how this method works, and understanding them will greatly benefit any aspiring React developer. 
+Rendering is an essential procedure a programmer has to manage in frontend development. In React, [the render() method is the only required method in a class component](https://reactjs.org/docs/react-component.html#render) and is responsible for describing the view to be rendered to the browser window. Coupled with the clever way React operates around its virtual DOM concept, there are certain subtleties in how this method works. Understanding them will greatly benefit any aspiring React developer. 
 
 Throughout this writing, I will reference [this codepen](https://codepen.io/n-nguyen/pen/WNwYrRG) for a demonstration of discussed behaviors.
 
 
 ### 1. <strong><code>render()</code></strong> 101
 
-First of all, <strong><code>render()</code></strong> is not user callable. It is part of the [React component lifecycle](https://reactjs.org/docs/state-and-lifecycle.html) and is called by React at various app stages, generally when the React component is first instantiated, or when there is a new update to the component state. Render does not take any arguments, and returns a <strong><code>JSX.Element</code></strong> which contains the view hierarchy of the current component. This view hierarchy will later be translated into HTML and displayed in the browser window.
+First of all, <strong><code>render()</code></strong> is not user callable. It is part of the [React component lifecycle](https://reactjs.org/docs/state-and-lifecycle.html). Generally, it gets called by React at various app stages when the React component instantiates for the first time, or when there is a new update to the component state. Render does not take any arguments and returns a <strong><code>JSX.Element</code></strong> which contains the view hierarchy of the current component. This view hierarchy will later be translated into HTML and displayed in the browser window.
 
-As mentioned before, <strong><code>render()</code></strong> is not user callable as it is an event that happens in the component’s lifecycle. With that said, if it is absolutely necessary to manually render the view, you can instead call the built-in class method <strong><code>[forceUpdate()](https://reactjs.org/docs/react-component.html#forceupdate)</code></strong>. Keep in mind that this is considered an <strong>anti-pattern</strong>. If you were designing sensible React components, its state and props changes should naturally control the render process, and you should never feel the need to make a manual call.
+As mentioned before, <strong><code>render()</code></strong> is not user callable as it is an event that happens in the component’s lifecycle. With that said, if it is absolutely necessary to render the view manually, you can instead call the built-in class method <strong><code>[forceUpdate()](https://reactjs.org/docs/react-component.html#forceupdate)</code></strong>. Keep in mind that this is considered an <strong>anti-pattern</strong>. If you were designing sensible React components, its state and props changes should naturally control the render process, and you should never feel the need to make a manual call.
 
 Within the lifecycle, these are the scenarios where render is called: 
 
@@ -26,17 +26,17 @@ Within the lifecycle, these are the scenarios where render is called:
 *   After an update to the component’s props
 *   After a <strong><code>setState()</code></strong> call
 
-If you have the [Codepen](https://codepen.io/n-nguyen/pen/WNwYrRG) opened at this point, before anything is rendered you will see 2 alert messages from the browser: <code>"render() is called in Parent component!"</code>, and <code>"render() is called in Child component!"</code>. These messages are invoked from the corresponding <strong><code>render()</code></strong> methods of the example’s parent and child component. They serve to introduce the first case of <strong><code>render()</code></strong> invocation: when the component is first instantiated.
+If you have the [Codepen](https://codepen.io/n-nguyen/pen/WNwYrRG) opened at this point, before anything is rendered you will see 2 alert messages from the browser: <code>"render() is called in Parent component!"</code>, and <code>"render() is called in Child component!"</code>. These messages are invoked from the corresponding <strong><code>render()</code></strong> methods of the example's parent and child component. They serve to introduce the first case of <strong><code>render()</code></strong> invocation: when the component is first instantiated.
 
 Once the set of alerts is dismissed, a very simple UI will render:
 
 ![Example UI](image1.png)
 
-The dotted border line serves to distinguish between elements that belong to the Child component of the example (inside the dotted line), versus the Parent component.
+The dotted border line distinguishes between elements that belong to the Child component of the example (inside the dotted line) versus the Parent component.
 
 
 
-*   Clicking button 1 will update the <strong><code>childElementText</code></strong> state of the Parent component which in turns updates the <strong><code>text</code></strong> prop of the Child component, triggering a render in both Parent and Child.
+*   Clicking button 1 will update the <strong><code>childElementText</code></strong> state of the Parent component, which in turns updates the <strong><code>text</code></strong> prop of the Child component, triggering a render in both Parent and Child.
 
 
 ```JavaScript
@@ -62,9 +62,9 @@ The dotted border line serves to distinguish between elements that belong to the
 
 A visual and interactive reference to the React lifecycle can be found [here](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/).
 
-It is worth noting that following a props update or <strong><code>setState()</code></strong>, the method <strong><code>shouldComponentUpdate()</code></strong> is invoked to determine whether <strong><code>render()</code></strong> should be called. By default, this method always returns <strong><code>true</code></strong>, but it can be overloaded to implement custom logic. This is the main way to define custom render behavior in each React component.
+It is worth noting that following a props update or <strong><code>setState()</code></strong>, the method <strong><code>shouldComponentUpdate()</code></strong> is invoked to determine whether <strong><code>render()</code></strong> should be called. By default, this method always returns <strong><code>true</code></strong>. But it can be overloaded to implement custom logic. It is the actual way to define custom render behavior in each React component.
 
-<strong><code>shouldComponentUpdate()</code></strong> provides you with nextProp and nextState as arguments, which allows you to compare the current state and props of the component. For example, this code block will invoke <strong><code>render()</code></strong> only when the <strong><code>text</code></strong> prop changes:
+The <strong><code>shouldComponentUpdate()</code></strong> provides you with nextProp and nextState as arguments, which allows you to compare the current state and props of the component. For example, this code block will invoke <strong><code>render()</code></strong> only when the <strong><code>text</code></strong> prop changes:
 
 
 ```JavaScript
@@ -78,7 +78,7 @@ It is worth noting that following a props update or <strong><code>setState()</co
 ```
 
 
-The characteristics and behaviors mentioned above made it imperative that <strong><code>render()</code></strong> is a pure function. This means inside <strong><code>render()</code></strong>, you should not make an update to the component’s states or props (no setState() call nor Redux state update). This makes sense because an update to the component will then trigger a new <strong><code>render()</code></strong> call, which can potentially lock you into an infinite render loop.
+The characteristics and behaviors mentioned above made it imperative that <strong><code>render()</code></strong> is a pure function. That means inside <strong><code>render()</code></strong>, you should not make an update to the component's states or props (no setState() call nor Redux state update). This makes sense because an update to the component will then trigger a new <strong><code>render()</code></strong> call, which can potentially lock you into an infinite render loop.
 
 In terms of return value: <strong><code>render()</code></strong> returns a single JSX element, as mentioned above. This comes with certain implications:
 
