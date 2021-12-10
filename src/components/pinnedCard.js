@@ -37,6 +37,7 @@ const PinnedCard = () => {
                 excerpt
                 fields {
                   slug
+                  gitAuthorTime(formatString: "MMMM DD, YYYY")
                 }
                 html
                 frontmatter {
@@ -75,6 +76,7 @@ const PinnedCard = () => {
           (pinnedNode.length && pinnedNode[0].node) ||
           data.allMarkdownRemark.edges[0].node
         const tags = node.frontmatter.tags || []
+        const { gitAuthorTime } = node.fields
         let coverImagePath = node.frontmatter.coverImage
         return (
           <React.Fragment>
@@ -114,7 +116,13 @@ const PinnedCard = () => {
                   </div>
                   {node.frontmatter.author && (
                     <Bio
-                      date={node.frontmatter.date}
+                      date={
+                        node.frontmatter.date === gitAuthorTime ||
+                        gitAuthorTime === "Invalid date" ||
+                        gitAuthorTime === undefined
+                          ? node.frontmatter.date
+                          : gitAuthorTime
+                      }
                       author={node.frontmatter.author}
                       pinned
                       readingTime={getTimeToRead(node.html)}

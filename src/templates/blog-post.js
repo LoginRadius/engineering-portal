@@ -33,6 +33,7 @@ export const pageQuery = graphql`
       }
       fields {
         slug
+        gitAuthorTime(formatString: "MMMM DD, YYYY")
       }
       frontmatter {
         description

@@ -105,7 +105,7 @@ Run your server using `node server.js`. This is a simple server running on port 
         return res.status(400).send({ error: "Data not formatted properly" });
       }
 
-      // createing a new mongoose doc from user data
+      // creating a new mongoose doc from user data
       const user = new User(body);
       // generate salt to hash password
       const salt = await bcrypt.genSalt(10);

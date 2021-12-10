@@ -2,6 +2,7 @@ const path = require(`path`)
 const fs = require("fs")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { execSync } = require("child_process")
 
 require("dotenv").config({ path: `${__dirname}/.env` })
 
@@ -124,7 +125,7 @@ exports.createPages = async ({ graphql, actions }) => {
     path: `/search/`,
     component: searchTemplate,
     context: {
-      index: result.data.siteSearchIndex.index
+      index: result.data.siteSearchIndex.index,
     },
   })
 
@@ -161,6 +162,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `slug`,
       node,
       value,
+    })
+    const gitAuthorTime = execSync(
+      `git log -1 --pretty=format:%cI content${node.fields.slug}`
+    ).toString()
+
+    createNodeField({
+      node,
+      name: `gitAuthorTime`,
+      value: gitAuthorTime,
     })
 
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "author")) {
@@ -203,5 +213,3 @@ exports.onPostBuild = function () {
     )
   }
 }
-
-

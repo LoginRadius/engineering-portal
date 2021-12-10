@@ -3,10 +3,9 @@ import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
-
 import SEO from "./seo"
 import Bio from "./bio"
-
+import ToC from "./toc"
 import styles from "./post.module.scss"
 
 import { Link } from "gatsby"
@@ -19,7 +18,6 @@ import ReactGA from "react-ga"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
-import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -36,6 +34,7 @@ const signUplogger = function () {
   })
 }
 const Post = ({ post, relatedPost }) => {
+  const { gitAuthorTime } = post.fields
   const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
@@ -43,7 +42,6 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
-
 
   return (
     <>
@@ -98,7 +96,13 @@ const Post = ({ post, relatedPost }) => {
             {author && (
               <Bio
                 readingTime={getTimeToRead(post.html)}
-                date={post.frontmatter.date}
+                date={
+                  post.frontmatter.date === gitAuthorTime ||
+                  gitAuthorTime === "Invalid date" ||
+                  gitAuthorTime === undefined
+                    ? post.frontmatter.date
+                    : gitAuthorTime
+                }
                 author={author}
                 pinned
               />
@@ -145,8 +149,8 @@ const Post = ({ post, relatedPost }) => {
                   <div class={styles.relatedPost}>
                     <h3>Related Posts</h3>
                     {relatedPost.map(({ node }, i) => (
-                      <div class={styles.relatedPostRow}>
-                        <div class={styles.description}>
+                      <div className={styles.relatedPostRow}>
+                        <div className={styles.description}>
                           <h4>
                             <Link to={node.fields.slug} rel="prev">
                               {node.frontmatter.title}
@@ -232,7 +236,8 @@ const Post = ({ post, relatedPost }) => {
             <div className={styles.postContent}>
               <h2>Do you want a free authentication solution?</h2>
               <p>
-                Add the world's most secure, reliable and easy to implement user authentication solution on your applications at $0
+                Add the world's most secure, reliable and easy to implement user
+                authentication solution on your applications at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
@@ -269,8 +274,7 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
-
-        <ToC headings = {headings}/>
+        <ToC headings={headings} />
 
         <div id="commento"></div>
       </section>

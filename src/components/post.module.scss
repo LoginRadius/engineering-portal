@@ -119,6 +119,14 @@
     }
   }
 }
+.lastUpdated {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 50px;
+  position: relative;
+}
+
 .bg-bright-01 {
   background-color: $blue-bright;
   .grid-66-33 {
