@@ -44,14 +44,18 @@ const Post = ({ post, relatedPost }) => {
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
-  setTimeout(() => {
-    const mainDoc = document.querySelectorAll(".container-post a")
-    mainDoc.forEach(
-      i =>
-        !i.hostname.includes("loginradius") &&
-        i.setAttribute("target", "_blank")
-    )
-  }, 500)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const mainDoc = document.querySelectorAll(".container-post a")
+      mainDoc.forEach(
+        i =>
+          i &&
+          !i?.hostname?.includes("loginradius") &&
+          i?.setAttribute("target", "_blank")
+      )
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
     <>
