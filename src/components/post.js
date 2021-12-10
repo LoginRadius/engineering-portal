@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
@@ -42,6 +42,19 @@ const Post = ({ post, relatedPost }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const mainDoc = document.querySelectorAll(".container-post a")
+      mainDoc.forEach(
+        i =>
+          i &&
+          !i?.hostname?.includes("loginradius") &&
+          i?.setAttribute("target", "_blank")
+      )
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
     <>
@@ -136,7 +149,7 @@ const Post = ({ post, relatedPost }) => {
           </div>
         </div>
       </section>
-      <section className={`pt-80 ${styles.postDetail}`}>
+      <section className={`pt-80 ${styles.postDetail} container-post`}>
         <div>
           <div className="grid-70-30">
             <div
@@ -274,6 +287,7 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
+
         <ToC headings={headings} />
 
         <div id="commento"></div>
