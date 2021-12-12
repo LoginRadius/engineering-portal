@@ -22,10 +22,55 @@ It also poses difficulty when scaling up applications, or when user have to main
 For this single sign on is required, where user authenticates once and gets access to all the applications they are authorized for. OAuth, OIDC and JWT are standards that can help with it.
 
 
+## Setitng up Oauth2 with Google
+
+1. Open [Google Cloud Console]() and sign in using your Google Account.Click on **Create Project**.
+
+![alt_text](/images/google-console-dashboard.png "image_tooltip")
+
+2. Fill in the details of the project and click **Create**.
+
+![alt_text](/images/create-new-project.png "image_tooltip")
+
+3. A new project will be set-up and you'll be redirected to dashboard displaying user analytics. Once here, select **Credentials** from left navigation menu.
+
+![alt_text](/images/new-project-created.png "image_tooltip")
+
+4. Click on **Create Credentials** and select **Oauth Client ID**.
+
+
+![alt_text](/images/create-credentials.png "image_tooltip")
+
+5. Select **Create Consent Screen**. Depending on your needs you can select **Internal** or  **External**, for purposes of this tutorial we'll keep option for account accessible to users outside our organisation, so we'll select **External**.
+
+
+![alt_text](/images/creat.png "image_tooltip")
+
+6. On **Edit App Registration** screen, fill in the details as required. Once done, click on **Save and Continue** to move onto the next step.
+
+![alt_text](/images/edit-application-details.png "image_tooltip")
+
+7. Under **Scopes** section click on **Add or Remove scopes**, a form opens up where you can configure the scopes you'd like to add. You may also manually add scopes under **Manually Add Scopes** option. Once done click on **Save** to move to next step.
+
+![alt_text](/images/update-selected-scopes.png "image_tooltip")
+
+
+8. Under **Test Users** you can choose to add the users who'll have access to app while its under "testing" status.
+
+![alt_text](/images/update-selected-scopes.png "image_tooltip")
+
+9. Now all the settings are done, you can review the settings on final page. Click on **Back to dashboard**. Once here, navigate back to **Credentials** from side navigation bar and select **Application Type** from drop down. For this tutorial we'll choose web application application type. You can also enter the URIs **Authorised JavaScript origins**. s
+
+![alt_text](/images/web-applications.png "image_tooltip")
+
+10. Once you are done with above step you'll get your user credentials (**Client ID** and **Client Secret**).
+
+
+
 ## Creating a page with Spring Initializr
 
 1. Head over to Spring Initializr [start.spring.io]
-2. Fill in the required **Group Name** and **Artifact**. In **Dependencies** search for **OAuth2**
+2. Fill in the required **Group Name** and **Artifact**. In **Dependencies** search for **OAuth2**, **Lombok**, **Spring Web**, **JPA**, **H2 Database** and add them as shown.
 
 ![server-side-template](/images/server-side-config.png "image_tooltip")
 
@@ -35,20 +80,20 @@ For this single sign on is required, where user authenticates once and gets acce
 
 ![client-side-template](/images/server-side-config.png "image_tooltip")
 
-Now the Spring Boot template for both server and client side is initialized. Next, we'll create a resource configuration on the server side.
 
-## Creating a resource config on server side
+Open the project in your code editor.
 
-1. Locate the downloaded **spring-security-auth-server.zip** file and extract it. Open the project in your preferred code editor.
+5. Locate to **src>main>resources>application.properties** and paste this 
 
-2. Under `src/main/java/com/userauthentication/springsecurityauthserver` path create a new package called **config**.
+```
 
+spring.security.oauth2.client.registration.google.client-id= **Your ClientID from above Google OAuth2 setup**
 
-![alt_text](/images/config.png "image_tooltip")
+spring.security.oauth2.client.registration.google.client-secret= **Your Client Secret from above Google OAuth2 setup**
 
-3. Inside the **config** package create a class **ResourceServiceClass**.
+```
 
-The @EnableWebSecurity annotation and WebSecurityConfigurerAdapter work together to provide security to the application. The @Order annotation is used to specify which WebSecurityConfigurerAdapter should be considered first.
+1. Under **src>main>java** create a new package **Config**. Under this we are going to create a configuration which will allow browser Cross Origin access. Create a **.java** file **CrossOrigin.java** and add following configuration to it.
 
 ```
 
