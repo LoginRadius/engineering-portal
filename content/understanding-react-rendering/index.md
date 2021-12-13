@@ -84,7 +84,7 @@ In terms of return value: <strong><code>render()</code></strong> returns a singl
 
 
 
-*   If you need to return a collection of sibling elements, you need to wrap them all in a parent <strong><code><div></code></strong>, or a <strong><code><React.Fragment></code></strong>. It is worth noting that once rendered, <strong><code><React.Fragment></code></strong> will vanish from the DOM structure. It is only meant to be a wrapper component and does not appear in the final DOM in the browser. This makes it a more sensible choice over a <div> wrapping to avoid nesting div’s.
+*   If you need to return a collection of sibling elements, you need to wrap them all in a parent <strong><code><div></code></strong>, or a <strong><code><React.Fragment></code></strong>. It is worth noting that once rendered, <strong><code><React.Fragment></code></strong> will vanish from the DOM structure. It is only meant to be a wrapper component and does not appear in the final DOM in the browser. That makes it a more sensible choice over a <div> wrapping to avoid nesting div’s.
 
      
 
@@ -118,7 +118,7 @@ For instance, given this DOM subtree:
 ```
 
 
-If a <NewComponent> is then added to the top of the list:
+If a `<NewComponent/>` is then added to the top of the list:
 
 ```HTML
 <div>
@@ -137,7 +137,7 @@ If a <NewComponent> is then added to the top of the list:
 ```
 
 
-If instead <NewComponent> is added to the bottom: 
+If instead `<NewComponent>` is added to the bottom: 
 
 
 ```HTML
@@ -161,9 +161,9 @@ If instead <NewComponent> is added to the bottom:
 
 
 
-*   If you have ever tried to use the <strong><code>map()</code></strong> method to iterate over an array to render a list of elements, it is likely that you have seen React complaining about a missing <strong><code>key</code></strong> prop to each rendered list item. So what does <strong><code>key</code></strong> actually do?
+*   If you have ever tried to use the <strong><code>map()</code></strong> method to iterate over an array to render a list of elements, it is likely that you have seen React complaining about a missing <strong><code>key</code></strong> prop to each rendered list item. So what does the <strong><code>key</code></strong> actually do?
 
-    A <strong><code>key</code></strong> is React’s way to recognize elements in the DOM tree, comes reconciliation time. When React is parsing all children of an element, it can leverage keys to match elements that were present from the last update. This allows you to shuffle the order of child elements without interfering with the algorithm. As long as the key matches between updates, React will preserve the element configuration.
+    A <strong><code>key</code></strong> is React’s way to recognize elements in the DOM tree, comes reconciliation time. When React is parsing all children of an element, it can leverage keys to match elements that were present from the last update. That allows you to shuffle the order of child elements without interfering with the algorithm. As long as the key matches between updates, React will preserve the element configuration.
 
 
 Coming back to the example above, let’s add keys to all the existing list items:
@@ -205,4 +205,4 @@ In case a subtree is generated using a <strong><code>map()</code></strong> or ot
 
 ### 3. Parting words
 
-React is a clever framework that offers performance through its rendering scheme, so it follows that, as developers, we should leverage it in a proper manner to help build performant applications. With that said, it is not a miracle device that optimizes out inefficiencies from the developer’s end, but a tool to be utilized. Understanding the <strong><code>render()</code></strong> method as well as its implication to the reconciliation algorithm is the very first step to making sure we are leveraging the framework instead of working against it, as well as one of the first steps to mastering React.
+React is a clever framework that offers performance through its rendering scheme, so it follows that, as developers, we should leverage it appropriately to help build performant applications. With that said, it is not a miracle device that optimizes out inefficiencies from the developer’s end, but a tool to be utilized. Understanding the <strong><code>render()</code></strong> nd its implication to the reconciliation algorithm is the first step to make sure we are leveraging the framework instead of working against it. It is also one of the first steps to mastering React.
