@@ -68,7 +68,7 @@ The entire cookieless authentication works in the following manner:
 
 * **Seamless Across Devices:** Cookieless authentication works well with all native applications. Tokens are much easier to implement on iOS, Android, IoT devices, and distributed systems, making the authentication system seamless.
 
-- **Time Expiration:** Usually, tokens get generated with an expiration time, after which they become invalid. Then a new token needs to be obtained for reauthentication. If a token gets leaked, the potential damage becomes much smaller due to its short lifespan.
+- **Expiration Time:** Usually, tokens get generated with an expiration time, after which they become invalid. Then a new token needs to be obtained for reauthentication. If a token gets leaked, the potential damage becomes much smaller due to its short lifespan.
 
 ### Challenges with Cookieless Authentication
 
@@ -76,7 +76,7 @@ The entire cookieless authentication works in the following manner:
 
 * **Data Overhead:** Storing a lot of data increases the overall size of the token. It slows down the request impacting the overall loading speed. This slowing down ultimately hampers the user experience. Thus proper development practices need to be followed, regulating minimum but essential data into the token.
 
-- **Vulnerable to XSS and CSRF:** Cookieless authentications are susceptible to XSS and CSRF attacks. So, the best practice is to have a short expiration time for access tokens. Keeping a longer expiration time might allow the attackers to hijack the access token and use it to gain unauthorized authentication.
+- **Vulnerable to XSS and CSRF:** Cookieless authentications are susceptible to [XSS](https://www.loginradius.com/blog/async/http-security-headers/) and CSRF attacks. So, the best practice is to have a short expiration time for access tokens. Keeping a longer expiration time might allow the attackers to hijack the access token and use it to gain unauthorized authentication.
 
 ## How does LoginRadius have Native Support for Cookieless Authentication?
 
