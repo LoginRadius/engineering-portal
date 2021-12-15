@@ -196,20 +196,3 @@ exports.createSchemaCustomization = ({ actions }) => {
   `
   createTypes(typeDefs)
 }
-
-exports.onPostBuild = function () {
-  if (process.env.APP_ENV === "PRODUCTION") {
-    fs.renameSync(
-      path.join(__dirname, "public"),
-      path.join(__dirname, "public-blog")
-    )
-
-    fs.mkdirSync(path.join(__dirname, "public"))
-    fs.mkdirSync(path.join(__dirname, "public", "blog"))
-
-    fs.renameSync(
-      path.join(__dirname, "public-blog"),
-      path.join(__dirname, "public", "blog", "async")
-    )
-  }
-}
