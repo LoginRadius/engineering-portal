@@ -101,7 +101,7 @@ This is similar to the OAuth 1.0 protocol, it relies on a client id and secret i
     4. redirect\_uri
     5. grant\_type - This should be set to “authorization\_code”
 
-The server will verify these details and then return an access token with an expiration time if they are valid. These are generally returned in the following format:
+The server will verify these details and then return an access token with an expiration time if they are valid. These get generally returned in the following format:
 
 1. access\_token
 2. expires\_in
