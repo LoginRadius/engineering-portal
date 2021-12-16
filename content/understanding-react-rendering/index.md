@@ -84,7 +84,7 @@ In terms of return value: <strong><code>render()</code></strong> returns a singl
 
 
 
-*   If you need to return a collection of sibling elements, you need to wrap them all in a parent <strong><code><div></code></strong>, or a <strong><code><React.Fragment></code></strong>. It is worth noting that once rendered, <strong><code><React.Fragment></code></strong> will vanish from the DOM structure. It is only meant to be a wrapper component and does not appear in the final DOM in the browser. This makes it a more sensible choice over a <div> wrapping to avoid nesting div’s.
+*   If you need to return a collection of sibling elements, you need to wrap them all in a parent <strong><code>&lt;div></code></strong>, or a <strong><code>&lt;React.Fragment></code></strong>. It is worth noting that once rendered, <strong><code>&lt;React.Fragment></code></strong> will vanish from the DOM structure. It is only meant to be a wrapper component and does not appear in the final DOM in the browser. This makes it a more sensible choice over a <strong><code>&lt;div></code></strong> wrapping to avoid nesting div’s.
 
      
 
@@ -118,7 +118,7 @@ For instance, given this DOM subtree:
 ```
 
 
-If a <NewComponent> is then added to the top of the list:
+If a <strong><code>&lt;NewComponent></code></strong> is then added to the top of the list:
 
 ```HTML
 <div>
@@ -137,7 +137,7 @@ If a <NewComponent> is then added to the top of the list:
 ```
 
 
-If instead <NewComponent> is added to the bottom: 
+If instead <strong><code>&lt;NewComponent></code></strong> is added to the bottom: 
 
 
 ```HTML
@@ -157,7 +157,7 @@ If instead <NewComponent> is added to the bottom:
 ```
 
 
- In the example above, appending <New Component> to the end of the list will result in 1 new instantiation, versus 1 instantiation, 3 updates and 1 tear down. In a larger application scale, this will prove to be a significant performance difference in the long run.
+ In the example above, appending <strong><code>&lt;NewComponent></code></strong> to the end of the list will result in 1 new instantiation, versus 1 instantiation, 3 updates and 1 tear down. In a larger application scale, this will prove to be a significant performance difference in the long run.
 
 
 
