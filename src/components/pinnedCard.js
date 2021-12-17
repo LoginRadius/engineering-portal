@@ -29,38 +29,55 @@ const PinnedCard = () => {
     <StaticQuery
       query={graphql`
         query {
+          markdownRemark(frontmatter: { pinned: { eq: true } }) {
+            html
+            frontmatter {
+              title
+              tags
+              author {
+                github
+                id
+              }
+              description
+              coverImage {
+                childImageSharp {
+                  fluid(pngQuality: 80) {
+                    ...GatsbyImageSharpFluid_noBase64
+                  }
+                }
+              }
+            }
+            fields {
+              gitAuthorTime(formatString: "MMMM DD, YYYY")
+              slug
+            }
+          }
           allMarkdownRemark(
-            sort: { fields: [frontmatter___date], order: DESC }
+            filter: {}
+            sort: { fields: frontmatter___date, order: DESC }
+            limit: 1
           ) {
             edges {
               node {
-                excerpt
-                fields {
-                  slug
-                  gitAuthorTime(formatString: "MMMM DD, YYYY")
-                }
                 html
                 frontmatter {
-                  description
-                  date(formatString: "MMMM DD, YYYY")
                   title
                   tags
+                  author {
+                    github
+                    id
+                  }
                   description
                   coverImage {
                     childImageSharp {
-                      fluid(quality: 80) {
+                      fluid(pngQuality: 80) {
                         ...GatsbyImageSharpFluid_noBase64
                       }
                     }
                   }
-                  author {
-                    id
-                    github
-                  }
-                  pinned
                 }
                 fields {
-                  authorId
+                  gitAuthorTime(formatString: "MMMM DD, YYYY")
                   slug
                 }
               }
@@ -69,12 +86,7 @@ const PinnedCard = () => {
         }
       `}
       render={data => {
-        const pinnedNode = data.allMarkdownRemark.edges.filter(
-          edge => edge.node.frontmatter.pinned
-        )
-        const node =
-          (pinnedNode.length && pinnedNode[0].node) ||
-          data.allMarkdownRemark.edges[0].node
+        const node = data.markdownRemark || data.allMarkdownRemark.edges[0].node
         const tags = node.frontmatter.tags || []
         const { gitAuthorTime } = node.fields
         let coverImagePath = node.frontmatter.coverImage

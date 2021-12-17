@@ -19,7 +19,7 @@ const BlogList = props => {
   const [openMenu, setOpenMenu] = useState(false)
   console.log(props)
   return (
-    <Layout>
+    <Layout pinned>
       <SEO
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}

@@ -40,14 +40,6 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 }
               }
             }
-            allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }
-            ) {
-              group(field: frontmatter___tags) {
-                tag: fieldValue
-                totalCount
-              }
-            }
           }
         `}
         render={data => {
