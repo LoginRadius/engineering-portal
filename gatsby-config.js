@@ -92,6 +92,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/engineering`,
+        name: `engineering`,
+      },
+    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/identity`,
+    //     name: `identity`,
+    //   },
+    // },
+    {
       resolve: "gatsby-plugin-html-attributes",
       options: {
         lang: "en",

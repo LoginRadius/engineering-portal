@@ -51,17 +51,19 @@
     }
     .tag {
       a {
-        background-color: $gray-light;
-        padding: 0 16px;
-        border-radius: 4px;
-        color: $black;
-        line-height: 30px;
-        font-size: 16px;
-        height: 30px;
         display: inline-flex;
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-bottom: 15px;
+        border-radius: 100px;
+        font-weight: 500;
+        padding: 6px 12px;
+        border: 2px #008ECF solid;
+        font-size: 0.8rem;
+        margin-left: 12px;
+        margin-bottom: 12px;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+
         &:hover {
           background-color: $blue-bright;
           color: $white;

@@ -53,6 +53,7 @@
     "react-ga": "^3.0.0",
     "react-helmet": "^5.2.1",
     "react-script-tag": "^1.1.2",
+    "react-tabs": "^3.2.3",
     "react-toastify": "^7.0.4",
     "react-typography": "^0.16.19",
     "rehype-parse": "^7.0.1",

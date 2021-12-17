@@ -114,8 +114,7 @@ ul {
   white-space: nowrap;
   transition: all 0.3s;
   border: 0;
-  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
-    box-shadow 0.35s, opacity 0.35s;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s, box-shadow 0.35s, opacity 0.35s;
   background-color: $cta;
   color: $white;
   border-color: $cta;
@@ -183,7 +182,7 @@ ul {
   padding: 40px 0;
 }
 .py-80 {
-  padding: $space-80 0;
+  padding: $gutter*4 0;
   @media (max-width: 768px) {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -349,8 +348,7 @@ section {
   margin-right: calc(0.7002rem - 1px);
 }
 .sib-form .progress-indicator__icon {
-  -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85)
-    infinite;
+  -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
   animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
 }
 .sib-form .clickable__icon {
@@ -385,6 +383,15 @@ section {
 .sib-form ::after,
 .sib-form ::before {
   box-sizing: border-box;
+}
+
+.react-tabs__tab--selected {
+  border-bottom: 3px solid $blue-bright;
+  color: $blue-bright !important;
+  @media (max-width: 767px) {
+    background: $blue-bright;
+    color: $white !important;
+  }
 }
 
 @keyframes indicator-spin {
