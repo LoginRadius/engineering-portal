@@ -1,10 +1,7 @@
 const path = require(`path`)
-const fs = require("fs")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { execSync } = require("child_process")
-
-require("dotenv").config({ path: `${__dirname}/.env` })
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -118,38 +115,6 @@ exports.createPages = async ({ graphql, actions }) => {
         authorId: author,
       },
     })
-  })
-
-  // create search page
-  createPage({
-    path: `/search/`,
-    component: searchTemplate,
-    context: {
-      index: result.data.siteSearchIndex.index,
-    },
-  })
-
-  const staticPages = [
-    {
-      name: "guest-blog",
-    },
-  ]
-  staticPages.forEach(staticPage => {
-    switch (staticPage.name) {
-      case "guest-blog":
-        createPage({
-          path: `/page/${staticPage.name}`,
-          component: require.resolve(`./src/templates/guest-blog.js`),
-          context: { staticPage },
-        })
-        break
-      default:
-        createPage({
-          path: `/page/${staticPage.name}`,
-          component: require.resolve(`./src/templates/guest-blog.js`),
-          context: { staticPage },
-        })
-    }
   })
 }
 

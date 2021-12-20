@@ -12,18 +12,6 @@ module.exports = {
     image: "/async.svg",
     owner: "LoginRadius",
     menuLinks: [
-      // {
-      //   name: "Developers",
-      //   slug: "https://www.loginradius.com/identity-experience-framework/",
-      // },
-      // {
-      //   name: "Docs",
-      //   slug: "https://www.loginradius.com/docs/developer",
-      // },
-      // {
-      //   name: "Our Blogs",
-      //   slug: "https://www.loginradius.com/blog/",
-      // },
       {
         name: "ASYNC Blog",
         slug: "https://www.loginradius.com/blog/async/",
@@ -323,5 +311,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: `/blog/async`,
+  pathPrefix: `/blog`,
 }
