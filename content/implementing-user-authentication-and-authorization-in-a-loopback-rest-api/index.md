@@ -1,7 +1,7 @@
 ---
 title: "Implementing User Authentication and Authorization in a Loopback REST API"
 date: "2021-12-17"
-coverImage: "coverImage.jpg"
+coverImage: "coverImage.png"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["open source", "loginRadius", "authentication"]
 description: "In this tutorial, you'll learn how to implement user authentication and authorization in a Loopback REST API"
