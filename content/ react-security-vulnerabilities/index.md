@@ -111,7 +111,7 @@ default-src 'self'; script-src 'self'; object-src 'none'; frame-src 'none'; base
 ```
 
 ## Broken Authentication
-Poorly implemented session management and authentication can lead to broken authentication in progressive web apps. This vulnerability helps the attacker take over one or more user accounts, letting the attacker possess the same privileges and access control as the target user. 
+Broken authentication is a weakness through which attackers can capture one or multiple accounts when authentication or session management is poorly implemented in progressive web apps. This vulnerability helps the attacker take over multiple user accounts, letting the attacker possess the same privileges and access control as the target user. 
 
 Attackers usually exploit such a React security vulnerability by detecting the authentication solution or bypassing them. The security team labels the authentication as broken when the cybercriminal can compromise users' passwords, session tokens, digital identities, or account information from the React app. Examples of some common reasons for this attack are:
 
