@@ -7,21 +7,21 @@ tags: ["React", "vulnerability", "prevent", "security"]
 description: "React security vulnerabilities are difficult to detect with naked eyes. However, it can be disastrous for progressive web apps if developers don't know how to fix them."
 ---
 
-Every developer vouches to leverage the benefits React caters to the developers. But developers need to keep in mind the security postures while creating React web apps. React applications face a vast attack surface and are prone to different vulnerabilities. This article is a checklist of React security best practices that every developer should know before diving into PWA (progressive web application) development. 
+All React developers love to leverage the benefits React caters to in developing web applications. But developers need to keep in mind the security postures while creating React web apps. React applications face a vast attack surface and are prone to different vulnerabilities. This article is a checklist of React security best practices that every developer should know before diving into PWA (progressive web application) development. 
 If you are new to progressive web applications and React, let's get familiar with these terminologies first.
 
 ## What are Progressive Web Applications (PWA)?
 Progressive Web Apps (PWA) are apps built using web technologies like HTML, CSS, and JavaScript (JS). But these apps deliver the experience, feel, and functionality of a native app. PWA combines new technologies and integrations to build a reliable, engaging, accessible, and secure application. Developers mostly use React on top of HTML and JavaScript to build a progressive web app.
 
 ## What is React?
-React is a free, open-source, robust, and popular front-end JavaScript library. It builds user interfaces based on UI components. React is popular among progressive web app developers. It builds user interfaces based on UI components. React is popular in the software development industry because it allows developers to create lightweight apps with additional facilities: security, push notification, app-like look and feel, etc. Some popular companies that have become the early adopters of React are Instagram, Netflix, Airbnb, Uber Eats, Discord, the New York Times, etc. 
+React is popular among progressive web app developers. This open-source, robust JavaScript library helps in building user interfaces based on UI components. React gains popularity in the software development industry because it allows developers to create lightweight apps with additional facilities: security, push notification, app-like look and feel, etc. Some popular companies that have become the early adopters of React are Instagram, Netflix, Airbnb, Uber Eats, Discord, the New York Times, etc. 
 
 ## Security Vulnerabilities in React and how to prevent them –
 React helps developers build a reliable, robust, and secure progressive web app, but these apps face certain security pitfalls also. Developers need to give prior attention to security vulnerabilities, which are often ignored due to faster app development cycles or more focus on product features.
 According to the [Synk](https://snyk.io/wp-content/uploads/snyk-javascript_report_2019.pdf) report, with the arrival of each new update in React adding more features, the security flaws are getting unnoticed. Such unnoticed actions are increasing security concerns. Here is a list of top React security vulnerabilities that every React developer must address before delivering or deploying their apps.
 
 ## SQL Injection
-SQL Injection, also known as SQLi, is a widely known web application attack. The cybercriminal intends to perform database manipulation logically to access sensitive information that is not supposed to be displayed. Attackers try to sneak into that sensitive information to collect phone numbers, payment details, addresses, passwords, and other credentials.
+SQL Injection (SQLi) is a widely known web application attack. The cybercriminal intends to perform database manipulation logically to access sensitive information that is not supposed to be displayed. Attackers try to sneak into that sensitive information to collect phone numbers, payment details, addresses, passwords, and other credentials.
 This technique allows the attackers to manage access to the server, pull the data, and manipulate the values in the database. Apart from data modification, hackers can also delete the data. 
 Let us take an example. Here is a code concerning the current username and searches for login matching the item name, where the owner is the current user.
 ```
@@ -35,7 +35,7 @@ SELECT * FROM login
 WHERE owner =
 AND itemName = ;
 ```
-The issue that pops here is that the original code leverages the concept of concatenation to combine data. The attacker can use a string like <code> 'name' OR 'x'='x' </code> as the item name. <code> 'x'='x' </code> is a condition that will always evaluate as True. Therefore, the SQL statement will return True for all items in the table. So, the following query becomes:
+The issue that pops here is that the original code leverages the concept of concatenation to combine data. The attacker can use a string like <code> 'name' OR 'x'='x' </code> as the item name. <code> 'x'='x' </code> is a condition that will always evaluate as True. Therefore, the statement returns True for all values within the table. So, the following query becomes:
 ```
 SELECT * FROM login
 WHERE owner = 'karlos'
@@ -44,12 +44,12 @@ AND itemName = 'name' OR 'x'='x';
 
 There are three major categories of SQL injection based on how attackers gain access to the backend data.
 
-*  **In-band SQL Injection:** The attacker usually initiates the attack and gathers sensitive credentials through one single channel. This type of SQL injection attack is simple and efficient. Hence, it is one of the most commonly performed SQLi attacks on React apps. It comes with two sub-categories –
+*  **In-band SQL Injection:** The attacker usually initiates the attack and gathers sensitive credentials through one single channel. Such SQL attacks are simple, and hence, it is one of the most commonly performed SQLi attacks on React apps. It comes with two sub-categories –
     * **Error-based SQLi:** The attacker performs a fake mimicking of the admin's credentials. Such an action provokes the database to generate an error. This error message reflects how the database schema and its structure got designed.
-    * **Union-based SQLi:** The attacker leverages the UNION operator of SQL to perform this attack. Using UNION, the attacker fuses multiple SELECT statements and triggers them from the web app for an HTTP response. If that single response comes with some sensitive data stored in the database, UNION-based SQLi becomes successful.
+    * **Union-based SQLi:** The attacker uses the UNION operator of SQL to perform this attack. Using UNION, the attacker fuses multiple SELECT statements and triggers them from the web app for an HTTP response. If that single response comes with some sensitive data stored in the database, UNION-based SQLi becomes successful.
   
- * **Inferential/Blind SQL Injection:** The attacker pushes payloads targeting the server. Then they observe the behavior and keep track of the server response to know more about the database structure. Here, the attacker cannot witness the data reverting through the attack in-band, hence the name "Blind." Blind SQLi comes in two variations.
-    * **Boolean:** The attacker sends a SQL query to the database provoking the application to respond. Based on the True or False value, the attacker can frame other SQL queries to extract data. The result of the query is either True or False and hence the name.
+ * **Inferential/Blind SQL Injection:** The attacker pushes payloads targeting the server. Then they observe the behavior and keep track of the server response to know more about the database structure. Here, the attacker cannot witness the data reverting through the attack in-band, hence the name "Blind." There are two sub-categories of blind SQLi.
+    * **Boolean:** The attacker sends a malicious query to the target database provoking the app to respond. Based on the True or False value, the attacker can frame other SQL queries to extract data. The result of the query is either True or False and hence the name.
     * **Time-based:** Here, the attacker sends a SQL query through the web app and waits for the response. The attacker notes down the time taken by the database to respond and checks the server response (True or False). Based on these two response parameters, the attacker re-launches another query. If the message sent through the SQL query successfully slows down the response, SQL injection is possible on that application.
 
  * **Out-of-Band SQL Injection:** Such attacks are more likely when the attacker senses some particular feature enabled in the server used by the React web application. This attack happens when the attacker cannot use the same channel to launch the attack and fetch data. They use such attack vectors when the server is unstable or unable to respond promptly.
@@ -106,11 +106,9 @@ This attack gains popularity, not simply because of its potential to harm the ta
 
 * You can also use content security policies as the last line of defense against XSS. If all other XSS prevention fails, CSP allows developers to control various things, such as loading external scripts and executing inline scripts. To deploy CSP, developers need to include an HTTP response header called Content-Security-Policy with a value carrying the policy.
   An example for including CSP is as follows:
-	```
-  default-src 'self'; script-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none';
-  ```
-
-
+```
+default-src 'self'; script-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none';
+```
 
 ## Broken Authentication
 Poorly implemented session management and authentication can lead to broken authentication in progressive web apps. This vulnerability helps the attacker take over one or more user accounts, letting the attacker possess the same privileges and access control as the target user. 
@@ -171,15 +169,15 @@ Attackers can perform XML External Entities attacks on React web applications th
 * Developers should also perform filtering and server-side input validation to limit injecting unfriendly data input in XML documents or headers. Modern and updated browsers do not allow attackers to run malicious XML scripts as they come with built-in input validation.
 
 ## Zip Slip
-Zip Slip is a React app vulnerability that allows attackers to submit zip files having malicious or arbitrary code within them. React developers enable adding zip files to decrease the file size while they get uploaded. When the app unzips the archive, its malicious file(s) can overwrite other files or perform arbitrary code execution. Attackers can either harm the files existing in the target system or gain remote access to the system.
+It is another popular React app vulnerability where the malicious actor exploits the app by submitting zip files having malicious or arbitrary code within them. React developers enable adding zip files to decrease the file size while they get uploaded. When the app unzips the archive, its malicious file(s) can overwrite other files or perform arbitrary code execution. Attackers can either harm the files existing in the target system or gain remote access to the system.
 
 Here is a Zip slip code example demonstrating a ZipEntry path merges to a destination directory without validating that path. Researchers and security professionals have found similar codes in different repositories across many apps.
 ```
-Enumeration<ZipEntry> entry=zip.getEntries();
+Enumeration<ZipEntry> entry = zip.getEntries();
  while (entry.hasMoreElements()) {
-ZipEntry e=entry.nextElement();
-File fil=new File(destinationDir, e.getName());
-InputStream input=zip.getInputStream(e);
+ZipEntry ez = entry.nextElement();
+File fil = new File(destinationDir, ez.getName());
+InputStream input = zip.getInputStream(ez);
 IOUtils.copy(input, write(fil));
  }
 ```
@@ -193,7 +191,7 @@ Here is a [link](https://github.com/snyk/zip-slip-vulnerability) to the reposito
 * Node.js uses npm libraries as the dependency. React internally uses node.js, and hence any vulnerable library can pose a threat to the React app. It is a good practice to create your own dependencies and libraries rather than using 3rd-party libraries.
 
 ## Cross-site Request Forgery (CSRF or XSRF)
-CSRF is another React web application vulnerability allowing cybercriminals to persuade users to perform unintended actions without their explicit consent. It does not steal the identity of the legitimate user but acts against their will. For rendering such attacks, the attacker sends an email or a web link convincing the victim to achieve a state-changing request in the application.
+CSRF is another React web application vulnerability allowing attackers to persuade users to perform unintentional actions without their direct consent. It does not steal the identity of the legitimate user but acts against their will. For rendering such attacks, the attacker sends an email or a web link convincing the victim to achieve a state-changing request in the application.
 
 Before going through the checklist on fixing CSRF vulnerabilities, here is a quick example of how the CSRF GET request will be once the attacker tweaks it.
 A standard GET request for a $250 transfer from person1 to person2 might look like this:
@@ -224,5 +222,6 @@ These packages can also execute malicious code during the package installation p
 * Developers can also use SAST tools to detect exploitable code in a React application. SAST tools can scan and inspect all the application's source code, byte code, dependencies, packages, and binaries to uncover security vulnerabilities.
 * Since Node uses npm libraries and dependencies and React uses Node, developers should make a checklist of vulnerable libraries like [unzipper](https://github.com/ZJONSSON/node-unzipper), [adm-zip](https://github.com/cthackers/adm-zip), and [other vulnerability release lists](https://snyk.io/vuln/npm:npm) for better precaution while developing React applications. 
 
+	
 ## Wrapping Up –
 Developers should know how crucial application security is for both the business and its users. As the React components and features are increasing, there is an equal delay in the number of days taken by the React community to fix any React security issues. So, developers and product managers should cautiously handle all security-related aspects of a React project.
