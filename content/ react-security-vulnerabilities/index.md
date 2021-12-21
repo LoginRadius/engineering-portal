@@ -18,7 +18,7 @@ React is popular among progressive web app developers. This open-source, robust 
 
 ## Security Vulnerabilities in React and how to prevent them –
 React helps developers build a reliable, robust, and secure progressive web app, but these apps face certain security pitfalls also. Developers need to give prior attention to security vulnerabilities, which are often ignored due to faster app development cycles or more focus on product features.
-According to the [Synk](https://snyk.io/wp-content/uploads/snyk-javascript_report_2019.pdf) report, with the arrival of each new update in React adding more features, the security flaws are getting unnoticed. Such unnoticed actions are increasing security concerns. Here is a list of top React security vulnerabilities that every React developer must address before delivering or deploying their apps.
+With the arrival of each new update in React having more features, the security flaws are getting unnoticed. Such unnoticed actions are increasing security concerns. Here is a list of top React security vulnerabilities that every React developer must address before delivering or deploying their apps.
 
 ## SQL Injection
 SQL Injection (SQLi) is a widely known web application attack. The cybercriminal intends to perform database manipulation logically to access sensitive information that is not supposed to be displayed. Attackers try to sneak into that sensitive information to collect phone numbers, payment details, addresses, passwords, and other credentials.
