@@ -25,6 +25,14 @@ Loopback provides several features that allow you to build your application with
 - Build libraries of reusable components in a standardized way.
 - Integrate with databases, web services, and other platforms using connectors.
 
+- Using the standard [OpenAPI](https://www.openapis.org/) to create any API endpoints and schemas.
+- Creating contemporary JavaScript endpoints using ES2017, async / await, and modules.
+- Rather than generating boilerplate code, use your established endpoints and schemas as the source of truth.
+- Examining the change made to API endpoints without having to crawl through JavaScript.
+- Maintaining consistency through automated endpoint and schema validation.
+- Implemented to fully support TypeScript.
+- Creating a standardized libraries of reusable components.
+- Allow you to connect to databases, online services, and other platforms using built-in connectors.
 
 ## What is JSON Web Token (JWT)
 
@@ -49,20 +57,24 @@ This tutorial is a hands-on demonstration. To follow along, be sure you have the
 To start building our Loopback REST API, we must first install the Loopback CLI, which provides the quickest method to get started with a LoopBack 4 project that follows best practices.
 Use the command below to install the Loopback CLI globally:
 
-
+```bash
     npm i -g @loopback/cli
+```
 
 You can grab a cup of coffee while you wait for the installation to complete. Then open your command line, create an *AuthWithLooback folder*, and change directory to the *AuthWithLooback* folder with commands below:
 
-
+```bash
     mkdir AuthWithLooback
     cd AuthWithLooback
+```
+
 ## Scaffold Loopback Project
 
 Now that you've installed the Loopback CLI and created the project directory. Let's get started by running the following command to create a Loopback project:
 
-
+```bash
     lb4 app
+```
 
 Select the following options in the screenshot below to complete the prompts.
 
@@ -71,14 +83,17 @@ Select the following options in the screenshot below to complete the prompts.
 
 After completing the prompts, Loopback will configure the TypeScript compiler, and install all the required dependencies. Change directory into the *auth-with-loopback* folder.
 
-
+```bash
     cd auth-with-loopback
+```
+
 ## Create Model
 
 We have successfully created our Loopback application. Now let’s create a Model to store the news details with the command below:
 
-
+```bash
     lb4 model
+```
 
 Select the following options in the screenshot below to complete the prompts.
 
@@ -91,8 +106,9 @@ Loopback will create a **NewsModel** file in the `src/models` ****folder where t
 Next, You need to create a data source to enable us to connect to our preferred database. For the demonstrations in this tutorial, we will connect to a MongoDB database.
 Run the command below on your terminal to create a data source:
 
-
+```bash
     lb4 datasource
+```
 
 Select the following options in the screenshot below to complete the prompts.
 
@@ -104,8 +120,9 @@ After completing the prompts, Loopback will create **News** file in the `src/dat
 Then, create a [Repository](https://loopback.io/doc/en/lb4/Repository.html) for our CRUD operations of our NewModel with the command below:
 After completing the prompts, Loopback will create **NewsModelRepository** file in the `src/repository` folder.
 
-
+```bash
     lb4 repository
+```
 
 Select **NewsDatasource** as the data source, **NewsModel** as the to generate repository for, and **DefaultCrudRepository** as the base repository class.
 Your selection for the prompts should look like the screenshot below.
@@ -117,8 +134,9 @@ After completing the prompts, Loopback will create **NewsModelRepository** file 
 
 Lastly, create a controller for the **NewsModel** you created with the command below:
 
-
+```bash
     lb4 controller
+```
 
 Your selection for the prompts should look like the screenshot below.
 
@@ -178,9 +196,10 @@ After completing the prompts, Loopback will create **NewsController** file in th
 
 Now that you have the Model setup, run the sever, and add some custom data to the News collection in MongoDB.
 
-
+```bash
     #start the server
     npm run start
+```
 
 The above command will start the Typescript compiler, which will build the project and check for possible errors. If everything goes well with the code, you should see the output like the one on the screenshot below on the terminal
 
@@ -195,11 +214,13 @@ Next, open your favorite browser and navigate to [localhost:3000](http://localho
 
 Now, click on the explorer link, where you can make requests our LoopBack application. On the explorer page, locate the post endpoint and add some custom data to the News collection by clicking the **try it out** button with the data below on the request body.
 
+```json
     {
       "title": "Upgrade to Loopback V4",
       "body": "The developers of Loopback urges the V3 users to upgrade to            V4 as soon as possible",
       "date_created": "2021-12-14T00:57:43.197Z"
     }
+```
 
 Then, click the **excute** button, to run the query. 
 
@@ -210,20 +231,24 @@ Then, click the **excute** button, to run the query.
 You can add as many records as you like to experiment with the endpoints. The important thing to note here is that the endpoints are not protected. Anyone may create, read, update, and delete records. In a moment, we will secure the endpoints so that only logged-in users may access them. To begin we have to install 
 Loopback **authentication** and **authentication-jwt** with the command below:
 
-
+```bash
     npm i --save @loopback/authentication @loopback/authentication-jwt
+``` 
+
 ## Setup Authentication Components
 
 To protect the application, you'll implement user authentication and authorization, which implies that only logged-in users will be able to access our APIs. We’ll create two endpoints in User controller; 
 
 - `/Signup` endpoint: To handle user’s sign up.
 - `/Login` endpoint: To handle user’s login.
+
 ## Create Signup Endpoint
 
 We’ll start with the sign up controller to enable user’s create an account. Create an empty controller with command below:
 
-
+```bash
     lb4 controller
+```
 
 Your selection for the prompts should look like the screen shot below.
 
@@ -232,7 +257,7 @@ Your selection for the prompts should look like the screen shot below.
 
 Then, open the `src/controllers/user.controller.ts` file, and import the required modules with the code snippet below :
 
-
+```javascript
     import { authenticate, TokenService } from '@loopback/authentication';
     import {
       Credentials,
@@ -255,19 +280,21 @@ Then, open the `src/controllers/user.controller.ts` file, and import the require
     import { genSalt, hash } from 'bcryptjs';
     import _ from 'lodash';
     ........
+```
 
 Next, we set up our user credential objects, and verify the user credentials using the `UserService`, injecting `MyUserService` into the `authentication-jwt` extension.
 
-
+```javascript
     @model()
-    export class NewUserRequest extends User {
+    export class CreateUser extends User {
       @property({
         type: 'string',
         required: true,
       })
       password: string;
     }
-    const CredentialsSchema: SchemaObject = {
+
+    const UserSchema: SchemaObject = {
       type: 'object',
       required: ['email', 'password'],
       properties: {
@@ -277,17 +304,19 @@ Next, we set up our user credential objects, and verify the user credentials usi
         },
         password: {
           type: 'string',
-          minLength: 8,
+          minLength: 6,
         },
       },
     };
-    export const CredentialsRequestBody = {
+
+    export const RequestBody = {
       description: 'The input of login function',
       required: true,
       content: {
-        'application/json': { schema: CredentialsSchema },
+        'application/json': { schema: UserSchema },
       },
     };
+
     export class UserController {
       constructor(
         @inject(TokenServiceBindings.TOKEN_SERVICE)
@@ -299,88 +328,88 @@ Next, we set up our user credential objects, and verify the user credentials usi
         @repository(UserRepository) protected userRepository: UserRepository,
       ) { }
     ..........
+```
 
 Finally, we'll build our signup endpoint, which will listen to a POST requests. We save the hashed version of the user's password in the database to keep it safe.
 
-
+```javascript
      @post('/signup', {
-        responses: {
-          '200': {
-            description: 'User',
-            content: {
-              'application/json': {
-                schema: {
-                  'x-ts-type': User,
-                },
+      responses: {
+        '200': {
+          description: 'User',
+          content: {
+            'application/json': {
+              schema: {
+                'x-ts-type': User,
               },
             },
           },
         },
-      })
-      async signUp(
-        @requestBody({
-          content: {
-            'application/json': {
-              schema: getModelSchemaRef(NewUserRequest, {
-                title: 'NewUser',
-              }),
-            },
+      },
+    })
+    async signUp(
+      @requestBody({
+        content: {
+          'application/json': {
+            schema: getModelSchemaRef(CreateUser, {
+              title: 'NewUser',
+            }),
           },
-        })
-        newUserRequest: NewUserRequest,
-      ): Promise<User> {
-        const password = await hash(newUserRequest.password, await genSalt());
-        const savedUser = await this.userRepository.create(
-          _.omit(newUserRequest, 'password'),
-        );
-        await this.userRepository.userCredentials(savedUser.id).create({ password });
-        return savedUser;
-      }
+        },
+      })
+      newUserRequest: CreateUser,
+    ): Promise<User> {
+      const password = await hash(newUserRequest.password, await genSalt());
+      const savedUser = await this.userRepository.create(
+        _.omit(newUserRequest, 'password'),
+      );
+
+      await this.userRepository.userCredentials(savedUser.id).create({ password });
+
+      return savedUser;
     }
     .........
-
+```
 
 ## Create Login Controller
 
 Now that we've set up the signup endpoint, let's create the login endpoint so that registered users may log in to the API. Set up the login route in the `src/controllers/user.controller.ts` file using the code snippet below. In the event of a successful login, we send the user a token.
 
-
-      @post('/users/login', {
-        responses: {
-          '200': {
-            description: 'Token',
-            content: {
-              'application/json': {
-                schema: {
-                  type: 'object',
-                  properties: {
-                    token: {
-                      type: 'string',
-                    },
+```javascript
+      @post('/signin', {
+      responses: {
+        '200': {
+          description: 'Token',
+          content: {
+            'application/json': {
+              schema: {
+                type: 'object',
+                properties: {
+                  token: {
+                    type: 'string',
                   },
                 },
               },
             },
           },
         },
-      })
-      async login(
-        @requestBody(CredentialsRequestBody) credentials: Credentials,
-      ): Promise<{ token: string }> {
-        // ensure the user exists, and the password is correct
-        const user = await this.userService.verifyCredentials(credentials);
-        // convert a User object into a UserProfile object (reduced set of properties)
-        const userProfile = this.userService.convertToUserProfile(user);
-        // create a JSON Web Token based on the user profile
-        const token = await this.jwtService.generateToken(userProfile);
-        return { token };
-      }
+      },
+    })
+    async signIn(
+      @requestBody(RequestBody) credentials: Credentials,
+    ): Promise<{ token: string }> {
+      const user = await this.userService.verifyCredentials(credentials);
+      const userProfile = this.userService.convertToUserProfile(user);
+      const token = await this.jwtService.generateToken(userProfile);
+      return { token };
+    }
+```
 
 Perhaps, you can show the currently logged-in user by adding a `/whoami` endpoint. In the `src/controllers/user.controller.ts` file get the details of the currently logged-in user using the code snippet below. We want the users to access this endpoint only when they are logged in.
 
-
+```javascript
       @authenticate('jwt')
-      @get('/whoAmI', {
+      @get('/whoami', {
         responses: {
           '200': {
             description: 'Return current user',
@@ -396,33 +425,36 @@ Perhaps, you can show the currently logged-in user by adding a `/whoami` endpoin
       })
       async whoAmI(
         @inject(SecurityBindings.USER)
-        currentUserProfile: UserProfile,
+        loggedInUserProfile: UserProfile,
       ): Promise<string> {
-        return currentUserProfile[securityId];
+        return loggedInUserProfile[securityId];
       }
+```
 
 Now open the `src/application.ts`, and bind the authentication components to your application class. First, we need to import Loopback `AuthenticationComponent` , `JWTAuthenticationComponent`, and `NewsDataSource`  from our **datasources** with code snippet below:
 
-
+```javascript
     //...
     import { AuthenticationComponent } from '@loopback/authentication'
     import { JWTAuthenticationComponent, UserServiceBindings } from "@loopback/authentication-jwt"
     import { NewsDataSource } from "./datasources"
     //...
+```
 
 Then we mount the jwt authentication system and bind our **NewsDataSource** to the **UserService** data source.
 
-
+```javascript
      //...
         // ------ ADD SNIPPET INSIDE THE CONTRUCTOR BLOCK ---------
         this.component(AuthenticationComponent);
         this.component(JWTAuthenticationComponent);
         this.dataSource(NewsDataSource, UserServiceBindings.DATASOURCE_NAME);
     //...
+```
 
 Finally, we will add the authenticate action in the Sequence. We’ll also modify the error when authentication fails to return status code of 401 (Unauthorized). Open the `src/sequence.ts` file and add the code snippet below:
 
-
+```javascript
     import { FindRoute, InvokeMethod, MiddlewareSequence, ParseParams, Reject, RequestContext, Send, SequenceActions, SequenceHandler } from '@loopback/rest';
     import {
         AuthenticateFn,
@@ -464,27 +496,29 @@ Finally, we will add the authenticate action in the Sequence. We’ll also modif
             }
         }
     }
-
+```
 
 ## Protect News Endpoints
 
 So far, we have implemented user authentication for our API. Let’s protect our News endpoints so that only authenticated users can access those routes.
 Open the `src/controllers/news.controller.ts` file and import **authenticate** from jwt authentication.
 
-
+```javascript
     import { authenticate } from '@loopback/authentication';
+```
 
 Then on each of the endpoints in our news controller add  `@authenticate('jwt')` before the `NewsController` class which will protect all the routes in `NewsController`. 
 
-
+```javascript
     //...
     @authenticate('jwt')
     export class NewsController {
     //...
+```
 
 Perhaps, you may not want to protect all the routes, simply add the  `@authenticate('jwt')` method before the route you wish to protect.You can Protect the POST route like this.
 
-
+```javascript
     @authenticate('jwt')
     @post('/news-models')
       @response(200, {
@@ -506,12 +540,15 @@ Perhaps, you may not want to protect all the routes, simply add the  `@authentic
       ): Promise<NewsModel> {
         return this.newsModelRepository.create(newsModel);
       }
+```
+
 ## Test our Application 
 
 We implemented user authentication in our REST API and secured our routes against unauthorized users. Let's put our application to the test. Press `CTRL-C` to exit the server, and restart it with the command below:
 
-
+```bash
     npm start
+```
 
 Now if you open the explorer page, you should see the **UserController** endpoints.
 
