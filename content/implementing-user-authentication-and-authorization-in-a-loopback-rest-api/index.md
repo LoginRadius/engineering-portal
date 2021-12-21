@@ -15,16 +15,6 @@ Authentication and authorization are critical components of every software appli
 According to the documentation, LoopBack is an award-winning, highly flexible, open-source Node.js and TypeScript framework built on Express, that allows you to easily develop APIs and microservices built of backend systems such as databases and SOAP or REST services.
 Loopback provides several features that allow you to build your application with less boilerplate code, which are not restricted to.
 
-- Define your API endpoints and schemas using the [OpenAPI](https://www.openapis.org/) standard.
-- Write your endpoints in modern JavaScript using ES2017, async / await, modules.
-- Use your defined endpoints and schemas as the source of truth without generating code.
-- Review changes to API endpoints without digging through JavaScript.
-- Maintain consistency by automating the validation of your endpoints and schemas.
-- First-class support for [TypeScript](https://www.typescriptlang.org/) (strongly typed JavaScript).
-- Use LoopBack as a starting point for your framework or platform.
-- Build libraries of reusable components in a standardized way.
-- Integrate with databases, web services, and other platforms using connectors.
-
 - Using the standard [OpenAPI](https://www.openapis.org/) to create any API endpoints and schemas.
 - Creating contemporary JavaScript endpoints using ES2017, async / await, and modules.
 - Rather than generating boilerplate code, use your established endpoints and schemas as the source of truth.
