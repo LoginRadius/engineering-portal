@@ -1,11 +1,12 @@
 ---
-title: "React Security Vulnerabilities and How to Fix/Prevent them"
-date: "2021-12-21"
+title: "React Security Vulnerabilities and How to Fix/Prevent Them"
+date: "2021-12-22"
 coverImage: "react-security.png"
 author: "Gaurav Kr. Roy"
-tags: ["React", "vulnerability", "prevent", "security"]
-description: "React security vulnerabilities are difficult to detect with naked eyes. However, it can be disastrous for progressive web apps if developers don't know how to fix them."
+tags: ["React", "Vulnerability"]
+description: "React security vulnerabilities are hard to detect. However, this article talks about the top 7 vulnerabilities and how to fix them to enjoy all the benefits React caters to in developing Progressive Web Applications."
 ---
+
 
 All React developers love to leverage the benefits React caters to in developing web applications. But developers need to keep in mind the security postures while creating React web apps. React applications face a vast attack surface and are prone to different vulnerabilities. This article is a checklist of React security best practices that every developer should know before diving into PWA (progressive web application) development. 
 If you are new to progressive web applications and React, let's get familiar with these terminologies first.
@@ -16,7 +17,7 @@ Progressive Web Apps (PWA) are apps built using web technologies like HTML, CSS,
 ## What is React?
 React is popular among progressive web app developers. This open-source, robust JavaScript library helps in building user interfaces based on UI components. React gains popularity in the software development industry because it allows developers to create lightweight apps with additional facilities: security, push notification, app-like look and feel, etc. Some popular companies that have become the early adopters of React are Instagram, Netflix, Airbnb, Uber Eats, Discord, the New York Times, etc. 
 
-## Security Vulnerabilities in React and how to prevent them –
+## Security Vulnerabilities in React and How to Prevent Them
 React helps developers build a reliable, robust, and secure progressive web app, but these apps face certain security pitfalls also. Developers need to give prior attention to security vulnerabilities, which are often ignored due to faster app development cycles or more focus on product features.
 With the arrival of each new update in React having more features, the security flaws are getting unnoticed. Such unnoticed actions are increasing security concerns. Here is a list of top React security vulnerabilities that every React developer must address before delivering or deploying their apps.
 
@@ -54,7 +55,7 @@ There are three major categories of SQL injection based on how attackers gain ac
 
  * **Out-of-Band SQL Injection:** Such attacks are more likely when the attacker senses some particular feature enabled in the server used by the React web application. This attack happens when the attacker cannot use the same channel to launch the attack and fetch data. They use such attack vectors when the server is unstable or unable to respond promptly.
  
- ### Checklist to Fix SQLi Vulnerability in React apps –
+ ### Checklist to Fix SQLi Vulnerability in React Apps
  
 * A developer must follow the principle of rendering the least privilege to all accounts that will connect through a SQL query to the database.
 
@@ -72,27 +73,29 @@ There are three major categories of SQL injection based on how attackers gain ac
 The comprehensive rendering feature of React makes it a preferable choice over other JavaScript libraries and frameworks. But this rendering feature also drags React-based apps to the most widely exploited vulnerability, cross-site scripting (XSS). Cross-site scripting leverages malicious client-side scripts by injecting them into web applications. When the users trigger those scripts, the attackers gain control over the app and steal sensitive information from the web application. 
 
 Injecting malicious scripts into the react app will make the app release some internal app data. Therefore, React developers should prevent the application from running the script. Here is a typical example of cross-site scripting where the attacker can place and execute a malicious script within the application like this:
-
-<strong> <code> &lt;input type="search" value="PWA"/>
+```
+<input type="search" value="PWA"/>
+```
 Now, executing malicious script will make the search look like:
-&lt;input type="search" value="Attacker "/> <script&gt; StealCredentials() &lt;/script>" /&gt;
-</strong> </code>
+```
+<input type="search" value="Attacker "/> <script> StealCredentials() </script>"> ;
+```
 
 Here, StealCredentials() is a function that contains malicious scripts to steal user information.
 Let us now take a look at the types of XSS.
 
-* Reflected (Non-persistent) XSS: In this common type of XSS invasion, the attacker pushes phishing emails, malicious links or uses different hacking techniques to outwit victims to send malicious requests to the server. So, if the application is not leveraging a decent escaping method to user-provided data, the reflected XSS payload gets executed to the user's browser.
+* **Reflected (Non-persistent) XSS:** In this common type of XSS invasion, the attacker pushes phishing emails, malicious links or uses different hacking techniques to outwit victims to send malicious requests to the server. So, if the application is not leveraging a decent escaping method to user-provided data, the reflected XSS payload gets executed to the user's browser.
 
-* Stored (Persistent) XSS: It is the most damaging XSS attack form that stores the payload somewhere on the server-side. The attacker uses that payload or malicious script (mostly a JavaScript code) into the target React application. If the application does not render any input validation, the malicious code gets stored permanently (persistent) within the database. Popular web application areas where attackers try this attack are in the blog comment box or a forum post.
+* **Stored (Persistent) XSS:** It is the most damaging XSS attack form that stores the payload somewhere on the server-side. The attacker uses that payload or malicious script (mostly a JavaScript code) into the target React application. If the application does not render any input validation, the malicious code gets stored permanently (persistent) within the database. Popular web application areas where attackers try this attack are in the blog comment box or a forum post.
 
-* DOM-based XSS: Attackers can implement such XSS invasion when the web application follows the Document Object Model (DOM) structure. A progressive web app leveraging the principle of DOM stores the data on the client-side. The browser has to read and display the output from that stored data. In DOM-based XSS, the attacker injects the malicious code or payload in the DOM and hence the name. The attack mechanism executes the injected payload when users read the data back from the DOM.
+* **DOM-based XSS:** Attackers can implement such XSS invasion when the web application follows the Document Object Model (DOM) structure. A progressive web app leveraging the principle of DOM stores the data on the client-side. The browser has to read and display the output from that stored data. In DOM-based XSS, the attacker injects the malicious code or payload in the DOM and hence the name. The attack mechanism executes the injected payload when users read the data back from the DOM.
 
-### Checklist to Fix XSS Vulnerability in React apps –
+### Checklist to Fix XSS Vulnerability in React Apps
 This attack gains popularity, not simply because of its potential to harm the target users through the application but because such attacks need more creative and intellectual hackers. But, to prevent such attacks, developers need to become even more creative.
 
 * The easiest way of securing any React app from multiple XSS attacks is to employ WAF (Web Application Firewall) with the code. WAF leverages a concept called signature-based filtering to restrict cross-site scripting attacks. Developers can integrate WAF into their React code to prevent the app from running malicious scripts.
 
-* Another effective way of blocking attackers from implementing XSS attacks on your React application is disabling the markups that carry code execution abilities. Some popular HTML elements that allow a web application to run scripts are <script>, <link>, <object>, and <embed>.
+* Another effective way of blocking attackers from implementing XSS attacks on your React application is disabling the markups that carry code execution abilities. Some popular HTML elements that allow a web application to run scripts are &lt;script>, &lt;link>, &lt;object>, and &lt;embed>.
 
 * Another defense mechanism that works with textContent to protect against XSS is to use the {} for default data binding. Implementing this in your React app will allow the framework to escape values automatically.
 
@@ -105,7 +108,7 @@ This attack gains popularity, not simply because of its potential to harm the ta
 * React developers can also prevent XSS by adding one security check by leveraging [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). They have to use it in the code header and assign it 'True'. It uses the browser's same-origin policy and blocks reading a resource originating from a different origin. Using CORS, developers can stop a malicious site from reading another site's data.
 
 * You can also use content security policies as the last line of defense against XSS. If all other XSS prevention fails, CSP allows developers to control various things, such as loading external scripts and executing inline scripts. To deploy CSP, developers need to include an HTTP response header called Content-Security-Policy with a value carrying the policy.
-  An example for including CSP is as follows:
+An example for including CSP is as follows:
 ```
 default-src 'self'; script-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none';
 ```
@@ -123,14 +126,14 @@ Attackers usually exploit such a React security vulnerability by detecting the a
 * Improper hashing and salting of passwords
 
 Let us take a situation where the attacker could detect the hashes for the following names.
-
-*Sue    4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec428b
-Karlos    4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec428b
-Rob    77b177de23f81d37b5b4495046b227befa4546db63cfe6fe541fc4c3cd216eb9*
-
+```
+Sue    4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec428s
+Karlos    4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec624g
+Dee    77b177de23f81d37b5b4495046b227befa4546db63cfe6fe541fc4c3cd216egk
+```
 The hash function will store the password in a hashed form rather than plain text. But then, humans can easily read the hash. Now, if two different users enter the same password, then these passwords will generate the same hash. Hackers can perform a dictionary attack, and if they crack one password, they can use the same password to gain access to other accounts that use the same hash.
 
-### Checklist to Fix React PWAs from Broken authentication Vulnerability –
+### Checklist to Fix React PWAs from Broken Authentication Vulnerability
 * The React applications should enforce password checks, whether the password is strong or weak. Also, adding criteria like eight characters (minimum) having uppercase, lowercase, numbers, and symbols can prevent users from such attacks.
 
 * Employing multi-factor authentication (MFA) can prevent users from compromised credential reuse and credential stuffing.
@@ -161,7 +164,7 @@ Attackers can perform XML External Entities attacks on React web applications th
 <!ENTITY xxe SYSTEM "file:///dev/random" >]>
 ```
 
-### Checklist to Fix XXE Vulnerability in React apps –
+### Checklist to Fix XXE Vulnerability in React Apps
 * Developers need to keep all the XML libraries and processors fully updated or patched.
 * It is a good practice to disable all XML external entities and DTD processing.
 * React developers should adopt simpler data formats like JSON instead of XML. It will help avoid the serialization of sensitive data.
@@ -183,11 +186,15 @@ IOUtils.copy(input, write(fil));
 ```
 Here is a [link](https://github.com/snyk/zip-slip-vulnerability) to the repository containing libraries and APIs infected by zip slip.
 
-### Checklist to Fix Zip Slip Vulnerability in React apps –
+### Checklist to Fix Zip Slip Vulnerability in React Apps
 * React developers can search through the project for vulnerable codes. Developers can integrate validation code to the original application's code to check for directory traversal.
+
 * Another way to prevent Zip Slip attacks in React apps is to include the Zip Slip Security Testing solution in the build pipeline of the app.
+
 * Do not allow uploading files having special characters.
+
 * Renaming all the zip files is another best practice to prevent zip slip attacks. Developers should generate new file names for each file before the application leverages them.
+
 * Node.js uses npm libraries as the dependency. React internally uses node.js, and hence any vulnerable library can pose a threat to the React app. It is a good practice to create your own dependencies and libraries rather than using 3rd-party libraries.
 
 ## Cross-site Request Forgery (CSRF or XSRF)
@@ -208,8 +215,11 @@ Some attackers can also put innocent-looking hyperlinks embedding the request.
 
 ### Checklist to Fix React PWAs from CSRF Vulnerability 
 * The progressive React web app should not deliver CSRF tokens using Cookies.
+
 * An alternate defense mechanism against CSRF is to leverage a double submit cookie technique.
+
 * Another robust way of preventing an application from a CSRF attack is to add a relevant CSRF token tied to user sessions and strictly validate every case before executing any appropriate action.
+
 * It is always a good choice to shift from HTTP/1.1 to HTTP/2 or HTTP/3. HTTP/2 and 3 are fast, more secure than HTTP/1.1, and almost all modern browsers support them.
 
 ## Vulnerability in Packages and Dependencies
@@ -217,11 +227,13 @@ It might happen that you have pushed a React app's code to GitHub. Now an email/
 
 These packages can also execute malicious code during the package installation phase. These attackers use the concept of typosquatting to make their attacks seamless. Typosquatting is a method of naming the packages based on their original counterparts. It outwits the developers into downloading these malicious packages that can wreak havoc on the React app.
 
-### Checklist to Fix Malicious Package Vulnerability in React apps –
+### Checklist to Fix Malicious Package Vulnerability in React Apps
 * One way to detect and remove this vulnerability is to recognize the vulnerable package and find an alternative React package. It is a good practice to analyze your app against malicious package vulnerability.
+
 * Developers can also use SAST tools to detect exploitable code in a React application. SAST tools can scan and inspect all the application's source code, byte code, dependencies, packages, and binaries to uncover security vulnerabilities.
+
 * Since Node uses npm libraries and dependencies and React uses Node, developers should make a checklist of vulnerable libraries like [unzipper](https://github.com/ZJONSSON/node-unzipper), [adm-zip](https://github.com/cthackers/adm-zip), and [other vulnerability release lists](https://snyk.io/vuln/npm:npm) for better precaution while developing React applications. 
 
 	
-## Wrapping Up –
-Developers should know how crucial application security is for both the business and its users. As the React components and features are increasing, there is an equal delay in the number of days taken by the React community to fix any React security issues. So, developers and product managers should cautiously handle all security-related aspects of a React project.
+## Wrapping Up
+Hope this comprehension has given a crisp idea of the top React vulnerabilities and the different checklists developers can use to fix those security flaws. Developers should know how crucial application security is for both the business and its users. As the React features are increasing, there is an equal delay in the number of days taken by the React community to fix any React security issues. <br>In this article, we discussed the most well-known vulnerabilities like SQLi, XSS, Broken Authentication, XXE, Zip Slip, CSRF, and Package & dependency vulnerabilities, plus how to prevent React apps from such attacks. So, developers and product managers should cautiously handle all security-related aspects of a React project by following the checklist given in this article.
