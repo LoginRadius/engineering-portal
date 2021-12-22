@@ -109,8 +109,11 @@ const PinnedCard = () => {
                 <div className={styles.descriptionPinned}>
                   <div className={`${styles.tag} ${styles.pinned}`}>
                     {tags &&
-                      tags.map(tag => (
-                        <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                      tags.map((tag, i) => (
+                        <Link key={`tag_${i}`} to={`/tags/${kebabCase(tag)}/`}>
+                          {" "}
+                          {tag}{" "}
+                        </Link>
                       ))}
                   </div>
                   <div className={styles.description}>

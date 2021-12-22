@@ -7,7 +7,8 @@ export default function CardList({ posts }) {
     <section className="pt-80" id="all-articles">
       <div className={styles.cardlist}>
         <div className="grid-33">
-          {posts && posts.map(({ node }) => <Card node={node} />)}
+          {posts &&
+            posts.map(({ node }, i) => <Card key={`card_${i}`} node={node} />)}
         </div>
       </div>
     </section>
