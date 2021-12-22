@@ -15,3 +15,11 @@
   to = "/blog/async-temp/index.html"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/blog/async/react-context-api-guide-with-Example/"
+  to = "/blog/async/react-context-api-guide-with-example/"
+
+[[redirects]]
+  from = "/blog/async/oAuth-implemenation-using-node/"
+  to = "/blog/async/oauth-implemenation-using-node/"
