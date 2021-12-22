@@ -17,12 +17,14 @@ const BlogList = props => {
   const total = data.allMarkdownRemark.totalCount
   const { currentPage, numPages } = pageContext
   const [openMenu, setOpenMenu] = useState(false)
-  console.log(props)
   return (
     <Layout pinned>
       <SEO
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
-        image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
+        image={
+          data.allMarkdownRemark.edges[0].node.frontmatter.coverImage
+            .childImageSharp.fluid.src
+        }
         pathname={location.pathname}
         description={
           currentPage === 1
