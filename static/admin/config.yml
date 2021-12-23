@@ -21,7 +21,6 @@ collections:
         label: 'Authors'
         file: 'content/author.yaml'
         description: 'Author descriptions'
-        widget: list
         fields:
           - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
           - { label: 'Bio', name: 'bio', widget: 'text' }
@@ -40,7 +39,7 @@ collections:
       - {label: "Type", name: "type", widget: "select", options: ["async", "fuel", "swi"]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", search_fields: ["id"], value_field: "id"}
+      - {label: "Author", name: "author", widget: "relation", collection: "settings", file: "authors", search_fields: ["id"], display_fields: ["id"], value_field: "id"}
       - {label: "Meta Description", name: "metadescription", widget: "text"}
       - {label: "Meta Title", name: "metatitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
