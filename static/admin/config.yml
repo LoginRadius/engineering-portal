@@ -19,17 +19,13 @@ collections:
     files:
       - name: 'authors'
         label: 'Authors'
-        file: 'content/authors.yml'
+        file: 'content/authors.yaml'
         description: 'Author descriptions'
         fields:
-          - name: authors
-            label: Authors
-            label_singular: 'Author'
-            widget: list
-            fields:
-              - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
-              - { label: 'Bio', name: 'bio', widget: 'text' }
-              - { label: 'Gihub Profile', name: 'github', widget: 'string', required: false }    
+          - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
+          - { label: 'Bio', name: 'bio', widget: 'text' }
+          - { label: 'Gihub Profile', name: 'github', widget: 'string', required: false }    
+              
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "LoginRadius Blog" # Used in the UI
