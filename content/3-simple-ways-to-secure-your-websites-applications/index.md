@@ -5,7 +5,7 @@ coverImage: "video-marketing-loginradius.jpg"
 tags: ["loginradius"]
 type: "fuel"
 featured: false
-author: "Navanita Devi"
+author: "Anjali Rohira"
 description: "Even the most experienced video content creators use a system to make sure everything goes smoothly so they don't miss deadlines or lose track of what they need to do next. A transparent plan with checklists and milestones will help you adopt a more professional tone in your videos."
 metadescription: "Here are ten video marketing stats that will influence your strategy in 2021. Learn how to reach your goals and develop strategies that put you ahead of your competitors"
 metatitle: "10 Video Marketing Stats That Brands Can't Ignore in 2021"
