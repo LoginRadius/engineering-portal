@@ -19,7 +19,7 @@ collections:
     files:
       - name: 'authors'
         label: 'Authors'
-        file: 'content/authors.yaml'
+        file: 'content/author.yaml'
         description: 'Author descriptions'
         fields:
           - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
