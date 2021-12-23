@@ -5,8 +5,8 @@ coverImage: "cover.jpg"
 author: "Hridayesh Sharma"
 tags: ["JavaScript", "Web"]
 description: " Learn how web workers help with the success of the web app and get started by creating a simple web worker for JavaScript."
+type: "async"
 ---
-
 
 In JavaScript, web workers allow developers to benefit from parallel programming. Parallel programming enables various computations to be performed at the same time by applications. It is helpful to consider the importance of web staff as an example of how humans benefit from parallel tasks.
 
@@ -20,7 +20,7 @@ Furthermore, they can use XMLHttpRequest to perform I/O (although the responseXM
 
 ## Why Use JavaScript Web Workers?
 
-Web workers let you build background threads separate from the main execution thread, where the logic of the user interface is usually executed. 
+Web workers let you build background threads separate from the main execution thread, where the logic of the user interface is usually executed.
 
 The key benefit of this separation of workload is that inside an isolated thread and without interrupting or impacting the main thread's responsiveness and usability, you can perform costly operations.
 

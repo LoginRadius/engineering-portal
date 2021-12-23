@@ -30,6 +30,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 title
                 tags
                 pinned
+                type
               }
             }
           }
@@ -82,20 +83,21 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Creating Blog List Pages
-  const numPages = Math.ceil((posts.length - 2) / postsPerPage)
+  /*const numPages = Math.ceil((posts.length - 2) / postsPerPage)
   const pinnedNode = posts.filter(edge => edge.node.frontmatter.pinned)
-  Array.from({ length: numPages }).forEach((_, i) => {
+  Array.from({ length: numPages}).forEach((post, i) => {  // Need to include posts.forEach()
     createPage({
-      path: i === 0 ? `/` : `/${i + 1}`,
+      path: i === 0 ? `/${post.node.frontmatter.type || "async"}` : `/${post.node.frontmatter.type || "async"}/${i + 1}`,
       component: path.resolve("./src/templates/blog-list-template.js"),
       context: {
         limit: postsPerPage,
         skip: pinnedNode ? i * postsPerPage : i * postsPerPage + 1,
         numPages,
         currentPage: i + 1,
+        type: post.node.frontmatter.type || "async"
       },
     })
-  })
+  })*/
 
   // resolves from the query from 👆
   const authorSet = new Set()

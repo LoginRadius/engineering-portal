@@ -1,25 +1,19 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
+import BlogList from "../../components/blog-list"
 
-const AsyncBlog = ({ page, data }) => {
-  const posts = data.allMarkdownRemark.edges
-
+const FuelBlog = props => {
   return (
-    <>
-      {" "}
-      <h1> This is fuel index page </h1>{" "}
-      {posts.map(p => (
-        <div>
-          {" "}
-          <p> {p.node.fields.slug} </p>
-        </div>
-      ))}
-    </>
+    <BlogList
+      data={props.data}
+      currentPage={props.page || 1}
+      pathname={props.location.pathname}
+    />
   )
 }
 
-export const asyncBlogQuery = graphql`
-  query asyncBlogQuery {
+export const fuelBlogQuery = graphql`
+  query fuelBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "fuel" } } }
@@ -57,4 +51,4 @@ export const asyncBlogQuery = graphql`
   }
 `
 
-export default AsyncBlog
+export default FuelBlog

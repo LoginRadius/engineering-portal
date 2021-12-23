@@ -1,11 +1,14 @@
 ---
-title: "Javascript tips and tricks to Optimize Performance"
-date: "2017-04-07"
-coverImage: "16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png"
-author: "Team LoginRadius"
-tags: ["Engineering","JavaScript","Hacks","Array"]
-description: "Learn how to optimize performance using some useful javascript hacks, tips and tricks."
-
+title: "16 JS"
+date: "2021-11-10"
+coverImage: "carta.jpg"
+tags: ["all", "security"]
+type: "swi"
+featured: false
+author: "Vishal Sharma"
+description: "CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner to help cybersecurity experts ensure a stringent mechanism to handle vulnerabilities."
+metatitle: "3 Best Phases Where Businesses Can Implement CARTA"
+metadescription: "IT security is an integral part of business in the digital landscape. Let’s understand how CARTA can help improve overall business security."
 ---
 
 JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.
@@ -18,18 +21,21 @@ Here are sweet 16 **JS hacks and tips** for developers  for optimizing Javascri
 
 It is a small hack to filter out bucket of elements from the array pool. This method creates an array filled with all array elements that pass a test (provided as a function). According to requirement create a callback function for non-required elements.
 
-In below example the bucket elements are _null_ and are ready to get filtered out. 
+In below example the bucket elements are _null_ and are ready to get filtered out.
 
 Example:
+
 ```js
-schema = ["hi","ihaveboyfriend",null, null, "goodbye"]
-schema = schema.filter(function(n) {
- return n
- });
+schema = ["hi", "ihaveboyfriend", null, null, "goodbye"]
+schema = schema.filter(function (n) {
+  return n
+})
 ```
+
 ```
 Output: ["hi","ihaveboyfriend", "goodbye"]
 ```
+
 This hack will save some time and lines of codes for developers.
 
 ### **2. Using String replace function to replace all the values**
@@ -39,14 +45,16 @@ _The String.replace()_ _function_ allows you to replace strings using String and
 Basically this function replaces the string at its first occurrence. But to replace all using _replaceAll()_ function, use _/g_ at the end of a Regex:
 
 Example:
+
 ```js
-var string = "login login"; 
-console.log(string.replace("in", "out")); // "logout login" 
-console.log(string.replace(/in/g, "out")); //"logout logout"
+var string = "login login"
+console.log(string.replace("in", "out")) // "logout login"
+console.log(string.replace(/in/g, "out")) //"logout logout"
 ```
+
 ### **3. Use breakpoints and Console for Debugging**
 
-With the help of **breakpoints** or **debugging points** you can set multiple barriers to rectify source of error at every barrier. 
+With the help of **breakpoints** or **debugging points** you can set multiple barriers to rectify source of error at every barrier.
 
 ![Use breakpoints and Console for Debugging](Use-breakpoints-and-Console-for-Debugging-1.jpg)
 
@@ -78,28 +86,31 @@ math.round(math.random*100)
 
 This technique will help you in resizing and emptying an array.
 
-For deleting n elements in an Array, use _**array.length**_. 
+For deleting n elements in an Array, use _**array.length**_.
+
 ```js
  array.length = n
 
 See this example:
 
-var array = [1, 2, 3, 4, 5, 6]; 
-console.log(array.length); // 6 
-array.length = 3; 
-console.log(array.length); // 3 
+var array = [1, 2, 3, 4, 5, 6];
+console.log(array.length); // 6
+array.length = 3;
+console.log(array.length); // 3
 console.log(array); // [1,2,3]
 
 For **emptying array** use
 
 array.length = 0;.
 ```
+
 **Example:**
+
 ```js
-var array = [1, 2, 3, 4, 5, 6]; 
-array.length = 0; 
-console.log(array.length); // 0 
-console.log(array); // []
+var array = [1, 2, 3, 4, 5, 6]
+array.length = 0
+console.log(array.length) // 0
+console.log(array) // []
 ```
 
 This technique is **mostly preferred** over any other methods to resize/unset the array elements and is one of the **best javascript practices** most of the developers follow.
@@ -109,27 +120,33 @@ This technique is **mostly preferred** over any other methods to resize/unset th
 If your requirement is of **merging two arrays**, use Array.concat() function
 
 For merging two arrays:
+
 ```js
-var array1 = [1, 2, 3]; 
-var array2 = [4, 5, 6]; 
-console.log(array1.concat(array2)); // [1,2,3,4,5,6]; 
+var array1 = [1, 2, 3]
+var array2 = [4, 5, 6]
+console.log(array1.concat(array2)) // [1,2,3,4,5,6];
 ```
+
 This function works best for small arrays.
 
 To **merge large arrays** we use
+
 ```js
 Array.push.apply(arr1, arr2)
 ```
+
 Reason is using Array.concat() function on large arrays will **consume lot of memory** while creating a separate new array.
 
 In this case, you can use Array.push.apply(arr1, arr2) which instead will merge the second array in the first one, hence **reducing the memory usage**.
 
 **Example:**
+
 ```js
-var array1 = [1, 2, 3]; 
-var array2 = [4, 5, 6]; 
-console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
+var array1 = [1, 2, 3]
+var array2 = [4, 5, 6]
+console.log(array1.push.apply(array1, array2)) // [1,2,3,4,5,6];
 ```
+
 It will also optimize the performance of your Javascript code irrespective of size of array.
 
 ### **7. Use splice  to delete array elements**
@@ -143,20 +160,24 @@ The downside of **using delete** is it will delete the object property, but will
 Using _splice_
 
 Example
-```js
-myArray = ["a", "b", "c", "d"] 
-myArray.splice(0, 2) ["a", "b"]
 
-Result: myArray ["c", "d"]
+```js
+myArray = ["a", "b", "c", "d"]
+myArray.splice(0, 2)[("a", "b")]
+
+Result: myArray[("c", "d")]
 ```
-### **8. Checking values in an Object** 
+
+### **8. Checking values in an Object**
 
 To check whether an object is empty or not,  use
+
 ```js
-Object.keys(YOUR\_OBJECT).length 
+Object.keys(YOURYOUR\_OBJECT).length
 
 // 0 returns if object is empty
 ```
+
 Following code return the number of elements in an Object.
 
 ### **9. Cache the variable**
@@ -168,10 +189,12 @@ Everytime we use document.getElementById() or getElementsByClassName(), JS trave
 In Order to boost performance, **cache your selections** to some variable (if using the same selection multiple times).
 
 **Example:**
+
 ```js
-var cached = document.getElementById('someElement');
-cached.addClass('cached-element');
+var cached = document.getElementById("someElement")
+cached.addClass("cached-element")
 ```
+
 It is a simple **optimization tip** with drastic impact on performance, recommended for **processing large arrays in loop(s)**.
 
 Check this [link](http://jquery-howto.blogspot.in/2008/12/caching-in-jquery.html) for performance results.
@@ -187,36 +210,44 @@ The fact that in switch statements  expression to test is only evaluated once, 
 Short circuiting  is when a logical operator doesn't evaluate all its arguments.
 
 The code
+
 ```js
-if (loggedin) { 
-welcome\_messege();
- }
+if (loggedin) {
+  welcomewelcome\_messege()
+}
 ```
+
 Make it short by using combination of a verified variable and a function using _&&_ (AND operator) in between both.
 
- Now above code can be made in one line
+Now above code can be made in one line
+
 ```js
-loggedin && welcome\_messege();
+loggedin && welcomewelcome\_messege()
 ```
+
 ### **12\. Getting the last item in the array**
 
 _Array.prototype.slice(begin, end)_ is used to cut arrays when you set the start and end arguments.  But if you don't set the end argument, this function will automatically set the max value for the array.
 
 A smart hack is it can also accept negative values and by setting a negative number as begin argument, you will get the last elements from the array.
+
 ```js
-var array = [1, 2, 3, 4, 5, 6]; 
-console.log(array.slice(-1)); // [6] 
-console.log(array.slice(-2)); // [5,6] 
-console.log(array.slice(-3)); // [4,5,6]
+var array = [1, 2, 3, 4, 5, 6]
+console.log(array.slice(-1)) // [6]
+console.log(array.slice(-2)) // [5,6]
+console.log(array.slice(-3)) // [4,5,6]
 ```
+
 ### **13\. Default values using || operator**
 
 In JS there is a basic rule of having a default value otherwise process will halt at undefined values.
 
 To provide default value in a variable use || to stay away from this most common issue.
+
 ```js
-var a = a || 'hello'
+var a = a || "hello"
 ```
+
 The developer must check whether there are any conflicting values that might be passed to the function to avoid Bugs.
 
 ### **14. Beautifying JS code**
@@ -230,8 +261,6 @@ For beautifying your Javascript  code use [jsbeautifier](http://jsbeautifier.or
 **Code after Beautifying**
 
 ![Beautifying JS code 2](Beautifying-JS-code-1.jpg)
-
- 
 
 ### **15. Checking JS Performance**
 

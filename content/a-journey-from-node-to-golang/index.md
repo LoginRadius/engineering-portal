@@ -4,10 +4,9 @@ date: "2020-08-11"
 author: "Narendra Pareek"
 coverImage: "node-go.png"
 tags: ["NodeJs", "Golang", "Performance"]
+type: "async"
 description: "If your existing technology is not fulfilling all your needs and you are thinking about switching to the new one. Also, if you are concerned about the performance. Here is the blog that can help you in this direction."
 ---
-
-
 
 Migrating your existing code to a new programming language is a very tedious task. We need to have a proper set of requirements and some obvious benchmarking between the new and existing technology.
 
@@ -26,6 +25,7 @@ Answer for that was practically YES. but, technically NO. If we’re writing app
 Also, another factor came in that it was better to switch to a technology that works closely with gRPC.
 
 So, we drew out a few goals for our new solution
+
 - Zero deployment dependencies
 - Performance upgradation
 - Single file distribution
@@ -40,14 +40,11 @@ On the basis of our research, we also did some benchmarking on different node js
 
 ![server](server.png)
 
-
 **The benchmarking result** was pretty much similor to what we are thinking. Here are the benchmarking results -
 
 #### 100000 Requests 5000 Concurrency
 
 ![sheet1](sheet1.png)
-
-
 
 #### 100000 Requests 7500 Concurrency
 
@@ -60,7 +57,6 @@ There was a big difference. For better clarity let’s see the below graphs.
 In the below chart, we can clearly see that Golang won the competition and Hapi has taken the maximum time to finish the test.
 
 ![total-time-taken-for-test](total-time-taken-for-test.png)
-
 
 ### Request per second (s) and Transfer Rate kb/s
 

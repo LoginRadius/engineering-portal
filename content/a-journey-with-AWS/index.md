@@ -5,14 +5,15 @@ coverImage: "aws.png"
 author: "Nitin Gupta"
 tags: ["AWS", "Serverless"]
 description: "Learn about various AWS services and how to set up in a step by step tutorial."
+type: "async"
 ---
 
-
 Amazon Web Services offers scalable, reliable, and inexpensive cloud computing services. Below are some salient features provided by AWS.
+
 1.  Secure cloud services platform
 2.  Compute power
 3.  Database storage
-4.  Content delivery 
+4.  Content delivery
 5.  **Pay for what you use**
 
 Prerequisites:
@@ -22,8 +23,9 @@ Prerequisites:
 - CLI usage
 
 ## AWS EC2(Elastic Compute Cloud)
+
 It is the most commonly used service of AWS and catered deployment of various applications as per AMI configured before creating an EC2 Instance.
-Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure and resizable compute capacity in the cloud. 
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure and resizable compute capacity in the cloud.
 It is designed to make web-scale cloud computing easier for developers. <br>
 **Here are some of the important steps while setting up new EC2 Instance->** <br>
 
@@ -36,26 +38,31 @@ Choose the instance type.
 Configure security group(It allows specific IP's that user will give permission to specific ports as per requirement.)
 ![AWS](AWS_EC23.png)
 
-
-
 Login to EC2 via CLI
+
 ```
 $ ssh -i ec2-key.pem ec2-user@11.11.11.111
 ```
+
 Switch to ROOT
+
 ```
 sudo su
 ```
+
 ## AWS RDS(Relational Database Service)
-Amazon Relational Database Service is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides a resizable,  cost-efficient capacity for an industry-standard relational database and manages everyday database administration tasks.
+
+Amazon Relational Database Service is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides a resizable, cost-efficient capacity for an industry-standard relational database and manages everyday database administration tasks.
 After setting up RDS, you can be logged in to the local tool(SQL Developer/ MY SQL Workbench) and copy RDS's endpoint with Username/Password configured while setting RDS.
 
 ![Available Databases](AWS_RDS.png)
 
 ## AWS ElastiCache
+
 Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud. This service is commonly used to avoid unnecessary calls to RDS and improve the user experience by displaying the data faster.
 
 There are two types of cluster engine supported by AWS ElastiCache
+
 - Redis
 - Memcached
 
@@ -66,7 +73,9 @@ Login to Redis locally via this command (First port can be anything except 6379 
 ```
 ssh -f -i ec2-key.pem -N -L 6378:demo-redis.xxxx.xx.0001.xxxx.cache.amazonaws.com:6379 ec2-user@11.11.11.111
 ```
+
 ## AWS Lex
+
 Amazon Lex provides advanced deep learning functionalities of ASR(Automatic Speech Recognition) & NLU(Natural Language Understanding). With the use of Lex, we can build chatbots that can converse using speech and text as mediums.
 There are a few components of BOT that need to be understood to build it.
 
@@ -81,10 +90,11 @@ Moreover, there are VERSIONS linked with bots, intents, and custom slots. With t
 
 ![AWS Lex Versions](AWS_LexV.png)
 
-
 ## AWS API Gateway
+
 This AWS service is used to Create, Publish, Maintain, and Monitor secure Application Programming Interfaces(**API**). Moreover, it provides an easy interface for code running on AWS Lambda.
 Here are some of the pointers that explain the need for this service.
+
 - Efficient API Development.
 - Performance at Scale.
 - Cost-saving at scale.
@@ -95,13 +105,13 @@ This service enables us to make APIs on the go with a few clicks; also, we can u
 ![AWS API Gateway](AWS_API.png)
 
 ## AWS DynamoDB
+
 Dynamo DB is a NO SQL database provided by Amazon Web Services. The main job of Dynamo DB is to Store & Retrieve any amount of data and serve any level requests of traffic.
 In this, there are different terminologies as that of a regular database. Secondary Indexes is a Data Structure that contains a subset of attributes from a table.
+
 - Partition & Sort Keys (Partition key is single primary key composed of one attribute only)
 - Local & Global Secondary Indexes
   - Local Index: Index with same partition key as of base table but different sort key
-  - Global Index: In the global index, both the partition key and sort key can differ from that of the base table.  
+  - Global Index: In the global index, both the partition key and sort key can differ from that of the base table.
 
 ![AWS Dynammo](AWS_Dynammo.png)
-
-

@@ -2,7 +2,7 @@
 import { navigate } from "gatsby"
 const BlogIndex = () => {
 if (typeof window !== `undefined`) {
-    navigate("/fuel")
+    navigate("/async")
   }
   return null
 }

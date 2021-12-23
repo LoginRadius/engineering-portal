@@ -2,21 +2,21 @@ import React, { useState } from "react"
 import { graphql } from "gatsby"
 import BlogList from "../../components/blog-list"
 
-const FuelBlogPage = props => {
+const AsyncBlog = props => {
   return (
     <BlogList
       data={props.data}
       currentPage={props.page || 1}
       pathname={props.location.pathname}
-    />
+    /> //(props. ?)
   )
 }
 
-export const FuelBlogQuery = graphql`
-  query FuelBlogQuery {
+export const asyncBlogQuery = graphql`
+  query asyncBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "fuel" } } }
+      filter: { frontmatter: { type: { eq: "async" } } }
       limit: 9
     ) {
       totalCount
@@ -51,4 +51,4 @@ export const FuelBlogQuery = graphql`
   }
 `
 
-export default FuelBlogPage
+export default AsyncBlog
