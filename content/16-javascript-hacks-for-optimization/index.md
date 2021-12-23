@@ -1,11 +1,11 @@
 ---
 title: "16 JS"
 date: "2021-11-10"
-coverImage: "carta.jpg"
+coverImage: "16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png"
 tags: ["all", "security"]
 type: "swi"
 featured: false
-author: "Vishal Sharma"
+author: "Anjali Rohira"
 description: "CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner to help cybersecurity experts ensure a stringent mechanism to handle vulnerabilities."
 metatitle: "3 Best Phases Where Businesses Can Implement CARTA"
 metadescription: "IT security is an integral part of business in the digital landscape. Let’s understand how CARTA can help improve overall business security."
@@ -173,7 +173,7 @@ Result: myArray[("c", "d")]
 To check whether an object is empty or not,  use
 
 ```js
-Object.keys(YOURYOUR\_OBJECT).length
+Object.keys(YOURYOURYOURYOUR\_OBJECT).length
 
 // 0 returns if object is empty
 ```
@@ -213,7 +213,7 @@ The code
 
 ```js
 if (loggedin) {
-  welcomewelcome\_messege()
+  welcomewelcomewelcomewelcome\_messege()
 }
 ```
 
@@ -222,7 +222,7 @@ Make it short by using combination of a verified variable and a function using _
 Now above code can be made in one line
 
 ```js
-loggedin && welcomewelcome\_messege()
+loggedin && welcomewelcomewelcomewelcome\_messege()
 ```
 
 ### **12\. Getting the last item in the array**

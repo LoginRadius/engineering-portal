@@ -1,7 +1,7 @@
 ---
 title: "3 simple secure"
 date: "2021-04-26"
-coverImage: "video-marketing-loginradius.jpg"
+coverImage: "hacker.png"
 tags: ["loginradius"]
 type: "fuel"
 featured: false
