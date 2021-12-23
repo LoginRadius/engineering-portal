@@ -21,6 +21,7 @@ collections:
         label: 'Authors'
         file: 'content/author.yaml'
         description: 'Author descriptions'
+        widget: list
         fields:
           - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
           - { label: 'Bio', name: 'bio', widget: 'text' }
