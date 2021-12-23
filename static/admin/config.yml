@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms 
+
+site_url: https://loginradius.com/blog
+
+
+
+publish_mode: editorial_workflow
+media_folder: assets/uploads
+
+collections:
+
+  - name: 'authors'
+    label: 'Authors'
+    file: 'content/authors.yml'
+    description: 'Author descriptions'
+    fields:
+      - name: authors
+        label: Authors
+        label_singular: 'Author'
+        widget: list
+        fields:
+          - { label: 'Name', name: 'id', widget: 'string', hint: 'First and Last' }
+          - { label: 'Bio', name: 'bio', widget: 'text' }
+          - { label: 'Gihub Profile', name: 'github', widget: 'string', required: false }
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "LoginRadius Blog" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Cover Image", name: "coverImage", widget: "image"}
+      - {label: "Type", name: "type", widget: "select", options: ["async", "fuel", "swi"]}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Author", name: "author", widget: "relation", collection: "authors"}
+      - {label: "Meta Description", name: "metadescription", widget: "text", search_fields: ["id"], value_field: "id"}
+      - {label: "Meta Title", name: "metatitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
