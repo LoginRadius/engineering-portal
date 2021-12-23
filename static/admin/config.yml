@@ -31,11 +31,11 @@ collections:
     label: "LoginRadius Blog" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}/index.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Cover Image", name: "coverImage", widget: "image"}
+      - {label: "Cover Image", name: "coverImage", widget: "image", media_folder: "."}
       - {label: "Type", name: "type", widget: "select", options: ["async", "fuel", "swi"]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Description", name: "description", widget: "text"}
