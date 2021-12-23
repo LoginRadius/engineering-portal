@@ -1,25 +1,28 @@
 ---
-title: "How to Secure PHP API Using JWT"
-date: "2021-09-17"
+title: "How to Secure a PHP API Using JWT"
+date: "2021-12-23"
 coverImage: "jwt.png"
 author: "Harikrishna Kundariya"
-tags: ["PHP API", "Securing API", "JWT","Apache"]
-Description: "Nowadays, PHP API security has become more important. Read this article to know how you can secure PHP API using JWT and Apache."
+tags: ["PHP", "JWT", "Authentication"]
+description: "This tutorial helps you understand why you should secure your PHP API. Then, it helps you learn how to use JWT with Apache to secure your PHP API."
 ---
+
 Security has become a fundamental aspect to consider while developing an application. As people become more aware and hackers more notorious, you need to employ systems that strengthen your application's data security.
 
-Previously, it was common to use session storage to secure applications. In recent times, sessions have proved to be inefficient, which pushed to migrate to authentication with APIs. Even though this was a superb and robust way to secure web applications, it became obsolete as hackers tried to figure out how to crack this authentication.
+Previously, it was common to use session storage to secure applications. In recent times, sessions have proved inefficient, which pushed to migrate to authentication with APIs. Even though this was a superb and robust way to secure web applications, it became obsolete as hackers tried to figure out how to crack this authentication.
 
-As the web evolves to accept more and more users, the research for secure authentication techniques speeds up. It was in 2010 when the world was introduced to a new and secure authentication standard -- JWT. Let's know more about JWT.
+As the web evolves to accept more and more users, the research for secure authentication techniques speeds up. In 2010, the world was introduced to a new and secure authentication standard -- JWT. Let's know more about JWT.
 
 ## What is JWT?
-Java Web Token (JWT) is a safe way to authenticate users on a web app. Using JWT, you can transfer encrypted data and information between a client computer and a server securely. 
+
+JSON Web Token (JWT) is a safe way to authenticate users on a web app. Using JWT, you can securely transfer encrypted data and information between a client computer and a server.
 
 > Learn more about the [differences between sessions and JWTs here](https://www.loginradius.com/blog/async/guest-post/jwt-vs-sessions/).
 
 JWT offers many benefits. Here are some of them.
 
 ## Benefits of Using JWT
+
 - Compatible with OAuth 2, meaning your applications will be easy to work with the latest security standards.
 - JWTs can expire after some time so that no one has uninterrupted access to the website. This is important to protect a website from attacks.
 - JSON is used to transmit data, so you can work with any language of your choice and handle the JSON data.
@@ -30,35 +33,42 @@ Now that you've learned about the advantages, it's time to go deeper into the JW
 ## The Structure of JWT
 
 ```json
-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvcWEtYXBpLndlbGx2aWJlLmNvbVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzMDQ3OTA5NSwiZXhwIjoxNjMwNDgyNjk1LCJuYmYiOjE2MzA0NzkwOTUsImp0aSI6Imtsa3hHUGpMOVlNTzRSdUsiLCJzdWIiOjc3ODE4LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3IiwidXNlcnNfaWQiOjc3ODE4LCJtZW1iZXJzX2lkIjo3Nzg4MzMsInByb3h5X3VzZXJfbWVtYmVyc19pZCI6bnVsbH0.TxXwLLu1zWBe7cLLYdFYy3P2HX4AaLgc7WfSRtTgeiI
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
+  .eyJpc3MiOiJodHRwczpcL1wvcWEtYXBpLndlbGx2aWJlLmNvbVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzMDQ3OTA5NSwiZXhwIjoxNjMwNDgyNjk1LCJuYmYiOjE2MzA0NzkwOTUsImp0aSI6Imtsa3hHUGpMOVlNTzRSdUsiLCJzdWIiOjc3ODE4LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3IiwidXNlcnNfaWQiOjc3ODE4LCJtZW1iZXJzX2lkIjo3Nzg4MzMsInByb3h5X3VzZXJfbWVtYmVyc19pZCI6bnVsbH0
+  .TxXwLLu1zWBe7cLLYdFYy3P2HX4AaLgc7WfSRtTgeiI
 ```
+
 The above string is an example of a JWT authentication string. At first glance, it may appear to be a randomly produced string. But don't underestimate; this string is made up of three separate components that are essential in a JWT.
 
 ### JWT Header
+
 The header of a JWT is the initial section of the string before the first dot. This header is produced by acquiring plain text and performing cryptographic operations on it. Moreover, the header uses a very efficient Base64 encoding procedure.
 
-You can easily obtain the JWT's headers using symmetric or asymmetric encryption techniques.
+You can quickly obtain the JWT's headers using symmetric or asymmetric encryption techniques.
 
 ### JWT Payload
+
 The string's central component is the JWT's payload part. This string includes all of the important information about a received request and the user or client computer who created the request. There are predefined key-value pair fields in the payload that can be used to offer extra information about the received request. Here is an explanation of common payload fields.
 
 - **Sub** - The sub field contains the subject of a JWT payload. It contains unique information about the user and client device that has created this authentication request.
 - **Iss** - This field contains data about the server that has issued the token. Iss is short for Issuer, which refers to the server.
-- **Exp** - Unlike other authentication techniques, JWT has an expiration time. This field's name is a short form for the expiration date. It contains data about the time when the token was issued and the expiration date and time of the issued token.
+- **Exp** - Unlike other authentication techniques, JWT has an expiration time. This field's name is a short form for the expiration date. It contains data about when the token was issued and the expiration date and time of the issued token.
 
 ### JWT Signature
+
 A cryptographic operation is performed on the JWT data to obtain this signature. It takes in the payload, secret key, and header value of a JWT. The signature is then generated by applying a function to these obtained values.
 
-The server and user can verify this signature to know about the data's security and integrity. If this signature matches at both ends, then the data is considered secure, and all other transactions can take place.
+The server and user can verify this signature to know about the data's security and integrity. If this signature matches at both ends, then the data is considered secure, and all other transactions can occur.
 
 ## Using JWTs to Secure PHP API
-As you've understood everything about JWT, let's secure your PHP API using JWT. Follow the code along, and you'll have a tamper-proof PHP API.
+
+As you've understood everything about JWT, let's secure your PHP API using JWT. Follow the code along, and, in the end, you'll create a tamper-proof PHP API.
 
 This article creates a simple login page and authenticates it using JWT. This will help you get started with JWT and PHP.
 
 To follow along, you'll need to have PHP and composer installed on your computer.
 
-If you haven't already installed composer on your computer, you may do so here. Once the composer has been installed, run the tool from your project folder. Composer will assist you in installing Firebase PHP-JWT, a third-party library for working with JWTs and Apache.
+If you haven't already installed composer on your computer, you can [learn how to install composer here](https://getcomposer.org/doc/00-intro.md). Once you've installed composer, run the tool from your project folder. Composer will assist you in installing Firebase PHP-JWT, a third-party library for working with JWTs and Apache.
 
 Once the library is installed, you'll need to set up a login code in `authenticate.php`. While you do this, put a code piece that checks and gets the autoloader from the composer tool. The below code helps you achieve this.
 
@@ -76,12 +86,14 @@ When the form gets submitted, you need to check the entered data with a data sou
 // extract credentials from the request
 if ($hasValidCredentials) {
 ```
+
 Any further coding will be wrapped in this block itself. The value of the `hasValidCredentials` variable governs all code related to the production and validation of the required JWT. If its value is true, the JWT shall be created; otherwise, an error will be shown.
 
 ### Creating JWT
-Let's start creating the JWT. To begin, you need to generate some more variables to aid in this process. As you saw in the payload section, you must create:
 
-- a variable that will hold the secret key, which may be retrieved from the environment files; 
+Let's start creating the JWT. First, you need to generate some more variables to aid in this process. As you saw in the payload section, you must create:
+
+- a variable that will hold the secret key, which may be retrieved from the environment files;
 - another variable to hold information about when the JWT was created;
 - a variable that will hold the JWT's expiration date and time;
 - a username field to identify the client making the authorization request; and,
@@ -104,11 +116,11 @@ $request_data = [
 ];
 ```
 
-Now you have all the required data in hand, so you can easily create a JWT. Here, you'll use the PHP-JWT package's `encode()` method. This method is quite useful in transforming your data array into a JSON object.
+Now you have all the required data in hand; you can easily create a JWT. Here, you'll use the PHP-JWT package's `encode()` method. This method helps transform your data array into a JSON object.
 
 Following the conversion to a JSON object, the encode function produces JWT headers and signs the received payload with a cryptographic combination of all the information and the given secret key.
 
-It is essential to supply three arguments to the encode method in order to utilize it correctly. The first argument should be the payload information, which in this instance is the data array. Secondly, you must supply the secret key as an argument; and finally, you must define the cryptographic technique that the function should use to sign the JWT.
+It is essential to supply three arguments to the `encode()` method to utilize it correctly. The first argument should be the payload information, which is the data array in this instance. Secondly, you must supply the secret key as an argument; and finally, you must define the cryptographic technique that the function should use to sign the JWT.
 
 To obtain and return the JWT, you'll have to use the echo method above the encode method, as shown below.
 
@@ -125,66 +137,68 @@ To obtain and return the JWT, you'll have to use the echo method above the encod
 
 Now that you have obtained the JWT token, you can transfer it to the client-side and save it using any web programming language of your choice. Let's start with a short JS demonstration of the route ahead.
 
-To begin, when a successful form submission takes place, save the created and received JWT in client-side memory. To display some output about the JWT's success, remove the login form and merely display a button that retrieves and displays the JWT's timestamp to the user when it is clicked.
+First, when a successful form submission takes place, save the created and received JWT in client-side memory. To display some output about the JWT's success, remove the login form and merely display a button that retrieves and displays the JWT's timestamp to the user when it is clicked.
 
 Here is some sample code for the process mentioned above.
 
 ```javascript
-const storeJWT = {};
-const loginBtn = document.querySelector('#frmLogin');
-const btnResource = document.querySelector('#btnGetResource');
-const formData = document.forms[0];
+const storeJWT = {}
+const loginBtn = document.querySelector("#frmLogin")
+const btnResource = document.querySelector("#btnGetResource")
+const formData = document.forms[0]
 
 // Inserts the jwt to the store object
 storeJWT.setJWT = function (data) {
-  this.JWT = data;
-};
+  this.JWT = data
+}
 
-loginBtn.addEventListener('submit', async (e) => {
-  e.preventDefault();
+loginBtn.addEventListener("submit", async e => {
+  e.preventDefault()
 
-  const response = await fetch('/authenticate.php', {
-    method: 'POST',
+  const response = await fetch("/authenticate.php", {
+    method: "POST",
     headers: {
-      'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
     },
     body: JSON.stringify({
       username: formData.inputEmail.value,
-      password: formData.inputPassword.value
-    })
-  });
+      password: formData.inputPassword.value,
+    }),
+  })
 
   if (response.status >= 200 && response.status <= 299) {
-    const jwt = await response.text();
-    storeJWT.setJWT(jwt);
-    frmLogin.style.display = 'none';
-    btnResource.style.display = 'block';
+    const jwt = await response.text()
+    storeJWT.setJWT(jwt)
+    frmLogin.style.display = "none"
+    btnResource.style.display = "block"
   } else {
     // Handle errors
-    console.log(response.status, response.statusText);
+    console.log(response.status, response.statusText)
   }
-});
+})
 ```
+
 You've already produced and submitted the JWT to the user. So now it's time to put the JWT to use on the user side.
 
 ### Using JWT
 
-As previously stated, if the form submission is successful, you'll display a button to obtain a timestamp. This button will invoke the GET method on the `resource.php` script. The `resource.php` script will then set the JWT obtained after successful authentication in the authentication header.
+As previously stated, if the form submission is successful, you'll display a button to obtain a timestamp. This button will invoke the GET method on the `resource.php` script. The `resource.php` script will then set the JWT received after successful authentication in the authentication header.
 
 The following code will help you achieve this feat.
 
 ```javascript
-btnResource.addEventListener('click', async (e) => {
-  const result = await fetch('/resource.php', {
+btnResource.addEventListener("click", async e => {
+  const result = await fetch("/resource.php", {
     headers: {
-      'Authorization': `Bearer ${storeJWT.JWT}`
-    }
-  });
-  const timeStamp = await result.text();
-  console.log(timeStamp);
-});
+      Authorization: `Bearer ${storeJWT.JWT}`,
+    },
+  })
+  const timeStamp = await result.text()
+  console.log(timeStamp)
+})
 ```
-Run the program once you've written this code and enter your credentials into the form fields. A GET request will be sent when you click the submit button. Here is a sample GET request to assist you in making the right identification.
+
+Once you've written this code, run the program and enter your credentials into the form fields. A GET request will be sent when you click the submit button. Here is a sample GET request to assist you in making the correct identification.
 
 ```php
 GET /resource.php HTTP/1.1
@@ -196,9 +210,10 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL
 ```
 
 ### Validating JWT
+
 If you've followed along until here, everything should be working fine. Now, let's begin with validating the JWT.
 
-To assist us with this operation, you've previously added the composer's autoloader function. You'll now use the `preg match` function to extract the token from the Bearer header. For this extraction, you'll use the `preg match` function and supply a regular expression.
+To get help with this operation, you've previously added the composer's autoloader function. You'll now use the `preg match` function to extract the token from the Bearer header. For this extraction, you'll use the `preg match` function and supply a regular expression.
 
 ```php
 if (! preg_match('/Bearer\s(\S+)/', $_SERVER['HTTP_AUTHORIZATION'], $matches)) {
@@ -248,7 +263,22 @@ if ($token->iss !== $serverName ||
 }
 ```
 
-This code will provide all of the necessary parameters to the decode function and save the method's result. Then, to prevent unauthorized access, error handling is employed. If any of the fields in the JWT are unavailable, an HTTP 401 error, indicating unauthorized access, will be issued to the user.
+This code will provide all the necessary parameters to the decode function and save the method's result. Then, to prevent unauthorized access, error handling is employed. If any of the fields in the JWT are unavailable, an HTTP 401 error indicating unauthorized access will be issued to the user.
+
+## LoginRadius Authentication for PHP Apps
+
+Instead of using the process discussed above, you can use [LoginRadius Identity Platform](https://accounts.loginradius.com/auth.aspx?plan=developer) to authenticate your PHP APIs quickly. You can start by referring to [LoginRadius PHP documentation](https://www.loginradius.com/docs/developer/tutorial/php/).
+
+In addition, you can use [LoginRadius PHP SDK](https://www.loginradius.com/docs/developer/references/sdk/php-sdk/) to add social single sign-on (SSO), which, in turn, simplifies signup and login for your users by eliminating the need for remembering an extra set of credentials for your app.
 
 ## Conclusion
-Now you know everything about JWTs. You have created a PHP web application and also know how easy and important it is to secure a web application. Also, there is no better way than JWT. Don't forget to try this out for your more significant projects.
+
+In this tutorial, you've learned about JWT. Then created a PHP web application and secured it with JWT authentication.
+
+You understood how easy and important it is to secure a web application.
+
+You can [find the complete code used in this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/php).
+
+Don't forget to try this out for your more significant projects.
+
+Finally, if you face any problems following this tutorial or have questions, please feel free to comment below. We'll respond as soon as we can to clarify your questions.
