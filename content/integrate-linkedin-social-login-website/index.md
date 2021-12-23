@@ -44,4 +44,4 @@ If everything has been implemented correctly, load your page, and you will see t
 
 ![luciusblog2-3](luciusblog2-3.png)
 
-Want to extend your social systems with additional provider functionality; check out this post on [Twitter social login](https://www.loginradius.com/blog/async/integrating-twitter-social-login/ "Integrating Twitter Social Login").
+Want to extend your social systems with additional provider functionality? Check out this post on [Twitter social login](https://www.loginradius.com/blog/async/integrating-twitter-social-login/ "Integrating Twitter Social Login").
