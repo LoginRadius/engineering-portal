@@ -3,8 +3,9 @@ title: "Animate the modal popup using CSS"
 date: "2015-03-23"
 coverImage: "simplepop.png"
 author: "Team LoginRadius"
-tags: ["Slide","CSS","Swirl","PopUp"]
+tags: ["Slide", "CSS", "Swirl", "PopUp"]
 description: "Learn how to animate the modal popup using CSS keyframe"
+type: "async"
 ---
 
 By now you’ve probably seen the cool and simple way(not to mention, without using jQuery) of creating a  popup by Zoie Carnegie. If not, you can click this [link](/simple-popup-tutorial/) to go and follow that tutorial. Cool?
@@ -46,18 +47,19 @@ Now, why did I do that? Since, we can't use display: none, we need to find a way
 **Slide Down**
 
 Let's start with a simple one. Sliding them pops, yo!
+
 ```css
 /*Add defaults*/
 #popup {
   top: -50%; /*Put it on the very top*/
-  transition: all .5s ease-in-out; /*make it smooth*/
+  transition: all 0.5s ease-in-out; /*make it smooth*/
 }
 /*Now show it*/
 #popup.show {
   visibility: visible;
   z-index: 200;
   opacity: 1;
-   top: 50%; /*slide it down smoothly*/
+  top: 50%; /*slide it down smoothly*/
 }
 #popup.show ~ #overlay {
   opacity: 1;
@@ -97,6 +99,7 @@ Want to try something different than that? I got your back.
 Have you heard of CSS keyframes? We're going to use that to achieve what we want. I just want to say first that CSS keyframes **do not** work on older browsers like IE8 and IE9. Use this trick at your own risk.
 
 The keyframes code looks like this
+
 ```css
 @keyframes pop-swirl {
   0% {
@@ -114,9 +117,11 @@ The keyframes code looks like this
 The word "pop-swirl" is the variable we need to call later on to trigger that animation or keyframe. You can name this to whatever you want, there are no restrictions. The animation works by specifying your start and end points. There's 2 ways you can do that, either by using "from" and "to" or "0%" to "100%". I prefer the 2nd way because you can add like 100 keyframes to it.
 
 Calling that code will need the help of an "animation" tag. This is like a transition but more advanced. I also like to point out that right now, It's not fully supported yet but you can still use it by appending your vendor prefix like "-webkit-". Like this...
+
 ```
 \-webkit-animation: pop-swirl 1s ease forwards;
 ```
+
 Let's break this down
 
 **\-webkit-** = Vendor prefix.  
@@ -127,6 +132,7 @@ Let's break this down
 **forwards** = This is the [animation play state](http://www.w3schools.com/cssref/css3_pr_animation-play-state.asp).
 
 Using the same method as Slide Down and Pop In. We just need to remove top or transform tags and add the animation tag in it.
+
 ```css
 /*Don't need the defaults*/
 /*Now show it*/
@@ -142,6 +148,7 @@ Using the same method as Slide Down and Pop In. We just need to remove top or tr
   z-index: 100;
 }
 ```
+
 **Bonus!**
 
 **The Anvil Effect**
@@ -183,7 +190,6 @@ Let's shock your screen with this heavy pop-up. You can achieve the anvil effect
   z-index: 100;
 }
 ```
-
 
 Of course a tutorial won't be complete without a demo.
 

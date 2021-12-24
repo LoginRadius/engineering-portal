@@ -5,6 +5,7 @@ coverImage: "unsplash.jpg"
 author: "Nick Chim"
 tags: ["Concurrency", "Parallelism", "Multithreading", "JavaScript"]
 description: "Concurrence and parallelism in relation to multithreaded applications are two concepts sometimes used. The distinction between concurrency and parallelism is clarified in this tutorial."
+type: "async"
 ---
 
 Whenever we talk about asynchronous programming in JavaScript, there is sometimes confusion in how it can be asynchronous if it is single-threaded. To answer this correctly, I think it's a good thing first to understand the difference between concurrency and parallelism, two terms that are commonly brought up with multithreading.
@@ -15,7 +16,7 @@ Concurrency describes independent parts of a program to run in an arbitrary orde
 
 ![concurrent-diagram](concurrent-diagram.png)
 
-You can think of a concurrent execution model as a single chef preparing a meal. Any chef worth their salt can work on multiple dishes (or various parts of a dish) at once. They might chop the vegetables for their stir-fry while the rice is steamed in the rice cooker or leave the vegetables to fry in the pan while cleaning up their workspace. In this scenario, the chef can perform multiple tasks at once; however, at any given time, he is only able to work on a particular unit of work at a given time. 
+You can think of a concurrent execution model as a single chef preparing a meal. Any chef worth their salt can work on multiple dishes (or various parts of a dish) at once. They might chop the vegetables for their stir-fry while the rice is steamed in the rice cooker or leave the vegetables to fry in the pan while cleaning up their workspace. In this scenario, the chef can perform multiple tasks at once; however, at any given time, he is only able to work on a particular unit of work at a given time.
 
 You might point out that the chef can perform other actions in this example scenario while something like the rice is steaming, which is technically work still being done. However, the concurrency in this scenario only applies to the chef's context, who is not actively working on the rice as it is being steamed.
 
@@ -23,7 +24,7 @@ Similarly, the [JavaScript Event Loop](https://www.loginradius.com/blog/async/un
 
 ## Parallelism
 
-Parallelism describes the ability for independent parts of a program to be physically executed at the same time. A parallel application can distribute its tasks to independent processors (such as different cores or threads of a CPU) to be executed simultaneously. 
+Parallelism describes the ability for independent parts of a program to be physically executed at the same time. A parallel application can distribute its tasks to independent processors (such as different cores or threads of a CPU) to be executed simultaneously.
 
 ![parallel-diagram](parallel-diagram.png)
 
@@ -33,7 +34,7 @@ Modern browsers allow you to program parallelly by using Web Workers. These spaw
 
 ## Concurrency or Parallelism which one is better?
 
-So we've established that multiple chefs can get a kitchen to produce multiple dishes in the same amount of time as a single dish from a kitchen with a single chef. Modern hardware almost always has multiple threads, so why isn't all code run in parallel? If it takes one chef 10 minutes to prepare one stir-fry and five chefs 10 minutes to prepare five stir-fries, can five chefs produce one stir-fry in 2 minutes? This is where parallel computation can get difficult. 
+So we've established that multiple chefs can get a kitchen to produce multiple dishes in the same amount of time as a single dish from a kitchen with a single chef. Modern hardware almost always has multiple threads, so why isn't all code run in parallel? If it takes one chef 10 minutes to prepare one stir-fry and five chefs 10 minutes to prepare five stir-fries, can five chefs produce one stir-fry in 2 minutes? This is where parallel computation can get difficult.
 
 Tasks can speed up by distributing the workload onto multiple threads. However, this requires splitting up the workload in a way that can work independently and effectively. Think of how five chefs would prepare a single stir fry together:
 

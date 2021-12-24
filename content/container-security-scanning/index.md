@@ -3,26 +3,26 @@ title: Deep Dive into Container Security Scanning
 date: "2020-08-04"
 coverImage: "cover_container_security.png"
 author: "Rashmi Jain"
-tags: ["Docker","Container","Security"]
+tags: ["Docker", "Container", "Security"]
 description: "At the heart of any image scanning tool is static analysis against a “Common Vulnerabilities and Exposures” (CVE) database. Each layer within the container image is analyzed and queried to discover known vulnerabilities."
+type: "async"
 ---
 
-Audience:  Anyone who wishes to deliver secure code to the rest of the world.
+Audience: Anyone who wishes to deliver secure code to the rest of the world.
 
 ## Answer to **What it is?**
 
-At the heart of any image scanning tool is static analysis against a “Common Vulnerabilities and Exposures” (CVE) database. Each layer within the container image is analyzed and queried to discover known vulnerabilities. 
+At the heart of any image scanning tool is static analysis against a “Common Vulnerabilities and Exposures” (CVE) database. Each layer within the container image is analyzed and queried to discover known vulnerabilities.
 
-In addition to vulnerability scanning, a comprehensive tool should compare the architecture of your application against best practices to identify potential vulnerabilities. 
+In addition to vulnerability scanning, a comprehensive tool should compare the architecture of your application against best practices to identify potential vulnerabilities.
 
 ## Answer to **Why it is important?**
 
-While tools like Kubernetes and Container Registries have become household names for developer community because these tools make their life much easier to develop and deploy applications, many are still catching up on the need to integrate container security tools to secure their containerized application throughout the container lifecycle.  As the world is already shifted to containerized applications, taking good care of you docker images is also equally important.
+While tools like Kubernetes and Container Registries have become household names for developer community because these tools make their life much easier to develop and deploy applications, many are still catching up on the need to integrate container security tools to secure their containerized application throughout the container lifecycle. As the world is already shifted to containerized applications, taking good care of you docker images is also equally important.
 
 One of the main unique features of containers is how layers are used to build a container image. A service is piled up with an application server layer, a Linux layer and so on. One of these layers is updated, we can rebuild the application with a new updated version.
 
 It would be an unthinking idea to get into a container-based strategy without integrating a well-grounded and inclusive container scanning security solution into the CI/CD setup.
-
 
 ## What are the factors to keep in mind while selecting the right tool?
 
@@ -31,7 +31,6 @@ It would be an unthinking idea to get into a container-based strategy without in
 - The tool should give good coverage and should be easy to integrate.
 
 - Few Image registries like Amazon ECR and Docker Hub, they have it as inbuild container security solution.
-
 
 ## Let's get Implemented.
 
@@ -44,7 +43,7 @@ image_scanning:
   tags:
     - gitlab-org-docker
   services:
-    - docker:19.03.8-dind   
+    - docker:19.03.8-dind
   variables:
     DOCKER_DRIVER: overlay2
   allow_failure: true
@@ -72,6 +71,5 @@ image_scanning:
       when: always
 
 ```
-
 
 `gitlab-org-docker` is a GitLab shared-runner to run this analysis (an agent on which the above-described job will run), it will fetch the latest ms image and will run it against the CVE database, at last record the report in the JSON file which we can store as artifacts. These artifacts can be further used by the developer to see and resolve the vulnerabilities.

@@ -3,10 +3,11 @@ title: "API Debugging Tools"
 date: "2015-05-26"
 coverImage: "api_debugging-tools-300x300.png"
 author: "Karl Wittig"
-tags: ["Engineering","GoogleChorme","MozilaFirefox","SoupUI","RunScope"]
+tags: ["Engineering", "GoogleChorme", "MozilaFirefox", "SoupUI", "RunScope"]
+type: "async"
 ---
 
-**Are you having trouble with accessing API endpoint?**   **Unsure why your API is not returning data?** Most modern browsers have tools or plugins that allows you to quickly and easily test your API calls and see the sample returned data. In this post we go through some tools available for common browsers and web tools that will cut down the total troubleshooting time.
+**Are you having trouble with accessing API endpoint?** **Unsure why your API is not returning data?** Most modern browsers have tools or plugins that allows you to quickly and easily test your API calls and see the sample returned data. In this post we go through some tools available for common browsers and web tools that will cut down the total troubleshooting time.
 
 ## Google Chrome
 

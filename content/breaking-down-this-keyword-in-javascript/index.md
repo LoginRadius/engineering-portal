@@ -1,10 +1,11 @@
 ---
-title : "Breaking down the 'this' keyword in Javascript"
+title: "Breaking down the 'this' keyword in Javascript"
 date: "2020-10-06"
 coverImage: "this-image.png"
 author: "Efereyan Karen"
 tags: ["JavaScript", "JSConcepts"]
 description: "As one of the most popular programming languages currently being used all around the world, understanding the core of Javascript is essential. The 'this' keyword is one of the most difficult concepts to grasp. This blog post aims to break down the 'this' keyword into small and understandable bits."
+type: "async"
 ---
 
 ## What is 'this' in Javascript
@@ -60,15 +61,15 @@ The definition of [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   console.log(y)
   ```
 
-  ![this in the global context](global-context.PNG). 
+  ![this in the global context](global-context.PNG).
 
   Since that is true, if you make a strict comparison between the value of this and the window object, we get the boolean value of true.
 
   If you run this javascript file inside your computer using a tool like [node](https://www.w3schools.com/nodejs/), this keyword refers to an object of type of object, like so......
-  
+
   ![system](system.PNG)
 
-- ### `this` in a function 
+- ### `this` in a function
 
   Note, we are talking about what the keyword 'this' refers to when it is used in an ordinary function, one not affiliated with any object. Just a function is standing on its own.
   In such a javascript object, the default value of 'this' is the owner of the function. If the code is not in strict mode and it is not been set to a member of an object, then `this` defaults to the global object.
@@ -96,9 +97,7 @@ The definition of [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
   As can be seen in the above example, in the strict mode, the value of `this` inside a function is `undefined`.
 
-
-
-- ### `this` when used inside Event Handlers
+* ### `this` when used inside Event Handlers
 
   An event handler is an action carried out when an event is perceived to have happened. For example, when a button is clicked, we as programmers might decide hide the button. To achieve that the click event must be listened for, and an event handler must be thrown to take the action when that event is triggered. In the case of event handlers, the `this` keyword refers to the element that received the event, like this:
 
@@ -111,18 +110,16 @@ The definition of [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
   In the example above, an event listener of `keydown` is being listened for by the window object, and once that event is perceived, a function that takes in the event will be run. The job of that function is to console.log `this.event.key`. If you try to run this code on the browser, you will get back whichever key the user pressed. Hence, in this case, `this` refers to the window object which is the one receiving the object, and as with all other objects, its properties can be accessed using the dot(.) operator. The value of `this` when used in an event handler will refer to the receiver of the event, which can be the window object in this case or any other local HTML elements we might create.
 
-
-
 - ### `this` in an inline Event Handler
 
   ```js
-  <button onclick="alert(this.tagName.toLowerCase());">
-  I am a this
-  </button>
+  <button onclick="alert(this.tagName.toLowerCase());">I am a this</button>
   ```
+
   It is a little bit different when 'this' is used in an inline event handler. In this case, its value is set to the DOM element on which the listener is placed. In the example above, the button is returned because the onClick event is being accepted by the DOM element whose tag name is returned in the alert method.
 
-#### More contexts exist in which the value of the 'this' keyword differs. 
+#### More contexts exist in which the value of the 'this' keyword differs.
+
 - <b>this in classes</b>
 - <b>this as a constructor</b>
 - <b>this with a getter or setter method</b>

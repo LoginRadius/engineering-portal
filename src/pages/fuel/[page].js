@@ -17,7 +17,6 @@ export const FuelBlogQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "fuel" } } }
-      limit: 9
     ) {
       totalCount
       edges {
@@ -33,6 +32,7 @@ export const FuelBlogQuery = graphql`
             description
             title
             tags
+            type
             coverImage {
               childImageSharp {
                 fluid {

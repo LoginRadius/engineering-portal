@@ -17,7 +17,6 @@ export const swiBlogQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "swi" } } }
-      limit: 9
     ) {
       totalCount
       edges {
@@ -33,6 +32,7 @@ export const swiBlogQuery = graphql`
             description
             title
             tags
+            type
             coverImage {
               childImageSharp {
                 fluid {

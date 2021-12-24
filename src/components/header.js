@@ -15,6 +15,11 @@ import Helmet from "react-helmet"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+import styles from "../components/tabs.module.scss"
+import Hamburger from "../../static/iconHamburger.svg"
+import iconClose from "../../static/icon-close.svg"
+
 const logger = function (linkName, headerLink) {
   ReactGA.event({
     category: "Header Menu Clicks",
@@ -36,6 +41,7 @@ const Header = ({ menuLinks, searchIndex }) => {
   const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
   const [blogType, toggleType] = useState("")
+  const [openMenu, setOpenMenu] = useState(false)
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
     subscribeEmail: "",
     subscribeCall: false,

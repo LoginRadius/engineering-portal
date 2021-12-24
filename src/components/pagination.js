@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import styles from "./pagination.module.scss"
 
-const Pagination = ({ pages, currentPage }) => {
+const Pagination = ({ pages, currentPage, type }) => {
   const isFirst = currentPage === 1
   const isLast = currentPage === pages
   const prevPage = currentPage - 1 === 1 ? "" : (currentPage - 1).toString()
@@ -33,16 +33,21 @@ const Pagination = ({ pages, currentPage }) => {
   return (
     <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
-        {!isFirst && <Link to={`/${prevPage}/#all-articles`} rel="prev" />}
+        {!isFirst && (
+          <Link to={`/${type}/${prevPage}/#all-articles`} rel="prev" />
+        )}
         {!intialPages && (
-          <Link to={`/`} className={currentPage === 1 ? styles.active : ""}>
+          <Link
+            to={`/${type}/`}
+            className={currentPage === 1 ? styles.active : ""}
+          >
             {1}
           </Link>
         )}
         {!intialPages && <p to="">...</p>}
         {pageArray.map((k, i) => (
           <Link
-            to={`${k === 1 ? `/` : `/${k}/#all-articles`}`}
+            to={`${k === 1 ? `/${type}/` : `/${type}/${k}/#all-articles`}`}
             key={k}
             className={currentPage === k ? styles.active : ""}
           >
@@ -52,7 +57,7 @@ const Pagination = ({ pages, currentPage }) => {
         {!lastPages && <p>...</p>}
         {!lastPages && (
           <Link
-            to={`/${pages}/#all-articles`}
+            to={`/${type}/${pages}/#all-articles`}
             key={pages}
             className={currentPage === pages ? styles.active : ""}
           >
@@ -60,7 +65,9 @@ const Pagination = ({ pages, currentPage }) => {
           </Link>
         )}
 
-        {!isLast && <Link to={`/${nextPage}/#all-articles`} rel="next" />}
+        {!isLast && (
+          <Link to={`/${type}/${nextPage}/#all-articles`} rel="next" />
+        )}
       </div>
     </section>
   )

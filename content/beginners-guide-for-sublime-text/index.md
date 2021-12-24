@@ -5,6 +5,7 @@ coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and it's package control and shortcut commends"
+type: "async"
 ---
 
 Sublime is no doubt the highly preferred light weight editor for developers, it doesn't require major installation space and working with it is just plain fun. The goal of this blog is to help you set-up the basic extensions that are required while working with Sublime: Package Control, a professional, sharp looking theme pack, and a core feature of Sublime, "Goto Everywhere". I am using a Mac, but the concept also works well in Windows, check the corresponding shortcut online, and it should be an easy and smooth process.
@@ -31,7 +32,7 @@ Now try pressing
 Cmd + Shift + p
 ```
 
-Then type "Install Package", you should see it now:  
+Then type "Install Package", you should see it now:
 
 ![install-package](install-package.png)
 
@@ -62,7 +63,7 @@ What this file does is actually overwrite the settings in the default-setting JS
 }
 ```
 
-Please note JSON format is significant to Sublime Settings, when you are not sure about it, check it with an online JSON validator. Now with this step done, you will have a delightful working environment to write your code in:  
+Please note JSON format is significant to Sublime Settings, when you are not sure about it, check it with an online JSON validator. Now with this step done, you will have a delightful working environment to write your code in:
 
 ![sample-code](sample-code.png)
 
@@ -86,5 +87,5 @@ Then for different purpose you just press different buttons to trigger the funct
 - Goto line number: press `:` then input the number of line you want to jump into
 - Goto symbol: press `@`, then you will see a list of options automatically show up. Navigate through or directly input the symbol you are looking for, this is most commonly used by search for HTML ids and classnames.
 
-So far I have briefly covered the essential features sublime provides.In the next blog of this series I will explain how to make your work even easier by utilizing sublime Project, Snippet and Macro. 
+So far I have briefly covered the essential features sublime provides.In the next blog of this series I will explain how to make your work even easier by utilizing sublime Project, Snippet and Macro.
 Until then, Adios!!!

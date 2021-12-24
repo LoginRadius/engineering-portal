@@ -5,6 +5,7 @@ coverImage: "coverImage.png"
 author: "Deepak Gupta"
 tags: ["Authentication", "JWT", "Cookie"]
 description: "Understand how cookie-based and cookieless authentication methods work. And learn their major differences, advantages, and disadvantages."
+type: "async"
 ---
 
 Securing communications between a client and a server often requires credentials to identify both parties. That is where the different authentication techniques comes in. Two popular authentication methods are cookie-based and cookieless authentication. However, choosing any one of them depends on the organization's requirements. Both come with their benefits and challenges. This article will give a quick walkthrough of cookie-based and cookieless authentication along with their advantages and disadvantages.

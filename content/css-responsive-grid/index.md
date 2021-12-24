@@ -4,6 +4,7 @@ date: "2015-03-16"
 coverImage: "desdev.png"
 author: "Team LoginRadius"
 tags: ["CSS", "Grid", "Responsive"]
+type: "async"
 ---
 
 I know what you're thinking. Why am I writing this blog? There's like a bunch of apps out there that do this thing automatically. See, that's the problem, "automatically". That means you have no control over it when it messes things up. Even if you do, you might mess things up for other stuff too.
@@ -26,12 +27,13 @@ There you have it, Spacing. By now your CSS code will look like this.
 
 ```css
 div {
-    width: 25%;/*4 grid system*/
-    padding: 0 5px;/*spacing*/
-    box-sizing: border-box;/*removes the added with from padding*/
-    float: left; /*put them side by side*/
+  width: 25%; /*4 grid system*/
+  padding: 0 5px; /*spacing*/
+  box-sizing: border-box; /*removes the added with from padding*/
+  float: left; /*put them side by side*/
 }
 ```
+
 **Problem**
 
 Of course, there's no perfect code. Since we're using padding on both left and right. you'll see some spacing too on the left and right side of your website. For example, I used 5px padding. That means I will have a 5px offset on the left and right side of my screen. It doesn't align with my site anymore.
@@ -42,16 +44,17 @@ To tackle this problem we need to add a margin on the parent of our grid. Since 
 
 ```css
 parent {
-    margin: 0 -5px;
+  margin: 0 -5px;
 }
 parent div {
-    width: 25%;/*4 grid system*/
-    padding: 0 5px;/*spacing*/
-    box-sizing: border-box;/*removes the added with from padding*/
-    float: left; /*put them side by side*/
+  width: 25%; /*4 grid system*/
+  padding: 0 5px; /*spacing*/
+  box-sizing: border-box; /*removes the added with from padding*/
+  float: left; /*put them side by side*/
 }
 ```
- I'd like to also point out that if your parent has a width (which it doesn't really need because our grid css will add a width to the parent), the negative margins won't work. So, be careful.
+
+I'd like to also point out that if your parent has a width (which it doesn't really need because our grid css will add a width to the parent), the negative margins won't work. So, be careful.
 
 Another thing to watch out for, because we're using floats, we will also need to use a clearfix hack on our parent.
 

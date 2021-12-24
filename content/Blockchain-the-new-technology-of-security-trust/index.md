@@ -5,6 +5,7 @@ coverImage: "CoverPage.jpg"
 author: "Shraddha V Prasad"
 tags: ["Blockchain", "Cyber Security"]
 description: "Learn about Blockchain technology and how it works."
+type: "async"
 ---
 
 These days we have all come across one of the coolest buzzwords in the IT industry: **"The Blockchain"**. It might seem to be a new magic word in the market that companies spell interest in their businesses. However, the complexity of it is incredibly far-reaching. Blockchain integrates the openness and flexibility of the internet with the security of cryptography to come out with a safer, faster way of verification of information and most importantly establishes trust in this open world.
@@ -17,14 +18,14 @@ Blockchain mainly performs two tasks: collect and order data in blocks- similar 
 
 Let us take a closer look at each block in this enormous chain –
 
- - FILLING  IN THE BLOCK
-Data: This is the information which depends on the blockchain if it is a bitcoin block, then it contains information about the sender, receiver of the amount and the amount value.
+- FILLING IN THE BLOCK
+  Data: This is the information which depends on the blockchain if it is a bitcoin block, then it contains information about the sender, receiver of the amount and the amount value.
 
- - SECURING THE CHAIN
-Hash: It is quite similar to human fingerprint and is unique to each block, once the information of the block changes, the hash changes and the block no longer remain the same as the previous one.
+- SECURING THE CHAIN
+  Hash: It is quite similar to human fingerprint and is unique to each block, once the information of the block changes, the hash changes and the block no longer remain the same as the previous one.
 
- - LOCKING THE BLOCKS DOWN
-Hash of the previous block-the hash of one block gives the data for the next block, and this new block uses this hash function and traces of it is woven into the new hash this continues to build an enormous chain.
+- LOCKING THE BLOCKS DOWN
+  Hash of the previous block-the hash of one block gives the data for the next block, and this new block uses this hash function and traces of it is woven into the new hash this continues to build an enormous chain.
 
 ![Blockchain](block.png)
 

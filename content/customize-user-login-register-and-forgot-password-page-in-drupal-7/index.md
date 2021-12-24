@@ -4,6 +4,7 @@ date: "2015-08-11"
 coverImage: "drupal-custom-login-register-password-pages1.png"
 author: "Versha Gupta"
 tags: ["Drupal"]
+type: "async"
 ---
 
 Did you ever want to customize your registration or login page on Drupal 7, but did not know how? Customizing these pages by adding new text or changing theme is not a difficult task.
@@ -12,8 +13,7 @@ To help you out with that, I have compiled some simple steps to customize your r
 
 ### Steps:
 
-1. In the first step of customization, you need to implement [hook\_theme](https://api.drupal.org/api/drupal/modules!system!system.api.php/function/hook_theme/7.x) in your module file.
-    
+1. In the first step of customization, you need to implement [hook_theme](https://api.drupal.org/api/drupal/modules!system!system.api.php/function/hook_theme/7.x) in your module file.
 
 ```php
  array(
@@ -36,24 +36,21 @@ To help you out with that, I have compiled some simple steps to customize your r
 }-->
 ```
 
-  
 Now that you have implemented hook theme in module file, the next step is to implement three pre-process functions. These functions are used if module needs to override or you want to add something in theme pre-processing.
 
-  
 In the third step, you need to create following template files for login/register/forgot password.
 
-  1. user\_login.tpl.php
-  2. user\_register.tpl.php
-  3. user\_pass.tpl.php
+1. user_login.tpl.php
+2. user_register.tpl.php
+3. user_pass.tpl.php
 
-Now paste the following code into user\_login.tpl.php. Also, don’t forget to modify user\_register.tpl.php and user\_pass.tpl.php template files accordingly.
+Now paste the following code into user_login.tpl.php. Also, don’t forget to modify user_register.tpl.php and user_pass.tpl.php template files accordingly.
 
 ```php
 <!--
 
-  
+
 -->
 ```
 
-  
 Now your login page will contain new intro text **This is my awesome login form**. Customization of registration page in Drupal 7 is not difficult and if you follow above mentioned tips, you can design an amazing registration / login / forgot password page according to your audience.

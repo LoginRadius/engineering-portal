@@ -5,16 +5,16 @@ coverImage: "cover.png"
 author: "Mohammed Modi"
 description: "A simple step-by-step tutorial, all done with pure JavaScript, to set up a simple PWA that can be accessed offline using a web app manifest and a service worker."
 tags: ["PWA", "JavaScript"]
+type: "async"
 ---
 
-
-Today we will learn about the progressive web app, a very interesting and trending topic in current times,  We will start with the basic steps first on how Progressive Web App works with vanilla js. Also, we’ll cover the concept of PWAS without using any of the frameworks, it's just a plain `vanillaJS`.
+Today we will learn about the progressive web app, a very interesting and trending topic in current times, We will start with the basic steps first on how Progressive Web App works with vanilla js. Also, we’ll cover the concept of PWAS without using any of the frameworks, it's just a plain `vanillaJS`.
 
 ## What are Progressive Web Apps?
 
-A Progressive Web app is an application which is built on top of *HTML*, *JS* and *CSS* with some extra features like `service worker` and `manifest.json` file. These extra features will give the ability to run the web application offline.
+A Progressive Web app is an application which is built on top of _HTML_, _JS_ and _CSS_ with some extra features like `service worker` and `manifest.json` file. These extra features will give the ability to run the web application offline.
 
-Various big companies are moving towards the progressive web app instead of native apps, as it gives some much flexibility to end-users. In some websites you can find the + icon at the right side of the address bar, those are progressive web apps. 
+Various big companies are moving towards the progressive web app instead of native apps, as it gives some much flexibility to end-users. In some websites you can find the + icon at the right side of the address bar, those are progressive web apps.
 
 ## Setup your base app for PWA
 
@@ -65,7 +65,7 @@ After that, we need to install the `serve` dependency to serve the application i
 
 So finally our application is ready to serve in localhost. Now let's add some `html` and `css`
 
-### Setting up the Javascript 
+### Setting up the Javascript
 
 Create a directory for the app and add js, css, and images subdirectories. It should look like this when you’re finished:
 
@@ -255,27 +255,26 @@ To integrate service workers we need to create a file called `sw.js` in the root
 > **Note**: Service worker will only have the access to the files of the **current and sub-directories** hence we need to place it in the root of our project
 
 ```javascript
-let cacheName = "my-first-pwa";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js"];
+let cacheName = "my-first-pwa"
+let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js"]
 
 /* Start the service worker and cache all of the app's content */
-self.addEventListener("install", (e) => {
+self.addEventListener("install", e => {
   e.waitUntil(
     caches.open(cacheName).then(function (cache) {
-      return cache.addAll(filesToCache);
+      return cache.addAll(filesToCache)
     })
-  );
-});
+  )
+})
 
 /* Serve cached content when offline */
-self.addEventListener("fetch", (e) => {
+self.addEventListener("fetch", e => {
   e.respondWith(
-    caches.match(e.request).then((response) => {
-      return response || fetch(e.request);
+    caches.match(e.request).then(response => {
+      return response || fetch(e.request)
     })
-  );
-});
-
+  )
+})
 ```
 
 The first 2 variables `cacheName` and `filesToCache` are used to create an offline cache in the browser. `cacheName` is used to create a cache of specific name and `filesToCache` will be the list of files that we need to cache, `/` will store the root files that is `index.html` even if the user does not specify the file name in the URL and then all other files specified in the array.
@@ -286,12 +285,12 @@ Finally, we will load our service worker, for that create `js/main.js` file and 
 
 ```js
 window.onload = () => {
-  "use strict";
+  "use strict"
 
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("./sw.js");
+    navigator.serviceWorker.register("./sw.js")
   }
-};
+}
 ```
 
 And add this script in the `index.html` file.

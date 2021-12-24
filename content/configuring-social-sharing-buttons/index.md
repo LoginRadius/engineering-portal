@@ -4,6 +4,7 @@ date: "2015-06-09"
 coverImage: "configuring-social-share-buttons-300x300.png"
 author: "Karl Wittig"
 tags: ["SocialSharing"]
+type: "async"
 ---
 
 Social sharing button offers an easy way to distribute your content to a wider audience. The major social providers allow options to configure the content that will be shared programmatically. In this guide we explore the options that you can use in order to configure the shared content of your social shares including: Message, URL, Image, and Image Caption/Description.
@@ -30,7 +31,6 @@ Example of og meta tags that can be included in your html head tag:
 -->
 ```
 
-  
 If you are modifying these tags it can take some time for the changes to translate over to Facebook. You can refer to [this blog](/social-provider-social-sharing-troubleshooting-resources/) on troubleshooting, testing, and force updating your configured sharing systems.
 
 **Google**
@@ -46,7 +46,7 @@ Below is an example of basic structured data markup:
 
 ```js
 <!--
- Your Site Title 
+ Your Site Title
 
 
     A description of your site.
@@ -54,7 +54,6 @@ Below is an example of basic structured data markup:
 -->
 ```
 
-  
 Below is an example of using basic meta tags to define the shared content:
 
 ```js
@@ -63,7 +62,6 @@ Below is an example of using basic meta tags to define the shared content:
 -->
 ```
 
-  
 **Twitter**
 
 The best way to customize your Twitter shares is to modify the URL query string parameters that gets triggered when the share icon is clicked. Another way is to customize the `<a>` tag by including data-attribute tags as detailed on Twitters [Tweet button creation instructions](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview) . If you do not have control over the links or triggers that are being used to activate the Tweet popup you can also set Twitter Card meta tags which handle the Twitter customizations.
@@ -77,5 +75,4 @@ The best way to customize your Twitter shares is to modify the URL query string 
 -->
 ```
 
-  
 Various providers will utilize some of the above methods with open graph tags being one of the most common methods for controlling the shared content. Other systems will customize this content based off of parameters that are passed into the script or URL that is used to trigger the share interface. Getting these to be correctly configured can be a bit of a trial and error process, you can use the resources detailed in [this blog post](/social-provider-social-sharing-troubleshooting-resources/) to help test and verify that you have correctly configured your social sharing content.

@@ -5,8 +5,8 @@ coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Docker", "Go"]
 description: "Guide on how to build and push Docker images programmatically using Go."
+type: "async"
 ---
-
 
 Let's walk through how to build and push Docker images programmatically using Go. To do this, we need to talk to the Docker daemon via the [Docker Engine API](https://docs.docker.com/engine/api/). This is similar to how the Docker CLI works, but instead of entering commands through a CLI, we'll be writing code with Docker's Go SDK.
 
@@ -17,20 +17,23 @@ Before we begin, this blog assumes you have a working knowledge of Docker and Go
 - Building an image from local source code
 - Pushing an image to a remote registry
 
-## Environment Setup 
+## Environment Setup
 
 First, we need to set up the environment. Create a project and include the app we want to containerize:
+
 ```
 mkdir docker-go-tutorial && cd docker-go-tutorial && mkdir node-hello
 ```
 
 We'll add a simple Node.js app:
+
 ```
 // node-hello/app.js
 console.log("Hello From LoginRadius");
 ```
 
 with the Dockerfile:
+
 ```
 // node-hello/Dockerfile
 FROM node:12
@@ -40,6 +43,7 @@ CMD [ "node", "app.js" ]
 ```
 
 Next, install the [Go SDK](https://docs.docker.com/engine/api/sdk/). These are the Docker related imports we will be using:
+
 ```
 "github.com/docker/docker/api/types"
 "github.com/docker/docker/client"
@@ -51,6 +55,7 @@ Next, install the [Go SDK](https://docs.docker.com/engine/api/sdk/). These are t
 One way to build a Docker image from our local files is to compress those files into a tar archive first.
 
 We use the archive package provided by Docker:
+
 ```
 "github.com/docker/docker/pkg/archive"
 ```
@@ -63,7 +68,9 @@ if err != nil {
 ```
 
 Now, we can call the ImageBuild function using the Go SDK:
+
 - Note that the image tag includes our Docker registry user ID, so we can push this image to our registry later.
+
 ```
 opts := types.ImageBuildOptions{
     Dockerfile:  "Dockerfile",
@@ -77,6 +84,7 @@ if err != nil {
 ```
 
 To print the response, we use a scanner to go through line by line:
+
 ```
 scanner := bufio.NewScanner(res.Body)
 for scanner.Scan() {
@@ -86,6 +94,7 @@ for scanner.Scan() {
 ```
 
 This prints the following:
+
 ```
 {"stream":"Step 1/4 : FROM node:12"}
 {"stream":"\n"}
@@ -220,6 +229,7 @@ func print(rd io.Reader) error {
 ```
 
 The equivalent Docker CLI command would be:
+
 ```
 docker build -t <dockerRegistryUserID>/node-hello .
 ```
@@ -227,8 +237,10 @@ docker build -t <dockerRegistryUserID>/node-hello .
 ## Push Docker Image
 
 We'll push the Docker image we created to Docker Hub. But, we need to authenticate with Docker Hub by providing credentials encoded in base64.
+
 - In practice, don't hardcode your credentials in your source code.
 - If you don't want to use your Docker Hub password, you can set up an access token and provide that in the Password field instead.
+
 ```
 var authConfig = types.AuthConfig{
 	Username:      "Your Docker Hub Username",
@@ -240,12 +252,14 @@ authConfigEncoded := base64.URLEncoding.EncodeToString(authConfigBytes)
 ```
 
 Now, call the ImagePush function in the Go SDK, along with your encoded credentials:
+
 ```
 opts := types.ImagePushOptions{RegistryAuth: authConfigEncoded}
 rd, err := dockerClient.ImagePush(ctx, dockerRegistryUserID + "/node-hello", opts)
 ```
 
 Together, this looks like:
+
 ```
 func imagePush(dockerClient *client.Client) error {
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*120)

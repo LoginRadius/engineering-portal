@@ -5,7 +5,9 @@ coverImage: "ux-ui.jpg"
 author: "Hitesh Kumawat"
 tags: ["Design", "UX", "Tools"]
 description: "As a designer, often wondered which new tools and utilities, other designers are using? So here is a list of all the tools and utilities famous around the world in designers."
+type: "async"
 ---
+
 # **Contents**
 
 1. Inspiration
@@ -19,30 +21,25 @@ description: "As a designer, often wondered which new tools and utilities, other
 9. Tools that speed up your workflow
 10. Collaboration Tools
 
-##  **Inspiration**
+## **Inspiration**
 
 These are the websites where the world’s top design talents share their works and ideas.
 
 ### 1. **Behance -Top Creative Work On Behance**
 
- Showcase and discover the latest work from top online portfolios by creative professionals across industries.
+Showcase and discover the latest work from top online portfolios by creative professionals across industries.
 
- [www.behance.net](https://www.behance.net)
+[www.behance.net](https://www.behance.net)
 
 ### 2. **Dribble - Discover the World's Top Designers & Creative Professionals**
 
 Dribbble is where designers gain inspiration, feedback, community, and jobs and are your best resource to discover
 
-
 [dribbble.com](https://dribbble.com)
-
-
 
 ### 3. **Awwwards - Website Awards(Best Web Design Trends)**
 
-
 Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers and designers.
-
 
 [www.awwwards.com](https://www.awwwards.com)
 
@@ -57,7 +54,6 @@ Check out the hand-picked collection of latest mobile design patterns from apps 
 ### 5. **UI Sources (Real App Interaction)**
 
 ### **UI Sources | Mobile Design Patterns and Interactions**
-
 
 Over 500+ interactions from the world's best designed and highest-grossing apps.
 
@@ -193,7 +189,7 @@ An aggregator that indexes various free avatar sources that you can use in your 
 
 [uifaces.co](https://uifaces.co)
 
-##  Mockups
+## Mockups
 
 ### 1. **Facebook Design — Devices (Various HQ Device Mockup for download)**
 
@@ -228,6 +224,7 @@ A directory of the best free design mockups for Photoshop, Sketch, Figma, and In
 [themockup.club](https://themockup.club/)
 
 ## Design Systems
+
 ### 1. **iOS Human Interface Guideline - Apple**
 
 #### **Design - Apple Developer**
@@ -254,7 +251,7 @@ Behind the scenes of our new design system, This article is part of a series on 
 
 #### **Uber Brand**
 
-With our company’s growth and new direction, we need a brand identity that is efficient to use, flexible across applications, and able to feature localized content in a globally consistent way. 
+With our company’s growth and new direction, we need a brand identity that is efficient to use, flexible across applications, and able to feature localized content in a globally consistent way.
 
 [brand.uber.com](https://brand.uber.com)
 
@@ -281,6 +278,7 @@ A collection of tools and resources from Facebook Design.
 [facebook.design](https://facebook.design/)
 
 ## Font
+
 ### 1. **Google Fonts**
 
 #### **Google Fonts**
@@ -304,11 +302,6 @@ Typewolf helps designers choose the perfect font combination for their next desi
 Archive of freely downloadable fonts. Browse by alphabetical listing, by style, by author or by popularity.
 
 [www.dafont.com](https://www.dafont.com)
-
-
-
-
-
 
 ### 4. **Font Squirrel**
 
@@ -334,7 +327,7 @@ Create a testable design prototype for your interviewee and get feedback
 
 #### **UI/UX design and collaboration tool | Adobe XD**
 
- Adobe XD is your UI/UX design solution for website and mobile apps creation. Design, prototype, and share. Try it now.
+Adobe XD is your UI/UX design solution for website and mobile apps creation. Design, prototype, and share. Try it now.
 
 https://www.adobe.com
 
@@ -358,16 +351,13 @@ https://www.figma.com
 
 #### **The digital design toolkit**
 
-
 Seamless integration to the Mac app makes saving to Cloud as easy as hitting ⌘S. From there, you can organize designs…
-
 
 https://www.sketch.com
 
 ### 5. **Origami Studio**
 
 #### **Origami Studio - Design Prototyping**
-
 
 A new tool for designing modern interfaces, built and used by designers at Facebook
 
@@ -385,17 +375,13 @@ https://www.framer.com
 
 #### **Principle**
 
-
 The principle makes it easy to design animated and interactive user interfaces. Whether you're designing the flow of a…
 
 https://principleformac.com
 
-
 ### 8. **Overflow**
 
-
 #### **Meet Overflow**
-
 
 The world's first user flow diagramming tool tailored for designers. Build and present beautiful user flow diagrams…
 
@@ -411,16 +397,13 @@ Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No att
 
 [www.pexels.com](https://www.pexels.com)
 
-
 ### **2.Unsplash**
-
 
 #### **Beautiful Free Images & Pictures | Unsplash**
 
 Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock…
 
 [unsplash.com](https://unsplash.com)
-
 
 ### **3. Burst By Shopify**
 
@@ -430,9 +413,7 @@ Stunning stock images, perfect for blogs and websites Explore stock photography 
 
 https://burst.shopify.com
 
-
 ### **4. Moose**
-
 
 #### **Moose - Free Stock Photos**
 
@@ -441,6 +422,7 @@ A collection of stock photography in a single style. Good for collages. Free for
 https://photos.icons8.com
 
 ## Tools that speed up your workflow
+
 ### 1. **Glitch Image/Gif/Video Generator**
 
 #### **PHOTOMOSH**
@@ -490,6 +472,7 @@ This toolkit is an introduction to the methodology of service design
 [www.servicedesigntoolkit.orgs](https://www.servicedesigntoolkit.orgs)
 
 ## Collaboration Tools
+
 ### 1. **Zeplin (Collaboration & Handoff tool)**
 
 #### **Zeplin**
@@ -500,7 +483,7 @@ Connected space for product teams. Handoff designs and style guides with accurat
 
 ### 2. **Realtime Board (Collaboration Tool)**
 
-####  **Team collaboration software & online whiteboard for teams | Miro**
+#### **Team collaboration software & online whiteboard for teams | Miro**
 
 Scalable, secure, cross-device, and enterprise-ready team collaboration tool for distributed teams. Join 2M+ users &…
 

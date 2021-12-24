@@ -4,6 +4,7 @@ date: "2015-12-22"
 coverImage: "code-js-300x300.png"
 author: "Lucius Yu"
 tags: ["Data Structure", "JavaScript", "Linked List"]
+type: "async"
 ---
 
 ### Delete A Node
@@ -21,23 +22,21 @@ We update original Node 2 to Node 3 and skip the original Node 3, which gives ou
 1 -> 3 ------> 4
 
 ```javascript
-
 /**
-* Definition for singly-linked list.
-* function ListNode(val) {
-* this.val = val;
-* this.next = null;
-* }
-*/
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ * this.val = val;
+ * this.next = null;
+ * }
+ */
 /**
-* @param {ListNode} node
-* @return {void} Do not return anything, modify node in-place instead.
-*/
-var deleteNode = function(node) {
-    node.val = node.next.val;
-    node.next = node.next.next;
-};
-
+ * @param {ListNode} node
+ * @return {void} Do not return anything, modify node in-place instead.
+ */
+var deleteNode = function (node) {
+  node.val = node.next.val
+  node.next = node.next.next
+}
 ```
 
 ### Is Same Tree
@@ -50,23 +49,23 @@ I use recursion to solve the problem, first to define the basic cases, and recur
 
 ```javascript
 /**
-* Definition for a binary tree node.
-* function TreeNode(val) {
-* this.val = val;
-* this.left = this.right = null;
-* }
-*/
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
+ */
 /**
-* @param {TreeNode} p
-* @param {TreeNode} q
-* @return {boolean}
-*/
- 
-var isSameTree = function(p, q) {
-    if( p === q ) return true;
-    if(!p || !q || p.val !== q.val) return false;
-    return isSameTree(p.left, q.left) ? isSameTree(p.right, q.right) : false;
-};
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
+ */
+
+var isSameTree = function (p, q) {
+  if (p === q) return true
+  if (!p || !q || p.val !== q.val) return false
+  return isSameTree(p.left, q.left) ? isSameTree(p.right, q.right) : false
+}
 ```
 
 ### Move Zeroes
@@ -82,5 +81,5 @@ Here I have create two indices one called `z` to index the position for zeroes, 
 */
 var moveZeroes = function(nums) {
     var z = 0;
-    for(var i = 0; i 
+    for(var i = 0; i
 ```

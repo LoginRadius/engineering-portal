@@ -4,6 +4,7 @@ date: "2015-07-21"
 coverImage: "css3-responsive-icons-300x300.png"
 author: "Team LoginRadius"
 tags: ["CSS", "Responsive", "UI"]
+type: "async"
 ---
 
 What’s up, my neighbor? This is your boy, Darryl Tec. I am here to teach you how to create a responsive and awesomely scalable icon using CSS sprites. On top of that, we will also add a fallback for browsers that do not support SVG files.
@@ -20,17 +21,17 @@ CSS - Cascading Style Sheet. If you don’t know what this is, I have bad news f
 
 ![icons](icons.png)
 
-First things first, we need a sprite image that consists four icons – or more, it’s up to you. Luckily, I have one in my digital pocket.  
+First things first, we need a sprite image that consists four icons – or more, it’s up to you. Luckily, I have one in my digital pocket.
 
 We’re just going to use a normal PNG file at first and change it later. Make sure it has a transparent background.
 
 Now, let’s make their placeholder. The icons you see above is using a grid of 32px by 32px and it’s lining up vertically. I made it like that so it’s easier to find anything, you’ll see why later.
 
-  ```js
-  </pre>
-    <div class="frame"></div>
-  <pre>
-  ```
+```js
+</pre>
+  <div class="frame"></div>
+<pre>
+```
 
 Now we need to style them.
 
@@ -46,10 +47,8 @@ Now we need to style them.
   margin: 10px;
   border-radius: 5px;
 }
-
 ```
 
-  
 **Explanation**
 
 Looks simple right? But the one thing that’s very important here is the background-size, which makes our sprite responsive. When you put 100% as the value, it will stretch the image depending on what width and height you have. So, be very careful when putting a value on both X and Y axis, because this will distort the image. To stop it from distorting, you should only put a value on one axis and put the other on ‘auto’ so the image scales proportionally.
@@ -64,12 +63,12 @@ Cool, right? No crazy percentage. Your icon should look like this:
 
 It’s time to map those icons properly. Facebook is not a problem because it’s first on the list. But for defaults sake, let’s add a code for it.
 
- ```CSS
-  .icon.facebook {
-    background-position: 0 0;
-    background-color: #3b5998;
-  }
- ```
+```CSS
+ .icon.facebook {
+   background-position: 0 0;
+   background-color: #3b5998;
+ }
+```
 
 The positioning of 0 0 will map it to the top left of the element.
 
@@ -113,42 +112,41 @@ That gives us this code
 }
 .icon.linkedin {
   background-position: 0 -66.66%;
-  background-color: #007bb6
+  background-color: #007bb6;
 }
 .icon.google {
   background-position: 0 -99.99%;
-  background-color: #F90101;
+  background-color: #f90101;
 }
-
 ```
 
-##   The Stylus way
+## The Stylus way
 
 If you use stylus you can just do this:  
 Create the mixin
 
 ```javascript
 getPos(imageHeight, iconCount, iconPosition)
-  imageHeight / iconCount * iconPosition
+;(imageHeight / iconCount) * iconPosition
 ```
-  
+
 Then call it.
 
 ```javascript
 .icon.twitter
   background-position 0 getPos(-100%, 3, 1)
   background-color #55acee
- 
+
 .icon.linkedin
   background-position 0 getPos(-100%, 3, 2)
   background-color #007bb6
- 
+
 .icon.google
   background-position 0 getPos(-100%, 3, 3)
   background-color #F90101
 
 ```
-  
+
 By now your icon should look like this.
 
 ![color-icons](color-icons.png)
@@ -164,14 +162,14 @@ and link it to your background image
   background: #eee;
   float: left;
   background-image: url("[ put your PNG image here ]”);
-  background-image: linear-gradient(transparent, transparent), url("[ <b>put your SVG image here</b> ]”);
+  background-image: linear-gradient(transparent, transparent), url("[<b>putyourSVGimagehere</b>]”);
   background-size: 100% auto;
- 
-/*extra fluff*/
+
+  /*extra fluff*/
   margin: 10px;
   border-radius: 5px;
 }
-```  
+```
 
 If you’re wondering why we’re adding 2 background images is because not all browsers support SVG file. The linear-gradient(transparent, transparent) tricks the CSS into falling back to the PNG image if it doesn’t support it.
 

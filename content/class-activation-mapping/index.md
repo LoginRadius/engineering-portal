@@ -5,16 +5,18 @@ coverImage: "Cover.png"
 author: "Ankit Choraria"
 tags: ["Explainable AI", "Deep Learning", "CNN", "Machine Learning"]
 description: "Learn about the importance of the explainability of deep learning models and Class Activation Map Technique"
+type: "async"
 ---
 
 ### Introduction
 
 #### Learning Deep Features for Discriminative Localization:
+
 Machine learning and Deep learning are gaining traction in today’s world and are making significant and unimaginable progress in almost every industry. However, with the increase in complexity and accuracy of these algorithms, the interpretability of these is at stake- especially the deep learning models which take in more than a million parameters for complex, convoluted models. Class Activation Mapping (CAM) is one such technique which helps us in enhancing the interpretability of such complex models.
 
 ### Class Activation Mapping (CAMs)
 
-For a particular class (or category), Class activation mapping basically indicates the discriminative region of the image, which influenced the deep learning model to make the decision. The architecture is very similar to a convolutional neural network. It comprises several convolution layers, with the layer just before the final output performing Global Average Pooling. The features that are obtained are fed into the fully connected neural network layer governed by the softmax activation function and thus, output us the required probabilities. The importance of the weights with respect to a category can be found out by projecting back the weights onto the last convolution layer’s feature map. 
+For a particular class (or category), Class activation mapping basically indicates the discriminative region of the image, which influenced the deep learning model to make the decision. The architecture is very similar to a convolutional neural network. It comprises several convolution layers, with the layer just before the final output performing Global Average Pooling. The features that are obtained are fed into the fully connected neural network layer governed by the softmax activation function and thus, output us the required probabilities. The importance of the weights with respect to a category can be found out by projecting back the weights onto the last convolution layer’s feature map.
 
 ### Global Average Pooling (GAP) vs Global Max Pooling (GMP)
 
@@ -36,9 +38,9 @@ _Output of Softmax layer:-_
 
 ![Equation 6](https://latex.codecogs.com/png.latex?P_c%3D%20%5Cfrac%7Be%5E%7BS_c%7D%7D%7B%5Csum_ce%5E%7BS_c%7D%7D)
 
-Thus, **the final equation** for an activation map of class c would be:- 
+Thus, **the final equation** for an activation map of class c would be:-
 
-![Equation 7](https://latex.codecogs.com/png.latex?M_%7Bc%7D%28x%2Cy%29%3D%5Csum_%7Bk%7Dw%5E%7Bc%7D_%7Bk%7Df_%7Bk%7D%28x%2Cy%29)  
+![Equation 7](https://latex.codecogs.com/png.latex?M_%7Bc%7D%28x%2Cy%29%3D%5Csum_%7Bk%7Dw%5E%7Bc%7D_%7Bk%7Df_%7Bk%7D%28x%2Cy%29)
 
 ### Weakly-supervised Object Localization
 

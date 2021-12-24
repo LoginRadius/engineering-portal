@@ -4,11 +4,13 @@ date: "2020-08-26"
 coverImage: "antixss.png"
 author: "Hemant Manwani"
 tags: ["C#", "ASP.NET"]
+type: "async"
 ---
 
 In this blog, we learn how to implement the **AntiXssMiddleware** in .NET Core. First, we will understand about the cross-site scripting.
 
 ## Cross-Site Scripting(XSS)
+
 Cross-site scripting is a security vulnerability and a client-side code injection attack. In this attack, the malicious script is injected into legitimate websites.
 Cross-site scripting allows an attacker to act like a victim user and to carry out the actions that the user can perform. The attacker can access the user's data as well.
 
@@ -24,7 +26,7 @@ Cross-site scripting allows an attacker to act like a victim user and to carry o
 
 **Step 5:** Now add the Newtonsoft.json package into your solution
 
-By doing the above steps you will have below structure in your solution. 
+By doing the above steps you will have below structure in your solution.
 
 <img src="SolutionArch.png"
      alt="Solution Structure" />
@@ -89,7 +91,7 @@ namespace AntiXssMiddleware.Middleware
                 {
                     var content = await ReadRequestBody(context);
 
-                    if (CrossSiteScriptingValidation.IsDangerousString(content, out _)) 
+                    if (CrossSiteScriptingValidation.IsDangerousString(content, out _))
                     {
                             await RespondWithAnError(context).ConfigureAwait(false);
                             return;
@@ -163,13 +165,13 @@ namespace AntiXssMiddleware.Middleware
             for (var i = 0; ;)
             {
 
-                // Look for the start of one of our patterns 
+                // Look for the start of one of our patterns
                 var n = s.IndexOfAny(StartingChars, i);
 
                 // If not found, the string is safe
                 if (n < 0) return false;
 
-                // If it's the last char, it's safe 
+                // If it's the last char, it's safe
                 if (n == s.Length - 1) return false;
 
                 matchIndex = n;
@@ -181,7 +183,7 @@ namespace AntiXssMiddleware.Middleware
                         if (IsAtoZ(s[n + 1]) || s[n + 1] == '!' || s[n + 1] == '/' || s[n + 1] == '?') return true;
                         break;
                     case '&':
-                        // If the & is followed by a #, it's unsafe (e.g. S) 
+                        // If the & is followed by a #, it's unsafe (e.g. S)
                         if (s[n + 1] == '#') return true;
                         break;
 
@@ -230,7 +232,8 @@ namespace AntiXssMiddleware.Middleware
 }
 
 ```
-In the above file we have created the method for checking the Xss in QueryParam, RequestUri and RequestBody. 
+
+In the above file we have created the method for checking the Xss in QueryParam, RequestUri and RequestBody.
 
 Here we have different methods which are as follows:-
 
@@ -245,7 +248,9 @@ Here we have different methods which are as follows:-
 ```c#
 app.UseAntiXssMiddleware();
 ```
+
 **Step 8 :** After editing the Startup.cs file will look like below
+
 ```c#
 using System;
 using System.Collections.Generic;
@@ -306,49 +311,50 @@ As we run the default API which is https://localhost:44369/weatherforecast we wi
 
 ```json
 [
-    {
-        "date": "2020-08-21T11:58:40.0289718+05:30",
-        "temperatureC": 27,
-        "temperatureF": 80,
-        "summary": "Sweltering"
-    },
-    {
-        "date": "2020-08-22T11:58:40.0289896+05:30",
-        "temperatureC": 21,
-        "temperatureF": 69,
-        "summary": "Cool"
-    },
-    {
-        "date": "2020-08-23T11:58:40.0289899+05:30",
-        "temperatureC": -20,
-        "temperatureF": -3,
-        "summary": "Hot"
-    },
-    {
-        "date": "2020-08-24T11:58:40.0289901+05:30",
-        "temperatureC": 21,
-        "temperatureF": 69,
-        "summary": "Sweltering"
-    },
-    {
-        "date": "2020-08-25T11:58:40.0289902+05:30",
-        "temperatureC": 2,
-        "temperatureF": 35,
-        "summary": "Balmy"
-    }
+  {
+    "date": "2020-08-21T11:58:40.0289718+05:30",
+    "temperatureC": 27,
+    "temperatureF": 80,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2020-08-22T11:58:40.0289896+05:30",
+    "temperatureC": 21,
+    "temperatureF": 69,
+    "summary": "Cool"
+  },
+  {
+    "date": "2020-08-23T11:58:40.0289899+05:30",
+    "temperatureC": -20,
+    "temperatureF": -3,
+    "summary": "Hot"
+  },
+  {
+    "date": "2020-08-24T11:58:40.0289901+05:30",
+    "temperatureC": 21,
+    "temperatureF": 69,
+    "summary": "Sweltering"
+  },
+  {
+    "date": "2020-08-25T11:58:40.0289902+05:30",
+    "temperatureC": 2,
+    "temperatureF": 35,
+    "summary": "Balmy"
+  }
 ]
 ```
 
-Now if we inject any script in the above url like `https://localhost:44369/weatherforecast<script></script>` we will get the response as 
+Now if we inject any script in the above url like `https://localhost:44369/weatherforecast<script></script>` we will get the response as
 
 ```json
 {
-    "ErrorCode": 500,
-    "Description": "Error from AntiXssMiddleware"
+  "ErrorCode": 500,
+  "Description": "Error from AntiXssMiddleware"
 }
 ```
 
-**Note:** 
+**Note:**
+
 1. The default port may be different when you run the project. So change the port accordingly.
 
 2. You can customize the error message according to your need.

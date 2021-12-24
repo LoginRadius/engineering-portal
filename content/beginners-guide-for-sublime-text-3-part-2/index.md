@@ -5,6 +5,7 @@ coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and introduction to Snippets, Project and Macros"
+type: "async"
 ---
 
 In this blog, I will cover some of my favorite Sublime features. Use of these plugins will dramatically reduce the amount of tedious tasks you have to perform, and make your worktime really fun. I will start with some of the most basic features that come with fresh installation of Sublime. There are lots of good tutorials on Sublime shortcuts and plugins on the internet, but I feel there should be more about these fundamental features. I have seen many people who are familiar with the plugins but not with these cool built-in features. In this article we will be introducing "Snippets", "Project" and "Macros".
@@ -15,20 +16,21 @@ Here we go:
 
 ![snippet-demo](snippet-demo.gif)
 
-Back when i introduced Sublime editor to my friends,"Snippets" was among the first few features which really intrigued them. To give a quick peek what a snippet looks like:  
-  
+Back when i introduced Sublime editor to my friends,"Snippets" was among the first few features which really intrigued them. To give a quick peek what a snippet looks like:
+
 This is definitely the feature you will use the most! To start using snippets, you can either create your own snippets according to your needs or download some ready-made snippets created by others to fulfill some generic coding needs. Like the one I demonstrated, it is pre-made from a plugin called `Html Page Snippets`, and command `docjq` will create a boiler template for a Html page that contains bootstrap and jQuery.
 
 ![new-snippet](new-snippet.png)
 
-To create your own snippet, go to "Tools" => "New Snippet", an interface to create your own snippet will pop up, it would look something like this:  
+To create your own snippet, go to "Tools" => "New Snippet", an interface to create your own snippet will pop up, it would look something like this:
 
 - Replace the default line with your snippet, the default one looks like this:
 
 ```
 Hello, ${1:this} is a ${2:snippet}.
 ```
-Note: The dollar sign "$" allows you to use tab key to jump between, so set it wisely!
+
+Note: The dollar sign "\$" allows you to use tab key to jump between, so set it wisely!
 
 - Uncomment this line to set up a tab trigger for the shortcut
 
@@ -45,10 +47,8 @@ Using "Project" feature to organize your projects is super easy and handy. It sa
 Saving and using your projects is very straightforward.
 
 - First drag some folders and files that you want to open into Sublime
-- Then go to the menu, click "Project" -> "Save Project As"  
-    
-    ![save-proj](save-proj.png)
-    
+- Then go to the menu, click "Project" -> "Save Project As"
+  ![save-proj](save-proj.png)
 - Note the extension is ".sublime-project" and you may want to put all your project files in one central location
 
 That's it! You're done! Super easy right?
@@ -57,28 +57,24 @@ That's it! You're done! Super easy right?
 
 ![without-macro](without-macro.gif)
 
-Do you always feel frustrated by repeating the same tedious task again & again? Hmm... at least that's how I feel when I need to covert a vertical line of data into an array. Tasks like these are pretty common when you need to copy a line of data from spreadsheets. Using shortcuts, the best way I can come up with to accomplish this would be like so:  
+Do you always feel frustrated by repeating the same tedious task again & again? Hmm... at least that's how I feel when I need to covert a vertical line of data into an array. Tasks like these are pretty common when you need to copy a line of data from spreadsheets. Using shortcuts, the best way I can come up with to accomplish this would be like so:
 
 It takes about 8 shortcuts to finish each process, that's including the first paste action and then adding a space character after each comma. Imagine having to do this for each line of a table, and for every single spreadsheet you have to work on. It would be hundreds of shortcuts you need to press and each time you are just repeating the exact same sequence of keys.
 
 ![start-macro](start-macro.png)
 
-Well you might think there must be a better way! You bet there is! "Macros" are designed to handle this kind of nasty situation and save you from all that boring work. Here I made a very quick and easy example, it converts a vertical line of data into an array:  
+Well you might think there must be a better way! You bet there is! "Macros" are designed to handle this kind of nasty situation and save you from all that boring work. Here I made a very quick and easy example, it converts a vertical line of data into an array:
 
 Magic! Lots of time and lives will be saved by this little gadget. So now, how to make your very own macros. First of all I would recommend trying out your set of operations several times to make sure it will get recorded correctly. When you are ready, open a new window/tab in Sublime, clear your mind, take several deep breaths, and here we go.
 
-- Go to "Tools" -> "Record Mac  
-    
-    ![start-macro1](start-macro1.png)
-    
+- Go to "Tools" -> "Record Mac
+  ![start-macro1](start-macro1.png)
 - Do your operations
 
 Usually you would have something copied in your clipboard, so it could start with a "Paste" command. Now it's your time to shine, do a clean and precise set of operations to format the data.
 
-- Stop your macro  
-    
-    ![stop-macro](stop-macro.png)
-    
+- Stop your macro
+  ![stop-macro](stop-macro.png)
 - Playback
 
 You can find it under the same "Tools" menu. Just use it to make sure it did what you want, sometimes even though you recorded it properly, the macro doesn't recognize the operations correctly. For this reason it's important to make sure everything is correct and smooth, and if it's not, try find some alternatives for your operations.
@@ -89,5 +85,5 @@ Similar to other Sublime tools, it will be saved with an extension called ".subl
 
 ### To Be Continued ..
 
-I hope you had fun and learned something new about Sublime. Next time we will cover some really good packages/plugins that you should consider using to make your life and work even simpler. 
+I hope you had fun and learned something new about Sublime. Next time we will cover some really good packages/plugins that you should consider using to make your life and work even simpler.
 Happy coding!!!

@@ -4,6 +4,7 @@ date: "2018-06-06"
 coverImage: "hangoutchatimgage2.jpg"
 author: "Andy Yeung"
 tags: ["Express", "NodeJs", "Hangout"]
+type: "async"
 ---
 
 Time Required: 20 minutes.  
@@ -35,24 +36,24 @@ Open command line/terminal, and navigate to your project directory. Run ‘npm i
 In ‘app.js’, let’s setup our server:
 
 ```js
-const express = require('express');
-const bodyParser = require('body-parser');
-const { google } = require('googleapis');
+const express = require("express")
+const bodyParser = require("body-parser")
+const { google } = require("googleapis")
 
-const app = express();
+const app = express()
 
-app.use(bodyParser.urlencoded({
-  extended: false
-}));
+app.use(
+  bodyParser.urlencoded({
+    extended: false,
+  })
+)
 
-app.use(bodyParser.json());
+app.use(bodyParser.json())
 
-app.listen(8100, function() {
-  console.log('App listening on port 8100.');
-});
+app.listen(8100, function () {
+  console.log("App listening on port 8100.")
+})
 ```
-
-  
 
 Running ‘node app.js’ will now create a local server on port 8100.
 
@@ -61,18 +62,16 @@ Running ‘node app.js’ will now create a local server on port 8100.
 The bot will respond to pings through a HTTP POST endpoint. Create one with express:
 
 ```js
-app.post('/', function(req, res) {
-  console.log('someone pinged @');
+app.post("/", function (req, res) {
+  console.log("someone pinged @")
 
-  if (req.body.type === 'MESSAGE') {
+  if (req.body.type === "MESSAGE") {
     return res.json({
-      text: 'sleeping...'
-    });
+      text: "sleeping...",
+    })
   }
-});
+})
 ```
-
-  
 
 The bot will respond with the text: ‘sleeping…’.
 
@@ -87,43 +86,38 @@ Sending async messages to Google API requires a Service Account for authenticati
 So first, create a Google Service Account following these [steps](https://developers.google.com/hangouts/chat/how-tos/service-accounts). Take the downloaded JSON file and put it in the root directory of your project. Here, we renamed it to googlekeys.json:
 
 ```js
-const gkeys = require('./googlekeys.json');
+const gkeys = require("./googlekeys.json")
 ```
-
-  
 
 We will be making POST requests using Unirest:
 
 ```js
-const unirest = require('unirest');
+const unirest = require("unirest")
 ```
-
-  
 
 Now generate a JWT that will be used in our POST request:
 
 ```js
 function getJWT() {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     let jwtClient = new google.auth.JWT(
       gkeys.client_email,
       null,
-      gkeys.private_key, ['https://www.googleapis.com/auth/chat.bot']
-    );
+      gkeys.private_key,
+      ["https://www.googleapis.com/auth/chat.bot"]
+    )
 
-    jwtClient.authorize(function(err, tokens) {
+    jwtClient.authorize(function (err, tokens) {
       if (err) {
-        console.log('Error create JWT hangoutchat');
-        reject(err);
+        console.log("Error create JWT hangoutchat")
+        reject(err)
       } else {
-        resolve(tokens.access_token);
+        resolve(tokens.access_token)
       }
-    });
-  });
+    })
+  })
 }
 ```
-
-  
 
 Here is our function for posting messages. ROOM-ID can be found in the URL of the hangout chat room page i.e.: `https://chat.google.com/u/0/room/{ROOM-ID}`
 
@@ -149,24 +143,20 @@ function postMessage(count) {
 }
 ```
 
-  
-
 Finally, add the code that will repeat our post every minute.
 
 ```js
-const timer = require('timers');
+const timer = require("timers")
 
-app.listen(8100, function() {
-  console.log('App listening on port 8100.');
+app.listen(8100, function () {
+  console.log("App listening on port 8100.")
 
-  let count = 0;
-  timer.setInterval(function() {
-      postMessage(count += 1);
-  }, 60000);
-});
+  let count = 0
+  timer.setInterval(function () {
+    postMessage((count += 1))
+  }, 60000)
+})
 ```
-
-  
 
 ##### **Deploy**
 

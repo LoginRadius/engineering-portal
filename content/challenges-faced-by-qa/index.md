@@ -4,7 +4,8 @@ date: "2021-03-05"
 coverImage: "testing-challenges.png"
 author: "Neha Vyas"
 description: "Software testing is a difficult task in and of itself. Top 9 QA challenges that any tester in the software testing industry would face are discussed in clear terms here."
-tags: ["QA","Processes","Testing"]
+tags: ["QA", "Processes", "Testing"]
+type: "async"
 ---
 
 In the whole software development process, QA testing has a unique space. QA is responsible for ensuring that developed software is bug-free and works concerning technical and business requirements.
@@ -27,7 +28,7 @@ It is not fun, but you learn alternate options. Or at least, one can conclude wi
 
 ### 3. Tight Deadlines
 
-The biggest challenge QA is to receive requests for last-minute testing. The primary reasons for such demands are that the development process takes more time than expected and the time for testing is underestimated. Generally, testing and debugging take 50% of the development time. When QA has a short time frame for verification, they should check software against the main business specifications. Software testing should begin at least three days of release.  
+The biggest challenge QA is to receive requests for last-minute testing. The primary reasons for such demands are that the development process takes more time than expected and the time for testing is underestimated. Generally, testing and debugging take 50% of the development time. When QA has a short time frame for verification, they should check software against the main business specifications. Software testing should begin at least three days of release.
 
 ### 4. Testing Documents Created By Others
 
@@ -35,7 +36,7 @@ In the case of QA, it's faster to create a document from scratch than to use the
 
 ### 5. Friday Releases
 
-Everybody thinks of the successful releases of new features or products, but the reality could be different. From our testing experience, the software doesn't typically release from the first time in most cases. The best time for releasing the software is the start of the week. Thus it gives development and QA teams the rest of the week to manage with whatever comes up.  
+Everybody thinks of the successful releases of new features or products, but the reality could be different. From our testing experience, the software doesn't typically release from the first time in most cases. The best time for releasing the software is the start of the week. Thus it gives development and QA teams the rest of the week to manage with whatever comes up.
 
 ### 6. Wrong Testing Estimation
 
@@ -56,7 +57,6 @@ Naturally, last-minute changes in the requirement can be difficult for testers t
 Professional differences between development and testing teams are still common. Developers think that testing is a final process of the software development life cycle, and testers do not require anything apart from a list of user journeys and technical requirements.
 
 However, testers may have difficulty identifying flaws in the code if they are not acquainted with the development process. If they do not understand how the software works, they will have trouble creating test cases to find all possible bugs.
-  
 
 ### Conclusion
 
