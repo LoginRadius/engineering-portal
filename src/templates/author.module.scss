@@ -1,3 +1,4 @@
+@import "../styles/variables.scss";
 .author-page {
   .author {
     flex-direction: column;
@@ -10,7 +11,7 @@
       align-items: center;
       max-width: 768px;
       margin: 0 auto;
-      padding: 0 24px;
+      padding: 0 $gutter;
       text-align: center;
     }
     .author-social-icon {
@@ -25,7 +26,7 @@
             svg {
               width: 30px;
               height: 30px;
-              color: #000;
+              color: $gray-darkest;
             }
           }
         }

@@ -58,7 +58,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>{children}</div>
               </div>
-              <FreeTrial />
+              {/* <FreeTrial /> */}
               <Footer
                 menuLinks={data.site.siteMetadata.footerLinks}
                 socialLinks={data.site.siteMetadata.socialLinks}

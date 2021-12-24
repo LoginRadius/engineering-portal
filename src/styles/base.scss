@@ -5,22 +5,17 @@
 *::after {
   box-sizing: inherit;
 }
-img {
-  max-width: 100%;
-  border: 0;
-  display: block;
-  margin-bottom: 0;
-}
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: $basefont;
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: $font-stack;
+  color: $gray-darkest;
 }
 *,
 *:before,
@@ -43,7 +38,7 @@ h3,
 h4 {
   margin-top: 0;
   a {
-    color: $black;
+    color: $gray-darkest;
   }
 }
 h1 {
@@ -57,7 +52,7 @@ h1 {
 }
 h2 {
   margin-top: 48px;
-  margin-bottom: 24px;
+  margin-bottom: $gutter;
   font-size: 32px;
   line-height: 40px;
 }
@@ -74,7 +69,7 @@ h4 {
 p {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 a {
@@ -89,6 +84,12 @@ a {
     transition: all 0.3s;
   }
 }
+img {
+  max-width: 100%;
+  border: 0;
+  display: block;
+  margin-bottom: 0;
+}
 button {
   border: 0;
   cursor: pointer;
@@ -97,7 +98,7 @@ ul {
   padding: 0;
 }
 .btn-primary {
-  padding: 0 24px;
+  padding: 0 $gutter;
   height: 52px;
   border-radius: 4px;
   font-size: 20px;
@@ -114,7 +115,8 @@ ul {
   white-space: nowrap;
   transition: all 0.3s;
   border: 0;
-  transition: color 0.35s, background-color 0.35s, border-color 0.35s, box-shadow 0.35s, opacity 0.35s;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
+    box-shadow 0.35s, opacity 0.35s;
   background-color: $cta;
   color: $white;
   border-color: $cta;
@@ -171,7 +173,7 @@ ul {
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
-    font-size: 18px;
+    font-size: 1.125rem;
     width: 100%;
   }
 }
@@ -182,7 +184,7 @@ ul {
   padding: 40px 0;
 }
 .py-80 {
-  padding: $gutter*4 0;
+  padding: $gutter * 4 0;
   @media (max-width: 768px) {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -238,7 +240,7 @@ section {
   & > div {
     overflow: hidden;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 $gutter;
     max-width: 1248px;
     @media (max-width: 767px) {
       padding: 0 16px;
@@ -248,10 +250,10 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: 24px;
-        width: calc(33.33% - #{24px * 2 / 3});
+        margin-right: $gutter;
+        width: calc(33.33% - #{$gutter * 2 / 3});
         @media (max-width: 768px) {
-          width: calc(50% - #{24px * 1 / 2});
+          width: calc(50% - #{$gutter * 1 / 2});
         }
         @media (max-width: 767px) {
           width: 100%;
@@ -260,7 +262,7 @@ section {
         &:nth-child(3n) {
           margin-right: 0;
           @media (max-width: 768px) {
-            margin-right: 24px;
+            margin-right: $gutter;
           }
           @media (max-width: 767px) {
             margin-right: 0;
@@ -278,11 +280,11 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: 24px;
-        width: calc(70% - #{24px * 1 / 2});
+        margin-right: $gutter;
+        width: calc(70% - #{$gutter * 1 / 2});
         &:nth-child(2n) {
           margin-right: 0;
-          width: calc(30% - #{24px * 1 / 2});
+          width: calc(30% - #{$gutter * 1 / 2});
           @media (max-width: 768px) {
             width: 100%;
           }
@@ -297,10 +299,10 @@ section {
 }
 
 .mb-sm {
-  margin-bottom: 24px;
+  margin-bottom: $gutter;
 }
 .ml-sm {
-  margin-left: 20px;
+  margin-left: $gutter;
 }
 .bg-light {
   background-color: $gray-lightest;
@@ -348,7 +350,8 @@ section {
   margin-right: calc(0.7002rem - 1px);
 }
 .sib-form .progress-indicator__icon {
-  -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
+  -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85)
+    infinite;
   animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
 }
 .sib-form .clickable__icon {

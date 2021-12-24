@@ -1,7 +1,7 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "16px",
   headerFontFamily: ["Barlow", "Helvetica", "Arial", "sans-serif"],
   bodyFontFamily: ["Barlow", "Helvetica", "Arial", "sans-serif"],
   overrideThemeStyles: () => ({
@@ -14,7 +14,7 @@ const typography = new Typography({
     },
     p: {
       marginBottom: "0.75rem",
-    }
+    },
   }),
 })
 

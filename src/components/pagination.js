@@ -31,14 +31,11 @@ const Pagination = ({ pages, currentPage }) => {
   ]
 
   return (
-    <section className="bg-light py-40">
+    <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
         {!isFirst && <Link to={`/${prevPage}/#all-articles`} rel="prev" />}
         {!intialPages && (
-          <Link
-            to={`/`}
-            className={currentPage === 1 ? styles.active : ""}
-          >
+          <Link to={`/`} className={currentPage === 1 ? styles.active : ""}>
             {1}
           </Link>
         )}

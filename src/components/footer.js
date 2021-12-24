@@ -36,8 +36,10 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
         </div>
         <div className={styles.copyrightwrap}>
           <div className={styles.copyright}>
-            © Copyright {new Date().getFullYear()}
-            {`, `}
+            <p>
+              &copy; Copyright {new Date().getFullYear()}
+              {`, `}
+            </p>
             <a
               style={{ boxShadow: "none" }}
               href={"https://www.loginradius.com"}

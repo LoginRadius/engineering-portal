@@ -40,11 +40,6 @@
       padding: 0 !important;
       margin: 0 !important;
 
-      .react-tabs__tab--selected {
-        background: $blue-bright;
-        color: $white;
-      }
-
       li {
         text-align: left;
         border: none !important;
@@ -69,7 +64,7 @@
     list-style: none;
     // overflow: hidden;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 $gutter;
     max-width: 1248px;
     @media (max-width: 767px) {
       padding: 0 16px;
@@ -78,11 +73,20 @@
     li {
       text-align: center;
       cursor: pointer;
-      color: #000000a8;
       width: 100%;
       margin: 0 0 -2px 0;
       padding-bottom: 20px;
-      font-weight: 800;
+      font-weight: 700;
+      a {
+        color: $gray-darkest;
+      }
+      &.tab--selected {
+        background: $blue-bright;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
     }
   }
 }

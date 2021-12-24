@@ -51,10 +51,10 @@ module.exports = {
         name: "Security Policy",
         slug: "https://www.loginradius.com/security-policy/",
       },
-      {
-        name: "Site Map",
-        slug: "https://www.loginradius.com/site-map/",
-      },
+      // {
+      //   name: "Site Map",
+      //   slug: "https://www.loginradius.com/site-map/",
+      // },
     ],
     socialLinks: [
       {
@@ -68,6 +68,11 @@ module.exports = {
       {
         name: "youtube",
         slug: "https://www.youtube.com/user/LoginRadius",
+      },
+      {
+        name: "feedly",
+        slug:
+          "https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml",
       },
     ],
   },

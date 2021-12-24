@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #000;
+        fill: #fff;
       }
 
       .cls-2 {
@@ -10,7 +10,7 @@
       }
     </style>
   </defs>
-  <title>loginradius-logo--horizontal-full-colour-on-dark</title>
+  <title>loginradius-logo</title>
   <g id="horizontals">
     <g>
       <g>

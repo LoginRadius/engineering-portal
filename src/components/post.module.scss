@@ -51,19 +51,23 @@
     }
     .tag {
       a {
-        display: inline-flex;
         border-radius: 100px;
         font-weight: 500;
-        padding: 6px 12px;
-        border: 2px #008ECF solid;
+        padding: $gutter/3 $gutter/2;
+        border: 2px $blue-bright solid;
         font-size: 0.8rem;
-        margin-left: 12px;
-        margin-bottom: 12px;
-
+        margin-right: $gutter/2;
+        margin-bottom: $gutter/2;
+        display: inline-flex;
+        height: auto;
+        background: none;
+        line-height: 1;
         &:first-of-type {
           margin-left: 0;
         }
-
+        &:last-of-type {
+          margin-bottom: $gutter + $gutter/2;
+        }
         &:hover {
           background-color: $blue-bright;
           color: $white;
@@ -79,7 +83,7 @@
           line-height: normal;
           color: $gray-dark;
           &:hover {
-            color: $black;
+            color: $gray-darkest;
           }
         }
         svg {
@@ -88,6 +92,9 @@
         }
       }
     }
+  }
+  .post-detail-inner {
+    border-top: 1px solid $gray-light;
   }
 }
 
@@ -110,13 +117,18 @@
     flex-direction: column;
     flex: 1;
     &-inner {
-      margin-right: 24px;
+      margin-right: $gutter;
       width: calc(70% - 12px);
       padding-right: 50px;
       @media (max-width: 768px) {
         width: 100%;
         margin-right: 0px;
         padding-right: 0;
+      }
+    }
+    h3 {
+      a {
+        color: $blue-bright;
       }
     }
   }
@@ -133,7 +145,7 @@
   background-color: $blue-bright;
   .grid-66-33 {
     &.cta-small {
-      padding: 48px 24px;
+      padding: 48px $gutter;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
@@ -147,8 +159,8 @@
     & > div {
       display: inline-block;
       float: left;
-      margin-right: 24px;
-      width: calc(67% - (24px * 1 / 2));
+      margin-right: $gutter;
+      width: calc(67% - #{$gutter * 1 / 2});
       @media screen and (max-width: 1024px) {
         float: none;
         display: block;
@@ -156,12 +168,12 @@
       }
       &:nth-child(2) {
         margin-right: 0;
-        width: calc(33% - (24px * 1 / 2));
+        width: calc(33% - #{$gutter * 1 / 2});
         @media screen and (max-width: 1024px) {
           float: none;
           display: block;
           width: 100%;
-          margin-top: 24px;
+          margin-top: $gutter;
         }
       }
     }
@@ -209,7 +221,7 @@
     margin: 0 0 20px;
   }
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 26px;
     margin-bottom: 0;
   }
