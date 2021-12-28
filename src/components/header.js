@@ -2,23 +2,12 @@ import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
-
-import logoAsync from "../../static/async.svg"
-import logoAsyncDark from "../../static/async-dark.svg"
-import logoSwi from "../../static/swi.svg"
-import logoFuel from "../../static/fuel.svg"
 import LogoLr from "../../static/logo-blog.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
 import { validEmail } from "./regex.js"
-import Helmet from "react-helmet"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import styles from "../components/tabs.module.scss"
-import Hamburger from "../../static/iconHamburger.svg"
-import iconClose from "../../static/icon-close.svg"
 
 const logger = function (linkName, headerLink) {
   ReactGA.event({
@@ -135,47 +124,7 @@ const Header = ({ menuLinks, searchIndex }) => {
 
   return (
     <>
-      {/* <Helmet>
-        <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-      </Helmet> */}
       <ToastContainer style={{ fontSize: "15px" }} />
-      {/* <div
-        className={`${headerStyles.sgResponse} ${headerStyles[newsLetterSubscription.respClass]
-          } `}
-      >
-        <div>{newsLetterSubscription.responseMsg}</div>
-        <button
-          onClick={() =>
-            setNewsLetterSubscription({
-              subscribeEmail: newsLetterSubscription.subscribeEmail,
-            })
-          }
-          class={`${headerStyles.closeIcon}`}
-        ></button>
-        <ToastContainer />
-      </div> */}
-      {/* {!shouldClose ? (
-        <div className={headerStyles.topStrip}>
-          <p>
-            <a
-              href={"https://www.loginradius.com/resources/#live-product-demo"}
-              key={"live_demo"}
-              target="_blank"
-              className="ga_event"
-              rel="noopener noreferrer"
-              onClick={() => demologger()}
-            >
-              {"Join us on the demo"}
-            </a>
-            , while our product experts provide a detailed walkthrough of our
-            enterprise platform.
-          </p>
-          <button
-            onClick={() => close(true)}
-            className={headerStyles.closeIcon}
-          ></button>
-        </div>
-      ) : null} */}
 
       <div
         className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
@@ -184,11 +133,6 @@ const Header = ({ menuLinks, searchIndex }) => {
       >
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
-          {/* <img
-            src={logoAsyncDark}
-            alt="Async"
-            className={headerStyles.asycnLogo}
-          /> */}
         </Link>
         <Search searchIndex={searchIndex} />
       </div>

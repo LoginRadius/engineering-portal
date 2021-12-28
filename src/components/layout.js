@@ -50,6 +50,11 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 menuLinks={data.site.siteMetadata.menuLinks}
                 searchIndex={data.siteSearchIndex.index}
               />
+              <div className={layoutStyles.pinnedwrap}>
+                <div className={layoutStyles.blogContentPinned}>
+                  {<PinnedCard />}
+                </div>
+              </div>
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>{children}</div>
               </div>
