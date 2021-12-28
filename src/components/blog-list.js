@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 const BlogList = props => {
   const { data, pathname, currentPage } = props
   const total = data.allMarkdownRemark.totalCount
-  const numPages = Math.ceil(total / 9)
+  const numPages = Math.ceil(total / 6)
   return (
-    <Layout>
+    <Layout pinned>
       <SEO
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}

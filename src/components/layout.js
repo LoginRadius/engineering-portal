@@ -52,7 +52,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
               />
               <div className={layoutStyles.pinnedwrap}>
                 <div className={layoutStyles.blogContentPinned}>
-                  {<PinnedCard />}
+                  {pinned && <PinnedCard />}
                 </div>
               </div>
               <div className={layoutStyles.blogContent}>

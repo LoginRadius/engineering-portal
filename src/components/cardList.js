@@ -4,13 +4,21 @@ import Card from "./card"
 import Opensource from "../../static/open-source.png"
 import Writeforus from "../../static/write-for-us.png"
 export default function CardList({ posts, currentPage }) {
-  const limit = 9
+  const limit = 6
   return (
     <section className="pt-96" id="all-articles">
       <div className={styles.cardlist}>
         <div className="grid-67-33">
           <div className="grid-50">
-            {posts && posts.map(({ node }) => <Card node={node} />)}
+            {posts &&
+              posts.map(({ node }, index) => {
+                if (
+                  (currentPage - 1) * limit <= index &&
+                  index < (currentPage - 1) * limit + limit
+                ) {
+                  return <Card node={node} />
+                }
+              })}
           </div>
           <div className={`${styles.landing} ${styles.sidebar}`}>
             <div>
