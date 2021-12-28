@@ -18,8 +18,6 @@ const ToC = ({ headings }) => (
         if (heading.depth > 4) {
           return <div />
         }
-
-        console.log(heading.value)
         return (
           <ToCElement key={heading.value}>
             <ToCLink
