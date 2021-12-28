@@ -67,9 +67,33 @@ const Post = ({ post, relatedPost }) => {
       />
 
       <section
-        className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-80`}
+        className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-96`}
       >
         <div className={headStyles.blogContentPinned}>
+          <div className={headStyles.descriptionPinned}>
+            <div className={headStyles.description}>
+              <h1>{post.frontmatter.title || post.fields.slug}</h1>
+              <div className={headStyles.text}>
+                <span>By&nbsp;</span>
+                <a href="#">
+                  <strong>Authar Name</strong>
+                </a>
+              </div>
+              <p
+                className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
+                dangerouslySetInnerHTML={{
+                  __html: post.frontmatter.description || post.excerpt,
+                }}
+              />
+            </div>
+
+            <div className={`${headStyles.tag} ${headStyles.pinned}`}>
+              {tags &&
+                tags.map(tag => (
+                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                ))}
+            </div>
+          </div>
           <div className={headStyles.avatarPinned}>
             <Img
               fluid={image.childImageSharp.fluid}
@@ -78,113 +102,40 @@ const Post = ({ post, relatedPost }) => {
               alt={post.frontmatter.title}
             />
           </div>
-          <div className={headStyles.descriptionPinned}>
-            <div className={`${headStyles.tag} ${headStyles.pinned}`}>
-              {tags &&
-                tags.map(tag => (
-                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
-                ))}
-            </div>
-            <div className={headStyles.description}>
-              <h1>{post.frontmatter.title || post.fields.slug}</h1>
-              <p
-                className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
-                dangerouslySetInnerHTML={{
-                  __html: post.frontmatter.description || post.excerpt,
-                }}
-              />
-            </div>
-            {author && (
-              <Bio
-                readingTime={getTimeToRead(post.html)}
-                date={
-                  post.frontmatter.date === gitAuthorTime ||
-                  gitAuthorTime === "Invalid date" ||
-                  gitAuthorTime === undefined
-                    ? post.frontmatter.date
-                    : gitAuthorTime
-                }
-                author={author}
-                pinned
-              />
-            )}
-          </div>
         </div>
       </section>
 
       <section className={styles.postDetail}>
         <div>
-          <div className={`${styles.postDetailInner} pt-80 grid-70-30`}>
+          <div className={`${styles.postDetailInner} pt-96 grid-67-33`}>
             <div
               className={styles.postContent}
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <div class={styles.sidebar}>
-              {relatedPost.length ? (
-                <>
-                  <div class={styles.relatedPost}>
-                    <h3>Related Posts</h3>
-                    {relatedPost.map(({ node }, i) => (
-                      <div className={styles.relatedPostRow}>
-                        <div className={styles.description}>
-                          <h4>
-                            <Link to={node.fields.slug} rel="prev">
-                              {node.frontmatter.title}
-                            </Link>
-                          </h4>
-                        </div>
-                        <div class={styles.tag}>
-                          {node.frontmatter.tags.map(tag => (
-                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <hr />
-                </>
-              ) : null}
-              <div>
-                <h3>Follow LoginRadius </h3>
-                <div className={styles.followBtn}>
-                  <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Feedly",
-                        label: "Feedly",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <img
-                      id="feedlyFollow"
-                      src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
-                      alt="follow us in feedly"
-                      width="28"
-                      height="28"
-                    />
-                    <p> via feedly </p>
-                  </a>
-                  <a
-                    href="https://twitter.com/LoginRadius"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Twitter",
-                        label: "Twitter",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
-                    <p> on twitter </p>
-                  </a>
-                </div>
+            <div class={styles.sideBar}>
+              <div class={`${styles.sideBarWidget} ${styles.link}`}>
+                <h3>Related Posts</h3>
+                <ul>
+                  <li>
+                    <a href="#">
+                      The Importance of Multi-Factor Authentication (MFA)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">Top 9 Challenges Faced by Every QA</a>
+                  </li>
+                  <li>
+                    <a href="#">How to implement Facebook Login</a>
+                  </li>
+                  <li>
+                    <a href="#">How to Implement Facebook Social Login</a>
+                  </li>
+                </ul>
               </div>
-              <hr />
-              <div>
+              <div class={`${styles.sideBarWidget} ${styles.tags}`}>
+                <TagMenu />
+              </div>
+              <div class={`${styles.sideBarWidget} ${styles.cta}`}>
                 <h3>LoginRadius Docs</h3>
                 <p>Implement Authentication in Minutes</p>
                 <a
@@ -204,8 +155,6 @@ const Post = ({ post, relatedPost }) => {
                   {"click here"}
                 </a>
               </div>
-              <hr />
-              <TagMenu />
             </div>
           </div>
           {/* <div className="grid-70-30">
@@ -231,7 +180,7 @@ const Post = ({ post, relatedPost }) => {
               </p>
             </div>
           </div> */}
-          <div class={`${styles.author} d-flex py-80`}>
+          <div class={`${styles.author} d-flex py-96`}>
             <div class={styles.authorImage}>
               <img
                 className={`circle extra-large`}

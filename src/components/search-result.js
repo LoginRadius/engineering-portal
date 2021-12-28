@@ -25,7 +25,7 @@ export default class SearchResult extends Component {
     const { results, query } = this.state
 
     return results.length ? (
-      <section className="py-80">
+      <section className="py-96">
         <div className={styles.searchContent}>
           <h2>Search results for: "{query}"</h2>
 
@@ -41,7 +41,7 @@ export default class SearchResult extends Component {
         </div>
       </section>
     ) : (
-      <section className="py-80">
+      <section className="py-96">
         <div className={styles.searchContent}>
           <h2>Search results for: "{query}"</h2>
 

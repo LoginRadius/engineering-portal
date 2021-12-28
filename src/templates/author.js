@@ -30,7 +30,7 @@ export default ({
     />
     <main>
       <section>
-        <div class={`${styles.authorPage} pt-80`}>
+        <div class={`${styles.authorPage} pt-96`}>
           <div class={`${styles.author} d-flex`}>
             <div class={styles.authorImage}>
               <img

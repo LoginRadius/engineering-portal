@@ -24,7 +24,7 @@ const Tags = ({ pageContext, data, location }) => {
       />
       <main>
         <section>
-          <div className="pt-80">
+          <div className="pt-96">
             <h1 className="mb-0"> {tagHeader} </h1>
           </div>
         </section>

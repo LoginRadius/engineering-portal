@@ -49,6 +49,7 @@ const BlogList = props => {
                 </Tab>
                 <Tab>Culture</Tab>
                 <Tab>Announcements</Tab>
+                {/* <hr /> */}
               </TabList>
             </div>
             {openMenu && (

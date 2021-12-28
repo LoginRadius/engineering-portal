@@ -29,7 +29,7 @@ const Hacktoberfest2020 = () => {
             </div>
           </div>
         </section>
-        <section className="content py-80">
+        <section className="content py-96">
           <div>
             <h3>Why write for LoginRadius?</h3>
             <p>

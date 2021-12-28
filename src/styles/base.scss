@@ -28,6 +28,7 @@ ul,
 ol {
   padding: 0 0 0 40px;
   margin-left: 0;
+  font-size: 1.125rem;
 }
 input[type="submit"] {
   cursor: pointer;
@@ -183,33 +184,33 @@ ul {
 .py-40 {
   padding: 40px 0;
 }
-.py-80 {
+.py-96 {
   padding: $gutter * 4 0;
   @media (max-width: 768px) {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
-.pt-80 {
-  padding-top: $space-80;
+.pt-96 {
+  padding-top: $gutter * 4;
   @media (max-width: 768px) {
     padding-top: 40px;
   }
 }
-.pb-80 {
-  padding-bottom: $space-80;
+.pb-96 {
+  padding-bottom: $gutter * 4;
   @media (max-width: 768px) {
     padding-bottom: 40px;
   }
 }
-.mb-80 {
-  margin-bottom: $space-80;
+.mb-96 {
+  margin-bottom: $gutter * 4;
   @media (max-width: 768px) {
     margin-bottom: 40px;
   }
 }
 .mb-48 {
-  margin-bottom: 48px;
+  margin-bottom: $gutter * 2;
 }
 .circle {
   border-radius: 100%;
@@ -217,6 +218,10 @@ ul {
 .extra-large {
   width: 100px;
   height: 100px;
+}
+.medium {
+  width: $gutter * 3;
+  height: $gutter * 3;
 }
 .large {
   width: 50px;
@@ -275,16 +280,32 @@ section {
         }
       }
     }
-    .grid-70-30 {
+    .grid-50 {
       display: flex;
       flex-wrap: wrap;
       & > div {
         display: inline-block;
-        margin-right: $gutter;
-        width: calc(70% - #{$gutter * 1 / 2});
+        margin-right: $gutter * 2;
+        width: calc(50% - #{$gutter * 2} / 2);
+        @media (max-width: 767px) {
+          width: 100%;
+          margin-right: 0;
+        }
         &:nth-child(2n) {
           margin-right: 0;
-          width: calc(30% - #{$gutter * 1 / 2});
+        }
+      }
+    }
+    .grid-67-33 {
+      display: flex;
+      flex-wrap: wrap;
+      & > div {
+        display: inline-block;
+        margin-right: $gutter * 3;
+        width: calc(67% - #{#{$gutter * 3} * 1 / 2});
+        &:nth-child(2n) {
+          margin-right: 0;
+          width: calc(33% - #{#{$gutter * 3} * 1 / 2});
           @media (max-width: 768px) {
             width: 100%;
           }
@@ -388,15 +409,6 @@ section {
   box-sizing: border-box;
 }
 
-.react-tabs__tab--selected {
-  border-bottom: 3px solid $blue-bright;
-  color: $blue-bright !important;
-  @media (max-width: 767px) {
-    background: $blue-bright;
-    color: $white !important;
-  }
-}
-
 @keyframes indicator-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -410,3 +422,37 @@ section {
 .input--hidden {
   display: none !important;
 }
+#commento {
+  margin-bottom: $gutter * 2;
+}
+
+// #react-tabs {
+//   &-1 {
+//     &:hover {
+//       ~ hr {
+//         left: calc(20% + 24px);
+//       }
+//     }
+//   }
+//   &-2 {
+//     &:hover {
+//       ~ hr {
+//         left: calc(40% + 24px);
+//       }
+//     }
+//   }
+//   &-3 {
+//     &:hover {
+//       ~ hr {
+//         left: calc(60% + 24px);
+//       }
+//     }
+//   }
+//   &-4 {
+//     &:hover {
+//       ~ hr {
+//         left: calc(80% + 24px);
+//       }
+//     }
+//   }
+// }

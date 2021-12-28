@@ -8,9 +8,17 @@ const Bio = ({ date, author, pinned, readingTime }) => {
     ? `https://github.com/${author.github}.png?size=50`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
   return (
-    <div className={`${styles.bio} d-flex ${pinned ? styles.pinned : ""}`}>
+    <div
+      className={`${styles.bio} d-flex align-items-center ${
+        pinned ? styles.pinned : ""
+      }`}
+    >
       <div>
-        <img className={`circle large`} src={githubUrl} alt={author.id} />
+        <img
+          className={` circle medium ${pinned ? styles.pinned : "large"}`}
+          src={githubUrl}
+          alt={author.id}
+        />
       </div>
       <div className="text ml-sm">
         <span>By&nbsp;</span>

@@ -23,16 +23,11 @@ const TagMenu = () => {
           return t2.totalCount - t1.totalCount
         })
         return (
-          <div className={styles.sidebar}>
-            <div className={styles.tag}>
-              <h3> Most Popular Tags </h3>
-              {group.slice(0, 10).map(item => (
-                <Link to={`/tags/${kebabCase(item.tag)}/`}>
-                  {item.tag}
-                </Link>
-              ))}
-            </div>
-          </div>
+          <React.Fragment>
+            {group.slice(0, 10).map(item => (
+              <Link to={`/tags/${kebabCase(item.tag)}/`}>{item.tag}</Link>
+            ))}
+          </React.Fragment>
         )
       }}
     />

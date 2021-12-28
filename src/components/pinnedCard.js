@@ -92,7 +92,7 @@ const PinnedCard = () => {
         let coverImagePath = node.frontmatter.coverImage
         return (
           <React.Fragment>
-            <section className={`${styles.pinnedwrap} py-80`}>
+            <section className={`${styles.pinnedwrap} py-96`}>
               <div className={styles.blogContentPinned}>
                 <div className={styles.avatarPinned}>
                   <Link to={node.fields.slug} className="bs-md">
