@@ -33,6 +33,7 @@ export const swiBlogQuery = graphql`
             title
             tags
             type
+            pinned
             coverImage {
               childImageSharp {
                 fluid {

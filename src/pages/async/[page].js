@@ -33,6 +33,7 @@ export const AsyncBlogQuery = graphql`
             title
             tags
             type
+            pinned
             coverImage {
               childImageSharp {
                 fluid {

@@ -33,6 +33,7 @@ export const fuelBlogQuery = graphql`
             title
             tags
             type
+            pinned
             coverImage {
               childImageSharp {
                 fluid {

@@ -8,8 +8,14 @@ const BlogList = props => {
   const { data, pathname, currentPage } = props
   const total = data.allMarkdownRemark.totalCount
   const numPages = Math.ceil(total / 6)
+  const posts = data.allMarkdownRemark.edges
+  const pinnedNode = posts.filter(edges => edges.node.frontmatter.pinned)
+  const pinnedData =
+    pinnedNode.length != 0
+      ? pinnedNode[0].node
+      : data.allMarkdownRemark.edges[0].node
   return (
-    <Layout pinned>
+    <Layout pinnedData={pinnedData} pinned>
       <SEO
         title={currentPage === 1 ? "" : `Page ${currentPage}`}
         image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}

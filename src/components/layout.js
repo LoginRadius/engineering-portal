@@ -9,7 +9,7 @@ import Helmet from "react-helmet"
 import SEO from "./seo"
 import PinnedCard from "./pinnedCard"
 
-const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
+const Layout = ({ hideTagMenu, postPage, children, pinned, pinnedData }) => {
   return (
     <div className={layoutStyles.container}>
       <Helmet>
@@ -52,7 +52,7 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
               />
               <div className={layoutStyles.pinnedwrap}>
                 <div className={layoutStyles.blogContentPinned}>
-                  {pinned && <PinnedCard />}
+                  {pinned && <PinnedCard pinnedData={pinnedData} />}
                 </div>
               </div>
               <div className={layoutStyles.blogContent}>
