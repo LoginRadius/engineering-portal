@@ -142,6 +142,25 @@ const Header = ({ menuLinks, searchIndex }) => {
           toggleMenu(false)
         }}
       />
+      <div>
+        <ul className={"d-flex"}>
+          <li>
+            {" "}
+            <Link to={"/async"} className={"active"}>
+              {" "}
+              Engineering
+            </Link>{" "}
+          </li>
+          <li>
+            {" "}
+            <Link to={"/swi"}>Identity</Link>{" "}
+          </li>
+          <li>
+            {" "}
+            <Link to={"/fuel"}> Growth</Link>{" "}
+          </li>
+        </ul>
+      </div>
     </>
   )
 }
