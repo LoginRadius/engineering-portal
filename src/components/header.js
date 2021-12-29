@@ -136,6 +136,20 @@ const Header = ({ menuLinks, searchIndex }) => {
         </Link>
         <Search searchIndex={searchIndex} />
       </div>
+      <div className={headerStyles.navigation}>
+        <ul>
+          <li className={headerStyles.active}>
+            <Link to={"/async"}>Engineering</Link>
+          </li>
+          <li>
+            <Link to={"/swi"}>Identity</Link>
+          </li>
+          <li>
+            <Link to={"/fuel"}> Growth</Link>
+          </li>
+          <hr />
+        </ul>
+      </div>
       <div
         className={headerStyles.backdrop}
         onClick={() => {

@@ -798,3 +798,56 @@
 .font-resize {
   font-size: 15px;
 }
+
+.navigation {
+  width: 100%;
+  box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+    0 3px 3px 0px rgba(0, 142, 207, 0.12);
+  ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: $gutter * 3;
+    list-style: none;
+    position: relative;
+    li {
+      margin: 0;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-weight: 700;
+      a {
+        color: $gray-darkest;
+        display: flex;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+      }
+      &.active {
+        a {
+          color: $blue-bright;
+        }
+      }
+      &:nth-child(2) {
+        color: red;
+        & + hr {
+          left: 33.33%;
+        }
+      }
+    }
+    hr {
+      height: 3px;
+      width: 33.33%;
+      margin: 0;
+      background: $blue-bright;
+      border: none;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}

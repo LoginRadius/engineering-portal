@@ -184,6 +184,7 @@
     .tag {
       a {
         margin-bottom: $gutter/1.5;
+        margin-right: $gutter/1.5;
       }
     }
     .card {
@@ -197,7 +198,19 @@
         margin-bottom: 0;
       }
       a {
+        display: block;
         color: $gray-darkest;
+        transition: all 300ms;
+        &:hover {
+          img {
+            opacity: 0.8;
+          }
+
+          & > h3 {
+            color: $blue-bright;
+            opacity: 1;
+          }
+        }
       }
     }
   }

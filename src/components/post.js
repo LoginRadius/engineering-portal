@@ -18,7 +18,7 @@ import ReactGA from "react-ga"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
-
+import Docs from "../../static/consumer-identity-trend.jpg"
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
     category: category,
@@ -113,7 +113,7 @@ const Post = ({ post, relatedPost }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div class={styles.sideBar}>
-              <div class={`${styles.sideBarWidget} ${styles.link}`}>
+              <div class={`${styles.sideBarWidget} ${styles.posts}`}>
                 <h3>Related Posts</h3>
                 <ul>
                   <li>
@@ -136,24 +136,28 @@ const Post = ({ post, relatedPost }) => {
                 <TagMenu />
               </div>
               <div class={`${styles.sideBarWidget} ${styles.cta}`}>
-                <h3>LoginRadius Docs</h3>
-                <p>Implement Authentication in Minutes</p>
-                <a
-                  className={"btn-primary ga_event"}
-                  href={"https://www.loginradius.com/docs/developer"}
-                  key={"docs-link"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() =>
-                    eventLogger({
-                      category: "LoginRadius Docs",
-                      action: "User clicked on Loginradius Docs button",
-                      label: "Docs",
-                    })
-                  }
-                >
-                  {"click here"}
-                </a>
+                <div class="image">
+                  <img src={Docs} alt="LoginRadius Docs" />
+                </div>
+                <div class="text">
+                  <p>Implement Authentication in Minutes</p>
+                  <a
+                    className={"btn-primary ga_event"}
+                    href={"https://www.loginradius.com/docs/developer"}
+                    key={"docs-link"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() =>
+                      eventLogger({
+                        category: "LoginRadius Docs",
+                        action: "User clicked on Loginradius Docs button",
+                        label: "Docs",
+                      })
+                    }
+                  >
+                    {"LoginRadius Docs"}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
