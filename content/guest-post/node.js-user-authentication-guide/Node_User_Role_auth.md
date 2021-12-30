@@ -1,803 +1,987 @@
 ---
 title: "Node.js User Authentication Guide"
-date: "2021-12-25"
+date: "2022-01-07"
 coverImage: "coverimage.jpeg"
 author: "Uma Victor"
-tags: ["JWT", "Auth"]
+tags: ["JWT", "Authentication", "Node.js"]
 description: "This is a blog about you can authenticate users in Nodejs"
 ---
 
-![](https://paper-attachments.dropbox.com/s_139F38936302261DAAC656ECBD891BEFD786F6ED3999496E72389955566190EB_1640386691464_coverimage.jpeg)
-
-
-## **Introduction**
+## Introduction
 
 Creating a user registration form employs the management of the registered user. This is where user role authentication comes into play. Role authentication ensures that non-admin users cannot make changes or have access to exclusive information. It grants administrative privileges to admin users and basic privileges to basic users.
-Authentication is carried out using trusted third-party customer identity and access management (CIAM) software like LoginRadius and web tokens like JSON Web Token (JWT).
 
-## **Goal**
+Authentication is carried out using trusted third-party customer identity and access management (CIAM) software like [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register) and web tokens like JSON Web Token (JWT).
 
-The goal of this tutorial is to show the differences between the Admin role and the Basic user role. Learn about JWT and how to use it to authenticate users.
+## Goal
 
-## **Prerequisites**
+This tutorial helps you:
 
-This tutorial requires that you have [Node](https://nodejs.org/en/download/) already installed, [MongoDB](https://www.mongodb.com/try/download/community) installed, a [Text Editor](https://code.visualstudio.com/download), and at least a little knowledge of JavaScript [E56 Syntax](https://www.w3schools.com/js/js_es6.asp). Now that we have everything in place, let’s setup our database
+- understnad the differences between the Admin role and the Basic user role;
+- use JWT to authenticate users;
+- learn role-based authentication using JWT in a simple Node.js app
 
-## **Setting up database** 
+## Prerequisites
 
-We will be storing all our user's data, which includes username, password, and role, in **MongoDB**.
+You should have the following installed:
 
-**Setting up database** 
-We need to install a node package called Mongoose that will connect us to MongoDB and create a user `schema` for our application.
+- [Node](https://nodejs.org/en/download/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+- a [Text Editor](https://code.visualstudio.com/download)
 
-    npm init
-    npm install mongoose
+You should also have a basic understanding of JavaScript [E56 Syntax](https://www.w3schools.com/js/js_es6.asp).
 
-`npm init` sets up our new project and creates a `package.json` file with the credentials. 
+Now that we have everything in place, let’s setup your database
 
+## Set Up a Mongo Database
 
-After we have installed mongoose, name a new file `db.js` in the project's directory and require `mongoose`.
+You'll store all your user data — which includes username, password, and role — in **MongoDB**.
 
-    const Mongoose = require('mongoose')
+Install a node package called Mongoose that will connect to MongoDB. Then create a user `schema` for your application.
 
-With the help of mongoose, we can connect our application to MongoDB:
+```js
+npm init
+npm install mongoose
+```
 
-    // db.js
-    const Mongoose = require("mongoose");
-    const localDB = `mongodb://localhost:27017/role_auth`;
-    const connectDB = async () => {
-      await Mongoose.connect(localDB, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-      });
-      console.log("MongoDB Connected");
-    };
-    module.exports = connectDB;
+`npm init` sets up your new project and creates a `package.json` file with the credentials.
 
-We connected to  `mongodb://localhost:27017` and then we specified the name of our database `/role_auth`. The function `connectDB` awaits for the connection, which contains the `URI` and `options` as a second parameter. If it connects without errors, it will log out `MongoDB Connected`. Error issues will be fixed when we are connecting  to the database. After this, we exported the function to be used in our server. 
+After installing mongoose, name a new file `db.js` in the project's directory and require `mongoose`.
 
-## **Setting up the Server**
+```js
+const Mongoose = require("mongoose")
+```
 
-We need to install some dependencies that we will use in this tutorial. 
+With the help of mongoose, you can connect your application to MongoDB:
 
-    npm i express nodemon
+```js
+// db.js
+const Mongoose = require("mongoose")
+const localDB = `mongodb://localhost:27017/role_auth`
+const connectDB = async () => {
+  await Mongoose.connect(localDB, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  console.log("MongoDB Connected")
+}
+module.exports = connectDB
+```
+
+The code snippet here connects to `mongodb://localhost:27017` and then specifies the name of the database `/role_auth`.
+
+The function `connectDB` awaits for the connection, which contains the `URI` and `options` as a second parameter. If it connects without errors, it will log out `MongoDB Connected`. Error issues will be fixed while connecting to the database. After this, it exported the function for using in the server.
+
+## Set Up the Server
+
+You need to install some dependencies that you'll use in this tutorial.
+
+```js
+  npm i express nodemon
+```
 
 [Express.js](https://expressjs.com/) is a Node.js framework for building web applications quickly and easily.
+
 [Nodemon](https://www.npmjs.com/package/nodemon) is a tool that watches the file system and automatically restarts the server when there is a change.
-We require `express` in our application to listen for a connection on port `5000`. Create a new file `server.js` in the root directory and create the listening event:
 
-    const express = require("express");
-    const app = express();
-    const PORT = 5000;
-    app.listen(PORT, () => console.log(`Server Connected to port ${PORT}`));
+You require `express` in your application to listen for a connection on port `5000`. Create a new file `server.js` in the root directory and create the listening event:
 
-The next step is to test our application. We will open up our `package.json` file and add the following to `scripts`
+```js
+const express = require("express")
+const app = express()
+const PORT = 5000
+app.listen(PORT, () => console.log(`Server Connected to port ${PORT}`))
+```
 
-      "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js"
-      }
+The next step is to test your application. Open up your `package.json` file and add the following to `scripts`:
 
-Open your terminal and run `npm run dev` to start up the server. 
+```json
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+```
 
-## **Connecting the Database**
+Open your terminal and run `npm run dev` to start up the server.
 
-Earlier, we created a function that connects to MongoDB and exported that function. Let us import that function into our `server.js`:
+## Connect to the Database
 
-    const connectDB = require("./db");
-    ...
-    //Connecting the Database
-    connectDB();
+Earlier, you've created a function that connects to MongoDB and exported that function. Now import that function into your `server.js`:
 
-We also need to create an error handler that catches every `unhandledRejection` error.
+```js
+const connectDB = require("./db");
+...
+//Connecting the Database
+connectDB();
+```
 
-    ...
-    const server = app.listen(PORT, () =>
-      console.log(`Server Connected to port ${PORT}`)
-    );
-    // Handling Error
-    process.on("unhandledRejection", (err) => {
-      console.log(`An error occurred: ${err.message}`);
-      server.close(() => process.exit(1));
-    });
+You also need to create an error handler that catches every `unhandledRejection` error.
 
-The listening event is assigned to a constant `server`. If an `unhandledRejection` error occurs, we log out the error and close the `server` with an exit code of 1.
+```js
+const server = app.listen(PORT, () =>
+  console.log(`Server Connected to port ${PORT}`)
+)
+// Handling Error
+process.on("unhandledRejection", err => {
+  console.log(`An error occurred: ${err.message}`)
+  server.close(() => process.exit(1))
+})
+```
 
-## **Creating User Schema**
+The listening event is assigned to a constant `server`. If an `unhandledRejection` error occurs, it logs out the error and closes the `server` with an exit code of 1.
 
-[Schema](https://en.wikipedia.org/wiki/Database_schema) can be seen as a blueprint that shows how the database will be constructed. We will structure a user schema that contains username, password, and role. Let us name a new folder `model` in the project's directory and create a file called `User.js`. Now open `User.js` and create the user's schema:
+## Create User Schema
 
-    // user.js
-    const Mongoose = require("mongoose");
-    const UserSchema = new Mongoose.Schema({
-      username: {
-        type: String,
-        unique: true,
-        required: true
-      },
-      password: {
-        type: String,
-        minlength: 6,
-        required: true
-      },
-      role: {
-        type: String,
-        default: "Basic",
-        required: true
-      },
-    });
+[Schema](https://en.wikipedia.org/wiki/Database_schema) is like a blueprint that shows how the database will be constructed.
 
-In the schema, the `username` will be unique, required, and will accept `strings`. We specified the minimum characters (6) the `password` field will accept. The `role` field grants a default value (basic) that can be changed if desired.
-We need to create a user model and export it:
+You'll structure a user schema that contains username, password, and role.
 
-    ...
-    const User = Mongoose.model("user", UserSchema);
-    module.exports = User;
+Name a new folder `model` in the project's directory and create a file called `User.js`. Now open `User.js` and create the user schema:
 
-We created the user model by passing the `UserSchema` as the second argument while the first argument is the name of the model `user`.
+```js
+// user.js
+const Mongoose = require("mongoose")
+const UserSchema = new Mongoose.Schema({
+  username: {
+    type: String,
+    unique: true,
+    required: true,
+  },
+  password: {
+    type: String,
+    minlength: 6,
+    required: true,
+  },
+  role: {
+    type: String,
+    default: "Basic",
+    required: true,
+  },
+})
+```
 
-## **Performing CRUD Operations**
+In the schema, the `username` will be unique, required, and will accept `strings`.
 
-We will create functions that take care of adding users, getting all users, updating the role of users, and deleting users.
+You've specified the minimum characters (6) the `password` field will accept. The `role` field grants a default value (basic) that you can change if needed.
 
-**Register Function**
-As the name implies, this function will handle the registrations of users. Let us create a new folder named `Auth`. it will contain the Authentication file and the Route set-up file. Once we have created the folder `Auth`, we will add two files to it, `Auth.js` and `Route.js`.
-Let us open up our `Auth.js` file and import that `User` model:
+Now, you need to create a user model and export it:
 
-    const User = require("../model/User");
+```js
+const User = Mongoose.model("user", UserSchema)
+module.exports = User
+```
 
-The next step is to create an `async` `express` function that will take the user's data and register it in the database. We need to make use of an [Express middleware](https://expressjs.com/en/guide/writing-middleware.html) function that will grant us access to the user's data from the body. We will make use of this function in the `server.js` file:
+You've created the user model by passing the `UserSchema` as the second argument while the first argument is the name of the model `user`.
 
-    ...
-    const app = express();
-    app.use(express.json());
+## Perform CRUD Operations
 
-Let us go back to our `Auth.js` file and create the register funcation:
+You'll create functions that handle adding users, getting all users, updating the role of users, and deleting users.
 
-    // auth.js
-    exports.register = async (req, res, next) => {
-      const { username, password } = req.body;
-       if (password.length < 6) {
-        return res.status(400).json({ message: "Password less than 6 characters" });
-      }
-      try {
-        await User.create({
-          username,
-          password,
-        }).then((user) =>
-          res.status(200).json({
-            message: "User successfully created",
-            user,
-          })
-        );
-      } catch (err) {
-        res.status(401).json({
-          message: "User not successful created",
-          error: error.mesage,
-        });
-      }
-    };
+### Register Function
 
-The `register` function we exported will be used to set up our routes. We got the username and password from the `req.body` and created a `tryCatch` block that will create the user if successful else, it returns a status code of `401` with the error message.
-**Setting up Register route**
-We will create a route to `/register` using `express.Router`, import the `register` function into our `route.js` file, and use it as the route's function:
+As the name implies, this function will handle the registrations of users.
 
-    const express = require("express");
-    const router = express.Router();
-    const { register } = require("./auth");
-    router.route("/register").post(register);
-    module.exports = router;
+Let'ss create a new folder named `Auth`. It will contain the Authentication file and the Route set-up file.
 
-The last step is to import our `route.js` file as middleware in `server.js`:
+After creating the `Auth` folder, add two files to it — `Auth.js` and `Route.js`.
 
-    ...
-    app.use("/api/auth", require("./Auth/route"));
-    ...
+Now open up our `Auth.js` file and import that `User` model:
 
-Our server will use the `router` middleware function if there is a request to `/api/auth`,
-**Testing the Register route**
-We will use [Postman](https://www.postman.com/downloads/) to test all our routes.
+```js
+const User = require("../model/User")
+```
+
+The next step is to create an `async` `express` function that will take the user's data and register it in the database.
+
+You need to make use of an [Express middleware](https://expressjs.com/en/guide/writing-middleware.html) function that will grant access to the user's data from the body. You'll use this function in the `server.js` file:
+
+```js
+const app = express()
+app.use(express.json())
+```
+
+Let's go back to your `Auth.js` file and create the register funcation:
+
+```js
+// auth.js
+exports.register = async (req, res, next) => {
+  const { username, password } = req.body
+  if (password.length < 6) {
+    return res.status(400).json({ message: "Password less than 6 characters" })
+  }
+  try {
+    await User.create({
+      username,
+      password,
+    }).then(user =>
+      res.status(200).json({
+        message: "User successfully created",
+        user,
+      })
+    )
+  } catch (err) {
+    res.status(401).json({
+      message: "User not successful created",
+      error: error.mesage,
+    })
+  }
+}
+```
+
+The exported `register` function will be used to set up the routes. You got the username and password from the `req.body` and created a `tryCatch` block that will create the user if successful; else, it returns a status code `401` with the error message.
+
+### Set Up Register Route
+
+You'll create a route to `/register` using `express.Router`. Import the `register` function into your `route.js` file, and use it as the route's function:
+
+```js
+const express = require("express")
+const router = express.Router()
+const { register } = require("./auth")
+router.route("/register").post(register)
+module.exports = router
+```
+
+The last step is to import your `route.js` file as middleware in `server.js`:
+
+```js
+app.use("/api/auth", require("./Auth/route"))
+```
+
+The server will use the `router` middleware function if there is a request to `/api/auth`.
+
+### Test the Register Route
+
+You'll use [Postman](https://www.postman.com/downloads/) to test all the routes.
+
 Open up Postman to make a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
 ![Register Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639605986714_registerRoute.jpg)
 
+### Login Function
 
-**Login Function**
-We created a function that adds registered users to the database. We have to create another function that will authenticate the credentials of the user and check if the user is registered.
-Open the `Auth.js` file and let's create the Login function:
+You've created a function that adds registered users to the database. Now, you've to create another function that will authenticate user credentials and check if the user is registered.
 
-    // auth.js
-    exports.login = async (req, res, next) => {
-      const { username, password } = req.body;
-      // Check if username and password is provided
-      if (!username || !password) {
-        return res.status(400).json({
-          message: "Username or Password not present",
-        });
-      }
+Open the `Auth.js` file and create the Login function, as follows:
+
+```js
+// auth.js
+exports.login = async (req, res, next) => {
+  const { username, password } = req.body
+  // Check if username and password is provided
+  if (!username || !password) {
+    return res.status(400).json({
+      message: "Username or Password not present",
+    })
+  }
+}
+```
+
+The `login` function returns a status code of `400` if the username and password were not provided. You need to find a user with the provided `username` and `password:
+
+```js
+exports.login = async (req, res, next) => {
+  try {
+    const user = await User.findOne({ username, password })
+    if (!user) {
+      res.status(401).json({
+        message: "Login not successful",
+        error: "User not found",
+      })
+    } else {
+      res.status(200).json({
+        message: "Login successful",
+        user,
+      })
     }
+  } catch (error) {
+    res.status(400).json({
+      message: "An error occurred",
+      error: error.message,
+    })
+  }
+}
+```
 
-In the `login` function, we returned a status code of `400` if the username and password were not provided. We need to find a user with the provided `username` and `password`:
+Here, it returns a status code of `401`when a user isn't found and a status code `200` when a user is found. The code snippet wrapped all this in a `tryCatch` block to detect and output errors if any.
 
-    exports.login = async (req, res, next) => {
-      
-      ...
-      
-      try {
-        const user = await User.findOne({ username, password });
-        if (!user) {
-          res.status(401).json({
-            message: "Login not successful",
-            error: "User not found",
-          });
-        } else {
-          res.status(200).json({
-            message: "Login successful",
-            user,
-          });
-        }
-      } catch (error) {
-        res.status(400).json({
-          message: "An error occurred",
-          error: error.message,
-        });
-      }
-    };
+### Set Up Login Route
 
-We returned a status code of `401`when a user isn't found and a status code `200`of when a user is found. We wrapped all this in a `tryCatch` block to detect and output errors if any.
-**Setting up Login route**
-To set up the login route, we will import the `login` function into our `route.js`:
+To set up the login route, import the `login` function into your `route.js`:
 
-    const express = require("express");
-    const router = express.Router();
-    const { register, login } = require("./auth");
-    ...
-    router.route("/login").post(login);
-    module.exports = router;
+```js
+const express = require("express");
+const router = express.Router();
+const { register, login } = require("./auth");
+...
+router.route("/login").post(login);
+module.exports = router;
+```
 
-**Testing the Login route**
+### Test the Login Route
+
 Make a `POST` request at `http://localhost:5000/api/auth/login` and pass a valid username and password to the body:
 
 ![Login Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606008599_loginRoute.jpg)
 
+### Update Function
 
-**Update Function**
-This function will be charged with the responsibility of updating the role of a basic user to an admin user. Open the `auth.js` file and create the `update` function:
+This function will be responsibile for updating the role of a basic user to an admin user. Open the `auth.js` file and create the `update` function, as follows:
 
-    //auth.js
-    exports.update = async (req, res, next) => {
-      const { role, id } = req.body;
-      // Verifying if role and id is presnt
-      if (role && id) {
-        // Verifying if the value of role is admin
-        if (role === "admin") {
-          await User.findById(id);
-        } else {
-          res.status(400).json({
-            message: "Role is not admin",
-          });
-        }
-      } else {
-        res.status(400).json({ message: "Role or Id not present" });
-      }
-    };
+```js
+//auth.js
+exports.update = async (req, res, next) => {
+  const { role, id } = req.body
+  // Verifying if role and id is presnt
+  if (role && id) {
+    // Verifying if the value of role is admin
+    if (role === "admin") {
+      await User.findById(id)
+    } else {
+      res.status(400).json({
+        message: "Role is not admin",
+      })
+    }
+  } else {
+    res.status(400).json({ message: "Role or Id not present" })
+  }
+}
+```
 
-The first `if` statement verifies if `role` and `id` are present in the request body. The second `if` statement checks if the value of `role` is admin. We need to do this to avoid having over two roles. 
-After finding a user with that ID, we will create a third `if` block that will check for the role of the user: 
+The first `if` statement verifies if `role` and `id` are present in the request body.
 
-    exports.update = async (req, res, next) => {
-      const { role, id } = req.body;
-      // First - Verifying if role and id is presnt
-      if (role && id) {
-        // Second - Verifying if the value of role is admin
-        if (role === "admin") {
-          // Finds the user with the id
-          await User.findById(id)
-            .then((user) => {
-              // Third - Verifies the user is not an admin
-              if (user.role !== "admin") {
-                user.role = role;
-                user.save((err) => {
-                  //Monogodb error checker
-                  if (err) {
-                    res
-                      .status("400")
-                      .json({ message: "An error occurred", error: err.message });
-                    process.exit(1);
-                  }
-                  res.status("201").json({ message: "Update successful", user });
-                });
-              } else {
-                res.status(400).json({ message: "User is already an Admin" });
+The second `if` statement checks if the value of `role` is admin. You should do this to avoid having over two roles.
+
+After finding a user with that ID, you'll create a third `if` block that will check for the role of the user:
+
+```js
+exports.update = async (req, res, next) => {
+  const { role, id } = req.body;
+  // First - Verifying if role and id is presnt
+  if (role && id) {
+    // Second - Verifying if the value of role is admin
+    if (role === "admin") {
+      // Finds the user with the id
+      await User.findById(id)
+        .then((user) => {
+          // Third - Verifies the user is not an admin
+          if (user.role !== "admin") {
+            user.role = role;
+            user.save((err) => {
+              //Monogodb error checker
+              if (err) {
+                res
+                  .status("400")
+                  .json({ message: "An error occurred", error: err.message });
+                process.exit(1);
               }
-            })
-            .catch((error) => {
-              res
-                .status(400)
-                .json({ message: "An error occurred", error: error.message });
+              res.status("201").json({ message: "Update successful", user });
             });
-      
-           ...
+          } else {
+            res.status(400).json({ message: "User is already an Admin" });
+          }
+        })
+        .catch((error) => {
+          res
+            .status(400)
+            .json({ message: "An error occurred", error: error.message });
+        });
 
-The third `if` block prevents us from giving an admin role to an admin user, while the last `if` block checks if an error occurred when saving the role in the database.
+       ...
+```
 
+The third `if` block prevents assigning an admin role to an admin user, while the last `if` block checks if an error occurred when saving the role in the database.
 
 > The numerous `if` statements might be a little bit tricky but understandable. Please read the comments in the above block of code for better understanding.
 
-**Set up update route**
-We will import the `update` function in our `route.js`:
+### Set Up Update Route
 
-    const { register, login, update } = require("./auth");
-    ...
-    router.route("/update").put(update);
+You'll import the `update` function in your `route.js`, as follows:
 
-**Testing the update route**
-Make a `put` request to `http://localhost:5000/api/auth/update`:
+```js
+const { register, login, update } = require("./auth");
+...
+router.route("/update").put(update);
+```
+
+### Testing the Update Route
+
+Send a `put` request to `http://localhost:5000/api/auth/update`:
 
 ![Update Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606027597_updateRoute.jpg)
 
+### Delete Function
 
-**Delete Function** 
-The `deleteUser` function will remove a specific user from the database. Let us create this function in our `auth.js` file:
+The `deleteUser` function will remove a specific user from the database. Let's create this function in our `auth.js` file:
 
-    exports.deleteUser = async (req, res, next) => {
-      const { id } = req.body;
-      await User.findById(id)
-        .then((user) => user.remove())
-        .then((user) =>
-          res.status(201).json({ message: "User successfully deleted", user })
-        )
-        .catch((error) =>
-          res
-            .status(400)
-            .json({ message: "An error occurred", error: error.message })
-        );
-    };
+```js
+exports.deleteUser = async (req, res, next) => {
+  const { id } = req.body
+  await User.findById(id)
+    .then(user => user.remove())
+    .then(user =>
+      res.status(201).json({ message: "User successfully deleted", user })
+    )
+    .catch(error =>
+      res
+        .status(400)
+        .json({ message: "An error occurred", error: error.message })
+    )
+}
+```
 
-We removed the user based on the `id` we got from `req.body`.
-**Setting up the** `**deleteUser**` **route**
-Let us open our `route.js` file to create a `delete` request to `/deleteUser`, using the `deleteUser` as its function:
+Here, you remov the user based on the `id` you get from `req.body`.
 
-    const { register, login, update, deleteUser } = require("./auth");
-    ...
-    router.route("/deleteUser").delete(deleteUser);
+### Set up the `deleteUser` Route
 
-**Testing the** `**deleteUser**` **route**
-We will make a `delete` request to `http://localhost:5000/api/auth/deleteUser` by passing a valid `id` to the body:
+Open your `route.js` file to create a `delete` request to `/deleteUser`, using the `deleteUser` as its function:
+
+```js
+const { register, login, update, deleteUser } = require("./auth");
+...
+router.route("/deleteUser").delete(deleteUser);
+```
+
+### Test the `deleteUser` Route
+
+Send a `delete` request to `http://localhost:5000/api/auth/deleteUser` by passing a valid `id` to the body:
 
 ![Delete Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606051329_deleteRoute.jpg)
 
-## **Hashing Users' Password**
+## Hashing User Passwords
 
-Saving users' passwords in the database in plain text format is reckless. It is preferable to hash your password before storing it. For instance, it will be very difficult to decipher the passwords in our database if they were leaked. Hashing password is a cautious and reliable practice.
-We will use `bcryptjs` to hash our users' passwords.
+Saving user passwords in the database in plain text format is reckless. It is preferable to hash your password before storing it.
+
+For instance, it will be very difficult to decipher the passwords in your database if they were leaked. Hashing passwords is a cautious and reliable practice.
+
+Let's use `bcryptjs` to hash your user passwords.
+
 Let's install `bcryptjs`:
 
-    npm i bcryptjs
+```js
+npm i bcryptjs
+```
 
-After installing `bcryptjs`, we will import it in our `auth.js`
+After installing `bcryptjs`, import it into your `auth.js`
 
-    const bcrypt = require("bcryptjs");
+```js
+const bcrypt = require("bcryptjs")
+```
 
-**Refactoring register function**
-Instead of sending a plain text format to our database, let's hash the password using `bcrypt`:
+### Refactoring Register Function
 
-    exports.register = async (req, res, next) => {
-      const { username, password } = req.body;
-      
-      ...
-      
-      bcrypt.hash(password, 10).then(async (hash) => {
-        await User.create({
-          username,
-          password: hash,
+Instead of sending a plain text format to your database, let's hash the password using `bcrypt`:
+
+```js
+exports.register = async (req, res, next) => {
+  const { username, password } = req.body;
+
+  ...
+
+  bcrypt.hash(password, 10).then(async (hash) => {
+    await User.create({
+      username,
+      password: hash,
+    })
+      .then((user) =>
+        res.status(200).json({
+          message: "User successfully created",
+           user,
         })
-          .then((user) =>
-            res.status(200).json({
-              message: "User successfully created",
-              user,
-            })
-          )
-          .catch((error) =>
-            res.status(400).json({
-              message: "User not successful created",
-              error: error.message,
-            })
-          );
-      });
-    };
+      )
+      .catch((error) =>
+        res.status(400).json({
+          message: "User not successful created",
+          error: error.message,
+        })
+      );
+  });
+};
+```
 
-`bcrypt` takes in our password as the first argument, and the number of times it will hash the password. The larger the number, the longer it will take to decipher. Passing a large number will take `bcrypt` a long time to hash the password so pass a moderate number like 10. 
-`bcrypt` will return a promise with the hashed password then we send that hashed password to the database.
-**Testing the register function**
-Make a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
+`bcrypt` takes in your password as the first argument, and the number of times it will hash the password as the second argument. Passing a large number will take `bcrypt` a long time to hash the password, so pass a moderate number like 10.
+
+`bcrypt` will return a promise with the hashed password; then, ypu send that hashed password to the database.
+
+### Testing the Register Function
+
+Send a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
 ![Hashed Register Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606077247_hashedRegisterRoute.jpg)
 
+### Refactor the Login Function
 
-**Refactoring login function**
-
-    exports.login = async (req, res, next) => {
-      const { username, password } = req.body;
-      // Check if username and password is provided
-      if (!username || !password) {
-        return res.status(400).json({
-          message: "Username or Password not present",
-        });
-      }
-      try {
-        const user = await User.findOne({ username });
-        if (!user) {
-          res.status(400).json({
-            message: "Login not successful",
-            error: "User not found",
-          });
-        } else {
-          // comparing given password with hashed password
-          bcrypt.compare(password, user.password).then(function (result) {
-            result
-              ? res.status(200).json({
-                  message: "Login successful",
-                  user,
-                })
-              : res.status(400).json({ message: "Login not succesful" });
-          });
-        }
-      } catch (error) {
-        res.status(400).json({
-          message: "An error occurred",
-          error: error.message,
-        });
-      }
-    };
+```js
+exports.login = async (req, res, next) => {
+  const { username, password } = req.body
+  // Check if username and password is provided
+  if (!username || !password) {
+    return res.status(400).json({
+      message: "Username or Password not present",
+    })
+  }
+  try {
+    const user = await User.findOne({ username })
+    if (!user) {
+      res.status(400).json({
+        message: "Login not successful",
+        error: "User not found",
+      })
+    } else {
+      // comparing given password with hashed password
+      bcrypt.compare(password, user.password).then(function (result) {
+        result
+          ? res.status(200).json({
+              message: "Login successful",
+              user,
+            })
+          : res.status(400).json({ message: "Login not succesful" })
+      })
+    }
+  } catch (error) {
+    res.status(400).json({
+      message: "An error occurred",
+      error: error.message,
+    })
+  }
+}
+```
 
 `bcrypt.compare` checks if the password that was given and the hashed password in the database is the same.
-**Testing the login function** 
-Make a `POST` request to `http://localhost:5000/api/auth/login` and pass a valid username and password to the body:
+
+### Test the Login Function
+
+Send a `POST` request to `http://localhost:5000/api/auth/login` and pass a valid username and password to the body:
 
 ![Hashed Login Route](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606091840_hashedLoginRoute.jpg)
 
-## **Authenticating Users using JSON Web Token (JWT)**
+## Authenticating Users with JSON Web Token (JWT)
 
-JSON Web Token helps shield a route from an unauthenticated user. Using `Jwt` on our application will prevent unauthenticated users from accessing our users' home page and will prevent unauthorized users from accessing our admin page.
-Jwt` creates a token, sends it to the client, and then the client uses the token when making requests. `Jwt` helps to verify that you're a valid user making those requests.
-We have to install `Jwt` before using it in our application:
+JSON Web Token helps shield a route from an unauthenticated user. Using JWT on your application will prevent unauthenticated users from accessing your users' home page and will prevent unauthorized users from accessing your admin page.
 
-    npm i jsonwebtoken
+JWT creates a token, sends it to the client, and then the client uses the token for making requests. It also helps to verify that you're a valid user making those requests.
 
-**Refactoring Register function**
-When a user registers, we will send a token using `Jwt` as a cookie to the client. To create this token, we need to set a secret string. We will make use of the node's in-built package called `crypto` to make random strings:
+You've to install JWT before using it in your application:
 
-    node
-    require('crypto').randomBytes(35).toString('hex')
+```js
+npm i jsonwebtoken
+```
+
+### Refactor the Register Function
+
+When a user registers, you'll send a token using JWT as a cookie to the client. To create this token, you need to set a secret string. You'll use the node's in-built package called `crypto` to create random strings:
+
+```js
+node
+require("crypto").randomBytes(35).toString("hex")
+```
 
 Output:
 
 ![Crypto](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606103483_crypto.jpg)
 
+Storing this secret string in an environment variable is a safe practice. If this secret string is leaked, unauthenticated users can create fake tokens to get access to the route.
 
-Storing this secret string in an environment variable is a safe practice to avoid it getting leaked. If this secret string is leaked, unauthenticated users can create fake tokens to get access to the route. We will store our secret string in a variable:
+Store your secret string in a variable:
 
-    const jwtSecret = '4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd'
+```js
+const jwtSecret =
+  "4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd"
+```
 
-Once we have created our `jwtSecret`, we will now create  an import of `jsonwebtoken` as the token in the `register` function:
+Once you've created your `jwtSecret`, import `jsonwebtoken` as the token in the `register` function:
 
-    ...
-    const jwt = require('jsonwebtoken')
-    const jwtSecret = '4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd'
-    exports.register = async (req, res, next) => {
-      const { username, password } = req.body;
-      
-      ...
-      
-      bcrypt.hash(password, 10).then(async (hash) => {
-        await User.create({
-          username,
-          password: hash,
-        })
-          .then((user) => {
-            const maxAge = 3 * 60 * 60;
-            const token = jwt.sign(
-              { id: user._id, username, role: user.role },
-              jwtSecret,
-              {
-                expiresIn: maxAge, // 3hrs in sec
-              }
-            );
-            res.cookie("jwt", token, {
-              httpOnly: true,
-              maxAge: maxAge * 1000, // 3hrs in ms
-            });
-            res.status(201).json({
-              message: "User successfully created",
-              user: user._id,
-            });
-          })
-          .catch((error) =>
-            res.status(400).json({
-              message: "User not successful created",
-              error: error.message,
-            })
-          );
-      });
-    };
+```js
+...
+const jwt = require('jsonwebtoken')
+const jwtSecret = '4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd'
+exports.register = async (req, res, next) => {
+  const { username, password } = req.body;
 
-We created the token using jwt's `sign` function. This function takes in three (3) parameters. The payload is the first parament we will pass to the function. This payload holds data concerning the user and this data should not contain sensitive information like passwords. We passed our `jwtSecret` as the second parameter and how long the token will last as the third parameter. After passing all these arguments on to it, `jwt` will now generate a token.
-After the token is generated, we send it as a cookie to the client.
-**Refactoring Login function**
-We will also generate a token for logged in users:
+  ...
 
-    exports.login = async (req, res, next) => {
-          
-        ...
-          
-          bcrypt.compare(password, user.password).then(function (result) {
-            if (result) {
-              const maxAge = 3 * 60 * 60;
-              const token = jwt.sign(
-                { id: user._id, username, role: user.role },
-                jwtSecret,
-                {
-                  expiresIn: maxAge, // 3hrs in sec
-                }
-              );
-              res.cookie("jwt", token, {
-                httpOnly: true,
-                maxAge: maxAge * 1000, // 3hrs in ms
-              });
-              res.status(201).json({
-                message: "User successfully Logged in",
-                user: user._id,
-              });
-            } else {
-              res.status(400).json({ message: "Login not succesful" });
-            }
-          });
-        }
-      } catch (error) {
+  bcrypt.hash(password, 10).then(async (hash) => {
+    await User.create({
+      username,
+      password: hash,
+    })
+      .then((user) => {
+        const maxAge = 3 * 60 * 60;
+        const token = jwt.sign(
+          { id: user._id, username, role: user.role },
+          jwtSecret,
+          {
+            expiresIn: maxAge, // 3hrs in sec
+          }
+        );
+        res.cookie("jwt", token, {
+          httpOnly: true,
+          maxAge: maxAge * 1000, // 3hrs in ms
+        });
+        res.status(201).json({
+          message: "User successfully created",
+          user: user._id,
+        });
+      })
+      .catch((error) =>
         res.status(400).json({
-          message: "An error occurred",
+          message: "User not successful created",
           error: error.message,
-        });
-      }
-    };
+        })
+      );
+  });
+};
+```
 
-**Protecting Routes**
-To prevent unauthenticated users from accessing our private route, we need to take the token from the cookie, verify the token, and redirect users based on role.
-We will get the token from the client using a node package called `cookie-parser`. Let us install the package before using it:
+The code snippet created the token using JWT's `sign` function. This function takes in three (3) parameters:
 
-    npm i cookie-parser
+- the payload is the first parament that you'll pass to the function. This payload holds data concerning the user and this data should not contain sensitive information like passwords;
 
-After installing it, we will import it into our `server.js` file and use it as a *middleware*:
+- you passed your `jwtSecret` as the second parameter; and,
 
-    const cookieParser = require("cookie-parser");
+- how long the token will last as the third parameter.
+
+After passing all these arguments, JWT will generate a token. After the token is generated, send it as a cookie to the client.
+
+### Refactor the Login Function
+
+You'll also generate a token for logged in users:
+
+```js
+exports.login = async (req, res, next) => {
+
     ...
-    app.use(cookieParser());
 
-We will create our middleware that will verify the token and grant access to our private route.
-Let's create a new folder in the project's folder named `middleware` and create a file in it called `auth.js`. 
-
-
-**Admin authentication**
-Open the `auth.js` file and let's create the middleware:
-
-    const jwt = require("jsonwebtoken");
-    const jwtSecret =
-      "4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd";
-    exports.adminAuth = (req, res, next) => {
-      const token = req.cookies.jwt;
-      if (token) {
-        jwt.verify(token, jwtSecret, (err, decodedToken) => {
-          if (err) {
-            return res.status(401).json({ message: "Not authorized" });
-          } else {
-            if (decodedToken.role !== "admin") {
-              return res.status(401).json({ message: "Not authorized" });
-            } else {
-              next();
+      bcrypt.compare(password, user.password).then(function (result) {
+        if (result) {
+          const maxAge = 3 * 60 * 60;
+          const token = jwt.sign(
+            { id: user._id, username, role: user.role },
+            jwtSecret,
+            {
+              expiresIn: maxAge, // 3hrs in sec
             }
-          }
-        });
+          );
+          res.cookie("jwt", token, {
+            httpOnly: true,
+            maxAge: maxAge * 1000, // 3hrs in ms
+          });
+          res.status(201).json({
+            message: "User successfully Logged in",
+            user: user._id,
+          });
+        } else {
+          res.status(400).json({ message: "Login not succesful" });
+        }
+      });
+    }
+  } catch (error) {
+    res.status(400).json({
+      message: "An error occurred",
+      error: error.message,
+    });
+  }
+};
+```
+
+### Protect the Routes
+
+To prevent unauthenticated users from accessing the private route, take the token from the cookie, verify the token, and redirect users based on role.
+
+You'll get the token from the client using a node package called `cookie-parser`. Let's install the package before using it:
+
+```js
+npm i cookie-parser
+```
+
+After installing it, import it into your `server.js` file and use it as a _middleware_:
+
+```js
+const cookieParser = require("cookie-parser");
+...
+app.use(cookieParser());
+```
+
+You'll create your middleware that verifies the token and grant access to your private route.
+
+Let's create a new folder in the project's folder named `middleware` and create a file in it called `auth.js`.
+
+### Admin Authentication
+
+Open the `auth.js` file, and let's create the middleware:
+
+```js
+const jwt = require("jsonwebtoken")
+const jwtSecret =
+  "4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce43625dd"
+exports.adminAuth = (req, res, next) => {
+  const token = req.cookies.jwt
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      if (err) {
+        return res.status(401).json({ message: "Not authorized" })
       } else {
-        return res
-          .status(401)
-          .json({ message: "Not authorized, token not available" });
+        if (decodedToken.role !== "admin") {
+          return res.status(401).json({ message: "Not authorized" })
+        } else {
+          next()
+        }
       }
-    };
+    })
+  } else {
+    return res
+      .status(401)
+      .json({ message: "Not authorized, token not available" })
+  }
+}
+```
 
-We requested a token from the client, checked if a token is available, and verified that token. `Jwt` verifies our token with our `jwtSecret` and returns a callback function. This function returns a status code of `401` if the token fails the authentication test.
-When we created the token, we passed a payload that contained the credentials of the user. We will get the role from the credentials and check if the role of the user is admin. If the user is not an admin, we return a status code of `401` but if the user is an admin, we will call the `next` function.
-**Basic user authentication** 
-We will also authenticate basic users before granting them access to the users route. Let's create another middleware in our `auth.js` file that will authenticate basic users:
+The code snippet requests a token from the client, checks if a token is available, and verifies that token.
 
-    exports.userAuth = (req, res, next) => {
-      const token = req.cookies.jwt;
-      if (token) {
-        jwt.verify(token, jwtSecret, (err, decodedToken) => {
-          if (err) {
-            return res.status(401).json({ message: "Not authorized" });
-          } else {
-            if (decodedToken.role !== "Basic") {
-              return res.status(401).json({ message: "Not authorized" });
-            } else {
-              next();
-            }
-          }
-        });
+JWT verifies your token with your `jwtSecret` and returns a callback function. This function returns status code `401` if the token fails the authentication test.
+
+When you've created the token, you passed a payload that contained the credentials of the user. You'll get the role from the credentials and check if the role of the user is admin. If the user is not an admin, you return status code `401`; but if the user is an admin, you'll call the `next` function.
+
+### Basic User Authentication
+
+You'll also authenticate basic users before granting them access to the users route. Let's create another middleware in your `auth.js` file that will authenticate basic users:
+
+```js
+exports.userAuth = (req, res, next) => {
+  const token = req.cookies.jwt
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      if (err) {
+        return res.status(401).json({ message: "Not authorized" })
       } else {
-        return res
-          .status(401)
-          .json({ message: "Not authorized, token not available" });
+        if (decodedToken.role !== "Basic") {
+          return res.status(401).json({ message: "Not authorized" })
+        } else {
+          next()
+        }
       }
-    };
+    })
+  } else {
+    return res
+      .status(401)
+      .json({ message: "Not authorized, token not available" })
+  }
+}
+```
 
-**Protecting Routes**
-We will have two routes, one for the user and the other for the admin. Let us import this middleware into our `server.js` file and protect our routes:
+### Protect the Routes
 
-    const { adminAuth, userAuth } = require("./middleware/auth.js");
-    ...
-    app.get("/admin", adminAuth, (req, res) => res.send("Admin Route"));
-    app.get("/basic", userAuth, (req, res) => res.send("User Route"));
+You'll have two routes: one for the user and the other for the admin. Let's import this middleware into your `server.js` file and protect your routes:
 
-The updating users' roles and deleting users should be done by an Admin, so we need to import this `auth.js` middleware into our `route.js` file to protect the `update` and `delete` routes.
+```js
+const { adminAuth, userAuth } = require("./middleware/auth.js");
+...
+app.get("/admin", adminAuth, (req, res) => res.send("Admin Route"));
+app.get("/basic", userAuth, (req, res) => res.send("User Route"));
+```
+
+Updating user roles and deleting users should be done by an Admin, so you need to import this `auth.js` middleware into your `route.js` file to protect the `update` and `delete` routes.
+
 `route.js`:
 
-    const { adminAuth } = require("../middleware/auth");
-    router.route("/update").put(adminAuth, update);
-    router.route("/deleteUser").delete(adminAuth, deleteUser);
-## **Populating the database with Admin User**
+```js
+const { adminAuth } = require("../middleware/auth")
+router.route("/update").put(adminAuth, update)
+router.route("/deleteUser").delete(adminAuth, deleteUser)
+```
 
-We need to create an admin user in our database. Open up your terminal and let's run some [MongoDB methods](https://docs.mongodb.com/manual/reference/method/):
+## Populate the Database with Admin User
 
-    mongo
+You need to create an admin user in your database. Open up your terminal and let's run some [MongoDB methods](https://docs.mongodb.com/manual/reference/method/):
 
-After mongo is started, we need to use the `role_auth` database:
+```
+mongo
+```
 
-    use role_auth
+After mongo is started, you need to use the `role_auth` database:
 
-Before we can add our admin user to the database, we need to hash the password using `bcrypt` in `node` terminal. Open node terminal in our projects directory:
+```
+use role_auth
+```
 
-    const password = require("bcryptjs").hash("admin", 10)
-    password
+Before adding your admin user to the database, you need to hash the password using `bcrypt` in `node` terminal. Open node terminal in your projects directory:
 
-After we've created the constant `password`, we need to enter `the` `password` in the node terminal to get our hashed password.
+```js
+const password = require("bcryptjs").hash("admin", 10)
+password
+```
+
+After you've created the constant `password`, you need to enter `the` `password` in the node terminal to get your hashed password.
 
 ![Node bcrypt](https://paper-attachments.dropbox.com/s_1FDB76B1B7350D0381EC73781AAAABB04FC20EA7CD90D74041F3D461F538847D_1639606155124_nodecrypt.jpg)
 
+You'll use the hashed password to create your admin:
 
-We will use the hashed password to create our admin
+```js
+db.users.insert({
+  username: "admin",
+  password: "$2a$10$mZwU9AbYSyX7E1A6fu/ZO.BDhmCOIK7k6jXvKcuJm93PyYuH2eZ3K",
+  role: "admin",
+})
+```
 
-    db.users.insert({
-      username: "admin",
-      password: "$2a$10$mZwU9AbYSyX7E1A6fu/ZO.BDhmCOIK7k6jXvKcuJm93PyYuH2eZ3K",
-      role: "admin",
-    });
+To check if it was successfully created, run `db.users.find().pretty()` — this will output all users in the database.
 
-To check if it was successfully created, run `db.users.find().pretty()`, this will output all users in the database.
+## Creating the Login Form Using EJS
 
-## **Creating the form using EJS**
+You'll use Embedded JavaScript (EJS) to create a front-end for your application.
 
-We will use Embedded JavaScript (EJS) to create the front-end of our application.
-Install  the `ejs` package:
+Install the `ejs` package:
 
+```js
     npm i ejs
+```
 
-After we have installed `ejs`, we need to set `ejs` as our default *view engine* in our `server.js` file:
+After you've installed `ejs`, you need to set `ejs` as your default _view engine_ in your `server.js` file:
 
-    app.set("view engine", "ejs");
+```js
+app.set("view engine", "ejs")
+```
 
-**Rendering Embedded JavaScript**
-When making a `GET` request to specific routes, we will render an `ejs` file:
+### Render Embedded JavaScript
 
-    app.get("/", (req, res) => res.render("home"));
-    app.get("/register", (req, res) => res.render("register"));
-    app.get("/login", (req, res) => res.render("login"));
-    app.get("/admin", adminAuth, (req, res) => res.render("admin"));
-    app.get("/basic", userAuth, (req, res) => res.render("user"));
+When making a `GET` request to specific routes, you'll render an `ejs` file:
 
-**Creating EJS files**
-By default, our application will look into the `views` folder when rendering an `ejs` file. We need to create the `views` folder in our project's folder and add our `ejs` files to it:
+```js
+app.get("/", (req, res) => res.render("home"))
+app.get("/register", (req, res) => res.render("register"))
+app.get("/login", (req, res) => res.render("login"))
+app.get("/admin", adminAuth, (req, res) => res.render("admin"))
+app.get("/basic", userAuth, (req, res) => res.render("user"))
+```
 
+### Create EJS Files
 
-**Creating** **a** **Home page**
-Our Home page will contain the links to `/login` and `/register` ejs file. Open up `home.ejs` and let's add these links:
+By default, your application will look into the `views` folder when rendering an `ejs` file. You need to create the `views` folder in your project's folder and add your `ejs` files to it
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home page</title>
-    </head>
-    <body>
-      <h1> Home Page </h1>
-      <a href="/register"> Register</a> <br/>
-      <a href="/login">Login</a>
-    </body>
-    </html>
+### Create a Home Page
 
-**Creating** **a Registration** **form**
-Embedded JavaScript (EJS) supports HTML syntax. We will create the registration form in `register.ejs` using normal HTML Syntax:
+Your home page will contain the links to `/login` and `/register` ejs file. Open up `home.ejs` and add these links:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Register Page</title>
-    </head>
-    <body>
-      <h1>Register Page</h1>
-      <form >
-        <div class="error" style="background-color: red;"></div><br>
-        <label for="username">Username</label><br>
-        <input type="text" id="username" required/><br>
-        <label for="password">Password</label><br>
-        <input type="password" id="password" required><br>
-        <input type="submit" value="register"><br>
-      </form>
-      <a href="/login">Already registered? Login</a>
-    </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <a href="/register"> Register</a> <br />
+    <a href="/login">Login</a>
+  </body>
+</html>
+```
 
-**Adding POST request functionality** 
-We need to get the username and password the user entered and pass it to the body when making the `POST` request:
+### Create a Registration Form
 
-    ...
-    <script>
-      const form = document.querySelector('form')
-      const username = document.querySelector('#username')
-      const password = document.querySelector('#password')
-      const display = document.querySelector('.error')
-      form.addEventListener('submit', async (e) => {
-         e.preventDefault()
-         display.textContent = ''
-         try {
-           const res = await fetch('/api/auth/register', {
-           method: 'POST',
-           body: JSON.stringify({ username: username.value, password: password.value }),
-           headers: { 'Content-Type': 'application/json' }
-           })
-           const data = await res.json()
-           if(res.status === 400 || res.status === 401){
-            return display.textContent = `${data.message}. ${data.error ? data.error : ''}`
-           }
-           data.role === "admin" ? location.assign('/admin') : location.assign('/basic')
-            } catch (err) {
-              console.log(err.message)
-            }
-          })
-    </script>
-    </body>
-    </html>
+Embedded JavaScript (EJS) supports HTML syntax. You'll create the registration form in `register.ejs` using HTML syntax:
 
-We made use of JavaScript's in-built library called `fetch` to make a POST request to `/api/auth/register`, After the request has been made, we stored the response to a constant `res`. `res.json` will return the JSON we passed as a response in the API. When `res.json` returns the data, we store that data in a constant `data`. If we get an error while making the request, we will display the error to the user. If an error isn't found, we will now redirect the users based on their role on different routes.
-**Creat****e** **Login form**
-Creating our login form and adding functionality to it will be similar to that of our registration. Open `login.ejs` and create this form:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <h1>Register Page</h1>
+    <form>
+      <div class="error" style="background-color: red;"></div>
+      <br />
+      <label for="username">Username</label><br />
+      <input type="text" id="username" required /><br />
+      <label for="password">Password</label><br />
+      <input type="password" id="password" required /><br />
+      <input type="submit" value="register" /><br />
+    </form>
+    <a href="/login">Already registered? Login</a>
+  </body>
+</html>
+```
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Login Page</title>
-    </head>
-    <body>
-      <h1>Login Page</h1>
-      <form>
-        <div class="error" style="background-color: red;"></div><br>
-        <label for="username" >Username</label><br>
-        <input type="text" id="username" required/><br>
-        <label for="password">Password</label><br>
-        <input type="password" id="password" required><br>
-        <input type="submit" value="login"><br>
-        </form>
-      <a href="/register">Don't have an accout? Register</a>
-    </body>
-    </html>
+### Add POST Request Functionality
 
-**Adding POST request functionality** 
+You need to get the username and password that the user entered and pass it to the body when making the `POST` request:
 
+```html
+...
+<script>
+  const form = document.querySelector('form')
+  const username = document.querySelector('#username')
+  const password = document.querySelector('#password')
+  const display = document.querySelector('.error')
+  form.addEventListener('submit', async (e) => {
+     e.preventDefault()
+     display.textContent = ''
+     try {
+       const res = await fetch('/api/auth/register', {
+       method: 'POST',
+        body: JSON.stringify({ username: username.value, password: password.value }),
+       headers: { 'Content-Type': 'application/json' }
+       })
+       const data = await res.json()
+       if(res.status === 400 || res.status === 401){
+        return display.textContent = `${data.message}. ${data.error ? data.error : ''}`
+       }
+       data.role === "admin" ? location.assign('/admin') : location.assign('/basic')
+        } catch (err) {
+          console.log(err.message)
+        }
+      })
+</script>
+</body>
+</html>
+```
+
+The code snippet uses JavaScript's in-built library called `fetch` to send a POST request to `/api/auth/register`.
+
+After the request has been sent, it stores the response to a constant `res`.
+
+`res.json` will return the JSON you've passed as a response in the API.
+
+When `res.json` returns the data, you store that data in a constant `data`.
+
+If you get an error while making the request, display the error to the user. If an error isn't found, redirect the user based on their role on different routes.
+
+### Create a Login Form
+
+Creating your login form and adding functionality to it will be similar to that of your registration. Open `login.ejs` and create this form:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <form>
+      <div class="error" style="background-color: red;"></div>
+      <br />
+      <label for="username">Username</label><br />
+      <input type="text" id="username" required /><br />
+      <label for="password">Password</label><br />
+      <input type="password" id="password" required /><br />
+      <input type="submit" value="login" /><br />
+    </form>
+    <a href="/register">Don't have an accout? Register</a>
+  </body>
+</html>
+```
+
+### Add POST Request Functionality
+
+```html
     <script>
       const form = document.querySelector('form')
       const username = document.querySelector('#username')
@@ -820,198 +1004,221 @@ Creating our login form and adding functionality to it will be similar to that o
         } catch (err) {
             console.log(err.message)
           }
-          
+
         })
       </script>
     </body>
     </html>
-## **Adding Registered users to the Route**
+```
 
-Once we have redirected users based on role to different routes, we will display all registered users on that route. We need to make a `GET` request to `/getUsers`.
+## Add Registered Users to the Route
+
+Once you've redirected users based on role to different routes, display all registered users on that route. You need to send a `GET` request to `/getUsers`.
+
 Open `auth.js` file in `Auth` folder:
 
-    exports.getUsers = async (req, res, next) => {
-      await User.find({})
-        .then((users) => {
-          const userFunction = users.map((user) => {
-            const container = {};
-            container.username = user.username;
-            container.role = user.role;
-            return container;
-          });
-          res.status(200).json({ user: userFunction });
-        })
-        .catch((err) =>
-          res.status(401).json({ message: "Not successful", error: err.message })
-        );
-    };
+```js
+exports.getUsers = async (req, res, next) => {
+  await User.find({})
+    .then(users => {
+      const userFunction = users.map(user => {
+        const container = {}
+        container.username = user.username
+        container.role = user.role
+        return container
+      })
+      res.status(200).json({ user: userFunction })
+    })
+    .catch(err =>
+      res.status(401).json({ message: "Not successful", error: err.message })
+    )
+}
+```
 
-The `User.find` method returns an array of users. After we mapped through this array, we stored the username and role in the constant `container` and returned the `container`.
-**Displaying registered user in** `**user**` **route**
-We rendered `user.ejs` when accessing the `/user` route. Now we will display all registered users to that route.
+The `User.find` method returns an array of users. After mapping through this array, it stores the username and role in the constant `container` and returns the `container`.
+
+### Display Registered User in `user` Route
+
+You've rendered `user.ejs` when accessing the `/user` route. Now, you'll display all registered users to that route.
+
 `user.ejs`:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>User page</title>
-    </head>
-    <body>
-      <h1>Users</h1>
-      <ul></ul>
-      <script>
-        const ul = document.querySelector('ul')
-        const getUsers = async() => {
-            
-          const res = await fetch('/api/auth/getUsers')
-          const data = await res.json()
-          data.user.map((mappedUser)=> {
-            if(mappedUser.username !== 'admin'){
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User page</title>
+  </head>
+  <body>
+    <h1>Users</h1>
+    <ul></ul>
+    <script>
+      const ul = document.querySelector("ul")
+      const getUsers = async () => {
+        const res = await fetch("/api/auth/getUsers")
+        const data = await res.json()
+        data.user.map(mappedUser => {
+          if (mappedUser.username !== "admin") {
             let li = `<li> <b>Username</b> => ${mappedUser.username} <br> <b>Role</b> => ${mappedUser.role} </li>`
             ul.innerHTML += li
-            }else{
-              return null
-            }
-          })
-        }
-        getUsers()
-      </script>
-    </body>
-    </html>
+          } else {
+            return null
+          }
+        })
+      }
+      getUsers()
+    </script>
+  </body>
+</html>
+```
 
-**Add Update and Delete function to the Admin Route**
-We will also display registered users to the admin route but we will add `update` and `delete` functionality to the route:
+### Add Update and Delete Function to the Admin Route
+
+You'll also display registered users to the admin route but add `update` and `delete` functionality to the route:
+
 `admin.ejs`:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Admin page</title>
-    </head>
-    <body>
-      <div class="display" style="background-color: red;"></div>
-      <h1>Users</h1>
-      <ul></ul>
-      <script>
-        const ul = document.querySelector('ul')
-        const display = document.querySelector('.display')
-        const getUsers = async () => {
-          const res = await fetch('/api/auth/getUsers')
-          const data = await res.json()
-          data.user.map((mappedUser) => {
-            if(mappedUser.username !== 'admin'){
-              let li = `<li> <b>Username</b> => ${mappedUser.username} <br> <b>Role</b> => ${mappedUser.role} </li> <button class="edit">Edit Role</button> <button class="delete">Delete User</button>`
-              ul.innerHTML += li
-            }else{
-                return null
-            }
-            const editRole = document.querySelectorAll('.edit')
-            const deleteUser = document.querySelector('.delete')
-          })
-        }
-        getUsers()
-      </script>
-    </body>
-    </html>
-
-**Editing** **the** **user's role**
-We will create an event listener that will listen for a click on the `Edit Role` button. When the button is clicked, we will send a `PUT` request to `/api/auth/update`:
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin page</title>
+  </head>
+  <body>
+    <div class="display" style="background-color: red;"></div>
+    <h1>Users</h1>
+    <ul></ul>
     <script>
-            
-      ...
-            
-      const editRole = document.querySelectorAll('.edit')
-      const deleteUser = document.querySelector('.delete')
-    editRole.forEach((button, i) => {
-      button.addEventListener('click', async() => {
-        display.textContent= ''
-        const id = data.user[i+1].id
-        const res = await fetch('/api/auth/update', {
-        method: 'PUT',
-        body: JSON.stringify({ role: 'admin', id}),
-        headers: { 'Content-Type': 'application/json' }
+      const ul = document.querySelector("ul")
+      const display = document.querySelector(".display")
+      const getUsers = async () => {
+        const res = await fetch("/api/auth/getUsers")
+        const data = await res.json()
+        data.user.map(mappedUser => {
+          if (mappedUser.username !== "admin") {
+            let li = `<li> <b>Username</b> => ${mappedUser.username} <br> <b>Role</b> => ${mappedUser.role} </li> <button class="edit">Edit Role</button> <button class="delete">Delete User</button>`
+            ul.innerHTML += li
+          } else {
+            return null
+          }
+          const editRole = document.querySelectorAll(".edit")
+          const deleteUser = document.querySelector(".delete")
         })
-        const dataUpdate = await res.json()
-        if (res.status === 400 || res.status === 401) {
-          document.body.scrollTop = 0
-          document.documentElement.scrollTop = 0
-          return display.textContent = `${dataUpdate.message}. ${dataUpdate.error ? dataUpdate.error : ''}`
-        }
-        location.assign('/admin')            
-        })
-      });
-        
-        ...
-        
-      </script>
+      }
+      getUsers()
+    </script>
+  </body>
+</html>
+```
 
-**Deleting Users**
-Deleting Users from the database should be the duty of an admin.
-`admin.ejs`
+### Edit a User's Role
 
-    <script>
-                
+You'll create an event listener that will listen for a click on the `Edit Role` button. When the button is clicked, you'll send a `PUT` request to `/api/auth/update`:
+
+```html
+<script>
+
     ...
-            
+
     const editRole = document.querySelectorAll('.edit')
     const deleteUser = document.querySelector('.delete')
-    deleteUser.forEach((button, i)=> {
-     button.addEventListener('click', async ()=> {
-     display.textContent =''
-     const id = data.user[i+1].id
-     const res = await fetch('/api/auth/deleteUser', {
-       method: 'DELETE',
-       body: JSON.stringify({id}),
-       headers: {'Content-Type': 'application/json'}
-       })
-     const dataDelete = await res.json()
-     if (res.status === 401){
-       document.body.scrollTop = 0
-       document.documentElement.scrollTop = 0
-       return display.textContent = `${dataUpdate.message}. ${dataUpdate.error ? dataUpdate.error : ''}`
-     }
-     location.assign('/admin')
+  editRole.forEach((button, i) => {
+    button.addEventListener('click', async() => {
+      display.textContent= ''
+      const id = data.user[i+1].id
+      const res = await fetch('/api/auth/update', {
+      method: 'PUT',
+      body: JSON.stringify({ role: 'admin', id}),
+      headers: { 'Content-Type': 'application/json' }
       })
-    })
-       
-     ...
-        
-    </script>
-
-We created an event listener that listens for a click on the `Delete User`  button. When the button is clicked, we will send a `DELETE` request to `/api/auth/deleteUser`.
-
-
-> Please make sure the admin user is first on the list to avoid populating the database with an admin user again.
-## **Logout**
-
-To log out users, we need to remove the token from the client and redirect the client to the home page.
-We will create a `GET` request to `/logout` in the `server.js` file:
-
-    app.get("/logout", (req, res) => {
-      res.cookie("jwt", "", { maxAge: "1" });
-      res.redirect("/");
+      const dataUpdate = await res.json()
+      if (res.status === 400 || res.status === 401) {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+        return display.textContent = `${dataUpdate.message}. ${dataUpdate.error ? dataUpdate.error : ''}`
+      }
+      location.assign('/admin')
+      })
     });
 
-We replaced the `Jwt` token with an empty string and gave it a lifespan of 1 second.
-After creating the `GET` request, we will add a logout button to the admin's route and user's route:
+      ...
+</script>
+```
 
-    ...
-    <ul></ul>
-    <button class="logout"> <a href="/logout">Log Out</a></button>
-    ...
-## **Conclusion**
+### Delete Users
 
-We have successfully learned how to perform CRUD operations using MongoDB as database, hash passwords, authenticate using `Jwt`, and render Embedded JavaScript (EJS). You can put all these together to build more complex applications.
+Deleting Users from the database should be the duty of an admin.
 
-## **Resources** 
+`admin.ejs`:
+
+```html
+<script>
+
+  ...
+
+  const editRole = document.querySelectorAll('.edit')
+  const deleteUser = document.querySelector('.delete')
+  deleteUser.forEach((button, i)=> {
+   button.addEventListener('click', async ()=> {
+   display.textContent =''
+   const id = data.user[i+1].id
+   const res = await fetch('/api/auth/deleteUser', {
+     method: 'DELETE',
+     body: JSON.stringify({id}),
+     headers: {'Content-Type': 'application/json'}
+     })
+   const dataDelete = await res.json()
+   if (res.status === 401){
+     document.body.scrollTop = 0
+     document.documentElement.scrollTop = 0
+     return display.textContent = `${dataUpdate.message}. ${dataUpdate.error ? dataUpdate.error : ''}`
+   }
+   location.assign('/admin')
+    })
+  })
+
+   ...
+</script>
+```
+
+You've created an event listener that listens for a click on the `Delete User` button. When the button is clicked, you'll send a `DELETE` request to `/api/auth/deleteUser`.
+
+> Please make sure the admin user is first on the list to avoid populating the database with an admin user again.
+
+## Logout Functionality
+
+To log out users, you need to remove the token from the client and redirect the client to the home page.
+
+You'll create a `GET` request to `/logout` in the `server.js` file:
+
+```js
+app.get("/logout", (req, res) => {
+  res.cookie("jwt", "", { maxAge: "1" })
+  res.redirect("/")
+})
+```
+
+The code snippet replaced the JWT token with an empty string and gave it a lifespan of 1 second.
+
+After creating the `GET` request, add a logout button to the admin's route and user's route:
+
+```html
+...
+<ul></ul>
+<button class="logout"><a href="/logout">Log Out</a></button>
+...
+```
+
+## Conclusion
+
+You've successfully learned how to perform CRUD operations using MongoDB as database, hash passwords, authenticate using JWT, and render Embedded JavaScript (EJS). You can put all these together to build more complex applications.
+
+## Resources
+
 - [GitHub Repo](https://github.com/uma-victor1/role_auth)
-
-
-
