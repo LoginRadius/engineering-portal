@@ -21,7 +21,7 @@ export default function CardList({ posts, currentPage }) {
               })}
           </div>
           <div className={`${styles.landing} ${styles.sidebar}`}>
-            <div>
+            <div className={styles.subscribe}>
               <form>
                 <input type="text" placeholder="Enter your email" />
                 <button className={`${styles.btn} btn-primary`} type="submit">

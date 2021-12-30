@@ -18,7 +18,7 @@ import ReactGA from "react-ga"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
-import Docs from "../../static/consumer-identity-trend.jpg"
+import Docs from "../../static/consumer-identity-trend.png"
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
     category: category,
@@ -114,7 +114,7 @@ const Post = ({ post, relatedPost }) => {
             />
             <div class={styles.sideBar}>
               <div class={`${styles.sideBarWidget} ${styles.posts}`}>
-                <h3>Related Posts</h3>
+                <h3>Featured Posts</h3>
                 <ul>
                   <li>
                     <a href="#">
@@ -207,10 +207,47 @@ const Post = ({ post, relatedPost }) => {
               </div>
             </div>
           </div>
+
+          <div class={styles.sideBar}>
+            <div class={`${styles.sideBarWidget} ${styles.posts}`}>
+              <h3>Related Posts</h3>
+              <ul>
+                <li>
+                  <a href="#">
+                    The Importance of Multi-Factor Authentication (MFA)
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Top 9 Challenges Faced by Every QA</a>
+                </li>
+                <li>
+                  <a href="#">How to implement Facebook Login</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className={`${headStyles.landing} ${headStyles.sidebar} ${headStyles.detailPage}`}
+            >
+              <div className={headStyles.subscribe}>
+                <h3>Did you enjoy this article? Subscribe to new articles!</h3>
+                <form>
+                  <input type="text" placeholder="Enter your email" />
+                  <button
+                    className={`${headStyles.btn} btn-primary`}
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
         <ToC headings={headings} />
 
-        <div id="commento"></div>
+        <div>
+          <div id="commento"></div>
+        </div>
       </section>
       <section className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>

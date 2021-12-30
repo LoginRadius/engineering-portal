@@ -15,10 +15,6 @@
     line-height: 32px;
   }
   .post-content {
-    padding-right: $space-50;
-    @media (max-width: 768px) {
-      padding-right: 0;
-    }
     .post-description {
       border-bottom: 1px solid $gray-light;
     }
@@ -133,9 +129,8 @@
     flex-direction: column;
     flex: 1;
     &-inner {
-      margin-right: $gutter;
-      width: calc(70% - 12px);
-      padding-right: 50px;
+      margin-right: $gutter * 3;
+      width: calc(67% - 72px);
       @media (max-width: 768px) {
         width: 100%;
         margin-right: 0px;
@@ -370,10 +365,10 @@
       background-color: $blue-dark;
       border-radius: $gutter/3 * 2;
       padding: $gutter * 1.5;
-
+      box-shadow: 0px 0px $gutter/4 0px $blue-bright;
       p {
         color: $white;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin-top: $gutter;
       }
       img {

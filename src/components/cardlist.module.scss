@@ -161,7 +161,12 @@
         margin-bottom: $gutter * 3;
       }
     }
-    form {
+    .subscribe {
+      form {
+        margin: 0;
+      }
+      margin-top: $gutter/4;
+      box-shadow: 0px 0px $gutter/4 0px $blue-bright;
       background-color: $cta;
       border-radius: $gutter / 3;
       padding: $gutter/2;
@@ -171,14 +176,48 @@
         text-align: center;
         padding: 12px 16px;
         background-color: $cta;
-        color: rgba(255, 255, 255, 0.5);
+        color: $white;
         font-size: 1.25rem;
+        &::placeholder {
+          color: $white;
+          text-align: center;
+          opacity: 0.2;
+        }
+
+        &:focus-visible,
+        &:focus-within,
         &:focus {
           outline: none;
         }
       }
       .btn {
         max-width: 100%;
+      }
+    }
+    &.detail-page {
+      .subscribe {
+        margin: $gutter * 4 0 $gutter * 2;
+        max-width: 64%;
+        color: $white;
+        padding: $gutter $gutter/2 $gutter/2 $gutter;
+        form {
+          display: flex;
+          justify-content: space-between;
+          input[type="text"] {
+            text-align: left;
+            padding-left: 0;
+            &::placeholder {
+              text-align: left;
+            }
+          }
+          .btn {
+            max-width: 200px;
+          }
+        }
+
+        h3 {
+          margin-bottom: $gutter;
+        }
       }
     }
     .tag {
@@ -192,6 +231,7 @@
         border-radius: $gutter/2;
         object-fit: fill;
         max-height: 120px;
+        width: 100%;
       }
       h3 {
         margin-top: $gutter/2;
