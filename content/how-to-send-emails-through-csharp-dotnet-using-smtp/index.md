@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to send emails in C#/.NET using SMTP"
 date: "2020-11-19"
 coverImage: "coverimage.jpg"

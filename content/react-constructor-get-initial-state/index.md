@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Constructor vs getInitialState in React"
 date: "2021-01-05"
 coverImage: "index.png"
@@ -13,7 +14,6 @@ One fairly popular question that got asked on programming bulletin boards has to
 
 One of the fundamental differences between ES5 and ES6 in regards to React implementation is the new <code>class</code> keyword. It allows definition of React components as classes, which is a familiar data structure for anyone who has had experience with more traditional object-oriented languages such as Java or C++. The class structure also allows for natural organization of the component’s elements like state, props, lifecycle methods and member functions. However, ES5 did not provide the same convenience. So instead of defining a React component as a class:
 
-
 ```JavaScript
 class HelloWorld extends React.Component {
   render() {
@@ -22,9 +22,7 @@ class HelloWorld extends React.Component {
 }
 ```
 
-
 You would rely on a helper module called `create-react-class`:
-
 
 ```JavaScript
 var createReactClass = require('create-react-class');
@@ -35,9 +33,7 @@ var HelloWorld = createReactClass({
 });
 ```
 
-
 And it is within the object passed into `create-react-class` that you could define an initial state by populating the `getInitialState` attribute:
-
 
 ```JavaScript
 var HelloWorld = createReactClass({
@@ -50,9 +46,7 @@ var HelloWorld = createReactClass({
 });
 ```
 
-
 Which, in ES6 implementation would be the equivalent of:
-
 
 ```JavaScript
 class HelloWorld extends React.Component {
@@ -72,7 +66,6 @@ class HelloWorld extends React.Component {
 
 One difference worth noting is that the `create-react-class` method automatically binds `this` to every attribute method. This no longer holds true if you define React components using the common ES6 class syntax, making it so that you have to manually bind `this` to internal methods:
 
-
 ```JavaScript
 class HelloWorld extends React.Component {
   constructor(props) {
@@ -90,9 +83,7 @@ class HelloWorld extends React.Component {
 }
 ```
 
-
 Or otherwise use the “arrow function” shorthand which takes care of binding:
-
 
 ```JavaScript
 class HelloWorld extends React.Component {

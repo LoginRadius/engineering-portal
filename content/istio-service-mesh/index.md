@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Istio Service Mesh: A Beginners Guide"
 date: "2020-12-07"
 coverImage: "Istio.png"

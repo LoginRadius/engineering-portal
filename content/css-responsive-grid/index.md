@@ -1,10 +1,10 @@
 ---
+type: async
 title: "CSS Responsive Grid, Re-imagined"
 date: "2015-03-16"
 coverImage: "desdev.png"
 author: "Team LoginRadius"
 tags: ["CSS", "Grid", "Responsive"]
-type: "async"
 ---
 
 I know what you're thinking. Why am I writing this blog? There's like a bunch of apps out there that do this thing automatically. See, that's the problem, "automatically". That means you have no control over it when it messes things up. Even if you do, you might mess things up for other stuff too.

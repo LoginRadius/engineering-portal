@@ -1,4 +1,5 @@
 ---
+type: async
 title: "W3C Validation: What is it and why to use it?"
 date: "2015-01-26"
 coverImage: "w3c.png"

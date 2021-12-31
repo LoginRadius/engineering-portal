@@ -1,10 +1,10 @@
 ---
+type: async
 title: "A Bot Protection Overview"
 date: "2019-05-31"
 coverImage: "Productshot.jpg"
 author: "Chris Yee"
 tags: ["Engineering", "Captcha", "Spam", "Secure", "IP"]
-type: "async"
 ---
 
 Bots are tools that are created to automate tedious processes and reduce work. For example, chatbots automate replies to users for customer support, and search bots are used to populate search results on a Google search. However, there are many bots that are crafted for the malicious self-interest of a party. Examples of these hostile bots include DDOS (Direct Denial of Service) botnets and spam bots. This post will provide some information on how to implement bot protection to protect your systems from these nasty bot attacks.

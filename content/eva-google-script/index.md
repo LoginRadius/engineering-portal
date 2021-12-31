@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Verify Email Addresses in Google Sheet"
 date: "2021-02-22"
 coverImage: "eva.png"

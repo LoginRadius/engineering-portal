@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Hacktoberfest 2021: Contribute and Win Swag from LoginRadius"
 date: "2021-09-23"
 coverImage: "Hacktoberfest-2021.png"

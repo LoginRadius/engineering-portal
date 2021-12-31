@@ -1,4 +1,5 @@
 ---
+type: async
 title: "32 React Best Practices That Every Programmer Should Follow"
 date: "2021-10-26"
 coverImage: "Best-Practices.png"

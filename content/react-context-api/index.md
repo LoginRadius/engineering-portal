@@ -1,4 +1,5 @@
 ---
+type: async
 title: "React Context API: What is it and How it works?"
 date: "2020-10-07"
 coverImage: "react.jpg"
@@ -24,18 +25,17 @@ More information can be found on [React's documentation page](https://reactjs.or
 
 ## Context API will replace redux?
 
-No. Well, not entirely.  
+No. Well, not entirely.
 
 Redux is great and came perfectly to answer the need for state management. Actually, it answered this need so well that it came to be known that you can't be a "true" React developer if you don't know your way around Redux.
 However, Redux has its disadvantages, and that's why it's important to know what Context API gives us that Redux doesn't:
 
-- Simplicity - When using redux people tend to manage almost all of their state in redux and it causes 2 problems:  
-  1. Overhead - Why should I create/update 3 files just to add one tiny feature? 
-   
+- Simplicity - When using redux people tend to manage almost all of their state in redux and it causes 2 problems:
+  1. Overhead - Why should I create/update 3 files just to add one tiny feature?
+
   2. One of the significant advantages of React's one-way data binding is that it's easy to understand - A component passes state to its children. Using Redux takes it away from us.
-   
-- Using Context API we can define several unrelated contexts (stores) and use each in its proper place in the app.  
-  
+- Using Context API we can define several unrelated contexts (stores) and use each in its proper place in the app.
+
 ### Important Note
 
 Redux is just a concept. If you are comfortable with using reducers and actions and don't find hindering than you may also create reducers and actions that wrap Context API as the store as Redux's author **Dan Abramov** explained in [his medium article about whether Redux is always required](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
@@ -45,52 +45,54 @@ Redux is just a concept. If you are comfortable with using reducers and actions 
 You might think to yourself: "Well, I'm convinced. How do I implement Context API in my app?"
 First, make sure you need it. Sometimes people use shared state across nested components instead of just passing it as props.
 And if you do need it you should follow these very few steps:
+
 1. Create a folder under your app root named contexts (not required. just a convention)
 2. Create a file named \<your context name\>Context.js, e.g. userContext.js
 3. import and create a context like so:
 
 ```js
-import React, { createContext } from "react";
-const UserContext = createContext();
+import React, { createContext } from "react"
+const UserContext = createContext()
 ```
 
 4. Create a component that will wrap the provider named <your context name>Provider e.g. UserProvider  
-Example using React Hooks:
+   Example using React Hooks:
 
 ```js
 const UserProvider = ({ children }) => {
-  const [name, setName] = useState("John Doe");
-  const [age, setAge] = useState(1);
-  const happyBirthday = () => setAge(age + 1);
+  const [name, setName] = useState("John Doe")
+  const [age, setAge] = useState(1)
+  const happyBirthday = () => setAge(age + 1)
   return (
     <UserContext.Provider value={{ name, age, happyBirthday }}>
       {children}
     </UserContext.Provider>
-  );
-};
+  )
+}
 ```
 
 5. Create a higher order component to consume the context named: with<your context name> e.g. withUser  
-Example using React Hooks:
+   Example using React Hooks:
 
 ```js
-const withUser = (Child) => (props) => (
+const withUser = Child => props => (
   <UserContext.Consumer>
-    {(context) => <Child {...props} {...context} />}
+    {context => <Child {...props} {...context} />}
     {/* Another option is:  {context => <Child {...props} context={context}/>}*/}
   </UserContext.Consumer>
-);
+)
 ```
+
 The difference between the two options above is if you want the context to be a single nested property by this name, to explode it to its properties (which in my opinion is more convenient).
 
 6. Finally export them
 
 ```js
-export { UserProvider, withUser };
+export { UserProvider, withUser }
 ```
 
 7. And use them however you like  
-For example:
+   For example:
 
 ```js
 ReactDOM.render(
@@ -98,14 +100,16 @@ ReactDOM.render(
     <App />
   </UserProvider>,
   document.getElementById("root")
-);
+)
 ```
+
 ```js
-export default withUser(LoginForm);
+export default withUser(LoginForm)
 ```
 
 You'll also be able to notice I used the new "[Hooks](/react-hooks-guide/)" feature that is shipped with React since version 16.8 to make it even neater and easier to create contexts.
 
 ### Final piece of advice
+
 I mentioned how people overuse Redux, and it also applies to Context API. Use it only when you need to share state between lot's of components with a lot of nesting.
 Most of the time, the data you have in one component will only be relevant to its children, so passing it in props is more indicative and nicer.

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Wordpress Custom Login Form Part 1"
 date: "2016-03-01"
 coverImage: "wordpress-icon-150x1501-150x150.png"

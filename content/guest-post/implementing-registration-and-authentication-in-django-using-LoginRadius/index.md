@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Implement Registration and Authentication in Django?"
 date: "2021-07-30"
 coverImage: "coverImage.png"

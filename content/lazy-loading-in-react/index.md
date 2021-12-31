@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Lazy loading in React"
 date: "2020-10-05"
 coverImage: "react.jpg"

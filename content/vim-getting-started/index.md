@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Vim: What is it and Why to use it?"
 date: "2020-10-08"
 author: "Shubhankar Khare"

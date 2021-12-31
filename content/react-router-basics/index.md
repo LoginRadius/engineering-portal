@@ -1,4 +1,5 @@
 ---
+type: async
 title: "React Router Basics: Routing in a Single-page Application"
 date: "2020-11-20"
 coverImage: "index.png"
@@ -7,14 +8,11 @@ tags: ["JavaScript", "Node", "React", "React Router"]
 description: "Everything essential you need to know about React Router."
 ---
 
-
 React thrives on being one of the premier tools to build single-page applications, which used to be a fairly foreign concept when I started building my first React app. Back then, I was used to the concept of serving separate web pages whenever the user redirects from an URL path to another, and it was rather challenging at first to wrap my head around how React handles navigation.
 
 With that in mind, this blog post aims to lay down and explain the basic aspects of navigation using React Router, one of the most, if not the most, popular solutions for navigation within a React app.
 
 Throughout the first section below, please reference [this CodePen example](https://codepen.io/n-nguyen/pen/XWKwJXM).
-
-
 
 1. **Link, Switch and Router**
 
@@ -24,15 +22,13 @@ To accomplish this, the basic building blocks that developers get to play with a
 
 First off, let’s create some simple text components. These components are stand-ins for actual components to be swapped in and out in navigation. HelloBanner will be a div containing the simple message “Hello”, and WorldBanner containing “World!”:
 
-
-
 ```JavaScript
 const HelloBanner: React.FunctionComponent = () => {
   return (
     <div id="banner_hello" className="banner">
       <span>Hello Banner is currently displayed. We are currently in path "/hello"</span>
     </div>
-  ) 
+  )
 }
 
 const WorldBanner: React.FunctionComponent = () => {
@@ -40,14 +36,11 @@ const WorldBanner: React.FunctionComponent = () => {
     <div id="banner_world" className="banner">
       <span>Hello Banner is currently displayed. We are currently in path "/world"</span>
     </div>
-  ) 
+  )
 }
 ```
 
-
 Now let’s imagine the layout of a conventional web application with a top navigation bar. The navigation bar contains links to each section of the app and the body would show the content of the current webpage. The skeleton code for that container would look something like this in React:
-
-
 
 ```JavaScript
 class AppContainer extends Component {
@@ -100,36 +93,27 @@ ReactDOM.render(
 );
 ```
 
-
 If you are currently looking at the render of this structure from the CodePen, you would see this very simple UI:
-
-
 
 ![Example UI](image1.png)
 
-
 Clicking on the <code>&lt;Link></code>’s in the navigation bar will “navigate” you to the corresponding paths. In effect, what this does is twofold:
 
-
-
-*   Updating the current path of the browser to the indicated path.
-*   Update all <code>&lt;Route></code> components to rerender according to the current path.
+- Updating the current path of the browser to the indicated path.
+- Update all <code>&lt;Route></code> components to rerender according to the current path.
 
 This is demonstrated through the example app. Once you click the links to /hello or to /world, the corresponding component will be swapped in under the <code>&lt;Switch></code> container.
 
 A couple of noteworthy things from the code example:
 
+- <code>&lt;Switch></code> component allows swapping between <code>&lt;Route></code>’s and render the correct component with a given URL path. However, <code>&lt;Route></code> components do not have to be wrapped inside a <code>&lt;Switch></code>. While standalone, a <code>&lt;Route></code> will simply render when the URL path matches its own <code>path</code> prop.
+- The <code>&lt;Redirect></code> component at the end acts as the default route. In case none of the other routes match with the current URL path, it simply redirects the user back to root.
 
-
-*   <code>&lt;Switch></code> component allows swapping between <code>&lt;Route></code>’s and render the correct component with a given URL path. However, <code>&lt;Route></code> components do not have to be wrapped inside a <code>&lt;Switch></code>. While standalone, a <code>&lt;Route></code> will simply render when the URL path matches its own <code>path</code> prop.
-*   The <code>&lt;Redirect></code> component at the end acts as the default route. In case none of the other routes match with the current URL path, it simply redirects the user back to root.
 2. **Redirecting programmatically**
 
 The workflow described above is intuitive from the end user’s point of view. However, there are times when the application’s internal logic demands a redirection to be performed following app events. In these occasions, React Router leverages the [<code>history</code>](https://reactrouter.com/web/api/history) object to allow for programmatic redirection:
 
-For a traditional setup, the <code>history</code> object can be accessed through a component’s props through the user of the <code>withRouter</code> higher order component: 
-
-
+For a traditional setup, the <code>history</code> object can be accessed through a component’s props through the user of the <code>withRouter</code> higher order component:
 
 ```JavaScript
 import * as React from "react";
@@ -161,19 +145,15 @@ class SampleComponent extends React.Component<SampleComponentProps, SampleCompon
 export default withRouter<SampleComponentProps>(SampleComponent);
 ```
 
-
 In the example above, you can see all the components required to extract the <code>history</code> object, as well as the <code>history.push()</code> call to perform the redirection.
 
 For a more updated approach, React Router introduced the hook [<code>useHistory</code>](https://reactrouter.com/web/api/Hooks/usehistory), which should blend in more naturally when programming with a React Hooks intensive workflow.
-
 
 3. **Passing states on redirects**
 
 Certain redirects are unique in nature, and/or contain certain information about the previous user activity that you might want to pass on to the new component. In this case, the information can be passed through history states into the new component, which will then perform custom behavior based on these states:
 
 When using <code>&lt;Link></code> component redirect, populate the <code>to</code> prop with an object that contains the new path as well as states, instead of just the string for pathname:
-
-
 
 ```JavaScript
 <Link
@@ -188,10 +168,7 @@ When using <code>&lt;Link></code> component redirect, populate the <code>to</cod
 </Link>
 ```
 
-
 The same object can be used as argument to the <code>history.push()</code> call to achieve similar results:
-
-
 
 ```JavaScript
 history.push({
@@ -202,10 +179,7 @@ history.push({
 })
 ```
 
-
 Once the state has been included with the redirection, on the receiving end, you can extract the state from the <code>history.location.state</code> object:
-
-
 
 ```JavaScript
 import * as React from "react";
@@ -239,10 +213,7 @@ class ReceivingComponent extends React.Component<ReceivingComponentProps, Receiv
 export default withRouter<ReceivingComponentProps>(ReceivingComponent);
 ```
 
-
 The state access is in <code> componentDidMount</code> in the example above.
-
-
 
 4. **Parting Words**
 

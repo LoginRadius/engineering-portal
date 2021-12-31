@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Exceptions and Exception Handling in C#"
 date: "2020-09-29"
 coverImage: "csharplogo.png"

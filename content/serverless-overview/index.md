@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Top 4 Serverless Computing Platforms in 2021"
 date: "2021-03-04"
 coverImage: "cover.png"

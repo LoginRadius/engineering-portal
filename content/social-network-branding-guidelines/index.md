@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Social Network Branding Guidelines"
 date: "2015-09-08"
 coverImage: "social-network-branding-300x300.png"

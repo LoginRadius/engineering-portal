@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Maven Dependency in Eclipse"
 date: "2017-07-11"
 coverImage: "maven.png"

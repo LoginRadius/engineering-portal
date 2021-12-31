@@ -1,4 +1,5 @@
 ---
+type: async
 title: Google OAuth2 Authentication in Golang
 date: "2020-06-11"
 coverImage: "google_golang.png"

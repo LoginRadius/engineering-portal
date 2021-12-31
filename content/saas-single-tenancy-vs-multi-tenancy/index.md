@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Single-Tenant vs. Multi-Tenant: SaaS Architecture"
 date: "2021-12-01"
 coverImage: "coverImage.png"
 author: "Deepak Gupta"
 tags: ["SaaS", "Architecture"]
 description: "This article comprehensively compares SaaS-based multi-tenant and single-tenant cloud architectures along with their benefits and drawbacks. The comprehension also points out which one to choose based on the organization’s requirements and scenario."
-type: fuel
 ---
 
 SaaS-based cloud implications have proven effective in rendering scalability while reducing costs for the organization. Thus, SaaS has become a standard delivery model for most business applications. Mostly SaaS supports both single-tenant and multi-tenant architectures and organizations can willingly choose their SaaS environment type based upon factors like security, cost, scalability, simple migration, customizability, etc.

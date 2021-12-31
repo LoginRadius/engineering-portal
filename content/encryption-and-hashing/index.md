@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Encryption and Hashing"
 date: "2018-12-24"
 coverImage: "encryption-and-hashing.png"

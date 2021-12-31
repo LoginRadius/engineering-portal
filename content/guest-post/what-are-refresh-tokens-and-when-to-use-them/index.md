@@ -1,4 +1,5 @@
 ---
+type: async
 title: What Are Refresh Tokens? When & How to Use Them
 date: "2021-10-05"
 coverImage: "coverImage.png"

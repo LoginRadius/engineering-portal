@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Upgrade Your Vim Skills" 
 date: "2021-09-23"
 author: "Shubhankar Khare"

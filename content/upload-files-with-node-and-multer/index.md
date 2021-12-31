@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Upload files using NodeJS + Multer"
 date: "2020-10-12"
 coverImage: "node-multer-upload.png"

@@ -1,11 +1,11 @@
 ---
+type: async
 title: "What is API Testing? - Discover the Benefits"
 date: "2021-02-12"
 coverImage: "api-testing.png"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "API Testing", "Agile", "Benefits"]
 description: "Communication between software components is handled by an API (Application Programming Interface). Discover the advantages of automated API testing."
-type: "async"
 ---
 
 Until the modifications are introduced to production, smart companies take advantage of API testing and so do you. In both staging and production environments, API's must be checked to ensure that the software framework meets the specifications.
@@ -33,7 +33,7 @@ API testing can be done on the below aspects:
 
 API Testing doesn't require GUI to be ready and it can be performed way early in the development cycle. The Automated API tests provide much quicker test results and significantly accelerate development workflows; thus, it helps you speed up the feedback loop and catch issues faster.
 
-In addition to that, API tests are significantly less time-consuming when compared to UI Tests. UI Tests spend much time rendering and loading the web pages and interface elements, whereas can execute API tests in seconds. Let's take an example where a user needs to register and login from UI takes at least 3 to 5 minutes, whereas API testing takes less than 30 seconds.
+In addition to that, API tests are significantly less time-consuming when compared to UI Tests. UI Tests spend much time rendering and loading the web pages and [interface elements](https://www.trychameleon.com/blog/free-ui-kits), whereas can execute API tests in seconds. Let's take an example where a user needs to register and login from UI takes at least 3 to 5 minutes, whereas API testing takes less than 30 seconds.
 
 **_2. Reduced costs_**
 

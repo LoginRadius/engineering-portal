@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Build A Simple CLI Tool using Deno"
 date: "2020-06-08"
 coverImage: "cli-tool.png"
 author: "Mohammed Modi"
 tags: ["Deno", "CLI", "Programming"]
-type: "async"
 ---
 
 ### What is Deno?

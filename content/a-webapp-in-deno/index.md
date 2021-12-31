@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Creating a Web Application using Deno"
 date: "2020-06-03"
 author: "Mohammed Modi"
 coverImage: "deno.jpg"
 tags: ["Deno"]
-type: "async"
 ---
 
 Hello, let's create a simple web app using deno, In this blog, I will be using the [Deno Third-Party Module](https://deno.land/x/) called **[abc](https://deno.land/x/abc)** for creating a simple web application.

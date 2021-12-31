@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Displaying the LoginRadius interface in a pop-up"
 date: "2015-11-09"
 coverImage: "simplepop-150x150.png"
 author: "Karl Wittig"
 tags: ["HTML", "Login", "UI", "LoginRadius Interface"]
-type: "async"
 ---
 
 In order to display your LoginRadius Login Interface in a pop-up you can leverage Jquery-ui which is a well documented, easy-to-use library that allows you to handle some common functionality such as pop-up dialogs and other UI features. In this article we go over the steps to use Jquery-ui to display a pop-up on your page with a LoginRadius login interface using the LoginRadius HTML SDK.

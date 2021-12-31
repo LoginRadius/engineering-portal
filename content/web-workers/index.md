@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Web Workers in JS - An Introductory Guide"
 date: "2020-12-28"
 coverImage: "unsplash.png"

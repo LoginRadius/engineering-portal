@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Introduction to Android Studio"
 date: "2020-10-30"
 coverImage: "cover.png"

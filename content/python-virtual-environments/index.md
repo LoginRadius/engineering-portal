@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Python Virtual Environment: What is it and how it works?"
 date: "2020-10-16"
 coverImage: "python.jpg"
@@ -7,8 +8,7 @@ tags: ["Python"]
 description: "We'll cover the basics of virtual environments in this guide and how to use them. We will then take a closer look at how virtual environments actually work."
 ---
 
-In this article, we'll talk about the basic concept of virtual environment in python -  what it is and how to use it and also how to build and manage separate environments for your Python projects using virtual environments. 
-
+In this article, we'll talk about the basic concept of virtual environment in python - what it is and how to use it and also how to build and manage separate environments for your Python projects using virtual environments.
 
 ## What is a virtual environment?
 
@@ -22,11 +22,11 @@ These are simply the directories so that unlimited virtual environments can be c
 
 So, the virtual environment can come into play and make a separate isolated environment for both projects, and each project can store and retrieve packages from their specific environment.
 
-Also, let us consider another case where we are creating a web application [using Django](https://www.djangoproject.com/start/). Suppose you are working on two projects project1 and project2. 
+Also, let us consider another case where we are creating a web application [using Django](https://www.djangoproject.com/start/). Suppose you are working on two projects project1 and project2.
 
 If project1 uses Django-2.2 and project2 uses Django-3.2, they would be stored in the same directory with the same name, and the error may occur. Then, in such cases, virtual environments can be really helpful for you to maintain the dependencies of both the projects.
 
-## How does a virtual environment work? 
+## How does a virtual environment work?
 
 To create a virtual environment, we need a [module named](https://pypi.org/project/virtualenv/) virtualenv. It creates a folder with all the necessary executables to run Python projects. Make sure **pip** is installed on your computer. If not, then use the following command:
 
@@ -67,7 +67,7 @@ After successfully creating the virtual environment, you need to activate it to 
 
 <img src="windows.png" alt="Windows" /><br>
 
-After activating the virtual environment, you can see your name on the virtual environment on the terminal's left side. It confirms the activation of your virtual environment and is currently active. 
+After activating the virtual environment, you can see your name on the virtual environment on the terminal's left side. It confirms the activation of your virtual environment and is currently active.
 
 <img src="activated.png" alt="Activated" /><br>
 

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What is GraphQL? - A Basic Guide"
 date: "2020-10-01"
 coverImage: "graph.png"

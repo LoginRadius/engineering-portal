@@ -1,4 +1,5 @@
 ---
+type: async
 title: "The Upcoming Future of Software Testers and SDETs in 2021"
 date: "2021-03-12"
 coverImage: "cover.png"

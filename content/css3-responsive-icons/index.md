@@ -1,10 +1,10 @@
 ---
+type: async
 title: "CSS3 Responsive Icons"
 date: "2015-07-21"
 coverImage: "css3-responsive-icons-300x300.png"
 author: "Team LoginRadius"
 tags: ["CSS", "Responsive", "UI"]
-type: "async"
 ---
 
 What’s up, my neighbor? This is your boy, Darryl Tec. I am here to teach you how to create a responsive and awesomely scalable icon using CSS sprites. On top of that, we will also add a fallback for browsers that do not support SVG files.

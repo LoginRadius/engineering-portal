@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How does bitwise ^ (XOR) work?"
 date: "2020-11-24"
 coverImage: "xor.png"

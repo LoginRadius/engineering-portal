@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Social Media Solutions"
 date: "2015-10-08"
 coverImage: "social-media.png"

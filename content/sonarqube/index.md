@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Sonarqube: What it is and why to use it?"
 date: "2020-07-11"
 coverImage: "sonarqube.png"

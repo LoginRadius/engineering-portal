@@ -1,17 +1,18 @@
 ---
+type: async
 title: "How to create an EC2 Instance in AWS"
 date: "2020-11-18"
 coverImage: "ec2cover.png"
 author: "Puneet Singh"
-tags: ["AWS","DevOps","EC2"]
+tags: ["AWS", "DevOps", "EC2"]
 description: "Learn how to create an EC2 (Elastic Compute Cloud) instance in an AWS account in simple and straightforward steps."
 ---
 
-AWS EC2 is a virtual computing environment (known as instances) to develop and deploy applications. To create an EC2 instance in AWS, we need an active Amazon Web Services account. 
+AWS EC2 is a virtual computing environment (known as instances) to develop and deploy applications. To create an EC2 instance in AWS, we need an active Amazon Web Services account.
 
 ## EC2 Dashboard
 
-First, let's login into our AWS account. Once login, we will land on the Management Console page, we can see all the AWS services. 
+First, let's login into our AWS account. Once login, we will land on the Management Console page, we can see all the AWS services.
 
 ![AWS Management Console](1_console.png)
 
@@ -21,9 +22,9 @@ There is a drop-down on the top left corner, which is one more option to search 
 
 Once we click on `EC2` you will be redirected to the **EC2 Dashboard**. It shows the information related to all the EC2 resources for a specific Region in our account.
 
-> Note: If we change the region from the top right corner of the dashboard, it will show the selected region's information. In the below snapshot, we have selected `Mumbai` region. 
+> Note: If we change the region from the top right corner of the dashboard, it will show the selected region's information. In the below snapshot, we have selected `Mumbai` region.
 
-There is a button `Launch Instance` to create a new instance in the selected region on the dashboard's bottom section. 
+There is a button `Launch Instance` to create a new instance in the selected region on the dashboard's bottom section.
 
 ![EC2 Dashborad](3_dashboard.png)
 
@@ -32,7 +33,6 @@ There is a button `Launch Instance` to create a new instance in the selected reg
 After clicking the Launch button, we need to select the Amazon Machine Image (AMI) it includes the operating system and applications required to launch an instance. Here we will select the Ubuntu Server 20.04 LTS as shown in the below snapshot.
 
 ![EC2 AMIs](4_ami.png)
-
 
 The next step is to choose the type of instance we need. AWS provides many types of instances based on different use cases with various CPU combinations, memory, storage, and networking capacity. We will here select the `t2.micro instance`, which is a free tier eligible instance.
 

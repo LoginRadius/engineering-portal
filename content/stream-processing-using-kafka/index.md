@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Kafka Streams: A stream processing guide"
 date: "2020-07-01"
 coverImage: "header.png"

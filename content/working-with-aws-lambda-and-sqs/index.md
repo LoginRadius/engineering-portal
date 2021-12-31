@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Working with AWS Lambda and SQS"
 date: "2020-02-13"
 coverImage: "blog-aws-lambda.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Integrating Twitter Social Login"
 date: "2015-02-11"
 coverImage: "twitter-feat-img.png"

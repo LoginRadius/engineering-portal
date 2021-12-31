@@ -1,4 +1,5 @@
 ---
+type: async
 title: Using MongoDB as Datasource in GoLang
 date: "2020-09-21"
 coverImage: "gomongo.png"

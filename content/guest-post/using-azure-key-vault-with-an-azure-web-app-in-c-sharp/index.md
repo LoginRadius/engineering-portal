@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Use Azure Key Vault With an Azure Web App in C#"
 date: "2021-08-09"
 coverImage: "image.png"

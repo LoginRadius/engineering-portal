@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Snapshot testing using Nightwatch and mocha"
 date: "2020-07-29"
 coverImage: "snapshot_nightwatch.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "EOL or End of Line or newline ascii character"
 date: "2017-09-06"
 coverImage: "eol.png"

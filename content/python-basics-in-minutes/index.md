@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Python basics in minutes"
 date: "2020-11-06"
 coverImage: "python.png"
@@ -7,7 +8,7 @@ description: "Learn the basics of Python programming lanuage (For Beginners)"
 tags: ["Python"]
 ---
 
-Python is a general-purpose programming language and has overtaken Java in popularity according to a recent Stackoverflow survey. 
+Python is a general-purpose programming language and has overtaken Java in popularity according to a recent Stackoverflow survey.
 
 People who have never programmed before are tempted to try due to the simplicity to learn and use it. Well, let's get down to business.
 
@@ -21,21 +22,27 @@ Before we get started, there are a few things you should know about python:
 
 ## Print function
 
-*We are assuming that you have already installed python. If you do not, please click [here](https://www.python.org/downloads/).*
+_We are assuming that you have already installed python. If you do not, please click [here](https://www.python.org/downloads/)._
 
-To write your first Python code, open your text editor and type: 
+To write your first Python code, open your text editor and type:
+
 ```
 print("Hello world, this is my first python code")
 ```
+
 Save the file as `helloworld.py` and put it into the python interpreter to be executed.
 You also can run your code on the command line:
+
 ```
 C:\Users\Your Name>python helloworld.py
 ```
+
 If everything went well, you should see something like this:
+
 ```
 > Hello world, this is my first python code
 ```
+
 You can also use the print function to show integers, variables, lists, etc. Try it!
 
 ```python
@@ -63,17 +70,18 @@ print(phrase+name)
 
 Python has the following data types built-in by default, in these categories:
 
-- Text Type:	`str` *(string)*
-- Numeric Types:	`int` *(integer)*, `float` *(decimal)*, `complex`
-- Sequence Types:	`list`, `tuple`, `range`
-- Mapping Type:	`dict`
-- Set Types:	`set`, `frozenset`
-- Boolean Type:	`bool`
-- Binary Types:	`bytes`, `bytearray`, `memoryview`
+- Text Type: `str` _(string)_
+- Numeric Types: `int` _(integer)_, `float` _(decimal)_, `complex`
+- Sequence Types: `list`, `tuple`, `range`
+- Mapping Type: `dict`
+- Set Types: `set`, `frozenset`
+- Boolean Type: `bool`
+- Binary Types: `bytes`, `bytearray`, `memoryview`
 
->**Note:** Variables in Python are interpreted as integers by default. Is a good practice to declare them as another type *explicitly* (if they aren't integers). You can see the kind of a variable using the function `type()`.
+> **Note:** Variables in Python are interpreted as integers by default. Is a good practice to declare them as another type _explicitly_ (if they aren't integers). You can see the kind of a variable using the function `type()`.
 
 ## Python Operators
+
 Operators are used to performing operations on variables and values.
 The main groups are:
 
@@ -82,34 +90,38 @@ The main groups are:
 - Logical operators
 
 ### Arithmetic operators
-*Arithmetic operators are used with numeric values to perform common mathematical operations.*
 
-- **Addition**:	`x + y`
+_Arithmetic operators are used with numeric values to perform common mathematical operations._
+
+- **Addition**: `x + y`
 - **Subtraction:** `x - y`
 - **Multiplication:** `x * y`
 - **Division:** `x / y`
-- **Modulus:** `x % y`	
-- **Exponentiation:** `x ** y`	
+- **Modulus:** `x % y`
+- **Exponentiation:** `x ** y`
 - **Floor division:** `x // y`
 
 ### Comparison operators
-*Comparison operators are used to compare two values.*
+
+_Comparison operators are used to compare two values._
 
 - **Equal:** `x == y`
 - **Not equal:** `x != y`
 - **Greater than:** `x > y`
-- **Less than:** `x < y`	
+- **Less than:** `x < y`
 - **Greater than or equal to:** `x >= y`
-- **Less than or equal to:**	`x <= y`
+- **Less than or equal to:** `x <= y`
 
 ### Logical operators
-*Logical operators are used to combine conditional statements.*
+
+_Logical operators are used to combine conditional statements._
+
 - **and** -> Returns True if both statements are true
-`x < 2 and  x < 4	`
-- **or** ->	Returns True if one of the statements is true	
-`x < 10 or x < 9`
-- **not** -> Reverse the result, returns False if the result is true	
-`not(x < 2 and x < 4)`
+  `x < 2 and x < 4`
+- **or** -> Returns True if one of the statements is true
+  `x < 10 or x < 9`
+- **not** -> Reverse the result, returns False if the result is true
+  `not(x < 2 and x < 4)`
 
 ## If statement
 
@@ -129,7 +141,8 @@ In programming, we often have to choose what to do depending on the situation. I
 The code above print a different message according to a condition.
 
 Try to write a code that asks for two test scores. If the average is less than 7, the user should see "I'm sorry, you didn't do well on the tests". If the average is exactly 7, the user should see "You did it!". And if it is greater than 7, the user should see "Congratulations!! You're a great student.".
->**Note:** to request a response from the user, you need to use the `input()` function. For example:
+
+> **Note:** to request a response from the user, you need to use the `input()` function. For example:
 
 ```python
 name = str(input("What's your name?"))
@@ -137,12 +150,14 @@ age = int(input("How old are you? "))
 print("I'm %s and I'm %d"% (name, age))
 
 ```
+
 ## Loops
+
 Python has two primitive loop commands: `while` and `for`.
 
 ### While loop
 
-*With the while loop, we can execute a set of statements as long as a condition is true.*
+_With the while loop, we can execute a set of statements as long as a condition is true._
 
 ```python
 count = 0
@@ -150,6 +165,7 @@ while count < 10:
     print(count)
     count += 1    #this line is the same as    count = count+1
 ```
+
 The code above will print count as long as count is less than 10.
 
 ### For loop
@@ -161,6 +177,7 @@ A for loop is used for iterating over a sequence. Using it, we can execute a set
 for x in "banana":
     print(x)
 ```
+
 ```python
 #loop through a list of fruits
 fruits = ["apple", "banana", "melon"]

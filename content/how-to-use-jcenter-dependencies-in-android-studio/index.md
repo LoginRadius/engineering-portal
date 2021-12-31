@@ -1,4 +1,5 @@
 ---
+type: async
 title: "jCenter Dependencies in Android Studio"
 date: "2017-07-11"
 coverImage: "jCenter.png"

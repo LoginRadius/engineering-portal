@@ -1,4 +1,5 @@
 ---
+type: async
 title: "GitHub CLI Tool ⚒"
 date: "2020-10-05"
 coverImage: "GitHub CLI Tool.png"

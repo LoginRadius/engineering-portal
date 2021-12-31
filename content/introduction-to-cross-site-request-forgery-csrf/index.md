@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Introduction to Cross-Site Request Forgery (CSRF)"
 date: "2019-10-30"
 coverImage: "crosspath.jpg"

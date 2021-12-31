@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Delete a Node, Is Same Tree, Move Zeroes"
 date: "2015-12-22"
 coverImage: "code-js-300x300.png"
 author: "Lucius Yu"
 tags: ["Data Structure", "JavaScript", "Linked List"]
-type: "async"
 ---
 
 ### Delete A Node

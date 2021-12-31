@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Authenticate Users: JWT vs. Session"
 date: "2021-08-26"
 coverImage: "ArticleHead.jpg"

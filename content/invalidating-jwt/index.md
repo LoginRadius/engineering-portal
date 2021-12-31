@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Invalidating JSON Web Tokens"
 date: "2021-01-18"
 coverImage: "unsplash.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Social Media Colors in Hex"
 date: "2015-02-06"
 coverImage: "darrylblog1-150x150.png"

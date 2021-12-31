@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to add SSO for your WordPress Site!
 date: "2021-03-26"
 coverImage: "coverImage.jpg"

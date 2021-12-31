@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Render React with optimization"
 date: "2020-09-23"
 coverImage: "index.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Shopify Embedded App"
 date: "2015-06-02"
 coverImage: "shopify.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "PKCE: What it is and how to use it with OAuth 2.0"
 date: "2020-09-03"
 author: "Narendra Pareek"
@@ -7,10 +8,9 @@ tags: ["PKCE", "OAuth", "OIDC"]
 description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this article will help you to understand everything about PKCE."
 ---
 
-
 PKCE is an OAuth 2.0 security extension for public clients on mobile devices intended to avoid a malicious programme creeping into the same computer from intercepting the authorisation code. The [RFC 7636](https://oauth.net/2/pkce/) introduction discusses the mechanisms of such an attack.
 
-PKCE has a different specification of its own. It allows applications to use the most reliable OAuth 2.0 flows in public or untrusted clients - the Authorization Code flow. In order to efficiently use a dynamically generated password, it achieves this by doing some setup work before the flow and some verification at the end of the flow. 
+PKCE has a different specification of its own. It allows applications to use the most reliable OAuth 2.0 flows in public or untrusted clients - the Authorization Code flow. In order to efficiently use a dynamically generated password, it achieves this by doing some setup work before the flow and some verification at the end of the flow.
 
 This is important because getting a fixed secret in a public client is not safe.
 
@@ -26,45 +26,40 @@ PKCE is mainly useful for the client-side application or any web apps that are u
 
 This flow basically works with two parameters **Code Verifier** and **Code challenge**. Let's see what are these parameters, how we use them, and generate them.
 
-
 ### PKCE code verifier and challenge
 
-**The code verifier** is a cryptographically random string using the characters A-Z, a-z, 0-9, and the punctuation characters -._~ (hyphen, period, underscore, and tilde), between 43 and 128 characters long.
+**The code verifier** is a cryptographically random string using the characters A-Z, a-z, 0-9, and the punctuation characters -.\_~ (hyphen, period, underscore, and tilde), between 43 and 128 characters long.
 Once the client has generated the code verifier, it uses that to create the **code challenge**.
 
 For devices that can perform a SHA256 hash, the code challenge is a BASE64-URL-encoded string of the SHA256 hash of the code verifier.
-
 
 ### Generate code verifier and code challenge
 
 Here you can see the examples to generate the Code verifier and code challenge in different languages. Either you [can find Node](/oAuth-implemenation-using-node/) and [Go Packages](/golang-maps/) for this but I would recommend you to not depend on any package for such small things.
 
-
 **NodeJs**
 
 ```javascript
-
 var crypto = require("crypto")
 
 function base64URLEncode(str) {
-    return str.toString('base64')
-        .replace(/\+/g, '-')
-        .replace(/\//g, '_')
-        .replace(/=/g, '');
+  return str
+    .toString("base64")
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=/g, "")
 }
-var verifier = base64URLEncode(crypto.randomBytes(32));
+var verifier = base64URLEncode(crypto.randomBytes(32))
 console.log("code_verifier: ", verifier)
 
-if(verifier){
-    var challenge = base64URLEncode(sha256(verifier));
-    console.log("code_challenge: ",challenge)
+if (verifier) {
+  var challenge = base64URLEncode(sha256(verifier))
+  console.log("code_challenge: ", challenge)
 }
-
 
 function sha256(buffer) {
-    return crypto.createHash('sha256').update(buffer).digest();
+  return crypto.createHash("sha256").update(buffer).digest()
 }
-
 ```
 
 **Golang**
@@ -72,7 +67,7 @@ function sha256(buffer) {
 ```golang
 
 package main
- 
+
 import (
     "crypto/sha256"
     "encoding/base64"
@@ -81,15 +76,15 @@ import (
     "strings"
     "time"
 )
- 
+
 type CodeVerifier struct {
     Value string
 }
- 
+
 const (
     length = 32
 )
- 
+
 func base64URLEncode(str []byte) string {
     encoded := base64.StdEncoding.EncodeToString(str)
     encoded = strings.Replace(encoded, "+", "-", -1)
@@ -97,7 +92,7 @@ func base64URLEncode(str []byte) string {
     encoded = strings.Replace(encoded, "=", "", -1)
     return encoded
 }
- 
+
 func verifier() (*CodeVerifier, error) {
     r := rand.New(rand.NewSource(time.Now().UnixNano()))
     b := make([]byte, length, length)
@@ -106,37 +101,37 @@ func verifier() (*CodeVerifier, error) {
     }
     return CreateCodeVerifierFromBytes(b)
 }
- 
+
 func CreateCodeVerifierFromBytes(b []byte) (*CodeVerifier, error) {
     return &CodeVerifier{
         Value: base64URLEncode(b),
     }, nil
 }
- 
+
 func (v *CodeVerifier) CodeChallengeS256() string {
     h := sha256.New()
     h.Write([]byte(v.Value))
     return base64URLEncode(h.Sum(nil))
 }
- 
+
 func main() {
     verifier, _ := verifier()
     fmt.Println("code_verifier: ", verifier.Value)
     challenge := verifier.CodeChallengeS256()
     fmt.Println("code_challenge :", challenge)
 }
- 
+
 ```
 
-## Implement the OAuth 2.0 Authorization Code with PKCE Flow 
+## Implement the OAuth 2.0 Authorization Code with PKCE Flow
 
 ### Get the Authorization code
+
 In the OAuth Authorization flow, we need to have the code verifier and code challenge to start with the authentication and obviously an OAuth provider to connect.
 
+For the initial request, we need to pass the code_challenge and code_challenge_method to the OAuth or OIDC provider that supports PKCE based flow.
 
- For the initial request, we need to pass the code_challenge and code_challenge_method to the OAuth or OIDC provider that supports PKCE based flow.
-
-The request will look like: 
+The request will look like:
 
 ```
 Provider + /oauth/redirect?
@@ -151,7 +146,7 @@ client_id={client_id}
 
 The provider should redirect you to the authentication/login page and where you’ll get the code after successful authentication.
 
-### Code Exchange 
+### Code Exchange
 
 In the code exchange request, we need to pass the code we have received through the above request and the code verifier that we have generated in our first step.
 

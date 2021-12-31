@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Enqueuing Scripts in WordPress"
 date: "2015-03-02"
 coverImage: "wordpress.png"

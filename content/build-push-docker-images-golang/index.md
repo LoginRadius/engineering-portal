@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Build and Push Docker Images with Go"
 date: "2020-12-08"
 coverImage: "cover.png"
 author: "Andy Yeung"
 tags: ["Docker", "Go"]
 description: "Guide on how to build and push Docker images programmatically using Go."
-type: "async"
 ---
 
 Let's walk through how to build and push Docker images programmatically using Go. To do this, we need to talk to the Docker daemon via the [Docker Engine API](https://docs.docker.com/engine/api/). This is similar to how the Docker CLI works, but instead of entering commands through a CLI, we'll be writing code with Docker's Go SDK.

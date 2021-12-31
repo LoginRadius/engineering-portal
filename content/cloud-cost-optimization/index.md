@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Cloud Cost Optimization in 2021"
 date: "2020-07-09"
 coverImage: "cloud.png"
 author: "Vijay Singh Shekhawat"
 description: Optimization of cloud costs lowers spending by recognizing mismanaged capital, reserving higher discount space, and proper sizing.
 tags: ["Cloud", "Optmization"]
-type: "async"
 ---
 
 Cloud Cost Optimization is the method of reducing the total cloud spending by finding mismanaged capital and scale-up of Right Sizing computing services. CCO only charge for the services you use, the cloud gives companies infinite scalability and lower IT costs.

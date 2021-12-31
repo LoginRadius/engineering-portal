@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Index in MongoDB"
 date: "2015-09-01"
 coverImage: "mongo-db-index1.png"

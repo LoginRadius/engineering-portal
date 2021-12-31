@@ -1,16 +1,16 @@
 ---
+type: async
 title: "React state management: What is it and why to use it?"
 date: "2020-07-17"
 coverImage: "title-image.png"
 author: "Versha Gupta"
-tags: ["React","Redux","Hooks"]
+tags: ["React", "Redux", "Hooks"]
 description: "Learn about React state management and why we need state management and how to use it with React hooks and Redux in the best possible way."
 ---
 
 Biggest Challenge in React application is the management of state for frontend developers. In large applications, React alone is not sufficient to handle the complexity which is why some developers use React hooks and others use state management libraries such as Redux.
 
 In this post, We are going to take a closer look at both React hooks and Redux to manage the state.
-
 
 ## What is React State Management?
 
@@ -20,16 +20,15 @@ The state is just a fancy term for a JavaScript data structure. If a user change
 
 > **Make a state variable responsible for one concern to use efficiently**.
 
-
 ## Why do you need React state management?
 
 React applications are built using components and they manage their state internally and it works well for applications with few components, but when the application grows bigger, the complexity of managing states shared across components becomes difficult.
 
 Here is a simple example of an e-commerce application, in which the status of multiple components will change when purchasing a product.
-      
- - Add that product to the shopping list
- - Add product to customer history
- - trigger count of purchased products
+
+- Add that product to the shopping list
+- Add product to customer history
+- trigger count of purchased products
 
 If developers do not have scalability in mind then it is really hard to find out what is happening when something goes wrong. This is why you need state management in your application.
 
@@ -37,20 +36,22 @@ Let’s discuss how to use react state management using react hooks and redux
 
 ## What is Redux?
 
-Redux was created to resolve this particular issue. it provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.  Here is a simple view of how Redux works.
+Redux was created to resolve this particular issue. it provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another. Here is a simple view of how Redux works.
 
 ![using react state management with redux flowchart](image1.png)
 
 There are three building parts: actions, store, and reducers. Let’s briefly discuss what each of them does.
 
 #### Actions in Redux
-Actions are payloads of information that send data from your application to your store. Actions are sent using  [`store.dispatch()`](https://redux.js.org/api/store#dispatchaction). Actions are created via an action creator.
+
+Actions are payloads of information that send data from your application to your store. Actions are sent using [`store.dispatch()`](https://redux.js.org/api/store#dispatchaction). Actions are created via an action creator.
 Here is an example action that represents adding a new todo item:
 
-    { 
-    type: "ADD_TODO", 
+    {
+    type: "ADD_TODO",
     payload: {text:"Hello Foo"}
      }
+
 Here is an example of its action creator:
 
     ocnst addTodo = (text) => {
@@ -59,7 +60,9 @@ Here is an example of its action creator:
          text
       };
     }
+
 #### Reducers in Redux
+
 Reducers specify how the application's state changes in response to actions sent to the store.
 An example of how Reducer works in Redux is as follows:
 
@@ -74,7 +77,9 @@ An example of how Reducer works in Redux is as follows:
           return state;
       }
     };
+
 #### Store in Redux
+
 The store holds the application state. You can access stored state, update the state, and register or unregister listeners via helper methods.
 
 Let’s create a store for our TODO app:
@@ -85,21 +90,22 @@ In other words, Redux gives you code organization and debugging superpowers. Thi
 
 ## What is React Hook?
 
-These are functions that hook you into React state and features from function components. Hooks don't work inside classes  and it allows you to use React features without writing a class. 
+These are functions that hook you into React state and features from function components. Hooks don't work inside classes and it allows you to use React features without writing a class.
 
 Hooks are backwards-compatible, which means it doesn't keep any breaking changes. [React provides some built-in Hooks](/react-hooks-guide/) like `useState`, `UseEffect` and `useReducer` etc. You can also make custom hooks.
 
 ### React Hook Rules
--   Call hook at the top level only means that you need to call inside a loop, nested function, or conditions.
+
+- Call hook at the top level only means that you need to call inside a loop, nested function, or conditions.
 - React function components are called hooks only.
 
 Please see the following examples of some react hooks as follows:
 
-##### What is useState and how to  use it
+##### What is useState and how to use it
 
 `useState` is a Hook that Lets you add React state to function components.
 Example:
-Declaring a State Variable in class and initialize count state with 0 by setting this.state  to {count:0}.
+Declaring a State Variable in class and initialize count state with 0 by setting this.state to {count:0}.
 
     class Example extends React.Component {
       constructor(props) {
@@ -108,23 +114,23 @@ Declaring a State Variable in class and initialize count state with 0 by setting
           count: 0
         };
       }
-      
-In a function component, we have no this, so we can’t assign or read this.state. Instead, we call the `useState` Hook directly inside our component:
 
+
+In a function component, we have no this, so we can’t assign or read this.state. Instead, we call the `useState` Hook directly inside our component:
 
     function Example() {
         const [count, setCount] = useState(0);
     }
+
 We declare a state variable called count and set it to 0. React will remember its current value between re-renders, and provide the most recent one to our function. If we want to update the current count, we can call setCount.
 
 ##### what is useReducer and how to use it
+
 `useReducer` is a hook I use sometimes to manage the state of the application. It is very similar to the _useState_ hook, just more complex. _useReducer_ hook uses the same concept as the reducers in Redux. It is basically a pure function, with no side-effects.
 
 Example of useReducer:
 
 useReducer creates an independent component co-located state container within your component. Whereas Redux creates a global state container that hangs somewhere above your entire application.
-
-     
 
               +----------------+              +----------------+
               |  Component A   |              |                |
@@ -153,7 +159,7 @@ useReducer creates an independent component co-located state container within yo
 
 Below an example of todo items is completed or not using the useReducer react hook.
 
-See the following function which  is a reducer function for managing state transitions for a list of items:
+See the following function which is a reducer function for managing state transitions for a list of items:
 
      const todoReducer = (state, action) => {
           switch (action.type) {
@@ -177,6 +183,7 @@ See the following function which  is a reducer function for managing state trans
               return state;
           }
         };
+
 There are two types of actions which are equivalent to two states. they used to toggle the complete boolean field and additional payload to identify incoming action.
 
 The state which is managed in this reducer is an array of items:
@@ -193,6 +200,7 @@ The state which is managed in this reducer is an array of items:
             complete: false
           }
         ];
+
 In code, The useReducer hook is used for complex state and state transitions. It takes a reducer function and an initial state as input and returns the current state and a dispatch function as output
 
      const [todos, dispatch] = React.useReducer(
@@ -203,7 +211,7 @@ In code, The useReducer hook is used for complex state and state transitions. It
 Complete file:
 
     import React from "react";
-    
+
     const initialTodos = [
       {
         id: "t1",
@@ -240,7 +248,7 @@ Complete file:
     };
     const App = () => {
       const [todos, dispatch] = React.useReducer(todoReducer, initialTodos);
-    
+
       const handleChange = todo => {
         dispatch({
           type: todo.complete ? "REMOVE_TODO" : "ADD_TODO",
@@ -264,7 +272,7 @@ Complete file:
         </ul>
       );
     };
-    
+
     export default App;
 
 Let’s do a similar example with Redux.
@@ -277,7 +285,7 @@ Store in _App.js_.
     import rootReducer from "./reducers";
     import Todo from "./Components/TODO";
     const store = createStore(rootReducer);
-    
+
     function App() {
       return (
         <div className="App">
@@ -287,19 +295,21 @@ Store in _App.js_.
         </div>
       );
     }
-    
+
     export default App;
+
 Actions in _actions/index.js_.
 
     export const addTodo = id => ({
       type: "ADD_TODO",
       id
     });
-    
+
     export const removeTodo = id => ({
       type: "REMOVE_TODO",
       id
     });
+
 Reducers in _reducers/index.js_.
 
     const initialTodos = [
@@ -336,14 +346,15 @@ Reducers in _reducers/index.js_.
           return state;
       }
     };
-    
+
     export default todos;
+
 FIle components/Todo.js
 
     import React from "react";
     import { connect } from "react-redux";
     import { addTodo, removeTodo } from "../../redux/actions/authActions";
-    
+
     const Todo = ({ todos, addTodo, removeTodo }) => {
       const handleChange = todo => {
         if (todo.complete) {
@@ -352,7 +363,7 @@ FIle components/Todo.js
           addTodo(todo.id);
         }
       };
-    
+
       return (
         <ul>
           {todos.map(todo => (
@@ -370,7 +381,7 @@ FIle components/Todo.js
         </ul>
       );
     };
-    
+
     const mapStateToProps = state => ({ todos: state.auth.todos });
     const mapDispatchToProps = dispatch => {
       return {
@@ -378,12 +389,12 @@ FIle components/Todo.js
         removeTodo: id => dispatch(removeTodo(id))
       };
     };
-    
+
     export default connect(
       mapStateToProps,
       mapDispatchToProps
     )(Todo);
-    
-React offers react hooks which can be used as an alternative for `connect()`. You can use built-in hooks mainly useState, UseReducer and useContext and because of these you often may not require Redux. 
+
+React offers react hooks which can be used as an alternative for `connect()`. You can use built-in hooks mainly useState, UseReducer and useContext and because of these you often may not require Redux.
 
 But for large applications, you can use both redux and react hooks. it works great! React Hook is a useful new feature, and the addition of React-Redux with Redux-specific hooks is a great step towards simplifying Redux development.

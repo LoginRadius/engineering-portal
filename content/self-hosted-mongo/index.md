@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Self-Hosted MongoDB"
 date: "2020-06-30T12:00:00"
 coverImage: "cover.jpeg"

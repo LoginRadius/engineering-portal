@@ -1,14 +1,11 @@
 ---
-title: "16 JS"
-date: "2021-11-10"
-coverImage: "carta.jpg"
-tags: ["all", "security"]
-type: "swi"
-featured: false
-author: "Vishal Sharma"
-description: "CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner to help cybersecurity experts ensure a stringent mechanism to handle vulnerabilities."
-metatitle: "3 Best Phases Where Businesses Can Implement CARTA"
-metadescription: "IT security is an integral part of business in the digital landscape. Let’s understand how CARTA can help improve overall business security."
+type: async
+title: "Javascript tips and tricks to Optimize Performance"
+date: "2017-04-07"
+coverImage: "16-JavaScript-Hacks-to-save-time-and-boost-productivity-768x555.png"
+author: "Team LoginRadius"
+tags: ["Engineering", "JavaScript", "Hacks", "Array"]
+description: "Learn how to optimize performance using some useful javascript hacks, tips and tricks."
 ---
 
 JavaScript or JS helps implement complex things on web pages. Many of the developers know the importance of an minified Javascript file but few are aware of an Optimized Javascript code.

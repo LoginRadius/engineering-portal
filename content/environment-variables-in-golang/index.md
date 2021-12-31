@@ -1,4 +1,5 @@
 ---
+type: async
 title: Environment variables in Golang
 date: "2020-09-28"
 coverImage: "goenv.png"

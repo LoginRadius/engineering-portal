@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Customize User Login, Register and Forgot Password  Page in Drupal 7"
 date: "2015-08-11"
 coverImage: "drupal-custom-login-register-password-pages1.png"
 author: "Versha Gupta"
 tags: ["Drupal"]
-type: "async"
 ---
 
 Did you ever want to customize your registration or login page on Drupal 7, but did not know how? Customizing these pages by adding new text or changing theme is not a difficult task.

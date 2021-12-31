@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What is Kubernetes? - A Basic Guide"
 date: "2020-10-26"
 coverImage: "image3.png"

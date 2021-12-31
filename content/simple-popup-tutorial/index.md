@@ -1,4 +1,5 @@
 ---
+type: async
 title: "A Simple Popup Tutorial"
 date: "2015-01-05"
 coverImage: "simplepop.png"

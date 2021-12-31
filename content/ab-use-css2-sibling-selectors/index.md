@@ -1,10 +1,10 @@
 ---
+type: async
 title: "How to ab-USE CSS2 sibling selectors"
 date: "2015-08-18"
 coverImage: "sibling-selectors.png"
 author: "Team LoginRadius"
 tags: ["Engineering", "Selector", "CSS"]
-type: "async"
 ---
 
 Hey there, spider. It’s me again, your amazing blog writer, Darryl. Have you ever wanted to select the second or third child of an element without using CSS3 nth-child —which aren’t working on grandpa browsers. Let’s face it, a lot of human beings are afraid of change that they tend to stick to what they know.

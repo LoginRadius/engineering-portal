@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Concurrency vs Parallelism: What's the Difference?"
 date: "2021-02-19"
 coverImage: "unsplash.jpg"
 author: "Nick Chim"
 tags: ["Concurrency", "Parallelism", "Multithreading", "JavaScript"]
 description: "Concurrence and parallelism in relation to multithreaded applications are two concepts sometimes used. The distinction between concurrency and parallelism is clarified in this tutorial."
-type: "async"
 ---
 
 Whenever we talk about asynchronous programming in JavaScript, there is sometimes confusion in how it can be asynchronous if it is single-threaded. To answer this correctly, I think it's a good thing first to understand the difference between concurrency and parallelism, two terms that are commonly brought up with multithreading.

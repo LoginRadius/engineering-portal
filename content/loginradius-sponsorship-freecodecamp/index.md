@@ -1,4 +1,5 @@
 ---
+type: async
 title: "One Vision, Many Paths: How We’re Supporting freeCodeCamp"
 date: "2021-07-16"
 coverImage: "cover.png"

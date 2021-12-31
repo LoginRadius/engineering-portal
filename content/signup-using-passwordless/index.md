@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Optimize Your Sign Up Page By Going Passwordless"
 date: "2021-02-10"
 coverImage: "open-source.png"

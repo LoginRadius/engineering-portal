@@ -1,4 +1,5 @@
 ---
+type: async
 title: "JWT Authentication — Best Practices and When to Use"
 date: "2021-10-14"
 coverImage: "cover-image.png"

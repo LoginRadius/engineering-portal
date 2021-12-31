@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Is Your Database Secured? Think Again"
 date: "2016-02-23"
 coverImage: "database_secure-300x300.png"

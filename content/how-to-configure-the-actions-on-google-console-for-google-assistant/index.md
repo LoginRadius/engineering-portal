@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to configure the 'Actions on Google' console for Google Assistant"
 date: "2018-06-18"
 coverImage: "google-home-max-13.jpg"

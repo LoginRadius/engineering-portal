@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Why RPA is important for businesses"
 date: "2020-10-23"
 coverImage: "RPA.jpg"

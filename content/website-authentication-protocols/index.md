@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Website Authentication Protocols"
 date: "2015-12-01"
 coverImage: "server-proc-150x150.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "LoginRadius Supports Hacktoberfest 2020"
 date: "2020-09-18"
 coverImage: "hacktober-fest-banner.png"

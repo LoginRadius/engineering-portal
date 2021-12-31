@@ -1,4 +1,5 @@
 ---
+type: async
 title: HTML Email Concept
 date: "2020-10-09"
 coverImage: "email_picture.png"

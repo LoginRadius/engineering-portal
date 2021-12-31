@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Callback vs Promises vs Async Await"
 date: "2020-08-27"
 coverImage: "callback.jpg"
 author: "Ankit Singh"
 tags: ["Callbacks", "Promises", "Async/Await"]
 description: "Learn fundamental concepts that JavaScript relies on to handle asynchronous operations. These concept includes Callbacks, Promises and the use of Async and Await to handle deferred operations."
-type: "async"
 ---
 
 # Callback vs Promises vs Async Await

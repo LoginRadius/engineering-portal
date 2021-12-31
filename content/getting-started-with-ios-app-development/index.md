@@ -1,4 +1,5 @@
 ---
+type: async
 title: "iOS App Development: How To Make Your First App"
 date: "2020-10-19"
 coverImage: "CoverImage.jpg"

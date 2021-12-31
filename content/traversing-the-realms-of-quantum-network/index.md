@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Traversing the realms of Quantum Network"
 date: "2020-10-21"
 coverImage: "quantum_comp_FB.png"

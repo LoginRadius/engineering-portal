@@ -1,4 +1,5 @@
 ---
+type: async
 title: Implementing User Authentication in a Python Application
 date: "2021-07-07"
 coverImage: "coverImage.jpg"

@@ -1,11 +1,11 @@
 ---
+type: async
 title: "How to Build a PWA in Vanilla JS"
 date: "2020-06-26"
 coverImage: "cover.png"
 author: "Mohammed Modi"
 description: "A simple step-by-step tutorial, all done with pure JavaScript, to set up a simple PWA that can be accessed offline using a web app manifest and a service worker."
 tags: ["PWA", "JavaScript"]
-type: "async"
 ---
 
 Today we will learn about the progressive web app, a very interesting and trending topic in current times, We will start with the basic steps first on how Progressive Web App works with vanilla js. Also, we’ll cover the concept of PWAS without using any of the frameworks, it's just a plain `vanillaJS`.

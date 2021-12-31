@@ -1,4 +1,5 @@
 ---
+type: async
 title: "OAuth 1.0 VS OAuth 2.0"
 date: "2019-05-31"
 coverImage: "pexels-photo-373543.jpeg"

@@ -1,9 +1,18 @@
 ---
+type: async
 title: "Types of Authentication in Asp.Net"
 date: "2015-10-01"
 coverImage: "alternate-authentication-asp-dot-net1-150x150.png"
 author: "Team LoginRadius"
-tags: ["Engineering","Authentication","Asp.Net","Multipass","JWT", "JSON Web Token"]
+tags:
+  [
+    "Engineering",
+    "Authentication",
+    "Asp.Net",
+    "Multipass",
+    "JWT",
+    "JSON Web Token",
+  ]
 description: "Learn types of Authentication in Asp.Net and how it plays an important role in any system."
 ---
 
@@ -29,7 +38,7 @@ Forms authentication flow:
 2. If session cookies does not exists or not valid then it redirect to login form.
 3. User will enter username and password and if they are valid then he will get authenticated and authorized.
 
- **2\. Passport Authentication**
+**2\. Passport Authentication**
 
 Passport authentication is a centralized authentication service provided by Microsoft. The .NET Passport single sign-in service. When we use passport authentication then user authentication in your application is managed by Microsoft's passport service. Passport authentication uses encrypted cookies to manage the authentication.
 
@@ -53,7 +62,7 @@ Windows authentication have some advantages and disadvantages:
 1. You can't control windows authentication process.
 2. Windows authentication only works on Microsoft OS you can't use it on others OS.
 
- **4\. Custom authentication Provider**
+**4\. Custom authentication Provider**
 
 1. **Multipass**
 

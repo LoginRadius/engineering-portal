@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Migrate Data In MongoDB"
 date: "2020-12-14"
 coverImage: "index.png"

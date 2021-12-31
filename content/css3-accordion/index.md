@@ -1,11 +1,11 @@
 ---
+type: async
 title: "A Simple CSS3 Accordion Tutorial"
 date: "2020-10-27"
 coverImage: "cover-accordion.png"
 author: "Isaac Anohene"
 tags: ["CSS", "Accordion", "UI"]
 description: "Learn how to make a beautiful accordion with HTML and CSS only"
-type: "async"
 ---
 
 Hello everybody, in this article, we will learn how to make a beautiful accordion with HTML and CSS only! Yes! You heard that right, plain HTML, and CSS with no Javascript at all!

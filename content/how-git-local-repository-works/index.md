@@ -1,4 +1,5 @@
 ---
+type: async
 title: How Git Local Repository Works
 date: "2021-04-12"
 coverImage: "git.png"

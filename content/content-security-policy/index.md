@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Content Security Policy (CSP)"
 date: "2021-07-14"
 coverImage: "content-security-policy.jpg"
 author: "Vijay Singh Shekhawat"
 tags: ["Secuirty Header", "CSP", "Content Security Policy"]
-type: "async"
 ---
 
 What is a Content Security Policy (CSP), and why is it important?

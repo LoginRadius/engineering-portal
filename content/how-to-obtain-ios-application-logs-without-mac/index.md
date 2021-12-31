@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to obtain iOS application logs without Mac"
 date: "2020-07-22"
 coverImage: "Log.png"

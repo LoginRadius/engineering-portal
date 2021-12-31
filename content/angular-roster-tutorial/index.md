@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Angular Roster Tutorial"
 date: "2016-01-12"
 coverImage: "roster-angularjs-1.png"
 author: "Zakary Hughes"
 tags: ["Engineering", "AngularJS", "PlayersArray", "Array", "Search"]
-type: "async"
 ---
 
 If you're not familiar with Angular I'd highly recommend heading over to the [Angular JS](https://angularjs.org/) resource site and checking out what all the fuss is about. Once you've got a basic understanding of Angular and how to get it up and running this tutorial will show you some of the basic, but awesome features supported by Angular.

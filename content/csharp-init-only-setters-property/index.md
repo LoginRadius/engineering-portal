@@ -1,11 +1,11 @@
 ---
+type: async
 title: "C# Init-Only Setters Property"
 date: "2021-07-15"
 coverImage: "coverimage.png"
 author: "Hemant Manwani"
 tags: ["C#", "Properties", "Init"]
 description: "In this article, we will talk about Init-Only Setters Property in C#."
-type: "async"
 ---
 
 ## Introduction

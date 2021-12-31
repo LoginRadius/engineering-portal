@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Implement Facebook Social Login"
 date: "2015-02-24"
 coverImage: "fb-feat-img.png"

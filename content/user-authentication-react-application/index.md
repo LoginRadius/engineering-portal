@@ -1,4 +1,5 @@
 ---
+type: async
 title: "A Guide To React User Authentication with LoginRadius"
 date: "2020-12-10"
 coverImage: "authentication-main.png"

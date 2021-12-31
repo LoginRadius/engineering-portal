@@ -1,16 +1,17 @@
 ---
+type: async
 title: "How to Work with Nullable Types in C#"
 date: "2021-01-29"
 coverImage: "coverimage.jpg"
 author: "Hemant Manwani"
-tags: ["C#","Nullable"]
+tags: ["C#", "Nullable"]
 description: "Nullable is a term in C# that allows an extra value null to be owned by a form. We will learn in this article how to work with Nullable types in C#."
 ---
- 
-In C#, We have majorly two types of data types *Value* and *Reference* type. We can not assign a null value directly to the Value data type. In this case, C# 2.0 provides us the Nullable types to assign a value data type to null. 
+
+In C#, We have majorly two types of data types _Value_ and _Reference_ type. We can not assign a null value directly to the Value data type. In this case, C# 2.0 provides us the Nullable types to assign a value data type to null.
 
 ## What is Nullable types?
- 
+
 As described above, The Nullable types used to assign the null value to the value data type. That means we can assign a null value directly to a variable of the value data type. We can declare null value using `Nullable<T>` where `T` is a type like an int, float, bool, etc.
 
 Nullable types represent the Null value as well the actual range of that data type. Like the **int** data type can hold the value from `-2147483648` to `2147483647` but a **Nullable int** can hold the value `null` and range from `-2147483648` to `2147483647`
@@ -22,6 +23,7 @@ There are two ways to declare Nullable types.
 ```c#
 Nullable<int> example;
 ```
+
 OR
 
 ```c#
@@ -31,6 +33,7 @@ int? Example;
 ## Properties of Nullable types
 
 Nullable types have two properties.
+
 1. HasValue
 2. Value
 
@@ -112,8 +115,9 @@ int? a=null;
 int b=a?? 10;
 Console.WriteLine(b);  // Prints 10
 ```
+
 In the above example, if the variable a value is null,, it will assign the value 10 to b variable. In that case, b is assigned with value 10, and the printed value will be 10.
- 
+
 ## Conclusion
 
 In this article, We have discussed the Nullable types, and it's properties and methods. The main advantage of using the Nullable types is that we can store the Null value in a column of a database using this type. If you want to learn more about C# here is an article written by me on [How to Use Enum in C#](https://www.loginradius.com/blog/async/enum-csharp/)

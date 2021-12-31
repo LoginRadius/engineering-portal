@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Install Bootstrap with Bower"
 date: "2017-07-05"
 coverImage: "bower-logo.png"

@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Custom Encoders in the Mongo Go Driver"
 date: "2019-12-03"
 coverImage: "mongo-drivers.png"
 author: "Chris Yee"
 tags: ["Go", "Golang", "MongoDriver"]
-type: "async"
 ---
 
 The official supported drivers for Mongo for Go have been officially released for several months now and is slowly seeing more usage. Although many of the features of standard Mongo drivers have been implemented within the supported driver, the documentation for a majority of the features are still in the process of being created. This post will provide some information on how to set up custom JSON encoders so you can change how BSON operators are processed whenever Mongo documents are marshalled into JSON. For this blog, a custom date and object id encoder will be created to handle the BSON operators and transform them into more easily processed JSON.

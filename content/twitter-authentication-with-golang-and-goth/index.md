@@ -1,4 +1,5 @@
 ---
+type: async
 title: Twitter authentication with Go Language and Goth
 date: "2020-06-15"
 coverImage: "cover.jpg"

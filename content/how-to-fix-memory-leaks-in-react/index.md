@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Fix Memory Leaks in React"
 date: "2021-10-08"
 coverImage: "title-image.png"

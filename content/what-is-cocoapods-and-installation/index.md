@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Cocoapods : What It Is And How To Install?"
 date: "2017-09-06"
 coverImage: "cocoapods-orange-on-grey.jpg"

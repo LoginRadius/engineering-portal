@@ -1,4 +1,5 @@
 ---
+type: async
 title: "JavaScript Events: Bubbling, Capturing, and Propagation"
 date: "2019-07-22"
 coverImage: "bubbles.png"

@@ -34,7 +34,6 @@ const signUplogger = function () {
   })
 }
 const Post = ({ post, relatedPost }) => {
-  const { gitAuthorTime } = post.fields
   const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []

@@ -1,4 +1,5 @@
 ---
+type: async
 title: 35+ Git Commands List Every Programmer Should Know
 date: "2021-02-17"
 coverImage: "git.png"

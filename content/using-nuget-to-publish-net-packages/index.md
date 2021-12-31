@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Using NuGet to publish .NET packages"
 date: "2018-06-28"
 coverImage: "desdev.png"

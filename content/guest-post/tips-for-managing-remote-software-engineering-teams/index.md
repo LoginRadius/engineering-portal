@@ -1,4 +1,5 @@
 ---
+type: async
 title: "11 Tips for Managing Remote Software Engineering Teams"
 date: "2021-07-26"
 coverImage: "cover.jpg"

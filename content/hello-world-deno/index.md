@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Hello world with Deno"
 date: "2020-06-02"
 coverImage: "deno.png"

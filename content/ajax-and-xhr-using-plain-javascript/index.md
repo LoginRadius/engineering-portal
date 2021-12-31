@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Ajax and XHR using plain JS"
 date: "2020-09-22"
 coverImage: "index.png"
 author: "Apeksha Gupta"
 tags: ["XHR", "JavaScript", "AJAX"]
 description: "Learn the concept of AJAX and XHR in JavaScript, the benefits of AJAX, and how easy it is to implement the AJAX into our web application."
-type: "async"
 ---
 
 ## What are Ajax and XHR?

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Separate Drupal Login Page for Admin and User"
 date: "2015-10-29"
 coverImage: "drupal.png"

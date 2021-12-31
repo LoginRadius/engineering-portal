@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to implement Facebook Login"
 date: "2020-09-16"
 coverImage: "index.png"

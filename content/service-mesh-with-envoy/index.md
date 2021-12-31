@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Service Mesh with Envoy"
 date: "2020-07-06"
 coverImage: "front-image.jpeg"

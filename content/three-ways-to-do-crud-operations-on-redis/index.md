@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Three Ways to do CRUD Operations On Redis"
 date: "2020-10-21"
 coverImage: "index.png"

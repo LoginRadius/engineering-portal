@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Beginners Guide to Tweepy "
 date: "2020-11-02"
 coverImage: "coverimage.jpg"
 author: "Sameer Mahajan"
 tags: ["Twitter", "Tweepy", "Python"]
 description: "Learn how to use Twitter APIs using Tweepy, a python package,"
-type: "async"
 ---
 
 As we all know, Twitter is one of the most preferred microblogging websites when it comes to putting your thoughts on the internet. Big organizations use this platform for advertising their product; government institutions even use it to provide prompt customer resolution; various groups use Twitter to run social awareness campaigns and media campaigns. Twitter has close to 330 million monthly active users worldwide, out of which 17 million hits are generated from India itself along with more than 1 billion downloads on Play Store. With all this in mind, Twitter allows access to Twitter API to developers to create some cool applications like bots, automation tools, etc. This Twitter API gives developers access to almost all of Twitter's functionalities like likes, retweets, tweets, etc. Tweepy, a python package, helps us in achieving all this.

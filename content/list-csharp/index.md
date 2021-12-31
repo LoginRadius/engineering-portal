@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Create List in C#"
 date: "2021-02-25"
 coverImage: "coverimage.jpg"

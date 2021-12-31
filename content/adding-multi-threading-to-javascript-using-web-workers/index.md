@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Web Workers: How to add multi-threading in JS"
 date: "2020-09-09"
 coverImage: "cover.jpg"
 author: "Hridayesh Sharma"
 tags: ["JavaScript", "Web"]
 description: " Learn how web workers help with the success of the web app and get started by creating a simple web worker for JavaScript."
-type: "async"
 ---
 
 In JavaScript, web workers allow developers to benefit from parallel programming. Parallel programming enables various computations to be performed at the same time by applications. It is helpful to consider the importance of web staff as an example of how humans benefit from parallel tasks.

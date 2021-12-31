@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Part 2 - Creating a Custom Login Form"
 date: "2015-12-08"
 coverImage: "cust-login-2-150x150.png"
@@ -50,7 +51,6 @@ Remember me
 ![login-2-custom](./login-2-custom.png)
 
 Let's take a look at that custom form
-
 
 ## Handling the Login Form response
 

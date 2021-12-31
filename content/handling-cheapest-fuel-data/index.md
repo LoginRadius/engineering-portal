@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Handling the Cheapest Fuel- Data"
 date: "2020-10-06"
 author: "Samriddhi Mishra"

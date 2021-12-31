@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Learn How To Code Using The 10 Cool Websites"
 date: "2016-10-21"
 coverImage: "How-to-code-using-the-10-cool-websites-768x564-300x220.png"

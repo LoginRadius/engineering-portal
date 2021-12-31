@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Perform a Git Force Pull"
 date: "2020-12-03"
 coverImage: "pull.jpg"

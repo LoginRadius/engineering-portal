@@ -84,13 +84,6 @@ module.exports = {
         name: `content`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/engineering`,
-        name: `engineering`,
-      },
-    },
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {

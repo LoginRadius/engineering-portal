@@ -1,4 +1,5 @@
 ---
+type: async
 title: "React Hooks: A Beginners Guide"
 date: "2020-08-07"
 author: "Mohammed Modi"
@@ -25,7 +26,7 @@ Hooks are features that allow you to “hook into” the features of [React stat
 
 The key takeaway maybe this:
 
->If the React community embraces **hooks**, it will reduce the number of concepts you need to juggle when writing React applications. Hooks let you always use functions instead of having to constantly switch between functions, classes, higher-order components, and render props.
+> If the React community embraces **hooks**, it will reduce the number of concepts you need to juggle when writing React applications. Hooks let you always use functions instead of having to constantly switch between functions, classes, higher-order components, and render props.
 
 ## Benefits of React Hooks
 
@@ -45,44 +46,44 @@ Advantages of react hooks:
 
 As you all know there are two ways to create the React components, one is using the **function** and other is using the **class**, there is always a confusion between one v/s other.
 
-Let us assume we have a simple class component and then we will convert it to a functional with hooks and see the difference. 
+Let us assume we have a simple class component and then we will convert it to a functional with hooks and see the difference.
 
 #### Component without Hook: Class Component
 
 ```jsx
-import React, { Component } from "react";
+import React, { Component } from "react"
 class Greeting extends Component {
   state = {
     text: "",
-  };
-  handleChange = (e) => {
-    this.setState({ text: e.target.value });
-  };
+  }
+  handleChange = e => {
+    this.setState({ text: e.target.value })
+  }
   render() {
-    return <input value={this.state.text} onChange={this.handleChange} />;
+    return <input value={this.state.text} onChange={this.handleChange} />
   }
 }
-export default Greeting; 
+export default Greeting
 ```
 
-#### Components with Hook:Functional Component: 
+#### Components with Hook:Functional Component:
 
 ```jsx
-import React, { useState } from "react";
+import React, { useState } from "react"
 export default () => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState("")
   return (
     <input
       value={text}
-      onChange={(e) => {
-        setText(e.target.value);
+      onChange={e => {
+        setText(e.target.value)
       }}
     />
-  );
-};
+  )
+}
 ```
 
-> If you disagree with any of the above, you can play with it in practice. I’m sure that would change your mind! 
+> If you disagree with any of the above, you can play with it in practice. I’m sure that would change your mind!
 
 ## Basics Of React Hooks
 
@@ -96,22 +97,22 @@ I will take one example and will explain all the hooks in that example using a v
 ### useState()
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react"
 
 const App = () => {
-  const [message, setMessage] = useState('Hi there, how are you?');
+  const [message, setMessage] = useState("Hi there, how are you?")
 
   return <h1>{message}</h1>
-};
+}
 
-export default App;
+export default App
 ```
 
-In this example variable `message` will save the value **Hi there, how are you** using the `useState()` hooks. It will be similar to this code we write in the `constructor()` of **class component**. 
+In this example variable `message` will save the value **Hi there, how are you** using the `useState()` hooks. It will be similar to this code we write in the `constructor()` of **class component**.
 
 ```js
 this.state = {
-    message: "Hi there, how are you?"
+  message: "Hi there, how are you?",
 }
 ```
 
@@ -120,30 +121,31 @@ this.state = {
 ### useEffect()
 
 React `useEffect()` function can be executed in 3 different React component life cycles that are
- 1. componentDidMount
- 2. componentDidUpdate
- 3. componentWillUnmount
+
+1.  componentDidMount
+2.  componentDidUpdate
+3.  componentWillUnmount
 
 Let's understand the `useEffect()` hook by taking the above example. So let's say I want to change the message 1 second after the component is mounted.
 
 ```jsx
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"
 
 const App = () => {
-  const [message, setMessage] = useState("Hi there, how are you?");
+  const [message, setMessage] = useState("Hi there, how are you?")
 
   useEffect(() => {
-    console.log("trigger use effect hook");
+    console.log("trigger use effect hook")
 
     setTimeout(() => {
-      setMessage("I'm fine, thanks for asking.");
-    }, 1000);
-  });
+      setMessage("I'm fine, thanks for asking.")
+    }, 1000)
+  })
 
-  return <h1>{message}</h1>;
-};
+  return <h1>{message}</h1>
+}
 
-export default App;
+export default App
 ```
 
 As you can see, In this example we have used the `useEffect` hook to trigger the `setMessage` method the change the `message` variable after 1 second.
@@ -153,23 +155,23 @@ But there is one problem, while executing this component you can see that the `c
 To overcome this kind of case we need to pass the **Empty array ([])** as the second argument in the useEffect hooks. So updated code will look like this
 
 ```jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react"
 
 const App = () => {
-  const [message, setMessage] = useState('Hi there, how are you?');
+  const [message, setMessage] = useState("Hi there, how are you?")
 
   useEffect(() => {
-    console.log('trigger use effect hook');
+    console.log("trigger use effect hook")
 
     setTimeout(() => {
-      setMessage("I'm fine, thanks for asking.");
+      setMessage("I'm fine, thanks for asking.")
     }, 1000)
-  }, []);
+  }, [])
 
   return <h1>{message}</h1>
-};
+}
 
-export default App;
+export default App
 ```
 
 The above code means that hook will never be triggered as we have an empty array there, if we want to trigger the hook on a specific variable change of `props` or `state` we can add that variable in the array.
@@ -187,6 +189,6 @@ I have covered the two basic and important hooks in this tutorial, there are man
 
 ## Conclusion
 
-So, from multiple points of view, we have covered the power of Hooks and seen how we can use controlled state in our Components without utilizing classes. 
+So, from multiple points of view, we have covered the power of Hooks and seen how we can use controlled state in our Components without utilizing classes.
 
 I hope you find this article useful, Happy Reading !!!

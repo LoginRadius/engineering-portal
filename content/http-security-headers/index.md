@@ -1,4 +1,5 @@
 ---
+type: async
 title: "HTTP Security Headers"
 date: "2020-07-15"
 coverImage: "http-security-headers.jpg"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Build a Progressive Web App (PWA) with React"
 date: "2021-10-22"
 author: "Abdullah Pathan"

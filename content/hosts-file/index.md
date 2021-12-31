@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Benefits and usages of Hosts File"
 date: "2020-07-20"
 coverImage: "index.jpg"

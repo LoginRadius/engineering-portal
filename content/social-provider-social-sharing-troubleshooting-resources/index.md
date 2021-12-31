@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Social Provider Social Sharing Troubleshooting Resources"
 date: "2015-02-09"
 coverImage: "social.png"

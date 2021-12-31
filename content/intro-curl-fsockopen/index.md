@@ -1,4 +1,5 @@
 ---
+type: async
 title: "An Intro to Curl & Fsockopen"
 date: "2015-03-09"
 coverImage: "fsock-and-curl.png"

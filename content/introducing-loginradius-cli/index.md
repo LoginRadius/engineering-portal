@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Introducing LoginRadius CLI"
 date: "2021-07-02"
 coverImage: "cli.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Implement Role-Based User Authentication in React Apps"
 date: "2021-09-03"
 coverImage: "coverImage.png"

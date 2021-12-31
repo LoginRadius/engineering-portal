@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Hello developers and designers!"
 date: "2014-05-02"
 coverImage: "desdev.png"

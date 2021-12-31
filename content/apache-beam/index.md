@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Apache Beam: A Basic Guide"
 date: "2020-10-16"
 coverImage: "main.png"
 author: "Abhilash K R"
 tags: ["Engineering", "Big Data", "Streaming", "Apache Beam", "Java"]
 description: "Apache Beam simplifies large-scale data processing dynamics. Let’s read more about the features, basic concepts, and the fundamentals of Apache beam."
-type: "async"
 ---
 
 We'll talk about Apache Beam in this guide and discuss its fundamental concepts. We will begin by showing the features and advantages of using Apache Beam, and then we will cover basic concepts and terminologies.

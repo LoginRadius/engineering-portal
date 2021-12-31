@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Implementing Authentication on Vue.js using JWTtoken"
 date: "2021-06-02"
 coverImage: "coverimage.png"

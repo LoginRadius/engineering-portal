@@ -1,11 +1,11 @@
 ---
+type: async
 title: "End-to-End Testing with Jest and Puppeteer"
 date: "2020-10-15"
 coverImage: "jest-puppeteer.png"
 author: "Shreya Sharma"
 tags: ["Testing", "Jest", "Puppeteer"]
 description: "Learn how to integrate Jest and Puppeteer in your project for End-to-End Testing."
-type: "async"
 ---
 
 Writing a foolproof code is hard, especially with a team collaborating on a single project. Thus it becomes increasingly important to ensure that no new code breaks existing functionality. And for this purpose, automated tests are used.

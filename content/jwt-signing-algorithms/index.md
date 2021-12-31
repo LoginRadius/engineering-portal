@@ -1,4 +1,5 @@
 ---
+type: async
 title: "JWT Signing Algorithms"
 date: "2020-09-24"
 coverImage: "unsplash.png"

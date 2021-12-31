@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Understanding event loop in JavaScript"
 date: "2020-09-19"
 coverImage: "index.png"

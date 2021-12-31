@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Introduction to Github APIs"
 date: "2020-11-02"
 coverImage: "GitHub_coverImage.png"

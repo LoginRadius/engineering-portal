@@ -1,9 +1,10 @@
 ---
+type: async
 title: " Full data science pipeline implementation"
 date: "2020-10-09"
 coverImage: "ds.jpg"
 author: "Rinki Nag"
-tags: ["DataScience","Python","Web scraping","NLP","Machine learning"]
+tags: ["DataScience", "Python", "Web scraping", "NLP", "Machine learning"]
 description: "Learn how to implement the full data science pipeline right from collecting the data to implementing ML algorithms."
 ---
 
@@ -35,13 +36,13 @@ I have prepared the data for NLP classification (multilabel_prep.py)
 
 I have implemented multilabel NLP classifier using various techniques like chain classifier etc. (multilabel_nlp_classifier.ipynb)
 
-## What is web scraping? 
+## What is web scraping?
 
 Web scraping is the process of extracting and parsing raw data from the web. Web scraping is a technique which helps data scientist to make their data-rich and is an efficient technique of data collection.
 
 This world is full of data, but unfortunately, most of them are not in the form to be used. Data is like crude oil, or we say it is in unstructured form. For a data scientist or engineer, our first challenge is to make the data model consumption ready, which takes the majority of the time, and this whole process is collectively known as data preprocessing.
 
-HTML  is a form of primary markup language and the base framework of mostly all websites. For performing web scraping its necessary to know it
+HTML is a form of primary markup language and the base framework of mostly all websites. For performing web scraping its necessary to know it
 
 Here we will start with requesting the web page using python package requests.
 
@@ -67,6 +68,7 @@ Then I will store all the div with the class named lister-item mode-advanced in 
 ```python
 movie_containers = html_soup.find_all('div', class_ = 'lister-item mode-advanced')
 ```
+
 Then I iterate through this object and store the information in lists to make my final DataFrame, using simple for loops.
 
 ```python
@@ -141,19 +143,19 @@ Please refer my code to understand how I use simple for loops to iterate through
 Whats is linear regression??
 
 It is one of the most popular and used statistical techniques
-  • Used to understand the relationship between variables
-  
-  • Can also be used to predict a value of interest for new observations
-  
-  • The aim is to predict the value of a continuous numeric variable of interest (known as the response or dependent or target variable)
-  
-  • The values of one or more predictor (or independent) variables are used to make the prediction
-  
-  • One predictor = simple regression
-  
-  • More predictors = multiple regression
+• Used to understand the relationship between variables
 
-Here I just tried to use metascore of movies firstly to predict IMDB ratings and secondly I wanted to enhance it by using metascore and votes to predict IMDB rating. 
+• Can also be used to predict a value of interest for new observations
+
+• The aim is to predict the value of a continuous numeric variable of interest (known as the response or dependent or target variable)
+
+• The values of one or more predictor (or independent) variables are used to make the prediction
+
+• One predictor = simple regression
+
+• More predictors = multiple regression
+
+Here I just tried to use metascore of movies firstly to predict IMDB ratings and secondly I wanted to enhance it by using metascore and votes to predict IMDB rating.
 
 ```python
 ## ML model
@@ -206,8 +208,8 @@ I tried to scrape data from the IMDB site and then applied ML regression techniq
 
 Here we will first see how we prep our data for multilabel classification.
 
-
 Here we have all tags in one single column which is not usable while we do classification, so we have to make separate columns for all labels, and if the row doesn't belong to that category, it will be filled by 0 else 1.
+
 ```python
 import os
 os.chdir('Desktop/web_scraping/imdb scrapper_ml/')
@@ -242,6 +244,7 @@ for i in range(0,6116):
 
 de.to_csv('multilabel_nlp_classification.csv')
 ```
+
 Now, as our data is ready, we can start with NLP implementation.
 
 For multilabel classification, I used techniques like classifier chain, label powerset, etc.
@@ -253,9 +256,10 @@ I start with Exploratory data analysis and then data cleaning, which is the most
 Then we go on to make the data model ready as ML models don't understand text data we have to feed numbers in it. For that purpose, we use TfidfVectorizer.
 
 ### What is TfidfVectorizer?
+
 TfidfVectorizer - Transforms text to feature vectors that can be used as input to the estimator.
 
-Then simply diving the data in train and test split. 
+Then simply diving the data in train and test split.
 
 ```python
 x_train = vectorizer.transform(train_text)
@@ -264,11 +268,13 @@ y_train = train.drop(labels = ['id','movie decription'], axis=1)
 x_test = vectorizer.transform(test_text)
 y_test = test.drop(labels = ['id','movie decription'], axis=1)
 ```
+
 I tried first with applying logistic regression and one vs rest classifier.
+
 ### What is OneVsRestClassifier??
 
 OneVsRestClassifier strategy splits a multi-class classification into one binary classification problem per class.
-OneVsRestClassifier is when we want to do multi-class or multilabel classification, and its strategy consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes. 
+OneVsRestClassifier is when we want to do multi-class or multilabel classification, and its strategy consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes.
 
 ```python
 # Using pipeline for applying logistic regression and one vs rest classifier
@@ -278,18 +284,20 @@ LogReg_pipeline = Pipeline([
 
 for category in categories:
     printmd('**Processing {} comments...**'.format(category))
-    
+
     # Training logistic regression model on train data
     LogReg_pipeline.fit(x_train, train[category])
-    
+
     # calculating test accuracy
     prediction = LogReg_pipeline.predict(x_test)
     print('Test accuracy is {}'.format(accuracy_score(test[category], prediction)))
     print("\n")
 ```
+
 Next, I tried with BinaryRelevance
 
 ### What is BinaryRelevance?
+
 It is a simple technique which treats each label as a separate single class classification problem.
 
 ```python
@@ -311,7 +319,8 @@ predictions = classifier.predict(x_test)
 Next, I tried using ClassifierChain.
 
 ### What is ClassifierChain?
-It is almost similar to BinaryRelevance, here the first classifier is trained just on the input data, and then each next classifier is trained on the input space and all the previous classifiers in the chain.  
+
+It is almost similar to BinaryRelevance, here the first classifier is trained just on the input data, and then each next classifier is trained on the input space and all the previous classifiers in the chain.
 
 ```python
 from skmultilearn.problem_transform import ClassifierChain
@@ -331,6 +340,7 @@ predictions = classifier.predict(x_test)
 Next, I tried using Label Powerset.
 
 ### What is LabelPowerset?
+
 Here we transform the problem into a multi-class problem with one multi-class classifier is trained on all unique label combinations found in the training data.
 
 ```python
@@ -349,9 +359,9 @@ Please refer my notebook multilabel_nlp_classifier.ipynb from my repo for more d
 
 ## Improvement:
 
-1) More feature engineering and data to avoid this overfitting and make more efficient pipeline
+1. More feature engineering and data to avoid this overfitting and make more efficient pipeline
 
-2) If we collect more data, deep learning and state of the art algorithms like BERT can help us to leverage the efficiency of the model.
+2. If we collect more data, deep learning and state of the art algorithms like BERT can help us to leverage the efficiency of the model.
 
 ## Summary:
 
@@ -359,4 +369,3 @@ Please refer my notebook multilabel_nlp_classifier.ipynb from my repo for more d
 - We completed the modelling techniques on in numerical data
 - We prepared the label data to be model fed ready
 - We learnt how different ML techniques could be applied to text data and build a multilabel classifier.
-

@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Beginner's Guide for Sublime Text 3"
 date: "2015-09-15"
 coverImage: "Beginner-Guide-Sublime-Text.png"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and it's package control and shortcut commends"
-type: "async"
 ---
 
 Sublime is no doubt the highly preferred light weight editor for developers, it doesn't require major installation space and working with it is just plain fun. The goal of this blog is to help you set-up the basic extensions that are required while working with Sublime: Package Control, a professional, sharp looking theme pack, and a core feature of Sublime, "Goto Everywhere". I am using a Mac, but the concept also works well in Windows, check the corresponding shortcut online, and it should be an easy and smooth process.

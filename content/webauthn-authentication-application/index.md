@@ -1,4 +1,5 @@
 ---
+type: async
 title: "WebAuthn: A Guide To Authenticate Your Application"
 date: "2020-12-09"
 coverImage: "webauthn-logo.png"

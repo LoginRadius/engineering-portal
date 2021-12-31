@@ -1,4 +1,5 @@
 ---
+type: async
 title: "LinkedIn Login using Node JS and passport"
 date: "2020-06-10"
 coverImage: "linkedin_login_node.png"

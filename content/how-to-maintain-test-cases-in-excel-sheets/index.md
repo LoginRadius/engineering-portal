@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Maintain Test Cases in Excel Sheets"
 date: "2015-11-03"
 coverImage: "test_cases.png"

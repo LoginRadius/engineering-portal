@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Login Screen - Tips and Ideas for Testing"
 date: "2020-10-30"
 author: "Sudhey Sharma"

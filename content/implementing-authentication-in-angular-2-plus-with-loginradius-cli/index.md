@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Implement Authentication in Angular 2+ application using LoginRadius CLI in 5 mins"
 date: "2021-04-14"
 coverImage: "angulat_demo_auth.jpg"

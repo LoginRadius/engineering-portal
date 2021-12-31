@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Angular State Management With NGXS"
 date: "2020-09-08"
 coverImage: "title-image.png"
 author: "Akshaya Sharma"
 tags: ["Angular", "NGXS", "Redux"]
-type: "async"
 description: "NGXS is a state management pattern + library for Angular. It acts as a single source of truth for your application's state, providing simple rules for predictable state mutations."
 ---
 

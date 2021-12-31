@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Open Source Business Email Validator By Loginradius"
 date: "2017-04-25"
 coverImage: "Open-Source-Business-Validator-By-Loginradius.png"
@@ -21,12 +22,11 @@ In client side validation we use javascript(js) OR jQuery to validate entered th
 - First of all create a simple html page with name emailvalidate.html
 - Add jQuery script on head section
 
-   ```js
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-   ```
+  ```js
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  ```
 
-
-- Call json file content in a script variable like
+* Call json file content in a script variable like
 
 ```js
 <script>
@@ -67,8 +67,6 @@ function validateForm(id) {
 
 - **Create html form**
 
- 
-
 ```js
 <form name="myForm" action="emailsubmit.php" onsubmit="return validateForm('business_email');" method="post">
     <input type="text" placeholder="Full Name"/><br>
@@ -77,7 +75,7 @@ function validateForm(id) {
  </form>
 ```
 
-Note: if you have already have html form where you want to apply this avalidator, look up for the buysiness\_email and replace it accordingly.
+Note: if you have already have html form where you want to apply this avalidator, look up for the buysiness_email and replace it accordingly.
 
 - Save the file and try to execute this html page on a browser.
 

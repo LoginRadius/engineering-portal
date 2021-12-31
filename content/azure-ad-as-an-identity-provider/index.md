@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Azure AD as an Identity provider"
 date: "2019-05-30"
 coverImage: "TN0lxUr0.png"
 author: "Team LoginRadius"
 tags: ["Engineering", "Authentication", "AzureAD"]
-type: "async"
 ---
 
 This blog post goes over how you can connect your SAAS/web application with the Azure AD world. Let’s take a look at how Azure AD works as an identity provider to provide your users with the ability to log in. e.g if anyone using Office 365, able to log on with their standard account or a federated one.

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Getting Started with gRPC - Part 1 Concepts"
 date: "2019-10-30"
 coverImage: "grpc.png"

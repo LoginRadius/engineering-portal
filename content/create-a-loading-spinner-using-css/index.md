@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Loading spinner using CSS"
 date: "2015-05-05"
 coverImage: "css3-loading-spinner.png"
 author: "Team LoginRadius"
 tags: ["CSS", "Loader"]
 description: "Learn how to create a loading spinner using CSS"
-type: "async"
 ---
 
 Hey there, yogi bear. Tired of creating gifs? Seriously, that takes time and most of the time it has a huge file size and a crappy resolution. What if you can create a gif(ish) element out of CSS? Because you can.

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Best Practice Guide For Rest API Security | LoginRadius"
 date: "2020-08-20"
 coverImage: "index.jpg"
@@ -12,7 +13,6 @@ tags:
     "Rest API Developer Guide",
     "Security",
   ]
-type: "async"
 ---
 
 ### What is the Rest API?

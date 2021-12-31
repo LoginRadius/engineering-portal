@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to create and validate JSON Web Tokens in Deno
 date: "2020-07-10"
 coverImage: "deno_jwt.png"

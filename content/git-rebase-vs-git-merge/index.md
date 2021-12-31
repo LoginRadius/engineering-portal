@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Git merge vs. Git Rebase: What's the difference?"
 date: "2021-01-27"
 coverImage: "merge.png"

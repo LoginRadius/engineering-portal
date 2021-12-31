@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Unit Testing: What is it and why do you need it?"
 date: "2020-09-29"
 coverImage: "unit-testing.jpg"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Using PGP Encryption with Nodejs"
 date: "2020-11-10"
 coverImage: "cover.png"

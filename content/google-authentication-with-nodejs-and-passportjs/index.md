@@ -1,4 +1,5 @@
 ---
+type: async
 title: Google OAuth2 Authentication in NodeJS
 date: "2020-02-12"
 coverImage: "google_cover.jpg"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "SDK Version 10.0.0"
 date: "2019-10-31"
 coverImage: "SDK.png"

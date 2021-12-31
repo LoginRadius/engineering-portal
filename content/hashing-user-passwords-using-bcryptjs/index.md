@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Password Hashing in NodeJS using Bcrypt"
 date: "2020-11-11"
 coverImage: "index.jpg"

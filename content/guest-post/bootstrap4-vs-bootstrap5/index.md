@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Bootstrap 4 vs. Bootstrap 5: What is the Difference?"
 date: "2021-10-21"
 coverImage: "coverImage.png"

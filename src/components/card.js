@@ -13,7 +13,6 @@ const Card = ({ node }) => {
   const tags = node.frontmatter.tags || ""
   let coverImagePath = node.frontmatter.coverImage
   let descriptionText = node.frontmatter.description || node.excerpt
-  const { gitAuthorTime } = node.fields
   return (
     <React.Fragment>
       <div className={`${styles.user} mb-48`}>
@@ -65,6 +64,13 @@ const Card = ({ node }) => {
             />
           )}
         </div>
+        {node.frontmatter.author && (
+          <Bio
+            date={node.frontmatter.date}
+            author={node.frontmatter.author}
+            readingTime={getTimeToRead(node.html)}
+          />
+        )}
       </div>
     </React.Fragment>
   )

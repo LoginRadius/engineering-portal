@@ -1,11 +1,11 @@
 ---
+type: async
 title: "AWS Services-Walkthrough"
 date: "2020-11-03"
 coverImage: "aws.png"
 author: "Nitin Gupta"
 tags: ["AWS", "Serverless"]
 description: "Learn about various AWS services and how to set up in a step by step tutorial."
-type: "async"
 ---
 
 Amazon Web Services offers scalable, reliable, and inexpensive cloud computing services. Below are some salient features provided by AWS.

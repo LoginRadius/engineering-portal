@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Build A Twitter Bot Using NodeJS"
 date: "2020-10-14"
 coverImage: "cover.jpg"
 author: "Vineeta Jain"
 description: "Learn how to create a twitter bot using NodeJS that let us tweet using the command line directly"
 tags: ["NodeJs", "Twitter", "Bot"]
-type: "async"
 ---
 
 ## Build a Twitter Bot with NodeJs

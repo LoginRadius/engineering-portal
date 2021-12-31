@@ -1,4 +1,5 @@
 ---
+type: async
 title: Speed Up Python Code
 date: "2020-10-15"
 coverImage: "speed-up-python-code-1.jpg"

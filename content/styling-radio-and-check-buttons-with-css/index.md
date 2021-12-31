@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Styling Radio and Check buttons with CSS"
 date: "2015-06-16"
 coverImage: "radio-check-buttons-css-1.png"

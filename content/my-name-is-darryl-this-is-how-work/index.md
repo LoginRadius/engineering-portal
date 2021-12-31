@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Hi, My Name is Darryl, and This is How I Work"
 date: "2015-09-22"
 coverImage: "darryl-how-i-work-300x300.png"

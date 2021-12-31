@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Use PHP to generate filter portfolio"
 date: "2015-05-19"
 coverImage: "php-filter-portfolio.png"

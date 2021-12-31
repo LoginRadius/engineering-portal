@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Let's Write a JavaScript Library in ES6 using Webpack and Babel"
 date: "2020-08-18"
 coverImage: "cover.png"

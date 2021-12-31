@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How Enum.TryParse() works in C#"
 date: "2021-04-28"
 coverImage: "coverimage.png"

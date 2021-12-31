@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Using Facebook Graph API After Login"
 date: "2015-09-29"
 coverImage: "fb-feat-img-150x150.png"

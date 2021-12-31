@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Extended LinkedIn API Usage"
 date: "2016-02-09"
 coverImage: "linkedin-feat-img.png"

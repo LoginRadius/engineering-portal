@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Add Authentication to Play Framework With OIDC and LoginRadius"
 date: "2021-06-25"
 author: "Vishnu Chilamakuru"

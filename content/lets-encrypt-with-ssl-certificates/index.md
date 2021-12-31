@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Let's Encrypt with SSL Certificates"
 date: "2019-01-14"
 coverImage: "ssl.png"

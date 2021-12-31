@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Configuring Your Social Sharing Buttons"
 date: "2015-06-09"
 coverImage: "configuring-social-share-buttons-300x300.png"
 author: "Karl Wittig"
 tags: ["SocialSharing"]
-type: "async"
 ---
 
 Social sharing button offers an easy way to distribute your content to a wider audience. The major social providers allow options to configure the content that will be shared programmatically. In this guide we explore the options that you can use in order to configure the shared content of your social shares including: Message, URL, Image, and Image Caption/Description.

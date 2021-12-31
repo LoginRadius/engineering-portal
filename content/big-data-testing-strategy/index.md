@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Big Data - Testing Strategy"
 date: "2020-09-02"
 coverImage: "big-data.png"
 author: "Sudhey Sharma"
 tags: ["Testing", "Big Data", "Big Data Testing"]
 description: "With the exponential growth in the number of big data applications in the world, Testing in big data applications is related to database, infrastructure and performance testing and functional testing. This blog guides what should be the strategy for testing Big Data applications."
-type: "async"
 ---
 
 ## Big Data - Introduction

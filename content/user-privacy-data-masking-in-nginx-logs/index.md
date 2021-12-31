@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Data Masking In Nginx Logs For User Data Privacy And Compliance"
 date: "2021-05-18"
 coverImage: "data-masking-in-nginx-logs-for-user-data-privacy-and-compliance.jpg"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Know The Types of Website Popups and How to Create Them"
 date: "2017-04-20"
 coverImage: "The-Ultimate-guide-to-website-pop-ups.png"

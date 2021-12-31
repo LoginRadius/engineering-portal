@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What is JSON Web Token"
 date: "2018-07-11"
 coverImage: "jwt.png"

@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Blockchain: The new technology of trust"
 date: "2020-10-08"
 coverImage: "CoverPage.jpg"
 author: "Shraddha V Prasad"
 tags: ["Blockchain", "Cyber Security"]
 description: "Learn about Blockchain technology and how it works."
-type: "async"
 ---
 
 These days we have all come across one of the coolest buzzwords in the IT industry: **"The Blockchain"**. It might seem to be a new magic word in the market that companies spell interest in their businesses. However, the complexity of it is incredibly far-reaching. Blockchain integrates the openness and flexibility of the internet with the security of cryptography to come out with a safer, faster way of verification of information and most importantly establishes trust in this open world.

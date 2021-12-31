@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Image Colorizer Tool - Kolorizer"
 date: "2021-02-09"
 coverImage: "cover.png"

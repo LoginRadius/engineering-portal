@@ -1,11 +1,11 @@
 ---
+type: async
 title: STL Containers & Data Structures in C++
 date: "2020-10-13"
 coverImage: "cover.jpg"
 author: "Aryan Rawlani"
 description: "Learn how Standard Template Library works in C++ with interactive examples and what you need to get started"
 tags: ["C++", "STL"]
-type: "async"
 ---
 
 ## What is STL?

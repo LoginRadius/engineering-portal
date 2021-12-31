@@ -1,4 +1,5 @@
 ---
+type: async
 title: "GUID Query Through Mongo Shell"
 date: "2015-02-23"
 coverImage: "mongo-db-guid.png"

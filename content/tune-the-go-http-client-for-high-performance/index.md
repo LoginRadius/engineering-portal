@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to Use the HTTP Client in GO To Enhance Performance
 date: "2021-01-12"
 coverImage: "index.jpg"

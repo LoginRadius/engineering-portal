@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Deploy a REST API in Kubernetes"
 date: "2021-02-03"
 coverImage: "cover.png"
@@ -22,6 +23,7 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 ```
 
 Set up a cluster named test:
+
 - The port flag is for mapping port 80 from our machine to port 80 on the k3s load balancer. This is needed later when we use ingress.
 
 ```
@@ -117,6 +119,7 @@ node_modules
 ```
 
 Then, build the image and push it to the Docker Hub registry:
+
 - If you want to skip this step, you can use the existing image [here](https://hub.docker.com/r/andyy5/my-backend-api).
 
 ```
@@ -202,6 +205,7 @@ kubectl get pods -A
 ```
 
 Once the pod is running, the API is accessible within the cluster only. One quick way to verify the deployment from our localhost is by doing port forwarding:
+
 - Replace the pod name below with the one in your cluster
 
 ```
@@ -215,6 +219,7 @@ curl http://localhost:3000/user/123
 ```
 
 To correctly manage external access to the services in a cluster, we need to use ingress. Close the port-forwarding and let's expose our API by creating an ingress resource.
+
 - An ingress controller is also required, but k3d by default deploys the cluster with a Traefik ingress controller (listening on port 80).
 - Recall that when we created our cluster, we set a port flag with the value "80:80@loadbalancer". If you missed this part, go back and create your cluster again.
 

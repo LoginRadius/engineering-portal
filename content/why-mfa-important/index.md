@@ -1,4 +1,5 @@
 ---
+type: async
 title: "The Importance of Multi-Factor Authentication (MFA)"
 date: "2021-02-11"
 coverImage: "multifactor-authentication.jpg"

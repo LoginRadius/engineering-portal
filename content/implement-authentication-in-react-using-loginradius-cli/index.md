@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Implement Authentication in React Applications using LoginRadius CLI "
 date: "2021-05-12"
 coverImage: "cover.jpg"

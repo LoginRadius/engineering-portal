@@ -1,4 +1,5 @@
 ---
+type: async
 title: "React renderers, react everywhere?"
 date: "2021-06-23"
 coverImage: "react.png"
@@ -7,14 +8,11 @@ description: "There is an advanced feature of React is that it can write rendere
 tags: ["JavaScript", "React", "Renderer"]
 ---
 
-
 There is an advanced feature of React that it can write renderers for multiple different env. Let discuss a few of them.
-
 
 ## [React-Figma](https://github.com/react-figma/react-figma "React-Figma")
 
 This is a Renderer for Figma. It can use React components as a design source.
-
 
 Sample code with react-figma:
 
@@ -33,12 +31,11 @@ export const App = () => {
 };
 ```
 
-Nowadays, Figma is the most popular design tool,  similar renderers available as well: `react-sketchapp` for Sketch, `react-x`d for Adobe XD.
+Nowadays, Figma is the most popular design tool, similar renderers available as well: `react-sketchapp` for Sketch, `react-x`d for Adobe XD.
 
 ## [React Hardware](https://github.com/iamdustan/react-hardware "React Hardware")
 
-A device like Arduino can be operated by React components. 
-
+A device like Arduino can be operated by React components.
 
 Let's checkout demo code :
 
@@ -65,7 +62,6 @@ ReactHardware.render(<App />, PORT);
 
 Another React solution for CLIs. It allows you to run, build and test your CLI output through components:
 
-
 The code of the demo:
 
 ```JS
@@ -79,7 +75,7 @@ const Raiser = () => {
   }, []);
 
   return <Color>
-    Increased by {i} 
+    Increased by {i}
 	</Color>;
 }
 ```
@@ -87,10 +83,9 @@ const Raiser = () => {
 Ink is a popular one that is used by libraries such a Gatsby, Parcel, Yarn 2, etc.
 `react-blessed` is one of the similar libraries.
 
+## [react-three-fiber](https://github.com/pmndrs/react-three-fiber "react-three-fiber")
 
-##  [react-three-fiber](https://github.com/pmndrs/react-three-fiber "react-three-fiber")
-
-This is a great  React renderer for threejs on the react-native and web.
+This is a great React renderer for threejs on the react-native and web.
 
 Let's see a sample code:
 
@@ -150,8 +145,9 @@ render(<MyComponent />)
 
 It provides you kind of high-level abstraction to Node.
 
-##  [react-docx](https://github.com/Jeday/react-docx "react-docx")
-Another reconciler for DOCX.js. 
+## [react-docx](https://github.com/Jeday/react-docx "react-docx")
+
+Another reconciler for DOCX.js.
 
 Let's understand with a sample code:
 
@@ -181,8 +177,7 @@ renderAsyncDocument(
   </section>
 ).then((doc) => console.log(doc));
 ```
-Also, you can checkout  `react-pdf` and `redocx` for a similar purpose.
+
+Also, you can checkout `react-pdf` and `redocx` for a similar purpose.
 
 Can visit this [Github Repo](https://github.com/chentsulin/awesome-react-renderer "Github Repo") for a curated list of react renderers.
-
- 

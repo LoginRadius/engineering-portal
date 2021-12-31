@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Golang Maps - A Beginner’s Guide"
 date: "2020-09-25"
 coverImage: "index.png"

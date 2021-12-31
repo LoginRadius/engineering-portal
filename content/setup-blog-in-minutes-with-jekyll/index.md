@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Setup a blog in minutes with Jekyll & Github"
 date: "2020-10-26"
 coverImage: "jekyll-github-pages.png"

@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Create REST API using deno "
 date: "2020-06-08"
 coverImage: task.png
 author: Aman Agrawal
 tags: ["Deno", "REST", "API"]
-type: "async"
 ---
 
 Deno, the creation of Ryan Dahl is a simple, modern, and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust. As Deno 1.0.0 has released, there is much-awaited curiosity amongst developers around working with this new stack.

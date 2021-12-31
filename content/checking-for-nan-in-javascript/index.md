@@ -1,11 +1,11 @@
 ---
+type: async
 title: "NaN in JavaScript: An Essential Guide"
 date: "2019-11-22"
 coverImage: "numbers-1.jpg"
 author: "Greg Sakai"
 tags: ["JavaScript"]
 description: "In this guide you'll learn about JavasScript NaN, how to verify whether a value is NaN, and how to manage NaN effectively."
-type: "async"
 ---
 
 You'll learn about JavasScript NaN in this tutorial, how to check whether a value is NaN, and how to effectively handle NaN.

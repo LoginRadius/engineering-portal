@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Node Package Manager (NPM)"
 date: "2017-08-04"
 coverImage: "the-guide-to-NPM.png"
@@ -48,22 +49,22 @@ This will update all your outdated packages to the latest.
 
 Detail: Emulates a web-server for client-side testing
 
-* * *
+---
 
 - Restify: [https://www.npmjs.com/package/restify](https://www.npmjs.com/package/restify)
 
 Detail: Assists in setting up a REST APIs to test on your local server
 
-* * *
+---
 
 - Mocha: [https://www.npmjs.com/package/mocha](https://www.npmjs.com/package/mocha)
 
 Detail: Unit testing for web-development. Very useful in testing “code coverage” (It tells you where your code is not being tested in a nice HTML file)
 
-* * *
+---
 
 - LoginRadius-SDK: [https://www.npmjs.com/package/loginradius-sdk](https://www.npmjs.com/package/loginradius-sdk)
 
 Detail: For existing customers, simplifies calls to our server for easy customizability
 
-* * *
+---

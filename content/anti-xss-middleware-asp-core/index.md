@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Implement AntiXssMiddleware in .NET Core Web"
 date: "2020-08-26"
 coverImage: "antixss.png"
 author: "Hemant Manwani"
 tags: ["C#", "ASP.NET"]
-type: "async"
 ---
 
 In this blog, we learn how to implement the **AntiXssMiddleware** in .NET Core. First, we will understand about the cross-site scripting.

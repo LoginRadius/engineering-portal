@@ -1,4 +1,5 @@
 ---
+type: async
 title: Different ways to send an email with Golang
 date: "2020-08-03"
 coverImage: "email_cover.jpg"

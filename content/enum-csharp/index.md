@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Use Enum in C#"
 date: "2020-12-18"
 coverImage: "coverimage.jpg"

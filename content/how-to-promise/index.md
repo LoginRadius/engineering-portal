@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Promise"
 date: "2016-01-05"
 coverImage: "promise-300x300.png"

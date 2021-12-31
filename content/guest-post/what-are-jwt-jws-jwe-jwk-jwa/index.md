@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What are JWT, JWS, JWE, JWK, and JWA?"
 date: "2021-11-24"
 coverImage: "coverImage.png"

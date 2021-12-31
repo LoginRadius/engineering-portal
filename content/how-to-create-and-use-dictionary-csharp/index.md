@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to create and use the Dictionary in C#"
 date: "2021-05-27"
 coverImage: "coverimage.png"

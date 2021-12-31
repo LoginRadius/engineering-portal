@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Memcached Memory Management"
 date: "2015-07-07"
 coverImage: "memcached-memory-management.png"

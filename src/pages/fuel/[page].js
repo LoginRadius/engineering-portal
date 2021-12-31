@@ -24,7 +24,6 @@ export const FuelBlogQuery = graphql`
           excerpt
           fields {
             slug
-            gitAuthorTime(formatString: "MMMM DD, YYYY")
           }
           html
           frontmatter {

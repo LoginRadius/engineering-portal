@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What is a DDoS Attack and How to Mitigate it"
 date: "2021-02-24"
 coverImage: "What-is-a-DDoS-attack.png"

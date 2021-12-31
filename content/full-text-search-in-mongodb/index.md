@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to do Full-Text Search in MongoDB
 date: "2021-02-16"
 coverImage: "coverImage.png"

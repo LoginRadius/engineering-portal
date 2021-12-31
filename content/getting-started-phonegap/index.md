@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Getting Started with Phonegap"
 date: "2015-03-31"
 coverImage: "dev-sprites2.png"

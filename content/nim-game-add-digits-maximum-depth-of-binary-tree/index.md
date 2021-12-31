@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Nim Game, Add Digits, Maximum Depth of Binary Tree"
 date: "2015-11-24"
 coverImage: "nim-blog-150x150.png"

@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Let’s Take A MEME Break!!!"
 date: "2020-09-04"
 coverImage: "cover.png"

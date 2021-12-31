@@ -1,4 +1,5 @@
 ---
+type: async
 title: "RDBMS vs NoSQL"
 date: "2015-04-28"
 coverImage: "rdbms-vs-nosql.png"

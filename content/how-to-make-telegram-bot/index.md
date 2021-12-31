@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to make a telegram bot
 date: "2020-10-20"
 coverImage: "bot.png"

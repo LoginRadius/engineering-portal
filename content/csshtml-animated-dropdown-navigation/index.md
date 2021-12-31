@@ -1,10 +1,10 @@
 ---
+type: async
 title: "CSS/HTML Animated Dropdown Navigation"
 date: "2015-12-15"
 coverImage: "drop-anim-300x300.png"
 author: "Zakary Hughes"
 tags: ["HTML", "CSS", "UI", "CSS Animation"]
-type: "async"
 ---
 
 What's one thing virtually every website has? If you said navigation (you did) you're absolutely right! Go ahead and enjoy that wonderful feeling of being right for a moment... and now that we're feeling like a champ, let's get to it.

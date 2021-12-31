@@ -1,11 +1,11 @@
 ---
+type: async
 title: "Top 9 Challenges Faced by Every QA"
 date: "2021-03-05"
 coverImage: "testing-challenges.png"
 author: "Neha Vyas"
 description: "Software testing is a difficult task in and of itself. Top 9 QA challenges that any tester in the software testing industry would face are discussed in clear terms here."
 tags: ["QA", "Processes", "Testing"]
-type: "async"
 ---
 
 In the whole software development process, QA testing has a unique space. QA is responsible for ensuring that developed software is bug-free and works concerning technical and business requirements.

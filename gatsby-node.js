@@ -113,15 +113,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
-    const gitAuthorTime = execSync(
-      `git log -1 --pretty=format:%cI content${node.fields.slug}`
-    ).toString()
-
-    createNodeField({
-      node,
-      name: `gitAuthorTime`,
-      value: gitAuthorTime,
-    })
 
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "author")) {
       createNodeField({

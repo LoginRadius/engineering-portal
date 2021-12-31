@@ -1,4 +1,5 @@
 ---
+type: async
 title: How to use Git Cherry Pick
 date: "2020-11-17"
 coverImage: "cherrypck.jpg"

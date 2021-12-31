@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to write test cases for registration and login page"
 date: "2020-08-19"
 author: "Gaurav Bewal"

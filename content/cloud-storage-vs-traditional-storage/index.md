@@ -1,10 +1,10 @@
 ---
+type: async
 title: "Cloud storage vs Traditional storage"
 date: "2015-04-21"
 coverImage: "cloud-vs-traditional-storage-1.png"
 author: "Govind Malviya"
 tags: ["Cloud", "Storage"]
-type: "async"
 ---
 
 With Information Technology becoming more and more Cloud based nowadays (due to industry demanding reliability and scalability in their infrastructure), the Cloud storage system has become a very feasible solution. Various organizations are migrating their data to cloud storage, due to a few simple reasons. They want data to be easily accessible, cost effective and reliable.

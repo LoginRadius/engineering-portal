@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Introduction to Redux Saga"
 date: "2020-11-23"
 coverImage: "unsplash.png"

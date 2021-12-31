@@ -1,4 +1,5 @@
 ---
+type: async
 title: "HTML5 Limitation in Internet Explorer"
 date: "2015-06-30"
 coverImage: "radio-check-buttons-css.png"

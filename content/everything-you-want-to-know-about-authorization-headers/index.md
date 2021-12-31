@@ -1,4 +1,5 @@
 ---
+type: async
 title: "Authorization header"
 date: "2020-06-19"
 coverImage: "http_authorization.png"

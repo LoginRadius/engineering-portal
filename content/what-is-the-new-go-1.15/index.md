@@ -1,4 +1,5 @@
 ---
+type: async
 title: "What's new in the go 1.15"
 date: "2020-09-07"
 coverImage: "index.png"

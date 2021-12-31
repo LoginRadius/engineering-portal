@@ -1,4 +1,5 @@
 ---
+type: async
 title: Code spliting in React via lazy and suspense
 date: "2021-05-13"
 coverImage: "react.png"
@@ -10,7 +11,6 @@ tags: ["React"]
 Everyone wants their application so fast, but how to achieve that, in that case, **code splitting** comes into the picture, where we split code and set the priority loading of the code snippet.
 
 But how do we set the priority or load them whenever required?
-
 
 ## 1. React.lazy()
 
@@ -25,7 +25,8 @@ Using this we can set code priority to the lower or it will load only whenever r
 // This component is loaded dynamically or lazy load
 const BlogComponent = React.lazy(() => import('./BlogComponent'));
 ```
-## 2. React.Suspense() 
+
+## 2. React.Suspense()
 
 Once the component is set for a lazy load then we need to set some kind of fallback option as well, till that code is rendered. This fallback option either could be a loader icon, screen, image, etc.
 

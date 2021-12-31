@@ -1,4 +1,5 @@
 ---
+type: async
 title: "How to Install and Configure Istio"
 date: "2021-01-22"
 coverImage: "Istio.png"

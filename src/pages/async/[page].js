@@ -24,7 +24,6 @@ export const AsyncBlogQuery = graphql`
           excerpt
           fields {
             slug
-            gitAuthorTime(formatString: "MMMM DD, YYYY")
           }
           html
           frontmatter {
