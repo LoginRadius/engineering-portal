@@ -9,7 +9,7 @@ import Helmet from "react-helmet"
 import SEO from "./seo"
 import PinnedCard from "./pinnedCard"
 
-const Layout = ({ hideTagMenu, postPage, children, pinned, pinnedData }) => {
+const Layout = ({ postPage, children, pinned, pinnedData }) => {
   return (
     <div className={layoutStyles.container}>
       <Helmet>
@@ -58,7 +58,6 @@ const Layout = ({ hideTagMenu, postPage, children, pinned, pinnedData }) => {
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>{children}</div>
               </div>
-              {/* <FreeTrial /> */}
               <Footer
                 menuLinks={data.site.siteMetadata.footerLinks}
                 socialLinks={data.site.siteMetadata.socialLinks}

@@ -122,10 +122,16 @@ const Header = ({ menuLinks, searchIndex }) => {
     }
   }
 
+  let pathname = "async"
+  if (typeof window !== `undefined`) {
+    pathname = window.location.pathname.substr(1)
+  }
+
+  const [active, setActive] = useState(pathname)
+
   return (
     <>
       <ToastContainer style={{ fontSize: "15px" }} />
-
       <div
         className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
           headerStyles.header
@@ -138,14 +144,28 @@ const Header = ({ menuLinks, searchIndex }) => {
       </div>
       <div className={headerStyles.navigation}>
         <ul>
-          <li className={headerStyles.active}>
-            <Link to={"/async"}>Engineering</Link>
+          <li className={active === "async" ? headerStyles.active : ""}>
+            <Link to={"/async"} onClick={() => setActive("async")}>
+              Engineering
+            </Link>
           </li>
-          <li>
-            <Link to={"/swi"}>Identity</Link>
+          <li
+            className={
+              active === "start-with-identity" ? headerStyles.active : ""
+            }
+          >
+            <Link
+              to={"/start-with-identity"}
+              onClick={() => setActive("start-with-identity")}
+            >
+              Identity
+            </Link>
           </li>
-          <li>
-            <Link to={"/fuel"}> Growth</Link>
+          <li className={active === "fuel" ? headerStyles.active : ""}>
+            <Link to={"/fuel"} onClick={() => setActive("fuel")}>
+              {" "}
+              Growth
+            </Link>
           </li>
           <hr />
         </ul>
@@ -156,25 +176,6 @@ const Header = ({ menuLinks, searchIndex }) => {
           toggleMenu(false)
         }}
       />
-      <div>
-        <ul className={"d-flex"}>
-          <li>
-            {" "}
-            <Link to={"/async"} className={"active"}>
-              {" "}
-              Engineering
-            </Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to={"/swi"}>Identity</Link>{" "}
-          </li>
-          <li>
-            {" "}
-            <Link to={"/fuel"}> Growth</Link>{" "}
-          </li>
-        </ul>
-      </div>
     </>
   )
 }

@@ -830,9 +830,17 @@
         }
       }
       &:nth-child(2) {
-        color: red;
-        & + hr {
-          left: 33.33%;
+        &.active {
+          & ~ hr {
+            left: 33.33%;
+          }
+        }
+      }
+      &:nth-child(3) {
+        &.active {
+          & ~ hr {
+            left: 66.33%;
+          }
         }
       }
     }

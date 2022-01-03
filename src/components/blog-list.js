@@ -11,7 +11,7 @@ const BlogList = props => {
   const posts = data.allMarkdownRemark.edges
   const pinnedNode = posts.filter(edges => edges.node.frontmatter.pinned)
   const pinnedData =
-    pinnedNode.length != 0
+    pinnedNode && pinnedNode.length != 0
       ? pinnedNode[0].node
       : data.allMarkdownRemark.edges[0].node
   return (

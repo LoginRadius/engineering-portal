@@ -52,25 +52,12 @@ const Card = ({ node }) => {
           </div>
           {node.frontmatter.author && (
             <Bio
-              date={
-                node.frontmatter.date === gitAuthorTime ||
-                gitAuthorTime === "Invalid date" ||
-                gitAuthorTime === undefined
-                  ? node.frontmatter.date
-                  : gitAuthorTime
-              }
+              date={node.frontmatter.date}
               author={node.frontmatter.author}
               readingTime={getTimeToRead(node.html)}
             />
           )}
         </div>
-        {node.frontmatter.author && (
-          <Bio
-            date={node.frontmatter.date}
-            author={node.frontmatter.author}
-            readingTime={getTimeToRead(node.html)}
-          />
-        )}
       </div>
     </React.Fragment>
   )
