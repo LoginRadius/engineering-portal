@@ -166,7 +166,25 @@ ul {
     color: $white;
   }
 }
-
+.btn-secondary {
+  padding: 0 $gutter;
+  height: 52px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 0;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
+    box-shadow 0.35s, opacity 0.35s;
+  color: $gray-medium;
+  margin-left: $gutter;
+  &:hover {
+    background-color: $gray-lightest;
+  }
+}
 .btn-cta {
   max-width: 300px;
   margin-top: 32px;

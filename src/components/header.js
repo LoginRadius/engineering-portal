@@ -170,6 +170,7 @@ const Header = ({ menuLinks, searchIndex }) => {
           <hr />
         </ul>
       </div>
+
       <div
         className={headerStyles.backdrop}
         onClick={() => {

@@ -60,7 +60,7 @@
     .blog-content-pinned {
       // flex-direction: row-reverse;
       @media (max-width: 768px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
       }
       & > div {
         &:nth-child(2) {
@@ -200,6 +200,9 @@
         max-width: 64%;
         color: $white;
         padding: $gutter $gutter/2 $gutter/2 $gutter;
+        @media (max-width: 767px) {
+          max-width: 100%;
+        }
         form {
           display: flex;
           justify-content: space-between;

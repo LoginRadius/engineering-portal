@@ -54,7 +54,8 @@
   margin-bottom: 12px;
   @media (max-width: 1023px) {
     flex-direction: column;
-    border-bottom: 1px solid $blue-bright;
+    box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+      0 3px 3px 0px rgba(0, 142, 207, 0.12);
   }
   &.header-show-menu {
     @media (max-width: 1351px) {
@@ -839,7 +840,7 @@
       &:nth-child(3) {
         &.active {
           & ~ hr {
-            left: 66.33%;
+            left: 66.66%;
           }
         }
       }
