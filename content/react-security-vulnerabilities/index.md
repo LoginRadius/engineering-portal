@@ -93,15 +93,13 @@ Let us now take a look at the types of XSS.
 ### Checklist to Fix XSS Vulnerability in React Apps
 This attack gains popularity, not simply because of its potential to harm the target users through the application but because such attacks need more creative and intellectual hackers. But, to prevent such attacks, developers need to become even more creative.
 
-* The easiest way of securing any React app from multiple XSS attacks is to employ WAF (Web Application Firewall) with the code. WAF leverages a concept called signature-based filtering to restrict cross-site scripting attacks. Developers can integrate WAF into their React code to prevent the app from running malicious scripts.
+* The easiest way of securing any React app from multiple XSS attacks is to employ WAF (Web Application Firewall) with the code. WAF leverages a concept called signature-based filtering to restrict cross-site scripting attacks. React developers can incorporate a web application firewall into their code for protecting the app from running any adversary script.
 
-* Another effective way of blocking attackers from implementing XSS attacks on your React application is disabling the markups that carry code execution abilities. Some popular HTML elements that allow a web application to run scripts are &lt;script>, &lt;link>, &lt;object>, and &lt;embed>.
+* Developers can also disable the markups through which attackers can perform external code execution on React app. Some well-known HTML elements that allow running scripts are: &lt;script>, &lt;link>, &lt;object>, and &lt;embed>.
 
-* Another defense mechanism that works with textContent to protect against XSS is to use the {} for default data binding. Implementing this in your React app will allow the framework to escape values automatically.
+* Various programming languages offer libraries that can enable parsing HTML formatted text. These libraries can help sanitize HTML markup easily to prevent React apps from XSS. OWASP also has a range of libraries such as HtmlSanitizer, Java HTML Sanitizer, etc.
 
-* Various programming languages offer libraries that can enable parsing HTML formatted text. Developers can use those libraries to sanitize HTML markup easily against XSS attacks. OWASP has also listed a range of such libraries such as Java HTML Sanitizer, HtmlSanitizer, etc.
-
-* Conducting blacklist validation along with URL parsing can also prevent React applications from XSS attacks.
+* Developers can also protect React apps from XSS by performing blacklist validation in conjunction with URL parsing.
 
 * Modern and updated browsers (like Google Chrome) come with XSS detection and will not allow attackers to run any malicious script that is not coming from the original server or source.
 
@@ -122,7 +120,6 @@ Attackers usually exploit such a React security vulnerability by detecting the a
 * Unprotected authentication credentials
 * Session values without a specific time-out
 * Predictable login credentials
-* Exposed session IDs in URLs (For Example, http://anything.com/username/shoppingitems;jsessionid=2P0OC2JSNDLPSKHCJUN2JV?dest=Hawaii)
 * Improper hashing and salting of passwords
 
 Let us take a situation where the attacker could detect the hashes for the following names.
