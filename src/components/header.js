@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
 import LogoLr from "../../static/logo-blog.svg"
+import Hamburger from "../../static/iconHamburger.svg"
+import Close from "../../static/icon-close.svg"
 import Search from "./search"
 import ReactGA from "react-ga"
 import { validEmail } from "./regex.js"
@@ -137,12 +139,16 @@ const Header = ({ menuLinks, searchIndex }) => {
           headerStyles.header
         }`}
       >
+        <Link to={"/"} className={`${headerStyles.hamburger} `}>
+          <img src={Hamburger} className={headerStyles.iconHamburger} />
+          <img src={Close} className={headerStyles.iconClose} />
+        </Link>
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </Link>
         <Search searchIndex={searchIndex} />
       </div>
-      <div className={headerStyles.navigation}>
+      <div className={`${headerStyles.navigation} `}>
         <ul>
           <li className={active === "async" ? headerStyles.active : ""}>
             <Link to={"/async"} onClick={() => setActive("async")}>
