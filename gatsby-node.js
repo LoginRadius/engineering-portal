@@ -49,7 +49,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  /*const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 9
 
   posts.forEach((post, index) => {
@@ -67,7 +67,7 @@ exports.createPages = async ({ graphql, actions }) => {
         tags: post.node.frontmatter.tags || [],
       },
     })
-  })
+  })*/
 
   // Extract tag data from query
   const tags = result.data.tagsGroup.group
