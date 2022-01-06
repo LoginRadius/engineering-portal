@@ -84,4 +84,4 @@ With the rising number of identity thefts and security breaches amid the global 
 
 [LoginRadius](https://www.loginradius.com/contact-sales/) can be the most acceptable alternative for both the enterprises and startups that are collecting customer data and need to ensure a secure ecosystem without hampering the overall user experience.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

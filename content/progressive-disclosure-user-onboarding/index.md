@@ -97,4 +97,4 @@ LoginRadius’ Progressive profiling is helping thousands of businesses to strea
 
 If you wish to see the future of progressive profiling and progressive disclosure in action, [contact us](https://www.loginradius.com/contact-sales/) now.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

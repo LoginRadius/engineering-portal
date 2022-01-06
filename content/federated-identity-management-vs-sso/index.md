@@ -88,4 +88,4 @@ Expanding digital identity management can boost an organization's work efficienc
 As you advance towards improving customer and employee support, these protocols can help you streamline password creation and [user authentication](https://www.loginradius.com/authentication/). 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

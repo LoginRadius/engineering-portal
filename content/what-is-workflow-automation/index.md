@@ -123,4 +123,4 @@ Even though you can fully control the logical flows, it requires large resources
 
 Small and medium enterprises around the globe are expected to adopt business workflow automation on a large scale, creating a market of opportunity of US$ 1,600 million between 2017 and 2026. With its excellent built-in automation tools and solutions, multipurpose workflow software such as LoginRadius can help you meet your business goals by increasing efficiency, productivity, and other success factors. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -121,4 +121,4 @@ However, LoginRadius offers endless possibilities and provides all the features,
 
 You can choose LoginRadius as your CIAM to witness substantial business growth. Reach us for a free personalized demo today.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

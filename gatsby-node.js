@@ -1,7 +1,6 @@
 const path = require(`path`)
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const { execSync } = require("child_process")
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -9,7 +8,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const tagTemplate = path.resolve("./src/templates/tag.js")
   const authorPage = path.resolve("src/templates/author.js")
-  const searchTemplate = path.resolve("./src/templates/search-page.js")
   const result = await graphql(
     `
       {

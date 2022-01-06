@@ -90,4 +90,4 @@ Apart from taking care of your E-Commerce store, it is imperative to secure your
 Keeping your E-Commerce store guarded against online malpractices is not a tedious task if you follow the safety measures. Also, keep in mind the points above and keep your business and customer data protected against breaches. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

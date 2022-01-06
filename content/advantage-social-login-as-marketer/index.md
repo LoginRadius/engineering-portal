@@ -55,4 +55,4 @@ Marketers can use personalized emails to [build relationships with customers](ht
 
 Thus, if used properly, **social logins** can boost conversion rates like no other authentication tool.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -194,4 +194,4 @@ They can help to define your organization and drive your organization's reputati
 
 Hopefully, the above insights into the <a href="https://www.loginradius.com/contact-us/">LoginRadius support team</a> and some of the things that have helped us to support our consumers enable you to drive efficiencies within your organization.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

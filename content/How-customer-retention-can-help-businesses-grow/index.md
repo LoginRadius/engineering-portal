@@ -81,4 +81,4 @@ The training and development programs specifically designed to improve customer 
 
 Customer acquisition and maintenance should not be seen as two mutually exclusive parts of the broader process of business growth. This is because the former can grow the business, while the latter is necessary for its expansion. Retaining the existing customers makes the business more recognizable as it focuses on creating brand loyalty and emotional bonding by prioritizing how the customers feel. Maintaining these customers becomes easy with customer loyalty programs, feedback, understanding customer churn patterns, and customer-oriented marketing.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

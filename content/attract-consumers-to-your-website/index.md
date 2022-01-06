@@ -106,4 +106,4 @@ Don't forget to build growth strategies after creating content to draw users to 
 
 By following these five tricks, you can make the most of your strategies to attract online consumers while also maintaining them and ensuring that they get converted into leads.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -97,4 +97,4 @@ LoginRadius helps enterprises get maximum benefits in terms of security, scalabi
 
 Businesses can leverage LoginRadius’ authentication and authorization services for a seamless experience that fosters business growth. [Schedule a call today](https://www.loginradius.com/contact-sales)!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

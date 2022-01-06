@@ -83,4 +83,4 @@ Some of the common threats faced by the financial services industry include phis
 
 For SMBs, the global market for cybersecurity solutions is expected to touch [\$80 billion](https://www.infosecurity-magazine.com/news/attacks-on-banks-spike-238-during/) in the future. This article has highlighted ten of the biggest cybersecurity predictions for SMBs in the coming decade.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

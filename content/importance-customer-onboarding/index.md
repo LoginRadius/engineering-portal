@@ -131,4 +131,4 @@ In addition to receiving free marketing, one will also understand their customer
 
 Customer onboarding is one of the more delicate components of marketing. This process can make or break a business. In addition to increasing the revenue, it also allows businesses to create relationships with their customers through surveys or even phone calls. The most significant benefits of customer onboarding are that an individual can have an unprecedented amount of faith in the company and product.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

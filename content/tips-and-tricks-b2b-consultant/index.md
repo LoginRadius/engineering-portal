@@ -146,4 +146,4 @@ As a B2B consultant, you are selling more than just a product. You are selling s
 
 Don't forget to qualify each prospect to see if they fit with your company. Doing so allows you to optimize your limited resources. When you do your due diligence, it would be so much easier to convert your leads and prospects to actual clients.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

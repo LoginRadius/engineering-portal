@@ -136,4 +136,4 @@ Educating employees about the purpose of remote working can help them understand
 Each of the tips mentioned above and advice requires patience, attention, flexibility, and consistency. Working out on these tips can lead to better results and help the management handle the remote teams more easily and comfortably.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

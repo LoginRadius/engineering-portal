@@ -93,4 +93,4 @@ If you wish to deliver the next level of login experience to your consumers that
 [Reach us](https://www.loginradius.com/contact-sales/) for a personalized demo and know-how LoginRadius works for your business.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

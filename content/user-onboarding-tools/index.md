@@ -439,4 +439,4 @@ Luckily, the market gives us an overwhelming range of different resources. We ha
 Customer Onboarding is a critical step that forms the entire lifecycle of the user. The best onboarding experiences help users quickly achieve their magic moment; they also set up new users for long-term success.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

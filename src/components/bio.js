@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import _ from "lodash"
+import { kebabCase } from "lodash"
 import React from "react"
 import styles from "./bio.module.scss"
 
@@ -22,7 +22,7 @@ const Bio = ({ date, author, pinned, readingTime }) => {
       </div>
       <div className="text ml-sm">
         <span>By&nbsp;</span>
-        <Link to={`/author/${_.kebabCase(author.id)}/`}>
+        <Link to={`/author/${kebabCase(author.id)}/`}>
           <strong>{author.id}</strong>
         </Link>
         <div className={styles.dateWrap}>

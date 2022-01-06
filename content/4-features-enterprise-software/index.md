@@ -61,4 +61,4 @@ An updated system can majorly increase the capabilities of an HR manager, making
 
 Enterprise software is an irreplaceable tool that is meant to increase a business's efficiency. Huge companies cannot properly operate without it due to the human factor coming into play. This is the way to go when it comes to scalability, robustness, and automation.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

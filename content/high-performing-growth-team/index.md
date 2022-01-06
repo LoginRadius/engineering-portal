@@ -145,4 +145,4 @@ The importance of growth teams is more than the startup founders assume, and the
 Whether you are a business firm, one of many portfolio corporations, a startup, or a small enterprise, you need to concentrate on creating a professional growth team if your product has already hit the market.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

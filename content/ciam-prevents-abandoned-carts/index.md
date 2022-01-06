@@ -61,4 +61,4 @@ It helps enable the organizations to have greater control of their information a
 
 Consumers expect simplicity and speed with new-age authentication like the use of biometrics that replace passwords for secure and seamless login. Likewise, CIAM helps streamline the data storage and authentication to secure your customer experience and provide you with a competitive edge. The combination of these factors makes CIAM a powerful platform for any eCommerce enterprise.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

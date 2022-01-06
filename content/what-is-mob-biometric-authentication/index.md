@@ -98,4 +98,4 @@ Can biometrics replace "traditional" passwords in user authentication? Biometric
 
 With LoginRadius’ [Mobile Biometrics Authentication](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet), your business can enhance the security of mobile users along with their online experience. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

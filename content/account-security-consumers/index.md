@@ -104,4 +104,4 @@ What else makes [LoginRadius' Single Sign-On](https://www.loginradius.com/protoc
 
 With data at more risk than ever, more users are demanding businesses streamline their user onboarding process while protecting the data at the same time. This usually results in compromising the account security in favor of user-friendliness. As technology advances rapidly, businesses should keep track of the emerging cybersecurity trends and upgrade their data security systems accordingly.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

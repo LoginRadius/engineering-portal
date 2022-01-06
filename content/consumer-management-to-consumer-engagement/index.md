@@ -65,4 +65,4 @@ Strategies that bring out the 'wow' factor are always the best ones. Be it via s
 
 I hope these consumer engagement strategies will induce you to get into action. Keep in touch for more strategies and possible outcomes. Keep reading :)
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

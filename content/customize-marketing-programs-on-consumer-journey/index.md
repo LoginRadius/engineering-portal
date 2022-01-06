@@ -71,4 +71,4 @@ Consumer data can help businesses craft personalized consumer journeys that not 
 
 With a [consumer identity and access management (CIAM)](<https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.>) solution in place, enterprises can yield better results by creating rich, personalized user experiences that help engage potential clients and increase the chances of conversions.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

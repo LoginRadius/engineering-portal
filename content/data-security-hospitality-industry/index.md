@@ -63,4 +63,4 @@ According to the AARP, around [1.4 million](https://www.aarp.org/money/scams-fra
 
 To mitigate this, governments across the world have implemented the privacy act. This privacy act hopes to decrease the number of identity theft cases by regulating the information that is collected by businesses. Therefore, investing in proper data security in hospitality can work to protect not only the consumer but also the business from losing large sums of profit.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

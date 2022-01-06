@@ -112,4 +112,4 @@ These are possible improvements, basic for any enterprise. Engineering them prop
 Authenticating consumers is tricky and cumbersome. Taken together, a [CIAM solution](https://www.loginradius.com/) can help a great deal in offering login security. It incorporates the above techniques and all best practices to filter authorized access and prevent common attack scenarios. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

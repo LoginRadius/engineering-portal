@@ -120,4 +120,4 @@ The demand for [IGA is growing year on year](https://dagorettinews.com/identity-
 Needless to say, so does the issue of relevant access certification to designated stakeholders. With the automation of policy management and auditing, adding to its favor, identity governance seems immensely important in an increasingly agility-demanding and virtual work environment.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

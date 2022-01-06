@@ -107,4 +107,4 @@ When it comes to digital transformation by creating a perfect harmony of a great
 
 You need a delightful yet secure[ consumer experience](https://www.loginradius.com/customer-experience-solutions), which can help your business grow even in the most uncertain situations. Learn more about the LoginRadius Identity Platform, starting with a [Quick Personalized Call](https://www.loginradius.com/contact-sales/) with our sales team.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -105,4 +105,4 @@ A password manager has become a vital [part of cyber security in today’s digit
 
 Another key thing is to intercommunicate with other teams - developers, project managers, etc. to finalize your choice of a password manager for teams. These tips will help you to find one that is just right for you and your team.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

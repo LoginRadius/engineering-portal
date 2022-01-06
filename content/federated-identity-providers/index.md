@@ -57,4 +57,4 @@ The OAuth specifications define the following roles:
 - The client (OAuth Consumer) is the entity looking to consume the resource after getting authorization from the client.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

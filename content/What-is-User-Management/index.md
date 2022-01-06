@@ -90,4 +90,4 @@ What’s more, you can integrate LoginRadius with third party analytics like Goo
 
 In this post, we have explained what user management is, its benefits, user management software, the requirements for effective user management and why there is a shift to cloud based user management services. To talk to an expert, please click on Book a Demo.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

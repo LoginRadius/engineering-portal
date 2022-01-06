@@ -65,4 +65,4 @@ To bring it all together, the basis of B2B SaaS consumer experience depends on h
 
 It is essential to make sure that anything your client comes across from your business should turn out to be an enjoyable experience.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

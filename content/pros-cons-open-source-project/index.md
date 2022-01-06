@@ -97,4 +97,4 @@ Experts recommend not to leverage the open-source project in the places where:
 
 Enterprises should carefully analyze and assess their suitability while adopting open source and be cautious when implementing the project.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -109,4 +109,4 @@ In this article, we have learnt about Privileged Access Management, which helps 
 Cheers!
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

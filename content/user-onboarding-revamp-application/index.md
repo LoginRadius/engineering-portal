@@ -138,4 +138,4 @@ You know by now how user onboarding software can revamp your application. But, o
 It takes time to build an onboarding process and a lot of work to update it. You cannot change everything immediately, but you can make small changes over a period of time to smoothen the onboarding process.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -65,4 +65,4 @@ Without considering the type or size of any company, all organizations must have
 
 The security of personal identity and other details is at increasing risk today, with hackers finding new ways to hack into websites. Therefore, enterprises of all sizes must maintain PII compliance to protect the information of the company and its users. With PII compliance, businesses can maintain[ improved data security](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/).
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

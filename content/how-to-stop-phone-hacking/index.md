@@ -130,4 +130,4 @@ Locking your phone is important but as a secondary security measure, lock indivi
 Smartphones have become an essential part of our daily lives. Once you know about how your phone can be hacked, you can take various safety precautions to protect it from data theft. Furthermore, it will also keep your data secure from opportunist thieves or state-sponsored spies!
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

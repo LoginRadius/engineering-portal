@@ -103,4 +103,4 @@ LoginRadius offers the following security benefits for enterprises.
 
 As technology advances, so must we. There's no longer any benefit to sticking to traditional methods, and as far as identity management is concerned. Going passwordless just might be what your company needs to protect itself from not just password spraying, but from a host of other equally malicious cyber-attacks.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

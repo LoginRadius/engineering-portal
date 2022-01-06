@@ -158,4 +158,4 @@ Make sure it has a simple value proposition when writing a copy of your sign-up 
 Following the tips and examples shown in this article is your next move. If you can get it right, you can build better sign-up forms for conversion and increase the number of quality leads created.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

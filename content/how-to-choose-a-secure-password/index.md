@@ -467,4 +467,4 @@ By now, you know how to choose a strong password. However, hackers will still tr
 Follow the steps listed above to make your passwords as strong and unique as possible. Remember, if your password is too easy to remember, it is probably not secure at all.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

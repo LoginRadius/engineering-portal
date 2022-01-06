@@ -101,4 +101,4 @@ As discussed earlier, a compliance-ready CIAM solution with security features li
 Moreover, companies that aren’t focussing on employee training must immediately put their best foot forward to organize cyber awareness training programs to minimize the risk of human error.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -65,4 +65,4 @@ Moving away from traditional **authentication tools** such as standard authentic
 
 There is no doubt that using an authentication tool can improve your website's conversion rate. This is because you will protect your customers better while keeping out hackers, fraudsters and other malicious individuals. However, you should take the time to look for the best authentication solutions in the market today. [Contact us](https://www.loginradius.com/contact-sales) for more information on how we can help!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

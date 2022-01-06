@@ -105,4 +105,4 @@ Some reasons as to why the CRM system(s) are so prevalent:
 
 So, having learned about customer relationship management, you would be able to decide hows of <a href="https://mobilemonkey.com/blog/best-ways-to-follow-up-with-customers" rel= "nofollow">customer relationships</a> approach it, and make the most of it! However, one thing that is sure to happen when you build profound customer relations is that you would witness an increasing customer base. Moreover, when you have a positive relationship with your customers, you are not very far from establishing some favourable B2B customer relationships!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

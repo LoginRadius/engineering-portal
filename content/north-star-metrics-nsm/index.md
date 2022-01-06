@@ -99,4 +99,4 @@ Your company will also need to set up the right analytics tools to measure the N
 
 What are you waiting for? Do the exercise to lock your NSM and then see the wonders! Also, feel free to load comment sections with your questions and feedback, I will be happy to address them.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

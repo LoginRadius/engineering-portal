@@ -101,4 +101,4 @@ Although JWT can be the right option in most scenarios if implemented correctly 
 
 However, one should consider the above-mentioned aspects before relying on a token for [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/).
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

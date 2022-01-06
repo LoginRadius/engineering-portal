@@ -117,4 +117,4 @@ Apart from the [privacy issues](https://www.loginradius.com/customer-security/),
 
 Cheers!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

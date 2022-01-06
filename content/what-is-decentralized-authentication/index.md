@@ -64,4 +64,4 @@ This main area will come from having a holistic approach to identification contr
 
 We know that **Decentralized Authentication** is the key to advancing in the future, and now it depends on how we try to implement it. Some problems may arise, but we never move ahead in the game/life if we are not up for a challenge.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

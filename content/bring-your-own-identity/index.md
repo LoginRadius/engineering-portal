@@ -45,4 +45,4 @@ If you are the CSO or CIO of your company looking for a platform that acts as an
 
 The possibilities are endless with the LoginRadius platform in how you can set up your login flows to best serve your consumer's needs and meet your business goals. LoginRadius can integrate with any provider, so you can give your consumers the convenience and choice while having an optimized back-end infrastructure to ensure an automated and streamlined experience for your consumers.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

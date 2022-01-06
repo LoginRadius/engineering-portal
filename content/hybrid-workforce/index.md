@@ -114,4 +114,4 @@ Companies also need to provide the [employees working remotely](https://www.logi
 
 A Hybrid workforce can prove to be beneficial both for companies and the employees who would work remotely. This change was forced into action due to the covid-19 pandemic, but it'll be the future of the work. It'll lead to a great many changes. It will not only help businesses build more money, but it'll also help them lessen the workload on the employees. In a nutshell, the hybrid workforce model is a win-win for both employers and employees. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

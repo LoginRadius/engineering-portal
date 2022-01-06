@@ -96,4 +96,4 @@ Since the number of data breaches is surging day by day and consumer data is con
 
 PKI is a game-changer when it comes to managing secure access between devices and users without any hassle. Businesses can add [another stringent layer of security](https://www.loginradius.com/blog/start-with-identity/multi-factor-authentication-a-beginners-guide/) to their business process by implementing public key infrastructure.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -80,4 +80,4 @@ The goal of digital transformation is to [improve the customer experience](https
 
 Consumer behavior and aspirations have never been static. A consumer identity management solution may be a valuable strategic asset for CMOs to utilize in their department.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

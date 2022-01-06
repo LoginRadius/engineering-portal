@@ -85,4 +85,4 @@ However, the only downside of RPKI adoption is that it can be significantly expe
 The reliance on BGP can be a double-edged sword as, on the one hand, it can be extremely convenient, while on the other, it can have major security lapses. However, enterprises and ISPs can drastically reduce the risk of BGP hijacking by adopting the aforementioned safe practices. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -81,4 +81,4 @@ The [LoginRadius Identity Platform](https://www.loginradius.com/) provides two-f
 
 This concept of using several factors can drastically reduce the vulnerabilities of web applications and mobiles. After all, protecting consumer privacy is what matters the most.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

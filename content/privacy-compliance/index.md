@@ -120,4 +120,4 @@ Any security breach leading to personal data theft of consumers could negatively
 
 As discussed earlier, businesses must seek professional help to ensure compliance to stay ahead of the curve.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
