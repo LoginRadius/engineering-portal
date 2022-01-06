@@ -35,7 +35,10 @@ const PinnedCard = props => {
       <section className={`${styles.pinnedwrap} py-96`}>
         <div className={styles.blogContentPinned}>
           <div className={styles.avatarPinned}>
-            <Link to={node.fields.slug} className="bs-md">
+            <Link
+              to={`/${node.frontmatter.type}${node.fields.slug}`}
+              className="bs-md"
+            >
               {coverImagePath ? (
                 <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
               ) : (
@@ -52,7 +55,7 @@ const PinnedCard = props => {
             </div>
             <div className={styles.description}>
               <h1>
-                <Link to={node.fields.slug}>
+                <Link to={`/${node.frontmatter.type}${node.fields.slug}`}>
                   {node.frontmatter.title || node.fields.slug}
                 </Link>
               </h1>

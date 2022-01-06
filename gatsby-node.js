@@ -47,7 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog posts pages.
-  /*const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 9
 
   posts.forEach((post, index) => {
@@ -55,7 +55,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: post.node.fields.slug,
+      path: `/${post.node.frontmatter.type}${post.node.fields.slug}`,
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
@@ -65,7 +65,7 @@ exports.createPages = async ({ graphql, actions }) => {
         tags: post.node.frontmatter.tags || [],
       },
     })
-  })*/
+  })
 
   // Extract tag data from query
   const tags = result.data.tagsGroup.group

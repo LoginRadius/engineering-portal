@@ -1,10 +1,8 @@
-import { graphql } from "gatsby"
 import React from "react"
-import Layout from "./layout"
-import Post from "./post"
-import BlogList from "./blog-list"
+import { graphql } from "gatsby"
+import BlogList from "../../components/blog-list"
 
-const BlogPostTemplate = ({ props }) => {
+const AsyncBlogPage = props => {
   return (
     <BlogList
       data={props.data}
@@ -13,8 +11,6 @@ const BlogPostTemplate = ({ props }) => {
     />
   )
 }
-
-export default BlogPostTemplate
 
 export const AsyncBlogQuery = graphql`
   query AsyncBlogQuery {
@@ -54,3 +50,5 @@ export const AsyncBlogQuery = graphql`
     }
   }
 `
+
+export default AsyncBlogPage
