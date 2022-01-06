@@ -3,7 +3,7 @@ import styles from "./cardlist.module.scss"
 import Card from "./card"
 import Opensource from "../../static/open-source.png"
 import Writeforus from "../../static/write-for-us.png"
-export default function CardList({ posts, currentPage }) {
+export default function CardList({ posts, currentPage, isPagination }) {
   const limit = 6
   return (
     <section className="pt-96" id="all-articles">
@@ -12,10 +12,14 @@ export default function CardList({ posts, currentPage }) {
           <div className="grid-50">
             {posts &&
               posts.map(({ node }, index) => {
-                if (
-                  (currentPage - 1) * limit <= index &&
-                  index < (currentPage - 1) * limit + limit
-                ) {
+                if (isPagination) {
+                  if (
+                    (currentPage - 1) * limit <= index &&
+                    index < (currentPage - 1) * limit + limit
+                  ) {
+                    return <Card node={node} />
+                  }
+                } else {
                   return <Card node={node} />
                 }
               })}

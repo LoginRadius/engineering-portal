@@ -86,6 +86,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             tags
+            type
             coverImage {
               childImageSharp {
                 fluid {
