@@ -19,6 +19,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import getTimeToRead from "../utils/timeToRead"
 import Docs from "../../static/consumer-identity-trend.png"
+
+import AsyncFeatList from "./featurePost/async"
+import FuelFeatList from "./featurePost/fuel"
+import IdentityFeatList from "./featurePost/identity"
+
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
     category: category,
@@ -36,6 +41,7 @@ const signUplogger = function () {
 const Post = ({ post, relatedPost }) => {
   const headings = post.headings
   const image = post.frontmatter.coverImage
+  const type = post.frontmatter.type
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
   const githubUrl = author.github
@@ -113,23 +119,13 @@ const Post = ({ post, relatedPost }) => {
             />
             <div class={styles.sideBar}>
               <div class={`${styles.sideBarWidget} ${styles.posts}`}>
-                <h3>Featured Posts</h3>
-                <ul>
-                  <li>
-                    <a href="#">
-                      The Importance of Multi-Factor Authentication (MFA)
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">Top 9 Challenges Faced by Every QA</a>
-                  </li>
-                  <li>
-                    <a href="#">How to implement Facebook Login</a>
-                  </li>
-                  <li>
-                    <a href="#">How to Implement Facebook Social Login</a>
-                  </li>
-                </ul>
+                {type === "async" ? (
+                  <AsyncFeatList slug={post.fields.slug} />
+                ) : type === "fuel" ? (
+                  <FuelFeatList slug={post.fields.slug} />
+                ) : (
+                  <IdentityFeatList slug={post.fields.slug} />
+                )}
               </div>
               <div class={`${styles.sideBarWidget} ${styles.tags}`}>
                 <TagMenu />
@@ -208,22 +204,23 @@ const Post = ({ post, relatedPost }) => {
           </div>
 
           <div class={styles.sideBar}>
-            <div class={`${styles.sideBarWidget} ${styles.posts}`}>
-              <h3>Related Posts</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    The Importance of Multi-Factor Authentication (MFA)
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Top 9 Challenges Faced by Every QA</a>
-                </li>
-                <li>
-                  <a href="#">How to implement Facebook Login</a>
-                </li>
-              </ul>
-            </div>
+            {relatedPost.length ? (
+              <div class={`${styles.sideBarWidget} ${styles.posts}`}>
+                <h3>Related Posts</h3>
+                {relatedPost.map(({ node }, i) => (
+                  <ul>
+                    <li>
+                      <Link
+                        to={`/${node.frontmatter.type}${node.fields.slug}`}
+                        rel="prev"
+                      >
+                        {node.frontmatter.title}
+                      </Link>
+                    </li>
+                  </ul>
+                ))}
+              </div>
+            ) : null}
             <div
               className={`${headStyles.landing} ${headStyles.sidebar} ${headStyles.detailPage}`}
             >
