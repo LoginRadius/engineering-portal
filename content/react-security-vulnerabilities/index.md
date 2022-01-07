@@ -1,6 +1,6 @@
 ---
 title: "React Security Vulnerabilities and How to Fix/Prevent Them"
-date: "2021-12-23"
+date: "2021-12-24"
 coverImage: "react-security.png"
 author: "Gaurav Kumar Roy"
 tags: ["React", "Vulnerability"]
