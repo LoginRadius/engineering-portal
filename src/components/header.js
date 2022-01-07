@@ -29,26 +29,13 @@ const demologger = function () {
 
 let _shouldBlogClose = false
 const Header = ({ menuLinks, searchIndex }) => {
-  const [shouldClose, close] = useState(false)
   const [showMenu, toggleMenu] = useState(false)
-  const [blogType, toggleType] = useState("")
-  const [openMenu, setOpenMenu] = useState(false)
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
     subscribeEmail: "",
     subscribeCall: false,
     responseMsg: "",
     respClass: "",
   })
-
-  const bodyClickHandler = () => _shouldBlogClose && toggleType("")
-
-  useEffect(() => {
-    document.body.addEventListener("click", bodyClickHandler)
-
-    return () => {
-      document.body.removeEventListener("click", bodyClickHandler)
-    }
-  }, [])
 
   const subscribeSIB = () => {
     setNewsLetterSubscription({
@@ -126,7 +113,7 @@ const Header = ({ menuLinks, searchIndex }) => {
 
   let pathname = "async"
   if (typeof window !== `undefined`) {
-    pathname = window.location.pathname.substr(1)
+    pathname = window.location.pathname.substring(1)
   }
 
   const [active, setActive] = useState(pathname)
@@ -134,55 +121,64 @@ const Header = ({ menuLinks, searchIndex }) => {
   return (
     <>
       <ToastContainer style={{ fontSize: "15px" }} />
-      <div
-        className={`${showMenu ? headerStyles.headerShowMenu : ""} ${
-          headerStyles.header
-        }`}
-      >
-        <Link to={"/"} className={`${headerStyles.hamburger} `}>
+      <div className={headerStyles.header}>
+        <div
+          className={`${headerStyles.hamburger} ${showMenu ? "active" : ""}`}
+          onClick={() => toggleMenu(!showMenu)}
+        >
           <img src={Hamburger} className={headerStyles.iconHamburger} />
           <img src={Close} className={headerStyles.iconClose} />
-        </Link>
+        </div>
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </Link>
         <Search searchIndex={searchIndex} />
       </div>
-      <div className={`${headerStyles.navigation} `}>
+      <div
+        className={`${headerStyles.navigation} ${
+          showMenu ? headerStyles.open : ""
+        }`}
+      >
         <ul>
-          <li className={active === "async" ? headerStyles.active : ""}>
-            <Link to={"/async"} onClick={() => setActive("async")}>
+          <li className={active.includes("async") ? headerStyles.active : ""}>
+            <Link
+              to={"/async"}
+              activeClassName={headerStyles.active}
+              isPartiallyCurrent={true}
+              onClick={e => {
+                setActive("async")
+              }}
+            >
               Engineering
             </Link>
           </li>
           <li
             className={
-              active === "start-with-identity" ? headerStyles.active : ""
+              active.includes("start-with-identity") ? headerStyles.active : ""
             }
           >
             <Link
               to={"/start-with-identity"}
-              onClick={() => setActive("start-with-identity")}
+              onClick={e => {
+                setActive("start-with-identity")
+              }}
             >
               Identity
             </Link>
           </li>
-          <li className={active === "fuel" ? headerStyles.active : ""}>
-            <Link to={"/fuel"} onClick={() => setActive("fuel")}>
-              {" "}
+          <li className={active.includes("fuel") ? headerStyles.active : ""}>
+            <Link
+              to={"/fuel"}
+              onClick={e => {
+                setActive("fuel")
+              }}
+            >
               Growth
             </Link>
           </li>
           <hr />
         </ul>
       </div>
-
-      <div
-        className={headerStyles.backdrop}
-        onClick={() => {
-          toggleMenu(false)
-        }}
-      />
     </>
   )
 }

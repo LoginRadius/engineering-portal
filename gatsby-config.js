@@ -84,13 +84,6 @@ module.exports = {
         name: `content`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/identity`,
-    //     name: `identity`,
-    //   },
-    // },
     {
       resolve: "gatsby-plugin-html-attributes",
       options: {
@@ -111,6 +104,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 768,
+              srcSetBreakpoints: [650],
             },
           },
           {
@@ -191,7 +185,7 @@ module.exports = {
           MarkdownRemark: {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
-            path: node => node.fields.slug,
+            path: node => `/${node.frontmatter.type}${node.fields.slug}`,
             text: node => node.frontmatter.description,
           },
         },
