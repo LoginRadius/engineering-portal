@@ -24,34 +24,34 @@ With the arrival of each new update in React having more features, the security 
 ## SQL Injection
 SQL Injection (SQLi) is a widely known web application attack. The cybercriminal intends to perform database manipulation logically to access sensitive information that is not supposed to be displayed. Attackers try to sneak into that sensitive information to collect phone numbers, payment details, addresses, passwords, and other credentials.
 This technique allows the attackers to manage access to the server, pull the data, and manipulate the values in the database. Apart from data modification, hackers can also delete the data. 
-Let us take an example. Here is a code concerning the current username and searches for login matching the item name, where the owner is the current user.
+Let us take an example. Let us take an example where the code will search for the current user-ID and the login matching the employee name, where the owner is the current user-ID.
 ```
-string query = "SELECT * FROM login WHERE owner = "'"
-+ userName + "' AND itemName = '"
-+ ItemName.Text + "'";
+string query = "SELECT * FROM logondata WHERE owner = "'"
++ empID + "' AND empName = '"
++ EmpName.Text + "'";
 ```
-Once you combine the username and item name, the following query gets generated.
+Combining both the employee ID and employee name, the following query gets generated.
 ```
-SELECT * FROM login
+SELECT * FROM logondata
 WHERE owner =
-AND itemName = ;
+AND empName = ;
 ```
-The issue that pops here is that the original code leverages the concept of concatenation to combine data. The attacker can use a string like <code> 'name' OR 'x'='x' </code> as the item name. <code> 'x'='x' </code> is a condition that will always evaluate as True. Therefore, the statement returns True for all values within the table. So, the following query becomes:
+The problem that pops here is that the main code leverages the concept of concatenation that helps in combining those data. The attacker can use a string like <code> 'empName' OR 'x'='x' </code> as the employee name. <code> 'x' = 'x' </code> is such a condition, which will always evaluates to True. Therefore, the statement returns True for all values within the table. So, the following query becomes:
 ```
-SELECT * FROM login
+SELECT * FROM logondata
 WHERE owner = 'karlos'
-AND itemName = 'name' OR 'x'='x';
+AND empName = 'name' OR 'x' = 'x';
 ```
 
 There are three major categories of SQL injection based on how attackers gain access to the backend data.
 
-*  **In-band SQL Injection:** The attacker usually initiates the attack and gathers sensitive credentials through one single channel. Such SQL attacks are simple, and hence, it is one of the most commonly performed SQLi attacks on React apps. It comes with two sub-categories –
+*  **In-band SQL Injection:** Here the persuader will instigate the attack and gather sensitive credentials via one single channel. Such SQL attacks are simple, and hence, it is one of the most commonly performed SQLi attacks on React apps. It comes with two sub-categories –
     * **Error-based SQLi:** The attacker performs a fake mimicking of the admin's credentials. Such an action provokes the database to generate an error. This error message reflects how the database schema and its structure got designed.
-    * **Union-based SQLi:** The attacker uses the UNION operator of SQL to perform this attack. Using UNION, the attacker fuses multiple SELECT statements and triggers them from the web app for an HTTP response. If that single response comes with some sensitive data stored in the database, UNION-based SQLi becomes successful.
+    * **Union-based SQLi:** The attacker uses the UNION operator of SQL to perform this attack. Using UNION, the attacker fuses multiple SELECT statements and triggers them from the web app for an HTTP response. Attackers can conduct a successful attack if the data response fetches some sensitive data residing in the database. It proves that UNION-based SQLi is possible.
   
  * **Inferential/Blind SQL Injection:** The attacker pushes payloads targeting the server. Then they observe the behavior and keep track of the server response to know more about the database structure. Here, the attacker cannot witness the data reverting through the attack in-band, hence the name "Blind." There are two sub-categories of blind SQLi.
-    * **Boolean:** The attacker sends a malicious query to the target database provoking the app to respond. Based on the True or False value, the attacker can frame other SQL queries to extract data. The result of the query is either True or False and hence the name.
-    * **Time-based:** Here, the attacker sends a SQL query through the web app and waits for the response. The attacker notes down the time taken by the database to respond and checks the server response (True or False). Based on these two response parameters, the attacker re-launches another query. If the message sent through the SQL query successfully slows down the response, SQL injection is possible on that application.
+    * **Boolean:** The persuader sends an adversary query to the target database initiating the app to respond back. Depending on the True or False response value, the cybercriminal can prepare another SQL query that can extract data from that target database. The result of the query is either True or False and hence the name.
+    * **Time-based:** Here, the attacker sends a SQL query through the web app and waits for the response. The attacker records the time required by the database in responding back and checks the server response as well (True or False). Based on these two response parameters, the attacker re-launches another query. If the message sent through the SQL query successfully slows down the response, SQL injection is possible on that application.
 
  * **Out-of-Band SQL Injection:** Such attacks are more likely when the attacker senses some particular feature enabled in the server used by the React web application. This attack happens when the attacker cannot use the same channel to launch the attack and fetch data. They use such attack vectors when the server is unstable or unable to respond promptly.
  
@@ -148,17 +148,17 @@ Attackers can perform XML External Entities attacks on React web applications th
 
 * The attacker might attempt to extract data from the server.
 ```
-<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY xxe SYSTEM "file:///etc/passwd" >]> <foo> &xxe; </foo>
+<?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE sample [
+<!ELEMENT sample POO >
+<!ENTITY xmlxxe SYSTEM "file:///etc/passwd" >]> <sample> &xmlxxe; </sample>
 ```
-* Another example where the attacker probes the server's private network by changing the above ENTITY line:
+* Another code snippet where the attacker explores the private network of the server by tweaking the code:
 ```
-<!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
+<!ENTITY xmlxxe SYSTEM "https://186.141.2.1/privnw" >]>
 ```
-* It is another example where the attacker is attempting for Denial of Service (DoS) attack by including a potentially endless file:
+* It is another code snippet where the attacker tries for a Denial of Service (DoS) attack by comprising a potentially perpetual file:
 ```
-<!ENTITY xxe SYSTEM "file:///dev/random" >]>
+<!ENTITY xmlxxe SYSTEM "file:///gkr/rand" >]>
 ```
 
 ### Checklist to Fix XXE Vulnerability in React Apps
