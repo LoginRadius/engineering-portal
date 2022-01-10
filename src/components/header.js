@@ -123,7 +123,9 @@ const Header = ({ menuLinks, searchIndex }) => {
       <ToastContainer style={{ fontSize: "15px" }} />
       <div className={headerStyles.header}>
         <div
-          className={`${headerStyles.hamburger} ${showMenu ? "active" : ""}`}
+          className={`${headerStyles.hamburger} ${
+            showMenu ? headerStyles.active : ""
+          }`}
           onClick={() => toggleMenu(!showMenu)}
         >
           <img src={Hamburger} className={headerStyles.iconHamburger} />
