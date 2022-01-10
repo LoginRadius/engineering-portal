@@ -3,7 +3,7 @@ type: fuel
 title: "21 Software Testing Blogs to Level Up Your QA skills"
 date: "2017-04-17"
 coverImage: "21-Software-Testing-Blogs-to-Level-Up-Your-QA-skills.jpg"
-category: ["business", "General", "technology"]
+tags: ["business", "General", "technology"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "Testing/ QA blogs which you must read no matter you are a tester, developer, SEO or a marketer."

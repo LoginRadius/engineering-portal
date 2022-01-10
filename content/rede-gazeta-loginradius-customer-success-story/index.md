@@ -2,7 +2,7 @@
 title: "Rede Gazeta, a LoginRadius Customer Success Story"
 date: "2018-09-06"
 coverImage: "lr-and-rede-gazeta.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false
 author: "Karl Wittig"
 description: "By implementing LoginRadius, Rede Gazeta now have an even better understanding of what their readers are interested in, and can devote their time into generating quality content that their users want to read."

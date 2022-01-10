@@ -2,7 +2,7 @@
 title: "How to Put Yourself In Control of Your Data by Leveraging LoginRadius' SSO"
 date: "2021-03-18"
 coverImage: "sso-loginradius.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "An SSO strategy tailor-made as per the company’s needs can be a massive boost to the pace of business operations, as several security processes are streamlined. Data vulnerabilities are fortified, and the overall consumer experience is improved as inefficiencies in the system are ironed out."

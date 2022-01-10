@@ -3,7 +3,7 @@ type: fuel
 title: "A Glimpse of LoginRadius' CSR Activities: How Do We Foster a Culture of Care"
 date: "2021-08-19"
 coverImage: "loginradius-csr-activities-cover.jpg"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Naveen Soni"
 description: "LoginRadius has been carrying out CSR activities since its inception and has been focused on giving back in any way possible to society. Learn how the company fosters a CSR culture within its organization."

@@ -3,7 +3,7 @@ type: fuel
 title: "7 Expert Tips on How to Improve the Customer Experience"
 date: "2021-09-22"
 coverImage: "consumer-exp-cover-page.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Alyse Falk"
 description: "If you are interested in the best practices that will come in handy for improving customer experience, read these expert tips and improve client impressions when interacting with them."

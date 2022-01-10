@@ -2,7 +2,7 @@
 title: "Introduction to Mobile Biometric Authentication"
 date: "2021-04-28"
 coverImage: "what-is-mob-biometric-authentication-cover.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Rajeev Sharma"
 description: "In an increasingly digitized world, password-based authentication is no longer sufficient to secure applications and software tools.  Can biometrics replace traditional passwords in user authentication? Biometrics does offer a safe and easy mode of authenticating users – without compromising their online experience."

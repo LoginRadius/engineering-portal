@@ -2,7 +2,7 @@
 title: "How new age CIAM is revolutionizing consumer experience"
 date: "2021-02-11"
 coverImage: "new-age-ciam-cx.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: "How New-Age CIAM is Revolutionizing Consumer Experience Consumer Identity and Access Management (CIAM) is on the fast-track to going mainstream. What has put CIAM on the forefront is the proficiency to excel in the three most crucial aspects: profiling consumer data, managing consumer identity, and controlling consumer access to applications."

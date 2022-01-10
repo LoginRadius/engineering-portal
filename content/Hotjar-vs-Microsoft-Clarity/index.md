@@ -3,7 +3,7 @@ type: fuel
 title: "Website Heat Mapping with Hotjar vs. Microsoft Clarity"
 date: "2021-05-07"
 coverImage: "hotjar-vs-ms-clarity.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "A heatmap is a color-coded representation that shows you what elements on your website are getting the highest interaction (hot) and those that are getting the lowest (cold). There are two leading services, namely Hotjar and Clarity, that are competing to win this space. Read this blog to find out which is best for your business."

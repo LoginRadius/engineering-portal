@@ -3,7 +3,7 @@ type: fuel
 title: "LinkedIn: The Best Prospecting Tool (Chapter 1)"
 date: "2017-05-23"
 coverImage: "Linkedin-the-best-prospecting-tool.png"
-category: ["business", "Marketing", "technology"]
+tags: ["business", "Marketing", "technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Need a help tweaking your LinkedIn profile for better business exposure?"

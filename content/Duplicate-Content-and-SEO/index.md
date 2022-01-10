@@ -3,7 +3,7 @@ type: fuel
 title: "Duplicate Content and SEO: What’s the Big Deal"
 date: "2021-05-06"
 coverImage: "duplicate-content-and-seo.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "Dealing with duplicate content is a huge challenge for businesses seeking substantial growth through internet marketing practices. Learn about the aspects associated with duplicate content that depict the reasons behind it and how a business can overcome this lingering issue."

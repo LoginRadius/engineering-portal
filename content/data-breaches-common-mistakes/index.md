@@ -2,7 +2,7 @@
 title: "Avoid these Common Mistakes When Dealing with Data Breaches"
 date: "2021-10-01"
 coverImage: "data-breaches-common-mistakes-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deependra Singh"
 description: "With hacking events on the rise, it would be wise to take a step back and consider where things went wrong. You can prevent data breach occurrences in your organization by learning to recognize the common mistakes that are committed."

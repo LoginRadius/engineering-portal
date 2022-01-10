@@ -3,7 +3,7 @@ type: fuel
 title: "34 Blogs Every Developer and Designer Should Start Reading Now"
 date: "2017-03-30"
 coverImage: "34-Blogs-Every-Developer-and-Designer-should-Read.png"
-category: ["General"," technology"]
+tags: ["General"," technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Reading top blogs is a no brainer if you want to get the latest design and development trends. The article here lists down top blogs to read over your morning cup of coffee."

@@ -3,7 +3,7 @@ type: fuel
 title: "5 Features of Google My Business You Should Be Using"
 date: "2021-05-18"
 coverImage: "Google-Local-Business.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "Google My Business is a free tool that allows small and local businesses to increase their visibility on Google’s search engine to gain new customers. We’ve covered the top 5 features you should be using to make your business more visible and get you started."

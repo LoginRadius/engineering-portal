@@ -2,7 +2,7 @@
 title: "Mapegy, a LoginRadius Customer Success Story"
 date: "2017-06-15"
 coverImage: "Mapegy_LR.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig" 
 description: "Mapegy was reassured from the get-go with a versatile and adjustable platform, alongside a guaranteed 99.99 percent uptime, that our solution is indeed both reliable and scalable when adapting to their needs and user base as they expand. Our login and registration flows have helped Mapegy to provide a simplified and hassle-free login and registration process for their users while building centralised user profiles with the extended data points that Mapegy was searching for."

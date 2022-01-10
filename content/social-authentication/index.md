@@ -2,7 +2,7 @@
 title: "Implementing Effective Social Authentication Solution with LoginRadius"
 date: "2021-05-07"
 coverImage: "social-authentication-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "Social login enables users to use existing login credentials from a social networking platform including Facebook, Google, Twitter, and more enabling simplified logins and registrations. Let’s learn how LoginRadius simplifies social authentication and improves the overall user experience."

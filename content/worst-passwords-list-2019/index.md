@@ -2,7 +2,7 @@
 title: "The Worst Passwords of 2019"
 date: "2019-12-23"
 coverImage: "worst-passwords-list-2019.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "Overall, a major challenge for corporations is poor passwords combined with smart hackers. You need cybersecurity that prevents access to your confidential data to protect your business from expensive hacks and breaches. Choose a globally-certified CIAM solution like LoginRadius for state-of-the-art safety and increased customer experience."

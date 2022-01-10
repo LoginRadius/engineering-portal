@@ -2,7 +2,7 @@
 title: "The Major Challenges of Customer Identification in the Retail Industry"
 date: "2021-10-07"
 coverImage: "customer-identification-challenges-retail-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Deepak Gupta"
 description: "Meeting the expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. This insightful read covers all the major challenges that retailers and e-commerce vendors face and how they can overcome them."

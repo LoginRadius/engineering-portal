@@ -3,7 +3,7 @@ type: fuel
 title: "Social Media Video Marketing: What Is In Store For Future Marketers"
 date: "2021-06-02"
 coverImage: "social-videos.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "Video marketing is one of the digital decoration touches any business can have today. The future of digital videos has seen a tremendous rise; owing to the emergence of social media channels. Nowadays, every company is investing in video marketing, and more and more of those are being loaded up on various platforms."

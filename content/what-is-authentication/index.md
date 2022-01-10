@@ -2,7 +2,7 @@
 title: "What is Authentication"
 date: "2021-03-29"
 coverImage: "coverpic.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Manish Tiwari"
 description: "Authentication is the process of uniquely identifying an individual via a set of credentials. In the digital world, authentication is termed as verifying a person's identity or an electronic device. Authentication becomes necessary because it increases the security of consumer's data."

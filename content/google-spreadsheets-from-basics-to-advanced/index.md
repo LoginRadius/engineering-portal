@@ -3,7 +3,7 @@ type: fuel
 title: "Google Spreadsheets: From Basics to Advanced!"
 date: "2017-01-23"
 coverImage: "How-to-create-new-Google-Spreadsheet.png"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Now easily manage and maintain your data online with this detailed guide on Google SpreadSheets explaining some of its formulas, shortcuts, tips and hacks."

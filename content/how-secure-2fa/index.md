@@ -2,7 +2,7 @@
 title: "How Secure is Two-Factor Authentication (2FA)?"
 date: "2021-05-13"
 coverImage: "how-secure-2fa-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Navanita Devi"
 description: "While we know that it may seem childish to use a password and a username combination, unfortunately, many people don’t learn the risks associated with this type of authentication until they have been victimized by cybercrime. And when that happens, two-factor authentication is one the best ways to protect your consumers’ sensitive data from theft."

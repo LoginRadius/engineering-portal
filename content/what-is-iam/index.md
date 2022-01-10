@@ -2,7 +2,7 @@
 title: "What is Identity and Access Management (IAM)?"
 date: "2021-01-29"
 coverImage: "What-is-IAM-Cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Deepak Gupta"
 description: "Identity and Access Management in cybersecurity refers to the security framework and disciplines for managing digital identities. It regulates the responsibilities and access privileges associated with individual consumers and the conditions in which such privileges are allowed or denied."

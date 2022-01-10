@@ -2,7 +2,7 @@
 title: "What is Federated Identity Management"
 date: "2021-02-04"
 coverImage: "federated-identity-image.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: " Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. Though guessable passwords make them easy to remember, it exposes consumers to hackers. Fortunately, federated identity management ensures both seamless and secure access that goes a long way in enhancing the overall user-experience"

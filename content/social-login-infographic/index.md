@@ -2,7 +2,7 @@
 title: "Why Do Consumers Prefer Social Login [Infographic]"
 date: "2021-02-24"
 coverImage: "social-login.jpg"
-category: ["customer-experience", "all"]
+tags: ["customer-experience", "all"]
 featured: false
 author: "Rakesh Soni"
 description: "Social login simplifies registration and login for consumers. For this primary reason, social login is gaining popularity among ecommerce brands and retailers looking to turn visitors into buying customers."

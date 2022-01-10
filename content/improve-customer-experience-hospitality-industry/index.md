@@ -3,7 +3,7 @@ type: fuel
 title: "Improving Customer Experience in the Hospitality Industry"
 date: "2020-03-13"
 coverImage: "improve-customer-experience-hospitality-industry.png"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Rakesh Soni"
 description: "It has always been about luxury, pleasure, and excellent customer service in the hospitality industry. Modern guests travel for both company and fun. They also want business owners to better connect and understand them well."

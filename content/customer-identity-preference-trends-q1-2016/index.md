@@ -2,7 +2,7 @@
 title: "Customer Identity Preference Trends Q1 2016"
 date: "2016-04-15"
 coverImage: "customer-identity-preference-trends-q1-2016.png"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "From the beginning to the end of the customer-business relationship, customer engagement is the central aspect of individual user interactions."

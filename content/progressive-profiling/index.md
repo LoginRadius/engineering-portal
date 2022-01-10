@@ -2,7 +2,7 @@
 title: "What is Progressive Profiling and How it Works?"
 date: "2021-04-08"
 coverImage: "progressive-profiling-cover.jpg"
-category: ["all", "Security"]
+tags: ["all", "Security"]
 featured: false
 author: "Shachindra Saxena"
 description: "Progressive profiling is emerging as an effective way of cementing the trust gap between the company and its consumers. It is a systematic approach to collecting critical information through smart forms that ask questions intended to guide prospective consumers across the sales funnel. This article details how progressive profiling works and its benefits for your enterprise."

@@ -2,7 +2,7 @@
 title: "Announcement - LoginRadius Simplifies the Implementation of Federated SSO With Federated Identity Management"
 date: "2020-10-15"
 coverImage: "fim-image.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Kundan Singh"
 description: "Our Federated Identity Management feature is designed to simplify the implementation of Federated SSO, so consumers now do not need to create multiple accounts for multiple organisations to access their web applications."

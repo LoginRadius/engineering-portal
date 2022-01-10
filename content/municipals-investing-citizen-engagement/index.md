@@ -2,7 +2,7 @@
 title: "Why Municipalities Are Investing in Citizen Engagement"
 date: "2018-06-18"
 coverImage: "collaboration-colleagues-community-398532-1.jpg"
-category: ["all","public-sector"]
+tags: ["all","public-sector"]
 featured: false 
 author: "Rakesh Soni" 
 description: "Municipalities can achieve many benefits by investing in a well-designed and implemented citizen-centered approach, while enhancing the quality of life for people is at the core of many digital municipal initiatives."

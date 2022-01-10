@@ -4,7 +4,7 @@ date: "2020-11-25"
 featured: false 
 author: "Sudhanshu Agarwal"
 coverImage: "loginradius-mobile-native-app.png"
-category: ["industry-news"]
+tags: ["industry-news"]
 description: "Both companies and their customers benefit from LoginRadius Native Mobile SDKs. It allows companies to build and deploy seamless authentication and SSO functionality, while stable, easy and improved customer experiences are on-the-go for later."
 metatitle: "LoginRadius Authentication and SSO for Native Mobile Apps"
 metadescription: "LoginRadius Authentication and SSO for Native Mobile Apps provide enterprise authentication methods that are ready to use, user-friendly, and reliable.

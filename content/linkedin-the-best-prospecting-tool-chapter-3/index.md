@@ -3,7 +3,7 @@ type: fuel
 title: "LinkedIn: The Best Prospecting Tool Chapter 3"
 date: "2017-06-15"
 coverImage: "Linkedin-The-best-prospecting-tool-chapter-3.png"
-category: ["business", "technology", "loginradius", "marketing"]
+tags: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Know the six secrets to connect with the right people on LinkedIn. Hidden gems inside, watch out!"

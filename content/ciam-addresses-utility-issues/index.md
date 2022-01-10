@@ -2,7 +2,7 @@
 title: "How CIAM Will Address The 5 Most Popular Issues In The Utility Industry"
 date: "2021-03-09"
 coverImage: "ciam-addresses-utility-issues-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "A lot of utility companies require a good customer retention percentage—since the nature of their business is recurring and net revenue is dependent on how many times a consumer has used the service. Therefore, to retain consumers, it is vital to understand their needs."

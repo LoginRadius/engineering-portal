@@ -2,7 +2,7 @@
 title: "The Customer Identity Infrastructure that Cruise Line Passengers Don’t See"
 date: "2018-12-11"
 coverImage: "peter-hansen-455710-unsplash-2.jpg"
-category: ["travel-and-hospitality"]
+tags: ["travel-and-hospitality"]
 featured: false
 author: "Rakesh Soni"
 description: "In building enormous ships and fun activities to do on them, cruise lines are well-known for their creativity. Some of the major players, both interactive and onboard, are also doing fascinating stuff around customer service."

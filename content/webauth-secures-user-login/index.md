@@ -2,7 +2,7 @@
 title: "How WebAuth Secures Your Users’ Login"
 date: "2021-07-20"
 coverImage: "webauth-secures-user-login-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Vishal Sharma"
 description: "WebAuthn is a new standard for authentication, which is published by the World Wide Web Consortium and is supported by the FIDO alliance.

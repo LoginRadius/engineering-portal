@@ -3,7 +3,7 @@ type: fuel
 title: "The Insta Bible: Chapter 4"
 date: "2017-06-02"
 coverImage: "The-Insta-Bible-Chapter-4.jpg"
-category: ["business", "technology", "loginradius", "marketing"]
+tags: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Intimidated by a Shoutout process? Don't worry! Here's all you need to know about Shoutouts and how to manage them. Read On our fourth installment on Insta Bible."

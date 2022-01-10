@@ -4,7 +4,7 @@ date: "2020-09-30"
 featured: false 
 author: "Kundan Singh"
 coverImage: "image1.png"
-category: ["industry-news"]
+tags: ["industry-news"]
 description: "Businesses will enjoy simplified access control and flexible rights for their customers with the newly added User Management functionality of LoginRadius."
 metatitle: "Announcement - LoginRadius User Management |  LoginRadius"
 metadescription: "Businesses will enjoy simplified access control and flexible rights for their customers with the newly added User Management functionality of LoginRadius."

@@ -2,7 +2,7 @@
 title: "How Entertainment Companies Use the LoginRadius CIAM platform"
 date: "2021-05-25"
 coverImage: "media-entertainment-use-loginradius-platform-cover.jpg"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Navanita Devi"
 description: "Every industry takes a different approach to identity management. When it comes to media and entertainment, viewers love to move around a lot. As a result, before embarking on the journey, organizations must first understand a few things. For example, what goal they hope to achieve, how does a CIAM platform fits into the picture, and how do they find the best solution."

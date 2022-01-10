@@ -2,7 +2,7 @@
 title: "Identity Provider: What Is It And Why Should You Invest In One?"
 date: "2021-06-01"
 coverImage: "what-is-identity-provider-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta" 
 description: "Identity management integration is an essential process in today’s consumer-driven world. Identity providers are a great way to offer your consumers an easy sign-in method. So, when they are connecting to your website or online store, it can allow them to login once with their unique details and not have to remember multiple logins."

@@ -2,7 +2,7 @@
 title: "Why You Should Use Open Source Project For Your Business"
 date: "2021-11-26"
 coverImage: "open-source.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Jitender Agarwal"
 description: "As a developer, chances are at some point you’ve looked at an open source project to solve a problem. But before going off and using the first one you come across, it’s important to consider both the pros and cons of using open source."

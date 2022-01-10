@@ -3,7 +3,7 @@ type: fuel
 title: "How CISOs Can Improve Collaboration on Security Risks"
 date: "2021-09-27"
 coverImage: "ciso-cover-image.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Shivangini Yadav"
 description: "It no longer makes sense to think of security as a single system, because there are so many different layers, and so many different points of entry. This blog explains how  CISOs can respond to these multivalent threats across an organization."

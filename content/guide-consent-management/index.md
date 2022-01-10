@@ -2,7 +2,7 @@
 title: "A Detail Guide to Consent Management and Processing Data"
 date: "2021-04-14"
 coverImage: "guide-consent-management-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Abhilash Menon"
 description: "The importance of consent management cannot be understated. Whether you are a small business that is starting out or a multinational brand, consent management is going to be a crucial piece of your organization's ability to grow sustainably while building trust within your consumer base. Learn how the GDPR and CCPA define conditions that allow user data to be processed without consent or unconditionally."

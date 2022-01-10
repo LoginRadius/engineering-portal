@@ -2,7 +2,7 @@
 title: "What is Passwordless Login"
 date: "2021-03-26"
 coverImage: "what-is-passwordless-login_cover_pic.jpg"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false
 author: "Keshav Kumar"
 description: "Can you exactly recall which accounts what passwords belong to? How frequently do you reuse the same password because you can't have a unique, strong, and easily-remembered password for each of your accounts? Passwordless Login takes the frustration out of the equation to create a better consumer experience."

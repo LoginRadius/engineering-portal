@@ -3,7 +3,7 @@ type: fuel
 title: "Hybrid Workforce: Laying The Foundation of Remote Working"
 date: "2021-02-22"
 coverImage: "hybrid-workforce.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rakesh Soni"
 description: "A hybrid workforce model is the future of the remote workforce. Most companies are planning to let their employees work remotely to ensure the continuity of the increased performance. Employees were willing to put in more work hours due to the relaxed atmosphere of their home."

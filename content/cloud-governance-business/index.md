@@ -2,7 +2,7 @@
 title: "5 Reasons Why Cloud Governance Matters For Your Business"
 date: "2021-05-07"
 coverImage: "cloud-governance-business-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "Security management platforms are designated systems that work towards providing network security to an enterprise for the storage of data that they have collected. This process involves security and compliance as well."

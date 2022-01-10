@@ -2,7 +2,7 @@
 title: "How Businesses are Experiencing Digital Transformation with Consumer IAM"
 date: "2021-06-25"
 coverImage: "digital-transformation-consumer-iam-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Navanita Devi"
 description: "Digital transformation empowers businesses to change the way they operate. It’s not just a buzzword or marketing gimmick, it’s a real and tangible way to revamp how you do business and improve your company. Let’s understand it through the lens of consumer IAM."

@@ -3,7 +3,7 @@ type: fuel
 title: "How B2C Industries are Leveraging CIAM in the Retail Supply Chain Management"
 date: "2021-10-25"
 coverImage: "retail-supply-chain-cover.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Navanita Devi"
 description: "Retailers hold access to a comprehensive range of technologies. From today's current options, such as RFID tags, to stimulating creativity, such as self-driving trucks, businesses will largely depend on computers to manage their daily operations. Learn how they are incorporating CIAM in their environment."

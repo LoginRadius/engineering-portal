@@ -2,7 +2,7 @@
 title: "Identity Management in Healthcare: Analyzing the Industry Needs"
 date: "2020-11-03"
 coverImage: "Identity-Management-in-Healthcare.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: "Healthcare is one of the most heavily regulated sectors in existence, mostly because of the sensitivity of the collected data. Patients expect that their data remain confidential, and they enjoy a quality experience. Employing identity management in healthcare can genuinely make all the difference"

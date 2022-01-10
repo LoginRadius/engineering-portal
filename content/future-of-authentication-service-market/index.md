@@ -3,7 +3,7 @@ type: fuel
 title: "How Does the Future Look Like for the Authentication Services Market?"
 date: "2021-09-02"
 coverImage: "future-of-authentication-market.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Govind Malviya"
 description: "Authentication services have a lot to offer every sector possible, from healthcare to even defense. It is essentially the future of login security and will play an important role in reducing ransomware attacks."

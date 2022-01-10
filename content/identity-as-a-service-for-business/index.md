@@ -2,7 +2,7 @@
 title: "Identity as a Service (IDAAS): Managing Digital Identities (Updated)"
 date: "2019-12-25"
 coverImage: "Leveraging-IDaaS-for-Business-Success.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Deepak Gupta"
 description: "Identity as a service (IDaaS) refers to services provided via the cloud or through SaaS (software-as-a-service) systems for identity and access management. It provides cloud-based authentication provided and managed on a subscription basis by third-party providers."

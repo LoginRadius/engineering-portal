@@ -2,7 +2,7 @@
 title: "What is Digital Transformation"
 date: "2021-01-11"
 coverImage: "what-is-digital-transformation.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: "Digital transformation is the process of leveraging digital technology to develop new business processes and consumer experiences to meet the changing market dynamics or to alter the existing ones. So, has the dynamics changed with the COVID-19 pandemic? You are about to find out."

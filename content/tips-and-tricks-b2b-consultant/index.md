@@ -3,7 +3,7 @@ type: fuel
 title: "7 Tips and Tricks for B2B Consultant: How to Grow Your Client's Business"
 date: "2021-02-26"
 coverImage: "b2b-consultant.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Lidia Hovhannisyan"
 description: "You are offering more than just a commodity as a B2B consultant. You sell strategies that can help business owners accomplish their goals. You need to conduct comprehensive research if you want to be successful in securing their business."

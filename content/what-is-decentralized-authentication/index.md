@@ -2,7 +2,7 @@
 title: "Decentralized Authentication: What Is It And How It Is Changing the Industry"
 date: "2021-09-21"
 coverImage: "what-is-decentralized-authentication-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Govind Malviya"
 description: "Decentralized Authentication is the key to advancing in the future, and now it depends on how you try to implement it. This blog explains what decentralization means for the next wave of business security."

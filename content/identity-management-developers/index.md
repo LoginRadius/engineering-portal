@@ -2,7 +2,7 @@
 title: "Identity Management for Developers: Why it's required more than ever"
 date: "2020-10-29"
 coverImage: "Identity-Management-for-Developers.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: "Identity management for developers isn't a tough nut to crack, especially if you know how to play your cards right. As a creator of front-end or back-end applications, you will eventually experience the need to collect and store consumer information like their identities and other profile details. Learning the basics of identity management for developers can place you in a strong position to communicate what you need and why."

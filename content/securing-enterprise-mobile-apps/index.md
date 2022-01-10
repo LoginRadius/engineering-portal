@@ -2,7 +2,7 @@
 title: "Securing Enterprise Mobile Apps with LoginRadius"
 date: "2020-08-07"
 coverImage: "Secure-Enterprise-Mobile-App.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "We are already living in the future as corporate mobile applications are the future of companies. More and more businesses are combining their organisational processes with mobile networks with the the popularity of innovations such as 5 G, blockchain, AI , and machine language."

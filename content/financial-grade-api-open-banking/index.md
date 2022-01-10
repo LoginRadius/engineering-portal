@@ -2,7 +2,7 @@
 title: "An Introduction to Financial-Grade API (FAPI) for Open Banking"
 date: "2021-10-27"
 coverImage: "fapi-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Govind Malviya"
 description: "With open banking, consumers can leverage bank accounts and data networking across diverse institutions through APIs (application programming interfaces), which has reshaped the entire banking industry. However, when it comes to the overall security mechanism of open banking, FAPI becomes the need of the hour."

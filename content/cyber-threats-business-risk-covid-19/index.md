@@ -2,7 +2,7 @@
 title: "Protecting Organization From Cyber-Threats: Business at Risk During COVID-19"
 date: "2020-05-18"
 coverImage: "Cyber-Threats-Risk-During-COVID-19.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "Cyber risks have always been a big deal for corporations. With the self-quarantined world population at home and the stock market succumbing to the ill-fated Covid-19."

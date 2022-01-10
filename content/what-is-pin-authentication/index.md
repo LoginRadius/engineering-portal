@@ -2,7 +2,7 @@
 title: "What is PIN Authentication"
 date: "2021-02-27"
 coverImage: "pin-authentication.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Abhishek Singh"
 description: "Logging in through PIN is in popular culture nowadays. This feature allows the consumer to set a PIN in addition to the password during registration or login. Later, during the subsequent logins, the application requests the same PIN to authenticate."

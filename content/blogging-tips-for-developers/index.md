@@ -3,7 +3,7 @@ type: fuel
 title: "Dear Developers! Get Ready To Blog!!"
 date: "2017-01-23"
 coverImage: "blogging-tips.jpg"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false
 author: "Deepak Gupta"
 description: "Are you a website developer? Are you a blogger yet? Check out this step by step guide for developers to rock at blogging!"

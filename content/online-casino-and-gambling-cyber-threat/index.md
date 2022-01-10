@@ -2,7 +2,7 @@
 title: "Online Casino and Gambling Industry Is Gaining Momentum, So Is the Cyber Threat"
 date: "2020-06-25"
 coverImage: "Online-Casino-and-Gambling-Industry.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "The online gambling industry, needs to take the necessary steps to build safe and secure platforms for casino operators and consumers."

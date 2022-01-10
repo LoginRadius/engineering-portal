@@ -3,7 +3,7 @@ type: fuel
 title: "Top 10 Must Read Tech Stories Of September 2016"
 date: "2016-09-23"
 coverImage: "Youtube-debuts-new-TrueView-featuring-tailored-Call-to-Action-264x300.png"
-category: ["technical updates", "loginradius"]
+tags: ["technical updates", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Hard to keep up with the daily technology updates every IT must read? we are here again with our next roundup post."

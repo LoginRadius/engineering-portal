@@ -2,7 +2,7 @@
 title: "One World Identity Report Names LoginRadius a Customer Identity and Access Management (CIAM) Industry Leader"
 date: "2019-12-02"
 coverImage: "blog-graphic-one-world-identity.png"
-category: ["media-and-publication", "LoginRadius"]
+tags: ["media-and-publication", "LoginRadius"]
 featured: false 
 author: "Rakesh Soni"
 description: "LoginRadius is one of 415 identity companies chosen to be included in the study from a pool of over 2,000."

@@ -3,7 +3,7 @@ type: fuel
 title: "How To Be A Pro At Slack In 6 Simple Steps"
 date: "2017-02-11"
 coverImage: "How-To-Be-A-Pro-At-Slack-In-6-Simple-Steps.png"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Are you still struggling with Slack at your workplace? Try out these six slack tips along with additional features to become a pro at Slack and let us know some of your own! "

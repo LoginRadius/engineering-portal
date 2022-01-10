@@ -2,7 +2,7 @@
 title: "How LoginRadius Helps Enterprises Stay CCPA Compliant in 2020"
 date: "2020-03-06"
 coverImage: "how-loginradius-helps-enterprises-stay-ccpa-compliant.png"
-category: ["LoginRadius", "privacy-and-compliance"]
+tags: ["LoginRadius", "privacy-and-compliance"]
 featured: false 
 author: "Deepak Gupta"
 description: "As the risk of data misuse is rising, more and more enterprises are trying to comply with current data protection and regulatory enforcement."

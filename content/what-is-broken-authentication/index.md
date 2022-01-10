@@ -2,7 +2,7 @@
 title: "What Is Broken Authentication and How to Prevent Your Company From It"
 date: "2021-02-17"
 coverImage: "what-is-broken-authentication.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "If a hacker successfully logs with stolen credentials, they can misuse your privileges and impact your company's sustainability. Authentication protects a consumer's identity by allowing only a verified user to enter into the system. But there are numerous ways through which a hacker can impersonate consumers and enter inside the system."

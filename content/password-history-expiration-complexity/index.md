@@ -2,7 +2,7 @@
 title: "Password History, Expiration, and Complexity: Explained!"
 date: "2021-06-08"
 coverImage: "Passwordhistory_cover_pic.jpg"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false
 author: "Ashish Kumar Yadav"
 description: "Passwords are the only measures that help us immensely to protect our data. So don't you think our protector should be more robust? This blog explores the various techniques which you can embed to push your password security to the next level."

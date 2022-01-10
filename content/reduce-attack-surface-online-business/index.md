@@ -2,7 +2,7 @@
 title: "10 Tips From CIAM Experts to Reduce the Attack Surface of User Authentication"
 date: "2021-11-30"
 coverImage: "attack-surface.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Navanita Devi"
 description: "Companies are predominantly facing the challenge of securing their infrastructures from cyber threats. By analyzing and implementing the security measures mentioned in this blog, you can safeguard your company from cyber threats and help it leverage the benefit of a dispersed workforce."

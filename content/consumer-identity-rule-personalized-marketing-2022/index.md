@@ -3,7 +3,7 @@ type: fuel
 title: "Do Consumer Identity Programs Really Work for Personalized Marketing?"
 date: "2021-12-14"
 coverImage: "personalized-marketing.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Navanita Devi"
 description: "Consumer identity management is actually a great way to help companies grow. It is through high quality CIAM that a business can create better targeted, safer, more meaningful marketing experiences for their customers."

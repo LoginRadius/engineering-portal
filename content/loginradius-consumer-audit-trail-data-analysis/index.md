@@ -2,7 +2,7 @@
 title: "LoginRadius Approves Consumer Audit Trail for In-Depth Data Analysis and Risk Assessment"
 date: "2020-07-02"
 coverImage: "Consumer-Audit-Trail.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Deepak Gupta"
 description: "The recently released Consumer Audit Trail by LoginRadius tracks threats in real time, handles incident response, and even conducts a forensic analysis on past security incidents, if necessary."

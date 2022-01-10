@@ -3,7 +3,7 @@ type: fuel
 title: "9 Facts About Social Login & CRO That You Should Know About"
 date: "2021-08-12"
 coverImage: "conversion-rate-optimization.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Rashmi Mathur"
 description: "Naturally, a marketing team should strive to create a user experience that will lead to more conversions. And, fortunately, social login makes this highly achievable. It allows users to easily sign on to your website with social media profiles, and also allows the consumer to customize their preferences based on their previous activity and interaction with the brand."

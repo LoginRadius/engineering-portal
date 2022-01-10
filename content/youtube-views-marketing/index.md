@@ -3,7 +3,7 @@ type: fuel
 title: "The Beginner's Guide To Get 1000+ Views On YouTube"
 date: "2017-07-27"
 coverImage: "The-beginners-guide-to-get-1000-views-on-youtube-300x169.jpg"
-category: ["business", "marketing", "technology", "loginradius"]
+tags: ["business", "marketing", "technology", "loginradius"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "Are you constantly struggling to prevent your YouTube videos from falling? Read on t how you can get your videos rank higher on Youtube by boosting views."

@@ -2,7 +2,7 @@
 title: "What are Security Keys? What are its Advantages?"
 date: "2021-09-23"
 coverImage: "what-are-security-keys-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Vishal Sharma" 
 description: "When it comes to robust security for a seamless authentication and authorization experience, security keys are considered one of the best ways to prove one’s identity. These security practices add an extra security layer other than passwords and ensure that the right person has access to the right information."

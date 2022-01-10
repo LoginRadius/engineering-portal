@@ -2,7 +2,7 @@
 title: "Announcing New Look of LoginRadius"
 date: "2020-03-25"
 coverImage: "Announcing-New-Look-of-LoginRadius.png"
-category: ["LoginRadius", "industry-news"]
+tags: ["LoginRadius", "industry-news"]
 featured: false
 author: "Deepak Gupta"
 description: "LoginRadius is delighted to announce that we now have a new logo."

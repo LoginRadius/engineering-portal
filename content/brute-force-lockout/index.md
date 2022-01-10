@@ -2,7 +2,7 @@
 title: "What is Brute Force Attack"
 date: "2021-02-27"
 coverImage: "brute-force.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Manish Tiwari"
 description: "In brute force attacks, you are not exploiting any vulnerability in the web application. Instead, you are trying all the possible combinations and permutations of passwords and usernames of the victim and trying to see if you get any of those right."

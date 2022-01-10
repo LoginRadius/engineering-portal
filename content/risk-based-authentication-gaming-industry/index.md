@@ -3,7 +3,7 @@ type: fuel
 title: "Embracing Risk-Based Authentication in the Gaming Industry"
 date: "2021-10-18"
 coverImage: "rba-gaming-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Srishti Singh"
 description: "It is not possible to create an application that protects against everything, especially in the gaming industry. Although it is important to effectively protect sensitive data in electronic gaming environments, it is also essential to create systems that maintain the fun and excitement of online gaming. Risk-Based Authentication makes it possible."

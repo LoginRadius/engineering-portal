@@ -2,7 +2,7 @@
 title: "DNS Cache Poisoning: Why Is It Dangerous for Your Business"
 date: "2021-01-13"
 coverImage: "dns-cache-poisoning-is-dangerous-for-your-business.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "DNS cache poisoning is an attack that uses changed DNS records to redirect online traffic to a website that is fake and resembles its intended destination."

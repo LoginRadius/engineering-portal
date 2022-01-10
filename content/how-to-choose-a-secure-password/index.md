@@ -2,7 +2,7 @@
 title: "How to Choose a Secure Password in 2021"
 date: "2021-01-06"
 coverImage: "how-to-choose-a-secure-password-in-2021.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false 
 author: "Deepak Gupta"
 description: "Passwords are the digital keys to our daily lives. They are the gateway to our professional services, and our network of friends. So, what does a secure password look like? Here is a collection of the do's and don't on how to choose a strong password to avoid being a victim of cyberattack."

@@ -2,7 +2,7 @@
 title: "Identity Management in Cloud Computing"
 date: "2021-01-29"
 coverImage: "identity-management-in-cloud-computing-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Deepak Gupta"
 description: "Identity management in cloud computing is the subsequent step of identity and access management (IAM) solutions. However, it is a lot more than merely a straightforward web app single sign-on (SSO) solution. This next generation of IAM solution is a holistic move of the identity provider right to the cloud. "

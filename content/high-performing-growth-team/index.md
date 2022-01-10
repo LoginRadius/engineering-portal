@@ -3,7 +3,7 @@ type: fuel
 title: "5 Steps to Build a High Performing Growth Team in 2021"
 date: "2021-02-23"
 coverImage: "growth-team.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rakesh Soni"
 description: "No recipe can assure an A-grade workforce. When it comes to creating high-performing teams, you must get creative. With commitment, forbearance, and a little direction, you'll be off to formulating high-performing squads in no time who can take the core product and your business to new heights."

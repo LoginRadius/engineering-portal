@@ -2,7 +2,7 @@
 title: "The Changing Role of Identity Management in Enterprise Decision-Making"
 date: "2021-05-11"
 coverImage: "ciam-role-enterprise-decision-making-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "The increasingly sophisticated audience now considers digital interactions as the sole mechanism for interacting with brands. Let’s learn how an identity management solution helps these brands to deliver rich user experiences backed by adequate data security."

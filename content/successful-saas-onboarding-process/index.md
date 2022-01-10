@@ -3,7 +3,7 @@ type: fuel
 title: "The ABCs of a Successful Saas Onboarding Process"
 date: "2021-08-27"
 coverImage: "user-onboarding.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
 description: "The onboarding process is the lifeline for your customer, and it's one of the most valuable tools that you as a company can control. Here are a few tips for a stellar SaaS company onboarding process that will greatly improve your customer retention and overall satisfaction."

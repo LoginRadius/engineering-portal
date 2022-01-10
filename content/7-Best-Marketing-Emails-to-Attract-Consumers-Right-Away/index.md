@@ -3,7 +3,7 @@ type: fuel
 title: "7 Best Marketing Emails to Attract Consumers Right Away"
 date: "2021-03-30"
 coverImage: "email-business-Loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "Even in this day and age of social media marketing, email marketing remains among the best marketing tools to attract and grow your customer base. This article outlines the seven most effective types of marketing emails that your sales prospects would love to see in their mailbox."

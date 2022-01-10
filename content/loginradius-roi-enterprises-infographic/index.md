@@ -2,7 +2,7 @@
 title: "How LoginRadius Offers Customer-Centric Capabilities that Drive ROI"
 date: "2021-11-16"
 coverImage: "roi-cover.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false 
 author: "Rakesh Soni"
 description: "For businesses to grow and increase their profitability, there is a need to implement robust infrastructure to aid in productivity and increase efficiency. LoginRadius helps organizations scale up security, operability, data integration, and effective data management, among others. Check out our infographic for more ROI-centric details."

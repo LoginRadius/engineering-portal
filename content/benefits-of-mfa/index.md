@@ -2,7 +2,7 @@
 title: "7 Benefits of Multi-Factor Authentication"
 date: "2020-12-09"
 coverImage: "benefits-of-mfa.jpg"
-category: ["all", "customer-experience"]
+tags: ["all", "customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "When it comes to information security, the MFA plays a crucial role. It protects information from possible hacks, keeps an eye on employee accounts, and scares hackers away. Besides this even though their login credentials are leaked by accident, it protects users."

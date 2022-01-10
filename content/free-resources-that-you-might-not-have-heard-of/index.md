@@ -3,7 +3,7 @@ type: fuel
 title: "Free Resources That You Might Not Have Heard Of"
 date: "2017-01-23"
 coverImage: "free-resources-150x150.png"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "It is said that every good thing comes with a price tag attached. Well, looks like this is not applicable to all good things. The articles lists down some useful free resources you might not have heard of."

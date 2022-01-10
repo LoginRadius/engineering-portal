@@ -3,7 +3,7 @@ type: fuel
 title: "How Customer Retention Can Help Businesses Grow"
 date: "2021-03-15"
 coverImage: "customer-retention-LoginRadius-colorized.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Yash Rathi"
 description: " Customer retention can be seen as a company's ability to maintain its existing customers by establishing strong relationships with them. Today, more people are planning to invest in start-ups, making it necessary for entrepreneurs to improve customer retention as a top-most goal."

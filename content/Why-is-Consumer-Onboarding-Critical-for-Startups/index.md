@@ -3,7 +3,7 @@ type: fuel
 title: "Why is Consumer Onboarding Critical for Startups"
 date: "2021-03-18"
 coverImage: "client-onboard-loginradius-fuel-blog.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Sudhanshu Agarwal"
 description: "consumer Onboarding is a process that involves all aspects of introducing a new consumer to your organization's products and services. Its purpose is to make sure that your consumer is well trained on how to use your product and get the most out of it."

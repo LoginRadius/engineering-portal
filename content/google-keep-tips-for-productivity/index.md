@@ -3,7 +3,7 @@ type: fuel
 title: "How To Insert Keep Notes in Doc Plus other Keep Tips For Better Productivity"
 date: "2017-03-06"
 coverImage: "How-To-Insert-Keep-notes-in-Doc-Plus-other-Keep-tips-For-Better-Productivity.jpg"
-category: ["general", "technology", "loginradius"]
+tags: ["general", "technology", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "With the recent update by Google to integrate Keep with G Suite, Keep has become our all time bestie. Google Keep Tips you always wanted to know for better productivity."

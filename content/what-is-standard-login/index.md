@@ -2,7 +2,7 @@
 title: "What is Standard Login"
 date: "2021-03-26"
 coverImage: "standard_login_cover_pic.jpg"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false
 author: "Keshav Kumar"
 description: "Standard Login is an essential aspect of website authentication. With a better security perspective, your organization can look into more robust registration and login processes that move beyond the traditional offerings. That's why we've created this guide."

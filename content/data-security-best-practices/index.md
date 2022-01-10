@@ -2,7 +2,7 @@
 title: "9 Data Security Best Practices For 2021"
 date: "2020-12-09"
 coverImage: "9-data-security-best-practices-for-2021.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "Confining data security best practices to the organization's size never helped in the past, nor will it work in the future. What cybercriminals gain is what consumers lose, and those losses add up."

@@ -3,7 +3,7 @@ type: fuel
 title: "Why You Should Customize Your Marketing Programs Based on Consumer Journey"
 date: "2021-11-10"
 coverImage: "customer-marketing.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Vishal Sharma"
 description: "Personalized consumer experience is becoming the need of the hour. Let’s understand how a personalized consumer journey can help businesses stay ahead of the curve and how a CIAM solution like LoginRadius offers valuable insights for creating personalized user experiences."

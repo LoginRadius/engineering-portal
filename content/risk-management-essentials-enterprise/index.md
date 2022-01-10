@@ -2,7 +2,7 @@
 title: "COVID-19 and Beyond: 5 Risk Management Essentials for Your Enterprise"
 date: "2021-07-20"
 coverImage: "risk-management-essentials-enterprise-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "Cybercriminals continuously exploit consumer data and have accelerated outbreaks by taking advantage of the chaotic time, and the weaker first line of defense as businesses adopt new working ecosystems. This post covers all the aspects that require immediate consideration to minimize the risk of identity theft or a security breach."

@@ -2,7 +2,7 @@
 title: "Consumer Identity Management for the CMO, CISO, and CIO"
 date: "2020-09-28"
 coverImage: "image1.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "A modern-day consumer identity management (CIAM) platform securely collects and manages consumer identity and profile data, along with securing access to apps, computers, and other resources in the network."

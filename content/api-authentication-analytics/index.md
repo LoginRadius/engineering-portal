@@ -2,7 +2,7 @@
 title: "Announcement - Authentication API Analytics to Evaluate the Performance of LoginRadius APIs for Your Applications"
 date: "2021-03-23"
 coverImage: "api-authentication-analytics-cover.png"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false
 author: "Kundan Singh"
 description: "Recently, LoginRadius launched Authentication API Analytics to provide an analytics report to businesses and their developers for requests made to different LoginRadius APIs. The feature contains useful charts and analytic tools to view and measure an application's overall performance (where using LoginRadius)."

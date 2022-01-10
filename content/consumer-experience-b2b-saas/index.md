@@ -3,7 +3,7 @@ type: fuel
 title: "5 Tips to Enhance the Consumer Experience in B2B SaaS"
 date: "2021-01-15"
 coverImage: "5-tips-consumer-experience-b2b-saas.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rakesh Soni"
 description: "Assessment and improvement of customer experience is not only appropriate to consumers; it is good for the business. A focus on CX provides a competitive advantage that over time drives customer retention, revenue growth, and business valuation."

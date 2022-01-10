@@ -2,7 +2,7 @@
 title: "Corporate Account Takeover Attacks: Detecting and Preventing it"
 date: "2020-04-16"
 coverImage: "corporate-account-takeover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "How do you defend your company against a Corporate Account Takeover (CATO) fraud with the COVID-19 pandemic causing workers to stay indoors?"

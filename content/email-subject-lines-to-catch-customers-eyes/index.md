@@ -3,7 +3,7 @@ type: fuel
 title: "20+ Terrific Email Subject Lines To Instantly Catch Your Customer's Eyes"
 date: "2017-07-14"
 coverImage: "20-Terrific-Email-Subject-Lines-To-Instantly-Catch-Your-Customers-Eyes-300x169.png"
-category: ["business", "technology", "loginradius", "marketing"]
+tags: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "How often do your emails get reported or have a lesser open rate? Too often! Well, don't worry and get inspired from these 20+ Great Email Subject line Templates."

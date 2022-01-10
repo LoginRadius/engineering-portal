@@ -2,7 +2,7 @@
 title: "Login with Google Apps"
 date: "2021-03-26"
 coverImage: "google-apps-cover-pic.jpg"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false
 author: "Keshav Kumar"
 description: "Do you have a successful solo business? Or do you have a team of 200 people working for you? You may want to set up the G Suite to improve your efficiency. Google apps have become the industry standard for in-house workflow, making the lives of working individuals easier and less stressful."

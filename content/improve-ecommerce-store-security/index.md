@@ -3,7 +3,7 @@ type: fuel
 title: "10 Ways To Improve Your eCommerce Store's Security"
 date: "2021-10-12"
 coverImage: "improve-ecommerce-store-security-cover.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rashmi Mathur"
 description: "Nobody's perfect, but your eCommerce store can be (to quite an extent). With these ten security measures in place, you'll sleep easier knowing that your business is protected."

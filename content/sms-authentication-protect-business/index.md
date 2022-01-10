@@ -2,7 +2,7 @@
 title: "SMS Authentication — Can it Really Protect Your Business?"
 date: "2021-09-02"
 coverImage: "sms-authentication-protect-business-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Ashish Kumar Yadav"
 description: "Protecting your business with two-factor/ multi-factor authentication is a great way to keep unauthorized users away from your confidential data. But are SMS secure enough for this purpose? Are there any other security flaws involved in using SMS for authentication? Let’s find out."

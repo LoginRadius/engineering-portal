@@ -2,7 +2,7 @@
 title: "Cloud Security Challenges Today: Expert Advice on Keeping your Business Safe"
 date: "2019-10-24"
 coverImage: "cloud-computing-security-challenges-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "For business owners and IT professionals around the world, security in the cloud is still a pressing concern. There are a lot of things you need to consider when moving your business to a cloud environment; from data protection, getting the right platform for your needs, how to protect data during transit, and more."

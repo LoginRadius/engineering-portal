@@ -3,7 +3,7 @@ type: fuel
 title: "COVID-19 Vaccine Success in USA and Remote Working – What’s The Connection"
 date: "2021-05-26"
 coverImage: "COVID-vaccines-for-remote-culture.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Navanita Devi"
 description: "With rejuvenated hope, suddenly, talks about returning to the office have become intense. While a complete transition may still seem like a long shot, the USA COVID-19 vaccine success can have a huge impact on the remote working culture. Let’s find out how!"

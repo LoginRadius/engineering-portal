@@ -3,7 +3,7 @@ type: fuel
 title: "The Ultimate Guide To Get Traffic From Reddit"
 date: "2017-03-30"
 coverImage: "The-Ultimate-Guide-To-Get-Traffic-From-Reddit.png"
-category: ["Marketing"," technology"]
+tags: ["Marketing"," technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Is quality traffic important for your website? Of course it is. Then make sure you have Reddit in the list by following this ultimate Reddit guide."

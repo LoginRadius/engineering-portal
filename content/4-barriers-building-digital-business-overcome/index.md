@@ -2,7 +2,7 @@
 title: "4 Barriers to Building a Digital Business and How to Overcome Them"
 date: "2018-08-02"
 coverImage: "4-barriers-building-digital-business-overcome.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "The world is becoming increasingly digital because consumers demand faster service and convenience from their business transactions. This shift toward digitalization requires businesses to change the way they operate. Learn about the major barriers that traditional companies face in the online space and how to overcome them."

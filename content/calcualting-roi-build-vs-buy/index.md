@@ -2,7 +2,7 @@
 title: "Calculating ROI, Build vs Buy (Part 1)"
 date: "2021-03-31"
 coverImage: "calcualting-roi-build-vs-buy-cover.jpg"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false
 author: "Cooper Matheson"
 description: "Most businesses with legacy systems are stuck between choosing to maintain an existing in-house system, investing in building a new in-house system, or working with a vendor. Making the wrong decision can be expensive. This blog is a multi-part series where we have outlined the value of working with LoginRadius over maintaining and building up your existing systems."

@@ -2,7 +2,7 @@
 title: "Presenting: Progressive Profiling from LoginRadius"
 date: "2019-02-07"
 coverImage: "Presenting-Progressive-Profiling-from-LoginRadius-V01.01_cover.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false
 author: "Deepak Gupta"
 description: "A new feature of the LoginRadius Identity Platform is progressive profiling, which gradually collects data from customers in an automated way."

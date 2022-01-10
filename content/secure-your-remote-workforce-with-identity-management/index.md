@@ -3,7 +3,7 @@ type: fuel
 title: "7 Best Practices for Securing Your Remote Workforce with Identity Management"
 date: "2021-08-04"
 coverImage: "remote-workforce.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "Learn about the best practices to ensure cybersecurity for remote workers using identity management"

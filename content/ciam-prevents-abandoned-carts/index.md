@@ -3,7 +3,7 @@ type: fuel
 title: "How CIAM can help in Preventing Abandoned Carts"
 date: "2021-11-16"
 coverImage: "cart-abandon.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Rashmi Mathur"
 description: "Shoppers leave their carts behind all the time. When this happens, it usually means that they're abandoning their purchase but also that they're possibly losing interest in your brand altogether. This blog takes a deeper look into how CIAM can stop the issue of abandoned carts."

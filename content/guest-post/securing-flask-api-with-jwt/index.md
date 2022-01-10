@@ -642,7 +642,7 @@ class Books:
         if title: data["title"]=title
         if description: data["description"]=description
         if image_url: data["image_url"]=image_url
-        if category: data["category"]=category
+        if tags: data["category"]=category
 
         book = db.books.update_one(
             {"_id": bson.ObjectId(book_id)},

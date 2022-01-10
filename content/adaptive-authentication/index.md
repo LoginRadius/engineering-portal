@@ -2,7 +2,7 @@
 title: "Adaptive Authentication- Is it the Next Breakthrough in Consumer Authentication?"
 date: "2021-07-15"
 coverImage: "adaptive-authentication.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Vishal Sharma"
 description: "Adaptive authentication is a game-changer for enterprises that require strong fencing to protect consumer and enterprise data. Here’s a quick read depicting the role and need for adaptive authentication instead of just multi-factor authentication."

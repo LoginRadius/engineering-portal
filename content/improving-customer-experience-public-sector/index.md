@@ -2,7 +2,7 @@
 title: "Improving Customer Experience in the Public Sector"
 date: "2018-10-26"
 coverImage: "improving-customer-experience-public-sector.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
 description: "When people think of the experience of online users, they will not consider it relevant in the public sector. LoginRadius is currently helping a variety of public sector organisations enhance their customer service in various ways."

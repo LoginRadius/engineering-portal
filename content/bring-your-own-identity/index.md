@@ -2,7 +2,7 @@
 title: "The Rise of BYOI (Bring your own Identity)"
 date: "2021-07-09"
 coverImage: "bring-your-own-identity-cover.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Saikiran Babladi"
 description: "The idea of bringing one's own identity has caught the imagination of every digital consumer. By allowing your consumers to log in with an existing set of credentials, you make it easy for them to sign up for an account with you—increasing your overall conversion rate."

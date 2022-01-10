@@ -3,7 +3,7 @@ type: fuel
 title: "13 Tips for Leading and Managing Remote Teams"
 date: "2021-02-12"
 coverImage: "tips-managing-remote-team.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Vikas Soni"
 description: "Educating employees about the purpose of remote working can help them understand the importance of maintaining a healthy work-from-home culture. Here are some remote working tips that can ease the pressure and challenges of the work-from-home model for organizations and their management."

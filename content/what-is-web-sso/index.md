@@ -2,7 +2,7 @@
 title: "What is Web SSO"
 date: "2021-06-10"
 coverImage: "what-is-web-sso.png"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Vaibhav Jain" 
 description: " Web SSO is a part of Single Sign-On that brings everything together. Each consumer has one account and one set of credentials that they can use anywhere to interact with your brand. Failing to use SSO will make your consumers notice you in a bad light as they try to navigate your apps and services."

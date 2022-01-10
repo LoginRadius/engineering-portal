@@ -3,7 +3,7 @@ type: fuel
 title: "3 Product Marketing Tips for B2C CMOs"
 date: "2021-06-14"
 coverImage: "Product-marketing.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Srishti Singh"
 description: "Choosing the right product marketing strategy can assist you in taking your product to the next level. Read this detailed article to find out how your company can benefit by adopting an effective product marketing strategy."

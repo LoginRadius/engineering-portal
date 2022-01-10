@@ -2,7 +2,7 @@
 title: "Social Engineering Attacks: Prevention and Best Practices [Infographic]"
 date: "2020-10-06"
 coverImage: "social-engineering-attack.png"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "Over the years, social engineering attacks have been a regular phenomenon against companies. It has actually become more and more sophisticated. It is high time for businesses to perform careful research and use the right instruments to remain ahead of fraudsters."

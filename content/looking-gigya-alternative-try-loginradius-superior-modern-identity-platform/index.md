@@ -2,7 +2,7 @@
 title: "Looking for a Gigya Alternative? Try LoginRadius, a Superior and Modern Identity Platform"
 date: "2019-02-20"
 coverImage: "STUPID-WPPPPPPP-1.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
 description: "The Gigya technology may not have changed (yet), but it has dramatically changed the business that provides it. Now is the moment to start searching for the best alternatives to Gigya."

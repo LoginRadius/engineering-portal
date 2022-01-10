@@ -1,9 +1,9 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 
 import styles from "./author.module.scss"
-import CardList from "../components/cardList"
-import SEO from "../components/seo"
+import CardList from "../../components/cardList"
+import SEO from "../../components/seo"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -13,8 +13,7 @@ import {
   faStackOverflow,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons"
-
-export default ({
+const AuthorTemplate = ({
   data: {
     authorYaml: { id, bio, github, stackoverflow, linkedin, medium, twitter },
     allMarkdownRemark: { edges: postNodes },
@@ -117,10 +116,12 @@ export default ({
   </Layout>
 )
 
+export default AuthorTemplate
+
 export const pageQuery = graphql`
-  query PostsByAuthorId($authorId: String!) {
+  query PostsByAuthorId($id: String!) {
     allMarkdownRemark(
-      filter: { fields: { authorId: { eq: $authorId } } }
+      filter: { fields: { authorId: { eq: $id } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -150,7 +151,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    authorYaml(id: { eq: $authorId }) {
+    authorYaml(id: { eq: $id }) {
       id
       bio
       github

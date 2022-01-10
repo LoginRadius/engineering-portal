@@ -2,7 +2,7 @@
 title: "How to Evaluate the Quality of Your User Authentication System"
 date: "2021-11-18"
 coverImage: "verification.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Arpita Garg"
 description: "Whether we talk about data leaks or identity thefts, businesses that become victims of security breaches compromise their brand reputation and lose millions of dollars every year. Hence, robust authentication and authorization mechanisms become a necessity and not just a luxury. Let’s understand how businesses can evaluate the quality of a user authentication system."

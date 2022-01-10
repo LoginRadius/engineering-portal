@@ -204,7 +204,7 @@ const Post = ({ post, relatedPost }) => {
           </div>
 
           <div class={styles.sideBar}>
-            {relatedPost.length ? (
+            {relatedPost && relatedPost.length ? (
               <div class={`${styles.sideBarWidget} ${styles.posts}`}>
                 <h3>Related Posts</h3>
                 {relatedPost.map(({ node }, i) => (

@@ -2,7 +2,7 @@
 title: "LoginRadius presents at KuppingerCole Consumer Identity World"
 date: "2019-10-04"
 coverImage: "kuppingercole-ciw-presentation.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false 
 author: "Deepak Gupta"
 description: "We are enthusiastic about building successful processes at LoginRadius to provide smooth online login experiences. Our CEO, Rakesh Soni, gave an informative presentation at the KuppingerCole Customer Identity World event in Seattle on the importance of collaboration between Marketing and Engineering to achieve this objective. In essence, working together maximises the power of each team by minimising the shortcomings of each team. It is possible to download his presentation here and you can read the review below."

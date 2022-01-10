@@ -2,7 +2,7 @@
 title: "Stand Out from the Crowd: Improve Your Customer Support with CIAM"
 date: "2021-09-14"
 coverImage: "ciam-improve-customer-support-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rajeev Sharma"
 description: "Whether it’s intuitive and personalized user onboarding or a unified view of every consumer, CIAM is becoming the need of the hour for diverse industries. Let’s learn about the endless possibilities of a CIAM that delivers the highest level of customer support services."

@@ -3,7 +3,7 @@ type: fuel
 title: "Shopping Cart Abandoned? 14 Reasons You Must Know About!"
 date: "2017-05-12"
 coverImage: "Shopping-cart-abandoned-14-reasons-you-must-know-about.png"
-category: ["business","Marketing", "technology"]
+tags: ["business","Marketing", "technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Break the Jinx of losing customers at the verge of making a deal! Know and Improve your Cart Abandonment Crisis with These Awesome Solutions."

@@ -2,7 +2,7 @@
 title: "Consumer Data Protection: How to Handle Data Breaches in Your Business"
 date: "2021-05-20"
 coverImage: "how-to-handle-data-breaches-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Vishal Sharma"
 description: "With the increasing number of data breaches across the globe, securely managing consumer data is becoming more crucial than ever before. Here are some efficient ways for consumer data protection that every online business must emphasize to ensure a secure line of defense against cyber-attacks."

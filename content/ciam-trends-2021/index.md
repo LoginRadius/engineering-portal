@@ -2,7 +2,7 @@
 title: "The Top 5 Trends in CIAM We’ve Watched in 2021"
 date: "2021-10-12"
 coverImage: "ciam-trends-2021-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Rakesh Soni"
 description: "The modern CIAM is packed with endless capabilities that ensure robust authentication and eventually help businesses stay ahead of the curve. Here’s the list of CIAM trends that we’ve witnessed in 2021 so far."

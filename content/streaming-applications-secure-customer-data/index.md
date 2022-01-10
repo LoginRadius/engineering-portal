@@ -2,7 +2,7 @@
 title: "Streaming Applications: How to Secure Your Customer Data"
 date: "2020-05-21"
 coverImage: "streaming-apps.png"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta" 
 description: "OTT streaming apps should know how to mitigate data theft. Using a robust identity management solution in online streaming services helps secure digital identities."

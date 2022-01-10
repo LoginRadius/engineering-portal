@@ -2,7 +2,7 @@
 title: "What is Single Sign-On (SSO)"
 date: "2019-05-30"
 coverImage: "What-is-single-sign-on-feature-image.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
 description: "SSO is an essential feature of an Identity and Access Management (IAM) access control platform. User identity authentication is important when it comes to understanding which permissions a user will have. One example of controlling access that integrates user identity management solutions with SSO solutions is the LoginRadius Identity platform."

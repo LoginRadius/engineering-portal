@@ -2,7 +2,7 @@
 title: "LoginRadius Bans Video Conferencing App ‘Zoom’ Over Security Concerns"
 date: "2020-04-23"
 coverImage: "LoginRadius-Bans-Zoom.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Deepak Gupta"
 description: "Because of security issues, LoginRadius has forbidden the use of the Zoom video conferencing software by LoginRadius employees."

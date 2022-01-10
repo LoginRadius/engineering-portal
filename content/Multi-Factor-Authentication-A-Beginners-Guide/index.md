@@ -2,7 +2,7 @@
 title: "Multi-Factor Authentication - A Beginner’s Guide"
 date: "2021-03-23"
 coverImage: "MFA-Loginradius.jpg"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false
 author: "Ashish Kumar Yadav"
 description: "MFA or multi-factor authentication is a feature widely used by businesses to ensure that the consumers coming on their website are actually who they say they are. There are multiple ways to implement multifactor authentication. We will get to them one by one in this blog."

@@ -2,7 +2,7 @@
 title: "How to Strike the Right Balance Between Security and Consumer Experience"
 date: "2021-07-22"
 coverImage: "balancing-security-cx-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Srishti Singh"
 description: "Delivering a perfect harmony of a great user experience along with the highest level of security is crucial today. Let’s learn why a great user experience shouldn’t be compromised for security and how LoginRadius helps enterprises create great personalized user experiences reinforced by strict security."

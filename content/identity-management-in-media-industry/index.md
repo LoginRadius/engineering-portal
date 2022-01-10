@@ -2,7 +2,7 @@
 title: "The Role of Identity management in the media industry"
 date: "2021-04-21"
 coverImage: "identity-management-in-media-industry-cover.jpg"
-category: ["all", "Security"]
+tags: ["all", "Security"]
 featured: false 
 author: "Vishal Sharma"
 description: "Media industry has witnessed a tremendous digital transformation journey. But besides the rapid technological enhancement of the media industry, several security challenges linger on businesses serving in this vertical. Here’s an insightful read depicting the role of identity management in the media industry."

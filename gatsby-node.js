@@ -4,35 +4,10 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
-
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const tagTemplate = path.resolve("./src/templates/tag.js")
-  const authorPage = path.resolve("src/templates/author.js")
   const result = await graphql(
     `
       {
-        siteSearchIndex {
-          index
-        }
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-                authorId
-              }
-              frontmatter {
-                title
-                tags
-                pinned
-                type
-              }
-            }
-          }
-        }
         tagsGroup: allMarkdownRemark(limit: 2000) {
           group(field: frontmatter___tags) {
             fieldValue
@@ -46,20 +21,6 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
-
-  posts.forEach(post => {
-    createPage({
-      path: `/${post.node.frontmatter.type}${post.node.fields.slug}`,
-      component: blogPost,
-      context: {
-        slug: post.node.fields.slug,
-        tags: post.node.frontmatter.tags || [],
-      },
-    })
-  })
-
   // Extract tag data from query
   const tags = result.data.tagsGroup.group
   // Make tag pages
@@ -69,26 +30,6 @@ exports.createPages = async ({ graphql, actions }) => {
       component: tagTemplate,
       context: {
         tag: tag.fieldValue,
-      },
-    })
-  })
-
-  // resolves from the query from 👆
-  const authorSet = new Set()
-  result.data.allMarkdownRemark.edges.forEach(edge => {
-    if (edge.node.fields.authorId) {
-      authorSet.add(edge.node.fields.authorId)
-    }
-  })
-
-  // create author's pages inside export.createPages:
-  const authorList = Array.from(authorSet)
-  authorList.forEach(author => {
-    createPage({
-      path: `/author/${_.kebabCase(author)}/`,
-      component: authorPage,
-      context: {
-        authorId: author,
       },
     })
   })

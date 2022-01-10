@@ -2,7 +2,7 @@
 title: "Take Control of Your CIAM Environment with LoginRadius' Private Cloud"
 date: "2021-12-07"
 coverImage: "lr-private-cloud.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Manish Tiwari"
 description: "Businesses relying on conventional consumer IAMs aren’t aware that they’re not just putting their consumer information at risk but are also missing endless business opportunities. This blog explains how LoginRadius’ CIAM solution offers a private cloud that helps businesses take total control over every aspect of their business."

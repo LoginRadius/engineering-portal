@@ -3,7 +3,7 @@ type: fuel
 title: "Why Should You Have A Blue Checkmark In Front of Your Twitter Account"
 date: "2021-06-04"
 coverImage: "twitter-verified-account.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Rashmi Mathur"
 description: "While it may not be as important as it once was, the mainstream media is still a dominant way to build your online reputation, especially on Twitter. So, if you want to improve your brand recognition on Twitter, start by showing you are one of the 1 in 1,000 accounts deserving of a blue checkmark."

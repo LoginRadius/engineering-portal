@@ -3,10 +3,9 @@ type: fuel
 title: "The Anatomy Of A Perfect About Us Page"
 date: "2017-07-06"
 coverImage: "the-anatomy-of-perfect-about-us-page.png"
-category: ["business", "general", "loginradius"]
+tags: ["business", "general", "loginradius"]
 featured: false
 author: "Deepak Gupta"
-tags: ["Engineering"]
 description: "Trying to find the Best tools to create highly responsive web designs? Here your one stop shop to find everything you need to make your website more responsive"
 metatitle: "The Anatomy Of A Perfect About Us Page"
 metadescription: "Learn with resourceful examples and effective tips to create the best About Us for your website. Also, find out what the About Us page content should look like."

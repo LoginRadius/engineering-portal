@@ -3,7 +3,7 @@ type: fuel
 title: "Benefits of Google Tag Manager — Easy To Use And Easy To Launch"
 date: "2021-05-11"
 coverImage: "Google-Tag-Manager.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Rashmi Mathur"
 description: "Google Tag Manager provides a simple, cost-effective solution for managing all of your tags and code snippets. It is even free for small teams. With powerful yet easy-to-learn tools, Google Tag Manager lets you track data across all of your digital channels."

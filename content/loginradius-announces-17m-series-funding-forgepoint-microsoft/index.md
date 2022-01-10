@@ -2,7 +2,7 @@
 title: "LoginRadius Announces $17M Series A Funding from ForgePoint and Microsoft"
 date: "2018-07-24"
 coverImage: "loginradius-announces-17m-series-funding.jpg"
-category: ["all", "industry-news", "other"]
+tags: ["all", "industry-news", "other"]
 featured: false 
 author: "Rakesh Soni" 
 description: "LoginRadius, led by ForgePoint Capital and Microsoft's venture fund, M12, has raised $17 million in Series A funding. Both businesses will also join our board in conjunction with the funding to further our collaboration, product and innovation cycles."

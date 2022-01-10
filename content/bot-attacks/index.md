@@ -2,7 +2,7 @@
 title: "How To Secure Your Contact Form From Bot Attacks"
 date: "2020-12-24"
 coverImage: "Bot-attacks-Cover.png"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "It is no surprise that the contact form attracts a lot of bot attacks. Hackers not only create false traffic, but also result in malicious attacks on websites. The objective of this blog is to help you to secure contact form from random audacious attacks."

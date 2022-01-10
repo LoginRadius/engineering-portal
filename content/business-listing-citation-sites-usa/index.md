@@ -3,7 +3,7 @@ type: fuel
 title: "Free Local Business Listing (USA) : Top 60+ Tested Citation Sites 2017"
 date: "2017-02-03"
 coverImage: "Free-Business-Listing-USA-60-Tested-Citation-Sites-2017.png"
-category: ["marketing", "loginradius"]
+tags: ["marketing", "loginradius"]
 featured: false
 author: "Deepak Gupta"
 description: "Are you looking for USA citation websites to get your business listed in 2017? Check out this exclusive list of 60+ practically tested free business listing sites.  "

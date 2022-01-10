@@ -2,7 +2,7 @@
 title: "Refresh Tokens: When to Use Them and How They Interact with JWTs"
 date: "2021-08-24"
 coverImage: "refresh-tokens-jwt-interaction-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Saikiran Babladi"
 description: "A token plays a crucial role in enhancing the overall security mechanism of an organization. This blog provides an overview of using refresh tokens and how it helps securely authenticate users without hampering their overall experience."

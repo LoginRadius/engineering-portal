@@ -2,7 +2,7 @@
 title: "IOM X, a LoginRadius Customer Success Story"
 date: "2017-03-01"
 coverImage: "customer-success-story-iom-x.png"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false
 author: "Karl Wittig"
 description: "We take a break from tip-giving. Here's a real-life instance of LoginRadius in motion, collaborating with IOM X to solve the numerous problems and optimise their marketing metrics."

@@ -2,7 +2,7 @@
 title: "7 Common Web Application Security Threats"
 date: "2021-01-29"
 coverImage: "7-Common-Web-Application-Security-Threats-cover.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "To ensure adequate safety against web application security threats, businesses should incorporate security consideration in the applications' development phase. Unfortunately, most developers tend to hold it off until the end."

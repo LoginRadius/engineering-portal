@@ -2,7 +2,7 @@
 title: "How to Scale Your Business Quickly with Identity Management"
 date: "2021-07-29"
 coverImage: "scale-business-with-identity-management-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Rakesh Soni"
 description: "Identity management is much more than just a security mechanism for securing consumer data and sensitive business information; it helps businesses accelerate growth. Learn how a CIAM solution can help businesses securely manage consumer identities and build trust that fosters growth."

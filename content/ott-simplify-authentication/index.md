@@ -2,7 +2,7 @@
 title: "How OTT Services can Simplify Authentication on Various Devices"
 date: "2021-08-10"
 coverImage: "ott-simplify-authentication-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Manish Tiwari"
 description: "In this post, we’ll understand the importance of secure authentication through a consumer identity and access management (CIAM) solution and how it paves the path for safeguarding consumer identities on different devices for OTT platforms."

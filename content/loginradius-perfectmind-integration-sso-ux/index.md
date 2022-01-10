@@ -2,7 +2,7 @@
 title: "LoginRadius Offers PerfectMind Integration for a Seamless UX"
 date: "2021-12-14"
 coverImage: "perfectmind-cover.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Jitender Agarwal"
 description: "LoginRadius’ cutting-edge single sign-on helps overcome all the challenges related to consumer experience and data integration.  Let’s understand how LoginRadius paves the path for a robust user experience by integrating PerfectMind."

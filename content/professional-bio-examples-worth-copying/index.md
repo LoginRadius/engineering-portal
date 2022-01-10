@@ -3,7 +3,7 @@ type: fuel
 title: "5 Fantastic Professional Bio Examples You Can’t Resist Copying"
 date: "2017-07-27"
 coverImage: "5-Fantastic-Professional-Bio-Examples-You-Can’t-Resist-Copying-300x169.jpg"
-category: ["business", "general", "marketing", "content"]
+tags: ["business", "general", "marketing", "content"]
 featured: false
 author: "Sudhanshu Agarwal"
 description: "Need a professional bio to get inspired to? I give you 5 such professional bio examples that you can't resist stealing. Read on and check it yourself."

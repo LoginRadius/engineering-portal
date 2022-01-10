@@ -3,7 +3,7 @@ type: fuel
 title: "Top 5 Marketing Strategies to Power-up Your Business"
 date: "2021-04-15"
 coverImage: "top-5-marketing-strategy.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "If you want to keep your consumers engaged, you need to avoid using the same marketing strategies over and over. This can bore your audience and cause them to forget about you. Your marketing efforts should be dynamic, which means one strategy won’t cut it for very long; that’s why you should keep reevaluating your strategies as the market grows."

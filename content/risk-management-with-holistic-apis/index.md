@@ -2,7 +2,7 @@
 title: "Move beyond Traditional Risk Management with Holistic APIs"
 date: "2021-06-01"
 coverImage: "risk-management-with-holistic apis-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "Organizations are now struggling more than ever before to face new risks, vulnerabilities, and privacy issues since they adopted a paradigm shift to remote working. This valuable read focuses on the importance of the adequate deployment of APIs that further reduces vulnerabilities and helps maintain a unified user experience."

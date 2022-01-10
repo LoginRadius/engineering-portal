@@ -3,7 +3,7 @@ type: fuel
 title: "Top 10 Tips to Enhance Your Creativity While Working From Home"
 date: "2021-04-14"
 coverImage: "work-from-home-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "Working from home has its pros and cons. You can enjoy quality time with your family, save on travel expenses, and focus more on your kids. On the other hand, you might get bored after a while, miss those chats with your colleagues near the cooler, or yearn to go outside and breathe in fresh air. Here are some tips you can try to enhance your creativity while working from home."

@@ -2,7 +2,7 @@
 title: "Cybersecurity Awareness Month: Predicting the Deadliest Cyber Attacks in 2022"
 date: "2021-10-05"
 coverImage: "cybersecurity-attacks-business.jpg"
-category: ["LoginRadius", "security"]
+tags: ["LoginRadius", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "Cybersecurity incidents take place by various means every day. From virtual banking breaches to semi-open attacks, 2021 has been rough on IT security. But, how did we get to this point of compromise and uncertainty?"

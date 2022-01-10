@@ -3,7 +3,7 @@ type: fuel
 title: "North Star Metric: 6 steps to discover your NSM"
 date: "2021-01-05"
 coverImage: "north-star-metrics.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Archna Yadav"
 description: "In industry, the North Star Metric was developed to give businesses a singular focus on a single objective. Instead of being distracted by everyday matters or individual tasks, everyone can always evaluate success by whether or not they are advancing the organisation using this metric."

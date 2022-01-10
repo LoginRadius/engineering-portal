@@ -2,7 +2,7 @@
 title: "Marriott Data Breach 2020: 5.2 Million Guest Records Were Stolen"
 date: "2020-04-13"
 coverImage: "marriott-data-breach.jpg"
-category: ["other"]
+tags: ["other"]
 featured: false 
 author: "Deepak Gupta"
 description: "Marriott International experienced a new data breach in mid-January 2020, which affected about 5.2 million guests."

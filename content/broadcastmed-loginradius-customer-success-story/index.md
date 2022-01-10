@@ -2,7 +2,7 @@
 title: "BroadcastMed, a LoginRadius Customer Success Story"
 date: "2018-07-05"
 coverImage: "LR-and-BroadcastMed.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false
 author: "Karl Wittig"
 description: "BroadcastMed has been innovating digital strategies for healthcare providers and organizations. How loginradius assist them in managing user identities."

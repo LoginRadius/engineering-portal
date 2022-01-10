@@ -2,7 +2,7 @@
 title: "What is User Management"
 date: "2021-03-16"
 coverImage: "what-is-user-management-loginradius.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "Though user management has been around for a long time now, especially within the IAM and ITAM space, it has assumed new importance with introducing cloud-based subscriptions. Recent trends show that there is a sure shift to cloud-based IAM, granting administrators greater access and control over digital assets management."

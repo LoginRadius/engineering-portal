@@ -3,7 +3,7 @@ type: fuel
 title: "Can Authentication Convert Sales? 4 Authentication Tools for Every Retailer"
 date: "2021-11-08"
 coverImage: "auth-tools.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Navanita Devi"
 description: "Authentication is a serious process that can help you convert sales. In many cases, it determines whether a customer will take the time to complete a purchase. Therefore, it is important for your store to have multiple layers of security throughout the checkout process."

@@ -2,7 +2,7 @@
 title: "How to Find the Right SSO Strategy that Fits Your Business"
 date: "2021-10-25"
 coverImage: "sso-business-strategy.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Manish Tiwari"
 description: "In a competitive business environment, SSO (Single Sign-On) establishes a flawless user experience while providing the highest level of security and efficiency. Enterprises need to put their best foot forward in defining the right SSO strategy that fits right for their organization and helps pave the way for overall success."

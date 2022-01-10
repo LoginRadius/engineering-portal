@@ -3,7 +3,7 @@ type: fuel
 title: "Consumer Onboarding Strategies for SaaS Businesses"
 date: "2021-06-17"
 coverImage: "customer-onboarding.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Vishal Sharma"
 description: "Here’s the list of essential client onboarding strategies for SaaS businesses that yield better conversions when you have already allocated resources in terms of time, money, and energy for acquiring your consumers."

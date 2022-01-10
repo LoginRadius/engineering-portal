@@ -2,7 +2,7 @@
 title: "The Future of Authentication is Passwordless With Magic links"
 date: "2021-05-05"
 coverImage: "passwordless-magic-links-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Navanita Devi"
 description: "By opting to add the magic link feature to your mobile apps or email accounts, you are likely trying to make your mobile app or site user-friendly, contributing to a strong security strategy. Here are some reasons for which you can opt passwordless magic links."

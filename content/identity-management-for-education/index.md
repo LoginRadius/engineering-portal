@@ -2,7 +2,7 @@
 title: "Why Identity Management for Education Sector has Become Crucial"
 date: "2020-07-08"
 coverImage: "Identity-Management-for-Education.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni"
 description: "There is a notable increase in e-learning from the last couple of months. Many educational institutions are already facing security crises and trying their best to sustain."

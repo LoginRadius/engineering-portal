@@ -3,7 +3,7 @@ type: fuel
 title: "Inbound Vs Outbound: Which Marketing Strategy is Best for You"
 date: "2021-03-31"
 coverImage: "marketing-plan.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Shachindra Saxena"
 description: "Inbound marketing and outbound marketing are the two most important strategies in today's marketing strategy. Many companies employ both in accordance with their requirements. Let’s take a closer look at inbound vs. outbound marketing to understand which approach best suits your business."

@@ -3,7 +3,6 @@ type: fuel
 title: "10 Smart Tips to Make You More Resilient At Office"
 date: "2017-04-07"
 coverImage: "10-Smart-Tips-to-Make-You-More-Resilient-At-Office.png"
-category: ["All"]
 featured: false
 author: "Sudhanshu Agarwal"
 tags: ["Engineering"]

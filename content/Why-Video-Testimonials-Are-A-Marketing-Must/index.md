@@ -3,7 +3,7 @@ type: fuel
 title: "Why Video Testimonials Are A Marketing Must"
 date: "2021-04-16"
 coverImage: "video-testimonial-client-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Srishti Singh"
 description: "Video testimonials offer more credibility than text-based reviews. They are much more effective in educating your target audience and increasing their trust in your brand. So, start focusing more on video testimonials instead of investing resources for developing text-based marketing collaterals. With time, you will get better at it and see an increase in sales."

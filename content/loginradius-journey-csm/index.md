@@ -3,7 +3,7 @@ type: fuel
 title: "A Glimpse into My 1-Year Journey at LoginRadius as a CSM!"
 date: "2021-06-17"
 coverImage: "loginradius-journey-csm-cover.jpg"
-category: ["LoginRadius"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Jennifer Chan"
 description: "LoginRadius has been a part of my life for more than a year now. A lot has happened and tons learned during the past year. I am ecstatic to share my journey, responsibilities, and my day-to-day activities as a Customer Success Manager at LoginRadius."

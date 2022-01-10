@@ -2,7 +2,7 @@
 title: "What is CIAM? - Discover The Benefits (Updated)"
 date: "2019-06-03"
 coverImage: "feature-image-2-1.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false
 author: "Rakesh Soni"
 description: "The customer login experience is taken over by customer identity and access management (CIAM). There's more than just registration and authentication at stake. You're losing out on a host of advantages if all you get from your clients when they log in is an email address to send newsletters and passwords. We illustrate in this article how CIAM will help the organisation face the future head-on."

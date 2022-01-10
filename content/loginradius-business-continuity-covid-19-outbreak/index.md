@@ -2,7 +2,7 @@
 title: "LoginRadius Announces Its Business Continuity Plan to Fight COVID-19 Outbreak"
 date: "2020-03-17"
 coverImage: "loginradius-business-continuity.png"
-category: ["LoginRadius" , "industry-news"]
+tags: ["LoginRadius" , "industry-news"]
 featured: false 
 author: "Rakesh Soni"
 description: "COVID-19 is a global epidemic which demands action that is decisive and robust."

@@ -2,7 +2,7 @@
 title: "How Cities Can Improve Civilians’ Digital Experience with Unified Identity"
 date: "2021-08-25"
 coverImage: "smart-cities-improve-unified-identity-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Sudhanshu Agarwal"
 description: "Civilian engagement is a significant factor that can offer valuable insights to enhance the current services that pave the path for the region’s overall development. This post highlights the role of digital identities in supporting the idea of smart cities."

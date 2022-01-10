@@ -2,7 +2,7 @@
 title: "How Companies can Enable Account security for their Consumers"
 date: "2021-04-09"
 coverImage: "account-security-consumers-cover.jpg"
-category: ["all", "Security"]
+tags: ["all", "Security"]
 featured: false
 author: "Navanita Devi"
 description: "The increasing concern for security makes it important for all businesses to know how to protect consumer privacy. As technology advances rapidly, businesses should keep track of the emerging cybersecurity trends and upgrade their data security systems accordingly. Here are the enterprise best practices to enable account security for consumers."

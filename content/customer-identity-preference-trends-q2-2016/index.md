@@ -2,7 +2,7 @@
 title: "Customer Identity Preference Trends Q2 2016"
 date: "2016-08-16"
 coverImage: "customer-identity-preference-trends-q2-2016.png"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "Now's the time when you measure expectations for consumer identity and understand what's right for you."

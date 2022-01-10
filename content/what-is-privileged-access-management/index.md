@@ -2,7 +2,7 @@
 title: "A Comprehensive Guide to Privileged Access Management (PAM)"
 date: "2021-08-26"
 coverImage: "what-is-privileged-access-management-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Bhavya Tugnawat" 
 description: "Privileged access management—finding the right balance between security and convenience. This blog explains why PAM matters, highlights its key features and strategies that the organization should use to ensure the proper implementation of PAM."

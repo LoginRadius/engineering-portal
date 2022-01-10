@@ -2,7 +2,7 @@
 title: "5 Best Practices of Implementing Business Resilience during a Data Breach"
 date: "2021-02-18"
 coverImage: "business-resilience.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Deepak Gupta"
 description: "Business resilience can be defined as a business’ ability to quickly adapt and respond to impending risks or disruptions. More like a combination of crisis management and business continuity strategies post-disaster."

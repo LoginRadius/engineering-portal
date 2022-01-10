@@ -2,7 +2,7 @@
 title: "What Is a Salt and How Does It Boost Security?"
 date: "2021-04-16"
 coverImage: "what-is-salt-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Navanita Devi"
 description: "Ensuring that your passwords and data are safe is a top priority. Hashing and salting of passwords and cryptographic hash functions ensure the highest level of protection. By adding salt to your password, you can effectively thwart even the strongest password attacks."

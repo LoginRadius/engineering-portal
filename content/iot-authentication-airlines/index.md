@@ -2,7 +2,7 @@
 title: "IoT authentication in the airline industry"
 date: "2021-03-24"
 coverImage: "iot-authentication-airlines-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
 description: "The best aspect of IoT authentication in the airline industry or the general use of IoT is the convenience that it brings. It can ease the anxiety of a passenger as they receive reassurance that their data will not see the light of day. In addition, it ensures the required protective measures on the cybersecurity front."

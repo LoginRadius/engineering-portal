@@ -2,7 +2,7 @@
 title: "Single-Page Applications: Building A Secure Login Pathway with LoginRadius"
 date: "2020-09-03"
 coverImage: "single-page-application.png"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Deepak Gupta"
 description: "Single-page apps, or SPAs, are web applications that load and update a single HTML page by dynamically rendering details from the browser as (and when) a user interacts with the programme."

@@ -2,7 +2,7 @@
 title: "5 Ways User Onboarding Software Can Revamp Your Application"
 date: "2021-01-27"
 coverImage: "user-onboarding-application.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "The onboarding process should be a mix of inspiration, education, timely and actionable insights. Each product is unique, and how you are going to handle the onboarding will help you to know about your users, their needs, and how your product is going to stay with them."

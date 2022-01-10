@@ -3,7 +3,7 @@ type: fuel
 title: "How to Achieve a 360-Degree Growth with Data-Driven Approach"
 date: "2021-01-25"
 coverImage: "360-degree-growth-with-data-driven.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Shachindra Saxena"
 description: "In order to optimize their marketing efforts, marketers are continually searching for a better plan, and a 360 data driven approach would be crucial to unravelling the required customer insights."

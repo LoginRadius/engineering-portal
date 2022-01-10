@@ -3,7 +3,7 @@ type: fuel
 title: "B2B Lead Generation for 2021: 11 Proven Strategies"
 date: "2021-03-31"
 coverImage: "B2B-marketing-strategies-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Srishti Singh"
 description: "Whether it is B2C or B2B lead generation, anyone interested in what you have to offer becomes part of the target audience. However, there are a few differences between B2B and B2C lead generation, especially in terms of the approach and buying process. In this article, we take a closer look at what exactly B2B lead generation is and tips for 2021."

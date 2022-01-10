@@ -2,7 +2,7 @@
 title: "Why Should You be Customizing Your Identity System to Your Needs"
 date: "2021-09-07"
 coverImage: "identity-system-customization-cover.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false 
 author: "Manish Tiwari"
 description: "Customizing a user identity system is a whole different concept and isn’t just limited to adding a personalized greeting for a user with their name. Let’s understand this in detail."

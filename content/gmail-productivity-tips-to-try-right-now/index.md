@@ -3,7 +3,7 @@ type: fuel
 title: "11 Gmail Productivity Tips You Need To Try Right Now"
 date: "2017-03-10"
 coverImage: "11-Gmail-Productivity-Tips-You-need-to-try-right-now.png"
-category: ["business", "general", "technology", "loginradius"]
+tags: ["business", "general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Finding yourself doing repetitive Gmail tasks? Here are some brilliant Gmail hacks to boost your productivity to the next level. Try now!"

@@ -2,7 +2,7 @@
 title: "LoginRadius Delivers a Seamless User Experience that Increases Conversions through Enhanced Progressive Profiling"
 date: "2021-10-05"
 coverImage: "loginradius-progressive-profiling-cover.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false
 author: "Govind Malviya"
 description: "Progressive Profiling helps businesses to split a potentially complicated registration process into multiple steps. you can capture business-critical information upfront and then slowly build out a holistic view of your consumers through subsequent actions."

@@ -2,7 +2,7 @@
 title: "Why is PKI The Future of Secure Communications"
 date: "2021-10-26"
 coverImage: "pki-cover.jpg"
-category: ["all", "Security"]
+tags: ["all", "Security"]
 featured: false
 author: "Vishal Sharma"
 description: "With PKI, one can ensure that data is adequately encrypted during transit, ensuring only the authorized user can access the data. Let’s understand what PKI is and how it paves the path for secure encryption for businesses."

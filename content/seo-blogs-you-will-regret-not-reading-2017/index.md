@@ -3,7 +3,7 @@ type: fuel
 title: "10 SEO Blogs You Will Regret Not Reading In 2017 (Hidden Gems Inside!)"
 date: "2017-03-09"
 coverImage: "10-SEO-Blogs-You-Will-Regret-Not-Reading-In-2017.png"
-category: ["general", "technology", "loginradius", "business"]
+tags: ["general", "technology", "loginradius", "business"]
 featured: false 
 author: "Deepak Gupta"
 description: "Reading top blogs is a no brainer if you want to get the latest SEO trends but unlike popular ones, this post enlists blogs you will regret not reading in 2017"

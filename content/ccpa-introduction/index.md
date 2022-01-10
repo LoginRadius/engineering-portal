@@ -2,7 +2,7 @@
 title: "California's CCPA 2.0 Passed: Everything You Need to Know About the New CPRA"
 date: "2019-05-03"
 coverImage: "ccpa-certification-copy.png"
-category: ["privacy-and-compliance"]
+tags: ["privacy-and-compliance"]
 featured: false
 author: "Deepak Gupta"
 description: "On November 3, 2020, the voters in California approved the Consumer Privacy Rights Act (on the ballot as Proposition 24) with 56.1% of the vote. This revised version of the CCPA will further strengthen the consumer privacy rights for California citizens."

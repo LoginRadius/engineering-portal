@@ -2,7 +2,7 @@
 title: "Identity Fraud Hits All-Time High in 2017"
 date: "2018-02-20"
 coverImage: "identity-fraud-hits-time-high-2017.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "The rate of identity theft increased in 2017, amid years of fighting and a major shift in the way American debit and credit cards are used."

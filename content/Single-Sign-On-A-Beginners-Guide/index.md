@@ -2,7 +2,7 @@
 title: "Single Sign-On- A Beginner’s Guide"
 date: "2021-03-23"
 coverImage: "sso-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Ashish Kumar Yadav"
 description: "The beauty of single sign-on lies in its simplicity. The feature authenticates you on a one-on-one designated platform, allowing you to utilize tons of available services without having to login and logout every time. Consumers can think of this as similar to the social sign-in via Google, Facebook, Twitter, etc."

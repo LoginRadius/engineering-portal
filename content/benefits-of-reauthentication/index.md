@@ -2,7 +2,7 @@
 title: "Discover the Benefits of Re-Authentication for Enhanced Security"
 date: "2021-09-16"
 coverImage: "benefits-of-reauthentication-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Srishti Singh"
 description: "Re-authentication ensures that hackers don’t get easy access to a system’s content and leverage no other loopholes to exploit sensitive consumer credentials. Apart from internal combustion, re-authentication can also save you from external intrusion."

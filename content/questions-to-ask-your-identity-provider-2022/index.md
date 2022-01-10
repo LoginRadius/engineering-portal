@@ -3,7 +3,7 @@ type: fuel
 title: "What Should You Ask Your Identity Provider in 2022"
 date: "2021-12-21"
 coverImage: "id-provider.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Yash Rathi"
 description: "CIAM is the backbone of every mobile application or website that collects user information. So, if you’re thinking about getting a CIAM solution, here are some questions that you need to ask your identity provider in 2022."

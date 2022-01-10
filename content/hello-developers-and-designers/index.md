@@ -4,7 +4,6 @@ title: "Hello developers and designers!"
 date: "2014-05-02"
 coverImage: "desdev.png"
 author: "Team LoginRadius"
-tags: ["Engineering"]
 ---
 
 Welcome to our new initiative to contribute and spread the learnings/findings we had working with [LoginRadius API](https://docs.loginradius.com/api)!

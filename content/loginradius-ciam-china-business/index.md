@@ -2,7 +2,7 @@
 title: "Announcement - LoginRadius China CIAM for Businesses to Benefit From Its Lucrative Market"
 date: "2020-05-14"
 coverImage: "LoginRadius-China-CIAM.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Govind Malviya"
 description: "With our LoginRadius China CIAM platform, we aim to help businesses securely manage digital identities within the restrictive borders of mainland China."

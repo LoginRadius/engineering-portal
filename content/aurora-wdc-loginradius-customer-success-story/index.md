@@ -2,7 +2,7 @@
 title: "Aurora WDC, a LoginRadius Customer Success Story"
 date: "2017-05-26"
 coverImage: "aurora-wdc-loginradius-customer-success-story.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig"
 description: "Aurora WDC is a leading analytics and intelligence company that has been able, with the aid of LoginRadius, to provide its members with an improved user experience and to better manage their customer relationships."

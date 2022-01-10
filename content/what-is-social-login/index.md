@@ -2,7 +2,7 @@
 title: "What is Social Login"
 date: "2020-02-28"
 coverImage: "what-is-social-login.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Vaibhav Jain" 
 description: "Social login is an attractive feature for developers and businesses that can help streamline consumer verification while also providing more reliable data access for personalization."

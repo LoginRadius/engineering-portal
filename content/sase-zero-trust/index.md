@@ -2,7 +2,7 @@
 title: "10 Reasons For Businesses to Implement SASE with a Zero Trust Strategy"
 date: "2021-06-04"
 coverImage: "sase-zero-trust-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Navanita Devi"
 description: "The perimeter-based reactive methods that were the core of old and traditional security systems have become obsolete. The zero trust security model is the future of cybersecurity. But, it is valuable only when implemented across the company's entire network infrastructure. This is where SASE takes the lead."

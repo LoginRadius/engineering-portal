@@ -2,7 +2,7 @@
 title: "LoginRadius Launches M2M Authorization for Seamless Business Operations"
 date: "2021-12-15"
 coverImage: "m2m-cover.jpg"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Deepak Gupta"
 description: "Machine to Machine (M2M) authorization ensures that business systems communicate autonomously without human intervention and access the needed information securely and reliably."

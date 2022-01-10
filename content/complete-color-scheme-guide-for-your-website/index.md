@@ -3,7 +3,7 @@ type: fuel
 title: "A Complete Color Scheme Guide For Your Website"
 date: "2017-05-19"
 coverImage: "A-Complete-Color-Scheme-Guide-For-Your-Website.jpg"
-category: ["business", "Marketing", "technology"]
+tags: ["business", "Marketing", "technology"]
 featured: false
 author: "Rakesh Soni"
 description: "Don't Know Which Colors will suit your Website? Here's the Complete Guide about Color Scheme that will help you choose the best color palette for your Site."

@@ -2,7 +2,7 @@
 title: "Why Organizations Must Use API-Driven CIAM for Digital Agility"
 date: "2021-02-24"
 coverImage: "digital-agility.jpg"
-category: ["customer-experience", "all"]
+tags: ["customer-experience", "all"]
 featured: false
 author: "Deepak Gupta"
 description: "Digital agility is the ease with which any organization can adapt to changing business needs – by enabling or changing their business processes. For a successful digital transformation, organizations need to invest in resilient business operations, consumer experience initiatives, and technology."

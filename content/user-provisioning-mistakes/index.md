@@ -2,7 +2,7 @@
 title: "Top 5 User Provisioning Mistakes Enterprises Should Avoid in 2021"
 date: "2021-05-20"
 coverImage: "user-provisioning-mistakes-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: " It’s crucial for online businesses that are collecting user information and storing the same over the cloud to ensure data safety best practices are in place to safeguard clients’ identity and privacy. This insightful read lists some of the common mistakes that enterprises must avoid in 2021 and beyond."

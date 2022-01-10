@@ -2,7 +2,7 @@
 title: "Canada To Fine Companies For Not Reporting Data Breaches"
 date: "2017-09-07"
 coverImage: "canada-to-fine-companies.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "The news of Canada to fine companies for not reporting data breaches is making headlines these days. Know what it means for your business."

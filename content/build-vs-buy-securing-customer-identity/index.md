@@ -2,7 +2,7 @@
 title: "Build vs Buy: Securing Customer Identity with Loginradius"
 date: "2020-07-16"
 coverImage: "Build-vs-Buy-Securing-Customer-Identity.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "The most important assets of any company are customer identification and personal data. In most situations, businesses come across two simple options when designing a platform that collects, handles, and uses consumer data: to create or to purchase."

@@ -2,7 +2,7 @@
 title: "Why Financial Industry Needs an Identity Management System Now More Than Ever"
 date: "2020-04-30"
 coverImage: "finance-industry-Identity-management.png"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni"
 description: "A robust identity management system helps financial organizations remain compliant and conduct business in a secure environment."

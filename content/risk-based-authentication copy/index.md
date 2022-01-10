@@ -2,7 +2,7 @@
 title: "What is Risk-Based Authentication"
 date: "2021-02-26"
 coverImage: "risk-based-authentication.png"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Rajeev Sharma"
 description: "RBA is a method of applying various levels of stringency to authentication processes based on the likelihood that the access to a given system could result in it being compromised. As the level of risk increases, authentication becomes more restrictive."

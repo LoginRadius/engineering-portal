@@ -2,7 +2,7 @@
 title: "Login Using Microsoft Account"
 date: "2021-04-15"
 coverImage: "login-using-microsoft-account.png"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false 
 author: "Vaibhav Jain" 
 description: "We have discussed how to use social login with a Microsoft account in this article and how it can benefit companies. This method of login streamlines the sign-in and registration processes, offering a convenient alternative to create accounts wherever needed. Moreover, it relieves the user of the mental burden of remembering multiple passwords created on various websites."

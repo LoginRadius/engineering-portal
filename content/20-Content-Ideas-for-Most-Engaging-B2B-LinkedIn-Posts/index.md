@@ -3,7 +3,7 @@ type: fuel
 title: "20 Content Ideas for Most Engaging B2B LinkedIn Posts"
 date: "2021-03-19"
 coverImage: "linkedin-post-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Srishti Singh"
 description: "Content on LinkedIn makes all the difference to the promotion of a brand. It can make or break one's presence on LinkedIn. Therefore, it is essential to figure out the tone of LinkedIn posts, depending on the target demographic."

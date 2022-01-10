@@ -2,7 +2,7 @@
 title: "Why Big Merchants Need to Deliver a Unified Consumer Experience?"
 date: "2021-06-15"
 coverImage: "unified-cx-retail-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Srishti Singh"
 description: "The concept of unified consumer experience may sound idealistic or poignant, but anyone who rejects it is woefully out of context. Consumers have become a competitive differentiator in today's hyper-competitive and hyper-connected global marketplace. There is tangible business value in maintaining an effective consumer experience."

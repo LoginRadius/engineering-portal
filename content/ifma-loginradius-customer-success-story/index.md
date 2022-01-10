@@ -2,7 +2,7 @@
 title: "IFMA, a LoginRadius Customer Success Story"
 date: "2018-01-15"
 coverImage: "ifma-loginradius-customer-success-story.png"
-category: ["all", "other"]
+tags: ["all", "other"]
 featured: false 
 author: "Karl Wittig" 
 description: "The International Facility Management Association (IFMA) is the largest global association and advisory body for professionals in facility management in the world. IFMA was established in 1980 and offers credentialing, education services, and guidance to professionals in facility management."

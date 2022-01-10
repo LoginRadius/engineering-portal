@@ -3,7 +3,7 @@ type: fuel
 title: "Instagram vs Facebook – Which One is Better for Your Business in 2021?"
 date: "2021-04-28"
 coverImage: "Facebook-Instagram.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Vishal Sharma"
 description: "Even the most experienced video content creators use a system to make sure everything goes smoothly so they don't miss deadlines or lose track of what they need to do next. A transparent plan with checklists and milestones will help you adopt a more professional tone in your videos."

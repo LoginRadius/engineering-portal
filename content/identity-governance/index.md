@@ -2,7 +2,7 @@
 title: "What is Identity Governance & Administration?"
 date: "2020-12-16"
 coverImage: "identity-governance.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false 
 author: "Deepak Gupta"
 description: "Needless to mention, the question of relevant certification of access to specified stakeholders also applies. In an increasingly agility-intensive and virtual work environment, identity governance seems immensely relevant with the automation of policy management and auditing, adding to its benefit."

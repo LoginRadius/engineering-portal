@@ -3,7 +3,7 @@ type: fuel
 title: "LinkedIn: The Best Prospecting Tool (Chapter 2)"
 date: "2017-06-08"
 coverImage: "Linkedin-The-best-prospecting-tool-chapter-2.png"
-category: ["business", "technology", "loginradius", "marketing"]
+tags: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Want to know how to Use LinkedIn Groups as your personal customer database. Cling to the second installment of LinkedIn: The Best Prospecting Tool."

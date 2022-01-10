@@ -4,7 +4,6 @@ title: "Open Source Business Email Validator By Loginradius"
 date: "2017-04-25"
 coverImage: "Open-Source-Business-Validator-By-Loginradius.png"
 author: "Team LoginRadius"
-tags: ["Engineering"]
 ---
 
 While creating Lead Generation form at LoginRadius, Marketers wanted to sure that visitors enter business emails. To that end, I created a list in JSON format to block free mail providers like Gmail, Outlook etc.

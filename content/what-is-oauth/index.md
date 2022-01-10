@@ -2,7 +2,7 @@
 title: "Everything You Need to Know About OAuth and How it Works"
 date: "2021-09-23"
 coverImage: "what-is-oauth-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Vaibhav Jain"
 description: " OAuth is an open standard for authorization. It lets users authorize third-party access to their servers without handing out their username and password. Read this blog to also find about OAuth 2.0 as an authorization framework for delegated access to web APIs."

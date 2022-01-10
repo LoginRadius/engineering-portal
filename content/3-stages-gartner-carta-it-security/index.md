@@ -2,7 +2,7 @@
 title: "3 Best Stages of IT Security for Implementing Gartner's CARTA"
 date: "2021-11-10"
 coverImage: "carta.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Vishal Sharma"
 description: "CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner to help cybersecurity experts ensure a stringent mechanism to handle vulnerabilities."

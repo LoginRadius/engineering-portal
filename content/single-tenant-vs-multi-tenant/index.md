@@ -2,7 +2,7 @@
 title: "Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud [Infographic]"
 date: "2021-02-26"
 coverImage: "single-tenant-vs-multi-tenant-cover.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Deepak Gupta"
 description: "A single-tenant cloud runs on dedicated infrastructure, while a multi-tenant cloud is a single cloud infrastructure built to serve multiple businesses. Check out the infographic by LoginRadius to understand the difference between the two and find out which is the right solution for your business."

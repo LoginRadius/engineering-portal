@@ -3,7 +3,7 @@ type: fuel
 title: "The Ultimate Guide To Create Professional Email Signatures With Examples"
 date: "2017-01-27"
 coverImage: "The-Ultimate-Guide-To-Create-Professional-Email-Signatures-With-Examples.png"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Are you signing your emails the right way? Go over this ultimate guide to create professional email signature with some real life examples."

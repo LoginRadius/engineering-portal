@@ -2,7 +2,7 @@
 title: "Tiroler Tageszeitung (TT), a LoginRadius Customer Success Story"
 date: "2021-09-28"
 coverImage: "tiroler-loginradius-customer-success-story-cover.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false 
 author: "Yash Rathi"
 description: "Read the success story of how LoginRadius helped Tiroler Tageszeitung increase their user base, provide low downtime, and ensure high scalability, among other diverse challenges."

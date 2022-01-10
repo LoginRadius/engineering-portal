@@ -4,7 +4,7 @@ date: "2021-11-08"
 featured: false
 author: "Govind Malviya"
 coverImage: "user-authentication.jpg"
-category: ["security"]
+tags: ["security"]
 description: "When choosing the right authentication option for your product, there’s a lot of confusion and misconceptions that may eventually make it difficult to finalize one or even more."
 metatitle: "Here’s the Ideal Authentication Option for Your Product"
 metadescription: "Choosing an authentication method can be tricky. Here’s an insightful read depicting the different types of authentication and how to choose the best."

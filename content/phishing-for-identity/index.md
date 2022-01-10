@@ -2,7 +2,7 @@
 title: "Phishing Attacks: How to Identify & Avoid Phishing Scams"
 date: "2018-02-13"
 coverImage: "phishing-for-identity.jpg"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false
 author: "Deepak Gupta"
 description: "A Phishing attack can be a death blow for businesses that don't take the necessary precautions. Not only is the top-line affected, but the brand's image and trust can be obliterated if news of a data breach reaches the public. We have hashed out some of the most common types of phishing attacks and how to prevent them."

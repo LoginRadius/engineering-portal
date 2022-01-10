@@ -2,7 +2,7 @@
 title: "A History of Human Identity in Pictures - Part 1"
 date: "2019-08-07"
 coverImage: "history-identity-part-1.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Deepak Gupta"
 description: "The definition of human identity extends back to unrecorded history for thousands of years. We used language, artefacts, and records long before our identities were digitised and stored in databases to reflect and affirm our individuality."

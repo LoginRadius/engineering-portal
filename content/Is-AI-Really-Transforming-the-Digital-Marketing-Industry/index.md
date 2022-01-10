@@ -3,7 +3,7 @@ type: fuel
 title: "Myth or True - Is AI Really Transforming the Digital Marketing Industry?"
 date: "2021-05-18"
 coverImage: "AI-Myth-True.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Ashley Lipman"
 description: "In this article, with AI technology, marketers can spot microtrends and even predict trends and leveraging AI digital marketing to save time and resources through automated digital marketing services."

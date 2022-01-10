@@ -3,7 +3,7 @@ type: fuel
 title: "Omnichannel CX : Your Key to Consumer Experience Success"
 date: "2021-06-30"
 coverImage: "Omnichannel-CX.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Tanvi Soni"
 description: "Companies that want to create an omnichannel experience must ensure their marketing goals, objectives, messages, and design are consistent across all channels. A company's marketing, consumer service, and user experience may all be improved by combining these elements."

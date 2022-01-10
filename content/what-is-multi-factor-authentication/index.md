@@ -2,7 +2,7 @@
 title: "What is Multi-Factor Authentication (MFA)"
 date: "2019-06-28"
 coverImage: "cover-2.jpg"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni" 
 description: "Multi-factor authentication (or MFA) is a multi-layered protection framework that verifies the login or other transaction identities of users. A few examples of multi-factor authentication are codes created by mobile apps, answers to personal security questions, codes sent to an email address, fingerprints, etc."

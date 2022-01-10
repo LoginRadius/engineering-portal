@@ -2,7 +2,7 @@
 title: "Handling Scalability and Enhancing Security with LoginRadius"
 date: "2021-04-30"
 coverImage: "handling-scalability-security-loginradius-cover.jpg"
-category: ["all","security"]
+tags: ["all","security"]
 featured: false 
 author: "Vishal Sharma"
 description: "Without a highly scalable infrastructure, it is not possible to handle increasing account creations and logins. Even peak loads can dramatically impede performance and degrade the consumer experience for any business. Learn how LoginRadius empowers businesses to deliver a secure and delightful user experience to their consumers."

@@ -2,7 +2,7 @@
 title: "Customer Spotlight - Hydro Ottawa"
 date: "2018-10-16"
 coverImage: "customer-spotlight-hydro-ottawa.jpg"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false
 author: "Karl Wittig"
 description: "In the Canadian power sector, Hydro Ottawa, the largest local electricity distribution company in eastern Ontario, is also a leader. It is the first utility provider in Canada to provide both Amazon Alexa and Google Home with voice assistant skills. Hydro Ottawa has totally disrupted the Canadian utility industry for the better by concentrating on the needs of their clients."

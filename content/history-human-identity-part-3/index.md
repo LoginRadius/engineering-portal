@@ -2,7 +2,7 @@
 title: "A History of Human Identity in Pictures Part 3"
 date: "2019-09-04"
 coverImage: "history-human-identity-part-3.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Deepak Gupta"
 description: "We showed examples of identity authentication in Part II of the History of Human Identity, such as names and distinctive markings. The final instalment of our 3-part series is this blog. In it, we will concentrate on cultural markers, their usage and violence."

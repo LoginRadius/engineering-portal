@@ -3,7 +3,7 @@ type: fuel
 title: "Cybersecurity Tips for Ecommerce Websites"
 date: "2021-05-19"
 coverImage: "cybersecurity-tips-for-ecommerce.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "David Smith"
 description: "Whether you run a big business or a small niche online store, you should always be on your guard against possible security threats. Here are some of the most important tips to remember about keeping your site secure."

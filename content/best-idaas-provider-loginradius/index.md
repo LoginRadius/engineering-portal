@@ -2,7 +2,7 @@
 title: "Best IDaaS Provider - Why Loginradius is Considered as the Best IDaaS Solution"
 date: "2020-10-09"
 coverImage: "Best-IDaaS-provider.png"
-category: ["media-and-publication"]
+tags: ["media-and-publication"]
 featured: false
 author: "Deepak Gupta"
 description: "Identity-as-a-service or IDaaS refers to cloud-based applications for identity and access management provided on the basis of subscription. At its heart, IDaaS provides consumers’ systems with access, intelligence, and identity governance capabilities."

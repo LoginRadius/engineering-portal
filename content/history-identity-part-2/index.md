@@ -2,7 +2,7 @@
 title: "A History of Human Identity in Pictures  Part 2"
 date: "2019-08-20"
 coverImage: "history-identity-part-2.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Deepak Gupta"
 description: "We covered how identity started in ancient times in Part I of The History of Identity. We concentrate on present times for Part II, where personal names are now considered central to identification and integrity."

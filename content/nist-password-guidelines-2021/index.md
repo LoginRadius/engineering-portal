@@ -2,7 +2,7 @@
 title: "How NIST is Changing Password Creation in 2021"
 date: "2021-07-22"
 coverImage: "nist-password-guidelines-2021-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Deependra Singh"
 description: "The National Institute of Standards and Technology (NIST) has issued certain requirements along with controls for digital user identities. Let’s have a quick look at some of the important NIST password guidelines and learn how businesses can ensure maximum security in 2021 and beyond."

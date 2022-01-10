@@ -3,7 +3,7 @@ type: fuel
 title: "4 Things to Consider When Starting a Digital Transformation"
 date: "2018-08-09"
 coverImage: "4-things-consider-starting-digital-transformation.jpg"
-category: ["all", "other"]
+tags: ["all", "other"]
 featured: false
 author: "Rakesh Soni"
 description: "Everywhere you look, businesses are revealing plans to undergo digital business transformations. The problem they are facing, though is deciding where to start."

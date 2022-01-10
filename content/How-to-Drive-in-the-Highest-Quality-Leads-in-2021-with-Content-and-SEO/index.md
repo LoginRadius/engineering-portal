@@ -3,7 +3,7 @@ type: fuel
 title: "How to Drive in the Highest Quality Leads in 2021 with Content and SEO"
 date: "2021-03-23"
 coverImage: "content-marketing-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Deependra Singh"
 description: "When it comes to digital marketing, SEO and lead generation techniques go hand in hand. As long as your content is SEO-friendly, you are bound to generate leads in one way or the other. The basic step to follow is to create high-quality content paired with the right SEO practices to generate leads for your business in no time."

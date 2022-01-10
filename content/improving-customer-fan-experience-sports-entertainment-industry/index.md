@@ -3,7 +3,7 @@ type: fuel
 title: "  Improving Fan Experience in the Sports Industry"
 date: "2018-11-15"
 coverImage: "Fan-experience-in-sports-industry.jpg"
-category: ["all", "customer-experience", "other"]
+tags: ["all", "customer-experience", "other"]
 featured: false 
 author: "Rakesh Soni" 
 description: "In the crown-hit world of sports, it is an extraordinary moment. Digital transformation is helping them give their fans new and easier ways to connect with their team as teams prepare for a new age of fan engagement in the sports industry."

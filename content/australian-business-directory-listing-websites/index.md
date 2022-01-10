@@ -3,7 +3,7 @@ type: fuel
 title: "100 Australian Business Directory Websites To Boost Your Business Now"
 date: "2017-04-21"
 coverImage: "100-Australian-Business-Directory-Websites-To-Boost-Your-Business-Now.jpg"
-category: ["business", "Marketing"]
+tags: ["business", "Marketing"]
 featured: false
 author: "Sudhanshu Agarwal"
 description: "Looking for Australian business listing websites to get your business listed in 2017? Check out exclusive list of 100 tested free business directory sites."

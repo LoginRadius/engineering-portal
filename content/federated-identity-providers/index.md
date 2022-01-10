@@ -2,7 +2,7 @@
 title: "What are Federated Identity Providers?"
 date: "2021-03-26"
 coverImage: "federated-identity-providers.png"
-category: ["customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rajeev Sharma"
 description: "Federated identity management is a configuration that can be made between two or more trusted domains to allow consumers of those domains to access applications and services using the same digital identity. Such identity is known as federated identity, and the use of such a solution pattern is known as identity federation."

@@ -2,7 +2,7 @@
 title: "Getting Started with OpenID Connect"
 date: "2021-09-21"
 coverImage: "what-is-openid-connect-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false 
 author: "Gurjyot Singh"
 description: "This article  discusses the basics of OpenID Connect. Its components, and strengths as well as implementation details you need to know about when using it in a real world scenario."

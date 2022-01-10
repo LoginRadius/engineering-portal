@@ -3,7 +3,7 @@ type: fuel
 title: "How to Blend Security with Frictionless User Experience"
 date: "2021-11-24"
 coverImage: "ux-cover.jpg"
-category: ["all", "other"]
+tags: ["all", "other"]
 featured: false
 author: "Shivangini Yadav"
 description: "By striking the right balance between UX and security, you can provide a product that consumers trust and enjoy using. If, on the other hand, you compromise one for the other, customer churn is a more likely scenario."

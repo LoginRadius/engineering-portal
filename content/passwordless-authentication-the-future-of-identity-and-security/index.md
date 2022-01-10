@@ -2,7 +2,7 @@
 title: "Passwordless Authentication: Securing Digital Identity"
 date: "2019-10-11"
 coverImage: "Passwordless-Authentication-featured-image.png"
-category: ["LoginRadius", "customer-experience"]
+tags: ["LoginRadius", "customer-experience"]
 featured: false
 author: "Rakesh Soni"
 description: "The war cry among experts lately when it comes to online safety is: The future is passwordless! So, why does passwordless authentication matter so much?"

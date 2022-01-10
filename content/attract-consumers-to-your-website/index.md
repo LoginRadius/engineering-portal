@@ -3,7 +3,7 @@ type: fuel
 title: "5 Tricks to Attract MORE Consumers to Your Website"
 date: "2021-02-23"
 coverImage: "consumer-to-website.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rakesh Soni"
 description: "The right way to attract consumers to your website need not be rocket science. All you need is a good strategy and consistency to make things work for you. Constant content upgrades can always help you drive traffic to your website; simply make sure they are SEO optimized."

@@ -3,7 +3,7 @@ type: fuel
 title: "Top 15 Responsive Web Design Tools You Must Know About"
 date: "2017-07-03"
 coverImage: "responsive-web-design.jpg"
-category: ["business", "technology", "marketing", "loginradius"]
+tags: ["business", "technology", "marketing", "loginradius"]
 featured: false
 author: "Deepak Gupta"
 description: "Trying to find the Best tools to create highly responsive web designs? Here's your one stop shop to find everything you need to make your website more responsive"

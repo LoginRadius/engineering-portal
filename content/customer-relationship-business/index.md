@@ -3,7 +3,7 @@ type: fuel
 title: "Why Is Customer Relationship Important for Every Business in 2021"
 date: "2021-02-26"
 coverImage: "customer-relations-management.jpg"
-category: ["all"]
+tags: ["all"]
 featured: false
 author: "Rakesh Soni"
 description: "Positive customer relations help you connect with your customers on a much more personal level. When you connect with the target audience deeply, you are much more likely to understand their requirements, resolve their problems, and create a sense of mutual understanding."

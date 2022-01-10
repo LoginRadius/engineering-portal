@@ -2,7 +2,7 @@
 title: "Why Your Enterprise Needs a Digital Business Transformation Strategy"
 date: "2018-11-26"
 coverImage: "rawpixel-579231-unsplash-1.jpg"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
 description: "Companies will need to build innovative digital experiences and exclusive online services by 2020 just to remain competitive, let alone to get ahead. Top businesses in the media, telecommunications, and financial sectors are under pressure to grow market share and provide their consumers with more value."

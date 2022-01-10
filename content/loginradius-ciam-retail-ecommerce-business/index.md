@@ -2,7 +2,7 @@
 title: "How LoginRadius Help Retail and E-commerce Industry to Manage Customer Identities"
 date: "2020-04-08"
 coverImage: "loginradius-ciam-retail-ecommerce-business.jpg"
-category: ["retail"]
+tags: ["retail"]
 featured: false 
 author: "Rakesh Soni"
 description: "As the retail and e-commerce industry enters the modern digitalization age, a giant leap forward has been made by consumer experience when engaging with a brand. In reality, it has moved goods and services into the overall shopping experience as a secondary entity. For customers, they are no longer the motivating impetus to approach a store."

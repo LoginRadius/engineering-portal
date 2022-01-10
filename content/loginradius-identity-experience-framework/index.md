@@ -2,7 +2,7 @@
 title: "Announcement - LoginRadius Delivers Exceptional Authentication With The Launch Of Identity Experience Framework"
 date: "2020-09-18"
 coverImage: "IDx.png"
-category: ["industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Karl Wittig"
 description: "Overall, companies need to keep their customers loyal to their goods, services , and brands — which is why the need for the hour is an effective user interface. It can have customer interactions that are most conducive to any company's success."

@@ -2,7 +2,7 @@
 title: "Login Security: 7 Best Practice to Keep Your Online Accounts Secure"
 date: "2020-12-11"
 coverImage: "login-security.png"
-category: ["all", "security"]
+tags: ["all", "security"]
 featured: false 
 author: "Deepak Gupta"
 description: "In reality, there are so many mistakes that can make your account vulnerable to cyber attacks. Hackers can read your email, steal money out of your bank account, or sell your data in the dark web. Therefore you need to eliminate as many vulnerabilities as possible to keep your login safe."
@@ -58,7 +58,7 @@ The greatest advantage of biometrics is that in order to gather the information 
 
 [Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) or MFA is adding multiple layers to the login process. If a hacker has compromised one of the factors, the chances of another factor still being compromised are low, so having multiple authentication factors offers a greater degree of certainty about the login security of consumers. 
 
-However, note that each security layer should be guarded by a different category: something your consumers know, something they have, or something they are. For example, if your consumer has associated their phone number as the second layer of authentication, a one-time passcode (OTP) will be sent to the phone. So, if hackers do not have the phone, they cannot get the code, meaning they cannot log in. 
+However, note that each security layer should be guarded by a different tags: something your consumers know, something they have, or something they are. For example, if your consumer has associated their phone number as the second layer of authentication, a one-time passcode (OTP) will be sent to the phone. So, if hackers do not have the phone, they cannot get the code, meaning they cannot log in. 
 
 
 [![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)

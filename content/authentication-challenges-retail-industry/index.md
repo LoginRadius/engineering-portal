@@ -3,7 +3,7 @@ type: fuel
 title: "What are the Authentication Challenges in the Retail Industry?"
 date: "2021-10-26"
 coverImage: "retail-auth.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Rashmi Mathur"
 description: "Losing business means paying for remediation, business disruption, legal expenses, identity repair, regulatory penalties, and other clean-up costs. Although retail has some distinct differences from other industries regarding identity and authentication, it also faces many challenges."

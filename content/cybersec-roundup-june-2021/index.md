@@ -2,7 +2,7 @@
 title: "Cyber Security Round-Up: What Happened in June 2021"
 date: "2021-07-01"
 coverImage: "cybersec-roundup-june-2021-cover.jpg"
-category: ["other"]
+tags: ["other"]
 featured: false
 author: "Navanita Devi"
 description: "Cybersecurity isn’t just an IT issue anymore. It has caused substantial losses to businesses, governments, and individuals around the world. In this blog, we will look at the top security breaches in June 2021."

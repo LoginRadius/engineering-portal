@@ -3,7 +3,7 @@ type: fuel
 title: "5 Key CIAM Benefits and Challenges in the Retail Industry"
 date: "2021-09-17"
 coverImage: "retail-industry.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
 description: "The modern retail industry has several challenges that can be solved by deploying a CIAM solution. Read this blog to learn how CIAM goes beyond just streamlining a platform to make it more intuitive, and how it boosts the marketing and sales efforts of a business in the retail industry."

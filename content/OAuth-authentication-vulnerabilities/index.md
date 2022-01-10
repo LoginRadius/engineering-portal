@@ -2,7 +2,7 @@
 title: "5 Tips to Prevent OAuth Authentication Vulnerabilities"
 date: "2021-04-01"
 coverImage: "OAuth-authentication-vulnerabilities-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "The most common mistake for any business that usually goes unnoticed is the poor implementation of OAuth, which is an open standard for token-based authentication & authorization. Here’s an insightful read that highlights the major OAuth implementation vulnerabilities and tips to avoid them for maximum security."

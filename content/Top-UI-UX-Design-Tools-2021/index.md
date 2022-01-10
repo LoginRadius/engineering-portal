@@ -3,7 +3,7 @@ type: fuel
 title: "Top UI/UX Design Tools 2021"
 date: "2021-04-19"
 coverImage: "best-ui-ux-design-loginradius.jpg"
-category: ["loginradius"]
+tags: ["loginradius"]
 featured: false
 author: "Rakesh Soni"
 description: "In the current situation in 2021, with so many designing tools in the market, it has become difficult to choose the perfect one. Let’s get the insights of the top UI/UX design tools, compare their features, and choose the perfect fit for you!"

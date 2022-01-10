@@ -2,7 +2,7 @@
 title: "Why LoginRadius Is the Best Akamai Identity Cloud (Janrain) Alternative"
 date: "2019-06-24"
 coverImage: "janrain-feature.png"
-category: ["public-sector"]
+tags: ["public-sector"]
 featured: false
 author: "Rakesh Soni"
 description: "Akamai purchased Janrain in January 2019 and renamed its CIAM solution Identity Cloud, a platform designed to strengthen security access controls and identity management."

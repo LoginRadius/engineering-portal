@@ -2,7 +2,7 @@
 title: "CCPA vs GDPR: Global Compliance Guide [Infographic]"
 date: "2019-09-18"
 coverImage: "ccpa-vs-gdpr-the-compliance-war.jpg"
-category: ["privacy-and-compliance"]
+tags: ["privacy-and-compliance"]
 featured: false
 author: "Rakesh Soni"
 description: "It's natural that there will be new legislation to protect customer data in a world where data is the most important resource. With more data scandal storeys than ever before reported by media outlets, users are constantly aware of data collection and how it impacts them. With this in mind, enforcement laws foster data protection and consent rights for users."

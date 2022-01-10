@@ -3,7 +3,7 @@ type: fuel
 title: "Why Your Old Resume Won't Work Anymore: Tips Inside!"
 date: "2017-01-23"
 coverImage: "Real-Life-Resume-Examples-1-1.png"
-category: ["general", "loginradius"]
+tags: ["general", "loginradius"]
 featured: false
 author: "Deepak Gupta"
 description: "Still stuck with that outdated and ugly resume? Check out these resume building tips to make sure your chances of dream job don't blow away!"

@@ -2,7 +2,7 @@
 title: "Safe Data Act: A New Privacy Law in the Town"
 date: "2020-12-03"
 coverImage: "safe-data-act-privacy-law.jpg"
-category: ["all", "privacy-and-compliance"]
+tags: ["all", "privacy-and-compliance"]
 featured: false
 author: "Deepak Gupta"
 description: "The Safe Data Act follows the footsteps of the 2019 draught, but makes a few major changes to the threats of people in the United States to privacy, cybersecurity, and compliance."

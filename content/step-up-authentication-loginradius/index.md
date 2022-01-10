@@ -2,7 +2,7 @@
 title: "LoginRadius Offers Additional Security Layer through Newly-Enhanced Step-up Authentication Feature"
 date: "2021-06-17"
 coverImage: "step-up-authentication-loginradius-cover.jpg"
-category: ["security"]
+tags: ["security"]
 featured: false
 author: "Govind Malviya"
 description: "Step-up authentication enhances consumer and enterprise security by adding an extra layer of authentication. It offers a competitive edge to businesses seeking innovative ways to enhance security for their website."

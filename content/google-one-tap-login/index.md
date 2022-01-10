@@ -2,7 +2,7 @@
 title: "All About Google One Tap Login—Explained!"
 date: "2021-06-11"
 coverImage: "google-onetaplogin-cover.jpg"
-category: ["authentication"]
+tags: ["authentication"]
 featured: false 
 author: "Manish Tiwari"
 description: "Consumers prefer basic login experiences over complicated signup procedures. The Google One-Tap Login feature, available on Android phones, allows users to quickly sign up for apps or web services with their Google credentials without creating an account."

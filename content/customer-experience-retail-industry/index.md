@@ -3,7 +3,7 @@ type: fuel
 title: "Enhancing Customer Experience in Retail Industry"
 date: "2020-05-05"
 coverImage: "customer-experience-retail-industry.jpg"
-category: ["LoginRadius", "industry-news", "retail"]
+tags: ["LoginRadius", "industry-news", "retail"]
 featured: false
 author: "Sudhanshu Agarwal"
 description: "Not only does a perfect plan for customer experience rely on the product, store, and customers, but also on how companies smartly coordinate the entities listed. They need to integrate customer service through multiple genres of retail."
