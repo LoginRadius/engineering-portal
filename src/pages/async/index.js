@@ -1,9 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import BlogList from "../../components/blog-list"
-import { Router } from "@reach/router"
-//import AsyncBlogPage from "./[page]"
-//import BlogPostTemplate from "./[slug]"
 
 const AsyncBlog = props => {
   return (

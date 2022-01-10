@@ -76,6 +76,7 @@ module.exports = {
       },
     ],
   },
+  flags: { QUERY_ON_DEMAND: true, PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

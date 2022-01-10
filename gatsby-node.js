@@ -48,20 +48,13 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
-  const postsPerPage = 9
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
-
+  posts.forEach(post => {
     createPage({
       path: `/${post.node.frontmatter.type}${post.node.fields.slug}`,
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
-        previous,
-        next,
-        pageNumber: Math.ceil(index / postsPerPage),
         tags: post.node.frontmatter.tags || [],
       },
     })
