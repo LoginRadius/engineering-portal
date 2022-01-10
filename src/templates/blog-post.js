@@ -36,6 +36,7 @@ export const pageQuery = graphql`
       frontmatter {
         description
         title
+        type
         date(formatString: "MMMM DD, YYYY")
         tags
         coverImage {
@@ -68,6 +69,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             tags
+            type
           }
         }
       }
