@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./cardlist.module.scss"
 import Card from "./card"
+import TagMenu from "./tagMenu"
 import Opensource from "../../static/open-source.png"
 import Writeforus from "../../static/write-for-us.png"
 export default function CardList({ posts, currentPage, isPagination }) {
@@ -34,20 +35,7 @@ export default function CardList({ posts, currentPage, isPagination }) {
               </form>
             </div>
             <div className={`${styles.tag} ${styles.pinned}`}>
-              <a href="#">Authentication</a>
-              <a href="#">JWT</a>
-              <a href="#">Cookie</a>
-              <a href="#">C#</a>
-              <a href="#">Init</a>
-              <a href="#">Properties</a>
-              <a href="#">CSP</a>
-              <a href="#">OAuth</a>
-              <a href="#">QA</a>
-              <a href="#">Cloud</a>
-              <a href="#">Testing</a>
-              <a href="#">Design</a>
-              <a href="#">UI</a>
-              <a href="#">UX</a>
+              <TagMenu />
             </div>
 
             <div className={`${styles.openSource} ${styles.card}`}>

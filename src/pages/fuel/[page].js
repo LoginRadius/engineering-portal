@@ -8,6 +8,7 @@ const FuelBlogPage = props => {
       data={props.data}
       currentPage={props.page || 1}
       pathname={props.location.pathname}
+      type={"fuel"}
     />
   )
 }

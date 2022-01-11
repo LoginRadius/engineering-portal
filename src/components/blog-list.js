@@ -5,7 +5,7 @@ import Pagination from "../components/pagination"
 import SEO from "../components/seo"
 
 const BlogList = props => {
-  const { data, pathname, currentPage } = props
+  const { data, pathname, currentPage, type } = props
   const total = data.allMarkdownRemark.totalCount
   const numPages = Math.ceil(total / 6)
   const posts = data.allMarkdownRemark.edges
@@ -38,7 +38,7 @@ const BlogList = props => {
         <Pagination
           pages={numPages}
           currentPage={parseInt(currentPage)}
-          type={data.allMarkdownRemark.edges[0].node.frontmatter.type}
+          type={type}
         />
       </main>
     </Layout>
