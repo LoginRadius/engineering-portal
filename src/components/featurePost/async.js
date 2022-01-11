@@ -10,7 +10,7 @@ const AsyncFeatList = ({ slug }) => {
           query {
             allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
-              filter: { frontmatter: { type: { eq: "async" } } }
+              filter: { fields: { slug: { regex: "/async/" } } }
               limit: 4
             ) {
               edges {
@@ -22,7 +22,6 @@ const AsyncFeatList = ({ slug }) => {
                   frontmatter {
                     title
                     tags
-                    type
                   }
                 }
               }

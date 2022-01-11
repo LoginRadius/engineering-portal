@@ -16,7 +16,7 @@ export const swiBlogQuery = graphql`
   query swiBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "start-with-identity" } } }
+      filter: { fields: { slug: { regex: "/start-with-identity/" } } }
     ) {
       totalCount
       edges {
@@ -31,7 +31,6 @@ export const swiBlogQuery = graphql`
             description
             title
             tags
-            type
             pinned
             coverImage {
               childImageSharp {

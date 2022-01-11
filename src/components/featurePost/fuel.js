@@ -10,7 +10,7 @@ const FuelFeatList = ({ slug }) => {
           query {
             allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
-              filter: { frontmatter: { type: { eq: "fuel" } } }
+              filter: { fields: { slug: { regex: "/fuel/" } } }
               limit: 4
             ) {
               edges {
@@ -22,7 +22,6 @@ const FuelFeatList = ({ slug }) => {
                   frontmatter {
                     title
                     tags
-                    type
                   }
                 }
               }

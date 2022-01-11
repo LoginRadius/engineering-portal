@@ -17,10 +17,7 @@ const Card = ({ node }) => {
     <React.Fragment>
       <div className={`${styles.user} mb-48`}>
         <div className={styles.avatar}>
-          <Link
-            className="bs-md"
-            to={`/${node.frontmatter.type}${node.fields.slug}`}
-          >
+          <Link className="bs-md" to={node.fields.slug}>
             {coverImagePath ? (
               <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
             ) : (
@@ -43,7 +40,7 @@ const Card = ({ node }) => {
           </div>
           <div className={styles.description}>
             <h3>
-              <Link to={`/${node.frontmatter.type}${node.fields.slug}`}>
+              <Link to={node.fields.slug}>
                 {node.frontmatter.title || node.fields.slug}
               </Link>
             </h3>

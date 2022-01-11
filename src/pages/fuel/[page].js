@@ -16,7 +16,7 @@ export const FuelBlogQuery = graphql`
   query FuelBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "fuel" } } }
+      filter: { fields: { slug: { regex: "/fuel/" } } }
     ) {
       totalCount
       edges {
@@ -31,7 +31,6 @@ export const FuelBlogQuery = graphql`
             description
             title
             tags
-            type
             pinned
             coverImage {
               childImageSharp {

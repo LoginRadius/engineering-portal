@@ -16,7 +16,7 @@ export const AsyncBlogQuery = graphql`
   query AsyncBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "async" } } }
+      filter: { fields: { slug: { regex: "/async/" } } }
     ) {
       totalCount
       edges {
@@ -31,7 +31,6 @@ export const AsyncBlogQuery = graphql`
             description
             title
             tags
-            type
             pinned
             coverImage {
               childImageSharp {

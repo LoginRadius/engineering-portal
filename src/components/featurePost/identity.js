@@ -10,7 +10,7 @@ const IdentityFeatList = ({ slug }) => {
           query {
             allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
-              filter: { frontmatter: { type: { eq: "start-with-identity" } } }
+              filter: { fields: { slug: { regex: "/start-with-identity/" } } }
               limit: 4
             ) {
               edges {
@@ -22,7 +22,6 @@ const IdentityFeatList = ({ slug }) => {
                   frontmatter {
                     title
                     tags
-                    type
                   }
                 }
               }
