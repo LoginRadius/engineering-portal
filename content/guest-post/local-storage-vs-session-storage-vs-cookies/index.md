@@ -213,7 +213,7 @@ localStorage.getItem("id")
 
 ### Usecase
 
-Local storage has a number of uses due to the fact that data inside it has no default expiry. Think about all those scenarios where you want to store some global data that's accessed oftenly in your application.
+Local storage has a number of uses due to the fact that data inside it has no default expiry. Think about all those scenarios where you want to store some global data that's accessed often in your application.
 
 #### Generic
 
@@ -255,7 +255,7 @@ The attacker could then make false requests, modify your user's data in the data
 
 Also, authentication token is often refreshed on expiry and one can use cookies TTL easily to manage that. For simpler cases, one can also store JWT inside regular cookies by setting a TTL.
 
-But all in all, authentication itself can be a tricky subject. If you're looking for a no-code identity platform that can seamlessly handle authentication for your application, consider using [login radius](https://www.loginradius.com/).
+But all in all, authentication itself can be a tricky subject. If you're looking for a no-code identity platform that can seamlessly handle authentication for your application, consider using [LoginRadius](https://www.loginradius.com/).
 
 ## Wrapping it Up
 
