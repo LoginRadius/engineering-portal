@@ -1,6 +1,6 @@
 @import "../styles/variables.scss";
 .modal {
-  display: none;
+  
   .modal-body {
     background-color: $white;
     border-radius: $gutter/3;
@@ -111,4 +111,8 @@
     height: 100vh;
     z-index: 8;
   }
+}
+
+.hide{
+  display: none;
 }

@@ -44,7 +44,7 @@ const Pagination = ({ pages, currentPage, type }) => {
             {1}
           </Link>
         )}
-        {!intialPages && <p to="">...</p>}
+        {!intialPages && currentPage != 4 && <p to="">...</p>}
         {pageArray.map((k, i) => (
           <Link
             to={`${k === 1 ? `/${type}/` : `/${type}/${k}/#all-articles`}`}
@@ -54,7 +54,7 @@ const Pagination = ({ pages, currentPage, type }) => {
             {k}
           </Link>
         ))}
-        {!lastPages && <p>...</p>}
+        {!lastPages && currentPage != pages - 3 && <p>...</p>}
         {!lastPages && (
           <Link
             to={`/${type}/${pages}/#all-articles`}
