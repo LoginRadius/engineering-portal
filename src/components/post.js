@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
-import _ from "lodash"
 import SEO from "./seo"
 import Bio from "./bio"
 import ToC from "./toc"
@@ -15,14 +14,12 @@ import TagMenu from "./tagMenu"
 
 import ReactGA from "react-ga"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-import getTimeToRead from "../utils/timeToRead"
 import Docs from "../../static/consumer-identity-trend.png"
 
 import AsyncFeatList from "./featurePost/async"
 import FuelFeatList from "./featurePost/fuel"
 import IdentityFeatList from "./featurePost/identity"
+import getTimeToRead from "../utils/timeToRead"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -80,9 +77,9 @@ const Post = ({ post, relatedPost }) => {
               <h1>{post.frontmatter.title || post.fields.slug}</h1>
               <div className={headStyles.text}>
                 <span>By&nbsp;</span>
-                <a href="#">
-                  <strong>Authar Name</strong>
-                </a>
+                <Link to={`/author/${kebabCase(author.id)}/`}>
+                  <strong>{author.id}</strong>
+                </Link>
               </div>
               <p
                 className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
@@ -191,7 +188,7 @@ const Post = ({ post, relatedPost }) => {
               <div class={styles.aboutAuthorInner}>
                 <h3>
                   Writter by&nbsp;
-                  <Link to={`/author/${_.kebabCase(author.id)}/`}>
+                  <Link to={`/author/${kebabCase(author.id)}/`}>
                     {author.id}
                   </Link>
                 </h3>

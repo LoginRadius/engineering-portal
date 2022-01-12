@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
@@ -6,29 +6,10 @@ import LogoLr from "../../static/logo-blog.svg"
 import Hamburger from "../../static/iconHamburger.svg"
 import Close from "../../static/icon-close.svg"
 import Search from "./search"
-import ReactGA from "react-ga"
-import { validEmail } from "./regex.js"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
-const logger = function (linkName, headerLink) {
-  ReactGA.event({
-    category: "Header Menu Clicks",
-    action: `User clicked on ${linkName}`,
-    label: `${headerLink}`,
-  })
-}
-
-const demologger = function () {
-  ReactGA.event({
-    category: "Live Demo",
-    action: "User clicked on Live Demo button",
-    label: "Live Demo",
-  })
-}
-
-let _shouldBlogClose = false
-const Header = ({ menuLinks, searchIndex }) => {
+const Header = ({ searchIndex }) => {
   const [showMenu, toggleMenu] = useState(false)
   let pathname = "async"
   if (typeof window !== `undefined`) {

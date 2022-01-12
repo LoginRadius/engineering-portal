@@ -9,13 +9,6 @@ import kebabCase from "lodash/kebabCase"
 import Img from "gatsby-image"
 import getTimeToRead from "../utils/timeToRead"
 import ReactGA from "react-ga"
-const eventLogger = function ({ category, action, label }) {
-  ReactGA.event({
-    category: category,
-    action: action,
-    label: label,
-  })
-}
 
 const signUplogger = function () {
   ReactGA.event({

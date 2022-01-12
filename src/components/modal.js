@@ -10,6 +10,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     responseMsg: "",
     respClass: "",
   })
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
     if (newsLetterSubscription.subscribeEmail != email) {
       setNewsLetterSubscription({
@@ -21,6 +22,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   }, [email])
 
   const subscribeSIB = () => {
+    setLoading(true)
     let url =
       "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
     var data = new FormData()
@@ -60,6 +62,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           toast.error("An error has occured, please try again!")
         notify()
       }
+      setLoading(false)
     }
     xmlhttp.send(data)
   }
@@ -120,12 +123,10 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           <div className={`${styles.modalFooter} d-flex`}>
             <a
               className="btn btn-primary"
-              disabled={newsLetterSubscription.subscribeCall}
-              onClick={() => {
-                subscribeSIB()
-              }}
+              disabled={newsLetterSubscription.subscribeCall || loading}
+              onClick={() => !loading && subscribeSIB()}
             >
-              Subscribe
+              {loading ? "Please Wait" : "Subscribe"}
             </a>
             <a href="#" className="btn btn-secondary" onClick={toggle}>
               Cancel
