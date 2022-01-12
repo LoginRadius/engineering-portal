@@ -86,7 +86,7 @@ You've successfully created your Loopback application. Now, let’s create a Mod
 
 Select the options as in the following screenshot to complete the prompts.
 
-![Creating a News Model](PFv-ZD0w.png)
+![Creating a News Model](lSCGXHsn.png)
 
 After the `date_created` property definition, press the enter key to exit the prompt.
 
@@ -114,7 +114,7 @@ Then, create a [Repository](https://loopback.io/doc/en/lb4/Repository.html) for 
 
 After completing the prompts, LoopBack will create the `NewsModelRepository` file in the `src/repository` folder.
 
-Select `NewsDatasource` as the data source, `NewsModel` as the to generate repository for, and `DefaultCrudRepository` as the base repository class.
+Select `NewsDatasource` as the data source, and `NewsModel` as the model to generate the repository for, and `DefaultCrudRepository` as the base repository class.
 
 Your selection for the prompts shsll look like the screenshot below.
 
@@ -504,9 +504,8 @@ import { authenticate } from "@loopback/authentication"
 Then on each of the endpoints in your news controller add `@authenticate('jwt')` before the `NewsController` class, which will protect all the routes in `NewsController`.
 
 ```javascript
-    //...
+    //... 
     @authenticate('jwt')
-    export class NewsController {
     //...
 ```
 
