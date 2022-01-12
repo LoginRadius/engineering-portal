@@ -112,7 +112,6 @@ export default class Search extends Component {
   search = evt => {
     const query = evt.target.value
     this.index = this.getOrCreateIndex()
-    console.log("props index >> " + this.index)
     this.setState({
       query,
       // Query the index with search string to get an [] of IDs
