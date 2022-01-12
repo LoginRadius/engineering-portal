@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
-import headerStyles from "./header.module.scss"
+import searchStyle from "./search.module.scss"
 import { navigate } from "gatsby"
 
 // Search component
@@ -64,47 +64,56 @@ export default class Search extends Component {
   render() {
     const { results, toggleOpen } = this.state
     return (
-      <form
-        target="_blank"
-        onSubmit={this.handleSubmit}
-        className={`${headerStyles.searchWrapper} ${
-          results.length ? headerStyles.searchList : ""
-        }`}
-        onMouseOver={() => (this._shouldClose = false)}
-        onMouseLeave={() => (this._shouldClose = true)}
-      >
-        <input
-          id="search"
-          type="text"
-          className={`${headerStyles.searchTerm}  ${
-            toggleOpen ? headerStyles.searchTermOpen : ""
-          }`}
-          placeholder="Search..."
-          onChange={this.search}
-          onFocus={this.search}
-          onSubmit={this.search}
-          required
-        />
-        <label
-          htmlFor="search"
-          className={headerStyles.searchButton}
+      <>
+        <a
+          class={searchStyle.btnSearch}
+          tabindex="0"
           onClick={this._toggleSearch}
-        ></label>
-        <input type="submit" className={headerStyles.searchButton} />
+        >
+          <div class={searchStyle.megaMenuSearchDarkIcon}></div>
+        </a>
+        <form
+          target="_blank"
+          onSubmit={this.handleSubmit}
+          className={`${
+            toggleOpen
+              ? searchStyle.searchInputOpen
+              : searchStyle.searchInputClose
+          }`}
+          onMouseOver={() => (this._shouldClose = false)}
+          onMouseLeave={() => (this._shouldClose = true)}
+        >
+          <input
+            id="search"
+            type="text"
+            className={`${searchStyle.searchFormInput}  ${
+              toggleOpen
+                ? searchStyle.searchInputBtoW
+                : searchStyle.searchInputWtoB
+            }`}
+            placeholder="Search..."
+            onChange={this.search}
+            onFocus={this.search}
+            onSubmit={this.search}
+            required
+          />
+          <label htmlFor="search" className={searchStyle.searchButton}></label>
+          <input type="submit" className={searchStyle.searchButton} />
 
-        {results.length ? (
-          <ul>
-            {results.slice(0, 4).map(page => (
-              <li key={page.id}>
-                <div>
-                  <Link to={page.path}>{page.title}</Link>
-                </div>
-                <p>{page.tags ? page.tags.join(`, `) : ""}</p>
-              </li>
-            ))}
-          </ul>
-        ) : null}
-      </form>
+          {results.length ? (
+            <ul>
+              {results.slice(0, 4).map(page => (
+                <li key={page.id}>
+                  <div>
+                    <Link to={page.path}>{page.title}</Link>
+                  </div>
+                  <p>{page.tags ? page.tags.join(`, `) : ""}</p>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+        </form>
+      </>
     )
   }
   getOrCreateIndex = () => this.index || Index.load(this.props.searchIndex)
