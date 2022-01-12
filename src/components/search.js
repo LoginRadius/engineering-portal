@@ -11,7 +11,7 @@ export default class Search extends Component {
     this.state = {
       query: ``,
       results: [],
-      toggleOpen: false,
+      toggleOpen: null,
     }
   }
 
@@ -47,7 +47,7 @@ export default class Search extends Component {
     const query = this.state.query
     const uri =
       process.env.NODE_ENV == "production"
-        ? `/blog/async/search/?${query}`
+        ? `/blog/search/?${query}`
         : `/search/?${query}`
 
     query && typeof window !== "undefined" && window.open(uri, "_self")
@@ -72,7 +72,9 @@ export default class Search extends Component {
         >
           <div
             class={`${searchStyle.megaMenuSearchDarkIcon} ${
-              toggleOpen
+              toggleOpen === null
+                ? ""
+                : toggleOpen
                 ? searchStyle.searchIconWtoB
                 : searchStyle.searchIconBtoW
             }`}
@@ -82,7 +84,9 @@ export default class Search extends Component {
           target="_blank"
           onSubmit={this.handleSubmit}
           className={`${searchStyle.searchForm} ${
-            toggleOpen
+            toggleOpen === null
+              ? ""
+              : toggleOpen
               ? searchStyle.searchInputOpen
               : searchStyle.searchInputClose
           }`}
@@ -93,7 +97,9 @@ export default class Search extends Component {
             id="search"
             type="text"
             className={`${searchStyle.searchFormInput}  ${
-              toggleOpen
+              toggleOpen === null
+                ? ""
+                : toggleOpen
                 ? searchStyle.searchInputBtoW
                 : searchStyle.searchInputWtoB
             }`}

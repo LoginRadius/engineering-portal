@@ -6,8 +6,6 @@ import LogoLr from "../../static/logo-blog.svg"
 import Hamburger from "../../static/iconHamburger.svg"
 import Close from "../../static/icon-close.svg"
 import Search from "./search"
-import { ToastContainer, toast } from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
 
 const Header = ({ searchIndex }) => {
   const [showMenu, toggleMenu] = useState(false)
@@ -20,7 +18,6 @@ const Header = ({ searchIndex }) => {
 
   return (
     <>
-      <ToastContainer style={{ fontSize: "15px" }} />
       <div className={headerStyles.header}>
         <div
           className={`${headerStyles.hamburger} ${
