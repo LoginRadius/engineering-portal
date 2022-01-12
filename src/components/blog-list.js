@@ -33,6 +33,7 @@ const BlogList = props => {
           posts={data.allMarkdownRemark.edges}
           total={total}
           currentPage={currentPage}
+          type={type}
           isPagination
         />
         <Pagination

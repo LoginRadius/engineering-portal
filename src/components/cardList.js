@@ -4,7 +4,8 @@ import Card from "./card"
 import TagMenu from "./tagMenu"
 import Opensource from "../../static/open-source.png"
 import Writeforus from "../../static/write-for-us.png"
-export default function CardList({ posts, currentPage, isPagination }) {
+import Subscribe from "./subscribe"
+export default function CardList({ posts, currentPage, isPagination, type }) {
   const limit = 6
   return (
     <section className="pt-96" id="all-articles">
@@ -26,14 +27,7 @@ export default function CardList({ posts, currentPage, isPagination }) {
               })}
           </div>
           <div className={`${styles.landing} ${styles.sidebar}`}>
-            <div className={styles.subscribe}>
-              <form>
-                <input type="text" placeholder="Enter your email" />
-                <button className={`${styles.btn} btn-primary`} type="submit">
-                  Subscribe
-                </button>
-              </form>
-            </div>
+            <Subscribe type={type} />
             <div className={`${styles.tag} ${styles.pinned}`}>
               <TagMenu />
             </div>

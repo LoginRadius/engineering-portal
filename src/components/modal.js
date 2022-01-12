@@ -1,10 +1,72 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import styles from "./modal.module.scss"
-const Modal = ({}) => {
+import { toast } from "react-toastify"
+import { validEmail } from "./regex.js"
+
+const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
+  const [newsLetterSubscription, setNewsLetterSubscription] = useState({
+    subscribeEmail: "",
+    subscribeCall: false,
+    responseMsg: "",
+    respClass: "",
+  })
+  useEffect(() => {
+    if (newsLetterSubscription.subscribeEmail != email) {
+      setNewsLetterSubscription({
+        ...newsLetterSubscription,
+        subscribeEmail: email,
+        subscribeCall: true,
+      })
+    }
+  }, [email])
+
+  const subscribeSIB = () => {
+    let url =
+      "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
+    var data = new FormData()
+    data.append("EMAIL", newsLetterSubscription.subscribeEmail)
+    // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
+    let xmlhttp = new XMLHttpRequest()
+    xmlhttp.open("POST", url, true)
+    xmlhttp.onload = function () {
+      var resp = JSON.parse(xmlhttp.responseText)
+      if (xmlhttp.status === 200) {
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          subscribeEmail: "",
+          responseMsg: resp.message,
+          respClass: "success",
+        })
+        let notify = () => toast.info(resp.message)
+        notify()
+        toggleEmail()
+        toggle()
+        //document.getElementById("subscription-form").reset()
+      } else if (xmlhttp.status === 500) {
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          responseMsg: resp.message,
+          respClass: "error",
+        })
+        let notify = () => toast.error(resp.message)
+        notify()
+      } else {
+        setNewsLetterSubscription({
+          ...newsLetterSubscription,
+          subscribeCall: false,
+          respClass: "",
+        })
+        let notify = () =>
+          toast.error("An error has occured, please try again!")
+        notify()
+      }
+    }
+    xmlhttp.send(data)
+  }
   return (
-    <div className={styles.modal}>
+    <div className={`${styles.modal} ${isOpen ? "" : styles.hide}`}>
       <div className={styles.modalBody}>
-        <a href="#" className={styles.modalClose}>
+        <a href="#" className={styles.modalClose} onClick={toggle}>
           <svg
             width="512"
             height="512"
@@ -56,10 +118,16 @@ const Modal = ({}) => {
             </ul>
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
-            <a href="#" className="btn btn-primary">
+            <a
+              className="btn btn-primary"
+              disabled={newsLetterSubscription.subscribeCall}
+              onClick={() => {
+                subscribeSIB()
+              }}
+            >
               Subscribe
             </a>
-            <a href="#" className="btn btn-secondary">
+            <a href="#" className="btn btn-secondary" onClick={toggle}>
               Cancel
             </a>
           </div>
