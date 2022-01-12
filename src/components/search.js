@@ -70,12 +70,18 @@ export default class Search extends Component {
           tabindex="0"
           onClick={this._toggleSearch}
         >
-          <div class={searchStyle.megaMenuSearchDarkIcon}></div>
+          <div
+            class={`${searchStyle.megaMenuSearchDarkIcon} ${
+              toggleOpen
+                ? searchStyle.searchIconWtoB
+                : searchStyle.searchIconBtoW
+            }`}
+          ></div>
         </a>
         <form
           target="_blank"
           onSubmit={this.handleSubmit}
-          className={`${
+          className={`${searchStyle.searchForm} ${
             toggleOpen
               ? searchStyle.searchInputOpen
               : searchStyle.searchInputClose
@@ -99,20 +105,19 @@ export default class Search extends Component {
           />
           <label htmlFor="search" className={searchStyle.searchButton}></label>
           <input type="submit" className={searchStyle.searchButton} />
-
-          {results.length ? (
-            <ul>
-              {results.slice(0, 4).map(page => (
-                <li key={page.id}>
-                  <div>
-                    <Link to={page.path}>{page.title}</Link>
-                  </div>
-                  <p>{page.tags ? page.tags.join(`, `) : ""}</p>
-                </li>
-              ))}
-            </ul>
-          ) : null}
         </form>
+        {results.length ? (
+          <ul className={searchStyle.result}>
+            {results.slice(0, 4).map(page => (
+              <li key={page.id}>
+                <div>
+                  <Link to={page.path}>{page.title}</Link>
+                </div>
+                <p>{page.tags ? page.tags.join(`, `) : ""}</p>
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </>
     )
   }

@@ -54,7 +54,6 @@
       0 3px 3px 0px rgba(0, 142, 207, 0.12);
     margin-bottom: 0;
   }
-  background-color: black;
 
   img {
     margin-bottom: 0;
@@ -76,7 +75,7 @@
     left: 0;
     top: 0;
     height: 96px;
-    width: 85px;
+    width: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,6 +89,8 @@
     }
     .icon-close {
       display: none;
+      width: 20px;
+      height: 20px;
     }
     &.active {
       .icon-hamburger {
@@ -154,7 +155,7 @@
 //     white-space: nowrap;
 //     overflow: hidden;
 //     opacity: 0;
-//     border: 0; 
+//     border: 0;
 //     background: $blue-bright;
 //     padding: 0 10px;
 //     font-size: 1.125rem;
@@ -256,7 +257,7 @@
     display: none;
     height: auto;
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     left: 0;
     top: 96px;
     -webkit-transform: translateX(-100%);
