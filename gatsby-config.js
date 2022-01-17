@@ -102,10 +102,8 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          { resolve: "gatsby-remark-copy-linked-files" },
-          {
-            resolve: `gatsby-remark-relative-images`,
-          },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-images`,
             options: {
