@@ -1,41 +1,41 @@
 ---
 title: "Node.js User Authentication Guide"
-date: "2022-01-07"
+date: "2022-01-18"
 coverImage: "coverimage.jpeg"
 author: "Uma Victor"
 tags: ["JWT", "Authentication", "Node.js"]
-description: "This is a blog about you can authenticate users in Nodejs"
+description: "Want to authenticate and manage users with specific roles in your Node.js app? This in-depth tutorial explains everything step-by-step to help you implement authentication in your Node.js apps."
 ---
 
 ## Introduction
 
-Creating a user registration form employs the management of the registered user. This is where user role authentication comes into play. Role authentication ensures that non-admin users cannot make changes or have access to exclusive information. It grants administrative privileges to admin users and basic privileges to basic users.
+Creating a user registration form employs the management of the registered user. This is where user role authentication comes into play. Role authentication ensures that non-admin users cannot make changes or access exclusive information. It grants administrative privileges to admin users and basic privileges to basic users.
 
-Authentication is carried out using trusted third-party customer identity and access management (CIAM) software like [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register) and web tokens like JSON Web Token (JWT).
+You can build your own authentication functionality with web tokens like JSON Web Token (JWT) or use a trusted third-party customer identity and access management (CIAM) software like [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register).
 
 ## Goal
 
 This tutorial helps you:
 
-- understnad the differences between the Admin role and the Basic user role;
-- use JWT to authenticate users;
-- learn role-based authentication using JWT in a simple Node.js app
+- understand the differences between the Admin role and the Basic user role;
+- use JWT to authenticate users; and
+- learn role-based authentication using JWT in a simple Node.js app.
 
 ## Prerequisites
 
-You should have the following installed:
+You have installed the following:
 
 - [Node](https://nodejs.org/en/download/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - a [Text Editor](https://code.visualstudio.com/download)
 
-You should also have a basic understanding of JavaScript [E56 Syntax](https://www.w3schools.com/js/js_es6.asp).
+You already understand JavaScript [E56 Syntax](https://www.w3schools.com/js/js_es6.asp).
 
-Now that we have everything in place, let’s setup your database
+Now that everything is in place, let's set up your database.
 
 ## Set Up a Mongo Database
 
-You'll store all your user data — which includes username, password, and role — in **MongoDB**.
+You'll store all your user data — which includes username, password, and role — in MongoDB.
 
 Install a node package called Mongoose that will connect to MongoDB. Then create a user `schema` for your application.
 
@@ -46,7 +46,7 @@ npm install mongoose
 
 `npm init` sets up your new project and creates a `package.json` file with the credentials.
 
-After installing mongoose, name a new file `db.js` in the project's directory and require `mongoose`.
+After installing mongoose, create a new file `db.js` in the project's directory and require `mongoose`.
 
 ```js
 const Mongoose = require("mongoose")
@@ -70,7 +70,7 @@ module.exports = connectDB
 
 The code snippet here connects to `mongodb://localhost:27017` and then specifies the name of the database `/role_auth`.
 
-The function `connectDB` awaits for the connection, which contains the `URI` and `options` as a second parameter. If it connects without errors, it will log out `MongoDB Connected`. Error issues will be fixed while connecting to the database. After this, it exported the function for using in the server.
+The function `connectDB` awaits for the connection, which contains the `URI` and `options` as a second parameter. If it connects without errors, it will log out `MongoDB Connected`. Error issues will be fixed while connecting to the database. After this, it exported the function for use in the server.
 
 ## Set Up the Server
 
@@ -102,7 +102,7 @@ The next step is to test your application. Open up your `package.json` file and 
 }
 ```
 
-Open your terminal and run `npm run dev` to start up the server.
+Open your terminal and run `npm run dev` to start the server.
 
 ## Connect to the Database
 
@@ -136,7 +136,7 @@ The listening event is assigned to a constant `server`. If an `unhandledRejectio
 
 You'll structure a user schema that contains username, password, and role.
 
-Name a new folder `model` in the project's directory and create a file called `User.js`. Now open `User.js` and create the user schema:
+Create a new folder `model` in the project's directory, and create a file called `User.js`. Now open `User.js` and create the user schema:
 
 ```js
 // user.js
@@ -162,7 +162,7 @@ const UserSchema = new Mongoose.Schema({
 
 In the schema, the `username` will be unique, required, and will accept `strings`.
 
-You've specified the minimum characters (6) the `password` field will accept. The `role` field grants a default value (basic) that you can change if needed.
+You've specified the minimum characters(6) the `password` field will accept. The `role` field grants a default value (basic) that you can change if needed.
 
 Now, you need to create a user model and export it:
 
@@ -175,15 +175,20 @@ You've created the user model by passing the `UserSchema` as the second argument
 
 ## Perform CRUD Operations
 
-You'll create functions that handle adding users, getting all users, updating the role of users, and deleting users.
+You'll create functions that handle:
+
+- adding users;
+- getting all users;
+- updating the role of users; and,
+- deleting users.
 
 ### Register Function
 
 As the name implies, this function will handle the registrations of users.
 
-Let'ss create a new folder named `Auth`. It will contain the Authentication file and the Route set-up file.
+Let's create a new folder named `Auth`. It will contain the Authentication file and the Route set-up file.
 
-After creating the `Auth` folder, add two files to it — `Auth.js` and `Route.js`.
+After creating the `Auth` folder, add two files — `Auth.js` and `Route.js`.
 
 Now open up our `Auth.js` file and import that `User` model:
 
@@ -193,14 +198,14 @@ const User = require("../model/User")
 
 The next step is to create an `async` `express` function that will take the user's data and register it in the database.
 
-You need to make use of an [Express middleware](https://expressjs.com/en/guide/writing-middleware.html) function that will grant access to the user's data from the body. You'll use this function in the `server.js` file:
+You need to use an [Express middleware](https://expressjs.com/en/guide/writing-middleware.html) function that will grant access to the user's data from the body. You'll use this function in the `server.js` file:
 
 ```js
 const app = express()
 app.use(express.json())
 ```
 
-Let's go back to your `Auth.js` file and create the register funcation:
+Let's go back to your `Auth.js` file and create the register function:
 
 ```js
 // auth.js
@@ -228,7 +233,7 @@ exports.register = async (req, res, next) => {
 }
 ```
 
-The exported `register` function will be used to set up the routes. You got the username and password from the `req.body` and created a `tryCatch` block that will create the user if successful; else, it returns a status code `401` with the error message.
+The exported `register` function will be used to set up the routes. You got the username and password from the `req.body` and created a `tryCatch` block that will create the user if successful; else, it returns status code `401` with the error message.
 
 ### Set Up Register Route
 
@@ -254,13 +259,13 @@ The server will use the `router` middleware function if there is a request to `/
 
 You'll use [Postman](https://www.postman.com/downloads/) to test all the routes.
 
-Open up Postman to make a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
+Open up Postman to send a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
 ![Register Route](registerRoute.jpeg)
 
 ### Login Function
 
-You've created a function that adds registered users to the database. Now, you've to create another function that will authenticate user credentials and check if the user is registered.
+You've created a function that adds registered users to the database. You have to create another function that will authenticate user credentials and check if the user is registered.
 
 Open the `Auth.js` file and create the Login function, as follows:
 
@@ -277,7 +282,7 @@ exports.login = async (req, res, next) => {
 }
 ```
 
-The `login` function returns a status code of `400` if the username and password were not provided. You need to find a user with the provided `username` and `password:
+The `login` function returns status code `400` if the username and password were not provided. You need to find a user with the provided `username` and `password`:
 
 ```js
 exports.login = async (req, res, next) => {
@@ -303,7 +308,7 @@ exports.login = async (req, res, next) => {
 }
 ```
 
-Here, it returns a status code of `401`when a user isn't found and a status code `200` when a user is found. The code snippet wrapped all this in a `tryCatch` block to detect and output errors if any.
+Here, it returns status code `401` when a user isn't found and `200` when a user is found. The code snippet wrapped all this in a `tryCatch` block to detect and output errors, if any.
 
 ### Set Up Login Route
 
@@ -392,11 +397,11 @@ exports.update = async (req, res, next) => {
 
 The third `if` block prevents assigning an admin role to an admin user, while the last `if` block checks if an error occurred when saving the role in the database.
 
-> The numerous `if` statements might be a little bit tricky but understandable. Please read the comments in the above block of code for better understanding.
+> The numerous `if` statements might be a little bit tricky but understandable. Please read the comments in the above code block for better understanding.
 
 ### Set Up Update Route
 
-You'll import the `update` function in your `route.js`, as follows:
+Import the `update` function in your `route.js`, as follows:
 
 ```js
 const { register, login, update } = require("./auth");
@@ -430,7 +435,7 @@ exports.deleteUser = async (req, res, next) => {
 }
 ```
 
-Here, you remov the user based on the `id` you get from `req.body`.
+You remove the user based on the `id` you get from `req.body`.
 
 ### Set up the `deleteUser` Route
 
@@ -448,15 +453,15 @@ Send a `delete` request to `http://localhost:5000/api/auth/deleteUser` by passin
 
 ![Delete Route](deleteroute.jpeg)
 
-## Hashing User Passwords
+## Hash User Passwords
 
 Saving user passwords in the database in plain text format is reckless. It is preferable to hash your password before storing it.
 
-For instance, it will be very difficult to decipher the passwords in your database if they were leaked. Hashing passwords is a cautious and reliable practice.
+For instance, it will be tough to decipher the passwords in your database if they are leaked. Hashing passwords is a cautious and reliable practice.
 
 Let's use `bcryptjs` to hash your user passwords.
 
-Let's install `bcryptjs`:
+Lets install `bcryptjs`:
 
 ```js
 npm i bcryptjs
@@ -468,9 +473,9 @@ After installing `bcryptjs`, import it into your `auth.js`
 const bcrypt = require("bcryptjs")
 ```
 
-### Refactoring Register Function
+### Refactor Register Function
 
-Instead of sending a plain text format to your database, let's hash the password using `bcrypt`:
+Instead of sending a plain text format to your database, lets hash the password using `bcrypt`:
 
 ```js
 exports.register = async (req, res, next) => {
@@ -499,11 +504,11 @@ exports.register = async (req, res, next) => {
 };
 ```
 
-`bcrypt` takes in your password as the first argument, and the number of times it will hash the password as the second argument. Passing a large number will take `bcrypt` a long time to hash the password, so pass a moderate number like 10.
+`bcrypt` takes in your password as the first argument and the number of times it will hash the password as the second argument. Passing a large number will take `bcrypt` a long time to hash the password, so give a moderate number like 10.
 
-`bcrypt` will return a promise with the hashed password; then, ypu send that hashed password to the database.
+`bcrypt` will return a promise with the hashed password; then, send that hashed password to the database.
 
-### Testing the Register Function
+### Test the Register Function
 
 Send a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
@@ -547,7 +552,7 @@ exports.login = async (req, res, next) => {
 }
 ```
 
-`bcrypt.compare` checks if the password that was given and the hashed password in the database is the same.
+`bcrypt.compare` checks if the given password and the hashed password in the database are the same.
 
 ### Test the Login Function
 
@@ -555,11 +560,11 @@ Send a `POST` request to `http://localhost:5000/api/auth/login` and pass a valid
 
 ![Hashed Login Route](hashedloginroute.jpeg)
 
-## Authenticating Users with JSON Web Token (JWT)
+## Authenticate Users with JSON Web Token (JWT)
 
-JSON Web Token helps shield a route from an unauthenticated user. Using JWT on your application will prevent unauthenticated users from accessing your users' home page and will prevent unauthorized users from accessing your admin page.
+JSON Web Token helps shield a route from an unauthenticated user. Using JWT in your application will prevent unauthenticated users from accessing your users' home page and prevent unauthorized users from accessing your admin page.
 
-JWT creates a token, sends it to the client, and then the client uses the token for making requests. It also helps to verify that you're a valid user making those requests.
+JWT creates a token, sends it to the client, and then the client uses the token for making requests. It also helps verify that you're a valid user making those requests.
 
 You've to install JWT before using it in your application:
 
@@ -569,7 +574,7 @@ npm i jsonwebtoken
 
 ### Refactor the Register Function
 
-When a user registers, you'll send a token using JWT as a cookie to the client. To create this token, you need to set a secret string. You'll use the node's in-built package called `crypto` to create random strings:
+When a user registers, you'll send a token to the client using JWT as a cookie. To create this token, you need to set a secret string. You'll use the node's in-built package called `crypto` to create random strings:
 
 ```js
 node
@@ -580,7 +585,7 @@ Output:
 
 ![Crypto](crypto.jpeg)
 
-Storing this secret string in an environment variable is a safe practice. If this secret string is leaked, unauthenticated users can create fake tokens to get access to the route.
+Storing this secret string in an environment variable is a safe practice. If this secret string is leaked, unauthenticated users can create fake tokens to access the route.
 
 Store your secret string in a variable:
 
@@ -633,9 +638,9 @@ exports.register = async (req, res, next) => {
 };
 ```
 
-The code snippet created the token using JWT's `sign` function. This function takes in three (3) parameters:
+The code snippet created the token using JWT's `sign` function. This function takes in three parameters:
 
-- the payload is the first parament that you'll pass to the function. This payload holds data concerning the user and this data should not contain sensitive information like passwords;
+- the payload is the first parament that you'll pass to the function. This payload holds data concerning the user, and this data should not contain sensitive information like passwords;
 
 - you passed your `jwtSecret` as the second parameter; and,
 
@@ -645,7 +650,7 @@ After passing all these arguments, JWT will generate a token. After the token is
 
 ### Refactor the Login Function
 
-You'll also generate a token for logged in users:
+Also, generate a token for logged in users:
 
 ```js
 exports.login = async (req, res, next) => {
@@ -702,13 +707,13 @@ const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 ```
 
-You'll create your middleware that verifies the token and grant access to your private route.
+You'll create your middleware that verifies the token and grants access to your private route.
 
-Let's create a new folder in the project's folder named `middleware` and create a file in it called `auth.js`.
+Let's create a new folder in the project's folder named `middleware` and create a file called `auth.js`.
 
 ### Admin Authentication
 
-Open the `auth.js` file, and let's create the middleware:
+Open the `auth.js` file and create the middleware:
 
 ```js
 const jwt = require("jsonwebtoken")
@@ -740,7 +745,7 @@ The code snippet requests a token from the client, checks if a token is availabl
 
 JWT verifies your token with your `jwtSecret` and returns a callback function. This function returns status code `401` if the token fails the authentication test.
 
-When you've created the token, you passed a payload that contained the credentials of the user. You'll get the role from the credentials and check if the role of the user is admin. If the user is not an admin, you return status code `401`; but if the user is an admin, you'll call the `next` function.
+When you've created the token, you passed a payload that contained the user's credentials. You'll get the role from the credentials and check if the user's role is admin. If the user is not an admin, you return status code `401`, but you'll call the `next` function if the user is an admin.
 
 ### Basic User Authentication
 
@@ -792,7 +797,7 @@ router.route("/deleteUser").delete(adminAuth, deleteUser)
 
 ## Populate the Database with Admin User
 
-You need to create an admin user in your database. Open up your terminal and let's run some [MongoDB methods](https://docs.mongodb.com/manual/reference/method/):
+You need to create an admin user in your database. Open up your terminal, and let's run some [MongoDB methods](https://docs.mongodb.com/manual/reference/method/):
 
 ```
 mongo
@@ -804,7 +809,7 @@ After mongo is started, you need to use the `role_auth` database:
 use role_auth
 ```
 
-Before adding your admin user to the database, you need to hash the password using `bcrypt` in `node` terminal. Open node terminal in your projects directory:
+Before adding your admin user to the database, you need to hash the password using `bcrypt` in the `node` terminal. Open node terminal in your project's directory:
 
 ```js
 const password = require("bcryptjs").hash("admin", 10)
@@ -827,7 +832,7 @@ db.users.insert({
 
 To check if it was successfully created, run `db.users.find().pretty()` — this will output all users in the database.
 
-## Creating the Login Form Using EJS
+## Create the Login Form Using EJS
 
 You'll use Embedded JavaScript (EJS) to create a front-end for your application.
 
@@ -1189,7 +1194,7 @@ Deleting Users from the database should be the duty of an admin.
 
 You've created an event listener that listens for a click on the `Delete User` button. When the button is clicked, you'll send a `DELETE` request to `/api/auth/deleteUser`.
 
-> Please make sure the admin user is first on the list to avoid populating the database with an admin user again.
+> Please ensure the admin user is first on the list to avoid populating the database with an admin user again.
 
 ## Logout Functionality
 
@@ -1215,35 +1220,51 @@ After creating the `GET` request, add a logout button to the admin's route and u
 ...
 ```
 
-## **Login Radius**
-[LoginRadius](https://www.loginradius.com/docs/api/v2/getting-started/introduction/) is a SaaS-based customer identity and access management (CIAM) system with features to manage customer identity, privacy, and access. It is a simple, implementable solution for adding user authentication and authorization to your website.
-Login radius handles user registration, login, and authentication. More features of Login radius includes:
-    - **Forms**: Login radius can automatically generate registration and login forms
-    - [**Authentication and Authorization**](https://www.loginradius.com/docs/developer/tutorial/node-js/): It generates and sends token to the user when login or user registration is successful. Instead of using `Jwt`, we can use this token to authenticate users
-    - **Security**: When using Login radius, you automatically have access to an admin console where you can control authentication factors regarding the app.
-To get started with Login radius, you need to [create an account](https://accounts.loginradius.com/auth.aspx?action=register) with either the Free plan or the Developers pro plan, customize your registration and login forms, and start managing your users.
-**How to authenticate using Login Radius**
-In this section, we will briefly cover how  authentication works using **Login Radius**.
-Sign up to [Login radius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login&action=register), and choose a name for the app.
-> 
-![login radius](loginradius.png)
+## Node.js Authentication with LoginRadius
 
-After we are through with the registration process, we can get our **App Name**, **API Key**, and **API Secret** from the `[configuration](https://dashboard.loginradius.com/configuration)` link on the side bar. With these configurations, we can easily link the server side of our application to **LoginRadius**.
+You can simply replace the many steps discussed above using [LoginRadius](https://www.loginradius.com/docs/api/v2/getting-started/introduction/). In turn, it helps you focus more on developing core application features while letting you quickly implement user signup and login and manager users.
 
-![login radius](loginradius1.png)
+In other words, LoginRadius is a SaaS-based customer identity and access management (CIAM) system with features to manage customer identity, privacy, and access. It is a simple, implementable solution for adding user authentication and authorization to your website.
 
+Basically, LoginRadius handles user registration, login, and authentication. Other features of LoginRadius include:
 
-**LoginRadius** automatically generates a link that will be used to authenticate  users. This link contains the name of our **LoginRadius** application and a `url` that authenticated users will be redirected to.
-`https://<LoginRadius-APP-Name>.hub.loginradius.com/auth.aspx?action=login&return_url=<Return-URL>`
+- **Forms**: LoginRadius can automatically pre-create registration and login forms for you.
+
+- [**Authentication and Authorization**](https://www.loginradius.com/docs/developer/tutorial/node-js/): It generates and sends a token to the user when login or signup is successful. Instead of using `JWT`, you can use this token to authenticate users
+
+- **Security**: When using LoginRadius, you automatically have access to an admin console where you can control authentication factors, such as email, phone, and multi-factor auth for your Node.js app.
+
+To get started with LoginRadius, you need to [create an account](https://accounts.loginradius.com/auth.aspx?action=register) with either the free plan or the Developer plan, customize your registration and login forms, and start managing your users.
+
+### How to Authenticate Your Node.js App with LoginRadius
+
+This section briefly covers how authentication works with LoginRadius.
+
+After signing up for [LoginRadius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login&action=register), choose a name for your Node.js app.
+
+> ![LoginRadius - Enter your app name](loginradius.png)
+
+After completing your LoginRadius signup process, you can get your **App Name**, **API Key**, and **API Secret** from the [`configuration`](https://dashboard.loginradius.com/configuration) link on the sidebar. With these configurations, you can easily link the server-side of our application to LoginRadius.
+
+![LoginRadius API Credentials](loginradius1.png)
+
+LoginRadius automatically generates a link that will be used to authenticate users. This link contains the name of your LoginRadius application and a `URL` that authenticated users will be redirected to:
+
+```
+https://<LoginRadius-APP-Name>.hub.loginradius.com/auth.aspx?action=login&return_url=<Return-URL>
+```
+
 An instance of the link is given below:
-`https://noderoleauth.hub.loginradius.com/auth.aspx?action=login&return_url=http://localhost:5000`.
 
+```
+https://noderoleauth.hub.loginradius.com/auth.aspx?action=login&return_url=http://localhost:5000
+```
 
 ## Conclusion
 
-You've successfully learned how to perform CRUD operations using MongoDB as database, hash passwords, authenticate using JWT, and render Embedded JavaScript (EJS). You can put all these together to build more complex applications.
+You've successfully learned how to perform CRUD operations using MongoDB as a database, hash passwords, authenticate using JWT, and render Embedded JavaScript (EJS). You can put all these together to build more complex applications.
 
-## **Resources** 
-- [GitHub Repo](https://github.com/uma-victor1/role_auth)
-- [Login radius with NodeJS article](https://www.loginradius.com/docs/developer/tutorial/node-js/)
-- [Login radius with NodeJS video](https://www.youtube.com/watch?v=efM46qNSaeg)
+## Resources
+
+- A full, working version of [the code used in this tutorial is available on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/NodejsAuthenticationGuide)
+- [Node.js Authentication with LoginRadius](https://www.loginradius.com/docs/developer/tutorial/node-js/)
