@@ -47,6 +47,11 @@
       margin-bottom: $gutter + $gutter/2;
       color: $gray-darkest;
       font-weight: 600;
+      a {
+        &:hover {
+          opacity: 0.8;
+        }
+      }
       strong {
         font-weight: 600;
       }
@@ -78,16 +83,19 @@
 .tag {
   &.pinned {
     a {
-      border-radius: 36px;
+      border-radius: 100px;
       font-weight: 500;
-      padding: $gutter/3 $gutter/2;
+      padding: $gutter/4 $gutter/2;
       border: 2px $blue-bright solid;
       font-size: 1rem;
-      margin-right: $gutter/2;
-      margin-bottom: $gutter/2;
+      margin-right: $gutter/4 * 3;
+      margin-bottom: $gutter/4 * 3;
       display: inline-flex;
       height: auto;
       background: none;
+      text-transform: capitalize;
+      font-size: 1rem;
+      font-weight: 500;
       line-height: 1;
       &:hover {
         background-color: $blue-bright;
@@ -114,6 +122,22 @@
         }
       }
     }
+    img {
+      -webkit-transition: 0.3s ease-in-out !important;
+      transition: 0.3s ease-in-out !important;
+    }
+    &:hover {
+      h3 {
+        a {
+          color: $blue-bright;
+        }
+      }
+      picture {
+        img {
+          opacity: 0.8 !important;
+        }
+      }
+    }
   }
 }
 .description-wrap {
@@ -121,21 +145,24 @@
   flex-direction: column;
   // min-height: 195px;
   .tag {
-    margin: $gutter 0 $gutter/2;
+    margin: $gutter 0 0;
     display: flex;
     flex-wrap: wrap;
     a {
-      border-radius: 36px;
+      border-radius: 100px;
       font-weight: 500;
-      padding: $gutter/3 $gutter/2;
+      padding: $gutter/4 $gutter/2;
       border: 2px $blue-bright solid;
       font-size: 1rem;
-      margin-right: $gutter/2;
-      margin-bottom: $gutter/2;
+      margin-right: $gutter/4 * 3;
+      margin-bottom: $gutter/4 * 3;
       display: inline-flex;
       height: auto;
       background: none;
+      font-size: 1rem;
+      font-weight: 500;
       line-height: 1;
+      text-transform: capitalize;
       &:hover {
         background-color: $blue-bright;
         color: $white;
@@ -169,19 +196,21 @@
       box-shadow: 0px 0px $gutter/4 0px $blue-bright;
       background-color: $cta;
       border-radius: $gutter / 3;
-      padding: $gutter/2;
       input[type="text"] {
         border: 0;
         width: 100%;
         text-align: center;
-        padding: 12px 16px;
+        padding: $gutter;
         background-color: $cta;
         color: $white;
+        border-radius: $gutter / 3 $gutter / 3 0 0;
         font-size: 1.25rem;
+        line-height: 1.2;
         &::placeholder {
           color: $white;
           text-align: center;
           opacity: 0.2;
+          font-size: 1.25rem;
         }
 
         &:focus-visible,
@@ -192,6 +221,23 @@
       }
       .btn {
         max-width: 100%;
+        background-image: none;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: $gutter/6 * 5 $gutter;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        transition: all 300ms;
+        &:hover {
+          opacity: 0.8;
+        }
+        &:hover,
+        &:focus {
+          transform: scale(1);
+        }
       }
     }
     &.detail-page {
@@ -199,7 +245,7 @@
         margin: $gutter * 4 0 $gutter * 2;
         max-width: 64%;
         color: $white;
-        padding: $gutter $gutter/2 $gutter/2 $gutter;
+        padding: $gutter 0 0 $gutter;
         @media (max-width: 767px) {
           max-width: 100%;
         }
@@ -231,19 +277,26 @@
     }
     .card {
       img {
-        border-radius: $gutter/2;
-        object-fit: fill;
-        max-height: 120px;
+        border-radius: $gutter/3 * 2;
+        object-fit: cover;
+        max-height: 125px;
         width: 100%;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
       }
       h3 {
         margin-top: $gutter/2;
         margin-bottom: 0;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.3;
+        opacity: 0.7;
       }
       a {
         display: block;
         color: $gray-darkest;
-        transition: all 300ms;
         &:hover {
           img {
             opacity: 0.8;
@@ -251,14 +304,9 @@
 
           & > h3 {
             color: $blue-bright;
-            opacity: 1;
           }
         }
       }
     }
   }
-}
-.disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
 }

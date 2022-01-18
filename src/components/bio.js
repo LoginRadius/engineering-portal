@@ -14,11 +14,13 @@ const Bio = ({ date, author, pinned, readingTime }) => {
       }`}
     >
       <div>
-        <img
-          className={` circle medium ${pinned ? styles.pinned : "large"}`}
-          src={githubUrl}
-          alt={author.id}
-        />
+        <Link to={`/author/${kebabCase(author.id)}/`}>
+          <img
+            className={` circle medium ${pinned ? styles.pinned : "large"}`}
+            src={githubUrl}
+            alt={author.id}
+          />
+        </Link>
       </div>
       <div className="text ml-sm">
         <span>By&nbsp;</span>

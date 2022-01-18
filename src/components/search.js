@@ -119,7 +119,7 @@ export default class Search extends Component {
                 <div>
                   <Link to={page.path}>{page.title}</Link>
                 </div>
-                <p>{page.tags ? page.tags.join(`, `) : ""}</p>
+                {/* <p>{page.tags ? page.tags.join(`, `) : ""}</p> */}
               </li>
             ))}
           </ul>

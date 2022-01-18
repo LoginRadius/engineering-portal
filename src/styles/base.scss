@@ -165,6 +165,14 @@ ul {
     transform: scale(1.02);
     color: $white;
   }
+  &.disabled {
+    background: #e8e9ea !important;
+    cursor: not-allowed;
+    &:hover,
+    &:focus {
+      transform: scale(1);
+    }
+  }
 }
 .btn-secondary {
   padding: 0 $gutter;
@@ -443,34 +451,3 @@ section {
 #commento {
   margin-bottom: $gutter * 2;
 }
-
-// #react-tabs {
-//   &-1 {
-//     &:hover {
-//       ~ hr {
-//         left: calc(20% + 24px);
-//       }
-//     }
-//   }
-//   &-2 {
-//     &:hover {
-//       ~ hr {
-//         left: calc(40% + 24px);
-//       }
-//     }
-//   }
-//   &-3 {
-//     &:hover {
-//       ~ hr {
-//         left: calc(60% + 24px);
-//       }
-//     }
-//   }
-//   &-4 {
-//     &:hover {
-//       ~ hr {
-//         left: calc(80% + 24px);
-//       }
-//     }
-//   }
-// }
