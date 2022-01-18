@@ -21,6 +21,12 @@
     strong {
       font-weight: 600;
     }
+    &:hover {
+      opacity: 0.8;
+      img {
+        opacity: 0.8;
+      }
+    }
   }
   span {
     color: $gray-darkest;

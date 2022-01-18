@@ -65,8 +65,8 @@
   padding-right: 80px;
   padding-left: 20px;
   border: none;
-  background-color: #fff;
-  color: #fff;
+  background-color: $white;
+  color: $white;
   &::placeholder {
     color: rgba(255, 255, 255, 0.8);
   }
@@ -84,7 +84,7 @@
 @media screen and (max-width: 1350px) {
   .search-form > input.search-form-input {
     width: 100%;
-    color: #fff;
+    color: $white;
   }
   .search-form > input.search-form-input::placeholder,
   nav
@@ -92,7 +92,7 @@
     .search-form
     > input.search-form-input::-webkit-input-placeholder,
   .search-form > input.search-form-input:-ms-input-placeholder {
-    color: #fff;
+    color: $white;
   }
 }
 .search-form > input.search-form-submit {
@@ -287,9 +287,9 @@
 /*# sourceMappingURL=style.min.css.map */
 
 .result {
-  width: 348px;
+  width: 350px;
   top: 96px;
-  padding: 1em;
+  padding: 0;
   position: absolute;
   list-style: none;
   z-index: 999;
@@ -298,27 +298,32 @@
   height: fit-content;
   background: $white;
   border: 0;
-  border-top: 0;
-  border-radius: 0 0px 8px 8px;
-  right: 1px;
+  border-top: 1px solid $white;
+  right: 0;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 1px 2px $gray-light;
+  background-color: $blue-darkest;
+  color: $white;
   @media (max-width: 1351px) {
     width: calc(100% - 70px);
   }
   li {
-    border-bottom: solid 1px $gray-light;
-    padding-bottom: 1em;
+    border-bottom: solid 1px $blue-dark;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
     p {
       font-size: 1.125rem;
+      color: $gray-lightest;
     }
     a {
-      font-weight: 500 !important;
-      color: $gray-darkest !important;
-      padding: 0 !important;
+      padding: 1.5em 1em;
+      display: block;
+      font-weight: 600 !important;
+      color: $white !important;
       &:hover {
         color: $blue-bright !important;
       }
@@ -326,6 +331,5 @@
   }
   li:last-child {
     border-bottom: 0;
-    padding-bottom: 0;
   }
 }

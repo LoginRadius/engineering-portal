@@ -34,14 +34,32 @@ const Pagination = ({ pages, currentPage, type }) => {
     <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
         {!isFirst && (
-          <Link to={`/${type}/${prevPage}/#all-articles`} rel="prev" />
+          <Link to={`/${type}/${prevPage}/#all-articles`} rel="prev">
+            <span>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.375 5.25L8.625 12L15.375 18.75"
+                  stroke="#0D8DCF"
+                  stroke-width="2.25"
+                  stroke-miterlimit="10"
+                  stroke-linecap="square"
+                />
+              </svg>
+            </span>
+          </Link>
         )}
         {!intialPages && (
           <Link
             to={`/${type}/`}
             className={currentPage === 1 ? styles.active : ""}
           >
-            {1}
+            <span>{1}</span>
           </Link>
         )}
         {!intialPages && currentPage != 4 && <p to="">...</p>}
@@ -51,7 +69,7 @@ const Pagination = ({ pages, currentPage, type }) => {
             key={k}
             className={currentPage === k ? styles.active : ""}
           >
-            {k}
+            <span>{k}</span>
           </Link>
         ))}
         {!lastPages && currentPage != pages - 3 && <p>...</p>}
@@ -61,12 +79,30 @@ const Pagination = ({ pages, currentPage, type }) => {
             key={pages}
             className={currentPage === pages ? styles.active : ""}
           >
-            {pages}
+            <span>{pages}</span>
           </Link>
         )}
 
         {!isLast && (
-          <Link to={`/${type}/${nextPage}/#all-articles`} rel="next" />
+          <Link to={`/${type}/${nextPage}/#all-articles`} rel="next">
+            <span>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.625 5.25L15.375 12L8.625 18.75"
+                  stroke="#0D8DCF"
+                  stroke-width="2.25"
+                  stroke-miterlimit="10"
+                  stroke-linecap="square"
+                />
+              </svg>
+            </span>
+          </Link>
         )}
       </div>
     </section>

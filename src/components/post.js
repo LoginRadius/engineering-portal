@@ -178,11 +178,13 @@ const Post = ({ post, relatedPost }) => {
           </div> */}
           <div class={`${styles.author} d-flex py-96`}>
             <div class={styles.authorImage}>
-              <img
-                className={`circle extra-large`}
-                src={githubUrl}
-                alt={author.id}
-              />
+              <Link to={`/author/${kebabCase(author.id)}/`}>
+                <img
+                  className={`circle extra-large`}
+                  src={githubUrl}
+                  alt={author.id}
+                />
+              </Link>
             </div>
             <div class={styles.aboutAuthor}>
               <div class={styles.aboutAuthorInner}>
