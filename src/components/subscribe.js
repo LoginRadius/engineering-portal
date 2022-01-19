@@ -23,7 +23,7 @@ const Subscribe = ({ type }) => {
   }, [email])
 
   return (
-    <div className={styles.subscribe}>
+    <div className={`${styles.sidebarWidget} ${styles.subscribe}`}>
       <input
         type="text"
         placeholder="Enter your email"
@@ -33,7 +33,8 @@ const Subscribe = ({ type }) => {
           setEmail(e.target.value)
         }}
       />
-      <button
+      <input
+        type="submit"
         className={`${`${styles.btn} btn-primary`} ${
           isError ? styles.disabled : ""
         }  `}
@@ -42,9 +43,9 @@ const Subscribe = ({ type }) => {
         onClick={() => {
           setClicked(true)
         }}
-      >
-        Subscribe
-      </button>
+        value="Subscribe"
+      />
+
       {!isError && (
         <Modal
           type={type}

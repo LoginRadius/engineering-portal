@@ -3,29 +3,24 @@ import { Link } from "gatsby"
 
 const List = ({ featurePost, slug }) => {
   return (
-    <>
+    <React.Fragment>
       {featurePost.length ? (
-        <div>
+        <React.Fragment>
           <h3>Featured Posts</h3>
-          {featurePost.map(({ node }, i) =>
-            slug === node.fields.slug ? (
-              <div> </div>
-            ) : (
-              <ul>
+          <ul>
+            {featurePost.map(({ node }, i) =>
+              slug === node.fields.slug ? null : (
                 <li>
-                  <Link
-                    to={`/${node.frontmatter.type}${node.fields.slug}`}
-                    rel="prev"
-                  >
+                  <Link to={node.fields.slug} rel="prev">
                     {node.frontmatter.title}
                   </Link>
                 </li>
-              </ul>
-            )
-          )}
-        </div>
+              )
+            )}
+          </ul>
+        </React.Fragment>
       ) : null}
-    </>
+    </React.Fragment>
   )
 }
 export default List

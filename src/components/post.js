@@ -114,8 +114,8 @@ const Post = ({ post, relatedPost }) => {
               className={styles.postContent}
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <div class={styles.sideBar}>
-              <div class={`${styles.sideBarWidget} ${styles.posts}`}>
+            <div class={headStyles.sidebar}>
+              <div class={`${headStyles.sidebarWidget} ${headStyles.posts}`}>
                 {type === "async" ? (
                   <AsyncFeatList slug={post.fields.slug} />
                 ) : type === "fuel" ? (
@@ -124,17 +124,19 @@ const Post = ({ post, relatedPost }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              <div class={`${styles.sideBarWidget} ${styles.tags}`}>
+              <div class={`${headStyles.sidebarWidget} ${headStyles.tags}`}>
                 <TagMenu />
               </div>
-              <div class={`${styles.sideBarWidget} ${styles.cta}`}>
-                <div class="image">
+
+              <div class={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                <div class={headStyles.image}>
                   <img src={Docs} alt="LoginRadius Docs" />
                 </div>
-                <div class="text">
-                  <p>Implement Authentication in Minutes</p>
+                <div class={headStyles.text}>
+                  <h3>Implement Authentication in Minutes</h3>
                   <a
-                    className={"btn-primary ga_event"}
+                    className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                    // className={"btn-primary ga_event"}
                     href={"https://www.loginradius.com/docs/developer"}
                     key={"docs-link"}
                     target="_blank"
@@ -153,29 +155,6 @@ const Post = ({ post, relatedPost }) => {
               </div>
             </div>
           </div>
-          {/* <div className="grid-70-30">
-            <div className={styles.postContent}>
-              <h2>Do you want a free authentication solution?</h2>
-              <p>
-                Add the world's most secure, reliable and easy to implement user
-                authentication solution on your applications at $0
-                <a
-                  href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
-                  className={"btn-primary btn-cta ga_event"}
-                  onClick={() =>
-                    eventLogger({
-                      category: "LoginRadius Home",
-                      action: "User clicked on LoginRadius home page",
-                      label: "LoginRadius Home",
-                    })
-                  }
-                  target="blank"
-                >
-                  Get Started Free
-                </a>
-              </p>
-            </div>
-          </div> */}
           <div class={`${styles.author} d-flex py-96`}>
             <div class={styles.authorImage}>
               <Link to={`/author/${kebabCase(author.id)}/`}>
@@ -195,19 +174,16 @@ const Post = ({ post, relatedPost }) => {
                   </Link>
                 </h3>
                 <p>{author.bio}</p>
-                {/* <Link to={`/author/${_.kebabCase(author.id)}/`}>
-                  View Profile
-                </Link> */}
               </div>
             </div>
           </div>
 
-          <div class={styles.sideBar}>
+          <div class={`${headStyles.sidebar} ${headStyles.detailPage}`}>
             {relatedPost && relatedPost.length ? (
-              <div class={`${styles.sideBarWidget} ${styles.posts}`}>
+              <div class={`${headStyles.sidebarWidget} ${headStyles.posts}`}>
                 <h3>Related Posts</h3>
-                {relatedPost.map(({ node }, i) => (
-                  <ul>
+                <ul>
+                  {relatedPost.map(({ node }, i) => (
                     <li>
                       <Link
                         to={`/${node.frontmatter.type}${node.fields.slug}`}
@@ -215,25 +191,26 @@ const Post = ({ post, relatedPost }) => {
                       >
                         {node.frontmatter.title}
                       </Link>
+                      <a href="#">
+                        Everything You Need to Know Before Buying Cyber
+                        Insurance in 2022
+                      </a>
                     </li>
-                  </ul>
-                ))}
+                  ))}
+                </ul>
               </div>
             ) : null}
-            <div
-              className={`${headStyles.landing} ${headStyles.sidebar} ${headStyles.detailPage}`}
-            >
-              <div className={headStyles.subscribe}>
-                <h3>Did you enjoy this article? Subscribe to new articles!</h3>
-                <form>
-                  <input type="text" placeholder="Enter your email" />
-                  <button
-                    className={`${headStyles.btn} btn-primary`}
-                    type="submit"
-                  >
-                    Subscribe
-                  </button>
-                </form>
+            <div class={headStyles.subscribeDetail}>
+              <h3>Did you enjoy this article? Subscribe to new articles!</h3>
+              <div
+                class={`${headStyles.sidebarWidget} ${headStyles.subscribe}`}
+              >
+                <input type="text" placeholder="Enter your email" />
+                <input
+                  className={`${headStyles.btn} btn-primary`}
+                  type="submit"
+                  value="Subscribe"
+                />
               </div>
             </div>
           </div>
