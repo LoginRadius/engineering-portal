@@ -4,8 +4,8 @@ import PropTypes from "prop-types"
 import { StaticQuery, withPrefix } from "gatsby"
 
 const SEO = ({
-  title = 'Async Blog — A place for developers, created by developers',
-  description = 'Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.',
+  title,
+  description,
   image = null,
   pathname = null,
   article = false,
@@ -16,7 +16,6 @@ const SEO = ({
         site {
           siteMetadata {
             defaultTitle: title
-            titleTemplate
             defaultDescription: description
             siteUrl
             defaultImage: image
@@ -28,42 +27,43 @@ const SEO = ({
       site: {
         siteMetadata: {
           defaultTitle,
-          titleTemplate,
           defaultDescription,
           siteUrl,
           defaultImage,
         },
       },
     }) => {
+      const img = image || defaultImage
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
-        image: `${siteUrl}${image || defaultImage}`,
+        image: img.includes("https") ? img : `${siteUrl}${img}`,
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
 
       return (
         <>
           <Helmet
-            title={seo.title}
-            titleTemplate={titleTemplate}
             link={
               article
                 ? [
-                  {
-                    rel: "canonical",
-                    hreflang: "en",
-                    href: seo.url,
-                  },
-                ]
+                    {
+                      rel: "canonical",
+                      hreflang: "en",
+                      href: seo.url,
+                    },
+                  ]
                 : [
-                  {
-                    rel: "canonical",
-                    hreflang: "en",
-                    href: `${siteUrl}${pathname || "/"}`,
-                  },]
+                    {
+                      rel: "canonical",
+                      hreflang: "en",
+                      href: `${siteUrl}${pathname || "/"}`,
+                    },
+                  ]
             }
           >
+            <title lang="en">{seo.title}</title>
+            <link rel="icon" href={withPrefix("/favicon.png")} />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />

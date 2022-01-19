@@ -1,15 +1,23 @@
 import React from "react"
 import { graphql } from "gatsby"
 import BlogList from "../../components/blog-list"
+import SEO from "../../components/seo"
 
 const FuelBlogPage = props => {
   return (
-    <BlogList
-      data={props.data}
-      currentPage={props.page || 1}
-      pathname={props.location.pathname}
-      type={"fuel"}
-    />
+    <>
+      <SEO
+        title={`Page ${props.page} - Growth | LoginRadius Blog`}
+        description={`LoginRadius Growth blog Page ${props.page}`}
+        pathname={props.location.pathname}
+      />
+      <BlogList
+        data={props.data}
+        currentPage={props.page || 1}
+        pathname={props.location.pathname}
+        type={"fuel"}
+      />
+    </>
   )
 }
 

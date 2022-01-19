@@ -1,20 +1,13 @@
 import { graphql, StaticQuery } from "gatsby"
 import React from "react"
 import Footer from "./footer"
-import FreeTrial from "./freeTrial"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
-import favicon from "../../static/favicon.png"
-import Helmet from "react-helmet"
-import SEO from "./seo"
 import PinnedCard from "./pinnedCard"
 
 const Layout = ({ postPage, children, pinned, pinnedData }) => {
   return (
     <div className={layoutStyles.container}>
-      <Helmet>
-        <link rel="icon" href={favicon} />
-      </Helmet>
       <StaticQuery
         query={graphql`
           query {
@@ -23,13 +16,6 @@ const Layout = ({ postPage, children, pinned, pinnedData }) => {
             }
             site {
               siteMetadata {
-                title
-                description
-                menuLinks {
-                  name
-                  slug
-                  class
-                }
                 footerLinks {
                   name
                   slug
@@ -45,11 +31,7 @@ const Layout = ({ postPage, children, pinned, pinnedData }) => {
         render={data => {
           return (
             <>
-              <SEO />
-              <Header
-                menuLinks={data.site.siteMetadata.menuLinks}
-                searchIndex={data.siteSearchIndex.index}
-              />
+              <Header searchIndex={data.siteSearchIndex.index} />
               <div className={layoutStyles.pinnedwrap}>
                 <div className={layoutStyles.blogContentPinned}>
                   {pinned && <PinnedCard pinnedData={pinnedData} />}

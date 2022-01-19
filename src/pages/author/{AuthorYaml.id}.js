@@ -22,9 +22,9 @@ const AuthorTemplate = ({
 }) => (
   <Layout hideTagMenu={true}>
     <SEO
-      title={id}
+      title={`${id} - Author | LoginRadius Blog`}
       description={`${id} - ${bio}`}
-      image={github}
+      image={`https://github.com/${github}.png`}
       pathname={location.pathname}
     />
     <main>

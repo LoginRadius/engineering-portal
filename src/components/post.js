@@ -60,13 +60,6 @@ const Post = ({ post, relatedPost }) => {
           src="https://social9.com/comments/js/commento.js"
         ></script>
       </Helmet>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={image && image.childImageSharp.fluid.src}
-        pathname={post.fields.slug}
-        article
-      />
 
       <section
         className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-96`}
@@ -215,7 +208,7 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
-        <ToC headings={headings} />
+        {headings && headings.length && <ToC headings={headings} />}
 
         <div>
           <div id="commento"></div>

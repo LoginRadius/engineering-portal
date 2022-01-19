@@ -16,18 +16,6 @@ const BlogList = props => {
       : data.allMarkdownRemark.edges[0].node
   return (
     <Layout pinnedData={pinnedData} pinned>
-      <SEO
-        title={currentPage === 1 ? "" : `Page ${currentPage}`}
-        image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
-        pathname={pathname}
-        description={
-          currentPage === 1
-            ? ""
-            : `LoginRadius Async Blog - Page ${currentPage} of ${Math.ceil(
-                total / 6
-              )}`
-        }
-      />
       <main>
         <CardList
           posts={data.allMarkdownRemark.edges}

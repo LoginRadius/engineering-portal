@@ -3,10 +3,8 @@ const getTimeToRead = require("./src/utils/timeToReadRss")
 
 module.exports = {
   siteMetadata: {
-    title: `Async Blog — A place for developers, created by developers`,
-    titleTemplate: "%s · Async Blog",
-    description:
-      "Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.",
+    title: `LoginRadius Blog`,
+    description: "Company Updates, Technology Articles from LoginRadius",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog/async",
     image: "/async.svg",
@@ -51,10 +49,6 @@ module.exports = {
         name: "Security Policy",
         slug: "https://www.loginradius.com/security-policy/",
       },
-      // {
-      //   name: "Site Map",
-      //   slug: "https://www.loginradius.com/site-map/",
-      // },
     ],
     socialLinks: [
       {
@@ -290,7 +284,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Async Blog — A place for developers, created by developers",
+            title: "LoginRadius Blog",
             feed_url: "https://www.loginradius.com/blog/async/rss.xml",
             site_url: "https://www.loginradius.com/blog/async/",
             description:

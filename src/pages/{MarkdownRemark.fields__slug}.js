@@ -3,11 +3,26 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Post from "../components/post"
+import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
+  const {
+    title,
+    metatitle,
+    metadescription,
+    description,
+    coverImage,
+  } = post.frontmatter
   return (
     <Layout hideTagMenu postPage>
+      <SEO
+        title={metatitle || title}
+        description={metadescription || description || post.excerpt}
+        image={coverImage && coverImage.childImageSharp.fluid.src}
+        pathname={post.fields.slug}
+        article
+      />
       <Post post={post} />
     </Layout>
   )
@@ -28,6 +43,8 @@ export const pageQuery = graphql`
         slug
       }
       frontmatter {
+        metatitle
+        metadescription
         description
         title
         date(formatString: "MMMM DD, YYYY")
