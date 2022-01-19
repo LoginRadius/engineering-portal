@@ -3,6 +3,10 @@ import styles from "./modal.module.scss"
 import { toast } from "react-toastify"
 import { validEmail } from "./regex.js"
 
+import "react-toastify/dist/ReactToastify.css"
+
+toast.configure()
+
 const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
     subscribeEmail: "",
@@ -10,6 +14,11 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     responseMsg: "",
     respClass: "",
   })
+  const [async, setAsync] = useState(() => (type === "async" ? true : false))
+  const [fuel, setFuel] = useState(() => (type === "fuel" ? true : false))
+  const [identity, setIdentity] = useState(() =>
+    type === "start-with-identity" ? true : false
+  )
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     if (newsLetterSubscription.subscribeEmail != email) {
@@ -24,8 +33,22 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const subscribeSIB = () => {
     setLoading(true)
     let url =
-      "https://7b214b8d.sibforms.com/serve/MUIEABjlbtas8SGeh1_RHkqf-_rjMNzQ_3u_4maezMOZVA-Y8EhuES3-7h1h1an4yYoFbmXE-yi_3mvlfauUKpZxhhpOfH-eEcDiwn1SFnCLVyXROs6Z1Qiz6-_7-Bi-3cGVPJgdXXUuWgo2nQXMnkCl7NiAhIO1lUCHGg6EPo6jH1MahkllNh1mJtf4HeL-sQy6fDXP7WdtwJbA?isAjax=1"
+      "https://7b214b8d.sibforms.com/serve/MUIEAEF8n18XivpuJIaBkdU9WqFwLX9Jyw4tftr7sucfONVH3neyxUoT96-GLKbvG2XNErWp9O_PulTWQkjxwMDDCECPzvWressylUfBxyOp7cRr0levyjI4o4qtescHBvWd7AF1gxJ9xA0roVaMek-2WZ5sEhFZb-RsbcOLZHUwnWT6ICVTGUsWhOiWusq0aQY4rVnTDaM_S_O7"
     var data = new FormData()
+
+    /*const bodyType = (id) => {
+      data.append("lists_25[]",id)
+    }*/
+    if (async) {
+      data.append("list_25[]", 154)
+    }
+    if (fuel) {
+      data.append("list_25[]", 157)
+    }
+    if (identity) {
+      data.append("list_25[]", 158)
+    }
+
     data.append("EMAIL", newsLetterSubscription.subscribeEmail)
     // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
     let xmlhttp = new XMLHttpRequest()
@@ -66,10 +89,14 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     }
     xmlhttp.send(data)
   }
+  const noType = () => {
+    return !async && !fuel && !identity //check this
+  }
+
   return (
     <div className={`${styles.modal} ${isOpen ? "" : styles.hide}`}>
       <div className={styles.modalBody}>
-        <a href="#" className={styles.modalClose} onClick={toggle}>
+        <a className={styles.modalClose} onClick={toggle}>
           <svg
             width="512"
             height="512"
@@ -96,7 +123,9 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="engineering"
                   type="checkbox"
-                  value="value1"
+                  value="async"
+                  checked={async}
+                  onChange={() => setAsync(!async)}
                 />
                 <label for="engineering">Engineering</label>
               </li>
@@ -105,7 +134,9 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="identity"
                   type="checkbox"
-                  value="value2"
+                  value="start-with-identity"
+                  checked={identity}
+                  onChange={() => setIdentity(!identity)}
                 />
                 <label for="identity">Identity</label>
               </li>
@@ -114,7 +145,9 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="growth"
                   type="checkbox"
-                  value="value3"
+                  value="fuel"
+                  checked={fuel}
+                  onChange={() => setFuel(!fuel)}
                 />
                 <label for="growth">Growth</label>
               </li>
@@ -122,13 +155,15 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
             <a
-              className="btn btn-primary"
-              disabled={newsLetterSubscription.subscribeCall || loading}
+              className={`${"btn btn-primary"} ${noType() ? "disabled" : ""}`}
+              disabled={
+                newsLetterSubscription.subscribeCall || loading || noType()
+              }
               onClick={() => !loading && subscribeSIB()}
             >
               {loading ? "Please Wait" : "Subscribe"}
             </a>
-            <a href="#" className="btn btn-secondary" onClick={toggle}>
+            <a className="btn btn-secondary" onClick={toggle}>
               Cancel
             </a>
           </div>
