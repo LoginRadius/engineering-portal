@@ -28,22 +28,27 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
           </div>
           <div className={`${styles.landing} ${styles.sidebar}`}>
             <Subscribe type={type} />
-            <div className={`${styles.tag} ${styles.pinned}`}>
+            <div className={`${styles.sidebarWidget} ${styles.tags}`}>
               <TagMenu />
             </div>
 
-            <div className={`${styles.openSource} ${styles.card}`}>
-              <a href="#">
-                <img src={Opensource} alt="LoginRadius Open Source" />
-                <h3>LoginRadius Open Source</h3>
-              </a>
-            </div>
-            <div className={`${styles.openSource} ${styles.card}`}>
-              <a href="#">
-                <img src={Writeforus} alt="Write for us" />
-                <h3>Write for us</h3>
-              </a>
-            </div>
+            <a
+              className={`${styles.sidebarWidget} ${styles.link}`}
+              href="https://www.loginradius.com/open-source/"
+              target="_blank"
+            >
+              <div style={{ backgroundImage: `url(${Opensource})` }} />
+              <h3>LoginRadius Open Source</h3>
+            </a>
+
+            <a
+              className={`${styles.sidebarWidget} ${styles.link}`}
+              href="https://www.loginradius.com/blog/async/page/guest-blog"
+              target="_blank"
+            >
+              <div style={{ backgroundImage: `url(${Writeforus})` }} />
+              <h3>Write for us</h3>
+            </a>
           </div>
         </div>
       </div>

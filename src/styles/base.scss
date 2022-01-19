@@ -109,8 +109,8 @@ ul {
   width: 100%;
   max-width: 200px;
   cursor: pointer;
-  background-color: $cta;
-  color: $white;
+  background-color: $lr-orange;
+
   text-align: center;
   display: block;
   white-space: nowrap;
@@ -118,9 +118,8 @@ ul {
   border: 0;
   transition: color 0.35s, background-color 0.35s, border-color 0.35s,
     box-shadow 0.35s, opacity 0.35s;
-  background-color: $cta;
   color: $white;
-  border-color: $cta;
+  border-color: $lr-orange;
   transition: 0.3s ease-in 0s;
   background-size: 250% auto;
   background-image: linear-gradient(
@@ -147,8 +146,8 @@ ul {
     }
   }
   &:hover {
-    background-color: $cta;
-    border-color: $cta;
+    background-color: $lr-orange;
+    border-color: $lr-orange;
     transition: 0.3s ease-in 0s;
     background-size: 250% auto;
     background-position: right center;
