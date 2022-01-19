@@ -1,25 +1,18 @@
-import React from "react"
-import Helmet from "react-helmet"
+import { Link } from "gatsby"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
-import SEO from "./seo"
-import Bio from "./bio"
-import ToC from "./toc"
-import styles from "./post.module.scss"
-
-import { Link } from "gatsby"
-
-import headStyles from "./cardlist.module.scss"
-import TagMenu from "./tagMenu"
-
+import React from "react"
 import ReactGA from "react-ga"
-
+import Helmet from "react-helmet"
 import Docs from "../../static/consumer-identity-trend.png"
-
+import headStyles from "./cardlist.module.scss"
 import AsyncFeatList from "./featurePost/async"
 import FuelFeatList from "./featurePost/fuel"
 import IdentityFeatList from "./featurePost/identity"
-import getTimeToRead from "../utils/timeToRead"
+import styles from "./post.module.scss"
+import Subscribe from "./subscribe"
+import TagMenu from "./tagMenu"
+import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -35,10 +28,9 @@ const signUplogger = function () {
     label: "Signup",
   })
 }
-const Post = ({ post, relatedPost }) => {
+const Post = ({ post, relatedPost, type }) => {
   const headings = post.headings
   const image = post.frontmatter.coverImage
-  const type = post.frontmatter.type
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
   const githubUrl = author.github
@@ -195,16 +187,7 @@ const Post = ({ post, relatedPost }) => {
             ) : null}
             <div class={headStyles.subscribeDetail}>
               <h3>Did you enjoy this article? Subscribe to new articles!</h3>
-              <div
-                class={`${headStyles.sidebarWidget} ${headStyles.subscribe}`}
-              >
-                <input type="text" placeholder="Enter your email" />
-                <input
-                  className={`${headStyles.btn} btn-primary`}
-                  type="submit"
-                  value="Subscribe"
-                />
-              </div>
+              <Subscribe type={type} />
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ if (typeof window !== "undefined" && window) {
 
   window.onclick = function (e) {
     if (e.target.id === elementToClickOnID) return
-    if (e.target.className.includes("ToCLink")) return
+    //if (e.target.className.includes("ToCLink")) return
     if (e.target.tagName !== "A") return
 
     timeoutDoSomething()
