@@ -101,7 +101,7 @@ public class CrossOriginConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("*")
+                .allowedOriginPatterns("*")
                 .allowedMethods("GET", "POST", "PUT","DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true)
@@ -147,10 +147,10 @@ public class BooksController {
     private final UserDetailsService userDetailsService;
 
     List<Book> booklist = List.of(
-            new Book("Rose", "Romance", BigDecimal.valueOf(1234.65)),
-            new Book("Bush", "Adventure", BigDecimal.valueOf(444.625)),
-            new Book("Tree", "Non-Fiction", BigDecimal.valueOf(333.665)),
-            new Book("Tullip", "Sci-Fi", BigDecimal.valueOf(12334.65))
+            new Book("Pride and Prejudice", "Romance", BigDecimal.valueOf(1234.65)),
+            new Book("The Naughtiest Girl", "Adventure", BigDecimal.valueOf(444.625)),
+            new Book("Bible", "Fiction", BigDecimal.valueOf(333.665)),
+            new Book("Star Wars", "Sci-Fi", BigDecimal.valueOf(12334.65))
     );
 
     @GetMapping("/")
@@ -223,3 +223,11 @@ Click on the app under OAuth2 2.0 Client IDs. Under **Authorised Redirected URI*
 6. Go back to your hosted page and refresh. Now you'll find your login page working.
 
 ![alt_text](/images/redirect_uri_working.png "image_tooltip")
+
+Our OAuth implementation is pretty much done at this point, we can choose to further add UI front end changes to our HTML, display some more details on our page. Let's display some more information related to user on the page.
+
+7. Further update **\*booksController.java** like this.
+
+```
+
+```
