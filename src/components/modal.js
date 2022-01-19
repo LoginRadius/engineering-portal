@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react"
-import styles from "./modal.module.scss"
 import { toast } from "react-toastify"
-import { validEmail } from "./regex.js"
-
 import "react-toastify/dist/ReactToastify.css"
+import styles from "./modal.module.scss"
 
 toast.configure()
 
@@ -33,20 +31,17 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const subscribeSIB = () => {
     setLoading(true)
     let url =
-      "https://7b214b8d.sibforms.com/serve/MUIEAEF8n18XivpuJIaBkdU9WqFwLX9Jyw4tftr7sucfONVH3neyxUoT96-GLKbvG2XNErWp9O_PulTWQkjxwMDDCECPzvWressylUfBxyOp7cRr0levyjI4o4qtescHBvWd7AF1gxJ9xA0roVaMek-2WZ5sEhFZb-RsbcOLZHUwnWT6ICVTGUsWhOiWusq0aQY4rVnTDaM_S_O7"
+      "https://7b214b8d.sibforms.com/serve/MUIEAEF8n18XivpuJIaBkdU9WqFwLX9Jyw4tftr7sucfONVH3neyxUoT96-GLKbvG2XNErWp9O_PulTWQkjxwMDDCECPzvWressylUfBxyOp7cRr0levyjI4o4qtescHBvWd7AF1gxJ9xA0roVaMek-2WZ5sEhFZb-RsbcOLZHUwnWT6ICVTGUsWhOiWusq0aQY4rVnTDaM_S_O7?isAjax=1"
     var data = new FormData()
 
-    /*const bodyType = (id) => {
-      data.append("lists_25[]",id)
-    }*/
     if (async) {
-      data.append("list_25[]", 154)
+      data.append("lists_25[]", "154")
     }
     if (fuel) {
-      data.append("list_25[]", 157)
+      data.append("lists_25[]", "157")
     }
     if (identity) {
-      data.append("list_25[]", 158)
+      data.append("lists_25[]", "158")
     }
 
     data.append("EMAIL", newsLetterSubscription.subscribeEmail)

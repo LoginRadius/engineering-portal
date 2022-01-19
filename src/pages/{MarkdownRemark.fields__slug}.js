@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
+  const pathname = post.fields.slug
   const {
     title,
     metatitle,
@@ -14,16 +15,24 @@ const BlogPostTemplate = ({ data }) => {
     description,
     coverImage,
   } = post.frontmatter
+  let type = ""
+  if (pathname.includes("async")) {
+    type = "async"
+  } else if (pathname.includes("fuel")) {
+    type = "fuel"
+  } else {
+    type = "start-with-identity"
+  }
   return (
     <Layout hideTagMenu postPage>
       <SEO
-        title={metatitle || title}
+        title={`${metatitle || title} | LoginRadius Blog`}
         description={metadescription || description || post.excerpt}
         image={coverImage && coverImage.childImageSharp.fluid.src}
-        pathname={post.fields.slug}
+        pathname={pathname}
         article
       />
-      <Post post={post} />
+      <Post post={post} type={type} />
     </Layout>
   )
 }
