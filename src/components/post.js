@@ -95,10 +95,66 @@ const Post = ({ post, relatedPost, type }) => {
       <section className={styles.postDetail}>
         <div>
           <div className={`${styles.postDetailInner} pt-96 grid-67-33`}>
-            <div
-              className={styles.postContent}
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
+            <div>
+              <div
+                className={styles.postContent}
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+
+              <div class={`${styles.author} d-flex py-96`}>
+                <div class={styles.authorImage}>
+                  <Link to={`/author/${kebabCase(author.id)}/`}>
+                    <img
+                      className={`circle extra-large`}
+                      src={githubUrl}
+                      alt={author.id}
+                    />
+                  </Link>
+                </div>
+                <div class={styles.aboutAuthor}>
+                  <div class={styles.aboutAuthorInner}>
+                    <h3>
+                      Writter by&nbsp;
+                      <Link to={`/author/${kebabCase(author.id)}/`}>
+                        {author.id}
+                      </Link>
+                    </h3>
+                    <p>{author.bio}</p>
+                  </div>
+                </div>
+              </div>
+              <div class={`${headStyles.sidebar} ${headStyles.detailPage}`}>
+                {relatedPost && relatedPost.length ? (
+                  <div
+                    class={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+                  >
+                    <h3>Related Posts</h3>
+                    <ul>
+                      {relatedPost.map(({ node }, i) => (
+                        <li>
+                          <Link
+                            to={`/${node.frontmatter.type}${node.fields.slug}`}
+                            rel="prev"
+                          >
+                            {node.frontmatter.title}
+                          </Link>
+                          <a href="#">
+                            Everything You Need to Know Before Buying Cyber
+                            Insurance in 2022
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                <div class={headStyles.subscribeDetail}>
+                  <h3>
+                    Did you enjoy this article? Subscribe to new articles!
+                  </h3>
+                  <Subscribe type={type} />
+                </div>
+              </div>
+            </div>
             <div class={headStyles.sidebar}>
               <div class={`${headStyles.sidebarWidget} ${headStyles.posts}`}>
                 {type === "async" ? (
@@ -138,56 +194,6 @@ const Post = ({ post, relatedPost, type }) => {
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class={`${styles.author} d-flex py-96`}>
-            <div class={styles.authorImage}>
-              <Link to={`/author/${kebabCase(author.id)}/`}>
-                <img
-                  className={`circle extra-large`}
-                  src={githubUrl}
-                  alt={author.id}
-                />
-              </Link>
-            </div>
-            <div class={styles.aboutAuthor}>
-              <div class={styles.aboutAuthorInner}>
-                <h3>
-                  Writter by&nbsp;
-                  <Link to={`/author/${kebabCase(author.id)}/`}>
-                    {author.id}
-                  </Link>
-                </h3>
-                <p>{author.bio}</p>
-              </div>
-            </div>
-          </div>
-
-          <div class={`${headStyles.sidebar} ${headStyles.detailPage}`}>
-            {relatedPost && relatedPost.length ? (
-              <div class={`${headStyles.sidebarWidget} ${headStyles.posts}`}>
-                <h3>Related Posts</h3>
-                <ul>
-                  {relatedPost.map(({ node }, i) => (
-                    <li>
-                      <Link
-                        to={`/${node.frontmatter.type}${node.fields.slug}`}
-                        rel="prev"
-                      >
-                        {node.frontmatter.title}
-                      </Link>
-                      <a href="#">
-                        Everything You Need to Know Before Buying Cyber
-                        Insurance in 2022
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-            <div class={headStyles.subscribeDetail}>
-              <h3>Did you enjoy this article? Subscribe to new articles!</h3>
-              <Subscribe type={type} />
             </div>
           </div>
         </div>

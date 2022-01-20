@@ -99,7 +99,7 @@
       .icon-close {
         display: block;
       }
-      & ~ .search-wrapper {
+      & ~ .btn-search {
         display: none;
       }
     }
@@ -260,12 +260,30 @@
     z-index: 10;
     left: 0;
     top: 96px;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-animation-name: mobileNavClose;
+    animation-name: mobileNavClose;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+      0 3px 3px 0px rgba(0, 142, 207, 0.12);
     &.open {
       display: block;
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
+      -webkit-animation-name: mobileNavOpen;
+      animation-name: mobileNavOpen;
+      -webkit-animation-duration: 300ms;
+      animation-duration: 300ms;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-direction: normal;
+      animation-direction: normal;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
     }
   }
   ul {
@@ -342,5 +360,60 @@
         display: none;
       }
     }
+  }
+}
+
+@keyframes mobileNavClose {
+  from {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes mobileNavClose {
+  from {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes mobileNavOpen {
+  from {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  to {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes mobileNavOpen {
+  from {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  to {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
   }
 }

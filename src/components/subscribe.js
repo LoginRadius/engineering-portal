@@ -35,7 +35,7 @@ const Subscribe = ({ type }) => {
       />
       <input
         type="submit"
-        className={`${`${styles.btn} btn-primary`} ${
+        className={`${`${styles.btn} btn-primary `} ${
           isError ? styles.disabled : ""
         }  `}
         type="submit"
