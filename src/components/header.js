@@ -9,7 +9,7 @@ import Search from "./search"
 
 const Header = ({ searchIndex }) => {
   const [showMenu, toggleMenu] = useState(false)
-  let pathname = "async"
+  let pathname = ""
   if (typeof window !== `undefined`) {
     pathname = window.location.pathname.substring(1)
   }
@@ -39,6 +39,18 @@ const Header = ({ searchIndex }) => {
         }`}
       >
         <ul>
+          <li className={active === "" ? headerStyles.active : ""}>
+            <Link
+              to={"/"}
+              activeClassName={headerStyles.active}
+              isPartiallyCurrent={true}
+              onClick={e => {
+                setActive("")
+              }}
+            >
+              All
+            </Link>
+          </li>
           <li className={active.includes("async") ? headerStyles.active : ""}>
             <Link
               to={"/async"}

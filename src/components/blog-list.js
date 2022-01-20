@@ -21,14 +21,16 @@ const BlogList = props => {
           posts={data.allMarkdownRemark.edges}
           total={total}
           currentPage={currentPage}
-          type={type}
-          isPagination
+          type={type || "all"}
+          isPagination={type}
         />
-        <Pagination
-          pages={numPages}
-          currentPage={parseInt(currentPage)}
-          type={type}
-        />
+        {type && (
+          <Pagination
+            pages={numPages}
+            currentPage={parseInt(currentPage)}
+            type={type}
+          />
+        )}
       </main>
     </Layout>
   )

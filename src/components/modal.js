@@ -12,10 +12,14 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     responseMsg: "",
     respClass: "",
   })
-  const [async, setAsync] = useState(() => (type === "async" ? true : false))
-  const [fuel, setFuel] = useState(() => (type === "fuel" ? true : false))
+  const [async, setAsync] = useState(() =>
+    type === "async" || type === "all" ? true : false
+  )
+  const [fuel, setFuel] = useState(() =>
+    type === "fuel" || type === "all" ? true : false
+  )
   const [identity, setIdentity] = useState(() =>
-    type === "start-with-identity" ? true : false
+    type === "start-with-identity" || type === "all" ? true : false
   )
   const [loading, setLoading] = useState(false)
   useEffect(() => {

@@ -31,15 +31,16 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
             <div className={`${styles.sidebarWidget} ${styles.tags}`}>
               <TagMenu />
             </div>
-
-            <a
-              className={`${styles.sidebarWidget} ${styles.link}`}
-              href="https://www.loginradius.com/open-source/"
-              target="_blank"
-            >
-              <div style={{ backgroundImage: `url(${Opensource})` }} />
-              <h3>LoginRadius Open Source</h3>
-            </a>
+            {type !== "all" && (
+              <a
+                className={`${styles.sidebarWidget} ${styles.link}`}
+                href="https://www.loginradius.com/open-source/"
+                target="_blank"
+              >
+                <div style={{ backgroundImage: `url(${Opensource})` }} />
+                <h3>LoginRadius Open Source</h3>
+              </a>
+            )}
 
             <a
               className={`${styles.sidebarWidget} ${styles.link}`}
