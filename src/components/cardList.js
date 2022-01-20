@@ -8,10 +8,10 @@ import Subscribe from "./subscribe"
 export default function CardList({ posts, currentPage, isPagination, type }) {
   const limit = 6
   return (
-    <section className="pt-96" id="all-articles">
+    <section id="all-articles">
       <div className={styles.cardlist}>
         <div className="grid-67-33">
-          <div className="grid-50">
+          <div className="grid-50 pt-96">
             {posts &&
               posts.map(({ node }, index) => {
                 if (isPagination) {
@@ -26,7 +26,7 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
                 }
               })}
           </div>
-          <div className={`${styles.landing} ${styles.sidebar}`}>
+          <div className={` ${styles.sidebar} pt-96`}>
             <Subscribe type={type} />
             <div className={`${styles.sidebarWidget} ${styles.tags}`}>
               <TagMenu />
