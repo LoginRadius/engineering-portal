@@ -22,3 +22,9 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/blog/start-with-identity/*"
+  to = "/blog/identity/:splat"
+  status = 301
+  force = true
+

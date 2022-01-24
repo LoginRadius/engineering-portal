@@ -3,12 +3,12 @@ import { graphql } from "gatsby"
 import BlogList from "../../components/blog-list"
 import SEO from "../../components/seo"
 
-const SWIBlogPage = props => {
+const SWIBlog = props => {
   return (
     <>
       <SEO
-        title={`Page ${props.page} - Identity | LoginRadius Blog`}
-        description={`LoginRadius Identity blog Page ${props.page}`}
+        title={"Identity | LoginRadius Blog"}
+        description="Blog posts describing security developments in access management, recent observations into identity management, user authentication, digital security, and user interface of CIAM."
         pathname={props.location.pathname}
       />
       <BlogList
@@ -21,11 +21,11 @@ const SWIBlogPage = props => {
   )
 }
 
-export const SWIBlogQuery = graphql`
-  query SWIBlogQuery {
+export const swiBlogQuery = graphql`
+  query swiBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { slug: { regex: "/start-with-identity/" } } }
+      filter: { fields: { slug: { regex: "/identity/" } } }
     ) {
       totalCount
       edges {
@@ -59,4 +59,4 @@ export const SWIBlogQuery = graphql`
   }
 `
 
-export default SWIBlogPage
+export default SWIBlog

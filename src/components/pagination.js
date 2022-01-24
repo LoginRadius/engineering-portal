@@ -9,11 +9,13 @@ const Pagination = ({ pages, currentPage, type }) => {
   const prevPage = currentPage - 1 === 1 ? "" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
 
-  let navlink = ""
+  let navLink = ""
 
   switch (type) {
     case "async":
       navLink = "engineering"
+    case "start-with-identity":
+      navLink = "identity"
     default:
       navLink = type
   }
