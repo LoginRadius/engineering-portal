@@ -34,13 +34,11 @@ export const AsyncBlogQuery = graphql`
           fields {
             slug
           }
-          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             description
             title
             tags
-            pinned
             coverImage {
               childImageSharp {
                 fluid {
