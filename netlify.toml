@@ -11,13 +11,14 @@
   to = "/blog/async/guest-post/tips-for-managing-remote-software-engineering-teams"
 
 [[redirects]]
-  from = "/blog/async-temp"
-  to = "/blog/async-temp/index.html"
+  from = "/*"
+  to = "/blog/:splat"
   status = 301
-  force = false
+  force = true
 
 [[redirects]]
   from = "/blog/async/*"
   to = "/blog/engineering/:splat"
   status = 301
   force = true
+

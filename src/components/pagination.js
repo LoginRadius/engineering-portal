@@ -9,6 +9,15 @@ const Pagination = ({ pages, currentPage, type }) => {
   const prevPage = currentPage - 1 === 1 ? "" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
 
+  let navlink = ""
+
+  switch (type) {
+    case "async":
+      navLink = "engineering"
+    default:
+      navLink = type
+  }
+
   let pageArray = []
   let intialPages = false
   let lastPages = false
@@ -34,7 +43,7 @@ const Pagination = ({ pages, currentPage, type }) => {
     <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
         {!isFirst && (
-          <Link to={`/${type}/${prevPage}/#all-articles`} rel="prev">
+          <Link to={`/${navLink}/${prevPage}/#all-articles`} rel="prev">
             <span>
               <svg
                 width="24"
@@ -56,16 +65,18 @@ const Pagination = ({ pages, currentPage, type }) => {
         )}
         {!intialPages && (
           <Link
-            to={`/${type}/`}
+            to={`/${navLink}/`}
             className={currentPage === 1 ? styles.active : ""}
           >
             <span>{1}</span>
           </Link>
         )}
-        {!intialPages && currentPage != 4 && <p to="">...</p>}
+        {!intialPages && currentPage != 4 && <p>...</p>}
         {pageArray.map((k, i) => (
           <Link
-            to={`${k === 1 ? `/${type}/` : `/${type}/${k}/#all-articles`}`}
+            to={`${
+              k === 1 ? `/${navLink}/` : `/${navLink}/${k}/#all-articles`
+            }`}
             key={k}
             className={currentPage === k ? styles.active : ""}
           >
@@ -75,7 +86,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         {!lastPages && currentPage != pages - 3 && <p>...</p>}
         {!lastPages && (
           <Link
-            to={`/${type}/${pages}/#all-articles`}
+            to={`/${navLink}/${pages}/#all-articles`}
             key={pages}
             className={currentPage === pages ? styles.active : ""}
           >
@@ -84,7 +95,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         )}
 
         {!isLast && (
-          <Link to={`/${type}/${nextPage}/#all-articles`} rel="next">
+          <Link to={`/${navLink}/${nextPage}/#all-articles`} rel="next">
             <span>
               <svg
                 width="24"
