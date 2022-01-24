@@ -68,28 +68,26 @@ const Header = ({ searchIndex }) => {
             </Link>
           </li>
           <li
-            className={
-              active.includes("start-with-identity") ? headerStyles.active : ""
-            }
+            className={active.includes("identity") ? headerStyles.active : ""}
           >
             <Link
-              to={"/start-with-identity"}
+              to={"/identity"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("start-with-identity")
+                setActive("identity")
               }}
             >
               Identity
             </Link>
           </li>
-          <li className={active.includes("fuel") ? headerStyles.active : ""}>
+          <li className={active.includes("growth") ? headerStyles.active : ""}>
             <Link
-              to={"/fuel"}
+              to={"/growth"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("fuel")
+                setActive("growth")
               }}
             >
               Growth
