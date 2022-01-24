@@ -14,8 +14,13 @@ const Pagination = ({ pages, currentPage, type }) => {
   switch (type) {
     case "async":
       navLink = "engineering"
+      break
     case "start-with-identity":
       navLink = "identity"
+      break
+    case "fuel":
+      navLink = "growth"
+      break
     default:
       navLink = type
   }

@@ -25,7 +25,7 @@ export const FuelBlogQuery = graphql`
   query FuelBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { slug: { regex: "/fuel/" } } }
+      filter: { fields: { slug: { regex: "/growth/" } } }
     ) {
       totalCount
       edges {
