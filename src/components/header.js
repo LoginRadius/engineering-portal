@@ -43,7 +43,7 @@ const Header = ({ searchIndex }) => {
             <Link
               to={"/"}
               activeClassName={headerStyles.active}
-              isPartiallyCurrent={true}
+              partiallyActive={true}
               onClick={e => {
                 setActive("")
               }}
@@ -55,7 +55,7 @@ const Header = ({ searchIndex }) => {
             <Link
               to={"/async"}
               activeClassName={headerStyles.active}
-              isPartiallyCurrent={true}
+              partiallyActive={true}
               onClick={e => {
                 setActive("async")
               }}
@@ -70,6 +70,8 @@ const Header = ({ searchIndex }) => {
           >
             <Link
               to={"/start-with-identity"}
+              activeClassName={headerStyles.active}
+              partiallyActive={true}
               onClick={e => {
                 setActive("start-with-identity")
               }}
@@ -80,6 +82,8 @@ const Header = ({ searchIndex }) => {
           <li className={active.includes("fuel") ? headerStyles.active : ""}>
             <Link
               to={"/fuel"}
+              activeClassName={headerStyles.active}
+              partiallyActive={true}
               onClick={e => {
                 setActive("fuel")
               }}

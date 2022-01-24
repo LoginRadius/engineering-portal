@@ -1,8 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
 import CardList from "../components/cardList"
+import Layout from "../components/layout"
 import Pagination from "../components/pagination"
-import SEO from "../components/seo"
 
 const BlogList = props => {
   const { data, pathname, currentPage, type } = props

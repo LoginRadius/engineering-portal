@@ -50,7 +50,7 @@ export default class Search extends Component {
         ? `/blog/search/?${query}`
         : `/search/?${query}`
 
-    query && typeof window !== "undefined" && window.open(uri, "_self")
+    navigate(uri)
   }
 
   componentDidMount() {
@@ -66,12 +66,12 @@ export default class Search extends Component {
     return (
       <>
         <a
-          class={searchStyle.btnSearch}
-          tabindex="0"
+          className={searchStyle.btnSearch}
+          tabIndex={0}
           onClick={this._toggleSearch}
         >
           <div
-            class={`${searchStyle.megaMenuSearchDarkIcon} ${
+            className={`${searchStyle.megaMenuSearchDarkIcon} ${
               toggleOpen === null
                 ? ""
                 : toggleOpen

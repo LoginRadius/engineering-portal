@@ -29,9 +29,9 @@ const AuthorTemplate = ({
     />
     <main>
       <section>
-        <div class={`${styles.authorPage} pt-96`}>
-          <div class={`${styles.author} d-flex`}>
-            <div class={styles.authorImage}>
+        <div className={`${styles.authorPage} pt-96`}>
+          <div className={`${styles.author} d-flex`}>
+            <div className={styles.authorImage}>
               <img
                 src={
                   github
@@ -39,10 +39,10 @@ const AuthorTemplate = ({
                     : `https://ui-avatars.com/api/?name=${id}&size=460`
                 }
                 alt={id}
-                class="circle extra-large"
+                className="circle extra-large"
               />
             </div>
-            <div class={styles.aboutAuthor}>
+            <div className={styles.aboutAuthor}>
               <h1>{id}</h1>
               <p>{bio}</p>
             </div>

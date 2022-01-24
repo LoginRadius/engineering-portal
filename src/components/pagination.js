@@ -46,9 +46,9 @@ const Pagination = ({ pages, currentPage, type }) => {
                 <path
                   d="M15.375 5.25L8.625 12L15.375 18.75"
                   stroke="#0D8DCF"
-                  stroke-width="2.25"
-                  stroke-miterlimit="10"
-                  stroke-linecap="square"
+                  strokeWidth={2.25}
+                  strokeMiterlimit={10}
+                  strokeLinecap="square"
                 />
               </svg>
             </span>

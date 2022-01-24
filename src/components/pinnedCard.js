@@ -1,14 +1,14 @@
-import React from "react"
-import styles from "./cardlist.module.scss"
-import { Link, StaticQuery } from "gatsby"
-import Bio from "./bio"
-import defaultImg from "../../content/assets/default-blog.jpg"
-import style from "./post.module.scss"
+import { Link } from "gatsby"
+import Img from "gatsby-image"
 // Utilities
 import kebabCase from "lodash/kebabCase"
-import Img from "gatsby-image"
-import getTimeToRead from "../utils/timeToRead"
+import React from "react"
 import ReactGA from "react-ga"
+import defaultImg from "../../content/assets/default-blog.jpg"
+import getTimeToRead from "../utils/timeToRead"
+import Bio from "./bio"
+import styles from "./cardlist.module.scss"
+import style from "./post.module.scss"
 
 const signUplogger = function () {
   ReactGA.event({
@@ -25,7 +25,7 @@ const PinnedCard = props => {
   let coverImagePath = node.frontmatter.coverImage
   return (
     <React.Fragment>
-      <section className={`${styles.pinnedwrap} py-96`}>
+      <section key={"pinned_card"} className={`${styles.pinnedwrap} py-96`}>
         <div className={styles.blogContentPinned}>
           <div className={styles.avatarPinned}>
             <Link to={node.fields.slug} className="bs-md">
@@ -73,7 +73,7 @@ const PinnedCard = props => {
           </div>
         </div>
       </section>
-      <section className={style.bgBright01}>
+      <section key={"pinned_card_cta"} className={style.bgBright01}>
         <div className={`${style.grid6633} ${style.ctaSmall}`}>
           <div className={style.ctaSmallText}>
             <h3>Free, Secure and Trusted Way to Authenticate Your Visitors</h3>

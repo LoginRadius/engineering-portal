@@ -101,8 +101,8 @@ const Post = ({ post, relatedPost, type }) => {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
 
-              <div class={`${styles.author} d-flex py-96`}>
-                <div class={styles.authorImage}>
+              <div className={`${styles.author} d-flex py-96`}>
+                <div className={styles.authorImage}>
                   <Link to={`/author/${kebabCase(author.id)}/`}>
                     <img
                       className={`circle extra-large`}
@@ -111,8 +111,8 @@ const Post = ({ post, relatedPost, type }) => {
                     />
                   </Link>
                 </div>
-                <div class={styles.aboutAuthor}>
-                  <div class={styles.aboutAuthorInner}>
+                <div className={styles.aboutAuthor}>
+                  <div className={styles.aboutAuthorInner}>
                     <h3>
                       Writter by&nbsp;
                       <Link to={`/author/${kebabCase(author.id)}/`}>
@@ -123,10 +123,10 @@ const Post = ({ post, relatedPost, type }) => {
                   </div>
                 </div>
               </div>
-              <div class={`${headStyles.sidebar} ${headStyles.detailPage}`}>
+              <div className={`${headStyles.sidebar} ${headStyles.detailPage}`}>
                 {relatedPost && relatedPost.length ? (
                   <div
-                    class={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+                    className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
                   >
                     <h3>Related Posts</h3>
                     <ul>
@@ -147,7 +147,7 @@ const Post = ({ post, relatedPost, type }) => {
                     </ul>
                   </div>
                 ) : null}
-                <div class={headStyles.subscribeDetail}>
+                <div className={headStyles.subscribeDetail}>
                   <h3>
                     Did you enjoy this article? Subscribe to new articles!
                   </h3>
@@ -155,8 +155,10 @@ const Post = ({ post, relatedPost, type }) => {
                 </div>
               </div>
             </div>
-            <div class={headStyles.sidebar}>
-              <div class={`${headStyles.sidebarWidget} ${headStyles.posts}`}>
+            <div className={headStyles.sidebar}>
+              <div
+                className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+              >
                 {type === "async" ? (
                   <AsyncFeatList slug={post.fields.slug} />
                 ) : type === "fuel" ? (
@@ -165,15 +167,15 @@ const Post = ({ post, relatedPost, type }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              <div class={`${headStyles.sidebarWidget} ${headStyles.tags}`}>
+              <div className={`${headStyles.sidebarWidget} ${headStyles.tags}`}>
                 <TagMenu />
               </div>
 
-              <div class={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                <div class={headStyles.image}>
+              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                <div className={headStyles.image}>
                   <img src={Docs} alt="LoginRadius Docs" />
                 </div>
-                <div class={headStyles.text}>
+                <div className={headStyles.text}>
                   <h3>Implement Authentication in Minutes</h3>
                   <a
                     className={`${headStyles.btnPrimary} btn-primary ga_event`}

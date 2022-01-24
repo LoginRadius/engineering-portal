@@ -332,21 +332,28 @@
       &:nth-child(2) {
         &.active {
           & ~ hr {
-            left: 33.33%;
+            left: 25%;
           }
         }
       }
       &:nth-child(3) {
         &.active {
           & ~ hr {
-            left: 66.66%;
+            left: 50%;
+          }
+        }
+      }
+      &:nth-child(4) {
+        &.active {
+          & ~ hr {
+            left: 75%;
           }
         }
       }
     }
     hr {
       height: 3px;
-      width: 33.33%;
+      width: 25%;
       margin: 0;
       background: $blue-bright;
       border: none;

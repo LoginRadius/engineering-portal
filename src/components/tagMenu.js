@@ -24,8 +24,10 @@ const TagMenu = () => {
         })
         return (
           <React.Fragment>
-            {group.slice(0, 10).map(item => (
-              <Link to={`/tags/${kebabCase(item.tag)}/`}>{item.tag}</Link>
+            {group.slice(0, 10).map((item, index) => (
+              <Link key={`tag_${index}`} to={`/tags/${kebabCase(item.tag)}/`}>
+                {item.tag}
+              </Link>
             ))}
           </React.Fragment>
         )
