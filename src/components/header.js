@@ -51,13 +51,17 @@ const Header = ({ searchIndex }) => {
               All
             </Link>
           </li>
-          <li className={active.includes("async") ? headerStyles.active : ""}>
+          <li
+            className={
+              active.includes("engineering") ? headerStyles.active : ""
+            }
+          >
             <Link
-              to={"/async"}
+              to={"/engineering"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("async")
+                setActive("engineering")
               }}
             >
               Engineering

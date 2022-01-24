@@ -15,3 +15,9 @@
   to = "/blog/async-temp/index.html"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/blog/async/*"
+  to = "/blog/engineering/:splat"
+  status = 301
+  force = true

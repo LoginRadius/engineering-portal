@@ -25,7 +25,7 @@ export const asyncBlogQuery = graphql`
   query asyncBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { slug: { regex: "/async/" } } }
+      filter: { fields: { slug: { regex: "/engineering/" } } }
     ) {
       totalCount
       edges {

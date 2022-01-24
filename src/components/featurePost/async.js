@@ -9,7 +9,7 @@ const AsyncFeatList = ({ slug }) => {
         query {
           allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
-            filter: { fields: { slug: { regex: "/async/" } } }
+            filter: { fields: { slug: { regex: "/engineering/" } } }
             limit: 4
           ) {
             edges {
