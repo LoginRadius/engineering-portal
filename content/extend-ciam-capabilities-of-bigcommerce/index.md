@@ -4,7 +4,7 @@ date: "2022-01-25"
 coverImage: "4-ways-to-extend-ciam-capabilities.png"
 author: "Archna Yadav"
 tags: ["BigCommerce", "Authentication", "CIAM"]
-description: "This article explains how you can extend the CIAM capabilities of BigCommerce and improve customer engagement by leveraging Phone Login and Single Sign-on for your customers. Towards the end, it talks about how LoginRadius can help you improve upsell and cross-sell."
+description: "Want to add Phone Login or Single Sign-on for customers of your BigCommerce application? This article explains it all. Towards the end, it talks about how LoginRadius can help you improve upsell and cross-sell."
 ---
 
 BigCommerce is a great eCommerce platform with rich features, and millions of people benefit from it. But there are limitations when you want to extend the platform for the following identity and access management requirements:
