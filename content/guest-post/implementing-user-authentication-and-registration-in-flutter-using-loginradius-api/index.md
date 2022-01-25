@@ -546,6 +546,8 @@ On pressing the button, we will call the `logout` method on the `ApiClient` clas
           ), 
      ),
 ```
+
+![Preview of demo project](demo-project.gif)
     
 ## Conclusion
 
