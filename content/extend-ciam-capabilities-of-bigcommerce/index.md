@@ -4,7 +4,7 @@ date: "2022-01-25"
 coverImage: "4-ways-to-extend-ciam-capabilities.png"
 author: "Archna Yadav"
 tags: ["BigCommerce", "Authentication", "CIAM"]
-description: ""
+description: "This article explains how you can extend the CIAM capabilities of BigCommerce and improve customer engagement by leveraging Phone Login and Single Sign-on for your customers. Towards the end, it talks about how LoginRadius can help you improve upsell and cross-sell."
 ---
 
 BigCommerce is a great eCommerce platform with rich features, and millions of people benefit from it. But there are limitations when you want to extend the platform for the following identity and access management requirements:
@@ -43,17 +43,21 @@ This process makes sign-up and sign-in seamless for the customers and improves c
 The top reason behind the cart abandonment is the long or confusing checkout process. Using the prefilled customer information with the LoginRadius Social Login feature, you can reduce the overall time involved in the checkout process.
 
 Prefilled customer information such as name, city, email address during checkout allows customers to place orders quickly.
+
 Let’s say a customer logged in using a social account and during checkout. With the customer’s permission, LoginRadius can retrieve basic information like name, email, birth date, gender from their social account. Thus, the customers need not enter data manually and experience a shorter and smoother checkout process.
 
 ### Insights Turned into Actions
 
 When you use LoginRadius as CIAM, it stores your customer data with your desired data centers. Also, LoginRadius Dashboard allows you to access the customer analytics related to identity, demographics, login, communication, etc. These analytics and charts help you understand your customers and their preferences better.
 
-For example, what is the medium of login your customers are using the most, in which location your products are purchased the maximum times and by which age group, etc.
-In addition to the benefits mentioned above, businesses experience some additional benefits explained below.
+For example:
+- Login medium(s) popular with your customers
+- Age groups and areas where your products are purchased the most
 
-- You can implement all the above-stated features with minimal development efforts or customizations at your end.
-- You get to seamlessly manage any B2B access and communication needed to manage the eCommerce business effortlessly.
+In addition to the benefits mentioned above, you experience below additional benefits:
+
+- Implement all the above-stated features with minimal development efforts or customizations at your end.
+- Seamlessly manage any B2B access and communication to manage the eCommerce business effortlessly.
 
 ## Conclusion
 
