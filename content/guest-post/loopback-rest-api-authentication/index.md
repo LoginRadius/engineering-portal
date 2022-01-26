@@ -86,7 +86,7 @@ You've successfully created your Loopback application. Now, let’s create a Mod
 
 Select the options as in the following screenshot to complete the prompts.
 
-![Creating a News Model](lSCGXHsn.png)
+![Creating a News Model](lSCGXHs.png)
 
 After the `date_created` property definition, press the enter key to exit the prompt.
 
