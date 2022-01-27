@@ -1,6 +1,6 @@
 ---
 title: "4 Ways to Extend CIAM Capabilities of BigCommerce"
-date: "2022-01-25"
+date: "2022-01-27"
 coverImage: "4-ways-to-extend-ciam-capabilities.png"
 author: "Archna Yadav"
 tags: ["BigCommerce", "Authentication", "CIAM"]
@@ -9,7 +9,7 @@ description: "Want to add Phone Login or Single Sign-on for customers of your Bi
 
 BigCommerce is a great eCommerce platform with rich features, and millions of people benefit from it. But there are limitations when you want to extend the platform for the following identity and access management requirements:
 
-- **Single-sign On (SSO)** to enhance the user experience and improve authentication security
+- **Single sign-on (SSO)** to enhance the user experience and improve authentication security
 - **Phone login** via mobile number and OTP for quick customer sign-up and sign-in
 - **Prefilled customer information** via Social Login for easy checkout
 - **Analytics** to learn more about individual customers to boost upsell and cross-sell
@@ -51,6 +51,7 @@ Let’s say a customer logged in using a social account and during checkout. Wit
 When you use LoginRadius as CIAM, it stores your customer data with your desired data centers. Also, LoginRadius Dashboard allows you to access the customer analytics related to identity, demographics, login, communication, etc. These analytics and charts help you understand your customers and their preferences better.
 
 For example:
+
 - Login medium(s) popular with your customers
 - Age groups and areas where your products are purchased the most
 
