@@ -1,0 +1,84 @@
+@import "../styles/variables.scss";
+
+.blog-tabs {
+  .Hamburger {
+    position: relative;
+    top: -37px;
+    left: 16px;
+    width: 15px;
+    height: 15px;
+    z-index: 10;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+
+  .closeMenu {
+    position: absolute;
+    top: 23px;
+    left: 16px;
+    width: 15px;
+    height: 15px;
+    font-size: 34px;
+    line-height: 0.7;
+    color: $blue-bright;
+    z-index: 10;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+
+  .containerTabsMobile {
+    border-bottom: 1px solid $blue-bright;
+
+    @media (max-width: 767px) {
+      display: block;
+    }
+    ul {
+      display: block;
+      min-width: 300px;
+      padding: 0 !important;
+      margin: 0 !important;
+
+      li {
+        text-align: left;
+        border: none !important;
+        padding: 20px 16px;
+      }
+    }
+  }
+  .containerTabs {
+    width: 100%;
+    box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+      0 3px 3px 0px rgba(0, 142, 207, 0.12);
+    ul {
+      max-width: 1248px;
+      padding: 0 24px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      height: $gutter * 3;
+      list-style: none;
+      position: relative;
+      li {
+        margin: 0;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-weight: 700;
+        a {
+          color: $gray-darkest;
+          display: flex;
+          height: 72px;
+          justify-content: center;
+          align-items: center;
+        }
+        &.react-tabs__tab--selected {
+          a {
+            color: $blue-bright;
+          }
+        }
+      }
+    }
+  }
+}

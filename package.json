@@ -1,0 +1,67 @@
+{
+  "name": "engineering-portal",
+  "description": "A collection of resources by Loginradius engineering team to share their practical learning, development challenges, open-source initiatives in dev, QA, Infra, or implementation.",
+  "version": "0.1.0",
+  "author": "loginradius <support@loginradius.com>",
+  "bugs": {
+    "url": "https://github.com/LoginRadius/engineering-portal/issues"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
+    "gatsby": "^4.5.4",
+    "gatsby-plugin-feed": "^4.5.0",
+    "gatsby-plugin-google-analytics": "^4.5.0",
+    "gatsby-plugin-google-tagmanager": "^4.5.0",
+    "gatsby-plugin-image": "^2.5.2",
+    "gatsby-plugin-manifest": "^4.5.2",
+    "gatsby-plugin-offline": "^5.5.2",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sass": "^5.5.0",
+    "gatsby-plugin-sharp": "^4.5.2",
+    "gatsby-plugin-sitemap": "^5.5.0",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-remark-autolink-headers": "^5.5.0",
+    "gatsby-remark-copy-linked-files": "^5.5.0",
+    "gatsby-remark-images": "^6.5.2",
+    "gatsby-remark-vscode": "^3.3.1",
+    "gatsby-source-filesystem": "^4.5.2",
+    "gatsby-transformer-json": "^4.6.0",
+    "gatsby-transformer-remark": "^5.5.2",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
+    "react-helmet": "^6.1.0",
+    "react-toastify": "^8.1.0",
+    "sass": "^1.49.0",
+    "twin.macro": "^2.8.2",
+    "typeface-barlow": "0.0.71"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
+    "start": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
