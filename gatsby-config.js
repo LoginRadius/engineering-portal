@@ -43,9 +43,6 @@ module.exports = {
       },
     ],
   },
-  flags: {
-    PARALLEL_QUERY_RUNNING: 16,
-  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
