@@ -64,5 +64,5 @@ Considering that it would be apt to remain guarded against COVID-19 so that the 
 The remarkable [COVID-19 business success](https://www.loginradius.com/blog/fuel/2021/03/how-to-make-businesses-marketing-plans-after-coronavirus/) in the USA is going to pave the way forward for other countries as well, especially the ones that are struggling to find the right answers to get rid of the pandemic. This success is all set to have a huge impact on the work from home culture and help people return to real-world interaction and teamwork, which are essential for long-term growth. The hybrid model will most likely lead the change.
 
 
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 

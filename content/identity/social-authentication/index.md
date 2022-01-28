@@ -111,4 +111,4 @@ While social login inches towards the verge of becoming an industry standard for
 LoginRadius’ social authentication, driven by cutting-edge technology and backed by the highest level of security ensures clients get a seamless user experience that further improves conversion rate.
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

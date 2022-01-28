@@ -110,4 +110,4 @@ CIAM also helps to improve the overall intuitiveness of the platform. Research s
 
 Therefore, CIAM solutions are an integral aspect of the online shopping experience. It goes beyond just streamlining the platform to make it more intuitive, and can also help to boost the marketing and sales efforts of a business in the retail industry.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

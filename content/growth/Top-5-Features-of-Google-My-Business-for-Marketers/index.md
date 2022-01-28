@@ -61,4 +61,4 @@ When a subjective FAQ list is slowly generated, consumers can find answers to al
 
 There are over tens of Google Business features that you can use to build a targeted marketing campaign. And like the above five, they are created to ensure you get the highest SERP ranking. You can read our article on [Benefits of Google Tag Manager](https://www.loginradius.com/blog/fuel/2021/05/Benefits-of-Google-Tag-Manager/) to learn more marketing techniques. With Google My Business, you have an additional platform to get in touch with your consumers and generate more leads.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

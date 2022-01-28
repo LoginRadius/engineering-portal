@@ -105,4 +105,4 @@ Enterprises seeking the highest level of consumer and organization data security
 
 Need more help? [Reach us](https://www.loginradius.com/contact-sales2/) to know how LoginRadius’ “Adaptive Authentication” can help secure your consumer identities and business information.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

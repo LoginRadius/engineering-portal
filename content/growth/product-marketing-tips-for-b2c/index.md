@@ -124,4 +124,4 @@ Another tip you must follow for your product marketing strategy optimization is 
 ## Wrapping Up
 
 Without a well-developed product marketing strategy, it is difficult for businesses to thrive amongst consumers. Every company perceives diverse ideas for its product marketing and practices distinct actions to attain distinct goals. Hence, it can be asserted that developing a great product marketing strategy will ensure that your product receives great success amongst its target audience.<p>
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -99,4 +99,4 @@ These three practices can help gain your client’s trust and help build a long-
 
 Marketing strategies are dynamic, and you should never grow comfortable in a single marketing strategy. While this can help create a **[brand identity](https://www.loginradius.com/blog/fuel/2021/04/does-your-website-imagery-reflect-your-brand-identity/)**, consumers can quickly grow bored if they see the same content. This means, while you promise them data security best practices, you should also ensure to change and adapt your marketing strategies as the market grows. Digital Marketing evolves faster than any business can expect. The best way to ensure you’re on par with your competition is to keep track of all the trends, the data, the various data security best practices, and your campaign’s performance.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -53,4 +53,4 @@ Federated Identity Management by LoginRadius helps businesses and applications u
 
 Federated Identity Management by LoginRadius is a way to connect multiple web applications and services using the same identity data. It’s a many to one mapping to help your consumers access your business and partners with a single credential set.   
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

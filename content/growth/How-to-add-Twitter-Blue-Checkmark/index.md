@@ -98,4 +98,4 @@ Twitter verification badge, commonly known as the blue checkmark, is super impor
 
 So, what are you waiting for? Get your Twitter account verified today!
 
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

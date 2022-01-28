@@ -50,4 +50,4 @@ To learn more about Social login – how it works and advantages, check out the 
 
 ![social-login-infographic](social-login-infographic.png)
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

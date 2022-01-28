@@ -161,4 +161,4 @@ Good transaction security coupled with a great user experience is the key to onl
   
 
 Businesses can leverage the true potential of a robust CIAM solution like LoginRadius to secure their transactions without hampering user experience to get a competitive advantage in terms of smooth consumer visits.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -142,4 +142,4 @@ Thus, with these <a rel="nofollow" href="https://www.boxmode.com/">responsive we
 
 If you have a got a responsive web design tool that has not been listed here, please notify in the comments below. Also, share your experience if you are loving these tools.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

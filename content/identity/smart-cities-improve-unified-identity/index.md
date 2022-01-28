@@ -99,4 +99,4 @@ Digital identity is paving the path for a rich unified experience for citizens t
 Robust consumer identity and access management solutions like [LoginRadius](https://www.loginradius.com/contact-sales/) can help public sectors deliver great experiences tacked by adequate security to their civilians, reinforcing different smart city projects. 
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -52,4 +52,4 @@ For businesses to grow and increase their profitability, there is a need to impl
 
 LoginRadius has 35 data centers worldwide and helps companies manage the needs of 1.17 billion user identities with its efficient 24/7 support for its valued customers.
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

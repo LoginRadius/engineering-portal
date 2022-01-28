@@ -160,4 +160,4 @@ Times are changing—IAM is no longer an administrator-driven set of capabilitie
 
 Moving forward, identity management in healthcare organizations is about to take a giant leap. LoginRadius can help you with that! 
 
-[![](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

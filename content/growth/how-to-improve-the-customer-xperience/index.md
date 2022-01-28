@@ -282,5 +282,5 @@ Having implemented tech solutions to protect client accounts, your company stren
 
 Your CX strategy should meet customer requirements and your business goals. Customer experience is a proven way to develop high retention, cross-sales, and up-sales. If people decide to come back and recommend your products, this is a good sign for your company. An improved user experience benefits SEO, brand awareness, and generally the online presence of your business. 2021 requires marketers, entrepreneurs, and SEO specialists to demonstrate an omnichannel CX approach with comprehensive security, reviews, and customer journey strategies.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 

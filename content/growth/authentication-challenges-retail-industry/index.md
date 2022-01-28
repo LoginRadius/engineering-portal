@@ -80,4 +80,4 @@ Typical business-to-employee scenarios, like e-commerce portals, require a much 
 
 The ability to authenticate customers in real time using multiple modalities is challenging. Understanding how solutions vary by use case, threat model and authentication technology used is crucial to choosing the right one for your unique requirements. [Contact us](https://www.loginradius.com/contact-sales) for better understanding. 
 
-[![book-a-demo](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

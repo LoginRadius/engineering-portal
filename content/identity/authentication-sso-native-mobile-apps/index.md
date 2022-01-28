@@ -54,6 +54,6 @@ The recently launched LoginRadius Authentication and SSO for Native Mobile Apps 
 
 LoginRadius Native Mobile SDKs benefit both businesses and their consumers. It helps in developing and deploying seamless authentication and [SSO features for businesses](https://www.loginradius.com/single-sign-on/), while for the later, secure, simple, and enhanced consumer experiences are on-the-go. 
 
-[![Book-a-demo-loginradius](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 
 

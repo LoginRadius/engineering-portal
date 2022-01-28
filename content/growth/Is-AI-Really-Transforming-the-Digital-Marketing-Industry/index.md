@@ -62,4 +62,4 @@ While all artificially intelligent tools and software aren’t always cheap, the
 
 In conclusion, yes, AI is transforming the digital marketing industry. We hope the information in this [marketing growth blog](https://www.loginradius.com/blog/fuel/) has been able to show you how. <p>
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

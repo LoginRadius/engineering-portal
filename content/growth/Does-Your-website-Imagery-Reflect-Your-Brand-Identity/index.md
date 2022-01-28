@@ -105,4 +105,4 @@ The perfect intermingling of text and graphics with the right choice of colors i
 
 The aforementioned aspects help businesses in enhancing brand imagery that further improves brand identity in the long run.
 
-[![Book-a-demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

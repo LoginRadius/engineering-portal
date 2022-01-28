@@ -146,4 +146,4 @@ Among the many benefits that social logins offer users and developers, certain i
   
 
 Despite the few reservations that users may have regarding the safety of social logins, this authentication solution is comparatively safe. To ensure that social logins have an extra layer of security, users can also back it up with [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/what-is-multi-factor-authentication/). This added layer will mean that bad actors are less likely to breach users' social media accounts and the websites they link to.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

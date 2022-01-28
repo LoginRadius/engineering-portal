@@ -102,4 +102,4 @@ Businesses can employ a wide variety of tools to market their relationship. This
 
 Many businesses assume that relationship marketing is a method to retain consumers, and this often leads to huge financial investment. However, the core of relationship marketing is building long-term positive relationships with [clients](https://www.loginradius.com/customers/) and prospective clients to build mutual loyalty rather than changing their opinions for short-term gain.
 
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -86,4 +86,4 @@ Many companies are turning to third-party CIAM suppliers to supply the customer 
 
 With [LoginRadius](https://www.loginradius.com/), your business is assured of a seamless customer experience. Personalize the experience of every customer that visits your page with the tools offered by us. Give your customers a delightful experience each time they visit your page with a custom login process while complying with data protection regulations.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -111,4 +111,4 @@ Each of the three marketing strategies explained in this article will help you g
   
 
 Firstly, you should check whether the Twitter B2B marketing strategies are aligned with your social media marketing strategy. Secondly, assess whether you have the resources and expertise to deal with businesses. And then, you are good to go! <p>
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -83,4 +83,4 @@ Emotions mean a lot to many of us, but the emotion-oriented type of consumers fi
 Now you understand the concept of [brand recognizability](https://www.loginradius.com/blog/fuel/Does-Your-website-Imagery-Reflect-Your-Brand-Identity/) and its bounds with customer identity. We explored four types of consumer identities you should pay attention to and defined their main preferences.
 
 Brand recognizability is based on the self-perceptions of potential consumers, and you should target their self-concepts properly. These findings can help you build stronger connections with consumers and increase your brand's success.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -118,4 +118,4 @@ Until now, most countries have been managing the standard verification approach 
 
 Whether it’s authentication or delivering a consistent omnichannel experience, LoginRadius can help decision-makers build a flawless user experience coupled with enhanced security that ensures the overall [digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/) of the public sector.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

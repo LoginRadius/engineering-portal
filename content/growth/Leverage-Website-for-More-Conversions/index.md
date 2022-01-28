@@ -80,4 +80,4 @@ A business website holds a bunch of opportunities that can be fostered by utiliz
 Marketers need to put their best foot forward in understanding their targeted audience and what exactly they’re looking for in a business website.
 
 The aforementioned aspects can be quite fruitful for every business regardless of the industry to [enhance conversion rates](https://www.loginradius.com/blog/fuel/2021/03/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/) and improve overall traffic.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

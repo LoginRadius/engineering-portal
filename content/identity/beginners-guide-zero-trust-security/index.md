@@ -96,4 +96,4 @@ Decision-makers and IT department heads of an organization should consider putti
  
 
 
-[![book-a-demo-loginradius](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
