@@ -13,7 +13,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
-    "cross-env": "^7.0.3",
     "gatsby": "^4.5.4",
     "gatsby-plugin-feed": "^4.5.0",
     "gatsby-plugin-google-analytics": "^4.5.0",
@@ -57,7 +56,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages ",
+    "build": "gatsby build --prefix-paths --log-pages ",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "start": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
