@@ -226,8 +226,85 @@ Click on the app under OAuth2 2.0 Client IDs. Under **Authorised Redirected URI*
 
 Our OAuth implementation is pretty much done at this point, we can choose to further add UI front end changes to our HTML, display some more details on our page. Let's display some more information related to user on the page.
 
-7. Further update **\*booksController.java** like this.
+7. Further update **\booksController.java** like this.
 
 ```
 
+package com.tutorial.userauthentication.springsecurityauthserver.book;
+
+
+
+import com.tutorial.userauthentication.springsecurityauthserver.userdetails.MyUserDetails;
+import com.tutorial.userauthentication.springsecurityauthserver.userdetails.UserDetailsService;
+import java.math.BigDecimal;
+import java.net.URI;
+import java.util.List;
+import java.util.Map;
+
+import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
+
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.oauth2.client.OAuth2AuthorizedClient;
+import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.client.RestTemplate;
+
+
+@Controller
+@RequestMapping(value = "/books", method = RequestMethod.GET)
+@RequiredArgsConstructor
+@Slf4j
+public class BooksController {
+    private final UserDetailsService userDetailsService;
+    private final OAuth2AuthorizedClient authorizedClientService;
+
+    List<Book> booklist = List.of(
+            new Book("Romeo Juliet", "Romance", BigDecimal.valueOf(1234.65)),
+            new Book("Bush", "Adventure", BigDecimal.valueOf(444.625)),
+            new Book("Rich Dad Poor Dad", "Non-Fiction", BigDecimal.valueOf(333.665)),
+            new Book("Star wars", "Sci-Fi", BigDecimal.valueOf(12334.65))
+    );
+
+    @GetMapping("/")
+    @SneakyThrows
+    public String bookShop(Model model, OAuth2AuthenticationToken token){
+        model.addAttribute("title", "Book Shop");
+        OAuth2AuthorizedClient client = authorizedClientService.loadAuthorizedClient(
+            token.getAuthorizedClientRegistrationId(), token.getPrincipal().getName()
+        );
+        URI userDetailsEndpoint = URI.create(
+            client.getClientRegistration()
+            .getProviderDetails()
+            .getUserInfoEndpoint()
+            .getUri()
+        );
+
+        RestTemplate restTemplate = new RestTemplate();
+        HttpHeaders headers = new HttpHeaders();
+        headers.set(HttpHeaders.AUTHORIZATION, String.format("Bearer %s", client.getAccessToken().getTokenValue());
+        RequestEntity<String> request = new RequestEntity<>("",headers,HttpMethod.GET, userDetailsEndpoint);
+        ResponseEntity<Map> response = restTemplate.exchange(request, Map.class);
+
+        MyUserDetails userDetails = userDetailsService.getUserDetails(token);
+        model.addAttribute("picture", userDetails.getPicture());
+        model.addAttribute("fullname", userDetails.getName());
+        model.addAttribute("email", userDetails.getEmail());
+        model.addAttribute("books", booklist);
+        log.info("Userdetails: \n{}", userDetails);
+        return "books";
+    }
+
+}
+
 ```
+
+8.
