@@ -3,10 +3,10 @@ import { graphql } from "gatsby"
 import SearchResult from "../components/search-result"
 import Layout from "../components/layout"
 
-const SearchPage = ({ data }) => {
+const SearchPage = ({ data, location }) => {
   return (
     <Layout>
-      <SearchResult index={data.siteSearchIndex.index} />
+      <SearchResult location={location} index={data.siteSearchIndex.index} />
     </Layout>
   )
 }

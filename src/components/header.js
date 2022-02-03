@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
@@ -9,12 +9,15 @@ import Search from "./search"
 
 const Header = ({ searchIndex }) => {
   const [showMenu, toggleMenu] = useState(false)
-  let pathname = ""
-  if (typeof window !== `undefined`) {
-    pathname = window.location.pathname.substring(1)
-  }
+  const [active, setActive] = useState("")
 
-  const [active, setActive] = useState(pathname)
+  useEffect(() => {
+    let pathname = ""
+    if (typeof window !== `undefined`) {
+      pathname = window.location.pathname.substring(1)
+      setActive(pathname)
+    }
+  }, [])
 
   return (
     <>

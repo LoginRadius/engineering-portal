@@ -1,23 +1,39 @@
 import React, { Component } from "react"
 import { Index } from "elasticlunr"
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import styles from "./searchpage.module.scss"
 
 export default class SearchResult extends Component {
   constructor(props) {
     super(props)
 
-    const query =
-      typeof window !== "undefined" &&
-      window.location.search.replace(/%20/g, " ").replace("?", "")
     const index = Index.load(this.props.index)
-
+    const query = props.location.state ? props.location.state.query : ""
     this.state = {
       query: query,
       results: index
         .search(query, { expand: true })
-        // Map over each ID and return the full document
         .map(({ ref }) => index.documentStore.getDoc(ref)),
+    }
+  }
+
+  componentDidMount() {
+    if (!this.state.query) {
+      navigate("/")
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    const query = this.props.location.state.query
+    const prevquery = prevProps.location.state.query
+    if (query != prevquery) {
+      const index = Index.load(this.props.index)
+      this.setState({
+        query: query,
+        results: index
+          .search(query, { expand: true })
+          .map(({ ref }) => index.documentStore.getDoc(ref)),
+      })
     }
   }
 
@@ -35,7 +51,6 @@ export default class SearchResult extends Component {
                 <Link to={page.path}>{page.title}</Link>
               </h3>
               <p>{page.text}</p>
-              {/*<p>{page.tags ? page.tags.join(`, `) : ""}</p>*/}
             </div>
           ))}
         </div>

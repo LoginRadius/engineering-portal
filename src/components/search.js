@@ -45,7 +45,14 @@ export default class Search extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const query = this.state.query
-    navigate(`/search/?${query}`)
+    navigate("/search", {
+      state: { query },
+    })
+    this.setState({
+      toggleOpen: false,
+      results: [],
+      query: "",
+    })
   }
 
   componentDidMount() {
@@ -102,6 +109,7 @@ export default class Search extends Component {
             onChange={this.search}
             onFocus={this.search}
             onSubmit={this.search}
+            value={this.state.query}
             required
           />
           <label htmlFor="search" className={searchStyle.searchButton}></label>
