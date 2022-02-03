@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { memo, useEffect, useState } from "react"
 import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
@@ -7,17 +7,17 @@ import Hamburger from "../../static/iconHamburger.svg"
 import Close from "../../static/icon-close.svg"
 import Search from "./search"
 
-const Header = ({ searchIndex }) => {
+const Header = memo(({ searchIndex }) => {
+  let pathname = ""
+  if (typeof window !== `undefined`) {
+    pathname = window.location.pathname.substring(1)
+  }
   const [showMenu, toggleMenu] = useState(false)
-  const [active, setActive] = useState("")
+  const [active, setActive] = useState(pathname)
 
   useEffect(() => {
-    let pathname = ""
-    if (typeof window !== `undefined`) {
-      pathname = window.location.pathname.substring(1)
-      setActive(pathname)
-    }
-  }, [])
+    setActive(pathname)
+  }, [active])
 
   return (
     <>
@@ -101,5 +101,5 @@ const Header = ({ searchIndex }) => {
       </div>
     </>
   )
-}
+})
 export default Header
