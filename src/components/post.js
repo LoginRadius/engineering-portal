@@ -114,7 +114,7 @@ const Post = ({ post, relatedPost, type }) => {
                 <div className={styles.aboutAuthor}>
                   <div className={styles.aboutAuthorInner}>
                     <h3>
-                      Writter by&nbsp;
+                      Written by&nbsp;
                       <Link to={`/author/${kebabCase(author.id)}/`}>
                         {author.id}
                       </Link>

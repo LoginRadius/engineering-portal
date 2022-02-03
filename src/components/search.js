@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import searchStyle from "./search.module.scss"
+import headerStyles from "./header.module.scss"
 import { navigate } from "gatsby"
 
 // Search component
@@ -105,7 +106,6 @@ export default class Search extends Component {
                 ? searchStyle.searchInputBtoW
                 : searchStyle.searchInputWtoB
             }`}
-            placeholder="Search..."
             onChange={this.search}
             onFocus={this.search}
             onSubmit={this.search}

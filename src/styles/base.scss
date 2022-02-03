@@ -99,21 +99,19 @@ ul {
   padding: 0;
 }
 .btn-primary {
-  padding: 0 $gutter;
-  height: 52px;
+  padding: $gutter/2 $gutter;
+  min-height: 52px;
   border-radius: 4px;
   font-size: 20px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 1.2;
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
   cursor: pointer;
   background-color: $lr-orange;
-
   text-align: center;
   display: block;
-  white-space: nowrap;
   transition: all 0.3s;
   border: 0;
   transition: color 0.35s, background-color 0.35s, border-color 0.35s,
@@ -331,11 +329,11 @@ section {
         &:nth-child(2n) {
           margin-right: 0;
           width: calc(33% - #{#{$gutter * 3} * 1 / 2});
-          @media (max-width: 768px) {
+          @media (max-width: 950px) {
             width: 100%;
           }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 950px) {
           width: 100%;
           margin-right: 0;
         }

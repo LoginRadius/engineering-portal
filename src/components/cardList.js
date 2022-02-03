@@ -11,7 +11,7 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
     <section id="all-articles">
       <div className={styles.cardlist}>
         <div className="grid-67-33">
-          <div className="grid-50 pt-96">
+          <div className="grid-50 py-96">
             {posts &&
               posts.map(({ node }, index) => {
                 if (isPagination) {
@@ -26,7 +26,7 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
                 }
               })}
           </div>
-          <div className={` ${styles.sidebar} pt-96`}>
+          <div className={` ${styles.sidebar} py-96`}>
             <Subscribe type={type} />
             <div className={`${styles.sidebarWidget} ${styles.tags}`}>
               <TagMenu />
