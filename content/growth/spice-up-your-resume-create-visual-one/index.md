@@ -2,7 +2,7 @@
 title: "Spice Up Your Resume: Create a Visual One"
 date: "2017-05-15"
 coverImage: "Spice-up-your-resume-Create-a-virtual-one.jpg"
-tags: ["General"]
+category: ["General"]
 featured: false 
 author: "Srishti Singh"
 description: "This year, ditch your regular resume! Spice up your resume by creating a visual one. Read on the article to find out how."

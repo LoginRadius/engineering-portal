@@ -2,7 +2,7 @@
 title: "Awesome Arduino Ideas for Beginners : Best Projects of 2016"
 date: "2017-03-07"
 coverImage: "Awesome-Arduino-Ideas-for-Beginners-Best-Projects-of-2016.png"
-tags: ["general", "technology", "loginradius"]
+category: ["general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Are you a beginner at Arduino and want to explore more of it? Check out here some awesome Arduino Ideas along for beginners with best Arduino projects of 2016."

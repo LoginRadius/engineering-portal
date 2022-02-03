@@ -7,8 +7,8 @@ const Home = props => {
   return (
     <>
       <SEO
-        title={"LoginRadius Blog"}
-        description="A list of all the blogs from different categories"
+        title={`Page ${props.page} - LoginRadius Blog`}
+        description={`LoginRadius blog Page ${props.page}`}
         pathname={props.location.pathname}
       />
       <BlogList
@@ -21,7 +21,7 @@ const Home = props => {
 }
 
 export const allBlogQuery = graphql`
-  query allBlogQuery {
+  query allBlogPageQuery {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {

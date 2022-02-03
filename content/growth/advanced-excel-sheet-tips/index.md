@@ -2,7 +2,7 @@
 title: "11 Time Saving Advanced Excel Sheet Tips To Make You A Pro"
 date: "2017-03-15"
 coverImage: "11-Time-Saving-Advanced-Excel-Sheet-Tips-To-Make-You-A-Pro.png"
-tags: ["general", "technology", "loginradius"]
+category: ["general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Want to be Excel Sheet Expert? We have brought for you here 11 time saving Advanced MS  Excel tips you must be aware Of!"

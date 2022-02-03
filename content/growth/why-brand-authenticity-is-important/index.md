@@ -2,7 +2,7 @@
 title: "Why Brand Authenticity is Important & How to Build it"
 date: "2021-06-24"
 coverImage: "brand-engagement.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Srishti Singh"
 description: "Today's world is increasingly clamoring for authenticity. Companies, especially brands, are being held accountable to consumers' demands and judgments about their sincerity. To many people, authenticity is more important than hope."

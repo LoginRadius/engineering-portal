@@ -2,7 +2,7 @@
 title: "Customer Authentication: Unfolding The Market Needs Of The Future"
 date: "2022-01-06"
 coverImage: "auth-future.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false 
 author: "Srishti Singh"
 description: "Consumer authentication is getting more challenging than ever. Learn how the biggest brands in the world are innovating their way through the disruption that's already underway, and get the tactics you need to deliver a seamless experience to your customers."

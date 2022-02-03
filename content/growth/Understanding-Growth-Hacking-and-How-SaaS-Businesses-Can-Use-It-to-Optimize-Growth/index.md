@@ -2,7 +2,7 @@
 title: "Growth Hacking: What it is and How SaaS Businesses Can Use it to Optimize Growth"
 date: "2021-03-30"
 coverImage: "growth-hacking-2-colorized.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Shachindra Saxena"
 description: "Growth hacking has become an essential factor in a start-up or business marketing to ensure that it can kick start earning revenue. However, the question lies in how to begin. The very first step that you need to take is to study your target consumer."

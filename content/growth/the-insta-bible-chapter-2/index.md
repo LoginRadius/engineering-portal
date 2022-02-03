@@ -2,7 +2,7 @@
 title: "The Insta Bible: Chapter 2"
 date: "2017-05-25"
 coverImage: "The-Insta-Bible-Chapter-2.jpg"
-tags: ["business", "technology", "loginradius", "marketing"]
+category: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Continue your Pursuit in Improving Your Business through Instagram. Know how to Create the Most Compelling Content In your Niche."

@@ -2,7 +2,7 @@
 title: "Top Youtube Channels for Motivation and Productivity"
 date: "2017-03-31"
 coverImage: "Top-Youtube-Channels-for-Motivation-and-Productivity.png"
-tags: ["General"]
+category: ["General"]
 featured: false 
 author: "Deepak Gupta"
 description: "Passing through a phase? Need some inspiration? Stay inspired and productive with the list of best motivational YouTube channels."

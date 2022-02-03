@@ -2,7 +2,7 @@
 title: "Fight Mediocrity at Your Workplace, Dare to be Awesome!"
 date: "2017-04-07"
 coverImage: "Fight-mediocrity-at-your-workplace-dare-to-be-awesome.png"
-tags: ["business","General"]
+category: ["business","General"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "Tired of Being Mediocre At Work? These 10 Awesome Habits can take you out of your Comfort Zone and help you Live the life you want."

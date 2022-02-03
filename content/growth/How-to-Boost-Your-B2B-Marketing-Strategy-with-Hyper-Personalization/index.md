@@ -2,7 +2,7 @@
 title: "How to Boost Your B2B Marketing Strategy with Hyper-Personalization"
 date: "2021-03-31"
 coverImage: "Effective-Communication-Strategies.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "Hyper-personalization helps to deliver more relevant and highly-personalized content by leveraging artificial intelligence coupled with real-time data. With consumers demanding a brand to deliver them a personalized experience, hyper-personalization is the key to success for an online business."

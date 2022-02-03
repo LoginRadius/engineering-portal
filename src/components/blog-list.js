@@ -21,15 +21,13 @@ const BlogList = props => {
           total={total}
           currentPage={currentPage}
           type={type || "all"}
-          isPagination={type}
+          isPagination={type || "all"}
         />
-        {type && (
-          <Pagination
-            pages={numPages}
-            currentPage={parseInt(currentPage)}
-            type={type}
-          />
-        )}
+        <Pagination
+          pages={numPages}
+          currentPage={parseInt(currentPage)}
+          type={type}
+        />
       </main>
     </Layout>
   )

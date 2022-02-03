@@ -2,7 +2,7 @@
 title: "Not Sure About Spiderman, But You Can Prevent Identity Disclosure"
 date: "2021-12-02"
 coverImage: "spiderman.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "What's most challenging about identity disclosure is that it is not only hard to avoid but also very difficult to repair once it has been disclosed. So, don't wait for a Mysterio to mess up your consumers’ identities! Security is just a click away with LoginRadius."

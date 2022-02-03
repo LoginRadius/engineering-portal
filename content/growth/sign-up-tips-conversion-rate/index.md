@@ -2,7 +2,7 @@
 title: "9 Signup Tips To Skyrocket The Conversion Rate"
 date: "2021-01-05"
 coverImage: "sign-up-rate.jpg"
-tags: ["all"]
+category: ["all"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "It should be clear and easy to understand your sign-up form. Avoid using undefined fields that frustrate users. Your next step is to follow the tips and examples shown in this article. If you can get it right, better conversion sign-up forms can be developed and the amount of quality leads produced can be increased."

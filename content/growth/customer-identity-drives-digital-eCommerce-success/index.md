@@ -2,7 +2,7 @@
 title: "How Customer Identity Solution Drives Digital eCommerce Success"
 date: "2021-07-10"
 coverImage: "ecommerce-digital-identity-solutions.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "Learn how a CIAM solution paves the path for an eCommerce business success and why enterprises thinking to step into the eCommerce world should leverage a cutting-edge CIAM solution."

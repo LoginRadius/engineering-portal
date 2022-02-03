@@ -2,7 +2,7 @@
 title: "8 Common Challenges With Your SaaS Business that CIAM Can Solve"
 date: "2021-09-10"
 coverImage: "saas-business-app.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
 description: "To be successful, your SaaS needs to use the right application performance management software. CIAM is the first step you need to take to avoid common challenges like lack of compliance, and incompetent onboarding."

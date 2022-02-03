@@ -2,7 +2,7 @@
 title: "Thinking Beyond the Pandemic: How to Make Marketing Plans After Coronavirus"
 date: "2021-03-25"
 coverImage: "business-after-covid-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "B2B marketing post-COVID focuses more on the digitization of businesses where consumers are now reached via web articles, digital ads, emails, videos, and virtual presentations. There is much emphasis on fostering better connections, and delivering relevant content to build long-term relationships."

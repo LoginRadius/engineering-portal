@@ -13,16 +13,16 @@ const Pagination = ({ pages, currentPage, type }) => {
 
   switch (type) {
     case "async":
-      navLink = "engineering"
+      navLink = "/engineering"
       break
     case "start-with-identity":
-      navLink = "identity"
+      navLink = "/identity"
       break
     case "fuel":
-      navLink = "growth"
+      navLink = "/growth"
       break
     default:
-      navLink = type
+      navLink = type || ""
   }
 
   let pageArray = []
@@ -50,7 +50,7 @@ const Pagination = ({ pages, currentPage, type }) => {
     <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
         {!isFirst && (
-          <Link to={`/${navLink}/${prevPage}/#all-articles`} rel="prev">
+          <Link to={`${navLink}/${prevPage}/#all-articles`} rel="prev">
             <span>
               <svg
                 width="24"
@@ -72,7 +72,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         )}
         {!intialPages && (
           <Link
-            to={`/${navLink}/`}
+            to={`${navLink}/`}
             className={currentPage === 1 ? styles.active : ""}
           >
             <span>{1}</span>
@@ -81,9 +81,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         {!intialPages && currentPage != 4 && <p>...</p>}
         {pageArray.map((k, i) => (
           <Link
-            to={`${
-              k === 1 ? `/${navLink}/` : `/${navLink}/${k}/#all-articles`
-            }`}
+            to={`${k === 1 ? `${navLink}/` : `${navLink}/${k}/#all-articles`}`}
             key={k}
             className={currentPage === k ? styles.active : ""}
           >
@@ -93,7 +91,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         {!lastPages && currentPage != pages - 3 && <p>...</p>}
         {!lastPages && (
           <Link
-            to={`/${navLink}/${pages}/#all-articles`}
+            to={`${navLink}/${pages}/#all-articles`}
             key={pages}
             className={currentPage === pages ? styles.active : ""}
           >
@@ -102,7 +100,7 @@ const Pagination = ({ pages, currentPage, type }) => {
         )}
 
         {!isLast && (
-          <Link to={`/${navLink}/${nextPage}/#all-articles`} rel="next">
+          <Link to={`${navLink}/${nextPage}/#all-articles`} rel="next">
             <span>
               <svg
                 width="24"

@@ -2,7 +2,7 @@
 title: "Will Focusing on Relationship Marketing Boost Your Business Sales?"
 date: "2021-05-27"
 coverImage: "customer-relationship-for-business.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
 description: "In today’s business world, maintaining a strong, healthy relationship with consumers is pivotal. The fact remains that the internet is a permanent record and consumers do not forget. No matter how hard online marketers work to tweak their brand and build relationships with consumers online, one bad review can completely ruin it."

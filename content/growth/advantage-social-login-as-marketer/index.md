@@ -2,7 +2,7 @@
 title: "Can Social Login Boost Conversion Rates? 5 Things Marketers Should Know"
 date: "2021-11-12"
 coverImage: "social-login-marketer.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false
 author: "Srishti Singh"
 description: "Using social login to drive sign-ups usually makes sense because it increases user privacy. If users like the site, they're more likely to return, and you're more likely to convert them into paying customers. This blog explains how social login can boost conversion rates."

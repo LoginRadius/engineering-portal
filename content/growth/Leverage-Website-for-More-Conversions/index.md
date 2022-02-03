@@ -2,7 +2,7 @@
 title: "5 Quick Steps to Leverage your Website for More Conversions"
 date: "2021-04-21"
 coverImage: "Leads-conversion-Loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "Marketers need to put their best foot forward in understanding their targeted audience and what exactly they’re looking for in a business website. The quick strategies described in this blog can be quite fruitful for every business regardless of the industry to enhance conversion rates and improve overall traffic."

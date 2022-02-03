@@ -120,7 +120,7 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={page.path}>{page.title}</Link>
+                  <Link to={page.slug}>{page.title}</Link>
                 </div>
                 {/* <p>{page.tags ? page.tags.join(`, `) : ""}</p> */}
               </li>

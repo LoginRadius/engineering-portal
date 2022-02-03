@@ -2,7 +2,7 @@
 title: "Free Local Business Listing (UK) : Top 100+ Tested Citation Sites 2017"
 date: "2017-07-17"
 coverImage: "top_business_listing_sites_for_uk.jpg"
-tags: ["business", "technology", "loginradius", "marketing"]
+category: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Are you looking for UK citation websites to get your business listed in 2017? Check out this exclusive list of 100+ practically tested free business listing sites."

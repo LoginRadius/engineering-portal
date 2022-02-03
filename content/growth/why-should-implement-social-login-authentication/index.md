@@ -2,7 +2,7 @@
 title: "Why Should You Implement Social Login Authentication?"
 date: "2021-08-16"
 coverImage: "social-login-1.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Srishti Singh"
 description: "If you're building a startup today, social login should be the default, not an afterthought. It will give you a huge competitive advantage, because your users won't have to register or even create an email address to use your site."

@@ -2,7 +2,7 @@
 title: "Implementing The Power Of Continuous Authentication for Boundless Business Value"
 date: "2022-01-04"
 coverImage: "cont-auth.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false
 author: "Rakesh Soni"
 description: "With advancements in technology and the increasing rate of cybercrimes, continuous authentication for business is gaining popularity in modern times. As a smarter and better authentication method, it can help in reducing the number of these attacks."

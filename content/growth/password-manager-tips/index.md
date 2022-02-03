@@ -2,7 +2,7 @@
 title: "5 Tips for Choosing the Right Password Manager for Your Team"
 date: "2021-02-23"
 coverImage: "password-management.jpg"
-tags: ["all"]
+category: ["all"]
 featured: false
 author: "Deepak Gupta"
 description: "When it comes to a password manager for business, always invest coherently.  As there are immense options available in the market with forever free and feature scale-up modes, prioritize better functionality and security over fancy designs or a complicated interface."

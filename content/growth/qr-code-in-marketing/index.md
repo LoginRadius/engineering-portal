@@ -2,7 +2,7 @@
 title: "How QR Codes are Shaping the Future of Marketing"
 date: "2021-06-28"
 coverImage: "qr-codes-digital-contactless-payments.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "From redirecting customers to social media pages to asking them to leave feedback and review, enterprises can do a lot through a QR Code. This insightful read covers all the aspects that depict the role of QR codes in enhancing marketing for enterprises during uncertain times."

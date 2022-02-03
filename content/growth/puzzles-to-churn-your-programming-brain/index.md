@@ -2,7 +2,7 @@
 title: "9 Awesome Puzzles to Churn your Programming Brain"
 date: "2017-05-12"
 coverImage: "9-Awesome-Puzzles-to-Churn-your-Programming-Brain.png"
-tags: ["business","Marketing", "technology"]
+category: ["business","Marketing", "technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Sharpening your coding skills is no more a boring task when you are dealing with interesting puzzles. Check out these 9 Awesome Puzzles to Churn your Programming Brain."

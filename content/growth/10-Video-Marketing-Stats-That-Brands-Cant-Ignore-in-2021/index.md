@@ -2,7 +2,7 @@
 title: "10 Video Marketing Stats That Brands Can't Ignore in 2021"
 date: "2021-04-26"
 coverImage: "video-marketing-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
 description: "Even the most experienced video content creators use a system to make sure everything goes smoothly so they don't miss deadlines or lose track of what they need to do next. A transparent plan with checklists and milestones will help you adopt a more professional tone in your videos."

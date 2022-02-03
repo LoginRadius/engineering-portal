@@ -167,9 +167,13 @@ const Post = ({ post, relatedPost, type }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              <div className={`${headStyles.sidebarWidget} ${headStyles.tags}`}>
-                <TagMenu />
-              </div>
+              {type !== "fuel" && (
+                <div className={`${styles.sidebarWidget} ${styles.tags}`}>
+                  {type === "all" && <TagMenu />}
+                  {type === "async" && <AsyncTagMenu />}
+                  {type === "start-with-identity" && <IdentityTagMenu />}
+                </div>
+              )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
                 <div className={headStyles.image}>

@@ -2,7 +2,7 @@
 title: "The Anatomy Of A Perfect About Us Page"
 date: "2017-07-06"
 coverImage: "the-anatomy-of-perfect-about-us-page.png"
-tags: ["business", "general", "loginradius"]
+category: ["business", "general", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Trying to find the Best tools to create highly responsive web designs? Here your one stop shop to find everything you need to make your website more responsive"

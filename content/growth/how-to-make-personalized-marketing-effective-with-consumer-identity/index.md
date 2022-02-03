@@ -2,7 +2,7 @@
 title: "How to Make Personalized Marketing Effective With Consumer Identity Programs?"
 date: "2021-07-30"
 coverImage: "personalized-marketing.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Srishti Singh"
 description: "Personalized marketing is a promotional strategy tailored to the individual at the precise moment they require it, and there's no other communication like it. The question is, how will you fulfill that promise? You may utilize tools to acquire and aggregate information about your clients' preferences. Read on to find out what these tools are and how they benefit your business."

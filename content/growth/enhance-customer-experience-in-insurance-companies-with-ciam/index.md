@@ -2,7 +2,7 @@
 title: "Enhance Your Consumer Experience in Insurance Companies With CIAM"
 date: "2021-08-09"
 coverImage: "couple-meeting-with-insurance-agent.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
 description: "Unaided consumer interactions are a lost opportunity. The main goal of an insurance company should be to reduce the time taken in all their consumer interactions and increase the consumer experience level. This can only happen by implementing excellent systems and processes, which is where a CIAM comes into play."

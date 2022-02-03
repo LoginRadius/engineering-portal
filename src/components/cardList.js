@@ -2,9 +2,10 @@ import React from "react"
 import styles from "./cardlist.module.scss"
 import Card from "./card"
 import TagMenu from "./tagMenu"
-import Opensource from "../../static/open-source.png"
-import Writeforus from "../../static/write-for-us.png"
 import Subscribe from "./subscribe"
+import AsyncTagMenu from "./tagmenu/async"
+import IdentityTagMenu from "./tagmenu/identity"
+import { withPrefix } from "gatsby"
 export default function CardList({ posts, currentPage, isPagination, type }) {
   const limit = 6
   return (
@@ -28,16 +29,24 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
           </div>
           <div className={` ${styles.sidebar} py-96`}>
             <Subscribe type={type} />
-            <div className={`${styles.sidebarWidget} ${styles.tags}`}>
-              <TagMenu />
-            </div>
+            {type !== "fuel" && (
+              <div className={`${styles.sidebarWidget} ${styles.tags}`}>
+                {type === "all" && <TagMenu />}
+                {type === "async" && <AsyncTagMenu />}
+                {type === "start-with-identity" && <IdentityTagMenu />}
+              </div>
+            )}
             {type !== "all" && (
               <a
                 className={`${styles.sidebarWidget} ${styles.link}`}
                 href="https://www.loginradius.com/open-source/"
                 target="_blank"
               >
-                <div style={{ backgroundImage: `url(${Opensource})` }} />
+                <div
+                  style={{
+                    backgroundImage: `url(${withPrefix("/open-source.png")})`,
+                  }}
+                />
                 <h3>LoginRadius Open Source</h3>
               </a>
             )}
@@ -47,7 +56,11 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
               href="https://www.loginradius.com/blog/async/page/guest-blog"
               target="_blank"
             >
-              <div style={{ backgroundImage: `url(${Writeforus})` }} />
+              <div
+                style={{
+                  backgroundImage: `url(${withPrefix("/write-for-us.png")})`,
+                }}
+              />
               <h3>Write for us</h3>
             </a>
           </div>
