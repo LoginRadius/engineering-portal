@@ -11,7 +11,9 @@ import FuelFeatList from "./featurePost/fuel"
 import IdentityFeatList from "./featurePost/identity"
 import styles from "./post.module.scss"
 import Subscribe from "./subscribe"
-import TagMenu from "./tagMenu"
+import TagMenu from "./tagmenu"
+import AsyncTagMenu from "./tagmenu/async"
+import IdentityTagMenu from "./tagmenu/identity"
 import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {

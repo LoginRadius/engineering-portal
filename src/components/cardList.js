@@ -1,11 +1,11 @@
 import React from "react"
 import styles from "./cardlist.module.scss"
 import Card from "./card"
-import TagMenu from "./tagMenu"
 import Subscribe from "./subscribe"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { withPrefix } from "gatsby"
+import TagMenu from "./tagmenu"
 export default function CardList({ posts, currentPage, isPagination, type }) {
   const limit = 6
   return (
