@@ -1,15 +1,14 @@
-import React, { memo, useEffect, useState } from "react"
 import { Link } from "gatsby"
-
-import headerStyles from "./header.module.scss"
-import LogoLr from "../../static/logo-blog.svg"
-import Hamburger from "../../static/iconHamburger.svg"
+import React, { useState } from "react"
 import Close from "../../static/icon-close.svg"
+import Hamburger from "../../static/iconHamburger.svg"
+import LogoLr from "../../static/logo-blog.svg"
+import headerStyles from "./header.module.scss"
 import Search from "./search"
 
-const Header = memo(({ searchIndex, pathname }) => {
+const Header = ({ searchIndex, pathname }) => {
   const [showMenu, toggleMenu] = useState(false)
-  const [active, setActive] = useState(pathname)
+  const [active, setActive] = useState(pathname || "")
 
   return (
     <>
@@ -93,5 +92,5 @@ const Header = memo(({ searchIndex, pathname }) => {
       </div>
     </>
   )
-})
+}
 export default Header

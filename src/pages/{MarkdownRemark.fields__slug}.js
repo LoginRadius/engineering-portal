@@ -24,7 +24,7 @@ const BlogPostTemplate = ({ data }) => {
     type = "start-with-identity"
   }
   return (
-    <Layout hideTagMenu postPage>
+    <Layout hideTagMenu postPage pathname={pathname}>
       <SEO
         title={`${metatitle || title} | LoginRadius Blog`}
         description={metadescription || description || post.excerpt}

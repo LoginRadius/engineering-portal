@@ -164,7 +164,7 @@ ul {
   }
   &.disabled {
     background: #e8e9ea !important;
-    cursor: not-allowed;
+    cursor: default;
     &:hover,
     &:focus {
       transform: scale(1);

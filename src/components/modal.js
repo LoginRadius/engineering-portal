@@ -61,28 +61,12 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
-        let notify = () => toast.info(resp.message)
-        notify()
-        toggleEmail()
-        toggle()
-        //document.getElementById("subscription-form").reset()
-      } else if (xmlhttp.status === 500) {
+      } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
           responseMsg: resp.message,
           respClass: "error",
         })
-        let notify = () => toast.error(resp.message)
-        notify()
-      } else {
-        setNewsLetterSubscription({
-          ...newsLetterSubscription,
-          subscribeCall: false,
-          respClass: "",
-        })
-        let notify = () =>
-          toast.error("An error has occured, please try again!")
-        notify()
       }
       setLoading(false)
     }
@@ -95,7 +79,13 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   return (
     <div className={`${styles.modal} ${isOpen ? "" : styles.hide}`}>
       <div className={styles.modalBody}>
-        <a className={styles.modalClose} onClick={toggle}>
+        <a
+          className={styles.modalClose}
+          onClick={() => {
+            toggle()
+            toggleEmail()
+          }}
+        >
           <svg
             width="512"
             height="512"
@@ -154,13 +144,23 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
             <a
-              className={`${"btn btn-primary"} ${noType() ? "disabled" : ""}`}
+              className={`${"btn btn-primary"} ${loading ? "btn_wait" : ""} ${
+                newsLetterSubscription.respClass === "success"
+                  ? "btn_success"
+                  : newsLetterSubscription.respClass === "error"
+                  ? "btn_error"
+                  : ""
+              } ${noType() ? "disabled" : ""}`}
               disabled={
                 newsLetterSubscription.subscribeCall || loading || noType()
               }
               onClick={() => !loading && subscribeSIB()}
             >
-              {loading ? "Please Wait" : "Subscribe"}
+              {loading
+                ? "Please Wait"
+                : newsLetterSubscription.respClass === "success"
+                ? "Subscribed"
+                : "Subscribe"}
             </a>
             <a className="btn btn-secondary" onClick={toggle}>
               Cancel
