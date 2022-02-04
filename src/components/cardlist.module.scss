@@ -87,6 +87,16 @@
             padding: 0;
           }
         }
+        &.avatar-pinned {
+          & > div {
+            @media (min-width: 951px) {
+              height: 402px;
+            }
+            @media (max-width: 480px) {
+              height: 257px;
+            }
+          }
+        }
       }
     }
   }
