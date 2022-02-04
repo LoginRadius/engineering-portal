@@ -43,15 +43,16 @@
   min-height: 96px;
   align-items: center;
   justify-content: center;
-  max-width: 1248px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
   z-index: 3;
   margin-bottom: 12px;
+  background-color: $white;
   @media (max-width: 768px) {
     flex-direction: column;
-    box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
-      0 3px 3px 0px rgba(0, 142, 207, 0.12);
+    // box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+    //   0 3px 3px 0px rgba(0, 142, 207, 0.12);
     margin-bottom: 0;
   }
 
@@ -71,33 +72,51 @@
   }
 
   .hamburger {
-    position: absolute;
     left: 0;
     top: 0;
+    position: absolute;
+    display: block;
+    width: 96px;
     height: 96px;
-    width: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 32px 27.42857143px;
     @media (min-width: 769px) {
       display: none;
     }
-    .icon-hamburger,
-    .icon-close {
-      width: 24px;
-      height: 24px;
-    }
-    .icon-close {
-      display: none;
-      width: 20px;
-      height: 20px;
+    span {
+      width: 72%;
+      height: 7%;
+      margin-bottom: 15%;
+      margin-top: 15%;
+      background-color: $blue-bright;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
     }
     &.active {
-      .icon-hamburger {
-        display: none;
-      }
-      .icon-close {
-        display: block;
+      span {
+        &:first-child {
+          -webkit-transform: translateY(9px) rotate(45deg);
+          -ms-transform: translateY(9px) rotate(45deg);
+          -o-transform: translateY(9px) rotate(45deg);
+          transform: translateY(9px) rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          -webkit-transform: translateY(-8px) rotate(-45deg);
+          -ms-transform: translateY(-8px) rotate(-45deg);
+          -o-transform: translateY(-8px) rotate(-45deg);
+          transform: translateY(-8px) rotate(-45deg);
+        }
       }
       & ~ .btn-search {
         display: none;
@@ -109,35 +128,37 @@
 .navigation {
   width: 100%;
   background: $white;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
   @media (min-width: 768px) {
     box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
       0 3px 3px 0px rgba(0, 142, 207, 0.12);
   }
   @media (max-width: 768px) {
-    display: none;
     height: auto;
     position: absolute;
-    z-index: 10;
+    z-index: 2;
     left: 0;
     top: 96px;
-    -webkit-animation-name: mobileNavClose;
-    animation-name: mobileNavClose;
-    -webkit-animation-duration: 300ms;
-    animation-duration: 300ms;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-direction: normal;
-    animation-direction: normal;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
     box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
       0 3px 3px 0px rgba(0, 142, 207, 0.12);
     &.open {
-      display: block;
       -webkit-animation-name: mobileNavOpen;
       animation-name: mobileNavOpen;
+      -webkit-animation-duration: 300ms;
+      animation-duration: 300ms;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-direction: normal;
+      animation-direction: normal;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+    }
+
+    &.close {
+      -webkit-animation-name: mobileNavClose;
+      animation-name: mobileNavClose;
       -webkit-animation-duration: 300ms;
       animation-duration: 300ms;
       -webkit-animation-fill-mode: forwards;
@@ -177,7 +198,7 @@
         align-items: center;
         @media (max-width: 768px) {
           justify-content: flex-start;
-          padding: 0 $gutter;
+          padding: 0 $gutter + $gutter/3;
         }
         &:hover {
           opacity: 0.8;
@@ -237,55 +258,55 @@
 
 @keyframes mobileNavClose {
   from {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
   }
 
   to {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 }
 
 @-webkit-keyframes mobileNavClose {
   from {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
   }
 
   to {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 }
 @keyframes mobileNavOpen {
   from {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 
   to {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @-webkit-keyframes mobileNavOpen {
   from {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 
   to {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
   }
 }

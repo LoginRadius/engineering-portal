@@ -170,6 +170,39 @@ ul {
       transform: scale(1);
     }
   }
+  &.btn_wait {
+    background-color: $blue-bright;
+    background-image: linear-gradient(
+      -85deg,
+      $blue-bright 0%,
+      $blue-bright 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $blue-bright 60%,
+      $blue-bright 100%
+    );
+  }
+  &.btn_success {
+    background-color: $success;
+    background-image: linear-gradient(
+      -85deg,
+      $success 0%,
+      $success 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $success 60%,
+      $success 100%
+    );
+  }
+  &.btn_error {
+    background-color: $error;
+    background-image: linear-gradient(
+      -85deg,
+      $error 0%,
+      $error 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $error 60%,
+      $error 100%
+    );
+  }
 }
 .btn-secondary {
   padding: 0 $gutter;
@@ -278,6 +311,7 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter;
         width: calc(33.33% - #{$gutter * 2 / 3});
         @media (max-width: 768px) {
@@ -308,6 +342,7 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter * 2;
         width: calc(50% - #{$gutter * 2} / 2);
         @media (max-width: 767px) {
@@ -324,6 +359,7 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter * 3;
         width: calc(67% - #{#{$gutter * 3} * 1 / 2});
         &:nth-child(2n) {
@@ -444,7 +480,4 @@ section {
 }
 .input--hidden {
   display: none !important;
-}
-#commento {
-  margin: $gutter * 2 0;
 }

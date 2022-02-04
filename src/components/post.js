@@ -208,10 +208,6 @@ const Post = ({ post, relatedPost, type }) => {
           </div>
         </div>
         {headings && headings.length && <ToC headings={headings} />}
-
-        <div>
-          <div id="commento"></div>
-        </div>
       </section>
       <section className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>

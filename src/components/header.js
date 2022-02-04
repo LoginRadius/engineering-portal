@@ -1,7 +1,5 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import Close from "../../static/icon-close.svg"
-import Hamburger from "../../static/iconHamburger.svg"
 import LogoLr from "../../static/logo-blog.svg"
 import headerStyles from "./header.module.scss"
 import Search from "./search"
@@ -19,8 +17,9 @@ const Header = ({ searchIndex, pathname }) => {
           }`}
           onClick={() => toggleMenu(!showMenu)}
         >
-          <img src={Hamburger} className={headerStyles.iconHamburger} />
-          <img src={Close} className={headerStyles.iconClose} />
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
@@ -29,7 +28,7 @@ const Header = ({ searchIndex, pathname }) => {
       </div>
       <div
         className={`${headerStyles.navigation} ${
-          showMenu ? headerStyles.open : ""
+          showMenu ? headerStyles.open : headerStyles.close
         }`}
       >
         <ul>
