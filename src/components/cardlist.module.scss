@@ -397,11 +397,14 @@
   &.detail-page {
     margin: 0;
     .subscribe-detail {
-      margin-bottom: $gutter * 2;
+      margin-bottom: $gutter * 4;
       color: $white;
       border-radius: $gutter/6;
       box-shadow: 0px 0px $gutter/4 0px $blue-bright;
       background-color: $lr-orange;
+      @media (max-width: 768px) {
+        margin-bottom: $gutter * 3;
+      }
       h3 {
         padding: $gutter;
       }
