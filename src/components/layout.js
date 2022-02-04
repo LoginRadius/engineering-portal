@@ -5,7 +5,7 @@ import Header from "./header"
 import layoutStyles from "./layout.module.scss"
 import PinnedCard from "./pinnedCard"
 
-const Layout = ({ postPage, children, pinned, pinnedData }) => {
+const Layout = ({ postPage, children, pinned, pinnedData, pathname }) => {
   return (
     <div className={layoutStyles.container}>
       <StaticQuery
@@ -31,7 +31,10 @@ const Layout = ({ postPage, children, pinned, pinnedData }) => {
         render={data => {
           return (
             <>
-              <Header searchIndex={data.siteSearchIndex.index} />
+              <Header
+                searchIndex={data.siteSearchIndex.index}
+                pathname={pathname}
+              />
               <div className={layoutStyles.pinnedwrap}>
                 <div className={layoutStyles.blogContentPinned}>
                   {pinned && <PinnedCard pinnedData={pinnedData} />}

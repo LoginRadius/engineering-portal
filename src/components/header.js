@@ -7,17 +7,9 @@ import Hamburger from "../../static/iconHamburger.svg"
 import Close from "../../static/icon-close.svg"
 import Search from "./search"
 
-const Header = memo(({ searchIndex }) => {
-  let pathname = ""
-  if (typeof window !== `undefined`) {
-    pathname = window.location.pathname.substring(1)
-  }
+const Header = memo(({ searchIndex, pathname }) => {
   const [showMenu, toggleMenu] = useState(false)
   const [active, setActive] = useState(pathname)
-
-  useEffect(() => {
-    setActive(pathname)
-  }, [active])
 
   return (
     <>
