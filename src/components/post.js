@@ -170,7 +170,9 @@ const Post = ({ post, relatedPost, type }) => {
                 )}
               </div>
               {type !== "fuel" && (
-                <div className={`${styles.sidebarWidget} ${styles.tags}`}>
+                <div
+                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
+                >
                   {type === "all" && <TagMenu />}
                   {type === "async" && <AsyncTagMenu />}
                   {type === "start-with-identity" && <IdentityTagMenu />}

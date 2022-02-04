@@ -144,16 +144,13 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
             <a
-              className={`${"btn btn-primary"} ${loading ? "btn_wait" : ""} ${
+              className={`btn btn-primary ${loading ? "btn_wait" : ""} ${
                 newsLetterSubscription.respClass === "success"
                   ? "btn_success"
                   : newsLetterSubscription.respClass === "error"
                   ? "btn_error"
                   : ""
-              } ${noType() ? "disabled" : ""}`}
-              disabled={
-                newsLetterSubscription.subscribeCall || loading || noType()
-              }
+              } ${noType() || loading ? "disabled" : ""}`}
               onClick={() => !loading && subscribeSIB()}
             >
               {loading
@@ -162,7 +159,13 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                 ? "Subscribed"
                 : "Subscribe"}
             </a>
-            <a className="btn btn-secondary" onClick={toggle}>
+            <a
+              className="btn btn-secondary"
+              onClick={() => {
+                toggle()
+                toggleEmail()
+              }}
+            >
               Cancel
             </a>
           </div>

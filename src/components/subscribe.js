@@ -35,9 +35,7 @@ const Subscribe = ({ type }) => {
       />
       <input
         type="submit"
-        className={`${`${styles.btn} btn-primary `} ${
-          isError ? styles.disabled : ""
-        }  `}
+        className={`btn btn-primary ${isError ? styles.disabled : ""}`}
         type="submit"
         disabled={isError}
         onClick={() => {
