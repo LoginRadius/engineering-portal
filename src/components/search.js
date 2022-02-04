@@ -68,7 +68,7 @@ export default class Search extends Component {
     return (
       <>
         <a
-          className={searchStyle.btnSearch}
+          className={`${searchStyle.btnSearch} ${this.props.customClass}`}
           tabIndex={0}
           onClick={this._toggleSearch}
         >

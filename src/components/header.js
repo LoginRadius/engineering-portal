@@ -24,7 +24,10 @@ const Header = ({ searchIndex, pathname }) => {
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </Link>
-        <Search searchIndex={searchIndex} />
+        <Search
+          customClass={`${showMenu ? "toggle" : ""}`}
+          searchIndex={searchIndex}
+        />
       </div>
       <div
         className={`${headerStyles.navigation} ${
