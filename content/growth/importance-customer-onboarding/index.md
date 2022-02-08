@@ -2,7 +2,7 @@
 title: "Customer Success: The Importance of Customer Onboarding"
 date: "2021-02-26"
 coverImage: "customer-onboarding-importance.jpg"
-tags: ["all"]
+category: ["all"]
 featured: false
 author: "Karl Wittig"
 description: "Customer onboarding is one of the more delicate components of marketing. This process can make or break a business. In addition to increasing the revenue, it also allows businesses to create relationships with their customers."

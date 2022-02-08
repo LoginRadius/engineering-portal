@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Craft Sign-up Forms That Convert Like Crazy"
 date: "2017-04-28"
 coverImage: "The-ultimate-guide-to-craft-sign-up-forms-that-covert-like-crazy.png"
-tags: ["technology"]
+category: ["technology"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "Do your signup forms contribute in your lead generation campaign? Craft your signup forms with these best practices to make sure they convert like crazy."

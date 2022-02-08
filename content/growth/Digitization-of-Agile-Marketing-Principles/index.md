@@ -2,7 +2,7 @@
 title: "The Digitization of Agile Marketing Principles - How Has It Changed Over the Years"
 date: "2021-05-17"
 coverImage: "Agile-Marketing.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Srishti Singh"
 description: "Agile Marketing is an alternative form of marketing that involves the use of tangible data and analytics to find opportunities for an increase in revenue or a search for solutions in real-time. The characteristic feature of this kind of marketing is that a team of developers and marketing personnel will focus on high-value projects."

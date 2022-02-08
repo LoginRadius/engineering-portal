@@ -2,7 +2,7 @@
 title: "Why Consumers’ Social Identities Matter & How You Can Protect It?"
 date: "2021-12-07"
 coverImage: "social-id.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false 
 author: "Srishti Singh"
 description: "Consumer is king. Organisations have realized this in modern times. Due to globalization, competition has increased, and customers have many choices. Therefore, the best way to get a customer's attention is by providing a product that suits the consumer's social identity."

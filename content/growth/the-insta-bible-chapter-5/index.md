@@ -2,7 +2,7 @@
 title: "The Insta Bible: Chapter 5"
 date: "2017-06-06"
 coverImage: "The-Insta-Bible-Chapter-5.jpg"
-tags: ["business", "technology", "loginradius", "marketing"]
+category: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Measuring your IG practices is as important striving for your account. Analyze your Instagram efforts with these awesome tools Inside."

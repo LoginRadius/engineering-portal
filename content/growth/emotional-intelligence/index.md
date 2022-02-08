@@ -2,7 +2,7 @@
 title: "Steps to Grow Your Emotional Intelligence for Better Consumer Relations"
 date: "2021-03-31"
 coverImage: "emotional-intelligence-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Lesley Vos"
 description: "Steps to Grow Your Emotional Intelligence for Better Consumer Relations | LoginRadius."

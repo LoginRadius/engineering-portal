@@ -2,7 +2,7 @@
 title: "Does Your Site’s Imagery Reflect Your Brand Identity"
 date: "2021-04-09"
 coverImage: "website-branding-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "The visuals on your website, in any form, represent your brand identity in a way that conveys a strong message resulting in building assurance and reliability over time.  Read on to learn the basics of a website’s imagery that impacts your marketing and how to craft an appealing experience for your site visitors."

@@ -2,7 +2,7 @@
 title: "Sharing My Journey With LoginRadius: A Look Inside the Best Employee Perks"
 date: "2021-11-26"
 coverImage: "picture04.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Hitesh Kumawat"
 description: "Working at LoginRadius is more than just a job. The organization is an excellent combination of professionalism and fun, where an employee’s association is highly valued, recognized, and respected in every step of their journey."

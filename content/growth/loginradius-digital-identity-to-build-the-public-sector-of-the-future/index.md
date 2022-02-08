@@ -2,7 +2,7 @@
 title: "Using LR Digital Identity to Build the Public Sector of the Future"
 date: "2021-07-23"
 coverImage: "ciam-role-in-public-sector.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
 description: "Identity authentication and management play a key role in navigating the digital world that not only reinforces the public sector and government bodies and helps deliver a flawless user experience in diverse verticals. Let’s learn the importance of identity management and how LoginRadius identity management can help public sectors deliver a flawless and secure user experience."

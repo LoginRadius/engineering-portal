@@ -2,7 +2,7 @@
 title: "Want to Learn Copywriting? 3 Tips That Will Keep Readers Glued to Your Content"
 date: "2021-05-25"
 coverImage: "learn-copywriting.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
 description: "Users are more likely to be receptive to content that inspires an emotional reaction. That’s why your current SEO strategy isn’t working. You can get site visitors, but you aren’t keeping them there for the long term. Check out our list of the most effective copywriting hacks that will help you increase your writing productivity and effectiveness."

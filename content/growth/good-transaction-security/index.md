@@ -2,7 +2,7 @@
 title: "How Good Transaction Security Ensures Smooth Consumer Visits"
 date: "2021-09-07"
 coverImage: "smooth-transaction-security-with-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "The sudden increase in the number of transaction-related security breaches is undeniably pointing towards the need for a robust security mechanism that can build consumer trust. This post uncovers the role of secure transactions and how businesses can ensure smooth consumer visits."

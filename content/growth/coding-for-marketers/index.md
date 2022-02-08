@@ -2,7 +2,7 @@
 title: "Coding for Marketers"
 date: "2017-01-23"
 coverImage: "Marketers-and-Coding.jpg"
-tags: ["general", "loginradius"]
+category: ["general", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "The marketing field is separate from the technical side of things, right? Well, think again! The article implies something else."

@@ -2,7 +2,7 @@
 title: "The Insta Bible: Chapter 3"
 date: "2017-06-01"
 coverImage: "The-Insta-Bible-Chapter-3.jpg"
-tags: ["business", "technology", "loginradius", "marketing"]
+category: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Enjoy the third chapter of The Insta-Bible franchise. Now, rapidly grow your IG account by using the right hashtags and obtain ton of followers. Wondering how?"

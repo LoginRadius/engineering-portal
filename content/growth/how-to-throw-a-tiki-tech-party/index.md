@@ -2,7 +2,7 @@
 title: "How To Throw A Tiki Tech Party"
 date: "2019-09-20"
 coverImage: "how-to-throw-a-tiki-tech-party.jpg"
-tags: ["media-and-publication", "LoginRadius"]
+category: ["media-and-publication", "LoginRadius"]
 featured: false 
 author: "Karl Wittig"
 

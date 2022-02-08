@@ -2,7 +2,7 @@
 title: "10 Tips to Ensure Your Wi-Fi is Private and Blocking Hackers"
 date: "2021-08-19"
 coverImage: "secure-wi-fi-against-hackers.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
 description: "This particular article will discuss some tips to reduce the likelihood of hackers stealing your personal data when you connect to Wi-Fi."

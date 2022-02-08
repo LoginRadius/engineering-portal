@@ -2,7 +2,7 @@
 title: "9 Effective Project Management Software For Your Team (Free Tools Inside)"
 date: "2017-06-16"
 coverImage: "9-Effective-Project-Management-Software-For-Your-Team.png"
-tags: ["business", "technology", "loginradius", "general"]
+category: ["business", "technology", "loginradius", "general"]
 featured: false 
 author: "Deepak Gupta"
 description: "Is your project management getting knotty day by day? Ease your process with these best project planning tools. They are Free as well!"

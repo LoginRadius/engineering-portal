@@ -2,7 +2,7 @@
 title: "Best LinkedIn Practices For Lead Generation Via Updates and InMail"
 date: "2017-06-26"
 coverImage: "Best-LinkedIn-Practices-For-Lead-Generation-Via-Updates-and-InMail.jpg"
-tags: ["business", "technology", "loginradius", "general", "marketing"]
+category: ["business", "technology", "loginradius", "general", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Let your business gain the momentum through LinkedIn InMail and Updates. Best practices to follow while generating leads via updates and InMail."

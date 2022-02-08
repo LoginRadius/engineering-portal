@@ -2,7 +2,7 @@
 title: "9 Tips To Conquer Your Inbox Like A Pro"
 date: "2017-06-06"
 coverImage: "9-tips-to-conquer-your-inbox-like-a-pro.jpg"
-tags: ["general", "technology", "loginradius"]
+category: ["general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Does a disorganized inbox eat your Monday productivity? Well, worry not! We have brought for you here nine tips to conquer your inbox like a pro."

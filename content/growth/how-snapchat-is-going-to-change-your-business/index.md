@@ -2,7 +2,7 @@
 title: "How Snapchat Is Going To Change Your Business (Reasons And Tips Inside!)"
 date: "2017-06-28"
 coverImage: "How-Snapchat-Is-Going-To-Change-Your-Business.jpg"
-tags: ["business", "technology", "loginradius", "marketing"]
+category: ["business", "technology", "loginradius", "marketing"]
 featured: false 
 author: "Deepak Gupta"
 description: "Not considering Snapchat as a brand marketing platform? Think again! Read on to find out how you can double your purchase rate and have better emotional response."

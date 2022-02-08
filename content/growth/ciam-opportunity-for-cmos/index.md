@@ -2,7 +2,7 @@
 title: "Why CMOs should care about CIAM"
 date: "2021-11-22"
 coverImage: "cmo-ciam.jpg"
-tags: ["security"]
+category: ["security"]
 featured: false
 author: "Rakesh Soni"
 description: "CMOs can deliver more efficient, secure, and relevant services and goods if they have a detailed grasp of who their customers are and what they require. Learn how a CIAM solution may be a valuable strategic asset for CMOs to utilize in their department."

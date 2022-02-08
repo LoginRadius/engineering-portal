@@ -2,7 +2,7 @@
 title: "Your Business Is Vulnerable Online, Here Is How To Secure It"
 date: "2017-03-09"
 coverImage: "Your-Business-is-vulnerable-online-here-is-how-to-secure-it.jpg"
-tags: ["business", "general", "technology", "loginradius"]
+category: ["business", "general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Do you know your business is vulnerable online? Are you taking much needed security measurements? Here are the most essential security tips for your business."

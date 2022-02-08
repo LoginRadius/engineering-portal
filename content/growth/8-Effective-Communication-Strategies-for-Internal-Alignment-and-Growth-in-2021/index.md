@@ -2,7 +2,7 @@
 title: "8 Effective Communication Strategies for Internal Alignment and Growth in 2021"
 date: "2021-03-24"
 coverImage: "communication-strategies-Loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Yash Rathi"
 description: "Internal communication can be defined as the key to delivering excellent customer and employee experiences. Besides the broader day-to-day function of facilitating employee interaction, internal communication strategies also involve employing a standard, agreed-upon style and mode of language about a company and its products communicated to the outside world."

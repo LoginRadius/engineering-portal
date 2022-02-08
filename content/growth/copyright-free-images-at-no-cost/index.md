@@ -2,7 +2,7 @@
 title: "Looking for Copyright Free Images at NO COST! Go get Them Here"
 date: "2017-04-04"
 coverImage: "Looking-for-Copyright-Free-Images-at-NO-COST.png"
-tags: ["business", "General", "technology"]
+category: ["business", "General", "technology"]
 featured: false 
 author: "Sudhanshu Agarwal"
 description: "Do you believe good images increase your content's value? Then add value to your content with these handpicked 17 awesome websites to download stock photos for FREE!!!"

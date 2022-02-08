@@ -2,7 +2,7 @@
 title: "11 Slack App Integrations to Boost Productivity at Your Workplace"
 date: "2017-02-28"
 coverImage: "Untitled-design-6.png"
-tags: ["business", "technology", "loginradius"]
+category: ["business", "technology", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Take productivity to a new level with Slack integrations. Check out the best Slack app integrations available for you."

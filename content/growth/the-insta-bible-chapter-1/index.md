@@ -2,7 +2,7 @@
 title: "The Insta Bible: Chapter 1"
 date: "2017-05-18"
 coverImage: "The-Insta-Bible-Chapter-1.jpg"
-tags: ["business", "Marketing", "technology"]
+category: ["business", "Marketing", "technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Looking for a Guide To Use Instagram as Your Tool for Branding? Here is the Instagram Bible you will need to know Everything About Instagram for Business."

@@ -2,7 +2,7 @@
 title: "Boost Creativity With The Best Brainstorming Tools And Techniques"
 date: "2021-06-09"
 coverImage: "best-brainstorming-tools-and-techniques.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
 description: "A good brainstorming tool should be specific, have a good concept behind it, and most importantly, it should help you gather better ideas. Bonus points if these qualities are in the same package. Read this blog to learn about the best brainstorming tools and techniques that you can use at work."

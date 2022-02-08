@@ -2,7 +2,7 @@
 title: "16 Best Writing Tools and Software For A Creative Blogger [ Free tools Inside]"
 date: "2017-02-17"
 coverImage: "Pro-Tip-2.png"
-tags: ["content", "marketing", "loginradius"]
+category: ["content", "marketing", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Got stuck in the middle of an article or struggling for an interesting topic? Here are some awesome writer tools which can help."

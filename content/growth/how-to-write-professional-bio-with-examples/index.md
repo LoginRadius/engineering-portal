@@ -2,7 +2,7 @@
 title: "Don’t Waste Time! Facts to learn to write the Best Professional Bio"
 date: "2017-02-27"
 coverImage: "Quick-tips-to-learn-to-write-the-Best-Professional-Bio.png"
-tags: ["general", "marketing", "loginradius"]
+category: ["general", "marketing", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Fed up pulling your hairs to craft an engaging professional bio? Here are quick tips to writing ideal professional bio along with some real life examples."

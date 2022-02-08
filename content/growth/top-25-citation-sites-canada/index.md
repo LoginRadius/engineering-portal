@@ -2,7 +2,7 @@
 title: "List Your Business For Free! Best Citation Sites Of Canada (Updated List 2017)"
 date: "2017-01-27"
 coverImage: "List-Your-Business-For-Free-At-Top-Citation-Sites-of-Canada-2017-1.png"
-tags: ["business", "marketing", "loginradius"]
+category: ["business", "marketing", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Check out our exclusive list of top 25 High Authority Citation websites of 2017 every Canadian business should have for better local search results!"

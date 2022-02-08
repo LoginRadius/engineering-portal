@@ -2,7 +2,7 @@
 title: "A Brief Guide to Online Reputation Management (ORM)"
 date: "2021-04-30"
 coverImage: "online-reputation-management-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: "The online reputation of a brand is the key to business success regardless of the industry and niche in today’s digital epoch. Let’s learn everything about online reputation management services and why it’s important, and how businesses can improve their web reputation."

@@ -2,7 +2,7 @@
 title: "Email Subject Line Tips That Guarantee High Open Rates"
 date: "2017-03-30"
 coverImage: "Email-Subject-Line-Tips-That-Guarantee-High-Open-Rates.png"
-tags: ["General","business"," Marketing"," technology"]
+category: ["General","business"," Marketing"," technology"]
 featured: false 
 author: "Deepak Gupta"
 description: "Are you looking for more eyes on your emails? Make sure you craft the perfect subject lines to get it opened first. Read on to find out how."

@@ -2,7 +2,7 @@
 title: "Role of Consumer Identity Authentication in Digital Banking"
 date: "2021-07-19"
 coverImage: "Digital-banking-platform-making-opt.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
 description: "Digital identity, as the boundary of online services, is critical to online banking. Consumer-friendly identity and user management in banking are critical not just for offering seamless experiences, but also for protecting sensitive consumer information."

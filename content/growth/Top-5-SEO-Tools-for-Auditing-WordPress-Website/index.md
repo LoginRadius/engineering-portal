@@ -2,7 +2,7 @@
 title: "Top 5 tools to Audit Wordpress Website"
 date: "2021-05-06"
 coverImage: "top-5-wp-seo-tools.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Tanvi Soni"
 description: "SEO tools help rank your website on the first page of Google and other search engines. They monitor and audit your website's content and optimize it. You also receive a detailed report of what is working and what needs a change to improve the website's rank further."

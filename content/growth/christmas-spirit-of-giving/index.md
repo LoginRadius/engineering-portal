@@ -2,7 +2,7 @@
 title: "LoginRadius Gets into the Christmas Spirit (of Giving)"
 date: "2019-12-17"
 coverImage: "christmas-spirit-of-giving.jpg"
-tags: ["media-and-publication"]
+category: ["media-and-publication"]
 featured: false 
 author: "Rakesh Soni"
 description: "We want to give the Union Gospel Mission (UGM) a huge thank you and shout out for giving us the chance to give the world back!"

@@ -2,7 +2,7 @@
 title: "How MFA Makes Quick Service Restaurants (QSR) Promotion Fraud-Free"
 date: "2021-09-01"
 coverImage: "qsr-payment-ciam-loginradius.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Srishti Singh"
 description: "Quick-Service Restaurants are seeing a boom in engagement, but so are the scammers. Read this blog to find out how to boost your restaurant’s confidence in its capacity to defend itself from hackers."

@@ -2,7 +2,7 @@
 title: "Engineering As Marketing: 5 Growth Hack Strategies For Modern Businesses"
 date: "2021-01-05"
 coverImage: "engineering-as-marketing.jpg"
-tags: ["all"]
+category: ["all"]
 featured: false 
 author: "Deepak Gupta"
 description: "Engineering as Marketing is about utilising engineering time to build helpful tools such as calculators, checkers or checklists, widgets, and even micro-sites that introduce your business to potential customers."

@@ -2,7 +2,7 @@
 title: "Top 10 Social Bookmarking Site for 2017"
 date: "2017-03-08"
 coverImage: "Top-10-Social-Bookmarking-Site-for-2017.png"
-tags: ["marketing", "technology", "loginradius"]
+category: ["marketing", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Here is the ultimate list of top social bookmarking sites for 2017, ready for you to start your free promotion. Start submitting now."

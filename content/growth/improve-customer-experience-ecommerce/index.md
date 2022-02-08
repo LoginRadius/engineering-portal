@@ -2,7 +2,7 @@
 title: "5 Ways to Enhance Customer Experience in E-commerce"
 date: "2019-11-28"
 coverImage: "improve-customer-experience-ecommerce.jpg"
-tags: ["all", "customer-experience", "industry-news", "other"]
+category: ["all", "customer-experience", "industry-news", "other"]
 featured: false 
 author: "Rakesh Soni"
 description: "A smart e-commerce customer service strategy is as critical as a marketing strategy when it comes to growing your business. You will get 360-degree customer profiling, with 100% customer consent, at all touchpoints, with a customer identity and access management solution."

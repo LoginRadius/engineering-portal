@@ -2,7 +2,7 @@
 title: "Three Unique PR Trends to Consider in 2021"
 date: "2021-04-22"
 coverImage: "pr-trends-2021.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Yash Rathi"
 description: "The pandemic has also transformed Public Relations in ways that were hard to predict previously. Driven by trends like remote working, communications have undergone a significant metamorphosis. Can companies continue to pursue the traditional form of PR and risk falling behind their brand-building processes? Let’s find out."

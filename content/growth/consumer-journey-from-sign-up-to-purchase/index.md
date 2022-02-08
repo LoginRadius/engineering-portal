@@ -2,7 +2,7 @@
 title: "From Sign-Up to Purchase – How LoginRadius Offers a Frictionless Consumer Journey"
 date: "2021-07-14"
 coverImage: "consumer-signup-to-purchase.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
 description: " Enterprises, today, must be aware of the fact that the secret to success lies in quickly identifying and eliminating any pain point that occurs when consumers interact with their brand. Here’s an insightful read depicting how LoginRadius helps enterprises navigate their business success through a frictionless consumer journey."

@@ -2,7 +2,7 @@
 title: "How Consumer Identity Influence Brand Recognizability"
 date: "2021-08-31"
 coverImage: "brand-identity.jpg"
-tags: ["loginradius"]
+category: ["loginradius"]
 featured: false 
 author: "Conrad Sturdy"
 description: "People are more likely to pay attention to your offer if they recognize your brand among hundreds of others and consider it trustworthy."
