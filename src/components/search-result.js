@@ -6,32 +6,41 @@ import styles from "./searchpage.module.scss"
 export default class SearchResult extends Component {
   constructor(props) {
     super(props)
-
-    const index = Index.load(this.props.index)
-    const query = props.location.state ? props.location.state.query : ""
     this.state = {
-      query: query,
-      results: index
-        .search(query, { expand: true })
-        .map(({ ref }) => index.documentStore.getDoc(ref)),
+      query: "",
+      results: [],
     }
   }
 
   componentDidMount() {
-    if (!this.state.query) {
+    const query = this.props.location.href.split("?")[1]
+    if (query) {
+      const index = Index.load(this.props.index)
+      let searchParams = new URLSearchParams(query)
+      const queryString = searchParams.get("query")
+      this.setState({
+        query: queryString,
+        results: index
+          .search(queryString, { expand: true })
+          .map(({ ref }) => index.documentStore.getDoc(ref)),
+      })
+    } else {
       navigate("/")
     }
   }
 
   componentDidUpdate(prevProps) {
-    const query = this.props.location.state.query
-    const prevquery = prevProps.location.state.query
-    if (query != prevquery) {
+    const url = this.props.location.href
+    const prevUrl = prevProps.location.href
+    if (url != prevUrl) {
+      const query = url.split("?")[1]
       const index = Index.load(this.props.index)
+      let searchParams = new URLSearchParams(query)
+      const queryString = searchParams.get("query")
       this.setState({
-        query: query,
+        query: queryString,
         results: index
-          .search(query, { expand: true })
+          .search(queryString, { expand: true })
           .map(({ ref }) => index.documentStore.getDoc(ref)),
       })
     }

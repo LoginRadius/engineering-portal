@@ -8,6 +8,8 @@ import { navigate } from "gatsby"
 export default class Search extends Component {
   constructor(props) {
     super(props)
+    this.textInput = React.createRef()
+    this._toggleSearch = this._toggleSearch.bind(this)
     this.state = {
       query: ``,
       results: [],
@@ -26,6 +28,7 @@ export default class Search extends Component {
         query: "",
       })
     } else {
+      this.textInput.current.focus()
       this.setState({
         toggleOpen: true,
       })
@@ -45,9 +48,7 @@ export default class Search extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const query = this.state.query
-    navigate("/search", {
-      state: { query },
-    })
+    navigate(`/search?query=${query}`)
     this.setState({
       toggleOpen: false,
       results: [],
@@ -110,6 +111,7 @@ export default class Search extends Component {
             onSubmit={this.search}
             value={this.state.query}
             required
+            ref={this.textInput}
           />
           <label htmlFor="search" className={searchStyle.searchButton}></label>
           <input type="submit" className={searchStyle.searchButton} />
