@@ -72,6 +72,15 @@ Run the following command to get the newest version of the `dio` package in your
 
 Then, install the dependency by running `flutter pub get` in your terminal.
 
+### Project Structure
+The project is being structured in this order:
+
+![Folder Structure](folder-structure.png)
+
+- Core (contains a class that handles network requests)
+- Screens (the UI of our app)
+- Utils (helper components)
+
 ### Step 3: Setting up the API Client Class
 
 Create a new dart file named `api_client.dart` and import the `dio` package into the file with the following line of code:
@@ -222,7 +231,8 @@ Our Flutter application will consist of four screens which include, the Registra
 
 ### Registration Screen
 
-The `RegistrationScreen` has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission, as shown in the code snippet below.
+The `RegistrationScreen` has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission, as shown in the code snippet below from the `register.dart` file. 
+
 
 ```dart
  //...
@@ -373,7 +383,7 @@ Future<void> _handleRegister() async {
 ```
 ### Login Screen
 
-The `LoginScreen` UI code is similar to the `RegistrationScreen` in that it also has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission. So, for the sake of brevity, I’ll be leaving out the `LoginScreen` UI code and focusing mainly on the code to be written in the `ElevatedButton` onPressed callback.
+The `LoginScreen` UI code is similar to the `RegistrationScreen` in that it also has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission. So, for the sake of brevity, I’ll be leaving out the `LoginScreen` UI code and focusing mainly on the code to be written in the `ElevatedButton` onPressed callback in the `login_screen.dart` file.
 
 ```dart
 //...
@@ -451,7 +461,7 @@ The `HomeScreen` displays the user’s profile details using a `FutureBuilder` w
 
 The `getUserData` method above is used to retrieve details of a user by passing in the `access_token` obtained earlier from the `LoginScreen` to the `ApiClient` `getUserProfileData` method.
 
-To display the result of our `getUserData` method on our screen we use a `FutureBuilder` widget. The code snippet below shows how we use the `FutureBuilder` to get the results of the `getUserData` future.
+To display the result of our `getUserData` method on our screen we use a `FutureBuilder` widget. The code snippet below shows how we use the `FutureBuilder` to get the results of the `getUserData` future in the `home.dart` file.
 
 ```dart
     class HomeScreen extends StatefulWidget {
@@ -553,7 +563,7 @@ On pressing the button, we will call the `logout` method on the `ApiClient` clas
 
 LoginRadius provides high-level, secure, and well-documented APIs to ease the implementation of authentication and user identity management. In this article, we discussed what LoginRadius is and its benefits, as well as how to use the LoginRadius APIs to handle user authentication and registration in a Flutter application. 
 
-The source code of the demo application is available on [GitHub](https://github.com/iloveteajay/loginradius_example). You can also check out more features the LoginRadius API provides on the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/authentication-overview/).
+The complete source code of the demo application is available on [GitHub](https://github.com/iloveteajay/loginradius_example). You can also check out more features the LoginRadius API provides on the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/authentication-overview/).
 
 
 
