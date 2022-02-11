@@ -23,6 +23,9 @@
       @media (max-width: 950px) {
         width: 100%;
       }
+      @media (max-width: 480px) {
+        padding: 0 0 15px;
+      }
     }
     .avatar-pinned {
       img {

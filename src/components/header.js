@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 import LogoLr from "../../static/logo-blog.svg"
 import headerStyles from "./header.module.scss"
+import searchStyles from "./search.module.scss"
 import Search from "./search"
 
 const Header = ({ searchIndex, pathname }) => {
@@ -25,7 +26,9 @@ const Header = ({ searchIndex, pathname }) => {
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </Link>
         <Search
-          customClass={`${showMenu ? "toggle" : ""}`}
+          customClass={`${
+            showMenu ? searchStyles.deactive : searchStyles.active
+          }`}
           searchIndex={searchIndex}
         />
       </div>
@@ -35,13 +38,13 @@ const Header = ({ searchIndex, pathname }) => {
         }`}
       >
         <ul>
-          <li className={active === "" ? headerStyles.active : ""}>
+          <li className={active.includes("all") ? headerStyles.active : ""}>
             <Link
-              to={"/"}
+              to={"/all"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("")
+                setActive("all")
               }}
             >
               All
