@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { toast } from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
 import styles from "./modal.module.scss"
-
-toast.configure()
 
 const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
@@ -32,8 +28,16 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     }
   }, [email])
 
+  let timer = null
+
   const subscribeSIB = () => {
     setLoading(true)
+    setNewsLetterSubscription({
+      subscribeEmail: "",
+      subscribeCall: false,
+      responseMsg: "",
+      respClass: "",
+    })
     let url =
       "https://7b214b8d.sibforms.com/serve/MUIEAEF8n18XivpuJIaBkdU9WqFwLX9Jyw4tftr7sucfONVH3neyxUoT96-GLKbvG2XNErWp9O_PulTWQkjxwMDDCECPzvWressylUfBxyOp7cRr0levyjI4o4qtescHBvWd7AF1gxJ9xA0roVaMek-2WZ5sEhFZb-RsbcOLZHUwnWT6ICVTGUsWhOiWusq0aQY4rVnTDaM_S_O7?isAjax=1"
     var data = new FormData()
@@ -61,6 +65,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
+        timer = setTimeout(() => toggle(), 2000)
       } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
@@ -68,6 +73,14 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           respClass: "error",
         })
       }
+      setLoading(false)
+    }
+    xmlhttp.onerror = function (ev) {
+      setNewsLetterSubscription({
+        ...newsLetterSubscription,
+        responseMsg: ev.message,
+        respClass: "error",
+      })
       setLoading(false)
     }
     xmlhttp.send(data)
@@ -84,6 +97,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           onClick={() => {
             toggle()
             toggleEmail()
+            clearTimeout(timer)
           }}
         >
           <svg
@@ -144,19 +158,27 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
             <a
-              className={`btn btn-primary ${loading ? "btn_wait" : ""} ${
+              className={`btn btn-primary ${
                 newsLetterSubscription.respClass === "success"
                   ? "btn_success"
                   : newsLetterSubscription.respClass === "error"
                   ? "btn_error"
+                  : loading
+                  ? "btn_wait"
                   : ""
-              } ${noType() || loading ? "disabled" : ""}`}
-              onClick={() => !loading && subscribeSIB()}
+              } ${noType() ? "disabled" : ""}`}
+              onClick={() =>
+                !loading &&
+                newsLetterSubscription.respClass !== "success" &&
+                subscribeSIB()
+              }
             >
-              {loading
-                ? "Please Wait"
-                : newsLetterSubscription.respClass === "success"
+              {newsLetterSubscription.respClass === "success"
                 ? "Subscribed"
+                : newsLetterSubscription.respClass === "error"
+                ? "Try Again"
+                : loading
+                ? "Please Wait"
                 : "Subscribe"}
             </a>
             <a
@@ -164,6 +186,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
               onClick={() => {
                 toggle()
                 toggleEmail()
+                clearTimeout(timer)
               }}
             >
               Cancel
