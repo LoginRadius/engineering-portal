@@ -191,6 +191,19 @@ ul {
       $success 60%,
       $success 100%
     );
+    overflow: hidden;
+    &.active {
+      position: relative;
+      &:after {
+        animation: progress-anim 7s ease 0s;
+        position: absolute;
+        content: "";
+        inset: 0;
+        width: 0%;
+        background: rgba(255, 255, 255, 0.2);
+        height: 52px;
+      }
+    }
   }
   &.btn_error {
     background-color: $error;
@@ -484,4 +497,13 @@ section {
 }
 .input--hidden {
   display: none !important;
+}
+
+@keyframes progress-anim {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }

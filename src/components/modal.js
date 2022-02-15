@@ -65,7 +65,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
-        timer = setTimeout(() => toggle(), 2000)
+        timer = setTimeout(() => toggle(), 7000)
       } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
@@ -160,7 +160,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
             <a
               className={`btn btn-primary ${
                 newsLetterSubscription.respClass === "success"
-                  ? "btn_success"
+                  ? "btn_success active"
                   : newsLetterSubscription.respClass === "error"
                   ? "btn_error"
                   : loading
