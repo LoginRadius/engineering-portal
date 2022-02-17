@@ -65,13 +65,19 @@ export default class Search extends Component {
   }
 
   render() {
-    const { results, toggleOpen } = this.state
+    const { results, toggleOpen, query } = this.state
     return (
       <>
         <a
           className={`${searchStyle.btnSearch} ${this.props.customClass}`}
           tabIndex={0}
-          onClick={this._toggleSearch}
+          onClick={() => {
+            if (query === "") {
+              this._toggleSearch()
+            }
+          }}
+          onMouseOver={() => (this._shouldClose = false)}
+          onMouseLeave={() => (this._shouldClose = true)}
         >
           <div
             className={`${searchStyle.megaMenuSearchDarkIcon} ${

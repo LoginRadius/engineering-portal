@@ -38,9 +38,9 @@ const Header = ({ searchIndex, pathname }) => {
         }`}
       >
         <ul>
-          <li className={active.includes("all") ? headerStyles.active : ""}>
+          <li className={!active ? headerStyles.active : ""}>
             <Link
-              to={"/all"}
+              to={"/"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {

@@ -53,7 +53,6 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     }
 
     data.append("EMAIL", newsLetterSubscription.subscribeEmail)
-    // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
     let xmlhttp = new XMLHttpRequest()
     xmlhttp.open("POST", url, true)
     xmlhttp.onload = function () {
@@ -65,7 +64,11 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
-        timer = setTimeout(() => toggle(), 7000)
+        timer = setTimeout(() => {
+          toggle()
+          toggleEmail()
+          clearTimeout(timer)
+        }, 7000)
       } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
