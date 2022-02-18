@@ -1,17 +1,17 @@
 ---
 title: "Flutter Authentication: Implementing User Signup and Login"
-date: "2022-02-04"
-coverImage: "coverimage.png"
+date: "2022-02-17"
+coverImage: "user-authentication-for-flutter-apps.png"
 author: "Yusuf Ahmed"
 tags: ["Authentication", "Flutter", "API"]
-description: "In this article, we would focus on how to implement user authentication and registration in Flutter applications using the LoginRadius API. "
+description: "Developing Flutter apps? Learn how to implement user authentication and registration in your Flutter applications quickly with LoginRadius APIs."
 ---
 
 ## Introduction
 
 User authentication is the process of validating a user's identity to ensure that they are who they claim to be. Implementing user authentication in your application is critical to prevent unauthorized users from accessing sensitive information.
 
-This tutorial focuses on how to implement user authentication and registration in Flutter applications using the [LoginRadius API](https://www.loginradius.com/docs/developer/).
+This tutorial focuses on implementing user authentication and registration in Flutter applications using the [LoginRadius API](https://www.loginradius.com/docs/developer/).
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ This tutorial is verified with Flutter v2.5.1 and Android Studio v3.5.
 
 ### What is LoginRadius?
 
-LoginRadius is a cloud-based, SaaS Customer Identity and Access Management (CIAM) platform that provides developers and businesses simplified and robust features for managing customer identity, privacy, and access. LoginRadius offers high-level, secure, and well-documented APIs for integrating User Authentication and Single Sign-on (SSO) into your application.
+[LoginRadius](https://www.loginradius.com/) is a cloud-based, SaaS Customer Identity and Access Management (CIAM) platform that provides developers and businesses simplified and robust features for managing customer identity, privacy, and access. LoginRadius offers high-level, secure, and well-documented APIs for integrating User Authentication and Single Sign-on (SSO) into your application.
 
 ### Why use LoginRadius?
 
@@ -40,13 +40,13 @@ LoginRadius offers:
 
 So, with everything out of the way, let's get started.
 
-## Setting up LoginRadius for Your Application.
+## Setting Up LoginRadius for Your Application
 
 After creating an account with LoginRadius, it sets up a free app for you. This is the app in which you would integrate the LoginRadius API with Flutter. Here my app name is “tayy”.
 
 ![LoginRadius App Screen](app_window.png)
 
-Next, you need to obtain your LoginRadius API credentials. To do so, [log in to your Dashboard](https://dashboard.loginradius.com/login) and navigate to the `Configuration` tab in the sidebar menu. You will find your API credentials under the `API Key and Secret` section. Copy and store your **APP Name**, **API Key**, and **API Secret** somewhere safe and easily accessible.
+Next, you need to obtain your LoginRadius API credentials. To do so, [login to your Dashboard](https://dashboard.loginradius.com/login) and navigate to the `Configuration` tab in the sidebar menu. You will find your API credentials under the `API Key and Secret` section. Copy and store your **APP Name**, **API Key**, and **API Secret** somewhere safe and easily accessible.
 
 ![LoginRadius Configuration Tab](configuration_tab.png)
 
@@ -74,9 +74,10 @@ flutter pub add dio
 Then, install the dependency by running `flutter pub get` in your terminal.
 
 ### Project Structure
+
 The project is being structured in this order:
 
-![Folder Structure](folder-structure.png)
+![Folder Structure](folder-structure.PNG)
 
 - Core (contains a class that handles network requests)
 - Screens (the UI of our app)
@@ -206,7 +207,7 @@ class ApiClient {
 
 ### Step 7: Implement User Logout
 
-Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring the user to re-authenticate if they want to access their data.
+Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
 
 ```dart
 class ApiClient {
@@ -243,8 +244,7 @@ Let’s begin by building the Registration Screen.
 
 ### Registration Screen
 
-The `RegistrationScreen` has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission, as shown in the code snippet below from the `register.dart` file. 
-
+The `RegistrationScreen` has two `TextFormField` widgets that serve as our `email` and `password` fields, as well as an `ElevatedButton` to handle event submission, as shown in the code snippet below from the `register.dart` file.
 
 ```dart
  //...
@@ -346,11 +346,11 @@ The `RegistrationScreen` has two `TextFormField` widgets that serve as our `emai
 
 In the `onPressed` callback of the `ElevatedButton` widget, you'll handle the validation of your form data.
 
-If the form is validated, you pass in your `userData` to the `registerUser` method from the `ApiClient` class for processing.
+If the form is validated, you pass your `userData` to the `registerUser` method from the `ApiClient` class for processing.
 
-If the response gotten is an error, you show a snackbar with the error message. Otherwise, the user is redirected to the Login Screen.
+If the response is an error, you show a snackbar with the error message. Otherwise, the user is redirected to the Login Screen.
 
-> In the following example, you've provided only a few user attributes as `userData`. To view the complete list of user attributes, please have a look at [the body parameters of the User Registration API here](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/).
+> In the following example, you've provided only a few user attributes as `userData`. To view the complete list of user attributes, please look at [the body parameters of the User Registration API here](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/).
 
 ```dart
 Future<void> _handleRegister() async {
@@ -479,7 +479,7 @@ The `HomeScreen` displays the user’s profile details using a `FutureBuilder` w
 
 The `getUserData` method above is used to retrieve details of a user by passing in the `access_token` obtained earlier from the `LoginScreen` to the `ApiClient` `getUserProfileData` method.
 
-To display the result of our `getUserData` method on our screen we use a `FutureBuilder` widget. The code snippet below shows how we use the `FutureBuilder` to get the results of the `getUserData` future in the `home.dart` file.
+To display the result of your `getUserData` method on our screen, use a `FutureBuilder` widget. The code snippet below shows how to use the `FutureBuilder` to get the results of the `getUserData` future in the `home.dart` file.
 
 ```dart
     class HomeScreen extends StatefulWidget {
@@ -537,7 +537,9 @@ To display the result of our `getUserData` method on our screen we use a `Future
                 //...
 ```
 
-Finally, let's add the logout feature. Let's start by adding an `ElevatedButton` widget to the `HomeScreen`.
+Finally, let's add the logout feature.
+
+Add an `ElevatedButton` widget to the `HomeScreen`.
 
 ```dart
      TextButton(
@@ -579,6 +581,8 @@ On pressing the button, you'll call the `logout` method on the `ApiClient` class
 
 ## Conclusion
 
-LoginRadius provides high-level, secure, and well-documented APIs to ease the implementation of authentication and user identity management. In this article, we discussed what LoginRadius is and its benefits, as well as how to use the LoginRadius APIs to handle user authentication and registration in a Flutter application. 
+LoginRadius provides high-level, secure, and well-documented APIs to ease the implementation of authentication and user identity management. This tutorial has discussed LoginRadius's benefits and how to use the LoginRadius APIs to handle user authentication and registration in a Flutter application.
 
-The complete source code of the demo application is available on [GitHub](https://github.com/iloveteajay/loginradius_example). You can also check out more features the LoginRadius API provides on the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/authentication-overview/).
+The complete [source code of the demo application is available on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flutter/Flutter_Auth_Guide).
+
+You can also [check out more features of the LoginRadius API here](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/authentication-overview/).
