@@ -27,7 +27,7 @@ This tutorial is verified with Flutter v2.5.1 and Android Studio v3.5.
 
 ### What is LoginRadius?
 
-[LoginRadius](https://www.loginradius.com/) is a cloud-based, SaaS Customer Identity and Access Management (CIAM) platform that provides developers and businesses simplified and robust features for managing customer identity, privacy, and access. LoginRadius offers high-level, secure, and well-documented APIs for integrating User Authentication and Single Sign-on (SSO) into your application.
+LoginRadius is a cloud-based, SaaS Customer Identity and Access Management (CIAM) platform that provides developers and businesses simplified and robust features for managing customer identity, privacy, and access. LoginRadius offers high-level, secure, and well-documented APIs for integrating User Authentication and Single Sign-on (SSO) into your application.
 
 ### Why use LoginRadius?
 
@@ -179,7 +179,7 @@ class ApiClient {
 
 ### Step 6: Get User Profile Data
 
-To retrieve the user profile details, send a `GET` request to the Read Profile Endpoint URL `https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.
+To [retrieve the user profile details](https://www.loginradius.com/docs/developer/references/api/authentication/#auth-get-profiles-by-token), send a `GET` request to the Read Profile Endpoint URL `https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.
 
 > The user’s access token is gotten from the successful response object of the User Login endpoint.
 
@@ -207,7 +207,7 @@ class ApiClient {
 
 ### Step 7: Implement User Logout
 
-Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
+Finally, to [implement the user logout functionality](https://www.loginradius.com/docs/developer/references/api/authentication/#access-token-invalidate), you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
 
 ```dart
 class ApiClient {
