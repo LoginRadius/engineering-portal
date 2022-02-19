@@ -837,7 +837,7 @@ As mentioned earlier, once a user logs out, we destroy all sessions. To log out 
         }
     }
 
-So, once you log out, it returns a message notifying you that the user session has ended. The code for this tutorial in hosted here on my Github repository.
+So, once you log out, it returns a message notifying you that the user session has ended. The code for this tutorial is hosted [here](https://github.com/icode247/Session-based-Auth-with-Nestjs-MongoDB-) on my Github repository.
 
 
 ## Implementing User Authentication in Loginradius
