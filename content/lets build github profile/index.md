@@ -1,7 +1,7 @@
 ---
 title: "let's build github profile"
 date: "2022-02-22"
-coverImage: "index.jpg"
+coverImage: "index.png"
 author: "Abhimanyu Singh Rathore"
 tags: ["Github", "Profile"]
 ---
