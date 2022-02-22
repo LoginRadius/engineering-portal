@@ -197,7 +197,14 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
         </div>
       </div>
-      <div className={styles.overlay}></div>
+      <div
+        className={styles.overlay}
+        onClick={() => {
+          toggle()
+          toggleEmail()
+          clearTimeout(timer)
+        }}
+      ></div>
     </div>
   )
 }
