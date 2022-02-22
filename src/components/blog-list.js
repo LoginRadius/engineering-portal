@@ -14,7 +14,7 @@ const BlogList = props => {
       ? pinnedNode[0].node
       : data.allMarkdownRemark.edges[0].node
   return (
-    <Layout pinnedData={pinnedData} pinned pathname={pathname}>
+    <Layout pinnedData={pinnedData} pinned pathname={pathname} type={type}>
       <main>
         <CardList
           posts={data.allMarkdownRemark.edges}

@@ -5,9 +5,9 @@ import headerStyles from "./header.module.scss"
 import searchStyles from "./search.module.scss"
 import Search from "./search"
 
-const Header = ({ searchIndex, pathname }) => {
+const Header = ({ searchIndex, pathname, type }) => {
   const [showMenu, toggleMenu] = useState(false)
-  const [active, setActive] = useState(pathname || "")
+  const [active, setActive] = useState(type ? pathname : "/")
 
   return (
     <>
@@ -38,13 +38,13 @@ const Header = ({ searchIndex, pathname }) => {
         }`}
       >
         <ul>
-          <li className={!active ? headerStyles.active : ""}>
+          <li className={active === "/" ? headerStyles.active : ""}>
             <Link
               to={"/"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("all")
+                setActive("/")
               }}
             >
               All
