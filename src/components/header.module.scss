@@ -66,13 +66,9 @@
   & > .logo {
     display: flex;
     align-items: stretch;
-    width: 22%;
+    width: 264px;
     height: 96px;
-    padding: 0 3%;
-    @media (max-width: 991px) {
-      width: 16.953%;
-      padding: 0 2.422%;
-    }
+    padding: 0 36px;
     @media (max-width: 768px) {
       width: 168px;
       padding: 0 24px;
@@ -94,6 +90,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1px 0;
+    cursor: pointer;
     @media (min-width: 769px) {
       display: none;
     }

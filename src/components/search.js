@@ -133,6 +133,14 @@ export default class Search extends Component {
               </li>
             ))}
           </ul>
+        ) : this.state.query != "" ? (
+          <ul className={searchStyle.result}>
+            <li className={searchStyle.noresult}>
+              <div>
+                <span>No results found</span>
+              </div>
+            </li>
+          </ul>
         ) : null}
       </>
     )
