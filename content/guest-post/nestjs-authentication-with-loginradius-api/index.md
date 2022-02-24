@@ -55,31 +55,10 @@ Create an app and select configuration and then [get your app's credentials from
 
 Since the API key and API secret from the LoginRadius dashboard are sensitive, you will store them in the `.env` file.
 
-Install the NestJS config module to load the contents of the `.env` file in your project.
+You will need the dotenv module to access the your environment variables. Run the following command to install it.
 
 ```bash
-npm install @nestjs/config
-```
-
-Configure the config module in the `app.module.ts` file.
-
-```JavaScript
-import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
-
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-
-@Module({
-  imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-    }),
-  ],
-  controllers: [AppController],
-  providers: [AppService],
-})
-export class AppModule {}
+npm install dotenv
 ```
 
 Add the API key, API secret, and [Secure One Time Token(SOTT)](https://www.loginradius.com/docs/developer/concepts/sott/) to the.env file.
@@ -87,7 +66,7 @@ Add the API key, API secret, and [Secure One Time Token(SOTT)](https://www.login
 ```
 APP_NAME=<your app name>
 API_KEY=<your api key>
-API_SECRET=,your api secret>
+API_SECRET=<your api secret>
 SOTT= <your sott>
 ```
 
@@ -118,8 +97,8 @@ In the `auth` folder, add the `dto` folder and create a `UserDTO` class in the `
 
 ```JavaScript
 export class UserDto {
-  email: string,
-  password: string
+  email: string;
+  password: string;
 }
 ```
 
@@ -165,7 +144,7 @@ export class AuthService {
 ```
 
 Note that you are also importing the user DTO and the loginradius-sdk at the top of the file.
-To execute the signup method in the signup route, inject it in the `auth.contoller.ts` file.
+To execute the signup method in the signup route, inject it in the `auth.controller.ts` file.
 
 ```JavaScript
 import { Injectable } from '@nestjs/common';
@@ -186,10 +165,15 @@ export class AuthController {
 ```
 
 Before registering the user, validate if the email is already in use.
-
-Start by configuring loginradius-sdk.
+First, install  `loginradius-sdk` using the following command.
+```bash
+npm i loginradius-sdk
+```
+Next import `loginradius-sdk` and configure it and since you will be using variables from the `.env` file, remember to also configure `dotenv`.
 
 ```JavaScript
+import * as dotenv from 'dotenv';
+dotenv.config()
 import * as LRAuthPrrovider from 'loginradius-sdk'
 
 let config = {
@@ -315,6 +299,27 @@ export class AuthService {
 
 In the above code, you are logging in the user through loginradius-sdk. If successful, send back the `accessToken` in the response body. The user will use the access token to access protected routes.
 
+Inject the login method in the `auth.controller.ts` file to use it in the login route.
+```JavaScript
+import { Injectable } from '@nestjs/common';
+import { UserDto } from './dto/user.dto';
+import { AuthService } from './auth.service';
+
+@Injectable()
+@Controller('auth')
+export class AuthController {
+  constructor(private readonly authService: AuthService) { }
+
+  @Post('signup')
+  async signup(@Body() registerUserDto: UserDto) {
+    // register user
+  }
+  async login(@Body() loginUserDto: UserDto) {
+    // login user
+  }
+}
+```
+
 ## Access Protected Routes
 
 For protected routes, like accessing a user dashboard, the user will need to send the access token with the request. The access token will then be verified, and if valid, the application will be granted access.
@@ -323,7 +328,7 @@ The user will need to store the `accessToken`. In this tutorial, you will be sto
 
 In NestJS, guards are responsible for handling authorization. They determine whether a request will be handled by the route.
 
-In `auth.guard.js`, add the following code.
+In `auth.guard.ts`, add the following code.
 
 ```JavaScript
 import {AuthService } from './auth.service';
@@ -345,7 +350,7 @@ export class AuthGuard implements CanActivate {
         try {
             let authorizedMsg = await this.authService.authenticate(token);
             // Attach the authorized message to the request. You could also attach the user information.
-            request['isAuthorized'] = "Authorrized"
+            request['isAuthorized'] = "Authorized"
             return true;
         } catch (error) {
             throw new UnauthorizedException();
@@ -447,6 +452,6 @@ GET http://localhost:3000/auth/protected
 
 ## Conclusion
 
-In this tutorial, you have learned how to implement NestJS authentication using the LoginRadius Authentication API. You have seen how to log in a user and use an access token to protect specific routes.
+In this tutorial, you have learned how to implement NestJS authentication using the LoginRadius Authentication API. You have seen how to log in a user and use an access token to protect specific routes. Find the source code for this tutorial on [Github](https://github.com/LoginRadius/engineering-blog-samples/pull/156).
 
 Learn more about the [LoginRadius Authentication API](https://www.loginradius.com/docs/developer/references/api/authentication/) from the documentation files. It has more identity management features than discussed in this tutorial.
