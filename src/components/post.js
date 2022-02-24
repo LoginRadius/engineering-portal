@@ -3,10 +3,9 @@ import Helmet from "react-helmet"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import _ from "lodash"
-
 import SEO from "./seo"
 import Bio from "./bio"
-
+import ToC from "./toc"
 import styles from "./post.module.scss"
 
 import { Link } from "gatsby"
@@ -27,8 +26,16 @@ const eventLogger = function ({ category, action, label }) {
     label: label,
   })
 }
-
+const signUplogger = function () {
+  ReactGA.event({
+    category: "Signup",
+    action: "User clicked on Free signup button",
+    label: "Signup",
+  })
+}
 const Post = ({ post, relatedPost }) => {
+  const { gitAuthorTime } = post.fields
+  const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
@@ -89,11 +96,43 @@ const Post = ({ post, relatedPost }) => {
             {author && (
               <Bio
                 readingTime={getTimeToRead(post.html)}
-                date={post.frontmatter.date}
+                date={
+                  post.frontmatter.date === gitAuthorTime ||
+                  gitAuthorTime === "Invalid date" ||
+                  gitAuthorTime === undefined
+                    ? post.frontmatter.date
+                    : gitAuthorTime
+                }
                 author={author}
                 pinned
               />
             )}
+          </div>
+        </div>
+      </section>
+      <section className={styles.bgBright01}>
+        <div className={`${styles.grid6633} ${styles.ctaSmall}`}>
+          <div className={styles.ctaSmallText}>
+            <h3>Free, Secure and Trusted Way to Authenticate Your Visitors</h3>
+            <p>
+              Add login to your website in <b>5 minutes</b> completely{" "}
+              <b>for free</b>!
+            </p>
+          </div>
+
+          <div className={styles.ctaSmallButton}>
+            <p>
+              <a
+                className={`${styles.navcta} btn-primary  ga_event }`}
+                href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={signUplogger}
+              >
+                {"Free Sign Up"}
+              </a>
+              <span>No hidden costs. No credit card needed.</span>
+            </p>
           </div>
         </div>
       </section>
@@ -110,8 +149,8 @@ const Post = ({ post, relatedPost }) => {
                   <div class={styles.relatedPost}>
                     <h3>Related Posts</h3>
                     {relatedPost.map(({ node }, i) => (
-                      <div class={styles.relatedPostRow}>
-                        <div class={styles.description}>
+                      <div className={styles.relatedPostRow}>
+                        <div className={styles.description}>
                           <h4>
                             <Link to={node.fields.slug} rel="prev">
                               {node.frontmatter.title}
@@ -120,9 +159,7 @@ const Post = ({ post, relatedPost }) => {
                         </div>
                         <div class={styles.tag}>
                           {node.frontmatter.tags.map(tag => (
-                            <Link to={`/tags/${kebabCase(tag)}/`}>
-                              {tag}
-                            </Link>
+                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                           ))}
                         </div>
                       </div>
@@ -135,7 +172,7 @@ const Post = ({ post, relatedPost }) => {
                 <h3>Follow LoginRadius </h3>
                 <div className={styles.followBtn}>
                   <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fengineering%2Frss.xml"
+                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
                     onClick={() =>
                       eventLogger({
                         category: "Social Clicks",
@@ -197,23 +234,10 @@ const Post = ({ post, relatedPost }) => {
           </div>
           <div className="grid-70-30">
             <div className={styles.postContent}>
-              <h2>Are your customers safe on your application?</h2>
+              <h2>Do you want a free authentication solution?</h2>
               <p>
-                According to Forbes, data breaches exposed 4.1 billion records
-                in the first six months of 2019. If this gets you worried, we’ve
-                got your back!
-                <br />
-                <br />
-                LoginRadius protects your customers’ identities. We provide
-                world-class security for your customers during login,
-                registration, password setup, and any other data touchpoints,
-                and make sure that their data is safe. We do so through by
-                offering open source SDKs, integrations with over 150 third
-                party applications, pre-designed and customizable login
-                interfaces, and best-in-class data security products such as
-                MFA, RBA, and Advanced Password Policies. The platform is
-                already loved by over 3,000 businesses with a monthly reach of
-                1.17 billion users worldwide.
+                Add the world's most secure, reliable and easy to implement user
+                authentication solution on your applications at $0
                 <a
                   href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
                   className={"btn-primary btn-cta ga_event"}
@@ -226,7 +250,7 @@ const Post = ({ post, relatedPost }) => {
                   }
                   target="blank"
                 >
-                  Secure Your Application Now
+                  Get Started Free
                 </a>
               </p>
             </div>
@@ -250,6 +274,7 @@ const Post = ({ post, relatedPost }) => {
             </div>
           </div>
         </div>
+        <ToC headings={headings} />
 
         <div id="commento"></div>
       </section>

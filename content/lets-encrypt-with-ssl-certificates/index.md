@@ -29,8 +29,7 @@ You might be aware that version 3.0 of the Secure Sockets Layer protocol was dep
 
 1. [https://www.instantssl.com/ssl-certificate-products/https.html](https://www.instantssl.com/ssl-certificate-products/https.html)
 2. [https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
-3. [https://hackerspace.kinja.com/how-to-defend-yourself-against-mitm-or-man-in-the-middl-1461796382](https://hackerspace.kinja.com/how-to-defend-yourself-against-mitm-or-man-in-the-middl-1461796382)
-4. [https://tools.ietf.org/html/rfc7568](https://tools.ietf.org/html/rfc7568)
-5. [https://www.globalsign.com/en/blog/ssl-vs-tls-difference/](https://www.globalsign.com/en/blog/ssl-vs-tls-difference/)
+3. [https://tools.ietf.org/html/rfc7568](https://tools.ietf.org/html/rfc7568)
+4. [https://www.globalsign.com/en/blog/ssl-vs-tls-difference/](https://www.globalsign.com/en/blog/ssl-vs-tls-difference/)
 
 Note: image labeled for reuse, taken from Google images.

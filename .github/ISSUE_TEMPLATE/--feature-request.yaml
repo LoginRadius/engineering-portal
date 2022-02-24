@@ -1,0 +1,33 @@
+name: 🛠️ Feature request
+description: Suggest an idea to improve engineering-portal
+title: "[FEATURE]: " 
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to request a feature for engineering-portal!
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue related to this feature request already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Summary
+    description: One paragraph description of the feature.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Why should this be worked on? What problems or use cases does it solve or improve?
+    description: A concise description of the problem you are facing or the motivation behind this feature request. 
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: Any other context or screenshots that you pertain to the feature.
+  validations:
+    required: false

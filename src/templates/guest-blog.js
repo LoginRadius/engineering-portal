@@ -9,24 +9,23 @@ const Hacktoberfest2020 = () => {
     <Layout>
       <SEO
         title={`Write for Us`}
-        description={`LoginRadius provides a guest blogging opportunity to write an article for the LoginRadius Engineering blog specific to technical geeks.`}
+        description={`Async Blog provides a guest blogging opportunity to write an article for the LoginRadius Engineering blog specific to technical geeks.`}
         image={HeroImage}
       />
       <div className="guest-blog">
         <section className="hero-section">
           <div className="grid-50">
             <div>
-              <h2>Write for LoginRadius Guest Blogging Program</h2>
+              <h1>Write for LoginRadius Guest Blogging Program</h1>
               <p>
                 For technical people who have practical, tangible, hands-on
                 experience to share with our blog readers about relevant
                 industry topics or LoginRadius products, it is a great
-                opportunity to write an article for The LoginRadius Engineering
-                Blog.
+                opportunity to write an article for The LoginRadius Async Blog.
               </p>
             </div>
             <div>
-              <img src={HeroImage} />
+              <img src={HeroImage} alt="LoginRadius Guest Blogging Program" />
             </div>
           </div>
         </section>
@@ -46,10 +45,10 @@ const Hacktoberfest2020 = () => {
               audience and get good personal branding apart from monetary
               benefits.
             </p>
-            <h3>Monetary Rewards: $200 Per Blog!</h3>
+            <h3>Monetary Rewards: Upto $200 Per Blog!</h3>
             <p>
               We believe you should be paid for your efforts. For each blog
-              shortlisted for our Engineering Blog, we offer $200 USD.
+              shortlisted for our Engineering Blog, we offer Upto $200 USD.
             </p>
 
             <h3>What is the publication process?</h3>

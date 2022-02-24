@@ -1,0 +1,25 @@
+[[redirects]]
+  from = "/blog/async/working-with-azure-key-vault-in-csharp/"
+  to = "/blog/async/guest-post/using-azure-key-vault-with-an-azure-web-app-in-c-sharp"
+  
+[[redirects]]
+  from = "/blog/async/registration-and-authentication-in-django-using-loginRadius/"
+  to = "/blog/async/guest-post/implementing-registration-and-authentication-in-django-using-LoginRadius"
+  
+[[redirects]]
+  from = "/blog/async/11-tips-for-managing-remote-software-engineering-teams/"
+  to = "/blog/async/guest-post/tips-for-managing-remote-software-engineering-teams"
+
+[[redirects]]
+  from = "/blog/async-temp"
+  to = "/blog/async-temp/index.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/async/react-context-api-guide-with-Example/"
+  to = "/blog/async/react-context-api-guide-with-example/"
+
+[[redirects]]
+  from = "/blog/async/oAuth-implemenation-using-node/"
+  to = "/blog/async/oauth-implemenation-using-node/"

@@ -2,6 +2,10 @@
   bio: LoginRadius is a leading provider of cloud-based Customer Identity and Access Management (cIAM) platform.
   github: "LoginRadius"
 
+- id: Emadamerho-Atori Nefe
+  bio: A frontend developer and UI enthusiast who loves learning new things, creating technical content, and sharing his knowledge with others. In his pastime, he reads manga, watches Anime, and writes poems.
+  github: "nefejames"
+
 - id: Puneet Singh
   bio: Very curious about this world and blogging whenever learning something new
   github: "puneetsingh24"
@@ -64,7 +68,11 @@
   bio: Karl is a Software Developer at LoginRadius, the rapidly-expanding social login and sharing provider. He graduated from NAIT with a diploma in Computer Engineering Technologies. He enjoys snowboarding, watching TV series and gaming.
 
 - id: Versha Gupta
-  bio: Versha is a Software Developer at LoginRadius. She graduated with a Bachelor of Technology Degree in Computer Science Engineering.
+  bio: She is a software enthusiast, an avid contributor, and a regular blog writer. She usually works with React, UI/UX, Javascript, Node.js, and DevOps.
+  github: "vershagupta"
+  stackoverflow: "1455329"
+  linkedin: "versha-gupta-4865b339"
+  twitter: "Vershaa_Gupta"
 
 - id: Lucius Yu
   bio: Lucius is a Software Developer at LoginRadius. He was born and raised in China, but came to Edmonton to graduate from the University of Alberta, double majoring in Computer Sciences and Mathematics. Besides coding, which is his real passion, he enjoys playing ping pong and swimming.
@@ -124,7 +132,7 @@
   github: "Imankitt"
 
 - id: Rakesh Pareek
-  bio: Rakesh Pareek is a Full Stack Automation Engineer at LoginRadius and have an experience in working in most of the QA  framework including mocha, nightwatch, selenium, cucumber.
+  bio: Rakesh Pareek is Lead QA Engineer at LoginRadius. A Full Stack Automation Engineer and have experience in working with most of the QA framework including mocha, nightwatch, selenium, cucumber.
   github: "rkpareek"
   stackoverflow: "4875077"
   linkedin: "rkpareek"
@@ -188,10 +196,11 @@
   linkedin: "deepali-soni-8071b548"
 
 - id: Narendra Pareek
-  bio: Narendra is a Software Developer at LoginRadius, where he is utilizing his skills in different NodeJS and GO language projects. He has worked with different languages i.e PHP, AngularJS and also has a good knowledge of handling technical support.
+  bio: Narendra is a Product Manager at LoginRadius, where he is utilizing his skills in driving vision and roadmap for businesses. He focuses on collaboration between customer and company. He is also having a 5 years of develoment experience in different NodeJS, GO and PHP language projects.
   github: "pareek-narendra"
   linkedin: "narendra-pareek"
   stackoverflow: "13819129"
+  twitter: "PareekNaren"
 
 - id: Hitesh Kumawat
   bio: I care deeply about creating world-class, useful, and beautiful products and web that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to design, creative direction, system design, and even the front-end and WordPress build.
@@ -202,7 +211,7 @@
   github: "abhir9"
   stackoverflow: "4822703"
   twitter: "abhir96"
-  medium: "abhir95"
+  medium: "@abhir95"
   linkedin: "abhi-rathore"
 
 - id: Hridayesh Sharma
@@ -223,7 +232,7 @@
 
 - id: Akshaya Sharma
   bio: Akshaya Sharma is a Software Engineer at LoginRadius and loves to work on javascript and frameworks.
-  github: "akshay-s-770"
+  github: "akshay-js"
   linkedin: "akshay-sharma-770"
 
 - id: Anurag Choudhary
@@ -262,7 +271,7 @@
 
 - id: Shreya Sharma
   bio: Shreya is an undergraduate at IIT Roorkee. An avid reader with an unquenchable thirst for knowledge, she likes to try her hand at various programming languages.
-  github: "shreyaa-sharmaa"
+  github: "cypherean"
   linkedin: "shreyaa-sharma"
 
 - id: Akshay Avinash
@@ -312,7 +321,7 @@
   github: "eylonronen"
 
 - id: Shubhankar Khare
-  bio: A delligent and promp learner, Shubhankar Khare is a passionate full stack web developer from India. He is crazy about learning new technologies and is an open source enthusiast
+  bio: He is a passionate full stack web developer from India. He loves learning new technologies and is an open source enthusiast.
   github: "iamshubhankarkhare"
   linkedin: "shubhankar-khare"
 
@@ -450,3 +459,159 @@
   bio: Jitender Agarwal is the Implementation Engineering Manager at LoginRadius Inc. He’s responsible for our day-to-day operations, working with internal and external customers, and SaaS-based implementation projects for our customers.
   github: "Jitender8360"
   linkedin: "jitender-agarwal-a5023820"
+
+- id: "Max Sergeyenko"
+  github: "maxsergeyenko"
+
+- id: "Roshan Jangid"
+  bio: Roshan Jangid is the Infromartion Security Engineer at LoginRadius.
+  github: "roshan-jangid"
+  linkedin: "roshan-jangid-140a35147"
+
+- id: "Solomon Esenyi"
+  bio: "Python Developer and Technical Writer with a passion for open-source, cryptography, and serverless technologies."
+  github: "LordGhostX"
+  linkedin: "solomon-esenyi"
+  twitter: "LordGhostX"
+
+- id: "Neha Vyas"
+  github: "nehavyasqa"
+
+- id: "Aayushi Sanghavi"
+  bio: "Aayushi Sanghavi is a Content Community Writer at G2, India. She has written on topics such as HR, Tech, and SaaS. You can find her reading, dancing, or brushing up on her communication skills in her free time."
+  linkedin: "aayushi-sanghavi"
+
+- id: "Saikiran Babladi"
+  bio: "Saikiran is the Senior Solutions Engineer at LoginRadius Inc. He interacts with prospective customers to understand their use-case/pain areas and provides a fit-for-purpose solution by delivering product demos and POC's."
+  linkedin: "saikiran-babladi-5287b665"
+
+- id: "Akash Patil"
+  bio: "Akash Patil, a graduate from BITS Pilani, is currently working as an Associate Software Engineer at LoginRadius. He has worked on projects in backend development and has an interest in learning new technologies and developer tools, especially in the field of Data Science."
+  github: "Akash-Patil"
+  linkedin: "akash-patil-100"
+
+- id: Raghunath Reddy
+  bio: "Raghunath is a technical content writer with a graduate degree in computer science. He is also a Conversion Rate Optimization (CRO) enthusiast and enjoys studying the English language."
+  github: "raghunath-r-a"
+  linkedin: "raghunathreddyalla"
+  twitter: "_raghunath"
+
+- id: "Uma Victor"
+  bio: "I am a software developer based in Nigeria, familiar with a variety of different web technologies/frameworks and keen on always finding ways to explain things as simply as possible."
+  github: "uma-victor1"
+  twitter: "umavictor_"
+
+- id: Vishnu Chilamakuru
+  bio: Technology and startup enthusiastic. Learning to lead optimised life. I write about system design, databases, microservices, backend development, developer tools, life sciences & books I read
+  github: "vishnuchilamakuru"
+  linkedin: "vishnuchilamakuru"
+  medium: "@vishnuchi"
+  twitter: "vishnuchi"
+  
+- id: Erkki Muuga
+  bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
+  linkedin: "erkkimuuga"
+  facebook: "erkki.muuga"
+
+- id: Taminoturoko Briggs
+  bio: An enthusiastic software developer conversant with Python and JavaScript.
+  github: "tammibriggs"
+  stackoverflow: "15485047"
+  linkedin: "taminoturoko-briggs-b98251203"
+
+- id: "Victory Tuduo"
+  bio: "He is an experienced software developer skillful in React and frontend web development."
+  github: "Victory-ET"
+  linkedin: "tuduo-victory-7ba4641a4"
+
+- id: Joydip Kanjilal
+  bio: Microsoft MVP (2007 - 2012), Author and Speaker with more than 25 years experience. Familiar with C#, .NET Core, SQL Server, Microsoervices, Design Patterns, REST, GraphQL and Software Architecture
+  github: "joydipkanjilal"
+  linkedin: "joydipkanjilal"
+  medium: "@joydipkanjilal"
+  twitter: "joydipkanjilal"
+
+- id: Mcvean Soans
+  bio: "He is a Full Stack React Developer and is enthusiastic about Web Dev, Deep Learning, UX design, and Cloud."
+  github: "McTechie"
+  linkedin: "mctechiesoans"
+  twitter: "McTechieSoans"
+
+- id: Rutam Prita Mishra
+  bio: "He is a full-stack Java developer and a passionate tech geek who is currently exploring the open source world. He loves writing technical documentation and articles in his free time. He is also an avid traveller and loves to explore different places and their cuisines."
+  github: "Rutam21"
+  linkedin: "rutam-prita-mishra"
+  twitter: "RutamHere"
+  
+- id: Kolawole Mangabo
+  bio: "He is a full-stack engineer well-versed in React and Django. You can ask him anything about Django Rest and React. He also likes to talk about design, mobile, JavaScript, and productivity."
+  github: "koladev32"
+  linkedin: "kolawole-mangabo"
+  twitter: "koladev32"
+
+- id: "Abdullah Pathan"
+  bio: "He is a full-stack developer and an avid learner. He is well-versed in web technologies and is currently working with React. In his free time, he loves playing Halo."
+  github: "aonepathan"
+  linkedin: "aonepathan"
+  twitter: "aonepathan"
+  stackoverflow: "4151970"
+
+- id: "Anjali Rohira"
+  bio: "She is a freelance full-stack developer and a UI/UX designer. She likes to explore and contribute to open source projects. She is also a technical writer and speaks at tech conferences and meetups. When she is not coding or designing, she enthusiastically discusses startup ideas that can make a positive impact."
+  github: "rohiraanjali"
+  linkedin: "anjali-rohira-886a52187"
+  twitter: "anjali_rohira"
+
+- id: "Yashesvinee V"
+  bio: "She is a computer science student who loves learning and exploring AI/ML in the cloud. She has recently developed a deep interest in technical content writing and contributing to open source projects."
+  github: "Yashesvinee"
+
+- id: Dingu Sagar
+  bio: "He is a software engineer who is excited about AI-powered solutions at scale. He also loves contributing to open source ptojects. Currently, he is working in the Conversational AI domain."
+  github: "dingusagar"
+  linkedin: "dingu-sagar"
+  twitter: "dingusagar"
+
+- id: "Aritra Belel"
+  bio: "He is a computer science engineering student and a blockchain developer. He is also enthusiastic about competitive programming, AI/ML, and cryptography. In his free time, he loves watching sci-fi movies and web series."
+  github: "belelaritra"
+  linkedin: "belelaritra"
+  twitter: "belel_aritra"
+
+- id: "Deepak Gupta"
+  bio: "Deepak is the CTO and co-founder of LoginRadius, a rapidly-expanding Customer Identity Management provider. He's dedicated to innovating the LoginRadius platform. He loves foosball and winning poker games!"
+  linkedin: "dpgupta"
+  twitter: "dip_ak"
+
+- id: Babatunde Koiki
+  bio: "He is an experienced software engineer with great passion for building reliable, scalable, and maintainable products. And he loves great documentation. When he is not writing code, he hangs out with friends or watches movies."
+  github: "Babatunde13"
+  linkedin: "babatunde-koiki-2002"
+  twitter: "bkoiki950"
+
+- id: Ekekenta Odionyenfe Clinton
+  bio: "He is a full-stack web application developer, software engineer, and technical writer, currently living in Nigeria, Portharcourt. He has an HND in Computer Science from Federal Polytechnic Nekede. His primary focus and inspiration for his studies is web development. In his free time, he studies human psychology and writes technical tutorials."
+  github: "icode247"
+  linkedin: "ekekenta-odionyenfe-c-97569b191"
+  medium: "zionekekenta"
+  twitter: "EkekentaZion"
+
+- id: Gaurav Kumar Roy
+  bio: "He is a Full-stack Content Engineer and has a great passion for curating articles, blogs, tutorials, and other web content. He has authored two books and contributed to more than 350+ articles and blogs. Apart from writing, he loves to play foosball, read novels, and dance."
+  github: "GauravRoy6"
+  linkedin: "gauravroy62"
+
+- id: Harikrishna Kundariya
+  bio: "He is a marketer, designer, and developer. He is also an IoT, chatbot, and blockchain savvy. He has co-founded eSparkBiz Technologies, a SaaS app development company. His 8+ experience enables him to help new startups with solutions based on IoT and chatbot."
+  github: "espark-biz"
+
+- id: Siddhant Varma
+  bio: "He is a full-stack JavaScript engineer who loves building pixel perfect UIs and engineering tech products. He loves creating technical content for developers and has worked as a frontend engineer for many startups."
+  github: "FuzzySid"
+  linkedin: "siddhantvarma99"
+
+- id: Yusuf Ahmed
+  bio: "He is a Flutter developer and technical writer. He is focused on learning new technologies and making advancements in the world of tech."
+  github: "iloveteajay"
+  linkedin: "iloveteajay"
+  twitter: "tayy_dev"

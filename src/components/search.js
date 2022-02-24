@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
+import { navigate } from "gatsby"
 
 // Search component
 export default class Search extends Component {
@@ -25,7 +26,6 @@ export default class Search extends Component {
         query: "",
       })
     } else {
-      document.getElementById("search").focus()
       this.setState({
         toggleOpen: true,
       })
@@ -42,6 +42,17 @@ export default class Search extends Component {
     }
   }
 
+  handleSubmit = event => {
+    event.preventDefault()
+    const query = this.state.query
+    const uri =
+      process.env.NODE_ENV == "production"
+        ? `/blog/async/search/?${query}`
+        : `/search/?${query}`
+
+    query && typeof window !== "undefined" && window.open(uri, "_self")
+  }
+
   componentDidMount() {
     document.body.addEventListener("click", this.bodyClickHandler)
   }
@@ -53,7 +64,9 @@ export default class Search extends Component {
   render() {
     const { results, toggleOpen } = this.state
     return (
-      <div
+      <form
+        target="_blank"
+        onSubmit={this.handleSubmit}
         className={`${headerStyles.searchWrapper} ${
           results.length ? headerStyles.searchList : ""
         }`}
@@ -61,39 +74,40 @@ export default class Search extends Component {
         onMouseLeave={() => (this._shouldClose = true)}
       >
         <input
+          id="search"
           type="text"
           className={`${headerStyles.searchTerm}  ${
             toggleOpen ? headerStyles.searchTermOpen : ""
           }`}
           placeholder="Search..."
           onChange={this.search}
-          id={"search"}
+          onFocus={this.search}
+          onSubmit={this.search}
+          required
         />
-        <a
+        <label
+          htmlFor="search"
           className={headerStyles.searchButton}
           onClick={this._toggleSearch}
-        ></a>
+        ></label>
+        <input type="submit" className={headerStyles.searchButton} />
 
         {results.length ? (
           <ul>
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={"/" + page.path}>{page.title}</Link>
+                  <Link to={page.path}>{page.title}</Link>
                 </div>
                 <p>{page.tags ? page.tags.join(`, `) : ""}</p>
               </li>
             ))}
           </ul>
         ) : null}
-      </div>
+      </form>
     )
   }
-  getOrCreateIndex = () =>
-    this.index
-      ? this.index
-      : // Create an elastic lunr index and hydrate with graphql query results
-        Index.load(this.props.searchIndex)
+  getOrCreateIndex = () => this.index || Index.load(this.props.searchIndex)
 
   search = evt => {
     const query = evt.target.value

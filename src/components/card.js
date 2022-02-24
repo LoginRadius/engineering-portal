@@ -13,8 +13,9 @@ const Card = ({ node }) => {
   const tags = node.frontmatter.tags || ""
   let coverImagePath = node.frontmatter.coverImage
   let descriptionText = node.frontmatter.description || node.excerpt
+  const { gitAuthorTime } = node.fields
   return (
-    <div className={`${styles.user} mb-80`}>
+    <div className={`${styles.user} mb-48`}>
       <div className={styles.avatar}>
         <Link className="bs-md" to={node.fields.slug}>
           {coverImagePath ? (
@@ -50,7 +51,17 @@ const Card = ({ node }) => {
           />
         </div>
         {node.frontmatter.author && (
-          <Bio date={node.frontmatter.date} author={node.frontmatter.author} readingTime={getTimeToRead(node.html)}/>
+          <Bio
+            date={
+              node.frontmatter.date === gitAuthorTime ||
+              gitAuthorTime === "Invalid date" ||
+              gitAuthorTime === undefined
+                ? node.frontmatter.date
+                : gitAuthorTime
+            }
+            author={node.frontmatter.author}
+            readingTime={getTimeToRead(node.html)}
+          />
         )}
       </div>
     </div>

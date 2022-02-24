@@ -3,6 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Post from "../components/post"
+//import ToC from "../components/toc"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
@@ -26,8 +27,13 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      headings {
+        value
+        depth
+      }
       fields {
         slug
+        gitAuthorTime(formatString: "MMMM DD, YYYY")
       }
       frontmatter {
         description

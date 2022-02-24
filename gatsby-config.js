@@ -1,31 +1,53 @@
 require("dotenv").config({ path: `${__dirname}/.env` })
+const getTimeToRead = require("./src/utils/timeToReadRss")
 
 module.exports = {
   siteMetadata: {
-    title: `LoginRadius Engineering`,
-    titleTemplate: "%s · LoginRadius Engineering",
+    title: `Async Blog — A place for developers, created by developers`,
+    titleTemplate: "%s · Async Blog",
     description:
-      "LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, companies can offer a streamlined login process while protecting customer accounts and complying with data privacy regulations.",
+      "Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog/async",
-    image: "/engineering-blog.svg",
+    image: "/async.svg",
     owner: "LoginRadius",
     menuLinks: [
+      // {
+      //   name: "Developers",
+      //   slug: "https://www.loginradius.com/identity-experience-framework/",
+      // },
+      // {
+      //   name: "Docs",
+      //   slug: "https://www.loginradius.com/docs/developer",
+      // },
+      // {
+      //   name: "Our Blogs",
+      //   slug: "https://www.loginradius.com/blog/",
+      // },
       {
-        name: "Developers",
-        slug: "https://www.loginradius.com/identity-experience-framework/",
+        name: "ASYNC Blog",
+        slug: "https://www.loginradius.com/blog/async/",
+        class: "async",
       },
       {
-        name: "Docs",
-        slug: "https://www.loginradius.com/docs/developer",
+        name: "SWI Blog",
+        slug: "https://www.loginradius.com/blog/start-with-identity/",
+        class: "swi",
+      },
+      {
+        name: "FUEL Blog",
+        slug: "https://www.loginradius.com/blog/fuel/",
+        class: "fuel",
       },
       {
         name: "Open Source",
-        slug: "https://github.com/LoginRadius/",
+        slug: "https://www.loginradius.com/open-source/",
+        class: "opensource",
       },
       {
         name: "Write for Us",
         slug: "https://www.loginradius.com/blog/async/page/guest-blog",
+        class: "writeus",
       },
     ],
     footerLinks: [
@@ -69,6 +91,12 @@ module.exports = {
         name: `content`,
       },
     },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en",
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -108,23 +136,23 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.GOOGLE_TAGMANAGER_ID,
-  
+
         // Include GTM in development.
         //
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         //
         // Defaults to null
         //defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         //gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         //gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
         //dataLayerName: "YOUR_DATA_LAYER_NAME",
-  
+
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
@@ -156,7 +184,7 @@ module.exports = {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
         // Fields to index
-        fields: [`title`, `tags`],
+        fields: [`title`, `tags`, `text`],
         // How to resolve each field`s value for a supported node type
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
@@ -164,6 +192,7 @@ module.exports = {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
             path: node => node.fields.slug,
+            text: node => node.frontmatter.description,
           },
         },
         // Optional filter to limit indexed nodes
@@ -201,7 +230,8 @@ module.exports = {
                   enclosure: {
                     url:
                       site.siteMetadata.siteUrl +
-                      edge.node.frontmatter.coverImage.childImageSharp.fluid.src,
+                      edge.node.frontmatter.coverImage.childImageSharp.fluid
+                        .src,
                     type: "image/jpeg",
                     size: 768,
                   },
@@ -212,6 +242,14 @@ module.exports = {
                       } </p> <br/>  <a href="${
                         site.siteMetadata.feedUrl + edge.node.fields.slug
                       }">Read On</a>`,
+                    },
+                    {
+                      timeToReadBlog: getTimeToRead(edge.node.html),
+                    },
+                    {
+                      authorImage: edge.node.frontmatter.author.github
+                        ? `https://github.com/${edge.node.frontmatter.author.github}.png?size=100v=40`
+                        : `https://ui-avatars.com/api/?name=${edge.node.frontmatter.author.id}&size=100`,
                     },
                   ],
                 })
@@ -242,16 +280,19 @@ module.exports = {
                         }
                         author {
                           id
+                          github
                         }
                         tags
                       }
+                      timeToRead
+                      html
                     }
                   }
                 }
               }
             `,
             output: "/rss.xml",
-            title: "LoginRadius Engineering Blog",
+            title: "Async Blog — A place for developers, created by developers",
             feed_url: "https://www.loginradius.com/blog/async/rss.xml",
             site_url: "https://www.loginradius.com/blog/async/",
             description:
@@ -261,6 +302,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-smoothscroll`,
   ],
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
