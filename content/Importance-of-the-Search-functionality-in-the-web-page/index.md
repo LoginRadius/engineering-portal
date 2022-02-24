@@ -1,7 +1,7 @@
 ---
 title: "Importance of the Search functionality in the web page"
 date: "2022-02-24"
-coverImage: "search.pngg"
+coverImage: "search.png"
 author: "Neha Vyas"
 tags: ["Search","Navigation"]
 ---
