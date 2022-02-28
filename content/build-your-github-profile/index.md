@@ -42,8 +42,7 @@ There are some apps from contributors that extract the information based on your
 
 - https://github-readme-stats.vercel.app
   e.g.: `https://github-readme-stats.vercel.app/api?username=abhir9&show_icons=true&count_private=true&theme=react`
-- https://activity-graph.herokuapp.com
-- e.g.: `https://activity-graph.herokuapp.com/graph?username=abhir9&hide_border=true&area=true&point=transparent&theme=react-dark`
+- https://activity-graph.herokuapp.com e.g.: `https://activity-graph.herokuapp.com/graph?username=abhir9&hide_border=true&area=true&point=transparent&theme=react-dark`
 - https://readme-typing-svg.herokuapp.com
   e.g.: `https://readme-typing-svg.herokuapp.com?size=50&center=true&vCenter=true&width=800&height=100&lines=Namaste%20%F0%9F%99%8F%3BPranam%20%F0%9F%99%8F%3BKhamma%20Ghani%20%F0%9F%99%8F%3BVanakkam%20%F0%9F%99%8F%3BSat%20Sri%20Akaal%20%F0%9F%99%8F%3BAssalam%20Alaikum%20%F0%9F%99%8F%3B`
 - https://views.whatilearened.today
