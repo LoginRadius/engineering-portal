@@ -1,7 +1,7 @@
 @import "../styles/variables.scss";
 .modal {
   color: #000;
-  
+
   .modal-body {
     background-color: $white;
     border-radius: $gutter/3;
@@ -14,8 +14,11 @@
     transform: translateY(-50%);
     padding: $gutter * 2.5;
     @media (max-width: 768px) {
-      margin: 0 $gutter/3 + $gutter/3;
       padding: $gutter * 2.5 $gutter + $gutter/2 $gutter + $gutter/2;
+      max-width: 94%;
+    }
+    @media (max-width: 480px) {
+      padding: $gutter * 2.5 $gutter/2 + $gutter/6 $gutter/2 + $gutter/6;
     }
     h2 {
       margin-top: 0;
@@ -31,8 +34,14 @@
       flex-wrap: wrap;
       li {
         margin-bottom: $gutter;
+        @media (max-width: 768px) {
+          margin-right: $gutter/2 + $gutter/6;
+        }
         &:not(:last-child) {
           margin-right: $gutter;
+          @media (max-width: 768px) {
+            margin-right: $gutter/2 + $gutter/6;
+          }
         }
       }
     }
@@ -114,6 +123,6 @@
   }
 }
 
-.hide{
+.hide {
   display: none;
 }
