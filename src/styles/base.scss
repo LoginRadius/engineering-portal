@@ -10,12 +10,16 @@ html {
   box-sizing: border-box;
   font-size: $basefont;
   scroll-behavior: smooth;
+  overflow: inherit;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: $font-stack;
   color: $gray-darkest;
+  &.menu-open {
+    overflow: hidden;
+  }
 }
 *,
 *:before,

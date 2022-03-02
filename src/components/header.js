@@ -6,17 +6,34 @@ import searchStyles from "./search.module.scss"
 import Search from "./search"
 
 const Header = ({ searchIndex, pathname, type }) => {
-  const [showMenu, toggleMenu] = useState(false)
+  const [showMenu, toggleMenu] = useState(null)
   const [active, setActive] = useState(type ? pathname : "/")
 
   return (
     <>
-      <div className={headerStyles.header}>
+      <div
+        className={`${headerStyles.header} ${
+          showMenu === null
+            ? ""
+            : showMenu === true
+            ? headerStyles.open
+            : headerStyles.close
+        }`}
+      >
         <div
           className={`${headerStyles.hamburger} ${
             showMenu ? headerStyles.active : ""
           }`}
-          onClick={() => toggleMenu(!showMenu)}
+          onClick={() => {
+            toggleMenu(!showMenu)
+            if (showMenu) {
+              document.body.classList.add("menu-close")
+              document.body.classList.remove("menu-open")
+            } else {
+              document.body.classList.add("menu-open")
+              document.body.classList.remove("menu-close")
+            }
+          }}
         >
           <span></span>
           <span></span>
@@ -34,7 +51,11 @@ const Header = ({ searchIndex, pathname, type }) => {
       </div>
       <div
         className={`${headerStyles.navigation} ${
-          showMenu ? headerStyles.open : headerStyles.close
+          showMenu === null
+            ? ""
+            : showMenu === true
+            ? headerStyles.open
+            : headerStyles.close
         }`}
       >
         <ul>
