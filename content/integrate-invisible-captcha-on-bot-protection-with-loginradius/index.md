@@ -1,36 +1,38 @@
 ---
-title: "Integrate Invisible Captcha on Bot Protection with LoginRadius"
+title: "How to Integrate Invisible reCAPTCHA for Bot Protection"
 date: "2022-02-24"
 coverImage: "cover.png"
 author: "Versha Gupta"
-tags: ["Captcha", "LoginRadius", "Google reCaptcha", "Invisible Captcha"]
-description: How to integrate invisible captcha on specific pages with LoginRadius
+tags: ["reCAPTCHA", "LoginRadius"]
+description: "If you only want to integrate reCAPTCHA invisibly on specific pages, LoginRadius can help you. This tutorial explains how you can quickly integrate invisible reCAPTCHA."
 ---
 
-Tough to integrate invisible captcha only at specific pages with LoginRadius? Learn how to implement invisible captcha only at distinct containers, such as login, forgot password quickly with LoginRadius.
+Finding it challenging to integrate invisible reCAPTCHA only in specific web pages? This short tutorial helps you implement invisible reCAPTCHA at specific and distinct containers, such as login and forgot password. This tutorial uses LoginRadius to demonstrate this.
 
-[Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a security service that protects your websites from fraud and abuse.
+> You can [quickly create a free LoginRadius account here](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register).
+
+## What is reCAPTCHA?
+
+[Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a security service that helps protect your websites from fraud and abuse.
 
 Currently, LoginRadius supports two different versions of the  **Google v2reCAPTCHA**.
 
--   **Checkbox**: In this version of v2reCaptcha, "I'm not a robot" Checkbox requires the consumer to click it, indicating the consumer is not a robot.
+-   **Checkbox**: In this version of v2reCaptcha, the "I'm not a robot" checkbox requires a user to click it, to verify the user is not a robot.
     
--   **Invisible reCAPTCHA**: This version of v2reCaptcha provides a better experience to the consumer by tracking mouse movements to identify if a human is interacting with the website.
+-   **Invisible reCAPTCHA**: This version of v2reCaptcha provides a better user experience by tracking mouse movements to identify if a human is interacting with the website.
 
+## The Problem
 
-**Problem**
+When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will also enable the reCAPTCHA at the registration page. But if you want to add bot protection only on the Login page, how can you do that? 
 
-When we enable the invisible captcha from the Dashboard of Loginradius, it will also enable the captcha at the registration page. But if we want to add Bot protection only on the Login page, how can we do that. 
+### Solution
 
-**Solution**
-
- - First, you need to enable Captcha (Invisible Captcha) from the dashboard of LoginRadius.
- - Now, you will see that captcha will automatically enable at the registration page of IDX also.
- - So, we will need to do the following client-side setup for adding the invisible captcha at specific page only example, at the login page.
-     - Disable the Captcha first using the following code before initialization of LoginRadius Object.
+ - First, you need to enable reCAPTCHA (Invisible reCAPTCHA) from the LoginRadius dashboard.
+ - Now, you will see that captcha is automatically enabled at the registration page of Auth Page (IDX) also.
+ - So, you will need to do the following client-side setup for adding the invisible reCAPTCHA at a specific page only, for example, at the login page.
+     - Disable the reCAPTCHA using the following code before initializating the LoginRadius Object.
           `raasoption.invisibleRecaptcha = false;`
-     - Now, add the following code to render the captcha only at the login page, and here we used beforeFormRender hook.
-    
+     - Now, add the following code to render the captcha only at the login page, and here `beforeFormRender` hook is used.
 
         ` LRObject.$hooks.register('beforeFormRender', function(name, schema){
         LRObject.options.invisibleRecaptcha = false;
@@ -41,17 +43,22 @@ When we enable the invisible captcha from the Dashboard of Loginradius, it will 
         }
     });`
 
-In the above code, we used the utility method addRecaptchaJS, which adds the required JS for invisible captcha. We used the captchaSchema method to add captcha within the Login Schema. 
+The above code used the utility method `addRecaptchaJS` that adds the required JS for invisible reCAPTCHA. It also used the `captchaSchema` method to add reCAPTCHA within the Login Schema. 
 
-- The last step is to stop resetting the Captcha before Captcha submit. So we added the following code:
+- The last step is to stop resetting the reCAPTCHA before reCAPTCHA submit. So, add the following code:
 
-` LRObject.$hooks.register('eventCalls', function(name){
+``` LRObject.$hooks.register('eventCalls', function(name){
     LRObject.options.invisibleRecaptcha = false;
     LRObject.options.optionalRecaptchaConfiguration.IsEnabled = true;
   if (name == 'login' ) {
       LRObject.options.invisibleRecaptcha = true;
       LRObject.options.optionalRecaptchaConfiguration.IsEnabled = false;
     }
-});`
+});
+```
 
-When you check your hosted page, only at the login page, invisible captcha will show.
+When you check your hosted page, invisible reCAPTCHA will appear only on the login page.
+
+## Conclusion
+
+You have learned how to use invisible reCAPTCHA on specific web pages and forms with LoginRadius to improve user experience and prevent malicious bot traffic from being effective.
