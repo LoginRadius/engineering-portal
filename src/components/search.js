@@ -71,9 +71,11 @@ export default class Search extends Component {
         <a
           className={`${searchStyle.btnSearch} ${this.props.customClass}`}
           tabIndex={0}
-          onClick={() => {
+          onClick={e => {
             if (query === "") {
               this._toggleSearch()
+            } else {
+              this.handleSubmit(e)
             }
           }}
           onMouseOver={() => (this._shouldClose = false)}
