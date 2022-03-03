@@ -41,13 +41,16 @@
 // Authore CSS
 
 .author {
-  @media (max-width: 550px) {
+  @media (max-width: 950px) {
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
     flex-direction: column;
   }
   .author-image {
     width: 100px;
     margin-right: 30px;
-    @media (max-width: 550px) {
+    @media (max-width: 950px) {
       margin-right: 0;
       margin-bottom: 30px;
     }
@@ -68,7 +71,7 @@
     flex-direction: column;
     flex: 1;
     &-inner {
-      @media (max-width: 550px) {
+      @media (max-width: 950px) {
         padding-right: 0;
       }
     }
