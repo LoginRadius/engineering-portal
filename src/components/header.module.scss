@@ -174,12 +174,8 @@
     position: fixed;
     z-index: 12;
     left: 0;
-    top: -12px;
-    // -webkit-transform: translate3d(0, -100%, 0);
-    // -ms-transform: translate3d(0, -100%, 0);
-    // transform: translate3d(0, -100%, 0);
-    box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
-      0 3px 3px 0px rgba(0, 142, 207, 0.12);
+    top: 0;
+    box-shadow: none;
     &.open,
     &.close {
       -webkit-animation-duration: 300ms;
@@ -197,6 +193,8 @@
       -webkit-animation-name: mobileNavOpen;
       animation-name: mobileNavOpen;
       top: 90px;
+      box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+        0 3px 3px 0px rgba(0, 142, 207, 0.12);
       @media (max-width: 480px) {
         top: 65px;
       }
@@ -204,6 +202,10 @@
     &.close {
       -webkit-animation-name: mobileNavClose;
       animation-name: mobileNavClose;
+      top: 90px;
+      @media (max-width: 480px) {
+        top: 65px;
+      }
     }
   }
 
