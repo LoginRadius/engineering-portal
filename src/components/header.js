@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import React, { useState } from "react"
+import React, { useCallback, useEffect, useState } from "react"
 import LogoLr from "../../static/logo-blog.svg"
 import headerStyles from "./header.module.scss"
 import searchStyles from "./search.module.scss"
@@ -8,6 +8,36 @@ import Search from "./search"
 const Header = ({ searchIndex, pathname, type }) => {
   const [showMenu, toggleMenu] = useState(null)
   const [active, setActive] = useState(type ? pathname : "/")
+  const [scrollClass, setClass] = useState("")
+  let sY = 0
+  if (typeof window !== "undefined") {
+    sY = window.scrollY
+  }
+  const [y, setY] = useState(sY)
+
+  const handleNavigation = useCallback(
+    e => {
+      const currWin = e.currentTarget
+      if (y > currWin.scrollY) {
+        setClass("")
+      } else if (y < currWin.scrollY) {
+        setClass("scrollUp")
+      }
+      setY(currWin.scrollY)
+    },
+    [y]
+  )
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setY(window.scrollY)
+    }
+    window.addEventListener("scroll", handleNavigation)
+
+    return () => {
+      window.removeEventListener("scroll", handleNavigation)
+    }
+  }, [handleNavigation])
 
   return (
     <>
@@ -18,7 +48,7 @@ const Header = ({ searchIndex, pathname, type }) => {
             : showMenu === true
             ? headerStyles.open
             : headerStyles.close
-        }`}
+        } ${scrollClass}`}
       >
         <div
           className={`${headerStyles.hamburger} ${
