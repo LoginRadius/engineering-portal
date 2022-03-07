@@ -12,9 +12,9 @@ const Header = ({ searchIndex, pathname, type }) => {
 
   const handleNavigation = useCallback(e => {
     const currWin = e.currentTarget
-    if (currWin.scrollY < 50) {
+    if (currWin.scrollY < 1) {
       setClass("")
-    } else if (currWin.scrollY > 50) {
+    } else if (currWin.scrollY > 1) {
       setClass("scrollUp")
     }
   })
@@ -74,7 +74,7 @@ const Header = ({ searchIndex, pathname, type }) => {
             : showMenu === true
             ? headerStyles.open
             : headerStyles.close
-        } ${scrollClass}`}
+        }  ${scrollClass}`}
       >
         <ul>
           <li className={active === "/" ? headerStyles.active : ""}>
