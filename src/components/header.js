@@ -9,29 +9,17 @@ const Header = ({ searchIndex, pathname, type }) => {
   const [showMenu, toggleMenu] = useState(null)
   const [active, setActive] = useState(type ? pathname : "/")
   const [scrollClass, setClass] = useState("")
-  let sY = 0
-  if (typeof window !== "undefined") {
-    sY = window.scrollY
-  }
-  const [y, setY] = useState(sY)
 
-  const handleNavigation = useCallback(
-    e => {
-      const currWin = e.currentTarget
-      if (y > currWin.scrollY) {
-        setClass("")
-      } else if (y < currWin.scrollY) {
-        setClass("scrollUp")
-      }
-      setY(currWin.scrollY)
-    },
-    [y]
-  )
+  const handleNavigation = useCallback(e => {
+    const currWin = e.currentTarget
+    if (currWin.scrollY < 50) {
+      setClass("")
+    } else if (currWin.scrollY > 50) {
+      setClass("scrollUp")
+    }
+  })
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setY(window.scrollY)
-    }
     window.addEventListener("scroll", handleNavigation)
 
     return () => {
@@ -48,7 +36,7 @@ const Header = ({ searchIndex, pathname, type }) => {
             : showMenu === true
             ? headerStyles.open
             : headerStyles.close
-        } ${scrollClass}`}
+        }`}
       >
         <div
           className={`${headerStyles.hamburger} ${
@@ -86,7 +74,7 @@ const Header = ({ searchIndex, pathname, type }) => {
             : showMenu === true
             ? headerStyles.open
             : headerStyles.close
-        }`}
+        } ${scrollClass}`}
       >
         <ul>
           <li className={active === "/" ? headerStyles.active : ""}>
