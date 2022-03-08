@@ -1,5 +1,6 @@
 ---
 title: "How to Secure Your LoopBack REST API with JWT Authentication"
+date: "2022-02-04"
 coverImage: "secure-loopback-rest-api-with-jwt.png"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["Authentication", "LoopBack", "JWT", "Node.js"]
