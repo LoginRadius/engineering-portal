@@ -134,6 +134,20 @@ const Header = ({ searchIndex, pathname, type }) => {
           <hr />
         </ul>
       </div>
+      <div
+        onClick={() => {
+          toggleMenu(!showMenu)
+        }}
+        className={`${headerStyles.backdrop} ${
+          showMenu === null
+            ? ""
+            : showMenu === true
+            ? headerStyles.open
+            : headerStyles.close
+        }`}
+      >
+        &nbsp;
+      </div>
     </>
   )
 }
