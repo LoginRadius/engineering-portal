@@ -137,6 +137,13 @@ const Header = ({ searchIndex, pathname, type }) => {
       <div
         onClick={() => {
           toggleMenu(!showMenu)
+          if (showMenu) {
+            document.body.classList.add("menu-close")
+            document.body.classList.remove("menu-open")
+          } else {
+            document.body.classList.add("menu-open")
+            document.body.classList.remove("menu-close")
+          }
         }}
         className={`${headerStyles.backdrop} ${
           showMenu === null
