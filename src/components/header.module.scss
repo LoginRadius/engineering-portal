@@ -322,7 +322,7 @@
   left: 0;
   right: 0;
   position: fixed;
-  z-index: 10;
+  z-index: -9999;
   @media (max-width: 768px) {
     &.open,
     &.close {
@@ -340,10 +340,12 @@
     &.open {
       -webkit-animation-name: backdropOpen;
       animation-name: backdropOpen;
+      z-index: 10;
     }
     &.close {
       -webkit-animation-name: backdropClose;
       animation-name: backdropClose;
+      z-index: -9999;
     }
   }
 }
