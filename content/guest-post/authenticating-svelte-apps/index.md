@@ -84,7 +84,7 @@ Next, head over to the `rollup.config.js` file. Here, make some configurational 
 	],
 ```
 
-You can refer to the complete `rollup.config.js` file for this project [here](https://github.com/FuzzySid/svelte-auth-app/blob/master/rollup.config.js).
+You can refer to the complete `rollup.config.js` file for this project [here](https://github.com/LoginRadius/engineering-blog-samples/blob/master/Svelte/SvelteAuthApp/rollup.config.js).
 
 ### Create Files and Folders
 
@@ -120,7 +120,7 @@ h1 {
 }
 ```
 
-However, I have also added some additional styles inside the global stylesheet inside the `/public/build/global.css` file. You can copy those styles from [here](https://github.com/FuzzySid/svelte-auth-app/blob/master/public/global.css).
+However, I have also added some additional styles inside the global stylesheet inside the `/public/build/global.css` file. You can copy those styles from [here](https://github.com/LoginRadius/engineering-blog-samples/blob/master/Svelte/SvelteAuthApp/public/global.css).
 
 ## Global Data Store for Authenticated User
 
@@ -215,6 +215,12 @@ You also need to create a function called `handleSubmit` that is the `on:submit`
 At the moment, you're simply encapsulating the `email` and `password` bindings into a JavaScript object. Later, you'll send a request to your Login API here. You also have an empty `navigateToSignup` function that I'll come back to once you set up your routes.
 
 Let's render the Login component inside your `App.svelte` file:
+
+```html
+<main>
+<Login />
+</main>
+```
 
 ![Login Page](./Login-Page.PNG)
 
@@ -535,7 +541,7 @@ You can set the disabled attribute on your Submit button based on the loading st
 
 ```html
 ...
-<button disabled="{loading}" class="form-field">
+<button disabled={loading} class="form-field">
   Signup
 </button>
 ...
@@ -833,6 +839,6 @@ And now you should be able to access the `/` route or the Home page only when yo
 
 I hope I've shed some light on how to authenticate Svelte apps. You can do a lot from here, like adding [Svelte Kit](https://kit.svelte.dev/) to this project to simplify the routing system for your Svelte application.
 
-You can [refer to the entire source code for this tutorial here](https://github.com/FuzzySid/svelte-auth-app).
+You can [refer to the entire source code for this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Svelte/SvelteAuthApp).
 
 You can also explore [LoginRadius](https://www.loginradius.com/) to add forgot password functionality or social signups with Facebook and Google.
