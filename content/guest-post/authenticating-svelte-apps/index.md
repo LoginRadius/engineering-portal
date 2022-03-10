@@ -1,6 +1,6 @@
 ---
 title: "How to Authenticate Svelte Apps"
-date: "2022-14-21"
+date: "2022-03-10"
 coverImage: "blog-banner.png"
 author: "Siddhant Varma"
 tags: ["Authentication", "Svelte", "LoginRadius"]
@@ -218,7 +218,7 @@ Let's render the Login component inside your `App.svelte` file:
 
 ```html
 <main>
-<Login />
+  <Login />
 </main>
 ```
 
@@ -541,7 +541,7 @@ You can set the disabled attribute on your Submit button based on the loading st
 
 ```html
 ...
-<button disabled={loading} class="form-field">
+<button disabled="{loading}" class="form-field">
   Signup
 </button>
 ...
@@ -677,7 +677,6 @@ Similarly, you can now integrate the Login API as well in your `Login.svelte` fi
     Don't have an account?
     <strong class="link" on:click={navigateToSignup}>Sign up</strong>
 </p>
-
 
 ```
 
