@@ -1,7 +1,7 @@
 ---
 title: "How to Authenticate Svelte Apps"
 date: "2022-03-10"
-coverImage: "blog-banner.png"
+coverImage: "authenticate-svelte-apps.png"
 author: "Siddhant Varma"
 tags: ["Authentication", "Svelte", "LoginRadius"]
 description: "Are you building Svelte apps? In this tutorial, you'll learn to add secure user authentication in your Svelte apps using LoginRadius APIs."
@@ -32,7 +32,7 @@ To speed things up, you won't build your own authentication services from scratc
 
 Here's a little demo of what your Svelte App would look like by the end of the tutorial:
 
-<video src="./Svelte-Auth-LoginRadius-Demo.mp4"></video>
+<video controls width="700" align="center" src="./Svelte-Auth-LoginRadius-Demo.mp4"/> </video>
 
 Looks exciting? Let's jump right into it!
 
@@ -44,7 +44,7 @@ Let's start by creating a new Svelte project and adding some boilerplate code.
 
 Navigate into the directory of your choice and create a new Svelte project by running:
 
-```shell
+```
 npx degit sveltejs/template svelte-auth-app
 ```
 
@@ -52,7 +52,7 @@ That should create a new Svelte project with a simple starter template.
 
 Additionally, you'll need to install [svelte-navigator](https://github.com/mefechoel/svelte-navigator) package to set up routing in your Svelte app:
 
-```shell
+```
 npm i svelte-navigator
 ```
 
@@ -62,7 +62,7 @@ You need to add environment variable support in your Svelte app to store and use
 
 First, install a package called [dotenv](https://www.npmjs.com/package/dotenv) that let's create and use a special `.env` file to define your environment variables.
 
-```shell
+```
 npm i dotenv
 ```
 
@@ -384,7 +384,7 @@ Inside that, you should see your APP Name, API Key, and API Secret.
 
 Head back to the Svelte App's `.env` file and add the above credentials inside it:
 
-```.env
+```
 APP_NAME=<YOUR_APP_NAME>
 API_CLIENT_KEY= <YOUR_APP_API_KEY>
 API_SECRET= <YOUR_APP_API_SECRET>
@@ -393,7 +393,7 @@ API_SECRET= <YOUR_APP_API_SECRET>
 
 You'll need to ensure that the above `.env` file is present inside the `.gitignore` of your Svelte project. You don't want to accidentally push this file to a public repository on Github.
 
-```.gitignore
+```
 /node_modules/
 /public/build/
 
