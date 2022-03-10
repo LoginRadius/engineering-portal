@@ -340,12 +340,10 @@
     &.open {
       -webkit-animation-name: backdropOpen;
       animation-name: backdropOpen;
-      z-index: 10;
     }
     &.close {
       -webkit-animation-name: backdropClose;
       animation-name: backdropClose;
-      z-index: -9999;
     }
   }
 }
@@ -499,20 +497,24 @@
 @keyframes backdropOpen {
   from {
     opacity: 0;
+    z-index: 0;
   }
 
   to {
     opacity: 1;
+    z-index: 10;
   }
 }
 
 @-webkit-keyframes backdropOpen {
   from {
     opacity: 0;
+    z-index: 0;
   }
 
   to {
     opacity: 1;
+    z-index: 10;
   }
 }
 
@@ -520,19 +522,23 @@
 @keyframes backdropClose {
   from {
     opacity: 1;
+    z-index: 10;
   }
 
   to {
     opacity: 0;
+    z-index: -9999;
   }
 }
 
 @-webkit-keyframes backdropClose {
   from {
     opacity: 1;
+    z-index: 10;
   }
 
   to {
     opacity: 0;
+    z-index: -9999;
   }
 }
