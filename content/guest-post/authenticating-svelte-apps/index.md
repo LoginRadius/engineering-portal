@@ -28,7 +28,7 @@ So in this post, I’ll talk about how to add authentication in a Svelte applica
 
 You'll learn how to create forms in Svelte and add reactivity to it. You'll also understand how to conditionally render different UI components and set up protected routes for authenticated users in a Svelte application.
 
-To speed things up, you won't build your own authentication services from scratch. Instead, you'll use [LoginRadius](https://www.loginradius.com/) to quickly configure an authentication backend for your Svelte App.
+To speed things up, you won't build your own authentication services from scratch. Instead, you'll use [LoginRadius](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register) to quickly configure an authentication backend for your Svelte App.
 
 Here's a little demo of what your Svelte App would look like by the end of the tutorial:
 
@@ -352,7 +352,7 @@ The next step is to set up LoginRadius, so you can start using its Authenticatio
 
 ### Create LoginRadius Account
 
-Head over to [LoginRadius](https://www.loginradius.com/) and create a new account by filling in the following details:
+Head over to [LoginRadius](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register) and create a new account by filling in the following details:
 
 ![Signup 2](./Signup-2.PNG)
 
@@ -840,4 +840,4 @@ I hope I've shed some light on how to authenticate Svelte apps. You can do a lot
 
 You can [refer to the entire source code for this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Svelte/SvelteAuthApp).
 
-You can also explore [LoginRadius](https://www.loginradius.com/) to add forgot password functionality or social signups with Facebook and Google.
+You can also explore [LoginRadius](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register) to add forgot password functionality or social signups with Facebook and Google.
