@@ -18,8 +18,7 @@
 Nest (NestJS) is a Node.js server-side application framework for building scalable, efficient applications. It is written in TypeScript and combines the programming paradigms (Object-Oriented Programming, Functional Programming, and Functional Reactive Programming). 
 NestJS is built on Express, a very minimalistic framework that is great on its own but lacks structure. It is a framework to use if you want a lot of structure on your backend; its syntax and structure are very similar to angular, a front-end framework; it uses typescript, services, and dependency injection in the same way that angular does.
 It employs modules and controllers, and you can build controllers for a file using the command-line interface.
-NestJS modules allow you to group related controllers and service providers into a single code file. Simply put, a NestJS module is a TypeScript file with the **@Module** annotation ().
-This decorator informs the NestJS framework about which controllers, service providers, and other associated resources will be instantiated and used by the app code later.
+NestJS modules allow you to group related controllers and service providers into a single code file. Simply put, a NestJS module is a TypeScript file with a module class, annotated with a @Module() decorator; NestJS uses the metadata provided by the @Module() decorator to organize the application structure. This decorator informs the NestJS framework about which controllers, service providers, and other associated resources will be instantiated and used by the app code later.
 
 ## **What is Session-based Authentication?**
 
@@ -405,7 +404,7 @@ auth.service.ts
 
 Going further, add a new file and call it local.strategy.ts. This file will represent the strategy from *Passport.js*, which you installed earlier, that is the **local strategy**, and within it, pass in the strategy, which is the **Strategy** from passport-local,
 
-Create a constructor and inject the **AuthService**, call the **super()** method; ensure to call the **super()** method. 
+Create a constructor and inject the **AuthService**, call the **super()** method. 
 
 local.strategy.ts
 
