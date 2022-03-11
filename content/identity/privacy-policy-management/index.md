@@ -57,4 +57,4 @@ LoginRadius supports the following implementation and deployment methods for Pri
 
 Businesses cannot escape from maintaining privacy policy versions and workflows for their consumers. Looking forward, LoginRadius' Privacy Policy Management will effortlessly ensure a holistic insight into privacy policies where consumers are notified about new updates, everytime. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -62,4 +62,4 @@ To learn more about this feature, please visit our [Risk-Based Authentication do
 In this article, we talked about making the accounts secured using Risk Based Authentication and learnt how it will enhance the consumer security. This feature helps define the risk areas and take actions if any risk is detected with respect to the defined constraints.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -106,4 +106,4 @@ If you really want to survive in this digital world where everything is digital,
 
 Cheers!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

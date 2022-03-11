@@ -94,4 +94,4 @@ So, it is not surprising when YouTube reports mobile video consumption rising ev
 
 Today, many brands are posting consumer testimonial videos on their website and hosting Q&A sessions to boost their social content marketing with a dash of digital decoration. Therefore, it will be wiser to start creating videos that matter to you and your audiences and be a part of the golden <a rel="nofollow" href="https://instasize.com/blog/6-attention-grabbing-tricks-for-video-marketing">future of social media video marketing.</a><p>
 
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

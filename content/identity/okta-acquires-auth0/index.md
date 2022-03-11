@@ -92,4 +92,4 @@ I’m excited for all the CIAM players.
 
 Together, let's build a world which is more secure, where privacy is protected and where consumers have delighted digital experience.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

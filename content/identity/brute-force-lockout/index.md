@@ -64,4 +64,4 @@ Brute force attack takes time. It could take from a few weeks to even months. So
 In this blog we have tried to explain the brute force in simple language. Bruteforce is not only used for hacking purposes but many companies use it for testing their security system also. This gives us the knowledge about how we can protect our accounts from hackers.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

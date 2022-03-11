@@ -92,4 +92,4 @@ The aforementioned aspects could help mitigate the risk and ensure minimum loss 
 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

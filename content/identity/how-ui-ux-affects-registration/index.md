@@ -252,4 +252,4 @@ Many companies overlook the crucial factors to consider when integrating social 
 So, get cracking! Obviously, you do not want to lose out on your potential customers. Enjoy the endless benefits of Social Login with the [LoginRadius unified social API](https://www.loginradius.com/social-login/). 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

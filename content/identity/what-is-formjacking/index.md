@@ -2,7 +2,7 @@
 title: "What is Formjacking"
 date: "2021-01-15"
 coverImage: "what-is-formjacking.jpg"
-tags: ["Security"]
+tags: ["all, Security"]
 featured: false 
 author: "Deepak Gupta"
 description: "Formjacking attacks are designed and executed by cybercriminals to steal financial and banking details from payment forms that can be captured directly on the checkout pages from eCommerce websites. Find out more about how this practice can affect your business and how to prevent it."
@@ -99,4 +99,4 @@ Victims don't realize that they have fallen prey to formjacking attacks easily a
 Even with all preventive measures in place, it can still be exceedingly difficult to spot formjacking attacks. However, as an online business, you must have all the protocols in place to quickly alert consumers in the case of such attacks.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

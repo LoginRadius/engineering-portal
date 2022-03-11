@@ -15,7 +15,7 @@ I’m looking forward to my first ocean cruise … someday. Living in Vancouver,
 
 I’ve always been more of an adventure traveler, making my own itinerary, researching out-of-the-way spots. The logistics were part of the fun.
 
-But now that I’m a mom, I fantasize about spending a week in one place without having to make any arrangements, ask for directions, or even take out my credit card. (If indie rock star Jonathan Coulton and his 1,848 closest friends are there playing tabletop games, so much the better.)
+I fantasize about spending a week in one place without having to make any arrangements, ask for directions, or even take out my credit card. (If indie rock star Jonathan Coulton and his 1,848 closest friends are there playing tabletop games, so much the better.)
 
 Cruise lines are well-known for their innovation in creating enormous ships and fun stuff to do on them. Some of the big players are also doing interesting things around [customer experience](https://www.loginradius.com/resource/customer-identity-your-cruise-brands-next-big-innovation/), both digital and onboard.
 

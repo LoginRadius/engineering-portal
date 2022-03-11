@@ -66,4 +66,4 @@ Re-authentication ensures that hackers don’t get easy access to a system’s c
 
 All-in-all, you can save a lot of time and password exploitation with re-authentication. Speaking of which, the LoginRadius Re-authentication feature can help businesses securely re-authenticate consumers without taking a toll on user experience. [Contact us](https://www.loginradius.com/contact-sales) today to find out more. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

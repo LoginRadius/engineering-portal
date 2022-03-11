@@ -2,6 +2,10 @@
   bio: LoginRadius is a leading provider of cloud-based Customer Identity and Access Management (cIAM) platform.
   github: "LoginRadius"
 
+- id: Emadamerho-Atori Nefe
+  bio: A frontend developer and UI enthusiast who loves learning new things, creating technical content, and sharing his knowledge with others. In his pastime, he reads manga, watches Anime, and writes poems.
+  github: "nefejames"
+
 - id: Puneet Singh
   bio: Very curious about this world and blogging whenever learning something new
   github: "puneetsingh24"
@@ -195,8 +199,12 @@
   stackoverflow: "13819129"
   twitter: "PareekNaren"
 
+- id: Hitesh Kumawat
+  bio: I care deeply about creating world-class, useful, and beautiful products and web that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to design, creative direction, system design, and even the front-end and WordPress build.
+  linkedin: "hitesh-kumawat-01548466"
+
 - id: Abhimanyu Singh Rathore
-  bio: A Fun loving, Technocrat, Artist, Photographer, Nature Lover, Bold, Leisure traveller, Sightseer, Developer, A Surprise Package to Explore!
+  bio: "He is a fun-loving technocrat, artist, photographer, nature lover, leisure traveler, and developer. He actively develops full-stack apps and programs in Go and various JavaScript frameworks and libraries, especially React."
   github: "abhir9"
   stackoverflow: "4822703"
   twitter: "abhir96"
@@ -464,6 +472,7 @@
   twitter: "LordGhostX"
 
 - id: "Neha Vyas"
+  bio: "She lives in the Pink City and is working as a senior quality assurance executive. For her, software testing is life! She also loves traveling, music, food, and living life at its best."
   github: "nehavyasqa"
 
 - id: "Aayushi Sanghavi"
@@ -496,7 +505,7 @@
   linkedin: "vishnuchilamakuru"
   medium: "@vishnuchi"
   twitter: "vishnuchi"
-  
+
 - id: Erkki Muuga
   bio: "Erkki is the creator of WebinarSoftware.org, a blog dedicated to help marketers, coaches, and start-ups leverage webinars to grow their businesses. Having over 5 years of experience in building software either as a founder or a product manager enables him to give deep and thoughtful insight in his blog."
   linkedin: "erkkimuuga"
@@ -531,7 +540,7 @@
   github: "Rutam21"
   linkedin: "rutam-prita-mishra"
   twitter: "RutamHere"
-  
+
 - id: Kolawole Mangabo
   bio: "He is a full-stack engineer well-versed in React and Django. You can ask him anything about Django Rest and React. He also likes to talk about design, mobile, JavaScript, and productivity."
   github: "koladev32"
@@ -578,6 +587,13 @@
   linkedin: "babatunde-koiki-2002"
   twitter: "bkoiki950"
 
+- id: Ekekenta Odionyenfe Clinton
+  bio: "He is a full-stack web application developer, software engineer, and technical writer, currently living in Nigeria, Portharcourt. He has an HND in Computer Science from Federal Polytechnic Nekede. His primary focus and inspiration for his studies is web development. In his free time, he studies human psychology and writes technical tutorials."
+  github: "icode247"
+  linkedin: "ekekenta-odionyenfe-c-97569b191"
+  medium: "zionekekenta"
+  twitter: "EkekentaZion"
+
 - id: Gaurav Kumar Roy
   bio: "He is a Full-stack Content Engineer and has a great passion for curating articles, blogs, tutorials, and other web content. He has authored two books and contributed to more than 350+ articles and blogs. Apart from writing, he loves to play foosball, read novels, and dance."
   github: "GauravRoy6"
@@ -587,7 +603,6 @@
   bio: "He is a marketer, designer, and developer. He is also an IoT, chatbot, and blockchain savvy. He has co-founded eSparkBiz Technologies, a SaaS app development company. His 8+ experience enables him to help new startups with solutions based on IoT and chatbot."
   github: "espark-biz"
 
-
 - id: Manish Tiwari
   linkedin: "manish-tiwari-ab101742"
   bio: Manish Tiwari is working as a Technical Support Manager at LoginRadius. He is a dynamic & versatile professional in IT service management, technical support, maintenance, and troubleshooting. He loves playing cricket, watching movies, and cooking in his free time.
@@ -596,6 +611,7 @@
   linkedin: "shachindra-saxena"
   bio: Sports lover, singer, start-up enthusiast, a budding photographer, avid reader, managed large teams for growth and expansion in multiple geographies in technology companies. An engineer by heart, working with highly motivated people in the SAAS world.
   authormetadescription: Sports lover, singer, start-up enthusiast, a budding photographer, avid reader, managed large teams for growth and expansion in multiple geographies in technology companies.
+  twitter: "Shachi_18"
 
 - id: Rajeev Sharma
   linkedin: "rajeevsharma84"
@@ -615,7 +631,7 @@
 
 - id: Vaibhav Jain
   linkedin: "vaibhavjain008"
-  bio: He is a technical Support lead at LoginRadius with 6+ years of experience in IT support and management. He has been providing in-depth technical support to B2B clients, solving most of the major concerns without transferring to the next level support tier. Apart from this, he likes to cook, talk about business ideas, is a big fan of AOE III, a solo traveler and likes to watch sci-fi movies. 
+  bio: He is a technical Support lead at LoginRadius with 6+ years of experience in IT support and management. He has been providing in-depth technical support to B2B clients, solving most of the major concerns without transferring to the next level support tier. Apart from this, he likes to cook, talk about business ideas, is a big fan of AOE III, a solo traveler and likes to watch sci-fi movies.
 
 - id: Rakesh Soni
   bio: Entrepreneur by Work. Artist by ❤️. Engineer by Trade. Human Being. Feminist. Proud Indian. CEO/Co-founder at LoginRadius, securing 1B+ IDs worldwide.
@@ -657,7 +673,7 @@
   linkedin: "vishalvs02"
 
 - id: Kundan Singh
-  bio: Director of Product Development @ LoginRadius. 
+  bio: Director of Product Development @ LoginRadius.
 
 - id: Sudhanshu Agarwal
   bio: Director of consumer Service @ LoginRadius | Technical Support | consumer Success | Leadership | Project Management | Product Implementation
@@ -691,7 +707,7 @@
   linkedin: "vikas-soni-4a1911a9"
 
 - id: Lidia Hovhannisyan
-  bio: Lidia S. Hovhan is a part of Content and Marketing team at OmnicoreAgency. She contributes articles about how to integrate digital marketing strategy with traditional marketing to help business owners to meet their online goals. You can find really professional insights in her writings. 
+  bio: Lidia S. Hovhan is a part of Content and Marketing team at OmnicoreAgency. She contributes articles about how to integrate digital marketing strategy with traditional marketing to help business owners to meet their online goals. You can find really professional insights in her writings.
   linkedin: "lidia-hovhannisyan"
   twitter: "LidiaHovhan"
 
@@ -728,24 +744,41 @@
   bio: Director of Product Development @ LoginRadius. Technology lover, likes reading/writing, and creating new things.
 
 - id: Conrad Sturdy
-  bio: Conrad is a professional blogger, content maker, and freelance writer. He has written many great and valuable posts on a variety of topics. Conrad loves outdoor activities. He believes the fresh air brings him inspiration for new ideas. 
+  bio: Conrad is a professional blogger, content maker, and freelance writer. He has written many great and valuable posts on a variety of topics. Conrad loves outdoor activities. He believes the fresh air brings him inspiration for new ideas.
   linkedin: "conrad-sturdy-84a953210"
 
 - id: Shivangini Yadav
-  bio: Engineer by education, Marketer by profession, Fashionista by choice. Marketing Manager @LoginRadius..You can find me on social media for more. 
+  bio: Engineer by education, Marketer by profession, Fashionista by choice. Marketing Manager @LoginRadius..You can find me on social media for more.
   linkedin: "shivangini-yadav"
 
 - id: Alyse Falk
-  bio: Alyse Falk is a freelance writer with experience in digital marketing, technologies, content marketing, marketing trends, and branding strategies. Alyse also writes for several reputable sites where she shares her hints for creating content 
+  bio: Alyse Falk is a freelance writer with experience in digital marketing, technologies, content marketing, marketing trends, and branding strategies. Alyse also writes for several reputable sites where she shares her hints for creating content
   linkedin: "alyse-falk"
-
-- id: Hitesh Kumawat
-  bio: Product Designer by profession & passion, focusing on products and design systems, crafting cool resources and blogs.
-  linkedin: "hitesh-kumawat-01548466"
 
 - id: Siddhant Varma
   bio: "He is a full-stack JavaScript engineer who loves building pixel perfect UIs and engineering tech products. He loves creating technical content for developers and has worked as a frontend engineer for many startups."
   github: "FuzzySid"
   linkedin: "siddhantvarma99"
 
+- id: Yusuf Ahmed
+  bio: "He is a Flutter developer and technical writer. He is focused on learning new technologies and making advancements in the world of tech."
+  github: "iloveteajay"
+  linkedin: "iloveteajay"
+  twitter: "tayy_dev"
 
+- id: Alok Patidar
+  bio: Alok Patidar is Information Security Manager at LoginRadius. He is a security professional who has been in computer, cybersecurity & information security for over a decade. Alok carries experience in multiple domains which include risk assessment, cyber threat analysis, vulnerability assessment & red teaming.
+  linkedin: "alokpatidar"
+
+- id: Nikola Sekulic
+  bio: Nikola Sekulic is a seasoned brand developer, writer, and storyteller. Over the last decade, he’s worked on various marketing, branding, and copywriting projects – crafting plans and strategies, writing creative online and offline content, and making ideas happen. When he is not working for clients around the world, he is exploring new topics and developing fresh ideas to turn into engaging stories for the online community.
+
+- id: Archna Yadav	
+  bio: Archna is an analyst turned writer. Who loves doing Solution Analysis and R&D and then writes articles about the same.	
+  linkedin: "archna-yadav-25b508a2"
+
+- id: Mike Abelson	
+  bio: Mike is the Editorial Director at Lendza. He enjoys helping entrepreneurs and startups succeed through smart, innovative strategies. He’s partnered with CEOs and executives to grow businesses from the ground up. Before his work at Lendza, Mike was a stock market analyst. When he’s not travelling for work, he enjoys reading adventure and science fiction novels.
+
+- id: Hazel Raoult	
+  bio: Hazel Raoult is a freelance marketing writer and works with PRmention. She has 6+ years of experience in writing about business, entrepreneurship, marketing and all things SaaS. Hazel loves to split her time between writing, editing, and hanging out with her family.

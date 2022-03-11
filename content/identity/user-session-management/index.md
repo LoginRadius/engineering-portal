@@ -80,4 +80,4 @@ In this blog, we have tried to explain user session management in an easy-to-gra
 
 Cheers!
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

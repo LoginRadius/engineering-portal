@@ -2,7 +2,7 @@
 title: "Introduction to Mobile Biometric Authentication"
 date: "2021-04-28"
 coverImage: "what-is-mob-biometric-authentication-cover.jpg"
-tags: ["LoginRadius"]
+tags: ["loginradius"]
 featured: false 
 author: "Rajeev Sharma"
 description: "In an increasingly digitized world, password-based authentication is no longer sufficient to secure applications and software tools.  Can biometrics replace traditional passwords in user authentication? Biometrics does offer a safe and easy mode of authenticating users – without compromising their online experience."
@@ -97,4 +97,4 @@ Can biometrics replace "traditional" passwords in user authentication? Biometric
 
 With LoginRadius’ [Mobile Biometrics Authentication](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet), your business can enhance the security of mobile users along with their online experience. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -84,4 +84,4 @@ Today's digital world leaves no room for error. Companies across the globe look 
 By analyzing and implementing the security measures mentioned in this blog, you can safeguard your company from cyber threats and help it leverage the benefit of a dispersed workforce. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

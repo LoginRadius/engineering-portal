@@ -5,6 +5,7 @@ coverImage: "11-Time-Saving-Advanced-Excel-Sheet-Tips-To-Make-You-A-Pro.png"
 category: ["general", "technology", "loginradius"]
 featured: false 
 author: "Deepak Gupta"
+tags: ["Engineering"]
 description: "Want to be Excel Sheet Expert? We have brought for you here 11 time saving Advanced MS  Excel tips you must be aware Of!"
 metatitle: "11 Time Saving Advanced Excel Tips To Make You Pro."
 metadescription: "Are you a fan of Google docs and sheets? Here are top Google Docs and sheets."

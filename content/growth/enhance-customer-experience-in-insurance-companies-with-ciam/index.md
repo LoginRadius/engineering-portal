@@ -117,4 +117,4 @@ Insurance companies often operate in a fast-paced environment, serving both cons
   
 
 [Implementing the right CIAM](https://www.loginradius.com/) solution is critical in the digital world of insurance firms in order to achieve their objectives and go above and beyond. This [CIAM digital strategy](https://www.loginradius.com/blog/start-with-identity/digital-transformation-consumer-iam/) can assist in the transformation of a conventional life insurance product into a more modern digital banking offering geared at wider consumer segments while still utilizing the traditional agent channel.
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

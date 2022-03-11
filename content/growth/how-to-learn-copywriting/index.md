@@ -188,4 +188,4 @@ Remember that SEO-optimized content is essential to rank your blogs or website p
 
 To develop a unique [brand identity](https://www.loginradius.com/blog/fuel/2021/04/does-your-website-imagery-reflect-your-brand-identity/), you need to have a team of top-notch copywriters who can keep the readers glued to the content and eventually help increase your business.
 
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -89,4 +89,4 @@ Surveys indicate that[ 88%](https://searchengineland.com/88-consumers-trust-onli
 
 Every stage of achieving a unified experience is essential, from initial consideration to functional evaluation, time of purchase, and even the post-purchase experience. Each stage is an opportunity to improve the consumer experience in retail**,** and each phase is an opportunity to obtain more information that can give feedback into the marketing processes and take advantage of the next time.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

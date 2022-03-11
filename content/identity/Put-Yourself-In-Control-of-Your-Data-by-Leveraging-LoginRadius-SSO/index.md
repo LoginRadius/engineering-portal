@@ -106,4 +106,4 @@ We have explained the importance of having an SSO strategy that fits the organiz
 
 If you would like to speak to an expert about developing an SSO strategy for your organization, please click to your Book A Demo Link. 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

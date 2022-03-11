@@ -57,7 +57,7 @@ As a result of the above advantages, customers are more likely to engage with yo
 
 ### #3. Social Logins
 
-Gradually, social logins are becoming one of the most preferred authentication tools for businesses. It is one of the most popular ways to drive the growth of your business and increase sales. Social logins increase the interaction with the customers. 
+Gradually, [social logins](https://www.loginradius.com/blog/start-with-identity/what-is-social-login/) are becoming one of the most preferred authentication tools for businesses. It is one of the most popular ways to drive the growth of your business and increase sales. Social logins increase the interaction with the customers. 
 
 The option to collect user data using social logins can help businesses eliminate promotions that are not relevant to them. Personalization of content can go a long way in converting sales. Additionally, several users trust the security offered by social login. Thus, the combination of security and personalization can boost the conversion rates considerably.
 

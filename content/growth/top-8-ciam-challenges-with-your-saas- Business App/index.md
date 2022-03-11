@@ -99,4 +99,4 @@ Many companies have made a notable investment in a corporate directory to contro
 One of the surpassing advantages of cloud applications is that admittance is obtainable from any device over the internet. However, more apps mean more URLs, passwords and devices. Hence, IT teams must provide and control access across several devices without jeopardizing security that can be difficult with existing systems.
 
 To summarize, we can say that a cloud-based CIAM service should present accurate visibility of user access. Also, providing your customers with the required protection against identity theft is crucial in preserving your company prominence. This is why it is vital to overcome these challenges to better leverage the benefits of CIAM to protect your business and clients.
-[![book-a-demo-Consultation](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

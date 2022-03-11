@@ -110,4 +110,4 @@ With the growing reliance on technology and cloud-based ecosystems, there is a h
 By improving privacy, the identity proofing process helps build a trustable image in the consumers’ minds towards your brand.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

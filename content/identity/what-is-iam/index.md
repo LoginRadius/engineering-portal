@@ -317,4 +317,4 @@ Powerful identity and access management solutions offer the right tools to ensur
 There is a huge demand to invest in new digital methods of communication.  And prioritizing [digital security](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) will go a long way. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

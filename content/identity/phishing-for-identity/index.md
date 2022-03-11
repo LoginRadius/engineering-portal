@@ -195,4 +195,4 @@ Using the tips mentioned above, businesses will be able to identify some of the 
 With that in mind, you need to be on top of the game every single day. Keep on conducting [security awareness training](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/) so that your employees and executives never fall prey. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

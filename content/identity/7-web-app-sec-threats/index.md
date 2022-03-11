@@ -164,4 +164,4 @@ Among other features, LoginRadius offers:
 
 We recommend using this list of top 7 web application threats and vulnerabilities to find a sound security base for your web apps. Developers can build on these vulnerabilities and learn from previous exploits of other entities to create a more secure application.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

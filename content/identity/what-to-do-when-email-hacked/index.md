@@ -98,4 +98,4 @@ In addition to your password, set your email account to require a [second form o
 As an additional security measure, several email providers provide two-factor authentication (2FA). To access an account, this approach requires both a password and some other form of identification.
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

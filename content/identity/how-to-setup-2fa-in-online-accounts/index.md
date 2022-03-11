@@ -230,4 +230,4 @@ Similar to the SMS workflow, you can select standard email and password login, u
 
 With [cybercrimes on the rise](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/), it is essential to make your online security measures more robust. Hence, to protect your account and the history, you need to learn how to set up 2fa on your accounts for an additional safety cover. It not only protects your online social accounts but other accounts as well.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

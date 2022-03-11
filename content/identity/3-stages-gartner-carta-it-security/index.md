@@ -72,4 +72,4 @@ CARTA’s risk reduction model is [built on the premise](https://www.loginradius
 Hence, businesses striving to implement the best security practices must consider relying on CARTA for enhanced risk management for their organization.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

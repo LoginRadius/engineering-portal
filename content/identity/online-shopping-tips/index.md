@@ -192,4 +192,4 @@ Safe online shopping tips are essential to providing excellent experiences to bo
 
 The tips and solutions discussed above can protect your consumers from underlying threats this holiday season. Have a great shopping spree! 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

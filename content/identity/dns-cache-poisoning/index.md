@@ -120,4 +120,4 @@ This new IP address might be from a malicious phishing website, where the users 
 Hence, understanding what is DNS cache poisoning, how to detect it, and ways to prevent it is crucial so you can [protect your business](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) against it. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

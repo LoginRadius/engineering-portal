@@ -2,7 +2,7 @@
 title: "Top 10 Performing Identity Blogs in 2021"
 date: "2021-12-29"
 coverImage: "performing-blogs.jpg"
-tags: ["LoginRadius"]
+tags: ["loginradius"]
 featured: false
 author: "Srishti Singh"
 description: "Our insightful blogs helped millions of people globally understand, implement, and enhance their platform experience by leveraging cutting-edge technology in the CIAM landscape in 2021. Here we’ve compiled a list of our top-performing blogs of 2021 that can help you quickly find the most admired and insightful posts to solve your purpose."
@@ -125,4 +125,4 @@ Reach us to know more about LoginRadius CIAM and how it can help scale your busi
 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

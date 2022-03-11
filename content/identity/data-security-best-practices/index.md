@@ -119,4 +119,4 @@ Data security best practices aren't just confined to the list of precautionary s
 
 But then, you need to understand that cybersecurity is not about eliminating all threats—that's not achievable. It also is something that you should not ignore. By taking the right security measure, you can at least mitigate risks to a large extent.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

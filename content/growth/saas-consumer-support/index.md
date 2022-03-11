@@ -126,7 +126,7 @@ Delivering support is essential, and SaaS support usually involves more than one
 
 ### 1. Email or Ticketing
 
-Various options exist to support this channel. These range in scale from a simple support email address to robust support ticketing systems. 
+Various options exist to support this channel. These range in scale from a simple support email address to robust support <a rel="nofollow" href="https://hiverhq.com/blog/email-ticketing-systems"> ticketing systems </a>. 
 
 These often form one of the initial touchpoints for all issues and allow for <a href="https://www.loginradius.com/blog/fuel/2021/03/8-Effective-Communication-Strategies-for-Internal-Alignment-and-Growth-in-2021/">consumers communication</a> and longer-term investigations.  
 

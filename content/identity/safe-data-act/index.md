@@ -91,4 +91,4 @@ In a bid to ensure businesses the highest level of protection, the LoginRadius c
 
 It is in your businesses' best interest to comply with privacy regulations, like the Safe Data Act. Not only does it help you dodge off data breaches and [cyber attacks](https://www.loginradius.com/blog/2019/10/cybersecurity-attacks-business/), but it also confirms businesses that they can trust you with their confidential consumer data—and that's priceless! 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

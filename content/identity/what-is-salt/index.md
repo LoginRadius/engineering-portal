@@ -108,4 +108,4 @@ This policy makes LoginRadius an excellent choice for password protection among 
 Protecting your data, whether you represent a company or simply for your personal accounts, is essential. Hashing and salting of passwords and cryptographic hash functions are the foolproof methods for this purpose. With salts, you can rest assured that your passwords and data are in good hands. 
 
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

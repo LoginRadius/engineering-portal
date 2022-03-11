@@ -85,4 +85,4 @@ LoginRadius’ MFA provides a customized consumer experience with [options like 
 
 As more and more companies move towards [digital transformation](https://www.loginradius.com/blog/start-with-identity/2018/11/enterprise-needs-digital-business-transformation-strategy/), cybersecurity becomes more and more critical. It’s here that MFA becomes super important since it offers enhanced and adequate security against theft and damage of a company’s critical data.
 
-[![book-a-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
