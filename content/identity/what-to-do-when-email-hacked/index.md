@@ -2,7 +2,7 @@
 title: "Email is Hacked!: 7 Immediate Steps To Follow"
 date: "2020-12-03"
 coverImage: "what-to-do-when-email-is-hacked.jpg"
-tags: ["all", "security"]
+tags: ["security"]
 featured: false 
 author: "Deepak Gupta"
 description: "The golden terms for a hacker to access your personal information and get access to all your accounts are hacked emails. Recovery from a hack is extremely time-sensitive, as our emails connect everything from online banking to other online portals. You'll have to move quickly and cautiously if you want to minimise the damage to your identity, finances and protect those around you."

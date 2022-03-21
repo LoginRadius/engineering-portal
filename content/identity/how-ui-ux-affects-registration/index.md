@@ -2,7 +2,7 @@
 title: "A Detailed Guide on How UX/UI Affects Registration"
 date: "2021-04-16"
 coverImage: "how-ui-ux-affects-registration-cover.jpg"
-tags: ["all"]
+tags: ["other"]
 featured: false 
 author: "Deepak Gupta"
 description: "Login is a big deal that decides the entire UX your website is going to deliver. Businesses should try to put as little resistance as possible into their registration process. As with it comes customer identities—the most accurate first-party data beneficial for conversions and customer retention."

@@ -2,7 +2,7 @@
 title: "Maintaining Quality Data Security Practices"
 date: "2021-04-30"
 coverImage: "data-security-loginradius.jpg"
-tags: ["loginradius"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Deepak Gupta"
 description: "Data security is important for businesses today, more than it ever was. By definition, data security is the practice of protecting digital information from unauthorised access, cyber corruption or theft."

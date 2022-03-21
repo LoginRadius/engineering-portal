@@ -2,7 +2,7 @@
 title: "Customer Experience is Driving Digital Transformation"
 date: "2018-05-18"
 coverImage: "linkedin-sales-navigator-402831-unsplash1-1.jpg"
-tags: ["all","customer-experience"]
+tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni" 
 description: "Customers today demand meaningful content which is based on their preferences and behaviours. Companies have to accept these digital transformations to offer this connected customer experience."

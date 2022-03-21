@@ -2,7 +2,7 @@
 title: "What is privacy compliance and why is it so important?"
 date: "2021-03-31"
 coverImage: "privacy-compliance-cover.jpg"
-tags: ["all", "Security"]
+tags: ["Security"]
 featured: false 
 author: "Vishal Sharma"
 description: "Privacy compliance is the line between the legal and the illegal. Such regulations help protect consumers in different countries by ensuring data is handled appropriately. Another reason why organizations must comply is to avoid heavy fines."

@@ -2,7 +2,7 @@
 title: "CIAM Continues to Draw Attention as Okta acquires Auth0"
 date: "2021-03-04"
 coverImage: "loginradius-blog.jpg"
-tags: ["all"]
+tags: ["LoginRadius"]
 featured: false 
 author: "Rakesh Soni"
 description: "Okta, a workforce identity provider, broke the news yesterday that it is buying its smaller rival Auth0 in a $6.5 billion all-stock deal—one of the blockbuster acquisition news in IAM space."

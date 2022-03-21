@@ -2,7 +2,7 @@
 title: "What is the Purpose of Identity Security in 2021?"
 date: "2021-08-03"
 coverImage: "purpose-identity-security-2021-cover.jpg"
-tags: ["all", "Security"]
+tags: ["Security"]
 featured: false 
 author: "Rakesh Soni"
 description: "Thousands of individuals compromise their identities every day because of weak defense and poor authentication at the service providers’ end. Businesses need a robust identity management solution to navigate their digital transformation journey without compromising user identities and sensitive business information."

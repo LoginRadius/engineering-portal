@@ -2,7 +2,7 @@
 title: "What to Do if Someone Steals Your JSON Web Token?"
 date: "2021-06-10"
 coverImage: "json-web-token-stolen-cover.jpg"
-tags: ["all", "security"]
+tags: ["security"]
 featured: false 
 author: "Vishal Sharma"
 description: "JWT tokens provide secure access to an authenticated user, and attackers are always looking for ways to steal these tokens and quickly gain access by impersonating a consumer. Here we’ve clubbed efficient ways for enterprises to ensure maximum security and steps that can help in a situation where a client’s JSON web token is stolen."

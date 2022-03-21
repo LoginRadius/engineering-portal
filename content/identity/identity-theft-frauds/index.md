@@ -2,7 +2,7 @@
 title: "Identity Theft Frauds- Staying Ahead in 2021"
 date: "2021-03-31"
 coverImage: "identity-theft-fraud-cover.jpg"
-tags: ["all", "Security"]
+tags: ["Security"]
 featured: false 
 author: "Vishal Sharma"
 description: "With so many businesses adopting diverse working environments, fraudsters are quickly finding new ways to breach security and gain access to confidential information. Businesses must anticipate potential frauds to minimize the risk for their employees’ and clients’ identities in 2021."

@@ -34,7 +34,6 @@ const Subscribe = ({ type }) => {
         }}
       />
       <input
-        type="submit"
         className={`btn btn-primary ${isError ? styles.disabled : ""}`}
         type="submit"
         disabled={isError}
@@ -46,7 +45,7 @@ const Subscribe = ({ type }) => {
 
       {!isError && (
         <Modal
-          type={type}
+          type={type || "all"}
           email={email}
           isOpen={isClicked}
           toggle={() => {

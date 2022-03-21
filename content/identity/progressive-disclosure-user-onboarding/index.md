@@ -2,7 +2,7 @@
 title: "How Progressive Disclosure Makes Your User's Onboarding Easy"
 date: "2021-08-18"
 coverImage: "progressive-disclosure-user-onboarding-cover.jpg"
-tags: ["all", "Security"]
+tags: ["Security"]
 featured: false 
 author: "Vishal Sharma"
 description: "Progressive disclosure helps businesses portray essential information initially and then gradually uncover the rest of the features that ensure users aren’t overburdened and that their purpose is solved. This post helps businesses understand the importance of progressive disclosure and progressive profiling that work harmoniously to enhance conversions."

@@ -2,7 +2,7 @@
 title: "How to Manage Situation After a Data Breach"
 date: "2021-07-27"
 coverImage: "5-ways-to-handle-a-data-breach-cover.jpg"
-tags: ["all", "security"]
+tags: ["security"]
 featured: false
 author: "Govind Malviya"
 description: "Data breaches are becoming the new normal and enterprises aren’t aware of the necessary steps that should be taken immediately after a breach. This post offers valuable insights that help organizations to quickly and effectively manage a situation after a data breach is detected."

@@ -2,7 +2,7 @@
 title: "Data Security in Hospitality: Best Practices for Operating In a Post-COVID Era"
 date: "2021-04-23"
 coverImage: "data-security-hospitality-industry-cover.jpg"
-tags: ["all","security"]
+tags: ["security"]
 featured: false 
 author: "Navanita Devi"
 description: "The frequency of cyberattacks against business databases can be attributed to the fact that the hospitality industry largely depends on credit cards as a medium of payment. This may increase the chances of a hacker receiving access to sensitive information. Investing in proper data security in hospitality can work to protect not only the consumer but also the business from losing large sums of profit."

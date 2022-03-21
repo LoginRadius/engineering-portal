@@ -2,7 +2,7 @@
 title: "Announcement: LoginRadius Embraces Privacy Policy Management Amid Heightened Regulatory Updates"
 date: "2020-12-16"
 coverImage: "privacy-policy-management.png"
-tags: ["all", "industry-news"]
+tags: ["industry-news"]
 featured: false 
 author: "Kundan Singh"
 description: "Our newly introduced Privacy Policy Management acts as the central place where companies retain versions of their privacy policy, inform customers when it changes, or get new versions adopted by them."

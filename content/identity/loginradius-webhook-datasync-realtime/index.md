@@ -2,7 +2,7 @@
 title: "How LoginRadius Webhook Allows You to Sync Your Data in Real-Time"
 date: "2021-11-24"
 coverImage: "webhook-cover.jpg"
-tags: ["all"]
+tags: ["other"]
 featured: false 
 author: "Vishal Sharma"
 description: "Businesses can leverage the true potential of Webhook that allows them to build or set up integrations that subscribe to certain events on LoginRadius CIAM. Let’s understand how LoginRadius improves business performance through third-party integrations and helps sync your crucial business data in real-time through Webhook."
