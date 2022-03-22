@@ -207,7 +207,7 @@
   linkedin: "hitesh-kumawat-01548466"
 
 - id: Abhimanyu Singh Rathore
-  bio: A Fun loving, Technocrat, Artist, Photographer, Nature Lover, Bold, Leisure traveller, Sightseer, Developer, A Surprise Package to Explore!
+  bio: "He is a fun-loving technocrat, artist, photographer, nature lover, leisure traveler, and developer. He actively develops full-stack apps and programs in Go and various JavaScript frameworks and libraries, especially React."
   github: "abhir9"
   stackoverflow: "4822703"
   twitter: "abhir96"
@@ -475,6 +475,7 @@
   twitter: "LordGhostX"
 
 - id: "Neha Vyas"
+  bio: "She lives in the Pink City and is working as a senior quality assurance executive. For her, software testing is life! She also loves traveling, music, food, and living life at its best."
   github: "nehavyasqa"
 
 - id: "Aayushi Sanghavi"
@@ -613,3 +614,10 @@
 - id: Mary Gathoni
   bio: "She is a software developer with a passion for technical writing. She strives to create content that is educative and easily understandable. In her free time, she enjoys being outdoors with friends."
   github: "gathoni-k"
+
+- id: Yusuf Ahmed
+  bio: "He is a Flutter developer and technical writer. He is focused on learning new technologies and making advancements in the world of tech."
+  github: "iloveteajay"
+  linkedin: "iloveteajay"
+  twitter: "tayy_dev"
+
