@@ -1,6 +1,6 @@
 ---
 title: "NestJS User Authentication with LoginRadius API"
-date: "2022-02-18"
+date: "2022-03-23"
 coverImage: "coverimage.png"
 author: "Mary Gathoni"
 tags: ["NestJS", "Node.js", "Authentication"]
@@ -19,7 +19,7 @@ You can either choose to implement your own authentication strategy or leverage 
 
 With a third-party solution, you get access to multiple authentication methods, advanced security features, and you write less code.
 
-## User Authentication With LoginRadius
+## User Authentication with LoginRadius
 
 [LoginRadius](http://loginradius.com) is a no-code identity platform offering authentication, authorization, account security, and privacy solutions.
 
@@ -165,10 +165,12 @@ export class AuthController {
 ```
 
 Before registering the user, validate if the email is already in use.
-First, install  `loginradius-sdk` using the following command.
+First, install `loginradius-sdk` using the following command.
+
 ```bash
 npm i loginradius-sdk
 ```
+
 Next import `loginradius-sdk` and configure it and since you will be using variables from the `.env` file, remember to also configure `dotenv`.
 
 ```JavaScript
@@ -251,7 +253,7 @@ export class AuthService {
 
 In the above code, you register a new user by passing in the user data to the authentication API. The `authUserRegistrationModel` object defines how the email and password will be stored in the database.
 
-## Log in the User
+## Log In the User
 
 To log in the user, pass in the email and password to the authentication API of LoginRadius.
 
@@ -300,6 +302,7 @@ export class AuthService {
 In the above code, you are logging in the user through loginradius-sdk. If successful, send back the `accessToken` in the response body. The user will use the access token to access protected routes.
 
 Inject the login method in the `auth.controller.ts` file to use it in the login route.
+
 ```JavaScript
 import { Injectable } from '@nestjs/common';
 import { UserDto } from './dto/user.dto';
@@ -418,7 +421,7 @@ export class AuthController {
 
 Now, every route you add `UseGuards` to will require a valid access token.
 
-## Test With Postman
+## Test with Postman
 
 Use [Postman](https://www.postman.com/) or any other REST client of your choice to test the routes you have created.
 
@@ -452,6 +455,8 @@ GET http://localhost:3000/auth/protected
 
 ## Conclusion
 
-In this tutorial, you have learned how to implement NestJS authentication using the LoginRadius Authentication API. You have seen how to log in a user and use an access token to protect specific routes. Find the source code for this tutorial on [Github](https://github.com/LoginRadius/engineering-blog-samples/pull/156).
+In this tutorial, you have learned how to implement NestJS authentication using the LoginRadius Authentication API. You have seen how to log in a user and use an access token to protect specific routes.
 
-Learn more about the [LoginRadius Authentication API](https://www.loginradius.com/docs/developer/references/api/authentication/) from the documentation files. It has more identity management features than discussed in this tutorial.
+You can [find the source code used in this tutorial on Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NestJS/nestjs-authentication-loginradius-api).
+
+Learn more about the [LoginRadius Authentication API](https://www.loginradius.com/docs/developer/references/api/authentication/) from the documentation files. It has more identity management features than discussed in this tutorial. You can use these features to further enhance authentication as you need in your NestJS projects.
