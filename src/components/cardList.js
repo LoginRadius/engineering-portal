@@ -4,7 +4,7 @@ import Card from "./card"
 import Subscribe from "./subscribe"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
-import { withPrefix } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 import TagMenu from "./tagmenu"
 export default function CardList({ posts, currentPage, isPagination, type }) {
   const limit = 6
@@ -51,10 +51,10 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
               </a>
             )}
 
-            <a
-              className={`${styles.sidebarWidget} ${styles.link}`}
-              href="https://www.loginradius.com/blog/async/page/guest-blog"
+            <Link
+              to={"/guest-blog"}
               target="_blank"
+              className={`${styles.sidebarWidget} ${styles.link}`}
             >
               <div
                 style={{
@@ -62,7 +62,7 @@ export default function CardList({ posts, currentPage, isPagination, type }) {
                 }}
               />
               <h3>Write for us</h3>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
