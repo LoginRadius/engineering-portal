@@ -9,7 +9,7 @@ const Header = ({ searchIndex, pathname, type }) => {
   const [showMenu, toggleMenu] = useState(null)
   const [active, setActive] = useState(type ? pathname : "/")
   const [scrollClass, setClass] = useState("")
-  const [backdrop, showBackdrop] = useState(true)
+  const [backdrop, showBackdrop] = useState(null)
 
   const handleNavigation = useCallback(e => {
     const currWin = e.currentTarget
