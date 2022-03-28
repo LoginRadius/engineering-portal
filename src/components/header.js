@@ -9,6 +9,7 @@ const Header = ({ searchIndex, pathname, type }) => {
   const [showMenu, toggleMenu] = useState(null)
   const [active, setActive] = useState(type ? pathname : "/")
   const [scrollClass, setClass] = useState("")
+  const [backdrop, showBackdrop] = useState(true)
 
   const handleNavigation = useCallback(e => {
     const currWin = e.currentTarget
@@ -47,9 +48,13 @@ const Header = ({ searchIndex, pathname, type }) => {
             if (showMenu) {
               document.body.classList.add("menu-close")
               document.body.classList.remove("menu-open")
+              setTimeout(() => {
+                showBackdrop(!showMenu)
+              }, 300)
             } else {
               document.body.classList.add("menu-open")
               document.body.classList.remove("menu-close")
+              showBackdrop(!showMenu)
             }
           }}
         >
@@ -134,27 +139,33 @@ const Header = ({ searchIndex, pathname, type }) => {
           <hr />
         </ul>
       </div>
-      <div
-        onClick={() => {
-          toggleMenu(!showMenu)
-          if (showMenu) {
-            document.body.classList.add("menu-close")
-            document.body.classList.remove("menu-open")
-          } else {
-            document.body.classList.add("menu-open")
-            document.body.classList.remove("menu-close")
-          }
-        }}
-        className={`${headerStyles.backdrop} ${
-          showMenu === null
-            ? ""
-            : showMenu === true
-            ? headerStyles.open
-            : headerStyles.close
-        }`}
-      >
-        &nbsp;
-      </div>
+      {backdrop === true && (
+        <div
+          onClick={() => {
+            toggleMenu(!showMenu)
+            if (showMenu) {
+              document.body.classList.add("menu-close")
+              document.body.classList.remove("menu-open")
+              setTimeout(() => {
+                showBackdrop(!showMenu)
+              }, 300)
+            } else {
+              document.body.classList.add("menu-open")
+              document.body.classList.remove("menu-close")
+              showBackdrop(!showMenu)
+            }
+          }}
+          className={`${headerStyles.backdrop} ${
+            showMenu === null
+              ? ""
+              : showMenu === true
+              ? headerStyles.open
+              : headerStyles.close
+          }`}
+        >
+          &nbsp;
+        </div>
+      )}
     </>
   )
 }

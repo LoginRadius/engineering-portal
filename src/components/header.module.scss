@@ -313,6 +313,7 @@
 }
 
 .backdrop {
+  z-index: 10;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.36);
   width: 100%;
@@ -322,7 +323,6 @@
   left: 0;
   right: 0;
   position: fixed;
-  z-index: -9999;
   @media (max-width: 768px) {
     &.open,
     &.close {
@@ -497,24 +497,20 @@
 @keyframes backdropOpen {
   from {
     opacity: 0;
-    z-index: 0;
   }
 
   to {
     opacity: 1;
-    z-index: 10;
   }
 }
 
 @-webkit-keyframes backdropOpen {
   from {
     opacity: 0;
-    z-index: 0;
   }
 
   to {
     opacity: 1;
-    z-index: 10;
   }
 }
 
@@ -522,23 +518,19 @@
 @keyframes backdropClose {
   from {
     opacity: 1;
-    z-index: 10;
   }
 
   to {
     opacity: 0;
-    z-index: -9999;
   }
 }
 
 @-webkit-keyframes backdropClose {
   from {
     opacity: 1;
-    z-index: 10;
   }
 
   to {
     opacity: 0;
-    z-index: -9999;
   }
 }
