@@ -84,6 +84,16 @@
   status = 301
 
 [[redirects]]
+  from = "/async/tags/*"
+  to = "/blog/tags/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/async/author/*"
+  to = "/blog/author/:splat"
+  status = 301
+
+[[redirects]]
   from = "/async/*"
   to = "/blog/engineering/:splat"
   status = 301
