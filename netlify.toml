@@ -4,6 +4,86 @@
   status = 301
 
 [[redirects]]
+  from = "/async/react-context-api-guide-with-Example"
+  to = "/blog/engineering/react-context-api-guide-with-example"
+  status = 301
+
+[[redirects]]
+  from = "/async/oAuth-implemenation-using-node"
+  to = "/blog/engineering/oauth-implemenation-using-node"
+  status = 301
+
+[[redirects]]
+  from = "/async/guest-post/implementing-registration-and-authentication-in-django-using-LoginRadius"
+  to = "/blog/engineering/guest-post/implementing-registration-and-authentication-in-django-using-loginradius"
+  status = 301
+
+[[redirects]]
+  from = "/async/AI-and-IoT-The-Perfect-Match"
+  to = "/blog/engineering/ai-and-iot-the-perfect-match"
+  status = 301
+
+[[redirects]]
+  from = "/async/a-journey-with-AWS"
+  to = "/blog/engineering/a-journey-with-aws"
+  status = 301
+
+[[redirects]]
+  from = "/async/Best-hacking-tools"
+  to = "/blog/engineering/best-hacking-tools"
+  status = 301
+
+[[redirects]]
+  from = "/async/Blockchain-the-new-technology-of-security-trust"
+  to = "/blog/engineering/blockchain-the-new-technology-of-security-trust"
+  status = 301
+
+[[redirects]]
+  from = "/async/Full_data_science_pipeline_implementation"
+  to = "/blog/engineering/full-data-science-pipeline-implementation"
+  status = 301
+
+[[redirects]]
+  from = "/async/full_data_science_pipeline_implementation"
+  to = "/blog/engineering/full-data-science-pipeline-implementation"
+  status = 301
+
+[[redirects]]
+  from = "/async/Introduction-to-UniFi-Ubiquiti-Network"
+  to = "/blog/engineering/introduction-to-unifi-ubiquiti-network"
+  status = 301
+
+[[redirects]]
+  from = "/async/Learn-About-VDN-for-CyberSecurity"
+  to = "/blog/engineering/learn-about-vdn-for-cybersecurity"
+  status = 301
+
+[[redirects]]
+  from = "/async/Nodejs-and-MongoDb-application-authentication-by-JWT"
+  to = "/blog/engineering/nodejs-and-mongodb-application-authentication-by-jwt"
+  status = 301
+
+[[redirects]]
+  from = "/async/opensource-Automation-for-identity-experience-framework"
+  to = "/blog/engineering/opensource-automation-for-identity-experience-framework"
+  status = 301
+
+[[redirects]]
+  from = "/async/Optimal-Clusters-KMeans"
+  to = "/blog/engineering/optimal-clusters-kmeans"
+  status = 301
+
+[[redirects]]
+  from = "/async/Secure-Enclave-iOS-app"
+  to = "/blog/engineering/secure-enclave-ios-app"
+  status = 301
+
+[[redirects]]
+  from = "/async/What-is-adaptive-authentication"
+  to = "/blog/engineering/what-is-adaptive-authentication"
+  status = 301
+
+[[redirects]]
   from = "/async/*"
   to = "/blog/engineering/:splat"
   status = 301
