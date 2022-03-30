@@ -2,3 +2,8 @@
   from = "/async"
   to = "/blog/engineering"
   status = 301
+
+[[redirects]]
+  from = "/async/*"
+  to = "/blog/engineering/:splat"
+  status = 301
