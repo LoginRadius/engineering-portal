@@ -7,3 +7,8 @@
   from = "/async/*"
   to = "/blog/engineering/:splat"
   status = 301
+
+[[redirects]]
+  from = "/engineering/*"
+  to = "/blog/engineering/:splat"
+  status = 301
