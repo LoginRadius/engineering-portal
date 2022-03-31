@@ -45,19 +45,16 @@ const Header = ({ searchIndex, pathname, type }) => {
           }`}
           onClick={() => {
             toggleMenu(!showMenu)
-            if (showMenu === true) {
+            if (showMenu) {
               document.body.classList.add("menu-close")
               document.body.classList.remove("menu-open")
               setTimeout(() => {
                 showBackdrop(!showMenu)
               }, 300)
-            } else if (showMenu === false) {
+            } else {
               document.body.classList.add("menu-open")
               document.body.classList.remove("menu-close")
               showBackdrop(!showMenu)
-            } else {
-              document.body.classList.remove("menu-open")
-              document.body.classList.remove("menu-close")
             }
           }}
         >
@@ -92,6 +89,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("/")
+                document.body.classList.remove("menu-open")
               }}
             >
               All
@@ -108,6 +106,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("engineering")
+                document.body.classList.remove("menu-open")
               }}
             >
               Engineering
@@ -122,6 +121,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("identity")
+                document.body.classList.remove("menu-open")
               }}
             >
               Identity
@@ -134,6 +134,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("growth")
+                document.body.classList.remove("menu-open")
               }}
             >
               Growth
@@ -146,19 +147,16 @@ const Header = ({ searchIndex, pathname, type }) => {
         <div
           onClick={() => {
             toggleMenu(!showMenu)
-            if (showMenu === true) {
+            if (showMenu) {
               document.body.classList.add("menu-close")
               document.body.classList.remove("menu-open")
               setTimeout(() => {
                 showBackdrop(!showMenu)
               }, 300)
-            } else if (showMenu === false) {
+            } else {
               document.body.classList.add("menu-open")
               document.body.classList.remove("menu-close")
               showBackdrop(!showMenu)
-            } else {
-              document.body.classList.remove("menu-open")
-              document.body.classList.remove("menu-close")
             }
           }}
           className={`${headerStyles.backdrop} ${
