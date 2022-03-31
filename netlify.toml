@@ -87,7 +87,7 @@
 
 [[redirects]]
   from = "/async/page/guest-blog"
-  to = "/blog/page/guest-blog"
+  to = "/blog/guest-blog"
   status = 301
 
 [[redirects]]
@@ -160,7 +160,7 @@
 
 [[redirects]]
   from = "/start-with-identity/page/guest-blog"
-  to = "/blog/page/guest-blog"
+  to = "/blog/guest-blog"
   status = 301
 
 [[redirects]]
@@ -358,7 +358,7 @@
 
 [[redirects]]
   from = "/fuel/page/guest-blog"
-  to = "/blog/page/guest-blog"
+  to = "/blog/guest-blog"
   status = 301
 
 [[redirects]]
@@ -370,4 +370,3 @@
   from = "/fuel/*"
   to = "/blog/growth/:splat"
   status = 301
-  
