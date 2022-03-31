@@ -89,6 +89,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("/")
+                document.body.classList.remove("menu-open")
               }}
             >
               All
@@ -105,6 +106,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("engineering")
+                document.body.classList.remove("menu-open")
               }}
             >
               Engineering
@@ -119,6 +121,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("identity")
+                document.body.classList.remove("menu-open")
               }}
             >
               Identity
@@ -131,6 +134,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("growth")
+                document.body.classList.remove("menu-open")
               }}
             >
               Growth
