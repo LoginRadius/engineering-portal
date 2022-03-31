@@ -98,4 +98,4 @@ If you have been a victim of identity disclosure, you will end up in danger of c
 Your consumer data privacy and security plan should keep up with technological advancements and the rise of cyber-attacks. To future-proof your consumer data protection plan, consider investing in accordance with the most recent regulations. [Contact us](https://www.loginradius.com/contact-sales) for more information on how we have been securing billions of identities globally. 
 
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -110,4 +110,4 @@ Whether it’s delivering a seamless omnichannel experience across multiple devi
 Enterprises can [leverage LoginRadius CIAM](https://www.loginradius.com/contact-sales/) that helps to scale business growth through a state-of-the-art omnichannel experience reinforced by stringent security.
 
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
