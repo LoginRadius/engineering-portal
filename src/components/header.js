@@ -45,16 +45,19 @@ const Header = ({ searchIndex, pathname, type }) => {
           }`}
           onClick={() => {
             toggleMenu(!showMenu)
-            if (showMenu) {
+            if (showMenu === true) {
               document.body.classList.add("menu-close")
               document.body.classList.remove("menu-open")
               setTimeout(() => {
                 showBackdrop(!showMenu)
               }, 300)
-            } else {
+            } else if (showMenu === false) {
               document.body.classList.add("menu-open")
               document.body.classList.remove("menu-close")
               showBackdrop(!showMenu)
+            } else {
+              document.body.classList.remove("menu-open")
+              document.body.classList.remove("menu-close")
             }
           }}
         >
@@ -143,16 +146,19 @@ const Header = ({ searchIndex, pathname, type }) => {
         <div
           onClick={() => {
             toggleMenu(!showMenu)
-            if (showMenu) {
+            if (showMenu === true) {
               document.body.classList.add("menu-close")
               document.body.classList.remove("menu-open")
               setTimeout(() => {
                 showBackdrop(!showMenu)
               }, 300)
-            } else {
+            } else if (showMenu === false) {
               document.body.classList.add("menu-open")
               document.body.classList.remove("menu-close")
               showBackdrop(!showMenu)
+            } else {
+              document.body.classList.remove("menu-open")
+              document.body.classList.remove("menu-close")
             }
           }}
           className={`${headerStyles.backdrop} ${
