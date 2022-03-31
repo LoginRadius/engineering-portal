@@ -158,4 +158,4 @@ Many companies provide their customers with a [modern digital experience](https:
 
 A CIAM solution like LoginRadius can help you achieve this with customer account information, including data, consent, and activity, accessible from one dashboard.
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -118,6 +118,4 @@ Airports, being large, can be overwhelming for first-time flyers. With IoT cellu
 
 The best aspect of IoT authentication in the airline industry or the general use of IoT is the convenience that it brings. It can ease the anxiety of a passenger as they receive reassurance that their data will not see the light of day. Tracking of luggage and decreased wait times will make the passenger experience a breeze. Therefore, IoT authentication in airlines lay the path towards the future of stress-free traveling.
 
-
-
-[![book-a-demo-loginradius-banner](book-a-demo-loginradius-banner.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

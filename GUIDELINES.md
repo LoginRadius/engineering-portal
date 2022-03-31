@@ -21,7 +21,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 7. Use complete words and then abbreviations. And spell out acronyms that aren't well-known.
 
 8. If your blog post contains a code snippet, don't forget to syntax highlighting it. You can also specify the programming language for which you want syntax highlighting.
-  **For example:** in Markdown, typing "`js will give you JavaScript syntax highlighting.
+  **For example:** in Markdown, typing ```js will give you JavaScript syntax highlighting.
 
 9. If your blog contains demo code, or if you want to include demo code in a repo for easier reference, then [add your demo code in this repo](https://github.com/LoginRadius/engineering-blog-samples) by raising a separate pull request.
 
@@ -35,7 +35,7 @@ Here are the guidelines that you shall follow for writing a blog post for Async 
 
 Here are the guidelines that you shall follow for formatting and submitting your blog post.
 
-1. First of all, create a directory under `/content/guest-post/`. The name of the directory will be the slug of your blog post. Only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
+1. First of all, create a directory under `/content/engineering/guest-post/`. The name of the directory will be the slug of your blog post. Only use lowercase letters and separate words using hyphens. For example, `this-is-my-blog-post-title`
 
 2. Add an `index.md` file and add your blog post content in it. Place any relevant images used in the blog in the same directory as `index.md`.
 

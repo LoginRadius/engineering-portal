@@ -49,4 +49,4 @@ As Aurora WDC transitioned to Hubspot, we stepped up our game and re-integrated 
 
 Aurora WDC - LoginRadius Customer Success Story
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

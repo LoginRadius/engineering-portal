@@ -151,4 +151,4 @@ Credential stuffing is easy to perform, so its popularity with criminals will in
 
 If you're looking for a solution to help prevent credential stuffing, LoginRadius is easy to deploy. It  provides robust security with bot detection and multi-factor authentication, among other safeguards.
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
