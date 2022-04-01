@@ -72,7 +72,7 @@ Audio-oriented consumers better recognize short catchy melodies of high quality.
 
 Statistics say that <a rel="nofollow" href="https://www.smallbizgenius.net/by-the-numbers/branding-statistics/#gref">82% of consumers</a> feel more positive about a brand after reading meaningful content. If you want to increase brand recognizability, pay attention to customers’ preferences and publish customizable content regularly, whether that’s through blog articles or [newsletters](https://www.visme.co/newsletter-maker).
 
-With <a rel="nofollow" href="https://www.essaytigers.com/write-my-essay">Write my essay</a>, brands can improve their visibility and convey unique messages to existing and potential consumers.
+With [Write my essay](https://www.essaytigers.com/write-my-essay), brands can improve their visibility and convey unique messages to existing and potential consumers.
 
 ### Emotion-Oriented Consumers
 
