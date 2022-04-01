@@ -6,6 +6,21 @@
   status = 301
 
 [[redirects]]
+  from = "/async/exception_handling_in_csharp"
+  to = "/blog/engineering/exception-handling-in-csharp"
+  status = 301
+
+[[redirects]]
+  from = "/async/loginscreen_testing_tips"
+  to = "/blog/engineering/loginscreen-testing-tips"
+  status = 301
+
+[[redirects]]
+  from = "/async/what-is-the-new-go-1.15"
+  to = "/engineering/what-is-the-new-go-1-15"
+  status = 301
+
+[[redirects]]
   from = "/async/react-context-api-guide-with-Example"
   to = "/blog/engineering/react-context-api-guide-with-example"
   status = 301
