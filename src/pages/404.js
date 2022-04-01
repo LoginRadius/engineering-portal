@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
-
+import loading from "../../static/loader.gif"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -13,7 +13,11 @@ const NotFoundPage = ({ data, location }) => {
   }, [])
 
   if (!isMount) {
-    return <div>loading</div>
+    return (
+      <div className="loading">
+        <img src={loading} />
+      </div>
+    )
   }
 
   return (
