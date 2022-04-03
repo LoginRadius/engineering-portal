@@ -21,8 +21,16 @@
     }
   }
   .content {
-    max-width: 900px;
-    margin: 0 auto;
+    & > div {
+      .content-inner {
+        border-top: 1px solid $gray-light;
+        & > div {
+          max-width: 900px;
+          margin: 0 auto;
+        }
+      }
+    }
+
     .highlight {
       color: $blue-bright;
     }
@@ -32,6 +40,9 @@
     }
     .guest-blog-btn {
       margin: 48px auto 0;
+      @media (max-width: 768px) {
+        margin: 48px auto 24px;
+      }
     }
   }
 }
