@@ -1,6 +1,4 @@
 const getTimeToRead = require("./src/utils/timeToReadRss")
-console.log("Google Tag MAnager ====>", process.env.GOOGLE_TAGMANAGER_ID)
-console.log("Google Analytics ====>", process.env.GA_TRACKING_ID)
 module.exports = {
   siteMetadata: {
     title: `LoginRadius Blog`,
