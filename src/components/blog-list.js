@@ -14,22 +14,20 @@ const BlogList = props => {
       ? pinnedNode[0].node
       : data.allMarkdownRemark.edges[0].node
   return (
-    <Layout pinnedData={pinnedData} pinned>
+    <Layout pinnedData={pinnedData} pinned pathname={pathname} type={type}>
       <main>
         <CardList
           posts={data.allMarkdownRemark.edges}
           total={total}
           currentPage={currentPage}
           type={type || "all"}
-          isPagination={type}
+          isPagination={type || "all"}
         />
-        {type && (
-          <Pagination
-            pages={numPages}
-            currentPage={parseInt(currentPage)}
-            type={type}
-          />
-        )}
+        <Pagination
+          pages={numPages}
+          currentPage={parseInt(currentPage)}
+          type={type}
+        />
       </main>
     </Layout>
   )

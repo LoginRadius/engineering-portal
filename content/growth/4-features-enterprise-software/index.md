@@ -2,6 +2,7 @@
 title: "4 Main Features of Enterprise Software"
 date: "2021-10-27"
 coverImage: "enteprise-software.jpg"
+category: ["all", "other"]
 featured: false 
 author: "Shivangini Yadav"
 description: "Companies want to stay competitive and so their actions must be cost-efficient, adaptable, and time-saving. Enterprise software ensures the fulfillment of those specific needs by drastically improving the workflow between countless departments that make up corporate systems."

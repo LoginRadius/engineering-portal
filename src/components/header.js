@@ -1,51 +1,95 @@
-import React, { useState } from "react"
 import { Link } from "gatsby"
-
-import * as headerStyles from "./header.module.scss"
+import React, { useCallback, useEffect, useState } from "react"
 import LogoLr from "../../static/logo-blog.svg"
-import Hamburger from "../../static/iconHamburger.svg"
-import Close from "../../static/icon-close.svg"
+import headerStyles from "./header.module.scss"
+import searchStyles from "./search.module.scss"
 import Search from "./search"
 
-const Header = ({ searchIndex }) => {
-  const [showMenu, toggleMenu] = useState(false)
-  let pathname = ""
-  if (typeof window !== `undefined`) {
-    pathname = window.location.pathname.substring(1)
-  }
+const Header = ({ searchIndex, pathname, type }) => {
+  const [showMenu, toggleMenu] = useState(null)
+  const [active, setActive] = useState(type ? pathname : "/")
+  const [scrollClass, setClass] = useState("")
+  const [backdrop, showBackdrop] = useState(null)
 
-  const [active, setActive] = useState(pathname)
+  const handleNavigation = useCallback(e => {
+    const currWin = e.currentTarget
+    if (currWin.scrollY < 1) {
+      setClass("")
+    } else if (currWin.scrollY > 1) {
+      setClass("scrollUp")
+    }
+  })
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleNavigation)
+
+    return () => {
+      window.removeEventListener("scroll", handleNavigation)
+    }
+  }, [handleNavigation])
 
   return (
     <>
-      <div className={headerStyles.header}>
+      <div
+        className={`${headerStyles.header} ${
+          showMenu === null
+            ? ""
+            : showMenu === true
+            ? headerStyles.open
+            : headerStyles.close
+        }`}
+      >
         <div
           className={`${headerStyles.hamburger} ${
             showMenu ? headerStyles.active : ""
           }`}
-          onClick={() => toggleMenu(!showMenu)}
+          onClick={() => {
+            toggleMenu(!showMenu)
+            if (showMenu) {
+              document.body.classList.add("menu-close")
+              document.body.classList.remove("menu-open")
+              setTimeout(() => {
+                showBackdrop(!showMenu)
+              }, 300)
+            } else {
+              document.body.classList.add("menu-open")
+              document.body.classList.remove("menu-close")
+              showBackdrop(!showMenu)
+            }
+          }}
         >
-          <img src={Hamburger} className={headerStyles.iconHamburger} />
-          <img src={Close} className={headerStyles.iconClose} />
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <Link className={headerStyles.logo} to={"/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </Link>
-        <Search searchIndex={searchIndex} />
+        <Search
+          customClass={`${
+            showMenu ? searchStyles.deactive : searchStyles.active
+          }`}
+          searchIndex={searchIndex}
+        />
       </div>
       <div
         className={`${headerStyles.navigation} ${
-          showMenu ? headerStyles.open : ""
-        }`}
+          showMenu === null
+            ? ""
+            : showMenu === true
+            ? headerStyles.open
+            : headerStyles.close
+        }  ${scrollClass}`}
       >
         <ul>
-          <li className={active === "" ? headerStyles.active : ""}>
+          <li className={active === "/" ? headerStyles.active : ""}>
             <Link
               to={"/"}
               activeClassName={headerStyles.active}
               partiallyActive={true}
               onClick={e => {
-                setActive("")
+                setActive("/")
+                document.body.classList.remove("menu-open")
               }}
             >
               All
@@ -62,6 +106,7 @@ const Header = ({ searchIndex }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("engineering")
+                document.body.classList.remove("menu-open")
               }}
             >
               Engineering
@@ -76,6 +121,7 @@ const Header = ({ searchIndex }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("identity")
+                document.body.classList.remove("menu-open")
               }}
             >
               Identity
@@ -88,6 +134,7 @@ const Header = ({ searchIndex }) => {
               partiallyActive={true}
               onClick={e => {
                 setActive("growth")
+                document.body.classList.remove("menu-open")
               }}
             >
               Growth
@@ -96,6 +143,33 @@ const Header = ({ searchIndex }) => {
           <hr />
         </ul>
       </div>
+      {backdrop === true && (
+        <div
+          onClick={() => {
+            toggleMenu(!showMenu)
+            if (showMenu) {
+              document.body.classList.add("menu-close")
+              document.body.classList.remove("menu-open")
+              setTimeout(() => {
+                showBackdrop(!showMenu)
+              }, 300)
+            } else {
+              document.body.classList.add("menu-open")
+              document.body.classList.remove("menu-close")
+              showBackdrop(!showMenu)
+            }
+          }}
+          className={`${headerStyles.backdrop} ${
+            showMenu === null
+              ? ""
+              : showMenu === true
+              ? headerStyles.open
+              : headerStyles.close
+          }`}
+        >
+          &nbsp;
+        </div>
+      )}
     </>
   )
 }

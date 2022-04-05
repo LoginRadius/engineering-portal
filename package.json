@@ -43,17 +43,22 @@
     "typeface-barlow": "0.0.71"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "eslint-config-react-app": "^7.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/LoginRadius/engineering-portal#readme",
   "keywords": [
-    "gatsby"
+    "blog",
+    "technology",
+    "knowledge"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/LoginRadius/engineering-portal.git"
   },
   "scripts": {
     "build": "gatsby build --prefix-paths --log-pages ",
@@ -63,6 +68,11 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "info": "gatsby info"
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx}": [
+      "prettier --write"
+    ]
   }
 }

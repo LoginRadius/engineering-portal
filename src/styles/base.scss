@@ -13,12 +13,16 @@ html {
   box-sizing: border-box;
   font-size: $basefont;
   scroll-behavior: smooth;
+  overflow: inherit;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: $font-stack;
   color: $gray-darkest;
+  &.menu-open {
+    overflow: hidden;
+  }
 }
 *,
 *:before,
@@ -102,21 +106,19 @@ ul {
   padding: 0;
 }
 .btn-primary {
-  padding: 0 $gutter;
-  height: 52px;
+  padding: $gutter/2 $gutter;
+  min-height: 52px;
   border-radius: 4px;
   font-size: 20px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 1.2;
   text-transform: uppercase;
   width: 100%;
   max-width: 200px;
   cursor: pointer;
   background-color: $lr-orange;
-
   text-align: center;
   display: block;
-  white-space: nowrap;
   transition: all 0.3s;
   border: 0;
   transition: color 0.35s, background-color 0.35s, border-color 0.35s,
@@ -169,11 +171,57 @@ ul {
   }
   &.disabled {
     background: #e8e9ea !important;
-    cursor: not-allowed;
+    cursor: default;
     &:hover,
     &:focus {
       transform: scale(1);
     }
+  }
+  &.btn_wait {
+    background-color: $blue-bright;
+    background-image: linear-gradient(
+      -85deg,
+      $blue-bright 0%,
+      $blue-bright 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $blue-bright 60%,
+      $blue-bright 100%
+    );
+  }
+  &.btn_success {
+    background-color: $success;
+    background-image: linear-gradient(
+      -85deg,
+      $success 0%,
+      $success 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $success 60%,
+      $success 100%
+    );
+    overflow: hidden;
+    &.active {
+      position: relative;
+      &:after {
+        animation: progress-anim 7s ease 0s;
+        position: absolute;
+        content: "";
+        inset: 0;
+        width: 0%;
+        background: rgba(255, 255, 255, 0.2);
+        height: 52px;
+      }
+    }
+  }
+  &.btn_error {
+    background-color: $error;
+    background-image: linear-gradient(
+      -85deg,
+      $error 0%,
+      $error 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $error 60%,
+      $error 100%
+    );
   }
 }
 .btn-secondary {
@@ -207,7 +255,7 @@ ul {
   }
 }
 .mb-0 {
-  margin-bottom: $space-0;
+  margin-bottom: $space-0 !important;
 }
 .py-40 {
   padding: 40px 0;
@@ -217,6 +265,10 @@ ul {
   @media (max-width: 768px) {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  @media (max-width: 480px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 .pt-96 {
@@ -283,6 +335,7 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter;
         width: calc(33.33% - #{math.div($gutter * 2, 3)});
         @media (max-width: 768px) {
@@ -313,6 +366,7 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter * 2;
         width: calc(50% - #{$gutter * 2} / 2);
         @media (max-width: 767px) {
@@ -329,16 +383,17 @@ section {
       flex-wrap: wrap;
       & > div {
         display: inline-block;
+        vertical-align: top;
         margin-right: $gutter * 3;
         width: calc(67% - #{$gutter * 3} * 1 / 2);
         &:nth-child(2n) {
           margin-right: 0;
-          width: calc(33% - #{$gutter * 3} * 1 / 2);
-          @media (max-width: 768px) {
+          width: calc(33% - #{#{$gutter * 3} * 1 / 2});
+          @media (max-width: 950px) {
             width: 100%;
           }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 950px) {
           width: 100%;
           margin-right: 0;
         }
@@ -450,6 +505,31 @@ section {
 .input--hidden {
   display: none !important;
 }
-#commento {
-  margin: $gutter * 2 0;
+
+@keyframes progress-anim {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .scrollUp {
+    opacity: 0;
+  }
+}
+.loading {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
 }

@@ -5,7 +5,7 @@
   .blog-content-pinned {
     display: flex;
     margin: -15px auto;
-    @media (max-width: 768px) {
+    @media (max-width: 950px) {
       margin: 0 auto;
       flex-direction: column;
     }
@@ -18,12 +18,15 @@
       -webkit-filter: brightness(0.95);
       &:nth-child(2) {
         padding-left: $gutter * 2;
-        @media (max-width: 768px) {
+        @media (max-width: 950px) {
           padding-left: 0;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: 950px) {
         width: 100%;
+      }
+      @media (max-width: 480px) {
+        padding: 0 0 15px;
       }
     }
     .avatar-pinned {
@@ -48,10 +51,8 @@
 
       a {
         & > div {
-          @media (min-width: 769px) {
-            height: 402px !important;
-            width: 100% !important;
-            object-fit: cover;
+          @media (min-width: 951px) {
+            height: 402px;
           }
           @media (max-width: 480px) {
             height: 257px !important;
@@ -90,15 +91,30 @@
   &.post-detail {
     .blog-content-pinned {
       // flex-direction: row-reverse;
-      @media (max-width: 768px) {
+      @media (max-width: 950px) {
         flex-direction: column-reverse;
       }
       & > div {
+        &:nth-child(1) {
+          @media (max-width: 950px) {
+            padding: 30px 0 15px 0;
+          }
+        }
         &:nth-child(2) {
           padding-right: 0;
           padding-left: $gutter * 2;
-          @media (max-width: 768px) {
+          @media (max-width: 950px) {
             padding: 0;
+          }
+        }
+        &.avatar-pinned {
+          & > div {
+            @media (min-width: 951px) {
+              height: 402px;
+            }
+            @media (max-width: 480px) {
+              height: 257px;
+            }
           }
         }
       }
@@ -213,9 +229,17 @@
 
 .sidebar {
   $transition: all 300ms;
+  @media (max-width: 950px) {
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   .sidebar-widget {
     &:not(:first-child) {
       margin-top: $gutter * 3;
+    }
+    &:last-child {
+      margin-bottom: $gutter * 2;
     }
     &.subscribe {
       overflow: hidden;
@@ -392,19 +416,24 @@
           font-weight: 700;
         }
       }
+      @media (max-width: 950px) {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
   &.detail-page {
     margin: 0;
     .subscribe-detail {
-      margin-bottom: $gutter * 2;
-      @media screen and (min-width: 769px) {
-        max-width: 64%;
-      }
+      margin-bottom: $gutter * 4;
       color: $white;
       border-radius: math.div($gutter, 6);
       box-shadow: 0px 0px $gutter*0.25 0px $blue-bright;
       background-color: $lr-orange;
+      @media (max-width: 768px) {
+        margin-bottom: $gutter * 3;
+      }
       h3 {
         padding: $gutter;
       }
@@ -440,9 +469,6 @@
     }
     .posts {
       margin-bottom: $gutter * 3;
-      @media screen and (min-width: 769px) {
-        max-width: 64%;
-      }
     }
   }
 }

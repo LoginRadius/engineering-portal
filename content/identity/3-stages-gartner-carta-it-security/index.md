@@ -2,7 +2,7 @@
 title: "3 Best Stages of IT Security for Implementing Gartner's CARTA"
 date: "2021-11-10"
 coverImage: "carta.jpg"
-tags: ["all", "security"]
+tags: ["security"]
 featured: false
 author: "Vishal Sharma"
 description: "CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner to help cybersecurity experts ensure a stringent mechanism to handle vulnerabilities."
@@ -72,4 +72,4 @@ CARTA’s risk reduction model is [built on the premise](https://www.loginradius
 Hence, businesses striving to implement the best security practices must consider relying on CARTA for enhanced risk management for their organization.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

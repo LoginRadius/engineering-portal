@@ -22,10 +22,7 @@ const Home = props => {
 
 export const allBlogQuery = graphql`
   query allBlogQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 6
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {

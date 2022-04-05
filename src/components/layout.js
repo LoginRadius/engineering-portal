@@ -4,7 +4,7 @@ import Footer from "./footer"
 import Header from "./header"
 import PinnedCard from "./pinnedCard"
 
-const Layout = ({ postPage, children, pinned, pinnedData }) => {
+const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
   return (
     <div>
       <StaticQuery
@@ -30,9 +30,13 @@ const Layout = ({ postPage, children, pinned, pinnedData }) => {
         render={data => {
           return (
             <>
-              <Header searchIndex={data.siteSearchIndex.index} />
-              <div>
-                <div>
+              <Header
+                searchIndex={data.siteSearchIndex.index}
+                pathname={pathname}
+                type={type}
+              />
+              <div className={layoutStyles.pinnedwrap}>
+                <div className={layoutStyles.blogContentPinned}>
                   {pinned && <PinnedCard pinnedData={pinnedData} />}
                 </div>
               </div>

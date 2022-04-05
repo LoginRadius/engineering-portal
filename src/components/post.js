@@ -11,7 +11,9 @@ import FuelFeatList from "./featurePost/fuel"
 import IdentityFeatList from "./featurePost/identity"
 import * as styles from "./post.module.scss"
 import Subscribe from "./subscribe"
-import TagMenu from "./tagMenu"
+import TagMenu from "./tagmenu"
+import AsyncTagMenu from "./tagmenu/async"
+import IdentityTagMenu from "./tagmenu/identity"
 import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
@@ -82,7 +84,12 @@ const Post = ({ post, relatedPost, type }) => {
             </div>
           </div>
           <div className={headStyles.avatarPinned}>
-            <GatsbyImage image={image.childImageSharp.gatsbyImageData} Tag="div" className="bs-md" alt={post.frontmatter.title} />
+            <GatsbyImage
+              image={image.childImageSharp.gatsbyImageData}
+              Tag="div"
+              className="bs-md"
+              alt={post.frontmatter.title}
+            />
           </div>
         </div>
       </section>
@@ -109,9 +116,9 @@ const Post = ({ post, relatedPost, type }) => {
                 <div className={styles.aboutAuthor}>
                   <div className={styles.aboutAuthorInner}>
                     <h3>
-                      Writter by&nbsp;
-                      <Link to={`/author/${kebabCase(author.jsonId)}/`}>
-                        {author.jsonId}
+                      Written by&nbsp;
+                      <Link to={`/author/${kebabCase(author.id)}/`}>
+                        {author.id}
                       </Link>
                     </h3>
                     <p>{author.bio}</p>
@@ -162,9 +169,15 @@ const Post = ({ post, relatedPost, type }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              <div className={`${headStyles.sidebarWidget} ${headStyles.tags}`}>
-                <TagMenu />
-              </div>
+              {type !== "fuel" && (
+                <div
+                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
+                >
+                  {type === "all" && <TagMenu />}
+                  {type === "async" && <AsyncTagMenu />}
+                  {type === "start-with-identity" && <IdentityTagMenu />}
+                </div>
+              )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
                 <div className={headStyles.image}>
@@ -195,10 +208,6 @@ const Post = ({ post, relatedPost, type }) => {
           </div>
         </div>
         {headings && headings.length && <ToC headings={headings} />}
-
-        <div>
-          <div id="commento"></div>
-        </div>
       </section>
       <section className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>

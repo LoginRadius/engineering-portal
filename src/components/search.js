@@ -8,6 +8,8 @@ import { navigate } from "gatsby"
 export default class Search extends Component {
   constructor(props) {
     super(props)
+    this.textInput = React.createRef()
+    this._toggleSearch = this._toggleSearch.bind(this)
     this.state = {
       query: ``,
       results: [],
@@ -26,6 +28,7 @@ export default class Search extends Component {
         query: "",
       })
     } else {
+      this.textInput.current.focus()
       this.setState({
         toggleOpen: true,
       })
@@ -45,7 +48,12 @@ export default class Search extends Component {
   handleSubmit = event => {
     event.preventDefault()
     const query = this.state.query
-    navigate(`/search/?${query}`)
+    navigate(`/search?query=${query}`)
+    this.setState({
+      toggleOpen: false,
+      results: [],
+      query: "",
+    })
   }
 
   componentDidMount() {
@@ -57,13 +65,21 @@ export default class Search extends Component {
   }
 
   render() {
-    const { results, toggleOpen } = this.state
+    const { results, toggleOpen, query } = this.state
     return (
       <>
         <a
-          className={searchStyle.btnSearch}
+          className={`${searchStyle.btnSearch} ${this.props.customClass}`}
           tabIndex={0}
-          onClick={this._toggleSearch}
+          onClick={e => {
+            if (query === "") {
+              this._toggleSearch()
+            } else {
+              this.handleSubmit(e)
+            }
+          }}
+          onMouseOver={() => (this._shouldClose = false)}
+          onMouseLeave={() => (this._shouldClose = true)}
         >
           <div
             className={`${searchStyle.megaMenuSearchDarkIcon} ${
@@ -98,11 +114,12 @@ export default class Search extends Component {
                 ? searchStyle.searchInputBtoW
                 : searchStyle.searchInputWtoB
             }`}
-            placeholder="Search..."
             onChange={this.search}
             onFocus={this.search}
             onSubmit={this.search}
+            value={this.state.query}
             required
+            ref={this.textInput}
           />
           <label htmlFor="search" className={searchStyle.searchButton}></label>
           <input type="submit" className={searchStyle.searchButton} />
@@ -112,11 +129,19 @@ export default class Search extends Component {
             {results.slice(0, 4).map(page => (
               <li key={page.id}>
                 <div>
-                  <Link to={page.path}>{page.title}</Link>
+                  <Link to={page.slug}>{page.title}</Link>
                 </div>
                 {/* <p>{page.tags ? page.tags.join(`, `) : ""}</p> */}
               </li>
             ))}
+          </ul>
+        ) : this.state.query != "" ? (
+          <ul className={searchStyle.result}>
+            <li className={searchStyle.noresult}>
+              <div>
+                <span>No results found</span>
+              </div>
+            </li>
           </ul>
         ) : null}
       </>

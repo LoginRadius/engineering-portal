@@ -1,6 +1,6 @@
 ---
 title: "Local Storage vs. Session Storage vs. Cookies"
-date: "2022-01-07"
+date: "2022-01-12"
 coverImage: "blog-banner.png"
 author: "Siddhant Varma"
 tags: ["Cookie", "Browser Storage", "Authentication", "JWT"]
@@ -57,7 +57,7 @@ Let's first take a peek at where the session storage resides in the browser:
 
 1. Open the developer tools in the browser and head over to the "Application" tab.
 
-   ![Application Tab Screenshot](./application-tab-screenshot.png)
+   ![Application Tab Screenshot](./application-tab-screenshot.PNG)
 
 2. Under the storage section, you'll find a section named "Session Storage".
 

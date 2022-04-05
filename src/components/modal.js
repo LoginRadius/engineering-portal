@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { toast } from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
-import * as styles from "./modal.module.scss"
-
-toast.configure()
+import styles from "./modal.module.scss"
 
 const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
@@ -32,8 +28,16 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     }
   }, [email])
 
+  let timer = null
+
   const subscribeSIB = () => {
     setLoading(true)
+    setNewsLetterSubscription({
+      subscribeEmail: "",
+      subscribeCall: false,
+      responseMsg: "",
+      respClass: "",
+    })
     let url =
       "https://7b214b8d.sibforms.com/serve/MUIEAEF8n18XivpuJIaBkdU9WqFwLX9Jyw4tftr7sucfONVH3neyxUoT96-GLKbvG2XNErWp9O_PulTWQkjxwMDDCECPzvWressylUfBxyOp7cRr0levyjI4o4qtescHBvWd7AF1gxJ9xA0roVaMek-2WZ5sEhFZb-RsbcOLZHUwnWT6ICVTGUsWhOiWusq0aQY4rVnTDaM_S_O7?isAjax=1"
     var data = new FormData()
@@ -49,7 +53,6 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     }
 
     data.append("EMAIL", newsLetterSubscription.subscribeEmail)
-    // data.append("token", "a8a0147575b32dfa7f5e76d83afbf189")
     let xmlhttp = new XMLHttpRequest()
     xmlhttp.open("POST", url, true)
     xmlhttp.onload = function () {
@@ -61,29 +64,26 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           responseMsg: resp.message,
           respClass: "success",
         })
-        let notify = () => toast.info(resp.message)
-        notify()
-        toggleEmail()
-        toggle()
-        //document.getElementById("subscription-form").reset()
-      } else if (xmlhttp.status === 500) {
+        timer = setTimeout(() => {
+          toggle()
+          toggleEmail()
+          clearTimeout(timer)
+        }, 7000)
+      } else {
         setNewsLetterSubscription({
           ...newsLetterSubscription,
           responseMsg: resp.message,
           respClass: "error",
         })
-        let notify = () => toast.error(resp.message)
-        notify()
-      } else {
-        setNewsLetterSubscription({
-          ...newsLetterSubscription,
-          subscribeCall: false,
-          respClass: "",
-        })
-        let notify = () =>
-          toast.error("An error has occured, please try again!")
-        notify()
       }
+      setLoading(false)
+    }
+    xmlhttp.onerror = function (ev) {
+      setNewsLetterSubscription({
+        ...newsLetterSubscription,
+        responseMsg: ev.message,
+        respClass: "error",
+      })
       setLoading(false)
     }
     xmlhttp.send(data)
@@ -95,7 +95,14 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   return (
     <div className={`${styles.modal} ${isOpen ? "" : styles.hide}`}>
       <div className={styles.modalBody}>
-        <a className={styles.modalClose} onClick={toggle}>
+        <a
+          className={styles.modalClose}
+          onClick={() => {
+            toggle()
+            toggleEmail()
+            clearTimeout(timer)
+          }}
+        >
           <svg
             width="512"
             height="512"
@@ -154,21 +161,50 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
           </div>
           <div className={`${styles.modalFooter} d-flex`}>
             <a
-              className={`${"btn btn-primary"} ${noType() ? "disabled" : ""}`}
-              disabled={
-                newsLetterSubscription.subscribeCall || loading || noType()
+              className={`btn btn-primary ${
+                newsLetterSubscription.respClass === "success"
+                  ? "btn_success active"
+                  : newsLetterSubscription.respClass === "error"
+                  ? "btn_error"
+                  : loading
+                  ? "btn_wait"
+                  : ""
+              } ${noType() ? "disabled" : ""}`}
+              onClick={() =>
+                !loading &&
+                newsLetterSubscription.respClass !== "success" &&
+                subscribeSIB()
               }
-              onClick={() => !loading && subscribeSIB()}
             >
-              {loading ? "Please Wait" : "Subscribe"}
+              {newsLetterSubscription.respClass === "success"
+                ? "Subscribed"
+                : newsLetterSubscription.respClass === "error"
+                ? "Try Again"
+                : loading
+                ? "Please Wait"
+                : "Subscribe"}
             </a>
-            <a className="btn btn-secondary" onClick={toggle}>
+            <a
+              className="btn btn-secondary"
+              onClick={() => {
+                toggle()
+                toggleEmail()
+                clearTimeout(timer)
+              }}
+            >
               Cancel
             </a>
           </div>
         </div>
       </div>
-      <div className={styles.overlay}></div>
+      <div
+        className={styles.overlay}
+        onClick={() => {
+          toggle()
+          toggleEmail()
+          clearTimeout(timer)
+        }}
+      ></div>
     </div>
   )
 }
