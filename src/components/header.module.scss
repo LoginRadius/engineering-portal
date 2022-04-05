@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @import "../styles/variables.scss";
 .top-strip {
   position: relative;
@@ -238,7 +240,7 @@
         align-items: center;
         @media (max-width: 768px) {
           justify-content: flex-start;
-          padding: 0 $gutter + $gutter/3;
+          padding: 0 $gutter + math.div($gutter, 3);
         }
         @media (max-width: 480px) {
           padding: 0 $gutter;
