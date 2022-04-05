@@ -1,14 +1,16 @@
 ---
-title: "What is CIAM? - Discover The Benefits (Updated)"
+title: "What is CIAM? - Discover The Benefits"
 date: "2019-06-03"
 coverImage: "feature-image-2-1.jpg"
-tags: ["public-sector"]
+tags: ["customer-identity", "identity-management", "login-experience", "authentication"]
 featured: false 
 author: "Rakesh Soni" 
 description: "The customer login experience is taken over by customer identity and access management (CIAM). There's more than just registration and authentication at stake. You're losing out on a host of advantages if all you get from your clients when they log in is an email address to send newsletters and passwords. We illustrate in this article how CIAM will help the organisation face the future head-on."
 metatitle: "What is CIAM? - Discover The Benefits | LoginRadius"
 metadescription: "Customer identity and access management (CIAM) are taking over the customer experience. There's more at stake than just registration & authentication."
 ---
+
+## Introduction
 
 Customer identity and access management (CIAM) is taking over the customer login experience. There’s more at stake than just registration and authentication. In this article, we have explained how CIAM can help your business face the future head-on.
 
@@ -24,7 +26,7 @@ A CIAM solution usually offers a combination of features including customer regi
 
 At the extreme scale and performance, a customer identity and access management solutions ensure a secure, seamless customer experience regardless of which channels (web, mobile, tablet, etc.) customers use to engage with an organization.
 
-## What Is Customer Identity and Access Management (CIAM)?
+## What is Customer Identity and Access Management (CIAM)?
 
 **Customer identity and access management** (CIAM) is a digital identity management software solution for businesses that combines login verification with customer data storage. CIAM aims to improve the customer's sign-up and login experience while securely managing customer identities. 
 
@@ -157,5 +159,27 @@ A customer identity access management solution can bridge the gap between your c
 Many companies provide their customers with a [modern digital experience](https://www.loginradius.com/blog/2018/05/customer-experience-driving-digital-transformations/), thanks to a customer identity management system. If you want to give your customers the same advantages, the time to act is now.
 
 A CIAM solution like LoginRadius can help you achieve this with customer account information, including data, consent, and activity, accessible from one dashboard.
+
+## Frequently Asked Questions (FAQs)
+
+**1. What is the difference between CIAM and IAM?**
+
+A CIAM (consumer identity and access management) solution manages your services’ external consumer identities, whereas an IAM (workforce identity and access management) solution manages your organization's identities. [Read more](https://www.loginradius.com/blog/start-with-identity/iam-vs-ciam/).
+
+**2. Why is CIAM important?**
+
+CIAM enables businesses to enable quick, convenient, secure and unified access across multiple channels. Moreover, a CIAM solution allows you to use customer data, including [customer behavior](https://www.loginradius.com/customer-insights/), to understand your target audience better and tailor your service, products, and marketing. 
+
+**3. How does CIAM protect customer data?**
+
+A CIAM solution includes various authentication mechanisms like multi-factor authentication (MFA), [risk-based authentication (RBA)](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/), and more to ensure even if the primary layer of protection like passwords is compromised, access is restricted to a particular account. 
+
+**4. How much does a CIAM cost?**
+
+Typically, there are [different plans](https://www.loginradius.com/pricing/) for enterprises and developers. Businesses can choose monthly, quarterly, or yearly plans depending on the services and needs. 
+
+**5. How do I get CIAM?**
+
+You can contact the [LoginRadius sales](https://www.loginradius.com/contact-sales/) team to schedule a free personalized demo and learn how the leading cloud-based CIAM works for your business. 
 
 [![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
