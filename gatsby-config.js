@@ -1,6 +1,4 @@
-require("dotenv").config({ path: `${__dirname}/.env` })
 const getTimeToRead = require("./src/utils/timeToReadRss")
-
 module.exports = {
   siteMetadata: {
     title: `LoginRadius Blog`,

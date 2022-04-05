@@ -1,20 +1,10 @@
-import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
-
+import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = ({ data, location }) => {
-  const [isMount, setMount] = useState(false)
   const siteTitle = data.site.siteMetadata.title
-
-  useEffect(() => {
-    setMount(true)
-  }, [])
-
-  if (!isMount) {
-    return <div>loading</div>
-  }
 
   return (
     <Layout location={location} title={siteTitle}>

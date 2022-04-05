@@ -90,4 +90,4 @@ To learn more about the omnichannel customer experience, here is an infographic 
 
 Building an omnichannel customer experience does not necessarily mean having to invest in new-age digital technologies. It rather means channelizing your [customers in a centralized environment](https://www.loginradius.com/blog/2019/12/identity-as-a-service-for-business/). The LoginRadius identity solution supports automated pathways, doubles customer experiences, and humanizes interactions with every customer
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

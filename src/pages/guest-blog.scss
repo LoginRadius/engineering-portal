@@ -21,10 +21,28 @@
     }
   }
   .content {
-    max-width: 900px;
-    margin: 0 auto;
+    & > div {
+      .content-inner {
+        border-top: 1px solid $gray-light;
+        & > div {
+          max-width: 900px;
+          margin: 0 auto;
+        }
+      }
+    }
+
     .highlight {
       color: $blue-bright;
+    }
+    ul {
+      margin-left: 16px;
+      padding-left: 16px;
+    }
+    .guest-blog-btn {
+      margin: 48px auto 0;
+      @media (max-width: 768px) {
+        margin: 48px auto 24px;
+      }
     }
   }
 }
@@ -32,10 +50,6 @@
 .text-center {
   margin: 0 auto;
   text-align: center;
-}
-
-ul {
-  margin-left: 16px;
 }
 
 @media (max-width: 675px) {

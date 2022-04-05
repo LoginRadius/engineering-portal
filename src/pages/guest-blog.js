@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import HeroImage from "../../content/assets/contribute_lr.jpg"
 import SEO from "../components/seo"
-
+import styles from "../components/cardlist.module.scss"
 import "./guest-blog.scss"
 const Hacktoberfest2020 = () => {
   return (
@@ -13,149 +13,191 @@ const Hacktoberfest2020 = () => {
         image={HeroImage}
       />
       <div className="guest-blog">
-        <section className="hero-section">
-          <div className="grid-50">
-            <div>
-              <h1>Write for LoginRadius Guest Blogging Program</h1>
-              <p>
-                For technical people who have practical, tangible, hands-on
-                experience to share with our blog readers about relevant
-                industry topics or LoginRadius products, it is a great
-                opportunity to write an article for The LoginRadius Async Blog.
-              </p>
+        <section key={"pinned_card"} className={`${styles.pinnedwrap} py-96`}>
+          <div className={styles.blogContentPinned}>
+            <div className={styles.avatarPinned}>
+              <img
+                src={HeroImage}
+                className="bs-md"
+                alt="LoginRadius Guest Blogging Program"
+              />
             </div>
-            <div>
-              <img src={HeroImage} alt="LoginRadius Guest Blogging Program" />
+            <div className={styles.descriptionPinned}>
+              <div className={styles.description}>
+                <h1>Write for LoginRadius</h1>
+                <p className={`${styles.descriptiontext} ${styles.pinned}`}>
+                  Thank you for showing interest in writing for us. Join our
+                  community of IT leaders and tech practitioners and become a
+                  contributor today!
+                </p>
+                <p>
+                  At{" "}
+                  <a href="https://www.loginradius.com/" target="_blank">
+                    LoginRadius
+                  </a>
+                  , we like to keep the discussion going. So, if you are a
+                  passionate writer and would love to contribute to our niche
+                  industry that includes Customer Identity and Access Management
+                  (CIAM), Authentication, Cybersecurity, Data Security, Consumer
+                  Experience, and Data Governance, you are welcome to write for
+                  us.
+                </p>
+                <p className="mb-0">
+                  All you need to have is the ability to contribute fresh,
+                  highly engaging and 100% original content. We'll do our best
+                  to include your piece in our coverage.
+                </p>
+              </div>
             </div>
           </div>
         </section>
-        <section className="content py-96">
+
+        <section className="content ">
           <div>
-            <h3>Why write for LoginRadius?</h3>
-            <p>
-              We don’t think about the LoginRadius blog as a marketing channel
-              for announcements, but rather a publication where developers and
-              industry professionals can learn more about emerging trends, find
-              how-tos, and any content that makes their jobs and careers better.
-            </p>
-            <p>
-              Our goal is to provide engaging, inspiring, and educational
-              content to our readers to help them in their everyday work and
-              career. With LoginRadius you reach out to a vast developer
-              audience and get good personal branding apart from monetary
-              benefits.
-            </p>
-            <h3>Monetary Rewards: Upto $200 Per Blog!</h3>
-            <p>
-              We believe you should be paid for your efforts. For each blog
-              shortlisted for our Engineering Blog, we offer Upto $200 USD.
-            </p>
+            <div className="content-inner py-96">
+              <div>
+                <h3>Guidelines for Article Submission</h3>
+                <ul>
+                  <li>
+                    Kindly go through our blogs and submit 3 best headline ideas
+                    for your proposed guest posts
+                  </li>
+                  <li>
+                    We will confirm a topic from your given suggestions and you
+                    can start writing thereafter.
+                  </li>
+                  <li>
+                    Use Google docs to submit your drafts as it is easier for
+                    our editors to provide feedback directly on your draft.
+                  </li>
+                  <li>Send us a copy that's easier to read.</li>
+                  <li>
+                    Submit a summary (two sentences), author byline, author bio,
+                    author photo. We'd love to add your social media handles
+                    too.
+                  </li>
+                </ul>
+                <h3>What Are We Looking For?</h3>
+                <ul>
+                  <li>
+                    We welcome creative, 100% original, well-researched content
+                    with actionable tips. So, when you are pitching your ideas
+                    to us, make sure you mention how it fills our requirements.
+                  </li>
+                  <li>
+                    Posts must not be written in an overly salesy or promotional
+                    tone. We reserve the right to reject any post that does not
+                    conform to our guidelines.
+                  </li>
+                  <li>
+                    Write in your voice. We'd love your distinct opinion on the
+                    topic.
+                  </li>
+                  <li>
+                    Your blogs should be at least 800 words long, most are in
+                    the 800-1000 range.
+                  </li>
+                  <li>
+                    Any claim you make must be backed by links to research. Use
+                    primary sources only and they should not be 1-1.5 years old.
+                    However, make sure they aren't our competitors.
+                  </li>
+                  <li>
+                    Try to explain with examples or case studies, and add
+                    relevant images to illustrate your point, wherever possible.
+                    We do not entertain stock photos, as they do not add any
+                    value.
+                  </li>
+                  <li>
+                    Use proper formatting: titles, H1, H2, and H3 tags as
+                    required.
+                  </li>
+                </ul>
 
-            <h3>What is the publication process?</h3>
-            {/* <h4> Apply, collaborate, write, revise, publish, and repeat.</h4> */}
-            <ul style={{ paddingLeft: "16px" }}>
-              <li>
-                Apply: Apply to the program with your topic idea, an outline of
-                your blog, and a writing sample that showcases your ability to
-                explain your technical knowledge to others. We publish only
-                original, first-run content under a Creative Commons license.
-              </li>
-              {/* <li>
-                Guidance : If you're accepted, you'll work with the editorial
-                team to refine your topic and outline for your tutorial.
-              </li> */}
-              <li>
-                Write: Once your topic is approved, it's time to write. We
-                provide resources, like our writing guidelines and best
-                practices recommendations to help you get started.
-              </li>
-              <li>
-                Review: Submit your first draft and collaborate one-on-one with
-                a professional editor to revise your work. LoginRadius holds all
-                the rights to approve or reject any of the blog entries that
-                does not follow our guidelines.
-              </li>
-              <li>
-                Refine: After review, you will be asked to make any changes
-                necessary before the blog can go live.
-              </li>
-              <li>
-                Go Live: After revisions, your editor will publish your article,
-                LoginRadius will also promote your article across all of our
-                social networks
-              </li>
-              <li>
-                Repeat: Build a relationship with the editorial team by
-                suggesting new articles that you want to write.
-              </li>
-            </ul>
-            {/* <h4>Some tips that you can keep in mind while writing the blog.</h4>
-          <ul>
-            <li>
-              Keep post's language simple and easy to understand, we are making
-              our blogs for the mass and our audience doesn't need to be only
-              native English speakers
-            </li>
-            <li>
-              Use short paragraphs, break down longer paragraphs into smaller
-              one, people lose their interest more while reading a long
-              paragraph.
-            </li>
-            <li>
-              Use headers to structure your post, use large headers for the main
-              heading and smaller for sub-sections in it
-            </li>
-            <li>
-              Try to use complete words then abbreviations, spell out an acronym
-              that isn’t well-known
-            </li>
-            <li>
-              If your code contains code snippets, don't forget to syntax
-              highlighting it, You can also specify the programming language for
-              which you want syntax highlighting. For example: in markdown
-              typing, ```js will give you JavaScript syntax highlighting.
-            </li>
-            <li>
-              Try to use images/screenshots in your post to example things
-              better, images are also visible when you share the post in social
-              media.
-            </li>
-            <li>
-              Always provide a GitHub demo link whenever your post contains the
-              code.
-            </li>
-            <li>
-              Simplicity, Ease of Implementation of the content,
-              developer-friendly and effectiveness
-            </li>
-          </ul> */}
+                <h3>What Not To Pitch?</h3>
+                <ul>
+                  <li>
+                    Do not pitch topics that we have already covered on our
+                    blogs.
+                  </li>
+                  <li>Do not pitch topics that are too promotional.</li>
+                </ul>
 
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfgNfb54rpqAob8S7AyK9rUPLmIVs-1GDRHZ2qmiF9KPBdcnw/viewform"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Apply Now
-            </a>
-            {/* <p>
-            If you are familiar with git, we encourage you to raise a pull
-            request directly into our{" "}
-            <a href="https://github.com/LoginRadius/engineering-portal">
-              public repository
-            </a>
-            . You can directly follow the{" "}
-            <a href="https://github.com/LoginRadius/engineering-portal/blob/master/CONTRIBUTING.md">
-              contribution guidelines
-            </a>{" "}
-            and raise a pull request accordingly.
-          </p> */}
-            {/* <p>
-            If not, then no worries, please fill{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgNfb54rpqAob8S7AyK9rUPLmIVs-1GDRHZ2qmiF9KPBdcnw/viewform">
-              this form
-            </a>{" "}
-            and we will get back to you.
-          </p> */}
+                <h3>How to Get Your Blogs Accepted?</h3>
+                <ul>
+                  <li>
+                    Your blogs should be unique, and provide tactical insights
+                    based on your real-world expertise; we give preference to
+                    articles that offer guidance, experiences, how-tos,
+                    innovations, and success stories, over others
+                  </li>
+                  <li>
+                    Your blog should provide value to our target readers who
+                    are: Developers, Technical Architects, CTOs, Engineering
+                    Leads, Project Managers, IAM Architects, IAM Admins, IAM
+                    experts, IAM evangelist, Product Marketers, Growth Hackers,
+                    CEOs, and Product managers.
+                  </li>
+                </ul>
+
+                <h3>Will Your Submissions Be Edited?</h3>
+                <ul>
+                  <li>
+                    We only accept readable and clean copies. If yours doesn't
+                    match our standards, we reserve the right to decline the
+                    submission. However, for small changes, we may have some
+                    follow-up questions, which we will be happy to discuss with
+                    the author.
+                  </li>
+                  <li>
+                    Once we publish your article, we will send an
+                    acknowledgement email with your article link.
+                  </li>
+                </ul>
+                <h3>Can You Submit Your Blog Elsewhere?</h3>
+                <ul>
+                  <li>
+                    No. All drafts for LoginRadius must be exclusive, meaning it
+                    cannot appear anywhere else.
+                  </li>
+                  <li>
+                    Once your article is live on our site, we reserve the right
+                    to refuse the deletion of your published content.
+                  </li>
+                </ul>
+                <h3>What Is the Approval Time?</h3>
+                <ul>
+                  <li>
+                    We're excited that you want to write for us. But we
+                    experience a heavy volume of new applications and replies
+                    may not be immediate. Therefore, please be patient with us.
+                  </li>
+                  <li>
+                    If we reject your idea this time, please do not shy away
+                    from trying again.
+                  </li>
+                </ul>
+
+                <h3>Monetary Rewards: Upto $200 Per Blog!</h3>
+                <p>
+                  For each blog shortlisted for our Engineering Blog category,
+                  we offer upto $200 USD.
+                </p>
+
+                <h3>Ready to Write?</h3>
+                <p>
+                  Submit your topic idea and if we think it's the right fit,
+                  we'll get in touch to discuss the next steps.
+                </p>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfll5X95GweK5nuXxe9u7WD-xhBVj31Hk9KbLyeNIv3N8KZjA/viewform"
+                  className="btn btn-primary guest-blog-btn"
+                  target="_blank"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </div>

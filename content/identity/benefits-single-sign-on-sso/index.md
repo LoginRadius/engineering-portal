@@ -104,4 +104,4 @@ If SSO sounds like a good choice for your company, here’s how to get started.�
 
 See how the [LoginRadius platform provides SSO](https://www.loginradius.com/single-sign-on/) (and more) in one easy-to-use platform. Book a free demo with us today. 
 
-[![book-free-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
