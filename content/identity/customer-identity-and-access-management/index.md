@@ -1,5 +1,5 @@
 ---
-title: "What is CIAM? - Discover The Benefits (Updated)"
+title: "What is CIAM? - Discover The Benefits"
 date: "2019-06-03"
 coverImage: "feature-image-2-1.jpg"
 tags: ["customer-identity", "identity-management", "login-experience", "authentication"]
