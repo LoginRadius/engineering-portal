@@ -2,11 +2,12 @@ import { graphql, StaticQuery } from "gatsby"
 import React from "react"
 import Footer from "./footer"
 import Header from "./header"
+import * as layoutStyles from "./layout.module.scss"
 import PinnedCard from "./pinnedCard"
 
 const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
   return (
-    <div>
+    <div className={layoutStyles.container}>
       <StaticQuery
         query={graphql`
           query {
@@ -40,8 +41,8 @@ const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
                   {pinned && <PinnedCard pinnedData={pinnedData} />}
                 </div>
               </div>
-              <div>
-                <div>{children}</div>
+              <div className={layoutStyles.blogContent}>
+                <div className={layoutStyles.content}>{children}</div>
               </div>
               <Footer
                 menuLinks={data.site.siteMetadata.footerLinks}

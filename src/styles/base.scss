@@ -388,7 +388,7 @@ section {
         width: calc(67% - #{$gutter * 3} * 1 / 2);
         &:nth-child(2n) {
           margin-right: 0;
-          width: calc(33% - #{list.slash(#{$gutter * 3} * 1, 2)});
+          width: calc(33% - #{list.slash($gutter * 3, 2)});
           @media (max-width: 950px) {
             width: 100%;
           }

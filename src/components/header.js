@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import React, { useCallback, useEffect, useState } from "react"
 import LogoLr from "../../static/logo-blog.svg"
-import headerStyles from "./header.module.scss"
-import searchStyles from "./search.module.scss"
+import * as headerStyles from "./header.module.scss"
+import * as searchStyles from "./search.module.scss"
 import Search from "./search"
 
 const Header = ({ searchIndex, pathname, type }) => {

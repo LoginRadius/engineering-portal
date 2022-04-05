@@ -52,7 +52,9 @@
       a {
         & > div {
           @media (min-width: 951px) {
-            height: 402px;
+            height: 402px !important;
+            width: 100% !important;
+            object-fit: cover;
           }
           @media (max-width: 480px) {
             height: 257px !important;

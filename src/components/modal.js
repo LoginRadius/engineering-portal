@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import styles from "./modal.module.scss"
+import * as styles from "./modal.module.scss"
 
 const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
   const [newsLetterSubscription, setNewsLetterSubscription] = useState({
