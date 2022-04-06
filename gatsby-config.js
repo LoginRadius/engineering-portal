@@ -4,36 +4,9 @@ module.exports = {
     title: `LoginRadius Blog`,
     description: "Company Updates, Technology Articles from LoginRadius",
     siteUrl: "https://www.loginradius.com",
-    feedUrl: "https://www.loginradius.com/blog/async",
+    feedUrl: "https://www.loginradius.com/blog",
     image: "/async.svg",
     owner: "LoginRadius",
-    menuLinks: [
-      {
-        name: "ASYNC Blog",
-        slug: "https://www.loginradius.com/blog/async/",
-        class: "async",
-      },
-      {
-        name: "SWI Blog",
-        slug: "https://www.loginradius.com/blog/start-with-identity/",
-        class: "swi",
-      },
-      {
-        name: "FUEL Blog",
-        slug: "https://www.loginradius.com/blog/fuel/",
-        class: "fuel",
-      },
-      {
-        name: "Open Source",
-        slug: "https://www.loginradius.com/open-source/",
-        class: "opensource",
-      },
-      {
-        name: "Write for Us",
-        slug: "https://www.loginradius.com/blog/async/page/guest-blog",
-        class: "writeus",
-      },
-    ],
     footerLinks: [
       {
         name: "Privacy Policy",
@@ -283,8 +256,8 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: "LoginRadius Blog",
-            feed_url: "https://www.loginradius.com/blog/async/rss.xml",
-            site_url: "https://www.loginradius.com/blog/async/",
+            feed_url: "https://www.loginradius.com/blog/rss.xml",
+            site_url: "https://www.loginradius.com/blog/",
             description:
               "Company Updates, Technology Articles from LoginRadius",
             language: "en-us",
