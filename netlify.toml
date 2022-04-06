@@ -400,3 +400,25 @@
   from = "/fuel/*"
   to = "/blog/growth/:splat"
   status = 301
+
+## General redirects
+
+[[redirects]]
+  from = "/2020/05/customer-experience-retail-industry"
+  to = "/blog/growth/customer-experience-retail-industry"
+  status = 301
+
+[[redirects]]
+  from = "/2020/03/improve-customer-experience-hospitality-industry"
+  to = "/blog/growth/improve-customer-experience-hospitality-industry"
+  status = 301
+
+[[redirects]]
+  from = "/2020/02/customer-experience-media-entertainment-industry"
+  to = "/blog/growth/customer-experience-media-entertainment-industry"
+  status = 301
+
+[[redirects]]
+  from = "/2019/05/sso-identity-providers"
+  to = "/identity-providers"
+  status = 301
