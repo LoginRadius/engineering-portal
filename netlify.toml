@@ -106,6 +106,11 @@
   status = 301
 
 [[redirects]]
+  from = "/async/rss.xml"
+  to = "/blog/rss.xml"
+  status = 301
+
+[[redirects]]
   from = "/async/tags/*"
   to = "/blog/tags/:splat"
   status = 301
@@ -176,6 +181,11 @@
 [[redirects]]
   from = "/start-with-identity/page/guest-blog"
   to = "/blog/guest-blog"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/rss.xml"
+  to = "/blog/rss.xml"
   status = 301
 
 [[redirects]]
@@ -374,6 +384,11 @@
 [[redirects]]
   from = "/fuel/page/guest-blog"
   to = "/blog/guest-blog"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/rss.xml"
+  to = "/blog/rss.xml"
   status = 301
 
 [[redirects]]
