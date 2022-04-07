@@ -1,13 +1,13 @@
 ---
 title: "How to Integrate Invisible reCAPTCHA for Bot Protection"
-date: "2022-02-24"
-coverImage: "cover.png"
+date: "2022-04-07"
+coverImage: "configure-invisible-reCAPTCHA.png"
 author: "Versha Gupta"
 tags: ["reCAPTCHA", "LoginRadius"]
 description: "If you only want to integrate reCAPTCHA invisibly on specific pages, LoginRadius can help you. This tutorial explains how you can quickly integrate invisible reCAPTCHA."
 ---
 
-Finding it challenging to integrate invisible reCAPTCHA only in specific web pages? This short tutorial helps you implement invisible reCAPTCHA at specific and distinct containers, such as login and forgot password. This tutorial uses LoginRadius to demonstrate this.
+Finding it challenging to integrate invisible reCAPTCHA only on specific web pages? This short tutorial helps you implement invisible reCAPTCHA at specific and distinct containers, such as login and forgot password. This tutorial uses LoginRadius to demonstrate this.
 
 > You can [quickly create a free LoginRadius account here](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register).
 
@@ -31,7 +31,7 @@ When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will 
 - Now, you will see that captcha is automatically enabled at the registration page of Auth Page (IDX) also.
 - So, you will need to do the following client-side setup for adding the invisible reCAPTCHA at a specific page only, for example, at the login page.
 
-  - Disable the reCAPTCHA using the following code before initializating the LoginRadius Object.
+  - Disable the reCAPTCHA using the following code before initializing the LoginRadius Object.
     `raasoption.invisibleRecaptcha = false;`
   - Now, add the following code to render the captcha only at the login page, and here `beforeFormRender` hook is used.
 
@@ -47,7 +47,7 @@ When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will 
 
 The above code used the utility method `addRecaptchaJS` that adds the required JS for invisible reCAPTCHA. It also used the `captchaSchema` method to add reCAPTCHA within the Login Schema.
 
-- The last step is to stop resetting the reCAPTCHA before reCAPTCHA submit. So, add the following code:
+- The last step is to stop resetting the reCAPTCHA before reCAPTCHA submission. So, add the following code:
 
 ```LRObject.$hooks.register('eventCalls', function(name){
     LRObject.options.invisibleRecaptcha = false;
