@@ -15,21 +15,25 @@ Finding it challenging to integrate invisible reCAPTCHA only on specific web pag
 
 [Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a security service that helps protect your websites from fraud and abuse.
 
-Currently, LoginRadius supports two different versions of the **Google v2reCAPTCHA**.
+Currently, LoginRadius supports two different versions of **Google v2reCAPTCHA**.
 
-- **Checkbox**: In this version of v2reCaptcha, the "I'm not a robot" checkbox requires a user to click it, to verify the user is not a robot.
+- **Checkbox**: In this version of v2reCaptcha, the "I'm not a robot" checkbox requires a user to click it to verify the user is not a robot.
 
 - **Invisible reCAPTCHA**: This version of v2reCaptcha provides a better user experience by tracking mouse movements to identify if a human is interacting with the website.
 
-## The Problem
+## The Scenario
 
-When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will also enable the reCAPTCHA at the registration page. But if you want to add bot protection only on the Login page, how can you do that?
+You want to enable invisible reCAPTCHA on a specific page — a login page, for demonstration. To achieve this, first [login to your LoginRadius dashboard](https://dashboard.loginradius.com/login). Or, [sign up here for a free account or 21-day free trial for the Developer Pro plan](https://accounts.loginradius.com/auth.aspx?action=register).
 
-### Solution
+If you're new to LoginRadius, [follow our Getting Started documentation](https://www.loginradius.com/ciam-for-developers/docs/references/javascript-library/getting-started/) to get going. 
 
-- First, you need to enable reCAPTCHA (Invisible reCAPTCHA) from the LoginRadius dashboard.
-- Now, you will see that captcha is automatically enabled at the registration page of Auth Page (IDX) also.
-- So, you will need to do the following client-side setup for adding the invisible reCAPTCHA at a specific page only, for example, at the login page.
+
+### Solution Steps
+
+- First, you need to [enable reCAPTCHA (Invisible reCAPTCHA) from the LoginRadius dashboard](https://www.loginradius.com/ciam-for-developers/docs/guide/captcha/#step-2-captcha-deployment).
+- When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will also enable the reCAPTCHA at the registration page.
+- Now, you want to only enable invisible reCAPTCHA for enabling bot protection only on the login page.
+- So, you will need to do the following client-side setup for adding the invisible reCAPTCHA on a specific page only — for example, on the login page.
 
   - Disable the reCAPTCHA using the following code before initializing the LoginRadius Object.
     `raasoption.invisibleRecaptcha = false;`
@@ -62,6 +66,8 @@ The above code used the utility method `addRecaptchaJS` that adds the required J
   ```
 
 When you check your hosted page, invisible reCAPTCHA will appear only on the login page.
+
+Similarly, you can follow the above steps to enable invisible reCAPTCHA on the registration(sign up) page or any other page.
 
 ## Conclusion
 You have learned how to use invisible reCAPTCHA on specific web pages and forms with LoginRadius to improve user experience and prevent malicious bot traffic from being effective.
