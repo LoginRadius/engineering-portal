@@ -67,7 +67,7 @@ The above code used the utility method `addRecaptchaJS` that adds the required J
 
 When you check your hosted page, invisible reCAPTCHA will appear only on the login page.
 
-Similarly, you can follow the above steps to enable invisible reCAPTCHA on the registration(sign up) page or any other page.
+Similarly, you can follow the above steps to enable invisible reCAPTCHA on the registration(signup) page or any other page.
 
 ## Conclusion
 You have learned how to use invisible reCAPTCHA on specific web pages and forms with LoginRadius to improve user experience and prevent malicious bot traffic from being effective.
