@@ -1,6 +1,6 @@
 ---
 title: "How to Integrate Invisible reCAPTCHA for Bot Protection"
-date: "2022-04-07"
+date: "2022-04-08"
 coverImage: "configure-invisible-reCAPTCHA.png"
 author: "Versha Gupta"
 tags: ["reCAPTCHA", "LoginRadius"]
@@ -35,32 +35,33 @@ When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will 
     `raasoption.invisibleRecaptcha = false;`
   - Now, add the following code to render the captcha only at the login page, and here `beforeFormRender` hook is used.
 
-        ` LRObject.$hooks.register('beforeFormRender', function(name, schema){
+      ```
+        LRObject.$hooks.register('beforeFormRender', function(name, schema){
         LRObject.options.invisibleRecaptcha = false;
         if (name == 'login' ) {
           LRObject.options.invisibleRecaptcha = true;
            LRObject.util.addRecaptchaJS();
            LRObject.util.captchaSchema("loginradius-recaptcha_widget_login", schema);
         }
-
-    });`
+        });
+      ```
 
 The above code used the utility method `addRecaptchaJS` that adds the required JS for invisible reCAPTCHA. It also used the `captchaSchema` method to add reCAPTCHA within the Login Schema.
 
 - The last step is to stop resetting the reCAPTCHA before reCAPTCHA submission. So, add the following code:
 
-```LRObject.$hooks.register('eventCalls', function(name){
+  ```
+  LRObject.$hooks.register('eventCalls', function(name){
     LRObject.options.invisibleRecaptcha = false;
     LRObject.options.optionalRecaptchaConfiguration.IsEnabled = true;
   if (name == 'login' ) {
       LRObject.options.invisibleRecaptcha = true;
       LRObject.options.optionalRecaptchaConfiguration.IsEnabled = false;
     }
-});
-```
+  });
+  ```
 
 When you check your hosted page, invisible reCAPTCHA will appear only on the login page.
 
 ## Conclusion
-
 You have learned how to use invisible reCAPTCHA on specific web pages and forms with LoginRadius to improve user experience and prevent malicious bot traffic from being effective.
