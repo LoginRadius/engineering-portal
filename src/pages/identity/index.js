@@ -25,7 +25,7 @@ export const swiBlogQuery = graphql`
   query swiBlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { slug: { regex: "/identity/" } } }
+      filter: { fields: { slug: { regex: "//identity//" } } }
     ) {
       totalCount
       edges {
