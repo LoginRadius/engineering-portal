@@ -11,7 +11,7 @@ const IdentityTagMenu = () => {
       query={graphql`
         query {
           allMarkdownRemark(
-            filter: { fields: { slug: { regex: "/identity/" } } }
+            filter: { fields: { slug: { regex: "//identity//" } } }
           ) {
             group(field: frontmatter___tags) {
               tag: fieldValue

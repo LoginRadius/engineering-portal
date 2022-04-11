@@ -11,7 +11,7 @@ const AsyncTagMenu = () => {
       query={graphql`
         query {
           allMarkdownRemark(
-            filter: { fields: { slug: { regex: "/engineering/" } } }
+            filter: { fields: { slug: { regex: "//engineering//" } } }
           ) {
             group(field: frontmatter___tags) {
               tag: fieldValue
