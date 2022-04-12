@@ -9,7 +9,7 @@ const FuelFeatList = ({ slug }) => {
         query {
           allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
-            filter: { fields: { slug: { regex: "/growth/" } } }
+            filter: { fields: { slug: { regex: "//growth//" } } }
             limit: 4
           ) {
             edges {
