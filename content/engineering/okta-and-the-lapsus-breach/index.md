@@ -86,3 +86,5 @@ The Okta breach shows that no business organization is 100% safe from malicious 
 In this specific example, the hackers accessed the laptop of one of Okta's customer service engineers to gain vital insights into the company's customer data. Such incidents prove that customers can never be sure that their information is safe and leak-proof.
 
 However, it offers a valuable learning experience that business entities should not ignore the minutest of details regarding network security. It surfaces the adage that ' A chain is only as strong as its weakest link.'
+
+[![Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
