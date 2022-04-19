@@ -1,99 +1,116 @@
 ---
-title: "Passwordless Authentication For Your PHP Project"
-date: "2022-03-14"
+title: "How to Create Passwordless Authentication For Your PHP App"
+date: "2022-04-25"
 coverImage: "coverImage.jpg"
 author: "Temitope Oyedele"
-tags: ["PHP", "webdev", "authentication"]
-description: "This post talks about how to implememnt paswordless login using login radius in your Php project"
+tags: ["PHP", "Passwordless", "Authentication"]
+description: "Passwordless authentication eliminates the security risks associates with passwords. Learn how you can implement passwordless authentication for your apps with LoginRadius."
 ---
 
-Paasowrdless authentication is the process of validating a software user's identification without using a password is known as passwordless authentication. Instead of passwords, identity can be validated using a `possession factor`, which is a unique identifier for the person. This authentication method authorizes users through various methods. some of these methods include:
+Paasowrdless authentication is the process of validating a software user's identification without using a password. Instead of passwords, identity can be validated using a `possession factor`, which is a unique identifier for the person. This authentication method authorizes users through various methods that include:
 
-- Biometrics: Biometric authentication relies on distinct physical characteristics to determine whether or not a person is who they claim to be without requiring a password.
-- Magic Links: In this method, passwordless authentication requires the user to input their email address into the login box. An email is then sent to them with a link that allows them to log in. This procedure is carried out each time the user signs in.
-- One-Time Passwords/Codes: A one-time password (OTP), also known as a one-time personal identification number (PIN), one-time authorization code (OTAC), or dynamic password, is a password that is valid for only one login session or transaction on a computer system or other digital device. OTPs are similar to magic links, but instead of merely clicking a link, users must enter a code that you deliver to them (by email or SMS to their mobile device). This procedure is carried out each time a user signs in.
-- Push Notifications: Users receive a push notification on their mobile devices from a specific authenticator app (such as Google Authenticator) and open the app via the push notification to verify their identity.
+- **Biometrics:** Biometric authentication relies on distinct physical characteristics to determine whether a person is who they claim to be without requiring a password.
+- **Magic Links:** In this method, passwordless authentication requires the user to input their email address. Then an email is then sent with a unique link (also know as Magic Link) that allows them to log in. This procedure is carried out each time the user wants to sign in.
+- **One-Time Passwords/Codes:** A one-time password (OTP) or dynamic password is only valud for single use, whether for sign in or any other type of transaction. OTPs are similar to magic links; instead of merely clicking a link, users must enter a code that you deliver to them (by email or SMS to their mobile device). This procedure is carried out each time a user signs in.
+- **Push Notifications:** Users receive a push notification on their mobile devices from a specific authenticator app (such as Google Authenticator) and confirm the push notification to verify their identity.
 
-In this tutorial, you'll discover how the infrastructure supporting passwordless authentication works, as well as showing how to implement it using loginradius passwordless login.
+In this tutorial, you'll discover how the infrastructure supporting passwordless authentication works, and you'll learn how to implement passworsless authentication using LoginRadius.
 
-### How Does It Work?
+## How Does Passwordless Authentication Work?
 
-For one time password (which will be what we'll be implementing). The user is prompted to input a valid phone number while using this method of authentication. A one-time, unique code is then provided to the phone number. When a user inputs this code into your application, your app confirms that the code is correct and that the phone number exists and belongs to a user, initiates a session, and logs the user in.
+For OTP authentication (which this tutorial demonstartes), the user is prompted to input a valid phone number. Then the authentication system generates a unique one-time code and sends it to the phone number. When a user inputs this code into your application, the app confirms that the code is valid and that the phone number exists and belongs to a user, initiates a session, and logs the user in.
 
-Passwordless authentication is a security investment that will result in significant cost reductions over time. The cost of deployment varies according to the size of your organization's existing user directory and authentication systems. The technology required to implement a passwordless authentication approach may already be in use at your business, or it may necessitate the procurement of new equipment. This is where loginradius comes in. The LoginRadius Identity Platform helps companies securely manage customer identities and data to deliver a unified customer experience. loginradius can cut the time it takes to create passwordless authentication for millions of users to months in some circumstances, as well as offload many of the future maintenance costs. To learn more about their services, [visit their website here](https://www.loginradius.com/company/)
+Passwordless authentication is a security investment that will result in significant cost reductions over time. The cost of deployment varies as per the size of your organization's existing user directory and authentication systems. The technology required to implement a passwordless authentication approach may already be in use at your business, or it may necessitate procuring new equipment. This is where LoginRadius comes in.
 
-### Benefits
+The LoginRadius Identity Platform helps companies securely manage customer identities and data to deliver a unified customer experience. It can cut the time it takes to create passwordless authentication for millions of users to months in some circumstances and helps offload many of the future maintenance costs.
 
-- Better Security: User-controlled passwords pose a significant risk since users repeat passwords and can share them with others. Passwords are the most common attack vector even after the development of password generators and managers. They also facilitate assaults such as credential stuffing, corporate account takeover (CATO), password spraying, and brute force attacks.Passwordless authentication prevents this because there is no password to hack.
-- Better User Experience: Passwordless authentication eliminates the need for users to remember passwords, simplifying the authentication process.
-- IT Gains Control and Visibility: When relying on passwords, phishing, reuse, and sharing are frequent difficulties. With passwordless authentication, the IT team reclaims its mission of having comprehensive insight over identity and access management. 
+## Passwordless Authentication — Benefits
 
-### Limitation
+- **Better Security:** User-controlled passwords pose a significant risk as users the same or simple iterations of the same passwords repeatedly as well as may share passwords with others.
 
-Because it requires a verification channel (email, push notification, or text message), if the user does not have access to one of these mediums, they will be unable to access the system.
+  Passwords are the most common attack vector as users may not peopely use tool such as password generators and password managers. And compromised passwords facilitate attacks such as credential stuffing, account takeover, password spraying, and brute-force attacks.
+  
+  Passwordless authentication helps prevent these issues.
 
-Now that you have a fundamental grasp of how passwordless authentication works, let's build a sample application to demonstrate it. To implement this we'll be using Loginradius.
+- **Imroved User Experience:** Passwordless authentication eliminates the need for remembering passwords, simplifying the authentication process.
 
-### Prerequisites
+- **IT Gains Control and Visibility:** When relying on passwords, phishing, reuse, and sharing will become challenging to ensure security. With passwordless authentication, the IT team reclaims its mission of having comprehensive insight over identity and access management. 
+
+## Passwordless Authentication — Limitations
+
+It requires a verification channel (email, push notification, or text message). If the user lost access these mediums, they cannot authenticate themselves.
+
+Now that you have a fundamental grasp of how passwordless authentication works, let's build a sample application to demonstrate it. To implement this, you'll use Loginradius.
+
+## Prerequisites
 
 To follow through, we'll need the following:
 
-- Basic understanding of php.
-- Xampp installed.
-- PHP 7.4 or higher with the mysqli extension installed.
-- A login radius account( must be deverloper pro ). You can [check it out here](https://www.loginradius.com/pricing/).
-- A twilio acctount. Register [here](https://www.twilio.com/try-twilio)
+- Basic understanding of PHP
+- XAMPP installed
+- PHP 7.4 or higher with the MySQLi extension installed
+- A LoginRadius Developer Pro account. You can [sign up for a 21-day free trial here](https://accounts.loginradius.com/auth.aspx?plan=pro&action=register)
+- A Twilio account. You can [register here](https://www.twilio.com/try-twilio)
 
-**NOTE:** For everyone to have an understanding, I'll be writing the codes in the most basic way possible.
+> **NOTE:** To help developers of all level understanding this tutorial, I've written the code in the most basic way possible.
 
-### Our Project
+## An Overiw of Your Sample PHP Project
 
-For better understanding, I'll dividing the process into sections. These are:
+To help you easily understand, I've divided the process into four sections:
 
-- Setting up loginradius.
-- Installing loginradius PHP SDK.
-- Registering a user on our cloud platform.
-- passwordless login verification process.
+- Setting up LoginRadius
+- Installing LoginRadius PHP SDK
+- Registering a user on the platform
+- Passwordless login authentication process
 
-#### Setting Up Login Radius
+### Set Up LoginRadius
 
-Here, We'll be setting up evrything we'll need to do berfore proceeding the with codes. Login to your login radius account. Head over to the `configuration` section. Click on `Auth Configuration`.
+Here, you'll set up evrything you'll need to do berfore proceeding the with code. Login to your LoginRadius account. Head over to the `configuration` section. Click on `Auth Configuration`.
 
-![auth](auth.PNG)
+![auth configuration](auth.PNG)
 
-click on the login method. We'll be adding two methods which is the passwordless login and phone login. Add both of these from the `add a login method` dropdown. Once we're done with that, we want to congigure our SMS provider so we navigate to the `integration` section.
-![integrate](integration.PNG)
- Click the Add button, the available integrations screen will appear. Either search for SMS in the search bar or go to the Select Category dropdown and select Communication category. Locate SMS Provider. Click the Let’s Configure option, the following screen will appear:
+click on `Login Methods`. You'll be add two methods: Passwordless Login and Phone Login. Add both of these from the `Add a Login Method` dropdown. Once you're done with that, you need congigure your SMS provider.
+
+Navigate to the `integration` section.
+
+![SMS provider integration](integration.PNG)
+
+Click the `Add` button. And the Available Integrations screen will appear. Either search for SMS in the search bar or go to the Select Category dropdown and select Communication category. Locate SMS Provider. Click the `Let’s Configure` option, the following screen will appear:
+
 ![sms provider](sms-provider-configuration.png)
 
-Now we want to configure our SMS provider settings. We'll be using twilio as earlier stated. To get a twilio account and also buy a number use this [link](https://www.twilio.com/try-twilio). Once we've done that let's configure the settings in this format:
+Now, configure your SMS provider settings. You'll use Twilio as stated earlier. To [get a Twilio account and also buy a number, use this link](https://www.twilio.com/try-twilio). Once you've done that, let's configure the settings in this format:
 
-- SMS Provider: Select Twilio SMS Provider.
-- Twilio Account SID: Enter the Twilio Account SID.
-- Twilio Auth Token: Enter the Twilio Auth Token.
-- Twilio Number: Enter the Twilio registered number.
+- SMS Provider: Select Twilio as SMS Provider
+- Twilio Account SID: Enter the Twilio Account SID
+- Twilio Auth Token: Enter the Twilio Auth Token
+- Twilio Number: Enter the Twilio registered number
 
-We need to do one more thing that's to copy out our API key, API secret key and our SOTT. We can copy all of these somewhere as we'll be needing this in our codes. Navigate to `configurations`. click on `API credentials` and click on `API Key And Secret`. Here, we should see our API key and secret API. For the `SOTT`, under the `API crendentials` click on `Secure Moblile OTP tOKEN`. Now, we have successfuly set up our login radius account.
+You also need to copy out your API key, API Secret, and SOTT from the LoginRadius dashboard. You'll use them in the code. Navigate to `configurations`. click on `API credentials` and click on `API Key And Secret`. Here, you'll see your API key and secret API.
 
-#### Installing loginradius PHP SDK
+For the `SOTT`, under the `API crendentials`, click on `Secure Moblile OTP token`. 
 
- For this process, we can choose the follow the already written documentation of the SDK installation [here](https://www.loginradius.com/docs/developer/references/sdk/php-sdk/) or follow my guide. Whichever works for us.
- To install the sdk, we need to run the composer command:
+Now, you've successfuly set up your LoginRadius account.
+
+### Install LoginRadius PHP SDK
+
+For this process, you can follow the already written [documentation of the PHP SDK installation here](https://www.loginradius.com/docs/developer/references/sdk/php-sdk/). Or, you can follow my guide.
+
+To install the LoginRadius PHP SDK, you need to run the composer command:
  
  ```bash
  composer require loginradius/php-sdk:10.0.0
  ```
 
- Once we're done with that, Let's create a folder where we want our project files. In our terminal write this:
+After that, create a folder where you want to place you project files:
 
- ```bash
+```bash
  mkdir php_demo
- ```
+```
 
-This will create a folder for our project files. We then want to create a file called `config.php` and paste this:
+This will create a folder for the project files. Then, create a file named `config.php` and paste this:
 
 ```php
-
 define('LR_API_KEY', 'LOGINRADIUS_API_KEY_HERE'); // Replace LOGINRADIUS_API_KEY_HERE with your site API key that provide in LoginRadius account.
 define('LR_API_SECRET', 'LOGINRADIUS_API_SECRET_HERE');  // Replace LOGINRADIUS_API_SECRET_HERE with your site Secret key that provide in LoginRadius account.
 
@@ -125,14 +142,18 @@ require_once "./src/LoginRadiusSDK/CustomerRegistration/Social/SocialAPI.php";
 ?>
 ```
 
-Let's not forget to replace with our site API key and our secret key. Now that we're done with let's login to our login radius account and make a few changes before proceeding further.
+Let's not forget to replace with our site API key and our API Secret.
 
-#### Registering A User On Login Radius Platform
-This is important if we're to implement login radius passowrdless login. To do this we'll be creating:
-- register.php(contains basic html codes for registering) 
-- verify.php 
+Now, let's login to your LoginRadius account and make a few changes before proceeding further.
 
-For `register.php`, let's paste in the following codes:
+### Registering A User On LoginRadius Platform
+
+This is important to implement LoginRadius passowrdless login. To do this, you'll create:
+
+- `register.php` (contains basic html code for registering) 
+- `verify.php` 
+
+For `register.php`, paste the following code:
 
 ```html
 <!DOCTYPE html>
@@ -182,7 +203,7 @@ For `register.php`, let's paste in the following codes:
 </html>
 ```
 
-For our `verify.php`. Paste this:
+For `verify.php`, add the code as follows:
 
 ```php
 require_once 'config.php';
@@ -234,21 +255,21 @@ if (isset($_POST['submit']))
 
 ```
 
-**NOTE:** DON'T FORGET TO PUT IN YOUR GENERATED SOTT CODE!
+> **NOTE:** Don't forget to insert your generated SOTT code!
 
-Let's start our Xampp or server and run our app:
+Let's start your XAMPP or server, and run your app.
 
-#### Passwordless Verification Process
+### Passwordless Authentication Process
 
-In this process, we'll be creating:
+In this process, you'll create:
 
-- login.php
-- process.php
-- otp.php
-- otp_verify.php
-- homepage.php
+- `login.php`
+- `process.php`
+- `otp.php`
+- `otp_verify.php`
+- `homepage.php`
 
-Inside our `login.php`, let's paste this:
+Inside your `login.php`, paste the following code:
 
 ```html
 <!DOCTYPE html>
@@ -317,7 +338,7 @@ For `process.php`, let's paste in this:
 ?>
 ```
 
-For the `otp.php` let' paste this in:
+For `otp.php`, add the code as follows:
 
 ```html
 <!DOCTYPE html>
@@ -351,7 +372,7 @@ For the `otp.php` let' paste this in:
 </html>
 ```
 
-For the `otp_verify.php`, let's paste this in:
+For `otp_verify.php`, add the code as follows:
 
 ```php
 <?php
@@ -381,7 +402,8 @@ For the `otp_verify.php`, let's paste this in:
 }
 ?>
 ```
-Almost done! lets just create a homepage that says welcome back user.  Create a file called `homepage.php` and paste this:
+
+Almost done! Just create a homepage that says welcome back user. Create a file called `homepage.php` and add the code as follows:
 
 ```php
 <!DOCTYPE html>
@@ -397,7 +419,11 @@ Almost done! lets just create a homepage that says welcome back user.  Create a 
 </body>
 </html>
 ```
-We can then run our application. That's how to implement passwordless authentication using login radius for your php project.
+
+You can now run application and test it. That's how you can implement passwordless authentication using LoginRadius for your PHP project.
 
 ### Conclusion
-We learned how passwordless authentication works as well as some of the benefits and drawbacks of using it throughout this tutorial. We also built a sample app that makes use of this authentication method.Would you please share if you found this helpful?
+
+You learned how passwordless authentication works as well as some of the benefits and drawbacks of using it throughout this tutorial. And you've built a sample PHP app that makes use of passworless authentication method using LoginRadius.
+
+Please feel to share this this tutorial if you found it helpful :)
