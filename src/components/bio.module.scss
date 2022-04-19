@@ -1,15 +1,19 @@
 @import "../styles/variables.scss";
 .bio {
   margin-top: auto;
-  font-size: 16px;
+  font-size: 1rem;
   &.pinned {
     a {
       color: $blue-bright;
       font-weight: 500;
     }
+    .large {
+      width: 72px;
+      height: 72px;
+    }
   }
   p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 0;
     color: $gray-dark;
   }
@@ -17,14 +21,28 @@
     strong {
       font-weight: 600;
     }
+    img {
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+    }
+    &:hover {
+      opacity: 0.8;
+      img {
+        opacity: 0.8;
+      }
+    }
+  }
+  span {
+    color: $gray-darkest;
+    font-weight: 600;
   }
   .date-wrap {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 4px;
     .time {
-      margin-left: 16px;
+      margin-left: 18px;
       position: relative;
       &::before {
         content: "";
@@ -34,9 +52,8 @@
         background-color: $gray-dark;
         border-radius: 3px;
         top: 10px;
-        left: -8px;
-        }
+        left: -10px;
       }
     }
   }
-
+}

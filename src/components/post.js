@@ -1,23 +1,20 @@
-import React from "react"
-import Helmet from "react-helmet"
+import { Link } from "gatsby"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
-import _ from "lodash"
-import SEO from "./seo"
-import Bio from "./bio"
-import ToC from "./toc"
-import styles from "./post.module.scss"
-
-import { Link } from "gatsby"
-
-import headStyles from "./cardlist.module.scss"
-import TagMenu from "./tagMenu"
-
+import React from "react"
 import ReactGA from "react-ga"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-import getTimeToRead from "../utils/timeToRead"
+import Helmet from "react-helmet"
+import Docs from "../../static/consumer-identity-trend.png"
+import headStyles from "./cardlist.module.scss"
+import AsyncFeatList from "./featurePost/async"
+import FuelFeatList from "./featurePost/fuel"
+import IdentityFeatList from "./featurePost/identity"
+import styles from "./post.module.scss"
+import Subscribe from "./subscribe"
+import TagMenu from "./tagmenu"
+import AsyncTagMenu from "./tagmenu/async"
+import IdentityTagMenu from "./tagmenu/identity"
+import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -33,8 +30,7 @@ const signUplogger = function () {
     label: "Signup",
   })
 }
-const Post = ({ post, relatedPost }) => {
-  const { gitAuthorTime } = post.fields
+const Post = ({ post, relatedPost, type }) => {
   const headings = post.headings
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
@@ -58,17 +54,35 @@ const Post = ({ post, relatedPost }) => {
           src="https://social9.com/comments/js/commento.js"
         ></script>
       </Helmet>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={image && image.childImageSharp.fluid.src}
-        pathname={post.fields.slug}
-        article
-      />
+
       <section
-        className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-80`}
+        className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-96`}
       >
         <div className={headStyles.blogContentPinned}>
+          <div className={headStyles.descriptionPinned}>
+            <div className={headStyles.description}>
+              <h1>{post.frontmatter.title || post.fields.slug}</h1>
+              <div className={headStyles.text}>
+                <span>By&nbsp;</span>
+                <Link to={`/author/${kebabCase(author.id)}/`}>
+                  <strong>{author.id}</strong>
+                </Link>
+              </div>
+              <p
+                className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
+                dangerouslySetInnerHTML={{
+                  __html: post.frontmatter.description || post.excerpt,
+                }}
+              />
+            </div>
+
+            <div className={`${headStyles.tag} ${headStyles.pinned}`}>
+              {tags &&
+                tags.map(tag => (
+                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                ))}
+            </div>
+          </div>
           <div className={headStyles.avatarPinned}>
             <Img
               fluid={image.childImageSharp.fluid}
@@ -77,46 +91,132 @@ const Post = ({ post, relatedPost }) => {
               alt={post.frontmatter.title}
             />
           </div>
-          <div className={headStyles.descriptionPinned}>
-            <div className={`${headStyles.tag} ${headStyles.pinned}`}>
-              {tags &&
-                tags.map(tag => (
-                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
-                ))}
-            </div>
-            <div className={headStyles.description}>
-              <h1>{post.frontmatter.title || post.fields.slug}</h1>
-              <p
-                className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
-                dangerouslySetInnerHTML={{
-                  __html: post.frontmatter.description || post.excerpt,
-                }}
-              />
-            </div>
-            {author && (
-              <Bio
-                readingTime={getTimeToRead(post.html)}
-                date={
-                  post.frontmatter.date === gitAuthorTime ||
-                  gitAuthorTime === "Invalid date" ||
-                  gitAuthorTime === undefined
-                    ? post.frontmatter.date
-                    : gitAuthorTime
-                }
-                author={author}
-                pinned
-              />
-            )}
-          </div>
         </div>
       </section>
-      <section className={styles.bgBright01}>
+
+      <section className={styles.postDetail}>
+        <div>
+          <div className={`${styles.postDetailInner} pt-96 grid-67-33`}>
+            <div>
+              <div
+                className={styles.postContent}
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+
+              <div className={`${styles.author} d-flex py-96`}>
+                <div className={styles.authorImage}>
+                  <Link to={`/author/${kebabCase(author.id)}/`}>
+                    <img
+                      className={`circle extra-large`}
+                      src={githubUrl}
+                      alt={author.id}
+                    />
+                  </Link>
+                </div>
+                <div className={styles.aboutAuthor}>
+                  <div className={styles.aboutAuthorInner}>
+                    <h3>
+                      Written by&nbsp;
+                      <Link to={`/author/${kebabCase(author.id)}/`}>
+                        {author.id}
+                      </Link>
+                    </h3>
+                    <p>{author.bio}</p>
+                  </div>
+                </div>
+              </div>
+              <div className={`${headStyles.sidebar} ${headStyles.detailPage}`}>
+                {relatedPost && relatedPost.length ? (
+                  <div
+                    className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+                  >
+                    <h3>Related Posts</h3>
+                    <ul>
+                      {relatedPost.map(({ node }, i) => (
+                        <li>
+                          <Link
+                            to={`/${node.frontmatter.type}${node.fields.slug}`}
+                            rel="prev"
+                          >
+                            {node.frontmatter.title}
+                          </Link>
+                          <a href="#">
+                            Everything You Need to Know Before Buying Cyber
+                            Insurance in 2022
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                <div className={headStyles.subscribeDetail}>
+                  <h3>
+                    Did you enjoy this article? Subscribe to new articles!
+                  </h3>
+                  <Subscribe type={type} />
+                </div>
+              </div>
+            </div>
+            <div className={headStyles.sidebar}>
+              <div
+                className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+              >
+                {type === "async" ? (
+                  <AsyncFeatList slug={post.fields.slug} />
+                ) : type === "fuel" ? (
+                  <FuelFeatList slug={post.fields.slug} />
+                ) : (
+                  <IdentityFeatList slug={post.fields.slug} />
+                )}
+              </div>
+              {type !== "fuel" && (
+                <div
+                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
+                >
+                  {type === "all" && <TagMenu />}
+                  {type === "async" && <AsyncTagMenu />}
+                  {type === "start-with-identity" && <IdentityTagMenu />}
+                </div>
+              )}
+
+              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                <div className={headStyles.image}>
+                  <img src={Docs} alt="LoginRadius Docs" />
+                </div>
+                <div className={headStyles.text}>
+                  <h3>Implement Authentication in Minutes</h3>
+                  <a
+                    className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                    // className={"btn-primary ga_event"}
+                    href={"https://www.loginradius.com/docs/developer"}
+                    key={"docs-link"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() =>
+                      eventLogger({
+                        category: "LoginRadius Docs",
+                        action: "User clicked on Loginradius Docs button",
+                        label: "Docs",
+                      })
+                    }
+                  >
+                    {"LoginRadius Docs"}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {headings && headings.length && <ToC headings={headings} />}
+      </section>
+      <section key={"pinned_card_cta"} className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>
           <div className={styles.ctaSmallText}>
-            <h3>Free, Secure and Trusted Way to Authenticate Your Visitors</h3>
+            <h3>LoginRadius CIAM Platform</h3>
             <p>
-              Add login to your website in <b>5 minutes</b> completely{" "}
-              <b>for free</b>!
+              Our Product Experts will show you the power of the LoginRadius
+              CIAM platform, discuss use-cases, and prove out ROI for your
+              business.
             </p>
           </div>
 
@@ -124,159 +224,16 @@ const Post = ({ post, relatedPost }) => {
             <p>
               <a
                 className={`${styles.navcta} btn-primary  ga_event }`}
-                href={`https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login`}
+                href={`https://www.loginradius.com/book-a-demo/`}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={signUplogger}
               >
-                {"Free Sign Up"}
+                {"Book A Demo Today"}
               </a>
-              <span>No hidden costs. No credit card needed.</span>
             </p>
           </div>
         </div>
-      </section>
-      <section className={`pt-80 ${styles.postDetail}`}>
-        <div>
-          <div className="grid-70-30">
-            <div
-              className={styles.postContent}
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
-            <div class={styles.sidebar}>
-              {relatedPost.length ? (
-                <>
-                  <div class={styles.relatedPost}>
-                    <h3>Related Posts</h3>
-                    {relatedPost.map(({ node }, i) => (
-                      <div className={styles.relatedPostRow}>
-                        <div className={styles.description}>
-                          <h4>
-                            <Link to={node.fields.slug} rel="prev">
-                              {node.frontmatter.title}
-                            </Link>
-                          </h4>
-                        </div>
-                        <div class={styles.tag}>
-                          {node.frontmatter.tags.map(tag => (
-                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <hr />
-                </>
-              ) : null}
-              <div>
-                <h3>Follow LoginRadius </h3>
-                <div className={styles.followBtn}>
-                  <a
-                    href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Feedly",
-                        label: "Feedly",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <img
-                      id="feedlyFollow"
-                      src="https://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png"
-                      alt="follow us in feedly"
-                      width="28"
-                      height="28"
-                    />
-                    <p> via feedly </p>
-                  </a>
-                  <a
-                    href="https://twitter.com/LoginRadius"
-                    onClick={() =>
-                      eventLogger({
-                        category: "Social Clicks",
-                        action: "Clicked on Twitter",
-                        label: "Twitter",
-                      })
-                    }
-                    target="blank"
-                  >
-                    <FontAwesomeIcon icon={faTwitter} title={"Twitter"} />
-                    <p> on twitter </p>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div>
-                <h3>LoginRadius Docs</h3>
-                <p>Implement Authentication in Minutes</p>
-                <a
-                  className={"btn-primary ga_event"}
-                  href={"https://www.loginradius.com/docs/developer"}
-                  key={"docs-link"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() =>
-                    eventLogger({
-                      category: "LoginRadius Docs",
-                      action: "User clicked on Loginradius Docs button",
-                      label: "Docs",
-                    })
-                  }
-                >
-                  {"click here"}
-                </a>
-              </div>
-              <hr />
-              <TagMenu />
-            </div>
-          </div>
-          <div className="grid-70-30">
-            <div className={styles.postContent}>
-              <h2>Do you want a free authentication solution?</h2>
-              <p>
-                Add the world's most secure, reliable and easy to implement user
-                authentication solution on your applications at $0
-                <a
-                  href="https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login&utm_source=async&utm_medium=blog&utm_campaign=fodb"
-                  className={"btn-primary btn-cta ga_event"}
-                  onClick={() =>
-                    eventLogger({
-                      category: "LoginRadius Home",
-                      action: "User clicked on LoginRadius home page",
-                      label: "LoginRadius Home",
-                    })
-                  }
-                  target="blank"
-                >
-                  Get Started Free
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class={`${styles.author} d-flex py-80`}>
-            <div class={styles.authorImage}>
-              <img
-                className={`circle extra-large`}
-                src={githubUrl}
-                alt={author.id}
-              />
-            </div>
-            <div class={styles.aboutAuthor}>
-              <div class={styles.aboutAuthorInner}>
-                <h3>{author.id}</h3>
-                <p>{author.bio}</p>
-                <Link to={`/author/${_.kebabCase(author.id)}/`}>
-                  View Profile
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <ToC headings={headings} />
-
-        <div id="commento"></div>
       </section>
     </>
   )

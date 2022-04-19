@@ -13,58 +13,53 @@ const Card = ({ node }) => {
   const tags = node.frontmatter.tags || ""
   let coverImagePath = node.frontmatter.coverImage
   let descriptionText = node.frontmatter.description || node.excerpt
-  const { gitAuthorTime } = node.fields
   return (
-    <div className={`${styles.user} mb-48`}>
-      <div className={styles.avatar}>
-        <Link className="bs-md" to={node.fields.slug}>
-          {coverImagePath ? (
-            <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
-          ) : (
-            <img src={defaultImg} alt="default-img" />
-          )}
-        </Link>
-      </div>
-      <div className={styles.descriptionWrap}>
-        <div className={styles.tag}>
-          {tags &&
-            tags.map((tag, index) => (
-              <Link
-                key={`${tag}-${index}`}
-                aria-label={tag}
-                to={`/tags/${kebabCase(tag)}/`}
-              >
-                {tag}
+    <React.Fragment>
+      <div className={`${styles.user} mb-48`}>
+        <div className={styles.avatar}>
+          <Link className="bs-md" to={node.fields.slug}>
+            {coverImagePath ? (
+              <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+            ) : (
+              <img src={defaultImg} alt="default-img" />
+            )}
+          </Link>
+        </div>
+        <div className={styles.descriptionWrap}>
+          <div className={styles.tag}>
+            {tags &&
+              tags.map((tag, index) => (
+                <Link
+                  key={`${tag}-${index}`}
+                  aria-label={tag}
+                  to={`/tags/${kebabCase(tag)}/`}
+                >
+                  {tag}
+                </Link>
+              ))}
+          </div>
+          <div className={styles.description}>
+            <h3>
+              <Link to={node.fields.slug}>
+                {node.frontmatter.title || node.fields.slug}
               </Link>
-            ))}
+            </h3>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: descriptionText,
+              }}
+            />
+          </div>
+          {node.frontmatter.author && (
+            <Bio
+              date={node.frontmatter.date}
+              author={node.frontmatter.author}
+              readingTime={getTimeToRead(node.html)}
+            />
+          )}
         </div>
-        <div className={styles.description}>
-          <h3>
-            <Link to={node.fields.slug}>
-              {node.frontmatter.title || node.fields.slug}
-            </Link>
-          </h3>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: descriptionText,
-            }}
-          />
-        </div>
-        {node.frontmatter.author && (
-          <Bio
-            date={
-              node.frontmatter.date === gitAuthorTime ||
-              gitAuthorTime === "Invalid date" ||
-              gitAuthorTime === undefined
-                ? node.frontmatter.date
-                : gitAuthorTime
-            }
-            author={node.frontmatter.author}
-            readingTime={getTimeToRead(node.html)}
-          />
-        )}
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

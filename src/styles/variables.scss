@@ -2,7 +2,7 @@
 $font-stack: "Barlow", Helvetica, Arial, sans-serif;
 
 // base font size
-$basefont: 18px;
+$basefont: 16px;
 // gutters
 $gutter: 24px;
 
@@ -15,7 +15,7 @@ $gray-medium: #b3b6b8;
 $gray-light: #d1d3d4;
 $gray-lightest: #fafafa;
 
-$cta: #f15e22;
+$lr-orange: #f15e22;
 
 $success: #39b55a;
 $warning: #f1a321;
@@ -39,3 +39,5 @@ $bs-md: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.06),
   0 3px 8px rgba(0, 0, 0, 0.09);
 $bs-lg: 0 1px 4px rgba(0, 0, 0, 0.09), 0 3px 8px rgba(0, 0, 0, 0.09),
   0 4px 13px rgba(0, 0, 0, 0.13);
+
+$spaceBetween: 18px;

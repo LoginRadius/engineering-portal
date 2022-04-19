@@ -1,55 +1,12 @@
-require("dotenv").config({ path: `${__dirname}/.env` })
 const getTimeToRead = require("./src/utils/timeToReadRss")
-
 module.exports = {
   siteMetadata: {
-    title: `Async Blog — A place for developers, created by developers`,
-    titleTemplate: "%s · Async Blog",
-    description:
-      "Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient.",
+    title: `LoginRadius Blog`,
+    description: "Company Updates, Technology Articles from LoginRadius",
     siteUrl: "https://www.loginradius.com",
-    feedUrl: "https://www.loginradius.com/blog/async",
+    feedUrl: "https://www.loginradius.com/blog",
     image: "/async.svg",
     owner: "LoginRadius",
-    menuLinks: [
-      // {
-      //   name: "Developers",
-      //   slug: "https://www.loginradius.com/identity-experience-framework/",
-      // },
-      // {
-      //   name: "Docs",
-      //   slug: "https://www.loginradius.com/docs/developer",
-      // },
-      // {
-      //   name: "Our Blogs",
-      //   slug: "https://www.loginradius.com/blog/",
-      // },
-      {
-        name: "ASYNC Blog",
-        slug: "https://www.loginradius.com/blog/async/",
-        class: "async",
-      },
-      {
-        name: "SWI Blog",
-        slug: "https://www.loginradius.com/blog/start-with-identity/",
-        class: "swi",
-      },
-      {
-        name: "FUEL Blog",
-        slug: "https://www.loginradius.com/blog/fuel/",
-        class: "fuel",
-      },
-      {
-        name: "Open Source",
-        slug: "https://www.loginradius.com/open-source/",
-        class: "opensource",
-      },
-      {
-        name: "Write for Us",
-        slug: "https://www.loginradius.com/blog/async/page/guest-blog",
-        class: "writeus",
-      },
-    ],
     footerLinks: [
       {
         name: "Privacy Policy",
@@ -62,10 +19,6 @@ module.exports = {
       {
         name: "Security Policy",
         slug: "https://www.loginradius.com/security-policy/",
-      },
-      {
-        name: "Site Map",
-        slug: "https://www.loginradius.com/site-map/",
       },
     ],
     socialLinks: [
@@ -81,7 +34,15 @@ module.exports = {
         name: "youtube",
         slug: "https://www.youtube.com/user/LoginRadius",
       },
+      {
+        name: "feedly",
+        slug:
+          "https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml",
+      },
     ],
+  },
+  flags: {
+    PRESERVE_WEBPACK_CACHE: true,
   },
   plugins: [
     {
@@ -103,14 +64,20 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+<<<<<<< HEAD
           { resolve: "gatsby-remark-copy-linked-files" },
           {
             resolve: `gatsby-remark-relative-images`,
           },
+=======
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-autolink-headers`,
+>>>>>>> 3737b5c31ccfeaeef482d86f5d2fbc04c7fcd32f
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 768,
+              srcSetBreakpoints: [650],
             },
           },
           {
@@ -191,7 +158,7 @@ module.exports = {
           MarkdownRemark: {
             title: node => node.frontmatter.title,
             tags: node => node.frontmatter.tags,
-            path: node => node.fields.slug,
+            slug: node => node.fields.slug,
             text: node => node.frontmatter.description,
           },
         },
@@ -292,9 +259,9 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Async Blog — A place for developers, created by developers",
-            feed_url: "https://www.loginradius.com/blog/async/rss.xml",
-            site_url: "https://www.loginradius.com/blog/async/",
+            title: "LoginRadius Blog",
+            feed_url: "https://www.loginradius.com/blog/rss.xml",
+            site_url: "https://www.loginradius.com/blog/",
             description:
               "Company Updates, Technology Articles from LoginRadius",
             language: "en-us",
@@ -307,5 +274,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: `/blog/async`,
+  pathPrefix: `/blog`,
 }

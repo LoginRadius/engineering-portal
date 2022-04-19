@@ -1,20 +1,13 @@
 import { graphql, StaticQuery } from "gatsby"
 import React from "react"
 import Footer from "./footer"
-import FreeTrial from "./freeTrial"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
-import favicon from "../../static/favicon.png"
-import Helmet from "react-helmet"
-import SEO from "./seo"
 import PinnedCard from "./pinnedCard"
 
-const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
+const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
   return (
     <div className={layoutStyles.container}>
-      <Helmet>
-        <link rel="icon" href={favicon} />
-      </Helmet>
       <StaticQuery
         query={graphql`
           query {
@@ -23,13 +16,6 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
             }
             site {
               siteMetadata {
-                title
-                description
-                menuLinks {
-                  name
-                  slug
-                  class
-                }
                 footerLinks {
                   name
                   slug
@@ -40,33 +26,24 @@ const Layout = ({ hideTagMenu, postPage, children, pinned }) => {
                 }
               }
             }
-            allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }
-            ) {
-              group(field: frontmatter___tags) {
-                tag: fieldValue
-                totalCount
-              }
-            }
           }
         `}
         render={data => {
           return (
             <>
-              <SEO />
               <Header
-                menuLinks={data.site.siteMetadata.menuLinks}
                 searchIndex={data.siteSearchIndex.index}
+                pathname={pathname}
+                type={type}
               />
               <div className={layoutStyles.pinnedwrap}>
                 <div className={layoutStyles.blogContentPinned}>
-                  {pinned && <PinnedCard />}
+                  {pinned && <PinnedCard pinnedData={pinnedData} />}
                 </div>
               </div>
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>{children}</div>
               </div>
-              <FreeTrial />
               <Footer
                 menuLinks={data.site.siteMetadata.footerLinks}
                 socialLinks={data.site.siteMetadata.socialLinks}

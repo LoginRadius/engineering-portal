@@ -14,17 +14,19 @@ const Tags = ({ pageContext, data, location }) => {
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`
 
+  const img = data.allMarkdownRemark.edges[0].node.frontmatter.coverImage
+
   return (
     <Layout location={""} title={""}>
       <SEO
-        title={tag}
-        description={`Async Blog is a place for developers to share their expertise, find solutions for development problems, and become more efficient. Posts related to ${tag}`}
-        image={data.allMarkdownRemark.edges[0].node.frontmatter.coverImage}
+        title={`${tag} - Tag | LoginRadius Blog`}
+        description={`LoginRadius blog posts related to ${tag}`}
+        image={img ? img.childImageSharp.fluid.src : ""}
         pathname={location.pathname}
       />
       <main>
         <section>
-          <div className="pt-80">
+          <div className="pt-96">
             <h1 className="mb-0"> {tagHeader} </h1>
           </div>
         </section>
@@ -64,10 +66,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        menuLinks {
-          name
-          slug
-        }
       }
     }
     allMarkdownRemark(

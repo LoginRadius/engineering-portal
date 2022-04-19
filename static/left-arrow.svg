@@ -5,7 +5,7 @@
 <defs>
 	<style>
 	.white {
-	fill: #000;
+	fill: $gray-darkest;
 	}
 
 	.blue {

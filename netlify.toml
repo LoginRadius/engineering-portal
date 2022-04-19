@@ -1,19 +1,90 @@
-[[redirects]]
-  from = "/blog/async/working-with-azure-key-vault-in-csharp/"
-  to = "/blog/async/guest-post/using-azure-key-vault-with-an-azure-web-app-in-c-sharp"
-  
-[[redirects]]
-  from = "/blog/async/registration-and-authentication-in-django-using-loginRadius/"
-  to = "/blog/async/guest-post/implementing-registration-and-authentication-in-django-using-LoginRadius"
-  
-[[redirects]]
-  from = "/blog/async/11-tips-for-managing-remote-software-engineering-teams/"
-  to = "/blog/async/guest-post/tips-for-managing-remote-software-engineering-teams"
+## Engineering Blog Rules Starts
 
 [[redirects]]
-  from = "/blog/async-temp"
-  to = "/blog/async-temp/index.html"
+  from = "/async"
+  to = "/blog/engineering"
   status = 301
+
+[[redirects]]
+  from = "/async/exception_handling_in_csharp"
+  to = "/blog/engineering/exception-handling-in-csharp/"
+  status = 301
+
+[[redirects]]
+  from = "/async/loginscreen_testing_tips"
+  to = "/blog/engineering/loginscreen-testing-tips/"
+  status = 301
+
+[[redirects]]
+  from = "/async/what-is-the-new-go-1.15"
+  to = "/engineering/what-is-the-new-go-1-15/"
+  status = 301
+
+[[redirects]]
+  from = "/async/react-context-api-guide-with-Example"
+  to = "/blog/engineering/react-context-api-guide-with-example/"
+  status = 301
+
+[[redirects]]
+  from = "/async/oAuth-implemenation-using-node"
+  to = "/blog/engineering/oauth-implemenation-using-node/"
+  status = 301
+
+[[redirects]]
+  from = "/async/guest-post/implementing-registration-and-authentication-in-django-using-LoginRadius"
+  to = "/blog/engineering/guest-post/implementing-registration-and-authentication-in-django-using-loginradius/"
+  status = 301
+
+[[redirects]]
+  from = "/async/AI-and-IoT-The-Perfect-Match"
+  to = "/blog/engineering/ai-and-iot-the-perfect-match/"
+  status = 301
+
+[[redirects]]
+  from = "/async/a-journey-with-AWS"
+  to = "/blog/engineering/a-journey-with-aws/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Best-hacking-tools"
+  to = "/blog/engineering/best-hacking-tools/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Blockchain-the-new-technology-of-security-trust"
+  to = "/blog/engineering/blockchain-the-new-technology-of-security-trust/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Full_data_science_pipeline_implementation"
+  to = "/blog/engineering/full-data-science-pipeline-implementation/"
+  status = 301
+
+[[redirects]]
+  from = "/async/full_data_science_pipeline_implementation"
+  to = "/blog/engineering/full-data-science-pipeline-implementation/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Introduction-to-UniFi-Ubiquiti-Network"
+  to = "/blog/engineering/introduction-to-unifi-ubiquiti-network/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Learn-About-VDN-for-CyberSecurity"
+  to = "/blog/engineering/learn-about-vdn-for-cybersecurity/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Nodejs-and-MongoDb-application-authentication-by-JWT"
+  to = "/blog/engineering/nodejs-and-mongodb-application-authentication-by-jwt/"
+  status = 301
+
+[[redirects]]
+  from = "/async/opensource-Automation-for-identity-experience-framework"
+  to = "/blog/engineering/opensource-automation-for-identity-experience-framework/"
+  status = 301
+<<<<<<< HEAD
   force = false
 
 [[redirects]]
@@ -23,3 +94,343 @@
 [[redirects]]
   from = "/blog/async/oAuth-implemenation-using-node/"
   to = "/blog/async/oauth-implemenation-using-node/"
+=======
+
+[[redirects]]
+  from = "/async/Optimal-Clusters-KMeans"
+  to = "/blog/engineering/optimal-clusters-kmeans/"
+  status = 301
+
+[[redirects]]
+  from = "/async/Secure-Enclave-iOS-app"
+  to = "/blog/engineering/secure-enclave-ios-app/"
+  status = 301
+
+[[redirects]]
+  from = "/async/What-is-adaptive-authentication"
+  to = "/blog/engineering/what-is-adaptive-authentication/"
+  status = 301
+
+[[redirects]]
+  from = "/async/page/guest-blog"
+  to = "/blog/guest-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/async/rss.xml"
+  to = "/blog/rss.xml/"
+  status = 301
+
+[[redirects]]
+  from = "/async/tags/*"
+  to = "/blog/tags/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/async/author/*"
+  to = "/blog/author/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/async/*"
+  to = "/blog/engineering/:splat"
+  status = 301
+
+## Engineering Blog Rules Ends
+
+## Identity Blog Rules Starts
+[[redirects]]
+  from = "/async"
+  to = "/blog/engineering"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/OAuth-authentication-vulnerabilities"
+  to = "/blog/identity/oauth-authentication-vulnerabilities/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/Multi-Factor-Authentication-A-Beginners-Guide"
+  to = "/blog/identity/multi-factor-authentication-a-beginners-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/Single-Sign-On-A-Beginners-Guide"
+  to = "/blog/identity/single-sign-on-a-beginners-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/Top-10-Cybersecurity-Predictions-for-2021-That-SMBs-Must-Know"
+  to = "/blog/identity/top-10-cybersecurity-predictions-for-2021-that-smbs-must-know/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/Put-Yourself-In-Control-of-Your-Data-by-Leveraging-LoginRadius-SSO"
+  to = "/blog/identity/put-yourself-in-control-of-your-data-by-leveraging-loginradius-sso/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/What-is-User-Management"
+  to = "/blog/identity/what-is-user-management/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/what-is-Phone-Login"
+  to = "/blog/identity/what-is-phone-login/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/how-to-protect-business-BGP-hijacking"
+  to = "/blog/identity/how-to-protect-business-bgp-hijacking/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/Maintaining-Quality-Data-Security-Practices"
+  to = "/blog/identity/maintaining-quality-data-security-practices/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/page/guest-blog"
+  to = "/blog/guest-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/rss.xml"
+  to = "/blog/rss.xml/"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/category/*"
+  to = "/blog/tags/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/author/*"
+  to = "/blog/author/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/start-with-identity/*"
+  to = "/blog/identity/:splat"
+  status = 301
+
+## Identity Rules Ends
+
+## Growth Rules Starts
+[[redirects]]
+  from = "/async"
+  to = "/blog/engineering/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/how-CISO-can-improve-collaboration-on-security-risks"
+  to = "/blog/growth/how-ciso-can-improve-collaboration-on-security-risks/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/customer-identity-drives-digital-eCommerce-success"
+  to = "/blog/growth/customer-identity-drives-digital-ecommerce-success/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/How-to-add-Twitter-Blue-Checkmark"
+  to = "/blog/growth/how-to-add-twitter-blue-checkmark/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Future-Of-Social-Media-Video-Marketing"
+  to = "/blog/growth/future-of-social-media-video-marketing/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Vaccine-Success-can-Impact-the-Remote-Working-Culture"
+  to = "/blog/growth/vaccine-success-can-impact-the-remote-working-culture/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Cybersecurity-Tips-for-Ecommerce-Websites"
+  to = "/blog/growth/cybersecurity-tips-for-ecommerce-websites/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Is-AI-Really-Transforming-the-Digital-Marketing-Industry"
+  to = "/blog/growth/is-ai-really-transforming-the-digital-marketing-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Top-5-Features-of-Google-My-Business-for-Marketers"
+  to = "/blog/growth/top-5-features-of-google-my-business-for-marketers/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Digitization-of-Agile-Marketing-Principles"
+  to = "/blog/growth/digitization-of-agile-marketing-principles/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Twitter-for-B2B-Marketing-in-2021"
+  to = "/blog/growth/twitter-for-b2b-marketing-in-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Benefits-of-Google-Tag-Manager"
+  to = "/blog/growth/benefits-of-google-tag-manager/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Hotjar-vs-Microsoft-Clarity"
+  to = "/blog/growth/hotjar-vs-microsoft-clarity/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Duplicate-Content-and-SEO"
+  to = "/blog/growth/duplicate-content-and-seo/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Top-5-SEO-Tools-for-Auditing-WordPress-Website"
+  to = "/blog/growth/top-5-seo-tools-for-auditing-wordpress-website/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/A-Brief-Guide-to-Online-Reputation-Management"
+  to = "/blog/growth/a-brief-guide-to-online-reputation-management/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/10-Video-Marketing-Stats-That-Brands-Cant-Ignore-in-2021"
+  to = "/blog/growth/10-video-marketing-stats-that-brands-cant-ignore-in-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/PR-Trends-to-Consider-in-2021"
+  to = "/blog/growth/pr-trends-to-consider-in-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Leverage-Website-for-More-Conversions"
+  to = "/blog/growth/leverage-website-for-more-conversions/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Top-UI-UX-Design-Tools-2021"
+  to = "/blog/growth/top-ui-ux-design-tools-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Why-Video-Testimonials-Are-A-Marketing-Must"
+  to = "/blog/growth/why-video-testimonials-are-a-marketing-must/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Top-5-Marketing-Strategies-to-Power-up-Your-Business"
+  to = "/blog/growth/top-5-marketing-strategies-to-power-up-your-business/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Top-10-Tips-to-Enhance-Your-Creativity-While-Working-From-Home"
+  to = "/blog/growth/top-10-tips-to-enhance-your-creativity-while-working-from-home/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Does-Your-website-Imagery-Reflect-Your-Brand-Identity"
+  to = "/blog/growth/does-your-website-imagery-reflect-your-brand-identity/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/B2B-Lead-Generation-for-2021"
+  to = "/blog/growth/b2b-lead-generation-for-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/How-to-Boost-Your-B2B-Marketing-Strategy-with-Hyper-Personalization"
+  to = "/blog/growth/how-to-boost-your-b2b-marketing-strategy-with-hyper-personalization/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Which-Marketing-Strategy-is-Best-for-You"
+  to = "/blog/growth/which-marketing-strategy-is-best-for-you/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/7-Best-Marketing-Emails-to-Attract-Consumers-Right-Away"
+  to = "/blog/growth/7-best-marketing-emails-to-attract-consumers-right-away/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Understanding-Growth-Hacking-and-How-SaaS-Businesses-Can-Use-It-to-Optimize-Growth"
+  to = "/blog/growth/understanding-growth-hacking-and-how-saas-businesses-can-use-it-to-optimize-growth/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/How-to-Make-Businesses-Marketing-Plans-After-Coronavirus"
+  to = "/blog/growth/how-to-make-businesses-marketing-plans-after-coronavirus/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/8-Effective-Communication-Strategies-for-Internal-Alignment-and-Growth-in-2021"
+  to = "/blog/growth/8-effective-communication-strategies-for-internal-alignment-and-growth-in-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/How-to-Drive-in-the-Highest-Quality-Leads-in-2021-with-Content-and-SEO"
+  to = "/blog/growth/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/20-Content-Ideas-for-Most-Engaging-B2B-LinkedIn-Posts"
+  to = "/blog/growth/20-content-ideas-for-most-engaging-b2b-linkedin-posts/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/Why-is-Consumer-Onboarding-Critical-for-Startups"
+  to = "/blog/growth/why-is-consumer-onboarding-critical-for-startups/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/How-customer-retention-can-help-businesses-grow"
+  to = "/blog/growth/how-customer-retention-can-help-businesses-grow/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/page/guest-blog"
+  to = "/blog/guest-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/rss.xml"
+  to = "/blog/rss.xml/"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/author/*"
+  to = "/blog/author/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/fuel/*"
+  to = "/blog/growth/:splat"
+  status = 301
+
+## General redirects
+
+[[redirects]]
+  from = "/2020/05/customer-experience-retail-industry"
+  to = "/blog/growth/customer-experience-retail-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/2020/03/improve-customer-experience-hospitality-industry"
+  to = "/blog/growth/improve-customer-experience-hospitality-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/2020/02/customer-experience-media-entertainment-industry"
+  to = "/blog/growth/customer-experience-media-entertainment-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/2019/05/sso-identity-providers"
+  to = "/identity-providers/"
+  status = 301
+>>>>>>> 3737b5c31ccfeaeef482d86f5d2fbc04c7fcd32f

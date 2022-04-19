@@ -13,7 +13,7 @@ const logger = function () {
 
 const FreeTrial = () => {
   return (
-    <section className={`py-80 ${styles.freetrialWrap}`}>
+    <section className={`py-96 ${styles.freetrialWrap}`}>
       <div className={styles.freetrial}>
         <div className={styles.content}>
           <h3>Try a Modern Authentication Solution</h3>

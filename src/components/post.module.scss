@@ -1,19 +1,20 @@
 @import "../styles/variables.scss";
 .post-detail {
+  h2 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
   h3 {
     margin-bottom: 15px;
   }
   ul {
-    padding: 0 0 0 40px;
-    margin: 0 0 30px 0;
-    font-size: 20px;
+    padding: 0 0 0 $gutter;
+    margin: 0;
+    font-size: 1.125rem;
     line-height: 32px;
   }
   .post-content {
-    padding-right: $space-50;
-    @media (max-width: 768px) {
-      padding-right: 0;
-    }
     .post-description {
       border-bottom: 1px solid $gray-light;
     }
@@ -31,76 +32,38 @@
       }
     }
   }
-  .sidebar {
-    hr {
-      margin: 40px 0;
-      border-width: 1px 0 0 0;
-      border-style: solid;
-      border-color: $gray-light;
-      background-color: transparent;
-    }
-    .related-post-row {
-      a {
-        color: $blue-bright;
-      }
-      &:not(:last-child) {
-        border-bottom: 1px solid $gray-light;
-        margin-bottom: 40px;
-        padding-bottom: 10px;
-      }
-    }
-    .tag {
-      a {
-        background-color: $gray-light;
-        padding: 0 16px;
-        border-radius: 4px;
-        color: $black;
-        line-height: 30px;
-        font-size: 16px;
-        height: 30px;
-        display: inline-flex;
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-bottom: 15px;
-        &:hover {
-          background-color: $blue-bright;
-          color: $white;
-        }
-      }
-    }
-    .follow-btn {
-      a {
-        display: flex;
-        margin-top: 0.5em;
-        p {
-          margin: 0 0 0 0.5em;
-          line-height: normal;
-          color: $gray-dark;
-          &:hover {
-            color: $black;
-          }
-        }
-        svg {
-          width: 1.5em;
-          margin-top: 3px;
-        }
-      }
-    }
+
+  .post-detail-inner {
+    border-top: 1px solid $gray-light;
   }
 }
 
 // Authore CSS
 
 .author {
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
     flex-direction: column;
   }
   .author-image {
     width: 100px;
     margin-right: 30px;
-    @media (max-width: 768px) {
+    @media (max-width: 950px) {
       margin-right: 0;
       margin-bottom: 30px;
+    }
+    img {
+      transition: all 300ms;
+    }
+    a {
+      &:hover {
+        img {
+          transition: all 300ms;
+          opacity: 0.8;
+        }
+      }
     }
   }
   .about-author {
@@ -108,13 +71,16 @@
     flex-direction: column;
     flex: 1;
     &-inner {
-      margin-right: 24px;
-      width: calc(70% - 12px);
-      padding-right: 50px;
-      @media (max-width: 768px) {
-        width: 100%;
-        margin-right: 0px;
+      @media (max-width: 950px) {
         padding-right: 0;
+      }
+    }
+    h3 {
+      a {
+        color: $blue-bright;
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
   }
@@ -131,7 +97,7 @@
   background-color: $blue-bright;
   .grid-66-33 {
     &.cta-small {
-      padding: 48px 24px;
+      padding: 48px $gutter;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
@@ -145,8 +111,8 @@
     & > div {
       display: inline-block;
       float: left;
-      margin-right: 24px;
-      width: calc(67% - (24px * 1 / 2));
+      margin-right: $gutter;
+      width: calc(67% - #{$gutter * 1 / 2});
       @media screen and (max-width: 1024px) {
         float: none;
         display: block;
@@ -154,12 +120,12 @@
       }
       &:nth-child(2) {
         margin-right: 0;
-        width: calc(33% - (24px * 1 / 2));
+        width: calc(33% - #{$gutter * 1 / 2});
         @media screen and (max-width: 1024px) {
           float: none;
           display: block;
           width: 100%;
-          margin-top: 24px;
+          margin-top: $gutter;
         }
       }
     }
@@ -177,7 +143,7 @@
           max-width: 308px;
           margin-bottom: 0;
           background-color: $white;
-          color: $cta;
+          color: $lr-orange;
           box-shadow: none;
           transition: 0.3s ease-in 0s;
           background-size: 250% auto;
@@ -207,7 +173,7 @@
     margin: 0 0 20px;
   }
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 26px;
     margin-bottom: 0;
   }

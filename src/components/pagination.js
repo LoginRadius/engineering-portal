@@ -3,11 +3,27 @@ import { Link } from "gatsby"
 
 import styles from "./pagination.module.scss"
 
-const Pagination = ({ pages, currentPage }) => {
+const Pagination = ({ pages, currentPage, type }) => {
   const isFirst = currentPage === 1
   const isLast = currentPage === pages
   const prevPage = currentPage - 1 === 1 ? "" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
+
+  let navLink = ""
+
+  switch (type) {
+    case "async":
+      navLink = "/engineering"
+      break
+    case "start-with-identity":
+      navLink = "/identity"
+      break
+    case "fuel":
+      navLink = "/growth"
+      break
+    default:
+      navLink = type || ""
+  }
 
   let pageArray = []
   let intialPages = false
@@ -31,39 +47,79 @@ const Pagination = ({ pages, currentPage }) => {
   ]
 
   return (
-    <section className="bg-light py-40">
+    <section className={styles.paginationWrap}>
       <div className={styles.pagination}>
-        {!isFirst && <Link to={`/${prevPage}/#all-articles`} rel="prev" />}
-        {!intialPages && (
-          <Link
-            to={`/`}
-            className={currentPage === 1 ? styles.active : ""}
-          >
-            {1}
+        {!isFirst && (
+          <Link to={`${navLink}/${prevPage}/#all-articles`} rel="prev">
+            <span>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.375 5.25L8.625 12L15.375 18.75"
+                  stroke="#0D8DCF"
+                  strokeWidth={2.25}
+                  strokeMiterlimit={10}
+                  strokeLinecap="square"
+                />
+              </svg>
+            </span>
           </Link>
         )}
-        {!intialPages && <p to="">...</p>}
+        {!intialPages && (
+          <Link
+            to={`${navLink}/`}
+            className={currentPage === 1 ? styles.active : ""}
+          >
+            <span>{1}</span>
+          </Link>
+        )}
+        {!intialPages && currentPage != 4 && <p>...</p>}
         {pageArray.map((k, i) => (
           <Link
-            to={`${k === 1 ? `/` : `/${k}/#all-articles`}`}
+            to={`${k === 1 ? `${navLink}/` : `${navLink}/${k}/#all-articles`}`}
             key={k}
             className={currentPage === k ? styles.active : ""}
           >
-            {k}
+            <span>{k}</span>
           </Link>
         ))}
-        {!lastPages && <p>...</p>}
+        {!lastPages && currentPage != pages - 3 && <p>...</p>}
         {!lastPages && (
           <Link
-            to={`/${pages}/#all-articles`}
+            to={`${navLink}/${pages}/#all-articles`}
             key={pages}
             className={currentPage === pages ? styles.active : ""}
           >
-            {pages}
+            <span>{pages}</span>
           </Link>
         )}
 
-        {!isLast && <Link to={`/${nextPage}/#all-articles`} rel="next" />}
+        {!isLast && (
+          <Link to={`${navLink}/${nextPage}/#all-articles`} rel="next">
+            <span>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.625 5.25L15.375 12L8.625 18.75"
+                  stroke="#0D8DCF"
+                  stroke-width="2.25"
+                  stroke-miterlimit="10"
+                  stroke-linecap="square"
+                />
+              </svg>
+            </span>
+          </Link>
+        )}
       </div>
     </section>
   )

@@ -1,77 +1,50 @@
 @import "../styles/variables.scss";
-.pagination {
-  display: flex;
-  justify-content: center;
-  a {
-    width: 32px;
-    height: 32px;
+.pagination-wrap {
+  margin: $gutter * 3 0;
+  .pagination {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    margin: 0 10px;
-    box-shadow: none;
-    font-weight: 500;
-    @media (max-width: 768px) {
-      padding: 0 5px;
-    }
-    &.active,
-    &:hover {
-      color: $white;
-      background-color: $blue-bright;
-      transition: all 0.2s;
-    }
-    &[rel="next"],
-    &[rel="prev"] {
-      position: relative;
-      &:before {
-        content: "";
-        width: 15px;
-        height: 2px;
-        background: #0d8dcf;
-        position: absolute;
-        top: 10px;
-        right: 8px;
-        transform: rotate(45deg);
+    a {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none;
+      font-weight: 500;
+      font-size: 1.125rem;
+      @media (max-width: 768px) {
+        padding: 0 5px;
       }
-    }
-    &[rel="next"],
-    &[rel="prev"] {
-      position: relative;
-      &:after {
-        content: "";
-        width: 15px;
-        height: 2px;
-        background: #0d8dcf;
-        position: absolute;
-        top: 20px;
-        right: 8px;
-        transform: rotate(-45deg);
+      span {
+        display: flex;
+        width: 32px;
+        height: 32px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        transition: all 0.2s;
       }
-    }
-    &[rel="prev"] {
-      &:before {
-        transform: rotate(-45deg);
-        right: auto;
-      }
-    }
-    &[rel="prev"] {
-      &:after {
-        transform: rotate(45deg);
-        right: auto;
-      }
-    }
-    &[rel="next"],
-    &[rel="prev"] {
+      &.active,
       &:hover {
-        &:after,
-        &:before {
-          background-color: $white;
+        span {
+          color: $white;
+          background-color: $blue-bright;
+        }
+        &[rel="prev"],
+        &[rel="next"] {
+          svg {
+            path {
+              stroke: $white;
+            }
+          }
         }
       }
     }
-  }
-  p {
-    margin-bottom: 0;
+    p {
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+    }
   }
 }
