@@ -424,6 +424,6 @@ You can now run application and test it. That's how you can implement passwordle
 
 ### Conclusion
 
-You learned how passwordless authentication works as well as some of the benefits and drawbacks of using it throughout this tutorial. And you've built a sample PHP app that makes use of passworless authentication method using LoginRadius.
+You learned what passwordless authentication is and how it helps imrove user expereince and security. You've also built a sample PHP app that makes use of passworless authentication method using LoginRadius.
 
-Please feel to share this this tutorial if you found it helpful :)
+Please feel to share this tutorial if you found it helpful :)
