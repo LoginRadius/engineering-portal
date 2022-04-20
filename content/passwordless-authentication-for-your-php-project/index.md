@@ -377,6 +377,7 @@ For the `otp_verify.php`, let's paste this in:
     
     $result = $passwordLessLoginAPI->passwordlessLoginPhoneVerification($payload,$fields,$smsTemplate);
     if($result){
+      //to view the json response you can echo the result
       $res = json_decode($result);
       $phoneVerified = $res["Profile"]["PhoneIdVerified"];
       if($phoneVerified){
@@ -388,7 +389,8 @@ For the `otp_verify.php`, let's paste this in:
 ?>
 ```
 
-The `otp_verify.php` will help us very if the otp which the user inputs is actually genuine. If it is then it redirects to the hompage. This is possible by decoding the result of the otp which is in json format. Inside the Json are parameters we can use to login in.  In my case, it is `phoneidverified`.
+The `otp_verify.php` will help us verify if the otp which the user inputs is actually genuine. If it is then it redirects to the hompage. We will be using the json_decode(result) for this. Inside the Json are parameters we can use to login in.  In my case, it is `phoneidverified`. To view this json objects, we can echo the result.
+
 Almost done! let's just create a homepage that says welcome back user.  Create a file called `homepage.php` and paste this:
 
 ```php
