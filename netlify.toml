@@ -6,7 +6,7 @@
   status = 301
 
 [[redirects]]
-  from = "/blog/engineering/introduction-of-Idx-Auto-Tester/"
+  from = "/async/introduction-of-Idx-Auto-Tester/"
   to = "/blog/engineering/introduction-of-idx-auto-tester/"
   status = 301
 
