@@ -50,7 +50,7 @@ Attackers are exploiting consumer credentials to bypass security layers that res
 
 Hence, an innovative and robust system should be in place that adds a strong fence around the network without hampering the user experience.
 
-One such security feature is [“Adaptive Authentication” or “Risk-based Authentication](https://www.loginradius.com/blog/async/What-is-adaptive-authentication/).”
+One such security feature is [“Adaptive Authentication” or “Risk-based Authentication](https://www.loginradius.com/blog/engineering/What-is-adaptive-authentication/).”
 
 It’s a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
 
@@ -90,7 +90,7 @@ For this, you need to ensure you have a robust identity solution that grows at t
 
 If your CIAM isn’t available to cater to the increasing demands of your consumers, you’re heading in the wrong direction.
 
-With 100% uptime and 35 data centers across the globe, [LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/async/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
+With 100% uptime and 35 data centers across the globe, [LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/engineering/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
 
 This is what consumers in today’s era actually want since nobody would like to revisit a website or application that offers a poor user experience due to unavailability.
 

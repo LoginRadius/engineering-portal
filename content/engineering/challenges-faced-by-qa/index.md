@@ -17,7 +17,7 @@ Given the responsibility of a QA's job, it is natural to face many challenges in
 
 Usually, QA teams face unstable environment setup issues that we need to prepare for most of what we have. Sometimes the server gets stuck due to overload and requires a restart many times during testing etc.
 
-Escalate these issues to the seniors and make sure you get the environment [ready for the testing](https://www.loginradius.com/blog/async/unit-testing/).
+Escalate these issues to the seniors and make sure you get the environment [ready for the testing](https://www.loginradius.com/blog/engineering/unit-testing/).
 
 ### 2. Tools Being Force-fed
 
@@ -43,7 +43,7 @@ While trying to make an accurate estimate, some software estimations could be en
 
 ### 7. Fixing Bugs During Testing
 
-Developers and QA engineers should work closely. [Testing should be done](https://www.loginradius.com/blog/async/qa-teams-deliver-quality-software/) once part of the development process is done, and after that, bug fixing activity should start. QA submit a test report and only after that debugging begins.
+Developers and QA engineers should work closely. [Testing should be done](https://www.loginradius.com/blog/engineering/qa-teams-deliver-quality-software/) once part of the development process is done, and after that, bug fixing activity should start. QA submit a test report and only after that debugging begins.
 
 ### 8. Last-Minute Changes to Requirements
 

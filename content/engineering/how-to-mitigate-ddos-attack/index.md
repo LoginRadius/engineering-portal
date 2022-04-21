@@ -75,7 +75,7 @@ There are various WAF solutions available, but you need to analyze which WAF sol
 
 
 ### 4. Rate Limit
-Attackers can make so many [repeated calls on the APIs](https://www.loginradius.com/blog/async/best-practice-guide-for-rest-api-security/). It can make resources unavailable to its genuine users. A rate limit is the number of API calls or requests that a user can make within a given time frame. When this limit is exceeded, block API access temporarily and return the 429 (too many requests) HTTP error code.
+Attackers can make so many [repeated calls on the APIs](https://www.loginradius.com/blog/engineering/best-practice-guide-for-rest-api-security/). It can make resources unavailable to its genuine users. A rate limit is the number of API calls or requests that a user can make within a given time frame. When this limit is exceeded, block API access temporarily and return the 429 (too many requests) HTTP error code.
 
 I m adding node js examples to implement the rate limit. multiple npm packages are available for node js
 

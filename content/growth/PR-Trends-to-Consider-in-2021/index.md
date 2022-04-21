@@ -37,7 +37,7 @@ Trend 1 – Predictive Analysis
 
   
 
-Believe it or not, the future of PR is Predictive Analysis - powered by Artificial Intelligence (AI) and [Machine Learning (ML)](https://www.loginradius.com/blog/async/tags/machine-learning/).
+Believe it or not, the future of PR is Predictive Analysis - powered by Artificial Intelligence (AI) and [Machine Learning (ML)](https://www.loginradius.com/blog/engineering/tags/machine-learning/).
 
   
 

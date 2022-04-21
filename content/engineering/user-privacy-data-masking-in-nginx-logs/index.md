@@ -128,5 +128,5 @@ The NGINX JavaScript module provides a quick and efficient approach for adding c
 
 
 You can get more detail about the Nginx logs and mask from here - 
-[Nginx - Everything you want to know about the Nginx logs in 10 minutes](https://www.loginradius.com/blog/async/quick-10-minutes-guide-about-the-nginx-access-and-error-logs/)
+[Nginx - Everything you want to know about the Nginx logs in 10 minutes](https://www.loginradius.com/blog/engineering/quick-10-minutes-guide-about-the-nginx-access-and-error-logs/)
 

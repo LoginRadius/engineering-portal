@@ -148,4 +148,4 @@ lst.Clear(); // Removes all elements from a list
  
 ## Conclusion
  
-In this article, we have discussed the basics of `List<T>`, properties, and some methods. The main advantage of using the list is that it is faster and it is more friendly because it gives us many inbuilt methods to use and do the manipulation according to ourselves. If you want to learn more about C# here is an article written by me on [How to Work with Nullable Types in C#](https://www.loginradius.com/blog/async/nullable-csharp/)
+In this article, we have discussed the basics of `List<T>`, properties, and some methods. The main advantage of using the list is that it is faster and it is more friendly because it gives us many inbuilt methods to use and do the manipulation according to ourselves. If you want to learn more about C# here is an article written by me on [How to Work with Nullable Types in C#](https://www.loginradius.com/blog/engineering/nullable-csharp/)

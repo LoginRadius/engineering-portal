@@ -9,7 +9,7 @@ description: "Learn how to use JWT with OAuth and when & why"
 
 ## What is JWT? What is OAuth2?
 
-JWT(Json Web Token) is a token format. It is digitally-signed, self-contained, and compact. It provides a convenient mechanism for transferring data. JWT is not inherently secure, but the use of JWT can ensure the authenticity of the message so long as the signature is verified and the integrity of the payload can be guaranteed. JWT is often used for stateless authentication in simple use cases involving non-complex systems. For more information on JWT, please see [https://www.loginradius.com/blog/async/jwt/](/jwt/)
+JWT(Json Web Token) is a token format. It is digitally-signed, self-contained, and compact. It provides a convenient mechanism for transferring data. JWT is not inherently secure, but the use of JWT can ensure the authenticity of the message so long as the signature is verified and the integrity of the payload can be guaranteed. JWT is often used for stateless authentication in simple use cases involving non-complex systems. For more information on JWT, please see [https://www.loginradius.com/blog/engineering/jwt/](/jwt/)
 
 OAuth2 is an authorization protocol that builds upon the original OAuth protocol created in 2006, arising out of a need for authorization flows serving different kinds of applications from web and mobile apps to IoT. OAuth2 specifies the flows and standards under which authorization token exchanges should occur. OAuth2 does not encompass authentication, only authorization. For more information on OAuth2, please see [https://tools.ietf.org/html/rfc6749](https://tools.ietf.org/html/rfc6749)
 

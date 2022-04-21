@@ -60,12 +60,12 @@ JWT (JSON Web Token) is used to provide a standard way for two parties to commun
 
 There is an open industry standard called RFC-7519, which defines how JWT should be structured and how to use it to exchange information (called “claims”) in the form of JSON objects. This information can be verified and trusted as it is digitally signed.
 
-[JWT (JSON Web Token)](https://www.loginradius.com/blog/async/jwt/) is a popular method of SSO, which is widely used by B2C applications, and through this system, you can allow your consumers to log in to an application that supports JWT.
+[JWT (JSON Web Token)](https://www.loginradius.com/blog/engineering/jwt/) is a popular method of SSO, which is widely used by B2C applications, and through this system, you can allow your consumers to log in to an application that supports JWT.
 
 
 ## When to Use a Refresh Token?
 
-Before inching towards refresh tokens, one should understand that [OAuth 2.0](https://www.loginradius.com/blog/async/oauth2/) specifications define both access tokens and refresh tokens. 
+Before inching towards refresh tokens, one should understand that [OAuth 2.0](https://www.loginradius.com/blog/engineering/oauth2/) specifications define both access tokens and refresh tokens. 
 
 Enterprises can leverage a refresh token in scenarios where the API needs authentication through an access token but users aren’t always available to provide credentials again and again. 
 

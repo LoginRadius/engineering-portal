@@ -108,7 +108,7 @@ To avoid making your users vulnerable to a DNS poisoning attack, you can use the
 *   Do not click on the links that you don't recognize; these include text messages, emails, or social media links. To be safe, you can opt for entering the URL manually in the address bar.
 *   Regularly scan your computer for any malware. Your security software will help and remove any secondary infections. As the poisoned sites deliver malicious programs, you need to scan for spyware, viruses, or any other hidden issues.
 *   Flush your DNS cache to solve the problem of poisoning. Nevertheless, cache poisoning remains in your system for a long time until you clean the infected area.
-*   Use the [virtual private network (VPN)](https://www.loginradius.com/blog/async/learn-about-vdn-for-cybersecurity/), a service that offers an encrypted tunnel for your web traffic. You can use a private DNS service exclusively for end-to-end encrypted requests; as a result, your servers are tougher against DNS spoofing. 
+*   Use the [virtual private network (VPN)](https://www.loginradius.com/blog/engineering/learn-about-vdn-for-cybersecurity/), a service that offers an encrypted tunnel for your web traffic. You can use a private DNS service exclusively for end-to-end encrypted requests; as a result, your servers are tougher against DNS spoofing. 
 
 
 ## Final Thoughts

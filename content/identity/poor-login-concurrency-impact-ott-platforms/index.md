@@ -100,7 +100,7 @@ LoginRadius has been at the forefront of offering a multilevel security web app 
 
 
 
-* [End-to-end SSL encryption](https://www.loginradius.com/blog/async/lets-encrypt-with-ssl-certificates/) for data in transit and ensures protection against unauthorized access.
+* [End-to-end SSL encryption](https://www.loginradius.com/blog/engineering/lets-encrypt-with-ssl-certificates/) for data in transit and ensures protection against unauthorized access.
 * Multi-factor authentication eliminates the risk of being exposed to attacks.
 * One-way hashing of passwords considerably improves consumer security.
 * A single sign-on (SSO) solution allows users to use the same profile to log in everywhere.

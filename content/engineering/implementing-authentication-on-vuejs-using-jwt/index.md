@@ -383,7 +383,7 @@ In this tutorial, we looked at how to authenticate a person using the JSON web t
 ## Resources
 - [GIthub souce code](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Vuejs/AuthenticationUsingJWT)
 - [jwt.io](https://jwt.io/)
-- [What are json web token](https://www.loginradius.com/blog/async/jwt/)
+- [What are json web token](https://www.loginradius.com/blog/engineering/jwt/)
 
 
 

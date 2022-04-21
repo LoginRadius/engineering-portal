@@ -30,7 +30,7 @@ The analysis of the authentication services market takes place after segmenting 
 
   
 
--   Authentication type: This segment usually involves the different forms or methods of authentication. That is two and [multi-factor authentication](https://www.loginradius.com/blog/async/why-mfa-important/), single sign-on and other forms.
+-   Authentication type: This segment usually involves the different forms or methods of authentication. That is two and [multi-factor authentication](https://www.loginradius.com/blog/engineering/why-mfa-important/), single sign-on and other forms.
     
 
   

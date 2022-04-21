@@ -91,7 +91,7 @@ Businesses can leverage these SDKs to build an exceptional login and registratio
 
 ## REST APIs and OAuth 2 Protocol
 
-The SDKs are built using industry-standard technologies such as REST APIs and [OAuth 2.0](https://www.loginradius.com/blog/async/oauth2/) protocol. These SDKs are entirely open source, allowing businesses to modify and build off of the code to serve their unique requirements.
+The SDKs are built using industry-standard technologies such as REST APIs and [OAuth 2.0](https://www.loginradius.com/blog/engineering/oauth2/) protocol. These SDKs are entirely open source, allowing businesses to modify and build off of the code to serve their unique requirements.
 
 Apart from this, separate credentials are given to each person on the team to ensure security and accountability during the entire implementation process.
 

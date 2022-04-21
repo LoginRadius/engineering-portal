@@ -15,7 +15,7 @@ We’re living in a digital era where we’re continuously surrounded by several
 
 Whether we talk about the rising number of identity thefts or compromised sensitive information, individuals and organizations must quickly put their best foot forward to mitigate the risk. 
 
-However, adding stringent layers of security through diverse practices, including [multi-factor authentication](https://www.loginradius.com/blog/async/why-mfa-important/) (MFA), has proven to be fruitful in minimizing the risks. 
+However, adding stringent layers of security through diverse practices, including [multi-factor authentication](https://www.loginradius.com/blog/engineering/why-mfa-important/) (MFA), has proven to be fruitful in minimizing the risks. 
 
 These security practices add an extra security layer other than passwords and ensure that the right person has access to the right information. 
 

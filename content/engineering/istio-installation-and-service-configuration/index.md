@@ -9,7 +9,7 @@ description: "This article will provide a step by step process on how to install
 
 An infrastructure layer that allows you to manage communication between the microservices of your application is a service mesh. As more developers work with microservices, by consolidating common management and administrative tasks in a distributed setup, service meshes have developed to make the job easier and more effective.
 
-To know more about Istio, you can read this article on [Istio service mesh](https://www.loginradius.com/blog/async/istio-service-mesh) to understand the basic terminology, In this tutorial, will explain how to install and configure Istio. Let's get started.
+To know more about Istio, you can read this article on [Istio service mesh](https://www.loginradius.com/blog/engineering/istio-service-mesh) to understand the basic terminology, In this tutorial, will explain how to install and configure Istio. Let's get started.
 
 ## Installing Istio
 

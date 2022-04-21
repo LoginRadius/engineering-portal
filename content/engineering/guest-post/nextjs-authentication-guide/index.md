@@ -9,7 +9,7 @@ description: "This tutorial describes Next.js authentication patterns and helps 
 
 In this article, you'll learn about authentication in Next.js and how you can authenticate Next.js applications with [LoginRadius](https://www.loginradius.com/).
 
-> **Note:** An understanding of [React](https://reactjs.org/), [Hooks](https://www.loginradius.com/blog/async/react-hooks-guide/), and [Next.js](https://nextjs.org/) is beneficial to follow this tutorial.
+> **Note:** An understanding of [React](https://reactjs.org/), [Hooks](https://www.loginradius.com/blog/engineering/react-hooks-guide/), and [Next.js](https://nextjs.org/) is beneficial to follow this tutorial.
 
 ## What is Authentication?
 

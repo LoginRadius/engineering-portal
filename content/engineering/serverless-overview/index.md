@@ -7,7 +7,7 @@ tags: ["Serverless"]
 description: "Traditional software development is being transformed by serverless computing. Check out the best serveless computing platforms that will assist you in getting started."
 ---
 
-Serverless computing has been gaining a lot of popularity in the last couple of years, and for a good reason. It saves developer's time, allowing them to [focus on writing code](https://www.loginradius.com/blog/async/learning-how-to-code/) rather than dealing with infrastructure. Deploying powerful and scalable applications has generally become much quicker and easier with serverless. However, there can be drawbacks as well, such as vendor lock-in and lack of control.
+Serverless computing has been gaining a lot of popularity in the last couple of years, and for a good reason. It saves developer's time, allowing them to [focus on writing code](https://www.loginradius.com/blog/engineering/learning-how-to-code/) rather than dealing with infrastructure. Deploying powerful and scalable applications has generally become much quicker and easier with serverless. However, there can be drawbacks as well, such as vendor lock-in and lack of control.
 
 This blog will briefly go over some of the most popular serverless computing options from major cloud providers. There are also plenty of great resources online explaining serverless architecture in detail, so definitely go check those out if you haven't already. Now, let's go over some of the popular choices for serverless computing.
 
@@ -21,7 +21,7 @@ AWS Lambda was released in 2014 and has played a significant role in the rise of
 - Lambda functions run using [AWS Firecracker](https://github.com/firecracker-microvm/firecracker), an open-source virtualization project that focuses on securing and isolating functions while enabling the best performance possible.
 - It supports plenty of runtimes: Node.js, Python, Ruby, Java, Go, .NET Core, and even custom runtimes for cases where the desired runtime is not natively supported.
 - An excellent way to get support is through their official public [forum](https://forums.aws.amazon.com/forum.jspa?forumID=186), where AWS employees can answer your questions.
-- [AWS Lambda offers](https://www.loginradius.com/blog/async/a-journey-with-AWS/) free usage of 1M requests per month and 400,000 GB-seconds of computing time per month.
+- [AWS Lambda offers](https://www.loginradius.com/blog/engineering/a-journey-with-AWS/) free usage of 1M requests per month and 400,000 GB-seconds of computing time per month.
 
 Recent notable updates include:
 - [Dec 2020](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/): Function's can be defined as container images up to 10GB. Previously a function's code had to be written through the UI code editor or uploaded as zip archives.

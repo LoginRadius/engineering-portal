@@ -21,7 +21,7 @@ This post will cover all aspects of CARTA and how businesses can implement it to
 
 ## What is CARTA? How Does it Benefit Businesses? 
 
-Gartner, an information technology (IT) research and consultancy company, introduced CARTA back in 2017. CARTA is an approach built on [adaptive security architecture](https://www.loginradius.com/blog/async/what-is-adaptive-authentication/) that helps businesses manage risks associated with security. 
+Gartner, an information technology (IT) research and consultancy company, introduced CARTA back in 2017. CARTA is an approach built on [adaptive security architecture](https://www.loginradius.com/blog/engineering/what-is-adaptive-authentication/) that helps businesses manage risks associated with security. 
 
 CARTA ensures businesses employ a consistent, up-to-date approach to cybersecurity in the ever-increasing digital landscape where we’re interconnected with millions of devices.
 

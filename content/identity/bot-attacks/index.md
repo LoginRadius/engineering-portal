@@ -87,7 +87,7 @@ A popular approach to know that the request sent is valid is to use a CSRF token
 
 ### 11. Validate email addresses and phone numbers.
 
-It can be fairly easy to determine whether the email submitted in the form is linked to a working inbox or not by using an email address [validation API](https://www.loginradius.com/blog/async/best-practice-guide-for-rest-api-security/). This will also tell you whether the email has engaged in any abusive behavior. 
+It can be fairly easy to determine whether the email submitted in the form is linked to a working inbox or not by using an email address [validation API](https://www.loginradius.com/blog/engineering/best-practice-guide-for-rest-api-security/). This will also tell you whether the email has engaged in any abusive behavior. 
 Since bots will use invalid email IDs most of the time, verifying the email addresses can give a good layer of protection to your site against bots. 
 
 

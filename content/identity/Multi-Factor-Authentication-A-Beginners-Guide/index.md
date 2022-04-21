@@ -90,7 +90,7 @@ There are typically three primary reasons for which MFA becomes quite enhance th
 
   
 
-These are three main reasons which are most relevant to explain how and why **[Importance of MFA](https://www.loginradius.com/blog/async/why-mfa-important/)** to businesses to implement.
+These are three main reasons which are most relevant to explain how and why **[Importance of MFA](https://www.loginradius.com/blog/engineering/why-mfa-important/)** to businesses to implement.
 
   
 

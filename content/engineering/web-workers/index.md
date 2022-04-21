@@ -15,7 +15,7 @@ Web Workers are a browser feature that allows scripts to be executed on a separa
 
 Well, sort of. This has been something that had confused me many a time when I was initially learning about JavaScript. JavaScript a synchronous, single-threaded language. However, JavaScript has features that allow you to execute asynchronous code, which is handled by browser engines (on your client) or by your OS (in NodeJS), which are capable of executing code in multiple threads.
 
-We work with asynchronous methods in JavaScript by either using callbacks, [Promises or async/await](https://www.loginradius.com/blog/async/callback-vs-promises-vs-async-await/). We'll use Promises as an example for exploring asynchronicity in JavaScript.
+We work with asynchronous methods in JavaScript by either using callbacks, [Promises or async/await](https://www.loginradius.com/blog/engineering/callback-vs-promises-vs-async-await/). We'll use Promises as an example for exploring asynchronicity in JavaScript.
 
 Promises are proxies for values that are not yet available when the Promise is created. This lets you organize parts of your code to run when the value becomes available or if something goes wrong.
 
@@ -134,9 +134,9 @@ You can see that this time, the prime numbers function is actually running on a 
 
 ### When should you use JavaScript Web Worker
 
-To reiterate, Web Workers allow you to run your own [code on a separate thread](https://www.loginradius.com/blog/async/adding-multi-threading-to-javascript-using-web-workers/), which allows your main thread to continue rendering the UI, receive user input, etc., while your worker thread processes a response. 
+To reiterate, Web Workers allow you to run your own [code on a separate thread](https://www.loginradius.com/blog/engineering/adding-multi-threading-to-javascript-using-web-workers/), which allows your main thread to continue rendering the UI, receive user input, etc., while your worker thread processes a response. 
 
-For most web applications, the most expensive operations in your code will often be I/O, interacting with resources in your network. Thanks to [JavaScript's Event Loop](https://www.loginradius.com/blog/async/understanding-event-loop/), these are already offloaded from your main thread to your system's operating system. As such, there is no need for Web Workers when making these kinds of operations. 
+For most web applications, the most expensive operations in your code will often be I/O, interacting with resources in your network. Thanks to [JavaScript's Event Loop](https://www.loginradius.com/blog/engineering/understanding-event-loop/), these are already offloaded from your main thread to your system's operating system. As such, there is no need for Web Workers when making these kinds of operations. 
 
 If you need to process large sets of data, there is a decent chance that you will be able to perform this on your server-side before sending it to your front end client for display to the user. This will allow you to rely on JavaScript's event loop to prevent these expensive operations from blocking your main thread.
 
