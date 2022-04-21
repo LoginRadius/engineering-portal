@@ -8,7 +8,7 @@ description: "In this article, I will talk about how Enum.TryParse() works in C#
 ---
 ## Introduction
  
-As we all know that Enums are very commonly used in the C# program. While using the Enums, we should also be aware of how the values are parsed into the Enums. In my earlier article, I have talked about the [How to Use Enum in C#](https://www.loginradius.com/blog/async/enum-csharp/).In this article, I will specifically talk about the mistake we can make while using the **Enum.TryParse()** method.
+As we all know that Enums are very commonly used in the C# program. While using the Enums, we should also be aware of how the values are parsed into the Enums. In my earlier article, I have talked about the [How to Use Enum in C#](https://www.loginradius.com/blog/engineering/enum-csharp/).In this article, I will specifically talk about the mistake we can make while using the **Enum.TryParse()** method.
  
 ## Let's get started
  

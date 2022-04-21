@@ -76,7 +76,7 @@ If you have previously promised the client a special offer or discount, it is no
 
   
 
-Alternatively, you can introduce your new subscribers to your social media pages ("Like us on **[Facebook](https://www.loginradius.com/blog/async/login-with-facebook/)**" or "follow us on Pinterest") that work to build customer engagement with your brand. Use the following client tips when sending our subscriber emails:
+Alternatively, you can introduce your new subscribers to your social media pages ("Like us on **[Facebook](https://www.loginradius.com/blog/engineering/login-with-facebook/)**" or "follow us on Pinterest") that work to build customer engagement with your brand. Use the following client tips when sending our subscriber emails:
 
 -   Send this business email immediately after the client sign-up.
     

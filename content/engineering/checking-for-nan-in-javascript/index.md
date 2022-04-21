@@ -73,7 +73,7 @@ isNaN, when passed undefined, returns true because undefined becomes NaN after n
 
 Number.isNaN, on the other hand, returns false. This is because no coercion takes place, and undefined is _not_ NaN, it is simply undefined.  
 
-It is also important to note that Number.isNaN is a newer (ES2015) [method in JavaScript](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/), so browser support for Number.isNaN is not as stable as isNaN, which has been around since ES1 (1997).  
+It is also important to note that Number.isNaN is a newer (ES2015) [method in JavaScript](https://www.loginradius.com/blog/engineering/16-javascript-hacks-for-optimization/), so browser support for Number.isNaN is not as stable as isNaN, which has been around since ES1 (1997).  
 
 ### Method 2: Object.is
 

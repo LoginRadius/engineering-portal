@@ -82,7 +82,7 @@ const [value, setValue] = useStateIfMounted('checking value...');
         });
     }, []);
 ```
-In the above code, I've used a [hook](https://www.loginradius.com/blog/async/react-hooks-guide/) that works just like React's `useState`, but it also checks that component is mounted before updating the state!
+In the above code, I've used a [hook](https://www.loginradius.com/blog/engineering/react-hooks-guide/) that works just like React's `useState`, but it also checks that component is mounted before updating the state!
 
 ## Conclusion
 

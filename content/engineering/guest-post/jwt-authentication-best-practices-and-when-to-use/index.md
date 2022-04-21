@@ -9,9 +9,9 @@ description: "JWT is a common way of implementing authentication in web and mobi
 
 One of the most used authentication standards in web applications is the JSON Web Token standard. It is mostly used for authentication, authorization, and information exchange.
 
-JSON Web tokens are made of three parts separated by dots `(.)` — and look like this typically: `xxxxx.yyyyy.zzzzz`. These correspond to the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/async/jwt/).
+JSON Web tokens are made of three parts separated by dots `(.)` — and look like this typically: `xxxxx.yyyyy.zzzzz`. These correspond to the Header, the Payload, and the Signature. You can learn more about [JWT tokens here](https://www.loginradius.com/blog/engineering/jwt/).
 
-And before using them and continuing to read this article, you might want to check the advantages compared to the session authentication method. You can learn more about [JWTs vs. Sessions here](https://www.loginradius.com/blog/async/guest-post/jwt-vs-sessions/).
+And before using them and continuing to read this article, you might want to check the advantages compared to the session authentication method. You can learn more about [JWTs vs. Sessions here](https://www.loginradius.com/blog/engineering/guest-post/jwt-vs-sessions/).
 
 ## When to Use JWT Authentication?
 
@@ -67,7 +67,7 @@ Authorization: Bearer <token>
 
 How do you get a new access token if this one is expired? The natural first idea is to log in again. But from a User Experience point, this can be quite painful.
 
-JWT can be used as [refresh tokens](https://www.loginradius.com/blog/async/guest-post/what-are-refresh-tokens-and-when-to-use-them/); these tokens are used to retrieve a new access token.
+JWT can be used as [refresh tokens](https://www.loginradius.com/blog/engineering/guest-post/what-are-refresh-tokens-and-when-to-use-them/); these tokens are used to retrieve a new access token.
 
 For example, when a client requests a protected resource and receives an error, which can mean that the access token has expired, the client can be issued a new access token by sending a request with a refresh token in the headers or the body.
 If the refresh token is valid, a new access token will be created and sent as a response.
@@ -76,7 +76,7 @@ Note that the refresh token is obtained at authentication and has a bigger lifet
 
 ### 3) Which Signing Algorithm to Use?
 
-Interestingly enough, JWT can be [signed using many different algorithms](https://www.loginradius.com/blog/async/jwt-signing-algorithms/). But let’s quickly talk about the `alg` value in the JWT header. When it’s decoded:
+Interestingly enough, JWT can be [signed using many different algorithms](https://www.loginradius.com/blog/engineering/jwt-signing-algorithms/). But let’s quickly talk about the `alg` value in the JWT header. When it’s decoded:
 
 The `alg` value in JWT headers simply tells you how the JWT was signed. For example, with an `alg` value of `RS512`. 
 

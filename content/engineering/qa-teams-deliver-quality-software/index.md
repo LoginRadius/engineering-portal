@@ -60,4 +60,4 @@ We perform post-release sanity tests on our production account to authorize that
 
 ## Conclusion
 
-The [best testing practices](https://www.loginradius.com/blog/async/unit-testing/) should inculcate all other processes in general and risk management processes in particular in them. The focus should be to improve the software's overall quality while aiming to reduce the cost with continuous monitoring during and after the software release. While doing quality assurance testing, the tester should comply with all the fundamental principles and industry practices and look at the product from the end user's perspective.
+The [best testing practices](https://www.loginradius.com/blog/engineering/unit-testing/) should inculcate all other processes in general and risk management processes in particular in them. The focus should be to improve the software's overall quality while aiming to reduce the cost with continuous monitoring during and after the software release. While doing quality assurance testing, the tester should comply with all the fundamental principles and industry practices and look at the product from the end user's perspective.

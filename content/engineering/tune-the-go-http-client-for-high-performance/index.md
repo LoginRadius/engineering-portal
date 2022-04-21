@@ -11,7 +11,7 @@ HTTP (hypertext transfer protocol) is a communication protocol that transfers da
 
 For setting up HTTP clients for making requests, most programming languages have different frameworks in place. We will take a hands-on approach in the coming sections to explore how HTTP requests can be made in Golang or Go, as I will refer to the language for the rest of the post.
 
-While working on the [Golang projects](https://www.loginradius.com/blog/async/golang-maps/), I realized that improper configuration of HTTP might crash your server anytime.
+While working on the [Golang projects](https://www.loginradius.com/blog/engineering/golang-maps/), I realized that improper configuration of HTTP might crash your server anytime.
 
 In the time when I was working with HTTP Client, I Observed some problems and their solutions, listed below:
 
@@ -80,5 +80,5 @@ By increasing connection per host and the total number of idle connection, this 
 Connection pool size and connection per host count can be increased as per server resources and requirements.
 
 ## Conclusion
-In this article, we discussed the problems around the 'net/http' client default configurations. By changing some of the default settings of HTTP Client, we can achieve a High-performance HTTP client for production use. If you want to learn more about http, here is an interesting post on [HTTP security headers](https://www.loginradius.com/blog/async/http-security-headers/) If you like what you read, share your thoughts in the comment section.
+In this article, we discussed the problems around the 'net/http' client default configurations. By changing some of the default settings of HTTP Client, we can achieve a High-performance HTTP client for production use. If you want to learn more about http, here is an interesting post on [HTTP security headers](https://www.loginradius.com/blog/engineering/http-security-headers/) If you like what you read, share your thoughts in the comment section.
 

@@ -37,7 +37,7 @@ The following explains the working of the above sequence diagram of Oauth 2.0 im
 6. By presenting the access token for authentication, the client can request the protected resources from the resource server.
 7. The requested resources are returned to the application (client) with the valid access token from the resource server.
 
-**Also Read: [Guide to Authorization Code Flow for OAuth 2.0 ](https://www.loginradius.com/blog/async/authorization-code-flow-oauth/)**
+**Also Read: [Guide to Authorization Code Flow for OAuth 2.0 ](https://www.loginradius.com/blog/engineering/authorization-code-flow-oauth/)**
 
 
 ## Why You Should be Using OAuth

@@ -51,7 +51,7 @@ Now click and launch Xcode. Choose create a new Xcode project option to make a n
 
 Let's name your project as HelloWorld as per the convention 😉. Choose Team None for now. Select Swift as Language, click Next, and you are ready with your empty app doing nothing yet.
 
-> Note: For creating a native [iOS app](https://www.loginradius.com/blog/async/Secure-Enclave-iOS-app/), you have to use one from Objective-c or Swift. Swift is a new and easy language provided by Apple, got so much popularity in less time.
+> Note: For creating a native [iOS app](https://www.loginradius.com/blog/engineering/Secure-Enclave-iOS-app/), you have to use one from Objective-c or Swift. Swift is a new and easy language provided by Apple, got so much popularity in less time.
 
 ![](Image2.jpg)
 

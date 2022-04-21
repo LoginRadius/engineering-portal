@@ -37,7 +37,7 @@ The entire cookie-based authentication works in the following manner:
 
 ### Challenges of Cookie-based Authentication
 
-- **Vulnerable to CSRF:** Cookie-based authentications are prone to [Cross-site Request Forgery (CSRF) attacks](https://www.loginradius.com/blog/async/introduction-to-cross-site-request-forgery-csrf/). Hence, they often require additional security postures for protection.
+- **Vulnerable to CSRF:** Cookie-based authentications are prone to [Cross-site Request Forgery (CSRF) attacks](https://www.loginradius.com/blog/engineering/introduction-to-cross-site-request-forgery-csrf/). Hence, they often require additional security postures for protection.
 
 - **Less Mobile-friendly:** Cookie-based authentication does not work well with all native applications.
 
@@ -76,7 +76,7 @@ The entire cookieless authentication works in the following manner:
 
 * **Data Overhead:** Storing a lot of data increases the overall size of the token. It slows down the request impacting the overall loading speed. This slowing down ultimately hampers the user experience. Thus proper development practices need to be followed, regulating minimum but essential data into the token.
 
-- **Vulnerable to XSS and CSRF:** Cookieless authentications are susceptible to [XSS](https://www.loginradius.com/blog/async/http-security-headers/) and CSRF attacks. So, the best practice is to have a short expiration time for access tokens. Keeping a longer expiration time might allow the attackers to hijack the access token and use it to gain unauthorized authentication.
+- **Vulnerable to XSS and CSRF:** Cookieless authentications are susceptible to [XSS](https://www.loginradius.com/blog/engineering/http-security-headers/) and CSRF attacks. So, the best practice is to have a short expiration time for access tokens. Keeping a longer expiration time might allow the attackers to hijack the access token and use it to gain unauthorized authentication.
 
 ## How does LoginRadius have Native Support for Cookieless Authentication?
 

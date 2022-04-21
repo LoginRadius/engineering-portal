@@ -136,7 +136,7 @@ export const user = writable(
 )
 ```
 
-You have also synced the above `user` object with the browser's local storage so that this data persists on page reloads. If you're unfamiliar with what local storage is, [check out my guide on Local Storage vs. Session Storage vs. Cookies](https://www.loginradius.com/blog/async/guest-post/local-storage-vs-session-storage-vs-cookies/) that dives deeper into browser storage and other related concepts.
+You have also synced the above `user` object with the browser's local storage so that this data persists on page reloads. If you're unfamiliar with what local storage is, [check out my guide on Local Storage vs. Session Storage vs. Cookies](https://www.loginradius.com/blog/engineering/guest-post/local-storage-vs-session-storage-vs-cookies/) that dives deeper into browser storage and other related concepts.
 
 ## The App Component Boilerplate
 

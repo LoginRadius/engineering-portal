@@ -9,7 +9,7 @@ description: "This article covers the guide to migrate data from offline or live
 
 The goal of this post is to learn about the various ways of data migration in MongoDB that can help us to write scripts that change your database by adding new documents, modifying existing ones.
 
-If you're coming here for the first time, please take a look at the prequel [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/).
+If you're coming here for the first time, please take a look at the prequel [Self-Hosted MongoDB](https://www.loginradius.com/blog/engineering/self-hosted-mongo/).
 
 Alright then, picking from where we left off, let's get started with the data migration in MongoDB.
 
@@ -207,4 +207,4 @@ CMDOUT (INFO: Restore success!)
 
 You can stop this script after verifying that no more `oplogs` are being created, i.e., when source DB went offline.
 
-This concludes the complete self-hosted MongoDB data migration guide. If you want to learn more about MongoDB here is a useful resource on [how to use MongoDB as datasource in goLang](https://www.loginradius.com/blog/async/mongodb-as-datasource-in-golang/).
+This concludes the complete self-hosted MongoDB data migration guide. If you want to learn more about MongoDB here is a useful resource on [how to use MongoDB as datasource in goLang](https://www.loginradius.com/blog/engineering/mongodb-as-datasource-in-golang/).

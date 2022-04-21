@@ -49,7 +49,7 @@ Read this post to get the detailed information regarding [multi-factor authentic
 
 Just like multi-factor authentication, adaptive authentication also verifies an identity but eventually considers certain security risk factors.
 
-[Adaptive Authentication](https://www.loginradius.com/blog/async/What-is-adaptive-authentication/) (also known as Risk-based Authentication) is a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
+[Adaptive Authentication](https://www.loginradius.com/blog/engineering/What-is-adaptive-authentication/) (also known as Risk-based Authentication) is a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
 
 In a nutshell, Adaptive Authentication analyzes the user interaction with your application and intelligently builds a risk profile based on the consumer behavior or your organization's security policy.
 

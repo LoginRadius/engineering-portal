@@ -31,7 +31,7 @@ For instance, if a user needs to sign-up for a new website and prefers to sign-u
 
 In a nutshell, OAuth is used to share access to data between applications by defining a series of communications between the user, the resource owner, and the OAuth provider.
 
-A good read:[ Getting Started with OAuth 2.0](https://www.loginradius.com/blog/async/oauth2/)
+A good read:[ Getting Started with OAuth 2.0](https://www.loginradius.com/blog/engineering/oauth2/)
 
 
 ## How Do OAuth Authentication Vulnerabilities Occur
@@ -67,7 +67,7 @@ One of the biggest mistakes that organizations repeat is storing clients’ cruc
 
 Businesses must understand that if authentication relies entirely on passwords, the databases must contain encrypted files so that attackers can’t gain access to confidential user and business details.
 
-Using a CIAM solution offering [data encryption and SSL](https://www.loginradius.com/blog/async/lets-encrypt-with-ssl-certificates/) is perhaps the best option for the highest security while users login to a business website or web application.
+Using a CIAM solution offering [data encryption and SSL](https://www.loginradius.com/blog/engineering/lets-encrypt-with-ssl-certificates/) is perhaps the best option for the highest security while users login to a business website or web application.
 
 
     3.       Using Refresh Tokens

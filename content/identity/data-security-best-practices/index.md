@@ -115,7 +115,7 @@ Educate all employees on your organization's cybersecurity best practices and po
 
 ## Conclusion
 
-Data security best practices aren't just confined to the list of precautionary steps above. There's more to it, including conducting regular backups for all data, encryption in transit and at rest, enforcing safe [password practices](https://www.loginradius.com/blog/async/password-security-best-practices-compliance/), and the likes. 
+Data security best practices aren't just confined to the list of precautionary steps above. There's more to it, including conducting regular backups for all data, encryption in transit and at rest, enforcing safe [password practices](https://www.loginradius.com/blog/engineering/password-security-best-practices-compliance/), and the likes. 
 
 But then, you need to understand that cybersecurity is not about eliminating all threats—that's not achievable. It also is something that you should not ignore. By taking the right security measure, you can at least mitigate risks to a large extent.
 

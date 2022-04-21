@@ -6,6 +6,11 @@
   status = 301
 
 [[redirects]]
+  from = "/async/introduction-of-Idx-Auto-Tester/"
+  to = "/blog/engineering/introduction-of-idx-auto-tester/"
+  status = 301
+
+[[redirects]]
   from = "/async/exception_handling_in_csharp"
   to = "/blog/engineering/exception-handling-in-csharp/"
   status = 301

@@ -15,7 +15,7 @@ The same function is fulfilled by Git Merge and Git Rebase. They are built to in
 
 *Git Merge and Git Rebase are both used to combine the changes of branches but in a distinct way.*
 
-**Git Merge** - For developers using version control systems, merging is a prevalent method. Merging takes the contents of a source branch and combines them with a target branch, to be more precise. Only the [target branch is updated](https://www.loginradius.com/blog/async/git-fetch-remote-branch/) in this process. The history of the source branch remains similar.
+**Git Merge** - For developers using version control systems, merging is a prevalent method. Merging takes the contents of a source branch and combines them with a target branch, to be more precise. Only the [target branch is updated](https://www.loginradius.com/blog/engineering/git-fetch-remote-branch/) in this process. The history of the source branch remains similar.
 
 **Git Rebase** - Another way to integrate modifications from one branch to another is by Rebase. Rebase compresses all the modifications into a single patch. The patch is then inserted into the target branch.
 
@@ -95,8 +95,8 @@ if we are rebasing the feature branch onto the master branch, then it would be
 
 I hope some perspectives on Git merge and Git rebase have been provided by this description. The strategy of merge vs rebase is still debatable. But maybe this article will help to dispel your doubts and encourage you to take an approach that works for your team. Here are few articles posted by me that will help you in learning few more things in Git:
 
-1. [How to use Git Cherry Pick](https://www.loginradius.com/blog/async/git-cherry-pick/)
-2. [How to Perform a Git Force Pull](https://www.loginradius.com/blog/async/git-pull-force/)
+1. [How to use Git Cherry Pick](https://www.loginradius.com/blog/engineering/git-cherry-pick/)
+2. [How to Perform a Git Force Pull](https://www.loginradius.com/blog/engineering/git-pull-force/)
 
 Do comment on the subjects that you would like me to write about in the coming weeks :)
 

@@ -48,7 +48,7 @@ The same thing goes for every business offering resources or data access to user
 
 So, if you’re an enterprise that has a huge client base and needs to offer certain services and access to resources, OAuth2.0 is a must-have solution in place. 
 
-**Also Read**: [Getting Started with OAuth 2.0.](https://www.loginradius.com/blog/async/oauth2/) 
+**Also Read**: [Getting Started with OAuth 2.0.](https://www.loginradius.com/blog/engineering/oauth2/) 
 
 
 ## What are the Principles of OAuth 2.0? 

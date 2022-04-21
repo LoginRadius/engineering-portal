@@ -25,7 +25,7 @@ Google allows you to create scripts using your custom functions with the service
 
 `=eva(email)`
 
-Eva needs the email address only from you and the rest will perform with their excellent service. You can also go through the [Email Verification API (EVA)](https://www.loginradius.com/blog/async/email-verification-api/) article for more details about EVA.
+Eva needs the email address only from you and the rest will perform with their excellent service. You can also go through the [Email Verification API (EVA)](https://www.loginradius.com/blog/engineering/email-verification-api/) article for more details about EVA.
 
 Here is the custom function created using the EVA Services to validate email.
 
