@@ -10,7 +10,7 @@ description: " Learn how web workers help with the success of the web app and ge
 
 In JavaScript, web workers allow developers to benefit from parallel programming. Parallel programming enables various computations to be performed at the same time by applications. It is helpful to consider the importance of web staff as an example of how humans benefit from parallel tasks.
 
-Web workers give us the ability to write multi-threaded Javascript that doesn't block the DOM. To some extent, even asynchronous operations block the DOM. On the other hand, Web employees help us solve this problem, escape from the single-threaded world, and achieve higher [performance on our web pages](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/).
+Web workers give us the ability to write multi-threaded Javascript that doesn't block the DOM. To some extent, even asynchronous operations block the DOM. On the other hand, Web employees help us solve this problem, escape from the single-threaded world, and achieve higher [performance on our web pages](https://www.loginradius.com/blog/engineering/16-javascript-hacks-for-optimization/).
 
 ## What are web workers in JS?
 
@@ -24,7 +24,7 @@ Web workers let you build background threads separate from the main execution th
 
 The key benefit of this separation of workload is that inside an isolated thread and without interrupting or impacting the main thread's responsiveness and usability, you can perform costly operations.
 
-When the background thread completes its mission, the main thread is informed of the results seamlessly via an event handled by standard [JavaScript event handling](https://www.loginradius.com/blog/async/understanding-event-loop/).
+When the background thread completes its mission, the main thread is informed of the results seamlessly via an event handled by standard [JavaScript event handling](https://www.loginradius.com/blog/engineering/understanding-event-loop/).
 
 ## Setting Up Web Workers & Multi-threading to JavaScript
 

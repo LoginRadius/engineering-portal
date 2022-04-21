@@ -35,7 +35,7 @@ At first glance, it seems like a convenient feature: you click the web widget an
 
 A JavaScript library is included on your website. HTML or JavaScript is used to customize the look and feel of the personalized button and, on one tap, control the automatic sign-in and sign-out behaviors.
 
-The Users who are signing in for the first time are prompted for consent to share their Google Account profile information. After providing the consent, a [JSON Web Token](https://www.loginradius.com/blog/async/jwt/) (JWT) credential containing the user's name, email, and profile picture is shared using a callback handler. 
+The Users who are signing in for the first time are prompted for consent to share their Google Account profile information. After providing the consent, a [JSON Web Token](https://www.loginradius.com/blog/engineering/jwt/) (JWT) credential containing the user's name, email, and profile picture is shared using a callback handler. 
 
 Now you can create a new account on your platform or allow the verified user to continue using your site. If the user is already signed in on a Google device, a personalized button will appear; otherwise, a default button will appear.
 

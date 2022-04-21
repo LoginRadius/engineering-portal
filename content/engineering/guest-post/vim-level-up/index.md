@@ -8,7 +8,7 @@ description: "Vim is Vi's newest and most common reincarnation, which is support
 ---
 
 ## Prerequisites
-You should know the basics of Vim beforehand. You may refer to a previous blog [Vim: Getting started](https://www.loginradius.com/blog/async/vim-getting-started/).
+You should know the basics of Vim beforehand. You may refer to a previous blog [Vim: Getting started](https://www.loginradius.com/blog/engineering/vim-getting-started/).
 
 This tutorial explores the following concepts:
 

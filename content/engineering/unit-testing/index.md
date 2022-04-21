@@ -18,7 +18,7 @@ Unit Testing, if done correctly, ensures that each of the building blocks of the
 
 Unit testing is an essential tool in any serious software developer's toolbox. However, writing a good unit test for a specific piece of code can often be very hard.
 
-[Developers frequently believe](https://www.loginradius.com/blog/async/agile-development-team/) that their struggles are triggered by a lack of essential testing expertise or hidden unit testing techniques after experiencing trouble testing their own or someone else's code.
+[Developers frequently believe](https://www.loginradius.com/blog/engineering/agile-development-team/) that their struggles are triggered by a lack of essential testing expertise or hidden unit testing techniques after experiencing trouble testing their own or someone else's code.
 
 ## What is Unit Testing?
 Testing of the unit requires testing individual components of the programme or application software. The [primary objective](https://en.wikipedia.org/wiki/Unit_testing) behind this is to verify that all the individual components function as expected. 
@@ -102,7 +102,7 @@ However, automated unit testing is often chosen by most companies, taking into a
 
 In the end,  remember that I am the first and the most basic foundation in a big building of Quality and have to always keep the same in mind whenever I code since no one is interested in buying a well-packaged product if its ingredients are not of high quality.
 
-By doing the above I am not only contributing to high-quality software but I can devote later high bug-fixing time to things like [improving the performance/security of my code](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/) and avoiding going back to the drawing board for issues related to performance or security etc.
+By doing the above I am not only contributing to high-quality software but I can devote later high bug-fixing time to things like [improving the performance/security of my code](https://www.loginradius.com/blog/engineering/16-javascript-hacks-for-optimization/) and avoiding going back to the drawing board for issues related to performance or security etc.
 
 Always remember in the software development unit testing serves as "A stitch in time saves nine".
 

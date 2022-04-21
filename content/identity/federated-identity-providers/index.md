@@ -38,7 +38,7 @@ SAML is an XML-based markup language for creating, requesting, and exchanging se
 ## OpenID
 
 
-OpenID Connect 1.0 is an essential character layer on top of the [OAuth 2.0 convention](https://www.loginradius.com/blog/async/what-is-the-difference-between-oauth1-and-oauth2/). It empowers clients to check the end user's identity, dependent on the verification performed by an Authorization Server, to acquire essential profile data about the end-user. OpenID permits clients to be verified utilizing outsider administrations called character suppliers. Clients can decide to use their favored OpenID suppliers to sign in to sites that acknowledge the OpenID validation plot.
+OpenID Connect 1.0 is an essential character layer on top of the [OAuth 2.0 convention](https://www.loginradius.com/blog/engineering/what-is-the-difference-between-oauth1-and-oauth2/). It empowers clients to check the end user's identity, dependent on the verification performed by an Authorization Server, to acquire essential profile data about the end-user. OpenID permits clients to be verified utilizing outsider administrations called character suppliers. Clients can decide to use their favored OpenID suppliers to sign in to sites that acknowledge the OpenID validation plot.
 
 There are three roles that define OpenID specification:
 - The end-user that is looking to verify its identity.
@@ -47,7 +47,7 @@ There are three roles that define OpenID specification:
 
 ## OAuth
 
-[OAuth 2.0](https://www.loginradius.com/blog/async/authorization-code-flow-oauth/) is a protocol that facilitates token-based authentication and authorization; thus, allowing consumers to gain limited access to their resources on one application, to another application, without having to expose their credentials. You can let your application's consumers log in to an OAuth-enabled application without creating an account. OAuth is slightly different from OpenID and SAML in being exclusively for authorization purposes and not for authentication purposes.
+[OAuth 2.0](https://www.loginradius.com/blog/engineering/authorization-code-flow-oauth/) is a protocol that facilitates token-based authentication and authorization; thus, allowing consumers to gain limited access to their resources on one application, to another application, without having to expose their credentials. You can let your application's consumers log in to an OAuth-enabled application without creating an account. OAuth is slightly different from OpenID and SAML in being exclusively for authorization purposes and not for authentication purposes.
  
 The OAuth specifications define the following roles:
 

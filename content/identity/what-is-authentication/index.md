@@ -71,7 +71,7 @@ Even small businesses have some sort of authentication for their systems. This i
 
 ## Conclusion
 
-In this article we have talked about the basics of authentication and how it is used. We have also covered [how authentication works](https://www.loginradius.com/blog/async/webauthn-authentication-application/) and what are the benefits to the organizations.
+In this article we have talked about the basics of authentication and how it is used. We have also covered [how authentication works](https://www.loginradius.com/blog/engineering/webauthn-authentication-application/) and what are the benefits to the organizations.
 
 Cheers!
 

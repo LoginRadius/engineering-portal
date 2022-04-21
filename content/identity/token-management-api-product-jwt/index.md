@@ -82,7 +82,7 @@ Moreover, the server just needs to create and verify the tokens and the informat
 
 ### 3.  JWT offers flexibility and performance
 
-Flexibility and enhanced overall performance are other vital aspects of [JWT-based authentication](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/). They can be used across multiple servers and can offer authentication for various websites and applications at once.
+Flexibility and enhanced overall performance are other vital aspects of [JWT-based authentication](https://www.loginradius.com/blog/engineering/guest-post/jwt-authentication-best-practices-and-when-to-use/). They can be used across multiple servers and can offer authentication for various websites and applications at once.
 
 This helps in encouraging more collaboration opportunities between enterprises and platforms for a flawless experience.
 

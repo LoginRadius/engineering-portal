@@ -13,7 +13,7 @@ metatitle: "Cybersecurity Tips for Ecommerce Websites"
 
 Whether you have a big ecommerce store or a small niche business, it will always be susceptible to certain security threats. If you are a website owner, taking care of the security of your website should be of utmost priority.
 
-Before we discuss some tips to [secure your website](https://www.loginradius.com/blog/async/3-simple-ways-to-secure-your-websites-applications/), let's look into some of the most common security threats that can affect your online presence.
+Before we discuss some tips to [secure your website](https://www.loginradius.com/blog/engineering/3-simple-ways-to-secure-your-websites-applications/), let's look into some of the most common security threats that can affect your online presence.
 
 Most security threats come with a financial motive behind them. The victim can be subjected to either credit card fraud, phishing practices, malware practices, or spam.
 
@@ -36,7 +36,7 @@ Therefore, making the right decision is extremely important. Here are some initi
 
 ### Get SSL Certificates for Your Website
 
-[SSL certificates](https://www.loginradius.com/blog/async/lets-encrypt-with-ssl-certificates/) are primarily used to make web browsing more secure. An SSL certificate activates the HTTPS protocol which means that all data sent over the internet is encrypted and will only be read by the required recipient.
+[SSL certificates](https://www.loginradius.com/blog/engineering/lets-encrypt-with-ssl-certificates/) are primarily used to make web browsing more secure. An SSL certificate activates the HTTPS protocol which means that all data sent over the internet is encrypted and will only be read by the required recipient.
 
 Your SSL certificate will help to make the data transfer more secure, provide [credit card security](http://www.cardzgroup.com/ContactSmartCard.html), and secure login information for your customers. Moreover, SSL certificates are also deployed on social media websites to make web browsing more secure. 
 

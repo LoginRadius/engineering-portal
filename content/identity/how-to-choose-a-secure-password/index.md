@@ -120,7 +120,7 @@ The following are a few types of layers that businesses choose to provide:
 *   Pick a sentence that you probably won't forget, like "When I was fifteen, I had my first international trip." Then use the first letters, add the numbers, and punctuation to make "wIw15,ihmfit."
 *   Pick any three random words like Jack Book Pen. Choose your birth date, put the words together, and split up the date like 1jackbookpen4. Next, capitalize each letter and add a few special characters like 1J@ckBookPen4!
 
-**Pick something that does not make sense**: How to choose a [strong password](https://www.loginradius.com/blog/async/password-security-best-practices-compliance/)? Go for something that has no meaning. For example, it could be:
+**Pick something that does not make sense**: How to choose a [strong password](https://www.loginradius.com/blog/engineering/password-security-best-practices-compliance/)? Go for something that has no meaning. For example, it could be:
 
 
 
@@ -435,7 +435,7 @@ So, (to be on the right track), how to choose a strong password manager? Well, i
 
 
 *   **Storage**: While some password managers store passwords in a local hard-drive, some others use cloud storage. The latter is usually preferable if your employees or users use multiple devices. They can access their account credentials from any device with an internet connection. Also, if their devices are stolen, they won't lose their passwords. 
-*   **Encryption**: Go for a strong [encryption standard](https://www.loginradius.com/blog/async/encryption-and-hashing/). The next time you wonder how to choose a strong password manager, go for the one that uses 256-bit Advanced Encryption Standard (AES) encryption.  
+*   **Encryption**: Go for a strong [encryption standard](https://www.loginradius.com/blog/engineering/encryption-and-hashing/). The next time you wonder how to choose a strong password manager, go for the one that uses 256-bit Advanced Encryption Standard (AES) encryption.  
 *   **Easy-to-use**: The password manager you choose should have an intuitive interface so that it's easy to use. Otherwise, your users or employees will stick to their old habits of creating weak, familiar passwords. Some managers also offer automated password changers that automatically change old passwords to new stronger ones.
 *   **Security**: It should support two-factor authentication, track password usage, and generate audit reports. The password manager should also end sessions when a device is idle for a predefined amount of time. Also, ensure it has a built-in VPN and the ability to restrict access to blacklisted Internet sites. 
 *   **Value**: The password manager should also have additional nice-to-have features:

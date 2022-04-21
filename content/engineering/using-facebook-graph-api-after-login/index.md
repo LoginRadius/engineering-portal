@@ -12,7 +12,7 @@ Facebooks Graph API gives you the ability to better understand and target conten
 
 The first thing you will need to do is implement an authorization interface that will allow your users to Login with there Facebook credentials and grant access to your application to handle the features that we will go over in this blog.
 
-You can refer to this article on setting up a Facebook Login integration: [https://www.loginradius.com/blog/async/implement-facebook-social-login/](/implement-facebook-social-login/)
+You can refer to this article on setting up a Facebook Login integration: [https://www.loginradius.com/blog/engineering/implement-facebook-social-login/](/implement-facebook-social-login/)
 
 While implementing the Login detailed in the above blog you can modify the scope included in the Facebook button to request the scopes that we will be using.
 

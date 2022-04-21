@@ -47,7 +47,7 @@ Consider adopting this approach into your remote work policies and protocols so 
 
 A common practice among businesses is encouraging their employees to update and change their passwords and account details periodically. This way, your database remains updated. Likewise, frequent password changes can minimize potential risks of password breaches.
 
-With that, it only follows that you perform a routine review of all the accounts you manage in your identity management system. This is where you constantly authenticate and validate the identities of your users and monitor the security of your database. Consider [implementing user authentication in a Python application](https://www.loginradius.com/blog/async/guest-post/user-authentication-in-python/) to help cover all bases during the process.
+With that, it only follows that you perform a routine review of all the accounts you manage in your identity management system. This is where you constantly authenticate and validate the identities of your users and monitor the security of your database. Consider [implementing user authentication in a Python application](https://www.loginradius.com/blog/engineering/guest-post/user-authentication-in-python/) to help cover all bases during the process.
 
 You should also watch out for orphan accounts in your system. Whenever a user moves to a different company, you need to make sure that their accounts are properly off-boarded from your network. Orphaned accounts are often goldmines for hackers where they can gather credentials and identities to breach and attack your business. Hence, you must remove all orphaned accounts from your system.
 

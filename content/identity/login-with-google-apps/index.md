@@ -103,7 +103,7 @@ To integrate Google clients, you can allow your application's users to log in to
 
 Let's assume you have an application that has an Identity Platform enabled and another application that is Google. You require that the existing customers of your application should be able to access the Google application without creating a separate account. 
 
-It gets automatically logged into G suite if already logged into your application (in the same browser) and vice-versa. Considering the above example, the following are some quick points about the application[ OAuth 2.0](https://www.loginradius.com/blog/async/oauth2/) flow:
+It gets automatically logged into G suite if already logged into your application (in the same browser) and vice-versa. Considering the above example, the following are some quick points about the application[ OAuth 2.0](https://www.loginradius.com/blog/engineering/oauth2/) flow:
 
 Then **Identity Platform** acts as an Identity Provider, meaning it can authorize the login request received from google. Your G Suite acts as a **Service Provider.**
 

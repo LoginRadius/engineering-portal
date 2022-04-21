@@ -53,7 +53,7 @@ If you’re one of those marketers who haven’t yet built a hyper-personalizati
 
 ### 1. Nurture with AI-driven personalized content.
 
-**[Artificial intelligence](https://www.loginradius.com/blog/async/AI-and-IoT-The-Perfect-Match/)** is the base to implement hyper-personalization B2B marketing that enables you to deliver a unique experience to every visitor on your website.
+**[Artificial intelligence](https://www.loginradius.com/blog/engineering/AI-and-IoT-The-Perfect-Match/)** is the base to implement hyper-personalization B2B marketing that enables you to deliver a unique experience to every visitor on your website.
 
 You don’t need to run behind your potential clients to hand over their details to you for beginning custom nurturing; an AI-driven system does it all!
 

@@ -31,7 +31,7 @@ In simple words, it is used for authentication and secure information sharing. A
 - **Payload:** The payload is the token, which includes the claims. Claims are assertions about an entity that provides extra information.
 - **Signature:** The encoded header, encoded payload, a secret, and the algorithm provided in the header comprise the signature.
 
-> You can learn more about [JWT and its best practices here](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/).
+> You can learn more about [JWT and its best practices here](https://www.loginradius.com/blog/engineering/guest-post/jwt-authentication-best-practices-and-when-to-use/).
 
 ## Prerequisites
 

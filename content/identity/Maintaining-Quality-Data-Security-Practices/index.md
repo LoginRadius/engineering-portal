@@ -62,7 +62,7 @@ To make sure that data on mobile devices is trustworthy and secure is through fo
 
   
 
-Encrypting data is pretty straightforward. An algorithm is required to translate (encode) plaintext or readable data into unreadable data or what's known as ciphertext. Then, the only way to [decode the text](https://www.loginradius.com/blog/async/read-and-write-in-a-local-file-with-deno/) into readable text is with a corresponding decryption key from authorised users. If the encryption is effective, data should be protected and unreachable from any unauthorised access.
+Encrypting data is pretty straightforward. An algorithm is required to translate (encode) plaintext or readable data into unreadable data or what's known as ciphertext. Then, the only way to [decode the text](https://www.loginradius.com/blog/engineering/read-and-write-in-a-local-file-with-deno/) into readable text is with a corresponding decryption key from authorised users. If the encryption is effective, data should be protected and unreachable from any unauthorised access.
 
   
 

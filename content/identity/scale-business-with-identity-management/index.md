@@ -65,7 +65,7 @@ A robust identity management solution could be the game-changer, especially in s
 
 Here’s LoginRadius for you. A leading CIAM solution provider empowers businesses to deliver a secure and delightful user experience to their clients through its comprehensive and scalable consumer identity and secure access management platform.
 
-With 100% uptime and 35 data centers across the globe,[ LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/async/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
+With 100% uptime and 35 data centers across the globe,[ LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/engineering/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
 
 This is perhaps why global leaders, including Fortune 500 companies and startups with hundreds of millions of users rely on us.
 
