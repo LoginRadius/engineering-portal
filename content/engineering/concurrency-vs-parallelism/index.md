@@ -19,7 +19,7 @@ You can think of a concurrent execution model as a single chef preparing a meal.
 
 You might point out that the chef can perform other actions in this example scenario while something like the rice is steaming, which is technically work still being done. However, the concurrency in this scenario only applies to the chef's context, who is not actively working on the rice as it is being steamed.
 
-Similarly, the [JavaScript Event Loop](https://www.loginradius.com/blog/async/understanding-event-loop/) allows your scripts (the chef) to hand off tasks like HTTP requests and timeouts to the browser Web API (rice cooker), allowing the script to execute other code portions while waiting for a response. Once the Web API task is complete, it is pushed back into the Event Loop call stack. While the Web API acts as a separate thread where it can complete certain tasks outside the main thread's scope, your actual JavaScript code is still executed on a single thread concurrently.
+Similarly, the [JavaScript Event Loop](https://www.loginradius.com/blog/engineering/understanding-event-loop/) allows your scripts (the chef) to hand off tasks like HTTP requests and timeouts to the browser Web API (rice cooker), allowing the script to execute other code portions while waiting for a response. Once the Web API task is complete, it is pushed back into the Event Loop call stack. While the Web API acts as a separate thread where it can complete certain tasks outside the main thread's scope, your actual JavaScript code is still executed on a single thread concurrently.
 
 ## Parallelism
 
@@ -29,7 +29,7 @@ Parallelism describes the ability for independent parts of a program to be physi
 
 You can think of a parallel execution model as multiple chefs individually each preparing a meal. These individual chefs may be preparing their dishes in a concurrent manner (like the above) or a sequential one; either way, the result is that rather than producing a single meal, the kitchen has prepared multiple meals over a unit of time.
 
-Modern browsers allow you to program parallelly by using Web Workers. These spawn separate threads to execute [JavaScript independently from the main thread](https://www.loginradius.com/blog/async/adding-multi-threading-to-javascript-using-web-workers/).
+Modern browsers allow you to program parallelly by using Web Workers. These spawn separate threads to execute [JavaScript independently from the main thread](https://www.loginradius.com/blog/engineering/adding-multi-threading-to-javascript-using-web-workers/).
 
 ## Concurrency or Parallelism which one is better?
 

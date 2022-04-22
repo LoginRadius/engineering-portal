@@ -7,7 +7,7 @@ description: MongoDB full text search tutorial. In this blog, we will learn how 
 tags: ["MongoDB"]
 ---
 
-One of the leading NoSQL databases, MongoDB is well known for its fast performance, versatile schema, scalability and great [capabilities for indexing](https://www.loginradius.com/blog/async/index-in-mongodb/). Let us look at some context before we get into some details. Full-text search is an essential feature when we talk about finding content on the internet. A google search is the best example for this when we see the content using the phrases or keywords. In this article, we will learn about full-text search capabilities in MongoDB based on text index.
+One of the leading NoSQL databases, MongoDB is well known for its fast performance, versatile schema, scalability and great [capabilities for indexing](https://www.loginradius.com/blog/engineering/index-in-mongodb/). Let us look at some context before we get into some details. Full-text search is an essential feature when we talk about finding content on the internet. A google search is the best example for this when we see the content using the phrases or keywords. In this article, we will learn about full-text search capabilities in MongoDB based on text index.
 
 ## Create a Sample Database
 
@@ -232,4 +232,4 @@ The $text operator matches on the complete stemmed word. So if some document fie
 
 ## Conclusion
 
-I hope you learned something new today. Here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/). I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments section below.
+I hope you learned something new today. Here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/engineering/self-hosted-mongo/). I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments section below.

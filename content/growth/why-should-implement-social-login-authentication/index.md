@@ -101,7 +101,7 @@ Using a CIAM authentication option like social login, developers can ensure that
 -   Cost-effective Customer Data Security
     
 
-Developers need not spend time or money on introducing social logins on their platforms. This is because of the availability of APIs present on the social media platforms like [Facebook Login](https://www.loginradius.com/blog/async/login-with-facebook/) and the Google+ API. In most cases, these APIs are free to use.
+Developers need not spend time or money on introducing social logins on their platforms. This is because of the availability of APIs present on the social media platforms like [Facebook Login](https://www.loginradius.com/blog/engineering/login-with-facebook/) and the Google+ API. In most cases, these APIs are free to use.
 
   
 

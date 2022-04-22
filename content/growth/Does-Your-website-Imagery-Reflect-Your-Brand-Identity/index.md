@@ -31,7 +31,7 @@ The visuals on your website, in any form, represent your brand identity in a way
 
 Now, don’t get confused with brand imagery and brand image since many of you still consider them to be the same thing.
 
-As discussed earlier, **[brand imagery](https://www.loginradius.com/blog/async/personal-branding-for-developers/)** represents your identity through visuals including images, text, and colors while your brand image depicts your overall market repute and the way it’s perceived in the world.
+As discussed earlier, **[brand imagery](https://www.loginradius.com/blog/engineering/personal-branding-for-developers/)** represents your identity through visuals including images, text, and colors while your brand image depicts your overall market repute and the way it’s perceived in the world.
 
 In a nutshell, your brand imagery is the first impression that a user gets by seeing your website.
 

@@ -95,7 +95,7 @@ Here are some useful tips on how to build brand consistency:
 
   
 
-As the popular adage goes, it is not what you say, but what you do that matters. This is also true in case of <a href="https://visme.co/blog/brand-management/">brand management</a>. Smart consumers can easily spot the lack of substance behind every brand's [social media](https://www.loginradius.com/blog/async/simple-social-media-solutions/) engagement and marketing campaign. If the honest claims about your brand are not followed by appropriate actions, then your brand authenticity will not work.
+As the popular adage goes, it is not what you say, but what you do that matters. This is also true in case of <a href="https://visme.co/blog/brand-management/">brand management</a>. Smart consumers can easily spot the lack of substance behind every brand's [social media](https://www.loginradius.com/blog/engineering/simple-social-media-solutions/) engagement and marketing campaign. If the honest claims about your brand are not followed by appropriate actions, then your brand authenticity will not work.
 
   
 

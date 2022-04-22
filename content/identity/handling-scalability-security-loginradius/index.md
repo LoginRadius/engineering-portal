@@ -29,7 +29,7 @@ Let’s understand how LoginRadius handles scalability with the ability to cater
 
 **A Robust Cloud Infrastructure**
 
-With 100% uptime and 35 data centers across the globe,[ LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/async/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
+With 100% uptime and 35 data centers across the globe,[ LoginRadius’ cloud-based platform](https://www.loginradius.com/blog/engineering/effective-cloud-management-platform/) can scale to 100s of millions of users in a couple of seconds.
 
 This is perhaps the reason why global leaders including Fortune 500 companies and startups with hundreds of millions of users rely on us.
 

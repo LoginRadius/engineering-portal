@@ -44,7 +44,7 @@ API tests can be executed as early as the business logic is defined and before a
 
 **_3. Technology Independent_**
 
-API tests are Language Independent, Since the data is interchanged using JSON or XML and compromised HTTP requests and HTTP responses. So the QA team is free to choose the language of their choice that supports these technologies(([JavaScript](https://www.loginradius.com/blog/async/16-javascript-hacks-for-optimization/), Java, Ruby, [Python](https://www.loginradius.com/blog/async/python-basics-in-minutes/), PHP, etc.).
+API tests are Language Independent, Since the data is interchanged using JSON or XML and compromised HTTP requests and HTTP responses. So the QA team is free to choose the language of their choice that supports these technologies(([JavaScript](https://www.loginradius.com/blog/engineering/16-javascript-hacks-for-optimization/), Java, Ruby, [Python](https://www.loginradius.com/blog/engineering/python-basics-in-minutes/), PHP, etc.).
 
 **_4. Greater tests stability_**
 

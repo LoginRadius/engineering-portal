@@ -43,7 +43,7 @@ Nullable<int> b = 9;
 Console.WriteLine(b.HasValue); // Print True
 ```
 
-**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` [exception when the variable](https://www.loginradius.com/blog/async/exception_handling_in_csharp/) value is null.
+**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` [exception when the variable](https://www.loginradius.com/blog/engineering/exception_handling_in_csharp/) value is null.
 
 ```c#
 Nullable<int> a = null;
@@ -116,4 +116,4 @@ In the above example, if the variable a value is null,, it will assign the value
  
 ## Conclusion
 
-In this article, We have discussed the Nullable types, and it's properties and methods. The main advantage of using the Nullable types is that we can store the Null value in a column of a database using this type. If you want to learn more about C# here is an article written by me on [How to Use Enum in C#](https://www.loginradius.com/blog/async/enum-csharp/)
+In this article, We have discussed the Nullable types, and it's properties and methods. The main advantage of using the Nullable types is that we can store the Null value in a column of a database using this type. If you want to learn more about C# here is an article written by me on [How to Use Enum in C#](https://www.loginradius.com/blog/engineering/enum-csharp/)

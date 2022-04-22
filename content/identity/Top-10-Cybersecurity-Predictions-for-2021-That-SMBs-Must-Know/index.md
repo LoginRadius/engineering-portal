@@ -49,7 +49,7 @@ Last year, despite the pandemic, hackers actively targeted **[healthcare](https:
 
 ### 4. Machine Learning
 
-Going ahead, the increased adoption of **[AI and machine-learning tools](https://www.loginradius.com/blog/async/Full_data_science_pipeline_implementation/)** will be among the leading cybersecurity predictions for SMBs and other enterprises. The sheer complexity of cyberthreats will require advanced technologies like machine learning to detect and correct the most severe issues.
+Going ahead, the increased adoption of **[AI and machine-learning tools](https://www.loginradius.com/blog/engineering/Full_data_science_pipeline_implementation/)** will be among the leading cybersecurity predictions for SMBs and other enterprises. The sheer complexity of cyberthreats will require advanced technologies like machine learning to detect and correct the most severe issues.
 
   
 

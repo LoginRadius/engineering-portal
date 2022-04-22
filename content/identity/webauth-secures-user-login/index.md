@@ -17,7 +17,7 @@ However, with advancements in technology, authentication has witnessed significa
 
 Today, when it comes to securing user accounts and offering the finest user experience, WebAuthn leaves no stone untouched in delivering a seamless authentication experience.
 
-[WebAuth](https://www.loginradius.com/blog/async/webauthn-authentication-application/) has offered endless benefits to enterprises striving to manage and secure consumer identities and data as it sets a new bar for user authentication.
+[WebAuth](https://www.loginradius.com/blog/engineering/webauthn-authentication-application/) has offered endless benefits to enterprises striving to manage and secure consumer identities and data as it sets a new bar for user authentication.
 
 Moreover, with robust authentication backed by a flawless user experience, including passwordless experience, WebAuthn provides a long list of opportunities to businesses.
 

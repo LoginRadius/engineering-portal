@@ -30,7 +30,7 @@ Something new? Don't worry will understand this quickly.
 
 ### Atoms
 
- This is similar to how we use the `useState` hook in react. If you are new to react hooks, checkout [react hooks guide](https://www.loginradius.com/blog/async/react-hooks-guide/ "react hooks guide").
+ This is similar to how we use the `useState` hook in react. If you are new to react hooks, checkout [react hooks guide](https://www.loginradius.com/blog/engineering/react-hooks-guide/ "react hooks guide").
 
  e.g.:
 

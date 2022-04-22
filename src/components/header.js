@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React, { useCallback, useEffect, useState } from "react"
-import LogoLr from "../../static/logo-blog.svg"
+import lrLogoAdj from "../../static/lr-logo-adj.svg"
+import lrLogoBlogText from "../../static/lr-logo-blog-text.svg"
 import headerStyles from "./header.module.scss"
 import searchStyles from "./search.module.scss"
 import Search from "./search"
@@ -62,9 +63,25 @@ const Header = ({ searchIndex, pathname, type }) => {
           <span></span>
           <span></span>
         </div>
-        <Link className={headerStyles.logo} to={"/"}>
+        {/* <Link className={headerStyles.logo} to={"https://www.loginradius.com/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
-        </Link>
+        </Link> */}
+        <div className={headerStyles.logo}>
+          <Link target="_blank" to={"https://www.loginradius.com/"}>
+            <img
+              src={lrLogoAdj}
+              alt={`loginradius`}
+              className={headerStyles.lrLogo}
+            />
+          </Link>
+          <Link className={headerStyles.logoText} to={"/"}>
+            <img
+              src={lrLogoBlogText}
+              alt={`loginradius Blog`}
+              className={headerStyles.lrLogoText}
+            />
+          </Link>
+        </div>
         <Search
           customClass={`${
             showMenu ? searchStyles.deactive : searchStyles.active

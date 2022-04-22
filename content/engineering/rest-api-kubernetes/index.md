@@ -7,9 +7,9 @@ tags: ["Kubernetes"]
 description: "Beginner guide on how to create and deploy a REST API in local Kubernetes."
 ---
 
-This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a [simple API](https://www.loginradius.com/blog/async/what-is-an-api/) to deploy.
+This blog will help you get started on deploying your REST API in Kubernetes. First, we'll set up a local Kubernetes cluster, then create a [simple API](https://www.loginradius.com/blog/engineering/what-is-an-api/) to deploy.
 
-There are already a lot of [free resources available](https://www.quora.com/What-are-the-best-resources-to-learn-Kubernetes) explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners but assumes you already have a [basic understanding of Kubernetes](https://www.loginradius.com/blog/async/understanding-kubernetes/) and Docker concepts.
+There are already a lot of [free resources available](https://www.quora.com/What-are-the-best-resources-to-learn-Kubernetes) explaining basic Kubernetes concepts, so go check those out first if you haven't already. This blog is intended for beginners but assumes you already have a [basic understanding of Kubernetes](https://www.loginradius.com/blog/engineering/understanding-kubernetes/) and Docker concepts.
 
 ## 1. Set Up Local Kubernetes
 

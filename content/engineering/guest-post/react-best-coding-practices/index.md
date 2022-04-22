@@ -71,7 +71,7 @@ import LoginForm from './loginForm';
 
 ### Code
 
-1. *Play the game of [HOOKS](https://www.loginradius.com/blog/async/react-hooks-guide/) by following all its rules*. You can read more about the rules [here](https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/). Either manually follow these rules or use an ESLint plugin called `eslint-plugin-react-hooks` which enforces these rules. So, add these rules while working on any project
+1. *Play the game of [HOOKS](https://www.loginradius.com/blog/engineering/react-hooks-guide/) by following all its rules*. You can read more about the rules [here](https://www.smashingmagazine.com/2020/04/react-hooks-best-practices/). Either manually follow these rules or use an ESLint plugin called `eslint-plugin-react-hooks` which enforces these rules. So, add these rules while working on any project
 2. Remove `console. logs` — unless you have strong motivation why you would like it.
 3. Avoid multiple `if-else blocks`. Instead, use `ternary` — best for clean code practice
 4. Remove all `commented-out codes`. The biggest motivation for writing comments is the bad code that you write. It would be good to spend more time writing descriptive functions, methods, and filenames that are self-explanatory.
@@ -115,4 +115,4 @@ I hope you gained valuable insights. If you have more suggestions or practices t
 
 Until next time, keep learning, build awesome stuff, and uplift the community.
 
-By the way, if you want to [add user registration and authentication to your React apps](https://www.loginradius.com/blog/async/user-authentication-react-application/), you can use LoginRadius. It helps you become more efficient and focus more on the core business features of your React apps.
+By the way, if you want to [add user registration and authentication to your React apps](https://www.loginradius.com/blog/engineering/user-authentication-react-application/), you can use LoginRadius. It helps you become more efficient and focus more on the core business features of your React apps.
