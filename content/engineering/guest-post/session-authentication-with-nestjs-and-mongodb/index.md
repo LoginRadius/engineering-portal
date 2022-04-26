@@ -4,12 +4,12 @@ date: "2022-04-26"
 coverImage: "session-based-authentication-in-nestjs.png"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["Authentication", "NestJS", "MongoDB", "Node.js"]
-description: "Want to implement usr authentication for your NestJS apps? Follow this tutorial to learn how you can implement session-based authentication for your NestJS apps along with MongoDB."
+description: "Want to implement user authentication for your NestJS apps? Follow this tutorial to learn how you can implement session-based authentication for your NestJS apps along with MongoDB."
 ---
 
 ## Introduction
 
-It is an indisputable reality that authentication is critical in any application or system if you want to secure user data and enable protected access to information. Authentication is the procedure of establishing or demonstrating that something is true, legitimate, or valid.
+It is an indisputable reality that authentication is critical in any application or system if you want to secure user data and enable secure access to information. Authentication is the procedure of establishing or demonstrating that something is true, legitimate, or valid.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ This tutorial is a hands-on demonstration. To follow along, ensure you have the 
 
 Nest (NestJS) is a Node.js server-side application framework for building scalable, efficient applications.
 
-It is written in TypeScript and built on Express, a very minimalistic framework that is great on its own but lacks structure. It combines the programming paradigms such as object-oriented programming, functional programming, and functional reactive programming.
+It is written in TypeScript and built on Express, a very minimalistic framework that is great on its own but lacks structure. It combines programming paradigms such as object-oriented programming, functional programming, and functional reactive programming.
 
 It is a framework to use if you want a lot of structure on your backend. Its syntax and structure are very similar to AngularJS, a front-end framework. And it uses TypeScript, services, and dependency injection in the same way that AngularJS does.
 
@@ -34,7 +34,7 @@ NestJS modules allow you to group related controllers and service providers into
 
 Session-based authentication is a method of user authentication in which the server creates a session after a successful log-in, with the session ID stored in a cookie or local storage in your browser.
 
-Upon subsequent requests, your cookie is validated against the session ID stored on the server. If there is a match, the request is considered valid and is processed.
+Upon subsequent requests, your cookie is validated against the session ID stored on the server. If there is a match, the request is considered valid and processed.
 
 When using this authentication method, it is critical to keep the following security best practices in mind:
 
@@ -45,7 +45,7 @@ When using this authentication method, it is critical to keep the following secu
 
 ## Why Session-based Authentication?
 
-Session-based authentication is more secure than most authentication methods because it is simple to use, secure, and has a limited storage size. It is also thought to be the best option for websites in the same root domain.
+Session-based authentication is more secure than most authentication methods because it is simple, secure, and has a limited storage size. It is also thought to be the best option for websites in the same root domain.
 
 ## Project Setup
 
@@ -77,7 +77,7 @@ Once the installation is complete, move into your project directory, and run the
 npm run start:dev
 ```
 
-The above command runs the application and watches for changes. Your project `src` folder structure should look like as follows.
+The above command runs the application and watches for changes. Your project `src` folder structure should look as follows.
 
 ```
 └───src
@@ -89,7 +89,7 @@ The above command runs the application and watches for changes. Your project `sr
 
 ## Install Dependencies
 
-Now that your application is setup, let's install the dependencies needed to get started.
+Now that your application is set up, let's install the dependencies needed.
 
 ```
 npm install --save @nestjs/passport passport passport-local
@@ -97,7 +97,7 @@ npm install --save @nestjs/passport passport passport-local
 
 The above command installs [Passport.js](https://www.passportjs.org/), a popular nest.js authentication library.
 
-Also install the types for the strategy with the command below:
+Also, install the types for the strategy with the command below:
 
 It contains type definitions for `passport-local`.
 
@@ -107,7 +107,7 @@ npm install --save-dev @types/passport-local
 
 ## Set Up MongoDB Database in NestJS
 
-To set up and connect your database, install Mongoose package and the NestJS wrapper with the following command:
+To set up and connect your database, install the Mongoose package and the NestJS wrapper with the following command:
 
 ```
 npm install --save @nestjs/mongoose mongoose
@@ -115,9 +115,9 @@ npm install --save @nestjs/mongoose mongoose
 
 The Mongoose NestJS wrapper helps you use Mongoose in the NestJS application and gives approved TypeScript support.
 
-Now, head over to your `app.module.ts`, import the `mongoose` module from `@nestjs/mongoose`. Then call the `forRoot()` method, a method provided by the Mongoose module, and pass in your database URL string.
+Now, head over to your `app.module.ts`, and import the `mongoose` module from `@nestjs/mongoose`. Then call the `forRoot()` method, a method provided by the Mongoose module, and pass in your database URL string.
 
-Setting up your database connection in `app.module.ts` helps your application connect to the database immediately as server starts — after running your application since it’s the first module to be loaded.
+Setting up your database connection in `app.module.ts` helps your application connect to the database immediately as the server starts — after running your application since it’s the first module to be loaded.
 
 `app.module.ts`
 
@@ -314,7 +314,7 @@ export class UsersController {
 }
 ```
 
-The registration happens in the `app.module.ts` file, so it is achieved by adding the `UsersModule` to the `@Module()` decorator's imports' array in `app.module.ts`.
+The registration happens in the `app.module.ts` file, which is achieved by adding the `UsersModule` to the `@Module()` decorator's imports' array in `app.module.ts`.
 
 `app.module.ts`
 
@@ -378,9 +378,9 @@ nest g module auth
 nest g service auth
 ```
 
-The above will create an auth folder, `auth.module.ts`, and `auth.service.ts`, and updates the `auth.module.ts` and `app.module.ts` files.
+The above will create an auth folder, `auth.module.ts`, and `auth.service.ts`, and update the `auth.module.ts` and `app.module.ts` files.
 
-At this point, the shape of your application `src` folder should look like as follows.
+At this point, the shape of your application `src` folder should look as follows.
 
 ```
 └───src
@@ -398,7 +398,7 @@ At this point, the shape of your application `src` folder should look like as fo
 │   └───main.ts
 ```
 
-The above generate command will update your `app.module.ts` and it will look like the code snippet below:
+The above generate command will update your `app.module.ts`, and it will look like the code snippet below:
 
 `app.module.ts`
 
@@ -443,7 +443,7 @@ export class AuthModule {}
 
 In your `auth.service.ts` file, call the constructor so you can inject the `UsersService`, and add a method for validation that will take a username and password.
 
-To add some basic validations, check if the user exists in the database, and compare the given password with the one in your database to ensure it matches. If exists, return the user in `request.user` object — else, return null.
+To add some basic validations, check if the user exists in the database, and compare the given password with the one in your database to ensure it matches. If it exists, return the user in the `request.user` object — else, return null.
 
 `auth.service.ts`
 
@@ -562,7 +562,7 @@ Now, add the login route to your `users.controller.ts`:
 
 Now that you have all these put in place, you still cannot log in a user because there is nothing to trigger the login route. Here, use [Guards](https://docs.nestjs.com/guards) to achieve that.
 
-Create a file and name it `local.auth.guard.ts`, then a class `LocalAuthGuard` that extends `AuthGuard` from `NestJS/passport`, where you will provide the name of the strategy and pass in the name of your strategy, ‘local’.
+Create a file and name it `local.auth.guard.ts`, then a class `LocalAuthGuard` that extends `AuthGuard` from `NestJS/passport`, where you will provide the name of the strategy and pass in the name of your strategy, `local`.
 
 `local.auth.guard.ts.`
 
@@ -573,7 +573,7 @@ import { AuthGuard } from "@nestjs/passport"
 export class LocalAuthGuard extends AuthGuard("local") {}
 ```
 
-Add the `UseGuard` decorator to your login route in the `users.controller.ts` file and pass in the `LocalAuthGuard`.
+Add the `UseGuard` decorator to your login route in the `users.controller.ts` file, and pass in the `LocalAuthGuard`.
 
 `users.controller.ts`
 
@@ -717,7 +717,7 @@ async function bootstrap() {
 bootstrap()
 ```
 
-Add a new file `authenticated.guard.ts` in your `auth` folder. And create a new Guard that checks if there is a session for the user making the request — name it `authenticatedGuard`.
+Add a new file, `authenticated.guard.ts`, in your `auth` folder. And create a new Guard that checks if there is a session for the user making the request — name it `authenticatedGuard`.
 
 `authenticated.guard.ts`
 
@@ -733,7 +733,7 @@ export class AuthenticatedGuard implements CanActivate {
 }
 ```
 
-In the above code, the request is gotten from the context and checked if authenticated. `isAuthenticated()` comes from `passport.js` automatically; it says hey! does a session exist for this user? If so, keep going.
+In the above code, the request is gotten from the context and checked if authenticated. `isAuthenticated()` comes from `passport.js` automatically; it says. "hey! does a session exist for this user? If so, keep going."
 
 To trigger the login, in your `users.controller.ts` file:
 
@@ -793,11 +793,11 @@ To trigger the login, in your `users.controller.ts` file:
     }
 ```
 
-At this point, it still fails because you've only configured `express-session` but didn't implemente it.
+At this point, it still fails because you've only configured `express-session` but didn't implement it.
 
-When a user logs in, you need to save the user in a session, so the user can access other routes with the session.
+When a user logs in, you need to save the user in a session so that the user can access other routes with the session.
 
-One thing to keep in mind is that by default, the `express-session` library stores the session in the memory of the web server.
+One thing to keep in mind is that by default, the `express-session` library stores the session in the web server's memory.
 
 Before it goes into the session, you need to serialize the user. As it comes out of the session, deserialize the user.
 
@@ -845,7 +845,7 @@ export class SessionSerializer extends PassportSerializer {
 }
 ```
 
-Go back to your `auth.module.ts` file, provide the `SessionSerializer` and add the `register` method to the `PassportModule`.
+Go back to your `auth.module.ts` file, provide the `SessionSerializer`, and add the `register` method to the `PassportModule`.
 
 `auth.module.ts`
 
@@ -864,9 +864,9 @@ import { SessionSerializer } from "./session.serializer"
 export class AuthModule {}
 ```
 
-Within the `LocalAuthGuard` in the `local.auth.guard.ts` file, add some codes.
+Add some codes within the `LocalAuthGuard` in the `local.auth.guard.ts` file.
 
-Call the `login` method in `super`, pass in the request to trigger the actual login via creating a session. If you want to use sessions, you must remember to trigger the `super.login()`.
+Call the `login` method in `super` and pass in the request to trigger the actual login by creating a session. If you want to use sessions, you must remember to trigger the `super.login()`.
 
 `local.auth.guard.ts`
 
@@ -884,9 +884,9 @@ Call the `login` method in `super`, pass in the request to trigger the actual lo
     }
 ```
 
-If you log in now, you would see the session ID stored in a cookie, which is just a key to the session store, and the cookie gets saved in the browser. The cookie is automatically attached to the rest of the request.
+If you log in now, you will see the session ID stored in a cookie, which is just a key to the session store, and the cookie gets saved in the browser. The cookie is automatically attached to the rest of the request.
 
-Now that the session is working, you can access the protected route, it would return the expected user’s details.
+Now that the session is working, you can access the protected route; it will return the expected user’s details.
 
 ## Logout Users
 
@@ -984,19 +984,16 @@ Head over to your Postman. And let’s finally test our application.
 
 ![User Logout](UZCy1IHQ.png)
 
-## Alternatively Implement User Authentication with LoginRadius
+## Alternatively, Implement User Authentication with LoginRadius
 
 LoginRadius provides a variety of registration and authentication services to assist you in better connecting with your consumers.
+
 On any web or mobile application, LoginRadius is the developer-friendly Identity Platform that delivers a complete set of APIs for authentication, identity verification, single sign-on, user management, and account protection capabilities like multi-factor authentication.
 
-To implement LoginRadius in your NestJS application, navigate to [loginradius.com](https://www.loginradius.com/) and signup for a free account. It will take you to the loginradius dashboard, open the support document and choose the NodeJS application; it will walk you through how to implement loginradius auth page in your NodeJS application.
+To implement LoginRadius in your NestJS application, follow this tutorial: [NestJS User Authentication with LoginRadius API](https://www.loginradius.com/blog/engineering/guest-post/nestjs-authentication-with-loginradius-api/).
 
-Go to configurations session, there you will get App name, API key, and API secret.
+## Conclusion
 
-You can also customize how you want your page to look in the auth page customization. For more info, visit [here](https://www.loginradius.com/docs/developer/tutorial/node-js).
-
-## **Conclusion**
-
-Congratulations! In this tutorial, you've learned how to implement session-based authentication in a NestJS application with MongoDB database. You've created and authenticated a user, and protected your routes from unauthorized access.
+Congratulations! In this tutorial, you've learned how to implement session-based authentication in a NestJS application with the MongoDB database. You've created and authenticated a user and protected your routes from unauthorized access.
 
 > **Note:** Session storage is saved by default in 'MemoryStore,' which is not intended for production use. So, while no external datastore is required for development, once in production, a data store such as [Redis](https://redis.io/) or another is suggested for stability and performance. You can [learn more about session storage here](https://www.loginradius.com/blog/async/guest-post/local-storage-vs-session-storage-vs-cookies/).
