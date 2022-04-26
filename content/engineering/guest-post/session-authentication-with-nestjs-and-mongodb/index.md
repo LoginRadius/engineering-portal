@@ -996,4 +996,6 @@ To implement LoginRadius in your NestJS application, follow this tutorial: [Nest
 
 Congratulations! In this tutorial, you've learned how to implement session-based authentication in a NestJS application with the MongoDB database. You've created and authenticated a user and protected your routes from unauthorized access.
 
+You can [access the sample code used in this tutorial on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Nestjs/NestJS%20Session%20Auth).
+
 > **Note:** Session storage is saved by default in 'MemoryStore,' which is not intended for production use. So, while no external datastore is required for development, once in production, a data store such as [Redis](https://redis.io/) or another is suggested for stability and performance. You can [learn more about session storage here](https://www.loginradius.com/blog/async/guest-post/local-storage-vs-session-storage-vs-cookies/).
