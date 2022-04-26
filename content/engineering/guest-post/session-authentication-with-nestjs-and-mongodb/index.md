@@ -1,10 +1,10 @@
 ---
-title: "Session Based Authentication with NestJS and MongoDB"
-date: "2022-03-15"
-coverImage: ""
+title: "Session-Based User Authentication with NestJS and MongoDB"
+date: "2022-04-26"
+coverImage: "session-based-authentication-in-nestjs.png"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["Authentication", "NestJS", "MongoDB", "Node.js"]
-description: ""
+description: "Want to implement usr authentication for your NestJS apps? Follow this tutorial to learn how you can implement session-based authentication for your NestJS apps along with MongoDB."
 ---
 
 ## Introduction
