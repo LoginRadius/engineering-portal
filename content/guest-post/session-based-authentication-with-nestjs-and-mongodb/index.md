@@ -398,6 +398,31 @@ At this point, the shape of your application `src` folder should look like as fo
 │   └───main.ts
 ```
 
+The above generate command will update your `app.module.ts` and it will look like the code snippet below:
+
+`app.module.ts`
+
+```js
+import { Module } from "@nestjs/common"
+import { MongooseModule } from "@nestjs/mongoose"
+import { AppController } from "./app.controller"
+import { AppService } from "./app.service"
+import { UsersModule } from "./users/users.module"
+import { AuthModule } from './auth/auth.module';
+
+
+@Module({
+  imports: [UsersModule, AuthModule, MongooseModule.forRoot(
+    //database url string
+    'mongodb://localhost:27017/myapp'
+    )],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
+
+```
+
 ## Authenticate Users
 
 Go to your `auth.module.ts` file and add `UsersModule` in the imports array to enable access to the `UsersService` exported from the `users.module.ts` file.
