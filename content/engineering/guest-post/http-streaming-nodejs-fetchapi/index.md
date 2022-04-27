@@ -1,17 +1,17 @@
 ---
 title: "Implement HTTP Streaming with Node.js and Fetch API"
-date: "2022-04-26"
-coverImage: "cover-image.png"
+date: "2022-04-27"
+coverImage: "http-streaming-with-nodejs-and-fetch-api.png"
 author: "Nick Van Nieuwenhuyse"
 tags: ["Node.js", "Fetch API", "Streaming"]
-description: "Do you know you can efficiently stream data using HTTP to efficiently visualize it? Learn more about how you can stream data with HTTP using Node.js and Fetch API."
+description: "Do you know that you can stream HTTP data for efficient visualization? Learn more about how you can stream data with HTTP using Node.js and Fetch API."
 ---
 
-When your webapp has a large amount of data to visualize, you don't want your users to wait 10 seconds before they see something.
+When your webapp has a large amount of data to visualize, you don't want your users to wait 10 seconds before seeing something.
 
-One technique that is often overlooked is HTTP streaming. It's broadly supported, works well, and doesn't require any fancy libraries.
+One technique that is often overlooked is HTTP streaming. It's broadly supported, works well, and doesn't require fancy libraries.
 
-We're going to go through how we can use HTTP streaming in our applications and what to take into account when we do so.
+We're going to go through how we can use HTTP streaming in our applications and what to consider when we do so.
 
 ## Introduction
 
@@ -22,14 +22,14 @@ When building web applications, we typically have a REST API with GET endpoints 
 3. Convert the database results into JSON
 4. Send the JSON response back
 
-The API will typically wait for each step to complete before going on to the next one and by step 4, the database result and the JSON objects are all in memory before the request is handled and everything can be cleaned up.
+The API will typically wait for each step to complete before going on to the next one, and by step 4, the database result and the JSON objects are all in memory before the request is handled, and everything can be cleaned up.
 
-This works and there is nothing wrong with it (KISS right?) as long as the result of your database query is small and quickly available.
+This works, and there is nothing wrong with it (KISS, right?) as long as your database query results are small and quickly available.
 
 But let's say you want to render a chart with 10k data points. Querying will not be as smooth anymore.
-The simple way will work, but ideally you don't want to accumulate all the data in memory before sending the response.
+The simple way will work, but ideally, you don't want to accumulate all the data in memory before sending the response.
 
-With HTTP streaming you can start rendering the chart even before your query is complete.
+With HTTP streaming, you can start rendering the chart even before your query is complete.
 
 To make it happen:
 
@@ -75,12 +75,12 @@ The file looks like this:
 ]
 ```
 
-We're creating a HTTP/1.1 server with Node's `http` module. By setting `ctx.body` to a stream, data will be sent to the requester as soon as it is loaded using a mechanism called [chunked transfer encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding).
+We're creating an HTTP/1.1 server with Node's `http` module. By setting `ctx.body` to a stream, data will be sent to the requester as soon as it is loaded using a mechanism called [chunked transfer encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding).
 
 This saves time and memory of your API because it doesn't have to accumulate the whole result in memory before sending the response.
 
 In a real application, you're probably using a database instead of a pre-created JSON file.
-If you're using MongoDB you can create a stream with the [cursor's `stream()` method](https://docs.mongodb.com/drivers/node/current/fundamentals/crud/read-operations/cursor/#stream-api).
+If you're using MongoDB, you can create a stream with the [cursor's `stream()` method](https://docs.mongodb.com/drivers/node/current/fundamentals/crud/read-operations/cursor/#stream-api).
 
 ## Consume a Streaming API From a Webapp
 
@@ -122,7 +122,7 @@ To see it more clearly, open up Developer Tools (F12) and set network throttling
 
 That's all very nice, but the chunks themselves are not very useful. You want to process the measurements that are in these chunks. Ideally, you would have an async iterable that gradually yields the JSON objects as they come in so that you can use `for await` to iterate over the measurements instead of the chunks.
 
-JavaScript doesn't have a JSON parser that can deal with streams. For now, let's assume we have a function that can do this called `parseJsonStream(readableStream)`. More details and a simple implementation can be found in "Streaming Considerations" below.
+JavaScript doesn't have a JSON parser that can deal with streams. Let's assume we have a function that can do this called `parseJsonStream(readableStream)`. More details and a simple implementation can be found in "Streaming Considerations" below.
 
 We would then be able to do this:
 
@@ -144,13 +144,13 @@ This is the result:
 
 ![The console showing "measurement with id ... has value ..."](console-measurements.gif)
 
-This is a very powerful mechanism. Instead of `console.log()` statements, imagine a line chart where the measurements are gradually becoming visible as more data comes in.
+This is a very powerful mechanism. Instead of `console.log()` statements, imagine a line chart where the measurements gradually become visible as more data comes in.
 
 This is an example created with [Apache ECharts](https://echarts.apache.org/):
 
 ![A line chart gradually becoming visible as data comes in](chart-loading-gradually.gif)
 
-Before the Fetch API, it was not possible to do this because the alternative, [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), will load the whole response into memory before providing it to your code.
+Before the Fetch API, it was impossible to do this because the alternative, [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), will load the whole response into memory before providing it to your code.
 
 Modern applications don't use `XMLHttpRequest` directly, but a lot of libraries like [Axios](https://axios-http.com/) or Angular's [HttpClient](https://angular.io/api/common/http/HttpClient) rely on it to make requests.
 
@@ -184,7 +184,7 @@ http2.createSecureServer(
 ).listen(3000);
 ```
 
-This code is mostly the same as for HTTP/1.1 with 2 notable differences:
+This code is mostly the same as for HTTP/1.1 with two notable differences:
 
 * We're using Node's `http2` module instead of `http`.
 * We're using `HTTPS` instead of plain `HTTP` because this is mandatory for HTTP/2. You can set up HTTPS and get the `cert` and `key` files using [mkcert](https://github.com/FiloSottile/mkcert). Or, use one of the other mechanisms described in this article: https://web.dev/how-to-use-local-https/
@@ -227,7 +227,7 @@ We could receive this JSON in chunks like this:
 ]
 ```
 
-You need some way to determine where one measurement object starts and ends. To simplify this, we created a JSON file where each line contains exactly 1 object. Parsing the stream becomes manageable when we can make this assumption.
+You need some way to determine where one measurement object starts and ends. To simplify this, we created a JSON file where each line contains precisely one object. Parsing the stream becomes manageable when we can make this assumption.
 
 Here is the implementation of `parseJsonStream(readableStream)`
 
@@ -275,13 +275,13 @@ function readChunks(reader) {
 
 If you have control over the API you're calling, you can use the "1 object per line" formatting as part of the contract, but know that it could be prone to breaking. For robust JSON support, we need a real streaming parser.
 
-Other options include using a format that has 1 object per line by default, like CSV, or a more advanced format that has built-in support for streaming like [Apache Arrow](https://arrow.apache.org/docs/js/).
+Other options include using a format with one object per line by default, like CSV, or a more advanced format with built-in support for streaming like [Apache Arrow](https://arrow.apache.org/docs/js/).
 
 ## Advantages
 
 1. **Snappy User Experience:** You can start showing data as soon as it's available.
 2. **Scalable API:** No memory usage spikes from accumulating results in memory.
-3. Uses plain HTTP and a standard Javascript API. No connections to manage or complicated frameworks that might become obsolete in a few years.
+3. Uses plain HTTP and a standard JavaScript API. There are no connections to manage or complicated frameworks that might become obsolete in a few years.
 
 ## Disadvantages
 
@@ -291,4 +291,4 @@ Other options include using a format that has 1 object per line by default, like
 
 ## Conclusion
 
-You have learn how to stream data efficiently using HTTP using Node.js and HTTP without congesting or burdening the memory. You have also learn the advantages and disadvantages for HTTP streaming.
+You have learned how to stream HTTP data efficiently using Node.js and HTTP without congesting or burdening the memory. You have also understood the advantages and disadvantages of HTTP streaming.
