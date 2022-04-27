@@ -1,5 +1,5 @@
 ---
-title: "10 Types of Cyber Threats"
+title: "Top 10 Cyber Threats"
 date: "2022-04-26"
 coverImage: "cyber_attack.png"
 author: "Vijay Singh Shekhawat"
@@ -10,7 +10,6 @@ description: "Learn about Top Most Common Types of Cyber threats."
 ## What is a Cyber Attack?
 A cyber attack is a sequence of actions performed by the cybercriminal in order to obtain unauthorized access to a computer, computer networks, or other computing systems, steal data, or harm innocent people or launch additional attacks from a compromised computer. To launch a cyberattack, cybercriminals utilize a range of methods, including phishing, ransomware, malware, man-in-the-middle attack, and denial of service, among others.
 
-## 10 Types of Cyber Threats
 
 ### 1.Phising 
 Phishing is the practice used by scammers to steal users' credentials or sensitive data such as credit card numbers or to install malware on the victim's machine. by sending fraudulent communications that appear to be from a reputable source. In this case, scammers send users emails or text messages that appear to be from a legitimate source, complete with bogus hyperlinks. 
