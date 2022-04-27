@@ -3,7 +3,7 @@ title: "LoginRadius Releases Consumer Identity Trend Report 2022, Key Login Meth
 date: "2022-04-27"
 coverImage: "report-cover.jpg"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
-featured: false 
+featured: true 
 author: "Rakesh Soni"
 description: "As a company strongly focused on CIAM, LoginRadius analyzed its global customers over the past year and compiled over 40 unique trends in its annual Consumer Identity Trend report 2022."
 metatitle: "LoginRadius Launches Consumer Identity Trend Report 2022"
