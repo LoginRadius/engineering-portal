@@ -17,7 +17,7 @@ These tokens include a token signature for integrity and are solely based on JSO
 
 Since these tokens provide secure access to an authenticated user, attackers are always looking for ways to steal these tokens and quickly gain access by impersonating a consumer. 
 
-So what can be done at the enterprise level to ensure maximum security, and what are the steps that can help in a situation where a client’s [JSON web token](https://www.loginradius.com/blog/async/jwt/) is stolen? 
+So what can be done at the enterprise level to ensure maximum security, and what are the steps that can help in a situation where a client’s [JSON web token](https://www.loginradius.com/blog/engineering/jwt/) is stolen? 
 
 Remember, once a JWT (JSON Web Token) is stolen, it can be the worst thing for an individual and the enterprise as there’s a huge chance of data breach and exploitation.
 
@@ -42,7 +42,7 @@ The browser then takes the signed JWT and begins sending the same with every HTT
 
 In a nutshell, the signed JWT is now acting as a temporary login credential for a user, which replaces the permanent credential. 
 
-**Read more**: [Invalidating JSON Web Tokens](https://www.loginradius.com/blog/async/invalidating-jwt/)
+**Read more**: [Invalidating JSON Web Tokens](https://www.loginradius.com/blog/engineering/invalidating-jwt/)
 
 
 ## What to Do if JWT Token is Stolen? 

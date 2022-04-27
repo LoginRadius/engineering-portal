@@ -9,7 +9,7 @@ const IdentityFeatList = ({ slug }) => {
         query {
           allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
-            filter: { fields: { slug: { regex: "/identity/" } } }
+            filter: { fields: { slug: { regex: "//identity//" } } }
             limit: 4
           ) {
             edges {

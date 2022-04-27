@@ -82,7 +82,7 @@ The vulnerability exists when someone can edit the URL to access other similar c
 
 
 
-*   Implement proper [user authorization](https://www.loginradius.com/blog/async/user-authentication-react-application/) checks at relevant stages of users’ web app journey.
+*   Implement proper [user authorization](https://www.loginradius.com/blog/engineering/user-authentication-react-application/) checks at relevant stages of users’ web app journey.
 *   Customize error messages so that they don’t reveal critical information about the respective user.
 *   Try not to disclose reference to objects in the URL; use POST based information transmission over GET.
 

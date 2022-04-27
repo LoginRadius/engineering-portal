@@ -7,7 +7,7 @@ tags: ["Authentication","JWT","Sessions"]
 description: "In this article, you'll learn the differences between JWT and Sessions, and which one to use for authentication."
 ---
 
-In web applications, you try to decide when to use either [JSON Web Tokens (JWTs)](https://www.loginradius.com/blog/async/jwt/) or sessions (cookies) for authentication. When you browse the web you use HTTP, which is a stateless protocol. So, the only way to remember the states of your application is using either sessions or tokens.
+In web applications, you try to decide when to use either [JSON Web Tokens (JWTs)](https://www.loginradius.com/blog/engineering/jwt/) or sessions (cookies) for authentication. When you browse the web you use HTTP, which is a stateless protocol. So, the only way to remember the states of your application is using either sessions or tokens.
 
 ## Goals
 

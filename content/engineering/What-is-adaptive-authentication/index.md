@@ -50,7 +50,7 @@ Whenever an authentication request is deemed as a malicious attempt based on the
 
 **SMS Notification:** An SMS is sent to the consumer's phone numbers to notify the consumer about the authentication request. It gives an advantage as the consumer checks the SMS more frequently than email, or the consumer might not have access to the email all the time. If the consumer found the authentication request malicious, they can inform the company to take appropriate actions. 
 
-**Multi-Factor Authentication:** The consumer is asked to verify the identity with the second factor of authentication. This factor can be configured in many ways as per your business requirements. Please see my blog on [Multi-factor Authentication](https://www.loginradius.com/blog/async/why-mfa-important/) for more details.
+**Multi-Factor Authentication:** The consumer is asked to verify the identity with the second factor of authentication. This factor can be configured in many ways as per your business requirements. Please see my blog on [Multi-factor Authentication](https://www.loginradius.com/blog/engineering/why-mfa-important/) for more details.
 
 **Blocking User Access:** The account is blocked immediately for further login attempts once specific risk criteria have been met. The consumer needs to contact the company to unblock the access. 
 

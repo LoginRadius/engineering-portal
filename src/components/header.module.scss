@@ -70,17 +70,37 @@
   }
   & > .logo {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     width: 264px;
     height: 96px;
     padding: 0 36px;
     @media (max-width: 768px) {
-      width: 168px;
+      width: 210px;
       padding: 0 24px;
       height: 90px;
     }
     @media (max-width: 480px) {
       height: 65px;
+    }
+    a {
+      display: flex;
+      align-items: stretch;
+      height: 96px;
+      @media (max-width: 768px) {
+        height: 90px;
+      }
+      @media (max-width: 480px) {
+        height: 65px;
+      }
+      img {
+        width: 100%;
+      }
+      &:first-child {
+        width: 76%;
+      }
+      &:last-child {
+        width: 24%;
+      }
     }
   }
 

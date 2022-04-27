@@ -29,7 +29,7 @@ We can clearly make out that access tokens overall provide better security but h
 
 Here is where refresh tokens come to the rescue. A __refresh token__ just helps you re-validate a user without them having to re-enter their login credentials multiple times. The access token is re-issued, provided the refresh token is a valid one requesting permission to access confidential resources. This method provides an enhanced user experience all while keeping a robust security interface.
 
-[_OAuth 2.0_](https://www.loginradius.com/blog/async/oauth2/) is a popular authentication framework that essentially allows client applications to access resources provided by other applications & servers on behalf of the user. This architecture leverages the benefits of utilizing access and refresh tokens.
+[_OAuth 2.0_](https://www.loginradius.com/blog/engineering/oauth2/) is a popular authentication framework that essentially allows client applications to access resources provided by other applications & servers on behalf of the user. This architecture leverages the benefits of utilizing access and refresh tokens.
 
 Now, having discussed the impact a refresh token has on enhancing the user experience of the application, is there any other benefit to using them?
 
@@ -55,7 +55,7 @@ Having said that, counter-measures such as **_Refresh Token Rotation_** and **_A
 
 In such methods, when a refresh token is utilized to access any resource, the system not only responds with the access token but also with a new refresh token in turn. Any subsequent API requests can be made through newer refresh tokens from there onwards. If a request is made utilizing an older refresh token, the request is efficiently rejected (assuming the person/client requesting is unauthenticated).
 
-Also, [_Risk-Based Authentication (RBA)_](https://www.loginradius.com/blog/async/risk-based-authentication/) method suggests that if a refresh token is utilized multiple times, the tokens are revoked; thereby, preventing further access to valuable resources. Such a mechanism further helps strengthen the security of applications using refresh tokens.
+Also, [_Risk-Based Authentication (RBA)_](https://www.loginradius.com/blog/engineering/risk-based-authentication/) method suggests that if a refresh token is utilized multiple times, the tokens are revoked; thereby, preventing further access to valuable resources. Such a mechanism further helps strengthen the security of applications using refresh tokens.
 
 ### Conclusion
 

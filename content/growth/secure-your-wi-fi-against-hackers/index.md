@@ -74,7 +74,7 @@ You can also access your router’s configuration page via a web browser connect
     
 -   Open the Wireless section provided.
     
--   Now create a new password using letters, numbers, and special characters. A [strong password](https://www.loginradius.com/blog/async/password-security-best-practices-compliance/) can contain at least eight characters long.
+-   Now create a new password using letters, numbers, and special characters. A [strong password](https://www.loginradius.com/blog/engineering/password-security-best-practices-compliance/) can contain at least eight characters long.
     
 -   Finally, save your changes so that you can connect to your wireless network using your new password.
     
@@ -85,7 +85,7 @@ Modern Wi-Fi routers include the ‘Guest network’ option with its SSID and pa
 
 ### 2. Turn on the Wireless Network Encryption.
 
-[Encryption](https://www.loginradius.com/blog/async/encryption-and-hashing/) is the security process that clambers the information that you send over the Internet. Most of the Wi-Fi routers have built-in encryption. You can set your security type using wireless encryption like WPA and WPA2.
+[Encryption](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) is the security process that clambers the information that you send over the Internet. Most of the Wi-Fi routers have built-in encryption. You can set your security type using wireless encryption like WPA and WPA2.
 
   
 

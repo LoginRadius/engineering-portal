@@ -62,7 +62,7 @@ Cyber Security as a Service Providers (CSaaSP) are companies that specialize in 
 
 Cybersecurity experts believe that an added step in the log-in process is likely to increase the security of the account and data. Two-factor and multi-factor authentication processes have been integrated into many systems. 
 
-When you ask the question 'how do companies protect consumer data, the most common answer is [multi-factor authentication](https://www.loginradius.com/blog/async/why-mfa-important/). Google provides its users two-factor authentication services during the log-in process for all Google accounts, which increases the overall security of the data.
+When you ask the question 'how do companies protect consumer data, the most common answer is [multi-factor authentication](https://www.loginradius.com/blog/engineering/why-mfa-important/). Google provides its users two-factor authentication services during the log-in process for all Google accounts, which increases the overall security of the data.
 
 Integrating a two-factor authentication process adds an extra layer of security for you, the user. Hackers who aim to log in to accounts will have to spend extra time to sign in to your account, during which AIs can easily detect the threat and take appropriate measures. 
 

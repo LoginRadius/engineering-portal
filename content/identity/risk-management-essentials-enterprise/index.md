@@ -81,7 +81,7 @@ For instance, if a user tries to log in from his/her town and in a few minutes, 
 
 To ensure data security on mobile devices and build trustworthiness, encryption must be in place. In this process, data is encoded to be inaccessible to unauthorized users and helps to protect sensitive data and private information.
 
-[Encryption](https://www.loginradius.com/blog/async/encryption-and-hashing/) can also improve the security of communication between servers and client apps.
+[Encryption](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) can also improve the security of communication between servers and client apps.
 
 Although encryption is basic, it's an essential aspect of data security. Organizations must do all that they can to protect their customer's information online as well as their own. Hence, it's becoming more and more common for technology encryption to be activated on apps and websites.
 

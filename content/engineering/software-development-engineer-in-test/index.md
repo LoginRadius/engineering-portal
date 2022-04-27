@@ -28,7 +28,7 @@ description: "A brief overview about the upcoming future of software testers and
 
 > Tester or Quality Analyst who has good programming experience and developed the test automation framework can be promoted to a new role as SDET and can participate in the development cycle, acceptance testing, or unit testing.
 
-Automation Engineers or Quality Analysts are expected for more duties and more <a href="https://www.loginradius.com/blog/async/challenges_faced_by_qa/"> QA processing challenges</a> over a general testing role like test planning, test environment setup, test execution, test-data preparation, performance, security testing, developing test automation tools, etc. In contrast, SDET is expected to have the domain knowledge to participate in designing the test cases. 
+Automation Engineers or Quality Analysts are expected for more duties and more <a href="https://www.loginradius.com/blog/engineering/challenges_faced_by_qa/"> QA processing challenges</a> over a general testing role like test planning, test environment setup, test execution, test-data preparation, performance, security testing, developing test automation tools, etc. In contrast, SDET is expected to have the domain knowledge to participate in designing the test cases. 
 
 ## SDETs: The need
 
@@ -65,4 +65,4 @@ Software Testing is an essential phase in the development cycle, and it takes lo
 
 
 ## Conclusion
-SDET is a tester or automation engineer with development experience who has exposure to testing techniques, <a href="https://www.loginradius.com/blog/async/qa-teams-deliver-quality-software/">QA testing process</a>, automation frameworks, and software development & design techniques. SDET builds test automation tools and works with the development team and covers the code by unit tests and ultimately, it results in a quality software delivery
+SDET is a tester or automation engineer with development experience who has exposure to testing techniques, <a href="https://www.loginradius.com/blog/engineering/qa-teams-deliver-quality-software/">QA testing process</a>, automation frameworks, and software development & design techniques. SDET builds test automation tools and works with the development team and covers the code by unit tests and ultimately, it results in a quality software delivery

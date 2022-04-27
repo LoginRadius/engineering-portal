@@ -58,7 +58,7 @@ In essence, Agile Marketing plays off of Agile Development Team methodologies to
 
   
 
-Learn more about the [fundamentals of Agile Development](https://www.loginradius.com/blog/async/agile-development-team/).
+Learn more about the [fundamentals of Agile Development](https://www.loginradius.com/blog/engineering/agile-development-team/).
 
   
 

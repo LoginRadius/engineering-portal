@@ -37,7 +37,7 @@ Thankfully, CIAM helps you collect data as well as secure it. What makes it even
 
 [![valuable-visitor-eb](valuable-visitor-eb.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
-Talking about security, CIAM solutions tokenize customer identities to detach them from sensitive data while it's in storage. Furthermore, these solutions also use robust [data encryption and hashing](https://www.loginradius.com/blog/async/encryption-and-hashing/) to ensure the privacy of sensitive information and credentials.
+Talking about security, CIAM solutions tokenize customer identities to detach them from sensitive data while it's in storage. Furthermore, these solutions also use robust [data encryption and hashing](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) to ensure the privacy of sensitive information and credentials.
 
 Overall, CIAM benefits the organization by allowing them to maintain visibility over the data they collect. In this way, the data collected can be monitored, stored, and accessed much more securely. Not to forget, the security of all of this information also plays a significant role in fulfilling legal compliance like GDPR.   
 

@@ -9,7 +9,7 @@ tags: ["MongoDB"]
 
 In this article, we will address how to perform basic query operations in MongoDB. We are producing data at an unparalleled pace now following the global spread of the internet. Since it will require us to collect/request the required data from the database to conduct some kind of analysis, it is of utmost importance that we choose the right tool to query the data.
 
-This is where MongoDB comes in, specifically. MongoDB is an unstructured database which, in the form of documents, stores data. In addition, MongoDB is very effective in [handling enormous amounts of data](https://www.loginradius.com/blog/async/live-data-migration-mongodb/) and is the most commonly used NoSQL database as it provides rich query language and versatile and easy data access.
+This is where MongoDB comes in, specifically. MongoDB is an unstructured database which, in the form of documents, stores data. In addition, MongoDB is very effective in [handling enormous amounts of data](https://www.loginradius.com/blog/engineering/live-data-migration-mongodb/) and is the most commonly used NoSQL database as it provides rich query language and versatile and easy data access.
 
 ## Create a Sample Database
 
@@ -390,7 +390,7 @@ You can use the $nin operator to retrieve the documents where a field’s value 
 ```
 ### Indexing
 
-We know that [indexing is very important](https://www.loginradius.com/blog/async/index-in-mongodb/) if we are performing the queries on a large database. Without indexing execution of a query can be expensive. We can add a simple ascending index on a single field by using the following statement.
+We know that [indexing is very important](https://www.loginradius.com/blog/engineering/index-in-mongodb/) if we are performing the queries on a large database. Without indexing execution of a query can be expensive. We can add a simple ascending index on a single field by using the following statement.
 ```
 >db.Orders.createIndex({"Customer":1})
 ```
@@ -401,4 +401,4 @@ db.Orders.createIndex( { "OrderId": 1 }, { unique: true } )
 
 ## Conclusion
 
-I hope you learned something new today, If you want to learn few more stuff on MongoDB, here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/async/self-hosted-mongo/) I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments below.
+I hope you learned something new today, If you want to learn few more stuff on MongoDB, here is an interesting article on [Self-Hosted MongoDB](https://www.loginradius.com/blog/engineering/self-hosted-mongo/) I also invite you to try stuff on your own and share your experience in the comment section. Furthermore, if you face any problems with any of the above definitions, please feel free to ask me in the comments below.

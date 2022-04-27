@@ -50,7 +50,7 @@ So what do we learn here?
 
 Both Instagram and Facebook serve different purposes. People find you on Instagram and follow your business account to get engaged with a brand. While Facebook enables a lot more informational or somehow professional platform that can cater to a large number of audiences with different expectations.
 
-People who use Instagram are well-versed with the fact that they’ll get limited but crisp information that they need in a couple of seconds, which somehow isn’t in the case of [Facebook](https://www.loginradius.com/blog/async/login-with-facebook/).
+People who use Instagram are well-versed with the fact that they’ll get limited but crisp information that they need in a couple of seconds, which somehow isn’t in the case of [Facebook](https://www.loginradius.com/blog/engineering/login-with-facebook/).
 
 Your audience logs in to Facebook to watch videos, stories, new posts, and you can expect they can be engaged in playing games as well.
 

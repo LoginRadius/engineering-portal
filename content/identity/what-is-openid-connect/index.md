@@ -33,7 +33,7 @@ It is a very common practice to deploy the same password across multiple applica
 
 Here comes OpenID connect in the picture as it never shares a password with any website. Even then, if a compromise does occur, you can immediately prevent any malicious access to your accounts at any website by simply changing the password for your OpenID Connect.
 
-**Also Read: [Add Authentication to Play Framework With OIDC and LoginRadius](https://www.loginradius.com/blog/async/guest-post/add-authentication-to-play-framework-with-oidc-and-loginradius/)**
+**Also Read: [Add Authentication to Play Framework With OIDC and LoginRadius](https://www.loginradius.com/blog/engineering/guest-post/add-authentication-to-play-framework-with-oidc-and-loginradius/)**
 
 
 ## How OpenID Connect Works
@@ -51,7 +51,7 @@ The application begins with an OAuth 2.0 flow that asks the user to authorize a 
 
 The SSO is implemented by delivering ID tokens from the authorization server to the client. The client then contacts a dedicated endpoint on the authorization server known as the UserInfo endpoint to receive the remaining claims about the user using the access token. 
 
-It is this ID token which is also known as the J[SON Web Token (JWT)](https://www.loginradius.com/blog/async/jwt/), which contains claims, which are nothing but statements (like an email address or name) about an entity (the user) and some additional metadata. 
+It is this ID token which is also known as the J[SON Web Token (JWT)](https://www.loginradius.com/blog/engineering/jwt/), which contains claims, which are nothing but statements (like an email address or name) about an entity (the user) and some additional metadata. 
 
 The OpenID Connect specification has a defined set of standard claims. The set of standard claims include name, email, gender, birth date, and so on. However, if you want to capture information about a user and there currently isn’t a standard claim that best reflects this piece of information, you can create custom claims and add them to your tokens.
 
@@ -91,7 +91,7 @@ The story of OpenID Connect interoperability has been proven in practice when an
 
 ## Conclusion
 
-OpenID Connect, its predecessors, and other [public-key-encryption-based authentication](https://www.loginradius.com/blog/async/encryption-and-hashing/) frameworks guarantee the security of the complete internet by having the responsibility for user identity verification in the hands of the most trusted and reliable service providers. If compared with the one which is available earlier, OpenID Connect is a way easier approach to implement and integrate and is expected to achieve a much-outspread acceptance.
+OpenID Connect, its predecessors, and other [public-key-encryption-based authentication](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) frameworks guarantee the security of the complete internet by having the responsibility for user identity verification in the hands of the most trusted and reliable service providers. If compared with the one which is available earlier, OpenID Connect is a way easier approach to implement and integrate and is expected to achieve a much-outspread acceptance.
 
 Cheers!
 

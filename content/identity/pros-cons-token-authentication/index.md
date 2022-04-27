@@ -47,7 +47,7 @@ JWT (JSON Web Token) is used to provide a standard way for two parties to commun
 
 There exists an open industry standard called RFC-7519, which defines how JWT should be structured and how to use it for exchanging information (called “claims”) in the form of JSON objects. This information can be verified and trusted as its digitally signed.
 
-[JWT (JSON Web Token)](https://www.loginradius.com/blog/async/jwt/) is a popular method of SSO, which is widely used by B2C applications, and through this system, you can allow your consumers to log in to an application that supports JWT.
+[JWT (JSON Web Token)](https://www.loginradius.com/blog/engineering/jwt/) is a popular method of SSO, which is widely used by B2C applications, and through this system, you can allow your consumers to log in to an application that supports JWT.
 
 LoginRadius acts as an Identity Provider; it means LoginRadius can authorize a third-party application that will act as a Service Provider. 
 

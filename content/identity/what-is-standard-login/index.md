@@ -106,7 +106,7 @@ Encourage users to build stronger passwords to improve security. Businesses shou
     
 -   Passwords should have a combination of characters. Passwords with a random combination of numbers, uppercase, and lowercase letters, and symbols are harder to crack.
     
--   Avoid using formulas when producing passwords. Patterns and formulas make it convenient for [hackers to guess your password](https://www.loginradius.com/blog/async/password-security-best-practices-compliance/) and can allow users a false sense of security.
+-   Avoid using formulas when producing passwords. Patterns and formulas make it convenient for [hackers to guess your password](https://www.loginradius.com/blog/engineering/password-security-best-practices-compliance/) and can allow users a false sense of security.
     
 
 Always use these do's and don'ts as a way to strengthen your user authentication practices.
