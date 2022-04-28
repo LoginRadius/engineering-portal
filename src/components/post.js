@@ -180,29 +180,33 @@ const Post = ({ post, relatedPost, type }) => {
               )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                <div className={headStyles.image}>
-                  <img src={Docs} alt="LoginRadius Docs" />
-                </div>
-                <div className={headStyles.text}>
-                  <h3>Implement Authentication in Minutes</h3>
-                  <a
-                    className={`${headStyles.btnPrimary} btn-primary ga_event`}
-                    // className={"btn-primary ga_event"}
-                    href={"https://www.loginradius.com/docs/developer"}
-                    key={"docs-link"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() =>
-                      eventLogger({
-                        category: "LoginRadius Docs",
-                        action: "User clicked on Loginradius Docs button",
-                        label: "Docs",
-                      })
-                    }
-                  >
-                    {"LoginRadius Docs"}
-                  </a>
-                </div>
+                {type !== "fuel" && (
+                  <>
+                    <div className={headStyles.image}>
+                      <img src={Docs} alt="LoginRadius Docs" />
+                    </div>
+                    <div className={headStyles.text}>
+                      <h3>Implement Authentication in Minutes</h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={"https://www.loginradius.com/docs/developer"}
+                        key={"docs-link"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "LoginRadius Docs",
+                            action: "User clicked on Loginradius Docs button",
+                            label: "Docs",
+                          })
+                        }
+                      >
+                        {"LoginRadius Docs"}
+                      </a>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>
