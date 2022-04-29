@@ -1,6 +1,6 @@
 ## 1) Guidelines for Writing Your Blog Post
 
-Here are the guidelines that you shall follow for writing a blog post for Async Blog:
+Here are the guidelines that you shall follow for writing a blog post for LoginRadius Blog:
 
 1. You shall be familiar with Markdown. The second section clearly describes how to format your blog post and submit it. This section describes the guidelines for creating the actual blog post content.
 
@@ -107,6 +107,6 @@ Your blog post will undergo three review phases:
 
 **Phase 3:** We'll check your content once again, verify any sample code included, and request a final set of changes if any.
 
-After completing the three phases, we'll merge your pull request and subsequently publish it on our publication:  https://www.loginradius.com/blog/async/
+After completing the three phases, we'll merge your pull request and subsequently publish it on our publication:  https://www.loginradius.com/blog/engineering
 
 Note that we may reject your pull request if it doesn't meet our guidelines or quality standards.
