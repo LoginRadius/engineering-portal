@@ -180,7 +180,7 @@ const Post = ({ post, relatedPost, type }) => {
               )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                {type !== "fuel" && (
+                {type !== "async" && (
                   <>
                     <div className={headStyles.image}>
                       <img src={Docs} alt="LoginRadius Docs" />
@@ -209,7 +209,7 @@ const Post = ({ post, relatedPost, type }) => {
                     </div>
                   </>
                 )}
-                {type == "fuel" && (
+                {type == "async" && (
                   <>
                     <div className={headStyles.text}>
                       <h3>LoginRadius Identity Platform Documentation</h3>
