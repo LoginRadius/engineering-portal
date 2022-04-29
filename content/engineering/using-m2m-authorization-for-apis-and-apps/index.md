@@ -123,9 +123,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
       --header 'X-LoginRadius-ApiKey: {apiKey}
     ```
  
-4. According to the scope or permission, the respective API(s) will work.
-
-> **Note:**  According to scope or permission, the management APIs will work.
+4. The respective API(s) will work according to the scope or permission.
 
 ## Implement M2M Authorization with Business APIs 
 1. The client (partner, API, service, etc.) requests the access token using the following API:
@@ -142,7 +140,7 @@ API endpoint: https://<LoginRadiusAppName>hub.loginradius.com/service/oauth/toke
     }
     ```
     
-    > **Note:** Where<LoginRadiusAppName> is the name of your LoginRadius App.
+    > **Note:** Where `<LoginRadiusAppName>` is the name of your LoginRadius App.
     In response, the client will get an access token. 
 
 2. Use the generated JWT token in the authorization for APIs.
