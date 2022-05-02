@@ -287,6 +287,9 @@ Other options include using a format with one object per line by default, like C
 
 1. Implementation is slightly more involved than using regular API calls.
 2. Error handling becomes more difficult because HTTP status code 200 will be sent as soon as streaming starts. What do we do when something goes wrong in the middle of the stream?
+    
+    When something goes wrong, your API should close the stream. Your webapp can then determine if the stream was complete and show a fitting message to the user if it's not. For example: when using a JSON response, as we discussed, you can check that the last line contains only "]".
+
 3. No streaming JSON parser is currently available. Needs formatting assumptions as part of the contract or a more unconventional format.
 
 ## Conclusion

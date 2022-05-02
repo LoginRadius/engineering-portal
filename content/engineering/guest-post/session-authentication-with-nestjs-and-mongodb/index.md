@@ -1,5 +1,5 @@
 ---
-title: "Session-Based User Authentication with NestJS and MongoDB"
+title: "NestJS: How to Implement Session-Based User Authentication"
 date: "2022-04-26"
 coverImage: "session-based-authentication-in-nestjs.png"
 author: "Ekekenta Odionyenfe Clinton"
