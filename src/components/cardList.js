@@ -6,26 +6,25 @@ import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { Link, withPrefix } from "gatsby"
 import TagMenu from "./tagmenu"
-export default function CardList({ posts, currentPage, isPagination, type }) {
+export default function CardList({ posts, currentPage, type }) {
   const limit = 6
   return (
     <section id="all-articles">
       <div className={styles.cardlist}>
         <div className="grid-67-33">
           <div className="grid-50 py-96">
-            {posts &&
-              posts.map(({ node }, index) => {
-                if (isPagination) {
+            {type == "all"
+              ? posts.map(({ node }, index) => {
                   if (
                     (currentPage - 1) * limit <= index &&
                     index < (currentPage - 1) * limit + limit
                   ) {
                     return <Card node={node} />
                   }
-                } else {
-                  return <Card node={node} />
-                }
-              })}
+                })
+              : posts.map(({ node }, index) => (
+                  <Card node={node} key={`${type}_${index}`} />
+                ))}
           </div>
           <div className={` ${styles.sidebar} py-96`}>
             <Subscribe type={type} />

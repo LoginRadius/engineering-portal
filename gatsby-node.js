@@ -5,9 +5,12 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const tagTemplate = path.resolve("./src/templates/tag.js")
-  const result = await graphql(
+  const tagResults = await graphql(
     `
       {
+        allMarkdownRemark {
+          totalCount
+        }
         tagsGroup: allMarkdownRemark(limit: 2000) {
           group(field: frontmatter___tags) {
             fieldValue
@@ -17,12 +20,11 @@ exports.createPages = async ({ graphql, actions }) => {
     `
   )
 
-  if (result.errors) {
-    throw result.errors
+  if (tagResults.errors) {
+    throw tagResults.errors
   }
-
   // Extract tag data from query
-  const tags = result.data.tagsGroup.group
+  const tags = tagResults.data.tagsGroup.group
   // Make tag pages
   tags.forEach(tag => {
     createPage({
@@ -33,6 +35,46 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  const engResult = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fields: { slug: { regex: "//engineering//" } } }
+        ) {
+          totalCount
+        }
+      }
+    `
+  )
+  const identityResult = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fields: { slug: { regex: "//identity//" } } }
+        ) {
+          totalCount
+        }
+      }
+    `
+  )
+  const growthResult = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fields: { slug: { regex: "//growth//" } } }
+        ) {
+          totalCount
+        }
+      }
+    `
+  )
+
+  // Creating Blog List Pages
+  createTypePages("/", tagResults, createPage)
+  createTypePages("/engineering/", engResult, createPage)
+  createTypePages("/identity/", identityResult, createPage)
+  createTypePages("/growth/", growthResult, createPage)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -68,4 +110,23 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `
   createTypes(typeDefs)
+}
+
+const createTypePages = (type, results, createPage) => {
+  const postsPerPage = 6
+  const total = results.data.allMarkdownRemark.totalCount
+  const numPages = Math.ceil(total / postsPerPage)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `${type}` : `${type}${i + 1}`,
+      component: path.resolve("./src/templates/blog-list-template.js"),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        currentPage: i + 1,
+        type: `/${type}/`,
+        numPages: numPages,
+      },
+    })
+  })
 }

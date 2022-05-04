@@ -9,19 +9,13 @@ const BlogList = props => {
   const numPages = Math.ceil(total / 6)
   const posts = data.allMarkdownRemark.edges
   const pinnedNode = posts.filter(edges => edges.node.frontmatter.pinned)
-  const pinnedData =
-    pinnedNode && pinnedNode.length != 0
-      ? pinnedNode[0].node
-      : data.allMarkdownRemark.edges[0].node
   return (
-    <Layout pinnedData={pinnedData} pinned pathname={pathname} type={type}>
+    <Layout pinnedData={pinnedNode} pinned pathname={pathname} type={type}>
       <main>
         <CardList
           posts={data.allMarkdownRemark.edges}
-          total={total}
           currentPage={currentPage}
           type={type || "all"}
-          isPagination={type || "all"}
         />
         <Pagination
           pages={numPages}
