@@ -76,7 +76,7 @@
     "url": "git+https://github.com/LoginRadius/engineering-portal.git"
   },
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages",
     "build:dev": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
