@@ -16,12 +16,14 @@ const BlogPostTemplate = ({ data }) => {
     coverImage,
   } = post.frontmatter
   let type = ""
-  if (pathname.includes("async")) {
+  if (pathname.includes("/engineering/")) {
     type = "async"
-  } else if (pathname.includes("fuel")) {
+  } else if (pathname.includes("/growth/")) {
     type = "fuel"
-  } else {
+  } else if (pathname.includes("/identity/")) {
     type = "start-with-identity"
+  } else {
+    type = ""
   }
   return (
     <Layout hideTagMenu postPage pathname={pathname} type={type}>

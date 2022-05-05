@@ -4,7 +4,7 @@ import kebabCase from "lodash/kebabCase"
 import React from "react"
 import ReactGA from "react-ga"
 import Helmet from "react-helmet"
-import Docs from "../../static/consumer-identity-trend.png"
+import Docs from "../../static/consumer-identity-trend.jpg"
 import headStyles from "./cardlist.module.scss"
 import AsyncFeatList from "./featurePost/async"
 import FuelFeatList from "./featurePost/fuel"
@@ -180,29 +180,59 @@ const Post = ({ post, relatedPost, type }) => {
               )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                <div className={headStyles.image}>
-                  <img src={Docs} alt="LoginRadius Docs" />
-                </div>
-                <div className={headStyles.text}>
-                  <h3>Implement Authentication in Minutes</h3>
-                  <a
-                    className={`${headStyles.btnPrimary} btn-primary ga_event`}
-                    // className={"btn-primary ga_event"}
-                    href={"https://www.loginradius.com/docs/developer"}
-                    key={"docs-link"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() =>
-                      eventLogger({
-                        category: "LoginRadius Docs",
-                        action: "User clicked on Loginradius Docs button",
-                        label: "Docs",
-                      })
-                    }
-                  >
-                    {"LoginRadius Docs"}
-                  </a>
-                </div>
+                {type !== "async" && (
+                  <>
+                    <div className={headStyles.image}>
+                      <img src={Docs} alt="LoginRadius Docs" />
+                    </div>
+                    <div className={headStyles.text}>
+                      <h3>Consumer Identity Trend 2022 Report</h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={
+                          "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022"
+                        }
+                        key={"consumer-identity-trend"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "Consumer Identity Trend 2022 Report",
+                            action: "User clicked on Free Download button",
+                            label: "Consumer Identity Trend 2022 Report",
+                          })
+                        }
+                      >
+                        {"FREE DOWNLOAD"}
+                      </a>
+                    </div>
+                  </>
+                )}
+                {type == "async" && (
+                  <>
+                    <div className={headStyles.text}>
+                      <h3>LoginRadius Identity Platform Documentation</h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={"https://www.loginradius.com/docs/"}
+                        key={"docs-link"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "LoginRadius Docs",
+                            action: "User clicked on Loginradius Docs button",
+                            label: "Docs",
+                          })
+                        }
+                      >
+                        {"LoginRadius Docs"}
+                      </a>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>

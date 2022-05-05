@@ -18,10 +18,8 @@ const signUplogger = function () {
   })
 }
 const PinnedCard = props => {
-  const { pinnedData } = props
-  const node = pinnedData
+  const { node } = props
   const tags = node.frontmatter.tags || []
-  const { gitAuthorTime } = node.fields
   let coverImagePath = node.frontmatter.coverImage
   return (
     <React.Fragment>
@@ -58,13 +56,7 @@ const PinnedCard = props => {
             </div>
             {node.frontmatter.author && (
               <Bio
-                date={
-                  node.frontmatter.date === gitAuthorTime ||
-                  gitAuthorTime === "Invalid date" ||
-                  gitAuthorTime === undefined
-                    ? node.frontmatter.date
-                    : gitAuthorTime
-                }
+                date={node.frontmatter.date}
                 author={node.frontmatter.author}
                 pinned
                 readingTime={getTimeToRead(node.html)}
