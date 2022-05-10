@@ -28,7 +28,11 @@ const PinnedCard = props => {
           <div className={styles.avatarPinned}>
             <Link to={node.fields.slug} className="bs-md">
               {coverImagePath ? (
-                <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+                <Img
+                  fluid={coverImagePath.childImageSharp.fluid}
+                  Tag="div"
+                  critical
+                />
               ) : (
                 <img src={defaultImg} alt="default-img" />
               )}

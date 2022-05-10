@@ -75,7 +75,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
     The following is an example request:
 
     ```
-    POST https://<HD/CD>/service/oauth/token
+    POST https://<LoginRadiusAppName>.hub.loginradius.com/service/oauth/token
     Content-Type: application/json
     {
       "audience": "https://api.loginradius.com/identity/v2/manage",
@@ -98,7 +98,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
     
     JWT Token Details
     {
-      "iss": "https://<LR HD/CD>/",
+      "iss": "https://<LoginRadiusAppName>.hub.loginradius.com/",
       "sub": "<OAuth APPs APIKey>@client",
       "jti": "<unique Identifier>"
       "aud":"https://api.loginradius.com/identity/v2/manage",  //or https://service.example.com/api/v2
@@ -130,7 +130,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
 API endpoint: https://<LoginRadiusAppName>hub.loginradius.com/service/oauth/token
 
     ```
-    POST https://<LoginRadiusAppName>/service/oauth/token
+    POST https://<LoginRadiusAppName>.hub.loginradius.com/service/oauth/token
     Content-Type: application/json
     {
     "audience": "<business API endpoint>",

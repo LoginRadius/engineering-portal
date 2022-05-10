@@ -8,13 +8,21 @@ exports.createPages = async ({ graphql, actions }) => {
   const tagResults = await graphql(
     `
       {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
           totalCount
+          edges {
+            node {
+              id
+            }
+          }
         }
         tagsGroup: allMarkdownRemark(limit: 2000) {
           group(field: frontmatter___tags) {
             fieldValue
           }
+        }
+        markdownRemark(frontmatter: { pinned: { eq: true } }) {
+          id
         }
       }
     `
@@ -41,8 +49,20 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           filter: { fields: { slug: { regex: "//engineering//" } } }
+          sort: { fields: frontmatter___date, order: DESC }
         ) {
           totalCount
+          edges {
+            node {
+              id
+            }
+          }
+        }
+        markdownRemark(
+          frontmatter: { pinned: { eq: true } }
+          fields: { slug: { regex: "//engineering//" } }
+        ) {
+          id
         }
       }
     `
@@ -52,8 +72,20 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           filter: { fields: { slug: { regex: "//identity//" } } }
+          sort: { fields: frontmatter___date, order: DESC }
         ) {
           totalCount
+          edges {
+            node {
+              id
+            }
+          }
+        }
+        markdownRemark(
+          frontmatter: { pinned: { eq: true } }
+          fields: { slug: { regex: "//identity//" } }
+        ) {
+          id
         }
       }
     `
@@ -63,8 +95,20 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           filter: { fields: { slug: { regex: "//growth//" } } }
+          sort: { fields: frontmatter___date, order: DESC }
         ) {
           totalCount
+          edges {
+            node {
+              id
+            }
+          }
+        }
+        markdownRemark(
+          frontmatter: { pinned: { eq: true } }
+          fields: { slug: { regex: "//growth//" } }
+        ) {
+          id
         }
       }
     `
@@ -114,6 +158,12 @@ exports.createSchemaCustomization = ({ actions }) => {
 
 const createTypePages = (type, results, createPage) => {
   const postsPerPage = 6
+  let pinnedId = ""
+  if (results.data.markdownRemark) {
+    pinnedId = results.data.markdownRemark.id
+  } else {
+    pinnedId = results.data.allMarkdownRemark.edges[0].node.id
+  }
   const total = results.data.allMarkdownRemark.totalCount
   const numPages = Math.ceil(total / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
@@ -126,6 +176,7 @@ const createTypePages = (type, results, createPage) => {
         currentPage: i + 1,
         type: `/${type}/`,
         numPages: numPages,
+        pinned: pinnedId,
       },
     })
   })
