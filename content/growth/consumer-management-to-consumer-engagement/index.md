@@ -2,11 +2,10 @@
 title: "How to Shift Focus From Consumer Management to Consumer Engagement"
 date: "2021-02-12"
 coverImage: "consumer-engagement.jpg"
-category: ["all"]
-featured: false
+category: ["customer-engagement", "customer-experience"]
 author: "Yash Rathi"
 description: "Historically, organizations were more focused on managing and facilitating consumers' to be on top of everything. However, in the past couple of years, the paradigm has shifted from working as the facilitator to acting as a consultant and driving consumer engagement."
-metatitle: "How to Shift Focus From Consumer Management to Consumer Engagement"
+metatitle: "Tips to Shift Focus Management to Consumer Engagement"
 metadescription: "Read the best consumer engagement strategies to increase conversions for your business. Powerful ways to shift focus from consumer management to consumer engagement."
 ---
 
