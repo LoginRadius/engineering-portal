@@ -4,10 +4,6 @@ import Footer from "./footer"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
 import PinnedCard from "./pinnedCard"
-import AllPinned from "./pinnedNode/allPinned"
-import EngPinned from "./pinnedNode/engineeringPinned"
-import GrowthPinned from "./pinnedNode/growthPinned"
-import IdentityPinned from "./pinnedNode/identityPinned"
 
 const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
   return (
@@ -40,17 +36,13 @@ const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
                 pathname={pathname}
                 type={type}
               />
-              <div className={layoutStyles.pinnedwrap}>
-                <div className={layoutStyles.blogContentPinned}>
-                  {pinned ? (
-                    pinnedData.length ? (
-                      <PinnedCard node={pinnedData[0].node} />
-                    ) : (
-                      getFirstNode(type)
-                    )
-                  ) : null}
+              {pinned ? (
+                <div className={layoutStyles.pinnedwrap}>
+                  <div className={layoutStyles.blogContentPinned}>
+                    <PinnedCard node={pinnedData} />
+                  </div>
                 </div>
-              </div>
+              ) : null}
               <div className={layoutStyles.blogContent}>
                 <div className={layoutStyles.content}>{children}</div>
               </div>
@@ -65,18 +57,6 @@ const Layout = ({ postPage, children, pinned, pinnedData, pathname, type }) => {
       />
     </div>
   )
-}
-
-const getFirstNode = type => {
-  if (type === "engineering") {
-    return <EngPinned />
-  } else if (type === "growth") {
-    return <GrowthPinned />
-  } else if (type === "identity") {
-    return <IdentityPinned />
-  } else {
-    return <AllPinned />
-  }
 }
 
 export default Layout

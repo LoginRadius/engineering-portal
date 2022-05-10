@@ -9,8 +9,7 @@ const { startCase } = require("lodash")
 
 const BlogList = ({ data, pageContext, location }) => {
   const { currentPage, numPages, type } = pageContext
-  const posts = data.allMarkdownRemark.edges
-  const pinnedNode = posts.filter(edges => edges.node.frontmatter.pinned)
+  const pinnedNode = data.markdownRemark
   const bType = type.replace(/[^a-z]/gi, "")
 
   return (
@@ -54,7 +53,12 @@ const BlogList = ({ data, pageContext, location }) => {
 export default BlogList
 
 export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!, $type: String!) {
+  query blogListQuery(
+    $skip: Int!
+    $limit: Int!
+    $type: String!
+    $pinned: String!
+  ) {
     allMarkdownRemark(
       filter: { fields: { slug: { regex: $type } } }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -86,6 +90,31 @@ export const blogListQuery = graphql`
               github
             }
           }
+        }
+      }
+    }
+    markdownRemark(id: { eq: $pinned }) {
+      excerpt
+      fields {
+        slug
+      }
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        description
+        title
+        tags
+        pinned
+        coverImage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_noBase64
+            }
+          }
+        }
+        author {
+          id
+          github
         }
       }
     }
