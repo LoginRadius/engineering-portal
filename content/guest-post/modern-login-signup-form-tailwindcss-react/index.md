@@ -742,7 +742,7 @@ Don't worry, if you got stuck somewhere, feel free to refer to the entire codeba
 
 ## Use LoginRadius Authentication APIs
 
-You can use [LoginRadius](https://www.loginradius.com/) to quickly setup an authentication backend for your frontend application. First, you'll need to setup an account and get your API key and secret from your account Dashboard. Then, you can simply use their [login endpoint](https://api.loginradius.com/identity/v2/auth/login) to authenticate users. 
+You can use [LoginRadius](https://www.loginradius.com/) to quickly setup an authentication backend for your frontend application. First, you'll need to setup an account and get your API key from your account Dashboard. Then, you can simply use their [login endpoint](https://api.loginradius.com/identity/v2/auth/login) to authenticate users. 
 
 The endpoint takes an email and password as parameters and validates them against them against the correct credentials. If we were to integrate this enpoint in our previously build `<Login/>` component (`/scr/components/Login.js`) here's, how the `authenticateUser` method would look like:
 
@@ -751,7 +751,7 @@ The endpoint takes an email and password as parameters and validates them agains
     const authenticateUser = () =>{
         
        
-        const endpoint=`https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}&apisecret=${apiSecret}`;
+        const endpoint=`https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}`;
          fetch(endpoint,
              {
              method:'POST',
