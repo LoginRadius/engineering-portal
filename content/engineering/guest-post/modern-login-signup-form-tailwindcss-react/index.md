@@ -48,7 +48,7 @@ In fact, we'll take this optimal approach in building our Login form, so you'll 
 
 We'll create a simple yet modern looking login and signup form that looks like this:
 
-<video src="./Demo.mov"></video>
+<video controls width="700" align="center" src="./Demo.mov"/> </video>
 
 It will be interactive using React state, can route to different pages, and we'll also, in the end, talk about how we can make it functional from a backend standpoint. 
 
