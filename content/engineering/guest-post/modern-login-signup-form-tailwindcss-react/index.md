@@ -27,7 +27,7 @@ If you've heard of Materialize and Bootstrap, Tailwind CSS is much similar in wh
 
 However, unlike Bootstrap and Materialize, it doesn't give you built-in components out of the box. Instead, it gives you a wide range of fully customizable utility classes that you can use to style your pages.
 
-![TailwindCSS vs. Bootstrap Comparison](./TailwindCSS%20vs%20Bootstrap%20Comparison.png)
+![TailwindCSS vs. Bootstrap Comparison](./TailwindCSS-vs-Bootstrap-Comparison.png)
 
 ## Why Tailwind CSS Better or Worse Than the Others?
 
@@ -37,7 +37,7 @@ Being utility first, it's the most customization-friendly CSS framework!
 
 Also, it's pretty easy to integrate with modern frontend frameworks like React, NextJS, VueJS, Angular, Svelte, etc. I'll also explore that shortly when we add Tailwind to our React app. 
 
-![TailwindCSS Pros](./TailwindCSS%20Pros.png)
+![TailwindCSS Pros](./TailwindCSS-Pros.png)
 
 On the downside, Tailwind might make your HTML bloated with loads of CSS classes for small and specific rules. However, you can control it with a framework like React by building smaller reusable components and using JSX bindings for long class names for more maintainability and readability. 
 
@@ -86,9 +86,9 @@ npx tailwindcss init -p
 
 That should generate a ``tailwind.config.js`` file and ``postcss.config.js`` file for you as shown:
 
-![tailwind config files](./tailwind%20config%20files.png)
+![tailwind config files](tailwind-config-files.png)
 
-Awesome! 
+Awesome!
 
 ### Configuring Tailwind CSS
 
@@ -136,7 +136,7 @@ For instance, you can have a `<Header/>` component that takes care of the page's
 
 Similarly, you can have a reusable custom `<Input/>` component that can be used inside the form. All in all, here's what your frontend architecture would look like:
 
-![Login Page Architecture Hierarchy](./Login%20Page%20Architecture%20Hierarchy.png)
+![Login Page Architecture Hierarchy](Login-Page-Architecture-Hierarchy.png)
 
 
 ### Directory Structure
@@ -161,7 +161,7 @@ So first, let's go ahead and create these files and folders. You'll develop corr
 
 For perspective, here's how we'll use those components to build your entire Login Page:
 
-![Login Page Architecture](./Login%20Page%20Architecture.png)
+![Login Page Architecture](./Login-Page-Architecture.png)
 
 Makes sense? Great! 
 
@@ -385,7 +385,7 @@ export default function LoginPage(){
 
 Here's what the login page should now look like:
 
-![login page header](./login%20page%20header.jpeg)
+![login page header](./login-page-header.jpeg)
 
 Let's now start building the rest of the Login page form.
 
@@ -521,7 +521,7 @@ export default function LoginPage(){
 
 Now, if you go back to your React app, you should see your Login page input fields appear as follows:
 
-![login page with input fiels](./login%20page%20with%20input%20fiels.jpeg)
+![login page with input fiels](./login-page-with-input-fields.jpeg)
 
 Excellent, it looks like you're almost there!
 
@@ -657,7 +657,7 @@ export default function Login(){
 
 And once we do that, we should have a stunning, modern looking login page appear right in front of us:
 
-![login page](./login%20page.png)
+![login page](./login-page.png)
 
 ## The Signup Page
 
@@ -751,7 +751,7 @@ export default function SignupPage(){
 
 And that's it! That's all there is to build a great looking signup page that looks as follows:
 
-![Signup page](./Signup%20page.png)
+![Signup page](./Signup-page.png)
 
 Don't worry; if you got stuck somewhere, feel free to [refer to the entire codebase for this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/React/react-tailwind-app). 
 
