@@ -1,7 +1,7 @@
 ---
 title: "Build a Modern Login/Signup Form with Tailwind CSS and React"
-date: "2022-05-16"
-coverImage: "Modern-Login-and-Signup-Form-Banner.png"
+date: "2022-05-17"
+coverImage: "modern-login-and-signup-form-banner.png"
 author: "Siddhant Varma"
 tags: ["Tailwind CSS", "React", "Authentication"]
 description: "In this article, you'll learn how to instantly build great-looking authentication forms for Login and Signup using Tailwind CSS in React. You'll also understand how to make these forms functional using the third-party Authentication service LoginRadius."
@@ -27,7 +27,7 @@ If you've heard of Materialize and Bootstrap, Tailwind CSS is much similar in wh
 
 However, unlike Bootstrap and Materialize, it doesn't give you built-in components out of the box. Instead, it gives you a wide range of fully customizable utility classes that you can use to style your pages.
 
-![TailwindCSS vs. Bootstrap Comparison](./TailwindCSS-vs-Bootstrap-Comparison.png)
+![TailwindCSS vs. Bootstrap Comparison](./tailwind-css-vs-bootstrap-comparison.png)
 
 ## Why Tailwind CSS Better or Worse Than the Others?
 
@@ -37,7 +37,7 @@ Being utility first, it's the most customization-friendly CSS framework!
 
 Also, it's pretty easy to integrate with modern frontend frameworks like React, NextJS, VueJS, Angular, Svelte, etc. I'll also explore that shortly when we add Tailwind to our React app. 
 
-![TailwindCSS Pros](./TailwindCSS-Pros.png)
+![TailwindCSS Pros](./tailwind-css-pros.png)
 
 On the downside, Tailwind might make your HTML bloated with loads of CSS classes for small and specific rules. However, you can control it with a framework like React by building smaller reusable components and using JSX bindings for long class names for more maintainability and readability. 
 
@@ -48,7 +48,7 @@ In fact, we'll take this optimal approach in building our Login form, so you'll 
 
 We'll create a simple yet modern looking login and signup form that looks like this:
 
-<video controls width="700" align="center" src="./Demo.mov"/> </video>
+<video controls width="700" align="center" src="./demo.mov"> </video>
 
 It will be interactive using React state, can route to different pages, and we'll also, in the end, talk about how we can make it functional from a backend standpoint. 
 
@@ -136,7 +136,7 @@ For instance, you can have a `<Header/>` component that takes care of the page's
 
 Similarly, you can have a reusable custom `<Input/>` component that can be used inside the form. All in all, here's what your frontend architecture would look like:
 
-![Login Page Architecture Hierarchy](Login-Page-Architecture-Hierarchy.png)
+![Login Page Architecture Hierarchy](login-page-architecture-hierarchy.png)
 
 
 ### Directory Structure
@@ -161,7 +161,7 @@ So first, let's go ahead and create these files and folders. You'll develop corr
 
 For perspective, here's how we'll use those components to build your entire Login Page:
 
-![Login Page Architecture](./Login-Page-Architecture.png)
+![Login Page Architecture](./login-page-architecture.png)
 
 Makes sense? Great! 
 
@@ -751,7 +751,7 @@ export default function SignupPage(){
 
 And that's it! That's all there is to build a great looking signup page that looks as follows:
 
-![Signup page](./Signup-page.png)
+![Signup page](./signup-page.png)
 
 Don't worry; if you got stuck somewhere, feel free to [refer to the entire codebase for this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/React/react-tailwind-app). 
 
