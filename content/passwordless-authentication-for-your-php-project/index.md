@@ -140,7 +140,7 @@ require_once "./src/LoginRadiusSDK/CustomerRegistration/Social/SocialAPI.php";
 
 Let's not forget to replace with our site API key and our API Secret.
 
-Now, let's login to your LoginRadius account and make a few changes before proceeding further.
+Now, login to your LoginRadius account and make a few changes before proceeding further.
 
 ### Registering A User On Login Radius Platform
 
