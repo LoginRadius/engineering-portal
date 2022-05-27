@@ -179,4 +179,4 @@ LoginRadius provides top-notch cybersecurity through its openID connect system. 
 
 With most business operations going online in recent years, cloud security has started to receive more importance. This is because cloud storage can get easily convoluted and complicated as the number of information increases. This makes it easy for information to be leaked. A unified cloud platform provides its services to protect information while moving to the cloud.
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
