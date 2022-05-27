@@ -107,4 +107,4 @@ With hackers getting smarter every day, companies need to implement stringent pr
 If this data is compromised, it would be a massive loss to the company's reputation, eventually leading to financial losses as users might withdraw from using their services. In extreme cases, the company might even go bankrupt! Implementing a CIAM in utility sector solution can prevent this from happening and make the consumer experience better!
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -176,4 +176,4 @@ There is no doubt that cloud computing is the future. And it would be best if yo
 You need to think more carefully regarding the cloud security controls to ensure total security. Using the best industry practices and managing your cloud services will help you secure your cloud operations, thereby protecting sensitive data. 
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
