@@ -131,4 +131,4 @@ We are sure the information shared in this post will help keep your organization
  
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

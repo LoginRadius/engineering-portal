@@ -107,4 +107,4 @@ The aspects mentioned above can be quite helpful in managing the overall situati
 It’s recommended that enterprises should consider stringent security measures to avoid any chance of sneaking into the company’s network. 
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

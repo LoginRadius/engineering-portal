@@ -106,4 +106,4 @@ CIAM ensures brands have a better understanding of consumers. Hence, they can qu
 Add to that the top-of-the-line shield against the prying eyes and the new-age CIAM seems to be a must for modern enterprises.
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

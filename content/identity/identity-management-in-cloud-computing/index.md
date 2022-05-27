@@ -94,5 +94,5 @@ However, IAM solutions have to be supple across identity management and access c
 
 If you are locked into some conventional platforms or service providers because of your active directory ad service, explore a vendor-neutral cloud identity management solution.
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 

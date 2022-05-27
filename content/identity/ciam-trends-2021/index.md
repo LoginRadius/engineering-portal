@@ -102,4 +102,4 @@ If you wish to learn more about the cutting-edge features of LoginRadius through
 
 
 
-[![book-a-free-demo-loginradius](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
