@@ -2,7 +2,7 @@
 title: "Planning a Digital Makeover For Your Business? LoginRadius CIAM Can Help!"
 date: "2022-05-27"
 coverImage: "business-ciam.jpg"
-tags: ["ciam, "user-experience", "sso", "compliance"]
+tags: ["ciam, "user experience", "sso", "compliance"]
 author: "Rakesh Soni"
 description: "Incorporating a CIAM solution could be the best way to overcome security and challenges related to customer experience. Learn how LoginRadius can help businesses navigate their digital transformation journey and scale growth."
 metatitle: "Why Should You Transform Your Business With LoginRadius CIAM"
