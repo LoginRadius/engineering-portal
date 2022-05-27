@@ -2,7 +2,7 @@
 title: "The Evolution of Authentication: From Passwords to Passwordless & More"
 date: "2022-05-27"
 coverImage: "evolution-auth.jpg"
-category: ["authentication", "passwordless", "biometric", "social-login"]
+category: ["authentication", "passwordless", "biometric", "social login"]
 author: "Srishti Singh"
 description: "Over the past years, the evolution of authentication portrays the risks associated with unauthorized access and the growing number of cybersecurity threats that leads to compromised user information and sensitive business data. Here’s an insightful read depicting authentication aspects and how it has evolved over a decade."
 metatitle: "The Evolution of Authentication to a Passwordless World"
