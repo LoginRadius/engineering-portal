@@ -112,4 +112,4 @@ When it comes to [SaaS onboarding](https://www.loginradius.com/blog/fuel/why-is-
   
 
 Start working on fixing your weak points once you've recognized them. Begin by making one adjustment at a time and seeing how it affects your cohort analysis. Your onboarding strategy won't be built in a day, and it won't be modified in a day, either.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

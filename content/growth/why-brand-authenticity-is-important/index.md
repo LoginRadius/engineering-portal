@@ -126,4 +126,4 @@ The final step towards achieving brand authenticity is to showcase your [brand r
 
 Brand authenticity is not a one-time activity, but a constant process of discovering what your brand means for your consumers. No matter which industry you are in, brand identity is critical for business success in today’s times. As outlined in this article, an authentic brand can connect with consumers and establish a brand value that goes way beyond profits and revenues.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -122,4 +122,4 @@ As businesses adopt digital technologies, brand honesty is among the top concern
 ## Conclusion
 
 The evolving post-pandemic business world brings both challenges and opportunities to PR and communication teams. With more businesses going remote and to online platforms, it will be interesting to see how corporate PR responds to this change and devise their organizational strategy for the next decade.
-[![book-a-demo-loginradius](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

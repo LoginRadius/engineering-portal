@@ -102,4 +102,4 @@ The aspects above depict the role and responsibilities of a robust CIAM that can
 
 If you wish to experience the ease of consumer onboarding that increases consumer satisfaction and boosts your business revenues, it’s time to [](https://www.loginradius.com/book-a-demo/) [experience the LoginRadius CIAM](https://www.loginradius.com/contact-sales/).
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

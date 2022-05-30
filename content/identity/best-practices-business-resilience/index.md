@@ -136,4 +136,4 @@ A standard business resilience plan in the need of the hour. A recent study show
 
 So, it is important to implement fail-proof business resilience practices in your business to survive unexpected data breaches.
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

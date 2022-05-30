@@ -94,4 +94,4 @@ Ultimately, collaboration is a necessary part of the contemporary business envir
 
 Building collaborative ways of working is not a quick process, but it can be done. And just as we’ve seen the evolutionary development of cyber security over the past few years, now we are witnessing the evolution of the business environment itself.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

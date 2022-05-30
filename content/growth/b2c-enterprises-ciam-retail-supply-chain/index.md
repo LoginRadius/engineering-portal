@@ -76,4 +76,4 @@ Also, clients are now constantly anticipating deeper social connections supplied
 
 Customers likewise expect some control over how companies collect, store, manage, and share their personal information. With the competition just a click away, your company's misuse of customer data, whether intentional or unintentional, can severely harm brand equity. [Contact us](https://www.loginradius.com/contact-sales) to secure your operations with LoginRadius today!
 
-[![book-a-demo-Consultation](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

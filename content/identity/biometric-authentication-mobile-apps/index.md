@@ -53,4 +53,4 @@ You can configure both authentication options for your app and later, ask the co
 The Mobile Biometric Authentication by LoginRadius is a local authentication concept and consumers' biometric data don't even leave their mobile devices. Hence, as a business, you don't need to worry about storing, processing, and securing your consumer's biometric data. 
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -148,4 +148,4 @@ Single Sign-On improves consumer experience and boosts productivity by a conside
 By implementing the benefits of the LoginRadius SSO as a unified solution, you increase business agility, security, convenient and streamlined experience for your business and consumers alike. [Contact us](https://www.loginradius.com/contact-sales) today. 
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

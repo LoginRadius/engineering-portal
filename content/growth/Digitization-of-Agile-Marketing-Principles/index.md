@@ -179,6 +179,6 @@ The department was then divided into small teams with as many generalists as pos
 ## Wrapping Up
 
 Incorporating agile into digital marketing can be extremely beneficial to an online campaign. An enterprise can tackle several campaigns at once on different platforms. Thus, they are capable of relating to a large audience on a global scale.<p>
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 
 

@@ -79,5 +79,5 @@ As another customer authentication future trend, cloud-based authentication uses
 Organizations need to enlarge and modify their capabilities to take control of security more efficiently in this new environment. Identity platforms like [LoginRadius](https://www.loginradius.com/) provide customer registration, SSO, MFA, directory services, user management, and data access governance to help companies achieve top-notch for their consumers.
 
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 

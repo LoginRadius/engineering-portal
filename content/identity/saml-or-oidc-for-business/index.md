@@ -110,4 +110,4 @@ LoginRadius also supports federated [SSO protocols](https://www.loginradius.com/
 Whether you opt for a SAML or an OIDC verification method, the identity provider you choose can define your app's features and user-friendliness. Partnering with the right platform will help you provide the best security possible and ensure you don't fall victim to any cybercrimes.
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

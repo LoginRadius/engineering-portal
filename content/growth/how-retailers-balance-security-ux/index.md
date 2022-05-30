@@ -94,4 +94,4 @@ Moreover, to meet the stringent [data regulations and compliances](https://www.l
 
 A consumer identity and access management (CIAM) solution can help retailers meet their security and user experience-related requirements like a breeze without compromising compliances and regulations. 
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
