@@ -109,4 +109,4 @@ For seamless humanized omnichannel journeys and consumer experience,  [consumer 
 
 Continue the conversation effortlessly if consumers switch from one channel to another. Start with chat, move on to voice, and then interact through video seamlessly. [Contact LoginRadius](https://www.loginradius.com/contact-us/) to know more.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

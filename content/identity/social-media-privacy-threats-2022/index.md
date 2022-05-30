@@ -86,4 +86,4 @@ Make sure to:
 Securing your sensitive data on social media and minimizing cybersecurity risks should be a top priority for companies and consumers in 2022. Make sure to keep these privacy threats in mind and use these tips to keep your business, your employees, and your customers safe in an increasingly dangerous online world.
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

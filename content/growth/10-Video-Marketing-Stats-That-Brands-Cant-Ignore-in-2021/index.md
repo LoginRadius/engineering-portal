@@ -204,4 +204,4 @@ Even the most experienced video content creators use a system to make sure every
 
 If you're looking to draft a campaign, start by defining your goals and then create a video production plan that follows those goals.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

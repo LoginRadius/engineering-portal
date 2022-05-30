@@ -106,4 +106,4 @@ By implementing the benefits of the LoginRadius SSO as a unified solution, you i
 Need more information about how SSO benefits your business? [Contact us](https://www.loginradius.com/contact-sales) for a free personalized demo.
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

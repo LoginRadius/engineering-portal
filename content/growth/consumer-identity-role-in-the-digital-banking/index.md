@@ -75,4 +75,4 @@ If identification is the real cash, then digital identity and banking authentica
 
 [LoginRadius](https://www.loginradius.com/) provides seamless, call or SMS-based Multi-Factor Authentication with a visible layer of security protection. You get to choose whether this security system is mandatory or optional for your consumers. The SMS and call systems hold zero lag with global coverage! [Contact the team](https://www.loginradius.com/contact-sales/) today!
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

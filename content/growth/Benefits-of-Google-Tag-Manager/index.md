@@ -88,4 +88,4 @@ There can be some problems with the various components that are involved in the 
 ## Conclusion
 
 You can utilize Google Tag Assistant  to attain better functionality of GTM. This is a free Chrome extension that can be downloaded [here](https://get.google.com/tagassistant/). Now, get a user-friendly website that suits the needs and wants of your consumers with all the required analytics.
-[![book-a-demo-Consultation](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

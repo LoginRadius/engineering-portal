@@ -203,4 +203,4 @@ To maintain the system with firewalls and anti-malware software. Always keep the
   
 
 Many hackers are using different methods like [ransomware](https://www.loginradius.com/resource/with-ransomware-on-the-rise-how-safe-is-your-business/) and identity theft. To avoid all these issues, you can make some changes by practicing these tips.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

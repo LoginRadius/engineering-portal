@@ -90,4 +90,4 @@ In a world where competitors are just a click away, online businesses collecting
 Correct user provisioning is the key to customer success and when brands learn its importance, it provides them a competitive edge.
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

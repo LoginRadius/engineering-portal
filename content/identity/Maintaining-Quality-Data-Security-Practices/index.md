@@ -84,5 +84,5 @@ Conclusion
 To conclude, as technology advances and more activities are being processed in the digital space, it’s becoming more and more important to keep data private and secure. There are several ways organisations can do this; some of which are easy to implement while others may take more time, resources, and focus than others.
 
 
-[![book-a-demo-Consultation](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 

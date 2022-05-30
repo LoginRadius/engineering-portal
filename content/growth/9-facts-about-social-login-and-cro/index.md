@@ -113,4 +113,4 @@ According to a research paper, around [77%](http://www.webhostingbuzz.com/blog/w
 
 Considering all these benefits that social login authentication offers, a marketing company can orient their social media marketing and user engagement to be more effective. Finally, a marketing team will surely improve their conversion rates and see a drastic improvement in sales.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
