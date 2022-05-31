@@ -48,5 +48,5 @@ Cross-site Scripting (XSS) attacks use third-party online resources in which mal
 Cyberattacks are becoming ever more common and sophisticated, mostly with financial motives.
 While preventative cybersecurity tactics vary by attack type, you should follow [best security practices](https://www.loginradius.com/blog/identity/cybersecurity-best-practices-for-enterprises/) and practice IT hygiene for mitigating these attacks.
 
-These cyber-threats are creating more emphasis to stack up security measures. You can follow these [Security Tips]("https://www.loginradius.com/blog/identity/tips-from-loginradius-security-expert-2022/"), which are well-known among LoginRadius’s cybersecurity Experts.
+These cyber-threats are creating more emphasis to stack up security measures. You can follow these [Security Tips](https://www.loginradius.com/blog/identity/tips-from-loginradius-security-expert-2022/), which are well-known among LoginRadius’s cybersecurity Experts.
 
