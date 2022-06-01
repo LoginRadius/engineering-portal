@@ -74,4 +74,4 @@ As mentioned above, there are many things that you might want to do with your co
 
 Another important point is that you need to understand when you are asking questions and gathering information from your consumers as well. All these aspects should be discussed with [privacy policies](https://www.loginradius.com/blog/start-with-identity/privacy-policy-management/) so that consumers know what they are doing in regards to your brand identity.
 
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

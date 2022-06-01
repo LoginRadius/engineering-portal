@@ -105,4 +105,4 @@ The [CIAM platform](https://www.loginradius.com/) is a powerhouse of open source
 Spambots will not go anywhere so soon. Take your time and learn to implement these strategies to make things easier for you in the long-run. It demands a lot of effort and practice to implement these ideas, but the result is worth it. 
 
 
-[![book-a-demo-loginradius](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -117,4 +117,4 @@ In an age where, even after the pandemic, [digital transformation](https://www.l
   
 
 Consumers may now eat these goods in a variety of ways. So it would be fascinating for merchants to react to that change and that dynamic nature.”
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -77,4 +77,4 @@ While including onboarding into your app strategy helps the overall UX, the onbo
 
 The end goal remains to provision your users with a positive experience from the beginning of the app to the end of the game when they achieve their main goal. Onboarding is just one cog in the wheel that can help you get a more positive experience. While the goal remains to make certain the user is satisfied with the product, your business also benefits from [providing a positive experience](https://www.loginradius.com/customer-experience-solutions/). 
 
-[![Book-Free-Demo-1024x310](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-Free-Demo-1024x310](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

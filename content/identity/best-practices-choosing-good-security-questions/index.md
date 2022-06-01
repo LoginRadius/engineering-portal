@@ -205,4 +205,4 @@ By requiring your consumers to follow [strong password rules](https://www.loginr
 
 If you’re interested in learning why passwords are slowly becoming a thing of the past, download our e-book [The Death of Passwords](https://www.loginradius.com/resource/the-death-of-passwords/). There are better authentication methods than passwords and security questions available for your company—and with support from LoginRadius, you can adopt them quickly and easily.
 
-[![](book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

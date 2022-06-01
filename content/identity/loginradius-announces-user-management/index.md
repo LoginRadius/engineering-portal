@@ -49,4 +49,4 @@ It also has been designed to help your business in the following ways: 
 
 The User Management feature by LoginRadius is unique in that it monitors and manages the entire consumer journey through automated access permissions, data migration, API support, and other consumer-centric solutions. Now, blend it with creating [meaningful relationships with your consumers](https://www.loginradius.com/customer-experience-solutions/)—that’s what we offer. 
 
-[![Book-a-demo-loginradius](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

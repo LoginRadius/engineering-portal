@@ -86,4 +86,4 @@ The threats mentioned above would continue to rise in the new year. Everyone mus
 
 
 
-[![LoginRadius Book a Demo](Book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

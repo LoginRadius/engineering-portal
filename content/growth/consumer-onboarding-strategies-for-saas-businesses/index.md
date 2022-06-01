@@ -96,4 +96,4 @@ As an enterprise, you may have a lot of information regarding your potential cli
 LoginRadius can be your best onboarding partner that can help increase conversions and also minimize consumer churn.
 
 With a long list of features to enhance your business growth, LoginRadius paves the path for a successful onboarding journey.
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

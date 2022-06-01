@@ -79,4 +79,4 @@ Here's how this works. For example, you want some details from your customers to
 Ecommerce is the new normal in a pandemic era and beyond. Businesses that are swiftly adopting the new age of selling products and services must emphasize delivering a seamless and secure user experience.
 
 A consumer identity and access management solution is undoubtedly the key to win consumer success as enterprises can identify their visitors and [build personalized experiences](https://www.loginradius.com/customer-experience-solutions/) around foremost touchpoints, including research, purchase, discovery, and more.<p>
-[![book-a-demo-Consultation](book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
