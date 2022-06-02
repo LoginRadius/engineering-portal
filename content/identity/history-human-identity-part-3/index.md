@@ -83,4 +83,4 @@ Before the arrival of Europeans, the [Inuit](https://www.thecanadianencyclopedi
 
 As cofounder and CTO of LoginRadius, a customer identity and access management solution, I enjoy researching and writing about cultural identifiers. Likewise, I hope that you enjoyed this History of Human Identity series and will return to read our next series.
 
-[![book-a-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
