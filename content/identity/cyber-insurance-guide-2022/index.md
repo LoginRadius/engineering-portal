@@ -93,4 +93,4 @@ Another requirement after a cyberattack is the need for a company to send out no
 Cyber insurance can be a source of hope in the dire circumstances of a cyber attack. Companies will no longer have to be financially handicapped and deprived of important resources during this time. Although cyber insurance can be an expensive investment option, in the beginning, it has valuable payoffs, especially for a company that is prone to cyberattacks.
 
 
-[![book-a-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -119,4 +119,4 @@ To see how modern society uses and abuses identity, be sure to read Part III of 
 
 Learn how to create a unified digital identity for all of your customers. Book a demo today with LoginRadius." the link is to this [https://www.loginradius.com/book-a-demo/](https://www.loginradius.com/book-a-demo/)
 
-[![book-a-demo-loginradius](Book-Free-Demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
