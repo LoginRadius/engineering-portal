@@ -6,7 +6,7 @@ tags: ["security"]
 featured: false 
 author: "Deependra Singh"
 description: "With hacking events on the rise, it would be wise to take a step back and consider where things went wrong. You can prevent data breach occurrences in your organization by learning to recognize the common mistakes that are committed."
-metatitle: "Common Mistakes With Data Breaches That You Must Be Aware Of"
+metatitle: "7 Common Data Breach Mistakes That You Must Be Aware Of"
 metadescription: "Data breaches might not be something you can stop, but you can limit the damage. Learn how to tackle data breaches by recognizing the common mistakes committed."
 ---
 
