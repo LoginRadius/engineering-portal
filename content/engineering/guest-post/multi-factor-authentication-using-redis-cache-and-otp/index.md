@@ -1,4 +1,12 @@
-# Multi-Factor Authentication Using Redis Cache and OTP
+---
+title: "Multi-Factor Authentication Using Redis Cache and OTP"
+date: "2022-06-04"
+coverImage: "coverImage.png"
+author: "Fredrick Emmanuel"
+tags: ["NodeJS", "Redis", "Authentication"]
+description: "Follow this tutorial and learn to set up Multi-factor Authentication in your various applications"
+---
+
 Securing your various web applications from unauthorized users is very important. Increasing the security by sending a One Time Password(OTP) to the user’s email will drive unauthorized users from accessing your site. 
 It is essential to learn how to apply Multi-Factor authentication in real-world applications, and this tutorial got you covered. This tutorial entails how to store users’ sessions in the Redis Store and how to send OTP using nodemailer.
 
