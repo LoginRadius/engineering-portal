@@ -71,7 +71,7 @@ We are using a two-pronged scaling approach as scaling based on resource utiliza
 
 #### Why Scaling Was Challenging?
 
-Once, our multi-tenant application received a sudden spike in API requests — from thousands of requests to millions. Usually, adding new infrastructure to the existing pool takes around 60 seconds. And application deployment and start-up time was around 90 seconds. So, we lose about 5 minutes for scaling up. 
+Once, our multi-tenant application received a sudden spike in API requests — from thousands of requests to millions. Usually, adding new infrastructure to the existing pool takes around 60 seconds. And application deployment and start-up time were about 90 seconds. Plus, considering other possible delays in scaling, we can lose about 5 minutes for scaling up.
 
 Further, adding the time to gather metrics and make the scaling decision, the total delay can be ~6 minutes. This process can impact all multi-tenant customers' critical applications because user authentication and authorization are essential.
 
@@ -97,7 +97,9 @@ We used hundreds of *AWS c5.2xlarge* instances in a production environment to ha
 
 #### 3) Lack of Flexibility and Customization
 
-We designed the platform a few years ago. Since then, the technology landscape has dramatically improved and optimized in recent years. So, current technology platforms have their limits, and it is crucial to properly align their functionality with their capabilities. 
+We designed our Identity Platform a few years ago. Since then, the technology landscape has dramatically improved and optimized in recent years. 
+
+Also, current technology platforms available to build and support our product (Identity Platform) are limited. So, it is crucial to align functionality with proper technology capabilities.
 
 We were facing challenges in customization. It was inflexible and limiting to deliver the required outcomes in more complex situations and use cases.
 
