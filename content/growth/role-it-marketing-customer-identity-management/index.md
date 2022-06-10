@@ -78,7 +78,7 @@ Also, users don’t hesitate to share their consent when they know their data is
 
 The LoginRadius’ cutting-edge CIAM solution is designed to help brands quickly meet all their requirements of security, user experience, and compliances to help get more out of their marketing strategies. 
 
-Businesses leveraging [LoginRadius CIAM](https://www.loginradius.com/\) get endless business advantages, including: 
+Businesses leveraging [LoginRadius CIAM](https://www.loginradius.com/) get endless business advantages, including: 
 
 
 
