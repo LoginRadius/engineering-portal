@@ -216,7 +216,7 @@ So now if you click on the **Increment** button, you should get an alert when it
 
 ### Conditionals
 
-Solid provides special components called `<Show>` to render a template based on a conditioner the value of a signal. [Here's](https://playground.solidjs.com/?hash=1279589651&version=1.4.1) an example of that:
+Solid provides special components called `<Show>` to render a template based on a condition or the value of a signal. [Here's](https://playground.solidjs.com/?hash=1279589651&version=1.4.1) an example of that:
 
 ```jsx
 import { render } from "solid-js/web";
@@ -771,5 +771,5 @@ Even though Solid has a great and extensive documentation, the React community i
 
 ## Conclusion
 
-Solid indeed has an interesting future ahead and is definitely worth a side-project or an MVP for your startup. If you wish to explore Solid in-depth, you can check out an official tutorial by the Solid team here that walks you through each and every concept in Solid. You can also explore the entire code for the demo in this tutorial here. Until next time!
+Solid indeed has an interesting future ahead and is definitely worth a side-project or an MVP for your startup. If you wish to explore Solid in-depth, you can check out an official tutorial by the Solid team [here](https://www.solidjs.com/tutorial/introduction_basics) that walks you through each and every concept in Solid. You can also explore the entire code for the demo in this tutorial here. Until next time!
 
