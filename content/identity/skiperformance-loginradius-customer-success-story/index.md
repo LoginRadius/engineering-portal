@@ -16,10 +16,7 @@ Read a success story about our work with Ski Performance AS, an e-commerce platf
 
 ### <span style="color: #FF4500">"From the very beginning of the development of our e-commerce system, we have used LoginRadius' services. The platform has helped us facilitate the fluidity and speed of the purchasing process through social login." 
 
-_Christian Tomassetti_
-
-_CTO and Cofounder 
-Skiperformance_
+_Christian Tomassetti_, _CTO and Co-founder (Skiperformance)_
 
 
 
