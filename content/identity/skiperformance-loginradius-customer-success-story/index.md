@@ -14,7 +14,7 @@ metadescription: "Discover how LoginRadius helped Skiperformance transform its c
 Read a success story about our work with Ski Performance AS, an e-commerce platforming serving the European ski tourism industry. Discover how LoginRadius helped our client transform its customer experience and bring in more than 600k new users.  
 
 
-### <span style="color: #FF4500">"From the very beginning of the development of our e-commerce system, we have used LoginRadius' services. The platform has helped us facilitate the fluidity and speed of the purchasing process through social login." 
+<span style="color: #FF4500">"From the very beginning of the development of our e-commerce system, we have used LoginRadius' services. The platform has helped us facilitate the fluidity and speed of the purchasing process through social login." 
 
 _Christian Tomassetti_, _CTO and Co-founder (Skiperformance)_
 
