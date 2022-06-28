@@ -207,7 +207,7 @@ So now, if you click on the *Increment* button, you should get an alert when it 
 
 ### Conditionals
 
-Solid provides special components called `<Show>` to render a template based on a condition or the value of a signal. [Here's](https://playground.solidjs.com/?hash=1279589651&version=1.4.1) an example of that:
+Solid provides special components called `<Show>` to render a template based on a condition or the value of a signal. [Here's an example of that](https://playground.solidjs.com/?hash=1279589651&version=1.4.1):
 
 ```jsx
 import { render } from "solid-js/web";
