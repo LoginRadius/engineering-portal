@@ -29,7 +29,7 @@ Let's now understand the fundamentals of SolidJS using some code examples. To fo
 
 Solid follows the component architecture for modularity and reusability. Let's see how you can create an entry component and render it to the DOM. 
 
-[Here's a component `HelloWorld`](https://playground.solidjs.com/?hash=1358759546&version=1.4.1] that is injected into the DOM inside an HTML element that has an id `app`:
+[Here's a component `HelloWorld`](https://playground.solidjs.com/?hash=1358759546&version=1.4.1) that is injected into the DOM inside an HTML element that has an id `app`:
 
 ```jsx
 import { render } from "solid-js/web";
@@ -360,7 +360,7 @@ render(() => <App />, document.getElementById('app'));
 
 When you enter the red box, the `mouseenter` event fires, and you get a message on the console. As a cleanup, when the component unmounts, we remove this event listener from that `<div>`. 
 
-![OnCleanup Example](./OnCleanup-example.png)
+![OnCleanup Example](./on-cleanup-example.png)
 
 ## Build a Todo App with SolidJS
 
@@ -429,7 +429,7 @@ Second, the `<Todos/>` component will be responsible for rendering the list of t
 
 Create a JSX file for each of the above components. 
 
-### The `<AddTodo/>` Component
+### The <AddTodo/> Component
 
 The `<AddTodo/>` component will render an input field and a button. The input field is where the user types a new todo. The button will be used to send this new todo back to a function in the parent `<App/>` component to add this todo to the todos list. This function will be taken as props inside the `<AddTodo/>` component.
 
@@ -625,7 +625,12 @@ const addTodo=(newTodo)=>{
 
 You'll add the `newTodo` in the `todos` signal that is an array using its setter function `setTodos`. Use JavaScript array destructuring here to ensure to keep the previous todos intact. Let's give this a whirl now:
 
-<video align="center" width="600px" src="./add-todos-demo.mp4"> </video>
+<video controls width="500" autoplay>
+
+    <source src="./add-todos-demo.mp4" type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 It looks like you're able to add todos now. Awesome! 
 
@@ -641,7 +646,12 @@ To delete the todo when they're clicked, populate your `deleteTodo` function:
 
 First, make a copy of the current todos array. Then, filter through this copy to remove the todo you wish to delete. Finally, update your original `todos` signal with this copy using the `setTodos ` setter. Let's test it out now:
 
-<video align="center" width="600px" src="./delete-todos-demo.mov"></video>
+<video controls width="500" autoplay>
+
+    <source src="./delete-todos-demo.mov" type="video/mov">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
 
 You can delete todos as well; fantastic! 
 
