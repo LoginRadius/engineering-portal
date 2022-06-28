@@ -1,15 +1,15 @@
 ---
 title: "Introduction to SolidJS"
-date: "2022-06-16"
+date: "2022-06-28"
 coverImage: "introduction-to-solidjs.png"
 author: "Siddhant Varma"
 tags: ["SolidJS", "React", "Frontend"]
-description: "In this tutorial, you’ll learn what SolidJS is, how it works and it's fundamentals such reactivity, architecture, events, effects etc. Then you’ll use this knowledge to build a simple todo app. Finally, you’ll understand how SolidJS compares with React and understand how it’s better and worse."
+description: "In this tutorial, you’ll learn what SolidJS is, how it works, and its fundamentals such as reactivity, architecture, events, effects, etc. Then you’ll use this knowledge to build a simple todo app. Finally, you’ll understand how SolidJS compares with React and how it’s better and worse."
 ---
 
-SolidJS is a declarative JavaScript framework used for building UIs and web applications in a pragmatic and performant manner. Even though it's fairly new, it's similarity with other JavaScript frameworks like React and Svelte has made it more adoptable for the developer community. 
+SolidJS is a declarative JavaScript framework used for building UIs and web applications pragmatically and performatively. Even though it's relatively new, its similarity with other JavaScript frameworks like React and Svelte has made it more adoptable for the developer community. 
 
-So in this tutorial, I'll give you a complete walkthrough of SolidJS and help you understand the essentials of it. You'll also build a simple web application with SolidJS to get a better hang of the basics. Finally, I'll compare and contrast it with the most popular framework in town — React. 
+So in this tutorial, I'll give you a complete walkthrough of SolidJS and help you understand the essentials. You'll also build a simple web application with SolidJS to get a better hang of the basics. Finally, I'll compare and contrast it with the most popular framework in town — React. 
 
 ## What is SolidJS?
 
@@ -19,7 +19,7 @@ SolidJS takes the syntax and developer experience of React and combines it with 
 
 Just like React, Solid uses JSX to render HTML in the browser. It also uses similar syntax for reactivity to update DOM in real-time. However, unlike React, it uses a compiled DOM instead of virtual DOM. 
 
-This means, at the end of the day, you get a smaller size pure JavaScript bundle. Much like the production bundle of your Svelte or Vanilla JS application. This makes it blazingly fast and highly performant.
+This means you get a smaller size pure JavaScript bundle, much like the production bundle of your Svelte or Vanilla JS application. This makes it blazingly fast and highly performant.
 
 ## SolidJS Essentials
 
@@ -46,7 +46,7 @@ render(() => <HelloWorld />, document.getElementById("app")!);
 
 ```
 
-From the above code, it's also clear that componens are a function that return the HTML template using JSX.
+From the above code, it's also clear that components are functions that return the HTML template using JSX.
 
 ![HelloWorld Example](./hello-world-example.png)
 
@@ -131,7 +131,7 @@ export default Header;
 
 Reactivity allows you to create variables that dynamically trigger a DOM update when changed.
 
-SolidJS allows you to create reactive variables called *signals* using the `createSignal` function. This function takes in the initial value of the variable as a parameter. And it returns an array where the first element is the variable itself and the second element is a function that is used to mutate that variable.
+SolidJS allows you to create reactive variables called *signals* using the `createSignal` function. This function takes in the initial value of the variable as a parameter. And it returns an array where the first element is the variable itself and the second element is a function used to mutate that variable.
 
 [Here's an example](https://playground.solidjs.com/?hash=776620219&version=1.4.1) that changes the reactive variable called `name`:
 
@@ -159,7 +159,7 @@ Initially, the name outputs the string 'fuzzysid':
 
 ![Reactivity Before Update](./reactivity-before-update.png)
 
-A click event ia used on the button that fires a function called `changeName`. When you press the *Change Name* button, the `changeName` function updates the `name` signal to 'siddhant':
+A click event is used on the button that fires a function called `changeName`. When you press the *Change Name* button, the `changeName` function updates the `name` signal to 'siddhant':
 
 ![Reactivity After Update](./reactivity-after-update.png)
 
@@ -185,15 +185,15 @@ function Counter() {
 render(() => <Counter />, document.getElementById("app")!);
 ```
 
-You can take the current value of a signal inside the signal's mutation's callback function. The above code used the current value of `count` to increment and decrement it accordingly. 
+You can take the current value of a signal inside the signal's mutation's callback function. The above code used the present value of `count` to increment and decrement it accordingly. 
 
 ### Effects
 
 Effects are triggers or watchers that can help you fire a function when a signal updates.
 
-Let's say in the previous example you want to throw an alert when count becomes greater than 5.
+Let's say, in the previous example, you want to throw an alert when the count becomes greater than 5.
 
-You can create an effect using the `createEffect` function to do so. It takes a callback function as a parameter. This callback function is fired whenever a signal invoked inside it changes. 
+To do so, you can create an effect using the `createEffect` function. It takes a callback function as a parameter. This callback function is fired whenever a signal invoked inside it changes. 
 
 ```jsx
 createEffect(()=>{
@@ -201,7 +201,7 @@ createEffect(()=>{
 })
 ```
 
-So now if you click on the *Increment* button, you should get an alert when it becomes greater than 5:
+So now, if you click on the *Increment* button, you should get an alert when it becomes greater than 5:
 
 ![Effects Example](./effects-example.png)
 
@@ -272,19 +272,19 @@ function Counter() {
 render(() => <Counter />, document.getElementById("app")!);
 ```
 
-Here's how the list looks like when rendered in the DOM:
+Here's what the list looks like when rendered in the DOM:
 
 ![For Example](./for-example.png)
 
 ### Lifecycle Methods 
 
-Most frameworks provide a number of lifecycle methods for different purposes. This often leads to a steeper learning curve as well as unnecessary complexity.
+Most frameworks provide several lifecycle methods for different purposes. This often leads to a steeper learning curve as well as unnecessary complexity.
 
 Solid stays truly reactive: it gives you the `createEffect` and signals to build whatever interaction you want. However, to simplify things further, it gives you two primary lifecycle methods. 
 
 #### onMount
 
-The `onMount` method is fired just once in the entire lifecycle of a Solid component. It runs only the first time your component mounts on the DOM. It's a good place to make any API calls your application needs.
+The `onMount` method is fired just once in the entire lifecycle of a Solid component. It runs only the first time your component mounts on the DOM. It's an excellent place to make any API calls your application needs.
 
 For instance, consider the [following example](https://playground.solidjs.com/?hash=-1837326429&version=1.4.1) that uses the `onMount` method to fetch and render some data:
 
@@ -358,13 +358,13 @@ function App() {
 render(() => <App />, document.getElementById('app'));
 ```
 
-When you enter the red box, the `mouseenter` event fires and you get a message on the console. As a cleanup, when the component unmounts, we remove this event listener from that `<div>`. 
+When you enter the red box, the `mouseenter` event fires, and you get a message on the console. As a cleanup, when the component unmounts, we remove this event listener from that `<div>`. 
 
 ![OnCleanup Example](./OnCleanup-example.png)
 
 ## Build a Todo App with SolidJS
 
-Let's put all that knowledge together to build a small todo application with Solid.
+Let's combine all that knowledge to build a small todo application with Solid.
 
 ### Setup
 
@@ -386,7 +386,7 @@ Next, install the dependencies by running:
 npm i
 ```
 
-And finally kickstart the app by running:
+And finally, kickstart the app by running:
 
 ```shell
 npm run start
@@ -421,11 +421,11 @@ Now let's create some boilerplate files. Here's what the architecture of our Tod
 
 ![Todo App Architecture](./todo-app-architecture.png)
 
-You'll have your top-most parent `<App/>` component that would store the all the todos and the functions to manipulate these todos. This `<App/>` component will have a two child components. 
+You'll have your top-most parent `<App/>` component that would store all the todos and the functions to manipulate these todos. This `<App/>` component will have two child components. 
 
-First, the `<AddTodo>` component which will be responsible for adding a new todo.
+First, the `<AddTodo>` component will be responsible for adding a new todo.
 
-Second, the `<Todos/>` component which will be responsible for rendering the list of todos via it's own child — `<TodoItem/>` component. 
+Second, the `<Todos/>` component will be responsible for rendering the list of todos via its own child — `<TodoItem/>` component. 
 
 Create a JSX file for each of the above components. 
 
@@ -433,7 +433,7 @@ Create a JSX file for each of the above components.
 
 The `<AddTodo/>` component will render an input field and a button. The input field is where the user types a new todo. The button will be used to send this new todo back to a function in the parent `<App/>` component to add this todo to the todos list. This function will be taken as props inside the `<AddTodo/>` component.
 
-To store the `newTodo`, create a signal since you want this property to be reactive based on what user enters in the input. 
+To store the `newTodo`, create a signal since you want this property to be reactive based on what the user enters in the input. 
 
 ```jsx
  const [newTodo,setNewTodo]=createSignal('')
@@ -467,7 +467,7 @@ export default AddTodo;
 
 You bind the input field to the `newTodo` signal. You now need to create the `handleChange` function that updates the `newTodo` signal based on the `onChange` event. 
 
-You also need to create `the handleClick` function that passed the `newTodo` signal to the `addTodo` function prop and clears the input state.
+You also need to create the `handleClick` function that passes the `newTodo` signal to the `addTodo` function prop and clears the input state.
 
 ```jsx
  const handleChange=(e)=>setNewTodo(e.target.value)
@@ -545,7 +545,7 @@ Once you do that, you should see an input field with a submit button rendered by
 
 ### Rendering Todos
 
-Now let's work on two simple components that are responsible for rendering the todos. First, the `<Todos/>` component. This component takes in two props as you already know — list of todos called the `todos` signal and the `deleteTodo` method. 
+Now let's work on two simple components responsible for rendering the todos. First is the `<Todos/>` component. As you already know, this component takes in two props — a list of todos called the `todos` signal and the `deleteTodo` method. 
 
 ```jsx
 import { For } from 'solid-js';
@@ -565,7 +565,7 @@ function Todos({todos,deleteTodo}){
 export default Todos;
 ```
 
-You use the `<For/>` component to loop through the list of todos. Now, you need to pass each todo item and the `deleteTodo` method further down to your `<TodoItem/>` component. This component is responsible for rendering each individual list item. 
+You use the `<For/>` component to loop through the list of todos. Now, you need to pass each todo item and the `deleteTodo` method further down to your `<TodoItem/>` component. This component is responsible for rendering each list item. 
 
 ```jsx
 function TodoItem({todo,deleteTodo}){
@@ -611,11 +611,11 @@ export default App;
 
 ```
 
-Great! Let's complete out the todo app by writing the logic for adding and deleting a todo.
+Great! Let's complete the todo app by writing the logic for adding and deleting a todo.
 
 ### Adding and Deleting Todos
 
-To add a new todo, you only need to complete the logic inside the `addTodo` function in the `<App/>` component. This function already takes a `newTodo` parameter, which is the new todo item you need to add. 
+To add a new todo, you only need to complete the logic inside the `addTodo` function in the `<App/>` component. This function already takes a `newTodo` parameter, the new todo item you need to add. 
 
 ```jsx
 const addTodo=(newTodo)=>{
@@ -627,7 +627,7 @@ You'll add the `newTodo` in the `todos` signal that is an array using its setter
 
 <video align="center" width="600px" src="./add-todos-demo.mp4"> </video>
 
-Looks like you're able to add todos now. Awesome! 
+It looks like you're able to add todos now. Awesome! 
 
 To delete the todo when they're clicked, populate your `deleteTodo` function:
 
@@ -643,11 +643,11 @@ First, make a copy of the current todos array. Then, filter through this copy to
 
 <video align="center" width="600px" src="./delete-todos-demo.mov"></video>
 
-You can delete todos as well, cool! 
+You can delete todos as well; fantastic! 
 
 ### Styling the App
 
-Functionally your app is complete, but it surely misses some aesthetics. Let's add some simple yet neat looking styles. You can directly update the styles in our `App.module.css` file:
+Functionally your app is complete, but it surely misses some aesthetics. Let's add some simple yet neat-looking styles. You can directly update the styles in our `App.module.css` file:
 
 ```css
 *{
@@ -730,37 +730,37 @@ p:hover{
 }
 ```
 
-And that should give us a much better looking todo app now:
+And that should give us a much better-looking todo app now:
 
 ![Updated-app](./updated-app.png)
 
 ## SolidJS vs. React
 
-If you're coming from a React background, building the todo app must feel like a piece of cake to you! This is because in terms of syntax and architecture, Solid is strikingly similar to React. It uses the same structure of using functional components, returning JSX, fragments, one-way data binding etc. 
+If you're coming from a React background, building the todo app must feel like a piece of cake to you! This is because, in terms of syntax and architecture, Solid is strikingly similar to React. It uses the same structure of using functional components, returning JSX, fragments, one-way data binding, etc. 
 
-Using effects, refs and events is also much similar to React in Solid. So it's safe to say that Solid provides almost the same if not slightly different syntactic sugar like React. Then why do we need another React like framework for building web applications?
+Using effects, refs and events are also much similar to React in Solid. So it's safe to say that Solid provides almost the same if not slightly different syntactic sugar as React. Then why do we need another React-like framework for building web applications?
 
 Solid differs from React in terms of performance, developer experience, rendering algorithm, and reactivity. Let's skim through the key differences:
 
 ### Performance
 
-In the beginning of this tutorial, we talked how Solid doesn't use a virtual DOM. Instead it uses a compiled DOM. This gives it a significant edge over React as well as literally any other framework in terms of run-time performance. It generates a blazingly fast production bundle that is aimed to provide a more rich user experience to your users. 
+At the beginning of this tutorial, we discussed how Solid doesn't use a virtual DOM. Instead, it uses a compiled DOM. This gives it a significant edge over React and any other framework in terms of run-time performance. It generates a blazingly fast production bundle that is aimed to provide a more rich user experience for your users. 
 
 ![SolidJS Performance](./solidjs-performance.png) 
 
-If you wish to dive deeper into these stats and take a closer look at performance benchmarks, [here's a comparison guide you can refer](https://krausest.github.io/js-framework-benchmark/current.html). 
+If you wish to dive deeper into these stats and take a closer look at performance benchmarks, [here's a comparison guide you can refer to](https://krausest.github.io/js-framework-benchmark/current.html). 
 
 ### Solid is Truly Reactive
 
 Reactivity lies at the heart of SolidJS, which is why you'll never find any unnecessary renders of your Solid components. Only the part of a template that needs to update will re-render.
 
-With React, however, change in a state leads to re-rendering of the entire component. There are ways to combat this, but needs additional efforts in terms of learning these concepts and incorporating them in your applications.
+With React, however, change in a state leads to re-rendering the entire component. There are ways to combat this, but it needs additional efforts to learn and incorporate these concepts into your applications.
 
 ### Community Support, Documentation, and Resources
 
-Even though Solid has a great and extensive documentation, the React community is much larger since it has been around for a longer time. That can be a deal breaker for you if you want to build a scalable web applications quickly. Even third-party libraries are short in number for Solid in comparison to React.
+Even though Solid has excellent and extensive documentation, the React community is much larger since it has been around for longer. That can be a deal-breaker if you want to build scalable web applications quickly. Even third-party libraries are short in number for Solid in comparison to React.
 
 ## Conclusion
 
-Solid indeed has an interesting future ahead and is definitely worth a side-project or an MVP for your startup. If you wish to explore Solid in-depth, you can check out an official tutorial by the Solid team [here](https://www.solidjs.com/tutorial/introduction_basics) that walks you through each and every concept in Solid. You can also explore the entire code for the demo in this tutorial here. Until next time!
+Solid has an exciting future and is worth a side-project or an MVP for your startup. If you wish to explore Solid in-depth, you can check out an official tutorial by the Solid team [here](https://www.solidjs.com/tutorial/introduction_basics) that walks you through every concept in Solid. You can also [explore the entire code for the demo in this tutorial here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/SolidJs/todo-app-solidjs). Until next time!
 
