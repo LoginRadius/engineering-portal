@@ -625,12 +625,7 @@ const addTodo=(newTodo)=>{
 
 You'll add the `newTodo` in the `todos` signal that is an array using its setter function `setTodos`. Use JavaScript array destructuring here to ensure to keep the previous todos intact. Let's give this a whirl now:
 
-<video controls width="500" autoplay>
-
-    <source src="./add-todos-demo.mp4" type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
+<video controls width="600" align="center" src="./add-todos-demo.mp4"> </video> <br>
 
 It looks like you're able to add todos now. Awesome! 
 
@@ -646,12 +641,7 @@ To delete the todo when they're clicked, populate your `deleteTodo` function:
 
 First, make a copy of the current todos array. Then, filter through this copy to remove the todo you wish to delete. Finally, update your original `todos` signal with this copy using the `setTodos ` setter. Let's test it out now:
 
-<video controls width="500" autoplay>
-
-    <source src="./delete-todos-demo.mov" type="video/mov">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
+<video controls width="600" align="center" src="./delete-todos-demo.mov"> </video> <br>
 
 You can delete todos as well; fantastic! 
 
