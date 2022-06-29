@@ -168,7 +168,7 @@ This tutorial uses the `nanoid` module to generate random numbers.
 1. In the terminal, install the `nanoid` module. This module will create a random set of characters as the OTP. Run the following command in your terminal:
     
     ```bash
-    npm i nanoid
+    npm i nanoid@3.3.4 #Version compartible with Nodejs
     ```
     
 2. After installing the `nanoid` module, import it into `server.js` and use it to generate 6 random digits.
