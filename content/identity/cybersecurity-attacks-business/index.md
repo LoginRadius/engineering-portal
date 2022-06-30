@@ -196,7 +196,7 @@ A [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_att
 
 ### 8. Spyware attack
 
-Spyware is a kind of malicious software that is installed without the knowledge of the end-user, usually on their computer. The program then invades the computer, steals sensitive data, and sells them off to advertisers, data companies, or external users.
+[Spyware is a kind of malicious software](https://www.beenverified.com/crime/what-is-spyware/) that is installed without the knowledge of the end-user, usually on their computer. The program then invades the computer, steals sensitive data, and sells them off to advertisers, data companies, or external users.
 
 **How to prevent**
 
