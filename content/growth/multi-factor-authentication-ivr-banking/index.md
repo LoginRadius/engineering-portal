@@ -29,7 +29,7 @@ Based on this fact, the chances of theft reduce to a great extent if MFA is empl
 
 Interactive Voice Response (IVR) is a type of call management system that enables your business to receive calls through different channels such as online, email, or fax and offers services in real-time. 
 
-As traditional phone systems are losing their importance in today’s world of smartphones and the internet, more and more banks look forward to an IVR system for its convenience and effectiveness in conducting communication.
+As traditional phone systems are losing their importance in today’s world of smartphones and the internet, more and more banks look forward to an [IVR](https://getvoip.com/ivr-systems/) system for its convenience and effectiveness in conducting communication.
 
 
 ## The Role of Multi-Factor Authentication and IVR in the Banking Industry
