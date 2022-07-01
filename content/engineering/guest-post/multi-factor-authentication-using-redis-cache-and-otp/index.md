@@ -1,15 +1,15 @@
 ---
-title: "Multi-Factor Authentication Using Redis Cache and OTP"
-date: "2022-06-14"
-coverImage: "coverImage.png"
+title: "Multi-Factor Authentication (MFA) with Redis Cache and OTP"
+date: "2022-06-30"
+coverImage: "mfa-with-redis-cache-and-otp.png"
 author: "Fredrick Emmanuel"
 tags: ["Node.js", "Redis", "Authentication"]
-description: "Follow this tutorial and learn to set up Multi-factor Authentication in your various applications"
+description: "Want to implement Multi-Factor Authentication (MFA)? Follow this tutorial to implement MFA using Redis Cache and OTP in your applications."
 ---
 
 Securing your web applications from unauthorized users is very important. You can increase the security with One Time Password (OTP) authentication in addition to the login credentials. An OTP is sent to the user’s email when they want to log in. This is a form of [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/).
 
-It is essential to learn how to apply Multi-Factor authentication in real-world applications, and this tutorial got you covered. This tutorial explains how to store users’ sessions in the Redis Store and how to send OTP using [Nodemailer](https://www.npmjs.com/package/nodemailer) for authentication.
+It is essential to learn how to apply Multi-Factor authentication in real-world applications, and this tutorial got you covered. This tutorial explains how to store users’ sessions in the Redis Store and send OTP using [Nodemailer](https://www.npmjs.com/package/nodemailer) for authentication.
 
 ## Goal
 
@@ -34,9 +34,9 @@ As everything is in place, let’s jump right in.
 
 In this section, you will learn how to start an Express server.
 
-1. Create a new folder and open it in a text editor. In this tutorial, this folder is named `Multi-Factor Auth`, but you can decide to name it anything you want.
+1. Create a new folder and open it in a text editor. In this tutorial, this folder is named `Multi-Factor Auth`, but you can decide to call it anything you want.
 
-2. Open the terminal in the project’s path and run the following code that will install the dependencies needed to start the Express server.
+2. Open the terminal in the project’s path and run the following code to install the dependencies needed to start the Express server.
 
     ```bash
     npm init --y
@@ -44,13 +44,13 @@ In this section, you will learn how to start an Express server.
     npm i -D nodemon
     ```
 
-    The Express dependency will be used to set up the backend server and nodemon, installed as a devDependency, will watch the file system and restart the server when a change is made.
+    The Express dependency will be used to set up the backend server and nodemon, installed as a devDependency, which will watch the file system and restart the server when a change is made.
 
     ![Express and Nodemon Installation](express-and-nodemon-install.jpg)
 
-3. Create a new file named `server.js` in the project’s directory. For the simplicity, this file will contain all the server code for this application.
+3. Create a new file named `server.js` in the project’s directory. For simplicity, this file will contain all the server code for this application.
 
-4. Add the following codes in the `server.js` file that will set up an Express server to listen on port `5000`.
+4. Add the following codes in the `server.js` file to set up an Express server to listen on port `5000`.
     
     ```js
     const express = require("express");
@@ -94,14 +94,14 @@ In this section, you will learn how to start an Express server.
 
 [Nodemailer](https://www.npmjs.com/package/nodemailer) is a Node.js module that allows you to send emails using an email service or an [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) server.
 
-To set up Nodemailer, you need to provide the credentials to your email or SMTP service.
+To set up Nodemailer, you need to provide your email or SMTP service credentials.
 
 > Google mailing service (Gmail) will not support the use of third-party apps or devices like Nodemailer starting from May 30, 2022.
 
 For this tutorial, we will use Microsoft’s [Outlook Maling Service](https://outlook.live.com/) to send emails.
 
 ### Set Up Outlook
-1. Navigate to [Outlook’s sign up page](https://outlook.live.com/owa/?nlp=1&signup=1) to register for an Outlook account if you don’t have one.
+1. Navigate to [Outlook’s sign-up page](https://outlook.live.com/owa/?nlp=1&signup=1) to register for an Outlook account if you don’t have one.
 
 2. Add your phone number if you are prompted to do so. 
     
@@ -113,7 +113,7 @@ After setting up your Outlook account, the next step is to use your Outlook acco
 
 1. Open your terminal and install the `nodejs-nodemailer-outlook` dependency.
 
-    This module only needs your Outlook account credentials and your message set up to send emails.
+    This module only needs your Outlook account credentials and message to send emails.
 
     Now, run the code below in your terminal to install the `nodejs-nodemailer-outlook` dependency:
     
@@ -171,7 +171,7 @@ This tutorial uses the `nanoid` module to generate random numbers.
     npm i nanoid@3.3.4 #Version compatible with Nodejs
     ```
     
-2. After installing the `nanoid` module, import it into `server.js` and use it to generate 6 random digits.
+2. After installing the `nanoid` module, import it into `server.js` and use it to generate six random digits.
     
     ```js
     const nanoid = require("nanoid");//Importing the naonid module
@@ -179,7 +179,7 @@ This tutorial uses the `nanoid` module to generate random numbers.
     const OTP = nanoid.customAlphabet("1234567890", 6)();//Generating 
     ```
     
-3. Add the OTP to the message being sent to the user’s email.
+3. Add the OTP to the message sent to the user’s email.
     
     ```js
     const express = require("express");
@@ -228,13 +228,13 @@ Now that the OTP part of the authentication is settled, let’s set up the next 
 
 ### What is Redis?
 
-[Redis](https://redis.io), also known as Remote Dictionary Server, is an open-source (BSD licensed), in-memory data structure store. Developers use it as a database, cache, and message broker. It is simply a fast lightweight database that structures data in key-value pairs.
+[Redis](https://redis.io), also known as Remote Dictionary Server, is an open-source (BSD licensed), in-memory data structure store. Developers use it as a database, cache, and message broker. It is a fast, lightweight database that structures data in key-value pairs.
 
 ### Redis Cache
 
-Storing and retrieving cached data from Redis is faster than traditional databases as it retrieves and stores data in the main memory (the RAM). The data can be users’ sessions or responses from requests.
+Storing and retrieving cached data from Redis is faster than traditional databases as it retrieves and stores data in the main memory (the RAM). The data can be users’ sessions or responses to requests.
 
-The only downside to this is that data can be lost if the computer crashes.
+The only downside is that data can be lost if the computer crashes.
 
 ### Setting up Redis
 
@@ -346,7 +346,7 @@ Now that Redis has been added to the application, let’s set up users’ sessio
 
 Attributes stored in a session without a database are removed after the server refreshes. With the help of Redis cache, attributes in a session can be retrieved fast and saved even when the server restarts.
 
-The user’s OTP needs to be saved in the session before sending it to the user’s email.
+The user’s OTP should be saved in the session before sending it to the user’s email.
 
 Open your `server.js` file and add the code as follows.
 
@@ -392,7 +392,7 @@ app.post("/verify", (req, res) => {
 
 ## Protecting Routes
 
-Preventing unauthorized/unauthenticated users from accessing a specific route or a piece important information is essential in various applications. In this section, you'll learn how to create a middleware that will authenticate the users accessing a specific route.
+Preventing unauthorized/unauthenticated users from accessing a specific route or a piece of important information is essential in various applications. In this section, you'll learn how to create a middleware that will authenticate the users accessing a specific route.
 
 > In this tutorial, the protected route is `/home`
 
@@ -404,7 +404,7 @@ Preventing unauthorized/unauthenticated users from accessing a specific route or
     });
     ```
     
-2. Now, create the `auth` middleware function and verify if the user is authenticated.
+2. Create the `auth` middleware function and verify if the user is authenticated.
 
     ```js
     const auth = (req, res, next) => {//auth middleware function
@@ -426,7 +426,7 @@ Preventing unauthorized/unauthenticated users from accessing a specific route or
 
 ### Logout
 
-To prevent requests from users who are not signed in, the logout route will also be protected using the `auth` middleware.
+The logout route will also be protected using the `auth` middleware to prevent requests from users who are not signed in.
 
 ```js
 app.post("/logout", auth, (req, res) => {
@@ -453,7 +453,7 @@ It’s time to put the backend code into actual functionality. This tutorial mak
     app.set("view engine", "ejs")
     ```
     
-3. In this application, there are only 3 routes. The *login, verify,* and *home* routes. You need to render an `ejs` file when accessing the routes.
+3. In this application, there are only three routes. The *login, verify,* and *home* routes. You need to render an `ejs` file when accessing the routes.
 
     Modify the `GET` routes using the code as follows:
     
@@ -469,7 +469,7 @@ It’s time to put the backend code into actual functionality. This tutorial mak
     });
     ```
     
-4. Create a folder named `views`, and inside, create the various `ejs` files inside.
+4. Create a folder named `views`, and inside, create the various `ejs` files.
 
     > When the server is rendering an ejs file, it checks in the views folder for the file. So, this name is not optional.
 
@@ -618,11 +618,17 @@ Open `home.ejs` and configure the home route as follows.
 
 ## Conclusion
 
-In this tutorial, you’ve learned how to set up Nodemailer, Redis Cloud, and Multi-Factor Authentication. With these, you've learned to secure your applications from unauthenticated users.
+This tutorial taught you how to set up Nodemailer, Redis Cloud, and Multi-Factor Authentication. With these, you've learned to secure your applications from unauthenticated users.
 
 Do you think you can use this to build complex and scalable applications?
 
-# Resources
+## MFA with LoginRadius
 
-GitHub Repo
+You can also set up MFA with LoginRadius instead of setting up everything manually with Redis. You can [sign up for a free account here](https://accounts.loginradius.com/auth.aspx?action=register).
+
+[Refer to this developer-friendly documentation to get started with your MFA setup](https://www.loginradius.com/ciam-for-developers/docs/guide/mfa/) for your web and mobile apps.
+
+## Resources
+
+[Click here to access the sample code used in this tutorial on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/Multi-FactorAuth)
 
