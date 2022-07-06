@@ -1,7 +1,7 @@
 ---
 title: "Authentication, Identity Verification, and Identification: What's the Difference"
 date: "2022-07-06"
-coverImage: "no-code.jpg"
+coverImage: "auth-identity.jpg"
 tags: ["authentication", "identification", "verification", "ciam"]
 author: "Deepak Gupta"
 description: "People usually consider authentication, id verification, and identification the same thing, but they are entirely different when we see stuff through the lens of information security experts. Learn the fundamental differences between the three and the importance of each from an information security perspective."
