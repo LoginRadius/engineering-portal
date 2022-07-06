@@ -46,7 +46,7 @@ It eliminates the hassle of filling lengthy registration forms and creating new 
 
 ## Why Should Businesses Use Phone Login
 
-As mentioned earlier, [phone login simplifies the loogin and registrations process](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/). By using this feature, app developers and business owners can show their consumers that they understand what annoys them— and that they value their time. A rich consumer experience has always been seen providing a more significant consumer growth rate.
+As mentioned earlier, [phone login simplifies the login and registrations process](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/). By using this feature, app developers and business owners can show their consumers that they understand what annoys them— and that they value their time. A rich consumer experience has always been seen providing a more significant consumer growth rate.
 
 This feature makes it easy for your consumers to register and log in within seconds using their phone numbers. To sign-in, they have to enter their phone number and the code they received (usually a one-time password ). 
 
