@@ -1,6 +1,6 @@
 # How to Implement JWT authentication in Deno
 ## Introduction
-It is essential to protect your APIs to get the most out of security, and **Json Web Token** (JWT) authentication allows you to protect your APIs so that an unauthorized person will not have access. **Deno** is a well secure JavaScript/Typescript serverside runtime environment. 
+It is essential to protect your APIs to get the most out of security, and **Json Web Token** (JWT) authentication allows you to protect your APIs so that an unauthorized person will not have access.
 
 In this tutorial, we shall learn how to handle JWT authentication in Deno by building todo CRUD APIs and protecting the APIs using JWT.
 ## Prerequisites
