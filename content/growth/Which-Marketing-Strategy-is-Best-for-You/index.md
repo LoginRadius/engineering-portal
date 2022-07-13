@@ -19,7 +19,7 @@ Today, the **[marketing strategy](https://www.loginradius.com/blog/fuel/2021/01/
 
 ## Inbound Marketing
 
-Though a relatively new concept, inbound marketing is fast catching on for its unique ways to draw in consumers. Also known as content marketing, inbound marketing examples include the utilization of social media, infographics, email newsletters, white papers, creative blog posts, and other content-based activities to attract people’s interest.
+Though a relatively new concept, inbound marketing is fast catching on for its unique ways to draw in consumers. Also known as content marketing, inbound marketing examples include the utilization of social media, [infographics](https://www.visme.co/make-infographics/), email newsletters, white papers, creative blog posts, and other content-based activities to attract people’s interest.
 
   
 
