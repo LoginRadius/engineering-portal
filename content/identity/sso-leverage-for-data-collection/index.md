@@ -61,7 +61,7 @@ Some common methods for collecting data include:
 
 ## SSO Use Cases in Data Collection
 
-An interesting benefit of  SSO is that it can be combined with various <a rel="nofollow" href="https://www.mikevestil.com/data-collection-tools/"> data collection tools </a>. Here are some use cases of a well-implemented SSO system for data collection.
+An interesting benefit of  SSO is that it can be combined with various data collection tools. Here are some use cases of a well-implemented SSO system for data collection.
 
 
 
