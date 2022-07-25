@@ -160,26 +160,15 @@ Now, you need to create user data. But before that, let's connect your applicati
 ```js
 import { MongoClient } from "https://deno.land/x/mongo@v0.30.0/mod.ts";
 
+  // Connecting to a Mongo Database
   const client = new MongoClient();
+  
+  const dbString = "DB_String"
 
-  await client.connect({
-    db: 'deno_auth',
-    tls: true,
-    servers: [
-      {
-        host: 'your-mongo-db-host',
-        port: 27017,
-      },
-    ],
-    credential: {
-      username: 'dbUserName',
-      password: 'dbPassword',
-      mechanism: 'SCRAM-SHA-1',
-      db: "admin",
-    },
- })
-
+  await client.connect(dbString)
+  
  console.log("Database connected!");
+ 
  const db = client.database("deno_auth");
 
  export default db;
