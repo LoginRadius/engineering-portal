@@ -36,7 +36,7 @@ Before delving into details like creating the brand’s visual aspects right awa
 
 Weave a clear brand narrative. This means that clear articulation of the company's values, vision, mission, and purpose should be at the heart of the brand, including the brand name. 
 
-Aside from that, don’t forget to develop who your target consumer is. This is where customer identity will prove useful.
+Aside from that, don’t forget to develop who your <a rel="nofollow" href="https://www.cience.com/blog/targeting-decision-makers"> target consumer </a> is. This is where customer identity will prove useful.
 
 Finally, assessing the current state of the brand identity (especially if in the process of rebranding) later on is also crucial. This includes having the foresight and flexibility to tweak the brand depending on how aligned it is with evolving goals. 
 
