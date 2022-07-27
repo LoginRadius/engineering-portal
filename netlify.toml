@@ -425,5 +425,30 @@
 
 [[redirects]]
   from = "/2019/05/sso-identity-providers"
-  to = "/identity-providers/"
+  to = "/blog/identity-providers/"
+  status = 301
+
+[[redirects]]
+  from = "/encryption-and-hashing"
+  to = "/blog/growth/consumer-journey-from-sign-up-to-purchase/"
+  status = 301
+
+[[redirects]]
+  from = "/react-hooks-guide"
+  to = "/blog/engineering/react-hooks-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/react-state-management"
+  to = "/blog/engineering/react-state-management/"
+  status = 301
+
+[[redirects]]
+  from = "/react-context-api/"
+  to = "/blog/engineering/react-context-api/"
+  status = 301
+
+[[redirects]]
+  from = "/loginradius-supports-hacktoberfest-2020"
+  to = "/blog/engineering/loginradius-supports-hacktoberfest-2020/"
   status = 301
