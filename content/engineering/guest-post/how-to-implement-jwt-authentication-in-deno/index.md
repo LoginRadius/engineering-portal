@@ -1,18 +1,18 @@
 ---
-title: "How to Implement JWT Authentication in Deno"
-date: "2022-07-18"
-
+title: "How to Implement JWT Authentication for CRUD APIs in Deno"
+date: "2022-07-28"
+coverImage: "jwt-authentication-with-deno.png"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["JWT", "Deno", "Authentication"]
-description: ""
+description: "In this hands-on tutorial, you'll learn from scratch how to implement JWT authentication for CRUD APIs in Deno."
 ---
 
 ## Introduction
-It is essential to protect your APIs to get the most out of security, and **Json Web Token** (JWT) authentication allows you to protect your APIs so that an unauthorized person will not have access.
+It is essential to protect your APIs for a secure experience, and **JSON Web Token** (JWT) authentication allows you to protect your APIs so that an unauthorized person will not have access.
 
 ## Prerequisites
 
-This is a hands-on-tutorial to follow along. To get the most out of it, ensure you have:
+This is a hands-on tutorial to follow. To get the most out of it, ensure you have:
 
 * A code editor of your choice
 * Basic knowledge of JavaScript/[TypeScript](https://www.typescriptlang.org/).
@@ -29,23 +29,23 @@ Deno’s features are intended to enhance Node.js’s capabilities. It’s secur
 
 Deno is a well-thought-out modular system. Apart from its simplicity and high security, there are so many other reasons to use Deno:
 
-* Outside of an async function, you can use await.
-* No setting is required for TypeScript to work.
-* There are no dependencies, and it ships as a single executable.
-* A dependency inspector and a code formatter are built-in.
-* Packages in Deno are decentralized.
+* Outside of an async function, you can use await
+* No setting is required for TypeScript to work
+* There are no dependencies, and it ships as a single executable
+* A dependency inspector and a code formatter are built-in
+* Packages in Deno are decentralized
 
-## What is Json Web Token?
+## What is JSON Web Token?
 
-JSON Web Token, popularly called JWT, is an open standard that offers a concise and self-contained method for securely transferring data between parties as a JSON object. It holds information in an easy-to-access format for both developers and computers; the tokens' compact size makes it simple to send through URL, POST parameter, or HTTP header. It allows two parties — a client and a server — to share information securely. A secret or public/private key pair is used to digitally sign the information in a JWT. 
+JSON Web Token, popularly called JWT, is an open standard that offers a concise and self-contained method for securely transferring data between parties as a JSON object. It holds information in an easy-to-access format for developers and computers; the token's compact size makes it simple to send through URL, POST parameter, or HTTP header. It allows two parties — a client and a server — to share information securely. A secret or public/private key pair is used to digitally sign the information in a JWT. 
 
-Authentication is the primary use of JWTs. JWT is assigned to a user after they sign in to an application, and with the assigned JWT, a user can make a request to other routes.
+Authentication is the primary use of JWT. It is assigned to a user after they sign in to an application, and with the assigned JWT, a user can request other routes.
 
 ## Install Deno
 
 Without too many shenanigans, let's start by installing Deno!
 
-Deno installation in Windows isn't as smooth sailing as on Mac or Linux. Unlike in Node.js where you run a command on your terminal, Deno in Windows can be installed by using PowerShell, scoop (a command-line installer), or chocolatey (a package manager). [Click here for the guide on how to install Deno](https://deno.land/manual/getting_started/installation).
+Deno installation in Windows isn't as smooth sailing as on Mac or Linux. Unlike in Node.js, where you run a command on your terminal, Deno in Windows can be installed using PowerShell, Scoop (a command-line installer), or Chocolatey (a package manager). [Click here for the guide on how to install Deno](https://deno.land/manual/getting_started/installation).
 
 To install Deno with PowerShell, open your PowerShell and run the following command:
 
@@ -59,27 +59,28 @@ To check the version of your installed Deno, run: `deno -V`
 
 ## Project Setup
 
-With installation out of the way, let us set up your project. Create a folder `DenoAPI_JWT_Auth`, you can call it any name of your choice. In your folder, create an `app.ts` file and a folder `src`.
+With installation out of the way, let us set up your project. Create a folder `DenoAPI_JWT_Auth`; you can call it any name you choose. Create an `app.ts` file and a folder `src` in your folder.
 
 Inside your `src` folder, create the following folders: `controllers`, `database`, `middlewares`, `routes`, `schema`, and `utils`.
 
 Your project directory should look as follows:
 
-`DenoAPI_JWT_Auth`
+`DenoAPI_JWT_Auth`  
+
 │
-└─**src**
-│   └───controllers
+└─**src**  
+│   └───controllers  
 │   │ 
-│   └───database
+│   └───database  
 │   │ 
-│   └───middlewares
+│   └───middlewares  
 │   │ 
-│   └───routes
+│   └───routes  
 │   │
-│   └───schema
+│   └───schema  
 │   │ 
-│   └───utils
-└─**app.ts**
+│   └───utils  
+└─**app.ts**  
 
 ## Create Oak Server
 
@@ -111,7 +112,7 @@ Deno will always request permission to use your network. `--allow-net` gives Den
 
 You should see `Application is listening on port: 8080`
 
-Now, in your `routes` folder, create a file called `allRoutes.ts`, and set up your router by importing `Router` from the oak url, then create an instance of the router and export the default router.
+Now, in your `routes` folder, create a file called `allRoutes.ts`, and set up your router by importing `Router` from the oak URL, then create an instance of the router and export the default router.
 
 `routes.allRoutes.ts`
 
@@ -123,7 +124,7 @@ const router = new Router();
 export default router;
 ```
 
-Moving on, you need to modify `app.ts` file. So, go to `app.ts` and import the router. Let the app use `router.routes()` and `router.allowedMethods()` methods, then remove the middleware so it doesn't overshadow the imported routes. The `allowedMethods()` tells Deno to include all routes by your router.
+Moving on, you need to modify `app.ts`. So, go to `app.ts` and import the router. Let the app use `router.routes()` and `router.allowedMethods()` methods, then remove the middleware, so it doesn't overshadow the imported routes. The `allowedMethods()` tells Deno to include all routes by your router.
 
 `app.ts`
 
@@ -142,11 +143,11 @@ console.log(`Application is listening on port: ${PORT}`);
 await app.listen({port:PORT});
 ```
 
-You can run your app again with the same command: `deno run --allow-net app.ts`
+You can rerun your app with the same command: `deno run --allow-net app.ts`
 
 ## Create User Data
 
-Now, you need to create user data. But before that, let's connect your application to MongoDB database.
+Now, you need to create user data. But before that, let's connect your application to the MongoDB database.
 
 - Go to your `database` folder
 - Create a file called `connectBD.ts`
@@ -177,7 +178,7 @@ import { MongoClient } from "https://deno.land/x/mongo@v0.30.0/mod.ts";
 
 With that out of the way, let's create an interface for your database.
 
-In your `schema` folder, create a file `user.ts`, import objectId from deno MongoDB URL, then define your schema, and export it.
+In your `schema` folder, create a file `user.ts`, import objectId from deno MongoDB URL, then define and export your schema.
 
 `schema.user.ts`
 
@@ -191,11 +192,11 @@ export interface UserSchema {
   }
 ```
 
-Moving on, let's play with some logic: go to your `controllers` folder, create a file called `users.ts`. In the file, import your database and UserSchema.
+Let's play with some logic: go to your `controllers` folder, and create a file called `users.ts`. In the file, import your database and UserSchema.
 
-It's not a good practice to store your password in plain text for security reason. To has your password, let's import bcrypt from deno bcrypt URL.
+It's not a good practice to store your password in plain text for security reasons. To has your password, let's import bcrypt from the deno bcrypt URL.
 
-So, create a function called `signup` that takes username and password. Take the user details from the request body, hash the password, and save them to your database, as follows.
+So, create a function called `signup` that takes username and password. Take the user details from the request body, hash the password, and save them to your database.
 
 `controllers.users.ts`
 
@@ -255,11 +256,11 @@ export const key = await crypto.subtle.generateKey(
 
 Now that you have successfully created your key, you can create a user authentication route so that every user that logs in will get authenticated.
 
-Head over to `user.ts` in your controller, import the API key, create a `signin` function, and write some validation logic to validate that the user actually exists in your database. If validation is successful, you create a token to authenticate the user. 
+Head over to `user.ts` in your controller, import the API key, create a `signin` function, and write some validation logic to validate that the user exists in your database. If validation is successful, you create a token to authenticate the user. 
 
-## Using JWT to Autheticate an User
+## Using JWT to Authenticate a User
 
-Now, let's import Deno JWT (djwt) `create` function from the URL to create a token. When a user logs in, take the id and username, pass the payload into the JWT `create` function, generate a token, and use the token to authenticate the user, as follows.
+Now, let's import Deno JWT (djwt) `create` function from the URL to create a token. When a user logs in, take the id and username, pass the payload into the JWT `create` function, generate a token, and use the token to authenticate the user.
 
 `controllers.users.ts`
 
@@ -286,7 +287,7 @@ const Users = db.collection<UserSchema>("users");
       response.body = {message: "User created", userId:_id, user:username}     
 };
 
-   //signin a user
+   //sign in a user
     export const signin = async ({request, response}:{request:any; response:any}) => {
 
     const body = await request.body();
@@ -348,7 +349,7 @@ router.post("/api/signup", signup)
 export default router;
 ```
 
-Congratulations for making this far! You are through with the authentication route. Now, you can register a user, sign in, and authenticate the user. 
+Congratulations on making it this far! You are through with the authentication route. Now, you can register a user, sign in, and authenticate the user. 
 
 You need to create your todo CRUD API and protect the routes so that a random person will not be able to access your route except when authenticated.
 
@@ -542,52 +543,53 @@ Awesome! Your application is ready, but wait! Don't get too excited yet, relax l
 
 Below is what your final project directory looks like:
 
-`DenoAPI_JWT_Auth`
-│
-└─**src**
-│   └───controllers
-│   │      └───users.ts
-│   │      └───tasks.ts
+`DenoAPI_JWT_Auth`  
+
+│  
+└─**src**  
+│   └───controllers  
+│   │      └───users.ts  
+│   │      └───tasks.ts  
 │   │
-│   └───database
-│   │      └───connectDB.ts
+│   └───database  
+│   │      └───connectDB.ts  
 │   │         
-│   └───middlewares
-│   │      └───isAuthorized.ts
+│   └───middlewares  
+│   │      └───isAuthorized.ts  
 │   │         
-│   └───routes
-│   │      └───allRoutes.ts
+│   └───routes  
+│   │      └───allRoutes.ts  
 │   │
-│   └───schema
-│   │      └───user.ts
-│   │      └───task.ts
+│   └───schema  
+│   │      └───user.ts  
+│   │      └───task.ts  
 │   │ 
-│   └───utils
-│   │      └───apiKey.ts
+│   └───utils  
+│   │      └───apiKey.ts  
 │   │         
-└─**app.ts**
+└─**app.ts**  
 
 ## Test Application
 
-Now that your application is ready, you need to test the various routes to ensure they are working. To test the routes, run your server again with `deno run --allow-net app.ts`.
+Now that your application is ready, you need to test the various routes to ensure they are working. To test the routes, rerun your server with `deno run --allow-net app.ts`.
 
-![deno run screenshot](./aPk23wT.png)
+![deno run screenshot](./apk23wt.png)
 
 Great! The app is running on port:8080. You can now head to the postman to test your routes.
 
 ### Signup Route
 
-![Sign up](./D2ORbZ0.png)
+![Sign up](./d2orbz0.png)
 
-![](./trYDtXn.png)
+![](./trydtxn.png)
 
-### Signin Route
+### Sign-in Route
 
-![Signin Route URL](./FEe5D0s.png)
+![Signin Route URL](./fee5d0s.png)
 
-![Signin Route](./wNCqTyA.png)
+![Signin Route](./wncqtya.png)
 
-Amazing! Now that you have signed up and authenticated a user, the returned token, which shows that the user has been authenticated can be used to access your todo CRUD APIs.
+Amazing! Now that you have signed up and authenticated a user, the returned token, which shows that the user has been authenticated, can be used to access your todo CRUD APIs.
 
 ### Accessing the Todo Routes
 
@@ -595,47 +597,47 @@ First, let's try accessing your todo routes without the token...
 
 #### Create Task Route
 
-![Create Task Route URL](./0bOHCXV.png)
+![Create Task Route URL](./0bohcxv.png)  
 
-![Create Task Route Access Denied](https://i.imgur.com/q6EEtMg.png)
+![Create Task Route Access Denied](./q6eetmg.png)
 
-As you can see, when tried to create a task, you got a message `You are not authorized to access this route` because it was done by a random person without a token.
+As you can see, when you tried to create a task, you got a message `You are not authorized to access this route` because a random person did it without a token.
 
 Now, let's also try accessing the delete by Id route without the token...
 
 #### Delete Task Route
 
-![Delete Task Route URL](./NGOzEkB.png)
+![Delete Task Route URL](./ngozekb.png)
 
-![Delete Task Route Access Denied](./CDkr6Ad.png)
+![Delete Task Route Access Denied](./cdkr6ad.png)
 
-Obviously, your todo CRUD APIs have been protected, and the only way a user can access them is by getting authenticated. Now let's login a user again, and use the returned token to access the todo routes.
+Your todo CRUD APIs have been protected, and the only way a user can access them is by getting authenticated. Now let's log in again and use the returned token to access the todo routes.
 
-![Tasks](./eHp4ZWF.png)
+![Tasks](./ehp4zwf.png)
 
 So, you have logged a user in and put the returned Bearer's token in the authorization header. You can access our todo APIs now because, with the bearer's token, you are authorized to access the todo APIs.
 
 #### Create Task Route
 
-![Create Task Route URL](./y9iLrk9.png)
+![Create Task Route URL](./y9ilrk9.png)
 
-![Create Task Route Access Granted](./NBlAskx.png)
+![Create Task Route Access Granted](./nbiaskx.png)
 
 #### Get All Tasks Route
-![Get All Tasks Route](./zOSrr9u.png)
+![Get All Tasks Route](./zosrr9u.png)
 
-![Get All Tasks Route Access Granted](./ZxKGmsM.png)
+![Get All Tasks Route Access Granted](./zxkgmsm.png)
 
 #### Get Task By Id Route
 
-![Get Task By Id Route](./CEs7QWk.png)
+![Get Task By Id Route](./hph0xmy.png)
 
-![Get Task By Id Route Access Granted](./ypIaObE.png)
+![Get Task By Id Route Access Granted](./get-task-by-id.png)
 
 Feel free to test the other routes to see how things work.
 
 ## Conclusion
 
-In this tutorial, you've built a todo CRUD API and protected the routes from unauthorized access using JSON Web Token (JWT). You have learnt how to create an Oak server in Deno, connect MongoDB, implement JWT authentication, as well as create and authenticate CRUD routes in a Deno application. 
+In this tutorial, you've built a todo CRUD API and protected the routes from unauthorized access using JSON Web Token (JWT). You have learned how to create an Oak server in Deno, connect MongoDB, implement JWT authentication, as well as create and authenticate CRUD routes in a Deno application. 
 
-The code for this tutorial is available [here](https://github.com/icode247/auth-with-deno) on Github. Feel free to clone and extend features of the application.
+[The code for this tutorial is available here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/denoAPI_JWT_Auth) on Github. Feel free to clone and extend the features of the application.
