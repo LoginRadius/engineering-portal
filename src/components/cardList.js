@@ -35,7 +35,7 @@ export default function CardList({ posts, currentPage, type }) {
                 {type === "start-with-identity" && <IdentityTagMenu />}
               </div>
             )}
-            {type !== "all" && (
+            {type === "async" && (
               <a
                 className={`${styles.sidebarWidget} ${styles.link}`}
                 href="https://www.loginradius.com/open-source/"
