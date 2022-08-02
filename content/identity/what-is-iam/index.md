@@ -46,6 +46,7 @@ IAM includes tools like two-factor authentication, multi-factor authentication, 
 
 They also comply with [data governance](https://www.loginradius.com/blog/start-with-identity/2020/07/data-governance-best-practices/) functions to ensure that only appropriate and relevant information is being shared. 
 
+Information technology (IT) administrators can restrict user access to sensitive data within their organizations by putting an IAM <a rel="nofollow" href="https://www.softwareworld.co/best-identity-management-software/"> security framework </a> in place.
 
 ### What Are the Key IAM Terms
 
