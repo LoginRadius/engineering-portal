@@ -28,14 +28,14 @@ export default function CardList({ posts, currentPage, type }) {
           </div>
           <div className={` ${styles.sidebar} py-96`}>
             <Subscribe type={type} />
-            {type !== "fuel" && (
+            {type !== "growth" && (
               <div className={`${styles.sidebarWidget} ${styles.tags}`}>
                 {type === "all" && <TagMenu />}
-                {type === "async" && <AsyncTagMenu />}
-                {type === "start-with-identity" && <IdentityTagMenu />}
+                {type === "engineering" && <AsyncTagMenu />}
+                {type === "identity" && <IdentityTagMenu />}
               </div>
             )}
-            {type !== "all" && (
+            {type === "engineering" && (
               <a
                 className={`${styles.sidebarWidget} ${styles.link}`}
                 href="https://www.loginradius.com/open-source/"

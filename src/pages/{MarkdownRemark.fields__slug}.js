@@ -17,11 +17,11 @@ const BlogPostTemplate = ({ data }) => {
   } = post.frontmatter
   let type = ""
   if (pathname.includes("/engineering/")) {
-    type = "async"
+    type = "engineering"
   } else if (pathname.includes("/growth/")) {
-    type = "fuel"
+    type = "growth"
   } else if (pathname.includes("/identity/")) {
-    type = "start-with-identity"
+    type = "identity"
   } else {
     type = ""
   }

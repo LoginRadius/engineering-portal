@@ -161,26 +161,26 @@ const Post = ({ post, relatedPost, type }) => {
               <div
                 className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
               >
-                {type === "async" ? (
+                {type === "engineering" ? (
                   <AsyncFeatList slug={post.fields.slug} />
-                ) : type === "fuel" ? (
+                ) : type === "growth" ? (
                   <FuelFeatList slug={post.fields.slug} />
                 ) : (
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              {type !== "fuel" && (
+              {type !== "growth" && (
                 <div
                   className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
                 >
                   {type === "all" && <TagMenu />}
-                  {type === "async" && <AsyncTagMenu />}
-                  {type === "start-with-identity" && <IdentityTagMenu />}
+                  {type === "engineering" && <AsyncTagMenu />}
+                  {type === "identity" && <IdentityTagMenu />}
                 </div>
               )}
 
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                {type !== "async" && (
+                {type !== "engineering" && (
                   <>
                     <div className={headStyles.image}>
                       <img src={Docs} alt="LoginRadius Docs" />
@@ -209,7 +209,7 @@ const Post = ({ post, relatedPost, type }) => {
                     </div>
                   </>
                 )}
-                {type == "async" && (
+                {type == "engineering" && (
                   <>
                     <div className={headStyles.text}>
                       <h3>LoginRadius Identity Platform Documentation</h3>

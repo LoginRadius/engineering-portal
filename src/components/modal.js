@@ -9,13 +9,13 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
     respClass: "",
   })
   const [async, setAsync] = useState(() =>
-    type === "async" || type === "all" ? true : false
+    type === "engineering" || type === "all" ? true : false
   )
   const [fuel, setFuel] = useState(() =>
-    type === "fuel" || type === "all" ? true : false
+    type === "growth" || type === "all" ? true : false
   )
   const [identity, setIdentity] = useState(() =>
-    type === "start-with-identity" || type === "all" ? true : false
+    type === "identity" || type === "all" ? true : false
   )
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -129,7 +129,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="engineering"
                   type="checkbox"
-                  value="async"
+                  value="engineering"
                   checked={async}
                   onChange={() => setAsync(!async)}
                 />
@@ -140,7 +140,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="identity"
                   type="checkbox"
-                  value="start-with-identity"
+                  value="identity"
                   checked={identity}
                   onChange={() => setIdentity(!identity)}
                 />
@@ -151,7 +151,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   className={styles.styledCheckbox}
                   id="growth"
                   type="checkbox"
-                  value="fuel"
+                  value="growth"
                   checked={fuel}
                   onChange={() => setFuel(!fuel)}
                 />
