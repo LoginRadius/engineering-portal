@@ -1,13 +1,12 @@
 ---
-title: "How LoginRadius Offers Customer-Centric Capabilities that Drive ROI"
-date: "2021-11-16"
-coverImage: "roi-cover.jpg"
-tags: ["other"]
-featured: false 
-author: "Rakesh Soni"
-description: "For businesses to grow and increase their profitability, there is a need to implement robust infrastructure to aid in productivity and increase efficiency. LoginRadius helps organizations scale up security, operability, data integration, and effective data management, among others. Check out our infographic for more ROI-centric details."
-metatitle: "How LoginRadius Drive ROI for Enterprises- Infographic"
-metadescription: "Learn how LoginRadius drives ROI for businesses with its customer-centric capabilities. Check out the infographic below for scalability, customization and more."
+title: "Privacy-Centric Enhancements: CTO Deepak Gupta Shares His Thoughts on Shifting Data Strategies"
+date: "2022-08-02"
+coverImage: "privacy-centric.jpg"
+tags: ["data privacy", "cloud computing", "progressive profiling"]
+author: "Deepak Gupta"
+description: "With more and more businesses taking place online and grappling with the new privacy and data security complexities, there’s an immediate need to reinvent data management strategies. Let’s understand the role of privacy and data management and how businesses can take the competitive edge."
+metatitle: "LoginRadius’ CTO Shares His View on Shifting Data Strategies"
+metadescription: "Businesses have leveraged customer data for years, but they need to consider utilizing valuable insights. Read on to know more about data privacy strategies."
 ---
 
 
