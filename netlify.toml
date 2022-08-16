@@ -425,7 +425,7 @@
 
 [[redirects]]
   from = "/2019/05/sso-identity-providers"
-  to = "/blog/identity-providers/"
+  to = "/blog/identity/best-sso-providers-loginradius/"
   status = 301
 
 [[redirects]]
@@ -435,20 +435,30 @@
 
 [[redirects]]
   from = "/react-hooks-guide"
-  to = "/blog/engineering/react-hooks-guide/"
+  to = "/blog/engineering/react-hooks-guide"
   status = 301
 
 [[redirects]]
   from = "/react-state-management"
-  to = "/blog/engineering/react-state-management/"
+  to = "/blog/engineering/react-state-management"
   status = 301
 
 [[redirects]]
   from = "/react-context-api/"
-  to = "/blog/engineering/react-context-api/"
+  to = "/blog/engineering/react-context-api"
   status = 301
 
 [[redirects]]
   from = "/loginradius-supports-hacktoberfest-2020"
   to = "/blog/engineering/loginradius-supports-hacktoberfest-2020/"
+  status = 301
+
+[[redirects]]
+  from = "/identity/customer-experience-retail-industry"
+  to = "/blog/growth/customer-experience-retail-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/identity/what-is-passwordless-login/index"
+  to = "/blog/identity/what-is-passwordless-login/"
   status = 301
