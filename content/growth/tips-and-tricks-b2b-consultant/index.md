@@ -66,7 +66,7 @@ Remember, every like, comment, and share will do wonders in promoting your produ
 
 When it comes to any kind of business, reputation is everything. This matters even more when you are a B2B because you are selling to tough business owners who analyze their ROI (return on investments) before handing over their money. Prioritize building credibility so your prospects will believe in your brand. If your prospects trust you, they will recommend you to others. Most of all, they will remain loyal to you and become repeat customers. 
 
-Make sure you can demonstrate your competence by showing relevant facts and figures that illustrate your stellar results. Be concrete and thorough when you make presentations to prove that you have what it takes to [help their business grow](https://www.loginradius.com/blog/fuel/2021/02/attract-consumers-to-your-website/). 
+Make sure you can demonstrate your competence by showing relevant facts and figures that illustrate your stellar results. Be concrete and thorough when you make [presentations](https://www.visme.co/presentation-software/) to prove that you have what it takes to [help their business grow](https://www.loginradius.com/blog/fuel/2021/02/attract-consumers-to-your-website/). 
 
 It would help if you also scaled your advice to suit the needs of your prospects. It is vital to [conduct maturity assessments](https://surveyanyplace.com/how-to-market-your-consulting-business-using-assessments/) to evaluate the requirements of your client's business. In doing so, you can craft customized recommendations and specific plans of action. 
 
