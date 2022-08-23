@@ -21,10 +21,6 @@
 /async/What-is-adaptive-authentication /blog/engineering/what-is-adaptive-authentication/ 301 
 /async/page/guest-blog /blog/guest-blog/ 301 
 /async/rss.xml /blog/rss.xml/ 301 
-/async/tags/* /blog/tags/:splat 301 
-/async/author/* /blog/author/:splat 301 
-/async/* /blog/engineering/:splat 301 
-/async /blog/engineering 301 
 /start-with-identity/OAuth-authentication-vulnerabilities /blog/identity/oauth-authentication-vulnerabilities/ 301 
 /start-with-identity/Multi-Factor-Authentication-A-Beginners-Guide /blog/identity/multi-factor-authentication-a-beginners-guide/ 301 
 /start-with-identity/Single-Sign-On-A-Beginners-Guide /blog/identity/single-sign-on-a-beginners-guide/ 301 
@@ -36,10 +32,6 @@
 /start-with-identity/Maintaining-Quality-Data-Security-Practices /blog/identity/maintaining-quality-data-security-practices/ 301 
 /start-with-identity/page/guest-blog /blog/guest-blog/ 301 
 /start-with-identity/rss.xml /blog/rss.xml/ 301 
-/start-with-identity/category/* /blog/tags/:splat 301 
-/start-with-identity/author/* /blog/author/:splat 301 
-/start-with-identity/* /blog/identity/:splat 301 
-/async /blog/engineering/ 301 
 /fuel/how-CISO-can-improve-collaboration-on-security-risks /blog/growth/how-ciso-can-improve-collaboration-on-security-risks/ 301 
 /fuel/customer-identity-drives-digital-eCommerce-success /blog/growth/customer-identity-drives-digital-ecommerce-success/ 301 
 /fuel/How-to-add-Twitter-Blue-Checkmark /blog/growth/how-to-add-twitter-blue-checkmark/ 301 
@@ -76,8 +68,6 @@
 /fuel/How-customer-retention-can-help-businesses-grow /blog/growth/how-customer-retention-can-help-businesses-grow/ 301 
 /fuel/page/guest-blog /blog/guest-blog/ 301 
 /fuel/rss.xml /blog/rss.xml/ 301 
-/fuel/author/* /blog/author/:splat 301 
-/fuel/* /blog/growth/:splat 301 
 /2020/05/customer-experience-retail-industry /blog/growth/customer-experience-retail-industry/ 301 
 /2020/03/improve-customer-experience-hospitality-industry /blog/growth/improve-customer-experience-hospitality-industry/ 301 
 /2020/02/customer-experience-media-entertainment-industry /blog/growth/customer-experience-media-entertainment-industry/ 301 
@@ -157,3 +147,11 @@
 /async/challenges_faced_by_qa /blog/engineering/challenges-faced-by-qa/ 301
 /async/git_rebase_vsgit_merge /blog/engineering/git-rebase-vs-git-merge/ 301
 /async/user-authentication-in-python /blog/engineering/guest-post/user-authentication-in-python/ 301
+/fuel/author/* /blog/author/:splat 301 
+/fuel/* /blog/growth/:splat 301 
+/async/tags/* /blog/tags/:splat 301 
+/async/author/* /blog/author/:splat 301 
+/async/* /blog/engineering/:splat 301
+/start-with-identity/category/* /blog/tags/:splat 301 
+/start-with-identity/author/* /blog/author/:splat 301 
+/start-with-identity/* /blog/identity/:splat 301
