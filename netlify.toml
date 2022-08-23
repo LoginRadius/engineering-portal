@@ -462,3 +462,10 @@
   from = "/identity/what-is-passwordless-login/index"
   to = "/blog/identity/what-is-passwordless-login/"
   status = 301
+  
+[[redirects]]
+  from = "/identity/benefits-of-2fa/"
+  to = "/blog/identity/benefits-of-mfa/"
+  status = 301
+  
+  
