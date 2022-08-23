@@ -331,7 +331,7 @@ Now we need to integrate the LoginRadius [manage account endpoint](https://www.l
 In the body, we pass the account information in a specific format that we extract from the `accountDetails` signal. If the API throws an error, we clear the signal state and show the error message using an alert. If the API is successful, we log the response to the console. 
 
 ```jsx
-const handleSignup=(e)=>{
+const handleSubmit=(e)=>{
         e.preventDefault();
         console.log(accountDetails());
        
@@ -549,6 +549,26 @@ export default function Home(){
     )
 }
 
+
+```
+We'll also need to render the Home page on the / route in our `App.jsx` file:
+
+```jsx
+...
+import Home from './components/Home';
+...
+
+function App() {
+  return <>
+    <Routes>
+      <Route path="/" component={Home} />
+      <Route path="/login" component={Login} />
+      <Route path="/signup" component={Signup} />
+    </Routes>
+  </>
+}
+
+export default App;
 
 ```
 
