@@ -147,11 +147,3 @@
 /async/challenges_faced_by_qa /blog/engineering/challenges-faced-by-qa/ 301
 /async/git_rebase_vsgit_merge /blog/engineering/git-rebase-vs-git-merge/ 301
 /async/user-authentication-in-python /blog/engineering/guest-post/user-authentication-in-python/ 301
-/fuel/author/* /blog/author/:splat 301 
-/fuel/* /blog/growth/:splat 301 
-/async/tags/* /blog/tags/:splat 301 
-/async/author/* /blog/author/:splat 301 
-/async/* /blog/engineering/:splat 301
-/start-with-identity/category/* /blog/tags/:splat 301 
-/start-with-identity/author/* /blog/author/:splat 301 
-/start-with-identity/* /blog/identity/:splat 301
