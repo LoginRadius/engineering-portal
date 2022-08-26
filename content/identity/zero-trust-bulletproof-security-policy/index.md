@@ -1,7 +1,7 @@
 ---
 title: "Implementing Zero Trust? Make Sure You're Doing It Correctly"
 date: "2022-08-23"
-coverImage: "zero-trust.jpg"
+coverImage: "zt-1.jpg"
 tags: ["zero trust", "MFA", "data breaches"]
 author: "Deepak Gupta" 
 description: "Though zero trust architecture may be potent for reinforcing overall security, chances of sneaking and security breaches aren’t always zero. If not implemented correctly, zero trust could lead to various security and user experience issues and hampers overall business growth."
