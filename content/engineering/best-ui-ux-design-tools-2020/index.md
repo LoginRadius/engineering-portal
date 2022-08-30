@@ -6,6 +6,7 @@ author: "Hitesh Kumawat"
 tags: ["Design", "UX", "Tools"]
 description: "As a designer, often wondered which new tools and utilities, other designers are using? So here is a list of all the tools and utilities famous around the world in designers."
 ---
+
 # **Contents**
 
 1. Inspiration
@@ -25,9 +26,9 @@ These are the websites where the world’s top design talents share their works 
 
 ### 1. **Behance -Top Creative Work On Behance**
 
- Showcase and discover the latest work from top online portfolios by creative professionals across industries.
+Showcase and discover the latest work from top online portfolios by creative professionals across industries.
 
- [www.behance.net](https://www.behance.net)
+[www.behance.net](https://www.behance.net)
 
 ### 2. **Dribble - Discover the World's Top Designers & Creative Professionals**
 
@@ -37,12 +38,9 @@ Dribbble is where designers gain inspiration, feedback, community, and jobs and 
 [dribbble.com](https://dribbble.com)
 
 
-
 ### 3. **Awwwards - Website Awards(Best Web Design Trends)**
 
-
 Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers and designers.
-
 
 [www.awwwards.com](https://www.awwwards.com)
 
@@ -192,6 +190,12 @@ Iconscout comes with integrated Plugins, conversion Tools, and simple, powerful 
 An aggregator that indexes various free avatar sources that you can use in your design mockups by copy-paste, API, plugins…
 
 [uifaces.co](https://uifaces.co)
+
+### 7. **Freepik (Star Vectors and Illustrations)**
+
+A collection of star vectors in various styles and illustrations with over 30 collections and 290k images.
+
+[www.freepik.com](https://www.freepik.com/vectors/star)
 
 ##  Mockups
 
