@@ -2,7 +2,7 @@
 title: "6 Alternative Authentication Methods For Your Online Customers"
 date: "2022-08-26"
 coverImage: "reliable-auth.jpg"
-category: ["authentication", "biometric authentication", "digital trust"]
+tags: ["authentication", "biometric authentication", "digital trust"]
 author: "Andre Oentoro"
 description: "Providing alternative authentication methods to your customers will not only make your site more secure but will also give them peace of mind knowing that their information is well-protected. This blog breaks down the popular authentication methods to consider for your customers."
 metatitle: "6 Most Reliable Authentication Methods For Customers"
