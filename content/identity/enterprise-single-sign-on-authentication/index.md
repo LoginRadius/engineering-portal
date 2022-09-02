@@ -10,7 +10,7 @@ metatitle: "5 Reasons Why B2C Enterprises Should Use Single Sign-on"
 metadescription: "SSO eliminates the need to provide users with multiple login credentials. Learn five reasons why  B2C enterprises should use single sign-on authentication."
 ---
 
-Single sign-on authentication, or SSO, is becoming more commonplace as the digital revolution continues to evolve. With numerous benefits for customers and companies alike, [SSO helps](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/) streamline user experience, aid movement between applications and services, and secure the transfer of pertinent information about customers between organizations.
+Single sign-on authentication, or SSO, is becoming more commonplace as the digital revolution continues to evolve. With numerous benefits for customers and companies alike, [SSO helps](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) streamline user experience, aid movement between applications and services, and secure the transfer of pertinent information about customers between organizations.
 
 - [**Web SSO**](https://www.loginradius.com/web-and-mobile-sso/) means that your customers have only one set of login details for all of your services and can switch seamlessly between applications. **Mobile SSO** allows your customers to switch seamlessly between mobile applications if you have more than one. SSO also allows user access to multiple applications without the need for separate login accounts.
 - [**Federated SSO**](https://www.loginradius.com/federated-sso/) uses a range of industry-standard protocols including SAML, JWT, OAuth, OpenID Connect, and more to allow the same seamless experience between service applications from a range of providers and sources.
@@ -35,9 +35,9 @@ Don’t be one of these companies. You probably won’t end up with frustrated c
 
 ![single sign-on authentication](SSO-Blog-03.png)
 
-A unified customer profile is the first step to a smarter company. With [CIAM](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/), you’ll have a single location for everything about individual customers (including their login and service usage data).
+A unified customer profile is the first step to a smarter company. With [CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), you’ll have a single location for everything about individual customers (including their login and service usage data).
 
-What’s more, CIAM creates a unified customer profile on which to base all other metrics and predictions. Customer-specific data can be used in marketing, sales, customer support, content planning, product development, customer security, and more. [Unified customer profiles](https://www.loginradius.com/blog/2017/08/unified-customer-identities-increase-ecommerce-conversions-revenue/) are simply a brilliant resource for rich data, metrics, and analytics that multiple departments can use.
+What’s more, CIAM creates a unified customer profile on which to base all other metrics and predictions. Customer-specific data can be used in marketing, sales, customer support, content planning, product development, customer security, and more. [Unified customer profiles](https://www.loginradius.com/blog/growth/improve-customer-experience-ecommerce/) are simply a brilliant resource for rich data, metrics, and analytics that multiple departments can use.
 
 ## 3. Single Sign-on Saves Money
 
