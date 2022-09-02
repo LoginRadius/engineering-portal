@@ -47,7 +47,7 @@ In theory, this appears to be true, but with common-sense practices, SSO can act
 
 Since users only need to remember one password for multiple applications, they’re more likely to create a stronger (harder to guess) passphrase, and less likely to write it down. These best practices reduce the risk of password theft. 
 
-As explained in the next section, a single sign-on strategy can also be combined with [multi-factor authentication (MFA)](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) for extra security.
+As explained in the next section, a single sign-on strategy can also be combined with [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) for extra security.
 
 ![Customer uses SSO while Hacker is blocked via Risk-Based Authentication.](hacker-blocked-RBA-graphic-7-Benefits-SSO-1024x805.png)
 

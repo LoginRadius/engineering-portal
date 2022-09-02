@@ -12,7 +12,7 @@ metadescription: "Single Sign On allows customers to use a single digital identi
 
 ## Introduction
 
-Introducing Single Sign On (SSO) to your customers can offer greater security and improved usability. That’s two of the many key [benefits of SSO.](https://www.loginradius.com/blog/2019/11/benefits-single-sign-on-sso/)
+Introducing Single Sign On (SSO) to your customers can offer greater security and improved usability. That’s two of the many key [benefits of SSO.](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/)
 
 Let’s face it. No one likes remembering credentials. They seem like exerting a lot of pressure on the memory. What's worse is many use the same username and password, irrespective of the application they are using.
 
@@ -32,7 +32,7 @@ SSO is an essential feature of an Identity and Access Management (IAM) platform 
 
 ## What are the Benefits of Single Sign-On?
 
-Single Sign-On clearly minimizes the risk of poor password habits. Also, removing login credentials from servers or network storage can help a great deal in [preventing a cyber attack](https://www.loginradius.com/blog/2019/10/cybersecurity-attacks-business/). 
+Single Sign-On clearly minimizes the risk of poor password habits. Also, removing login credentials from servers or network storage can help a great deal in [preventing a cyber attack](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/). 
 
 ### Benefits for Customers
 
@@ -51,7 +51,7 @@ Single Sign-On clearly minimizes the risk of poor password habits. Also, removin
 
 ## How to Choose a Secure SSO Solution?
 
-Your SSO solution must meet the basic needs to support IT needs. That means a stable solution and a highly functional one. Today, digital transformation relies on a platform for [Customer](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) [](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) [Identity and Access Management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) (CIAM), which includes SSO and other tools. So, here what you need to keep in mind while narrowing down your SSO solution. 
+Your SSO solution must meet the basic needs to support IT needs. That means a stable solution and a highly functional one. Today, digital transformation relies on a platform for [Customer](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) [](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) [Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM), which includes SSO and other tools. So, here what you need to keep in mind while narrowing down your SSO solution. 
 
 ![](Loginradius-secure-sso-solution.jpg)
 
@@ -60,9 +60,9 @@ Your SSO solution must meet the basic needs to support IT needs. That means a st
 - **Support for Developers**: Make sure your SSO solution provides adequate life-cycle management API support and SDKs for major platforms. 
 - **Authentication**: What about the extra layer of security? Find out if it supports MFA, adaptive authentication, automatic forced authentication, and more. 
 - **Federation**: Find out if you will be allowed to use any corporate identity provider you prefer. Make sure it supports Microsoft Active Directory, Google Directory, etc. 
-- **Mobile phones ready**: Ensure that your identity platform supports SSO for mobile devices and syncs well with various [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) tools. 
+- **Mobile phones ready**: Ensure that your identity platform supports SSO for mobile devices and syncs well with various [multi-factor authentication](hhttps://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) tools. 
 - **Flexible rules governing passwords**: It should support password validation requirements like customizable password expiration limit, password complexity, and expiration notifications. 
-- **Safety reputation**: Check out if it meets security standards like ISO 27017, ISO 27018, ISO 27001, SOC 2 Type 2, and global compliances like the [GDPR and CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/), etc.
+- **Safety reputation**: Check out if it meets security standards like ISO 27017, ISO 27018, ISO 27001, SOC 2 Type 2, and global compliances like the [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/), etc.
 - **Behavioral analytics**: Find out if it allows you to blacklist or whitelist IPs, set responses to counter brute force attempts and there are provisions for re-authentication.
 
 ## How LoginRadius Single Sign-On Authentication Works?
