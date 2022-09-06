@@ -24,7 +24,7 @@ At the same time, the buyers of today have more options than ever before. If a b
 
 In the customer context, transparency basically means being clear, honest, and timely in all customer communications. It extends to good news (“you are eligible for a 20% discount on our services for a year”), bad news (“the item you ordered is not available in that color”), and general updates (“we have launched new product features.”)
 
-Transparency plays an equally important role in sales, especially when you are making contracts and negotiating pricing with SLAs. Ensuring clear and timely communication with the customers and stakeholders during sales contract management is a vital aspect of the customer life cycle that also helps maximize revenues.
+Transparency plays an equally important role in sales, especially when you are making contracts and negotiating pricing with SLAs. Ensuring clear and timely communication with the customers and stakeholders during [sales contract management](https://dealhub.io/glossary/contract-management/) is a vital aspect of the customer life cycle that also helps maximize revenues.
 
 Besides, transparency includes clear disclosure about company policies, such as with regard to returns or data usage, and consistently asking for customer feedback. Clarity happens when everything in the company is documented and processed adequately. So, how does data transparency play a critical role in building connected consumer journeys? Let us find out.
 
@@ -91,7 +91,7 @@ Staying ahead of demand and supply patterns is what sets the best brands apart f
 
 ### 5. Optimal pricing
 
-Are your customers paying the best price for your products or services? Given how volatile markets can be, demand can shift in an instant, and your prices need to reflect that. [Real-time pricing data](https://www.sciencedirect.com/science/article/pii/S0925527321003431) can help you stay in touch with trends and set the right price, whether you are trying to sell out stocks or have a limited-edition piece that has gone viral.
+Are your customers paying the best price for your products or services? Given how volatile markets can be, demand can shift in an instant, and your prices need to reflect that. Real-time pricing data can help you stay in touch with trends and set the right price, whether you are trying to sell out stocks or have a limited-edition piece that has gone viral.
 
 This also helps with transparency, as customers can check the exact extent of the deal they are getting at any point.
 
