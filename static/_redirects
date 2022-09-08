@@ -1,3 +1,4 @@
+/guest-blog/ /blog/ 301 
 /async/introduction-of-Idx-Auto-Tester/ /blog/engineering/introduction-of-idx-auto-tester/ 301
 /async/exception_handling_in_csharp/ /blog/engineering/exception-handling-in-csharp/ 301
 /async/loginscreen_testing_tips/ /blog/engineering/loginscreen-testing-tips/ 301
@@ -17,7 +18,7 @@
 /async/Optimal-Clusters-KMeans/ /blog/engineering/optimal-clusters-kmeans/ 301
 /async/Secure-Enclave-iOS-app/ /blog/engineering/secure-enclave-ios-app/ 301
 /async/What-is-adaptive-authentication/ /blog/engineering/what-is-adaptive-authentication/ 301
-/async/page/guest-blog/ /blog/guest-blog/ 301
+/async/page/guest-blog/ /blog/ 301
 /async/rss.xml/ /blog/rss.xml/ 301
 /start-with-identity/OAuth-authentication-vulnerabilities/ /blog/identity/oauth-authentication-vulnerabilities/ 301
 /start-with-identity/Multi-Factor-Authentication-A-Beginners-Guide/ /blog/identity/multi-factor-authentication-a-beginners-guide/ 301
@@ -28,7 +29,7 @@
 /start-with-identity/what-is-Phone-Login/ /blog/identity/what-is-phone-login/ 301
 /start-with-identity/how-to-protect-business-BGP-hijacking/ /blog/identity/how-to-protect-business-bgp-hijacking/ 301
 /start-with-identity/Maintaining-Quality-Data-Security-Practices/ /blog/identity/maintaining-quality-data-security-practices/ 301
-/start-with-identity/page/guest-blog/ /blog/guest-blog/ 301
+/start-with-identity/page/guest-blog/ /blog/ 301
 /start-with-identity/rss.xml/ /blog/rss.xml/ 301
 /fuel/how-CISO-can-improve-collaboration-on-security-risks/ /blog/growth/how-ciso-can-improve-collaboration-on-security-risks/ 301
 /fuel/customer-identity-drives-digital-eCommerce-success/ /blog/growth/customer-identity-drives-digital-ecommerce-success/ 301
@@ -64,7 +65,7 @@
 /fuel/20-Content-Ideas-for-Most-Engaging-B2B-LinkedIn-Posts/ /blog/growth/20-content-ideas-for-most-engaging-b2b-linkedin-posts/ 301
 /fuel/Why-is-Consumer-Onboarding-Critical-for-Startups/ /blog/growth/why-is-consumer-onboarding-critical-for-startups/ 301
 /fuel/How-customer-retention-can-help-businesses-grow/ /blog/growth/how-customer-retention-can-help-businesses-grow/ 301
-/fuel/page/guest-blog/ /blog/guest-blog/ 301
+/fuel/page/guest-blog/ /blog/ 301
 /fuel/rss.xml/ /blog/rss.xml/ 301
 /2020/05/customer-experience-retail-industry/ /blog/growth/customer-experience-retail-industry/ 301
 /2020/03/improve-customer-experience-hospitality-industry/ /blog/growth/improve-customer-experience-hospitality-industry/ 301
