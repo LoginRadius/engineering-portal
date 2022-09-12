@@ -6,7 +6,7 @@ tags: ["digital identity", "smart cities", "authentication"]
 author: "Yash Rathi"
 description: " Identity management has been a game-changer for enterprises for decades as it helps businesses succeed by ensuring the highest level of security and great user experience. 
 Let’s understand the aspects of leveraging identity management through a reliable customer identity and access management (CIAM) platform for fixing security and usability issues in the public sector."
-metatitle: "How is Federated Identity Management different from SSO?"
+metatitle: "Need To Fix Citizen's Security? Fix Identity"
 metadescription: "The role of identity management in the government sector can’t be overlooked when it comes to securing citizens’ crucial information. Read on to know more."
 ---
 
