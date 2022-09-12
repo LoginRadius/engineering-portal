@@ -71,7 +71,7 @@ For instance, you can use behavioral biometrics.
 
 Biometrics is one of the most effective methods of customer verification because physical traits like fingerprints and retina scans cannot be faked. Behavioral biometrics go one step further by considering how a person types or handles their mouse or mobile device as well as their physical characteristics.
 
-[![mob-bio](mob-bio.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet.png)
+[![mob-bio](mob-bio.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### 3. Speed things up with SSO.
