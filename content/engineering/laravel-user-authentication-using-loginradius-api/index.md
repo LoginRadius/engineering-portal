@@ -1,4 +1,13 @@
-In this article, we will implement LoginRadius on a Laravel project. You can jump ahead and get the code used to create this guide on this [GitHub repository](https://github.com/Rose-stack/Laravel-User-Authentication-with-LoginRadius-API).
+---
+title: "Laravel User Authentication with LoginRadius API"
+date: "2022-09-15"
+coverImage: "coverImage.png"
+author: "Rose Chege"
+tags: ["Laravel", "API", "Authentication"]
+description: "In this article, you will implement LoginRadius authentication on a Laravel project."
+---
+
+In this article, you will implement LoginRadius authentication on a Laravel project. You can jump ahead and get the code used to create this guide on this [GitHub repository](https://github.com/Rose-stack/Laravel-User-Authentication-with-LoginRadius-API).
 
 ## Prerequisites
 
