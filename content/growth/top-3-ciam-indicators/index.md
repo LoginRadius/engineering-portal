@@ -7,7 +7,7 @@ featured: false
 author: "Vishal Sharma"
 description: "CIAM offers the luxury of a centralized database to provide a secure and seamless consumer experience. In this post, we’ve discussed the CIAM indicators that ensure you’re getting adequate ROI and eventually safeguarding consumer satisfaction."
 metadescription: "Winning consumer trust is easy with a reliable Consumer Identity and Access Management solution. Here’s the list of CIAM indicators depicting consumer success."
-metatitle: "Top 3 CIAM Indicators That You’ll Get the Consumer Satisfaction You Deserve"
+metatitle: "3 CIAM Benchmarks You're Probably Forgetting To Track"
 ---
 
 
