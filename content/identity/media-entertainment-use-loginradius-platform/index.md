@@ -6,7 +6,7 @@ tags: ["LoginRadius"]
 featured: false 
 author: "Navanita Devi"
 description: "Every industry takes a different approach to identity management. When it comes to media and entertainment, viewers love to move around a lot. As a result, before embarking on the journey, organizations must first understand a few things. For example, what goal they hope to achieve, how does a CIAM platform fits into the picture, and how do they find the best solution."
-metatitle: "How Entertainment Companies Use LoginRadius's CIAM platform"
+metatitle: "What Entertainment Companies Need To Know About LoginRadius?"
 metadescription: "Identity management is an indispensable factor of the entertainment industry today. This blog explains how the LoginRadius CIAM platform adds to viewers’ delight."
 ---
 
