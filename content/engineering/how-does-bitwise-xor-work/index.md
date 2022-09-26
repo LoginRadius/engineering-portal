@@ -23,10 +23,10 @@ XOR table:
 Example:  `4^3 = 7`
 ```javascript
 In binary: 
-	     1000
+	     0100
 	   ^ 0011
 	    ------
- Result:     1011  => (7)
+ Result: 0111  => (7)
 ```
 #### XOR with negative numbers
 Let's understand with an example `-4^-2 = 2`
