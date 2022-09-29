@@ -87,5 +87,35 @@ In this article, we talked about applying a [Social Login on consumers](https://
 Cheers!
 
 
+## Frequently Asked Questions (FAQs)
+
+1. **Which is the most popular social login?**
+
+According to the [Consumer Identity Trend Report 2022](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022), 26.84% of users prefer social login. And Facebook login is the most popular social login method. 
+
+
+
+2. **What is a social login app?**
+
+Social login enables you to authenticate your users on your website or application using their existing social media profiles on your website or application. The most common social media platforms for login include Facebook, Gmail, Instagram, etc. 
+
+
+
+3. **What data do you get with social login?**
+
+Social login provides you with a deep insight into your customer behavior and preferences that helps you create personalized customer journeys and aggressive [marketing campaigns](https://www.loginradius.com/blog/growth/advantage-social-login-as-marketer/).
+
+
+
+4. **How much does social login cost?**
+
+Depending on the business requirements and platform preferences, your platform's social login integration price varies. You can get a [quick quote from our sales team](https://www.loginradius.com/contact-sales/) to know the exact prices for your business needs. 
+
+
+
+5. **How to use Facebook for social login?**
+
+Facebook login can be integrated with your website or mobile application for seamless login by using the [LoginRadius CIAM](https://www.loginradius.com/social-login/). 
+
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
