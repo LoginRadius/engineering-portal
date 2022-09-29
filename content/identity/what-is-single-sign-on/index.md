@@ -161,7 +161,7 @@ Businesses can leverage SSO to deliver a seamless user experience at every touch
 
 4. **What is the difference between SSO and federation?**
 
-The main difference between Identity [Federation and SSO](https://www.loginradius.com/blog/start-with-identity/federated-identity-management-vs-sso/#:~:text=same%20as%20FIM.-,The%20main%20difference%20between%20Identity%20Federation%20and%20SSO%20lies%20in,access%20systems%20across%20federated%20organizations.) lies in the range of access. SSO allows users to use a single set of credentials to access multiple systems within a single organization (a single domain). On the other hand, Federation lets users access systems across federated organizations.
+The main difference between Identity [Federation and SSO](https://www.loginradius.com/blog/start-with-identity/federated-identity-management-vs-sso/) lies in the range of access. SSO allows users to use a single set of credentials to access multiple systems within a single organization (a single domain). On the other hand, Federation lets users access systems across federated organizations.
 
 
 
