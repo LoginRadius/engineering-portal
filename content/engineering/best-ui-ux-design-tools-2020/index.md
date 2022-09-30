@@ -153,7 +153,7 @@ Open-source illustrations for every project you can imagine and create.
 
 ### 2. **Ouch by Icons8 (Illustration)**
 
-#### **Free vector illustrations - Ouch.pics**
+#### **Free [vector illustrations](https://www.freepik.com/vectors/star) - Ouch.pics**
 
 Creators who don't draw face the problem of the boring content for app screens, articles, landing pages, and emails…
 
