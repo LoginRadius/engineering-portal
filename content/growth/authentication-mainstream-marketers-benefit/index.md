@@ -1,80 +1,114 @@
 ---
-title: "Authentication Has Gone Mainstream: Are Marketers Ready to Take the Responsibility?"
-date: "2022-07-29"
-coverImage: "auth-marketers.jpg"
-category: ["authentication", "authorization", "customer verification"]
-author: "Srishti Singh"
-description: "Authentication is the most important security feature any application can have because it's the gateway through which users interact with your data. This blog explains how marketers can leverage user authentication."
+title: "How Authentication Leads The Way in Strategic Customer Acquisitions?"
+date: "2022-10-12"
+coverImage: "auth-benefit.jpg"
+category: ["customer authentication", "email authentication", "customer acquisition"]
+author: "Grigori Monaselidze"
+description: "With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business. This blog explains how authentication can help you increase your customer acquisition."
 metatitle: "Authentication is Now Mainstream: Can Marketers Benefit?"
 metadescription: "User authentication allows marketers to better understand who their customers are and what they want. Learn how marketers can benefit from authentication."
 ---
 
 
 ## Introduction
-Marketers are no longer in the business of attracting customers; they're responsible for keeping them engaged. That shift has led to a new role in marketing — user authentication.
 
-Authentication is the process of confirming the identity of a user. In the digital world, it's used to verify that someone is who they say they are and that their information is accurate.
+Your business is your most valuable asset. Ensuring that you are sensitive to the security of your customers and their information is essential to building a stable and healthy relationship with them.
 
-It's an important responsibility because it helps marketers protect their brands from fraud and abuse. From phishing scams to fake reviews, there are many ways scammers try to game the system to steal money or reputations.
-
-
-## What is User Authentication?
-
-[User authentication](https://www.loginradius.com/blog/identity/what-is-authentication/) is the process of verifying that a user is who they claim to be.
-
-Authentication is the most important security feature any application can have because it's the gateway through which users interact with your data. Without proper authentication, an attacker could impersonate your users and access sensitive information or perform unauthorised actions on their behalf.
-
-Moreover, authentication is often [confused with authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/), which determines whether a user has the right to perform an action on a resource. That's why it's best to think of authentication as "proving you are who you say you are" and authorisation as "determining what actions can be performed."
-
-This distinction is important because some authentication mechanisms provide very strong guarantees about who can perform certain actions, while others only provide weaker guarantees about behaviour over time. For example, someone who knows your password may be able to access your account now but not later; however, someone who has been issued an RSA token or a biometric fingerprint reader will always be able to access your account until they lose possession of their device or their fingerprint changes significantly enough that their device no longer recognizes them.
+Customer Authentication and Email Authentication are the two security provisions we will discuss in this blog. 
 
 
-## How Marketers Can Leverage User Authentication?
+## What is Customer Authentication?
 
-Authentication is important in marketing because it helps to ensure that only real users get access to your content and products. If you allow anonymous access to your website or application, then anyone could be a potential customer of your product. However, only those who have registered themselves with you can access your content and services if you use authentication.
+[Customer authentication](https://www.loginradius.com/blog/identity/what-is-authentication/) includes various methods aimed to verify an identity of a person. This is particularly important during digital interaction between the customer and business. 
 
-Authentication helps marketers in many ways:
+If you are a customer, the authentication of your identity could contain various methods. You are either asked for something only you know, such as a password; something you have, such as an encryption token; or something you are, like the identity (User ID). 
 
+When one of these methods is used in combination with the User ID, it is referred to as Single Factor Authentication. Single Factor Authentication is not bullet-proof, yet security professionals and regulators recognize the need to balance out security and convenience to match the mutual satisfaction between the business and the consumer. 
 
-### 1. Reduce fraud with customer verification.
+Using two of the above-mentioned three methods is called Dual Factor Authentication and is considered to provide far more security, yet is not considered cost-effective. Single Factor Authentication can be nonetheless strong, if the method is selected properly. 
 
-User authentication is the process of collecting information about a user's identity to verify that they are who they claim to be. By authenticating users, you can ensure that only authorized users have access to your website or platform. This helps protect your site from fraud, abuse, and other security issues that might arise if it were not securely protected.
-
-**A Good Read:** [5 Ways to Improve Your Customer Verification Process](https://www.loginradius.com/blog/identity/how-to-improve-customer-verification-process/)
-
-
-### 2. Improve customer experience.
-
-User authentication allows marketers to better understand who their customers are and what they want. This can help improve the overall customer experience. For example, if you’re an online retailer, it would be helpful to know if a person has purchased from your site before or not so that you can tailor their experience accordingly.
-
-When prospective customers see that you're taking steps to verify their identities before doing business with them, it sends a signal that you're serious about security and privacy — which can build trust among potential buyers who might otherwise be wary of providing personal information to an unknown entity online.
+Let us briefly discuss the above-mentioned three methods of customer authentication.
 
 
-### 3. Boost conversion rates.
 
-[Authentication tools](https://www.loginradius.com/blog/growth/authentication-tools-boost-sales/) can help boost conversion rates by reducing the number of duplicate account registrations and false positives. When a user enters their email address or phone number, they'll receive a confirmation code via text or email to verify that they're not registering multiple accounts with the same information. This helps reduce abandoned shopping carts and returns while also increasing conversions.
+* **Password-based Authentication**
 
-The best part? You don't need to build any additional forms or create new pages on your site — you can just add a login box and ask people to log in before they give you their feedback. Using user authentication in this way is particularly useful if you're looking for feedback on something specific, like an upcoming product launch or a new feature that's not yet available publicly.
+Password is the most common Single Factor Authentication method. Evidently, customers prefer to recall their passwords quickly, therefore often neglect complexity, which is a requirement to keep your account safe. 
 
-
-### 4. Increase customer retention.
-
-Customer retention is one of the biggest challenges in the industry today. Customers are constantly being bombarded by new products, offers, and promotions. It’s difficult to keep them engaged and coming back to your brand.
-
-User authentication allows marketers to [improve customer retention](https://www.loginradius.com/blog/growth/improve-customer-relation-brand-identity/) by offering them a more personalized experience. By leveraging user authentication, marketers can tailor their marketing efforts toward their existing customers.
+It is recommended to keep the password case-sensitive with at least six characters long, while including at least two numbers and symbols. That kind of complexity ensures the security of your account, since the password will require the calculated amount of ten trillion attempts to crack, in case of an attack. This is why the debates are still being hold, whether customer-generated or provider-generated passwords are a better warrant of security.
 
 
-### 5. Improve content personalization.
 
-By identifying their users' preferences, marketers can create personalized content that resonates with them based on their previous actions on the site. For example, if someone has visited a certain page before and viewed a certain product, they will likely be interested in related products as well. With this information at hand, it's easier for brands to cater to individual needs by showing them relevant content and products over time that align with their interests.
+* **Knowledge-based Authentication**
 
-By improving content personalization and increasing customer satisfaction, marketers can generate more revenue through repeat purchases and referrals from happy customers!
+KBA, or Knowledge-based Authentication is a common method for securely aiding a customer in the recovery of their password. Since the challenge in this case lies in authentication, that the request of a password recovery was indeed submitted by the holder of the User ID. KBA asks a customer one or more questions to verify their identity.
 
 
-## Wrapping Up 
 
-As the world becomes more connected, users have become increasingly more aware of their digital privacy. In fact, according to a recent study from Google and Ipsos, 70% of Americans are concerned about their online privacy.
+* **Single Sign-On**
 
-Marketers need to strike a balance between user security and experience when it comes to user privacy. That means providing security services that won't frustrate customers who want to get the most out of their devices and applications.
+[Single sign-on](https://www.loginradius.com/single-sign-on/) or SSO, is mostly used by services using password as their main authentication method. SSO allows a customer to authenticate themselves once to use various accounts or systems. This provides comfort, as it eliminates the need to remember various passwords for various applications.
+
+[![user-auth-wp](user-auth-wp.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+
+All of the three above-mentioned customer authentication methods present a challenge, where a business must determine a common ground between comfort and security.
+
+
+## What is Email Authentication?
+
+Email authentication is also a collection of techniques to keep customers’ messages secure. The main aim of email authentication is to provide verifiable information about the email message the recipient received. That information verifies the ownership of the domain of any Message Transfer Agent who participated in the email exchange. This reassures your recipients of the [authenticity of your email messages](https://www.loginradius.com/blog/identity/secure-email-address-website/), that you are indeed who you claim to be.
+
+Originally, the Simple Mail Transfer Protocol had no solution to validate email messages. This was taken as an advantage by spammers, scammers, and spoofers to conduct various kinds of fraudulent activities. 
+
+Evidently, many customers would leave businesses due to their affiliation with such activities. If I subscribe to a service providing the best deals for summer vacations, for example, shall a Nigerian prince email me the next day with a similar domain, urgently requesting my credit card credentials to bring fortune to his kingdom and my family?
+
+To reduce the possibility of either of these fraudulent activities, many email authentication protocols have been developed. The ones used most are SPF, DKIM, and DMARC. They all serve a different purpose, but overall warrant email authentication.
+
+
+## Authentication, Customer Acquisition & Retention
+
+You can already see how these authentication methods greatly benefit customer acquisition and retention. If your customers have a guarantee, that by registering for your services and providing your servers with their contact information no spoofer, attacker,  or scammer shall reach them, that improves the business relationship. 
+
+But as we were brief, how else can email authentication help customer acquisition and retention? 
+
+With email authentication and email validation, you also greatly impact your email reputation. That in return directly affects your email deliverability rate. Of course, that is not the sole determining factor of your email deliverability rate. 
+
+However, if your emails are authenticated and have less affiliation with fraudulent activities, that has a significant impact on the deliverability on its own. With a positive email reputation and email deliverability, your email campaigns reach your customers. And your emails have various objectives in terms of [customer acquisition and retention](https://www.loginradius.com/blog/growth/improve-customer-relation-brand-identity/).
+
+Are you sending an email to present your customer with an exclusive offer to encourage them to prolong the business partnership, inform of a new feature, or simply aid them in updating their password? In this example, emails serve a different purpose, yet are united under the same aim - to retain a customer. With that in mind, how do we improve our email deliverability?
+
+
+### Email Deliverability
+
+Internet Service Providers enforce restrictions on reaching the recipients' main inboxes to fight the ongoing spam and scam. This works in favor of recipients, yet at times might work against them. They might miss important emails to update their password or check their product delivery status, however, that is a mistake on the sender’s end, not the recipient’s.
+
+To improve your email reputation with ISP and therefore impact your email deliverability, consider the following points:
+
+
+
+* Send emails only to users who want to receive them
+* Make the unsubscription option easy to reach
+* Remove emails with high bounce rates
+* Be consistent with your email campaigns
+* Integrate email authentication and email validation
+
+These points do not summerize the entire [guide on email deliverability](https://mailtrap.io/blog/email-deliverability/), yet do overview them very briefly. Email authentication increases email deliverability, since it prevents fraudulent email activities, like spoofing, [phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/), and more. Customers will receive your emails in their main inboxes and will know, that your emails are safe to interact with, as a legitimate source sends them.
+
+In an otherwise scenario, not integrating email authentication and email validation results in poor email deliverability. To your customers, this is:
+
+
+
+* Preventing them from regaining immediate access to their account
+* Preventing them from being reminded of your existence
+* Preventing from being notified of a new feature
+
+
+## In Conclusion
+
+We briefly overviewed the importance of customer authentication and email authentication. We learned what is customer authentication and email authentication, and mainly - how it impacts customer acquisition and retention.
+
+Email campaigns certainly can be tricky, a lot of resources are invested in strategizing their content and delivery. With a good email reputation and email authentication, those emails will reach the main inboxes and fulfill their objective. Customer authentication, on the other hand, is a vital part in ensuring the safety of any sensitive data the customer entrusts with your business. 
+
+With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
