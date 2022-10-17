@@ -5,8 +5,8 @@ coverImage: "auth-benefit.jpg"
 category: ["customer authentication", "email authentication", "customer acquisition"]
 author: "Grigori Monaselidze"
 description: "With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business. This blog explains how authentication can help you increase your customer acquisition."
-metatitle: "Authentication is Now Mainstream: Can Marketers Benefit?"
-metadescription: "User authentication allows marketers to better understand who their customers are and what they want. Learn how marketers can benefit from authentication."
+metatitle: "Why Authentication Is A Critical Customer Acquisition Tool?"
+metadescription: "Customer authentication should be your biggest concern when it comes to online security. This blog also explains how email authentication can protect your brand."
 ---
 
 
