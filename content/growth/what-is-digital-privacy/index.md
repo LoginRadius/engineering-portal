@@ -1,5 +1,5 @@
 ﻿---
-title: "Understading What is Digital Privacy"
+title: "Decoding the Business Advantage of Digital Privacy for Customers"
 date: "2022-11-03"
 coverImage: "digi-privacy.jpg"
 category: ["digital privacy", "data compliance", "authentication"]
