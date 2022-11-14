@@ -37,6 +37,8 @@ Storing configuration in the environment is one of the principles of a twelve-fa
 
 You don't need any external package to access the environment variables in Golang, and you can do that with the standard `os` package. Below is the list of functions related to environment variables and there uses.
 
+> Note: [Click here for an overview on Go Functions](https://compile7.org/decompile/go-functions-with-examples/)
+
 
 - `os.Setenv()` sets the value of an environment value.
 
