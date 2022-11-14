@@ -20,6 +20,8 @@ In this blog, we’ll look at different methods to send an email with Go, First,
 
 **smtp** is an inbuilt package provided with Golang. It implements the Simple Mail Transfer Protocol and has multiple functionalities related to it. Here to send the email we will be using only two functions **PlainAuth** and *SendMail* from the package.
 
+> Note: [Click here for an overview on Go Functions](https://compile7.org/decompile/go-functions-with-examples/)
+
  - **PlainAuth**: It uses the given username and password to authenticate to host and return an identity
 
  - **SendMail**: It connects to the server at address, switches to TLS if possible, authenticates with the optional mechanism an if possible, and then sends an email to the sender.

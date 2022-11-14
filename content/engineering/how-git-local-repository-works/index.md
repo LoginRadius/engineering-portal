@@ -53,3 +53,5 @@ Let's get into it step by step and see how we perform command or action and behi
 
 
 Hope this makes clear how git handling things at the local repository.
+
+> Note: [Click here to learn how you can automate your Git workflows with Hooks](https://compile7.org/decompile/how-to-automate-workflows-with-git-hooks/)
