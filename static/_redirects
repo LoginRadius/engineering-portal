@@ -1,4 +1,6 @@
 /guest-blog/ / 301 
+/engineering/git-fetch-remote-branch/ /engineering/git-commands/ 301
+/engineering/test-cases-for-registration-and-login-page/ /engineering/loginscreen-testing-tips/ 301
 /async/introduction-of-Idx-Auto-Tester/ /engineering/introduction-of-idx-auto-tester/ 301
 /async/exception_handling_in_csharp/ /engineering/exception-handling-in-csharp/ 301
 /async/loginscreen_testing_tips/ /engineering/loginscreen-testing-tips/ 301
