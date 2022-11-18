@@ -98,7 +98,7 @@ The process works in this way:
 
 ## In Conclusion
 
-“With no need to remember and enter complicated and insecure passwords, “frictionless”, password-free login methods appear to be the way of the future,” comments Ruban Selvanayagam of UK buying firm Property Solvers who have been investigating how to deploy cryptography and blockchain technology into the real estate industry.
+“With no need to remember and enter complicated and insecure passwords, “frictionless”, password-free login methods appear to be the way of the future,” comments Ruban Selvanayagam of <a rel="nofollow" href="https://www.propertysolvers.co.uk/we-buy-any-house/"> UK buying firm Property Solvers </a> who have been investigating how to deploy cryptography and blockchain technology into the real estate industry.
 
 From user “behaviour” analysis to asymmetric encryption, we can expect the authentication experience to flow more and more easily as the metaverse develops. All changes to the “login” process are likely to follow this pattern throughout the foreseeable future.
 

@@ -2,7 +2,7 @@
 title: "The Customer Experience is About to Get Even Better With Passive Authentication"
 date: "2022-11-17"
 coverImage: "passive-auth.jpg"
-category: ["customer experience", "passive authentication", "online shopping"]
+tags: ["customer experience", "passive authentication", "online shopping"]
 author: "Govind Malviya"
 description: "Passive authentication lets companies respond to the need for speed and convenience by making authentication seamless and automatic, thus avoiding security risks. Making the shift from active to passive can be a delicate process. But when it's done right, the benefits are immense."
 metatitle: "Is Passive Authentication the Future of Customer Experience?"
