@@ -105,7 +105,7 @@ However, product marketing can only work if you act right and follow some effect
 
   
 
--   Determine your buyer persona and target audience
+-   [Determine your buyer persona](https://visme.co/blog/buyer-persona-template/) and target audience
     
 
   
