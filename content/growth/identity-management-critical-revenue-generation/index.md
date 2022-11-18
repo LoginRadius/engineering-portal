@@ -2,7 +2,7 @@
 title: "Demystifying Identity Management For Revenue Generation - Going Beyond Compliance"
 date: "2022-10-17"
 coverImage: "revenue-generation.jpg"
-category: ["digital identoty management", "ciam", "customer data"]
+tags: ["digital identity management", "ciam", "customer data"]
 author: "Rakesh Soni"
 description: "Modern businesses quickly realize that leveraging digital identities as fuel for driving their organizational growth through personalization and robust identity security is becoming the need of the hour. This blog outlines the major depicting how identity management paves the way for organizational growth."
 metatitle: "Why is Identity Management Critical for Revenue Generation?"
