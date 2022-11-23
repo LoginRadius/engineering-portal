@@ -113,6 +113,7 @@
 /engineering/implement-facebook-social-login/	/integrating-twitter-social-login/     301
 /engineering/jwt-authentication-with-deno/	/jwt/     301
 /engineering/login-with-facebook/	/oauth2/     301
+/engineering/callback-vs-promises-vs-async-await/ /engineering/web-workers/ 301
 /engineering/my-name-is-darryl-this-is-how-work/	/beginners-guide-for-sublime-text/     301
 /engineering/pkce/	/oauth2/     301
 /engineering/everything-you-want-to-know-about-authorization-headers/ /identity/what-is-dynamic-authorization/ 301
