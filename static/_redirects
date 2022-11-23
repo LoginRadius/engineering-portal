@@ -115,6 +115,7 @@
 /engineering/login-with-facebook/	/oauth2/     301
 /engineering/my-name-is-darryl-this-is-how-work/	/beginners-guide-for-sublime-text/     301
 /engineering/pkce/	/oauth2/     301
+/engineering/everything-you-want-to-know-about-authorization-headers/ /identity/what-is-dynamic-authorization/ 301
 /engineering/pkce/	/golang-maps/     301
 /engineering/pkce/	/oAuth-implemenation-using-node/     301
 /engineering/progressive-app-vs-native-app/	/build-pwa-using-vanilla-javascript/     301
