@@ -1,4 +1,4 @@
-﻿---
+---
 title: "9 Facts About Social Login & CRO That You Should Know About"
 date: "2021-08-12"
 coverImage: "conversion-rate-optimization.jpg"
@@ -80,7 +80,7 @@ According to some studies, [1 in 3](https://web.archive.org/web/20171209150724/h
 
   
 
-Also Download: [Consumer Digital Identity Trend Report 2020](https://www.loginradius.com/resource/digital-identity-trends-2020/%5C)
+Also Download: [Consumer Digital Identity Trend Report 2020](https://www.loginradius.com/resource/digital-identity-trends-2020/)
 
   
 
