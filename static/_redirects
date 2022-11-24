@@ -133,6 +133,7 @@
 /engineering/understanding-kubernetes/	/production-grade-development-using-docker-compose/     301
 /engineering/using-facebook-graph-api-after-login/	/implement-facebook-social-login/     301
 /engineering/using-jwt-with-oauth2-when-and-why/	/jwt/     301
+/engineering/how-to-fix-memory-leaks-in-react/ /engineering/react-security-vulnerabilities/ 301
 /engineering/webauthn-authentication-application/	/password-security-best-practices-compliance/     301
 /engineering/webauthn-authentication-application/	/website-authentication-protocols/     301
 /engineering/webauthn-authentication-application/	/write-a-javascript-library-using-webpack-and-babel/     301
