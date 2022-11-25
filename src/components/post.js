@@ -49,10 +49,6 @@ const Post = ({ post, relatedPost, type }) => {
           content="3eb69d6a4ae94cb1a27493eb04268fdb"
           src="//cdn.social9.com/js/socialshare.min.js"
         ></script>
-        <script
-          defer
-          src="https://social9.com/comments/js/commento.js"
-        ></script>
       </Helmet>
 
       <section
