@@ -1,7 +1,7 @@
 ---
 title: "What is Authentication"
 date: "2021-03-29"
-coverImage: "coverpic.jpg"
+coverImage: "cover-auth.jpg"
 tags: ["security"]
 featured: false 
 author: "Manish Tiwari"
