@@ -18,17 +18,19 @@ Today's customer holds power. And as the customer continues to demand more, comp
 Passive authentication is one-way companies respond to this need for speed and convenience by making [authentication seamless](https://www.loginradius.com/authentication/) and automatic without sacrificing security.
 
 
-## The Absolute Necessity Of Passive Authentication
+## The Absolute Necessity of Passive Authentication
 
 Customer experience is no trivial pursuit. It's an ocean of data and information you must contend with in your attempts to surface the "right" customer at the "right" time. 
 
 Today's sophisticated customers expect, even demand, a superior experience that begins as soon as they get on your website but extends through micro-moments throughout their entire lifecycle. To deliver this kind of experience, authentication, fraud protection, and personalization need to be seamless within their everyday digital activities.
 
+## What is Passive Authentication?
+
 Passive authentication is the newest wave of customer experience, and it's set to revolutionize the way you interact with each other online. It enables people to quickly and easily authenticate themselves online with public and private sector organizations. It is a convenient way to identify yourself with businesses or government entities without filling out forms or entering passwords and to prove who you are so that you can access services and benefits more quickly than ever before. It relies on observing the user's behavior to determine if they are who they claim to be without requiring any additional work from the user.
 
 Passive authentication is frictionless; it lets users get on with their day without taking extra steps or making different decisions that might slow them down or cause frustration.
 
-[Securing User Authentication: Understanding the Basics & Best Practices](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+[![secure-auth-wp](secure-auth-wp.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
 
 
 ## Active Authentication vs. Passive Authentication: What's The Difference?
