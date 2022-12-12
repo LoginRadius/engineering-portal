@@ -1,17 +1,17 @@
 ---
-title: "ETC Connect: A LoginRadius Customer Success Story"
+title: "Electronic Theatre Controls: A LoginRadius Customer Success Story"
 date: "2022-12-08"
 coverImage: "etc-connect.jpg"
 tags: ["customer success", "identity management", "cx"]
 author: "Saikiran Babladi"
 description: "ETC now manages user identity centrally with LoginRadius CIAM. This allows the team to create and manage unified consumer profiles that can be used throughout the business’ entire digital ecosystem." 
-metatitle: "ETC Connect, a LoginRadius Customer Success Story"
-metadescription: "Discover how LoginRadius helped ETC Connect simplify its complex identity management challenges. Read the customer success story."
+metatitle: "ETC, a LoginRadius Customer Success Story"
+metadescription: "Discover how LoginRadius helped ETC simplify its complex identity management challenges. Read the customer success story."
 ---
 
 ## Introduction 
 
-ETC Connect is a global leader in the manufacture of lighting and rigging technology for venues large and small. As a premium marketplace innovator, the business' products are utilized in theaters, churches, hotels, schools, opera houses, and more across the globe.
+Electronic Theatre Controls (ETC) is a global leader in the manufacture of lighting and rigging technology for venues large and small. As a premium marketplace innovator, the business' products are utilized in theaters, churches, hotels, schools, opera houses, and more across the globe.
 
 As business is thriving for the pioneering North American firm, it realized that maintaining it, however, is only possible by identifying and delivering opportunities that are of greater value for customers. 
 
@@ -26,12 +26,12 @@ ETC web services, for example, are utilized by multiple user types (e.g., dealer
 
 While ETC identified an opportunity to simplify its customer experiences across multiple platforms, its leaders also wanted to streamline data management: making it easier than ever before to gain insights into the business' online operations.
 
-ETC Connect was impressed by LoginRadius' modular identity solution platform and its team's deep understanding of the complexities of managing and integrating identities with backend technologies.
+ETC was impressed by LoginRadius' modular identity solution platform and its team's deep understanding of the complexities of managing and integrating identities with backend technologies.
 
 
 ## Streamlining login, access and management
 
-Complying to the customer's needs, LoginRadius delivered a backend implementation of its reliable, secure services to ETC Connect in an organized, methodical, and seamless way.
+Complying to the customer's needs, LoginRadius delivered a backend implementation of its reliable, secure services to ETC in an organized, methodical, and seamless way.
 
 It needed to be in order to ensure the system's successful integration with a number of platforms - including [BigCommerce and HubSpot](https://www.loginradius.com/cloud-integrations/).
 
@@ -47,7 +47,7 @@ Working with LoginRadius ensures there are no identity silos - enabling ETC to s
 
 ## Simplifying how consumers connect to multiple web properties
 
-LoginRadius SSO supports a new identity management feature: single-sign on. Its introduction means users need just one login to access content across ETC Connect's various web platforms.
+LoginRadius SSO supports a new identity management feature: single-sign on. Its introduction means users need just one login to access content across ETC's various web platforms.
 
 With support from LoginRadius, ETC successfully unified its multiple products within a single ecosystem - allowing the business - to gain a unified view of its consumers (and their behaviors).
 
@@ -59,7 +59,7 @@ The centralized login system enables users to seamlessly navigate third-party si
 
 ## Identifying actionable behavioral insights
 
-To stay relevant to customers' changing needs, ETC Connect needed to gain a greater understanding of their customer's online behavior.
+To stay relevant to customers' changing needs, ETC needed to gain a greater understanding of their customer's online behavior.
 
 LoginRadius' advanced user segmentation and analytics tools deepen the team's understanding of its customers - creating opportunities to enhance targeting and personalization. Leveraging data from its reports allows the team to get the actionable insights they need to continue meeting customer expectations.
 
@@ -68,7 +68,7 @@ LoginRadius' Consumer Insights tool provides ETC with crucial information, such 
 
 ## The show must go on…
 
-To guarantee ETC Connect's success at every level, LoginRadius introduced dedicated account management and support from the outset…
+To guarantee ETC's success at every level, LoginRadius introduced dedicated account management and support from the outset…
 
 … and that continues to this day. Since completing their first project together, LoginRadius continues to work closely with the team as part of its larger, continuing activities.
  
