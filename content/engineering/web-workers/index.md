@@ -15,7 +15,7 @@ Web Workers are a browser feature that allows scripts to be executed on a separa
 
 Well, sort of. This has been something that had confused me many a time when I was initially learning about JavaScript. JavaScript a synchronous, single-threaded language. However, JavaScript has features that allow you to execute asynchronous code, which is handled by browser engines (on your client) or by your OS (in NodeJS), which are capable of executing code in multiple threads.
 
-We work with asynchronous methods in JavaScript by either using callbacks, [Promises or async/await](https://www.loginradius.com/blog/engineering/callback-vs-promises-vs-async-await/). We'll use Promises as an example for exploring asynchronicity in JavaScript.
+We work with asynchronous methods in JavaScript by either using callbacks, [Promises or async/await](https://compile7.org/decompile/callback-vs-promises-vs-async-await/). We'll use Promises as an example for exploring asynchronicity in JavaScript.
 
 Promises are proxies for values that are not yet available when the Promise is created. This lets you organize parts of your code to run when the value becomes available or if something goes wrong.
 
