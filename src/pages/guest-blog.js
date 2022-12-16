@@ -178,12 +178,6 @@ const Hacktoberfest2020 = () => {
                   </li>
                 </ul>
 
-                <h3>Monetary Rewards: Upto $200 Per Blog!</h3>
-                <p>
-                  For each blog shortlisted for our Engineering Blog category,
-                  we offer upto $200 USD.
-                </p>
-
                 <h3>Ready to Write?</h3>
                 <p>
                   Submit your topic idea and if we think it's the right fit,
