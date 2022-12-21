@@ -1,13 +1,12 @@
 ﻿---
-title: "Top 7 Security Tips from LoginRadius’ Cybersecurity Expert to Follow in 2022"
+title: "Top 7 Security Tips from LoginRadius’ Cybersecurity Expert to Follow in 2023"
 date: "2022-01-20"
 coverImage: "security-exp.jpg"
-tags: ["security"]
-featured: false 
+tags: ["cybersecurity", "security tips"]
 author: "Alok Patidar"
-description: "Alok Patidar, Information Security Manager at LoginRadius, shares his valuable insights for businesses to secure their sensitive information in 2022 and beyond. Read on to ensure the highest level of security across your organization."
-metatitle: "7 Tips from LoginRadius’ Security Expert to Follow in 2022"
-metadescription: "Cybercrimes will continue to rise in 2022. Here are some thoughtful tips from LoginRadius’ security expert that help safeguard your sensitive information."
+description: "Alok Patidar, Information Security Manager at LoginRadius, shares his valuable insights for businesses to secure their sensitive information in 2023 and beyond. Read on to ensure the highest level of security across your organization."
+metatitle: "7 Tips from LoginRadius’ Security Expert to Follow in 2023"
+metadescription: "Cybercrimes will continue to rise in 2023. Here are some thoughtful tips from LoginRadius’ security expert that help safeguard your sensitive information."
 ---
 
 
@@ -27,10 +26,10 @@ Well, the fact is that cybercriminals are continuously exploring new ways to byp
 
 Hence, organizations must update their overall security infrastructure and ensure they’re well-versed with the challenges pertaining to 2022 and beyond. 
 
-Here are some tips from LoginRadius’ **Information Security Manager, Alok Patidar** that would help you strengthen your organization’s security posture and would surely help prevent data breaches in 2022 and beyond. 
+Here are some tips from LoginRadius’ **Information Security Manager, Alok Patidar** that would help you strengthen your organization’s security posture and would surely help prevent data breaches in 2023 and beyond. 
 
 
-## Why Should Businesses Worry about Information Security in 2022? 
+## Why Should Businesses Worry about Information Security in 2023? 
 
 Amid the global pandemic, when everyone was locked inside their homes, and remote working became the new normal, the number of data breaches across the globe soared exponentially. 
 
