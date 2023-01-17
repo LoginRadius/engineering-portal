@@ -59,7 +59,7 @@ You can get our App Credentials, reset Secret key, update account password and g
 **Set Schema for Your LoginRadius Application**
 
 
-![cl-4](cl-4.png)
+![4](4.png)
 
 
 
