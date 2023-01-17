@@ -62,6 +62,7 @@ You can get our App Credentials, reset Secret key, update account password and g
 ![cl-4](cl-4.png)
 
 
+
 This command will help you set the schema for your application. We can get all the basic fields via _lr get schema_ we can update the schema via lr set schema. 
 
 **Theme Management (LoginRadius Page)**
