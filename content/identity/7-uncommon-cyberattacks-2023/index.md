@@ -1,5 +1,5 @@
 ---
-title: "7 Common Web Application Security Threats"
+title: "7 Uncommon Cyber Attacks in 2023: Why Your Organization Needs To Be Ready  For The Worst-Case Scenarios"
 date: "2023-01-27"
 coverImage: "uncommon.jpg"
 tags: ["cybersecurity", "identity management", "cyberattacks"]
