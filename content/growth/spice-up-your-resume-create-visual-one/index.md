@@ -29,10 +29,6 @@ Visual resumes are welcomed as the next thing in the recruitment world. Still ma
 
 **[Source](https://www.behance.net/gallery/26611697/Curriculum-Vitae)**
 
-![Virtual resume example 2](Virtual-resume-example-2.png?ver=1553881376)
-
-**[Source](http://www.vizualresume.com/wp-content/uploads/2011/07/brand-new-resume-SimoneFortunini_cv_en.png?ver=1553881376)**
-
 ![Virtual resume example 3](Virtual-resume-example-3.jpg?ver=1553881376)
 
 **[Source](https://biginterview.com/wp-content/uploads/2013-6-18-infographic-resume-3.jpg?ver=1553881376)** 
