@@ -1,5 +1,5 @@
 ---
-title: "What is CIAM? - Discover The Benefits"
+title: "What is Customer Identity and Access Management(CIAM)?"
 date: "2019-06-03"
 coverImage: "feature-image-2-1.jpg"
 tags: ["customer-identity", "identity-management", "login-experience", "authentication"]
@@ -66,7 +66,7 @@ A fundamental customer identity and access management  (CIAM) system provide th
 
 A streamlined customer experience delivered by an organization reflects that it’s up-to-date and concerned about providing the easiest login possible.
 
-By [providing a smooth login](https://theblog.adobe.com/everything-need-know-creating-smooth-login-experiences/) experience for your applications and services, you encourage customers to try out more of your digital offerings. The end result is a customer who is more embedded in your digital ecosystem, without extra effort.
+By providing a [smooth login experience](https://blog.loginradius.com/identity/social-authentication/) for your applications and services, you encourage customers to try out more of your digital offerings. The end result is a customer who is more embedded in your digital ecosystem, without extra effort.
 
 **_“A streamlined customer experience delivered by an organization reflects that it’s up-to-date and concerned about providing the easiest login possible.”_**
 
@@ -76,7 +76,7 @@ For example, [implementing a single sign-on](https://www.loginradius.com/single-
 
 ### **2\. Security for Data and Accounts**
 
-A standard CIAM system provides essential security features that safeguard both data and account access. For example, [with risk-based authentication](https://www.csoonline.com/article/3271134/how-risk-based-authentication-has-become-an-essential-security-tool.html), each customer’s usage and login patterns are monitored, making it easy to spot unusual (and therefore potentially fraudulent) activity.
+A standard CIAM system provides essential security features that safeguard both data and account access. For example, [with risk-based authentication](https://blog.loginradius.com/identity/risk-based-authentication/), each customer’s usage and login patterns are monitored, making it easy to spot unusual (and therefore potentially fraudulent) activity.
 
 For use cases where you need an extra layer of security, you can enable [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) (MFA), which verifies a customer’s identity by requiring a second step, such as entering an SMS code or clicking an email link.
 
@@ -84,7 +84,7 @@ Your secure login procedures reassure customers that they are safe using your se
 
 ### **3\. Scalability and Uptime**
 
-With just one customer identity management system that’s fully managed for you, reliability is maximized, and the need for resources is kept to a minimum. A [centralized login system](https://en.wikipedia.org/wiki/Central_Authentication_Service) for all of your apps and services makes it easy to add new services as they come online. A cloud implementation can quickly scale up or down depending on your usage, and automated failover can cut downtime to virtually zero.
+With just one customer identity management system that’s fully managed for you, reliability is maximized, and the need for resources is kept to a minimum. A [centralized login system](https://blog.loginradius.com/identity/secure-centralized-access-management-without-compromising-cx/) for all of your apps and services makes it easy to add new services as they come online. A cloud implementation can quickly scale up or down depending on your usage, and automated failover can cut downtime to virtually zero.
 
 **_“As your digital ecosystem grows, a modern CIAM solution reduces the workload for your IT department and makes it easy to expand your business.”_**
 
