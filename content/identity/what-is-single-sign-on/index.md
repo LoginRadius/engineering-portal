@@ -97,8 +97,6 @@ LoginRadius also acts as an IdP that stores and authenticates the identities use
 
 LoginRadius serves as a software provider providing end-user services. LoginRadius does not authenticate users but instead requests third-party Identity Provider authentication. LoginRadius relies on the identity provider to verify a user's identity and, if necessary, to verify other user attributes that the identity provider manages.
 
-![LoginRadius-as-a-Service-Provider](https://www.loginradius.com/blog/wp-content/uploads/sites/4/2019/05/LoginRadius-as-a-Service-Provider-1024x950.png)
-
 #### SAML
 
 Security Assertion Markup Language (SAML) is an open standard enabling identity providers (IdP) to pass credentials for authorization to service providers. In simple terms, it means that you can log into several different websites using one set of credentials.
