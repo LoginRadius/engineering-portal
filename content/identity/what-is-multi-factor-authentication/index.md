@@ -1,7 +1,7 @@
 ---
-title: "What is Multi-Factor Authentication (MFA)"
+title: "What is Multi-Factor Authentication (MFA)?"
 date: "2019-06-28"
-coverImage: "cover-2.jpg"
+coverImage: "mfa-cover.png"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni" 
@@ -21,7 +21,7 @@ MFA, also known as two-factor authentication (2FA), is an [extra authentication 
 
 The only difference between the two is that 2FA only uses two of the available additional checks to verify consumer identity, whereas MFA may use two or more than two checks. Simple password-based solutions were once used to secure data, however this method can only provide you with <a rel="nofollow" href="https://windowsreport.com/multi-factor-authentication-software/"> basic security </a>.
 
-## Why Should Businesses Use MFA to Protect Consumers
+## Why Should Businesses Use MFA to Protect Consumers?
 
 Traditional usernames and passwords can be easily compromised. In fact, they are highly vulnerable to cybercriminal attacks like brute force and [account takeovers](https://www.loginradius.com/blog/2020/04/corporate-account-takeover-attacks/).
 
@@ -103,7 +103,7 @@ Risk-based authentication (RBA) can also be used in conjunction with MFA. By mon
 
 A time-based one-time password (TOTP) is a passcode generated for a user in the current time, and it is valid for a set timeframe. Using this authentication method, you are basically creating a one-time password on the user side with the help of a smartphone. Because TOTP has nothing much to do with the server-side, it means the user will always have access to their one-time password on their smartphone.
 
-### How Secure Is Multi-Factor Authentication
+### How Secure Is Multi-Factor Authentication?
 
 ![How Secure Is Multi-Factor Authentication](Multi-Factor-Authentication-secure-1024x747.png)
 
