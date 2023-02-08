@@ -1,7 +1,7 @@
 ---
 title: "What is Customer Identity and Access Management(CIAM)?"
 date: "2019-06-03"
-coverImage: "feature-image-2-1.jpg"
+coverImage: "ciam-cover.png"
 tags: ["customer-identity", "identity-management", "login-experience", "authentication"]
 featured: false 
 author: "Rakesh Soni" 
