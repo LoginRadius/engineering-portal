@@ -1,5 +1,5 @@
 ---
-title: "Why Direct-to-Consumer (D2C) Businesses Must Take A Strategic Approach To CIAM?"
+title: "The Critical Role of SSO in Reshaping Digital Marketing Landscape"
 date: "2023-02-10"
 coverImage: "sso-role.jpg"
 category: ["sso", "digital marketing", "cx"]
