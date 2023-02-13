@@ -1,11 +1,11 @@
 ---
-title: "How Can D2C Brands Utilize CIAM for Long-Term Growth?"
+title: "Why Direct-to-Consumer (D2C) Businesses Must Take A Strategic Approach To CIAM?"
 date: "2023-02-10"
 coverImage: "d2c.jpg"
 tags: ["direct to consumer", "authentication", "ciam"]
 author: "Nicholas Woodward"
 description: "The greatest value for direct-to-consumer companies comes from creating a valuable, seamless experience. In this blog we will discuss how CIAM allows D2C companies to improve the customer journey directly."
-metatitle: "9 Data Security Best Practices For your Enterprise"
+metatitle: "How Can D2C Brands Utilize CIAM for Long-Term Growth?"
 metadescription: "Direct-to-Consumer businesses cut out the middlemen and serve their customers directly. Learn how a CIAM system can improve the D2C customer experience."
 --- 
 
