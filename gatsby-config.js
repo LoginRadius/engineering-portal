@@ -3,8 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `LoginRadius Blog`,
     description: "Company Updates, Technology Articles from LoginRadius",
-    siteUrl: "https://blog.loginradius.com",
-    feedUrl: "https://blog.loginradius.com",
+    siteUrl: "https://loginradius.com/blog",
+    feedUrl: "https://loginradius.com/blog",
     image: "/async.svg",
     owner: "LoginRadius",
     footerLinks: [
@@ -267,5 +267,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: ``,
+  pathPrefix: `/blog`,
 }
