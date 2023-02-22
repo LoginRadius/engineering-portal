@@ -3,8 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `LoginRadius Blog`,
     description: "Company Updates, Technology Articles from LoginRadius",
-    siteUrl: "https://loginradius.com/blog",
-    feedUrl: "https://loginradius.com/blog",
+    siteUrl: "https://www.loginradius.com",
+    feedUrl: "https://www.loginradius.com",
     image: "/async.svg",
     owner: "LoginRadius",
     footerLinks: [
