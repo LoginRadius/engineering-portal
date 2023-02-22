@@ -4,7 +4,7 @@ module.exports = {
     title: `LoginRadius Blog`,
     description: "Company Updates, Technology Articles from LoginRadius",
     siteUrl: "https://www.loginradius.com",
-    feedUrl: "https://www.loginradius.com",
+    feedUrl: "https://www.loginradius.com/blog",
     image: "/async.svg",
     owner: "LoginRadius",
     footerLinks: [
