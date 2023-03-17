@@ -105,4 +105,4 @@ In the meantime, your customers will receive quick responses from the chatbots a
 
 The use of AI in CIAM will continue to evolve, providing limitless capabilities to keep businesses safe and thriving in the future.
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
