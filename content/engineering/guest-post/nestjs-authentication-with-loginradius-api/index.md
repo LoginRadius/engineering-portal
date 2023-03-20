@@ -21,7 +21,7 @@ With a third-party solution, you get access to multiple authentication methods, 
 
 ## User Authentication with LoginRadius
 
-[LoginRadius](http://loginradius.com) is a no-code identity platform offering authentication, authorization, account security, and privacy solutions.
+[LoginRadius](https://www.loginradius.com) is a no-code identity platform offering authentication, authorization, account security, and privacy solutions.
 
 The Authentication API provided by LoginRadius allows you to authenticate a user using an email and a password. Once the user is verified, LoginRadius responds with an access token. The user will, in turn, use the access token to send requests to protected endpoints.
 

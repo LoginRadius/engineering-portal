@@ -114,7 +114,7 @@ When consumers are offered friction-less onboarding coupled with quick login opt
 
 ## Final Thoughts 
 
-E-commerce and retail giants are leveraging the perfect symphony of user experience coupled with the highest level of security through a [consumer identity and access management](http://www.loginradius.com) (CIAM) solution.  
+E-commerce and retail giants are leveraging the perfect symphony of user experience coupled with the highest level of security through a [consumer identity and access management](https://www.loginradius.com) (CIAM) solution.  
 
 Brands seeking substantial growth in the ever-challenging retail ecosystem need to understand the importance of cutting-edge technology that paves the path for a rich consumer experience that drives sales and ensures customers’ loyalty. 
 
