@@ -1,14 +1,17 @@
 ﻿---
-title: "Adaptive Authentication- Is it the Next Breakthrough in Consumer Authentication?"
+title: "Adaptive Authentication- Is it the Next Breakthrough in Customer Authentication?"
 date: "2021-07-15"
 coverImage: "adaptive-authentication.jpg"
-tags: ["LoginRadius"]
-featured: false 
+tags: ["adaptive authentication","mfa","ciam solution"]
 author: "Vishal Sharma"
 description: "Adaptive authentication is a game-changer for enterprises that require strong fencing to protect consumer and enterprise data. Here’s a quick read depicting the role and need for adaptive authentication instead of just multi-factor authentication."
 metadescription: "Adaptive authentication offers robust and secure authentication. Learn how adaptive authentication can work for securing your business and consumer data."
-metatitle: "Adaptive Authentication - Finest Way to Secure Consumer Authentication"
+metatitle: "Adaptive Authentication for Frictionless Customer Experience"
 ---
+## Introduction
+
+Adaptive authentication is a game-changer for enterprises that require strong fencing to protect consumer and enterprise data. Here’s a quick read depicting the role and need for adaptive authentication instead of just multi-factor authentication.
+
 With technology evolving leaps and bounds, identity and access management become stringently important for businesses collecting user information.
 
 However, managing the identities of millions of consumers wasn’t a tough nut to crack earlier as it is today.
@@ -33,7 +36,7 @@ Usernames and passwords alone can’t guarantee enough security for users and th
 
 Moreover, multi-factor authentication also seems ineffective in certain situations when the risk is relatively high, and it raises the need for a rigid security mechanism.
 
-In recent years, adaptive authentication has been integrated with CIAM (consumer identity and access management) platforms and is considered the best approach since the authenticated users can only access data and resources.
+In recent years, adaptive authentication has been integrated with [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) platforms and is considered the best approach since authenticated users can only access data and resources.
 
 Let’s dig deeper into this and understand the ultimate approach to best secure user identities and data and sensitive business information.
 
@@ -49,12 +52,11 @@ Read this post to get the detailed information regarding [multi-factor authentic
 
 Just like multi-factor authentication, adaptive authentication also verifies an identity but eventually considers certain security risk factors.
 
-[Adaptive Authentication](https://www.loginradius.com/blog/engineering/What-is-adaptive-authentication/) (also known as Risk-based Authentication) is a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
+[Adaptive Authentication](https://www.loginradius.com/blog/engineering/What-is-adaptive-authentication/) (also known as Risk-based Authentication) or adaptive multifactor authentication is a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
 
 In a nutshell, Adaptive Authentication analyzes the user interaction with your application and intelligently builds a risk profile based on the consumer behavior or your organization's security policy.
 
-[![LoginRadius-Adaptive-MFA](LoginRadius-Adaptive-MFA.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
-
+And when we talk about adaptive authentication example, let’s consider a scenario where a user tries to log into its account from a different device/location or changes the pattern of logging in into his/her account. Here, the smart system will detect an unusual activity and would eventually add another stringent layer of authentication. 
 
 This approach improves overall security by ensuring that high-risk consumers have the highest level of adaptable and flexible security in place.
 
@@ -62,7 +64,17 @@ Apart from this, adaptive authentication is considered far smarter than multi-fa
 
 This means the mechanism automatically implements robust authentication controls whenever a login seems to be suspicious.
 
-Must read: [Fixing Broken Authentication using the LoginRadius Adaptive MFA](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
+[![LoginRadius-Adaptive-MFA](LoginRadius-Adaptive-MFA.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
+
+## Adaptive Authentication and Strong Customer Authentication
+
+Adaptive authentication and strong customer authentication are two important methods used by businesses to protect against fraudulent activities and ensure secure transactions. 
+
+Adaptive authentication or adaptive multifactor authentication involves the use of multiple authentication factors, such as passwords, biometric data, and security tokens, to verify the identity of users based on risk factors such as the location and type of device being used. 
+
+SCA is a regulatory requirement under the European Union's Payment Services Directive 2 (PSD2), which mandates the use of at least two independent authentication factors for all electronic transactions. 
+
+This ensures that only authorized individuals can access sensitive data or perform financial transactions. Together, adaptive authentication and SCA provide a multi-layered approach to security, enhancing user protection and mitigating the risk of cyber attacks.
 
 ## Working Mechanism of Adaptive Authentication
 
@@ -95,9 +107,9 @@ Must read: [What is Risk-Based Authentication?](https://www.loginradius.com/blog
 
 When users get a flawless experience while signing in, there are more chances of conversion when compared to a login process involving an exhausting authentication process.
 
-## Final Thoughts
+## In Conclusion
 
-Adaptive authentication is the key to business success backed by enhanced security for both the consumers and enterprises.
+Adaptive authentication or adaptive multifactor authentication is the key to business success backed by enhanced security for both the consumers and enterprises.
 
 [LoginRadius’ CIAM](https://www.loginradius.com/) offers a top-notch adaptive authentication solution through its “Risk-Based Authentication” mechanism.
 

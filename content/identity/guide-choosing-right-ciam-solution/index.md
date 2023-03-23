@@ -117,8 +117,7 @@ Building a CIAM solution from scratch can be a lengthy and expensive process. De
 
 Buying a pre-built CIAM solution can save significant time and resources, allowing businesses to focus on their core competencies. This approach is typically more cost-effective, as the solution has already been developed and tested, so there is no need to invest in building and trying a solution from scratch.
 
-_You can use this [CIAM Build vs. Buy Calculator](https://www.loginradius.com/resource/ciam-build-vs-buy/) to see which option delivers the most value for your company. _
-
+You can use this [CIAM Build vs. Buy Calculator](https://www.loginradius.com/resource/ciam-build-vs-buy/) to see which option delivers the most value for your company.
 
 ### 2. Security and Compliance
 
