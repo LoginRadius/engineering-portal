@@ -110,6 +110,7 @@
 /animating-simple-css-popup-tutorial/	/blog/engineering/simple-popup-tutorial/	301
 /async	/blog/engineering	301
 /async/*	/blog/engineering/:splat	301
+/start-with-identity/*	/blog/identity/:splat	301
 /async/a-journey-with-AWS/	/blog/engineering/a-journey-with-aws/	301
 /async/AI-and-IoT-The-Perfect-Match/	/blog/engineering/ai-and-iot-the-perfect-match/	301
 /async/author/*	/blog/author/:splat	301
