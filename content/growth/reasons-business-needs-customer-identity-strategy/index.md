@@ -1,7 +1,7 @@
 ﻿---
 title: "5 Reasons Why a Strong Customer Identity Strategy Can Benefit Your Business"
 date: "2023-03-22"
-coverImage: "customer-identity.jpg"
+coverImage: "customer-idntity.jpg"
 tags: ["identity management", "cx", "conversion rate"]
 author: "Yash Rathi"
 description: "Whether deep consumer insights or delivering seamless and secure customer experiences, an identity management solution could help businesses stay ahead of the curve. Let’s uncover some of the top reasons your business needs an identity strategy."
