@@ -2,7 +2,7 @@
 title: "Personalize Your Marketing With The Help Of A CIAM Platform"
 date: "2021-07-30"
 coverImage: "personalized-marketing.jpg"
-category: ["ciam solution","data security","cx","authentication"]
+tags: ["ciam solution","data security","cx","authentication"]
 author: "Srishti Singh"
 description: "Personalized marketing is a promotional strategy tailored to the individual at the precise moment they require it, and there's no other communication like it. The question is, how will you fulfill that promise? You may utilize tools to acquire and aggregate information about your clients' preferences. Read on to find out what these tools are and how they benefit your business."
 metadescription: "Personalization is the key to success in today’s era. This can be achieved through a CIAM solution. Read on to know more about CIAM and personalized marketing."
