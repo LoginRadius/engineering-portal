@@ -1,3 +1,5 @@
+/async /blog/engineering/ 301
+/engineering /blog/engineering/ 301
 /2017/04/byoid-new-authentication-norm/	/blog/identity/	301
 /2017/08/unified-customer-identities-increase-ecommerce-conversions-revenue	/blog/growth/customer-identity-drives-digital-ecommerce-success/	301
 /2017/10/ciam-solves-gdpr-customer-consent	/blog/identity/customer-identity-and-access-management/	301
@@ -108,7 +110,6 @@
 /a-webapp-in-deno/	/blog/engineering/build-a-cli-tool-using-deno/	301
 /agile-development-team/	/blog/engineering/agile-development-team/	301
 /animating-simple-css-popup-tutorial/	/blog/engineering/simple-popup-tutorial/	301
-/async	/blog/engineering	301
 /async/*	/blog/engineering/:splat	301
 /start-with-identity/*	/blog/identity/:splat	301
 /async/a-journey-with-AWS/	/blog/engineering/a-journey-with-aws/	301
