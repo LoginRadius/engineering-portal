@@ -1,9 +1,8 @@
 ---
 title: "How Do I Know If My Email Has Been Leaked in a Data Breach?"
 date: "2019-01-10"
-coverImage: "cover-1.jpg"
-tags: ["security"]
-featured: false 
+coverImage: "email-breach.jpg"
+tags: ["data security","password management","cx"]
 author: "Deepak Gupta" 
 description: "To log into their online accounts, many individuals use their email addresses and a short collection of passwords (or even only one password). Sadly, this means that every hacker already has half your login information with your email address. Add in multiple login violations from big-name digital service providers and you have a catastrophe recipe."
 metatitle: "How Do I Know If My Email Has Been Leaked in a Data Breach? | LoginRadius"
