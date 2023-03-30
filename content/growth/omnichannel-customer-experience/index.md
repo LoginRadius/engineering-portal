@@ -1,9 +1,8 @@
 ---
 title: "Deliver Exceptional Omnichannel Customer Experience [Infographic]"
 date: "2020-04-01"
-coverImage: "omnichannel-customer-experience.png"
-category: ["LoginRadius"]
-featured: false 
+coverImage: "omnichannel-experience.jpg"
+tags: ["omnichannel cx","ciam solution","convenience"]
 author: "Sudhanshu Agarwal"
 description: "A multifold approach to advertising, selling, and helping consumers through various marketing touchpoints is an omnichannel consumer experience. To learn more, check out the infographic."
 metatitle: "Omnichannel Customer Experience [Infographic]"

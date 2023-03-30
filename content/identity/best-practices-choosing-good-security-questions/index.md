@@ -1,9 +1,8 @@
 ---
 title: "Best Practices for Choosing Good Security Questions"
 date: "2019-01-31"
-coverImage: "best-practices-good-security-question.jpg"
-tags: ["security"]
-featured: false
+coverImage: "security-questions.jpg"
+tags: ["passwordless login","password management","authentication"]
 author: "Deepak Gupta"
 description: "Security questions will bring to your authentication process an extra layer of certainty. Security problems are an alternative way to recognise your customers when they have forgotten their password, entered too many times the wrong passwords, or attempted to log in from a location or unknown computer."
 metatitle: "Best Practices for Choosing Good Security Questions"
