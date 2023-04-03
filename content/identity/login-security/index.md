@@ -1,9 +1,8 @@
 ---
 title: "Login Security: 7 Best Practice to Keep Your Online Accounts Secure"
 date: "2020-12-11"
-coverImage: "login-security.png"
-tags: ["security"]
-featured: false 
+coverImage: "login-security.jpg"
+tags: ["data security","login security","mfa","ciam solution"]
 author: "Deepak Gupta"
 description: "In reality, there are so many mistakes that can make your account vulnerable to cyber attacks. Hackers can read your email, steal money out of your bank account, or sell your data in the dark web. Therefore you need to eliminate as many vulnerabilities as possible to keep your login safe."
 metatitle: "Login Security: 7 Best Practice for online security"

@@ -1,9 +1,8 @@
 ---
 title: "What is PIN Authentication"
 date: "2021-02-27"
-coverImage: "pin-authentication.jpg"
-tags: ["security"]
-featured: false 
+coverImage: "pin-authenticaton.jpg"
+tags: ["pin authentication","data security","ciam solution"]
 author: "Abhishek Singh"
 description: "Logging in through PIN is in popular culture nowadays. This feature allows the consumer to set a PIN in addition to the password during registration or login. Later, during the subsequent logins, the application requests the same PIN to authenticate."
 metatitle: "What is PIN Authentication"
