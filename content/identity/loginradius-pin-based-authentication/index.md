@@ -1,9 +1,8 @@
 ---
 title: "Announcement - LoginRadius Now Supports PIN Login with Enhanced Features"
 date: "2020-04-28"
-coverImage: "LoginRadius-Pin-Authentication.png"
-tags: ["industry-news"]
-featured: false 
+coverImage: "pin-authentication.jpg"
+tags: ["pin authentication","ciam solution","identity management"]
 author: "Kundan Singh"
 description: "LoginRadius is a rapidly-expanding identity management platform. And this time, for its current and new clients, the cloud-based client identity and access management solution has introduced a PIN Login authentication environment."
 metatitle: "PIN Authentication With Enhanced Features | LoginRadius"

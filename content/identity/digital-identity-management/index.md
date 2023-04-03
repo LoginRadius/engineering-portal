@@ -1,9 +1,8 @@
 ---
 title: "Digital Identity Management: 5 Ways to Win Customer Trust"
 date: "2019-10-01"
-coverImage: "5-Ways-to-Win.png"
-tags: ["customer-experience"]
-featured: false 
+coverImage: "digital-identity-mngmnt.jpg"
+tags: ["customer trust","cx","identity management","ciam solution"]
 author: "Rakesh Soni"
 description: "In industry , digital identity management relates specifically to how the personal information of a customer is obtained, processed, and accessed safely."
 metatitle: "Digital Identity Management: 5 Ways to Win Customer Trust | LoginRadius"
