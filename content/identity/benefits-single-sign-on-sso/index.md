@@ -1,9 +1,8 @@
 ---
 title: "7 Benefits of Single Sign-On (SSO) and Why Your Business Needs It"
 date: "2019-11-12"
-coverImage: "7-benefits-of-sso.png"
-tags: ["customer-experience"]
-featured: false 
+coverImage: "benefits-sso.jpg"
+tags: ["sso","federated sso","cx",]
 author: "Rakesh Soni"
 description: "Now that more enterprises are moving to the cloud, customers expect seamless access from anywhere, anywhere, and on any computer, to multiple applications. Likewise, as most large corporations have hundreds of touchpoints under different labels, trying to handle them all will strain their IT departments."
 metatitle: "7 Benefits of SSO & Why You Need It | LoginRadius"

@@ -1,9 +1,8 @@
 ---
 title: "Digital Trends Transforming the Media and Entertainment Industry in 2020"
 date: "2020-02-25"
-coverImage: "customer-experience-media-entertainment-industry.jpg"
-category: ["industry-news", "media-and-publication"]
-featured: false 
+coverImage: "media-industry.jpg"
+category: ["digital transformation","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "The worldwide media and entertainment industry is going through a huge transformation at the moment. 2020 aims to be the year of digital change in the media and entertainment sector with a large-scale roll-out of technology."
 metatitle: "Digital Trends in the Media & Entertainment Industry 2020"
