@@ -1,9 +1,8 @@
 ---
 title: "Authentication and Authorization Defined: What's the Difference? [Infographic]"
 date: "2020-06-11"
-coverImage: "Authentication-vs.-Authorization.png"
-tags: ["security"]
-featured: false 
+coverImage: "authentication-vs-authorization.jpg"
+tags: ["authentication","authorization","ciam solution"]
 author: "Deepak Gupta"
 description: "As companies progress towards digital maturity in times of robust cloud-based systems and stringent online security, authentication and authorization are used in conjunction with each other."
 metatitle: "Authentication vs Authorization: What's the Difference? | LoginRadius"
