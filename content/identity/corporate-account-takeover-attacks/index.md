@@ -1,9 +1,8 @@
 ---
 title: "Corporate Account Takeover Attacks: Detecting and Preventing it"
 date: "2020-04-16"
-coverImage: "corporate-account-takeover.jpg"
-tags: ["security"]
-featured: false 
+coverImage: "corporate-account.jpg"
+tags: ["data security","ciam solution","compliance"]
 author: "Deepak Gupta"
 description: "How do you defend your company against a Corporate Account Takeover (CATO) fraud with the COVID-19 pandemic causing workers to stay indoors?"
 metatitle: "Corporate Account Takeover: Detecting & Preventing it | LoginRadius"

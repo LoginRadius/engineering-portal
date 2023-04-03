@@ -1,9 +1,8 @@
 ---
 title: "California's CCPA 2.0 Passed: Everything You Need to Know About the New CPRA"
 date: "2019-05-03"
-coverImage: "ccpa-certification-copy.png"
-tags: ["privacy-and-compliance"]
-featured: false
+coverImage: "ccpa-intro.jpg"
+tags: ["ccpa","data privacy","compliance","customer trust"]
 author: "Deepak Gupta"
 description: "On November 3, 2020, the voters in California approved the Consumer Privacy Rights Act (on the ballot as Proposition 24) with 56.1% of the vote. This revised version of the CCPA will further strengthen the consumer privacy rights for California citizens."
 metatitle: "CCPA 2.0 Passed: Everything You Need to Know About the New CPRA"
@@ -18,7 +17,6 @@ For more detailed information, including the major differences between GDPR and 
 
 For now, let’s start with the basics.
 
-
 ## **What is the California Consumer Privacy Act?**
 
 The CCPA’s goal is to give consumers more information and control over how their personal information is being used. It will apply to all businesses that handle or collect data from California residents.
@@ -26,7 +24,6 @@ The CCPA’s goal is to give consumers more information and control over how the
 What is residency based on? Basically, anyone who pays taxes to the State of California is a California consumer, whether they currently live in the Golden State or not_._ This California [residency law site](https://www.palmspringstaxandtrustlawyers.com/the-part-time-resident-tax-trap/) explains more:
 
 _“Under California law, a person who visits the state for other than a temporary or transitory purpose is also a legal resident, subject to California taxation. Even visits can result in residency status. Examples of such visits include an indefinite stay for health reasons, extended stays (usually over six months), retirement, or employment that requires a prolonged or indefinite period to accomplish.”_
-
 
 ## **How do you comply with the California Consumer Privacy Act?**
 
@@ -37,13 +34,11 @@ However, here are three ways you can get started now.
 **Ensure that your decision-makers and key stakeholders know:**
 
 
-
 *   What the CCPA is and who it concerns.
 *   When it goes into effect: January 1st, 2020.
 *   How CCPA rules affect your business practices.
 
 **Document and organize customer information, so your company knows:**
-
 
 
 *   Which personal information is being collected.
@@ -88,9 +83,7 @@ Most significant new additions include:
 *   **Protection for children’s data**: CPRA will impose fines on businesses for collecting and selling information of minors under 16 years. 
 *   **Adds data retention requirement**: Businesses cannot retain consumers' personal or sensitive information for longer than reasonably necessary. 
 
-
 ### CCPA 2.0: Key Differences with the CCPA
-
 
 <table>
   <tr>
@@ -202,8 +195,6 @@ Most significant new additions include:
    </td>
   </tr>
 </table>
-
-
 
 ## **How Businesses Should Prepare for the New CPRA**
 

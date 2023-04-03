@@ -1,9 +1,8 @@
 ---
 title: "Streaming Applications: How to Secure Your Customer Data"
 date: "2020-05-21"
-coverImage: "streaming-apps.png"
-tags: ["security"]
-featured: false 
+coverImage: "secure-customer-data.jpg"
+tags: ["data security","authentication","cx"]
 author: "Deepak Gupta" 
 description: "OTT streaming apps should know how to mitigate data theft. Using a robust identity management solution in online streaming services helps secure digital identities."
 metatitle: "Streaming Apps: How to Secure Your Customer Data | LoginRadius"

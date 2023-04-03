@@ -1,9 +1,8 @@
 ---
 title: "Credential Stuffing: How To Detect And Prevent It (Updated)"
 date: "2019-09-12"
-coverImage: "prevent-credential-stuffing-attacks.jpg"
-tags: ["security"]
-featured: false 
+coverImage: "credential-stuffing-attacks.jpg"
+tags: ["data security","passwordless authentication","ciam solution"]
 author: "Deepak Gupta"
 description: "Credential stuffing is a cybersecurity vulnerability in which hackers target web infrastructures and take over user accounts using stolen credentials. When hackers use organisational credentials to login and hijack user accounts, the threat gets further elevated. Not only does the business experience loss of sales and brand harm, the blow is also felt by customers."
 metatitle: "Credential Stuffing: How To Detect And Prevent It | LoginRadius"
