@@ -2,8 +2,7 @@
 title: "Announcement - LoginRadius Launches Passwordless Login with Magic Link or OTP, Keeps Barriers Low During Registration and Login"
 date: "2020-10-29"
 coverImage: "DS-Login-with-Magic-Link-or-OTP.png"
-tags: ["LoginRadius"]
-featured: false 
+tags: ["passwordless login","data security","cx"]
 author: "Karl Wittig"
 description: "The problem with passwords is that they can be guessed, hacked, or coerced out of consumers through social engineering attacks. So, why not eliminate the main source of insecurity by going passwordless?"
 metatitle: "LoginRadius Launches Passwordless Login with Magic Link | LoginRadius"
