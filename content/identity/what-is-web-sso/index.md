@@ -1,9 +1,8 @@
 ---
 title: "What is Web SSO"
 date: "2021-06-10"
-coverImage: "what-is-web-sso.png"
-tags: ["customer-experience"]
-featured: false 
+coverImage: "web-sso.jpg"
+tags: ["web sso","federated sso","cx","data security"]
 author: "Vaibhav Jain" 
 description: " Web SSO is a part of Single Sign-On that brings everything together. Each consumer has one account and one set of credentials that they can use anywhere to interact with your brand. Failing to use SSO will make your consumers notice you in a bad light as they try to navigate your apps and services."
 metatitle: "What is Web SSO"
@@ -26,18 +25,12 @@ Before we explain the web counterpart of SSO, let’s start with the basics.
   
 Single sign-on is the process of authentication that allows consumers to access multiple applications and websites with a single login credential and an active login session.
 
- 
-
 It prevents the need for the consumer to log in separately to the different applications/websites.
-
 
 The following are two examples of the Single Sign-On environments:
 
-  
-
 -   Consumers access multiple applications of the same provider: Consumers don't need to create and remember separate credentials for each application; they log in once and access various applications of that provider. Example: Google, Youtube, Gmail, etc.
     
-
 -   Employees access numerous applications daily: Employees don't need to create and remember separate credentials for each application; they can log in once and access various applications used in the organization. Example: HR Portal, Resource Portal, Organizational Account, etc.
     
 

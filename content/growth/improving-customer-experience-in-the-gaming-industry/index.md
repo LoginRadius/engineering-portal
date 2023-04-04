@@ -1,9 +1,8 @@
 ---
 title: "Improving Customer Experience in the Gaming Industry"
 date: "2020-01-27"
-coverImage: "improving-customer-experience-in-the-gaming-industry.jpg"
-category: ["customer-experience"]
-featured: false 
+coverImage: "gaming-industry.jpg"
+tags: ["data security","mfa","cx","ciam solution"]
 author: "Rakesh Soni" 
 description: "In order to prosper in the gaming industry, you need to offer a smooth user interface. Learn how it is possible to use emerging technologies to draw and retain more clients."
 metatitle: "Gaming Industry: Enhancing Customer Experience | LoginRadius"

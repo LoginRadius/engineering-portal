@@ -1,9 +1,8 @@
 ---
 title: "Cybersecurity Best Practices for Businesses in 2022 & Beyond [Infographic]"
 date: "2021-10-21"
-coverImage: "cybersecurity-best-practices-for-enterprises.png"
-tags: ["customer-experience"]
-featured: false 
+coverImage: "cybersecurity-best-practices.jpg"
+tags: ["cybersecurity","data security","cx","password management"]
 author: "Deepak Gupta"
 description: "Today cybercriminals are increasingly able to cover their tracks, hide in the cloud, manipulate the infrastructure of the web, and exploit complex vulnerabilities. This infographic summarizes the key takeaway into the cybersecurity best practices that businesses should adopt in 2022."
 metatitle: "Cybersecurity Best Practices for Businesses in 2022"

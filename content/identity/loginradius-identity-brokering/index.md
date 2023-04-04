@@ -2,8 +2,7 @@
 title: "Announcement - LoginRadius Announces Identity Brokering To Establish Trust Between Identity and Service Providers"
 date: "2021-01-27"
 coverImage: "loginradius-identity-brokering.png"
-tags: ["industry-news"]
-featured: false
+tags: ["identity management","authentication","sso","cx"]
 author: "Govind Malviya"
 description: "Using Identity Brokering, businesses do not require consumers to provide their credentials to authenticate. Instead, LoginRadius acts as an identity broker service between the Identity and Service Providers and enables the authentication process between the two."
 metatitle: "LoginRadius Identity Brokering"
