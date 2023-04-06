@@ -1,9 +1,8 @@
 ---
 title: "Unlock the Future of Smart Cities"
 date: "2020-03-13"
-coverImage: "unlock-the-future-of-smart-cities.png"
-tags: ["LoginRadius", "other"]
-featured: false 
+coverImage: "future-of-smart-cities.jpg"
+tags: ["digital transformation","digital identity","sso"]
 author: "Deepak Gupta"
 description: "With population growth and the expansion of public services, cities need to be innovative about how to provide services to all people without compromising service quality. There is a need for a single platform where all facilities are centralised and customer experience is considered. Below, for municipalities to follow, we'll look at some examples and best practises."
 metatitle: "Unlock the Future of Smart Cities | LoginRadius"
