@@ -10,6 +10,7 @@ metadescription: "With Smart and IoT Authentication by LoginRadius, we decided t
 ---
 
 ## Introduction
+
 Consumers are often frustrated with the complex task of entering their passwords through their remote controls or virtual keyboards, while authenticating on apps that they have installed on their smart TVs, game consoles, and other IoT devices. 
 
 Consumers would love an experience that is simple, quick, and frictionless - after all, no one wants to put the extra effort while enjoying leisure. 
@@ -34,17 +35,21 @@ We allow businesses to access risk by tracking the failed login attempts. In ret
 LoginRadius supports two different methods for Smart and IoT Authentication. Here's how they work:
 
 ### 1. QR Code Based Login 
+
 Consumers can authenticate themselves on the app by scanning the QR Code displayed on the smart or IoT device using their mobile app.
 
-### 2. Link-Based Login 
+### 2. Link-Based Login
+
 Consumers can log in to an app by delegating the authentication to another device via a link on their registered email id. Clicking on the link will automatically authenticate the consumer account on the device that initiated the login.
 
 Since emails are involved in the Link Based Login, LoginRadius also allows businesses to [personalize their consumer experience](https://www.loginradius.com/customer-experience-solutions/).
 
 ### 1. Email Personalization
+
 LoginRadius offers in-built, multilingual email templates for businesses to add or customize their messages based on their requirements.
  
 ### 2. Email Settings 
+
 LoginRadius allows businesses to set the login request limits for consumers and also manage the token expiry by restricting the validity of login links to ensure security. 
 
 [![Loginradius IOT Smart Authentication Datasheet](iot-smart-authentication-datasheet.png)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
