@@ -22,19 +22,22 @@ LoginRadius' Smart and IoT Authentication is a practical approach to ensure effo
 With LoginRadius' Smart and IoT Authentication, we wanted to offer a vastly convenient authentication method for the consumers of smart and IoT devices.  A few other intentions include: 
 
 ### 1. Streamlined consumer experience
+
 We do not want consumers to remember or enter credentials on their smart devices anymore. Our QR code and link-based authentication methods make this possible.
 
-### 2. Enhanced account security 
-Because login links and QR codes are dynamically generated and sent over email or scanned via authenticated apps, we allow businesses to easily avoid all password-based hacking attempts. 
+### 2. Enhanced account security
 
-### 3. Improved adaptive security  
+Because login links and QR codes are dynamically generated and sent over email or scanned via authenticated apps, we allow businesses to easily avoid all password-based hacking attempts.
+
+### 3. Improved adaptive security
+
 We allow businesses to access risk by tracking the failed login attempts. In return, they can take adaptive security measures like disabling login requests for a limited time.
 
 ## Smart and IoT Authentication: How It Works?
 
 LoginRadius supports two different methods for Smart and IoT Authentication. Here's how they work:
 
-### 1. QR Code Based Login 
+### 1. QR Code Based Login
 
 Consumers can authenticate themselves on the app by scanning the QR Code displayed on the smart or IoT device using their mobile app.
 
@@ -47,13 +50,12 @@ Since emails are involved in the Link Based Login, LoginRadius also allows busin
 ### 1. Email Personalization
 
 LoginRadius offers in-built, multilingual email templates for businesses to add or customize their messages based on their requirements.
- 
-### 2. Email Settings 
 
-LoginRadius allows businesses to set the login request limits for consumers and also manage the token expiry by restricting the validity of login links to ensure security. 
+### 2. Email Settings
+
+LoginRadius allows businesses to set the login request limits for consumers and also manage the token expiry by restricting the validity of login links to ensure security.
 
 [![Loginradius IOT Smart Authentication Datasheet](iot-smart-authentication-datasheet.png)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
-
 
 ## Implementation and Deployment
 
