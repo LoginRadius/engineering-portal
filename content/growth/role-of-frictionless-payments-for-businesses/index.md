@@ -2,8 +2,7 @@
 title: "5 Reasons Why Frictionless Payments Matter To Marketers And Business Owners"
 date: "2022-03-11"
 coverImage: "frictionless-paymt.jpg"
-category: ["all"]
-featured: false 
+tags: ["omnichannel cx","authentication","user experience","ciam solution"]
 author: "Vishal Sharma"
 description: "When it comes to frictionless payments, most brands ignore that a bit of hustle in the overall payment process could encourage their users to switch. Let’s understand why frictionless payments matter today more than ever before, especially for business owners and marketers."
 metatitle: "The Role of Frictionless Payments for Businesses"
