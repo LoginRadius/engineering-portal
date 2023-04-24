@@ -2,14 +2,14 @@
 title: "What is Single Sign-On (SSO) and How it Works?"
 date: "2019-05-30"
 coverImage: "What-is-single-sign-on-feature-image.jpg"
-tags: ["authentication", "identity-management", "sso"]
+tags: ["authentication","identity management","sso"]
 author: "Rakesh Soni" 
 description: "SSO is an essential feature of an Identity and Access Management (IAM) access control platform. User identity authentication is important when it comes to understanding which permissions a user will have. One example of controlling access that integrates user identity management solutions with SSO solutions is the LoginRadius Identity platform."
 metatitle: "What Is Single Sign-On (SSO) and How Does It Work?"
 metadescription: "This article explains what Single Sign-On (SSO) is, how it works, and the benefits of implementing SSO for businesses and organizations. Read more on LoginRadius Blog."
 ---
-
 ## Introduction
+
 First, let’s understand what is single sign on. Introducing Single Sign On (SSO) to your customers can offer greater security and improved usability. That’s two of the many key [benefits of SSO.](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/)
 
 Let’s face it. No one likes remembering credentials. They seem like exerting a lot of pressure on the memory. What's worse is many use the same username and password, irrespective of the application they are using.
@@ -198,7 +198,6 @@ Deciding the best implementation method really depends on your individual situat
 If you think a [readymade SSO solution](https://www.loginradius.com/single-sign-on/) is best for your company, a customer identity provider like LoginRadius will help you achieve fast and easy implementation.
 
 ## Frequently Asked Questions (FAQs)
-
 
 **1. What is an example of SSO?**
 
