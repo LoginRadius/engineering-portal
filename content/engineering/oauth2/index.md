@@ -3,7 +3,7 @@ title: Getting Started with OAuth 2.0
 date: "2020-08-24"
 coverImage: "oauth2.png"
 author: "Indrasen Kumar"
-tags: ["Engineering", "OAuth", "Authentication"]
+tags: ["Engineering", "Oauth", "Authentication"]
 description: "Using this blog one can easily understand the basic concept of Oauth 2.0"
 ---
 

@@ -3,7 +3,7 @@ title: "PKCE: What it is and how to use it with OAuth 2.0"
 date: "2020-09-03"
 author: "Narendra Pareek"
 coverImage: "pkce.png"
-tags: ["PKCE", "OAuth", "OIDC"]
+tags: ["PKCE", "Oauth", "OIDC"]
 description: "If you are working with OAuth and OIDC authorization code flow and want to setup PKCE flow then this article will help you to understand everything about PKCE."
 ---
 
