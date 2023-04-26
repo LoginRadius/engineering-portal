@@ -56,7 +56,7 @@ Both the GDPR and CCPA define specific conditions that allow user data to be pro
 
 ### Scaling sustainably
 
-Having a good consent management system will allow your organization to scale without compromising the security and privacy of your consumers. When building our new platforms as part of a new service or [digital transformation](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-digital-transformation/), establishing trust with your consumers is paramount and this can be achieved by being transparent with them on what data is collected on them and how it is used. 
+Having a good consent management system will allow your organization to scale without compromising the security and privacy of your consumers. When building our new platforms as part of a new service or [digital transformation](https://www.loginradius.com/blog/identity/2021/01/what-is-digital-transformation/), establishing trust with your consumers is paramount and this can be achieved by being transparent with them on what data is collected on them and how it is used. 
 
 
 ### Avoiding costly litigation

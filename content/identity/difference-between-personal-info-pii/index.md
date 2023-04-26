@@ -40,7 +40,7 @@ The information related to this is stored with online marketers and brokers who 
 
 ## Protection of PII
 
-Many countries/regions have adopted multiple data protection laws like the [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/ccpa-vs-gdpr-the-compliance-war/) to create guidelines for companies collecting, storing, and sharing customers' personal information. 
+Many countries/regions have adopted multiple data protection laws like the [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) to create guidelines for companies collecting, storing, and sharing customers' personal information. 
 
 Businesses collecting sensitive personal information about users in these countries/regions should strictly adhere to these data protection and privacy regulations to avoid hefty fines. 
 
@@ -59,7 +59,7 @@ With the increasing cybersecurity risks in a post-pandemic world, protecting con
 
 Attackers are always on a hunt for a loophole that allows them to sneak into a business network to exploit consumer identities. 
 
-Hence, a business that faces a data breach where the initial loss was compromised consumer identities end up losing trust in the global markets and can also be entailed for hefty fines for not complying with the [data privacy](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/) and protection regulations. 
+Hence, a business that faces a data breach where the initial loss was compromised consumer identities end up losing trust in the global markets and can also be entailed for hefty fines for not complying with the [data privacy](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) and protection regulations. 
 
 
 ### Getting the PII Compliance 
@@ -77,7 +77,7 @@ It is also essential to consider that adopting acceptable privacy policies assoc
 
 The CIAM solution ensures fewer employees can access customer data and handle it. This further reduces the chance of accidental data leaks and secures consumer data privacy. Some of the global standards it adheres to include the GDPR in the EU and the CCPA in California.
 
-LoginRadius, a [customer identity management system](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/), supports global regulatory compliance in the fight against data breaches, essential for delivering zero friction customer experience.
+LoginRadius, a [customer identity management system](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), supports global regulatory compliance in the fight against data breaches, essential for delivering zero friction customer experience.
 
 
 ## The Bottom Line

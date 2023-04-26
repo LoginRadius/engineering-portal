@@ -14,7 +14,7 @@ metadescription: "Choosing a cutting-edge and reliable identity management solut
 
 Identity management is swiftly becoming the need of the hour in a digitally advanced world where data breaches aren’t uncommon, and cyber criminals continuously explore new ways to exploit sensitive consumer information. 
 
-Yes, gone are the days when online businesses collecting user information considered [identity management](https://www.loginradius.com/blog/start-with-identity/what-is-iam/) a luxury; it’s the absolute necessity of every enterprise seeking a competitive edge with the highest level of security. 
+Yes, gone are the days when online businesses collecting user information considered [identity management](https://www.loginradius.com/blog/identity/what-is-iam/) a luxury; it’s the absolute necessity of every enterprise seeking a competitive edge with the highest level of security. 
 
 So, does it mean that every business on the verge of digital transformation can’t navigate their digital business success without a reliable consumer identity and access management (CIAM) solution? 
 
@@ -62,7 +62,7 @@ Before making a purchase, make sure you precisely examine the authentication and
 
 ### 8. Does it have risk-based authentication (RBA)/ adaptive authentication? 
 
-LoginRadius supports [risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) for the highest level of security. RBA, aka adaptive authentication, is a security mechanism for high-risk scenarios. Businesses collecting sensitive information regarding clients should always prefer risk-based authentication in addition to multi-factor authentication.
+LoginRadius supports [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) for the highest level of security. RBA, aka adaptive authentication, is a security mechanism for high-risk scenarios. Businesses collecting sensitive information regarding clients should always prefer risk-based authentication in addition to multi-factor authentication.
 
 
 ### 9. What are the authentication methods apart from the standard password login? 

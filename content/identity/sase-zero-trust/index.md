@@ -22,7 +22,7 @@ So, what is SASE?
 
 SASE (Secure Access Service Edge) is a WAN networking and security solution that brings together a full security stack and the optimized network routing capabilities of software-defined wide-area networking (SD-WAN). It is a cloud solution that supports businesses' cloud-based network infrastructure. 
 
-SASE solutions provide security inspection, secured remote access, and optimized networking across a company's entire network. Here are 10 reasons why implementing SASE with a [Zero Trust strategy](loginradius.com/resource/zero-trust-security/) is critical for your business.
+SASE solutions provide security inspection, secured remote access, and optimized networking across a company's entire network. Here are 10 reasons why implementing SASE with a [Zero Trust strategy](https://www.loginradius.com/resource/zero-trust-security/) is critical for your business.
 
 ## Why Should You Implement SASE with a Zero Trust Strategy?
 
@@ -94,7 +94,7 @@ Zero trust framework ensures that these enterprises become less vulnerable to se
 
 In the starting years of the 21st century, cybercriminals would hack a website to expose its security vulnerabilities. But today, they are stealing intellectual property rights and confidential data from secured databases of companies. 
 
-To inflict maximum damage, cybercriminals are using advanced tools. Gone are the days of simple [phishing scams](https://www.loginradius.com/blog/start-with-identity/2018/02/phishing-for-identity/) that were easy to detect and repair. Today's cyberattacks impact entire financial, societal, national, and physical systems. 
+To inflict maximum damage, cybercriminals are using advanced tools. Gone are the days of simple [phishing scams](https://www.loginradius.com/blog/identity/phishing-for-identity/) that were easy to detect and repair. Today's cyberattacks impact entire financial, societal, national, and physical systems. 
 
 Cybercrime has become highly organized as well. They are run by international crime rings, nation-states, and ransomware groups. And the worst part is that they can bypass traditional perimeter security. Only micro-segmentation and zero trust security models can detect them. 
 

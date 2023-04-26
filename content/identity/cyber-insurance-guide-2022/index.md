@@ -17,7 +17,7 @@ Cyberattacks not only affect the enterprises' reputation but can temporarily or 
 
 ## What is Cyber Insurance 
 
-For many companies, this backup plan involves investing in cyber insurance or cyber liability insurance coverage (CLIC). The primary purpose of this insurance is to assist enterprises in their efforts to make up the costs and dues that have to be paid [after a cyberattack](https://www.loginradius.com/blog/start-with-identity/how-to-handle-data-breaches/) or a breach. 
+For many companies, this backup plan involves investing in cyber insurance or cyber liability insurance coverage (CLIC). The primary purpose of this insurance is to assist enterprises in their efforts to make up the costs and dues that have to be paid [after a cyberattack](https://www.loginradius.com/blog/identity/how-to-handle-data-breaches/) or a breach. 
 
 Cyber insurance can be obtained for non-financial reasons as well. Some enterprises may choose to invest in it to assist in regulatory compliance and meet contractual requirements. 
 
@@ -51,7 +51,7 @@ Similar to the size factor, the cost of insurance will also be affected by the n
 
 ### 5. Coverage type
 
-Companies will also have to pay different premiums depending on the risks for which they hope to receive coverage. For example, getting coverage against a more [common risk like phishing emails](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) and subsequent attacks can differ from getting coverage against an APT-style attack. 
+Companies will also have to pay different premiums depending on the risks for which they hope to receive coverage. For example, getting coverage against a more [common risk like phishing emails](https://www.loginradius.com/blog/identity/phishing-for-identity/) and subsequent attacks can differ from getting coverage against an APT-style attack. 
 
 According to a recent study, companies [spend around $1,500 per year](https://advisorsmith.com/cyber-liability-insurance/cost/) on cyber insurance. This amounts to a $1 million coverage along with a $10,000 deductible. 
 

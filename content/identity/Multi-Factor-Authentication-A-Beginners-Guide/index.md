@@ -16,7 +16,7 @@ Security can be a headache for both IT professionals and consumers. Today, tens 
 
   
 
-**[Password attackers](https://www.loginradius.com/blog/start-with-identity/2021/02/brute-force-lockout/)** are always looking for weak passwords so that they can easily hack consumers' accounts. To tackle this problem, we often mix up the complexity with security.
+**[Password attackers](https://www.loginradius.com/blog/identity/2021/02/brute-force-lockout/)** are always looking for weak passwords so that they can easily hack consumers' accounts. To tackle this problem, we often mix up the complexity with security.
 
   
 
@@ -53,7 +53,7 @@ MFA works in this way because, let’s suppose one of the factors is hacked by t
 
 ## Why MFA is So Important
 
-**[Secure passwords](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/)** may remain the supreme and the most common authentication method of your online identity but believe me; they provide very little protection. Consumers often make it simple for the attacker to steal their credentials by choosing weak passwords or using the same passwords for multiple applications.
+**[Secure passwords](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/)** may remain the supreme and the most common authentication method of your online identity but believe me; they provide very little protection. Consumers often make it simple for the attacker to steal their credentials by choosing weak passwords or using the same passwords for multiple applications.
 
   
 
@@ -65,7 +65,7 @@ It does not matter if they are encrypted or not; once the database is captured, 
 
   
 
-That is why it becomes imperative to use **[multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/)**, which means, even if the attacker gets access to the database, they still need to pass other security checks.
+That is why it becomes imperative to use **[multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/)**, which means, even if the attacker gets access to the database, they still need to pass other security checks.
 
 
 

@@ -89,7 +89,7 @@ So, it should be able to deploy quickly, with [high scalability and flexibility]
 
 Business resilience usually includes detailed planning and solutions to be implemented whenever an unexpected situation occurs, like a data breach. For this, companies use data centers, backups, and server virtualization. An example of this is the VDI. 
 
-VDI makes sure that all the data is stored and accessed in the data center, not on the user’s device. This will eliminate the chances of [data being leaked](https://www.loginradius.com/blog/start-with-identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/) in case the device is stolen.
+VDI makes sure that all the data is stored and accessed in the data center, not on the user’s device. This will eliminate the chances of [data being leaked](https://www.loginradius.com/blog/identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/) in case the device is stolen.
 
 **3. Ransomware protection**
 

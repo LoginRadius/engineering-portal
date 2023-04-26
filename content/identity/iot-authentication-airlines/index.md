@@ -58,7 +58,7 @@ In this, IoT serves as the framework for carrying out necessary security certifi
 
 ## What Exactly is Facial Recognition
 
-Facial recognition and its implementation have been a hot topic for most governments. However, leaving aside the ethics of this technology, it can contribute greatly to security. The technology will be grouped under the [IoT authentication](https://www.loginradius.com/blog/start-with-identity/2020/12/iot-smart-authentication/) in the airline industry if it is in use. 
+Facial recognition and its implementation have been a hot topic for most governments. However, leaving aside the ethics of this technology, it can contribute greatly to security. The technology will be grouped under the [IoT authentication](https://www.loginradius.com/blog/identity/2020/12/iot-smart-authentication/) in the airline industry if it is in use. 
 
 This technology can map out the face of an individual and place it in a database. This data will prove vital in verifying identity and in restricting access to staff-only rooms.  
 
@@ -92,7 +92,7 @@ The CIAM platform provides features like self-service account management, single
 
 CIAM acts as a centralized database aiding in improved operational efficiency. This could revolutionize the airlines' consumer service, as only a [measly 1% of consumers ](https://www.forbes.com/sites/christinecrandell/2013/01/21/customer-experience-is-it-the-chicken-or-egg/?sh=38f67ec83557)believe they receive adequate assistance. 
 
-[CIAM](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) also contributes to the following airport IoT **use cases**, as well:  
+[CIAM](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) also contributes to the following airport IoT **use cases**, as well:  
 
 
 

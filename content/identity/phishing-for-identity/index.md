@@ -37,14 +37,14 @@ Let's jump back to the beginning and answer the obvious question: What is a Phis
 
 A Phishing attack or scam is when an attacker sends an email pretending to be someone (for example, the CEO of an organization) or something he's not (for example, poses as Google). The goal is to extract sensitive information out of the target.
 
-Essentially, the [attacker attempts to create fear](https://www.loginradius.com/blog/start-with-identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/), curiosity, or a sense of urgency. When the target is prompted to open an attachment or fill in their sensitive information (i.e., username, password, or credit card number), they are likely to give in.
+Essentially, the [attacker attempts to create fear](https://www.loginradius.com/blog/identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/), curiosity, or a sense of urgency. When the target is prompted to open an attachment or fill in their sensitive information (i.e., username, password, or credit card number), they are likely to give in.
 
 A few examples of phishing attacks include:
 
 
 *   Emails that appear to come from a legitimate source, like Amazon customer support or your bank.
 *   Phone calls that force victims to act immediately. 
-*   Emails that include links to fake websites and the victim [enter their credentials](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/).
+*   Emails that include links to fake websites and the victim [enter their credentials](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/).
 *   Emails appear to come from the victim's organization's human resources department and ask to update your details or install a new app on their system. 
 *   Online advertisements that force the victim to click on a valid-looking link that redirects to a malicious website.
 
@@ -133,7 +133,7 @@ Organizations should conduct employee security awareness training to defend agai
 
 *   Whaling
 
-Whaling is an even more focused form of phishing since it goes after the whales, the BIG fish within the [industry like the CEO, CFO or CTO](https://www.loginradius.com/blog/start-with-identity/2020/09/consumer-identity-management-cmo-ciso-cio/). 
+Whaling is an even more focused form of phishing since it goes after the whales, the BIG fish within the [industry like the CEO, CFO or CTO](https://www.loginradius.com/blog/identity/2020/09/consumer-identity-management-cmo-ciso-cio/). 
 
 For example, c-suite executives might get an email stating that their company is being sued, and for more information, they need to click on the link. The link redirects them to a page where they enter all of their company's sensitive details like Social Security numbers, tax ID #, and bank account #s. 
 
@@ -151,13 +151,13 @@ A typical vishing scam involves a hacker posing as a fraud investigator telling 
 
 Stop answering calls from unknown phone numbers to defend against vishing attacks. Never give out private details over the phone and use a caller ID app. 
 
-You can protect against smishing attacks by carefully observing [unknown phone numbers](https://www.loginradius.com/blog/start-with-identity/2020/12/how-to-stop-phone-hacking/) and if you have any doubt, reach out directly to the company that's mentioned in the message. 
+You can protect against smishing attacks by carefully observing [unknown phone numbers](https://www.loginradius.com/blog/identity/2020/12/how-to-stop-phone-hacking/) and if you have any doubt, reach out directly to the company that's mentioned in the message. 
 
 
 
 *   Email phishing
 
-It is no secret that the majority of phishing attacks [are sent by email](https://www.loginradius.com/blog/start-with-identity/2020/12/what-to-do-when-email-hacked/). Cybercriminals register fake domains that mimic a real organization and send out thousands of generic requests.
+It is no secret that the majority of phishing attacks [are sent by email](https://www.loginradius.com/blog/identity/2020/12/what-to-do-when-email-hacked/). Cybercriminals register fake domains that mimic a real organization and send out thousands of generic requests.
 
 They may use the name of the company in the email address like paypal@domainregistrar.com in the anticipation that the name of the sender would simply appear in the inbox of the recipient as 'PayPal'.
 
@@ -183,7 +183,7 @@ Here are a few other guidelines to keep yourself safe from phishing attacks.
 *   Keep your browser up-to-date and check your online accounts regularly for traces of phishing attempts.
 *   Use high-quality firewalls as a shield between you, your computer, and outside intruders to reduce the odds of phishing attempts. 
 *   Be cautious of pop-up windows as they often redirect to malicious websites. Do not click on the "cancel" button, as those buttons often lead to phishing sites. Click the tiny 'x' in the upper corner of the browser instead.
-*   Get into the habit of regularly [changing your passwords](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/) to lock out potential attackers.
+*   Get into the habit of regularly [changing your passwords](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/) to lock out potential attackers.
 *   Do not share your personal information anywhere over the Internet. 
 *   Train your employees to adopt the best anti-phishing practices.
 
@@ -192,7 +192,7 @@ Here are a few other guidelines to keep yourself safe from phishing attacks.
 
 Using the tips mentioned above, businesses will be able to identify some of the most common kinds of phishing attacks. But, that doesn't mean that you can spot every phish. It's a harsh reality that phishing is constantly evolving to adopt new techniques. 
 
-With that in mind, you need to be on top of the game every single day. Keep on conducting [security awareness training](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/) so that your employees and executives never fall prey. 
+With that in mind, you need to be on top of the game every single day. Keep on conducting [security awareness training](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) so that your employees and executives never fall prey. 
 
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

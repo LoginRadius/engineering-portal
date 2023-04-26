@@ -75,7 +75,7 @@ So, the newest approach to identity management in cloud computing extends your c
 
 LoginRadius enables businesses to provide an enhanced consumer experience and protects the managed identities. Utilizing the [CIAM platform](https://www.loginradius.com/), organizations can offer a streamlined login process, registration, password setup, along with safeguarding consumer accounts and complying with precise data privacy regulations.
 
-LoginRadius enables this by providing open-source SDKs, integrations with more than 150 third-party applications, pre-designed and personalized login interfaces, and superior security products such as RBA, [MFA](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/), and Advanced Password Policies. More than 3,000 businesses appreciate the platform with monthly reachability of 1.17 billion users globally.
+LoginRadius enables this by providing open-source SDKs, integrations with more than 150 third-party applications, pre-designed and personalized login interfaces, and superior security products such as RBA, [MFA](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/), and Advanced Password Policies. More than 3,000 businesses appreciate the platform with monthly reachability of 1.17 billion users globally.
 
 Compared to conventional deployments with on-premise servers, LoginRadius facilitates everything for its customers, including upgrades, maintenance, data and infrastructure management, security, compliance, and complete privacy with 24/7 technical support.
 
@@ -88,7 +88,7 @@ The cloud identity platform completely [complies with precise privacy regulation
 
 ## Conclusion
 
-Identity management in cloud computing is highly critical to your organization. It can persuade the productivity of your employees and the [security of your organization](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/). It can also have immense control over what technology solutions you select.
+Identity management in cloud computing is highly critical to your organization. It can persuade the productivity of your employees and the [security of your organization](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/). It can also have immense control over what technology solutions you select.
 
 However, IAM solutions have to be supple across identity management and access control in cloud computing to match the current complexities of the computing environment. 
 

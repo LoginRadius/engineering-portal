@@ -12,7 +12,7 @@ metadescription: "CIAM has changed the conventional way of managing authenticati
 
 In a world where rich experiences surround us on every touchpoint, consumer identity and access management (CIAM) solutions are continuously helping businesses deliver secure and seamless experiences. 
 
-Whether we talk about ensuring adequate [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/) or the collection of insightful consumer data, CIAM has undeniably evolved as a game-changer for diverse industries. 
+Whether we talk about ensuring adequate [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/) or the collection of insightful consumer data, CIAM has undeniably evolved as a game-changer for diverse industries. 
 
 When we consider a CIAM solution, the first thing that comes to mind is a robust identity management mechanism that can provide authentication through numerous ways, including social login, OTP and email login, etc. 
 
@@ -31,7 +31,7 @@ So, why is passwordless authentication so important?
 
 It’s pretty simple. Passwords are just too easy to guess, hack, or intercept. What’s more, the legacy of password reuse is leading to constant attacks and account vulnerabilities.
 
-A passwordless authentication system swaps the use of a traditional password with more certain factors. These extra-security methods may include a [magic link](https://www.loginradius.com/blog/start-with-identity/loginradius-launches-passwordless-login-with-magic-link-or-otp/), fingerprint, PIN, or a secret token delivered via email or text message.
+A passwordless authentication system swaps the use of a traditional password with more certain factors. These extra-security methods may include a [magic link](https://www.loginradius.com/blog/identity/loginradius-launches-passwordless-login-with-magic-link-or-otp/), fingerprint, PIN, or a secret token delivered via email or text message.
 
 Passwordless Login with Magic Link or OTP feature by LoginRadius gets authentication right by hitting all the right chords—streaming consumer experience, enhancing account security, and improving adaptive safety (to name a few).
 
@@ -81,7 +81,7 @@ Security experts now firmly believe that the conventional security approach is g
 
 Since businesses emphasize delivering personalized and rich consumer experiences, progressive disclosure paves the path for the same from the beginning of the onboarding process. 
 
-[Progressive disclosure](https://www.loginradius.com/blog/start-with-identity/progressive-disclosure-user-onboarding/) is an innovative interaction design pattern that sequences information and various actions across different screens.
+[Progressive disclosure](https://www.loginradius.com/blog/identity/progressive-disclosure-user-onboarding/) is an innovative interaction design pattern that sequences information and various actions across different screens.
 
 The purpose is to enhance conversion rates by ensuring users don’t switch to competitors because they aren’t getting relevant information when they first interact with a brand.
 

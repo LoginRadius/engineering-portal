@@ -14,7 +14,7 @@ metatitle: "Striking a Balance Between Personalization and Data Privacy"
 
 We all live in a digital realm where massive amounts of data is transmitted from one computer to another. This data is useful to organizations as it helps them to not only scale their business but at the same time also prioritize data personalization and privacy. 
 
-Corporations worried about data privacy are developing shields and [safeguards to secure their corporate and customer digital possessions](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/).
+Corporations worried about data privacy are developing shields and [safeguards to secure their corporate and customer digital possessions](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/).
 
 Everywhere, [data security](https://www.loginradius.com/security/) is a top priority. This has been recognised by not just businesses with important data to guard but also individuals. However, people continue to make the same blunders when requested to disclose their email addresses to receive a ‘discount’ on a particular product. They frequently do so without reading the privacy statements first. Many businesses acquire such email addresses and utilize them unethically.
 

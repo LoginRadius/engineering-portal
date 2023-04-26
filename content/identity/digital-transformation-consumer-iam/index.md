@@ -12,7 +12,7 @@ metadescription: "In this blog, learn why assessing the consumer IAM environment
 
 Whether you want to improve consumer interaction through new digital channels or optimize your business operations, a digital transformation strategy is becoming increasingly important. Meanwhile, to defend your reputation and financial stability, you must safeguard data privacy and security.
 
-[Consumer Identity and Access Management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) (CIAM), also known as B2C IAM assists you in laying the groundwork for a business to deliver exceptional client experiences while striking the perfect balance between ease and security. All this within IT infrastructure makes sure that the appropriate people have access to the appropriate resources at the right time for the right cause.
+[Consumer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) (CIAM), also known as B2C IAM assists you in laying the groundwork for a business to deliver exceptional client experiences while striking the perfect balance between ease and security. All this within IT infrastructure makes sure that the appropriate people have access to the appropriate resources at the right time for the right cause.
 
 ## **Digital Transformation in a Business: A Necessary Disruption**
 
@@ -22,7 +22,7 @@ The workforce is being transformed by remote employees who use collaborative too
 
 ## **Structuring a Digital Transformation Plan**
 
-Everyone wins with a [digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/) strategy. A strategy helps organizations embrace new business models that allow them to provide staff with better digital technology. Therefore, your transformation strategy should include: 
+Everyone wins with a [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/) strategy. A strategy helps organizations embrace new business models that allow them to provide staff with better digital technology. Therefore, your transformation strategy should include: 
 
 
 
@@ -59,7 +59,7 @@ All of this data may be combined into a single consumer view, which may then be 
 
 APIs are widely used in the latest generation of consumer IAM platforms to link identity data and analytics into complementary systems like content management, ERP, and consumer experience Management.
 
-**Read more**: [Why Organizations Must Use API-Driven CIAM for Digital Agility](https://www.loginradius.com/blog/start-with-identity/digital-agility/)
+**Read more**: [Why Organizations Must Use API-Driven CIAM for Digital Agility](https://www.loginradius.com/blog/identity/digital-agility/)
 
 
 

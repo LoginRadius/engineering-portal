@@ -14,7 +14,7 @@ metadescription: "The emergence of continuous authentication has provided a seis
 
 The significance of authentication in cybersecurity cannot be stressed enough. However, for decades, our understanding of user verification has remained unchanged. It always follows the same pattern: the user provides their passport, fingerprint, or ID, and if this input matches the system data, a session is initiated for the user. 
 
-However, with the emergence of [continuous authentication](https://www.loginradius.com/blog/start-with-identity/continuous-authentication/) for business, a seismic shift in the perspective of authentication has taken place. While earlier authentication was an event, now it is a process. 
+However, with the emergence of [continuous authentication](https://www.loginradius.com/blog/identity/continuous-authentication/) for business, a seismic shift in the perspective of authentication has taken place. While earlier authentication was an event, now it is a process. 
 
 In the present day, organizations are prone to three types of attacks:
 
@@ -49,7 +49,7 @@ Here's a list of the technologies used to implement continuous authentication:
 
 
 
-* **Behavioral biometrics** - Here, you can continuously [track a user's behavioral patterns](https://www.loginradius.com/blog/start-with-identity/biometric-authentication-mobile-apps/) like interactive gestures, typing style, finger pressure, how long a user holds a key on the keyboard, or how they swipe through the screen or hold the mouse. Variation from the normal behavioral patterns can then be marked. 
+* **Behavioral biometrics** - Here, you can continuously [track a user's behavioral patterns](https://www.loginradius.com/blog/identity/biometric-authentication-mobile-apps/) like interactive gestures, typing style, finger pressure, how long a user holds a key on the keyboard, or how they swipe through the screen or hold the mouse. Variation from the normal behavioral patterns can then be marked. 
 
  
 
@@ -62,7 +62,7 @@ Here's a list of the technologies used to implement continuous authentication:
 
 ## Benefits and Drawbacks
 
-The use of behavioral biometrics discourages and stops imposters, bots, and fraudsters from executing criminal activities. Continuous authentication helps in enhancing security without affecting the work experience of the user. Without this system, businesses will be more prone to attacks and cybersecurity threats. Other threats that continuous authentication can help prevent are [credential stuffing](https://www.loginradius.com/blog/start-with-identity/prevent-credential-stuffing-attacks/#:~:text=What%20is%20Credential%20Stuffing,that%20focuses%20on%20infiltrating%20accounts.) and phishing. 
+The use of behavioral biometrics discourages and stops imposters, bots, and fraudsters from executing criminal activities. Continuous authentication helps in enhancing security without affecting the work experience of the user. Without this system, businesses will be more prone to attacks and cybersecurity threats. Other threats that continuous authentication can help prevent are [credential stuffing](https://www.loginradius.com/blog/identity/prevent-credential-stuffing-attacks/#:~:text=What%20is%20Credential%20Stuffing,that%20focuses%20on%20infiltrating%20accounts.) and phishing. 
 
 The continuous authentication functionality can be integrated into an application. However, it's not yet possible to achieve this across multiple apps. Moreover, there is the issue of user acceptance, even though continuous authentication for business is a more viable idea in the present era of technology than in the past. 
 

@@ -12,7 +12,7 @@ metadescription: "Any type of transformation is a challenge. But going  digital 
 
 Since we all now agree that digital transformation is not a choice, we might as well embrace the change and learn how to best adopt it. But it’s easier said than done, isn’t it? 
 
-According to a report by [McKinsey](https://technologymagazine.com/data-and-data-analytics/mckinsey-unlocking-success-digital-transformations), out of all the companies that [adopt digital transformation](https://www.loginradius.com/blog/start-with-identity/customer-experience-driving-digital-transformations/), only 30% taste success. Why do you think this is the case? 
+According to a report by [McKinsey](https://technologymagazine.com/data-and-data-analytics/mckinsey-unlocking-success-digital-transformations), out of all the companies that [adopt digital transformation](https://www.loginradius.com/blog/identity/customer-experience-driving-digital-transformations/), only 30% taste success. Why do you think this is the case? 
 
 Any type of transformation is a challenge. But digital transformation takes it up a notch. It involves every aspect of your business — people, processes, infrastructure, and customers. There’s simply a lot of room for errors that you cannot afford to make. 
 
@@ -35,13 +35,13 @@ You need to take baby steps. Define milestones and set interim goals to check th
 
 To fully understand and even leverage digital transformation, you need to figure out how and why they exist in the first place. According to a recent survey, [57% of the companies](https://technologymagazine.com/data-and-data-analytics/cherwell-why-are-so-many-companies-struggling-digital-transformation) misinterpreted digital transformation, assuming that it meant moving to a paperless framework. 
 
-So, [what is digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/)? 
+So, [what is digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/)? 
 
 Digital Transformation is the use of digital technologies to create and modify businesses processes and culture to create better customer experiences and meet the dynamic market conditions. 
 
 Now that you know what digital transformation is,  you’ll realize that its scope is much wider, and an act that can change the dynamics of a business environment for good. 
 
-Having said that, remember that digitization is not a magic wand that will magically solve problems pertaining to your products or services nor is it the robotic villain that is trying to steal jobs. It is meant to improve business processes and [customer experiences](https://www.loginradius.com/blog/start-with-identity/digital-transformation-safeguarding-customer-experience/). 
+Having said that, remember that digitization is not a magic wand that will magically solve problems pertaining to your products or services nor is it the robotic villain that is trying to steal jobs. It is meant to improve business processes and [customer experiences](https://www.loginradius.com/blog/identity/digital-transformation-safeguarding-customer-experience/). 
 
 To do so, you need to clearly assess its future impact and strategically integrate it into your current ecosystem. The adoption of new technologies may bring changes in the way you work, and change the pace at which you work, but it cannot fix things out of its expertise. 
 

@@ -15,7 +15,7 @@ Consumers are often frustrated with the complex task of entering their passwords
 
 Consumers would love an experience that is simple, quick, and frictionless - after all, no one wants to put the extra effort while enjoying leisure. 
 
-LoginRadius' Smart and IoT Authentication is a practical approach to ensure effortless login for consumers. It eliminates the burden of password entry and, consequently, sheds off [data security risks](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) related to password attacks.
+LoginRadius' Smart and IoT Authentication is a practical approach to ensure effortless login for consumers. It eliminates the burden of password entry and, consequently, sheds off [data security risks](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) related to password attacks.
 
 ## Intend Behind the Launch
 

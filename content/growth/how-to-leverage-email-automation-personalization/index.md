@@ -13,7 +13,7 @@ Marketing strategies come and go, but there’s hardly a strategy as effective, 
 
 Modern-day consumers love attention. They want to be identified and valued. This has led to the rise of personalization in marketing, and email marketing is no different.
 
-But with brands having hundreds of thousands of subscribers in their email lists, providing personalized [consumer experiences](https://www.loginradius.com/blog/start-with-identity/2018/05/customer-experience-driving-digital-transformations/) can be challenging.
+But with brands having hundreds of thousands of subscribers in their email lists, providing personalized [consumer experiences](https://www.loginradius.com/blog/identity/2018/05/customer-experience-driving-digital-transformations/) can be challenging.
 
 Email automation personalization is a rising marketing approach that enables you to personalize and automate your email marketing simultaneously.
 
@@ -74,7 +74,7 @@ You can use QR codes to collect emails from your offline customers. A large shar
 
 Create a QR code using a [QR code generator](https://www.beaconstac.com/qr-code-generator) and link it to your email sign-up form. You can put this code inside your store, on product packaging, or in your advertising materials. Users can use their phones to scan the code and sign up for your email newsletter. QR codes are highly trackable. When users scan the code, you can collect information such as location, device, etc., to better understand your customers.
 
-Read More: [LoginRadius launches QR-code-based authentication for hassle-free log in](https://www.loginradius.com/blog/start-with-identity/2020/12/iot-smart-authentication/)
+Read More: [LoginRadius launches QR-code-based authentication for hassle-free log in](https://www.loginradius.com/blog/identity/2020/12/iot-smart-authentication/)
 
 Once you have developed a rapport with a prospect, you can ask for information through surveys and feedback emails. Surveys can be effective in knowing your customers better and understanding their requirements.
 

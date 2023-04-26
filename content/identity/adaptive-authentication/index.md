@@ -46,7 +46,7 @@ Multi-factor authentication (MFA) is a multi-layered protection framework that v
 
 A few examples of multi-factor authentication are codes created by mobile apps, answers to personal security questions, codes sent to an email address, fingerprints, etc.
 
-Read this post to get the detailed information regarding [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/what-is-multi-factor-authentication/), how it works, and how to quickly set up multi-factor authentication.
+Read this post to get the detailed information regarding [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/), how it works, and how to quickly set up multi-factor authentication.
 
 ## What is Adaptive Authentication?
 
@@ -103,7 +103,7 @@ Yes, unlike multi-factor authentication that creates a lengthy authentication pr
 
 This means a user won’t need to prove their identity through multiple layers of authentication in everyday scenarios. Instead, the user would only be required to go through the authentication process if the system finds any unusual activity from the user’s end or detects a risk.
 
-Must read: [What is Risk-Based Authentication?](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/)
+Must read: [What is Risk-Based Authentication?](https://www.loginradius.com/blog/identity/risk-based-authentication/)
 
 When users get a flawless experience while signing in, there are more chances of conversion when compared to a login process involving an exhausting authentication process.
 

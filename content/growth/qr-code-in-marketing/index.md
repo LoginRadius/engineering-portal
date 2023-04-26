@@ -42,7 +42,7 @@ Moreover, some product-specific QR Codes are also being used to deliver rich AR-
 
 For instance, many online glasses stores have provided product QR Codes. These codes, when scanned with a smartphone, provide a try-on experience where the user can try shades and spectacles and choose the one that suits them the most.
 
-The pandemic-driven convenience of QR Codes is helping vendors and marketers to plan strategies around leveraging QR Codes to deliver [hassle-free smart authentication](https://www.loginradius.com/blog/start-with-identity/iot-smart-authentication/) experiences that help increase conversion rates as the need to visit a store is eliminated.
+The pandemic-driven convenience of QR Codes is helping vendors and marketers to plan strategies around leveraging QR Codes to deliver [hassle-free smart authentication](https://www.loginradius.com/blog/identity/iot-smart-authentication/) experiences that help increase conversion rates as the need to visit a store is eliminated.
 
 ### #3. Converts One-time Customers to Repeat Buyers
 

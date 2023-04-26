@@ -12,7 +12,7 @@ metadescription: "Sign-up form should be clear and easy to understand. Avoid usi
 
 The marketing funnel's very last step includes some sign-up process if you want to increase your conversion rate, generate leads, or make a sale. But, just because you got them this far doesn't mean that if your type isn't optimized at least as well as the rest of the funnel, your prospects won't bolt in a second.
 
-When using your sign up forms, the following tips will help you [maximize your prospects' experience](https://www.loginradius.com/blog/start-with-identity/2020/05/customer-experience-retail-industry/) and plug in the leaks that arise so frequently at the critical endpoint of your funnel.
+When using your sign up forms, the following tips will help you [maximize your prospects' experience](https://www.loginradius.com/blog/identity/2020/05/customer-experience-retail-industry/) and plug in the leaks that arise so frequently at the critical endpoint of your funnel.
 
 Your sign-up form should be transparent and quick to understand. Avoid using confusing areas that frustrate users. When they fill out the form, tell the users what to do, don't wait until they have made a mistake. Near the area, put specific instructions so that they understand what they have to do.
 
@@ -62,7 +62,7 @@ Your sign-ups might be crazy high if your sales team doesn't get all the lead de
 
 Many developers and website owners overlook the value of providing a safe login form on websites. The incompetence of these web developers can cause a lot of harm to their guests without understanding the dangers of their actions.
 
-[Securing a login](https://www.loginradius.com/blog/start-with-identity/2020/12/login-security/) form for any website may seem like a tiny move towards web security. Still, users get a negative impression of the safety of the website without taking this step. On the opposite, you are rewarding user perceptions regarding web protection by securing a website's login type.
+[Securing a login](https://www.loginradius.com/blog/identity/2020/12/login-security/) form for any website may seem like a tiny move towards web security. Still, users get a negative impression of the safety of the website without taking this step. On the opposite, you are rewarding user perceptions regarding web protection by securing a website's login type.
 
 The key here is as much as possible to lower the barrier to entry. You don't want your guests to worry about it until they've agreed to sign up. An unsafe sort of website is a chance to change their minds.
 

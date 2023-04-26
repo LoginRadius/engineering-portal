@@ -31,7 +31,7 @@ Passwordless Login takes the frustration out of the equation to create a better 
 
 
 - It improves consumer experience, particularly mobile applications because users only need an email address or mobile phone number to sign up.
-- It enhances security. Passwords are a significant vulnerability as consumers reuse passwords and share them with others. Passwords are the most significant attack vector and are responsible for a substantial percentage of breaches and attacks such as corporate account takeover, [credentials stuffing](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/), and brute force attacks.
+- It enhances security. Passwords are a significant vulnerability as consumers reuse passwords and share them with others. Passwords are the most significant attack vector and are responsible for a substantial percentage of breaches and attacks such as corporate account takeover, [credentials stuffing](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/), and brute force attacks.
 - It reduces the total cost of ownership, as managing passwords is expensive (implementing password complexity policies, password expiration, password reset processes, password hashing and storing, breached password detection).  
 
 ## How to Implement Passwordless Login
@@ -76,7 +76,7 @@ You can also configure the OTP length and the duration of its expiry for securit
 
 The consumer is prompted to provide an email address, to which the authenticator sends a one-time-passcode. The consumer then inputs the code into your application. If the email address attached to the code matches an existing user, the server will identify and validate it.
 
-If the consumer is new, then a profile is created for the email connection. This will be before the authentication authenticates the consumer. You can also configure the OTP length and the duration of its expiry for [security best practices](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/). 
+If the consumer is new, then a profile is created for the email connection. This will be before the authentication authenticates the consumer. You can also configure the OTP length and the duration of its expiry for [security best practices](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/). 
 
 **Passwordless Login with Magic Links**
 

@@ -35,7 +35,7 @@ While most of the online platforms consider access management to define permissi
 
 Having too many privileged users within a network could be the worst thing for an organization when it comes to data and privacy concerns.
 
-Businesses need to understand the[ importance of access management](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-iam/) that can prevent a data breach and protect sensitive data from being exposed.
+Businesses need to understand the[ importance of access management](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/) that can prevent a data breach and protect sensitive data from being exposed.
 
 Moreover, experts believe that keeping a track of permissions and data access requests could help in building a robust and secure ecosystem.  
 
@@ -80,7 +80,7 @@ Progressive profiling helps businesses in choosing which data they wish to gathe
 
 This process not only improves user experience but eventually helps enterprises to drive more revenues as the customers continue to share information and as they increase interaction with your brand.
 
-Organizations can set rules that suit their business requirements and [win consumers’ trust](https://www.loginradius.com/blog/start-with-identity/2019/10/digital-identity-management/) that further boosts business revenues.
+Organizations can set rules that suit their business requirements and [win consumers’ trust](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/) that further boosts business revenues.
 
 
 ## Conclusion

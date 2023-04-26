@@ -68,7 +68,7 @@ Once the security audit is complete your platform will be granted a security cer
 
 ## What else?
 
-[Data security](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/) is crucial for your online business. Having certain security checks in place will help ensure the security of your website and make online transactions secure for your customers.
+[Data security](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/) is crucial for your online business. Having certain security checks in place will help ensure the security of your website and make online transactions secure for your customers.
 
 Several other ways can also be employed to ensure your website is secure. These include using unique passwords and frequently changing passwords.
 

@@ -37,7 +37,7 @@ As the global compliance and data protection landscape continue to evolve, Login
 
 *   **Versions **- Businesses can name the privacy policy version after each update, making it easier to handle versioning.
 *   **Timestamps **- Businesses can set and manage the date and time from when a privacy policy version will be effective. They can set the schedule in advance, and the consumers are notified about the new version with a message of their choice to ensure personalization.
-*   **Flow Type **- Businesses can choose whether notifying the consumers about the privacy policy change is enough or [consumers should provide acceptance](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) on the same. LoginRadius handles the notification or the acceptance process on their behalf. 
+*   **Flow Type **- Businesses can choose whether notifying the consumers about the privacy policy change is enough or [consumers should provide acceptance](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) on the same. LoginRadius handles the notification or the acceptance process on their behalf. 
 
 [![privacy-policy-management-datasheet](privacy-policy-management-datasheet.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 

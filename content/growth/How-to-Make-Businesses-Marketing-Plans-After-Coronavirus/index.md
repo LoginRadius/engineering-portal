@@ -47,7 +47,7 @@ Let's now explore some of the strategies employed by companies to survive in a p
 
 ### 1. Focus more on existing consumers.
 
-It says a lot about the consumer's loyalty that has stayed with you despite the pandemic. The focus on serving existing consumers has emerged as one of the most popular B2B [marketing trends after COVID](https://www.loginradius.com/blog/start-with-identity/2020/03/loginradius-business-continuity-covid-19-outbreak/). Create services and ad campaigns targeting their needs which are sure to have changed with the changing times.
+It says a lot about the consumer's loyalty that has stayed with you despite the pandemic. The focus on serving existing consumers has emerged as one of the most popular B2B [marketing trends after COVID](https://www.loginradius.com/blog/identity/2020/03/loginradius-business-continuity-covid-19-outbreak/). Create services and ad campaigns targeting their needs which are sure to have changed with the changing times.
 
   
 

@@ -39,7 +39,7 @@ Even though work from home has by and large been quite productive, there is no s
 
   
 
-As the [COVID-19 threat](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/) has subsided, work from home is expected to ease out. For one, it will no longer be full-time for everyone due to a lack of choice. Those who need the high-end tools to work will have the freedom to use them in the office. And the ones who need to collaborate on vast projects will have the luxury to interact with their colleagues and ask questions without any interference.
+As the [COVID-19 threat](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/) has subsided, work from home is expected to ease out. For one, it will no longer be full-time for everyone due to a lack of choice. Those who need the high-end tools to work will have the freedom to use them in the office. And the ones who need to collaborate on vast projects will have the luxury to interact with their colleagues and ask questions without any interference.
 
 ### Key Staff May Resume Their Work from the Office
 

@@ -54,7 +54,7 @@ Once users prove their identity through various authentication procedures, they�
 
 Here, the good news is that most people are well aware that proving who they are is crucial, but what’s annoying is when the process becomes pretty complex.
 
-On the other hand, organizations are also taking adequate measures to protect their crucial data, as the arrival of stringent [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/ccpa-vs-gdpr-the-compliance-war/) regulations. This can undoubtedly add more levels to the overall authentication and authorization process, which hampers user experience.
+On the other hand, organizations are also taking adequate measures to protect their crucial data, as the arrival of stringent [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) regulations. This can undoubtedly add more levels to the overall authentication and authorization process, which hampers user experience.
 
 Unfortunately, this isn’t in the case of the private sector. Although people understand that private entities are different, they would undoubtedly require this information to process our records. This leads to a very unpleasant and inconsistent customer experience.
 
@@ -76,7 +76,7 @@ Social login helps users to authenticate themselves with the existing social med
 
   
 
-With LoginRadius [Social Login](https://www.loginradius.com/blog/start-with-identity/what-is-social-login/), users can quickly log in and register themselves with a single click on a website or a mobile application with their social media accounts from various providers, including- Facebook, Gmail, Twitter, etc.
+With LoginRadius [Social Login](https://www.loginradius.com/blog/identity/what-is-social-login/), users can quickly log in and register themselves with a single click on a website or a mobile application with their social media accounts from various providers, including- Facebook, Gmail, Twitter, etc.
 
   
 
@@ -92,9 +92,9 @@ Moreover, Loginradius’ Social Login is an attractive feature for developers an
 
 Authentication in the public sector is a crucial aspect, which eventually requires a robust mechanism to ensure user identities remain secured.
 
-LoginRadius offers [Multi-Factor Authentication](https://www.loginradius.com/blog/start-with-identity/what-is-multi-factor-authentication/) through SMS, automated phone calls, email, security questions, and authenticator apps, allowing you to customize the user experience. Depending on the diverse public sector needs, you can also opt to turn on Multi-Factor Authentication across all customer accounts.
+LoginRadius offers [Multi-Factor Authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) through SMS, automated phone calls, email, security questions, and authenticator apps, allowing you to customize the user experience. Depending on the diverse public sector needs, you can also opt to turn on Multi-Factor Authentication across all customer accounts.
 
-On the other hand, LoginRadius’ [Risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) is a non-static authentication system that considers the profile(IP address, Browser, physical Location, and so on) of a consumer requesting access to the system to determine the risk profile associated with that action.
+On the other hand, LoginRadius’ [Risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) is a non-static authentication system that considers the profile(IP address, Browser, physical Location, and so on) of a consumer requesting access to the system to determine the risk profile associated with that action.
 
 The risk-based implementation allows diverse web applications to challenge the user for additional credentials only when the risk level is appropriate.
 
@@ -116,6 +116,6 @@ The public sector is an integral part of any country’s overall development as 
 
 Until now, most countries have been managing the standard verification approach in the public sector, but it immediately requires adequate alterations in identity verification.
 
-Whether it’s authentication or delivering a consistent omnichannel experience, LoginRadius can help decision-makers build a flawless user experience coupled with enhanced security that ensures the overall [digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/) of the public sector.
+Whether it’s authentication or delivering a consistent omnichannel experience, LoginRadius can help decision-makers build a flawless user experience coupled with enhanced security that ensures the overall [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/) of the public sector.
 
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

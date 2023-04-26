@@ -39,7 +39,7 @@ Since we now know what SSO is, let’s move towards understanding how to choose 
 
 ### #1. Understand the business and consumer benefits of using SSO
 
-The first thing that businesses should know about SSO is [what benefits it offers](https://www.loginradius.com/blog/start-with-identity/benefits-single-sign-on-sso/) to their organization and its consumers. 
+The first thing that businesses should know about SSO is [what benefits it offers](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/) to their organization and its consumers. 
 
 Every organization thinks adequately about investing in a specific technology. Similarly, businesses should first think about what business advancements they could get with SSO. Moreover, what would the benefit for their consumers be if they implement SSO. 
 

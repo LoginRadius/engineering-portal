@@ -30,7 +30,7 @@ The key takeaway from password spraying is that user accounts with old or common
 
 Here’s a password spraying example: Let's say an attacker wants to gain access to a company's email system. They have a list of email addresses for employees at the company but don't know their passwords. Instead of attempting to guess each employee's individual password, the attacker uses a common password (such as "password123") and tries it on each email account in the list. Then the attacker uses an automated tool to repeatedly enter the common password for each email address until they find one that works. This way, they can gain access to multiple email accounts with minimal effort. This is a password spraying example, which is often used in targeted attacks against organizations.
 
-The [most common passwords](https://www.loginradius.com/blog/start-with-identity/2019/12/worst-passwords-list-2019/) of compromised accounts in 2019 included obvious and simple number combinations, first names, and ironically, the word "password" itself. Any hacker armed with a large bank of common passwords can ably hack into accounts and cause devastating data breaches.
+The [most common passwords](https://www.loginradius.com/blog/identity/2019/12/worst-passwords-list-2019/) of compromised accounts in 2019 included obvious and simple number combinations, first names, and ironically, the word "password" itself. Any hacker armed with a large bank of common passwords can ably hack into accounts and cause devastating data breaches.
 
 If that isn't scary enough by itself, today's tech-savvy hackers have adopted more precise approaches, focusing on single sign-on (SSO) authentication and guessing credentials to gain access to multiple applications and systems. 
 
@@ -78,7 +78,7 @@ While password spraying involves testing multiple passwords against a user accou
 As we mentioned earlier, password spraying attacks cannot be prevented but definitely detected and stopped before further damage can be done. If you suspect that your organization has been affected by a password spraying attack, here's what you can do for password spraying detection and prevention:
 
 *   In the absence of MFA, immediately reset passwords for privileged and administrative domain accounts.
-*   Configure your [security logging platform](https://www.loginradius.com/blog/start-with-identity/2020/12/login-security/) to identify failed login attempts across the office's various systems and launch an immediate response and investigation into suspicious activities.
+*   Configure your [security logging platform](https://www.loginradius.com/blog/identity/2020/12/login-security/) to identify failed login attempts across the office's various systems and launch an immediate response and investigation into suspicious activities.
 *   Engage an Endpoint Detection and Response (EDR) technology or Deception Technology on endpoints to view the malicious activity and block hackers from moving laterally.
 *   Review incident response plans and appropriate alert members as a further precaution.
 *   Hire a security firm with digital forensic and incident response capabilities to identify compromised accounts, investigate for potential data loss, and for additional support. 
@@ -96,7 +96,7 @@ LoginRadius offers the following security benefits for enterprises.
 
 **1. Password security**: The platform is equipped with features like setting password validation (minimum/maximum length, at least one special character, alphanumeric, etc.), enforcing password lifetime, password history, and password visibility.
 
-**2. Security against brute force attack**: A [Brute Force Attack](https://www.loginradius.com/blog/start-with-identity/2021/02/brute-force-lockout/) is a common practice of hackers trying various passwords until they find the right password. When it happens, you have the option to suspend your consumer's account for a set period of time, prompt the captcha option, ask security questions, or block the account entirely.
+**2. Security against brute force attack**: A [Brute Force Attack](https://www.loginradius.com/blog/identity/2021/02/brute-force-lockout/) is a common practice of hackers trying various passwords until they find the right password. When it happens, you have the option to suspend your consumer's account for a set period of time, prompt the captcha option, ask security questions, or block the account entirely.
 
 **3. Risk-based authentication (RBA)**: RBA is an authentication system in which a new layer of protection is activated if there is a minor change in consumer conduct, such as a changed IP address, suspected search history, or some other act that seems suspicious and dangerous. LoginRadius is the ideal RBA solution for enterprises of all sizes offering authentication protocols like biometrics, push notifications, OTP, and tokens.
 

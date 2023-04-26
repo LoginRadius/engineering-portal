@@ -36,7 +36,7 @@ Other tactics that hackers use include:
 
 ### 1. Phishing attacks
 
-Phishing is a [social engineering attack](https://www.loginradius.com/blog/start-with-identity/2020/10/social-engineering-attacks/) that occurs when the hacker dupes a victim into opening an email using fraudulent ads or scareware tactics. 
+Phishing is a [social engineering attack](https://www.loginradius.com/blog/identity/2020/10/social-engineering-attacks/) that occurs when the hacker dupes a victim into opening an email using fraudulent ads or scareware tactics. 
 
 Unfortunately, such attacks are no longer just an email problem. It has somewhat expanded to instant/ text messages, social networks, videoconferencing, and gaming applications. 
 
@@ -76,7 +76,7 @@ The hacker uses tools to record the data captured by each keystroke, which are r
 
 In this attack, the hacker positions themselves in the middle of a conversation between a user and an application to eavesdrop or impersonate a website or application. 
 
-In return, the hacker [steals the victim's login credentials](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/), account numbers, social security numbers, etc. 
+In return, the hacker [steals the victim's login credentials](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/), account numbers, social security numbers, etc. 
 
 SaaS businesses, e-commerce sites, and users of financial services majorly fall victim to man-in-the-middle attacks.  
 

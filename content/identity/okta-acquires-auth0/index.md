@@ -34,7 +34,7 @@ Here are some of the notable events in CIAM in recent times:
     
 -   In January 2019, the Akamai Intelligent Edge Platform [acquired Janrain](https://www.prnewswire.com/news-releases/akamai-completes-acquisition-of-customer-identity-access-management-company-janrain-inc-300783209.html) to provide a highly-secure and resilient identity management environment for businesses and their customers.
     
--   In July 2018, cloud-based CIAM platform LoginRadius announced [$17M Series A Funding](https://www.loginradius.com/blog/start-with-identity/2018/07/loginradius-announces-17m-series-funding-forgepoint-microsoft/) from Microsoft's Venture Fund to accelerate its product innovation.
+-   In July 2018, cloud-based CIAM platform LoginRadius announced [$17M Series A Funding](https://www.loginradius.com/blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/) from Microsoft's Venture Fund to accelerate its product innovation.
     
 -   In November 2017, SAP completed the acquisition of customer identity management firm [Gigya for $350M](https://news.sap.com/2017/09/sap-to-acquire-gigya-market-leader-in-customer-identity-and-access-management/) in a smart move to strengthen its Hybris e-commerce division.
     

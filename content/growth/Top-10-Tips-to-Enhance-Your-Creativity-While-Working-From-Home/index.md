@@ -60,7 +60,7 @@ Technology enables leaders to learn about employee experience and get a comprehe
 
   
 
-Identity is all in the modern world, and the [cyber threat to businesses](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/) is at an all-time high. With the world at a standstill as a result of the pandemic, the concept of stable data governance and flexible identity management in a volatile environment should be considered.
+Identity is all in the modern world, and the [cyber threat to businesses](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/) is at an all-time high. With the world at a standstill as a result of the pandemic, the concept of stable data governance and flexible identity management in a volatile environment should be considered.
 
 ### 2. Work with tight deadlines
 

@@ -52,7 +52,7 @@ Image Source: <a rel="nofollow" href="https://xo.ua/kuda-poehat-na-shopping-top-
 
 There are many elements influencing recognizability success and many still believe that it's the brand logo that determines success. However, experts argue against this idea and suggest new ways of making the brand appealing and recognizable.
 
-In this article, we’ll try to figure out what brand recognizability is made up of and how it is connected to [consumer identity](https://www.loginradius.com/blog/start-with-identity/digital-transformation-consumer-iam/). Let’s move on to discover how it works.
+In this article, we’ll try to figure out what brand recognizability is made up of and how it is connected to [consumer identity](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/). Let’s move on to discover how it works.
 
 ### Image-Oriented Consumers
 

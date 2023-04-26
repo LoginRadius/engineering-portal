@@ -18,7 +18,7 @@ For instance, several businesses have adopted Consumer Relationship Management (
 
   
 
-In the digital age, the use of CRMs has created a gap between consumers and businesses. Even though businesses use [user management systems](https://www.loginradius.com/blog/start-with-identity/2021/03/What-is-User-Management/), the gap is present. This is because consumers expect a personal touch in whichever service they buy; businesses can automate the process with the help of software. This gap is one of the main reasons why businesses should focus on relationship marketing.
+In the digital age, the use of CRMs has created a gap between consumers and businesses. Even though businesses use [user management systems](https://www.loginradius.com/blog/identity/2021/03/What-is-User-Management/), the gap is present. This is because consumers expect a personal touch in whichever service they buy; businesses can automate the process with the help of software. This gap is one of the main reasons why businesses should focus on relationship marketing.
 
   
 

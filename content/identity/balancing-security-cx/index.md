@@ -20,7 +20,7 @@ On the other hand,[ 67% of consumers mentioned bad experiences](https://www.huff
 
 So, what’s the trick that helps market leaders stay ahead of the curve? How do they secure consumer data without affecting the consumer experience?
 
-Well, the key lies in creating a perfect harmony of security and user experience through a [CIAM (Consumer Identity and Access Management)](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) solution that helps scaling business growth.
+Well, the key lies in creating a perfect harmony of security and user experience through a [CIAM (Consumer Identity and Access Management)](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) solution that helps scaling business growth.
 
 Let’s dig deeper into this and understand why a CIAM solution is becoming the need of the hour in the ever-expanding competitive digital world.
 

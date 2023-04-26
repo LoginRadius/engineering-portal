@@ -22,7 +22,7 @@ To cope with the increasing number of cyber frauds and data thefts, the National
 
 The NIST has dispensed several guidelines that not only ensure security to the user but eventually help enterprises secure their crucial business information.
 
-These guidelines offer recommendations for users for [creating strong passwords](https://www.loginradius.com/blog/start-with-identity/loginradius-password-policy-business-consumer/) along with recommendations for vendors/verifiers that are handling passwords.
+These guidelines offer recommendations for users for [creating strong passwords](https://www.loginradius.com/blog/identity/loginradius-password-policy-business-consumer/) along with recommendations for vendors/verifiers that are handling passwords.
 
 Let’s have a quick look at some of the most important NIST guidelines and the cybersecurity best practices to follow in 2021.
 
@@ -55,7 +55,7 @@ Now, the essential aspect for enterprises is that during the verification proces
 
 This reinforces the security of credentials. Also, the user should be allowed a minimum of 10 attempts to enter their password before locking their profile.
 
-**Also Read**: [Cybersecurity Best Practices for Businesses in 2021](https://www.loginradius.com/blog/start-with-identity/cybersecurity-best-practices-for-enterprises/) 
+**Also Read**: [Cybersecurity Best Practices for Businesses in 2021](https://www.loginradius.com/blog/identity/cybersecurity-best-practices-for-enterprises/) 
 
 
 ### No More Hints
@@ -73,7 +73,7 @@ The users must be provided with the ability to paste passwords into password fie
 
 Earlier, the verifiers didn’t allow the users to paste a password just because of security concerns. But now, service providers need to revoke the same for enhanced user experience.
 
-Apart from this, the use of [two-factor authentication](https://www.loginradius.com/blog/start-with-identity/how-secure-2fa/) must be emphasized as SMS isn’t considered a secure option.
+Apart from this, the use of [two-factor authentication](https://www.loginradius.com/blog/identity/how-secure-2fa/) must be emphasized as SMS isn’t considered a secure option.
 
 The verifiers need to rely on strong multi-factor authentication methods that provide authentication using secure one-time links or must use Google Authenticator.
 

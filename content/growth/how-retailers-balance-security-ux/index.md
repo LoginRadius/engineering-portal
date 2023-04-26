@@ -63,7 +63,7 @@ Online retailers that cannot protect consumer identity and personal information 
 
 Adding stringent layers of security is a must for any retailer seeking substantial growth in the ever-expanding competitive business landscape.
 
-Whether it’s multi-factor authentication (MFA) or [risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) (RBA), enterprises need to adopt advanced security measures to safeguard consumer information to prevent financial and reputational losses.
+Whether it’s multi-factor authentication (MFA) or [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA), enterprises need to adopt advanced security measures to safeguard consumer information to prevent financial and reputational losses.
 
 
 ### #2. Multichannel buying experience 

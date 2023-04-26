@@ -45,12 +45,12 @@ Strange behavior like outgoing calls or texts, which have not been sent by the s
 
 ### 5. Mystery pop-ups
 
-Constant pop-up alerts could indicate that the smartphone has been infected with adware, a form of malware. Hackers use adware to force users into viewing web pages that drive revenue through clicks. While all pop-ups are not necessarily malware attacks, some may also be [phishing](https://www.loginradius.com/blog/start-with-identity/2018/02/phishing-for-identity/) attempts to attract users to give away sensitive information.
+Constant pop-up alerts could indicate that the smartphone has been infected with adware, a form of malware. Hackers use adware to force users into viewing web pages that drive revenue through clicks. While all pop-ups are not necessarily malware attacks, some may also be [phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/) attempts to attract users to give away sensitive information.
 
 
 ### 6. Unusual activity on any accounts linked to the device
 
-If the phone has been hacked, hackers would be able to access social media, email, or apps, putting you at risk for identity fraud. Activities such as resetting passwords, [emails being sent or read](https://www.loginradius.com/blog/start-with-identity/2020/12/what-to-do-when-email-hacked/) without the users' knowledge, or new account sign-ups are all signals which indicate that the phone is in the wrong hands. 
+If the phone has been hacked, hackers would be able to access social media, email, or apps, putting you at risk for identity fraud. Activities such as resetting passwords, [emails being sent or read](https://www.loginradius.com/blog/identity/2020/12/what-to-do-when-email-hacked/) without the users' knowledge, or new account sign-ups are all signals which indicate that the phone is in the wrong hands. 
 
 
 ## What to Do if Your Phone Is Hacked
@@ -68,7 +68,7 @@ If you witness any of the above signs on your smartphone, there is a high possib
 
 ## 8 Ways To Stop Someone From Hacking Your Phone Again
 
-Many smartphone users believe that their mobile service providers should deploy [cyber-protection](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/). However, it is also the responsibility of the users to protect themselves from hackers. There are many different ways a hacker can get into your phone and steal personal and critical information. 
+Many smartphone users believe that their mobile service providers should deploy [cyber-protection](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/). However, it is also the responsibility of the users to protect themselves from hackers. There are many different ways a hacker can get into your phone and steal personal and critical information. 
 
 Here are a few safety tips to ensure that you do not become a victim of phone hacking:
 
@@ -88,7 +88,7 @@ Installation of any smartphone app requires users to grant permissions, includin
 
 ### 3.  Review what’s already on your phone.
 
-Users need to keep track of the apps already downloaded on their smartphones. It may have been safe when installed the first time, but subsequent updates could have infected the smartphone. Always keep track of what [permissions have been given to the apps](https://www.loginradius.com/blog/start-with-identity/2020/08/securing-enterprise-mobile-apps/) while accessing the operating system of the smartphone. Various security apps would have helped provide an overview of the permissions, but users need to download such apps from trusted sites. 
+Users need to keep track of the apps already downloaded on their smartphones. It may have been safe when installed the first time, but subsequent updates could have infected the smartphone. Always keep track of what [permissions have been given to the apps](https://www.loginradius.com/blog/identity/2020/08/securing-enterprise-mobile-apps/) while accessing the operating system of the smartphone. Various security apps would have helped provide an overview of the permissions, but users need to download such apps from trusted sites. 
 
 
 ### 4.   Make it hard for intruders to get in.
@@ -113,7 +113,7 @@ Auto-login is a convenient feature that automatically logs in without entering t
 
 Using an open wireless network allows anyone in the vicinity to snoop on what you are doing online. At times, hackers open their own free wireless "hotspots" to attract users to access their wifi.  Once connected, they can easily hack into phones. 
 
-So, whenever you are not sure about the security of the wireless network, use your phone’s mobile internet connection. It will be a much safer and secure option. Users can also opt for VPN tools which route the traffic through a private encrypted channel. Turning on [two-factor authentication for online accounts ](https://www.loginradius.com/blog/start-with-identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/)will also help protect your privacy on public wifi. Users should turn off bluetooth and personal hotspot functions when not required. 
+So, whenever you are not sure about the security of the wireless network, use your phone’s mobile internet connection. It will be a much safer and secure option. Users can also opt for VPN tools which route the traffic through a private encrypted channel. Turning on [two-factor authentication for online accounts ](https://www.loginradius.com/blog/identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/)will also help protect your privacy on public wifi. Users should turn off bluetooth and personal hotspot functions when not required. 
 
 
 ### 8.   Lock individual apps.

@@ -41,7 +41,7 @@ Users can quickly sign up for a platform in just a couple of seconds through Log
 
 ## Why LoginRadius Social Login?
 
-LoginRadius is the leading [consumer identity and access management (CIAM) ](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/)solution provider that has woven a trust among global clients ranging from startups to Fortune 500 enterprises.
+LoginRadius is the leading [consumer identity and access management (CIAM) ](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/)solution provider that has woven a trust among global clients ranging from startups to Fortune 500 enterprises.
 
 Our social authentication solution is helping diverse businesses securely manage millions of identities along and offering quick sign-ups without hampering user experience.
 
@@ -72,7 +72,7 @@ LoginRadius’ social authentication is completely maintenance-free.
 
 Enhance your marketing reach with complete access to your consumers’ social profile data that also includes verified email addresses, their interests, contacts, and much more.
 
-With LoginRadius’ [social login](https://www.loginradius.com/blog/start-with-identity/2021/02/social-login-infographic/), you get endless marketing opportunities through which you can convert your visitors into buyers by leveraging real-time data with behavior analysis.
+With LoginRadius’ [social login](https://www.loginradius.com/blog/identity/2021/02/social-login-infographic/), you get endless marketing opportunities through which you can convert your visitors into buyers by leveraging real-time data with behavior analysis.
 
 Moreover, the data is collected from the user after their consent and you can have access to their contacts, addresses, interests, likes, and much more.
 
@@ -106,7 +106,7 @@ This enables users to quickly sign-up for your application without the hassle of
 
 **Final Thoughts**
 
-While social login inches towards the verge of becoming an industry standard for [secure and quick login](https://www.loginradius.com/blog/start-with-identity/2020/12/login-security/), businesses need to understand its true potential in improving business growth.
+While social login inches towards the verge of becoming an industry standard for [secure and quick login](https://www.loginradius.com/blog/identity/2020/12/login-security/), businesses need to understand its true potential in improving business growth.
 
 LoginRadius’ social authentication, driven by cutting-edge technology and backed by the highest level of security ensures clients get a seamless user experience that further improves conversion rate.
 

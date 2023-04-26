@@ -32,7 +32,7 @@ The CCPA or the California Consumer Privacy Act ensures that consumers are infor
 
 ### Impact of GDPR and CCPA on Identity Marketing
 
-The [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/ccpa-vs-gdpr-the-compliance-war/) have a significant impact on identity marketing.
+The [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) have a significant impact on identity marketing.
 
 First, there's the issue of data protection. The GDPR requires businesses to give their customers access to the data they store (and avoid storing in the first place), and requires that customers be informed about how those data are being used. The CCPA requires business owners to inform their customers of their rights under the law so they can choose whether or not they want their information shared with third parties.
 
@@ -72,6 +72,6 @@ For example, if you sell products online, you might want to consider using socia
 
 As mentioned above, there are many things that you might want to do with your consumers' identity. It is important to understand how useful the collected information is and what should be used to manage a good marketing campaign. You will always have a lot of information regarding the consumer because of their interaction but you need to collect it at the right time. 
 
-Another important point is that you need to understand when you are asking questions and gathering information from your consumers as well. All these aspects should be discussed with [privacy policies](https://www.loginradius.com/blog/start-with-identity/privacy-policy-management/) so that consumers know what they are doing in regards to your brand identity.
+Another important point is that you need to understand when you are asking questions and gathering information from your consumers as well. All these aspects should be discussed with [privacy policies](https://www.loginradius.com/blog/identity/privacy-policy-management/) so that consumers know what they are doing in regards to your brand identity.
 
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

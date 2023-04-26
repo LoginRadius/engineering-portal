@@ -52,7 +52,7 @@ With OAuth flow, instead of sending the username and password to the server with
 
 The authorization server authenticates the client and validates the authorization grant, and if valid, issues a token known as an **access token. **It must be kept confidential and in storage. This access token should only be seen by the application, authorization, and resource server. The application makes sure that the storage of the access token can not be readable to other applications on the same device.
 
-The [OAuth 2.0 authorization protocol](https://www.loginradius.com/blog/start-with-identity/oauth2.0-guide/) defines the following methods to receive the Access Token. These Flows are called grant types. So you can decide the grant types as per the use case or it is based mainly on the type of your application.
+The [OAuth 2.0 authorization protocol](/blog/identity/oauth2-0-guide/) defines the following methods to receive the Access Token. These Flows are called grant types. So you can decide the grant types as per the use case or it is based mainly on the type of your application.
 
 The following are the five types of grants described to perform authorizations tasks. Those are
 

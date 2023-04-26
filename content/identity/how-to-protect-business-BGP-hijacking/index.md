@@ -31,7 +31,7 @@ In either case, the company or individual will have to ensure that there are mea
 
 ### #1. Mutually Agreed Norms For Routing (MANRS) 
 
-This is one of the more universally accepted routing [security measures](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/) that are in use today. It is essentially a global initiative carried out by operators and enterprises to prevent route hijacking and other forms of DoS attacks. 
+This is one of the more universally accepted routing [security measures](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) that are in use today. It is essentially a global initiative carried out by operators and enterprises to prevent route hijacking and other forms of DoS attacks. 
 
 According to this initiative, most of the BGP hijacking incidents that have taken place to date occurred as a result of the following: 
 
@@ -72,7 +72,7 @@ This is a technique that is used to identify and drop information that has false
 
 ### #2. RPKI adoption
 
-MANRS also recommends using Routing [Public Key Infrastructure](https://www.loginradius.com/blog/start-with-identity/pki-future-secure-communications/), a security framework used to help internet service providers or operators make more informed decisions with regards to secure routing. 
+MANRS also recommends using Routing [Public Key Infrastructure](https://www.loginradius.com/blog/identity/pki-future-secure-communications/), a security framework used to help internet service providers or operators make more informed decisions with regards to secure routing. 
 
 Its main function is to prove the association between special IP address blocks. Doing so can reduce the occurrence of route leaks and mitigate the blast radius of any BGP hijacking incident.
 

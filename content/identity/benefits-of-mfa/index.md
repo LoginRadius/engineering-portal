@@ -50,7 +50,7 @@ Implementing multi-factor authentication can be a key requirement when it comes 
 
 ### 4. It comes with easy implementation.
 
-[Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/), by its very nature, is non-invasive. It does not affect the rest of the virtual space of an organization or institution. To add, its intuitive user experience allows it to be picked up by the consumer with almost little to no effort.
+[Multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/), by its very nature, is non-invasive. It does not affect the rest of the virtual space of an organization or institution. To add, its intuitive user experience allows it to be picked up by the consumer with almost little to no effort.
 
 
 ### 5. It complies with Single Sign-On (SSO) solutions.
@@ -83,6 +83,6 @@ LoginRadius’ MFA provides a customized consumer experience with [options like 
 
 ## Conclusion
 
-As more and more companies move towards [digital transformation](https://www.loginradius.com/blog/start-with-identity/2018/11/enterprise-needs-digital-business-transformation-strategy/), cybersecurity becomes more and more critical. It’s here that MFA becomes super important since it offers enhanced and adequate security against theft and damage of a company’s critical data.
+As more and more companies move towards [digital transformation](https://www.loginradius.com/blog/identity/2018/11/enterprise-needs-digital-business-transformation-strategy/), cybersecurity becomes more and more critical. It’s here that MFA becomes super important since it offers enhanced and adequate security against theft and damage of a company’s critical data.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

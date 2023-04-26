@@ -33,7 +33,7 @@ Some other aspects which prove PIN authentication a robust and a secured model:
 
 ## Why Should Businesses Use PIN Authentication
 
-PIN Authentication flow reduces the efforts as well as time in the [complete authentication process](https://www.loginradius.com/blog/start-with-identity/2020/04/loginradius-pin-based-authentication/). As it is a two-level authentication model, the session is considered more secure as compared to a simple traditional login method because the PIN’s session depends on two different tokens to be a valid one. 
+PIN Authentication flow reduces the efforts as well as time in the [complete authentication process](https://www.loginradius.com/blog/identity/2020/04/loginradius-pin-based-authentication/). As it is a two-level authentication model, the session is considered more secure as compared to a simple traditional login method because the PIN’s session depends on two different tokens to be a valid one. 
 How Useful is PIN Authentication for Businesses
 
 As we’ve already discussed the multiple advantages of using a PIN in an authentication process, apart from its usability alongside the authentication processes, PIN can also be used as an additional feature where the use cases of Re-Authentication arise. 

@@ -17,7 +17,7 @@ Yes, your website’s first impression is everything that paves the path for pow
 
 Be honest, would you prefer services from a company with a gloomy layout website overloaded with text? Probably not, isn’t it?
 
-A business website should showcase a unique **[identity](https://www.loginradius.com/blog/start-with-identity/2020/10/loginradius-federated-identity-management/)** by efficiently utilizing the right collection of visual elements that leaves a positive impact on the visitor.
+A business website should showcase a unique **[identity](https://www.loginradius.com/blog/identity/2020/10/loginradius-federated-identity-management/)** by efficiently utilizing the right collection of visual elements that leaves a positive impact on the visitor.
 
 The overall design, colors, and writing must quickly offer the right message to the audience for which they have obviously landed.
 
@@ -61,7 +61,7 @@ In a nutshell, businesses need to understand the importance of balanced use of t
 
 Call to action (CTA) plays a vital role in your converting your site visitor and **[quality leads](https://www.loginradius.com/blog/fuel/2021/03/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/)** into a potential client and further into a client.
 
-If you don’t know where and how to put the right call to action and **[effective sign-up for conversions](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/)**, you’ll not be able to generate  quality leads.
+If you don’t know where and how to put the right call to action and **[effective sign-up for conversions](/blog/growth/sign-up-tips-conversion-rate/)**, you’ll not be able to generate  quality leads.
 
 Leverage graphical buttons as CTAs as they’re quite appealing and they encourage the user to move to the next step.
 
@@ -69,7 +69,7 @@ Also read: [How to Drive in the Highest Quality Leads in 2021 with Content and S
 
 Choose bold colors and eye-catching fonts that further inspires the users to click.
 
-Moreover, if you wish that your visitors should fill a form on your website or subscribe to your newsletter, don’t forget to incorporate [data security best practices](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/).
+Moreover, if you wish that your visitors should fill a form on your website or subscribe to your newsletter, don’t forget to incorporate [data security best practices](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/).
 
 3. ### Include Graphics Icons for Enhanced Usability
 

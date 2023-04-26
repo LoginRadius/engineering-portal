@@ -191,7 +191,7 @@ As repeated logins are no longer required with SSO, consumers can enjoy a modern
 
 ## Conclusion
 
-In this article, we talked about the functionality, concept, and how Web Single-Sign-On can [enhance business ROI](https://www.loginradius.com/blog/start-with-identity/2021/03/calcualting-roi-build-vs-buy/). We learned how it increases agility, security, convenience and streamlines the experience for your business and consumers alike.
+In this article, we talked about the functionality, concept, and how Web Single-Sign-On can [enhance business ROI](https://www.loginradius.com/blog/identity/2021/03/calcualting-roi-build-vs-buy/). We learned how it increases agility, security, convenience and streamlines the experience for your business and consumers alike.
 
   
 

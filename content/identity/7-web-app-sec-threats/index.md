@@ -51,14 +51,14 @@ This improper implementation allows hackers to make claims over a legitimate use
 *   End sessions after a certain period of inactivity.
 *   Invalidate a session ID as soon as the session ends.
 *   Place limiters on the simplicity of passwords.
-*   Implement [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) (2FA/MFA).
+*   Implement [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) (2FA/MFA).
 
 
 ### 3. Cross Site Scripting (XSS)
 
 It is an injection-based client-side attack. At its core, this attack involves injecting malicious code in a website application to execute them in the victims’ browsers eventually. Any application that doesn’t validate untrusted data adequately is vulnerable to such attacks. 
 
-Successful implementation results in theft of user session IDs, website defacing, and redirection to malicious sites (thereby allowing [phishing attacks](https://www.loginradius.com/blog/start-with-identity/2018/02/phishing-for-identity/)).
+Successful implementation results in theft of user session IDs, website defacing, and redirection to malicious sites (thereby allowing [phishing attacks](https://www.loginradius.com/blog/identity/phishing-for-identity/)).
 
 **How to prevent:**
 
@@ -147,7 +147,7 @@ This is probably why it is best to rely on dedicated virtual security firms with
 
 LoginRadius protects consumer identity through a multilevel security web app environment. The APIs use OpenID Connect (OAuth 2.0 protocol). Also, applications on LoginRadius are hosted by Microsoft Azure and AWS. 
 
-The [CIAM platform](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) also ensures that it is updated with the latest government regulations and compliances of respective regions. The cloud directory protects sensitive consumer data while allowing and managing consumer consent for data collection and use.
+The [CIAM platform](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) also ensures that it is updated with the latest government regulations and compliances of respective regions. The cloud directory protects sensitive consumer data while allowing and managing consumer consent for data collection and use.
 
 Among other features, LoginRadius offers:
 

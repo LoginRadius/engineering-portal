@@ -11,7 +11,7 @@ metadescription: "Learn how LoginRadius drives ROI for businesses with its custo
 ---
 
 
-LoginRadius has been at the forefront of businesses' digital transformation with its advanced CIAM (Customer Identity and Access Management) platform, redefining how companies securely manage their users. The cloud solution also offers a host of initiatives that enhance ROI like [high scalability](https://www.loginradius.com/blog/start-with-identity/handling-scalability-security-loginradius/), customization, and customer-obsessed solutions. A few are explained below: 
+LoginRadius has been at the forefront of businesses' digital transformation with its advanced CIAM (Customer Identity and Access Management) platform, redefining how companies securely manage their users. The cloud solution also offers a host of initiatives that enhance ROI like [high scalability](https://www.loginradius.com/blog/identity/handling-scalability-security-loginradius/), customization, and customer-obsessed solutions. A few are explained below: 
 
 
 ### #1. Auto-scalable infrastructure
@@ -25,7 +25,7 @@ To address the potential of applications growing over time, our platform is desi
 
 ### #2. Unparalleled security
 
-LoginRadius offers matchless security with password protection, account verification, auto re-authentication, [risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/), multi-factor authentication, and in-built fraud email blocks. All these elements come together to form the most formidable and intelligent security system with protocols that enable access to users after thorough verification and authentication, restrict access to unauthorized elements, protect users from external threats and keep sensitive data secure.
+LoginRadius offers matchless security with password protection, account verification, auto re-authentication, [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/), multi-factor authentication, and in-built fraud email blocks. All these elements come together to form the most formidable and intelligent security system with protocols that enable access to users after thorough verification and authentication, restrict access to unauthorized elements, protect users from external threats and keep sensitive data secure.
 
 [![build-buy-eb](build-buy-eb.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
@@ -34,7 +34,7 @@ LoginRadius offers matchless security with password protection, account verifica
 
 Our automated data integration options improve organizational efficiency to automate tasks to run entirely without minimal human intervention. Automation of repetitive and tedious tasks associated with data integration such as ingestion, extraction, transformation, and migration across the enterprise drives up efficiency and saves your business time and money.
 
-LoginRadius provides customized data mapping to facilitate data integration, [data migration](https://www.loginradius.com/blog/start-with-identity/loginradius-identity-import-manager-data-migration/), warehouse automation, automated data extraction, data synchronization, and meet other data management requirements. 
+LoginRadius provides customized data mapping to facilitate data integration, [data migration](https://www.loginradius.com/blog/identity/loginradius-identity-import-manager-data-migration/), warehouse automation, automated data extraction, data synchronization, and meet other data management requirements. 
 
 Data mapping is a crucial aspect, and quality data mapping will ensure top-quality data for analysis. Our customized data mapping ability will allow organizations to gather user data for valuable insights.
 

@@ -20,7 +20,7 @@ So in brute force attacks, you are not exploiting any vulnerability in the web a
 
 ## How Brute Force works
 
-Attackers use a tool to which they feed the username and password—may be one username and a [list of passwords](https://www.loginradius.com/blog/start-with-identity/2019/12/worst-passwords-list-2019/) or a list of usernames and a list of passwords.
+Attackers use a tool to which they feed the username and password—may be one username and a [list of passwords](https://www.loginradius.com/blog/identity/2019/12/worst-passwords-list-2019/) or a list of usernames and a list of passwords.
 
 Thereafter, the tool sends the combinations of these usernames and passwords to the web application where credentials are checked and depending on the response of the application, the tool decides whether the credentials were right or wrong/incorrect.
 
@@ -33,7 +33,7 @@ If the login is successful, then the username and password combination is consid
 
 - **Dictionary Attack:** A dictionary attack is an attempt to guess passwords by using well-known words or phrases.
 
-- **Simple Brute Force Attack:** In this type of attack, hackers attempt to [logically guess your credentials completely](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/) unassisted from software tools or other means. 
+- **Simple Brute Force Attack:** In this type of attack, hackers attempt to [logically guess your credentials completely](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/) unassisted from software tools or other means. 
 
 - **Hybrid Brute Force Attack:** A typical hybrid attack is one that merges a dictionary attack and a brute-force attack.
 
@@ -57,7 +57,7 @@ Brute force attack takes time. It could take from a few weeks to even months. So
 
 - **Implement Captcha:** It is used to identify if the user is a human by providing a captcha.
 
-- **Use multi-factor authentication:** It adds an [extra security layer to the authentication process](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) and ensures that the person who is trying to log in is human.
+- **Use multi-factor authentication:** It adds an [extra security layer to the authentication process](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) and ensures that the person who is trying to log in is human.
 
 ## Conclusion
 

@@ -35,7 +35,7 @@ Attack vectors are the points that make your network vulnerable to attacks. Thes
 
 
 
-* **Passwords:** A hacker may compromise your password through [brute force](https://www.loginradius.com/blog/start-with-identity/brute-force-lockout/) and gain access to critical data.
+* **Passwords:** A hacker may compromise your password through [brute force](https://www.loginradius.com/blog/identity/brute-force-lockout/) and gain access to critical data.
 * **Malware:** These are malicious softwares that introduce viruses, prompt errors, and slow down your computer.
 * **DDoS (Denial of Service):** Attackers use a DDoS attack to overwhelm a server or network by flooding it with traffic.
 * **Phishing:** Sophisticated phishing attempts can easily trick users into giving away sensitive information through a simple request for email confirmation or password data.

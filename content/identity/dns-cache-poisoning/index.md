@@ -20,7 +20,7 @@ DNS cache poisoning is effectively used for phishing attacks, often referred to 
 
 When the DNS server is attacked, users may be requested to login into their accounts, and the attacker finds its way to steal the sensitive and financial credentials. 
 
-Moreover, [phishing attacks](https://www.loginradius.com/blog/start-with-identity/2018/02/phishing-for-identity/) also install viruses on the client's computer to exploit the stored data for long term access. 
+Moreover, [phishing attacks](https://www.loginradius.com/blog/identity/phishing-for-identity/) also install viruses on the client's computer to exploit the stored data for long term access. 
 
 
 ## How Does DNS Cache Poisoning Works
@@ -66,7 +66,7 @@ One way is to monitor the DNS server for any change in behavior patterns. Also, 
 
 Another way is to look for a potential birthday attack. This occurs when there is a sudden increase in DNS activity from a single source in a single domain. When there is an increase in the DNS activity from a single source, querying your DNS server for multiple domain names without recurring shows that the attacker is looking for a DNS entry for poisoning. 
 
-Monitor the file system behavior and active directory events for any abnormal activities. You can use analytics for correlating activities among three vectors to add important information to your [cybersecurity strategy](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
+Monitor the file system behavior and active directory events for any abnormal activities. You can use analytics for correlating activities among three vectors to add important information to your [cybersecurity strategy](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
 
 
 ## Why Is DNS Cache Poisoning Dangerous for Your Business
@@ -117,7 +117,7 @@ DNS cache poisoning can be summarised as an attacker controlling the DNS server 
 
 This new IP address might be from a malicious phishing website, where the users are prompted to download malware, or they might be asked to provide their financial or login details. 
 
-Hence, understanding what is DNS cache poisoning, how to detect it, and ways to prevent it is crucial so you can [protect your business](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) against it. 
+Hence, understanding what is DNS cache poisoning, how to detect it, and ways to prevent it is crucial so you can [protect your business](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) against it. 
 
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

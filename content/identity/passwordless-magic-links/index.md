@@ -55,7 +55,7 @@ There are plenty of benefits of using a passwordless magic link. They are as fol
 
 
 
-*   **Easy authentication, deployment, and use:** When the user clicks the magic link, though the flow is similar to that of password reset, **[magic link login implementation](https://www.loginradius.com/blog/start-with-identity/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/)** includes some minor changes in the code at no extra cost.
+*   **Easy authentication, deployment, and use:** When the user clicks the magic link, though the flow is similar to that of password reset, **[magic link login implementation](https://www.loginradius.com/blog/identity/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/)** includes some minor changes in the code at no extra cost.
 *   **Seamless onboarding:** Earlier, logging into applications used to be more tedious than the present times as you would get a message through email or SMS. Only when the user clicks the required redirecting option would they be able to log in. The most feasible is the magic link alternative, where you need to enter your email address, and by clicking the link, you would be able to register for the app.
 *   **Increase app adoption**: Any user would prefer a trouble-free login process. For instance, as soon as the user clicks the magic link, the process is completed. Since magic link login implementation reduces the troubles faced during the login process, it is possible to get a loyal and returning fanbase.
 
@@ -93,7 +93,7 @@ Depending on your business requirements, LoginRadius also supports a variety of 
 
 ## Conclusion
 
-Magic links may not be one of the most reliable means of logging in, but it is undoubtedly a convenient means for [users to log in to their accounts](https://www.loginradius.com/blog/start-with-identity/2021/04/maintaining-quality-data-security-practices/). In today’s fast-paced times, any sort of validation needs to be done with immense meticulousness, and to cater to this need; a passwordless magic link is the right solution. 
+Magic links may not be one of the most reliable means of logging in, but it is undoubtedly a convenient means for [users to log in to their accounts](https://www.loginradius.com/blog/identity/2021/04/maintaining-quality-data-security-practices/). In today’s fast-paced times, any sort of validation needs to be done with immense meticulousness, and to cater to this need; a passwordless magic link is the right solution. 
 
 
 [![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)

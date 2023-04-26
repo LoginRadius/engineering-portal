@@ -17,7 +17,7 @@ The gaming authorities take different measures to protect the gaming industry fr
 
 ## What is Risk-Based Authentication
 
-[Risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) (RBA), also called adaptive authentication, monitors consumers’ identity and access using a set of stringent rules. The objective is to authenticate a user profile before allowing it access to ensure that it is not a threat. These restrictions become more stringent with increasing risks. 
+[Risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA), also called adaptive authentication, monitors consumers’ identity and access using a set of stringent rules. The objective is to authenticate a user profile before allowing it access to ensure that it is not a threat. These restrictions become more stringent with increasing risks. 
 
 
 ## How Does RBA Works
@@ -38,7 +38,7 @@ If the system detects any risk, then it follows either of the following measures
 
 
 * The system blocks the user if any risk is observed.
-* The system uses [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/multi-factor-authentication-a-beginners-guide/) to authenticate the user identity, i.e., using SMS or Google authenticator. 
+* The system uses [multi-factor authentication](https://www.loginradius.com/blog/identity/multi-factor-authentication-a-beginners-guide/) to authenticate the user identity, i.e., using SMS or Google authenticator. 
 
 [![GD-Adaptive-MFA](GD-Adaptive-MFA.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
 
@@ -61,7 +61,7 @@ You can also use this to track users who come from places where incidents of cyb
 
 Age is another factor that can be verified using RBA. Many games have a certain age limit that you should follow. By identity verification, the authorities can confirm the age of the users. 
 
-Authorities can use [digital identity verification](https://www.loginradius.com/blog/start-with-identity/what-is-identity-verification/) to gather data from the user. The data may include name, address, and date of birth. RBA can check this data against existing records to see whether the information is correct or not or has been changed recently. 
+Authorities can use [digital identity verification](https://www.loginradius.com/blog/identity/what-is-identity-verification/) to gather data from the user. The data may include name, address, and date of birth. RBA can check this data against existing records to see whether the information is correct or not or has been changed recently. 
 
 
 ### Avoiding money laundering with KYC

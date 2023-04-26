@@ -82,4 +82,4 @@ Most programming languages have a library built that supports WebAuthn for a rel
 
 ## Conclusion
 
-Although the usage of WebAuthn is not widespread at the moment, the potential to [authenticate a user passwordless](https://www.loginradius.com/blog/start-with-identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) or with the extra security of an authenticator allows it to be a strong contender in the future over regular password authentication flows. Hopefully, this blog helps you get started on your authentication apps with WebAuthn.
+Although the usage of WebAuthn is not widespread at the moment, the potential to [authenticate a user passwordless](https://www.loginradius.com/blog/identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) or with the extra security of an authenticator allows it to be a strong contender in the future over regular password authentication flows. Hopefully, this blog helps you get started on your authentication apps with WebAuthn.

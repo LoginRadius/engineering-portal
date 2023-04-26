@@ -30,7 +30,7 @@ The vulnerabilities in the data security in hospitality are also witnessed in th
 *   **Sovereignty over data**: The data collected and the people who can access it differ from country to country. In communist countries like China and Russia, governments have access to every industry’s database. However, democratic governments, as seen in the European and North American countries, offer more data privacy in the hospitality industry. 
 *   **Financial restrictions**: This is mostly seen in smaller businesses that are just starting or businesses that have seen a dip in visitors. The low funds will not allow an owner to invest in a capable cybersecurity provider.
 *   **Divided ownership**: High-profile businesses in this industry can have several owners or franchisors. Each of these individuals will have access to the databases on multiple devices. Therefore, a hacker can easily force their way into the mainframe. 
-*   **Electronic payment methods**: The aforementioned reliance on payment cards can greatly increase the chances of information leaking. However, other virtual methods of payment like online payment and more can create the potential for [cyber attacks](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/). 
+*   **Electronic payment methods**: The aforementioned reliance on payment cards can greatly increase the chances of information leaking. However, other virtual methods of payment like online payment and more can create the potential for [cyber attacks](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/). 
 *   **Disposal methods**: Most businesses lack the ability to dispose of information that is no longer required properly. This leads to the accumulation of information like credit card data of past consumers and more. 
 *   **Lack of training**: Staff training is restricted to the service aspect of the business. However, training employees to carry out processes in maintaining data security in hospitality like data collection and storage in the right manner is overlooked. 
 *   **Coercion**: There is a chance that the hackers directly approach the employees of the business to release information and thus infiltrate the data security in hospitality. They can manipulate them to give up their loyalty towards the business. 
@@ -40,13 +40,13 @@ The vulnerabilities in the data security in hospitality are also witnessed in th
 
 ## Best Practices for Data Security in the Hospitality Industry
 
-As per the multiple threats that have been uncovered above, it is essential to understand how to ensure hotel [data security](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/). Therefore, the businesses in the hospitality industry employ the use of the following measures: 
+As per the multiple threats that have been uncovered above, it is essential to understand how to ensure hotel [data security](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/). Therefore, the businesses in the hospitality industry employ the use of the following measures: 
 
  
 
 
 
-*   **Encrypting payment card data**: This process can involve the addition of two-factor authentication that will protect the data from being accessible to non-employees. This encryption can [prevent identity theft](https://www.loginradius.com/blog/start-with-identity/2021/03/identity-theft-frauds/). 
+*   **Encrypting payment card data**: This process can involve the addition of two-factor authentication that will protect the data from being accessible to non-employees. This encryption can [prevent identity theft](https://www.loginradius.com/blog/identity/2021/03/identity-theft-frauds/). 
 *   **Training and educating**: Employees will require thorough vetting regarding the importance of proper data storage. This training can also work towards reducing the chances of insider attacks as only a few employees will have access to the databases.
 
  

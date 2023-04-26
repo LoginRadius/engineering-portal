@@ -14,7 +14,7 @@ metadescription: "Phishing attacks target not only humans, but email servers as 
 
 The current COVID-19 times have given rise to extensive phishing scams all around the world. According to the [IBM study](https://newsroom.ibm.com/2021-07-28-IBM-Report-Cost-of-a-Data-Breach-Hits-Record-High-During-Pandemic), the costs for data breaches were found to be $4.24 million per incident.  Also, credential phishing was the most common method used by attackers.
 
-Credential [phishing scammers](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) are now targeting corporate businesses to carry out their attacks. Many businesses around the world lose millions to direct and indirect costs of credential phishing attacks every year. 
+Credential [phishing scammers](https://www.loginradius.com/blog/identity/phishing-for-identity/) are now targeting corporate businesses to carry out their attacks. Many businesses around the world lose millions to direct and indirect costs of credential phishing attacks every year. 
 
 In this blog, we will understand more about credential phishing and debunk five myths about credential phishing.
 
@@ -49,7 +49,7 @@ One of the biggest misconceptions of phishing attacks is tech-savvy individuals 
 
 Attackers are fine-tuning their messages based on the data available on social media and other platforms, thereby increasing the chances of the victims clicking on their links. 
 
-The best approach would be to make the employees [aware of the phishing emails](https://www.loginradius.com/blog/start-with-identity/stop-scammers-getting-email-address/) and use security awareness solutions to perform analysis of emails on a timely basis. 
+The best approach would be to make the employees [aware of the phishing emails](https://www.loginradius.com/blog/identity/stop-scammers-getting-email-address/) and use security awareness solutions to perform analysis of emails on a timely basis. 
 
 
 ### 2. Customers are easy targets for phishing.
@@ -81,7 +81,7 @@ For example, this is a new email intercepted by MailGuard that seems like an aut
 
 [Source](https://www.mailguard.com.au/blog/phishing-email-employing-cpanel-branding-claims-your-password-has-expired) 
 
-Here are some [tips to recognize phishing](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) emails.
+Here are some [tips to recognize phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/) emails.
 
 
 
@@ -118,14 +118,14 @@ them before they land in your email inbox.
 
 
 
-* Implement stringent security measures across the entire organization using the [consumer IAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) system. 
+* Implement stringent security measures across the entire organization using the [consumer IAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) system. 
 * Set up a single sign-on to unify all your applications and enhance security.
 * Use multi-factor authentication to authenticate login attempts.
 
 
 ## Conclusion
 
-Regardless of [how secure your email systems](https://www.loginradius.com/blog/start-with-identity/secure-email-address-website/) are or how well you train your employees, credential phishing can happen in any organization. Understanding the impact of phishing on your organization and adopting the required technology is necessary to combat these attacks. It can help you defend your organization against phishing, malware, and other malware threats.
+Regardless of [how secure your email systems](https://www.loginradius.com/blog/identity/secure-email-address-website/) are or how well you train your employees, credential phishing can happen in any organization. Understanding the impact of phishing on your organization and adopting the required technology is necessary to combat these attacks. It can help you defend your organization against phishing, malware, and other malware threats.
 
 We are sure the information shared in this post will help keep your organization safe from such attacks. 
  

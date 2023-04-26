@@ -174,7 +174,7 @@ Firefox used traditional marketing methods and displayed its newest products in 
 
   
 
-The department was then divided into small teams with as many generalists as possible. Although it took some time to pick up, this method dramatically increased the **[conversion rate](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/)**.
+The department was then divided into small teams with as many generalists as possible. Although it took some time to pick up, this method dramatically increased the **[conversion rate](/blog/growth/sign-up-tips-conversion-rate/)**.
 
 ## Wrapping Up
 

@@ -27,7 +27,7 @@ This post reveals the endless possibilities of a CIAM to deliver the highest lev
 
 ## What is CIAM and How Does it Help Businesses? 
 
-Before we inch towards learning the CIAM aspects that help improve customer support, let’s quickly understand [what a CIAM is](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) and how it helps businesses.
+Before we inch towards learning the CIAM aspects that help improve customer support, let’s quickly understand [what a CIAM is](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) and how it helps businesses.
 
 Customer identity and access management (CIAM) is a digital identity management software solution that combines login verification with customer data storage. 
 

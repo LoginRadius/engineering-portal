@@ -41,7 +41,7 @@ You don't need to do a lot for work to implement social login. Here's how it wor
 
 **Reduces cart abandonment**: Online shoppers often need to go through mandatory registration during checkout. With social login, it is easier to ensure that consumers are logging in with a single click, leading to reduced cart abandonment. 
 
-**Reduces bounce rate**: It is one of the best options for people who [hate filling up the registration form](https://www.loginradius.com/blog/start-with-identity/2021/01/user-onboarding-revamp-application/). These consumers do not think twice before exiting from a website. Implementing social login can reduce bounce rate and increase the average site time simultaneously. 
+**Reduces bounce rate**: It is one of the best options for people who [hate filling up the registration form](https://www.loginradius.com/blog/identity/2021/01/user-onboarding-revamp-application/). These consumers do not think twice before exiting from a website. Implementing social login can reduce bounce rate and increase the average site time simultaneously. 
 
 **Fewer login fails**: When consumers do not need to remember usernames and passwords, there is a lesser possibility of login fails. 
 

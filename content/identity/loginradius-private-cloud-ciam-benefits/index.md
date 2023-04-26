@@ -29,12 +29,12 @@ LoginRadius’ single-tenant private cloud runs on a dedicated infrastructure. T
 
 In a single-tenancy architecture, each tenant gets their database. This way, data from each tenant remains separated from the other. Furthermore, the architecture is built to allow only one software instance per SaaS server.
 
-**Also Read**: [Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud](https://www.loginradius.com/blog/start-with-identity/single-tenant-vs-multi-tenant/)
+**Also Read**: [Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud](https://www.loginradius.com/blog/identity/single-tenant-vs-multi-tenant/)
 
 
 ## Benefits of LoginRadius' Single-Tenant Private Cloud CIAM 
 
-Since enterprises are rapidly [adopting cloud computing](https://www.loginradius.com/blog/start-with-identity/identity-management-in-cloud-computing/) capabilities, most prefer single tenancy over multi-tenancy for diverse reasons. Here are some reasons why LoginRadius’ single-tenant private cloud could be the ultimate solution for enterprises seeking agility, security, and efficiency in the CIAM landscape. 
+Since enterprises are rapidly [adopting cloud computing](https://www.loginradius.com/blog/identity/identity-management-in-cloud-computing/) capabilities, most prefer single tenancy over multi-tenancy for diverse reasons. Here are some reasons why LoginRadius’ single-tenant private cloud could be the ultimate solution for enterprises seeking agility, security, and efficiency in the CIAM landscape. 
 
 
 

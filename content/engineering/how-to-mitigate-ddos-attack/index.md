@@ -13,7 +13,7 @@ Did you know that in only a few minutes, a DDoS attack can bring your website do
 
 ![What is a DDoS attack?](What-is-a-DDoS-attack.png)
 
-A Distributed Denial of Service (DDoS) is a targeted [cyber attack on a website](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/) or device where a malicious attacker's flood of traffic is sent from single or multiple sources. The primary purpose of DDoS is to make a machine or network resource unavailable to its genuine users by temporarily or disrupting the services of a host connected to the Internet. If we do not use appropriate security practices or tools, it makes your application into a non-functional situation.
+A Distributed Denial of Service (DDoS) is a targeted [cyber attack on a website](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) or device where a malicious attacker's flood of traffic is sent from single or multiple sources. The primary purpose of DDoS is to make a machine or network resource unavailable to its genuine users by temporarily or disrupting the services of a host connected to the Internet. If we do not use appropriate security practices or tools, it makes your application into a non-functional situation.
 
 The malicious attacker uses multiple compromised computer systems or devices or IoT devices for the attack. These all compromised devices make the DDoS attacks more effective.
 

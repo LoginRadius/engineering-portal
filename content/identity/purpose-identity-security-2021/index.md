@@ -54,7 +54,7 @@ Also, specific privacy and data security compliances like the GDPR and CCPA requ
 
 [![digital-id-wp](digital-id-wp.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
-Hence there’s an immediate need to deploy a reliable [consumer identity and access management solution](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (CIAM) that can offer identity security without hampering user experience.  
+Hence there’s an immediate need to deploy a reliable [consumer identity and access management solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) that can offer identity security without hampering user experience.  
 
 Since we’ve learned the importance of identity security, now just glance at what benefits an enterprise gets with a CIAM solution in place. 
 
@@ -78,7 +78,7 @@ With a cutting-edge CIAM like LoginRadius, businesses can ensure the highest lev
 
 Enterprises can ensure that passwords are harder to crack with rigorous password policies and LoginRadius Multi-Factor Authentication and can leverage hashing and encryption to protect account credentials and data in transit and at rest.
 
-Also, our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage, including the [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/ccpa-vs-gdpr-the-compliance-war/). 
+Also, our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage, including the [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/). 
 
 
 ### 3. Streamlined Customer Experience

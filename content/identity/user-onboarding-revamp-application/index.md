@@ -79,7 +79,7 @@ Add more value to your application by producing quality content that will help c
 
 *   The Aha! moment.
 
-This happens when your customer truly appreciates the value of your software. Complex [sign-up forms](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/) and painful login processes can create a tough barrier between the new user and the ‘Aha Moment.’ 
+This happens when your customer truly appreciates the value of your software. Complex [sign-up forms](/blog/growth/sign-up-tips-conversion-rate/) and painful login processes can create a tough barrier between the new user and the ‘Aha Moment.’ 
 
 The main goal of onboarding is to show new users the key features and guide users towards the ‘Aha Moment,’ which is called the moment of delight, where the value of the product becomes instantly clear.
 
@@ -121,11 +121,11 @@ LoginRadius protects the identity of customers through multi-level security syst
 
 
 
-*   **Design an ideal consumer journey**. From the first step of onboarding to the thousandth login, the [CIAM platform](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) creates a welcoming and intelligent process.
+*   **Design an ideal consumer journey**. From the first step of onboarding to the thousandth login, the [CIAM platform](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) creates a welcoming and intelligent process.
 *   **Offer localization**. Businesses can customize their forms, email messages, and texts for the worldwide market according to the local language. 
 *   **Tailor-make interfaces**. Businesses can choose their custom fields and design their own registration, login, and forgotten password forms. 
 *   **Use an email workflow that actually works**. LoginRadius provides customizable templates and sequences to get into the consumers' inbox and manage the login process. 
-*   **Unify the login process with single sign-on**. Businesses can connect their websites, mobile apps, and third-party dependencies so consumers can interact with [a single identity](https://www.loginradius.com/blog/start-with-identity/2019/05/what-is-single-sign-on/).
+*   **Unify the login process with single sign-on**. Businesses can connect their websites, mobile apps, and third-party dependencies so consumers can interact with [a single identity](https://www.loginradius.com/blog/identity/2019/05/what-is-single-sign-on/).
 
 LoginRadius's identity platform can streamline the login process and also protect customer accounts by complying with global data privacy regulations during the onboarding process.
 

@@ -18,7 +18,7 @@ The new waves of automation relying on artificial intelligence and robotics have
 
 However, as enterprises embark on a journey to digitize more parts of their business, the risk of cyber-attacks and data breaches grows. 
 
-Moreover,[ amid the global pandemic](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/), organizations are now struggling more than ever before to face new risks, vulnerabilities, and privacy issues since they adopted a paradigm shift to remote working.
+Moreover,[ amid the global pandemic](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/), organizations are now struggling more than ever before to face new risks, vulnerabilities, and privacy issues since they adopted a paradigm shift to remote working.
 
 Talking about modern web applications, most businesses may encounter a security and privacy breach if API (application programming interface) isn’t correctly implemented.
 
@@ -41,7 +41,7 @@ But how can this be achievable?
 
 Vendors should prioritize sourcing their data in the most unique ways by leveraging a secure mechanism that facilitates the invisible communication between applications and APIs without hampering the overall user experience.
 
-A reliable [CIAM (consumer identity and access management)](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) solution like LoginRadius can help enterprises in leveraging the true potential of holistic APIs for an enhanced user experience backed by robust security.
+A reliable [CIAM (consumer identity and access management)](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) solution like LoginRadius can help enterprises in leveraging the true potential of holistic APIs for an enhanced user experience backed by robust security.
 
 When enterprises combine the standard security threat intelligence sources with API data using the finest CIAM, data analysts could easily do their jobs quickly. This also paves the path for analyzing previously overlooked risks that can be now included in the security management strategy.
 
@@ -64,7 +64,7 @@ The API capabilities are endless as it covers all areas of threat intelligence t
 
 ## Integration with Third-Party Analytics Solution
 
-LoginRadius enables businesses to effortlessly integrate with popular insights and analytics applications that can enhance data analytics for scaling business growth and preparing a roadmap to enhance [user security](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/).
+LoginRadius enables businesses to effortlessly integrate with popular insights and analytics applications that can enhance data analytics for scaling business growth and preparing a roadmap to enhance [user security](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/).
 
 Apart from this, enterprises can also custom-build an integration with an application of their choice to suit their exact business requirements. The data gathered by LoginRadius flows live, so the enterprise never has to pause for a data update and sync between integrated systems.
 

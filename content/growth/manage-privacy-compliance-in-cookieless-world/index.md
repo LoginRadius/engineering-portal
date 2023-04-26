@@ -46,7 +46,7 @@ Though consumers are concerned about how their data is used online and demand mo
 
 However, on the other hand, blocking third-party cookies that are majorly used for marketing, personalization, and new customer acquisition purposes would undoubtedly impact many businesses online. 
 
-Since we’ve discussed all the aspects of a cookieless world, let’s talk about what online businesses can do to prosper and [stay compliant](https://www.loginradius.com/blog/start-with-identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
+Since we’ve discussed all the aspects of a cookieless world, let’s talk about what online businesses can do to prosper and [stay compliant](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
 
 
 ### #1. Transparency leads to consumer trust.

@@ -14,7 +14,7 @@ When it comes to finding and interacting with insurance carriers, consumers have
 
   
 
-A [consumer identity and access management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (CIAM) solution is vital for insurance businesses aiming to develop trusted digital connections with their users and deliver tailored experiences that enhance revenues, build brand loyalty, and expedite internal processes.
+A [consumer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) solution is vital for insurance businesses aiming to develop trusted digital connections with their users and deliver tailored experiences that enhance revenues, build brand loyalty, and expedite internal processes.
 
   
 
@@ -61,7 +61,7 @@ Users must have a smooth integration when retrieving their data once they have c
 
   
 
-The proper CIAM solution combines authentication flexibility with cutting-edge technologies such as [password-less authentication](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/), reauthentication, step-up, and platform independence.
+The proper CIAM solution combines authentication flexibility with cutting-edge technologies such as [password-less authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/), reauthentication, step-up, and platform independence.
 
   
 
@@ -100,11 +100,11 @@ Organizations must understand consumers' channels of engagement for getting prod
 
   
 
-Because there are various points of interest in the [onboarding process](https://www.loginradius.com/blog/start-with-identity/user-onboarding-revamp-application/), it always necessitates a meaningful discussion. On the one hand, the onboarding and signup process must be seamless in order to provide a positive consumer experience. On the other hand, the need for the appropriate level of security is pressing.
+Because there are various points of interest in the [onboarding process](https://www.loginradius.com/blog/identity/user-onboarding-revamp-application/), it always necessitates a meaningful discussion. On the one hand, the onboarding and signup process must be seamless in order to provide a positive consumer experience. On the other hand, the need for the appropriate level of security is pressing.
 
   
 
-Insurance companies will have to make trade-offs between protection and the client experience when developing the secure trip. Users get a smooth journey—creating better economic opportunities for digital banking. If they strike the appropriate balance, it [reduces the risk](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) of opportunistic attackers.
+Insurance companies will have to make trade-offs between protection and the client experience when developing the secure trip. Users get a smooth journey—creating better economic opportunities for digital banking. If they strike the appropriate balance, it [reduces the risk](https://www.loginradius.com/blog/identity/risk-based-authentication/) of opportunistic attackers.
 
   
 
@@ -116,5 +116,5 @@ Insurance companies often operate in a fast-paced environment, serving both cons
 
   
 
-[Implementing the right CIAM](https://www.loginradius.com/) solution is critical in the digital world of insurance firms in order to achieve their objectives and go above and beyond. This [CIAM digital strategy](https://www.loginradius.com/blog/start-with-identity/digital-transformation-consumer-iam/) can assist in the transformation of a conventional life insurance product into a more modern digital banking offering geared at wider consumer segments while still utilizing the traditional agent channel.
+[Implementing the right CIAM](https://www.loginradius.com/) solution is critical in the digital world of insurance firms in order to achieve their objectives and go above and beyond. This [CIAM digital strategy](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/) can assist in the transformation of a conventional life insurance product into a more modern digital banking offering geared at wider consumer segments while still utilizing the traditional agent channel.
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

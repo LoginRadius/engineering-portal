@@ -114,7 +114,7 @@ This same project would take LoginRadius customers no more than a couple of week
 
 Well, the connectors are already built. We have detailed step-by-step guides in our documentation. Our support is available 24/7/365 to help solve any issues, and our dashboard-driven deployment tools offer pre-built and customizable options from a UI/UX perspective. 
 
-If the business decision is already made, you could easily add a [social login](https://www.loginradius.com/blog/start-with-identity/2021/02/social-login-infographic/) option to your website and mobile apps in the afternoon and go live that same night – we know this because we see our customers do it all the time!
+If the business decision is already made, you could easily add a [social login](https://www.loginradius.com/blog/identity/2021/02/social-login-infographic/) option to your website and mobile apps in the afternoon and go live that same night – we know this because we see our customers do it all the time!
 
 **Stayed tuned for Part II of this series, where I will help you calculate lost revenue associated with authentication and system availability.**
 

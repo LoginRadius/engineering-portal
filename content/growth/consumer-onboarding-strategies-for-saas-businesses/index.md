@@ -36,7 +36,7 @@ An enterprise should understand the importance of a well-structured framework th
 
 Whether it’s a personalized welcome or product demonstration, everything adds value towards your brand reliability that helps potential clients convert easily.
 
-Also read: [5 Ways User Onboarding Software Can Revamp Your Application](https://www.loginradius.com/blog/start-with-identity/user-onboarding-revamp-application/).
+Also read: [5 Ways User Onboarding Software Can Revamp Your Application](https://www.loginradius.com/blog/identity/user-onboarding-revamp-application/).
 
 Since you’ve learned a lot about the consumer onboarding process and its importance, let’s glance at the strategies that can be quite helpful in creating the finest SaaS onboarding process.
 
@@ -68,7 +68,7 @@ Make sure your potential clients are comfortable with the product first, and the
 
 Adding more stages to your onboarding strategy is perhaps the key to win consumer trust and navigate conversions without any hassle.
 
-Users get distracted from the onboarding process when they come across sign-up forms with a lot of fields. Since your competitors are just a click away, you need to leverage the potential of [progressive profiling](https://www.loginradius.com/blog/start-with-identity/presenting-progressive-profiling-loginradius/) at the earliest.
+Users get distracted from the onboarding process when they come across sign-up forms with a lot of fields. Since your competitors are just a click away, you need to leverage the potential of [progressive profiling](https://www.loginradius.com/blog/identity/presenting-progressive-profiling-loginradius/) at the earliest.
 
 For this reason, adding more stages to your onboarding process with minimal steps can significantly boost your conversions.
 

@@ -62,7 +62,7 @@ Similarly, IoT devices like ventilators, insulin pumps, and other medical instru
 
 Computers that are out in the open can easily invite unauthorized personnel. If these open systems store confidential patient information, and they fall into the hands of unauthorized staff, the consequences could be dire. 
 
-It may lead to active [phishing](https://www.loginradius.com/blog/2018/02/phishing-for-identity/) attempts and provide hackers with a backdoor into more vulnerable network areas. Be sure that every device that contains patient data is stored in a safe location.
+It may lead to active [phishing](https://www.loginradius.com/blog/phishing-for-identity/) attempts and provide hackers with a backdoor into more vulnerable network areas. Be sure that every device that contains patient data is stored in a safe location.
 
 ### 5\. Lack of comprehensive identity management.
 

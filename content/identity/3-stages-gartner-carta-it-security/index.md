@@ -14,7 +14,7 @@ IT security is becoming an integral part of a business’s overall success amid 
 
 CARTA (Continuous Adaptive Risk and Trust Assessment) is a new and efficient IT security approach introduced by Gartner in 2017 that helps cybersecurity experts ensure a stringent mechanism to handle vulnerabilities. 
 
-Businesses embarking on a [digital transformation journey](https://www.loginradius.com/blog/start-with-identity/digital-transformation-consumer-iam/) shouldn’t overlook security since data breaches cause losses worth millions of dollars every year and eventually tarnishes brand repute. 
+Businesses embarking on a [digital transformation journey](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/) shouldn’t overlook security since data breaches cause losses worth millions of dollars every year and eventually tarnishes brand repute. 
 
 This post will cover all aspects of CARTA and how businesses can implement it to ensure robust cybersecurity. 
 

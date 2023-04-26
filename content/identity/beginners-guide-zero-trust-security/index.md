@@ -18,7 +18,7 @@ Although these fundamental entities are considered safe and trustworthy, this cy
 
 Undoubtedly, there’s an immediate need for a robust mechanism that doesn’t leave any loophole in the entire system consisting of numerous devices, users, and digital touchpoints and provides a risk-free ecosystem. 
 
-Here’s where the [zero trust security model](https://www.loginradius.com/blog/start-with-identity/sase-zero-trust/) comes into play. 
+Here’s where the [zero trust security model](https://www.loginradius.com/blog/identity/sase-zero-trust/) comes into play. 
 
 The shortcomings of the current cybersecurity system that can be quickly analyzed by hackers that are always on a hunt for finding loopholes can be fixed by implementing a zero trust security model across the entire network. 
 
@@ -64,7 +64,7 @@ Lack of a robust security mechanism could also lead to compromised consumer iden
 
 Moreover, consumers’ refusal to do business with a breached enterprise will naturally affect the overall revenues.
 
-Enforcing an effective Zero Trust solution will not only ensure that only authenticated and authorized individuals and devices have access to resources and applications but will also help [mitigate data breaches](https://www.loginradius.com/blog/start-with-identity/how-to-handle-data-breaches/), preventing many of these negative consequences.
+Enforcing an effective Zero Trust solution will not only ensure that only authenticated and authorized individuals and devices have access to resources and applications but will also help [mitigate data breaches](https://www.loginradius.com/blog/identity/how-to-handle-data-breaches/), preventing many of these negative consequences.
 
 
 ### 2. Greater Visibility 
@@ -92,7 +92,7 @@ Moreover, the dependency on firewalls, which aren’t the best line of defense, 
 
 With the increasing risk of security breaches from within a network, the need for a zero trust mechanism becomes more crucial than ever before. 
 
-Decision-makers and IT department heads of an organization should consider putting their best foot forward in [securing important consumer information](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/) and business data by leveraging robust layers of defense through a zero trust security model. 
+Decision-makers and IT department heads of an organization should consider putting their best foot forward in [securing important consumer information](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) and business data by leveraging robust layers of defense through a zero trust security model. 
  
 
 

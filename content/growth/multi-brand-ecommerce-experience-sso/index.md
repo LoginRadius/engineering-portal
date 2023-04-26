@@ -56,7 +56,7 @@ In a nutshell, SSO helps e-commerce companies to build a one-brand experience by
 
 ## Why is it the Best Time to Use SSO for Your E-Commerce Store? 
 
-SSO, if implemented correctly, through a reliable [consumer identity and access management (CIAM) solution](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/), can do wonders for your ecommerce store. Let’s understand why online retailers should put their best foot forward in adopting SSO. 
+SSO, if implemented correctly, through a reliable [consumer identity and access management (CIAM) solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), can do wonders for your ecommerce store. Let’s understand why online retailers should put their best foot forward in adopting SSO. 
 
 *Also download*: [![LR-SSO](LR-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
@@ -91,7 +91,7 @@ According to [a Localytics study](https://andrewchen.com/new-data-shows-why-losi
 
 Although your frequent users are unlikely to lose their log-in credentials, a third of your user base isn't yet daily. If they forget their details, there's a good chance you'll never see them again.
 
-SSO enables your users to come back to your app seamlessly [without any need for passwords](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/). It's like leaving the porch light on for them: it makes them feel involved.
+SSO enables your users to come back to your app seamlessly [without any need for passwords](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/). It's like leaving the porch light on for them: it makes them feel involved.
 
 
 ## Ready to Experience the Next Level of Cutting-Edge SSO with LoginRadius? 

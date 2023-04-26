@@ -13,7 +13,7 @@ metadescription: "Identity disclosure can be destructive as it can lead to multi
 
 ## Introduction
 
-In any business, it is crucial to keep trade secrets confidential. Companies implement laws for data preservation while handling sensitive information. Along with these laws, employees need to be reassured that the information is retained in an appropriate space. Disclosure of the consumer's identity can be due to any breach of privacy. Such a breach can lead to loss of business, market reputation, and clients. Also, such acts destroy the employees' trust and impact their loyalty towards the company. To avoid such huge losses, you must [apply strict data protection rules](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/) while dealing with private information.  
+In any business, it is crucial to keep trade secrets confidential. Companies implement laws for data preservation while handling sensitive information. Along with these laws, employees need to be reassured that the information is retained in an appropriate space. Disclosure of the consumer's identity can be due to any breach of privacy. Such a breach can lead to loss of business, market reputation, and clients. Also, such acts destroy the employees' trust and impact their loyalty towards the company. To avoid such huge losses, you must [apply strict data protection rules](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) while dealing with private information.  
 
 You can easily relate the loss in this situation with the story of Spiderman. **Identity disclosure** of Spiderman was a turning point in the story. Before this event, everything was smooth sailing in Spiderman's life; however, things went downhill when his true identity was revealed. 
 
@@ -75,7 +75,7 @@ If you have been a victim of identity disclosure, you will end up in danger of c
 
 * **A switch to digital payments**: Switching to digital modes of transaction ensures you close one of the susceptibility areas for your business.
 
-* **Ensure you use strong passwords and tools like MFA**: Tools like MFA and [adaptive authentication](https://www.loginradius.com/blog/start-with-identity/adaptive-authentication/) ensure your accounts are protected at all times. Depending on your risk factors, tools like adaptive authentication can increase the authentication requirements.
+* **Ensure you use strong passwords and tools like MFA**: Tools like MFA and [adaptive authentication](https://www.loginradius.com/blog/identity/adaptive-authentication/) ensure your accounts are protected at all times. Depending on your risk factors, tools like adaptive authentication can increase the authentication requirements.
 
 * **Adopt the best digital security practices**: In today’s digital world, you must use strong firewalls and train your employees to use the best digital security practices.
 

@@ -14,7 +14,7 @@ In modern times, retailers use automation, machine learning, and other technolog
 
 From the corporate end to the production center to the selling floor, technology is aiding retailers in gaining a more comprehensive picture of their daily operations. Companies can use systems like enterprise resource planning to verify their earnings independently. Businesses that use these data-rich reports and smart authentication make better decisions.
 
-Retailers can enhance not only their reporting capabilities but also their client experiences by incorporating more advanced technologies. Moreover, retailers who use technology can supply goods faster and easily track where they came from with the help of the [identity import manager](https://www.loginradius.com/blog/start-with-identity/loginradius-identity-import-manager-data-migration/)**.** They are also using techniques to construct intelligent and more productive supply chains. 
+Retailers can enhance not only their reporting capabilities but also their client experiences by incorporating more advanced technologies. Moreover, retailers who use technology can supply goods faster and easily track where they came from with the help of the [identity import manager](https://www.loginradius.com/blog/identity/loginradius-identity-import-manager-data-migration/)**.** They are also using techniques to construct intelligent and more productive supply chains. 
 
 
 ## Understanding the Role of CIAM in Supply Chain Management
@@ -45,7 +45,7 @@ Tags are used in the production center to ensure order accuracy and monitor the 
 
 * **Internet of Things**
 
-The internet of things (IoT) refers to any device or object getting connected to the internet. The ability of the Internet of Things or [IoT authentication](https://www.loginradius.com/blog/start-with-identity/iot-smart-authentication/) to help businesses track every brand or item aids people in making quick and accurate decisions. 
+The internet of things (IoT) refers to any device or object getting connected to the internet. The ability of the Internet of Things or [IoT authentication](https://www.loginradius.com/blog/identity/iot-smart-authentication/) to help businesses track every brand or item aids people in making quick and accurate decisions. 
 
 Retailers can better distribute money and minimize lost time by integrating all stages of the distribution chain, from conception to product features in the store. A supply chain software firm, for example, uses IoT-connected gadgets to notify users of any issues with monitored products or user data security. 
 

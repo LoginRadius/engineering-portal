@@ -50,7 +50,7 @@ All-in-all, you need to understand what digital transformation really means for 
 
 ## Why is Digital Transformation Crucial for Enterprises
 
-[Organizations may idealize](https://www.loginradius.com/blog/start-with-identity/2018/11/enterprise-needs-digital-business-transformation-strategy/) digital transformation for many reasons. But the most likely explanation has to be _survival_. 
+[Organizations may idealize](https://www.loginradius.com/blog/identity/2018/11/enterprise-needs-digital-business-transformation-strategy/) digital transformation for many reasons. But the most likely explanation has to be _survival_. 
 
 Think of it this way. The more simplicity you bring for consumers, the more likely are your chances of survival. 
 
@@ -92,13 +92,13 @@ Source: Mckinsey
 
 Needless-to-say, the global pandemic has exposed the clear digital divide between companies across the globe. 
 
-On one side, some businesses have invested in digital enablement as part of their [continuity plan](https://www.loginradius.com/blog/start-with-identity/2020/03/loginradius-business-continuity-covid-19-outbreak/) (and fared with almost zero setbacks). On the other side, there are those companies that are struggling to achieve the bare minimum. 
+On one side, some businesses have invested in digital enablement as part of their [continuity plan](https://www.loginradius.com/blog/identity/2020/03/loginradius-business-continuity-covid-19-outbreak/) (and fared with almost zero setbacks). On the other side, there are those companies that are struggling to achieve the bare minimum. 
 
 
 ## What Will the Structure for Digital Transformation Look Like in 2021
 
 
-Looking ahead to 2021, digital transformation is set to [become a crucial topic of discussion](https://www.loginradius.com/blog/fuel/2018/08/4-things-consider-starting-digital-transformation/) in all boardrooms. 
+Looking ahead to 2021, digital transformation is set to [become a crucial topic of discussion](/blog/growth/4-things-consider-starting-digital-transformation/) in all boardrooms. 
 
 Speaking of the positives, [63% of the McKinsey survey](https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/Perspectives%20on%20retail%20and%20consumer%20goods%20Number%208/Perspectives-on-Retail-and-Consumer-Goods_Issue-8.pdf) respondents were affirmative that countries will pick up pace after the setback of 2020 and do better six months from now. 
 

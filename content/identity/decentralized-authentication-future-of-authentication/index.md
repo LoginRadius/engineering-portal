@@ -12,7 +12,7 @@ metadescription: "Decentralized authentication is shaping the future of securing
 
 ## Introduction
 
-Every day, we encounter various events where we need to verify our identities. Whether you’re applying for a loan, booking flight tickets, or signing up online for a service, [identity verification](https://www.loginradius.com/blog/start-with-identity/what-is-identity-verification/) is crucial. 
+Every day, we encounter various events where we need to verify our identities. Whether you’re applying for a loan, booking flight tickets, or signing up online for a service, [identity verification](https://www.loginradius.com/blog/identity/what-is-identity-verification/) is crucial. 
 
 However, most conventional authentication processes are inconvenient and even threaten consumers’ details. 
 
@@ -27,7 +27,7 @@ Let’s understand how decentralized authentication paves the path for a secure 
 
 ## What is Decentralized Authentication? 
 
-[Decentralized authentication](https://www.loginradius.com/blog/start-with-identity/what-is-decentralized-authentication/) means no central authority is required to verify your identity, i.e., decentralized identifiers. DIDs (Decentralized Identifiers) are unique identifiers that allow for decentralized, verified digital identification. 
+[Decentralized authentication](https://www.loginradius.com/blog/identity/what-is-decentralized-authentication/) means no central authority is required to verify your identity, i.e., decentralized identifiers. DIDs (Decentralized Identifiers) are unique identifiers that allow for decentralized, verified digital identification. 
 
 A DID any subject identified by the DID's controller (e.g., a person, organization, thing, data model, abstract entity, etc.).
 
@@ -49,7 +49,7 @@ If they match, admission is granted. In greater ideal scenarios, the person can 
 
 ## Benefits of Decentralized Authentication
 
-Both government and private sectors are already leveraging the true potential of decentralized authentication to deliver a seamless and [secure user experience](https://www.loginradius.com/blog/start-with-identity/balancing-security-cx/) to their clients. 
+Both government and private sectors are already leveraging the true potential of decentralized authentication to deliver a seamless and [secure user experience](https://www.loginradius.com/blog/identity/balancing-security-cx/) to their clients. 
 
 The growing use of decentralized identity eventually eliminates the need for storing user credentials on several websites, which further reduces the risk of identity theft. 
 
@@ -61,7 +61,7 @@ Here are some business advantages of incorporating decentralized authentication:
 * Personally identifiable information of customers is secured and adequate security for other sensitive information like credit card details or medical information. 
 * Efficient and quick verification of the authenticity of data by third-party. 
 * Reduced vulnerability to information misuse via the ones charged with coping with it and cyberattacks, fraud, and different monetary crimes.
-* Give clients extra comfort via putting off passwords for login and [continuous authentication](https://www.loginradius.com/blog/start-with-identity/continuous-authentication/).
+* Give clients extra comfort via putting off passwords for login and [continuous authentication](https://www.loginradius.com/blog/identity/continuous-authentication/).
 * Generate remarkable degrees of human acceptance as accurate among the corporation and its customers and companions.
 * Reduce the compliance burden of dealing with clients' private information in services.
 * Allow participation in open, trustworthy, interoperable standards.
@@ -71,7 +71,7 @@ Here are some business advantages of incorporating decentralized authentication:
 
 The modern technological ecosystem has offered endless possibilities to build a better and safer future with more robust control over our individual privacy. 
 
-Decentralized authentication can be the game-changer in mitigating the risks of [identity theft](https://www.loginradius.com/blog/start-with-identity/identity-theft-frauds/) in both the government and private sectors.  Organizations thinking of enhancing consumer information security should strictly put their best foot forward to incorporate decentralized authentication for a secure experience. 
+Decentralized authentication can be the game-changer in mitigating the risks of [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) in both the government and private sectors.  Organizations thinking of enhancing consumer information security should strictly put their best foot forward to incorporate decentralized authentication for a secure experience. 
 
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

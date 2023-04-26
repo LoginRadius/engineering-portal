@@ -87,7 +87,7 @@ The modern CIAM architecture is built around four key aspects:
 
 **3. Much-improved emphasis on the single consumer-view:** Another pivotal aspect of the modern CIAM is the repertoire of providing detailed insight into a single consumer view. Hence, discovering what clicks for consumers becomes straightforward.
 
-**4. Being in sync with the latest privacy changes:** In the backdrop of rampant privacy breaches and illegal mining of personal data, privacy has become a focal point. Be it the end-to-end encryption of personal information or the ability to disable tracking or completely restrict access to every sensitive feature, applications have been forced to adhere to strict privacy regulations that hardly assumed much significance a few years ago. Modern CIAM architecture is designed to comply with the latest privacy changes to ward off concerns and win [consumers' trust](https://www.loginradius.com/blog/start-with-identity/2019/10/digital-identity-management/). 
+**4. Being in sync with the latest privacy changes:** In the backdrop of rampant privacy breaches and illegal mining of personal data, privacy has become a focal point. Be it the end-to-end encryption of personal information or the ability to disable tracking or completely restrict access to every sensitive feature, applications have been forced to adhere to strict privacy regulations that hardly assumed much significance a few years ago. Modern CIAM architecture is designed to comply with the latest privacy changes to ward off concerns and win [consumers' trust](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/). 
 
 Not that the old CIAM architecture didn't put much stress on these afore-mentioned, modern CIAM has doubled down on these core points as they have a significant role in improving the overall user-experience. 
 
@@ -119,15 +119,15 @@ By adding multiple layers of shields, new-age CIAM brings into effect strengthen
 
 [![guide-to-modern-customer-identity](guide-to-modern-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
-New-age CIAM takes advantage of [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/#:~:text=Team%20LoginRadius&text=10%20min%20read-,Multi%2Dfactor%20authentication%20(or%20MFA)%20is%20a%20multi%2D,user%20account%20will%20remain%20secure.) to guard against unauthorized access. Each layer is designed with the utmost security in mind to prevent hackers from breaking into the account.
+New-age CIAM takes advantage of [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/#:~:text=Team%20LoginRadius&text=10%20min%20read-,Multi%2Dfactor%20authentication%20(or%20MFA)%20is%20a%20multi%2D,user%20account%20will%20remain%20secure.) to guard against unauthorized access. Each layer is designed with the utmost security in mind to prevent hackers from breaking into the account.
 
-While MFA keeps a tab on the security checks, adaptive authentication aims at simplifying the process. Driven by advanced artificial intelligence and machine learning, the new-age [CIAM](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/#:~:text=CIAM%20simplifies%20every%20business%20task,%2C%20business%20intelligence%2C%20and%20services.) adapts over time for a more personalized experience. 
+While MFA keeps a tab on the security checks, adaptive authentication aims at simplifying the process. Driven by advanced artificial intelligence and machine learning, the new-age [CIAM](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/#:~:text=CIAM%20simplifies%20every%20business%20task,%2C%20business%20intelligence%2C%20and%20services.) adapts over time for a more personalized experience. 
 
 ### 4. Privacy and regulatory compliance
 
 Gone were the times where privacy could hardly get a fixed checkbox. Unlike ever before, privacy warrants must-have attention. 
 
-Therefore, companies have to be upfront with how they deal with [users' privacy](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) and come clean on the measures they take to prevent sensitive data from being misused. 
+Therefore, companies have to be upfront with how they deal with [users' privacy](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) and come clean on the measures they take to prevent sensitive data from being misused. 
 
 With the new age CIAM put into practice, organizations can easily remain in line with the privacy and regulatory compliance and adopt the essential changes from time to time. 
 
@@ -143,7 +143,7 @@ What puts LoginRadius ahead of the curve are the three most fundamental aspects:
 
    **1. Frictionless security:** Strengthened security doesn't have to come at the cost of convenience. LoginRadius' modern CIAM solution like MFA, passwordless login, phone login, social login etc. ensures there is no friction while authenticating.
 
-  **2. Privacy management:** Proficient privacy management is the key to winning the trust of consumers. Our new-age CIAM solutions considers every subtle privacy concern related to international regulations like the [GDPR and the CCPA](https://www.loginradius.com/blog/start-with-identity/2019/09/ccpa-vs-gdpr-the-compliance-war/).
+  **2. Privacy management:** Proficient privacy management is the key to winning the trust of consumers. Our new-age CIAM solutions considers every subtle privacy concern related to international regulations like the [GDPR and the CCPA](https://www.loginradius.com/blog/identity/2019/09/ccpa-vs-gdpr-the-compliance-war/).
 
   **3. Seamless integration**: Another feature that sets LoginRadius' new-age CIAM apart from the rest is the seamless integration with the modern tools that are geared to offer smooth and secure access.
 

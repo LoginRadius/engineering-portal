@@ -32,7 +32,7 @@ Let's talk more about it.
 
 ## What is Customer Identity and Access Management
 
-[Customer identity and access management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (CIAM) regulates the authentication and authorization of users who interact with different applications. This system revolves around a customer account that has all the information provided by the user. Using this information, the application makes the entire experience personalized for the user. 
+[Customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) regulates the authentication and authorization of users who interact with different applications. This system revolves around a customer account that has all the information provided by the user. Using this information, the application makes the entire experience personalized for the user. 
 
 **Customer identity programs for marketing** can enhance the user experience by making it safer and easier. 
 

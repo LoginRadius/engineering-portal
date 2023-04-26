@@ -47,7 +47,7 @@ Hackers are already working on breaching biometric authentication by the means o
 
 This would help in bypassing the essential identity verification systems to crucial data including banking details and media.
 
-Several cases of biometric frauds have been reported in 2020, which are predicted to surge in 2021. Only a secure [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/), based on risk analysis can help in preventing biometric frauds.
+Several cases of biometric frauds have been reported in 2020, which are predicted to surge in 2021. Only a secure [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/), based on risk analysis can help in preventing biometric frauds.
 
 
 ### 2. Innovative Forms of Attacks
@@ -56,7 +56,7 @@ Besides the usual attacks that businesses across the globe witness every day, at
 
 The rising number of social engineering and ransomware attacks is a good example of how attackers can utilize a malicious program for financial benefits.  
 
-Creating awareness among employees and consumers could be the most efficient way of reducing any kinds of[ social engineering](https://www.loginradius.com/blog/start-with-identity/2020/10/social-engineering-attacks/) and ransomware attacks.
+Creating awareness among employees and consumers could be the most efficient way of reducing any kinds of[ social engineering](https://www.loginradius.com/blog/identity/2020/10/social-engineering-attacks/) and ransomware attacks.
 
 
 ### 3. Synthetic Identity Frauds
@@ -83,7 +83,7 @@ Using an antivirus program could be the best option to prevent any kinds of coer
 
 ### 5. Credential Stuffing 
 
-[Credential stuffing](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/) allows an unauthorized professional to get access to a user through credentials, which are repeatedly used by a user on different platforms.
+[Credential stuffing](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/) allows an unauthorized professional to get access to a user through credentials, which are repeatedly used by a user on different platforms.
 
 This kind of attack could be quite dangerous since attackers can log in to multiple websites and platforms with a single user id and password as set by the user.
 
@@ -108,7 +108,7 @@ Lack of adequate cyber awareness leads to identity theft frauds. It’s crucial 
 
 The aforementioned aspects also require adequate consideration when it comes to securing the identities of individuals and consumers.
 
-Implementation of identity and access management solutions could be the game-changer for businesses that are striving to [protect consumer identities](https://www.loginradius.com/blog/start-with-identity/2019/12/digital-privacy-best-practices/).
+Implementation of identity and access management solutions could be the game-changer for businesses that are striving to [protect consumer identities](https://www.loginradius.com/blog/identity/2019/12/digital-privacy-best-practices/).
 
 
 

@@ -39,7 +39,7 @@ A spokeswoman for Alibaba Group Holding Ltd. said the company proactively discov
 
 The firm revealed that 925 million of its users an average of once a month use their platforms for retail, and the breach of its database caused no personal information or financial losses.
 
-**Also Read**: [9 Data Security Best Practices For 2021](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/)
+**Also Read**: [9 Data Security Best Practices For 2021](https://www.loginradius.com/blog/identity/data-security-best-practices/)
 
 
 ### 3. EA Suffers a Data Breach
@@ -66,7 +66,7 @@ The details are related to search phrases on CVS Pharmacy's website and included
 
 CVS admitted to ABC News that they had overlooked a database connected to them and that the breach stemmed from a third-party vendor who was hosting the information. The database has been shut down since. 
 
-**Also Read**: [Protecting Organization From Cyber-Threats: Business at Risk During COVID-19](https://www.loginradius.com/blog/start-with-identity/cyber-threats-business-risk-covid-19/).
+**Also Read**: [Protecting Organization From Cyber-Threats: Business at Risk During COVID-19](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/).
 
 
 ### 5. JBS SA: The World’s Largest Meat Supplier
@@ -102,7 +102,7 @@ What other steps can you take to reinforce your organization's cybersecurity fra
 
 
 
-*   **Passwordless authentication:** [Passwordless authentication](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/) eliminates the need for users to enter passwords during the verification process. Instead, they must produce another type of proof that verifies their identity, such as a one-time password (OTP), secret PIN, SMS- or app-generated codes, biometrics, etc. 
+*   **Passwordless authentication:** [Passwordless authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) eliminates the need for users to enter passwords during the verification process. Instead, they must produce another type of proof that verifies their identity, such as a one-time password (OTP), secret PIN, SMS- or app-generated codes, biometrics, etc. 
 
     Hackers want your data. They spend a lot of time trying to break into computer systems, and your passwords are the keys to those systems. So, when you do not have passwords in the first place, that gateway is already locked. 
 

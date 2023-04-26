@@ -17,7 +17,7 @@ In February 2019, some [617 million online account](https://www.theregister.com/
 
 Salting hashes sounds like something that comes out of a recipe book. However, in cryptography, salt plays a significant role in the breach of data. While creating applications, security is usually not the biggest priority. While data leaks can sometimes happen, hash salting generators only come to mind when there is a major invasion of privacy that affects the majority of the consumers’ applications. 
 
-Processes like user password hashing and salting are quite common in applications. They are indispensable for the [protection of data](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/) and building long-lasting consumer trust and loyalty. But before we embark on how salting is useful to boost security, let us understand what salting is and how it works. 
+Processes like user password hashing and salting are quite common in applications. They are indispensable for the [protection of data](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/) and building long-lasting consumer trust and loyalty. But before we embark on how salting is useful to boost security, let us understand what salting is and how it works. 
 
 
 ## What is Salting?
@@ -41,7 +41,7 @@ So how can we use salts to increase the efficiency of hashing?
 
 The first step is to make your Salt as unique as possible. Make it as different as you can, using characters which one would never commonly pick. For example, if you use ten different salts, you are increasing the security of the hashed password by a factor of ten. 
 
-Furthermore, when the salted password is stored separately, using rainbow tables, it makes it difficult for the attacker to determine the password. The best method to [ensure privacy protection](https://www.loginradius.com/blog/start-with-identity/2019/12/digital-privacy-best-practices/) is to use a unique salt each time the same user generates or changes their password. 
+Furthermore, when the salted password is stored separately, using rainbow tables, it makes it difficult for the attacker to determine the password. The best method to [ensure privacy protection](https://www.loginradius.com/blog/identity/2019/12/digital-privacy-best-practices/) is to use a unique salt each time the same user generates or changes their password. 
 
 
 
@@ -77,7 +77,7 @@ A common mistake when they are salting their password is reusing a salt they may
 
 *   **Using extremely different combinations**
 
-The more unique the combination of the hash, the more secure it is, but the combinations cannot be extremely strange. Combining random characters in the hopes that the [password will become more secure](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/) can actually backfire sometimes. 
+The more unique the combination of the hash, the more secure it is, but the combinations cannot be extremely strange. Combining random characters in the hopes that the [password will become more secure](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/) can actually backfire sometimes. 
 
 It creates interoperability problems and reduces password strength. Never attempt to create crypto hashes and salts on your own. Always use standard designs that have been created by experts to avoid compromising your safety. 
 

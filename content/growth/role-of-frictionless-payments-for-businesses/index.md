@@ -59,7 +59,7 @@ Users need not enter their card details or provide pins every time they shop fro
 
 Since digital payments are more secure than traditional credit cards or cash payments, leveraging a token-based payment method can reinforce overall payment security. 
 
-Online shopping platforms save a user’s billing information for their next quick automatic payment and authenticate them through a [token-based authentication](https://www.loginradius.com/blog/start-with-identity/pros-cons-token-authentication/) for speedy payment processing. 
+Online shopping platforms save a user’s billing information for their next quick automatic payment and authenticate them through a [token-based authentication](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/) for speedy payment processing. 
 
 The token-based authentication improves the shopping experience and eventually minimizes the steps in the overall payment method. 
 
@@ -88,7 +88,7 @@ Buyers switching in the last stage of the purchase funnel could be the worst nig
 
 Adding frictionless payment methods to their branding strategy is the need of the hour for every business striving for overall business success. 
 
-Businesses can quickly adopt frictionless payments by leveraging [seamless authentication methods](https://www.loginradius.com/blog/start-with-identity/authentication-option-for-your-product/) that offer a great experience and eventually reinforce payment security. 
+Businesses can quickly adopt frictionless payments by leveraging [seamless authentication methods](https://www.loginradius.com/blog/identity/authentication-option-for-your-product/) that offer a great experience and eventually reinforce payment security. 
 
 
 [![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

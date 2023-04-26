@@ -32,7 +32,7 @@ Here are some proven ways that will help your secure contact forms from spambots
 ### 1. “Add Google reCAPTCHA.”
 
 One of the most common ways to stop bots from filling up your form is to add CAPTCHA to the contact form. It offers an intelligent program that ensures that users who are filling out forms are actually humans. 
-The process is simplified by Google with reCAPTCHA and can be used as a protective practice against bots. However, this is not a silver bullet but effective against basic bots. Also, you might be sacrificing some bit of [user experience for security](https://www.loginradius.com/blog/start-with-identity/2018/10/digital-transformation-safeguarding-customer-experience/)
+The process is simplified by Google with reCAPTCHA and can be used as a protective practice against bots. However, this is not a silver bullet but effective against basic bots. Also, you might be sacrificing some bit of [user experience for security](https://www.loginradius.com/blog/identity/2018/10/digital-transformation-safeguarding-customer-experience/)
 
 
 ### 2. “Secure contact forms using a double opt-in form.”
@@ -42,7 +42,7 @@ Double opt-in forms make the signup process more secure and help to create spam-
 
 ### 3. “Add a test question to your contact form.”
 
-Add some [tricky questions](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/) to your form that are easy to understand by humans, but confuse the bots. However, make sure you put some common questions; otherwise, it may frustrate your potential subscribers.
+Add some [tricky questions](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/) to your form that are easy to understand by humans, but confuse the bots. However, make sure you put some common questions; otherwise, it may frustrate your potential subscribers.
 
 
 ### 4. “Add Honeypots.”
@@ -69,7 +69,7 @@ You can also control the location from which the contact forms are being filled.
 
 ### 8. Use a web application firewall.
 
-By adding a web application firewall, it is possible to manage [severe attacks](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/) and prevent bots from spamming your forms. 
+By adding a web application firewall, it is possible to manage [severe attacks](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) and prevent bots from spamming your forms. 
 
 
 ### 9. Blacklist IPs and limited IP addresses.

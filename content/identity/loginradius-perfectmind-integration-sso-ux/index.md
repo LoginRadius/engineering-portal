@@ -30,11 +30,11 @@ PerfectMind started as a software solution for martial arts schools but has expa
 
 Canadian municipal and community organizations were looking for a way to connect their native website to PerfectMind so users could log in and enjoy a seamless experience between the sites.
 
-Since, PerfectMind does not support industry-standard [federated Single Sign-On](https://www.loginradius.com/blog/start-with-identity/loginradius-federated-identity-management/) methods like SAML, OAuth/OIDC, or JWT, LoginRadius offered its out-of-the-box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and the PerfectMind applications by leveraging APIs.
+Since, PerfectMind does not support industry-standard [federated Single Sign-On](https://www.loginradius.com/blog/identity/loginradius-federated-identity-management/) methods like SAML, OAuth/OIDC, or JWT, LoginRadius offered its out-of-the-box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and the PerfectMind applications by leveraging APIs.
 
 [![PerfectMind-Integration](PerfectMind-Integration.png)](https://www.loginradius.com/resource/perfectmind-integration)
 
-Through LoginRadius PerfectMind integration, the PerfectMind consumers are leveraging all the powerful capabilities of the cutting-edge CIAM platform, including social login, [passwordless login](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/), single sign-on, reinforced by robust security. 
+Through LoginRadius PerfectMind integration, the PerfectMind consumers are leveraging all the powerful capabilities of the cutting-edge CIAM platform, including social login, [passwordless login](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/), single sign-on, reinforced by robust security. 
 
 
 ## Final Thoughts 

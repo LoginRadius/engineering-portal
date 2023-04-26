@@ -23,7 +23,7 @@ The "Bring your own" trend started when organizations allowed their employees to
 
 **Bring your own identity, or BYOI is also one such trend where consumers bring in their own digital ID, which is either managed by self or by any third-party.**
 
-Instead of asking consumers to fill in long forms as part of the registration process, you can allow them to choose their existing [digital identity](https://www.loginradius.com/blog/start-with-identity/digital-identity-management/). These could be any of their social media accounts such as Facebook, Twitter, Google, or LinkedIn. 
+Instead of asking consumers to fill in long forms as part of the registration process, you can allow them to choose their existing [digital identity](https://www.loginradius.com/blog/identity/digital-identity-management/). These could be any of their social media accounts such as Facebook, Twitter, Google, or LinkedIn. 
 
 Moreso, with features  like simplified registration (which is both quick and secure), the BYOI trend can address the problems of organizations that are losing consumers.  
 

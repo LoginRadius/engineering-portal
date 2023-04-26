@@ -140,7 +140,7 @@ LoginRadius CIAM platform is designed to help businesses reach their targeted go
 
 If you wish to experience how LoginRadius works for your business, reach us today to schedule a free personalized demo. 
 
-Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution drives [ROI for your business](https://www.loginradius.com/blog/start-with-identity/loginradius-roi-enterprises-infographic/).
+Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution drives [ROI for your business](https://www.loginradius.com/blog/identity/loginradius-roi-enterprises-infographic/).
 
 
 

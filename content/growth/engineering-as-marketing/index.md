@@ -44,7 +44,7 @@ You will hit the most eligible prospects as they are already looking online by p
 
 One of the most relevant and frequently ignored tips is to use data from close to your future customers but have started using your device and are super excited about it. People prefer to trust what other individuals have already learned and checked and have something useful to share. Only add a couple of constructive reviews and comments on the website, and your conversion rates will see a boost.
 
-Many B2B companies wonder why social media accounts should be started. [Social media provides](https://www.loginradius.com/blog/start-with-identity/2018/11/reconsidering-social-login-security-privacy-angle/) a perfect way to connect with current and future clients, regardless of the industry or business model.
+Many B2B companies wonder why social media accounts should be started. [Social media provides](https://www.loginradius.com/blog/identity/2018/11/reconsidering-social-login-security-privacy-angle/) a perfect way to connect with current and future clients, regardless of the industry or business model.
 
 
 ### 3. Leveraging SEO

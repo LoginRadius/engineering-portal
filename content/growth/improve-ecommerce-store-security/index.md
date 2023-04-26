@@ -76,7 +76,7 @@ Site confidentiality is not a passive activity, and you must routinely inspect y
 
 ### 9. Use multi-factor authentication.
 
-Gone are the times when online security remained confined to only one factor of user authentication for ecommerce. Nowadays, it has become crucial for all E-Commerce businesses to switch to [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/multi-factor-authentication-a-beginners-guide/) to ensure you leave no room for hackers to attack your website. 
+Gone are the times when online security remained confined to only one factor of user authentication for ecommerce. Nowadays, it has become crucial for all E-Commerce businesses to switch to [multi-factor authentication](https://www.loginradius.com/blog/identity/multi-factor-authentication-a-beginners-guide/) to ensure you leave no room for hackers to attack your website. 
 
 
 ### 10. Never underestimate your security.

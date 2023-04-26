@@ -15,7 +15,7 @@ Two such regulations are the EU’s GDPR (General Data Protection Regulation, in
 
 Understanding the impact of GDPR and [CCPA regulations is crucial for global compliance](https://www.loginradius.com/blog/2019/05/ccpa-introduction/) today—and in the future. In fact, these regulations foreshadow a certain trend toward data collection and management: More governing bodies will implement privacy and consent regulations with heftier repercussions for noncompliance.
 
-To help you understand [how these regulations can affect you](https://www.loginradius.com/blog/start-with-identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/), here’s an overview of GDPR vs CCPA.
+To help you understand [how these regulations can affect you](https://www.loginradius.com/blog/identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/), here’s an overview of GDPR vs CCPA.
 
 ## Similarities and Differences: CCPA vs GDPR 
 

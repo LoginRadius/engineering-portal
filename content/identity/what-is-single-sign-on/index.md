@@ -213,10 +213,10 @@ Businesses can leverage SSO to deliver a seamless user experience at every touch
 
 **4. What is the difference between SSO and federation?**
 
-The main difference between Identity [Federation and SSO](https://www.loginradius.com/blog/start-with-identity/federated-identity-management-vs-sso/) lies in the range of access. SSO allows users to use a single set of credentials to access multiple systems within a single organization (a single domain). On the other hand, Federation lets users access systems across federated organizations.
+The main difference between Identity [Federation and SSO](https://www.loginradius.com/blog/identity/federated-identity-management-vs-sso/) lies in the range of access. SSO allows users to use a single set of credentials to access multiple systems within a single organization (a single domain). On the other hand, Federation lets users access systems across federated organizations.
 
 **5. How can I get SSO for my OTT platform?**
 
-SSO integration can be done through a cloud-based CIAM solution like LoginRadius. The cutting-edge CIAM helps OTT platforms to deliver a seamless user experience across multiple touchpoints. [Read more.](https://www.loginradius.com/blog/start-with-identity/how-ciam-helps-ott-platforms-scale-million-viewers/)
+SSO integration can be done through a cloud-based CIAM solution like LoginRadius. The cutting-edge CIAM helps OTT platforms to deliver a seamless user experience across multiple touchpoints. [Read more.](https://www.loginradius.com/blog/identity/how-ciam-helps-ott-platforms-scale-million-viewers/)
 
 [![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)

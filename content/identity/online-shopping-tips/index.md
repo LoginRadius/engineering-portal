@@ -113,7 +113,7 @@ Consumers should be aware of what happens to their data that they leave on a web
 
 ### 7. Steer clear of holiday shopping scams.
 
-We mean [phishing](https://www.loginradius.com/blog/2018/02/phishing-for-identity/) scams. For instance, your consumers may receive emails with tempting offers for the holidays that they cannot say no to. Email from unknown vendors often carries viruses and malware. It is always better to play safe and delete emails from suspicious vendors without opening them. 
+We mean [phishing](https://www.loginradius.com/blog/phishing-for-identity/) scams. For instance, your consumers may receive emails with tempting offers for the holidays that they cannot say no to. Email from unknown vendors often carries viruses and malware. It is always better to play safe and delete emails from suspicious vendors without opening them. 
 
 
 ### 8. Download apps from trusted sources.

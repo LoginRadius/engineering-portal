@@ -21,7 +21,7 @@ In this article, we’ll tell you exactly how they do it and what you can do to 
 
 ## What Are Phishing Email Scams
 
-[Phishing emails](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) are not just innocent spam. They are criminal attempts to fraudulently acquire private information from unsuspecting users. Some people, however, allow their greed to get the best of them and fall for these scams. Even though some of these emails are quite easy to see through, millions of people every year still fall prey to phishing scams.
+[Phishing emails](https://www.loginradius.com/blog/identity/phishing-for-identity/) are not just innocent spam. They are criminal attempts to fraudulently acquire private information from unsuspecting users. Some people, however, allow their greed to get the best of them and fall for these scams. Even though some of these emails are quite easy to see through, millions of people every year still fall prey to phishing scams.
 
 It's no secret that cybercriminals attack their targets by sending out sophisticated phishing email scams. These scams resemble emails from legitimate banks, government agencies, credit card companies, social networking sites, online payment websites, or multiple online stores. These usually begin with an approach where the sender asks recipients to click on a link that redirects them to an ad page where they need to specify and confirm personal data, account information, etc.
 
@@ -43,12 +43,12 @@ Spammers—people who send spam e-mail messages—use many different methods to 
 
 ### 1. By using harvesting programs
 
-Spammers and cybercriminals engage in phishing email scams by using harvesting software to steal and gather email addresses from the internet. Professional spammers [rely on bots](https://www.loginradius.com/blog/start-with-identity/bot-attacks/) that crawl millions of websites and scrape addresses from pages. Other spammers get email addresses by approaching sellers on underground cybercrime forums, or in open-air markets where addresses are found in mailing lists, websites, chat rooms, and domain contact points.
+Spammers and cybercriminals engage in phishing email scams by using harvesting software to steal and gather email addresses from the internet. Professional spammers [rely on bots](https://www.loginradius.com/blog/identity/bot-attacks/) that crawl millions of websites and scrape addresses from pages. Other spammers get email addresses by approaching sellers on underground cybercrime forums, or in open-air markets where addresses are found in mailing lists, websites, chat rooms, and domain contact points.
 
 
 ### 2. By using random alphanumeric combinations 
 
-Scammers use [brute force attacks](https://www.loginradius.com/blog/start-with-identity/brute-force-lockout/) to generate various alphanumeric combinations of email addresses in a sequential manner by automatically entering random letters, numbers, and symbols until they get any one of those right. 
+Scammers use [brute force attacks](https://www.loginradius.com/blog/identity/brute-force-lockout/) to generate various alphanumeric combinations of email addresses in a sequential manner by automatically entering random letters, numbers, and symbols until they get any one of those right. 
 
 
 ### 3. By using CC email

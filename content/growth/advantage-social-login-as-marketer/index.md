@@ -39,7 +39,7 @@ The companies pull the user information to create a wholesome experience for the
 
 4. **It results in fewer unsuccessful logins:** The users only need to click on the social media account they want to log in with. Thus, they will not have the scope of making mistakes while entering their login credentials. 
 
-    The feature might prove to be the most helpful for smartphone users. The reason is that sometimes it might be uncomfortable to type in info while you are traveling or are outside. Thus, you minimize the chance of losing customers[ who have forgotten their password](https://www.loginradius.com/blog/start-with-identity/best-practices-choosing-good-security-questions/) or choose not to log in as it would be inconvenient to type at the moment.
+    The feature might prove to be the most helpful for smartphone users. The reason is that sometimes it might be uncomfortable to type in info while you are traveling or are outside. Thus, you minimize the chance of losing customers[ who have forgotten their password](https://www.loginradius.com/blog/identity/best-practices-choosing-good-security-questions/) or choose not to log in as it would be inconvenient to type at the moment.
 
 5. **You can expand your database and personalize your services**: With the help of **social login**, you can get access to valuable data about the customer's preferences. Thus, you can personalize the content you share with them.
 

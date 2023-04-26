@@ -32,7 +32,7 @@ Once you [configure the webhook](https://www.loginradius.com/docs/developer/guid
 
 ## Webhook Security 
 
-LoginRadius follows the best practices to [ensure your endpoint security](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/) and provides several ways to verify that triggered events are securely coming from LoginRadius. 
+LoginRadius follows the best practices to [ensure your endpoint security](https://www.loginradius.com/blog/identity/data-security-best-practices/) and provides several ways to verify that triggered events are securely coming from LoginRadius. 
 
 Enterprises shouldn’t worry about the overall security of consumer data since the best security practices are already in place in the LoginRadius CIAM solution. When it comes to security, LoginRadius commits to: 
 

@@ -96,7 +96,7 @@ We believe that the key to the successful conduction of a QBR lies in adding val
 
 A quarterly business review benefits both the client and the vendor since they get a chance to connect and learn how things are working and prepare an action plan for the future. 
 
-It’s the job of the customer success team to correctly deliver the expectations and smartly use QBRs to [transform their clients’ businesses](https://www.loginradius.com/blog/start-with-identity/enterprise-needs-digital-business-transformation-strategy/). 
+It’s the job of the customer success team to correctly deliver the expectations and smartly use QBRs to [transform their clients’ businesses](https://www.loginradius.com/blog/identity/enterprise-needs-digital-business-transformation-strategy/). 
 
 Moreover, you can help cement the relationship since you get a lot of feedback from your client's team that further helps plan things better. 
 

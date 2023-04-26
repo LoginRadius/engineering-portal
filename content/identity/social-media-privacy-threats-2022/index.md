@@ -14,9 +14,9 @@ metadescription: "Social media privacy is becoming a growing concern. Here are t
 
 Privacy is a growing concern for many private board users. While there is no such thing as “complete privacy” or “true anonymity” — especially in a digital world where websites and social platforms keep track of what we do online — there is plenty you can do to protect your personal data and secure your important privates accounts against unlawful entry and theft.
 
-Unfortunately, though, security risks are becoming more prevalent on social media and other digital platforms. From the scammers that are trying to [get a hold of your email address](https://www.loginradius.com/blog/start-with-identity/stop-scammers-getting-email-address/) to the social media trackers, identity theft, and automated bots, there’s a very real chance that someone is trying to steal your data on social media.
+Unfortunately, though, security risks are becoming more prevalent on social media and other digital platforms. From the scammers that are trying to [get a hold of your email address](https://www.loginradius.com/blog/identity/stop-scammers-getting-email-address/) to the social media trackers, identity theft, and automated bots, there’s a very real chance that someone is trying to steal your data on social media.
 
-Now, if you are a business leader, it is imperative that you’re able to protect all business and consumer data that might be passing through your social media accounts. That said, it’s equally important to leverage the cybersecurity best practices to educate your employees and your audience on how they can [protect their data and identities online](https://www.loginradius.com/blog/start-with-identity/purpose-identity-security-2021/).
+Now, if you are a business leader, it is imperative that you’re able to protect all business and consumer data that might be passing through your social media accounts. That said, it’s equally important to leverage the cybersecurity best practices to educate your employees and your audience on how they can [protect their data and identities online](https://www.loginradius.com/blog/identity/purpose-identity-security-2021/).
 
 Let’s take a look at most pressing social media privacy threats and what you can do to minimize risk.
 
@@ -37,7 +37,7 @@ Yes, it is important to target the right people, but you don’t want your ads t
 
 ### Identity theft and impersonation
 
-Another very real privacy threat on social media nowadays is identity theft and impersonation. Securing consumer identity is paramount for modern businesses, and that also means educating your audience on how to stay safe online and [avoid identity theft](https://www.loginradius.com/blog/start-with-identity/identity-theft-frauds/). This is especially important for companies operating in high-risk industries where identity theft or impersonation might be a more common occurrence.
+Another very real privacy threat on social media nowadays is identity theft and impersonation. Securing consumer identity is paramount for modern businesses, and that also means educating your audience on how to stay safe online and [avoid identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/). This is especially important for companies operating in high-risk industries where identity theft or impersonation might be a more common occurrence.
 
 If you don’t have a reason to educate your audience, then you should focus on educating your employees on how to protect themselves on social platforms - in order to protect your business. For example, someone might try to steal their image to impersonate them, either for personal purposes or with malicious intent, which can lead to data breaches.
 

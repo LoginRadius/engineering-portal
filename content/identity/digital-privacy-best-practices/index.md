@@ -60,7 +60,7 @@ Businesses are also going passwordless, which means consumers do not need to mem
 
 ### 2\. Phishing Attacks
 
-[Phishing attacks](https://www.loginradius.com/blog/2018/02/phishing-for-identity/) happen when cybercriminals scam consumers with fraudulent email messages and trick them into giving away sensitive data. Most of these messages seem like they are from authentic sources and no one usually questions their legitimacy.
+[Phishing attacks](https://www.loginradius.com/blog/phishing-for-identity/) happen when cybercriminals scam consumers with fraudulent email messages and trick them into giving away sensitive data. Most of these messages seem like they are from authentic sources and no one usually questions their legitimacy.
 
 Do not click on links from suspicious email addresses, always type the target website address yourself, and never give away your personal information to anyone. Safeguarding against phishing is possible. All you need is to do is pay attention to detail. 
 
