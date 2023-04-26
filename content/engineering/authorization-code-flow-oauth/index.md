@@ -3,7 +3,7 @@ title: "Guide to Authorization Code Flow for OAuth 2.0"
 date: "2021-03-24"
 coverImage: "unsplash.jpg"
 author: "Nick Chim"
-tags: ["OAuth", "Authorization Code Flow"]
+tags: ["Oauth", "Authorization Code Flow"]
 description: "This article will help you to understand the OAuth 2.0 authorization code flow."
 ---
 

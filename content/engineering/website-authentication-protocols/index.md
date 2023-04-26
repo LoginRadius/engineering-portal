@@ -3,7 +3,7 @@ title: "Website Authentication Protocols"
 date: "2015-12-01"
 coverImage: "server-proc-150x150.png"
 author: Karl Wittig
-tags: ["Authentication","OAuth"]
+tags: ["Authentication","Oauth"]
 ---
 
 Authentication systems are the backbone of many websites. It allows users to log in to your site and preserving data between visits. It is crucial in offering a robust user experience, which rewards your users for providing their details. Authentications often provide access to personal private data which if made public, it could harm your user. To prevent these, authentication protocols were created to secure the requests while allowing users to still safely login to your system from any environment.
