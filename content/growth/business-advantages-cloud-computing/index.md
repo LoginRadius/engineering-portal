@@ -34,7 +34,7 @@ Cloud servers are made to support massive sign-ins and sudden, dramatic surges o
 
 The [LoginRadius Identity Platform](https://www.loginradius.com/) was designed with service provider-class scale in mind. The distributed CIAM network has regularly experienced peak transaction volumes of over 150,000 logins per second and typically handles 10,000 requests per second with less than 500 milliseconds latency. 
 
-[![wp-resilency](wp-resilency.png)](https://www.loginradius.com/resource/drives-scalability-and-performance)
+[![wp-resilency](wp-resilency.png)](https://www.loginradius.com/scalability/)
 
 
 ### #2. Highly secure

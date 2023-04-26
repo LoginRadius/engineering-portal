@@ -25,12 +25,12 @@ Currently, LoginRadius supports two different versions of **Google v2reCAPTCHA**
 
 You want to enable invisible reCAPTCHA on a specific page — a login page, for demonstration. To achieve this, first [login to your LoginRadius dashboard](https://dashboard.loginradius.com/login). Or, [sign up here for a free account or 21-day free trial for the Developer Pro plan](https://accounts.loginradius.com/auth.aspx?action=register).
 
-If you're new to LoginRadius, [follow our Getting Started documentation](https://www.loginradius.com/ciam-for-developers/docs/references/javascript-library/getting-started/) to get going. 
+If you're new to LoginRadius, [follow our Getting Started documentation](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/javascript-library/getting-started/) to get going. 
 
 
 ### Solution Steps
 
-- First, you need to [enable reCAPTCHA (Invisible reCAPTCHA) from the LoginRadius dashboard](https://www.loginradius.com/ciam-for-developers/docs/guide/captcha/#step-2-captcha-deployment).
+- First, you need to [enable reCAPTCHA (Invisible reCAPTCHA) from the LoginRadius dashboard](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/guide/captcha/#step-2-captcha-deployment).
 - When you enable the invisible reCAPTCHA from the Loginradius dashboard, it will also enable the reCAPTCHA at the registration page.
 - Now, you want to only enable invisible reCAPTCHA for enabling bot protection only on the login page.
 - So, you will need to do the following client-side setup for adding the invisible reCAPTCHA on a specific page only — for example, on the login page.

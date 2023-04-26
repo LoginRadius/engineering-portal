@@ -65,66 +65,66 @@ The following explains the step-by-step implementation of LoginRadius B2B Identi
 
 These are your customers or partner organizations who need to access your application. You can create and manage these Organizations using the following APIs:
 
-- [Create Organizations](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#create-organization)
+- [Create Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#create-organization)
 
   API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations
 
-- [Update Organizations](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#update-organization)
+- [Update Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#update-organization)
 
   API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/organizations/{id}
 
-- [Remove Organizations](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#remove-organization)
+- [Remove Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#remove-organization)
   
   API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/organizations/{id}
 
-- [Update Organization Status](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#update-status-of-organization)
+- [Update Organization Status](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#update-status-of-organization)
   
   API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/organizations/{id}/status
 
 ### Step 2: Roles Management for Organization
 These are the roles that organization users will have to access permission-based resources and processes. You can create, assign, and manage roles using the following APIs:
 
-- [Create Role](https://www.loginradius.com/ciam-for-developers/docs/references/api/roles-management/#roles-create)
+- [Create Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#roles-create)
   
   API Endpoint: https://api.loginradius.com/identity/v2/manage/role
 
-- [Add Permission to Role](https://www.loginradius.com/ciam-for-developers/docs/references/api/roles-management/#add-permissions-to-role)
+- [Add Permission to Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#add-permissions-to-role)
   
   API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/role/{role}/permission
 
-- [Remove Permission from Role](https://www.loginradius.com/ciam-for-developers/docs/references/api/roles-management/#remove-permissions)
+- [Remove Permission from Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#remove-permissions)
   
   API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/role/{role}/permission
 
-- [Set Roles for Organization](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#addupdate-roles)
+- [Set Roles for Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#addupdate-roles)
   
   API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{id}/defaultroles
 
 ### Step 3: User Management for Organization
-- [Add User to Organization](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#add-user-to-organization)
+- [Add User to Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#add-user-to-organization)
   
   API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
 
-- [Remove Users from Organization](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#remove-users-from-organization)
+- [Remove Users from Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#remove-users-from-organization)
 
   API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
 
-- [Get Organization Users](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#organization-users)
+- [Get Organization Users](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#organization-users)
 
   API Endpoint: GET https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
 
 ### Step 4: Login Methods for Organization Users
 You can allow organizations to use the organizational identity or ask them to create an identity for authenticating themselves.
 
-- [Set Global IDP for User](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#set-global-idp-on-profile): Set a global Identity Provider authentication method from the already enabled authentication methods for your LoginRadius App. The global IDP will apply to organizations of all your customers and partners. 
+- [Set Global IDP for User](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#set-global-idp-on-profile): Set a global Identity Provider authentication method from the already enabled authentication methods for your LoginRadius App. The global IDP will apply to organizations of all your customers and partners. 
 
   For example: Login with Gmail, Login with Facebook, Login with Email-Password, etc.  
 
   API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{org_id}/members/{uid}/idp/global
 
-  > **Note:** To show the global IDP to all organizations, turn the setting on via [this API](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#set-global-authentication-method-for-organization).
+  > **Note:** To show the global IDP to all organizations, turn the setting on via [this API](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#set-global-authentication-method-for-organization).
 
-- [Create SAML Login for Organization](https://www.loginradius.com/ciam-for-developers/docs/references/api/b2b-identity/#create-organizational-saml-idp): Set a SAML authentication method specific to the customer or partner.
+- [Create SAML Login for Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#create-organizational-saml-idp): Set a SAML authentication method specific to the customer or partner.
 
   For example: Login with Salesforce for one customer and Login with Azure AD for another customer. So, customers and partners can easily authenticate using their identity provider rather than creating a new identity.
 
@@ -132,7 +132,7 @@ You can allow organizations to use the organizational identity or ask them to cr
 
 ## Manage Email Communication
 
-You can manage the welcome email and related email communication for the organization users using LoginRadius Dashboard, [as explained here](https://www.loginradius.com/ciam-for-developers/docs/guide/manage-organizations/#manage-email-template-and-setting). 
+You can manage the welcome email and related email communication for the organization users using LoginRadius Dashboard, [as explained here](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/guide/manage-organizations/#manage-email-template-and-setting). 
 
 ## Conclusion
 

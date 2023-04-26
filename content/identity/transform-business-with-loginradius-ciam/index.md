@@ -79,7 +79,7 @@ Our modern cloud infrastructure is protected to the highest industry standards. 
 
 In a technologically-driven interconnected world where every second counts, LoginRadius CIAM guarantees unparalleled uptime of 99.99% every month. The cloud-based identity provider manages 180K logins per second, 20 times more than its major competitors offering similar services. 
 
-[![decode-LR-WP](decode-LR-WP.png)](https://www.loginradius.com/resource/drives-scalability-and-performance)
+[![decode-LR-WP](decode-LR-WP.png)](https://www.loginradius.com/scalability/)
 
 Apart from delivering the industry's best consumer experience, the following are a few ways the platform excels compared to its global competitors.
 

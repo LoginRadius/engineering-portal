@@ -28,7 +28,7 @@ The three main concerns that needed to be addressed with the user management sol
 
 #### **The LoginRadius Solution**
 
-With a flexible and customizable platform, alongside a [guaranteed 99.99% uptime](https://www.loginradius.com/availability/), Mapegy was reassured from the get-go that our solution is indeed both reliable and scalable when catering to their needs and user base as they grow. As well, our login and registration flows allowed Mapegy to provide their users with a streamlined and hassle-free login and registration process while creating [centralized user profiles with the extended data points](https://www.loginradius.com/custom-object/) that Mapegy was looking for.
+With a flexible and customizable platform, alongside a [guaranteed 99.99% uptime](https://www.loginradius.com/), Mapegy was reassured from the get-go that our solution is indeed both reliable and scalable when catering to their needs and user base as they grow. As well, our login and registration flows allowed Mapegy to provide their users with a streamlined and hassle-free login and registration process while creating [centralized user profiles with the extended data points](https://www.loginradius.com/custom-object/) that Mapegy was looking for.
 
 This played a significant role both in improving the user experience and providing Mapegy with the necessary data in order to to better understand their users.
 

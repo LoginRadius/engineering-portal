@@ -52,7 +52,7 @@ A customer identity solution allows you to track your users entire digital journ
 
 You’ll be able to make your advertising more effective as it will improve targeting and make the customer experience more valuable by personalizing it.
 
-But unfortunately, utilizing your customers data and personalizing the digital experience isn’t quite enough. To truly bring value to your current [marketing stack](https://www.loginradius.com/empower-marketing/), and engage your customers, you need to offer your users a connected multi-channel experience.
+But unfortunately, utilizing your customers data and personalizing the digital experience isn’t quite enough. To truly bring value to your current [marketing stack](https://www.loginradius.com/), and engage your customers, you need to offer your users a connected multi-channel experience.
 
 #### 3\. Providing a Seamless Multi-channel Experience
 

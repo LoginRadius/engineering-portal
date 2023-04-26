@@ -79,7 +79,7 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 * **OpenID Authorization:** It verifies user identity based on an authorization server's authentication.
 * **OAuth:** It allows the API to authenticate and access the requested system or resource.
 
-[![api-wp](api-wp.png)](https://www.loginradius.com/resource/how-to-secure-it-using-oauth-2/)
+[![api-wp](api-wp.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
 
 
 Since we’ve got a fair understanding of the authentication and authorization system, let’s just quickly jump to the aspects that define the quality of the authentication system.

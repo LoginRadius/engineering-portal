@@ -45,7 +45,7 @@ It is an OpenID Foundation (OIDF) standard that leverage OAuth 2.0 process flow 
 
 By implementing OpenID Connect, leveraging OAuth 2.0 fabricates a unified framework that promises mobile native applications, secure APIs, and browser applications in a single, cohesive architecture.
 
-[![api-oauth](api-oauth.png)](https://www.loginradius.com/resource/how-to-secure-it-using-oauth-2/)
+[![api-oauth](api-oauth.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
 
 
 ## Risks Associated with Open Banking
