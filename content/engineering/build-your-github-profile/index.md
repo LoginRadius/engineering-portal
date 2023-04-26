@@ -3,7 +3,7 @@ title: "How to Build Your Github Profile"
 date: "2022-02-28"
 coverImage: "index.png"
 author: "Abhimanyu Singh Rathore"
-tags: ["GitHub"]
+tags: ["Github"]
 description: "Your GitHub profile is vital in showcasing your programming skills. Learn how you can leverage GitHub profile to showcase your skills and expertise."
 ---
 

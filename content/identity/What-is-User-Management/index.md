@@ -2,7 +2,7 @@
 title: "What Is User Management and Why Is It Important?"
 date: "2021-03-16"
 coverImage: "user-mngmnt.jpg"
-tags: ["user management","cx","identity access management","idaas"]
+tags: ["user management","cx","identity access management"]
 author: "Rakesh Soni"
 description: "Though user management has been around for a long time now, especially within the IAM and ITAM space, it has assumed new importance with introducing cloud-based subscriptions. Recent trends show that there is a sure shift to cloud-based IAM, granting administrators greater access and control over digital assets management."
 metatitle: "What Is User Management and Why Is It Important?"
