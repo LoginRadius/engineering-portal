@@ -57,7 +57,7 @@ MFA works in this way because, let’s suppose one of the factors is hacked by t
 
   
 
-As I mentioned above, with a huge number of websites and web portals comes a considerable number of consumer accounts and passwords. One of the biggest problems with traditional user ID and password is that they require how to **[manage email and password login](https://www.loginradius.com/docs/developer/howto/manage-email-password-login)** and database maintenance.
+As I mentioned above, with a huge number of websites and web portals comes a considerable number of consumer accounts and passwords. One of the biggest problems with traditional user ID and password is that they require how to **[manage email and password login](https://www.loginradius.com/developers/)** and database maintenance.
 
   
 
@@ -100,7 +100,7 @@ Now that you’ve learned why MFA is critical, you may be keen to know how this 
 
 ## How Does Multi-Factor Authentication Work
 
-Multi-factor authentication, as the name suggests, for authentication requires multiple verification information. One of the most common factors that are widely used is **[OTP-based authentication](https://www.loginradius.com/docs/developer/api/phone-authentication)**. OTP or one-time passwords are 4-6 digit codes you will receive via SMS and work as a one-time entry token. It is generated periodically whenever an authentication request is made.
+Multi-factor authentication, as the name suggests, for authentication requires multiple verification information. One of the most common factors that are widely used is **[OTP-based authentication](https://www.loginradius.com/developers/)**. OTP or one-time passwords are 4-6 digit codes you will receive via SMS and work as a one-time entry token. It is generated periodically whenever an authentication request is made.
 
   
 

@@ -1230,7 +1230,7 @@ Basically, LoginRadius handles user registration, login, and authentication. Oth
 
 - **Forms**: LoginRadius can automatically pre-create registration and login forms for you.
 
-- [**Authentication and Authorization**](https://www.loginradius.com/docs/developer/tutorial/node-js/): It generates and sends a token to the user when login or signup is successful. Instead of using `JWT`, you can use this token to authenticate users
+- [**Authentication and Authorization**](https://www.loginradius.com/developers/): It generates and sends a token to the user when login or signup is successful. Instead of using `JWT`, you can use this token to authenticate users
 
 - **Security**: When using LoginRadius, you automatically have access to an admin console where you can control authentication factors, such as email, phone, and multi-factor auth for your Node.js app.
 
@@ -1267,4 +1267,4 @@ You've successfully learned how to perform CRUD operations using MongoDB as a da
 ## Resources
 
 - A full, working version of [the code used in this tutorial is available on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/NodejsAuthenticationGuide)
-- [Node.js Authentication with LoginRadius](https://www.loginradius.com/docs/developer/tutorial/node-js/)
+- [Node.js Authentication with LoginRadius](https://www.loginradius.com/developers/)

@@ -86,19 +86,19 @@ LoginRadius provides multiple methods to implement a cookieless login workflow l
 
 The LoginRadius API has been architected and designed to function as a cookieless authentication system. Once authentication occurs, a session token gets returned to the requesting client in the form of an access token which can be leveraged to take further authorized actions against the Consumer account. It is a core part of the LoginRadius authentication workflows, and APIs developed based on Oauth 2.0 protocols.
 
-These APIs provide flexibility in generating access tokens based on consumer authentication requests and are automatically validated and signed leveraging the LoginRadius API Key and Secret. [Detailed API documentation is available here](https://www.loginradius.com/docs/developer/#api).
+These APIs provide flexibility in generating access tokens based on consumer authentication requests and are automatically validated and signed leveraging the LoginRadius API Key and Secret. [Detailed API documentation is available here](https://www.loginradius.com/developers/).
 
 ### JSON Web Tokens
 
 In addition to the LoginRadius APIs, JWTs are a standard method to handle cookieless login. Once authentication is completed and verified, a signed token can be generated(leveraging LoginRadius APIs) to pass the consumer session to the client.
 
-JWTs are a standard industry mechanism leveraged by various service providers and tools, making them ideal for interoperability with multiple applications. Find additional details on [how to use JWT as part of your authentication workflows here](https://www.loginradius.com/docs/developer/concepts/jwt/).
+JWTs are a standard industry mechanism leveraged by various service providers and tools, making them ideal for interoperability with multiple applications. Find additional details on [how to use JWT as part of your authentication workflows here](https://www.loginradius.com/developers/).
 
 ### Additional Options
 
 In addition to the above two options, LoginRadius provides flexibility and support for various authentication and authorization standards that support a cookieless authentication approach. Outbound authentication workflows such as OIDC and Oauth 2.0 allow for a modern standardized approach to authentication.
 
-These are industry-recognized and recommended authentication and authorization protocols that comply with security and privacy best practices, including supporting a cookieless authentication approach. Check out [our dedicated documentation on outbound workflows](https://www.loginradius.com/docs/developer/guide/fed-sso).
+These are industry-recognized and recommended authentication and authorization protocols that comply with security and privacy best practices, including supporting a cookieless authentication approach. Check out [our dedicated documentation on outbound workflows](https://www.loginradius.com/developers/).
 
 ## Conclusion
 

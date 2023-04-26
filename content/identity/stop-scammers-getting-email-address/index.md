@@ -87,7 +87,7 @@ Some warnings or indications are:
 
 ### 3. Use two-factor authentication (2FA)
 
-[Two-factor authentication (2FA)](https://www.loginradius.com/docs/developer/guide/mfa/) is an extra layer of security on top of your password login. It's commonly used in online applications, especially to protect accounts that can be accessed from anywhere and have high-value personal data. 
+[Two-factor authentication (2FA)](https://www.loginradius.com/developers/) is an extra layer of security on top of your password login. It's commonly used in online applications, especially to protect accounts that can be accessed from anywhere and have high-value personal data. 
 
 
 ### 4. Integrate graphics to your emails

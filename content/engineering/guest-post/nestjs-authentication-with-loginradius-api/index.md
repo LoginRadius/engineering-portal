@@ -7,7 +7,7 @@ tags: ["NestJS", "Node.js", "Authentication"]
 description: "Want to authenticate users on your NestJS app? Follow this tutorial to learn how to authenticate users using a password and perform authorization using access tokens."
 ---
 
-To create secure applications, you need a way to authenticate and authorize your users. In this tutorial, you will learn to authenticate users in your NestJS apps using [LoginRadius Authentication API](https://www.loginradius.com/docs/developer/references/api/authentication).
+To create secure applications, you need a way to authenticate and authorize your users. In this tutorial, you will learn to authenticate users in your NestJS apps using [LoginRadius Authentication API](https://www.loginradius.com/developers/).
 
 ## Authentication vs. Authorization
 
@@ -49,7 +49,7 @@ To authenticate a user using LoginRadius in NestJS, you need credentials: an API
 
 Get your account credentials by creating a free [LoginRadius account](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login&action=register) and head over to the dashboard.
 
-Create an app and select configuration and then [get your app's credentials from the API credentials panel](https://www.loginradius.com/docs/developer/faq/#how-to-retrieve-api-key-and-secret).
+Create an app and select configuration and then [get your app's credentials from the API credentials panel](https://www.loginradius.com/developers/).
 
 ## Set Up .env file
 
@@ -61,7 +61,7 @@ You will need the dotenv module to access the your environment variables. Run th
 npm install dotenv
 ```
 
-Add the API key, API secret, and [Secure One Time Token(SOTT)](https://www.loginradius.com/docs/developer/concepts/sott/) to the.env file.
+Add the API key, API secret, and [Secure One Time Token(SOTT)](https://www.loginradius.com/developers/) to the.env file.
 
 ```
 APP_NAME=<your app name>
@@ -459,4 +459,4 @@ In this tutorial, you have learned how to implement NestJS authentication using 
 
 You can [find the source code used in this tutorial on Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NestJS/nestjs-authentication-loginradius-api).
 
-Learn more about the [LoginRadius Authentication API](https://www.loginradius.com/docs/developer/references/api/authentication/) from the documentation files. It has more identity management features than discussed in this tutorial. You can use these features to further enhance authentication as you need in your NestJS projects.
+Learn more about the [LoginRadius Authentication API](https://www.loginradius.com/developers/) from the documentation files. It has more identity management features than discussed in this tutorial. You can use these features to further enhance authentication as you need in your NestJS projects.

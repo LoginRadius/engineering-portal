@@ -27,7 +27,7 @@ LoginRadius can integrate with hundreds of third-party tools. We can easily conn
 
 Enterprises can quickly set up third-party integrations like Webhook to ensure they receive consumer-behavior-related notifications in real-time. 
 
-Once you [configure the webhook](https://www.loginradius.com/docs/developer/guide/webhook/) with an event, LoginRadius triggers that webhook every time for that event. For example, a webhook subscribed URL configured for a Login event will receive a POST request on your server with a payload. 
+Once you [configure the webhook](https://www.loginradius.com/developers/) with an event, LoginRadius triggers that webhook every time for that event. For example, a webhook subscribed URL configured for a Login event will receive a POST request on your server with a payload. 
 
 
 ## Webhook Security 

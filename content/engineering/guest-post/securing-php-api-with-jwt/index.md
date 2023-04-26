@@ -267,9 +267,9 @@ This code will provide all the necessary parameters to the decode function and s
 
 ## LoginRadius Authentication for PHP Apps
 
-Instead of using the process discussed above, you can use [LoginRadius Identity Platform](https://accounts.loginradius.com/auth.aspx?plan=developer) to authenticate your PHP APIs quickly. You can start by referring to [LoginRadius PHP documentation](https://www.loginradius.com/docs/developer/tutorial/php/).
+Instead of using the process discussed above, you can use [LoginRadius Identity Platform](https://accounts.loginradius.com/auth.aspx?plan=developer) to authenticate your PHP APIs quickly. You can start by referring to [LoginRadius PHP documentation](https://www.loginradius.com/developers/).
 
-In addition, you can use [LoginRadius PHP SDK](https://www.loginradius.com/docs/developer/references/sdk/php-sdk/) to add social single sign-on (SSO), which, in turn, simplifies signup and login for your users by eliminating the need for remembering an extra set of credentials for your app.
+In addition, you can use [LoginRadius PHP SDK](https://www.loginradius.com/developers/), which, in turn, simplifies signup and login for your users by eliminating the need for remembering an extra set of credentials for your app.
 
 ## Conclusion
 

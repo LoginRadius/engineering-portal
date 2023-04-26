@@ -43,7 +43,7 @@ Click on your app, and you will see a page like this:
 
 ![LoginRadius app](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849852750_Screenshot+36.png)
 
-There is one more thing LoginRadius automatically creates for you: an [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx). This is a ready-to-use web page where features -- like Email and Password login, User registration, Forgot password, and Remember me -- have already been implemented. We will utilize this web page for registration and authentication requirements in our Django application. [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx) reflects the configuration changes that you can make in LoginRadius Dashboard. There is also room for customization, you can read more about that here: [Auth Page (IDX) customization](https://www.loginradius.com/docs/developer/guide/customize-auth-page).
+There is one more thing LoginRadius automatically creates for you: an [Auth Page (IDX)](https://www.loginradius.com/developers/).
 
 At this point, you know what LoginRadius is, its benefits, and how to get started with LoginRadius. Let’s see how to integrate LoginRadius with a Django application.
 
@@ -154,7 +154,7 @@ urlpatterns = [
 
 ## User Registration and Authentication
 
-Remember, we said that there is a webpage LoginRadius automatically created for you: an [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx), which already has registration and authentication implemented. You will utilize this web page to meet your registration and authentication needs.
+Remember, we said that there is a webpage LoginRadius automatically created for you: an [Auth Page (IDX)](https://www.loginradius.com/developers/), which already has registration and authentication implemented. You will utilize this web page to meet your registration and authentication needs.
 How would you do that?
 
 You can access your registration and login page with the following URLs.
@@ -366,7 +366,7 @@ Open the `index.html` file and add the following HTML
  </html>
 ```
 
-We used an `onclick` event on both the register and login buttons, which when clicked changes the window's location to the [Auth Page (IDX)](https://www.loginradius.com/docs/developer/concepts/idx) register and login page respectively.
+We used an `onclick` event on both the register and login buttons, which when clicked changes the window's location to the [Auth Page (IDX)](https://www.loginradius.com/developers/) register and login page respectively.
 
 **NOTE:** Don’t forget to replace the {APP_NAME} placeholder with your LoginRadius app name.
 

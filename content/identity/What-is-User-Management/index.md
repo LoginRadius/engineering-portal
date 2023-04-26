@@ -114,7 +114,7 @@ These solutions support a wide range of authentication methods, including [socia
 
 ## Why Should Businesses Use LoginRadius’ Effective User Management? 
 
-LoginRadius’ user management system is a highly efficient and secure piece of software that enables organizations to manage customers without hassle. A flexible **[set up of dashboard](https://www.loginradius.com/docs/developer/howto/dashboard-setup/)** of your entire customer database allows team members to browse through and view individual profiles as well, where you can perform manual actions on behalf of your customers.
+LoginRadius’ user management system is a highly efficient and secure piece of software that enables organizations to manage customers without hassle. A flexible **[set up of dashboard](https://www.loginradius.com/developers/)** of your entire customer database allows team members to browse through and view individual profiles as well, where you can perform manual actions on behalf of your customers.
 
 What sets LoginRadius’ user management apart from the others is the ability to manage user profiles from one central database that hosts a range of tools for admins. All the data pertaining to a user, including their profile information, preferences, purchase history and interactions with your brand, is made available in a single location.
 

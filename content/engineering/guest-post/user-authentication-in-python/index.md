@@ -272,4 +272,4 @@ def logout():
 
 This article taught us about user authentication, user identity management, and implementing it correctly. In addition, we saw how easy it is to integrate LoginRadius services into a Python application to ease the implementation of authentication and user identity management.
 
-The source code of the demo application is available as a [GitHub gist](https://gist.github.com/LordGhostX/01e9330dc4533a992a481fcd58fdd115). You can learn more about the LoginRadius Python SDK features from the [official documentation](https://www.loginradius.com/docs/developer/references/sdk/python/).
+The source code of the demo application is available as a [GitHub gist](https://gist.github.com/LordGhostX/01e9330dc4533a992a481fcd58fdd115). You can learn more about the LoginRadius Python SDK features from the [official documentation](https://www.loginradius.com/developers/).
