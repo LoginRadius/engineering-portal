@@ -3,7 +3,7 @@ title: Twitter authentication with Go Language and Goth
 date: "2020-06-15"
 coverImage: "cover.jpg"
 author: "Ashish Sharma"
-tags: ["Go","SocialLogin","OAuth"]
+tags: ["Go","SocialLogin","Oauth"]
 ---
 
 

@@ -3,7 +3,7 @@ title: Google OAuth2 Authentication in Golang
 date: "2020-06-11"
 coverImage: "google_golang.png"
 author: "Puneet Singh"
-tags: ["Go","SocialLogin","OAuth"]
+tags: ["Go","SocialLogin","Oauth"]
 description: "Learn how to implement Google OAuth2 Authentication in Golang using Goath"
 ---
 

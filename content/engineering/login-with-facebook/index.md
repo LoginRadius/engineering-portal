@@ -3,7 +3,7 @@ title: "How to implement Facebook Login"
 date: "2020-09-16"
 coverImage: "index.png"
 author: "Vijay Singh Shekhawat"
-tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "OAuth"]
+tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "Oauth"]
 description: "This article will explain about social login benefits and how we can implement Sign In using Facebook on our website or mobile app."
 ---
 

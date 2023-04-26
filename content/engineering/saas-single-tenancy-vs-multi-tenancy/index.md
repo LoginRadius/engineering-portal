@@ -3,7 +3,7 @@ title: "Single-Tenant vs. Multi-Tenant: SaaS Architecture"
 date: "2021-12-01"
 coverImage: "coverImage.png"
 author: "Deepak Gupta"
-tags: ["SaaS", "Architecture"]
+tags: ["saas", "Architecture"]
 description: "This article comprehensively compares SaaS-based multi-tenant and single-tenant cloud architectures along with their benefits and drawbacks. The comprehension also points out which one to choose based on the organization’s requirements and scenario."
 ---
 

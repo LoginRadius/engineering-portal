@@ -3,7 +3,7 @@ title: "IAM, CIAM, and IDaaS - know the difference and terms used for them"
 date: "2020-07-24"
 coverImage: "triplets.jpg"
 author: "Archna Yadav"
-tags: ["IAM","CIAM","IDaaS","Identity"]
+tags: ["iam","ciam","idaas","identity"]
 description: "Over time, organizations are using many terminologies for IAM, CIAM, and IDaaS platforms. This article clarifies the use of these terms, key features, and common use cases of IAM, CIAM, and IDaaS platforms."
 ---
 
