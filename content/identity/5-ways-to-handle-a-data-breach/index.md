@@ -48,7 +48,7 @@ Depending on the nature of the attack, you must begin with system isolation that
 
 Moreover, it’s critical that you disconnect breached accounts and, if possible, shut down the targeted departments until you can analyze the situation and take stringent measures to avoid further damage. 
 
-Also, having a robust security infrastructure with [multiple layers of security](https://www.loginradius.com/docs/developer/guide/mfa/) can quickly help you locate the attack, which can be isolated efficiently. 
+Also, having a robust security infrastructure with [multiple layers of security](https://www.loginradius.com/developers/) can quickly help you locate the attack, which can be isolated efficiently. 
 
 Once you’re done with isolation, reformatting the affected areas and performing a restore is recommended once you blacklist the IP address that the attacker used to perform the breach. 
 

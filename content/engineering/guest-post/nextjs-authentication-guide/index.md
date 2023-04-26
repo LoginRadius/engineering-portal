@@ -154,7 +154,7 @@ You should [create an account](https://accounts.loginradius.com/auth.aspx?return
 
 ### Get Account Credentials
 
-Now that you have an account, you should [get the credentials](https://www.loginradius.com/docs/developer/faq/#how-to-retrieve-api-key-and-secret) for your `appName` and `apiKey` from the dashboard. You'll need them later to use the React SDK.
+Now that you have an account, you should [get the credentials](https://www.loginradius.com/developers/) for your `appName` and `apiKey` from the dashboard. You'll need them later to use the React SDK.
 
 ### Start a New Next.js Application
 
@@ -218,7 +218,7 @@ export default MyApp
 
 The above code snippet imports the `LRAuthProvider` component from `loginradius-react`. It passes the `appName` and `apiKey` taken from the LoginRadius account dashboard earlier to `LRAuthProvider`. It also sets the `redirectUri` to `http://localhost:3000/`.
 
-The `redirectUri` is the callback URL where you want to redirect users after being authenticated. You should [whitelist the `redirect_uri` in your LoginRadius account dashboard](https://www.loginradius.com/docs/developer/faq/#how-to-whitelist-domain-in-loginradius-dashboard). Localhost URLs are whitelisted by default.
+The `redirectUri` is the callback URL where you want to redirect users after being authenticated. You should [whitelist the `redirect_uri` in your LoginRadius account dashboard](https://www.loginradius.com/developers/). Localhost URLs are whitelisted by default.
 
 Now that you've integrated the SDK, let’s add the authentication functionality.
 

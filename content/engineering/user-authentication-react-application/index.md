@@ -24,8 +24,8 @@ In the React application, we can [easily and quickly](/react-context-api/) add a
 
 A new application was created for you when you [signed up](https://accounts.loginradius.com/auth.aspx?action=register&return_url=https://dashboard.loginradius.com/login) for LoginRadius. From here, you get some essential information.
 
-1. API Key  [How to get API Key?](https://www.loginradius.com/docs/developer/faq/api-credentials/)
-2. Sott  [Work with Sott](https://www.loginradius.com/docs/developer/howto/work-with-sott/)
+1. API Key  [How to get API Key?](https://www.loginradius.com/developers/)
+2. Sott  [Work with Sott](https://www.loginradius.com/developers/)
 
 ## Add following LoginRadius JS library into your application
 
@@ -160,6 +160,6 @@ In the above code, You will get a success/error response after calling the regis
 
 ## Wrap up
 
-The most common authentication use case for a React application gets covered in this tutorial: quick login and logout. However, LoginRadius is an expandable and versatile platform that can help you accomplish much more. In this guide, We have used the LoginRadius API Framework. If you want to incorporate our hosted page into your application, follow this [documentation](https://www.loginradius.com/docs/developer/howto/authentication-theme/).
+The most common authentication use case for a React application gets covered in this tutorial: quick login and logout. However, LoginRadius is an expandable and versatile platform that can help you accomplish much more. In this guide, We have used the LoginRadius API Framework. If you want to incorporate our hosted page into your application, follow this [documentation](https://www.loginradius.com/developers/).
 
 Let me know what you think of this tutorial in the comments below. Thanks for reading :)

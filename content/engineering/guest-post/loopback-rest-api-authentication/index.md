@@ -565,7 +565,7 @@ Loginradius includes a plethora of enticing CIAM features such as passwordless a
 
 Implementing user authentication with LoginRadius is a simple procedure. First, sign up for a Developer Pro trial or simply [sign up for a forever free account here](https://accounts.loginradius.com/auth.aspx?action=register).
 
-And you can explore what LoginRadius can do by using it for a Node.js application. You can learn more by going through [LoginRadius Node.js developer documentation](https://www.loginradius.com/docs/developer/tutorial/node-js/ "Node.js documentation for implementing LoginRadius")
+And you can explore what LoginRadius can do by using it for a Node.js application. You can learn more by going through [LoginRadius Node.js developer documentation](https://www.loginradius.com/developers/)
 
 ## Conclusion
 

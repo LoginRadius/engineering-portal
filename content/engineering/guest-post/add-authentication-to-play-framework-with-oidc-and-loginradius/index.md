@@ -394,7 +394,7 @@ Upgrade your application subscription to the `Developer Pro` Plan to configure O
 ![loginradius-upgrade-subscription-2.png](loginradius-upgrade-subscription-2.png)
 
 
-Now click on `Select & Configure` on your application and navigate to the `Integration` Section and Configure `Open ID` configuration. You can find step-by-step details to [configure OIDC](https://www.loginradius.com/docs/developer/guide/oidc/) here.
+Now click on `Select & Configure` on your application and navigate to the `Integration` Section and Configure `Open ID` configuration. You can find step-by-step details to [configure OIDC](https://www.loginradius.com/developers/) here.
 
 Once you configure these `conf/application.conf` will look something like this.
 

@@ -29,7 +29,7 @@ Adding SSO to your existing web properties can be a challenge. LoginRadius WordP
  
 With minimal time and effort, you can add SSO to your existing sites leveraging LoginRadius WordPress Plugin and gain access to login data via our dashboard. This will help you to boost conversion and also reduce the time to onboard consumers. 
  
-We have detailed [documentation](https://www.loginradius.com/docs/developer/plugin/wordpress/) on How to setup Login, Authentication and SSO for your WordPress site. You can also find this plugin on the [wordpress marketplace](https://wordpress.org/plugins/loginradius-customer-identity-and-access-management/).
+We have detailed [documentation](https://www.loginradius.com/developers/).
  
 ### It's Here to Help Developers
 LoginRadius aims to help developers, web development agencies, and businesses to add SSO in the simplest way possible. 

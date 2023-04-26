@@ -20,7 +20,7 @@ The answer is to utilize a **CIAM** (Consumer Identity and Access Management) th
 
 ## How to Implement These Features
 
-You are required to create an account with the CIAM provider, enable BigCommerce Integration, and do needed configurations in both BigCommerce and CIAM Provider. For more details, refer to this guide [here](https://www.loginradius.com/docs/developer/guide/big-commerce/).
+You are required to create an account with the CIAM provider, enable BigCommerce Integration, and do needed configurations in both BigCommerce and CIAM Provider. For more details, refer to this guide [here](https://www.loginradius.com/developers/).
 This guide also explains the modifications required in your Stencil or Blueprint themes of BigCommerce. As a result of this implementation, you can enable the desired authentication method(s) for customers of your BigCommerce Application. Consequently, making the eCommerce experience smoother for your customers.
 
 Both customer and business will see several benefits (described below) from using CIAM solutions for features such as SSO, Phone Login, Prefilled Customer Information, and Analytics.

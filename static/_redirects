@@ -250,7 +250,7 @@
 /identity/benefits-of-2fa/	/blog/identity/benefits-of-mfa/	301
 /identity/customer-experience-retail-industry/	/blog/growth/customer-experience-retail-industry/	301
 /identity/etc-connect-loginradius-customer-success-story/	/blog/identity/etc-loginradius-customer-success-story/	301
-/identity/OAuth2.0-guide/	/blog/engineering/oauth2/	301
+/identity/OAuth2.0-guide/	/blog/identity/oauth2-0-guide/	301
 /identity/sase-zero-trust/loginradius.com/resource/zero-trust-security/	/blog/identity/sase-zero-trust/	301
 /identity/what-is-passwordless-login/index/	/blog/identity/what-is-passwordless-login/	301
 /identity/What-is-User-Management/	/blog/identity/what-is-user-management/	301
@@ -354,7 +354,7 @@
 /start-with-identity/Maintaining-Quality-Data-Security-Practices/	/blog/identity/maintaining-quality-data-security-practices/	301
 /start-with-identity/Multi-Factor-Authentication-A-Beginners-Guide/	/blog/identity/multi-factor-authentication-a-beginners-guide/	301
 /start-with-identity/OAuth-authentication-vulnerabilities/	/blog/identity/oauth-authentication-vulnerabilities/	301
-/start-with-identity/OAuth2.0-guide/	/blog/identity/OAuth2.0-guide/	301
+/start-with-identity/OAuth2.0-guide/	/blog/identity/oauth2-0-guide/	301
 /start-with-identity/page/guest-blog/	/blog/	301
 /start-with-identity/Put-Yourself-In-Control-of-Your-Data-by-Leveraging-LoginRadius-SSO/	/blog/identity/put-yourself-in-control-of-your-data-by-leveraging-loginradius-sso/	301
 /start-with-identity/rss.xml/	/blog/rss.xml/	301

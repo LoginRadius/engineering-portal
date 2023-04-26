@@ -42,7 +42,7 @@ You'll get a page requesting you to create a new application. Click on "create a
 ![Naming App](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245515754_Screenshot+97.png)
 
 ### Auth Page (IDX)
-LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with your react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/docs/developer/guide/customize-auth-page)
+LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with your react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/developers/)
 
 ![A preview of my Auth page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245718848_Screenshot+100.png)
 
