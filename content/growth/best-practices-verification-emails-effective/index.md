@@ -23,7 +23,7 @@ The blog will highlight the role of such emails and offer ideas on how to make t
 
 Verification email, also referred to as validation email, is a way to verify a user action, like authentication or registration on the website or app. Such an email relates to the message that the business party sends to the customer's inbox.
 
-In terms of the [CIAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) concept, it ensures the ground for building relationships and establishing multi-factor authentication, passwordless login, and profiling. At the same time, validation emails add to the marketing efforts, opening the door for email marketers to the customer's inbox. From there, they would invite stakeholders to different stages of the sales funnel.
+In terms of the [CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) concept, it ensures the ground for building relationships and establishing multi-factor authentication, passwordless login, and profiling. At the same time, validation emails add to the marketing efforts, opening the door for email marketers to the customer's inbox. From there, they would invite stakeholders to different stages of the sales funnel.
 
 As a result, the verification email can impact: 
 

@@ -14,7 +14,7 @@ With the rising number of cyber threats, effective data encryption becomes cruci
 
 One of the essential methods to secure communication and mitigate data breaches is utilizing public key infrastructure (PKI). 
 
-PKI is a common term used to describe everything used to manage and establish public-key encryption, which is fast becoming the [best way to secure internet encryption](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/). 
+PKI is a common term used to describe everything used to manage and establish public-key encryption, which is fast becoming the [best way to secure internet encryption](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/). 
 
 With PKI, one can ensure that data is adequately encrypted during the transit, ensuring only the authorized user can access the data.
 
@@ -105,7 +105,7 @@ No matter where they’re storing or transferring data, they can always stay com
 
 Since the number of data breaches is surging day by day and consumer data is continuously at risk, businesses need to adopt the next level of secure infrastructure that not only offers regulatory compliance but eventually safeguards sensitive business and consumer data. 
 
-PKI is a game-changer when it comes to managing secure access between devices and users without any hassle. Businesses can add [another stringent layer of security](https://www.loginradius.com/blog/start-with-identity/multi-factor-authentication-a-beginners-guide/) to their business process by implementing public key infrastructure. 
+PKI is a game-changer when it comes to managing secure access between devices and users without any hassle. Businesses can add [another stringent layer of security](https://www.loginradius.com/blog/identity/multi-factor-authentication-a-beginners-guide/) to their business process by implementing public key infrastructure. 
 
 
 

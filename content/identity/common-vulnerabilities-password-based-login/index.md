@@ -31,7 +31,7 @@ Some of the most common security issues in password-based login include:
 
 ### 1. Brute Force Attack
 
-A [brute force attack](https://www.loginradius.com/blog/start-with-identity/brute-force-lockout/) is a method of hacking that uses trial and error to crack passwords (e.g., login credentials and encryption keys) by attempting a large amount of combinations for them. It is a simple yet reliable tactic that is often used when the attacker has only a limited amount of information about its target, such as a username or when they know the general structure of the password, but not its specific content.
+A [brute force attack](https://www.loginradius.com/blog/identity/brute-force-lockout/) is a method of hacking that uses trial and error to crack passwords (e.g., login credentials and encryption keys) by attempting a large amount of combinations for them. It is a simple yet reliable tactic that is often used when the attacker has only a limited amount of information about its target, such as a username or when they know the general structure of the password, but not its specific content.
 
 **Consequences of brute force attacks**
 
@@ -54,7 +54,7 @@ A [brute force attack](https://www.loginradius.com/blog/start-with-identity/brut
 
 ### 2. Phishing Attacks 
 
-A [phishing attack](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) is a common type of cyber attack, where the hackers send fraudulent communications through email that appears to come from a reputable source. Using this method, hackers try to steal sensitive data like credit cards and login information. Sometimes hackers do this to install malware on the victim’s device and obtain employee login information or other details for an attack against a specific company. 
+A [phishing attack](https://www.loginradius.com/blog/identity/phishing-for-identity/) is a common type of cyber attack, where the hackers send fraudulent communications through email that appears to come from a reputable source. Using this method, hackers try to steal sensitive data like credit cards and login information. Sometimes hackers do this to install malware on the victim’s device and obtain employee login information or other details for an attack against a specific company. 
 
 **Types of phishing attacks**
 
@@ -76,7 +76,7 @@ A [phishing attack](https://www.loginradius.com/blog/start-with-identity/phishin
 
 ### 3. Credential Stuffing 
 
-[Credential stuffing ](https://www.loginradius.com/blog/start-with-identity/prevent-credential-stuffing-attacks/)is a type of cyber attack in which attackers use credentials obtained through a data breach on one service to log in to another unrelated service.
+[Credential stuffing ](https://www.loginradius.com/blog/identity/prevent-credential-stuffing-attacks/)is a type of cyber attack in which attackers use credentials obtained through a data breach on one service to log in to another unrelated service.
 
 If an attacker has a list of usernames and passwords obtained from a breach of a popular department store, he uses the same login credentials to try and log in to the site of a national bank. The attacker knows that some customers of that department store are the customers of that particular bank too. They can withdraw money if any customers use the same usernames and passwords for both services. But these attacks are known to have a low success rate.
 
@@ -95,7 +95,7 @@ If an attacker has a list of usernames and passwords obtained from a breach of a
 
 ### 4. Dictionary Attack
 
-A [dictionary attack ](https://www.loginradius.com/blog/start-with-identity/password-spraying/)is a type of brute-force attack in which the hacker attempts to break the encryption or gain access by spraying a library of terms or other values. This library of terms includes words in a dictionary or number sequences. Poor password habits such as updating the passwords with sequential numbers, symbols, or letters make dictionary attacks easier.
+A [dictionary attack ](https://www.loginradius.com/blog/identity/password-spraying/)is a type of brute-force attack in which the hacker attempts to break the encryption or gain access by spraying a library of terms or other values. This library of terms includes words in a dictionary or number sequences. Poor password habits such as updating the passwords with sequential numbers, symbols, or letters make dictionary attacks easier.
 
 **Common dictionary attack vulnerabilities**
 

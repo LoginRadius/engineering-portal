@@ -138,7 +138,7 @@ Image source: [Canva](https://www.canva.com/login)
 
 
 1. It has a large form field for easy input.
-2. It has ONLY 2 form fields for a [faster signup process](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/).
+2. It has ONLY 2 form fields for a [faster signup process](/blog/growth/sign-up-tips-conversion-rate/).
 3. It offers an easy one-click signup process with either your Facebook, Google, or Apple account.
 
 
@@ -177,7 +177,7 @@ Well, no surprise there!
 
 Image source: [LoginRadius](https://accounts.loginradius.com/auth.aspx?plan=developer)
 
-But should you be using them for your own business? Read on the following [advantages of social login](https://www.loginradius.com/blog/start-with-identity/2021/02/social-login-infographic/) to decide whether you should consider them an alternative to the traditional registration process. 
+But should you be using them for your own business? Read on the following [advantages of social login](https://www.loginradius.com/blog/identity/2021/02/social-login-infographic/) to decide whether you should consider them an alternative to the traditional registration process. 
 
 
 

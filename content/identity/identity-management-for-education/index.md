@@ -92,7 +92,7 @@ Speaking of which, while the victim of [credential cracking](https://www.loginra
 
 ### Phishing
 
-Phishing is a malware attack that tricks victims into revealing their valuable and often sensitive data. Also referred to as a "[phishing scam](https://www.loginradius.com/blog/2018/02/phishing-for-identity/)," attackers target login credentials of users, financial data (such as credit cards and bank account details), business data, and everything that could be of high value to hackers. 
+Phishing is a malware attack that tricks victims into revealing their valuable and often sensitive data. Also referred to as a "[phishing scam](https://www.loginradius.com/blog/phishing-for-identity/)," attackers target login credentials of users, financial data (such as credit cards and bank account details), business data, and everything that could be of high value to hackers. 
 
 Premium educational institutions have forever been at the risk of phishing attacks, primarily because of their high-value sensitive research data, student-critical data, faculty, or alumni data.
 

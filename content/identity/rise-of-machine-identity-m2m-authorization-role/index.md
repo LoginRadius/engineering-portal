@@ -19,7 +19,7 @@ What’s more worrisome is that cybercriminals are always on the hunt to exploit
 
 Hence, it’s no longer enough to reassure or assume services/devices accessing sensitive data can be trusted since a breach or sneak into the network in real-time processing can go undetected for months or even years, causing losses worth millions of dollars. 
 
-Here’s where the critical role of [machine-to-machine (M2M) authorization](https://www.loginradius.com/blog/start-with-identity/loginradius-m2m-authorization-data-access/) comes into play. 
+Here’s where the critical role of [machine-to-machine (M2M) authorization](https://www.loginradius.com/blog/identity/loginradius-m2m-authorization-data-access/) comes into play. 
 
 Let’s understand how M2M authentication works and paves the path for the secure machine to machine and machine to application interactions without human interventions. 
 
@@ -36,7 +36,7 @@ However, adding stringent layers of security isn’t a piece of cake at such a m
 
 Hence, these systems need to efficiently and securely share this data during transit to the suitable systems and issue operational instructions without room for tampering.
 
-A robust machine-to-machine (M2M) communication mechanism can be a game-changer concerning the ever-increasing [security risks and challenges](https://www.loginradius.com/blog/start-with-identity/cloud-computing-security-challenges/). 
+A robust machine-to-machine (M2M) communication mechanism can be a game-changer concerning the ever-increasing [security risks and challenges](https://www.loginradius.com/blog/identity/cloud-computing-security-challenges/). 
 
 
 ## What is Machine-to-Machine Authorization? 
@@ -61,7 +61,7 @@ IT leaders and information security professionals can’t keep an eye on things 
 
 Apart from this, businesses also need to focus on improving the overall user experience since adding stringent [layers of security](https://www.loginradius.com/multi-factor-authentication/) eventually hampers user experience. 
 
-Here’s where a reliable CIAM ([consumer identity and access management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.)) solution like LoginRadius comes into play. 
+Here’s where a reliable CIAM ([consumer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.)) solution like LoginRadius comes into play. 
 
 
 ## How LoginRadius’ Cutting-Edge CIAM Offers Seamless M2M Authorization? 
@@ -81,7 +81,7 @@ LoginRadius’ M2M Authorization offers secure access to improve business effici
 
 ## Final Thoughts 
 
-With the rise of smart devices, the rising threat of machine [identity theft](https://www.loginradius.com/blog/start-with-identity/identity-theft-frauds/) is increasing among developers and vendors offering these services. 
+With the rise of smart devices, the rising threat of machine [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) is increasing among developers and vendors offering these services. 
 
 Organizations need to understand the complexity of the situation and put their best efforts into incorporating a smart security mechanism that can carry out machine-to-machine authorization tasks like a breeze. 
 

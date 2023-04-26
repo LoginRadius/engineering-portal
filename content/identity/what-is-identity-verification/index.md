@@ -50,7 +50,7 @@ In a nutshell, it's a process that validates a person's identifying characterist
 
 Since technology has helped us perform complex tasks like a breeze, the associated cybersecurity threats can’t be overlooked. 
 
-Every year, millions of people compromise their identities since cybercriminals are always on a hunt for frail networks that can be easily bypassed. This means weak authentication or a loophole in the overall [identity management system](https://www.loginradius.com/blog/start-with-identity/what-is-iam/) can be fatal for an organization. 
+Every year, millions of people compromise their identities since cybercriminals are always on a hunt for frail networks that can be easily bypassed. This means weak authentication or a loophole in the overall [identity management system](https://www.loginradius.com/blog/identity/what-is-iam/) can be fatal for an organization. 
 
 Hackers are able to impersonate users within a network and gain access to sensitive business information, which is further exploited for diverse purposes. 
 
@@ -92,7 +92,7 @@ Customers can quickly verify their identity either through their social media ac
 
 ## How does the Identity Verification Process Work?
 
-The identity verification process through the identity and access management system works by performing three main tasks viz. identification, [authentication, and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/).
+The identity verification process through the identity and access management system works by performing three main tasks viz. identification, [authentication, and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/).
 
 In other words, a CIAM solution functions to provide the right people access to devices, hardware, software applications, or any IT tool to perform a specific task.
 

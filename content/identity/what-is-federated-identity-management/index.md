@@ -26,7 +26,7 @@ Fortunately, _Federated Identity Management_ (FIM) has got the right answer to i
 
 ## Understanding  Federated Identity Management
 
-Federated identity management is an arrangement that can be brought into effect between two or more trusted domains to enable users to access applications and services using the same [digital identity](https://www.loginradius.com/blog/start-with-identity/2019/10/digital-identity-management/). FIM ensures both seamless and secure access that goes a long way in enhancing the overall user-experience. 
+Federated identity management is an arrangement that can be brought into effect between two or more trusted domains to enable users to access applications and services using the same [digital identity](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/). FIM ensures both seamless and secure access that goes a long way in enhancing the overall user-experience. 
 
 To have a fair perspective, we will have to take an in-depth look at the whole scenario. 
 
@@ -72,7 +72,7 @@ Though FIM has several advantages, we are going to highlight the most pivotal on
 
 
 *   **Reduces administrative overhead:** Another significant advantage of FIM is the ability to reduce administrative overhead. Thus, the administrator remains away from the complexity of creating multiple accounts and spending hours managing different ‘username’ and ‘password’ combinations.
-*   **Single sign-on:** With Federated Identity, businesses can implement [single sign-on](https://www.loginradius.com/blog/start-with-identity/2019/05/what-is-single-sign-on/) using existing Active Directory credentials. This means consumers need not create new accounts for each service provider or remember multiple usernames and passwords. 
+*   **Single sign-on:** With Federated Identity, businesses can implement [single sign-on](https://www.loginradius.com/blog/identity/2019/05/what-is-single-sign-on/) using existing Active Directory credentials. This means consumers need not create new accounts for each service provider or remember multiple usernames and passwords. 
 *   **Minimizes security risks**: You can keep the authentication process within your on-premises Active Directory using Federated Identity. You do not even need to synchronize password hashes on the cloud, as they are stored on-premises, behind your firewall. 
 *   **Increases organizational productivity**: Due to the lack of multiple logins, there will be lesser helpdesk calls for password resets. This saves a lot of time and efficiency, which leads to a potential increase in administrative overhead. 
 
@@ -81,7 +81,7 @@ Though FIM has several advantages, we are going to highlight the most pivotal on
 
 ## Why Businesses Should Consider Implementing Federated Identity
 
-Businesses should implement FIM due to its versatility. It lets users access data with utmost ease while still offering a top-notch [safeguard against data breaches](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/).
+Businesses should implement FIM due to its versatility. It lets users access data with utmost ease while still offering a top-notch [safeguard against data breaches](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/).
 
 Apart from boosting the user experience, it also takes control of administrative overhead. Add to that the lucrative cost-effective measure. 
 
@@ -100,7 +100,7 @@ The key capabilities of federated identity management by LoginRadius include:
 
 
 *   LoginRadius supports industry-standard SSO protocols like SAML, JWT, OAuth 2.0, OpenID Connect, and Web Services Federation.
-*   The [CIAM](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) platform offers a simple dashboard to manage all configurations required for these protocols. 
+*   The [CIAM](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) platform offers a simple dashboard to manage all configurations required for these protocols. 
 *   LoginRadius covers end-to-end API support for the SSO protocols. This makes integration and implementation relatively easy to execute. 
 *   LoginRadius acts as an IdP that stores and authenticates the identities consumers use to log in to systems. 
 
@@ -110,6 +110,6 @@ The key capabilities of federated identity management by LoginRadius include:
 
 Federated identity management is increasingly becoming a must-have for more than one reason. Enterprises have realized that the huge spending on an advertisement, boosting traffic, and the endless campaign counts for nothing if the core customers aren't pleased. 
 
-FIM enhances the overall user experience of a customer by bringing into effect the much-required ease of use and intuitive experience, which makes it a real business enabler. Putting [security threats](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/) like hacking and sensational data theft at a fair distance goes a long way in assisting an organization win the coveted trust.
+FIM enhances the overall user experience of a customer by bringing into effect the much-required ease of use and intuitive experience, which makes it a real business enabler. Putting [security threats](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) like hacking and sensational data theft at a fair distance goes a long way in assisting an organization win the coveted trust.
 
 FIM is all set to go mainstream for being a relatively young technology, which speaks volumes of the rapid pace with which organizations are implementing it. 

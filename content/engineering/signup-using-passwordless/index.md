@@ -9,7 +9,7 @@ description: "How passwordless can be an excellent approach to reduce user drops
 
 Losing users on the signup page is wasting your marketing and growth budget because the signup page has a [strong password requirement](https://www.loginradius.com/blog/engineering/password-security-best-practices-compliance/) for ensuring security. If you remove complex password requirements, the user will use simple passwords that can be hacked easily. Balancing security and experience is the biggest challenge these days as People have a lot of options to try, and Hackers are ready if anything goes wrong.
 
-Passwordless is a way to solve this dilemma, remove passwords means remove complex password requirement and security concerns both. To learn more about how and Why of passwordless authentication, read this - ["Passwordless Authentication: Securing Digital Identity"](https://www.loginradius.com/blog/start-with-identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/).
+Passwordless is a way to solve this dilemma, remove passwords means remove complex password requirement and security concerns both. To learn more about how and Why of passwordless authentication, read this - ["Passwordless Authentication: Securing Digital Identity"](https://www.loginradius.com/blog/identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/).
 
 Let's talk about How passwordless can reduce the signup friction and how to make it more user friendly.
 

@@ -46,7 +46,7 @@ Sure enough, you won’t expect your brand image gets tarnished just because you
 
 There are many examples where industry leaders have to face losses worth millions due just because their clients’ data was exposed to unauthorized professionals.
 
-With a [consumer identity and access management (CIAM)](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) solution in place, a brand can be sure enough that their consumers’ data and privacy is secured.
+With a [consumer identity and access management (CIAM)](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) solution in place, a brand can be sure enough that their consumers’ data and privacy is secured.
 
 This not only helps in building trust over potential clients but eventually lends a hand in maintaining a brand image in the market.
 
@@ -65,7 +65,7 @@ Once you get a client sign-up for your services, the next big step is to gather 
 
 Since you can’t force your client or potential consumer to provide a lot of details in a single form, which always affects sign-up rates, you need a smart onboarding solution for the same.
 
-[Progressive profiling](https://www.loginradius.com/blog/start-with-identity/2019/02/presenting-progressive-profiling-loginradius/) in a CIAM solution through multi-step registration is proven to be a game-changer for businesses struggling with adequate traffic but no conversions.
+[Progressive profiling](https://www.loginradius.com/blog/identity/2019/02/presenting-progressive-profiling-loginradius/) in a CIAM solution through multi-step registration is proven to be a game-changer for businesses struggling with adequate traffic but no conversions.
 
 Progressive profiling for consumer registration and onboarding allows you to split a potentially complicated registration process into multiple easy steps. You can capture a client’s information upfront and then slowly build out a holistic view of that consumer through subsequent actions.
 

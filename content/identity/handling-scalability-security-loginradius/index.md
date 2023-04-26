@@ -57,7 +57,7 @@ To safeguard your clients’ identities and personal details, LoginRadius ensure
 
 Data security and privacy are ensured through a built-in web application firewall along with cryptographic hashing algorithms that further reinforce clients’ data security.
 
-Moreover, with industry-standard authentication methods and security features including [multi-factor authentication (MFA)](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/), risk-based authentication (RBA), and geo-fencing LoginRadius has woven a trust over clients.  
+Moreover, with industry-standard authentication methods and security features including [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/), risk-based authentication (RBA), and geo-fencing LoginRadius has woven a trust over clients.  
 
 **Innovative Technology Infrastructure**
 
@@ -77,7 +77,7 @@ A robust consumer IAM solution is the need of the hour for businesses delivering
 
 The solution must ensure adequate security for both the clients and enterprise data to avoid any chance of security threat without hampering the overall user experience.
 
-LoginRadius is the leading CIAM solution provider that not only empowers businesses to deliver a rich user experience but eventually offers a robust and highly secure infrastructure that ensures the utmost level of [data and privacy security](https://www.loginradius.com/blog/start-with-identity/2021/03/privacy-compliance/).
+LoginRadius is the leading CIAM solution provider that not only empowers businesses to deliver a rich user experience but eventually offers a robust and highly secure infrastructure that ensures the utmost level of [data and privacy security](https://www.loginradius.com/blog/identity/2021/03/privacy-compliance/).
 
 
 

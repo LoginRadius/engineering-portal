@@ -26,7 +26,7 @@ To begin with, it's essential to recognize how you want the consumers to connect
 
 Regardless, the aim of your site is to provide value to your visitors. Most brands use content strategies as part of their inbound marketing efforts to give value and to bring in new visitors to the site. 
 
-However, the key point here is that every consumer undergoes a conversion process, where they turn into a loyal consumer from a curious visitor. This journey differs from one company to another. Therefore, your first step towards attracting visitors should be to lay down the [ideal conversion route](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/) for your target audience.
+However, the key point here is that every consumer undergoes a conversion process, where they turn into a loyal consumer from a curious visitor. This journey differs from one company to another. Therefore, your first step towards attracting visitors should be to lay down the [ideal conversion route](/blog/growth/sign-up-tips-conversion-rate/) for your target audience.
 
 The route will go something like this:
 

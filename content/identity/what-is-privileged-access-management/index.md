@@ -38,7 +38,7 @@ These are the shared accounts that provide admin access to the local host or ses
 
 These are the users that are granted administrative privileges to systems. Privileged User Accounts are among the most common types of accounts that have access granted on an enterprise domain. These give administrative rights to one or more systems. 
 
-Generally, these accounts have [unique and complex passwords](https://www.loginradius.com/blog/start-with-identity/how-to-choose-a-secure-password/), but most of the time are protected by passwords alone. These are the types of accounts that should be monitored closely. And these are the accounts that sometimes do not belong to the individual user instead of that they are shared among the multiple admins.
+Generally, these accounts have [unique and complex passwords](https://www.loginradius.com/blog/identity/how-to-choose-a-secure-password/), but most of the time are protected by passwords alone. These are the types of accounts that should be monitored closely. And these are the accounts that sometimes do not belong to the individual user instead of that they are shared among the multiple admins.
 
 
 ### 3. Domain Admin Accounts
@@ -90,7 +90,7 @@ There are some common strategies that every organization that uses the PAM shoul
 
 ## What's the Difference Between Identity and Access Management (IAM) and Privileged Access Management?
 
-Privileged access management is always considered one of the parts of [identity and access management](https://www.loginradius.com/blog/start-with-identity/what-is-iam/) (IAM). However, identity and privilege are both interlinked with each other. 
+Privileged access management is always considered one of the parts of [identity and access management](https://www.loginradius.com/blog/identity/what-is-iam/) (IAM). However, identity and privilege are both interlinked with each other. 
 
 Identity management refers to the people like you, your boss, or the organization's IT management team are examples. These people are responsible for creating, updating, or even deleting attributes. The main reason for IAM is having one digital identity per user, and once this identity is established it must be maintained, modified, and monitored.
 

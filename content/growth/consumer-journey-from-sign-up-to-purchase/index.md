@@ -40,7 +40,7 @@ Here’s how we achieve this:
 -   Designing the Ideal Consumer Journey
     
 
-From the first [step of user onboarding](https://www.loginradius.com/blog/start-with-identity/user-onboarding-revamp-application/) to the thousandth login, create a process that is welcoming and intelligent to foster great consumer relationships.
+From the first [step of user onboarding](https://www.loginradius.com/blog/identity/user-onboarding-revamp-application/) to the thousandth login, create a process that is welcoming and intelligent to foster great consumer relationships.
 
 -   Localization-To Build Trust
     

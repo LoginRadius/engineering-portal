@@ -13,7 +13,7 @@ From virtual banking breaches to semi-open attacks, 2021 has been rough on IT se
 
 Remember [LinkedIn's Massive Data Breach](https://restoreprivacy.com/linkedin-data-leak-700-million-users/) earlier this year? On June 22, a user on a famous hacker site announced that nearly 700 million people’s data is up for sale. The hacker shared a sample of 1 million LinkedIn members' email addresses, full names, phone numbers, addresses and geolocations.
 
-With hackers banking on the COVID-19 pandemic, 2021 came with a whole new level of cybersecurity threats. [Data breaches like these](https://www.loginradius.com/blog/start-with-identity/cybersec-roundup-june-2021/) show the harsh reality of the world we live in. Seemingly, no one is immune. 
+With hackers banking on the COVID-19 pandemic, 2021 came with a whole new level of cybersecurity threats. [Data breaches like these](https://www.loginradius.com/blog/identity/cybersec-roundup-june-2021/) show the harsh reality of the world we live in. Seemingly, no one is immune. 
 
 Global cybercrime costs are expected to top $6 trillion by the end of 2021. By 2025, the figure will be [$10.5 trillion](https://cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/).
 

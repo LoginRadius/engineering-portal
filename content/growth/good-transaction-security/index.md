@@ -15,7 +15,7 @@ The <a rel="nofollow" href="https://www.statista.com/statistics/1175651/increase
 
   
 
-However, the modern generation relies on [eCommerce](https://www.loginradius.com/blog/start-with-identity/ecommerce-security/) marketplaces that are equipped with cutting-edge security mechanisms. Thanks to stringent layers of protection that guard every user against various cyber attacks.
+However, the modern generation relies on [eCommerce](https://www.loginradius.com/blog/identity/ecommerce-security/) marketplaces that are equipped with cutting-edge security mechanisms. Thanks to stringent layers of protection that guard every user against various cyber attacks.
 
   
 
@@ -39,7 +39,7 @@ We’ve witnessed the internet becoming the second home for every one of us when
 
   
 
-The sudden paradigm shift replaced malls and shopping complexes with eCommerce platforms and movie theatres with [OTT platforms](https://www.loginradius.com/blog/start-with-identity/ott-simplify-authentication/). This also increased the number of online transactions more than ever before.
+The sudden paradigm shift replaced malls and shopping complexes with eCommerce platforms and movie theatres with [OTT platforms](https://www.loginradius.com/blog/identity/ott-simplify-authentication/). This also increased the number of online transactions more than ever before.
 
   
 
@@ -59,7 +59,7 @@ The sudden increase in the number of transaction-related security breaches is un
 
   
 
-Here’s where a [robust CIAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (consumer identity and access management) solution can be a game-changer. Let’s understand the importance of a CIAM solution and why businesses should consider one.
+Here’s where a [robust CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (consumer identity and access management) solution can be a game-changer. Let’s understand the importance of a CIAM solution and why businesses should consider one.
 
 ## Creating a Perfect Balance Between Transaction Security and User Experience
 
@@ -101,7 +101,7 @@ Moreover, the best-in-class security that comes with the [LoginRadius Identity P
 
 ## How LoginRadius Paves the Path for Rich Consumer Experience Balanced with Security?
 
-LoginRadius is the leading CIAM solution provider that helps brands secure their identities and online transactions through innovative solutions that improve user experience without compromising security. Let’s learn about the features of [LoginRadius CIAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) for securing online transactions:
+LoginRadius is the leading CIAM solution provider that helps brands secure their identities and online transactions through innovative solutions that improve user experience without compromising security. Let’s learn about the features of [LoginRadius CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) for securing online transactions:
 
 ## Platform Security
 
@@ -109,7 +109,7 @@ LoginRadius offers endless solutions that enhance the overall security of your p
 
   
 
-To safeguard your clients’ navigation and transactions on your platform, LoginRadius ensures you comply with all the necessary data privacy and security regulations, including EU’s [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/ccpa-vs-gdpr-the-compliance-war/).
+To safeguard your clients’ navigation and transactions on your platform, LoginRadius ensures you comply with all the necessary data privacy and security regulations, including EU’s [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/).
 
   
 
@@ -119,7 +119,7 @@ Data security and privacy are ensured through a built-in web application firewal
 
 ## Risk-Based Authentication (RBA)
 
-[Risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) or Adaptive MFA is a method that LoginRadius uses to apply the right level of authentication security depending on the risk profile of the actions currently being attempted by the consumer.
+[Risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) or Adaptive MFA is a method that LoginRadius uses to apply the right level of authentication security depending on the risk profile of the actions currently being attempted by the consumer.
 
   
 

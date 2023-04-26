@@ -14,7 +14,7 @@ In this age of social media marketing, are you among those who believe email mar
 
   
 
-Here are some latest statistics: 87% of B2B marketing teams still use email to boost their customer reach, while 79% of B2C marketing teams use email to share new blogs and articles. Overall, the **[new user signups](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/)** and ROI on email marketing to attract consumers is good at $44 revenue for every $1 spent in expenses.
+Here are some latest statistics: 87% of B2B marketing teams still use email to boost their customer reach, while 79% of B2C marketing teams use email to share new blogs and articles. Overall, the **[new user signups](/blog/growth/sign-up-tips-conversion-rate/)** and ROI on email marketing to attract consumers is good at $44 revenue for every $1 spent in expenses.
 
   
 

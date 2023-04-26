@@ -34,7 +34,7 @@ Next, build data security best practices, programs, and protocols around it.
 
 ![9-data-security-best-practices](9-data-security-best-practices.png)
 
-So, how do you avoid becoming a victim of [cyberattacks](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/)? Here's our data security best practices checklist for 2021. 
+So, how do you avoid becoming a victim of [cyberattacks](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/)? Here's our data security best practices checklist for 2021. 
 
 
 ### 1. Identify sensitive data and classify it.
@@ -87,7 +87,7 @@ Your network's endpoints are constantly under threat. Therefore, it is important
 
 ### 6. Document your cybersecurity policies.
 
-Word of mouth and intuitional knowledge isn't the right choice when it comes to cybersecurity. Document your [cybersecurity best practices](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/), policies, and protocols carefully, so it's easier to provide online training, checklists, and information-specific knowledge transfer to your employees and stakeholders. 
+Word of mouth and intuitional knowledge isn't the right choice when it comes to cybersecurity. Document your [cybersecurity best practices](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/), policies, and protocols carefully, so it's easier to provide online training, checklists, and information-specific knowledge transfer to your employees and stakeholders. 
 
 
 ### 7. Implement a risk-based approach to security. 
@@ -110,7 +110,7 @@ Educate all employees on your organization's cybersecurity best practices and po
 
 ### 9. Use multi-factor authentication.
 
-[Multi-factor authentication (MFA)](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) is considered one of the most advanced and proven forms of data protection strategies. MFA works by adding an extra layer of security before authenticating an account. This means even if the hacker has your password, they will still need to produce a second or third factor of authentication, such as a security token, fingerprint, voice recognition, or confirmation on your mobile phone. 
+[Multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) is considered one of the most advanced and proven forms of data protection strategies. MFA works by adding an extra layer of security before authenticating an account. This means even if the hacker has your password, they will still need to produce a second or third factor of authentication, such as a security token, fingerprint, voice recognition, or confirmation on your mobile phone. 
 
 
 ## Conclusion

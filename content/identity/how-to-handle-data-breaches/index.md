@@ -29,7 +29,7 @@ Consumers are the main reason for your business continuity, which is perhaps the
 
 In an era where competitors are just a click away, businesses can’t play with fire when it comes to losing consumer confidence that mostly happens when their privacy is breached.
 
-On top of it, specific data privacy and security laws including the [General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA)](https://www.loginradius.com/blog/start-with-identity/2019/09/ccpa-vs-gdpr-the-compliance-war/) that ensures that a business protects consumer data.
+On top of it, specific data privacy and security laws including the [General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA)](https://www.loginradius.com/blog/identity/2019/09/ccpa-vs-gdpr-the-compliance-war/) that ensures that a business protects consumer data.
 
 As far as GDPR is concerned, it requires businesses that collect data on EU citizens regardless of their present location must implement industry-standard measures for data protection. Failing to do so, the company would have to bear hefty fines.
 
@@ -50,7 +50,7 @@ Before diving into the ways to protect consumer data, let’s quickly understand
 *   **Malware Attacks:** A malicious software is installed on the victim’s computer through a fraudulent email containing a link, which further breaches the security of an organization.
 *   **Employee Data Theft:** Sometimes employees with access to sensitive information may expose the information to competitors or cybercriminals against monetary benefits.
 
-**Also Read:**[ How LoginRadius Future-Proofs Consumer Data Privacy and Security](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/)
+**Also Read:**[ How LoginRadius Future-Proofs Consumer Data Privacy and Security](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/)
 
 
 ## How to Handle Data Breaches in Your Business?
@@ -84,7 +84,7 @@ Frequently training employees regarding the new possible ways of cyber-attacks c
 
 **3.      Add Layers of Authentication**
 
-[Multi-factor authentication (MFA)](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) could be the finest option to enhance the overall security within a network.
+[Multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) could be the finest option to enhance the overall security within a network.
 
 Employees or consumers need to authenticate and need to provide a one-time password (OTP), which they receive on email or as a text on phone to verify that they are the real owner of an identity.
 

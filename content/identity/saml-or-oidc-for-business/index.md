@@ -55,7 +55,7 @@ This transmitted user data in SAML authentication is called "SAML assertion". Wi
 
 OIDC is used by various popular private enterprises using Nomura Research institute, PayPal, Ping Identity, Microsoft, Amazon, etc. SAML is generally used for business and government applications like citizens Ids. The major difference in both these protocols is due to the security difference in OIDC and **SAML authentication**.  
 
-OIDC is generally preferred in commercial applications where simple [identity verification](https://www.loginradius.com/blog/start-with-identity/2020/12/identity-proofing/) is required over a complex one. 
+OIDC is generally preferred in commercial applications where simple [identity verification](https://www.loginradius.com/blog/identity/2020/12/identity-proofing/) is required over a complex one. 
 
 
 ### 3. Security of OIDC and SAML

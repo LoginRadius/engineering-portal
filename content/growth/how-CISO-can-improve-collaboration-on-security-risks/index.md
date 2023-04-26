@@ -17,7 +17,7 @@ There are a number of good reasons for this. Though most CISOs have built sophis
 
   
 
-In this new environment, CISOs need to foreground collaboration. It’s only by working with colleagues throughout your organization that you can hope to [respond to these multivalent threats](https://www.loginradius.com/blog/start-with-identity/5-ways-to-handle-a-data-breach/). This was a point that LoginRadius’ CEO, Deepak Gupta, [recently made in an article for Forbes](https://www.forbes.com/sites/forbestechcouncil/2021/08/17/the-role-of-a-ciso-in-building-a-modern-cybersecurity-culture/?sh=1e54482725e3).
+In this new environment, CISOs need to foreground collaboration. It’s only by working with colleagues throughout your organization that you can hope to [respond to these multivalent threats](https://www.loginradius.com/blog/identity/5-ways-to-handle-a-data-breach/). This was a point that LoginRadius’ CEO, Deepak Gupta, [recently made in an article for Forbes](https://www.forbes.com/sites/forbestechcouncil/2021/08/17/the-role-of-a-ciso-in-building-a-modern-cybersecurity-culture/?sh=1e54482725e3).
 
   
 
@@ -39,7 +39,7 @@ In other words, collaboration can be a powerful defensive technique, but only if
 ### 1. Collaborate Earlier
     
 
-One crucial consideration when looking to integrate the role of a CISO into your broader organization is when to start the collaborative process. It’s not practical to appraise every executive of every upcoming IT initiative, but too often these initiatives are not mentioned to leaders until it is too late to [mitigate their business risks](https://www.loginradius.com/blog/start-with-identity/7-web-app-sec-threats/).
+One crucial consideration when looking to integrate the role of a CISO into your broader organization is when to start the collaborative process. It’s not practical to appraise every executive of every upcoming IT initiative, but too often these initiatives are not mentioned to leaders until it is too late to [mitigate their business risks](https://www.loginradius.com/blog/identity/7-web-app-sec-threats/).
 
   
 
@@ -72,7 +72,7 @@ That said, CISOs should also take care not to burden themselves with complex KPI
 ### 4. Share Skills
     
 
-Effective CISOs are those that encourage their team to share their skills with the broader organization. Sharing skills can either be done in an informal way – by making sure there is a member of the security team on teams charged with developing new products, for example. But skill sharing can also be formalized, through designing a training process for staff outside your team to get up to speed on how to [protect their own teams](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/) from security threats.
+Effective CISOs are those that encourage their team to share their skills with the broader organization. Sharing skills can either be done in an informal way – by making sure there is a member of the security team on teams charged with developing new products, for example. But skill sharing can also be formalized, through designing a training process for staff outside your team to get up to speed on how to [protect their own teams](https://www.loginradius.com/blog/identity/data-security-best-practices/) from security threats.
 
   
 

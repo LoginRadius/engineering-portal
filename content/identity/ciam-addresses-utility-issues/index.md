@@ -35,7 +35,7 @@ A dashboard would allow administrators to create a password reset page that can 
 
 A lot of utility companies require a good customer retention percentage—since the nature of their business is recurring and net revenue is dependent on how many times a consumer has used the service. Therefore, to retain consumers, it is vital to understand their needs. 
 
-[CIAM](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) in utility sector can help understand consumers better by incorporating data on their logins, devices, utility usage, and even [progressive profiling](https://www.loginradius.com/progressive-profiling/). 
+[CIAM](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) in utility sector can help understand consumers better by incorporating data on their logins, devices, utility usage, and even [progressive profiling](https://www.loginradius.com/progressive-profiling/). 
 
 Progressive profiling is a method used to systematically build up a consumer's profile each time they interact with the utility company's website. This method can help organizations find out problems faced by consumers and improve their services. It can also help create new services and boost engagement. 
 
@@ -89,7 +89,7 @@ Consumers can request changes in their profiles (such as an update to their resi
 
 ## In Conclusion
 
-With hackers getting smarter every day, companies need to implement stringent protocols like the [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/2019/09/ccpa-vs-gdpr-the-compliance-war/), especially if the said companies fall into the utility sector. This is because such companies often handle massive amounts of user data.
+With hackers getting smarter every day, companies need to implement stringent protocols like the [GDPR and CCPA](https://www.loginradius.com/blog/identity/2019/09/ccpa-vs-gdpr-the-compliance-war/), especially if the said companies fall into the utility sector. This is because such companies often handle massive amounts of user data.
 
 If this data is compromised, it would be a massive loss to the company's reputation, eventually leading to financial losses as users might withdraw from using their services. In extreme cases, the company might even go bankrupt! Implementing a CIAM in utility sector solution can prevent this from happening and make the consumer experience better!
 

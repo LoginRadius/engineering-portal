@@ -32,7 +32,7 @@ Most organizations that aren’t following stringent security measures may face 
 
 It’s essential for organizations to get adequate security mechanisms in place to ensure their business’s sensitive data and consumer information remains secure. 
 
-**A good read:** **[Cybersecurity Best Practices for Businesses in 2021](https://www.loginradius.com/blog/start-with-identity/cybersecurity-best-practices-for-enterprises/)**
+**A good read:** **[Cybersecurity Best Practices for Businesses in 2021](https://www.loginradius.com/blog/identity/cybersecurity-best-practices-for-enterprises/)**
 
 Moreover, the lack of cyber-awareness among employees is another big contributing factor for the increasing number of cyberattacks. These numbers can be quickly decreased by minimizing human error through regular employee training sessions. 
 
@@ -86,7 +86,7 @@ Start with auditing your system and device accesses and if you suspect the breac
 
 Also, make sure that you evaluate the current technologies that your organization is leveraging to ensure you invest more in cutting-edge technology software systems for maximum protection. 
 
-Also, adding strong [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/) layers to your overall security mechanism could be quite helpful in minimizing the chances of a breach.
+Also, adding strong [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/) layers to your overall security mechanism could be quite helpful in minimizing the chances of a breach.
 
 ### **5. Be Prepared for any other Similar Instance**
 
@@ -94,7 +94,7 @@ After taking all the necessary steps after a breach, you must prepare your organ
 
 Since the possibility of another attack is relatively high once you’re already attacked, not preparing your business could surely leave your organization in dire straits. 
 
-Moreover, it’s strongly recommended to [prepare a recovery plan](https://www.loginradius.com/blog/start-with-identity/best-practices-business-resilience/) and get new privacy policies to avoid any breaches in the future. 
+Moreover, it’s strongly recommended to [prepare a recovery plan](https://www.loginradius.com/blog/identity/best-practices-business-resilience/) and get new privacy policies to avoid any breaches in the future. 
 
 Investing in employee training is yet another great way to prepare for future attacks that can result from human error. 
 

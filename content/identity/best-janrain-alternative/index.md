@@ -58,7 +58,7 @@ You don’t have to worry about surges or spikes driving customers away and hurt
 
 **We’re a global leader in customer identity.** 
 
-LoginRadius was named a [global CIAM leader](https://www.loginradius.com/press/loginradius-named-global-ciam-leader-by-identity-research-firm-kuppingercole/) by KuppingerCole and has been _positioned ahead of other vendors such as ForgeRock, Okta, and Ping Identity._ Recently, [LoginRadius received $17 million Series A funding](https://www.loginradius.com/blog/2018/07/loginradius-announces-17m-series-funding-forgepoint-microsoft/), led by ForgePoint Capital and Microsoft. _W__e may not be enterprise-size, but we’re enterprise grade—meaning you’ll get both dedicated service and an exceptional product from LoginRadius._ 
+LoginRadius was named a [global CIAM leader](https://www.loginradius.com/press/loginradius-named-global-ciam-leader-by-identity-research-firm-kuppingercole/) by KuppingerCole and has been _positioned ahead of other vendors such as ForgeRock, Okta, and Ping Identity._ Recently, [LoginRadius received $17 million Series A funding](https://www.loginradius.com/blog/loginradius-announces-17m-series-funding-forgepoint-microsoft/), led by ForgePoint Capital and Microsoft. _W__e may not be enterprise-size, but we’re enterprise grade—meaning you’ll get both dedicated service and an exceptional product from LoginRadius._ 
 
 
 **We provide data privacy and consent solutions.**

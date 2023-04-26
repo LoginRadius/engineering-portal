@@ -16,7 +16,7 @@ But this is not all. When browsing online, you also leave enough breadcrumbs for
 
 We often talk about personally identifiable information (PII), but few users know precisely what it is. 
 
-Besides, there are many ways to manage personal information. Having said that, it is one thing when you [protect your PII from potential exploitation](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/), and it's entirely different when a third party manages it for you. 
+Besides, there are many ways to manage personal information. Having said that, it is one thing when you [protect your PII from potential exploitation](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/), and it's entirely different when a third party manages it for you. 
 
 So, let us take a deep dive to discover the term personally identifiable information or PII.
 
@@ -64,12 +64,12 @@ Cybercriminals compromise data systems to access PII and then sell it to buyers 
 
 ### Adopting PII compliance
 
-Without considering the type or size of any company, all organizations must have some detailed and [comprehensive knowledge of PII compliance](https://www.loginradius.com/blog/start-with-identity/privacy-compliance/) it collects and how it can be utilized. The companies must have legal knowledge about which among the various country and state regulations related to PII is applied to some specific situation related to them. Also, it is important to consider that adopting acceptable use of privacy policies associated with this particular data can be advantageous.
+Without considering the type or size of any company, all organizations must have some detailed and [comprehensive knowledge of PII compliance](https://www.loginradius.com/blog/identity/privacy-compliance/) it collects and how it can be utilized. The companies must have legal knowledge about which among the various country and state regulations related to PII is applied to some specific situation related to them. Also, it is important to consider that adopting acceptable use of privacy policies associated with this particular data can be advantageous.
 
 
 ## Conclusion
 
-The security of personal identity and other details is at increasing risk today, with hackers finding new ways to hack into websites. Therefore, enterprises of all sizes must maintain PII compliance to protect the information of the company and its users. With PII compliance, businesses can maintain[ improved data security](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/). 
+The security of personal identity and other details is at increasing risk today, with hackers finding new ways to hack into websites. Therefore, enterprises of all sizes must maintain PII compliance to protect the information of the company and its users. With PII compliance, businesses can maintain[ improved data security](https://www.loginradius.com/blog/identity/data-security-best-practices/). 
 
 
 

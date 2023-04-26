@@ -63,7 +63,7 @@ The SAML does not require the user information to be maintained and synchronized
 
 ### 4. Better UI experience
 
-The SAML enables single sign-on by allowing users to authenticate at an identity provider end and then access service providers without additional authentication. In addition, [identity federation](https://www.loginradius.com/blog/start-with-identity/what-is-federated-identity-management/) (linking multiple identities) with SAML allows a better-customized user experience at each service while promoting privacy.
+The SAML enables single sign-on by allowing users to authenticate at an identity provider end and then access service providers without additional authentication. In addition, [identity federation](https://www.loginradius.com/blog/identity/what-is-federated-identity-management/) (linking multiple identities) with SAML allows a better-customized user experience at each service while promoting privacy.
 
 ### 5. Reduced complexity
 
@@ -94,7 +94,7 @@ SAML bindings describe how a SAML message must be mapped on non-SAML messaging f
 ## How Does SAML Work? 
 The SAML SSO works by transferring the user’s identity details from one site (the identity provider) to another (the service provider). This process is done through an exchange of digitally signed XML documents.
 
-Let us consider a scenario: A user is logged into a system that acts as an [identity provider](https://www.loginradius.com/blog/start-with-identity/2021/06/what-is-identity-provider/). The user wants to log in to another remote application, such as a Job application (the service provider app). 
+Let us consider a scenario: A user is logged into a system that acts as an [identity provider](https://www.loginradius.com/blog/identity/2021/06/what-is-identity-provider/). The user wants to log in to another remote application, such as a Job application (the service provider app). 
 
 Here, following process occurs:
 

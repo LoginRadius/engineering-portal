@@ -37,7 +37,7 @@ Let’s learn how identity management works in the media industry for paving a p
 
 Honestly, nobody likes to remember long credentials, especially if they can utilize the true potential of frictionless login across all the applications.
 
-While [SSO](https://www.loginradius.com/blog/start-with-identity/2019/05/what-is-single-sign-on/) is on the verge of becoming an industry standard for authentication, the media industry needs to quickly gear up for enhancing the user experience through SSO and Federated SSO.
+While [SSO](https://www.loginradius.com/blog/identity/2019/05/what-is-single-sign-on/) is on the verge of becoming an industry standard for authentication, the media industry needs to quickly gear up for enhancing the user experience through SSO and Federated SSO.
 
 [![federated-identity-management](federated-identity-management.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
@@ -73,7 +73,7 @@ While the number of media platform subscriptions surged amid the global pandemic
 
 With millions of data breaches and identity thefts in the media industry alone, a CIAM solution with multi-factor authentication can be the ultimate solution.
 
-LoginRadius’ [Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) coupled with risk-based authentication helps businesses in creating a secure login experience for subscribers. If there’s an incident of a cybercriminal trying to gain access from another device, remote location, or repeatedly using wrong credentials, multi-factor authentication kicks in.
+LoginRadius’ [Multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) coupled with risk-based authentication helps businesses in creating a secure login experience for subscribers. If there’s an incident of a cybercriminal trying to gain access from another device, remote location, or repeatedly using wrong credentials, multi-factor authentication kicks in.
 
 The user needs to provide a one-time password received on the phone or a secure login code received through an email to authenticate.
 

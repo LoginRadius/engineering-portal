@@ -42,7 +42,7 @@ Corporations can include millions of users and software needs a straightforward 
 
 A business can have different software systems to rely on. The best way to benefit from those systems is to make them feel like one. If a user has to sign in every single time to use different services within the same company umbrella they are likely to get frustrated and stop cooperating altogether. A user wants to navigate an enterprise system as a whole, so they need one universal account. 
 
-Good enterprise software neglects the need to maintain multiple login systems, which saves the company money and provides a safer space with a highly reduced probability of a breach or an error. That’s [single sign-on](https://www.loginradius.com/blog/start-with-identity/what-is-single-sign-on/)! 
+Good enterprise software neglects the need to maintain multiple login systems, which saves the company money and provides a safer space with a highly reduced probability of a breach or an error. That’s [single sign-on](https://www.loginradius.com/blog/identity/what-is-single-sign-on/)! 
 
 
 ### #3 Maximum Security  

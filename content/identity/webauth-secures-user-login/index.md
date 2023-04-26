@@ -67,7 +67,7 @@ In this entire scenario, the user login is secured as attackers that have access
 
 ## Implementing Passwordless Authentication with LoginRadius
 
-The best way to provide seamless registration and authentication for your customers is with a [passwordless login](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/) solution through WebAuthn. This gives your users a hassle-free way to access their accounts—with no passwords needed! 
+The best way to provide seamless registration and authentication for your customers is with a [passwordless login](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) solution through WebAuthn. This gives your users a hassle-free way to access their accounts—with no passwords needed! 
 
 The LoginRadius Identity Platform is an out-of-the-box way for you to do this easily. The identity and access management platform is fully customizable too, so you can simplify your customer experience to suit your company’s needs.
 

@@ -12,7 +12,7 @@ metadescription: "One effective way to modernize the CIAM is for IT leaders to t
 
 There is no second opinion about the importance of data security. The biggest challenge for a service provider in today’s information age is collecting, handling and managing data securely.  With much potential and opportunity, organizations also have a responsibility to ensure the safety and security of customer data they handle.
 
-Every company that wants to win customers over with digital products or services should create an online portal. When your application is accessed by a customer for a product or service, they provide their personal information. A [well-designed CIAM system](https://www.loginradius.com/blog/start-with-identity/perfect-ciam-platform/) can help you maximize customer experience and minimize risks for your security and IT teams.
+Every company that wants to win customers over with digital products or services should create an online portal. When your application is accessed by a customer for a product or service, they provide their personal information. A [well-designed CIAM system](https://www.loginradius.com/blog/identity/perfect-ciam-platform/) can help you maximize customer experience and minimize risks for your security and IT teams.
 
 ## Understanding Stakeholder Engagement
 

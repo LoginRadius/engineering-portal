@@ -13,7 +13,7 @@ metatitle: "3 CIAM Benchmarks You're Probably Forgetting To Track"
 
 The changing data landscape and the propagation of credential-based security threats coupled with stringent regulatory compliances push enterprises to deploy a consumer identity and access management (CIAM) system.
 
-However, many enterprises aren’t able to leverage the full value of a CIAM since they [confuse it with the conventional IAM](https://www.loginradius.com/blog/start-with-identity/iam-vs-ciam/) (identity and access management) that only emphasizes identity management within an organization network and not for consumers/clients.
+However, many enterprises aren’t able to leverage the full value of a CIAM since they [confuse it with the conventional IAM](https://www.loginradius.com/blog/identity/iam-vs-ciam/) (identity and access management) that only emphasizes identity management within an organization network and not for consumers/clients.
 
 On the other hand, only a few businesses are well-versed with the technological advancements that a CIAM can thrive. The rest just consider it as a way to secure consumer identities and enhance overall security.
 

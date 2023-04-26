@@ -33,7 +33,7 @@ However, most of the platforms weren’t relying on a secure mechanism to handle
 
 Moreover, delivering a rich omnichannel experience for users accessing the network from different devices becomes challenging for vendors. 
 
-Here’s where a [consumer identity and access management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (CIAM) solution comes into play. 
+Here’s where a [consumer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) solution comes into play. 
 
 With a CIAM solution in place, any OTT platform can securely handle billions of identities without hampering user experience on any device. 
 
@@ -85,7 +85,7 @@ Media businesses need to understand that registration fatigue could be why they 
 
 Admit it; nobody wants to share heaps of personal details in a single go, especially during the sign-up process. Keeping the subscription form compact is the best way to ensure a quick sign-up from the users’ end.
 
-[Progressive profiling](https://www.loginradius.com/blog/start-with-identity/presenting-progressive-profiling-loginradius/) lets you gather important details about a subscriber over time and not everything in a single go. This not only improves user experience but eventually helps to build credibility in the long run.
+[Progressive profiling](https://www.loginradius.com/blog/identity/presenting-progressive-profiling-loginradius/) lets you gather important details about a subscriber over time and not everything in a single go. This not only improves user experience but eventually helps to build credibility in the long run.
 
 LoginRadius enables you to gather consumer data through various stages of the consumer's journey to share their information as they interact with your business.
 
@@ -98,7 +98,7 @@ While the number of media platform subscriptions surged amid the global pandemic
 
 With millions of data breaches and identity thefts in the media industry alone, a CIAM solution with multi-factor authentication can be the ultimate solution.
 
-LoginRadius’[ Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) coupled with risk-based authentication helps businesses in creating a secure login experience for subscribers.
+LoginRadius’[ Multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) coupled with risk-based authentication helps businesses in creating a secure login experience for subscribers.
 
 
 ## Final Thoughts 

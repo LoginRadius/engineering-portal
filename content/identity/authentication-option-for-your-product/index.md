@@ -13,7 +13,7 @@ metadescription: "Choosing an authentication method can be tricky. Here’s an i
 
 Authentication is a vital process of proving your identity to get access to a network or a resource. And we all go through different authentication options each day on various apps and websites. 
 
-[Proving your identity](https://www.loginradius.com/blog/start-with-identity/identity-proofing/) is a crucial part of a secure infrastructure where businesses offer a variety of ways to authenticate their consumers.  
+[Proving your identity](https://www.loginradius.com/blog/identity/identity-proofing/) is a crucial part of a secure infrastructure where businesses offer a variety of ways to authenticate their consumers.  
 
 However, when choosing the right authentication option for your product, there’s a lot of confusion and misconceptions that may eventually make it difficult to finalize one or even more. 
 
@@ -30,7 +30,7 @@ Authentication is the process of identifying users and validating who they claim
 
 If the user name matches the password credential, the identity is valid, and the system grants access to the user.
 
-Interestingly, with enterprises going passwordless, many use modern authentication techniques like one-time passcodes (OTP) via SMS, or email, single [sign-on (SSO),](https://www.loginradius.com/blog/start-with-identity/what-is-single-sign-on/) multi-factor authentication (MFA) and biometrics, etc. authenticate users and deploy security beyond what passwords usually provide.
+Interestingly, with enterprises going passwordless, many use modern authentication techniques like one-time passcodes (OTP) via SMS, or email, single [sign-on (SSO),](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) multi-factor authentication (MFA) and biometrics, etc. authenticate users and deploy security beyond what passwords usually provide.
 
 Authentication is a must in a risky digital environment where every minute an identity is compromised and exploited. 
 
@@ -51,7 +51,7 @@ A token can be defined as a digitally encoded signature used to authenticate and
 
 A token is always generated in the form of an OTP (One-Time Password), which depicts that it could only be used once and is generated randomly for every transaction.
 
-The [token-based authentication](https://www.loginradius.com/blog/start-with-identity/pros-cons-token-authentication/) allows users to verify their unique identity, and in return, they receive a unique token that provides access to certain resources for a particular time frame.
+The [token-based authentication](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/) allows users to verify their unique identity, and in return, they receive a unique token that provides access to certain resources for a particular time frame.
 
 A token plays a crucial role in enhancing the overall security mechanism of an organization that helps to deliver flawless and secure authentication and authorization on their website or application.
 
@@ -109,7 +109,7 @@ LoginRadius offers cutting-edge ways to provide seamless registration and authen
 
 The future-ready CIAM (consumer identity and access management) solution gives them a hassle-free way to access their accounts—with no passwords needed! 
 
-The LoginRadius Identity Platform is an out-of-the-box way for you to do this easily. Our CIAM is fully customizable, too, so you can simplify your customer experience to suit your company’s needs. Here are some great [reasons to choose LoginRadius](https://www.loginradius.com/blog/start-with-identity/best-idaas-provider-loginradius/):
+The LoginRadius Identity Platform is an out-of-the-box way for you to do this easily. Our CIAM is fully customizable, too, so you can simplify your customer experience to suit your company’s needs. Here are some great [reasons to choose LoginRadius](https://www.loginradius.com/blog/identity/best-idaas-provider-loginradius/):
 
 
 

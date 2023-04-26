@@ -61,7 +61,7 @@ Heatmap analytics plays an essential role in answering the following five questi
 
   
 
-1.  Are visitors clicking on [Call to Action (CTA)](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/) links?
+1.  Are visitors clicking on [Call to Action (CTA)](/blog/growth/sign-up-tips-conversion-rate/) links?
     
 2.  Are visitors seeing critical website elements like eBooks, guides, and solution briefs?
     
@@ -209,7 +209,7 @@ Hotjar has been leading the heatmap market for over half a decade. It has a free
 
   
 
-But you should subscribe to the [business plan](https://www.loginradius.com/blog/start-with-identity/2020/03/loginradius-business-continuity-covid-19-outbreak/) to get deeper insights if you have an established website that receives a substantial amount of traffic.
+But you should subscribe to the [business plan](https://www.loginradius.com/blog/identity/2020/03/loginradius-business-continuity-covid-19-outbreak/) to get deeper insights if you have an established website that receives a substantial amount of traffic.
 
   
 

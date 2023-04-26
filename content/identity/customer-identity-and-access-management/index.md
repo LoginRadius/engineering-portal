@@ -164,7 +164,7 @@ A CIAM solution like LoginRadius can help you achieve this with customer account
 
 **1. What is the difference between CIAM and IAM?**
 
-A CIAM (consumer identity and access management) solution manages your services’ external consumer identities, whereas an IAM (workforce identity and access management) solution manages your organization's identities. [Read more](https://www.loginradius.com/blog/start-with-identity/iam-vs-ciam/).
+A CIAM (consumer identity and access management) solution manages your services’ external consumer identities, whereas an IAM (workforce identity and access management) solution manages your organization's identities. [Read more](https://www.loginradius.com/blog/identity/iam-vs-ciam/).
 
 **2. Why is CIAM important?**
 
@@ -172,7 +172,7 @@ CIAM enables businesses to enable quick, convenient, secure and unified access a
 
 **3. How does CIAM protect customer data?**
 
-A CIAM solution includes various authentication mechanisms like multi-factor authentication (MFA), [risk-based authentication (RBA)](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/), and more to ensure even if the primary layer of protection like passwords is compromised, access is restricted to a particular account. 
+A CIAM solution includes various authentication mechanisms like multi-factor authentication (MFA), [risk-based authentication (RBA)](https://www.loginradius.com/blog/identity/risk-based-authentication/), and more to ensure even if the primary layer of protection like passwords is compromised, access is restricted to a particular account. 
 
 **4. How much does a CIAM cost?**
 

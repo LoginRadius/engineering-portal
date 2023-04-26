@@ -45,7 +45,7 @@ The recently launched LoginRadius Authentication and SSO for Native Mobile Apps 
 *   **Social Login**: Consumers can log in using their existing social accounts. LoginRadius Android and iOS SDKs support 40+ social providers.
 *   **Single Sign-On**: Consumers can log in seamlessly across multiple Android apps with a single identity.
 *   **PIN Authentication**: Consumers can set a PIN while registering as an additional security. During login, the app will ask the consumer to enter both the password and PIN. 
-*   **Passwordless Login with Magic Link or OTP**: Consumers can log in using the magic link received via email or OTP received via mobile number. It increases consumer engagement, as there is no need to [create passwords anymore](https://www.loginradius.com/blog/start-with-identity/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/). 
+*   **Passwordless Login with Magic Link or OTP**: Consumers can log in using the magic link received via email or OTP received via mobile number. It increases consumer engagement, as there is no need to [create passwords anymore](https://www.loginradius.com/blog/identity/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/). 
 *   **Biometric**: Consumers can add additional fingerprint security to the authentication process. For example, it can be through the touch id and fingerprint in iOS and Android apps, respectively.
 
 

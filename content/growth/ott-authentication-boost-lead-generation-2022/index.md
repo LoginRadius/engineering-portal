@@ -36,7 +36,7 @@ One of the most common and apparent factors to authenticate identity is a passwo
 
 However, standard password authentication will not work for OTT platforms since the subscribers may share the same credentials with their friends, and multiple people would be enjoying a single subscription. 
 
-Here’s where [OTT authentication](https://www.loginradius.com/blog/start-with-identity/ott-simplify-authentication/) through a consumer identity and access management (CIAM) solution becomes crucial. 
+Here’s where [OTT authentication](https://www.loginradius.com/blog/identity/ott-simplify-authentication/) through a consumer identity and access management (CIAM) solution becomes crucial. 
 
 A cutting-edge CIAM solution like LoginRadius incorporates multi-factor authentication (MFA) and adaptive authentication that shuns any chance of identity theft and misuse. 
 

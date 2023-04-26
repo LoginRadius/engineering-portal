@@ -113,7 +113,7 @@ Just include the CSS and JS files on your page to get started, and you can start
 ![loginradius-sso](loginradius-sso.png)
 
 
-[Single sign-on](https://www.loginradius.com/blog/start-with-identity/2019/05/what-is-single-sign-on/) (SSO) is an access control property of several related but independent software systems. To gain access to a linked device, a user logs in with a single ID and password with this house.
+[Single sign-on](https://www.loginradius.com/blog/identity/2019/05/what-is-single-sign-on/) (SSO) is an access control property of several related but independent software systems. To gain access to a linked device, a user logs in with a single ID and password with this house.
 
 It has always been tedious and time-consuming to fill out lengthy and thorough sign-up and registration forms that no one wants!
 

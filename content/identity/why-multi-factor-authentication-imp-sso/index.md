@@ -62,7 +62,7 @@ Authentication can be single-factor, two-factor (2FA), or multi-factor. The latt
 
 ## What Role Multi-Factor Authentication Plays in SSO?
 
-The [benefits of single sign-on](https://www.loginradius.com/blog/start-with-identity/benefits-single-sign-on-sso/) are multifold. When a system has a high degree of criticality involved, a single login and password may not be sufficient to provide the necessary level of protection against unauthorized access. 
+The [benefits of single sign-on](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/) are multifold. When a system has a high degree of criticality involved, a single login and password may not be sufficient to provide the necessary level of protection against unauthorized access. 
 
 In this case, the authentication process can be strengthened using multiple authentication factors. That is, in addition to entering a username and password, you need to present something else to confirm the authenticity of the user. 
 

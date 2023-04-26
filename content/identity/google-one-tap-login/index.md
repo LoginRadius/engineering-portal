@@ -68,7 +68,7 @@ So, consumers do not feel that they are doing the sign-up process. Once they are
 
 Consumers will remain signed in with One Tap, even after switching devices or apps. The consumers will not only sign-up on Android faster, but they can also sign back in with just one click, using the account they are already registered with. 
 
-Hence, they [no longer need to memorize passwords](https://www.loginradius.com/blog/start-with-identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) or usernames they use for their account.
+Hence, they [no longer need to memorize passwords](https://www.loginradius.com/blog/identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) or usernames they use for their account.
 
 
 ## Conclusion

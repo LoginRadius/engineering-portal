@@ -27,7 +27,7 @@ Whatever it may be but from a hacker's point of view, none of that matters.
 
   
 
-The only thing they are always on the hunt for is **[personal consumer data](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/)**. Data like your consumers' names, email addresses, phone numbers, credit card details, passwords, etc., every entity that a consumer provides.
+The only thing they are always on the hunt for is **[personal consumer data](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/)**. Data like your consumers' names, email addresses, phone numbers, credit card details, passwords, etc., every entity that a consumer provides.
 
   
 
@@ -83,7 +83,7 @@ The reasons below will clear your confusion:
 
   
 
--   Less time consumed in the password recovery process: Apart from the security benefits mentioned above, **[Best SSO tool](https://www.loginradius.com/blog/start-with-identity/2019/11/benefits-single-sign-on-sso/)** also reduces the time wastage of internal teams. Often, users forget their password, and a lot of time is wasted in recovering passwords for dozens of apps. If appropriately implemented, this has the potential to increase business productivity.
+-   Less time consumed in the password recovery process: Apart from the security benefits mentioned above, **[Best SSO tool](https://www.loginradius.com/blog/identity/2019/11/benefits-single-sign-on-sso/)** also reduces the time wastage of internal teams. Often, users forget their password, and a lot of time is wasted in recovering passwords for dozens of apps. If appropriately implemented, this has the potential to increase business productivity.
     
 
 ## How To Implement SSO

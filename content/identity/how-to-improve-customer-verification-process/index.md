@@ -19,7 +19,7 @@ The primary reason customer verification is needed is to prevent fraud. It's esp
 
 In the wake of recent data breaches, many companies are realizing that they need to improve their customer verification process. It's no longer enough to simply check a customer's name against a list of approved names at the time of purchase. 
 
-Today, you need to [verify your customers' identities](https://www.loginradius.com/blog/start-with-identity/what-is-identity-verification/) in more creative ways if you want to keep your business safe from hackers and thieves.
+Today, you need to [verify your customers' identities](https://www.loginradius.com/blog/identity/what-is-identity-verification/) in more creative ways if you want to keep your business safe from hackers and thieves.
 
 In this post, you’ll learn some top ways to improve your customer verification process. But first, let’s quickly understand the types of customer verification.
 
@@ -76,7 +76,7 @@ Biometrics is one of the most effective methods of customer verification because
 
 ### 3. Speed things up with SSO.
 
-[Single sign-on](https://www.loginradius.com/blog/start-with-identity/what-is-single-sign-on/) (SSO) lets users log in with a single set of credentials like their Facebook account or Google account. Using information from trusted sources allows your customers to get verified faster and with less friction over the process. Some examples are Facebook Connect, Google Sign-In, and Twitter Login.
+[Single sign-on](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) (SSO) lets users log in with a single set of credentials like their Facebook account or Google account. Using information from trusted sources allows your customers to get verified faster and with less friction over the process. Some examples are Facebook Connect, Google Sign-In, and Twitter Login.
 
 SSO can reduce password fatigue, simplify username and password management, increase identity protection, prevent errors, and cut down help desk workloads, among others.
 
@@ -102,13 +102,13 @@ If you're looking for ways to improve your customer verification process, identi
 
 While choosing your identity verification software, focus on addressing your business needs. Besides, it should be able to verify customers worldwide, offer real-time verification, provide geolocation services and customization.
 
-Also, see that your solution is compliant with the global regulations and is secure. You should start looking up [security tips from experts](https://www.loginradius.com/blog/start-with-identity/tips-from-loginradius-security-expert-2022/) to strengthen your security.
+Also, see that your solution is compliant with the global regulations and is secure. You should start looking up [security tips from experts](https://www.loginradius.com/blog/identity/tips-from-loginradius-security-expert-2022/) to strengthen your security.
 
 
 ## That’s a Wrap!
 
 In summary, there are many ways eCommerce retailers can improve the customer verification process. One way is to tailor the process to your business to get the greatest return on investment for your specific needs. 
 
-Whether you choose to [develop your own system](https://www.loginradius.com/blog/start-with-identity/build-vs-buy-securing-customer-identity/) or purchase a verification solution from a third-party vendor, ensuring this process is seamless for customers, and free of errors will go a long way towards ensuring that both merchants and buyers have a trusted and satisfying shopping experience every time.
+Whether you choose to [develop your own system](https://www.loginradius.com/blog/identity/build-vs-buy-securing-customer-identity/) or purchase a verification solution from a third-party vendor, ensuring this process is seamless for customers, and free of errors will go a long way towards ensuring that both merchants and buyers have a trusted and satisfying shopping experience every time.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

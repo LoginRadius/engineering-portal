@@ -13,7 +13,7 @@ metatitle: "3 Unique PR Trends to Consider in 2021"
 
 
 
-Ever since the [outbreak of the coronavirus pandemic in 2020](https://www.loginradius.com/blog/start-with-identity/2020/03/loginradius-business-continuity-covid-19-outbreak/), business enterprises have had to adapt to a “new normal” - with trends like remote working, digital processes, and online communications gaining momentum across the world. The year 2020 has been a major catalyst for a digital revolution in many industry sectors – either through retailers adopting the eCommerce business model or employee training and meetings going into the "virtual" mode.
+Ever since the [outbreak of the coronavirus pandemic in 2020](https://www.loginradius.com/blog/identity/2020/03/loginradius-business-continuity-covid-19-outbreak/), business enterprises have had to adapt to a “new normal” - with trends like remote working, digital processes, and online communications gaining momentum across the world. The year 2020 has been a major catalyst for a digital revolution in many industry sectors – either through retailers adopting the eCommerce business model or employee training and meetings going into the "virtual" mode.
 
   
 

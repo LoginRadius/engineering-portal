@@ -50,7 +50,7 @@ Gone are the days when delivering a flawless user experience to users was the to
 
 Since the global data privacy and security regulations are becoming more stringent, and consumers are well aware of the monitored use of their details, brands have to ensure they meet all the security and data privacy compliance requirements. 
 
-However, delivering a rich consumer and [maintaining adequate security](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/) by adding multiple layers of authentication may sometimes become an uphill battle for businesses. They need an external mechanism to balance usability and security perfectly.
+However, delivering a rich consumer and [maintaining adequate security](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) by adding multiple layers of authentication may sometimes become an uphill battle for businesses. They need an external mechanism to balance usability and security perfectly.
 
 So, in a nutshell, if an online platform cannot deliver the perfect symphony of user experience backed with robust security, it’s lagging behind its competitors. 
 

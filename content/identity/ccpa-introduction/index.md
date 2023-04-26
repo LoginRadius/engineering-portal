@@ -13,7 +13,7 @@ Every day, societies are becoming more digitized. Instead of speaking to a colle
 
 However, starting January 01, 2020, the way you collect, store, and share this data may land you in trouble. If you’re unsure how the **California Consumer Privacy Act (CCPA)** will impact your company, keep reading. This introduction to CCPA compliance focuses on the most common questions that businesses have today.
 
-For more detailed information, including the major differences between GDPR and CCPA, [check out our infographic](https://www.loginradius.com/blog/start-with-identity/2019/09/ccpa-vs-gdpr-the-compliance-war/).
+For more detailed information, including the major differences between GDPR and CCPA, [check out our infographic](https://www.loginradius.com/blog/identity/2019/09/ccpa-vs-gdpr-the-compliance-war/).
 
 For now, let’s start with the basics.
 

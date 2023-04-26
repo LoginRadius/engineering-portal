@@ -64,7 +64,7 @@ The following points list the scenarios that can cause broken authentication.
 
 If a hacker successfully logs in by stealing your credentials using any of the above mentioned broken authentication techniques, they can misuse your privileges and impact your company's sustainability. 
 
-Cybercriminals can have various intentions of [hijacking your web application](https://www.loginradius.com/blog/start-with-identity/2021/01/7-web-app-sec-threats/), such as:
+Cybercriminals can have various intentions of [hijacking your web application](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/), such as:
 
 
 
@@ -92,7 +92,7 @@ Suppose you run a departmental store and sell groceries. To grow your business r
 
 Hackers make their way inside the CRM system and steal all the data. They then use the same credentials — usernames and passwords — to hack into the central bank's database. 
 
-In this case, hackers are trying to successfully log in to the central bank's database by hoping that a handful of consumers must be using the same credentials at both places. Such kinds of broken authentication attacks are called [credential stuffing](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/).
+In this case, hackers are trying to successfully log in to the central bank's database by hoping that a handful of consumers must be using the same credentials at both places. Such kinds of broken authentication attacks are called [credential stuffing](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/).
 
 **Example #2: Application session timeouts aren't set properly.**
 
@@ -147,7 +147,7 @@ To prevent this from happening, you must salt the passwords. A salt is a random 
 
 The following are the ways of preventing broken authentication attacks:
 
-1. Implement [multi-factor authentication (MFA) ](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/)to verify the consumer's identity. Examples include One-Time Password (OTP) messaged or emailed to the user. This step will prevent brute force attacks, credential stuffing, and stolen credential reuse attacks.
+1. Implement [multi-factor authentication (MFA) ](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/)to verify the consumer's identity. Examples include One-Time Password (OTP) messaged or emailed to the user. This step will prevent brute force attacks, credential stuffing, and stolen credential reuse attacks.
 
 2. Use weak-password checks by forcing users to include a mix of small letters, capital letters, alphanumeric symbols, and special characters while creating passwords. It would be best to follow [NIST 800-63 B's guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html) in section 5.1.1 for memorized secrets.
 
@@ -155,7 +155,7 @@ The following are the ways of preventing broken authentication attacks:
 
 4. Ensure that credential recovery, registration, and API pathways are not vulnerable to account enumeration attacks by using the same message for each outcome. 
 
-5. Generating new random session IDs with high entropy after [login protects against hackers](https://www.loginradius.com/blog/start-with-identity/2020/12/login-security/). Remember, those session IDs should not be present in the URL and invalidated after logout.
+5. Generating new random session IDs with high entropy after [login protects against hackers](https://www.loginradius.com/blog/identity/2020/12/login-security/). Remember, those session IDs should not be present in the URL and invalidated after logout.
 
 
 ## How LoginRadius Protects Against Broken Authentication 
@@ -172,6 +172,6 @@ LoginRadius has been at the forefront of offering a multilevel security web app 
 
 ## Conclusion
 
-Apart from the steps mentioned in this article, it's essential to train and educate your employees about broken authentication attacks. It would be best if you also employed [top-notch cybersecurity measures](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/) to protect your company's database from session hijacking, credential stuffing, and other broken authentication attacks. 
+Apart from the steps mentioned in this article, it's essential to train and educate your employees about broken authentication attacks. It would be best if you also employed [top-notch cybersecurity measures](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) to protect your company's database from session hijacking, credential stuffing, and other broken authentication attacks. 
 
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -23,7 +23,7 @@ In 2018 alone, almost [57% of Canadian internet users](https://www150.statcan.gc
 
 This is where continuous authentication comes into the limelight. It has brought a novel perspective to network protection, and the response it has earned continues to illustrate the significance organizations append to their network security these days. 
 
-Apart from this, continuous authentication can assist an organization in defending itself from online swindlers. They attempt to take over the online session right after when the user has finished using them. This continuous authentication further assists in securing a network from [phishing](https://www.loginradius.com/blog/start-with-identity/2018/02/phishing-for-identity/) and stuffing threats. 
+Apart from this, continuous authentication can assist an organization in defending itself from online swindlers. They attempt to take over the online session right after when the user has finished using them. This continuous authentication further assists in securing a network from [phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/) and stuffing threats. 
 
 
 ## How Continuous Authentication Operates
@@ -84,7 +84,7 @@ This process is the most helpful in the case of banks or any other organization 
 
 **2. Authentication with passwords**
 
-Passwords are considered one of the most prevalent ways of continuous authentication. These are a combination of letters, numbers, strings or any special character that a person uses to protect their network. It is extremely important to [create strong passwords](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/) that use all the above-mentioned combinations to give additional security to your network. However, nowadays, these passwords have become more prone to various phishing acts as they can be easily hacked by cybercriminals. 
+Passwords are considered one of the most prevalent ways of continuous authentication. These are a combination of letters, numbers, strings or any special character that a person uses to protect their network. It is extremely important to [create strong passwords](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/) that use all the above-mentioned combinations to give additional security to your network. However, nowadays, these passwords have become more prone to various phishing acts as they can be easily hacked by cybercriminals. 
 
 The main reason for passwords losing their effectiveness is due to the fact that many people employ similar passwords for all their accounts as they think they would not be able to remember a different password for every online account. Using similar passwords can easily help imposters hack into a system. Hence, it is advisable that people must use strong and different passwords for all their online accounts to prevent themselves from all fraudulent activities.  
 
@@ -118,7 +118,7 @@ The consumer is not required to enter the password every time they log on to a s
 
 *   **Multi-factor authentication**
 
-[Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) allows users to add various layers of protection to their data. This method requires additional authentication other than a password, including a mobile code, captcha verification, fingerprint, etc.
+[Multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) allows users to add various layers of protection to their data. This method requires additional authentication other than a password, including a mobile code, captcha verification, fingerprint, etc.
 
 
 
@@ -131,7 +131,7 @@ All these **authentication methods are provided by LoginRadius make the login an
 
 ## Conclusion 
 
-Many businesses have progressed ahead of password-based authentication and embraced the technology of continuous authentication to intensify the client experience on their network and keep their data secured. [Access management](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-iam/) has become easier, and also the need for remembering complex passcodes has diminished with this method. Moreover, continuous authentication systems like biometrics further prevent a data breach in the form of cybercrime. 
+Many businesses have progressed ahead of password-based authentication and embraced the technology of continuous authentication to intensify the client experience on their network and keep their data secured. [Access management](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/) has become easier, and also the need for remembering complex passcodes has diminished with this method. Moreover, continuous authentication systems like biometrics further prevent a data breach in the form of cybercrime. 
 
 
 

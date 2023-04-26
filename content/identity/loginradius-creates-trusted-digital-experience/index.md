@@ -39,7 +39,7 @@ Many people think that adding a robust layer of security would certainly hamper 
 
 So, what’s the trick that helps market leaders stay ahead of the curve? How do they secure consumer data without affecting the consumer experience?
 
-Well, the key lies in creating a perfect harmony of security and user experience through a CIAM ([Consumer Identity and Access Management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/)) solution that helps scale business growth.
+Well, the key lies in creating a perfect harmony of security and user experience through a CIAM ([Consumer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/)) solution that helps scale business growth.
 
 Yes, here’s the point where LoginRadius comes into action!
 
@@ -61,7 +61,7 @@ Moreover, the best-in-class security that comes with the LoginRadius Identity Pl
 
 ## How LoginRadius Bridges the Gap Between Consumer Experience and Security? 
 
-At LoginRadius, we understand the importance of delivering [user experience and security](https://www.loginradius.com/blog/start-with-identity/balancing-security-cx/) to our clients to ensure their clients and potential customers enjoy a frictionless experience while navigating their platform. 
+At LoginRadius, we understand the importance of delivering [user experience and security](https://www.loginradius.com/blog/identity/balancing-security-cx/) to our clients to ensure their clients and potential customers enjoy a frictionless experience while navigating their platform. 
 
 Here’s the list of our security features that reinforces consumer trust:
 
@@ -77,7 +77,7 @@ Apart from this, the LoginRadius’ APIs use OpenID Connect (OAuth 2.0 protocol)
 
 Our legal team ensures that the LoginRadius Identity Platform adheres to strict and updated government regulations, compliances, and policies regarding information security. 
 
-**Also Read**: [Working With Industry Authorization: A Beginner's Guide to OAuth 2.0](https://www.loginradius.com/blog/start-with-identity/OAuth2.0-guide/)
+**Also Read**: [Working With Industry Authorization: A Beginner's Guide to OAuth 2.0](https://www.loginradius.com/blog/identity/oauth2-0-guide/)
 
 At the same time, we also ensure delivering the finest consumer experience by: 
 

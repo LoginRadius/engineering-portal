@@ -19,7 +19,7 @@ Any interaction between a user and a company requires a layer of authentication.
 
 According to IBM’s [Cost of a Data Breach 2021 report](https://www.ibm.com/in-en/security/data-breach),  the money lost increased from  $3.86 million to $4.24 million, the highest average in 17 years. Remote work due to COVID-19 is the main factor that increased this cost. 
 
-Compromised credentials were responsible for 20% of breaches. Artificial intelligence in automation and security provided considerable cost mitigation, up to $3.81 million less than organizations without it. However, those with a [mature zero-trust approach](https://www.loginradius.com/blog/start-with-identity/beginners-guide-zero-trust-security/) experienced an average cost of a breach of about $1.76 million which is less than organisations without zero trust.
+Compromised credentials were responsible for 20% of breaches. Artificial intelligence in automation and security provided considerable cost mitigation, up to $3.81 million less than organizations without it. However, those with a [mature zero-trust approach](https://www.loginradius.com/blog/identity/beginners-guide-zero-trust-security/) experienced an average cost of a breach of about $1.76 million which is less than organisations without zero trust.
 
 
 ## The Future Trends in Consumer Authentication 
@@ -71,7 +71,7 @@ Authorized users across many networks and continents can securely access the inf
 
 Authentication-as-a-Service or AaaS provides unique, secure, distributed authentication and a smooth and streamlined experience.
 
-As another customer authentication future trend, cloud-based authentication uses [Single Sign-On strategies](https://www.loginradius.com/blog/start-with-identity/sso-business-strategy/) that allow users to access resources through different devices connected to the cloud. With cloud-based authentication, the business can leverage many more comprehensive features across many devices without reducing the quality of user experience.
+As another customer authentication future trend, cloud-based authentication uses [Single Sign-On strategies](https://www.loginradius.com/blog/identity/sso-business-strategy/) that allow users to access resources through different devices connected to the cloud. With cloud-based authentication, the business can leverage many more comprehensive features across many devices without reducing the quality of user experience.
 
 
 ## Conclusion 

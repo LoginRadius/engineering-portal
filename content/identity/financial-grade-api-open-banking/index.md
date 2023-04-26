@@ -14,7 +14,7 @@ Open banking has revolutionized the way we use conventional banking as it offers
 
 With open banking, consumers can leverage bank accounts information and data networking across diverse institutions through APIs (application programming interfaces), which has reshaped the entire banking industry. 
 
-When it comes to [securing consumer data](https://www.loginradius.com/blog/start-with-identity/account-security-consumers/) and critical information regarding banks and other financial institutions, FAPI (financial grade API) becomes the need of the hour. 
+When it comes to [securing consumer data](https://www.loginradius.com/blog/identity/account-security-consumers/) and critical information regarding banks and other financial institutions, FAPI (financial grade API) becomes the need of the hour. 
 
 In a nutshell, open banking is reinforced and strengthened through FAPI, a security framework offered through OpenID Foundation providing technical guidance and essential requirements for secure use of APIs in financial services. 
 
@@ -41,7 +41,7 @@ Security becomes a primary concern when it comes to processing consumer banking 
 
 It is an OpenID Foundation (OIDF) standard that leverage OAuth 2.0 process flow to add an identity layer to obtain basic profile information about the End-User in an interoperable and REST-like manner or verify the identity of the End-User based on the authentication done by an Authorization Server or Identity Provider (IDP).
 
-[OpenID Connect](https://www.loginradius.com/blog/start-with-identity/what-is-openid-connect/) supports clients of all types, including web-based, mobile, and JavaScript clients, to request and receive information about authenticated sessions and end-users. 
+[OpenID Connect](https://www.loginradius.com/blog/identity/what-is-openid-connect/) supports clients of all types, including web-based, mobile, and JavaScript clients, to request and receive information about authenticated sessions and end-users. 
 
 By implementing OpenID Connect, leveraging OAuth 2.0 fabricates a unified framework that promises mobile native applications, secure APIs, and browser applications in a single, cohesive architecture.
 
@@ -70,7 +70,7 @@ The need for FAPI has recently increased since carrying out banking-related tran
 
 Since FAPI offers technical specifications to scale diverse APIs through improved OpenID Connect and OAuth 2.0 processes, both of them provide enhanced security features uniquely when combined with robust FAPI guidelines. 
 
-Now, as we know, [OAuth 2.0](https://www.loginradius.com/blog/start-with-identity/oauth2.0-guide/) is an authorization protocol, which offers third-party applications delegated access to an HTTP resource securely; OpenIDto Connect seamlessly builds another stringent security layer. Both of them work harmoniously to authenticate through the OAuth authorization server. 
+Now, as we know, [OAuth 2.0](/blog/identity/oauth2-0-guide/) is an authorization protocol, which offers third-party applications delegated access to an HTTP resource securely; OpenIDto Connect seamlessly builds another stringent security layer. Both of them work harmoniously to authenticate through the OAuth authorization server. 
 
 As we know, online banking services require stringent security; FAPI helps secure financial APIs by flawlessly binding the end-user, client, and endpoint. 
 

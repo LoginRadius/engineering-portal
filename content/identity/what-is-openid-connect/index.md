@@ -11,7 +11,7 @@ metadescription: "OpenID Connect is a new protocol that can be used to verify a 
 
 ---
 
-OpenID Connect has brought a revolution in the authentication process and ascended by leaps and bounds. It is primarily used in the [single sign-on](https://www.loginradius.com/blog/start-with-identity/what-is-single-sign-on/) (SSO) and identity provision on the web. The main reason behind its success is the JSON-based ID tokens (JWT) delivered via the OAuth 2.0 process flow.
+OpenID Connect has brought a revolution in the authentication process and ascended by leaps and bounds. It is primarily used in the [single sign-on](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) (SSO) and identity provision on the web. The main reason behind its success is the JSON-based ID tokens (JWT) delivered via the OAuth 2.0 process flow.
 
 Firstly, let’s have a quick look at OAuth 2.0. 
 

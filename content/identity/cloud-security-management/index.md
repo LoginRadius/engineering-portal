@@ -50,7 +50,7 @@ The considerations for cloud security management involve:
 
 
 
-*   **Implementing a cybersecurity culture**: This implementation will be at the forefront of [data security](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/). It involves educating the human resources at a company about cloud security and methods to ensure security. 
+*   **Implementing a cybersecurity culture**: This implementation will be at the forefront of [data security](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/). It involves educating the human resources at a company about cloud security and methods to ensure security. 
 
  
 
@@ -93,7 +93,7 @@ The platform will work towards the proper implementation of policies and cloud s
 
 *   **Automated security controls**
 
-The security controls are implemented automatically with the help of an** **artificial intelligence system. Therefore, this cuts out most hassles that come with [cybersecurity](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
+The security controls are implemented automatically with the help of an** **artificial intelligence system. Therefore, this cuts out most hassles that come with [cybersecurity](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
 
 
 ## Features of an Ideal Security Management Platform 
@@ -161,7 +161,7 @@ An enterprise will be able to access a multi-tenant cloud. This system involves 
 
 **3. Adaptation**
 
-Through the LoginRadius Identity Platform, one will be able to receive growth-specific assistance. LoginRadius provides a list of [security management standards in cloud computing](https://www.loginradius.com/blog/start-with-identity/2021/01/identity-management-in-cloud-computing/) according to the size of the enterprise. They are:
+Through the LoginRadius Identity Platform, one will be able to receive growth-specific assistance. LoginRadius provides a list of [security management standards in cloud computing](https://www.loginradius.com/blog/identity/2021/01/identity-management-in-cloud-computing/) according to the size of the enterprise. They are:
 
 
 

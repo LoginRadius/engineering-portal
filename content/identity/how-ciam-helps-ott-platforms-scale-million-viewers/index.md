@@ -34,14 +34,14 @@ No OTT business can give precise predictions regarding the upsurge in the number
 
 Thus, businesses need to understand the importance of a robust and scalable CIAM solution that can handle a sudden rush in the number of logins or sign-ups without hampering the user experience.
 
-With a [CIAM solution](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) like LoginRadius, you can be sure enough to deliver the best user experience to your existing clients and potential subscribers as our cloud infrastructure automatically scales to accommodate swiftly changing loads of data storage, account creation, consumer authentication, new application deployment, and more.
+With a [CIAM solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) like LoginRadius, you can be sure enough to deliver the best user experience to your existing clients and potential subscribers as our cloud infrastructure automatically scales to accommodate swiftly changing loads of data storage, account creation, consumer authentication, new application deployment, and more.
 
-What’s more? You get the highest level of security through [robust authentication](https://www.loginradius.com/blog/start-with-identity/assess-improve-your-authentication-system/) mechanisms, including multi-factor authentication, risk-based authentication, and more. 
+What’s more? You get the highest level of security through [robust authentication](https://www.loginradius.com/blog/identity/assess-improve-your-authentication-system/) mechanisms, including multi-factor authentication, risk-based authentication, and more. 
 
 
 ## Security Isn’t a Luxury Anymore; It’s the Absolute Necessity! 
 
-Media businesses should understand that offering a great user experience through a highly-scalable infrastructure is crucial but not at the expense of [poor login](https://www.loginradius.com/blog/start-with-identity/poor-login-concurrency-impact-ott-platforms/) and security. 
+Media businesses should understand that offering a great user experience through a highly-scalable infrastructure is crucial but not at the expense of [poor login](https://www.loginradius.com/blog/identity/poor-login-concurrency-impact-ott-platforms/) and security. 
 
 Balancing user experience with robust security is the need for OTT platforms since cybercriminals are already targeting consumer identities by exploiting weak layers of security. 
 
@@ -60,7 +60,7 @@ Here are some reasons why OTT platforms must choose LoginRadius as their identit
 
 
 
-* **Auto-scalable infrastructure:**  LoginRadius empowers businesses to deliver a secure and delightful user experience to their clients through its comprehensive and scalable consumer identity and secure access management platform. With 100% uptime and 35 data centers across the globe, LoginRadius’ cloud-based platform can [scale to 100s of millions of users](https://www.loginradius.com/blog/start-with-identity/handling-scalability-security-loginradius/) in a couple of seconds.
+* **Auto-scalable infrastructure:**  LoginRadius empowers businesses to deliver a secure and delightful user experience to their clients through its comprehensive and scalable consumer identity and secure access management platform. With 100% uptime and 35 data centers across the globe, LoginRadius’ cloud-based platform can [scale to 100s of millions of users](https://www.loginradius.com/blog/identity/handling-scalability-security-loginradius/) in a couple of seconds.
 * **Low-friction user registration:** LoginRadius offers flexible account setup choices like standard login, social login, and self-serve registration for hassle-free entry into your web or mobile application.
 * **Multi-factor authentication (MFA):** LoginRadius offers identity management for developers by making it easier to safeguard consumer data with extra protection layers. The CIAM provider allows a plethora of authentication methods, including phone calls, SMS/text messages, email verification, time-based code, hardware token, security questions, biometrics, Google Authenticator, etc., each time they want to access their accounts.
 * **Single sign-on (SSO):** SSO can provide easy access to multiple websites or applications using a single set of credentials. Developers can connect with external identity providers by implementing OAuth 2.0, SAML, or OpenID Connect standards. LoginRadius offers different ways to integrate web, mobile, and [federated SSO](https://www.loginradius.com/federated-sso/).

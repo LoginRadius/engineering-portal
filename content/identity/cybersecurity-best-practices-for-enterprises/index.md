@@ -25,7 +25,7 @@ Here are some cybersecurity best practices this infographic will cover.
 
 ### Use tougher security questions.
 
-Security questions prevent imposters from infiltrating the verification process. So what does [a good security question](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/) look like? 
+Security questions prevent imposters from infiltrating the verification process. So what does [a good security question](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/) look like? 
 
 The best ones will make it easy for legitimate users to authenticate themselves. They should be: 
 

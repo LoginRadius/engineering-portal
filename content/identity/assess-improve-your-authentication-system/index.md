@@ -13,7 +13,7 @@ The digitally advanced business landscape has offered enormous opportunities to 
 
 Businesses leverage cutting-edge technologies to accelerate their growth by offering seamless experiences to their consumers whenever and wherever they want. 
 
-However, security is still one of the most common bottlenecks of every industry, which can’t be overlooked, especially when the number of [data breaches is soaring](https://www.loginradius.com/blog/start-with-identity/how-to-handle-data-breaches/) day by day. 
+However, security is still one of the most common bottlenecks of every industry, which can’t be overlooked, especially when the number of [data breaches is soaring](https://www.loginradius.com/blog/identity/how-to-handle-data-breaches/) day by day. 
 
 Whether we talk about data leaks or identity thefts, businesses that become victims of security breaches are compromising their brand reputation and losing millions of dollars every year. 
 
@@ -30,7 +30,7 @@ Let’s dig deeper into this and understand how enterprises can evaluate the qua
 
 ## Authentication and Authorization
 
-Before we inch towards understanding the aspects of a robust [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/) mechanism, let’s quickly understand the difference between authentication and authorization. 
+Before we inch towards understanding the aspects of a robust [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/) mechanism, let’s quickly understand the difference between authentication and authorization. 
 
 
 ### What is Authentication
@@ -53,7 +53,7 @@ Let’s understand the core of utilizing authentication and authorization and ho
 
 For instance, an organization will allow all its employees to access their workplace systems (that’s authentication). But then, not everyone will have the right to access its gated data and resources (that’s authorization).
 
-Implementing authentication with the proper authorization techniques [through a CIAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (consumer identity and access management) solution can protect organizations, while streamlined access will enable its workforce to be more productive.
+Implementing authentication with the proper authorization techniques [through a CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (consumer identity and access management) solution can protect organizations, while streamlined access will enable its workforce to be more productive.
 
 A CIAM solution uses authentication and authorization technologies like JWT, SAML, OpenID Authorization, and OAuth.
 
@@ -63,7 +63,7 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 
 
 * **Password-based Authentication:** It is a simple method of authentication that requires a password to verify the user's identity. 
-* **Passwordless Authentication:** In this method, a user is verified through [OTP or a magic link](https://www.loginradius.com/blog/start-with-identity/loginradius-launches-passwordless-login-with-magic-link-or-otp/) delivered to the registered email or phone number.
+* **Passwordless Authentication:** In this method, a user is verified through [OTP or a magic link](https://www.loginradius.com/blog/identity/loginradius-launches-passwordless-login-with-magic-link-or-otp/) delivered to the registered email or phone number.
 * **2FA/MFA** **(Multi-factor Authentication):** It requires more than one security level, like an additional PIN or security question, to identify a user and grant access to a system. 
 * **Single sign-on (SSO):** It allows users to access multiple applications with a single set of credentials. 
 * **Social Authentication:** It verifies and authenticates users with existing credentials from social networking platforms.
@@ -92,7 +92,7 @@ Since we’ve got a fair understanding of the authentication and authorization s
 
 One of the essential characteristics of a robust authentication system is functional stability. The authentication system, or in other words, a CIAM solution, must strictly adhere to functional completeness, correctness, and appropriateness. 
 
-Considering the new security challenges, the CIAM solution must adapt to the diverse security environment and offer stringent security in every situation.For instance, the LoginRadius CIAM offers [Risk-based Authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) (RBA) that automatically kicks in and adds another layer of authentication in a hazardous environment. 
+Considering the new security challenges, the CIAM solution must adapt to the diverse security environment and offer stringent security in every situation.For instance, the LoginRadius CIAM offers [Risk-based Authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) that automatically kicks in and adds another layer of authentication in a hazardous environment. 
 
 
 ### #2. Reliability
@@ -152,7 +152,7 @@ Last but not least, usability must be considered while choosing a reliable authe
 
 The LoginRadius CIAM helps businesses deliver a flawless user experience through its state-of-the-art user interface reinforced by robust security. 
 
-Also, the cloud CIAM offers numerous ways to authenticate users. Businesses can leverage [social login](https://www.loginradius.com/blog/start-with-identity/what-is-social-login/), passwordless login, SSO, and more with one solution. 
+Also, the cloud CIAM offers numerous ways to authenticate users. Businesses can leverage [social login](https://www.loginradius.com/blog/identity/what-is-social-login/), passwordless login, SSO, and more with one solution. 
 
 
 ## Final Thoughts 

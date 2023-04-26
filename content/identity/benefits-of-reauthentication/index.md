@@ -43,7 +43,7 @@ Re-authentication ensures that there is minimal effort to be put on behalf of th
 
 ### 4. It integrates enhanced password policy.
 
-Re-authentication helps [implement better password policies](https://www.loginradius.com/blog/start-with-identity/loginradius-password-policy-business-consumer/) in an enterprise. This can be regarding how an employee uses the password and manages it. For instance, who can change the password, what can be the length of the password, and other similar password settings? Some of the password policies are:
+Re-authentication helps [implement better password policies](https://www.loginradius.com/blog/identity/loginradius-password-policy-business-consumer/) in an enterprise. This can be regarding how an employee uses the password and manages it. For instance, who can change the password, what can be the length of the password, and other similar password settings? Some of the password policies are:
 
 
 

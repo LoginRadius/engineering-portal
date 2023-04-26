@@ -11,7 +11,7 @@ metadescription: "Single-tenant cloud vs multi-tenant - Understand the differenc
 ---
 
 
-Tenancy in [cloud computing](https://www.loginradius.com/blog/start-with-identity/2021/01/identity-management-in-cloud-computing/) refers to the sharing of computing resources in a private or public environment that is isolated from other users and kept secret. Tenancy in SaaS is divided into two types: single-tenant SaaS and multi-tenant SaaS.
+Tenancy in [cloud computing](https://www.loginradius.com/blog/identity/2021/01/identity-management-in-cloud-computing/) refers to the sharing of computing resources in a private or public environment that is isolated from other users and kept secret. Tenancy in SaaS is divided into two types: single-tenant SaaS and multi-tenant SaaS.
 
 
 ## What is a Single-Tenant Architecture
@@ -51,7 +51,7 @@ Cloud providers offer multi-tenancy as a gateway to share the same application w
 
 
 
-*   **Scalable**: It is very easy to [onboard users](https://www.loginradius.com/blog/start-with-identity/2021/01/user-onboarding-revamp-application/) with a multi-tenant cloud. In fact, there is no difference between onboarding ten users from a thousand companies or a thousand users from one company.
+*   **Scalable**: It is very easy to [onboard users](https://www.loginradius.com/blog/identity/2021/01/user-onboarding-revamp-application/) with a multi-tenant cloud. In fact, there is no difference between onboarding ten users from a thousand companies or a thousand users from one company.
 *   **Saves money**: Multi-tenancy allows resources to be consolidated and allocated efficiently, thereby saving a lot of expenses. 
 *   **Flexible**: A multi-tenant cloud can allocate a pool of resources to the users who need it, as their needs scale up and down.
 *   **Efficient**: Multitenancy reduces the need to manage infrastructure and handle updates. 
@@ -64,7 +64,7 @@ Cloud providers offer multi-tenancy as a gateway to share the same application w
 
 
 
-*   **Security**: Cybercriminals can take advantage of multiple access points to exploit [systems vulnerabilities](https://www.loginradius.com/blog/start-with-identity/2021/01/7-web-app-sec-threats/). 
+*   **Security**: Cybercriminals can take advantage of multiple access points to exploit [systems vulnerabilities](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/). 
 *   **Backup and restoration**: A lot of companies fail to keep up with the latest system backup advances and restore options. 
 *   **Limited management**: They do not provide a lot of customization options, and that reduces the consumer's ability to interact with the system.
 

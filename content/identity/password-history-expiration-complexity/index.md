@@ -38,7 +38,7 @@ Most of the passwords contain letters, numbers, special characters, and symbols,
 
 Once an account is created on any website, it prompts us to set a new password for the site. The passwords we set that time can be categorized into two types, Weak and Strong passwords.
 
- Let’s see some very common practices for [weak passwords](https://www.loginradius.com/blog/start-with-identity/2019/12/worst-passwords-list-2019/).
+ Let’s see some very common practices for [weak passwords](https://www.loginradius.com/blog/identity/2019/12/worst-passwords-list-2019/).
 
 - **Simple Passwords:** Passwords set without giving much thought about it are called simple passwords. For example: "password", "qwerty", "123456" etc. The password cracking software works in such a way that it looks for these types of obvious combinations.
 
@@ -48,7 +48,7 @@ Once an account is created on any website, it prompts us to set a new password f
 
 ### How Can We Create Strong Passwords?
 
-By now, the need for a [strong password](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/) must be clear for you, and you must be eager to know in what ways a password can be made stronger. Calm down! We are about to cover some important points by which password security can be enhanced many folds.
+By now, the need for a [strong password](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/) must be clear for you, and you must be eager to know in what ways a password can be made stronger. Calm down! We are about to cover some important points by which password security can be enhanced many folds.
 
 There are various ways to enhance the security of your password; however, I am highlighting three such points which every business and individual needs to ponder while enhancing the security of their passwords. These are :
 

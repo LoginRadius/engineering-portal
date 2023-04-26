@@ -29,7 +29,7 @@ The following are the benefits of Microsoft Social Login:
 
 1.  Easy and hassle-free registration for consumers who have a Microsoft account as it skips the filling of lengthy forms.
     
-2.  Increase the chances of converting the leads to Consumers and [speed up the business/sale](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/) by doing #1.
+2.  Increase the chances of converting the leads to Consumers and [speed up the business/sale](/blog/growth/sign-up-tips-conversion-rate/) by doing #1.
     
 3.  Users can also login without remembering their user ID and Password.
     
@@ -59,7 +59,7 @@ First you need to configure an app on Microsoft. While doing this, Microsoft wil
 
 ## Conclusion
 
-In this article, we talked about applying [Social login](https://www.loginradius.com/blog/start-with-identity/2021/02/social-login-infographic/) using a Microsoft account and how it will enhance businesses. This feature removes the user's mental load to remember each password created on different websites. However, before implementing any functionality on your website, analyze and consider the pros and cons from every possible angle.  
+In this article, we talked about applying [Social login](https://www.loginradius.com/blog/identity/2021/02/social-login-infographic/) using a Microsoft account and how it will enhance businesses. This feature removes the user's mental load to remember each password created on different websites. However, before implementing any functionality on your website, analyze and consider the pros and cons from every possible angle.  
   
 
 Cheers!

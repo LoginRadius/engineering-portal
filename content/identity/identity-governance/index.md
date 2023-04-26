@@ -32,7 +32,7 @@ Among other merits, IGA is also important for retaining efficiency through a sea
 
 ### 2. _“_Small-medium enterprises need not employ Identity_ _Governance and Authorisation.”
 
-User identities are an essential factor in the protection and monitoring of data. In a predominantly tech-intensive world, enterprises of all sizes need to do their best at safeguarding classified and personal information from [cyber-attacks](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/). 
+User identities are an essential factor in the protection and monitoring of data. In a predominantly tech-intensive world, enterprises of all sizes need to do their best at safeguarding classified and personal information from [cyber-attacks](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/). 
 
 No matter how big or small, a firm needs to protect its cyber existence and the trust that its consumers placed in it.
 
@@ -61,7 +61,7 @@ IGA adds more functionality to the mainstream Identity Management systems. IGA e
 
 ### 1. Consumers can get timely access to the data they want.
 
-In the digital age of immediacy and the consequent instant availability of information, we’re no longer used to waiting for hours or even minutes to have access to the information needed. Identity Governance can be a key contributor to [improving CX](https://www.loginradius.com/blog/start-with-identity/2019/11/improve-customer-experience-ecommerce/) (Consumer Experience).
+In the digital age of immediacy and the consequent instant availability of information, we’re no longer used to waiting for hours or even minutes to have access to the information needed. Identity Governance can be a key contributor to [improving CX](https://www.loginradius.com/blog/identity/2019/11/improve-customer-experience-ecommerce/) (Consumer Experience).
 
 
 ### 2. You can handle access requests and track danger requests.
@@ -83,7 +83,7 @@ This restates the importance of IGA, through which the firm can allow remote acc
 
 ### 4. Helpful in meeting regulations.
 
-Since IGA was essentially built to meet corporate regulations on data accessibility, it might seem obvious that it helps an entity meet these regulations. However, you will at first need to make sure that the necessary controls are in place to [comply with the security and privacy standards](https://www.loginradius.com/blog/start-with-identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/) set out by data-laws.
+Since IGA was essentially built to meet corporate regulations on data accessibility, it might seem obvious that it helps an entity meet these regulations. However, you will at first need to make sure that the necessary controls are in place to [comply with the security and privacy standards](https://www.loginradius.com/blog/identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/) set out by data-laws.
 
 
 ### 5. Support to auditing
@@ -96,7 +96,7 @@ Applications, devices, data, and stakeholders are all linked through the IGA sol
 
 ![loginradius-identity-governance-solution](loginradius-identity-governance-solution.png)
 
-The fundamental factor underpinning IGA is [data governance](https://www.loginradius.com/blog/start-with-identity/2020/07/data-governance-best-practices/). LoginRadius offers world-class data governance, which, consequently, bolsters your organization’s cybersecurity and the virtual security of your consumers.
+The fundamental factor underpinning IGA is [data governance](https://www.loginradius.com/blog/identity/2020/07/data-governance-best-practices/). LoginRadius offers world-class data governance, which, consequently, bolsters your organization’s cybersecurity and the virtual security of your consumers.
 
 Here’s how LoginRadius’ data governance solutions are remarkably effective at aiding identity governance in your organization:
 

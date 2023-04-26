@@ -104,7 +104,7 @@ CIAM solutions are a requirement for every user’s profile, whether several hun
 -   Streamlined experience
     
 
-CIAM also helps to improve the overall intuitiveness of the platform. Research shows that the more [convenient a user experience](https://www.loginradius.com/blog/start-with-identity/new-age-ciam/) is on an e-commerce platform, the higher the sales skyrocket.
+CIAM also helps to improve the overall intuitiveness of the platform. Research shows that the more [convenient a user experience](https://www.loginradius.com/blog/identity/new-age-ciam/) is on an e-commerce platform, the higher the sales skyrocket.
 
   
 

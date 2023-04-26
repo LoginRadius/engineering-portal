@@ -46,7 +46,7 @@ A constant threat to credential harvesting has led to the adoption of **multi-fa
 
 ### 2. Calculates the risk vector
 
-With the introduction of work-from-home arrangements, the workplace of different users varies. Thus to cater to the needs of more complex requests, [adaptive multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/adaptive-authentication/) is here. 
+With the introduction of work-from-home arrangements, the workplace of different users varies. Thus to cater to the needs of more complex requests, [adaptive multi-factor authentication](https://www.loginradius.com/blog/identity/adaptive-authentication/) is here. 
 
 Adaptive Authentication is a method to send notifications or prompt the consumers to complete an additional step(s) to verify their identities when the authentication request is deemed malicious according to your organization's security policy.
 
@@ -83,7 +83,7 @@ IVR is an excellent way of conducting surveys and collecting necessary data for 
 
 The use of technology in various ways has been a great factor in accelerating the growth of many sectors. These have resulted in the enhancement of product quality, improvement of delivery time, and reduction in costs. The banking sector is one sector that utilizes technology to add value to both its members and other commercial businesses. 
 
-Customers must feel and be sure that the bank's employees only can access their accounts and personal data. First-and second-factor authentication is now being replaced by newer technologies, specifically multi-factor authentication. This greater level of protection is gaining popularity in the wake of the growing threat of information theft and [identity theft](https://www.loginradius.com/blog/start-with-identity/identity-theft-frauds/) due to cyber-attacks.
+Customers must feel and be sure that the bank's employees only can access their accounts and personal data. First-and second-factor authentication is now being replaced by newer technologies, specifically multi-factor authentication. This greater level of protection is gaining popularity in the wake of the growing threat of information theft and [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) due to cyber-attacks.
 
 
 [![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

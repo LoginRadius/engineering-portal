@@ -21,11 +21,11 @@ Mobile-savvy restaurant owners are seeing a boom in engagement, but so are the s
 
   
 
-MFA needs one or more additional verification criteria in addition to the login and [secure password](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/), which reduces the chances of a successful cyber attack.
+MFA needs one or more additional verification criteria in addition to the login and [secure password](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/), which reduces the chances of a successful cyber attack.
 
 ## Why Should Restaurants Implement MFA?
 
-The major [benefit of MFA](https://www.loginradius.com/blog/start-with-identity/benefits-of-mfa/#:~:text=Put%20simply%2C%20MFA%20reduces%20the,part%20of%20their%20best%20practices.) is that it increases the security of your business by forcing users to identify themselves with more than just a username and password. Despite been for a long time, usernames and passwords can be stolen by third parties and are vulnerable to brute force attacks.
+The major [benefit of MFA](https://www.loginradius.com/blog/identity/benefits-of-mfa/#:~:text=Put%20simply%2C%20MFA%20reduces%20the,part%20of%20their%20best%20practices.) is that it increases the security of your business by forcing users to identify themselves with more than just a username and password. Despite been for a long time, usernames and passwords can be stolen by third parties and are vulnerable to brute force attacks.
 
   
 
@@ -108,7 +108,7 @@ Merchants must determine how high to elevate the threat level and at what degree
 
   
 
-In an age where, even after the pandemic, [digital transformation](https://www.loginradius.com/blog/start-with-identity/digital-transformation-consumer-iam/), online ordering, and online marketing, particularly among QSRs, will endure, he added, the necessity to employ modern technology and acceptable levels of friction remain especially essential.
+In an age where, even after the pandemic, [digital transformation](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/), online ordering, and online marketing, particularly among QSRs, will endure, he added, the necessity to employ modern technology and acceptable levels of friction remain especially essential.
 
   
 

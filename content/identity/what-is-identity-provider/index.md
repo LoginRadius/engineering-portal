@@ -33,7 +33,7 @@ IdPs not only simplify the user's login experience but also improve security by 
 
 ## How Do IdPs Work?
 
-The working mechanism of an identity provider is simple. When you sign up or apply to get a digital ID, you have to provide unique information. This can be your username, password, answer to a security question, captcha, etc. Once you have provided this unique information, you will receive a [digital Id](https://www.loginradius.com/blog/start-with-identity/2019/10/digital-identity-management/) that proves your identity. 
+The working mechanism of an identity provider is simple. When you sign up or apply to get a digital ID, you have to provide unique information. This can be your username, password, answer to a security question, captcha, etc. Once you have provided this unique information, you will receive a [digital Id](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/) that proves your identity. 
 
 Without getting the right information, you will not be issued the Id. It is also worth noting that identity providers _don’t_ store the username and password of their users. Instead, they verify the information you type in to issue a token (also known as digital Id).
 
@@ -95,7 +95,7 @@ You can implement a comprehensive KYC policy to ensure the credentials of each c
 
 ### 2. Multi-factor authentication
 
-Presenting [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) for all end-users and employees will increase the security of your accounts and ensure no third party can gain access. While this method takes a few extra seconds, it can easily be used to identify any hackers.
+Presenting [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) for all end-users and employees will increase the security of your accounts and ensure no third party can gain access. While this method takes a few extra seconds, it can easily be used to identify any hackers.
 
 ### 3. Single Sign-On (SSO)
 

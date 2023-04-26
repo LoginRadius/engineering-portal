@@ -10,7 +10,7 @@ metadescription: "Learn and checkout the simple steps to secure your Wi-Fi priva
 metatitle: "10 Tips to Secure your Wi-Fi against hackers"
 ---
 
-Wi-Fi is utilized by people globally since it has become an integral part of our fast-paced everyday lives. But, there's no such thing as 100% security or being hacker-proof. However, there are simple steps you can take to safeguard your [privacy and data security](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/) that are pretty easy and straightforward.
+Wi-Fi is utilized by people globally since it has become an integral part of our fast-paced everyday lives. But, there's no such thing as 100% security or being hacker-proof. However, there are simple steps you can take to safeguard your [privacy and data security](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) that are pretty easy and straightforward.
 
   
 

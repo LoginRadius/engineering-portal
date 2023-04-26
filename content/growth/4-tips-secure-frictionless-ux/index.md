@@ -12,7 +12,7 @@ metadescription: "Blending user experience with security while minimizing fricti
 
 The question of online privacy and security seems to only attract attention when a major cybersecurity threat occurs. Most people don’t spend too much time considering the safety of their data – not even when shopping online. 
 
-Sadly, many online stores and mobile apps also fail to take it into proper account. There’s a delicate balance they need to achieve between [data security and user experience](https://www.loginradius.com/blog/start-with-identity/balancing-security-cx/). While one does not necessarily negatively impact the other, ensuring that both are addressed equally well can be difficult. 
+Sadly, many online stores and mobile apps also fail to take it into proper account. There’s a delicate balance they need to achieve between [data security and user experience](https://www.loginradius.com/blog/identity/balancing-security-cx/). While one does not necessarily negatively impact the other, ensuring that both are addressed equally well can be difficult. 
 
 Let’s examine this intricate relationship and its importance. Read on to learn how you can improve it on your own website and within your own product. 
 

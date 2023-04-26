@@ -77,7 +77,7 @@ User authentication is crucial because it keeps unauthorized users from gaining 
 It's always important to note that authorization, on the other hand, is what dictates what users can access and do after they log in.
 
 
-While [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/2020/06/authentication-vs-authorization-infographic/) are often used interchangeably, these two different terms work together to create a secure login process.
+While [authentication and authorization](https://www.loginradius.com/blog/identity/2020/06/authentication-vs-authorization-infographic/) are often used interchangeably, these two different terms work together to create a secure login process.
 
 User authentication has the following tasks:
 

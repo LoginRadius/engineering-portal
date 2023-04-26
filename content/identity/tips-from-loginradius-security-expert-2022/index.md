@@ -50,7 +50,7 @@ Yes, your vendors may not take cybersecurity as seriously as your organization d
 
 It’s essential to evaluate the overall security posture of all of your third-party vendors to ensure they don’t pose a threat to your organization and your clients. 
 
-Moreover, a vendor risk assessment should also ensure that the vendors strictly adhere to the [global data privacy and security](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/) compliance standards, including GDPR, CCPA, and HIPAA. 
+Moreover, a vendor risk assessment should also ensure that the vendors strictly adhere to the [global data privacy and security](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) compliance standards, including GDPR, CCPA, and HIPAA. 
 
 
 ### #2. Strengthening endpoint security 
@@ -66,7 +66,7 @@ Besides incorporating firewalls and VPNs, organizations must train their staff m
 
 ### #3. Use tougher security questions
 
-Security questions prevent imposters from infiltrating the verification process. So what does [a good security question](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/) look like?
+Security questions prevent imposters from infiltrating the verification process. So what does [a good security question](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/) look like?
 
 The best ones will make it easy for legitimate users to authenticate themselves. They should be:
 
@@ -116,7 +116,7 @@ Restrict user access to certain areas and deactivate when they finish the job.
 
 A recent report from [Statista](https://www.statista.com/statistics/266161/websites-most-affected-by-phishing/) revealed that during the first quarter of 2021, 24.9% of phishing attacks worldwide were directed towards financial institutions, followed by social media. 
 
-Hackers can gain access to securing information by stealing the employee's login credentials or by using social engineering techniques like fake websites, [phishing](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/), and duplicate social media 
+Hackers can gain access to securing information by stealing the employee's login credentials or by using social engineering techniques like fake websites, [phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/), and duplicate social media 
 
 accounts.
 
@@ -129,7 +129,7 @@ Organizations embarking on a digital transformation journey and offering remote 
 
 Every business needs to think more carefully regarding the overall security mechanism to ensure total security even in challenging and risky situations. 
 
-Using the best industry practices and strictly following the tips mentioned earlier will help [enterprises secure their operations](https://www.loginradius.com/blog/start-with-identity/risk-management-essentials-enterprise/), protecting sensitive data.
+Using the best industry practices and strictly following the tips mentioned earlier will help [enterprises secure their operations](https://www.loginradius.com/blog/identity/risk-management-essentials-enterprise/), protecting sensitive data.
  
 
 

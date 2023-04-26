@@ -28,7 +28,7 @@ Using SMS authentication is quite simple and easy to understand. When a consumer
 
 
 
-SMS authentication is based on one of the three types of [multifactor authentication](https://www.loginradius.com/blog/start-with-identity/what-is-multi-factor-authentication/), i.e., **Possession based authentication**. In this type of MFA, the consumer is authenticated via something that only he can possess, which is the mobile handset.
+SMS authentication is based on one of the three types of [multifactor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/), i.e., **Possession based authentication**. In this type of MFA, the consumer is authenticated via something that only he can possess, which is the mobile handset.
 
 
 
@@ -49,7 +49,7 @@ Even after being so convenient and easy to operate, there are some demerits also
 
 1. **SIM Highjacking or Device theft:** It looks effortless to send the verification code on a mobile number and authenticate consumers based on that. But the Option of SMS authentication can be harmful if the SIM/device got lost or stolen by someone. As in this case, SIMs can easily be used on other mobile phones, and they will still receive the validation code.
 2. **Hacking:** Earlier, it was complicated to intercept GSM-based SMS, but as the technologies are evolving, hackers have also got more power in their hands. The regular text which is sent and received over mobile phones can easily be intercepted today.
-3. **Social Engineering Attacks:** Compared to earlier days, more devices are now connected to the internet today. Today, [a simple phishing link](https://www.loginradius.com/blog/start-with-identity/phishing-for-identity/) via a text msg or any advertisement will do the job. If a consumer clicks on the link by mistake or falls into any such trap, all his data will be gained by hackers, including SMS.
+3. **Social Engineering Attacks:** Compared to earlier days, more devices are now connected to the internet today. Today, [a simple phishing link](https://www.loginradius.com/blog/identity/phishing-for-identity/) via a text msg or any advertisement will do the job. If a consumer clicks on the link by mistake or falls into any such trap, all his data will be gained by hackers, including SMS.
 
 
 [![phone-auth-DS](phone-auth-DS.png)](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/)
@@ -71,7 +71,7 @@ So to answer the big question, yes, it is better to have some two-factor authent
 
 Dropping the idea of SMS authentication might look easy. Still, it is a bit difficult for some organizations because, as we already mentioned, SMS authentication is a very well-established method and has been used for a long time. The convenience provided in authenticating the end-users is also unparalleled. 
 
-But businesses need to find an alternative for this as SMS authentication cannot be heavily relied upon. The key to achieving that is to find any other authentication method which is as easy, convenient, user-friendly, and secure at the same time. Going with the new trends in the technologies, [Biometric Authentication](https://www.loginradius.com/blog/start-with-identity/what-is-mob-biometric-authentication/) is one feasible solution. Well, we will indeed talk about that some other day :)
+But businesses need to find an alternative for this as SMS authentication cannot be heavily relied upon. The key to achieving that is to find any other authentication method which is as easy, convenient, user-friendly, and secure at the same time. Going with the new trends in the technologies, [Biometric Authentication](https://www.loginradius.com/blog/identity/what-is-mob-biometric-authentication/) is one feasible solution. Well, we will indeed talk about that some other day :)
 
 Cheers!
 

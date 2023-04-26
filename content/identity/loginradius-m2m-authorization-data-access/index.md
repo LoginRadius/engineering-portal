@@ -29,7 +29,7 @@ Let’s dig deeper into this and understand the role of M2M authorization and ho
 
 M2M Authorization is the process of providing remote systems with secure access to information. Using M2M Authorization, business systems can communicate autonomously and execute business functions based on predefined authorization.
 
-M2M apps use the Client Credentials Flow (defined in OAuth 2.0 RFC 6749), in which they pass along secure credentials to authenticate themselves and receive an [authorization token](https://www.loginradius.com/blog/start-with-identity/pros-cons-token-authentication/).
+M2M apps use the Client Credentials Flow (defined in OAuth 2.0 RFC 6749), in which they pass along secure credentials to authenticate themselves and receive an [authorization token](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/).
 
 LoginRadius understands the risks associated with data transfers, especially in cases where millions of interconnected applications and devices contact each other to gain access to specific resources or devices. This access requires a robust authorization mechanism. 
 
@@ -40,7 +40,7 @@ Machine-to-machine authorization from LoginRadius acts as a game-changer for the
 
 Services require authorization while saving and reading the data to and from the storage as a part of standard process and security measures. Businesses can use LoginRadius for autonomous authorization by creating two dedicated M2M apps with write and read permissions.
 
-For each M2M application, LoginRadius issues secure credentials, and services automatically get the authorization token from LoginRadius using these [secure credentials](https://www.loginradius.com/blog/start-with-identity/login-security/) to perform read or write operations. 
+For each M2M application, LoginRadius issues secure credentials, and services automatically get the authorization token from LoginRadius using these [secure credentials](https://www.loginradius.com/blog/identity/login-security/) to perform read or write operations. 
 
 [![m2m](m2m.png)](https://www.loginradius.com/resource/m-to-m-authorization-)
 
@@ -60,7 +60,7 @@ M2M Authorization offers secure access to improve business efficiency and ultima
 
 ## Final Thoughts 
 
-Businesses these days require a robust [authorization and authentication](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/) mechanism that can carry data access requests like a breeze without hampering the overall business process. 
+Businesses these days require a robust [authorization and authentication](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/) mechanism that can carry data access requests like a breeze without hampering the overall business process. 
 
 With LoginRadius M2M authorization, businesses can ensure a secure and reliable method of autonomous interactions since it aids business systems to achieve efficiency and, at the same time, eliminates the need for human intervention. 
 

@@ -12,7 +12,7 @@ metadescription: "Secure your accounts online by setting up 2FA. Know why two-fa
 
 How to set up 2FA on your accounts? And why is it important in the first place? As social media is becoming increasingly popular, security is becoming something of supreme importance. 
 
-Even though choosing a [strong password](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-choose-a-secure-password/) helps you in certain ways, by adopting 2FA, you can improve and enhance security further. So, let's know more about this extra layer of protection and how to set up 2FA on your accounts. 
+Even though choosing a [strong password](https://www.loginradius.com/blog/identity/2021/01/how-to-choose-a-secure-password/) helps you in certain ways, by adopting 2FA, you can improve and enhance security further. So, let's know more about this extra layer of protection and how to set up 2FA on your accounts. 
 
 First stop. 
 
@@ -21,12 +21,12 @@ First stop.
 
 2FA is one of the best security methods that use two layers to verify a consumer's identity. This means, rather than simply entering the password to log into an account, two-factor authentication requires a code to be sent via text message to the consumer's phone number or generated through an app.
 
-This type of verification code helps and ensures that only the authorized consumer can access their account. Similarly, [multi-factor authentication (MFA)](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) offers two or more authentication layers to approve account access for consumers. 
+This type of verification code helps and ensures that only the authorized consumer can access their account. Similarly, [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) offers two or more authentication layers to approve account access for consumers. 
 
 
 ## What are Authenticator Apps
 
-Authenticator apps are meant to be installed on your smartphones to obtain passcodes to sign in to your accounts. They are intended to be more secure than texting; they provide[ flexibility if you are traveling to a place where there is no mobile service](https://www.loginradius.com/blog/start-with-identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/).
+Authenticator apps are meant to be installed on your smartphones to obtain passcodes to sign in to your accounts. They are intended to be more secure than texting; they provide[ flexibility if you are traveling to a place where there is no mobile service](https://www.loginradius.com/blog/identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/).
 
 Some of the options include [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en), [Microsoft Authenticator Authy](https://authy.com/guides/microsoft/), or HDE OTP. 
 
@@ -193,7 +193,7 @@ Source: Kaspersky
 
 ## Why is 2FA important
 
-As cybercriminals are getting smarter, 2FA has become more mandatory than ever. Without it, you might end up leaving your [accounts vulnerable to hackers](https://www.loginradius.com/blog/start-with-identity/2020/12/login-security/) for sealing your personal information, hacking your online credit card details, and accessing your bank account. By adding the additional step to your account, you get the edge to prevent hackers from accessing your account. 
+As cybercriminals are getting smarter, 2FA has become more mandatory than ever. Without it, you might end up leaving your [accounts vulnerable to hackers](https://www.loginradius.com/blog/identity/2020/12/login-security/) for sealing your personal information, hacking your online credit card details, and accessing your bank account. By adding the additional step to your account, you get the edge to prevent hackers from accessing your account. 
 
 
 ## Setting Up 2FA with LoginRadius Adaptive 2FA/ MFA solution
@@ -201,7 +201,7 @@ As cybercriminals are getting smarter, 2FA has become more mandatory than ever. 
 
 ![setting-up-2fa-with-loginradius](setting-up-2fa-with-loginradius.png)
 
-LoginRadius provides multi-factor authentication via SMS, email, automated phone calls, account [security questions](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/), and authenticator apps to allow you a customized user experience.  
+LoginRadius provides multi-factor authentication via SMS, email, automated phone calls, account [security questions](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/), and authenticator apps to allow you a customized user experience.  
 
 Based on your business, you can choose to use LoginRadius's Identity Platform's Multi-factor authentication, which is an easy process. 
 
@@ -228,6 +228,6 @@ Similar to the SMS workflow, you can select standard email and password login, u
 
 ## Final Thoughts
 
-With [cybercrimes on the rise](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/), it is essential to make your online security measures more robust. Hence, to protect your account and the history, you need to learn how to set up 2fa on your accounts for an additional safety cover. It not only protects your online social accounts but other accounts as well.
+With [cybercrimes on the rise](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/), it is essential to make your online security measures more robust. Hence, to protect your account and the history, you need to learn how to set up 2fa on your accounts for an additional safety cover. It not only protects your online social accounts but other accounts as well.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

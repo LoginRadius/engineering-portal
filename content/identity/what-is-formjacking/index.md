@@ -16,7 +16,7 @@ In recent times, cryptocurrencies have progressed in both popularity and technic
 
 That being said, what better place to steal your financial information than a product order form on online shopping websites before you even hit the submit button—that's formjacking!
 
-To understand what other threats formjacking pose, let's get to the basics by exploring this unique kind of [cyberattack](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/).
+To understand what other threats formjacking pose, let's get to the basics by exploring this unique kind of [cyberattack](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/).
 
 
 ## What Is a Formjacking Attack 
@@ -36,7 +36,7 @@ It is quite complicated for security researchers to pinpoint a single attacker o
 
 Magecart is a club of hacker groups that have been behind the attacks on various websites. Attacks on Ticketmaster, Feedify, British Airways, and Newegg are only some of the Formjacking examples done by this consortium. 
 
-The group injects web-based card skimmers onto eCommerce sites to [steal payment card data or credit card information](https://www.loginradius.com/blog/start-with-identity/2020/04/corporate-account-takeover-attacks/) and other sensitive information right from online payment forms.
+The group injects web-based card skimmers onto eCommerce sites to [steal payment card data or credit card information](https://www.loginradius.com/blog/identity/2020/04/corporate-account-takeover-attacks/) and other sensitive information right from online payment forms.
 
 Magecart group started hacking into Magneto online stores; however, they have now altered their strategies and are increasingly using formjacking attacks to steal payment card details. 
 
@@ -74,7 +74,7 @@ So, it is solely upon the IT professionals to keep a constant check on their sys
 
 You may not be able to stop Formjacking before it attacks your system, but you can take steps to protect your personal details. 
 
-Use credit cards instead of debit cards while shopping online to reduce [financial risks](https://www.loginradius.com/blog/start-with-identity/2020/11/ecommerce-security/). The reason behind this is simple. 
+Use credit cards instead of debit cards while shopping online to reduce [financial risks](https://www.loginradius.com/blog/identity/2020/11/ecommerce-security/). The reason behind this is simple. 
 
 If someone uses your credit card information deceptively or indulges in card fraud, they will be exhausting the funds of the credit card companies. In the case of debit cards, the funds are directly tied to your checking account balance.
 
@@ -86,7 +86,7 @@ If someone uses your credit card information deceptively or indulges in card fra
 
 
 *   Make sure that your IT professionals are well-versed with what is formjacking. 
-*   Use the latest antivirus software; one with a reputable status can [safeguard your system](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/) from some if not all formjacking attacks. 
+*   Use the latest antivirus software; one with a reputable status can [safeguard your system](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) from some if not all formjacking attacks. 
 *   Run scans and tests to check for vulnerabilities in your systems and fix them before a cybercriminal can find them. 
 *   Every time your software gets a new update, run a test to look for discrepancies before launching it on the web. 
 *   Don't forget to monitor your systems' behavioral patterns so that you can detect suspicious patterns and block the apps that may cause damage to your system.

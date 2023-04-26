@@ -12,7 +12,7 @@ metadescription: "User insights helps brands build effective marketing campaigns
 
 ## Introduction
 
-Today, every business is jumping on the [digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/) bandwagon to ensure it stands ahead of the curve. And data is undeniably the essential fuel that keeps businesses up and running in this technologically driven world.
+Today, every business is jumping on the [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/) bandwagon to ensure it stands ahead of the curve. And data is undeniably the essential fuel that keeps businesses up and running in this technologically driven world.
 
 However, not every business understands the importance of the customer or user data, and they’re still relying on basic information about their potential customers. As a result, they lag behind their competitors. 
 
@@ -70,7 +70,7 @@ Hence, businesses can prepare better marketing campaigns to target potential cus
 
 ### Rule-Based Segmentation
 
-LoginRadius helps businesses understand their customers and improve their [marketing return on investment](https://www.loginradius.com/blog/start-with-identity/loginradius-roi-enterprises-infographic/) (ROI) by defining distinct customer segments based on collected data.
+LoginRadius helps businesses understand their customers and improve their [marketing return on investment](https://www.loginradius.com/blog/identity/loginradius-roi-enterprises-infographic/) (ROI) by defining distinct customer segments based on collected data.
 
 Marketers and sales professionals can formulate better marketing plans and encourage product development suited to the needs and interests of their customer base. Be more granular with your data selection with new field filters like country, age, gender, city, and state. 
 

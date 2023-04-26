@@ -92,7 +92,7 @@ You're entirely covered 24/7 with the phone, email, and live chat[ customer supp
 
 ### **Multi-factor Authentication**
 
-G Suite offers [2-step verification](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-setup-2fa-in-online-accounts/) that can enforce on all of your organization's users to ensure all the devices connecting to your network have been verified through phone and email.
+G Suite offers [2-step verification](https://www.loginradius.com/blog/identity/2021/01/how-to-setup-2fa-in-online-accounts/) that can enforce on all of your organization's users to ensure all the devices connecting to your network have been verified through phone and email.
 
 
 ## Integrating Google Apps

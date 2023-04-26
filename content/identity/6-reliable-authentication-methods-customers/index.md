@@ -67,7 +67,7 @@ MFA essentially adds an extra layer of security by requiring users to provide mo
 
 This could include a password, as well as a code that’s sent to the user’s mobile phone or email address. 
 
-[![mfa-eb](mfa-eb.png)](loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #2. SMS-based authentication

@@ -51,7 +51,7 @@ Moreover, the General Data Protection Regulation (GDPR), a legal framework appro
 
 For US citizens, the California Consumer Privacy Act (CCPA) is intended to protect unauthorized access to PII (Personally Identifiable Information).
 
-Companies not in compliance with the [GDPR and CCPA](https://www.loginradius.com/blog/start-with-identity/2019/09/ccpa-vs-gdpr-the-compliance-war/) face hefty fines and may end up tarnishing their brand reputation. 
+Companies not in compliance with the [GDPR and CCPA](https://www.loginradius.com/blog/identity/2019/09/ccpa-vs-gdpr-the-compliance-war/) face hefty fines and may end up tarnishing their brand reputation. 
 
 Businesses must consider the fact that these regulations not only apply when the responsible parties are established or operated within the countries but are also applicable when the concerned organizations are operated and located outside the countries but attracting the EU or the US residents. 
 
@@ -86,7 +86,7 @@ The paradigm shift in the way people used to work conventionally and adoption of
 
 There’s a huge surge in the number of data breaches during the COVID-19 pandemic as cybercriminals are significantly targeting the new vulnerabilities in a company’s overall defense system.
 
-**Also read**: [Protecting Organization from Cyber-Threats: Business at Risk during COVID-19](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/)
+**Also read**: [Protecting Organization from Cyber-Threats: Business at Risk during COVID-19](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/)
 
 Meanwhile, it can take up to months for a company to identify a security/data breach as cybercriminals are already focusing on a particular company’s new processes.
 

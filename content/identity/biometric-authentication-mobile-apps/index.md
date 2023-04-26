@@ -11,7 +11,7 @@ metadescription: "LoginRadius Biometric Authentication for mobile apps allow bus
 
 No matter what your application is for, it is a must to have ease of use, frictionless authentication, and guaranteed security (against fraud protection and password-related attacks). These variables help you to build both a spectacular first impression and long-lasting confidence.
 
-When [using mobile apps](https://www.loginradius.com/blog/start-with-identity/2020/11/authentication-sso-native-mobile-apps/), consumers prefer to open it and quickly start using it. It can be a frustrating experience for them if you keep asking for the account password every time they open the app. But then, it is also a business necessity to ensure safe access to the app.
+When [using mobile apps](https://www.loginradius.com/blog/identity/2020/11/authentication-sso-native-mobile-apps/), consumers prefer to open it and quickly start using it. It can be a frustrating experience for them if you keep asking for the account password every time they open the app. But then, it is also a business necessity to ensure safe access to the app.
 
 So, how do you offer a great experience and security at the same time? 
 
@@ -28,7 +28,7 @@ Let's underline some of the major benefits of Mobile Biometric Authentication.
 
 
 
-*   Since biometric data cannot be hacked or duplicated, the feature protects consumers against [account takeover attacks](https://www.loginradius.com/blog/start-with-identity/2020/04/corporate-account-takeover-attacks/). 
+*   Since biometric data cannot be hacked or duplicated, the feature protects consumers against [account takeover attacks](https://www.loginradius.com/blog/identity/2020/04/corporate-account-takeover-attacks/). 
 *   It ranks high on the usability quotient as consumers need not remember or enter a new password or PIN. Also, consumers don’t need to worry about resetting their credentials since there is no use case of forgetting one’s biometric credentials like fingerprint or face. 
 *   Consumers have already been authenticating themselves using Face ID and Touch ID on their Android and iOS devices.  Thus, they are already familiar with the method. 
 *   For biometric authentication, physical proximity is required if hackers want to bypass the login process. Cybercriminals coming into the physical proximity of the actual consumer is rare. 

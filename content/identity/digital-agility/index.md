@@ -44,7 +44,7 @@ To create a successful digital strategy using IAM, you need to focus on:
 
 Business leaders must plan on having a flexible IAM solution in their working environment that can be both distributed and dynamic for changing business needs.
 
-For effective [digital transformation](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-digital-transformation/), technology-enabled companies must move from a fixed and rigid IT infrastructure – to a more flexible and component-based API architecture, which can easily be reconstructed or reused. Next, we shall see how an API-based [consumer Identity and Access Management (or CIAM)](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/) can be the foundation of digital agility and transformation.
+For effective [digital transformation](https://www.loginradius.com/blog/identity/2021/01/what-is-digital-transformation/), technology-enabled companies must move from a fixed and rigid IT infrastructure – to a more flexible and component-based API architecture, which can easily be reconstructed or reused. Next, we shall see how an API-based [consumer Identity and Access Management (or CIAM)](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) can be the foundation of digital agility and transformation.
 
 
 [![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
@@ -76,7 +76,7 @@ With its preconfigured integration with third-party tools and applications, you 
 
 ## Conclusion
 
-Organizations need to maximize their digital footprint – to stay relevant in today’s connected world. Are you still working with outdated IT systems and processes? Then it is the right time to go for digital agility that can transform your business. In addition to user authentication, [IAM](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-iam/) solutions can go a long way in elevating your consumer experience.
+Organizations need to maximize their digital footprint – to stay relevant in today’s connected world. Are you still working with outdated IT systems and processes? Then it is the right time to go for digital agility that can transform your business. In addition to user authentication, [IAM](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/) solutions can go a long way in elevating your consumer experience.
 
 Built using extensive API functionalities and open-source SDKs, LoginRadius CIAM provides the best of customization and security – that can work for your business needs.
 

@@ -10,7 +10,7 @@ metatitle: "Why CIAM is a Great Opportunity for CMOs"
 metadescription: "CMOs are currently inundated with data, metrics, and KPIs. Here's why it's critical for CMOs to understand how CIAM can be a strategic asset for their department."
 ---
 
-Identity is used by customer identity and access management platforms to generate a single, durable picture of customers, spanning various department silos within a firm. These platforms leverage data to develop profiles that enable CMOs to communicate more effectively and efficiently with their consumers. They also provide the chance to launch new [revenue-generating initiatives](https://www.loginradius.com/blog/start-with-identity/loginradius-roi-enterprises-infographic/) based on this customer data.
+Identity is used by customer identity and access management platforms to generate a single, durable picture of customers, spanning various department silos within a firm. These platforms leverage data to develop profiles that enable CMOs to communicate more effectively and efficiently with their consumers. They also provide the chance to launch new [revenue-generating initiatives](https://www.loginradius.com/blog/identity/loginradius-roi-enterprises-infographic/) based on this customer data.
 
 Historically, organizations depended on conventional identity and access management solutions, frequently cobbled together from various technologies. This strategy resulted in cumbersome "product suites" that were unnecessarily complicated and riddled with redundancy and compatibility difficulties. These solutions sometimes required years to develop and completely integrate, putting a crimp in potentially revenue-generating programs aimed at streamlining and speeding up sales. 
 
@@ -39,7 +39,7 @@ Customer registration, self-service account management, [consent and preference 
 
 ## The Benefits of Consumer IAM
 
-A contemporary consumer identity management platform collects and manages customer identification and profile data while also safeguarding network access to software, devices, and other services. This is why major corporate [CMOs, CISOs, and CIOs consider CIAM](https://www.loginradius.com/blog/start-with-identity/consumer-identity-management-cmo-ciso-cio/) for marketing a business enabler.
+A contemporary consumer identity management platform collects and manages customer identification and profile data while also safeguarding network access to software, devices, and other services. This is why major corporate [CMOs, CISOs, and CIOs consider CIAM](https://www.loginradius.com/blog/identity/consumer-identity-management-cmo-ciso-cio/) for marketing a business enabler.
 
 CIAM is the solution that directs your interactions with customers. Security, information, and marketing professionals in the C-suite push for CIAM solutions that are smooth and consistent across different devices and touchpoints.
 
@@ -48,7 +48,7 @@ Other characteristics they search for include:
 
 ### #1. A unified consumer view
 
-The [CIAM platform](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) should not create data silos between repositories and departments. It should instead provide a unified, comprehensive view of customer identities and activities on its platform. For example, you should be able to develop a detailed profile of each consumer that includes information such as purchase histories, use, purchasing trends, and more.
+The [CIAM platform](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) should not create data silos between repositories and departments. It should instead provide a unified, comprehensive view of customer identities and activities on its platform. For example, you should be able to develop a detailed profile of each consumer that includes information such as purchase histories, use, purchasing trends, and more.
 
 
 ### #2. Consumer experience through several channels

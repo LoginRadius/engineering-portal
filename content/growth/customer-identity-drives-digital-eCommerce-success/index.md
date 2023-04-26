@@ -12,7 +12,7 @@ metatitle: "How Customer Identity Solution Drives eCommerce Success?"
 
 In an era when everyone is locked inside their homes amid the global pandemic, businesses at a halt, and vaccination becoming the only ray of hope, numerous eCommerce businesses have flourished across the world.
 
-As the lockdown and social distancing became the new normal, businesses adopted [digital transformation](https://www.loginradius.com/blog/start-with-identity/what-is-digital-transformation/).
+As the lockdown and social distancing became the new normal, businesses adopted [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/).
 
 Whether we talk about online groceries or telemedicine, the world faced the paradigm shift and adopted digital platforms for almost every day-to-day task that otherwise required them to step out of their homes.
 
@@ -30,7 +30,7 @@ Did you know [65% of eCommerce shoppers are likely to end their relationships](h
 
 In a world when data and identity thefts lead to losses worth millions of dollars, securing consumer identities and sensitive information isn’t a feature. It’s a compulsion.
 
-Adding more robust authentication layers, including multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) (RBA) to log in and sign-up procedures, can help secure consumer data and prevent a breach.
+Adding more robust authentication layers, including multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) to log in and sign-up procedures, can help secure consumer data and prevent a breach.
 
 [![Buyers-Guide-to-Multi-Factor-Authentication](Buyers-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 

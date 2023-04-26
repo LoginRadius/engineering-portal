@@ -16,7 +16,7 @@ The most common mistake for any business that usually goes unnoticed is the poor
 
 Businesses leveraging secure login procedures, including social login, may witness certain attacks leading to exposed consumer identities due to poor OAuth implementation.
 
-Moreover, the [rising number of cyberattacks](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/) amid the global pandemic depicts organizations needing to enhance their first line of defense to secure their partners and consumers.
+Moreover, the [rising number of cyberattacks](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/) amid the global pandemic depicts organizations needing to enhance their first line of defense to secure their partners and consumers.
 
 Here we’ll be sharing some tips to help businesses avoid OAuth vulnerabilities and maintain a secure environment for their consumers.
 

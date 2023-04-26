@@ -31,7 +31,7 @@ In enterprises, it lets employees access various business applications like HR f
 
 ## How Single Sign-On Works?
 
-SSO is a [token-based system](https://www.loginradius.com/blog/start-with-identity/pros-cons-token-authentication/), which means users are assigned a token for identification instead of a password. Let's say you go to an application you want to use; you will receive a security token that contains all your information (like your email address, username, etc.). Then, an Identity Provider compares this token to the credentials you provide during login and grants your authentication.
+SSO is a [token-based system](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/), which means users are assigned a token for identification instead of a password. Let's say you go to an application you want to use; you will receive a security token that contains all your information (like your email address, username, etc.). Then, an Identity Provider compares this token to the credentials you provide during login and grants your authentication.
 
 
 ## Benefits of Single Sign-On
@@ -54,7 +54,7 @@ Most SSO platforms now have built-in security integrations with thousands of sof
 
 ## What is Federated Identity Management (FIM)?
 
-[Federated Identity Management](https://www.loginradius.com/blog/start-with-identity/what-is-federated-identity-management/) (Identity Federation) is a system that allows users from different enterprises (domains) to use the same digital identity to access all their applications and networks. 
+[Federated Identity Management](https://www.loginradius.com/blog/identity/what-is-federated-identity-management/) (Identity Federation) is a system that allows users from different enterprises (domains) to use the same digital identity to access all their applications and networks. 
 
 Through FIM, an enterprise maintains its unique management system. It is interlinked with other enterprises through a third service (the identity provider) that stores the credentials. The identity provider or identity broker also offers the trust mechanism required for FIM to work. 
 

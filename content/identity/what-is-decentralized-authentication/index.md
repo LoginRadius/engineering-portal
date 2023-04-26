@@ -40,7 +40,7 @@ Although blockchain is one promising avenue for decentralized identity, it is fa
 
 In one simple example, someone creates a couple of personal and public keys in an identification wallet. The public key (identifier) is hashed and saved immutably in an ITF. A dependent third party then proves the person's identification and certifies it by signing with its non-public key. 
 
-The certification report is likewise saved within the ITF. If the person desires to get admission to a carrier, it's sufficient to give its identifier within the shape of a QR code or inside a token. The provider company [verifies the identification](https://www.loginradius.com/blog/start-with-identity/what-is-identity-verification/) with the aid of evaluating the hash values of identifiers with their corresponding hash facts within the ITF. 
+The certification report is likewise saved within the ITF. If the person desires to get admission to a carrier, it's sufficient to give its identifier within the shape of a QR code or inside a token. The provider company [verifies the identification](https://www.loginradius.com/blog/identity/what-is-identity-verification/) with the aid of evaluating the hash values of identifiers with their corresponding hash facts within the ITF. 
 
 If they match, admission is granted. In greater ideal scenarios, the person can derive separate key pairs from a non-public key to generate separate identifiers for one-of-a-kind relationships to allow privacy-pleasant protocols.
 
@@ -54,7 +54,7 @@ This main area will come from having a holistic approach to identification contr
 
 
 * Reduce the want for centralized databases to absolutely the minimum (e.g., for regulatory purposes) and accordingly provide clients complete control and possession over their non-public information.
-* [Reduce vulnerability to information misuse](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/) via the ones charged with coping with it, and to cyberattacks, fraud, and different monetary crimes.
+* [Reduce vulnerability to information misuse](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) via the ones charged with coping with it, and to cyberattacks, fraud, and different monetary crimes.
 * Give extra comfort to clients via ways of putting off passwords for login and ongoing authentication. 
 * Generate remarkable degrees of human acceptance as true among the corporation and its customers and companions.
 * Reduce the compliance burden of dealing with clients' private information in services.

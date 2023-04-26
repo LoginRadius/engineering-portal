@@ -2,7 +2,7 @@
 title: "Protecting Your Cloud Data: The Power of SaaS Security and IAM Governance"
 date: "2023-02-16"
 coverImage: "saas-secure.jpg"
-tags: ["SaaS", "identity governance", "authentication"]
+tags: ["saas", "identity governance", "authentication"]
 author: "Deepak Gupta"
 description: "Since organizations today have thousands and even millions of users logging simultaneously into their accounts, ensuring security at every end-point becomes an uphill battle. Hence, a robust identity and access management system becomes more crucial than ever. Let’s glance at some aspects of securing SaaS environments by incorporating a robust identity and access management solution."
 metatitle: "The Synergy of SaaS Security & IAM for Effective Governance"

@@ -16,7 +16,7 @@ This should really concern you because many of these spam emails carry potential
 
 For example, let's assume you have entered your email address on a website's contact page, then there's a big chance the email harvesting bots have found it. Thereafter, they start flooding your mail-box with spam emails. 
 
-Luckily, there are a few ways to hide your email address from such spammers and hackers who constantly mine for the same. One way is through [email harvesting](https://www.loginradius.com/blog/start-with-identity/2020/12/what-to-do-when-email-hacked/).  
+Luckily, there are a few ways to hide your email address from such spammers and hackers who constantly mine for the same. One way is through [email harvesting](https://www.loginradius.com/blog/identity/2020/12/what-to-do-when-email-hacked/).  
 
 Let's talk about what it is and then explore the various ways to secure your email address.
 
@@ -59,7 +59,7 @@ Add an obfuscate plugin puzzle to your email address so hackers cannot identify 
 
 Use a reliable password manager to change and replace all your passwords with solid, unique ones. We cannot sufficiently stress the importance of using strong passwords to secure your email address.
 
-Hackers use [credential stuffing](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/) where they literally jam previously stolen usernames and passwords to break into accounts on various services. 
+Hackers use [credential stuffing](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/) where they literally jam previously stolen usernames and passwords to break into accounts on various services. 
 
 This is possible because a huge proportion of online users still use the same username and passwords across multiple accounts.
 
@@ -68,7 +68,7 @@ This is possible because a huge proportion of online users still use the same us
 
 ### 4. Use two-factor authentication or MFA, wherever possible.
 
-When you set up your account passwords, look out for [two-factor authentication (2FA)](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-setup-2fa-in-online-accounts/)/ MFA as well. They are additional security layers that you can apply to prevent resets of unauthorized passwords significantly. 
+When you set up your account passwords, look out for [two-factor authentication (2FA)](https://www.loginradius.com/blog/identity/2021/01/how-to-setup-2fa-in-online-accounts/)/ MFA as well. They are additional security layers that you can apply to prevent resets of unauthorized passwords significantly. 
 
 Whenever a hacker attempts to break into your email, you are notified and control the authority to accept or reject such attempts. 
 
@@ -94,7 +94,7 @@ The following techniques can be used to prevent email harvesting:
 
 ## Conclusion
 
-[Harvesting bots](https://www.loginradius.com/blog/start-with-identity/2020/12/bot-attacks/) are here to stay; thus, you must take appropriate measures to secure your email address. You can implement the above methods so that you don't become a victim of spammers and hackers in the long run. 
+[Harvesting bots](https://www.loginradius.com/blog/identity/2020/12/bot-attacks/) are here to stay; thus, you must take appropriate measures to secure your email address. You can implement the above methods so that you don't become a victim of spammers and hackers in the long run. 
 
 Although it may take a while to get the hang of them, the results are worth spending time on. 
 

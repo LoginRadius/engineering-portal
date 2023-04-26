@@ -13,7 +13,7 @@ In today's digital world, consumers are using more and more web and mobile apps 
 
 Businesses are looking for ways to protect their digital assets while validating their consumer's identities and at the same time providing a smooth user experience. [Multi-factor Authentication (MFA)](https://www.loginradius.com/multi-factor-authentication/) is the simplest and the most effective tool to provide another layer on top of the login credentials.  After the consumer enters their login credentials, whether via email, phone number, username, or social profile, the consumer verifies the system with some other independent factor. Hence, it restricts any malicious attempt to access the system or service even if someone gets access to the consumer's password. 
 
-Multi-factor or [Two-factor Authentication](https://www.loginradius.com/blog/start-with-identity/2021/01/how-to-setup-2fa-in-online-accounts/) verifies the consumer's identity using one of the following factors: 
+Multi-factor or [Two-factor Authentication](https://www.loginradius.com/blog/identity/2021/01/how-to-setup-2fa-in-online-accounts/) verifies the consumer's identity using one of the following factors: 
 
 *   **Knowledge Factor:** Something, only the consumer, knows like PIN 
 *   **Possession Factor:** Something only the consumer has, like a USB containing an encrypted security key, Google Authenticator app, etc. 

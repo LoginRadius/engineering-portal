@@ -26,7 +26,7 @@ As the M&E industry continues to develop, a wave of new services, technology, an
 
 It is critical to minimize the risk of data breaches and fraud that compromise confidential user information and not forget adherence to data privacy regulations. The balance between functionality and user experience is what separates the good from the great. 
 
-[Identity sits at the core](https://www.loginradius.com/blog/start-with-identity/2021/04/identity-management-in-media-industry/) of media digitalization. While there are many instances, here are five of the most common areas where the LoginRadius CIAM platform can provide a solution.
+[Identity sits at the core](https://www.loginradius.com/blog/identity/2021/04/identity-management-in-media-industry/) of media digitalization. While there are many instances, here are five of the most common areas where the LoginRadius CIAM platform can provide a solution.
 
 
 ## LoginRadius’ CIAM Capabilities for the Entertainment Industry

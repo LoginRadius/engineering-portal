@@ -40,7 +40,7 @@ One of these four instances could be the reason your inbox was most likely compr
 *   You have unwanted toolbars in your browser. 
 *   You observe unusual patterns of network traffic.
 
-Here is an article which talks about what to do when your [email is compromised during a data breach](https://www.loginradius.com/blog/start-with-identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/).
+Here is an article which talks about what to do when your [email is compromised during a data breach](https://www.loginradius.com/blog/identity/2019/01/how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach/).
 
 
 ## What to Do After Your Email Account Is Hacked?
@@ -61,7 +61,7 @@ It's time to update your password until your device is free from malware. You wi
 
 Please choose a unique password that varies markedly from your old one and make sure that it does not contain repetitive character strings or numbers. Keep away from passwords with obvious links to your name, your birthday, or similar personal information. 
 
-This knowledge can be quickly identified by hackers and also used in their first attempts at brute force to access your account. Here is a list of the [worst passwords in 2019](https://www.loginradius.com/blog/start-with-identity/2019/12/worst-passwords-list-2019/) to understand how to create a strong password.
+This knowledge can be quickly identified by hackers and also used in their first attempts at brute force to access your account. Here is a list of the [worst passwords in 2019](https://www.loginradius.com/blog/identity/2019/12/worst-passwords-list-2019/) to understand how to create a strong password.
 
 
 ## 3. Notify people around you
@@ -76,7 +76,7 @@ https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication
 
 ## 4. Change your security question
 
-If your email account has been compromised from a computer or location that does not fit your usual use habits, the cybercriminal may need to address a security question correctly. And if the items are general, such as (Q: what's the name of your brother? A: John), that may not be that difficult to guess. Here is a quick guide to [choosing a good security question](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/) to help you further.
+If your email account has been compromised from a computer or location that does not fit your usual use habits, the cybercriminal may need to address a security question correctly. And if the items are general, such as (Q: what's the name of your brother? A: John), that may not be that difficult to guess. Here is a quick guide to [choosing a good security question](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/) to help you further.
 
 
 ## 5. Modify any other accounts that have the same password
@@ -93,7 +93,7 @@ Be sure to look for businesses with a good track record, as this form of securit
 
 ## 7. Enable multi-factor authentication (MFA)
 
-In addition to your password, set your email account to require a [second form of authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) if you log into your email account from a new computer. When signing in, you will also need to enter a special one-time use code that the platform will text to your phone or generate via an app.
+In addition to your password, set your email account to require a [second form of authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) if you log into your email account from a new computer. When signing in, you will also need to enter a special one-time use code that the platform will text to your phone or generate via an app.
 
 As an additional security measure, several email providers provide two-factor authentication (2FA). To access an account, this approach requires both a password and some other form of identification.
 

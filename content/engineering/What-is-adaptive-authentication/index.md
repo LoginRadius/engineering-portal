@@ -63,7 +63,7 @@ Whenever an authentication request is deemed as a malicious attempt based on the
 
 ## Benefits of Adaptive Authentication
 
-[Multifactor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) creates a longer authentication process for the consumers, which causes lower consumer conversation at your application. Adaptive Authentication only triggers an elevated-risk situation while keeping the frictionless authentication process in place for normal conditions. 
+[Multifactor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) creates a longer authentication process for the consumers, which causes lower consumer conversation at your application. Adaptive Authentication only triggers an elevated-risk situation while keeping the frictionless authentication process in place for normal conditions. 
 
 You can configure actions based on the severity of the risk factors like if the consumer normally logs into your system from Vancouver and they make an authentication request to access the application from Cancun, this is an elevated-risk situation and you might want to block the account instead of sending the notification to the consumer. 
 

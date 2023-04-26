@@ -63,7 +63,7 @@ The authentication services market is seeing enormous growth for specific reason
 -   Increase in ransomware attacks:
     
 
-In 2020 alone, there were around [304](https://www.statista.com/statistics/494947/ransomware-attacks-per-year-worldwide/) million ransomware attacks worldwide. This was a [62%](https://www.statista.com/statistics/494947/ransomware-attacks-per-year-worldwide/) increase from the previous year. Even tech giants like Microsoft became victims of [ransomware attacks](https://www.loginradius.com/blog/start-with-identity/how-to-handle-data-breaches/). For this reason, enterprises have implemented a variety of authentication tools for extra protection.
+In 2020 alone, there were around [304](https://www.statista.com/statistics/494947/ransomware-attacks-per-year-worldwide/) million ransomware attacks worldwide. This was a [62%](https://www.statista.com/statistics/494947/ransomware-attacks-per-year-worldwide/) increase from the previous year. Even tech giants like Microsoft became victims of [ransomware attacks](https://www.loginradius.com/blog/identity/how-to-handle-data-breaches/). For this reason, enterprises have implemented a variety of authentication tools for extra protection.
 
   
 
@@ -77,7 +77,7 @@ The amount of data that enterprises and organisations are deploying over the clo
 -   Change in working conditions:
     
 
-Most employees also work from home. Therefore, causing gaps in the existing [cybersecurity protocols](https://www.loginradius.com/blog/start-with-identity/cybersecurity-best-practices-for-enterprises/) that enterprises may have like unsecured devices and more. For this reason, authentication services make it possible for enterprises to plug these gaps.
+Most employees also work from home. Therefore, causing gaps in the existing [cybersecurity protocols](https://www.loginradius.com/blog/identity/cybersecurity-best-practices-for-enterprises/) that enterprises may have like unsecured devices and more. For this reason, authentication services make it possible for enterprises to plug these gaps.
 
 Of the many technologies that authentication services have to offer, Multi-factor authentication is seeing more adoption in comparison to others. This is because:
 
@@ -86,7 +86,7 @@ Of the many technologies that authentication services have to offer, Multi-facto
 -   Outdated authentication options
     
 
-Before the advent of advanced authentication services, users were only protected through passwords. The unauthorised sharing of passwords became the most common cause of data breaches. For this reason, multi-factor authentication or MFA acts as a more stringent form of [login security](https://www.loginradius.com/blog/start-with-identity/login-security/).
+Before the advent of advanced authentication services, users were only protected through passwords. The unauthorised sharing of passwords became the most common cause of data breaches. For this reason, multi-factor authentication or MFA acts as a more stringent form of [login security](https://www.loginradius.com/blog/identity/login-security/).
 
 -   Advanced MFA
     

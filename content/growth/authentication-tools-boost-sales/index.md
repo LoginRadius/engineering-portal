@@ -36,7 +36,7 @@ Without proving that you provide top-notch security, it might be difficult for y
 
 ### #2. Biometrics Authentication
 
-Biometrics use human behavior or characteristics to confirm the user's identity. Performing biometric verification of customers through various channels (in-person or at the store; and remote, such as on a call or using an app) minimize the possibility of [identity theft](https://www.loginradius.com/blog/start-with-identity/identity-theft-frauds/). 
+Biometrics use human behavior or characteristics to confirm the user's identity. Performing biometric verification of customers through various channels (in-person or at the store; and remote, such as on a call or using an app) minimize the possibility of [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/). 
 
 Additionally, it reduces the need to create digital contracts and also the waiting time of customers. Moreso, biometrics minimizes the possibility of fraud and also the risk of impersonation for in-person channels. Other advantages include: 
 
@@ -57,18 +57,18 @@ As a result of the above advantages, customers are more likely to engage with yo
 
 ### #3. Social Logins
 
-Gradually, [social logins](https://www.loginradius.com/blog/start-with-identity/what-is-social-login/) are becoming one of the most preferred authentication tools for businesses. It is one of the most popular ways to drive the growth of your business and increase sales. Social logins increase the interaction with the customers. 
+Gradually, [social logins](https://www.loginradius.com/blog/identity/what-is-social-login/) are becoming one of the most preferred authentication tools for businesses. It is one of the most popular ways to drive the growth of your business and increase sales. Social logins increase the interaction with the customers. 
 
 The option to collect user data using social logins can help businesses eliminate promotions that are not relevant to them. Personalization of content can go a long way in converting sales. Additionally, several users trust the security offered by social login. Thus, the combination of security and personalization can boost the conversion rates considerably.
 
 
 ### #4. Passwordless Authentication
 
-Recently, passwords have not been as effective as they were before. They have been considered inefficient in protecting a customer's confidential data. Additionally, they prove to be unintended inhibitors in terms of the user experience. Thus, it is not surprising that several organizations are exploring [passwordless authentication](https://www.loginradius.com/blog/start-with-identity/passwordless-authentication-the-future-of-identity-and-security/) tools as a more secure, user-friendly medium.
+Recently, passwords have not been as effective as they were before. They have been considered inefficient in protecting a customer's confidential data. Additionally, they prove to be unintended inhibitors in terms of the user experience. Thus, it is not surprising that several organizations are exploring [passwordless authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) tools as a more secure, user-friendly medium.
 
 If your business is in direct contact with the customers, you want their experience to be as smooth and hassle-free as possible. As a leader, you will not want to compromise on the security bit either. 
 
-Moving away from traditional **authentication tools** such as standard authentication would mean adopting other tools that the users can easily use. Passwordless technologies can simplify the authentication process and protect your customers from unwarranted phishing attacks. For instance, [email magic links](https://www.loginradius.com/blog/start-with-identity/passwordless-magic-links/) can be used for applications where users don't have to log in regularly. It enables the users to enter the application with a single click. 
+Moving away from traditional **authentication tools** such as standard authentication would mean adopting other tools that the users can easily use. Passwordless technologies can simplify the authentication process and protect your customers from unwarranted phishing attacks. For instance, [email magic links](https://www.loginradius.com/blog/identity/passwordless-magic-links/) can be used for applications where users don't have to log in regularly. It enables the users to enter the application with a single click. 
 
 There is no doubt that using an authentication tool can improve your website's conversion rate. This is because you will protect your customers better while keeping out hackers, fraudsters and other malicious individuals. However, you should take the time to look for the best authentication solutions in the market today. [Contact us](https://www.loginradius.com/contact-sales) for more information on how we can help! 
 

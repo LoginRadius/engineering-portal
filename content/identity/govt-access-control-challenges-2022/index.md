@@ -53,7 +53,7 @@ Agencies that cannot protect consumer identity and personal information are pron
 
 Adding stringent layers of security is a must for any retailer seeking substantial growth in the ever-expanding competitive business landscape.
 
-Whether it’s [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) or [risk-based authentication](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) (RBA), enterprises need to quickly put their best foot forward in adopting advanced security measures to safeguard consumer information to prevent financial and reputational losses.
+Whether it’s [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) or [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA), enterprises need to quickly put their best foot forward in adopting advanced security measures to safeguard consumer information to prevent financial and reputational losses.
 
 
 ### 4. Engagement
@@ -85,7 +85,7 @@ More and more citizens demand intelligent and intuitive online services from gov
 
 Government agencies must incorporate technology to embark on a digital transformation journey that enhances the consumer experience and strengthens overall security. 
 
-When it comes to adopting citizen access control, government agencies should incorporate a [consumer identity and access management (CIAM) ](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/)system that helps manage millions of consumer identities and reinforces overall security. 
+When it comes to adopting citizen access control, government agencies should incorporate a [consumer identity and access management (CIAM) ](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/)system that helps manage millions of consumer identities and reinforces overall security. 
 
 
 

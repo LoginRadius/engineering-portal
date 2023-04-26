@@ -61,7 +61,7 @@ An adequate identity proofing system should be able to perform most of these tas
 
 When dealing with sensitive information, regardless of the network being public or private, it is a good idea to add extra layers of security to an account. 
 
-[Multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) overcomes the flaws of typical password-based authentication and mandates it for a user to verify the claim to an account through two or more methods.
+[Multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) overcomes the flaws of typical password-based authentication and mandates it for a user to verify the claim to an account through two or more methods.
 
 
 
@@ -72,7 +72,7 @@ When dealing with sensitive information, regardless of the network being public 
 
 ### Password Management Solution
 
-Some accounts don’t need the comprehensive identity proofing processes that were explained above because they don’t interact with sensitive information. Nevertheless, it is a [good business practice to safeguard data](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/), no matter how insignificant it may seem. 
+Some accounts don’t need the comprehensive identity proofing processes that were explained above because they don’t interact with sensitive information. Nevertheless, it is a [good business practice to safeguard data](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/), no matter how insignificant it may seem. 
 
 LoginRadius identity and access management solutions offer password management that helps make traditional password-based identity-proofing safer in itself.
 
@@ -92,7 +92,7 @@ LoginRadius identity and access management solutions offer password management t
 
 ### Built-in layers of protection
 
-To further strengthen your system’s ecosystem, LoginRadius’ tools enforce restricted access and stave off [automated attacks](https://www.loginradius.com/blog/start-with-identity/2019/09/prevent-credential-stuffing-attacks/) on your system. Some of the mechanisms involved in implementing it involve:
+To further strengthen your system’s ecosystem, LoginRadius’ tools enforce restricted access and stave off [automated attacks](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/) on your system. Some of the mechanisms involved in implementing it involve:
 
 
 
@@ -104,7 +104,7 @@ To further strengthen your system’s ecosystem, LoginRadius’ tools enforce re
 
 ## Conclusion
 
-With the growing reliance on technology and cloud-based ecosystems, there is a higher susceptibility to [cyber-attacks](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/). SME organizations tend to undermine the benefits of identity proofing and cyber security. 
+With the growing reliance on technology and cloud-based ecosystems, there is a higher susceptibility to [cyber-attacks](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/). SME organizations tend to undermine the benefits of identity proofing and cyber security. 
 
 By improving privacy, the identity proofing process helps build a trustable image in the consumers’ minds towards your brand.
 

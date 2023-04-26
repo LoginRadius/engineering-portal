@@ -38,7 +38,7 @@ After Password Reset or Password Change, it will expire all active sessions of t
 
 ## Why Should We Use It?
 
-Implementing proper session management usually increases the strength and security of the session token.  And if you have not implemented it, then many vulnerabilities can be introduced with [insecure session cookies that attackers can leverage](https://www.loginradius.com/blog/start-with-identity/2021/01/7-web-app-sec-threats/) to benefit an authenticated user session.  
+Implementing proper session management usually increases the strength and security of the session token.  And if you have not implemented it, then many vulnerabilities can be introduced with [insecure session cookies that attackers can leverage](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/) to benefit an authenticated user session.  
 
 ![why should we use it](https://apidocs.lrcontent.com/images/coding_user_session_1203460b665f4b0b5a0.73078317.jpg "user-session-management")
 Attackers can take measures against Brute Force. They can predict and expose session tokens which ultimately can lead to session hijacking, where the malicious consumer can impersonate the victim and complete transactions from their account. 
@@ -69,7 +69,7 @@ A cookie should expire if the account is inactive for an extended period of time
 
 ### **Configure Session Cookies Properly**
 
-Session tokens should be extended, random, and uncommon. These properties can ensure that an attacker cannot guess or [brute force](https://www.loginradius.com/blog/start-with-identity/2021/02/brute-force-lockout/) the session token's value. Additionally, the termination on persistent cookies should be set for no longer than 30 minutes, limiting the session fixation and hijacking and we can achieve this by modifying the Expire and Max-Age attributes. 
+Session tokens should be extended, random, and uncommon. These properties can ensure that an attacker cannot guess or [brute force](https://www.loginradius.com/blog/identity/2021/02/brute-force-lockout/) the session token's value. Additionally, the termination on persistent cookies should be set for no longer than 30 minutes, limiting the session fixation and hijacking and we can achieve this by modifying the Expire and Max-Age attributes. 
 
 If no content is selected for the Expire or Max-Age attributes, the cookie will not persist in the consumer's browser and is expelled while the tab or browser is closed.
 

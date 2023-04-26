@@ -13,7 +13,7 @@ metadescription: "Become the master of your data by leveraging the LoginRadius�
 
 Many organizations require their consumers or employees to log in every time they access a service. And more often than not, there are multiple services. So, it becomes tedious to memorize multiple usernames and passwords!
 
-There is a simple solution for this problem - the **[Single Sign-On](https://www.loginradius.com/blog/start-with-identity/2020/09/best-sso-providers-loginradius/)** feature that allows consumers to use a single name and password to access multiple applications. However, there’s a catch.
+There is a simple solution for this problem - the **[Single Sign-On](https://www.loginradius.com/blog/identity/2020/09/best-sso-providers-loginradius/)** feature that allows consumers to use a single name and password to access multiple applications. However, there’s a catch.
 
 
 According to the [Risk-Based Security](https://pages.riskbasedsecurity.com/hubfs/Reports/2020/2020%20Q3%20Data%20Breach%20QuickView%20Report.pdf) report of 2020, the number of breached records in the same year was a staggering 36 billion! This is not really surprising because most organizations store different kinds of information - consumer profiles, financial information, reports, etc. - making them vulnerable to cyberhackers.
@@ -36,7 +36,7 @@ With the advent of remote, mobile, and fluid workforces, several of whom may cho
 
 ### Costly access management operations
 
-The costs of **[identity and access management](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-iam/)** often entail several components, including the technology platform, IT overheads, and any required physical infrastructure. The initial costs of establishing this system can be relatively high. It is easy to go overboard with it or make expensive choices that are not suitable for the company.
+The costs of **[identity and access management](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/)** often entail several components, including the technology platform, IT overheads, and any required physical infrastructure. The initial costs of establishing this system can be relatively high. It is easy to go overboard with it or make expensive choices that are not suitable for the company.
 
 [![SSO-loginradius](LoginRadius-Single-Sign-on.png)](https://www.loginradius.com/single-sign-on/)
 

@@ -14,7 +14,7 @@ metadescription: "With the increasing consumer demand for convenient digital ser
 
 In the modern digital era of banking and e-commerce, the collection of customer data has become a strategic necessity. Companies must make sure their data is secure so they can retain their customers and increase revenue.
 
-[Customer Identity and Access Management](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) (CIAM) systems offer a new way of looking at customer data, streamlining user interfaces, and enabling businesses to take their customer's data security to the next level.  CIAM also offers a host of other features, including: 
+[Customer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) systems offer a new way of looking at customer data, streamlining user interfaces, and enabling businesses to take their customer's data security to the next level.  CIAM also offers a host of other features, including: 
 
 
 

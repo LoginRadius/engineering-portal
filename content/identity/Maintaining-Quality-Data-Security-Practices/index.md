@@ -35,7 +35,7 @@ Instead of asking just for a username and a password, multi-factor authenticatio
 
 It's not uncommon for businesses to face security risks due to employee’s weak passwords or the use of the same password for multiple accounts which leaves organisations vulnerable to breaches. Having said that, multi-factor authentication helps with these challenges while also assisting employees in safely managing different accounts. This also provides organisations more control over identity management and achieving legal compliance with data regulations.
 
-It's highly recommended to implement [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/)  because it can reduce the likelihood of being attacked by a cyber-criminal.
+It's highly recommended to implement [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/)  because it can reduce the likelihood of being attacked by a cyber-criminal.
 
 [![book-a-demo-Consultation](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
@@ -51,7 +51,7 @@ Additionally, this helps organisations to remain compliant with industry standar
 3. **Update your security**  
 Another way to keep your data safe is by updating your security regularly so that you can be ahead of any threats that may come your way. Properly updating your computer is how you can ensure that your data is protected. Because hackers love a good software flaw and are always adapting their strategies to exploit weaker software versions, it is highly recommended to update applications regularly since they are only as good as their most recent update.
 
-If a hacker manages to get through, this can infect your whole system with high chances that they can gain control over your computer and encrypt your files while stealing any data they can access. With your information, they can commit several harmful [cyber-crimes](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/), or they could sell your data on the dark web.
+If a hacker manages to get through, this can infect your whole system with high chances that they can gain control over your computer and encrypt your files while stealing any data they can access. With your information, they can commit several harmful [cyber-crimes](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/), or they could sell your data on the dark web.
 
 It's best to avoid this which is why updating your software is so important for data protection as updates usually come with what is called a 'software patch' which covers the security holes that help to keep hackers out.
 

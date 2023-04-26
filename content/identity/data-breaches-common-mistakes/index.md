@@ -21,7 +21,7 @@ So it happened. The attack was successful, and there was a data breach—resulti
 
 The first order of business should be mapping out an incident response plan to restrict data loss at the minimum. The next challenge is implementing this plan. Many times, while doing so, companies make some common mistakes. 
 
-It is time to delve into those mistakes and [figure out how you can prevent them](https://www.loginradius.com/blog/start-with-identity/how-to-handle-data-breaches/) from happening if you fall victim to a data breach. 
+It is time to delve into those mistakes and [figure out how you can prevent them](https://www.loginradius.com/blog/identity/how-to-handle-data-breaches/) from happening if you fall victim to a data breach. 
 
 
 ### 1. Waiting for accurate information.
@@ -40,7 +40,7 @@ Therefore, with so many people working on managing a breach, there needs to be c
 
 ### 3. No practice drills.
 
-A great way to determine all the necessary aspects of an incident response if a data breach occurs is to conduct drills. Not only will this test out the [data breach prevention policies](https://www.loginradius.com/blog/start-with-identity/data-security-best-practices/) and measures that are in place, but it also helps everyone involved to understand what their role is. 
+A great way to determine all the necessary aspects of an incident response if a data breach occurs is to conduct drills. Not only will this test out the [data breach prevention policies](https://www.loginradius.com/blog/identity/data-security-best-practices/) and measures that are in place, but it also helps everyone involved to understand what their role is. 
 
 Therefore, if these drills are carried out before an actual data breach, it may result in mayhem while the company tries to put up its defenses. 
 

@@ -2,7 +2,7 @@
 title: "What Is User Management and Why Is It Important?"
 date: "2021-03-16"
 coverImage: "user-mngmnt.jpg"
-tags: ["user management","cx","identity access management"]
+tags: ["user management","cx","identity access management","idaas"]
 author: "Rakesh Soni"
 description: "Though user management has been around for a long time now, especially within the IAM and ITAM space, it has assumed new importance with introducing cloud-based subscriptions. Recent trends show that there is a sure shift to cloud-based IAM, granting administrators greater access and control over digital assets management."
 metatitle: "What Is User Management and Why Is It Important?"
@@ -35,7 +35,7 @@ Now that we know user management, it is now easier to understand how user manage
 
 Through UM, IT administrators can manage resources and access based on need, thereby keeping digital assets more secure. This also ensures a frictionless experience for the end-user, significantly improving the user experience.
   
-The advent of cloud-only served to improve user management by opening up access to more web applications. Users now have many more digital resources available to them, making cloud-based user management quickly the most preferable system. Furthermore, the effective management of user identities lays the basis for improved **[identity access management](https://www.loginradius.com/blog/start-with-identity/2021/01/what-is-iam/)**, an essential aspect of security.
+The advent of cloud-only served to improve user management by opening up access to more web applications. Users now have many more digital resources available to them, making cloud-based user management quickly the most preferable system. Furthermore, the effective management of user identities lays the basis for improved **[identity access management](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/)**, an essential aspect of security.
 
 Effective user management enables organizations to properly maintain their user-based licence compliancy so that various softwares are being used to their full potential. UM can also help companies save money on various software licenses by listing out the number of installations/activations remaining on a piece of software and removing the need for repeated purchases.
 
@@ -85,7 +85,7 @@ There are a few requirements to be considered for organizations now seeking to l
 
 Even as most organizations continue to move away from on-premises infrastructure, a centralized user management system needs to be delivered from the cloud and connect users to resources both on-premises and in the cloud.
 
-User management solutions of the next generation, often termed **[Identity-as-a-service (IDaaS)](https://www.loginradius.com/blog/start-with-identity/2019/12/identity-as-a-service-for-business/)**, are fully capable of functioning in any environment, on-premises, in the cloud, and even in between.  
+User management solutions of the next generation, often termed **[Identity-as-a-service (IDaaS)](https://www.loginradius.com/blog/identity/2019/12/identity-as-a-service-for-business/)**, are fully capable of functioning in any environment, on-premises, in the cloud, and even in between.  
 
 ### 2. Multiprotocol
 
@@ -120,7 +120,7 @@ What sets LoginRadius’ user management apart from the others is the ability to
 
 You can instantly search for any customer, no matter how big the database; view and edit user profiles, change usernames and update email addresses with just a click from the admin console.
 
-LoginRadius seeks to revolutionize the future of **[CIAM](https://www.loginradius.com/blog/start-with-identity/2019/06/customer-identity-and-access-management/)** by empowering customer support teams to effectively control and manage users and ensure a seamless experience for the end user.
+LoginRadius seeks to revolutionize the future of **[CIAM](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/)** by empowering customer support teams to effectively control and manage users and ensure a seamless experience for the end user.
 
 What’s more, you can integrate LoginRadius with third party analytics like Google or Adobe analytics to make better business decisions driven by reliable data. All this and more, from the convenience of the central admin console.
 

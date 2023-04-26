@@ -17,7 +17,7 @@ metadescription: "Tokens help provide secure authentication to users on an onlin
 
 A token plays a crucial role in enhancing the overall security mechanism of an organization that helps to deliver flawless and secure authentication and authorization on their website or application. 
 
-However, there’s much confusion regarding relying on access tokens. Businesses find it challenging to choose between [OpenID Connect](https://www.loginradius.com/blog/start-with-identity/what-is-openid-connect/) and OAuth 2.0. 
+However, there’s much confusion regarding relying on access tokens. Businesses find it challenging to choose between [OpenID Connect](https://www.loginradius.com/blog/identity/what-is-openid-connect/) and OAuth 2.0. 
 
 As a result, many organizations deploy insecure web applications that compromise their consumers’ identities and crucial business information. 
 
@@ -47,7 +47,7 @@ JWT (JSON Web Token) is a token format. It is digitally signed, self-contained, 
 
 JWT is not inherently secure, but the use of JWT can ensure the authenticity of the message so long as the signature is verified and the integrity of the payload can be guaranteed. JWT is often used for stateless authentication in simple use cases involving non-complex systems. 
 
-On the other hand, [OAuth 2.0](https://www.loginradius.com/blog/start-with-identity/oauth2.0-guide/) is an authorization protocol that builds upon the original OAuth protocol created in 2006, arising out of a need for authorization flows serving different applications from the web and mobile apps to IoT.
+On the other hand, [OAuth 2.0](/blog/identity/oauth2-0-guide/) is an authorization protocol that builds upon the original OAuth protocol created in 2006, arising out of a need for authorization flows serving different applications from the web and mobile apps to IoT.
 
 OAuth 2.0 specifies the flows and standards under which authorization token exchanges should occur. OAuth 2.0 does not encompass authentication, only authorization. 
 

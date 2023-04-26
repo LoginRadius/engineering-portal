@@ -17,7 +17,7 @@ Your visitors may take action, but most of the time, they don’t. While many of
 
 The biggest challenge for businesses is not just to increase traffic but to convert the existing ones in a way that they become a client.
 
-Here’s where [conversion rate optimization](https://www.loginradius.com/blog/fuel/2021/01/sign-up-tips-conversion-rate/) (CRO) comes into play.
+Here’s where [conversion rate optimization](/blog/growth/sign-up-tips-conversion-rate/) (CRO) comes into play.
 
 CRO is perhaps the most important performance metric for any business seeking substantial growth in today’s era.
 

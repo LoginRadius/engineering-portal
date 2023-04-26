@@ -22,7 +22,7 @@ However, the new year’s projections can’t be the same, just as similar to th
 
 As the idea of smart cities comes into existence and more and more cities jump on the technology bandwagon to enhance experiences, the risks from security threats increase. 
 
-Here’s a list of potential security trends that every individual, business, or organization must keep in mind and ensure they remain safe by adopting [appropriate security measures](https://www.loginradius.com/blog/start-with-identity/maintaining-quality-data-security-practices/). 
+Here’s a list of potential security trends that every individual, business, or organization must keep in mind and ensure they remain safe by adopting [appropriate security measures](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/). 
 
 
 ### 1. Supply chain cyber attacks will continue to surge 
@@ -73,7 +73,7 @@ When it comes to cybersecurity threats, ransomware attacks are undeniably at the
 
 Last year, ransomware was the most significant concern among cybersecurity leaders to protect their organizations, employees, and clients. 
 
-With the frequency of ransomware attacks increasing swiftly, [cybersecurity leaders predict](https://www.loginradius.com/blog/start-with-identity/tips-from-loginradius-security-expert-2022/) that organizations need to gear up since these kinds of threats quickly would surely rise. 
+With the frequency of ransomware attacks increasing swiftly, [cybersecurity leaders predict](https://www.loginradius.com/blog/identity/tips-from-loginradius-security-expert-2022/) that organizations need to gear up since these kinds of threats quickly would surely rise. 
 
 
 ## The Bottom Line

@@ -34,7 +34,7 @@ Here is a quick overview of the most common social engineering scams used agains
 
 ### Phishing
 
-[Phishing is the most common](https://www.loginradius.com/blog/2018/02/phishing-for-identity/) and widely successful form of social engineering attack. The fraudster uses trickery and deceit via email, chat, web ad, or website to persuade a person or organization to expose their PII and other valuables. 
+[Phishing is the most common](https://www.loginradius.com/blog/phishing-for-identity/) and widely successful form of social engineering attack. The fraudster uses trickery and deceit via email, chat, web ad, or website to persuade a person or organization to expose their PII and other valuables. 
 
 For example, the fraudster might pretend to represent a bank, a government organization, or a major corporation trusted by the naive victim. The source can be an email asking the email recipients to click on a link to log in to their accounts. They are then redirected to a fake website appearing to be legitimate, and that's where the attack takes place.
 

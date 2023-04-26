@@ -52,7 +52,7 @@ This article shall look at some of the best international communication strategi
 
 ## 3 Reasons Why You Need an Internal Communications Plan
 
-We open with a hard fact: Workforce engagement can make or break your business. Right from recruitment and retention of an employee to customer service success and  **[safeguarding the customer experience](https://www.loginradius.com/blog/start-with-identity/2018/10/digital-transformation-safeguarding-customer-experience/)**, employee engagement is crucial.
+We open with a hard fact: Workforce engagement can make or break your business. Right from recruitment and retention of an employee to customer service success and  **[safeguarding the customer experience](https://www.loginradius.com/blog/identity/2018/10/digital-transformation-safeguarding-customer-experience/)**, employee engagement is crucial.
 
   
 

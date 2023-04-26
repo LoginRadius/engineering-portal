@@ -34,7 +34,7 @@ Web reputation management entails a series of aspects, including addressing cont
 
 While a company’s overall market value is directly attributable to its reputation, ORM plays a crucial role in building brand reliability.
 
-In a nutshell, ORM helps businesses monitor and maintain a positive reputation on the internet that [increases business revenues](https://www.loginradius.com/blog/start-with-identity/2018/11/enterprise-needs-digital-business-transformation-strategy/).
+In a nutshell, ORM helps businesses monitor and maintain a positive reputation on the internet that [increases business revenues](https://www.loginradius.com/blog/identity/2018/11/enterprise-needs-digital-business-transformation-strategy/).
 
 ## How ORM Works
 

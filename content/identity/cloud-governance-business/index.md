@@ -28,13 +28,13 @@ Let’s learn what cloud governance is and reasons to rely on cloud governance s
 
 ## What is Cloud Governance
 
-Cloud governance could be defined as the set of rules and protocols that [enhance data security](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/) and helps to manage risks to ensure smooth functioning in a cloud environment.
+Cloud governance could be defined as the set of rules and protocols that [enhance data security](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/) and helps to manage risks to ensure smooth functioning in a cloud environment.
 
 With cloud governance in place, organizations can ensure that all the systems interactions along with access are precisely measured and managed without hampering the overall security.
 
 There are endless complexities whenever a business migrates from on-premise to cloud, which impacts the architecture as well.
 
-Cloud governance streamlines access for users with rules that simplify establishment, verification, and [reinforces policy compliance](https://www.loginradius.com/blog/start-with-identity/2021/03/privacy-compliance/).   
+Cloud governance streamlines access for users with rules that simplify establishment, verification, and [reinforces policy compliance](https://www.loginradius.com/blog/identity/2021/03/privacy-compliance/).   
 
 Here are the reasons why your business needs cloud governance:
 
@@ -77,7 +77,7 @@ This enhances the overall data security and the admin can keep an eye on insigni
 
 ## Conclusion
 
-Cloud governance should be the top-most priority for businesses leveraging [cloud infrastructure](https://www.loginradius.com/blog/start-with-identity/2021/02/strategies-secure-cloud-operations/) in today’s era as the data regulations are getting stringent day-by-day.
+Cloud governance should be the top-most priority for businesses leveraging [cloud infrastructure](https://www.loginradius.com/blog/identity/2021/02/strategies-secure-cloud-operations/) in today’s era as the data regulations are getting stringent day-by-day.
 
 The aforementioned aspects depict the role of cloud governance and how it lays the foundation of security and data access within an organization.
 

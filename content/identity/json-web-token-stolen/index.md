@@ -86,7 +86,7 @@ Once you’re aware of the actual cause, make sure you tighten your security and
 
 With businesses facing new security vulnerabilities every day, stolen JWT tokens could be the worst thing for any enterprise delivering online services. 
 
-It’s crucial for businesses to ensure maximum security at the consumer level and take necessary precautions to [avoid a security breach](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
+It’s crucial for businesses to ensure maximum security at the consumer level and take necessary precautions to [avoid a security breach](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/). 
 
 The aforementioned aspects could help mitigate the risk and ensure minimum loss if a security threat related to a client’s JWT token is detected. 
 

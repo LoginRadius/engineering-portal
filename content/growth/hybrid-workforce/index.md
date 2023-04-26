@@ -10,7 +10,7 @@ metatitle: "Hybrid Workforce: Laying The Foundation of Remote Working"
 metadescription: "What is a hybrid workforce model? Understand the challenges and benefits of managing a hybrid workforce and how to make remote working a success."
 ---
 
-The outbreak of [COVID-19 has taught the world](https://www.loginradius.com/blog/start-with-identity/2020/05/cyber-threats-business-risk-covid-19/) a lot of things. In most countries, a lockdown was implemented as a precautionary measure to prevent this disease. As a result, employees across the globe started working remotely from their homes. 
+The outbreak of [COVID-19 has taught the world](https://www.loginradius.com/blog/identity/2020/05/cyber-threats-business-risk-covid-19/) a lot of things. In most countries, a lockdown was implemented as a precautionary measure to prevent this disease. As a result, employees across the globe started working remotely from their homes. 
 
 Now that the lockdown has ended, there is an option for the employees to come back and work in the offices. But, it is observed that most of the employees prefer working remotely, and a sense of better performance and results is also experienced among remote employees.
 
@@ -86,7 +86,7 @@ Everything has pros and cons, so is the case with a hybrid workforce. According 
 
 There is also the security risk for organizations and employees working in hybrid work mode. They may be in the form of downloading unsafe apps, malware infection, data leakage, unauthorized access to data etc. The use of public Wi-Fi is also a reason of concern; [58% of the employees](https://www.techrepublic.com/article/how-to-handle-security-risks-in-a-hybrid-work-environment/) have admitted that they consider using public Wi-Fi or have already used an unprotected network source.
 
-It is important to make sure that the data is stored and processed in a way that customers' privacy and [security of data are not compromised](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/). 
+It is important to make sure that the data is stored and processed in a way that customers' privacy and [security of data are not compromised](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/). 
 
 The following is necessary to help the proper establishment of a hybrid workforce:
 
@@ -95,7 +95,7 @@ The following is necessary to help the proper establishment of a hybrid workforc
 *   **Encryption in Transit:** The data transit between two locations is encrypted, and all the communication from the client to the platform travels over a secure HTTPS tunnel.
 *   **Encryption at Rest:** They also provide additional security in the form of encryption for the data at rest.
 *   **Field-Level Encryption:** In the case of sensitive customer data, one-way or two-way encryption is needed on a field-by-field basis.
-*   **Password Security:** Critical hashing for data such as passwords and [security questions](https://www.loginradius.com/blog/start-with-identity/2019/01/best-practices-choosing-good-security-questions/#:~:text=Team%20LoginRadius&text=Security%20questions%20are%20an%20alternative,an%20unfamiliar%20device%20or%20location.) is performed with the industry-standard hashing algorithm.
+*   **Password Security:** Critical hashing for data such as passwords and [security questions](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/#:~:text=Team%20LoginRadius&text=Security%20questions%20are%20an%20alternative,an%20unfamiliar%20device%20or%20location.) is performed with the industry-standard hashing algorithm.
 
 
 ## Shifting Perspective on the Essence of Remote work

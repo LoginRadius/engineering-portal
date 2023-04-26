@@ -44,7 +44,7 @@ In simpler terms, IAM encompasses:
 
 IAM includes tools like two-factor authentication, multi-factor authentication, single sign-on, and privileged access management. These tools can store identity and profile data safely. 
 
-They also comply with [data governance](https://www.loginradius.com/blog/start-with-identity/2020/07/data-governance-best-practices/) functions to ensure that only appropriate and relevant information is being shared. 
+They also comply with [data governance](https://www.loginradius.com/blog/identity/2020/07/data-governance-best-practices/) functions to ensure that only appropriate and relevant information is being shared. 
 
 Information technology (IT) administrators can restrict user access to sensitive data within their organizations by putting an IAM <a rel="nofollow" href="https://www.softwareworld.co/best-identity-management-software/"> security framework </a> in place.
 
@@ -140,7 +140,7 @@ Organizations should move from the conventional focus of securing a network to s
 
 ### Enable multi-factor authentication (MFA).
 
-[MFA](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/#:~:text=10%20min%20read,And%20that's%20the%20catch!) is a crucial part of identity and access management. After all, it adds multiple security layers to user identities before allowing access to an application or database. Therefore, ensure that you have enabled MFA for all users and consumers, including IT admins and C-suite executives. 
+[MFA](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/#:~:text=10%20min%20read,And%20that's%20the%20catch!) is a crucial part of identity and access management. After all, it adds multiple security layers to user identities before allowing access to an application or database. Therefore, ensure that you have enabled MFA for all users and consumers, including IT admins and C-suite executives. 
 
 
 ### Implement Single Sign-On (SSO).
@@ -170,7 +170,7 @@ Regularly conduct access audits to ensure that whatever access you have granted 
 
 ### Favor passwordless login.
 
-[Passwordless login](https://www.loginradius.com/blog/start-with-identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) simplifies and streamlines the authentication process by swapping traditional passwords with more secure factors. These extra-security methods may include a magic link, fingerprint, PIN, or a secret token delivered via email or text message. 
+[Passwordless login](https://www.loginradius.com/blog/identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) simplifies and streamlines the authentication process by swapping traditional passwords with more secure factors. These extra-security methods may include a magic link, fingerprint, PIN, or a secret token delivered via email or text message. 
 
 
 ## Benefits of Identity and Access Management
@@ -224,7 +224,7 @@ Speaking of regulations, many are industry-specific, such as the Health Insuranc
 
 The most disruptive regulations in recent years are the ones related to ensuring consumer privacy, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). 
 
-The following are a few of the [major security assurance programs](https://www.loginradius.com/blog/start-with-identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/) identity solutions adhere to: 
+The following are a few of the [major security assurance programs](https://www.loginradius.com/blog/identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/) identity solutions adhere to: 
 
 
 
@@ -315,7 +315,7 @@ LoginRadius offers you the following tools to help you build secure, seamless ex
 
 Powerful identity and access management solutions offer the right tools to ensure users can engage with enterprises at any time, from any device, securely. Organizations will need to rethink their business and operating models. 
 
-There is a huge demand to invest in new digital methods of communication.  And prioritizing [digital security](https://www.loginradius.com/blog/start-with-identity/2020/06/consumer-data-privacy-security/) will go a long way. 
+There is a huge demand to invest in new digital methods of communication.  And prioritizing [digital security](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) will go a long way. 
 
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -15,7 +15,7 @@ Many industries have foreseen the rising digitization of both residential and co
 
 The banking sector has already adapted to such digitalization and is aiming to procure more consumers via online means and strategies.
 
-These initiatives sought to improve [user banking authentication](https://www.loginradius.com/blog/start-with-identity/financial-industry-identity-management/), increase self-service in banking transactions, and reduce operational inefficiencies, among other things. That is the quantity, time, and complexity of the "bureaucracy" required to comply with any activity, allowing the process to be sped up significantly.
+These initiatives sought to improve [user banking authentication](https://www.loginradius.com/blog/identity/financial-industry-identity-management/), increase self-service in banking transactions, and reduce operational inefficiencies, among other things. That is the quantity, time, and complexity of the "bureaucracy" required to comply with any activity, allowing the process to be sped up significantly.
 
 ## Banks Have Accepted and Adapted Digital Means
 
@@ -51,13 +51,13 @@ Anything that the user knows (e.g., a password or PIN), anything that the user o
 
 Mobile banking multi-factor authentication  operates by requesting extra information for verification (factors). The one-time password is one of the most prevalent MFA elements that consumers face (OTP).
 
-Also Read: [7 Benefits of Multi-Factor Authentication](https://www.loginradius.com/blog/start-with-identity/financial-industry-identity-management/)
+Also Read: [7 Benefits of Multi-Factor Authentication](https://www.loginradius.com/blog/identity/financial-industry-identity-management/)
 
 ### Biometric way to ensure complete security
 
 Biometric authentication for online banking is a computer-assisted technique of identifying consumers based on biological features and qualities such as fingerprints, finger vein patterns, iris recognition, and voice recognition. Because biometric authentication is unique to each person and difficult to counterfeit, biometric verification and authentication are widely used in immigration control, law enforcement, and forensic research.
 
-The advantages of [biometric authentication](https://www.loginradius.com/blog/start-with-identity/biometric-authentication-mobile-apps/) must exceed the expense and complication of deployment for the target user. When it comes to analyzing alternative biometric solutions for comfort, banks must engage in discussion before using the technique.
+The advantages of [biometric authentication](https://www.loginradius.com/blog/identity/biometric-authentication-mobile-apps/) must exceed the expense and complication of deployment for the target user. When it comes to analyzing alternative biometric solutions for comfort, banks must engage in discussion before using the technique.
 
 ## Meet The Evolving Consumer Demands While Protecting Data
 

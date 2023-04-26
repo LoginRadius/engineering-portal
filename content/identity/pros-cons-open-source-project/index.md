@@ -38,7 +38,7 @@ As community members develop and maintain open-source solutions, they generally 
 
 ### 3. Scalability
 
-You can start small by updating the community versions of the open-source project to meet your business requirements. But later, [as your business requirements grow](https://www.loginradius.com/blog/start-with-identity/handling-scalability-security-loginradius/), you can leverage commercially supported solutions too.
+You can start small by updating the community versions of the open-source project to meet your business requirements. But later, [as your business requirements grow](https://www.loginradius.com/blog/identity/handling-scalability-security-loginradius/), you can leverage commercially supported solutions too.
 
 
 ### 4. Community Engagement 
@@ -65,7 +65,7 @@ The source code is available for everyone, cybercriminals can also [easily find 
 
 ### 2. Security
 
-Open-source project contributors are generally developers who are not security experts. They contribute to the product primarily to support the functionality and may not consider the security aspects. Hence, the open-source product may pose [security risks](https://www.loginradius.com/blog/start-with-identity/consumer-data-privacy-security/) that cybercriminals can easily exploit. 
+Open-source project contributors are generally developers who are not security experts. They contribute to the product primarily to support the functionality and may not consider the security aspects. Hence, the open-source product may pose [security risks](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) that cybercriminals can easily exploit. 
 
 
 ### 3. Warranty

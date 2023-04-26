@@ -76,7 +76,7 @@ It is common for customers to have generalized expectations from the market. How
 -   Offering discounts and other benefits
     
 
-People are constantly engaging in comparisons between the diverse range of services and products companies offer them. This has become more common in the age of [social login](https://www.loginradius.com/blog/start-with-identity/2020/02/what-is-social-login/), which makes it very easy for them to compare with other brands without having to step out of their houses. Even when a brand offers a decent amount of discount, people may still want to compare the offers  with other brands in the market. Thus, you must understand the trends that are being followed by your competitors so that you can update yours accordingly.
+People are constantly engaging in comparisons between the diverse range of services and products companies offer them. This has become more common in the age of [social login](https://www.loginradius.com/blog/identity/2020/02/what-is-social-login/), which makes it very easy for them to compare with other brands without having to step out of their houses. Even when a brand offers a decent amount of discount, people may still want to compare the offers  with other brands in the market. Thus, you must understand the trends that are being followed by your competitors so that you can update yours accordingly.
 
 -   Rewarding the loyal customers
     

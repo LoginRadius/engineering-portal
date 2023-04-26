@@ -20,7 +20,7 @@ The data gathered in databases can be vulnerable to cyber attacks that result in
 
 ## Top Challenges With SaaS Apps and How CIAM Overcomes Them
 
-While there are several [benefits of CIAM](https://www.loginradius.com/blog/start-with-identity/customer-identity-and-access-management/) that every organization can leverage, there are eight principal challenges associated with using and deploying SaaS business applications that a CIAM can solve. They are:
+While there are several [benefits of CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) that every organization can leverage, there are eight principal challenges associated with using and deploying SaaS business applications that a CIAM can solve. They are:
 
   
 

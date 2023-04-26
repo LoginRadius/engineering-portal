@@ -105,7 +105,7 @@ The progressive profiling feature of LoginRadius is integrated with the registra
 
 **2. Create native profile-building workflows** 
 
-You can select the most critical information you expect to receive from consumers across the buying journey. LoginRadius' progressive profiling allows you to design custom workflows that enable consumers to interact with your brand across various touchpoints. In short, you can set your own rules and [win the consumer's trust](https://www.loginradius.com/blog/start-with-identity/2019/10/digital-identity-management/) conveniently. 
+You can select the most critical information you expect to receive from consumers across the buying journey. LoginRadius' progressive profiling allows you to design custom workflows that enable consumers to interact with your brand across various touchpoints. In short, you can set your own rules and [win the consumer's trust](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/) conveniently. 
 
 **3. Link social accounts**
 

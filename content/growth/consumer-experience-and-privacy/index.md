@@ -60,7 +60,7 @@ Despite all things considered, in reality, companies may be using much less data
 
 Consumer data has become a fundamentally crucial aspect of business models. It is needed for personalization to boost consumer experience, to make better business decisions, to generate more revenue through third party transfers, and to allow personalized advertisements. consumers and other stakeholders have come to realize the importance and the use of this data over the past few years as well.
 
-Unfortunately, the current consumer experience and [data security practices](https://www.loginradius.com/blog/start-with-identity/2020/12/data-security-best-practices/) do not stand in line with consumer privacy expectations. An organization neglecting ethical and legal data use stands to lose out on revenue, incur heavy fines, all the while narrowing their consumer base for the worse.
+Unfortunately, the current consumer experience and [data security practices](https://www.loginradius.com/blog/identity/2020/12/data-security-best-practices/) do not stand in line with consumer privacy expectations. An organization neglecting ethical and legal data use stands to lose out on revenue, incur heavy fines, all the while narrowing their consumer base for the worse.
 
 Consent as well as robust security protocols play key roles in walking the fine line between data management and consumer privacy expectations. An organization that handles their consumers’ data ethically stands to gain a considerable edge against competitors through greater access to data, greater consumer trust, and potential to secure more privacy-conscious consumers.
 

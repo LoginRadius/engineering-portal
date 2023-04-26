@@ -58,14 +58,14 @@ Since the actual user carries the device, chances of misuse of any security toke
 
 ### One Key Serves Multiple Purposes
 
-Another significant advantage of a physical security key is that it can be used for [Single Sign-On](https://www.loginradius.com/blog/start-with-identity/what-is-single-sign-on/) (SSO), Multi-Factor Authentication (MFA), and sometimes even support FIDO authentication standards, including Universal Second Factor (U2F). 
+Another significant advantage of a physical security key is that it can be used for [Single Sign-On](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) (SSO), Multi-Factor Authentication (MFA), and sometimes even support FIDO authentication standards, including Universal Second Factor (U2F). 
 
 Many organizations utilize security keys and eventually encourage their employees to use them as they have to deal with sensitive information regarding business and clients. This information, if leaked, may lead to specific financial and reputation consequences for the organization. 
 
 
 ## The Disadvantage of Security Key
 
-Besides the endless advantages of security keys regarding [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/), the major drawback is that these keys are costly. 
+Besides the endless advantages of security keys regarding [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/), the major drawback is that these keys are costly. 
 
 [![GD-auth-encryp](GD-auth-encryp.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
 

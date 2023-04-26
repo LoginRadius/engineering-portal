@@ -76,7 +76,7 @@ The following points list the scenarios that can cause broken authentication.
 
 If a hacker successfully logs in by stealing a user’s credentials using any of the above-mentioned broken authentication techniques, they can misuse their privileges and impact the company's sustainability.
 
-Cybercriminals can have various intentions of [hijacking a user’s web application](https://www.loginradius.com/blog/start-with-identity/2021/01/7-web-app-sec-threats/), such as:
+Cybercriminals can have various intentions of [hijacking a user’s web application](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/), such as:
 
 
 

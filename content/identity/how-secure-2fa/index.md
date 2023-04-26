@@ -21,7 +21,7 @@ However, despite this widespread popularity, experts question how secure 2FA is.
 
 Two-factor authentication (2FA) is a security measure that requires consumers two factors to verify their digital identity. Meaning, it does not grant access if the user cannot produce the right username and password, both unique to the individual. 
 
-In addition to both these requirements, the [multi-factor authentication](https://www.loginradius.com/blog/start-with-identity/2019/06/what-is-multi-factor-authentication/) process asks for an additional piece of information like Google Authenticator, Magic Link,  or OTP to log in to an account. 
+In addition to both these requirements, the [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) process asks for an additional piece of information like Google Authenticator, Magic Link,  or OTP to log in to an account. 
 
 An example of this authentication is the login process using Instagram. The first part of the process involves plugging in personal information like a password and username. After this comes the security code that is sent to the person through email or an SMS. 
 
@@ -55,7 +55,7 @@ The implementation of 2FA by various companies as the only **security measure** 
 
 2. **The implementation of 2FA can be considered as a quick fix for a security breach.**
 
-A [security breach](https://www.loginradius.com/blog/start-with-identity/2019/10/cybersecurity-attacks-business/) can have lasting consequences on the reputation of a platform. This is because there are two negative outcomes. The first is one has to obtain a token or a cryptic password sent through text message. **The sudden requirement of 2FA may lead to the user being unable to log in. If it is an optional logging method, most users will overlook how secure is 2FA** and refrain from using it. 
+A [security breach](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) can have lasting consequences on the reputation of a platform. This is because there are two negative outcomes. The first is one has to obtain a token or a cryptic password sent through text message. **The sudden requirement of 2FA may lead to the user being unable to log in. If it is an optional logging method, most users will overlook how secure is 2FA** and refrain from using it. 
 
 
 

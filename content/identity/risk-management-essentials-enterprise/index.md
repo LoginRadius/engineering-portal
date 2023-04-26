@@ -23,7 +23,7 @@ So does it mean that businesses collecting consumer identities are now at more s
 
 Yes, undoubtedly! Enterprises that are collecting, managing, and storing consumer identities in any form need to put their best foot forward in protecting sensitive consumer information, which, if not done at the earliest, may lead to undesirable consequences.
 
-Whether it’s the media industry or the education industry,[ every industry is at a considerable risk of a security breach.](https://www.loginradius.com/blog/start-with-identity/cyber-threats-business-risk-covid-19/)  
+Whether it’s the media industry or the education industry,[ every industry is at a considerable risk of a security breach.](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/)  
 
 In this post, we’ve outlined the aspects that can mitigate the risk during the uncertain times of COVID-19 and can help secure your business in a post-pandemic world.
 
@@ -72,7 +72,7 @@ Frequent cyber awareness training sessions must be organized within the enterpri
 
 Risk-based authentication is perhaps the best weapon against unauthorized access and to enhance network security.
 
-[RBA is a mechanism](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/) that automatically adds another stringent layer of authentication whenever the system detects any unusual login attempt or an attempt that seems fishy.
+[RBA is a mechanism](https://www.loginradius.com/blog/identity/risk-based-authentication/) that automatically adds another stringent layer of authentication whenever the system detects any unusual login attempt or an attempt that seems fishy.
 
 For instance, if a user tries to log in from his/her town and in a few minutes, a similar login request is made from another country (even if the login credentials are the same), the user would need to prove identity through another authentication process. An alert regarding the same would also be sent to the admin.
 

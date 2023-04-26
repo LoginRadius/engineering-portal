@@ -45,7 +45,7 @@ You can look at the below-mentioned points and understand how deepfake attacks a
 
 * In recent years, deepfakes have been aggressively exploited to subvert democracy in the United States. Fake videos of politicians were circulating on social media, prompting Facebook to prohibit the use of deepfakes.
 * Cyber predators are also using Deepfake technology. With the ability to change anyone's face in a video or a picture, people began utilizing it to make sexual content without the victim’s knowledge.
-* Deepfake technology was unexpectedly used to create sexual content such as revenge porn, assisting cyberbullies in finding [new methods to victimize people](https://www.loginradius.com/blog/start-with-identity/cybersecurity-attacks-business/).
+* Deepfake technology was unexpectedly used to create sexual content such as revenge porn, assisting cyberbullies in finding [new methods to victimize people](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/).
 
 Doesn't that sound terrible? It's as though people are using these tools to exploit one another. As these deepfake attacks** **have become common, it's time for us to learn ways to mitigate them. You must be wondering how, right? Well, continue reading! 
 
@@ -76,7 +76,7 @@ Similarly, security practices can help to deter fraudsters. Deepfake attacks, as
 
 ### 1. Proper training and awareness
 
-Through sufficient training and raising awareness, an extra line of defense can be formed. Training should emphasize how technology is used in hostile attempts and how this may be recognized, such as enabling staff to detect deepfake-based [social engineering attempts](https://www.loginradius.com/blog/start-with-identity/social-engineering-attacks/). 
+Through sufficient training and raising awareness, an extra line of defense can be formed. Training should emphasize how technology is used in hostile attempts and how this may be recognized, such as enabling staff to detect deepfake-based [social engineering attempts](https://www.loginradius.com/blog/identity/social-engineering-attacks/). 
 
 
 ### 2. Detection 

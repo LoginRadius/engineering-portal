@@ -15,7 +15,7 @@ The modern digital landscape demands robust security, which significantly relies
 
 A token plays a crucial role in enhancing the overall security mechanism of an organization that helps to deliver flawless and secure authentication and authorization on their website or application.
 
-For years, businesses have been using [token-based authentication](https://www.loginradius.com/blog/start-with-identity/pros-cons-token-authentication/) that allows users to access resources. These tokens have a minimal lifetime, ensuring that cybercriminals have minimum time to exploit a user’s identity. 
+For years, businesses have been using [token-based authentication](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/) that allows users to access resources. These tokens have a minimal lifetime, ensuring that cybercriminals have minimum time to exploit a user’s identity. 
 
 With token security, users have to re-authenticate themselves for obvious security reasons by offering credentials to sign in if the access token is expired. 
 
@@ -71,7 +71,7 @@ Enterprises can leverage a refresh token in scenarios where the API needs authen
 
 Hence, to enhance usability and improve user experience, refresh tokens can be used. 
 
-**Also read:** **[Working With Industry Authorization: A Beginner's Guide to OAuth 2.0](https://www.loginradius.com/blog/start-with-identity/OAuth2.0-guide/)**
+**Also read:** **[Working With Industry Authorization: A Beginner's Guide to OAuth 2.0](https://www.loginradius.com/blog/identity/oauth2-0-guide/)**
 
 
 ## Best Practices to Secure Refresh Tokens 
@@ -82,7 +82,7 @@ Whenever a refresh token is being utilized, the security token service quickly i
 
 Whenever the overall security token service suspects that any refresh token is being used more than once, it automatically assumes something isn’t right. As a result, the refresh token gets immediately revoked and hence ensures adequate security. 
 
-[RBA (Risk-based Authentication) ](https://www.loginradius.com/blog/start-with-identity/risk-based-authentication/)can be the finest way to enhance the security of a refresh token since it helps to analyze a vulnerability and automatically adds another stringent security layer in the mechanism. 
+[RBA (Risk-based Authentication) ](https://www.loginradius.com/blog/identity/risk-based-authentication/)can be the finest way to enhance the security of a refresh token since it helps to analyze a vulnerability and automatically adds another stringent security layer in the mechanism. 
 
 RBA works seamlessly with token-based authentication and can help improve overall security in high-risk scenarios where businesses need a stringent mechanism to prevent a security breach. 
 

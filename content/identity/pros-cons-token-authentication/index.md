@@ -112,7 +112,7 @@ Enterprises can leverage tokens depending on the nature of the requirement and t
 
 Although JWT can be the right option in most scenarios if implemented correctly and securely by following the right security measures. 
 
-However, one should consider the above-mentioned aspects before relying on a token for [authentication and authorization](https://www.loginradius.com/blog/start-with-identity/authentication-vs-authorization-infographic/). 
+However, one should consider the above-mentioned aspects before relying on a token for [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/). 
 
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
