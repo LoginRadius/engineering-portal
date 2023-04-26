@@ -626,7 +626,7 @@ Do you think you can use this to build complex and scalable applications?
 
 You can also set up MFA with LoginRadius instead of setting up everything manually with Redis. You can [sign up for a free account here](https://accounts.loginradius.com/auth.aspx?action=register).
 
-[Refer to this developer-friendly documentation to get started with your MFA setup](https://www.loginradius.com/ciam-for-developers/docs/guide/mfa/) for your web and mobile apps.
+[Refer to this developer-friendly documentation to get started with your MFA setup](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/guide/mfa/) for your web and mobile apps.
 
 ## Resources
 

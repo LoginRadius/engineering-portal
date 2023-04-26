@@ -90,7 +90,7 @@ LoginRadius offers our clients a dedicated support team, consisting of a custome
 
 ### 5\. LoginRadius has the best system availability.
 
-LoginRadius is the only CIAM platform on the market that guarantees 100% uptime, compared to 99.9% offered by other vendors. While other platforms have minutes to hours of unscheduled downtime as well as downtime for regular maintenance, [LoginRadius is simply always available](https://www.loginradius.com/availability/).
+LoginRadius is the only CIAM platform on the market that guarantees 100% uptime, compared to 99.9% offered by other vendors. While other platforms have minutes to hours of unscheduled downtime as well as downtime for regular maintenance, [LoginRadius is simply always available](https://www.loginradius.com/).
 
 ## Migration Program for Gigya Customers Looking to Move
 

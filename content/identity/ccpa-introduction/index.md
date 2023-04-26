@@ -215,7 +215,7 @@ It is a simple effort to prevent broken authentication attacks, such as credenti
 
 ## **How does LoginRadius handle consent withdrawal?**
 
-With the CCPA, your organization needs to prepare for consent withdrawal. The LoginRadius Identity Platform centralizes all your customers’ personal information. You can document and manage your [customers’ consent](https://www.loginradius.com/blog/2017/10/ciam-solves-gdpr-customer-consent/) including withdrawal.
+With the CCPA, your organization needs to prepare for consent withdrawal. The LoginRadius Identity Platform centralizes all your customers’ personal information. You can document and manage your [customers’ consent](https://www.loginradius.com/) including withdrawal.
 
 Another core component of the CCPA is providing data access to auditors or customers, should they request it. With the LoginRadius Identity Platform, customer data is unified into one profile for easy access. You can also export it in an easy-to-read format.
 

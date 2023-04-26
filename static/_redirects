@@ -366,7 +366,6 @@
 /what-is-an-api/	/blog/engineering/what-is-an-api/	301
 /write-a-javascript-library-using-webpack-and-babel/	/blog/engineering/write-a-javascript-library-using-webpack-and-babel/	301
 /engineering/a-webapp-in-deno/  /blog/engineering/hello-world-deno/ 301
-
 /fuel/:year/:month/:slug/ /growth/:slug/  301
 /growth/:year/:month/:slug/ /growth/:slug/  301
 /identity/:year/:month/:slug/ /identity/:slug/  301

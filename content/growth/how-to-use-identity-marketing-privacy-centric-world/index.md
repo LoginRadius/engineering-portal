@@ -38,7 +38,7 @@ First, there's the issue of data protection. The GDPR requires businesses to giv
 
 Second, businesses need to rethink how they use their systems and communicate with their customers. The good news is that many of the issues can be resolved simply by taking an extra minute to verify if the legislations' conditions are met.
 
-[![complaince-wp](complaince-wp.png)](https://www.loginradius.com/resource/retailers-winning-holiday-formula)
+[![complaince-wp](complaince-wp.png)](https://www.loginradius.com/resource/)
 
 
 ## Exploring the Concept of Incrementality 
