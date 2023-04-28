@@ -3,6 +3,7 @@
 /2017/04/byoid-new-authentication-norm/	/blog/identity/	301
 /2017/08/unified-customer-identities-increase-ecommerce-conversions-revenue	/blog/growth/customer-identity-drives-digital-ecommerce-success/	301
 /2017/10/ciam-solves-gdpr-customer-consent	/blog/identity/customer-identity-and-access-management/	301
+/2017/10/ciam-solves-gdpr-customer-consent/	/blog/identity/customer-identity-and-access-management/	301
 /2018/01/2018-cybersecurity-trends/	/blog/identity/	301
 /2018/01/digital-security-meltdown/	/blog/identity/	301
 /2018/01/the-death-of-passwords/	/blog/identity/	301
@@ -366,6 +367,7 @@
 /what-is-an-api/	/blog/engineering/what-is-an-api/	301
 /write-a-javascript-library-using-webpack-and-babel/	/blog/engineering/write-a-javascript-library-using-webpack-and-babel/	301
 /engineering/a-webapp-in-deno/  /blog/engineering/hello-world-deno/ 301
+/identity/oauth2.0-guide/   /blog/identity/oauth2-0-guide/   301
 /tags/o-auth/ /blog/tags/oauth/ 301
 /tags/saa-s/ /blog/tags/saas/ 301
 /tags/i-daa-s/ /blog/tags/idaas/ 301
