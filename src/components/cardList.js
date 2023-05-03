@@ -2,6 +2,8 @@ import React from "react"
 import styles from "./cardlist.module.scss"
 import Card from "./card"
 import Subscribe from "./subscribe"
+import headStyles from "./cardlist.module.scss"
+import Docs from "../../static/consumer-identity-trend.jpg"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { Link, withPrefix } from "gatsby"
@@ -62,6 +64,37 @@ export default function CardList({ posts, currentPage, type }) {
               />
               <h3>Write for us</h3>
             </Link>
+            <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+              {type !== "engineering" && (
+                <>
+                  <div className={headStyles.image}>
+                    <img src={Docs} alt="LoginRadius Docs" />
+                  </div>
+                  <div className={headStyles.text}>
+                    <h3>Consumer Identity Trend 2022 Report</h3>
+                    <a
+                      className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                      // className={"btn-primary ga_event"}
+                      href={
+                        "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022"
+                      }
+                      key={"consumer-identity-trend"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() =>
+                        eventLogger({
+                          category: "Consumer Identity Trend 2022 Report",
+                          action: "User clicked on Free Download button",
+                          label: "Consumer Identity Trend 2022 Report",
+                        })
+                      }
+                    >
+                      {"FREE DOWNLOAD"}
+                    </a>
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>
