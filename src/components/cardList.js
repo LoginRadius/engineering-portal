@@ -3,7 +3,7 @@ import styles from "./cardlist.module.scss"
 import Card from "./card"
 import Subscribe from "./subscribe"
 import headStyles from "./cardlist.module.scss"
-import Docs from "../../static/consumer-identity-trend.jpg"
+import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { Link, withPrefix } from "gatsby"
@@ -71,21 +71,21 @@ export default function CardList({ posts, currentPage, type }) {
                     <img src={Docs} alt="LoginRadius Docs" />
                   </div>
                   <div className={headStyles.text}>
-                    <h3>Consumer Identity Trend 2022 Report</h3>
+                    <h3>Consumer Identity Trend 2023 Report</h3>
                     <a
                       className={`${headStyles.btnPrimary} btn-primary ga_event`}
                       // className={"btn-primary ga_event"}
                       href={
-                        "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022"
+                        "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023"
                       }
                       key={"consumer-identity-trend"}
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() =>
                         eventLogger({
-                          category: "Consumer Identity Trend 2022 Report",
+                          category: "Consumer Identity Trend 2023 Report",
                           action: "User clicked on Free Download button",
-                          label: "Consumer Identity Trend 2022 Report",
+                          label: "Consumer Identity Trend 2023 Report",
                         })
                       }
                     >

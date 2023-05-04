@@ -4,7 +4,7 @@ import kebabCase from "lodash/kebabCase"
 import React from "react"
 import ReactGA from "react-ga"
 import Helmet from "react-helmet"
-import Docs from "../../static/consumer-identity-trend.jpg"
+import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
 import headStyles from "./cardlist.module.scss"
 import AsyncFeatList from "./featurePost/async"
 import FuelFeatList from "./featurePost/fuel"
@@ -182,21 +182,21 @@ const Post = ({ post, relatedPost, type }) => {
                       <img src={Docs} alt="LoginRadius Docs" />
                     </div>
                     <div className={headStyles.text}>
-                      <h3>Consumer Identity Trend 2022 Report</h3>
+                      <h3>Consumer Identity Trend 2023 Report</h3>
                       <a
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}
                         href={
-                          "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022"
+                          "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023"
                         }
                         key={"consumer-identity-trend"}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() =>
                           eventLogger({
-                            category: "Consumer Identity Trend 2022 Report",
+                            category: "Consumer Identity Trend 2023 Report",
                             action: "User clicked on Free Download button",
-                            label: "Consumer Identity Trend 2022 Report",
+                            label: "Consumer Identity Trend 2023 Report",
                           })
                         }
                       >
