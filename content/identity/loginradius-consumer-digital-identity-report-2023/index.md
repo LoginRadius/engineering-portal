@@ -61,4 +61,4 @@ The findings of this report are essential for those seeking to enhance their cus
 
 **Download your complimentary copy** of the report today and stay ahead of the curve in the ever-evolving landscape of customer identity management.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
