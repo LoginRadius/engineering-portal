@@ -37,7 +37,7 @@ Additionally, implementing these authentication methods can help businesses miti
 
 As a leading provider of [Customer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) solutions, we take great pride in our ability to gather and analyze data globally. Our analysis of our customer base over the past year has revealed valuable insights, which are as follows: 
 
-* **95.82% **of companies offer standard login using an email ID
+* **95.82%** of companies offer standard login using an email ID
 * Of the customers that use passwordless login, **87.59%** prefer to log in with their email address
 * **51.39%** of companies do not offer MFA, but **48.61%** do.
 
