@@ -12,7 +12,7 @@ metadescription: " LoginRadius releases Consumer Identity Trend Report 2023. Lea
 
 ## Introduction 
 
-We are pleased to present our annual **Consumer Digital Identity Trend Report 2023**, the ultimate guide to navigating digital consumer identity's complex and ever-evolving landscape.
+We are pleased to present our annual **<a href="https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023">Consumer Digital Identity Trend Report 2023</a>**, the ultimate guide to navigating digital consumer identity's complex and ever-evolving landscape.
 
 We've surveyed over 500 brands and a whopping 1.17 billion users from the LoginRadius Identity Platform to bring you an in-depth analysis of the consumer data market. 
 
@@ -59,6 +59,6 @@ The LoginRadius Consumer Identity Trend Report 2023 highlights the importance of
 
 The findings of this report are essential for those seeking to enhance their customer experience and improve their overall bottom line. 
 
-**Download your complimentary copy** of the report today and stay ahead of the curve in the ever-evolving landscape of customer identity management.
+**<a href="https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023">Download your complimentary copy</a>** of the report today and stay ahead of the curve in the ever-evolving landscape of customer identity management.
 
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
