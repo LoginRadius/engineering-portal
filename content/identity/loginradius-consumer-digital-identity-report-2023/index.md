@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Releases Consumer Identity Trend Report 2023, Highlights The Future of Customer Identity"
 date: "2023-05-04"
-coverImage: "Blog Cover.png"
+coverImage: "consumer-identity-trends-report-2023.png"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
 pinned: true
 author: "Rakesh Soni"
