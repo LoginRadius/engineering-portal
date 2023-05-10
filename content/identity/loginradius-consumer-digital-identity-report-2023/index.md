@@ -6,7 +6,7 @@ tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identit
 pinned: true
 author: "Rakesh Soni"
 description: "LoginRadius has conducted a comprehensive analysis of its global customer base over the past year. The result is an annual report on Consumer Identity Trends for 2023, which showcases over 40 unique insights and observations."
-metatitle: "LoginRadius' Consumer Identity Trend Report 2023 is Out Now!"
+metatitle: "LoginRadius Consumer Identity Trend Report 2023 is Out Now"
 metadescription: " LoginRadius releases Consumer Identity Trend Report 2023. Learn how businesses can improve CX & increase engagement by leveraging authentication and personalization."
 ---
 
