@@ -45,7 +45,7 @@ RBA allows users to log in using a username and password without presenting any 
 
 Risk-based authentication is a great security mechanism that helps overcome the challenges associated with MFA prompt bombing since it automatically detects the risks and unusual behavior from a particular account and restricts access. 
 
-[![rba-gd](rba-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 
 ## How Risk-Based Authentication Works for Protecting Against MFA Prompt Bombing? 

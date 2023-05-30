@@ -61,7 +61,7 @@ RBA is a process of assessing the risk of an authentication request in real-time
 
 The risk is usually assessed based on various parameters and the environment from which the user is trying to authenticate. Some standard parameters used for risk profiling include geographical location, IP address, device, etc. 
 
-[![rba-guide](rba-guide.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 With LoginRadius' risk-based authentication system (RBA), businesses can use risk profiling as another layer of security on top of the traditional methods of identity verification already being used by most online companies today: username and password. 
 
