@@ -39,7 +39,7 @@ In today's digital age, cybersecurity threats are a constant concern for busines
 
 Whether multi-factor or risk-based, an identity management solution can reinforce authentication security even in the highest-risk environments. 
 
-[![RBA-GD](RBA-GD.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Adding multiple layers of authentication not only protects customers' personal information and helps build trust and credibility with customers, which can lead to increased loyalty and referrals.
 

@@ -58,7 +58,7 @@ CIAM is an integrated digital security platform combining advanced and user beha
 
 And if you're wondering how it all fits together, here's how: CIAM incorporates MFA and risk-based authentication that helps mitigate the risks of identity theft and prevents a breach by gathering data about user behavior patterns for each employee or user account based on their specific role within your organization. 
 
-[![rba-gd](rba-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk assessments are performed based on this data to determine whether or not an unauthorized user should have access to sensitive information via an online portal or application portal. 
 

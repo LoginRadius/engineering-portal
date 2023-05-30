@@ -133,7 +133,7 @@ Proper management of digital identity means you must be able to leverage the tru
 * Gather and manage consumer permissions and preferences more efficiently.
 * Provision data access rights of your customers. 
 
-[![cato-gd](cato-gd.png)](https://www.loginradius.com/resource/corporate-account-takeover-an-enterprises-guide-to-protecting-digital-identities/)
+[![GD-Corp-Acc-Takeover](GD-Corp-Acc-Takeover.png)](https://www.loginradius.com/resource/corporate-account-takeover-an-enterprises-guide-to-protecting-digital-identities/)
 
 
 ### 2. Conduct regular risk assessments
