@@ -19,8 +19,6 @@ Moreover, global spending on information security and risk management services i
 
 However, the accelerated pace of rethinking cybersecurity infrastructure doesn’t necessarily indicate a desire to improve threat prevention alone; it also demonstrates that businesses are concerned about delivering value to their customers by building trust. 
 
- 
-
 Yes, our modern ROI-focused world demands a more sophisticated and mature view of digital privacy to accelerate the growth of a digital business. And this can be achieved by leveraging crucial untouched data to deliver seamless user experiences. 
 
 Whether we talk about [mitigating losses from data thefts](https://blog.loginradius.com/identity/5-ways-to-handle-a-data-breach/), achieving operational efficiency, or increasing customer loyalty, investing in digital privacy has offered new business growth opportunities in the past couple of years. 
@@ -28,7 +26,6 @@ Whether we talk about [mitigating losses from data thefts](https://blog.loginrad
 As such, it’s vital to understand how businesses can invoke the true potential of digital privacy and the metrics to measure the ROI through digital privacy. 
 
 Let’s hash it out.
-
 
 ## What Is Digital Privacy?
 
@@ -42,8 +39,6 @@ For instance, data protection and privacy regulations, including the European Un
 
 Digital privacy protects all the information that exists in digital form and is created or shared while using the internet through any device, including mobile phones and PCs. These types of data include: 
 
-
-
 * names
 * addresses
 * contact information
@@ -56,14 +51,13 @@ Multi-factor authentication (MFA) ensures user/customer information isn’t acce
 
 There’s also the angle of using [passwordless authentication](https://www.loginradius.com/passwordless-login/), which helps mitigate the risks associated with password breaches and account takeovers resulting from phishing scams and other credential-based attacks. 
 
-
 ## Business Advantages of Digital Privacy Beyond Compliance
 
 Businesses operating in different parts of the world couldn’t deny that meeting all the data privacy and security compliances is the toughest nut to crack. And things become quite challenging in an era when data localization is swiftly becoming the first condition to operate in a country, state, or region. 
 
 However, digital privacy has more to offer besides the security and privacy advantages; it navigates overall business success. 
 
-[![compliance-wp](compliance-wp.png)](https://www.loginradius.com/resource/reimagining-integrity-as-a-pillar-of-consumer-data-)
+[![WP-compliance-retailers](WP-compliance-retailers.png)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
 
 According to a consumer data protection and privacy survey conducted by [McKinsey](https://www.mckinsey.com/business-functions/risk-and-resilience/our-insights/the-consumer-data-opportunity-and-the-privacy-imperative), half of the respondents agreed that they are most likely to trust a business/organization that asks for only information relevant to its products/services. 
 

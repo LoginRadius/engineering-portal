@@ -19,7 +19,6 @@ Consumer data authentication is a process that entails user identity verificatio
 
 Before we get into that, let’s understand what role consumer data authentication plays in conversion rate optimization:
 
-
 ## Importance of Consumer Data Authentication In CRO
 
 User authentication is important for brands because it plays a vital role in spotting fraud and abuse cases and improving the checkout process for higher conversions. Often [confused with authorization](https://blog.loginradius.com/identity/authentication-vs-authorization-infographic/), authentication is a way to verify users’ identity of who they claim to be. The process can involve various methods such as username and password or answering a secret question to confirm your identity.
@@ -30,9 +29,7 @@ Modern consumer authentication methods have made the buying process stress-free 
 
 Want to know how? Let’s get to it then:
 
-
 ## How to Master CRO While Taking Care of Consumer Data Authentication?
-
 
 ### 1. Implement social login/signup
 
@@ -42,7 +39,7 @@ The process simplifies the registration for consumers and offers a convenient al
 
 With almost instant consumer data authentication enabled by secure social authentication APIs, you can streamline your checkout process. This hassle-free experience will ensure your digital business sees fewer checkout abandonment and higher conversions.
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-reconsidrd](WP-social-login-reconsidrd.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 
 ### 2. Biometric authentication for streamlined access

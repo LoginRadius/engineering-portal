@@ -31,7 +31,7 @@ However, the login box serves as the gateway for users to access your platform, 
 
 On the other hand, a well-designed login box coupled with a quick authentication mechanism like social login, which is visually appealing, user-friendly, and streamlined, can enhance user satisfaction and encourage them to continue engaging with your platform.
 
-[![role-of-unified-login-box](role-of-unified-login-box.png)](https://www.loginradius.com/resource/unified-login-box-for-customers)
+[![EB-Login-Box](EB-Login-Box.png)](https://www.loginradius.com/resource/unified-login-box-for-customers)
 
 ## The Role of Social Login in Seamless User Experiences
 

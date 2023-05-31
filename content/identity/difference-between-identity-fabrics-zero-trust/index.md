@@ -41,8 +41,6 @@ Zero Trust works well for organizations that want to ensure their sensitive info
 
 By using the Zero Trust strategy, you:
 
-
-
 * Reduce business and organizational risks
 * Gain control over cloud and container environments
 * Reduce the risk of a data breach by creating perimeters around sensitive data
@@ -104,7 +102,7 @@ By using the Zero Trust strategy, you:
 </table>
 
 
-[![zero-trust-wp](zero-trust-wp.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## Identity Fabric vs Zero Trust: Which is Better?

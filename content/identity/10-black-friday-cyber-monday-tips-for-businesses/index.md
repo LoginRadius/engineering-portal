@@ -61,8 +61,7 @@ As a retailer, your organization will likely experience a significant increase i
 
 To avoid this, retailers need to shift to a more pragmatic and strategic security approach to ensure the organization can recover quickly from a cybersecurity event and get back to business with zero data loss.
 
-
-[![zerotrust-wp](zerotrust-wp.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ### 6. Think of uptime as an opportunity to maximize efficiency.
