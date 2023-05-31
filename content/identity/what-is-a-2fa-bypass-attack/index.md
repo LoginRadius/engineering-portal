@@ -69,7 +69,7 @@ These kinds of attacks may affect the privacy of a user/employee and may result 
 
 Risk-based authentication (RBA), also called adaptive authentication, monitors consumers’ identity and access using stringent rules. The objective is to authenticate a user profile before allowing access to ensure it is not a threat. These restrictions become more stringent with increasing risks.
 
-[![rba-gd](rba-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk-based authentication works on a model that requires permission and response. A user asks for permission to access a file or software. In response, the file or software responds by presenting options to log in using an ID and password or sending mail or OTP to a registered contact number.
 

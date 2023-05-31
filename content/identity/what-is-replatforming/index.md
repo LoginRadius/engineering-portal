@@ -50,7 +50,7 @@ Replatforming IAM solutions to cloud-based platforms can provide numerous benefi
 
 Hence, it’s always a great idea to switch to a robust customer IAM like LoginRadius that can help scale your business growth, enhance security, and meet all the compliances.
 
-[![GD-DIY-CIAM](GD-DIY-CIAM.png)](https://www.loginradius.com/resource/move-to-a-consumer-iam-solution/)
+[![GD-DIY-to-CIAM](GD-DIY-to-CIAM.png)](https://www.loginradius.com/resource/move-to-a-consumer-iam-solution/)
 
 
 ## How Can the LoginRadius CIAM Platform be Your Go-To Solution?

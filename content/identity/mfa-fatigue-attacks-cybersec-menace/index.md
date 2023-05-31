@@ -49,7 +49,7 @@ It is a method of applying various levels of stringency to [authentication proce
 
 Risk-based authentication is an essential security feature because it works in real-time to prevent cyber frauds like accounts getting compromised without causing an inconvenience for legitimate consumers.
 
-[![rba-gd](rba-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk-based authentication helps businesses in achieving the following goals:
 

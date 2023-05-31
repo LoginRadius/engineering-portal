@@ -43,7 +43,7 @@ We’ve mentioned a few use cases of AI in security, but how can you take advant
 
 You can start by following the behavioral analytics for risk-based authentication. This will help you find fraudulent or suspicious activities to ensure you never miss a fraud attempt, even if it’s unsuccessful.
 
-[![GD-EG-to-RBA](GD-EG-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### 2. Biometric Authentication
 
