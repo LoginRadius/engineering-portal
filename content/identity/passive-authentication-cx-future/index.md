@@ -30,7 +30,7 @@ Passive authentication is the newest wave of customer experience, and it's set t
 
 Passive authentication is frictionless; it lets users get on with their day without taking extra steps or making different decisions that might slow them down or cause frustration.
 
-[![secure-auth-wp](secure-auth-wp.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+[![WP-user-authentication](WP-user-authentication.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
 
 
 ## Active Authentication vs. Passive Authentication: What's The Difference?

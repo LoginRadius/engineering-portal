@@ -9,7 +9,6 @@ metatitle: "What is MITRE ATT&CK Framework?"
 metadescription: "MITRE ATT&CK is the collection of cybercriminal goals and techniques, which can be leveraged to understand the threat vectors and minimize the loss. Read more."
 
 ---
-
 ## Introduction 
 
 With the changing cybersecurity landscape and increasing threat vectors, businesses are now more concerned about the severity of attacks.
@@ -23,7 +22,6 @@ Introduced in 2013 by MITRE, the ATT&CK (Adversarial Tactics, Techniques & Commo
 The matrices contain different techniques and tactics associated with the usual behavior of attackers before they try to sneak into a network. 
 
 In a nutshell, the MITRE ATT&CK framework could be defined as the collection of cybercriminal goals and techniques, which can be leveraged to understand the treat vectors and minimize the loss. 
-
 
 ## How to Use MITRE ATT&CK?
 
@@ -39,7 +37,7 @@ ATT&CK is a helpful way to map security controls to threat actor behaviors, but 
 
 Many of the ATT&CK techniques are performed in multiple ways, so trying to apply a single method of detection may not necessarily prevent all variations of the technique.
 
-[![trade-wp](trade-wp.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-Dig-Trade-Zone](WP-Dig-Trade-Zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ## Using ATT&CK With Cyber Threat Intelligence
@@ -50,13 +48,10 @@ ATT&CK can track actors by their known behaviors, allowing defenders to apply op
 
 ATT&CK is also available as a STIX/TAXII 2.0 feed, making it easy to ingest into existing tools that support those technologies.
 
-
 ## In Conclusion
 
 Organizations that are concerned about their cybersecurity hygiene shouldn’t ignore the true potential of ATT&CK to identify threat vectors and alter their cybersecurity posture accordingly. 
 
 Globally, brands are using this framework to analyze cybersecurity vulnerabilities and to create adequate action plans for robust security. 
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
