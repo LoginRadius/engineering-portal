@@ -44,7 +44,7 @@ Another key benefit of digital identity is the ability to create a seamless, omn
 
 By leveraging digital identity, retailers can create a unified view of each customer that spans all channels, allowing them to deliver a seamless experience whether browsing on a mobile device or shopping in-store.
 
-[![EB-omnichannel-cx](EB-omnichannel-cx.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 ### Privacy and Security Concerns
 

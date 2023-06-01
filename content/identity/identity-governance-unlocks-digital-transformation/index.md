@@ -44,7 +44,7 @@ Identity governance helps organizations to streamline access management processe
 
 Identity governance ensures that organizations comply with regulatory requirements around data privacy and security. For instance, the GDPR and the CCPA data privacy and security regulations require businesses to implement identity governance. 
 
-[![LR-GDPR-EB](LR-GDPR-EB.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
+[![EB-GDPR-Comp](EB-GDPR-Comp.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
 
 ## How a Cutting-Edge CIAM Fulfills the Identity Governance Criteria?
 

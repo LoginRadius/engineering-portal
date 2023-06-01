@@ -38,8 +38,7 @@ An omnichannel customer experience is a multifold approach to advertising, selli
 
 A digital omnichannel strategy adopts a multichannel approach for sales, consumer service, and marketing. It focuses on providing a united consumer experience regardless of the channel they contact your company.
 
-
-[![omni-eb](omni-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 The key to providing constant omnichannel engagement is to offer a smooth experience across all online and offline platforms. Every contact should be considered a single experience from the consumer's perspective. It implies it shouldn't be segregated or repetitious.
 

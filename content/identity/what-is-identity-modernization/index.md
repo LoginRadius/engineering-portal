@@ -37,7 +37,7 @@ Hence, the need for identity modernization becomes more crucial.
 
 Identity modernization is the process of shifting from conventional on-premise identity systems to a cloud-based identity management system that helps reinforce overall identity security against modern threat vectors. 
 
-[![cloud-wp](cloud-wp.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
+[![wp-nightmare](wp-nightmare.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
 
 While most businesses have already put their best foot forward in adopting robust cloud-based identity management solutions, many are just wondering and waiting for a breach to change their decision. 
 
