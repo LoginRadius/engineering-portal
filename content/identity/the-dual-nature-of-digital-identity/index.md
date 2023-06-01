@@ -45,7 +45,7 @@ The security of digital identity is paramount in today's digital landscape, give
 
 One effective way to secure digital identity is by implementing a modern customer identity and access management (CIAM) solution. CIAM provides a secure and centralized platform to manage customer identity data, authentication, and authorization. 
 
-[![GD-Mod-Cus-Identity](GD-Mod-Cus-Identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-CI](EB-GD-to-CI.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 CIAM helps to prevent data breaches by securing personal data, managing customer identities, and implementing adequate access controls. With CIAM, businesses can ensure that their customers' personal information is secure and that only authorized users can access it. 
 

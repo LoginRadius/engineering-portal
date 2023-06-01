@@ -67,7 +67,7 @@ When choosing a reliable cloud architecture, most businesses aren’t sure wheth
 
 For startups and budding entrepreneurs, multi-tenant cloud deployment is the best as they need not spend much money on the services they don’t require. Instead, they just need to pay for the resources they need on shared cloud space.
 
-[![nightmare-wp](nightmare-wp.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
+[![wp-nightmare](wp-nightmare.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
 
 
 ### #2. Analyze Unused Resources

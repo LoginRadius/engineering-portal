@@ -51,7 +51,7 @@ And if you wish to create a perfect balance between user experience and security
 
 LoginRadius CIAM helps businesses reinforce their identity strategy by offering the highest level of customer and business information security level while maintaining a seamless user experience across multiple channels. 
 
-[![Enterprise-BG-to-consumer-idntity](Enterprise-BG-to-consumer-idntity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![EB-GD-to-CI](EB-GD-to-CI.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### 4. Focus on User Adoption
 

@@ -45,7 +45,7 @@ Along with being secure, CIAM can also be adaptive. You can assign different cri
 
 A few D2C brands also have brick-and-mortar retail outlets. With CIAM, the store can access details about the customers to provide a better experience. The customer can also use their digital identity to purchase at the store. This will add their in-store purchase to the online order history.
 
-[![omnichannel-eb](omnichannel-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-Omnichannel-world](EB-Omnichannel-world.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 A CIAM system will ensure that all the information concerning a customer remains associated with one user identity. On the user’s end, it ensures a consistent brand experience across all channels. The customers can also begin the purchase journey on one device and complete it on another.
 

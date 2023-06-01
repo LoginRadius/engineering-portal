@@ -108,7 +108,7 @@ CIAM solutions enable businesses to manage customer data, streamline login proce
 
 Here’s the list of benefits of buying a CIAM solution rather than building one from scratch:
 
-[![build-vs-buy-eb](build-vs-buy-eb.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![EB-buy-over-build](EB-buy-over-build.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 
 ### 1. Time and Cost Savings
