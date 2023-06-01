@@ -37,31 +37,25 @@ CIAM is designed to make it much more difficult for fraudsters to access custome
 
 ## Why is Strong Customer Authentication Important for Merchants?
 
-
 ### 1. Protection Against Fraud
 
 Fraud is a significant problem for merchants and can cause significant financial losses. CIAM helps prevent fraud by making it much more difficult for fraudsters to access customer accounts and make fraudulent transactions. CIAM ensures that only authorized users can access their accounts and that all transactions are legitimate.
-
 
 ### 2. Compliance with Regulations
 
 Regulatory authorities require that merchants implement [strong authentication methods](https://www.loginradius.com/authentication/) to protect customer data. Regulations such as the EU’s Payment Services Directive 2 (PSD2) require merchants to implement CIAM to protect against fraud and ensure the security of online transactions.
 
-
 ### 3. Increased Customer Trust
 
 By implementing CIAM, merchants can increase customer trust and confidence in their online transactions. Customers are more likely to purchase from merchants who have taken steps to protect their accounts and ensure their transactions are legitimate. 
-
 
 ### 4. Improved Customer Experience
 
 CIAM can also improve the customer experience by reducing the risk of fraudulent transactions, leading to chargebacks and canceled orders. This helps to ensure that customers are satisfied with their purchases and are more likely to return to the merchant for future purchases.
 
-
 ### 5. Better Risk Management
 
 CIAM helps merchants to better manage risk by identifying potentially fraudulent transactions before they occur. By implementing CIAM, merchants can reduce the risk of financial loss due to fraudulent activity and ensure their business remains secure and profitable.
-
 
 ## How to Implement Strong Customer Authentication?
 
