@@ -40,7 +40,6 @@ On the other hand, if you are an online retailer or e-commerce site, then your r
 
 As a [CISO or an IT head](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper), you need to convince your CEO and key decision-makers to understand the importance of good cybersecurity hygiene, especially when cyberattacks are becoming more prominent.
 
-
 ## Incorporating Necessary Cybersecurity Tools and Technologies
 
 Investing a portion of your overall budget into incorporating cybersecurity best practices is always better.
@@ -50,15 +49,12 @@ Investing in cybersecurity tools and technologies would be wise if you run an or
 Many organizations understand the importance of investing in cybersecurity tools and technologies but don't know how much they should allocate toward this purpose. To help you plan better for your future IAM budget, here are the critical areas where you should invest: 
 
 
-
 * Invest in a robust customer identity and access management (CIAM) solution 
 * Get zero trust architecture
 * Enable risk-based authentication 
 * Frequent employee training sessions
 
-
-
-[![zerotrust-wp](zerotrust-wp.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zerotrust-1](WP-zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## Making the Most out of Your Current CIAM Budget 

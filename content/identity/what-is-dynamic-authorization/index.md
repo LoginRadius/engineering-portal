@@ -60,7 +60,7 @@ Dynamic authorization helps you stay ahead of regulations and protect your organ
 
 In other words, it ensures that if someone tries to access something they aren't supposed to, they won't be able to do it.
 
-[![compliance-wp](compliance-wp.png)](https://www.loginradius.com/resource/)
+[![WP-compliance-retailers](WP-compliance-retailers.png)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
 
 
 ## How Can Dynamic Authorization Improve Customer Experience?
