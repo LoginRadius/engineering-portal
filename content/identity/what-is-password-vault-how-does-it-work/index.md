@@ -66,7 +66,7 @@ There are several pros and cons to using a password vault:
 3. **Difficulty in migrating:** If a user wants to switch to a different password vault or password manager, it can be difficult to migrate all the stored passwords.
 4. **Cost:** Some password vaults require a subscription fee, which can disadvantage users who want to avoid paying for the service.
 
-[![GD-to-MFA](GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 ## How to Implement Password Vaulting
 

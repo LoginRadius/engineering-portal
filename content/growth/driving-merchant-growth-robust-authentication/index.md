@@ -67,7 +67,7 @@ CIAM helps merchants to better manage risk by identifying potentially fraudulent
 
 Merchants can implement CIAM using two-factor authentication (2FA) or multi-factor authentication (MFA). 2FA requires customers to provide two forms of identification: a password and a code sent to their mobile device. 
 
-[![Buyers-Guide-MFA-EB](Buyers-Guide-MFA-EB.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA-EB](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 MFA requires customers to provide three or more forms of identification, such as a password, a code sent to their mobile device, and a fingerprint scan.
 

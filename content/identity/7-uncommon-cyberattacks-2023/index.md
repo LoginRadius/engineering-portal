@@ -51,7 +51,7 @@ The Internet of Things is a growing industry; several intelligent, interconnecte
 
 IoT networks are mainly vulnerable to spoofing, denial-of-service attacks (DDoS), and phishing. And these kinds of attacks can be avoided by leveraging various network security measures, including encryption, identity management, robust authentication, and authorization.
 
-[![trade-wp](trade-wp.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-Trade-Zone](WP-Trade-Zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ### #5. Deepfake 

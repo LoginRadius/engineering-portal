@@ -37,7 +37,6 @@ This is important because it allows the infosec team to identify gaps in the org
 By building an IAM governance framework, you can help your organization make better security decisions, including:
 
 
-
 * how to implement effective policies for identity and access management
 * how to enforce these policies
 * how to determine what resources each employee needs to do their job effectively
@@ -51,7 +50,7 @@ But what makes an IAM solution genuinely effective?
 
 For starters, it should allow you to authenticate users securely through multi-factor and adaptive authentication. Your customers and employees will never have to worry about having their credentials stolen or compromised.
 
-[![adaptive-mfa](adaptive-mfa.png)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
+[![EB-Adaptive-auth](EB-Adaptive-auth.png)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
 
 Also, the cutting-edge CIAM system like [LoginRadius](https://www.loginradius.com/) helps meet all the necessary global compliances like CCPA and GDPR to ensure businesses need not worry about hefty fines and regulations while serving their customers in parts of the world. 
 

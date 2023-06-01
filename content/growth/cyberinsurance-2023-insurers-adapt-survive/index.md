@@ -2,7 +2,7 @@
 title: "Cyber Insurance in 2023: Takeaways For The Future And How To Prepare For It"
 date: "2023-01-06"
 coverImage: "cyber-insurance.jpg"
-category: ["cybersecurity", "cyberinsurance", "risk management"]
+tags: ["cybersecurity", "cyberinsurance", "risk management"]
 author: "Alok Patidar"
 description: "As cyber risks continue to evolve and increase, it is no surprise that cyber insurance is becoming one of the fastest-growing insurance products in the market. Learn how it will shape the security space in 2023."
 metadescription: "As technology continues to speed up businesses, the nature of cyber risk will change. Learn how  cyber insurance will be different in 2023."
@@ -70,7 +70,7 @@ When it comes to cyber insurance renewals, here are a few things insurers will w
 Multi-factor authentication protection on all remote access to your network, including any remote desktop protocol connections, email server, cloud services, and backup data solutions. Ensure that all network administrator accounts and any other user accounts with elevated permissions have multi-factor authentication protection.
 
 
-[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 2. Endpoint security
