@@ -376,6 +376,7 @@
 /identity/:year/:month/:slug/ /identity/:slug/  301
 /async/author/*	/blog/author/:splat	301
 /fuel/author/*	/blog/author/:splat	301
+/blog/blog/*  /blog/:splat	301
 /start-with-identity/*	/blog/identity/:splat	301
 /start-with-identity/author/*	/blog/author/:splat	301
 /start-with-identity/category/*	/blog/tags/:splat	301
