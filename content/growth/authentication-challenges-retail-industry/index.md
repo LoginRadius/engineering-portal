@@ -6,7 +6,7 @@ category: ["security"]
 featured: false 
 author: "Rashmi Mathur"
 description: "Losing business means paying for remediation, business disruption, legal expenses, identity repair, regulatory penalties, and other clean-up costs. Although retail has some distinct differences from other industries regarding identity and authentication, it also faces many challenges."
-metatitle: "What are the Benefits of Risk-Based Authentication in Gaming"
+metatitle: "What are the Authentication Challenges in Retail"
 metadescription: "Authentication is critical for retail brands. As many retailers expand, they are beginning to face global security concerns such as the lack of secure authentication."
 ---
 
