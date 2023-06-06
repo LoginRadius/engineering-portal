@@ -2,13 +2,12 @@
 title: "Top Priorities for Customer IAM Leaders in 2023 and How to Prepare"
 date: "2022-12-16"
 coverImage: "ciam-leaders.jpg"
-tags: ["ciam", "authentication", "c suite"]
+tags: ["ciam", "authentication", "data security","cx"]
 author: "Deepak Gupta"
 description: "As we approach the next decade, it is worth looking at what technology will bring to the table and how it can impact the realm of intelligent authentication. Let’s look at some of the top priorities of CIAM leaders in 2023."
 metatitle: "Top 3 Things Customer IAM Leaders Will Prioritize in 2023"
 metadescription: "Whether it’s security, user experience, or customer acquisition, every C-suite executive in the IAM landscape is geared to stay ahead of the curve."
 ---
-
 
 ## Introduction
 
@@ -40,7 +39,7 @@ New-age companies are looking to create solutions that deliver a delightful cust
 
 The need for CIAM to lead the company in providing such an experience has never been more pertinent than today when customer expectations have reached an all-time high.
 
-[![omni-eb](omni-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### 3. Retaining Customers and New Customer Acquisition
@@ -53,7 +52,6 @@ As a CIAM leader, your business will look different in 10 years than it does tod
 
 Despite being known as a stable and unchanging organization due to its prominence, CIAM has several unaddressed challenges triggered by the changing environment. The traditional internal workings of the organization have resulted in generating problems that CIAM leaders are trying to address and will continue to do so in 2023. 
 
-
 ## In a Nutshell 
 
 The next-gen CIAM leaders need to emphasize a broader spectrum of customer expectations and business goals.
@@ -61,7 +59,5 @@ The next-gen CIAM leaders need to emphasize a broader spectrum of customer expec
 Aside from increasing efforts to secure identity, it is anticipated that customer experience will be the most critical focus for companies that want to thrive in the next ten years. 
 
 While leaders will be able to continue streamlining the security and fraud prevention techniques; however, if they cannot apply the same level of efficiency and innovation to deliver a positive user experience, they risk alienating consumers and ultimately losing their loyalty. 
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

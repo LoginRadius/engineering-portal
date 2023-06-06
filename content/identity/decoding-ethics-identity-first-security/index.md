@@ -2,7 +2,7 @@
 title: "What Brands Need to Know for Building the Future of Data Compliance?"
 date: "2022-09-19"
 coverImage: "id-first.jpg"
-tags: ["identity management", "MFA", "CIAM"]
+tags: ["identity management", "mfa", "ciam","cx"]
 author: "Deepak Gupta"
 description: "Identity management is undoubtedly the new leadership model for data protection and business growth. And an identity-first security mechanism is swiftly becoming the need of the hour. This blog highlights the aspects of incorporating identity-first security and how businesses can navigate their digital success."
 metatitle: "Decoding the Ethics of Identity-First Security"
@@ -44,15 +44,12 @@ Identity-first security helps mitigate risks and ensure strong identity controls
 
 With an identity-first security approach, businesses can:
 
-
-
 * Ensure that only those people who are authorized to access your data can do so.
 * Automate lifecycle management activities to help you keep up with the ever-changing nature of employee roles, responsibilities, and devices.
 * Ensure access is granted to the right person at the right time via automated processes without compromising security.
 * Offer stringent layers of security through [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) and risk-based authentication (RBA)
 
-[![ciam-eb](ciam-eb.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
-
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## The Crucial Role of An Identity Management Platform
 
@@ -61,7 +58,6 @@ Invoking the true potential of identity-first security requires modern businesse
 A [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) solution can be the best thing that can help mitigate the risks of identity thefts or sensitive business data breaches. 
 
 Moreover, a CIAM solution also helps meet all the necessary security and privacy compliances, ensuring the highest data security and privacy level. 
-
 
 ## In Conclusion
 

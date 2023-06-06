@@ -2,7 +2,7 @@
 title: "IAM vs. Customer IAM: Understanding the Role of CIAM in Accelerating Business Growth"
 date: "2022-11-03"
 coverImage: "iam-ciam.jpg"
-tags: ["iam", "ciam", "business growth"]
+tags: ["iam", "ciam", "data security","compliance"]
 author: "Rakesh Soni" 
 description: "A CIAM can be scaled in real-time depending on the load and number of users accessing the services from a single platform. On the other hand, the traditional IAM can’t deliver results for large-scale deployments. Let’s understand why organizations should switch to customer IAM and how it’s helping businesses stay ahead of the curve."
 metatitle: "IAM Vs CIAM: Making the Right Call For Your Business Growth"
@@ -58,15 +58,13 @@ These aren’t the only potential costs you can save—legal fees can run high w
 
 Presenting customers with easily self-managed privacy choices and a solid privacy policy also shows them that their data is safe and shows your company is competent and professional in handling these issues. This reputation will encourage customer loyalty in the long run.
 
-[![privacy-ds](privacy-ds.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
-
+[![DS-Priv-Pol-Mgnmnt](DS-Priv-Pol-Mgnmnt.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 ### #3. Scalability and uptime
 
 With just one customer identity management system fully managed for you, reliability is maximized, and the need for resources is kept to a minimum. A centralized login system for all of your apps and services makes it easy to add new services as they come online. 
 
 A cloud implementation can [quickly scale up](https://www.loginradius.com/blog/identity/handling-scalability-security-loginradius/) or down depending on your usage, and automated failover can cut downtime to virtually zero.
-
 
 ### #4. Better customer experience
 

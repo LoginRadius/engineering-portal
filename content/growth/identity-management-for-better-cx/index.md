@@ -17,11 +17,9 @@ Off late, we’ve seen a dramatic shift in the way customers engage with busines
 
 In this blog post, we'll help you figure out how to use digital identity to improve your relationships with customers and make them feel more confident in their interactions with you.
 
-
 ## What Do Your Customers Expect From You?
 
 Customers want to be able to find information quickly, easily, and intuitively. A CIAM ensures that they can do just that. Let's learn more about the role of CIAM and how it helps you meet your customer's needs. 
-
 
 ### 1. Security
 
@@ -31,7 +29,6 @@ Identity solutions can help businesses protect their customer’s data from cybe
 
 When it comes to security, your customers are only as safe as you make them feel. And the more you can do to empower your customers and make them feel safe, the better. CIAM helps ensure that customers are provided with robust authentication and security features extending from SSO, MFA, user management, data governance, etc. 
 
-
 ### 2. Convenience
 
 The world is evolving, and so is our way of interacting with people. Customers today expect to be able to shop from their phones, computers, and mobile devices. They also expect you to have a user-friendly website. 
@@ -40,7 +37,7 @@ They want to be able to access their information from any device at any time, wh
 
 A CIAM improves the omnichannel experience for its customers by making them feel safe and empowered. All they need to do is provide them with one login that works across all their devices and channels.
 
-[![omni-eb](omni-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### 3. Balancing between user experience and security

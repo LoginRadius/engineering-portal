@@ -2,7 +2,7 @@
 title: "How to Use Identity Management at Every Stage of the Customer Journey?"
 date: "2023-02-28"
 coverImage: "identity-mngmnt.jpg"
-tags: ["identity management", "cx", "customer journey"]
+tags: ["identity management", "progressive profiling", "passwordless login"]
 author: "Yash Rathi"
 description: "While leveraging personalization at every stage of the customer journey can enhance customer experience and unwind great opportunities, it also ensures returning customers and more referrals. This blog highlights the role of identity management throughout the customer journey and how it helps businesses streamline user experience backed with security."
 metatitle: "Creating Seamless Customer Journey With Identity Management"
@@ -47,7 +47,6 @@ At the same time, you can pull relevant information about those potential custom
 
 Here’s where the crucial role of a CIAM with social login feature comes into play! 
 
-
 ## CIAM: A New Standard For Passwordless Authentication
 
 Once the transaction has been completed and the customer is no longer a “potential” buyer, we move on to the login experience. At this point, CIAM plays a pivotal role in balancing security with user experience. 
@@ -56,16 +55,13 @@ CIAM for customers can provide a passwordless experience and an adaptive access 
 
 Passwordless authentication provides a streamlined login experience using the customer’s device (something you have) and a biometric, typically via facial recognition or a smartphone’s fingerprint reader (something you are). 
 
-[![passwordless-login](passwordless-login.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-PL-magic-link](DS-PL-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 The customer does not need to remember overly complex passwords or tap into a clunky password manager for help.
-
 
 ## Profiling Is The Future: How Progressive Profiling Will Change Marketing?
 
 As we know that the customer journey is a process that begins with a trigger. A trigger prompts a person to research a product, service, or brand. Triggers can be many things:
-
-
 
 * Seeing an advertisement.
 * Hearing about something new in the news.
@@ -76,7 +72,6 @@ You must make an excellent first impression. Once triggered, potential customers
 After landing on your website, customers may choose to provide an email address in exchange. By entering their information into this dialog box, they permit you to communicate with them in the future. This is what exactly is [progressive profiling](https://www.loginradius.com/progressive-profiling/)! 
 
 Over time, you collect additional information from them in a way that attempts to be unobtrusive, allowing you to market specifically to this potential customer as you move towards a more significant connection.
-
 
 ## Consent Management: A Foundation for a Good Digital Experience
 
@@ -90,20 +85,16 @@ The key to maintaining customer loyalty and protecting your business is clearly 
 
 It's all about building trust; once you do that, everything else will fall into place!
 
-
 ## Delivering An Omnichannel Experience To Your Customers
 
 We live in a world where everything's connected. As consumers, we expect our experiences to be seamless from device to device and channel to channel, regardless of the device or channel we use. We need businesses to provide consistent experiences so that we can trust them.
 
 Providing an [omnichannel experience](https://www.loginradius.com/blog/growth/what-is-omnichannel-cx/) has become a critical goal because you're expected to deliver the same customer experience from every device and channel your business supports. If you can do this, creating a single 360-degree view of each customer transacting via a mobile application is no different than accessing the company website on a laptop. There is a consistency of service that builds trust in your brand!
 
-
 ## Conclusion
 
 Customer experience is vital to many aspects of your business and the success of your overall organization. It's also essential to understand the importance of the customer journey and the role technology plays in this journey in the form of a robust customer identity and access management (CIAM) solution. 
 
 Customer experience and customer journey have been codified in our industry, but changes are still happening in this brave new world under which many struggles to adapt. To build personalized and engaging customer journeys, you must consider using a cutting-edge CIAM solution. 
-
-
 
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

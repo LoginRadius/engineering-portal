@@ -2,7 +2,7 @@
 title: "Renewing Your Security Vendor Contract? Know When It’s the Time to Switch"
 date: "2022-08-31"
 coverImage: "sec-vendor.jpg"
-tags: ["security vendor", "cyberattacks", "brand identity"]
+tags: ["cybersecurity", "mfa", "digital identity","cloud security"]
 author: "Rakesh Soni"
 description: "Since cybercriminals are constantly exploring new ways to exploit sensitive business and customer information, companies must upgrade their security infrastructure to ensure they remain in a safe zone. Here are some aspects of upgrading your security practices and when businesses must rethink their cybersecurity posture."
 metadescription: "With increasing cybersecurity threats, businesses need to ensure they choose the most reliable security vendor. Read on to know more."
@@ -40,7 +40,7 @@ But besides endless security mechanisms working simultaneously to prevent a brea
 
 Hence, when organizations face violations, they must consider switching their security vendor or renewing the same with added security features. 
 
-[![security-wp](security-wp.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![WP-futureproof-security](WP-futureproof-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 
 ## Signs You Need to Switch/Renew Your Security Vendor Contract 

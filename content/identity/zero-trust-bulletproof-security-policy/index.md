@@ -2,13 +2,12 @@
 title: "Implementing Zero Trust? Make Sure You're Doing It Correctly"
 date: "2022-08-23"
 coverImage: "zt-1.jpg"
-tags: ["zero trust", "MFA", "data breaches"]
+tags: ["zero trust", "MFA", "ciam solution", "cx"]
 author: "Deepak Gupta" 
 description: "Though zero trust architecture may be potent for reinforcing overall security, chances of sneaking and security breaches aren’t always zero. If not implemented correctly, zero trust could lead to various security and user experience issues and hampers overall business growth."
 metatitle: "Zero Trust: How to Build a Bulletproof Security Policy?"
 metadescription: "Zero trust architecture helps businesses reinforce security and enhance customer experience. Read on to know the correct implementation method."
 ---
-
 
 ## Introduction
 
@@ -31,9 +30,7 @@ Implementing a zero-trust architecture in today’s era is crucial since cybercr
 
 Hence, it’s crucial for organizations to think outside the box and not just rely on conventional security mechanisms, including [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/). Zero trust architecture has become the new normal. 
 
-
-[![zt-part2](zt-part2.png)](https://www.loginradius.com/resource/zero-trust-security/)
-
+[![WP-zero-trust-2](WP-zero-trust-2.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ## Consequences of Poor Implementation of Zero Trust Architecture
 
@@ -53,7 +50,6 @@ Organizing training sessions could help them better understand everything relate
 
 Apart from this, employees can easily support the overall access requirements for vendors, employees, and customers while mergers and acquisitions (M&A). 
 
-
 ### #2. Promoting cross-department collaboration
 
 Managing access across diverse departments is conventionally handled by integrated employee-centric access management solutions. And this could be a risky thing. 
@@ -62,12 +58,10 @@ Implementing zero trust through an identity management platform for seamless acc
 
 A [CIAM solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) helps manage things seamlessly and offers complete transparency regarding access management within employees to employees, machines, and machine-to-machine communications. 
 
-
 ## Final Thoughts
 
 Zero trust architecture is undeniably helping brands reinforce their overall security infrastructure, but consequences related to bad implementation shouldn’t be ignored. 
 
 A reliable customer identity and access management (CIAM) could help businesses integrate zero trust architecture across their platform seamlessly. It offers complete transparency reinforced with stringent security and a great user experience.  
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
