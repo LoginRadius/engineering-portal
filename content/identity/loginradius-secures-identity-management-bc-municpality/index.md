@@ -2,20 +2,18 @@
 title: "BC Municipality Digitizes its Citizen Services. LoginRadius Brings Identity to the Table."
 date: "2022-09-06"
 coverImage: "bc-municipal.jpg"
-tags: ["idx framework", "perfect mind", "municipality"]
+tags: ["digital identity", "authentication", "cx"]
 author: "Saikiran Babladi"
 description: "A city in BC was looking for a CIAM solution that would secure the identities and streamline the authentication process for its citizens. Here's why they decided to try LoginRadius and the decision worked in their favor."
 metatitle: "LoginRadius Secures Identity Management For BC Municipality"
 metadescription: "British Columbian Municipality digitizes its citizen services. Read how LoginRadius secured identities and streamlined authentication for their citizens."
 ---
 
-
 ## Introduction
 
 One of the leading municipalities known for biking and trekking in British Columbia is set to take off on its journey to digitize its citizenship services. 
 
 The moment of truth came when the City decided to digitize its citizen services; it could never have predicted how valuable this modernization project would become. The City provides a wide range of services to its citizens, including recreational facilities, community building, etc. They join the dots to meet the needs of their residents to ensure a safe and livable community. Other services include taxes and utilities, garbage and waste diversion, and transportation. 
-
 
 ## Managing the Identities
 
@@ -36,7 +34,6 @@ LoginRadius Identity Experience Framework pages are JavaScript, HTML, and CSS dr
 
 Even though it is hosted on LoginRadius, the solution is also entirely white label, which means that the City could customize the URL of the portal as well as all the UI elements of it. 
 
-
 ## PerfectMind Integration
 
 One of the key integrations the City has is with the PerfectMind application, a membership management software that uses cloud-based technology to help cities connect with their communities. 
@@ -47,8 +44,7 @@ Whenever any citizen logs into the City’s website, they will be automatically 
 
 With this integration, citizens are able to access recreational services to search and register for programs with a single account giving them the best experience while surfing the City’s website.
 
-[![ds-perfectmind](ds-perfectmind.png)](https://www.loginradius.com/resource/perfectmind-integration)
-
+[![DS-perfectmindint](DS-perfectmindint.png)](https://www.loginradius.com/resource/perfectmind-integration)
 
 ## Support
 

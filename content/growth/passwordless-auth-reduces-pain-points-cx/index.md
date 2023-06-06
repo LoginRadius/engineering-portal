@@ -2,7 +2,7 @@
 title: "Simplifying CX: How Passwordless Authentication Reduces Friction for Customers?"
 date: "2023-03-17"
 coverImage: "passwordless-auth.jpg"
-tags: ["customer trust","passwordless authentication","cx"]
+tags: ["data security","passwordless authentication","cx"]
 author: "Rakesh Soni"
 description: "The traditional password-based authentication methods can frustrate customers, leading to poor customer experience (CX). Since a bit of friction in the onboarding process could force customers to switch. And passwordless authentication is emerging as a solution to address these pain points and enhance CX since a seamless customer journey is what every user is looking for."
 metadescription: "The conventional password-based login leads to customer fatigue. Learn how passwordless authentication addresses customer experience pain points."
@@ -54,7 +54,7 @@ Passwordless authentication is an emerging authentication method that addresses 
 
 Passwordless authentication methods, such as biometric and one-time passcodes, are more secure than passwords. Biometric authentication uses unique physical characteristics, such as fingerprints or facial recognition, to verify identity, making it more difficult for attackers to access customer data. One-time passcodes are only valid temporarily, reducing the risk of a successful attack.
 
-[![DS-MB-Auth](DS-MB-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 ### 2. Improved convenience
 

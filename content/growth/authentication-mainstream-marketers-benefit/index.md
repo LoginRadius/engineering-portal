@@ -2,20 +2,18 @@
 title: "How Authentication Leads The Way in Strategic Customer Acquisitions?"
 date: "2022-10-12"
 coverImage: "auth-benefit.jpg"
-category: ["customer authentication", "email authentication", "customer acquisition"]
+tags: ["passwordless authentication","digital identity","sso","cx"]
 author: "Grigori Monaselidze"
 description: "With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business. This blog explains how authentication can help you increase your customer acquisition."
 metatitle: "Why Authentication Is A Critical Customer Acquisition Tool?"
 metadescription: "Customer authentication should be your biggest concern when it comes to online security. This blog also explains how email authentication can protect your brand."
 ---
 
-
 ## Introduction
 
 Your business is your most valuable asset. Ensuring that you are sensitive to the security of your customers and their information is essential to building a stable and healthy relationship with them.
 
 Customer Authentication and Email Authentication are the two security provisions we will discuss in this blog. 
-
 
 ## What is Customer Authentication?
 
@@ -29,30 +27,23 @@ Using two of the above-mentioned three methods is called Dual Factor Authenticat
 
 Let us briefly discuss the above-mentioned three methods of customer authentication.
 
-
-
 * **Password-based Authentication**
 
 Password is the most common Single Factor Authentication method. Evidently, customers prefer to recall their passwords quickly, therefore often neglect complexity, which is a requirement to keep your account safe. 
 
 It is recommended to keep the password case-sensitive with at least six characters long, while including at least two numbers and symbols. That kind of complexity ensures the security of your account, since the password will require the calculated amount of ten trillion attempts to crack, in case of an attack. This is why the debates are still being hold, whether customer-generated or provider-generated passwords are a better warrant of security.
 
-
-
 * **Knowledge-based Authentication**
 
 KBA, or Knowledge-based Authentication is a common method for securely aiding a customer in the recovery of their password. Since the challenge in this case lies in authentication, that the request of a password recovery was indeed submitted by the holder of the User ID. KBA asks a customer one or more questions to verify their identity.
-
-
 
 * **Single Sign-On**
 
 [Single sign-on](https://www.loginradius.com/single-sign-on/) or SSO, is mostly used by services using password as their main authentication method. SSO allows a customer to authenticate themselves once to use various accounts or systems. This provides comfort, as it eliminates the need to remember various passwords for various applications.
 
-[![user-auth-wp](user-auth-wp.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+[![WP-sec-user-auth](WP-sec-user-auth.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
 
 All of the three above-mentioned customer authentication methods present a challenge, where a business must determine a common ground between comfort and security.
-
 
 ## What is Email Authentication?
 
@@ -77,14 +68,11 @@ However, if your emails are authenticated and have less affiliation with fraudul
 
 Are you sending an email to present your customer with an exclusive offer to encourage them to prolong the business partnership, inform of a new feature, or simply aid them in updating their password? In this example, emails serve a different purpose, yet are united under the same aim - to retain a customer. With that in mind, how do we improve our email deliverability?
 
-
 ### Email Deliverability
 
 Internet Service Providers enforce restrictions on reaching the recipients' main inboxes to fight the ongoing spam and scam. This works in favor of recipients, yet at times might work against them. They might miss important emails to update their password or check their product delivery status, however, that is a mistake on the sender’s end, not the recipient’s.
 
 To improve your email reputation with ISP and therefore impact your email deliverability, consider the following points:
-
-
 
 * Send emails only to users who want to receive them
 * Make the unsubscription option easy to reach
@@ -96,12 +84,9 @@ These points do not summerize the entire [guide on email deliverability](https:/
 
 In an otherwise scenario, not integrating email authentication and email validation results in poor email deliverability. To your customers, this is:
 
-
-
 * Preventing them from regaining immediate access to their account
 * Preventing them from being reminded of your existence
 * Preventing from being notified of a new feature
-
 
 ## In Conclusion
 

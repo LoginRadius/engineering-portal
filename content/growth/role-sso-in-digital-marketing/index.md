@@ -2,7 +2,7 @@
 title: "The Critical Role of SSO in Reshaping Digital Marketing Landscape"
 date: "2023-02-10"
 coverImage: "sso-role.jpg"
-category: ["sso", "digital marketing", "cx"]
+tags: ["single sign on","ciam platform","authentication","cx"]
 author: "Vishal Sharma"
 description: "With SSO, enterprises can understand their target audience's needs, preferences, and behavior when they land on their platform for the first time. And this helps them in creating winning digital marketing campaigns to foster growth."
 metatitle: "How is SSO Reshaping the Digital Marketing Landscape?"
@@ -45,7 +45,6 @@ SSO (Single Sign-On) helps companies reduce the number of passwords customers ne
 
 In addition to improving [customer retention](https://blog.loginradius.com/growth/how-customer-retention-can-help-businesses-grow/), SSO also reduces costs for companies by eliminating duplicate workflows and automating tasks that require human intervention.
 
-
 ### 2. It helps Understand User Behavior 
 
 Businesses that choose a reliable customer identity and access management (CIAM) platform for SSO can quickly get valuable insights into user behavior. 
@@ -53,7 +52,6 @@ Businesses that choose a reliable customer identity and access management (CIAM)
 SSO allows businesses to track how users interact with their platform, as well as what preferences they have. This information can be used to understand better how users feel about the product or service, which helps companies make decisions about changes they may want to make in the future in their digital marketing strategy.
 
 Apart from this, it also tracks user behavior on different devices so that companies can see how customers are accessing their sites from other devices at different times of day or night—allowing them to better serve their customers' needs by knowing when they're likely to be logged in at any given time.
-
 
 ### 3. Increased Leads & Conversion Rates
 
@@ -65,8 +63,7 @@ Another thing SSO does is reduce barriers for users. By leveraging single sign-o
 
 That means one login, one set of credentials, and one consistent experience—and we all know how important consistency is when converting new users. 
 
-[![native-ds](native-ds.png)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
-
+[![DS-native-mob-app](DS-native-mob-app.png)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
 
 ### 4. Helps Craft Personalized Experiences 
 
@@ -82,6 +79,5 @@ With a reliable [CIAM platform](https://www.loginradius.com/), brands can implem
 While SSO offers a convenient, secure, and efficient way for users to access multiple applications with a single login credential, it also paves the way for marketers to leverage user insights to create winning marketing campaigns. 
 
 Brands that are thinking about accelerating their digital marketing efforts shouldn’t wait, and just put their best foot forward in implementing SSO into their website/mobile applications. 
-
 
 [![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

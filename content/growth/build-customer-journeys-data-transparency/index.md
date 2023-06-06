@@ -2,7 +2,7 @@
 title: "Why is Data Transparency Critical To Building Connected Consumer Journeys?"
 date: "2022-08-18"
 coverImage: "customer-journey.jpg"
-category: ["customer experience", "customer journey", "data transparency"]
+tags: ["progressive profiling", "cx", "data transparency"]
 author: "Lucy Manole"
 description: "Data is your most valuable resource when it comes to enhancing customer transparency. But how exactly can your company sort and apply all the data you collect from different customer touchpoints? This blog shares some actionable ideas."
 metadescription: "Data transparency means being honest throughout the customer journey. This blog explains how ensuring data transparency can bring concrete business benefits."
@@ -50,11 +50,9 @@ When you know where your departments are lacking and what their strong points ar
 
 What happens when your company has a shared vision, delivers consistently, and garners a strong reputation? [More conversions](https://www.loginradius.com/blog/growth/leverage-website-for-more-conversions/), of course. Today’s customers keep themselves informed, and companies that are not communicative enough or post dubious information will soon find themselves outed. Invest in transparency, and it will quickly reflect in your sales figures.
 
-
 ### 4. Better brand reputation
 
 When your company has an eye on all things critical to your growth and customer satisfaction, your brand reputation will automatically get a boost! In an age where concerns about customer data usage are rampant, a company that is clear about what it does instantly gains favor. The more you are known to the public as a trustworthy brand, the more likely customers will be to come to you.
-
 
 ## How Data Can Enhance Transparency (and the Consumer Journey)?
 
@@ -74,7 +72,7 @@ The last few years have seen a growth in the use of [progressive profiling](http
 
 This data can also help you come up with innovative ways to engage customers, such as immersive VR experiences that let them ‘try on’ a product or ‘walk through’ a showroom. Plus, the right data helps you be more transparent with your customers at the touchpoints where it’s needed the most.
 
-[![progressive-profiling](progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ### 3. Efficient decision-making
