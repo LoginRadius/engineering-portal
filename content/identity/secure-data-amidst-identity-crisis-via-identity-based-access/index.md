@@ -2,7 +2,7 @@
 title: "How Identity-Based Access Ensures Robust Infrastructure Security Amidst the Growing Identity Crisis?"
 date: "2022-11-09"
 coverImage: "id-crisis.jpg"
-tags: ["identity access", "identity crisis", "authentication"]
+tags: ["identity management","robust security","mfa","cx"]
 author: "Deepak Gupta"
 description: "The conventional identity-management tools aren’t potent enough to shield modern threat vectors. There’s a need for a robust identity management solution that combines existing authentication strategies such as two-factor authentication, biometrics, one-time passwords etc. to help secure an organization's infrastructure."
 metatitle: "Identity-Based Access: Securing Data Amidst Identity Crisis"
@@ -36,7 +36,6 @@ There's another way, a better way, to protect your organization's customer data.
 
 However, the way businesses leverage MFA makes all the difference. Let’s understand how businesses can get the best out of their MFA mechanisms. 
 
-
 ## Multi-Factor Authentication (MFA) - The Key to Secure Digital Identities 
 
 There are many ways you can keep your accounts secure, but there's one thing that's always a significant first step: multi-factor authentication.
@@ -51,11 +50,9 @@ Every individual has a unique biometric identity, so using it for authentication
 
 Hence, adding biometric authentication in the multi-factor authentication could help organizations secure their sensitive business information since the chances of data breaches or account takeover decrease significantly. 
 
-[![mob-bio-ds](mob-bio-ds.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
-
+[![DS-mob-bio-auth](DS-mob-bio-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 ## Why is Multi-factor authentication an Essential Component of Infrastructure Security?
-
 
 ### #1. Secures consumer identities 
 
@@ -70,13 +67,11 @@ Implementing multi-factor authentication can be crucial when complying with spec
 
 For example, PCI-DSS requires MFA to be implemented in certain situations to prevent unauthorized users from accessing systems. So, even when application updates lead to unknown and unattended consequences, MFA compliance ensures that it remains virtually non-intrusive.
 
-
 ### #3. Builds customer trust 
 
 Another great benefit of leveraging MFA is that it helps build long-lasting relationships with customers. 
 
 Since MFA offers excellent security and helps businesses adhere to global compliances, it helps build trust in present customers and potential clients. Therefore, businesses that [build customer trust](https://blog.loginradius.com/identity/loginradius-creates-trusted-digital-experience/) shouldn’t forget to incorporate MFA into their platforms. 
-
 
 ## Final Thoughts
 

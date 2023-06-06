@@ -2,13 +2,12 @@
 title: "Public Cloud Risks - Is Your Organization Prepared for Cloud Threats?"
 date: "2022-09-22"
 coverImage: "public-cloud-risks.jpg"
-tags: ["cloud security", "public cloud infrastructure", "zero trust"]
+tags: ["cloud security","data privacy","mfa","zero trust"]
 author: "Deepak Gupta"
 description: "The rapid adoption of the public and hybrid cloud doesn’t necessarily mean that sensitive information stored on remote servers or shared clouds is secure. This blog highlights the risks associated with the public cloud and how businesses can take timely action to avoid the risks."
 metatitle: "Is Your Organization Ready For Public Cloud Risks?"
 metadescription: "The adoption of the public cloud doesn’t necessarily mean that sensitive data is secured. Learn the risks associated with the public cloud and how to avoid them."
 ---
-
 
 ## Introduction
 
@@ -28,11 +27,9 @@ Hence, businesses must understand the risks associated with [public cloud securi
 
 Let’s understand the risks associated with the public cloud and how businesses can take timely action to avoid the risks. 
 
-
 ## Risks Associated with Public Cloud Infrastructures
 
 Since several risks can impact a business, here’s the list of some of the most common risks that every business should be aware of: 
-
 
 ### #1. Lack of data control.
 
@@ -44,7 +41,6 @@ Besides, privacy risks, especially in shared cloud infrastructure, can't be over
 
 So, businesses need to invest in cloud security best practices, including [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) and risk-based authentication (RBA). 
 
-
 ### #2. Shared access data privacy risks.
 
 Since most enterprises aren’t relying on renowned cloud providers, including Microsoft, Google, and Amazon, the risk of data privacy and identity theft lingers. 
@@ -55,8 +51,7 @@ So, how should an organization protect the privacy and security of its consumer 
 
 The zero trust model believes no user can be trusted, and verification is no longer an option. It supports the theory that all users must be authenticated, authorized, and regularly verified to ensure they can be trusted with the data in any business hierarchy.
 
-[![zero-trsut](zero-trsut.png)](https://www.loginradius.com/resource/zero-trust-security/)
-
+[![WP-sero-trust-1](WP-sero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ### #3. Availability risks.
 

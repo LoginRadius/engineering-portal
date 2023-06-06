@@ -67,7 +67,7 @@ MFA essentially adds an extra layer of security by requiring users to provide mo
 
 This could include a password, as well as a code that’s sent to the user’s mobile phone or email address. 
 
-[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #2. SMS-based authentication
@@ -115,6 +115,4 @@ Ultimately, the decision comes down to what you feel is best for your business. 
 
 It’s also important to keep in mind that no single authentication method is perfect. The best way to keep your site secure is to use a combination of methods. This will make it more difficult for hackers to gain access to your site and ensure that your customers’ data is safe. 
  
-
-
 [![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
