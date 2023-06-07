@@ -42,6 +42,7 @@
 /2018/07/3-security-advantages-cloud-based-solution-can-offer-business/	/blog/identity/	301
 /2018/07/digital-transformation-everyone-else/	/blog/identity/	301
 /2018/07/loginradius-announces-17m-series-funding-forgepoint-microsoft/	/blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/	301
+/loginradius-announces-17m-series-funding-forgepoint-microsoft/  /blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/  301
 /2018/08/23-months-since-our-last-incident/	/blog/identity/	301
 /2018/08/loginradius-exhibiting-idm-europe/	/blog/identity/	301
 /2018/08/news-coverage-roundup/	/blog/identity/	301
@@ -286,7 +287,7 @@
 /social-provider-social-sharing-troubleshooting-resources/	/blog/engineering/social-provider-social-sharing-troubleshooting-resources/	301
 /speed-up-python-code/	/blog/engineering/speed-up-python-code/	301
 /start-with-identity/2018/02/phishing-for-identity/	/blog/identity/phishing-for-identity/	301
-/blog/phishing-for-identity/	/blog/identity/phishing-for-identity/	301
+/phishing-for-identity/	/blog/identity/phishing-for-identity/	301
 /start-with-identity/2018/05/customer-experience-driving-digital-transformations/	/blog/identity/customer-experience-driving-digital-transformations/	301
 /start-with-identity/2018/07/loginradius-announces-17m-series-funding-forgepoint-microsoft/	/blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/	301
 /blog/loginradius-announces-17m-series-funding-forgepoint-microsoft/	/blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/	301
@@ -390,7 +391,7 @@
 /identity/:year/:month/:slug/ /identity/:slug/  301
 /async/author/*	/blog/author/:splat	301
 /fuel/author/*	/blog/author/:splat	301
-/blog/blog/*  /blog/:splat	301
+/blog/*  /blog/:splat	301
 /start-with-identity/*	/blog/identity/:splat	301
 /start-with-identity/author/*	/blog/author/:splat	301
 /start-with-identity/category/*	/blog/tags/:splat	301
