@@ -49,7 +49,7 @@ Zero trust is the security concept based on a belief that enterprises shouldn’
 
 In a nutshell, zero trust relies on the principle of “don’t trust anyone.” This architecture cuts all the access points until proper verification is done and trust is established.
 
-[![zero-trust-wp](zero-trust-wp.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zerotrust-1](WP-Zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 No access is provided until the system verifies the individual or device demanding n access to the IP address, device, or storage.
 

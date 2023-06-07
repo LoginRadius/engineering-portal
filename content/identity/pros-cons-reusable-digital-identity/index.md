@@ -28,12 +28,9 @@ Governments and companies worldwide are investing heavily in reusable digital ID
 
 The adoption rate is also increasing rapidly. According to one study, the global reusable identification market [will grow seven times larger ](https://liminal.co/articles/liminal-projects-the-market-for-reusable-digital-identity-to-soar-to-266-5b-by-2027-with-a-cagr-of-69/)in just the next five years, from just over $32 billion to nearly $270 billion.
 
-
 ## Reusable Digital Identities Offer Tremendous Benefits
 
 Individuals, businesses, and governments alike can benefit from reusable digital identities. And as technology matures, the upsides will only increase.
-
-
 
 * Standardization
 
@@ -41,13 +38,9 @@ The contents and requirements for different IDs vary widely. Reusable digital ID
 
 Governments and international organizations are already pursuing standardization efforts. In late 2021, the International Organization for Standardization and the International Electrotechnical Commission published <a rel="nofollow" href="https://www.iso.org/standard/69084.html"> standards for a common mobile driver's license </a> (ISO/IEC 18013-5:2021). In the U.S., the National Institute of Standards and Technology recently updated its Digital Identity Guideline SP 800-63-4. And more work is ongoing.
 
-
-
 * Convenience for users
 
 Naturally, one driving force behind a single digital ID is convenience. Even with the widespread availability of password managers, many people struggle to keep track of all their identities. Surveys indicate that [33% of users have forgotten a password](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022) and tried to recover it. Having a single, trusted ID would offer individuals a much simpler, more streamlined experience.
-
-
 
 * Enhanced privacy protections
 
@@ -55,20 +48,15 @@ Information security and data privacy are a constant concern in today’s increa
 
 With proper standards in place, individuals can also feel more secure that providers only receive necessary information. You may need to share one set of information when applying for <a rel="nofollow" href="https://www.policyme.com/blog/types-of-life-insurance"> different types of life insurance policies </a> and very different information for a new bank account. Standards for reusable digital IDs can ensure appropriate restrictions on information sharing.
 
-
-
 * Simplified compliance regimes for providers
 
 Businesses must [navigate a complex web of laws and regulations](https://www.loginradius.com/blog/identity/data-governance-best-practices/) when it comes to consumer data protections. From HIPAA restrictions to the European General Data Protection Regulation to mobile payment security regimes like PCI-DSS when using mobile invoicing and payments, these often conflicting mandates can make compliance a difficult task.
 
 Reusable digital IDs will simplify compliance efforts by building in privacy-by-design. They will also simplify ongoing compliance by allowing for easier updates as laws evolve.
 
-
 ## But There are Some Downsides Too
 
 Of course, there are still some concerns and issues with reusable digital IDs - concerns that must be adequately addressed to ensure widespread adoption.
-
-
 
 * Access issues
 
@@ -76,9 +64,7 @@ Making reusable digital IDs generally accessible poses quite a challenge. Many p
 
 But technology is only one side of the issue. Verifying IDs also remains problematic, as the UK experienced when launching its ID verification platform. The UK government projected a 90% verification success rate but managed only about half that after four years. Organizations must apply reasonable verification standards to drive adoption. 
 
-[![digital-id-wp](digital-id-wp.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
-
-
+[![WP-reimagining](WP-reimagining.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 * Security concerns
 
@@ -86,12 +72,9 @@ A single, consolidated ID will naturally be an attractive target for cybercrimin
 
 There will be questions about federating so much crucial data in one location, just as there has been debate about using password managers. But the overall benefits, especially with proper security provisions in place (not just encryption and multifactor authentication methods, but also strong passphrase requirements, much like those used by cryptocurrency wallets), will far outweigh the risks.
 
-
-
 * Lack of trust
 
 Over the years, consumers have grown skeptical about effective interoperability between systems, providers, governments, and applications. So, in addition to general security concerns, there is a level of distrust that a single ID will actually work. Reusable digital ID proponents must show that they can work and work well to reach a critical mass of users.
-
 
 ## Conclusion
 

@@ -61,7 +61,7 @@ Verizon’s Data Breach Investigations Report 2022 revealed 81% of all hacking e
 
 Users are less likely to experience password fatigue, and hence fewer password resets are required when they are only required to remember one master password as opposed to several app-specific ones. In addition, you reduce the likelihood of users using the same password for several unsecured apps by having them log in just once each day. 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-ciam-SSO](DS-ciam-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ### 3. Fewer Costs
 

@@ -56,7 +56,7 @@ Moreover, identity theft is swiftly becoming the new way of exploiting customer 
 
 Adding stringent security layers in the form of multi-factor authentication (MFA) and risk-based authentication (RBA) could significantly decrease the chances of identity theft. 
 
-[![ciam-eb](ciam-eb.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## What is the Purpose of Identity Security?

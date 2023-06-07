@@ -24,7 +24,7 @@ Let’s discuss the best practices for username and password authentication to e
 
 Username and password authentication is a method of verifying the identity of a user accessing a digital system. The user provides a unique identifier, called a username, and a secret, called a password, to gain access. The system then compares this information with its stored database to verify the user's identity.
 
-# Benefits of Username and Password Authentication
+## Benefits of Username and Password Authentication
 
 Username and password authentication is a fundamental and widely used method of verifying the identity of users accessing online systems, websites, and applications. 
 
@@ -57,6 +57,7 @@ Password authentication has several challenges, including:
 * **Password guessing:** Attackers can use automated tools to guess passwords, mainly if they are weak or easily guessable.
 * **Password sharing:** Users sometimes share their passwords with others, either intentionally or unintentionally, compromising security.
 * **Phishing attacks:** Attackers can use [phishing attacks](https://www.loginradius.com/blog/identity/phishing-for-identity/) to trick users into revealing their passwords.
+
 ## Best Example of Username and Password Authentication
 
 One notable example of effective username and password authentication can be observed in the login system used by popular social media platforms such as Facebook. Facebook's login process employs a combination of a username or email address and a password to authenticate users and grant access to their accounts.

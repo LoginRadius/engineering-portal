@@ -28,7 +28,7 @@ These attacks usually target a specific group of people that can be spied on to 
 
 Various states employ hackers through their government authorities or militaries, making it easier to deny any state involvement even if an attack is detected. 
 
-[![zero-trust-wp](zero-trust-wp.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zerotrust-1](WP-Zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## How Does Apple’s ‘Lockdown Mode’ Work?
