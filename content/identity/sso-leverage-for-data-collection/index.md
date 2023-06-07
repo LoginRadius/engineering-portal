@@ -9,7 +9,6 @@ metatitle: "How to Leverage SSO for Data Collection?| LoginRadius"
 metadescription: "Using SSO for data collection can offer many benefits for businesses. Read this blog to know all  about SSO and how it can benefit your data collection efforts."
 ---
 
-
 ## Introduction 
 
 In this digital age, data is more critical than ever before. Businesses rely on the right data to make decisions, understand customers, and improve their products and services. 
@@ -36,8 +35,7 @@ There are two types of SSO:
 
 In general, SSO can also provide a[ more secure and frictionless user experience](https://www.loginradius.com/blog/growth/4-tips-secure-frictionless-ux/). If you have different applications, it can be difficult for users to set and remember passwords for all of them. With SSO, users would only have to remember one set of credentials. This would make it easier for them to access the applications they need and reduce the chance of forgetting their password.
 
-[![SSO-ds](SSO-ds.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
-
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## The Importance of SSO Tokens
 

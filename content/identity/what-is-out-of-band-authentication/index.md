@@ -41,7 +41,7 @@ Whether we talk about loopholes in access management or frail lines of defense, 
 
 Hence, a robust authentication mechanism is what every business organization needs. And OOB authentication fulfills their security requirements since it works on a dual means of verifying identity through different communication mechanisms. 
 
-[![mfa-wp](mfa-wp.png)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
+[![WP-MFA](WP-MFA.png)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
 
 
 ## How Does OOB Authentication Work? 

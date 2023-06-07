@@ -54,7 +54,7 @@ With support from LoginRadius, ETC successfully unified its multiple products wi
 The centralized login system enables users to seamlessly navigate third-party sites without needing to log back whenever they return.
 
 
-[![sso-ds](sso-ds.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ## Identifying actionable behavioral insights
