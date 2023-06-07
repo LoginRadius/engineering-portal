@@ -2,7 +2,7 @@
 title: "How Digital Identification Could Be the Key to Inclusive and Economic Growth?"
 date: "2022-11-09"
 coverImage: "digital-id.jpg"
-tags: ["digital identity", "mfa" "cx", "data security"]
+tags: ["digital identity","mfa","cx","data security"]
 author: "Alex Williams"
 description: "A digital ID is a digitized representation of legal identity, and unlike traditional paper-based IDs, digital identification allows for remote verification via digital channels.  In this article, we’ll look at  how digital identification can help with growth on an economic level."
 metadescription: "Digital identification is a digitized representation of legal identity. This blog explains how nations can grow economically with digital identification."
