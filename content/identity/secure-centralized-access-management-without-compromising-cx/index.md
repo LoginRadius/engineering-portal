@@ -34,7 +34,7 @@ SSO is an essential feature of an Identity and Access Management (IAM) platform 
 
 Enhanced user experience is one of the most valuable benefits of SSO. As repeated logins are no longer required, customers can enjoy a modern digital experience. The benefits for enterprises include increased customer loyalty and higher conversion rates.
 
-[![ds-sso](ds-sso.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![SSO-DS](SSO-DS.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 Hence, SSO is undeniably the perfect solution to improve centralized access between devices or applications without compromising security and user experience since users can jump from one app to another without friction. 
 

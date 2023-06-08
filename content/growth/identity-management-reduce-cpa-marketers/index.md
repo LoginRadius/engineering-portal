@@ -25,7 +25,6 @@ With a reliable [customer identity and access management](https://www.loginradiu
 
 Let’s understand how an identity management system for CPA reduction can help businesses thrive and succeed in the long run. 
 
-
 ## What is Identity Management? How Does it Help in Reducing CPA? 
 
 In industry, [digital identity management](https://www.loginradius.com/blog/identity/digital-identity-management/) primarily refers to how a customer’s personal information is safely collected, stored, and accessed.
@@ -42,7 +41,6 @@ Companies that provide an excellent digital experience should also focus on offe
 
 And with heaps of insightful information about users, businesses can deliver personalized experiences and product/service suggestions, which minimizes cost per acquisition. 
 
-
 ## A Unified View of Every Customer 
 
 CIAM offers a complete [unified view of each customer](https://www.loginradius.com/profile-management/). And you can leverage the data in the marketing and promotion of your business. 
@@ -53,7 +51,6 @@ You can use this data to monitor customer journeys across multiple apps and serv
 
 When you understand your customers more deeply, you can reach them more quickly and serve them better. All of this adds up to more revenue and a lower acquisition and retention cost. Hence, identity management for CPA reduction becomes the need of the hour. 
 
-
 ## Collect What’s Needed
 
 Many businesses quickly collect an array of customer data during the registration process. If you don’t take the time to consider if/why/how you’ll use all of this data— or determine the right time to collect this information—you’ll run into any issues. 
@@ -62,7 +59,7 @@ Collecting unnecessary data wastes resources and increases the risk of identity 
 
 With a reliable CIAM, businesses can leverage the true potential of progressive profiling. 
 
-[![progressive-eb](progressive-eb.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-Progressive-profiling](EB-Progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 Progressive profiling for customer registration allows you to split a potentially complicated registration process into multiple steps. You can capture a customer’s information upfront and then slowly build a holistic view of that customer through subsequent actions.
 

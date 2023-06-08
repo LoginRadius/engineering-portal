@@ -2,7 +2,7 @@
 title: "How Identity Management Can Help You Avoid Targeting The Wrong Customers?"
 date: "2022-06-14"
 coverImage: "mistaken-id.jpg"
-category: ["identity security", "ciam", "customer experience"]
+tags: ["identity security", "ciam", "customer experience"]
 author: "Yash Rathi"
 description: "Since businesses serve customers across various devices and channels, yielding multiple views of the same customer becomes tricky. And the result is a messed experience that hampers customer experience and expectations, leading to mistaken identity. Let’s dig deeper into the aspects of leveraging a CIAM solution that helps overcome the challenges of mistaken identity."
 metadescription: "Mistaken identity could be the reason why brands aren’t able to engage potential target customers. Read on to know more about the aspects of mistaken identity."
@@ -56,7 +56,7 @@ An omnichannel customer experience refers to seamless interaction across multipl
 
 For example, it is omnichannel when marketing, sales, consumer support, and even in-store experiences are synced up so users can seamlessly switch channels and make the purchase.
 
-[![omni-eb](omni-eb.png)](https://www.loginradius.com/resource/cloud-streaming-for-omnichannel-experience)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/cloud-streaming-for-omnichannel-experience)
 
 
 ### #2. Single consumer view

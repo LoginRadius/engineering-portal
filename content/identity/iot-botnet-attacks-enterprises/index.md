@@ -61,7 +61,7 @@ IoT botnet attacks can be prevented, and sensitive business and user information
 
 Good cybersecurity hygiene is key to preventing botnet attacks since attackers must surpass various lines of defense before exploiting crucial business or user information. 
 
-[![remote-wp](remote-wp.png)](https://www.loginradius.com/resource/shifting-safely-to-remote-learning-with-the-best-cyber-security-hygiene/)
+[![WP-Remote-Learning](WP-Remote-Learning.png)](https://www.loginradius.com/resource/shifting-safely-to-remote-learning-with-the-best-cyber-security-hygiene/)
 
 Adding multiple layers of authentication in the IoT network and devices through multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/#:~:text=Risk%2Dbased%20authentication%20is%20a,profile%20associated%20with%20that%20action.) (RBA) could mitigate many risks associated with identity theft and account takeovers. 
 

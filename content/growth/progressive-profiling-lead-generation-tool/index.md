@@ -37,7 +37,7 @@ In this way, digital marketing teams obtain several data points about a lead wit
 Hence, if a business strives for quality leads, it must incorporate the true potential of progressive profiling that eventually helps generate quality leads. 
 
 
-[![progressive-profiling](progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ## Why Your Business Needs Progressive Profiling in 2022 and Beyond

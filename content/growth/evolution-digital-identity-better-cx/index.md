@@ -65,7 +65,7 @@ When it comes to customer data management, laws are changing fast. New regulatio
 
 While this may seem to be a lot of work, your business must comply with new laws and regulations. While collecting data from your website, you will need to know how to get consent from your visitors and store that information securely.
 
-[![consent-ds](consent-ds.png)](https://www.loginradius.com/resource/loginradius-consent-management)
+[![DS-consent-mngmnt](DS-consent-mngmnt.png)](https://www.loginradius.com/resource/loginradius-consent-management)
 
 
 ## How To Learn From Customer Behavior And Stay Ahead Of Evolving Needs?

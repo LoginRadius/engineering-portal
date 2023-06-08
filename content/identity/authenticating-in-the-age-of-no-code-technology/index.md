@@ -86,7 +86,7 @@ No-code development requires fewer engineers. This reduces all the auxiliaries t
 
 Updating processes and systems that were created using no-code technology is also easier. Often, it is taken care of by the platform.
 
-[![ciam-roi-gd](ciam-roi-gd.png)](https://www.loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
+[![CIAM-buyers-GD](CIAM-buyers-GD.png)](https://www.loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
 
 
 ### 4. Increased customer satisfaction.
