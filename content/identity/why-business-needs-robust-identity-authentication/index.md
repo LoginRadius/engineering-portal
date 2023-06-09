@@ -42,7 +42,7 @@ Since it protects consumers’ privacy and eventually improves brand value, and 
 
 Businesses that don’t implement the privacy regulations could be fined up to millions of dollars and face penalties for years.
 
-[![privacy-versioning](privacy-versioning.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
+[![DS-privacy](DS-privacy.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 ### 3. Developers face identity authentication-related issues while collecting user information
 

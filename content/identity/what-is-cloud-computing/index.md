@@ -20,7 +20,6 @@ The concept of cloud computing has offered endless possibilities to businesses s
 
 Let’s dig deeper into this and understand the role of cloud computing in shaping the future of a digitally-advanced modern world. 
 
-
 ## How Does Cloud Computing Work? 
 
 The concept of cloud computing is simple - you only need to rent and pay for the services you need to run your platform, application, software, or program. 
@@ -30,7 +29,6 @@ Gone are the days when enterprises invested heavily in building infrastructure, 
 Also, cloud providers offer different services that meet the demands of businesses of every size. For instance, an enterprise can choose a storage capacity per their requirements or a computational capacity depending on their computing needs. 
 
 An enterprise need not invest in infrastructure; they just need to finalize a cloud vendor and deploy their applications or software programs on the cloud. 
-
 
 ## Why is Cloud Computing Swiftly Becoming the Absolute Necessity for Businesses? 
 
@@ -89,7 +87,7 @@ Infrastructure-as-a-service (IaaS) can be defined as a type of cloud computing s
 
 Enterprises can choose any of the services mentioned above based on their unique business requirements. 
 
-[![LR-Cloud-EB](LR-Cloud-EB.png)](https://www.loginradius.com/resource/why-is-loginradius-your-best-cloud-identity-partner/)
+[![EB-cloud-computing](EB-cloud-computing.png)](https://www.loginradius.com/resource/why-is-loginradius-your-best-cloud-identity-partner/)
 
 
 ## What is Single Tenant Cloud Architecture?

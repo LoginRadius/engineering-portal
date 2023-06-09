@@ -2,7 +2,7 @@
 title: " 5 Access Management Best Practices and Benefits For Businesses"
 date: "2022-05-10"
 coverImage: "access-mangmt.jpg"
-category: ["zero-trust", "multifactor-authentication", "enterprise-security", "access-control"]
+tags: ["zero trust", "mfa", "enterprise security", "access control"]
 author: "Vikas Kalwani"
 description: "Access management is essential for modern businesses. This blog will walk you through the five access management best practices to help you keep your systems reserved for valid users only."
 metatitle: "5 Access Management Best Practices for Enterprises"
@@ -61,10 +61,6 @@ One of the best ways to protect your company’s digital assets is to implement 
 
 [Zero trust](https://www.loginradius.com/blog/identity/beginners-guide-zero-trust-security/) is exactly what it sounds like. Every member of your organization is forced to authenticate their identities before being able to access any resources. This includes employees who are already active inside a company network. 
 
-
-
-
-
 ![zero-trust](zero-trust.png)
 
 
@@ -90,7 +86,7 @@ That’s why multi-factor authentication has become an essential access manageme
 
 When you use MFA, anyone logging in will be asked to provide an additional method of verification once they enter their password. This could be entering a code sent to their email or via text message. It could also be a biometric scan on a mobile device like a fingerprint or facial recognition. 
 
-[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 4. Get rid of high-risk systems

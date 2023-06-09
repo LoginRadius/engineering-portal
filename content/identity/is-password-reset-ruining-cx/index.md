@@ -2,7 +2,7 @@
 title: "How a Simple Password Reset Can Ruin Your Customer's Experience"
 date: "2022-05-17"
 coverImage: "paswd-reset.jpg"
-tags: ["security", "consumer-experience", "authentication", "identity-verification"]
+tags: ["data security", "consumer-experience", "authentication", "identity-verification"]
 author: "Chris Starkhagen"
 description: "When done correctly, password resets can be easy and relatively painless for both the customer and the enterprise. By following tips mentioned in this blog, enterprises can ensure that the customers have a positive experience when resetting their passwords."
 metatitle: " Is Password Reset Ruining Your Customer Experience?"
@@ -14,10 +14,7 @@ metadescription: "Password reset is an important process for both customers and 
 It's happened to all of us: we've forgotten our password and need to reset it (especially after summer vacation).
 
  
-
 While this should be a [simple process](https://www.loginradius.com/blog/identity/how-to-improve-customer-verification-process/) for most websites, it can be a total nightmare for the customer if it's not done right. In fact, password resets are one of the most common customer service complaints. So, what can enterprises do to make sure this process is as smooth and painless as possible?
-
- 
 
 We'll be discussing some of the best practices for a password reset, as well as ways to avoid ruining the customer experience!
 
@@ -25,31 +22,24 @@ We'll be discussing some of the best practices for a password reset, as well as 
 ## Why is the Process of a Password Reset Important?
 
 Password reset is an important process for both customers and businesses. Customers need access to their accounts as quickly as possible when they've forgotten their password (which – they will), and businesses need to make sure that the process is quick and easy for them (which is – inevitable).
-
  
 
 And with the average web user having multiple online accounts, with accounts doubling every 5 years, this becomes a real issue both for enterprises and personal security.
 
 With information and account overload, user behavior such as using the same password for multiple accounts invites security breaches, making authentication a top priority for enterprises.
 
-[![salt-gd](salt-gd.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
+[![GD-salt-to-hash](GD-salt-to-hash.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
 
 
 ## How Can a Password Reset Negatively Affect the Customer Experience?
 
-If the password reset process is lengthy or difficult, customers will inevitably be frustrated which can lead to a number of customer service issues.
-
- 
+If the password reset process is lengthy or difficult, customers will inevitably be frustrated which can lead to a number of customer service issues. 
 
 For starters, the customer might not be able to get back into their account, and if this drags on for any length of time causes major inconveniences. If the frustration builds up with a poorly executed process for resetting a password and authenticating the user can lead to negative word-of-mouth advertising and even lost business.
-
- 
 
 In addition, a [botched password reset](https://www.loginradius.com/blog/identity/common-vulnerabilities-password-based-login/) can also lead to customer data being compromised. This could potentially expose the customer to identity theft or fraud due to the sheer amount of accounts that the average user has. 
 
 Finally, if the password reset process is too difficult or complicated, the customer might be less likely to try again in the future.
-
- 
 
 All of these scenarios have a negative impact on the customer experience and ultimately damage the relationship with them. It's way easier for a customer to abandon ship at switch over to another business that handles onboarding and customer support excellently. 
 
@@ -109,18 +99,14 @@ When a customer needs to reset their password, they generally expect a standardi
 
 However, you can make the experience more personal for your customer by [writing personalized copy](https://chrisstarkhagen.com/blog/ai-writer-ai-content-generator) in the email sequence. This small gesture can make the customer feel appreciated and more likely to continue using your service.
 
-
 ### 4. Make the reset process easy to follow.
 
 Instructions should be clear and concise, without any complicated steps. If possible, the reset process should not require the customer to call customer service or go through a long series of prompts. The easier the reset process is, the better.
-
 
 ## Wrap up
 
 No company wants a disgruntled customer, but all too often password resets – a necessary evil – lead to just that. 
 
 When done correctly, though, password resets can be easy and relatively painless for both the customer and the enterprise. By following these tips that we went through, enterprises can ensure that the customers have a positive experience when resetting their passwords.
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

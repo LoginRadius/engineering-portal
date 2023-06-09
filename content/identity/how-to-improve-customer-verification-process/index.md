@@ -2,8 +2,7 @@
 title: "5 Ways to Improve Your Customer Verification Process"
 date: "2022-04-04"
 coverImage: "customer-verifcn.jpg"
-tags: ["security", "customer-identity", "authentication", "ecommerce"]
-featured: false 
+tags: ["security", "customer identity", "authentication", "ecommerce"]
 author: "Gaurav Belani"
 description: "In the wake of recent data breaches, many companies are realizing that they need to improve their customer verification process. Learn how to improve the process and make it easy and secure for your customers."
 metatitle: "How to Improve Your Customer Verification Process"
@@ -71,7 +70,7 @@ For instance, you can use behavioral biometrics.
 
 Biometrics is one of the most effective methods of customer verification because physical traits like fingerprints and retina scans cannot be faked. Behavioral biometrics go one step further by considering how a person types or handles their mouse or mobile device as well as their physical characteristics.
 
-[![mob-bio](mob-bio.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Biometric](DS-Mob-Biometric.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### 3. Speed things up with SSO.
