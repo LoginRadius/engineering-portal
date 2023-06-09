@@ -2,14 +2,12 @@
 title: "What is Login Authentication?"
 date: "2022-04-07"
 coverImage: "login-auth.jpg"
-tags: ["authentication", "login-security", "passwordless-authentication", "identity-management"]
-featured: false 
+tags: ["authentication", "login security", "passwordless authentication", "identity management"]
 author: "Vishal Sharma" 
 description: "Login authentication is the most common scenario where we’re asked to authenticate ourselves. Let’s look at some aspects and challenges of implementing a seamless authentication mechanism and learn how businesses can deliver a seamless user experience through a CIAM."
 metatitle: "What is Login Authentication? How it Benefits Businesses?"
 metadescription: "Login authentication helps confirm the identity of a user while they access their profile. Read on to enhance your login authentication experience."
 ---
-
 
 ## Introduction
 
@@ -33,12 +31,9 @@ And for businesses to ensure they deliver the most pleasing experience to their 
 
 Let’s look at some aspects and challenges of implementing a seamless authentication mechanism and learn how businesses can deliver a seamless user experience. 
 
-
 ## How is Login Authentication Works?
 
 When we talk about login authentication, it’s divided into two major categories:
-
-
 
 1. Human to machine login authentication
 2. Machine to machine login authentication
@@ -78,20 +73,15 @@ CIAM offers the luxury of a centralized customer database that links all other a
 
 [LoginRadius’ cutting-edge CIAM](https://www.loginradius.com/) helps businesses scale and stay ahead of their curve. Let’s understand why you need to leverage LoginRadius’ world-class cloud-based CIAM for your business. 
 
-
-
 * **Simplified and seamless registration with social login**
 
 Let your users register and authenticate in seconds with LoginRadius’ social login. LoginRadius has combined the APIs of over 40 social networks to create a unified social API fully equipped to handle the features of these providers.
-
-
 
 * **Frictionless authentication with passwordless login**
 
 With LoginRadius’ Passwordless Login, you can create a completely frictionless registration and authentication process for your customers, freeing them from the hassle of remembering yet another password.
 
-[![passwordless-otp](passwordless-otp.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
-
+[![DS-passwordless-magic](DS-passwordless-magic.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 
 * **Phone authentication and registration**
@@ -131,7 +121,6 @@ Cut down the lines of code required with one of the LoginRadius SDKs. LoginRadiu
 
 LoginRadius is a fully API-driven platform that can be deployed on any system. With hosted solutions such as the Identity Experience Framework, extensive SDK and JS libraries, and several CMS plugins, LoginRadius offers a range of out-of-the-box deployments for an easy, efficient, and fully customizable implementation.
 
-
 ## Ready to Deliver the Next Level of Frictionless Login Authentication to Your Users? 
 
 Delivering a rich login authentication experience to your consumers is paramount for your business success, and a new-age CIAM is undoubtedly the key to delivering a flawless user experience. 
@@ -141,7 +130,5 @@ LoginRadius CIAM platform is designed to help businesses reach their targeted go
 If you wish to experience how LoginRadius works for your business, reach us today to schedule a free personalized demo. 
 
 Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution drives [ROI for your business](https://www.loginradius.com/blog/identity/loginradius-roi-enterprises-infographic/).
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -2,16 +2,13 @@
 title: "Decoding the Importance of People’s in Customer IAM"
 date: "2022-04-29"
 coverImage: "people-iam.jpg"
-category: ["omnichannel", "customer-experience", "identity-management", "digital-identity"]
-featured: false 
+tags: ["omnichannel", "customer experience", "identity management", "digital identity"]
 author: "Navanita Devi"
 description: "As the market becomes increasingly competitive, it’s important to recognize that people are more than just customers. They are advocates and influencers, and they can make or break your business. But how do you keep them engaged? This blog will help you find out how."
 metadescription: "If you want to be successful with customer IAM strategies, then your best bet is to take a personal approach to customer experience. This blog will help you find out how."
 metatitle: "Why Are “People” So Important in Customer IAM?"
 
 ---
-
-
 
 ## Introduction
 
@@ -43,13 +40,12 @@ However, recent research shows that customer experience plays a crucial role in 
 
 This means that when you are making an online purchase or applying for credit, your data is not being used just for security purposes but also for creating a better customer experience. This means that your data will be used to provide you with personalized content, targeted offers and recommendations based on your behavior and preferences.
 
-[![omnichannel-eb](omnichannel-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ## Common Challenges in Identity Management
 
 Here are some common challenges that business owners may face when trying to manage their user's identities:
-
 
 
 * **User password fatigue**: When users have to remember too many passwords, they often end up writing them down or using the same one across multiple accounts. This is bad news for both security and compliance because it means that if one account gets hacked, all of their other accounts could be compromised too.

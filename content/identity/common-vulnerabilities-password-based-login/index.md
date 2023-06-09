@@ -2,8 +2,7 @@
 title: "4 Common Security Issues Found In Password-Based Login"
 date: "2022-03-17"
 coverImage: "password-login.jpg"
-category: ["security"]
-featured: false 
+category: ["passwordless login","cx","mfa","authentication"]
 author: "Srishti Singh"
 description: "Password-based login is the most commonly used form of authentication, but it's not always the most secure. This blog covers some of the common security issues found in password-based login systems and how to avoid them."
 metatitle: "Common Vulnerabilities in Password-Based Login"
@@ -84,13 +83,11 @@ If an attacker has a list of usernames and passwords obtained from a breach of a
 
 **How to prevent credential stuffing?**
 
-
-
 * Use unique passwords for different  web services.
 * Use risk-based  authentication.
 * Use bot management to stop malicious bots from making login attempts without impacting legitimate logins. 
 
-[![risk-auth-gd](risk-auth-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 
 ### 4. Dictionary Attack
@@ -105,8 +102,6 @@ A [dictionary attack ](https://www.loginradius.com/blog/identity/password-sprayi
 * Some applications will not force users to use a strong password during registration. It ends up with users creating passwords like user name, company name, and 12345. Some applications do not enforce password requirements too. These all are some added advantages for hackers.
 
 **How to prevent dictionary attacks?**
-
-
 
 * Use different combinations of passwords that include upper and lower case alphabets, special characters, and numbers.
 * Use a long string password with more characters to prevent cracking.

@@ -2,8 +2,7 @@
 title: "How Should Growth-Minded Enterprises Approach Customer Security?"
 date: "2022-04-22"
 coverImage: "growth-comp.jpg"
-category: ["customer-security", "compliance", "ciam", "customer-experience"]
-featured: false 
+tags: ["data security", "compliance", "ciam", "customer experience"]
 author: "Rakesh Soni"
 description: "Customer security is crucial for any business striving to stay ahead of the competition. However, balancing customer security with a rich consumer experience is what it all takes to propel growth. Learn the aspects of a robust CIAM solution and how it helps businesses stay ahead of their competitors."
 metadescription: "Customer security should be the number one priority for businesses seeking substantial growth. Here’s how to ensure a balance between security & usability."
@@ -23,7 +22,6 @@ So does it mean every online business should focus more on customer security tha
 No! Businesses can leverage a cutting-edge [consumer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) solution that creates a perfect balance between customer security and customer experience. 
 
 Let’s uncover the aspects of a robust CIAM solution and how it helps businesses stay ahead of their competitors. 
-
 
 ## The Importance of Customer Security for Your Enterprise and Customers
 
@@ -56,7 +54,7 @@ An omnichannel consumer experience refers to seamless interaction across multipl
 
 For example, it is omnichannel when marketing, sales, consumer support, and even in-store experiences are synced up so users can seamlessly switch channels and make the purchase.
 
-[![omnichannel-eb](omnichannel-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### #2. Single consumer view
@@ -78,8 +76,6 @@ By adding multiple layers of shields in the form of multi-factor authentication 
 LoginRadius' modern CIAM solution is designed to be more flexible and intuitive. It addresses every subtle component that can improve consumers' experience while also providing an unmatched safeguard for private data.
 
 What puts LoginRadius ahead of the curve are the three most fundamental aspects:
-
-
 
 * **Frictionless security:** Strengthened security doesn't have to come at the cost of convenience. LoginRadius' modern CIAM solution like MFA, passwordless login, phone login, [social login](https://www.loginradius.com/social-login/), etc., ensures no friction while authenticating.
 * **Privacy management:** Proficient privacy management is the key to winning consumers' trust. Our new-age CIAM solution considers every subtle privacy concern related to international regulations like the GDPR and the CCPA.

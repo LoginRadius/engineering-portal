@@ -2,7 +2,7 @@
 title: "How Can Enterprises Deliver Better Customer Experiences with Unified Identity?"
 date: "2022-05-18"
 coverImage: "customer-interactions.jpg"
-category: ["customer-experience", "unified-identity", "identity-management"]
+tags: ["customer experience","sso","identity management","mfa"]
 author: "Yash Rathi"
 description: "Unified identity can do wonders for a brand if a business leverages its true potential. Let’s uncover some aspects of unified identity and how brands leverage the same to engage users and foster business growth."
 metadescription: "Businesses can grow and stand ahead of their competitors with a unified identity strategy. Learn how big brands leverage a unified identity for scaling growth."
@@ -40,8 +40,6 @@ The concept of unified consumer experience may sound idealistic, but anyone who 
 
 Consumers have become a competitive differentiator in today's hyper-competitive and hyper-connected global marketplace. There is tangible business value in maintaining a compelling consumer experience that can:
 
-
-
 * Strengthen brand preference through omnichannel experiences.
 * Increase revenue with existing consumer sales and new sales from word of mouth.
 * Enhance user login experience with [single sign-on](https://www.loginradius.com/single-sign-on/) (SSO).
@@ -52,7 +50,6 @@ By incorporating the concept of unified identity, businesses can gain every chan
 
 Now let’s look at aspects emphasized by established brands worldwide to enhance user experience and build trust. 
 
-
 ### #1. Omnichannel experience for frictionless registration.
 
 An omnichannel experience comprises a multichannel approach to sales, consumer service, and marketing. It necessitates delivering a consistent consumer experience regardless of how consumers interact with the brand.
@@ -61,14 +58,11 @@ An efficient and well-designed omnichannel platform yields an excellent consumer
 
 Here’s what big brands get when they leverage the true potential of an omnichannel experience:
 
-
-
 * Improved insight into the consumer journey
 * Consumer trust
 * Enhanced consumer retention
 * Rising consumer loyalty
 * Elevated sales
-
 
 ### #2. Multi-factor authentication (MFA) and risk-based authentication (RBA) for secure authentication.
 
@@ -82,7 +76,7 @@ Risk-based authentication is a non-static authentication system that considers t
 
 It is a method of applying various levels of stringency to authentication processes based on the likelihood that access to a given system could be compromised. As the level of risk increases, the authentication process becomes more complicated and restrictive.
 
-[![risk-auth-gd](risk-auth-gd.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Hence, managing security doesn't necessarily mean compromising user experience with MFA and RBA. This further boosts engagement and trust in a brand. 
 
