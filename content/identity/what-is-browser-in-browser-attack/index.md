@@ -3,13 +3,11 @@ title: "BITB Attacks: The New Destructive Phishing Technique"
 date: "2022-04-22"
 coverImage: "bib-attacks.jpg"
 tags: ["phishing", "sso", "identity-theft", "mfa"]
-featured: false 
 author: "Gurjyot Singh" 
 description: "The browser in the browser attack (BITB) is the latest form of phishing scam that simulates a browser window within a web browser and steals sensitive user information. Let’s understand the aspects of Browser in-browser attacks and how businesses can ensure stringent security for their consumers and employees to protect against these attacks."
 metatitle: "What is a Browser in the Browser Attack?"
 metadescription: "The browser in the browser attack (BITB) is the latest form of phishing scam that steals sensitive user information. Here’s everything you need to know."
 ---
-
 
 ## Introduction
 
@@ -45,7 +43,7 @@ Since SSO has provided endless opportunities to businesses and consumers, avoidi
 
 Adding multiple layers of security while implementing single sign-on (SSO) could help businesses prevent browser in the browser attacks and help mitigate other associated risks. 
 
-[![LR-SSO](LR-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 Let’s understand how businesses can reinforce security against BITB attacks. 
 

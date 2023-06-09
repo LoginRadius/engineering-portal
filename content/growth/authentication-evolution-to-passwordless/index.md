@@ -2,7 +2,7 @@
 title: "The Evolution of Authentication: From Passwords to Passwordless & More"
 date: "2022-05-27"
 coverImage: "evolution-auth.jpg"
-category: ["authentication", "passwordless", "biometric", "social login"]
+tags: ["authentication", "passwordless login", "biometric authentication", "social login"]
 author: "Srishti Singh"
 description: "Over the past years, the evolution of authentication portrays the risks associated with unauthorized access and the growing number of cybersecurity threats that leads to compromised user information and sensitive business data. Here’s an insightful read depicting authentication aspects and how it has evolved over a decade."
 metatitle: "The Evolution of Authentication to a Passwordless World"
@@ -52,7 +52,7 @@ It simplifies the sign-in and registration experiences, providing a convenient a
 
 For consumers, social login is a single-click login method for accessing the website and mobile application—one in which there is no need for excess credentials and allows consumers to skip traditional registration methods.
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### #2. Passwordless Authentication
 

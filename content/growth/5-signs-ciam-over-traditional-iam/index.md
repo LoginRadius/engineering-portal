@@ -2,7 +2,7 @@
 title: "5 Signs Your Traditional IAM System Needs a CIAM Makeover"
 date: "2022-05-10"
 coverImage: "traditional-iam.jpg"
-category: ["ciam", "login-security", "sso", "mfa"]
+tags: ["ciam","login security","sso","mfa","iam"]
 author: "Deepak Gupta"
 description: "Businesses are still relying on old-school login and authentication mechanisms, including organization-level IAM, which is why their business lags behind their competitors. Let’s discuss why businesses need to replace their traditional IAM with new-age CIAM."
 metatitle: "5 Signs Your Business Needs CIAM Over Traditional IAM"
@@ -56,7 +56,7 @@ Well, a cutting-edge cloud-based CIAM solution like LoginRadius can help you inc
 
 With features like Social Login, Single Sign-On (SSO), and Progressive Profiling, you can stay assured your users aren’t facing any hurdles from the moment they interact with your brand. 
 
-[![modern-ciam-eb](modern-ciam-eb.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-cons-id](EB-GD-to-cons-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ### #2. You need more user data for improving sales & marketing strategy, but you’re clueless about where to get it.

@@ -2,8 +2,7 @@
 title: "How Implementing the Right Identity Strategy Can Grow Your Business?"
 date: "2022-04-07"
 coverImage: "id-strategy.jpg"
-category: ["identity-managhement", "authentication", "digital-transformation"]
-featured: false 
+tags: ["identity management", "authentication", "digital transformation"] 
 author: "Rakesh Soni"
 description: "The right identity strategy can help businesses stay up and running even in challenging situations since enterprises can rely on valuable consumer insights, including their preferences, behavior, and purchase trends. Let’s understand the role of identity management and how a good strategy for managing consumer identities can help businesses excel in growth."
 metadescription: "Identity management isn’t a luxury; it’s an absolute necessity. Learn more about the business benefits of incorporating a CIAM in your identity strategy."
@@ -67,8 +66,6 @@ Moreover, the best-in-class security that comes with the LoginRadius identity pl
 
 Here’s how LoginRadius manages security and usability:
 
-
-
 * **Zero trust security:**  LoginRadius’ Zero Trust Security relies on the principle of “don’t trust anyone.” This architecture cuts all the access points until proper verification is done and trust is established.
 * **Consumer journey:** From the first step of onboarding to the thousandth login, create a welcoming and intelligent process to foster great consumer relationships.
 * **Deliver a high-performance experience:** Never turn a consumer away because your login service is down. LoginRadius has unmatched uptime, and we can handle 150K logins per second—that’s 20x more than our competitors.
@@ -76,7 +73,7 @@ Here’s how LoginRadius manages security and usability:
 * **Safeguard sensitive data:** Our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage.
 * **Manage consumer consent:** Stay current on regulations for acquiring consumer consent, data collection and use, age verification, and site access. Give consumers transparency into the consent process to demonstrate good faith.
 
-[![zero-trust1](zero-trust1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-1](WP-zero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 Hence, businesses must understand the importance of a modern CIAM solution like LoginRadius and consider incorporating it into their identity strategy.
 

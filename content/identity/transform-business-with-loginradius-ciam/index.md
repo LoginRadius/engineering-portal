@@ -9,7 +9,6 @@ metatitle: "Why is LoginRadius the Best Choice for Your CIAM Needs?"
 metadescription: "With LoginRadius CIAM, enterprises can ensure a perfect symphony of security, user experience, and compliance. Read this blog to know more."
 ---
 
-
 ## Introduction
 
 When we talk about the digital transformation of a business, enterprises focus more on incorporating the latest technologies in terms of hardware and software updates but don’t emphasize the security of their systems, which isn’t a good decision overall. 
@@ -68,21 +67,17 @@ Easily connect your websites, mobile apps, and third-party services so that cons
 
 Make passwords harder to crack with rigorous password policies and [LoginRadius’ Multi-Factor Authentication](https://www.loginradius.com/multi-factor-authentication/). Use hashing and encryption to protect account credentials and data in transit and rest.
 
-
-
 * **Safeguard sensitive data.**
 
 Our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage.
-
 
 ## Why is LoginRadius CIAM Ahead of its Competitors? 
 
 In a technologically-driven interconnected world where every second counts, LoginRadius CIAM guarantees unparalleled uptime of 99.99% every month. The cloud-based identity provider manages 180K logins per second, 20 times more than its major competitors offering similar services. 
 
-[![decode-LR-WP](decode-LR-WP.png)](https://www.loginradius.com/scalability/)
+[![WP-decoding-resiliance](WP-decoding-resiliance.png)](https://www.loginradius.com/scalability/)
 
 Apart from delivering the industry's best consumer experience, the following are a few ways the platform excels compared to its global competitors.
-
 
 
 * **Auto Scalable infrastructure:** The platform offers an auto-scalable infrastructure to handle surges during daily and seasonal peak loads. It automatically accommodates data storage, account creation, consumer authentication, new applications, etc.
