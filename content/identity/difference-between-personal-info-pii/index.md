@@ -2,8 +2,7 @@
 title: "Personal Information and PII - What’s the Difference?"
 date: "2022-03-10"
 coverImage: "pii.jpg"
-tags: ["security"]
-featured: false
+tags: ["data security","identity management","cx"]
 author: "Vishal Sharma"
 description: "Before organizations gear up to offer stringent security measures to their clients, it’s crucial to understand the fundamental difference between personal data and personally identifiable information (PII)."
 metatitle: "The Difference Between Personal Information and PII"
@@ -50,7 +49,7 @@ In addition, the regulatory guidelines also stipulate that if the data is no lon
 
 Moreover, supervision and protection of personally identifiable information may become a significant issue for individuals, companies, and governments in the coming years.
 
-[![consent-managmt-ds](consent-managmt-ds.png)](https://www.loginradius.com/resource/loginradius-consent-management)
+[![DS-consent-mngmnt](DS-consent-mngmnt.png)](https://www.loginradius.com/resource/loginradius-consent-management)
 
 
 ## Why Should Businesses Immediately Work on Protecting their Clients’ PII?

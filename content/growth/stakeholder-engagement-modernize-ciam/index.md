@@ -49,7 +49,7 @@ The requirements and priorities of each department are different. Your Chief Mar
 
 Each stakeholder has a set of expectations. Stakeholders should be involved from the initial phase of the CIAM modernization process. Doing so will help boost participation and goal alignment, making the overall objectives easier to achieve.
 
-[![cmo-cio-wp](cmo-cio-wp.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
+[![WP-dig-id-mngmnt](WP-dig-id-mngmnt.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
 
 ### 4. Manage expectations
 Technology can do anything, but if we expect the impossible, we may end up empty-handed. If you listen carefully to each team’s needs and concerns, however, you’re more likely to build a system that works for everyone. It’s important to take many things into account when designing the CIAM solution—for instance, usability, customer experience, convenience, security, and maintainability.

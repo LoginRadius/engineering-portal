@@ -2,8 +2,7 @@
 title: "Emerging Threat of Deepfakes: How To Identify And Prepare Against It"
 date: "2022-01-13"
 coverImage: "deepfake.jpg"
-tags: ["security"]
-featured: false 
+tags: ["digital transformation","identity management","cx"]
 author: "Vishal Sharma"
 description: "The emergence of deepfakes has led to many questions about how to identify and protect against them. This blog will provide an overview towards providing that understanding."
 metatitle: "How to Identify and Mitigate the Growing Deepfake Attacks"
@@ -68,7 +67,7 @@ Algorithms are also emerging to assist video creators in authenticating their vi
 
 Similarly, security practices can help to deter fraudsters. Deepfake attacks, as an emerging threat, thrive on the degree of technology available to fraudsters, particularly machine learning and advanced analytics. Businesses can fight fire with fire by employing the same capabilities. 
 
-**Also Download**: [![digital-trade-wp](digital-trade-wp.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+**Also Download**: [![WP-digital-trade](WP-digital-trade.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ## How to Prevent Deepfake Attacks
@@ -98,7 +97,5 @@ Deepfakes continue to pose a variety of threats, including political propaganda,
 However, these methods are not the only measures to address the issue of deepfakes. Hence, it is vital to engage in awareness and training to detect early symptoms of deepfake attacks. 
 
 Additionally, technological companies and governments should consider enacting legislation that criminalizes the usage of deepfakes with the goal of damaging individuals' reputations. In this way, we can stop this rising threat. 
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

@@ -49,7 +49,7 @@ Many industries are subject to strict regulatory requirements around data privac
 
 By demonstrating a commitment to compliance, businesses can build trust and confidence among customers, who will feel reassured that their data is being handled responsibly.
 
-[![DS-CCPA-compliance](DS-CCPA-compliance.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-CCPA-comp](DS-CCPA-comp.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 ### 4. Convenience 
 
 Customers expect a seamless and hassle-free experience when interacting with businesses. CIAM solutions can help companies to deliver this by enabling [single sign-on](https://www.loginradius.com/single-sign-on/) (SSO) across multiple channels and applications. 

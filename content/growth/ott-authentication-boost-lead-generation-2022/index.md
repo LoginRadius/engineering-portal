@@ -2,15 +2,12 @@
 title: "Why Should You Use OTT Authentication in Your Lead Generation Funnel?"
 date: "2022-02-11"
 coverImage: "ott-lead.jpg"
-category: ["security"]
-featured: false 
+tags: ["data security","authentication","sso","ciam solution"]
 author: "Vishal Sharma"
 description: "Adding a stringent authentication mechanism through a CIAM solution that ensures robust security and enhances user experience is the need of the hour for every OTT platform. Let’s understand the aspects of incorporating OTT authentication for OTT platforms and why it’s crucial from a lead generation perspective."
 metatitle: "OTT Authentication to Boost Lead Generation in 2022"
 metadescription: "OTT authentication is quickly becoming the need of the hour for the entire OTT industry. Read on to know the aspects associated with OTT authentication."
 ---
-
-
 ## Introduction
 
 Admit it, we’ve all witnessed a paradigm shift amid the global pandemic, and the entire entertainment industry is now transformed forever. 
@@ -77,7 +74,7 @@ If you have multiple websites and mobile apps under the same company umbrella, t
 
 Web SSO authentication from LoginRadius brings everything together. Each customer has one account. They can use one set of credentials anywhere they interact with your brand.
 
-[![SSO-DS](SSO-DS.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ### Access Management: For Restricting Content
