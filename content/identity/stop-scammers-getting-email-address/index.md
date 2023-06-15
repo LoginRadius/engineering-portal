@@ -2,8 +2,7 @@
 title: "This Is How Scammers Get Your Email Address & How to Stop Them"
 date: "2022-01-19"
 coverImage: "scammers.jpg"
-tags: ["security"]
-featured: false
+tags: ["data security","2fa","mfa","cx"]
 author: "Navanita Devi"
 description: "When you type your email address into a website, be careful. You might have just given your email address to a scammer. Sadly, this happens all too often and is one of the main ways scammers harvest email addresses. This blog offers solutions on how to stop it from happening."
 metatitle: "How To Stop Scammers From Getting Your Email Address"
@@ -55,7 +54,7 @@ Scammers use [brute force attacks](https://www.loginradius.com/blog/identity/bru
 
 Phishing email scams can often result when anyone uses carbon copy (CC) while addressing an email to a group of people. This results in forwarding the same email repetitively, thereby exposing the email addresses of all the people concerned.
 
-[![bot-wp](bot-wp.png)](https://www.loginradius.com/resource/how-loginradius-prevents-bot-attacks/)
+[![WP-bot-attacks](WP-bot-attacks.png)](https://www.loginradius.com/resource/how-loginradius-prevents-bot-attacks/)
 
 
 ## How to Prevent Phishing Email Scams  
@@ -94,11 +93,9 @@ Some warnings or indications are:
 
 Email addresses can be implemented as graphic features, making it complicated to harvest programs and dictionary features to recognize them. This can ensure security and privacy as such texts cannot be copied or linked with malware. 
 
-
 ### 5. Obfuscate
 
 You can obfuscate, or scramble, your email address by using HTML and JavaScript in emails. Obfuscation also makes it harder for hackers to see the real email address you are using.
-
 
 ## Conclusion 
 
@@ -106,7 +103,4 @@ As email addresses have become ubiquitous and the messaging process more interac
 
 By taking simple precautions, including checking the source of the message and even flagging suspicious emails as spam, you can keep the scammers away, and remain in control of your inbox.
  
-
-
-
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

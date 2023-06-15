@@ -2,8 +2,7 @@
 title: "Unlock the Business Benefits of Change Management in Securing Consumer Identity"
 date: "2022-01-19"
 coverImage: "change-managmt.jpg"
-category: ["all"]
-featured: false 
+tags: ["ciam solution","digital identity management","cx"]
 author: "Sudhanshu Agarwal"
 description: "If you are one of the many businesses that have not yet developed an effective change management strategy, this article is for you. With new data privacy regulations coming into effect, organizations face complex compliance issues. Ignoring these rules can turn out to be expensive."
 metatitle: "Change Management: A Modern Tool For Consumer Security"
@@ -15,8 +14,6 @@ metadescription: "With the increasing consumer demand for convenient digital ser
 In the modern digital era of banking and e-commerce, the collection of customer data has become a strategic necessity. Companies must make sure their data is secure so they can retain their customers and increase revenue.
 
 [Customer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) systems offer a new way of looking at customer data, streamlining user interfaces, and enabling businesses to take their customer's data security to the next level.  CIAM also offers a host of other features, including: 
-
-
 
 * Customer sign-in and registration
 * Multi-factor sign-in authentication 
@@ -72,7 +69,7 @@ This plan should take into consideration every possible requirement, outcome, an
 
 Make a great plan, then manage it effectively. Choose the best leader to manage your plan, someone who can oversee the plan effectively. Effective oversight means following the change management procedure, from ensuring quality at each step to adequately resolving issues that arise.
 
-[![ciso-wp](ciso-wp.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
+[![WP-dig-id-mngmnt](WP-dig-id-mngmnt.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
 
 Someone who understands the day-to-day operations of customer identity and access management is essential to a firm's customer security efforts. This person should also be able to visualize the impact of security on the brand, so that they can effectively implement necessary change management strategies.
 

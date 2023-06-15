@@ -2,8 +2,7 @@
 title: "7 Mistakes Companies Make During Digitization And Their Fixes"
 date: "2022-03-07"
 coverImage: "digitize-mistakes.jpg"
-category: ["all", "other"]
-featured: false 
+tags: ["digital transformation", "identity management","cx"]
 author: "Hazel Raoult"
 description: "Today, most companies realize that technology presents an opportunity to transform their business models and products. But, not many have any clue about the mistakes they make while adopting."
 metatitle: "7 Mistakes Companies Make During Digital Transformation"
@@ -83,7 +82,7 @@ This just proves that digital transformation is never a destination, as most com
 
 The goal here is to become a dynamic enterprise that can respond to changes quickly, keeping digital transformation at the core. 
 
-[![customer-id-ds](customer-id-ds.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![DS-customer-identity](DS-customer-identity.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 Take the example of Disney. After facing the challenges of the worldwide closure of theaters during the COVID-19 pandemic, it started leveraging its streaming platform for releasing its content. It transitioned from a distribution model to a direct-to-consumer model. This helped the company to stabilize its revenues through increased subscriptions and ultimately positioned itself for success. 
 

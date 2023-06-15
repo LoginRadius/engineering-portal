@@ -2,8 +2,7 @@
 title: "How to Create Brand Identity to Attract More Customers"
 date: "2022-02-04"
 coverImage: "brand-identity.jpg"
-category: ["all"]
-featured: false
+tags: ["identity management","customer identity","cx"]
 author: "Mike Abelson"
 description: "Branding is composed of so much more other than just your logo and chosen brand colors. Developing customer identity is also a must when it comes to getting your brand out for consumers. These tips will help you refine your branding to suit the goals of your business."
 metatitle: "Improving Customer Retention With a Strong Brand Identity"
@@ -40,7 +39,7 @@ Aside from that, don’t forget to develop who your <a rel="nofollow" href="http
 
 Finally, assessing the current state of the brand identity (especially if in the process of rebranding) later on is also crucial. This includes having the foresight and flexibility to tweak the brand depending on how aligned it is with evolving goals. 
 
-**Also Download**: [![modern-id-eb](modern-id-eb.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+**Also Download**: [![EB-GD-to-Mod-Cust-Id](EB-GD-to-Mod-Cust-Id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ### 2. Know the competition
