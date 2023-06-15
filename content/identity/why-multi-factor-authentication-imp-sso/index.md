@@ -2,8 +2,7 @@
 title: "Importance of Multi-factor Authentication for SSO"
 date: "2022-02-08"
 coverImage: "mfa-sso.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","mfa","sso","authentication","cx"]
 author: "Conrad Sturdy" 
 description: "Multi-factor authentication (MFA) is an essential layer of security that’s becoming standard in enterprise SSO deployments. While it’s not a silver bullet, it’s likely the last line of defense in most situations, so its importance shouldn’t be overlooked. Here’s an insightful read depicting the aspects of SSO authentication and MFA."
 metatitle: "Why Is Multi-factor Authentication So Important For SSO?"
@@ -30,13 +29,11 @@ The strengths and weaknesses of multi-factor authentication are generally known.
 Password protection is popular but not ideal, so businesses have to use additional tools. SSO is a powerful and effective tool for simplifying employee access to personal websites and applications.
 
 
-**Also download**: [![mfa-guide](mfa-guide.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+**Also download**: [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 ## What is the Authentication Process and Single Sign-On (SSO)? 
 
 Authentication is a process that consists of two steps:
-
-
 
 * Confirm the identity of a user.
 * Providing the necessary level of authorization.

@@ -2,14 +2,12 @@
 title: "Multi-Brand Ecommerce: Creating a One-Brand Experience Using SSO"
 date: "2022-01-11"
 coverImage: "multibrand.jpg"
-category: ["security"]
-featured: false 
+tags: ["data security","sso","ciam solution","cx"]
 author: "Deepak Gupta"
 description: "SSO bridges the gap between multiple interconnected platforms and cuts the need for re-authentication for a consumer. Let’s understand how SSO is paving the path for the next generation of e-commerce giants to deliver rich multi-brand experiences across their platforms."
 metatitle: " How to Build a One-Brand Ecommerce Experience with SSO"
 metadescription: "Creating a one-brand experience is key to e-commerce success. Learn how single sign-on helps deliver rich consumer experiences across diverse platforms."
 ---
-
 
 ## Introduction 
 
@@ -58,7 +56,7 @@ In a nutshell, SSO helps e-commerce companies to build a one-brand experience by
 
 SSO, if implemented correctly, through a reliable [consumer identity and access management (CIAM) solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), can do wonders for your ecommerce store. Let’s understand why online retailers should put their best foot forward in adopting SSO. 
 
-*Also download*: [![LR-SSO](LR-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+*Also download*: [![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ### 1. Consumers expect SSO

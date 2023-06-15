@@ -2,8 +2,7 @@
 title: "5 Privacy Threats in Social Media You Should Know in 2022"
 date: "2022-02-11"
 coverImage: "social-privacy.jpg"
-tags: ["security"]
-featured: false
+tags: ["social login","data security","authentication","cx"]
 author: "Nikola Sekulic"
 description: "With the rise in a number of highly publicized cybersecurity breaches, businesses and consumers must remain vigilant to protect sensitive information on social media. There is no doubt that cyber threats will continue to rise over the next few years, so being prepared is key."
 metatitle: "5 Things You Should Know About Social Media Privacy in 2022"
@@ -31,9 +30,7 @@ This doesn’t mean that you shouldn’t invest in social media ads, but you nee
 
 Yes, it is important to target the right people, but you don’t want your ads to turn your followers against you - after all, people don’t like ads that seem to “know” too much.
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
-
-
+[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### Identity theft and impersonation
 

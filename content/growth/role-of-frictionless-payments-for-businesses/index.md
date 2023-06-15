@@ -52,7 +52,7 @@ Admit it; a great user experience is paramount for online business success in to
 
 Users need not enter their card details or provide pins every time they shop from the same platform. Instead, they can use different authentication methods, including a fingerprint that completes payment in a fraction of seconds. 
 
-[![omnichannel-eb](omnichannel-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### #3. Better payment security 

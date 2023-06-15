@@ -2,8 +2,7 @@
 title: "Will Decentralized Auth Change the Perception of Consumer Identities in 2022?"
 date: "2022-01-18"
 coverImage: "dec-auth.jpg"
-tags: ["security"]
-featured: false 
+tags: ["authentication","identity verification","cx"]
 author: "Deepak Gupta"
 description: "Whether we talk about inappropriate data collection or a loophole in managing consumer identities, anything could lead to compromised sensitive information. Here’s where the concept of decentralized authentication in identity management comes into play."
 metatitle: "Decentralized Authentication -The Future of Authentication"
@@ -44,7 +43,7 @@ If the person desires to get admission to a carrier, it's sufficient to give its
 
 If they match, admission is granted. In greater ideal scenarios, the person can derive separate key pairs from a non-public key to generate different identifiers for one-of-a-kind relationships to allow privacy-pleasant protocols.
 
-[![decentralized-auth](decentralized-auth.png)](https://www.loginradius.com/resource/decentralized-authentication/)
+[![WP-decentralized-auth](WP-decentralized-auth.png)](https://www.loginradius.com/resource/decentralized-authentication/)
 
 
 ## Benefits of Decentralized Authentication

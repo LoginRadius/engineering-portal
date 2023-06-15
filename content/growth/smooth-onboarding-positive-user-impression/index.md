@@ -2,8 +2,7 @@
 title: "How to Make a Strong Impression With Your Onboarding Process?"
 date: "2022-02-02"
 coverImage: "onboarding.jpg"
-category: ["business"]
-featured: false 
+tags: ["user onboarding","progressive profiling","cx"]
 author: "Navanita Devi"
 description: "The key to a seamless onboarding experience is to make the process as simple and safe as possible – from the first moment a new customer accesses your site until the moment they are authenticated and logged in. This article explains how."
 metatitle: "The Onboarding Process: How to Make a Positive Impression?"
@@ -68,7 +67,7 @@ How will this app aid them in fulfilling their needs? You can easily demonstrate
 
 In many ways, onboarding can provide the personalization every user is searching for. Progressive onboarding ensures you don't overwhelm the user with too many functions they aren't prepared to work with. Instead, as they gradually glide through the app, they require new information, so their experience isn’t monotonous. The instructions correspond to the unique page the user is on, allowing the user to learn as they get deeper into the app. As a result, the user can only grab what they need out of the app.
 
-[![visitor-eb](visitor-eb.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ## Conclusion

@@ -2,8 +2,7 @@
 title: "5 Myths About Phishing You Should Know"
 date: "2022-03-28"
 coverImage: "phish-email.jpg"
-category: ["all", "security"]
-featured: false
+tags: ["data security","mfa","cx"]
 author: "Lucy Manole"
 description: "Most of us think we can spot a phishing email, but are we really safe against online fraud? Here are some truths about credential phishing."
 metatitle: "5 Cybersecurity Myths About Phishing Attack"
@@ -35,7 +34,7 @@ Credential phishing attacks are usually targeted attacks that are backed by exte
 
 The victims' credentials are then used to carry out secondary attacks like fraudulent funds transfer, stealing company data, identity fraud, and other fraudulent activities.
 
-[![cred-stuffing](cred-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![WP-credential-stuffing](WP-credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 
 ## Top 5 Myths About Credential Phishing You Should Know
@@ -117,11 +116,9 @@ them before they land in your email inbox.
 ## Some More Security Measures You Can Follow
 
 
-
 * Implement stringent security measures across the entire organization using the [consumer IAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) system. 
 * Set up a single sign-on to unify all your applications and enhance security.
 * Use multi-factor authentication to authenticate login attempts.
-
 
 ## Conclusion
 
@@ -129,6 +126,4 @@ Regardless of [how secure your email systems](https://www.loginradius.com/blog/i
 
 We are sure the information shared in this post will help keep your organization safe from such attacks. 
  
-
-
 [![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
