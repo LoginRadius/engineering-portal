@@ -2,8 +2,7 @@
 title: "LoginRadius Offers PerfectMind Integration for a Seamless UX"
 date: "2021-12-14"
 coverImage: "perfectmind-cover.jpg"
-tags: ["industry-news"]
-featured: false 
+tags: ["authentication","federated sso","passwordless login"]
 author: "Jitender Agarwal"
 description: "LoginRadius’ cutting-edge single sign-on helps overcome all the challenges related to consumer experience and data integration.  Let’s understand how LoginRadius paves the path for a robust user experience by integrating PerfectMind."
 metatitle: "How LoginRadius Offers Seamless PerfectMind Integration"
@@ -32,7 +31,7 @@ Canadian municipal and community organizations were looking for a way to connect
 
 Since, PerfectMind does not support industry-standard [federated Single Sign-On](https://www.loginradius.com/blog/identity/loginradius-federated-identity-management/) methods like SAML, OAuth/OIDC, or JWT, LoginRadius offered its out-of-the-box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and the PerfectMind applications by leveraging APIs.
 
-[![PerfectMind-Integration](PerfectMind-Integration.png)](https://www.loginradius.com/resource/perfectmind-integration)
+[![DS-perfectmind-int](DS-perfectmind-int.png)](https://www.loginradius.com/resource/perfectmind-integration)
 
 Through LoginRadius PerfectMind integration, the PerfectMind consumers are leveraging all the powerful capabilities of the cutting-edge CIAM platform, including social login, [passwordless login](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/), single sign-on, reinforced by robust security. 
 

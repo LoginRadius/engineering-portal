@@ -2,8 +2,7 @@
 title: "Do Consumer Identity Programs Really Work for Personalized Marketing?"
 date: "2021-12-14"
 coverImage: "personalized-marketing.jpg"
-category: ["security"]
-featured: false 
+tags: ["identity management","ciam solution","mfa","cx"]
 author: "Navanita Devi"
 description: "Consumer identity management is actually a great way to help companies grow. It is through high quality CIAM that a business can create better targeted, safer, more meaningful marketing experiences for their customers."
 metadescription: "Whether you are a B2B or B2C company, you need to have your target audience’s personality in mind. Learn the benefits of personalized marketing using customer identity."
@@ -41,22 +40,16 @@ Let's talk more about it.
 
 With the digitization of business operations, including marketing, customers are focusing more on user experience and data safety. This may be achieved through consumer identity and access management to create a safe and individualized interface for users. 
 
-
-
 * **_Sign in or registration_**
 
 When registering for an application the first time, you have to fill out details, including your email id, user name, password, social identity, contact details, social media handles etc; some applications also need other preferences. The main objectives of sharing these details are: 
-
-
 
 1. Authentication
 2. Personalization
 
 After this, the application observes your activities and keeps the interface evolving according to the user activities.
 
-[![modern-customer-id](modern-customer-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
-
-
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 * **_Multi-factor authentication_**
 
@@ -66,20 +59,15 @@ In most applications, authentication ends with registration, where the user has 
 
 For example, in the case of net banking, you sign into your account to authorize a transaction. Before finalizing the transaction, you have to enter a specific code sent to your contact number or email address. 
 
-
-
 * **_Central data management_**
 
 The [consumer identity program for marketing](https://www.loginradius.com/blog/fuel/how-to-make-personalized-marketing-effective-with-consumer-identity/) uses consumer data and information to analyze and personalize the activities. An application has multiple functions and users, which results in a huge amount of data to store and process. Huge data is not the problem; scattered data is. 
 
 The effective and efficient use of data is possible only when it is organized systematically. CIAM uses a central data dashboard that stores all the relevant data in one place. There, data can be retrieved, updated and added without causing any disruption to the system. 
 
-
-
 * **_Encryption_**
 
 Consumer data is precious for your business, and its safety is the number one concern of the users. But, what happens in case of a data breach? If you are using CIAM for your business, you don't have to worry as the system does high-end data encryption while performing other functions. User authentication and data encryption make data more secure in cases of breaches. 
-
 
 ## Conclusion 
 

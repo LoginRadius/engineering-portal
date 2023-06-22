@@ -2,8 +2,7 @@
 title: "How CIAM can help in Preventing Abandoned Carts"
 date: "2021-11-16"
 coverImage: "cart-abandon.jpg"
-category: ["security"]
-featured: false
+tags: ["progressive profiling","ciam solution","mfa","cx"]
 author: "Rashmi Mathur"
 description: "Shoppers leave their carts behind all the time. When this happens, it usually means that they're abandoning their purchase but also that they're possibly losing interest in your brand altogether. This blog takes a deeper look into how CIAM can stop the issue of abandoned carts."
 metatitle: "How CIAM can Reduce Cart Abandonment"
@@ -35,7 +34,7 @@ Customer identity and other credentials are sensitive information that hackers c
 
 Thankfully, CIAM helps you collect data as well as secure it. What makes it even better is that you can collect customers’ data that is beyond just registration! That’s right, through CIAM, you can even collect helpful information such as customers’ shopping patterns, buying choices, etc. And of course, you can use this information to boost your targeted marketing strategies and other ventures. 
 
-[![valuable-visitor-eb](valuable-visitor-eb.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 Talking about security, CIAM solutions tokenize customer identities to detach them from sensitive data while it's in storage. Furthermore, these solutions also use robust [data encryption and hashing](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) to ensure the privacy of sensitive information and credentials.
 

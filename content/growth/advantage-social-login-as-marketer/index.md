@@ -2,14 +2,12 @@
 title: "Can Social Login Boost Conversion Rates? 5 Things Marketers Should Know"
 date: "2021-11-12"
 coverImage: "social-login-marketer.jpg"
-category: ["security"]
-featured: false
+tags: ["social login","cx","data privacy"]
 author: "Srishti Singh"
 description: "Using social login to drive sign-ups usually makes sense because it increases user privacy. If users like the site, they're more likely to return, and you're more likely to convert them into paying customers. This blog explains how social login can boost conversion rates."
 metatitle: "How To Take Advantage of Social Login As A Marketer"
 metadescription: "Conversion rates falling low because of traditional authentication tools? Use Social Login to witness the increase in conversion rates. Read the article to know more."
 ---
-
 
 The goal of any digital business is to boost its conversion rates and increase sales. However, with the plethora of authentication tools available, it is not easy to select one.  [Social login](https://www.loginradius.com/social-login/) is one of the most common and preferred ways to achieve the target. It simplifies the login process for the user which directly results in boosted conversion rate. 
 
@@ -20,21 +18,17 @@ Social login is an authentication process that uses social networks to authentic
 
 Social login is good for your business because it saves the trouble of registering every single time your customer wants to utilize your digital property. 
 
-
 ## 5 Ways How Social Login Boosts Conversion Rates
 
 Users look at social login as a simple and quick way to log in to a website. However, marketers must notice how successful organizations have been implementing it to maximize their sales conversion rates at every step of the [customer journey](https://www.loginradius.com/blog/fuel/consumer-journey-from-sign-up-to-purchase/). 
 
 The companies pull the user information to create a wholesome experience for the user. Thus, the notifications are more personalized and attractive to the users. Below are a few reasons as to what attracts the customers to social login:
 
-
-
 1. **It quickens the process of signing up for the website:** Implementation of social login makes the registration and login process fast. It can lower the time from around two minutes to around two seconds. As brand managers, you will notice the impact on your sign-up conversion rate for the website.
 2. **It enables the usage of social media functionalities.** Social login enables users to like, share, comment, subscribe, play online games, and much more without having to create an account or waste time by typing their login credentials over and over again.
 3. **It doesn't force the users to create a new password:** The process utilizes the information of social media accounts of the users. Thus, they have one less password to remember. It is something they might appreciate and hence visit the website more frequently.
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
-
+[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 
 4. **It results in fewer unsuccessful logins:** The users only need to click on the social media account they want to log in with. Thus, they will not have the scope of making mistakes while entering their login credentials. 

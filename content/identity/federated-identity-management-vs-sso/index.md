@@ -66,8 +66,7 @@ The service provider then sends a request to the user's identity provider, which
 
 This process is known as identity federation and allows users to access resources from multiple organizations without the need for separate login credentials for each organization. The FIM system uses industry-standard protocols like SAML, OAuth, and OpenID Connect to establish trust and securely exchange identity information between the identity provider and service provider.
 
-
-[![fim-ds](fim-ds.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![DS-fim](DS-fim.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 ## Benefits of Federated Identity Management
 

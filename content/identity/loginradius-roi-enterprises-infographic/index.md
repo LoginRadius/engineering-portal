@@ -2,14 +2,12 @@
 title: "How LoginRadius Offers Customer-Centric Capabilities that Drive ROI"
 date: "2021-11-16"
 coverImage: "roi-cover.jpg"
-tags: ["other"]
-featured: false 
+tags: ["data management","digital transformation","cx"]
 author: "Rakesh Soni"
 description: "For businesses to grow and increase their profitability, there is a need to implement robust infrastructure to aid in productivity and increase efficiency. LoginRadius helps organizations scale up security, operability, data integration, and effective data management, among others. Check out our infographic for more ROI-centric details."
 metatitle: "How LoginRadius Drive ROI for Enterprises- Infographic"
 metadescription: "Learn how LoginRadius drives ROI for businesses with its customer-centric capabilities. Check out the infographic below for scalability, customization and more."
 ---
-
 
 LoginRadius has been at the forefront of businesses' digital transformation with its advanced CIAM (Customer Identity and Access Management) platform, redefining how companies securely manage their users. The cloud solution also offers a host of initiatives that enhance ROI like [high scalability](https://www.loginradius.com/blog/identity/handling-scalability-security-loginradius/), customization, and customer-obsessed solutions. A few are explained below: 
 
@@ -22,13 +20,11 @@ It, therefore, does not come as a surprise that scalable storage has gone from a
 
 To address the potential of applications growing over time, our platform is designed with scalability in mind and can resourcefully and seamlessly accommodate growth. At a peak load of 180K logins per second, you can rest assured our infrastructure can handle increased users and demand.
 
-
 ### #2. Unparalleled security
 
 LoginRadius offers matchless security with password protection, account verification, auto re-authentication, [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/), multi-factor authentication, and in-built fraud email blocks. All these elements come together to form the most formidable and intelligent security system with protocols that enable access to users after thorough verification and authentication, restrict access to unauthorized elements, protect users from external threats and keep sensitive data secure.
 
-[![build-buy-eb](build-buy-eb.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
-
+[![EB-buy-build](EB-buy-build.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 ### #3. Seamless integration
 
