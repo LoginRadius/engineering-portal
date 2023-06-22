@@ -2,8 +2,7 @@
 title: "17 Tips to Avoid Shopping Scams on Black Friday & Cyber Monday"
 date: "2021-11-24"
 coverImage: "17-online-shopping-tips-for-consumer.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data protection","cybersecurity","ciam solution","mfa"]
 author: "Deepak Gupta"
 description: "Many people prefer shopping online these days rather than going to a conventional store. Therefore, securing the data of your customers online is an integral part of protecting the organisation as a whole. Your job is to let them shop with some of the best online shopping tips with confidence."
 metatitle: "How to Avoid Black Friday and Cyber Monday Shopping Scams"
@@ -24,10 +23,7 @@ But first, we have a few stats to share.
 
 Stay calm. While the holiday season is around the corner, some figures may be alarming, but that shouldn't keep you from encouraging your consumers to shop online. 
 
-
 ## Black Friday & Cyber Monday Statistics that Shows What to Expect In 2021
-
-
 
 * In the United States alone, online shoppers spent [$9 billion USD](https://www.cnbc.com/2020/11/28/black-friday-2020-online-shopping-surges-22percent-to-record-9-billion-adobe-says.html) on the first day of the Black Friday weekend, which grew to $14 billion USD on Cyber Monday in 2020. This 5-day period accounted for around $34 billion USD in online sales. 
 * According to NCSC, its [Active Cyber Defence](https://www.ncsc.gov.uk/section/active-cyber-defence/introduction) (ACD) program identified 4,151 fake online retail websites that exploit vulnerabilities during checkout to divert payment and steal consumer data.
@@ -67,32 +63,25 @@ Consumer journey hijacking is a cyberattack where hackers inject unauthorized ad
 
 ## 17 Online Shopping Tips for Consumers To Follow While Shopping During This Holiday Season
 
-
 ![alt_text](online-shopping-tips-for-consumers-to-follow-while-shopping.png "online-shopping-tips-for-consumers-to-follow-while-shopping")
 
 Do not let the stress of untangling a case of identity theft or financial fraud ruin your consumers' Black Friday and Cyber Monday shopping. Stay ahead of cybercriminals with the best online tips. Here are the best places to start.
-
 
 ### 1. Use familiar websites.
 
 Encourage your consumers to shop from sites that they can trust. When they know the site well, there are fewer chances that they will be drifted to a malicious page and ripped off. Also, ask them to be cautious of misspellings or sites using a different domain, for example, .xyz instead of .com. The offers and sales on these sites may look decorated and enticing, but that's how they lure victims in. 
 
-
 ### 2. Say no to public wifi.
 
 Ask your consumers not to use public networks to make online transactions. That’s not how they should do safe shopping online. Freely available wifi hotspots at a coffee shop or in the airport are red flags. There may be hackers spying on them and waiting for the least opportunity to steal your consumer's name, address, and credit card information. 
-
 
 ### 3. An extra VPN security could help.
 
 If your consumers cannot resist shopping without shipping that hot chocolate, advise them to install a VPN (virtual private network) on their mobile devices, or computers for that matter, before connecting on a public wifi network. VPN creates an encrypted connection between the consumer's device and the VPN server, so any message sent while browsing the internet is safe from hackers. 
 
-
 ### 4. Strong password hygiene.
 
 Another online shopping tip is to mandate your consumers to use strong, unique passwords. If the hacker has the password to an account, they can use the stored payment data to rip you off. Here are a few [password protection tips](https://www.business2community.com/cybersecurity/password-security-best-practices-in-2020-02282074) to keep consumers' accounts safe. 
-
-
 
 *   Ask them to use long passwords. For example, it can be a complex set of at least eight lowercase and uppercase letters, numbers, and symbols.
 *   Ask them not to use passwords that are easy to guess, like birthdays, favorite food. Also, dictionary words are a big no. 
@@ -120,8 +109,7 @@ We mean [phishing](https://www.loginradius.com/blog/phishing-for-identity/) scam
 
 It is crucial that your consumers download applications only from trusted platforms like the App Store, the Google Play Store, Amazon App Store, etc. Most of the applications out there ask consumers for various permissions during installation. Encourage your consumers to read those carefully and only check boxes that make sense to them. They can also read reviews and ratings from existing consumers before making any decision. 
 
-
-[![omnichannel-retailer-whitpaper](omnichannel-retailer-whitpaper.jpg)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![WP-omnichannel-ret](WP-omnichannel-ret.png)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 ### 9. Read return policies.
 
@@ -175,8 +163,6 @@ No genuine website asks for [consumers' Social Security number](https://www.cons
 As an organization, it is also crucial that you take similar steps to minimize your consumers' cyber liabilities. Using the LoginRadius [consumer identity and access management solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/), you can provide them the safest and most secure digital experience while looking out to implement the best online shopping tips. 
 
 Here how you get personalized marketing, 360-degree customer profiling, data safety, and [omnichannel experience](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) for your consumers. 
-
-
 
 *   **Improved registration and login options**: The identity management platform allows consumers to register using [Magic Link via Emai](https://www.loginradius.com/blog/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/)l, OTP Login via Email, or OTP Login via Phone. This way, consumers need not remember passwords to log in anymore. 
 *   **360-degree view of consumers**: It offers a 360-degree view of consumer demographics, so you can plan your next move based on their behavior and personal preferences while building better relationships.

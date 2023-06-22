@@ -2,8 +2,7 @@
 title: "Not Sure About Spiderman, But You Can Prevent Identity Disclosure"
 date: "2021-12-02"
 coverImage: "spiderman.jpg"
-category: ["security"]
-featured: false 
+tags: ["data security","adaptive authentication","cx"]
 author: "Deepak Gupta"
 description: "What's most challenging about identity disclosure is that it is not only hard to avoid but also very difficult to repair once it has been disclosed. So, don't wait for a Mysterio to mess up your consumers’ identities! Security is just a click away with LoginRadius."
 metatitle: "How To Not Be Spiderman (Prevent Identity Disclosure!)"
@@ -49,7 +48,7 @@ When dealing with personal information in business, it is crucial to be extra ca
 
 In a business theft, if you lose a significant amount of income, it will cause a delay in the salaries of the employees and other staff members. There might be certain situations where you might need to cut your operating expenses and reduce your budget. In some cases, the thieves can also impact your business credit score. Thus, it will draw your credit reports into negative scores. Such an event can drastically shake the trust of people for your company.             
 
-[![eb-identity](eb-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## How to Recover from Identity Disclosure in Business

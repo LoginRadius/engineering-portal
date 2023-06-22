@@ -2,8 +2,7 @@
 title: "Why You Should Customize Your Marketing Programs Based on Consumer Journey"
 date: "2021-11-10"
 coverImage: "customer-marketing.jpg"
-category: ["all"]
-featured: false
+tags: ["ciam solution","cx","mfa"]
 author: "Vishal Sharma"
 description: "Personalized consumer experience is becoming the need of the hour. Let’s understand how a personalized consumer journey can help businesses stay ahead of the curve and how a CIAM solution like LoginRadius offers valuable insights for creating personalized user experiences."
 metatitle: "Customize Your Marketing Programs Based on Consumer Journey"
@@ -39,8 +38,7 @@ Well, consumers are already interacting with established brands, including Apple
 
 As a vendor, if you have the data regarding the buyer’s behavior, you can pitch exactly the same product or service for which they have landed. 
 
-[![omnichannel-eb](omnichannel-eb.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
-
+[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 ## How LoginRadius Helps Build Personalized Consumer Journeys? 
 
@@ -54,7 +52,6 @@ With a smart CIAM like [LoginRadius](https://www.loginradius.com/), businesses c
 
 Also, enterprises can export data visualization elements, including graphs and pie charts, to Microsoft Excel by just clicking a button. Customer analytics has never been much easier with LoginRadius Admin Console as it also supports effortless integration with renowned insights and analytics applications for enhanced data visualization. 
 
-
 ## Understand Customer Behaviour Over Time
 
 Leverage the power of data with over 30 charts within customizable date ranges with LoginRadius.
@@ -67,13 +64,10 @@ Customer analytics has never been more accessible with the LoginRadius Admin Con
 
 [Download Digital Identity Trend Report](https://www.loginradius.com/resource/digital-identity-trends-2020/) for detailed information regarding opportunities and risks within the identity environment through our comprehensive customer behavior analysis.
 
-
 ## Conclusion 
 
 Consumer data can help businesses craft personalized consumer journeys that not only ensure improved conversion rates but eventually help them get more returning customers. 
 
 With a [consumer identity and access management (CIAM)](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) solution in place, enterprises can yield better results by creating rich, personalized user experiences that help engage potential clients and increase the chances of conversions. 
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

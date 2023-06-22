@@ -2,8 +2,7 @@
 title: "How to Evaluate the Quality of Your User Authentication System"
 date: "2021-11-18"
 coverImage: "verification.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","user authentication","authorization","mfa"]
 author: "Arpita Garg"
 description: "Whether we talk about data leaks or identity thefts, businesses that become victims of security breaches compromise their brand reputation and lose millions of dollars every year. Hence, robust authentication and authorization mechanisms become a necessity and not just a luxury. Let’s understand how businesses can evaluate the quality of a user authentication system."
 metatitle: "How to Assess and Improve Your User Authentication System"
@@ -46,7 +45,6 @@ Authorization happens after a user’s identity has been successfully authentica
 
 For example, in an organization, after an employee is verified and confirmed via ID and password authentication, the next step would be defining what resources the employee would have access to.
 
-
 ## Difference between Authentication and Authorization
 
 Let’s understand the core of utilizing authentication and authorization and how one differentiates from the other.
@@ -60,8 +58,6 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 
 ### Different Ways of User Authentication
 
-
-
 * **Password-based Authentication:** It is a simple method of authentication that requires a password to verify the user's identity. 
 * **Passwordless Authentication:** In this method, a user is verified through [OTP or a magic link](https://www.loginradius.com/blog/identity/loginradius-launches-passwordless-login-with-magic-link-or-otp/) delivered to the registered email or phone number.
 * **2FA/MFA** **(Multi-factor Authentication):** It requires more than one security level, like an additional PIN or security question, to identify a user and grant access to a system. 
@@ -71,22 +67,17 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 
 ### Different Ways of User Authorization 
 
-
-
 * **Role-based Access Controls (RBAC):** It can be implemented for system-to-system and user-to-system privilege management.
 * **JSON web token (JWT):** It is an open standard for securely transmitting data between parties, and users are authorized using a public/private key pair.
 * **SAML:** It is a standard Single Sign-On format (SSO) where authentication information is exchanged through XML documents that are digitally signed.
 * **OpenID Authorization:** It verifies user identity based on an authorization server's authentication.
 * **OAuth:** It allows the API to authenticate and access the requested system or resource.
 
-[![api-wp](api-wp.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
-
+[![WP-digitization](WP-digitization.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
 
 Since we’ve got a fair understanding of the authentication and authorization system, let’s just quickly jump to the aspects that define the quality of the authentication system.
 
-
 ## 8 Characteristics to Evaluate the Quality of Authentication System 
-
 
 ### #1. Functional Stability
 
@@ -154,7 +145,6 @@ The LoginRadius CIAM helps businesses deliver a flawless user experience through
 
 Also, the cloud CIAM offers numerous ways to authenticate users. Businesses can leverage [social login](https://www.loginradius.com/blog/identity/what-is-social-login/), passwordless login, SSO, and more with one solution. 
 
-
 ## Final Thoughts 
 
 Carrying out authentication is crucial for every business in the digital landscape. However, the increasing security concerns have raised the bar for enterprises to choose their authentication system wisely. 
@@ -162,6 +152,5 @@ Carrying out authentication is crucial for every business in the digital landsca
 The aspects mentioned above could help businesses choose the most exemplary authentication mechanism that not only offers the highest level of security but eventually delivers a flawless user experience. 
 
 Moreover, businesses can witness the world-class authentication system in action with LoginRadius CIAM that helps establish a secure and user-friendly authentication and authorization system. 
-
 
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

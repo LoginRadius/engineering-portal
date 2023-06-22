@@ -2,8 +2,7 @@
 title: "How to Blend Security with Frictionless User Experience"
 date: "2021-11-24"
 coverImage: "ux-cover.jpg"
-category: ["all", "other"]
-featured: false 
+tags: ["data security","social login","cybersecurity","cx"]
 author: "Shivangini Yadav"
 description: "By striking the right balance between UX and security, you can provide a product that consumers trust and enjoy using. If, on the other hand, you compromise one for the other, customer churn is a more likely scenario."
 metatitle: "4 Tips for a Secure and Frictionless User Experience"
@@ -25,8 +24,6 @@ Just recently, [the Kaseya ransomware attack](https://www.reuters.com/technology
 
 When it comes to user experience, we can safely say it has become the most important underrated ranking factor. Additionally, it is _the _factor that can impact your user retention rates the most. In fact, [over 50% of internet users](https://websitebuilder.org/blog/user-experience-stats/) will leave a website if: 
 
-
-
 * it doesn’t load fast enough
 * it’s not mobile-friendly
 * they are not able to navigate it as intuitively as they would expect
@@ -38,7 +35,6 @@ The same rates apply to app abandonment as well.
 As important as these two facets of online business are, they do often clash. Implementing added security measures can severely impact user experience. Likewise, trying to please a user (or providing what we think a user wants) can compromise data security. 
 
 Here’s what you can do to ensure the two don’t trip each other up: 
-
 
 ### #1. Let UX and security teams work together 
 
@@ -63,8 +59,7 @@ The only issue that often arises is password reuse. Many users tend to come up w
 
 All you can do is educate your users about the importance of strong, varied passwords. If you do offer social login, know that you are reaching for the most pleasant UX available. 
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
-
+[![WP-Social-Login-rec](WP-Social-Login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### #3. Make use of Single Sign-on 
 
@@ -73,7 +68,6 @@ If you have more than one product and request that your users use a different ac
 Multiple logins also mean you will end up with incomplete data silos, and you won’t have a complete understanding of your customer’s journey. Plus, maintaining and securing these multiple accounts will only cost you more. 
 
 [By providing a single sign-on](https://www.loginradius.com/single-sign-on/), you can eliminate all of these issues. You’ll both improve user experience and make data protection simpler. Consider all of your customer touchpoints, whether they’re web- or app-based, and ensure one account is all they need to access your products or services. 
-
 
 ### #4. Implement frequent testing 
 

@@ -2,8 +2,7 @@
 title: "How to Mitigate BGP Attacks and Secure Your User's Data"
 date: "2021-11-12"
 coverImage: "bgp-attacks.jpg"
-tags: ["security"]
-featured: false 
+tags: ["enterprise security","cybersecurity"]
 author: "Sudhanshu Agarwal"
 description: "The reliance on BGP can be a double-edged sword as, on the one hand, it can be extremely convenient, while on the other, it can have major security lapses. However, enterprises can drastically reduce the risk by adopting the practices mentioned in the blog."
 metatitle: "How to Protect Your Business from BGP Hijacking"
@@ -28,7 +27,6 @@ BGP can be a liability that enterprises cannot ignore when it comes to [enterpri
 
 In either case, the company or individual will have to ensure that there are measures to prevent or mitigate BGP hijacking. Most enterprises have turned to one of two security options. These include: 
 
-
 ### #1. Mutually Agreed Norms For Routing (MANRS) 
 
 This is one of the more universally accepted routing [security measures](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) that are in use today. It is essentially a global initiative carried out by operators and enterprises to prevent route hijacking and other forms of DoS attacks. 
@@ -46,8 +44,6 @@ A route leak is often described as propagating or making a BGP announcement beyo
 **IP spoofing**
 
 This takes place when the hacker masquerades their device or entity as a legitimate one to gain access to files by redirecting them to a different IP address. 
-
- 
 
 To counter this, MANRS recommends implementing the following security measures: 
 
@@ -67,7 +63,7 @@ Network operators from around the world will have to release their data so that 
 
 This is a technique that is used to identify and drop information that has false IP addresses. The anti-spoofing filters which are used can deny service to spoofed IP addresses which try to gain access to a network. In most cases, if a packet coming from an external network contains an internal IP address, it gets blocked. 
 
-[![enduser-cyber-wp](enduser-cyber-wp.png)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
+[![WP-cybersecurty-training](WP-cybersecurty-training.png)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
 
 
 ### #2. RPKI adoption
@@ -77,7 +73,6 @@ MANRS also recommends using Routing [Public Key Infrastructure](https://www.logi
 Its main function is to prove the association between special IP address blocks. Doing so can reduce the occurrence of route leaks and mitigate the blast radius of any BGP hijacking incident.
 
 However, the only downside of RPKI adoption is that it can be significantly expensive for an ISP or an enterprise to introduce into their network. This is the reason why only a minority of the world’s network adopts an RPKI. 
-
 
 ## The Bottom Line
 
