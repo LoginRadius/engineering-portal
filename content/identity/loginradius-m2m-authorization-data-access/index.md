@@ -2,8 +2,7 @@
 title: "LoginRadius Launches M2M Authorization for Seamless Business Operations"
 date: "2021-12-15"
 coverImage: "m2m-cover.jpg"
-tags: ["industry-news"]
-featured: false 
+tags: ["industry-news","authorization","authentication"]
 author: "Deepak Gupta"
 description: "Machine to Machine (M2M) authorization ensures that business systems communicate autonomously without human intervention and access the needed information securely and reliably."
 metatitle: "LoginRadius' M2M Authorization for a Secure System Access"
@@ -35,14 +34,13 @@ LoginRadius understands the risks associated with data transfers, especially in 
 
 Machine-to-machine authorization from LoginRadius acts as a game-changer for the business that requires frequent autonomous interactions. 
 
-
 ## How does it Work?
 
 Services require authorization while saving and reading the data to and from the storage as a part of standard process and security measures. Businesses can use LoginRadius for autonomous authorization by creating two dedicated M2M apps with write and read permissions.
 
 For each M2M application, LoginRadius issues secure credentials, and services automatically get the authorization token from LoginRadius using these [secure credentials](https://www.loginradius.com/blog/identity/login-security/) to perform read or write operations. 
 
-[![m2m](m2m.png)](https://www.loginradius.com/resource/m-to-m-authorization-)
+[![DS-M2M](DS-M2M.png)](https://www.loginradius.com/resource/m-to-m-authorization-)
 
 In a nutshell, LoginRadius acts as an authorization server. 
 
@@ -50,13 +48,10 @@ Benefits of LoginRadius’ M2M Authorization
 
 M2M Authorization offers secure access to improve business efficiency and ultimately enhances customer experience. M2M provides several business benefits, including, but not limited to: 
 
-
-
 * Secure data access across multiple business systems
 * Granular data access with predefined scopes
 * Efficient authentication and data exchange 
 * Grant, limit, or block access permissions at any time
-
 
 ## Final Thoughts 
 

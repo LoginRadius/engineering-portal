@@ -2,8 +2,7 @@
 title: "Customer Authentication: Unfolding The Market Needs Of The Future"
 date: "2022-01-06"
 coverImage: "auth-future.jpg"
-category: ["security"]
-featured: false 
+tags: ["data security","biometric authentication","mfa","cx"]
 author: "Srishti Singh"
 description: "Consumer authentication is getting more challenging than ever. Learn how the biggest brands in the world are innovating their way through the disruption that's already underway, and get the tactics you need to deliver a seamless experience to your customers."
 metadescription: "Consumer authentication has increased in prominence with the surge in digital identities. This blog unfolds the future market solutions in consumer authentication."
@@ -48,7 +47,7 @@ Here’s how you can implement biometric authentication into your system:
 * **Voice recognition:** The vocal input, analog data are taken in and converted into digital data. The comparator checks the stored patterns with the output of the A/D converter to confirm the authentication.
 * **Face recognition:** The captured face image details like alignment, size, and shape of the face are analysed and processed with deep learning techniques.
 
-[![bio-auth](bio-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### 3. Behavioural biometrics authentication

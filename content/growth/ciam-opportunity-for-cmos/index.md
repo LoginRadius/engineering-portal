@@ -2,8 +2,7 @@
 title: "Why CMOs should care about CIAM"
 date: "2021-11-22"
 coverImage: "cmo-ciam.jpg"
-category: ["security"]
-featured: false
+tags: ["data security","ciam solution","cx","mfa"]
 author: "Rakesh Soni"
 description: "CMOs can deliver more efficient, secure, and relevant services and goods if they have a detailed grasp of who their customers are and what they require. Learn how a CIAM solution may be a valuable strategic asset for CMOs to utilize in their department."
 metatitle: "Why CIAM is a Great Opportunity for CMOs"
@@ -20,15 +19,12 @@ CMOs can deliver more efficient, secure, and relevant services and goods if they
 
 **CMOs are responsible for a variety of tasks, including:**
 
-
-
 * CMOs' primary tasks
 * Putting marketing strategy and campaigns into action to increase client adoption and sales
 * Creating a market for products, goods, and services
 * Providing great client service
 * Customer lifecycle execution - from prospect to customer
 * Creating the best digital and in-person experiences for different consumer groups
-
 
 ## What Exactly is CIAM
 
@@ -50,17 +46,15 @@ Other characteristics they search for include:
 
 The [CIAM platform](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) should not create data silos between repositories and departments. It should instead provide a unified, comprehensive view of customer identities and activities on its platform. For example, you should be able to develop a detailed profile of each consumer that includes information such as purchase histories, use, purchasing trends, and more.
 
-
 ### #2. Consumer experience through several channels
 
 It entails a legitimate registration procedure that can be conducted and finished on numerous devices, as well as the establishment of credentials for login and authentication, which also works across different channels.
-
 
 ### #3. Enhanced security
 
 The advancement of 2FA/MFA (multi-factor authentication) with features like biometrics, geolocation, face recognition, and so on has resulted in higher degrees of protection. These characteristics make it simpler to spot abnormalities and strange actions in a less time-consuming manner.
 
-[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #4. Privacy and regulatory compliance
