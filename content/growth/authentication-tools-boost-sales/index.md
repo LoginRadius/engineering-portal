@@ -2,8 +2,7 @@
 title: "Can Authentication Convert Sales? 4 Authentication Tools for Every Retailer"
 date: "2021-11-08"
 coverImage: "auth-tools.jpg"
-category: ["all"]
-featured: false
+tags: ["biometric authentication","social login","passwordless authentication"]
 author: "Navanita Devi"
 description: "Authentication is a serious process that can help you convert sales. In many cases, it determines whether a customer will take the time to complete a purchase. Therefore, it is important for your store to have multiple layers of security throughout the checkout process."
 metatitle: "Boost Your Sales by Deploying These Authentication Tools"
@@ -52,7 +51,7 @@ Additionally, it reduces the need to create digital contracts and also the waiti
 
 As a result of the above advantages, customers are more likely to engage with your brand and be loyal to you. Additionally, with more customers, you are more likely to get more data. Proper analysis of it can lead to a further high conversion rate. 
 
-[![bio-auth](bio-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### #3. Social Logins

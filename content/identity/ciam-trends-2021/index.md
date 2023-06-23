@@ -2,8 +2,7 @@
 title: "The Top 5 Trends in CIAM We’ve Watched in 2021"
 date: "2021-10-12"
 coverImage: "ciam-trends-2021-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["zero trust","adaptive mfa","passwordless authentication"]
 author: "Rakesh Soni"
 description: "The modern CIAM is packed with endless capabilities that ensure robust authentication and eventually help businesses stay ahead of the curve. Here’s the list of CIAM trends that we’ve witnessed in 2021 so far."
 metatitle: "Top 5 Consumer IAM Trends in 2021 | LoginRadius"
@@ -74,7 +73,7 @@ This strategic initiative helps prevent data breaches as the concept of trusting
 
 Security experts now firmly believe that the conventional security approach is good for nothing, especially in a world where most data breaches are caused by bypassing the corporate firewalls and hackers could move inside a private network without enough resistance.
 
-[![wp-zero-trust](wp-zero-trust.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-1](WP-zero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## #5. Progressive Disclosure 

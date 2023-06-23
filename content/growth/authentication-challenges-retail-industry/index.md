@@ -2,8 +2,7 @@
 title: "What are the Authentication Challenges in the Retail Industry?"
 date: "2021-10-26"
 coverImage: "retail-auth.jpg"
-category: ["security"]
-featured: false 
+tags: ["data security","retail authentication","cx"]
 author: "Rashmi Mathur"
 description: "Losing business means paying for remediation, business disruption, legal expenses, identity repair, regulatory penalties, and other clean-up costs. Although retail has some distinct differences from other industries regarding identity and authentication, it also faces many challenges."
 metatitle: "What are the Authentication Challenges in Retail"
@@ -40,7 +39,7 @@ Along with providing authentication solutions, it is important to protect the di
 
 Cloud applications have made applications and data accessible from anywhere in the world. However, the local laws require several retailers to be tight over how and from where the employees can access the data. Additionally, various governments might have different regulations. Hence, complying with multiple rules at the same time might prove to be a challenge. 
 
-[![retail-ciam](retail-ciam.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![DS-retail-consumer-goods](DS-retail-consumer-goods.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 
 ## Solving These Challenges
@@ -56,25 +55,19 @@ A great combination of security and usability is provided when one uses adaptive
 
 To meet such unique use cases, retail companies must pick [authentication vendors](https://www.loginradius.com/industry-retail-and-ecommerce/) that offer flexibility. Many retailers, for example, close the POS before clearing the browser, making it difficult to distinguish the devices. Cookies and device recognition will be flexible enough to meet this requirement.
 
- 
-
-
 ### **SSO simplifies the sign-in process for users**
 
 Retailers who federate their legacy applications can use the same identity to access multiple applications and avoid providing credentials multiple times (SSO). The convenience of SSO, coupled with strong authentication, is unmatched. 
 
 Many vendors offer tools that allow organizations to function without refactoring their applications. Self-Service password resets are also essential for retailers. By providing this feature, retailers can further alleviate the difficulty of managing passwords.
 
-
 ### **A flexible platform that can be used by employees and consumers**
 
 Typical business-to-employee scenarios, like e-commerce portals, require a much different set of capabilities. Strong authentication can be incorporated into apps in a very flexible manner by selecting a vendor who has a broad set of capabilities.
 
-
 ### **Implementing PCI compliance requirements**
 
 [Two-factor authentication](https://www.loginradius.com/resource/loginradius-ciam-two-factor-authentication/+) is required for PCI compliance regardless of whether a user connects from a trusted network to PCI systems. Retailers must ensure they stay up-to-date on all of the latest requirements to protect their businesses and customers. 
-
 
 ## The Bottom Line 
 

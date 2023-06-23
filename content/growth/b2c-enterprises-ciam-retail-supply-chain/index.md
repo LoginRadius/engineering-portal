@@ -2,8 +2,7 @@
 title: "How B2C Industries are Leveraging CIAM in the Retail Supply Chain Management"
 date: "2021-10-25"
 coverImage: "retail-supply-chain-cover.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["ciam solution","iot authentication","cx"]
 author: "Navanita Devi"
 description: "Retailers hold access to a comprehensive range of technologies. From today's current options, such as RFID tags, to stimulating creativity, such as self-driving trucks, businesses will largely depend on computers to manage their daily operations. Learn how they are incorporating CIAM in their environment."
 metadescription: "Today, retailers are using unique techniques to construct intelligent and more productive supply chains. Learn how they are incorporating CIAM in their environment."
@@ -31,7 +30,7 @@ Currently, AI assembles and collects client information and consumer audit trail
 
 Retailers benefit from AI solutions that accumulate and analyze consumer data from social media, their purchasing habits, and other sources to render valuable business insights. Retailers who use this information make educated, data-driven decisions about when and ways to target consumers with the most definite promotion or deal.
 
-[![cosumer-audit](cosumer-audit.jpg)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![DS-consumer-audit-trail](DS-consumer-audit-trail.png)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 
 

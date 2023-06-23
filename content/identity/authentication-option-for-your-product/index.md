@@ -1,10 +1,9 @@
 ---
 title: "How to Choose the Right User Authentication Option for your Product"
 date: "2021-11-08"
-featured: false 
 author: "Govind Malviya"
 coverImage: "user-authentication.jpg"
-tags: ["security"]
+tags: ["data security","passwordless login","authentication","mfa"]
 description: "When choosing the right authentication option for your product, there’s a lot of confusion and misconceptions that may eventually make it difficult to finalize one or even more."
 metatitle: "Here’s the Ideal Authentication Option for Your Product"
 metadescription: "Choosing an authentication method can be tricky. Here’s an insightful read depicting the different types of authentication and how to choose the best."
@@ -81,7 +80,7 @@ Passwordless login eliminates the need to generate passwords altogether. There�
 
 Since one needs not type passwords anymore, it leads to a better screen time experience. While for organizations, it will lead to fewer breaches and support costs.
 
-[![magiclink-ds](magiclink-ds.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-magic-link-pass](DS-magic-link-pass.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 **#5. Social Authentication**
 

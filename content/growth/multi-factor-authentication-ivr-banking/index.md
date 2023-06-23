@@ -2,8 +2,7 @@
 title: "Decoding the Role of Multi-Factor Authentication and IVR in Banking"
 date: "2021-10-21"
 coverImage: "ivr-cover.jpg"
-category: ["security"]
-featured: false 
+tags: ["mfa","adaptive mfa","authentication","cx"]
 author: "Srishti Singh"
 description: "One of the greatest adoptions in the banking industry is the introduction of multi-factor authentication (MFA) and Interactive Voice Response (IVR) systems. Both of them are considered effective ways that help banks to reduce fraud. This blog explains their individual roles in banking."
 metatitle: "The Role of Multi-Factor Authentication and IVR in Banking"
@@ -52,7 +51,7 @@ Adaptive Authentication is a method to send notifications or prompt the consumer
 
 For example, a user wants to access a company's data. He is sitting in a coffee shop and operating via an unsecured WiFi, then MFA would ask for additional verification data to ensure a secured network. 
 
-[![GD-RBA](GD-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 
 ### 3. Enhances user experience
