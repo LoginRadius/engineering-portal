@@ -2,8 +2,7 @@
 title: "4 Main Features of Enterprise Software"
 date: "2021-10-27"
 coverImage: "enteprise-software.jpg"
-category: ["all", "other"]
-featured: false 
+tags: ["enterprise security", "mfa","sso","authentication"]
 author: "Shivangini Yadav"
 description: "Companies want to stay competitive and so their actions must be cost-efficient, adaptable, and time-saving. Enterprise software ensures the fulfillment of those specific needs by drastically improving the workflow between countless departments that make up corporate systems."
 metatitle: "The 4 Must-Have Features of Enterprise Software"
@@ -51,7 +50,7 @@ The global information security market is forecasted to grow to [$170.4 billion 
 
 A deeper level of security should require a customization system concerning one’s password. Hashing and security questions aside, there should also be a limited time for the password usage or a number of times one user can use it before applying a new one. 
 
-[![mfa-eb](mfa-eb.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 An additional vital way to make people’s data safe is encryption. Digitalization calls for an interrupted exchange of information and the safest way to make it inaccessible to unwanted eyes and ears is to encode it. 
 

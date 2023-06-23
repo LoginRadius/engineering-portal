@@ -2,8 +2,7 @@
 title: "10 Ways To Improve Your eCommerce Store's Security"
 date: "2021-10-12"
 coverImage: "improve-ecommerce-store-security-cover.jpg"
-category: ["all"]
-featured: false
+tags: ["retail","mfa","cx","ciam authentication"]
 author: "Rashmi Mathur"
 description: "Nobody's perfect, but your eCommerce store can be (to quite an extent). With these ten security measures in place, you'll sleep easier knowing that your business is protected."
 metatitle: "How to improve your eCommerce Store's Security? | LoginRadius"
@@ -61,7 +60,7 @@ It is never a good feeling to discover that your eCommerce store website got hac
 
 Attackers can do anything from simply copying your data to more maliciously corrupting it and making sure you can't use it again.
 
-[![WP-Digital-Trade](WP-Digital-Trade.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-digital-trade-zone](WP-digital-trade-zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ### 7. Regularly conduct PCI scan.
