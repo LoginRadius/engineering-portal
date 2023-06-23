@@ -117,7 +117,7 @@ const Post = ({ post, relatedPost, type }) => {
                         {author.id}
                       </Link>
                     </h3>
-                    <p>{author.bio}</p>
+                    <p dangerouslySetInnerHTML={{ __html: author.bio }}></p>
                   </div>
                 </div>
               </div>

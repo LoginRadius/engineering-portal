@@ -44,7 +44,7 @@ const AuthorTemplate = ({
             </div>
             <div className={styles.aboutAuthor}>
               <h1>{id}</h1>
-              <p>{bio}</p>
+              <p dangerouslySetInnerHTML={{ __html: bio }}></p>
             </div>
             <div className={styles.authorSocialIcon}>
               <ul>
