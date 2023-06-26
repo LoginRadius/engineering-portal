@@ -2,8 +2,7 @@
 title: "LoginRadius Delivers a Seamless User Experience that Increases Conversions through Enhanced Progressive Profiling"
 date: "2021-10-05"
 coverImage: "loginradius-progressive-profiling-cover.jpg"
-tags: ["industry-news"]
-featured: false
+tags: ["progressive profiling","user experience","ciam solution"]
 author: "Govind Malviya"
 description: "Progressive Profiling helps businesses to split a potentially complicated registration process into multiple steps. you can capture business-critical information upfront and then slowly build out a holistic view of your consumers through subsequent actions."
 metatitle: "Deliver Seamless UX with LoginRadius' Progressive Profiling"
@@ -26,7 +25,7 @@ Progressive Profiling helps businesses to split a potentially complicated regist
 
 Let’s understand how it works and helps to scale business growth by increasing conversion rates. 
 
-[![DS-Progressive-Profiling](DS-Progressive-Profiling.png)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
+[![Progressive-Profiling-DS](Progressive-Profiling-DS.png)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
 
 
 ## Intent Behind Launch 
@@ -41,19 +40,15 @@ Progressive Profiling enables gradual data collection through a series of events
 
 Based on consumers’ interaction with the application, Progressive Profiling automatically requests specific information. These interaction points can be anything as per the business needs including, but not limited to: 
 
-
-
 * At nth login
 * Upon navigating to a section
 * Upon clicking a link
 * Upon utilizing a feature
-
 
 ## Final Thoughts
 
 [Progressive Profiling](https://www.loginradius.com/progressive-profiling/) is a revolutionary feature in increasing conversion without hampering the user experience whenever a business needs crucial information about a consumer. 
 
 Implementing progressive profiling on an online platform offers a competitive edge to businesses seeking innovative ways to navigate their digital transformation for enhanced business growth. 
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

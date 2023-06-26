@@ -2,8 +2,7 @@
 title: "Discover the Benefits of Re-Authentication for Enhanced Security"
 date: "2021-09-16"
 coverImage: "benefits-of-reauthentication-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","reauthentication","password management"]
 author: "Srishti Singh"
 description: "Re-authentication ensures that hackers don’t get easy access to a system’s content and leverage no other loopholes to exploit sensitive consumer credentials. Apart from internal combustion, re-authentication can also save you from external intrusion."
 metatitle: "Decoding the Benefits of Re-Authentication"
@@ -12,16 +11,13 @@ metadescription: "Ensure enhanced security with re-authentication. Here are five
 
 Re-authentication is the process of ensuring the constant presence that has to be authenticated when there is a long period of usage. The purpose of re-authentication is to ensure that the person who is currently using the resources is the same person who had initially signed in to use it. This will ensure that there is no breach of identification or exploitation of data.  
 
-
 ## Benefits of Re-authentication 
 
 So, what are the benefits of imposing a re-authentication time limit? Let’s find out. 
 
-
 ### 1. It offers central control on user access.
 
 The re-authentication process offers enterprises or service providers complete control over who has access to a particular system or services. Some systems use control panels to ensure that all the data regarding the user is recorded and has easy access. This also plays an important role in solving any future issue regarding identity breaches.
-
 
 ### 2. It dispels the concept of password fatigue.
 
@@ -29,7 +25,7 @@ When a user requires to generate and remember more than one password, password f
 
 Thus, a re-authentication is considered ideal for the elimination of password fatigue. The system will undertake the identity test without the need to type the password and ensure a safe environment for the users.
 
-[![hashing-salt-GD](hashing-salt-GD.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
+[![GD-salt-hashing](GD-salt-hashing.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
 
 
 ### 3. It reduces the need for IT support calls.
@@ -40,12 +36,9 @@ The [average cost for the IT department](http://www.mandylionlabs.com/PRCCalc/PR
 
 Re-authentication ensures that there is minimal effort to be put on behalf of the IT department. It is both a cost-effective and time-saving mode of usage.
 
-
 ### 4. It integrates enhanced password policy.
 
 Re-authentication helps [implement better password policies](https://www.loginradius.com/blog/identity/loginradius-password-policy-business-consumer/) in an enterprise. This can be regarding how an employee uses the password and manages it. For instance, who can change the password, what can be the length of the password, and other similar password settings? Some of the password policies are:
-
-
 
 * A password history policy where old passwords cannot be reused
 * A maximum age policy for passwords. This will expire the password validity after the stipulated time.

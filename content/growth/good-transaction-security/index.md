@@ -2,8 +2,7 @@
 title: "How Good Transaction Security Ensures Smooth Consumer Visits"
 date: "2021-09-07"
 coverImage: "smooth-transaction-security-with-loginradius.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["ciam solution","compliance","data security"]
 author: "Vishal Sharma"
 description: "The sudden increase in the number of transaction-related security breaches is undeniably pointing towards the need for a robust security mechanism that can build consumer trust. This post uncovers the role of secure transactions and how businesses can ensure smooth consumer visits."
 metadescription: "Transaction security with a great user experience helps brands attract more consumers. Let’s understand the importance of transaction security in detail"
@@ -111,21 +110,15 @@ LoginRadius offers endless solutions that enhance the overall security of your p
 
 To safeguard your clients’ navigation and transactions on your platform, LoginRadius ensures you comply with all the necessary data privacy and security regulations, including EU’s [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/).
 
-  
-
 Data security and privacy are ensured through a built-in web application firewall and cryptographic hashing algorithms that further reinforce [consumer data security](https://www.loginradius.com/security/).
-
-  
 
 ## Risk-Based Authentication (RBA)
 
 [Risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) or Adaptive MFA is a method that LoginRadius uses to apply the right level of authentication security depending on the risk profile of the actions currently being attempted by the consumer.
 
-  
-
 RBA goes beyond a static list of rules and adapts to ask consumers for the types of verification that best suit a user session.
 
-[![Buyers-Guide-to-Multi-Factor-Authentication](Buyers-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)  
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)  
 
 LoginRadius incorporates the following additional factors to its RBA solutions:
 
