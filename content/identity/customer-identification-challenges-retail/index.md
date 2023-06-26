@@ -2,8 +2,7 @@
 title: "The Major Challenges of Customer Identification in the Retail Industry"
 date: "2021-10-07"
 coverImage: "customer-identification-challenges-retail-cover.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["identity management","data security","ciam solution","cx"]
 author: "Deepak Gupta"
 description: "Meeting the expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. This insightful read covers all the major challenges that retailers and e-commerce vendors face and how they can overcome them."
 metatitle: "Key Customer Identification Challenges in Retail Industry"
@@ -35,8 +34,6 @@ Fast forward to today’s scenario – the idea of putting customer identity rig
 
 As a result, customers enjoy on-time delivery of digital (and physical) goods and services, along with a few add-ons like:
 
-
-
 * Ensuring security compliance.
 * Eliminating duplicate identity data.
 * Reducing application-related complexities.
@@ -49,7 +46,6 @@ As a result, customers enjoy on-time delivery of digital (and physical) goods an
 These are opportunities ready to be grabbed. But are retailers ready to fuse identity management into their workflow? If not, it is high time that they should. 
 
 Let’s learn about the challenges faced by retailers and e-commerce businesses. 
-
 
 ### #1. Multichannel Buying Channels
 
@@ -93,7 +89,7 @@ Adding stringent layers of security is a must for any retailer seeking substanti
 
 Whether it’s multi-factor authentication (MFA) or risk-based authentication (RBA), enterprises need to quickly put their best foot forward in adopting advanced security measures to safeguard consumer information to prevent financial and reputational losses. 
 
-[![DS-retail](DS-retail.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![retail-DS](retail-DS.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 
 ### #4. Engagement and Loyalty 

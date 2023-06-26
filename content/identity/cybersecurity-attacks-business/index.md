@@ -102,7 +102,6 @@ You can start by noting down the most common types of cyberattacks that may harm
 
 ## 9 Cybersecurity Attacks That Can Harm Your Business in 2022
 
-
 ### 1. Ransomware attack
 
 Ransomware has been around since the late 80s and is a [billion-dollar cybercrime industry](https://digitalguardian.com/blog/history-ransomware-attacks-biggest-and-worst-ransomware-attacks-all-time). It works by holding a victim’s sensitive data for ransom after blocking them from access.
@@ -111,19 +110,14 @@ For instance, according to [itgovernance.co.uk](https://www.itgovernance.co.uk/b
 
 **How to prevent**
 
-
-
 *   Never open untrusted email attachments or click on unverified links.
 *   Use mail server content scanning and filtering regularly.
-
 
 ### 2. Malware attack
 
 Malware is an umbrella term for malicious programs like worms, computer viruses, Trojan horses, and spyware that steal, encrypt, delete, alter, and hijack user information. 
 
 **How to prevent**
-
-
 
 *   Keep your anti-virus software up-to-date.
 *   Watch out for social engineering scams. 
@@ -137,12 +131,9 @@ Phishing is a common form of social engineering and works like this: A hacker tr
 
 **How to prevent**
 
-
-
 *   Don’t click login links; manually type in the main site’s URL, instead.
 *   Double-check the email source and report bad emails.
 *   Hover over links to inspect them; don’t just click them.
-
 
 ### 4. SQL injection
 
@@ -150,11 +141,8 @@ Using malicious codes, [SQL injection attacks](https://en.wikipedia.org/wiki/SQL
 
 **How to prevent**
 
-
-
 *   Validate all SQL data inputs against a whitelist.
 *   Use only stored procedures and prepared statements.
-
 
 ### 5. DNS Poisoning
 
@@ -162,11 +150,8 @@ Also known as DNS spoofing, DNS cache poisoning is a kind of cybersecurity attac
 
 **How to prevent**
 
-
-
 *   Ensure that you are using the most recent version of the DNS
 *   Use Domain Name System Security Extensions (DNSSEC) to verify the data integrity and origin of the DNS. 
-
 
 ### 6. Password attack
 
@@ -174,12 +159,9 @@ Despite being well-known, people still fall prey to the oldest cyberattack—pas
 
 **How to prevent**
 
-
-
 *   Educate users on [good password hygiene](https://www.loginradius.com/blog/2018/05/infographic-poor-password-hygiene-letting-cybercriminals-clean/).
 *   Implement brute force lockout policies.
 *   Prohibit the use of easy passwords. 
-
 
 ### 7. MITM attack
 
@@ -268,14 +250,12 @@ Here’s what you can do if your customer data is ever compromised:
 
 This, of course, is all about the aftermath of a breach. 
 
-[![credential-stuffing](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![WP-credential-attack](WP-credential-attack.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 So, how can organizations prevent cybersecurity attacks from happening in the first place? 
 
 
 ## 10 Cybersecurity Tips to Prevent Cyber Attacks in 2022
-
-
 
 1. Keep a clear understanding of the amount of data you have and what it is used for. 
 2. Limit administrative capabilities and train employees to recognize phishing attacks.
