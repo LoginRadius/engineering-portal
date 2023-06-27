@@ -2,8 +2,7 @@
 title: "What are Security Keys? What are its Advantages?"
 date: "2021-09-23"
 coverImage: "what-are-security-keys-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["security keys","mfa","authentication","authorization"]
 author: "Vishal Sharma" 
 description: "When it comes to robust security for a seamless authentication and authorization experience, security keys are considered one of the best ways to prove one’s identity. These security practices add an extra security layer other than passwords and ensure that the right person has access to the right information."
 metatitle: "What You Need to Know About Security Keys and its Advantages"
@@ -67,7 +66,7 @@ Many organizations utilize security keys and eventually encourage their employee
 
 Besides the endless advantages of security keys regarding [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/), the major drawback is that these keys are costly. 
 
-[![GD-auth-encryp](GD-auth-encryp.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
+[![GD-to-auth](GD-to-auth.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
 
 Organizations and individuals find it more expensive to purchase and maintain a physical key than other software alternatives. 
 
