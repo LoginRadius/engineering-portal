@@ -1,7 +1,7 @@
 ---
 title: How to add SSO for your WordPress Site!
 date: "2021-03-26"
-coverImage: "sso-wordpress.jpg"
+coverImage: "sso-wp.jpg"
 author: "Saikiran Babladi"
 tags: ["WordPress", "SSO", "Single Sign On"]
 description: "Providing a seamless experience for your consumers is non-negotiable, especially when running multiple WordPress sites. Single Sign-On provides that experience to your users. Here's how to provide a frictionless experience to your users."
