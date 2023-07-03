@@ -1,7 +1,7 @@
 ---
 title: "What is Cloud Security and How it Works?"
 date: "2022-06-09"
-coverImage: "cloud-sec.jpg"
+coverImage: "cloud-security.jpg"
 tags: ["cloud security", "cloud infrastructure", "data security"]
 author: "Navanita Devi"
 description: "Cloud security is a growing concern for businesses that rely on cloud-based services. The use of these services has become widespread over the past decade or so, but many companies still don't fully understand how to protect themselves from cyber threats. Read this blog to know what exactly is cloud security and how it works."
