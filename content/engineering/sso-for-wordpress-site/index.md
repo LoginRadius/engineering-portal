@@ -35,9 +35,7 @@ We have detailed [documentation](https://www.loginradius.com/developers/).
 LoginRadius aims to help developers, web development agencies, and businesses to add SSO in the simplest way possible. 
 LoginRadius allows you to store your consumer profiles securely and add our customizable login interfaces into your applications in minutes. By enabling our SSO, you can create a frictionless user experience, thus boosting your conversion rate.
 
-<p><a href="https://www.loginradius.com/resource/loginradius-single-sign-on/">
-<img alt="loginradius-sso" src="https://www.loginradius.com/blog/identity/static/41cc8ea16144a85f22b499da107c16bf/2bef9/DS-LoginRadius-Single-Sign-on.png" width="360" height="108"></p></a>
-
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
  
 ## Benefits
 
@@ -52,6 +50,5 @@ LoginRadius allows you to store your consumer profiles securely and add our cust
 ## Your Take?
 We always want to hear from our customers. Like many others in the market, we want developers to install it and offer feedback. This feedback will help us enhance the plugin and make it more user-friendly.
 
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
 
-<p><a href="https://www.loginradius.com/book-a-demo/">
-<img alt="loginradius-book-a-demo" src="https://www.loginradius.com/blog/identity/static/f7e4f76aacdad7845a314a993f7d57a9/e5715/book-a-demo-loginradius.png" width="360" height="108"></p></a>

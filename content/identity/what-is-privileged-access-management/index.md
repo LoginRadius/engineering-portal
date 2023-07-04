@@ -2,8 +2,7 @@
 title: "A Comprehensive Guide to Privileged Access Management (PAM)"
 date: "2021-08-26"
 coverImage: "what-is-privileged-access-management-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","identity management","mfa"] 
 author: "Bhavya Tugnawat" 
 description: "Privileged access management—finding the right balance between security and convenience. This blog explains why PAM matters, highlights its key features and strategies that the organization should use to ensure the proper implementation of PAM."
 metatitle: "What is Privileged Access Management (PAM)? | LoginRadius"
@@ -62,22 +61,18 @@ We have already discussed why Privileged Access Management (PAM) is useful for o
 
 Now, let's discuss the features that the PAM software provides:
 
-
-
 * It provides the [Multi-Factor Authentication service](https://www.loginradius.com/multi-factor-authentication/) for the administrators.
 * It has an access manager that stores all the information about permissions and privileged user information.
 * As we know, in PAM, passwords are stored in secret places or vaults, So this is also provided by the PAM itself.
 * It also provides the facility of dynamic authorization, which means access to individual users for a particular period.
 * It also has automatic provisioning and deprovisioning, which helps reduce insider threats, and the Audit logs feature that allows the organization to meet the compliance requirements.
 
-[![eb-mfa](eb-mfa.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ## Common Strategies that the Organization Should Use to Ensure the Proper Implementation of PAM
 
 There are some common strategies that every organization that uses the PAM should follow for the proper implementation of PAM Software, and those strategies are:
-
-
 
 * An organization should maintain the proper inventory of all privileged accounts.
 * Organizations should not give administrative access for sharing the accounts.
@@ -100,12 +95,10 @@ A PAM is a tool that manages and protects all privileged accounts. It also provi
 
 While PAM deals explicitly with privileged accounts, Identity and Access Management deals with all the types of users and identities in an organization. They might be different in what they protect, but in the larger picture, PAM and IAM make for holistic security as they comprise Access Management and Identity Governance and Administration.
 
-
 ## Conclusion
 
 In this article, we have learnt about Privileged Access Management, which helps organizations protect privileged accounts and credentials. The details mentioned here will help you to understand how to use PAM and what are all things that should be in mind during the use of Privileged Access Management(PAM).
 
 Cheers!
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

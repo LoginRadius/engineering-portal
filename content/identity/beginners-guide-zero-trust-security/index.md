@@ -2,8 +2,7 @@
 title: "A Beginner's Guide to Zero Trust Security Model"
 date: "2021-08-05"
 coverImage: "beginners-guide-zero-trust-security-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["zero trust security","cybersecurity","mfa"]
 author: "Deepak Gupta"
 description: "With the rising number of cyberattacks, there’s an immediate need for a robust mechanism that provides a risk-free digital ecosystem. Zero trust helps businesses create the most secure environment that mitigates the risk of any kind of security breach."
 metatitle: "What is Zero Trust Security and its Business Benefits?"
@@ -50,11 +49,9 @@ Since the network is too open for all inside the organization, anyone can share 
 
 Hence enterprises today need a whole new way of thinking regarding access management within the organization, which helps minimize data compromise by a bad external actor. 
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/zero-trust-security/)
-
+[![WP-zero-trust-1](WP-zero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ## Benefits of Getting Zero Trust Security Mechanism 
-
 
 ### 1. Safeguards Sensitive Business Information and Brand Repute
 
@@ -94,6 +91,4 @@ With the increasing risk of security breaches from within a network, the need fo
 
 Decision-makers and IT department heads of an organization should consider putting their best foot forward in [securing important consumer information](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) and business data by leveraging robust layers of defense through a zero trust security model. 
  
-
-
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
