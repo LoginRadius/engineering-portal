@@ -2,8 +2,7 @@
 title: "How Poor Login Concurrency can Impact OTT Platforms' Business"
 date: "2021-08-31"
 coverImage: "poor-login-concurrency-impact-ott-platforms-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","ciam solution","broken authentication"]
 author: "Deepak Gupta"
 description: "With the increase in subscriptions and the number of audiences online, several underlying threats have severely impacted the OTT businesses. One such issue is poor login concurrency. Learn how login concurrency is affecting OTT platforms and how they can overcome this dilemma."
 metatitle: "Is Poor Login Concurrency Impacting OTT Platforms?"
@@ -48,7 +47,7 @@ Thus, to overcome the situation where concurrent login is exploited in OTT servi
 
 Here’s where the role of a [robust CIAM](https://www.loginradius.com/)  (Consumer Identity and Access Management) comes into play. 
 
-[![DS-CIAM101](DS-CIAM101.png)](https://www.loginradius.com/resource/ciam-101/)
+[![DS-CIAM](DS-CIAM.png)](https://www.loginradius.com/resource/ciam-101/)
 
 Let’s dig deeper into this. 
 
@@ -63,8 +62,6 @@ The [OWASP broken authentication](https://www.loginradius.com/resource/owasp-top
 
 The following points list the scenarios that can cause broken authentication.
 
-
-
 1. Weak usernames and passwords.
 2. Session fixation attacks.
 3. URL rewriting.
@@ -77,8 +74,6 @@ The following points list the scenarios that can cause broken authentication.
 If a hacker successfully logs in by stealing a user’s credentials using any of the above-mentioned broken authentication techniques, they can misuse their privileges and impact the company's sustainability.
 
 Cybercriminals can have various intentions of [hijacking a user’s web application](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/), such as:
-
-
 
 * Stealing critical business data
 * Identity theft
@@ -93,24 +88,18 @@ In short, hackers can use broken authentication attacks and session hijacking to
 
 Thus, it would be best to never compromise with your web applications' security.
 
-
 ## How LoginRadius Protects Against Broken Authentication
 
 LoginRadius has been at the forefront of offering a multilevel security web app environment. Here is how LoginRadius applications protect against broken authentication:
-
-
 
 * [End-to-end SSL encryption](https://www.loginradius.com/blog/engineering/lets-encrypt-with-ssl-certificates/) for data in transit and ensures protection against unauthorized access.
 * Multi-factor authentication eliminates the risk of being exposed to attacks.
 * One-way hashing of passwords considerably improves consumer security.
 * A single sign-on (SSO) solution allows users to use the same profile to log in everywhere.
 
-
 ## Final Thoughts 
 
 With increasing OTT subscriptions and user expectations, OTT platforms need to gear up to deliver a flawless user experience in a way that doesn’t hamper their overall security mechanism quickly.
-
- 
 
 Adding stringent layers of security through a robust CIAM solution becomes the immediate need of the hour for OTT platforms facing concurrent login issues that affect their brand reputation and overall business revenues.  
 

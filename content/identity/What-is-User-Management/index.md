@@ -110,7 +110,7 @@ The third generation of user management solutions is designed for the cloud-firs
 
 These solutions support a wide range of authentication methods, including [social login](https://www.loginradius.com/social-login/) and multi-factor authentication, and can integrate with existing identity and access management systems. They also provide advanced analytics and monitoring capabilities to detect and prevent security threats.
 
-[![LoginRadius-User-Management](LoginRadius-User-Management.png)](https://www.loginradius.com/resource/loginradius-user-management-datasheet)
+[![DS-user-management](DS-user-management.png)](https://www.loginradius.com/resource/loginradius-user-management-datasheet)
 
 ## Why Should Businesses Use LoginRadius’ Effective User Management? 
 
