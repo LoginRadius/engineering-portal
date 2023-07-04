@@ -2,8 +2,7 @@
 title: "How OTT Services can Simplify Authentication on Various Devices"
 date: "2021-08-10"
 coverImage: "ott-simplify-authentication-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["ciam solution","mfa","progressive profiling"]
 author: "Manish Tiwari"
 description: "In this post, we’ll understand the importance of secure authentication through a consumer identity and access management (CIAM) solution and how it paves the path for safeguarding consumer identities on different devices for OTT platforms."
 metatitle: "How to Simplify Authentication for OTT Services?"
@@ -89,7 +88,7 @@ Admit it; nobody wants to share heaps of personal details in a single go, especi
 
 LoginRadius enables you to gather consumer data through various stages of the consumer's journey to share their information as they interact with your business.
 
-[![GD-Website-Authentication](GD-Website-Authentication.png)](https://www.loginradius.com/resource/a-complete-guide-to-website-authentication/)
+[![GD-to-web-auth](GD-to-web-auth.png)](https://www.loginradius.com/resource/a-complete-guide-to-website-authentication/)
 
 
 ### Multi-Factor Authentication - For Enhanced Layers of Security
