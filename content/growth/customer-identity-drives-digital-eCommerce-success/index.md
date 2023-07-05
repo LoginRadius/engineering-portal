@@ -2,8 +2,7 @@
 title: "How Customer Identity Solution Drives Digital eCommerce Success"
 date: "2021-07-10"
 coverImage: "ecommerce-digital-identity-solutions.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["identity management","digital transformation","cx"]
 author: "Vishal Sharma"
 description: "Learn how a CIAM solution paves the path for an eCommerce business success and why enterprises thinking to step into the eCommerce world should leverage a cutting-edge CIAM solution."
 metadescription: "A Consumer Identity and Access Management (CIAM) solution can do wonders for the eCommerce industry. Learn how eCommerce players can benefit from a CIAM."
@@ -32,7 +31,7 @@ In a world when data and identity thefts lead to losses worth millions of dollar
 
 Adding more robust authentication layers, including multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) to log in and sign-up procedures, can help secure consumer data and prevent a breach.
 
-[![Buyers-Guide-to-Multi-Factor-Authentication](Buyers-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 Also, these secure authentication practices help enterprises to verify the individuals quickly they say they are.
 

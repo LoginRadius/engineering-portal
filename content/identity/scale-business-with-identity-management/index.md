@@ -2,8 +2,7 @@
 title: "How to Scale Your Business Quickly with Identity Management"
 date: "2021-07-29"
 coverImage: "scale-business-with-identity-management-cover.jpg"
-tags: ["security"]
-featured: false
+tags: ["identity management","ciam solution","customer identity","cx"]
 author: "Rakesh Soni"
 description: "Identity management is much more than just a security mechanism for securing consumer data and sensitive business information; it helps businesses accelerate growth. Learn how a CIAM solution can help businesses securely manage consumer identities and build trust that fosters growth."
 metatitle: "How Identity Management Scales Your Business Growth?"
@@ -37,7 +36,6 @@ LoginRadius understands the importance of a centralized system that minimizes ex
 
 Using LoginRadius’ CIAM that offers passwordless login, [MFA (Multi-factor Authentication)](https://www.loginradius.com/multi-factor-authentication/), and access management can speed up processes for diverse businesses without compromising overall security. 
 
-
 ## Modern Businesses Demand Agility 
 
 In today’s constantly changing era, agility is an absolute must for digital transformation. Any small or large organization can no longer avoid – or even delay - digital transformation as they try to remain competitive in an evolving business climate.
@@ -52,7 +50,7 @@ Using the LoginRadius[ Consumer Identity APIs](https://www.loginradius.com/ident
 
 With its preconfigured integration with third-party tools and applications, you can pull your latest consumer data – thus eliminating data silos and generating valuable insights.
 
-[![eb-customer-identity](eb-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## Scalability- The Backbone for Any Enterprise for Digital Transformation

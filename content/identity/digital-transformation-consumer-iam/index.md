@@ -2,8 +2,7 @@
 title: "How Businesses are Experiencing Digital Transformation with Consumer IAM"
 date: "2021-06-25"
 coverImage: "digital-transformation-consumer-iam-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["digital transformation","ciam solution","mfa","cx"]
 author: "Navanita Devi"
 description: "Digital transformation empowers businesses to change the way they operate. It’s not just a buzzword or marketing gimmick, it’s a real and tangible way to revamp how you do business and improve your company. Let’s understand it through the lens of consumer IAM."
 metatitle: "How can businesses drive digital transformation with CIAM?"
@@ -23,8 +22,6 @@ The workforce is being transformed by remote employees who use collaborative too
 ## **Structuring a Digital Transformation Plan**
 
 Everyone wins with a [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/) strategy. A strategy helps organizations embrace new business models that allow them to provide staff with better digital technology. Therefore, your transformation strategy should include: 
-
-
 
 *   **Digitally savvy management**: Business leaders must grasp how technology aids the firm and what resources are most critical for revenue growth.
 *   **Risk Analysis:** Business and IT leaders must develop a risk management strategy for reducing financial, operational, and reputational risks.
@@ -48,7 +45,7 @@ The experience starts with a compelling registration process that can be complet
 
 Social login via platforms like Google or Facebook might alleviate registration fatigue, but it can also pose security problems which may necessitate the use of [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/). With highly low-friction authentication, the consumer enjoys compelling and consistent interaction across channels.
 
- [![book-a-demo-loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
+ [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
 
 
 ### 2. **Single consumer view**
