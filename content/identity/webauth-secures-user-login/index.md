@@ -2,8 +2,7 @@
 title: "How WebAuth Secures Your Users’ Login"
 date: "2021-07-20"
 coverImage: "webauth-secures-user-login-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["passwordless authentication","mfa","cx"]
 author: "Vishal Sharma"
 description: "WebAuthn is a new standard for authentication, which is published by the World Wide Web Consortium and is supported by the FIDO alliance.
 In this post, we’ve highlighted the role of WebAuthn and how it helps to create a secure login experience for consumers."
@@ -56,7 +55,7 @@ Whenever a user needs to prove their identity, the smart biometric can be utiliz
 
 Let’s understand this with a real-life example where we can use WebAuthn for handling authentication after an individual has registered with a web application.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 Suppose the user is registered from their phone and navigates to the web application to log in. In that case, they are prompted to enter their password or biometric, which is associated with that particular account. The user can simply use their biometric to log in without the need to enter lengthy passwords.
 

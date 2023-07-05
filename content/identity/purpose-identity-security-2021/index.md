@@ -2,8 +2,7 @@
 title: "What is the Purpose of Identity Security in 2021?"
 date: "2021-08-03"
 coverImage: "purpose-identity-security-2021-cover.jpg"
-tags: ["Security"]
-featured: false 
+tags: ["digital identity","compliance","data security","cx"]
 author: "Rakesh Soni"
 description: "Thousands of individuals compromise their identities every day because of weak defense and poor authentication at the service providers’ end. Businesses need a robust identity management solution to navigate their digital transformation journey without compromising user identities and sensitive business information."
 metatitle: "What is the purpose of identity security?"
@@ -41,7 +40,6 @@ Adding multiple layers of security through robust authentication and authorizati
 
 Since the outbreak of COVID-19 encouraged remote working ecosystems that aren’t as secure as traditional working environments, there’s an immediate need for an identity security solution for businesses adopting these remote working scenarios. 
 
-
 ## Why Do You Need Identity Security
 
 In the past couple of years, businesses are compromising consumer identities that lead to financial losses and tarnished reputations. 
@@ -52,7 +50,7 @@ Apart from this, the sudden paradigm shift towards online platforms has also inc
 
 Also, specific privacy and data security compliances like the GDPR and CCPA requires organizations storing consumer information to adhere to their regulations to ensure maximum safety to consumers while their data is being collected, stored, and managed. 
 
-[![digital-id-wp](digital-id-wp.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
+[![WP-future-dig-id](WP-future-dig-id.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 Hence there’s an immediate need to deploy a reliable [consumer identity and access management solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) that can offer identity security without hampering user experience.  
 

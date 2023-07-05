@@ -2,14 +2,12 @@
 title: "COVID-19 and Beyond: 5 Risk Management Essentials for Your Enterprise"
 date: "2021-07-20"
 coverImage: "risk-management-essentials-enterprise-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["risk management","cybersecurity","ciam solution","password management"]
 author: "Vishal Sharma"
 description: "Cybercriminals continuously exploit consumer data and have accelerated outbreaks by taking advantage of the chaotic time, and the weaker first line of defense as businesses adopt new working ecosystems. This post covers all the aspects that require immediate consideration to minimize the risk of identity theft or a security breach."
 metatitle: "5 Risk Management Best Practices for Your Enterprise"
 metadescription: "The uncertain times of COVID-19 has increased the risk for businesses collecting user information. Here’s a good read covering aspects to mitigate the risk."
 ---
-
 
 The world is facing an uphill battle amid the global pandemic that has forced small and medium businesses to adopt diverse digital sales channels.
 
@@ -54,7 +52,7 @@ For the most secure user sign-ins, you should combine elements like biometrics, 
 
 LoginRadius’ CIAM (consumer identity and access management) solution provides multiple layers of security to ensure consumer data and enterprise information remain highly secure.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 3. Cyber Awareness Training to Avoid Human Error

@@ -2,8 +2,7 @@
 title: "7 Best Practices for Securing Your Remote Workforce with Identity Management"
 date: "2021-08-04"
 coverImage: "remote-workforce.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["zero trust security","identity management","cybersecurity","cx"]
 author: "Vishal Sharma"
 description: "Learn about the best practices to ensure cybersecurity for remote workers using identity management"
 metadescription: "7 best practices to ensure cybersecurity for remote workers using identity management"
@@ -41,7 +40,7 @@ Businesses should be wary of everything on the internet. In fact, even on-premis
 
 Consider adopting this approach into your remote work policies and protocols so your remote employees will be guided accordingly. One great example would be implementing multi-factor authentication for each login. This will add an extra layer of protection and verification for your users.
 
-[![Zero-Trust-Security](Zero-Trust-Security.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-1](WP-zero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ## 3. Perform routine review of accounts
 
