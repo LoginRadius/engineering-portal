@@ -38,15 +38,13 @@ A consumer IAM platform, LoginRadius for example, also enables you to use consum
 
  Given below are the top 5 consumer IAM benefits of LoginRadius.
 
-
 ### 1. **Low-friction authentication**
 
 The experience starts with a compelling registration process that can be completed on many devices, establishing cross-channel log-in and authentication credentials. Multiple log-ins for numerous channels and devices cause friction, which leads to consumer annoyance and maybe missed purchases. 
 
 Social login via platforms like Google or Facebook might alleviate registration fatigue, but it can also pose security problems which may necessitate the use of [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/). With highly low-friction authentication, the consumer enjoys compelling and consistent interaction across channels.
 
- [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
-
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
 
 ### 2. **Single consumer view**
 
@@ -58,26 +56,17 @@ APIs are widely used in the latest generation of consumer IAM platforms to link 
 
 **Read more**: [Why Organizations Must Use API-Driven CIAM for Digital Agility](https://www.loginradius.com/blog/identity/digital-agility/)
 
-
-
 ### 3. **Extended security**
 
 Authentication has been a simple decision based on the credentials supplied up until now. This was frequently accomplished by using a user name and password that were both extremely weak. Although the invention of two-factor authentication (2FA) employing a second step such as an SMS message has helped, it is still vulnerable to hacking. 
 
 Multi-factor authentication (MFA), which can include biometrics, geolocation, and user behavior, provides increased security. These features also enable the use of analytics to give additional capabilities like anomaly detection, which may be used to swiftly identify and address unexpected behavior. To develop a comprehensive end-to-end solution, the CIAM platform must also provide security beyond the client, including employees, partners, applications, and IoT devices.
 
- 
-
-
-
 ### 4. **Privacy and regulatory compliance**
 
 Data privacy is a critical component of any CIAM solution, especially when the consumer is responsible for their data and profile management. The consumer IAM platform must provide your consumers with visibility and control over how and where their data is shared. So it includes both consent and preference management, which allows your consumers to choose how their data is collected and used. 
 
 Consent management, for example, must allow your client to establish multi-level consent – where data can be used for one reason but not for another – that can be turned on and off at any moment, according to GDPR requirements. The CIAM platform necessitates significant self-service features so that your consumers may manage their consents and preferences through their profile, as well as robust tracking and auditing so that you can prove compliance.
-
-
-
 
 ### 5. **Hybrid CIAM deployment**
 
