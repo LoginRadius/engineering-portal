@@ -2,8 +2,7 @@
 title: "SAML or OIDC: Which is Better For Your Business?"
 date: "2021-06-08"
 coverImage: "saml-or-oidc-for-business-cover.jpg"
-tags: ["security"]
-featured: false
+tags: ["saml","sso","data security","authentication","cx"]
 author: "Deepak Gupta"
 description: "For any company concerned about securing its users' data, getting a grip on SSO can be a daunting task. But determining whether SAML or OIDC is right for your enterprise requires weighing a few characteristics against your business goals."
 metatitle: "SAML or OIDC: Which one is Better For Your Business?"
@@ -27,14 +26,12 @@ Both OIDC and SAML authentication are identity protocols and can be the basic bu
 
 Before we look at the differences between these protocols, let us understand the basic OIDC and SAML workflow which can be broken down as follows: 
 
-
-
 *   The end-user visits the website and tries to log in using an existing account.
 *   They decide which app they want to use to log in (Google, Facebook, Yahoo, etc.).
 *   This selection is then passed onto the browser or app using the IdP.
 *   The app verifies the user's identity before granting access to the information the end-user is looking for.
 
-[![sso-ds](sso-ds.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ## What are the Differences Between OIDC and SAML?

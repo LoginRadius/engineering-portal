@@ -2,8 +2,7 @@
 title: "Test Cases For Your E-commerce Payment Gateway Page"
 date: "2017-07-21"
 coverImage: "Test-Cases-for-your-Ecommerce-Payment-Gateway-Page.png"
-category: ["business", "technology", "loginradius"]
-featured: false 
+tags: ["payment gateway", "technology", "ecommerce"]
 author: "Sudhanshu Agarwal"
 description: "Trying to make test cases to build a flawless payment gateway page for your ecommerce website? Here are some factors you need to take seriously before creating test cases for payment gateway page."
 metatitle: "Test Cases For Your E-commerce Payment Gateway Page"
@@ -22,9 +21,9 @@ A payment gateway is a processing unit that approves online payments (debit card
 
 There are two types of payment gateways. They are as follows:-
 
-- ****Shared Gateway**** In this type of gateway, the payment is processed while keeping customer on the merchant site page. As soon as the detail is filled by the customer, a transaction is processed. Shared gateway is the most preferable gateway as it provides the convenience of staying in the merchant site. Some of the examples are _Authorize.net CIM and Stripe._
+- **Shared Gateway:-** In this type of gateway, the payment is processed while keeping customer on the merchant site page. As soon as the detail is filled by the customer, a transaction is processed. Shared gateway is the most preferable gateway as it provides the convenience of staying in the merchant site. Some of the examples are _Authorize.net CIM and Stripe._
 
-- ****Hosted Gateway**** Hosted Gateway is the payment process where the customer is directed to the payment gateway website. Afterwards, when the transaction is completed, he or she is redirected to the merchant site.Example:- _Setcom, Paypal Standard, Payza_
+- **Hosted Gateway:-** Hosted Gateway is the payment process where the customer is directed to the payment gateway website. Afterwards, when the transaction is completed, he or she is redirected to the merchant site.Example:- _Setcom, Paypal Standard, Payza_
 
 As you have known the basics about payment gateway, let me tell you what aspects you should keep in mind while creating test cases for check out page:-
 

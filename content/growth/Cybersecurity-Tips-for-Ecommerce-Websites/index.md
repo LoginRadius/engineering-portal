@@ -2,14 +2,12 @@
 title: "Cybersecurity Tips for Ecommerce Websites"
 date: "2021-05-19"
 coverImage: "cybersecurity-tips-for-ecommerce.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["data security","cybersecurity","compliance","cx"]
 author: "David Smith"
 description: "Whether you run a big business or a small niche online store, you should always be on your guard against possible security threats. Here are some of the most important tips to remember about keeping your site secure."
 metadescription: "Cybercrime is a big threat to every business online. Here are some tips to help you build a secure ecommerce website that is less susceptible to external threats."
 metatitle: "Cybersecurity Tips for Ecommerce Websites"
 ---
-
 
 Whether you have a big ecommerce store or a small niche business, it will always be susceptible to certain security threats. If you are a website owner, taking care of the security of your website should be of utmost priority.
 
@@ -54,7 +52,7 @@ Remember that [PCI compliance](https://www.comptia.org/blog/5-simple-ways-to-bec
 
 Moreover, the standards need to be installed, the firewall configurations need to be maintained and anti-virus software needs to be updated. Also, remember to change the passwords and other details at the time of the purchase.
 
-[![Getting-PCI-Right](Getting-PCI-Right.png)](https://www.loginradius.com/resource/pci-dss-framework-whitepaper)
+[![WP-PCI](WP-PCI.png)](https://www.loginradius.com/resource/pci-dss-framework-whitepaper)
 
 ### Run Frequent Security Audits
 

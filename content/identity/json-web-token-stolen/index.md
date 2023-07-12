@@ -2,8 +2,7 @@
 title: "What to Do if Someone Steals Your JSON Web Token?"
 date: "2021-06-10"
 coverImage: "json-web-token-stolen-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","authentication"]
 author: "Vishal Sharma"
 description: "JWT tokens provide secure access to an authenticated user, and attackers are always looking for ways to steal these tokens and quickly gain access by impersonating a consumer. Here we’ve clubbed efficient ways for enterprises to ensure maximum security and steps that can help in a situation where a client’s JSON web token is stolen."
 metatitle: "What Should You Do if Someone Steals Your JSON Web Token?"
@@ -58,15 +57,13 @@ One of the most important steps is to ask your clients to change their passwords
 
 Changing the password of an account will prevent attackers from exploiting the account and would eventually help in avoiding a data breach. 
 
-
 ### 2. Revoke Tokens 
 
 If you suspect any token being used by an unauthorized professional, it is best to revoke a token. This immediately pulls the attacker out of your network and helps in minimizing the risk. 
 
 Once the token is revoked, ask the client to reset their password and ensure they choose a strong password and must utilize [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) in place as offered by LoginRadius CIAM.
 
-[![modern-customer-identity-eb](modern-customer-identity-eb.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
-
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ### 3.   Look for a Security Breach Within your Network
 

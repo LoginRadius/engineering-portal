@@ -3,7 +3,6 @@ title: "How Entertainment Companies Use the LoginRadius CIAM platform"
 date: "2021-05-25"
 coverImage: "media-entertainment-use-loginradius-platform-cover.jpg"
 tags: ["LoginRadius"]
-featured: false 
 author: "Navanita Devi"
 description: "Every industry takes a different approach to identity management. When it comes to media and entertainment, viewers love to move around a lot. As a result, before embarking on the journey, organizations must first understand a few things. For example, what goal they hope to achieve, how does a CIAM platform fits into the picture, and how do they find the best solution."
 metatitle: "What Entertainment Companies Need To Know About LoginRadius?"
@@ -28,21 +27,17 @@ It is critical to minimize the risk of data breaches and fraud that compromise c
 
 [Identity sits at the core](https://www.loginradius.com/blog/identity/2021/04/identity-management-in-media-industry/) of media digitalization. While there are many instances, here are five of the most common areas where the LoginRadius CIAM platform can provide a solution.
 
-
 ## LoginRadius’ CIAM Capabilities for the Entertainment Industry
-
 
 ### 1. Single Sign On (SSO)
 
 A single sign-on provides users with a convenient way to log in to multiple applications and/or websites without having to enter their user credentials repeatedly. It allows you to centralize your consumer records in a single location so you can easily track, share, and access all their information.
 
-
-
 *   **Web SSO** is a browser-based SSO solution that operates through applications hosted on domains and subdomains. When a consumer moves from one domain to another within the same production house, the LoginRadius CIAM platform recognizes them, authenticates, and grants them access permission.
 *   **Mobile SSO** operates through many mobile applications. If a consumer authenticates on one mobile app and then opens another operated by the same business, the CIAM platform recognizes the consumer. It grants access without requiring you to sign up or authenticate.
 *   **[Federated SSO](https://www.loginradius.com/federated-sso/)** is a set of rules that can be implemented between two or more trusted domains to allow users to use the same digital identity to access applications and services.
 
-[![FIM-DS](FIM-DS.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![DS-Fed-IM](DS-Fed-IM.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 LoginRadius supports industry-standard SSO protocols like SAML, JWT, OAuth 2.0, OpenID Connect, and Web Services Federation.
 

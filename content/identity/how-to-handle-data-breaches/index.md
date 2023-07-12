@@ -3,7 +3,6 @@ title: "Consumer Data Protection: How to Handle Data Breaches in Your Business"
 date: "2021-05-20"
 coverImage: "how-to-handle-data-breaches-cover.jpg"
 tags: ["security"]
-featured: false 
 author: "Vishal Sharma"
 description: "With the increasing number of data breaches across the globe, securely managing consumer data is becoming more crucial than ever before. Here are some efficient ways for consumer data protection that every online business must emphasize to ensure a secure line of defense against cyber-attacks."
 metatitle: "How to Handle Data Breaches in Your Business"
@@ -42,8 +41,6 @@ Most businesses fail to comply with these compliances and end up tarnishing thei
 
 Before diving into the ways to protect consumer data, let’s quickly understand what some common data breaches in a business are.
 
-
-
 *   **Cyber Attacks:** Any unauthorized practice to sneak into a company’s network that results in data theft can be categorized under cyber-attacks.
 *   **Human Error:** The unintentional actions or a lack of action by an employee that causes data theft or unauthorized access to sensitive information.
 *   **Phishing Attacks:** It’s an online scam where cyber criminals impersonate legitimate organizations through advertisement, text message, or email.
@@ -57,14 +54,13 @@ Before diving into the ways to protect consumer data, let’s quickly understand
 
 Since security is a culture, it’s crucial to emphasize the key elements that can help you secure your consumers’ data more reliably. Let’s learn how.
 
-
 **1.      Get a Consumer Identity and Access Management (CIAM) Solution in Place**
 
 A CIAM solution could be the biggest weapon in protecting your consumers’ identities and their data.
 
 Many enterprises are leveraging a [CIAM solution](https://www.loginradius.com/customer-security/) that offers high-end data encryption while the data is managed, stored, and retrieved. This increases the overall defense line against any kind of unauthorized attacks by cybercriminals.
 
-[![eb-modern-customer-identity](eb-modern-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-ID](EB-GD-to-mod-cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 Moreover, a cloud-based CIAM solution can easily handle millions of identities, and that too without hampering the user experience.
 
