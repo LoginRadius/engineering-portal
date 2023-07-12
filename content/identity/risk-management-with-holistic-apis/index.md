@@ -2,8 +2,7 @@
 title: "Move beyond Traditional Risk Management with Holistic APIs"
 date: "2021-06-01"
 coverImage: "risk-management-with-holistic apis-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["oauth","identity management","data privacy","cx"]
 author: "Vishal Sharma"
 description: "Organizations are now struggling more than ever before to face new risks, vulnerabilities, and privacy issues since they adopted a paradigm shift to remote working. This valuable read focuses on the importance of the adequate deployment of APIs that further reduces vulnerabilities and helps maintain a unified user experience."
 metatitle: "Moving beyond Traditional Risk Management with Holistic APIs"
@@ -58,9 +57,7 @@ LoginRadius offers better insights into data from both a security and marketing 
 
 The API capabilities are endless as it covers all areas of threat intelligence that not only helps in predicting vulnerabilities but eventually provides a more insightful structure for overall business growth.
 
-[![modern-customer-identity](modern-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
-
-
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## Integration with Third-Party Analytics Solution
 

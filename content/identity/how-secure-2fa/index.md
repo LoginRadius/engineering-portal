@@ -2,8 +2,7 @@
 title: "How Secure is Two-Factor Authentication (2FA)?"
 date: "2021-05-13"
 coverImage: "how-secure-2fa-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","2fa","mfa","cx"]
 author: "Navanita Devi"
 description: "While we know that it may seem childish to use a password and a username combination, unfortunately, many people don’t learn the risks associated with this type of authentication until they have been victimized by cybercrime. And when that happens, two-factor authentication is one the best ways to protect your consumers’ sensitive data from theft."
 metatitle: "How Secure is Two-Factor Authentication (2FA)? | LoginRadius"
@@ -32,7 +31,7 @@ Several websites also use **authenticator apps** to generate unique codes. In fa
 
 The working process of 2FA differs depending on what kind of information is requested from the user. The login process can involve a combination of two variations given below: 
 
-[![LR-SSO-DS](LR-SSO-DS.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 *    Data is already known to the individual, like login credentials. There are even apps to keep track of this information. For example, the Google Password Manager. 
 *   Data about one’s physical aspect like biometric data. 
@@ -40,30 +39,21 @@ The working process of 2FA differs depending on what kind of information is requ
 
 Businesses use two of these three requirements in conjunction with login details and phone numbers to protect a user. 
 
-
 ## Four Myths about 2FA - Busted!
 
 The implementation of 2FA by various companies as the only **security measure** has been a source of concern. These experts claim that the concept of 2FA is misunderstood. Here are some common misconceptions about how secure is 2FA: 
-
-
 
 1. **It is not susceptible to common cyber threats.**
 
 2FA can be vulnerable to several attacks from hackers because a user can accidentally approve access to a request issued by a hacker without acknowledging it. This is because the user may not receive **push notifications** by the app notifying them of what is being approved. The codes are sent through unreliable third-party mediums. The safety of sending a code through an SMS message can depend on the mobile provider. 
 
-
-
 2. **The implementation of 2FA can be considered as a quick fix for a security breach.**
 
 A [security breach](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) can have lasting consequences on the reputation of a platform. This is because there are two negative outcomes. The first is one has to obtain a token or a cryptic password sent through text message. **The sudden requirement of 2FA may lead to the user being unable to log in. If it is an optional logging method, most users will overlook how secure is 2FA** and refrain from using it. 
 
-
-
 3. **Almost every 2FA solution is similar, with minor differences.**
 
 There has been a vast difference in how secure is 2FA **since the development of the concept. The authentication can take place by issuing an SMS, a verification link in one’s email account**, and through other means. There are even cases where the 2FA process takes place automatically through keying information stored on the browser. 
-
-
 
 4. **Most companies do not care about how secure is 2FA but see it as a legal requirement.**
 
