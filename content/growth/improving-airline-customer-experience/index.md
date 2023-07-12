@@ -1,16 +1,15 @@
 ---
 title: "Enhancing Customer Experience in Airlines With LoginRadius"
 date: "2020-07-29"
-coverImage: "Enhancing-Customer-Experience-in-Airlines.jpg"
-category: ["LoginRadius"]
-featured: false 
+coverImage: "airline-cx.jpg"
+tags: ["airline industry","cybersecurity","cx"]
 author: "Sudhanshu Agarwal"
 description: "Customer experience in the airline industry is often defined as what the customer perceives and experiences while traveling through the different departure stages and arrival in an airport."
 metatitle: "Airlines Customer Experience: Valuing The Consumer"
 metadescription: "Read this blog to understand how aviation businesses can improve their customer experience and protect customer data with LoginRadius."
 ---
 
-The evolution of the aviation industry has been nothing but phenomenal. As airlines seek to amplify their relationship-building efforts in the new decade—_the good, bad, and the ugly_ customer experience, now decides how the game changes. 
+The evolution of the aviation industry has been nothing but phenomenal. As airlines seek to amplify their relationship-building efforts in the new decade—_the good, bad, and the ugly_ customer experience, now decides how the game changes.
 
 Here’s an eye-opener though. According to a survey published on 247 WallSt, the seventh most used airport in the US is the [worst-ranked for customer experience](https://247wallst.com/transportation/2017/09/22/the-best-and-worst-customer-service-in-the-airline-industry/).
 
@@ -39,23 +38,7 @@ The [International Civil Aviation Organization](https://www.icao.int/sustainabil
 - The reduction in the number of occupied seats may go from 43% to 51%.
 - The decrease in the number of passengers may go from 2,433 to 2,924 million.
 - The expected loss in revenue may range between $324 to 387 billion USD.
-
-The following graph indicates the current global-level analysis of the impact on international and domestic airline traffic.
-
-## Impact on international airline traffic
-
-![](https://lh6.googleusercontent.com/xZqiT_3PFDAJCwi8D_ywuhGTRqdDH8nJAhhC1GVxpY9hIa8Xgvmt1RciYAZ_4wdHO0Ld3sULMnbYrbgyYQIlIWDhiZ58pkOIyEnAIWQi2upa7owFhdV0G04KThziQZ9xH0zj8hEk)
-
-Image source: [www.icao.int](https://www.icao.int/sustainability/Pages/Economic-Impacts-of-COVID-19.aspx)
-
-## Impact on domestic airline traffic
-
-![](https://lh4.googleusercontent.com/Tmp1zN9ezm6Qt4UhPOSZrpfOew-sW1MyllWIRY1chNgeKnNALtLToq6lWvyxTkaI24nXaKnUYyEu3pAlatSvFvSuie4s_eY-V45DQRdGJhIhXT7gNnDwXhB7iOQC_psui4MNUVg9)
-
-Image source: [www.icao.int](https://www.icao.int/sustainability/Pages/Economic-Impacts-of-COVID-19.aspx)
-
-**Please note**: The actual numbers will depend on a variety of factors like the duration and magnitude of the containment measures, degree of customer experience, their confidence in flying, the economic conditions of the passengers, and the likes. 
-
+ 
 ## Key Challenges the Airlines Industry Face Nowadays
 
 What are some of the key challenges that the aviation sector come across today? Let's explore. 
@@ -82,7 +65,7 @@ One of the worst mistakes airlines often make is not to invest more in customer 
 
 Triggering them emotionally can impact their buying decisions. For example, if your airline is sensitive to infants and goes out of the way to assist new parents, there is a good chance that they will prefer to travel with your airline every time, irrespective of your price.
 
-[![How-Travel-Leisure-Companies-Use-the-LoginRadius-Identity-Platform-datasheet](How-Travel-Leisure-Companies.png)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
+[![DS-travel-idntity-platform](DS-travel-idntity-platform.png)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
 
 ### New travel restrictions
 
@@ -105,8 +88,6 @@ At best, hire a [customer identity and access management](https://www.loginradiu
 The question remains, what should the airlines do?
 
 ## 5 Ways Airlines Firms Can Enhance Customer Experience
-
-![](image2-1.png)
 
 Airlines have a variety of ways to enhance customer experience. The following are a few strategies on how to respond, recover, and prepare your airlines to succeed in the new normal.
 
@@ -153,8 +134,6 @@ Being aware of possible security threats in and around high-risk areas is necess
 Security awareness training is usually designed for new employees, government representatives, airline security management team, aviation security executives, etc.
 
 ## How LoginRadius Helps Airlines Industry Offloading the Customer Data Security Challenges
-
-![](image3-2.png)
 
 Frictionless travel is key to the airline sector. LoginRadius not only keeps [customer and crewmember data safe](https://www.loginradius.com/security/), but it also simplifies the experience as they navigate the digital ecosystem. 
 

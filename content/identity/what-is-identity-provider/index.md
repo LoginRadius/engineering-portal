@@ -101,7 +101,7 @@ Presenting [multi-factor authentication](https://www.loginradius.com/blog/identi
 
 Many businesses choose to include a Single Sign-on (SSO) feature instead of MFA; there can be various advantages. It allows end-users to use your services without logging in again and again.
 
-[![sso](sso.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## How To Integrate An Identity Provider With A CIAM Solution?
 

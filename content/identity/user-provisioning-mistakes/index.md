@@ -2,8 +2,7 @@
 title: "Top 5 User Provisioning Mistakes Enterprises Should Avoid in 2021"
 date: "2021-05-20"
 coverImage: "user-provisioning-mistakes-cover.jpg"
-tags: ["security"]
-featured: false
+tags: ["user provisioning","rba","access management","cx"]
 author: "Vishal Sharma"
 description: " It’s crucial for online businesses that are collecting user information and storing the same over the cloud to ensure data safety best practices are in place to safeguard clients’ identity and privacy. This insightful read lists some of the common mistakes that enterprises must avoid in 2021 and beyond."
 metatitle: "Top 5 User Provisioning Mistakes Enterprises Should Avoid"
@@ -19,8 +18,6 @@ Above all, the global pandemic also contributed to the sudden upsurge in the num
 Here are the stats depicting the global increase in identity theft risk since the coronavirus outbreak in 2020.
 
 ![Image-Stat](Image-Stat.PNG)
-
-
 
 
 **Image Source**: [Statista](https://www.statista.com/statistics/1175657/increase-identity-theft-coronavirus-outbreak/)
@@ -47,7 +44,7 @@ While unauthorized professionals are exploring new ways to gain access to user p
 
 Since cyber attackers can quickly bypass a single layer of security, MFA is undoubtedly the need of the hour for businesses that need to secure user identities in the ever-expanding digital world.
 
-[![mfa-guide](mfa-guide.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 
 **#3 Mistake: Missing SSL (Secure Sockets Layer) Certificate**
@@ -82,12 +79,10 @@ This process not only improves user experience but eventually helps enterprises 
 
 Organizations can set rules that suit their business requirements and [win consumers’ trust](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/) that further boosts business revenues.
 
-
 ## Conclusion
 
 In a world where competitors are just a click away, online businesses collecting user data must emphasize user experience and security through the aforementioned aspects.
 
 Correct user provisioning is the key to customer success and when brands learn its importance, it provides them a competitive edge.
-
 
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

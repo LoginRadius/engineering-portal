@@ -73,7 +73,7 @@ One can use SAML to 'reuse' a single act of authentication (like logging in with
 
 In SAML, the responsibility for the proper management of identities lies with the identity provider. It is more manageable and desirable rather than handling multiple service provider systems.
 
-[![DS-LR-SSO](DS-LR-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## SAML Components
 
