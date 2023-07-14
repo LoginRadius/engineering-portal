@@ -8,18 +8,15 @@ description: "At LoginRadius, we believe that good work comes from a healthy wor
 metadescription: "LoginRadius is helping its employees live the dream of a flexible work culture. So, let's dive in and learn more about this exciting culture."
 metatitle: "Flexible Work Culture: How LoginRadius Is Making It Happen"
 ---
-
 ## Introduction
 
 As an employee who has been part of the LoginRadius family for the past four years, I am thrilled to share how our flexible work culture has revolutionized our professional lives. 
 
 In this blog, I want to provide insights into the transformative power of our flexible work model and highlight the incredible initiatives that LoginRadius has implemented to support our well-being. This include daily virtual zumba sessions, month end celebrations and team parties, to name a few. 
 
-
 ## The Rise of Flexible Work: Redefining Work-Life Integration
 
 Post COVID-19 pandemic, LoginRadius swiftly embraced a flexible work model, blending the best aspects of remote and in-office work. This innovative approach provides the flexibility to work both from the office and remotely.
-
 
 ## Strengthening Bonds: Work-Life Balance and Collaboration in Harmony
 
@@ -29,16 +26,19 @@ On the other hand, the flexibility to work remotely provides us with the opportu
 
 The combination of in-office and remote work at LoginRadius has successfully fostered collaboration and connectivity among employees. When we gather in the office, we can engage in spontaneous discussions, brainstorming sessions, and effective collaboration that is sometimes challenging to replicate in a remote work setting.
 
-
 ## Daily Virtual Zumba Sessions: Shake, Sweat, and Smile!
+
+![zumba-session](zumba.png "image_tooltip")
 
 In addition to providing flexibility and autonomy, LoginRadius has taken employee well-being to another level by organizing daily virtual Zumba sessions. These fitness sessions are a testament to the company's commitment to fostering a healthy and vibrant work environment. The virtual Zumba sessions offer a fun and energetic outlet for us to stay active, destress, and recharge our minds. It's an opportunity to connect with colleagues virtually, share positive energy, and build camaraderie.
 
+## LoginRadius TT League: Smash, Spin, and Connect!
+
+LoginRadius TT League is an interdepartmental table tennis league that brings out the competitive spirit and camaraderie within our teams. It is a time for friendly matches, cheering each other on, and building connections beyond our usual work interactions. During the league, we gather to showcase our table tennis skills, engage in thrilling matches, and support each other with cheers and encouragement. This league adds an extra dose of fun and excitement to our work environment, and it is just another way LoginRadius nurtures a positive and engaging culture for its employees.
 
 ## Celebrate You: Let's Party!
 
-![alt_text](party.jpg "image_tooltip")
-
+![alt_text](party.png "image_tooltip")
 
 LoginRadius understands the importance of celebrating milestones, recognizing achievements, and fostering a sense of community among its employees. To honor our hard work and create memorable experiences, LoginRadius organizes Celebrate You: Month End celebrations. These celebrations encompass a range of activities, including team-building exercises, recognition ceremonies, and engaging games. It's a time to come together as a team, celebrate our collective achievements, and forge deeper connections.
 
@@ -52,4 +52,4 @@ As an [employee at LoginRadius](https://www.loginradius.com/careers/), I am grat
 
 Together, we are embracing the exciting future of flexible work at LoginRadius, where collaboration, well-being, and celebration go hand in hand.
 
-![alt_text](CTA-joining-LR.png "image_tooltip")
+[![cta](cta.png)](https://www.loginradius.com/careers/)
