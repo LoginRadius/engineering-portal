@@ -5,7 +5,7 @@ coverImage: "mfa-cover.png"
 tags: ["mfa","authentication","ciam solution","cx"]
 author: "Rakesh Soni" 
 description: "Multi-factor authentication (or MFA) is a multi-layered protection framework that verifies the login or other transaction identities of users. A few examples of multi-factor authentication are codes created by mobile apps, answers to personal security questions, codes sent to an email address, fingerprints, etc."
-metatitle: "What Is MFA  and Its Importance for Your Security?"
+metatitle: "What Is MFA and Its Importance for Your Security?"
 metadescription: "Find what multi-factor authentication (MFA) is, its benefits, and the different types of MFA available. Also, how to implement MFA to improve your online security."
 ---
 ## Introduction
