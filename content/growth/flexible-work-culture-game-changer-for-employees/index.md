@@ -52,4 +52,4 @@ As an [employee at LoginRadius](https://www.loginradius.com/careers/), I am grat
 
 Together, we are embracing the exciting future of flexible work at LoginRadius, where collaboration, well-being, and celebration go hand in hand.
 
-[![CTA](CTA.png)](https://www.loginradius.com/careers/)
+[![CTA](cta.png)](https://www.loginradius.com/careers/)
