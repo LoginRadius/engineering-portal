@@ -28,7 +28,7 @@ The combination of in-office and remote work at LoginRadius has successfully fos
 
 ## Daily Virtual Zumba Sessions: Shake, Sweat, and Smile!
 
-![zumba-session](zumba.png "image_tooltip")
+![zumba-session](zumba-sessions.jpg "image_tooltip")
 
 In addition to providing flexibility and autonomy, LoginRadius has taken employee well-being to another level by organizing daily virtual Zumba sessions. These fitness sessions are a testament to the company's commitment to fostering a healthy and vibrant work environment. The virtual Zumba sessions offer a fun and energetic outlet for us to stay active, destress, and recharge our minds. It's an opportunity to connect with colleagues virtually, share positive energy, and build camaraderie.
 
@@ -38,7 +38,7 @@ LoginRadius TT League is an interdepartmental table tennis league that brings ou
 
 ## Celebrate You: Let's Party!
 
-![alt_text](party.png "image_tooltip")
+![alt_text](party-mode.jpg "image_tooltip")
 
 LoginRadius understands the importance of celebrating milestones, recognizing achievements, and fostering a sense of community among its employees. To honor our hard work and create memorable experiences, LoginRadius organizes Celebrate You: Month End celebrations. These celebrations encompass a range of activities, including team-building exercises, recognition ceremonies, and engaging games. It's a time to come together as a team, celebrate our collective achievements, and forge deeper connections.
 
@@ -52,4 +52,4 @@ As an [employee at LoginRadius](https://www.loginradius.com/careers/), I am grat
 
 Together, we are embracing the exciting future of flexible work at LoginRadius, where collaboration, well-being, and celebration go hand in hand.
 
-[![cta](cta.png)](https://www.loginradius.com/careers/)
+[![CTA](CTA.png)](https://www.loginradius.com/careers/)
