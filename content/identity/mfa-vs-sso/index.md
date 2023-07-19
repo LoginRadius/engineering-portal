@@ -26,7 +26,7 @@ Here’s where the crucial role of single sign-on (SSO) comes into play.
 
 Let’s understand the aspects of MFA vs. SSO in detail and learn how businesses can leverage MFA and SSO to scale growth, ensure security, and maintain a rich consumer experience. 
 
-## What is Multi-Factor Authentication (MFA) ? 
+## What is Multi-Factor Authentication (MFA)? 
 
 Multi-Factor Authentication (MFA) is an authentication method that requires users to provide multiple forms of verification to prove their identity. 
 
@@ -34,7 +34,7 @@ Whenever you think [what is multi-factor authentication](https://www.loginradius
 
 This significantly reduces the likelihood of unauthorized access, protecting against threats such as password breaches or social engineering attacks.
 
-## What is an SSO (Single Sign-On) ?
+## What is an SSO (Single Sign-On)?
 
 One of the most common question that people search online is that what is an sso. [Single Sign-On](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/) (SSO) streamlines the login process by allowing users to authenticate themselves once and gain access to multiple applications or systems. 
 
@@ -135,23 +135,23 @@ If you wish to see the future of SSO and MFA in action and how it works for your
 
 ## Frequently Asked Questions (FAQs)
 
-**1. What are the disadvantages of using MFA? **
+**1. What are the disadvantages of using MFA?**
 
 Some of the most common disadvantages of MFA include increased complexity for users, potential additional costs, and usability challenges.
 
-**2. What are the disadvantages of using SSO? **
+**2. What are the disadvantages of using SSO?**
 
 Some of the most common disadvantages of SSO include increased risk of a single point of failure, potential security breaches affecting multiple applications, and technical integration efforts.
 
-**3. Can MFA and SSO be used together? **
+**3. Can MFA and SSO be used together?**
 
 Yes, combining MFA and SSO provides enhanced security and user experience.
 
-**4. How do MFA and SSO improve overall security? **
+**4. How do MFA and SSO improve overall security?**
 
 MFA adds layers of verification, making unauthorized access harder, while SSO reduces password vulnerabilities and enhances convenience.
 
-**5. How can businesses determine the best solution for their needs? **
+**5. How can businesses determine the best solution for their needs?**
 
 By evaluating security requirements, assessing complexities and usability, and also by considering specific organizational needs.
 
