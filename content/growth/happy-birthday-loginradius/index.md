@@ -1,8 +1,8 @@
 ﻿---
 title: "Happy Birthday, LoginRadius: Two Years Away From Becoming A Teenager"
 date: "2023-07-24"
-coverImage: "LR-bday.jpg"
-tags: ["work anniversary","ciam","LoginRadius"]
+coverImage: "LR-birthday.jpg"
+tags: ["LoginRadius birthday"]
 author: "Rakesh Soni"
 description: "I still vividly remember the day when I incorporated the company on July 20, 2012. At that time, all we had was an idea—an idea to solve the login problem for billions of internet users. As we approach our 11th birthday, I can't help but feel a little nostalgic."
 metadescription: "As we approach our 11th birthday, we can't help but feel a little nostalgic. Here's what you can expect from LoginRadius in the coming year."
@@ -12,8 +12,7 @@ metatitle: "LoginRadius Turns 11: 2 Years Away From Becoming A Teenager"
 
 I’m struck by the profound similarity between our journey as founders and the experience of raising a child. Just like parents nurture and care for their baby, we have poured our hearts and souls into building and nurturing LoginRadius.
 
-![rakesh](rakesh.jpg "image_tooltip")
-
+![rakesh](CEO-Rakesh.jpg "image_tooltip")
 
 Throughout this incredible journey, I have experienced a whirlwind of emotions—pride, joy, worry, and excitement. We have celebrated together during moments of triumph, persevered through challenging times, and shared in the deep sense of pride that comes with witnessing the growth and accomplishments of LoginRadius.
 
@@ -25,7 +24,6 @@ Secondly, I consider myself incredibly fortunate to have the unwavering support 
 
 And most importantly, I take a moment to express our deepest gratitude to our exceptional customers, you are the very reason we exist as a company today. It is because of your unwavering support, trust, and loyalty that we have reached this significant milestone today. Your invaluable feedback and continuous patronage have been instrumental in shaping our growth and success. Your participation in the Customer Innovation Council helped us innovate our CIAM platform to the next level. We are deeply grateful for the strong partnerships we have formed with you and look forward to continuing this journey together. Thank you for being an essential part of our story, and here's to many more years of fruitful partnership!
 
-
 ## Our Story
 
 I still vividly remember the day when I incorporated the company on Jul 20, 2012. At that time, all we had was an idea—an idea to solve the "login" problem for billions of internet users.
@@ -33,8 +31,6 @@ I still vividly remember the day when I incorporated the company on Jul 20, 2012
 We began by offering a simple social login widget for the long-tail market and later joined the FounderFuel accelerator program in 2013. The experience taught us invaluable lessons, and it was after that when we started building a dedicated team. In 2014, we raised our seed funding of $1.3M.
 
 As we continued building our business around social login, our customers provided feedback, expressing that it only solved a portion of their "login" pain. Listening to our customers, as we always do, we realized it was time to address the "login" challenges comprehensively and once for all. With this in mind, we began developing the Customer IAM platform, focusing on three core philosophies: 
-
-
 
 1. Offering a secure and privacy-compliant login experience to customers
 2. Liberating developers from all aspects of Customer Identities
@@ -46,13 +42,11 @@ Since then, we have grown to a team of over 100 employees, serving more than 600
 
 Despite the challenges posed by COVID, we successfully navigated the situation and became a profitable company in 2021, minimizing any financial risks. Our journey of growth and expansion continues.
 
-
 ## Why I’m excited as the CEO
 
 It has been an incredible 11-year journey, and yet, I can't help but feel like we are just getting started. As we enter this exciting growth phase of our company, we are poised to create even greater value in the next two years than we have in the entirety of the past 11 years.
 
 I am incredibly excited about LoginRadius, and allow me to share the reasons why:
-
 
 ### Continue Growing as a Profitable Business
 
@@ -68,11 +62,9 @@ Our relentless focus on the Customer IAM use case has led us to build an industr
 
 Up until now, I have taken on three roles - Head of Sales, Head of Marketing, and CEO. However, we are making significant strides by transitioning the first two roles to two exceptional leaders.  I'm thrilled to onboard these talented leaders and implement the exciting GTM strategies that I have envisioned.
 
-
 ### Massive CIAM Market is Experiencing Incredible Growth
 
 The COVID pandemic has accelerated the digital transformation by 6 years. With identity serving as the first layer of digital interaction, all these enterprises need CIAM to successfully implement their digital transformation initiatives, thus giving a significant boost to CIAM demand for the next 10 years. With such a vast market opportunity, multiple players are required to meet the growing demand.
-
 
 ### Incredible Growth Ahead
 
