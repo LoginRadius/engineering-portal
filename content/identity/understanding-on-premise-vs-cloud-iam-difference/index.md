@@ -2,7 +2,7 @@
 title: "Understanding the Difference Between Identity Access Management On-Premise and Cloud"
 date: "2023-07-31"
 coverImage: "on-premise-vs-cloud-iam.jpg"
-tags: ["identity management","cloud identity","compliance","cx"]
+tags: ["identity management", "cloud identity", "compliance", "cx"]
 author: "Deepak Gupta"
 description: "Dive into comparing on-premise and cloud IAM solutions, understanding their unique features and factors to consider. Make the right choice to strengthen your organization's security and access management."
 meta-title: "On-Premise vs. Cloud IAM: Understanding the Differences"
