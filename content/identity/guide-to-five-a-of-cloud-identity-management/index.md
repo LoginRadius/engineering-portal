@@ -50,7 +50,7 @@ Regularly monitoring and analyzing these logs enable timely detection and respon
 
 [![DS-consumer-audit-trail](DS-consumer-audit-trail.png)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
-### 5. Accountability
+### 5. Accountability: Establishing Responsibility and Oversight
 
 Ensuring responsibility and oversight accountability is a crucial aspect of [cloud identity management](https://www.loginradius.com/blog/identity/what-is-cloud-identity-and-its-benefits/) that encompasses establishing responsibility and oversight for user actions.
 
