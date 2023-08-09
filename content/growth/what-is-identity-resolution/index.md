@@ -1,5 +1,5 @@
 ﻿---
-title: "Decoding the Business Advantage of Digital Privacy for Customers"
+title: "What Is Identity Resolution And How Can It Benefit Your Business?"
 date: "2023-08-09"
 coverImage: "identity-resolution.jpg"
 category: ["identity resolution","user management","compliance","cx"]
