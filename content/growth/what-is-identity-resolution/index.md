@@ -2,7 +2,7 @@
 title: "What Is Identity Resolution And How Can It Benefit Your Business?"
 date: "2023-08-09"
 coverImage: "identity-resolution.jpg"
-category: ["identity resolution","user management","compliance","cx"]
+tags: ["identity resolution","user management","compliance","cx"]
 author: "Vishal Sharma"
 description: "Uncover the power of identity resolution to boost your business. Enhance customer experiences, optimize marketing efforts, and mitigate fraud risks with accurate, unified customer data."
 metadescription: "Learn how identity resolution can enhance personalization, target marketing campaigns, detect fraud, and deliver seamless omnichannel experiences to customers."
