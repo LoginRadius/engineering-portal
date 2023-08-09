@@ -1,6 +1,6 @@
 ---
-title: "Why Did We Migrate to AWS ElastiCache From Redis Cloud?"
-date: "2022-08-08"
+title: "Breaking Down the Decision: Why We Chose AWS ElastiCache Over Redis Cloud"
+date: "2023-08-09"
 coverImage: "migrating-to-aws-elasticache-for-redis.jpg"
 author: "Deepak Gupta"
 tags: ["Cache", "AWS", "Redis", "LoginRadius"]
