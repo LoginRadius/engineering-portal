@@ -1,7 +1,7 @@
 ---
 title: "Navigating Identity Verification Challenges in Regulated Industries: 7 Effective Solutions"
 date: "2023-08-14"
-coverImage: "id-verification.jpg"
+coverImage: "idntity-verification.jpg"
 tags: ["identity verification","compliance","biometric authentication","cx"]
 author: "Rakesh Soni"
 description: "Explore solutions to identity verification challenges faced by regulated industries. From fraud prevention and compliance management to user experience enhancement, learn how the LoginRadius CIAM platform leverages cutting-edge technologies to navigate the intricate terrain of identity verification while ensuring security and trust."
@@ -52,7 +52,7 @@ Implementing robust data encryption protocols and cybersecurity measures through
 
 Moreover, most businesses may need help transferring data and storing sensitive information over the cloud. With a robust CIAM, they can overcome the issues related to data management, storage, and transmission. 
 
-[![GD-ciam-buyers-roi](GD-ciam-buyers-roi.png)](loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
+[![GD-ciam](GD-ciam.png)](loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
 
 ### 3. Compliance Management 
 
