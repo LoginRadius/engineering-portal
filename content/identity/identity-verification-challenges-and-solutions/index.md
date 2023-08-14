@@ -1,7 +1,7 @@
 ---
 title: "Navigating Identity Verification Challenges in Regulated Industries: 7 Effective Solutions"
 date: "2023-08-14"
-coverImage: "identity-verification.jpg"
+coverImage: "id-verification.jpg"
 tags: ["identity verification","compliance","biometric authentication","cx"]
 author: "Rakesh Soni"
 description: "Explore solutions to identity verification challenges faced by regulated industries. From fraud prevention and compliance management to user experience enhancement, learn how the LoginRadius CIAM platform leverages cutting-edge technologies to navigate the intricate terrain of identity verification while ensuring security and trust."
