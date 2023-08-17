@@ -2,12 +2,13 @@
 title: "CIAM for Digital Marketers: The Key to Nurture & Convert Leads"
 date: "2023-08-17"
 coverImage: "power-of-ciam.jpg"
-tags: ["data security","customer identity management","mfa","cx"]
+tags: ["data security", "customer identity management", "mfa", "cx"]
 author: "Vishal Sharma"
 description: "In a world where personalized digital experiences define customer success, businesses must put their best foot forward to deliver seamless and secure customized experiences. CIAM emerges as the ultimate solution, enabling marketers to nurture leads and achieve higher conversion rates. Learn how CIAM forges meaningful connections, instills trust, and transforms prospects into loyal customers."
 metatitle: "How to Nurture and Convert Leads With the Power of CIAM?"
 metadescription: "Explore how CIAM empowers digital marketers to provide personalized experiences, build trust, and enhance lead conversion. Read more."
 ---
+
 ## Introduction
 
 Connecting with your customers personally is the need of the hour for marketers since customers demand personalized experiences from the moment they interact with a brand. 
