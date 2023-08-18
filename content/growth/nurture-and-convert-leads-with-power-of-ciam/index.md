@@ -47,7 +47,7 @@ CIAM solutions enable digital marketers to offer omnichannel experiences across 
 
 Omnichannel experience comprises a multichannel sales, consumer service, and marketing approach. It necessitates delivering a consistent consumer experience regardless of the channel via which consumers interact with your business.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel-ex](EB-omnichannel-ex.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 This consistency in experiences ensures that leads and customers receive relevant content and offers regardless of their chosen channel, resulting in a cohesive and effective marketing strategy.
 
