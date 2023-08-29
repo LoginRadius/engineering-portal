@@ -41,10 +41,13 @@ In true passwordless authentication, the user does not rely on any shared detail
 Passwordless authentication implements various approaches that help in the user identification process, including:
 
 1. **Multi-Factor Authentication:**
-* Factors users already know passphrases and security questions to which only they know the answer.
+
+* Factors users already know passphrases and security questions to which only they know the answer. 
 * Things users already acquire: certificates, hardware tokens, or authentication devices. 
 * Things related to inheritance:[ biometrics, including fingerprint ](https://www.loginradius.com/blog/identity/what-is-mob-biometric-authentication/)and facial recognition.
+
 2. **Public/Private Key Cryptography:** True passwordless authentication depends on asymmetric encryption. This means users have a unique combination of public and private cryptographic keys. The public key is freely shared, while the private key is safely stored on the user's device only. And when they attempt to access the system, they are asked to enter the private key. This process confirms the user's identity, allowing them to access the system. 
+
 3. **Signature Verification Process:** The server receives the signed challenge and verifies it with the user's public key. If the signature is accurate, it confirms that the user has the private key associated with the account. These methods enhance identity confirmation processes and help organizations create a safer digital environment for their customers, partners, and employees. 
 
 [![DS-passwordless-login-magic-link](DS-passwordless-login-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
