@@ -1,9 +1,8 @@
 ---
 title: "The Death of Passwords [Infographic]"
 date: "2018-12-19"
-coverImage: "Infographic-The-Death-of-Passwords-Social-Graphics-V01.01-1.jpg"
-tags: ["media-and-publication"]
-featured: false 
+coverImage: "Death of Passwords-01.jpg"
+tags: ["passwordless authentication","ciam solutions","mfa","cx"]
 author: "Deepak Gupta" 
 description: "Are usernames and passwords really the best way to protect your customers? Check out this infographic and learn about the new technologies and authentication methods that are replacing passwords."
 metatitle: "The Death of Passwords [Infographic] | LoginRadius"
