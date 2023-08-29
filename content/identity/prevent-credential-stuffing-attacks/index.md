@@ -1,5 +1,5 @@
 ---
-title: "Credential Stuffing: How To Detect And Prevent It (Updated)"
+title: "Credential Stuffing: How To Detect And Prevent It"
 date: "2019-09-12"
 coverImage: "credential-stuffing-attacks.jpg"
 tags: ["data security","passwordless authentication","ciam solution"]
