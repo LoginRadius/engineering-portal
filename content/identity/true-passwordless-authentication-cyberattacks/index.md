@@ -42,9 +42,9 @@ Passwordless authentication implements various approaches that help in the user 
 
 1. **Multi-Factor Authentication:**
 
-* Factors users already know passphrases and security questions to which only they know the answer. 
-* Things users already acquire: certificates, hardware tokens, or authentication devices. 
-* Things related to inheritance:[ biometrics, including fingerprint ](https://www.loginradius.com/blog/identity/what-is-mob-biometric-authentication/)and facial recognition.
+True passwordless authentication is an approach within the realm of multi-factor authentication (MFA) that enhances security and user convenience. Unlike traditional methods that rely on passwords, true passwordless authentication eliminates the need for users to remember complex codes, thus mitigating the risks associated with weak passwords and credential theft. 
+
+Instead, it leverages a combination of diverse factors for verification, such as something the user possesses (like a smartphone), something inherent to the user (like biometric data), and something the user knows (like a PIN). This multifaceted approach ensures a higher level of security by requiring multiple forms of validation before granting access. For instance, a user might receive a push notification on their registered smartphone, prompting them to confirm their identity with a [fingerprint or facial scan.](https://www.loginradius.com/blog/identity/what-is-mob-biometric-authentication/)
 
 2. **Public/Private Key Cryptography:** True passwordless authentication depends on asymmetric encryption. This means users have a unique combination of public and private cryptographic keys. The public key is freely shared, while the private key is safely stored on the user's device only. And when they attempt to access the system, they are asked to enter the private key. This process confirms the user's identity, allowing them to access the system. 
 
