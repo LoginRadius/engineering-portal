@@ -88,7 +88,7 @@ Efficiently integrate CIAM and CRM systems to enable data-driven personalization
 
 ### 6. Establishing Continuous Training and Support
 
-Ensure ongoing training and support for employees to maximize the potential of integrated systems. You can utilize a professional <a rel="nofollow" href="https://www.veed.io/tools/video-editor">video editor</a> to create training videos and webinars. Alternatively, AI-powered tools online can automatically generate AI avatar demos.
+Ensure ongoing training and support for employees to maximize the potential of integrated systems. You can utilize a professional [video editor](https://www.veed.io/tools/video-editor), to create training videos and webinars. Alternatively, AI-powered tools online can automatically generate AI avatar demos.
 
 ### 7. Monitoring Metrics for Optimization
 
