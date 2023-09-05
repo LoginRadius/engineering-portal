@@ -90,7 +90,7 @@ _“In what city or town did your mother and father meet?”_
 
 Most consumers know the answer to a question like this, making it fit the criteria of being memorable. It is also more difficult to guess or research this fact. Best of all, it fits the stability criteria as well.
 
-[![](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 Some examples of question and answers that are unmemorable include:
 
