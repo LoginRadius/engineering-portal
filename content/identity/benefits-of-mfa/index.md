@@ -2,8 +2,7 @@
 title: "7 Benefits of Multi-Factor Authentication"
 date: "2020-12-09"
 coverImage: "benefits-of-mfa.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["benefits of mfa","digital transformation","cx"]
 author: "Rakesh Soni"
 description: "When it comes to information security, the MFA plays a crucial role. It protects information from possible hacks, keeps an eye on employee accounts, and scares hackers away. Besides this even though their login credentials are leaked by accident, it protects users."
 metatitle: "7 Benefits of Multi-Factor Authentication"
@@ -57,8 +56,7 @@ Implementing multi-factor authentication can be a key requirement when it comes 
 
 An industry-compliant MFA comes with an [SSO solution](https://www.loginradius.com/single-sign-on/). You no longer have to create multiple complex passwords for different applications. Using a secondary authentication with SSO confirms the consumer identity and removes the risk of losing data due to password misplacement. This not only saves time but also enhances security.
 
-
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 ### 6. It adds next-level security, even remotely.
 

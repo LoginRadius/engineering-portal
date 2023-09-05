@@ -2,8 +2,7 @@
 title: "The Do's and Don'ts of Choosing a Secure Password"
 date: "2021-01-06"
 coverImage: "how-to-choose-a-secure-password-in-2021.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","password management","ciam solution","cx"]
 author: "Deepak Gupta"
 description: "Passwords are the digital keys to our daily lives. They are the gateway to our professional services, and our network of friends. So, what does a secure password look like? Here is a collection of the do's and don't on how to choose a strong password to avoid being a victim of cyberattack."
 metatitle: "How to Choose a Secure Password?"
@@ -132,14 +131,11 @@ The following are a few types of layers that businesses choose to provide:
 **Change your passwords regularly**: Also, do not reuse the same password for a long time. The more sensitive your data is, the more frequently you should change your password.
 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
 **Always remember to log out** of websites and devices once you are done using them. 
 
-
 ### The Don’ts
-
-
 
 *   Do not use your name in your passwords in any form - first, last, spelled backward, or nicknames.
 *   Do not use passwords that are fewer than eight characters.
