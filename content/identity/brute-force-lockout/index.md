@@ -2,8 +2,7 @@
 title: "What is Brute Force Attack"
 date: "2021-02-27"
 coverImage: "brute-force.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","cybersecurity","mfa","cx"]
 author: "Manish Tiwari"
 description: "In brute force attacks, you are not exploiting any vulnerability in the web application. Instead, you are trying all the possible combinations and permutations of passwords and usernames of the victim and trying to see if you get any of those right."
 metatitle: "What is Brute Force Attack"
@@ -41,7 +40,7 @@ If the login is successful, then the username and password combination is consid
 
 - **Credential Recycling:**  Credential recycling refers to the hacking practice of re-using username and password combinations gathered in previous brute-force attacks. A special form of credential recycling is passed the hash, where unsalted hashed credentials are stolen and re-used without first being brute-forced.
 
-[![credential-stuffing](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![credential-stuffing](WP-Credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 - **Rainbow Table Attacks:** A rainbow table is a database used to gain authentication by cracking the password. It is a dictionary of plaintext passwords and their corresponding hash values that can be used to find out what plaintext password produces a particular hash.
 
