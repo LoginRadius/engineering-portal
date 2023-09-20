@@ -5,7 +5,7 @@ coverImage: "consumer-data-privacy.jpg"
 tags: ["data privacy","cx","compliance"]
 author: "Deepak Gupta"
 description: "The building blocks that sustain customer loyalty in the long run are authenticity, accountability and excellent customer experience. Organizations need to be clear about how cautious they are when it comes to the privacy and protection of customer data."
-metatitle: "How LoginRadius Protects Consumer Data privacy and Security | LoginRadius"
+metatitle: "Futureproofing Data Security & Privacy with LoginRadius"
 metadescription: "Bulletproof your business and protect your customer data privacy with the advanced security of LoginRadius' CIAM platform."
 ---
 
@@ -63,7 +63,7 @@ Today, consumers are more mindful of the effect data privacy has on their person
 
 New consumer data privacy regulations have been affecting every aspect of a business. Organizations must manage consumer interactions with privacy demands, develop new organizational positions to manage regulatory interactions, and educate employees on the current regulations.
 
-[![CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance-whitepaper ](WP-The-CCPA.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![WP-CCPA-consumer-identity](WP-CCPA-consumer-identity.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 In general, consumer data privacy laws have three different impacts on every organization.
 
