@@ -28,7 +28,7 @@ const BlogPostTemplate = ({ data }) => {
   return (
     <Layout hideTagMenu postPage pathname={pathname} type={type}>
       <SEO
-        title={`${metatitle || title} | LoginRadius Blog`}
+        title={`${metatitle || title}`}
         description={metadescription || description || post.excerpt}
         image={coverImage && coverImage.childImageSharp.fluid.src}
         pathname={pathname}
