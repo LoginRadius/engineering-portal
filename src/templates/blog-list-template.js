@@ -23,11 +23,11 @@ const BlogList = ({ data, pageContext, location }) => {
         title={
           currentPage === 1
             ? bType
-              ? `${startCase(bType)} | LoginRadius Blog`
-              : "LoginRadius Blog"
+              ? `${startCase(bType)}`
+              : ""
             : bType
-            ? `Page ${currentPage} - ${startCase(bType)} | LoginRadius Blog`
-            : `Page ${currentPage} - LoginRadius Blog`
+            ? `Page ${currentPage} - ${startCase(bType)}`
+            : `Page ${currentPage}`
         }
         pathname={location.pathname}
         description={
