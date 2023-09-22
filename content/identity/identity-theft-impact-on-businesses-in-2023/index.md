@@ -18,7 +18,6 @@ And when it comes to [securing digital identities](https://www.loginradius.com/b
 
 Let’s explore the implications and consequences of identity theft on businesses in 2023, shedding light on the importance of proactive measures and cybersecurity practices.
 
-
 ## What is Identity Theft? Why is it a Big Concern for Businesses in 2023 & Beyond? 
 
 Identity theft is the fraudulent acquisition and misuse of someone's personal information, typically for financial gain. It has become a significant concern for businesses in 2023 and beyond due to the increasing reliance on digital systems and the growing sophistication of cybercriminals. 
