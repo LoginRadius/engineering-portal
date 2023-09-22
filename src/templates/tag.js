@@ -19,7 +19,7 @@ const Tags = ({ pageContext, data, location }) => {
   return (
     <Layout location={""} title={""}>
       <SEO
-        title={`${tag} - Tag | LoginRadius Blog`}
+        title={`${tag} - Tag`}
         description={`LoginRadius blog posts related to ${tag}`}
         image={img ? img.childImageSharp.fluid.src : ""}
         pathname={location.pathname}
