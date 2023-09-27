@@ -40,7 +40,7 @@ Our donation drive is being carried out in phases, targeting different underpriv
 
 None of this would have been possible without the dedication and commitment of our operations team and volunteers who stepped up to make a difference. We thank Naveen, Vikas, Shreya, Soniya, Sudhey, and Pankaj for their invaluable contributions to this noble cause.
 
-![](LR-donation-drive.jpg "image_tooltip")
+![LR-donation-drive](LR-donation-drive.jpg "image_tooltip")
 
 ## Conclusion:
 
@@ -50,4 +50,4 @@ Join us in our mission to create a positive change in our community. We can empo
 
 Stay tuned for updates on our Sanitary Pad Donation Drive and the impact we're creating in the lives of underprivileged girls. Together, we can make a difference.
 
-[![CTA](cta.png)](https://www.loginradius.com/careers/)
+[![cta-careers](cta-careers.png)](https://www.loginradius.com/careers/)
