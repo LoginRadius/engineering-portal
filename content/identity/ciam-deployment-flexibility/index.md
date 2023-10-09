@@ -42,7 +42,7 @@ Passwordless login solutions are increasingly replacing traditional password-bas
 
 LoginRadius offers robust passwordless login options, including biometric authentication and one-time passcodes, ensuring top-notch security while enhancing user satisfaction.
 
-[![DS-passwordless-login](DS-passwordless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-passwordless-login](DS-pswrdless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 ### #4. Cloud Integrations: Seamlessly Integrating CIAM with Existing Systems
 
