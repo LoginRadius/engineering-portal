@@ -1,7 +1,7 @@
 ---
 title: "Small Steps, Big Shields: Navigating Cybersecurity Awareness Month 2023 Safely"
 date: "2023-10-03"
-coverImage: "cybersecurity.jpg"
+coverImage: "cybersecurity-awareness-2023.jpg"
 tags: ["cybersecurity","passwordless authentication","multi-factor authentication"]
 author: "Alok Patidar"
 description: "Cybersecurity Awareness Month 2023 is a crucial reminder in the digital age where every click matters. Join us at LoginRadius as we spread the word about the importance of user endpoint security, employee training, strong passwords, multi-factor authentication, and phishing prevention. Discover how these small steps can create impenetrable shields, safeguarding your organization amid evolving cyber threats. Stay safe, stay vigilant, and empower your team with knowledge during Cybersecurity Awareness Month 2023!"
