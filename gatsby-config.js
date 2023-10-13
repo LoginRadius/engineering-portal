@@ -71,6 +71,7 @@ module.exports = {
             options: {
               maxWidth: 768,
               srcSetBreakpoints: [650],
+              linkImagesToOriginal: false,
             },
           },
           {
