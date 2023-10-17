@@ -2,8 +2,7 @@
 title: "How to Make Your Automated Emails Sound Personal, Relevant, and Effective?"
 date: "2021-07-02"
 coverImage: "email-automation.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["email marketing","customer experience","personalization"]
 author: "Akshay Deogiri"
 description: " The chances are that as a marketer, you’re already segmenting your audience and sending them targeted emails. But is that enough? Making your emails relevant is one thing, and making them interesting and engaging is something completely different. If implemented correctly, personalization is a powerful tool that can help you engage your audience and nurture your leads."
 metadescription: "Learn how to leverage email automation personalization to send more relevant emails. Also,read how automation and personalization can increase sales and revenue."
