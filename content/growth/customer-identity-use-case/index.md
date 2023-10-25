@@ -1,8 +1,8 @@
 ---
 title: "Unveiling the Customer Identity Business Case: Strategies for Success"
 date: "2023-10-19"
-coverImage: "customer-identity.jpg"
-tags: ["customer identity management","ciam solution","digital identity","cx"]
+coverImage: "cust-identity.jpg"
+tags: ["customer identity management","ciam solutions","digital identity","cx"]
 author: "Rakesh Soni"
 description: "Dive into the world of the customer identity base case – your key to personalized success. Explore strategies for tailored experiences, fraud prevention, and ethical data practices. Stay ahead in the digital era with our expert insights."
 metatitle: "Unlocking Success: Mastering the Customer Identity Base Case"
@@ -46,7 +46,7 @@ As we move into an era dominated by digital interactions, the importance of the 
 
 Emerging technologies like the Internet of Things (IoT) and augmented reality are reshaping customer interactions, providing even more touchpoints for data collection. By embracing these technologies and integrating the insights gained into their customer identity base case, businesses can create seamless, omnichannel experiences that delight customers across various platforms.
 
-[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-gd-mci.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 Moreover, the rise of ethical consumerism underscores the significance of transparent data practices. Companies that prioritize customer privacy and utilize data responsibly will not only comply with regulations but also earn the trust and loyalty of their customer base.
 
