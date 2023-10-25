@@ -32,7 +32,7 @@ But what exactly is personalization?
 
 While you’ll find myriad definitions of personalization, let’s stick to the simplest. Personalization is a marketing and communication approach in which you cater to the individual needs of a customer. In a nutshell, personalization is all about making the customer feel that you’re interacting with them and meeting their needs at an individual level.
 
-The scope for personalization is vast. You can start with something as minuscule as addressing the recipient by their first name. Or, you can execute full-fledged email personalization campaigns with personalized offers, QR codes, and links to landing pages.
+The scope for personalization is vast. You can start with something as minuscule as addressing the recipient by their first name. Or, you can execute full-fledged email personalization campaigns with <a rel="nofollow" href="https://www.qrcode-tiger.com/"> personalized offers, QR codes generated via best QR code generator</a> and links to landing pages.
 
 ## Where Does Automation Come into Play?
 
@@ -158,4 +158,4 @@ Personalizing emails isn’t a choice anymore for brands. Customers expect you t
 
 This can help your brand in two ways. First, it can reduce your costs and increase your marketing efficiency. And second, it can make your marketing more personal, relevant, and effective, resulting in better engagement and more customers.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
