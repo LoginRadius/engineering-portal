@@ -2,8 +2,7 @@
 title: "How QR Codes are Shaping the Future of Marketing"
 date: "2021-06-28"
 coverImage: "qr-codes-digital-contactless-payments.jpg"
-category: ["loginradius"]
-featured: false 
+tags: ["brand identity","smart authentication","cx"]
 author: "Vishal Sharma"
 description: "From redirecting customers to social media pages to asking them to leave feedback and review, enterprises can do a lot through a QR Code. This insightful read covers all the aspects that depict the role of QR codes in enhancing marketing for enterprises during uncertain times."
 metadescription: "QR Codes can help businesses in accelerating growth. This post highlights the importance of QR Codes in marketing and why companies must consider using them."
@@ -43,6 +42,8 @@ Moreover, some product-specific QR Codes are also being used to deliver rich AR-
 For instance, many online glasses stores have provided product QR Codes. These codes, when scanned with a smartphone, provide a try-on experience where the user can try shades and spectacles and choose the one that suits them the most.
 
 The pandemic-driven convenience of QR Codes is helping vendors and marketers to plan strategies around leveraging QR Codes to deliver [hassle-free smart authentication](https://www.loginradius.com/blog/identity/iot-smart-authentication/) experiences that help increase conversion rates as the need to visit a store is eliminated.
+
+In addition to these benefits, incorporating a <a rel="nofollow" href="https://www.qrcode-tiger.com/">free QR code generator</a> into your ecommerce business or product offerings can further streamline the shopping experience and boost sales.
 
 ### #3. Converts One-time Customers to Repeat Buyers
 
