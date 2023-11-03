@@ -17,10 +17,9 @@ Users expect authentication experiences that are quick, delightful, secure, and 
 
 LoginRadius’ cutting-edge single sign-on helps overcome all the challenges related to consumer experience and data integration.  Let’s understand how LoginRadius paves the path for a robust user experience by integrating PerfectMind. 
 
-
 ## What is PerfectMind?
 
-PerfectMind is a membership management software that uses cloud-based technology to help organizations of all sizes connect with their communities. 
+PerfectMind (part of Xplor) is a membership management software that uses cloud-based technology to help organizations of all sizes connect with their communities. 
 
 PerfectMind started as a software solution for martial arts schools but has expanded over the years to serve other industries, most notably parks and recreation departments.
 
