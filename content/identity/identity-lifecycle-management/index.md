@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Lifecycle Management?"
 date: "2023-11-02"
-coverImage: "lifecycle-mngmnt.jpg"
+coverImage: "lifecycle-management.jpg"
 tags: ["identity management","user management","compliance","cx"]
 author: "Govind Malviya"
 description: "In a digital age filled with online services and remote work, securing sensitive data is paramount. Our blog delves into Identity Lifecycle Management (ILM), an essential business solution. Discover the components of ILM, its role in cybersecurity, and how it ensures authorized access while addressing security concerns and compliance. Stay ahead in the digital landscape by embracing the power of Identity Lifecycle Management."
