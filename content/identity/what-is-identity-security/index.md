@@ -1,17 +1,17 @@
 ---
-title: "What is the Purpose of Identity Security in 2021?"
+title: "What is Identity Security?"
 date: "2021-08-03"
 coverImage: "purpose-identity-security-2021-cover.jpg"
 tags: ["digital identity","compliance","data security","cx"]
 author: "Rakesh Soni"
 description: "Thousands of individuals compromise their identities every day because of weak defense and poor authentication at the service providers’ end. Businesses need a robust identity management solution to navigate their digital transformation journey without compromising user identities and sensitive business information."
-metatitle: "What is the purpose of identity security?"
+metatitle: "What is Identity Security"
 metadescription: "Securing user identity is crucial today as the number of data breaches is increasing significantly. Here’s a good read depicting the role of identity security."
 ---
 
 In the past couple of years, the internet has become one of the indispensable parts of our lives, and we can’t imagine a day without it. 
 
-As of [January 2021, there are 4.66 billion active internet users](https://www.statista.com/statistics/617136/digital-population-worldwide/) worldwide, which depicts that almost 60% of the world population is online. 
+As of October 2023, the [global internet user count reached 5.3 billion](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=Worldwide%20digital%20population%202023&text=As%20of%20October%202023%2C%20there,population%2C%20were%20social%20media%20users.), encompassing 65.7 percent of the world's population.
 
 However, this doesn’t mean that everyone who’s surfing the internet is secure and can’t be on the radar of cybercriminals. 
 
@@ -27,8 +27,7 @@ Do we need a stringent mechanism to secure user identities as the conventional s
 
 Yes, identity security undeniably needs the hour to secure all identities within a network (whether employees or consumers). 
 
-Let’s understand what identity security is and why it’s crucial for businesses, especially in 2021 and beyond. 
-
+Let’s understand what identity security is and why it’s crucial for businesses, especially in 2024 and beyond.
 
 ## What is Identity Security
 
@@ -56,7 +55,6 @@ Hence there’s an immediate need to deploy a reliable [consumer identity and ac
 
 Since we’ve learned the importance of identity security, now just glance at what benefits an enterprise gets with a CIAM solution in place. 
 
-
 ### 1. Multi-Factor Authentication (MFA) and Risk-Based Authentication (RBA)
 
 Multi-factor authentication is one of the essential aspects when it comes to consumer identity security best practices. 
@@ -69,7 +67,6 @@ The LoginRadius RBA kicks in whenever a suspicious login attempt is detected and
 
 The best thing about RBA is that it gets automatically activated if it detects something fishy based on the number of unsuccessful attempts, geographical location, or other similar situations. Else, the user can normally sign in, which preserves a great user experience. 
 
-
 ### 2. Protecting Consumer Accounts 
 
 With a cutting-edge CIAM like LoginRadius, businesses can ensure the highest level of security when it comes to protecting their consumers’ accounts against different types of security threats. 
@@ -77,7 +74,6 @@ With a cutting-edge CIAM like LoginRadius, businesses can ensure the highest lev
 Enterprises can ensure that passwords are harder to crack with rigorous password policies and LoginRadius Multi-Factor Authentication and can leverage hashing and encryption to protect account credentials and data in transit and at rest.
 
 Also, our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage, including the [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/). 
-
 
 ### 3. Streamlined Customer Experience
 
@@ -87,14 +83,12 @@ By providing a smooth login experience for your applications and services, you e
 
 For instance, [implementing a single sign-on](https://www.loginradius.com/single-sign-on/) through a customer identity and access management system like LoginRadius means a customer only needs one account for all of your digital touchpoints. Whether your customers are signing in from a browser or a mobile device, they’ll benefit from not having to sign in repeatedly. 
 
-
 ## Final Thoughts 
 
-Protecting consumers’ identity should be the top priority of enterprises that are collecting user information. 
+Protecting consumers’ identity should be the top priority of enterprises collecting user information.
 
 However, creating a perfect harmony between identity security and delivering a flawless user experience requires a reliable CIAM in place. 
 
-A robust cloud-based CIAM solution like [LoginRadius](https://www.loginradius.com/contact-sales2/) can be a game-changer, especially in a world where data breaches are pretty frequent that cause losses worth millions of dollars. 
-
+A robust cloud-based CIAM solution like [LoginRadius](https://www.loginradius.com/contact-sales2/) can be a game-changer, especially in a world where data breaches are pretty frequent, leading to losses worth millions of dollars.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
