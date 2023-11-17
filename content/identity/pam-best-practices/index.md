@@ -37,7 +37,7 @@ Privileged Access Management is the linchpin in cybersecurity, focusing on secur
 
 In the ever-evolving cybersecurity landscape, the threats we face are dynamic and sophisticated. PAM, too, must evolve to stay ahead. Regularly updating and adapting PAM strategies is akin to reinforcing the castle walls in response to new siege tactics. 
 
-[![GD-auth,auth,enc](GD-auth,auth,enc.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
+[![GD-authn-autho-encr](GD-authn-autho-encr.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
 
 Stay informed about emerging threats, update software, and conduct regular security assessments to ensure that PAM remains a stalwart defender against the shifting landscape of cyber risks.
 
