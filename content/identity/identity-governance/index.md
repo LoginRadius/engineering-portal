@@ -113,7 +113,7 @@ Here’s how LoginRadius’ data governance solutions are remarkably effective a
 
 ## Conclusion
 
-The demand for [IGA is growing year on year](https://dagorettinews.com/identity-governance-and-administration-market-overview-manufacturing-industry-statistics-analysis-top-trends-present-history-future-and-forecast-2028/). The increased agility granted by introducing IGA in a company’s application ecosystem and elsewhere has logical merit. 
+The demand for IGA is growing year on year. The increased agility granted by introducing IGA in a company’s application ecosystem and elsewhere has logical merit. 
 
 Needless to say, so does the issue of relevant access certification to designated stakeholders. With the automation of policy management and auditing, adding to its favor, identity governance seems immensely important in an increasingly agility-demanding and virtual work environment.
 

@@ -47,8 +47,6 @@ W3schools - the largest web developer site, as they define it, provides free tut
 
 The website provides tiered subscription plan that allows users to download multiple ebooks too along with the course. The ebook comprises of a huge catalog that comes with different code specifics like Jekyll, Sass, SVG, etc. I should definitely not forget to mention that even professionals can take the ongoing education courses to brush up their programming skills. The website provides learner tutorials in the form of write-ups about various topics.
 
-#### **4. [Code School](https://www.codeschool.com/)** **:**
-
 **Price** : Free but pro version available at $29/mo
 
 The famous e-learning course provider offers a wide range of courses in several types of programming languages, web tools and designing. The website offers both free as well as paid versions. With free version users can get access to the 10 introductory courses that include topics like SQL, Objective C, jQuery which are great for getting started. While with the paid version, users can get access to 200 videos and 50+ interesting courses. The website basically works on learn, practice, win and track model which means first the users can learn via watching videos and then challenges are placed in front of them to track their learning experience.

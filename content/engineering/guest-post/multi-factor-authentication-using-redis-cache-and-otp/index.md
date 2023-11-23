@@ -246,7 +246,7 @@ For [Windows](https://redis.io/docs/getting-started/installation/install-redis-o
 
 This tutorial uses [Redis Cloud](https://redis.com/) to set up the Redis database. Redis Cloud starts with *Free* a subscription fee that grants 30MB of storage. This is perfect for this simple application.
 
-1. Create a new [Redis Cloud](https://app.redislabs.com/new/) account if you don’t have one.
+1. Create a new Redis Cloud account if you don’t have one.
 
     ![Redis Cloud Set Up](redis-cloud-sign-in.jpg)
 

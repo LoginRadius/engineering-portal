@@ -200,15 +200,9 @@ CSRF is another React web application vulnerability allowing attackers to persua
 Before going through the checklist on fixing CSRF vulnerabilities, here is a quick example of how the CSRF GET request will be once the attacker tweaks it.
 A standard GET request for a $250 transfer from person1 to person2 might look like this:
 
-*GET http://anybank.in/transfer.do?acct=Person2&amount=$250 HTTP/1.1*
-
 When the attacker induces the user to perform some unintended action or runs a malicious script, the $250 gets transferred to the attacker's account. This malicious request might look something like this:
 
-*GET http://anybank.com/transfer.do?acct=Attacker&amount=$250 HTTP/1.1*
-
 Some attackers can also put innocent-looking hyperlinks embedding the request.
-
-*&lt;a href="http://anybank.com/transfer.do?acct=Attacker&amount=$250"> Check out the transfer! </a&gt;*
 
 ### Checklist to Fix React PWAs from CSRF Vulnerability 
 * The progressive React web app should not deliver CSRF tokens using Cookies.

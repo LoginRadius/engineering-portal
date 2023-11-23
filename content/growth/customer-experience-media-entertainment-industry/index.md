@@ -61,7 +61,7 @@ But will it hit the right chords among organizations and individuals? Only time 
 
 ### **1\. Blockchain** 
 
-A market synopsis by [America News Hour](https://www.americanewshour.com/2019/10/09/blockchain-in-media-and-entertainment-market-overview-and-scopeglobal-industry-trends-share-size-and-forecast-report-by-2024/75022/) reports that the global blockchain media industry "registered 32.94% CAGR during the forecast period between 2018 and 2024," and they predict it could reach USD 1.54 billion by 2024.
+A market synopsis by America News Hour reports that the global blockchain media industry "registered 32.94% CAGR during the forecast period between 2018 and 2024," and they predict it could reach USD 1.54 billion by 2024.
 
 So, if you think blockchain is only about cryptocurrency, think again!
 

@@ -235,7 +235,7 @@ For beautifying your Javascript  code use [jsbeautifier](http://jsbeautifier.or
 
 ### **15. Checking JS Performance**
 
-To check how well a Javascript code is performing and share results use [jsperf](https://jsperf.com/). It is easiest way to create and share testcases.
+To check how well a Javascript code is performing and share results use jsperf. It is easiest way to create and share testcases.
 
 ### **16. Online javascript editor**
 

@@ -13,7 +13,7 @@ metadescription: "Top ten cybersecurity predictions for SMBs in 2021. Companies 
 
 
 
-The global pandemic has forced business executives to reconsider their cybersecurity strategies. According to an IDC report, business spending on security solutions is expected to touch [$175 billion by 2024](https://www.idc.com/getdoc.jsp?containerId=prUS46773220). At the same time, [71% of security professionals](https://www.darkreading.com/vulnerabilities---threats/71--of-security-pros-see-threats-jump-since-covid-19-outbreak/d/d-id/1337498) have reported an increase in online threats since the start of the global lockdown in 2020.
+The global pandemic has forced business executives to reconsider their cybersecurity strategies. According to an IDC report, business spending on security solutions is expected to touch $175 billion by 2024. At the same time, [71% of security professionals](https://www.darkreading.com/vulnerabilities---threats/71--of-security-pros-see-threats-jump-since-covid-19-outbreak/d/d-id/1337498) have reported an increase in online threats since the start of the global lockdown in 2020.
 
   
 
@@ -97,7 +97,7 @@ As mobile devices become more prevalent, mobile users being targeted by hackers 
 
 ### 10. Cyberattacks on financial services
 
-According to [a 2019 report](https://www.bcg.com/press/20june2019-global-wealth-report), banking and financial services are 300 times more prone to cyberattacks than any other industry. Even during the COVID-19 pandemic, cyberattacks on financial institutions spiked by [238%](https://www.infosecurity-magazine.com/news/attacks-on-banks-spike-238-during/).
+According to a 2019 report, banking and financial services are 300 times more prone to cyberattacks than any other industry. Even during the COVID-19 pandemic, cyberattacks on financial institutions spiked by [238%](https://www.infosecurity-magazine.com/news/attacks-on-banks-spike-238-during/).
 
   
 

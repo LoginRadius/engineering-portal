@@ -22,7 +22,7 @@ Moreso, with immersive technological platforms taking the lead, the sports indus
 
 This leads to the fact that digital identity plays an important role in their willingness to engage as fans online. A[ customer identity and access management (CIAM) solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/#:~:text=CIAM%20simplifies%20every%20business%20task,%2C%20business%20intelligence%2C%20and%20services.) can help sports franchises discover new ways to interact with fans inside the stadium and out. 
 
-According to a [report by Capgemini](https://www.capgemini.com/research/tech-in-sports/?utm_source=pr&utm_medium=referral&utm_content=dcx_none_link_pressrelease_none&utm_campaign=cx_cri_emerging-tech-in-sport), nearly 70% have already enhanced their overall viewing experience. That's a big number! 
+According to a report by Capgemini, nearly 70% have already enhanced their overall viewing experience. That's a big number! 
 
 
 ## Key Issues in the Sports Industry

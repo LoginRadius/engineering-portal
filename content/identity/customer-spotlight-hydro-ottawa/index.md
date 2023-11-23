@@ -10,7 +10,7 @@ metatitle: "Customer Spotlight – Hydro Ottawa | LoginRadius"
 metadescription: "Hydro Ottawa has totally disrupted the Canadian utility industry for the better by concentrating on the needs of their clients."
 ---
 
-[Hydro Ottawa](https://hydroottawa.com/), the largest local electricity distribution company in eastern Ontario, is also a pioneer in the Canadian utility industry. It is the [first utility company in Canada to offer a voice assistant skill](https://obj.ca/article/hydro-ottawa/next-evolution-customer-care-okay-google-open-hydro-ottawa) through both Amazon Alexa and Google Home. By focusing on their customers’ needs, Hydro Ottawa has fully disrupted the Canadian utility industry for the better.
+[Hydro Ottawa](https://hydroottawa.com/), the largest local electricity distribution company in eastern Ontario, is also a pioneer in the Canadian utility industry. It is the first utility company in Canada to offer a voice assistant skill through both Amazon Alexa and Google Home. By focusing on their customers’ needs, Hydro Ottawa has fully disrupted the Canadian utility industry for the better.
 
 ![](HydroOttawa_Logo_RGB-2016-1024x176.jpg)
 

@@ -35,7 +35,7 @@ Therefore, customer relations involves continuous improvisation in your services
 
 Furthermore, it is crucial to understand that customer relations depend not on one individual but on all the employees. Hence, to form concrete customer relations, a business requires every employee to fulfil their share of responsibility towards customer support.  
 
-[PwC](https://www.pwc.com/future-of-cx) surveyed 15,000 customers and found that 1 in 3 customers will let go of a good brand after just one bad experience, while 92% would completely abandon a company after two negative experiences.
+PwC surveyed 15,000 customers and found that 1 in 3 customers will let go of a good brand after just one bad experience, while 92% would completely abandon a company after two negative experiences.
 
 Also, you might want to know that customer relations differ slightly from customer service. 
 

@@ -33,7 +33,7 @@ There is even [research](https://www.nature.com/articles/ncomms5800) showing tha
 
 ![human identity ](image-3.jpg) Hands, ca. 7300 BC, at the Cuevas de las Manos upon Río Pinturas, Argentina. Photo by Mariano Cecowski [https://commons.wikimedia.org/wiki/File:SantaCruz-CuevaManos-P2210651b.jpg](https://commons.wikimedia.org/wiki/File:SantaCruz-CuevaManos-P2210651b.jpg)
 
-For an example of written identity in prehistory, we can look at cave markings showing stencilled handprints. [Archeologists disagree on the meaning behind cave handprints](https://www.bradshawfoundation.com/news/cave_art_paintings.php?id=The-Secrets-of-Prehistoric-Hand-Paintings)—they could be warning messages or part of shamanic practice—but to our modern eyes they look like signatures or graffiti tags, a way of saying, “I was here.” 
+For an example of written identity in prehistory, we can look at cave markings showing stencilled handprints. Archeologists disagree on the meaning behind cave handprints—they could be warning messages or part of shamanic practice—but to our modern eyes they look like signatures or graffiti tags, a way of saying, “I was here.” 
 
 ![human identity](image-4.jpg) Forensic reconstruction of Oase 2 skull dating to 35,000 BC [https://commons.wikimedia.org/wiki/File:Neanderthaler,\_Oase,\_Rum%C3%A4nien\_(Daniela\_Hitzemann).jpg](https://commons.wikimedia.org/wiki/File:Neanderthaler,_Oase,_Rum%C3%A4nien_(Daniela_Hitzemann).jpg)
 

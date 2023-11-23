@@ -44,7 +44,7 @@ The firm revealed that 925 million of its users an average of once a month use t
 
 ### 3. EA Suffers a Data Breach
 
-Hackers broke into Electronic Arts (EA), the video-game publisher behind Battlefield, FIFA, and The Sims, and [stole detailed source code](https://www.theverge.com/2021/6/10/22528003/ea-data-breach-frostbite-fifa-internal-tools-hack) to FIFA 21, the Frostbite engine, and other game development tools. 
+Hackers broke into Electronic Arts (EA), the video-game publisher behind Battlefield, FIFA, and The Sims, and stole detailed source code to FIFA 21, the Frostbite engine, and other game development tools. 
 
 Other reputable game creators are unlikely to utilize EA's code without permission, but malevolent hackers might use it to cheat or breach a game or engine. A data hack might expose confidential projects and game concepts. Breaching of security is also bad for a company's reputation.
 
