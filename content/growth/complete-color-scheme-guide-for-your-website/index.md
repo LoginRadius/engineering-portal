@@ -12,7 +12,7 @@ metadescription: "Don't Know Which Colors will suit your Website? Here's the Com
 
 
 
-Did you know [90% of all product](https://blog.bufferapp.com/the-science-of-colors-in-marketing-why-is-facebook-blue) assessments are based on colors and [85% of buyers](https://www.quicksprout.com/2014/01/24/how-colors-affect-conversion-rate/) select a product on the basis of its color? 
+Did you know [90% of all product](https://blog.bufferapp.com/the-science-of-colors-in-marketing-why-is-facebook-blue) assessments are based on colors and 85% of buyers select a product on the basis of its color? 
 
 Hence, selecting a perfect color plan for your website is important. But, it can seem like a tough game- especially if you do not trust your color senses. I have seen people getting nervous or confused when it comes to decide a color scheme for anything. It may because they are not confident at the deciding stuff or may be they are color blind.
 

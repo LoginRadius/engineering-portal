@@ -309,7 +309,7 @@ The neat and clean interface makes it very easy for business to get themselves l
 
 ![Listing your business on ablocal]( Listing-your-business-on-ablocal.gif)
 
-### **22\. Salespider: [http://www.salespider.com/](http://www.salespider.com/)**
+### **22\. Salespider: [http://www.salespider.com/](https://www.salespider.com/Free-Business-Directory-Tools-Articles)**
 
 - Domain Authority Score  : 57
 - Page Authority                 : 47
@@ -428,7 +428,7 @@ They are listed in the format : Website(DA, PA, Alexa, Category)
 7. [Priceline](https://www.priceline.com/)  (78, 82, 1479, Hotel)
 8. [Weddingwire](https://www.weddingwire.com/)  (87,90, 14140, Wedding)
 9. [Wikia](http://www.wikia.com/)  (76, 78, 84, Media & Entertainment)
-10. [Hotels](https://www.hotels.com) (85, 88, 773, Hotel)
+10. [Hotels](https://in.hotels.com/?locale=en_IN&pos=HCOM_IN&siteid=300000036) (85, 88, 773, Hotel)
 11. [Kayak](https://www.kayak.com/)  (82, 86, 973, Hotel)
 12. [Yell](https://www.yell.com/)  (81, 84, 9474, B2C)
 13. [Mojopages](https://www.mojopages.com)  (58, 65, 584429, B2C)
@@ -447,6 +447,6 @@ They are listed in the format : Website(DA, PA, Alexa, Category)
 26. [Partypop](http://www.partypop.com/)  (48, 56, 728533, Event Management)
 27. [Boulevards](http://www.boulevards.com/)  (49, 8, 1889387, B2C)
 28. [Ziphip](http://www.ziphip.com/)  (28, 31, 3630524, B2C)
-29. [Homeownerscircle](http://homeownerscircle.com/)  (25, 36, 963864, B2C)
+
 
 I hope you too reap benefits with its practice. May your business improve its online presence, outreach more customers, and generate maximum revenue. Please comment below to share your experience, enrich the list or any other suggestions.

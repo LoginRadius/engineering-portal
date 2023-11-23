@@ -93,9 +93,9 @@ You can add as many users as you wish in [Zoho Projects](https://www.zoho.com/pr
 
 The software package has three components in it:-
 
-- [Work 2-gether](http://2-plan.com/scrum-taskboard-online-work-2-gether-team-tools.html)\- Scrum based task management board (used in projects consisting of a single team). Works like Trello as it uses Kanban system and can develop itself into a detailed workchart.
-- [2-Plan Team](http://2-plan.com/open-source-project-software-2-plan-team.html)\- web-based tool with numerous hosting options
-- [2-Plan Desktop](http://2-plan.com/free-project-management-software-2-plan-desktop.html)\- Project management tool (integrates seamlessly)
+- Work 2-gether\- Scrum based task management board (used in projects consisting of a single team). Works like Trello as it uses Kanban system and can develop itself into a detailed workchart.
+- 2-Plan Team\- web-based tool with numerous hosting options
+- 2-Plan Desktop\- Project management tool (integrates seamlessly)
 
 **The Good Side:-**
 

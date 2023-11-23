@@ -86,4 +86,4 @@ A JAMStack backend is a content API that returns JSON/XML. This API can be a  ho
  - [JAMstack on CSS-Tricks](https://css-tricks.com/tag/jamstack/)
  - [JAMstack_conf](https://jamstackconf.com/)
  - [JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)
- - [JAMstack examples](https://jamstack.org/examples/)
+ - JAMstack examples

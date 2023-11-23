@@ -218,7 +218,7 @@ M.directory offers high-quality leads through range of hundreds of channels incl
 
 ![mdirectory.m]( mdirectory.m.gif)
 
-### **17\. Digi Britain****:** **[https:/www.digibritain.co.uk/](https://www.digibritain.co.uk/)**
+### **17\. Digi Britain**
 
 - Domain Authority Score:  32
 - Page Authority:                   43
@@ -302,25 +302,24 @@ The sites are written in the format - Website (DA, PA, Alexa, Category)
 52. [Tradeford](http://www.tradeford.com/) (49, 57, 116304, Chemicals, computers)
 53. [Colour pages](http://www.colourpages.com/) (29, 37, 2522505, Pet shops, roofing service)
 54. [Firstfriday network](https://www.firstfriday-network.co.uk/) (31, 42, 5193345, B2C)
-55. [4networking](https://www.4networking.biz/) (50, 59, 242424, B2C)
-56. [Just landed](https://www.justlanded.com/) (65, 71, 17661, Property, Classifieds)
-57. [Vod ski](https://www.vodski.co.uk/) (17, 27, 475297, Electricians, vehicles service)
-58. [Ibizbook](http://ibizbook.com/) (30, 18, 393931, Carpenter, Doctor, Sweeper)
-59. [Infobel](http://www.infobel.com/) (72,75, 21298, Company, person)
-60. [Smartguy](http://www.smartguy.com/) (42, 50, 347289, Insurance, pest control)
-61. [Gb.enrollbusiness](https://gb.enrollbusiness.com/) (46, 35, 60396, Travel, shopping)
-62. [Whodoyou](https://www.whodoyou.com/) (42, 50, 137337, Plumber, lawyer)
-63. [Wheresbest](http://www.wheresbest.co.uk/) (33, 40, 721348, Home accessories)
-64. [B99](http://b99.co.uk/) (34, 37, 1087034, Pub, hotels. General services)
-65. [Cornerstones world](http://cornerstonesworld.com/) (31, 41, 2442645, Health, E-commerce)
-66. [Place123](http://www.place123.net/) (28, 36, 624179, Hotels)
-67. [My 118 information](http://my118information.co.uk/) (34, 1, 905671, B2C)
-68. [Pest control portal](http://pestcontrolportal.com/) (30, 32, 4831156, Pest control)
-69. [Architecture firms](http://architecturefirms.co.uk/) (21, 34, 6316471, Home builders)
-70. [Doggie pubs](http://doggiepubs.org.uk) (37,36, 1682721, Pets)
-71. [Professional security](http://professionalsecurity.co.uk) (44, 29, 842449, Security services)
-72. [Gig-guide](http://gig-guide.co.uk) (40, 33, 1798516, Music festival)
-73. [Uk campsite](http://ukcampsite.co.uk) (49, 44, 55970, Travel)
-74. [Hotel accommodation uk](http://hotelaccommodationuk.co.uk/) (18, 30, – , Hotels)
+55. [Just landed](https://www.justlanded.com/) (65, 71, 17661, Property, Classifieds)
+56. [Vod ski](https://www.vodski.co.uk/) (17, 27, 475297, Electricians, vehicles service)
+57. [Ibizbook](http://ibizbook.com/) (30, 18, 393931, Carpenter, Doctor, Sweeper)
+58. [Infobel](http://www.infobel.com/) (72,75, 21298, Company, person)
+59. [Smartguy](http://www.smartguy.com/) (42, 50, 347289, Insurance, pest control)
+60. [Gb.enrollbusiness](https://gb.enrollbusiness.com/) (46, 35, 60396, Travel, shopping)
+61. [Whodoyou](https://www.whodoyou.com/) (42, 50, 137337, Plumber, lawyer)
+62. [Wheresbest](http://www.wheresbest.co.uk/) (33, 40, 721348, Home accessories)
+63. [B99](http://b99.co.uk/) (34, 37, 1087034, Pub, hotels. General services)
+64. [Cornerstones world](http://cornerstonesworld.com/) (31, 41, 2442645, Health, E-commerce)
+65. [Place123](http://www.place123.net/) (28, 36, 624179, Hotels)
+66. [My 118 information](http://my118information.co.uk/) (34, 1, 905671, B2C)
+67. [Pest control portal](http://pestcontrolportal.com/) (30, 32, 4831156, Pest control)
+68. [Architecture firms](http://architecturefirms.co.uk/) (21, 34, 6316471, Home builders)
+69. [Doggie pubs](http://doggiepubs.org.uk) (37,36, 1682721, Pets)
+70. [Professional security](http://professionalsecurity.co.uk) (44, 29, 842449, Security services)
+71. [Gig-guide](http://gig-guide.co.uk) (40, 33, 1798516, Music festival)
+72. [Uk campsite](http://ukcampsite.co.uk) (49, 44, 55970, Travel)
+73. [Hotel accommodation uk](http://hotelaccommodationuk.co.uk/) (18, 30, – , Hotels)
 
 Lastly, these are the top citation sites that helped me in making my business grow in UK. Citations are undoubtedly a great way to improve your local business and that’s why I always keep looking for new websites to add in the list. So if you come across a high authority citation website, I would love to know about it in the comments below.

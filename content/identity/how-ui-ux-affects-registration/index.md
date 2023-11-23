@@ -14,7 +14,7 @@ With the growing need to be online, people are logging into far too many website
 
 It is a bad experience for users and definitely not good news for businesses too!
 
-User experience dominates everything else in today’s marketplace. Among 4.8 billion internet users today, [73% of people prefer user experience](https://www.pwc.com/future-of-cx) over price in their choice of brand. 
+User experience dominates everything else in today’s marketplace. Among 4.8 billion internet users today, 73% of people prefer user experience over price in their choice of brand. 
 
 It is pretty obvious now that brands should seek new ways to deliver an exceptional customer experience. 
 

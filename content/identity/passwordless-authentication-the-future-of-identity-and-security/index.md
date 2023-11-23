@@ -60,7 +60,7 @@ Also, when a person donates to an NGO, they can have their payment information l
       
     Passwordless authentication only takes a few basic steps and works on both websites and mobile applications alike. 
 
-- **Increased cost-effectiveness**: Passwords require constant maintenance. According to Forrester, the [average cost of one password reset](https://blog.lastpass.com/2018/05/new-forrester-report-real-cost-password-risks.html/) for a company is $70. For large enterprises, this figure reaches $1 million USD each year.   
+- **Increased cost-effectiveness**: Passwords require constant maintenance. According to Forrester, the average cost of one password reset for a company is $70. For large enterprises, this figure reaches $1 million USD each year.   
       
     Needless to say, eliminating passwords will not just save time and productivity, but also a bulk load of expenses.
 

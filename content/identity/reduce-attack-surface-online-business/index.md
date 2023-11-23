@@ -15,7 +15,7 @@ metadescription: "As the tech environment expands, it brings along more potentia
 
 However, data shows otherwise. 
 
-According to a [survey conducted by Insight](https://finance.yahoo.com/news/78-lack-confidence-company-cybersecurity-153000182.html), almost 80% of IT leaders were not confident about their IT security position; despite an increase in IT security investments by these companies.
+According to a survey conducted by Insight, almost 80% of IT leaders were not confident about their IT security position; despite an increase in IT security investments by these companies.
 
 More and more organizations are exposing their networks and critical assets to a [cyber security risk](https://www.loginradius.com/blog/fuel/how-ciso-can-improve-collaboration-on-security-risks/) by employing external contractors and enabling an entire workforce to work remotely.
 

@@ -26,7 +26,7 @@ A few recent data breaches include:
 
 - In March 2020, Marriott announced that [data of 5.2 million guests](https://news.marriott.com/news/2020/03/31/marriott-international-notifies-guests-of-property-system-incident) have been accessed using the login credentials of two employees at a franchise property.
 - In May 2020, low-cost airline EasyJet revealed that a "highly-sophisticated attacker" [stole nine million consumers' personal data](https://www.bbc.com/news/technology-52722626#:~:text=EasyJet).
-- A single [ransomware attack at Blackbaud](https://www.idtheftcenter.org/blackbaud-ransomware-attack-significantly-impacts-q3-data-breach-trends/?utm_source=web&utm_medium=pressrelease101420&utm_campaign=Q32020BreachTrends) exposed information from at least 247 organizations that have issued their own breach notices as of September, 2020. Of the 247 organizations to issue breach notices to their consumers, only 58 have disclosed the number of individuals impacted by the breach – 6,981,091. 
+- A single ransomware attack at Blackbaud exposed information from at least 247 organizations that have issued their own breach notices as of September, 2020. Of the 247 organizations to issue breach notices to their consumers, only 58 have disclosed the number of individuals impacted by the breach – 6,981,091. 
 - A [study by KPMG](https://www.retaildive.com/news/survey-19-of-consumers-would-avoid-a-retailer-after-security-breach/425006/) states that 19% of consumers would completely stop shopping at a retailer after a breach and 33% would take a break from shopping there for an extended period.
 
 The above statistics have serious implications for online retailers, mainly when trust and consumer confidence in your brand is the only way to ensure success. 

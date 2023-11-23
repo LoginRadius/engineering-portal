@@ -57,7 +57,7 @@ Selector's type affects the performance of your site. SizzleJS is a smart select
 - Attribute ($("\[Attribute='Value'\]")) \= Slow
 - Pseudo ($(":pseudo")) \= Slower
 
-You can verify performance from [here](https://jsperf.com/id-vs-class-vs-tag-selectors/). In some exceptional cases, the selection of those tags does not matter; It’s all in the combination of the selectors. Because, it affects the performance of your site, let's discuss this on next point.
+You can verify performance. In some exceptional cases, the selection of those tags does not matter; It’s all in the combination of the selectors. Because, it affects the performance of your site, let's discuss this on next point.
 
 #### Selecting ID selector first and then other ones
 
@@ -75,7 +75,7 @@ Both of these variant represent the same thing but in the term of performance, s
 
 In the second one, the selector engine will go through the DOM again but, this time, it’ll only look for #someId and then find the rest inside that element without going through the DOM again.
 
-[See](https://jsperf.com/does-order-of-selectros-matters) how this will affect performance.
+See how this will affect performance.
 
 #### Being more specific in right hand side instead of left hand side
 
