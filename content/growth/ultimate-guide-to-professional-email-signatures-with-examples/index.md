@@ -120,8 +120,6 @@ Most of the brands these days are opting for the modern email signature approach
 
 ![modern style professional email signature]( Modern-Style-Professional-Email-Signature.jpg?ver=1553881376)
 
-[Source](https://graphicriver.net/item/luxe-email-signatures/10958556)
-
 #### **10\. Test your email signature with more than one email clients to make sure it works fine :**
 
 Finally, now that you have created the best email signature that goes with your personality, don’t forget to test it across various email clients. For eg, when you talk about Microsoft outlook, it doesn’t recognize the background images so don’t use them. Testing across various email clients will provide you surety that your email signature looks as good as you thought.

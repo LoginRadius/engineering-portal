@@ -49,7 +49,7 @@ After long research and practical implementation, I am happy  to list down some
 
 CanadaOne is one of the most trusted B2B website for news, latest updates, trends and support for Canadian Business today. You can submit your business for free. For better results, you can also list your business by just paying 47$ for a year. You can easily list your business after choosing your plan, filling up all the required details and by verifying the confirmation email that is sent by CanadaOne to your business email. Customers can easily find your business by searching your business name on search option.
 
-### **2\. Salesspider: [http://www.salespider.com/](http://www.salespider.com/)**
+### **2\. Salesspider: [http://www.salespider.com/](https://www.salespider.com/Free-Business-Directory-Tools-Articles)**
 
 - Domain Authority Score : 51
 - Page Authority : 59

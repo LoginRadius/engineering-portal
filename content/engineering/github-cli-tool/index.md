@@ -11,7 +11,7 @@ _The [GitHub CLI] (<https://cli.github.com/>) is a recent GitHub released tool t
 
 ****Installation of GitHub CLI 💡****
 
-GitHub CLI has [releases](https://cli.github.com/manual/installation) with significant operating systems, visit the [installation](https://cli.github.com/manual/installation) page and find instructions on how to install GitHub CLI for your operating system.
+GitHub CLI has releases with significant operating systems, visit the installation page and find instructions on how to install GitHub CLI for your operating system.
 
 For [Windows] and [macOS], you will use the package managers to update and maintain GitHub CLI, and for [Linux](https://github.com/cli/cli/releases/tag/v1.0.0) users, you may need to grab the software from the latest release website.
 

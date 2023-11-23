@@ -29,7 +29,7 @@ Society is constantly becoming more digitalized. Online services completely chan
 - Digital users are aware of what new technology can do ([SuperOffice](https://www.superoffice.com/blog/digital-transformation/))
 - They expect a frictionless experience ([Whitepages Pro](https://www.globenewswire.com/news-release/2018/08/21/1554497/0/en/New-Report-Shows-Identity-Verification-a-Priority-for-eCommerce-and-Online-Lending-Businesses.html))
 - They prefer self-service over human assistance ([Whitepages Pro](https://www.superoffice.com/blog/customer-self-service/))
-- They expect an [omnichannel](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) experience ([Accenture](https://www.accenture.com/us-en/~/media/accenture/conversion-assets/dotcom/documents/global/pdf/technology_7/accenture-customer-desires-vs-retailer-capabilities.pdf))
+- They expect an [omnichannel](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) experience.
 
 Rakesh also stressed that digital users want quick, hassle-free service when: 
 

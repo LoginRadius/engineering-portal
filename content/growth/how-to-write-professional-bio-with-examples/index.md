@@ -41,7 +41,7 @@ Now, I don’t mean you have to add all of them. Just add the most relevant ones
 
 Writing an author bio demands consistency to engage your readers. And you may need to write different kinds of professional bios- long, short or micro (two-liners) according to the various websites (includes social networking sites as well) you may approach or choose. Now as your readers can view all your bios, they should be same. But many professional bios fail to serve the purpose.
 
-[**Character Limits for Professional Bios on Social Media**](https://www.pearcemarketing.co.uk/social-media-profile-cover-photo-sizes-bio-character-limits-2015-2/)
+[**Character Limits for Professional Bios on Social Media**](https://pearcemarketing.co.uk/marketing-tips/)
 
 - Facebook Short Description: Limited at 155 characters
 - LinkedIn Professional Bio Length: Limited at 120 characters

@@ -151,7 +151,7 @@ Kudos! You are another step closer to create an artistically stunning image.
 
 ### **Adding Videos on Instagram**
 
-Videos are considered to have the [best ROI by 52%](https://theblog.adobe.com/seo-for-success-in-video-marketing/) marketers. Moreover, videos are more engaging than images. Hence, it is a good idea to put some effort in finding and posting a video which will give you more engagement and followers on your account. Make sure that you provide credits to the source of your video on your profile.
+Videos are considered to have the best ROI by 52% marketers. Moreover, videos are more engaging than images. Hence, it is a good idea to put some effort in finding and posting a video which will give you more engagement and followers on your account. Make sure that you provide credits to the source of your video on your profile.
 
 ### **Posting Video Ads**
 

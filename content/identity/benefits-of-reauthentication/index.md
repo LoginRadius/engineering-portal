@@ -32,7 +32,7 @@ Thus, a re-authentication is considered ideal for the elimination of password fa
 
 There are many instances where users forget their passwords and are locked out of their system due to multiple wrong attempts. This issue is often resolved with the aid of the IT call center. However, the process of resetting the password in high-security systems is very time-consuming and costly.
 
-The [average cost for the IT department](http://www.mandylionlabs.com/PRCCalc/PRCCalc.htm) to reset a password is $70, and around 50% of the IT department focuses on resetting the password.
+The average cost for the IT department to reset a password is $70, and around 50% of the IT department focuses on resetting the password.
 
 Re-authentication ensures that there is minimal effort to be put on behalf of the IT department. It is both a cost-effective and time-saving mode of usage.
 

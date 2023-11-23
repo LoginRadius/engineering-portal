@@ -155,7 +155,7 @@ It is a good practice to keep devices locked at all times. Prying eyes can be an
 
 ### 17. Do not overshare.
 
-No genuine website asks for [consumers' Social Security number](https://www.consumer.ftc.gov/articles/0248-do-you-need-new-social-security-number) (SSN) to complete a transaction. So, if they are doing it, they are most certainly phishing attempts. Encourage your consumers to call the consumer service for more details before handing out sensitive information. 
+No genuine website asks for consumers' Social Security number (SSN) to complete a transaction. So, if they are doing it, they are most certainly phishing attempts. Encourage your consumers to call the consumer service for more details before handing out sensitive information. 
 
 
 ## How LoginRadius Can Help in Securing Your Data Safe While Providing a Delightful Digital Experience

@@ -219,7 +219,7 @@ Yes, there's one!
 
 You can host the Streamlit application in [Streamlit Cloud](https://streamlit.io/cloud) for free. You can host up to 3 apps in an account for free with up to 1GB of memory.
 
-Check out [this tutorial](https://docs.streamlit.io/streamlit-cloud/community) from the community to host your app in Streamlit Cloud.
+Check out this tutorial from the community to host your app in Streamlit Cloud.
 
 ## Conclusion
 You can find the source code for this tutorial [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Python/OpenCV-Streamlit-Integration). The web app discussed above is [hosted here](https://share.streamlit.io/dingusagar/opencv-streamlit-demo/main/demo-app.py) if you want to try it out.

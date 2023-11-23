@@ -51,7 +51,7 @@ By leveraging APIs, developers can add them to their existing technology and sav
 
 With developers constantly bugged to build revenue-generating apps in shorter deadlines, IDaaS allows them to get the job done quickly, and simultaneously create high quality and secure output. 
 
-Furthermore, IDaaS has the potential to deliver a secure, streamlined on-demand identity expertise. Such strategies can also do a great deal to reduce internal tension and eventually bridge the gap [between developers and the security](https://dzone.com/articles/why-app-developers-need-to-adapt-ciam-today-more-t) workforce.
+Furthermore, IDaaS has the potential to deliver a secure, streamlined on-demand identity expertise. Such strategies can also do a great deal to reduce internal tension and eventually bridge the gap between developers and the security workforce.
 
 [![Guide-to-Modern-Customer-Identity-ebook](EB-Guide-to-Modern-Customer-Identity-1024x310.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 

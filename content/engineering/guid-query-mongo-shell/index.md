@@ -10,7 +10,7 @@ If you have stored a GUID through the C# driver to mongoDB and now you want to r
 
 **1. Convert GUID data to Base64**
 
-Convert you GUID data to base64 , you can use any online tool for this. I use this [http://guid-convert.appspot.com/](http://guid-convert.appspot.com/)
+Convert you GUID data to base64 , you can use any online tool for this. 
 
 So suppose your GUID is: 00112233-4455-6677-8899-aabbccddeeff
 
