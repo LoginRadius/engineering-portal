@@ -5,8 +5,8 @@ coverImage: "17-online-shopping-tips-for-consumer.jpg"
 tags: ["data protection","cybersecurity","ciam solution","mfa"]
 author: "Deepak Gupta"
 description: "Many people prefer shopping online these days rather than going to a conventional store. Therefore, securing the data of your customers online is an integral part of protecting the organisation as a whole. Your job is to let them shop with some of the best online shopping tips with confidence."
-metatitle: "How to Avoid Black Friday and Cyber Monday Shopping Scams"
-metadescription: "The best online shopping tips to secure your consumers this Black Friday and on Cyber Monday. Here’s how you can deliver an excellent consumer experience and stay ahead of  the scammers."
+metatitle: "How to Avoid Black Friday & Cyber Monday Shopping Scams"
+metadescription: "Secure your Black Friday & Cyber Monday spree with 17 expert tips for safe online shopping in 2023. Don't miss out on a secure and delightful experience!"
 ---
 
 Can the biggest shopping days of the year also be the biggest security disaster? 
@@ -23,17 +23,15 @@ But first, we have a few stats to share.
 
 Stay calm. While the holiday season is around the corner, some figures may be alarming, but that shouldn't keep you from encouraging your consumers to shop online. 
 
-## Black Friday & Cyber Monday Statistics that Shows What to Expect In 2021
+## Black Friday & Cyber Monday Statistics that Shows What to Expect In 2023 
 
-* In the United States alone, online shoppers spent [$9 billion USD](https://www.cnbc.com/2020/11/28/black-friday-2020-online-shopping-surges-22percent-to-record-9-billion-adobe-says.html) on the first day of the Black Friday weekend, which grew to $14 billion USD on Cyber Monday in 2020. This 5-day period accounted for around $34 billion USD in online sales. 
-* According to NCSC, its [Active Cyber Defence](https://www.ncsc.gov.uk/section/active-cyber-defence/introduction) (ACD) program identified 4,151 fake online retail websites that exploit vulnerabilities during checkout to divert payment and steal consumer data.
-* According to Imperva's "State of Security Within eCommerce", [57% of attacks](https://www.imperva.com/resources/resource-library/white-papers/the-state-of-security-within-e-commerce/) targeting retail websites were carried out by bots. 
+* Research from[ Finder](https://www.finder.com/black-friday-statistics) reveals that in 2023, a staggering 132 million Americans are set to engage in shopping activities throughout Cyber Week.
+* The prevalence of online shopping for Black Friday sales has risen, with an increasing number of individuals recognizing the convenience of shopping from the comfort of their homes. A [Drive Research study ](https://www.driveresearch.com/market-research-company-blog/black-friday-holiday-shopping-statistics/#BF2)indicates that approximately 68% of people intend to opt for online sales, while 27% plan to shop in-store, marking a 16% decrease from the 2022 figures.
+* According to Imperva's "State of Security Within eCommerce", [57% of attacks](https://www.imperva.com/resources/resource-library/white-papers/the-state-of-security-within-e-commerce/) targeting retail websites were carried out by bots.
 
 These statistics have significant consequences, especially when your business is built upon trust and consumer confidence. You need to be proactive about addressing all kinds of cybersecurity threats. 
 
-
-## The Biggest Online Shopping Cyber Attacks That 2021 Encountered
-
+## The Biggest Online Shopping Cyber Attacks
 
 ### DDoS attack
 
@@ -41,11 +39,9 @@ Distributed denial of service or DDoS attack is a malicious attempt where crimin
 
 DDoS assaults are a common occurrence around the [online retail industry](https://www.loginradius.com/blog/2020/04/loginradius-ciam-retail-ecommerce-business/), mostly because they are easy to deploy, and hackers can bring down a site in a matter of minutes. The damage to the victim is also almost immediate and expensive. 
 
-
 ### Card fraud
 
 In credit card fraud, hackers employ malicious bots to scan for vulnerabilities within online shopping sites to [steal card numbers](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/). Gift card fraud occurs when bots scan for possible gift card numbers within web applications until the valid ones are found. 
-
 
 ### Phishing scams
 
@@ -53,13 +49,11 @@ Phishing is one of the most common types of cyberattacks that consumers encounte
 
 Sometimes, hackers also send emails with malicious attachments hoping that the receiver would click them and have malicious infections downloaded to their system. 
 
-
 ### Consumer journey hijacking
 
 Consumer journey has become one of the key brand differentiators for enterprises-even surpassing factors like price and product. Consumers expect that their interaction with your brand is as seamless as possible. 
 
 Consumer journey hijacking is a cyberattack where hackers inject unauthorized advertisements (usually as pop-ups or banners) into the consumer's web browser. For example, they may ask the victim to click on the ads with the promise to secure a great deal or redeem a prize they won. 
-
 
 ## 17 Online Shopping Tips for Consumers To Follow While Shopping During This Holiday Season
 
@@ -177,5 +171,27 @@ Here how you get personalized marketing, 360-degree customer profiling, data saf
 Safe online shopping tips are essential to providing excellent experiences to both [consumers and retailers alike](https://www.loginradius.com/industry-retail-and-ecommerce/). It is a smart approach to know your immediate threats, so there is no room for mistakes. 
 
 The tips and solutions discussed above can protect your consumers from underlying threats this holiday season. Have a great shopping spree! 
+
+## FAQs 
+
+Q1. Why is security crucial during Black Friday and Cyber Monday shopping?
+
+A: These events attract cybercriminals; securing data is vital to prevent scams and breaches.
+
+Q2. What are common online shopping threats mentioned in the blog?
+
+A: DDoS attacks, card fraud, phishing scams, and consumer journey hijacking.
+
+Q3. How can consumers protect themselves while shopping online?
+
+A: Tips include using trusted sites, avoiding public Wi-Fi, and employing VPNs.
+
+Q4. What's the role of multi-factor authentication in online shopping security?
+
+A: It adds an extra layer, ensuring the right users access their accounts.
+
+Q5. How can businesses enhance data security during these events?
+
+A: Solutions like LoginRadius offer secure registration, 360-degree consumer views, and multi-factor authentication.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
