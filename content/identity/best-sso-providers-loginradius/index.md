@@ -2,11 +2,10 @@
 title: "Best SSO Provider: Why LoginRadius Is Considered As The Best SSO Solution"
 date: "2020-09-11"
 coverImage: "best-sso-provider.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["sso","authentication","cx"]
 author: "Rakesh Soni"
 description: "A unique authentication mechanism that allows users to access several programmes with a single set of credentials, such as a username and password, is Single Sign-on (or SSO)."
-metatitle: "Best SSO Provider: Why LoginRadius is the Best SSO Solution | LoginRadius"
+metatitle: "Best SSO Provider: Why Choose LoginRadius for Growth"
 metadescription: "Discover why LoginRadius is the best SSO provider for your enterprise. Find out what features make LoginRadius identity platform better than its competitors."
 ---
 
