@@ -64,6 +64,7 @@ const SEO = ({
           >
             <title lang="en">{seo.title}</title>
             <link rel="icon" href={withPrefix("/favicon.png")} />
+            <link rel="canonical" href={seo.url} />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
