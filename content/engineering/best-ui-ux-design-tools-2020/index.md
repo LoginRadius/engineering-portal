@@ -9,16 +9,44 @@ description: "As a designer, often wondered which new tools and utilities, other
 
 # **Contents**
 
-1. Inspiration
-2. Colour
-3. Components
-4. Mockups
-5. Design System
-6. Font
-7. Prototyping Tools
-8. Free Stock Photos
-9. Tools that speed up your workflow
-10. Collaboration Tools
+1. UX Design Education
+2. Inspiration
+3. Colour
+4. Components
+5. Mockups
+6. Design System
+7. Font
+8. Prototyping Tools
+9. Free Stock Photos
+10. Tools that speed up your workflow
+11. Collaboration Tools
+
+## **UX Design Education**
+
+Found the world-class UX Design Courses.
+
+### 1. **Interaction Design Foundation - UX Foundation Courses**
+
+Your one-stop design school to learn new design skills.
+
+[Website ](https://www.interaction-design.org/)| [Courses](https://www.interaction-design.org/courses)  |  [Topics ](https://www.interaction-design.org/literature/topics) |  [Join our community](https://www.interaction-design.org/join)
+
+### 2. **Udemy**
+
+We share knowledge with the world.
+
+[www.udemy.com](https://www.udemy.com/)
+
+### 3. **Dribble**
+Learn to think like a UX designer and gain the concepts, skills, and confidence to build your UX career.
+
+[www.dribbble.com/ux-diploma](https://dribbble.com/ux-diploma)
+
+### 4. **Coursera**
+
+We envision a world where anyone, anywhere has the power to transform their lives through learning.
+
+[www.coursera.org/](https://www.coursera.org/)
 
 ##  **Inspiration**
 
