@@ -173,4 +173,22 @@ LoginRadius has been at the forefront of offering a multilevel security web app 
 
 Apart from the steps mentioned in this article, it's essential to train and educate your employees about broken authentication attacks. It would be best if you also employed [top-notch cybersecurity measures](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) to protect your company's database from session hijacking, credential stuffing, and other broken authentication attacks. 
 
+FAQs
+
+Q: What is broken access authentication?
+
+A: Broken Access Authentication is a security vulnerability where flaws in the authentication process allow unauthorized access to systems, often due to issues like weak passwords or improper session management.
+
+Q: What is broken authentication in API?
+
+A: Broken authentication in APIs indicates vulnerabilities in their authentication mechanisms, making it possible for attackers to gain unauthorized access and potentially lead to data breaches or compromise sensitive information.
+
+Q: What is a breach of authentication?
+
+A: A breach of authentication occurs when unauthorized individuals exploit vulnerabilities to gain access to systems, risking the compromise of sensitive data and other critical functionalities.
+
+Q: How can we protect against broken authentication?
+
+A: Use strong passwords, enable [multi-factor authentication,](https://www.loginradius.com/multi-factor-authentication/) keep systems updated, secure session management, and conduct regular security audits to guard against broken authentication.
+
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
