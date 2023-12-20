@@ -5,7 +5,7 @@ coverImage: "revenue-generation.jpg"
 tags: ["digital identity management", "ciam", "compliance"]
 author: "Rakesh Soni"
 description: "Modern businesses quickly realize that leveraging digital identities as fuel for driving their organizational growth through personalization and robust identity security is becoming the need of the hour. This blog outlines the major depicting how identity management paves the way for organizational growth."
-metatitle: "Why is Identity Management Critical for Revenue Generation?"
+metatitle: "Role of Identity Management for Revenue Generation?"
 metadescription: "Identity management isn’t just about managing compliances; it is now globally used for revenue generation. Read this blog to know more."
 ---
 
