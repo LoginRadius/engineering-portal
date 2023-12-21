@@ -22,7 +22,7 @@ We understand the importance of quality content in enhancing your sales and lead
 
 This carefully curated list is tailored for you for a convenient and efficient exploration of our extensive collection of posts, offering valuable insights into CIAM and growth strategies. Let's explore. 
 
-### 10. 7 Benefits of Multi-Factor Authentication
+### #10. 7 Benefits of Multi-Factor Authentication
 
 When it comes to information security, the MFA plays a crucial role. It protects information from hacks, monitors employee accounts, and scares hackers away.
 
@@ -30,7 +30,7 @@ Besides this, even though their login credentials are leaked accidentally, MFA p
 
 [Read the blog](https://blog.loginradius.com/identity/benefits-of-mfa/)
 
-### 9. Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud [Infographic]
+### #9. Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud [Infographic]
 
 Cloud computing tenancy involves utilizing computing resources privately or publicly in an isolated environment, ensuring confidentiality from other users. 
 
@@ -38,7 +38,7 @@ In Software as a Service (SaaS), the tenancy is categorized into two types: sing
 
 [Check the infographic](https://www.loginradius.com/blog/identity/single-tenant-vs-multi-tenant/)
 
-### 8. What is User Management?
+### #8. What is User Management?
 
 A user management system forms an integral part of identity and access management (IAM) and is an essential security form. It enables administrators to grant access, manage user access, and control user accounts.
 
@@ -46,7 +46,7 @@ The blog covers all the aspects of user management and its key benefits for a bu
 
 [Read the blog](https://blog.loginradius.com/identity/what-is-user-management/)
 
-### 7. 7 Benefits of Single Sign-On and Why Your Business Needs It?
+### #7. 7 Benefits of Single Sign-On and Why Your Business Needs It?
 
 Securely handling thousands of accounts and related user data is challenging for users and IT administrators. Enterprises use single sign-on as a single strategy to improve IT security and user experience and cut IT costs in one go.
 
@@ -62,7 +62,7 @@ In truth, several errors can compromise the security of your account, making it 
 
 Unsurprisingly, security executives and advocates underscore the benefits of a secure and well-optimized login process. This emphasis is crucial from the consumer's standpoint and for maintaining business credibility.
 
-### #5.7 Common Web Application Security Threats
+### #5. 7 Common Web Application Security Threats
 
 Each year, attackers develop inventive web application security threats to compromise sensitive data and access their targets' databases. Consequently, security experts build on the exploited vulnerabilities and strengthen their systems through yearly learning.
 
@@ -88,7 +88,7 @@ This blog aims to provide a clearer understanding of what a token entails, its m
 
 [Read the blog](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/)
 
-### 2. Best Practices for Choosing Good Security Questions
+### #2. Best Practices for Choosing Good Security Questions
 
 Security questions can add an extra layer of certainty to your authentication process. They are an alternative way of identifying your consumers when they need to remember their password, enter the wrong credentials too many times, or try to log in from an unfamiliar device or location.
 
