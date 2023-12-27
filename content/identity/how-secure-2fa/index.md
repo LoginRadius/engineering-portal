@@ -5,7 +5,7 @@ coverImage: "how-secure-2fa-cover.jpg"
 tags: ["data security","2fa","mfa","cx"]
 author: "Navanita Devi"
 description: "While we know that it may seem childish to use a password and a username combination, unfortunately, many people don’t learn the risks associated with this type of authentication until they have been victimized by cybercrime. And when that happens, two-factor authentication is one the best ways to protect your consumers’ sensitive data from theft."
-metatitle: "How Secure is Two-Factor Authentication (2FA)? | LoginRadius"
+metatitle: "How Secure is Two-Factor Authentication (2FA)?"
 metadescription: "Two-Factor Authentication explained. Read this blog to understand how 2FA works, how secure it is and should you implement it for your digital consumers."
 ---
 

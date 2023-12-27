@@ -5,7 +5,7 @@ coverImage: "death-of-passwords.png"
 tags: ["passwordless authentication","ciam solutions","mfa","cx"]
 author: "Deepak Gupta" 
 description: "Are usernames and passwords really the best way to protect your customers? Check out this infographic and learn about the new technologies and authentication methods that are replacing passwords."
-metatitle: "The Death of Passwords [Infographic] | LoginRadius"
+metatitle: "The Death of Passwords [Infographic]"
 metadescription: "Explore this infographic of LoginRadius you should stop using passwords and what are the alternatives."
 ---
 

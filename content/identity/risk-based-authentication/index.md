@@ -2,14 +2,12 @@
 title: "What is Risk-Based Authentication"
 date: "2021-02-26"
 coverImage: "risk-based-authentication.png"
-tags: ["security"]
-featured: false 
+tags: ["data security","risk based authentication","cx"]
 author: "Rajeev Sharma"
 description: "RBA is a method of applying various levels of stringency to authentication processes based on the likelihood that the access to a given system could result in it being compromised. As the level of risk increases, authentication becomes more restrictive."
 metatitle: "What is Risk-Based Authentication"
 metadescription: "What is risk-based authentication and how it works. Learn why businesses should use RBA and learn how to implement it using the LoginRadius RBA feature."
 ---
-
 
 # What is Risk-Based Authentication
 Risk-based authentication is a non-static authentication system that considers the profile(IP address, Browser, physical Location, and so on) of a consumer requesting access to the system to determine the risk profile associated with that action. The risk-based implementation allows your application to challenge the consumer for additional credentials only when the risk level is appropriate.

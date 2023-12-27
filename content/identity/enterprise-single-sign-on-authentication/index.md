@@ -2,7 +2,7 @@
 title: "5 Reasons To Know Why B2C Enterprises Should Use Single Sign-On"
 date: "2019-06-18"
 coverImage: "sso-authentication.jpg"
-tags: ["web sso", "sso authentication", "federated sso"]
+tags: ["sso authentication","data security","cx"]
 author: "Rakesh Soni" 
 description: "Today, consumers want to log into one place and access all of their favorite sites and services using their preferred login credentials. Single sign-on is a great way to show your consumers that you care about their security and convenience."
 metatitle: "5 reasons to know why B2C Enterprises Should Use Single Sign-On"

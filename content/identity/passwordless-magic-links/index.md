@@ -2,8 +2,7 @@
 title: "The Future of Authentication is Passwordless With Magic links"
 date: "2021-05-05"
 coverImage: "passwordless-magic-links-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["passwordless login","authentication","cx"]
 author: "Navanita Devi"
 description: "By opting to add the magic link feature to your mobile apps or email accounts, you are likely trying to make your mobile app or site user-friendly, contributing to a strong security strategy. Here are some reasons for which you can opt passwordless magic links."
 metatitle: "Future of Authentication: Passwordless with Magic Links"
@@ -52,7 +51,6 @@ By opting to add the magic link feature to your mobile apps or email accounts, y
 ## Benefits of Using Magic Links
 
 There are plenty of benefits of using a passwordless magic link. They are as follows -
-
 
 
 *   **Easy authentication, deployment, and use:** When the user clicks the magic link, though the flow is similar to that of password reset, **[magic link login implementation](https://www.loginradius.com/blog/identity/2020/10/loginradius-launches-passwordless-login-with-magic-link-or-otp/)** includes some minor changes in the code at no extra cost.

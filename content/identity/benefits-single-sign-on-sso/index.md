@@ -2,10 +2,10 @@
 title: "7 Benefits of Single Sign-On (SSO) and Why Your Business Needs It"
 date: "2019-11-12"
 coverImage: "benefits-sso.jpg"
-tags: ["sso","federated sso","cx",]
+tags: ["single sign on","mfa","cx",]
 author: "Rakesh Soni"
 description: "Now that more enterprises are moving to the cloud, customers expect seamless access from anywhere, anywhere, and on any computer, to multiple applications. Likewise, as most large corporations have hundreds of touchpoints under different labels, trying to handle them all will strain their IT departments."
-metatitle: "7 Benefits of SSO & Why You Need It | LoginRadius"
+metatitle: "7 Benefits of SSO & Why You Need It"
 metadescription: "Learn the benefits of single sign-on. Find out how SSO reduces authentication-related complexities and how will it impact your business and productivity."
 ---
 
@@ -99,7 +99,6 @@ If SSO sounds like a good choice for your company, here’s how to get started.�
 *   **Web SSO**  is a browser-based session management system that allows consumers to access any connected web properties with a single identity.
 *   **Mobile SSO** works the same way as web SSO, except it unifies consumer sessions across multiple connected mobile applications. 
 *   **Federated SSO** utilizes IDPs to store and authenticate consumer identities to log in to third-party web portals, mobile applications, and more, depending on their configuration. Several identity protocols like SAML, JWT, OpenID Connect, OAuth, and Multipass are designed to authenticate consumers. 
-
 
 See how the [LoginRadius platform provides SSO](https://www.loginradius.com/single-sign-on/) (and more) in one easy-to-use platform. Book a free demo with us today. 
 

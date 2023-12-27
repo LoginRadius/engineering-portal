@@ -2,7 +2,7 @@
 title: "What is Social Login?"
 date: "2020-02-28"
 coverImage: "social-login.jpg"
-tags: ["social login","cx","social authentication","sso"]
+tags: ["social login","identity verification","cx"]
 author: "Vaibhav Jain" 
 description: "Social login is an attractive feature for developers and businesses that can help streamline consumer verification while also providing more reliable data access for personalization."
 metatitle: "What Is Social Login and Why Is It Good for Your Business?"

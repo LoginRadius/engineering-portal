@@ -2,11 +2,10 @@
 title: "Digital Transformation: Safeguarding the Customer Experience"
 date: "2018-10-03"
 coverImage: "digital-transformation-safeguarding.jpg"
-tags: ["public-sector"]
-featured: false 
+tags: ["digital transformation","customer identity management","cx"]
 author: "Rakesh Soni"
 description: "Superior customer service is one of the key factors for company success in today's digitally linked world. Personalization, which harnesses the power of digital transformation in order to create curated interactions that can fuel customer engagement and market differentiation, is at the core of the experience."
-metatitle: "Digital Transformation: Safeguarding the Customer Experience | LoginRadius"
+metatitle: "Digital Transformation: Safeguarding the Customer Experience"
 metadescription: "In today's digitally connected world, superior customer service is one of the key factors for company success in today's digitally linked world."
 ---
 

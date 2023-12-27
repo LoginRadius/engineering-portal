@@ -2,11 +2,10 @@
 title: "Data Governance Best Practices for Enterprises"
 date: "2020-07-22"
 coverImage: "Data-Governance-Best-Practices.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["data governance","compliance","cx"]
 author: "Rakesh Soni"
 description: "The world has undergone a massive transformation in governing the data and is establishing methods to standardize, integrate, and protect such information. The EU's General Data Protection Regulation implemented in 2018 was a masterstroke to the data governance arrangement."
-metatitle: "Data Governance Best Practices for Enterprises | LoginRadius"
+metatitle: "Data Governance Best Practices for Enterprises"
 metadescription: "Define your enterprise roles and responsibilities using the best practices of data governance and keep your user data safe."
 ---
 

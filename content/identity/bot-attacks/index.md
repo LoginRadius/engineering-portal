@@ -2,10 +2,10 @@
 title: "How To Secure Your Contact Form From Bot Attacks"
 date: "2020-12-24"
 coverImage: "bot-attacks.jpg"
-tags: ["data security","cx","ciam solution"]
+tags: ["data security","ciam solution","cx"]
 author: "Deepak Gupta"
 description: "It is no surprise that the contact form attracts a lot of bot attacks. Hackers not only create false traffic, but also result in malicious attacks on websites. The objective of this blog is to help you to secure contact form from random audacious attacks."
-metatitle: "How to make your contact form secure from Bots | LoginRadius"
+metatitle: "How to make your contact form secure from Bots"
 metadescription: "Secure contact form from bots attacks. Find the best ways to reduce and block contact form spams that are otherwise frustrating and time consuming to deal with."
 ---
 

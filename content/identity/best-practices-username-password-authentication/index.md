@@ -2,7 +2,7 @@
 title: "Best Practices for Username and Password Authentication"
 date: "2023-03-09"
 coverImage: "username-pswrd.jpg"
-tags: ["password authentication","password management","mfa","cx"]
+tags: ["passwordless authentication","user management","mfa","cx"]
 author: "Sudhanshu Agarwal"
 description: "While the username and password authentication method is convenient and widely used, it is also vulnerable to attacks and breaches, making it essential for organizations to implement best practices for secure authentication. Let’s discuss the best practices for username and password authentication to ensure the highest level of security."
 metadescription: "Learn about the best practices for username and password authentication to secure your online accounts. Read this blog to know more."
