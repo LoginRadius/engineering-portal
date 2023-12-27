@@ -2,8 +2,7 @@
 title: "What is User Session Management?"
 date: "2021-05-31"
 coverImage: "session_cover_pic.jpg"
-tags: ["security"]
-featured: false
+tags: ["user management","token authentication","cx"]
 author: "Keshav Kumar"
 description: "Implementing proper session management usually increases the strength and security of the session token.  And if you have not implemented it, then many vulnerabilities can be introduced with insecure session cookies that attackers can leverage to benefit an authenticated user session."
 metatitle: "What is User Session Management?"

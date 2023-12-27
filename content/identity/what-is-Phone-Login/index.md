@@ -2,8 +2,7 @@
 title: "What is Phone Login"
 date: "2021-02-26"
 coverImage: "PhoneLogin_cover_pic.jpg"
-tags: ["authentication"]
-featured: false
+tags: ["phone login","authentication","cx"]
 author: "Ashish Kumar Yadav"
 description: "Phone Login is a compelling and handy feature designed to enhance consumer experience and ease the process of login and registration. It eliminates the hassle of filling lengthy registration forms and creating new passwords and usernames, thereby allowing consumers to quickly login or register just by using their mobile phones."
 metatitle: "What is Phone Login"

@@ -2,11 +2,10 @@
 title: "E-commerce Security: 5 Ways to Enhance Data Protection During the Shopping Season"
 date: "2020-11-06"
 coverImage: "ecommerce-security.jpg"
-tags: ["security"]
-featured: false 
+tags: ["ecommerce security","data security","cx"]
 author: "Karl Wittig"
 description: "Security for e-commerce is a series of protocols that guarantee protected internet transactions. Major data violations have significantly eroded trust in digital security. Via common networks, consumers are comfortable making purchases. However, when it comes to sharing their credit card details with new businesses, they need a little more convincing."
-metatitle: "Ecommerce security: 5 ways to enhance data protection | LoginRadius"
+metatitle: "Ecommerce security: 5 ways to enhance data protection"
 metadescription: "Read this blog to understand the five ways in which E-commerce businesses can ensure safety for themselves and their customers."
 ---
 
