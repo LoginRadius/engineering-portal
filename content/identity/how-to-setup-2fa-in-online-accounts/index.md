@@ -2,8 +2,7 @@
 title: "How to Set Up Two-factor Authentication on All Your Online Accounts"
 date: "2021-01-12"
 coverImage: "how-to-setup-2fa-online-accounts.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["2fa","mfa","cx"]
 author: "Deepak Gupta"
 description: "2FA is one of the best security methods that use two layers to verify a consumer’s identity. This means, rather than simply entering the password to log into an account, two-factor authentication requires a code to be sent via text message to a consumer's phone number or generated through an app."
 metatitle: "How to Set Up 2FA on All Your Online Accounts"
@@ -16,13 +15,11 @@ Even though choosing a [strong password](https://www.loginradius.com/blog/identi
 
 First stop. 
 
-
 ## What is Two-Factor Authentication
 
 2FA is one of the best security methods that use two layers to verify a consumer's identity. This means, rather than simply entering the password to log into an account, two-factor authentication requires a code to be sent via text message to the consumer's phone number or generated through an app.
 
 This type of verification code helps and ensures that only the authorized consumer can access their account. Similarly, [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) offers two or more authentication layers to approve account access for consumers. 
-
 
 ## What are Authenticator Apps
 
@@ -34,9 +31,7 @@ All these apps follow the same procedure - when you are adding a new user accoun
 
 The next time you sign in to your app or service, it will ask for a numerical code. You need to open up the authenticator app and check the randomly generated authentication code to access your account securely.
 
-
 ## How to Set up 2FA on Your Social Media Accounts
-
 
 ![how-to-set-up-2fa-on-your-social-media-accounts](how-to-set-up-2fa-on-your-social-media-accounts.png)
 
@@ -46,11 +41,9 @@ A lot of applications offer 2FA currently, especially if you are storing importa
 
 Find out how to set up 2FA on your accounts: 
 
-
 ### 1. Google
 
 If you want to set up an authenticator on the Google account, first you need to download the Google Authenticator app available on the Play Store. Once downloaded, do the following:
-
 
 
 *   Go to Gmail and click the profile icon.

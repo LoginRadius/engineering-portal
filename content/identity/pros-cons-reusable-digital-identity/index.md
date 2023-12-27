@@ -2,7 +2,7 @@
 title: "The Pros & Cons of Reusable Digital Identity: What You Need To Know"
 date: "2022-06-14"
 coverImage: "reusable-id.jpg"
-tags: ["digital identity", "identity management", "identity management"]
+tags: ["digital identity management","compliance","cx"]
 author: "Alex Williams"
 description: "Keeping track of multiple digital identities is cumbersome and may lead users to adopt risky practices (like  duplicating passwords) just so they can remember them. A better way to deal with it is reusable digital identities. And as the technology matures, the upsides will only increase."
 metatitle: "The Pros and Cons of Reusable Digital Identity"
@@ -18,7 +18,6 @@ Things get even more complex when you add digital identities. With a new usernam
 Keeping track of all these identities is cumbersome and leads many users to adopt risky practices (e.g., duplicating passwords) just so they can remember them. There must be a better way, right?
 
 The answer lies in reusable digital identities.
-
 
 ## What is a Reusable Digital Identity?
 

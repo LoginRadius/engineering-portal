@@ -2,11 +2,10 @@
 title: "Build vs Buy: Securing Customer Identity with Loginradius"
 date: "2020-07-16"
 coverImage: "Build-vs-Buy-Securing-Customer-Identity.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["ciam solution","mfa","compliance"]
 author: "Rakesh Soni"
 description: "The most important assets of any company are customer identification and personal data. In most situations, businesses come across two simple options when designing a platform that collects, handles, and uses consumer data: to create or to purchase."
-metatitle: "Build vs Buy: Securing Customer Identity | LoginRadius"
+metatitle: "Build vs Buy: Securing Customer Identity"
 metadescription: "A comprehensive guide on building vs buying IAM solutions. Read this blog to find out which is the most cost-effective option for your business."
 ---
 

@@ -2,8 +2,7 @@
 title: "What is Progressive Profiling and How it Works?"
 date: "2021-04-08"
 coverImage: "progressive-profiling-cover.jpg"
-tags: ["Security"]
-featured: false 
+tags: ["progressive profiling","ciam platform","cx"]
 author: "Shachindra Saxena"
 description: "Progressive profiling is emerging as an effective way of cementing the trust gap between the company and its consumers. It is a systematic approach to collecting critical information through smart forms that ask questions intended to guide prospective consumers across the sales funnel. This article details how progressive profiling works and its benefits for your enterprise."
 metatitle: "Progressive Profiling- What is it and How it works?"
@@ -42,15 +41,11 @@ For example, if the consumer has already provided their name, an unanswered ques
 
 Different marketing automation tools use varying ways of setting up progressive profiling. But all of them have the following three things in common:
 
-
-
 *   Defining a list of questions that helps with lead generation. 
 *   Adding them strategically to the progressive profiling queue
 *   Establishing a particular order in which those questions should appear on the consumer's screen.
 
 The following example will explain this better. A company's marketing team prepares a list of questions they want to ask, such as:
-
-
 
 *   Email address
 *   First name
@@ -65,7 +60,6 @@ Then they add these questions to the marketing automation tool. After that, they
 ## What Are the Benefits of Progressive Profiling
 
 The three most significant benefits of progressive profiling are:
-
 
 
 *   Shorter forms that the visitor can fill within a few seconds.

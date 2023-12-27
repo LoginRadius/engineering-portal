@@ -2,7 +2,7 @@
 title: "What is Dynamic Authorization & Why Does it Matter?"
 date: "2022-11-17"
 coverImage: "dynamic-authorization.jpg"
-tags: ["authentication", "authorization", "data breaches"]
+tags: ["dynamic authorization","compliance","cx"]
 author: "Sudhanshu Agarwal" 
 description: "Dynamic authorization rewards customers with the security they need and effectively improves their experience with your brand. It helps to meet your customer’s needs and, at the same time, gives you much more control over how users access your services."
 metatitle: "What Is Dynamic Authorization & How It Enhances Security?"

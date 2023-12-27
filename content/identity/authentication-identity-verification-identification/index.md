@@ -2,7 +2,7 @@
 title: "Authentication, Identity Verification, and Identification: What's the Difference"
 date: "2022-07-06"
 coverImage: "auth-identity.jpg"
-tags: ["authentication", "identification", "verification", "ciam"]
+tags: ["authentication","identity verification","identity security"]
 author: "Deepak Gupta"
 description: "People usually consider authentication, id verification, and identification the same thing, but they are entirely different when we see stuff through the lens of information security experts. Learn the fundamental differences between the three and the importance of each from an information security perspective."
 metatitle: "Authentication, Identity Verification, and Identification"
@@ -45,7 +45,6 @@ Verifying identities is a crucial security measure that mitigates the risks of f
 
 On the other hand, digital identity verification is the process of verifying the identity of an individual by using computer technology. Digital identity document verification can help businesses and governments verify users' identities online. 
 
-
 ## What is Identification?
 
 Identification refers to identifying a person through [identity proof](https://www.loginradius.com/blog/identity/identity-proofing/) to ensure no unauthorized person accesses sensitive information. 
@@ -80,14 +79,11 @@ Apart from this, the sudden paradigm shift towards online platforms has also inc
 
 Also, specific privacy and [data security compliances](https://www.loginradius.com/compliances/) like the GDPR and CCPA require organizations storing consumer information to adhere to their regulations to ensure maximum consumer safety. In contrast, their data is being collected, stored, and managed.
 
-
 ## How LoginRadius Help with Authentication, Identity Verification, and Identification?
 
 LoginRadius' [modern CIAM ](https://www.loginradius.com/blog/identity/new-age-ciam/)solution is designed to be more flexible and intuitive. It addresses every subtle component that can improve consumers' experience while providing an unmatched safeguard for private data.
 
 What puts LoginRadius ahead of the curve are the three most fundamental aspects:
-
-
 
 * **Frictionless security:** Strengthened security doesn't have to come at the cost of convenience. LoginRadius' modern CIAM solution like MFA, passwordless login, phone login, social login, etc., ensures no friction while authenticating.
 * **Privacy management:** Proficient [privacy management](https://www.loginradius.com/blog/identity/privacy-policy-management/) is the key to winning consumers' trust. Our new-age CIAM solution considers every subtle privacy concern related to international regulations like the GDPR and the CCPA.
@@ -95,6 +91,5 @@ What puts LoginRadius ahead of the curve are the three most fundamental aspects:
 * **MFA and RBA:** LoginRadius offers stringent account security through multi-factor authentication that only authenticated users can access accounts or systems. Also, risk-based authentication ensures robust security in high-risk situations. 
 
 If you wish to experience the next level of account security and authentication, reach the LoginRadius team to schedule a personalized demo. 
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

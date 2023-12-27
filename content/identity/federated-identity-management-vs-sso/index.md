@@ -2,7 +2,7 @@
 title: "Federated Identity Management vs. SSO: What's The Difference?"
 date: "2021-11-22"
 coverImage: "fim-vs-sso.jpg"
-tags: ["federated sso","sso","digital identity","data security","user authentication"]
+tags: ["federated identity management","sso","data security"]
 author: "Deepak Gupta"
 description: "Enterprises need to use methods to maximize the use of digital identities for multiple users. Although SSO and FIM are used together, they do not mean the same thing. The main difference between Identity Federation and SSO lies in the range of access."
 metatitle: "Federated Identity Management vs Single Sign-On: Difference?"

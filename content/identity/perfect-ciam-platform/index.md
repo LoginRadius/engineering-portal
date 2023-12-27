@@ -2,11 +2,10 @@
 title: "8 Key Components of a Perfect CIAM Platform"
 date: "2019-06-10"
 coverImage: "fetaure-image-1.png"
-tags: ["customer-experience"]
-featured: false 
+tags: ["ciam platform","compliance","cx"]
 author: "Deepak Gupta" 
 description: "More than just individuals, a perfect CIAM platform needs to be able to incorporate. There are plenty of business processes and activities loaded with identity, and the number of these is only set to increase in the future. Both native and third-party applications that manage customer data are linked by a well-designed customer identity solution."
-metatitle: "8 Key Components of a Perfect CIAM Platform | LoginRadius"
+metatitle: "8 Key Components of a Perfect CIAM Platform"
 metadescription: "More than just individuals, a perfect CIAM platform needs to be able to incorporate. There are plenty of corporate processes and procedures packed with identity."
 ---
 

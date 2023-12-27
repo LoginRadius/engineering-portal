@@ -2,11 +2,10 @@
 title: "9 Identity and Access Management Best Practices for 2021"
 date: "2020-11-11"
 coverImage: "Identity-and-Access-Management-Best-Practices.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["identity management","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Enforcing best practices for identity and access management allows you to know who can access the confidential data and under what conditions they can access it. You will need a detailed overview of the IT infrastructure of your company so that you can track all of your components for future and current threats."
-metatitle: "9 Identity and Access Management Best Practices for 2021 | LoginRadius"
+metatitle: "9 Identity and Access Management Best Practices for 2021"
 metadescription: "Read this blog to understand the 9 identity and access management best practices that businesses should follow for 2021 and year on."
 ---
 

@@ -2,13 +2,12 @@
 title: "5 Ways to Improve Your Customer Verification Process"
 date: "2022-04-04"
 coverImage: "customer-verifcn.jpg"
-tags: ["security", "customer identity", "authentication", "ecommerce"]
+tags: ["identity verification","customer identity management","cx"]
 author: "Gaurav Belani"
 description: "In the wake of recent data breaches, many companies are realizing that they need to improve their customer verification process. Learn how to improve the process and make it easy and secure for your customers."
 metatitle: "How to Improve Your Customer Verification Process"
 metadescription: "Customer verification is the process of authenticating a customer's identity. Learn how to improve and streamline your customer verification process."
 ---
-
 
 ## Introduction
 
@@ -27,8 +26,6 @@ In this post, you’ll learn some top ways to improve your customer verification
 
 Here are the primary forms of verification businesses incorporate today:
 
-
-
 * **Two-factor or multi-factor authentication:** It requires your customers to add extra layers of protection to the sign-in process. For example, the need to enter a code sent to their email or mobile phone number. 
 * **Knowledge-based authentication:** It is used to verify a person’s identity by requiring an answer to security questions. The question should be simple for the user to answer but difficult for others to guess.
 * **Age verification:** It helps online businesses verify a customer’s age before allowing them to purchase a product online. 
@@ -40,11 +37,9 @@ With the right [eCommerce website builder](https://www.wix.com/ecommerce/website
 
 Now, check out these top ways to improve and streamline your customer verification process.
 
-
 ### 1. Explain the 'what' and 'why' behind the process to your customers.
 
 For instance, if you are doing email validation integration for Shopify with ZeroBounce, after a few initial steps, you will be asked to click the verification link to begin the verification process.
-
 
 ![ss-1](ss-1.png)
 

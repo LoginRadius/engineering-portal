@@ -2,14 +2,12 @@
 title: "Consumer Identity Management for the CMO, CISO, and CIO"
 date: "2020-09-28"
 coverImage: "image1.jpg"
-tags: ["customer-experience"]
-featured: false 
+tags: ["customer identity management","compliance","cx"]
 author: "Rakesh Soni"
 description: "A modern-day consumer identity management (CIAM) platform securely collects and manages consumer identity and profile data, along with securing access to apps, computers, and other resources in the network."
 metatitle: "How Consumer IAM Aligns With the CIO, CMO, and CISO's Roles?"
 metadescription: "For CIOs, CISOs, and CMOs to use it to their benefit in their respective divisions, the customer identity management solution can be a strategic asset."
 ---
-
 
 The role of consumer identity management in the business world is undeniable. In the past, identity was primarily used as a deciding factor to authenticate transactions. If people were successful in verifying who they were, their transactions were approved.
 

@@ -5,7 +5,7 @@ coverImage: "ccpa-vs-gdpr.jpg"
 tags: ["data privacy","compliance","data security"]
 author: "Rakesh Soni"
 description: "It's natural that there will be new legislation to protect customer data in a world where data is the most important resource. With more data scandal storeys than ever before reported by media outlets, users are constantly aware of data collection and how it impacts them. With this in mind, enforcement laws foster data protection and consent rights for users."
-metatitle: "CCPA vs GDPR Compliance [Infographic] | LoginRadius"
+metatitle: "CCPA vs GDPR Compliance [Infographic]"
 metadescription: "See how CCPA affects you with this handy global compliance guide. Our infographic compares CCPA vs GDPR compliance regulations."
 ---
 

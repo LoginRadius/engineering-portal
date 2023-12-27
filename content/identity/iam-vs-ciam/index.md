@@ -2,10 +2,10 @@
 title: "IAM vs. CIAM: Which Solution is Right For You?"
 date: "2019-03-21"
 coverImage: "IAM-vs-CIAM-V01.01-01-1.png"
-tags: ["iam", "ciam", "business growth"]
+tags: ["iam","ciam","identity management"]
 author: "Deepak Gupta" 
 description: "In order to serve customers, conventional identity management is no longer enough. This truly ought to go without saying. After all, internal management systems were initially designed to handle employee identities, and consumer preferences are not generally matched with their preferences of a successful user experience."
-metatitle: "IAM vs. CIAM: Which Solution is Right For You? [Infographic] | LoginRadius"
+metatitle: "IAM vs. CIAM: Which Solution is Right For You? [Infographic]"
 metadescription: "In order to serve customers, conventional identity management is no longer enough. In this infographic, iam vs ciam, check out which solution is better for you"
 ---
 

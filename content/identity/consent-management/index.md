@@ -2,11 +2,10 @@
 title: "LoginRadius Launches Consent Management to Support the EU's GDPR Compliance"
 date: "2020-05-29"
 coverImage: "Consent-Management.png"
-tags: ["privacy-and-compliance"]
-featured: false 
+tags: ["data privacy","compliance","consent management"]
 author: "Deepak Gupta"
 description: "When the General Data Protection Regulation (GDPR) was officially laid out, it sparked an increasing need to re-consider their security arrangements for organisations running on Customer Identity & Access Management (CIAM) solutions."
-metatitle: "GDPR Compliance: LoginRadius Consent Management | LoginRadius"
+metatitle: "GDPR Compliance: LoginRadius Consent Management"
 metadescription: "LoginRadius introduces its Consent Management feature, which provides a safe forum to support GDPR enforcement capabilities within the European Union."
 ---
 

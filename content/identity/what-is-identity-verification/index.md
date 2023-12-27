@@ -2,8 +2,7 @@
 title: "What is Digital Identity Verification and Why is it Necessary?"
 date: "2021-08-13"
 coverImage: "what-is-identity-verification-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["identity verification","digital identity management","cx"]
 author: "Rajeev Sharma" 
 description: "Identity verification is a necessary process that ensures an individual’s identity matches the one that is supposed to be. This post helps better understand what digital identity verification is, how it works, and the types of digital identity verification systems."
 metatitle: "A Definitive Guide to  Digital Identity Verification"

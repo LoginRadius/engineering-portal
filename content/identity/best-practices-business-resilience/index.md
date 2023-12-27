@@ -2,8 +2,7 @@
 title: "5 Best Practices of Implementing Business Resilience during a Data Breach"
 date: "2021-02-18"
 coverImage: "business-resilience.jpg"
-tags: ["security"]
-featured: false
+tags: ["data security","resiliency","cx"]
 author: "Deepak Gupta"
 description: "Business resilience can be defined as a business’ ability to quickly adapt and respond to impending risks or disruptions. More like a combination of crisis management and business continuity strategies post-disaster."
 metatitle: "5 Best Practices of Implementing Business Resilience"
@@ -22,14 +21,11 @@ Read on!
 
 ## What are the Business Impacts of a Data Breach
  
-
 During a data breach, companies’ confidential data are accessed by attackers without permission.  It is not only about sensitive information going out to the wrong hands. These cyber attackers can also hack your database and conduct malicious activities, costing you both money and reputation. 
 
 As per [Cost of a Data Breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) by IBM, the global average total cost of a data breach in 2020 was $3.86M. If this situation continues, by 2021, a business is expected to fall victim to a [ransomware attack every 11 seconds](https://www.herjavecgroup.com/wp-content/uploads/2018/12/CV-HG-2019-Official-Annual-Cybercrime-Report.pdf). 
 
 Now let’s consider some of the negative impacts of data breaches that make companies susceptible to financial and credibility loss.
-
-
 
 *   **Finance and revenue loss**
 
@@ -50,11 +46,9 @@ But, how effectively companies can deal with data breaches, especially in a hype
 
 To handle a data breach incident and the resulting loss of revenue and trust, every company should have an incident response plan with effective threat modeling. That’s where the idea of business reliance comes into the picture.
 
-
 ## What is Business Resiliency
 
 Business resilience can be defined as a business’ ability to quickly adapt and respond to impending risks or disruptions. More like a combination of crisis management and business continuity strategies post-disaster. 
-
 
 ## Why is Business Resiliency Important for an Organization
 
@@ -67,7 +61,6 @@ For example, take a look at how businesses worldwide were affected by the COVID-
 On the other side, business resilience best practices will assure that all your business activities comply with the latest industry standards and regulations. This will, in turn, improve your reliability, brand value, and reputation, especially in front of your stakeholders and customers. The resilience plans will also act as a blueprint of all your operations, giving you a head start. 
 
 This can even cultivate a resilient organizational culture. It makes the whole business, including employees, quickly adapt to unforeseen challenges whenever the business operations or processes go awry. Or under threat like a data breach.
-
 
 [![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
@@ -97,8 +90,6 @@ According to [Purplesec](https://purplesec.us/resources/cyber-security-statistic
 
 So, for ransomware protection and recovery as a part of business resilience during a data breach, you can make use of the following practices:
 
-
-
 *   Use a multi-faceted security solution
 *   Employ effective backup strategies like keeping a copy of the data 
 *   Implement endpoint protection best practices and train the workforce to handle it 
@@ -119,8 +110,6 @@ One of the best practices is to launch a secondary site as a stand-in for the pr
 
 This Disaster Recovery (DR) site should have the following attributes:
 
-
-
 *   It should be geographically distant from the primary site
 *   Must have sufficient computing resources for handling
  critical workload
@@ -128,7 +117,6 @@ This Disaster Recovery (DR) site should have the following attributes:
 *   It should be easily manageable by the hosting provider. 
 
 When a DR site is launched, the networking connectivity must be restored with the aid of IP address redirects or gateways. This way, the users can reconnect without changing their default settings. And it will be easier in the future to redirect them back to the primary data center when it is recovered.
-
 
 ## Conclusion
 
