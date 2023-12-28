@@ -2,22 +2,17 @@
 title: "Workflow Automation- What is it and Why Do You Need It?"
 date: "2021-04-14"
 coverImage: "what-is-workflow-automation-cover.jpg"
-tags: ["LoginRadius"]
-featured: false 
+tags: ["workflow automation","scalability","cx"]
 author: "Srishti Singh"
 description: "Workflow automation refers to the process of automating a set of manual processes or tasks based on a set of pre-defined rules or conditions. It helps you reduce the use of resources and time, more importantly, the chances of human-made errors. As a result, it improves a business’s overall efficiency, audibility, and accountability."
 metatitle: "What is Workflow Automation and Why Do You Need It?"
 metadescription: "What is workflow automation and why do you need it. Learn the steps that you must consider while automating tasks and the workflow of your business."
 ---
-
-
 Every business has a common goal—to improve sales, and thereby improve profitability. While running business processes, many activities such as sending custom emails or following up with your potential lead require you to repeat a task multiple times. Sometimes, achieving these goals at the right time can get difficult, especially when it comes to tasks that are handled manually by employees. That is where workflow automation comes to the rescue.
-
 
 ## What is Workflow Automation
 
 Did you know that many CEOs spend almost 20% of their time on work that could be automated? Workflow automation refers to the process of automating a set of manual processes or tasks based on a set of pre-defined rules or conditions. It helps you reduce the use of resources and time, more importantly, the chances of human-made errors. As a result, it improves a business’s overall efficiency, audibility, and accountability. 
-
 
 ## How Does Workflow Automation Work
 
@@ -29,12 +24,9 @@ For example, send an email to a potential lead with a link to a specific landing
 
 Thus, your workflow automation software will send the offer details, newsletter etc., regularly to the lead from that point without any effort from your side.
 
-
 ## How Does Workflow Automation Benefit Your Business
 
 Here’s how you can benefit from workflow automation software:
-
-
 
 *   **Improve efficiency**
 
@@ -60,14 +52,9 @@ Here’s how you can benefit from workflow automation software:
 
     Automating soul-crushing, boring, and manually intensive processes helps the manual workforce concentrate more on creative tasks that can improve their skill set. It also creates an improved work culture with better collaboration and accountability.
 
-
-
 ## How to Build An Automated Workflow
 
-
 Let’s take a look at the six steps that you must consider while automating the task and process workflow of your business: 
-
-
 
 1. **Identify repetitive tasks**
 
@@ -93,8 +80,6 @@ Let’s take a look at the six steps that you must consider while automating the
 
     The in-built workflow analysis features can help in improving your workflow. Through continuous performance and workforce feedback analysis, you will get an idea of what went wrong and what went great. This way, you can increase productivity.
 
-
-
 ## Implementing Workflow Automation Using LoginRadius
 
 LoginRadius offers the following [workflow automation implementation](https://www.loginradius.com/docs/api/v2/getting-started/implementation-workflows/) methodologies. You can go for any of the three or mix match features of each, depending on your unique requirement. 
@@ -116,7 +101,6 @@ JavaScript interfaces offer quick and easy implementation and limited developmen
 Unlike the other two,[ API integration](https://www.loginradius.com/identity-api/) methodology allows you to customize your interfaces. These interfaces will be connected to the LoginRadius APIs to handle the common client-side flows like Login and forget the password. 
 
 Even though you can fully control the logical flows, it requires large resources during the initial implementation. 
-
 
 ## Conclusion
 

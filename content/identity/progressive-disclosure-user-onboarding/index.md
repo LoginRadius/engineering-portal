@@ -2,14 +2,12 @@
 title: "How Progressive Disclosure Makes Your User's Onboarding Easy"
 date: "2021-08-18"
 coverImage: "progressive-disclosure-user-onboarding-cover.jpg"
-tags: ["Security"]
-featured: false 
+tags: ["user onboarding","data security","progressive profiling"]
 author: "Vishal Sharma"
 description: "Progressive disclosure helps businesses portray essential information initially and then gradually uncover the rest of the features that ensure users aren’t overburdened and that their purpose is solved. This post helps businesses understand the importance of progressive disclosure and progressive profiling that work harmoniously to enhance conversions."
 metatitle: "Progressive Disclosure For Seamless User Onboarding"
 metadescription: "Progressive Disclosure can do wonders for a brand when it comes to a flawless user onboarding experience. Learn how it works to enhance conversions."
 ---
-
 The ever-expanding competitive business landscape demands enterprises to deliver rich consumer experiences from the moment they interact with the brand for the first time. 
 
 This means if an organization fails to impress the visitor in the first place, they’ll surely lose a potential customer since competitors in every field are just a few clicks away. 
@@ -22,7 +20,6 @@ Progressive disclosure helps businesses portray essential information initially 
 
 Let’s understand what progressive disclosure is, why businesses strictly need to put their best foot forward to adopt progressive disclosure, and how LoginRadius helps pave the path for a successful onboarding process. 
 
-
 ## What is Progressive Disclosure
 
 Progressive disclosure is an innovative interaction design pattern that sequences information and various actions across different screens. 
@@ -30,7 +27,6 @@ Progressive disclosure is an innovative interaction design pattern that sequence
 The purpose is to enhance conversion rates by ensuring users don’t switch to competitors just because they aren’t getting relevant information when they first interact with a brand. 
 
 In a nutshell, progressive disclosure interaction design pattern provides a quick overview of features/content of an application that helps users make better decisions. 
-
 
 ## Benefits and Examples of Progressive Disclosure
 
@@ -56,14 +52,11 @@ It becomes technically impossible for the vendor to mention all the products on 
 
 This arrangement helps everyone, including the buyers and sellers, as users can quickly navigate to their desired product category, choose their product, and make a purchase. 
 
-
-
 ## Progressive Disclosure Coupled with Progressive Profiling 
 
 We’ve learned a lot about progressive disclosure and have a fair idea about its importance and implementation.
 
 Let’s now look at one of the essential elements that combine with progressive disclosure to help improve customer onboarding and enhance conversions. 
-
 
 ## What is Progressive Profiling? 
 
@@ -76,7 +69,6 @@ The benefit of progressive profiling is that it requests permissions for a custo
 You can establish a greater level of trust with your customers as you only request their personal data when needed and not just every time they interact with your brand. 
 
 LoginRadius’ progressive profiling helps businesses seamlessly enhance conversion rates through a rich consumer onboarding experience. 
-
 
 ## Progressive Disclosure + Progressive Profiling = Great Onboarding + Increased Conversions
 
@@ -92,7 +84,6 @@ With many people now wary of the ever-growing list of companies that have fallen
 
 [LoginRadius’ Progressive Profiling](https://www.loginradius.com/progressive-profiling/) module allows you to decide what information you collect on each visit so you can increase your conversion rate and build customer profiles over time.
 
-
 ## Final Thoughts 
 
 Progressive disclosure is an inevitable element for a successful consumer onboarding process that leads to conversion. 
@@ -102,7 +93,5 @@ However, leveraging the advancements of Progressive Profiling makes things work 
 LoginRadius’ Progressive profiling is helping thousands of businesses to streamline their onboarding process to enhance conversion rates. 
 
 If you wish to see the future of progressive profiling and progressive disclosure in action, [contact us](https://www.loginradius.com/contact-sales/) now. 
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

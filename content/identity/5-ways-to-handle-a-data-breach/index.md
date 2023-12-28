@@ -2,14 +2,12 @@
 title: "How to Manage Situation After a Data Breach"
 date: "2021-07-27"
 coverImage: "5-ways-to-handle-a-data-breach-cover.jpg"
-tags: ["security"]
-featured: false
+tags: ["data security","cybersecurity","cx"]
 author: "Govind Malviya"
 description: "Data breaches are becoming the new normal and enterprises aren’t aware of the necessary steps that should be taken immediately after a breach. This post offers valuable insights that help organizations to quickly and effectively manage a situation after a data breach is detected."
 metatitle: "5 Efficient Ways to Minimize the Risk After Data Breach"
 metadescription: "Data breaches can lead to losses worth millions of dollars. Here are some aspects that should be considered after your organization witnessed a breach."
 ---
-
 You’re somehow lucky if you just learned that your business experienced a data breach, as most of the time, it goes unnoticed for months or even years.
 
 Whether a cybercriminal sneaked into your network and exploited consumer information or exposed your business’s sensitive information, you would certainly be thinking about what to do next. 
@@ -105,6 +103,5 @@ The increasing number of data breaches depicts the need for a robust authenticat
 The aspects mentioned above can be quite helpful in managing the overall situation when a business witnesses a data breach. 
 
 It’s recommended that enterprises should consider stringent security measures to avoid any chance of sneaking into the company’s network. 
-
 
 [![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

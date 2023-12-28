@@ -2,13 +2,12 @@
 title: "Consumer Data Protection: How to Handle Data Breaches in Your Business"
 date: "2021-05-20"
 coverImage: "how-to-handle-data-breaches-cover.jpg"
-tags: ["security"]
+tags: ["data security","mfa","compliance"]
 author: "Vishal Sharma"
 description: "With the increasing number of data breaches across the globe, securely managing consumer data is becoming more crucial than ever before. Here are some efficient ways for consumer data protection that every online business must emphasize to ensure a secure line of defense against cyber-attacks."
 metatitle: "How to Handle Data Breaches in Your Business"
 metadescription: "Consumer data breaches could lead to losses worth millions and even tarnish the brand repute. Here are the best ways to handle data breaches in your business."
 ---
-
 While the internet becomes the second home for most of us amid the global pandemic, there’s a substantial[ increase in the number of data breaches worldwide](https://www.statista.com/statistics/1175574/increase-cyber-fraud-coronavirus-outbreak/).
 
 It doesn’t matter if you’ve heard of bigger breaches in the news, you shouldn’t assume that your industry or businesses can't be on attackers’ radar.
@@ -20,7 +19,6 @@ Cybercriminals are exploiting consumer data of big brands and even startups that
 Regardless of the size of a business, one should consider adequate measures to strengthen the first line of defense, especially the ones offering digital platforms for buyers and subscribers.
 
 Let’s learn the most efficient ways for consumer data protection that every online business must emphasize during these uncertain times.
-
 
 ## Why Is Consumer Data Protection Now Crucial Than Ever Before
 
@@ -36,7 +34,6 @@ The same goes in the case of CCPA. If a company operating in California needs to
 
 Most businesses fail to comply with these compliances and end up tarnishing their brand repute in the global markets.
 
-
 ## Most Common Data Breaches that Businesses Face
 
 Before diving into the ways to protect consumer data, let’s quickly understand what some common data breaches in a business are.
@@ -49,12 +46,11 @@ Before diving into the ways to protect consumer data, let’s quickly understand
 
 **Also Read:**[ How LoginRadius Future-Proofs Consumer Data Privacy and Security](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/)
 
-
 ## How to Handle Data Breaches in Your Business?
 
 Since security is a culture, it’s crucial to emphasize the key elements that can help you secure your consumers’ data more reliably. Let’s learn how.
 
-**1.      Get a Consumer Identity and Access Management (CIAM) Solution in Place**
+**1. Get a Consumer Identity and Access Management (CIAM) Solution in Place**
 
 A CIAM solution could be the biggest weapon in protecting your consumers’ identities and their data.
 
@@ -66,8 +62,7 @@ Moreover, a cloud-based CIAM solution can easily handle millions of identities, 
 
 Businesses must consider a cloud-based CIAM solution that not only enhances data and privacy security through compliances but eventually delivers a flawless user experience.
 
-
-**2.      Schedule Employee Training**
+**2. Schedule Employee Training**
 
 As already discussed, security being a culture, businesses can’t ignore the importance of cyber awareness training for their employees.
 
@@ -77,15 +72,13 @@ Not to forget the newly-established remote working ecosystem that has provided e
 
 Frequently training employees regarding the new possible ways of cyber-attacks can greatly help in strengthening the company’s overall defense system.
 
-
-**3.      Add Layers of Authentication**
+**3. Add Layers of Authentication**
 
 [Multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/) could be the finest option to enhance the overall security within a network.
 
 Employees or consumers need to authenticate and need to provide a one-time password (OTP), which they receive on email or as a text on phone to verify that they are the real owner of an identity.
 
 Also, risk-based authentication can do wonders to reinforce the security layer of a business as it demands authentication whenever some suspicious activity is performed by any user.
-
 
 ## Final Thoughts
 
@@ -94,6 +87,5 @@ Securing consumer data is now crucial more than ever before as cybercriminals ar
 As discussed earlier, a compliance-ready CIAM solution with security features like multi-factor authentication, single-sign-on, and risk-based authentication is stringently the need of the hour.
 
 Moreover, companies that aren’t focussing on employee training must immediately put their best foot forward to organize cyber awareness training programs to minimize the risk of human error.
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
