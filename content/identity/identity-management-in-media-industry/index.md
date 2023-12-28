@@ -2,8 +2,7 @@
 title: "The Role of Identity management in the media industry"
 date: "2021-04-21"
 coverImage: "identity-management-in-media-industry-cover.jpg"
-tags: ["Security"]
-featured: false 
+tags: ["identity management","digital transformation","ciam solution"]
 author: "Vishal Sharma"
 description: "Media industry has witnessed a tremendous digital transformation journey. But besides the rapid technological enhancement of the media industry, several security challenges linger on businesses serving in this vertical. Here’s an insightful read depicting the role of identity management in the media industry."
 metatitle: "Critical Role of Identity management in the media industry"
@@ -84,7 +83,5 @@ While the media industry is witnessing a massive transformation, the core values
 Delivering the best user experience along with the assurance of secured privacy and data of subscribers should be the utmost priority of businesses that are figuring out ways to increase their client base.
 
 Just like every other industry, the media industry can leverage a CIAM solution that helps in scaling business growth by meeting the industry-standard compliances and, at the same time, win consumer trust through flawless user experiences.
-
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

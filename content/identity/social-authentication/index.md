@@ -2,8 +2,7 @@
 title: "Implementing Effective Social Authentication Solution with LoginRadius"
 date: "2021-05-07"
 coverImage: "social-authentication-cover.jpg"
-tags: ["security"]
-featured: false
+tags: ["social authentication","social login","cx"]
 author: "Vishal Sharma"
 description: "Social login enables users to use existing login credentials from a social networking platform including Facebook, Google, Twitter, and more enabling simplified logins and registrations. Let’s learn how LoginRadius simplifies social authentication and improves the overall user experience."
 metatitle: "Implementing Social Authentication Solution with LoginRadius"
@@ -20,7 +19,6 @@ Social login enables users to use existing login credentials from a social netwo
 
 Let’s learn how LoginRadius’ social authentication helps to scale business growth and how to implement social login.
 
-
 ## Why Social Login?
 
 While social login bypasses the conventional registration forms that eventually eat up a lot of time, it also builds credibility on an online service provider that is not asking for your details in a single go.
@@ -31,13 +29,11 @@ One needs to follow the necessary compliances while collecting PII to ensure tha
 
 Apart from this, maintaining compliance with enhanced user experience is yet another uphill battle for businesses, especially when all it takes is a couple of seconds to decide whether you have a lead or an increase in the bounce rate of the site.
 
-
 Here’s the place where you need a smart and efficient social login in place.
 
 LoginRadius’ social authentication not only offers compliance to international privacy and data security regulations but eventually provides a smooth login experience.
 
 Users can quickly sign up for a platform in just a couple of seconds through LoginRadius’ social authentication solution.
-
 
 ## Why LoginRadius Social Login?
 
@@ -57,16 +53,13 @@ Our social authentication solution flawlessly combines the APIs of over 40 socia
 
 This not only saves the time and efforts of the developers while they learn each network’s API but ultimately delivers a smooth implementation experience.
 
-
-**2.      Maintenance - Free Solution**
+**2. Maintenance - Free Solution**
 
 Since every social media platform keeps on rolling updates in their APIs, LoginRadius ensures every API is up-to-date.
 
 This enhances security and ensures that our clients and their consumers need not worry regarding any issues.
 
 LoginRadius’ social authentication is completely maintenance-free.
-
-
 
 **3. More than Just Login - A Wealth of First-Party Consumer Data**
 
@@ -78,13 +71,11 @@ Moreover, the data is collected from the user after their consent and you can ha
 
 Here’s the list of social profile data points that you can access through LoginRadius’ advanced social login platform.  
 
-**4.      Easy to Manage Admin Console**
+**4. Easy to Manage Admin Console**
 
 LoginRadius not only offers the finest user experience to your clients while they sign-up but eventually delivers rich experience to the site owners through an intuitive admin console.
 
 With LoginRadius Admin Console, you get a single dashboard for social login, data gathering, and other social permissions. You can quickly set configurations through the dashboard and make changes including, but not limited to:
-
-
 
 · Add/remove social ID providers
 
@@ -95,8 +86,6 @@ With LoginRadius Admin Console, you get a single dashboard for social login, dat
 · Quickly enable profile access and permissions
 
 · Set token expiration for each social id
-
-
 
 **5.Native Mobile Support and Responsive Apps**   
 
@@ -109,6 +98,5 @@ This enables users to quickly sign-up for your application without the hassle of
 While social login inches towards the verge of becoming an industry standard for [secure and quick login](https://www.loginradius.com/blog/identity/2020/12/login-security/), businesses need to understand its true potential in improving business growth.
 
 LoginRadius’ social authentication, driven by cutting-edge technology and backed by the highest level of security ensures clients get a seamless user experience that further improves conversion rate.
-
 
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

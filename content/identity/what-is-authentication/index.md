@@ -2,13 +2,11 @@
 title: "What is Authentication"
 date: "2021-03-29"
 coverImage: "cover-auth.jpg"
-tags: ["security"]
-featured: false 
+tags: ["authentication","data security","mfa"]
 author: "Manish Tiwari"
 description: "Authentication is the process of uniquely identifying an individual via a set of credentials. In the digital world, authentication is termed as verifying a person's identity or an electronic device. Authentication becomes necessary because it increases the security of consumer's data."
 metatitle: "What is Authentication?"
 metadescription: "Learn the basics of authentication and how it is used. We have also covered how authentication works and what are the benefits to the organizations."
-
 ---
 
 # A Beginner's Guide to Authentication
@@ -19,8 +17,6 @@ For example, now you can order your food just by logging in to a food catering w
 
 But with all these services comes a massive task for the service providers, and that task is to verify that you are their actual consumer and not an imposter trying to steal data. So, to verify users, businesses use a technical approach called authentication. 
 
-
-
 ## What is Authentication
 
 Authentication is the process of uniquely identifying an individual via a set of credentials. In the digital world, authentication is termed as verifying a person's identity or an electronic device.
@@ -29,9 +25,7 @@ Authentication becomes necessary because it increases the security of consumer's
 
 With the huge increase in the number of digital platforms, the demand for various authentication processes has been increasing for both online and physical systems. 
 
-
 ![What is Authentication](authentication.jpg)
-
 
 ## How Authentication Is Brought Into Use
 
@@ -67,13 +61,10 @@ With data breaches continually on the rise in headlines and consumers becoming m
 
 Even small businesses have some sort of authentication for their systems. This is done by asking the employees to enter a single sign-on password to access company data. This way, businesses ensure that sensitive information is accessed only by authorized individuals. 
 
-
-
 ## Conclusion
 
 In this article we have talked about the basics of authentication and how it is used. We have also covered [how authentication works](https://www.loginradius.com/blog/engineering/webauthn-authentication-application/) and what are the benefits to the organizations.
 
 Cheers!
-
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

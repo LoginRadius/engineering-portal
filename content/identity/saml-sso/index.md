@@ -2,13 +2,12 @@
 title: "What is SAML SSO?"
 date: "2021-06-18"
 coverImage: "saml-sso.jpg"
-tags: ["saml", "sso","authentication"]
+tags: ["saml","sso","user authentication"]
 author: "Rajeev Sharma"
 description: "SAML SSO is an authentication standard for single sign-on (SSO) based on XML. Learn more about how it works, advantages and its components."
 metatitle: "What is SAML SSO?"
 metadescription: "Learn about SAML SSO and its advantages. Explore components of SAML SSO and how it works to enhance user authentication and access management. Check out to know more."
 ---
-
 ## Introduction
 
 When it comes to robust enterprise cybersecurity strategy, nothing could replace the perfect symphony of SAML and [Single Sign-On](https://www.loginradius.com/single-sign-on/) (SSO) that delivers excellent user experience and stringent security. 
