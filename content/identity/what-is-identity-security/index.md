@@ -2,13 +2,12 @@
 title: "What is Identity Security?"
 date: "2021-08-03"
 coverImage: "purpose-identity-security-2021-cover.jpg"
-tags: ["digital identity","compliance","data security","cx"]
+tags: ["digital identity management","ciam solution","data security"]
 author: "Rakesh Soni"
 description: "Thousands of individuals compromise their identities every day because of weak defense and poor authentication at the service providers’ end. Businesses need a robust identity management solution to navigate their digital transformation journey without compromising user identities and sensitive business information."
 metatitle: "What is Identity Security"
 metadescription: "Securing user identity is crucial today as the number of data breaches is increasing significantly. Here’s a good read depicting the role of identity security."
 ---
-
 In the past couple of years, the internet has become one of the indispensable parts of our lives, and we can’t imagine a day without it. 
 
 As of October 2023, the [global internet user count reached 5.3 billion](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=Worldwide%20digital%20population%202023&text=As%20of%20October%202023%2C%20there,population%2C%20were%20social%20media%20users.), encompassing 65.7 percent of the world's population.

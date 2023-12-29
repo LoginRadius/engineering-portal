@@ -2,8 +2,7 @@
 title: "Calculating ROI, Build vs Buy (Part 1)"
 date: "2021-03-31"
 coverImage: "calcualting-roi-build-vs-buy-cover.jpg"
-tags: ["LoginRadius"]
-featured: false
+tags: ["customer authentication","identity management","cx"]
 author: "Cooper Matheson"
 description: "Most businesses with legacy systems are stuck between choosing to maintain an existing in-house system, investing in building a new in-house system, or working with a vendor. Making the wrong decision can be expensive. This blog is a multi-part series where we have outlined the value of working with LoginRadius over maintaining and building up your existing systems."
 metatitle: "Calculating ROI, Build vs Buy"
@@ -20,8 +19,6 @@ Working with an identity vendor who is an expert in the space is the safest and 
 
 A modern solution offers short-term wins and long-term value, highlighted by:
 
-
-
 *   Reducing costs.
 *   Boosting revenue.
 *   Ensuring your data is protected.
@@ -30,7 +27,6 @@ A modern solution offers short-term wins and long-term value, highlighted by:
 Mix those benefits in with a speedy implementation period, and your teams can get back to focusing on innovating and growing your business. 
 
 This blog is a multi-part series where we will outline the value of working with LoginRadius over maintaining and building up your existing systems.
-
 
 ## Time, Effort, and Maintenance
 
@@ -41,8 +37,6 @@ To understand why a vendor approach is so economical, we must first outline the 
 At the end of this section, you should have a blueprint for understanding what your internally built system costs to run today. 
 
 Use a chart like the one below to enter your costs. Remember, even rough estimated will very quickly outline the scale of these costs:
-
-
 
 *   **Assigned staff**: Maintaining an authentication and identity offering is usually a full-time job for at least one developer. Larger businesses with more complex use-cases may require multiple developers to manage these systems. Enter the total salary of the staff members assigned to these functions. You may also use a percentage of an annual salary if a team member is not dedicating 100% of their time to this work. 
 *   **Adding or fixing features**: In any given year, a business will undertake several projects related to their authentication or customer data management systems. This work can include maintaining integrations, building new integrations, maintaining authentication systems, adding new features, and [fixing broken features](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/). Enter the total salary of the staff members assigned to these functions. You may also use a percentage of an annual salary if a team member is not dedicating 100% of their time to this work.
@@ -117,6 +111,5 @@ Well, the connectors are already built. We have detailed step-by-step guides in 
 If the business decision is already made, you could easily add a [social login](https://www.loginradius.com/blog/identity/2021/02/social-login-infographic/) option to your website and mobile apps in the afternoon and go live that same night – we know this because we see our customers do it all the time!
 
 **Stayed tuned for Part II of this series, where I will help you calculate lost revenue associated with authentication and system availability.**
-
 
 [![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
