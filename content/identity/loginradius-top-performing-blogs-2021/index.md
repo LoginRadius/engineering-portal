@@ -43,7 +43,7 @@ Read this blog to know more about [Salt](https://www.loginradius.com/blog/identi
 
 ### #8. Identity Management in Cloud Computing
 
-[Identity management in cloud computing]((https://www.loginradius.com/blog/identity/identity-management-in-cloud-computing/)) is the subsequent identity and access management (IAM) solution. 
+[Identity management in cloud computing](https://www.loginradius.com/blog/identity/identity-management-in-cloud-computing/) is the subsequent identity and access management (IAM) solution. 
 
 However, it is a lot more than merely a straightforward web app single sign-on (SSO) solution. This next generation of IAM solution is a holistic move of the identity provider right to the cloud.
 
