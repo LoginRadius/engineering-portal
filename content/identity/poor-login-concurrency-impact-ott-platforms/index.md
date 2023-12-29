@@ -47,7 +47,7 @@ Thus, to overcome the situation where concurrent login is exploited in OTT servi
 
 Here’s where the role of a [robust CIAM](https://www.loginradius.com/)  (Consumer Identity and Access Management) comes into play. 
 
-[![DS-CIAM](DS-CIAM.png)](https://www.loginradius.com/resource/ciam-101/)
+[![DS-CIAM](DS-CIAM101.png)](https://www.loginradius.com/resource/ciam-101/)
 
 Let’s dig deeper into this. 
 
