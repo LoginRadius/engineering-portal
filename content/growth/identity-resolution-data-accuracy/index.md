@@ -1,8 +1,8 @@
 ---
-title: "Elevating Data Precision: The Power of Identity Resolution Techniques"
+title: "Elevating Data Precision-Power of Identity Resolution"
 date: "2023-10-12"
 coverImage: "identity-resolution.jpg"
-tags: ["data governance","e-commerce","digital transformation","cx"]
+tags: ["data governance","e-commerce","identity resolution"]
 author: "Vishal Sharma"
 description: "Dive into the world of identity resolution and learn how businesses connect data dots, ensuring precision in every interaction. Uncover real-life examples in healthcare and retail and understand the challenges organizations face. Embrace these techniques for unparalleled success in today's competitive landscape."
 meta-title: "Mastering Data Accuracy: Identity Resolution Unveiled"

@@ -57,7 +57,7 @@ Failure to comply with GDPR requirements for consent management can lead to cost
 
 A neat by-product of having consent management is the centralization of user consent and data. This data which is useful to multiple teams from engineering and product to marketing and support can now be organized and analyzed in a single location which drives better insights. 
 
-# Conclusion
+## Conclusion
 
 Whether you are a small business that is starting out or a Multinational brand, [consent management ](https://www.loginradius.com/consent-management/)is going to be an important piece of your organization's ability to grow sustainably while building trust within your consumer base. 
 

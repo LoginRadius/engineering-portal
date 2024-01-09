@@ -2,7 +2,7 @@
 title: "Customer-Centric Strategies: How CIAM and CRM Integration Optimize Consumer Experience"
 date: "2023-08-28"
 coverImage: "customer-experience.jpg"
-tags: ["ciam solution","digital identity management","customer experience"]
+tags: ["ciam solutions","user management","cx"]
 author: "King Conrad Fanoga"
 description: "Any successful business knows that an excellent customer experience is essential; thus, a customer's needs and expectations are of utmost priority. Learn how to optimize your consumer experiences and boost customer-centric strategies."
 metatitle: "How CIAM and CRM Integration Optimize Consumer Experience"

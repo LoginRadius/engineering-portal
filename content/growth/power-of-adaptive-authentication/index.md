@@ -2,7 +2,7 @@
 title: "Enhancing Customer Sign-In Journeys: The Power of Adaptive Authentication"
 date: "2023-06-13"
 coverImage: "adaptive-auth.jpg"
-tags: ["adaptive authentication","mfa","ciam solution","cx"]
+tags: ["identity verification","adaptive authentication","ciam solution"]
 author: "Vishal Sharma"
 description: "Learn how adaptive authentication revolutionizes customer sign-in journeys by dynamically adjusting security levels. Find out how businesses can balance security and user experience and implement this advanced authentication method to enhance online services."
 metatitle: "Enhancing Customer Sign-In Journeys With Adaptive Auth"

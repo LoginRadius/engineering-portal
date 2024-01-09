@@ -2,7 +2,7 @@
 title: "What is Cloud Computing?"
 date: "2022-05-24"
 coverImage: "cloud-computing.jpg"
-tags: ["cloud computing", "cloud security", "authentication", "digital identity"]
+tags: ["cloud computing", "cloud security", "cx"]
 author: "Manish Tiwari"
 description: "The concept of cloud computing has offered endless possibilities to businesses since enterprises can avoid several upfront costs and can quickly rent access to any application or storage from a cloud provider. This post uncovers the role of cloud computing in shaping the future of a digitally-advanced modern world."
 metatitle: "What is Cloud Computing? Everything You Need to Know"

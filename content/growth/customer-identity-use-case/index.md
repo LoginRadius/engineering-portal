@@ -2,7 +2,7 @@
 title: "Unveiling the Customer Identity Business Case: Strategies for Success"
 date: "2023-10-19"
 coverImage: "cust-identity.jpg"
-tags: ["customer identity management","ciam solutions","digital identity","cx"]
+tags: ["customer identity management","ciam solutions","cx"]
 author: "Rakesh Soni"
 description: "Dive into the world of the customer identity base case – your key to personalized success. Explore strategies for tailored experiences, fraud prevention, and ethical data practices. Stay ahead in the digital era with our expert insights."
 metatitle: "Unlocking Success: Mastering the Customer Identity Base Case"
