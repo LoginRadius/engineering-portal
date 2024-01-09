@@ -19,7 +19,7 @@ const Card = ({ node }) => {
         <div className={styles.avatar}>
           <Link className="bs-md" to={node.fields.slug}>
             {coverImagePath ? (
-              <Img fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+              <Img alt={node.frontmatter.title || node.fields.slug} fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
             ) : (
               <img src={defaultImg} alt="default-img" />
             )}
