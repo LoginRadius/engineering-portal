@@ -2,7 +2,7 @@
 title: "7 Tips on How CISOs Should Present Identity Security to Board Members"
 date: "2023-08-04"
 coverImage: "board-members.jpg"
-tags: ["customer identity security","cybersecurity","digital identity management","cx"]
+tags: ["customer identity security","compliance","cx"]
 author: "Rakesh Soni"
 description: "While most CISOs are now concerned about the risks associated with customer identity security and identity thefts, they’re struggling to create a strategy to convince the board members to prepare beforehand. And to help CISOs present a compelling identity security strategy to board members, we’ve compiled a list of some helpful tips."
 metatitle: "Identity Security: How CISOs Can Convince Board Members?"

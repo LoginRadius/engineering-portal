@@ -6,7 +6,7 @@ tags: ["mfa","digital transformation","biometric authentication"]
 author: "Srishti Singh"
 description: "Quick-Service Restaurants are seeing a boom in engagement, but so are the scammers. Read this blog to find out how to boost your restaurant’s confidence in its capacity to defend itself from hackers."
 metadescription: "Promotion fraud is a growing problem, especially in the quick-service restaurants (QSR) industry. Find how MFA works and why restaurants should implement it."
-metatitle: "How Multi Factor Authentication Makes QSR Promotions and Discounts Fraud Free for Users."
+metatitle: "How MFA makes QSR promotions & discounts fraud-free for user"
 ---
 The restaurant industry is still adapting to the digital-first paradigm brought on by the pandemic, but online order volume is growing for quick-service restaurant QSR chains and is not going away anytime soon. In fact, it is becoming mission-critical for QSR restaurants to take advantage of marketing opportunities afforded by this new normal.
 

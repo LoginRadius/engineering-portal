@@ -2,7 +2,7 @@
 title: "5 Reasons Why You Need to Strengthen Your Identity Authentication"
 date: "2022-04-20"
 coverImage: "identity-authentication.jpg"
-tags: ["identity-management","customer identity","authentication"]
+tags: ["identity authentication","compliance","cx"]
 author: "Rakesh Soni" 
 description: "A weak line of defense and poor authentication mechanism at the service providers’ could tarnish a brand's reputation in the global markets and eventually entitle the organization to pay hefty fines. Read on to know more about identity authentication and how it paves the path for businesses embarking on a digital transformation journey."
 metatitle: "Why Does Your Business Need Robust Identity Authentication?"
@@ -72,7 +72,7 @@ Hence, businesses must leverage user data's true potential to deliver the experi
 
 Whether it’s personalized suggestions based on previous search history or recommendations of products based on their interests, brands can build credibility and further enhance user engagement for more conversions.
 
-Hence, businesses need to ensure their [identity authentication strategy](https://www.loginradius.com/blog/identity/sso-business-strategy/) is up to the mark since consumers already interact with brands like Google, Amazon, Apple, etc. They know what a great user experience is. 
+Hence, businesses need to ensure their [sso business strategy](https://www.loginradius.com/blog/identity/sso-business-strategy/) is up to the mark since consumers already interact with brands like Google, Amazon, Apple, etc. They know what a great user experience is. 
 
 ## In Conclusion
 Today’s businesses are already hurrying to jump on the technology bandwagon for their digital transformation. However, they aren’t paying attention to identity management's most crucial aspect. 

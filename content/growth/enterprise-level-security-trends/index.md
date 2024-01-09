@@ -2,7 +2,7 @@
 title: "Enterprise-Level Security Trends: 5 Things to Know As a CEO"
 date: "2023-05-17"
 coverImage: "ceo-enterprise-security.jpg"
-tags: ["zero trust security", "cybersecurity", "ciam solution","cx"]
+tags: ["enterprise level security","cybersecurity","cx"]
 author: "Lucy Manole"
 description: "A gradual transition towards a robust security culture signifies the importance of integrating cybersecurity awareness. As a result, many organizations are now building dedicated board-level cybersecurity committees under the CEO’s wing to better address this growing concern."
 metatitle: "5 Enterprise-Level Security Trends Every CEO Should Know"

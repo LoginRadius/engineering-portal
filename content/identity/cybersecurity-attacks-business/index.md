@@ -8,7 +8,6 @@ description: "Cybersecurity incidents take place by various means every day. Fro
 metatitle: "Cyber Attack Predictions That Can Hurt Your Business in 2022"
 metadescription: "Discover the most common types of cyberattacks that may harm consumers and enterprises in 2022. Also, assess the biggest cybersecurity attacks witnessed in 2021."
 ---
-
 From virtual banking breaches to semi-open attacks, 2021 has been rough on IT security. 
 
 Remember [LinkedIn's Massive Data Breach](https://restoreprivacy.com/linkedin-data-leak-700-million-users/) earlier this year? On June 22, a user on a famous hacker site announced that nearly 700 million people’s data is up for sale. The hacker shared a sample of 1 million LinkedIn members' email addresses, full names, phone numbers, addresses and geolocations.
@@ -23,14 +22,11 @@ In this cyber security awareness month (October), let’s try to figure out, how
 
 The latest [Threat Horizon 2021](https://www.securityforum.org/research/threat-horizon-2021-the-digital-illusion-shatters/) points out the difficult cybersecurity challenges that influence senior business executives, security professionals, and other key organizational stakeholders. 
 
-
-
 *   **Digital connectivity will expose hidden dangers** - Over-dependence on complex digital connectivity will amplify existing dangers and create new ones.
 *   **The digital cold war will engulf business** - A digital cold war will unfold targeting intellectual property (IP) for economic and military dominance.
 *   **Digital competitors will rip up the rulebook** - The existing regulatory frameworks and social norms will be less resilient and more vulnerable than ever.
 
 Now that we’ve peeked into the minds of cybercriminals, let's assess the biggest cybersecurity attacks that we witnessed in 2021. 
-
 
 <table>
   <tr>
@@ -122,7 +118,6 @@ Malware is an umbrella term for malicious programs like worms, computer viruses,
 *   Keep your anti-virus software up-to-date.
 *   Watch out for social engineering scams. 
 
-
 ### 3. Phishing attack
 
 Did you know that up to [32% of data breaches](https://enterprise.verizon.com/resources/reports/dbir/) occur from phishing?
@@ -169,11 +164,8 @@ A [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_att
 
 **How to prevent**
 
-
-
 *   Use SSL certificates (HTTPS) on your website.
 *   Setup a VPN as an additional shield over Wi-Fi. 
-
 
 ### 8. Spyware attack
 
@@ -181,12 +173,9 @@ A [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_att
 
 **How to prevent**
 
-
-
 *   Always research free software before downloading.
 *   Beware of pop-up ads and always close them when they appear.
 *   Turn on pop-up blocker for suspicious websites in your browser.
-
 
 ### 9. Shareware attack
 
@@ -195,8 +184,6 @@ Shareware is commercial software that is distributed to consumers for free. It i
 Cybercriminals may use it to distribute malware that could lead to malicious attacks. Organizations may put themselves at risk of unwanted exposure.
 
 **How to prevent**
-
-
 
 *   Constantly patch security holes so that no hackers can plug in their malware.
 *   Always download applications from official websites and app developers.
@@ -208,8 +195,6 @@ Cybercriminals may use it to distribute malware that could lead to malicious att
 
 Often, a cyberattack damage is three-fold and can include: 
 
-
-
 1. Financial damage 
 2. Reputational damage 
 3. Legal damage 
@@ -219,15 +204,12 @@ Often, a cyberattack damage is three-fold and can include:
 
 Data breaches result in substantial financial loss and may include: 
 
-
-
 *   Theft of financial info (e.g., credit card details, usernames, passwords).
 *   Theft of sensitive corporate information or money.
 *   Loss of customer trust, sales, and advocacy.
 *   Loss of shareholder, investor, and client faith. 
 *   Reduction in revenue and profit.
 *   High costs of system, network, and device repair.
-
 
 ### Legal consequences
 
@@ -241,8 +223,6 @@ There may not be one way to win all customers, but consumers are willing to forg
 
 Here’s what you can do if your customer data is ever compromised:
 
-
-
 *   Start by being transparent about what happened. 
 *   Communicate what you’re doing about the breach. 
 *   Educate customers on the next steps to protect their data. 
@@ -253,7 +233,6 @@ This, of course, is all about the aftermath of a breach.
 [![WP-credential-attack](WP-credential-attack.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 So, how can organizations prevent cybersecurity attacks from happening in the first place? 
-
 
 ## 10 Cybersecurity Tips to Prevent Cyber Attacks in 2022
 
@@ -270,7 +249,6 @@ So, how can organizations prevent cybersecurity attacks from happening in the fi
 
 No matter what state your security program is in now, these steps will help you build a stronger defense and mitigate damage.
 
-
 ## How Can LoginRadius Protect Enterprises From Cyberattacks
 
 ![](security_compliance_cred_loginradius.png)
@@ -280,7 +258,6 @@ When it comes to bringing your business online, there are a lot of factors to co
 LoginRadius ensures a secure and seamless consumer experience and offers identity-centric security features including consumer registration, user account management, [single sign-on (SSO)](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/), access management, [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) (MFA), [data access governance](https://www.loginradius.com/blog/2020/07/data-governance-best-practices/), compliance-ready features, and directory services. 
 
 All of these features work together to help you mitigate cybersecurity attacks on your business. 
-
 
 ## Conclusion 
 

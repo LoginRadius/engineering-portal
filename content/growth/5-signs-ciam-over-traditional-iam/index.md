@@ -2,7 +2,7 @@
 title: "5 Signs Your Traditional IAM System Needs a CIAM Makeover"
 date: "2022-05-10"
 coverImage: "traditional-iam.jpg"
-tags: ["ciam","login security","sso","mfa","iam"]
+tags: ["ciam solution","login authentication","cx"]
 author: "Deepak Gupta"
 description: "Businesses are still relying on old-school login and authentication mechanisms, including organization-level IAM, which is why their business lags behind their competitors. Let’s discuss why businesses need to replace their traditional IAM with new-age CIAM."
 metatitle: "5 Signs Your Business Needs CIAM Over Traditional IAM"
@@ -27,7 +27,6 @@ And the catch is that they aren’t aware of consumer identity and access manage
 
 Let’s quickly understand the aspects of traditional IAM and why businesses need the true potential of CIAM. 
 
-
 ## Traditional IAM vs. CIAM- What’s the Difference? 
 
 Traditional [identity and access management](https://www.loginradius.com/blog/identity/what-is-iam/) (IAM) solutions are traditionally used to streamline employee provisioning, manage access rights, assist in compliance reporting, automate approval workflows, fuel authentication, authorization, and numerous other security-relevant functions. 
@@ -40,9 +39,7 @@ In comparison to internal management, a customer identity and access management 
 
 Since we’ve learned about the significant differences between a CIAM and conventional IAM, let’s closely look at some signs that depict that your business now needs a CIAM makeover. 
 
-
 ## Why Should You Make the Switch to a CIAM Solution?
-
 
 ### #1. You have good traffic but no leads or conversions.
 

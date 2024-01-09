@@ -1,8 +1,8 @@
 ---
-title: "Continuous Adaptive Trust: Unraveling the Future of Adaptive Authentication in 2024"
+title: "Continuous Adaptive Trust - Adaptive Authentication Future"
 date: "2023-11-23"
 coverImage: "continuous-adptive-auth.jpg"
-tags: ["adaptive authentication","compliance","cx"]
+tags: ["continuous adaptive authentication","compliance","cx"]
 author: "Rakesh Soni"
 description: "Discover the game-changing evolution of authentication with Continuous Adaptive Trust (CAT) in 2024 & beyond. CAT ensures a secure, seamless digital experience by continuously assessing trust in real time, making it a pivotal shift in cybersecurity."
 meta-title: "Continuous Adaptive Trust: The Future of Authentication"

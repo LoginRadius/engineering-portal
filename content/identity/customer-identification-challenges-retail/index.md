@@ -2,7 +2,7 @@
 title: "The Major Challenges of Customer Identification in the Retail Industry"
 date: "2021-10-07"
 coverImage: "customer-identification-challenges-retail-cover.jpg"
-tags: ["identity management","data security","ciam solution","cx"]
+tags: ["customer identity management","data security","ecommerce"]
 author: "Deepak Gupta"
 description: "Meeting the expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. This insightful read covers all the major challenges that retailers and e-commerce vendors face and how they can overcome them."
 metatitle: "Key Customer Identification Challenges in Retail Industry"
@@ -22,7 +22,6 @@ Well, that’s the kind of omnichannel experience your shoppers are looking for.
 Meeting this kind of expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. 
 
 Let’s have a quick look at some of the lingering [challenges of today’s retailers](https://www.loginradius.com/blog/fuel/how-ciam-can-resolve-retail-industry-challenges/) and understand how to stay ahead of the curve by leveraging a cutting-edge identity and access management solution. 
-
 
 ## What’s Identity Management in the Retail and E-commerce industry
 
@@ -65,7 +64,6 @@ The online format will involve showcasing product recommendations based on previ
 
 [With LoginRadius](https://www.loginradius.com/industry-retail-and-ecommerce/), you get to center around your shoppers’ behavior and gain traction for your excellent products. More so, you get to predict all upcoming success metrics, pull in more money, and remain competitive.
 
-
 ### #2. An Outstanding and Flawless User Experience
 
 Answer this question. What will turn casual visitors into loyal consumers?
@@ -77,7 +75,6 @@ Speaking of which, the LoginRadius identity solution provides a centralized, ava
 Among its solutions include the real-time ability for visitors to self-register for services, login and authenticate, and enjoy a single-source view.
 
 Retailers can manage customer profiles and provide a [personalized omnichannel experience](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) with consent and other preferences.
-
 
 ### #3. Security 
 
@@ -91,7 +88,6 @@ Whether it’s multi-factor authentication (MFA) or risk-based authentication (R
 
 [![retail-DS](retail-DS.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
-
 ### #4. Engagement and Loyalty 
 
 Getting a customer that makes frequent purchases is a tough nut to crack; however, engaging customers to keep coming back is even more complicated when it comes to the challenges of customer identification in retail. 
@@ -100,13 +96,10 @@ Building trust over consumers is quite daunting but can do wonders for a brand i
 
 LoginRadius simplifies the shopper registration process through a seamless experience with social sign-in and single sign-on. 
 
-
-
 * **Social Sign-In**: Customers tend to remember the credentials of their frequently used network. As such, social sign-in is the method of one-click authentication with a social media account. It reduces the hassles of the registration process and helps a great deal in converting a random user to a value-added customer. 
 * **Single Sign-On**: It means a customer can access multiple accounts with a single set of credentials. It offers ease of authentication and reduces the risk of minimizing poor password habits.
 
 When consumers are offered friction-less onboarding coupled with quick login options, they eventually build trust in a brand and become frequent visitors, which later turn into buyers. 
-
 
 ## Final Thoughts 
 

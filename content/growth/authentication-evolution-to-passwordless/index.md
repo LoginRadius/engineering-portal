@@ -2,13 +2,12 @@
 title: "The Evolution of Authentication: From Passwords to Passwordless & More"
 date: "2022-05-27"
 coverImage: "evolution-auth.jpg"
-tags: ["authentication", "passwordless login", "biometric authentication", "social login"]
+tags: ["passwordless authentication","new age authentication","cx"]
 author: "Srishti Singh"
 description: "Over the past years, the evolution of authentication portrays the risks associated with unauthorized access and the growing number of cybersecurity threats that leads to compromised user information and sensitive business data. Here’s an insightful read depicting authentication aspects and how it has evolved over a decade."
 metatitle: "The Evolution of Authentication to a Passwordless World"
 metadescription: "The evolution of authentication has portrayed the need for a more robust authentication system to secure business and consumer data. Read on to learn more."
 ---
-
 
 ## Introduction
 Authentication isn’t a 21st-century concept designed to offer secure access across diverse platforms, networks, and systems; it’s been there for decades to identify individuals they claim to be for several reasons. 
@@ -20,7 +19,6 @@ Over the past years, the evolution of authentication portrays the risks associat
 Whether we talk about using conventional passwords or biometric authentication methods, we’ve come a long way to secure consumer identities and sensitive business information. 
 
 Let’s look at the aspects of [authentication](https://www.loginradius.com/blog/identity/what-is-authentication/) and how it has evolved over a decade. 
-
 
 ## Why Are 20th Century Passwords Obsolete in the 21st Century?
 
@@ -34,7 +32,6 @@ Hence, the traditional password-based authentication became outdated as attacker
 
 Apart from this, one of the significant issues with conventional passwords is that they’re hard to remember. And every individual has to remember several passwords, which hampers the overall user experience while interacting with a platform or a device. 
 
-
 ## The New-Age Authentication 
 
 With consumers demanding an excellent user experience every time they interact with a brand, seamless authentication becomes the need of the hour. 
@@ -42,7 +39,6 @@ With consumers demanding an excellent user experience every time they interact w
 On the other hand, security is one of the major concerns among businesses, which is the reason why relying on old-school authentication methods seems risky. 
 
 Since we’ve learned about the evolution of authentication, let’s look at the latest and most secure ways of authentication that can help businesses ensure robust security without hampering user experience. 
-
 
 ### #1. Social Login
 
@@ -64,16 +60,13 @@ For users, since one needs not type passwords anymore, it leads to a better scre
 
 The use of passwordless authentication in businesses is multifold. For example, you can go passwordless for internal security, online consumers, or even combine the two of them. 
 
-A few use cases of [passwordless authentication](https://www.loginradius.com/passwordless-login/) include:
-
-
+A few use cases of [passwordless authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) include:
 
 * Sign up for a service, or get a subscription.
 * Let consumers log in to their online accounts.
 * Make a secure payment online.
 
 It is much easier to keep information about users safe and implement tighter security measures for employees with passwordless logins.
-
 
 ### #3. Adaptive Authentication/ Risk-Based Authentication
 
@@ -84,7 +77,6 @@ It is a method of applying various levels of stringency to authentication proces
 RBA/adaptive authentication implementation follows the challenge and response process. One party presents a challenge (in the form of a question), and the other party provides a response (in the form of a response) as the second factor after submitting the username and password.
 
 Whenever a system identifies any risk with a login activity, there can be multiple actions based on the configuration setup.
-
 
 ## The Bottom Line
 

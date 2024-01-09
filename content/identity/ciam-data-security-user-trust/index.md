@@ -2,7 +2,7 @@
 title: "CIAM: Enhancing Security & Building Consumer Trust-All At Once"
 date: "2023-09-15"
 coverImage: "user-trust.jpg"
-tags: ["data security","cybersecurity","customer trust","ciam solutions","cx"]
+tags: ["data security","cybersecurity","ciam solutions","cx"]
 author: "Alok Patidar"
 description: "CIAM (customer identity & access management) emerges as a boon for organizations that constantly seek efficient and capable methods of dealing with customer identity management, increasing user engagement, enhancing data security, and building brand loyalty.  By implementing CIAM techniques, an organization can improve its overall operational efficiency."
 metatitle: "How CIAM Helps Reinforce Data Security & User Trust"

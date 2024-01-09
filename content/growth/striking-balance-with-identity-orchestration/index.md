@@ -2,7 +2,7 @@
 title: "Striking the Perfect Balance: Leveraging Identity Orchestration for Cost, Security, & Enhanced UX"
 date: "2023-06-20"
 coverImage: "identity-orchestration.jpg"
-tags: ["identity management","adaptive authentication","ciam solution","cx"]
+tags: ["identity orchestration","compliance","cx"]
 author: "Deepak Gupta"
 description: "Discover the power of identity orchestration in achieving a balanced approach to cost, security, and user experience. Explore the advantages of centralized user management and streamlined authentication for a seamless digital environment that optimizes resources and enhances security measures."
 metatitle: "Balancing Cost, Security, and UX with Identity Orchestration"
