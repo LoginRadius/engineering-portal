@@ -2,12 +2,11 @@
 title: "Unveiling the Benefits of Identity Verification for Online Retailers "
 date: "2023-08-31"
 coverImage: "identity-verification.jpg"
-tags: ["identity verification","biometric authentication", "cx"]
+tags: ["digital identity verification","compliance","cx"]
 author: "Vishal Sharma"
 description: "In the dynamic realm of online retail, establishing trust while countering cyber threats is paramount. Identity verification emerges as a game-changer, bolstering security, trust, compliance, and even personalization. Dive into the advantages it brings to businesses navigating the digital landscape."
 metadescription: "Discover how identity verification is changing online retail by enhancing security, building trust, ensuring compliance, and enabling personalized experiences."
 metatitle: "Unlocking Benefits: Identity Verification in Online Retail"
-
 ---
 ## Introduction
 

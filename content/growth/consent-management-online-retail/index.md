@@ -2,10 +2,11 @@
 title: "Exploring the Vital Role of Consent Management for Your Online Store"
 date: "2023-09-08"
 coverImage: "online-store-consent-mngmnt.jpg"
-tags: ["consent management","retail industry","data privacy","compliance","cx"]
+tags: ["consent management","data privacy","compliance","cx"]
 author: "Vishal Sharma"
 description: "In today’s modern digital world, online success hinges on more than just great products and user-friendly interfaces. It's about respecting privacy, complying with regulations, and fostering trust. Consent management plays a vital role in achieving these goals. By being transparent about data usage, respecting customer privacy, and complying with regulations like GDPR, you not only avoid legal troubles but also gain a competitive edge."
 metadescription: "Learn why consent management is crucial for online stores. Discover how it builds trust, ensures compliance, and enhances the customer experience."
+meta-title: "Exploring Vital Role of Consent Management for Online Store"
 ---
 ## Introduction
 

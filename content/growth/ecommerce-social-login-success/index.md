@@ -2,7 +2,7 @@
 title: "8 Essential Insights for Enabling E-Commerce Social Login"
 date: "2023-09-20"
 coverImage: "ecommerce-social-login.jpg"
-tags: ["social login","data privacy","compliance","cx"]
+tags: ["ecommerce","social login","data privacy","cx"]
 author: "Vishal Sharma"
 description: "E-commerce social login is the way forward for businesses looking to simplify user authentication and improve the overall user experience. However, success lies in the details, from offering multiple social login options to prioritizing data privacy and security. Explore these eight essential insights to ensure your e-commerce platform thrives in the age of social login."
 metatitle: "Mastering E-Commerce Social Login: 8 Insights for Success"

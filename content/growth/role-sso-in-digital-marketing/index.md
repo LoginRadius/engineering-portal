@@ -2,7 +2,7 @@
 title: "The Critical Role of SSO in Reshaping Digital Marketing Landscape"
 date: "2023-02-10"
 coverImage: "sso-role.jpg"
-tags: ["single sign on","ciam platform","authentication","cx"]
+tags: ["sso","ciam platform","customer retention"]
 author: "Vishal Sharma"
 description: "With SSO, enterprises can understand their target audience's needs, preferences, and behavior when they land on their platform for the first time. And this helps them in creating winning digital marketing campaigns to foster growth."
 metatitle: "How is SSO Reshaping the Digital Marketing Landscape?"
@@ -23,7 +23,6 @@ With SSO, enterprises can understand their target audience's needs, preferences,
 
 Let’s figure out how SSO is reshaping the digital marketing landscape and why businesses must implement a robust SSO authentication mechanism in 2023. 
 
-
 ## What is Single Sign-On (SSO), and How is it Reshaping the Future of Digital Marketing in 2023 & Beyond?
 
 Single Sign-On (SSO) is an authentication method that allows users to log into multiple interconnected applications or services with a single login credential (username and password). 
@@ -35,7 +34,6 @@ The main goal of SSO is to improve the customer experience while enhancing secur
 Besides security and user experience, one of the most critical aspects of deploying an SSO authentication into your system is that it offers you many marketing benefits that can improve your conversion and customer retention rates. 
 
 Let’s examine some marketing advantages of incorporating SSO into your online platforms/applications. 
-
 
 ### 1. Improves Customer Retention 
 
@@ -72,7 +70,6 @@ A reliable CIAM is the backbone of personalized marketing and customer experienc
 Every user interacts with huge brands, including Apple, Amazon, Google, and Microsoft. And they know what great personalized experience means. Hence, they expect a similar experience from other brands when they land on their platform. 
 
 With a reliable [CIAM platform](https://www.loginradius.com/), brands can implement SSO that captures insightful customer data that can be used to create personalized customer journeys, which boosts your overall marketing program.
-
 
 ## Final Thoughts 
 

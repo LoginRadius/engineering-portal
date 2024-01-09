@@ -2,13 +2,12 @@
 title: "A Comprehensive Guide to Privileged Access Management (PAM)"
 date: "2021-08-26"
 coverImage: "what-is-privileged-access-management-cover.jpg"
-tags: ["data security","identity management","mfa"] 
+tags: ["data security","Privileged Access Management","cx"] 
 author: "Bhavya Tugnawat" 
 description: "Privileged access management—finding the right balance between security and convenience. This blog explains why PAM matters, highlights its key features and strategies that the organization should use to ensure the proper implementation of PAM."
-metatitle: "What is Privileged Access Management (PAM)? | LoginRadius"
+metatitle: "What is Privileged Access Management (PAM)?"
 metadescription: " Privileged Access Management helps organizations protect privileged accounts and credentials. Read this blog to understand its features and how to use PAM."
 ---
-
 
 Privileged Access Management (PAM) includes cyber security strategies and technologies for applying control over the privileged access and permission for users, accounts, processes, and systems across an environment.
 
@@ -22,16 +21,13 @@ Since it was kept inside the repository, the system administrator will need to g
 
 Once all the authentication is done, they will be provided access to their credentials. Also, once these credentials are put in the repository, all their processes will be reset, and for the subsequent time, all methods need to be repeated to get the credentials.
 
-
 ## What are the Different Types of Privileged Access Management Accounts?
 
 The following are the different types of Privilege Access management accounts: 
 
-
 ### 1. Local Administrative Accounts 
 
 These are the shared accounts that provide admin access to the local host or session only. The IT staff typically uses these accounts to perform maintenance or set up the new workstations.
-
 
 ### 2. Privileged User Accounts
 
@@ -39,21 +35,17 @@ These are the users that are granted administrative privileges to systems. Privi
 
 Generally, these accounts have [unique and complex passwords](https://www.loginradius.com/blog/identity/how-to-choose-a-secure-password/), but most of the time are protected by passwords alone. These are the types of accounts that should be monitored closely. And these are the accounts that sometimes do not belong to the individual user instead of that they are shared among the multiple admins.
 
-
 ### 3. Domain Admin Accounts
 
 These super admin accounts have access to all the organization's workstations, and it provides the most extensive access across the network. They can modify the membership of every administrative account within the domain. These accounts are under the attacker's radar and should be monitored closely, and PAM should be implemented here.
-
 
 ### 4. Service Accounts
 
  It is the type of accounts that are privileged local or domain accounts that are used by the application or service to interact with the operating system. In some cases, these service accounts have administrative privileges on domains depending on the requirements of the application they are used for.
 
-
 ### 5. Emergency Accounts
 
 It is the type of account that provides the unprivileged users with admin access in case of emergency to protect the system. They are also called 'firecall' or 'break glass accounts. Access to this account requires the organization's IT management team approval. Most of the time, this is a manual process because of which it rarely lacks any security measures.
-
 
 ## What are the Features of a PAM software? 
 
@@ -69,7 +61,6 @@ Now, let's discuss the features that the PAM software provides:
 
 [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
-
 ## Common Strategies that the Organization Should Use to Ensure the Proper Implementation of PAM
 
 There are some common strategies that every organization that uses the PAM should follow for the proper implementation of PAM Software, and those strategies are:
@@ -81,7 +72,6 @@ There are some common strategies that every organization that uses the PAM shoul
 * Use the different types of tools and monitoring systems to gather the proper knowledge of what the privileged users are doing.
 * Update employees about changes in privileged access policies and procedures to ensure they understand how to use and manage their privileged credentials correctly.
 * All organizations should maintain the proper documentation of account management rules and processes.
-
 
 ## What's the Difference Between Identity and Access Management (IAM) and Privileged Access Management?
 

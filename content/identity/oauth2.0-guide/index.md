@@ -2,8 +2,7 @@
 title: "Working With Industry Authorization: A Beginner's Guide to OAuth 2.0"
 date: "2021-06-08"
 coverImage: "OAuth2.0-guide-cover.jpg"
-tags: ["security"]
-featured: false 
+tags: ["data security","authorization","cx"]
 author: "Vishal Sharma"
 description: " OAuth 2.0 is an authorization protocol designed to control access within a web application or a mobile application. Here’s an interesting read showcasing the role of OAuth 2.0 for offering secure access to resources and why enterprises should get it in place."
 metatitle: "Working with OAuth 2.0: Your Guide to Industry Authorization"

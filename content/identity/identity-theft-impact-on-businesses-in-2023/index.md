@@ -2,7 +2,7 @@
 title: "Understanding the Impact of Identity Theft on Businesses in 2023"
 date: "2023-07-26"
 coverImage: "identity-theft.jpg"
-tags: ["cybersecurity","identity management","compliance","cx"]
+tags: ["digital identity management","cybersecurity","cx"]
 author: "Alok Patidar"
 description: "In 2023, identity theft has become a pressing concern for businesses, posing significant risks and consequences. This blog explores the implications of identity theft, including financial loss, reputational damage, and legal consequences. Discover the importance of proactive measures and cybersecurity practices to mitigate the risks."
 meta-title: "The Impact of Identity Theft on Businesses in 2023"
