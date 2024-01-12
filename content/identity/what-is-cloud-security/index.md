@@ -5,8 +5,8 @@ coverImage: "cloud-security.jpg"
 tags: ["cloud security", "cloud infrastructure", "data security"]
 author: "Navanita Devi"
 description: "Cloud security is a growing concern for businesses that rely on cloud-based services. The use of these services has become widespread over the past decade or so, but many companies still don't fully understand how to protect themselves from cyber threats. Read this blog to know what exactly is cloud security and how it works."
-metatitle: "What is Cloud Security?"
-metadescription: "Cloud security is an important aspect of a company's IT infrastructure. Read this blog to know what exactly is cloud security and how it works."
+metatitle: "Cloud Security Explained - Safeguarding Your Digital Assets"
+metadescription: "Cloud security is an important aspect of a company's IT infrastructure. Discover the essence of cloud security, how it works, and how it protects data."
 ---
 
 ## Introduction 
