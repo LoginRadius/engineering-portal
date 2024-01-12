@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 7 Security Tips from LoginRadius’ Cybersecurity Expert to Follow in 2023"
 date: "2022-01-20"
-coverImage: "security-exp.jpg"
+coverImage: "security-expert.jpg"
 tags: ["cybersecurity tips","data privacy","digital transformation"]
 author: "Alok Patidar"
 description: "Alok Patidar, Information Security Manager at LoginRadius, shares his valuable insights for businesses to secure their sensitive information in 2023 and beyond. Read on to ensure the highest level of security across your organization."
