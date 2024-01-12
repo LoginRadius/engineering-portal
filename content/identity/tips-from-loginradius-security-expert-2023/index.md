@@ -2,7 +2,7 @@
 title: "Top 7 Security Tips from LoginRadius’ Cybersecurity Expert to Follow in 2023"
 date: "2022-01-20"
 coverImage: "security-exp.jpg"
-tags: ["cybersecurity", "security tips","information security"]
+tags: ["cybersecurity tips","data privacy","digital transformation"]
 author: "Alok Patidar"
 description: "Alok Patidar, Information Security Manager at LoginRadius, shares his valuable insights for businesses to secure their sensitive information in 2023 and beyond. Read on to ensure the highest level of security across your organization."
 metatitle: "7 Tips from LoginRadius’ Security Expert to Follow in 2023"
@@ -37,7 +37,6 @@ Hence, the key to overturning the data breach trend is to avoid the smallest eve
 
 Since now, we have adequate information regarding the importance of strengthening the security mechanism. Let’s look at some crucial tips that would help reinforce overall security. 
 
-
 ### #1. Evaluate third-party risks
 
 The worst thing that can happen for an organization from an information security perspective is to leave a loophole at the vendor's end. 
@@ -48,7 +47,6 @@ It’s essential to evaluate the overall security posture of all of your third-p
 
 Moreover, a vendor risk assessment should also ensure that the vendors strictly adhere to the [global data privacy and security](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) compliance standards, including GDPR, CCPA, and HIPAA. 
 
-
 ### #2. Strengthening endpoint security 
 
 Endpoint security is often ignored when it comes to implementing robust security practices across an organization. 
@@ -58,7 +56,6 @@ An endpoint can be defined as the remote access point communicating with an orga
 Since businesses have adopted the paradigm shift in remote working models, endpoint security is often neglected. Also, various interconnected devices in the IoT landscape have increased the risk as endpoint security breaches become more common. 
 
 Besides incorporating firewalls and VPNs, organizations must train their staff members to quickly recognize any phishing email or social engineering attack for maximum safety. 
-
 
 ### #3. Use tougher security questions
 
@@ -120,6 +117,4 @@ Every business needs to think more carefully regarding the overall security mech
 
 Using the best industry practices and strictly following the tips mentioned earlier will help [enterprises secure their operations](https://www.loginradius.com/blog/identity/risk-management-essentials-enterprise/), protecting sensitive data.
  
-
-
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
