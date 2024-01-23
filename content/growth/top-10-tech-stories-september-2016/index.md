@@ -2,8 +2,7 @@
 title: "Top 10 Must Read Tech Stories Of September 2016"
 date: "2016-09-23"
 coverImage: "Youtube-debuts-new-TrueView-featuring-tailored-Call-to-Action-264x300.png"
-category: ["technical updates", "loginradius"]
-featured: false 
+tags: ["technology","ecommerce","cx"]
 author: "Deepak Gupta"
 description: "Hard to keep up with the daily technology updates every IT must read? we are here again with our next roundup post."
 metatitle: "Top 10 Must Read Tech Stories Of September 2016"
@@ -97,3 +96,5 @@ See here what else this update has in the store [here](http://mashable.com/2016/
 Well I think I have covered almost everything that happened in the market in the last 15 days, and if I missed out on anything then you are most welcome here to let me know.
 
 Thanks and Regards!
+
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

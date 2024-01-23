@@ -2,11 +2,10 @@
 title: "Improving Customer Experience in the Public Sector"
 date: "2018-10-26"
 coverImage: "improving-customer-experience-public-sector.jpg"
-tags: ["public-sector"]
-featured: false 
+tags: ["data security","ciam solutions","cx"]
 author: "Rakesh Soni" 
 description: "When people think of the experience of online users, they will not consider it relevant in the public sector. LoginRadius is currently helping a variety of public sector organisations enhance their customer service in various ways."
-metatitle: "Improving Customer Experience in the Public Sector | LoginRadius"
+metatitle: "Improving Customer Experience in the Public Sector"
 metadescription: "LoginRadius is currently helping a variety of public sector organisations enhance their customer service in various ways."
 ---
 
@@ -43,3 +42,5 @@ For most people, a utility provider represents just another bill to pay at the e
 One of the best examples of customer experience innovation for utilities comes from Hydro Ottawa, the largest local electricity distribution company in eastern Ontario. LoginRadius has helped [Hydro Ottawa completely disrupt the Canadian utility industry](https://www.loginradius.com/blog/2018/10/customer-spotlight-hydro-ottawa/) by integrating their platform with Amazon Alexa and Google Home. Customers can receive billing information, insights about usage, and tips on how to conserve energy and reduce spending by talking to their smart home assistant. Now, rather than making customers search for useful information, Hydro Ottawa makes that information directly available through voice commands. By leveraging their identity architecture and the [OAuth 2.0](https://www.loginradius.com/federation/) capabilities from LoginRadius, Hydro Ottawa has developed a new and innovative way for their customers to interact with them.
 
 If you’re ready to see how the LoginRadius CIAM platform can help your company, [schedule your demo now](https://www.loginradius.com/schedule-demo/).
+
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
