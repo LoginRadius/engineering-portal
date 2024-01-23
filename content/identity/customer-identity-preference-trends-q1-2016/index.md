@@ -2,11 +2,10 @@
 title: "Customer Identity Preference Trends Q1 2016"
 date: "2016-04-15"
 coverImage: "customer-identity-preference-trends-q1-2016.png"
-tags: ["customer-experience"]
-featured: false 
+tags: ["customer identity management","ciam platform","cx"]
 author: "Rakesh Soni"
 description: "From the beginning to the end of the customer-business relationship, customer engagement is the central aspect of individual user interactions."
-metatitle: "Customer Identity Preference Trends Q1 2016 | LoginRadius"
+metatitle: "Customer Identity Preference Trends Q1 2016"
 metadescription: "LoginRadius Customer Identity Preference Trends Report for Q1 2016 is out. Get compiled analysis about consumer preferences and how they vary with demographics."
 ---
 
@@ -39,3 +38,5 @@ Some more critical insights provided by the analysis are:
 - - Among mobile platforms too, iOS run devices lead the way pipping Android.
 
 - About 92% websites still prefer providing Facebook as one of the options for Social Login leading the favourites list since 2013.
+
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

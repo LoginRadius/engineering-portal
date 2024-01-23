@@ -2,14 +2,12 @@
 title: "Dear Developers! Get Ready To Blog!!"
 date: "2017-01-23"
 coverImage: "blogging-tips.jpg"
-category: ["general", "loginradius"]
-featured: false 
+tags: ["developer tips","blogger tips","cx"]
 author: "Deepak Gupta"
 description: "Are you a website developer? Are you a blogger yet? Check out this step by step guide for developers to rock at blogging!"
 metatitle: "Dear Developers! Get Ready To Blog!!"
 metadescription: "Are you a website developer? Are you a blogger yet? Check out this step by step guide for developers to rock at blogging!"
 ---
-
 
 Are you a website developer? Are you a blogger yet?
 
@@ -129,3 +127,5 @@ So guys, Here was the Step by Step Guide for our Developer fellas to try hands o
 So get ready to start your first blog?? Don't mind if you Sing Hideous at start, Believe in your poetic Skills and Sing… Sing to Perfection Devs! Happy Coding & Happy blogging!
 
 If you like this article, show some love and share it with your developer friends!! **:P**
+
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
