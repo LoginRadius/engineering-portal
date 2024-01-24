@@ -2,11 +2,10 @@
 title: "Customer Identity Preference Trends Q2 2016"
 date: "2016-08-16"
 coverImage: "customer-identity-preference-trends-q2-2016.png"
-tags: ["customer-experience"]
-featured: false 
+tags: ["customer identity management","social login","cx"]
 author: "Rakesh Soni" 
 description: "Now's the time when you measure expectations for consumer identity and understand what's right for you."
-metatitle: "Customer Identity Preference Trends Q2 2016 | LoginRadius"
+metatitle: "Customer Identity Preference Trends Q2 2016"
 metadescription: "LoginRadius 2016 Q2 consumer identity preference trends report is now available. Find out how many consumers use social login against traditional registration."
 ---
 
@@ -41,3 +40,5 @@ Some more critical insights you can obtain from the report are:
 - Just about 67% websites provide Facebook as a social login option on their website.
 
 Read more detailed analysis and insights in LoginRadius’ Customer Identity Preference Trends report for Q2 2016. Go ahead, [download it now](https://www.loginradius.com/resource/customer-identity-preference-trends-2016/).
+
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

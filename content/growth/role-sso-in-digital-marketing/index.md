@@ -1,7 +1,7 @@
 ---
 title: "The Critical Role of SSO in Reshaping Digital Marketing Landscape"
 date: "2023-02-10"
-coverImage: "sso-role.jpg"
+coverImage: "sso.jpg"
 tags: ["sso","ciam platform","customer retention"]
 author: "Vishal Sharma"
 description: "With SSO, enterprises can understand their target audience's needs, preferences, and behavior when they land on their platform for the first time. And this helps them in creating winning digital marketing campaigns to foster growth."

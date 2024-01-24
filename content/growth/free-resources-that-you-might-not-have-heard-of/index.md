@@ -2,14 +2,12 @@
 title: "Free Resources That You Might Not Have Heard Of"
 date: "2017-01-23"
 coverImage: "free-resources-150x150.png"
-category: ["general", "loginradius"]
-featured: false 
+tags: ["resources","article","cx"]
 author: "Rakesh Soni"
 description: "It is said that every good thing comes with a price tag attached. Well, looks like this is not applicable to all good things. The articles lists down some useful free resources you might not have heard of."
 metatitle: "Free Resources That You Might Not Have Heard Of"
 metadescription: "It is said that every good thing comes with a price tag attached. Well, looks like this is not applicable to all good things. The articles lists down some useful free resources you might not have heard of."
 ---
-
 
 ![free-resources-]Some good things are free too!
 
@@ -32,3 +30,5 @@ Here are some things which are not that popular but are worth trying at least on
 13. **Free Stock Photos** Paying too much for stock photos? Try [http://www.freepik.com/](http://www.freepik.com/)
 
 So here are my favorite free resources that make my everyday life easier! Have you tried these? Or do you know about any other free resources that can make my job easier, would love to know in the comments below!
+
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
