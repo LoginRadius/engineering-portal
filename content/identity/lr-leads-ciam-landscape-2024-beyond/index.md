@@ -1,6 +1,6 @@
 ---
 title: "5 Reasons Why LoginRadius Leads the Way in the CIAM Landscape in 2024 & Beyond"
-date: "2024-01-23"
+date: "2024-01-24"
 coverImage: "ciam-lead-2024.jpg"
 tags: ["ciam solution","data security","cx"]
 author: "Govind Malviya"
