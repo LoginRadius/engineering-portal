@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Impact of Identity Theft on Businesses in 2023"
+title: "Learn the Impact of Identity Theft on Businesses in 2023"
 date: "2023-07-26"
 coverImage: "identity-theft.jpg"
 tags: ["digital identity management","cybersecurity","cx"]
