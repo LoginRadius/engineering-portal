@@ -26,7 +26,7 @@ Data privacy and storage regulations are becoming stringent as the number of cyb
 
 ### 3. Offers convenience to employees and users
 
-Different secure authentication methods, like [single sign-on](https://www.loginradius.com/data-governance/) and **biometrics password authentication,** can make it easy for users to access the documents, improving overall user experience. 
+Different secure authentication methods, like [single sign-on](https://www.loginradius.com/blog/identity/single-sign-on-a-beginners-guide/) and **biometrics password authentication,** can make it easy for users to access the documents, improving overall user experience. 
 
 ### 4. Builds trust with customers, stakeholders, and partners 
 
