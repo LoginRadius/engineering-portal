@@ -1,6 +1,6 @@
 ---
 title: "Key Differences Between Two-Factor Authentication (2FA) and Multi-Factor Authentication (MFA)"
-date: "2024-02-05"
+date: "2024-02-06"
 coverImage: "2fa-vs-mfa.jpg"
 tags: ["2FA","MFA","cx"]
 author: "Navanita Devi"
