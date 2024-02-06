@@ -1,7 +1,7 @@
 ---
 title: "Voice OTP by LoginRadius: Revolutionizing Secure and Seamless User Authentication"
 date: "2024-02-01"
-coverImage: "voice-OTP.jpg"
+coverImage: "voiceotp.jpg"
 tags: ["data security","user authentication","cx"]
 author: "Govind Malviya"
 description: "Discover Voice OTP – LoginRadius' innovative solution for secure and seamless user authentication. Explore how Voice OTP is reshaping the digital authentication landscape from strategic integration to inclusivity and global reach."
