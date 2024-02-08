@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Evaluate the Quality of Your User Authentication System"
 date: "2021-11-18"
-coverImage: "verification.jpg"
+coverImage: "user-authentication.jpg"
 tags: ["user authentication","authorization","compliance"]
 author: "Arpita Garg"
 description: "Whether we talk about data leaks or identity thefts, businesses that become victims of security breaches compromise their brand reputation and lose millions of dollars every year. Hence, robust authentication and authorization mechanisms become a necessity and not just a luxury. Let’s understand how businesses can evaluate the quality of a user authentication system."
@@ -26,18 +26,15 @@ With cybercriminals finding new ways to sneak into a business network, enterpris
 
 Let’s dig deeper into this and understand how enterprises can evaluate the quality of a user authentication system before making a decision. 
 
-
 ## Authentication and Authorization
 
 Before we inch towards understanding the aspects of a robust [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/) mechanism, let’s quickly understand the difference between authentication and authorization. 
-
 
 ### What is Authentication
 
 Authentication is the process of identifying users and validating who they claim to be. One of the most common and apparent factors to authenticate identity is a password. If the user name matches the password credential, the essence is valid, and the system grants access to the user.
 
 Interestingly, with enterprises going passwordless, many use modern authentication techniques like one-time passcodes (OTP) via SMS, or email, single sign-on (SSO), multi-factor authentication (MFA) and biometrics, etc. authenticate users and deploy security beyond what passwords usually provide.
-
 
 ### What is Authorization
 
@@ -55,7 +52,6 @@ Implementing authentication with the proper authorization techniques [through a 
 
 A CIAM solution uses authentication and authorization technologies like JWT, SAML, OpenID Authorization, and OAuth.
 
-
 ### Different Ways of User Authentication
 
 * **Password-based Authentication:** It is a simple method of authentication that requires a password to verify the user's identity. 
@@ -63,7 +59,6 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 * **2FA/MFA** **(Multi-factor Authentication):** It requires more than one security level, like an additional PIN or security question, to identify a user and grant access to a system. 
 * **Single sign-on (SSO):** It allows users to access multiple applications with a single set of credentials. 
 * **Social Authentication:** It verifies and authenticates users with existing credentials from social networking platforms.
-
 
 ### Different Ways of User Authorization 
 
@@ -85,7 +80,6 @@ One of the essential characteristics of a robust authentication system is functi
 
 Considering the new security challenges, the CIAM solution must adapt to the diverse security environment and offer stringent security in every situation.For instance, the LoginRadius CIAM offers [Risk-based Authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) that automatically kicks in and adds another layer of authentication in a hazardous environment. 
 
-
 ### #2. Reliability
 
 A CIAM solution offering authentication and authorization must be reliable enough to meet the ever-expanding security and infrastructure requirements. 
@@ -96,13 +90,11 @@ Here’s where LoginRadius CIAM plays a vital role. The [LoginRadius CIAM](https
 
 Whether the number of users is hundreds of millions, LoginRadius handles consumers like a breeze and ensures data is securely stored. 
 
-
 ### #3. Performance Efficiency
 
 Enterprises should strictly consider relying on a CIAM solution that not only ensures efficiency but eventually meets the surging demands of users in real-time without hampering user experience. 
 
 A CIAM solution carries out the way authentication and authorization define the overall usability and performance of the mechanism. Businesses should ensure that their CIAM can handle peak loads and deliver a frictionless user experience without delay. 
-
 
 ### #4. Security
 
@@ -115,13 +107,11 @@ Here’s where LoginRadius CIAM comes into play. The new-age CIAM solution harmo
 
 The leading CIAM offers [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/), risk-based authentication,  built-in web application firewall and adheres to all the major data privacy regulations and security compliances. Apart from this, the customer data is protected with many built-in features such as encryption at rest, one-way password hashing, and much more.
 
-
 ### #5. Compatibility
 
 Another essential aspect that enterprises shouldn’t ignore in their CIAM is compatibility. A CIAM solution must be compatible with both web and mobile devices to offer complete responsiveness to end-users. Also, the CIAM must have interoperable capabilities to ensure compatibility with other products and systems. 
 
 The LoginRadius CIAM offers endless possibilities for enterprises as they can integrate third-party applications and programs that leverage consumer data and behavior to deliver valuable insights. 
-
 
 ### #6. Maintainability
 
@@ -129,13 +119,11 @@ The maintenance of a CIAM solution shouldn’t be a tough nut to crack. Enterpri
 
 Moreover, the LoginRadius Cloud Directory is a fully managed service, so there’s no additional work needed to maintain it.
 
-
 ### #7. Portability
 
 Portability is yet another vital aspect that shouldn’t be overlooked by enterprises considering adding authentication to their platforms. The CIAM solution must be adaptable and portable to be used in every environment and niche to cater to the diverse needs of the businesses. 
 
 Since cloud computing is swiftly becoming the future of modern businesses, relying on a cloud-based solution is undeniably the wisest decision. 
-
 
 ### #8. Usability
 
