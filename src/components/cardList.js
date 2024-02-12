@@ -3,7 +3,7 @@ import styles from "./cardlist.module.scss"
 import Card from "./card"
 import Subscribe from "./subscribe"
 import headStyles from "./cardlist.module.scss"
-import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
+//import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { Link, withPrefix } from "gatsby"
@@ -68,28 +68,31 @@ export default function CardList({ posts, currentPage, type }) {
               {type !== "engineering" && (
                 <>
                   <div className={headStyles.image}>
-                    <img src={Docs} alt="LoginRadius Docs" />
+                    <img
+                      src="/wp-content/uploads/2024/02/KC_LR-Joint-Webinar-Resource-Feature-.png"
+                      alt="Mastering CIAM: Advanced Techniques"
+                    />
                   </div>
                   <div className={headStyles.text}>
-                    <h3>Consumer Identity Trend 2023 Report</h3>
+                    <h3>Mastering CIAM: Advanced Techniques</h3>
                     <a
                       className={`${headStyles.btnPrimary} btn-primary ga_event`}
                       // className={"btn-primary ga_event"}
                       href={
-                        "https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023"
+                        "https://www.kuppingercole.com/events/2024/03/mastering-ciam"
                       }
                       key={"consumer-identity-trend"}
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() =>
                         eventLogger({
-                          category: "Consumer Identity Trend 2023 Report",
+                          category: "Mastering CIAM: Advanced Techniques",
                           action: "User clicked on Free Download button",
-                          label: "Consumer Identity Trend 2023 Report",
+                          label: "Mastering CIAM: Advanced Techniques",
                         })
                       }
                     >
-                      {"FREE DOWNLOAD"}
+                      {"Register Now"}
                     </a>
                   </div>
                 </>
