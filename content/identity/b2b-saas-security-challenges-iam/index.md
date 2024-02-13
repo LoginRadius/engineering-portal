@@ -24,7 +24,7 @@ The risk of attack threats expands with more users, devices, and access points i
 
 ### 2. Account Takeovers
 
-Compromise of user credentials is one of the simplest ways for an attacker to gain access to SaaS applications. Tactics like phishing, password stuffing, and password sprays are commonly used to steal user credentials. 
+Compromise of user credentials is one of the simplest ways for an attacker to gain access to SaaS applications. Tactics like phishing, password stuffing, and password sprays are commonly used to [steal user credentials](https://www.loginradius.com/account-data-security/). 
 
 With valid user accounts, hackers can exploit access rights and hide under the radar to move laterally within the network to access sensitive systems and data.
 
@@ -58,7 +58,7 @@ Here is how a comprehensive IAM solution helps strengthen **B2B SaaS** applicati
 A robust identity and access management solution provides multiple layers of protection to prevent data breaches. By securing access points and monitoring usage patterns, potential data breach threats can be prevented.
 
 * Multi-factor authentication prevents the compromise of stolen credentials by requiring an additional factor like biometrics or one-time passwords to allow access.
-* Adaptive authentication detects suspicious login attempts by triggering step-up authentication based on IP address, geo-location, and other contextual signals.
+* [Adaptive authentication](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/) detects suspicious login attempts by triggering step-up authentication based on IP address, geo-location, and other contextual signals.
 * Behavioral analytics spots unusual activity indicative of a breach by analyzing usage patterns to flag deviations from normal behavior.
 * Access controls minimize insider threats by restricting data access on a need-to-know basis and granting the least privilege permissions.
 
