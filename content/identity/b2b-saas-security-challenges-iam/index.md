@@ -1,13 +1,15 @@
 ---
 title: "How does identity management address the top 5 security challenges in B2B SaaS?"
 date: "2024-02-12"
-coverImage: "b2b-saas.jpg"
+coverImage: "b2bsaas.jpg"
 tags: ["b2b","saas","identity management"]
 author: "Rakesh Soni"
 description: "As the usage and adoption of B2B SaaS applications are growing, businesses need to find a robust solution to overcome the associated security concerns. Presenting IAM or Identity Access Management, a world-class solution to create a secure digital experience for your business partners."
 metatitle: "Resolve Top Five B2B SaaS Security Challenges with IAM"
 metadescription: "With the rise of B2B SaaS application usage, the risk of increased threats cannot be overlooked. However, IAM has the solution to all security problems."
 ---
+## Introduction
+
 Software-as-a-service (SaaS) has become the predominant model for business software delivery. According to the latest roundup by Synergy Research Group, spending on enterprise SaaS applications was [$270 billion](https://www.srgresearch.com/articles/cloud-market-gets-its-mojo-back-q4-increase-in-cloud-spending-reaches-new-highs) by 2023 and is estimated to reach [the $500 billion](https://www.srgresearch.com/articles/cloud-market-gets-its-mojo-back-q4-increase-in-cloud-spending-reaches-new-highs) mark soon. 
 
 Securing these applications has become paramount with the exponential growth in the adoption of **B2B SaaS** apps by businesses. Data breaches can result in loss of sensitive customer and financial data, privacy violations, compliance issues, and loss of reputation and revenue.
@@ -45,7 +47,7 @@ SaaS applications provide APIs for integration with other cloud services and on-
 
 Depending on the industry, companies have to comply with regulations like HIPAA, PCI DSS, GDPR, CCPA, etc. Non-compliance can lead to fines and reputational damage. Weak identity and access controls conflict with compliance mandates around data security, privacy, and user access governance. It leads to increased audit scrutiny and financial risk.
 
-[![DS-LR-CCPA](DS-LR-CCPA.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-LR-CCPA](DS-LR-CCPA-comp.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 ## Identity and Access Management - Solution to B2B SaaS Security Challenges
 
