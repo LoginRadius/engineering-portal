@@ -54,7 +54,7 @@ Since we’ve understood what MFA is and its crucial role in enhancing the platf
 
 [Single Sign-On](https://www.loginradius.com/single-sign-on/) (SSO)  is a method of authentication that allows websites/mobile applications to use other trustworthy sites/apps to verify users. Single sign-on enables users to log in to any independent application with a single ID and password.
 
-SSO is an essential feature of an Identity and Access Management (IAM) platform for controlling access. Verifying user identity is vital for knowing which permissions a user will have. The LoginRadius Identity platform is one example of managing access that combines user identity management solutions with SSO solutions.
+SSO is an essential feature of an [Identity and Access Management](https://www.loginradius.com/blog/identity/what-is-iam/) (IAM) platform for controlling access. Verifying user identity is vital for knowing which permissions a user will have. The LoginRadius Identity platform is one example of managing access that combines user identity management solutions with SSO solutions.
 
 ## MFA vs. SSO: Real-Life Use Case
 
@@ -101,7 +101,7 @@ Single Sign-On clearly minimizes the risk of poor password habits. Also, removin
 
 * Enforce MFA for all users, particularly for privileged accounts and sensitive systems.
 * Utilize a combination of diverse factors for authentication, such as passwords, tokens, and biometrics.
-* Educate users about the importance of MFA and provide clear instructions for setup and management.
+* Educate users about the [importance of MFA](https://www.loginradius.com/blog/engineering/why-mfa-important/) and provide clear instructions for setup and management.
 * Regularly review and update MFA policies based on emerging security threats to maintain robust protection.
 
 ### SSO Best Practices

@@ -45,7 +45,7 @@ Strange behavior like outgoing calls or texts, which have not been sent by the s
 
 ### 5. Mystery pop-ups
 
-Constant pop-up alerts could indicate that the smartphone has been infected with adware, a form of malware. Hackers use adware to force users into viewing web pages that drive revenue through clicks. While all pop-ups are not necessarily malware attacks, some may also be [phishing](https://www.loginradius.com/blog/identity/phishing-for-identity/) attempts to attract users to give away sensitive information.
+Constant pop-up alerts could indicate that the smartphone has been infected with adware, a form of malware. Hackers use adware to force users into viewing web pages that drive revenue through clicks. While all pop-ups are not necessarily malware attacks, some may also be [phishing for identity](https://www.loginradius.com/blog/identity/phishing-for-identity/) attempts to attract users to give away sensitive information.
 
 
 ### 6. Unusual activity on any accounts linked to the device
@@ -58,7 +58,7 @@ If the phone has been hacked, hackers would be able to access social media, emai
 If you witness any of the above signs on your smartphone, there is a high possibility that your phone has been hacked. You need to take the appropriate steps to eliminate the malware that has attacked your phone. Some of the steps which you can follow are:
 
 
-*   Download a mobile security app from a trusted site, which not only scans for malware but offers additional features like a call blocker, firewall, VPN and a feature to request [PIN](https://www.loginradius.com/blog/2020/04/loginradius-pin-based-authentication/) for accessing sensitive apps like online banking.
+*   Download a mobile security app from a trusted site, which not only scans for malware but offers additional features like a call blocker, firewall, VPN and a feature to request [Pin Based Authentication](https://www.loginradius.com/blog/2020/04/loginradius-pin-based-authentication/) for accessing sensitive apps like online banking.
 *   Change passwords as soon as possible.
 *   Remove suspicious apps.
 *   Inform friends and contacts that you have been hacked. This warning would help your contacts ignore suspicious messages sent by the malware to their phones.

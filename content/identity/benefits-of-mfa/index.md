@@ -15,7 +15,7 @@ No wonder the market for MFD is projected to reach [USD 22.51 billion dollars](h
 
 Every organization has its own set of online applications. Most of them include shared documents, files, folders, videos, audios, etc., to create in-house and client profiles. Unfortunately, with the rise in cyber attacks, companies have become vulnerable. 
 
-In this scenario, multi-factor authentication (MFA) becomes supercritical for most organizations, big or small. Put simply, MFA reduces the risk of a security breach drastically, and **sensitive data** stays protected. 
+In this scenario, [multi-factor authentication (MFA)](https://www.loginradius.com/multi-factor-authentication/) becomes supercritical for most organizations, big or small. Put simply, MFA reduces the risk of a security breach drastically, and **sensitive data** stays protected. 
 
 Besides this, an average employee has different resource accounts, and the company motivates the user to create complex and unique passwords for each of them as part of their best practices. At the same time, the IT team struggles with access controls. The result of poorly [secured identities](https://www.loginradius.com/blog/2019/12/identity-as-a-service-for-business/) leads to more security risks for the organization.
 

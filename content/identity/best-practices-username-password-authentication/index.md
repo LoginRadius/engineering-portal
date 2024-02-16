@@ -10,7 +10,7 @@ metatitle: "Best Practices for Username & Password Authentication"
 ---
 ## Introduction
 
-Though most platforms have already offered passwordless authentication, many are still relying on conventional password-based authentication. 
+Though most platforms have already offered [passwordless authentication](https://www.loginradius.com/passwordless-login/), many are still relying on conventional password-based authentication. 
 
 Username and password authentication is a widely used method of verifying the identity of users accessing digital systems. It involves a user providing a unique identifier, called a username, and a secret, called a password, to gain access to a system. 
 
@@ -43,9 +43,13 @@ To enhance security, it is crucial to follow best practices such as enforcing st
 To implement password authentication, organizations should follow the following steps:
 
 * **Create a firm password policy:** This policy should define passwords' minimum length, complexity, and expiry time. Passwords should be long, complex, and changed regularly.
+
 * **Use salted and hashed passwords:** Passwords should be salted and hashed before storing them in the database. Salting adds random data to the password before hashing, making it more challenging to crack.
+
 * **Implement multi-factor authentication:** [Multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) adds an extra layer of security by requiring a second form of authentication, such as a fingerprint or a code sent to a mobile phone.
+
 * **Using risk-based authentication (RBA):** RBA helps automatically add a stringent authentication layer to the existing authentication mechanism whenever an unusual authentication attempt is detected. RBA is one of the robust authentication security mechanisms specially designed for high-risk situations. 
+
 * **Use password managers:** Password managers are tools that store and generate complex passwords for users, reducing the risk of users choosing weak passwords.
 
 
@@ -56,7 +60,7 @@ Password authentication has several challenges, including:
 * **Password reuse:** Users often reuse the same password across multiple systems, making them vulnerable to attacks if one system is breached.
 * **Password guessing:** Attackers can use automated tools to guess passwords, mainly if they are weak or easily guessable.
 * **Password sharing:** Users sometimes share their passwords with others, either intentionally or unintentionally, compromising security.
-* **Phishing attacks:** Attackers can use [phishing attacks](https://www.loginradius.com/blog/identity/phishing-for-identity/) to trick users into revealing their passwords.
+* **Phishing attacks:** Attackers can use [phishing for identity](https://www.loginradius.com/blog/identity/phishing-for-identity/) to trick users into revealing their passwords.
 
 ## Best Example of Username and Password Authentication
 
@@ -73,7 +77,9 @@ By implementing username and password authentication effectively, Facebook enabl
 There are several [password authentication](https://www.loginradius.com/standard-login/) methods, including:
 
 * **Plain-text passwords:** This is the simplest method, where passwords are stored in plain text in the database. However, it is highly insecure and should be avoided.
+
 * **Encrypted passwords:** Passwords are encrypted before storing them in the database. However, attackers can easily crack encryption, making this method less secure.
+
 * **Hashed passwords:** Passwords are hashed before storing them in the database. Hashing is a one-way function that cannot be reversed, making it more secure than encryption.
 
 ## What are Password Alternatives?
@@ -83,7 +89,9 @@ Since the digital world demands seamless user experience and security, conventio
 There are several password alternatives that organizations can consider, including:
 
 * **Biometric authentication:** [Biometric authentication](https://www.loginradius.com/blog/identity/biometric-authentication-mobile-apps/) uses unique biological characteristics, such as fingerprints or facial recognition, to verify a user's identity.
+
 * **Social Login:** Social login enables users to use their current social media accounts to sign in or sign up for a new account. With social login, the need to create a new account on a different platform is eliminated. Users can use their existing social media accounts, including Facebook, Gmail, Instagram, etc., to sign-up for a platform. 
+
 * **Single sign-on (SSO):** Single sign-on allows users to access multiple systems with a single login credential. SSO offers a seamless user experience between multiple interconnected applications and ensures zero friction while users switch from one application to another since they need not re-authenticate themselves while switching. 
 
 [![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
@@ -95,8 +103,11 @@ Many businesses aren’t aware of the fact that a little glitch in handling pass
 To ensure secure password storage and transmission, organizations should follow these best practices:
 
 * **Use a secure transmission protocol:** Passwords should be transmitted over a secure protocol, such as HTTPS, to prevent interception by attackers.
+
 * **Salt and hash passwords** should be salted and hashed before storing them in the database.
+
 * **Store passwords in a secure location:** Passwords should be stored in a secure location with restricted access.
+
 * **Monitor password attempts:** Organizations should monitor failed passwords to detect and prevent brute-force attacks.
 
 ## Conclusion 

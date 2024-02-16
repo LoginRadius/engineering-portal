@@ -15,7 +15,7 @@ For organizations today, maintaining an array of productive networking tools is 
 
 As a result, employees and customers end up with too many passwords to remember. Unfortunately, remembering all the different credentials is easier said than done. More than [60% of employees](https://www.techrepublic.com/article/25-of-employees-admit-that-they-use-the-same-password-for-everything/) use the same password for their work and personal applications, leading to greater vulnerability to data breaches. And about 13% of users reuse passwords on all their accounts regularly. In fact, compromised passwords are accountable for 81% of hacking-related breaches. 
 
-Enterprises need to use methods to maximize the use of digital identities for multiple users. And tools like single sign-on (SSO) and federated identity management (FIM) seem to be the go-to methods for most organizations. However, most companies do not understand the differences between these two methods. And the implications they may have on the overall company security.
+Enterprises need to use methods to maximize the use of digital identities for multiple users. And tools like [single sign-on (SSO)](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) and federated identity management (FIM) seem to be the go-to methods for most organizations. However, most companies do not understand the differences between these two methods. And the implications they may have on the overall company security.
 
 What is SSO, how is it different from FIM, and what are the benefits of both methods? Let's find out.
 
@@ -60,11 +60,11 @@ Through FIM, an enterprise maintains its unique management system. It is interli
 
 ## How Does Federated Identity Management Work?
 
-Federated identity management (FIM) is a system that enables the use of a single digital identity across multiple domains and organizations. The process begins when a user attempts to access a resource from a service provider. 
+[Federated identity management](https://www.loginradius.com/federated-sso/) (FIM) is a system that enables the use of a single digital identity across multiple domains and organizations. The process begins when a user attempts to access a resource from a service provider. 
 
 The service provider then sends a request to the user's identity provider, which authenticates the user's identity and provides the service provider with the necessary credentials to grant access to the requested resource. 
 
-This process is known as identity federation and allows users to access resources from multiple organizations without the need for separate login credentials for each organization. The FIM system uses industry-standard protocols like SAML, OAuth, and OpenID Connect to establish trust and securely exchange identity information between the identity provider and service provider.
+This process is known as identity federation and allows users to access resources from multiple organizations without the need for separate login credentials for each organization. The FIM system uses industry-standard protocols like [SAML](https://www.loginradius.com/glossary/saml/), OAuth, and OpenID Connect to establish trust and securely exchange identity information between the identity provider and service provider.
 
 [![DS-fim](DS-fim.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
