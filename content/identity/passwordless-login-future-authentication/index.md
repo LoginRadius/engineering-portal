@@ -42,7 +42,7 @@ At the forefront of this passwordless revolution is LoginRadius – a leading pr
 
 LoginRadius has recently introduced a game-changing feature: registration without passwords. This innovation enables passwordless authentication, enhancing user convenience while fortifying security measures. 
 
-[![DS-passwordless-magiclink-OTP](DS-passwordless-magiclink-OTP.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-magic-link](DS-passwordless-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 With streamlined registration, users can swiftly access their accounts without the hassle of managing passwords. Simultaneously, businesses can ensure compliance with data protection regulations and accommodate diverse registration scenarios, fostering flexibility and trust.
 
