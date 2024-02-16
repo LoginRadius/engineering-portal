@@ -86,9 +86,12 @@ LoginRadius' [modern CIAM ](https://www.loginradius.com/blog/identity/new-age-ci
 What puts LoginRadius ahead of the curve are the three most fundamental aspects:
 
 * **Frictionless security:** Strengthened security doesn't have to come at the cost of convenience. LoginRadius' modern CIAM solution like MFA, passwordless login, phone login, social login, etc., ensures no friction while authenticating.
+
 * **Privacy management:** Proficient [privacy management](https://www.loginradius.com/blog/identity/privacy-policy-management/) is the key to winning consumers' trust. Our new-age CIAM solution considers every subtle privacy concern related to international regulations like the GDPR and the CCPA.
+
 * **Seamless integration:** Another feature that sets LoginRadius' new-age CIAM apart from the rest is the seamless integration with the modern tools geared to offer smooth and secure access.
-* **MFA and RBA:** LoginRadius offers stringent account security through multi-factor authentication that only authenticated users can access accounts or systems. Also, risk-based authentication ensures robust security in high-risk situations. 
+
+* **MFA and RBA:** LoginRadius offers stringent account security through [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) that only authenticated users can access accounts or systems. Also, risk-based authentication ensures robust security in high-risk situations. 
 
 If you wish to experience the next level of account security and authentication, reach the LoginRadius team to schedule a personalized demo. 
 
