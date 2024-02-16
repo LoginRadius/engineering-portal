@@ -9,7 +9,7 @@ metatitle: "Digital Identity Management: 5 Ways to Win Customer Trust"
 metadescription: "In business, digital identity management primarily refers to the way a customer's personal information is safely collected, stored, and accessed."
 ---
 
-In business, digital identity management primarily refers to the way a customer’s personal information is safely collected, stored, and accessed.
+In business, [digital identity management](https://www.loginradius.com/blog/growth/identity-management-critical-revenue-generation/) primarily refers to the way a customer’s personal information is safely collected, stored, and accessed.
 
 While this may appear simple, many businesses fall prey to misconceptions about building or managing a customer’s digital identity. To help you leverage customer identity data, let’s discuss the top three misconceptions that trip businesses up.
 

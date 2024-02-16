@@ -11,7 +11,7 @@ metadescription: "Learn the benefits of single sign-on. Find out how SSO reduces
 
 When you respect your consumer's time, they will return the favor with even better involvement on your platform. The benefit of SSO for enterprises runs on a similar concept. 
 
-So, what is SSO, and why does the above statement hold true?
+So, [what is SSO](https://www.loginradius.com/blog/identity/what-is-single-sign-on/), and why does the above statement hold true?
 
 Single Sign-On or SSO is an authentication process that allows consumers to log in to multiple independent applications with a single set of credentials. With SSO, users can access a suite of applications via one single login, irrespective of the platform, technology, or domain used. 
 

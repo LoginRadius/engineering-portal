@@ -30,7 +30,7 @@ The dust is still settling. With compromised credentials remaining a key compone
 
 ## What Is Identity and Access Management
 
-Identity and access management (or IAM) enables businesses to define the roles and privileges of individual users within the network. They request consumers to provide relevant information, automate identity management, accounts, and credentials. 
+[Identity and access management](https://www.loginradius.com/blog/identity/what-is-iam/) (or IAM) enables businesses to define the roles and privileges of individual users within the network. They request consumers to provide relevant information, automate identity management, accounts, and credentials. 
 
 IAM improves the overall consumer experience by ensuring compliance with corporate policies and government regulations using security tools like multi-factor authentication (MFA), consent and preference management services, [single sign-on (SSO)](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/), and more. 
 

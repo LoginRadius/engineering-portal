@@ -86,7 +86,7 @@ Randomly generated one-time password (OTP) sent by SMS is one of the most common
 
 ### Biometric verification
 
-People with a smart device or computer with biometric authentication (such as fingerprint ID or facial recognition) can use this check to confirm their identity as part of MFA. [Biometric ID verification](https://searchsecurity.techtarget.com/definition/biometric-verification) tends to be less hassle than typing in an OTP, so customers find it less aggravating to use it frequently. The lower friction makes it an ideal option when extra checks are unavoidable.
+People with a smart device or computer with [biometric authentication](https://www.loginradius.com/blog/identity/biometric-authentication-mobile-apps/) (such as fingerprint ID or facial recognition) can use this check to confirm their identity as part of MFA. [Biometric ID verification](https://searchsecurity.techtarget.com/definition/biometric-verification) tends to be less hassle than typing in an OTP, so customers find it less aggravating to use it frequently. The lower friction makes it an ideal option when extra checks are unavoidable.
 
 [![Buyer’s Guide to Multi-Factor Authentication ebook](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
 
