@@ -59,7 +59,7 @@ Here’s what LoginRadius CIAM offers:
 
 LoginRadius provides essential security features that safeguard data and account access. For example, with risk-based authentication, each customer’s usage and login patterns are monitored, making it easy to spot unusual (potentially fraudulent) activity.
 
-For use cases where you need an extra layer of security, you can enable multi-factor authentication (MFA), which verifies a customer’s identity by requiring a second step, such as entering an SMS code or clicking an email link.
+For use cases where you need an extra layer of security, you can enable [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) (MFA), which verifies a customer’s identity by requiring a second step, such as entering an SMS code or clicking an email link.
 
 Your secure login procedures reassure customers that they are safe using your services—something that’s essential with the number of public data breaches reaching the news.
 
