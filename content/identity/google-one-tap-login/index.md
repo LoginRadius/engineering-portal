@@ -2,8 +2,7 @@
 title: "All About Google One Tap Login—Explained!"
 date: "2021-06-11"
 coverImage: "google-onetaplogin-cover.jpg"
-tags: ["authentication"]
-featured: false 
+tags: ["social login"]
 author: "Manish Tiwari"
 description: "Consumers prefer basic login experiences over complicated signup procedures. The Google One-Tap Login feature, available on Android phones, allows users to quickly sign up for apps or web services with their Google credentials without creating an account."
 metatitle: "All About Google One Tap Login"
@@ -22,14 +21,12 @@ Google One Tap is a new feature that allows users to create an account or log in
 
 The login widget appears as a popup, and it will prompt the users to sign in or sign up with the existing Google account when any of these conditions are true:
 
-
 *   You are logged in to your Gmail account,
 *   You've signed in to your Chrome browser.
 
 ![google one tap login](https://apidocs.lrcontent.com/images/google-onetap_2382160c344fde5f388.16537804.jpg "google one tap login")
 
 At first glance, it seems like a convenient feature: you click the web widget and sign in to a site with your existing Google account. There is no need to create a new user, no need to remember the email and password you used to log in before. Just click on a button, and you are good to go.
-
 
 ## How Does It Work
 
@@ -39,24 +36,19 @@ The Users who are signing in for the first time are prompted for consent to shar
 
 Now you can create a new account on your platform or allow the verified user to continue using your site. If the user is already signed in on a Google device, a personalized button will appear; otherwise, a default button will appear.
 
-
 ## Benefits of Google One Tap Login
 
 The benefits can be massive, especially for businesses that struggle with engagement. Customers skip a tedious registration process, [get a more customized experience](https://www.loginradius.com/customer-experience-solutions/), and at the same time create more opportunities for site owners to engage with them through different marketing channels.
 
-
 ## Use cases
 
 Some of the main reasons to add **Sign In With Google** to your site are:
-
-
 
 - Add a visibly trusted and secure Sign In With Google button to an account creation or settings page.
 - Pre-populate new accounts with consensually shared data from a Google Account profile.
 - Sign in once to a Google Account without re-entering usernames or passwords on other sites.
 - On return visits, sign in automatically or with one click across an entire site.
 - Use verified Google Accounts to protect comments, voting, or forms from abuse while allowing anonymity.
-
 
 ## How One Tap Makes the Android Sign-in Process Easy
 
@@ -69,7 +61,6 @@ So, consumers do not feel that they are doing the sign-up process. Once they are
 Consumers will remain signed in with One Tap, even after switching devices or apps. The consumers will not only sign-up on Android faster, but they can also sign back in with just one click, using the account they are already registered with. 
 
 Hence, they [no longer need to memorize passwords](https://www.loginradius.com/blog/identity/2019/10/passwordless-authentication-the-future-of-identity-and-security/) or usernames they use for their account.
-
 
 ## Conclusion
 
