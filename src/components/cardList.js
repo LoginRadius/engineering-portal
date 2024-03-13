@@ -69,30 +69,30 @@ export default function CardList({ posts, currentPage, type }) {
                 <>
                   <div className={headStyles.image}>
                     <img
-                      src="/wp-content/uploads/2024/02/KC_LR-Joint-Webinar-Resource-Feature-.png"
-                      alt="Mastering CIAM: Advanced Techniques"
+                      src="/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
+                      alt="Top CIAM Platform 2024"
                     />
                   </div>
                   <div className={headStyles.text}>
-                    <h3>Mastering CIAM: Advanced Techniques</h3>
+                  <h3 style={{"textAlign":"center"}}>Top CIAM Platform 2024</h3>
                     <a
                       className={`${headStyles.btnPrimary} btn-primary ga_event`}
                       // className={"btn-primary ga_event"}
                       href={
-                        "https://www.kuppingercole.com/events/2024/03/mastering-ciam"
+                        "https://magazine.cioreview.com/magazines/March2024/CIAM_Platform/"
                       }
-                      key={"consumer-identity-trend"}
+                      key={"top-ciam-platform-2024"}
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() =>
                         eventLogger({
-                          category: "Mastering CIAM: Advanced Techniques",
+                          category: "Top CIAM Platform 2024",
                           action: "User clicked on Free Download button",
-                          label: "Mastering CIAM: Advanced Techniques",
+                          label: "Top CIAM Platform 2024",
                         })
                       }
                     >
-                      {"Register Now"}
+                      {"LEARN MORE"}
                     </a>
                   </div>
                 </>

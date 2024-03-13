@@ -361,9 +361,8 @@
         display: flex;
         padding: $gutter * 1.5;
         & > img {
-          width: 65%;
+          width: 75%;
           margin: auto;
-          border: 1px solid $white;
           border-radius: $gutter/6;
         }
       }
