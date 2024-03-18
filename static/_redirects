@@ -1,3 +1,15 @@
+/multi-factor-authentication/          /multi-factor-authentication/            301
+/custom-encoders-in-the-mongo-go-driver            /blog/engineering/custom-encoders-in-the-mongo-go-driver/            301
+/3-simple-ways-to-secure-your-websites-applications/               /blog/engineering/3-simple-ways-to-secure-your-websites-applications/            301
+/understanding-event-loop/             /blog/engineering/understanding-event-loop/          301
+/google-authentication-with-nodejs-and-passportjs/             /blog/engineering/google-authentication-with-nodejs-and-passportjs/          301
+/user-authentication/              /blog/identity/what-is-authentication/           301
+/login-with-facebook/              /blog/blog/tags/login-with-facebook/         301
+/how-to-send-data-using-fetch-api-and-axios/           /blog/engineering/guest-post/http-streaming-with-nodejs-and-fetch-api/           301
+/how-to-make-telegram-bot/             /blog/engineering/how-to-make-telegram-bot/          301
+/engineering/identity/announcing-new-look-of-loginradius/              /blog/identity/announcing-new-look-of-loginradius/           301
+/engineering/identity/digital-agility/             /blog/identity/digital-agility/          301
+/engineering/googleauthentication-with-nodejs-and-passportjs/              /blog/engineering/google-authentication-with-nodejs-and-passportjs/          301
 /23	/blog/          301
 /4	/blog/          301
 /async/tags/hacktoberfest/	/blog/tags/hacktoberfest/           301
