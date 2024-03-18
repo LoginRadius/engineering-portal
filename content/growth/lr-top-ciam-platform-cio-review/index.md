@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Recognized as the Top Customer IAM Platform of 2024 by CIOReview"
 date: "2024-03-18"
-coverImage: "cover-cio.jpg"
+coverImage: "cio-review-cover.jpg"
 tags: ["ciam platform","coverage","cio review"]
 author: "Rakesh Soni"
 description: "CIOReview, a leading US magazine, recently recognized LoginRadius as the top customer IAM platform of 2024 in its latest publication. Discover how LoginRadius secured its position as the premier customer IAM, offering unparalleled scalability, performance, and security to ensure a seamless and reliable user experience."
