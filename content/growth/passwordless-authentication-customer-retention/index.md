@@ -8,6 +8,8 @@ description: "With the rise in cyber crimes, like phishing attacks, due to weak 
 metatitle: "Passwordless Authentication for Enhancing Customer Retention"
 metadescription: "Traditional authentication methods can affect customer retention rates. But, as a marketer, you can ensure growth with passwordless authentication! Read more."
 ---
+## Introduction
+
 The conventional use of one-time passwords (OTPs) and passwords have long been fundamental in securing online accounts. With these strategies, businesses might not give what today's users want - seamless and secure user experience. Additionally, the constant need for users to remember and input passwords, along with the vulnerabilities associated with OTPs, can affect customer retention rates.
 
 Marketers strive to enhance customer retention rates; it becomes essential to reassess traditional methods. The logic is simple: if the user finds logging into your website easy and hassle-free, they will likely visit more, ultimately boosting customer retention rates. This is where passwordless authentication comes into the picture.
@@ -18,7 +20,7 @@ You can maximize the lifetime value of each customer, and passwordless authentic
 
 Passwordless authentication is an authentication method where users can access an application or website without entering passwords. It involves implementing push notifications, magic links, biometrics, and QR code authentication to ensure seamless login without compromising security.  
 
-According to a recent [Oxford University study sponsored by Mastercard](https://www.cio.com/article/350323/seven-signs-that-your-consumers-are-ready-for-passwordless-authentication.html), an impressive 93% of consumers express a preference for biometric authentication over traditional passwords. This strong consumer inclination underscores the demand for more convenient and secure **passwordless authentication for customer retention. **
+According to a recent [Oxford University study sponsored by Mastercard](https://www.cio.com/article/350323/seven-signs-that-your-consumers-are-ready-for-passwordless-authentication.html), an impressive 93% of consumers express a preference for biometric authentication over traditional passwords. This strong consumer inclination underscores the demand for more convenient and secure **passwordless authentication for customer retention.**
 
 [![DS-passwordless-login-magic-links](DS-passwordless-login-magic-links.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
