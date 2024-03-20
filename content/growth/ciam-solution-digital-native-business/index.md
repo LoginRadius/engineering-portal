@@ -92,7 +92,7 @@ When you outsource the **CIAM services** from a leading vendor, they will distri
 
 Managing an in-house team will be challenging if your project demands 24/7 support or maintenance. However, **[outsourcing the CIAM solutions](https://www.loginradius.com/resource/ciam-build-vs-buy/)** will give you access to multiple locations worldwide, ensuring continuous operations without overburdening your local team.
 
-**The Bottom Line**
+## **The Bottom Line**
 
 Today, CIAM has become more than just an identity gateway for customers. It has become an essential game-changer that will protect your business and give you a competitive edge. The concept is about making your customer happy, keeping their data secure, and getting valuable insight into their behavior while staying flexible.
 
