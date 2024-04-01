@@ -41,16 +41,6 @@ const Post = ({ post, relatedPost, type }) => {
 
   return (
     <>
-      <Helmet>
-        <script
-          id="s9-sdk"
-          async
-          defer
-          content="3eb69d6a4ae94cb1a27493eb04268fdb"
-          src="//cdn.social9.com/js/socialshare.min.js"
-        ></script>
-      </Helmet>
-
       <section
         className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-96`}
       >
