@@ -8,7 +8,6 @@ description: "Are you a website developer? Are you a blogger yet? Check out this
 metatitle: "Dear Developers! Get Ready To Blog!!"
 metadescription: "Are you a website developer? Are you a blogger yet? Check out this step by step guide for developers to rock at blogging!"
 ---
-
 Are you a website developer? Are you a blogger yet?
 
 There are thousands of developers out there actively looking for new opportunities online. Most of them are excellent at what they do, but do you know only a hundred of those excellent developers are actually known on the internet. _There are chances that probably, you won’t even get noticed._ What if you too can show your talent, get popular and have an Army of followers just by adopting Blogging to your Schedule?...
@@ -77,7 +76,7 @@ Here are some points you need to take care of while selecting a theme :
 - Make sure the fonts are easy to load and read.
 - Theme must not be too clumsy.
 
-After selecting the theme, install required plugins that will work as an add-on and optimize your blog. Here are [top Wordpress plugins](https://blog.bufferapp.com/best-wordpress-plugins) that every blogger needs. Also don’t forget to make your blog Social Media Friendly by including Social Tools such as [social sharing widgets](http://www.social9.com/), social based commenting, like box,  etc.
+After selecting the theme, install required plugins that will work as an add-on and optimize your blog. Here are [top Wordpress plugins](https://blog.bufferapp.com/best-wordpress-plugins) that every blogger needs. Also don’t forget to make your blog Social Media Friendly by including Social Tools such as social sharing widgets, social based commenting, like box,  etc.
 
 ### **4\. Grab your social media name before it’s gone** 
 
