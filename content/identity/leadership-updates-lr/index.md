@@ -37,4 +37,4 @@ This moment signifies more than just leadership changes; it's a renewal of our c
 
 Thank you for being a part of our journey. Together, let's shape a future that's brighter than ever.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![cta-careers](cta-careers.png)](https://www.loginradius.com/careers/)
