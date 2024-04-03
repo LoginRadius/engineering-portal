@@ -8,7 +8,6 @@ description: "Embarking on this transformative journey goes beyond leadership sh
 metatitle: "Exciting Leadership Updates at LoginRadius"
 metadescription: "Exciting leadership changes unfold at LoginRadius. Join us, a leading Enterprise SaaS company, as we continue pioneering CIAM across the USA, Canada, and India."
 ---
-
 We are thrilled to announce a series of leadership changes at LoginRadius, marking the beginning of an exhilarating new chapter amid strategic growth. As an Enterprise SaaS company with teams in the USA, Canada, and India, we are dedicated to serving our global customer base with innovative solutions in the Customer IAM space.
 
 ## Acknowledging Contributions and Embracing New Beginnings
