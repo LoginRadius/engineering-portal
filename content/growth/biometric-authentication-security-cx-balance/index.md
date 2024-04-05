@@ -1,7 +1,7 @@
 ---
 title: "The Power of Behavioral Biometric Authentication in Enhancing Security and CX Synergy"
 date: "2024-04-05"
-coverImage: "biometric-authn.jpg"
+coverImage: "biometric-auth.jpg"
 tags: ["biometric authentication","data security","cx"]
 author: "Vishal Sharma"
 description: "Explore the innovative world of behavioral biometric authentication and its role in fortifying security and enhancing customer experience (CX). This cutting-edge method analyzes unique behavioral patterns to verify identities, offering a seamless user experience."
@@ -48,7 +48,7 @@ Imagine a user simply picking up their smartphone and typing a message. Unbeknow
 
 This streamlined authentication process saves time and enhances the overall user experience. Customers feel more at ease knowing their interactions are secure yet effortless, increasing satisfaction and loyalty.
 
-[![WP-user-authn](WP-user-authn.png)](https://www.loginradius.com/resource/whitepaper/user-authentication-security/)
+[![WP-user-auth](WP-user-auth.png)](https://www.loginradius.com/resource/whitepaper/user-authentication-security/)
 
 ## Implementing Behavioral Biometrics: Best Practices
 
