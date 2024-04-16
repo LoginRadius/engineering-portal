@@ -40,7 +40,7 @@ const SEO = ({
         image: img.includes("https") ? img : `${siteUrl}${img}`,
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
-
+      seo.url = seo.url.replace("/blog/blog","/blog");
       return (
         <>
           <Helmet
