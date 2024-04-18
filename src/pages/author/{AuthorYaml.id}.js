@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../components/layout"
-
+import { withPrefix } from "gatsby"
 import styles from "./author.module.scss"
 import CardList from "../../components/cardList"
 import SEO from "../../components/seo"
@@ -15,7 +15,16 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 const AuthorTemplate = ({
   data: {
-    authorYaml: { id, bio, github, stackoverflow, linkedin, medium, twitter },
+    authorYaml: {
+      id,
+      bio,
+      github,
+      stackoverflow,
+      linkedin,
+      medium,
+      twitter,
+      avatar,
+    },
     allMarkdownRemark: { edges: postNodes },
   },
   location,
@@ -36,6 +45,8 @@ const AuthorTemplate = ({
                 src={
                   github
                     ? `https://github.com/${github}.png?size=100`
+                    : avatar
+                    ? `${withPrefix("avatar/")}${avatar}`
                     : `https://ui-avatars.com/api/?name=${id}&size=460`
                 }
                 alt={id}
@@ -133,6 +144,7 @@ export const pageQuery = graphql`
             author {
               id
               github
+              avatar
             }
             date(formatString: "MMMM DD, YYYY")
             tags
@@ -159,6 +171,7 @@ export const pageQuery = graphql`
       linkedin
       medium
       twitter
+      avatar
     }
   }
 `

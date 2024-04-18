@@ -71,6 +71,7 @@ export const pageQuery = graphql`
           id
           github
           bio
+          avatar
         }
       }
     }
