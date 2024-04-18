@@ -88,6 +88,7 @@ export const blogListQuery = graphql`
             author {
               id
               github
+              avatar
             }
           }
         }
@@ -115,6 +116,7 @@ export const blogListQuery = graphql`
         author {
           id
           github
+          avatar
         }
       }
     }

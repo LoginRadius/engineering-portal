@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import React from "react"
@@ -37,6 +37,8 @@ const Post = ({ post, relatedPost, type }) => {
   const author = post.frontmatter.author
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=100`
+    : author.avatar
+    ? `${withPrefix("avatar/")}${author.avatar}`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
   return (
@@ -175,7 +177,9 @@ const Post = ({ post, relatedPost, type }) => {
                       />
                     </div>
                     <div className={headStyles.text}>
-                      <h3 style={{"textAlign":"center"}}>Top CIAM Platform 2024</h3>
+                      <h3 style={{ textAlign: "center" }}>
+                        Top CIAM Platform 2024
+                      </h3>
                       <a
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}

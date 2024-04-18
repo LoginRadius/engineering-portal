@@ -1,11 +1,14 @@
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 import { kebabCase } from "lodash"
 import React from "react"
 import styles from "./bio.module.scss"
+import { faCreativeCommonsPd } from "@fortawesome/free-brands-svg-icons"
 
 const Bio = ({ date, author, pinned, readingTime }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=50`
+    : author.avatar
+    ? `${withPrefix("avatar/")}${author.avatar}`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
   return (
     <div

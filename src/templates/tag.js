@@ -94,6 +94,7 @@ export const pageQuery = graphql`
             author {
               id
               github
+              avatar
             }
           }
         }
