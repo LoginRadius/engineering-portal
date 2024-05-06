@@ -184,7 +184,7 @@ const Post = ({ post, relatedPost, type }) => {
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}
                         href={
-                          "https://magazine.cioreview.com/magazines/March2024/CIAM_Platform/"
+                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
                         }
                         key={"top-ciam-platform-2024"}
                         target="_blank"
