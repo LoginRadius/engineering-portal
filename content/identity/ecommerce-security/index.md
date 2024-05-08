@@ -56,6 +56,10 @@ Wix.com is a cloud-based website builder that allows users to create online stor
 
 WooCommerce is a free, open-source WordPress shopping cart plugin owned and developed by WordPress. It is suitable for small businesses that operate on a tight budget but still want a robust online store. However, you will have to separately purchase hosting, a domain name, and an SSL certificate, all of which are catered for by many of the stand-alone e-commerce platforms. WooCommerce allows unlimited products and product variants, including digital products.
 
+### Appy Pie's website builder
+
+<a rel="nofollow" href="https://www.appypie.com/website-builder"> Appy Pie's website builder </a> tool is a versatile platform for creating websites and mobile apps without any coding skills. It offers a user-friendly interface with drag-and-drop functionality, making it easy for beginners to design professional-looking websites. The tool provides a wide range of customizable templates catering to different industries and purposes, from business websites to portfolios and online stores.
+
 ## Security Threats That E-Commerce Stores Face
 
 ![](Ecommerce-security-1.png)
