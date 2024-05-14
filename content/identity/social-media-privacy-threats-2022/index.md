@@ -2,13 +2,12 @@
 title: "5 Privacy Threats in Social Media You Should Know in 2022"
 date: "2022-02-11"
 coverImage: "social-privacy.jpg"
-tags: ["social login","data security","authentication","cx"]
+tags: ["social login","data security","cx"]
 author: "Nikola Sekulic"
 description: "With the rise in a number of highly publicized cybersecurity breaches, businesses and consumers must remain vigilant to protect sensitive information on social media. There is no doubt that cyber threats will continue to rise over the next few years, so being prepared is key."
 metatitle: "5 Things You Should Know About Social Media Privacy in 2022"
 metadescription: "Social media privacy is becoming a growing concern. Here are the top social media privacy threats that businesses and users should know in 2022."
 ---
-
 ## Introduction
 
 Privacy is a growing concern for many private board users. While there is no such thing as “complete privacy” or “true anonymity” — especially in a digital world where websites and social platforms keep track of what we do online — there is plenty you can do to protect your personal data and secure your important privates accounts against unlawful entry and theft.
@@ -18,7 +17,6 @@ Unfortunately, though, security risks are becoming more prevalent on social medi
 Now, if you are a business leader, it is imperative that you’re able to protect all business and consumer data that might be passing through your social media accounts. That said, it’s equally important to leverage the cybersecurity best practices to educate your employees and your audience on how they can [protect their data and identities online](https://www.loginradius.com/blog/identity/purpose-identity-security-2021/).
 
 Let’s take a look at most pressing social media privacy threats and what you can do to minimize risk.
-
 
 ### Ads and popups that know too much
 
@@ -54,7 +52,7 @@ Enabling users to connect with your website, app, or software solution via their
 
 Social networks are notorious for their attempts to mine data and sell it to third-party companies. Every time you create an account on a social network, you willingly relinquish some of your personal data, such as your name, address, occupation, and more. However, companies also tend to mine for more specific data, such as behavioral trends, social contacts and interactions, and various personal interests.
 
-If you want to elevate your privacy and prevent companies from tracking you around the web, you might want to secure your business with a VPN. There’s no denying that antivirus and VPNs can dramatically improve your security in the online world, and a VPN can ensure your privacy while shopping, banking, and surfing online.
+If you want to elevate your privacy and prevent companies from tracking you around the web, you might want to secure your business with a VPN. There’s no denying that antivirus and VPNs can dramatically improve your security in the online world, and a [VPN for Android](https://cybernews.com/best-vpn/free-vpn-for-android/) or iOS can ensure your privacy while shopping, banking, and surfing online.
 
 These tools are great for companies as well as individuals, particularly on dubious social networks like Facebook that have already come under fire for their data mining and data reselling activities over the years.
 
@@ -77,10 +75,8 @@ Make sure to:
 * Conduct security audits
 * Manage access for all employees
 
-
 ## Conclusion
 
 Securing your sensitive data on social media and minimizing cybersecurity risks should be a top priority for companies and consumers in 2022. Make sure to keep these privacy threats in mind and use these tips to keep your business, your employees, and your customers safe in an increasingly dangerous online world.
-
 
 [![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
