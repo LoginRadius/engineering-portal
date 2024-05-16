@@ -5,8 +5,8 @@ coverImage: "social-login.jpg"
 tags: ["social login","identity verification","cx"]
 author: "Vaibhav Jain" 
 description: "Social login is an attractive feature for developers and businesses that can help streamline consumer verification while also providing more reliable data access for personalization."
-metatitle: "What Is Social Login and Why Is It Good for Your Business?"
-metadescription: "Find what social login is, how it works, and the benefits of implementing social login for websites. Learn how it can improve user experience & increase conversions."
+metatitle: "Elevate Engagement: Social Login Benefits for Your Business"
+metadescription: "Discover the power of social login: enhance user experience, boost conversions. Learn how social login works and why it's essential for your business."
 ---
 
 ## Introduction
@@ -115,12 +115,16 @@ Social login enables you to authenticate your users on your website or applicati
 
 Social login provides you with a deep insight into your customer behavior and preferences that helps you create personalized customer journeys and aggressive [marketing campaigns](https://www.loginradius.com/blog/growth/advantage-social-login-as-marketer/).
 
-4.**How much does social login cost?**
+**4. Who uses social login?**
 
-Depending on the business requirements and platform preferences, your platform's social login integration price varies. You can get a [quick quote from our sales team](https://www.loginradius.com/contact-sales/) to know the exact prices for your business needs. 
+Social login is utilized by websites and applications to allow users to log in using their existing social media accounts.
 
-5.**How to use Facebook for social login?**
+**5.  How to do social login?**
 
-Facebook login can be integrated with your website or mobile application for seamless login by using the [LoginRadius CIAM](https://www.loginradius.com/social-login/). 
+Users can perform social login by clicking on the respective social media button on the website or application's login page and following the authentication prompts provided by the chosen social media platform.
+
+**6. How to use Facebook for social login?**
+
+Facebook login can be integrated with your website or mobile application for seamless login by using the [LoginRadius CIAM](https://www.loginradius.com/social-login/).
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
