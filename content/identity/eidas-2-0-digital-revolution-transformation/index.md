@@ -8,7 +8,6 @@ description: "Explore the impact of eIDAS 2.0 on business operations within the 
 metatitle: "What is eIDAS 2.0?"
 metadescription: "Discover the transformative power of eIDAS 2.0 for businesses in the EU. Streamline digital identities, enhance security, and ensure compliance. Learn more."
 ---
-
 ## Introduction 
 
 Businesses embarking on a digital transformation journey to deliver seamless user experiences to their customers shouldn’t compromise security and privacy, especially today when various regulations are becoming more stringent. 
