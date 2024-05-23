@@ -58,7 +58,7 @@ WooCommerce is a free, open-source WordPress shopping cart plugin owned and deve
 
 ### Appy Pie's website builder
 
-<a rel="nofollow" href="https://www.appypie.com/website-builder"> Appy Pie's website builder </a> tool is a versatile platform for creating websites and mobile apps without any coding skills. It offers a user-friendly interface with drag-and-drop functionality, making it easy for beginners to design professional-looking websites. The tool provides a wide range of customizable templates catering to different industries and purposes, from business websites to portfolios and online stores.
+[Appy Pie's website builder](https://www.appypie.com/website-builder) tool is a versatile platform for creating websites and mobile apps without any coding skills. It offers a user-friendly interface with drag-and-drop functionality, making it easy for beginners to design professional-looking websites. The tool provides a wide range of customizable templates catering to different industries and purposes, from business websites to portfolios and online stores.
 
 ## Security Threats That E-Commerce Stores Face
 
