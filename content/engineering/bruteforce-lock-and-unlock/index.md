@@ -1,6 +1,6 @@
 ---
 title: "Testing Brute-force Lockout with LoginRadius"
-date: "2024-05-19"
+date: "2024-05-29"
 coverImage: implementing-brute-force-lockout.png
 author: "Gayathri Suresh"
 tags: ["Brute-force", "LoginRadius", "Authentication"]
