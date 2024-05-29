@@ -9,8 +9,10 @@ description: "In this article, you will implement SSO using OIDC having loginrad
 
 # Introduction
 
-Firstly let us know about what it sso and why one should use it and how we can leverage the LoginRadius as an identity provider to do oidc.
+Firstly let us know about what is SSO and OIDC why one should use it and how we can leverage the LoginRadius as an identity provider to do oidc.
 SSO stands for single sign on . It's an authentication process that allows a user to access multiple applications or systems with one set of login credentials (username and password). Instead of requiring users to log in separately to each application, SSO enables them to log in once and gain access to all the connected systems without needing to re-enter their credentials.
+
+OpenID Connect (OIDC) is a protocol that builds on OAuth 2.0 to ensure secure user authentication and authorization for digital services. It adds an identity layer to OAuth 2.0, allowing applications to confirm a user's identity and gather basic profile information. OIDC utilizes JSON Web Tokens (JWTs) for these functions, aligning with OAuth 2.0's token acquisition methods. This integration enables seamless user authentication across different platforms, supporting features like single sign-on, where users can access multiple applications with one set of credentials managed by an identity provider.
 
 
 ## LoginRadius SSO
