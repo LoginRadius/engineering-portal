@@ -1,43 +1,49 @@
 ---
-title: "IMPLEMENTING OIDC SSO HAVING LOGINRADIUS AS IDENTITY PROVIDER"
-date: "2024-05-03"
+title: "How to Implement OpenID Connect (OIDC) SSO with LoginRadius?"
+date: "2024-05-28"
 coverImage: "coverImage.jpeg"
 author: "Sanjay Velu"
 tags: ["SSO", "OIDC", "LoginRadius"]
-description: "In this article, you will implement SSO using OIDC having loginradius as the Identity Provider."
+description: "In this tutorial, you will learn how to implement Single Sign-On (SSO) using OpenID Connect (OIDC) with LoginRadius as your Identity Provider."
 ---
 
 # Introduction
 
-Firstly let us know about what it sso and why one should use it and how we can leverage the LoginRadius as an identity provider to do oidc.
-SSO stands for single sign on . It's an authentication process that allows a user to access multiple applications or systems with one set of login credentials (username and password). Instead of requiring users to log in separately to each application, SSO enables them to log in once and gain access to all the connected systems without needing to re-enter their credentials.
+First, let's understand:
+
+- What is SSO and why should you use it?
+- What is OIDC and why it is used for authentication?
+- How you can leverage LoginRadius as an identity provider?
+
+__SSO stands for Single Sign-On__. It's an authentication process that allows a user to access multiple applications or systems with one set of login credentials (username and password). Instead of requiring users to log in separately to each application, SSO enables them to log in once and gain access to all the connected systems without needing to re-enter their credentials.
 
 
-## LoginRadius SSO
+## What is LoginRadius CIAM?
 
-LoginRadius serves as the cornerstone for implementing OpenID Connect (OIDC), primarily functioning as an identity provider. It seamlessly facilitates user authentication, offering a robust login mechanism that ensures secure access to various services. Beyond authentication, LoginRadius plays a pivotal role in safeguarding sensitive data, fortifying it against external threats. Through its comprehensive suite of security measures, LoginRadius ensures that user data remains shielded from unauthorized access, thereby upholding confidentiality and integrity. In essence, LoginRadius not only streamlines the authentication process but also serves as a bulwark, safeguarding invaluable user information from potential breaches.
+LoginRadius is a high-performance and scalable identity and acess management platform focused on customer-facing use cases. It offers comprehensive features and capabilities to help you implement user authentication and authorization and manage user data with built-in workflows and security controls. 
 
-Once the OIDC application is created, LoginRadius empowers administrators to tailor user claim fields effortlessly. These customizable user claims can be finely tuned through the platform's user-friendly interface. Subsequently, these specified claims are seamlessly integrated into the token, enabling streamlined extraction and utilization within the application ecosystem.
+On these lines, LoginRadius offers built-in support for OIDC and to use OIDC for implementing SSO.
 
-In essence, LoginRadius not only facilitates the setup of OIDC applications but also enhances customization capabilities through its intuitive interface. This ensures efficient management of user claims, ultimately contributing to a more personalized and secure authentication experience.
+First, you need to create an OIDC application in LoginRadius so that you can tailor user claim fields effortlessly. You can fine-tune these customizable user claims through LoginRadius' user-friendly interface. Subsequently, you can seamlessly integrate these claims into the token, enabling streamlined extraction and utilization within the application ecosystem.
 
+In essence, LoginRadius not only facilitates the setup of OIDC applications but also offers customization capabilities through its intuitive interface. This ensures efficient management of user claims, ultimately contributing to a more personalized and secure authentication experience.
 
-After setting up the oidc app from the LoginRadius dashboard we will use the go -oidc library to further configure our provider and configure the oidc connect.
+After setting up the OIDC app from the LoginRadius dashboard, you'll use the [`go-oidc` library](https://github.com/coreos/go-oidc) to further configure our provider and configure the oidc connect.
 
-## Setting up OIDC Application
+## Setting Up OIDC Application in LoginRadius
 
-Go to [OIDC Application Configuration](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/openid-connect) and Click on **Add App button**
+Go to [OIDC Application Configuration](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/openid-connect) and click on **Add App button**
 
 ![OIDC App Configuration](OIDC-App.jpeg)
 
-Enter the **App name** and click one of the following
+Enter the **App name** and click one of the following:
 
-**Native App**, **Single page App** or **Web App** according to your application
+**Native App**, **Single page App** or **Web App** according to your application.
 
 
 ![OIDC App Setup](App-Setup.jpeg)
 
-After Clicking **Create** button we will get the OIDC application configuration page which will have details like **Client ID** and **Client Secret** of your Application which will be nessesary for setting up the OIDC provider and configuration when we will be coding in golang.
+After clicking the **Create** button, you'll get the OIDC application configuration page which will have details like **Client ID** and **Client Secret** of your Application that are nessesary for setting up the OIDC provider and configuration when you code in Golang.
 
 ![OIDC APP Credentials](App-Credentials.jpeg)
 
@@ -50,13 +56,11 @@ After Clicking **Create** button we will get the OIDC application configuration 
 5) **Metadata**: Incorporate static, non-profile values into the data response.
 6) Define the Scope for Management API.
    
-
 This array of configurable options empowers you to fine-tune your OIDC Application according to your specific requirements.
 
+## Whitelisting the Domain of Your Application
 
-## Whitelisting Domain of your Application
-
-To ensure seamless redirection of requests and successful callbacks to your endpoint, we need to add your application's domain to the whitelist. This will authorize the redirection process and prevent any failures when calling the callback endpoint.
+To ensure seamless redirection of requests and successful callbacks to your endpoint, add your application's domain to the whitelist. This will authorize the redirection process and prevent any failures when calling the callback endpoint.
  
 #### To access Web Apps in Deployment, follow these steps:
 
@@ -66,25 +70,23 @@ To ensure seamless redirection of requests and successful callbacks to your endp
 
 #### Now, to add a new site:
 
-1) Click on the Add New Site button.
-2) Enter the domain name of the website (example : "https://localhost:8080").
+1) Click on the __Add New Site__ button.
+2) Enter the domain name of the website (example: "https://localhost:8080").
 
 ![Whitelisting Domain Name](Whitelisting-Domain.jpeg)
 
 
-### Whitelisting Domain from OIDC Application configuration.
-LoginRadius gives the feature to uniquely identify the redirect urls for individual OIDC applications.
+### Whitelisting Domain from OIDC Application Configuration
 
+LoginRadius let's you uniquely identify the redirect URLs for individual OIDC applications:
 
-* When setting the configuration of the OIDC Application you can specify the redirect url of your backend
+* When setting the configuration of the OIDC Application, you can specify the redirect URL of your backend,
 and it will be whitelisted .
 * The field name is **Login Redirect URL**.
 
+## Setting Up the Provider Object and the OAuthconfig with the Loginradius OIDC App Credentials
 
-
-## Setting up the provider object and the OAuthconfig with the loginradius OIDC App  credentials
-
-```javascript
+```js
 provider, err := oidc.NewProvider(ctx, "https://api.loginradius.com/{oidcappname}")
 if err != nil {
     // handle error
@@ -104,20 +106,21 @@ oauth2Config := oauth2.Config{
 }
 ```
 
+When setting up a new provider, you'll need to input the LoginRadius OIDC App URL, typically in this format: `https://{siteUrl}/service/oidc/{OidcAppName}`
 
-When setting up a new provider, you'll need to input the LoginRadius OIDC App URL, typically in the format: https://{siteUrl}/service/oidc/{OidcAppName}.
-
-To seamlessly integrate this with your Go backend, you'll create two essential APIs for setting up and configuring Go-oidc:
+To seamlessly integrate this with your Go backend, create two essential APIs for setting up and configuring `go-oidc`:
 
 1) **Login Endpoint**: This endpoint initiates the authentication process and redirects to the callback endpoint with the authorization code.
+
 2) **Callback Endpoint**: Here, the authorization code received from the login endpoint is exchanged for an access token. Additionally, this endpoint extracts user claims from the access token.
 
 By establishing these APIs, your Go backend efficiently handles the authentication flow, ensuring a smooth user experience while securely managing user identity and access.
 
+## Handle the Callback Hit 
 
-## Handle the callback hit which will exchange the authorization token for access token
+Handle the callback hit that exchanged the authorization token for access token:
 
-```javascript
+```js
 var verifier = provider.Verifier(&oidc.Config{ClientID: clientID})
 
 func handleOAuth2Callback(ctx *gin.context) {
@@ -152,14 +155,15 @@ func handleOAuth2Callback(ctx *gin.context) {
 }
 ```
 
-Will give a sample backend server with implementation in gin golang of both these endpoints.
+Let's go over a sample backend server with implementation in [Gin Golang](https://github.com/gin-gonic/gin) of both these endpoints.
 
-##  Golang code 
+## Gin Golang Code 
 
-For OIDC integration with  Go backend, We'll be implementing it using the [coreos/go-oidc](https://github.com/coreos/go-oidc) library feel free to check it out. This library provides comprehensive support for OIDC, allowing us to easily verify tokens, extract user claims, and validate ID tokens. Its features ensure secure authentication and seamless integration with various OIDC providers.
+For OIDC integration with Go backend, you'll implement it using the [coreos/go-oidc](https://github.com/coreos/go-oidc) library (feel free to check it out). This library provides comprehensive support for OIDC, allowing to easily verify tokens, extract user claims, and validate ID tokens. Its features ensure secure authentication and seamless integration with various OIDC providers.
 
-With the github.com/coreos/go-oidc library, We can efficiently implement OIDC authentication in  Go backend, guaranteeing a smooth and secure authentication process for my users.
- ```bash
+With the `go-oidc` library, you can efficiently implement OIDC authentication in  Go backend, guaranteeing a smooth and secure authentication process for users.
+
+```bash
 go get github.com/coreos/go-oidc/v3/oidc
 ```
 
@@ -191,7 +195,7 @@ var (
 	globalOuthConfig *oauth2.Config
 )
 
-// Server struct will holds interfaces like HTTP server ,DBHelper, ServerProvider and MongoDB client etc.
+// Server struct holds interfaces like HTTP server, DBHelper, ServerProvider and MongoDB client, etc.
 type Server struct {
 
 }
@@ -290,26 +294,29 @@ func main() {
 }
 ```
 
-The process described involves several key steps in setting up an OAuth2 flow with OpenID Connect (OIDC) for user authentication. Here's a brief overview of what was done in the code:
+The process described involves several key steps in setting up an OAuth2 flow with OpenID Connect (OIDC) for user authentication.
 
-### Initialization of OIDC Provider and OAuth2 Configuration:
-* The OIDC provider is initialized using the oidc.NewProvider function, which requires the OAuth2 endpoint and the OIDC provider's URL. This step is crucial for establishing a connection with the OIDC provider, enabling the application to authenticate users through the provider.
+Here's a brief overview of what was done in the code:
 
-* The OAuth2 configuration (oauthConfig) is set up with essential details such as the client ID, client secret, redirect URL, and scopes. These credentials are specific to the OIDC application registered with the provider (e.g., LoginRadius). The redirect URL is where the provider will send the user after authentication, and the scopes define the permissions requested from the user.
+### Initialization of OIDC Provider and OAuth2 Configuration
 
-### Setting Up the Callback Endpoint:
-* A callback endpoint is defined in the application, typically as **/api/callback**. This endpoint is responsible for handling the callback from the OIDC provider after the user has been authenticated.
+* The OIDC provider is initialized using the `oidc.NewProvider` function, which requires the OAuth2 endpoint and the OIDC provider's URL. This step is crucial for establishing a connection with the OIDC provider, enabling the application to authenticate users through the provider.
+
+* The OAuth2 configuration (`oauthConfig`) is set up with essential details such as the client ID, client secret, redirect URL, and scopes. These credentials are specific to the OIDC application registered with the provider (e.g., LoginRadius). The redirect URL is where the provider will send the user after authentication, and the scopes define the permissions requested from the user.
+
+### Setting Up the Callback Endpoint
+
+* A callback endpoint is defined in the application, typically as `/api/callback`. This endpoint is responsible for handling the callback from the OIDC provider after the user has been authenticated.
 * When the user authenticates successfully, the OIDC provider redirects the user back to the application with an authorization code included in the query parameters.
-* The application then exchanges this authorization code for an access token by calling the Exchange method on the OAuth2 configuration object. This exchange process is handled securely by the OAuth2 library, ensuring that the application receives a valid access token.
+* The application then exchanges this authorization code for an access token by calling the exchange method on the OAuth2 configuration object. This exchange process is handled securely by the OAuth2 library, ensuring that the application receives a valid access token.
 
-### Verifying the Access Token and Extracting User Claims:
+### Verifying the Access Token and Extracting User Claims
 * Once the access token is obtained, the application extracts the ID token from it. The ID token contains claims about the authenticated user, such as their name, email, and roles.
 * The ID token is then verified using the OIDC provider's verifier. This step ensures that the token is valid and has not been tampered with. Verification involves checking the token's signature and possibly other claims to ensure it matches the expected values.
 * After verification, the application extracts the claims from the ID token. These claims can be used to identify the user within the application, personalize the user experience, or enforce access control based on the user's roles or permissions.
 
 This process leverages the security and standardization provided by OIDC and OAuth2 to implement a secure authentication flow. By following these steps, the application can authenticate users through LoginRadius OIDC provider, ensuring that user credentials are managed securely and that the application can trust the identity of authenticated users.
 
+## Conclusion
 
-
-
-
+In this tutroial, you have learned how to implement OIDC SSO with LoginRadius as the Identity Provider. And you have built a simple Golang backend with Gin to practially understand the OIDC SSO implementation.
