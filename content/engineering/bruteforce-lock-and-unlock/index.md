@@ -4,7 +4,7 @@ date: "2024-05-29"
 coverImage: implementing-brute-force-lockout.png
 author: "Gayathri Suresh"
 tags: ["Brute-force", "LoginRadius", "Authentication"]
-description: "In this blog, we'll learn about brute-force lockout, the creation of a basic app using Identity Experience Framework, and how to unlock a user account using APIs."
+description: "In this blog, you'll learn about brute-force lockout, the creation of a basic app using Identity Experience Framework, and how to unlock a user account using APIs."
 ---
 
 First, let's understand some basic terminology.
