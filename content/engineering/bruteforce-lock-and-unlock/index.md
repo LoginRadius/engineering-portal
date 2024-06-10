@@ -44,21 +44,21 @@ Let's go through the API implementation of brute-force lockout and user unlock.
 
 In LoginRadius, the brute-force lockout feature can be enabled from the _[Admin Console](https://admin-console.loginradius.com/platform-security/account-protection/auth-security/brute-force-lockout)_.
 
-[![admin_bfl_page.png](assets/admin_bfl_page.png)](assets/admin_bfl_page.png)
+![admin_bfl_page.png](assets/admin_bfl_page.png)
 
 #### Testing
 
 1. Register with a new user and log in with the correct email and password. It is observed that the user is redirected to the profile page after authentication.
 
-[![loginpage_with_data.png](assets/loginpage_with_data.png)](assets/loginpage_with_data.png)
+![loginpage_with_data.png](assets/loginpage_with_data.png)
 <br>
-[![successful_login.png](assets/successful_login.png)](assets/successful_login.png)
+![successful_login.png](assets/successful_login.png)
 
 2. Now, log out and try to log in with incorrect credentials.
 3. If the password is incorrect successively till the lockout threshold, the account gets locked. 
 4. Therefore, brute-force lockout is achieved.
 
-[![incorrect_pwd.png](assets/incorrect_pwd.png)](assets/incorrect_pwd.png)
+![incorrect_pwd.png](assets/incorrect_pwd.png)
 
 > In the _[Admin Console](https://admin-console.loginradius.com/platform-security/account-protection/auth-security/brute-force-lockout)_, you can set the _brute-force lockout threshold, lockout type, and suspend effective period_. 
 
@@ -121,7 +121,7 @@ Calling the Account Update API with the provided endpoint, using the given metho
 
 <br>
 
-[![unlocked_account_update.jpeg](assets/unlocked_account_update.jpeg)](assets/unlocked_account_update.jpeg)
+![unlocked_account_update.jpeg](assets/unlocked_account_update.jpeg)
 
 ## Conclusion
 
