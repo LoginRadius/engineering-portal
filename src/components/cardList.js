@@ -30,13 +30,9 @@ export default function CardList({ posts, currentPage, type }) {
           </div>
           <div className={` ${styles.sidebar} py-96`}>
             {/*<Subscribe type={type} />*/}
-            {type !== "growth" && (
-              <div className={`${styles.sidebarWidget} ${styles.tags}`}>
-                {type === "all" && <TagMenu />}
-                {type === "engineering" && <AsyncTagMenu />}
-                {type === "identity" && <IdentityTagMenu />}
-              </div>
-            )}
+            {type === "all" && (<div className={`${styles.sidebarWidget} ${styles.tags}`}><TagMenu /></div>)}
+            {type === "engineering" && (<div className={`${styles.sidebarWidget} ${styles.tags}`}><AsyncTagMenu /></div>)}
+            {type === "identity" && (<div className={`${styles.sidebarWidget} ${styles.tags}`}><IdentityTagMenu /></div>)}
             {type === "engineering" && (
               <a
                 className={`${styles.sidebarWidget} ${styles.link}`}
