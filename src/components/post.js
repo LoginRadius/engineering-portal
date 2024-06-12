@@ -137,12 +137,12 @@ const Post = ({ post, relatedPost, type }) => {
                     </ul>
                   </div>
                 ) : null}
-                <div className={headStyles.subscribeDetail}>
+                {/*<div className={headStyles.subscribeDetail}>
                   <h3>
                     Did you enjoy this article? Subscribe to new articles!
                   </h3>
                   <Subscribe type={type} />
-                </div>
+                </div>*/}
               </div>
             </div>
             <div className={headStyles.sidebar}>
@@ -172,7 +172,7 @@ const Post = ({ post, relatedPost, type }) => {
                   <>
                     <div className={headStyles.image}>
                       <img
-                        src="/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
+                        src="https://www.loginradius.com/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
                         alt="Top CIAM Platform 2024"
                       />
                     </div>

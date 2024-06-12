@@ -9,8 +9,8 @@ module.exports = {
     owner: "LoginRadius",
     footerLinks: [
       {
-        name: "Privacy Policy",
-        slug: "https://www.loginradius.com/privacy-policy",
+        name: "Privacy",
+        slug: "https://www.loginradius.com/privacy-policy/",
       },
       {
         name: "Terms",
@@ -20,24 +20,23 @@ module.exports = {
         name: "Security Policy",
         slug: "https://www.loginradius.com/security-policy/",
       },
+      {
+        name: "Sitemap",
+        slug: "https://www.loginradius.com/site-map/",
+      },
     ],
     socialLinks: [
-      {
-        name: "twitter",
-        slug: "https://twitter.com/LoginRadius",
-      },
       {
         name: "linkedin",
         slug: "https://www.linkedin.com/company/loginradius/",
       },
       {
+        name: "twitter",
+        slug: "https://twitter.com/LoginRadius",
+      },      
+      {
         name: "youtube",
         slug: "https://www.youtube.com/user/LoginRadius",
-      },
-      {
-        name: "feedly",
-        slug:
-          "https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.loginradius.com%2Fblog%2Fasync%2Frss.xml",
       },
     ],
   },
