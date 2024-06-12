@@ -178,43 +178,43 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
             </div>
             <div className={styles.copyrightwrap}>
               <p className={styles.copyright}>©Copyright 2013-{new Date().getFullYear()}, LoginRadius Inc.
-              <nav className={styles.menuLinks}>
-              <ul>
-                {menuLinks.map((link, index) => (
-                  <li key={index}>
-                    <a
-                      href={link.slug}
-                      key={index}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {link.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-            </p>
+                <nav className={styles.menuLinks}>
+                  <ul>
+                    {menuLinks.map((link, index) => (
+                      <li key={index}>
+                        <a
+                          href={link.slug}
+                          key={index}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {link.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </nav>
+              </p>
               <nav className={styles.social}>
-              <ul>
-                {socialLinks.map((link, index) => (
-                  <li key={index}>
-                    <a
-                      href={link.slug}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src={require(`../../static/${link.name}.svg`)}
-                        width="38px"
-                        height="38px"
-                        alt={link.name}
-                      />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+                <ul>
+                  {socialLinks.map((link, index) => (
+                    <li key={index}>
+                      <a
+                        href={link.slug}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require(`../../static/${link.name}.svg`)}
+                          width="38px"
+                          height="38px"
+                          alt={link.name}
+                        />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
