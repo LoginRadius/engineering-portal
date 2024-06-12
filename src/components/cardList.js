@@ -29,7 +29,7 @@ export default function CardList({ posts, currentPage, type }) {
                 ))}
           </div>
           <div className={` ${styles.sidebar} py-96`}>
-            <Subscribe type={type} />
+            {/*<Subscribe type={type} />*/}
             {type !== "growth" && (
               <div className={`${styles.sidebarWidget} ${styles.tags}`}>
                 {type === "all" && <TagMenu />}
@@ -69,7 +69,7 @@ export default function CardList({ posts, currentPage, type }) {
                 <>
                   <div className={headStyles.image}>
                     <img
-                      src="/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
+                      src="https://www.loginradius.com/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
                       alt="Top CIAM Platform 2024"
                     />
                   </div>
