@@ -1,13 +1,14 @@
 ---
-title: "Announcement - LoginRadius Unveils the Future of Authentication with Push Notification MFA"
+title: "Announcement-LoginRadius Unveils the Future of Authentication with Push Notification MFA"
 date: "2024-06-19"
-coverImage: "Push-Notification-MFA.jpg"
+coverImage: "Push-Notification-MFA.png"
 tags: ["industry news","MFA","digital security"]
 author: "Rakesh Soni"
 description: "LoginRadius introduces Push Notification Multi-Factor Authentication (MFA) to enhance digital security and provide a seamless customer authentication experience. This new feature addresses traditional password vulnerabilities intuitively and is user-friendly, ensuring robust security without compromising convenience."
 metatitle: "The Future Of MFA: LoginRadius Unveils Push Notification MFA"
 metadescription: "Learn how LoginRadius' new Push Notification MFA feature offers enhanced digital security and effortless authentication for a seamless user experience."
 ---
+
 ## Introduction 
 
 In the ever-evolving digital landscape, ensuring secure and seamless customer authentication is paramount. Traditional password-based authentication has long been the standard but comes with significant security risks. Weak passwords, reused passwords, and personal information in passwords are common vulnerabilities that compromise the safety of digital interactions.
