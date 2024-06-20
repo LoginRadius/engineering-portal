@@ -1,5 +1,5 @@
 ---
-title: "Announcement-LoginRadius Unveils the Future of Authentication with Push Notification MFA"
+title: "Announcement - LoginRadius Unveils the Future of Authentication with Push Notification MFA"
 date: "2024-06-19"
 coverImage: "Push-Notification-MFA.png"
 tags: ["industry news","MFA","digital security"]
