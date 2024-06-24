@@ -113,9 +113,9 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
             <path
               d="M368 144L144 368M368 368L144 144L368 368Z"
               stroke="#B3B6B8"
-              stroke-width="32"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="32"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </a>
@@ -133,7 +133,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   checked={async}
                   onChange={() => setAsync(!async)}
                 />
-                <label for="engineering">Engineering</label>
+                <label htmlFor="engineering">Engineering</label>
               </li>
               <li>
                 <input
@@ -144,7 +144,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   checked={identity}
                   onChange={() => setIdentity(!identity)}
                 />
-                <label for="identity">Identity</label>
+                <label htmlFor="identity">Identity</label>
               </li>
               <li>
                 <input
@@ -155,7 +155,7 @@ const Modal = ({ type, email, isOpen, toggle, toggleEmail }) => {
                   checked={fuel}
                   onChange={() => setFuel(!fuel)}
                 />
-                <label for="growth">Growth</label>
+                <label htmlFor="growth">Growth</label>
               </li>
             </ul>
           </div>
