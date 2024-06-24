@@ -67,7 +67,10 @@ const Post = ({ post, relatedPost, type }) => {
             <div className={`${headStyles.tag} ${headStyles.pinned}`}>
               {tags &&
                 tags.map((tag, i) => (
-                  <Link key={i} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                  <Link key={i} to={`/tags/${kebabCase(tag)}/`}>
+                    {" "}
+                    {tag}{" "}
+                  </Link>
                 ))}
             </div>
           </div>
