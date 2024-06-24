@@ -177,7 +177,8 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
               </div>
             </div>
             <div className={styles.copyrightwrap}>
-              <p className={styles.copyright}>©Copyright 2013-{new Date().getFullYear()}, LoginRadius Inc.
+  <div className={styles.copyright}>            
+  <p>©Copyright 2013-{new Date().getFullYear()}, LoginRadius Inc.</p>
                 <nav className={styles.menuLinks}>
                   <ul>
                     {menuLinks.map((link, index) => (
@@ -194,7 +195,7 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
                     ))}
                   </ul>
                 </nav>
-              </p>
+              </div>
               <nav className={styles.social}>
                 <ul>
                   {socialLinks.map((link, index) => (
