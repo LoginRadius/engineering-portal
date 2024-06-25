@@ -56,7 +56,7 @@ Implementing Zero-Trust architecture in government sectors offers numerous benef
 
 * **Improved Visibility**: Zero-Trust provides comprehensive visibility into network traffic, user activity, and device behavior, enabling faster detection and response to threats.
 
-[Zero Trust Security for Modern Businesses – Part II](https://www.loginradius.com/resource/whitepaper/zero-trust-security-business-2/)
+[![WP-zero-trust-security-2](WP-zero-trust-security-2.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-business-2/)
 
 * **Reduced Attack Surface**: Micro-segmentation and least privilege access reduce the potential impact of a breach by limiting the reach of attackers within the network.
 
