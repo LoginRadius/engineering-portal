@@ -69,6 +69,8 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
                       Multi-Factor Authentication
                     </a>
                   </li>
+                  <li><a href="https://www.loginradius.com/push-notification-mfa/">Push Notification MFA</a></li>
+                  <li><a href="https://www.loginradius.com/passkeys-login-authentication/">Passkeys</a></li>
                   <li>
                     <a href="https://www.loginradius.com/gdpr-and-privacy/">
                       GDPR and Privacy
