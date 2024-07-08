@@ -16,7 +16,7 @@ jekyll new my-new-blog
 cd my-new-blog
 bundle exec jekyll serve
 ```
-That's it. You can navigate to [`http://localhost:8080`](http://localhost:8080) and see your blog up and running like this
+That's it. You can navigate to `http://localhost:8080` and see your blog up and running like this
 
 ![A new jekyll blog](new-blog.png)
 

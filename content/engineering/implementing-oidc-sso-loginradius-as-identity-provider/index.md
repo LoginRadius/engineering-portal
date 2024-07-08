@@ -70,7 +70,7 @@ To ensure seamless redirection of requests and successful callbacks to your endp
 #### Now, to add a new site:
 
 1) Click on the __Add New Site__ button.
-2) Enter the domain name of the website (example: "https://localhost:8080").
+2) Enter the domain name of the website (example: "`https://localhost:8080`").
 
 ![Whitelisting Domain Name](Whitelisting-Domain.jpeg)
 

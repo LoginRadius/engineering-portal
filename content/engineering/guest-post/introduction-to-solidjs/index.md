@@ -392,7 +392,7 @@ And finally, kickstart the app by running:
 npm run start
 ```
 
-That should open the project for you at http://localhost:3000. Awesome!
+That should open the project for you at `http://localhost:3000`. Awesome!
 
 ### Architecture & Boilerplate Code
 

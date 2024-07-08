@@ -79,7 +79,7 @@ Here, a callback URL refers to a URL in your application that LoginRadius would 
 
 For security reasons, LoginRadius only processes API calls that are received from the whitelisted domains. To get the list of whitelisted domains, run `lr get domain` command from the CLI. Similarly, to add a domain, use the `lr add domain` command.
 
-> For the purposes of this tutorial, make sure that you set http://localhost as a whitelisted domain. 
+> For the purposes of this tutorial, make sure that you set `http://localhost` as a whitelisted domain. 
 
 ![alt_text](domain.png "Add Domain") 
 

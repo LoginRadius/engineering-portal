@@ -107,7 +107,7 @@ npm install @emotion/react @emotion/styled //these are additional dependencies f
 
 ## Running Your Application
 
-In your command prompt, entering 'npm start' can spin up your application to a specific [localhost](http://localhost) url. You can start to see what work you've done so far.
+In your command prompt, entering 'npm start' can spin up your application to a specific `http://localhost` url. You can start to see what work you've done so far.
 
 With these simple components, let's try to spin this application up and ensure it is working. 
 
@@ -117,7 +117,7 @@ Enter the command:
 npm start
 ```
 
-This starts the application at a set [localhost](http://localhost) URL. Once the dev server is working and live on the command prompt, go to the URL to view the application. You should see something similar to this:
+This starts the application at a set `http://localhost` URL. Once the dev server is working and live on the command prompt, go to the URL to view the application. You should see something similar to this:
 
 ![counter-base-app.png](counter-base-app.png)
 
@@ -144,11 +144,11 @@ npm run build
 serve -s build //if you encounter an error with this command, try 'npx serve -s build'
 ```
 
-Once you use the `serve` command, you should see the following message, having your application deployed to [http://localhost:5000](http://localhost:5000). It automatically adds the URL to your clipboard as well for quick pasting in your browser.
+Once you use the `serve` command, you should see the following message, having your application deployed to `http://localhost:5000`. It automatically adds the URL to your clipboard as well for quick pasting in your browser.
 
 ![pwa-serve.png](pwa-serve.png)
 
-If you enter the [localhost](http://localhost) URL in your browser, you should see something similar to this:
+If you enter the `http://localhost` URL in your browser, you should see something similar to this:
 
 ![pwa-service-worker.png](pwa-service-worker.png)
 
@@ -156,7 +156,7 @@ If you enter the [localhost](http://localhost) URL in your browser, you should s
 
 With the PWA React application live, let's take a look under the hood and open up the Developer Tools (for Google Chrome, entering F12 opens the Dev Tools).
 
-After registering your service worker from `index.js`, you should be able to see it running in the Application tab. Inside that tab, on the left side you should see a Service Workers section. From here, you can see for [http://localhost:5000](http://localhost:5000). You have a Service Worker from your `service-worker.js` file and is activated/running.
+After registering your service worker from `index.js`, you should be able to see it running in the Application tab. Inside that tab, on the left side you should see a Service Workers section. From here, you can see for `http://localhost:5000`. You have a Service Worker from your `service-worker.js` file and is activated/running.
 
 In the section above, you can see `Manifest` -- opening that should show you the relevant details you listed from your `manifest.json` files.
 

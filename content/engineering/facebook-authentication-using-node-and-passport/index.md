@@ -29,7 +29,7 @@ Passport is authentication middleware for Node, which authenticates requests and
 
 ![Add a Facebook product](add-product.png "Add a Facebook product")
 
-  - After adding up the product you can now choose to have 'web' and while setting up the URL, you can simply write 'http://localhost:3000'
+  - After adding up the product you can now choose to have 'web' and while setting up the URL, you can simply write `http://localhost:3000`
   - After this go to tab 'MyApps' and select the **App name**. Select the 'Basic` from *settings* options in the sidebar as shown below. You can now copy your secret and ID from here
 
   ![App ID and Secret](app-id-secret.png "App ID and Sceret")

@@ -48,7 +48,7 @@ To follow this tutorial, you’ll need the following:
 	```
 	npm start
 	```
-4. The default react app will run in http://localhost:3000
+4. The default react app will run in `http://localhost:3000`
 
 5. Let the directory structure be 
 	```

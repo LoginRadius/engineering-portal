@@ -14,7 +14,7 @@ Creating an app for the social platform is always the first step, no matter whic
 
 <h2> Set your App </h2>
 
-After creating the app, you need to set the "JavaScript API domain" field for your app.  In that field, fill in your website URL. Here we have used http://localhost for this article.
+After creating the app, you need to set the "JavaScript API domain" field for your app.  In that field, fill in your website URL. Here we have used `http://localhost` for this article.
 
 ![luciusblog2-1](luciusblog2-1.png)
 
