@@ -25,7 +25,7 @@ Image Source: <a rel="nofollow" href="https://liveinspiredmag.com/2020/10/01/5-t
 
 Brands are constantly competing to stand out and attract larger clientele. Marketers and advertisers develop new strategies to increase brands' visibility and make them recognizable.
 
-Today, it is extremely easy to promote brands and [sell products on different online platforms](https://zyro.com/blog/best-things-sell-online/), but the problem lies in uniqueness and the possibility of staying in people’s memory.
+Today, it is extremely easy to promote brands and sell products on different online platforms, but the problem lies in uniqueness and the possibility of staying in people’s memory.
 
   
 

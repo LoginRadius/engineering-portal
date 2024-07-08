@@ -24,7 +24,7 @@ Well, here is a detailed description in the form of list of reasons about why bu
 
 ### **1\. Your Checkout is Too Complicated**
 
-An analysis from Bronto (an email marketing company) observes that there is an [average of 5.6 pages](http://www.linkedarray.com/wp-content/uploads/2013/03/White-paper-ecommerce.pdf) is between cart and order confirmation. People don’t like spending hours shopping online. When they visit your online store, they probably know what they want and hence want the process to be straight and quick. Hence, your sales funnel of 9 pages from cart to checkout will force them to abandon the cart and thus you may lose your revenue.
+An analysis from Bronto (an email marketing company) observes that there is an average of 5.6 pages is between cart and order confirmation. People don’t like spending hours shopping online. When they visit your online store, they probably know what they want and hence want the process to be straight and quick. Hence, your sales funnel of 9 pages from cart to checkout will force them to abandon the cart and thus you may lose your revenue.
 
 **_How can you save yourself_**
 

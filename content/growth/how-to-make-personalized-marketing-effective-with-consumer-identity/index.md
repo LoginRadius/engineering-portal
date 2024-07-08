@@ -25,7 +25,6 @@ CIAM solutions also typically offer self-service capabilities for customers, suc
 ## Grow Your Business with CIAM
 
 ![personalized-marketing-experience](personalized-marketing-experience.png)
-<a rel="nofollow" href="https://groupcis.com/wp-content/uploads/2019/07/CIAM..png">Source</a>
 
 Providing consumers with digital services is a delicate balancing act. You must provide an exceptional client experience while also establishing trust in the security of your services. If you get one of these things incorrect, the consequences can be devastating.
 

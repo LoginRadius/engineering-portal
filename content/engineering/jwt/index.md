@@ -131,7 +131,7 @@ CJqdGkiOiI0YjVmY2VhNi0yYTVlLTRhOWQtOTdmMi0zZDg2MzFlYTJjNWEiLCJpYXQiOjE1MjExOTE5M
 
 This is our final JWT, containing the Header, Payload, and Signature joined together with dots. It can be passed as a URL parameter, a POST parameter, or in the  HTTP header to authenticate or exchange information.
 
-You can play around with JWT using our [JWT SSO Tool.](https://jwt.ssotools.com/)
+You can play around with JWT using our [JWT SSO Tool.](https://jwt.io/)
 
 Note: JWT does not hide information; it just encodes information using the digitally-signed signature and verifies that the information has not been altered over the network. So, do not add any sensitive information in the JWT claim.
 

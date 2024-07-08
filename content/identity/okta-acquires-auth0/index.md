@@ -36,7 +36,7 @@ Here are some of the notable events in CIAM in recent times:
     
 -   In July 2018, cloud-based CIAM platform LoginRadius announced [$17M Series A Funding](https://www.loginradius.com/blog/identity/loginradius-announces-17m-series-funding-forgepoint-microsoft/) from Microsoft's Venture Fund to accelerate its product innovation.
     
--   In November 2017, SAP completed the acquisition of customer identity management firm [Gigya for $350M](https://news.sap.com/2017/09/sap-to-acquire-gigya-market-leader-in-customer-identity-and-access-management/) in a smart move to strengthen its Hybris e-commerce division.
+-   In November 2017, SAP completed the acquisition of customer identity management firm Gigya for $350M in a smart move to strengthen its Hybris e-commerce division.
     
 -   In June 2016, Vista Equity Partners acquired [majority ownership of Ping Identity](https://www.pingidentity.com/en/company/press-releases-folder/2016/vista-equity-partners-to-acquire-ping-identity.html) in a leveraged buyout for $600 million.
     

@@ -57,7 +57,6 @@ The primary intent of writing an eye-catching summary is to subconsciously align
     
     ![How to write effective Linkedin summary](How-to-write-effective-Linkedin-summary.png)
 
-**[Source](https://www.linkedinsights.com/3-stunningly-good-linkedin-profile-summaries/)**
 
 - **Some points to note:-**
 - Sell yourself with statistics and number and create a rapport with your potential customers

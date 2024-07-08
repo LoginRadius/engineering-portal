@@ -124,8 +124,6 @@ Another site where you don’t need to provide credits to any photos which are b
 
 ![Jay Mantri](Jay-Mantri.jpg?ver=1553881376)
 
-[Source](http://s169923.gridserver.com/images/portland_boat.jpg?ver=1553881376)
-
 ### **FoodiesFeed**
 
 The best place to find out high quality pictures about mouth watering food delicacies and any kind of food from all over the world. Visit [FoodiesFeed](https://www.foodiesfeed.com/) and you will love the experience.
