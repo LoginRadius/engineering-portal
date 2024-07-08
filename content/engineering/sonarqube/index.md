@@ -68,12 +68,12 @@ After the above process, Add the sonar scanner path to environment variables.
     #For other OS (terminal): 
     C:\sonarqube\bin\[OS]>sonar.sh
     ```
- Once the sonar server up successfully, then Log in to http://localhost:9000 with System Administrator credentials (login=admin, password=admin).
+ Once the sonar server up successfully, then Log in to `http://localhost:9000` with System Administrator credentials (login=admin, password=admin).
 
 ### Creating and Analysing a Project:
 
 * Go to create a new project and enter the project key, and display name details. (+ sign on the top right side).
-* Provide a token by either generating a token or using an existing token (find existing token on  http://localhost:9000/account/security page).
+* Provide a token by either generating a token or using an existing token (find existing token on  `http://localhost:9000/account/security` page).
 * Run analysis on the project by selecting the programming language used in the repository and your system OS. 
 * As we already downloaded and set up the sonar-scanner path, No need to download it again.
 * Now copy the displaying command and Go to your project path and Run the copied command. It looks like below:
@@ -81,7 +81,7 @@ After the above process, Add the sonar scanner path to environment variables.
     sonar-scanner.bat -D"sonar.projectKey=rtetre" -D"sonar.sources=."-D"sonar.host.url=http://localhost:9000" -D"sonar.login=e932dxxxxx9a8e5c7903xxxxxx96928xxxxxxx"
     ```
 
-After the analysis is done, you can either browse the provided link to see the sonar report directly [Ex.: http://localhost:9000/dashboard?id=] or go to the project section to see the newly generated sonar report of your project. 
+After the analysis is done, you can either browse the provided link to see the sonar report directly [Ex.: `http://localhost:9000/dashboard?id=`] or go to the project section to see the newly generated sonar report of your project. 
 
 If you want to exclude some files from analysis(like test files), then go to the administration section and navigate to the General setting, select the programming language used, and set a list of file path patterns to be excluded from the analysis.
 

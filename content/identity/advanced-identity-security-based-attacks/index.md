@@ -59,7 +59,7 @@ To address the growing threat of identity-based attacks, organizations must adop
 
 2. **Multi-Factor Authentication (MFA)**: MFA should be implemented with robust factors beyond SMS-based verification, such as biometrics, hardware tokens, and adaptive authentication that assesses risk based on user behavior and context.
 
-3. **Identity and Access Management (IAM)**: [Modern CIAM solutions](http://loginradius.com) provide centralized control over user identities and access permissions, ensuring that only authorized users can access critical resources.
+3. **Identity and Access Management (IAM)**: [Modern CIAM solutions](https://www.loginradius.com/) provide centralized control over user identities and access permissions, ensuring that only authorized users can access critical resources.
 
 4. **Behavioral Analytics**: Leveraging machine learning and AI, behavioral analytics can detect anomalies in user behavior that may indicate compromised identities, allowing for real-time threat detection and response.
 

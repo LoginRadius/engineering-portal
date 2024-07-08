@@ -236,17 +236,7 @@ It is a business directory that helps your businesses to be found locally.
 
 It is an all in one business directory that help your business to grow. It improves businesses ranking on search engines. It connects millions of customers to local business every month.
 
-### **18\. Local Store: [https://www.localstore.ca/](https://www.localstore.ca/)**
-
-- Domain Authority:13
-- Page Authority: 23
-- Domain Age: 6.8 Years
-- Alexa Rank: 1,455,146
-- Listing: Free
-
-Local store is an effective business listing platform that helps customers to connect with retailers and businesses. To expose your business on Localstore, all you need to is create an account with full information about it. Click on the “Add My Listing” button and provide necessary details with the most suitable category.
-
-### **19\. YelloYello: [https://www.yelloyello.com](https://www.yelloyello.com)**
+### **18\. YelloYello: [https://www.yelloyello.com](https://www.yelloyello.com)**
 
 - Domain Authority Score : 40
 - Page Authority : 45
@@ -257,7 +247,7 @@ Local store is an effective business listing platform that helps customers to co
 
 YelloYello is an another important business directory that helps your customers to find your business easily. By just typing your business name on the search section, they can reach out to you. The traffic on the website is very high, that also improves your business’s online presence.
 
-### **20\.  Zizics: [http://zizics.com/](http://zizics.com/)**
+### **19\.  Zizics: [http://zizics.com/](http://zizics.com/)**
 
 - Domain Authority Score : 33
 - Page Authority : 28
@@ -268,7 +258,7 @@ YelloYello is an another important business directory that helps your customers 
 
 It is a free business directory. Getting your business to the list of Zizics is very simple. You just need to sign-up and fill all the required details. Your business will be listed instantly without any delay.
 
-### **21\.  KnowEm: [http://knowem.com/](http://knowem.com/)**
+### **20\.  KnowEm: [http://knowem.com/](http://knowem.com/)**
 
 - Domain Authority Score : 64
 - Page Authority : 70
@@ -279,7 +269,7 @@ It is a free business directory. Getting your business to the list of Zizics is 
 
 KnowEm is an interesting business listing directory. By allowing users to check about your business name, contact details, brand etc. on more than 500 popular social media websites.
 
-### **22\. SmallBizPages: [http://smallbizpages.ca/](http://smallbizpages.ca/)**
+### **21\. SmallBizPages: [http://smallbizpages.ca/](http://smallbizpages.ca/)**
 
 - Domain Authority Score : 21
 - Page Authority : 33
@@ -290,7 +280,7 @@ KnowEm is an interesting business listing directory. By allowing users to check 
 
 It is a free business listing website for Canada. It will help your business to reach out to more people locally. You can also post ads, classifieds, event listings and also press releases.
 
-### **23\. YellowBot: [http://www.yellowbot.com/](http://www.yellowbot.com/)**
+### **22\. YellowBot: [http://www.yellowbot.com/](http://www.yellowbot.com/)**
 
 - Domain Authority Score : 72
 - Page Authority : 77
@@ -301,7 +291,7 @@ It is a free business listing website for Canada. It will help your business to 
 
 YellowBot is an interesting business web directory that manages your web presence by improving business reach. It helps to attract customers and users from professional business websites. It also interacts and monitors customers on social media networks.
 
-### **24\. 2findlocal: [http://www.2findlocal.com/](http://www.2findlocal.com/)**
+### **23\. 2findlocal: [http://www.2findlocal.com/](http://www.2findlocal.com/)**
 
 - Domain Authority Score : 67
 - Page Authority : 73
@@ -312,7 +302,7 @@ YellowBot is an interesting business web directory that manages your web presenc
 
 It is a great business listing website. You can also post free ads on this. Divided into many categories, it helps customers to locate your business very easily.
 
-### **25\. Opendi: [https://www.opendi.ca](https://www.opendi.ca)**
+### **24\. Opendi: [https://www.opendi.ca](https://www.opendi.ca)**
 
 - Domain Authority Score : 24
 - Page Authority : 32
@@ -323,7 +313,7 @@ It is a great business listing website. You can also post free ads on this. Divi
 
 931.413 listings, 18.952 Businesses with detailed information and around 1829 reviews. You surely wouldn't want to miss this website when listing down your Canadian website. Citation to this listing website is absolutely free and quick.
 
-### **26.** **Canadian Planet: [https://www.canadianplanet.net](https://www.canadianplanet.net/)/**
+### **25.** **Canadian Planet: [https://www.canadianplanet.net](https://www.canadianplanet.net/)/**
 
 - Domain Authority: 27
 - Page Authority: 34

@@ -25,7 +25,7 @@ Reusable digital identities are verified credentials that a person can use both 
 
 Governments and companies worldwide are investing heavily in reusable digital IDs, with countries across the globe launching electronic ID initiatives. For example, India now has over <a rel="nofollow" href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/identity/digital-identity-services/trends"> 1.3 billion electronic IDs </a> for its citizens (over 99% of all adults). 
 
-The adoption rate is also increasing rapidly. According to one study, the global reusable identification market [will grow seven times larger ](https://liminal.co/articles/liminal-projects-the-market-for-reusable-digital-identity-to-soar-to-266-5b-by-2027-with-a-cagr-of-69/)in just the next five years, from just over $32 billion to nearly $270 billion.
+The adoption rate is also increasing rapidly. According to one study, the global reusable identification market will grow seven times larger in just the next five years, from just over $32 billion to nearly $270 billion.
 
 ## Reusable Digital Identities Offer Tremendous Benefits
 

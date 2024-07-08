@@ -36,7 +36,7 @@ The convenience that remote working brings forms the basis for adopting a hybrid
 
 *   **Employee satisfaction** 
 
-A survey was conducted by Indeed in which 40% of the employees said that they were [okay to get a pay cut](https://www.themeaningofwork.co.uk/) in exchange for working remotely. Working from home during the pandemic had its challenges, but it also gave the independence and flexibility to the employees to work according to their will, and now, post-pandemic, the employees wish to continue working from home. 
+A survey was conducted by Indeed in which 40% of the employees said that they were okay to get a pay cut in exchange for working remotely. Working from home during the pandemic had its challenges, but it also gave the independence and flexibility to the employees to work according to their will, and now, post-pandemic, the employees wish to continue working from home. 
 
 
 

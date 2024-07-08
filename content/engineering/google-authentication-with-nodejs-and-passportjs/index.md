@@ -24,10 +24,10 @@ We can create a  client ID and client secret using its [Google API Console](http
 - In the sidebar under "APIs & Services", select Credentials
 - In the Credentials tab, select the Create credentials drop-down list, and choose OAuth client ID.
 - Under Application type, select Web application.
-- In Authorized redirect URI use http://localhost:3000/auth/google/callback
+- In Authorized redirect URI use `http://localhost:3000/auth/google/callback`
 - Press the Create button and copy the generated client ID and client secret
 
-**Note:** If Google doesn't support http://localhost:3000, then use http://127.0.0.1:3000
+**Note:** If Google doesn't support `http://localhost:3000`, then use `http://127.0.0.1:3000`
 
 ### Step 2: Initialize a node.js project with all the dependencies
 
@@ -217,7 +217,7 @@ We have finished building our social login page, let's run the application by be
 node index.js
 ```
 
-Once our server is running, we can see our social login page on http://localhost:3000/
+Once our server is running, we can see our social login page on `http://localhost:3000/`
 
 ![Social Authentication Page](social_login.jpg "Social Authentication Page")
 

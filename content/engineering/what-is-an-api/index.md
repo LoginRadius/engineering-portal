@@ -30,7 +30,7 @@ Demo Link
 
 You can host this directory on your localhost or on a website if you choose.
 
-After you have extracted the zip and have a directory such as localhost/apidemo open a browser and enter http://localhost/apidemo/api.php?request=example&name=yourname where localhost is your domain.
+After you have extracted the zip and have a directory such as localhost/apidemo open a browser and enter `http://localhost/apidemo/api.php?request=example&name=yourname` where localhost is your domain.
 
 To enter this endpoint in an application that makes API calls try Postman. Here is a [link](http://www.getpostman.com/) for a chrome extension.
 

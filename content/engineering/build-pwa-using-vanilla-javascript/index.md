@@ -139,7 +139,7 @@ html,
 }
 ```
 
-Once you add the code save all the files and run the script `npm run serve` which will start your application in http://localhost:5000/
+Once you add the code save all the files and run the script `npm run serve` which will start your application in `http://localhost:5000/`
 
 ![First Build](1.png)
 

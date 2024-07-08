@@ -302,7 +302,7 @@ namespace AntiXssMiddleware
 
 **Step 9:** Now build and run the solution.
 
-As we run the default API which is https://localhost:44369/weatherforecast we will get the below response.
+As we run the default API which is `https://localhost:44369/weatherforecast` we will get the below response.
 
 ```json
 [
