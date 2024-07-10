@@ -22,7 +22,7 @@ OWI is a leading market intelligence and strategy firm focused on identity, trus
 
 The OWI team interacts with identity companies every day, from startups to enterprise. We’re proud to share the Identity Landscape each year to distill how new companies, products, and solutions are shaping the future of identity.”
 
-“LoginRadius is honoured to be one of the 415 identity companies selected from a pool of over 2,000 companies in the industry,” said Deepak Gupta, CTO and co-founder of LoginRadius. “We are committed to empowering businesses to safely secure their customers’ identities while complying with existing and future regulations and delivering a unified digital experience
+“LoginRadius is honoured to be one of the 415 identity companies selected from a pool of over 2,000 companies in the industry,”. “We are committed to empowering businesses to safely secure their customers’ identities while complying with existing and future regulations and delivering a unified digital experience
 
 [![modern-ciam](modern-ciam.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
