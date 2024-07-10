@@ -23,7 +23,7 @@ To celebrate our move and christen our new space and tiki bar, we hosted a tiki 
 
 ![](IMG_1257a-1-1024x658.jpg)
 
-_LoginRadius co-founders, Rakesh Soni, CEO, and Deepak Gupta, CTO, enjoying our new custom-made tiki bar._ 
+_LoginRadius founder & CEO, Rakesh Soni, enjoying our new custom-made tiki bar._ 
 
 Our “Tiki Tech” party was a great way to bring our team together and mingle with the Vancouver Startup community. Want to know how to throw a tiki party? Here’s an easy guide…
 
