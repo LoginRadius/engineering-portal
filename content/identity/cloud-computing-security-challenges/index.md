@@ -75,7 +75,7 @@ In addition, we hold a Security Trust Assurance and Risk (STAR) certification is
 
 ## Why is certification important?
 
-Recently, on the [CSA Security Update podcast,](https://podcasts.apple.com/us/podcast/csa-star-case-study-guest-deepak-gupta-co-founder-cto/id1463409667?i=1000452799351) LoginRadius CTO and co-founder Deepak Gupta was asked why STAR certification is so important. Deepak replied: 
+Recently, on the [CSA Security Update podcast,](https://podcasts.apple.com/us/podcast/csa-star-case-study-guest-deepak-gupta-co-founder-cto/id1463409667?i=1000452799351) LoginRadius why STAR certification is so important. replied: 
 
 "CSA STAR frameworks contain the best practices for any software service platform vendor. It combines all of the various compliances an organization needs (with a specific focus on) cloud providers."
 
