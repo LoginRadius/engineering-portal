@@ -3,7 +3,7 @@ title: "LoginRadius Recognized as the Top Customer IAM Platform of 2024 by CIORe
 date: "2024-03-18"
 coverImage: "cio-review-cover.jpg"
 tags: ["ciam platform","coverage","cio review"]
-pinned: true
+pinned: false
 author: "Rakesh Soni"
 description: "CIOReview, a leading US magazine, recently recognized LoginRadius as the top customer IAM platform of 2024 in its latest publication. Discover how LoginRadius secured its position as the premier customer IAM, offering unparalleled scalability, performance, and security to ensure a seamless and reliable user experience."
 meta-title: "CIOReview Recognizes LoginRadius As 2024’s Top CIAM Platform"
@@ -21,7 +21,7 @@ Let’s have a look at some of the highlights of the CEO's interview with the le
 
 As the online marketplace experiences unprecedented growth, the challenge for brands to scale their CIAM without compromising performance has never been more critical. LoginRadius has risen to this challenge, empowering hundreds of brands to navigate these hurdles with ease.
 
-"Our CIAM platform can successfully support large-scale projects spanning one hundred million users across 50 countries while maintaining an efficiency of thousands of logins per second," explains Rakesh Soni, co-founder and CEO of LoginRadius.
+"Our CIAM platform can successfully support large-scale projects spanning one hundred million users across 50 countries while maintaining an efficiency of thousands of logins per second," explains Rakesh Soni, founder and CEO of LoginRadius.
 
 [![WP-resiliency](WP-resiliency.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
