@@ -1,11 +1,11 @@
 ---
 title: "Corporate Account Takeover Attacks: Detecting and Preventing it"
 date: "2020-04-16"
-coverImage: "corporate-account.jpg"
+coverImage: "corporate-accnt-takeover.jpg"
 tags: ["data security","ciam solution","compliance"]
-author: "Deepak Gupta"
+author: "Kundan Singh"
 description: "How do you defend your company against a Corporate Account Takeover (CATO) fraud with the COVID-19 pandemic causing workers to stay indoors?"
-metatitle: "Corporate Account Takeover: Detecting & Preventing it | LoginRadius"
+metatitle: "Corporate Account Takeover: Detecting & Preventing it"
 metadescription: "Protect your business from Corporate Account Takeover fraud. Implement enterprise-specific security measures to prevent unauthorized access to corporate data."
 ---
 
@@ -38,15 +38,18 @@ According to the 2020 Global Identity and Fraud Report by Experian, 57% of enter
 ## Types of organization mainly targeted by account takeover (ATO) attacks
 
 - **Media and Entertainment Industry**: Lately, there is a thriving parasitic ecosystem on the verge of overpowering the [music and video streaming](https://www.infosecurity-magazine.com/blogs/rise-account-takeover-media-1-1-1-1/) industry. Criminals work on a pretty straightforward model here by stealing login credentials from premium customers and selling them at a lower price for illegal access.
+
 - **Financial Industry**: Account takeover attacks also [threaten bank security](https://securityboulevard.com/2019/12/digital-banks-targeted-in-account-takeover-scams/), insurance companies, and other financial institutions. Fraudsters steal victim's credentials or use phishing techniques to trick banks and gain complete control of millions of accounts.
+
 - **Hospitality Industry**: The [hospitality industry](https://www.loginradius.com/blog/2020/03/improve-customer-experience-hospitality-industry/) is a popular and easy target for fraudsters to deploy account takeover strategies. Hackers often seal reward balances and exploit them, resulting in the loss of loyal customers and damage to the brand's reputation.
+
 - **Sports Industry**: The [sports industry](https://www.loginradius.com/blog/2018/11/improving-customer-fan-experience-sports-entertainment-industry/) is a lucrative business. With sensitive information, athlete negotiation figures, medical records, strategy documents, and intellectual property, fraudsters are on the lookout for loopholes to steal those assets.
+
 - **Retail Industry**: Account takeover is a complex challenge for the [retail industry](https://www.loginradius.com/blog/2018/11/improving-customer-experience-in-the-retail-e-commerce-industry/) too. Fraudsters make money from such attacks in a number of ways. Examples include ordering goods with the hacked account, purchasing gift cards, redeeming rewards points, and worst, selling compromised accounts on the dark web.
+
 - **Gaming Industry**: The [gaming platform](https://www.loginradius.com/blog/2020/01/improving-customer-experience-in-the-gaming-industry/) has always been on the account takeover radar. Cybercriminals steal in-game payment information and make illegal purchases. They use [stolen account information](https://www.pymnts.com/fraud-prevention/2019/deep-dive-video-game-fraud/) to pull off phishing scams by luring other players into opening links with free character or in-game currency.
 
 ## Business Impact of Corporate Account Takeover
-
-![impact of corporate account takeover on businesses](corporate-account-takeover-2.jpg)
 
 Corporate account takeover is a big deal. It is one of the most damaging cyber threats that businesses and customers face today.
 
@@ -57,7 +60,9 @@ For instance, if the violation is booked under the EU’s GDPR, a fine as much a
 **Some recent account takeover attacks:**
 
 1. [J.Crew data breach](https://www.scmagazine.com/home/security-news/j-crew-says-year-old-breach-exposed-customer-account-info/): In March 2020, J.Crew informed its customers that an unauthorized third-party accessed their accounts nearly a year ago.
+
 2. [New Marriott data breach](https://www.loginradius.com/blog/2020/04/marriott-data-breach-2020/): In March 2020, Marriott International announced another data breach that approximately affected 5.2 million guests.
+
 3. [Decathlon left data breach](https://www.computerweekly.com/news/252479101/Sports-retailer-Decathlon-left-employee-data-exposed): In February 2020, sports retailer Decathlon accidentally exposed more than 123 million employee data on an unsecured ElasticSearch server.
 
 ## 7 Common Attacks That Lead To Corporate Account Takeover
@@ -92,8 +97,6 @@ Fraudsters conduct this type of corporate account takeover to target large busin
 - More and more cases of hijacked accounts.
 
 ### 3\. Credential Stuffing
-
-![credential stuffing and account take over](corporate-account-takeover-3.jpg)
 
 If your employees have been using the same password for multiple accounts, consider it a treat for cybercriminals. [Credential stuffing happens](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/) when the attacker uses bot attacks to verify login credentials instead of manually testing credentials one-by-one.
 
@@ -154,8 +157,6 @@ A successful session hijacking results in giving the attacker access to multiple
 - Unusual frequency in the Received Signal Strength (RSS).
 
 ## Best Business Practices to Prevent Corporate Account Takeover
-
-![best practices to prevent corporate account takeover](corporate-account-takeover-4.jpg)
 
 Start with building a strong relationship with your employees. Make them understand what security measures they need to implement to safeguard their accounts and prevent unauthorized access to corporate data.
 
@@ -221,4 +222,4 @@ Corporate account takeover can translate into millions of dollars in losses, dam
 
 Stay informed about evolving threats, understand the warning signs, and practice responses to suspected takeovers.
 
-[![](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
