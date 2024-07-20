@@ -71,3 +71,5 @@ The COVID pandemic has accelerated the digital transformation by 6 years. With i
 When all these pieces are tied together, I am filled with excitement about LoginRadius' potential for incredible growth in the coming years. We have set ambitious goals to double the company in the next two years while remaining profitable, and we are already looking ahead to doubling again within the following 18 months. It's an exhilarating time for us!
 
 Have a great week!
+
+[![cta](cta.png)](https://www.loginradius.com/careers/)
