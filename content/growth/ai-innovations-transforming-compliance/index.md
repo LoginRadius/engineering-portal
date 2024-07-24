@@ -42,7 +42,7 @@ Compliance often involves handling vast amounts of documentation. AI-powered doc
 
 * Adopt AI-driven document processing solutions to streamline the handling of compliance-related documents and improve data accuracy.
 
-## 4. Behavioral Analytics for Fraud Detection
+### 4. Behavioral Analytics for Fraud Detection
 
 AI can analyze patterns and behaviors to detect anomalies indicative of fraudulent activities. By implementing AI-based behavioral analytics, companies can enhance their [fraud detection](https://www.loginradius.com/account-data-security/) capabilities, ensuring compliance with anti-fraud regulations and protecting their financial integrity.
 
