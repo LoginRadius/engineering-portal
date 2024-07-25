@@ -1,7 +1,7 @@
 ---
 title: "What is Passwordless Login?"
 date: "2021-03-26"
-coverImage: "passwordless-login.jpg"
+coverImage: "what-is-passwordless-login.jpg"
 tags: ["passwordless login","authentication","compliance","cx"]
 author: "Keshav Kumar"
 description: "Can you exactly recall which accounts what passwords belong to? How frequently do you reuse the same password because you can't have a unique, strong, and easily-remembered password for each of your accounts? Passwordless Login takes the frustration out of the equation to create a better consumer experience."
@@ -14,7 +14,7 @@ Passwordless login verifies consumer identities without using passwords or any o
 
 The consumer is confirmed with the help of a possession factor, which can be an object that uniquely identifies the user with an email (link) or SMS (OTP) sent to the registered email address or phone number, respectively. 
 
-Once the link or OTP is verified, the consumer will be logged into the account. 
+Once the link or OTP is verified, the consumer will be logged into the account. Let’s uncover the aspects of passwordless access and how it paves the way for overall business success. 
 
 ## Why Should You Use Passwordless Login?
 
@@ -25,6 +25,8 @@ Can you exactly recall which accounts what passwords belong to? How frequently d
 Passwordless Login takes the frustration out of the equation to create a [better consumer experience](https://www.loginradius.com/blog/growth/consumer-experience-and-privacy/).
 
 ## How Does Passwordless Login Work?
+
+We’ve learned why you should embrace passwordless login. Now, let’s learn how does passwordless login work. 
 
 Passwordless login is an innovative authentication method that enhances security and user experience by eliminating the need for traditional passwords. 
 
@@ -42,17 +44,17 @@ The user's identity is then verified through one of the alternative factors they
 
 ### Step 3: Authentication
 
-Once the user's identity is confirmed, they are granted access to their account or the requested service without having to input a traditional password.
+Once the user's identity is confirmed, they are granted access to their account or the requested service or a login without password.
 
 By eliminating passwords, passwordless login minimizes the risk of security breaches due to weak or reused passwords. Moreover, it simplifies the login process for users, reducing the chances of forgotten passwords and streamlining the overall user experience.
 
 ## Real-Time Examples of Passwordless Login
 
-Several companies and online platforms have embraced passwordless login to enhance security and provide a seamless user experience. Here are some real-time examples of how passwordless login is being implemented:
+Several companies and online platforms have embraced passwordless login to enhance security and provide a seamless user experience since users love login without password. Here are some real-time examples of how passwordless login is being implemented:
 
 ### Example 1: Microsoft
 
-Microsoft has integrated passwordless login options into its products and services, such as Windows Hello, which allows users to log in using facial recognition or fingerprint scans. Additionally, Microsoft's Azure Active Directory supports passwordless authentication for enterprise accounts, where users can receive an OTP or use a FIDO2 security key to access resources securely.
+Microsoft has integrated passwordless login options into its products and services, such as Windows Hello, which allows users to log in using facial recognition or fingerprint scans. Additionally, Microsoft's Azure Active Directory supports passwordless access for enterprise accounts, where users can receive an OTP or use a FIDO2 security key to access resources securely.
 
 ### Example 2: Google
 
@@ -60,9 +62,10 @@ Google has introduced [passwordless login options](https://www.loginradius.com/p
 
 ## How is Passwordless Login Useful for Business?
 
-
 - It improves consumer experience, particularly mobile applications because users only need an email address or mobile phone number to sign up.
+
 - It enhances security. Passwords are a significant vulnerability as consumers reuse passwords and share them with others. Passwords are the most significant attack vector and are responsible for a substantial percentage of breaches and attacks such as corporate account takeover, [credentials stuffing](https://www.loginradius.com/blog/identity/2019/09/prevent-credential-stuffing-attacks/), and brute force attacks.
+
 - It reduces the total cost of ownership, as managing passwords is expensive (implementing password complexity policies, password expiration, password reset processes, password hashing and storing, breached password detection).  
 
 ## How to Implement Passwordless Login?

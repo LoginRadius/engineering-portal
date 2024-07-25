@@ -1,8 +1,8 @@
 ---
 title: "What is Single Sign-On (SSO) and How it Works?"
 date: "2019-05-30"
-coverImage: "What-is-single-sign-on-feature-image.jpg"
-tags: ["authentication","identity management","sso"]
+coverImage: "what-is-sso.jpg"
+tags: ["sso","identity management","cx"]
 author: "Rakesh Soni" 
 description: "SSO is an essential feature of an Identity and Access Management (IAM) access control platform. User identity authentication is important when it comes to understanding which permissions a user will have. One example of controlling access that integrates user identity management solutions with SSO solutions is the LoginRadius Identity platform."
 metatitle: "What Is Single Sign-On (SSO), SSO Authentication and How Does it Work?"
@@ -18,19 +18,19 @@ This is where the Single Sign On technology comes into focus and works like a ch
 
 Unfortunately, this is what happens when you shop online. Each website makes you create a new and unique identity specific to that website. On top of that, you have to login and authenticate each time.
 
-While some web properties do offer the option to [sign in using social identity](https://www.loginradius.com/social-login/), the majority of customers still have to log in to each web property. This often happens even when the websites are part of the same parent organization. 
+While some web properties do offer the option to [sign in using social identity](https://www.loginradius.com/social-login/), the majority of customers still have to log in to each web property. This often happens even when the websites are part of the same parent organization. Let’s understand what is SSO and how SSO works. 
 
 ## What is Single Sign-On?
 
 Single Sign-On (SSO)  is a method of authentication that allows websites to use other trustworthy sites to verify users. Single sign-on allows a user to log in to any independent application with a single ID and password.
 
-SSO is an essential feature of an Identity and Access Management (IAM) platform for controlling access. Verification of user identity is important when it comes to knowing which permissions a user will have. The LoginRadius Identity platform is one example of managing access that combines user identity management solutions with SSO solutions.
+SSO is an essential feature of an Identity and Access Management (IAM) platform for controlling access. Verification of user identity is important when it comes to knowing which permissions a user will have. Talking about the sso examples, the LoginRadius Identity platform is one example of managing access that combines user identity management solutions with SSO solutions.
 
 ## How Does Single Sign-On Works? 
 
 Single sign-on (SSO) is a system that allows users to access multiple applications and services with just one set of login credentials. 
 
-SSO works by authenticating a user's identity once and then granting access to all of the applications and services that the user is authorized to access. When a user attempts to access a resource from a service provider, the SSO system sends a request to the user's identity provider to authenticate the user's identity. 
+Now, the question is-how SSO works? SSO works by authenticating a user's identity once and then granting access to all of the applications and services that the user is authorized to access. When a user attempts to access a resource from a service provider, the SSO system sends a request to the user's identity provider to authenticate the user's identity. 
 
 Once the user is authenticated, the identity provider sends the necessary credentials to the service provider, allowing the user to access the requested resource. This process eliminates the need for users to remember and manage multiple usernames and passwords, streamlining the login process and improving the user experience.
 
@@ -85,7 +85,7 @@ Incorporating SSO into an Access Management Strategy strengthens overall securit
 
 ## What are the Benefits of Single Sign-On?
 
-Single Sign-On clearly minimizes the risk of poor password habits. Also, removing login credentials from servers or network storage can help a great deal in [preventing a cyber attack](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/). 
+Till now, we’ve learned how SSO works, now let’s understand its benefits. Single Sign-On clearly minimizes the risk of poor password habits. Also, removing login credentials from servers or network storage can help a great deal in [preventing a cyber attack](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/). 
 
 ### Benefits for Customers
 
@@ -126,7 +126,9 @@ Due to fewer help desk calls about passwords, IT can spend less time helping use
 Single sign-on (SSO) is not a one-size-fits-all solution, and there are several different types of SSO that organizations can choose from. The most common types of SSO include:
 
 * **Web SSO:** This type of SSO allows users to access multiple web-based applications and services with a single set of credentials. When a user logs in to one of the web-based applications, they are automatically logged in to all of the other applications that they are authorized to access.
+
 * **Enterprise SSO:** Enterprise SSO is designed for organizations that use a mix of web-based and non-web-based applications. This type of SSO typically involves the use of a desktop client or browser extension that manages the user's credentials and automates the login process.
+
 * **Mobile SSO:** Mobile SSO allows users to access mobile applications with a single set of credentials. This type of SSO is becoming increasingly popular as more organizations adopt mobile-first strategies.
 
 ## How is Single Sign-On Implemented?
@@ -136,7 +138,6 @@ Implementing single sign-on (SSO) requires careful planning and coordination bet
 Once the identity provider has been selected, the service providers must be configured to accept SSO requests from the identity provider. This typically involves configuring the service providers to trust the identity provider and to use the appropriate SSO protocol. 
 
 The identity provider must also be configured to authenticate users and provide the necessary credentials to the service providers. Finally, the SSO system must be tested to ensure that it is working properly and that users are able to access the resources that they are [authorized to access](https://www.loginradius.com/blog/identity/loginradius-m2m-authorization-data-access/).
-
 
 ## How to Choose a Secure SSO Solution?
 
@@ -176,7 +177,7 @@ Find out if it allows you to blacklist or whitelist IPs, set responses to counte
 
 ## How LoginRadius Single Sign-On Authentication Works?
 
-Since now you know what is single sign on, let’s understand how LoginRadius SSO is superior. Single sign on (SSO) can be implemented in several ways, but typically follows a standard or protocol, as well as several technologies which can enforce the standards/protocols listed below.
+Since now you know what is an sso login, let’s understand how LoginRadius SSO is superior. Single sign on (SSO) can be implemented in several ways, but typically follows a standard or protocol, as well as several technologies which can enforce the standards/protocols listed below.
 
 ### 1. Web SSO
 
@@ -248,7 +249,7 @@ If you think a [readymade SSO solution](https://www.loginradius.com/single-sign-
 
 **1. What is an example of SSO?**
 
-The best example of SSO login is Google’s implementation of SSO in its products. For instance, if you’re logged in to Gmail, you automatically gain access to all other products of Google like YouTube, Google Drive, Google Photos, etc.
+When we talk about the examples of sso, the best is Google’s implementation of SSO in its products. For instance, if you’re logged in to Gmail, you automatically gain access to all other products of Google like YouTube, Google Drive, Google Photos, etc.
 
 **2. What is the difference between single sign-on (SSO) and social login?**
 
@@ -264,7 +265,7 @@ The main difference between Identity [Federation and SSO](https://www.loginradiu
 
 **5. How can I get SSO for my OTT platform?**
 
-SSO integration can be done through a cloud-based CIAM solution like LoginRadius. The cutting-edge CIAM helps OTT platforms to deliver a seamless user experience across multiple touchpoints. [Read more.](https://www.loginradius.com/blog/identity/how-ciam-helps-ott-platforms-scale-million-viewers/)
+What is sso integration and how can i get it for my OTT platform? SSO integration can be done through a cloud-based CIAM solution like LoginRadius. The cutting-edge CIAM helps OTT platforms to deliver a seamless user experience across multiple touchpoints. [Read more.](https://www.loginradius.com/blog/identity/how-ciam-helps-ott-platforms-scale-million-viewers/)
 
 **6. What is the Single Sign-On (SSO) protocol?**
 

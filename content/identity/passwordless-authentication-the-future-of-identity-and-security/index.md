@@ -13,7 +13,7 @@ When it comes to online security, the battle cry among experts lately is: “The
 
 Simple. Passwords are just too easy to guess, hack, or intercept. What’s more, the legacy of password reuse is leading to constant [attack and account vulnerabilities](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/).
 
-However, modern-day passwordless authentication goes beyond the use of password and username credentials. 
+However, modern-day passwordless authentication security goes beyond the use of password and username credentials. 
 
 So, whether your organization wants to replace passwords or is determined to keep using them, you must first [understand password weaknesses](https://www.loginradius.com/blog/2019/12/worst-passwords-list-2019/). Here are a few:
 
@@ -30,7 +30,7 @@ A [passwordless authentication](https://www.loginradius.com/passwordless-login/)
 
 ## Why Do We Need Passwordless Authentication?
 
-Passwordless login [eliminates the need to generate passwords](https://www.loginradius.com/passwordless-login/) altogether. There’s a lot of good in this new-age process for both users and organizations alike.
+Most people have questions regarding the reliability of passwordless authentication and they always question themselves- is passwordless more secure? Well, passwordless login [eliminates the need to generate passwords](https://www.loginradius.com/passwordless-login/) altogether. There’s a lot of good in this new-age process for both users and organizations alike.
 
 For users, since one need not type passwords anymore, it leads to a better screen time experience. While for organizations, it will [lead to fewer breaches](https://www.loginradius.com/blog/2020/05/cyber-threats-business-risk-covid-19/) and support costs.
 
@@ -38,29 +38,35 @@ The good news is that the list doesn’t stop here. Let’s learn more. 
 
 ## Comparative Analysis: Passwordless vs Traditional Authentication
 
+Let’s quickly compare passwordless and traditional authentication and learn how secure is passwordless authentication: 
+
 ### 1. Security
 
 * **Passwordless Authentication**: Offers enhanced security by eliminating the risks associated with passwords, such as phishing, brute force attacks, and password reuse.
+
 * **Traditional Authentication**: Relies solely on passwords, which are susceptible to various cyber threats, making accounts vulnerable to unauthorized access.
 
 ### 2. User Experience
 
 * **Passwordless Authentication**: Provides a seamless and user-friendly experience, as users do not need to remember complex passwords.
+
 * **Traditional Authentication**: Often results in password fatigue and the need to remember multiple passwords, leading to user frustration.
 
 ### 3. Cost-Effectiveness
 
 * **Passwordless Authentication**: Can reduce costs associated with password management, such as password resets and support requests.
+
 * **Traditional Authentication**: May incur higher costs due to the need for password management systems and support for password-related issues.
 
 ### 4. Vulnerabilities
 
 * **Passwordless Authentication**: Reduces vulnerabilities such as password spraying, brute force attacks, spear phishing, and password sharing.
+
 * **Traditional Authentication**: Prone to common vulnerabilities like weak passwords, password dictionaries, and password patterns.
 
 ### Passwordless Login for Businesses
 
-The use of passwordless authentication in businesses is multifold. For example, you can go passwordless for internal security, online consumers, or even combine the two of them. 
+The use of passwordless authentication security in businesses is multifold. For example, you can go passwordless for internal security, online consumers, or even combine the two of them. 
 
 A few use cases of passwordless authentication include:
 
@@ -77,6 +83,8 @@ Speaking of non-profit organizations, passwordless authentication can do wonders
 Also, when a person donates to an NGO, they can have their payment information like name, card details, expiry dates etc. saved using passwordless options like email authentication. So the next time they plan to donate, they won't need to fill in the basic information. 
 
 ## Benefits of Passwordless Authentication
+
+We’ve learned how is passwordless more secure. Now let’s explore its benefits: 
 
 - **Improved user experience**: Be it fingerprint scanning, social media sign-in, [PIN authentication](https://www.loginradius.com/blog/2020/04/loginradius-pin-based-authentication/), or email verification, you no longer need to memorize any credentials whatsoever.   
       
@@ -101,9 +109,13 @@ Also, when a person donates to an NGO, they can have their payment information l
 With passwords out of the picture, the following are a few attacks that businesses can dodge by implementing passwordless authentication into their systems.
 
 1. **Password spraying**: It is a method of cyber-attack that attempts to log in to a large number of accounts with commonly used password credentials.
+
 2. **Brute Force Attack**: Hackers use the trial-and-error method to guess the login credentials or encryption keys. They try all the possible combinations until the account is hacked.
+
 3. **Spear phishing**: It is an email spoofing attack that scams organizations and individuals to give away sensitive credentials for financial, military, or trade gains.
+
 4. **Social Engineering**: Hackers use psychological manipulation and scam users into giving away sensitive information or granting access to critical resources.
+
 5. **Shoulder Surfing**: It is a type of data theft where the intruder steals login credentials by peeking over the target's shoulder.
 
 [![Passwordless Login Datasheet](DS-Product-Passwordless-Login-1024x310.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
@@ -112,8 +124,11 @@ With passwords out of the picture, the following are a few attacks that business
 
 A common issue with using passwords for authentication lies in the fact that customers want the quickest way to log in to their accounts. After all, the longer it takes for a consumer to sign-up, or make a purchase, they will more likely tend to bounce. Other reasons why passwords bounce include:
 
-- **Password complexity is weak**: Passwords may meet the standard complexity, but they may be still weak because of password dictionaries.
+- **Password complexity is weak**: Passwords may meet the standard complexity, but they may be still weak because of 
+password dictionaries.
+
 - **Password follow patterns**: Because the majority of passwords follow a certain pattern, it is easier for hackers to commit data theft. 
+
 - **Passwords aren’t unique**: People reuse passwords and newly leaked dictionaries contain previously leaked passwords.
 
 Due to [bad password practices](https://www.loginradius.com/blog/2018/12/infographic-the-death-of-passwords/), chances are consumers may be putting their accounts at risk. This is one of the strongest reasons why passwordless authentication is preferred by consumers and enterprises as their preferred method of authentication.

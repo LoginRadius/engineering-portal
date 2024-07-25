@@ -1,19 +1,19 @@
 ---
 title: "What is Federated Identity Management"
 date: "2021-02-04"
-coverImage: "federated-identity-image.jpg"
+coverImage: "what-is-fim.jpg"
 tags: ["federated identity management","identity provider","cx"]
 author: "Rakesh Soni"
-description: " Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. Though guessable passwords make them easy to remember, it exposes consumers to hackers. Fortunately, federated identity management ensures both seamless and secure access that goes a long way in enhancing the overall user-experience"
+description: " Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. Though guessable passwords make them easy to remember, it exposes consumers to hackers. Fortunately, federated ID management ensures both seamless and secure access that goes a long way in enhancing the overall user-experience."
 metatitle: "Unlocking Federated Identity Management Solutions"
 metadescription: "Discover the power of federated identity management systems. Learn how businesses benefit and why you should implement federated access management."
 ---
 
-# What is Federated Identity Management
+## What is Federated Identity Management
 
-_Federated identity management was designed as a set of protocols and standards to help businesses share consumer identities._
+_Federated identity management or federation identity management was designed as a set of protocols and standards to help businesses share consumer identities._
 
-Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. While pros use password managers to create and manage passwords, the not-so-tech-savvy or, for that matter, average users adopt guessable passwords like 1234 to save themselves from the hassle of remembering complex codes. 
+Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. Though guessable passwords make them easy to remember, it exposes consumers to hackers. Fortunately, federated ID management ensures both seamless and secure access that goes a long way in enhancing the overall user-experience
 
 Though guessable passwords make password management hassle-free, it exposes users to hackers. No wonder a large chunk of consumers often falls prey to sensational data theft. 
 
@@ -23,7 +23,7 @@ Fortunately, _Federated Identity Management_ (FIM) has got the right answer to i
 
 Federated identity management is an arrangement that can be brought into effect between two or more trusted domains to enable users to access applications and services using the same [digital identity](https://www.loginradius.com/blog/identity/2019/10/digital-identity-management/). FIM ensures both seamless and secure access that goes a long way in enhancing the overall user-experience. 
 
-To have a fair perspective, we will have to take an in-depth look at the whole scenario. 
+To have a fair perspective, we will have to take an in-depth look at the whole scenario and learn what is a federated identity.
 
 Every time an enterprise introduces a new application, consumers are forced to create a password for sign-in. Already burdened by a ton of passwords, most consumers either opt for a simple code or use the same cliched ones they have been using for a while. This results in a massive pile-up of passwords that they have to remember. 
 
@@ -33,7 +33,7 @@ While it is easier to blame end-users for being unable to manage passwords, ente
 
 What's the point of spending millions on driving traffic if the end-users' access to your offered product is fraught with risk? 
 
-Well, this is where federated identity management comes into the reckoning. 
+Well, this is where federated id management comes into the reckoning.
 
 ## What is an Identity Provider
 
@@ -43,7 +43,7 @@ Whenever a consumer tries to sign in to the application, an IdP authenticates th
 
 ## How Does FIM Work
 
-Let's understand how federated identity management work with an example. Let's assume your business needs to collaborate with a third-party. In the absence of a federated identity, you will need to set up an account on their website with a username and password to access their domain. 
+Let's understand how federated id management work with an example. Let's assume your business needs to collaborate with a third-party. In the absence of a federated identity, you will need to set up an account on their website with a username and password to access their domain. 
 
 So, when the consumer leaves, you will have to ask them to cancel the account and remove access. 
 
