@@ -14,13 +14,13 @@ Passwords have become the bane of our online existence. From the constant strugg
 
 This shift marks the dawn of a new era in authentication – one that is defined by the promise of passwordless technologies. 
 
-## #1. Why Users are Dumping Passwords?
+## 1. Why Users are Dumping Passwords?
 
 The demise of passwords is not without reason. Users are fed up with the limitations and vulnerabilities inherent in traditional password-based authentication systems. The prevalence of [password reuse](https://www.loginradius.com/blog/identity/password-history-expiration-complexity/) across multiple accounts poses a significant security risk, leaving users vulnerable to credential-stuffing attacks. 
 
 Moreover, the complexity requirements imposed by many platforms often result in users resorting to easily guessable or written-down passwords, further compromising security. As data breaches continue to make headlines, the need for a more secure and user-friendly authentication solution has never been more pressing.
 
-## #2. Leveraging the True Potential of Passwordless in 2024 & Beyond
+## 2. Leveraging the True Potential of Passwordless in 2024 & Beyond
 
 Enter [passwordless authentication](https://www.loginradius.com/passwordless-login/) – a paradigm shift that promises to revolutionize the way we verify our identities online. By eliminating the need for passwords altogether, passwordless authentication offers a seamless and secure user experience. 
 
@@ -28,7 +28,7 @@ Whether through biometric authentication, hardware tokens, or cryptographic keys
 
 As we look to the future, the widespread adoption of passwordless authentication is poised to redefine the authentication landscape, offering both improved security and enhanced user convenience.
 
-## #3. Passwordless Authentication and Regulatory Compliance
+## 3. Passwordless Authentication and Regulatory Compliance
 
 In an increasingly regulated environment, the adoption of passwordless authentication can also play a crucial role in ensuring compliance with stringent data protection regulations such as GDPR and CCPA. 
 
@@ -36,7 +36,7 @@ Passwordless authentication helps organizations safeguard sensitive user informa
 
 With data privacy becoming an increasingly pressing concern for both consumers and regulators alike, the adoption of passwordless authentication offers a proactive approach to addressing these challenges.
 
-## #4. LoginRadius' Revolutionary Passwordless User Registration and Authentication
+## 4. LoginRadius' Revolutionary Passwordless User Registration and Authentication
 
 At the forefront of this passwordless revolution is LoginRadius – a leading provider of identity and access management solutions. With its innovative passwordless user registration and authentication capabilities, LoginRadius empowers organizations to deliver a secure and frictionless authentication experience to their users. 
 
@@ -48,7 +48,7 @@ With streamlined registration, users can swiftly access their accounts without t
 
 By leveraging advanced authentication methods such as biometrics, magic links, and QR codes, LoginRadius enables organizations to eliminate the reliance on passwords while enhancing security and user convenience.
 
-## #5. Why Choose LoginRadius Passwordless Authentication?
+## 5. Why Choose LoginRadius Passwordless Authentication?
 
 With a proven track record of delivering best-in-class identity and access management solutions, LoginRadius is the preferred choice for organizations embracing passwordless authentication. 
 

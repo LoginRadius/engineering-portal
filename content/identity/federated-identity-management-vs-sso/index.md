@@ -1,14 +1,13 @@
 ---
 title: "Federated Identity Management vs. SSO: What's The Difference?"
 date: "2021-11-22"
-coverImage: "fim-vs-sso.jpg"
+coverImage: "sso-vs-fim.jpg"
 tags: ["federated identity management","sso","data security"]
 author: "Kundan Singh"
 description: "Enterprises need to use methods to maximize the use of digital identities for multiple users. Although SSO and FIM are used together, they do not mean the same thing. The main difference between Identity Federation and SSO lies in the range of access."
 metatitle: "Decoding SSO vs. Federation: Optimize Your Identity Management"
 metadescription: "Unlock the distinctions between Federated Identity Management (FIM) and Single Sign-On (SSO). Maximize efficiency and security for your organization. Explore now!"
 ---
-
 ## Introduction
 
 For organizations today, maintaining an array of productive networking tools is all about easy access. Enterprises often introduce new applications that support their production and help them implement their business strategies successfully. However, every time an application or tool gets implemented, the end-users are forced to create new credentials for access.
@@ -17,7 +16,7 @@ As a result, employees and customers end up with too many passwords to remember.
 
 Enterprises need to use methods to maximize the use of digital identities for multiple users. And tools like [single sign-on (SSO)](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) and federated identity management (FIM) seem to be the go-to methods for most organizations. However, most companies do not understand the differences between these two methods. And the implications they may have on the overall company security.
 
-What is SSO, how is it different from FIM, and what are the benefits of both methods? Let's find out.
+What is SSO, how is it different from FIM, and what are the benefits of both methods? Let's find out all the aspects associated with federated identity management vs SSO. 
 
 ## What is Single Sign-On?
 
@@ -32,7 +31,6 @@ In enterprises, it lets employees access various business applications like HR f
 ## How Single Sign-On Works?
 
 SSO is a [token-based system](https://www.loginradius.com/blog/identity/pros-cons-token-authentication/), which means users are assigned a token for identification instead of a password. Let's say you go to an application you want to use; you will receive a security token that contains all your information (like your email address, username, etc.). Then, an Identity Provider compares this token to the credentials you provide during login and grants your authentication.
-
 
 ## Benefits of Single Sign-On
 
@@ -76,13 +74,13 @@ Managing the lifecycle of user identities, including provisioning, deprovisionin
 
 ## What is Federated Identity Management (FIM)?
 
-[Federated Identity Management](https://www.loginradius.com/blog/identity/what-is-federated-identity-management/) (Identity Federation) is a system that allows users from different enterprises (domains) to use the same digital identity to access all their applications and networks. 
+When we talk about federated identity vs SSO, it’s crucial to understand what each individual system is about. [Federated Identity Management](https://www.loginradius.com/blog/identity/what-is-federated-identity-management/) (Identity Federation) is a system that allows users from different enterprises (domains) to use the same digital identity to access all their applications and networks. 
 
 Through FIM, an enterprise maintains its unique management system. It is interlinked with other enterprises through a third service (the identity provider) that stores the credentials. The identity provider or identity broker also offers the trust mechanism required for FIM to work. 
 
 ## How Does Federated Identity Management Work?
 
-[Federated identity management](https://www.loginradius.com/federated-sso/) (FIM) is a system that enables the use of a single digital identity across multiple domains and organizations. The process begins when a user attempts to access a resource from a service provider. 
+While we explore sso vs federation, let’s quickly understand how federated identity management works. [Federated identity management](https://www.loginradius.com/federated-sso/) (FIM) is a system that enables the use of a single digital identity across multiple domains and organizations. The process begins when a user attempts to access a resource from a service provider. 
 
 The service provider then sends a request to the user's identity provider, which authenticates the user's identity and provides the service provider with the necessary credentials to grant access to the requested resource. 
 
@@ -124,14 +122,15 @@ Enforcing access control policies and authorization rules across federated domai
 
 ## Federated Identity Management vs. SSO
 
-Although SSO and FIM are used together, they do not mean the same thing. While single sign-on is an important component of FIM, it is not the same as FIM. The main difference between Identity Federation and SSO lies in the range of access. 
+While discussing sso vs federated identity, SSO and FIM are used together, they do not mean the same thing. While single sign-on is an important component of FIM, it is not the same as FIM. The main difference between Identity Federation and SSO or federated login vs SSO lies in the range of access.
 
 SSO allows users to use a single set of credentials to access multiple systems within a single organization (a single domain). On the other hand, FIM lets users access systems across federated organizations. They can access the applications, programs, and networks of all members within the federated group.
 
 If we follow the above bank example, customers can access various external banking services like loan applications or ordering checks seamlessly through a single login with FIM.
+
 ## In Conclusion
 
-Expanding digital identity management can boost an organization's work efficiency by reducing authentication time for all programs and applications. Using SSO or FIM have their benefits, along with the associated security and financial incentives. 
+Expanding digital identity management can boost an organization's work efficiency by reducing authentication time for all programs and applications. As we discuss federated authentication vs sso, Using SSO or FIM have their benefits, along with the associated security and financial incentives. 
 
 As you advance towards improving customer and employee support, these protocols can help you streamline password creation and [user authentication](https://www.loginradius.com/authentication/).
 

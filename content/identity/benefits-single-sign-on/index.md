@@ -8,6 +8,7 @@ description: "Now that more enterprises are moving to the cloud, customers expec
 metatitle: "Unlocking the Top 7 Advantages of Single Sign-On (SSO)"
 metadescription: "Discover the benefits of SSO and how it enhances productivity, security, and user experience. Implement SSO for streamlined authentication."
 ---
+
 ## Introduction
 
 When you respect your consumer's time, they will return the favor with even better involvement on your platform. The benefit of SSO for enterprises runs on a similar concept. 
@@ -57,7 +58,9 @@ By contrast, a single point of access will reduce wasted time and resources. Her
 With single sign-on, you can: 
 
 - **Reduce support calls**: Users with just one password to access all their apps won't require assistance as often.
+
 - **Improve user experience**: Since there’s no need to hop between multiple login URLs, or reset passwords, users save between 5 to 15 seconds per login. 
+
 - **Mitigate security risks**: Employees can use their SSO login credentials on any device, in any web browser, without risking security.
 
 As you can see, the ability to increase the productivity of end-users is one of the greatest benefits of single sign-on. 
