@@ -77,14 +77,14 @@ export default function CardList({ posts, currentPage, type }) {
                 <>
                   <div className={headStyles.image}>
                     <img
-                      src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-header.png"
-                      alt="KuppingerCole Ranks LoginRadius"
+                      src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
+                      key={"overall-ciam-leader-2024"}
                       style={{ "background-color": "#fff" }}
                     />
                   </div>
                   <div className={headStyles.text}>
                     <h3 style={{ textAlign: "center" }}>
-                      KuppingerCole Ranks LoginRadius
+                      Overall CIAM Leader 2024
                     </h3>
                     <a
                       className={`${headStyles.btnPrimary} btn-primary ga_event`}
@@ -97,9 +97,9 @@ export default function CardList({ posts, currentPage, type }) {
                       rel="noopener noreferrer"
                       onClick={() =>
                         eventLogger({
-                          category: "KuppingerCole Ranks LoginRadius",
+                          category: "Overall CIAM Leader 2024",
                           action: "User clicked on Free Download button",
-                          label: "KuppingerCole Ranks LoginRadius",
+                          label: "Overall CIAM Leader 2024",
                         })
                       }
                     >

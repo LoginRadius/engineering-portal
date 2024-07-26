@@ -165,14 +165,14 @@ const Post = ({ post, relatedPost, type }) => {
                   <>
                     <div className={headStyles.image}>
                       <img
-                        src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-header.png"
-                        alt="KuppingerCole Ranks LoginRadius"
+                        src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
+                        alt="Overall CIAM Leader 2024"
                         style={{ "background-color": "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
                       <h3 style={{ textAlign: "center" }}>
-                        KuppingerCole Ranks LoginRadius
+                        Overall CIAM Leader 2024
                       </h3>
                       <a
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
@@ -180,14 +180,14 @@ const Post = ({ post, relatedPost, type }) => {
                         href={
                           "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
                         }
-                        key={"kuppingercole-ranks-loginradius"}
+                        key={"overall-ciam-leader-2024"}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() =>
                           eventLogger({
-                            category: "KuppingerCole Ranks LoginRadius",
+                            category: "Overall CIAM Leader 2024",
                             action: "User clicked on Free Download button",
-                            label: "KuppingerCole Ranks LoginRadius",
+                            label: "Overall CIAM Leader 2024",
                           })
                         }
                       >
