@@ -160,28 +160,19 @@ const Post = ({ post, relatedPost, type }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              {type !== "growth" && (
-                <div
-                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
-                >
-                  {type === "all" && <TagMenu />}
-                  {type === "engineering" && <AsyncTagMenu />}
-                  {type === "identity" && <IdentityTagMenu />}
-                </div>
-              )}
-
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
                 {type !== "engineering" && (
                   <>
                     <div className={headStyles.image}>
                       <img
-                        src="https://www.loginradius.com/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
-                        alt="Top CIAM Platform 2024"
+                        src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-header.png"
+                        alt="KuppingerCole Ranks LoginRadius"
+                        style={{ "background-color": "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
                       <h3 style={{ textAlign: "center" }}>
-                        Top CIAM Platform 2024
+                        KuppingerCole Ranks LoginRadius
                       </h3>
                       <a
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
@@ -189,14 +180,14 @@ const Post = ({ post, relatedPost, type }) => {
                         href={
                           "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
                         }
-                        key={"top-ciam-platform-2024"}
+                        key={"kuppingercole-ranks-loginradius"}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() =>
                           eventLogger({
-                            category: "Top CIAM Platform 2024",
+                            category: "KuppingerCole Ranks LoginRadius",
                             action: "User clicked on Free Download button",
-                            label: "Top CIAM Platform 2024",
+                            label: "KuppingerCole Ranks LoginRadius",
                           })
                         }
                       >
@@ -230,6 +221,15 @@ const Post = ({ post, relatedPost, type }) => {
                   </>
                 )}
               </div>
+              {type !== "growth" && (
+                <div
+                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
+                >
+                  {type === "all" && <TagMenu />}
+                  {type === "engineering" && <AsyncTagMenu />}
+                  {type === "identity" && <IdentityTagMenu />}
+                </div>
+              )}
             </div>
           </div>
         </div>
