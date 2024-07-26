@@ -149,19 +149,8 @@ const Post = ({ post, relatedPost, type }) => {
               </div>
             </div>
             <div className={headStyles.sidebar}>
-              <div
-                className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
-              >
-                {type === "engineering" ? (
-                  <AsyncFeatList slug={post.fields.slug} />
-                ) : type === "growth" ? (
-                  <FuelFeatList slug={post.fields.slug} />
-                ) : (
-                  <IdentityFeatList slug={post.fields.slug} />
-                )}
-              </div>
               <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                {type !== "engineering" && (
+                {
                   <>
                     <div className={headStyles.image}>
                       <img
@@ -195,9 +184,26 @@ const Post = ({ post, relatedPost, type }) => {
                       </a>
                     </div>
                   </>
+                }
+              </div>
+
+              <div
+                className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
+              >
+                {type === "engineering" ? (
+                  <AsyncFeatList slug={post.fields.slug} />
+                ) : type === "growth" ? (
+                  <FuelFeatList slug={post.fields.slug} />
+                ) : (
+                  <IdentityFeatList slug={post.fields.slug} />
                 )}
-                {type == "engineering" && (
-                  <>
+              </div>
+
+              {type == "engineering" && (
+                <>
+                  <div
+                    className={`${headStyles.sidebarWidget} ${headStyles.cta}`}
+                  >
                     <div className={headStyles.text}>
                       <h3>LoginRadius Identity Platform Documentation</h3>
                       <a
@@ -218,9 +224,47 @@ const Post = ({ post, relatedPost, type }) => {
                         {"LoginRadius Docs"}
                       </a>
                     </div>
+                  </div>
+                </>
+              )}
+
+              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                {
+                  <>
+                    <div className={headStyles.image}>
+                      <img
+                        src="https://www.loginradius.com/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
+                        alt="Top CIAM Platform 2024"
+                      />
+                    </div>
+                    <div className={headStyles.text}>
+                      <h3 style={{ textAlign: "center" }}>
+                        Top CIAM Platform 2024
+                      </h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={
+                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                        }
+                        key={"top-ciam-platform-2024"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "Top CIAM Platform 2024",
+                            action: "User clicked on Free Download button",
+                            label: "Top CIAM Platform 2024",
+                          })
+                        }
+                      >
+                        {"LEARN MORE"}
+                      </a>
+                    </div>
                   </>
-                )}
+                }
               </div>
+
               {type !== "growth" && (
                 <div
                   className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
