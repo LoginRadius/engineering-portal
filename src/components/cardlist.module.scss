@@ -356,7 +356,6 @@
     &.cta {
       background-color: $blue-darkest;
       border-radius: $gutter/3 * 2;
-      box-shadow: 0px 0px $gutter/4 0px $blue-bright;
       & > .image {
         display: flex;
         padding: $gutter * 1.5;
