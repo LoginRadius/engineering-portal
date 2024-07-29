@@ -68,20 +68,18 @@ export default function CardList({ posts, currentPage, type }) {
               }
             </div>
 
-            {type === "engineering" && (
-              <a
-                className={`${styles.sidebarWidget} ${styles.link}`}
-                href="https://www.loginradius.com/open-source/"
-                target="_blank"
-              >
-                <div
-                  style={{
-                    backgroundImage: `url(${withPrefix("/open-source.png")})`,
-                  }}
-                />
-                <h3>LoginRadius Open Source</h3>
-              </a>
-            )}
+            <Link
+              to={"/guest-blog"}
+              target="_blank"
+              className={`${styles.sidebarWidget} ${styles.link}`}
+            >
+              <div
+                style={{
+                  backgroundImage: `url(${withPrefix("/write-for-us.png")})`,
+                }}
+              />
+              <h3>Write for us</h3>
+            </Link>
 
             <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
               {
@@ -120,18 +118,20 @@ export default function CardList({ posts, currentPage, type }) {
               }
             </div>
 
-            <Link
-              to={"/guest-blog"}
-              target="_blank"
-              className={`${styles.sidebarWidget} ${styles.link}`}
-            >
-              <div
-                style={{
-                  backgroundImage: `url(${withPrefix("/write-for-us.png")})`,
-                }}
-              />
-              <h3>Write for us</h3>
-            </Link>
+            {type === "engineering" && (
+              <a
+                className={`${styles.sidebarWidget} ${styles.link}`}
+                href="https://www.loginradius.com/open-source/"
+                target="_blank"
+              >
+                <div
+                  style={{
+                    backgroundImage: `url(${withPrefix("/open-source.png")})`,
+                  }}
+                />
+                <h3>LoginRadius Open Source</h3>
+              </a>
+            )}
 
             {type == "engineering" && (
               <>
