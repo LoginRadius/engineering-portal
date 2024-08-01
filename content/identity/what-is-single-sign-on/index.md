@@ -10,7 +10,7 @@ metadescription: "Single Sign-On (SSO) enables a user to sign in once to access 
 ---
 ## Introduction
 
-First, let’s understand what is single sign on. Introducing Single Sign On (SSO) to your customers can offer greater security and improved usability. That’s two of the many key [benefits of SSO.](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/)
+First, let’s understand what is SSO (Single Sign-On).  Introducing Single Sign On (SSO) to your customers can offer greater security and improved usability. That’s two of the many key [benefits of SSO.](https://www.loginradius.com/blog/identity/benefits-single-sign-on-sso/)
 
 Let’s face it. No one likes remembering credentials. They seem like exerting a lot of pressure on the memory. What's worse is many use the same username and password, irrespective of the application they are using.
 
@@ -26,11 +26,11 @@ Single Sign-On (SSO)  is a method of authentication that allows websites to use
 
 SSO is an essential feature of an Identity and Access Management (IAM) platform for controlling access. Verification of user identity is important when it comes to knowing which permissions a user will have. Talking about the sso examples, the LoginRadius Identity platform is one example of managing access that combines user identity management solutions with SSO solutions.
 
-## How Does Single Sign-On Works? 
+## **How Single Sign On Works?**
 
 Single sign-on (SSO) is a system that allows users to access multiple applications and services with just one set of login credentials. 
 
-Now, the question is-how SSO works? SSO works by authenticating a user's identity once and then granting access to all of the applications and services that the user is authorized to access. When a user attempts to access a resource from a service provider, the SSO system sends a request to the user's identity provider to authenticate the user's identity. 
+When we talk about how how SSO works- it does  by authenticating a user's identity once and then granting access to all of the applications and services that the user is authorized to access. When a user attempts to access a resource from a service provider, the SSO system sends a request to the user's identity provider to authenticate the user's identity. 
 
 Once the user is authenticated, the identity provider sends the necessary credentials to the service provider, allowing the user to access the requested resource. This process eliminates the need for users to remember and manage multiple usernames and passwords, streamlining the login process and improving the user experience.
 
@@ -249,7 +249,7 @@ If you think a [readymade SSO solution](https://www.loginradius.com/single-sign-
 
 **1. What is an example of SSO?**
 
-When we talk about the examples of sso, the best is Google’s implementation of SSO in its products. For instance, if you’re logged in to Gmail, you automatically gain access to all other products of Google like YouTube, Google Drive, Google Photos, etc.
+When we talk about what is an SSO login, the best example of SSO login is Google’s implementation of SSO in its products. For instance, if you’re logged in to Gmail, you automatically gain access to all other products of Google like YouTube, Google Drive, Google Photos, etc.
 
 **2. What is the difference between single sign-on (SSO) and social login?**
 
