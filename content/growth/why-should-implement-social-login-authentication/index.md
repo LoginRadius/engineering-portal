@@ -15,13 +15,13 @@ For an end-user, convenience is everything. For this reason, the development pro
 
 In a nutshell, [social login](https://www.loginradius.com/social-login/) contributes to a more efficient form of user management. The concept of social login authentication or social authentication involves creating a single sign-on for applications. This means that users can sign up for a range of applications or websites without having to repeatedly input their credentials.
 
-The login credentials usually come from a social media platform like Twitter, Facebook, and more, which the user can use to automatically input the credentials they require. Thus, the process of user authentication will be cut short significantly for users.
+The login credentials usually come from a social media platform like Twitter, Facebook, and more, which the user can use to automatically input the credentials they require. Thus, the process of user social login authentication will be cut short significantly for users. 
 
 ## How Does Social Login Work?
 
 Social logins is usually manifested using the following steps:
 
-1.  Social login is typically visible to a user when they click on an application and are gearing up to register to it as a new user or log in as a repeat user. The application will then place a series of CIAM (customer identity and access management) authentication options in front of the user. These options are essentially suggesting that the users can provide the required login credentials using the following social networking link.
+1.  Social login is typically visible to a user when they click on an application and are gearing up to register to it as a new user or log in as a repeat user. To sign in with social media, the application will then place a series of CIAM (customer identity and access management) authentication options in front of the user. These options are essentially suggesting that the users can provide the required login credentials using the following social networking link.
       
 2.  Upon choosing a link, the respective social media platform will notice a sign-in or log-in request.
     
@@ -41,7 +41,7 @@ Therefore, the social logins of popular social media platforms involve the follo
     
 -   When it comes to LinkedIn, the user will not be able to control permissions as in the above two cases. The user's professional information will be accessible to the website upon receiving approval from LinkedIn to collect user information.
     
--   The [Apple Sign-in](https://www.loginradius.com/sign-in-with-apple/) is a different story altogether as users will be granting access to their Apple IDs. To increase the authentication security, users will have to carry out two-factor authentication with each login.
+-   The [Apple Sign-in](https://www.loginradius.com/sign-in-with-apple/) is a different story altogether as users will be granting access to their Apple IDs. To increase the authentication security social login, users will have to carry out two-factor authentication with each login.
     
 Therefore, depending on what information a developer would like to access, they will have to choose a social network provider accordingly.
 
@@ -93,7 +93,7 @@ Users that are wary of what information is accessible to third parties can use s
   
 Among the many benefits that social logins offer users and developers, certain issues crop up. This includes problems like data breaches of social media platforms, improper password practices, and lack of privacy and compliance. However, the responsibility of mitigating these risks falls on developers of third-party websites and social media platforms.
 
-Despite the few reservations that users may have regarding the safety of social logins, this authentication solution is comparatively safe. To ensure that social logins have an extra layer of security, users can also back it up with [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/). This added layer will mean that bad actors are less likely to breach users' social media accounts and the websites they link to.
+Despite the few reservations that users may have regarding the safety of social logins, this authentication solution is comparatively safe. To ensure that social logins have an extra layer of social security authentication, users can also back it up with [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/). This added layer will mean that bad actors are less likely to breach users' social media accounts and the websites they link to.
 ## Reap the Benefits of Social Login with LoginRadius!
 
 * **Streamlined User Management**: Social login acts as an extra layer of verification, aiding in identity management and reducing spam.
