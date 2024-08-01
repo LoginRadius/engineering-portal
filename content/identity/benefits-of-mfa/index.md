@@ -64,7 +64,7 @@ While Two-Factor Authentication (2FA) offers an additional layer of security, MF
 
 ![loginradius-mfa](loginradius-mfa.png)
 
-There are numerous benefits of using multi factor authentication, which we’ll discuss here. MFA plays a vital role when it comes to **information security.** It protects the data against potential breaches, keeps an eye on employee accounts, and strays away hackers. Besides this, it protects users even if their **login credentials** are exposed by mistake. Let’s understand in detail why is multi factor authentication important:
+When we talk about benefits of Multi-Factor Authentication (MFA), MFA plays a vital role when it comes to **information security.** It protects the data against potential breaches, keeps an eye on employee accounts, and strays away hackers. Besides this, it protects users even if their **login credentials** are exposed by mistake. Let’s take a look at some of the MFA benefits:
 
 ### 1. It provides more layers of security than 2FA.
 
@@ -74,7 +74,7 @@ The multiple layers of security ensure that the consumers looking for access are
 
 ### 2. It assures consumer identity.
 
-A lot of people wonder about why is mfa important? Well, MFA is an important tool for protecting consumer data from identity theft. By implementing this measure, the security of the traditional username and password login is supplemented by an additional layer of protection. Cybercriminals will have a hard time cracking TOTP since it is either sent via SMS or through an automated phone call. A consumer needs two pieces of information to access their resource. MFA adds a sense of mindfulness to authentication.
+When we talk about why is MFA important-MFA is a crucial tool for protecting consumer data from identity theft. By implementing this measure, the security of the traditional username and password login is supplemented by an additional layer of protection. Cybercriminals will have a hard time cracking TOTP since it is either sent via SMS or through an automated phone call. A consumer needs two pieces of information to access their resource. MFA adds a sense of mindfulness to authentication.
 
 ### 3. It meets regulatory compliances.
 
@@ -102,7 +102,7 @@ When we talk about the benefits of multi factor authentication,hackers have a to
 
 ## How Can LoginRadius Help in Securing Business Data While Providing Delightful CX
 
-Besides the benefits mentioned above, LoginRadius can help arm businesses with many more advantages. MFA with SSO allows users to connect with multiple applications by passing through numerous security measures at once. 
+Besides the benefits of MFA  mentioned above, LoginRadius can help arm businesses with many more advantages. MFA with SSO allows users to connect with multiple applications by passing through numerous security measures at once. 
 
 LoginRadius Identity Platform makes use of both MFA and centralized credentials through networks, applications, and more. The IT department can even ask the employees and business consumers to strengthen their password as they have to use it once before proceeding ahead with other 2FA or MFA securities. 
 
@@ -110,7 +110,7 @@ LoginRadius’ MFA provides a customized consumer experience with [options like 
 
 ## Conclusion
 
-As more and more companies move towards [digital transformation](https://www.loginradius.com/blog/identity/2018/11/enterprise-needs-digital-business-transformation-strategy/), cybersecurity becomes more and more critical and enterprises need to understand why MFA is important. It’s here that MFA becomes super important since it offers enhanced and adequate security against theft and damage of a company’s critical data.
+As more and more companies move towards [digital transformation](https://www.loginradius.com/blog/identity/2018/11/enterprise-needs-digital-business-transformation-strategy/), cybersecurity becomes more and more critical and enterprises need to understand why MFA is important. It’s here that MFA becomes super important since it offers enhanced and adequate security against theft and damage of a company’s critical data. The above-mentioned advantages of multi factor authentication portrays why is MFA important. 
 
 ## **Frequently Asked Questions (FAQs)**
 

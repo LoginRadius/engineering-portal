@@ -8,18 +8,17 @@ description: "Smart and IoT Authentication from LoginRadius is a realistic solut
 metatitle: "LoginRadius Launches Smart and IoT Authentication"
 metadescription: "With Smart and IoT Authentication by LoginRadius, we decided to provide a very simple authentication method for smart and IoT system users."
 ---
-
 ## Introduction
 
 Consumers are often frustrated with the complex task of entering their passwords through their remote controls or virtual keyboards, while authenticating on apps that they have installed on their smart TVs, game consoles, and other IoT devices. 
 
 Consumers would love an experience that is simple, quick, and frictionless - after all, no one wants to put the extra effort while enjoying leisure. 
 
-LoginRadius' Smart and IoT Authentication is a practical approach to ensure effortless login for consumers. It eliminates the burden of password entry and, consequently, sheds off [data security risks](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) related to password attacks.
+LoginRadius' Smart  authentication and authorization in IOT is a practical approach to ensure effortless login for consumers. It eliminates the burden of password entry and, consequently, sheds off [data security risks](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) related to password attacks.
 
 ## Intend Behind the Launch
 
-With LoginRadius' Smart and IoT Authentication, we wanted to offer a vastly convenient authentication method for the consumers of smart and IoT devices.  A few other intentions include: 
+With LoginRadius' Smart and IoT device authentication, we wanted to offer a vastly convenient authentication method for the consumers of smart and IoT devices.  A few other intentions include: 
 
 ### 1. Streamlined consumer experience
 
@@ -27,7 +26,7 @@ We do not want consumers to remember or enter credentials on their smart devices
 
 ### 2. Enhanced account security
 
-Because login links and QR codes are dynamically generated and sent over email or scanned via authenticated apps, we allow businesses to easily avoid all password-based hacking attempts.
+Because login links and QR codes are dynamically generated and sent over email or scanned via authenticated apps, we allow businesses to easily avoid all password-based hacking attempts. And hence we enhance IOT security authentication. 
 
 ### 3. Improved adaptive security
 
@@ -39,7 +38,7 @@ LoginRadius supports two different methods for Smart and IoT Authentication. Her
 
 ### 1. QR Code Based Login
 
-Consumers can authenticate themselves on the app by scanning the QR Code displayed on the smart or IoT device using their mobile app.
+Thinking about how to authenticate IOT devices? Well, consumers can authenticate themselves on the app by scanning the QR Code displayed on the smart or IoT device using their mobile app.
 
 ### 2. Link-Based Login
 

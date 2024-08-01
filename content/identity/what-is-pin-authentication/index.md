@@ -14,7 +14,7 @@ Pin Authentication is yet another popular method of authenticating consumer iden
 
 Logging in through PIN is in popular culture nowadays. This feature allows the consumer to set a PIN in addition to the password during registration or login. Later, during the subsequent logins for authentication, the application requests the same PIN to authenticate. 
 
-This means PIN authentication is not a stand-alone authentication feature, i.e., it will always require the first level authentication feature in place to work with it.
+This means PIN verification is not a stand-alone authentication feature, i.e., it will always require the first level authentication feature in place to work with it.
 
 [PIN based authentication](https://www.loginradius.com/resource/loginradius-and-pin-auth) generally works on a two-level authentication model. Let’s try to understand it with the help of an example:
 
@@ -24,11 +24,22 @@ Now there comes PIN, where the user gets an option to first set up one, either a
 
 Some other aspects which prove PIN authentication a robust and a secured model:
 
-1. It is not permanent. The PIN will only be asked until the corresponding token is valid.
+1. It is not permanent. The sign in PIN will only be asked until the corresponding PIN system access token is valid.
+
 2. It is device-specific and will ask to set up a new one whenever it detects a new device.
+
 3. It can also be used as a Re-Authentication model.
 
 ![What is PIN Authentication](pin-authentication.jpg)
+
+## What is 3D Secure Authentication PIN 
+
+3D Secure Authentication is a security protocol used in online transactions to prevent fraud. 
+
+When making a purchase, the cardholder is prompted to verify their identity, often by entering a one-time PIN sent to their mobile device or through another method, such as biometric authentication. 
+
+This additional step helps ensure that the person making the transaction is the legitimate cardholder, providing an extra layer of security.
+
 ## Advantages of PIN Authentication
 
 PIN authentication offers several benefits that make it an attractive option for businesses seeking enhanced security measures:

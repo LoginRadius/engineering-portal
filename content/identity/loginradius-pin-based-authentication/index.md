@@ -8,8 +8,6 @@ description: "LoginRadius is a rapidly-expanding identity management platform. A
 metatitle: "PIN Authentication With Enhanced Features | LoginRadius"
 metadescription: "LoginRadius announces the launch of PIN-based login as an additional factor of authentication & usability enhancement to reduce the pain of password."
 ---
-
-
 LoginRadius is a rapidly-expanding platform. And this time, the cloud-based customer identity and access management solution has launched a PIN Login authentication environment for its existing and new customers.
 
 ## Intend Behind The Launch
@@ -22,7 +20,7 @@ LoginRadius customers can now avoid time-consuming delays caused by entering lon
 
 ## The Benefits of PIN Authentication
 
-In a new generation of end-users, a strong PIN authentication uptake is a better way to validate their authenticity. Here are a few more advantages of using PIN login as a method of authentication.
+In a new generation of end-users, a strong PIN based authentication uptake is a better way to validate their authenticity. Whether it’s PIN based authentication through platform or PIN authenticator, it’s always a reliable way of authentication when it comes to security and convenience. Here are a few more advantages of using PIN login as a method of authentication. 
 
 - It simplifies the login process. 
 - The validation happens in a matter of a few seconds. 
@@ -57,7 +55,7 @@ Our PIN login is another giant step towards achieving better security, usability
 
 ## A Final Word
 
-PIN login is a successful attempt at not just embracing an alternative authentication factor for the LoginRadius identity platform, but using a variety of other factors and combining them contextually for secured access management.
+PIN login is a successful attempt at not just embracing an alternative  two factor authentication PIN method or the multi factor authentication PIN method for the LoginRadius identity platform, but using a variety of other factors and combining them contextually for secured access management. 
 
 All-in-all, we aim to ensure that logins are secure, simple, seamless, and frictionless. And if it can turn customers into loyal advocates, that will serve our purpose even better.
 
