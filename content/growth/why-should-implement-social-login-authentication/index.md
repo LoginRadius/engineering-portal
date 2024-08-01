@@ -8,7 +8,6 @@ description: "If you're building a startup today, social login should be the def
 metadescription: "Social Login Authentication is the latest form of CIAM authentication.  Boost your website or app's conversion rate and provide a seamless user experience by effortlessly implementing Social Login."
 metatitle: "What is Social Login Authentication and Why Should You Implement it?"
 ---
-
 For an end-user, convenience is everything. For this reason, the development process that most developers follow focuses primarily on making the application as easy to use and convenient as possible. This focus would then result in the creation of a new login option, Social Logins.
 
 ## What is Social Login Authentication?
