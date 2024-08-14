@@ -40,7 +40,7 @@ Interactive content allows [B2B marketers](https://www.loginradius.com/blog/fuel
 
   
 
-Twitter has recently purchased ["Revue" which is a newsletter tool](https://www.getrevue.co/) designed especially for curating content. The best part is that it allows writers to monetize their audience.
+Twitter has recently purchased "Revue" which is a newsletter tool designed especially for curating content. The best part is that it allows writers to monetize their audience.
 
   
 

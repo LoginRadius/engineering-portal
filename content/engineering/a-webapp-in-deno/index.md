@@ -35,7 +35,7 @@ Deno is secure by default. Therefore, unless you specifically enable it, a deno 
 
 `--allow-net=\<allow-net>` Allow network access. You can specify an optional, comma-separated list of domains to provide a whitelist of allowed domains. For more information on the different kind of permissions needed in the deno you can visit [Permissions in Demo](https://deno.land/manual/getting_started/permissions)
 
-Now once you run the above cmd you can see the **Hello, Abc!** in the browser by redirecting to http://localhost:8000/hello
+Now once you run the above cmd you can see the **Hello, Abc!** in the browser by redirecting to `http://localhost:8000/hello`
 
 ### Let's Go Deeper!!!
 
@@ -81,7 +81,7 @@ Let's try to run this using the previous cmd that is
 deno run --allow-net=0.0.0.0:8000 index.ts
 ```
 Oops!! once you try to run this it will compile successfully but when you visit this path
-http://localhost:8000/index.html, you will get below error in the browser.
+`http://localhost:8000/index.html`, you will get below error in the browser.
 ```json
 {"statusCode":500,"error":"Internal Server Error","message":"read access to <CWD>, run again with the --allow-read flag"}
 ```
@@ -186,7 +186,7 @@ input[type="text"] {
 }
 ```
 
-Great!!! Our calculator app is now almost ready, let's save all the file and reload the http://localhost:8000/index.html.
+Great!!! Our calculator app is now almost ready, let's save all the file and reload the `http://localhost:8000/index.html`.
 
 You can see our calculator app in the browser like below.
 

@@ -298,7 +298,7 @@ Step 11. Then, enter the parameters for the key and value for fetching the profi
 
 As we have seen it is fairly easy to build a JWT authentication system with NodeJS, You can found the complete code used in this tutorial [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/JwtAuthentication). 
 
-**Note : You can decode or verify your JWT token details with this [tool](https://jwt.ssotools.com/)**
+**Note : You can decode or verify your JWT token details with this [tool](https://jwt.io/)**
 
 
 

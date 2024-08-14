@@ -150,7 +150,7 @@ After setting up your Outlook account, the next step is to use your Outlook acco
     });
     ```
 
-3. To test the application, use an API testing application like [Postman](https://www.postman.com/) and make a POST request to http://localhost:5000/auth, passing `email` and `message` to the body of the request.
+3. To test the application, use an API testing application like [Postman](https://www.postman.com/) and make a POST request to `http://localhost:5000/auth`, passing `email` and `message` to the body of the request.
 
     ![Postman](postman.jpg)
 
@@ -214,7 +214,7 @@ This tutorial uses the `nanoid` module to generate random numbers.
     });
     ```
     
-4. Make a POST request to http://localhost:5000/auth, passing only the email address.
+4. Make a POST request to `http://localhost:5000/auth`, passing only the email address.
 
     ![Email test](email-test.jpg)
 

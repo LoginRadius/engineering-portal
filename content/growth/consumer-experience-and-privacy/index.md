@@ -44,7 +44,7 @@ Weak and unethical approaches to consumer experience and data security practices
 
 But there’s a catch!
 
-Despite all things considered, in reality, companies may be using much less data than consumers may consent to. Studies by [Gartner](https://www.gartner.com/smarterwithgartner/how-to-balance-personalization-with-data-privacy/) and the [Boston Consulting Group](https://image-src.bcg.com/Images/BCG-Bridging-the-Trust-Gap-in-Personal-Data-Mar-2018_tcm9-186201.pdf) conclude that when consumer consent is undertaken, that is, when consumers and other stakeholders are consulted before the use of their data, they may be willing to let companies use much more data than they currently use: making consent the key to perfecting the balancing act.
+Despite all things considered, in reality, companies may be using much less data than consumers may consent to. Studies by [Gartner](https://www.gartner.com/smarterwithgartner/how-to-balance-personalization-with-data-privacy/) and the Boston Consulting Group conclude that when consumer consent is undertaken, that is, when consumers and other stakeholders are consulted before the use of their data, they may be willing to let companies use much more data than they currently use: making consent the key to perfecting the balancing act.
 
 
 ## Maintaining the Balance – Benefits in the C-Suite
