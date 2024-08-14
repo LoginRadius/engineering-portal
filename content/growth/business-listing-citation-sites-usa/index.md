@@ -225,7 +225,7 @@ The online business directory Cylex, helps you connect with your customers. List
 
 ![Listing your business on Cylex]( Listing-your-business-on-Cylex.gif)
 
-### **15\. Lacartes: [http://www.lacartes.com/](http://www.lacartes.com/)**
+### **15\. Lacartes:**
 
 - Domain Authority Score  : 45
 - Page Authority                 : 55

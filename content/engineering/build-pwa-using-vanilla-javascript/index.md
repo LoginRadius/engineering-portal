@@ -90,7 +90,7 @@ When writing the code for Progressive Web Application we need to keep in mind tw
 1. The landing page should have some content even if the javascript is not loaded
 1. The App should be responsive and can be properly interactive in any device.
 
-For this app, to handle the first requirement we will add the static text in the Html page and for the second requirement, we will use the [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).
+For this app, to handle the first requirement we will add the static text in the Html page and for the second requirement, we will use the viewport.
 
 So let's add this code inside the `index.html` file.
 

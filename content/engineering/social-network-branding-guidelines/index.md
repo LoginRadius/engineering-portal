@@ -28,7 +28,7 @@ Changing the branding color is a big no no for them. You’ll be surprised how s
 
 One thing we need to realize is, we don’t own these icons. The companies still own them. So, for your convenience I searched the interwebs to gather most of the things you need to remember for social network branding guidelines.
 
-Let’s start with the most used social network, [Facebook and their “ f ” logo](https://en.facebookbrand.com/guidelines/brand). They’re pretty straightforward, as long as you don’t modify the “ f ” logo’s design and color, you’re good to go. To simplify this more; don’t make the facebook logo look like it’s been scratched by a chicken and made it bleed too much that it turns red.
+Let’s start with the most used social network, Facebook and their “ f ” logo. They’re pretty straightforward, as long as you don’t modify the “ f ” logo’s design and color, you’re good to go. To simplify this more; don’t make the facebook logo look like it’s been scratched by a chicken and made it bleed too much that it turns red.
 
 ![4](4.png)
 

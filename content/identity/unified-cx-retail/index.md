@@ -17,7 +17,7 @@ In an increasingly digital world, brands know they depend on a unified experienc
 
 Unified consumer experience can be defined as consumers' perceptions (conscious and subconscious) of their relationship with the brand during the entire life cycle.
 
-The American research and consulting company [Gartner](https://www.gartner.com/en/marketing/insights/customer-experience-strategy), in its definition, explains quite well what unified experience is about, "The practice of designing and reacting to consumer interactions to meet or exceed their expectations and thus increase their satisfaction, loyalty, and promotion."
+The American research and consulting company Gartner, in its definition, explains quite well what unified experience is about, "The practice of designing and reacting to consumer interactions to meet or exceed their expectations and thus increase their satisfaction, loyalty, and promotion."
 
 Moreover, it's about getting to know consumers so completely that you can create and deliver personalized experiences that attract them to stay loyal to the brand or company and "promote" it to other people. That's the most valuable advertising tactic that exists.
 

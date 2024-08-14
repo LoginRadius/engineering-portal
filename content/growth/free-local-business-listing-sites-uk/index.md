@@ -230,7 +230,7 @@ Whether you are searching for a restaurant or want to hire lawyer in UK, Digi Br
 
 ![digibritain]( digibritain.gif)
 
-### **18\. The Disc directory****:** **[https://www.thediscdirectory.co.uk/](https://www.thediscdirectory.co.uk/)**
+### **18\. The Disc directory**
 
 - Domain Authority Score:  31
 - Page Authority:                   42
@@ -252,7 +252,7 @@ The sites are written in the format - Website (DA, PA, Alexa, Category)
 2. [Tipped](http://tipped.co.uk) (36, 45, 669,169, B2C)
 3. [Uksmallbusinessdirectory](http://uksmallbusinessdirectory.co.uk) (54, 44, 342943, B2C and B2B)
 4. [Web-design-directory-uk](http://www.web-design-directory-uk.co.uk/) (46, 44, 1661658, B2C)
-5. [Localblox](http://localblox.com) ( 42, 41, 1307641 B2C)
+5. Localblox ( 42, 41, 1307641 B2C)
 6. [Mylocalservices](http://mylocalservices.co.uk) (35, 36, 118648, B2C)
 7. [London backpage](http://london.backpage.co.uk/) (36, 27, 46635, B2C)
 8. [Londondirectory](http://londondirectory.co.uk/) (47, 56, 1990182, B2C)
@@ -273,7 +273,7 @@ The sites are written in the format - Website (DA, PA, Alexa, Category)
 23. [Allinlondon](https://www.allinlondon.co.uk/) (45, 38, 80,593, food, drink, clothes)
 24. [Applegate](https://www.applegate.co.uk) (46, 56, 86097, B2C)
 25. [The-free-directory](http://the-free-directory.co.uk/) (41, 51, 83906, B2C)
-26. [Uk directory](https://www.ukdirectory.co.uk/) (33, 44, 1102193, B2C)
+26. Uk directory (33, 44, 1102193, B2C)
 27. [Carryonsurfing](http://www.carryonsurfing.co.uk/) (21, 23, 6074206, B2C)
 28. [Yalwa](http://www.yalwa.co.uk/) (37, 41, 875308, Business services)
 29. [Kent find](http://kentfind.co.uk) (27, 32, 1290129, technology/IT)
