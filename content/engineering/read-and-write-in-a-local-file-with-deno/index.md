@@ -44,7 +44,7 @@ const quotesArr: Array<string> = await getQuotes("quotes.txt");
 const randomQuote: string =  quotesArr[Math.floor(Math.random() * quotesArr.length)];
 console.log(randomQuote);
 ```
-In the getQuotes function, we are using  [Deno.readFile](https://deno.land/typedoc/index.html#readfile) to read the contents of a file as an array of bytes and using `TextDecoder` to convert the bytes to string and then splitting it in a string array and return
+In the getQuotes function, we are using  Deno.readFile #readfile to read the contents of a file as an array of bytes and using `TextDecoder` to convert the bytes to string and then splitting it in a string array and return
 
 Then we are just picking a `randomQuote` with `Math.random` and `console.log` that on our screen
 

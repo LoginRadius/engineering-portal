@@ -58,7 +58,7 @@ Well, you can also use these FREE tools to have a seamless resume creation exper
 - [Vizualize.me](http://vizualize.me/)
 - [CV Ease builder](https://cvease.com/)
 - [Atbox](https://atbox.io/)
-- [Slash CV](http://www.slashcv.com/)
+- Slash CV
 - [Hashtag CV](https://www.hashtagcv.com/)
 
 Create your own resume and share your experience in the comments below.

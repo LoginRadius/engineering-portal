@@ -23,7 +23,7 @@ Just 1 week left in hacktoberfest 2020 and being part of it, we at LoginRadius a
   - LoginRadius Developer Documentation
 - [Egnature](https://github.com/LoginRadius/egnature)
   - An another email signature generator
-- [Cascade](https://github.com/LoginRadius/cascade)
+- Cascade
   - Create your internal developers' portal using Cascade.
 - [C# Password Hash Library](https://github.com/LoginRadius/csharp-password-hash)
   - .NET standard library to secure the passwords using multiple hashing algorithms.

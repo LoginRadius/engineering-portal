@@ -42,7 +42,7 @@ The blog specializes in rendering information and services related to publicity 
 
 ### **Chrisbrogan.com**
 
-![Chris Brogan](   Chris-Brogan.jpeg?ver=1553881376)The blog is founded by the NYT bestselling author Chris Brogan (CEO of owner media group). As he promises, he is the best in what he does. You can find his magic articles (that’s what he calls his articles) about affiliate marketing, SEO, social media and content marketing on his [website](http://chrisbrogan.com/). FYI, he also writes about lifehacks to develop your inner self. His long list of clients include some big guns like IBM, Google, Microsoft, Sony and [many others](http://chrisbrogan.com/about-2/).
+![Chris Brogan](   Chris-Brogan.jpeg?ver=1553881376)The blog is founded by the NYT bestselling author Chris Brogan (CEO of owner media group). As he promises, he is the best in what he does. You can find his magic articles (that’s what he calls his articles) about affiliate marketing, SEO, social media and content marketing on his [website](http://chrisbrogan.com/). FYI, he also writes about lifehacks to develop your inner self. His long list of clients include some big guns like IBM, Google, Microsoft, Sony and many others.
 
 **_Why should you follow:-_** Because this blog is a good package which helps you know about SEO and other channels of digital marketing.
 

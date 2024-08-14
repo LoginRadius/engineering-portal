@@ -291,7 +291,7 @@ And add the `router-outlet` to the `app.component.html` file.
 > You can find the full code in [github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/angular-authentication-demo)
 
 ### Testing the application
-Run `ng serve` to start the local server, and you will be able to see the output on [locahost:4200](http://locahost:4200).
+Run `ng serve` to start the local server, and you will be able to see the output on locahost:4200.
 
 
 ### Adding Login Methods
