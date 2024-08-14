@@ -33,7 +33,7 @@ You might be thinking right now: "Sounds like I need an expensive designer to fi
 ![Kolorizer Logo](logo.png "Kolorizer Logo")
 
 
-This is where our little tool comes in - [Kolorizer](https://kolorizer.com/). This incredibly simple online tool will have a huge impact on your brand, whether you are kicking it off or simplifying and growing an existing one.
+This is where our little tool comes in - Kolorizer. This incredibly simple online tool will have a huge impact on your brand, whether you are kicking it off or simplifying and growing an existing one.
 		
 
 The task is simple - to make colors in all the imagery on your website match your brand's colors. There are mostly two different ways of doing this in the design world: **"The overlay" method** and **"The changing of the base color" method**.

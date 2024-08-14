@@ -214,19 +214,7 @@ The online business directory Cylex, helps you connect with your customers. List
 
 ![Listing your business on Cylex]( Listing-your-business-on-Cylex.gif)
 
-### **14\. Lacartes: [http://www.lacartes.com/](http://www.lacartes.com/)**
-
-- Domain Authority Score  : 45
-- Page Authority                 : 55
-- Domain Age                     : 11.5 Years
-- Alexa Rank                       : 1,30,504
-- Listing                               : Free
-
-This high authority citation website brings together various tools for businesses to add their listing and sell their products. Listing to the site is absolutely free and requires you to sign up to create your business profile. For more details, check out this video.
-
-![Listing your business on lacartes]( Listing-your-business-on-lacartes.gif)
-
-### **15\. Infignos: [http://www.infignos.com/](http://www.infignos.com/)**
+### **14\. Infignos: [http://www.infignos.com/](http://www.infignos.com/)**
 
 - Domain Authority Score  : 38
 - Page Authority                 : 44
@@ -238,7 +226,7 @@ From apparel to professional business services, no matter which of the niche do 
 
 ![Listing your business on infignos]( Listing-your-business-on-infignos.gif)
 
-### **16\. Tuugo: [http://www.tuugo.us/](http://www.tuugo.us/)** 
+### **15\. Tuugo: [http://www.tuugo.us/](http://www.tuugo.us/)** 
 
 - Domain Authority Score  : 33
 - Page Authority                 : 42
@@ -250,7 +238,7 @@ Tuugo is a high authority citation website of USA that aims to build a huge comm
 
 ![Listing your business on tuugo]( Listing-your-business-on-tuugo.gif)
 
-### **17\. Citiservi: [http://www.citiservi.com/](http://www.citiservi.com/)**
+### **16\. Citiservi: [http://www.citiservi.com/](http://www.citiservi.com/)**
 
 - Domain Authority Score  : 33
 - Page Authority                 : 34
@@ -262,7 +250,7 @@ Citiservi is a huge business listing website in USA. Adding your business to thi
 
 ![Listing your business on Citiservi]( Listing-your-business-on-Citiservi.gif)
 
-### **18\. Cityfos: [http://www.cityfos.com/](http://www.cityfos.com/)**
+### **17\. Cityfos: [http://www.cityfos.com/](http://www.cityfos.com/)**
 
 - Domain Authority Score  : 30
 - Page Authority                 : 33
@@ -274,7 +262,7 @@ Witnessing 1.2 million visitors every month, Cityfos is no doubt a great website
 
 ![Listing your business on Citifos]( Listing-your-business-on-Citifos.gif)
 
-### **19\. Mysheriff: [http://www.mysheriff.net/](http://www.mysheriff.net/)**
+### **18\. Mysheriff: [http://www.mysheriff.net/](http://www.mysheriff.net/)**
 
 - Domain Authority Score  : 31
 - Page Authority                 : 41
@@ -286,7 +274,7 @@ Getting your business listed on mysheriff is quite easy. To add your business, f
 
 ![Listing your business on mysherrif]( Listing-your-business-on-mysherrif.gif)
 
-### **20\. Ablocal: [https://ablocal.com/](https://ablocal.com/)**
+### **19\. Ablocal: [https://ablocal.com/](https://ablocal.com/)**
 
 - Domain Authority Score  : 60
 - Page Authority                 : 43
@@ -298,7 +286,7 @@ The neat and clean interface makes it very easy for business to get themselves l
 
 ![Listing your business on ablocal]( Listing-your-business-on-ablocal.gif)
 
-### **21\. Salespider: [http://www.salespider.com/](https://www.salespider.com/Free-Business-Directory-Tools-Articles)**
+### **20\. Salespider: [http://www.salespider.com/](https://www.salespider.com/Free-Business-Directory-Tools-Articles)**
 
 - Domain Authority Score  : 57
 - Page Authority                 : 47
@@ -312,7 +300,7 @@ To add your business, open the website and you will find a business adding a sec
 
 ![Listing your business on sales spider]( Listing-your-business-on-sales-spider.gif)
 
-### **22\. Knowem : [http://knowem.com/](http://knowem.com/)**
+### **21\. Knowem : [http://knowem.com/](http://knowem.com/)**
 
 - Domain Authority Score  : 58
 - Page Authority                 : 65
@@ -326,7 +314,7 @@ For submission, you need to create an account first with your official email add
 
 ![Listing your business on knowem]( Listing-your-business-on-knowem.gif)
 
-### **23\. Showmelocal: [http://www.showmelocal.com/](http://www.showmelocal.com/)**
+### **22\. Showmelocal: [http://www.showmelocal.com/](http://www.showmelocal.com/)**
 
 - Domain Authority Score  : 53
 - Page Authority                 : 61
@@ -338,7 +326,7 @@ If you are planning for offering some special offers, job posting or improving y
 
 ![Listing your business on showmelocal]( Listing-your-business-on-show-me-local.gif)
 
-### **24\. Yellowbot: [http://www.yellowbot.com/](http://www.yellowbot.com/)**
+### **23\. Yellowbot: [http://www.yellowbot.com/](http://www.yellowbot.com/)**
 
 - Domain Authority Score  : 64
 - Page Authority                 : 70
@@ -352,7 +340,7 @@ You need to sign-up first before submitting your business. After signing up, you
 
 ![Listing your business on yellowbot]( Listing-your-business-on-yellowbot.gif)
 
-### **25\. n49: [https://www.n49.com/](https://www.n49.com/)**
+### **24\. n49: [https://www.n49.com/](https://www.n49.com/)**
 
 - Domain Authority Score  : 38
 - Page Authority                 : 46
@@ -364,7 +352,7 @@ n49 is a free business listing website. Once you submit your business, n49 team 
 
 ![Listing your business on n49]( Listing-your-business-on-n49.gif)
 
-### **26\. Myhuckleberry: [http://myhuckleberry.com/](http://myhuckleberry.com/)**
+### **25\. Myhuckleberry: [http://myhuckleberry.com/](http://myhuckleberry.com/)**
 
 - Domain Authority Score  : 44
 - Page Authority                 : 37
@@ -378,7 +366,7 @@ Go to “Start your free listing” section and register yourself with a busines
 
 ![Listing your business on myhuckleberry]( Listing-your-business-on-myhuckleberry.gif)
 
-### **27\. List Company: [http://list-company.com/](http://list-company.com/)**
+### **26\. List Company: [http://list-company.com/](http://list-company.com/)**
 
 - Domain Authority Score  : 33
 - Page Authority                 : 36
@@ -392,7 +380,7 @@ Adding your company to this awesome list is quite easy and quick. Just need to a
 
 ![Listing your business at list company]( Listing-your-business-at-list-company.gif)
 
-### **28\. Zizics: [http://zizics.com/](http://zizics.com/)**
+### **27\. Zizics: [http://zizics.com/](http://zizics.com/)**
 
 - Domain Authority Score  : 33
 - Page Authority                 : 31

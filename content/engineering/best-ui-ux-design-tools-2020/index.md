@@ -78,7 +78,7 @@ Awwwards are the Website Awards that recognize and promote the talent and effort
 
 Check out the hand-picked collection of latest mobile design patterns from apps that reflect the best in design.
 
-[mobbin.design.com](https://mobbin.design.com)
+mobbin.design.com
 
 ### 5. **UI Sources (Real App Interaction)**
 
@@ -519,7 +519,7 @@ made with ♥ All trademarks, service marks, trade names, product names, logos, 
 
 This toolkit is an introduction to the methodology of service design
 
-[www.servicedesigntoolkit.orgs](https://www.servicedesigntoolkit.orgs)
+www.servicedesigntoolkit.orgs
 
 ## Collaboration Tools
 ### 1. **Zeplin (Collaboration & Handoff tool)**

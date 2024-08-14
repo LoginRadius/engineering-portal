@@ -310,7 +310,7 @@ In the below image 2 fields have been added to the registration schema, `Confirm
 
 ![alt_text](add_schema.png "Added Fields") 
 
-> Instead of using the `lr demo` command, you can also view the **LoginRadius Auth Page** by visiting [locahost:3000](http://locahost:3000) and following the same workflow as explained earlier.
+> Instead of using the `lr demo` command, you can also view the **LoginRadius Auth Page** by visiting locahost:3000 and following the same workflow as explained earlier.
 
 
 The entire description for these commands can be found in the [LoginRadius CLI Manual](https://www.loginradius.com/open-source/cli/manual).
