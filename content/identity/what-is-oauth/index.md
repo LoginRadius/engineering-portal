@@ -32,7 +32,7 @@ The following explains the working of the above sequence diagram of Oauth 2.0 im
 1. Let's assume the client requests authorization to access protected resources owned by the resource owner by redirecting the client to the authorization server.
 2. The resource access request is authenticated and authorized by the resource owner from the web application, and the authorization grant is returned to the client by an authorized endpoint.
 3. There are four types of Grant Protocol defined by OAuth 2.0: **Authorization Code**, **Client Credentials**, **Device Code**, and **Refresh Token**.
-4. The client requests the access token from the authorization server by presenting the authorization grant returned from the authorized endpoint and authentication of its own identity to the token endpoint. A token endpoint is a URL such as https://your_domain/oauth2/token.
+4. The client requests the access token from the authorization server by presenting the authorization grant returned from the authorized endpoint and authentication of its own identity to the token endpoint. A token endpoint is a URL such as `https://your_domain/oauth2/token`.
 5. The access token will be issued to the client for valid authentication and authorization grant by the authorization server or authentication provider.
 6. By presenting the access token for authentication, the client can request the protected resources from the resource server.
 7. The requested resources are returned to the application (client) with the valid access token from the resource server.

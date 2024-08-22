@@ -66,8 +66,11 @@ const Post = ({ post, relatedPost, type }) => {
 
             <div className={`${headStyles.tag} ${headStyles.pinned}`}>
               {tags &&
-                tags.map(tag => (
-                  <Link to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>
+                tags.map((tag, i) => (
+                  <Link key={i} to={`/tags/${kebabCase(tag)}/`}>
+                    {" "}
+                    {tag}{" "}
+                  </Link>
                 ))}
             </div>
           </div>
@@ -137,15 +140,53 @@ const Post = ({ post, relatedPost, type }) => {
                     </ul>
                   </div>
                 ) : null}
-                <div className={headStyles.subscribeDetail}>
+                {/*<div className={headStyles.subscribeDetail}>
                   <h3>
                     Did you enjoy this article? Subscribe to new articles!
                   </h3>
                   <Subscribe type={type} />
-                </div>
+                </div>*/}
               </div>
             </div>
             <div className={headStyles.sidebar}>
+              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                {
+                  <>
+                    <div className={headStyles.image}>
+                      <img
+                        src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
+                        alt="Overall CIAM Leader 2024"
+                        style={{ "background-color": "#fff" }}
+                      />
+                    </div>
+                    <div className={headStyles.text}>
+                      <h3 style={{ textAlign: "center" }}>
+                        Overall CIAM Leader 2024
+                      </h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={
+                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                        }
+                        key={"overall-ciam-leader-2024"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "Overall CIAM Leader 2024",
+                            action: "User clicked on Free Download button",
+                            label: "Overall CIAM Leader 2024",
+                          })
+                        }
+                      >
+                        {"LEARN MORE"}
+                      </a>
+                    </div>
+                  </>
+                }
+              </div>
+
               <div
                 className={`${headStyles.sidebarWidget} ${headStyles.posts}`}
               >
@@ -157,53 +198,12 @@ const Post = ({ post, relatedPost, type }) => {
                   <IdentityFeatList slug={post.fields.slug} />
                 )}
               </div>
-              {type !== "growth" && (
-                <div
-                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
-                >
-                  {type === "all" && <TagMenu />}
-                  {type === "engineering" && <AsyncTagMenu />}
-                  {type === "identity" && <IdentityTagMenu />}
-                </div>
-              )}
 
-              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-                {type !== "engineering" && (
-                  <>
-                    <div className={headStyles.image}>
-                      <img
-                        src="/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
-                        alt="Top CIAM Platform 2024"
-                      />
-                    </div>
-                    <div className={headStyles.text}>
-                      <h3 style={{ textAlign: "center" }}>
-                        Top CIAM Platform 2024
-                      </h3>
-                      <a
-                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
-                        // className={"btn-primary ga_event"}
-                        href={
-                          "https://magazine.cioreview.com/magazines/March2024/CIAM_Platform/"
-                        }
-                        key={"top-ciam-platform-2024"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={() =>
-                          eventLogger({
-                            category: "Top CIAM Platform 2024",
-                            action: "User clicked on Free Download button",
-                            label: "Top CIAM Platform 2024",
-                          })
-                        }
-                      >
-                        {"LEARN MORE"}
-                      </a>
-                    </div>
-                  </>
-                )}
-                {type == "engineering" && (
-                  <>
+              {type == "engineering" && (
+                <>
+                  <div
+                    className={`${headStyles.sidebarWidget} ${headStyles.cta}`}
+                  >
                     <div className={headStyles.text}>
                       <h3>LoginRadius Identity Platform Documentation</h3>
                       <a
@@ -224,9 +224,56 @@ const Post = ({ post, relatedPost, type }) => {
                         {"LoginRadius Docs"}
                       </a>
                     </div>
+                  </div>
+                </>
+              )}
+
+              <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+                {
+                  <>
+                    <div className={headStyles.image}>
+                      <img
+                        src="https://www.loginradius.com/wp-content/uploads/2024/03/Website-I-Resource-LP-Feature-2-.png"
+                        alt="Top CIAM Platform 2024"
+                      />
+                    </div>
+                    <div className={headStyles.text}>
+                      <h3 style={{ textAlign: "center" }}>
+                        Top CIAM Platform 2024
+                      </h3>
+                      <a
+                        className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                        // className={"btn-primary ga_event"}
+                        href={
+                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                        }
+                        key={"top-ciam-platform-2024"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                          eventLogger({
+                            category: "Top CIAM Platform 2024",
+                            action: "User clicked on Free Download button",
+                            label: "Top CIAM Platform 2024",
+                          })
+                        }
+                      >
+                        {"LEARN MORE"}
+                      </a>
+                    </div>
                   </>
-                )}
+                }
               </div>
+
+              {type !== "growth" && (
+                <div
+                  className={`${headStyles.sidebarWidget} ${headStyles.tags}`}
+                >
+                  {type === "all" && <TagMenu />}
+                  {type === "engineering" && <AsyncTagMenu />}
+                  {type === "identity" && <IdentityTagMenu />}
+                </div>
+              )}
             </div>
           </div>
         </div>

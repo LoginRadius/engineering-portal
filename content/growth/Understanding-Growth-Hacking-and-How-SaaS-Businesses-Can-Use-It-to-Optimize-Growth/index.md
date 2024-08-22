@@ -18,7 +18,7 @@ The time calls for not marketing harder but smarter. Long-term campaigns planned
 
   
 
-To attract traffic and increase interaction with potential consumers, your product not just needs to have a solid online presence. It should also offer something that the consumers can relate to. It was surveyed that [78% of consumers are more likely to buy a service](https://klintmarketing.com/30-growth-hacking-statistics/#:~:text=78%25%20of%20consumers%20say%20that,among%20the%20most%20important%20assets.) that provides personalized content.
+To attract traffic and increase interaction with potential consumers, your product not just needs to have a solid online presence. It should also offer something that the consumers can relate to. It was surveyed that 78% of consumers are more likely to buy a service that provides personalized content.
 
 ## What Is Growth Hacking
 

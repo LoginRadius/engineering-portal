@@ -24,11 +24,11 @@ Hello guys! After a very good response for my best business listing sites trilog
 
 ### **1\. 192.com: [http://www.192.com](http://www.192.com)**
 
-- Domain Authority Score:  57
-- Page Authority:                   65
-- Domain Age:                       20 Years
-- Alexa Rank:                         16,142
-- Listing:                                 Free
+- Domain Authority Score:  57
+- Page Authority:                   65
+- Domain Age:                       20 Years
+- Alexa Rank:                         16,142
+- Listing:                                 Free
 
 192.com is one of the most famous online business listing website. It helps in finding business, people, and places for millions of users every month. It contains approximately 700 million records which includes business directory as well as places, property reports etc.
 
@@ -38,11 +38,11 @@ Submitting business to 192.com is very easy. Here is a Gif that will help you ou
 
 ### **2\. Cylex: [https://www.cylex-uk.co.uk/](https://www.cylex-uk.co.uk/)**
 
-- Domain Authority Score:  50
-- Page Authority:                   44
-- Domain Age:                       9 Years
-- Alexa Rank:                         48,734
-- Listing:                                 Free or Paid
+- Domain Authority Score:  50
+- Page Authority:                   44
+- Domain Age:                       9 Years
+- Alexa Rank:                         48,734
+- Listing:                                 Free or Paid
 
 Cylex is a business listing website that connects businesses with their customers. There are two options for listing a business on Cylex. The first one is free or basic listing and to get more attention there is a option of premium listing also. For listing your website on Cylex, check out the Gif below.
 
@@ -50,23 +50,23 @@ Cylex is a business listing website that connects businesses with their customer
 
 ### **3\. Find us here: [https://www.find-us-here.com](https://www.find-us-here.com)**
 
-- Domain Authority Score:  41
-- Page Authority:                   44
-- Domain Age:                        5 Years
-- Alexa Rank:                         100,220
-- Listing:                                 Free
+- Domain Authority Score:  41
+- Page Authority:                   44
+- Domain Age:                        5 Years
+- Alexa Rank:                         100,220
+- Listing:                                 Free
 
 Find us here is a huge local business listing website for UK. It is located in multiple locations including UK, Australia, USA, New Zealand and many more. Listing option is classified into several categories, you can a choose a category that best suits your niche. To know the process, watch the Gif below.
 
 ![find-us-here]( find-us-here.gif)
 
-### **4\. Opendi: [https://www.opendi.co.uk/](https://www.opendi.co.uk/)**
+### **4\. Opendi: [https://www.opendi.co.uk/](https://www.opendi.co.uk/)**
 
-- Domain Authority Score:  36
-- Page Authority:                   35
-- Domain Age:                       10 Years
-- Alexa Rank:                         522,863
-- Listing:                                 Free
+- Domain Authority Score:  36
+- Page Authority:                   35
+- Domain Age:                       10 Years
+- Alexa Rank:                         522,863
+- Listing:                                 Free
 
 Opendi is present all around the globe. Each month near about 9,000,000 people are using Openid to know about businesses and shops nearby. Listing on Openid is completely free.
 
@@ -74,49 +74,49 @@ To list your business at Openid, check out the Gif below.
 
 ![opendi]( opendi.gif)
 
-### **5\. Britaine: [https://www.britaine.co.uk/](https://www.britaine.co.uk/)**
+### **5\. Britaine: [https://www.britaine.co.uk/](https://www.britaine.co.uk/)**
 
-- Domain Authority Score:  40
-- Page Authority:                   50
-- Domain Age:                        8 Years
-- Alexa Rank:                         404,695
-- Listing:                                 Free
+- Domain Authority Score:  40
+- Page Authority:                   50
+- Domain Age:                        8 Years
+- Alexa Rank:                         404,695
+- Listing:                                 Free
 
 If you want to post a classifi ed ad, list down your business or post a blog, Britaine is a great place for you. The Britaine offers users the feature to search services by area and the type. You can list down your business for free.
 
 ![britaine]( britaine.co_.uk_.gif)
 
-### **6\. MySherrif:  [http://www.mysheriff.co.uk/](http://www.mysheriff.co.uk/profile/software-development/london/80098370/)**
+### **6\. MySherrif:  [http://www.mysheriff.co.uk/](http://www.mysheriff.co.uk/profile/software-development/london/80098370/)**
 
-- Domain Authority Score:  36
-- Page Authority:                   46
-- Domain Age:                       8 Years
-- Alexa Rank:                        443,711
-- Listing:                                Free
+- Domain Authority Score:  36
+- Page Authority:                   46
+- Domain Age:                       8 Years
+- Alexa Rank:                        443,711
+- Listing:                                Free
 
 MySherrif is one of the most famous business listing websites of the United Kingdom. Submitting a business on MySherrif is not only quick but also very easy. Apart from listing a business, it also offers several types of tools that help in finding local people who shares similar interests.
 
 ![mySherrif]( mySherrif.gif)
 
-### **7\. Business Network**:   **[http://businessnetwork.co.uk](http://businessnetwork.co.uk)**
+### **7\. Business Network**:   **[http://businessnetwork.co.uk](http://businessnetwork.co.uk)**
 
-- Domain Authority Score:  35
-- Page Authority:                   38
-- Domain Age:                       11 Years
-- Alexa Rank:                         590,591
-- Listing:                                 Free
+- Domain Authority Score:  35
+- Page Authority:                   38
+- Domain Age:                       11 Years
+- Alexa Rank:                         590,591
+- Listing:                                 Free
 
 It is a completely new approach of finding businesses online. The business directory is well optimized to the mobile devices that help customers to find business nearby on their smartphone. Thousands of businesses have already joined this awesome business listing directory. It’s the time, you should too.
 
 ![business-network]( business-network.co_.gif)
 
-### **8\. Fyple****: [http://www.fyple.co.uk/](http://www.fyple.co.uk/)**
+### **8\. Fyple****: [http://www.fyple.co.uk/](http://www.fyple.co.uk/)**
 
-- Domain Authority Score:  29
-- Page Authority:                   41
-- Domain Age:                        7 Years
-- Alexa Rank:                         379,973
-- Listing:                                 Free
+- Domain Authority Score:  29
+- Page Authority:                   41
+- Domain Age:                        7 Years
+- Alexa Rank:                         379,973
+- Listing:                                 Free
 
 Fyple is a big name when it comes to the list of business listing directory. The whole site is classified into many categories based on several services, regions, and cities. You can list down your business for free on Fyple.
 
@@ -124,83 +124,83 @@ Fyple is a big name when it comes to the list of business listing directory. The
 
 ### **9.** **Applegate:** **[https://www.applegate.co.uk/](https://www.applegate.co.uk/)**
 
-- Domain Authority Score:  47
-- Page Authority:                   43
-- Domain Age:                        19 Years
-- Alexa Rank:                          77,317
-- Listing:                                  Free
+- Domain Authority Score:  47
+- Page Authority:                   43
+- Domain Age:                        19 Years
+- Alexa Rank:                          77,317
+- Listing:                                  Free
 
 Applegate is one of the very popular local business listing website in UK that helps customers find the best services in their area. The website database features thousands of businesses, if you want to add your business here, check out this short video.
 
 ![Applegate]( applegate-1.gif)
 
-### **10\. City Visitors****:   [http://www.cityvisitor.co.uk/order/](http://www.cityvisitor.co.uk/order/)**
+### **10\. City Visitors****:   [http://www.cityvisitor.co.uk/order/](http://www.cityvisitor.co.uk/order/)**
 
-- Domain Authority Score:  46
-- Page Authority:                   54
-- Domain Age:                       17 Years
-- Alexa Rank:                        415,601
-- Listing:                                Free and Paid
+- Domain Authority Score:  46
+- Page Authority:                   54
+- Domain Age:                       17 Years
+- Alexa Rank:                        415,601
+- Listing:                                Free and Paid
 
 It is a one stop platform for your marketing efforts. Along with submitting your business, you can also enjoy the benefits of updating your your advertise and profile. You can also offer discounts and offers and post promotional videos for more attention.
 
 ![cityvisitor]( cityvisitor-1.gif)
 
-### **11\. Hotfrog: **[hotfrog.co.uk](http://hotfrog.co.uk)****
+### **11\. Hotfrog: **[hotfrog.co.uk](http://hotfrog.co.uk)****
 
-- Domain Authority Score:  43
-- Page Authority:                   44
-- Domain Age:                        13 Years
-- Alexa Rank:                          181,567
+- Domain Authority Score:  43
+- Page Authority:                   44
+- Domain Age:                        13 Years
+- Alexa Rank:                          181,567
 - Listing: Free
 
 Hotfrog was founded in the year 2005. Today it is present in more than 38 countries and helping over 100 million businesses to reach out their potential customers globally. It allows you to post your business advertisement freely. You can add images, business logo, and also create coupons for you. Its wide category improves the chances to be find more easily.
 
 ![hotfrog]( hotfrog.gif)
 
-### **12\. Misterwhat****:  [http://www.misterwhat.co.uk/](http://www.misterwhat.co.uk/)**
+### **12\. Misterwhat****:  [http://www.misterwhat.co.uk/](http://www.misterwhat.co.uk/)**
 
-- Domain Authority Score:  42
-- Page Authority:                   43
-- Domain Age:                        8 Years
-- Alexa Rank:                         206,697
-- Listing:                                 Free
+- Domain Authority Score:  42
+- Page Authority:                   43
+- Domain Age:                        8 Years
+- Alexa Rank:                         206,697
+- Listing:                                 Free
 
 Misterwhat helps users in finding shops, local map, contact numbers, firms etc. It is a business listing directory that makes local search easy and improves the online presence of a business. The services offered by Misterwhat is totally free. So, list down you business for free and get ready to get quality leads and sales.
 
 ![mister what]( mister-what.gif)
 
-### **13.** **Searchme4****:  [http://www.searchme4.co.uk](http://www.searchme4.co.uk)**
+### **13.** **Searchme4****:  [http://www.searchme4.co.uk](http://www.searchme4.co.uk)**
 
-- Domain Authority Score:  44
-- Page Authority:                   48
-- Domain Age:                        13 Years
-- Alexa Rank:                          913,747
-- Listing:                                  Free
+- Domain Authority Score:  44
+- Page Authority:                   48
+- Domain Age:                        13 Years
+- Alexa Rank:                          913,747
+- Listing:                                  Free
 
 It provides a quality information about the UK’s business to business sector. It has a wide range of category. One can easily submit his business for free by choosing the most relevant category. 
 
 ![searchme4]( searchme4-1.gif)
 
-### **14\. Locanto****: [http://www.locanto.co.uk/](http://www.locanto.co.uk/)**
+### **14\. Locanto****: [http://www.locanto.co.uk/](http://www.locanto.co.uk/)**
 
-- Domain Authority Score:  38
-- Page Authority:                   48
-- Domain Age:                        12 Years
-- Alexa Rank:                          142,779
-- Listing:                                  Free
+- Domain Authority Score:  38
+- Page Authority:                   48
+- Domain Age:                        12 Years
+- Alexa Rank:                          142,779
+- Listing:                                  Free
 
 Listing a business on Locanto is not easy but also simple. It offers free user classified ads in all part of the major cities across UK. Its wide category helps users to locate shops and businesses he looking for in his locality. It boosts up local presence of a business.
 
 ![locanto]( locanto-1.gif)
 
-### **15\. Business magnet****:  [https://www.businessmagnet.co.uk/](https://www.businessmagnet.co.uk/)**
+### **15\. Business magnet****:  [https://www.businessmagnet.co.uk/](https://www.businessmagnet.co.uk/)**
 
-- Domain Authority Score:  36
-- Page Authority:                   42
-- Domain Age:                       10 Years
-- Alexa Rank:                         617,507
-- Listing:                                Free
+- Domain Authority Score:  36
+- Page Authority:                   42
+- Domain Age:                       10 Years
+- Alexa Rank:                         617,507
+- Listing:                                Free
 
 Business magnet is an ultimate business directory that helps businesses in showcasing themselves in front of the millions of customers. It provides options of listing, editing, and upgrading business information. The services are divided into several categories.
 
@@ -208,11 +208,11 @@ Business magnet is an ultimate business directory that helps businesses in showc
 
 ### **16\. Directory.im****:** **[https://www.directory.im](https://www.directory.im)**
 
-- Domain Authority Score :  25 
-- Page Authority:                    35
-- Domain Age:                         25
-- Alexa Rank:                          1,565,967
-- Listing:                                  Free
+- Domain Authority Score :  25 
+- Page Authority:                    35
+- Domain Age:                         25
+- Alexa Rank:                          1,565,967
+- Listing:                                  Free
 
 M.directory offers high-quality leads through range of hundreds of channels including business directory, marketing platform, display advertising etc. Submitting a business in m.directory is totally free.
 
@@ -220,11 +220,11 @@ M.directory offers high-quality leads through range of hundreds of channels incl
 
 ### **17\. Digi Britain**
 
-- Domain Authority Score:  32
-- Page Authority:                   43
-- Domain Age:                       6 Years
-- Alexa Rank:                         1,350,032
-- Listing :                                Free and Paid
+- Domain Authority Score:  32
+- Page Authority:                   43
+- Domain Age:                       6 Years
+- Alexa Rank:                         1,350,032
+- Listing :                                Free and Paid
 
 Whether you are searching for a restaurant or want to hire lawyer in UK, Digi Britain is perfect place for you. It is one of the top business directory in UK where a business can list down itself to improve local search and presence. The basic listing is free but you can also go with the option of premium listing for more online attention.
 
@@ -232,17 +232,17 @@ Whether you are searching for a restaurant or want to hire lawyer in UK, Digi Br
 
 ### **18\. The Disc directory**
 
-- Domain Authority Score:  31
-- Page Authority:                   42
-- Domain Age:                       11 Years
-- Alexa Rank:                         1,273,575 
-- Listing:                                 Free and Paid
+- Domain Authority Score:  31
+- Page Authority:                   42
+- Domain Age:                       11 Years
+- Alexa Rank:                         1,273,575 
+- Listing:                                 Free and Paid
 
 The Disc Directory was launched in the year 2006 with the aim of helping businesses to stand out through testimonials. But now it is more than just promoting testimonials, it has grown itself into one of the best business listing directory of UK. It is helping over 2 million users a year in locating the shops and businesses they are looking for.
 
 ![thedicdirectory]( thedicdirectory.gif)
 
- 
+ 
 
 So guys, these were the sites where I submitted my business but during the submission process, I also came across some websites that were very good but not relevant to me, Below is the list of them. Do check them out if your business suits here.
 
@@ -297,7 +297,7 @@ The sites are written in the format - Website (DA, PA, Alexa, Category)
 47. [Dentons](https://dentons.net/) (38, 45, 521373, Taxi, doctor, dentist)
 48. [Bizfo](http://www.bizfo.co.uk/) (27, 18, 3360757, B2C)
 49. [Mapme](https://mapme.com/) (50, 58, 315495, B2C)
-50. [Netmums](https://www.netmums.com/) (73, 78, 16018,  B2C)
+50. [Netmums](https://www.netmums.com/) (73, 78, 16018,  B2C)
 51. [Businessvibes](https://www.businessvibes.com/) (50, 58, 282277, Event planners)
 52. [Tradeford](http://www.tradeford.com/) (49, 57, 116304, Chemicals, computers)
 53. [Colour pages](http://www.colourpages.com/) (29, 37, 2522505, Pet shops, roofing service)

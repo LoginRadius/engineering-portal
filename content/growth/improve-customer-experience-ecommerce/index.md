@@ -61,7 +61,7 @@ A solution to this is using a [digital identity platform](https://www.loginradiu
 
 Brick-and-mortar retail isn’t dying. It only dies if you let it by not applying a digital strategy with identity management that personalizes the journey for your customers.
 
-In fact, [Dollar General says](https://www.wsj.com/articles/dollar-general-boosts-digital-strategy-11570646318) that “digitally engaged customers” spend twice as much as the average checkout receipt. To address this, Dollar General launched a convenient “Order online and pick up at store” feature that analysts say could help attract a younger demographic.
+In fact, Dollar General says that “digitally engaged customers” spend twice as much as the average checkout receipt. To address this, Dollar General launched a convenient “Order online and pick up at store” feature that analysts say could help attract a younger demographic.
 
 In short, shoppers like to combine digital and mobile shopping with in-person buying experiences. That’s why retailers should include mobile-friendly touchpoints in their marketing strategies. 
 

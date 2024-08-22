@@ -56,8 +56,6 @@ _My educational background includes a MA in Counseling Psychology and a Doctor i
 
 _Call or_ [_Email_](https://therapists.psychologytoday.com/rms/name/Lena_Axelsson_PsyD,LMFT_Santa+Cruz_California_89644#) _Lena Axelsson for a_ **_free phone consultation_** _now -_ **_(831) 216-6727._**_”_
 
-You can find another version of her professional bio (third person narrative) on her [official website](http://www.axelssonlena.com/About-Lena.html).
-
 ### **4\. Laura Zigman**
 
 ![Laura Zigman]( Laura-Zigman-300x200.jpeg?ver=1553881376?ver=1553881376)

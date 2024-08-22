@@ -11,7 +11,6 @@ metadescription: "Trying to find the Best tools to create highly responsive web 
 ---
 Worried about your website’s response to different devices (especially mobile)? Well, you should be after seeing this statistics. 
 
-- [40%](http://www.iacquire.com/blog/mobile-behavior-big-game-seating-a-study-with-surveymonkey) of visitors will select another result if the website is not mobile friendly.
 - [60%](https://www.bopdesign.com/bop-blog/2015/02/responsive-web-design-statistics/) of internet access is done on mobile devices.
 - [44% users](https://www.bopdesign.com/bop-blog/2015/02/responsive-web-design-statistics/) have claimed that it becomes difficult to navigate a website on smaller devices.
 - [Google has been awarding](https://www.awwwards.com/why-responsive-design-support-is-the-most-important-feature-you-can-add-to-your-website.html) websites that are compatible with multiple devices.
@@ -114,8 +113,7 @@ Many designers mistake by overlooking text during designing a website. [FlowType
 
 ![Mobifreaks]( Mobifreaks.png?ver=1553881376)
 
-[Mobifreaks](http://mobifreaks.com/) create data-based tables that are responsive and sleeky. The tables created by this tool are mobile responsive and search-engine friendly.
-
+Mobifreaks create data-based tables that are responsive and sleeky. The tables created by this tool are mobile responsive and search-engine friendly.
  
 
 ### **Tools For Testing And Device Detection**

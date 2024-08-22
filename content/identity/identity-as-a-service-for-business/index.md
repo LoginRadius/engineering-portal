@@ -126,7 +126,7 @@ Enterprises can leverage the intelligence capabilities of an Identity as a Servi
 
 **1\. General Data Protection Regulation (GDPR)**
 
-GDPR is the core of Europe's [digital privacy legislation](https://www.eugdpr.org/). It requires businesses to safeguard the personally identifiable information (PII) of the European Union citizens for transactions that occur within the member states. Failure to comply may cost dearly. Individual rights include: 
+GDPR is the core of Europe's digital privacy legislation. It requires businesses to safeguard the personally identifiable information (PII) of the European Union citizens for transactions that occur within the member states. Failure to comply may cost dearly. Individual rights include: 
 
 - Right to be informed.
 - Right of access.

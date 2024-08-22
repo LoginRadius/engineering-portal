@@ -10,7 +10,7 @@ const List = ({ featurePost, slug }) => {
           <ul>
             {featurePost.map(({ node }, i) =>
               slug === node.fields.slug ? null : (
-                <li>
+                <li key={i}>
                   <Link to={node.fields.slug} rel="prev">
                     {node.frontmatter.title}
                   </Link>

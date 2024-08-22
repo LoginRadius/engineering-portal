@@ -66,7 +66,7 @@ A callback URL is a URL in your application where LoginRadius redirects the user
 
 To get the list of whitelisted domains, you can run `lr get domain` command from the cmd prompt. And to add a domain in the list using `lr add domain` command. 
 
-> If you are following this tutorial, you should set the  http://localhost as a whitelisted domain. Check the below image for how to add the domain using LoginRadius CLI.
+> If you are following this tutorial, you should set the  `http://localhost` as a whitelisted domain. Check the below image for how to add the domain using LoginRadius CLI.
 
 ![LoginRadius CLI Add Domain](lr_add_domain.png "LoginRadius CLI Add Domain")
 

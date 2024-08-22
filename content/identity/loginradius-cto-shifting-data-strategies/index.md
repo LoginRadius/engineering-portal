@@ -37,7 +37,7 @@ Now talking about the true potential of customer data, brands that aren’t leve
 
 Over a decade, customer insights have been the game-changer for businesses striving for overall success since they can offer personalized customer journeys and deliver what their end users demand. 
 
-<span style="color: #FF4500">“_Rapid technology adoption has undeniably helped organizations navigate their digital transformation journey. However, the speed of technology adoption in a data-centric landscape without assessing underlying risks has created endless privacy pitfalls_"   says _Deepak Gupta_, _CTO and Co-founder (LoginRadius)_
+<span style="color: #FF4500">“_Rapid technology adoption has undeniably helped organizations navigate their digital transformation journey. However, the speed of technology adoption in a data-centric landscape without assessing underlying risks has created endless privacy pitfalls_"
 
 
 Hence, the ones seeking competitive advantage without losing customer trust must rethink their privacy and data management policies. 

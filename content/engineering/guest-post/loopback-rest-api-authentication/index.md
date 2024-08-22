@@ -194,7 +194,7 @@ The above command will start the TypeScript compiler, which will build the proje
 
 ![Starting LoopBack Server](lSCGXHnw.png)
 
-Next, open your favorite browser and navigate to [localhost:3000](http://localhost:3000). You should see an output as follows:
+Next, open your favorite browser and navigate to `http://localhost:3000`. You should see an output as follows:
 
 ![LoopBack API Dashboard](hL9y8IIg.png)
 

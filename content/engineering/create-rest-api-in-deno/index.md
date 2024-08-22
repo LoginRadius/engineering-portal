@@ -74,7 +74,7 @@ Here we have used [oak](https://deno.land/x/oak), a middleware framework for Den
 deno run --allow-net server.ts
 
 ```
-Open the browser and hit the URL [localhost:8080](http://localhost:8080)
+Open the browser and hit the URL `http://localhost:8080/`
 
 You can see the following output in your browser
 
@@ -277,13 +277,13 @@ await app.listen({ port });
 deno run --allow-net server.ts
 ```
 
-Now open the postman and hit the get URL [http://localhost:8080/todos/](http://localhost:8080/todos/)
+Now open the postman and hit the get URL `http://localhost:8080/todos/`
 
 ![Browser output](all_output.png)
 
 To check the getByID router, copy the ID of any task and hit the URL like 
 
-http://localhost:8080/todos/:id
+`http://localhost:8080/todos/:id`
 
 You will be getting output like below 
 
@@ -303,11 +303,11 @@ Similarly, we can verify the complete crud API created. Below is the reference o
 
 API|Method|Description
 -----|-----|-----
-http://localhost:8080/todos/  |   GET     |   Fetch All todos
-http://localhost:8080/todos/{id}  |GET    |   Fetch todo by ID
-http://localhost:8080/todos/      |POST   |   Create New todo
-http://localhost:8080/todos/{id}  |PUT    |   Update todo by ID
-http://localhost:8080/todos/{id}  |DELETE    |   Delete todo by ID
+`http://localhost:8080/todos/`  |   GET     |   Fetch All todos
+`http://localhost:8080/todos/{id}`  |GET    |   Fetch todo by ID
+`http://localhost:8080/todos/`      |POST   |   Create New todo
+`http://localhost:8080/todos/{id}`  |PUT    |   Update todo by ID
+`http://localhost:8080/todos/{id}`  |DELETE    |   Delete todo by ID
 
 
 You can find the complete code of the repo [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/RestAPIWithDeno) 

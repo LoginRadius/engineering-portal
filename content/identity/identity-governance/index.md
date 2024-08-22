@@ -17,7 +17,7 @@ Identity Governance and Administration (IGA) is defined as the branch of Identit
 In its essence, Identity Governance is about automating the process of giving relevant data access levels to varying stakeholders. Identity Governance is based on the Identity Governance Framework, a project that aimed to standardize the treatment and facilitation of identity information usage in enterprises. 
 
 
-At present, IGA is used by several entities across different industries to improve data security of their systems and meet regulatory compliance such as the [Health Insurance Portability and Accountability Act (HIPAA)](https://www.cdc.gov/phlp/publications/topic/hipaa.html), the [Sarbanes-Oxley Act (SOX)](https://www.congress.gov/bill/107th-congress/house-bill/3763), and the [Gramm-Leach-Bliley Act (GLBA)](http://Gramm-Leach-Bliley%20Act%20|%20Federal%20Trade%20Commission%20(ftc.gov)).
+At present, IGA is used by several entities across different industries to improve data security of their systems and meet regulatory compliance such as the [Health Insurance Portability and Accountability Act (HIPAA)](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html), the [Sarbanes-Oxley Act (SOX)](https://www.congress.gov/bill/107th-congress/house-bill/3763), and the Gramm-Leach-Bliley Act (GLBA).
 
 
 ## 5 Most Common Misconceptions About Identity Governance

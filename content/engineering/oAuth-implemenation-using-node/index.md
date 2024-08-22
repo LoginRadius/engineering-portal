@@ -24,7 +24,7 @@ Once you start the process you will get a form like this.
 
 ![Github App](git_new_app.jpg "Github App")
 
-You need to fill all the required details and put the Authorization callback URL as http://localhost:2400/github/callback (This will be the URL on which Github will send the authorization code once authorization is finished)
+You need to fill all the required details and put the Authorization callback URL as `http://localhost:2400/github/callback` (This will be the URL on which Github will send the authorization code once authorization is finished)
 
 
 Once you register the application you will get the App's Client Id and Secret which we will use in our code.
@@ -197,7 +197,7 @@ We have finished building our OAuth authorization page, let's run the applicatio
 node index.js
 ```
 
-Once our server is running, we can see our social login page on http://localhost:2400/
+Once our server is running, we can see our social login page on `http://localhost:2400/`
 
 ![Social Authentication Page](github_login.jpg "Social Authentication Page")
 
