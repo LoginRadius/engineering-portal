@@ -35,6 +35,43 @@ export default function CardList({ posts, currentPage, type }) {
                 <>
                   <div className={headStyles.image}>
                     <img
+                      src="https://www.loginradius.com/wp-content/uploads/2024/09/Industry-Report-2024-cover.png"
+                      alt="The State of Consumer Digital ID 2024"
+                      style={{ "background-color": "#fff" }}
+                    />
+                  </div>
+                  <div className={headStyles.text}>
+                    <h3 style={{ textAlign: "center" }}>
+                      The State of Consumer Digital ID 2024
+                    </h3>
+                    <a
+                      className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                      // className={"btn-primary ga_event"}
+                      href={
+                        "https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/"
+                      }
+                      key={"the-state-of-consumer-digital-id-2024"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() =>
+                        eventLogger({
+                          category: "The State of Consumer Digital ID 2024",
+                          action: "User clicked on Free Download button",
+                          label: "The State of Consumer Digital ID 2024",
+                        })
+                      }
+                    >
+                      {"LEARN MORE"}
+                    </a>
+                  </div>
+                </>
+              }
+            </div>
+            <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+              {
+                <>
+                  <div className={headStyles.image}>
+                    <img
                       src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
                       alt="Overall CIAM Leader 2024"
                       style={{ "background-color": "#fff" }}
