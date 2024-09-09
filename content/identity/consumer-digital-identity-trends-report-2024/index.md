@@ -3,6 +3,7 @@ title: "LoginRadius Releases 2024 Consumer Identity Report, Highlights the Shift
 date: "2024-09-06"
 coverImage: "trends-report-2024.jpg"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
+pinned: true
 author: "Rakesh Soni"
 description: "LoginRadius analyzed data from its Consumer IAM (CIAM) Platform, utilized by over 500 brands globally. The report offers a unique perspective on global consumer identity trends in 2024, delivering insights into consumer behavior regarding digital identities and providing a comprehensive analysis of their behavior patterns and lifecycle."
 metatitle: "LoginRadius Consumer ID Trends Report 2024 is Now Live"

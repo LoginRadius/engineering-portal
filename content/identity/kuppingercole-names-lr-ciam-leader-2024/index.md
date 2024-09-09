@@ -3,7 +3,6 @@ title: "Leading the Charge in Customer IAM: LoginRadius Recognized as an Overall
 date: "2024-07-10"
 coverImage: "kc-lr-ciam.jpg"
 tags: ["ciam solutions","coverage","b2b"]
-pinned: true
 author: "Rakesh Soni"
 description: "KuppingerCole's 2024 Leadership Compass reports recognize LoginRadius as an overall leader in customer identity and access management (CIAM). LoginRadius excels in innovative workflow management, extensive integration capabilities, comprehensive B2B features, and top-tier security standards. "
 metatitle: "KuppingerCole Names LoginRadius CIAM Leader in 2024 Report"
