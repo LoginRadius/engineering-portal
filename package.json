@@ -43,6 +43,8 @@
     "gatsby-transformer-yaml": "^2.4.1",
     "hast-util-select": "^4.0.0",
     "node-sass": "^4.14.1",
+    "npx": "^10.2.2",
+    "oniguruma": "^7.2.3",
     "prismjs": "^1.20.0",
     "react": "^16.12.0",
     "react-device-detect": "^1.17.0",
@@ -53,13 +55,14 @@
     "react-typography": "^0.16.19",
     "rehype-parse": "^7.0.1",
     "rehype-stringify": "^8.0.0",
+    "sharp": "^0.33.5",
     "twin.macro": "^2.6.2",
     "typeface-barlow": "0.0.71",
     "typography": "^0.16.19"
   },
   "devDependencies": {
     "eslint-config-react-app": "^7.0.0",
-    "husky": "^7.0.2",
+    "husky": "^8.0.3",
     "lint-staged": "^11.1.2",
     "prettier": "2.0.5"
   },
@@ -84,7 +87,7 @@
     "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install || true"
   },
   "lint-staged": {
     "**/*.{js,jsx}": [
