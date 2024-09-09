@@ -7,20 +7,31 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 import ScriptTag from "react-script-tag"
 import js from "./toc__hyperlinkNavFloating"
-
+//let headingCount = 0;
+//let previesHeadingCount = 0;
 const ToC = ({ headings }) => (
   <Toc id="tocUl" className={style.tableofcontents + " " + style.slideOut}>
     <Title id="tocTrigger" className={style.tochead}>
-      <Text className={style.title}>TOC</Text>
+      <Text className={style.title}>Table of Contents</Text>
     </Title>
     <List className={style.list}>
-      {headings.map(heading => {
-        if (heading.depth > 4) {
-          return <div />
-        }
+      {headings.map((heading, index) => {
+        //headingCount = index;
+        /*if(index === 0){
+          headingCount = index+1;
+          previesHeadingCount = heading.depth;
+        }else if(previesHeadingCount === heading.depth){
+          headingCount = headingCount+1;        
+          previesHeadingCount = heading.depth;  
+        }*/
         return (
           <ToCElement key={heading.value}>
             <ToCLink
+              id={`tocLink-${heading.value}`}
+              href={`#${heading.value
+                .replace(/\s+/g, "-")
+                .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, "")
+                .toLowerCase()}`}
               className={"ToCLink"}
               onClick={() =>
                 scrollTo(
