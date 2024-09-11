@@ -15,7 +15,6 @@ import TagMenu from "./tagmenu"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import ToC from "./toc"
-import ReactDOMServer from "react-dom/server" // Import renderToString from react-dom/server
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -41,29 +40,6 @@ const Post = ({ post, relatedPost, type }) => {
     : author.avatar
     ? `${withPrefix("avatar/")}${author.avatar}`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
-
-  const headingId = headings[1].value
-    .replace(/\s+/g, "-")
-    .replace(/[.:;#*+=?!><^&$@%{}()|/[\]\\]/g, "")
-    .toLowerCase()
-  const regex = new RegExp(`id="${headingId}"`, "g")
-  const splitHtml = headings && headings.length && post.html.split(regex)
-
-  // Iterate over the splitHtml array and modify the content
-  const modifiedHtml = splitHtml.map((part, index) => {
-    // Find the second h2 (assuming it’s the second full match)
-    console.log(part)
-    if (index === 0) {
-      const kkk = part.split("<h")
-      console.log(kkk.length - 1)
-      return `${kkk
-        .slice(0, -1)
-        .join("<h")}<div id="toc">${ReactDOMServer.renderToString(
-        <ToC headings={headings} />
-      )}</div><h${kkk[kkk.length - 1].replace(" ", ` id="${headingId}"`)}`
-    }
-    return `${part}` // Keep everything else the same
-  })
 
   return (
     <>
@@ -113,21 +89,10 @@ const Post = ({ post, relatedPost, type }) => {
         <div>
           <div className={`${styles.postDetailInner} pt-96 grid-67-33`}>
             <div>
-              {headings && headings.length ? (
-                <>
-                  <div
-                    className={styles.postContent}
-                    dangerouslySetInnerHTML={{
-                      __html: `${modifiedHtml.join("")}`,
-                    }}
-                  />
-                </>
-              ) : (
-                <div
-                  className={styles.postContent}
-                  dangerouslySetInnerHTML={{ __html: `${post.html}` }}
-                />
-              )}
+              <div
+                className={styles.postContent}
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
 
               <div className={`${styles.author} d-flex py-96`}>
                 <div className={styles.authorImage}>
@@ -191,7 +156,7 @@ const Post = ({ post, relatedPost, type }) => {
                       <img
                         src="https://www.loginradius.com/wp-content/uploads/2024/09/Industry-Report-2024-cover.png"
                         alt="The State of Consumer Digital ID 2024"
-                        style={{ backgroundColor: "#fff" }}
+                        style={{ "background-color": "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
@@ -202,7 +167,7 @@ const Post = ({ post, relatedPost, type }) => {
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}
                         href={
-                          "https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/"
+                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
                         }
                         key={"the-state-of-consumer-digital-id-2024"}
                         target="_blank"
@@ -228,7 +193,7 @@ const Post = ({ post, relatedPost, type }) => {
                       <img
                         src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
                         alt="Overall CIAM Leader 2024"
-                        style={{ backgroundColor: "#fff" }}
+                        style={{ "background-color": "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
@@ -349,6 +314,7 @@ const Post = ({ post, relatedPost, type }) => {
             </div>
           </div>
         </div>
+        {headings && headings.length && <ToC headings={headings} />}
       </section>
       <section key={"pinned_card_cta"} className={styles.bgBright01}>
         <div className={`${styles.grid6633} ${styles.ctaSmall}`}>
