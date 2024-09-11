@@ -156,7 +156,7 @@ const Post = ({ post, relatedPost, type }) => {
                       <img
                         src="https://www.loginradius.com/wp-content/uploads/2024/09/Industry-Report-2024-cover.png"
                         alt="The State of Consumer Digital ID 2024"
-                        style={{ "background-color": "#fff" }}
+                        style={{ backgroundColor: "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
@@ -167,7 +167,7 @@ const Post = ({ post, relatedPost, type }) => {
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}
                         href={
-                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                          "https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/"
                         }
                         key={"the-state-of-consumer-digital-id-2024"}
                         target="_blank"
@@ -193,7 +193,7 @@ const Post = ({ post, relatedPost, type }) => {
                       <img
                         src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
                         alt="Overall CIAM Leader 2024"
-                        style={{ "background-color": "#fff" }}
+                        style={{ backgroundColor: "#fff" }}
                       />
                     </div>
                     <div className={headStyles.text}>
@@ -204,7 +204,7 @@ const Post = ({ post, relatedPost, type }) => {
                         className={`${headStyles.btnPrimary} btn-primary ga_event`}
                         // className={"btn-primary ga_event"}
                         href={
-                          "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                          "https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/"
                         }
                         key={"overall-ciam-leader-2024"}
                         target="_blank"
