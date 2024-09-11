@@ -85,7 +85,7 @@ export default function CardList({ posts, currentPage, type }) {
                       className={`${headStyles.btnPrimary} btn-primary ga_event`}
                       // className={"btn-primary ga_event"}
                       href={
-                        "https://www.loginradius.com/resource/analyst-report/cioreview-names-loginradius-top-ciam-platform-2024/"
+                        "https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/"
                       }
                       key={"overall-ciam-leader-2024"}
                       target="_blank"
