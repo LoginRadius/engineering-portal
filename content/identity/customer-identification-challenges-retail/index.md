@@ -7,6 +7,7 @@ author: "Deepak Gupta"
 description: "Meeting the expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. This insightful read covers all the major challenges that retailers and e-commerce vendors face and how they can overcome them."
 metatitle: "Key Customer Identification Challenges in Retail Industry"
 metadescription: "Retailers and e-commerce businesses are facing diverse customer identification related challenges. Here’s everything on how they can overcome them."
+canonical: https://www.loginradius.com/blog/identity/loginradius-ciam-retail-ecommerce-business/
 ---
 
 Customer identification is becoming a steep climb for retail businesses since customers are no longer forced to consider from among a few options. Today, they have hundreds of options available, both online and offline.
