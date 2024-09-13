@@ -7,6 +7,7 @@ author: "Rajeev Sharma"
 description: "Whether it’s intuitive and personalized user onboarding or a unified view of every consumer, CIAM is becoming the need of the hour for diverse industries. Let’s learn about the endless possibilities of a CIAM that delivers the highest level of customer support services."
 metatitle: "How can CIAM Improve Customer Support?"
 metadescription: "Customer support is the backbone of any business’s success. Learn how a CIAM solution helps enterprises in enhancing their customer support services."
+canonical: https://www.loginradius.com/blog/identity/customer-identity-and-access-management/
 ---
 
 Customer support is considered the most critical aspect of business success in a modern, digitally advanced, and competitive world. 

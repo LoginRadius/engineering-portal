@@ -7,6 +7,7 @@ author: "Deepak Gupta"
 description: "The era of unified login has offered numerous ways through which users can authenticate themselves securely and seamlessly. Let’s understand the fundamental differences between SSO and Social Login that helps you choose the right authentication solution for your business requirements."
 metatitle: "SSO vs. Login: Learn the Difference"
 metadescription: "Social login and SSO are helping brands bridge the gap between user experience and security. This post uncovers the differences between social login and SSO."
+canonical: https://www.loginradius.com/blog/identity/what-is-single-sign-on/
 ---
 
 ## Introduction 

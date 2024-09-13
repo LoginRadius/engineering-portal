@@ -6,6 +6,7 @@ import { StaticQuery, withPrefix } from "gatsby"
 const SEO = ({
   title,
   description,
+  canonial,
   image = null,
   pathname = null,
   article = false,
@@ -37,10 +38,11 @@ const SEO = ({
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
+        canonial: canonial,
         image: img.includes("https") ? img : `${siteUrl}${img}`,
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
-      seo.url = seo.url.replace("/blog/blog","/blog");
+      seo.url = seo.url.replace("/blog/blog", "/blog")
       return (
         <>
           <Helmet
@@ -64,7 +66,10 @@ const SEO = ({
           >
             <title lang="en">{seo.title}</title>
             <link rel="icon" href={withPrefix("/favicon.png")} />
-            <link rel="canonical" href={seo.url} />
+            <link
+              rel="canonical"
+              href={seo.canonial !== "null" ? seo.canonial : seo.url}
+            />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
@@ -74,7 +79,10 @@ const SEO = ({
             <meta name="twitter:site" content="@LoginRadius" />
             <meta name="twitter:creator" content="@LoginRadius" />
             <meta name="twitter:title" content={seo.title} />
-            <meta name="twitter:url" content={seo.url} />
+            <meta
+              name="twitter:url"
+              content={seo.canonial ? seo.canonial : seo.url}
+            />
             <meta name="twitter:description" content={seo.description} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:image" content={seo.image} />
@@ -92,6 +100,7 @@ SEO.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
+  canonial: PropTypes.string,
   article: PropTypes.bool,
 }
 

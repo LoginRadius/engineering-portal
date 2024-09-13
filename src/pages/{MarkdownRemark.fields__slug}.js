@@ -13,6 +13,7 @@ const BlogPostTemplate = ({ data }) => {
     metatitle,
     metadescription,
     description,
+    canonical,
     coverImage,
   } = post.frontmatter
   let type = ""
@@ -32,6 +33,7 @@ const BlogPostTemplate = ({ data }) => {
         description={metadescription || description || post.excerpt}
         image={coverImage && coverImage.childImageSharp.fluid.src}
         pathname={pathname}
+        canonial={`${canonical}`}
         article
       />
       <Post post={post} type={type} />
@@ -58,6 +60,7 @@ export const pageQuery = graphql`
         metadescription
         description
         title
+        canonical
         date(formatString: "MMMM DD, YYYY")
         tags
         coverImage {

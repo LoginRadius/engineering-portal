@@ -7,6 +7,7 @@ author: "Rajeev Sharma"
 description: "RBA is a method of applying various levels of stringency to authentication processes based on the likelihood that the access to a given system could result in it being compromised. As the level of risk increases, authentication becomes more restrictive."
 metatitle: "What is Risk-Based Authentication"
 metadescription: "What is risk-based authentication and how it works. Learn why businesses should use RBA and learn how to implement it using the LoginRadius RBA feature."
+canonical: https://www.loginradius.com/blog/engineering/risk-based-authentication/
 ---
 
 # What is Risk-Based Authentication

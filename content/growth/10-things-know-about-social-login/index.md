@@ -7,6 +7,7 @@ author: "Ivana Radevska"
 description: "Businesses are still relying on old-school login and authentication mechanisms, including organization-level IAM, which is why their business lags behind their competitors. Let’s discuss why businesses need to replace their traditional IAM with new-age CIAM."
 metatitle: "Decoding Social Media Login: 10 Essential Insights on Social Sign In and Sign On"
 metadescription: "Elevate user experience with social login. Explore key insights on social sign-in and enhance your understanding. Implement now for seamless interactions!"
+canonical: https://www.loginradius.com/social-login/
 ---
 ## Introduction  
 
