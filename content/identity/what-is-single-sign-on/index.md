@@ -5,9 +5,9 @@ coverImage: "what-is-sso.jpg"
 tags: ["sso","identity management","cx"]
 author: "Rakesh Soni" 
 description: "SSO is an essential feature of an Identity and Access Management (IAM) access control platform. User identity authentication is important when it comes to understanding which permissions a user will have. One example of controlling access that integrates user identity management solutions with SSO solutions is the LoginRadius Identity platform."
+canonical: https://www.loginradius.com/single-sign-on/
 metatitle: "What Is Single Sign-On (SSO), SSO Authentication and How Does it Work?"
 metadescription: "Single Sign-On (SSO) enables a user to sign in once to access all of their applications and services. Learn how SSO Authentication works, the benefits of implementing SSO. Read More."
-canonical: https://www.loginradius.com/blog/identity/benefits-single-sign-on/
 ---
 ## Introduction
 
