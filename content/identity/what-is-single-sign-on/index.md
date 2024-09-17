@@ -8,7 +8,6 @@ description: "SSO is an essential feature of an Identity and Access Management (
 canonical: https://www.loginradius.com/single-sign-on/
 metatitle: "What Is Single Sign-On (SSO), SSO Authentication and How Does it Work?"
 metadescription: "Single Sign-On (SSO) enables a user to sign in once to access all of their applications and services. Learn how SSO Authentication works, the benefits of implementing SSO. Read More."
-canonical: https://www.loginradius.com/blog/identity/benefits-single-sign-on/
 ---
 ## Introduction
 
