@@ -5,6 +5,7 @@ coverImage: "personalized-marketing.jpg"
 tags: ["ciam solution","data security","cx","authentication"]
 author: "Srishti Singh"
 description: "Personalized marketing is a promotional strategy tailored to the individual at the precise moment they require it, and there's no other communication like it. The question is, how will you fulfill that promise? You may utilize tools to acquire and aggregate information about your clients' preferences. Read on to find out what these tools are and how they benefit your business."
+canonical: https://www.loginradius.com/blog/identity/customer-identity-and-access-management/
 metadescription: "Personalization is the key to success in today’s era. This can be achieved through a CIAM solution. Read on to know more about CIAM and personalized marketing."
 metatitle: "How To Achieve Effective Personalized Marketing With CIAM?"
 ---

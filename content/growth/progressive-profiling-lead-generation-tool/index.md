@@ -5,6 +5,7 @@ coverImage: "lead-gen.jpg"
 category: ["Progressive profiling", "lead generation", "marketing"]
 author: "Vishal Sharma"
 description: "Progressive profiling ensures valuable information about a user is gradually collected over time so that it doesn’t create friction while a user lands on a platform, which enhances the overall quality and number of leads. This blog explains the role of progressive profiling in improving overall lead quality and quantity."
+canonical: https://www.loginradius.com/blog/identity/progressive-profiling/
 metatitle: "How to Use Progressive Profiling as a Lead Generation Tool?"
 metadescription: "With progressive profiling, businesses can enhance their lead generation and ensure quality leads without registration fatigue. Read on to learn more."
 ---
