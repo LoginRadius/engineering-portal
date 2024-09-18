@@ -276,7 +276,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </div>
           </Link>
-
           <Link
             to="#"
             onClick={() => {
@@ -427,7 +426,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </div>
           </Link>
-
           <Link
             to="#"
             onClick={() => {
@@ -505,7 +503,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </div>
           </Link>
-
           <Link
             to="#"
             onClick={() => {
@@ -640,29 +637,32 @@ const Header = ({ searchIndex, pathname, type }) => {
                 </div>
               </div>
               <div className={headerStyles.columns}>
-                <div className={headerStyles.card}>
-                  <Link
-                    to="https://www.kuppingercole.com/events/2024/03/mastering-ciam"
-                    target="_blank"
-                    title="Mastering CIAM: Advanced Techniques"
-                  >
-                    <img src="https://www.loginradius.com/wp-content/uploads/2024/02/KC_LR-Joint-Webinar-Pop-up-banner-.png" />
-                    <p>Mastering CIAM: Advanced Techniques</p>
-                  </Link>
-                </div>
-                <div className={headerStyles.card}>
-                  <Link
-                    to="https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023"
-                    title="Consumer Digital Identity Trend Report 2023"
-                  >
-                    <img src="https://www.loginradius.com/wp-content/uploads/2023/04/Consumer-Digital-Identity-Trends-2023-cover.jpg" />
-                    <p>Consumer Digital Identity Trend Report 2023</p>
-                  </Link>
+                <div>
+                  <h4>
+                    <span
+                      style={{
+                        backgroundImage:
+                          "url(https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/events.svg)",
+                      }}
+                    ></span>
+                    Press & Events
+                  </h4>
+                  <ul>
+                    <li>
+                      <Link to="https://www.loginradius.com/press/">
+                        All Press Releases
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="https://www.loginradius.com/events-and-conferences/">
+                        All Events & Conferences
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </Link>
-
           <div
             className={`${headerStyles.rightmenu} ${
               showMenu === null
@@ -693,75 +693,75 @@ const Header = ({ searchIndex, pathname, type }) => {
             >
               Login
             </Link>
-          </div>
-          <div
-            className={`${headerStyles.navigation} ${
-              showMenu === null
-                ? ""
-                : showMenu === true
-                ? headerStyles.open
-                : headerStyles.close
-            }  ${scrollClass}`}
-          >
-            <ul>
-              <li className={type === "" ? headerStyles.active : ""}>
-                <Link
-                  to={"/"}
-                  activeClassName={headerStyles.active}
-                  partiallyActive={true}
-                  onClick={e => {
-                    document.body.classList.remove("menu-open")
-                  }}
-                >
-                  All
-                </Link>
-              </li>
-              <li className={type === "engineering" ? headerStyles.active : ""}>
-                <Link
-                  to={"/engineering"}
-                  activeClassName={headerStyles.active}
-                  partiallyActive={true}
-                  onClick={e => {
-                    document.body.classList.remove("menu-open")
-                  }}
-                >
-                  Engineering
-                </Link>
-              </li>
-              <li className={type === "identity" ? headerStyles.active : ""}>
-                <Link
-                  to={"/identity"}
-                  activeClassName={headerStyles.active}
-                  partiallyActive={true}
-                  onClick={e => {
-                    document.body.classList.remove("menu-open")
-                  }}
-                >
-                  Identity
-                </Link>
-              </li>
-              <li className={type === "growth" ? headerStyles.active : ""}>
-                <Link
-                  to={"/growth"}
-                  activeClassName={headerStyles.active}
-                  partiallyActive={true}
-                  onClick={e => {
-                    document.body.classList.remove("menu-open")
-                  }}
-                >
-                  Growth
-                </Link>
-              </li>
-              <hr />
-            </ul>
+            <Search
+              customclassName={`${
+                showMenu ? searchStyles.deactive : searchStyles.active
+              }`}
+              searchIndex={searchIndex}
+            />
           </div>
         </div>
-        <Search
-          customclassName={`${
-            showMenu ? searchStyles.deactive : searchStyles.active
-          }`}
-          searchIndex={searchIndex}
-        />
+        <div
+          className={`${headerStyles.navigation} ${
+            showMenu === null
+              ? ""
+              : showMenu === true
+              ? headerStyles.open
+              : headerStyles.close
+          }  ${scrollClass}`}
+        >
+          <ul>
+            <li className={type === "" ? headerStyles.active : ""}>
+              <Link
+                to={"/"}
+                activeClassName={headerStyles.active}
+                partiallyActive={true}
+                onClick={e => {
+                  document.body.classList.remove("menu-open")
+                }}
+              >
+                All
+              </Link>
+            </li>
+            <li className={type === "engineering" ? headerStyles.active : ""}>
+              <Link
+                to={"/engineering"}
+                activeClassName={headerStyles.active}
+                partiallyActive={true}
+                onClick={e => {
+                  document.body.classList.remove("menu-open")
+                }}
+              >
+                Engineering
+              </Link>
+            </li>
+            <li className={type === "identity" ? headerStyles.active : ""}>
+              <Link
+                to={"/identity"}
+                activeClassName={headerStyles.active}
+                partiallyActive={true}
+                onClick={e => {
+                  document.body.classList.remove("menu-open")
+                }}
+              >
+                Identity
+              </Link>
+            </li>
+            <li className={type === "growth" ? headerStyles.active : ""}>
+              <Link
+                to={"/growth"}
+                activeClassName={headerStyles.active}
+                partiallyActive={true}
+                onClick={e => {
+                  document.body.classList.remove("menu-open")
+                }}
+              >
+                Growth
+              </Link>
+            </li>
+            <hr />
+          </ul>
+        </div>
       </div>
 
       {backdrop === true && (

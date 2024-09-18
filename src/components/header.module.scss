@@ -39,12 +39,12 @@
 }
 .header {
   width: 100%;
-    display: flex;
-    min-height: 96px;
-    justify-content: left;
-    position: relative;
-    z-index: 15;
-    margin: auto;
+  display: flex;
+  min-height: 96px;
+  justify-content: left;
+  position: relative;
+  z-index: 15;
+  margin: auto;
   background-color: #020b13;
   margin-top: 47px;
   @media (max-width: 768px) {
@@ -175,6 +175,7 @@
   background: $white;
   position: absolute;
   left: 0;
+  top: 95px;
   @media (min-width: 768px) {
     box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
       0 3px 3px 0px rgba(0, 142, 207, 0.12);
@@ -184,7 +185,7 @@
     transform: translateY(-100%);
     height: auto;
     overflow-y: auto;
-      position: absolute;
+    position: absolute;
     z-index: 12;
     left: 0;
     top: 0;
@@ -252,7 +253,7 @@
         @media (max-width: 768px) {
           justify-content: flex-start;
           padding: 0 $gutter + $gutter/3;
-          height:35px;
+          height: 35px;
         }
         @media (max-width: 480px) {
           padding: 0 $gutter;
@@ -549,59 +550,57 @@
   }
 }
 
-
-
 .primarymenu {
   width: 85%;
   @media (max-width: 768px) {
     background-color: $white;
     width: 100%;
     padding: 40px;
-      overflow: hidden;
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-      height: auto;
-      overflow-y: auto;
-      position: absolute;
-      z-index: 12;
-      left: 0;
-      top: 0;
-      box-shadow: none;
-      &.open,
-      &.close {
-        -webkit-animation-duration: 300ms;
-        animation-duration: 300ms;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-        -webkit-animation-direction: normal;
-        animation-direction: normal;
-        -webkit-animation-timing-function: ease-in-out;
-        animation-timing-function: ease-in-out;
-        transition-delay: 0s;
+    overflow: hidden;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    height: auto;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 12;
+    left: 0;
+    top: 0;
+    box-shadow: none;
+    &.open,
+    &.close {
+      -webkit-animation-duration: 300ms;
+      animation-duration: 300ms;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-direction: normal;
+      animation-direction: normal;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      transition-delay: 0s;
+    }
+
+    &.open {
+      -webkit-animation-name: mobileNavOpen;
+      animation-name: mobileNavOpen;
+      top: 90px;
+      box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
+        0 3px 3px 0px rgba(0, 142, 207, 0.12);
+      @media (max-width: 480px) {
+        top: 65px;
       }
-  
-      &.open {
-        -webkit-animation-name: mobileNavOpen;
-        animation-name: mobileNavOpen;
-        top: 90px;
-        box-shadow: 0 2px 2px 0px rgba(0, 142, 207, 0.12),
-          0 3px 3px 0px rgba(0, 142, 207, 0.12);
-        @media (max-width: 480px) {
-          top: 65px;
-        }
+    }
+    &.close {
+      -webkit-animation-name: mobileNavClose;
+      animation-name: mobileNavClose;
+      top: 90px;
+      @media (max-width: 480px) {
+        top: 0px;
       }
-      &.close {
-        -webkit-animation-name: mobileNavClose;
-        animation-name: mobileNavClose;
-        top: 90px;
-        @media (max-width: 480px) {
-          top: 0px;
-        }
-      }
+    }
   }
-  .customersmenu{
-    .columns{
-      &:nth-child(2){
+  .customersmenu {
+    .columns {
+      &:nth-child(2) {
         width: 66.66%;
         padding: 0;
         text-align: center;
@@ -611,38 +610,38 @@
         }
       }
     }
-    img{
+    img {
       width: 230px;
       margin: 0px 10px;
     }
   }
-	a {
-		color: $white;
-		margin: 35px 20px;
-		display: inline-block;
+  a {
+    color: $white;
+    margin: 35px 20px;
+    display: inline-block;
     font-weight: 500;
     @media (max-width: 768px) {
       color: #000000;
       width: 100%;
       margin: 20px 22px;
     }
-  .chevron{
-        display: block;
-        width: 8px;
-        height: 2px;
-        background: $white;
-        border-radius: 2px;
-        .desktopChevron1Close {
-          -webkit-animation-name: desktopChevron1Close;
-          animation-name: desktopChevron1Close;
-          -webkit-animation-duration: 300ms;
-          animation-duration: 300ms;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-direction: normal;
-          animation-direction: normal;
-          -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+    .chevron {
+      display: block;
+      width: 8px;
+      height: 2px;
+      background: $white;
+      border-radius: 2px;
+      .desktopChevron1Close {
+        -webkit-animation-name: desktopChevron1Close;
+        animation-name: desktopChevron1Close;
+        -webkit-animation-duration: 300ms;
+        animation-duration: 300ms;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-direction: normal;
+        animation-direction: normal;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
       }
       .desktopChevron2Close {
         -webkit-animation-name: desktopChevron2Close;
@@ -655,9 +654,9 @@
         animation-direction: normal;
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out;
+      }
     }
-    }
-    .slideoutpartshow{
+    .slideoutpartshow {
       display: block !important;
       @media (max-width: 768px) {
         width: 100%;
@@ -675,7 +674,7 @@
       transform: rotate(-135deg);
       -webkit-transform: rotate(-135deg);
     }
-    
+
     .slideoutpartarrowdown {
       transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
@@ -692,7 +691,7 @@
         left: 0;
         background-color: $white;
       }
-      
+
       .columns {
         width: 33.33%;
         display: table-cell;
@@ -704,7 +703,7 @@
           width: 100%;
           display: block;
         }
-        &:nth-child(2){
+        &:nth-child(2) {
           background-color: #073857;
           @media (max-width: 768px) {
             background-color: $white;
@@ -712,49 +711,49 @@
             display: block;
           }
         }
-        h4{
+        h4 {
           padding: 0 2rem;
         }
-        a{
+        a {
           margin: 0;
-          padding: .2rem 2rem;
+          padding: 0.2rem 2rem;
         }
-        li{
-          list-style-type:none;
+        li {
+          list-style-type: none;
         }
-        .card{
-          img{
+        .card {
+          img {
             width: 210px;
           }
         }
-        .logos{
+        .logos {
           background: $white;
-          img{
+          img {
             width: 100%;
             padding: 36px 0px;
           }
         }
-        h4{
+        h4 {
           span {
-          display: inline-block;
-          width: 2rem;
-          height: 2rem;
-          margin-right: 0.5rem;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position: center;
-          margin-bottom: -7px;
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            margin-right: 0.5rem;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            margin-bottom: -7px;
           }
         }
       }
     }
-	}
+  }
 }
 .contactsales {
   border: 2px solid #f15e22;
   padding: 10px 18px 10px 18px;
   margin-right: 15px;
-  &:hover{
+  &:hover {
     background-color: #f15e22;
   }
   @media (max-width: 768px) {
@@ -762,22 +761,22 @@
   }
 }
 .rightmenu {
-	margin: 22px;
-	float: right;
+  margin: 22px;
+  float: right;
   @media (max-width: 768px) {
     background-color: $white;
     margin: 0;
     width: 100%;
   }
-  .signupbutton{
+  .signupbutton {
     color: $white;
   }
-	a {
-		display: inline;
-		font-size: 1rem;
-		width: auto;
-		text-transform: uppercase;
-		font-weight: 500;
+  a {
+    display: inline;
+    font-size: 1rem;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 500;
     padding: 20px 20px;
     border-radius: 10px;
     @media (max-width: 768px) {
@@ -787,62 +786,62 @@
       line-height: 35px;
       text-align: center;
     }
-	}
-	a.btn-login {
-		margin: 13px;
-		font-weight: 700;
+  }
+  a.btn-login {
+    margin: 13px;
+    font-weight: 700;
     color: #000000;
-	}
+  }
 }
 
 .hellobar {
-				position: fixed;
-				background: #ff0027;
-				width: 100%;
-				box-shadow: 0 1px 5px rgba(0, 0, 0, .7);
-				font-size: 1.2rem;
-				line-height: 125px;
-				top: 0;
-				left: 0;
-				padding: 9px;
-				overflow: hidden;
-				height: 47px;
-				z-index: 9999999;
-				svg {
-				vertical-align: middle;
-			}
-
-			a {
-				color: #ffffff;
-        text-decoration: underline;
-        margin-left:4px;
-			}
-
-			.content {
-				padding-top: 0px !important;
-				padding-bottom: 0px !important;
-			}
-
-			.hellobartext {
-				color: #fff;
-				text-align: center;
-				display: ruby-text;
-				white-space: nowrap;
-				position: relative;
-			}
-			.hellobartext{
-        .kcicon{
-          display: inline;
-          img {
-			width: 18px;
-			vertical-align: middle;
-			margin-right: 7px;
-          }
-        }
-		}
+  position: fixed;
+  background: #ff0027;
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 125px;
+  top: 0;
+  left: 0;
+  padding: 9px;
+  overflow: hidden;
+  height: 47px;
+  z-index: 9999999;
+  svg {
+    vertical-align: middle;
   }
-			@media only screen and (max-width: 900px) {
-					#notification-bar .notification-text {
-						animation: notificationMove 10s linear infinite;
-					}
-				}
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 4px;
+  }
+
+  .content {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .hellobartext {
+    color: #fff;
+    text-align: center;
+    display: ruby-text;
+    white-space: nowrap;
+    position: relative;
+    .kcicon {
+      display: inline;
+      img {
+        width: 18px;
+        vertical-align: middle;
+        margin-right: 7px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hellobar {
+    .hellobartext {
+      animation: notificationMove 10s linear infinite;
+    }
+  }
+}
