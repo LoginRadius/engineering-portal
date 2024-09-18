@@ -169,6 +169,14 @@
 /169			/blog/169/#all-articles			301
 /170			/blog/170/#all-articles			301
 /171			/blog/171/#all-articles			301
+/identity/infographic-the-death-of-passwords/       	/resource/infographic/death-of-passwords         301
+/identity/social-login-infographic/	        /resource/infographic/consumers-prefer-social-login          301
+/identity/difference-sso-social-login/	           /resource/infographic/sso-vs-social-login            301
+/identity/single-tenant-vs-multi-tenant/	            /resource/infographic/single-tenant-vs-multi-tenant-cloud            301
+/identity/ccpa-vs-gdpr-the-compliance-war	            /resource/infographic/ccpa-vs-gdpr-guide         301
+/identity/loginradius-consumer-digital-identity-trend-report-2020/	            /resource/infographic/consumer-digital-identity-trend-2020           301
+/identity/social-engineering-attacks/	            /resource/infographic/social-engineering-attacks         301
+/identity/cybersecurity-best-practices-for-enterprises/	            /resource/infographic/cybersecurity-best-practices-for-enterprise/           301
 /hosts-file/			/blog/engineering/hosts-file/       301
 /twitter-authentication-with-golang-and-goth/			/blog/engineering/twitter-authentication-with-golang-and-goth/      301
 /css3-responsive-icons/			/blog/engineering/css3-responsive-icons/        301
