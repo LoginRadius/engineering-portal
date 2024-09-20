@@ -69,7 +69,9 @@ export default class Search extends Component {
     return (
       <>
         <a
-          className={`${searchStyle.btnSearch} ${this.props.customClass}`}
+          className={`${searchStyle.btnSearch}${
+            this.props.customClass ? " " + this.props.customClass : ""
+          }`}
           tabIndex={0}
           onClick={e => {
             if (query === "") {
@@ -96,7 +98,7 @@ export default class Search extends Component {
           onSubmit={this.handleSubmit}
           className={`${searchStyle.searchForm} ${
             toggleOpen === null
-              ? ""
+              ? searchStyle.searchInputClose
               : toggleOpen
               ? searchStyle.searchInputOpen
               : searchStyle.searchInputClose
