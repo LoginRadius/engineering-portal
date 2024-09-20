@@ -551,7 +551,7 @@
 }
 
 .primarymenu {
-  width: 85%;
+  width: 60%;
   @media (max-width: 768px) {
     background-color: $white;
     width: 100%;
@@ -779,6 +779,7 @@
     font-weight: 500;
     padding: 20px 20px;
     border-radius: 10px;
+    color: #ffffff;
     @media (max-width: 768px) {
       min-width: 85%;
       display: table;

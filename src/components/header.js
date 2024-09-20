@@ -664,44 +664,44 @@ const Header = ({ searchIndex, pathname, type }) => {
                 </div>
               </div>
             </Link>
-            <div
-              className={`${headerStyles.rightmenu} ${
-                showMenu === null
-                  ? ""
-                  : showMenu === true
-                  ? headerStyles.open
-                  : headerStyles.close
-              }`}
-            >
-              <Link
-                to="https://www.loginradius.com/book-a-demo/"
-                target="_blank"
-                className={`${"btn-primary"} ${headerStyles.signupbutton}`}
-              >
-                Request Demo
-              </Link>
-              <Link
-                to="https://www.loginradius.com/contact-sales"
-                target="_blank"
-                className={`btn-secondary ` + headerStyles.contactsales}
-              >
-                CONTACT SALES
-              </Link>
-              <Link
-                className="btn-login"
-                to="https://accounts.loginradius.com/auth.aspx?return_url=https://adminconsole.loginradius.com/login"
-                target="_blank"
-              >
-                Login
-              </Link>
-              <Search
-                customclassName={`${
-                  showMenu ? searchStyles.deactive : searchStyles.active
-                }`}
-                searchIndex={searchIndex}
-              />
-            </div>
           </div>
+        </div>
+        <div
+          className={`${headerStyles.rightmenu} ${
+            showMenu === null
+              ? ""
+              : showMenu === true
+              ? headerStyles.open
+              : headerStyles.close
+          }`}
+        >
+          <Link
+            to="https://www.loginradius.com/book-a-demo/"
+            target="_blank"
+            className={`${"btn-primary"} ${headerStyles.signupbutton}`}
+          >
+            Request Demo
+          </Link>
+          <Link
+            to="https://www.loginradius.com/contact-sales"
+            target="_blank"
+            className={`btn-secondary ` + headerStyles.contactsales}
+          >
+            CONTACT SALES
+          </Link>
+          <Link
+            className="btn-login"
+            to="https://accounts.loginradius.com/auth.aspx?return_url=https://adminconsole.loginradius.com/login"
+            target="_blank"
+          >
+            Login
+          </Link>
+          <Search
+            customclassName={`${
+              showMenu ? searchStyles.deactive : searchStyles.active
+            }`}
+            searchIndex={searchIndex}
+          />
         </div>
         <div
           className={`${headerStyles.navigation} ${
