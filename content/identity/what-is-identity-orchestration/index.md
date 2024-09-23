@@ -15,7 +15,7 @@ The average person uses between 6 and 7 social media accounts, and about [28% of
 
   
 
-**Why are Traditional Authentication Methods Falling Short?**
+*Why are Traditional Authentication Methods Falling Short?*
 
   
 
