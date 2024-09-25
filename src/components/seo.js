@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, withPrefix } from "gatsby"
-
+import lrLogoAdj from "../../static/logo.svg"
 const SEO = ({
   title,
   description,
@@ -10,6 +10,7 @@ const SEO = ({
   image = null,
   pathname = null,
   article = false,
+  post = null,
 }) => (
   <StaticQuery
     query={graphql`
@@ -43,6 +44,43 @@ const SEO = ({
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
       seo.url = seo.url.replace("/blog/blog", "/blog")
+      const formatDate = dateString => {
+        const date = new Date(dateString)
+        return date.toISOString().split("T")[0] // Extracts "YYYY-MM-DD"
+      }
+      let jsonLd = {
+        "@context": "https://schema.org",
+        "@type": article ? "Article" : "Page",
+        publisher: {
+          "@type": "Organization",
+          name: "LoginRadius",
+          logo: {
+            "@type": "ImageObject",
+            url: lrLogoAdj,
+          },
+        },
+      }
+      if (article) {
+        jsonLd.datePublished = formatDate(post.frontmatter.date)
+      }
+      if (seo.title) {
+        jsonLd.headline = seo.title
+      }
+      if (seo.image) {
+        jsonLd.image = seo.image
+      }
+      if (article) {
+        jsonLd.author = {
+          "@type": "Person",
+          name: post.frontmatter.author.id,
+        }
+      } else {
+        jsonLd.author = {
+          "@type": "Organization",
+          name: "LoginRadius",
+        }
+      }
+
       return (
         <>
           <Helmet
@@ -64,6 +102,7 @@ const SEO = ({
                   ]
             }
           >
+            <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
             <title lang="en">{seo.title}</title>
             <link rel="icon" href={withPrefix("/favicon.png")} />
             <link
@@ -102,6 +141,7 @@ SEO.propTypes = {
   pathname: PropTypes.string,
   canonial: PropTypes.string,
   article: PropTypes.bool,
+  post: PropTypes.object,
 }
 
 export default SEO

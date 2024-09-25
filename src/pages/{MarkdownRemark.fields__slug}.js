@@ -35,6 +35,7 @@ const BlogPostTemplate = ({ data }) => {
         pathname={pathname}
         canonial={`${canonical}`}
         article
+        post={post}
       />
       <Post post={post} type={type} />
     </Layout>
