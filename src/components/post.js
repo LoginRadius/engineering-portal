@@ -11,9 +11,12 @@ import FuelFeatList from "./featurePost/fuel"
 import IdentityFeatList from "./featurePost/identity"
 import styles from "./post.module.scss"
 import Subscribe from "./subscribe"
+import bioStyles from "./bio.module.scss"
 import TagMenu from "./tagmenu"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
+import getTimeToRead from "../utils/timeToRead"
+import Bio from "./bio"
 import ToC from "./toc"
 
 const eventLogger = function ({ category, action, label }) {
@@ -48,14 +51,8 @@ const Post = ({ post, relatedPost, type }) => {
       >
         <div className={headStyles.blogContentPinned}>
           <div className={headStyles.descriptionPinned}>
-            <div className={headStyles.description}>
+            <div className={`${bioStyles.bio} ${headStyles.description}`}>
               <h1>{post.frontmatter.title || post.fields.slug}</h1>
-              <div className={headStyles.text}>
-                <span>By&nbsp;</span>
-                <Link to={`/author/${kebabCase(author.id)}/`}>
-                  <strong>{author.id}</strong>
-                </Link>
-              </div>
               <p
                 className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
                 dangerouslySetInnerHTML={{
@@ -73,6 +70,11 @@ const Post = ({ post, relatedPost, type }) => {
                   </Link>
                 ))}
             </div>
+            <Bio
+              date={post.frontmatter.date}
+              author={author}
+              readingTime={getTimeToRead(post.html)}
+            />
           </div>
           <div className={headStyles.avatarPinned}>
             <Img

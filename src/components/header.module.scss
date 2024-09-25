@@ -551,7 +551,10 @@
 }
 
 .primarymenu {
-  width: 60%;
+  width: 85%;
+  div:first-child{
+    float: left;
+  }
   @media (max-width: 768px) {
     background-color: $white;
     width: 100%;
@@ -617,7 +620,7 @@
   }
   a {
     color: $white;
-    margin: 35px 20px;
+    margin: 35px 10px;
     display: inline-block;
     font-weight: 500;
     @media (max-width: 768px) {
@@ -663,7 +666,7 @@
       }
     }
     .slideoutpartarrow {
-      border: solid #ffffff;
+      border: solid $white;
       border-width: 0 2px 2px 0;
       display: inline-block;
       padding: 4px;
@@ -779,7 +782,7 @@
     font-weight: 500;
     padding: 20px 20px;
     border-radius: 10px;
-    color: #ffffff;
+    color: $white;
     @media (max-width: 768px) {
       min-width: 85%;
       display: table;
@@ -813,7 +816,7 @@
   }
 
   a {
-    color: #ffffff;
+    color: $white;
     text-decoration: underline;
     margin-left: 4px;
   }
@@ -824,7 +827,7 @@
   }
 
   .hellobartext {
-    color: #fff;
+    color: $white;
     text-align: center;
     display: ruby-text;
     white-space: nowrap;
