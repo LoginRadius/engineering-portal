@@ -7,7 +7,6 @@ author: "Rakesh Soni"
 description: "More than just individuals, a perfect CIAM platform needs to be able to incorporate. There are plenty of business processes and activities loaded with identity, and the number of these is only set to increase in the future. Both native and third-party applications that manage customer data are linked by a well-designed customer identity solution."
 metatitle: "8 Key Components of a Perfect CIAM Platform"
 metadescription: "More than just individuals, a perfect CIAM platform needs to be able to incorporate. There are plenty of corporate processes and procedures packed with identity."
-canonical: https://www.loginradius.com/blog/identity/guide-choosing-right-ciam-solution/
 ---
 
 If you aren’t already taking advantage of CIAM (customer identity and access management), you should be. But what components do you need to include if you want to implement the perfect CIAM platform? One that meets all of your organization’s needs, both now and in the future?
