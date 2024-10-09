@@ -5,6 +5,7 @@ coverImage: "coverimage.png"
 author: "Hemant Manwani"
 tags: ["C#","Enum"]
 description: "In this article, I will talk about how Enum.TryParse() works in C# and mistake which we can make while using it."
+canonical: https://www.loginradius.com/blog/engineering/enum-csharp/
 ---
 ## Introduction
  

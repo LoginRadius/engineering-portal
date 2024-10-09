@@ -5,6 +5,7 @@ coverImage: "google_golang.png"
 author: "Puneet Singh"
 tags: ["Go","SocialLogin","Oauth"]
 description: "Learn how to implement Google OAuth2 Authentication in Golang using Goath"
+canonical: https://www.loginradius.com/authenticate/go/twitter/
 ---
 
 In this blog, we’ll be implementing authentication via Google in a Go web application. For this, we’ll be using [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication Package for Go
