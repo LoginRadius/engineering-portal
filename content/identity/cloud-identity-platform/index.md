@@ -3,7 +3,7 @@ title: "Above the Horizon: Exploring the Power of a Strong Cloud Identity Platfo
 date: "2024-01-12"
 coverImage: "cloud-identity-platform.jpg"
 tags: ["cloud identity","user authentication","compliance"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Organizations are investing in scalable cloud platforms; however, safeguarding user identities and information becomes fundamental. As technology becomes advanced, there is a chance to identify the gaps. That’s where the cloud identity platform comes in to secure the platform and bridge the gap that could possibly lead the attacker into the cloud platform."
 metatitle: "Revealing the Power of a Strong Cloud Identity Platform"
 metadescription: "A robust cloud identity platform assists in confidently managing and protecting user identities across diverse cloud applications. Learn more about it."

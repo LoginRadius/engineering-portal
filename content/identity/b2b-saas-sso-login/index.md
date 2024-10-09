@@ -3,7 +3,7 @@ title: "B2B SaaS SSO Login: Exploring Enterprise Considerations in 2024"
 date: "2023-12-01"
 coverImage: "b2b-saas.jpg"
 tags: ["b2b","sso","saas","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Discover the role of SSO login in B2B SaaS. This blog explores challenges, emerging trends, and crucial considerations for enterprises in 2024. From security measures to user-centric design, stay ahead in the dynamic realm of B2B SaaS."
 metatitle: "B2B SaaS SSO Login: Navigating Enterprise Considerations"
 metadescription: "Explore the significance of B2B SaaS Single Sign-On in 2024. Uncover key considerations—from security trends to vendor selection—for informed enterprise decisions."

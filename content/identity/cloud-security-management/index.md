@@ -3,7 +3,7 @@ title: "Protecting a Unified Cloud Platform through Cloud Security Management"
 date: "2021-03-03"
 coverImage: "cloud-security-management.jpg"
 tags: ["cloud security","identity management","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Security management platforms are designated systems that work towards providing network security to an enterprise for the storage of data that they have collected. This process involves security and compliance as well."
 metatitle: "Protect Unified Cloud Platform through Security Management"
 metadescription: "Learn why companies need a unified cloud platform. What are the primary considerations for cloud security management that businesses should swear by."

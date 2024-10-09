@@ -3,7 +3,7 @@ title: "17 Tips to Avoid Shopping Scams on Black Friday & Cyber Monday"
 date: "2021-11-24"
 coverImage: "17-online-shopping-tips-for-consumer.jpg"
 tags: ["data protection","cybersecurity","ciam solution","mfa"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Many people prefer shopping online these days rather than going to a conventional store. Therefore, securing the data of your customers online is an integral part of protecting the organisation as a whole. Your job is to let them shop with some of the best online shopping tips with confidence."
 metatitle: "How to Avoid Black Friday & Cyber Monday Shopping Scams"
 metadescription: "Secure your Black Friday & Cyber Monday spree with 17 expert tips for safe online shopping in 2023. Don't miss out on a secure and delightful experience!"

@@ -2,7 +2,7 @@
 title: "M2M Authorization: Authenticate Apps, APIs, and Web Services"
 date: "2022-04-29"
 coverImage: "m2m-authorization-for-apis-apps-and-web-services.png"
-author: "Deepak Gupta"
+author: "Kundan Singh"
 tags: ["M2M", "Authorization", "Authentication"]
 description: "How can you ensure APIs, web services, and business systems communicate and access the information securely without human intervention? The answer is machine-to-machine (M2M) authorization."
 ---

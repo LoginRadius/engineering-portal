@@ -3,7 +3,7 @@ title: "6 Strategies to Secure Your Cloud Operations Against Today's Cyber Threa
 date: "2021-02-12"
 coverImage: "secure-cloud.jpg"
 tags: ["cloud security","cybersecurity","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "One of the most important steps for successful cloud operations is to keep your cloud environment safe and secure. Generally, businesses are eager to adopt cloud solutions, but the primary factor that keeps enterprises on their toes is their security issues. In this article, we'll discuss a few strategies needed to secure your cloud operations from cyber threats."
 metatitle: "Securing Your Cloud Operations Against Today's Cyber Threats"
 metadescription: "Tips to secure your cloud operations from cyber threats. Understand what is cloud security, why is it important for enterprises, and how to secure cloud computing."

@@ -3,7 +3,7 @@ title: "Exploring Digital Identity Verification with Effective Crucial Data Chec
 date: "2024-01-30"
 coverImage: "dig-identity-verification.jpg"
 tags: ["identity verification","digital identity management","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Ensuring the integrity of digital identities has become businesses' topmost concern in this rapidly evolving world. With every business, especially banking and finance, providing digital services for the customer’s convenience, how do they ensure they have the right person? Well, this blog delves into the intricacies of digital identity verification and how it can benefit businesses struggling with the same situation."
 metatitle: "What is Digital Identity Verification?"
 metadescription: "Digital identity verification plays a crucial role in every industry with stringent regulations. Let’s learn more about it and its key components."

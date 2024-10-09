@@ -3,7 +3,7 @@ title: "Identity Provider: What Is It And Why Should You Invest In One?"
 date: "2021-06-01"
 coverImage: "identity-provider.jpg"
 tags: ["identity management","ciam solution","cx","mfa"]
-author: "Deepak Gupta" 
+author: "Rakesh Soni" 
 description: "Identity management integration is an essential process in today’s consumer-driven world. Identity providers are a great way to offer your consumers an easy sign-in method. So, when they are connecting to your website or online store, it can allow them to login once with their unique details and not have to remember multiple logins."
 metatitle: "Unlocking Identity Providers: A Complete Guide"
 metadescription: "Discover the power of Identity Providers (IdPs) and boost your business security. Learn how IdPs solve key challenges. Invest wisely. Explore now!"

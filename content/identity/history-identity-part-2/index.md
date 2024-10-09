@@ -4,7 +4,7 @@ date: "2019-08-20"
 coverImage: "history-identity-part-2.jpg"
 tags: ["public-sector"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "We covered how identity started in ancient times in Part I of The History of Identity. We concentrate on present times for Part II, where personal names are now considered central to identification and integrity."
 metatitle: "A History of Human Identity in Pictures Part 2 | LoginRadius"
 metadescription: "In Part I of The History of Identity, we covered how identity began in ancient times. For Part II, we focus on current times, where personal names are now considered fundamental to identity and dignity."

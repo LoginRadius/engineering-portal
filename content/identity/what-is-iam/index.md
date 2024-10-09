@@ -4,7 +4,7 @@ date: "2021-01-29"
 coverImage: "What-is-IAM-Cover.jpg"
 tags: ["customer-experience"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Identity and Access Management in cybersecurity refers to the security framework and disciplines for managing digital identities. It regulates the responsibilities and access privileges associated with individual consumers and the conditions in which such privileges are allowed or denied."
 metatitle: "What is Identity and Access Management (IAM)? | LoginRadius"
 metadescription: "Learn about identity and access management in cybersecurity, its benefits and how it works. Find out how to design a modern IAM program for your enterprise."

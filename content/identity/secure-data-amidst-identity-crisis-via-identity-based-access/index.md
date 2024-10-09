@@ -3,7 +3,7 @@ title: "How Identity-Based Access Ensures Robust Infrastructure Security Amidst 
 date: "2022-11-09"
 coverImage: "id-crisis.jpg"
 tags: ["identity management","robust security","mfa","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The conventional identity-management tools aren’t potent enough to shield modern threat vectors. There’s a need for a robust identity management solution that combines existing authentication strategies such as two-factor authentication, biometrics, one-time passwords etc. to help secure an organization's infrastructure."
 metatitle: "Identity-Based Access: Securing Data Amidst Identity Crisis"
 metadescription: "Identity-based access provides greater security and builds customer trust amid the growing identity crisis. Learn how identity management can help."

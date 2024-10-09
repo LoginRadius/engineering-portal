@@ -3,7 +3,7 @@ title: "SAML or OIDC: Which is Better For Your Business?"
 date: "2021-06-08"
 coverImage: "saml-or-oidc-for-business-cover.jpg"
 tags: ["saml","sso","data security","authentication","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "For any company concerned about securing its users' data, getting a grip on SSO can be a daunting task. But determining whether SAML or OIDC is right for your enterprise requires weighing a few characteristics against your business goals."
 metatitle: "SAML or OIDC: Which one is Better For Your Business?"
 metadescription: "Whether you opt for SAML or OIDC, the identity provider you choose can define your app's user-friendliness and security. Find which is better for your business."

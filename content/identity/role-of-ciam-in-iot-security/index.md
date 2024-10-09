@@ -3,7 +3,7 @@ title: "The Role of Customer Identity Management in IoT Security: How It's a Mus
 date: "2022-10-27"
 coverImage: "iot-ciam.jpg"
 tags: ["ciam", "iot security", "compliance"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Just like agility is the way to move quickly and easily; digital agility is now the means to adopt digital transformation quickly through the right tools and processes. This blog explains the aspects of digital agility and how businesses can ensure they’re on the right path to achieving it through the right customer authentication tools and technologies."
 metatitle: "Outsmarting Fraudsters - The Role of CIAM in IoT Security"
 metadescription: "A CIAM helps improve the overall security posture of IoT applications and devices. Read on to learn more about IoT and related security aspects."

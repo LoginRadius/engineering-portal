@@ -4,7 +4,7 @@ date: "2020-06-25"
 coverImage: "Online-Casino-and-Gambling-Industry.jpg"
 tags: ["security"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The online gambling industry, needs to take the necessary steps to build safe and secure platforms for casino operators and consumers."
 metatitle: "Secure your Online Casino and Gambling | LoginRadius"
 metadescription: "Online Casino & Gambling Industry is booming, so is the cyberattacks, find out how to secure the online gambling industry with an advance identity platform."

@@ -2,7 +2,7 @@
 title: "Why B2B Companies Should Implement Identity Management"
 date: "2022-05-31"
 coverImage: "b2b-identity-management.png"
-author: "Deepak Gupta"
+author: "Ravi Teja Ganta"
 tags: ["Identity", "Access Management", "B2B"]
 description: "B2B companies need to manage identity differently to meet customer needs and deliver value efficiently while ensuring secure and seamless access. Read more to learn how your company can implement B2B identity management."
 ---

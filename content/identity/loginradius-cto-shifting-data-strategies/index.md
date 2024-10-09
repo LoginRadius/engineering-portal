@@ -3,7 +3,7 @@ title: "Privacy-Centric Enhancements: CTO Deepak Gupta Shares His Thoughts on Sh
 date: "2022-08-02"
 coverImage: "privacy-centric.jpg"
 tags: ["data privacy", "cloud computing", "progressive profiling"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "With more and more businesses taking place online and grappling with the new privacy and data security complexities, there’s an immediate need to reinvent data management strategies. Let’s understand the role of privacy and data management and how businesses can take the competitive edge."
 metatitle: "LoginRadius’ CTO Shares His View on Shifting Data Strategies"
 metadescription: "Businesses have leveraged customer data for years, but they need to consider utilizing valuable insights. Read on to know more about data privacy strategies."

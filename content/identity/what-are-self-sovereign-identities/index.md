@@ -3,7 +3,7 @@ title: "What are Self-Sovereign Identities?"
 date: "2023-02-03"
 coverImage: "sovereign-ids.jpg"
 tags: ["digital identity", "self sovereign id", "customer data security"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Today, we take a look at what self-sovereign identity is. And although it's easy to get confused with all the buzzwords floating around, incredibly, when many of them are hyped in the media, self-sovereign identity is an essential concept in the evolving landscape of digital identities."
 metatitle: "What are Self-Sovereign Identities? LoginRadius"
 metadescription: "Self-sovereign identities are helping users take total control over their identities to ensure privacy and security. Here’s what you need to know."
