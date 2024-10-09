@@ -3,7 +3,7 @@ title: "SSO vs. Social Login: What’s the Difference? [Infographic]"
 date: "2022-05-31"
 coverImage: "sso-social-login.jpg"
 tags: ["sso","social login","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The era of unified login has offered numerous ways through which users can authenticate themselves securely and seamlessly. Let’s understand the fundamental differences between SSO and Social Login that helps you choose the right authentication solution for your business requirements."
 metatitle: "SSO vs. Login: Learn the Difference"
 metadescription: "Social login and SSO are helping brands bridge the gap between user experience and security. This post uncovers the differences between social login and SSO."

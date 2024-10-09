@@ -3,7 +3,7 @@ title: "How LoginRadius Future-Proofs Consumer Data Privacy and Security"
 date: "2020-06-17"
 coverImage: "consumer-data-privacy.jpg"
 tags: ["data privacy","cx","compliance"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The building blocks that sustain customer loyalty in the long run are authenticity, accountability and excellent customer experience. Organizations need to be clear about how cautious they are when it comes to the privacy and protection of customer data."
 metatitle: "Futureproofing Data Security & Privacy with LoginRadius"
 metadescription: "Bulletproof your business and protect your customer data privacy with the advanced security of LoginRadius' CIAM platform."

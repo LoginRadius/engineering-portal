@@ -3,7 +3,7 @@ title: "Understanding PII Compliance: A Key to Enterprise Data Security"
 date: "2021-07-07"
 coverImage: "pii-compliance-enterprise-cover.jpg"
 tags: ["data security","enterprise security","compliance"] 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The security of personal identity and other details is at increasing risk today, with hackers finding new ways to hack into websites. Therefore, enterprises of all sizes must maintain PII compliance to protect the information of the company and its users."
 metatitle: "Understanding PII for Enterprise Data Security"
 metadescription: "PII Compliance is a highly valuable asset for any enterprise that needs to be protected. Read to understand the need for PII compliance in today’s advanced world."

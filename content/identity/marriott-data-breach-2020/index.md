@@ -4,7 +4,7 @@ date: "2020-04-13"
 coverImage: "marriott-data-breach.jpg"
 tags: ["other"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Marriott International experienced a new data breach in mid-January 2020, which affected about 5.2 million guests."
 metatitle: "Marriott Data Breach 2020: 5.2 Mn Guest Records Were Stolen | LoginRadius"
 metadescription: "Know more about the Marriott data breach in 2020 and the steps you can follow to avoid encountering such cyberattacks."

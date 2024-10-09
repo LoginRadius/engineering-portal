@@ -3,7 +3,7 @@ title: "The Worst Passwords of 2019"
 date: "2019-12-23"
 coverImage: "worst-psswrd-list.jpg"
 tags: ["passwordless login","password management","data security"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Overall, a major challenge for corporations is poor passwords combined with smart hackers. You need cybersecurity that prevents access to your confidential data to protect your business from expensive hacks and breaches. Choose a globally-certified CIAM solution like LoginRadius for state-of-the-art safety and increased customer experience."
 metatitle: "The Worst Passwords of 2019 | LoginRadius"
 metadescription: "The world's worst password list of 2019 is out. What we learned will make you want to improve your company's online security."

@@ -3,7 +3,7 @@ title: "Choosing Between Self-Managed and Service-Based SSO Solutions: A Compreh
 date: "2023-07-03"
 coverImage: "self-managed-vs-service-based.jpg"
 tags: ["single sign-on","compliance","authentication","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Here’s a comprehensive comparison between self-managed and service-based SSO solutions, exploring factors such as control, customization, maintenance, scalability, security, and cost. This blog will help you make an informed decision that aligns with your organization's needs and goals."
 metatitle: "Self-Managed vs. Service-Based SSO: Which is Better?"
 metadescription: "Explore the differences between self-managed & service-based Single Sign-On (SSO) solutions to make the right choice for your company’s authentication needs."

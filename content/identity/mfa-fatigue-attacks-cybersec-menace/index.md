@@ -3,7 +3,7 @@ title: "Why MFA Fatigue Attacks May Soon Be Your Worst Nightmare?"
 date: "2022-10-31"
 coverImage: "mfa-fatigue.jpg"
 tags: ["mfa fatigue", "risk-based authentication", "authentication process"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "MFA fatigue attacks bypass MFA by bombarding a user with multiple login attempts. The account owner accepts the MFA prompt out of desperation or annoyance, leading to an account takeover. Let’s learn how organizations can gear themselves to shield against these attacks."
 metatitle: "MFA Fatigue Attacks: Is it the Next Cybersecurity Menace?"
 metadescription: "MFA fatigue attacks are increasingly becoming more common and businesses must put their best efforts to minimize the risks. Here’s everything you need to know."

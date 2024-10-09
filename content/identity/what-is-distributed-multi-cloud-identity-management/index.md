@@ -3,7 +3,7 @@ title: "Distributed Multi-Cloud Identity Management and Its Endless Business Ben
 date: "2022-12-06"
 coverImage: "multi-id.jpg"
 tags: ["multi cloud", "identity management", "cloud security"]
-author: "Deepak Gupta" 
+author: "Rakesh Soni" 
 description: "Distributed identity management is a portal for combining cloud resources, services, and digital business applications. You can give your customers a robust customer experience by leveraging a distributed multi-cloud identity to ensure robust security and excellent customer experience."
 metatitle: "What is Distributed Multi-Cloud Identity Management?"
 metadescription: "A distributed multi-cloud identity management solution is a distributed capability that lets you leverage identity and access policies. Read this blog to know more."

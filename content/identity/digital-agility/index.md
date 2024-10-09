@@ -3,7 +3,7 @@ title: "Why Organizations Must Use API-Driven CIAM for Digital Agility"
 date: "2021-02-24"
 coverImage: "digital-agility.jpg"
 tags: ["ciam solution","digital transformation","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Digital agility is the ease with which any organization can adapt to changing business needs – by enabling or changing their business processes. For a successful digital transformation, organizations need to invest in resilient business operations, consumer experience initiatives, and technology."
 metatitle: "Why Organizations Must Use API-Driven CIAM for Digital Agility"
 metadescription: "Learn how to leverage a winning API-Driven CIAM solution for digital agility. So, how do you go about achieving your business objectives? Find out here."

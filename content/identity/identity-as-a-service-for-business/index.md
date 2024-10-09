@@ -3,7 +3,7 @@ title: "Identity as a Service (IDAAS): Managing Digital Identities (Updated)"
 date: "2019-12-25"
 coverImage: "idaas-business.jpg"
 tags: ["idaas","digital identity management","ciam solution"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Identity as a service (IDaaS) refers to services provided via the cloud or through SaaS (software-as-a-service) systems for identity and access management. It provides cloud-based authentication provided and managed on a subscription basis by third-party providers."
 metatitle: "What is IDaaS? - Discover The Benefits"
 metadescription: "Identity as a service (IDaaS) This blog highlights the benefits for developers, businesses, and uncover opportunities to better customer experiences."

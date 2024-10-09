@@ -3,7 +3,7 @@ title: "Replatforming 101: Everything You Need to Know"
 date: "2023-03-15"
 coverImage: "replatforming.jpg"
 tags: ["digital transformation","cloud migration","ciam solution"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "In today's rapidly evolving digital landscape, businesses must keep pace with the latest technology to remain competitive. One way to do this is through re-platforming or migrating from an outdated platform to a newer one, often in the cloud. Let’s have a look at the aspects associated with re-platforming."
 metatitle: "What is Replatforming? Definition, Benefits & Best Practices"
 metadescription: "Learn what re-platforming is & how it can help your business upgrade its digital infrastructure. Read our blog post to understand the process & its benefits."

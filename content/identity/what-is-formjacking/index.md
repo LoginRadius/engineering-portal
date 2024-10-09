@@ -4,7 +4,7 @@ date: "2021-01-15"
 coverImage: "what-is-formjacking.jpg"
 tags: ["all, Security"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Formjacking attacks are designed and executed by cybercriminals to steal financial and banking details from payment forms that can be captured directly on the checkout pages from eCommerce websites. Find out more about how this practice can affect your business and how to prevent it."
 metatitle: "What is a Formjacking attack?"
 metadescription: "Formjacking attacks are designed to steal financial details from payment forms. Learn how it affects your business and tips to prevent a formjacking attack."

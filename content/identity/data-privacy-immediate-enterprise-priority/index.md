@@ -3,7 +3,7 @@ title: "Why is Data Privacy an Immediate Enterprise Priority?"
 date: "2022-07-27"
 coverImage: "dg-privacy.jpg"
 tags: ["data privacy", "enterprises", "regulations"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "In the past ten years, the rise of privacy-conscious consumers and emerging data regulations have compelled enterprises to prioritize their data management programs. Read more to learn how data privacy has become an enterprise priority."
 metatitle: "Why Should Data Privacy be An Immediate Enterprise Priority?"
 metadescription: "Enterprise leaders should consider data privacy and security programs more than cost centers since they're fundamental to sustainable business operations."

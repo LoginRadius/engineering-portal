@@ -3,7 +3,7 @@ title: "Boosting Customеr Rеtеntion Ratеs With Stratеgiеs for Passwordlеs
 date: "2024-01-04"
 coverImage: "customer-retntion.jpg"
 tags: ["passwordless authentication","customer retention","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "With the rise in cyber crimes, like phishing attacks, due to weak passwords and password reuse, passwordless authentication is the new way businesses can improve customer retention by providing a sense of security to users."
 metatitle: "Passwordless Authentication for Enhancing Customer Retention"
 metadescription: "Traditional authentication methods can affect customer retention rates. But, as a marketer, you can ensure growth with passwordless authentication! Read more."

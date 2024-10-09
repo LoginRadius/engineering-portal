@@ -4,7 +4,7 @@ date: "2019-09-04"
 coverImage: "history-human-identity-part-3.jpg"
 tags: ["public-sector"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "We showed examples of identity authentication in Part II of the History of Human Identity, such as names and distinctive markings. The final instalment of our 3-part series is this blog. In it, we will concentrate on cultural markers, their usage and violence."
 metatitle: "A History of Human Identity in Pictures Part 3 | LoginRadius"
 metadescription: "In Part II of the History of Human Identity, we showed examples of identity verification such as names and unique markings. This blog is the final instalment of our 3-part series. In it, we'll focus on cultural identifiers—their use and their abuse."

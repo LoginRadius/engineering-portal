@@ -3,7 +3,7 @@ title: "How Poor Login Concurrency can Impact OTT Platforms' Business"
 date: "2021-08-31"
 coverImage: "poor-login-concurrency-impact-ott-platforms-cover.jpg"
 tags: ["data security","ciam solution","broken authentication"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "With the increase in subscriptions and the number of audiences online, several underlying threats have severely impacted the OTT businesses. One such issue is poor login concurrency. Learn how login concurrency is affecting OTT platforms and how they can overcome this dilemma."
 metatitle: "Is Poor Login Concurrency Impacting OTT Platforms?"
 metadescription: "Poor login concurrency can be quite risky for OTT platforms seeking substantial growth coupled with security. Let’s learn how it impacts OTT platforms."

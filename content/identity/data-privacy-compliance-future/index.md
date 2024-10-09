@@ -3,7 +3,7 @@ title: "What Brands Need to Know for Building the Future of Data Compliance?"
 date: "2022-08-31"
 coverImage: "compliance.jpg"
 tags: ["data privacy", "enterprises", "compliance"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Unlike the conventional times when brands used to collect heaps of customer data without their consent, organizations must first build trust in clients before expecting even a bit of detail. Let’s look at some aspects that can help organizations stay ahead of the curve by leveraging digital privacy for compliance management."
 metatitle: "Data Privacy Compliance: A Quick Look At The Future"
 metadescription: "Businesses can thrive on success by building the future of data compliance. Read on to know more about compliances and their importance."

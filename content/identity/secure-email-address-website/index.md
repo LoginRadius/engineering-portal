@@ -4,7 +4,7 @@ date: "2021-01-22"
 coverImage: "secure-email-address-website.jpg"
 tags: ["all, Security"]
 featured: false
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Harvesting bots are here to stay. Luckily, there are a few ways to hide your email address from spammers and hackers who constantly mine for the same. One way is through email harvesting. Let's talk about what it is and then explore the various ways to secure your email address."
 metatitle: "How to secure an email address on your website"
 metadescription: "Secure your email address. Learn about email harvesting, its techniques and explore the various ways on how to secure your email address on a website."

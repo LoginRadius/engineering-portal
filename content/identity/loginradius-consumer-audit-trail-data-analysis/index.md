@@ -4,7 +4,7 @@ date: "2020-07-02"
 coverImage: "Consumer-Audit-Trail.jpg"
 tags: ["industry-news"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The recently released Consumer Audit Trail by LoginRadius tracks threats in real time, handles incident response, and even conducts a forensic analysis on past security incidents, if necessary."
 metatitle: "LoginRadius Consumer Audit Trail For Risk Assessment | LoginRadius"
 metadescription: "Consumer Audit Trail by LoginRadius tracks threats in real-time handles incident response and even conducts forensic analysis on past security incidents."
