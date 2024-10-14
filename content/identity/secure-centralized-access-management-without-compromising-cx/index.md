@@ -3,7 +3,7 @@ title: "Securing Centralized Access Without Compromising User Experience"
 date: "2022-10-17"
 coverImage: "centralized-access.jpg"
 tags: ["centralized access management", "sso", "passwordless"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "While most platforms offer stringent security measures across their devices or applications, many businesses cannot provide a seamless user experience and security when a user switches from one app to another or device to another. Let’s understand how to enhance customer experience without compromising security."
 metatitle: "How to Secure Centralized Access Without Compromising CX?"
 metadescription: "Secure centralized access is becoming the need of the hour as more businesses offer interconnected experiences. Read on to know more centralized access management."

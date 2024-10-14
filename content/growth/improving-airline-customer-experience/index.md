@@ -3,7 +3,7 @@ title: "Enhancing Customer Experience in Airlines With LoginRadius"
 date: "2020-07-29"
 coverImage: "airline-cx.jpg"
 tags: ["airline industry","cybersecurity","cx"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Customer experience in the airline industry is often defined as what the customer perceives and experiences while traveling through the different departure stages and arrival in an airport."
 metatitle: "Airlines Customer Experience: Valuing The Consumer"
 metadescription: "Read this blog to understand how aviation businesses can improve their customer experience and protect customer data with LoginRadius."

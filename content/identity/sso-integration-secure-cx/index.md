@@ -3,7 +3,7 @@ title: "SSO Integration: How to Secure the Customer Experience on Loyalty Platfo
 date: "2021-10-18"
 coverImage: "sso-integration-secure-cx-cover.jpg"
 tags: ["sso","identity management","compliance"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Today, consumers are enjoying flawless experiences on every platform but can’t indulge in a seamless experience when they connect with a loyalty platform for potential benefits. This post helps you understand the biggest challenge for loyalty platforms and how Single Sign-On (SSO) integration for consumer loyalty platforms solves the purpose."
 metatitle: "Securing Customer Experience on Loyalty Platforms with SSO"
 metadescription: "Single Sign-On (SSO) is becoming the industry standard for almost every business. Learn the importance of SSO integration for loyalty platforms for better ROI."

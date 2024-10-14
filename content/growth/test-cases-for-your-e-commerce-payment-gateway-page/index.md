@@ -3,7 +3,7 @@ title: "Test Cases For Your E-commerce Payment Gateway Page"
 date: "2017-07-21"
 coverImage: "Test-Cases-for-your-Ecommerce-Payment-Gateway-Page.png"
 tags: ["payment gateway", "technology", "ecommerce"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Trying to make test cases to build a flawless payment gateway page for your ecommerce website? Here are some factors you need to take seriously before creating test cases for payment gateway page."
 metatitle: "Test Cases For Your E-commerce Payment Gateway Page"
 metadescription: "Trying to make test cases to build a flawless payment gateway page for your ecommerce website? Here are some factors you need to take seriously before creating test cases for payment gateway page."

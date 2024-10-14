@@ -3,7 +3,7 @@ title: "Reinforcing Security with Advanced Risk-Based Authentication in 2024 & B
 date: "2024-02-08"
 coverImage: "rba.jpg"
 tags: ["risk based authentication","mfa","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Explore the significance of Risk-Based Authentication (RBA) in today's digital landscape, where robust security measures are essential. Learn how RBA adds an extra layer of defense against sophisticated cyber threats, shields against modern attack vectors, and enhances security in high-risk situations."
 metatitle: "Why Your Business Needs Risk-Based Authentication in 2024?"
 metadescription: "Discover the power of Risk-Based Authentication in fortifying defenses against modern cyber threats. Learn how businesses can leverage its true potential."

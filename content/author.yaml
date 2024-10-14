@@ -34,10 +34,6 @@
 - id: Zach Norton
   bio: Zach Norton is a digital marketing specialist and expert writer at Pentest-Tools.com, with several years of experience in cybersecurity, writing, and content creation.
 
-- id: Govind Malviya
-  bio: Director of Product Development @ LoginRadius. Likes tech, reading/writing, founding things.
-  github: "GovindMalviya"
-
 - id: Zakary Hughes
   bio: Zak is our resident front end development and design intern. He studied web design and development at the Northern Alberta Institute of Technology. One of his passions, outside of work, is fitness. Legend has it that he once ate a two-bite brownie in a single bite.
 
@@ -693,12 +689,6 @@
 - id: Kundan Singh
   bio: Director of Product Development @ LoginRadius.
 
-- id: Sudhanshu Agarwal
-  bio: Director of consumer Service @ LoginRadius | Technical Support | consumer Success | Leadership | Project Management | Product Implementation
-  linkedin: "sudhanshuagarwal01"
-  github: "Agarwal-Sudhanshu"
-  twitter: "Sudhanshu__"
-
 - id: Bhavya Tugnawat
   bio: A technical support engineer at LoginRadius. He handles the daily technical queries of customers related to the company’s product and provides satisfying solutions to such queries.  He is a true sportsperson, who likes to play outdoor games especially volleyball, handball and cricket.
   linkedin: "bhavya-tugnawat-ab1347171"
@@ -709,7 +699,6 @@
 
 - id: Pankaj Sharma
   bio: Pankaj is a specialist Talent Acquisition Evangelist in the IT space, he comes with around 5 years of extensive experience in the same domain. Pankaj has been through multiple phases in his role with multiple organizations. He has a go-getter attitude and is always open to learning about new stacks.
-
 
 - id: Yash Rathi
   bio: Analog by Birth - Digital by Choice, Director-Client Success at LoginRadius, Technology and fitness enthusiast, Quick Learner, Active Cyclist, loves challenges.
@@ -761,9 +750,6 @@
 
 - id: Akshay Deogiri
   bio: Akshay Deogiri is an SEO outreach specialist at Beaconstac, enabling businesses to bridge their gap between the digital and offline worlds through custom QR codes.
-
-- id: Govind Malviya
-  bio: Director of Product Development @ LoginRadius. Technology lover, likes reading/writing, and creating new things.
 
 - id: Conrad Sturdy
   bio: Conrad is a professional blogger, content maker, and freelance writer at whenipost.com. He has written many great and valuable posts on a variety of topics. Conrad loves outdoor activities. He believes the fresh air brings him inspiration for new ideas.

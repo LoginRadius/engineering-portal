@@ -2,7 +2,7 @@
 title: "Understanding JSONP"
 date: "2018-06-29"
 coverImage: "Screenshot-2018-06-29-12.21.27.png"
-author: Govind Malviya
+author: "Rakesh Soni"
 tags: ["JavaScript","JSONP","API"]
 ---
 

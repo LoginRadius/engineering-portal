@@ -4,7 +4,7 @@ date: "2020-05-14"
 coverImage: "LoginRadius-China-CIAM.jpg"
 tags: ["industry-news"]
 featured: false 
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "With our LoginRadius China CIAM platform, we aim to help businesses securely manage digital identities within the restrictive borders of mainland China."
 metatitle: "LoginRadius China CIAM for Businesses | LoginRadius"
 metadescription: "With LoginRadius China CIAM, we plan to help companies handle digital identities securely within the constraining boundaries of mainland China."

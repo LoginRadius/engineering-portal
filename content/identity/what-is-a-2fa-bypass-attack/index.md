@@ -3,7 +3,7 @@ title: "2FA Bypass Attacks- Everything You Should Know"
 date: "2022-11-04"
 coverImage: "2fa-bypass.jpg"
 tags: ["2fa bypass", "cyberattacks", "risk based authentication"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "2FA bypass attacks are cyberattacks intended for account takeover when hackers have already accessed the credentials of a particular account, and they bypass the second layer of authentication in several ways. This post covers how businesses can shield themselves from the growing number of such threats."
 metatitle: "What is a 2FA Bypass Attack?"
 metadescription: "2FA bypass attacks are creating severe challenges for organizations embarking on a digital transformation journey. Here’s what businesses need to know."

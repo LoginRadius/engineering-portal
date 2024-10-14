@@ -3,7 +3,7 @@ title: "LoginRadius Delivers a Seamless User Experience that Increases Conversio
 date: "2021-10-05"
 coverImage: "loginradius-progressive-profiling-cover.jpg"
 tags: ["progressive profiling","user experience","ciam solution"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Progressive Profiling helps businesses to split a potentially complicated registration process into multiple steps. you can capture business-critical information upfront and then slowly build out a holistic view of your consumers through subsequent actions."
 metatitle: "Deliver Seamless UX with LoginRadius' Progressive Profiling"
 metadescription: "Progressive Profiling helps businesses split complicated registration processes into multiple steps. Learn how LoginRadius’ feature works to scale business growth."

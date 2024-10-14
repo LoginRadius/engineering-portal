@@ -3,7 +3,7 @@ title: "5 Reasons Why LoginRadius Leads the Way in the CIAM Landscape in 2024 & 
 date: "2024-01-24"
 coverImage: "ciam-lead-2024.jpg"
 tags: ["ciam solution","data security","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Discover how LoginRadius’ cutting-edge CIAM solution seamlessly integrates state-of-the-art technology for robust security and unparalleled user experiences, making it the go-to choice for businesses navigating the digital terrain."
 metatitle: "LoginRadius-Leading CIAM Offering RBA & Passwordless Login"
 metadescription: "Learn why LoginRadius is the right CIAM for businesses in 2024 & beyond. Explore innovative features, including device factor in RBA & true passwordless login."

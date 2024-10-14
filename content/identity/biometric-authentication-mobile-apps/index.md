@@ -3,7 +3,7 @@ title: "Announcement - LoginRadius Introduces Convenient and Secure Biometric Au
 date: "2021-02-16"
 coverImage: "biometric-authentication-mobile-apps.png"
 tags: ["biometric authentication","cx","ciam solution"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "The LoginRadius Mobile Biometric Authentication feature is dedicated to mobile applications and enables users to use the FaceID and TouchID of their mobile devices for authentication purposes."
 metatitle: "LoginRadius Biometric Authentication for Mobile Apps"
 metadescription: "LoginRadius Biometric Authentication for mobile apps allow businesses to enhance the user experience and security of the mobile devices."

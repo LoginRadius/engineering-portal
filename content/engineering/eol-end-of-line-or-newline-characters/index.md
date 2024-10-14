@@ -2,7 +2,7 @@
 title: "EOL or End of Line or newline ascii character"
 date: "2017-09-06"
 coverImage: "eol.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Engineering", "EOL", "LF", "Linux", "Mac", "Windows"]
 description: "Learn what are EOL (End of Line) or LF (Line Feed) or NL (New Line) ascii characters (\\n\\r) and why there are two (\\n\\r) newline characters."
 ---

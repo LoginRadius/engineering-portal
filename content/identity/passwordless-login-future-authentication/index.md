@@ -3,7 +3,7 @@ title: "Beyond Passwords: Navigating Tomorrow's Authentication Landscape"
 date: "2024-02-15"
 coverImage: "passswordless-login.jpg"
 tags: ["passwordless login","compliance","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Dive into the future of authentication with our insightful exploration of passwordless technology. Learn why users are abandoning passwords, how passwordless authentication ensures compliance, and why LoginRadius is the top choice for a secure and frictionless authentication experience."
 metatitle: "Passwordless Login - Shaping The Future of Authentication"
 metadescription: "Discover the evolution beyond passwords. Explore the benefits of passwordless technology and why LoginRadius leads the way."

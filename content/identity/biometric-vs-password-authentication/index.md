@@ -3,7 +3,7 @@ title: "Which is Safer: Biometric or Password?"
 date: "2024-01-31"
 coverImage: "biometric-vs-password.jpg"
 tags: ["biometric authentication","password authentication","data privacy"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "The ongoing debate over the use of traditional passwords and biometric authentication underscores the evolving digital security landscape. While traditional password-based authentication is less expensive and ensures minimum friction during the consumer journey, biometric password authentication overcomes all the drawbacks of traditional passwords. Let’s understand more about the strategies to find out the optimal solution to biometric authentication vs password debate."
 metatitle: "Is biometric password safer than password authentication?"
 metadescription: "Biometric password authentication and password-based authentication are two different methods to verify an individual’s identity. However, which one is better?"

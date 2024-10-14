@@ -4,7 +4,7 @@ date: "2021-02-12"
 coverImage: "saas-consumer-support.jpg"
 category: ["all"]
 featured: false
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "An efficient consumer support team is more than just the front line support personnel interacting with your consumers. Supporting consumers must be an organization-wide initiative. All teams bring unique systems, skill sets, and perspectives to your consumer support processes."
 metatitle: "Deliver the Perfect Consumer Support System for SaaS Companies"
 metadescription: "Learn about SaaS consumer support. Read best practices to offer the perfect support system for your consumers. Beginner's guide to exceptional consumer service."

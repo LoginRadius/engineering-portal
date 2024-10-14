@@ -2,7 +2,7 @@
 title: "GUID Query Through Mongo Shell"
 date: "2015-02-23"
 coverImage: "mongo-db-guid.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Engineering","GUID","Mongo"]
 ---
 
