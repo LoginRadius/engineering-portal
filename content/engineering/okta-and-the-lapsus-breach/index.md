@@ -2,7 +2,7 @@
 title: "How Lapsus$ Breached Okta and What Organizations Should Learn"
 date: "2022-03-25"
 coverImage: "how-lapsus-breached-okta.png"
-author: "Deepak Gupta"
+author: "Kundan Singh"
 tags: ["Breach", "Cybersecurity"]
 description: "Businesses have to be extra vigilant in safeguarding customer data. Minor mistakes can cause a massive data breach, violating data privacy regulations and attracting penalties from regulatory authorities."
 ---

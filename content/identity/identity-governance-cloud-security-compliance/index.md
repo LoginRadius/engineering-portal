@@ -3,7 +3,7 @@ title: "Strengthening Security and Compliance: The Role of Identity Governance"
 date: "2023-10-30"
 coverImage: "strength-security.jpg"
 tags: ["identity governance","cloud security","compliance","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Discover the challenges posed by cyber threats and regulatory demands, and delve into the integral role of identity governance solutions. From stringent access controls to real-time compliance monitoring, automation, and risk management, these tools provide a comprehensive approach to fortifying cloud security. Stay ahead of evolving threats and industry standards with cutting-edge identity governance strategies, ensuring unparalleled security and compliance for your business."
 metadescription: "Explore the challenges of cloud security and compliance in the era of advanced cyber threats. Learn the importance of identity governance solutions."
 metatitle: "Empowering Cloud Security: Role of Identity Governance in Strengthening Compliance"

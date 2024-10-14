@@ -3,7 +3,7 @@ title: "A Lot Can Happen In The Cloud: Multi-Cloud Environment and its Optimizat
 date: "2023-01-13"
 coverImage: "cloud-multi.jpg"
 tags: ["multi cloud", cloud cost optimization", "on prem"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Although some features of the cloud are pretty attractive, there exist some that aren’t so attractive but are add-on features that make it highly complex to manage the cloud regularly.  Let’s uncover some optimization aspects of multi-cloud environments and the challenges that can help businesses plan their cloud adoption smartly."
 metatitle: "Multi-Cloud Environment and its Optimization Challenges"
 metadescription: "Multi-cloud deployments are becoming the new normal for accelerating overall business growth. However, specific challenges linger. Read more."

@@ -3,7 +3,7 @@ title: "Top Priorities for Customer IAM Leaders in 2023 and How to Prepare"
 date: "2022-12-16"
 coverImage: "ciam-leaders.jpg"
 tags: ["ciam", "authentication", "data security","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "As we approach the next decade, it is worth looking at what technology will bring to the table and how it can impact the realm of intelligent authentication. Let’s look at some of the top priorities of CIAM leaders in 2023."
 metatitle: "Top 3 Things Customer IAM Leaders Will Prioritize in 2023"
 metadescription: "Whether it’s security, user experience, or customer acquisition, every C-suite executive in the IAM landscape is geared to stay ahead of the curve."

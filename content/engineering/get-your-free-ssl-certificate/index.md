@@ -2,7 +2,7 @@
 title: "Get your FREE SSL Certificate!"
 date: "2017-07-13"
 coverImage: "letsencrypt.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Engineering","SSL"]
 ---
 

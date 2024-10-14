@@ -7,6 +7,7 @@ author: "Kundan Singh"
 description: "LoginRadius is a rapidly-expanding identity management platform. And this time, for its current and new clients, the cloud-based client identity and access management solution has introduced a PIN Login authentication environment."
 metatitle: "PIN Authentication With Enhanced Features | LoginRadius"
 metadescription: "LoginRadius announces the launch of PIN-based login as an additional factor of authentication & usability enhancement to reduce the pain of password."
+canonical: https://www.loginradius.com/blog/identity/what-is-pin-authentication/
 ---
 LoginRadius is a rapidly-expanding platform. And this time, the cloud-based customer identity and access management solution has launched a PIN Login authentication environment for its existing and new customers.
 

@@ -3,7 +3,7 @@ title: "Unlock the Business Benefits of Change Management in Securing Consumer I
 date: "2022-01-19"
 coverImage: "change-managmt.jpg"
 tags: ["ciam solution","digital identity management","cx"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "If you are one of the many businesses that have not yet developed an effective change management strategy, this article is for you. With new data privacy regulations coming into effect, organizations face complex compliance issues. Ignoring these rules can turn out to be expensive."
 metatitle: "Change Management: A Modern Tool For Consumer Security"
 metadescription: "With the increasing consumer demand for convenient digital services, learn why an effective change management strategy is crucial to keep enterprises out of court."

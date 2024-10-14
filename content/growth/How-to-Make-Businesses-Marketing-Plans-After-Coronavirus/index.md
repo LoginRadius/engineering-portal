@@ -4,7 +4,7 @@ date: "2021-03-25"
 coverImage: "business-after-covid-loginradius.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "B2B marketing post-COVID focuses more on the digitization of businesses where consumers are now reached via web articles, digital ads, emails, videos, and virtual presentations. There is much emphasis on fostering better connections, and delivering relevant content to build long-term relationships."
 metadescription: "9 Best post-pandemic B2B marketing strategies. Incorporating these suggestions can reap maximum consumer loyalty, satisfaction, and sustained profitability."
 metatitle: "How to Make Marketing Plans After Coronavirus, now need to think and take action beyond the pandemic."

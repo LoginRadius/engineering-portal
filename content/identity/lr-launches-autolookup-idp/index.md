@@ -3,7 +3,7 @@ title: "Streamlining Authentication: Elevate User Experience with LoginRadius Au
 date: "2023-12-21"
 coverImage: "autolookup-idp.jpg"
 tags: ["identity provider","user authentication","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "LoginRadius introduces AutoLookup IDP, a game-changer in the CIAM landscape. Simplify authentication, save time, and elevate user satisfaction. Explore the benefits of this innovative solution and step into the future of secure and efficient login experiences."
 metatitle: "Elevate Authentication: LoginRadius Launches AutoLookup IDP"
 metadescription: "Discover the seamless authentication revolution with LoginRadius AutoLookup IDP. Streamlining the login experience, saving time, & enhancing security. Read more"

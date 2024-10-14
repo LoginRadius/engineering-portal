@@ -3,7 +3,7 @@ title: "An Introduction to Financial-Grade API (FAPI) for Open Banking"
 date: "2021-10-27"
 coverImage: "fapi-cover.jpg"
 tags: ["data security","oauth","mfa"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "With open banking, consumers can leverage bank accounts and data networking across diverse institutions through APIs (application programming interfaces), which has reshaped the entire banking industry. However, when it comes to the overall security mechanism of open banking, FAPI becomes the need of the hour."
 metatitle: "What is Financial Grade API for Open Banking"
 metadescription: "Open banking is offering endless opportunities to financial and non-financial organizations. Let’s understand how FAPI is securing open banking."

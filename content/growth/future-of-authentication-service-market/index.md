@@ -3,7 +3,7 @@ title: "How Does the Future Look Like for the Authentication Services Market?"
 date: "2021-09-02"
 coverImage: "future-of-authentication-market.jpg"
 tags: ["data security","authentication","mfa","cybersecurity"] 
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Authentication services have a lot to offer every sector possible, from healthcare to even defense. It is essentially the future of login security and will play an important role in reducing ransomware attacks."
 metadescription: "A dive into the market forecast of global authentication services and the future trends. This article aims to determine what developments will take place shortly."
 metatitle: "Future of Login Authentication Service Market"

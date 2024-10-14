@@ -3,7 +3,7 @@ title: "Empowering Your Security: Exploring the Advantages of Time-Based One-Tim
 date: "2023-10-17"
 coverImage: "one-time-passwords.jpg"
 tags: ["data security","OTP","passwordless login","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "From thwarting replay attacks to seamless integration across devices, TOTP ensures robust protection while providing a user-friendly experience. Embrace TOTP as more than a choice—it's a strategic investment in your digital security, promising a safer online journey for individuals and organizations alike."
 metatitle: "Empowering Your Security: Unlocking the Benefits of Time-Based One-Time Passwords (TOTP)"
 metadescription: "Explore the world of Time-Based One-Time Passwords (TOTP) and understand the innovative technology behind TOTP and its role in enhancing digital security."

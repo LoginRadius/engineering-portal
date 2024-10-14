@@ -2,7 +2,7 @@
 title: "StackExchange - The 8 best resources every developer must follow"
 date: "2020-04-25"
 coverImage: "8-stackexchange-resources-dev-follow.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Programmer","Skills"]
 ---
 

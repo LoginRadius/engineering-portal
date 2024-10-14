@@ -3,7 +3,7 @@ title: "3 Digital Onboarding Trends To Watch In 2023 (And What You Can Do About 
 date: "2023-01-06"
 coverImage: "digi-onboard.jpg"
 tags: ["user onboarding", "digital transformation", "omnichannel"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Digital onboarding plays a crucial role in enhancing user experience. This blog will help you understand what digital onboarding is, how it impacts conversions, and the trends in digital onboarding that will shape the future of identity verification."
 metatitle: "Top 3 Digital Onboarding Trends to Watch in 2023"
 metadescription: "Digital onboarding helps businesses convert more users into customers. Here’s a list of digital onboarding trends to watch out for in 2023."

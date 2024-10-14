@@ -3,7 +3,7 @@ title: "What is a Token? What are its Pros and Cons?"
 date: "2021-07-29"
 coverImage: "pros-cons-token-authentication-cover.jpg"
 tags: ["token authentication","authorization","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Tokens are widely used to provide authorization and authentication to users when they access a website or a mobile application. This post covers detailed information about the use of tokens along with its advantages and disadvantages."
 metatitle: "Pros and Cons of Using Token-based Authentication"
 metadescription: "Tokens offer a secure way of authorizing a user but have their own cons. In this post, let’s learn some of the advantages and disadvantages of using tokens."

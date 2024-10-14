@@ -3,7 +3,7 @@ title: "What is Continuous Authentication"
 date: "2021-03-03"
 coverImage: "continuous-authentication-cover.jpg"
 tags: ["continuous authentication","biometric authentication","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Continuous authentication estimates the likelihood that the discrete network users are the ones who they claim to be throughout an entire session. However, the method of continuous authentication is fairly new and has brought a novel perspective to network protection these days."
 metatitle: "What is Continuous Authentication?"
 metadescription: "What is continuous authentication and how it operates. Here are the common verification types that continuous authentication employs for its hassle-free functioning  ."

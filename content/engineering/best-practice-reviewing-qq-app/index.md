@@ -2,7 +2,7 @@
 title: "Best practice for reviewing QQ app"
 date: "2015-08-04"
 coverImage: "qq-app-review-best-practices.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["SocialLogin", "QQ"]
 ---
 

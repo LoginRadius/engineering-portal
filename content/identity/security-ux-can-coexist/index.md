@@ -3,7 +3,7 @@ title: "Can Security and User Experience Co-Exist in the Authenticating and Auth
 date: "2023-01-12"
 coverImage: "ux-security.jpg"
 tags: ["security", "user experience", "customer identity"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Businesses have leveraged a robust customer identity and access management (CIAM) solution for years to secure customer identities and eventually deliver a seamless user experience across multiple touchpoints. Let’s figure out how a CIAM does wonders for a business while creating a perfect user experience and security harmony."
 metatitle: "Security and User Experience: Can The Two Co-Exist?"
 metadescription: "User experience is the key to business success. However, security matters equally. Here’s how businesses can ensure robust security with user experience."

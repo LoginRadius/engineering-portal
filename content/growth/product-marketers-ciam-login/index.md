@@ -3,7 +3,7 @@ title: "The Future is Now: Why Product Marketers Must Embrace CIAM Login"
 date: "2023-02-16"
 coverImage: "prod-marketer.jpg"
 tags: ["login authentication","data security","compliance"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "When we talk about efficient marketing, the role of CIAM login can’t be overlooked. Whether it’s valuable user insights to offer personalized experiences or delivering seamless authentication, marketers love the companionship of a robust CIAM."
 metatitle: "Why Should Product Marketers Care About CIAM Login?"
 metadescription: "Right marketing helps brands acquire new customers and retain current ones. This post portrays the role of CIAM login for product marketing purposes."

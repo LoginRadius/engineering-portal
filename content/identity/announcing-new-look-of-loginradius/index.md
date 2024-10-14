@@ -4,7 +4,7 @@ date: "2020-03-25"
 coverImage: "Announcing-New-Look-of-LoginRadius.png"
 tags: ["LoginRadius", "industry-news"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "LoginRadius is delighted to announce that we now have a new logo."
 metatitle: "LoginRadius Announces Its New Logo | LoginRadius"
 metadescription: "LoginRadius launches new logo as part of its brand-building process. Discover the ideology behind the new look & what has changed in the upgraded version."

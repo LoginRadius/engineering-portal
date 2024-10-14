@@ -3,7 +3,7 @@ title: "A Beginner's Guide to Zero Trust Security Model"
 date: "2021-08-05"
 coverImage: "beginners-guide-zero-trust-security-cover.jpg"
 tags: ["zero trust security","cybersecurity","mfa"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "With the rising number of cyberattacks, there’s an immediate need for a robust mechanism that provides a risk-free digital ecosystem. Zero trust helps businesses create the most secure environment that mitigates the risk of any kind of security breach."
 metatitle: "What is Zero Trust Security and its Business Benefits?"
 metadescription: "Cybercriminals are exploiting weak defense systems causing severe losses. Learn how enterprises can leverage the zero trust model to overcome the situation."

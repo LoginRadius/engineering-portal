@@ -4,7 +4,7 @@ date: "2020-12-03"
 coverImage: "safe-data-act-privacy-law.jpg"
 tags: ["privacy-and-compliance"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The Safe Data Act follows the footsteps of the 2019 draught, but makes a few major changes to the threats of people in the United States to privacy, cybersecurity, and compliance."
 metatitle: "Safe Data Act: A New Privacy Law in the Town"
 metadescription: "Safe Data Act -  let’s help you catch up on this new federal privacy law. Find out its key provisions for Americans  and what businesses have to do to stay compliant."

@@ -2,7 +2,7 @@
 title: "Optimize Your Sign Up Page By Going Passwordless"
 date: "2021-02-10"
 coverImage: "open-source.png"
-author: "Govind Malviya"
+author: "Ravi Teja Ganta"
 tags: ["Passwordless"]
 description: "How passwordless can be an excellent approach to reduce user drops on the signup page with better UX practices."
 ---

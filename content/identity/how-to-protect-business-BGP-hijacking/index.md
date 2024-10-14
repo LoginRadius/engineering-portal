@@ -3,7 +3,7 @@ title: "How to Mitigate BGP Attacks and Secure Your User's Data"
 date: "2021-11-12"
 coverImage: "bgp-attacks.jpg"
 tags: ["enterprise security","cybersecurity"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "The reliance on BGP can be a double-edged sword as, on the one hand, it can be extremely convenient, while on the other, it can have major security lapses. However, enterprises can drastically reduce the risk by adopting the practices mentioned in the blog."
 metatitle: "How to Protect Your Business from BGP Hijacking"
 metadescription: "BGP can be a liability that enterprises cannot ignore. Learn how to protect your enterprise from BGP route hijacking."

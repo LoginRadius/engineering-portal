@@ -3,7 +3,7 @@ title: "Announcement - LoginRadius Introduces Password Policy to Ensure Best Pra
 date: "2021-02-11"
 coverImage: "loginradius-password-policy.png"
 tags: ["password management","data security","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "In securing company and customer data, the LoginRadius Password Policy provides the first line of protection. The newly released function offers a plethora of robust password management opportunities, from setting difficulty criteria to stopping users from choosing previously used passwords."
 metatitle: "LoginRadius Password Policy for Businesses and Consumers"
 metadescription: "Using the LoginRadius Password Policy feature, companies can make their applications and user accounts more secure collectively."

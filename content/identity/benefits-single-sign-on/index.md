@@ -7,6 +7,7 @@ author: "Rakesh Soni"
 description: "Now that more enterprises are moving to the cloud, customers expect seamless access from anywhere, anywhere, and on any computer, to multiple applications. Likewise, as most large corporations have hundreds of touchpoints under different labels, trying to handle them all will strain their IT departments."
 metatitle: "Unlocking the Top 7 Advantages of Single Sign-On (SSO)"
 metadescription: "Discover the benefits of SSO and how it enhances productivity, security, and user experience. Implement SSO for streamlined authentication."
+canonical: https://www.loginradius.com/blog/identity/what-is-single-sign-on/
 ---
 ## Introduction
 

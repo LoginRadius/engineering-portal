@@ -4,7 +4,8 @@ date: "2021-05-12"
 coverImage: "cover.jpg"
 author: "Akash Patil"
 tags: ["Authentication", "React", "CLI", "LoginRadius CLI"]
-description: "In this tutorial, we will learn about implementing authentication for React applications using LoginRadius in under 5 mins. We will be using the LoginRadius CLI, through which we can perform basic actions of the LoginRadius Dashboard on the command line in a fast and proficient manner."  
+description: "In this tutorial, we will learn about implementing authentication for React applications using LoginRadius in under 5 mins. We will be using the LoginRadius CLI, through which we can perform basic actions of the LoginRadius Dashboard on the command line in a fast and proficient manner."
+canonical: https://www.loginradius.com/blog/engineering/guest-post/role-based-user-authentication-with-loginradius-and-reactjs/
 ---
 
 Hey Everyone !!! This blog will walk you through the steps necessary to quickly implement authentication mechanisms for your React application by leveraging [LoginRadius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login) and the [LoginRadius CLI](https://github.com/LoginRadius/lr-cli) with the help of examples. 

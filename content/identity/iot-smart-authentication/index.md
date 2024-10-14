@@ -3,7 +3,7 @@ title: "Announcement - LoginRadius Smart and IoT Authentication to Offer Hassle-
 date: "2020-12-02"
 coverImage: "loginradius-iot-smart-authentication.png"
 tags: ["authentication","data security","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Smart and IoT Authentication from LoginRadius is a realistic solution to ensure customers are securely logged in. It removes the password entry burden and as a result, eliminates data protection threats related to password attacks."
 metatitle: "LoginRadius Launches Smart and IoT Authentication"
 metadescription: "With Smart and IoT Authentication by LoginRadius, we decided to provide a very simple authentication method for smart and IoT system users."

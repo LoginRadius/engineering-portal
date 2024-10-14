@@ -4,6 +4,7 @@ date: "2020-06-04"
 coverImage: automation_ief.png
 author: Sudhey Sharma
 tags: ["OpenSource","Automation"]
+canonical: https://www.loginradius.com/blog/identity/loginradius-identity-experience-framework/
 ---
 
 We're delightfully announcing the open source automation suite to test all the standard authentication cases of LoginRadius Identity Experience Framework.

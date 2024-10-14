@@ -4,7 +4,7 @@ date: "2021-04-16"
 coverImage: "how-ui-ux-affects-registration-cover.jpg"
 tags: ["other"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Login is a big deal that decides the entire UX your website is going to deliver. Businesses should try to put as little resistance as possible into their registration process. As with it comes customer identities—the most accurate first-party data beneficial for conversions and customer retention."
 metatitle: "A Detailed Guide: How UX/UI Affects Registration"
 metadescription: "Best practices that businesses should adopt to create easy-to-sign up registration forms. Also, find examples of high-converting sign up pages  wrt UI and UX."
