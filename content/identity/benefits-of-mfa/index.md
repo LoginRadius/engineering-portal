@@ -7,6 +7,7 @@ author: "Rakesh Soni"
 description: "When it comes to information security, the MFA plays a crucial role. It protects information from possible hacks, keeps an eye on employee accounts, and scares hackers away. Besides this even though their login credentials are leaked by accident, it protects users."
 metatitle: "7 Benefits of Using Multi-Factor Authentication ( MFA)"
 metadescription: "Multi-Factor Authentication (MFA) is used to verify customer identity. Learn benefits of using multi-factor authentication and how it enhances business security using additional layers of authentication."
+canonical: https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/
 ---
 One of the primary mfa benefits is that it provides additional security layers and decreases the chance of consumer identities becoming compromised.
 

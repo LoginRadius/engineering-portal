@@ -3,7 +3,7 @@ title: "What Brands Need to Know for Building the Future of Data Compliance?"
 date: "2022-09-19"
 coverImage: "id-first.jpg"
 tags: ["identity management", "mfa", "ciam","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Identity management is undoubtedly the new leadership model for data protection and business growth. And an identity-first security mechanism is swiftly becoming the need of the hour. This blog highlights the aspects of incorporating identity-first security and how businesses can navigate their digital success."
 metatitle: "Decoding the Ethics of Identity-First Security"
 metadescription: "Identity-first security is helping businesses navigate their overall success through secured access to crucial resources. Here’s what you need to know."

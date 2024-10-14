@@ -3,7 +3,7 @@ title: "What is Cloud Identity and its Benefits?"
 date: "2023-06-13"
 coverImage: "cloud-identity.jpg"
 tags: ["cloud identity", "identity management", "cx"]
-author: "Deepak Gupta" 
+author: "Rakesh Soni" 
 description: "Cloud Identity has emerged as a game-changer in a digitally connected world. Learn how cloud identity simplifies user experiences, enhances security, and enables seamless integration with cloud services. Discover the advantages of centralized identity management and built-in compliance features for organizations of all sizes."
 metatitle: "What is Cloud Identity? Exploring Benefits and Advantages"
 metadescription: "Uncover the advantages of Cloud Identity and how it helps streamline the user experience and scalability without compromising security."

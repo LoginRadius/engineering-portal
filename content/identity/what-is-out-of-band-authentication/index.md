@@ -3,7 +3,7 @@ title: "What is Out-of-Band Authentication?"
 date: "2022-07-22"
 coverImage: "oob-auth.jpg"
 tags: ["authentication", "MFA", "customer data security"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Securing customer information is becoming more challenging, especially in a remote-first working environment with a poor line of defense. OOB authentication is used as a part of multi-factor authentication (MFA) or 2FA that verifies the identity of a user from two different communications channels, ensuring robust security."
 metatitle: "What is Out-of-Band Authentication? Process & Benefits"
 metadescription: "Out-of-Band Authentication (OOBA) adds an extra layer of security to the authentication process. Read more to learn about the OOBA process & its benefits."

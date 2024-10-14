@@ -3,7 +3,7 @@ title: "How to Set Up Two-factor Authentication on All Your Online Accounts?"
 date: "2021-01-12"
 coverImage: "how-to-setup-2fa-online-accounts.jpg"
 tags: ["2fa","mfa","cx"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "2FA is one of the best security methods that use two layers to verify a consumer’s identity. This means, rather than simply entering the password to log into an account, two-factor authentication requires a code to be sent via text message to a consumer's phone number or generated through an app"
 metatitle: "Empower Security: A Guide to 2FA Setup for Online Accounts"
 metadescription: "Unlock advanced security! Learn how to enable 2FA on online accounts. Step-by-step guide, authenticator app insights, and why 2FA is crucial for robust protection. Enhance your security now!"

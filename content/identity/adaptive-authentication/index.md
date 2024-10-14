@@ -7,6 +7,7 @@ author: "Vishal Sharma"
 description: "Adaptive authentication is a game-changer for enterprises that require strong fencing to protect consumer and enterprise data. Here’s a quick read depicting the role and need for adaptive authentication instead of just multi-factor authentication."
 metadescription: "Adaptive authentication offers robust and secure authentication. Learn how adaptive authentication can work for securing your business and consumer data."
 metatitle: "Adaptive Authentication for Frictionless Customer Experience"
+canonical: https://www.loginradius.com/blog/engineering/what-is-adaptive-authentication/
 ---
 ## Introduction
 

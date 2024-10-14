@@ -2,7 +2,7 @@
 title: "LoginRadius Launches a CLI for Enterprise Dashboard"
 date: "2023-01-16"
 coverImage: "cli-1.png"
-author: "Deepak Gupta"
+author: "Kundan Singh"
 tags: ["enterprise", "admin console", "developers"]
 description: "We are happy to announce that we have launched LoginRadius CLI for enterprise dashboard."
 metatitle: "LoginRadius Launches CLI for its Enterprise Dashboard"

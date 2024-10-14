@@ -3,7 +3,7 @@ title: "Authentication, Identity Verification, and Identification: What's the Di
 date: "2022-07-06"
 coverImage: "auth-identity.jpg"
 tags: ["authentication","identity verification","identity security"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "People usually consider authentication, id verification, and identification the same thing, but they are entirely different when we see stuff through the lens of information security experts. Learn the fundamental differences between the three and the importance of each from an information security perspective."
 metatitle: "Authentication, Identity Verification, and Identification"
 metadescription: "Authentication, identity verification, and  identification are crucial aspects from an IT security perspective. Read on to know the difference between them."

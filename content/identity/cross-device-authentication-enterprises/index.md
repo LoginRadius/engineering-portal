@@ -3,7 +3,7 @@ title: "Cross-Device Authentication and Tracking: The Opportunities and Underlyi
 date: "2022-06-21"
 coverImage: "cross-device.jpg"
 tags: ["cross device", "authentication", "digital transformation"]
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "Cross-device tracking enables quick tracking of users across multiple devices. However, leveraging such technologies across multiple platforms has underlying risks. This post uncovers the aspects of cross-device authentication and what business owners need to understand."
 metatitle: "Cross-Device Authentication: What Enterprises Should Know"
 metadescription: "Cross-device authentication and tracking could benefit business marketing, but associated privacy concerns can’t be overlooked. Read on to know more."

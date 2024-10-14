@@ -4,7 +4,7 @@ date: "2017-09-07"
 coverImage: "canada-to-fine-companies.jpg"
 tags: ["security"]
 featured: false 
-author: "Deepak Gupta"
+author: "Rakesh Soni"
 description: "The news of Canada to fine companies for not reporting data breaches is making headlines these days. Know what it means for your business."
 metatitle: "Canada Fines Companies Over Data Breaches"
 metadescription: "The news of Canada to fine corporations for not reporting data breaches is making headlines these days. Know what it means for your company."

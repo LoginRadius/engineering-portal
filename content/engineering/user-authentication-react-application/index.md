@@ -5,7 +5,7 @@ coverImage: "authentication-main.png"
 author: "Versha Gupta"
 tags: ["Authentication", "LoginRadius", "React"]
 description: "This article focuses on helping developers learn how to integrate user authentication in React applications and determine the basic principles of authentication with React."
-
+canonical: https://www.loginradius.com/blog/engineering/guest-post/role-based-user-authentication-with-loginradius-and-reactjs/
 ---
 
 This guide uses LoginRadius API for authenticating React apps. It provides React developers with a more straightforward way to add user authentication to react apps. To handle a lot of authentication implementation information, LoginRadius offers a high-level API. Using security best practices, now you can protect your response apps while writing less code.

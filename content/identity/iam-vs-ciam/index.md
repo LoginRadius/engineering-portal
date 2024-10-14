@@ -3,10 +3,11 @@ title: "IAM vs. CIAM: Which Solution is Right For You?"
 date: "2019-03-21"
 coverImage: "IAM-vs-CIAM-V01.01-01-1.png"
 tags: ["iam","ciam","identity management"]
-author: "Deepak Gupta" 
+author: "Rakesh Soni" 
 description: "In order to serve customers, conventional identity management is no longer enough. This truly ought to go without saying. After all, internal management systems were initially designed to handle employee identities, and consumer preferences are not generally matched with their preferences of a successful user experience."
 metatitle: "IAM vs. CIAM: Which Solution is Right For You? [Infographic]"
 metadescription: "In order to serve customers, conventional identity management is no longer enough. In this infographic, iam vs ciam, check out which solution is better for you"
+canonical: https://www.loginradius.com/blog/identity/customer-identity-and-access-management/
 ---
 
 The conventional employee identity and access management (IAM) systems were initially designed to manage employee identities. And they aren’t potent enough to cater to customers' diverse needs pertaining to user experience and security. 
