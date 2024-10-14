@@ -3,7 +3,7 @@ title: "How to Target Your Ideal Customer with User Profile Management?"
 date: "2023-02-22"
 coverImage: "profile-mangemnt.jpg"
 category: ["user experience", "ciam", "user management"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Targeting the right audience isn’t a piece of cake. It requires much effort, detailed user insights from user profiles, and research to develop a plan to increase engagement. This blog uncovers the aspects of user profile management with CIAM and how businesses can navigate their success journey by targeting the right audience."
 metadescription: "User profile management unlocks the doors to engage more users and help create fruitful marketing campaigns. Read this insightful post to know more."
 metatitle: "How to Find Your Ideal Customer With User Profile Management"

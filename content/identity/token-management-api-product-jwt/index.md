@@ -3,7 +3,7 @@ title: "Are You Thinking of Token Management for Your API Product? Think about J
 date: "2022-01-04"
 coverImage: "token-managmt.jpg"
 tags: ["security"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "A token plays a crucial role in enhancing the overall security mechanism of an organization. This post will help you better understand what a token is, what is a JWT, and its pros that will help you decide why you need to invoke the potential of JWT for your API product."
 metatitle: "Are You Using  JWT Token Management for Your API Products"
 metadescription: "Tokens help provide secure authentication to users on an online platform. Read on to know more about JWT and its advantages for API products."

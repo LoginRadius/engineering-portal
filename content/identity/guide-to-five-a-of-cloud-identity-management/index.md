@@ -3,7 +3,7 @@ title: "A Comprehensive Guide to the Five A's of Cloud Identity Management"
 date: "2023-08-03"
 coverImage: "cloud-identity-mngmnt.jpg"
 tags: ["cloud identity","identity management","biometric authentication"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Discover the vital elements contributing to a secure and efficient cloud identity framework, from strong authentication methods to centralized account management and comprehensive audit logging."
 metatitle: "The Five A's of Cloud Identity Management"
 metadescription: "Explore the key components of Cloud Identity Management: authentication, authorization, account management, audit logging, and accountability."

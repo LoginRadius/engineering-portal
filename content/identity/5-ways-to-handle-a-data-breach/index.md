@@ -3,7 +3,7 @@ title: "How to Manage Situation After a Data Breach"
 date: "2021-07-27"
 coverImage: "5-ways-to-handle-a-data-breach-cover.jpg"
 tags: ["data security","cybersecurity","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Data breaches are becoming the new normal and enterprises aren’t aware of the necessary steps that should be taken immediately after a breach. This post offers valuable insights that help organizations to quickly and effectively manage a situation after a data breach is detected."
 metatitle: "5 Efficient Ways to Minimize the Risk After Data Breach"
 metadescription: "Data breaches can lead to losses worth millions of dollars. Here are some aspects that should be considered after your organization witnessed a breach."

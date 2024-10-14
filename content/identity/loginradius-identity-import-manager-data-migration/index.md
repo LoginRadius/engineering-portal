@@ -4,7 +4,7 @@ date: "2020-07-15"
 coverImage: "LoginRadius-Identity-Import.jpg"
 tags: ["customer-experience"]
 featured: false 
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "The LoginRadius Identity Import Manager is a flexible tool that allows companies to import and manage multiple customer profile data from any different application, service, or database."
 metatitle: "LoginRadius Import Manager For Data Migration | LoginRadius"
 metadescription: "Now you can import and manage multiple customer profile data from any different application with LoginRadius Identity Import Manager."

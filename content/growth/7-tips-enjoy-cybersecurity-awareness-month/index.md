@@ -3,7 +3,7 @@ title: "7 Tips For Your Enterprise To Have A Great Cybersecurity Awareness Month
 date: "2022-10-06"
 coverImage: "cybermonth.jpg"
 category: ["cybersecurity awareness month", "online security"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "This October, we're celebrating Cybersecurity Awareness Month by sharing a few ideas you can do with your team at work. The first step to keeping your company safe is knowing what to look for, and these activities will help you raise awareness about the vulnerabilities out there."
 metatitle: "7 Tips to Enjoy a Great Cybersecurity Awareness Month 2022"
 metadescription: "To celebrate October's Cybersecurity Awareness Month, we've dug up some fun and innovative ideas for your team for infusing awareness throughout the month."

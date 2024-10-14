@@ -1,7 +1,7 @@
 ---
 title: "How to Choose the Right User Authentication Option for your Product"
 date: "2021-11-08"
-author: "Govind Malviya"
+author: "Rakesh Soni"
 coverImage: "user-authentication.jpg"
 tags: ["data security","passwordless login","authentication","mfa"]
 description: "When choosing the right authentication option for your product, there’s a lot of confusion and misconceptions that may eventually make it difficult to finalize one or even more."

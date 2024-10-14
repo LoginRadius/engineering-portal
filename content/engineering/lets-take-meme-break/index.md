@@ -96,8 +96,4 @@ MEMEs can light the environment for every programmer in the world. On that note,
 
 ![](21.png)
 
-### 21. Semicolon; - [Govind Malviya](/author/govind-malviya/)
-
-![](20.png)
-
 If you have better ones, reply in the comments below and we’ll include them.

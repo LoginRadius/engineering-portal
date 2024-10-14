@@ -3,7 +3,7 @@ title: "Securing Corporate Applications: A Comprehensive Guide to Enterprise App
 date: "2023-11-22"
 coverImage: "application-security.jpg"
 tags: ["data security","compliance","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "In the tech-driven business world, safeguarding corporate applications is crucial. This blog guides you through evolving threats, proactive measures, and key components to ensure the security of critical applications."
 metatitle: "Enterprise Application Security: A Comprehensive Guide"
 metadescription: "Explore strategies for securing corporate applications in a dynamic cyber landscape. Learn proactive measures, regulatory compliance, & components for security."

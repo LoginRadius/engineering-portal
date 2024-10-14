@@ -3,7 +3,7 @@ title: "6 Tips to Prevent Accidental Data Exposure Within Your Company"
 date: "2022-12-21"
 coverImage: "data-exposure.jpg"
 tags: ["data leak", "customer data", "data security"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "The threat of data exposure is real. With the amount of sensitive personal information that companies are collecting and storing, accidental data exposure can be devastating to a company's reputation. Here are some ways to keep your organization's critical data safe."
 metatitle: "How to Prevent Accidental Data Exposure Within Your Company?"
 metadescription: "Accidental data exposure can be devastating to a company's reputation. Here are some tips to protect your data and keep your organization safe from hackers."

@@ -4,7 +4,7 @@ date: "2021-08-25"
 coverImage: "smart-cities-improve-unified-identity-cover.jpg"
 tags: ["security"]
 featured: false
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Civilian engagement is a significant factor that can offer valuable insights to enhance the current services that pave the path for the region’s overall development. This post highlights the role of digital identities in supporting the idea of smart cities."
 metatitle: "Improve the Future of Smart Cities with Unified Identity"
 metadescription: "Digital identity is paving the way for developing smart cities that helps to deliver a unified customer experience to civilians. Here’s an insightful read."

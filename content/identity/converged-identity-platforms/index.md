@@ -3,7 +3,7 @@ title: "Streamlining Access with Converged Identity Platforms"
 date: "2023-09-29"
 coverImage: "streamlined-access.jpg"
 tags: ["identity governance","user provisioning","sso","mfa"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "A Converged Identity Platform (CIP) is a unique solution that unifies the management of identities, access controls, and security policies across an organization. It brings together various components like Single Sign-On (SSO), Multi-Factor Authentication (MFA), User Provisioning, and Identity Governance and Administration (IGA) into a single digital ecosystem. CIP eliminates the need for numerous disjointed systems and offers a centralized process for identity management."
 metatitle: "Learn All About the Converged Identity Platform"
 metadescription: "Converged identity platforms help streamline access for improved user experience in the highly connected digital world. Read to know more."

@@ -2,7 +2,7 @@
 title: "Cloud storage vs Traditional storage"
 date: "2015-04-21"
 coverImage: "cloud-vs-traditional-storage-1.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Cloud", "Storage"]
 ---
 

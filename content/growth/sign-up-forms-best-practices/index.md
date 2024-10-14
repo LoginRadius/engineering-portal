@@ -4,7 +4,7 @@ date: "2017-04-28"
 coverImage: "The-ultimate-guide-to-craft-sign-up-forms-that-covert-like-crazy.png"
 category: ["technology"]
 featured: false 
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Do your signup forms contribute in your lead generation campaign? Craft your signup forms with these best practices to make sure they convert like crazy."
 metatitle: "The Ultimate Guide to Craft Sign-up Forms That Convert Like Crazy"
 metadescription: "Do your signup forms contribute in your lead generation campaign? Craft your signup forms with these best practices to make sure they convert like crazy."

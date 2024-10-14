@@ -3,7 +3,7 @@ title: "Enhancing Customer Experience in Retail Industry"
 date: "2020-05-05"
 coverImage: "retail-cx.jpg"
 tags: ["cx", "ciam solution","compliance"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Not only does a perfect plan for customer experience rely on the product, store, and customers, but also on how companies smartly coordinate the entities listed. They need to integrate customer service through multiple genres of retail."
 metatitle: "Retail Industry: Enhancing Customer Experience"
 metadescription: "In order to attract new customers and retain their current customer base, the retail industry shifts according to the new technologies by focusing on CX."

@@ -3,7 +3,7 @@ title: "Deliver Exceptional Omnichannel Customer Experience [Infographic]"
 date: "2020-04-01"
 coverImage: "omnichannel-experience.jpg"
 tags: ["omnichannel cx","ciam solution","convenience"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "A multifold approach to advertising, selling, and helping consumers through various marketing touchpoints is an omnichannel consumer experience. To learn more, check out the infographic."
 metatitle: "Omnichannel Customer Experience [Infographic]"
 metadescription: "The omnichannel consumer experience is here to stay. And it is all set to emerge as a game-changer with rising popularity. Check out the infographic to know how."

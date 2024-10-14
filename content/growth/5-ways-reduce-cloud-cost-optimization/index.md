@@ -3,7 +3,7 @@ title: "How to Reduce Your Cloud Bills Without Compromising Security"
 date: "2022-09-15"
 coverImage: "cloud-cost.jpg"
 category: ["cloud computing", "cloud storage", "single tenant", "multi tenant"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Although cloud computing has offered endless opportunities to businesses embarking on a digital transformation journey, the cost associated with the number of unused resources could be a worrying aspect. This blog covers the aspects of cloud cost optimization with tips to reduce your cloud bills."
 metatitle: "Cloud Cost Optimization - 5 Ways to Reduce Your Cloud Bills"
 metadescription: "With the increasing global cloud adoption, cloud cost optimization has become the toughest challenge for businesses. Here’s how to reduce your cloud costs."

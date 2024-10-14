@@ -3,7 +3,7 @@ title: "True Passwordless Authentication: Stronger Defense Against Cyberattacks"
 date: "2023-08-29"
 coverImage: "true-passwordless-auth.jpg"
 tags: ["passwordless authentication","cybersecurity","ciam solution","cx"]
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "True passwordless authentication has broadened the horizons for businesses seeking secure yet user-friendly authentication mechanisms. This authentication mechanism helps enterprises to safeguard sensitive information and further gain the trust of their customers with a safe digital environment."
 metatitle: "Role of True Passwordless Authentication in Digital World"
 metadescription: "True passwordless authentication has revolutionized how businesses securely manage customer identities without hampering user experience. Read on to learn more."

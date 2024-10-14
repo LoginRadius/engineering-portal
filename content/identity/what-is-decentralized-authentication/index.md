@@ -4,7 +4,7 @@ date: "2021-09-21"
 coverImage: "what-is-decentralized-authentication-cover.jpg"
 tags: ["security"]
 featured: false 
-author: "Govind Malviya"
+author: "Rakesh Soni"
 description: "Decentralized Authentication is the key to advancing in the future, and now it depends on how you try to implement it. This blog explains what decentralization means for the next wave of business security."
 metatitle: "What is Decentralized Authentication? | LoginRadius"
 metadescription: "Know more about decentralization authentication, what it is and how it is changing the world around us. Is it necessary or just a hype created?"

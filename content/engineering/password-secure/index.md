@@ -2,7 +2,7 @@
 title: "Password Security"
 date: "2015-05-14"
 coverImage: "password-security.png"
-author: "Govind Malviya"
+author: "Kundan Singh"
 tags: ["Security", "Password"]
 ---
 

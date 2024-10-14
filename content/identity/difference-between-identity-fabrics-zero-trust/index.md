@@ -3,7 +3,7 @@ title: "Identity Fabric vs. Zero Trust: Is One a Better Alternative Than The Oth
 date: "2022-10-27"
 coverImage: "id-fabrics.jpg"
 tags: ["identity fabric", "zero trust", "identity management"]
-author: "Sudhanshu Agarwal"
+author: "Rakesh Soni"
 description: "Identity fabric and zero trust are two different ways of managing business resources, one focusing on identity and the other on data. This blog will help you understand the difference between the two approaches and their benefits for your organization's security strategy."
 metatitle: "Identity Fabrics vs Zero Trust – What’s the Difference?"
 metadescription: "Identity fabric and zero trust  approaches may seem similar on the surface. In this article, we'll examine how both work, and which is right for your organization."
