@@ -3,7 +3,7 @@ title: "How to Use Multi-Factor Authentication When You Don’t Have Cell Phone 
 date: "2018-12-19"
 coverImage: "use-mfa.jpg"
 tags: ["mfa","data security","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "To verify the identity of clients, many security-minded organisations use multi-factor authentication. The most popular approach is to send a code via SMS text message to customers, which the customer then enters on the website or app. But what if you drive and have no mobile phone service? For authenticating yourself, you have a few other choices. Before you fly, just make sure to set them up!"
 metatitle: "How to Use Multi-Factor Authentication When You Don't Have Cell Phone Access"
 metadescription: "What if you drive and have no mobile phone service? For authenticating yourself, you have a few other choices. Before you fly, just make sure to set them up!"

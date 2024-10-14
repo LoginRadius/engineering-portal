@@ -3,7 +3,7 @@ title: "Maintaining Quality Data Security Practices"
 date: "2021-04-30"
 coverImage: "data-security-loginradius.jpg"
 tags: ["data security","mfa","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Data security is important for businesses today, more than it ever was. By definition, data security is the practice of protecting digital information from unauthorised access, cyber corruption or theft."
 metadescription: "Learn about the risks, data breaches and data security, as well as best practices for data protection and top 5 simple ways to maintain quality data security."
 metatitle: "Top 5 simple ways and steps to secure and sustain data security for business"

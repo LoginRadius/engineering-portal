@@ -3,7 +3,7 @@ title: "What is Identity Proofing and Why is it Important?"
 date: "2020-12-18"
 coverImage: "identity-proofing.jpg"
 tags: ["data security","identity proofing","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Identity proofing is the process of verifying that the claimed identity of a person matches their actual identity. You’ve probably undergone this process a bunch of times yourself at hotels, financial institutions, and for retailers."
 metatitle: "What is identity proofing and Why is it important?"
 metadescription: "Identity proofing is an approach to verify someone’s identity. As the reliance on cloud-based ecosystems intensifies, understand how it protects business identity."

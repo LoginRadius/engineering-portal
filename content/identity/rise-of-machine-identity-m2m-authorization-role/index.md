@@ -3,7 +3,7 @@ title: "Is the Rise of Machine Identity Posing a Threat to Enterprise Security?"
 date: "2022-02-24"
 coverImage: "machine-id.jpg"
 tags: ["data security","authorization","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Cybercriminals are always on the hunt to exploit a loophole in the overall security mechanism in the digital world where machine-to-machine communication is the new normal. It’s no longer enough to assume services/devices accessing sensitive data can be trusted."
 metatitle: "The Rise of Machine Identity & the Role of M2M Authorization"
 metadescription: "Machine identity thefts and security breaches aren’t uncommon these days. Learn how machine-to-machine authorization mitigates cybersecurity risks."

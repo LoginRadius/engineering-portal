@@ -3,7 +3,7 @@ title: "LDAP Authentication: Meaning and How it Works?"
 date: "2023-07-20"
 coverImage: "ldap-authentication.jpg"
 tags: ["user authentication", "identity management", "cx"]
-author: "Rakesh Soni" 
+author: "Deepak Gupta" 
 description: "Explore the world of LDAP authentication, its meaning, and how it works. Discover its applications, including integration with Active Directory. Learn about the client-server authentication process and the challenges involved."
 metatitle: "LDAP Authentication: Meaning, Functionality, & Integration"
 metadescription: "LDAP authentication is quickly becoming the preferred method of secure authentication for businesses. Learn everything you need to know about LDAP."

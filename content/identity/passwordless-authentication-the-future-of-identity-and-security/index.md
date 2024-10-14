@@ -7,7 +7,6 @@ author: "Rakesh Soni"
 description: "The war cry among experts lately when it comes to online safety is: The future is passwordless! So, why does passwordless authentication matter so much?"
 metatitle: "Unlock Security: Exploring Passwordless Authentication"
 metadescription: "Dive into the future of identity protection with passwordless authentication. Discover methods, benefits, and how LoginRadius ensures robust security."
-canonical: https://www.loginradius.com/blog/identity/what-is-passwordless-login/
 ---
 
 When it comes to online security, the battle cry among experts lately is: “The future is passwordless!” So, why is passwordless authentication so important?

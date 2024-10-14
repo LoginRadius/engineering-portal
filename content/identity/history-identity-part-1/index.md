@@ -4,7 +4,7 @@ date: "2019-08-07"
 coverImage: "history-identity-part-1.jpg"
 tags: ["public-sector"]
 featured: false 
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "The definition of human identity extends back to unrecorded history for thousands of years. We used language, artefacts, and records long before our identities were digitised and stored in databases to reflect and affirm our individuality."
 metatitle: "A History of Human Identity in Pictures – Part 1 | LoginRadius"
 metadescription: "The concept of human identity stretches back thousands of years into unrecorded history. Long before our identities were digitized and stored in databases, we used language, objects, and documents to represent and confirm our individuality."

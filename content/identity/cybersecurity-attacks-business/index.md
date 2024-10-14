@@ -3,7 +3,7 @@ title: "Cybersecurity Awareness Month: Predicting the Deadliest Cyber Attacks in
 date: "2021-10-05"
 coverImage: "cybersecurity-attacks.jpg"
 tags: ["data security","cybersecurity","compliance","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Cybersecurity incidents take place by various means every day. From virtual banking breaches to semi-open attacks, 2021 has been rough on IT security. But, how did we get to this point of compromise and uncertainty?"
 metatitle: "Cyber Attack Predictions That Can Hurt Your Business in 2022"
 metadescription: "Discover the most common types of cyberattacks that may harm consumers and enterprises in 2022. Also, assess the biggest cybersecurity attacks witnessed in 2021."

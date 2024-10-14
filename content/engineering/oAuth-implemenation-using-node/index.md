@@ -4,7 +4,6 @@ date: "2020-03-22"
 coverImage: "oauth.png"
 author: "Puneet Singh"
 tags: ["Oauth", "NodeJs"]
-canonical: https://www.loginradius.com/blog/engineering/google-authentication-with-nodejs-and-passportjs/
 ---
 
 In this blog, we’ll be implementing OAuth by Github in a Node.js Application

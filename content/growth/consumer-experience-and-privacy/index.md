@@ -4,7 +4,7 @@ date: "2021-02-24"
 coverImage: "consumer-experience-privacy.jpg"
 category: ["all"]
 featured: false
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Consent as well as robust security protocols play key roles in walking the fine line between data management and consumer privacy expectations. An organization that handles their consumers’ data ethically stands to gain a considerable edge against competitors through greater access to data, consumer trust, and potential to secure more privacy-conscious consumers."
 metatitle: "Walking the Fine Line Between Consumer Experience and Privacy"
 metadescription: "How to manage equilibrium between customer experience, security and privacy. Learn how to enable a frictionless consumer experience."

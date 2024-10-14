@@ -3,7 +3,7 @@ title: "What is Federated SSO (Single Sign-On)?"
 date: "2022-08-17"
 coverImage: "federated-sso.jpg"
 tags: ["single sign-on", "federated sso", "authentication"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "With fed SSO, businesses can bridge the authentication gap between multiple platforms and enable users to access services without needing a separate login at the partner platform. This blog explains fed SSO and how businesses should leverage it."
 metatitle: "Federated SSO Explained: Impact, Benefits, and Best Practices"
 metadescription: "Discover the essence of Federated Single Sign-On (SSO) – its impact on businesses, benefits, and best practices. Uncover how it simplifies authentication across applications and domains."

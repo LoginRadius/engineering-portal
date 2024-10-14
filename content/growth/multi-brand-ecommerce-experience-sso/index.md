@@ -3,7 +3,7 @@ title: "Multi-Brand Ecommerce: Creating a One-Brand Experience Using SSO"
 date: "2022-01-11"
 coverImage: "multibrand.jpg"
 tags: ["data security","sso","ciam solution","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "SSO bridges the gap between multiple interconnected platforms and cuts the need for re-authentication for a consumer. Let’s understand how SSO is paving the path for the next generation of e-commerce giants to deliver rich multi-brand experiences across their platforms."
 metatitle: " How to Build a One-Brand Ecommerce Experience with SSO"
 metadescription: "Creating a one-brand experience is key to e-commerce success. Learn how single sign-on helps deliver rich consumer experiences across diverse platforms."

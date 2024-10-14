@@ -3,7 +3,7 @@ title: "How LoginRadius Helps Enterprises Stay CCPA Compliant in 2020"
 date: "2020-03-06"
 coverImage: "ccpa-compliant.jpg"
 tags: ["data privacy","compliance","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "As the risk of data misuse is rising, more and more enterprises are trying to comply with current data protection and regulatory enforcement."
 metatitle: "How LoginRadius Helps Enterprises Stay CCPA Compliant | LoginRadius"
 metadescription: "Find out how LoginRadius' customer identity and access management (CIAM) solution will improve customer loyalty and help enterprises remain CCPA compliant."

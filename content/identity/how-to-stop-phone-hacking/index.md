@@ -3,7 +3,7 @@ title: "How To Make Sure Your Phone Isn’t Hacked"
 date: "2020-12-09"
 coverImage: "stop-phone-hacking.jpg"
 tags: ["data security","cybersecurity","authentication"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Hacking your smartphone may feel like someone has stolen your home. Go through this checklist to protect your phone from being hacked."
 metatitle: "How to make sure your phone isn't hacked"
 metadescription: "Read this blog to understand what are the steps you can take in order to avoid your phone from being hacked by cybercriminals."

@@ -3,7 +3,7 @@ title: "Striking the Perfect Balance: Leveraging Identity Orchestration for Cost
 date: "2023-06-20"
 coverImage: "identity-orchestration.jpg"
 tags: ["identity orchestration","compliance","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Discover the power of identity orchestration in achieving a balanced approach to cost, security, and user experience. Explore the advantages of centralized user management and streamlined authentication for a seamless digital environment that optimizes resources and enhances security measures."
 metatitle: "Balancing Cost, Security, and UX with Identity Orchestration"
 metadescription: "Learn how identity orchestration enables organizations to achieve a harmonious balance between cost optimization, enhanced security, and UX."

@@ -3,7 +3,7 @@ title: "Managing Privacy and Compliance in a Cookieless World"
 date: "2022-04-20"
 coverImage: "cookieless-world.jpg"
 tags: ["data security", "privacy", "compliance", "progressive profiling"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Businesses need to gear up for the new reality and ensure they create a perfect harmony while adhering to the privacy and compliances while delivering a seamless user experience simultaneously. Let’s look at some crucial aspects that businesses must adapt to remain compliant and grow in a cookieless world."
 metatitle: "How to Manage Privacy and Compliance in a Cookieless World?"
 metadescription: "Managing privacy and compliance in a cookieless world will forever change the business landscape. Here’s what every business owner should know."

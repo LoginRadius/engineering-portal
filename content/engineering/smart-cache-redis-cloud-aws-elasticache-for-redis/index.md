@@ -2,7 +2,7 @@
 title: "Breaking Down the Decision: Why We Chose AWS ElastiCache Over Redis Cloud"
 date: "2023-08-09"
 coverImage: "migrating-to-aws-elasticache-for-redis.jpg"
-author: "Kundan Singh"
+author: "Deepak Gupta"
 tags: ["Cache", "AWS", "Redis", "LoginRadius"]
 description: "ElastiCache’s capabilities are better suited than Redis Cloud for our technical requirements and use cases, especially better scalability and pricing."
 ---

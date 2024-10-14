@@ -5,7 +5,6 @@ coverImage: "mfa-cover.png"
 tags: ["mfa","authentication","ciam solution","cx"]
 author: "Rakesh Soni" 
 description: "Multi-factor authentication (or MFA) is a multi-layered protection framework that verifies the login or other transaction identities of users. A few examples of multi-factor authentication are codes created by mobile apps, answers to personal security questions, codes sent to an email address, fingerprints, etc."
-canonical: https://www.loginradius.com/multi-factor-authentication/
 metatitle: "Unlocking Security: Multi-Factor Authentication ( MFA ) Solutions"
 metadescription: "Gain comprehensive insights for multi-factor authentication (MFA) and understand its crucial role in safeguarding your company's data against cyber threats."
 ---

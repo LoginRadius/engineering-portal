@@ -4,7 +4,7 @@ date: "2021-02-23"
 coverImage: "password-management.jpg"
 category: ["all"]
 featured: false
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "When it comes to a password manager for business, always invest coherently.  As there are immense options available in the market with forever free and feature scale-up modes, prioritize better functionality and security over fancy designs or a complicated interface."
 metatitle: "5 Tips for Choosing the Right Password Manager"
 metadescription: "What is a password manager and why do you need a good password manager for your business. Learn how to choose the right password manager for your team."

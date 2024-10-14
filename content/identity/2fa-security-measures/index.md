@@ -3,7 +3,7 @@ title: "Strengthening Security Measures: The Role of Two-Factor Authentication (
 date: "2023-11-17"
 coverImage: "2fa-security.jpg"
 tags: ["data security","2FA","MFA","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Dive into the world of Two-Factor Authentication (2FA) and its pivotal role in fortifying security. Discover the dual-layered defense, benefits against cyber threats, and insights on implementing MFA and RBA for a proactive defense strategy."
 metatitle: "Unlocking Security: The Power of Two-Factor Authentication"
 metadescription: "Explore the impact of Two-Factor Authentication (2FA) in bolstering digital security. Learn about its defense, benefits, challenges & the future with MFA & RBA."

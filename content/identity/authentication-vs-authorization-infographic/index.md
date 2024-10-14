@@ -3,7 +3,7 @@ title: "Authentication and Authorization Defined: What's the Difference? [Infogr
 date: "2020-06-11"
 coverImage: "authentication-vs-authorization.jpg"
 tags: ["authentication","authorization","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "As companies progress towards digital maturity in times of robust cloud-based systems and stringent online security, authentication and authorization are used in conjunction with each other."
 metatitle: "Authentication vs. Authorization: Know the Differences"
 metadescription: "Authentication and authorization are two important concepts in cybersecurity that are often confused. Check out the infographic to understand the differences & how they work."

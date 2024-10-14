@@ -5,7 +5,6 @@ coverImage: "retail-ecommerce.jpg"
 tags: ["ciam solution","compliance","cx"]
 author: "Rakesh Soni"
 description: "As the retail and e-commerce industry enters the modern digitalization age, a giant leap forward has been made by consumer experience when engaging with a brand. In reality, it has moved goods and services into the overall shopping experience as a secondary entity. For customers, they are no longer the motivating impetus to approach a store."
-canonical: https://www.loginradius.com/blog/identity/loginradius-ciam-retail-ecommerce-business/
 metatitle: "How LoginRadius Help Retailers To Manage Identities | LoginRadius"
 metadescription: "Managing identities for retail & ecommerce business. The article describes how LoginRadius enhance security with a world-class CIAM solution."
 ---
