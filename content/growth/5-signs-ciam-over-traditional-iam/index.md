@@ -3,7 +3,7 @@ title: "5 Signs Your Traditional IAM System Needs a CIAM Makeover"
 date: "2022-05-10"
 coverImage: "traditional-iam.jpg"
 tags: ["ciam solution","login authentication","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Businesses are still relying on old-school login and authentication mechanisms, including organization-level IAM, which is why their business lags behind their competitors. Let’s discuss why businesses need to replace their traditional IAM with new-age CIAM."
 metatitle: "5 Signs Your Business Needs CIAM Over Traditional IAM"
 metadescription: "The traditional IAM will not work for the new-age customers. Read this insightful post to understand the importance of a reliable CIAM for business growth."

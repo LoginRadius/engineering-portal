@@ -3,7 +3,7 @@ title: "Reconsidering Social Login from a Security and Privacy Angle"
 date: "2018-11-20"
 coverImage: "reconsidering-social-login.jpg"
 tags: ["social login","data security","cx"]
-author: "Rakesh Soni" 
+author: "Deepak Gupta" 
 description: "Login strategies can come and go, but the identity of the customer is here to stay. In the wake of two major exposures of data on Facebook and Google+ exacerbated by social login, the repercussions for B2C companies can be addressed. Are social login privacy and security threats still worth the convenience? And what steps do businesses take to safeguard consumer data and preserve public confidence? Let 's begin with a bit of history."
 metatitle: "Reconsidering Social Login from a Security and Privacy Angle"
 metadescription: "Social Login Reconsidered, brings out four social login use cases. Such use cases minimise the risks of unauthorised access and disclosure while retaining the ease of user experience."

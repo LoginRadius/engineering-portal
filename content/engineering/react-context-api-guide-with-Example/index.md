@@ -5,7 +5,6 @@ coverImage: "title-image.png"
 author: "Versha Gupta"
 tags: ["React", "Redux", "Hooks"]
 description: "Deep Dive into React's Context API with example"
-canonical: https://www.loginradius.com/blog/engineering/react-context-api/
 ---
 
 # React's Context API Guide with Example

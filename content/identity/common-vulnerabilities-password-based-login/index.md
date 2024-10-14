@@ -7,7 +7,6 @@ author: "Srishti Singh"
 description: "Password-based login is the most commonly used form of authentication, but it's not always the most secure. This blog covers some of the common security issues found in password-based login systems and how to avoid them."
 metatitle: "Common Vulnerabilities in Password-Based Login"
 metadescription: "Password-based login is a common way to authenticate to a system, but it doesn't always offer strong security. Learn some tips to avoid the vulnerabilities."
-canonical: https://www.loginradius.com/blog/identity/best-practices-username-password-authentication/
 ---
 ## Introduction  
 

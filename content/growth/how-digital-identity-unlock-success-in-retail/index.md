@@ -5,7 +5,6 @@ coverImage: "dig-identity-retail.jpg"
 tags: ["digital identity management","ecommerce","cx"]
 author: "Vishal Sharma"
 description: "With the rise of e-commerce, mobile shopping, and social media, retailers can use digital identity to personalize the customer experience, optimize marketing efforts, and drive sales. Let’s uncover the aspects of digital identity and how it thrives overall retail success."
-canonical: https://www.loginradius.com/blog/identity/loginradius-ciam-retail-ecommerce-business/
 metatitle: "How Digital Identity Unlock Success In Retail Operations?"
 metadescription: "Discover how digital identity can help retailers create a personalized shopping experience, optimize marketing efforts, & drive sales in a digitized industry."
 ---

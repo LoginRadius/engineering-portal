@@ -3,7 +3,7 @@ title: "Digital Privacy: Securing Consumer Privacy with LoginRadius"
 date: "2019-12-12"
 coverImage: "digital-privacy.jpg"
 tags: ["data privacy","compliance","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Concerns over digital data security have always been at the forefront of a CIO 's mind. But it generated fresh concern when the 2017 Equifax hack struck. Here's how executives work to protect the digital privacy of consumer data across business verticals."
 metatitle: "Digital Privacy: Securing Consumer Privacy with LoginRadius"
 metadescription: "Know more about digital privacy and how LoginRadius's CIAM solution secures your customer's privacy while providing a seamless experience."

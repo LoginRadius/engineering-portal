@@ -2,7 +2,7 @@
 title: "Cookie-based vs. Cookieless Authentication: What’s the Future?"
 date: "2021-12-14"
 coverImage: "coverImage.png"
-author: "Kundan Singh"
+author: "Deepak Gupta"
 tags: ["Authentication", "JWT", "Cookie"]
 description: "Understand how cookie-based and cookieless authentication methods work. And learn their major differences, advantages, and disadvantages."
 ---

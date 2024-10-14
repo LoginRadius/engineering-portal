@@ -599,6 +599,11 @@
   linkedin: "belelaritra"
   twitter: "belel_aritra"
 
+- id: "Deepak Gupta"
+  bio: "A rapidly-expanding Customer Identity Management provider. He's dedicated to innovating the LoginRadius platform. He loves foosball and winning poker games!"
+  linkedin: "dpgupta"
+  twitter: "dip_ak"
+
 - id: Babatunde Koiki
   bio: "He is an experienced software engineer with great passion for building reliable, scalable, and maintainable products. And he loves great documentation. When he is not writing code, he hangs out with friends or watches movies."
   github: "Babatunde13"
@@ -652,7 +657,7 @@
   bio: He is a technical Support lead at LoginRadius with 6+ years of experience in IT support and management. He has been providing in-depth technical support to B2B clients, solving most of the major concerns without transferring to the next level support tier. Apart from this, he likes to cook, talk about business ideas, is a big fan of AOE III, a solo traveler and likes to watch sci-fi movies.
 
 - id: Rakesh Soni
-  bio: Entrepreneur by Work. Artist by ❤️. Engineer by Trade. Human Being. Feminist. Proud Indian. CEO/Founder at LoginRadius, securing 1B+ IDs worldwide.
+  bio: Entrepreneur by Work. Artist by ❤️. Engineer by Trade. Human Being. Feminist. Proud Indian. CEO/Co-founder at LoginRadius, securing 1B+ IDs worldwide.
   linkedin: "oyesoni"
   twitter: "OyeSoni"
   github: "oyesoni"
@@ -897,7 +902,4 @@
   bio: Maya Kirianova is a freelance writer with a passion for crafting engaging content that spans various niches, from technology to business. With a strong foundation in these industries, she delivers insightful and well-researched content that helps businesses and individuals navigate the complexities of the financial world.
 
 - id:  Azharuddin Mohammad
-  bio: He is passionate about SaaS products and operations management and is naturally inclined to interact with people and devise effective solutions. He is skilled with various technologies and tools, including Excel, MySQL, Analytics, Power BI, Figma, Canva, and Notion. In his free time, he volunteers at Robin Hood Army and explores new places while expanding his knowledge.
-
-- id:  Carl Torrence
-  bio: Carl Torrence is a Content Marketer at Marketing Digest. His core expertise lies in developing data-driven content for brands, SaaS businesses, and agencies. In his free time, he enjoys binge-watching time-travel movies and listening to Linkin Park and Coldplay albums.
+  bio: He is passionate about SaaS products and operations management and is naturally inclined to interact with people and devise effective solutions. He is skilled with various technologies and tools, including Excel, MySQL, Analytics, Power BI, Figma, Canva, and Notion. In his free time, he volunteers at Robin Hood Army and explores new places while expanding his knowledge.  

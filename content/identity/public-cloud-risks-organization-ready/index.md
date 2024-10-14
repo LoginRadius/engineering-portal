@@ -3,7 +3,7 @@ title: "Public Cloud Risks - Is Your Organization Prepared for Cloud Threats?"
 date: "2022-09-22"
 coverImage: "public-cloud-risks.jpg"
 tags: ["cloud security","data privacy","mfa","zero trust"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "The rapid adoption of the public and hybrid cloud doesn’t necessarily mean that sensitive information stored on remote servers or shared clouds is secure. This blog highlights the risks associated with the public cloud and how businesses can take timely action to avoid the risks."
 metatitle: "Is Your Organization Ready For Public Cloud Risks?"
 metadescription: "The adoption of the public cloud doesn’t necessarily mean that sensitive data is secured. Learn the risks associated with the public cloud and how to avoid them."

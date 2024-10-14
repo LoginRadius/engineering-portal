@@ -3,7 +3,7 @@ title: "Protecting Organization From Cyber-Threats: Business at Risk During COVI
 date: "2020-05-18"
 coverImage: "cyber-threats.jpg"
 tags: ["cybersecurity","data security","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Cyber risks have always been a big deal for corporations. With the self-quarantined world population at home and the stock market succumbing to the ill-fated Covid-19."
 metatitle: "COVID-19 Cyberthreats: How to Protect Organizations | LoginRadius"
 metadescription: "Mitigate cyber threat for businesses during the COVID-19 pandemic. Prevent attackers from exploiting account credentials & gaining access to resources."

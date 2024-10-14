@@ -3,7 +3,7 @@ title: "The Do's and Don'ts of Choosing a Secure Password"
 date: "2021-01-06"
 coverImage: "how-to-choose-a-secure-password-in-2021.jpg"
 tags: ["data security","password management","ciam solution","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Passwords are the digital keys to our daily lives. They are the gateway to our professional services, and our network of friends. So, what does a secure password look like? Here is a collection of the do's and don't on how to choose a strong password to avoid being a victim of cyberattack."
 metatitle: "How to Choose a Secure Password?"
 metadescription: "Industry-approved tips on how to choose a secure password in 2021. Find out the do’s and don’t to make your password as unique and secure as possible."

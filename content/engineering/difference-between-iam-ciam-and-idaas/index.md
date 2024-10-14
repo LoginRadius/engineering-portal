@@ -5,7 +5,6 @@ coverImage: "triplets.jpg"
 author: "Archna Yadav"
 tags: ["iam","ciam","idaas","identity"]
 description: "Over time, organizations are using many terminologies for IAM, CIAM, and IDaaS platforms. This article clarifies the use of these terms, key features, and common use cases of IAM, CIAM, and IDaaS platforms."
-canonical: https://www.loginradius.com/blog/identity/iam-vs-ciam/
 ---
 
 Digital Identity and IAM Domain have been the talk of the technology town for decades. There has been plenty of research, innovation, and information around these two, which led to many terminologies for the platforms providing the relevant features. Some of these terminologies are specific to the characteristics of the platform, while others are used interchangeably.

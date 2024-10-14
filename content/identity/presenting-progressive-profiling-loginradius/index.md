@@ -3,7 +3,7 @@ title: "Presenting: Progressive Profiling from LoginRadius"
 date: "2019-02-07"
 coverImage: "progrssive-profiling.jpg"
 tags: ["progressive profiling","cx","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "A new feature of the LoginRadius Identity Platform is progressive profiling, which gradually collects data from customers in an automated way."
 metatitle: "Progressive Profiling from LoginRadius | LoginRadius"
 metadescription: "A new feature of the LoginRadius Identity Platform is progressive profiling, which gradually collects data from customers in an automated way."

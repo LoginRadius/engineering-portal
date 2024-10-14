@@ -3,7 +3,7 @@ title: "Not Sure About Spiderman, But You Can Prevent Identity Disclosure"
 date: "2021-12-02"
 coverImage: "spiderman.jpg"
 tags: ["data security","adaptive authentication","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "What's most challenging about identity disclosure is that it is not only hard to avoid but also very difficult to repair once it has been disclosed. So, don't wait for a Mysterio to mess up your consumers’ identities! Security is just a click away with LoginRadius."
 metatitle: "How To Not Be Spiderman (Prevent Identity Disclosure!)"
 metadescription: "Identity disclosure can be destructive as it can lead to multiple losses. Unlike Spiderman, learn how to prevent identity disclosure as a business."

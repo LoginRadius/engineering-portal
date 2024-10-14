@@ -4,7 +4,7 @@ date: "2021-01-05"
 coverImage: "engineering-as-marketing.jpg"
 category: ["all"]
 featured: false 
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Engineering as Marketing is about utilising engineering time to build helpful tools such as calculators, checkers or checklists, widgets, and even micro-sites that introduce your business to potential customers."
 metatitle: "Engineering As Marketing: 5 Growth Hack Strategies"
 metadescription: "Engineering as Marketing is about using your engineering time to generate useful resources that bring potential clients in need of your business, such as calculators, widgets, etc."

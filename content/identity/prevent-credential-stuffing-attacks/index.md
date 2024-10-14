@@ -3,7 +3,7 @@ title: "Credential Stuffing: How To Detect And Prevent It"
 date: "2019-09-12"
 coverImage: "credential-stuffing-attacks.jpg"
 tags: ["data security","mfa","ciam solution"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Credential stuffing is a cybersecurity vulnerability in which hackers target web infrastructures and take over user accounts using stolen credentials. When hackers use organisational credentials to login and hijack user accounts, the threat gets further elevated. Not only does the business experience loss of sales and brand harm, the blow is also felt by customers."
 metatitle: "Credential Stuffing: How To Detect And Prevent It"
 metadescription: "Credential stuffing - we will walk you through the lifecycle of the credential stuffing attack and address the best ways to respond to attacks."

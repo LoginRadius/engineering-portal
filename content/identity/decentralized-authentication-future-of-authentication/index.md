@@ -3,7 +3,7 @@ title: "Will Decentralized Auth Change the Perception of Consumer Identities in 
 date: "2022-01-18"
 coverImage: "dec-auth.jpg"
 tags: ["authentication","identity verification","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Whether we talk about inappropriate data collection or a loophole in managing consumer identities, anything could lead to compromised sensitive information. Here’s where the concept of decentralized authentication in identity management comes into play."
 metatitle: "Decentralized Authentication -The Future of Authentication"
 metadescription: "Decentralized authentication is shaping the future of securing consumer identities. Here’s how decentralized authentication benefits diverse businesses."

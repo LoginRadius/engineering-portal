@@ -7,7 +7,6 @@ author: "Kundan Singh"
 description: "Enterprises need to use methods to maximize the use of digital identities for multiple users. Although SSO and FIM are used together, they do not mean the same thing. The main difference between Identity Federation and SSO lies in the range of access."
 metatitle: "Decoding SSO vs. Federation: Optimize Your Identity Management"
 metadescription: "Unlock the distinctions between Federated Identity Management (FIM) and Single Sign-On (SSO). Maximize efficiency and security for your organization. Explore now!"
-canonical: https://www.loginradius.com/blog/identity/what-is-federated-sso/
 ---
 ## Introduction
 

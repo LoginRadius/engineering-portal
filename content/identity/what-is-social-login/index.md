@@ -7,7 +7,6 @@ author: "Vaibhav Jain"
 description: "Social login is an attractive feature for developers and businesses that can help streamline consumer verification while also providing more reliable data access for personalization."
 metatitle: "Elevate Engagement: Social Login Benefits for Your Business"
 metadescription: "Discover the power of social login: enhance user experience, boost conversions. Learn how social login works and why it's essential for your business."
-canonical: https://www.loginradius.com/blog/growth/why-should-implement-social-login-authentication/
 ---
 ## Introduction
   

@@ -3,7 +3,7 @@ title: "Social Engineering Attacks: Prevention and Best Practices [Infographic]"
 date: "2020-10-06"
 coverImage: "social-engineering-attacks.jpg"
 tags: ["data security","authentication","mfa"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Over the years, social engineering attacks have been a regular phenomenon against companies. It has actually become more and more sophisticated. It is high time for businesses to perform careful research and use the right instruments to remain ahead of fraudsters."
 metatitle: "Social Engineering Attacks: Prevention and Best Practices"
 metadescription: "In order to avoid becoming a target of the most popular social engineering attacks, this infographic will cover what social engineering is and the best practices."

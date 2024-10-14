@@ -3,7 +3,7 @@ title: "Best Practices for Choosing Good Security Questions"
 date: "2019-01-31"
 coverImage: "security-questions.jpg"
 tags: ["data security","password management","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Security questions will bring to your authentication process an extra layer of certainty. Security problems are an alternative way to recognise your customers when they have forgotten their password, entered too many times the wrong passwords, or attempted to log in from a location or unknown computer."
 metatitle: "Best Practices for Choosing Good Security Questions"
 metadescription: "This article provides best practices for choosing the right security questions to enhance your account security.  Read on to learn more about security questions."

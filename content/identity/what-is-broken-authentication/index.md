@@ -3,7 +3,7 @@ title: "What is Broken Authentication Vulnerability and How to Prevent It?"
 date: "2021-02-17"
 coverImage: "broken-auth.jpg"
 tags: ["broken authentication","mfa","data security"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "If a hacker successfully logs with stolen credentials, they can misuse your privileges and impact your company's sustainability. Authentication protects a consumer's identity by allowing only a verified user to enter into the system. But there are numerous ways through which a hacker can impersonate consumers and enter inside the system."
 metatitle: "Understanding Broken Authentication: Risks & Prevention"
 metadescription: "Discover the dangers of broken authentication & session management. Learn how to safeguard your accounts. Stay secure with expert prevention tips!"

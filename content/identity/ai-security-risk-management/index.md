@@ -3,7 +3,7 @@ title: "Managing Generative AI Security Risks in the Enterprise- A Quick Guide"
 date: "2023-10-25"
 coverImage: "ai-security.jpg"
 tags: ["data security","artificial intelligence","ciam solutions","cx"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Navigate generative AI security with our concise guide for enterprises. From data encryption to countering adversarial attacks, discover essential strategies for safeguarding your digital assets. Embrace transparency and empower your team to stay ahead in the rapidly evolving landscape of AI innovation."
 metatitle: "Securing Generative AI: A Quick Enterprise Guide"
 metadescription: "Quick insights for enterprises on managing generative AI security risks. Learn about data protection and essential strategies for the modern business landscape."

@@ -3,7 +3,7 @@ title: "How The Age Of Smart Credentials Is Rewriting The Rules For Physical Ver
 date: "2022-11-30"
 coverImage: "smart-credentials.jpg"
 tags: ["digital identity","smart credentials", "iot", "identity verification"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "As technology advances, the need for national standards and interoperable applications raises the stakes for physical verification of identity. Smart credentials may offer better solutions to today's problems, but only if proper safeguarding is in place."
 metatitle: "Smart Credentials Are Raising The Bar For Physical IDs"
 metadescription: "Smart credentials are becoming more common as we move toward more efficient ways to identify ourselves. Learn the implications of this emerging technology."

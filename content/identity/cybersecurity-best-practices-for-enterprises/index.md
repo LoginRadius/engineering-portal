@@ -3,7 +3,7 @@ title: "Cybersecurity Best Practices for Businesses in 2023 & Beyond [Infographi
 date: "2021-10-21"
 coverImage: "cybersecurity-best-practices.jpg"
 tags: ["cybersecurity","data security","cx","password management"]
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Today cybercriminals are increasingly able to cover their tracks, hide in the cloud, manipulate the infrastructure of the web, and exploit complex vulnerabilities. This infographic summarizes the key takeaway into the cybersecurity best practices that businesses should adopt in 2023."
 metatitle: "Cybersecurity Best Practices for Businesses in 2023"
 metadescription: "Cybersecurity best practices that businesses should adopt in 2023. Learn more about cyber threats and how to prevent data breaches from our infographic."

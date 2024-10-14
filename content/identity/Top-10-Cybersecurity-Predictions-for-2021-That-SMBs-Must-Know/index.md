@@ -4,7 +4,7 @@ date: "2021-03-19"
 coverImage: "cybersecurity-loginradius.jpg"
 tags: ["security"]
 featured: false 
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Targeted phishing attacks are one of the leading cybersecurity threats that SMBs should prepare to encounter this year. Also, data breaches in the healthcare sector peaked in 2020 and are expected to continue in the future."
 metatitle: "Top 10 Cybersecurity Predictions for 2021 That SMBs Must Know"
 metadescription: "Top ten cybersecurity predictions for SMBs in 2021. Companies must evaluate their security infrastructure and amplify the adoption of data protection laws"

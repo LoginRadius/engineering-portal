@@ -4,7 +4,7 @@ date: "2022-02-04"
 coverImage: "digital-exp.jpg"
 tags: ["security"]
 featured: false
-author: "Rakesh Soni"
+author: "Deepak Gupta"
 description: "Enterprises must be aware that the secret to success lies in quickly identifying and eliminating any troubles and pain points that occur when consumers interact with their organization. A robust CIAM like LoginRadius helps eliminate security and user experience challenges like a breeze."
 metatitle: "How LoginRadius Creates Trusted Digital Experiences"
 metadescription: "LoginRadius, a leading CIAM, helps brands deliver a flawless and secure user experience through its cutting-edge technology. Read on to know more."
