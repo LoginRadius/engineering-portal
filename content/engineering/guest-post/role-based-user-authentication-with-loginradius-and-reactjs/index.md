@@ -1,5 +1,5 @@
 ---
-title: "How to Implement Role-Based User Authentication in React Apps"
+title: "How to Implement Role-Based Authentication with React Apps"
 date: "2021-09-03"
 coverImage: "coverImage.png"
 author: "Victory Tuduo"
@@ -9,8 +9,7 @@ description: "This tutorial illustrates how to perform user authentication and a
 
 In modern websites that serve different kinds of users, there is a need to create a distinction between users to determine what kind of privileges are assigned to them. You can achieve this with authentication. Through authentication, we validate user-specific credentials to determine if the user is genuine and then assign a specific role, which could be a simple client or administrator access, for example.
 
-User authentication is usually carried out by using a trusted third-party customer identity and access management (CIAM) software. This tutorial uses LoginRadius API to carry out user authentication and role assignment in a React application.
-
+React user authentication is usually carried out by using a trusted third-party customer identity and access management (CIAM) software. This tutorial uses LoginRadius API to carry out user authentication with React application. 
 ## Prerequisites
 
 You should know React to be able to follow this tutorial. Also, you should have the node package manager or yarn installed on your PC.
@@ -31,8 +30,7 @@ LoginRadius has features to add different [login authentication options](https:/
 - **[Multi-Factor Authentication](https://www.loginradius.com/multi-factor-authentication/):** This features covers two-factor authentication.
 - **SSL Verification**
 
-LoginRadius comes with different SDKs to support different frameworks. One of them is the [LoginRadius ReactJS SDK](https://github.com/LoginRadius/loginradius-react), which allows you to add authentication within your React app.
-
+LoginRadius comes with different SDKs, including reactjs authentication, to support different frameworks. One of them is the [LoginRadius ReactJS SDK](https://github.com/LoginRadius/loginradius-react), which allows you to add authentication within your React app.
 ## Getting Started
 ### Creating a LoginRadius Account
 First, you need to [create a LoginRadius account](https://accounts.loginradius.com/auth.aspx?action=register) with a Developer Pro plan selected instead of the free plan. This is to be able to access role management features, which are only available in the Developer Pro plan. 
@@ -42,7 +40,7 @@ You'll get a page requesting you to create a new application. Click on "create a
 ![Naming App](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245515754_Screenshot+97.png)
 
 ### Auth Page (IDX)
-LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with your react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/developers/)
+LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/developers/)
 
 ![A preview of my Auth page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245718848_Screenshot+100.png)
 
@@ -115,7 +113,7 @@ REACT_APP_API_KEY={your app key}
 REACT_APP_SECRET={your secret key}
 ```
 
-You can find the keys required above in your dashboard within user configuration: API key and secret.
+You can find the keys required above in your dashboard within react user authentication configuration: API key and secret. 
 
 ## Building Login Components
 The Auth Page(IDX) is a web page created for you that reflects the configurations you create in our dashboard. You'll utilize this page as the login and signup page within your app and set up routes to route users to a different page based on their roles.
@@ -293,7 +291,7 @@ When it successfully starts the server, you would have a similar page as follows
 
 This is the landing page you've built in the `Auth` component and is your `/` path in your routes within `App.js`. If you click on the "login/register" button, you'll be redirected to your custom Auth Page (IDX) provided by LoginRadius, where you can create a user account and login. You can manage the users who have accounts from your dashboard in "manage users".
 
-After logging in with your user, you'll get redirected to the `/login` route that then runs the `CallAPI` component and gives you a result similar to the following:
+After logging in auth react js, with your user, you'll get redirected to the /login route that then runs the CallAPI component and gives you a result similar to the following:
 
 ![Login route](user-roles.png)
 
