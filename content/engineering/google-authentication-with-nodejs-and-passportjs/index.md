@@ -1,5 +1,5 @@
 ---
-title: Google OAuth2 Authentication in NodeJS: A Guide to Implementing OAuth in Node.js
+title: Google OAuth2 Authentication in NodeJS - A Guide to Implementing OAuth in Node.js
 date: "2020-02-12"
 coverImage: "google_cover.jpg"
 author: "Puneet Singh"
