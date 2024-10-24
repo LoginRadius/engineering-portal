@@ -1,5 +1,5 @@
 ---
-title: Google OAuth2 Authentication in NodeJS
+title: Google OAuth2 Authentication in NodeJS: A Guide to Implementing OAuth in Node.js
 date: "2020-02-12"
 coverImage: "google_cover.jpg"
 author: "Puneet Singh"
@@ -7,7 +7,7 @@ tags: ["NodeJs","SocialLogin","Oauth"]
 description: "Learn how to implement Google OAuth2 Authentication in NodeJS using Passport"
 ---
 
-In this blog, we’ll be implementing authentication via Google in a Node.js web application. For this, we’ll be using [Passport.js](http://www.passportjs.org/), an authentication package for Node.js.
+In this blog, we’ll be implementing  OAuth in node js application via Google. For this, we’ll be using [Passport.js](http://www.passportjs.org/), an authentication package for Node.js. Here’s a quick guide on implementing OAuth 2.0 in node js​. 
 
 ## Before You Get Started
 This tutorial assumes you have:
@@ -18,7 +18,7 @@ This tutorial assumes you have:
 
 ### Step 1: Create a Google client ID and client secret
 
-We can create a  client ID and client secret using its [Google API Console](https://console.developers.google.com/). You need to follow below steps once you open Google API Console
+We can create a client ID and client secret using its [Google API Console](https://console.developers.google.com/). You need to follow below steps once you open Google Auth API Console 
 
 - From the project drop-down, select an existing project, or create a new one by selecting Create a new project
 - In the sidebar under "APIs & Services", select Credentials
@@ -31,7 +31,7 @@ We can create a  client ID and client secret using its [Google API Console](http
 
 ### Step 2: Initialize a node.js project with all the dependencies
 
-First in an empty folder run the below command
+To create OAuth nodejs authentication, first in an empty folder run the below command
 
 ```
 npm init
