@@ -7,20 +7,17 @@ tags: ["React", "Redux", "Hooks"]
 description: "Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease. Let's see how to use it."
 ---
 
-React context API, In this article you will explore what is Context API and how to use it in your React project. The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.
+React context API, In this article you will explore what is Context API, what is react context API and how to use it in your React project. The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.
 
 ## What is Context API?
 
 The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
 
-Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
+Talking about the Context APIs, they’re a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
 
 ## React context API: How it works?
 
-React.createContext() is all you need. It returns a consumer and a provider.
-**Provider** is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store.
-**Consumer** as it so happens is a component that consumes and uses the state.
-More information can be found on [React's documentation page](https://reactjs.org/docs/context.html)
+React.createContext() is all you need. It returns a consumer and a provider. **Provider** is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Apart from the react context **Provider**, **Consumer** as it so happens is a component that consumes and uses the state. More information can be found on [React's documentation page](https://reactjs.org/docs/context.html)
 
 ## Context API will replace redux?
 
@@ -42,9 +39,8 @@ Redux is just a concept. If you are comfortable with using reducers and actions 
 
 ## How to use Context API?
 
-You might think to yourself: "Well, I'm convinced. How do I implement Context API in my app?"
-First, make sure you need it. Sometimes people use shared state across nested components instead of just passing it as props.
-And if you do need it you should follow these very few steps:
+You might think to yourself: "Well, I'm convinced. How do I implement Context API in react for my app?" First, make sure you need it. Sometimes people use shared state across nested components instead of just passing it as props. And if you do need it you should follow these very few steps:
+
 1. Create a folder under your app root named contexts (not required. just a convention)
 2. Create a file named \<your context name\>Context.js, e.g. userContext.js
 3. import and create a context like so:
