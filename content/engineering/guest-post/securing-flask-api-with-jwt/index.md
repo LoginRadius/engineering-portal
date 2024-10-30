@@ -1,12 +1,11 @@
 ---
-title: "How To Authenticate Flask API Using JWT"
+title: "Using JWT Flask JWT Authentication- A Quick Guide"
 date: "2021-12-09"
 coverImage: "coverImage.png"
 author: "Babatunde Koiki"
 tags: ["Flask", "JWT", "API"]
 description: "This tutorial helps you build a simple Flask API and demonstrates how to secure it using JWT. In the end, you can test your API authentication using a sample schema."
 ---
-
 Authentication is an essential part of any web application. But unfortunately, it is not always easy to implement.
 
 ## What is Authentication?
@@ -45,7 +44,7 @@ The following are the differences between authentication and authorization:
 
 ## Starter Application
 
-In this tutorial, you'll work on authentication middleware for an existing API built with [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [PyMong](https://pymongo.readthedocs.io/en/stable/)o. The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the [PyJWT library](https://pyjwt.readthedocs.io/en/latest/) to generate and verify JWT tokens.
+In this tutorial, you'll work on authentication in flask middleware for an existing API built with [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [PyMongo](https://pymongo.readthedocs.io/en/stable/). The API is a book library API using which users can create books and upload cover images for the books and relevant data. PyMongo is used to connect to the mongo database. You'll use the PyJWT library to generate and verify JWT tokens for auth in flask.  
 
 > You can learn [more about JSON Web Tokens (JWT) here](https://www.loginradius.com/blog/engineering/guest-post/jwt-authentication-best-practices-and-when-to-use/).
 
@@ -66,7 +65,7 @@ The application is now set up and ready to run. You can run the app using the co
 
 As you've noticed, anybody can access the API; you need to restrict access to the API. Create new book data if they have the correct data, then add, delete, and update book data, but you don't want that. To do this, you need to implement an authentication middleware.
 
-Middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot.
+When we talk about authentication with flask, middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot. 
 
 To create your auth middleware, you need to install PyJWT -- the library you'll use to generate tokens. You’ll also use Pillow to alter image data before saving them to disk. Run the following command to install the packages:
 
@@ -777,8 +776,8 @@ While passing a book request, pass it via the `form-data` tab in Postman.
 
 ## Conclusion
 
-This article has explained authentication and how to authenticate a Flask API with JWT.
+This article has explained flask JWT authentication .
 
-In some cases, handling authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/developers/) to learn how to add LoginRadius to your Flask application.
+In some cases, handling flask authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/developers/) to learn how to add LoginRadius to your Flask application.
 
 You can find the complete code for this article on [Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flask/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.
