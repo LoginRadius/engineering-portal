@@ -17,7 +17,7 @@ This article will give you 11 tips for managing remote software engineering team
 
 ## Why Hire Remote Developers?
 
-The first and most obvious reason to hire remote developers is that your addressable talent pool is global . You immediately have a lot more choices for talent. It's actually a good thing you don't have to deal with visas and relocation packages.
+The first and most obvious reason to hire remote developers is that your addressable talent pool is global . Utilizing a [recruitment platform](https://recruitcrm.io/blogs/hiring-platform/) allows you to tap into a vast array of talent options. It's actually a good thing you don't have to deal with visas and relocation packages.
 
 Another reason is that many good developers are already in remote jobs. They have become used to a certain remote lifestyle and likely won't change that. As an employer, you must adapt to the growing market of digital nomads.
 
