@@ -95,17 +95,17 @@ const Header = ({ searchIndex, pathname, type }) => {
             </div>
           </div>
         </section>
-        {/* <Link className={headerStyles.logo} to={"https://www.loginradius.com/"}>
+        {/* <a className={headerStyles.logo} href={"https://www.loginradius.com/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
-        </Link> */}
+        </a> */}
         <div className={headerStyles.logo}>
-          <Link target="_blank" to={"https://www.loginradius.com/"}>
+          <a target="_blank" href={"https://www.loginradius.com/"}>
             <img
               src={lrLogoAdj}
               alt={`loginradius`}
               className={headerStyles.lrLogo}
             />
-          </Link>
+          </a>
         </div>
         <div
           className={`${headerStyles.primarymenu} ${
@@ -117,8 +117,8 @@ const Header = ({ searchIndex, pathname, type }) => {
           }`}
         >
           <div>
-            <Link
-              to="#"
+            <a
+              href="#"
               onClick={() => {
                 toggleNavigation(1)
               }}
@@ -153,34 +153,34 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/authentication/">
+                        <a href="https://www.loginradius.com/authentication/">
                           Authentication
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/single-sign-on/">
+                        <a href="https://www.loginradius.com/single-sign-on/">
                           Single Sign-on
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/user-management/">
+                        <a href="https://www.loginradius.com/user-management/">
                           User Management
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/directory-service/">
+                        <a href="https://www.loginradius.com/directory-service/">
                           Directory Service
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/data-governance/">
+                        <a href="https://www.loginradius.com/data-governance/">
                           Data Governance
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customer-insights/">
+                        <a href="https://www.loginradius.com/customer-insights/">
                           Customer Insights
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -198,44 +198,44 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/web-and-mobile-sso/">
+                        <a href="https://www.loginradius.com/web-and-mobile-sso/">
                           Web and Mobile SSO
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/federated-sso/">
+                        <a href="https://www.loginradius.com/federated-sso/">
                           Federated SSO
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/passwordless-login/">
+                        <a href="https://www.loginradius.com/passwordless-login/">
                           Passwordless Login
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/social-login/">
+                        <a href="https://www.loginradius.com/social-login/">
                           Social Login
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/multi-factor-authentication/">
+                        <a href="https://www.loginradius.com/multi-factor-authentication/">
                           Multi-Factor Authentication
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/gdpr-and-privacy/">
+                        <a href="https://www.loginradius.com/gdpr-and-privacy/">
                           GDPR and Privacy
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/consent-preference-management/">
+                        <a href="https://www.loginradius.com/consent-preference-management/">
                           Consent Management
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/cloud-integrations/">
+                        <a href="https://www.loginradius.com/cloud-integrations/">
                           Cloud Integrations
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -253,32 +253,32 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/multi-tenant-cloud/">
+                        <a href="https://www.loginradius.com/multi-tenant-cloud/">
                           Multi-Tenant Cloud
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/private-cloud/">
+                        <a href="https://www.loginradius.com/private-cloud/">
                           Private Cloud
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/on-premises-deployment/">
+                        <a href="https://www.loginradius.com/on-premises-deployment/">
                           On-Premises Deployment
-                        </Link>
+                        </a>
                       </li>
                     </ul>
-                  </div>
-                  <div className={headerStyles.logos}>
-                    <Link to="">
-                      <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg" />
-                    </Link>
+                    <div className={headerStyles.logos}>
+                      <a href="">
+                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               onClick={() => {
                 toggleNavigation(2)
               }}
@@ -313,39 +313,39 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-media-and-communications/">
+                        <a href="https://www.loginradius.com/industry-media-and-communications/">
                           Media and Communications
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-government/">
+                        <a href="https://www.loginradius.com/industry-government/">
                           Government
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-retail-and-ecommerce/">
+                        <a href="https://www.loginradius.com/industry-retail-and-ecommerce/">
                           Retail and Ecommerce
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-consumer-brands/">
+                        <a href="https://www.loginradius.com/industry-consumer-brands/">
                           Consumer Brands
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-travel-and-hospitality/">
+                        <a href="https://www.loginradius.com/industry-travel-and-hospitality/">
                           Travel and Hospitality
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-finance-and-banking/">
+                        <a href="https://www.loginradius.com/industry-finance-and-banking/">
                           Finance and Banking
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/industry-healthcare/">
+                        <a href="https://www.loginradius.com/industry-healthcare/">
                           Healthcare
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -363,14 +363,14 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/b2c-identity/">
+                        <a href="https://www.loginradius.com/b2c-identity/">
                           B2C Identity
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/b2b-identity/">
+                        <a href="https://www.loginradius.com/b2b-identity/">
                           B2B Identity
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -388,47 +388,47 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/customer-experience-solutions/">
+                        <a href="https://www.loginradius.com/customer-experience-solutions/">
                           Customer Experience
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customer-security/">
+                        <a href="https://www.loginradius.com/customer-security/">
                           Customer Security
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customer-privacy/">
+                        <a href="https://www.loginradius.com/customer-privacy/">
                           Customer Privacy
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/unified-customer-experience/">
+                        <a href="https://www.loginradius.com/unified-customer-experience/">
                           Unified Customer Experience
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/digital-transformation/">
+                        <a href="https://www.loginradius.com/digital-transformation/">
                           Digital Transformation
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/privacy-consent/">
+                        <a href="https://www.loginradius.com/privacy-consent/">
                           Privacy & Consent
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/account-data-security/">
+                        <a href="https://www.loginradius.com/account-data-security/">
                           Account Security
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               onClick={() => {
                 toggleNavigation(3)
               }}
@@ -465,24 +465,24 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/customers/">
+                        <a href="https://www.loginradius.com/customers/">
                           Customers
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customers/#case-studies">
+                        <a href="https://www.loginradius.com/customers/#case-studies">
                           Success Stories
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customers/#videos">
+                        <a href="https://www.loginradius.com/customers/#videos">
                           Video Testimonials
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/customers/#press-releases">
+                        <a href="https://www.loginradius.com/customers/#press-releases">
                           Press Releases
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -493,19 +493,19 @@ const Header = ({ searchIndex, pathname, type }) => {
                       Trusted by over 500 Brands
                     </h4>
                     <div>
-                      <Link to="https://www.loginradius.com/customers">
+                      <a href="https://www.loginradius.com/customers">
                         <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-1.png" />
-                      </Link>
-                      <Link to="https://www.loginradius.com/customers">
+                      </a>
+                      <a href="https://www.loginradius.com/customers">
                         <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-2.png" />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               onClick={() => {
                 toggleNavigation(4)
               }}
@@ -540,34 +540,34 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/developers/">
+                        <a href="https://www.loginradius.com/developers/">
                           Overview
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/docs/">
+                        <a href="https://www.loginradius.com/docs/">
                           Developer Docs
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/docs/api/v2/getting-started/introduction/">
+                        <a href="https://www.loginradius.com/docs/api/v2/getting-started/introduction/">
                           API References
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/docs/libraries/js-libraries/getting-started/">
+                        <a href="https://www.loginradius.com/docs/libraries/js-libraries/getting-started/">
                           JS Libraries
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/docs/libraries/sdk-libraries/overview/">
+                        <a href="https://www.loginradius.com/docs/libraries/sdk-libraries/overview/">
                           Web SDK Libraries
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/overview/">
+                        <a href="https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/overview/">
                           Mobile SDK Libraries
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -585,54 +585,54 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/">
+                        <a href="https://www.loginradius.com/resources/">
                           All Resources
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#industry-report">
+                        <a href="https://www.loginradius.com/resources/#industry-report">
                           Industry Reports
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#white-paper">
+                        <a href="https://www.loginradius.com/resources/#white-paper">
                           White Papers
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#ebooks">
+                        <a href="https://www.loginradius.com/resources/#ebooks">
                           E-Books
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#case-study">
+                        <a href="https://www.loginradius.com/resources/#case-study">
                           Case Studies
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#data-sheet">
+                        <a href="https://www.loginradius.com/resources/#data-sheet">
                           Product Sheets
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#infographics">
+                        <a href="https://www.loginradius.com/resources/#infographics">
                           Infographics
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/resources/#webinars">
+                        <a href="https://www.loginradius.com/resources/#webinars">
                           Webinars
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/blog/identity">
+                        <a href="https://www.loginradius.com/blog/identity">
                           Identity Blog
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/blog/growth">
+                        <a href="https://www.loginradius.com/blog/growth">
                           Growth Blog
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -650,20 +650,20 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <ul>
                       <li>
-                        <Link to="https://www.loginradius.com/press/">
+                        <a href="https://www.loginradius.com/press/">
                           All Press Releases
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://www.loginradius.com/events-and-conferences/">
+                        <a href="https://www.loginradius.com/events-and-conferences/">
                           All Events & Conferences
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
 
           <div
@@ -675,27 +675,27 @@ const Header = ({ searchIndex, pathname, type }) => {
                 : headerStyles.close
             }`}
           >
-            <Link
-              to="https://www.loginradius.com/book-a-demo/"
+            <a
+              href="https://www.loginradius.com/book-a-demo/"
               target="_blank"
               className={`${"btn-primary"} ${headerStyles.signupbutton}`}
             >
               Request Demo
-            </Link>
-            <Link
-              to="https://www.loginradius.com/contact-sales"
+            </a>
+            <a
+              href="https://www.loginradius.com/contact-sales"
               target="_blank"
               className={`btn-secondary ` + headerStyles.contactsales}
             >
               CONTACT SALES
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://accounts.loginradius.com/auth.aspx?return_url=https://adminconsole.loginradius.com/login"
               className="btn-login"
-              to="https://accounts.loginradius.com/auth.aspx?return_url=https://adminconsole.loginradius.com/login"
               target="_blank"
             >
               Login
-            </Link>
+            </a>
             <Search
               customclassName={`${
                 showMenu ? searchStyles.deactive : searchStyles.active
@@ -715,8 +715,8 @@ const Header = ({ searchIndex, pathname, type }) => {
         >
           <ul>
             <li className={type === "" ? headerStyles.active : ""}>
-              <Link
-                to={"/"}
+              <a
+                href={"/"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -724,11 +724,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 All
-              </Link>
+              </a>
             </li>
             <li className={type === "engineering" ? headerStyles.active : ""}>
-              <Link
-                to={"/engineering"}
+              <a
+                href={"/engineering"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -736,11 +736,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Engineering
-              </Link>
+              </a>
             </li>
             <li className={type === "identity" ? headerStyles.active : ""}>
-              <Link
-                to={"/identity"}
+              <a
+                href={"/identity"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -748,11 +748,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Identity
-              </Link>
+              </a>
             </li>
             <li className={type === "growth" ? headerStyles.active : ""}>
-              <Link
-                to={"/growth"}
+              <a
+                href={"/growth"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -760,7 +760,7 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Growth
-              </Link>
+              </a>
             </li>
             <hr />
           </ul>
