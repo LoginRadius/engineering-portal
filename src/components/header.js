@@ -715,8 +715,8 @@ const Header = ({ searchIndex, pathname, type }) => {
         >
           <ul>
             <li className={type === "" ? headerStyles.active : ""}>
-              <a
-                href={"/"}
+              <Link
+                to={"/"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -724,11 +724,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 All
-              </a>
+              </Link>
             </li>
             <li className={type === "engineering" ? headerStyles.active : ""}>
-              <a
-                href={"/engineering"}
+              <Link
+                to={"/engineering"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -736,11 +736,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Engineering
-              </a>
+              </Link>
             </li>
             <li className={type === "identity" ? headerStyles.active : ""}>
-              <a
-                href={"/identity"}
+              <Link
+                to={"/identity"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -748,11 +748,11 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Identity
-              </a>
+              </Link>
             </li>
             <li className={type === "growth" ? headerStyles.active : ""}>
-              <a
-                href={"/growth"}
+              <Link
+                to={"/growth"}
                 activeClassName={headerStyles.active}
                 partiallyActive={true}
                 onClick={e => {
@@ -760,7 +760,7 @@ const Header = ({ searchIndex, pathname, type }) => {
                 }}
               >
                 Growth
-              </a>
+              </Link>
             </li>
             <hr />
           </ul>
