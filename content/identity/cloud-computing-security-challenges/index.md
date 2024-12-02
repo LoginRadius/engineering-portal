@@ -73,26 +73,6 @@ In addition, we hold a Security Trust Assurance and Risk (STAR) certification is
 
 ![](Cloud-Security-Challenges-Today-V01.01_02-1024x621.jpg)
 
-## Why is certification important?
-
-Recently, on the [CSA Security Update podcast,](https://podcasts.apple.com/us/podcast/csa-star-case-study-guest-deepak-gupta-co-founder-cto/id1463409667?i=1000452799351) LoginRadius why STAR certification is so important. replied: 
-
-"CSA STAR frameworks contain the best practices for any software service platform vendor. It combines all of the various compliances an organization needs (with a specific focus on) cloud providers."
-
-In the podcast, Deepak went on to say that certification "provides a level of assurance and transparency, not only for our customers but for their end-users, as well."
-
-Mr. Gupta also explained that since LoginRadius gets certifications, they are "setting the standards (so that) customers don't need to worry about security policies and frameworks." 
-
-## How is certification conducted?
-
-Certifications are conducted through strict third-party audits. These audits examine everything from the development of the LoginRadius Identity Platform to our data security management systems. For us to receive certification, we must first undergo annual audits and inspections, practice reviews, and many other organizational standards and assessments. 
-
-Our certifications allow you to enjoy data security, along with time and cost savings from avoiding the development, installation, and auditing of your on-premises computing.
-
-### <span style="color: #FF4500"> As Deepak puts it: "(It's not) just a certification; it's something that protects every single portion of this company and our customers." </span>
-
-The podcast's host agreed. "That's a great approach that everyone needs to take to heart. It's about people and process, on top of technology—not just technology alone." 
-
 ## Why choose cloud computing? 
 
 **Cost-effectiveness**
@@ -143,10 +123,6 @@ As these environments feature elastic scaling capabilities, organizations no lon
 The Cloud Security Alliance is the world's leading organization dedicated to defining and raising awareness of cloud security best practices. 
 
 LoginRadius is a member, along with other experts in cloud security. Together, CSA members share up-to-date developments about the cloud computing environment. We recognize emerging security risks so that we can improve cloud security for everyone. 
-
-As mentioned earlier, one way that LoginRadius recently shares expertise with the CSA is through their podcast, [CSA Security Update](https://podcasts.apple.com/us/podcast/csa-star-case-study-guest-deepak-gupta-co-founder-cto/id1463409667?i=1000452799351). To hear Deepak's interview with them, visit the [CSA Security podcast on iTunes](https://podcasts.apple.com/us/podcast/csa-star-case-study-guest-deepak-gupta-co-founder-cto/id1463409667?i=1000452799351).
-
-For more insights on cloud security or compliance, contact Deepak on [LinkedIn](https://ca.linkedin.com/in/dpgupta), [Twitter](https://twitter.com/dip_ak?lang=en), or email the CSA at info@cloudsecurityalliance.org.
 
 [![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/book-a-demo/)
 
