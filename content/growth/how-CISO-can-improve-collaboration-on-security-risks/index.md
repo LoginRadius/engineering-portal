@@ -13,7 +13,7 @@ For many years, the role of a CISO was a pretty lonely one. Since cybersecurity 
 
 There are a number of good reasons for this. Though most CISOs have built sophisticated systems to respond to security threats, the changing threat landscape means that threats are now appearing at almost every endpoint across an organization. This means that teams previously regarded as fairly well protected against attacks – think marketing and customer service teams – are becoming a popular and lucrative target for hackers.
 
-In this new environment, CISOs need to foreground collaboration. It’s only by working with colleagues throughout your organization that you can hope to [respond to these multivalent threats](https://www.loginradius.com/blog/identity/5-ways-to-handle-a-data-breach/). This was a point that LoginRadius’ CEO, Deepak Gupta, [recently made in an article for Forbes](https://www.forbes.com/sites/forbestechcouncil/2021/08/17/the-role-of-a-ciso-in-building-a-modern-cybersecurity-culture/?sh=1e54482725e3).
+In this new environment, CISOs need to foreground collaboration. It’s only by working with colleagues throughout your organization that you can hope to [respond to these multivalent threats](https://www.loginradius.com/blog/identity/5-ways-to-handle-a-data-breach/).
 
 In this article, we’ll go a little further, and turn his recommendations into actionable steps.
 

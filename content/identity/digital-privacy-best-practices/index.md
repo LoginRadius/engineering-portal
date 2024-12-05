@@ -26,15 +26,11 @@ As we move towards a more data-centric economy, C-suite execs have a lot on thei
 
 Three security experts provide advice on the best privacy practices in 2020.
 
-**1\. Deepak Gupta, Chief Technical Officer at LoginRadius**
-
-"Today enterprises move their data through streaming pipelines. Keeping track of where the data ends up is as crucial as safeguarding the data itself," [Gupta points out](https://twitter.com/dip_ak?lang=en), continuing  "Modern data privacy laws like the GDPR and CCPA couldn't have come at a better time. This is what security operations teams needed at the moment—an unbiased wake-up call. “
-
-**2\. David Kemp, Business Strategist with Micro Focus**
+**1\. David Kemp, Business Strategist with Micro Focus**
 
 "Looking at the year ahead, we will see a major drive from organizations to achieve data privacy compliance," Kemp says, "individuals will increasingly recognize their right to data privacy, and ability to hold businesses to account for negligence."
 
-**3\. Kelvin Coleman, Executive Director at NCSA**
+**2\. Kelvin Coleman, Executive Director at NCSA**
 
 “With new privacy legislation going to affect this year, digital privacy couldn’t be a more timely opportunity for helping businesses and consumers understand the importance of respecting and protecting personal information,” said [Coleman](https://twitter.com/kcolemanncsa?lang=en).
 

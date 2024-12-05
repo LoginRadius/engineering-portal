@@ -22,7 +22,8 @@ At LoginRadius, we check all the boxes in the category with our sustainable and 
 
 ## A Little Backdrop
 
-LoginRadius is a leading cloud-based CIAM solution that empowers organizations to deliver a delightful consumer experience. The company was established in 2012 by Mr. Rakesh Soni and Mr. Deepak Gupta is headquartered in San Francisco with offices in Jaipur and Hyderabad, India. 
+LoginRadius is a leading cloud-based CIAM solution that empowers organizations to deliver a delightful consumer experience. The company was established in 2012 by Mr. Rakesh Soni and is headquartered in San Francisco with offices in Jaipur and Hyderabad, India.
+ 
 
 The company offers customizable login interfaces, open-source SDKs, best-in-class data security products, and integrations with over 150 third-party applications. We are already loved by 3,000 businesses with 1.17 billion consumers worldwide and raised $17 million in Series A funding from Microsoft.
 
