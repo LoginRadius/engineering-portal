@@ -365,8 +365,6 @@ For example, if you are launching a new self-serve application, your inbound cal
 We have caught a few digital transformation leaders in action as they offer valuable perspective and guidance. 
 
 
-
-*   **[Deepak Gupta](https://www.linkedin.com/in/dpgupta), CTO at LoginRadius**: Digital transformation does not come easy. Leaders must become transformers of their enterprise culture and strike the right balance between short-term improvement and long-term value.
 *   **[Jim Swanson](https://www.linkedin.com/in/jimdswanson/), CIO at Johnson & Johnson**: We talk about automating operations, people, and new business models. You could have all those things – but if leadership and culture aren't at heart, it fails.
 *   **[Dion Hinchcliffe](https://www.linkedin.com/in/dhinchcliffe), VP at Constellation Research**: The top IT executives today must match the pace of change, fall behind, or lead the pack. That's the existential issue at stake, where bold action must be actively supported by out-of-the-box experimentation and pathfinding. 
 *   **[Bryson Koehler](https://www.linkedin.com/in/brysonkoehler), CTO at Equifax**: If you look at the vast majority of startups, they're not starting with giant, shrink-wrapped software packages as their company's base. If you're trying to create innovation inside a large enterprise, you shouldn't start with it either. You're not here to run the mainframe anymore. 

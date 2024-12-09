@@ -107,7 +107,7 @@ const SEO = ({
             <link rel="icon" href={withPrefix("/favicon.png")} />
             <link
               rel="canonical"
-              href={seo.canonial !== "null" ? seo.canonial : seo.url}
+              href={seo.canonial ? seo.canonial : seo.url}
             />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
