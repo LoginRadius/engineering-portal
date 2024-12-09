@@ -43,7 +43,6 @@ const SEO = ({
         image: img.includes("https") ? img : `${siteUrl}${img}`,
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
-      console.log(seo.url)
       seo.url = seo.url.replace("/blog/blog", "/blog")
       const formatDate = dateString => {
         const date = new Date(dateString)
