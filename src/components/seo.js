@@ -43,6 +43,7 @@ const SEO = ({
         image: img.includes("https") ? img : `${siteUrl}${img}`,
         url: `${siteUrl}${withPrefix(pathname || "/")}`,
       }
+      console.log(seo.url)
       seo.url = seo.url.replace("/blog/blog", "/blog")
       const formatDate = dateString => {
         const date = new Date(dateString)
@@ -107,7 +108,7 @@ const SEO = ({
             <link rel="icon" href={withPrefix("/favicon.png")} />
             <link
               rel="canonical"
-              href={seo.canonial !== "null" ? seo.canonial : seo.url}
+              href={seo.canonial ? seo.canonial : seo.url}
             />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
