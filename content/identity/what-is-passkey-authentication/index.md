@@ -22,13 +22,14 @@ For developers, [passkeys simplify integration](https://www.loginradius.com/docs
 
 Passkeys operate on a private-public key mechanism. To understand, we need to look at their registration and authentication processes.
 
-    1.  Registration: A user’s device generates a cryptographic key pair via WebAuthn APIs during registration.
-        -   The private key is securely stored on the user’s device and never shared.
-        -   The public key is sent to the server to validate authentication requests.
-    2.  Authentication:
-        -   The server issues a cryptographic challenge to the user’s device.
-        -   The device uses the private key to sign the challenge.
-        -   The server verifies the signed challenge using the public key, granting access if the verification is successful.
+1.  Registration: A user’s device generates a cryptographic key pair via WebAuthn APIs during registration.
+  - The private key is securely stored on the user’s device and never shared.
+  - The public key is sent to the server to validate authentication requests.
+
+2.  Authentication:
+  - The server issues a cryptographic challenge to the user’s device.
+  - The device uses the private key to sign the challenge.
+  - The server verifies the signed challenge using the public key, granting access if the verification is successful.
         
 
 This process ensures that sensitive data never leaves the user’s device, making passkeys significantly more secure than passwords. Developers can streamline implementation using tools like WebAuthn.js, ensuring compliance with [modern authentication](https://www.loginradius.com/platforms/authentication-and-registration) protocols and providing a seamless user experience.
@@ -74,9 +75,9 @@ LoginRadius simplifies the [adoption of passkey](https://www.loginradius.com/pro
 
 ### Key Benefits
 
-    -   Scalability: Built to handle millions of users, ensuring performance at scale.    
-    -   Security Compliance: Adheres to global standards such as GDPR and CCPA.    
-    -   Developer-Friendly: Comprehensive documentation and tools for seamless integration.
+ - Scalability: Built to handle millions of users, ensuring performance at scale.    
+ - Security Compliance: Adheres to global standards such as GDPR and CCPA.    
+ - Developer-Friendly: Comprehensive documentation and tools for seamless integration.
     
 
 Learn more: [How to implement passkey authentication with LoginRadius](https://www.loginradius.com/docs/authentication/tutorial/passkey-authentication/)
@@ -88,3 +89,21 @@ As we move into 2025, passkeys will become an integral part of secure authentica
 For developers, they simplify integration by eliminating the need to store and manage sensitive credentials, reducing both risks and operational overhead. For users, passkeys provide consistent and secure access across devices without relying on passwords, enhancing both security and usability.
 
 This evolution signifies the shift toward a more streamlined and robust passwordless future.
+
+
+# Frequently Asked Questions (FAQs)
+
+**1. What is passkey authentication?**
+A. Passkey authentication replaces passwords with cryptographic key pairs for secure and seamless login.
+
+**2. How do passkeys work?**
+A. Passkeys use private-public key pairs to authenticate users without transmitting sensitive data.
+
+**3. Are passkey logins safe?**
+A. Yes, passkeys are resistant to phishing, brute force attacks, and server breaches.
+
+**4. How are passkeys used on multiple devices?**
+A. Passkeys synchronize across devices via cloud services, ensuring seamless access.
+
+**5. Passkey vs password: Which is better?**
+A. Passkeys offer better security and usability compared to traditional passwords, eliminating many common vulnerabilities.
