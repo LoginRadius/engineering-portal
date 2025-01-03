@@ -270,7 +270,7 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </ul>
                     <div className={headerStyles.logos}>
                       <a href="">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg" />
+                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg" alt="Cloud Provider Logos" />
                       </a>
                     </div>
                   </div>
@@ -494,10 +494,10 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <div>
                       <a href="https://www.loginradius.com/customers">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-1.png" />
+                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-1.png" alt="Customers Logos 1" />
                       </a>
                       <a href="https://www.loginradius.com/customers">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-2.png" />
+                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-2.png" alt="Customers Logos 2" />
                       </a>
                     </div>
                   </div>

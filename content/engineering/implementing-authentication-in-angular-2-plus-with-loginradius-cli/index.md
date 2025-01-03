@@ -300,7 +300,7 @@ You can configure the LoginRadius Auth Page by adding social login methods like 
 
 ![Added Facebook as an loginmethod](lr_add_social.png "Added Facebook as an loginmethod")
 
-After adding, visit the LoginRadius Auth Page either by visiting [locahost:4200](http://locahost:4200) and log out. Or using the command `lr demo`. You will find the new login method added.
+After adding, visit the LoginRadius Auth Page either by visiting `locahost:4200` and log out. Or using the command `lr demo`. You will find the new login method added.
 
 ![Added Facebook as an loginmethod](add_login_method.png "Added Facebook as an loginmethod")
 

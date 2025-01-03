@@ -191,7 +191,7 @@ This code is mostly the same as for HTTP/1.1 with two notable differences:
 
 That's it!
 
-If you restart the API and check the network tab in Developer Tools, you'll see that your application will now stream over HTTP/2 (don't forget to update the URL in your webapp, start with "https://" instead of "http://").
+If you restart the API and check the network tab in Developer Tools, you'll see that your application will now stream over HTTP/2 (don't forget to update the URL in your webapp, start with `https://` instead of `http://`).
 
 ## HTTP Streaming Considerations
 

@@ -73,7 +73,7 @@ So to sum up,
  ![BadVim](BadVim.png)
 
 
- To get started, get your hands dirty on [**vimtutor**](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) . It's a 20-30 minute vim tutorial which teaches you all the basics. Just type `vimtutor` in your terminal (in a machine where you have vim installed) to open it.
+ To get started, get your hands dirty on **vimtutor** . It's a 20-30 minute vim tutorial which teaches you all the basics. Just type `vimtutor` in your terminal (in a machine where you have vim installed) to open it.
 
 **Try  [Vim Adventures](https://vim-adventures.com/)**. An interactive game that teaches you vim skills in a step by step manner and lets you unlock new abilities after you've proved your worth with the previous ones.
 

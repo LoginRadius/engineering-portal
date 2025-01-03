@@ -85,7 +85,7 @@ When managing a remote software engineering team, it is crucial to have an onsit
 
 ## 9. Team Feedback Goes a Long Way
 
-When managing a remote software engineering team, it is crucial to actively solicit feedback from the group. This will help build trust and understanding among team members. It can also prevent misunderstandings when regular staff members get back onsite or new hires arrive to understand their role within the [company](https://referralcandy.wpengine.com/blog/company-culture-examples/) and expectations.
+When managing a remote software engineering team, it is crucial to actively solicit feedback from the group. This will help build trust and understanding among team members. It can also prevent misunderstandings when regular staff members get back onsite or new hires arrive to understand their role within the company and expectations.
 
 ## 10. Building Trust With Remote Team Members
 

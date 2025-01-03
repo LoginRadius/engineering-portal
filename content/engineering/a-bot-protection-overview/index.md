@@ -61,7 +61,7 @@ There are some issues with blacklisting, though. Choosing which targets to black
 
 If you want to save your site from spams and denial-of-service attacks you can incorporate a layer of Proof Of Work algorithm in your site. Whenever any client will try to connect to your server they need to commit some of their resources to the Proof Of Work algorithm first and then the server should be connected.
 
-With this approach, any legitimate user would experience just a negligible computational cost, but a spammer/attacker trying to establish a large number of connections would bear the computational cost and time delay, it deters the abuser to do so. There are many POW algorithms which you can use eg:- [Client Puzzle Protocol](https://en.wikipedia.org/wiki/Client_Puzzle_Protocol), [Productive Puzzle Protocol](https://ieeexplore.ieee.org/document/7509937), [Guided Tour Puzzle Protocol](https://en.wikipedia.org/wiki/Guided_tour_puzzle_protocol)
+With this approach, any legitimate user would experience just a negligible computational cost, but a spammer/attacker trying to establish a large number of connections would bear the computational cost and time delay, it deters the abuser to do so. There are many POW algorithms which you can use eg:- [Client Puzzle Protocol](https://en.wikipedia.org/wiki/Client_Puzzle_Protocol), Productive Puzzle Protocol, [Guided Tour Puzzle Protocol](https://en.wikipedia.org/wiki/Guided_tour_puzzle_protocol)
 
 ### Other Forms of Malicious Bots:
 
