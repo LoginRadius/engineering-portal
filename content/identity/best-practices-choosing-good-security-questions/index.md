@@ -26,9 +26,7 @@ The best security questions and answers make it easy for legitimate consumers to
 *   If the answer has birthdays, it can be easy for an attacker to find online.
 * If the question and answer have a school name or location too, such information is easily available for attackers.
 
-You can minimize both of these outcomes by creating good security questions. \
- \
-_According to the Good Security Questions_ _[website](https://goodsecurityquestions.com/), answers to a good security question should meet these criteria:_
+You can minimize both of these outcomes by creating good security questions. 
 
 1. **Safe**: Cannot be guessed or researched.
 2. **Stable**: Does not change over time.

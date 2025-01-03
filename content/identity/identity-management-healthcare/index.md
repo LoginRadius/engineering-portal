@@ -29,7 +29,7 @@ First, though, we need to discuss what makes the control of healthcare identitie
 
 Simply put, the more data compromised, the more it leads to regulatory penalties, loss of patient trust, and bad publicity. 
 
-- According to the [2020 Breach Barometer](https://blog.protenus.com/2020-breach-barometer-41m-patient-records-breached-as-hacking-incidents-escalate) published by Protenus, more than 41 million patient records were breached in 2019.  
+- According to the 2020 Breach Barometer published by Protenus, more than 41 million patient records were breached in 2019.  
 - 59 percent of the respondents surveyed in Europe and the U.S. were [concerned about their medical data](https://www.rsa.com/content/dam/en/e-book/rsa-data-privacy-report.pdf) security, while 39% were worried that hackers would play foul with their digital data. 
 
 So, why are information networks for healthcare a priority for hackers? 

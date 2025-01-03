@@ -87,7 +87,7 @@ All you need to do is create a link tag on your page:
 ```
 
   
-You can improve upon this by utilizing one of the Social providers branded icons to better display the linking UX. Get a copy of Facebooks Branded Icon [here](https://www.facebookbrand.com/).  
+You can improve upon this by utilizing one of the Social providers branded icons to better display the linking UX. Get a copy of Facebooks Branded Icon.  
 You can store the image locally and include it in the a tag:
 
 ```js
