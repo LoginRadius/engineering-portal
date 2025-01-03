@@ -10,8 +10,6 @@ metadescription: "Explore LoginRadius’ innovative 2024 product updates, from P
 ---
 
 
-# LoginRadius Product Round-Up 2024: A Year of CIAM Innovations
-
 As 2024 comes to a close, we are excited to reflect on our key CIAM innovations, product updates, and advancements. Each launch this year has been thoughtfully designed to empower developers, enhance customer identity experiences, and ensure robust security at scale.
 
 From simplifying complex workflows to introducing tools that redefine flexibility and customization, our focus has remained on delivering solutions that address the evolving needs of modern enterprises.
@@ -33,9 +31,8 @@ Key Highlights:
 -   Real-Time Adjustments: Modify and test workflows on the fly, ensuring agility in meeting evolving user needs.
     
 -   Advanced Analytics: Gain actionable insights into journey performance and optimize based on real-time data.
-    
 
-[Identity Orchestration by LoginRadius](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![Identity Orchestration by LoginRadius](cta.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 ### 2. Multi-Brand Configuration: Tailored Experiences for Every Brand
 
