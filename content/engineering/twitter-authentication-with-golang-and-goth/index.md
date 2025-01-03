@@ -211,7 +211,7 @@ Step 7. Run the project :
 ```
 
 
-Step 8. Visit the browser with the URL **[http://127.0.0.1:3000](http://127.0.0.1:3000/)**.
+Step 8. Visit the browser with the URL `http://127.0.0.1:3000`.
 
 
 

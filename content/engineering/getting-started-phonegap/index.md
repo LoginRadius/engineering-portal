@@ -43,7 +43,7 @@ C:\>rootdir\cordova create FirstSite
 3. This will create a project in the root folder with the specified site-name. This project will contain:
     1. "hooks" directory- Contains special scripts that can be used to customize Cordova commands.
     2. "platforms" directory- This contains the app specific projects that you will include below.
-    3. "plugins" directory- Contains add-on code for interfacing with native features. You can create your own custom interface or use one of [pre-compiled plugins](http://plugins.cordova.io/#/).
+    3. "plugins" directory- Contains add-on code for interfacing with native features. You can create your own custom interface or use one of pre-compiled plugins.
     4. "www" directory- Contains the PhoneGap/Cordova structure and some standard js and css files.
     5. config.xml file- This file contains meta data for controlling common features of your apps like the app title, description and author.
 4. Add platforms to the project with the _cordova platform add <platform>_ command. **Note:** adding platforms requires that the relevant dependencies are installed in your system for example adding android requires that you have installed the Android SDK. Available platforms for a windows environment are:

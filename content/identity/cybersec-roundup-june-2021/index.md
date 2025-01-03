@@ -80,7 +80,7 @@ In June, [JBS confirmed](https://www.bbc.com/news/world-us-canada-57318965) that
 
 ### 6. NYC Law Department’s Large-Scale Lockout
 
-The [New York City Law Department](https://www.wsj.com/articles/new-york-city-law-department-hit-by-cyberattack-11623105336) was hacked, leaving thousands of its lawyers locked out of their accounts.
+The New York City Law Department was hacked, leaving thousands of its lawyers locked out of their accounts.
 
 It turned out that a hacker got into the network of the 1,000-lawyer agency by using a worker's email password. The invasions caused havoc with the city's lawyers, halted court procedures, and threw the department's legal affairs into turmoil. Most expressed concerns about the exposure of Social Security numbers and other sensitive data.
 

@@ -38,7 +38,7 @@ Now that you know the major why(s) and are still reading this post, without furt
 Since the entire content can be a bit exhausting in one place, I’m going to divide this into 2 related posts.
 
 # 1. Setting up the Infrastructure
-I’m going to mention below the guide for setting up an instance running **RedHat Enterprise Linux 8** on AWS. This is because MongoDB generally performs better with the xfs file-system. [Here is an article to understand it better.](https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/)
+I’m going to mention below the guide for setting up an instance running **RedHat Enterprise Linux 8** on AWS. This is because MongoDB generally performs better with the xfs file-system.
 
 ## Spin up an EC2 Instance
 I’ve used a `t3.small` instance that comes with **2 vCPUs** and **2Gb of RAM** albeit you can select any instance of your choice.
