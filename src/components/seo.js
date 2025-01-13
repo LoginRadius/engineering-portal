@@ -61,7 +61,7 @@ const SEO = ({
         },
       }
       if (article) {
-        jsonLd.datePublished = formatDate(post.frontmatter.date)
+        //jsonLd.datePublished = formatDate(post.frontmatter.date)
       }
       if (seo.title) {
         jsonLd.headline = seo.title
