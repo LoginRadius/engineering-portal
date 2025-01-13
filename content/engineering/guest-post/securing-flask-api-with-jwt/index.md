@@ -778,6 +778,6 @@ While passing a book request, pass it via the `form-data` tab in Postman.
 
 This article has explained flask JWT authentication .
 
-In some cases, handling flask authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this [tutorial](https://www.loginradius.com/developers/) to learn how to add LoginRadius to your Flask application.
+In some cases, handling flask authentication yourself may not be good enough or efficient -- to overcome this, you can simply use third-party authentication providers like LoginRadius. You can check out this tutorial to learn how to add LoginRadius to your Flask application.
 
 You can find the complete code for this article on [Github](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flask/loginRadius-flask-auth). You can reach out to me on [Twitter](https://twitter.com/bkoiki950) if you've any questions.

@@ -100,7 +100,7 @@ ReactDOM.render(
 export default withUser(LoginForm);
 ```
 
-You'll also be able to notice I used the new "[Hooks](/react-hooks-guide/)" feature that is shipped with React since version 16.8 to make it even neater and easier to create contexts.
+You'll also be able to notice I used the new "[Hooks](https://www.loginradius.com/blog/engineering/react-hooks-guide/)" feature that is shipped with React since version 16.8 to make it even neater and easier to create contexts.
 
 ### Final piece of advice
 I mentioned how people overuse Redux, and it also applies to Context API. Use it only when you need to share state between lot's of components with a lot of nesting.

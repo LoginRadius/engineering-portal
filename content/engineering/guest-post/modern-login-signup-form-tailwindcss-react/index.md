@@ -19,7 +19,7 @@ So in this post, you'll learn:
 
 I'll then walk you through step by step how to use it to create a modern login and signup form with routing in React.
 
-Finally, you'll see how to make these forms functional using [LoginRadius Authentication APIs](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/authentication).
+Finally, you'll see how to make these forms functional using [LoginRadius Authentication APIs](https://www.loginradius.com/resource/whitepaper/loginradius-ciam-developers/) docs/references/api/authentication).
 
 ## What is Tailwind CSS?
 
@@ -757,9 +757,9 @@ Don't worry; if you got stuck somewhere, feel free to [refer to the entire codeb
 
 ## Use LoginRadius Authentication APIs
 
-You can use [LoginRadius](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper) to quickly set up an authentication backend for your frontend application.
+You can use [LoginRadius](https://www.loginradius.com/resource/whitepaper/loginradius-ciam-developers/) to quickly set up an authentication backend for your frontend application.
 
-First, [set up an account](https://accounts.loginradius.com/auth.aspx?action=register), and get your API key from your Account Dashboard.
+First, [set up an account](https://accounts.loginradius.com/auth.aspx), and get your API key from your Account Dashboard.
 
 Then, you can use their [login endpoint](https://api.loginradius.com/identity/v2/auth/login) to authenticate users. 
 
@@ -787,7 +787,7 @@ The endpoint takes an email and password as parameters and validates them agains
     }
 ```
 
-Similarly, you can use [the Signup endpoint](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/authentication/#auth-user-registration-by-email) to create users without managing a complete backend database yourself.
+Similarly, you can use [the Signup endpoint](https://www.loginradius.com/resource/whitepaper/loginradius-ciam-developers/) to create users without managing a complete backend database yourself.
 
 Curious to learn more?
 

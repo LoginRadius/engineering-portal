@@ -50,7 +50,7 @@ Constant pop-up alerts could indicate that the smartphone has been infected with
 
 ### 6. Unusual activity on any accounts linked to the device
 
-If the phone has been hacked, hackers would be able to access social media, email, or apps, putting you at risk for identity fraud. Activities such as resetting passwords, [emails being sent or read](https://www.loginradius.com/blog/identity/2020/12/what-to-do-when-email-hacked/) without the users' knowledge, or new account sign-ups are all signals which indicate that the phone is in the wrong hands. 
+If the phone has been hacked, hackers would be able to access social media, email, or apps, putting you at risk for identity fraud. Activities such as resetting passwords, [emails being sent or read](https://www.loginradius.com/blog/identity/what-to-do-when-email-hacked/) without the users' knowledge, or new account sign-ups are all signals which indicate that the phone is in the wrong hands. 
 
 
 ## What to Do if Your Phone Is Hacked
@@ -58,7 +58,7 @@ If the phone has been hacked, hackers would be able to access social media, emai
 If you witness any of the above signs on your smartphone, there is a high possibility that your phone has been hacked. You need to take the appropriate steps to eliminate the malware that has attacked your phone. Some of the steps which you can follow are:
 
 
-*   Download a mobile security app from a trusted site, which not only scans for malware but offers additional features like a call blocker, firewall, VPN and a feature to request [Pin Based Authentication](https://www.loginradius.com/blog/2020/04/loginradius-pin-based-authentication/) for accessing sensitive apps like online banking.
+*   Download a mobile security app from a trusted site, which not only scans for malware but offers additional features like a call blocker, firewall, VPN and a feature to request [Pin Based Authentication](https://www.loginradius.com/blog/identity/loginradius-pin-based-authentication/) for accessing sensitive apps like online banking.
 *   Change passwords as soon as possible.
 *   Remove suspicious apps.
 *   Inform friends and contacts that you have been hacked. This warning would help your contacts ignore suspicious messages sent by the malware to their phones.
@@ -68,7 +68,7 @@ If you witness any of the above signs on your smartphone, there is a high possib
 
 ## 8 Ways To Stop Someone From Hacking Your Phone Again
 
-Many smartphone users believe that their mobile service providers should deploy [cyber-protection](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/). However, it is also the responsibility of the users to protect themselves from hackers. There are many different ways a hacker can get into your phone and steal personal and critical information. 
+Many smartphone users believe that their mobile service providers should deploy [cyber-protection](https://www.loginradius.com/resource/infographic/cybersecurity-best-practices-for-enterprise/). However, it is also the responsibility of the users to protect themselves from hackers. There are many different ways a hacker can get into your phone and steal personal and critical information. 
 
 Here are a few safety tips to ensure that you do not become a victim of phone hacking:
 
@@ -88,7 +88,7 @@ Installation of any smartphone app requires users to grant permissions, includin
 
 ### 3.  Review what’s already on your phone.
 
-Users need to keep track of the apps already downloaded on their smartphones. It may have been safe when installed the first time, but subsequent updates could have infected the smartphone. Always keep track of what [permissions have been given to the apps](https://www.loginradius.com/blog/identity/2020/08/securing-enterprise-mobile-apps/) while accessing the operating system of the smartphone. Various security apps would have helped provide an overview of the permissions, but users need to download such apps from trusted sites. 
+Users need to keep track of the apps already downloaded on their smartphones. It may have been safe when installed the first time, but subsequent updates could have infected the smartphone. Always keep track of what [permissions have been given to the apps](https://www.loginradius.com/blog/identity/securing-enterprise-mobile-apps/) while accessing the operating system of the smartphone. Various security apps would have helped provide an overview of the permissions, but users need to download such apps from trusted sites. 
 
 
 ### 4.   Make it hard for intruders to get in.
@@ -113,7 +113,7 @@ Auto-login is a convenient feature that automatically logs in without entering t
 
 Using an open wireless network allows anyone in the vicinity to snoop on what you are doing online. At times, hackers open their own free wireless "hotspots" to attract users to access their wifi.  Once connected, they can easily hack into phones. 
 
-So, whenever you are not sure about the security of the wireless network, use your phone’s mobile internet connection. It will be a much safer and secure option. Users can also opt for VPN tools which route the traffic through a private encrypted channel. Turning on [two-factor authentication for online accounts ](https://www.loginradius.com/blog/identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/)will also help protect your privacy on public wifi. Users should turn off bluetooth and personal hotspot functions when not required. 
+So, whenever you are not sure about the security of the wireless network, use your phone’s mobile internet connection. It will be a much safer and secure option. Users can also opt for VPN tools which route the traffic through a private encrypted channel. Turning on [two-factor authentication for online accounts ](https://www.loginradius.com/blog/identity/use-multi-factor-authentication-dont-cell-phone-access/)will also help protect your privacy on public wifi. Users should turn off bluetooth and personal hotspot functions when not required. 
 
 
 ### 8.   Lock individual apps.
