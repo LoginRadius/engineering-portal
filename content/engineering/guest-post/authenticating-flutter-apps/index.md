@@ -11,13 +11,13 @@ description: "Developing Flutter apps? Learn how to implement user authenticatio
 
 User authentication is the process of validating a user's identity to ensure that they are who they claim to be. Implementing user authentication in your application is critical to prevent unauthorized users from accessing sensitive information.
 
-This tutorial focuses on implementing user authentication and registration in Flutter applications using the [LoginRadius API](https://www.loginradius.com/developers/).
+This tutorial focuses on implementing user authentication and registration in Flutter applications using the LoginRadius API.
 
 ## Prerequisites
 
 If you wish to follow along with this tutorial, you must have the following set up:
 
-- [Sign up for a free LoginRadius developer account](https://accounts.loginradius.com/auth.aspx?action=register)
+- [Sign up for a free LoginRadius developer account](https://accounts.loginradius.com/auth.aspx)
 - Any IDE that has [Flutter SDK](https://docs.flutter.dev/get-started/install) installed (i.e., [Android Studio](https://developer.android.com/studio), [VSCode](https://code.visualstudio.com/))
 - A basic understanding of [Dart](https://dart.dev/) and [Flutter](https://flutter.dev/)
 
@@ -46,7 +46,7 @@ After creating an account with LoginRadius, it sets up a free app for you. This 
 
 ![LoginRadius App Screen](app_window.png)
 
-Next, you need to obtain your LoginRadius API credentials. To do so, [login to your Dashboard](https://dashboard.loginradius.com/login) and navigate to the `Configuration` tab in the sidebar menu. You will find your API credentials under the `API Key and Secret` section. Copy and store your **APP Name**, **API Key**, and **API Secret** somewhere safe and easily accessible.
+Next, you need to obtain your LoginRadius API credentials. To do so, login to your Dashboard and navigate to the `Configuration` tab in the sidebar menu. You will find your API credentials under the `API Key and Secret` section. Copy and store your **APP Name**, **API Key**, and **API Secret** somewhere safe and easily accessible.
 
 ![LoginRadius Configuration Tab](configuration_tab.png)
 
@@ -127,8 +127,6 @@ After retrieving the endpoint URL, you need to send a POST request to the endpoi
 - the `userData` as the request body; and,
 - the `SOTT` key as a header, as shown below.
 
-> You can [generate your Secure One Time Token (SOTT) key here](https://www.loginradius.com/developers/).
-
 ```dart
 class ApiClient {
        //...
@@ -152,7 +150,7 @@ class ApiClient {
 
 ### Step 5: Implement User Login
 
-The below code snippet shows how you’ll send a POST request to the [LoginRadius login endpoint](https://www.loginradius.com/developers/) URL `https://api.loginradius.com/identity/v2/auth/login`, passing in your `apiKey` as a query parameter and the `email` and `password` of the user as the request body.
+The below code snippet shows how you’ll send a POST request to the LoginRadius login endpoint URL `https://api.loginradius.com/identity/v2/auth/login`, passing in your `apiKey` as a query parameter and the `email` and `password` of the user as the request body.
 
 ```dart
 class ApiClient {
@@ -179,7 +177,7 @@ class ApiClient {
 
 ### Step 6: Get User Profile Data
 
-To [retrieve the user profile details](https://www.loginradius.com/developers/), send a `GET` request to the Read Profile Endpoint URL `https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.
+To retrieve the user profile details, send a `GET` request to the Read Profile Endpoint URL `https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.
 
 > The user’s access token is gotten from the successful response object of the User Login endpoint.
 
@@ -207,7 +205,7 @@ class ApiClient {
 
 ### Step 7: Implement User Logout
 
-Finally, to [implement the user logout functionality](https://www.loginradius.com/developers/), you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
+Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
 
 ```dart
 class ApiClient {
@@ -350,7 +348,7 @@ If the form is validated, you pass your `userData` to the `registerUser` method 
 
 If the response is an error, you show a snackbar with the error message. Otherwise, the user is redirected to the Login Screen.
 
-> In the following example, you've provided only a few user attributes as `userData`. To view the complete list of user attributes, please look at [the body parameters of the User Registration API here](https://www.loginradius.com/developers/).
+> In the following example, you've provided only a few user attributes as `userData`. To view the complete list of user attributes, please look at the body parameters of the User Registration API here.
 
 ```dart
 Future<void> _handleRegister() async {
@@ -584,5 +582,3 @@ On pressing the button, you'll call the `logout` method on the `ApiClient` class
 LoginRadius provides high-level, secure, and well-documented APIs to ease the implementation of authentication and user identity management. This tutorial has discussed LoginRadius's benefits and how to use the LoginRadius APIs to handle user authentication and registration in a Flutter application.
 
 The complete [source code of the demo application is available on GitHub](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Flutter/Flutter_Auth_Guide).
-
-You can also [check out more features of the LoginRadius API here](https://www.loginradius.com/developers/).

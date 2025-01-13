@@ -23,17 +23,17 @@ First, you need to install the [LoginRadius React SDK](https://www.npmjs.com/pac
 ### What is LoginRadius?
 >[LoginRadius](https://www.loginradius.com/docs/api/v2/getting-started/introduction/) is a SaaS-based customer identity and access management (CIAM) system with features to manage customer identity, privacy, and access. It is a simple, implementable solution for adding user authentication and authorization to your website.
 
-LoginRadius has features to add different [login authentication options](https://www.loginradius.com/authentication/), including email, phone, and social network logins, such as Google and Facebook. It also provides security on these data. Some security features it offers include:
+LoginRadius has features to add different [login authentication options](https://www.loginradius.com/platforms/authentication-and-registration), including email, phone, and social network logins, such as Google and Facebook. It also provides security on these data. Some security features it offers include:
 
 - **Accessing the Admin Console:** Generally, this is where we can control authentication factors regarding our apps.
 - **Using API Secret:** A unique generated key to access our API.
-- **[Multi-Factor Authentication](https://www.loginradius.com/multi-factor-authentication/):** This features covers two-factor authentication.
+- **[Multi-Factor Authentication](https://www.loginradius.com/platforms/multi-factor-authentication):** This features covers two-factor authentication.
 - **SSL Verification**
 
 LoginRadius comes with different SDKs, including reactjs authentication, to support different frameworks. One of them is the [LoginRadius ReactJS SDK](https://github.com/LoginRadius/loginradius-react), which allows you to add authentication within your React app.
 ## Getting Started
 ### Creating a LoginRadius Account
-First, you need to [create a LoginRadius account](https://accounts.loginradius.com/auth.aspx?action=register) with a Developer Pro plan selected instead of the free plan. This is to be able to access role management features, which are only available in the Developer Pro plan. 
+First, you need to [create a LoginRadius account](https://accounts.loginradius.com/auth.aspx) with a Developer Pro plan selected instead of the free plan. This is to be able to access role management features, which are only available in the Developer Pro plan. 
 
 You'll get a page requesting you to create a new application. Click on "create a new application". After which, a page comes up where you should enter the name of your app and the URL to your app. Here, Input any name and URL of your choice.
 
