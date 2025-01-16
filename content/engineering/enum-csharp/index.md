@@ -158,4 +158,4 @@ Bike
  
 The advantages of using enums are that they are very easy to use and represented as strings but processed as integers. Enums are easy to maintain and improve code readability because they provide symbolic named constants, which means you need to remember the names, not the integer values.
 
-If you want to learn more about C programming, here is another article written on C# [Exceptions and Exception Handling in C#](https://www.loginradius.com/blog/engineering/exception_handling_in_csharp/) I hope you learn something new today and will going to try it out, if you have any questions feel free to drop a comment below.
+If you want to learn more about C programming, here is another article written on C# [Exceptions and Exception Handling in C#](https://www.loginradius.com/blog/engineering/exception-handling-in-csharp/) I hope you learn something new today and will going to try it out, if you have any questions feel free to drop a comment below.

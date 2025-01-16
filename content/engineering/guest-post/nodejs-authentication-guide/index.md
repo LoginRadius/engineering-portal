@@ -11,7 +11,7 @@ description: "Want to authenticate and manage users with specific roles in your 
 
 Creating a user registration form employs the management of the registered user. This is where user role authentication comes into play. Role authentication ensures that non-admin users cannot make changes or access exclusive information. It grants administrative privileges to admin users and basic privileges to basic users.
 
-You can build your own authentication functionality with web tokens like JSON Web Token (JWT) or use a trusted third-party customer identity and access management (CIAM) software like [LoginRadius](https://accounts.loginradius.com/auth.aspx?action=register).
+You can build your own authentication functionality with web tokens like JSON Web Token (JWT) or use a trusted third-party customer identity and access management (CIAM) software like LoginRadius.
 
 ## Goal
 
@@ -1230,21 +1230,21 @@ Basically, LoginRadius handles user registration, login, and authentication. Oth
 
 - **Forms**: LoginRadius can automatically pre-create registration and login forms for you.
 
-- [**Authentication and Authorization**](https://www.loginradius.com/developers/): It generates and sends a token to the user when login or signup is successful. Instead of using `JWT`, you can use this token to authenticate users
+- **Authentication and Authorization**: It generates and sends a token to the user when login or signup is successful. Instead of using `JWT`, you can use this token to authenticate users
 
 - **Security**: When using LoginRadius, you automatically have access to an admin console where you can control authentication factors, such as email, phone, and multi-factor auth for your Node.js app.
 
-To get started with LoginRadius, you need to [create an account](https://accounts.loginradius.com/auth.aspx?action=register) with either the free plan or the Developer plan, customize your registration and login forms, and start managing your users.
+To get started with LoginRadius, you need to [create an account](https://accounts.loginradius.com/auth.aspx) with either the free plan or the Developer plan, customize your registration and login forms, and start managing your users.
 
 ### How to Authenticate Your Node.js App with LoginRadius
 
 This section briefly covers how authentication works with LoginRadius.
 
-After signing up for [LoginRadius](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login&action=register), choose a name for your Node.js app.
+After signing up for LoginRadius, choose a name for your Node.js app.
 
 > ![LoginRadius - Enter your app name](loginradius.png)
 
-After completing your LoginRadius signup process, you can get your **App Name**, **API Key**, and **API Secret** from the [`configuration`](https://dashboard.loginradius.com/configuration) link on the sidebar. With these configurations, you can easily link the server-side of our application to LoginRadius.
+After completing your LoginRadius signup process, you can get your **App Name**, **API Key**, and **API Secret** from the `configuration` link on the sidebar. With these configurations, you can easily link the server-side of our application to LoginRadius.
 
 ![LoginRadius API Credentials](loginradius1.png)
 
