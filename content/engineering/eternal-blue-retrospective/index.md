@@ -2,7 +2,7 @@
 title: "EternalBlue: A retrospective on one of the biggest Windows exploits ever"
 date: "2020-10-27"
 coverImage: "etbluecover.png"
-author: "Bas Palinckx"
+author: "Anonymous"
 tags: ["Cyber Security", "Exploits", "Virus"]
 description: "It's been more than three years since EternalBlue; let's do a recap."
 ---
