@@ -76,7 +76,6 @@ const Header = ({ searchIndex, pathname, type }) => {
           <div className="content">
             <div className={headerStyles.hellobartext}>
               <span className={headerStyles.kcicon}>
-                <img src="https://www.loginradius.com/wp-content/uploads/2024/07/kc-icon-tran.png" />
                 2024 KuppingerCole Leadership Compass recognizes LoginRadius as
                 Overall Leader.
               </span>
