@@ -770,7 +770,7 @@ The endpoint takes an email and password as parameters and validates them agains
     const authenticateUser = () =>{
         
        
-        const endpoint=``https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}`;`
+        const endpoint=`https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}`;
          fetch(endpoint,
              {
              method:'POST',

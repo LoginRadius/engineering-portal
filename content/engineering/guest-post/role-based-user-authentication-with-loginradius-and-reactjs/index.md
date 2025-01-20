@@ -250,7 +250,7 @@ const CallAPI = () => {
     (async () => {
       try {
         const response = await fetch(
-          ``https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,`
+          `https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,
           {}
         );
         setResp(await response.json());
@@ -316,7 +316,7 @@ const CallAPI = () => {
       try {
         const token = await getAccessTokenSilently();
         const response = await fetch(
-        ``https://api.loginradius.com/identity/v2/auth/access_token/validate?access_token=${token}&apiKey=${process.env.REACT_APP_API_KEY}`,`
+        `https://api.loginradius.com/identity/v2/auth/access_token/validate?access_token=${token}&apiKey=${process.env.REACT_APP_API_KEY}`,
           {}
         );
         setResp(await response.json());
@@ -389,7 +389,7 @@ Manage users:
 Here, you can view the account information of your users, search for a particular user details using the email, Uid, or phone number as the query in the search box. Also, the panel provides an option to reset the password of a user, block users, and delete users as the above image shows. You can create new users by clicking on the "add user" button and filling in the details of the new user.
 
 ## Viewing User Permissions
-To view all roles and permissions for your app, change the URL in the fetch request to ``https://api.loginradius.com/identity/v2/manage/role`, keeping the rest of the URL the same. That is, it still contains your `appkey` and `appsecret` parameters.`
+To view all roles and permissions for your app, change the URL in the fetch request to `https://api.loginradius.com/identity/v2/manage/role`, keeping the rest of the URL the same. That is, it still contains your `appkey` and `appsecret` parameters.
 
 Reload your page, and you'll have an output similar as follows:
 
@@ -437,7 +437,7 @@ const CallAPI = () => {
           
         
         response = await fetch(
-          ``https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,`
+          `https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,
           {
             method: "PUT",
             headers: {
@@ -456,7 +456,7 @@ const CallAPI = () => {
     else {
        try {
          response = await fetch(
-           ``https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,`
+           `https://api.loginradius.com/identity/v2/manage/account/${uid}/role?apiKey=${process.env.REACT_APP_API_KEY}&apiSecret=${process.env.REACT_APP_SECRET}`,
            {
              method: "PUT",
              headers: {

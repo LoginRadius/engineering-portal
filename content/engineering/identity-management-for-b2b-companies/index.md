@@ -98,7 +98,7 @@ These are the roles that organization users will have to access permission-based
 
 - [Set Roles for Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#addupdate-roles)
   
-  API Endpoint: ``https://api.loginradius.com/identity/v2/manage/organizations/{id}/defaultroles``
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations/{id}/defaultroles`
 
 ### Step 3: User Management for Organization
 - [Add User to Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#add-user-to-organization)

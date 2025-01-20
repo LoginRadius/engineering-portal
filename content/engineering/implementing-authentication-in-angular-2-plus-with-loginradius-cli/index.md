@@ -197,7 +197,7 @@ export class ProfileService {
   getProfile() {
     // now returns an Observable of Config
     return this.http.get<Profile>(
-      ``https://api.loginradius.com/identity/v2/auth/account?access_token=${localStorage.getItem(`
+      `https://api.loginradius.com/identity/v2/auth/account?access_token=${localStorage.getItem(
         'token'
       )}&apikey=${config.API_KEY}`
     );
