@@ -31,7 +31,7 @@ In other words, collaboration can be a powerful defensive technique, but only if
     
 One crucial consideration when looking to integrate the role of a CISO into your broader organization is when to start the collaborative process. It’s not practical to appraise every executive of every upcoming IT initiative, but too often these initiatives are not mentioned to leaders until it is too late to [mitigate their business risks](https://www.loginradius.com/blog/identity/7-web-app-sec-threats/).
 
-This is why Federal Reserve CISO Devon Bryan told the [Management Information Systems Training Institute (MISTI)](https://misti.com/infosec-insider/the-art-of-aligning-security-goals-with-business-goals) that today’s security leaders need to “prioritize partnerships with business units” immediately. By doing so, CISOs can start to build a cooperative environment in the boardroom and make sure that business leaders understand how new technologies will affect their areas of expertise.
+This is why Federal Reserve CISO Devon Bryan told the [Management Information Systems Training Institute (MISTI)](https://www.scworld.com/news/the-art-of-aligning-security-goals-with-business-goals) that today’s security leaders need to “prioritize partnerships with business units” immediately. By doing so, CISOs can start to build a cooperative environment in the boardroom and make sure that business leaders understand how new technologies will affect their areas of expertise.
 
 ### 2. Create Shared Definitions
     

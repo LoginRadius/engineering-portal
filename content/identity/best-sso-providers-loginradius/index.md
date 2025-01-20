@@ -128,7 +128,7 @@ Apart from delivering the industry's best consumer, the following are a few ways
 
 - **Scalability**: LoginRadius ensures that it accommodates your continually growing consumer base. The even better part is, there are no limitations to the number of users. Also, the LoginRadius Cloud Directory scales automatically to handle incremental data every time—in realtime. It has the ability to autoscale and handle hundreds of applications.
 
-- **Globally compliant**: The LoginRadius platform also complies with major global compliances like the GDPR, CCPA, etc. You can keep track of your consumers, manage preferences, and customize the kind of [consent consumers want](https://www.loginradius.com/blog/2020/06/consumer-data-privacy-security/). 
+- **Globally compliant**: The LoginRadius platform also complies with major global compliances like the GDPR, CCPA, etc. You can keep track of your consumers, manage preferences, and customize the kind of [consent consumers want](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/). 
 
 - **Security Certifications**: LoginRadius is compliant with [international regulatory bodies](https://www.loginradius.com/compliances-list/) like AICPA SOC 2, ISAE 3000, Cloud Security Alliance, Privacy Shield, and more.
 

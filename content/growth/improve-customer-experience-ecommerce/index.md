@@ -126,7 +126,7 @@ What's worse is that most customers often don’t take the necessary steps to pr
 - Introduce a web application firewall with built-in DDoS protection.
 - Keep a backup solution in place to automatically back up files in the event of a breach.
 - Conduct security awareness training for your employees, so they know how to spot suspicious activities.
-- [Develop a cybersecurity plan](https://www.loginradius.com/blog/2019/10/cybersecurity-best-practices-for-enterprises/) that clearly outlines what to do right after an attack. 
+- [Develop a cybersecurity plan](https://www.loginradius.com/resource/infographic/cybersecurity-best-practices-for-enterprise/) that clearly outlines what to do right after an attack. 
 - Stay up-to-date with security patches to prevent hackers from exploiting your data. 
 - Encrypt all passwords and sensitive customer data, so they are never compromised. 
 

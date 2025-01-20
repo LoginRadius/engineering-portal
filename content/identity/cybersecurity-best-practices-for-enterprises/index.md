@@ -39,7 +39,7 @@ The best ones will make it easy for legitimate users to authenticate themselves.
 
 Multi-factor authentication is a powerful feature to prevent unauthorized users from accessing sensitive data. 
 
-For the most secure user sign-ins, you should use a combination of elements like biometrics, SMS/text messages, emails, and security questions. Use [extra layers of protection](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/), like text verification, email verification, or time-based security codes.
+For the most secure user sign-ins, you should use a combination of elements like biometrics, SMS/text messages, emails, and security questions. Use [extra layers of protection](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/), like text verification, email verification, or time-based security codes.
 
 For example, you can allow an employee to log in on a managed device from your corporate network. But if a user is logging in from an unknown network on an unmanaged device, ask them to crack an additional layer of security. 
 

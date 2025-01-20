@@ -120,7 +120,7 @@ Let's dig further into the identity platform to find out more about how it [help
 
 **Social sign-on**: This form of one-click authentication via the [customer's social media accounts](https://www.loginradius.com/social-login/) reduces the associated hassles of remembering user ids and complex passwords.
 
-**Security and compliance**: LoginRadius adds additional layers of protection with two-factor or [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/). Not to forget, real-time fraud analysis and data management to prevent hacking attempts. The platform is also compliant with international security standards like the [GDPR and CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/).
+**Security and compliance**: LoginRadius adds additional layers of protection with two-factor or [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/). Not to forget, real-time fraud analysis and data management to prevent hacking attempts. The platform is also compliant with international security standards like the [GDPR and CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/).
 
 ## Conclusion
 

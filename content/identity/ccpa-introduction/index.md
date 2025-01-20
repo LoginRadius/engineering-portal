@@ -51,7 +51,7 @@ This will help you set up an efficient system for information retrieval should a
 
 **Review and update your privacy policies.**
 
-A GDPR Privacy Policy will meet CalOPPA/CCPA requirements, but a CalOPPA/CCPA policy might _not_ be GDPR-compliant. To be safe, be sure that your CCPA privacy policy is clearly defined and easily distinguishable from [GDPR regulations](https://www.loginradius.com/blog/2018/03/gdpr-will-affect-companies-use-data-target-customers/).
+A GDPR Privacy Policy will meet CalOPPA/CCPA requirements, but a CalOPPA/CCPA policy might _not_ be GDPR-compliant. To be safe, be sure that your CCPA privacy policy is clearly defined and easily distinguishable from [GDPR regulations](https://www.loginradius.com/gdpr-and-privacy/).
 
 It’s also helpful to train your customer-facing employees on how privacy policies and CCPA compliance can [improve customer trust](https://www.loginradius.com/customer-trust/) and increase engagement.
 

@@ -117,7 +117,7 @@ LoginRadius helps businesses use the data they collect to the fullest by creatin
 
 Personalized mobile apps and services are a great way to enhance the fan experience in the sports industry. But forcing fans to create multiple accounts in order to engage with the various components of these apps is disruptive and can lead to a lack of adoption for those services.
 
-With the [single sign-on (SSO)](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/) function of the LoginRadius solution, fans can access each team platform with a single set of credentials. And for third-party domains, such as ticketing platforms, LoginRadius offers federated SSO to push a fan's credentials to that platform to maintain a frictionless experience.  
+With the [single sign-on (SSO)](https://www.loginradius.com/blog/identity/what-is-single-sign-on/) function of the LoginRadius solution, fans can access each team platform with a single set of credentials. And for third-party domains, such as ticketing platforms, LoginRadius offers federated SSO to push a fan's credentials to that platform to maintain a frictionless experience.  
 
 With SSO in place, fans can go from watching highlights of their favorite player to buying their jersey to purchasing tickets for their next game, all under a single account.
 

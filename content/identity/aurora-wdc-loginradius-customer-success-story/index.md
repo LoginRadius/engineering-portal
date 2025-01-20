@@ -39,7 +39,7 @@ Users no longer had to experience the hassle of entering in their personal detai
 
 In addition, LoginRadius' comprehensive WordPress plugin ensured that there were no issues when implementing this solution on Aurora WDC's WordPress-based sites.
 
-One of the main strengths of LoginRadius [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) platform is its flexibility to integrate with multiple systems and tools that our customers are using to help enhance their workflows.
+One of the main strengths of LoginRadius [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) platform is its flexibility to integrate with multiple systems and tools that our customers are using to help enhance their workflows.
 
 In this case, we were able to successfully integrate Aurora WDC's LoginRadius account and user data with both Salesforce and Pardot so they can have a clear view of their clients and manage those relationships, as well as maximize their marketing efforts based on the user data collected via LoginRadius.
 

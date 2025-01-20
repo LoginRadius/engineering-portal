@@ -205,7 +205,7 @@ It enables both product and marketing divisions to experiment with each other. Y
 ![google-optimize](google-optimize.png)
 
 
-[Google Optimize](https://optimize.google.com/optimize/home/) can be an excellent way for you to A / B test various things if you're at your company's early stage. It's free, and it will meet all your needs at the start.
+[Google Optimize](https://support.google.com/analytics/answer/12979939) can be an excellent way for you to A / B test various things if you're at your company's early stage. It's free, and it will meet all your needs at the start.
 
 Currently, Google Optimize's most extensive feature is its in-depth integration with Google Analytics. This is an essential thing because it helps you to do more detailed targeting, more detailed monitoring, and more advanced tracking of conversions.
 

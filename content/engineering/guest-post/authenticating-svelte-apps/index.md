@@ -482,7 +482,7 @@ const handleSubmit = () => {
     id: null,
     fullname: null,
   }
-  const endpoint = `https://api.loginradius.com/identity/v2/manage/account?apikey=${sdkoptions.apiKey}&apisecret=${sdkoptions.apiSecret}`
+  const endpoint = ``https://api.loginradius.com/identity/v2/manage/account?apikey=${sdkoptions.apiKey}&apisecret=${sdkoptions.apiSecret}``
   fetch(endpoint, {
     method: "POST",
     headers: {
@@ -611,7 +611,7 @@ Similarly, you can now integrate the Login API as well in your `Login.svelte` fi
         profile:null,
         auth_token:null
     }
-       const endpoint=`https://api.loginradius.com/identity/v2/auth/login?apikey=${sdkoptions.apiKey}&apisecret=${sdkoptions.apiSecret}`;
+       const endpoint=``https://api.loginradius.com/identity/v2/auth/login?apikey=${sdkoptions.apiKey}&apisecret=${sdkoptions.apiSecret}`;`
        loading=true;
     fetch(endpoint,
         {

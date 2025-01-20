@@ -69,7 +69,7 @@ You might have the best expertise in certain technology, you might have designed
     
 4. **Contribute to Open source or start Open source :**  
       
-    Another great way to cultivate personal brand is to contribute to open source or start open source. While contributing to an open source can be an amazing experience it will earn you recognition among your fellow community. Also you can start open source. If you are getting difficulties to start open source, have a look at this interesting [article](http://www.developer.com/open/how-to-start-contributing-to-open-source.html).
+    Another great way to cultivate personal brand is to contribute to open source or start open source. While contributing to an open source can be an amazing experience it will earn you recognition among your fellow community. Also you can start open source. If you are getting difficulties to start open source, have a look at this interesting [article](https://opensource.guide/how-to-contribute/).
 
 **What I’m trying to say is**
 

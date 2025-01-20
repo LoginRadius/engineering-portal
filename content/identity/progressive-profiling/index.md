@@ -74,7 +74,7 @@ Progressive profiling allows marketers to collect critical information about the
 
 **2. Fine-tune buyer personas**
 
-Your marketing team will be able to craft effective marketing strategies that connect with the consumer. They will [streamline the lead nurturing process](https://www.loginradius.com/blog/fuel/2021/03/B2B-Lead-Generation-for-2021/) based on the actual data points such as company size, job role, industry, location, etc., instead of making educated guesses. 
+Your marketing team will be able to craft effective marketing strategies that connect with the consumer. They will [streamline the lead nurturing process](https://www.loginradius.com/blog/growth/b2b-lead-generation-for-2021/) based on the actual data points such as company size, job role, industry, location, etc., instead of making educated guesses. 
 
 **3. Accelerates the buying journey**
 

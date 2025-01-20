@@ -114,7 +114,7 @@ Data is powerful, so it must be available to only the right people. One of the k
 
 LoginRadius offers just the right framework (including the ones mentioned above) to go beyond consumer expectations—which is all that matters. 
 
-As an ideal [CIAM solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/), LoginRadius is scalable and easy to deploy. It offers advanced MFA solutions, third-party vendor management using federated SSO protocols, zero-trust security architecture, and robust access management so that consumer workflow is duly specified and streamlined. 
+As an ideal [CIAM solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), LoginRadius is scalable and easy to deploy. It offers advanced MFA solutions, third-party vendor management using federated SSO protocols, zero-trust security architecture, and robust access management so that consumer workflow is duly specified and streamlined. 
 
 ## Conclusion 
 

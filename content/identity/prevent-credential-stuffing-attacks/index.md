@@ -146,7 +146,7 @@ LoginRadius advocates a number of alternative authentication methods to mitigate
 
 ## Conclusion
 
-Credential stuffing is easy to perform, so its popularity with criminals will increase with time. Even if your business isn't affected yet, you must [protect your website](https://www.loginradius.com/blog/2019/12/digital-privacy-best-practices/) and watch for all the red flags listed in this blog. 
+Credential stuffing is easy to perform, so its popularity with criminals will increase with time. Even if your business isn't affected yet, you must [protect your website](https://www.loginradius.com/blog/identity/digital-privacy-best-practices/) and watch for all the red flags listed in this blog. 
 
 If you're looking for a solution to help prevent credential stuffing, LoginRadius is easy to deploy. It  provides robust security with bot detection and multi-factor authentication, among other safeguards.
 

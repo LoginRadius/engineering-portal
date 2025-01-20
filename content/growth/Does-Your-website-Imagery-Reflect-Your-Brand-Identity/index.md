@@ -65,7 +65,7 @@ If you don’t know where and how to put the right call to action and **[effecti
 
 Leverage graphical buttons as CTAs as they’re quite appealing and they encourage the user to move to the next step.
 
-Also read: [How to Drive in the Highest Quality Leads in 2021 with Content and SEO](https://www.loginradius.com/blog/fuel/2021/03/How-to-Drive-in-the-Highest-Quality-Leads-in-2021-with-Content-and-SEO/)
+Also read: [How to Drive in the Highest Quality Leads in 2021 with Content and SEO](https://www.loginradius.com/blog/growth/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/)
 
 Choose bold colors and eye-catching fonts that further inspires the users to click.
 

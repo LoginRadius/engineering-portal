@@ -103,7 +103,7 @@ Now you can repeat the same by considering other groups of your targeted audienc
 
 B2B marketers need to comprehend the importance of hyper-personalization, which is eventually the need of the hour for businesses to stand ahead of the curve.
 
-Since everyone is online during the global pandemic, so should be businesses. Consumers can be attracted to your products and services when you create [effective B2B marketing plans](https://www.loginradius.com/blog/fuel/2021/03/How-to-Make-Businesses-Marketing-Plans-After-Coronavirus/).
+Since everyone is online during the global pandemic, so should be businesses. Consumers can be attracted to your products and services when you create [effective B2B marketing plans](https://www.loginradius.com/blog/growth/how-to-make-businesses-marketing-plans-after-coronavirus/).
 
 The ones that will leverage hyper-personalization by understanding its impact on marketing programs will ensure a better connection with clients leading to more conversions.
 

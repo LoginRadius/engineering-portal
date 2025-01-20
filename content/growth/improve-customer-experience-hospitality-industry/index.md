@@ -138,7 +138,7 @@ Therefore, you need to understand the nature of the data you collect from your g
 
 [Cybercriminals are mostly fond](https://www.zdnet.com/article/hotel-front-desks-are-now-a-hot-target-for-hackers/) of personal and transaction data. A lot of such data is collected, stored, and processed daily. As hotel operators, it is your responsibility to ensure that all data remains protected. 
 
-LoginRadius abides by industry-approved security compliances like EU’s [GDPR and California’s CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/) to keep guests’ data safe and protected at all times.
+LoginRadius abides by industry-approved security compliances like EU’s [GDPR and California’s CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) to keep guests’ data safe and protected at all times.
 
 ## Conclusion
 

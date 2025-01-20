@@ -109,7 +109,7 @@ By implementing [Single Sign-On](https://www.loginradius.com/blog/2019/05/what-i
 
 The digitization of media content has also changed the way companies earn revenue. Mostly, customers are looking for content that appeals to their interests and habits. A CIAM solution can help media platforms achieve that.
 
-A [CIAM platform like LoginRadius](https://www.loginradius.com/blog/2019/06/perfect-ciam-platform/) can record the preferences of their audience in unified customer profiles and generate relevant content.
+A [CIAM platform like LoginRadius](https://www.loginradius.com/blog/identity/perfect-ciam-platform/) can record the preferences of their audience in unified customer profiles and generate relevant content.
 
 [![media and publication data sheet loginraidus](image5.png)](https://www.loginradius.com/resource/how-media-and-publication-companies-use-loginradius-identity-platform/)
 

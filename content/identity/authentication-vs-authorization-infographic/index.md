@@ -189,7 +189,7 @@ A cloud-based CIAM solution like LoginRadius verifies authoritative user identit
 
 What more? Not having to manually define permissions saves time, reduces backlogs, and ensure hassle-free user experience.
 
-Furthermore, with LoginRadius, opportunities to streamline CIAM are endless. That also includes securing access to privileged resources and safeguarding IT infrastructure from [cyber attacks](https://www.loginradius.com/blog/2019/10/cybersecurity-attacks-business/).
+Furthermore, with LoginRadius, opportunities to streamline CIAM are endless. That also includes securing access to privileged resources and safeguarding IT infrastructure from [cyber attacks](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/).
 
 ## Frequently Asked Questions (FAQs)
 

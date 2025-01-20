@@ -80,7 +80,7 @@ Force your consumers to choose a strong password. Here are a few tips that will 
 
 ### 5. Limit login and password reset attempts.
 
-Suppose you allow consumers to enter their login credentials or reset their passwords as many times they want. In that case, hackers may indulge in brute-force attempts by entering different combinations until the [account is cracked](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/). 
+Suppose you allow consumers to enter their login credentials or reset their passwords as many times they want. In that case, hackers may indulge in brute-force attempts by entering different combinations until the [account is cracked](https://www.loginradius.com/blog/identity/prevent-credential-stuffing-attacks/). 
 
 Therefore, it is a good practice to limit the number of failed login attempts per user or block the user based on the IP. You can also add a captcha, say, after the fifth attempt. But don't add the captcha after the first attempt, it does not sound right from the consumer experience. 
 

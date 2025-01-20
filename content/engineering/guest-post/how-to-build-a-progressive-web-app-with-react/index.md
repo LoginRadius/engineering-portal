@@ -30,7 +30,7 @@ npx create-react-app name-of-our-PWA-app --template cra-template-pwa
 ```
 The above command can be broken down as follows:
 
-- **npx**: Every npm command needs to start with npm (or essentially with whatever node package manager you have installed, but 'npx' is used here, which comes with npm version 5.2.0). This helps you run npm packages and [takes care of many features](https://nodejs.dev/learn/the-npx-nodejs-package-runner).
+- **npx**: Every npm command needs to start with npm (or essentially with whatever node package manager you have installed, but 'npx' is used here, which comes with npm version 5.2.0). This helps you run npm packages and [takes care of many features](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager).
 
 - **create-react-app**: This command initiates the popular Create React App utility that helps you build the starter react project.
 

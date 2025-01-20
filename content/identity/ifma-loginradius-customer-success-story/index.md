@@ -32,7 +32,7 @@ Some of the challenges that IFMA was experiencing included:
 
 ### LoginRadius’ Solution
 
-After the deployment of LoginRadius [customer identity and access management solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/), IFMA was able to simplify the member sign-up and engagement process. In addition to fulfilling its core objectives, IFMA was able to build rich member profiles with the obtained social profile data. Specifically, LoginRadius helped IFMA achieve its goals in the following ways:  
+After the deployment of LoginRadius [customer identity and access management solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), IFMA was able to simplify the member sign-up and engagement process. In addition to fulfilling its core objectives, IFMA was able to build rich member profiles with the obtained social profile data. Specifically, LoginRadius helped IFMA achieve its goals in the following ways:  
   
 **1\. Introduce Social Login in the Authentication Layer**  
 IFMA wanted LoginRadius to remove the clunky and time consuming registration form in favour of a [seamless social login process](https://www.loginradius.com/social-login/) would increase members’ activities. IFMA opted for Google, Facebook, Twitter, and LinkedIn as the four social networks whose identities its members can utilize to signup and login to the community site. As expected, IFMA experienced a significant increase in member engagement, as well as the number of daily and monthly active users.  

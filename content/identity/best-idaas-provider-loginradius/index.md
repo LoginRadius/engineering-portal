@@ -75,7 +75,7 @@ LoginRadius is credible and the best IDaaS provider that can be applied to any s
 
 The platform offers next-gen technology to make sure employees, consumers, clients, or partners are who they say they are. Once confirmed, it offers access rights to resources based on the roles and permissions granted. 
 
-Additionally, the LoginRadius [IDaaS is deployed through the cloud](https://www.loginradius.com/blog/2019/12/identity-as-a-service-for-business/)—meaning businesses can request access securely, irrespective of the location or device. 
+Additionally, the LoginRadius [IDaaS is deployed through the cloud](https://www.loginradius.com/blog/identity/identity-as-a-service-for-business/)—meaning businesses can request access securely, irrespective of the location or device. 
 
 Let's find out the key capabilities that make LoginRadius an interesting pick for developers and businesses, in general. 
 

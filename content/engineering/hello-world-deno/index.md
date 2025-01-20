@@ -24,7 +24,7 @@ Btw, this is the best damn geeky one-liner code to explain what is Deno. Totally
 
 Deno works on macOS, Linux, and Windows. Deno is a single binary executable and it has no external dependencies.
 
-See all [installation](https://github.com/denoland/deno/blob/master/docs/getting_started/installation.md).
+See all [installation](https://docs.deno.com/runtime/getting_started/installation/).
 
 #### **Install Deno on Windows 10/8/7**
 

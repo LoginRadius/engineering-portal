@@ -132,7 +132,7 @@ LoginRadius complies with major regulatory laws and privacy requirements. It hel
 ### Overview of global regulations that LoginRadius is compiled with.
 
 - **General Data Protection Regulation** (GDPR): Offers data protection and privacy for all individual citizens of the European Union and the European Economic Area.
-- **California Consumer Privacy Act** (CCPA): focuses on the privacy [rights of California consumers](https://www.loginradius.com/blog/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
+- **California Consumer Privacy Act** (CCPA): focuses on the privacy [rights of California consumers](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
 - **US Privacy Shield**: Enables US-based organizations to benefit from the adequacy determinations.
 - **ISO/IEC 27018:2019**:  Protects Personally Identifiable Information (PII) in the public cloud computing environment.
 

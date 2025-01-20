@@ -242,7 +242,7 @@ Setting up Redis locally for Linux and Mac computers is simply straightforward.
 
 Follow the official documentation for [Linux](https://redis.io/docs/getting-started/installation/install-redis-on-linux/) and [macOS](https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/)
 
-For [Windows](https://redis.io/docs/getting-started/installation/install-redis-on-windows/), you need to install [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/wsl%20--install) Version 2 (WSL 2) and a [Linux Distro](https://docs.microsoft.com/en-us/windows/wsl/install-manual#downloading-distributions) on your local machine.
+For [Windows](https://redis.io/docs/getting-started/installation/install-redis-on-windows/), you need to install [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) Version 2 (WSL 2) and a [Linux Distro](https://docs.microsoft.com/en-us/windows/wsl/install-manual#downloading-distributions) on your local machine.
 
 This tutorial uses [Redis Cloud](https://redis.com/) to set up the Redis database. Redis Cloud starts with *Free* a subscription fee that grants 30MB of storage. This is perfect for this simple application.
 

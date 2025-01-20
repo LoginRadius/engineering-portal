@@ -133,7 +133,7 @@ class ApiClient {
        Future<Response> registerUser(Map<String, dynamic>? userData) async {
         try {
           Response response = await _dio.post(
-              'https://api.loginradius.com/identity/v2/auth/register',  //ENDPONT URL
+              '`https://api.loginradius.com/identity/v2/auth/register',  //ENDPONT URL`
               data: userData, //REQUEST BODY
               queryParameters: {'apikey': 'YOUR_API_KEY'},  //QUERY PARAMETERS
               options: Options(headers: {'X-LoginRadius-Sott': 'YOUR_SOTT_KEY', //HEADERS
@@ -150,7 +150,7 @@ class ApiClient {
 
 ### Step 5: Implement User Login
 
-The below code snippet shows how you’ll send a POST request to the LoginRadius login endpoint URL `https://api.loginradius.com/identity/v2/auth/login`, passing in your `apiKey` as a query parameter and the `email` and `password` of the user as the request body.
+The below code snippet shows how you’ll send a POST request to the LoginRadius login endpoint URL ``https://api.loginradius.com/identity/v2/auth/login`, passing in your `apiKey` as a query parameter and the `email` and `password` of the user as the request body.`
 
 ```dart
 class ApiClient {
@@ -158,7 +158,7 @@ class ApiClient {
        Future<Response> login(String email, String password) async {
         try {
           Response response = await _dio.post(
-            'https://api.loginradius.com/identity/v2/auth/login',
+            '`https://api.loginradius.com/identity/v2/auth/login',`
             data: {
               'email': email,
               'password': password
@@ -177,7 +177,7 @@ class ApiClient {
 
 ### Step 6: Get User Profile Data
 
-To retrieve the user profile details, send a `GET` request to the Read Profile Endpoint URL `https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.
+To retrieve the user profile details, send a `GET` request to the Read Profile Endpoint URL ``https://api.loginradius.com/identity/v2/auth/account`, passing in your `apiKey` as a query parameter and the user's access token as the header.`
 
 > The user’s access token is gotten from the successful response object of the User Login endpoint.
 
@@ -188,7 +188,7 @@ class ApiClient {
        Future<Response> getUserProfileData(String accesstoken) async {
         try {
           Response response = await _dio.get(
-            'https://api.loginradius.com/identity/v2/auth/account',
+            '`https://api.loginradius.com/identity/v2/auth/account',`
             queryParameters: {'apikey': 'YOUR_API_KEY'},
             options: Options(
               headers: {
@@ -205,7 +205,7 @@ class ApiClient {
 
 ### Step 7: Implement User Logout
 
-Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL `https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.
+Finally, to implement the user logout functionality, you would send a `GET` request to the Invalidate User Access Token endpoint URL ``https://api.loginradius.com/identity/v2/auth/access_token/InValidate`. This API call invalidates the user's active access token, requiring them to re-authenticate if they want to access their data.`
 
 ```dart
 class ApiClient {
@@ -214,7 +214,7 @@ class ApiClient {
       Future<Response> logout(String accessToken) async {
         try {
           Response response = await _dio.get(
-            'https://api.loginradius.com/identity/v2/auth/access_token/InValidate',
+            '`https://api.loginradius.com/identity/v2/auth/access_token/InValidate',`
             queryParameters: {'apikey': ApiSecret.apiKey},
             options: Options(
               headers: {'Authorization': 'Bearer $accessToken'},

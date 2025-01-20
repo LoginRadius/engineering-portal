@@ -11,7 +11,7 @@ metadescription: "Let’s help you establish a solid brand identity for your bus
 
 ## Introduction
 
-Every strategy used to communicate what a business is to its customers 一 from its logo design, the shapes and colors used in graphics, down to the language tone of your content 一 are pivotal in [building a brand identity](https://www.loginradius.com/blog/fuel/Does-Your-website-Imagery-Reflect-Your-Brand-Identity/). Successful examples can be recognized in an instant, like Nike and Coca-Cola.
+Every strategy used to communicate what a business is to its customers 一 from its logo design, the shapes and colors used in graphics, down to the language tone of your content 一 are pivotal in [building a brand identity](https://www.loginradius.com/blog/growth/does-your-website-imagery-reflect-your-brand-identity/). Successful examples can be recognized in an instant, like Nike and Coca-Cola.
 
 The bigger question to ask, yet, is how to build a kind of brand identity that attracts more customers. This includes not only ensuring satisfaction in a company’s services or products but also building a potential and loyal customer base to boost your <a rel="nofollow" href="https://lendza.com/blog/build-maintain-brand-loyal"> brand loyalty </a>. 
 

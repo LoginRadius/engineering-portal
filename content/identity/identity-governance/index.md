@@ -61,7 +61,7 @@ IGA adds more functionality to the mainstream Identity Management systems. IGA e
 
 ### 1. Consumers can get timely access to the data they want.
 
-In the digital age of immediacy and the consequent instant availability of information, we’re no longer used to waiting for hours or even minutes to have access to the information needed. Identity Governance can be a key contributor to [improving CX](https://www.loginradius.com/blog/identity/2019/11/improve-customer-experience-ecommerce/) (Consumer Experience).
+In the digital age of immediacy and the consequent instant availability of information, we’re no longer used to waiting for hours or even minutes to have access to the information needed. Identity Governance can be a key contributor to [improving CX](https://www.loginradius.com/blog/growth/improve-customer-experience-ecommerce/) (Consumer Experience).
 
 
 ### 2. You can handle access requests and track danger requests.

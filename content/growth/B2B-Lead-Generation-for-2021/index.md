@@ -108,7 +108,7 @@ In order to come up with relevant B2B strategies for your organization, it’s e
     
 2.  Live events: Once a very popular method to attract people's attention, live events currently may not be viable. But virtual events are proving themselves to be equally popular as they allow people to attend events from the comfort of their homes. Offer unique content to pull viewers in.
     
-3.  Content marketing: **[Content strategy](https://www.loginradius.com/blog/fuel/2021/03/How-to-Drive-in-the-Highest-Quality-Leads-in-2021-with-Content-and-SEO/)** is one of the best and most relevant strategies against the background of the Covid 19 pandemic. Case studies, whitepapers, and a blog post with engaging content are sure to score with your target audience.
+3.  Content marketing: **[Content strategy](https://www.loginradius.com/blog/growth/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/)** is one of the best and most relevant strategies against the background of the Covid 19 pandemic. Case studies, whitepapers, and a blog post with engaging content are sure to score with your target audience.
     
 4.  SEO: B2B companies are better served in investing in SEO to divert traffic from search engines.
     

@@ -132,7 +132,7 @@ password dictionaries.
 
 - **Passwords aren’t unique**: People reuse passwords and newly leaked dictionaries contain previously leaked passwords.
 
-Due to [bad password practices](https://www.loginradius.com/blog/2018/12/infographic-the-death-of-passwords/), chances are consumers may be putting their accounts at risk. This is one of the strongest reasons why passwordless authentication is preferred by consumers and enterprises as their preferred method of authentication.
+Due to [bad password practices](https://www.loginradius.com/resource/infographic/death-of-passwords), chances are consumers may be putting their accounts at risk. This is one of the strongest reasons why passwordless authentication is preferred by consumers and enterprises as their preferred method of authentication.
 
 ## Types of Passwordless Authentication
 

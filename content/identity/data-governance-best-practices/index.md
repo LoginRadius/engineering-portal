@@ -131,7 +131,7 @@ Digital transformation is actively on the radar of data security professionals. 
 
 Data governance isn’t a one-time project, rather a recurring one. To maintain and sustain such programs require a lot of work. LoginRadius is a customer identity and access management (CIAM) platform that prepares organizations to fuel data-driven decision-making and create better business opportunities. 
 
-The CIAM solution allows only authorized employees to access and manage customer data, so there's a lesser chance of accidental data leak. Among the global standards, it adheres to include the GDPR and the CCPA. Moreover, it supports [global regulatory compliances](https://www.loginradius.com/blog/2020/06/consumer-data-privacy-security/) to deliver a seamless customer experience. 
+The CIAM solution allows only authorized employees to access and manage customer data, so there's a lesser chance of accidental data leak. Among the global standards, it adheres to include the GDPR and the CCPA. Moreover, it supports [global regulatory compliances](https://www.loginradius.com/blog/identity/consumer-data-privacy-security/) to deliver a seamless customer experience. 
 
 A few of the certifications include:
 

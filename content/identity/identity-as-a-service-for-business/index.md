@@ -164,7 +164,7 @@ Transferring identity data to a new environment in the cloud may seem daunting t
 
 ### 4\. Passwordless Authentication 
 
-[Passwordless Authentication](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/) deters cybercriminals by reducing the risk of password sprawl. With the LoginRadius IDaaS platform, you can set up secure, passwordless authentication and secure password resets.
+[Passwordless Authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) deters cybercriminals by reducing the risk of password sprawl. With the LoginRadius IDaaS platform, you can set up secure, passwordless authentication and secure password resets.
 
 ### 5\. No need for CIAM experts
 

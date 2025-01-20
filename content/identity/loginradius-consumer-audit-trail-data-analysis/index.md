@@ -44,6 +44,6 @@ In addition, audit logs can be used to gain deeper insights into an identity clo
 
 The world that we live in today falls under several regulatory laws - be it [the EU's GDPR, California's CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/), or any other international statutes. It is a good practice to maintain a reliable and accurate audit log and trail system.
 
-The LoginRadius' Consumer AuditTrail feature plays a vital role in the maintenance, security, availability, and integrity of the records so businesses can understand the [bigger picture in the cybersecurity threat](https://www.loginradius.com/blog/2020/05/cyber-threats-business-risk-covid-19/) landscape.
+The LoginRadius' Consumer AuditTrail feature plays a vital role in the maintenance, security, availability, and integrity of the records so businesses can understand the [bigger picture in the cybersecurity threat](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/) landscape.
 
 [![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)

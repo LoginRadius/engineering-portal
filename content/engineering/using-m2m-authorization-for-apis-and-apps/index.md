@@ -70,7 +70,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
 ## Implement M2M Authorization with LoginRadius APIs
 1. The client (partner, API, service, etc.) requests the access token using the following API:
   
-    API endpoint: https://api.loginradius.com/services/oauth/token
+    API endpoint: `https://api.loginradius.com/services/oauth/token`
 
     The following is an example request:
 
@@ -78,7 +78,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
     POST https://<LoginRadiusAppName>.hub.loginradius.com/service/oauth/token
     Content-Type: application/json
     {
-      "audience": "https://api.loginradius.com/identity/v2/manage",
+      "audience": "`https://api.loginradius.com/identity/v2/manage",`
       "grant_type": "client_credentials",
       "client_id": "<YOUR_CLIENT_ID>",
       "client_secret": "<YOUR_CLIENT_SECRET>"
@@ -101,7 +101,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
       "iss": "https://<LoginRadiusAppName>.hub.loginradius.com/",
       "sub": "<OAuth APPs APIKey>@client",
       "jti": "<unique Identifier>"
-      "aud":"https://api.loginradius.com/identity/v2/manage",  //or https://service.example.com/api/v2
+      "aud":"`https://api.loginradius.com/identity/v2/manage",  //or https://service.example.com/api/v2`
       "cid": "<APPConfig APIKey>",
       "sid": "<LR access Token>"  
       "exp": 1311281970,
@@ -118,7 +118,7 @@ This grant-type flow occurs strictly between a client app and the authorization 
 
     ```
     curl --request GET \
-      --url https://api.loginradius.com/identity/v2/manage/account/{uid} \
+      --url `https://api.loginradius.com/identity/v2/manage/account/{uid} \`
       --header 'authorization: Bearer eyJhb……….jVZ2w'
       --header 'X-LoginRadius-ApiKey: {apiKey}
     ```

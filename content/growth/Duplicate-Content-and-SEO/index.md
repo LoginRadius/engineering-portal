@@ -14,7 +14,7 @@ With the search engine algorithm of [Google getting stringent to enhance page ex
 
 Most of us aren’t aware of the consequences of publishing duplicate content, which is perhaps why we ignore this critical aspect.
 
-But how it affects our [SEO ranking](https://www.loginradius.com/blog/fuel/2021/03/How-to-Drive-in-the-Highest-Quality-Leads-in-2021-with-Content-and-SEO/)? Well, Google finds it difficult to analyze which content is more relevant to a query if similar content is available on more than one website on the internet.
+But how it affects our [SEO ranking](https://www.loginradius.com/blog/growth/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/)? Well, Google finds it difficult to analyze which content is more relevant to a query if similar content is available on more than one website on the internet.
 
 Moreover, the overall ranking of the website in Google search is also affected if the content isn’t relevant to the audience and is available on more than one source.
 
