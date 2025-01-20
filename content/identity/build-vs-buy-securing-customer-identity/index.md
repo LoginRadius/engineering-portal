@@ -147,7 +147,7 @@ The LoginRadius identity platform stores customer data in a centralized database
 
 ### Multi-factor authentication (MFA)
 
-[Multi-Factor Authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) takes something the customer knows, for example, login credentials and combines it with something they have, for example, their mobile phone to provide an additional security layer when accessing their account. 
+[Multi-Factor Authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) takes something the customer knows, for example, login credentials and combines it with something they have, for example, their mobile phone to provide an additional security layer when accessing their account. 
 
 This way, even if an unwanted user gains access to a customer's login credentials, they would not be able to access the account without the unique verification code sent to the customer's authenticator app.
 

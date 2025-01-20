@@ -150,7 +150,7 @@ Organizations are working to build technology environments that can easily handl
 
 One crucial aspect of an organization is the protection of the confidentiality and integrity of consumer data. LoginRadius provides layered security by limiting and monitoring access to consumer's data. The platform offers seamless security with [features like data management](https://www.loginradius.com/data-governance/) and real-time fraud analysis to improve customer experience and detect fraud attempts at the entrance.
 
-The [CIAM solution ensures](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) that fewer employees can access customer data and handle it. This further reduces the chance of accidental data leaks and secures consumer data privacy. Some of the global standards it adheres to include the GDPR in the EU and the [CCPA in California](https://www.loginradius.com/blog/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
+The [CIAM solution ensures](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) that fewer employees can access customer data and handle it. This further reduces the chance of accidental data leaks and secures consumer data privacy. Some of the global standards it adheres to include the GDPR in the EU and the [CCPA in California](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/).
 
 The LoginRadius is an identity management system that continues to support [global regulatory compliance](https://www.loginradius.com/compliances/) in the fight against data breaches, which are essential for delivering zero friction customer experience. A few of the common ones include:
 

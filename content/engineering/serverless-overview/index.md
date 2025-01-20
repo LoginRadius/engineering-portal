@@ -38,7 +38,7 @@ Launched in 2016:
 
 Recent notable updates include:
 - [Dec 2020](https://azure.microsoft.com/en-us/updates/azure-functions-custom-handlers-are-now-generally-available/): Custom handlers are now supported, allowing creating functions in any runtime.
-- [Dec 2020](https://azure.microsoft.com/en-us/updates/rabbitmq-extension-for-windows-and-linux-is-now-generally-available/): Functions can now send and receive messages to and from RabbitMQ.
+- [Dec 2020](https://azure.microsoft.com/en-gb/updates?id=rabbitmq-extension-for-windows-and-linux-is-now-generally-available): Functions can now send and receive messages to and from RabbitMQ.
 
 ### 3. Google Cloud Functions
 

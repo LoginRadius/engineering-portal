@@ -91,7 +91,7 @@ Ideally, you'll <a href="https://www.visme.co/video-maker/">create a video</a> f
 
 -   Awareness: Define a challenge or opportunity for your readers to realize they have a problem. Your video in this stage should attract a new set of consumers.
     
--   Consideration: After you have narrowed down the challenge, you readers in this stage will try to look around for solutions. They will be asking questions, looking for recommendations, watching product reviews, [video testimonials](https://www.loginradius.com/blog/fuel/2021/04/Why-Video-Testimonials-Are-A-Marketing-Must/) etc.
+-   Consideration: After you have narrowed down the challenge, you readers in this stage will try to look around for solutions. They will be asking questions, looking for recommendations, watching product reviews, [video testimonials](https://www.loginradius.com/blog/growth/why-video-testimonials-are-a-marketing-must/) etc.
     
 -   Decision: You want to stay on top of things now that the answer is almost found. Show your consumer evidence of customer loyalty and why they should choose your product or service.
     

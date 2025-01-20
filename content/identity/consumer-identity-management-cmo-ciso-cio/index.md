@@ -112,7 +112,7 @@ The consumer identity management platform lets CIOs, CISOs, and CMOs to manage i
 
 - **Security Compliance**: The favorite feature of a CIO and CISO, LoginRadius, helps [meet security compliance](https://www.loginradius.com/compliances/) globally. The consumer identity management platform is certified by third-party security standards like AICPA SOC 2, ISAE 3000, Cloud Security Alliance, and Privacy Shield.  
       
-    Other compliances include the [CCPA and the GDPR for enterprises](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/) to meet consumer preference and location-specific regulations, wherever they do business.
+    Other compliances include the [CCPA and the GDPR for enterprises](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) to meet consumer preference and location-specific regulations, wherever they do business.
 
 ## Conclusion
 

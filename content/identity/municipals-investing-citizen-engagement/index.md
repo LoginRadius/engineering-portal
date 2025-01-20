@@ -42,7 +42,7 @@ Engaging the community to keep them better informed about what is going on will 
 
 ## How to Improve Citizen Engagement
 
-Many municipalities are now undergoing [digital transformations](https://www.loginradius.com/blog/2018/05/customer-experience-driving-digital-transformations) in order to improve transparency and communication. After all, with a more sophisticated digital ecosystem, you will be able to simplify how you interact with your citizens.
+Many municipalities are now undergoing [digital transformations](https://www.loginradius.com/blog/identity/customer-experience-driving-digital-transformations/) in order to improve transparency and communication. After all, with a more sophisticated digital ecosystem, you will be able to simplify how you interact with your citizens.
 
 Undergoing a digital transformation, however, is just one of the much-needed steps. In order to truly engage your citizens, you need to know who they are. To learn who they are, you have to incorporate digital identity into your transformation. 
 

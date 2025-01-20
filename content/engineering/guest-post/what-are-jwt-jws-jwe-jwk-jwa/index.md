@@ -139,7 +139,7 @@ All these components are base64url-encoded and are concatenated using dots (`.`)
 }
 ```
 
-Learn more about JWE [here](https://tools.ietf.org/id/draft-jones-json-web-encryption-02.html)
+Learn more about JWE [here](https://datatracker.ietf.org/doc/html/draft-jones-json-web-encryption)
 
 ## JWK — JSON Web Key
 

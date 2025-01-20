@@ -36,7 +36,7 @@ OWI is a market intelligence and strategy firm focused on identity, trust, and t
 
 **About LoginRadius**
 
-LoginRadius is a leading cloud-based [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) (CIAM) solution securing more than one billion user identities worldwide.
+LoginRadius is a leading cloud-based [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) solution securing more than one billion user identities worldwide.
 
 The LoginRadius Identity Platform empowers business and government organizations to manage customer identities securely, deliver a unified digital experience, and comply with all major privacy regulations such as the EU’s General Data Protection Regulation (GDPR).
 

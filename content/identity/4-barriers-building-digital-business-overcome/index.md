@@ -51,7 +51,7 @@ More often than not, it's not the team's incapabilities to deliver certain resul
 
 ![](steven-lelham-342930-unsplash-1024x540.jpg)
 
-[Digital transformation is exciting](https://www.loginradius.com/blog/2018/07/digital-transformation-everyone-else/), but it is also a new concept that companies across industries are only experimenting with in the past few years. Excitement aside, new processes, especially one that affects entire business models and operations, can be daunting.
+[Digital transformation is exciting](https://www.loginradius.com/blog/identity/what-is-digital-transformation/), but it is also a new concept that companies across industries are only experimenting with in the past few years. Excitement aside, new processes, especially one that affects entire business models and operations, can be daunting.
 
 Transforming existing processes and building new ones are dramatic changes that affect the entire company. Changes such as this can lead to discomfort and conflict. Therefore, strong leadership is essential at all levels to drive beneficial change without increasing risk or creating organizational chaos. Make sure you have the right leadership roles in place as the company moves towards its digital initiatives to ensure its success.
 

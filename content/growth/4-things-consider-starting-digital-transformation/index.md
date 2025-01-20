@@ -46,6 +46,6 @@ Instead of you proving to your partners and customers the benefits of working wi
 
 This last step is key, as it will help you focus on changing both your business and operating models. Simply by utilizing others to help create and deliver the value to your business. For example, instead of using your own resources to build tools that would help bring value, you can outsource and have experts do it for you, so you can focus on what you do best. 
 
-One great tool that would help you achieve this, is a [CIAM solution](https://www.loginradius.com/blog/2018/03/top-5-business-objectives-that-ciam-solves). These platforms are a huge help in regards to helping you manage and secure you customers' data and identities. And another great thing about them? The newer platforms are completely cloud-based and are managed for you. Meaning the potential for the value it could bring to you are endless.
+One great tool that would help you achieve this, is a [CIAM solution](https://www.loginradius.com/blog/identity/guide-choosing-right-ciam-solution/). These platforms are a huge help in regards to helping you manage and secure you customers' data and identities. And another great thing about them? The newer platforms are completely cloud-based and are managed for you. Meaning the potential for the value it could bring to you are endless.
 
 Curious about what value this could bring you? Check out these resources to [learn more](https://www.loginradius.com/customer-identity-management-b2c-ciam/).

@@ -55,7 +55,7 @@ The tool helps create unique tags relevant to your business or product. Therefor
 
 ### 2. Easy integration
 
-The tool can integrate with other Google analytical tools as well as tools from third-party companies. This option can allow you to have the best of both worlds as they run their online **[B2B Marketing Strategies Post COVID](https://www.loginradius.com/blog/fuel/2021/03/How-to-Make-Businesses-Marketing-Plans-After-Coronavirus/)**.
+The tool can integrate with other Google analytical tools as well as tools from third-party companies. This option can allow you to have the best of both worlds as they run their online **[B2B Marketing Strategies Post COVID](https://www.loginradius.com/blog/growth/how-to-make-businesses-marketing-plans-after-coronavirus/)**.
 
 ### 3. Faster loading time
 

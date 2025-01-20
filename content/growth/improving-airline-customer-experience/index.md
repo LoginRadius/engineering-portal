@@ -151,7 +151,7 @@ Other security certifications include ISO 27001:2013, ISO 27017:2015, ISO/IEC 27
 
 **Simplify the registration process**: LoginRadius simplifies the registration process with social sign-in and [single sign-on](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/) features. While social sign-in is a one-click authentication feature conducted via social media, single sign-on offers access to multiple accounts with a single set of credentials. Both reduce the hassles of the registration process and minimize the risk of cyber threats due to poor password habits.
 
-**Multi-factor Authentication (MFA)**: MFA allows passengers to pass through several authentication layers when logging in. To configure the authentication function, [LoginRadius supports the SMS passcode and Google authenticator](https://www.loginradius.com/blog/2018/12/use-multi-factor-authentication-dont-cell-phone-access/).
+**Multi-factor Authentication (MFA)**: MFA allows passengers to pass through several authentication layers when logging in. To configure the authentication function, [LoginRadius supports the SMS passcode and Google authenticator](https://www.loginradius.com/blog/identity/use-multi-factor-authentication-dont-cell-phone-access/).
 
 ## Conclusion 
 

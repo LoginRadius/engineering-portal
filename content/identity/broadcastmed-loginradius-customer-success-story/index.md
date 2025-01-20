@@ -23,7 +23,7 @@ Being in the forefront of innovation in their industry, BroadcastMed was looking
 BroadcastMed had a few concerns that they wanted to address as they evaluated the LoginRadius solution:
 
 - **The security of their user data**
-- - As BroadcastMed works with numerous healthcare brands and retrieves sensitive identity information from the physicians and healthcare professionals who accesses the digital content, data security is of utmost importance when evaluating a [customer identity and access  management solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/).
+- - As BroadcastMed works with numerous healthcare brands and retrieves sensitive identity information from the physicians and healthcare professionals who accesses the digital content, data security is of utmost importance when evaluating a [customer identity and access  management solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/).
 
 - **How to provide users across systems with the ability to register for programs**
 - - BroadcastMed has numerous web properties hosting a multitude of video content for different medical fields. As such, they need to ensure that they have a centralized registration point and that their users are able to effortlessly navigate throughout the different content without interruption.

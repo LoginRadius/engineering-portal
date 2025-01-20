@@ -101,7 +101,7 @@ The European Union's [General Data Protection Regulation (GDPR)](https://www.log
 
 **Secure Data Access**
 
-Customer access to their data is a requirement of the [California Consumer Privacy Act (CCPA)](https://www.loginradius.com/blog/2019/05/ccpa-introduction/), and non-compliance can result in hefty fines. However, data stored on cloud services is instantly available to authorized users. On the cloud, centralized data can be backed up regularly and restored quickly in case [disaster recovery](https://searchdisasterrecovery.techtarget.com/definition/disaster-recovery) is ever necessary.
+Customer access to their data is a requirement of the [California Consumer Privacy Act (CCPA)](https://www.loginradius.com/blog/identity/ccpa-introduction/), and non-compliance can result in hefty fines. However, data stored on cloud services is instantly available to authorized users. On the cloud, centralized data can be backed up regularly and restored quickly in case [disaster recovery](https://searchdisasterrecovery.techtarget.com/definition/disaster-recovery) is ever necessary.
 
 [![SASE-approach](SASE-approach.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 

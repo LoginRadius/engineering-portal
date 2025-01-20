@@ -107,7 +107,7 @@ Besides the benefits of MFA  mentioned above, LoginRadius can help arm businesse
 
 LoginRadius Identity Platform makes use of both MFA and centralized credentials through networks, applications, and more. The IT department can even ask the employees and business consumers to strengthen their password as they have to use it once before proceeding ahead with other 2FA or MFA securities. 
 
-LoginRadius’ MFA provides a customized consumer experience with [options like security questions](https://www.loginradius.com/blog/2019/01/best-practices-choosing-good-security-questions/), authenticator apps, email, automated phone calls, etc. It does not interfere with the delightful CX experience. It adds more security to business and employee data.
+LoginRadius’ MFA provides a customized consumer experience with [options like security questions](https://www.loginradius.com/blog/identity/best-practices-choosing-good-security-questions/), authenticator apps, email, automated phone calls, etc. It does not interfere with the delightful CX experience. It adds more security to business and employee data.
 
 ## Conclusion
 

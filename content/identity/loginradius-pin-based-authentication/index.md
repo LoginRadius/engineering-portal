@@ -50,7 +50,7 @@ We have followed strict authentication protocols to make this launch a success. 
 
 ## Making Authentication Convenient and Simple for End-Users
 
-It is quite impressive to deliver seamless experiences from the first interaction itself. With the latest PIN authentication, we aim to streamline end-users' journey by providing a [passwordless experience](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/).
+It is quite impressive to deliver seamless experiences from the first interaction itself. With the latest PIN authentication, we aim to streamline end-users' journey by providing a [passwordless experience](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/).
 
 Our PIN login is another giant step towards achieving better security, usability, and identity management.
 

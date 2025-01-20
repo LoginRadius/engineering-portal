@@ -66,7 +66,7 @@ Also Read: [Thinking Beyond the Pandemic: How to Make Marketing Plans After Coro
 
 ## Virtual Brainstorming Tips/Tricks
 
-Here are some of the effective tips for running brainstorming sessions for your [marketing strategies](https://www.loginradius.com/blog/fuel/Top-5-Marketing-Strategies-to-Power-up-Your-Business/).
+Here are some of the effective tips for running brainstorming sessions for your [marketing strategies](https://www.loginradius.com/blog/growth/top-5-marketing-strategies-to-power-up-your-business/).
 
 ### 1. Gather team from various disciplines
 

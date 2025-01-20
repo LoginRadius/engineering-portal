@@ -88,7 +88,7 @@ for await(const line of readLines(Deno.stdin)) {
    console.log("Wrote the above text in input.txt\n") 
 }
 ```
-In the above code we are using [readLines](https://deno.land/std/io/README.md) to raed user input line by line, Every time we run the code `Deno.writeFile("input.txt", new Uint8Array())` will create an empty `input.txt` file in the folder.
+In the above code we are using [readLines](https://github.com/denoland/std/blob/main/README.md) to raed user input line by line, Every time we run the code `Deno.writeFile("input.txt", new Uint8Array())` will create an empty `input.txt` file in the folder.
 
 Then `const line of readLines(Deno.stdin)` in a loop will wait for the user to input any text, as we will give any input  `Deno.writeFile` with `{append: true}` is used to append data in `input.txt`
 

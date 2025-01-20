@@ -227,7 +227,7 @@ For example, the clicking pattern or movement of a mouse during Recaptcha evalua
 
 4. **Implement low-fiction security solutions.**
 
-If remembering complex passwords is a problem for consumers, introduce [passwordless authentication](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/) into your system where you can confirm a user's identity through OTP, magic link, or biometrics in a more efficient, and secure way.
+If remembering complex passwords is a problem for consumers, introduce [passwordless authentication](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/) into your system where you can confirm a user's identity through OTP, magic link, or biometrics in a more efficient, and secure way.
 
 It will keep customer data safe without creating any inconvenience to user experience — a win-win for both parties.
 

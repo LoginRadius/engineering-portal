@@ -135,7 +135,7 @@ To test our program, we're going to run $ deno run `--allow-net mod.ts -g`. We s
 
 That's all there is for our cli tool. If you'd like to see the full code, the repository is linked [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/covid-cli). In conclusion, Deno is a very exciting project especially because you get all the benefits of typescript out of the box without the need to compile your files to js. 
 
-You can build a lot with it, ranging from cli Programs to HTTP servers. Do have a look at one of my [blog](/a-webapp-in-deno/) where I have built a basic calculator app using the [abc](https://deno.land/x/abc) module.
+You can build a lot with it, ranging from cli Programs to HTTP servers. Do have a look at one of my [blog](/a-webapp-in-deno/) where I have built a basic calculator app using the [abc](https://deno.land/x/abc@v1.3.3) module.
 
 
 

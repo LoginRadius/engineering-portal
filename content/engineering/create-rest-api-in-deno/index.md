@@ -45,7 +45,7 @@ At any point in time, if you are stuck somewhere, you can follow this link to ge
 
 ```JavaScript
 
-import { Application, Router } from "https://deno.land/x/oak/mod.ts";
+import { Application, Router } from "https://deno.land/x/oak@v17.1.4/mod.ts";
 
 const app = new Application();
 const port: number = 8080;

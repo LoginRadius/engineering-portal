@@ -101,7 +101,7 @@ According to a 2019 report, banking and financial services are 300 times more pr
 
   
 
-Some of the common threats faced by the financial services industry include phishing attacks, **[data breaches](https://www.loginradius.com/blog/2020/04/marriott-data-breach-2020/)**, and malware threats.
+Some of the common threats faced by the financial services industry include phishing attacks, **[data breaches](https://www.loginradius.com/blog/identity/marriott-data-breach-2020/)**, and malware threats.
 
 ## Conclusion
 

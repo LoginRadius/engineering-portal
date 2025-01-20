@@ -144,6 +144,6 @@ With LoginRadius, you can get 360-degree customer profiling, with 100% customer 
 
 ## Conclusion     
 
-Consumers want to shop with [e-commerce retailers](https://www.loginradius.com/blog/2020/04/loginradius-ciam-retail-ecommerce-business/) whom they can trust. When they enter their personal information, like credit card numbers or other banking details, they expect it to be well protected. By implementing proper e-commerce security safeguards, you can protect your business and consumers from online threats. 
+Consumers want to shop with [e-commerce retailers](https://www.loginradius.com/blog/identity/loginradius-ciam-retail-ecommerce-business/) whom they can trust. When they enter their personal information, like credit card numbers or other banking details, they expect it to be well protected. By implementing proper e-commerce security safeguards, you can protect your business and consumers from online threats. 
 
 [![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

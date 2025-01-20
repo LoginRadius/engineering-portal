@@ -89,7 +89,7 @@ You can unlock the locked user account in two ways, using:
 
 Calling the Account Update API with the provided endpoint, using the given method, providing the _apisecret_ and _apikey_, and formatting the given body will unlock the account.
 
-1. Endpoint: https://api.loginradius.com/identity/v2/manage/account/{uid}
+1. Endpoint: `https://api.loginradius.com/identity/v2/manage/account/{uid}`
 2. Method: PUT
 3. Parameters: apisecret, apikey
 4. Body:

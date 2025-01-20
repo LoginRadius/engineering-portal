@@ -86,7 +86,7 @@ and it will be whitelisted.
 ## Setting Up the Provider Object and the OAuthconfig with the Loginradius OIDC App Credentials
 
 ```js
-provider, err := oidc.NewProvider(ctx, "https://api.loginradius.com/{oidcappname}")
+provider, err := oidc.NewProvider(ctx, "`https://api.loginradius.com/{oidcappname}")`
 if err != nil {
     // handle error
 }

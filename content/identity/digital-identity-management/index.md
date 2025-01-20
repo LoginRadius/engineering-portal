@@ -74,7 +74,7 @@ Utilizing field-level encryption allows you to set up access based on an individ
 
 While some tech-savvy users know how to look after their personal information, many are unaware of how digital identity verification impacts security. 
 
-To reduce risk, it’s important to invest in systems that enable a higher level of passwordless login. One method, [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) (MFA), uses an SMS or a call-in code, and/or an email link as extra levels of security. 
+To reduce risk, it’s important to invest in systems that enable a higher level of passwordless login. One method, [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) (MFA), uses an SMS or a call-in code, and/or an email link as extra levels of security. 
 
 Another method, risk-based authentication (RBA), recognizes user patterns and alerts your system if this pattern suddenly changes. For example, if someone tries to log in from a foreign country or a new IP address, an email will be sent to the registered user, asking them to validate the action.   
   

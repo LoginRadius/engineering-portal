@@ -47,7 +47,7 @@ This section will explain the steps or procedures to configure the sonarqube plu
 
 ### Prerequisites:
 
-The only prerequisite for running SonarQube is to have Java (Oracle JRE 11 or OpenJDK 11) installed on your machine. [[details](https://docs.sonarqube.org/latest/requirements/requirements/)]
+The only prerequisite for running SonarQube is to have Java (Oracle JRE 11 or OpenJDK 11) installed on your machine. [[details](https://docs.sonarsource.com/sonarqube-server/latest/setup-and-upgrade/installation-requirements/server-host/)]
 
 Set the PATH system variable: (https://www.java.com/en/download/help/path.xml)[https://www.java.com/en/download/help/path.xml]
 

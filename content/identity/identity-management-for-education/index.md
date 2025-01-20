@@ -170,7 +170,7 @@ Furthermore, it offers excellent user experience, and with SSO on the hook, it e
 
 ### Data compliance management
 
-The identity platform is compliant with all major international data regulation policies, including the [EU's GDPR and California's CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/). To meet the high identity management of education requirements, it offers more transparency about accepted consents, secured access, and excellent user experience.
+The identity platform is compliant with all major international data regulation policies, including the [EU's GDPR and California's CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/). To meet the high identity management of education requirements, it offers more transparency about accepted consents, secured access, and excellent user experience.
 
 ### Industry-specific security certifications
 

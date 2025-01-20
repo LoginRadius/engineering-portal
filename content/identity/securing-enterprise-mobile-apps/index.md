@@ -90,6 +90,6 @@ LoginRadius defends user data by profoundly analyzing the issue that may exist a
 
 Sadly, very few companies have a well-secured management policy, while still a lot of others lack absolute power.  
 
-Enterprise mobile app security is the need of the hour. Businesses must consider the changing state of cybersecurity and mobility when implementing the above-mentioned [protection tips](https://www.loginradius.com/blog/2019/10/cybersecurity-best-practices-for-enterprises/) to secure their devices. 
+Enterprise mobile app security is the need of the hour. Businesses must consider the changing state of cybersecurity and mobility when implementing the above-mentioned [protection tips](https://www.loginradius.com/resource/infographic/cybersecurity-best-practices-for-enterprise/) to secure their devices. 
 
 [![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)

@@ -761,7 +761,7 @@ You can use [LoginRadius](https://www.loginradius.com/resource/whitepaper/loginr
 
 First, [set up an account](https://accounts.loginradius.com/auth.aspx), and get your API key from your Account Dashboard.
 
-Then, you can use their [login endpoint](https://api.loginradius.com/identity/v2/auth/login) to authenticate users. 
+Then, you can use their [login endpoint](`https://api.loginradius.com/identity/v2/auth/login) to authenticate users. `
 
 The endpoint takes an email and password as parameters and validates them against the correct credentials. If we were to integrate this endpoint in our previously built `<Login/>` component (`/scr/components/Login.js`), here's what the `authenticateUser` method would look like:
 
@@ -770,7 +770,7 @@ The endpoint takes an email and password as parameters and validates them agains
     const authenticateUser = () =>{
         
        
-        const endpoint=`https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}`;
+        const endpoint=``https://api.loginradius.com/identity/v2/auth/login?apikey=${apiKey}`;`
          fetch(endpoint,
              {
              method:'POST',

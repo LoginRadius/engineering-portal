@@ -48,7 +48,7 @@ Cybercriminals are already bypassing weak lines of defense, which means a string
 
 When it comes to preventing unauthorized access to resources and sensitive information within a network, MFA can be the game-changer.
 
-For the most secure user sign-ins, you should combine elements like biometrics, SMS/text messages, emails, and security questions. Use[ extra layers of protection](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/), like text verification, email verification, or time-based security codes.
+For the most secure user sign-ins, you should combine elements like biometrics, SMS/text messages, emails, and security questions. Use[ extra layers of protection](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/), like text verification, email verification, or time-based security codes.
 
 LoginRadius’ CIAM (consumer identity and access management) solution provides multiple layers of security to ensure consumer data and enterprise information remain highly secure.
 

@@ -49,7 +49,7 @@ Success in the face of such drastic, impending shifts hinges on the foresight of
 
 **2\. Adopt low-risk third-party platforms.**
 
-With third-party platforms, you can optimize resource efficiency and set yourself up for highly customizable solutions that can be applicable for new business-development opportunities across your digital brand. A flexible, cloud-based solution can offer out-of-the-box third-party integrations to meet user demands and build [unified customer profiles](https://www.loginradius.com/blog/2017/08/unified-customer-identities-increase-ecommerce-conversions-revenue).
+With third-party platforms, you can optimize resource efficiency and set yourself up for highly customizable solutions that can be applicable for new business-development opportunities across your digital brand. A flexible, cloud-based solution can offer out-of-the-box third-party integrations to meet user demands and build [unified customer profiles](https://www.loginradius.com/blog/growth/unified-identity-ensures-great-customer-interactions/).
 
 By investing in a cloud-based customer identity platform, for example, you can lay the foundation for a transformative digital business solution to simplify your operations while enabling scalability across markets and customer channels.
 
