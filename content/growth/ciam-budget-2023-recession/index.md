@@ -38,7 +38,7 @@ You need to identify what kind of risk profile your business face. For example, 
 
 On the other hand, if you are an online retailer or e-commerce site, then your risks will vary depending on what kind of data is being stored by your firm  (i.e., financial information).
 
-As a [CISO or an IT head](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper), you need to convince your CEO and key decision-makers to understand the importance of good cybersecurity hygiene, especially when cyberattacks are becoming more prominent.
+As a [CISO or an IT head](https://www.loginradius.com/resource/whitepaper/digital-identity-management-cio-ciso-cmo), you need to convince your CEO and key decision-makers to understand the importance of good cybersecurity hygiene, especially when cyberattacks are becoming more prominent.
 
 ## Incorporating Necessary Cybersecurity Tools and Technologies
 

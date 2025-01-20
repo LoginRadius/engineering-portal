@@ -88,7 +88,7 @@ So, it is not surprising when YouTube reports mobile video consumption rising ev
 
 ## Conclusion
 
-[Video marketing statistics show](https://www.loginradius.com/blog/fuel/2021/04/10-Video-Marketing-Stats-That-Brands-Cant-Ignore-in-2021/) that thoughtfully created social media videos are a perfect combination of simplicity and amusement that is bound to grab consumers' attention. Therefore, marketing is going to be incomplete without videos and their promotion on social media.
+[Video marketing statistics show](https://www.loginradius.com/blog/growth/10-video-marketing-stats-that-brands-cant-ignore-in-2021/) that thoughtfully created social media videos are a perfect combination of simplicity and amusement that is bound to grab consumers' attention. Therefore, marketing is going to be incomplete without videos and their promotion on social media.
 
   
 

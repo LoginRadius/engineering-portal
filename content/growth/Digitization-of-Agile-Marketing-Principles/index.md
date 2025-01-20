@@ -142,7 +142,7 @@ Dell possesses a couple of hundred employees under the Dell Software Marketing D
 
   
 
-Being a software/technology company, the team uses a range of online marketing concepts like SEO, **[Lead Generation](https://www.loginradius.com/blog/fuel/2021/03/B2B-Lead-Generation-for-2021/)**, Channel marketing, and more.
+Being a software/technology company, the team uses a range of online marketing concepts like SEO, **[Lead Generation](https://www.loginradius.com/blog/growth/b2b-lead-generation-for-2021/)**, Channel marketing, and more.
 
   
 

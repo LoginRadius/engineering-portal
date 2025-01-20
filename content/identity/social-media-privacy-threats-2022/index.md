@@ -14,7 +14,7 @@ Privacy is a growing concern for many private board users. While there is no suc
 
 Unfortunately, though, security risks are becoming more prevalent on social media and other digital platforms. From the scammers that are trying to [get a hold of your email address](https://www.loginradius.com/blog/identity/stop-scammers-getting-email-address/) to the social media trackers, identity theft, and automated bots, there’s a very real chance that someone is trying to steal your data on social media.
 
-Now, if you are a business leader, it is imperative that you’re able to protect all business and consumer data that might be passing through your social media accounts. That said, it’s equally important to leverage the cybersecurity best practices to educate your employees and your audience on how they can [protect their data and identities online](https://www.loginradius.com/blog/identity/purpose-identity-security-2021/).
+Now, if you are a business leader, it is imperative that you’re able to protect all business and consumer data that might be passing through your social media accounts. That said, it’s equally important to leverage the cybersecurity best practices to educate your employees and your audience on how they can [protect their data and identities online](https://www.loginradius.com/blog/identity/what-is-identity-security/).
 
 Let’s take a look at most pressing social media privacy threats and what you can do to minimize risk.
 

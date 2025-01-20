@@ -134,7 +134,7 @@ LoginRadius offers the following security benefits in the e-commerce spectrum.
 - **Password security:** It supports features like setting password validation (minimum/maximum length, at least one special character, alphanumeric, etc.), enforcing password lifetime, password history, and password visibility. 
 - **Security against brute force attack:** Brute Force Attack happens when hackers use multiple combinations of credentials to gain access to an account. When it happens, you can suspend your customer's account for a predefined time, prompt the captcha option, ask security questions, or block the account (as a last resort). 
 - **Risk-based authentication (RBA):** RBA is an authentication technique where if there is a slight change in customer behavior like changed IP address, suspected search history, or any act that seems suspicious and risky, a new layer of security is triggered. LoginRadius offers a range of authentication protocols to choose from like biometrics, push notifications, OTP, and tokens. 
-- **Multi-factor Authentication (MFA):** MFA requires your customers to pass [through multiple layers of authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) during the login process. LoginRadius supports the SMS passcode and Google authenticator to configure the authentication feature.
+- **Multi-factor Authentication (MFA):** MFA requires your customers to pass [through multiple layers of authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) during the login process. LoginRadius supports the SMS passcode and Google authenticator to configure the authentication feature.
 
 ## Conclusion
 

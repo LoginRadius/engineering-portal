@@ -38,7 +38,7 @@ Backup Codes are pre-generated codes used as a backup when the primary 2FA metho
 
 Authenticator apps are meant to be installed on your smartphones to obtain passcodes to sign in to your accounts. They are intended to be more secure than texting; they provide[ flexibility if you are traveling to a place where there is no mobile service](https://www.loginradius.com/blog/identity/2018/12/use-multi-factor-authentication-dont-cell-phone-access/).
 
-Some of the options include [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en), [Microsoft Authenticator Authy](https://authy.com/guides/microsoft/), or HDE OTP. 
+Some of the options include [Google Authenticator](https://support.google.com/accounts/answer/1066447), [Microsoft Authenticator Authy](https://authy.com/guides/microsoft/), or HDE OTP. 
 
 All these apps follow the same procedure - when you are adding a new user account, you need to scan a QR code associated with the account, and it is saved in the app. 
 

@@ -22,7 +22,7 @@ No. Because your brand authenticity also matters.
 
   
 
-A [2019 Stackla survey](https://stackla.com/resources/reports/the-consumer-content-report-influence-in-the-digital-age/) found that 86% of consumers consider authenticity as a key factor when deciding which brand to support. Further, today’s millennial and generation Z consumers are more vocal about their demand for [brand identity](https://www.loginradius.com/blog/fuel/2021/04/Does-Your-website-Imagery-Reflect-Your-Brand-Identity/) and authenticity.
+A [2019 Stackla survey](https://stackla.com/resources/reports/the-consumer-content-report-influence-in-the-digital-age/) found that 86% of consumers consider authenticity as a key factor when deciding which brand to support. Further, today’s millennial and generation Z consumers are more vocal about their demand for [brand identity](https://www.loginradius.com/blog/growth/does-your-website-imagery-reflect-your-brand-identity/) and authenticity.
 
   
 

@@ -193,7 +193,7 @@ _Source: MBNA website_
 
 ### 2. Strong password rules
 
-By requiring your consumers to follow [strong password rules](https://www.loginradius.com/blog/2018/12/infographic-the-death-of-passwords/), you minimize the risk of hackers brute-forcing their way into their accounts. Lengthy alphanumeric passwords with special and non-repeating characters are much more difficult for an attacker to guess. It also takes significantly longer for brute force programs to break in.
+By requiring your consumers to follow [strong password rules](https://www.loginradius.com/resource/infographic/death-of-passwords), you minimize the risk of hackers brute-forcing their way into their accounts. Lengthy alphanumeric passwords with special and non-repeating characters are much more difficult for an attacker to guess. It also takes significantly longer for brute force programs to break in.
 
 ### 3. Passwordless Login
 

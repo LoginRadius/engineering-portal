@@ -148,7 +148,7 @@ Addressing all of the above depends heavily on an effective [identity management
 The CIAM provider solves the following modern authentication problems: 
 
 - It establishes a single source of truth for patients and staff identities. 
-- It allows SSO where a set of credentials can [unlock login access](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/) to multiple accounts. 
+- It allows SSO where a set of credentials can [unlock login access](https://www.loginradius.com/blog/identity/prevent-credential-stuffing-attacks/) to multiple accounts. 
 - It offers centralized provisioning and de-provisioning of patients and healthcare professionals.
 - It provides the ability to add extra security layers with stronger second-factor authentication (2FA/MFA).
 - It offers out-of-the-box API security and fraud detection to protect against cybercrime.

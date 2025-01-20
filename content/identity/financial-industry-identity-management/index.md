@@ -107,7 +107,7 @@ The CIAM solution ensures that limited people have access to customer data, and 
 Other security enhancement features include:
 
 - Real-time fraud analytics to prevent fraudulent access attempts.
-- [Multi factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) and adaptive authentication to enhance security.
+- [Multi factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) and adaptive authentication to enhance security.
 - Strict data management and scoped access control to reduce risk.
 
 ### **Up-to-date security and compliance**

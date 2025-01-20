@@ -43,4 +43,4 @@ When a request is made by the client, both tokens are sent to the server, and th
 
 Now the attacker will be unable to perform CSRF since they will not have access to the token hidden in the pages HTML, and the target server requires a valid token pair before processing the request.
 
-There are also many other mitigation techniques, such as using the Same-Site cookie attribute, and requiring user interaction such as CAPTCHA for requests. Learn more on the [OWASP wiki](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)).
+There are also many other mitigation techniques, such as using the Same-Site cookie attribute, and requiring user interaction such as CAPTCHA for requests. Learn more on the [OWASP wiki](https://owasp.org/www-community/attacks/csrf)).

@@ -60,7 +60,7 @@ Moreover, most of the audience would quickly ignore five positive reviews but ca
 
 Not every business takes bad reviews as a failure; many of them learn with the type of feedback their consumers provide to enhance their services and quality of products.
 
-The valuable feedback can be quite helpful in building the next [marketing strategy](https://www.loginradius.com/blog/fuel/2021/04/Top-5-Marketing-Strategies-to-Power-up-Your-Business/) when you have worked on the lingering issues.
+The valuable feedback can be quite helpful in building the next [marketing strategy](https://www.loginradius.com/blog/growth/top-5-marketing-strategies-to-power-up-your-business/) when you have worked on the lingering issues.
 
 ### 3. You can’t delete a negative review.
 

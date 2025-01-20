@@ -44,7 +44,7 @@ It’s okay to be cautious in adopting innovations, but when it comes to custome
 Invest whatever it takes to protect sensitive customer data. Yes, stay within your financial metrics, but don’t cap the budget, because capping it means you’re compromising. Give the security team whatever they request to [protect the brand](https://www.loginradius.com/blog/2019/10/cybersecurity-best-practices-for-enterprises/). It’s not going to cost billions.
 
 **4\. Recognize that customer data security is not a cost center but a revenue center.**  
-Companies need to understand that customer data security is part of the revenue center, not the cost center. With better security, you are not only preventing breaches, but you are also [building trust within your customer](https://www.loginradius.com/blog/2019/10/digital-identity-management/) base to generate more revenue.
+Companies need to understand that customer data security is part of the revenue center, not the cost center. With better security, you are not only preventing breaches, but you are also [building trust within your customer](https://www.loginradius.com/blog/identity/digital-identity-management/) base to generate more revenue.
 
 Let’s hope that Marriott and its peers in the travel industry have learned that, while the security of customer accounts may not be their core business, it still needs to be priority number one.
 

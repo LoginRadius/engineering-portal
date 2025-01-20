@@ -156,7 +156,7 @@ A customer identity access management solution can bridge the gap between your c
 
 ## Conclusion
 
-Many companies provide their customers with a [modern digital experience](https://www.loginradius.com/blog/2018/05/customer-experience-driving-digital-transformations/), thanks to a customer identity management system. If you want to give your customers the same advantages, the time to act is now.
+Many companies provide their customers with a [modern digital experience](https://www.loginradius.com/blog/identity/customer-experience-driving-digital-transformations/), thanks to a customer identity management system. If you want to give your customers the same advantages, the time to act is now.
 
 A CIAM solution like LoginRadius can help you achieve this with customer account information, including data, consent, and activity, accessible from one dashboard.
 

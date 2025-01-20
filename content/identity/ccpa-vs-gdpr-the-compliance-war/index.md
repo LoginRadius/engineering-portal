@@ -13,7 +13,7 @@ In a world where data is the **most valuable resource,** it’s logical that the
 
 Two such regulations are the EU’s GDPR (General Data Protection Regulation, in effect May 25, 2018) and the CCPA (California Consumer Privacy Act, in effect January 1, 2020). These are two of the first regulations that directly impact data collection, use, and storage on a widespread scale. 
 
-Understanding the impact of GDPR and [CCPA regulations is crucial for global compliance](https://www.loginradius.com/blog/2019/05/ccpa-introduction/) today—and in the future. In fact, these regulations foreshadow a certain trend toward data collection and management: More governing bodies will implement privacy and consent regulations with heftier repercussions for noncompliance.
+Understanding the impact of GDPR and [CCPA regulations is crucial for global compliance](https://www.loginradius.com/blog/identity/ccpa-introduction/) today—and in the future. In fact, these regulations foreshadow a certain trend toward data collection and management: More governing bodies will implement privacy and consent regulations with heftier repercussions for noncompliance.
 
 To help you understand [how these regulations can affect you](https://www.loginradius.com/blog/identity/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/), here’s an overview of GDPR vs CCPA.
 

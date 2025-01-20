@@ -75,7 +75,7 @@ Speaking of which, the LoginRadius identity solution provides a centralized, ava
 
 Among its solutions include the real-time ability for visitors to self-register for services, login and authenticate, and enjoy a single-source view.
 
-Retailers can manage customer profiles and provide a [personalized omnichannel experience](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) with consent and other preferences.
+Retailers can manage customer profiles and provide a [personalized omnichannel experience](https://www.loginradius.com/blog/growth/omnichannel-customer-experience/) with consent and other preferences.
 
 ### #3. Security 
 

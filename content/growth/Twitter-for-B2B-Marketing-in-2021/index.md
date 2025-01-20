@@ -26,7 +26,7 @@ Suppose you want to boost your social media marketing performance, attract a new
 
   
 
-Here are three ways to tweak your Twitter marketing strategy and achieve your high-level **[B2B lead generation goals](https://www.loginradius.com/blog/fuel/2021/03/B2B-Lead-Generation-for-2021/)**.
+Here are three ways to tweak your Twitter marketing strategy and achieve your high-level **[B2B lead generation goals](https://www.loginradius.com/blog/growth/b2b-lead-generation-for-2021/)**.
 
 ## Top 3 Ways Twitter Can Rock B2B Marketing
 

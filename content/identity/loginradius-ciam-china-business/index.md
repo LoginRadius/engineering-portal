@@ -18,7 +18,7 @@ With our LoginRadius China CIAM platform, we aim to help businesses [securely ma
 
 The Chinese online market is a lucrative hotspot for businesses with over 900 million active internet users, as of March 2020. From a digital business standpoint, it is critical for enterprises that want to expand their customer base by collecting and storing citizen's data, to understand China's cyber regime.
 
-We ensure that our LoginRadius China [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) platform meets the changing privacy regulations imposed by China, and businesses are able to streamline a hassle-free customer experience in the nation’s digital ecosystem.
+We ensure that our LoginRadius China [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) platform meets the changing privacy regulations imposed by China, and businesses are able to streamline a hassle-free customer experience in the nation’s digital ecosystem.
 
 ## Key Features of the LoginRadius China CIAM
 

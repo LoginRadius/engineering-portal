@@ -43,7 +43,7 @@ Nullable<int> b = 9;
 Console.WriteLine(b.HasValue); // Print True
 ```
 
-**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` [exception when the variable](https://www.loginradius.com/blog/engineering/exception_handling_in_csharp/) value is null.
+**Value**: This property gives the value of the Nullable type variable. If the variable has some value, it will return the value; else, it will give the runtime `InvalidOperationException` [exception when the variable](https://www.loginradius.com/blog/engineering/exception-handling-in-csharp/) value is null.
 
 ```c#
 Nullable<int> a = null;

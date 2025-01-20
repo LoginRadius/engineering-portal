@@ -15,7 +15,7 @@ The same function is fulfilled by Git Merge and Git Rebase. They are built to in
 
 *Git Merge and Git Rebase are both used to combine the changes of branches but in a distinct way.*
 
-**Git Merge** - For developers using version control systems, merging is a prevalent method. Merging takes the contents of a source branch and combines them with a target branch, to be more precise. Only the [target branch is updated](https://www.loginradius.com/blog/engineering/git-fetch-remote-branch/) in this process. The history of the source branch remains similar.
+**Git Merge** - For developers using version control systems, merging is a prevalent method. Merging takes the contents of a source branch and combines them with a target branch, to be more precise. Only the [target branch is updated](https://medium.com/@loginradius/how-to-fetch-a-remote-branch-using-git-5c0f6d28264d) in this process. The history of the source branch remains similar.
 
 **Git Rebase** - Another way to integrate modifications from one branch to another is by Rebase. Rebase compresses all the modifications into a single patch. The patch is then inserted into the target branch.
 

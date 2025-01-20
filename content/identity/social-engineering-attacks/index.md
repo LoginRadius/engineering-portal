@@ -82,7 +82,7 @@ Be careful of what you share. And no, you don't need to be paranoid about these 
 
 - **Set spam filters to high**. Every email program has spam filters. To find out, look closely through your setting options and set them too high. It will help you keep away from spam messages to a large extent.
 - **Never use the same password for different accounts**. If the attacker gets hold of one account, they will be able to hack other accounts too.
-- **Use two-factor or multi-factor authentication**. Just the password is no longer enough to secure your account. Additional layers are just are crucial. It can be a [security question](https://www.loginradius.com/blog/2019/01/best-practices-choosing-good-security-questions/), a captcha, fingerprinting, or SMS confirmation codes.
+- **Use two-factor or multi-factor authentication**. Just the password is no longer enough to secure your account. Additional layers are just are crucial. It can be a [security question](https://www.loginradius.com/blog/identity/best-practices-choosing-good-security-questions/), a captcha, fingerprinting, or SMS confirmation codes.
 - **When in doubt, change passwords right away**. If you think you gave away your password to a spammer, change all your passwords immediately.
 - **Educate employees**. Knowledge is key. Keep your employees aware of the latest social engineering threats and help them exercise the necessary caution, whenever needed. 
 

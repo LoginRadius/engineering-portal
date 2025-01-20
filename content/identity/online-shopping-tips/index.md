@@ -163,7 +163,7 @@ Here how you get personalized marketing, 360-degree customer profiling, data saf
 *   **Social login**: Social login allows consumers to authenticate with a social media account. It helps your consumers skip the hassles of the registration and end up with a seamless consumer onboarding. 
 *   **Single sign-on (SSO)**: It allows consumers to access multiple accounts with a [single set of credentials](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/), offering ease of authentication and a frictionless omnichannel experience. 
 *   **Multi-factor authentication (MFA):** It offers multiple layers of authentication during the login process to ensure that the right consumers log in. 
-*   **Security compliance**: LoginRadius adheres to international standards like the E.U.'s GDPR and [California's CCPA](https://www.loginradius.com/blog/2020/03/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/). Other certifications include PCI DSS, ISO 27001:2013, ISO 27017:2015, ISO/IEC 27018:2019, U.S. Privacy Shield, NIST Cybersecurity Framework, and more. 
+*   **Security compliance**: LoginRadius adheres to international standards like the E.U.'s GDPR and [California's CCPA](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/). Other certifications include PCI DSS, ISO 27001:2013, ISO 27017:2015, ISO/IEC 27018:2019, U.S. Privacy Shield, NIST Cybersecurity Framework, and more. 
 
 
 ## Conclusion 

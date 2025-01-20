@@ -67,51 +67,51 @@ These are your customers or partner organizations who need to access your applic
 
 - [Create Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#create-organization)
 
-  API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations`
 
 - [Update Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#update-organization)
 
-  API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/organizations/{id}
+  API Endpoint: PUT `https://api.loginradius.com/identity/v2/manage/organizations/{id}`
 
 - [Remove Organizations](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#remove-organization)
   
-  API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/organizations/{id}
+  API Endpoint: DELETE `https://api.loginradius.com/identity/v2/manage/organizations/{id}`
 
 - [Update Organization Status](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#update-status-of-organization)
   
-  API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/organizations/{id}/status
+  API Endpoint: PUT `https://api.loginradius.com/identity/v2/manage/organizations/{id}/status`
 
 ### Step 2: Roles Management for Organization
 These are the roles that organization users will have to access permission-based resources and processes. You can create, assign, and manage roles using the following APIs:
 
 - [Create Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#roles-create)
   
-  API Endpoint: https://api.loginradius.com/identity/v2/manage/role
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/role`
 
 - [Add Permission to Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#add-permissions-to-role)
   
-  API Endpoint: PUT https://api.loginradius.com/identity/v2/manage/role/{role}/permission
+  API Endpoint: PUT `https://api.loginradius.com/identity/v2/manage/role/{role}/permission`
 
 - [Remove Permission from Role](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/roles-management/#remove-permissions)
   
-  API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/role/{role}/permission
+  API Endpoint: DELETE `https://api.loginradius.com/identity/v2/manage/role/{role}/permission`
 
 - [Set Roles for Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#addupdate-roles)
   
-  API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{id}/defaultroles
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations/{id}/defaultroles`
 
 ### Step 3: User Management for Organization
 - [Add User to Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#add-user-to-organization)
   
-  API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations/{id}/members`
 
 - [Remove Users from Organization](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#remove-users-from-organization)
 
-  API Endpoint: DELETE https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
+  API Endpoint: DELETE `https://api.loginradius.com/identity/v2/manage/organizations/{id}/members`
 
 - [Get Organization Users](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#organization-users)
 
-  API Endpoint: GET https://api.loginradius.com/identity/v2/manage/organizations/{id}/members
+  API Endpoint: GET `https://api.loginradius.com/identity/v2/manage/organizations/{id}/members`
 
 ### Step 4: Login Methods for Organization Users
 You can allow organizations to use the organizational identity or ask them to create an identity for authenticating themselves.
@@ -120,7 +120,7 @@ You can allow organizations to use the organizational identity or ask them to cr
 
   For example: Login with Gmail, Login with Facebook, Login with Email-Password, etc.  
 
-  API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{org_id}/members/{uid}/idp/global
+  API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations/{org_id}/members/{uid}/idp/global`
 
   > **Note:** To show the global IDP to all organizations, turn the setting on via [this API](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)docs/references/api/b2b-identity/#set-global-authentication-method-for-organization).
 
@@ -128,7 +128,7 @@ You can allow organizations to use the organizational identity or ask them to cr
 
   For example: Login with Salesforce for one customer and Login with Azure AD for another customer. So, customers and partners can easily authenticate using their identity provider rather than creating a new identity.
 
-	API Endpoint: https://api.loginradius.com/identity/v2/manage/organizations/{org id}/idp/saml
+	API Endpoint: `https://api.loginradius.com/identity/v2/manage/organizations/{org id}/idp/saml`
 
 ## Manage Email Communication
 

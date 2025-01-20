@@ -153,7 +153,7 @@ The identity solution is designed with a cloud-native architecture and complies 
 
 ## Conclusion
 
-Consumers expect the privacy and security of their personal data, and it is the responsibility of enterprises to build and maintain a trusted relationship. Recent data breaches and identity thefts highlight the importance of data protection laws and compliance like [CCPA and GDPR](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/). 
+Consumers expect the privacy and security of their personal data, and it is the responsibility of enterprises to build and maintain a trusted relationship. Recent data breaches and identity thefts highlight the importance of data protection laws and compliance like [CCPA and GDPR](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/). 
 
 With an identity solution like LoginRadius, you can eliminate lengthy processes that ruin the user experience, and still maintain international governance over data privacy. 
 

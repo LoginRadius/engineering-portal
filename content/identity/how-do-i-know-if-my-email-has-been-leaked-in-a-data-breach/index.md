@@ -59,7 +59,7 @@ Of course, with all these unique passwords, you may be tempted to write them all
 
 LastPass and Dashlane are the two most popular options, and both have points in their favour. If you take your online security seriously, it’s worthwhile paying for a premium version.They’re relatively inexpensive and include important features like syncing across devices and advanced multi-factor authentication. Where possible, you should enable multi-factor authentication on all of your accounts.
 
-[Leaks of any type of customer data](https://www.loginradius.com/blog/2019/10/cybersecurity-attacks-business/) can be both embarrassing and expensive for businesses. An increasing number of countries have steep penalties for any kind of data breach, in some cases attracting unlimited fines or large percentages of an organization's annual turnover (yes turnover, not after-tax profit).
+[Leaks of any type of customer data](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/) can be both embarrassing and expensive for businesses. An increasing number of countries have steep penalties for any kind of data breach, in some cases attracting unlimited fines or large percentages of an organization's annual turnover (yes turnover, not after-tax profit).
 
 If you're responsible for your company’s data security or digital platforms, then you're probably acutely aware of this fact.
 

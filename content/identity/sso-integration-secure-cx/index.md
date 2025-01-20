@@ -90,7 +90,7 @@ LoginRadius SSO makes these requirements around data access and control at the g
 
 Because users need not remember multiple credentials for multiple logins anymore, it saves time and improves productivity.
 
-Also, remembering one password instead of many miraculously [reduces password fatigue](https://www.loginradius.com/blog/2018/12/infographic-the-death-of-passwords/). More so, it gives users the perfect opportunity to come up with even stronger passwords. 
+Also, remembering one password instead of many miraculously [reduces password fatigue](https://www.loginradius.com/resource/infographic/death-of-passwords). More so, it gives users the perfect opportunity to come up with even stronger passwords. 
 
 ### SSO lowers IT costs
 

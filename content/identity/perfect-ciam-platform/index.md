@@ -94,7 +94,7 @@ Your CIAM solution must be not only scalable, but rapidly so, making it possible
 
 ### 8\. Better Customer Experience
 
-All told, your CIAM platform needs to boost customer experience in every possible way. A reduced initial entry threshold that [leverages social login](https://www.loginradius.com/blog/2018/11/reconsidering-social-login-security-privacy-angle/) or passwordless login is just the start.
+All told, your CIAM platform needs to boost customer experience in every possible way. A reduced initial entry threshold that [leverages social login](https://www.loginradius.com/blog/identity/reconsidering-social-login-security-privacy-angle/) or passwordless login is just the start.
 
 Advanced analytics, effective self-service options, and integration with all of your customer-facing functions should all work to improve the way customers access your systems. And storing everything about one customer in the same place—data, analytics, preferences, and browsing/purchase history—will make it much easier for employees to manage customer accounts.
 

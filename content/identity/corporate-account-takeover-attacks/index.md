@@ -202,7 +202,7 @@ For example, an access attempt with a different login device, or from a suspicio
 
 ### Security and Compliance
 
-Both the [EU's GDPR and California's CCPA](https://www.loginradius.com/blog/2019/09/ccpa-vs-gdpr-the-compliance-war/) are examples of global standards that rule the flow of customer data and keep them safe. Most western countries follow similar regulations, and others are catching up.
+Both the [EU's GDPR and California's CCPA](https://www.loginradius.com/blog/identity/ccpa-vs-gdpr-the-compliance-war/) are examples of global standards that rule the flow of customer data and keep them safe. Most western countries follow similar regulations, and others are catching up.
 
 LoginRadius is compliant with the majority of the global standards and you can even tailor it to meet the regulatory requirements depending on the industry and country of business.
 

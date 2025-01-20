@@ -45,6 +45,6 @@ Other benefits of the LoginRadius Identity Import Manager include:
 
 Companies produce a wide range of data in a variety of forms that may not be fully integrated. Additionally, they collect data from external sources that they require to import into their systems. 
 
-The Identity Import Manager is a built-in feature of the LoginRadius [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) platform that offers frictionless access and integration of data for effective and accurate data processing.
+The Identity Import Manager is a built-in feature of the LoginRadius [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) platform that offers frictionless access and integration of data for effective and accurate data processing.
 
 [![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/book-a-demo/)

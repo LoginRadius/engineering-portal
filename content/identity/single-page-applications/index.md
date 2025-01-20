@@ -121,6 +121,6 @@ It helps users [log into multiple applications](https://www.loginradius.com/blog
 
 Cybersecurity issues aren't unique to Single-Page Applications. The users make requests and not JavaScript. Also, the result is produced in HTML and not in JSON or any other format. 
 
-Unlike the traditional non-SPAs where you had to secure individual pages on the server, all you need is to secure the data endpoints in single-page applications. Going by the options above, [dodging cybercriminals](https://www.loginradius.com/blog/2019/12/digital-privacy-best-practices/) should not be a big deal.
+Unlike the traditional non-SPAs where you had to secure individual pages on the server, all you need is to secure the data endpoints in single-page applications. Going by the options above, [dodging cybercriminals](https://www.loginradius.com/blog/identity/digital-privacy-best-practices/) should not be a big deal.
 
 [![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)

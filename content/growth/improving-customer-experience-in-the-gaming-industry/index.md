@@ -91,7 +91,7 @@ That’s why [data security](https://www.cpomagazine.com/tech/data-security-in-t
 
 - **Weak authentication:** An average gamer needs to manage multiple accounts for multiple games. This means that players must remember multiple passwords for all of these games. As a result, they end up with weaker passwords or reusing the same password for multiple accounts. This, of course, makes hacking a gamer’s account “child’s play.”
 
-To protect gamer accounts cybersecurity measures like [multi-factor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) (MFA), password management, and firewalls should be applied. 
+To protect gamer accounts cybersecurity measures like [multi-factor authentication](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) (MFA), password management, and firewalls should be applied. 
 
 - **Phishing**: Phishing campaigns have been used to hack gamers. Hackers will set up a fake login page and send malicious links. Falling prey will result in a takeover of the player’s account or stealing possessions of a character. 
 

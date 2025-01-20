@@ -7,7 +7,7 @@ tags: ["Deno","JWT", "JSON Web Token"]
 canonical: https://www.loginradius.com/blog/engineering/guest-post/how-to-implement-jwt-authentication-in-deno/
 ---
 
-In this blog, we’ll see how to create and validate a JWT(JSON Web Token) in Deno. For this, we’ll be using [djwt](https://github.com/timonson/djwt), the absolute minimum library to make JSON Web Tokens in deno and [Oak framework](https://deno.land/x/oak)
+In this blog, we’ll see how to create and validate a JWT(JSON Web Token) in Deno. For this, we’ll be using [djwt](https://github.com/timonson/djwt), the absolute minimum library to make JSON Web Tokens in deno and [Oak framework](https://deno.land/x/oak@v17.1.4)
 
 ## Before You Get Started
 This tutorial assumes you have:

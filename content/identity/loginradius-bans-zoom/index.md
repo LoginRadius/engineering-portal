@@ -28,7 +28,7 @@ The Cyber Coordination Centre (CyCord) of India’s Ministry of Home Affairs (MH
 
 ## Putting Security at the Core
 
-LoginRadius has been implementing its business continuity plan to [fight the COVID-19 outbreak](https://www.loginradius.com/blog/2020/03/loginradius-business-continuity-covid-19-outbreak/). We are following stringent privacy regulations and taking every possible measure to protect the confidentiality of our customer data.
+LoginRadius has been implementing its business continuity plan to [fight the COVID-19 outbreak](https://www.loginradius.com/blog/identity/loginradius-business-continuity-covid-19-outbreak/). We are following stringent privacy regulations and taking every possible measure to protect the confidentiality of our customer data.
 
 Therefore, as several countries expressed concern about the flawed security policies of the Zoom app, we decided to pull the plug on this one immediately.
 

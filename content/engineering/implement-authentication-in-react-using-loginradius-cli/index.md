@@ -198,7 +198,7 @@ class Login extends React.Component {
     const token = new URLSearchParams(this.props.location.search).get("token");
     if (token) {
       fetch(
-        "https://api.loginradius.com/identity/v2/auth/account?apikey=" +
+        "`https://api.loginradius.com/identity/v2/auth/account?apikey=" +`
           config.API_KEY,
         {
           method: "GET",
