@@ -51,6 +51,8 @@ const AuthorTemplate = ({
                 }
                 alt={id}
                 className="circle extra-large"
+                width={100}
+                height={100}
               />
             </div>
             <div className={styles.aboutAuthor}>

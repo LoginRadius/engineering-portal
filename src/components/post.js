@@ -77,11 +77,11 @@ const Post = ({ post, relatedPost, type }) => {
             />
           </div>
           <div className={headStyles.avatarPinned}>
-            <Img
-              fluid={image.childImageSharp.fluid}
-              Tag="div"
-              className="bs-md"
+            <img
+              src={image.childImageSharp.fluid.src}
               alt={post.frontmatter.title}
+              width={552}
+              height={552 / image.childImageSharp.fluid.aspectRatio}
             />
           </div>
         </div>
@@ -103,6 +103,8 @@ const Post = ({ post, relatedPost, type }) => {
                       className={`circle extra-large`}
                       src={githubUrl}
                       alt={author.id}
+                      width={100}
+                      height={100}
                     />
                   </Link>
                 </div>
