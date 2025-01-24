@@ -101,6 +101,8 @@ const Header = ({ searchIndex, pathname, type }) => {
               src={`${withPrefix("/logo.svg")}`}
               alt={`loginradius`}
               className={headerStyles.lrLogo}
+              width="206"
+              height="96"
             />
           </a>
         </div>
