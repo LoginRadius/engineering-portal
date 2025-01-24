@@ -1,7 +1,5 @@
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 import React, { useCallback, useEffect, useState } from "react"
-import lrLogoAdj from "../../static/logo.svg"
-import lrLogoBlogText from "../../static/lr-logo-blog-text.svg"
 import headerStyles from "./header.module.scss"
 import searchStyles from "./search.module.scss"
 import Search from "./search"
@@ -100,7 +98,7 @@ const Header = ({ searchIndex, pathname, type }) => {
         <div className={headerStyles.logo}>
           <a target="_blank" href={"https://www.loginradius.com/"}>
             <img
-              src={lrLogoAdj}
+              src={`${withPrefix("/logo.svg")}`}
               alt={`loginradius`}
               className={headerStyles.lrLogo}
             />
@@ -117,7 +115,6 @@ const Header = ({ searchIndex, pathname, type }) => {
         >
           <div>
             <a
-              href="#"
               onClick={() => {
                 toggleNavigation(1)
               }}
@@ -269,7 +266,10 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </ul>
                     <div className={headerStyles.logos}>
                       <a href="">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg" alt="Cloud Provider Logos" />
+                        <img
+                          src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/logos-developers.svg"
+                          alt="Cloud Provider Logos"
+                        />
                       </a>
                     </div>
                   </div>
@@ -277,7 +277,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </a>
             <a
-              href="#"
               onClick={() => {
                 toggleNavigation(2)
               }}
@@ -427,7 +426,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </a>
             <a
-              href="#"
               onClick={() => {
                 toggleNavigation(3)
               }}
@@ -493,10 +491,16 @@ const Header = ({ searchIndex, pathname, type }) => {
                     </h4>
                     <div>
                       <a href="https://www.loginradius.com/customers">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-1.png" alt="Customers Logos 1" />
+                        <img
+                          src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-1.png"
+                          alt="Customers Logos 1"
+                        />
                       </a>
                       <a href="https://www.loginradius.com/customers">
-                        <img src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-2.png" alt="Customers Logos 2" />
+                        <img
+                          src="https://www.loginradius.com/wp-content/themes/login-radius/images/v5-megamenu/customer-logos-2.png"
+                          alt="Customers Logos 2"
+                        />
                       </a>
                     </div>
                   </div>
@@ -504,7 +508,6 @@ const Header = ({ searchIndex, pathname, type }) => {
               </div>
             </a>
             <a
-              href="#"
               onClick={() => {
                 toggleNavigation(4)
               }}

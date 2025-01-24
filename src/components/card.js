@@ -19,7 +19,12 @@ const Card = ({ node }) => {
         <div className={styles.avatar}>
           <Link className="bs-md" to={node.fields.slug}>
             {coverImagePath ? (
-              <Img alt={node.frontmatter.title || node.fields.slug} fluid={coverImagePath.childImageSharp.fluid} Tag="div" />
+              <img
+                src={coverImagePath.childImageSharp.fluid.src}
+                alt={node.frontmatter.title || node.fields.slug}
+                width={360}
+                height={257}
+              />
             ) : (
               <img src={defaultImg} alt="default-img" />
             )}

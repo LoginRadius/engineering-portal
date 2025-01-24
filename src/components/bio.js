@@ -22,6 +22,8 @@ const Bio = ({ date, author, pinned, readingTime }) => {
             className={` circle medium ${pinned ? styles.pinned : "large"}`}
             src={githubUrl}
             alt={author.id}
+            width={50}
+            height={50}
           />
         </Link>
       </div>
