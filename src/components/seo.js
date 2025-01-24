@@ -56,7 +56,7 @@ const SEO = ({
           name: "LoginRadius",
           logo: {
             "@type": "ImageObject",
-            url: lrLogoAdj,
+            url: `${withPrefix("/logo.svg")}`,
           },
         },
       }
@@ -107,7 +107,13 @@ const SEO = ({
             <link rel="icon" href={withPrefix("/favicon.png")} />
             <link
               rel="canonical"
-              href={typeof(seo.canonial) !== null && seo.canonial && seo.canonial != "null" ? seo.canonial : seo.url}
+              href={
+                typeof seo.canonial !== null &&
+                seo.canonial &&
+                seo.canonial != "null"
+                  ? seo.canonial
+                  : seo.url
+              }
             />
             <meta http-equiv="content-language" content="en"></meta>
             <meta name="description" content={seo.description} />
@@ -120,7 +126,13 @@ const SEO = ({
             <meta name="twitter:title" content={seo.title} />
             <meta
               name="twitter:url"
-              content={typeof(seo.canonial) !== null && seo.canonial && seo.canonial != "null" ? seo.canonial : seo.url}
+              content={
+                typeof seo.canonial !== null &&
+                seo.canonial &&
+                seo.canonial != "null"
+                  ? seo.canonial
+                  : seo.url
+              }
             />
             <meta name="twitter:description" content={seo.description} />
             <meta name="twitter:card" content="summary_large_image" />
