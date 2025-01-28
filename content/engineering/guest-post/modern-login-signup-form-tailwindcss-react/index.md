@@ -761,7 +761,7 @@ You can use [LoginRadius](https://www.loginradius.com/resource/whitepaper/loginr
 
 First, [set up an account](https://accounts.loginradius.com/auth.aspx), and get your API key from your Account Dashboard.
 
-Then, you can use their [login endpoint](https://www.loginradius.com/docs/api/v2/single-sign-on/Machine-to-Machine/overview/#overview0) to authenticate users. 
+Then, you can use their [login endpoint](https://www.loginradius.com/docs/api/v2/single-sign-on/Machine-to-Machine/overview/) to authenticate users. 
 
 The endpoint takes an email and password as parameters and validates them against the correct credentials. If we were to integrate this endpoint in our previously built `<Login/>` component (`/scr/components/Login.js`), here's what the `authenticateUser` method would look like:
 
