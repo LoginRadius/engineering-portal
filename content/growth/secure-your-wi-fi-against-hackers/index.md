@@ -171,7 +171,7 @@ Console router of every device will contain a technique called ‘MAC Filtering 
 
   
 
-You can also access this through Advanced network filters. You can <a rel="nofollow" href="https://www.oit.uci.edu/mobile/registration/find-your-mac-address/">find your MAC Address here</a>.
+You can also access this through Advanced network filters. You can <a rel="nofollow" href="https://uci.service-now.com/sp?id=kb_article_view&sysparm_article=KB0012311">find your MAC Address here</a>.
 
   
 
@@ -202,5 +202,5 @@ To maintain the system with firewalls and anti-malware software. Always keep the
 
   
 
-Many hackers are using different methods like [ransomware](https://www.loginradius.com/resource/with-ransomware-on-the-rise-how-safe-is-your-business/) and identity theft. To avoid all these issues, you can make some changes by practicing these tips.
+Many hackers are using different methods like [ransomware](https://www.loginradius.com/resource/guide/ransomware-rise-safe-business) and identity theft. To avoid all these issues, you can make some changes by practicing these tips.
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
