@@ -133,6 +133,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               </span>
               <div
                 id="ciam-platform"
+                style={{ display: "none" }}
                 className={
                   headerStyles.slideoutpart +
                   (isMenuOpen === 1 ? " " + headerStyles.slideoutpartshow : "")
@@ -295,6 +296,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               </span>
               <div
                 id="solutions"
+                style={{ display: "none" }}
                 className={
                   headerStyles.slideoutpart +
                   (isMenuOpen === 2 ? " " + headerStyles.slideoutpartshow : "")
@@ -444,6 +446,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               </span>
               <div
                 id="customers"
+                style={{ display: "none" }}
                 className={
                   headerStyles.slideoutpart +
                   " " +
@@ -526,6 +529,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               </span>
               <div
                 id="docs--resources"
+                style={{ display: "none" }}
                 className={
                   headerStyles.slideoutpart +
                   (isMenuOpen === 4 ? " " + headerStyles.slideoutpartshow : "")
