@@ -220,6 +220,123 @@ ul {
     );
   }
 }
+.btn-blueprimary {
+  padding: $gutter/2 $gutter;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 100%;
+  cursor: pointer;
+  background-color: #008ecf;
+  text-align: center;
+  transition: all 0.3s;
+  border: 0;
+  transition: color 0.35s, background-color 0.35s, border-color 0.35s,
+    box-shadow 0.35s, opacity 0.35s;
+  color: $white;
+  border-color: #008ecf;
+  transition: 0.3s ease-in 0s;
+  background-size: 250% auto;
+  background-image: linear-gradient(
+    -85deg,
+    #008ecf 0%,
+    #008ecf 40%,
+    rgba(255, 255, 255, 0.2) 50%,
+    #008ecf 60%,
+    #008ecf 100%
+  );
+
+  &.small {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: $basefont;
+    text-transform: capitalize;
+    padding: 0 16px;
+    &:hover {
+      box-shadow: none;
+      transform: scale(1);
+      color: $white;
+    }
+  }
+  &:hover {
+    background-color: #008ecf;
+    border-color: #008ecf;
+    transition: 0.3s ease-in 0s;
+    background-size: 250% auto;
+    background-position: right center;
+    background-image: linear-gradient(
+      -85deg,
+      #008ecf 0%,
+      #008ecf 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      #008ecf 60%,
+      #008ecf 100%
+    );
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    color: $white;
+  }
+  &.disabled {
+    background: #e8e9ea !important;
+    cursor: default;
+    &:hover,
+    &:focus {
+      transform: scale(1);
+    }
+  }
+  &.btn_wait {
+    background-color: #008ecf;
+    background-image: linear-gradient(
+      -85deg,
+      #008ecf 0%,
+      #008ecf 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      #008ecf 60%,
+      #008ecf 100%
+    );
+  }
+  &.btn_success {
+    background-color: $success;
+    background-image: linear-gradient(
+      -85deg,
+      $success 0%,
+      $success 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $success 60%,
+      $success 100%
+    );
+    overflow: hidden;
+    &.active {
+      position: relative;
+      &:after {
+        animation: progress-anim 7s ease 0s;
+        position: absolute;
+        content: "";
+        inset: 0;
+        width: 0%;
+        background: rgba(255, 255, 255, 0.2);
+        height: 52px;
+      }
+    }
+  }
+  &.btn_error {
+    background-color: $error;
+    background-image: linear-gradient(
+      -85deg,
+      $error 0%,
+      $error 40%,
+      rgba(255, 255, 255, 0.2) 50%,
+      $error 60%,
+      $error 100%
+    );
+  }
+}
+
 .btn-secondary {
   padding: 0 $gutter;
   height: 52px;
@@ -527,5 +644,90 @@ section {
     width: 100px;
     margin: 0 auto;
     display: block;
+  }
+}
+
+.bg-lightbluebright-01 {
+  background-color: $blue-light;
+  .grid-50 {
+    &.cta-small {
+      padding: 48px $gutter;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      @media screen and (max-width: 1024px) {
+        display: block;
+      }
+    }
+    & > div {
+      display: inline-block;
+      float: left;
+      margin-right: $gutter;
+      width: 50%;
+      @media screen and (max-width: 1024px) {
+        float: none;
+        display: block;
+        width: 100%;
+      }
+      &:nth-child(2) {
+        margin-right: 0;
+        width: calc(33% - #{$gutter * 1 / 2});
+        @media screen and (max-width: 1024px) {
+          float: none;
+          display: block;
+          width: 100%;
+          margin-top: $gutter;
+        }
+      }
+    }
+    .cta-small-button {
+      p {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        @media screen and (max-width: 1024px) {
+          align-items: flex-start;
+        }
+        a {
+          display: inline-block;
+          width: 100%;
+          max-width: 308px;
+          margin-bottom: 0;
+          background-color: $white;
+          color: $lr-orange;
+          box-shadow: none;
+          transition: 0.3s ease-in 0s;
+          background-size: 250% auto;
+          background-image: linear-gradient(
+            -85deg,
+            $white 0%,
+            $white 40%,
+            rgba(0, 142, 207, 0.2) 50%,
+            $white 60%,
+            $white 100%
+          );
+        }
+        span {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+  b {
+    font-weight: 600;
   }
 }
