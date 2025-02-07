@@ -5,10 +5,11 @@ import kebabCase from "lodash/kebabCase"
 import React from "react"
 import ReactGA from "react-ga"
 import defaultImg from "../../content/assets/default-blog.jpg"
+import freeTrialImg from "../../content/assets/freetrial.png"
 import getTimeToRead from "../utils/timeToRead"
 import Bio from "./bio"
 import styles from "./cardlist.module.scss"
-import style from "./post.module.scss"
+import poststyle from "./post.module.scss"
 
 const signUplogger = function () {
   ReactGA.event({
@@ -72,29 +73,32 @@ const PinnedCard = props => {
           </div>
         </div>
       </section>
-      <section key={"pinned_card_cta"} className={style.bgBright01}>
-        <div className={`${style.grid6633} ${style.ctaSmall}`}>
-          <div className={style.ctaSmallText}>
+      <section
+        key={"pinned_card_cta"}
+        className={poststyle.bgLightbluebright01}
+      >
+        <div className={`${poststyle.grid50} ${poststyle.ctaSmall}`}>
+          <div className={poststyle.ctaSmallText}>
+            <img src={freeTrialImg} alt="Free Trial" />
+          </div>
+
+          <div className={poststyle.ctaSmallButton}>
             <h3>LoginRadius CIAM Platform</h3>
             <p>
               Our Product Experts will show you the power of the LoginRadius
               CIAM platform, discuss use-cases, and prove out ROI for your
               business.
             </p>
-          </div>
-
-          <div className={style.ctaSmallButton}>
-            <p>
-              <a
-                className={`${style.navcta} btn-primary  ga_event }`}
-                href={`https://www.loginradius.com/book-a-demo/`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={signUplogger}
-              >
-                {"Book A Demo Today"}
-              </a>
-            </p>
+            <br />
+            <a
+              className={`${poststyle.navcta}  btn-blueprimary  ga_event }`}
+              href={`https://accounts.loginradius.com/auth.aspx?action=register`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={signUplogger}
+            >
+              {"Start Building for Free"}
+            </a>
           </div>
         </div>
       </section>
