@@ -5,6 +5,7 @@ import React from "react"
 import ReactGA from "react-ga"
 import Helmet from "react-helmet"
 //import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
+import freeTrialImg from "../../content/assets/freetrial.png"
 import headStyles from "./cardlist.module.scss"
 import AsyncFeatList from "./featurePost/async"
 import FuelFeatList from "./featurePost/fuel"
@@ -320,29 +321,29 @@ const Post = ({ post, relatedPost, type }) => {
         </div>
         {headings && headings.length && <ToC headings={headings} />}
       </section>
-      <section key={"pinned_card_cta"} className={styles.bgBright01}>
-        <div className={`${styles.grid6633} ${styles.ctaSmall}`}>
+      <section key={"pinned_card_cta"} className={styles.bgLightbluebright01}>
+        <div className={`${styles.grid50} ${styles.ctaSmall}`}>
           <div className={styles.ctaSmallText}>
+            <img src={freeTrialImg} alt="Free Trial" />
+          </div>
+
+          <div className={styles.ctaSmallButton}>
             <h3>LoginRadius CIAM Platform</h3>
             <p>
               Our Product Experts will show you the power of the LoginRadius
               CIAM platform, discuss use-cases, and prove out ROI for your
               business.
             </p>
-          </div>
-
-          <div className={styles.ctaSmallButton}>
-            <p>
-              <a
-                className={`${styles.navcta} btn-primary  ga_event }`}
-                href={`https://www.loginradius.com/book-a-demo/`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={signUplogger}
-              >
-                {"Book A Demo Today"}
-              </a>
-            </p>
+            <br />
+            <a
+              className={`${styles.navcta}  btn-blueprimary  ga_event }`}
+              href={`https://accounts.loginradius.com/auth.aspx?action=register`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={signUplogger}
+            >
+              {"Start Building for Free"}
+            </a>
           </div>
         </div>
       </section>

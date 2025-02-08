@@ -33,7 +33,7 @@ module.exports = {
       {
         name: "twitter",
         slug: "https://twitter.com/LoginRadius",
-      },      
+      },
       {
         name: "youtube",
         slug: "https://www.youtube.com/user/LoginRadius",
@@ -267,5 +267,5 @@ module.exports = {
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
-  pathPrefix: `/blog`,
+  pathPrefix: process.env.GATSBY_PATH_PREFIX || "/",
 }
