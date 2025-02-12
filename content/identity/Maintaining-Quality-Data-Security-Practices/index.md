@@ -31,7 +31,7 @@ It's not uncommon for businesses to face security risks due to employee’s weak
 
 It's highly recommended to implement [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/)  because it can reduce the likelihood of being attacked by a cyber-criminal.
 
-[![mfa](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![mfa](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 **2. Strict Permissions** 
 

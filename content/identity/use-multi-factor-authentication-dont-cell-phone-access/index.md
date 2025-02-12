@@ -48,7 +48,7 @@ Both Google and Microsoft offer Android and iOS authenticator apps as part of th
 
 LoginRadius offers a white-labeled version of Google Authenticator for [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) to companies that use our customer identity platform.
 
-[![multi factor authentication guide loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication-1024x310.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![multi factor authentication guide loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication-1024x310.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 #### Setting up Google Authenticator
 

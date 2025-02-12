@@ -59,7 +59,7 @@ At face value, these advantages appear to benefit institutions primarily. Howeve
 
 The fact that individuals are becoming savvier to the [benefits of digital ID](https://blog.loginradius.com/identity/pros-cons-reusable-digital-identity/) is seen with most consumers looking for banking accounts that <a rel="nofollow" href="https://www.creditdonkey.com/best-business-checking-account.html"> come with essential security features </a> such as Multi-Factor Authentication (MFA), among other digital identification features.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### 4. Financial inclusion
 

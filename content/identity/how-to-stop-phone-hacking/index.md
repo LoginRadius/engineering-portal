@@ -100,7 +100,7 @@ Users should ensure that they keep their phone locked when not in use and also s
 
 Services like ‘find my device’ are provided by smartphone manufacturers to help users locate their stolen phone on a map and remotely erase their data. All users need to do is set their phone to automatically erase itself after a certain number of incorrect access attempts.  It is also possible to make a phone ring even if it is kept on silent. It is helpful in tracking down phone that was just stolen. 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 

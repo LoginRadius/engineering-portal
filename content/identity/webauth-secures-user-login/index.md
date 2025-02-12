@@ -55,7 +55,7 @@ Whenever a user needs to prove their identity, the smart biometric can be utiliz
 
 Let’s understand this with a real-life example where we can use WebAuthn for handling authentication after an individual has registered with a web application.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Suppose the user is registered from their phone and navigates to the web application to log in. In that case, they are prompted to enter their password or biometric, which is associated with that particular account. The user can simply use their biometric to log in without the need to enter lengthy passwords.
 

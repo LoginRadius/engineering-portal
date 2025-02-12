@@ -50,7 +50,7 @@ While this approach is generally more secure than a basic password, many fraudst
 
 What is more, this method includes an additional friction point, which makes it less user-friendly and potentially frustrating.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### 3. Biometric authentication
 

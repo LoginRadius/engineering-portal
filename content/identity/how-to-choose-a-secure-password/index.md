@@ -131,7 +131,7 @@ The following are a few types of layers that businesses choose to provide:
 **Change your passwords regularly**: Also, do not reuse the same password for a long time. The more sensitive your data is, the more frequently you should change your password.
 
 
-[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 **Always remember to log out** of websites and devices once you are done using them. 
 

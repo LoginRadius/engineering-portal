@@ -29,7 +29,7 @@ Why is mobile biometric authentication gaining widespread popularity? Here are s
 
 *   Biometrics can also be used as part of the [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) process – especially when signing into sensitive or confidential accounts.
 
-[![Multi-Factor-Authentication](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![Multi-Factor-Authentication](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Next, let us look at a few use cases of biometric authentication in mobile phones.
 

@@ -51,7 +51,7 @@ Here we list out a few tips that can help safeguard your company against passwor
 
 ### 1. Enable multi-factor authentication (MFA)
 
-One of the best ways to prevent any kind of hacking attempt is to [enable multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) across an organization. That way, users will have to provide two or more verification factors to sign in or gain access to applications and accounts, thereby reducing the risk of password spraying.
+One of the best ways to prevent any kind of hacking attempt is to [enable multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) across an organization. That way, users will have to provide two or more verification factors to sign in or gain access to applications and accounts, thereby reducing the risk of password spraying.
 
 ### 2. Enforce the use of strong passwords
 

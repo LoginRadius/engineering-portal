@@ -41,7 +41,7 @@ The majority of MFA authentication methods rely on one of three sorts of extra d
 
 In an <a rel="nofollow" href="https://www.pymnts.com/news/security-and-risk/2021/multi-factor-authentication-makes-qsrs-promotions-discounts-fraud-free/">interview with PYMNTS</a>, Vikram Dhawan, vice president and senior product leader at Kount, an Equifax business, warned that QSRs and other merchants must safeguard their promotions and customers' accounts to strengthen their defenses against an assault of faceless, digitally-mounted attackers.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)  
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
 
 The news came as PYMNTS research revealed that 44 percent of respondents indicated they were more likely to order from restaurants that offered specials or discounts. According to Dhawan, this circumstance allows for marketing misuse and fraud.
   

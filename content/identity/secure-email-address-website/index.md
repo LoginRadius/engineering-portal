@@ -63,7 +63,7 @@ Hackers use [credential stuffing](https://www.loginradius.com/blog/identity/2019
 
 This is possible because a huge proportion of online users still use the same username and passwords across multiple accounts.
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 4. Use two-factor authentication or MFA, wherever possible.

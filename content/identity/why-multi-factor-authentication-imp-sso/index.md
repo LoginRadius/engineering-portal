@@ -27,7 +27,7 @@ The strengths and weaknesses of multi-factor authentication are generally known.
 
 Password protection is popular but not ideal, so businesses have to use additional tools. SSO is a powerful and effective tool for simplifying employee access to personal websites and applications.
 
-**Also download**: [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+**Also download**: [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## What is the Authentication Process and Single Sign-On (SSO)? 
 

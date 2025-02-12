@@ -44,7 +44,7 @@ While unauthorized professionals are exploring new ways to gain access to user p
 
 Since cyber attackers can quickly bypass a single layer of security, MFA is undoubtedly the need of the hour for businesses that need to secure user identities in the ever-expanding digital world.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 **#3 Mistake: Missing SSL (Secure Sockets Layer) Certificate**

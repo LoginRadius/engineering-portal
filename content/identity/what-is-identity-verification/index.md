@@ -96,7 +96,7 @@ When it comes to the advantages of digital identity verification, the list is en
 
 **1. Robust Security**
 
-Adding multiple layers of authentication to your current network through [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) (MFA) can help enhance overall security. 
+Adding multiple layers of authentication to your current network through [multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) (MFA) can help enhance overall security. 
 
 MFA is considered the most reliable way to authenticate users that prevents unauthorized access and eventually helps to comply with specific industry regulations.
 

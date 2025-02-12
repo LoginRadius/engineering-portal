@@ -70,7 +70,7 @@ When it comes to cyber insurance renewals, here are a few things insurers will w
 Multi-factor authentication protection on all remote access to your network, including any remote desktop protocol connections, email server, cloud services, and backup data solutions. Ensure that all network administrator accounts and any other user accounts with elevated permissions have multi-factor authentication protection.
 
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 2. Endpoint security
