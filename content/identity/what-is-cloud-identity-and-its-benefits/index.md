@@ -40,7 +40,7 @@ This simplifies [user provisioning](https://www.loginradius.com/blog/identity/us
 
 Security is a critical concern in the digital realm, and cloud identity offers robust security measures to safeguard user identities and data. It enables organizations to implement multi-factor authentication (MFA), which adds an extra layer of security by requiring users to provide additional credentials, such as a one-time password or a biometric scan, in addition to their username and password.
 
-[![EB-BG-to-MFA](EB-BG-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-BG-to-MFA](EB-BG-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Cloud Identity solutions also often enforce strong password policies, such as password complexity requirements and expiration, to mitigate the risk of weak or compromised passwords. Moreover, advanced security protocols like OAuth and SAML are commonly used for secure identity federation, ensuring secure authentication and authorization across different cloud services and applications.
 

@@ -38,7 +38,7 @@ It is done by providing at least two pieces of proof or evidence to state their 
 
 MFA works in this way because, let’s suppose one of the factors is hacked by the attackers or invalid user, the chances of another factor also getting compromised are pretty low. That is why **[MFA authentication](https://www.loginradius.com/multi-factor-authentication/)** requires multiple  factors, and this is how it provides a higher level of API security to consumers’ identity data.
 
- [![book-a-demo-loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
+ [![book-a-demo-loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
 
 ## Why MFA is So Important
 

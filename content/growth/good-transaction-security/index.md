@@ -118,7 +118,7 @@ Data security and privacy are ensured through a built-in web application firewal
 
 RBA goes beyond a static list of rules and adapts to ask consumers for the types of verification that best suit a user session.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)  
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
 
 LoginRadius incorporates the following additional factors to its RBA solutions:
 

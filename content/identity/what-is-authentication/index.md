@@ -36,7 +36,7 @@ Authentication can be divided into two major categories.
 
 In any of the above types of authentication, there is a requirement for certain credentials. In human verification, we have a user ID and password set by the consumer, while for machines, we have certificates and IP addresses, along with other information. 
 
-Generally, a consumer has to select or create a User ID and corresponding password for that unique ID that the system will use to verify user credibility. Many companies make use of authentication to verify the users who try to login into their digital platforms. But if consumers' data falls into cybercriminals' hands, it can cause some severe problems. Hence companies ensure using high-level security measures, which involves using another advanced authentication level such as [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/). 
+Generally, a consumer has to select or create a User ID and corresponding password for that unique ID that the system will use to verify user credibility. Many companies make use of authentication to verify the users who try to login into their digital platforms. But if consumers' data falls into cybercriminals' hands, it can cause some severe problems. Hence companies ensure using high-level security measures, which involves using another advanced authentication level such as [multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/). 
 
 
 ## How Does Authentication Work

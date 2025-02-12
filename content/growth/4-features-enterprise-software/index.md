@@ -50,7 +50,7 @@ The global information security market is forecasted to grow to [$170.4 billion 
 
 A deeper level of security should require a customization system concerning one’s password. Hashing and security questions aside, there should also be a limited time for the password usage or a number of times one user can use it before applying a new one. 
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 An additional vital way to make people’s data safe is encryption. Digitalization calls for an interrupted exchange of information and the safest way to make it inaccessible to unwanted eyes and ears is to encode it. 
 

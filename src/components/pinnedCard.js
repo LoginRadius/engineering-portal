@@ -92,7 +92,7 @@ const PinnedCard = props => {
             <br />
             <a
               className={`${poststyle.navcta}  btn-blueprimary  ga_event }`}
-              href={`https://accounts.loginradius.com/auth.aspx?action=register`}
+              href={`https://accounts.loginradius.com/auth.aspx?return_url=https://console.loginradius.com/login&action=register`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={signUplogger}

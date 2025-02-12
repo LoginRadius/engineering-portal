@@ -207,7 +207,7 @@ You can enable 2FA [SMS verification](https://www.loginradius.com/docs/api/v2/cu
 
 As the first step, you'll need to apply a first verification factor, like standard email and password login, username and password, automated phone call, or access token. The second factor can be a one-time password or code sent via SMS. 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### Google Authenticator Workflow
 
