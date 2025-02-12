@@ -30,9 +30,9 @@ To start this, first, you need to create a project that is the same as your GitH
 
 **Example:** My user name is `abhir9`, and I need to create a repo with the same name `abhir9` with a `README.md` file.
 
-This `README.me` will act as the profile page: https://github.com/abhir9
+This `README.me` will act as the profile page: [abhir9](https://github.com/abhir9)
 
-It is the actual README file created using a repo with my GitHub username: https://github.com/abhir9/abhir9/blob/main/README.md
+It is the actual README file created using a repo with my GitHub username: [abhir9](https://github.com/abhir9/abhir9/blob/main/README.md)
 
 Here you can add your quotes, hello statement, greetings, etc. It is connected to the viewer on your behalf.
 
@@ -40,13 +40,13 @@ So write a short paragraph or a brief story to introduce yourself.
 
 There are some apps from contributors that extract the information based on your profile name and share stats and charts.
 
-- https://github-readme-stats.vercel.app
+- [github readme stats](https://github-readme-stats.vercel.app)
   e.g.: `https://github-readme-stats.vercel.app/api?username=abhir9&show_icons=true&count_private=true&theme=react`
-- https://readme-typing-svg.herokuapp.com
+- [readme typing svg](https://readme-typing-svg.herokuapp.com)
   e.g.: `https://readme-typing-svg.herokuapp.com?size=50&center=true&vCenter=true&width=800&height=100&lines=Namaste%20%F0%9F%99%8F%3BPranam%20%F0%9F%99%8F%3BKhamma%20Ghani%20%F0%9F%99%8F%3BVanakkam%20%F0%9F%99%8F%3BSat%20Sri%20Akaal%20%F0%9F%99%8F%3BAssalam%20Alaikum%20%F0%9F%99%8F%3B`
-- https://views.whatilearened.today
+- [whatilearened](https://views.whatilearened.today)
   e.g.: `https://views.whatilearened.today/views/github/abhir9/abhir9.svg?cache=remove`
-- https://github-readme-streak-stats.herokuapp.com
+- [github readme streak stats](https://github-readme-streak-stats.herokuapp.com)
   e.g.: `https://github-readme-streak-stats.herokuapp.com/?user=abhir9&theme=react`
 - SVG Icons
   e.g.: `https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg`
@@ -69,6 +69,6 @@ Heat map graph will automatically generate as per your contributions. Try to kee
 
 Whether it's a minor or significant project, add a well-descriptive README file. It helps anyone clearly understand what your project does and how they can contribute if they want to.
 
-Format it in a better way; if you don't know very much about Markdown format, you can use an online tool like https://pandao.github.io/editor.md/en.html
+Format it in a better way; if you don't know very much about Markdown format, you can use an online tool like [Pandao](https://pandao.github.io/editor.md/en.html)
 
 You can use images, screenshots, gifs, resources list, contribution guidelines, license, etc.

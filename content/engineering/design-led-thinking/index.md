@@ -88,25 +88,25 @@ Design Thinking plays an important role to reiterate the understanding of proble
 1. **Pepsico design-led problem-solving**
     For female user experience, it released a new line of Doritos in china in a stack of the tray and packaged in a canister, instead of a snack bag, so that women can use it opening the drawer and push it back when done, as they don't like other to notice them munching.
     
-    Ref:https://hbr.org/2015/09/how-indra-nooyi-turned-design-thinking-into-strategy?referral=03759&cm_vc=rr_item_page.bottom
+    Ref: [How Indra Nooyi Turned Design Thinking Into Strategy](https://hbr.org/2015/09/how-indra-nooyi-turned-design-thinking-into-strategy?referral=03759&cm_vc=rr_item_page.bottom)
 
 2. **Samsung’s design-led innovation**
     It realized the need of Korean and Japanese business users who had common practice to note or schedule events or important points in small pocket-sized notebooks, This led to an innovative idea where the user was observed and the need was created and hence realized to users.
     Samsung launched a successful Galaxy Note series. with the innovation of “smart diary” a 5.5-inch interface with a stylus pen to pair.
     
-    Ref: https://hbr.org/2015/09/how-samsung-became-a-design-powerhouse 
+    Ref: [How Samsung Became a Design Powerhouse](https://hbr.org/2015/09/how-samsung-became-a-design-powerhouse) 
 
 3. **Samsung design concept used for experimenting**
     Where it experimented with TV units, realizing the fact that users are spending more time on furniture, so TV ‘s are supposed to be a bit more attractive. This led to the radical change for the speaker’s positioning at the TV sets to be hidden at the bottom instead of the traditional side panes. This has experimented in the European market first and after a successful adaption, Samsung experimented more with visual appearance and by the time it was building the product, it had already sold a million units.
     
-    Ref: https://hbr.org/2015/09/how-samsung-became-a-design-powerhouse?registration=success
+    Ref: [How Samsung Became a Design Powerhouse](https://hbr.org/2015/09/how-samsung-became-a-design-powerhouse?registration=success)
 
-4. **IBM**  - It got an ROI of 301 %, by investing in Design Thinking services which can be experienced at https://www.ibm.com/design/thinking/
+4. **IBM**  - It got an ROI of 301 %, by investing in Design Thinking services which can be experienced at [IBM](https://www.ibm.com/design/thinking/)
 
 5. **Stanford Hospital** for improvement
     It worked on improving the experience of a patient within the emergency room and for staff to serve patients a better way
     
-    Ref: https://think360studio.com/blog/what-is-design-thinking-and-design-thinking-process
+    Ref: [What Is Design Thinking and Design Thinking Process?](https://think360studio.com/blog/what-is-design-thinking-and-design-thinking-process)
 
 ### Last but not least
 It is very important to drive and extract meaningful images out of the observations from real humans. 

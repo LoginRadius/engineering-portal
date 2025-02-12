@@ -82,7 +82,7 @@ function onError(error) {
 ```
 
   
-You can test the response formats for most of the LinkedIn APIs on LinkedIns API console: https://apigee.com/console/linkedin You can access any of the API endpoints after successful login via the raw API handler and retrieve data per your requirements.
+You can test the response formats for most of the LinkedIn APIs on [LinkedIns API console](https://apigee.com/console/linkedin) You can access any of the API endpoints after successful login via the raw API handler and retrieve data per your requirements.
 
 ## User Management
 

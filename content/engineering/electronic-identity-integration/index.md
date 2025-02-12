@@ -32,7 +32,7 @@ LoginRadius supports all the major industry federated SSO methods. Hence, you ca
 Please see the following steps to register your LoginRadius app in your Criipto account.
 
 
-1.  Login in to your Criipto account (https://manage.criipto.id/login ).
+1.  Login in to your [Criipto account](https://manage.criipto.id/login ).
 2.  Click + sign to add an application under the Applications tab.
 3.  Add the following information:
     ![criipto config](criipto-config1.jpg)
@@ -50,7 +50,7 @@ Please see the following steps to register your LoginRadius app in your Criipto 
 
 ### Configure the Criipto settings in the LoginRadius 
 
-1. Login into the Admin Console (https://adminconsole.loginradius.com/ )
+1. Login into the [Admin Console](https://adminconsole.loginradius.com/ )
 2.  Navigate to Platform Configuration>Authentication Configuration>Custom IDPs>JWT Provider
 ![JWT config](LR-JWT-Config1.jpg)
 3. Click **+ Add A New Provider** button highlighted on the above screen, and the following JWT configuration form fields will appear:
@@ -62,10 +62,9 @@ Please see the following steps to register your LoginRadius app in your Criipto 
     - Clock Skew(Optional): Enter 0
     - Expiration Time Difference (Optional): Enter 0
     - Token Query Parameter Name (Optional): Enter id_token
-    - Login Url (Optional): Enter https://YOUR_SUBDOMAIN.criipto.id/oauth2/authorize?response_type=id_token&client_id=<Criipto client_id>&redirect_uri=https%3A%2F%2F<LR App name>.hub.loginradius.com%2Faccess%2Fjwt&acr_values=<acr_value>&scope=openid where <acr_value> can be found for a particular eID here
     - Data Mapping:
        - Select Field(Dropdown): Select the LoginRadius field ID field
-       - Profile Key: Enter the user identifier field name from the JWT ( please see https://docs.criipto.com/getting-started/token-contents/ for the JWT payload returned by an eID)
+       - Profile Key: Enter the user identifier field name from the JWT ( please see [Token contents](https://docs.criipto.com/getting-started/token-contents/) for the JWT payload returned by an eID)
     - Enable Include In Social Schema
 5. Click the **Add** button 
  

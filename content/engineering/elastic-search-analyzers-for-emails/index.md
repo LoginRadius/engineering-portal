@@ -67,6 +67,6 @@ At the end I want to share two good gadgets that I found very helpful with ES an
 
 1. **Inquisitor:**  
     This Elastic Search tool allows you to quickly apply different analyzers, tokenizers and filters to your input, fork it here:  
-    [https://github.com/polyfractal/elasticsearch-inquisitor](https://github.com/polyfractal/elasticsearch-inquisitor)
+    [Elasticsearch Inquisitor](https://github.com/polyfractal/elasticsearch-inquisitor)
 2. **regex 101:** 
-    To quickly test out your regular expression, try this link: [https://regex101.com/](https://regex101.com/)
+    To quickly test out your regular expression, try this link: [regex101](https://regex101.com/)

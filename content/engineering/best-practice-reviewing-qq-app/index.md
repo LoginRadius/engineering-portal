@@ -17,13 +17,13 @@ QQ is the most popular ID provider for Chinese people since the 90s, it is alway
 
 2. ### Registration
     
-    After being redirected to [http://connect.qq.com/manage/login](http://connect.qq.com/manage/login), it asks you to fill in your credentials, since I do not have one, I will register for one and feel free to skip this step if you have already got one.
+    After being redirected to [QQ connect login page](http://connect.qq.com/manage/login), it asks you to fill in your credentials, since I do not have one, I will register for one and feel free to skip this step if you have already got one.
     
     Click "register a new account", like shown:
     
     ![qq-register-1024x630](qq-register-1024x630.png)
     
-    It will link you to this page [http://zc.qq.com/en/index.html?from=pt](http://zc.qq.com/en/index.html?from=pt), it is written in English, sweet! I am pretty sure you can register an account by yourself. After filling in the information, it will send a confirmation email to your email box. After your email is verified go back to this page [http://connect.qq.com/manage/login](http://connect.qq.com/manage/login), and use the QQ number you just got to log in with.
+    It will link you to [this page](http://zc.qq.com/en/index.html?from=pt), it is written in English, sweet! I am pretty sure you can register an account by yourself. After filling in the information, it will send a confirmation email to your email box. After your email is verified go back to the [login page](http://connect.qq.com/manage/login), and use the QQ number you just got to log in with.
     
 
 3. ### Creating the app
