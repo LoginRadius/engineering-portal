@@ -35,6 +35,43 @@ export default function CardList({ posts, currentPage, type }) {
                 <>
                   <div className={headStyles.image}>
                     <img
+                      src="https://www.loginradius.com/blog/webinar-banner.webp"
+                      alt="This image shows how LoginRadius powers several secure authentication methods like social login, biometrics, passkeys, passwordless login, and OTP."
+                      style={{ backgroundColor: "#fff" }}
+                    />
+                  </div>
+                  <div className={headStyles.text}>
+                    <h3 style={{ textAlign: "center" }}>
+                      LoginRadius Product Roadmap 2025
+                    </h3>
+                    <a
+                      className={`${headStyles.btnPrimary} btn-primary ga_event`}
+                      // className={"btn-primary ga_event"}
+                      href={
+                        "https://www.loginradius.com/resource/webinar/loginradius-roadmap-2025?utm_source=website&utm_medium=web&utm_campaign=blog-lp"
+                      }
+                      key={"overall-ciam-leader-2024"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() =>
+                        eventLogger({
+                          category: "LoginRadius Product Roadmap 2025",
+                          action: "User clicked on Free Download button",
+                          label: "LoginRadius Product Roadmap 2025",
+                        })
+                      }
+                    >
+                      {"Register Now"}
+                    </a>
+                  </div>
+                </>
+              }
+            </div>
+            <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
+              {
+                <>
+                  <div className={headStyles.image}>
+                    <img
                       src="https://www.loginradius.com/wp-content/uploads/2024/09/Industry-Report-2024-cover.png"
                       alt="The State of Consumer Digital ID 2024"
                       style={{ backgroundColor: "#fff" }}
@@ -58,43 +95,6 @@ export default function CardList({ posts, currentPage, type }) {
                           category: "The State of Consumer Digital ID 2024",
                           action: "User clicked on Free Download button",
                           label: "The State of Consumer Digital ID 2024",
-                        })
-                      }
-                    >
-                      {"LEARN MORE"}
-                    </a>
-                  </div>
-                </>
-              }
-            </div>
-            <div className={`${headStyles.sidebarWidget} ${headStyles.cta}`}>
-              {
-                <>
-                  <div className={headStyles.image}>
-                    <img
-                      src="https://www.loginradius.com/wp-content/uploads/2024/06/kuppingercole-2024-resource-landing-page-resource.png"
-                      alt="Overall CIAM Leader 2024"
-                      style={{ backgroundColor: "#fff" }}
-                    />
-                  </div>
-                  <div className={headStyles.text}>
-                    <h3 style={{ textAlign: "center" }}>
-                      Overall CIAM Leader 2024
-                    </h3>
-                    <a
-                      className={`${headStyles.btnPrimary} btn-primary ga_event`}
-                      // className={"btn-primary ga_event"}
-                      href={
-                        "https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/"
-                      }
-                      key={"overall-ciam-leader-2024"}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() =>
-                        eventLogger({
-                          category: "Overall CIAM Leader 2024",
-                          action: "User clicked on Free Download button",
-                          label: "Overall CIAM Leader 2024",
                         })
                       }
                     >

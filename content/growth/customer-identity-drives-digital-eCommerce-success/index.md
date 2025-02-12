@@ -31,7 +31,7 @@ In a world when data and identity thefts lead to losses worth millions of dollar
 
 Adding more robust authentication layers, including multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) to log in and sign-up procedures, can help secure consumer data and prevent a breach.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Also, these secure authentication practices help enterprises to verify the individuals quickly they say they are.
 

@@ -54,7 +54,7 @@ It entails a legitimate registration procedure that can be conducted and finishe
 
 The advancement of 2FA/MFA (multi-factor authentication) with features like biometrics, geolocation, face recognition, and so on has resulted in higher degrees of protection. These characteristics make it simpler to spot abnormalities and strange actions in a less time-consuming manner.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #4. Privacy and regulatory compliance

@@ -51,7 +51,7 @@ Customer data can be a very useful resource while devising a marketing strategy 
 
 -   Secure authentication
     
-One major aspect of CIAM solutions is the [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) feature that it provides. By having more than one requirement to gain access to a profile, customers can receive an extra level of protection. This feature can significantly improve the existing business customer identity as users can utilize social media logins for a more streamlined process.
+One major aspect of CIAM solutions is the [multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) feature that it provides. By having more than one requirement to gain access to a profile, customers can receive an extra level of protection. This feature can significantly improve the existing business customer identity as users can utilize social media logins for a more streamlined process.
 
 Also Download: [Identity Management Architectures for Ecommerce Products](https://www.loginradius.com/resource/whitepaper/identity-management-ecommerce/)
 

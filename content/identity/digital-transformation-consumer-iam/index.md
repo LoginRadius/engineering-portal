@@ -42,9 +42,9 @@ A consumer IAM platform, LoginRadius for example, also enables you to use consum
 
 The experience starts with a compelling registration process that can be completed on many devices, establishing cross-channel log-in and authentication credentials. Multiple log-ins for numerous channels and devices cause friction, which leads to consumer annoyance and maybe missed purchases. 
 
-Social login via platforms like Google or Facebook might alleviate registration fatigue, but it can also pose security problems which may necessitate the use of [multi-factor authentication](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/). With highly low-friction authentication, the consumer enjoys compelling and consistent interaction across channels.
+Social login via platforms like Google or Facebook might alleviate registration fatigue, but it can also pose security problems which may necessitate the use of [multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/). With highly low-friction authentication, the consumer enjoys compelling and consistent interaction across channels.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/) 
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
 
 ### 2. **Single consumer view**
 

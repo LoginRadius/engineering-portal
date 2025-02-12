@@ -176,7 +176,7 @@ Sometime later, the hacker opens your Gmail account and gains access to your cru
 
 Thus, if the application session timeouts aren't set properly, hackers can execute a broken authentication attack.
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 #### Example 3: Passwords are not properly hashed and salted.
 

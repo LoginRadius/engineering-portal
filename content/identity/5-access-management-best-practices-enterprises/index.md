@@ -86,7 +86,7 @@ That’s why multi-factor authentication has become an essential access manageme
 
 When you use MFA, anyone logging in will be asked to provide an additional method of verification once they enter their password. This could be entering a code sent to their email or via text message. It could also be a biometric scan on a mobile device like a fingerprint or facial recognition. 
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 4. Get rid of high-risk systems

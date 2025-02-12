@@ -148,7 +148,7 @@ There are several pros and cons to using a password vault:
 
 4. **Cost:** Some password vaults require a subscription fee, which can disadvantage users who want to avoid paying for the service.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## How to Implement Password Vaulting
 

@@ -68,7 +68,7 @@ Integrating a two-factor authentication process adds an extra layer of security 
 
 Multi-factor authentication can easily be done by adding a verification code, personal security question, or biometrics. These can easily be integrated into any business or company to increase overall account security. This reduces the likelihood of fraud and identity theft.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![mfa](mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 However, integration of the two-factor or multi-factor authentication process can take time, especially because consumers upgrade their account security at their own pace. In the meanwhile, companies can take other security measures to increase their data security. 
 

@@ -71,7 +71,7 @@ You are more likely to open it and click on links inside it when an email comes 
 Let the people in your contact list know that your email has been compromised and that any suspicious emails should not be opened or connected to any emails you have recently got.
 
 [![Multi Factor Authentication](Multi-Factor-Authentication.png)](
-https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ## 4. Change your security question

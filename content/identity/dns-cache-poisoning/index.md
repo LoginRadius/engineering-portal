@@ -98,7 +98,7 @@ Some of the resources we have specified will help you in this regard.
 *   Using DNSSEC (Domain Name System Security Extensions) helps to keep DNS lookup fool-proof and authentic.
 *   You can use end-to-end encryption to send DNS requests and replies. Hackers will not be able to duplicate the unique security certificate that is present on the legitimate website. 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### For endpoint users
 

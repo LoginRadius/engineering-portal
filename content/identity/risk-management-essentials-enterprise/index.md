@@ -52,7 +52,7 @@ For the most secure user sign-ins, you should combine elements like biometrics, 
 
 LoginRadius’ CIAM (consumer identity and access management) solution provides multiple layers of security to ensure consumer data and enterprise information remain highly secure.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 3. Cyber Awareness Training to Avoid Human Error

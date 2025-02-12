@@ -27,7 +27,7 @@ Whenever a system identifies any risk with a login activity, there can be multip
 
 In addition to prompting the consumer with challenge and response, there are options to either send an email to the consumer about the suspicious activity or let the Site Administrator know that the account has been compromised. It will alert the consumer as well as the Site Administrator.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/buyers-guide-to-multi-factor-authentication/)
+[![mfa](mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## Why Should Businesses Use RBA
 Risk-based authentication is an essential security feature because it works in real-time to prevent cyber frauds like accounts getting compromised without causing an inconvenience for legitimate consumers. 
