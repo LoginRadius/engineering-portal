@@ -11,7 +11,7 @@ We're delightfully announcing the open source automation suite to test all the s
 The details have been given below.
 
 ### Link to the repository:
-[https://github.com/LoginRadius/idx-auto-tester/](https://github.com/LoginRadius/idx-auto-tester/)
+[idx auto tester](https://github.com/LoginRadius/idx-auto-tester/)
 
 ### About LoginRadius Identity Experience Framework
 Identity Experience Framework is a ready-to-use solution for all the necessary actions. It is a set of registration, authentication, and related web pages such as forgot password, profile. It allows you to customize the UI and UX elements as per your requirements.

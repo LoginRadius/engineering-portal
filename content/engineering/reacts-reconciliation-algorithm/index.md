@@ -40,10 +40,10 @@ Suppose that you have a list of items, which is derived from an array. If you we
 
 A detailed explanation of keys can be found on the official React docs:
 
-[https://reactjs.org/docs/lists-and-keys.html](https://reactjs.org/docs/lists-and-keys.html)
+[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 
-[https://reactjs.org/docs/reconciliation.html#keys](https://reactjs.org/docs/reconciliation.html#keys)
+[Reconciliation-Keys](https://reactjs.org/docs/reconciliation.html#keys)
 
 For an in-depth exploration of how and why reconciliation was implemented, please visit the official React docs:
 
-[https://reactjs.org/docs/reconciliation.html](https://reactjs.org/docs/reconciliation.html)
+[Reconciliation](https://reactjs.org/docs/reconciliation.html)

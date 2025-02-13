@@ -187,7 +187,7 @@ http2.createSecureServer(
 This code is mostly the same as for HTTP/1.1 with two notable differences:
 
 * We're using Node's `http2` module instead of `http`.
-* We're using `HTTPS` instead of plain `HTTP` because this is mandatory for HTTP/2. You can set up HTTPS and get the `cert` and `key` files using [mkcert](https://github.com/FiloSottile/mkcert). Or, use one of the other mechanisms described in this article: https://web.dev/how-to-use-local-https/
+* We're using `HTTPS` instead of plain `HTTP` because this is mandatory for HTTP/2. You can set up HTTPS and get the `cert` and `key` files using [mkcert](https://github.com/FiloSottile/mkcert). Or, use one of the other mechanisms described in this article: [Use HTTPS for Local Development](https://web.dev/how-to-use-local-https/)
 
 That's it!
 

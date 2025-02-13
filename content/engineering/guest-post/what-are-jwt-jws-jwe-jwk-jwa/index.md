@@ -207,5 +207,5 @@ Want to learn how to use JWT for authentication in your apps? Check out this inf
 
 **References:**
 
-- [https://tools.ietf.org/](https://tools.ietf.org/)
-- [https://openid.net/](https://openid.net/)
+- [IETF](https://tools.ietf.org/)
+- [OpenID](https://openid.net/)

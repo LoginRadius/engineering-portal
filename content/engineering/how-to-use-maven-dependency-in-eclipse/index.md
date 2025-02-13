@@ -19,9 +19,9 @@ Prerequisites:
 Most Eclipse downloads include the Maven tooling already. If it is missing in your installation, you can install it via the main update of your release via Help > Install New Software. The following listing contains the update site for the Neon release and an update site maintained by the m2e project.
 
 - Neon update site:  
-    http://download.eclipse.org/releases/neon
+    [Neon Update](http://download.eclipse.org/releases/neon)
 - Update site provided by m2e project:  
-    http://download.eclipse.org/technology/m2e/releases
+    [Eclipse Downloads](http://download.eclipse.org/technology/m2e/releases)
 
 For the usage of Maven for Java projects, you only need the m2e component. For Java web development you also want the m2e-wtp entry.
 
