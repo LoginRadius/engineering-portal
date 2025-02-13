@@ -21,7 +21,7 @@ Passport is an authentication middleware for Node, which authenticates requests 
 ## Steps to configure 
 1. Creating Linkedin `APP_ID` and `APP_SECRET`
 
-  - Go to https://www.linkedin.com/developers/ and login with your Linkedin account. 
+  - Go to [Developer Linkedin](https://www.linkedin.com/developers/) and login with your Linkedin account. 
   - Once you have registered, click on the `create app` link and add the required details to create an app
 
 ![Create Linkedin APP](create-app.png "Create Linkedin APP")
@@ -55,7 +55,7 @@ The dependencies, we are going to use in the projects are
  - `express` : Node web framework
  - `express-session` Session managment of express
  - `passport` Authentication middleware for Node.js 
- - `passport-linkedin-oauth2` A simple passport strategy for LinkedIn OAuth2 [http://www.passportjs.org/packages/passport-linkedin-oauth2/](http://www.passportjs.org/packages/passport-linkedin-oauth2/)
+ - `passport-linkedin-oauth2` A simple passport strategy for LinkedIn OAuth2 [passport linkedin oauth2](http://www.passportjs.org/packages/passport-linkedin-oauth2/)
  - `ejs` - Templating engine
 
 ```json

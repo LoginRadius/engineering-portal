@@ -17,7 +17,7 @@ Prerequisites
 
 If you don’t have Android Studio installed, you can download from the following link:
 
-[https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
+[Android Studio](https://developer.android.com/studio/index.html)
 
 After successfully installing Android Studio, you can open an existing project or create a new project to start with.
 

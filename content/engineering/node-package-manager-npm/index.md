@@ -44,25 +44,25 @@ This will update all your outdated packages to the latest.
 
 ##### Some Recommended Packages
 
-- Http-server: [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)
+- [Http-server](https://www.npmjs.com/package/http-server)
 
 Detail: Emulates a web-server for client-side testing
 
 * * *
 
-- Restify: [https://www.npmjs.com/package/restify](https://www.npmjs.com/package/restify)
+- [Restify](https://www.npmjs.com/package/restify)
 
 Detail: Assists in setting up a REST APIs to test on your local server
 
 * * *
 
-- Mocha: [https://www.npmjs.com/package/mocha](https://www.npmjs.com/package/mocha)
+- [Mocha](https://www.npmjs.com/package/mocha)
 
 Detail: Unit testing for web-development. Very useful in testing “code coverage” (It tells you where your code is not being tested in a nice HTML file)
 
 * * *
 
-- LoginRadius-SDK: [https://www.npmjs.com/package/loginradius-sdk](https://www.npmjs.com/package/loginradius-sdk)
+- [LoginRadius-SDK](https://www.npmjs.com/package/loginradius-sdk)
 
 Detail: For existing customers, simplifies calls to our server for easy customizability
 

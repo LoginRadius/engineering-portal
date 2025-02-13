@@ -37,8 +37,8 @@ If you are modifying these tags it can take some time for the changes to transla
 
 Google offers multiple ways that you can set the shared content which it intelligently determines the most relevant details to be displayed in the share. This works to varying degrees with the following options available and taking precedence respectively:
 
-- Structured Data Markup- HTML markup detailed on [http://schema.org/](http://schema.org/).
-- Open Graph Tags- Turn your page into a rich data object, commonly used to customize Facebook sharing details. Information on the markup is available on [http://ogp.me/](http://ogp.me/)
+- Structured Data Markup- HTML markup detailed on [Schema](http://schema.org/).
+- Open Graph Tags- Turn your page into a rich data object, commonly used to customize Facebook sharing details. Information on the markup is available on [OGP](http://ogp.me/)
 - Title or Meta Description- HTML attributes that provide details on the site.
 - Google’s best guess- If none of the above are included, Google will crawl your page and try to interpret the most suitable details to include in the share.
 

@@ -46,7 +46,7 @@ With this, your two independent components can coexist together without changing
 
 ## Concluding thoughts
 
-There is a fair bit more to Redux Saga than I managed to cram into this post. If you're interested in incorporating it into your project or want to know more, check out their fantastic documentation here: https://redux-saga.js.org/. It's packed full of useful examples if you'd like to get into the low-level details.
+There is a fair bit more to Redux Saga than I managed to cram into this post. If you're interested in incorporating it into your project or want to know more, check out their fantastic documentation here: [Redux-saga](https://redux-saga.js.org/). It's packed full of useful examples if you'd like to get into the low-level details.
 
 Redux Saga is one of many tools that can help you handle your application's side effects. It's heavy and has a learning curve but contains a lot of functionality that will help keep your codebase neat and modular.
 

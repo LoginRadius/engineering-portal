@@ -56,6 +56,6 @@ Other than images and forms, there are still many ways to provide the best acces
 
 Other elements such as **`<h1>`** and other heading tags should be carefully planned before sprinkled throughout your webpage. The **`<h1>`** through **`<h6>`** tags should form direct relationships with each other in order to differentiate their meaning. Headings with lower importance (relative to the previous heading) can be used to start new subsections within its current section. Your different page sections can even use **`aria-labelledby`** to point to its corresponding heading in order to label your sections accurately.
 
-The full W3C specification on HTML semantics can be found at: [https://www.w3.org/TR/2016/REC-html51-20161101/dom.html](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html).
+The full W3C specification on HTML semantics can be found at: [W3C Recommendation](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html).
 
-More information about the varying disabilities and barriers can be found at: [https://www.w3.org/WAI/people-use-web/abilities-barriers/](https://www.w3.org/WAI/people-use-web/abilities-barriers/)
+More information about the varying disabilities and barriers can be found at: [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/)
