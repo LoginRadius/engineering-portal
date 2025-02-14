@@ -10,7 +10,9 @@ metatitle: "A History of Human Identity in Pictures Part 3 | LoginRadius"
 metadescription: "In Part II of the History of Human Identity, we showed examples of identity verification such as names and unique markings. This blog is the final instalment of our 3-part series. In it, we'll focus on cultural identifiers—their use and their abuse."
 ---
 
-![](454px-MaoriChief1784.jpg) Sketch of a Māori chief by [Sydney Parkinson](https://en.wikipedia.org/wiki/Sydney_Parkinson) (1784) [https://commons.wikimedia.org/wiki/File:MaoriChief1784.jpg](https://commons.wikimedia.org/wiki/File:MaoriChief1784.jpg)
+![](454px-MaoriChief1784.jpg) Sketch of a Māori chief by [Sydney Parkinson](https://en.wikipedia.org/wiki/Sydney_Parkinson) (1784) 
+
+Source - [MaoriChief1784](https://commons.wikimedia.org/wiki/File:MaoriChief1784.jpg)
 
 In Part II of the History of Human Identity, we showed examples of identity verification such as names and unique markings. This blog is the final instalment of our 3-part series. In it, we'll focus on cultural identifiers—their use _and_ their abuse.
 
@@ -26,7 +28,9 @@ In 1540, the granting of “[travelling papers](https://www.theguardian.com/trav
 
 **Charles de Saint-Mémin’s United States passport, June 30, 1810**
 
-![human identity ](image-2.jpeg) Charles de Saint-Mémin’s United States passport, June 30, 1810 [https://www.metmuseum.org/art/collection/search/656327](https://www.metmuseum.org/art/collection/search/656327)
+![human identity ](image-2.jpeg) Charles de Saint-Mémin’s United States passport, June 30, 1810 
+
+Source - [metmuseum](https://www.metmuseum.org/art/collection/search/656327)
 
 A passport is also a form of personal identification that indicates national identity.
 
@@ -34,13 +38,17 @@ Around 100 countries now have compulsory [national identity cards](https://en.w
 
 [**West German**](https://en.wikipedia.org/wiki/West_Germany) **identity card issued between 1 January 1951 and 31 March 1987**
 
-![human identity](image-3.jpg) [West German](https://en.wikipedia.org/wiki/West_Germany) identity card issued between 1 January 1951 and 31 March 1987 [https://commons.wikimedia.org/wiki/File:1979\_identity\_card\_of\_West\_Germany\_original\_size.jpg](https://commons.wikimedia.org/wiki/File:1979_identity_card_of_West_Germany_original_size.jpg)
+![human identity](image-3.jpg) [West German](https://en.wikipedia.org/wiki/West_Germany) identity card issued between 1 January 1951 and 31 March 1987 
+
+Source - [West German Identity Card](https://commons.wikimedia.org/wiki/File:1979_identity_card_of_West_Germany_original_size.jpg)
 
 A Social Security number (SSN) is another unique identifier. The US  government assigned this for taxation and benefits. Issued by the US Social Security Administration in November 1935, SSN numbers were part of the New Deal Social Security program. Today, US citizens still use SSNs to access benefits, pay taxes, receive wages, and show one’s identity.
 
 **A Social Security card issued by the** [**Railroad Retirement Board**](https://en.wikipedia.org/wiki/Railroad_Retirement_Board) **in 1943 to a now-deceased person.**
 
-![human identity](image-4.png) A Social Security card issued by the [Railroad Retirement Board](https://en.wikipedia.org/wiki/Railroad_Retirement_Board) in 1943 to a now deceased person. [https://commons.wikimedia.org/wiki/File:PD\_social\_security\_card.png](https://commons.wikimedia.org/wiki/File:PD_social_security_card.png)
+![human identity](image-4.png) A Social Security card issued by the [Railroad Retirement Board](https://en.wikipedia.org/wiki/Railroad_Retirement_Board) in 1943 to a now deceased person. 
+
+Source - [Social Security Card](https://commons.wikimedia.org/wiki/File:PD_social_security_card.png)
 
 A Social Insurance Number (SIN) is a 9-digit form of identification that every individual residing and/or working in Canada must have in order to access government benefits, file income taxes, and legally receive payment. [SIN cards were first issued in 1964](https://blog.wagepoint.com/all-content/the-complete-history-of-the-social-insurance-number) but have not been printed as cards since 2014 due to the risk of theft. Today, Canadian citizens do not carry SIN cards on their person.
 
@@ -69,7 +77,9 @@ It took roughly 10 years for the Canadian government to approve and implement a 
 
 **Public domain photo: Inupiat family, 1929**
 
-![human identity](image-5.jpg) Public domain photo: Inupiat family, 1929 [https://commons.wikimedia.org/wiki/File:Inupiat\_Family\_from\_Noatak,\_Alaska,\_1929,\_Edward\_S.\_Curtis\_(restored).jpg](https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg)
+![human identity](image-5.jpg) Public domain photo: Inupiat family, 1929 
+
+Source - [Inupiat Family](https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg)
 
 ## Project Surname
 

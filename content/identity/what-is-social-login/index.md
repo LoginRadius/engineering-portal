@@ -75,9 +75,9 @@ The following are a few benefits of social login for businesses:
 
 Social Login can be implemented with the following method:
 
--   To implement the social login with the UI’s help, you need to configure the Social Provider. For more information on this, visit the following URL: [https://www.loginradius.com/docs/authentication/quick-start/social-login/#partconfiguration1](https://www.loginradius.com/docs/authentication/quick-start/social-login/#partconfiguration1).
+-   To implement the social login with the UI’s help, you need to configure the Social Provider. For more information on this, visit : [Social Login Configuration](https://www.loginradius.com/docs/authentication/quick-start/social-login/#partconfiguration1).
     
--   If you want to implement the Social Login with the JS interface’s help, the following URL will help you: [https://www.loginradius.com/docs/authentication/quick-start/social-login/#partdeployment4](https://www.loginradius.com/docs/authentication/quick-start/social-login/#partdeployment4).
+-   If you want to implement the Social Login with the JS interface’s help, the following URL will help you: [Deployment](https://www.loginradius.com/docs/authentication/quick-start/social-login/#partdeployment4).
     
 ## What are the Benefits of Social Login?
 

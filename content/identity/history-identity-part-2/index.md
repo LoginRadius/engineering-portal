@@ -117,6 +117,6 @@ In the 5th century BC, the Romans started to write sentences and names at the bo
 
 To see how modern society uses and abuses identity, be sure to read Part III of our History of Human Identity series next week.
 
-Learn how to create a unified digital identity for all of your customers. Book a demo today with LoginRadius." the link is to this [https://www.loginradius.com/book-a-demo/](https://www.loginradius.com/book-a-demo/)
+Learn how to create a unified digital identity for all of your customers. [Book a demo](https://www.loginradius.com/book-a-demo/) today with LoginRadius.
 
 [![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

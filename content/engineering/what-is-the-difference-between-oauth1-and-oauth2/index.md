@@ -13,7 +13,7 @@ OAuth2 is an authorization delegation protocol that allows one party’s accessi
 
 ### Support for non-browser based applications
 
-One of the commonly agreed-upon disadvantages of OAuth1 was the lack of support it offers to non-browser based application clients. OAuth2 has different authorization work flows to address authorization initiated by native application clients. This was one of the main advantages OAuth2 has over OAuth1. However, abuse of the flows in favour of convenience and ease can lead to insecure implementations of OAuth2. When using OAuth2 for mobile, desktop, or single page applications, it is recommended to refer to the IETF paper going over best OAuth2 practices for mobile apps: [https://tools.ietf.org/html/rfc8252](https://tools.ietf.org/html/rfc8252).
+One of the commonly agreed-upon disadvantages of OAuth1 was the lack of support it offers to non-browser based application clients. OAuth2 has different authorization work flows to address authorization initiated by native application clients. This was one of the main advantages OAuth2 has over OAuth1. However, abuse of the flows in favour of convenience and ease can lead to insecure implementations of OAuth2. When using OAuth2 for mobile, desktop, or single page applications, it is recommended to refer to the IETF paper going over best OAuth2 practices for mobile apps: [IETF](https://tools.ietf.org/html/rfc8252).
 
 ### Ease of implementation
 

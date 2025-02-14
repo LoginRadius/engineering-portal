@@ -264,6 +264,6 @@ Nice! Now we have a web map, even though a very basic one, live! Check out the [
 
 ## Source Code
 
-Demonstration: [https://priceless-poincare-9647e3.netlify.app/](https://priceless-poincare-9647e3.netlify.app/)
+Demonstration: [Priceless Poincare](https://priceless-poincare-9647e3.netlify.app/)
 
-GitHub: [https://github.com/sudiptog81/leaflet-netlify-starter](https://github.com/sudiptog81/leaflet-netlify-starter)
+GitHub: [leaflet netlify starter](https://github.com/sudiptog81/leaflet-netlify-starter)

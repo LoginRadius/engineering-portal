@@ -21,7 +21,7 @@ Format:
 ```
 
   
-Full details on the Basic Authentication protocol can be found here: [http://www.w3.org/Protocols/HTTP/1.0/spec.html#AA](http://www.w3.org/Protocols/HTTP/1.0/spec.html#AA)
+Full details on the Basic Authentication protocol can be found here: [Authentication Protocol](http://www.w3.org/Protocols/HTTP/1.0/spec.html#AA)
 
 **Digest Auth**
 
@@ -35,7 +35,7 @@ The typical flow of a Digest Auth request is :
 4. The provided details are re-sent to the server with an authentication header included in the request that has a response code.
 5. The server would then verify the provided credentials and accept the authentication or return a 401 message if the credentials are incorrect, which would cause the user to be again prompted with the authentication interface.
 
-You can find full details on the Digest Auth protocol can be found here: [https://www.ietf.org/rfc/rfc2617.txt](https://www.ietf.org/rfc/rfc2617.txt)
+You can find full details on the Digest Auth protocol can be found here: [Digest Auth Protocol](https://www.ietf.org/rfc/rfc2617.txt)
 
 **OAuth 1.0**
 
@@ -80,7 +80,7 @@ These will be used in the next step to retrieve an access token.
 
 This will return you an access token to be used in conjunction with your secret in order to make requests for information from the server.
 
-You can find full details on the OAuth 1.0 protocol here: [https://tools.ietf.org/html/rfc5849](https://tools.ietf.org/html/rfc5849)
+You can find full details on the OAuth 1.0 protocol here: [OAuth 1.0 protocol](https://tools.ietf.org/html/rfc5849)
 
 **OAuth 2.0**
 
@@ -107,6 +107,6 @@ The server will verify these details and then return an access token with an exp
 2. expires\_in
 3. refresh\_token
 
-You can find full details on the OAuth 2.0 protocol here: [http://oauth.net/2/](http://oauth.net/2/)
+You can find full details on the OAuth 2.0 protocol here: [OAuth 2.0 protocol](http://oauth.net/2/)
 
 Authentication protocols allow you to secure your data with varying levels of security. Depending on the data being accessed and your desired level of security, implementing one of the above protocols allows you to be confident that your data is safe and can only being accessed by users that are permitted to your system.

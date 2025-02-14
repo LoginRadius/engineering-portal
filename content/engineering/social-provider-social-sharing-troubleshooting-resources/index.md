@@ -20,8 +20,8 @@ This will then crawl your page and display some useful information on the curren
 
 Google uses a combination of a few different methods in order to define the customized sharing options:
 
-- Structured Data Markup- HTML markup detailed on [http://schema.org/](http://schema.org/).
-- Open Graph Tags- Turn your page into a rich data object, commonly used to customize Facebook sharing details. Information on the markup is available on [http://ogp.me/](http://ogp.me/)
+- Structured Data Markup- HTML markup detailed on [Schema.org](http://schema.org/).
+- Open Graph Tags- Turn your page into a rich data object, commonly used to customize Facebook sharing details. Information on the markup is available on [ogp.me](http://ogp.me/)
 - Title or Meta Description- HTML attributes that provide details on the site.
 - Googles best guess- If none of the above are included, Google will crawl your page and try to interpret the most suitable details to include in the share.
 

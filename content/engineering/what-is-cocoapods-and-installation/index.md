@@ -38,7 +38,7 @@ If you want to keep up to date with the codes shared in cocoapods you can run th
 `pod update`
 
 That way any latest bug fixes, enhancement and features on the new version will be downloaded!  
-To see which Libraries that you want to utilize, head over to [https://cocoapods.org/](https://cocoapods.org/) and search over there!
+To see which Libraries that you want to utilize, head over to [cocoapods](https://cocoapods.org/) and search over there!
 
 #### Personal favorites pods
 

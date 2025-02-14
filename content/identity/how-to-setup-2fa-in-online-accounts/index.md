@@ -132,7 +132,7 @@ To set up 2FA on your Twitter account, you will need to:
 
 ### 7. Apple iCloud
 
-*   You can log in to your account at [https://appleid.apple.com/](https://appleid.apple.com/), then search for Two-Factor Authentication under Security.
+*   You can log in to your account at [appleid](https://appleid.apple.com/), then search for Two-Factor Authentication under Security.
 *   The next step would be to verify your location, and it will send a code to your other Apple devices.
 
 *   **iOS**

@@ -12,7 +12,7 @@ Facebooks Graph API gives you the ability to better understand and target conten
 
 The first thing you will need to do is implement an authorization interface that will allow your users to Login with there Facebook credentials and grant access to your application to handle the features that we will go over in this blog.
 
-You can refer to this article on setting up a Facebook Login integration: [https://www.loginradius.com/blog/engineering/implement-facebook-social-login/](/implement-facebook-social-login/)
+You can refer to this article on setting up a Facebook Login integration: [Implement Facebook Social Login](https://www.loginradius.com/blog/engineering/implement-facebook-social-login/)
 
 While implementing the Login detailed in the above blog you can modify the scope included in the Facebook button to request the scopes that we will be using.
 
@@ -33,7 +33,7 @@ After your user has authenticated you can capture the users access token for use
 if (response.authResponse) { var access_token = FB.getAuthResponse()['accessToken']; }
 ```
 
-This token is valid for 2 hours by default and can be upgraded to a long lived with a server-side call as detailed here:[https://developers.facebook.com/docs/facebook-login/access-tokens#extending](https://developers.facebook.com/docs/facebook-login/access-tokens#extending)
+This token is valid for 2 hours by default and can be upgraded to a long lived with a server-side call as detailed here: [Access Tokens for Meta Technologies](https://developers.facebook.com/docs/facebook-login/access-tokens#extending)
 
 The long lived token will be valid for 60 days over which you will be able to access the users data or handle actions that they have granted your app permissions.
 
