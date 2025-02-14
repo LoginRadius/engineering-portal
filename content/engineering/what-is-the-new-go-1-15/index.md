@@ -11,7 +11,7 @@ Go announced [Go 1.15](https://blog.golang.org/) version on 11 Aug 2020. Highlig
 
 As [Go promise](https://golang.org/doc/go1compat) for maintaining backward compatibility. After upgrading to the latest Go 1.15 version, almost all existing Golang applications or programs continue to compile and run as older Golang version.
 
-Download the latest Go Version from [Here] (https://golang.org/dl/).
+Download the latest Go Version from [Golang](https://golang.org/dl/).
 
 
 ### Operating system and platform compatibility

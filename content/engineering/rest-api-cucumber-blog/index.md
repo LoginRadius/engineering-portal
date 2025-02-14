@@ -38,14 +38,14 @@ Set the Environment Variable on System Properties
 ### Steps to Install Eclipse
 
  - Make Sure Java is installed on your PC.
- - Use the below link to download Eclipse 
-    https://eclipse.org/downloads
+ - Use the below link to download Eclipse :
+    [Eclipse Download](https://eclipse.org/downloads)
  - Install Eclipse on your PC 
 
 **Steps to Install Maven**
 
- - Use the below link to download Maven
-https://maven.apache.org/download.cgi
+ - Use the below link to download Maven :
+[Maven Download](https://maven.apache.org/download.cgi)
  - Set the environment variable.
 
 ### Configuring Cucumber with Maven
