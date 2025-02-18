@@ -30,7 +30,7 @@ LoginRadius drove transformative improvements, setting new standards for efficie
 
 * **Exceptional Uptime**: With a 99.99% uptime SLA, LoginRadius delivered unparalleled reliability, maintaining continuous service availability and robust performance.
 
-Read More: [https://www.loginradius.com/resource/health-vision/](https://www.loginradius.com/resource/health-vision/) 
+Read More: [Measuring And Improving Your Employee’s Health With HealthVision](https://www.loginradius.com/resource/health-vision/) 
 
 ## Innovation and Strategic Integration
 

@@ -130,7 +130,7 @@ Integrate your favorite apps like Google Calendar and Google Drive in Slack.
 **Method**
 
 - Click on your profile name at top left corner
-- Click on Apps & Integrations which will redirect you to [https://slack.com/apps](https://slack.com/apps)
+- Click on Apps & Integrations which will redirect you to [Slack Marketplace](https://slack.com/apps)
 
 Here you’ll get a vast directory of apps which can be used with Slack.
 
