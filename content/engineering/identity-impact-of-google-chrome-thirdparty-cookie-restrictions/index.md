@@ -89,7 +89,7 @@ As it requires explicit user approval, it is advisable to use Storage Access API
 
 With [Related Website Sets](https://developers.google.com/privacy-sandbox/3pcd/related-website-sets), you can declare a `primary` website and `associatedSites` for limited purposes to grant third-party cookie access and local storage for a limited number of sites.
 
-Chrome automatically recognizes related website sets declared, accepted, and maintained in this open-source GitHub repository: https://github.com/GoogleChrome/related-website-sets
+Chrome automatically recognizes related website sets declared, accepted, and maintained in this open-source GitHub repository: [Related Website Sets](https://github.com/GoogleChrome/related-website-sets)
 
 It provides access through Storage Access API directly without prompting for user approval, but only after the user interacts with the relevant iframe.
 
@@ -116,7 +116,7 @@ With FedCM API, a user follows these steps for authentication:
 4. Once the user selects an IdP, the browser communicates with the IdP. Upon valid authentication, the IdP generates a secure token. 
 The browser delivers this secure token to the RP to facilitate user authorization.
 
-You can access a user demo of FedCM here: https://fedcm-rp-demo.glitch.me/. 
+You can access a user demo of FedCM here: [FedCM](https://fedcm-rp-demo.glitch.me/). 
 
 For more information about implementing federated SSO with FedCM API, go through the [FedCM developer guide](https://developers.google.com/privacy-sandbox/3pcd/fedcm-developer-guide).
 
@@ -146,5 +146,5 @@ __Third-party cookie__: A cookie set by a domain other than the top-level site. 
 
 ## References
 
-- https://developers.google.com/privacy-sandbox/3pcd/prepare/prepare-for-phaseout
-- https://developers.google.com/privacy-sandbox/3pcd/guides/identity 
+- [Changes to Chrome's treatment of third-party cookies](https://developers.google.com/privacy-sandbox/3pcd/prepare/prepare-for-phaseout)
+- [Check the impact of the third-party cookie changes on your sign-in workflows](https://developers.google.com/privacy-sandbox/3pcd/guides/identity)

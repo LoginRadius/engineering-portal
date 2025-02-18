@@ -20,7 +20,7 @@ Passport is authentication middleware for Node, which authenticates requests and
 ## Steps to configure 
 1. Creating Facebook `APP_ID` and `APP_SECRET`
 
-  - Go to http://developers.facebook.com and login with your Facebook account. 
+  - Go to [Facebook](http://developers.facebook.com) and login with your Facebook account. 
   - Once you have registered, click on the `create app` link and you will need to enter the details in the following pop-up
 
 ![Create Facebook APP](create-facebook-app.png "Create Facebook APP")

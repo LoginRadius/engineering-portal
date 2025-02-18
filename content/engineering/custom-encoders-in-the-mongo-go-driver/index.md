@@ -57,7 +57,7 @@ func main() {
 }
 ```
 
-The function MarshalExtJSON is a part of the bson package that is a part of the driver. It uses a default registry to define the rules when converting Mongo primitive types into JSON. The arguments it takes are the Go struct being passed in, whether the result should be returned in canonical form (For more details, check this link: [https://docs.mongodb.com/manual/reference/mongodb-extended-json/](https://docs.mongodb.com/manual/reference/mongodb-extended-json/)), and whether HTML strings are escaped.
+The function MarshalExtJSON is a part of the bson package that is a part of the driver. It uses a default registry to define the rules when converting Mongo primitive types into JSON. The arguments it takes are the Go struct being passed in, whether the result should be returned in canonical form (For more details, check this [link](https://docs.mongodb.com/manual/reference/mongodb-extended-json/](https://docs.mongodb.com/manual/reference/mongodb-extended-json/)), and whether HTML strings are escaped.
 
 The output of this function when reading our document produces a JSON string with all the BSON operators included.
 

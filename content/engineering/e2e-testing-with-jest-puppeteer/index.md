@@ -14,7 +14,7 @@ Writing a foolproof code is hard, especially with a team collaborating on a sing
 1. Basic knowledge of Javascript
 2. Familiarity with Node.js
 
-In this blog, we will learn how to integrate Jest and Puppeteer in our project for End-to-End Testing. [Jest] https://github.com/facebook/jest) is a javascript testing framework maintained by Facebook. [Puppeteer](https://github.com/puppeteer/puppeteer) is a Node library created by Google, which provides a high-level API to control headless Chrome. Before we delve deeper into Jest and Puppeteer, let's familiarise ourselves with a few things.
+In this blog, we will learn how to integrate Jest and Puppeteer in our project for End-to-End Testing. [Jest](https://github.com/facebook/jest) is a javascript testing framework maintained by Facebook. [Puppeteer](https://github.com/puppeteer/puppeteer) is a Node library created by Google, which provides a high-level API to control headless Chrome. Before we delve deeper into Jest and Puppeteer, let's familiarise ourselves with a few things.
 
 **End-to-End(E2E) Testing:** E2E testing refers to the testing of a complete functionality of some application. It checks that a functionality acts as intended.
 

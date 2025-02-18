@@ -17,9 +17,9 @@ npm -v
 
 If you do not get a version number, you may need to install npm which comes pre-packaged with Node.js
 
-You can find Node.js along with instructions on how-to install it here: https://nodejs.org/en/
+You can find Node.js along with instructions on how-to install it here: [NodeJS](https://nodejs.org/en/)
 
-**Windows Users Only**: If you're a Windows user make sure you have Git for Windows installed to work with the Windows Command Prompt with Checkout Windows-Style and commit Unix-style line endings. You can find more information on that here: https://git-for-windows.github.io
+**Windows Users Only**: If you're a Windows user make sure you have Git for Windows installed to work with the Windows Command Prompt with Checkout Windows-Style and commit Unix-style line endings. You can find more information on that here: [Git for Windows](https://git-for-windows.github.io)
 
 ## Installation:
 

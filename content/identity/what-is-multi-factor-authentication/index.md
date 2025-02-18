@@ -53,7 +53,7 @@ Understanding how MFA works is crucial for organizations implementing strong sec
 
 MFA can be implemented in various ways, and organizations can choose the most suitable method based on their security needs and user convenience.
 
-![A visual representation of a multi-factor authentication (MFA) login process. The image features a step-by-step authentication flow on a dark, grid-like background. The first step shows a login screen where a user enters their email (johnsmith9@mail.com) and password. The next step depicts an MFA trigger, indicating a security check prompting additional verification. The process then moves to user authentication, where the user completes verification using options like OTP, biometrics, or a security key. Finally, access is either granted or denied, represented by an icon with a green checkmark for success or a security alert for failure.](./how-does-mfa-work.png)
+![A visual of the multi-factor authentication (MFA) process on a dark background. It shows a user logging in with email and password, then completing an extra security check using OTP, biometrics, or a security key. The final step confirms access with a green checkmark or denies it with a security alert.](how-mfa-works.webp)
 
 ## Types of Multi-Factor Authentication
 
@@ -163,7 +163,7 @@ Customers feel more confident using services that implement strong authenticatio
 
 Many industries, such as healthcare and finance, require MFA to comply with strict data protection regulations. Implementing MFA ensures that businesses meet compliance standards like GDPR, HIPAA, and PCI DSS.
 
-See how one of our clients- SafeBridge, leveled up security with [LoginRadius MFA.](https://www.loginradius.com/resource/case-study-page-safebridge/)
+See how one of [our clients- SafeBridge, leveled up security](https://www.loginradius.com/resource/case-study-page-safebridge/) with LoginRadius MFA.
 
 ## Top MFA Providers
 

@@ -49,14 +49,14 @@ This section will explain the steps or procedures to configure the sonarqube plu
 
 The only prerequisite for running SonarQube is to have Java (Oracle JRE 11 or OpenJDK 11) installed on your machine. [[details](https://docs.sonarsource.com/sonarqube-server/latest/setup-and-upgrade/installation-requirements/server-host/)]
 
-Set the PATH system variable: (https://www.java.com/en/download/help/path.xml)[https://www.java.com/en/download/help/path.xml]
+Set the PATH system variable: [How do I set or change the PATH system variable?](https://www.java.com/en/download/help/path.xml)
 
 > Note: In order to analyze JavaScript code, you need to have Node.js >= 8 installed on the machine running the scan. If a standard node is not available, you have to set the property `sonar.nodejs.executable` to an absolute path to Node.js executable. [[details](https://docs.sonarqube.org/latest/analysis/languages/javascript/)]
 
 ### Downloads Sonarqube and Sonar Scanner:
 
-* LTS version of sonarqube (https://www.sonarqube.org/downloads)
-* Download sonar-scanner based on your platform (https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/)
+* [LTS version of sonarqube](https://www.sonarqube.org/downloads)
+* [Download sonar-scanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) based on your platform
 After the above process, Add the sonar scanner path to environment variables.
 
 ### Run Sonarqube server:

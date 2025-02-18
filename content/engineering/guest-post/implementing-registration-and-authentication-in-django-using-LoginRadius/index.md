@@ -543,5 +543,5 @@ To see the entire data present in the `user_data`, you can do something like thi
 ## Conclusion
 In this tutorial, we discussed how to use LoginRadius for registration and authentication in Django. We started by introducing LoginRadius, what it is, its benefits, and how to get started with it. Then, we illustrated building a demo application with Django and implemented registration and authentication using LoginRadius.
 
-**GitHub repo:** https://github.com/Tammibriggs/radiusAuth
+**GitHub repo:** [radiusAuth](https://github.com/Tammibriggs/radiusAuth)
 

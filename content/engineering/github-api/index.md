@@ -19,7 +19,7 @@ Github APIs( or Github ReST APIs) are the APIs that you can use to interact with
 For fetching publicly available information (like public repositories, user profiles, etc.), you can call the API. For other actions, you need to provide an authenticated token.
 
 ## Basic Github APIs Examples
-The base URL for GitHub APIs is:- https://api.github.com/
+The base URL for GitHub APIs is:- [GithubAPI](https://api.github.com/)
 
 ### Accessing Public Information
 
@@ -68,7 +68,7 @@ By providing the token, you can create repositories/gists, comment on pull reque
 
 #### Generating Token
 
-You can get a token by going to https://github.com/settings/tokens and clicking on _Generate new token_. You will be asked for the permissions/scopes of that token. Choose them **wisely** while creating one as some of these might be destructive.
+You can get a token by going to [Personal access tokens](https://github.com/settings/tokens) and clicking on _Generate new token_. You will be asked for the permissions/scopes of that token. Choose them **wisely** while creating one as some of these might be destructive.
 
 After selecting scopes, click on generate token and save the token somewhere as you will not see that token again.
 
@@ -129,5 +129,5 @@ The above results can be verified on the GitHub website too.
 ![results](output.png)
 
 ## Conclusion
-There are a lot more endpoints that you can explore at https://developer.github.com/v3. Also, you can only do the work you are authorized to with that token.
+There are a lot more endpoints that you can explore at [Github](https://developer.github.com/v3). Also, you can only do the work you are authorized to with that token.
 Although there are plenty of data fields that can be sent with these endpoints, only required ones are shown above.

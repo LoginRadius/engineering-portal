@@ -56,7 +56,7 @@ Here, you can see the following folder structure of your application so far. The
 
 ## Adding a Simple React Component
 
-For your project, you'll build a simple Counter component, similar (if not exactly the same) to the example provided in the React docs: [https://reactjs.org/docs/hooks-state.html](https://reactjs.org/docs/hooks-state.html)
+For your project, you'll build a simple Counter component, similar (if not exactly the same) to the example provided in the React docs: [Hooks State](https://reactjs.org/docs/hooks-state.html)
 
 Let's start by creating a Counter component. Here, it is named as `Counter.jsx` and placed in a `components` folder.
 
@@ -134,7 +134,7 @@ Focus back on the `index.js` file. Make the following change:
 serviceWorkerRegistration.register(); //change the service worker registration from 'unregistered' to 'registered'
 ```
 
-Essentially, changing the service worker from unregistered to registered will allow you to utilize the app even when it's offline, a key benefit when it comes to PWAs. Check Google's explanation on this topic for more information: [https://web.dev/articles/service-workers-registration](https://web.dev/articles/service-workers-registration)
+Essentially, changing the service worker from unregistered to registered will allow you to utilize the app even when it's offline, a key benefit when it comes to PWAs. Check Google's explanation on this topic for more information: [Service Worker Registration](https://web.dev/articles/service-workers-registration)
 
 With the PWA files setup, in order to view the difference, you can deploy your application to a static server using the `serve` package that will serve your application to localhost. In a nutshell, make sure you have the `serve` package by installing, building the application again, and using `serve` to deploy the application:
 
@@ -170,7 +170,7 @@ If you hit the '+' symbol on the right side of the URL ba,r you can install your
 
 ![pwa-lighthouse.png](pwa-lighthouse.png)
 
-Use Workbox Lighthouse for testing the capabilities of your PWA: [https://developer.chrome.com/docs/lighthouse/overview/](https://developer.chrome.com/docs/lighthouse/overview/)
+Use Workbox Lighthouse for testing the capabilities of your PWA: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 
 ## Conclusion
 

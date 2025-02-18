@@ -27,9 +27,9 @@ You might be aware that version 3.0 of the Secure Sockets Layer protocol was dep
 
 **References:**
 
-1. [https://www.instantssl.com/ssl-certificate-products/https.html](https://www.instantssl.com/ssl-certificate-products/https.html)
-2. [https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
-3. [https://tools.ietf.org/html/rfc7568](https://tools.ietf.org/html/rfc7568)
-4. [https://www.globalsign.com/en/blog/ssl-vs-tls-difference/](https://www.globalsign.com/en/blog/ssl-vs-tls-difference/)
+1. [SSL Certificate Products](https://www.instantssl.com/ssl-certificate-products/https.html)
+2. [What is an SSL Certificate?](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
+3. [IETF](https://tools.ietf.org/html/rfc7568)
+4. [SSL vs TLS - What's the Difference?](https://www.globalsign.com/en/blog/ssl-vs-tls-difference/)
 
 Note: image labeled for reuse, taken from Google images.

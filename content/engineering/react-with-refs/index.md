@@ -122,4 +122,4 @@ In the above code, We passed the function to `inputRef` and access it in `App` c
 
 Callback refs are calling two times during updates if they are defined as an inline function. This is because a new instance of the function is created with each render. We can avoid this by calling it a method of a class.
 
-To understand more about React refs. Read https://reactjs.org/docs/refs-and-the-dom.html
+To understand more about React refs. Read [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)

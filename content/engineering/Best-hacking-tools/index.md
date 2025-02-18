@@ -34,8 +34,7 @@ It uses raw IP packets to determine
   * Scans for the exploitation of the open port, both TCP and UDP protocols.
 			
 
-Nmap download link:
-https://nmap.org/download.html
+[Nmap download link](https://nmap.org/download.html)
 			
 
 ### 2.) Metasploit
@@ -53,8 +52,7 @@ Metasploit may enforce as follows:
   * This data used for designing the attack on the target system.
 			
 
-Metasploit download link:
-    https://github.com/rapid7/metasploit-framework/wiki/Nightly-Installers
+[Metasploit download link](https://github.com/rapid7/metasploit-framework/wiki/Nightly-Installers)
 			
 
 ### 3.) Wireshark
@@ -74,8 +72,7 @@ Wireshark helps in:
 It additionally captures HTTP packet transmission over the network. Click on "Follow protocol connection" within the HTTP packet. Currently, you'll be able to see the username and passwords that are captures over the network.
 			
 
-Wireshark download link:
-  https://www.wireshark.org/#download
+[Wireshark download link](https://www.wireshark.org/#download)
 			
 
 ### 4.) John the Ripper
@@ -95,8 +92,7 @@ John the Ripper working:
 The rate at which the password is going to be cracked depends utterly on the password's strength and offered wordlist. It keeps attempting to break the password continuously till the termination command isn't given.
 			
 
-John the ripper download link:
-https://www.openwall.com/john/
+[John the ripper download link](https://www.openwall.com/john/)
 			
 
 ### 5.) Burp Suite
@@ -118,8 +114,7 @@ Burp Suite features:
   * It operates as an internet proxy server that helps permit interception, inspection, and modification of network traffic.
 			
 
-Burp Suite download link:
-https://portswigger.net/burp
+[Burp Suite download link](https://portswigger.net/burp)
 			
 
 ### 6.) Angry IP Scanner
@@ -137,8 +132,7 @@ Features:
   * If anyone writes plugins, he will efficiently extend the practicality of Angry IP Scanner.
 			
 
-Angry IP Scanner download link:
-  https://angryip.org/download/#windows
+[Angry IP Scanner download link](https://angryip.org/download/#windows)
 			
 
 ### 7.) Nikto
@@ -157,5 +151,4 @@ Features:
   * Reports for the weird headers.
 			
 
-Nikto download link:
-https://github.com/sullo/nikto
+[Nikto download link](https://github.com/sullo/nikto)

@@ -38,15 +38,15 @@ You are certainly not alone. And then you Google it, and someone tells you to ur
 **CORS is there to protect you, not hurt you!**
 
 In order to explain how CORS helps you, let’s starts about cookies, specifically **authentication cookies**. Authentication cookies are wont to tell a server that you are simply logged in, and that they are automatically sent with any request you make to that server.
->  Let’s think you’re logged in to yahoo, and they use authentication cookies. You click on bit.ly/r43nugi which redirects you to [http://www.cryptoearn.co](http://www.cryptoearn.co/). A script within [http://www.cryptoearn.co](http://www.cryptoearn.co/) makes a client-side request to yahoo.com which sends your authentication cookie!
+>  Let’s think you’re logged in to yahoo, and they use authentication cookies. You click on bit.ly/r43nugi which redirects you to [cryptoearn](http://www.cryptoearn.co/). A script within [cryptoearn](http://www.cryptoearn.co/) makes a client-side request to yahoo.com which sends your authentication cookie!
 
-In a no-CORS world, they might make changes to your account without you even knowing. Until, obiviously , they post bit.ly/r43nugi on your timeline, and everyone of your relative orfriends click on thereon, and then the cycle continues in an evil breadth-first scheme that conquers all of yahoo’s users, and the world is consumed by [http://www.cryptoearn.co](http://www.cryptoearn.co/). ?
+In a no-CORS world, they might make changes to your account without you even knowing. Until, obiviously , they post bit.ly/r43nugi on your timeline, and everyone of your relative orfriends click on thereon, and then the cycle continues in an evil breadth-first scheme that conquers all of yahoo’s users, and the world is consumed by [cryptoearn](http://www.cryptoearn.co/). ?
 
 In CORS world, however, yahoo would only allow requests with an origin of yahoo.com to edit data on their server. In other words, they might limit cross-origin resource sharing. You might then ask…
->  *Well can [*http://www.cryptoearn.co](http://www.cryptoearn.co/) *just change the origin header on their request, so that it looks like it is coming from *yahoo.com*?*
+>  *Well can [cryptoearn](http://www.cryptoearn.co/) just change the origin header on their request, so that it looks like it is coming from *yahoo.com*?*
 
 They will try, but it won’t work because the browser will just ignore it and use the actual origin.
->  *Ok, but what if [http://www.cryptoearn.co](http://www.cryptoearn.co/)made the request server-side?*
+>  *Ok, but what if [cryptoearn](http://www.cryptoearn.co/) made the request server-side?*
 
 In this case, they can bypass CORS, but they can't crack this because they won’t be ready to send your authentication cookie along for the ride. The script should be executed on the client side to urge access to your client side cookies.
 

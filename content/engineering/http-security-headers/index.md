@@ -92,8 +92,8 @@ More information about the Content Security policy can be found on  [Mozilla’s
   
 ### Conclusion
 As a web developer, you can follow this guide for adding security headers to your website. HTTP headers can be configured on the server to enhance the overall security of the web application. You can easily validate your website security headers. Multiple free online tools are available to check the same:
-  - https://securityheaders.com/
-  - https://www.serpworx.com/check-security-headers/ 
+  - [Security Headers](https://securityheaders.com/)
+  - [Serpworx](https://www.serpworx.com/check-security-headers/)
 
 These headers reduce the potential vulnerabilities of the application. Alongside these headers will add one layer of security still we need to add more layer's of security in our web application  
 

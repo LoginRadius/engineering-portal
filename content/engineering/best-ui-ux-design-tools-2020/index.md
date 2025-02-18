@@ -266,7 +266,7 @@ A directory of the best free design mockups for Photoshop, Sketch, Figma, and In
 
 Find documentation and resources for designing great apps for Apple platforms.
 
-[https://developer.apple.com](https://developer.apple.com)
+[Link](https://developer.apple.com)
 
 ### 2. **Material Design — Google**
 
@@ -348,7 +348,7 @@ Archive of freely downloadable fonts. Browse by alphabetical listing, by style, 
 
 Font Squirrel scours the internet for high quality, legitimately free fonts.
 
-https://www.fontsquirrel.com
+[Font Squirrel](https://www.fontsquirrel.com)
 
 ### 5. **Font Inspiration**
 
@@ -368,7 +368,7 @@ Create a testable design prototype for your interviewee and get feedback
 
  Adobe XD is your UI/UX design solution for website and mobile apps creation. Design, prototype, and share. Try it now.
 
-https://www.adobe.com
+[Adobe](https://www.adobe.com)
 
 ## 2. **Invision**
 
@@ -376,7 +376,7 @@ https://www.adobe.com
 
 InVision is the digital product design platform used to make the world's best customer experiences.
 
-https://www.invisionapp.com
+[Invision](https://www.invisionapp.com)
 
 ### 3. **Figma**
 
@@ -384,7 +384,7 @@ https://www.invisionapp.com
 
 Figma helps teams create, test, and ship better designs from start to finish. Meet our customers Packed with design…
 
-https://www.figma.com
+[Figma](https://www.figma.com)
 
 ### 4. **Sketch**
 
@@ -394,7 +394,7 @@ https://www.figma.com
 Seamless integration to the Mac app makes saving to Cloud as easy as hitting ⌘S. From there, you can organize designs…
 
 
-https://www.sketch.com
+[Sketch](https://www.sketch.com)
 
 ### 5. **Origami Studio**
 
@@ -411,7 +411,7 @@ A new tool for designing modern interfaces, built and used by designers at Faceb
 
 A framer is coming to the web. Learn more › Why Framer X Resources Framer X Framer is coming to the web. Learn more › The…
 
-https://www.framer.com
+[Framer](https://www.framer.com)
 
 ### 7. **Principle**
 
@@ -420,7 +420,7 @@ https://www.framer.com
 
 The principle makes it easy to design animated and interactive user interfaces. Whether you're designing the flow of a…
 
-https://principleformac.com
+[Principle For MAC](https://principleformac.com)
 
 
 ### 8. **Overflow**
@@ -460,7 +460,7 @@ Beautiful, free images and photos that you can download and use for any project.
 
 Stunning stock images, perfect for blogs and websites Explore stock photography by category, all free for commercial…
 
-https://burst.shopify.com
+[Burst By Shopify](https://burst.shopify.com)
 
 
 ### **4. Moose**
@@ -470,7 +470,7 @@ https://burst.shopify.com
 
 A collection of stock photography in a single style. Good for collages. Free for commercial use.
 
-https://photos.icons8.com
+[Moose](https://photos.icons8.com)
 
 ## Tools that speed up your workflow
 ### 1. **Glitch Image/Gif/Video Generator**
@@ -479,7 +479,7 @@ https://photos.icons8.com
 
 Glitch images, videos, or webcam using WebGL effects. Save output as image, gif, or video.
 
-https://photomosh.com
+[Photomosh](https://photomosh.com)
 
 #### 2. **Duotone Image Generator**
 
@@ -495,7 +495,7 @@ duotone.shapefactory.co
 
 Compressor.io is a powerful online tool for reducing drastically the size of your images and photos whilst maintaining…
 
-https://compressor.io
+[Compressor.io](https://compressor.io)
 
 ### 4. **TinyPNG (Image compression tools)**
 
@@ -503,7 +503,7 @@ https://compressor.io
 
 Excellent question! Let me give you a side by side comparison. Below are two photos of my cousin. The left image is…
 
-https://tinypng.com
+[TinyPNG](https://tinypng.com)
 
 ### 5. **Remove.bg (Background removal tool )**
 
@@ -536,4 +536,4 @@ Connected space for product teams. Handoff designs and style guides with accurat
 
 Scalable, secure, cross-device, and enterprise-ready team collaboration tool for distributed teams. Join 2M+ users &…
 
-https://realtimeboard.com
+[Realtime Board](https://realtimeboard.com)

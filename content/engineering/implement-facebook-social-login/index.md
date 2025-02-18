@@ -6,7 +6,7 @@ author: "Zoie Carnegie"
 tags: ["Facebook", "SocialLogin"]
 ---
 
-In this post I will show you how easy it is to implement Facebook social login to a web page using Facebook’s JavaScript SDK. The nice thing about Facebook social login is the great documentation and instructions already provided at  [https://developers.facebook.com/docs/facebook-login/login-flow-for-web/v2.2](https://developers.facebook.com/docs/facebook-login/login-flow-for-web/v2.2) There is also a code snippet that is provided to you by Facebook to implement their login system. I have gone ahead and customized this code and have provided a codepen [here](http://codepen.io/zoie-loginradius/pen/JoLYrJ) which I will explain.
+In this post I will show you how easy it is to implement Facebook social login to a web page using Facebook’s JavaScript SDK. The nice thing about Facebook social login is the great documentation and instructions already provided at  [Facebook Login for the Web](https://developers.facebook.com/docs/facebook-login/login-flow-for-web/v2.2). There is also a code snippet that is provided to you by Facebook to implement their login system. I have gone ahead and customized this code and have provided a codepen [here](http://codepen.io/zoie-loginradius/pen/JoLYrJ) which I will explain.
 
 The first thing you’ll need to do is create a Facebook app since an app Id is required to implement login using Facebook. You can create a facebook app by going to  [http://developers.facebook.com](http://developers.facebook.com/). You'll notice in the codepen nothing is displayed since I have not added a app Id. You'll need to remember to replace this placeholder with your own Facebook app Id once you have created your Facebook app.
 

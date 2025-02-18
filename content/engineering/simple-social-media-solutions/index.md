@@ -46,10 +46,10 @@ Sample Div:
 
   
 You can find information on generating sharing links with other providers in the following locations:  
-Twitter: [https://about.twitter.com/resources/buttons](https://about.twitter.com/resources/buttons)  
+[Twitter](https://about.twitter.com/resources/buttons)  
 
 
-Or you can contribute to our open source project on github-[https://github.com/social9](https://github.com/social9)
+Or you can contribute to our open source project on github- [Github-Social9](https://github.com/social9)
 
 ## Follow Company
 
@@ -74,7 +74,7 @@ Below is an example of setting up a Twitter follow button:
 You can set the data attributes in the above link to control various aspects of the follow button.
 
 Find information on generating follow buttons for other social providers in the following locations:  
-Facebook- [https://developers.facebook.com/docs/archive/docs/plugins/follow-button/](https://developers.facebook.com/docs/archive/docs/plugins/follow-button/)  
+[Facebook](https://developers.facebook.com/docs/archive/docs/plugins/follow-button/)  
 
 
 ## Social Linking

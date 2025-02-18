@@ -230,7 +230,7 @@ For example, [Inkbox](https://inkbox.com/) consists of a community with millions
 
 You can use reviews for your customer experience purposes. Additionally, you can increase your brand awareness and enhance SEO efforts this way. People trust companies with numerous positive reviews. There are six ways to take advantage of client testimonials:
 
-1.  Use reviews on the home page and other key pages of the site. For example, the https://seranking.com website has reviews at the bottom of its homepage that increases and validates trust in the brand and its services.
+1.  Use reviews on the home page and other key pages of the site. For example, the [seranking](https://seranking.com) website has reviews at the bottom of its homepage that increases and validates trust in the brand and its services.
     
 
   

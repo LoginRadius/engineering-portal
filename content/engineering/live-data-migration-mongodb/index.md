@@ -155,7 +155,7 @@ In the above command, using the same user **`admin`** with whom the role was ass
 
 Alright, so far we are done with most of the heavy lifting. The only thing that remains is maintaining consistency between the databases during the connection switch in our application servers.
 
-> If you're running MongoDB version 3.6+, it's better to go for the Change Stream approach, which is a event-based mechanism introduced to capture changes in your database in an optimized way. Here is an article that covers it https://www.mongodb.com/blog/post/an-introduction-to-change-streams
+> If you're running MongoDB version 3.6+, it's better to go for the Change Stream approach, which is a event-based mechanism introduced to capture changes in your database in an optimized way. Here is an article that covers it : [An Introduction to Change Streams](https://www.mongodb.com/blog/post/an-introduction-to-change-streams)
 
 Check out the [generic sync script](https://gist.github.com/cnp96/7be1756f7eb76ea78c9b832966e84dbf#file-delta-sync-sh), which you can run as a CRON job every minute.
 

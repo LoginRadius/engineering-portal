@@ -53,4 +53,4 @@ To create an HTML email from scratch, you will need to have advanced knowledge o
 
 **You can check HTML Email Template here:**
 
-https://github.com/designmodo/html-email-templates
+[HTML Email Templates](https://github.com/designmodo/html-email-templates)

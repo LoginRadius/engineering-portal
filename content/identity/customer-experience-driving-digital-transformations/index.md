@@ -69,7 +69,7 @@ Tying all these interactions together allows you to create a [single profile](ht
 
 Accomplishing these three steps is a great start at improving your customers digital experience. If you get identity right from the start, you will really be able to enjoy the benefits of a digital transformation in terms of scalability, availability, and flexibility.
 
-![Digital Transformation](guide-to-modern-cover.png)(https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+![Customer Identity - The Core of Digital Transformation](guide-to-modern-cover.png)(https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 By utilizing a customer identity solution, you will be able to build a great foundation to your digital transformation.
 

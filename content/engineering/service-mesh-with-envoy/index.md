@@ -13,7 +13,7 @@ This post will cover a demo working setup of a service mesh architecture using E
 
 We will be deploying an echo-grpc test application provided by Google in their article related to gRPC load balancing and was used as a reference to test the service mesh setup with Envoy. The article covers setting up Envoy as an edge proxy only.
 This is a simple gRPC application that exposes a unary method that takes a string in the content request field and responds with the content unaltered.
-Repo: https://github.com/GoogleCloudPlatform/grpc-gke-nlb-tutorial
+Repo: [grpc-gke-nlb-tutorial](https://github.com/GoogleCloudPlatform/grpc-gke-nlb-tutorial)
 - Clone this repo.
 - Go to the echo-grpc directory.
 - Using the Dockerfile provided in the folder, we would have to build the image and push it to the Docker registry of choice. Since we are not using GCP, Docker Hub is used as the registry.
@@ -447,5 +447,5 @@ Sent 1 request and received 1 response
 Run the above command multiple times and check the value of the hostname field every time which will contain the pod name of one of the 3 pods deployed. 
 
 # References
-- Article: https://cloud.google.com/solutions/exposing-grpc-services-on-gke-using-envoy-proxy
-- Headless service: https://kubernetes.io/docs/concepts/services-networking/service/#headless-services
+- Article: [Using Envoy Proxy to load-balance gRPC services on GKE](https://cloud.google.com/solutions/exposing-grpc-services-on-gke-using-envoy-proxy)
+- [Headless service](https://kubernetes.io/docs/concepts/services-networking/service/#headless-services)

@@ -6,7 +6,7 @@ author: "Kundan Singh"
 tags: ["Engineering","SSL"]
 ---
 
-These days SSL is a must-have element for websites, but SSL certificates are costly and range from $30 to $500 per year for a single website. Don’t fret! You can get a FREE SSL certificate! Through “Let's Encrypt” ([https://letsencrypt.org/](https://letsencrypt.org/)), a free, automated, and open certificate authority, you will be able to acquire the necessary certificate to enable SSL on your website. Check out the below steps you can follow to get an SSL certificate for your site today.
+These days SSL is a must-have element for websites, but SSL certificates are costly and range from $30 to $500 per year for a single website. Don’t fret! You can get a FREE SSL certificate! Through “[Let's Encrypt](https://letsencrypt.org/)", a free, automated, and open certificate authority, you will be able to acquire the necessary certificate to enable SSL on your website. Check out the below steps you can follow to get an SSL certificate for your site today.
 
 To obtain this certificate, you will first need to prove ownership of the domain. There are two requirements that you need to meet in order to generate a certificate from “Let's Encrypt”:
 
