@@ -42,15 +42,11 @@ To see which Libraries that you want to utilize, head over to [cocoapods](https:
 
 #### Personal favorites pods
 
-Realm: [https://cocoapods.org/pods/Realm  
-](https://cocoapods.org/pods/Realm)For Managing Databases in iOS application
+[Realm](https://cocoapods.org/pods/Realm) : For Managing Databases in iOS application
 
-Alamofire: [https://cocoapods.org/pods/Alamofire  
-](https://cocoapods.org/pods/Alamofire)For All of your Networking Needs
+[Alamofire](https://cocoapods.org/pods/Alamofire) : For All of your Networking Needs
 
-Eureka: [https://github.com/xmartlabs/Eureka  
-](https://github.com/xmartlabs/Eureka)For Simplified UI and Forms
+[Eureka](https://github.com/xmartlabs/Eureka) : For Simplified UI and Forms
 
 And of course our:  
-LoginRadiusSDK: [https://github.com/LoginRadius/ios-sdk  
-](https://github.com/LoginRadius/ios-sdk)For our API Calls to Manage your Login System
+[LoginRadiusSDK](https://github.com/LoginRadius/ios-sdk) : For our API Calls to Manage your Login System
