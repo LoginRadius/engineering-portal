@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Benefits of Multi-Factor Authentication (MFA)"
 date: "2025-02-18"
-coverImage: "loginradius-mfa.png"
+coverImage: "benefits-of-mfa.webp"
 tags: ["benefits of mfa","digital transformation","cx"]
 author: "Rakesh Soni"
 description: "Explore the key benefits of MFA, from enhanced security to phishing protection. Learn why multi-factor authentication is essential for businesses & individuals."
@@ -83,7 +83,7 @@ Phishing emails trick users into entering their passwords on fake websites. But 
 
 Businesses can tailor MFA policies based on risk levels. For example, logging in from a trusted device may require just a password, while accessing from an unknown location might trigger an additional authentication factor. This is called adaptive multi-factor authentication (MFA). See how [LoginRadius can help you combat real-time threats](https://www.loginradius.com/products/adaptive-mfa) with adaptive MFA.
 
-![Adaptive MFA](loginradius-mfa.png)
+![Adaptive MFA](adaptive-mfa.webp)
 
 You can quickly [configure adaptive authentication with LoginRadius](https://www.loginradius.com/docs/security/customer-security/risk-based-auth/#configuration).
 
