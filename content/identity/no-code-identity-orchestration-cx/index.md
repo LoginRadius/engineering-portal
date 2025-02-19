@@ -3,7 +3,7 @@ title: "Gearing Up for Better Customer Experiences? Choose No-Code Identity Orch
 date: "2024-07-01"
 coverImage: "no-code-id-orchestration.jpg"
 tags: ["identity orchestration","login authentication","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "In today’s digital landscape, enhancing customer experience is crucial for business success. No-code identity orchestration offers a powerful solution to streamline user authentication, improve security, and personalize interactions without extensive coding. Discover how this technology can transform your CX strategy, offering speed, cost-efficiency, and innovation. Read on to explore its benefits and implementation tips."
 metatitle: "Why Choose No-Code Identity Orchestration for Better CX?"
 metadescription: "Discover how no-code identity orchestration can enhance your customer experience strategy by providing seamless, secure, and personalized user interactions."

@@ -3,7 +3,7 @@ title: "5 Reasons Why Publishers Should (Seriously) Consider Using SSO"
 date: "2022-09-20"
 coverImage: "sso-publish.jpg"
 tags: ["sso","data privacy","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Single sign-on allows publishers to seamlessly integrate their existing subscription services into one platform so they can collect first party data without having to worry about anything else."
 metatitle: "Why Publishers Should Start Using Single Sign On?"
 metadescription: "Publishers are recognizing that single sign on delivers a lot of value to the content consumption process. This blog highlights the value for publishers using SSO."

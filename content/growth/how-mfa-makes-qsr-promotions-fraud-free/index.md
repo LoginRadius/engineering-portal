@@ -3,7 +3,7 @@ title: "How MFA Makes Quick Service Restaurants (QSR) Promotion Fraud-Free"
 date: "2021-09-01"
 coverImage: "qsr-payment-ciam-loginradius.jpg"
 tags: ["mfa","digital transformation","biometric authentication"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Quick-Service Restaurants are seeing a boom in engagement, but so are the scammers. Read this blog to find out how to boost your restaurant’s confidence in its capacity to defend itself from hackers."
 metadescription: "Promotion fraud is a growing problem, especially in the quick-service restaurants (QSR) industry. Find how MFA works and why restaurants should implement it."
 metatitle: "How MFA makes QSR promotions & discounts fraud-free for user"

@@ -3,7 +3,7 @@ title: "Planning to Reduce Your CPA By 50%? You Need ID Management"
 date: "2022-07-06"
 coverImage: "cpa-market.jpg"
 category: ["cost per acquisition", "identity management", "marketing"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "An essential marketing requirement is to know your customers first and then learn about their preferences. With a reliable CIAM system, marketers need not worry about collecting valuable customer insights; CIAM does it all without burning a pocket!  Let’s understand how."
 metatitle: "How is Identity Management Reducing  CPA for Marketers?"
 metadescription: "With identity management, businesses can reduce the cost of acquiring a lead. Learn how identity management for CPA reduction works for your business."

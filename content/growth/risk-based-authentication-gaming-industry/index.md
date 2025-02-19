@@ -4,7 +4,7 @@ date: "2021-10-18"
 coverImage: "rba-gaming-cover.jpg"
 category: ["security"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "It is not possible to create an application that protects against everything, especially in the gaming industry. Although it is important to effectively protect sensitive data in electronic gaming environments, it is also essential to create systems that maintain the fun and excitement of online gaming. Risk-Based Authentication makes it possible."
 metatitle: "What are the Benefits of Risk-Based Authentication in Gaming"
 metadescription: "The gaming industry is ripe for disruption by online security. This post discusses the effectiveness of risk-based authentication for securing your gamer's data."

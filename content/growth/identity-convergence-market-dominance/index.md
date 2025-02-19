@@ -3,7 +3,7 @@ title: "Unlocking the Secret to Dominating the Market: How Can Give You a Compet
 date: "2024-05-23"
 coverImage: "identity-convergence.jpg"
 tags: ["identity convergence","data privacy","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "Identity convergence integrates diverse customer data into unified profiles, enabling unmatched personalization and efficiency. Learn how to leverage this strategy for superior business outcomes and gain a competitive edge in today's market."
 meta-title: "Identity Convergence: The Key to Dominating the Market"
 metadescription: "Discover how identity convergence transforms customer interactions for a competitive edge through personalized marketing and streamlined operations."

@@ -4,7 +4,7 @@ date: "2021-06-14"
 coverImage: "Product-marketing.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Choosing the right product marketing strategy can assist you in taking your product to the next level. Read this detailed article to find out how your company can benefit by adopting an effective product marketing strategy."
 metadescription: "A product marketing strategy can control the market position, and online advertising of your product. Follow these tips to optimize your product marketing strategy."
 metatitle: "How product marketing strategies can help B2C CMOs"

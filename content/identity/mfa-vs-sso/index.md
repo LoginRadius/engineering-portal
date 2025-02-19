@@ -3,7 +3,7 @@ title: "What is the Difference Between MFA vs. SSO?"
 date: "2022-04-12"
 coverImage: "sso-vs-mfa.jpg"
 tags: ["authentication", "mfa", "sso", "ciam"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Security and user experience are all that a modern online platform demands. And businesses need to create a perfect harmony between security and usability to witness growth. Let’s understand the aspects of MFA vs. SSO in detail and learn how businesses can leverage MFA and SSO to scale growth, ensure security, and maintain a rich consumer experience."
 metatitle: "MFA vs. SSO: Understanding the Differences and Benefits"
 metadescription: "MFA and SSO are popular authentication methods for businesses. Know the differences & how each method can benefit your organization."

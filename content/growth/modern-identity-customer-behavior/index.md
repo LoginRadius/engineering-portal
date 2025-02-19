@@ -3,7 +3,7 @@ title: "Exploring Modern Identity: Unraveling Customer Attitudes"
 date: "2023-12-15"
 coverImage: "customer-behaviour.jpg"
 tags: ["customer identity management","passwordless authentication","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "With the digital transformation, the expectations and behavior of modern customers are changing, desiring more seamlessness and convenience when managing their identities. A robust CIAM can help you meet customer expectations while reducing identity theft risk."
 meta-title: "Discover Top Customer Behavior Trends in Modern Identity"
 metadescription: "Discover how evolving customer behaviors in modern identity shape the landscape, influencing customer retention rates. Explore the trends for growth."

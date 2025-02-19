@@ -3,7 +3,7 @@ title: "Decoding the Role of Multi-Factor Authentication and IVR in Banking"
 date: "2021-10-21"
 coverImage: "ivr-cover.jpg"
 tags: ["mfa","adaptive mfa","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "One of the greatest adoptions in the banking industry is the introduction of multi-factor authentication (MFA) and Interactive Voice Response (IVR) systems. Both of them are considered effective ways that help banks to reduce fraud. This blog explains their individual roles in banking."
 metatitle: "The Role of Multi-Factor Authentication and IVR in Banking"
 metadescription: "The interest in implementing multi-factor authentication and IVR is gaining momentum in the banking sector as customers take their security concerns seriously."

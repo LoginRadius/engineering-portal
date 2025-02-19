@@ -3,7 +3,7 @@ title: "Workflow Automation- What is it and Why Do You Need It?"
 date: "2021-04-14"
 coverImage: "what-is-workflow-automation-cover.jpg"
 tags: ["workflow automation","scalability","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Workflow automation refers to the process of automating a set of manual processes or tasks based on a set of pre-defined rules or conditions. It helps you reduce the use of resources and time, more importantly, the chances of human-made errors. As a result, it improves a business’s overall efficiency, audibility, and accountability."
 metatitle: "What is Workflow Automation and Why Do You Need It?"
 metadescription: "What is workflow automation and why do you need it. Learn the steps that you must consider while automating tasks and the workflow of your business."

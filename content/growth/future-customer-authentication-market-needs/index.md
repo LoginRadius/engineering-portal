@@ -3,7 +3,7 @@ title: "Customer Authentication: Unfolding The Market Needs Of The Future"
 date: "2022-01-06"
 coverImage: "auth-future.jpg"
 tags: ["data security","biometric authentication","mfa","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Consumer authentication is getting more challenging than ever. Learn how the biggest brands in the world are innovating their way through the disruption that's already underway, and get the tactics you need to deliver a seamless experience to your customers."
 metadescription: "Consumer authentication has increased in prominence with the surge in digital identities. This blog unfolds the future market solutions in consumer authentication."
 metatitle: "The Future Of Consumer Authentication Is Already Here"

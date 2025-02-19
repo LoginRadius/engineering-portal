@@ -3,7 +3,7 @@ title: "Now and Beyond- Staying Ahead with the 10 Key Cybersecurity Trends of 20
 date: "2023-12-07"
 coverImage: "cybersecurity-trends.jpg"
 tags: ["data security","cybersecurity","MFA","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Dive into the future of cybersecurity with the top 10 trends for 2024. From Gen AI Attacks to Quantum Computing Threats, fortify your defense and stay ahead in the digital landscape."
 metatitle: "2024 Cybersecurity Trends: Stay Ahead Now"
 metadescription: "Prepare for 2024 with insights on evolving cyber threats. Explore the top 10 trends, from Gen AI Attacks to Quantum Computing Threats. Strengthen your defense now!"
