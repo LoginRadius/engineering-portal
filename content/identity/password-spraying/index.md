@@ -3,7 +3,7 @@ title: "Password Spraying: What Is It And How To Prevent It?"
 date: "2021-04-07"
 coverImage: "password-spraying.jpg"
 tags: ["data security", "mfa", "password management"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Password spraying is not a targeted attack, it is just one malicious actor acquiring a list of email accounts or gaining access to an active directory and attempting to sign in to all the accounts using a list of the most likely, popular, or common passwords until they get a hit. In this article, we detail what is password spraying, how to not be vulnerable to password spraying."
 metatitle: "What is Password Spraying and How to Prevent It? "
 metadescription: "Know what password spraying is, how it works, and the impact it can have on your online security. Learn how to protect your accounts from password spraying attacks."

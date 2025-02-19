@@ -3,7 +3,7 @@ title: "Mastering Orchestration: The Business Case for End-to-End Identity Proof
 date: "2024-08-12"
 coverImage: "id-proofing.jpg"
 tags: ["identity orchestration","identity proofing","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "In the rapidly evolving digital landscape, businesses are turning to comprehensive identity-proofing solutions to bolster security, ensure compliance, and enhance customer experiences. By leveraging orchestration, companies can streamline identity verification processes, reduce fraud, and build trust with their users."
 metatitle: "The Business Case for Comprehensive Identity Proofing"
 metadescription: "Discover why businesses are adopting comprehensive identity-proofing solutions and how orchestration enhances security, compliance, and customer experience."

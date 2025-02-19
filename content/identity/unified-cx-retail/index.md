@@ -4,7 +4,7 @@ date: "2021-06-15"
 coverImage: "unified-cx-retail-cover.jpg"
 tags: ["security"]
 featured: false
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "The concept of unified consumer experience may sound idealistic or poignant, but anyone who rejects it is woefully out of context. Consumers have become a competitive differentiator in today's hyper-competitive and hyper-connected global marketplace. There is tangible business value in maintaining an effective consumer experience."
 metatitle: "How Can Retail Giants Deliver Unified Consumer Experience?"
 metadescription: "In an increasingly competitive market, businesses today need to adopt a unified consumer experience in retail to get an edge over the competitors and thrive."

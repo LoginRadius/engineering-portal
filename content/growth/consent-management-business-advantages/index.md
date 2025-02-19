@@ -3,7 +3,7 @@ title: "The Power Of Consent Marketing- A Deep Dive Into Its Endless Advantages"
 date: "2024-04-16"
 coverImage: "power-consent-mngmnt.jpg"
 tags: ["consent management","data security","compliance"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Discover the pivotal role of consent marketing in today's digital landscape. Explore how it goes beyond legal compliance to build trust, enhance targeting, ensure legal compliance, and foster long-term customer relationships."
 meta-title: "The Power of Consent Marketing: Uncover Business Advantages"
 metadescription: "Learn how consent marketing goes beyond compliance to build trust, enhance targeting, and foster customer loyalty. Explore the benefits of consent marketing."

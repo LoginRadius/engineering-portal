@@ -4,7 +4,7 @@ date: "2021-01-20"
 coverImage: "user-onboarding.jpg"
 category: ["all"]
 featured: false
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Customer Onboarding is a crucial phase that comprises the user's entire lifecycle. The best onboarding experiences allow users to reach their magic moment quickly; for long-term success, they even set up new users."
 metatitle: "Top 27 User Onboarding Tools For Businesses"
 metadescription: "Using this collection of 27 best onboarding tools that companies can use today, the new customers are easily onboard to help them see the value of your product."

@@ -4,7 +4,7 @@ date: "2021-05-17"
 coverImage: "Agile-Marketing.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Agile Marketing is an alternative form of marketing that involves the use of tangible data and analytics to find opportunities for an increase in revenue or a search for solutions in real-time. The characteristic feature of this kind of marketing is that a team of developers and marketing personnel will focus on high-value projects."
 metadescription: "Agile marketing is the new reality for organizational marketing strategies. Learn how the digital world has changed agile marketing for modern marketers."
 metatitle: "The Digitization of Agile Marketing Principles - How it Works?"

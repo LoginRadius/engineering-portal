@@ -3,7 +3,7 @@ title: "How do CDP and CIAM Help Marketers in Cookieless Marketing?"
 date: "2024-02-20"
 coverImage: "customer-data-platform.jpg"
 tags: ["customer data platform","ciam solutions","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Gone are the days when marketing strategy included collecting and using third-party cookies to target consumers. In today’s era, consumers are calling the shots to control their privacy, leading to a big change in how marketers manage customer data. While the concept evolved into reality, how can marketers move forward? Stay tuned as we explore how CDP and CIAM help marketers thrive in cookieless marketing."
 meta-title: "Overcome Cookieless Marketing Challenges With CDP and CIAM"
 metadescription: "Discover how marketers can optimize the customer journey with CDP and CIAM strategies, essential for seamlessly navigating the era of cookieless marketing."

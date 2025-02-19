@@ -3,7 +3,7 @@ title: "How To Use Identity To Make Your Customers Feel Safe And Empowered?"
 date: "2022-10-28"
 coverImage: "id-cx.jpg"
 category: ["identity management", "cx", "data security"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "It goes without saying that excellent UX can improve conversion rates, reduce churn and increase adoption rates. In this blog post, we'll help you figure out how to use digital identity to improve your relationships with customers and make them feel more confident in their interactions with you."
 metatitle: "Using Identity Management for Better Customer Experience"
 metadescription: "Learn how identity management can help businesses create a seamless experience for their customers while balancing security and convenience."

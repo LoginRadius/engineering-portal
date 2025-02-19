@@ -4,7 +4,7 @@ date: "2021-12-07"
 coverImage: "social-id.jpg"
 category: ["security"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Consumer is king. Organisations have realized this in modern times. Due to globalization, competition has increased, and customers have many choices. Therefore, the best way to get a customer's attention is by providing a product that suits the consumer's social identity."
 metadescription: "Every consumer in the market has a social identity that affects their preferences and responses to a certain product. Learn why it matters and how to protect it."
 metatitle: "What is Social Identity in Marketing and How to Protect it"

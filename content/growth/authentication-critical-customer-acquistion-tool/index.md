@@ -3,7 +3,7 @@ title: "Authentication Has Gone Mainstream: Are Marketers Ready to Take the Resp
 date: "2022-07-29"
 coverImage: "auth-marketers.jpg"
 category: ["authentication", "authorization", "customer verification"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Authentication is the most important security feature any application can have because it's the gateway through which users interact with your data. This blog explains how marketers can leverage user authentication."
 metatitle: "Authentication is Now Mainstream: Can Marketers Benefit?"
 metadescription: "User authentication allows marketers to better understand who their customers are and what they want. Learn how marketers can benefit from authentication."

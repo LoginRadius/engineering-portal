@@ -3,7 +3,7 @@ title: "The Evolution of Authentication: From Passwords to Passwordless & More"
 date: "2022-05-27"
 coverImage: "evolution-auth.jpg"
 tags: ["passwordless authentication","new age authentication","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Over the past years, the evolution of authentication portrays the risks associated with unauthorized access and the growing number of cybersecurity threats that leads to compromised user information and sensitive business data. Here’s an insightful read depicting authentication aspects and how it has evolved over a decade."
 metatitle: "The Evolution of Authentication to a Passwordless World"
 metadescription: "The evolution of authentication has portrayed the need for a more robust authentication system to secure business and consumer data. Read on to learn more."

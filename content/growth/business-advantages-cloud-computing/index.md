@@ -3,7 +3,7 @@ title: "Reaping the Benefits of the Cloud Beyond Marketing"
 date: "2022-06-21"
 coverImage: "cloud-marketg.jpg"
 category: ["cloud computing", "marketing", "ciam"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Cloud computing offers more than just helping marketers plan and execute effective marketing campaigns. Let’s look at some advantages of adopting cloud computing and why enterprises should consider relying on cloud computing to thrive overall business success."
 metadescription: "Cloud computing is becoming the preferred choice not just from a marketing perspective but for other aspects that drive business growth. Read on to know more."
 metatitle: "Are You Reaping the Business Advantages of Cloud Computing?"

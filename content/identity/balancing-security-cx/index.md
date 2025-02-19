@@ -3,7 +3,7 @@ title: "How to Strike the Right Balance Between Security and Consumer Experience
 date: "2021-07-22"
 coverImage: "balancing-security-cx-cover.jpg"
 tags: ["data security","compliance","identity management","cx"]
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Delivering a perfect harmony of a great user experience along with the highest level of security is crucial today. Let’s learn why a great user experience shouldn’t be compromised for security and how LoginRadius helps enterprises create great personalized user experiences reinforced by strict security."
 metatitle: "How to Balance Security and Consumer Experience?"
 metadescription: "Security with great user experience is the key to consumer success. This post portrays the importance of both aspects along with the benefits of a CIAM."
