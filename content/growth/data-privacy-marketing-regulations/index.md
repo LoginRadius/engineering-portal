@@ -3,7 +3,7 @@ title: "Navigating the Shifting Landscape of Data Privacy Regulations: Embracing
 date: "2024-04-30"
 coverImage: "data-privacy.jpg"
 tags: ["data privacy","compliance","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "In today's digital business landscape, navigating data privacy regulations is paramount. Discover how businesses worldwide are adapting to safeguard user data privacy while embracing transparency and responsible personalization. Explore the importance of empowering users through choice and accountability in the ever-evolving regulatory landscape."
 meta-title: "Data Privacy Regulations and its Core Marketing Principles"
 metadescription: "Discover how businesses adapt to evolving data privacy laws, ensuring transparency, responsible personalization, and user empowerment in marketing strategies."

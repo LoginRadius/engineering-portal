@@ -3,7 +3,7 @@ title: "Passkeys: Unlocking Benefits for a Better Online Shopping Experience"
 date: "2024-07-23"
 coverImage: "online-shopping.jpg"
 tags: ["passkeys","data security","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "Passkeys are revolutionizing how we shop online, providing a seamless, secure, and convenient experience. This blog explores the major benefits of using passkeys and how they can transform your online shopping journey."
 meta-title: "Benefits of Passkeys For A Better Online Shopping Experience"
 metadescription: "Discover how passkeys enhance online shopping by offering simplicity, security, & convenience. Learn about the key benefits that make passkeys a game-changer."

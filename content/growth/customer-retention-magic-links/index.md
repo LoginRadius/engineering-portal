@@ -3,7 +3,7 @@ title: "Enhancing Customer Retention with Magic Links: A User-Friendly Approach 
 date: "2024-03-28"
 coverImage: "customer-retention.jpg"
 tags: ["user authentication","customer retention","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "Discover the magic of Magic Links, a frictionless authentication method that simplifies login. Easily enhance security and boost customer retention. Say goodbye to password woes and 2FA complexity. Learn how to implement Magic Links for a seamless user experience."
 meta-title: "Simplifying Customer Retention With Magic Links"
 metadescription: "Discover how magic links transform user authentication, enhance security, & customer loyalty. Learn about the simplicity, security, & benefits for businesses."

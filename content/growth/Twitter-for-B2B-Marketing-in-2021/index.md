@@ -4,7 +4,7 @@ date: "2021-05-13"
 coverImage: "Twitter-for-B2B-Marketing-in-2021.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Twitter accounts are becoming quite popular, with 82% of companies using Twitter for B2B marketing. Here are some ways to use this network to capitalize on new partnerships and customer relationships. Read this blog also to learn how to create a solid B2B Twitter marketing plan."
 metadescription: "Twitter is the right choice for B2B marketing this year, here find out how to create brand awareness, generate leads and build a community with it."
 metatitle: "Top Ways for B2B Marketers Can Use Twitter to Drive Business Results"

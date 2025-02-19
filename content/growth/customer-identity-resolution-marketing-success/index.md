@@ -3,7 +3,7 @@ title: "How to Leverage Advanced Customer Identity Resolution for Better Marketi
 date: "2024-06-27"
 coverImage: "customer-id-res.jpg"
 tags: ["identity resolution","compliance","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "In the digital marketing landscape, understanding your customers is crucial for driving exceptional results. Advanced customer identity resolution unifies disparate data points to create comprehensive customer profiles. This enables personalized experiences, precise targeting, and higher ROI. Explore the power and implementation of this technology to enhance your marketing strategy."
 meta-title: "Advanced Customer Identity Resolution for Marketing Success"
 metadescription: "Discover how advanced customer identity resolution can transform your marketing strategy by enhancing personalization, improving targeting, and increasing ROI."

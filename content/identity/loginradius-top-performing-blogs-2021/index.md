@@ -4,7 +4,7 @@ date: "2021-12-29"
 coverImage: "performing-blogs.jpg"
 tags: ["LoginRadius"]
 featured: false
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Our insightful blogs helped millions of people globally understand, implement, and enhance their platform experience by leveraging cutting-edge technology in the CIAM landscape in 2021. Here we’ve compiled a list of our top-performing blogs of 2021 that can help you quickly find the most admired and insightful posts to solve your purpose."
 metatitle: "LoginRadius’ Top 10 Performing Blogs of 2021"
 metadescription: "LoginRadius’ blogs helped people understand the importance of securing consumer identities through a CIAM solution. Check out our top 10 blogs of 2021."

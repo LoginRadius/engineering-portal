@@ -3,7 +3,7 @@ title: "The Strategic Impact of Customer Identity on Business Growth"
 date: "2024-07-03"
 coverImage: "business-growth.jpg"
 tags: ["customer identity management","cx"]
-author: "Mark Debroeck"
+author: "Cooper Matheson"
 description: "Understanding and leveraging customer identity is crucial for driving business growth in today's competitive market. By personalizing customer experiences and utilizing data effectively, businesses can meet customer expectations and achieve substantial growth."
 meta-title: "How Customer Identity Drives Business Growth"
 metadescription: "Discover how understanding and leveraging customer identity can drive significant business growth. Learn strategies to enhance customer experiences."

@@ -4,7 +4,7 @@ date: "2021-06-24"
 coverImage: "brand-engagement.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Today's world is increasingly clamoring for authenticity. Companies, especially brands, are being held accountable to consumers' demands and judgments about their sincerity. To many people, authenticity is more important than hope."
 metadescription: "Here is why brand identity or authenticity is crucial for today’s business success and how to go about building the same."
 metatitle: "Why brand authenticity is important. Learn top 5 Steps to Build a Better Brand Identity"

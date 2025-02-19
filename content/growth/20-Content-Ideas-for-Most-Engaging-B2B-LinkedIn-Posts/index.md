@@ -4,7 +4,7 @@ date: "2021-03-19"
 coverImage: "linkedin-post-loginradius.jpg"
 category: ["loginradius"]
 featured: false 
-author: "Srishti Singh"
+author: "Navanita Devi"
 description: "Content on LinkedIn makes all the difference to the promotion of a brand. It can make or break one's presence on LinkedIn. Therefore, it is essential to figure out the tone of LinkedIn posts, depending on the target demographic."
 metadescription: "Find awesome content ideas that will help you create high engaging B2B LinkedIn posts. The right content can help you build a large customer base and boost your sales. "
 metatitle: "20 Content Ideas for Most Engaging B2B LinkedIn Posts"
