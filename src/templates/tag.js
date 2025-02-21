@@ -82,6 +82,7 @@ export const pageQuery = graphql`
           html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            updated_date(formatString: "MMMM DD, YYYY")
             title
             tags
             coverImage {

@@ -4,7 +4,7 @@ import React from "react"
 import styles from "./bio.module.scss"
 import { faCreativeCommonsPd } from "@fortawesome/free-brands-svg-icons"
 
-const Bio = ({ date, author, pinned, readingTime }) => {
+const Bio = ({ created_date, updated_date, author, pinned, readingTime }) => {
   const githubUrl = author.github
     ? `https://github.com/${author.github}.png?size=50`
     : author.avatar
@@ -32,10 +32,21 @@ const Bio = ({ date, author, pinned, readingTime }) => {
         <Link to={`/author/${kebabCase(author.id)}/`}>
           <strong>{author.id}</strong>
         </Link>
-        <div className={styles.dateWrap}>
-          <div className={styles.date}>{date}</div>
-          <div className={styles.time}>{readingTime}</div>
-        </div>
+        {created_date && (
+          <div className={styles.dateWrap}>
+            <div className={styles.date}>{created_date}</div>
+          </div>
+        )}
+        {updated_date && (
+          <div className={styles.dateWrap}>
+            <div className={styles.date}>{updated_date}</div>
+          </div>
+        )}
+        {readingTime && (
+          <div className={styles.dateWrap}>
+            <div className={styles.time}>{readingTime}</div>
+          </div>
+        )}
       </div>
     </div>
   )

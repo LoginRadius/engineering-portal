@@ -149,6 +149,7 @@ export const pageQuery = graphql`
               avatar
             }
             date(formatString: "MMMM DD, YYYY")
+            updated_date(formatString: "MMMM DD, YYYY")
             tags
             coverImage {
               childImageSharp {

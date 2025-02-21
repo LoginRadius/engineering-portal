@@ -1,6 +1,7 @@
 ---
 title: "Top 10 Benefits of Multi-Factor Authentication (MFA)"
-date: "2025-02-18"
+date: "2020-07-16"
+updated_date: "2025-02-18"
 coverImage: "benefits-of-mfa.webp"
 tags: ["benefits of mfa","digital transformation","cx"]
 author: "Rakesh Soni"
