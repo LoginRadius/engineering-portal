@@ -25,14 +25,7 @@ Here’s a closer look at what’s new and why it’s important:
 ### A Developer-Friendly Dark Theme
 
   
-![](a-developer-friendly-dark-theme.webp)  
-  
-
-Alt text: This image shows how LoginRadius offers several authentication methods like traditional login, social login, passwordless login, passkeys and more in a dark mode.
-
-  
-  
-  
+![This image shows how LoginRadius offers several authentication methods like traditional login, social login, passwordless login, passkeys and more in a dark mode.](a-developer-friendly-dark-theme.webp)    
   
 
 Developers spend long hours working in dark-themed IDEs and terminals, so we’ve designed the LoginRadius experience to be developer-friendly and align with that preference.
@@ -44,10 +37,7 @@ So, whether you’re navigating our API docs or configuring authentication into 
 ### Clear Categorization for LoginRadius Capabilities
 
   
-![](capabilities.webp)  
-
-Alt text: This image shows a breakdown of all the LoginRadius CIAM capabilities, including authentication, security, UX, scalability and multi-brand management.
-
+![This image shows a breakdown of all the LoginRadius CIAM capabilities, including authentication, security, UX, scalability and multi-brand management.](capabilities.webp)
   
 
 We’ve restructured our website to provide a straightforward breakdown of our customer identity and access management platform capabilities, helping you quickly find what you need:
@@ -68,12 +58,7 @@ This structured layout ensures you can quickly understand each capability and ho
 ### Developer-First Navigation
 
   
-![](developers-menu.webp)  
-  
-
-Alt text: This image shows the LoginRadius menu bar, highlighting the developer dropdown.
-
-  
+![This image shows the LoginRadius menu bar, highlighting the developer dropdown.](developers-menu.webp)   
 
 We’ve been analyzing developer workflows to identify how you access key resources. That’s why we redesigned our navigation with one goal in mind: to reduce clicks and make essential resources readily available.
 
@@ -82,11 +67,8 @@ The new LoginRadius structure puts APIs, SDKs, and integration guides right at t
 ### Quick Understanding of Integration Benefits
 
   
-![](we-support-your-tech-stack.webp)
-
-Alt text: This image shows a list of popular programming languages and frameworks offered by LoginRadius.
-
-  
+![This image shows a list of popular programming languages and frameworks offered by LoginRadius.](we-support-your-tech-stack.webp)
+ 
 
 Developers now have a clear view of the tech stack available with LoginRadius, designed to support diverse business needs.
 
@@ -94,12 +76,7 @@ Our platform offers pre-built SDKs for Node.js, Python, Java, and more, making C
 
 ### A Developer-Friendly Documentation Experience
 
-Alt text: This image displays the LoginRadius developer docs section, highlighting its structured layout and easy navigation.
-![](a-developer-friendly-documentation-experience.webp)
-
-  
-  
-  
+![This image displays the LoginRadius developer docs section, highlighting its structured layout and easy navigation.](a-developer-friendly-documentation-experience.webp)
 
 We’ve restructured the [LoginRadius documentation](https://www.loginradius.com/docs/) to make integration even smoother for developers. With a cleaner layout and intuitive navigation, finding the right information now takes fewer clicks.
 
