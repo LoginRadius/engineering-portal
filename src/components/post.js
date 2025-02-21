@@ -72,7 +72,8 @@ const Post = ({ post, relatedPost, type }) => {
                 ))}
             </div>
             <Bio
-              date={post.frontmatter.date}
+              created_date={post.frontmatter.date}
+              updated_date={post.frontmatter.updated_date}
               author={author}
               readingTime={getTimeToRead(post.html)}
             />

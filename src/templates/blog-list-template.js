@@ -74,6 +74,7 @@ export const blogListQuery = graphql`
           html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            updated_date(formatString: "MMMM DD, YYYY")
             description
             title
             tags
@@ -102,6 +103,7 @@ export const blogListQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        updated_date(formatString: "MMMM DD, YYYY")
         description
         title
         tags
