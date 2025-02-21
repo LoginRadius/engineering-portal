@@ -57,7 +57,8 @@ const Card = ({ node }) => {
           </div>
           {node.frontmatter.author && (
             <Bio
-              date={node.frontmatter.date}
+              created_date={node.frontmatter.date}
+              updated_date={node.frontmatter.updated_date}
               author={node.frontmatter.author}
               readingTime={getTimeToRead(node.html)}
             />

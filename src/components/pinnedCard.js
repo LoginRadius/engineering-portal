@@ -64,7 +64,8 @@ const PinnedCard = props => {
             </div>
             {node.frontmatter.author && (
               <Bio
-                date={node.frontmatter.date}
+                created_date={node.frontmatter.date}
+                updated_date={node.frontmatter.updated_date}
                 author={node.frontmatter.author}
                 pinned
                 readingTime={getTimeToRead(node.html)}

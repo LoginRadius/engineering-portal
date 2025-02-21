@@ -42,18 +42,7 @@
     font-size: 1rem;
     margin-top: 4px;
     .time {
-      margin-left: 18px;
       position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        width: 3px;
-        height: 3px;
-        background-color: $gray-dark;
-        border-radius: 3px;
-        top: 10px;
-        left: -10px;
-      }
     }
   }
 }
