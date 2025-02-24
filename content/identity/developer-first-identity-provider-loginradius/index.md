@@ -74,16 +74,6 @@ Developers now have a clear view of the tech stack available with LoginRadius, d
 
 Our platform offers pre-built SDKs for Node.js, Python, Java, and more, making CIAM integration seamless across popular programming languages and frameworks.
 
-### A Developer-Friendly Documentation Experience
-
-![This image displays the LoginRadius developer docs section, highlighting its structured layout and easy navigation.](a-developer-friendly-documentation-experience.webp)
-
-We’ve restructured the [LoginRadius documentation](https://www.loginradius.com/docs/) to make integration even smoother for developers. With a cleaner layout and intuitive navigation, finding the right information now takes fewer clicks.
-
-The Quick Starts section provides step-by-step guides to help you get up and running fast, while detailed SDK documentation covers multiple programming languages and frameworks. Everything is organized into intuitive categories like Authentication, Orchestration, Single Sign-On, Branding & Security, and more, so you can quickly navigate to relevant content.
-
-With enhanced guides, comprehensive API references, and real-world examples, the revamped documentation ensures a frictionless CIAM architecture—so you can focus on building, not troubleshooting.
-
 ## Over to You Now!
 
 Check out our revamped LoginRadius website and see how the improved experience makes it easier to build, scale, and secure your applications.
