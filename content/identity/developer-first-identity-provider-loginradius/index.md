@@ -1,8 +1,9 @@
 ---
-title: "Revamped & Ready LoginRadius Just Got Better for Developers"
+title: "Revamped & Ready: Introducing the New Developer-First LoginRadius Website"
 date: "2025-02-21"
 coverImage: "hero-section.webp"
-tags: []
+pinned: true
+tags: ["Developer tools","API","Identity Management","User Authentication"] 
 author: "Rakesh Soni"
 description: "LoginRadius’ vision is to give developers a product that simplifies identity management so they can focus on building, deploying, and scaling their applications. To enhance this experience, we’ve redesigned our website interface, making navigation more intuitive and reassuring that essential resources are easily accessible."
 metatitle: "Revamped & Ready LoginRadius Just Got Better for Developers"
@@ -12,7 +13,7 @@ metadescription: "Experience the new developer-first LoginRadius, which is redes
 
 Identity is evolving, and developers are at the forefront of this transformation. Every day brings a new learning—adapting to new standards and refining approaches to building secure, seamless experiences.
 
-We’re here to support developers on that journey. We know how important simplicity, efficiency, and well-structured documentation are when working with identity and access management solutions. That’s why we’ve redesigned the LoginRadius website—to be faster, more intuitive, and developer-first in every way.
+We’re here to support developers on that journey. We know how important simplicity, efficiency, and well-structured documentation are when working with identity and access management solutions. That’s why we’ve redesigned the [LoginRadius website](https://www.loginradius.com/)—to be faster, more intuitive, and developer-first in every way.
 
 The goal? Having them spend less time searching and more time building.
 
@@ -76,6 +77,6 @@ Our platform offers pre-built SDKs for Node.js, Python, Java, and more, making C
 
 ## Over to You Now!
 
-Check out our revamped LoginRadius website and see how the improved experience makes it easier to build, scale, and secure your applications.
+Check out our [revamped LoginRadius website](https://www.loginradius.com/) and see how the improved experience makes it easier to build, scale, and secure your applications.
 
 Do not forget to explore the improved navigation and API documentation, and get started with our free trial today. We’re excited to see what you’ll build with LoginRadius!
