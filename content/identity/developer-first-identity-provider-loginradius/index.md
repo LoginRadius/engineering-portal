@@ -2,6 +2,7 @@
 title: "Revamped & Ready LoginRadius Just Got Better for Developers"
 date: "2025-02-21"
 coverImage: "hero-section.webp"
+pinned: true
 tags: []
 author: "Rakesh Soni"
 description: "LoginRadius’ vision is to give developers a product that simplifies identity management so they can focus on building, deploying, and scaling their applications. To enhance this experience, we’ve redesigned our website interface, making navigation more intuitive and reassuring that essential resources are easily accessible."
