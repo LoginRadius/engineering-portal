@@ -33,7 +33,13 @@ const AuthorTemplate = ({
     <SEO
       title={`${id} - Author`}
       description={`${id} - ${bio}`}
-      image={`https://github.com/${github}.png`}
+      image={
+        avatar
+          ? `${withPrefix("avatar/")}${avatar}`
+          : github
+          ? `https://github.com/${github}.png?size=100`
+          : `https://ui-avatars.com/api/?name=${id}&size=460`
+      }
       pathname={location.pathname}
     />
     <main>
@@ -43,10 +49,10 @@ const AuthorTemplate = ({
             <div className={styles.authorImage}>
               <img
                 src={
-                  github
-                    ? `https://github.com/${github}.png?size=100`
-                    : avatar
+                  avatar
                     ? `${withPrefix("avatar/")}${avatar}`
+                    : github
+                    ? `https://github.com/${github}.png?size=100`
                     : `https://ui-avatars.com/api/?name=${id}&size=460`
                 }
                 alt={id}
