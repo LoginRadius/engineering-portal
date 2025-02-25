@@ -39,10 +39,10 @@ const Post = ({ post, relatedPost, type }) => {
   const image = post.frontmatter.coverImage
   const tags = post.frontmatter.tags || []
   const author = post.frontmatter.author
-  const githubUrl = author.github
-    ? `https://github.com/${author.github}.png?size=100`
-    : author.avatar
+  const githubUrl = author.avatar
     ? `${withPrefix("avatar/")}${author.avatar}`
+    : author.github
+    ? `https://github.com/${author.github}.png?size=50`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
 
   return (
