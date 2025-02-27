@@ -1,6 +1,6 @@
 ﻿---
 title: "Risk-Based Authentication vs. MFA: Key Differences Explained"
-date: "2022-04-12"
+date: "2025-02-27"
 coverImage: "banner.webp"
 tags: ["API","Identity Management","User Authentication","CIAM Security"]
 author: "Kundan Singh"
