@@ -55,7 +55,7 @@ Just like the above line from the text box says “just enter your topic and go�
 
 ![portent]( portent.png?ver=1553881376)
 
-This great tool on my favorite list is very easy to use. You just need to enter your idea and [Portent’s Content Idea Generator](https://www.portent.com/tools/title-maker) will provide you with a great title for your post. And if you don’t like the title, refresh your subject, and it will give you a different title instantly.
+This great tool on my favorite list is very easy to use. You just need to enter your idea and Portent’s Content Idea Generator will provide you with a great title for your post. And if you don’t like the title, refresh your subject, and it will give you a different title instantly.
 
 ### **Topic researcher tools**
 
