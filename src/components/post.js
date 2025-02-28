@@ -117,7 +117,6 @@ const Post = ({ post, relatedPost, type }) => {
                 className={styles.postContent}
                 dangerouslySetInnerHTML={{ __html: modifiedHtml }}
               />
-              888888888
               <div className={`${styles.author} d-flex py-96`}>
                 <div className={styles.authorImage}>
                   <Link to={`/author/${kebabCase(author.id)}/`}>
