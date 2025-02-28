@@ -1,7 +1,7 @@
 import { Link, withPrefix } from "gatsby"
 import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import ReactGA from "react-ga"
 import Helmet from "react-helmet"
 //import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
@@ -44,6 +44,26 @@ const Post = ({ post, relatedPost, type }) => {
     : author.github
     ? `https://github.com/${author.github}.png?size=50`
     : `https://ui-avatars.com/api/?name=${author.id}&size=460`
+
+  const [modifiedHtml, setModifiedHtml] = useState(post.html)
+
+  useEffect(() => {
+    const parser = new DOMParser()
+    const doc = parser.parseFromString(post.html, "text/html")
+
+    doc.querySelectorAll("a").forEach(anchor => {
+      try {
+        const url = new URL(anchor.href, window.location.origin)
+        if (!url.href.includes("www.loginradius.com")) {
+          anchor.setAttribute("target", "_blank")
+        }
+      } catch (e) {
+        console.error("Invalid URL:", anchor.href)
+      }
+    })
+
+    setModifiedHtml(doc.body.innerHTML)
+  }, [post.html])
 
   return (
     <>
@@ -95,9 +115,9 @@ const Post = ({ post, relatedPost, type }) => {
             <div>
               <div
                 className={styles.postContent}
-                dangerouslySetInnerHTML={{ __html: post.html }}
+                dangerouslySetInnerHTML={{ __html: modifiedHtml }}
               />
-
+              888888888
               <div className={`${styles.author} d-flex py-96`}>
                 <div className={styles.authorImage}>
                   <Link to={`/author/${kebabCase(author.id)}/`}>
