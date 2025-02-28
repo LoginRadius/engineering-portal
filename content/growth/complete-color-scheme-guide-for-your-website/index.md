@@ -118,10 +118,6 @@ Coolors is an awesome site to generate color schemes. You can generate, store an
 
 [Adobe Color CC](https://color.adobe.com/create/color-wheel/) is a one-stop palette generator that allows you to generate color palettes with the help of its huge collection of color combinations (these combinations are created and curated by Kuler community).
 
-#### **4\. Sporting Hues**
-
-The [site](http://www.simeon.ws/hues/) basically supports sports colors and the categories are named as EPL, MLB, NBA and NFL.
-
 ### **Choosing the Right Background Color**
 
 Have you ever picked a wall color? If you have, you can easily relate to the process of selecting the website background.
