@@ -111,7 +111,7 @@ Despite the few reservations that users may have regarding the safety of social 
 
 Implementing social login authentication offers numerous benefits for both developers and users. It streamlines the user experience, improves security, and enhances engagement. Despite potential concerns, such as data breaches, the benefits of social login, especially when coupled with multi-factor authentication, outweigh the risks. Consider integrating social login into your applications today to stay competitive and provide a seamless experience for your users.
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **1: Why implement social login?**
 

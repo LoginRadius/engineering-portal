@@ -127,7 +127,7 @@ One-time password and FIDO U2F token technologies are used for authentication in
 
 To sum up, multi-factor authentication (MFA) is an important layer of security that’s becoming standard in enterprise SSO deployments. While it’s not a silver bullet, it’s likely the last line of defense in most situations, so its importance shouldn’t be overlooked. It’s already made a difference in the SSO world alone, and MFA will likely continue to have even more influence in the future. 
 
-## Frequently Asked Questions (FAQs) 
+## FAQs 
 
 **1. What is SSO and 2FA?**
 

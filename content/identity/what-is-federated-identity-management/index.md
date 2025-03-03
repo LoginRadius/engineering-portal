@@ -147,7 +147,7 @@ FIM enhances the overall user experience of a customer by bringing into effect t
 
 FIM is all set to go mainstream for being a relatively young technology, which speaks volumes of the rapid pace with which organizations are implementing it. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is federated identity management?**
 

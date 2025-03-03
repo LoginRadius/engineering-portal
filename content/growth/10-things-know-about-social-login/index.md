@@ -185,7 +185,7 @@ This can lead to the creation of multiple accounts by the same person and potent
 
 In summary, social logins are the next wave of innovation in customer identity management, and businesses simply can't afford to ignore them. By allowing customers to use their social media profiles to identify themselves, businesses can bring a new level of convenience to the sign-up process, as well as gain access to vital customer data.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is social media login?**
 

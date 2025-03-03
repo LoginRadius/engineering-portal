@@ -197,7 +197,7 @@ Multi-Factor Authentication is a critical component of modern cybersecurity. By 
 
 Businesses should implement MFA by choosing the right multi-factor authentication provider to safeguard sensitive information, reduce fraud risks, and comply with security regulations.
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **1. Why is MFA important to security?**
 

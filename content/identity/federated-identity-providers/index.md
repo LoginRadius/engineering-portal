@@ -79,7 +79,7 @@ The OAuth specifications define the following roles:
 Federated identity management streamlines user experience and enhances security by allowing consumers to access multiple applications and services using a single digital identity across trusted domains. By centralizing authentication and authorization processes, federated identity reduces administrative overhead, improves interoperability, and supports scalability. With protocols like SAML, OpenID, and OAuth, federated identity management provides a robust framework for secure and efficient identity and access management in today's digital enterprises.
 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is SSO vs federated identity?** 
 

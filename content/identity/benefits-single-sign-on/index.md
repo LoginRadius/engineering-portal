@@ -185,7 +185,7 @@ SSO facilitates centralized access control and authentication management, simpli
 
 By conducting a comprehensive ROI analysis, businesses can quantify the financial benefits of SSO implementation and make informed decisions about investing in this technology to drive efficiency, productivity, and security across the organization.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What are the benefits of SSO and MFA?**
 

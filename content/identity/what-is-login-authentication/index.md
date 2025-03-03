@@ -195,7 +195,7 @@ If you wish to experience how LoginRadius works for your business, reach us toda
 
 Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution drives [ROI for your business](https://www.loginradius.com/blog/identity/loginradius-roi-enterprises-infographic/).
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 #### **1. How do I make an authentication login?**
 

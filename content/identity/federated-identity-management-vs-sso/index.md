@@ -135,7 +135,7 @@ Expanding digital identity management can boost an organization's work efficienc
 
 As you advance towards improving customer and employee support, these protocols can help you streamline password creation and [user authentication](https://www.loginradius.com/authentication/).
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is an example of a federated SSO?**
 

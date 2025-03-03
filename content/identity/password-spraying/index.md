@@ -106,7 +106,7 @@ LoginRadius offers the following security benefits for enterprises.
 
 As technology advances, so must we. There's no longer any benefit to sticking to traditional methods, and as far as identity management is concerned. Going passwordless just might be what your company needs to protect itself from not just password spraying, but from a host of other equally malicious cyber-attacks.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1: How is a password spraying attack conducted?**
 

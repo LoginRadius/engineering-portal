@@ -117,7 +117,7 @@ Passkeys are paving the way for a more secure and user-friendly digital world as
 
 Organizations and individuals alike can embrace this revolutionary technology by understanding passkeys, why they are crucial, and how they can be integrated into a robust security infrastructure. Say goodbye to passwords and hello to a safer, more secure online experience.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is a passkey?**
 

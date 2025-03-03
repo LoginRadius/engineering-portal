@@ -101,7 +101,7 @@ In this article, we talked about applying a Social Login on consumers websites a
   
 Cheers!
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 1.**Which is the most popular social login?**
 
