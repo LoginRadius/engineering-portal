@@ -10,11 +10,13 @@ metadescription: "Discover the types of Multi Factor Authentication, how they wo
 ---
 
 
+## Introduction
+
 Cybersecurity threats are evolving, making it crucial for businesses and individuals to strengthen authentication security. One of the most effective ways is through Multi-Factor Authentication (MFA). This security mechanism requires users to verify their identity using multiple authentication methods before accessing your app, an account, or a system.
 
 Let’s explore the types of Multi Factor Authentication and how MFA works with some examples and how to choose the right combination of authentication methods for your needs.
 
-What Is Multi Factor Authentication?
+## What Is Multi Factor Authentication?
 
 [Multi Factor Authentication (MFA)](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) is a security process that requires users to provide two or more authentication factor types to verify their identity. Unlike passwords alone, MFA adds extra security layers, making it much harder for hackers to gain unauthorized access.
 
@@ -31,7 +33,7 @@ By combining these factors, MFA strengthens authentication security and reduces 
 
 Today, multi factor auth options are widely implemented across industries to secure user accounts and sensitive data.
 
-How Multi Factor Authentication Works
+## How Multi Factor Authentication Works
 
 MFA works by requiring users to verify their identity through multiple steps. Here’s a typical authentication flow:
 
@@ -60,7 +62,7 @@ Users receive a one-time passcode (OTP) via email, which they must enter to comp
 
 A temporary password is sent via SMS or voice call, which expires after use. Although convenient, SIM swap attacks can compromise this method. OTP authentication works best when combined with another authentication method. Here’s how you can quickly configure OTP authentication.
 
-![SMS OTP](sms-otp.webp)
+![OTP verification screen displaying a secure login process via SMS. User enters a one-time password (OTP) sent to a masked phone number. A 'Verification Successful' message confirms authentication.](sms-otp.webp)
 
 ### 3. Biometric Verification
 
@@ -161,7 +163,7 @@ Selecting the appropriate MFA authentication method for your business needs depe
 
 If you want a detailed guide on MFA best practices, download this insightful guide:
 
-![](authenticateyour-customers-digital-assets-with-mfa.png)
+[![OTP verification screen displaying a secure login process via SMS. User enters a one-time password (OTP) sent to a masked phone number. A 'Verification Successful' message confirms authentication.](authenticateyour-customers-digital-assets-with-mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
   
 

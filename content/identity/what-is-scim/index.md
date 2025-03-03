@@ -19,7 +19,7 @@ SCIM, short for System for Cross-Domain Identity Management, is an open standard
 
 At its core, SCIM simplifies the tedious process of creating, updating, and deleting user accounts in external systems. For example, when a new employee joins a company, SCIM automates account provisioning in applications like email, collaboration tools, and SaaS platforms—eliminating the need for manual intervention.
 
-The protocol’s efficiency and scalability make it a favorite among developers working on [identity management systems.](http://loginradius.com)
+The protocol’s efficiency and scalability make it a favorite among developers working on [identity management systems.](https://www.loginradius.com/)
 
 SCIM is part of a broader system for cross-domain identity management, which provides standardization and interoperability across diverse applications and platforms.
 
