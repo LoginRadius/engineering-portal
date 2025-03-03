@@ -160,7 +160,7 @@ Many companies provide their customers with a [modern digital experience](https:
 
 A CIAM solution like LoginRadius can help you achieve this with customer account information, including data, consent, and activity, accessible from one dashboard.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is the difference between CIAM and IAM?**
 

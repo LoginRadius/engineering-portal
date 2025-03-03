@@ -113,7 +113,7 @@ Customer identity verification is critical to maintaining trust in the digital w
 
 As digital interactions continue to shape how we do business, investing in robust identity verification processes is not just a necessity; it's a strategic imperative for long-term success and trust-building with your customers.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is customer identity verification?**
 

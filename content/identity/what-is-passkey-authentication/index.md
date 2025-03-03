@@ -91,7 +91,7 @@ For developers, they simplify integration by eliminating the need to store and m
 This evolution signifies the shift toward a more streamlined and robust passwordless future.
 
 
-# Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is passkey authentication?**
 A. Passkey authentication replaces passwords with cryptographic key pairs for secure and seamless login.

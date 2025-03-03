@@ -188,7 +188,7 @@ LoginRadius has an auto-scalable infrastructure for IdPs that can seamlessly int
 
 Choosing and integrating the right identity provider can have long term benefits for your business. Not only does it simplify the login process for the user, but it also allows you to keep track of your consumer’s accounts, data and passwords without hiring extra staff. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What do you mean by identity provider?**
 

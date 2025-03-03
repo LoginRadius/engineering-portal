@@ -133,7 +133,7 @@ However, a robust [cloud-based CIAM](https://www.loginradius.com/blog/identity/l
 
 If you wish to see the future of SSO and MFA in action and how it works for your business, reach us to schedule a free personal demo of the LoginRadius CIAM. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What are the disadvantages of using MFA?**
 

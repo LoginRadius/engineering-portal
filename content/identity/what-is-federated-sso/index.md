@@ -161,7 +161,7 @@ Undoubtedly, brands not leveraging a reliable SSO partner to offer seamless cros
 
 Businesses can invoke the true potential of inter-business SSO through LoginRadius CIAM and offer a rich customer experience and enhanced security.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. Why is federated SSO a mechanism?**
 

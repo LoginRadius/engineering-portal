@@ -133,7 +133,7 @@ By using automation, the platform eliminates the need for manual tasks, enabling
 
 For businesses managing complex CIAM use cases, LoginRadius offers the tools to unify, automate, and optimize identity processes across all platforms. Explore [LoginRadius Identity Orchestration](https://www.loginradius.com/identity-orchestration/) to discover more use cases.
 
-# Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is Identity Orchestration?**
 

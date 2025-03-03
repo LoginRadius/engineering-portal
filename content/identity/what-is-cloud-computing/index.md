@@ -137,7 +137,7 @@ However, when it comes to secure cloud computing, businesses shouldn’t forget 
 
 If you’re concerned about your cloud’s security, you can reach us out to find how LoginRadius’ cloud services can help you [secure your business and consumer data](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/).
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What are 3 reasons for the use of cloud computing?**
 

@@ -148,7 +148,7 @@ Passwordless Login provides consumers the most beneficial of both worlds: consum
 
 Cheers!
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. How does passwordless authentication reduce risk and improve user satisfaction?**
 

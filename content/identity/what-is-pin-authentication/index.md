@@ -105,7 +105,7 @@ In this blog, we’ve conveyed all the relevant information about what exactly a
 
 Cheers!
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1.  How does PIN-based authentication work?**
 

@@ -180,7 +180,7 @@ Businesses need to consider relying on a robust CIAM solution that helps in secu
 
 LoginRadius’ cutting-edge CIAM can be the ultimate choice for preserving crucial consumer data and offering a robust authentication mechanism backed with a great user experience. 
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **1. What is digital ID verification?**
 
