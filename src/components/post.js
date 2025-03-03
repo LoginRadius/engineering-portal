@@ -34,6 +34,32 @@ const signUplogger = function () {
     label: "Signup",
   })
 }
+const extractFAQs = htmlContent => {
+  let faqs = []
+
+  // Locate the FAQ section by finding <h2 id="faqs">
+  const faqIndex = htmlContent.indexOf('<h2 id="faqs"')
+
+  if (faqIndex !== -1) {
+    const faqContent = htmlContent.slice(faqIndex)
+    const questionMatches = [
+      ...faqContent.matchAll(/<p><strong>(\s*.*?)<\/strong><\/p>/gi),
+    ]
+    const allPTags = [...faqContent.matchAll(/<p>(.*?)<\/p>/gi)]
+    questionMatches.forEach(match => {
+      const question = match[1].trim()
+      const questionIndex = allPTags.findIndex(p => p[1].includes(question))
+      const answer =
+        questionIndex !== -1 && allPTags[questionIndex + 1]
+          ? allPTags[questionIndex + 1][1].trim()
+          : ""
+
+      faqs.push({ question, answer })
+    })
+  }
+  return faqs
+}
+
 const Post = ({ post, relatedPost, type }) => {
   const headings = post.headings
   const image = post.frontmatter.coverImage
@@ -64,9 +90,31 @@ const Post = ({ post, relatedPost, type }) => {
 
     setModifiedHtml(doc.body.innerHTML)
   }, [post.html])
-
+  const faqJsonData = extractFAQs(post.html)
+  let faqSchema = {}
+  if (faqJsonData.length > 0) {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqJsonData.map(faq => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    }
+  }
   return (
     <>
+      {faqJsonData.length > 0 && (
+        <Helmet>
+          <script type="application/ld+json">
+            {JSON.stringify(faqSchema)}
+          </script>
+        </Helmet>
+      )}
       <section
         className={`${headStyles.pinnedwrap} ${headStyles.postDetail} py-96`}
       >
