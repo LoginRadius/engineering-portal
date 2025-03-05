@@ -191,7 +191,7 @@ What more? Not having to manually define permissions saves time, reduces backlog
 
 Furthermore, with LoginRadius, opportunities to streamline CIAM are endless. That also includes securing access to privileged resources and safeguarding IT infrastructure from [cyber attacks](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/).
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1.  What are some real-world examples of authentication and authorization in use?**
 

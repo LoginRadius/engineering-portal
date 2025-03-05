@@ -68,7 +68,7 @@ In the hyperconnected world of online retail, where trust and security are param
 
 As technology advances and consumer expectations evolve, identity verification will remain a cornerstone of online retail's future.
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **1. How do you digitally verify your identity?**
 

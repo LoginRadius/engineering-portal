@@ -87,7 +87,7 @@ To learn more about Single-Tenant vs Multi-Tenant Cloud, check out the [infograp
 
 There are a lot of other factors an organization must keep in mind while deciding which SaaS architecture to choose. Some business factors are the purpose of cloud adoption, type of application, budget, scalability, customization, migration, visibility, backup, and recovery. Finally, organizations must brainstorm what they want to achieve and how their company operates to arrive at the best, ideal solution.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is the difference between single tenant vs multi tenant?**
 

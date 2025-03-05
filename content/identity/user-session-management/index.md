@@ -107,7 +107,7 @@ In this blog, we have tried to explain user session management in an easy-to-gra
 
 Cheers!
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 
 #### **1. What is session management?**

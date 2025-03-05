@@ -122,7 +122,7 @@ The [LoginRadius Identity Platform](https://www.loginradius.com/) provides two-f
 
 This concept of using several factors can drastically reduce the vulnerabilities of web applications and mobiles. After all, protecting consumer privacy is what matters the most.
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **1. What are some examples of two-factor authentication (2FA)?**
 

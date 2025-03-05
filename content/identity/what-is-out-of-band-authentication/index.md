@@ -136,7 +136,7 @@ Adding multiple authentication layers is now becoming the need of the hour, espe
 
 With out-of-band authentication, businesses can ensure robust security for their customers and their sensitive information, which is always at risk if multiple authentication factors aren’t incorporated. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is the difference between in-bound and out-bound authentication?**
 

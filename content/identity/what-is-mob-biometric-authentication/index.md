@@ -238,7 +238,7 @@ To address challenges in mobile biometric authentication, robust encryption, con
 
 With LoginRadius’ [Mobile Biometrics Authentication](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet), your business can enhance the security of mobile users along with their online experience.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1.  What is biometric verification?**
 
