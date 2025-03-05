@@ -32,18 +32,18 @@ We know that time matters when you’re developing, and our goal is to help you 
 
 <iframe src="https://player.vimeo.com/video/1062768219" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
--   Concise and well-structured content: Instructions are now clear and easy to follow, helping developers quickly find the information they need.
+-   **Concise and well-structured content:** Instructions are now clear and easy to follow, helping developers quickly find the information they need.
     
--   Step-by-step navigation: We introduced a tabbed structure that logically organizes steps in sequence. Developers can navigate through each step in a structured manner.
+-   **Step-by-step navigation:** We introduced a tabbed structure that logically organizes steps in sequence. Developers can navigate through each step in a structured manner.
     
 
 ## Aligning Documentation with Real Implementation Journeys
 
 Developers aren’t just looking for how-to guides to do one or two activities; they need a clear, sequential roadmap that mirrors the actual implementation journey. So, we took a developer-first approach and restructured our new documentation around these real-world journeys.
 
-![LoginRadius Docs](docs.png)
+<iframe src="https://player.vimeo.com/video/1062768098" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
--   Logical flow in tabs: Imagine you’re setting up authentication. You’d typically start with email login setup, then configure your email provider, and finally customize the email template. That’s exactly how we’ve structured our new documentation, following the natural flow of implementation. Now, instead of jumping between sections or searching for the next step, everything is laid out together and in the right order, making the process smoother and easier to follow.
+-   **Logical flow in tabs:** Imagine you’re setting up authentication. You’d typically start with email login setup, then configure your email provider, and finally customize the email template. That’s exactly how we’ve structured our new documentation, following the natural flow of implementation. Now, instead of jumping between sections or searching for the next step, everything is laid out together and in the right order, making the process smoother and easier to follow.
     
 
 ## AI-Powered Search and Chatbot
@@ -52,14 +52,14 @@ Finding the right information quickly is essential for developers. That’s why 
 
 Now, developers can get instant, relevant answers and navigate complex integration steps with ease. All of this while maintaining a conversational style just as if you are talking to a human (with an AI expert).
 
-![loginradius docs AI](docs-ai.png)
+<iframe src="https://player.vimeo.com/video/1062768164" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
--   AI-Powered Search: Imagine you’re deep in development and need an answer—fast. But you’re not sure of the exact keyword or where to look. Instead of digging through multiple sections, you can now simply ask in natural language using our Ask AI feature.
+-   **AI-Powered Search:** Imagine you’re deep in development and need an answer—fast. But you’re not sure of the exact keyword or where to look. Instead of digging through multiple sections, you can now simply ask in natural language using our Ask AI feature.
     
 
--   Need to configure passwordless login? Just ask: “How do I set up passwordless login?”
+	-   **Need to configure passwordless login?** Just ask: “How do I set up passwordless login?”
     
--   Looking for API details? Try: “What are the API endpoints for passwordless authentication?”
+	-   **Looking for API details?** Try: “What are the API endpoints for passwordless authentication?”
     
 
 The AI-powered search instantly delivers the most relevant results, helping you get answers without breaking your flow. Now, finding the right information feels as effortless as having a quick chat.
