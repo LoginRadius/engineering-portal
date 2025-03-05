@@ -139,7 +139,7 @@ To combat these common vulnerabilities, organizations can implement advanced aut
 
 Authenticating consumers is tricky and cumbersome. Taken together, a [CIAM solution](https://www.loginradius.com/) can help a great deal in offering login security. It incorporates the above techniques and all best practices to filter authorized access and prevent common attack scenarios. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What do you mean by login security?**
 

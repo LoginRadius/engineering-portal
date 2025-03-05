@@ -182,7 +182,7 @@ While they are not immune to hacking, users can minimize the risk of a breach by
 
 Implementing a password vault involves choosing a provider, installing the application, creating a master password, adding passwords, and using the password vault to access them. Overall, using a password vault is wise for anyone looking to protect their sensitive information and enhance their online security.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1.  Is it safe to use a password vault?**
 

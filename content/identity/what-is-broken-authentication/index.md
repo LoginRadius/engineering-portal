@@ -248,7 +248,7 @@ LoginRadius has been at the forefront of offering a multilevel security web app 
 
 Apart from the steps mentioned in this article, it's essential to train and educate your employees about broken authentication attacks. It would be best if you also employed [top-notch cybersecurity measures](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) to protect your company's database from session hijacking, credential stuffing, and other broken authentication attacks. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What are the solutions for broken authentication?**
 

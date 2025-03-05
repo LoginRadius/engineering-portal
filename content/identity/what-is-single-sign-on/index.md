@@ -246,7 +246,7 @@ Multipass is one of the most simple forms of authentication with SSO. [Multipass
 Deciding the best implementation method really depends on your individual situation, technical architecture, and business needs. 
 If you think a [readymade SSO solution](https://www.loginradius.com/single-sign-on/) is best for your company, a customer identity provider like LoginRadius will help you achieve fast and easy implementation.
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is an example of SSO?**
 

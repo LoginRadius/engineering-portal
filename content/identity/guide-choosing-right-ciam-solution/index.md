@@ -253,7 +253,7 @@ However, choosing the right CIAM solution could be challenging if you’ve just 
 
 The aspects mentioned above could help you simplify things, so you make the right decision for your overall business growth.  
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1. What is CIAM used for?**
 

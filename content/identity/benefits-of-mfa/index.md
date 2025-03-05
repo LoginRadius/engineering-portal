@@ -118,7 +118,7 @@ MFA is not just another security feature—it’s a necessity in today’s cyber
 
 If you wish to incorporate MFA into your apps/website, you can [read the implementation docs](https://www.loginradius.com/docs/security/customer-security/multi-factor-authentication/overview/) or quickly [book a live demo.](https://www.loginradius.com/book-a-demo/)
 
-## **Frequently Asked Questions (FAQs)**
+## FAQs
 
 **What is the risk of not using multi-factor authentication?**
 

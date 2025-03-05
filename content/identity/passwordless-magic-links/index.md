@@ -120,7 +120,7 @@ Depending on your business requirements, LoginRadius also supports a variety of 
 
 Magic links may not be one of the most reliable means of logging in, but it is undoubtedly a convenient means for [users to log in to their accounts](https://www.loginradius.com/blog/identity/2021/04/maintaining-quality-data-security-practices/). In today’s fast-paced times, any sort of validation needs to be done with immense meticulousness, and to cater to this need; a passwordless magic link is the right solution. 
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 **1.  What is a magic link?**
 
