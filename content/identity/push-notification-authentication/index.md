@@ -2,7 +2,7 @@
 title: "What is Push Notification Authentication and How It Works?"
 date: "2025-03-05"
 coverImage: "push-authentication.webp"
-tags: [”Identity Management”, ”User Authentication”, “CIAM Security”, “Authentication”]
+tags: ["Identity Management", "User Authentication", "CIAM Security", "Authentication"]
 author: "Kundan Singh"
 description: "Push notification authentication enhances security by allowing users to verify login attempts with a simple tap on their mobile devices. It eliminates the need for passwords and OTPs, reducing the risk of phishing and credential theft. Learn how push authentication works, its benefits, and how to integrate it into your applications."
 metatitle: "What is Push Notification Authentication and How It Works?"
