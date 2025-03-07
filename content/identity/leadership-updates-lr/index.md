@@ -12,7 +12,7 @@ We are thrilled to announce a series of leadership changes at LoginRadius, marki
 
 ## Acknowledging Contributions and Embracing New Beginnings
 
-With a mix of gratitude and anticipation, we announce Mr. Deepak Gupta's departure from his roles as the company's CTO and a Director of the Board. Mr. Gupta's vision and expertise have been fundamental in establishing a robust technological foundation for our company and shaping the culture that drives our innovation. His contributions have been invaluable, and we deeply appreciate the dedication and pioneering spirit he brought to LoginRadius. As we bid farewell to Mr. Gupta, we extend our heartfelt thanks for his years of service and wish him success in all his future endeavors.
+With a mix of gratitude and anticipation, LoginRadius bids farewell to Mr. Deepak Gupta, who served as the company’s CTO and a Director of the Board. Mr. Gupta joined LoginRadius as Software Development Manager in March 2015, advancing to CTO in May 2018, before transitioning to a contractor role in Aug 2022. In December 2023, he fully concluded his journey with the company. His leadership and technical expertise were instrumental in establishing LoginRadius' robust foundation and fostering a culture of innovation. As Mr. Gupta embarks on new endeavors, we wish him the best.
 
 ## Celebrating Promotions
 
