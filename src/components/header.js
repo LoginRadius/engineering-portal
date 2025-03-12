@@ -69,7 +69,7 @@ const Header = ({ searchIndex, pathname, type }) => {
           <span></span>
           <span></span>
         </div>
-
+{/*}
         <section className={headerStyles.hellobar}>
           <div className="content">
             <div className={headerStyles.hellobartext}>
@@ -90,7 +90,7 @@ const Header = ({ searchIndex, pathname, type }) => {
               </svg>
             </div>
           </div>
-        </section>
+        </section>*/}
         {/* <a className={headerStyles.logo} href={"https://www.loginradius.com/"}>
           <img src={LogoLr} alt={`logo`} className={headerStyles.lrLogo} />
         </a> */}
