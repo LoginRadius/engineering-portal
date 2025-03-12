@@ -61,7 +61,7 @@ export default function CardList({ posts, currentPage, type }) {
                         })
                       }
                     >
-                      {"Register Now"}
+                      {"Watch On-Demand"}
                     </a>
                   </div>
                 </>
