@@ -253,7 +253,7 @@ const Post = ({ post, relatedPost, type }) => {
                           })
                         }
                       >
-                        {"Register Now"}
+                        {"Watch On-Demand"}
                       </a>
                     </div>
                   </>

@@ -74,10 +74,10 @@ const Header = ({ searchIndex, pathname, type }) => {
           <div className="content">
             <div className={headerStyles.hellobartext}>
               <span className={headerStyles.kcicon}>
-                Shape Your 2025 Identity Strategy with LoginRadius.
+              2024 KuppingerCole Leadership Compass recognizes LoginRadius as Overall Leader.
               </span>
-              <a href="https://www.loginradius.com/resource/webinar/loginradius-roadmap-2025?utm_source=website&utm_medium=web&utm_campaign=hello-bar">
-                Join the Webinar
+              <a href="https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/">
+              Learn more
               </a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
