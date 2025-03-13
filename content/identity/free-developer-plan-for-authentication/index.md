@@ -144,7 +144,7 @@ That’s why our Free Forever plan isn’t just a feature-focused free tier. We 
 
 * **Hosted Login Pages**: No need to build authentication from scratch. Our hosted login pages let you quickly deploy secure, brand-aligned login experiences without managing the infrastructure.
 
-* **Standard Account Security: **We take security seriously. Your users’ data stays protected with built-in security measures, including encryption, secure session handling, and compliance-ready controls.
+* **Standard Account Security**: We take security seriously. Your users’ data stays protected with built-in security measures, including encryption, secure session handling, and compliance-ready controls.
 
 * **Self-Serve Deployment Tools and Libraries**: You can integrate LoginRadius into your app effortlessly with our developer-friendly SDKs, APIs, and pre-built integrations. No extra setup is required.
 
