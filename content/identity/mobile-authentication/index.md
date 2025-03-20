@@ -47,7 +47,7 @@ Phishing emails and smishing (SMS phishing) trick users into revealing authentic
 
 Public Wi-Fi networks pose security risks, as attackers can intercept authentication in mobile application data. Without advanced authentication methods, unauthorized users can hijack sessions and gain access to sensitive data.
 
-**Did you know? **Microsoft security trend report suggests that more than 1,000 password attacks are carried on every second, with [99.9%](https://www.microsoft.com/en-us/security/blog/2023/01/26/2023-identity-security-trends-and-solutions-from-microsoft/){:target="_blank"}succeeding when there is a missing MFA. Don't risk it—secure your apps now with LoginRadius’ MFA!
+**Did you know?** Microsoft security trend report suggests that more than 1,000 password attacks are carried on every second, with [99.9%](https://www.microsoft.com/en-us/security/blog/2023/01/26/2023-identity-security-trends-and-solutions-from-microsoft/) succeeding when there is a missing MFA. Don't risk it—secure your apps now with LoginRadius’ MFA!
 
 Download this E-book to learn how LoginRadius’ Adaptive Authentication shields your digital assets even in the highest-risk situations! 
 
