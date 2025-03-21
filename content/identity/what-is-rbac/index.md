@@ -195,19 +195,19 @@ Leveraging platforms like LoginRadius further simplifies the implementation and 
 
 ## FAQs
 
-**Q:** What is an example of role-based authentication? 
+**Q:** **What is an example of role-based authentication?** 
 
  **A:** An example includes granting 'admin' users access to sensitive settings, while limiting 'guest' users to viewing content only.
 
-**Q:** What is role authentication? 
+**Q:** **What is role authentication?**
 
  **A:** Role authentication assigns permissions based on users' roles within an organization, restricting or allowing actions accordingly.
 
-**Q:** What are the benefits of RBAC? 
+**Q:** **What are the benefits of RBAC?**
 
  **A:** RBAC enhances security, simplifies permission management, reduces errors, and ensures efficient access control aligned with user responsibilities.
 
-**Q:** What is the difference between RBAC and IAM? 
+**Q:** **What is the difference between RBAC and IAM?** 
 
  **A:** RBAC manages access based solely on user roles, whereas IAM (Identity and Access Management) comprehensively manages users' identities, roles, policies, and access privileges.
 
