@@ -1,6 +1,7 @@
 ---
 title: "2FA vs MFA: Understanding the Differences"
-date: "2025-03-21"
+date: "2024-02-06"
+updated_date: "2025-03-21"
 coverImage: "2fa-mfa-key-differences.webp"
 tags: ["Identity Management","Data Privacy","User Authentication","MFA","Authentication"]
 author: "Kundan Singh"
