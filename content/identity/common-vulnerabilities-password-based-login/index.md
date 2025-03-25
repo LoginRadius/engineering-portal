@@ -68,7 +68,7 @@ A [phishing attack](https://www.loginradius.com/blog/identity/phishing-for-ident
 
 If an attacker has a list of usernames and passwords obtained from a breach of a popular department store, he uses the same login credentials to try and log in to the site of a national bank. The attacker knows that some customers of that department store are the customers of that particular bank too. They can withdraw money if any customers use the same usernames and passwords for both services. But these attacks are known to have a low success rate.
 
-[The Digital Shadows Photon Research ](https://www.cpomagazine.com/cyber-security/digital-shadows-researchers-say-over-15-billion-stolen-passwords-are-circulating-on-the-dark-web/)states that the number of stolen username and password combinations currently available on the dark web is more than twice the number of humans on the planet. 
+The "Digital Shadows Photon Research" states that the number of stolen username and password combinations currently available on the dark web is more than twice the number of humans on the planet. 
 
 **How to prevent credential stuffing?**
 

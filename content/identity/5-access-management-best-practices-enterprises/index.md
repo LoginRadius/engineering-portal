@@ -47,7 +47,7 @@ Central platforms like [LoginRadius](https://www.loginradius.com/) let companies
 
 Access management needs to be both effective and easy to manage for the people who need access to your systems. 
 
-Take the grant systems that many institutions use as an example. They often have pristine access management protocols in place. If accessing this system were too easy in an unprotected environment, malicious actors could gain access to their systems and make off with precious information. But if that system wasn’t also user-friendly for authorized users, something as simple as asking “[how do student grants work](https://www.mos.com/blog/do-you-have-to-pay-back-grants/)” could be a nightmare time sucker.  
+Take the grant systems that many institutions use as an example. They often have pristine access management protocols in place. If accessing this system were too easy in an unprotected environment, malicious actors could gain access to their systems and make off with precious information. But if that system wasn’t also user-friendly for authorized users, something as simple as asking “how do student grants work” could be a nightmare time sucker.  
 
 
 ## Best Practices for Access Management 
