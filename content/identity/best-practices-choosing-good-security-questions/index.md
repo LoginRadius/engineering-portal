@@ -139,7 +139,7 @@ _“What is your birth month?”_
 
 By their very nature, even so-called good security questions are vulnerable to hackers because they aren’t random—users are meant to answer them in meaningful, memorable ways. And those answers could be obtained through [phishing](https://www.loginradius.com/blog/2018/02/phishing-for-identity), social engineering, or research.
 
-There’s a scene in the movie _[Now You See Me 2](https://en.wikipedia.org/wiki/NowYouSeeMe2)_ where a magician tricks his target into giving him the answers to his bank security questions. The magician guesses the answers and his target corrects him with the actual information. It’s a fictional example, but the phishing mechanics are real.
+There’s a scene in the movie _"Now You See Me 2"_ where a magician tricks his target into giving him the answers to his bank security questions. The magician guesses the answers and his target corrects him with the actual information. It’s a fictional example, but the phishing mechanics are real.
 
 Many social media memes tap into the answers to common security questions, such as the name of your first pet or the street you grew up on. So by innocently posting your superhero name or rapper name on Facebook, you’re inadvertently sharing important personal information.
 

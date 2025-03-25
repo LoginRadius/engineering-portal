@@ -58,8 +58,6 @@ OpOSSw7e485LOP5PrzScxHb7SR6sAOMRckfFwi4rp7o  ---------------->  OpOSSw7e485LOP5P
 
 This shows the decoded JSON Web Token. In the deserialized form, JWT contains only the header and the payload as plain JSON objects.
 
-JWT is implemented using JWS or JWE. Learn more about JWT [here](https://jwt.io/)
-
 ## JWS — JSON Web Signature
 
 JWS is used to represent content secured with digital signatures or Hash-based Message Authentication Codes (HMACs) with the help of JSON data structures. It cryptographically secures a JWS Header and JWS Payload with a JWS Signature. The encoded strings of these three are concatenated using dots similar to JWT. The identifiers and algorithms used are specified in the JSON Web Algorithms specification.

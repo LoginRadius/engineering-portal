@@ -87,7 +87,7 @@ In short, the more invested the player is in the experience, the more upset they
 
 Compared to TV, music, and film, the gaming industry is becoming one of the biggest industries in digital entertainment. In order to play their favorite games, players trust gaming companies with their personal information. 
 
-That’s why [data security](https://www.cpomagazine.com/tech/data-security-in-the-online-gaming-industry/) should be taken seriously. Here are the most common gaming security issues and how to remedy them.
+That’s why data security should be taken seriously. Here are the most common gaming security issues and how to remedy them.
 
 - **Weak authentication:** An average gamer needs to manage multiple accounts for multiple games. This means that players must remember multiple passwords for all of these games. As a result, they end up with weaker passwords or reusing the same password for multiple accounts. This, of course, makes hacking a gamer’s account “child’s play.”
 
