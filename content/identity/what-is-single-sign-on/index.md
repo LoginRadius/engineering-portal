@@ -142,7 +142,7 @@ The identity provider must also be configured to authenticate users and provide 
 
 ## How to Choose a Secure SSO Solution?
 
-Your SSO solution must meet the basic needs to support IT needs. That means a stable solution and a highly functional one. Today, digital transformation relies on a platform for [Customer](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) [](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) [Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM), which includes SSO and other tools. So, here what you need to keep in mind while narrowing down your SSO solution. 
+Your SSO solution must meet the basic needs to support IT needs. That means a stable solution and a highly functional one. Today, digital transformation relies on a platform for [Customer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM), which includes SSO and other tools. So, here what you need to keep in mind while narrowing down your SSO solution. 
 
 ![](Loginradius-secure-sso-solution.jpg)
 

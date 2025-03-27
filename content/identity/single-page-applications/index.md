@@ -48,7 +48,7 @@ Data is the only entity that is oscillated between the server and the webpage. T
 
 **Better cache capabilities**: Another advantage of single-page applications is that it can cache local data with utmost precision. It only takes one request to a server, and single-page applications effectively store all the data it receives. In the event of loss internet, this data can be put to use for seamless operation. 
 
-**Frictionless user experience**: If you are planning to build a single-page web application, rest assured, you will be offering [frictionless user experiences](https://www.loginradius.com/customer-experience-solutions/) [](https://www.loginradius.com/customer-experience-solutions/) to your consumers. Since it only loads the requested data, there is a significant improvement in performance as well. 
+**Frictionless user experience**: If you are planning to build a single-page web application, rest assured, you will be offering [frictionless user experiences](https://www.loginradius.com/customer-experience-solutions/) to your consumers. Since it only loads the requested data, there is a significant improvement in performance as well. 
 
 ### From the consumer perspective 
 
