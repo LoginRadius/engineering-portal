@@ -99,7 +99,7 @@ More than 50 heatmap tools are available on the internet, and Hotjar often featu
 
   
 
-According to statistics, more than [900,000 enterprises](https://techairgroup.com/hotjar-microsoft-clarity-heatmaps/#:~:text=MS%20Clarity%20offers%20heatmaps%20for,excessive%20scrolling%2C%20and%20JavaScript%20errors.) spread across 180 countries [](https://techairgroup.com/hotjar-microsoft-clarity-heatmaps/#:~:text=MS%20Clarity%20offers%20heatmaps%20for,excessive%20scrolling%2C%20and%20JavaScript%20errors.) use Hotjar to prepare heatmaps to track website visitors’ activity.
+According to statistics, more than [900,000 enterprises](https://techairgroup.com/hotjar-microsoft-clarity-heatmaps/) spread across 180 countries use Hotjar to prepare heatmaps to track website visitors’ activity.
 
   
 
