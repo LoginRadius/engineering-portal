@@ -26,9 +26,12 @@ Cybercriminals can easily monetize such mistakes and sell access credentials for
 
 ## Recent Cyber Attacks in the Video and Music Streaming Industry
 
-- Popular streaming service, Disney+ indicated credential stuffing [cyberattack on their application](https://www.cpomagazine.com/cyber-security/new-disney-plus-streaming-service-hit-by-credential-stuffing-cyber-attack/) where hackers used stolen login credentials and then applied the brute force method to hack into accounts.
+- Popular streaming service, Disney+ indicated credential stuffing cyberattack on their application where hackers used stolen login credentials and then applied the brute force method to hack into accounts.
+
 - Irdeto Piracy Trends [Report revealed](https://www.aol.com/article/finance/2018/08/13/hundreds-of-stolen-passwords-for-netflix-hbo-hulu-and-more-discovered-for-sale-on-dark-web/23501424/) that it discovered 854 listings of OTT credentials from 69 unique sellers in the dark web. What's more disturbing was the list included 42 popular streaming services, including Netflix, HBO, and Hulu.
+
 - According to Proofpoint [threat analysts](https://www.proofpoint.com/uk/resources/threat-reports/state-of-phish), cybercriminals steal valid credentials from thousands of Netflix, Disney+ streaming accounts, and sell them online at a discounted price.
+
 - The online music streaming service provider, Mixcloud was compromised by AWS hackers who gained unauthorized access to their systems and tried to [sell more than 20 million user data](https://www.cisomag.com/aws-hacker-attacks-online-music-service-mixcloud/) on the dark web. 
 
 It has become imperative for content streaming players to fight back. In fact, using automated bot detection and low-friction authentication like social and passwordless login can go a long way in [securing digital identities](https://www.loginradius.com/blog/2019/10/digital-identity-management/).

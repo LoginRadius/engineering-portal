@@ -53,9 +53,9 @@ Once marketers have a good understanding of these factors, they can begin develo
 
 The answer is yes! [User management](https://www.loginradius.com/user-management/) “can'' contribute to identity marketing  and in several ways. First, it can help you manage and track the interactions your customers have with your brand. This information can be used to improve customer retention rates and understand how best to serve them. 
 
-Second,[ ](https://www.loginradius.com/user-management/)user management can help you identify and segment your target market. You can create targeted ads that are more relevant to your customers. By understanding their interests and preferences, you can create ads that are more likely to convert.
+Second, user management can help you identify and segment your target market. You can create targeted ads that are more relevant to your customers. By understanding their interests and preferences, you can create ads that are more likely to convert.
 
-Third,[ ](https://www.loginradius.com/user-management/)user management can help you determine which users are likely to churn or abandon your product or service. This information can be used to develop strategies that prevent these users from leaving your product or service.
+Third, user management can help you determine which users are likely to churn or abandon your product or service. This information can be used to develop strategies that prevent these users from leaving your product or service.
 
 
 ## Scalar Utilization is Also Effective

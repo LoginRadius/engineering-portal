@@ -241,7 +241,7 @@ app.post("/login", (req, res) => {
 It is the user object we want to sign, so when you send it to the client. We can uniquely identify them. The unique ID is also very important because when a server gets a request with a token, we want to know what uniquely identifies the request.
 Now when we enter the username and password in our form, we can see in the console that our JWT token is generated but is not encrypted. 
 
-You can visit this site [jwt.io](https://jwt.io/) and paste in the token that was generated, and your token will be decoded and return information about your payload
+You can visit jwt.io and paste in the token that was generated, and your token will be decoded and return information about your payload
 
 *Note: The token is not encrypted, and anyone who gets access to the token can hit your server with it. Tokens normally have an expiry period of between 30 - 60 minutes*
 

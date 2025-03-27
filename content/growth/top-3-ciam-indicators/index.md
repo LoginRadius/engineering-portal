@@ -100,6 +100,6 @@ Businesses need to understand the true potential of a CIAM solution. A reliable 
 
 The aspects above depict the role and responsibilities of a robust CIAM that can guarantee consumer trust and help scale business growth.
 
-If you wish to experience the ease of consumer onboarding that increases consumer satisfaction and boosts your business revenues, it’s time to [](https://www.loginradius.com/book-a-demo/) [experience the LoginRadius CIAM](https://www.loginradius.com/contact-sales/).
+If you wish to experience the ease of consumer onboarding that increases consumer satisfaction and boosts your business revenues, it’s time to [experience the LoginRadius CIAM](https://www.loginradius.com/contact-sales/).
 
 [![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)

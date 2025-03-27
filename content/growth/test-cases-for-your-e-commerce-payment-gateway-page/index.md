@@ -33,7 +33,7 @@ As you have known the basics about payment gateway, let me tell you what aspects
 
 - **Security:-**   It is one of the most important aspects while testing a payment gateway. Other than buffer overruns, one needs to take care of other troubling security threats. Some of the resources you can take help from while testing security on payment gateway are [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10), [Web Blog by Michael Howard](https://blogs.msdn.microsoft.com/michael_howard/) and [Google Online Security Blog](https://security.googleblog.com/).
 
-- **Performance:-** Performance is another KPI for your payment gateway. Hence, you should make sure about things like number of users your payment gateway page can handle, number of users who are simultaneously using your page. Some of the resources you can refer are [Smartbear’s Performance Testing Resource](https://smartbear.com/learn/performance-testing/) and [guru99](https://www.guru99.com/performance-testing.html) articles.
+- **Performance:-** Performance is another KPI for your payment gateway. Hence, you should make sure about things like number of users your payment gateway page can handle, number of users who are simultaneously using your page. One of the resources you can refer is [guru99](https://www.guru99.com/performance-testing.html) articles.
 
 ### **Checklists While Preparing Test Cases For Payment Gateway**
 

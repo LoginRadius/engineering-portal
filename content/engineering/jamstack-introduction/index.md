@@ -80,10 +80,9 @@ In a JAMStack architecture, however, the frontend and backend are decoupled. A f
 A JAMStack backend is a content API that returns JSON/XML. This API can be a  hosted datastore, a  headless CMS, serverless functions, or a custom application.
 ## Useful resources
 
- - [JAMstack WTF](https://jamstack.wtf/)
  - [Awesome JAMstack](https://github.com/automata/awesome-jamstack)
  - [JAMstack Community Slack](https://jamstack.slack.com/join/shared_invite/enQtNjc4OTI1NDk3NDI1LWIxZjk1YWRjOWVlMzM0MTVlMTg4YmY1OTBjZDc1M2I3N2NhODBlZDNmNjAzMGMwNzI5MTVlMWEwYjBiMTU2NzE)
  - [JAMstack on CSS-Tricks](https://css-tricks.com/tag/jamstack/)
  - [JAMstack_conf](https://jamstackconf.com/)
  - [JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)
- - JAMstack examples
+ 
