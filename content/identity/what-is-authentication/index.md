@@ -136,7 +136,7 @@ Need a quick comparison between single-factor authentication, two factor authent
 
 ### OTP Authentication
 
-[One-time passwords (OTPs)](https://www.loginradius.com/blog/identity/what-is-OTP-authentication) are temporary codes sent to users via SMS, email, or an app. They’re valid for a short period and can’t be reused. OTPs are common in 2FA setups and are great for preventing password reuse or simple phishing attacks.
+[One-time passwords (OTPs)](https://www.loginradius.com/blog/identity/what-is-otp-authentication/) are temporary codes sent to users via SMS, email, or an app. They’re valid for a short period and can’t be reused. OTPs are common in 2FA setups and are great for preventing password reuse or simple phishing attacks.
 
 ### Multi-Factor Authentication (MFA)
 
