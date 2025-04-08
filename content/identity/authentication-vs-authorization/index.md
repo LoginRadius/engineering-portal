@@ -64,7 +64,7 @@ In B2B scenarios, this concept scales to entire organizations. For example, a re
 
 Our Partner IAM feature enables role-based permissions at the organization level, such as Partner Admin or Franchise Manager with access defined down to specific resources or workflows.
 
-Discover how LoginRadius Partner IAM enables precise, organization-level [RBAC tailored for complex B2B environments](https://www.loginradius.com/docs/user-management/roles-and-permissions/?q=b2b+).
+Discover how LoginRadius Partner IAM enables precise, organization-level [RBAC tailored for complex B2B environments](https://www.loginradius.com/docs/user-management/roles-and-permissions/).
 
 ### 2. Attribute-Based Access Control (ABAC)
 
