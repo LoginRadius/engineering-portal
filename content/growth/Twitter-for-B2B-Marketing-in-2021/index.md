@@ -14,7 +14,7 @@ Twitter launched way back in 2006 and hasn't undergone any radical changes like 
 
   
 
-Research by the Content Marketing Institute tells that [82% of B2B content marketers](https://contentmarketinginstitute.com/wp-content/uploads/2020/09/b2b-2021-research-final.pdf) use Twitter for running marketing campaigns.
+Research by the Content Marketing Institute tells that *82% of B2B content marketers* use Twitter for running marketing campaigns.
 
   
 
@@ -86,7 +86,7 @@ Community building is emerging as an essential B2B online marketing strategy. Ma
 
   
 
-A study found out that [32% of B2B marketers](https://contentmarketinginstitute.com/wp-content/uploads/2020/09/b2b-2021-research-final.pdf) work in organizations with established online communities, and 27% are looking forward to doing the same in the next 12 months.
+A study found out that *32% of B2B marketers* work in organizations with established online communities, and 27% are looking forward to doing the same in the next 12 months.
 
   
 
