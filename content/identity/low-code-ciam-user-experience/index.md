@@ -1,7 +1,7 @@
 ---
 title: "How No/Low Code CIAM Balances Security and User Engagement?"
 date: "2024-03-07"
-coverImage: "no-code-ciam.jpg"
+coverImage: "no-code-ciam.webp"
 tags: ["ciam solutions","data security","cx"]
 author: "Navanita Devi"
 description: "Discover the revolutionary No/Low Code CIAM world, where robust security meets seamless user engagement. Learn why developers are turning to this solution, explore real-world use cases, and see how LoginRadius is leading the way in transforming digital identity management."
@@ -73,7 +73,7 @@ LoginRadius is a prime example of a No/Low Code CIAM platform that offers a rang
 
 * **Time and Cost Savings:** Reduce development time and costs significantly by leveraging pre-built components and automation.
 
-[![WP-ciam-dev](WP-ciam-dev.png)](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)
+[![WP-ciam-dev](WP-ciam-dev.webp)](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper)
 
 ## The Future of No/Low Code CIAM
 
@@ -91,4 +91,4 @@ Looking ahead, the future of No/Low Code CIAM is promising. As technology advanc
 
 In conclusion, a no- or low-code [CIAM solution like LoginRadius](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=low-code-ciam-user-experience) is revolutionizing how businesses approach identity and access management. By combining robust security measures with streamlined development processes, these platforms empower developers to create secure, user-friendly experiences without requiring extensive manual coding.
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=low-code-ciam-user-experience)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=low-code-ciam-user-experience)

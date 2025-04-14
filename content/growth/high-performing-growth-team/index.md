@@ -1,7 +1,7 @@
 ---
 title: "5 Steps to Build a High Performing Growth Team in 2021"
 date: "2021-02-23"
-coverImage: "growth-team.jpg"
+coverImage: "growth-team.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -144,4 +144,4 @@ The importance of growth teams is more than the startup founders assume, and the
 Whether you are a business firm, one of many portfolio corporations, a startup, or a small enterprise, you need to concentrate on creating a professional growth team if your product has already hit the market.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=high-performing-growth-team)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=high-performing-growth-team)

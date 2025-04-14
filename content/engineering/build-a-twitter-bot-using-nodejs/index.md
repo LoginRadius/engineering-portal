@@ -1,7 +1,7 @@
 ---
 title: "Build A Twitter Bot Using NodeJS"
 date: "2020-10-14"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Vineeta Jain"
 description: "Learn how to create a twitter bot using NodeJS that let us tweet using the command line directly"
 tags: ["NodeJs", "Twitter", "Bot"]
@@ -21,7 +21,7 @@ We will use **[twitter](https://github.com/desmondmorris/node-twitter)** - a cli
 
 To be able to access Twitter API, you need a Twitter Developer Account. Apply for it [here](https://developer.twitter.com/en/apply-for-access). Click on *Apply for a Developer Account*.
 
-![Twitter Developer Account](twitter.png)
+![Twitter Developer Account](twitter.webp)
 
 It will ask you to log in. Select appropriate settings after logging in. It will also generate **keys** and **secret tokens** like Consumer Key, Consumer Secret, Access Token Key, Access Token Secret. Copy and save them somewhere for future use. 
 
@@ -87,7 +87,7 @@ If everything went well, you would see a *tweet* response, otherwise an *error* 
 
 At this point, your index.js should look like this.
 
-![index.js](code.png)
+![index.js](code.webp)
 
 ### Congratulations! 🎊
 

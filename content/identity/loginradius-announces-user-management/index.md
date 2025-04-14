@@ -2,7 +2,7 @@
 title: "Announcement – LoginRadius Announces the Availability of User Management"
 date: "2020-09-30"
 author: "Kundan Singh"
-coverImage: "image1.png"
+coverImage: "image1.webp"
 tags: ["user management","identity management","password management"]
 description: "Businesses will enjoy simplified access control and flexible rights for their customers with the newly added User Management functionality of LoginRadius."
 metatitle: "Announcement - LoginRadius User Management |  LoginRadius"
@@ -25,7 +25,7 @@ It also has been designed to help your business in the following ways: 
 - It reduces your team effort to maintain and manage consumer data.
 - It helps you to migrate the existing consumer data from multiple sources.
 
-[![loginradius user management datasheet](DS-LoginRadius-User-Management.png)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
+[![loginradius user management datasheet](DS-LoginRadius-User-Management.webp)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
 
 ## Key Capabilities of LoginRadius User Management
 
@@ -48,4 +48,4 @@ It also has been designed to help your business in the following ways: 
 
 The User Management feature by LoginRadius is unique in that it monitors and manages the entire consumer journey through automated access permissions, data migration, API support, and other consumer-centric solutions. Now, blend it with creating [meaningful relationships with your consumers](https://www.loginradius.com/customer-experience-solutions/)—that’s what we offer. 
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-announces-user-management)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-announces-user-management)

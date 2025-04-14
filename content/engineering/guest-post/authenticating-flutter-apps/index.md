@@ -1,7 +1,7 @@
 ---
 title: "Flutter Authentication: Implementing User Signup and Login"
 date: "2022-02-17"
-coverImage: "user-authentication-for-flutter-apps.png"
+coverImage: "user-authentication-for-flutter-apps.webp"
 author: "Yusuf Ahmed"
 tags: ["Authentication", "Flutter", "API"]
 description: "Developing Flutter apps? Learn how to implement user authentication and registration in your Flutter applications quickly with LoginRadius APIs."
@@ -44,11 +44,11 @@ So, with everything out of the way, let's get started.
 
 After creating an account with LoginRadius, it sets up a free app for you. This is the app in which you would integrate the LoginRadius API with Flutter. Here my app name is “tayy”.
 
-![LoginRadius App Screen](app_window.png)
+![LoginRadius App Screen](app_window.webp)
 
 Next, you need to obtain your LoginRadius API credentials. To do so, login to your Dashboard and navigate to the `Configuration` tab in the sidebar menu. You will find your API credentials under the `API Key and Secret` section. Copy and store your **APP Name**, **API Key**, and **API Secret** somewhere safe and easily accessible.
 
-![LoginRadius Configuration Tab](configuration_tab.png)
+![LoginRadius Configuration Tab](configuration_tab.webp)
 
 ## Integrating LoginRadius API with Your Flutter Application.
 
@@ -77,7 +77,7 @@ Then, install the dependency by running `flutter pub get` in your terminal.
 
 The project is being structured in this order:
 
-![Folder Structure](folder-structure.PNG)
+![Folder Structure](folder-structure.webp)
 
 - Core (contains a class that handles network requests)
 - Screens (the UI of our app)

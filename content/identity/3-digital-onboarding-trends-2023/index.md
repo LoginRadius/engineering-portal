@@ -1,7 +1,7 @@
 ---
 title: "3 Digital Onboarding Trends To Watch In 2023 (And What You Can Do About It Now)"
 date: "2023-01-06"
-coverImage: "digi-onboard.jpg"
+coverImage: "digi-onboard.webp"
 tags: ["user onboarding", "digital transformation", "omnichannel"]
 author: "Rakesh Soni"
 description: "Digital onboarding plays a crucial role in enhancing user experience. This blog will help you understand what digital onboarding is, how it impacts conversions, and the trends in digital onboarding that will shape the future of identity verification."
@@ -38,7 +38,7 @@ An omnichannel customer experience is a multifold approach to advertising, selli
 
 A digital omnichannel strategy adopts a multichannel approach for sales, consumer service, and marketing. It focuses on providing a united consumer experience regardless of the channel they contact your company.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 The key to providing constant omnichannel engagement is to offer a smooth experience across all online and offline platforms. Every contact should be considered a single experience from the consumer's perspective. It implies it shouldn't be segregated or repetitious.
 
@@ -81,4 +81,4 @@ Learn more about the LoginRadius Identity Platform, starting with a Quick Person
 
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=3-digital-onboarding-trends-2023)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=3-digital-onboarding-trends-2023)

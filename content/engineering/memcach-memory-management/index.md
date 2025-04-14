@@ -1,7 +1,7 @@
 ---
 title: "Memcached Memory Management"
 date: "2015-07-07"
-coverImage: "memcached-memory-management.png"
+coverImage: "memcached-memory-management.webp"
 author: "Mark Duan"
 tags: ["Memory Management"]
 ---
@@ -10,7 +10,7 @@ The  [memcached](https://github.com/memcached) is one of the most popular open 
 
 ### Chunk and Slab  
 
-![memcached-1](memcached1.png)
+![memcached-1](memcached1.webp)
 
 ```cpp 
 /* powers-of-N allocation structures */
@@ -37,7 +37,7 @@ This is the struct declaration of slabclass\_t. Each slab class contains the sam
   
 The content value factor is defined when memcached memory is deployed with -f, which can change the size between slab classes. For this loop, the size is multiplied by a specified factor. 
 
-![memcached-2](memcached-2.png)
+![memcached-2](memcached-2.webp)
 
 You can get this information by adding -vvv and you can use the command
 

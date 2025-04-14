@@ -1,7 +1,7 @@
 ---
 title: "What is Federated Identity Management"
 date: "2021-02-04"
-coverImage: "what-is-fim.jpg"
+coverImage: "what-is-fim.webp"
 tags: ["federated identity management","identity provider","cx"]
 author: "Rakesh Soni"
 description: " Let's face it upfront. Password management is a painful exercise, which no one wants to deal with. Though guessable passwords make them easy to remember, it exposes consumers to hackers. Fortunately, federated ID management ensures both seamless and secure access that goes a long way in enhancing the overall user-experience."
@@ -55,7 +55,7 @@ As soon as they are granted access, they would be redirected to the partner comp
 
 So, the next time they log in to your company page, the consumer will also get access to the partner page over a quick authentication request.
 
-![federated-identity2](federated-identity2.png)
+![federated-identity2](federated-identity2.webp)
 
 ## Advantages of Using Federated Identity Management
 
@@ -69,7 +69,7 @@ Though FIM has several advantages, we are going to highlight the most pivotal on
 
 *   **Increases organizational productivity**: Due to the lack of multiple logins, there will be lesser helpdesk calls for password resets. This saves a lot of time and efficiency, which leads to a potential increase in administrative overhead. 
 
-[![federated-identity-management](federated-identity-management.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![federated-identity-management](federated-identity-management.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 ## Risk Management in Federated Identity Management
 
@@ -123,7 +123,7 @@ Addressing these challenges requires careful planning, robust infrastructure, an
 
 ## Introduction to LoginRadius' Federated Identity Management
 
-![federated-identity3](federated-identity3.png)
+![federated-identity3](federated-identity3.webp)
 
 Equipped with custom technologies, LoginRadius' FIM takes federated identity management experience to an altogether new level. 
 
@@ -165,4 +165,4 @@ The three most important components are the Identity Provider (IdP), the Service
 
 A federated identity enables seamless and secure access to multiple applications and services without the need for separate login credentials.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-identity-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-identity-management)

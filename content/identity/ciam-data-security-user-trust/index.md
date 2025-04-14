@@ -1,7 +1,7 @@
 ---
 title: "CIAM: Enhancing Security & Building Consumer Trust-All At Once"
 date: "2023-09-15"
-coverImage: "user-trust.jpg"
+coverImage: "user-trust.webp"
 tags: ["data security","cybersecurity","ciam solutions","cx"]
 author: "Alok Patidar"
 description: "CIAM (customer identity & access management) emerges as a boon for organizations that constantly seek efficient and capable methods of dealing with customer identity management, increasing user engagement, enhancing data security, and building brand loyalty.  By implementing CIAM techniques, an organization can improve its overall operational efficiency."
@@ -42,7 +42,7 @@ Consumers want instant digital options to delete, edit, or download their data. 
 
 Users always prefer quick and hassle-free registration requiring minimal details (e.g., registration through linking to social accounts).
 
-[![WP-resilience](WP-resilience.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-resilience](WP-resilience.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 * **Guest browsing**
 
@@ -76,4 +76,4 @@ These CIAM benefits that allow users to control their data and manage their iden
 
 In conclusion, CIAM techniques are beneficial for both business and their customers. It eases a user's purchase journey, requiring minimum effort and details. And side-by-side, CIAM also enhances data security and access control over sensitive information, which helps an organization maintain data integrity and privacy. Overall, CIAM eradicates the risk of security breaches and identity theft.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-data-security-user-trust)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-data-security-user-trust)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Will Focusing on Relationship Marketing Boost Your Business Sales?"
 date: "2021-05-27"
-coverImage: "customer-relationship-for-business.jpg"
+coverImage: "customer-relationship-for-business.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -102,4 +102,4 @@ Businesses can employ a wide variety of tools to market their relationship. This
 
 Many businesses assume that relationship marketing is a method to retain consumers, and this often leads to huge financial investment. However, the core of relationship marketing is building long-term positive relationships with [clients](https://www.loginradius.com/customers/) and prospective clients to build mutual loyalty rather than changing their opinions for short-term gain.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=boost-your-business-sales-with-marketing-business)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=boost-your-business-sales-with-marketing-business)

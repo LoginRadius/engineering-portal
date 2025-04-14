@@ -1,7 +1,7 @@
 ---
 title: "OTT Platforms and CIAM: How Identity Management Ensures Millions of Viewers to Scale with Ease"
 date: "2022-03-07"
-coverImage: "ciam-ott.jpg"
+coverImage: "ciam-ott.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -77,4 +77,4 @@ The LoginRadius CIAM offers robust security and a rich user experience to OTT pl
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-helps-ott-platforms-scale-million-viewers)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-helps-ott-platforms-scale-million-viewers)

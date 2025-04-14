@@ -1,7 +1,7 @@
 ---
 title: "10 Tips From CIAM Experts to Reduce the Attack Surface of User Authentication"
 date: "2021-11-30"
-coverImage: "attack-surface.jpg"
+coverImage: "attack-surface.webp"
 tags: ["cybersecurity","user authentication","cx"]
 author: "Navanita Devi"
 description: "Companies are predominantly facing the challenge of securing their infrastructures from cyber threats. By analyzing and implementing the security measures mentioned in this blog, you can safeguard your company from cyber threats and help it leverage the benefit of a dispersed workforce."
@@ -51,7 +51,7 @@ The larger your attack surface, the more vulnerable you are to attacks. The firs
 * Entry points
 * Database users and permissions
 
-[![WP-dig-trade-zone](WP-dig-trade-zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-dig-trade-zone](WP-dig-trade-zone.webp)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 ## How to Reduce the Attack Surface of User Authentication
 
@@ -74,4 +74,4 @@ Today's digital world leaves no room for error. Companies across the globe look 
 
 By analyzing and implementing the security measures mentioned in this blog, you can safeguard your company from cyber threats and help it leverage the benefit of a dispersed workforce. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reduce-attack-surface-online-business)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reduce-attack-surface-online-business)

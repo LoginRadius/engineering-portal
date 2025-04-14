@@ -1,7 +1,7 @@
 ---
 title: "Credential Stuffing: How To Detect And Prevent It"
 date: "2019-09-12"
-coverImage: "credential-stuffing-attacks.jpg"
+coverImage: "credential-stuffing-attacks.webp"
 tags: ["data security","mfa","ciam solution"]
 author: "Rakesh Soni"
 description: "Credential stuffing is a cybersecurity vulnerability in which hackers target web infrastructures and take over user accounts using stolen credentials. When hackers use organisational credentials to login and hijack user accounts, the threat gets further elevated. Not only does the business experience loss of sales and brand harm, the blow is also felt by customers."
@@ -54,7 +54,7 @@ As you can see, when a business suffers from stolen credentials, it can cost the
 - The cleanup costs can cripple businesses to the core. 
 - Customers do not trust businesses that cannot protect their data leading to customers discontinuing their loyalty.  
 
-![](icons_security.png)
+![](icons_security.webp)
 
 ## How to Detect Credential Stuffing Attacks
 
@@ -72,7 +72,7 @@ It's built to monitor the telltale signs of bot activity such as the number of a
 
 Luckily, you'll find bot detection in robust [customer identity and access management solutions](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/). A CIAM platform will also provide device authentication and customer data protection.
 
-![](How-Credential-Stuffing-Threatens-Your-Company-V01.01-02-1024x576.png)
+![](How-Credential-Stuffing-Threatens-Your-Company-V01.01-02-1024x576.webp)
 
 ## A Hacker’s Toolbox
 
@@ -98,7 +98,7 @@ Match found. What's next? When a match is found, they can easily view a victim's
 
 Because hackers use genuine user credentials, they gain undetected access. What follows is a full-fledged [account takeover](https://www.loginradius.com/blog/2020/04/corporate-account-takeover-attacks/). Next, the attacker can drain the account in seconds or resell access to other cybercriminals.  
 
-![](How-Credential-Stuffing-Threatens-Your-Company-V01.01-08-1024x577.png)
+![](How-Credential-Stuffing-Threatens-Your-Company-V01.01-08-1024x577.webp)
 
 ## How to Prevent Credential Stuffing Attacks
 
@@ -130,7 +130,7 @@ Risk-based authentication (RBA) calculates a risk score based on a predefined se
 
 Hackers can also deny access to customers' own resources once they break-in. Having passwords as a factor of authentication can leave corporate and business accounts vulnerable to credential stuffing. So, why not remove them altogether? Use [passwordless authentication](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/) as a safer way to authenticate users for more confined access into their accounts.
 
-[![credential-stuffing](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![credential-stuffing](credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 ## Preventing Credential Stuffing With LoginRadius Identity Management
 
@@ -150,4 +150,4 @@ Credential stuffing is easy to perform, so its popularity with criminals will in
 
 If you're looking for a solution to help prevent credential stuffing, LoginRadius is easy to deploy. It  provides robust security with bot detection and multi-factor authentication, among other safeguards.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-credential-stuffing-attacks)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-credential-stuffing-attacks)

@@ -1,7 +1,7 @@
 ---
 title: "Mastering Orchestration: The Business Case for End-to-End Identity Proofing Solutions"
 date: "2024-08-12"
-coverImage: "id-proofing.jpg"
+coverImage: "id-proofing.webp"
 tags: ["identity orchestration","identity proofing","cx"]
 author: "Cooper Matheson"
 description: "In the rapidly evolving digital landscape, businesses are turning to comprehensive identity-proofing solutions to bolster security, ensure compliance, and enhance customer experiences. By leveraging orchestration, companies can streamline identity verification processes, reduce fraud, and build trust with their users."
@@ -52,7 +52,7 @@ A streamlined and efficient identity verification process is crucial for providi
 
 With orchestration, businesses can reduce the time and effort required for users to prove their identities, leading to higher satisfaction and loyalty. Automated processes also minimize the risk of false positives, ensuring unnecessary security hurdles do not inconvenience legitimate users.
 
-[![DS-id-orchestration](DS-id-orchestration.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![DS-id-orchestration](DS-id-orchestration.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 ### 4. Cost Efficiency
 
@@ -70,4 +70,4 @@ In a world where digital interactions are becoming the norm, businesses must pri
 
 By embracing comprehensive identity proofing solutions through orchestration, companies can enhance security, ensure compliance, and deliver a superior customer experience. As cyber threats continue to evolve, the adoption of orchestration will be crucial for businesses looking to stay ahead of the curve.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-proofing-orchestration-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-proofing-orchestration-security)

@@ -1,7 +1,7 @@
 ---
 title: "Identity Management in Cloud Computing"
 date: "2021-01-29"
-coverImage: "identity-management-in-cloud-computing-cover.jpg"
+coverImage: "identity-management-in-cloud-computing-cover.webp"
 tags: ["cloud computing","digital identity management","cx"]
 author: "Rakesh Soni"
 description: "Identity management in cloud computing is the subsequent step of identity and access management (IAM) solutions. However, it is a lot more than merely a straightforward web app single sign-on (SSO) solution. This next generation of IAM solution is a holistic move of the identity provider right to the cloud. "
@@ -17,7 +17,7 @@ The primary goal of identity management in cloud computing is dealing with perso
 
 ## What is Cloud Identity Management
 
-![identity-management-in-cloud-computing2](identity-management-in-cloud-computing-2.jpg)
+![identity-management-in-cloud-computing2](identity-management-in-cloud-computing-2.webp)
 
 
 
@@ -61,7 +61,7 @@ A modern cloud Identity and Access Management (IAM) solution helps to:
 
 These abilities help build a platform that connects users to virtually all IT resources through any provider, protocol, platform, or location. 
 
-[![Future-proof-your-security](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![Future-proof-your-security](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 IT admins know that legacy identity management systems (in most cases) struggle when they are matched to cloud services and the likes of AWS. 
 
@@ -70,7 +70,7 @@ So, the newest approach to identity management in cloud computing extends your c
 
 ## Introducing Loginradius Cloud IAM - Implemented Across Markets by Industry Leaders
 
-![identity-management-in-cloud-computing3](identity-management-in-cloud-computing-3.png)
+![identity-management-in-cloud-computing3](identity-management-in-cloud-computing-3.webp)
 
 LoginRadius enables businesses to provide an enhanced consumer experience and protects the managed identities. Utilizing the [CIAM platform](https://www.loginradius.com/), organizations can offer a streamlined login process, registration, password setup, along with safeguarding consumer accounts and complying with precise data privacy regulations.
 
@@ -93,5 +93,5 @@ However, IAM solutions have to be supple across identity management and access c
 
 If you are locked into some conventional platforms or service providers because of your active directory ad service, explore a vendor-neutral cloud identity management solution.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-in-cloud-computing)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-in-cloud-computing)
 

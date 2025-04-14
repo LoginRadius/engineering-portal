@@ -1,7 +1,7 @@
 ﻿---
 title: "How Can Retailers Lead The Experience Economy While Securing Consumer Identities?"
 date: "2022-02-23"
-coverImage: "retailers-balance.jpg"
+coverImage: "retailers-balance.webp"
 category: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -49,7 +49,7 @@ When combined, these aspects could do wonders for retailers by improving user ex
 
 These are opportunities ready to be grabbed. But are retailers ready to incorporate identity management into their workflow? If not, it is high time that they should.
 
-**[![retailers-ds](retailers-ds.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)**
+**[![retailers-ds](retailers-ds.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)**
 
 
 ## How Does a Consumer Identity and Access Management (CIAM) Solution Help Retailers?
@@ -94,4 +94,4 @@ Moreover, to meet the stringent [data regulations and compliances](https://www.l
 
 A consumer identity and access management (CIAM) solution can help retailers meet their security and user experience-related requirements like a breeze without compromising compliances and regulations. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-retailers-balance-security-ux)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-retailers-balance-security-ux)

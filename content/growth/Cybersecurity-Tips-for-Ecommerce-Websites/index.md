@@ -1,7 +1,7 @@
 ﻿---
 title: "Cybersecurity Tips for Ecommerce Websites"
 date: "2021-05-19"
-coverImage: "cybersecurity-tips-for-ecommerce.jpg"
+coverImage: "cybersecurity-tips-for-ecommerce.webp"
 tags: ["data security","cybersecurity","compliance","cx"]
 author: "David Smith"
 description: "Whether you run a big business or a small niche online store, you should always be on your guard against possible security threats. Here are some of the most important tips to remember about keeping your site secure."
@@ -38,7 +38,7 @@ Therefore, making the right decision is extremely important. Here are some initi
 
 Your SSL certificate will help to make the data transfer more secure, provide [credit card security](http://www.cardzgroup.com/ContactSmartCard.html), and secure login information for your customers. Moreover, SSL certificates are also deployed on social media websites to make web browsing more secure. 
 
-![cybersecurity-ecommerce](cybersecurity-ecommerce.jpg)
+![cybersecurity-ecommerce](cybersecurity-ecommerce.webp)
 
 ### Comply with PCI DSS Standards
 
@@ -52,7 +52,7 @@ Remember that [PCI compliance](https://www.comptia.org/blog/5-simple-ways-to-bec
 
 Moreover, the standards need to be installed, the firewall configurations need to be maintained and anti-virus software needs to be updated. Also, remember to change the passwords and other details at the time of the purchase.
 
-[![WP-PCI](WP-PCI.png)](https://www.loginradius.com/resource/pci-dss-framework-whitepaper)
+[![WP-PCI](WP-PCI.webp)](https://www.loginradius.com/resource/pci-dss-framework-whitepaper)
 
 ### Run Frequent Security Audits
 
@@ -74,4 +74,4 @@ Moreover, installing the right anti-virus programs is also a great way to track 
 
 The more frequently you update software the better chances you have of maintaining the online security of your website.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-tips-for-ecommerce-websites)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-tips-for-ecommerce-websites)

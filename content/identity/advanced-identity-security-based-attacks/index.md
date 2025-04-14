@@ -1,7 +1,7 @@
 ---
 title: "The Growing Threat of Identity-Based Attacks and the Need for an Advanced Identity Security Approach"
 date: "2024-06-05"
-coverImage: "identity-attacks.jpg"
+coverImage: "identity-attacks.webp"
 tags: ["identity security","zero trust security","cx"]
 author: "Kundan Singh"
 description: "Identity-based attacks are escalating, targeting personal data and business secrets with unprecedented sophistication. Traditional security measures fall short; a new approach is essential. Explore advanced identity security strategies like Zero Trust, MFA, CIAM, and behavioral analytics to safeguard against these evolving threats."
@@ -55,7 +55,7 @@ To address the growing threat of identity-based attacks, organizations must adop
 
 1. **Zero Trust Architecture**: Zero Trust assumes that no entity, whether inside or outside the network, should be trusted by default. It requires continuous verification of identities and strict access controls based on the principle of least privilege.
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
+[![WP-zero-trust-security](WP-zero-trust-security.webp)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
 
 2. **Multi-Factor Authentication (MFA)**: MFA should be implemented with robust factors beyond SMS-based verification, such as biometrics, hardware tokens, and adaptive authentication that assesses risk based on user behavior and context.
 
@@ -75,4 +75,4 @@ By adopting an advanced identity security approach that emphasizes Zero Trust, r
 
 As cybercriminals continue to evolve their tactics, staying ahead requires a proactive and comprehensive strategy that prioritizes identity security at every level.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-identity-security-based-attacks)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-identity-security-based-attacks)

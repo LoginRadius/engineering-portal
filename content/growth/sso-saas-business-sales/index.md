@@ -1,7 +1,7 @@
 ---
 title: "SSO for SaaS Business: The Key to Boost Sales For Enterprises"
 date: "2024-03-07"
-coverImage: "business-sales.jpg"
+coverImage: "business-sales.webp"
 tags: ["saas","sso","cx"]
 author: "Vishal Sharma"
 description: "Explore the impact of Single Sign-On (SSO) on SaaS businesses, from enhancing user experiences to improving sales performance. Discover the benefits of SSO and how LoginRadius stands out as a reliable solution for enterprises seeking a competitive edge."
@@ -51,7 +51,7 @@ The benefits of leveraging a reliable SSO solution for SaaS businesses are manif
 
 * **Cost Efficiency:** SSO reduces the burden on IT support teams, leading to lower operational costs. Additionally, the time saved by users in managing passwords translates into tangible cost savings for enterprises.
 
-[![GD-ciam-increases-roi](GD-ciam-increases-roi.png)](https://www.loginradius.com/resource/how-ciam-increases-roi-for-your-enterprise/)
+[![GD-ciam-increases-roi](GD-ciam-increases-roi.webp)](https://www.loginradius.com/resource/how-ciam-increases-roi-for-your-enterprise/)
 
 ## How LoginRadius SSO Offers Competitive Advantage to SaaS Enterprises?
 
@@ -75,4 +75,4 @@ For SaaS businesses looking to gain a competitive advantage and boost sales, inv
 
 In the evolving SaaS landscape, where user experience is the ultimate differentiator, SSO for SaaS businesses is not just a convenience—it's a necessity for success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-saas-business-sales)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-saas-business-sales)

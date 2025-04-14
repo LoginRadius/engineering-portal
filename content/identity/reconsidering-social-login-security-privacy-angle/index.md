@@ -1,7 +1,7 @@
 ---
 title: "Reconsidering Social Login from a Security and Privacy Angle"
 date: "2018-11-20"
-coverImage: "reconsidering-social-login.jpg"
+coverImage: "reconsidering-social-login.webp"
 tags: ["social login","data security","cx"]
 author: "Rakesh Soni" 
 description: "Login strategies can come and go, but the identity of the customer is here to stay. In the wake of two major exposures of data on Facebook and Google+ exacerbated by social login, the repercussions for B2C companies can be addressed. Are social login privacy and security threats still worth the convenience? And what steps do businesses take to safeguard consumer data and preserve public confidence? Let 's begin with a bit of history."
@@ -21,13 +21,13 @@ Let’s start with some history.
 
 Facebook came out with its first identity service, Facebook Connect, in 2008. Users started logging in with Twitter in 2009 and with LinkedIn in 2010. Google+ launched in 2011 and added its social login to the mix.
 
-![](airbnb_social_login_2012.png)
+![](airbnb_social_login_2012.webp)
 
 **Throwback to the Airbnb login page in March 2012**
 
 LoginRadius got its start in 2012 by giving businesses a simple way to implement one or more social login methods on their digital properties. We saw a significant increase in sign-up rates for B2C websites with low-risk accounts that used our social login tools. Small, medium, and mid-market businesses were quick to adopt the LoginRadius solution.
 
-![](1-Content-Asset-social-API.png)
+![](1-Content-Asset-social-API.webp)
 
 **LoginRadius supports 40+ social login providers**
 
@@ -47,7 +47,7 @@ LoginRadius saw this shift coming. That’s why our company isn’t called Socia
 
 ### We knew that social login would never be sufficient for the identity needs of B2C enterprises.
 
-![](rawpixel-1062883-unsplash.jpg)
+![](rawpixel-1062883-unsplash.webp)
 
 **From the beginning, LoginRadius had a complete identity product roadmap that started with social login and progressed to a full customer identity platform.**
 
@@ -65,7 +65,7 @@ Most of our current customers offer social login for ease of customer experience
 
 ### LoginRadius can make social login more secure for businesses.
 
-![](stephen-petrey-613428-unsplash.jpg)
+![](stephen-petrey-613428-unsplash.webp)
 
 Until now, the market has mainly talked about the advantages of social login but hasn’t been as vocal about the risks. LoginRadius is taking a leadership role in advocating for social login practices that protect businesses and their customers better. Our experience facilitating social login for thousands of companies and hundreds of millions of customers over six years has given us expert insight on this login method.
 
@@ -73,7 +73,7 @@ Until now, the market has mainly talked about the advantages of social login but
 
 Our white paper, [Social Login Reconsidered](https://www.loginradius.com/resource/social-login-reconsidered/), puts forward four use cases for social login. These use cases cut the risks of illegitimate access and exposure while maintaining the ease of customer experience.
 
-[![](social-login-reconsidered.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![](social-login-reconsidered.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 
 The right use case for your business depends on the business model, the target audience, and the level of risk for customer accounts.
@@ -84,4 +84,4 @@ Our mission is to empower businesses to provide secure, delightful experiences f
 
 And we will continue to develop and revisit our entire solution, as we have done for social login, to make sure we are fulfilling that mission.
 
-[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reconsidering-social-login-security-privacy-angle)
+[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reconsidering-social-login-security-privacy-angle)

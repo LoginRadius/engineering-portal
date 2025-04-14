@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Introduces Convenient and Secure Biometric Authentication for Mobile Apps"
 date: "2021-02-16"
-coverImage: "biometric-authentication-mobile-apps.png"
+coverImage: "biometric-authentication-mobile-apps.webp"
 tags: ["biometric authentication","cx","ciam solution"]
 author: "Rakesh Soni"
 description: "The LoginRadius Mobile Biometric Authentication feature is dedicated to mobile applications and enables users to use the FaceID and TouchID of their mobile devices for authentication purposes."
@@ -34,7 +34,7 @@ Let's underline some of the major benefits of Mobile Biometric Authentication.
 *   For biometric authentication, physical proximity is required if hackers want to bypass the login process. Cybercriminals coming into the physical proximity of the actual consumer is rare. 
 
 
-[![biometric-authentication-mobile-apps-datasheet](biometric-authentication-mobile-apps-datasheet.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![biometric-authentication-mobile-apps-datasheet](biometric-authentication-mobile-apps-datasheet.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ## Key Features Offered by LoginRadius
@@ -52,4 +52,4 @@ You can configure both authentication options for your app and later, ask the co
 The Mobile Biometric Authentication by LoginRadius is a local authentication concept and consumers' biometric data don't even leave their mobile devices. Hence, as a business, you don't need to worry about storing, processing, and securing your consumer's biometric data. 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-authentication-mobile-apps)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-authentication-mobile-apps)

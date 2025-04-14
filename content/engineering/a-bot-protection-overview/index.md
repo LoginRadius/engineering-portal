@@ -1,7 +1,7 @@
 ---
 title: "A Bot Protection Overview"
 date: "2019-05-31"
-coverImage: "Productshot.jpg"
+coverImage: "Productshot.webp"
 author: "Chris Yee"
 tags: ["Engineering","Captcha","Spam","Secure","IP"]
 ---
@@ -14,7 +14,7 @@ One of the most popular methods of bot protection that is used today is CAPTCHA,
 
 An example of a ReCAPTCHA with distorted text
 
-![](https://media-s3-us-east-1.ceros.com/editorial-content/images/2018/05/31/c5c224dc0fb2a058625073c470d70c3c/recaptcha-big.png?ver=1552286291?imageOpt=1&fit=bounds&width=1077)
+![](https://media-s3-us-east-1.ceros.com/editorial-content/images/2018/05/31/c5c224dc0fb2a058625073c470d70c3c/recaptcha-big.webp?ver=1552286291?imageOpt=1&fit=bounds&width=1077)
 
 To implement CAPTCHA using Google’s ReCAPTCHA solution, you can access [Google reCAPTCHA bot protection](https://www.google.com/recaptcha/) and login with your Google account. Following that you will be redirected to an interface where you can register your site. Different types of CAPTCHAs can be set up for different events on your domain and can be built to match your use case.
 

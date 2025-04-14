@@ -1,7 +1,7 @@
 ---
 title: "GitHub CLI Tool ⚒"
 date: "2020-10-05"
-coverImage: "GitHub CLI Tool.png"
+coverImage: "GitHub CLI Tool.webp"
 author: "Saravanan Vijayamuthu"
 tags: ["Cloud", "GIT", "Version control"]
 description: "Learn about GitHub CLI tool and how/when to use it"
@@ -48,7 +48,7 @@ yay -S github-cli
 ```
 
 You’ll need to authenticate your account after you install GitHub CLI. Running any command would activate this process of authentication(via OAuth). Well, you can use Git CLI.
-![Auhtorize](Authorize.png)
+![Auhtorize](Authorize.webp)
 
 ****What is CLI really doing? 🤔****
 
@@ -61,7 +61,7 @@ gh repo [view, create, clone, fork]
 gh help
 ```
 
-![gh pr status](ghpr.png)
+![gh pr status](ghpr.webp)
 
 _It should be said that gh is not the same stuff as git. It’s because `gh` just adds GitHub tools to the terminal. Version management is yet to be managed with git._
 
@@ -109,7 +109,7 @@ It’s Time to view Problems/issues in the angular repo.😁
 gh issue list
 ```
 
-![Angular issue](angular issue.png)
+![Angular issue](angular issue.webp)
 
 ****Pull Requests 🤖****
 
@@ -157,7 +157,7 @@ LEARN MORE
 current PR’s in the repo:
 
 `$ gh pr list`
-![Angular pullrequest](angular pr.png)
+![Angular pullrequest](angular pr.webp)
 
 *****Let’s view an individual pr:*****
 

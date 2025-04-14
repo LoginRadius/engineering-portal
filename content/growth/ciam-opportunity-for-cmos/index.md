@@ -1,7 +1,7 @@
 ---
 title: "Why CMOs should care about CIAM"
 date: "2021-11-22"
-coverImage: "cmo-ciam.jpg"
+coverImage: "cmo-ciam.webp"
 tags: ["data security","ciam solution","cx","mfa"]
 author: "Rakesh Soni"
 description: "CMOs can deliver more efficient, secure, and relevant services and goods if they have a detailed grasp of who their customers are and what they require. Learn how a CIAM solution may be a valuable strategic asset for CMOs to utilize in their department."
@@ -54,7 +54,7 @@ It entails a legitimate registration procedure that can be conducted and finishe
 
 The advancement of 2FA/MFA (multi-factor authentication) with features like biometrics, geolocation, face recognition, and so on has resulted in higher degrees of protection. These characteristics make it simpler to spot abnormalities and strange actions in a less time-consuming manner.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #4. Privacy and regulatory compliance
@@ -86,4 +86,4 @@ The goal of digital transformation is to [improve the customer experience](https
 Consumer behavior and aspirations have never been static. A consumer identity management solution may be a valuable strategic asset for CMOs to utilize in their department. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-opportunity-for-cmos)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-opportunity-for-cmos)

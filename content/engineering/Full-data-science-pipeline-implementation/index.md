@@ -1,7 +1,7 @@
 ---
 title: " Full data science pipeline implementation"
 date: "2020-10-09"
-coverImage: "ds.jpg"
+coverImage: "ds.webp"
 author: "Rinki Nag"
 tags: ["DataScience","Python","Web scraping","NLP","Machine learning"]
 description: "Learn how to implement the full data science pipeline right from collecting the data to implementing ML algorithms."

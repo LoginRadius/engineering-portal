@@ -1,7 +1,7 @@
 ---
 title: "The Upcoming Future of Software Testers and SDETs in 2021"
 date: "2021-03-12"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Rakesh Pareek"
 tags: ["SDET", "SDET vs Automation Engineer"]
 description: "A brief overview about the upcoming future of software testers and SDETs and the requirement of SDET role and responsibility in 2021."
@@ -12,7 +12,7 @@ description: "A brief overview about the upcoming future of software testers and
 > Presently, several organizations, are demanding such SDET professionals who can develop the software and test the software developed.
 
 <p align="center">
-  <img width="480" height="480" src="./sdet_role.png">
+  <img width="480" height="480" src="./sdet_role.webp">
 </p>
 
 ## What is the Difference Between SDET and Automation Engineer?

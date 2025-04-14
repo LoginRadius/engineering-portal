@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Okta Hack: Breach in Customer Support and Lessons for Organizations"
 date: "2023-10-27"
-coverImage: "data-breach.jpg"
+coverImage: "data-breach.webp"
 tags: ["data security","cybersecurity","compliance","cx"]
 author: "Alok Patidar"
 description: "Learn about the recent Okta data breach, highlighting the risks businesses face from social engineering attacks. Discover the impact on Okta's customer support unit and understand the importance of stringent security measures for organizations. Learn from the breach and enhance your cybersecurity protocols to safeguard customer data effectively."
@@ -48,7 +48,7 @@ Requesting SOC reports from vendors and contractors aids in understanding how th
 
 The human element is an organization's most valuable asset but can also pose a significant cybersecurity risk. Thus, organizations need to consistently assess training processes and educate employees, vendor-contractors, customers, and users about basic cyber hygiene practices.
 
-[![WP-end-user-cybersecurity](WP-end-user-cybersecurity.png)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
+[![WP-end-user-cybersecurity](WP-end-user-cybersecurity.webp)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
 
 ### 4. Stay Alert
 
@@ -64,4 +64,4 @@ The Okta breach demonstrates the vulnerability of all businesses to cyber-attack
 
 This incident emphasizes the critical need for businesses to prioritize cybersecurity, update protocols, and educate employees. Staying vigilant and proactive is essential in the face of evolving cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-hack-breach-lessons)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-hack-breach-lessons)

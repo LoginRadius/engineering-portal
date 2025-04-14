@@ -1,7 +1,7 @@
 ﻿---
 title: "What Is Identity Resolution And How Can It Benefit Your Business?"
 date: "2023-08-09"
-coverImage: "identity-resolution.jpg"
+coverImage: "identity-resolution.webp"
 tags: ["identity resolution","user management","compliance","cx"]
 author: "Vishal Sharma"
 description: "Uncover the power of identity resolution to boost your business. Enhance customer experiences, optimize marketing efforts, and mitigate fraud risks with accurate, unified customer data."
@@ -38,7 +38,7 @@ Identity resolution empowers marketers to segment and target their audience with
 
 These segmented profiles enable marketers to tailor their messages, promotions, and advertisements to specific customer segments, maximizing relevance and driving higher conversion rates. With identity resolution, businesses can optimize their marketing strategies and allocate resources more effectively.
 
-[![DS-user-mngmnt](DS-user-mngmnt.png)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
+[![DS-user-mngmnt](DS-user-mngmnt.webp)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
 
 ### 3. Fraud Detection and Risk Mitigation
 
@@ -76,4 +76,4 @@ By leveraging the power of identity resolution, businesses can unlock a wealth o
 
 Investing in identity resolution enables organizations to optimize their operations, deepen customer relationships, and stay ahead in a rapidly evolving marketplace. Embrace identity resolution as a core component of your business strategy and unlock its transformative potential.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-resolution)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-resolution)

@@ -1,7 +1,7 @@
 ---
 title: "Implement AntiXssMiddleware in .NET Core Web"
 date: "2020-08-26"
-coverImage: "antixss.png"
+coverImage: "antixss.webp"
 author: "Hemant Manwani"
 tags: ["C#", "ASP.NET"]
 ---
@@ -26,7 +26,7 @@ Cross-site scripting allows an attacker to act like a victim user and to carry o
 
 By doing the above steps you will have below structure in your solution. 
 
-<img src="SolutionArch.png"
+<img src="SolutionArch.webp"
      alt="Solution Structure" />
 
 **Step 6:** Now edit the AntiXssMiddlewars.cs file and paste below code.

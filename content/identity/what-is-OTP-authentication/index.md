@@ -184,4 +184,4 @@ Ready to enhance your authentication strategy with LoginRadius? [Book a free tri
 
 **A.** The secret key is a shared value between client and server, used in algorithms like TOTP or HOTP to generate OTP codes securely.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-otp-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-otp-authentication)

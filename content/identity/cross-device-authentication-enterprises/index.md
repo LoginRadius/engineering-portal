@@ -1,7 +1,7 @@
 ---
 title: "Cross-Device Authentication and Tracking: The Opportunities and Underlying Privacy Risks"
 date: "2022-06-21"
-coverImage: "cross-device.jpg"
+coverImage: "cross-device.webp"
 tags: ["cross device", "authentication", "digital transformation"]
 author: "Rakesh Soni"
 description: "Cross-device tracking enables quick tracking of users across multiple devices. However, leveraging such technologies across multiple platforms has underlying risks. This post uncovers the aspects of cross-device authentication and what business owners need to understand."
@@ -79,4 +79,4 @@ Choosing a reliable customer identity and access management (CIAM) solution like
 
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cross-device-authentication-enterprises)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cross-device-authentication-enterprises)

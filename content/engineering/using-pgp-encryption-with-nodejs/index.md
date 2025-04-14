@@ -1,7 +1,7 @@
 ---
 title: "Using PGP Encryption with Nodejs"
 date: "2020-11-10"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Andy Yeung"
 tags: ["Security", "NodeJs", "Encryption"]
 description: "Starter guide on Pretty Good Privacy(PGP) with Nodejs. PGP, a cryptographic process used to encrypt and decrypt information."

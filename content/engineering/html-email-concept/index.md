@@ -1,7 +1,7 @@
 ---
 title: HTML Email Concept
 date: "2020-10-09"
-coverImage: "email_picture.png"
+coverImage: "email_picture.webp"
 author: "Nivedita Singh"
 tags: ["Html","Email"]
 description: "If you choose to code your HTML email by hand, there are many different things you need to use while creating HTML email."

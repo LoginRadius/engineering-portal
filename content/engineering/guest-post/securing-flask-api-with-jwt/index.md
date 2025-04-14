@@ -1,7 +1,7 @@
 ---
 title: "Using JWT Flask JWT Authentication- A Quick Guide"
 date: "2021-12-09"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Babatunde Koiki"
 tags: ["Flask", "JWT", "API"]
 description: "This tutorial helps you build a simple Flask API and demonstrates how to secure it using JWT. In the end, you can test your API authentication using a sample schema."

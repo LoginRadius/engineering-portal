@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius China CIAM for Businesses to Benefit From Its Lucrative Market"
 date: "2020-05-14"
-coverImage: "LoginRadius-China-CIAM.jpg"
+coverImage: "LoginRadius-China-CIAM.webp"
 tags: ["industry-news"]
 featured: false 
 author: "Rakesh Soni"
@@ -30,7 +30,7 @@ We ensure that our LoginRadius China [customer identity and access management](h
 
 **Multilingual Support**: The LoginRadius China CIAM solution provides local language support through simplified and traditional Chinese. Businesses can easily configure language settings too.
 
-[![Loginradius ciam china datasheet](DS-Product-Chinese-CIAM-1024x310.png)](https://www.loginradius.com/resource/loginradius-china-ciam)
+[![Loginradius ciam china datasheet](DS-Product-Chinese-CIAM-1024x310.webp)](https://www.loginradius.com/resource/loginradius-china-ciam)
 
 ## A Final Word
 
@@ -38,4 +38,4 @@ Privacy and security rule everything in China. With the LoginRadius China custom
 
 From social integration, [strong authentication](https://www.loginradius.com/multi-factor-authentication/), local language support to meeting the standard regional regulatory compliances, they are the key areas no clients should worry about.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-china-business)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-china-business)

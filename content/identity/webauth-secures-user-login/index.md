@@ -1,7 +1,7 @@
 ---
 title: "How WebAuth Secures Your Users’ Login"
 date: "2021-07-20"
-coverImage: "webauth-secures-user-login-cover.jpg"
+coverImage: "webauth-secures-user-login-cover.webp"
 tags: ["passwordless authentication","mfa","cx"]
 author: "Vishal Sharma"
 description: "WebAuthn is a new standard for authentication, which is published by the World Wide Web Consortium and is supported by the FIDO alliance.
@@ -55,7 +55,7 @@ Whenever a user needs to prove their identity, the smart biometric can be utiliz
 
 Let’s understand this with a real-life example where we can use WebAuthn for handling authentication after an individual has registered with a web application.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Suppose the user is registered from their phone and navigates to the web application to log in. In that case, they are prompted to enter their password or biometric, which is associated with that particular account. The user can simply use their biometric to log in without the need to enter lengthy passwords.
 
@@ -91,4 +91,4 @@ If you wish to deliver the next level of login experience to your consumers that
 [Reach us](https://www.loginradius.com/contact-sales/) for a personalized demo and know-how LoginRadius works for your business.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=webauth-secures-user-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=webauth-secures-user-login)

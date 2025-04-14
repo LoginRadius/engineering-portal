@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius' Commitment to Responsible Disclosure For Customer Security"
 date: "2024-06-13"
-coverImage: "customer-security.jpg"
+coverImage: "customer-security.webp"
 tags: ["data security","digital identity management","ciam solution"]
 author: "Kundan Singh"
 description: "In today's digital landscape, security threats are ever-evolving, posing significant risks to businesses and their customers. At LoginRadius, we recognize the critical importance of staying ahead of these threats. Our commitment to proactive security measures and responsible disclosure is a testament to our dedication to safeguarding our clients' data and enhancing their overall security posture."
@@ -40,7 +40,7 @@ At LoginRadius, we conduct regular security audits and penetration tests to iden
 
 These assessments are carried out by both internal security teams and external experts, ensuring a comprehensive evaluation of our security posture. By continuously testing our defenses before they are exploited, we can proactively address potential weaknesses.
 
-[![DS-LR-consumer-audit-trail](DS-LR-consumer-audit-trail.png)](https://www.loginradius.com/resource/datasheet/consumer-audit-trail-information/)
+[![DS-LR-consumer-audit-trail](DS-LR-consumer-audit-trail.webp)](https://www.loginradius.com/resource/datasheet/consumer-audit-trail-information/)
 
 ### 2. Timely Security Updates and Patches
 
@@ -80,4 +80,4 @@ By staying ahead of potential threats and fostering a culture of transparency an
 
 In a world where digital threats are constantly evolving, LoginRadius stands as a beacon of proactive security, demonstrating that a vigilant and responsible approach is essential for safeguarding the digital identities of businesses and their customers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-commitment-customer-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-commitment-customer-security)

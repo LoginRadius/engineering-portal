@@ -1,7 +1,7 @@
 ---
 title: "How Important is Customer Health Scoring for SaaS Business?"
 date: "2023-01-19"
-coverImage: "saas-score.jpg"
+coverImage: "saas-score.webp"
 tags: ["saas", "customer retention", "customer behavior"]
 author: "Yash Rathi"
 description: "A customer health score is an organization's metric to determine whether customers are healthy or at risk of churn. Based on the score of the individual customer, retention strategies are implemented."
@@ -89,4 +89,4 @@ However, you can't simply add it as another feature and hope it'll work out magi
 You must understand that customer health scoring is a long-term investment with high returns.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=importance-customer-health-scoring-saas-businesses)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=importance-customer-health-scoring-saas-businesses)

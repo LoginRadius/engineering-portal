@@ -1,7 +1,7 @@
 ---
 title: "RDBMS vs NoSQL"
 date: "2015-04-28"
-coverImage: "rdbms-vs-nosql.png"
+coverImage: "rdbms-vs-nosql.webp"
 author: "Team LoginRadius"
 tags: ["Database"]
 description: "Learn about RDBMS and NoSQL Database systems, their differences, benefits and limitations"

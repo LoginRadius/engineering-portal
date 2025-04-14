@@ -1,7 +1,7 @@
 ---
 title: "Privacy-Centric Enhancements: CEO Rakesh Soni Shares His Thoughts on Shifting Data Strategies"
 date: "2022-08-02"
-coverImage: "privacy-centric.jpg"
+coverImage: "privacy-centric.webp"
 tags: ["data privacy", "cloud computing", "progressive profiling"]
 author: "Rakesh Soni"
 description: "With more and more businesses taking place online and grappling with the new privacy and data security complexities, there’s an immediate need to reinvent data management strategies. Let’s understand the role of privacy and data management and how businesses can take the competitive edge."
@@ -82,4 +82,4 @@ The modern digital business landscape has offered endless opportunities for ente
 
 Whether it’s the incorporation of a reliable CIAM or other privacy management solutions, brands have to put their best efforts into ensuring robust privacy management. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ceo-shifting-data-strategies)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ceo-shifting-data-strategies)

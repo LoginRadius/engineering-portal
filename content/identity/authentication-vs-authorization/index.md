@@ -257,4 +257,4 @@ These are essential for **authentication in cyber security**.
 
 **A.** Authentication works by matching provided credentials against stored user data. If the credentials match, access is granted. Methods include passwords, biometric scans, OTPs, and digital certificates.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

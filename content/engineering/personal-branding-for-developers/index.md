@@ -1,7 +1,7 @@
 ---
 title: "Personal Branding For Developers: Why and How?"
 date: "2016-09-23"
-coverImage: "Personal-Branding-For-Developers-150x150.jpg"
+coverImage: "Personal-Branding-For-Developers-150x150.webp"
 author: "Sreekant"
 tags: ["Branding"]
 ---
@@ -12,7 +12,7 @@ In this article I am going to focus on why as a developer you should focus on pe
 
 **What is personal branding?**
 
-![Apple Logo](Apple-logo-248x300.png)Do you recognize this logo? Well, Of course  you do! But have you ever wondered how come you recognized this logo without even a name? Well, you recognized it because the brand is so strong that without even a proper title, you are able to recognize it and that’s what branding do.
+![Apple Logo](Apple-logo-248x300.webp)Do you recognize this logo? Well, Of course  you do! But have you ever wondered how come you recognized this logo without even a name? Well, you recognized it because the brand is so strong that without even a proper title, you are able to recognize it and that’s what branding do.
 
 The concept of personal branding is quite similar to that of company branding. Personal branding is all about thinking yourself as a brand. It is about showing people who you are and what is your passion. When you think about some specific programming language, your mind goes back to some specific names associated with that language, who are either the father of that language or have done some amazing work in that field, right?
 
@@ -55,11 +55,11 @@ You might have the best expertise in certain technology, you might have designed
 1. **Try your hand at blogging :**  
     Blogging is an amazing way to tell people who you are. Blog about anything you hold expertize in, whether it is a programming language or it is some kind of technology, let people understand who you actually are. There are many developers out there who have some awesome technical blogs where they share their knowledge and write about their specialities.For inspiration you can have a look at the blog of [John Resig](http://ejohn.org/), the creator and founder of jQuery. Another tech blog champion is Scott Hanselman. Make sure to have a look on his popular blogs [www.hanselman.com](http://www.hanselman.com), [hanselminutes](http://hanselminutes.com/), etc.  
       
-    ![blogging for personal branding](blogging-for-personal-branding.jpg)Stick to one topic, you are best at and select the blogging platform that suits you like Wordpress, Tumblr, Blogspot, etc. Post informative content on regular basis and soon you will have a huge audience waiting for your content and engaging with you. Posting two to three informative blog is enough to keep you in demand. Also there are some specific sites like[www.asp.net](http://www.asp.net) where you can submit articles to gain immense popularity.
+    ![blogging for personal branding](blogging-for-personal-branding.webp)Stick to one topic, you are best at and select the blogging platform that suits you like Wordpress, Tumblr, Blogspot, etc. Post informative content on regular basis and soon you will have a huge audience waiting for your content and engaging with you. Posting two to three informative blog is enough to keep you in demand. Also there are some specific sites like[www.asp.net](http://www.asp.net) where you can submit articles to gain immense popularity.
 2. **Embrace Social Media :**  
       
     You might have heard that Facebook and Twitter are all about wasting time, but let me tell you this is not at all true. Social media provides you a great opportunity to build networks. It is must to get visibility on various social media networks if you want to be found by people who share same niche as you.  
-    ![social media for personal branding](Social-media-for-personal-branding.jpg)  
+    ![social media for personal branding](Social-media-for-personal-branding.webp)  
     There are various ways how you can track your brand on social media. My personal favorite is Google Alert which notifies whenever people are talking about me or my projects. While some times they are talking about the work I have done, sometimes they also complaint which helps me understand where I am wrong. There are many others, like on Twitter, you can use [Tweetdeck](https://tweetdeck.twitter.com/) . Apart from that, create a strong persona on Linkedin, Facebook, Google+, etc. Interact with people, reply to their queries and become social media champion.  
     Some popular developers who are social media champions as well include [Scott Hanselman](https://twitter.com/shanselman), [John Resig](https://www.linkedin.com/in/jeresig), etc  
     

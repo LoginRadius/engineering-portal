@@ -1,7 +1,7 @@
 ---
 title: "Build vs Buy: Securing Customer Identity with Loginradius"
 date: "2020-07-16"
-coverImage: "Build-vs-Buy-Securing-Customer-Identity.jpg"
+coverImage: "Build-vs-Buy-Securing-Customer-Identity.webp"
 tags: ["ciam solution","mfa","compliance"]
 author: "Rakesh Soni"
 description: "The most important assets of any company are customer identification and personal data. In most situations, businesses come across two simple options when designing a platform that collects, handles, and uses consumer data: to create or to purchase."
@@ -51,7 +51,7 @@ Either a company lacks the technical expertise or the resources or both to imple
 
 On the other hand, a managed solution comes with the assurance that your CIAM performance will meet or exceed industry standards.
 
-[![The Case for Buying over Building ebook](The-Case-for-Buying-over-Building-1.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![The Case for Buying over Building ebook](The-Case-for-Buying-over-Building-1.webp)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 ## Who should build a Customer IAM solution
 
@@ -67,7 +67,7 @@ A report by MarketsandMarkets suggests the customer identity management market m
 
 ## Is Buying Better Than Building When Choosing a CIAM Solution
 
-![Is Buying Better Than Building When Choosing a CIAM Solution](image2-1-1.jpg)
+![Is Buying Better Than Building When Choosing a CIAM Solution](image2-1-1.webp)
 
 A well-implemented CIAM platform offers a host of benefits—enhanced user experience with self-service registration, password management, sign-sign on, and other premium features like [progressive profiling](https://www.loginradius.com/blog/2019/02/presenting-progressive-profiling-loginradius/), API-focused, transactional security, and data encryption to drive customer engagement and keep businesses compliant.
 
@@ -119,7 +119,7 @@ They take care of login, authentication, or preference management seamlessly and
 
 ## Benefits of an Advance CIAM Solution
 
-![](image3.png)
+![](image3.webp)
 
 One of the immediate results of buying a CIAM platform is its impact on your in-house team. You won't need to invest in the engineering team and dramatically reduce [your identity management development](https://www.loginradius.com/blog/2019/10/digital-identity-management/) and maintenance hours.
 
@@ -131,7 +131,7 @@ Because there are no additional in-house parameters involved, your CIAM platform
 
 ## Why the LoginRadius CIAM Platform Is the Best Solution for Your Business
 
-![Why the LoginRadius CIAM Platform Is the Best Solution for Your Business](image4.png)
+![Why the LoginRadius CIAM Platform Is the Best Solution for Your Business](image4.webp)
 
 LoginRadius is a privacy-first cloud-based customer IAM platform that enables companies to secure, identify, and authorize their workforces and customers. Let's take a look at how it offers accelerated time-to-market and regulation enforcement at the API level for your digital projects.
 
@@ -163,4 +163,4 @@ The decision centering around build vs buy needs some serious consideration. How
 
 Use our Build vs Buy [calculator to find out](https://www.loginradius.com/resource/ciam-build-vs-buy/) which option can deliver the most cost-effective solution for your business.
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-vs-buy-securing-customer-identity)
+[![book-a-demo-loginradius](image5.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-vs-buy-securing-customer-identity)

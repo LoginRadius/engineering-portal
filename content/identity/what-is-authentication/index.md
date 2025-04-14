@@ -341,4 +341,4 @@ Ready to upgrade your authentication strategy?
 
 **A:** They remove weak password dependencies and block phishing or credential theft.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

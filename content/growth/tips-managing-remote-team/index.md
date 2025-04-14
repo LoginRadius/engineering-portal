@@ -1,7 +1,7 @@
 ---
 title: "13 Tips for Leading and Managing Remote Teams"
 date: "2021-02-12"
-coverImage: "tips-managing-remote-team.jpg"
+coverImage: "tips-managing-remote-team.webp"
 category: ["all"]
 featured: false
 author: "Vikas Soni"
@@ -135,4 +135,4 @@ Educating employees about the purpose of remote working can help them understand
 Each of the tips mentioned above and advice requires patience, attention, flexibility, and consistency. Working out on these tips can lead to better results and help the management handle the remote teams more easily and comfortably.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-managing-remote-team)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-managing-remote-team)

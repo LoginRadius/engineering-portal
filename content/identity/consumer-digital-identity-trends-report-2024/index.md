@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Releases 2024 Consumer Identity Report, Highlights the Shifting Trends in Consumer Preferences"
 date: "2024-09-06"
-coverImage: "trends-report-2024.jpg"
+coverImage: "trends-report-2024.webp"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
 author: "Rakesh Soni"
 description: "LoginRadius analyzed data from its Consumer IAM (CIAM) Platform, utilized by over 500 brands globally. The report offers a unique perspective on global consumer identity trends in 2024, delivering insights into consumer behavior regarding digital identities and providing a comprehensive analysis of their behavior patterns and lifecycle."
@@ -22,7 +22,7 @@ Our research examined consumer comfort with [passwordless login](https://www.log
 
 Our analysis shows a clear preference for email-based passwordless login, which has grown since last year. Additionally, the use of Passkeys for passwordless authentication is also on the rise.
 
-![consumer-report-2024](consumer-report-2024.png "image_tooltip")
+![consumer-report-2024](consumer-report-2024.webp "image_tooltip")
 
 ## Key Highlights of the Consumer Identity Report 2024
 
@@ -34,7 +34,7 @@ As one of the top providers of Customer Identity and Access Management solutions
 
 * The passwordless login has the highest return rate of 42.43%. 
 
-[![CTA-RP](CTA-RP.png)](https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/) 
+[![CTA-RP](CTA-RP.webp)](https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/) 
 
 ## Looking Ahead: Gaining a Competitive Edge Through Strategic Customer Identity Management
 
@@ -46,4 +46,4 @@ These insights are crucial for those aiming to elevate their customer experience
 
 [Download your free copy](https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/) of the report today and stay ahead in the dynamic field of customer identity management.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-digital-identity-trends-report-2024)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-digital-identity-trends-report-2024)

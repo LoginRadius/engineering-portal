@@ -1,7 +1,7 @@
 ---
 title: "9 Signup Tips To Skyrocket The Conversion Rate"
 date: "2021-01-05"
-coverImage: "sign-up-rate.jpg"
+coverImage: "sign-up-rate.webp"
 category: ["all"]
 featured: false 
 author: "Rakesh Soni"
@@ -51,7 +51,7 @@ Shorter forms are not only easier to fill out, but the visitor is also less intr
 Longer forms need more details. But the visitor to the website may be unwilling to provide you with any information about themselves.
 
 
-![forms-fewer-fields](forms-fewer-fields.png)
+![forms-fewer-fields](forms-fewer-fields.webp)
 
 Source: wingify
 
@@ -69,7 +69,7 @@ The key here is as much as possible to lower the barrier to entry. You don't wan
 To find the best balance between customer experience and protection, the LoginRadius Identity Platform provides a full range of [customer registration and authentication options](https://www.loginradius.com/authentication/).
 
 
-![long-form-vs-short-form](long-form-vs-short-form.png)
+![long-form-vs-short-form](long-form-vs-short-form.webp)
 
 Source: moreconversion
 
@@ -103,7 +103,7 @@ For users, [social login](https://www.loginradius.com/social-login/) is easy to 
 Nevertheless, with social sign-up, the user's privacy is again in the spotlight. Most of them do not realize that, with this registration form, they agree to the use of their data by businesses. An opportunity that companies take to sell the product that best fits their preferences and desires to each customer, in a much more segmented and customized way.
 
 
-[![social-login-reconsidered](social-login-reconsidered.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![social-login-reconsidered](social-login-reconsidered.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 Few advantages of using social signups:
 
@@ -157,4 +157,4 @@ Make sure it has a simple value proposition when writing a copy of your sign-up 
 Following the tips and examples shown in this article is your next move. If you can get it right, you can build better sign-up forms for conversion and increase the number of quality leads created.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sign-up-tips-conversion-rate)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sign-up-tips-conversion-rate)

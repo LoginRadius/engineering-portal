@@ -1,7 +1,7 @@
 ---
 title: "What is Phone Login"
 date: "2021-02-26"
-coverImage: "PhoneLogin_cover_pic.jpg"
+coverImage: "PhoneLogin_cover_pic.webp"
 tags: ["phone login","authentication","cx"]
 author: "Ashish Kumar Yadav"
 description: "Phone Login is a compelling and handy feature designed to enhance consumer experience and ease the process of login and registration. It eliminates the hassle of filling lengthy registration forms and creating new passwords and usernames, thereby allowing consumers to quickly login or register just by using their mobile phones."
@@ -19,7 +19,7 @@ Today, a single consumer interacts with various apps/websites, which require the
 
 In this type of process, consumers may become frustrated and completely give up the sign-up process as it asks for a lot of information. Ultimately, businesses end up with lower consumer growth rates.
 
-![PhoneLogin_overview](PhoneLogin_overview.jpg)
+![PhoneLogin_overview](PhoneLogin_overview.webp)
 
 But if the sign-up and login process is done right, it can trigger the retention of lots of new consumers. If done in an improper method, it may backfire and can have the exact opposite effect. 
 
@@ -69,7 +69,7 @@ It is the process of registering or accessing a user's account by using a phone 
 
 It eliminates the hassle of filling lengthy registration forms and creating new passwords and usernames, thereby allowing users to quickly login or register just by using their mobile phones.
 
-![PhoneLogin](PhoneLogin.jpg)
+![PhoneLogin](PhoneLogin.webp)
 
 ## Why Should Businesses Use Phone Login
 
@@ -105,7 +105,7 @@ And it should not be tough to understand that consumers will always tend to move
 
 - Merchants shall reach consumers with their promotions and offers quickly through phone number
 
-![Benifits_of_phoneLogin_in_business](Benifits_of_phoneLogin_in_business.jpg)
+![Benifits_of_phoneLogin_in_business](Benifits_of_phoneLogin_in_business.webp)
 
 Looking at the above benefits, business owners can easily enhance their business strategies and ultimately increase their consumer growth. You've got everything you need to communicate with your end-users in the most concrete and straightforward method.
 
@@ -115,7 +115,7 @@ Now that you have read all the advantages of using a phone login and you are pla
 
 Don't worry, we've got you covered.
 
-[![phone-authentication](phone-authentication.png)](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/)
+[![phone-authentication](phone-authentication.webp)](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/)
  
 This whole implementation is divided into two parts. 
 The user submits the phone number to the website's backend via GUI and obtains a token.
@@ -150,4 +150,4 @@ In this article, we talked about applying a simple approach of using Phone Login
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-phone-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-phone-login)

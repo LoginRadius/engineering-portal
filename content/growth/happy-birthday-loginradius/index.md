@@ -1,7 +1,7 @@
 ﻿---
 title: "Happy Birthday, LoginRadius: Two Years Away From Becoming A Teenager"
 date: "2023-07-24"
-coverImage: "LR-birthday.jpg"
+coverImage: "LR-birthday.webp"
 tags: ["LoginRadius birthday"]
 author: "Rakesh Soni"
 description: "I still vividly remember the day when I incorporated the company on July 20, 2012. At that time, all we had was an idea—an idea to solve the login problem for billions of internet users. As we approach our 11th birthday, I can't help but feel a little nostalgic."
@@ -12,7 +12,7 @@ metatitle: "LoginRadius Turns 11: 2 Years Away From Becoming A Teenager"
 
 I’m struck by the profound similarity between our journey as founders and the experience of raising a child. Just like parents nurture and care for their baby, we have poured our hearts and souls into building and nurturing LoginRadius.
 
-![rakesh](CEO-Rakesh.jpg "image_tooltip")
+![rakesh](CEO-Rakesh.webp "image_tooltip")
 
 Throughout this incredible journey, I have experienced a whirlwind of emotions—pride, joy, worry, and excitement. We have celebrated together during moments of triumph, persevered through challenging times, and shared in the deep sense of pride that comes with witnessing the growth and accomplishments of LoginRadius.
 
@@ -72,4 +72,4 @@ When all these pieces are tied together, I am filled with excitement about Login
 
 Have a great week!
 
-[![cta](cta.png)](https://www.loginradius.com/careers/)
+[![cta](cta.webp)](https://www.loginradius.com/careers/)

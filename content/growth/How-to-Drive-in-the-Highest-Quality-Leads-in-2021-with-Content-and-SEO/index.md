@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Drive in the Highest Quality Leads in 2021 with Content and SEO"
 date: "2021-03-23"
-coverImage: "content-marketing-loginradius.jpg"
+coverImage: "content-marketing-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -42,7 +42,7 @@ As more businesses and consumers shift online for ease, the only way to stay con
 
 SEO helps your content to rank higher on Search Engine Result Pages (SERPs). Thus, driving in more traffic and, in turn, leading to more conversions. The major use of SEO is to generate more leads and conversions by diverting more traffic towards your webpage. [57% B2B marketers](https://blog.hubspot.com/marketing/the-future-of-content-marketing) swear by SEO for generating more leads and prefer the same more than other marketing forms.
 
-[![EB-Guide-to-Modern-Customer-Identity](EB-Guide-to-Modern-Customer-Identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-Guide-to-Modern-Customer-Identity](EB-Guide-to-Modern-Customer-Identity.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## Important Questions to Ask When Using SEO for Lead Generation
@@ -129,7 +129,7 @@ Content marketing through social media platforms or blog posts provides the user
 
 The basics of content marketing strategies are the same for all. To ensure that your content stands out amongst the thousands of web pages, implementing a winning content strategy is necessary. [69% of B2B marketers](https://www.smartinsights.com/content-management/content-marketing-strategy/essential-content-marketing-statistics/) have a sound content marketing strategy, and you need one, too.
 
-  ![content-marketing-loginradius](content-seo-loginradius.jpg)
+  ![content-marketing-loginradius](content-seo-loginradius.webp)
 
 Here are some strategies you can employ for your business:
 
@@ -193,4 +193,4 @@ The only constant when working with content marketing strategies is change. As l
 
 SEO lead generation is all about constant change. Understanding the market trends and keeping up with them is necessary. With the proper keywords and SEO strategy, business owners can successfully generate leads and conversions to sell their products and services. SEO leads have a [14.6% close rate](https://cdn2.hubspot.net/hub/212967/file-28030930-pdf/the_2012_state_of_inbound_marketing.pdf), more than any type. Therefore, effective SEO usage is necessary for businesses to stand apart from other competitors in the market.
 
-[![try-with-us-Partner](try-with-us-Partner.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo)
+[![try-with-us-Partner](try-with-us-Partner.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo)

@@ -1,7 +1,7 @@
 ---
 title: "A Quick Guide To Choosing The Right Zero Trust Vendor"
 date: "2024-05-07"
-coverImage: "right-zero-trust-vendor.jpg"
+coverImage: "right-zero-trust-vendor.webp"
 tags: ["zero trust security","data security","compliance"]
 author: "Rakesh Soni"
 description: "Zero-trust security is imperative in today's digital age. However, choosing the right platform provider can be daunting. Our guide explores crucial factors like security features, scalability, and compliance, empowering you to make the best decision for your organization's cybersecurity needs."
@@ -48,7 +48,7 @@ Compliance with industry regulations and data protection laws is paramount for o
 
 Ensure that the provider adheres to relevant compliance standards, such as [GDPR](https://www.loginradius.com/gdpr-and-privacy/), HIPAA, or PCI DSS, offers documentation and assurances regarding data sovereignty and privacy protections, and provides regular updates and compliance reports to support audit requirements and regulatory scrutiny.
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
+[![WP-zero-trust-security](WP-zero-trust-security.webp)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
 
 ## Why is the LoginRadius CIAM the Best Zero Trust Vendor?
 
@@ -64,4 +64,4 @@ Selecting the best zero-trust platform provider is a critical decision that requ
 
 By prioritizing these considerations and evaluating providers based on their ability to meet your organization's specific needs, you can make an informed choice that strengthens your security posture and mitigates cyber risks. Remember, in the realm of cybersecurity, vigilance, and proactive measures are key to staying ahead of evolving threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=choosing-right-zero-trust-vendor)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=choosing-right-zero-trust-vendor)

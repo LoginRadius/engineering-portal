@@ -1,7 +1,7 @@
 ---
 title: "Why Municipalities Are Investing in Citizen Engagement"
 date: "2018-06-18"
-coverImage: "collaboration-colleagues-community-398532-1.jpg"
+coverImage: "collaboration-colleagues-community-398532-1.webp"
 tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
@@ -18,7 +18,7 @@ By investing in a well-designed and implemented citizen-centric solution, munici
 
 ### 1\. Increase citizen satisfaction with government performance
 
-![](collaboration-colleagues-community-2.jpg)
+![](collaboration-colleagues-community-2.webp)
 
 Citizens want to engage with their local government. They want to be able to share their views and access channels to participate in the decisions of government, connect with representatives, and be assured that their input has meaning and relevance.
 
@@ -26,7 +26,7 @@ Citizens have been very vocal about these methods of engagement, so it should co
 
 ### 2\. Enhance citizen trust in civic institutions
 
-![](berlin-building-business-3.jpg)
+![](berlin-building-business-3.webp)
 
 The public has been demanding more transparency and accountability from government for years. These demands are prompting municipalities to change how they engage with the public.
 
@@ -36,7 +36,7 @@ Municipalities need to have a direct line of engagement between themselves and t
 
 ### 3\. Get the most out of your digital solutions, which saves an enormous amount of time and money
 
-![](advice-advise-advisor-4.jpg)
+![](advice-advise-advisor-4.webp)
 
 Engaging the community to keep them better informed about what is going on will only help in the long run. For example, instead of spending too much time and resources on projects that are only going to get protested, why not get community input from the beginning? If citizens are more involved in the process, municipalities can reduce lengthy and expensive legal appeals as well.
 
@@ -46,4 +46,4 @@ Many municipalities are now undergoing [digital transformations](https://www.log
 
 Undergoing a digital transformation, however, is just one of the much-needed steps. In order to truly engage your citizens, you need to know who they are. To learn who they are, you have to incorporate digital identity into your transformation. 
 
-How does digital identity help with engagement? In our new e-book, we have listed the top 5 ways to improve your citizen engagement, which include creating a seamless digital service by unifying citizen services and identity, as well as improving your privacy and security efforts. You can check out the new e-book [here](https://www.loginradius.com/resource/top-5-ways-to-improve-citizen-engagement-2/). ![](Ebook-thumb.png)
+How does digital identity help with engagement? In our new e-book, we have listed the top 5 ways to improve your citizen engagement, which include creating a seamless digital service by unifying citizen services and identity, as well as improving your privacy and security efforts. You can check out the new e-book [here](https://www.loginradius.com/resource/top-5-ways-to-improve-citizen-engagement-2/). ![](Ebook-thumb.webp)

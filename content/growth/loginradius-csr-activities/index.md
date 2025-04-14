@@ -1,7 +1,7 @@
 ---
 title: "A Glimpse of LoginRadius' CSR Activities: How Do We Foster a Culture of Care"
 date: "2021-08-19"
-coverImage: "loginradius-csr-activities-cover.jpg"
+coverImage: "loginradius-csr-activities-cover.webp"
 category: ["LoginRadius"]
 featured: false 
 author: "Naveen Soni"
@@ -51,7 +51,7 @@ Through Naya Savera and Kartavya NOG, we're currently supporting the education o
 
 
 
-![loginradius-csr-activities-1](loginradius-csr-activities-1.JPG)
+![loginradius-csr-activities-1](loginradius-csr-activities-1.webp)
 
 
 We also extended a helping hand to people by financially supporting them at times of economic breakdown and unemployment.
@@ -64,7 +64,7 @@ Apart from our community initiatives, we are proud to contribute significantly t
 
 
 
-![loginradius-csr-activities-2](loginradius-csr-activities-2.JPG)
+![loginradius-csr-activities-2](loginradius-csr-activities-2.webp)
 
 
 
@@ -80,4 +80,4 @@ We are an organization that's committed to working for the good of the people. W
 
 I feel honored to be a part of the LoginRadius family :)   
 
-[![browse-positions](browse-positions.png)](https://www.loginradius.com/careers/)
+[![browse-positions](browse-positions.webp)](https://www.loginradius.com/careers/)

@@ -1,7 +1,7 @@
 ---
 title: "Why Financial Industry Needs an Identity Management System Now More Than Ever"
 date: "2020-04-30"
-coverImage: "financial-industry.jpg"
+coverImage: "financial-industry.webp"
 tags: ["compliance","authentication","identity management"]
 author: "Rakesh Soni"
 description: "A robust identity management system helps financial organizations remain compliant and conduct business in a secure environment."
@@ -69,7 +69,7 @@ To counter, get your financial institute advanced endpoint protections and stren
 
 An identity management system can improve the security and productivity of a financial institute. It offers numerous benefits to keep customers' sensitive data safe and unharmed from attackers.
 
-![Identity management in online finance sector](Identity-management-in-online-finance-sector.png)
+![Identity management in online finance sector](Identity-management-in-online-finance-sector.webp)
 
 Integrating a [reliable CIAM platform](https://www.loginradius.com/blog/2019/06/perfect-ciam-platform/) into your institution can build cyber defenses against criminals that are both comprehensive and resilient. Furthermore, it is equipped with unique advantages where you can:
 
@@ -94,7 +94,7 @@ To [enhance customer experience](https://www.loginradius.com/customer-experience
 
 They can leverage [single sign-on capabilities](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/) to login to multiple domains using a single set of credentials. LoginRadius also supports federated SSO for third-party domains.
 
-![customer insights data loginraidus](customer-insights-data-loginraidus.png)
+![customer insights data loginraidus](customer-insights-data-loginraidus.webp)
 
 Furthermore, companies can improve security, usability, and user experiences with consumer identity data and new-age reporting tools. There is provision for data segmentation too.
 
@@ -125,7 +125,7 @@ In the fight against high-profile data breaches, the identity management system 
 
 One of the best examples of meeting international regulations comes from Juhll. This growth-driven digital marketing service acquired Banks.com to provide financial institutions with a trusted source for financial assistance. LoginRadius has helped Juhll to comply with new regulations in terms of where and how customer data is stored.
 
-[![Juhll case study download](CS-Juhll-Online-Marketing-and-Banks-1024x310.png)](https://www.loginradius.com/resource/juhll-case-study)
+[![Juhll case study download](CS-Juhll-Online-Marketing-and-Banks-1024x310.webp)](https://www.loginradius.com/resource/juhll-case-study)
 
 **Juhll Case Study**
 
@@ -133,4 +133,4 @@ One of the best examples of meeting international regulations comes from Juhll. 
 
 LoginRadius adheres to the best practices relating to authentication and access control. With features like multi-factor authentication and role-based data management, the identity management system reduces the risk of financial data theft. The end goal is to keep up with the changing trends and improve customer experience in the financial industry.
 
-[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-industry-identity-management)
+[![book a demo loginradius](BD-Plexicon1-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-industry-identity-management)

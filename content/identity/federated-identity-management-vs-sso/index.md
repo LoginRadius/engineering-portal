@@ -1,7 +1,7 @@
 ---
 title: "Federated Identity Management vs. SSO: What's The Difference?"
 date: "2021-11-22"
-coverImage: "sso-vs-fim.jpg"
+coverImage: "sso-vs-fim.webp"
 tags: ["federated identity management","sso","data security"]
 author: "Kundan Singh"
 description: "Enterprises need to use methods to maximize the use of digital identities for multiple users. Although SSO and FIM are used together, they do not mean the same thing. The main difference between Identity Federation and SSO lies in the range of access."
@@ -87,7 +87,7 @@ The service provider then sends a request to the user's identity provider, which
 
 This process is known as identity federation and allows users to access resources from multiple organizations without the need for separate login credentials for each organization. The FIM system uses industry-standard protocols like [SAML](https://www.loginradius.com/glossary/saml/), OAuth, and OpenID Connect to establish trust and securely exchange identity information between the identity provider and service provider.
 
-[![DS-fim](DS-fim.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![DS-fim](DS-fim.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 ## Benefits of Federated Identity Management
 
@@ -157,4 +157,4 @@ Federation identity management is a system allowing users from different organiz
 
 Identity federation in AWS enables users to access AWS resources securely using their existing identity credentials from external identity providers, such as Active Directory or SAML-based systems.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-management-vs-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-management-vs-sso)

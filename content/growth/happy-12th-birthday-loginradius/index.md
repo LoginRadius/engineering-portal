@@ -1,7 +1,7 @@
 ﻿---
 title: "Happy Birthday, LoginRadius: One Year Away from the Big Teen Milestone!"
 date: "2024-07-20"
-coverImage: "bday-cover.jpg"
+coverImage: "bday-cover.webp"
 tags: ["LoginRadius birthday"]
 author: "Rakesh Soni"
 description: "As LoginRadius celebrates its 12th anniversary, we reflect on a year filled with significant milestones and innovations. From groundbreaking features like Push Notification MFA and Passkeys to impactful CSR initiatives, we continue to set new standards in digital identity and social responsibility. Join us in celebrating our journey, and looking forward to an exciting future."
@@ -76,7 +76,7 @@ We are committed to staying ahead of the curve, leveraging cutting-edge technolo
 
 Our goal is to make digital identities even more secure, user-friendly, and efficient, empowering businesses to thrive in the digital age through the advancement of AI. 
 
-[![WP-ai](WP-ai.png)](https://www.loginradius.com/resource/whitepaper/how-ai-change-iam-initiatives/) 
+[![WP-ai](WP-ai.webp)](https://www.loginradius.com/resource/whitepaper/how-ai-change-iam-initiatives/) 
 
 ## Gratitude and Reflection: A Heartfelt Thank You
 
@@ -108,4 +108,4 @@ As we celebrate our 12th birthday, we not only look back at our achievements but
 
 Here’s to many more years of innovation, growth, and success. Happy Birthday, LoginRadius! 
 
-[![cta](cta.png)](https://www.loginradius.com/careers/)
+[![cta](cta.webp)](https://www.loginradius.com/careers/)

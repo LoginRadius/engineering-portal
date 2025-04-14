@@ -1,7 +1,7 @@
 ---
 title: "What is Kubernetes? - A Basic Guide"
 date: "2020-10-26"
-coverImage: "image3.png"
+coverImage: "image3.webp"
 author: Prabhat Kumar
 description: "Learn about the Kubernetes. A container Orchestration tool on a basic level, and how it is making the job of Developers simpler."
 tags: ["Kubernetes","Deployment","Distributed Systems"]
@@ -57,7 +57,7 @@ To meet evolving business demands, the development team needs to build new produ
 That is where Kubernetes comes into the picture. It handles all the above requirements effectively and reduces a lot of burden from the developer's shoulders.
 
  
-![Kubernetes Features](image2.png)
+![Kubernetes Features](image2.webp)
 
 ### Technical Aspect
 
@@ -70,7 +70,7 @@ A typical computer cluster in Kubernetes consists of:
 
 > The Master is responsible for managing the cluster. The master nodes will coordinate all the activities in your cluster, such as scheduling applications, maintaining their desired state, scaling applications, and rolling new updates. Whereas a Node is a VM or a physical computer that is used as a worker machine in a Kubernetes cluster to  actually, run the application 
 
-![Kubernetes Architecture](image4.jpeg)
+![Kubernetes Architecture](image4.webp)
 
 *A master node contains processes that continuously watch the deployment for any CPU or Memory requirement and smartly allocated it in the form of new pods to auto-scale the application, which handles the vast amount of requests coming to the server.*
 
@@ -79,7 +79,7 @@ Most of the current cloud services like Amazon Web Service(AWS), Microsoft Azure
 A Kubernetes cluster can be deployed on either virtual or physical machines. A software named Minikube can be installed on your local machine that creates a VM on your local machine and deploys a simple cluster containing only one node. 
 Minikube provides a CLI through which we can execute commands & simulate a small-scale Kubernetes cluster.
 
-![Kubernetes Deployment](image1.png)
+![Kubernetes Deployment](image1.webp)
 
 #### Some of the basic Kubernetes CLI commands are:
 - **kubectl get nodes** - It gets the total number of working nodes available in the k8s cluster.

@@ -1,7 +1,7 @@
 ---
 title: "JWT Authentication — Best Practices and When to Use"
 date: "2021-10-14"
-coverImage: "cover-image.png"
+coverImage: "cover-image.webp"
 author: "Kolawole Mangabo"
 tags: ["JWT", "Authentication"]
 description: "JWT is a common way of implementing authentication in web and mobile apps. Read more to know how you can use JWT and learn the necessary best practices."

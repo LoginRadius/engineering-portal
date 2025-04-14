@@ -1,7 +1,7 @@
 ---
 title: "4 Barriers to Building a Digital Business and How to Overcome Them"
 date: "2018-08-02"
-coverImage: "4-barriers-building-digital-business-overcome.jpg"
+coverImage: "4-barriers-building-digital-business-overcome.webp"
 tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
@@ -13,7 +13,7 @@ metadescription: "Thinking about starting a business online? Here are the most c
 The movement towards digitalization is occurring across all business sectors. Even industries that have always been solely focused on growing and expanding their existing business models are joining the movement. However, there are some roadblocks that these companies have to overcome in order to successfully build a digital business. But don't let these roadblocks stunt your digital growth! Here are some tips to help you along:
 
 ### 1\. Inability to work as a team
-![](rawpixel-741662-unsplash-1024x684.jpg)
+![](rawpixel-741662-unsplash-1024x684.webp)
 
 Many companies across industries are actively working towards transforming their businesses to digital. This includes using technology to improve/optimize the existing business model, in order to pave the way towards building more efficient digital workflows.
 
@@ -25,7 +25,7 @@ This team, comprised of different representations from within the company, will 
 
 ### 2\. Lack of corporate vision
 
-![](glenn-carstens-peters-190592-unsplash-1024x681.jpg)
+![](glenn-carstens-peters-190592-unsplash-1024x681.webp)
 
 While the majority of your company may have the same goal of moving towards digital, the motives and driving force behind achieving this goal can differ from one person or team to the other. Some may be looking to simply optimize the current workflows to enhance productivity and business outcomes, while others are seeing this as a move towards bigger innovations that will potentially disrupt the entire industry. In this case, there are conflicting ideas of why the company is undergoing a digital reform and how to proceed.
 
@@ -35,7 +35,7 @@ In order to do this, however, you first need to consider and be certain to commu
 
 ### 3\. Gaps in organizational capabilities to deliver digital innovation
 
-![](james-pond-185593-unsplash-1024x683.jpg)
+![](james-pond-185593-unsplash-1024x683.webp)
 
 Your goals are set and you've got everyone on board to work towards a common digital outcome.
 
@@ -49,17 +49,17 @@ More often than not, it's not the team's incapabilities to deliver certain resul
 
 ### 4\. Inadequate leadership
 
-![](steven-lelham-342930-unsplash-1024x540.jpg)
+![](steven-lelham-342930-unsplash-1024x540.webp)
 
 [Digital transformation is exciting](https://www.loginradius.com/blog/identity/what-is-digital-transformation/), but it is also a new concept that companies across industries are only experimenting with in the past few years. Excitement aside, new processes, especially one that affects entire business models and operations, can be daunting.
 
 Transforming existing processes and building new ones are dramatic changes that affect the entire company. Changes such as this can lead to discomfort and conflict. Therefore, strong leadership is essential at all levels to drive beneficial change without increasing risk or creating organizational chaos. Make sure you have the right leadership roles in place as the company moves towards its digital initiatives to ensure its success.
 
-<!-- [![Digital Transformation](guide-to-modern-cover.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/) -->
+<!-- [![Digital Transformation](guide-to-modern-cover.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/) -->
 
 <div class="custom-thumbnail">
   <a href="https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/">
-    <img src="guide-to-modern-cover.png" alt="Digital Transformation" title="Digital Transformation" >
+    <img src="guide-to-modern-cover.webp" alt="Digital Transformation" title="Digital Transformation" >
   </a>
 </div>
 
@@ -85,5 +85,5 @@ Successful digital transformation involves the full breadth of an enterprise –
 
 If you or your company are currently going through digital transformation, see how [LoginRadius can help you speed this up](https://www.loginradius.com/customer-identity-management-b2c-ciam/)!
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=4-barriers-building-digital-business-overcome)
+[![book-a-demo-loginradius](image5.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=4-barriers-building-digital-business-overcome)
 

@@ -1,7 +1,7 @@
 ---
 title: How to create and validate JSON Web Tokens in Deno
 date: "2020-07-10"
-coverImage: "deno_jwt.png"
+coverImage: "deno_jwt.webp"
 author: "Puneet Singh"
 tags: ["Deno","JWT", "JSON Web Token"]
 canonical: https://www.loginradius.com/blog/engineering/guest-post/how-to-implement-jwt-authentication-in-deno/

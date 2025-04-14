@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons Why You Need to Strengthen Your Identity Authentication"
 date: "2022-04-20"
-coverImage: "identity-authentication.jpg"
+coverImage: "identity-authentication.webp"
 tags: ["identity authentication","compliance","cx"]
 author: "Rakesh Soni" 
 description: "A weak line of defense and poor authentication mechanism at the service providers’ could tarnish a brand's reputation in the global markets and eventually entitle the organization to pay hefty fines. Read on to know more about identity authentication and how it paves the path for businesses embarking on a digital transformation journey."
@@ -42,7 +42,7 @@ Since it protects consumers’ privacy and eventually improves brand value, and 
 
 Businesses that don’t implement the privacy regulations could be fined up to millions of dollars and face penalties for years.
 
-[![DS-privacy](DS-privacy.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
+[![DS-privacy](DS-privacy.webp)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 ### 3. Developers face identity authentication-related issues while collecting user information
 
@@ -81,4 +81,4 @@ Through a robust CIAM solution, identity management has endless business advanta
 
 Therefore, enterprises shouldn’t delay their identity management decisions and put their best efforts into incorporating a reliable CIAM to strengthen their identity authentication. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-business-needs-robust-identity-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-business-needs-robust-identity-authentication)

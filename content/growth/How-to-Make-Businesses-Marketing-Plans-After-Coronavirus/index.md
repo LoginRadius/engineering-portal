@@ -1,7 +1,7 @@
 ﻿---
 title: "Thinking Beyond the Pandemic: How to Make Marketing Plans After Coronavirus"
 date: "2021-03-25"
-coverImage: "business-after-covid-loginradius.jpg"
+coverImage: "business-after-covid-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -41,7 +41,7 @@ Creative content strategy has now emerged as one of the most reliable B2B market
 
 Let's now explore some of the strategies employed by companies to survive in a post-pandemic world.
 
-![covid-loginradius](covid-loginradius.jpg)
+![covid-loginradius](covid-loginradius.webp)
 
 ## 9 Successful B2B Marketing Strategies Post COVID
 
@@ -101,7 +101,7 @@ From search engine optimization to email marketing, digital ad campaigns, and cr
 
 Companies are better served by taking advantage of the digital spectrum and remain omnipresent across various digital marketing platforms.
 
-[![How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 ### 6. Employ data-driven storytelling.
 
@@ -138,4 +138,4 @@ High-value B2B rarely deals closely with a conversation, and companies need thei
 
 While there is no way to tell which B2B marketing trends post COVID continue to remain in favor, consumer-centric offerings will always find relevance in a post-pandemic world. Incorporate any of the above suggestions in your B2B marketing strategies to reap the combined benefits of maximum consumer loyalty, satisfaction, and sustained profitability.
 
-[![Makeover-book-a-demo](Makeover-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-businesses-marketing-plans-after-coronavirus)
+[![Makeover-book-a-demo](Makeover-book-a-demo.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-businesses-marketing-plans-after-coronavirus)

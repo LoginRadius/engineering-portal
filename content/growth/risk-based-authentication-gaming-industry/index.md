@@ -1,7 +1,7 @@
 ---
 title: "Embracing Risk-Based Authentication in the Gaming Industry"
 date: "2021-10-18"
-coverImage: "rba-gaming-cover.jpg"
+coverImage: "rba-gaming-cover.webp"
 category: ["security"]
 featured: false 
 author: "Navanita Devi"
@@ -40,7 +40,7 @@ If the system detects any risk, then it follows either of the following measures
 * The system blocks the user if any risk is observed.
 * The system uses [multi-factor authentication](https://www.loginradius.com/blog/identity/multi-factor-authentication-a-beginners-guide/) to authenticate the user identity, i.e., using SMS or Google authenticator. 
 
-[![GD-Adaptive-MFA](GD-Adaptive-MFA.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
+[![GD-Adaptive-MFA](GD-Adaptive-MFA.webp)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
 
 
 ## How to Use RBA in the Gaming Industry
@@ -86,4 +86,4 @@ An effective RBA can make a huge difference between a safe and unsafe gaming exp
 
 The focus is to confide the users' personal information, and with LoginRadius, you will find more than just one solution to your digital predicaments. [Contact us](https://www.loginradius.com/contact-sales) to know more. 
 
-[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-based-authentication-gaming-industry)
+[![book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-based-authentication-gaming-industry)

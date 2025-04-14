@@ -1,7 +1,7 @@
 ---
 title: "A Look Back At Our 20 Top Performing Blogs in 2022"
 date: "2022-12-22"
-coverImage: "top-blog.jpg"
+coverImage: "top-blog.webp"
 tags: ["identity management","cx"]
 author: "Vishal Sharma"
 description: "In 2022, we continued to share valuable posts that uphold our mission to help companies manage and secure customer identities. We’re wrapping up the year by compiling a list of our top-performing blogs of 2022."
@@ -194,4 +194,4 @@ The blogs mentioned above can help you understand the CIAM landscape and ensure 
 
 Reach us to learn more about the LoginRadius CIAM and how it can help scale your business growth even in the most unpredictable times.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-readers-blogs-2022)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-readers-blogs-2022)

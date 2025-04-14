@@ -1,7 +1,7 @@
 ---
 title: "Install Bootstrap with Bower"
 date: "2017-07-05"
-coverImage: "bower-logo.png"
+coverImage: "bower-logo.webp"
 author: "Pascal Noel"
 tags: ["Bootstrap", "Bower"]
 description: "Learn how the Bower package manager helps into quick components  deploy and install Bootstrap using Bower"

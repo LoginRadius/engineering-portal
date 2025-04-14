@@ -1,7 +1,7 @@
 ---
 title: "Multi-Brand Ecommerce: Creating a One-Brand Experience Using SSO"
 date: "2022-01-11"
-coverImage: "multibrand.jpg"
+coverImage: "multibrand.webp"
 tags: ["data security","sso","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "SSO bridges the gap between multiple interconnected platforms and cuts the need for re-authentication for a consumer. Let’s understand how SSO is paving the path for the next generation of e-commerce giants to deliver rich multi-brand experiences across their platforms."
@@ -56,7 +56,7 @@ In a nutshell, SSO helps e-commerce companies to build a one-brand experience by
 
 SSO, if implemented correctly, through a reliable [consumer identity and access management (CIAM) solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), can do wonders for your ecommerce store. Let’s understand why online retailers should put their best foot forward in adopting SSO. 
 
-*Also download*: [![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+*Also download*: [![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ### 1. Consumers expect SSO
@@ -104,4 +104,4 @@ Reach us for a quick, personalized demo today.
 
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-brand-ecommerce-experience-sso)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-brand-ecommerce-experience-sso)

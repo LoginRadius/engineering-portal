@@ -1,7 +1,7 @@
 ---
 title: "W3C Validation: What is it and why to use it?"
 date: "2015-01-26"
-coverImage: "w3c.png"
+coverImage: "w3c.webp"
 author: "Team LoginRadius"
 tags: ["W3C", "Validation"]
 description: "Learn what w3c is and why to use it, and also how to validate your web page for W3C standards, a simple guide on W3C validation."

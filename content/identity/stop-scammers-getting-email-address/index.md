@@ -1,7 +1,7 @@
 ---
 title: "This Is How Scammers Get Your Email Address & How to Stop Them"
 date: "2022-01-19"
-coverImage: "scammers.jpg"
+coverImage: "scammers.webp"
 tags: ["data security","2fa","mfa","cx"]
 author: "Navanita Devi"
 description: "When you type your email address into a website, be careful. You might have just given your email address to a scammer. Sadly, this happens all too often and is one of the main ways scammers harvest email addresses. This blog offers solutions on how to stop it from happening."
@@ -54,7 +54,7 @@ Scammers use [brute force attacks](https://www.loginradius.com/blog/identity/bru
 
 Phishing email scams can often result when anyone uses carbon copy (CC) while addressing an email to a group of people. This results in forwarding the same email repetitively, thereby exposing the email addresses of all the people concerned.
 
-[![WP-bot-attacks](WP-bot-attacks.png)](https://www.loginradius.com/resource/how-loginradius-prevents-bot-attacks/)
+[![WP-bot-attacks](WP-bot-attacks.webp)](https://www.loginradius.com/resource/how-loginradius-prevents-bot-attacks/)
 
 
 ## How to Prevent Phishing Email Scams  
@@ -103,4 +103,4 @@ As email addresses have become ubiquitous and the messaging process more interac
 
 By taking simple precautions, including checking the source of the message and even flagging suspicious emails as spam, you can keep the scammers away, and remain in control of your inbox.
  
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stop-scammers-getting-email-address)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stop-scammers-getting-email-address)

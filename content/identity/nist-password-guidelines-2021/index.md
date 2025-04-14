@@ -1,7 +1,7 @@
 ---
 title: "How NIST is Changing Password Creation in 2021"
 date: "2021-07-22"
-coverImage: "nist-password-guidelines-2021-cover.jpg"
+coverImage: "nist-password-guidelines-2021-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Deependra Singh"
@@ -93,7 +93,7 @@ The NIST Cybersecurity Framework is worth adopting solely for its stated goal of
 
 The NIST Cybersecurity Framework is NOT just for “government applications.” It represents a state-of-the-art approach to security and compliance.
 
-[![DS-passwordless-login](DS-passwordless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-passwordless-login](DS-passwordless-login.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 Here’s what enterprises get with the LoginRadius consumer identity and access management (CIAM) solution:
 
@@ -119,4 +119,4 @@ LoginRadius is self-attested to the NIST Cybersecurity Framework as part of its 
 Need help with NIST? [Reach us](https://www.loginradius.com/contact-sales/) for quick guidance today.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nist-password-guidelines-2021)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nist-password-guidelines-2021)

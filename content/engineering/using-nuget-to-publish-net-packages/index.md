@@ -1,7 +1,7 @@
 ---
 title: "Using NuGet to publish .NET packages"
 date: "2018-06-28"
-coverImage: "desdev.png"
+coverImage: "desdev.webp"
 author: Hitesh Pamnani
 tags: ["NuGet",".NET"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Delivers a Seamless User Experience that Increases Conversions through Enhanced Progressive Profiling"
 date: "2021-10-05"
-coverImage: "loginradius-progressive-profiling-cover.jpg"
+coverImage: "loginradius-progressive-profiling-cover.webp"
 tags: ["progressive profiling","user experience","ciam solution"]
 author: "Rakesh Soni"
 description: "Progressive Profiling helps businesses to split a potentially complicated registration process into multiple steps. you can capture business-critical information upfront and then slowly build out a holistic view of your consumers through subsequent actions."
@@ -25,7 +25,7 @@ Progressive Profiling helps businesses to split a potentially complicated regist
 
 Let’s understand how it works and helps to scale business growth by increasing conversion rates. 
 
-[![Progressive-Profiling-DS](Progressive-Profiling-DS.png)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
+[![Progressive-Profiling-DS](Progressive-Profiling-DS.webp)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
 
 
 ## Intent Behind Launch 
@@ -51,4 +51,4 @@ Based on consumers’ interaction with the application, Progressive Profiling au
 
 Implementing progressive profiling on an online platform offers a competitive edge to businesses seeking innovative ways to navigate their digital transformation for enhanced business growth. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-progressive-profiling)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-progressive-profiling)

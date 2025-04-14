@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Cross-Site Request Forgery (CSRF)"
 date: "2019-10-30"
-coverImage: "crosspath.jpg"
+coverImage: "crosspath.webp"
 author: "Andy Yeung"
 tags: ["CSRF"]
 ---
@@ -18,7 +18,7 @@ In order to understand CSRF, it is important to know how cookies and authenticat
 
 CSRF takes advantage of the storage of auth tokens in the browser, and constructs http requests to a target server on behalf of the user. Imitating http requests from the legitimate site requires research and preparation from the attacker beforehand, such as finding vulnerable websites and api’s suitable for the attack.
 
-![](image2.png)
+![](image2.webp)
 
 Here is a high-level example of an CSRF attack. Note that some details are excluded for simplicity, but the key aspects are included.
 
@@ -35,11 +35,11 @@ Here is a high-level example of an CSRF attack. Note that some details are exclu
 
 A common and effective way of mitigating CSRF is called the double submit cookie. Essentially the client will have two paired and encrypted tokens: one hidden in the page HTML and the other stored as a cookie.
 
-![](image1.png)
+![](image1.webp)
 
 When a request is made by the client, both tokens are sent to the server, and the server will then ensure the tokens are valid pairs before processing the request as normal. 
 
-![](image3.png)
+![](image3.webp)
 
 Now the attacker will be unable to perform CSRF since they will not have access to the token hidden in the pages HTML, and the target server requires a valid token pair before processing the request.
 

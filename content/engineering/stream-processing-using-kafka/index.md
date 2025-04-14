@@ -1,7 +1,7 @@
 ---
 title: "Kafka Streams: A stream processing guide"
 date: "2020-07-01"
-coverImage: "header.png"
+coverImage: "header.webp"
 author: "Priyadarshan Mohanty"
 tags: ["Scala", "Kafka", "Kafka Streams"]
 description: "Learn about Kafka Streams, key concepts and highlights with simple streaming or a word count application using Kafka Streams in Scala"
@@ -38,7 +38,7 @@ There are two individual processors in the topology:
   
  - **Sink Processor**: A sink processor is a special type of stream processor that does not have down-stream processors. It sends any received records from its up-stream processors to a specified Kafka topic.
 
-![Toplogy Example](streams-architecture-topology.jpg)
+![Toplogy Example](streams-architecture-topology.webp)
 
  - **Kstream**: KStream is nothing but that, a Kafka Stream. It’s a never-ending flow of data in a stream. Each piece of data — a record or a fact — is a collection of key-value pairs. Data records in a record stream are always interpreted as an "INSERT".
 

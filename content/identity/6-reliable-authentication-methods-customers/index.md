@@ -1,7 +1,7 @@
 ---
 title: "6 Alternative Authentication Methods For Your Online Customers"
 date: "2022-08-26"
-coverImage: "reliable-auth.jpg"
+coverImage: "reliable-auth.webp"
 tags: ["authentication", "biometric authentication", "digital trust"]
 author: "Andre Oentoro"
 description: "Providing alternative authentication methods to your customers will not only make your site more secure but will also give them peace of mind knowing that their information is well-protected. This blog breaks down the popular authentication methods to consider for your customers."
@@ -19,7 +19,7 @@ Providing alternative authentication methods will not only make your site more s
 
 This blog will break down popular authentication methods to consider.
 
-![auth-method](auth-method.png)
+![auth-method](auth-method.webp)
 
 ## Alternative Authentications: Why Do You Need Them?
 
@@ -67,7 +67,7 @@ MFA essentially adds an extra layer of security by requiring users to provide mo
 
 This could include a password, as well as a code that’s sent to the user’s mobile phone or email address. 
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### #2. SMS-based authentication
@@ -115,4 +115,4 @@ Ultimately, the decision comes down to what you feel is best for your business. 
 
 It’s also important to keep in mind that no single authentication method is perfect. The best way to keep your site secure is to use a combination of methods. This will make it more difficult for hackers to gain access to your site and ensure that your customers’ data is safe. 
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=6-reliable-authentication-methods-customers)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=6-reliable-authentication-methods-customers)

@@ -1,7 +1,7 @@
 ---
 title: "Data Security in Hospitality: Best Practices for Operating In a Post-COVID Era"
 date: "2021-04-23"
-coverImage: "data-security-hospitality-industry-cover.jpg"
+coverImage: "data-security-hospitality-industry-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Navanita Devi"
@@ -57,7 +57,7 @@ As per the multiple threats that have been uncovered above, it is essential to u
 *   **Testing computer systems**: The testing process applies to the cyber-security provider. That is to say, businesses are required to carry out several tests to determine if the provider can detect the threat or malware.
 *   **Track data**: Databases that are stored on various systems require a tracker. Through this tracker, one is capable of determining where the data is present or moving towards. 
 
-[![protecting-PII-against-data-breaches-report](protecting-PII-against-data-breaches-report.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![protecting-PII-against-data-breaches-report](protecting-PII-against-data-breaches-report.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 
 ## How Can LoginRadius Mitigate Data Security Concerns for the Hospitality Industry
@@ -80,4 +80,4 @@ According to the AARP, around [1.4 million](https://www.aarp.org/money/scams-fra
 
 To mitigate this, governments across the world have implemented the privacy act. This privacy act hopes to decrease the number of identity theft cases by regulating the information that is collected by businesses. Therefore, investing in proper data security in hospitality can work to protect not only the consumer but also the business from losing large sums of profit. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-security-hospitality-industry)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-security-hospitality-industry)

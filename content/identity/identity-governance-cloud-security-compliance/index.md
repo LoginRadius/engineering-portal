@@ -1,7 +1,7 @@
 ---
 title: "Strengthening Security and Compliance: The Role of Identity Governance"
 date: "2023-10-30"
-coverImage: "strength-security.jpg"
+coverImage: "strength-security.webp"
 tags: ["identity governance","cloud security","compliance","cx"]
 author: "Rakesh Soni"
 description: "Discover the challenges posed by cyber threats and regulatory demands, and delve into the integral role of identity governance solutions. From stringent access controls to real-time compliance monitoring, automation, and risk management, these tools provide a comprehensive approach to fortifying cloud security. Stay ahead of evolving threats and industry standards with cutting-edge identity governance strategies, ensuring unparalleled security and compliance for your business."
@@ -20,7 +20,7 @@ Admit it; cybercriminals are becoming more advanced in finding loopholes to expl
 
 **2. Regulatory Compliance:** Various industries are subject to stringent regulations governing the storage and handling of data. Ensuring compliance with these regulations is not only a legal requirement but also essential for maintaining trust among clients and partners.
 
-[![DS-ccpa-compliance](DS-ccpa-compliance.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-ccpa-compliance](DS-ccpa-compliance.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 **3. Identity Management:** One of the fundamental aspects of cloud security is efficient identity management. With the growing complexity of cloud infrastructures, managing user identities, access permissions, and data privileges has become a challenging task.
 
@@ -52,4 +52,4 @@ Identity governance emerges as a vital component in this endeavor, offering comp
 
 By investing in cutting-edge identity governance tools and strategies, businesses can not only safeguard their cloud-stored data but also build a reputation for reliability and trustworthiness. As the cloud landscape evolves, staying ahead of the curve with effective identity governance will remain a cornerstone in the pursuit of unparalleled security and compliance in the digital realm. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-cloud-security-compliance)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-cloud-security-compliance)

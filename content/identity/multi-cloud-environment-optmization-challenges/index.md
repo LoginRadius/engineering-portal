@@ -1,7 +1,7 @@
 ﻿---
 title: "A Lot Can Happen In The Cloud: Multi-Cloud Environment and its Optimization Challenges"
 date: "2023-01-13"
-coverImage: "cloud-multi.jpg"
+coverImage: "cloud-multi.webp"
 tags: ["multi cloud", cloud cost optimization", "on prem"]
 author: "Rakesh Soni"
 description: "Although some features of the cloud are pretty attractive, there exist some that aren’t so attractive but are add-on features that make it highly complex to manage the cloud regularly.  Let’s uncover some optimization aspects of multi-cloud environments and the challenges that can help businesses plan their cloud adoption smartly."
@@ -67,7 +67,7 @@ When choosing a reliable cloud architecture, most businesses aren’t sure wheth
 
 For startups and budding entrepreneurs, multi-tenant cloud deployment is the best as they need not spend much money on the services they don’t require. Instead, they just need to pay for the resources they need on shared cloud space.
 
-[![wp-nightmare](wp-nightmare.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
+[![wp-nightmare](wp-nightmare.webp)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
 
 
 ### #2. Analyze Unused Resources
@@ -97,5 +97,5 @@ The multi-cloud challenge is difficult to solve without proper planning, and the
 Businesses should carefully consider a number of points before moving forward: which cloud services best meet the needs of their applications? What is the solution's total cost of ownership? And will users be satisfied with that solution?
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-cloud-environment-optmization-challenges)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-cloud-environment-optmization-challenges)
 

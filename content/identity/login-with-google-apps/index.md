@@ -1,7 +1,7 @@
 ---
 title: "Login with Google Apps"
 date: "2021-03-26"
-coverImage: "google-apps-cover-pic.jpg"
+coverImage: "google-apps-cover-pic.webp"
 tags: ["authentication"]
 featured: false
 author: "Keshav Kumar"
@@ -116,4 +116,4 @@ Apart from the [privacy issues](https://www.loginradius.com/customer-security/),
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-with-google-apps)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-with-google-apps)

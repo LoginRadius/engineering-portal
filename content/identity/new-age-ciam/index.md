@@ -1,7 +1,7 @@
 ---
 title: "How Is New Age Ciam Revolutionizing Consumer Experience?"
 date: "2021-02-11"
-coverImage: "a-new-age-CIAM.jpg"
+coverImage: "a-new-age-CIAM.webp"
 tags: ["ciam solution","data security","cx"]
 author: "Rakesh Soni"
 description: "How New-Age CIAM is Revolutionizing Consumer Experience Consumer Identity and Access Management (CIAM) is on the fast-track to going mainstream. What has put CIAM on the forefront is the proficiency to excel in the three most crucial aspects: profiling consumer data, managing consumer identity, and controlling consumer access to applications."
@@ -117,7 +117,7 @@ In an age where sensational hacking and malicious attacks have become the order 
 
 By adding multiple layers of shields, new-age CIAM brings into effect strengthened security. Thus, the entire cluster of data remains protected from the prying eyes or, for that matter falling prey to data trackers.  
 
-[![guide-to-modern-customer-identity](guide-to-modern-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![guide-to-modern-customer-identity](guide-to-modern-customer-identity.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 New-age CIAM takes advantage of [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/#:~:text=Team%20LoginRadius&text=10%20min%20read-,Multi%2Dfactor%20authentication%20(or%20MFA)%20is%20a%20multi%2D,user%20account%20will%20remain%20secure.) to guard against unauthorized access. Each layer is designed with the utmost security in mind to prevent hackers from breaking into the account.
 
@@ -135,7 +135,7 @@ Whether it's adhering to international data protection laws like the GDPR and th
 
 ## An Introduction to The LoginRadius Modern CIAM Solution
 
-![new-age-ciam](new-age-ciam.png)
+![new-age-ciam](new-age-ciam.webp)
 
 LoginRadius' modern CIAM solution is designed to be more flexible, intuitive. It addresses every subtle component that can improve consumers' experience while also providing an unmatched safeguard for the private data. 
 
@@ -153,4 +153,4 @@ CIAM ensures brands have a better understanding of consumers. Hence, they can qu
 
 Add to that the top-of-the-line shield against the prying eyes and the new-age CIAM seems to be a must for modern enterprises.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=new-age-ciam)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=new-age-ciam)

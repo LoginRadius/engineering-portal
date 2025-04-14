@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Webhook Allows You to Sync Your Data in Real-Time"
 date: "2021-11-24"
-coverImage: "webhook-cover.jpg"
+coverImage: "webhook-cover.webp"
 tags: ["webhook","data security","ciam platform","cx"]
 author: "Vishal Sharma"
 description: "Businesses can leverage the true potential of Webhook that allows them to build or set up integrations that subscribe to certain events on LoginRadius CIAM. Let’s understand how LoginRadius improves business performance through third-party integrations and helps sync your crucial business data in real-time through Webhook."
@@ -40,7 +40,7 @@ Enterprises shouldn’t worry about the overall security of consumer data since 
 * Implementing and [maintaining security policies](https://www.loginradius.com/security-policy) and procedures to meet the ISO 27001, ISO 27017, ISO 27018, NIST CSF requirements, and any other compliance that LoginRadius follows.
 * Implementing an Information Security Management System and ensuring that it is continually improved and supported with the necessary resources required to achieve the commitments written in this policy statement.
 
-[![DS-webhook](DS-webhook.png)](https://www.loginradius.com/resource/webhook-integration-datasheet)
+[![DS-webhook](DS-webhook.webp)](https://www.loginradius.com/resource/webhook-integration-datasheet)
 
 ## Benefits of Webhook LoginRadius Integration
 
@@ -70,4 +70,4 @@ LoginRadius can easily connect customer data to your existing API-driven tools, 
 
 If you wish to see the future of CIAM in action, [reach us](https://www.loginradius.com/contact-sales) for a personalized session. 
 
-[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-webhook-datasync-realtime)
+[![](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-webhook-datasync-realtime)

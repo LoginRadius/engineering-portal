@@ -1,7 +1,7 @@
 ---
 title: "JWT Signing Algorithms"
 date: "2020-09-24"
-coverImage: "unsplash.png"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["JWT", "JSON Web Tokens"]
 description: "Deciding between which signing algorithm to use."

@@ -1,7 +1,7 @@
 ---
 title: "How The Age Of Smart Credentials Is Rewriting The Rules For Physical Verification?"
 date: "2022-11-30"
-coverImage: "smart-credentials.jpg"
+coverImage: "smart-credentials.webp"
 tags: ["digital identity","smart credentials", "iot", "identity verification"]
 author: "Rakesh Soni"
 description: "As technology advances, the need for national standards and interoperable applications raises the stakes for physical verification of identity. Smart credentials may offer better solutions to today's problems, but only if proper safeguarding is in place."
@@ -31,7 +31,7 @@ We are getting closer and closer to a world where everything is connected and ca
 
 Smart credentials are already being used by some companies around the world—for everything from employee badges to medical records—and they could change the way we do things forever!
 
-[![DS-smart-iot-auth](DS-smart-iot-auth.png)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
+[![DS-smart-iot-auth](DS-smart-iot-auth.webp)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
 
 ## How Portable Smart Credentials Can Prevent Identity Theft?
 
@@ -58,4 +58,4 @@ The reason we should all have an interest in smart credentials is simple. [Digit
 
 We will only be dependent on a physical card that might never be accepted where we want it to be. We will increasingly have greater control over protecting our identities by ensuring that sensitive personal information is not disseminated unnecessarily. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-credentials-raising-bar-physical-ids)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-credentials-raising-bar-physical-ids)

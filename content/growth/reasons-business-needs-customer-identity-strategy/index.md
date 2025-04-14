@@ -1,7 +1,7 @@
 ﻿---
 title: "5 Reasons Why a Strong Customer Identity Strategy Can Benefit Your Business"
 date: "2023-03-22"
-coverImage: "customer-idntity.jpg"
+coverImage: "customer-idntity.webp"
 tags: ["customer identity management","data security","cx"]
 author: "Yash Rathi"
 description: "Whether deep consumer insights or delivering seamless and secure customer experiences, an identity management solution could help businesses stay ahead of the curve. Let’s uncover some of the top reasons your business needs an identity strategy."
@@ -39,7 +39,7 @@ In today's digital age, cybersecurity threats are a constant concern for busines
 
 Whether multi-factor or risk-based, an identity management solution can reinforce authentication security even in the highest-risk environments. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Adding multiple layers of authentication not only protects customers' personal information and helps build trust and credibility with customers, which can lead to increased loyalty and referrals.
 
@@ -61,4 +61,4 @@ A customer identity strategy is critical for businesses that want to grow and su
 
 By personalizing experiences, gaining better customer insights, enhancing security, improving marketing ROI, and increasing customer loyalty, businesses can create a strong foundation for growth and long-term success. If you haven't already implemented a customer identity strategy, now is the time to start.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reasons-business-needs-customer-identity-strategy)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reasons-business-needs-customer-identity-strategy)

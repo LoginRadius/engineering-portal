@@ -1,7 +1,7 @@
 ---
 title: "What are Security Keys? What are its Advantages?"
 date: "2021-09-23"
-coverImage: "what-are-security-keys-cover.jpg"
+coverImage: "what-are-security-keys-cover.webp"
 tags: ["security keys","mfa","authentication","authorization"]
 author: "Vishal Sharma" 
 description: "When it comes to robust security for a seamless authentication and authorization experience, security keys are considered one of the best ways to prove one’s identity. These security practices add an extra security layer other than passwords and ensure that the right person has access to the right information."
@@ -59,7 +59,7 @@ Many organizations utilize security keys and eventually encourage their employee
 
 Besides the endless advantages of security keys regarding [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/), the major drawback is that these keys are costly. 
 
-[![GD-to-auth](GD-to-auth.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
+[![GD-to-auth](GD-to-auth.webp)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
 
 Organizations and individuals find it more expensive to purchase and maintain a physical key than other software alternatives. 
 
@@ -71,4 +71,4 @@ Security keys are shaping the future of security and are pretty helpful in certa
 
 However, those that require excellent user experience coupled with robust security must consider relying on risk-based authentication (RBA) solutions designed to deliver exceptional user experience with stringent security mechanisms. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-security-keys)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-security-keys)

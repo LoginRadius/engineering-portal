@@ -1,7 +1,7 @@
 ---
 title: "How to ab-USE CSS2 sibling selectors"
 date: "2015-08-18"
-coverImage: "sibling-selectors.png"
+coverImage: "sibling-selectors.webp"
 author: "Team LoginRadius"
 tags: ["Engineering","Selector","CSS"]
 ---
@@ -18,7 +18,7 @@ Squiggly line selects all the siblings below that element where you use that sig
 
 ### Great, give me the deets.
 
-![lr-home](lr-home.png)
+![lr-home](lr-home.webp)
 
 Have you ever seen our [support docs](https://docs.loginradius.com/)?  
 

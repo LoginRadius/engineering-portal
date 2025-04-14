@@ -1,7 +1,7 @@
 ---
 title: "Strengthening Digital Customer Onboarding to Combat Deep Fakes"
 date: "2024-07-15"
-coverImage: "deepfake.jpg"
+coverImage: "deepfake.webp"
 tags: ["customer onboarding", "cx", "deepfake", "authentication"]
 author: "Kundan Singh"
 description: "As deepfake technology advances, the risk of fraudulent activities in digital customer onboarding increases. This article explores how to safeguard your onboarding processes against deepfakes, ensuring a secure and trustworthy experience for your customers."
@@ -82,7 +82,7 @@ In digital onboarding, deepfakes can be used to impersonate individuals, potenti
 -   Allocate resources to acquire and integrate advanced identity verification and deepfake detection technologies.
     
 
-[![The Critical Role of Identity Management in Data Governance](cta.png)](https://www.loginradius.com/resource/whitepaper/identity-management-data-governance/)
+[![The Critical Role of Identity Management in Data Governance](cta.webp)](https://www.loginradius.com/resource/whitepaper/identity-management-data-governance/)
 
 -   Prioritize systems that offer scalability and adaptability to future advancements in deepfake techniques.
     

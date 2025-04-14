@@ -1,7 +1,7 @@
 ---
 title : "Breaking down the 'this' keyword in Javascript"
 date: "2020-10-06"
-coverImage: "this-image.png"
+coverImage: "this-image.webp"
 author: "Efereyan Karen"
 tags: ["JavaScript", "JSConcepts"]
 description: "As one of the most popular programming languages currently being used all around the world, understanding the core of Javascript is essential. The 'this' keyword is one of the most difficult concepts to grasp. This blog post aims to break down the 'this' keyword into small and understandable bits."
@@ -60,13 +60,13 @@ The definition of [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   console.log(y)
   ```
 
-  ![this in the global context](global-context.PNG). 
+  ![this in the global context](global-context.webp). 
 
   Since that is true, if you make a strict comparison between the value of this and the window object, we get the boolean value of true.
 
   If you run this javascript file inside your computer using a tool like [node](https://www.w3schools.com/nodejs/), this keyword refers to an object of type of object, like so......
   
-  ![system](system.PNG)
+  ![system](system.webp)
 
 - ### `this` in a function 
 

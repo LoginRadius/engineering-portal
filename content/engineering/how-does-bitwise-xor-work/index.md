@@ -1,7 +1,7 @@
 ---
 title: "How does bitwise ^ (XOR) work?"
 date: "2020-11-24"
-coverImage: "xor.png"
+coverImage: "xor.webp"
 author: Kheenvraj Lomror
 tags: ["bitwise", "XOR"]
 description: "Everything you should know about bitwise ^ xor operator."

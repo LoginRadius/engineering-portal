@@ -1,7 +1,7 @@
 ---
 title: "CSS Responsive Grid, Re-imagined"
 date: "2015-03-16"
-coverImage: "desdev.png"
+coverImage: "desdev.webp"
 author: "Team LoginRadius"
 tags: ["CSS", "Grid", "Responsive"]
 ---
@@ -20,7 +20,7 @@ What if we create a grid that doesn't need margins for spacing? Or using percent
 
 Let's start with 4 grids first. So 100 / 4 = 25 then add a percentage (%) sign and we get 25% for our 4 grid system. No crazy numbers there, but we need spacing. To add spaces between those elements just add padding on left and right. Pixels or percent, it's up to you. Yes, yes, padding adds width but, if you add "box-sizing: border box" on our lovely grid, the padding will start respecting your decision to add a width of 25% and start pushing everything inside.
 
-![grid](grid.png)
+![grid](grid.webp)
 
 There you have it, Spacing. By now your CSS code will look like this.
 

@@ -1,7 +1,7 @@
 ---
 title: "Securing B2B SaaS: How Identity Management Leads the Charge Against Top 5 Security Challenges"
 date: "2024-04-12"
-coverImage: "b2b-saas.jpg"
+coverImage: "b2b-saas.webp"
 tags: ["saas","digital identity management","compliance"]
 author: "Alok Patidar"
 description: "Security is paramount in the dynamic B2B SaaS landscape. Explore how Identity Management addresses the top 5 security challenges, from data breaches to compliance, offering insights to fortify digital defenses. Discover proactive measures to safeguard systems and data, letting Identity Management lead the charge in securing the future of B2B SaaS."
@@ -44,7 +44,7 @@ As B2B SaaS businesses scale, so do their security challenges. Identity Manageme
 
 Single Sign-On (SSO) solutions simplify user access management, ensuring seamless scalability without compromising security.
 
-[![WP-LR-resiliency](WP-LR-resiliency.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-LR-resiliency](WP-LR-resiliency.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 ### 5. Password Woes
 
@@ -58,4 +58,4 @@ In the face of evolving security challenges, B2B SaaS companies need proactive m
 
 By implementing robust authentication, access controls, and compliance measures, businesses can confidently navigate the security landscape. As the digital realm expands, let Identity Management lead the charge in securing the future of B2B SaaS.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-management)

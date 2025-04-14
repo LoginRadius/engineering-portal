@@ -1,7 +1,7 @@
 ﻿---
 title: "The Digitization of Agile Marketing Principles - How Has It Changed Over the Years"
 date: "2021-05-17"
-coverImage: "Agile-Marketing.jpg"
+coverImage: "Agile-Marketing.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -179,6 +179,6 @@ The department was then divided into small teams with as many generalists as pos
 ## Wrapping Up
 
 Incorporating agile into digital marketing can be extremely beneficial to an online campaign. An enterprise can tackle several campaigns at once on different platforms. Thus, they are capable of relating to a large audience on a global scale.<p>
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digitization-of-agile-marketing-principles)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digitization-of-agile-marketing-principles)
 
 

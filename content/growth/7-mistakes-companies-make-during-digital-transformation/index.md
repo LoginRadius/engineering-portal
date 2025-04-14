@@ -1,7 +1,7 @@
 ---
 title: "7 Mistakes Companies Make During Digitization And Their Fixes"
 date: "2022-03-07"
-coverImage: "digitize-mistakes.jpg"
+coverImage: "digitize-mistakes.webp"
 tags: ["digital transformation", "identity management","cx"]
 author: "Hazel Raoult"
 description: "Today, most companies realize that technology presents an opportunity to transform their business models and products. But, not many have any clue about the mistakes they make while adopting."
@@ -82,7 +82,7 @@ This just proves that digital transformation is never a destination, as most com
 
 The goal here is to become a dynamic enterprise that can respond to changes quickly, keeping digital transformation at the core. 
 
-[![DS-customer-identity](DS-customer-identity.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![DS-customer-identity](DS-customer-identity.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 Take the example of Disney. After facing the challenges of the worldwide closure of theaters during the COVID-19 pandemic, it started leveraging its streaming platform for releasing its content. It transitioned from a distribution model to a direct-to-consumer model. This helped the company to stabilize its revenues through increased subscriptions and ultimately positioned itself for success. 
 
@@ -107,4 +107,4 @@ Define metrics based on your digital transformation goals and measure the progre
 
 A venture as massive as digital transformation is never going to be an easy path. And there are high chances you will encounter numerous failures too. But you have a choice, to either fall prey to the fears that can lead to succumbing to the intense competition in the market or to wholeheartedly embrace these challenges and collectively look for solutions that can get you on a path to success. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-mistakes-companies-make-during-digital-transformation)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-mistakes-companies-make-during-digital-transformation)

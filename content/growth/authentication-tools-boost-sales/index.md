@@ -1,7 +1,7 @@
 ---
 title: "Can Authentication Convert Sales? 4 Authentication Tools for Every Retailer"
 date: "2021-11-08"
-coverImage: "auth-tools.jpg"
+coverImage: "auth-tools.webp"
 tags: ["biometric authentication","social login","passwordless authentication"]
 author: "Navanita Devi"
 description: "Authentication is a serious process that can help you convert sales. In many cases, it determines whether a customer will take the time to complete a purchase. Therefore, it is important for your store to have multiple layers of security throughout the checkout process."
@@ -51,7 +51,7 @@ Additionally, it reduces the need to create digital contracts and also the waiti
 
 As a result of the above advantages, customers are more likely to engage with your brand and be loyal to you. Additionally, with more customers, you are more likely to get more data. Proper analysis of it can lead to a further high conversion rate. 
 
-[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### #3. Social Logins
@@ -72,4 +72,4 @@ Moving away from traditional **authentication tools** such as standard authentic
 There is no doubt that using an authentication tool can improve your website's conversion rate. This is because you will protect your customers better while keeping out hackers, fraudsters and other malicious individuals. However, you should take the time to look for the best authentication solutions in the market today. [Contact us](https://www.loginradius.com/contact-sales) for more information on how we can help! 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-tools-boost-sales)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-tools-boost-sales)

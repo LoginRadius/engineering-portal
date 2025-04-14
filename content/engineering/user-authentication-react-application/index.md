@@ -1,7 +1,7 @@
 ---
 title: "A Guide To React User Authentication with LoginRadius"
 date: "2020-12-10"
-coverImage: "authentication-main.png"
+coverImage: "authentication-main.webp"
 author: "Versha Gupta"
 tags: ["Authentication", "LoginRadius", "React"]
 description: "This article focuses on helping developers learn how to integrate user authentication in React applications and determine the basic principles of authentication with React."

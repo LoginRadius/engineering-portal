@@ -1,7 +1,7 @@
 ﻿---
 title: "How MFA Makes Quick Service Restaurants (QSR) Promotion Fraud-Free"
 date: "2021-09-01"
-coverImage: "qsr-payment-ciam-loginradius.jpg"
+coverImage: "qsr-payment-ciam-loginradius.webp"
 tags: ["mfa","digital transformation","biometric authentication"]
 author: "Navanita Devi"
 description: "Quick-Service Restaurants are seeing a boom in engagement, but so are the scammers. Read this blog to find out how to boost your restaurant’s confidence in its capacity to defend itself from hackers."
@@ -41,7 +41,7 @@ The majority of MFA authentication methods rely on one of three sorts of extra d
 
 In an <a rel="nofollow" href="https://www.pymnts.com/news/security-and-risk/2021/multi-factor-authentication-makes-qsrs-promotions-discounts-fraud-free/">interview with PYMNTS</a>, Vikram Dhawan, vice president and senior product leader at Kount, an Equifax business, warned that QSRs and other merchants must safeguard their promotions and customers' accounts to strengthen their defenses against an assault of faceless, digitally-mounted attackers.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
 
 The news came as PYMNTS research revealed that 44 percent of respondents indicated they were more likely to order from restaurants that offered specials or discounts. According to Dhawan, this circumstance allows for marketing misuse and fraud.
   
@@ -99,4 +99,4 @@ In an age where, even after the pandemic, [digital transformation](https://www.l
   
 
 Consumers may now eat these goods in a variety of ways. So it would be fascinating for merchants to react to that change and that dynamic nature.”
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-mfa-makes-qsr-promotions-fraud-free)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-mfa-makes-qsr-promotions-fraud-free)

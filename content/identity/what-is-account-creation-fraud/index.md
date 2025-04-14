@@ -1,7 +1,7 @@
 ---
 title: "The Rise of Account Creation Fraud: What You Need to Know"
 date: "2023-02-15"
-coverImage: "account-fraud.jpg"
+coverImage: "account-fraud.webp"
 tags: ["account fraud", "passwordless authentication", "risk based authentication"]
 author: "Alok Patidar"
 description: "Account creation fraud, sometimes called new account fraud, is a fraud where cybercriminals create fake accounts of users and exploit their details. And these frauds are often carried out by exploiting the stolen identity of users or through a loophole in a platform's entire identity management system."
@@ -61,7 +61,7 @@ RBA is a process of assessing the risk of an authentication request in real-time
 
 The risk is usually assessed based on various parameters and the environment from which the user is trying to authenticate. Some standard parameters used for risk profiling include geographical location, IP address, device, etc. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 With LoginRadius' risk-based authentication system (RBA), businesses can use risk profiling as another layer of security on top of the traditional methods of identity verification already being used by most online companies today: username and password. 
 
@@ -75,4 +75,4 @@ Account creation frauds are quickly rising, and businesses must ensure robust se
 To maintain the trust of your customers, you need to help them spend less time worrying about their security and more time enjoying their experience with your brand. And that's a promise that only a passwordless CIAM platform can fulfill!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-account-creation-fraud)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-account-creation-fraud)

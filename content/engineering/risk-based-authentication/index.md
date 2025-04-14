@@ -1,7 +1,7 @@
 ---
 title: "What is Risk-Based Authentication? And Why Should You Implement It?"
 date: "2021-05-25"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Raghunath Reddy"
 tags: ["RBA","Authentication"]
 description: "RBA is a process of assessing the risk of an authentication request in real-time and requesting additional layers of authentication and identification based on the risk profile to validate that a user attempting to authenticate is who they claim to be."
@@ -11,7 +11,7 @@ While most of you — developers and architects — understand the need for stro
 
 For years security researchers have been hollering about the risks of weak, repeated passwords. Still, average Joe seems to be complacent about it and reuses the same or similar passwords across multiple logins, despite the fact that even a strong password is secure only if used for a single login.
 
-![https://twitter.com/JohnLegere/status/371699808014462976/photo/1](incorrect.jpg)
+![https://twitter.com/JohnLegere/status/371699808014462976/photo/1](incorrect.webp)
 
 A good password manager can alleviate the problem of remembering tens of passwords, if not hundreds. However, in reality, the average Joe doesn't invest in a password manager and carries on with life. 
 

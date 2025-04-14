@@ -1,7 +1,7 @@
 ---
 title: "Password History, Expiration, and Complexity: Explained!"
 date: "2021-06-08"
-coverImage: "Passwordhistory_cover_pic.jpg"
+coverImage: "Passwordhistory_cover_pic.webp"
 tags: ["authentication"]
 featured: false
 author: "Ashish Kumar Yadav"
@@ -20,7 +20,7 @@ The internet knows about you more than you. Imagine what an individual can do if
 
 We all are conscious about our privacy and data security, and a perfect real-life example can explain this. Most of us know when and where we have to switch to our internal privacy mode according to the situation. 
 
-![Password Secured Phone Image](https://apidocs.lrcontent.com/images/photo-1584433144859-1fc3ab64a957--colorized_733860bf4aaac3d743.55160141.jpg "Password Secured Phone Image")
+![Password Secured Phone Image](https://apidocs.lrcontent.com/images/photo-1584433144859-1fc3ab64a957--colorized_733860bf4aaac3d743.55160141.webp "Password Secured Phone Image")
 
 Passwords are the only measures that help us immensely to protect our data. So don't you think our protector should be more robust? Yes, it should be strong enough to withstand multiple attacks trying to steal your data.
 
@@ -32,7 +32,7 @@ A password can be used in multiple scenarios, but the motive to use them is simi
 
 Most of the passwords contain letters, numbers, special characters, and symbols, and they can vary in length. Before setting a password, you should ensure that the combination should be easy to remember but hard to crack, which means it should not be that easy that everyone can guess it, and it should not be much hard that you forget it after some time.
 
-![Password Image](https://apidocs.lrcontent.com/images/password-2781614_960_720--colorized_2788360bf4b253cafb2.39488510.jpg "Password Image")
+![Password Image](https://apidocs.lrcontent.com/images/password-2781614_960_720--colorized_2788360bf4b253cafb2.39488510.webp "Password Image")
 
 ### What are Weak Passwords?
 
@@ -64,7 +64,7 @@ Password reuse is now an important headache for organizations as users tend to u
 
 The password history feature can have a limit up to which you can not use any such password which you have configured. For example, if you set the limit to 5, then you will be unable to use the last five previous passwords.
 
-![Phising Attack representation](https://apidocs.lrcontent.com/images/phishing-3390518_960_720--colorized_2613960bf4d54d50e62.32324792.jpg "Phising Attack representation")
+![Phising Attack representation](https://apidocs.lrcontent.com/images/phishing-3390518_960_720--colorized_2613960bf4d54d50e62.32324792.webp "Phising Attack representation")
 
 In this way, consumers will be forced not to reuse their old passwords again and again. Setting a new password creates challenges for an attacker, and the account remains safe.
 
@@ -106,4 +106,4 @@ If you really want to survive in this digital world where everything is digital,
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-history-expiration-complexity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-history-expiration-complexity)

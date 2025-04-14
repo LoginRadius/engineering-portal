@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Use Twitter for B2B Marketing in 2021"
 date: "2021-05-13"
-coverImage: "Twitter-for-B2B-Marketing-in-2021.jpg"
+coverImage: "Twitter-for-B2B-Marketing-in-2021.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -111,4 +111,4 @@ Each of the three marketing strategies explained in this article will help you g
   
 
 Firstly, you should check whether the Twitter B2B marketing strategies are aligned with your social media marketing strategy. Secondly, assess whether you have the resources and expertise to deal with businesses. And then, you are good to go! <p>
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=twitter-for-b2b-marketing-in-2021)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=twitter-for-b2b-marketing-in-2021)

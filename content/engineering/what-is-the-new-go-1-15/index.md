@@ -1,7 +1,7 @@
 ---
 title: "What's new in the go 1.15"
 date: "2020-09-07"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Go", "Golang","Go 1.15"]
 ---
@@ -38,9 +38,9 @@ Mobile applications were crashing in some devices due to some invalid lld linker
 ### Smaller binaries & Performance improvements 
 Always new Go 1.15 brings many minor/major performance improvements. The first major improvement has reduced the executable's binary size by almost 5% - 10% as compared to Go 1.14. As Brad Fitzpatrick [tweet](https://twitter.com/bradfitz/status/1256348714198654976?lang=en), test program down from 8.2MB in Go 1.14 to 3.9MB in 1.15. 
 
-![image 1](lr-tweet1.png)
+![image 1](lr-tweet1.webp)
 
-![image 1](lr-tweet2.png)
+![image 1](lr-tweet2.webp)
 
 Go 1.15 has improved the code build process now unused code is eliminating in the new linker, along with several targeted improvements, such as Clements's CL 230544, which reduces the number of stack and register maps included in the executable.  
 

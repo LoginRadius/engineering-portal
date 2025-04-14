@@ -1,7 +1,7 @@
 ---
 title: "How to Build a PWA in Vanilla JS"
 date: "2020-06-26"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Mohammed Modi"
 description: "A simple step-by-step tutorial, all done with pure JavaScript, to set up a simple PWA that can be accessed offline using a web app manifest and a service worker."
 tags: ["PWA", "JavaScript"]
@@ -141,13 +141,13 @@ html,
 
 Once you add the code save all the files and run the script `npm run serve` which will start your application in `http://localhost:5000/`
 
-![First Build](1.png)
+![First Build](1.webp)
 
 ### Testing the App
 
 As we can see our application is running in the browser, let test it using the [LightHouse Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) in Google Chrome browser. For the best result, I recommend testing in an **incognito tab** of google chrome.
 
-![First Test](2.png)
+![First Test](2.webp)
 
 As you can see we have green signals for both of our above requirement:
 
@@ -196,11 +196,11 @@ Once you run the lighthouse test again you can see we got green signals in some 
 
 1. Sets a theme colour for the address bar.
 
-![Improving the Application](3.png)
+![Improving the Application](3.webp)
 
 ### App Icons
 
-Still, we need to add more attributes to our `manifest.json` files like **icons** so let's add the icons inside the `images` folder, I have used to icons `pwa-icon-256.png` and `pwa-icon-256.png` for this demo you can find in this repo. You can use various sizes in it. And finally, add the `favicon.png` in the root of the project.
+Still, we need to add more attributes to our `manifest.json` files like **icons** so let's add the icons inside the `images` folder, I have used to icons `pwa-icon-256.webp` and `pwa-icon-256.webp` for this demo you can find in this repo. You can use various sizes in it. And finally, add the `favicon.webp` in the root of the project.
 
 So let's add the `icons` attribute after the `short-name`
 
@@ -210,12 +210,12 @@ So let's add the `icons` attribute after the `short-name`
   "short_name": "First PWA",
   "icons": [
     {
-      "src": ".images/pwa-icon-256.png",
+      "src": ".images/pwa-icon-256.webp",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": ".images/pwa-icon-512.png",
+      "src": ".images/pwa-icon-512.webp",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -233,14 +233,14 @@ And the index.html will head can will look like
 ```html
 <head>
   ...
-  <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+  <link rel="apple-touch-icon" href="images/pwa-icon-256.webp" />
   ...
 </head>
 ```
 
 You can also verify the `manifest.json` file by opening Chrome DevTools, in the **Application Tab**, the first tab in the sidebar **manifest**
 
-![Application Manifest](5.png)
+![Application Manifest](5.webp)
 
 After running the test again, we can see all the `manifest.json` related issues are solved, The remaining issues can be resolved by adding the service worker.
 
@@ -309,7 +309,7 @@ So the final version of our `index.html` file will look like:
   <head>
     <meta charset="utf-8" />
     <title>Hello World</title>
-    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.webp" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -326,7 +326,7 @@ So the final version of our `index.html` file will look like:
 
 Now our application is made as fully PWA supported, you can verify it by running the lighthouse test.
 
-![Full PWA Supported](6.png)
+![Full PWA Supported](6.webp)
 
 #### Finishing Up
 

@@ -1,7 +1,7 @@
 ---
 title: "What is Digital Identity Verification and Why is it Necessary?"
 date: "2021-08-13"
-coverImage: "what-is-identity-verification-cover.jpg"
+coverImage: "what-is-identity-verification-cover.webp"
 tags: ["identity verification","digital identity management","cx"]
 author: "Rajeev Sharma" 
 description: "Identity verification is a necessary process that ensures an individual’s identity matches the one that is supposed to be. This post helps better understand what digital identity verification is, how it works, and the types of digital identity verification systems."
@@ -128,7 +128,7 @@ The identity verification process through the identity and access management sys
 
 In other words, a CIAM solution functions to provide the right people access to devices, hardware, software applications, or any IT tool to perform a specific task.
 
-[![EB-Bridging-Trust-Gap](EB-Bridging-Trust-Gap.png)](https://www.loginradius.com/resource/digital-consumer-landscape-ebook/)
+[![EB-Bridging-Trust-Gap](EB-Bridging-Trust-Gap.webp)](https://www.loginradius.com/resource/digital-consumer-landscape-ebook/)
 
 The CIAM includes the following core components:
 
@@ -198,4 +198,4 @@ Digital identity verification is used in various industries like finance and hea
 
 Virtual identity verification is the process of verifying an individual's identity through digital channels without physical presence, often using methods like video calls or AI analysis of facial features or voice patterns. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-verification)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-verification)

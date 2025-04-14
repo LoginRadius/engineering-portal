@@ -1,7 +1,7 @@
 ---
 title: "Exceptions and Exception Handling in C#"
 date: "2020-09-29"
-coverImage: "csharplogo.png"
+coverImage: "csharplogo.webp"
 author: "Hemant Manwani"
 tags: ["C#","Exception","Exception Handling",".NET","Exception Handling Best Practices"]
 ---
@@ -16,7 +16,7 @@ If any exception is coming into our application then the application is abnormal
  
 Every time when we are developing an application and it got successfully build without any errors. Then this happens
  
-![Exception](image1.jpg)
+![Exception](image1.webp)
  
 For that, it is good practice to use exception handling.
  
@@ -55,7 +55,7 @@ This is a very basic Exception handling technique in which try, catch, and final
  
 Exception Handling after using try, catch blocks
  
-![Exception Handling](ExceptionHandling.jpg)
+![Exception Handling](ExceptionHandling.webp)
  
 **Note:** Multiple finally blocks are not allowed. Also, the finally block cannot have the return, continue, or break keywords. It doesn't let control leave the finally block.
  

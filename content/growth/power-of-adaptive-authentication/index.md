@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Customer Sign-In Journeys: The Power of Adaptive Authentication"
 date: "2023-06-13"
-coverImage: "adaptive-auth.jpg"
+coverImage: "adaptive-auth.webp"
 tags: ["identity verification","adaptive authentication","ciam solution"]
 author: "Vishal Sharma"
 description: "Learn how adaptive authentication revolutionizes customer sign-in journeys by dynamically adjusting security levels. Find out how businesses can balance security and user experience and implement this advanced authentication method to enhance online services."
@@ -28,7 +28,7 @@ Adaptive authentication takes a proactive approach to verify user identities by 
 
 By considering these contextual cues, adaptive authentication creates a risk profile for each authentication attempt, enabling businesses to make informed decisions about the level of security needed.
 
-[![EB-Adaptive-auth](EB-Adaptive-auth.png)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
+[![EB-Adaptive-auth](EB-Adaptive-auth.webp)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
 
 ## Benefits of Adaptive Authentication for Customer Sign-In Journeys
 
@@ -72,4 +72,4 @@ By leveraging real-time risk assessment and personalized authentication measures
 
 By embracing adaptive authentication through CIAM solutions, businesses can establish trust, foster loyalty, and provide customers with the seamless experiences they desire in 2023 and beyond.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-adaptive-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-adaptive-authentication)

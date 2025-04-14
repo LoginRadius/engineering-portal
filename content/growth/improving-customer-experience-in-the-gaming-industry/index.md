@@ -1,7 +1,7 @@
 ---
 title: "Improving Customer Experience in the Gaming Industry"
 date: "2020-01-27"
-coverImage: "gaming-industry.jpg"
+coverImage: "gaming-industry.webp"
 tags: ["data security","mfa","cx","ciam solution"]
 author: "Rakesh Soni" 
 description: "In order to prosper in the gaming industry, you need to offer a smooth user interface. Learn how it is possible to use emerging technologies to draw and retain more clients."
@@ -9,7 +9,7 @@ metatitle: "Gaming Industry: Enhancing Customer Experience | LoginRadius"
 metadescription: "To succeed in the gaming industry, you need to provide a seamless user experience. Learn how to leverage modern technology to win and retain more customers."
 ---
 
-![](image1.jpg)
+![](image1.webp)
 
 The gaming industry has been leveling up since it entered the mainstream in the 1980s. Exciting advancements in online streaming and Virtual Reality (VR) appear to lead the way. Yet, without a seamless user experience, game popularity can suffer. Here are some trends in improving customer experience that can help your gaming or streaming business win and retain more customers.
 
@@ -65,7 +65,7 @@ When a game crashes, it ruins the overall momentum of the game. Players know the
 
 Here’s how to prevent that from happening. Look for cloud-based CIAM solutions like LoginRadius that offer [automated failover systems](https://www.loginradius.com/engineering/failover-systems-and-loginradius-99-99-uptime/) and a scalable infrastructure that handles surges. This will ensure that your game is available even during peak loads. 
 
-![](image2.jpg)
+![](image2.webp)
 
 **Gamers exchange opinions on gaming forums.** 
 
@@ -105,4 +105,4 @@ Customer Identity and Access Management (CIAM) platform LoginRadius offers [out-
 
 No matter what platform or game, players demand a seamless experience with no downtime. With a CIAM solution from LoginRadius, you don’t have to compromise security to provide it. 
 
-[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-in-the-gaming-industry)
+[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-in-the-gaming-industry)

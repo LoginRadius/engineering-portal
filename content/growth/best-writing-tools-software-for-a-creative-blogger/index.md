@@ -1,7 +1,7 @@
 ---
 title: "16 Best Writing Tools and Software For A Creative Blogger [ Free tools Inside]"
 date: "2017-02-17"
-coverImage: "Pro-Tip-2.png"
+coverImage: "Pro-Tip-2.webp"
 category: ["content", "marketing", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -41,19 +41,19 @@ Now, here are some tools according to various categories every writer should use
 
 #### **1\. Hubspot’s blog topic generator**
 
-![Hubspot]( Hubspot.png?ver=1553881376)
+![Hubspot]( Hubspot.webp?ver=1553881376)
 
 This blog title generator from Hubspot is very efficient. You just need to provide it with three keywords (even one keyword can work). The tool helps you to find topics you can write upon. Hence, if you are struggling for ideas, [Hubspot’s blog topic generator](https://www.hubspot.com/blog-topic-generator#/Tools%20for%20Writers) is the right tool for you.
 
 #### **2\. TweakYourBiz Title Generator**
 
-![tweakyourbiz]( tweakyourbiz.png?ver=1553881376)
+![tweakyourbiz]( tweakyourbiz.webp?ver=1553881376)
 
 Just like the above line from the text box says “just enter your topic and go” using this tool is insanely easy. The title generator also breaks your given ideas into various categories such as ‘problems,' ‘motivation’ and ‘how to.' So, [Tweak Your Biz Title Generator](http://tweakyourbiz.com/tools/title-generator/index.php) is worth a try.
 
 #### **3\. Portent’s Content Idea Generator**
 
-![portent]( portent.png?ver=1553881376)
+![portent]( portent.webp?ver=1553881376)
 
 This great tool on my favorite list is very easy to use. You just need to enter your idea and Portent’s Content Idea Generator will provide you with a great title for your post. And if you don’t like the title, refresh your subject, and it will give you a different title instantly.
 
@@ -61,7 +61,7 @@ This great tool on my favorite list is very easy to use. You just need to enter 
 
 #### **1\. Google keyword planner**
 
-![Google keyword planner]( keywordplanner.png?ver=1553881376)
+![Google keyword planner]( keywordplanner.webp?ver=1553881376)
 
 Google keyword planner is a chunk from the Google AdWords program. The tool is completely free and is used to figure out and discuss keywords and develop a pay per click strategy. Type a keyword in the search bar, check the competition for your keywords and other related keyword phrases. Moreover, you can find out things like:-
 
@@ -88,7 +88,7 @@ It is my most favorite tool for graphics generation. This easy to use tool helps
 
 #### **2\. Infogr.am**
 
-![infogr.m]( infogr.png?ver=1553881376)
+![infogr.m]( infogr.webp?ver=1553881376)
 
 If you want to present your technical content in a fun way, use [Infogr.am](https://infogr.am/app/#/library). Infographics are a great way to attract more readers to your posts. So, sign in and get your data loaded in your favorite theme. Well, you may not be able to customize much with the tool like Canva, and you don’t get a blank option in Infogr.am but it may be a lifesaver tool when you want to create a detailed infographic.
 
@@ -116,7 +116,7 @@ This user-friendly tool expertly examines your article for a perfect readability
 
 Readable.io is a free tool when you use it occasionally. To move to advanced features, you can select any of these plans.
 
-![readable.io plans]( plans.png?ver=1553881376)
+![readable.io plans]( plans.webp?ver=1553881376)
 
 Plans are available for individual and business purpose. Features like Readable.io’s API is only for business plans.
 
@@ -124,7 +124,7 @@ Plans are available for individual and business purpose. Features like Readable.
 
 #### **1\. Grammarly**
 
-![grammarly]( grammarly.png?ver=1553881376)
+![grammarly]( grammarly.webp?ver=1553881376)
 
 Grammarly is an effective tool which can improve your language skills. It can find typo errors and grammatically incorrect sentences. Just enter your text in the [Grammarly](https://www.grammarly.com/) web app and the Grammarly editor will proofread your blog post.
 
@@ -140,19 +140,19 @@ So, if you are more convenient using apps than browsers, here are some goodies f
 
 #### **1\. Hemingway App**
 
-![hemignway app]( hemignwayapp.png?ver=1553881376)
+![hemignway app]( hemignwayapp.webp?ver=1553881376)
 
 Hemingway App work wonders when it comes to rectifying your content. It increases clarity in your writing. Thought, it was introduced as a web app, later it evolved as one of the best desktop apps for writers. The app edits your content, comes with distraction free mode feature, exports PDFs and does much more. If you want to buy the latest version which is Hemingway 3.0, it will come with a price tag of $19.99. Well, the web app continues to be free.
 
 #### **2\. Evernote**
 
-![evernote]( evernote.png?ver=1553881376)
+![evernote]( evernote.webp?ver=1553881376)
 
 Evernote can be your best friend when you like to store media, information or ideas. Devices can easily integrate with the content stored in Evernote which make materials more accessible. You can share your content on LinkedIn, Facebook, Twitter or just your content’s URL to clipboard.
 
 #### **3\. Tomighty Pomodoro timer**
 
-![Tomighty Pomodoro timer]( 4975166968_793305a326_b.jpg?ver=1553881376)
+![Tomighty Pomodoro timer]( 4975166968_793305a326_b.webp?ver=1553881376)
 
 It is my personal favorite Pomodoro timer. It is a small desktop app which can help you stay productive during your working hours. The free app uses Pomodoro technique to keep you focused throughout the day while allowing you to relax properly at regular intervals.
 

@@ -187,4 +187,4 @@ We’ve come a long way from passwords and PINs. In today’s zero-trust, cloud-
 ### 4. Is SSO authentication or authorization? 
 **A.** SSO is an authentication method. It lets you log in once and access multiple systems without logging in again. Authorization still controls what you can do once inside.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

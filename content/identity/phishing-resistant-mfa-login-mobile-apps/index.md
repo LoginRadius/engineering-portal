@@ -2,7 +2,7 @@
 title: "Phishing-Resistant MFA Login for Mobile Applications: 
 Strategies and Challenges"
 date: "2023-09-04"
-coverImage: "phishing-resistant.jpg"
+coverImage: "phishing-resistant.webp"
 tags: ["data security","mfa login","cybersecurity","cx"]
 author: "Alok Patidar"
 description: "Phishing-resistant multi-factor Authentication (MFA) login is a unique approach to information security that aims to strengthen the defenses against phishing attacks. Know all about the strategies and challenges involved."
@@ -54,7 +54,7 @@ Below, we have curated a list of the top 6 phishing-resistant strategies for mob
  
 3. **One-Time Password via Mobile App:** Rather than sending OTPs through SMS, try delivering them through the mobile application. OTPs generated via the app are more secure as they avoid the vulnerabilities associated with SMS-based OTPs, which attackers can manipulate.
 
-[![DS-passwordless-login-magic-links](DS-passwordless-login-magic-links.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-login-magic-links](DS-passwordless-login-magic-links.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 4. **Hardware Tokens:** Incorporate hardware tokens or security keys that connect directly to mobile devices. These tokens generate time-based OTPs or cryptographically signed authentication codes, providing a phishing-resistant alternative to traditional OTP methods.
  
@@ -71,4 +71,4 @@ In short, phishing-resistant MFA login technique for mobile applications is a di
 
 Applying the MFA login method to mobile applications will increase data security and reliability. Hence, being an impactful communication tool, mobile devices and applications can now resist cyber-attacks. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=phishing-resistant-mfa-login-mobile-apps)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=phishing-resistant-mfa-login-mobile-apps)

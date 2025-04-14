@@ -1,7 +1,7 @@
 ---
 title: "Setup a blog in minutes with Jekyll & Github"
 date: "2020-10-26"
-coverImage: "jekyll-github-pages.png"
+coverImage: "jekyll-github-pages.webp"
 author: "Malathi T"
 tags: ["jekyll", "blogging", "blog", "github-pages"]
 description: Getting started with Jekyll & Github pages
@@ -18,7 +18,7 @@ bundle exec jekyll serve
 ```
 That's it. You can navigate to `http://localhost:8080` and see your blog up and running like this
 
-![A new jekyll blog](new-blog.png)
+![A new jekyll blog](new-blog.webp)
 
 ## Customizing the blog
 As you see, the blog is a bare minimum, and the default values mentioned in the config file (`_config.yml`) are used. You can use the `_config.yml` file to add new plugins, provide metadata about the blog, add your social media profiles, modify themes, etc. 
@@ -46,11 +46,11 @@ Using your GitHub account, create a new repository. Push the contents of the jek
 `https://github.com/<github-id>/my-new-blog/settings`.
 In the settings page, under the `Github pages` section, specify the branch to use for the github source. This can be the `main` branch or some other branch in the repository.
 
-![Enable github page for the repo](enable-github-pages.png)
+![Enable github page for the repo](enable-github-pages.webp)
 
 As soon as the github page is enabled on a branch, github automatically creates actions to build the jeyll blog on a new commit to the branch.
 
-![Github pages build action](github-pages-action.png)
+![Github pages build action](github-pages-action.webp)
 
 ## Advantages of using Jekyll & Github pages
 - Open-source

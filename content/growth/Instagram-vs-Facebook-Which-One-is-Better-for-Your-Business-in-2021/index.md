@@ -1,7 +1,7 @@
 ﻿---
 title: "Instagram vs Facebook – Which One is Better for Your Business in 2021?"
 date: "2021-04-28"
-coverImage: "Facebook-Instagram.jpg"
+coverImage: "Facebook-Instagram.webp"
 tags: ["social media","social login","cx"]
 author: "Vishal Sharma"
 description: "Even the most experienced video content creators use a system to make sure everything goes smoothly so they don't miss deadlines or lose track of what they need to do next. A transparent plan with checklists and milestones will help you adopt a more professional tone in your videos."
@@ -21,7 +21,7 @@ Both of these platforms are powerful and influential with endless opportunities 
 
 So, let’s take a quick look at both of these platforms and learn the differences and advantages so that you can understand where to focus attention.
 
-[![Social Login](Product-Social-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![Social Login](Product-Social-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 ## Instagram vs. Facebook: Audience Demographics
 
@@ -77,4 +77,4 @@ When it comes to choosing between Facebook and Instagram, both platforms have th
 
 We can’t say Facebook > Instagram or vice-versa. It’s just the fact that as a marketer, one needs to understand its audience and their behavior. This will help in building a winning social media marketing strategy.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=instagram-vs-facebook-which-one-is-better-for-your-business-in-2021)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=instagram-vs-facebook-which-one-is-better-for-your-business-in-2021)

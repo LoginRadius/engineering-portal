@@ -1,7 +1,7 @@
 ---
 title: "Say Goodbye to Passwords: How Passkeys Are Reinventing Online Security"
 date: "2024-06-20"
-coverImage: "passkey.jpg"
+coverImage: "passkey.webp"
 tags: ["online security","passwordless login","compliance"]
 author: "Kundan Singh"
 description: "Explore how passkeys are revolutionizing online security, replacing passwords with advanced cryptographic keys, and strengthening Multi-Factor Authentication (MFA). Say goodbye to passwords and embrace a secure digital future."
@@ -83,7 +83,7 @@ Regulatory bodies worldwide are enforcing stricter data protection laws. Complia
 
 In addition to enhanced security, passkeys offer greater convenience for users. The need to remember and manage multiple passwords is eliminated, leading to a smoother and more user-friendly authentication experience. This ease of use encourages adoption and helps maintain high-security standards without compromising user experience.
 
-[![DS-pswrdless-login-magic-link](DS-pswrdless-login-magic-link.png)](https://www.loginradius.com/resource/datasheet/passwordless-login-magic-link-otp/)
+[![DS-pswrdless-login-magic-link](DS-pswrdless-login-magic-link.webp)](https://www.loginradius.com/resource/datasheet/passwordless-login-magic-link-otp/)
 
 ## How MFA with Passkeys Helps Lay the Foundation of a Robust Security Infrastructure
 
@@ -139,4 +139,4 @@ Passkeys eliminate common password vulnerabilities, such as reuse and phishing, 
 
 Yes, passkeys can be part of Multi-Factor Authentication (MFA) when combined with another factor, such as biometrics or a security token, for added security.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-security-passkeys)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-security-passkeys)

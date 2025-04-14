@@ -1,7 +1,7 @@
 ﻿---
 title: "A Successful Business Review Meeting Paves the Path for Your Business Success"
 date: "2022-01-13"
-coverImage: "business-review.jpg"
+coverImage: "business-review.webp"
 category: ["all"]
 featured: false 
 author: "Ritika Kapahi"
@@ -103,4 +103,4 @@ Moreover, you can help cement the relationship since you get a lot of feedback f
 Enterprises that aren’t yet leveraging the true potential of QBRs must quickly put their best foot forward in conducting the same for ensuring better and lasting relationships with their clients. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=business-review-meeting-success)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=business-review-meeting-success)

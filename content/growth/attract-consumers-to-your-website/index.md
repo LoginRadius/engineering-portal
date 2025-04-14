@@ -1,7 +1,7 @@
 ---
 title: "5 Tricks to Attract MORE Consumers to Your Website"
 date: "2021-02-23"
-coverImage: "consumer-to-website.jpg"
+coverImage: "consumer-to-website.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -122,4 +122,4 @@ Don't forget to build growth strategies after creating content to draw users to 
 
 By following these five tricks, you can make the most of your strategies to attract online consumers while also maintaining them and ensuring that they get converted into leads.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attract-consumers-to-your-website)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attract-consumers-to-your-website)

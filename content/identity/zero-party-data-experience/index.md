@@ -1,7 +1,7 @@
 ---
 title: "The Future of Personalization: Embracing Zero-Party Data"
 date: "2023-10-10"
-coverImage: "future-of-personalization.jpg"
+coverImage: "future-of-personalization.webp"
 tags: ["zero-trust security","cybersecurity","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Unlock the secrets behind seamless online personalization with Zero-Party Data! This blog explores how your willingly shared preferences revolutionize digital experiences. From tailored shopping to personalized content, discover the magic of Zero-Party Data and embrace a future where your online adventures are truly yours."
@@ -44,7 +44,7 @@ Zero-Party Data isn't limited to product recommendations; it's transforming how 
 
 One of the most remarkable aspects of Zero-Party Data is the trust it builds between businesses and consumers. When companies respect your data privacy and use the information you provide responsibly, it fosters a sense of loyalty.
 
-[![WP-consumer-identity-theft](WP-consumer-identity-theft.png)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
+[![WP-consumer-identity-theft](WP-consumer-identity-theft.webp)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
 
 Imagine receiving a survey from your favorite streaming service asking about your favorite genres. You willingly share your preferences; in return, they recommend movies and shows tailored to your taste. It's a win-win situation that leaves everyone smiling.
 
@@ -58,4 +58,4 @@ As we venture into the digital age, embracing Zero-Party Data is the way forward
 
 In a nutshell, Zero-Party Data is revolutionizing personalization, making your online adventures more enjoyable and meaningful. So, go ahead, share your preferences, and get ready to be amazed by the tailored experiences that await you.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data-experience)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data-experience)

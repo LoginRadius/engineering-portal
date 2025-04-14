@@ -1,7 +1,7 @@
 ---
 title: "Build and Push Docker Images with Go"
 date: "2020-12-08"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Andy Yeung"
 tags: ["Docker", "Go"]
 description: "Guide on how to build and push Docker images programmatically using Go."

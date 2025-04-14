@@ -1,7 +1,7 @@
 ---
 title: "Unveiling the Customer Identity Business Case: Strategies for Success"
 date: "2023-10-19"
-coverImage: "cust-identity.jpg"
+coverImage: "cust-identity.webp"
 tags: ["customer identity management","ciam solutions","cx"]
 author: "Rakesh Soni"
 description: "Dive into the world of the customer identity base case – your key to personalized success. Explore strategies for tailored experiences, fraud prevention, and ethical data practices. Stay ahead in the digital era with our expert insights."
@@ -46,7 +46,7 @@ As we move into an era dominated by digital interactions, the importance of the 
 
 Emerging technologies like the Internet of Things (IoT) and augmented reality are reshaping customer interactions, providing even more touchpoints for data collection. By embracing these technologies and integrating the insights gained into their customer identity base case, businesses can create seamless, omnichannel experiences that delight customers across various platforms.
 
-[![EB-GD-to-Mod-Cust-ID](EB-gd-mci.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-gd-mci.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 Moreover, the rise of ethical consumerism underscores the significance of transparent data practices. Companies that prioritize customer privacy and utilize data responsibly will not only comply with regulations but also earn the trust and loyalty of their customer base.
 
@@ -90,4 +90,4 @@ The customer identity base case is the cornerstone of a successful business stra
 
 Embracing these strategies and understanding the value of the customer identity base case will undoubtedly pave the way for long-term success in the digital realm.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-use-case)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-use-case)

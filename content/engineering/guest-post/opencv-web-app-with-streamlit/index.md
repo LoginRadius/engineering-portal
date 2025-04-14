@@ -1,7 +1,7 @@
 ---
 title: "How to Build an OpenCV Web App with Streamlit"
 date: "2021-11-10"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Dingu Sagar"
 tags: ["OpenCV", "Streamlit", "Python"]
 description: "You can now easily publish your OpenCV apps to the web using Streamlit, a Python library. Follow this tutorial to learn the process step by step."
@@ -42,7 +42,7 @@ def enhance_details(img):
     hdr = cv2.detailEnhance(img, sigma_s=12, sigma_r=0.15)
     return hdr
 
-img = cv2.imread(filename='tony_stark.jpg')
+img = cv2.imread(filename='tony_stark.webp')
 
 # do some cool image processing stuff
 img = enhance_details(img)
@@ -102,7 +102,7 @@ You should get a similar output as follows.
 ```
 Click on the links in the output to open the Streamlit app in your browser. You'll see something as follows. 
 
-![Streamlit basic web app](streamlit-1.png "Streamlit Basic Demo")
+![Streamlit basic web app](streamlit-1.webp "Streamlit Basic Demo")
 
 If you see the code, it's very straightforward. It imports streamlit as st. The default is a simple linear layout where you can place components on the webpage in a sequential manner.
 
@@ -209,7 +209,7 @@ streamlit run demo-app.py
 ```
 Now you can play with the filters. Of course, these are some basic filters, but you can extend it to more interesting filters — like cartoonify filters, etc. — using the rich features of OpenCV.
 
-![Streamlit final Screenshot](streamlit-final.png "Streamlit OpenCV Webapp")
+![Streamlit final Screenshot](streamlit-final.webp "Streamlit OpenCV Webapp")
 
 ## How to Publish Your App?
 

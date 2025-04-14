@@ -1,7 +1,7 @@
 ﻿---
 title: "How Should Growth-Minded Enterprises Approach Customer Security?"
 date: "2022-04-22"
-coverImage: "growth-comp.jpg"
+coverImage: "growth-comp.webp"
 tags: ["data security", "compliance", "ciam", "customer experience"]
 author: "Rakesh Soni"
 description: "Customer security is crucial for any business striving to stay ahead of the competition. However, balancing customer security with a rich consumer experience is what it all takes to propel growth. Learn the aspects of a robust CIAM solution and how it helps businesses stay ahead of their competitors."
@@ -54,7 +54,7 @@ An omnichannel consumer experience refers to seamless interaction across multipl
 
 For example, it is omnichannel when marketing, sales, consumer support, and even in-store experiences are synced up so users can seamlessly switch channels and make the purchase.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### #2. Single consumer view
@@ -92,4 +92,4 @@ Hence, the critical role of a CIAM solution in enhancing customer security and i
 
 Businesses need to invoke the potential of a reliable CIAM like LoginRadius to ensure they get perfect harmony of user experience and security. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-businesses-approach-customer-security)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-businesses-approach-customer-security)

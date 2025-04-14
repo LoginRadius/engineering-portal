@@ -1,7 +1,7 @@
 ---
 title: "Strengthening Security Measures: The Role of Two-Factor Authentication (2FA)"
 date: "2023-11-17"
-coverImage: "2fa-security.jpg"
+coverImage: "2fa-security.webp"
 tags: ["data security","2FA","MFA","cx"]
 author: "Rakesh Soni"
 description: "Dive into the world of Two-Factor Authentication (2FA) and its pivotal role in fortifying security. Discover the dual-layered defense, benefits against cyber threats, and insights on implementing MFA and RBA for a proactive defense strategy."
@@ -46,7 +46,7 @@ Whether combining something you know (like a password) with something you have (
 
 As the digital landscape evolves, so do the strategies employed by cybercriminals. In response to this ever-changing threat landscape, organizations increasingly turn to Risk-Based Authentication (RBA) to fortify their authentication security. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 RBA is a dynamic approach that assesses various risk factors in real-time to determine the level of authentication required for a particular user or transaction. By analyzing contextual data such as device information, location, user behavior, and the sensitivity of the requested action, RBA adapts the authentication process to match the perceived risk level. 
 
@@ -58,4 +58,4 @@ As we stand at the intersection of technological advancement and heightened cybe
 
 By comprehending its significance, embracing its implementation, and adapting to evolving technologies, individuals and organizations can proactively defend against the ever-shifting landscape of cyber threats. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=2fa-security-measures)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=2fa-security-measures)

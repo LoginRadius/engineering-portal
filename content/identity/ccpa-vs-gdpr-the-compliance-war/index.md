@@ -1,7 +1,7 @@
 ---
 title: "CCPA vs GDPR: Global Compliance Guide [Infographic]"
 date: "2019-09-18"
-coverImage: "ccpa-vs-gdpr.jpg"
+coverImage: "ccpa-vs-gdpr.webp"
 tags: ["data privacy","compliance","data security"]
 author: "Rakesh Soni"
 description: "It's natural that there will be new legislation to protect customer data in a world where data is the most important resource. With more data scandal storeys than ever before reported by media outlets, users are constantly aware of data collection and how it impacts them. With this in mind, enforcement laws foster data protection and consent rights for users."
@@ -26,7 +26,7 @@ To help you understand [how these regulations can affect you](https://www.loginr
 - **When is a business responsible?** Anytime they interact with the data of a resident.
 - **What rights do customers have over their data?** Both CCPA and GDPR compliance rules allow users the right to access, correct, stop the processing of, and delete their data.
 
-[![](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance-1024x310.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance-1024x310.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 **For more info on CCPA compliance, check out our white paper.**
 
@@ -39,8 +39,8 @@ To help you understand [how these regulations can affect you](https://www.loginr
 
 For more tips on CCPA and GDPR compliance, check out the infographic by LoginRadius.
 
-![](new_CCPA-VS-GDPR-V01.06-PNG-01-1-2.png)
+![](new_CCPA-VS-GDPR-V01.06-PNG-01-1-2.webp)
 
 Want to get your company compliance-ready and keep it up-to-date, automatically? Contact a LoginRadius expert to learn how.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-vs-gdpr-the-compliance-war)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-vs-gdpr-the-compliance-war)

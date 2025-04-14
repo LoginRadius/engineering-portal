@@ -1,7 +1,7 @@
 ---
 title: "5 Best Practices of Implementing Business Resilience during a Data Breach"
 date: "2021-02-18"
-coverImage: "business-resilience.jpg"
+coverImage: "business-resilience.webp"
 tags: ["data security","resiliency","cx"]
 author: "Rakesh Soni"
 description: "Business resilience can be defined as a business’ ability to quickly adapt and respond to impending risks or disruptions. More like a combination of crisis management and business continuity strategies post-disaster."
@@ -62,7 +62,7 @@ On the other side, business resilience best practices will assure that all your 
 
 This can even cultivate a resilient organizational culture. It makes the whole business, including employees, quickly adapt to unforeseen challenges whenever the business operations or processes go awry. Or under threat like a data breach.
 
-[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ## 5 Best Practices of Implementing Business Resiliency during a Data Breach
 
@@ -124,4 +124,4 @@ A standard business resilience plan in the need of the hour. A recent study show
 
 So, it is important to implement fail-proof business resilience practices in your business to survive unexpected data breaches.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

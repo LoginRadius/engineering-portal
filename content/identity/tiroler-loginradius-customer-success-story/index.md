@@ -1,7 +1,7 @@
 ---
 title: "Tiroler Tageszeitung (TT), a LoginRadius Customer Success Story"
 date: "2021-09-28"
-coverImage: "tiroler-loginradius-customer-success-story-cover.jpg"
+coverImage: "tiroler-loginradius-customer-success-story-cover.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Yash Rathi"
@@ -73,4 +73,4 @@ One of the most critical differentiators for TT was LoginRadius’s ability to p
 
 With our state-of-the-art technology, we were able to help the company increase its user base through great user experience coupled with security and convenience. 
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tiroler-loginradius-customer-success-story)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tiroler-loginradius-customer-success-story)

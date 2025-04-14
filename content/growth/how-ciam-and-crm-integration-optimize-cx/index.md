@@ -1,7 +1,7 @@
 ---
 title: "Customer-Centric Strategies: How CIAM and CRM Integration Optimize Consumer Experience"
 date: "2023-08-28"
-coverImage: "customer-experience.jpg"
+coverImage: "customer-experience.webp"
 tags: ["ciam solutions","user management","cx"]
 author: "King Conrad Fanoga"
 description: "Any successful business knows that an excellent customer experience is essential; thus, a customer's needs and expectations are of utmost priority. Learn how to optimize your consumer experiences and boost customer-centric strategies."
@@ -76,7 +76,7 @@ Facilitate collaborative synergy among IT, marketing, and customer service teams
 
 Utilize customer insights and feedback to adjust and optimize your CIAM and CRM strategies continuously. You should also be mindful of the evolving customer preferences and behaviors and be proactive in keeping your approach relative.
 
-[![DS-user-management](DS-user-management.png)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
+[![DS-user-management](DS-user-management.webp)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
 
 ### 4. Harnessing Emerging Technologies for Elevated Experiences
 
@@ -100,4 +100,4 @@ In conclusion, customer-centric strategies are essential for your business or an
 
 The future holds exciting potential for CIAM and CRM integration. As digital innovations continue to appear, your company should embrace them or, better else, pioneer them. Consistently deliver excellent value and exceptional customer service.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-and-crm-integration-optimize-cx)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-and-crm-integration-optimize-cx)

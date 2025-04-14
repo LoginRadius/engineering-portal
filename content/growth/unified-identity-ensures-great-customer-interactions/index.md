@@ -1,7 +1,7 @@
 ﻿---
 title: "How Can Enterprises Deliver Better Customer Experiences with Unified Identity?"
 date: "2022-05-18"
-coverImage: "customer-interactions.jpg"
+coverImage: "customer-interactions.webp"
 tags: ["customer experience","sso","identity management","mfa"]
 author: "Yash Rathi"
 description: "Unified identity can do wonders for a brand if a business leverages its true potential. Let’s uncover some aspects of unified identity and how brands leverage the same to engage users and foster business growth."
@@ -76,7 +76,7 @@ Risk-based authentication is a non-static authentication system that considers t
 
 It is a method of applying various levels of stringency to authentication processes based on the likelihood that access to a given system could be compromised. As the level of risk increases, the authentication process becomes more complicated and restrictive.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Hence, managing security doesn't necessarily mean compromising user experience with MFA and RBA. This further boosts engagement and trust in a brand. 
 
@@ -101,4 +101,4 @@ Enterprises that have incorporated a reliable consumer identity and access manag
 Hence, it’s the right time for enterprises to understand the importance of rethinking their identity management strategy around a cutting-edge CIAM solution. 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=unified-identity-ensures-great-customer-interactions)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=unified-identity-ensures-great-customer-interactions)

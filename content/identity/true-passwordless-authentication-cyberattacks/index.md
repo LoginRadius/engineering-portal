@@ -1,7 +1,7 @@
 ---
 title: "True Passwordless Authentication: Stronger Defense Against Cyberattacks"
 date: "2023-08-29"
-coverImage: "true-passwordless-auth.jpg"
+coverImage: "true-passwordless-auth.webp"
 tags: ["passwordless authentication","cybersecurity","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "True passwordless authentication has broadened the horizons for businesses seeking secure yet user-friendly authentication mechanisms. This authentication mechanism helps enterprises to safeguard sensitive information and further gain the trust of their customers with a safe digital environment."
@@ -51,7 +51,7 @@ True passwordless authentication depends on asymmetric encryption. This means us
 ### Signature Verification Process: 
 The server receives the signed challenge and verifies it with the user's public key. If the signature is accurate, it confirms that the user has the private key associated with the account. These methods enhance identity confirmation processes and help organizations create a safer digital environment for their customers, partners, and employees. 
 
-[![DS-passwordless-login-magic-link](DS-passwordless-login-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-login-magic-link](DS-passwordless-login-magic-link.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ## Advantages of True Passwordless Authentication 
 
@@ -97,4 +97,4 @@ True passwordless authentication has revolutionized how businesses secure custom
 
 With a reliable CIAM offering true passwordless authentication, like LoginRadius, businesses can create a perfect harmony of great user experience and security. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=true-passwordless-authentication-cyberattacks)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=true-passwordless-authentication-cyberattacks)

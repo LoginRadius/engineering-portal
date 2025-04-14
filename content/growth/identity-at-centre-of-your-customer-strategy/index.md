@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Identity Should Be At The Centre of Your Customer Strategy"
 date: "2023-07-20"
-coverImage: "identity-at-centre.jpg"
+coverImage: "identity-at-centre.webp"
 tags: ["identity management","data security","cx"]
 author: "Vishal Sharma"
 description: "Dive into the vital role of identity in your customer strategy. Explore how leveraging identity data can revolutionize personalization, establish trust, ensure seamless experiences across channels, drive data-driven decision-making, and maximize customer lifetime value."
@@ -35,7 +35,7 @@ Transparent privacy policies and clear communication regarding data usage also c
 
 Customers expect consistency and continuity as they interact with a brand across different channels. Integrating identity management across your various touchpoints allows you to provide a seamless omnichannel experience. 
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 For example, a customer who starts shopping on your website should be able to continue their journey seamlessly on a mobile app or even in-store without any disruptions. 
 
@@ -63,4 +63,4 @@ Incorporating identity into your customer strategy is a strategic imperative in 
 
 By placing identity at the center of your customer strategy, you create a customer-centric approach that drives customer satisfaction, enhances brand reputation, and positions your business as a leader in your industry.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-at-centre-of-your-customer-strategy)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-at-centre-of-your-customer-strategy)

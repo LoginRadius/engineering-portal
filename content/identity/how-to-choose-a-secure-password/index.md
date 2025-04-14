@@ -1,7 +1,7 @@
 ---
 title: "The Do's and Don'ts of Choosing a Secure Password"
 date: "2021-01-06"
-coverImage: "how-to-choose-a-secure-password-in-2021.jpg"
+coverImage: "how-to-choose-a-secure-password-in-2021.webp"
 tags: ["data security","password management","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Passwords are the digital keys to our daily lives. They are the gateway to our professional services, and our network of friends. So, what does a secure password look like? Here is a collection of the do's and don't on how to choose a strong password to avoid being a victim of cyberattack."
@@ -83,7 +83,7 @@ SaaS businesses, e-commerce sites, and users of financial services majorly fall 
 ## The Do's and Don't on How to Choose a Strong Password
 
 
-![do's-and-don't-to-choose-a-strong-password](do's-and-don't-to-choose-a-strong-password.png)
+![do's-and-don't-to-choose-a-strong-password](do's-and-don't-to-choose-a-strong-password.webp)
 
 What does a secure password look like? It is usually the one that cannot be guessed easily or cracked using software tools. 
 
@@ -131,7 +131,7 @@ The following are a few types of layers that businesses choose to provide:
 **Change your passwords regularly**: Also, do not reuse the same password for a long time. The more sensitive your data is, the more frequently you should change your password.
 
 
-[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 **Always remember to log out** of websites and devices once you are done using them. 
 
@@ -421,7 +421,7 @@ Disclaimer: Stay away from these passwords.
 ## 5 Tips on How to Choose a Strong Password Manager
 
 
-![how-to-choose-a-strong-password](how-to-choose-a-strong-password.png)
+![how-to-choose-a-strong-password](how-to-choose-a-strong-password.webp)
 
 A password manager helps you auto-generate strong passwords and stores them in encrypted, centralized locations on your behalf. You can access all your passwords with a master password. 
 
@@ -462,4 +462,4 @@ By now, you know how to choose a strong password. However, hackers will still tr
 Follow the steps listed above to make your passwords as strong and unique as possible. Remember, if your password is too easy to remember, it is probably not secure at all.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-choose-a-secure-password)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-choose-a-secure-password)

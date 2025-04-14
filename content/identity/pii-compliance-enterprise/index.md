@@ -1,7 +1,7 @@
 ---
 title: "Understanding PII Compliance: A Key to Enterprise Data Security"
 date: "2021-07-07"
-coverImage: "pii-compliance-enterprise-cover.jpg"
+coverImage: "pii-compliance-enterprise-cover.webp"
 tags: ["data security","enterprise security","compliance"] 
 author: "Rakesh Soni"
 description: "The security of personal identity and other details is at increasing risk today, with hackers finding new ways to hack into websites. Therefore, enterprises of all sizes must maintain PII compliance to protect the information of the company and its users."
@@ -28,7 +28,7 @@ Data that helps identify a specific individual is called personally identifiable
 
 PII has a principal role in network security, especially when it comes to data breaches and identity theft. For example, if a company that manages personal information encounters a data breach, its customers will likely suffer personal identity theft because the company-managed data will be stolen.
 
-[![RP-Protecting-PII-Against-Data-Breaches](RP-Protecting-PII-Against-Data-Breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![RP-Protecting-PII-Against-Data-Breaches](RP-Protecting-PII-Against-Data-Breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 The information related to this is stored with online marketers and brokers who trade your data to various companies that "want to show you appropriate ads" and provide you with an "improved user experience."
 
@@ -72,4 +72,4 @@ The security of personal identity and other details is at increasing risk today,
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pii-compliance-enterprise)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pii-compliance-enterprise)

@@ -1,7 +1,7 @@
 ---
 title: "Introducing LoginRadius CLI"
 date: "2021-07-02"
-coverImage: "cli.png"
+coverImage: "cli.webp"
 author: "Mohammed Modi"
 description: "LoginRadius CLI helps you to perform basic actions of your LoginRadius Dashboard through the command line. The actions include login, register, logout, email configuration, domain whitelisting, etc."
 tags: ["Authentication", "DevTools",  "CLI", "LoginRadius CLI"]
@@ -20,25 +20,25 @@ Check out a few examples of how LoginRadius CLI can help manage your [Loginradiu
 
 ### Login/Register to your LoginRadius Dashboard
 
-![alt_text](login.png "Login Command")
+![alt_text](login.webp "Login Command")
 
 This command will help you to log in to the CLI. Once you logged in to the CLI, you can configure all your LoginRadius Applications through CLI. 
 
 ### Manage your App Credentials
 
-![alt_text](api-cred.png "API Credentials Commands")
+![alt_text](api-cred.webp "API Credentials Commands")
 
 Get your API Credentials in a single command. You can also reset your secret and generate sott using the LoginRadius CLI.
 
 ### Domain Whitelisting
 
-![alt_text](domain.png "Domain Commands")
+![alt_text](domain.webp "Domain Commands")
 
 Manage your white-listed domain for your application with simple commands.
 
 ### Theme Management
 
-![alt_text](theme.png "Theme Management Commands")
+![alt_text](theme.webp "Theme Management Commands")
 
 You can update the LoginRadius IDX Page theme from the predefined themes available through LoginRadius CLI. 
 
@@ -46,7 +46,7 @@ You can update the LoginRadius IDX Page theme from the predefined themes availab
 
 ### Add Social Logins
 
-![alt_text](social.png "Social Commands")
+![alt_text](social.webp "Social Commands")
 
 With the help of LoginRadius CLI, you can add social logins to your LoginRadius IDX Page.
 

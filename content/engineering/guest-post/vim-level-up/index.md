@@ -2,7 +2,7 @@
 title: "How to Upgrade Your Vim Skills" 
 date: "2021-09-23"
 author: "Shubhankar Khare"
-coverImage: "Vim.png"
+coverImage: "Vim.webp"
 tags: ["Vim", "Text Editor", "UNIX"]
 description: "Vim is Vi's newest and most common reincarnation, which is supported on every known platform. Go through this tutorial to learn about what Vim is and how to make the most out of it."
 ---
@@ -88,7 +88,7 @@ Now, to repeat your macro 99 times:
 
 And that's all.
 
-![macro demo](vim-macro-demo.png)
+![macro demo](vim-macro-demo.webp)
 
 ## Buffers & Splitting
 In simple terms, a _buffer_ is a file that has been loaded into memory. Everything you do in Vim is in a buffer. You can list all the buffers by `:buffers`. And then, if you want to check out a particular buffer, use `:b n` -- where n is the buffer number. 

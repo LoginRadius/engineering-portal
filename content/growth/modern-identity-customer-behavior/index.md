@@ -1,7 +1,7 @@
 ---
 title: "Exploring Modern Identity: Unraveling Customer Attitudes"
 date: "2023-12-15"
-coverImage: "customer-behaviour.jpg"
+coverImage: "customer-behaviour.webp"
 tags: ["customer identity management","passwordless authentication","cx"]
 author: "Navanita Devi"
 description: "With the digital transformation, the expectations and behavior of modern customers are changing, desiring more seamlessness and convenience when managing their identities. A robust CIAM can help you meet customer expectations while reducing identity theft risk."
@@ -31,7 +31,7 @@ Understanding the needs of modern consumers involves keeping a close eye on the 
 
 Organizations are increasingly adopting RBA systems that assess risk signals before granting access. This involves evaluating device posture, network data, and user inputs, enabling fraud detection even before the authenticated session begins. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 * Shift to Dynamic Authorization (ABAC)
 
@@ -92,4 +92,4 @@ CIAM is a valuable tool to meet and understand consumer behavior in modern ident
 
 As businesses advance into the digital age, the strategic importance of CIAM becomes increasingly evident in understanding customer behavior in modern identity. CIAM not only safeguards user data and elevates security measures but also provides vital in crafting positive user experiences, streamlining account interactions, and unraveling valuable customer perceptive. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=modern-identity-customer-behavior)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=modern-identity-customer-behavior)

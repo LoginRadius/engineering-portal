@@ -1,7 +1,7 @@
 ---
 title: "Unlock Your Digital Freedom: How Automating Passwordless Authentication Can Transform Your Security"
 date: "2024-08-27"
-coverImage: "password-auth.jpg"
+coverImage: "password-auth.webp"
 tags: ["passwordless authentication","data security","cx"]
 author: "Rakesh Soni"
 description: "In a world where cybersecurity threats are ever-evolving, automating passwordless authentication emerges as a game-changer. Learn how this innovative approach can not only bolster your security but also streamline the user experience and pave the way for a more secure digital future."
@@ -81,7 +81,7 @@ By leveraging cutting-edge technologies such as biometric authentication, hardwa
 
 With automated workflows and real-time monitoring, LoginRadius ensures consistent security protocols and swift responses to potential threats.
 
-[![DS-passwordless-otp](DS-passwordless-otp.png)](https://www.loginradius.com/resource/datasheet/ciam-passwordless-login/)
+[![DS-passwordless-otp](DS-passwordless-otp.webp)](https://www.loginradius.com/resource/datasheet/ciam-passwordless-login/)
 
 Moreover, LoginRadius offers a customizable user experience, allowing businesses to tailor authentication methods to fit specific needs and preferences. This adaptability ensures a smooth implementation across various platforms and applications, minimizing disruptions while maximizing security.
 
@@ -91,4 +91,4 @@ Automating passwordless authentication is a transformative step towards unlockin
 
 By eliminating the vulnerabilities associated with traditional passwords and streamlining the authentication process, you can achieve a higher level of security and user satisfaction. Embrace this innovative approach to stay ahead in the ever-evolving landscape of cybersecurity.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-automation)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-automation)

@@ -1,7 +1,7 @@
 ﻿---
 title: "What Is User Management?"
 date: "2021-03-16"
-coverImage: "user-mngmnt.jpg"
+coverImage: "user-mngmnt.webp"
 tags: ["user management","identity access management","cx"]
 author: "Rakesh Soni"
 description: "Though user management has been around for a long time now, especially within the IAM and ITAM space, it has assumed new importance with introducing cloud-based subscriptions. Recent trends show that there is a sure shift to cloud-based IAM, granting administrators greater access and control over digital assets management."
@@ -124,7 +124,7 @@ The third generation of user management solutions is designed for the cloud-firs
 
 These solutions support a wide range of authentication methods, including [social login](https://www.loginradius.com/social-login/) and multi-factor authentication, and can integrate with existing identity and access management systems. They also provide advanced analytics and monitoring capabilities to detect and prevent security threats.
 
-[![DS-user-management](DS-user-management.png)](https://www.loginradius.com/resource/loginradius-user-management-datasheet)
+[![DS-user-management](DS-user-management.webp)](https://www.loginradius.com/resource/loginradius-user-management-datasheet)
 
 ## **Why Should Businesses Use LoginRadius’ Effective User Management?**
 
@@ -160,4 +160,4 @@ Example: Granting specific employees access to financial data while restricting 
 
 User access management includes assigning permissions, managing passwords, implementing multi-factor authentication, and monitoring login attempts.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-user-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-user-management)

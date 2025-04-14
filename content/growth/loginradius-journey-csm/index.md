@@ -1,7 +1,7 @@
 ---
 title: "A Glimpse into My 1-Year Journey at LoginRadius as a CSM!"
 date: "2021-06-17"
-coverImage: "loginradius-journey-csm-cover.jpg"
+coverImage: "loginradius-journey-csm-cover.webp"
 category: ["LoginRadius"]
 featured: false 
 author: "Jennifer Chan"
@@ -73,4 +73,4 @@ It’s not an easy task! But throughout the many experiences CSMs are exposed to
 
 That’s where I realized that these CSM responsibilities form the pillars of “growth” within LoginRadius. Being able to contribute to it is rewarding :)   
 
-[![browse-positions](browse-positions.png)](https://www.loginradius.com/careers/)
+[![browse-positions](browse-positions.webp)](https://www.loginradius.com/careers/)

@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Launches PassKeys to  Redefine Authentication Security and User Experience"
 date: "2024-06-26"
-coverImage: "passkeys.png"
+coverImage: "passkeys.webp"
 tags: ["industry news","passkeys","passwordless login"]
 author: "Rakesh Soni"
 description: "Passwords pose significant security risks and inconvenience for users. Passkeys by LoginRadius is a revolutionary authentication mechanism offering a secure, passwordless process that enhances security and simplifies the user experience. Learn how Passkeys revolutionize customer authentication with easy integration and robust features."
@@ -24,7 +24,7 @@ LoginRadius is introducing Passkeys to revolutionize the authentication landscap
 
 Passkeys by LoginRadius addresses various security challenges in conventional password-based authentication without hampering the overall user experience. 
 
-[![DS-passkeys](DS-passkeys.png)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
+[![DS-passkeys](DS-passkeys.webp)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
 
 ## Key Functions of Passkeys by LoginRadius
 
@@ -46,4 +46,4 @@ Passkeys by LoginRadius revolutionize your customers' authentication experience 
 
 Passkeys are the future of secure and user-friendly authentication. They are quick to implement, reliable in performance, and scalable to meet enterprise demands. LoginRadius is setting a new standard in customer identity and access management by eliminating the need for passwords.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-authentication-experience)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-authentication-experience)

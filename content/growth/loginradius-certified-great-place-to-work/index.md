@@ -1,7 +1,7 @@
 ﻿---
 title: "LoginRadius is Now Great Place to Work-Certified in India"
 date: "2023-01-31"
-coverImage: "gptw-blog.jpg"
+coverImage: "gptw-blog.webp"
 category: ["loginradius"]
 author: "Pankaj Sharma"
 description: "LoginRadius has always fostered a positive work culture and is excited to officially become ‘Great Place to Work-Certified.’ This certification is a natural move for us as it puts us on the international recognition stage.  Let’s look closely at the overall journey of becoming the best."
@@ -62,4 +62,4 @@ We were blown away by the results! We found that our employees are overwhelmingl
 This is no small feat: creating a workplace culture where everyone wins takes effort from everyone involved—not just management but also from each employee. And now, thanks to this survey and its encouraging results, we know we're on the right track!
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-certified-great-place-to-work)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-certified-great-place-to-work)

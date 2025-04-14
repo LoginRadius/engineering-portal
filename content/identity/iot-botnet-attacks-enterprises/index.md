@@ -1,7 +1,7 @@
 ---
 title: "IoT Botnet Attacks: Are They the Next Big Threat to Enterprises?"
 date: "2022-06-28"
-coverImage: "iot-botnet.jpg"
+coverImage: "iot-botnet.webp"
 tags: ["iot", "botnet", "cybersecurity", "ux"]
 author: "Manish Tiwari"
 description: "Enterprises developing IoT devices, smart applications, or other systems in the IoT landscape shouldn’t ignore the risks associated with botnet attacks. Read this insightful post to understand what an IoT botnet attack means and how IoT developers and vendors can mitigate the risk."
@@ -61,7 +61,7 @@ IoT botnet attacks can be prevented, and sensitive business and user information
 
 Good cybersecurity hygiene is key to preventing botnet attacks since attackers must surpass various lines of defense before exploiting crucial business or user information. 
 
-[![WP-Remote-Learning](WP-Remote-Learning.png)](https://www.loginradius.com/resource/shifting-safely-to-remote-learning-with-the-best-cyber-security-hygiene/)
+[![WP-Remote-Learning](WP-Remote-Learning.webp)](https://www.loginradius.com/resource/shifting-safely-to-remote-learning-with-the-best-cyber-security-hygiene/)
 
 Adding multiple layers of authentication in the IoT network and devices through multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/#:~:text=Risk%2Dbased%20authentication%20is%20a,profile%20associated%20with%20that%20action.) (RBA) could mitigate many risks associated with identity theft and account takeovers. 
 
@@ -91,4 +91,4 @@ On the other hand, businesses relying on poor security mechanisms on the device 
 Hence, incorporating a robust security policy, as mentioned above, could be the best thing to ensure businesses, vendors, developers, and users in the IoT landscape remain secure. 
  
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-botnet-attacks-enterprises)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-botnet-attacks-enterprises)

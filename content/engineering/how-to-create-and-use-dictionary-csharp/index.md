@@ -1,7 +1,7 @@
 ---
 title: "How to create and use the Dictionary in C#"
 date: "2021-05-27"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#","Dictionary"]
 description: "In this article, we will talk about how to create and use the Dictionary in C#."

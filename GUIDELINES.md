@@ -53,7 +53,7 @@ Here are the guidelines that you shall follow for formatting and submitting your
    - **title:** A meaningful title. Max. 60 characters.
      Note: This title will appear in the post, so no need to again include it in the `.md` file.
    - **date:** A date shall be in `YYYY-MM-DD` format. And the date shall not be greater than the current date.
-   - **coverImage:** The name of the image with format shall come here. For example, `coverimage.png`. Make sure that the image is present in the same directory as your `index.md`.
+   - **coverImage:** The name of the image with format shall come here. For example, `coverimage.webp`. Make sure that the image is present in the same directory as your `index.md`.
    - **author:** The name of the author. Make sure that it matches what you would add in the `/content/author.yaml` file.
    - **tags:** Add up to 3 relevant tags as an array of string `for eg: ["NodeJs"]`.
    - **description:** Add a short description about your blog post, which will appear in the card of your blog. It shall not be more than 160 characters.
@@ -64,7 +64,7 @@ Here are the guidelines that you shall follow for formatting and submitting your
    ---
    title: "Hello, this is a title"
    date: "2020-06-11"
-   coverImage: "coverImage.png"
+   coverImage: "coverImage.webp"
    author: "Jon Doe"
    tags: ["Example1", "Example2", "Example3"]
    description: "This is a blog about so and so on. Read this to learn this and this"

@@ -1,7 +1,7 @@
 ---
 title: "32 React Best Practices That Every Programmer Should Follow"
 date: "2021-10-26"
-coverImage: "Best-Practices.png"
+coverImage: "Best-Practices.webp"
 author: "Anjali Rohira"
 tags: ["React"]
 description: "Important React best practices every React developer should follow before, during, & after writing the code. To ensure code maintainability, keep these React coding best practices handy."

@@ -1,7 +1,7 @@
 ---
 title: "Authentication and Authorization Defined: What's the Difference? [Infographic]"
 date: "2020-06-11"
-coverImage: "authentication-vs-authorization.jpg"
+coverImage: "authentication-vs-authorization.webp"
 tags: ["authentication","authorization","ciam solution"]
 author: "Rakesh Soni"
 description: "As companies progress towards digital maturity in times of robust cloud-based systems and stringent online security, authentication and authorization are used in conjunction with each other."
@@ -163,7 +163,7 @@ Here is the common authentication vs authorization techniques used by CIAM solut
 - **Password-based authentication** is a simple [method of authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) that requires a password to verify the user's identity. 
 - **Passwordless authentication** is [where a user is verified](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/) through OTP or a magic link delivered to the registered email or phone number.
 
-[![passwordless-login](passwordless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![passwordless-login](passwordless-login.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 - **2FA/MFA** requires [more than one security level](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/), like an additional PIN or security question, to identify a user and grant access to a system. 
 - **Single sign-on** (SSO) allows users to access multiple applications with a single set of credentials. 
@@ -179,7 +179,7 @@ Here is the common authentication vs authorization techniques used by CIAM solut
 
 To learn more about the authentication vs authorization - concept, differences, and techniques, check out the infographic created by LoginRadius.
 
-![Authentication-Vs-Authorization-infographic](Authentication-Vs-Authorization-1.png)
+![Authentication-Vs-Authorization-infographic](Authentication-Vs-Authorization-1.webp)
 
 ## Implementing Identity and Access Management with LoginRadius 
 
@@ -217,4 +217,4 @@ Properly implemented authentication and authorization processes can ensure data 
 
 The future likely involves more advanced biometrics, continuous authentication, and AI-driven security measures to combat evolving cyber threats and enhance user experience. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vs-authorization-infographic)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vs-authorization-infographic)

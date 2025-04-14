@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons Why Frictionless Payments Matter To Marketers And Business Owners"
 date: "2022-03-11"
-coverImage: "frictionless-paymt.jpg"
+coverImage: "frictionless-paymt.webp"
 tags: ["omnichannel cx","authentication","user experience","ciam solution"]
 author: "Vishal Sharma"
 description: "When it comes to frictionless payments, most brands ignore that a bit of hustle in the overall payment process could encourage their users to switch. Let’s understand why frictionless payments matter today more than ever before, especially for business owners and marketers."
@@ -52,7 +52,7 @@ Admit it; a great user experience is paramount for online business success in to
 
 Users need not enter their card details or provide pins every time they shop from the same platform. Instead, they can use different authentication methods, including a fingerprint that completes payment in a fraction of seconds. 
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### #3. Better payment security 
@@ -91,4 +91,4 @@ Adding frictionless payment methods to their branding strategy is the need of th
 Businesses can quickly adopt frictionless payments by leveraging [seamless authentication methods](https://www.loginradius.com/blog/identity/authentication-option-for-your-product/) that offer a great experience and eventually reinforce payment security. 
 
 
-[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-frictionless-payments-for-businesses)
+[![book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-frictionless-payments-for-businesses)

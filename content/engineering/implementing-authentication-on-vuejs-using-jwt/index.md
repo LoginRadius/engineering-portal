@@ -1,7 +1,7 @@
 ---
 title: "Implementing Authentication on Vue.js using JWTtoken"
 date: "2021-06-02"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Uma Victor"
 tags: ["Auth","JWT","Vue.js"]
 description: "In recent times, when building a modern application, users are required to verify their identity. The process by which we carry out this verification is what we call authentication, and in this tutorial, we would look at how we can carry out this task using JWTauthentication on a Vuejs app."
@@ -13,7 +13,7 @@ In this tutorial, we will be covering some authentication concepts and learn abo
 
 In our app, we have a login form. The user enters a username and password that is then posted to an endpoint. The flow of the app is the user opens the app, then the login page appears, the user submits the login form, which makes a post request to a login endpoint, then we check if the username and password check out, then we return a JWT and store the token in vuex and depending on the token we display a different page.
 
-![App Workflow](https://paper-attachments.dropbox.com/s_E8FB3BC64D80223D4CC4AFEEE119F2426D27A7EBE018696513C17DED12022079_1622019813698_AppWorkflow.png)
+![App Workflow](https://paper-attachments.dropbox.com/s_E8FB3BC64D80223D4CC4AFEEE119F2426D27A7EBE018696513C17DED12022079_1622019813698_AppWorkflow.webp)
 
 ## Setting up our Vue app
 
@@ -127,7 +127,7 @@ export default {
 </script>
 ```
 
-![login form](https://paper-attachments.dropbox.com/s_E8FB3BC64D80223D4CC4AFEEE119F2426D27A7EBE018696513C17DED12022079_1622020162212_loginForm.png)
+![login form](https://paper-attachments.dropbox.com/s_E8FB3BC64D80223D4CC4AFEEE119F2426D27A7EBE018696513C17DED12022079_1622020162212_loginForm.webp)
 
 
 For the login method that runs when you click the button, we would like to perform an HTTP request to our express backend. We want to make a post request to our `/login` route we will create in our server.

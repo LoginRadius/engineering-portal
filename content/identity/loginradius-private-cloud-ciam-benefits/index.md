@@ -1,7 +1,7 @@
 ---
 title: "Take Control of Your CIAM Environment with LoginRadius' Private Cloud"
 date: "2021-12-07"
-coverImage: "lr-private-cloud.jpg"
+coverImage: "lr-private-cloud.webp"
 tags: ["cloud computing","ciam solutions","cx"]
 author: "Manish Tiwari"
 description: "Businesses relying on conventional consumer IAMs aren’t aware that they’re not just putting their consumer information at risk but are also missing endless business opportunities. This blog explains how LoginRadius’ CIAM solution offers a private cloud that helps businesses take total control over every aspect of their business."
@@ -53,4 +53,4 @@ LoginRadius’ private cloud helps enterprises deliver a flawless user experienc
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-private-cloud-ciam-benefits)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-private-cloud-ciam-benefits)

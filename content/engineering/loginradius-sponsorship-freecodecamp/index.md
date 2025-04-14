@@ -1,7 +1,7 @@
 ---
 title: "One Vision, Many Paths: How We’re Supporting freeCodeCamp"
 date: "2021-07-16"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Raghunath Reddy"
 tags: ["LoginRadius", "sponsorship", "freeCodeCamp"]
 description: "LoginRadius now supports the freeCodeCamp community through a sponsorship program. We also offer $200 credits to freeCodeCamp developers to help them rapidly implement world-class customer identity and access management in their applications."

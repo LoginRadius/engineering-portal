@@ -2,7 +2,7 @@
 
 title: Best Hacking Tools
 date: "2020-10-22"
-coverImage: "cover1.jpg"
+coverImage: "cover1.webp"
 author: "Akshay Nagle"
 description: Learn about the basic hacking tools.
 tags: ["Ethical Hacking", "Security", "Testing"]
@@ -12,7 +12,7 @@ Ever since you enter the sphere of ethical Hacking, you usually need to get your
 			
 
 ### 1.) Nmap
-  ![](nmap.jpg)
+  ![](nmap.webp)
 			
 
 It is a free and open-source tool that's used for network discovery and security auditing.
@@ -38,7 +38,7 @@ It uses raw IP packets to determine
 			
 
 ### 2.) Metasploit
-![](metasploit_logo.png)
+![](metasploit_logo.webp)
 			
 
 It is essentially a Security Assessment and Penetration Testing tool. Metasploit is often used to launch an attack on alternative systems with it.
@@ -56,7 +56,7 @@ Metasploit may enforce as follows:
 			
 
 ### 3.) Wireshark
-  ![](Wireshark_Logo.png)
+  ![](Wireshark_Logo.webp)
 			
 
 It is an open-source tool that's used to capture traffic on the network. It's essentially a network protocol analyzer tool.
@@ -76,7 +76,7 @@ It additionally captures HTTP packet transmission over the network. Click on "Fo
 			
 
 ### 4.) John the Ripper
-  ![](John-The-Ripper.png)
+  ![](John-The-Ripper.webp)
 			
 
 JTR is free and open-source software that's wide employed by hackers for password cracking. It uses the varied cryptanalytics attacks like "Dictionary Attack" and "Brute-Force Attack".
@@ -96,7 +96,7 @@ The rate at which the password is going to be cracked depends utterly on the pas
 			
 
 ### 5.) Burp Suite
-  ![](burpsuite.png)
+  ![](burpsuite.webp)
 			
 
 It is an integrated platform that's used for activity a check on net application security.
@@ -118,7 +118,7 @@ Burp Suite features:
 			
 
 ### 6.) Angry IP Scanner
-  ![](angryipscanner.jpg)
+  ![](angryipscanner.webp)
 			
 
 It is one of the quickest IP addresses and port scanner. By exploitation, this hacker will gather data concerning open ports within the target system.
@@ -136,7 +136,7 @@ Features:
 			
 
 ### 7.) Nikto
-![](NIKTO-Scanner.png)
+![](NIKTO-Scanner.webp)
 			
 
 It is a web-server assessment tool. It is an open-source platform that performs tests against web servers to seek multiple vulnerable files, misconfigurations, out-of-date servers, and programs on its web server.

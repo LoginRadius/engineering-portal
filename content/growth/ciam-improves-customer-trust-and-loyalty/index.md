@@ -1,7 +1,7 @@
 ---
 title: "How Can CIAM Help Businesses Build Trust And Loyalty?"
 date: "2023-04-05"
-coverImage: "customer-trust.jpg"
+coverImage: "customer-trust.webp"
 tags: ["ciam solution","mfa","compliance","sso","cx"]
 author: "Vishal Sharma"
 description: "By implementing CIAM solutions, businesses can provide customers with a personalized and secure experience while improving operational efficiency. Let’s figure out how companies can leverage the true potential of a robust CIAM to build trust and loyalty."
@@ -49,7 +49,7 @@ Many industries are subject to strict regulatory requirements around data privac
 
 By demonstrating a commitment to compliance, businesses can build trust and confidence among customers, who will feel reassured that their data is being handled responsibly.
 
-[![DS-CCPA-comp](DS-CCPA-comp.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-CCPA-comp](DS-CCPA-comp.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 ### 4. Convenience 
 
 Customers expect a seamless and hassle-free experience when interacting with businesses. CIAM solutions can help companies to deliver this by enabling [single sign-on](https://www.loginradius.com/single-sign-on/) (SSO) across multiple channels and applications. 
@@ -66,4 +66,4 @@ CIAM is undoubtedly the need of the hour for businesses looking to build trust a
 
 By providing a personalized, secure, compliant, convenient, and transparent experience, businesses can differentiate themselves from their competitors and build long-lasting customer relationships.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-improves-customer-trust-and-loyalty)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-improves-customer-trust-and-loyalty)

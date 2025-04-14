@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Financial-Grade API (FAPI) for Open Banking"
 date: "2021-10-27"
-coverImage: "fapi-cover.jpg"
+coverImage: "fapi-cover.webp"
 tags: ["data security","oauth","mfa"]
 author: "Rakesh Soni"
 description: "With open banking, consumers can leverage bank accounts and data networking across diverse institutions through APIs (application programming interfaces), which has reshaped the entire banking industry. However, when it comes to the overall security mechanism of open banking, FAPI becomes the need of the hour."
@@ -44,7 +44,7 @@ It is an OpenID Foundation (OIDF) standard that leverage OAuth 2.0 process flow 
 
 By implementing OpenID Connect, leveraging OAuth 2.0 fabricates a unified framework that promises mobile native applications, secure APIs, and browser applications in a single, cohesive architecture.
 
-[![WP-digitization](WP-digitization.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
+[![WP-digitization](WP-digitization.webp)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
 
 
 ## Risks Associated with Open Banking
@@ -81,4 +81,4 @@ Open banking is paving the way for the next generation of digital experiences, e
 However, the risks associated with open banking require organizations to put their best foot forward in adopting FAPI through a reliable service provider that helps enhance API integration security.  
 
 
-[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-grade-api-open-banking)
+[![book a demo loginradius](BD-Plexicon1-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-grade-api-open-banking)

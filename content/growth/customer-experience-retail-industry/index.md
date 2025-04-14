@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Customer Experience in Retail Industry"
 date: "2020-05-05"
-coverImage: "retail-cx.jpg"
+coverImage: "retail-cx.webp"
 tags: ["cx", "ciam solution","compliance"]
 author: "Rakesh Soni"
 description: "Not only does a perfect plan for customer experience rely on the product, store, and customers, but also on how companies smartly coordinate the entities listed. They need to integrate customer service through multiple genres of retail."
@@ -62,7 +62,7 @@ Moving on, let's find out a few ways how [brands can enhance customer experience
 
 ## How Retail Companies Can Benefit From Customer Experience
 
-![Retail Companies Can Benefit From Customer Experience](customer-exp-retail.jpg)
+![Retail Companies Can Benefit From Customer Experience](customer-exp-retail.webp)
 
 The retail industry is brutally competitive. It takes more than offering the right product at the right price to deliver amazing customer experiences. As already discussed, brands also need to treat customers with respect and trigger them on an emotional level.
 
@@ -82,7 +82,7 @@ When it comes to customer experience in the retail industry, compared to [brick-
 
 There is one downside, though - and it is the inability to touch and feel the products before making a decision. Retailers need to break even to rebuild customer loyalty. They need to bring the convenience of online shopping to brick and mortar stores and make in-store experiences as smooth and easy as possible.
 
-[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](DS-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](DS-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 The good news is that initiatives like smaller format stores, auto-checkout, online ordering (while inside the store), and mobile app offers are in action to lure shoppers back into physical stores.
 
@@ -104,7 +104,7 @@ Furthermore, it will be easier for brands to consolidate all customer data (purc
 
 ## The role of LoginRadius to protect customer data for online retail business
 
-![protect customer data for online retail business](customer-exp-retail-industry-1.jpg)
+![protect customer data for online retail business](customer-exp-retail-industry-1.webp)
 
 LoginRadius is a [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) tool that offers a seamless and secure way to access customer information - in your case, shoppers' data.
 
@@ -128,4 +128,4 @@ Rivalry in the retail industry has always been a big deal. Amidst online players
 
 It is only a matter of time that customer experience in the retail industry will win the war, and nothing else will matter.
 
-[![Book a demo](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-retail-industry)
+[![Book a demo](BD-Plexicon1-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-retail-industry)

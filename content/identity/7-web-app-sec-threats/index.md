@@ -1,7 +1,7 @@
 ---
 title: "7 Common Web Application Security Threats"
 date: "2021-01-29"
-coverImage: "7-Common-Web-Application-Security-Threats-cover.jpg"
+coverImage: "7-Common-Web-Application-Security-Threats-cover.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -10,7 +10,7 @@ metatitle: "7 Common Web Application Security Threats | LoginRadius"
 metadescription: "Use this list of the top 7 common web application threats and vulnerabilities to find a sound security base for your web apps. Also, learn how to prevent them."
 ---
 
-![7 Common Web Application Security Threats-1](7-Common-Web-Application-Security-Threats-1.jpg)
+![7 Common Web Application Security Threats-1](7-Common-Web-Application-Security-Threats-1.webp)
 Malicious actors and security experts are in an endless battle over data. While the former wants to steal it, the latter seeks to protect it. 
 
 Each year, attackers develop inventive web application security threats to compromise sensitive data and access their targets' database. Consequently, security experts build on the exploited vulnerabilities and strengthen their systems through their learnings every year. 
@@ -21,7 +21,7 @@ To ensure adequate safety against web application security threats, businesses s
 
 
 ## 7 Common Web Application Security Threats
-![7 Common Web Application Security Threats-2](7-Common-Web-Application-Security-Threats-2.png)
+![7 Common Web Application Security Threats-2](7-Common-Web-Application-Security-Threats-2.webp)
 
 ### 1. Injection Attacks
 
@@ -94,7 +94,7 @@ According to [OWASP top 10 2017](https://owasp.org/www-project-top-ten/), this i
 
 Given how easy it is to detect and exploit default settings that were initially placed to accommodate a simple [user experience](https://www.loginradius.com/customer-experience-solutions/), the implications of such a vulnerability can be vast once the website is live: from admin privileges to complete database access.
 
-[![credential-stuffing](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![credential-stuffing](credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 **How to prevent:**
 
@@ -138,7 +138,7 @@ Like, IDOR, access to these functions can be gained through URL manipulation as 
 
 ## How Loginradius Helps in Securing Web Applications for Businesses While Providing a Seamless Experience
 
-![7 Common Web Application Security Threats-3](7-Common-Web-Application-Security-Threats-3.png)
+![7 Common Web Application Security Threats-3](7-Common-Web-Application-Security-Threats-3.webp)
 
  \
 Despite the multitude of solutions available to each vulnerability, it is hardly easy to produce your own code to secure a site against web application security threats. Managing an extensive portfolio can be unscalable. 
@@ -164,4 +164,4 @@ Among other features, LoginRadius offers:
 
 We recommend using this list of top 7 web application threats and vulnerabilities to find a sound security base for your web apps. Developers can build on these vulnerabilities and learn from previous exploits of other entities to create a more secure application.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-web-app-sec-threats)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-web-app-sec-threats)

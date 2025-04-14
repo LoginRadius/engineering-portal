@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Customer Experience in Airlines With LoginRadius"
 date: "2020-07-29"
-coverImage: "airline-cx.jpg"
+coverImage: "airline-cx.webp"
 tags: ["airline industry","cybersecurity","cx"]
 author: "Rakesh Soni"
 description: "Customer experience in the airline industry is often defined as what the customer perceives and experiences while traveling through the different departure stages and arrival in an airport."
@@ -65,7 +65,7 @@ One of the worst mistakes airlines often make is not to invest more in customer 
 
 Triggering them emotionally can impact their buying decisions. For example, if your airline is sensitive to infants and goes out of the way to assist new parents, there is a good chance that they will prefer to travel with your airline every time, irrespective of your price.
 
-[![DS-travel-idntity-platform](DS-travel-idntity-platform.png)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
+[![DS-travel-idntity-platform](DS-travel-idntity-platform.webp)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
 
 ### New travel restrictions
 
@@ -159,4 +159,4 @@ When was the last time an airline offered you with just the right blend of custo
 
 It certainly does not take magic to make a mark in the aviation industry. Focus on keeping your passengers happy while ensuring their data security—that should do the trick.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-airline-customer-experience)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-airline-customer-experience)

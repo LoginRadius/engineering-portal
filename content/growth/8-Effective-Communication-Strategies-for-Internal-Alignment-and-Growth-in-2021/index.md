@@ -1,7 +1,7 @@
 ﻿---
 title: "8 Effective Communication Strategies for Internal Alignment and Growth in 2021"
 date: "2021-03-24"
-coverImage: "communication-strategies-Loginradius.jpg"
+coverImage: "communication-strategies-Loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Yash Rathi"
@@ -82,7 +82,7 @@ Lack of an effective internal communications strategy can lead to confusion, dec
 
 Not having a plan can be disastrous, and that's not exclusive to internal comms alone. Draw up goals and objectives and achieve them to lead your employees in the right direction efficiently.
 
-[![How-Public-Sector-Companies-Use-the-LoginRadius-Identity-Platfor](How-Public-Sector-Companies-Use-the-LoginRadius-Identity-Platform.png)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
+[![How-Public-Sector-Companies-Use-the-LoginRadius-Identity-Platfor](How-Public-Sector-Companies-Use-the-LoginRadius-Identity-Platform.webp)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
 
 ## 8 Internal Communications Strategies for B2B Tech Companies
 
@@ -154,5 +154,5 @@ Internal communications 2021 especially requires comms professionals to remind t
 
 All the above internal communication strategies are tried and tested. See which one works best for your organization, and eventually, you'll be able to come up with your strategies that aid in your business's growth.
 
-[![loginradius-free-Consultation](loginradius-free-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=8-effective-communication-strategies-for-internal-alignment-and-growth-in-2021)
+[![loginradius-free-Consultation](loginradius-free-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=8-effective-communication-strategies-for-internal-alignment-and-growth-in-2021)
 

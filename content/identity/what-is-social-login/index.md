@@ -1,7 +1,7 @@
 ---
 title: "What is Social Login?"
 date: "2020-02-28"
-coverImage: "social-login.jpg"
+coverImage: "social-login.webp"
 tags: ["social login","identity verification","cx"]
 author: "Vaibhav Jain" 
 description: "Social login is an attractive feature for developers and businesses that can help streamline consumer verification while also providing more reliable data access for personalization."
@@ -43,7 +43,7 @@ Social login and registration provide benefits in various ways:
     
 -   Social login reduces the effort to remember passwords, which means people don’t need to create and keep track of more credentials, lessening password fatigue and login failure.
 
-[![sso](sso.png)](https://www.google.com/url?q=https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![sso](sso.webp)](https://www.google.com/url?q=https://www.loginradius.com/resource/loginradius-single-sign-on/)
     
 -   Consumers feel more comfortable sharing the data via the social platform on which they already have trust compared to unknown sites. Social login provides a recognizable, uniform method of account logging.
     
@@ -127,4 +127,4 @@ Users can perform social login by clicking on the respective social media button
 
 Facebook login can be integrated with your website or mobile application for seamless login by using the [LoginRadius CIAM](https://www.loginradius.com/social-login/).
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-social-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-social-login)

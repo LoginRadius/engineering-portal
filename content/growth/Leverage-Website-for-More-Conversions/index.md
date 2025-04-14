@@ -1,7 +1,7 @@
 ﻿---
 title: "5 Quick Steps to Leverage your Website for More Conversions"
 date: "2021-04-21"
-coverImage: "Leads-conversion-Loginradius.jpg"
+coverImage: "Leads-conversion-Loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -25,7 +25,7 @@ Though driving conversions isn’t a piece of cake, it largely depends on the wa
 
 Here we’ve clubbed some crucial aspects that will help your business enhance conversion rate through correct utilization of your website in this ever-increasing competitive world.
 
-![book-a-demo-Consultation](website-optimization-conversion.jpg)
+![book-a-demo-Consultation](website-optimization-conversion.webp)
 
 <b>1. Mobile Optimization</b>
 
@@ -80,4 +80,4 @@ A business website holds a bunch of opportunities that can be fostered by utiliz
 Marketers need to put their best foot forward in understanding their targeted audience and what exactly they’re looking for in a business website.
 
 The aforementioned aspects can be quite fruitful for every business regardless of the industry to [enhance conversion rates](https://www.loginradius.com/blog/fuel/2021/03/how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo/) and improve overall traffic.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=leverage-website-for-more-conversions)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=leverage-website-for-more-conversions)

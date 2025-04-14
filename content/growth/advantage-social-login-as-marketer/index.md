@@ -1,7 +1,7 @@
 ---
 title: "Can Social Login Boost Conversion Rates? 5 Things Marketers Should Know"
 date: "2021-11-12"
-coverImage: "social-login-marketer.jpg"
+coverImage: "social-login-marketer.webp"
 tags: ["social login","cx","data privacy"]
 author: "Navanita Devi"
 description: "Using social login to drive sign-ups usually makes sense because it increases user privacy. If users like the site, they're more likely to return, and you're more likely to convert them into paying customers. This blog explains how social login can boost conversion rates."
@@ -28,7 +28,7 @@ The companies pull the user information to create a wholesome experience for the
 2. **It enables the usage of social media functionalities.** Social login enables users to like, share, comment, subscribe, play online games, and much more without having to create an account or waste time by typing their login credentials over and over again.
 3. **It doesn't force the users to create a new password:** The process utilizes the information of social media accounts of the users. Thus, they have one less password to remember. It is something they might appreciate and hence visit the website more frequently.
 
-[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-rec](WP-social-login-rec.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 
 4. **It results in fewer unsuccessful logins:** The users only need to click on the social media account they want to log in with. Thus, they will not have the scope of making mistakes while entering their login credentials. 
@@ -58,4 +58,4 @@ Marketers can use personalized emails to [build relationships with customers](ht
 Thus, if used properly, **social logins** can boost conversion rates like no other authentication tool. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advantage-social-login-as-marketer)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advantage-social-login-as-marketer)

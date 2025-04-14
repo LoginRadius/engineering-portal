@@ -1,7 +1,7 @@
 ---
 title: "The Role of Identity Management in Securing Your Citizen’s Data"
 date: "2022-07-29"
-coverImage: "citizen-sec.jpg"
+coverImage: "citizen-sec.webp"
 tags: ["digital identity", "smart cities", "authentication"]
 author: "Yash Rathi"
 description: " Identity management has been a game-changer for enterprises for decades as it helps businesses succeed by ensuring the highest level of security and great user experience. 
@@ -41,7 +41,7 @@ A smart CIAM (consumer identity and access management) solution like LoginRadius
 
 Let’s learn how a CIAM solution like LoginRadius can deliver a flawless digital experience to civilians that pushes overall development reinforced by adequate security.
 
-[![cities-ds](cities-ds.png)](https://www.loginradius.com/resource/how-cities-use-loginradius-identity-platform/-)
+[![cities-ds](cities-ds.webp)](https://www.loginradius.com/resource/how-cities-use-loginradius-identity-platform/-)
 
 
 ## How Identity Management Reinforces Security for Citizens?
@@ -88,4 +88,4 @@ And the public sector and government organizations shouldn’t delay a bit in ad
 Identity management in the government sector can also help resolve issues related to bad user experience. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=fix-identity-to-fix-citizens-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=fix-identity-to-fix-citizens-security)

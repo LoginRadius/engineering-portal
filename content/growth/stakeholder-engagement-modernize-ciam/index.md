@@ -1,7 +1,7 @@
 ---
 title: "How to Bring Stakeholders Together to Modernize CIAM Across Your Organization"
 date: "2022-01-18"
-coverImage: "saas-modernize.jpg"
+coverImage: "saas-modernize.webp"
 tags: ["ciam solution","compliance","convenience","cx"]
 author: "Rakesh Soni"
 description: "If you’re ready to modernize your CIAM but aren’t quite sure where to start, then this blog should get you on the right path with your stakeholders."
@@ -49,7 +49,7 @@ The requirements and priorities of each department are different. Your Chief Mar
 
 Each stakeholder has a set of expectations. Stakeholders should be involved from the initial phase of the CIAM modernization process. Doing so will help boost participation and goal alignment, making the overall objectives easier to achieve.
 
-[![WP-dig-id-mngmnt](WP-dig-id-mngmnt.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
+[![WP-dig-id-mngmnt](WP-dig-id-mngmnt.webp)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
 
 ### 4. Manage expectations
 Technology can do anything, but if we expect the impossible, we may end up empty-handed. If you listen carefully to each team’s needs and concerns, however, you’re more likely to build a system that works for everyone. It’s important to take many things into account when designing the CIAM solution—for instance, usability, customer experience, convenience, security, and maintainability.
@@ -86,4 +86,4 @@ Cloud-based [CIAM gives better ROI](https://www.loginradius.com/blog/fuel/ciam-o
 
 Even though it may sound like a daunting task, modernizing your CIAM is not impossible if you are willing to put in the work. The key lies in communicating how and why modernization will be beneficial for all stakeholders, and eventually getting everyone onboard with the plan. The tips mentioned in this blog will help you make this process easier since stakeholder engagement will simplify things for you. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stakeholder-engagement-modernize-ciam)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stakeholder-engagement-modernize-ciam)

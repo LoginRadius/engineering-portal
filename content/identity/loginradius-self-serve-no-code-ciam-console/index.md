@@ -63,4 +63,4 @@ Now it’s your turn to experience it firsthand. Log in today and explore the ne
 
 We’d love to hear your thoughts. Your feedback drives our innovation—let’s shape the future of identity together!
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-self-serve-no-code-ciam-console)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-self-serve-no-code-ciam-console)

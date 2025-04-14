@@ -1,7 +1,7 @@
 ---
 title: "Identity Modernization: What Is It & Why Should You Care?"
 date: "2023-01-19"
-coverImage: "id-mod.jpg"
+coverImage: "id-mod.webp"
 tags: ["Identity management", "identity modernization", "identity security"]
 author: "Rakesh Soni"
 description: "Identity modernization could be defined as shifting from managing identities through on-premises identity providers to a cloud-based identity management solution. Moreover, it could also be a shift from one cloud to multiple clouds. Read this insightful post to understand more about identity modernization benefits for modern businesses."
@@ -37,7 +37,7 @@ Hence, the need for identity modernization becomes more crucial.
 
 Identity modernization is the process of shifting from conventional on-premise identity systems to a cloud-based identity management system that helps reinforce overall identity security against modern threat vectors. 
 
-[![wp-nightmare](wp-nightmare.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
+[![wp-nightmare](wp-nightmare.webp)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
 
 While most businesses have already put their best foot forward in adopting robust cloud-based identity management solutions, many are just wondering and waiting for a breach to change their decision. 
 
@@ -81,4 +81,4 @@ Identity modernization can help bring about a new era of security and transparen
 Choosing a robust identity management solution like LoginRadius CIAM helps you put identity modernization to work for you today, and reap the rewards of increased security, increased customer confidence, and a future-proofed business that stands ahead of the curve when it comes to compliant data security.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-modernization)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-modernization)

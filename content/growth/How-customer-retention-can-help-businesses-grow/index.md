@@ -1,7 +1,7 @@
 ﻿---
 title: "How Customer Retention Can Help Businesses Grow"
 date: "2021-03-15"
-coverImage: "customer-retention-LoginRadius-colorized.jpg"
+coverImage: "customer-retention-LoginRadius-colorized.webp"
 category: ["loginradius"]
 featured: false 
 author: "Yash Rathi"
@@ -51,7 +51,7 @@ Customer retention strategies aim to maintain the existing customer base, which 
 
 It is important to note that none of these strategies should be considered enough in isolation. They serve different purposes and goals to collectively increase the customer retention rate if implemented consistently and accurately.
 
-[![Customer-audit-trail](consumer-audit-trail.jpg)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![Customer-audit-trail](consumer-audit-trail.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 Some of the customer retention strategies  are listed below:
 
@@ -99,4 +99,4 @@ The training and development programs specifically designed to improve customer 
 
 Customer acquisition and maintenance should not be seen as two mutually exclusive parts of the broader process of business growth. This is because the former can grow the business, while the latter is necessary for its expansion. Retaining the existing customers makes the business more recognizable as it focuses on creating brand loyalty and emotional bonding by prioritizing how the customers feel. Maintaining these customers becomes easy with customer loyalty programs, feedback, understanding customer churn patterns, and customer-oriented marketing.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-customer-retention-can-help-businesses-grow)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-customer-retention-can-help-businesses-grow)

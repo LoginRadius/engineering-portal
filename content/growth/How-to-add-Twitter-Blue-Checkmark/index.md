@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Should You Have A Blue Checkmark In Front of Your Twitter Account"
 date: "2021-06-04"
-coverImage: "twitter-verified-account.jpg"
+coverImage: "twitter-verified-account.webp"
 category: ["loginradius"]
 featured: false
 author: "Rashmi Mathur"
@@ -88,7 +88,7 @@ When you go through this process, Twitter will ask if the account name is the on
 
 Ideally, this is what the verification dialog box will look like:
 
-![Twitter-bluemark-verification](twitter-bluemark-loginradius-readers-choice.png)
+![Twitter-bluemark-verification](twitter-bluemark-loginradius-readers-choice.webp)
 
 Once you submit this form, you just need to wait for the verification mark. And you are done.
 
@@ -98,4 +98,4 @@ Twitter verification badge, commonly known as the blue checkmark, is super impor
 
 So, what are you waiting for? Get your Twitter account verified today!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-add-twitter-blue-checkmark)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-add-twitter-blue-checkmark)

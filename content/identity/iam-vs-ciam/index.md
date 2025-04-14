@@ -1,7 +1,7 @@
 ---
 title: "IAM vs. CIAM: Which Solution is Right For You?"
 date: "2019-03-21"
-coverImage: "IAM-vs-CIAM-V01.01-01-1.png"
+coverImage: "IAM-vs-CIAM-V01.01-01-1.webp"
 tags: ["iam","ciam","identity management"]
 author: "Rakesh Soni" 
 description: "In order to serve customers, conventional identity management is no longer enough. This truly ought to go without saying. After all, internal management systems were initially designed to handle employee identities, and consumer preferences are not generally matched with their preferences of a successful user experience."
@@ -43,4 +43,4 @@ In this infographic, we compare the following features of both an IAM and CIAM s
 * Real-Life Examples
 
 
-![employee-iam-vs-ciam](employee-iam-vs-ciam.png)
+![employee-iam-vs-ciam](employee-iam-vs-ciam.webp)

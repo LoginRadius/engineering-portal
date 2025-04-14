@@ -1,7 +1,7 @@
 ﻿---
 title: "How To Win the Era Of Customer-Centric Marketing?"
 date: "2022-07-26"
-coverImage: "customer-centric.jpg"
+coverImage: "customer-centric.webp"
 tags: ["customer onboarding", "cx", "progressive profiling"]
 author: "Navanita Devi"
 description: "A customer-centric approach to marketing means that businesses are no longer focused on the products themselves, but instead prefer to understand customer demands. This blog explains how retailers can make their customers happy by advocating customer-centricity."
@@ -51,7 +51,7 @@ One of the most important things you can do to become customer-centric is invest
 * Focus on continually [improving the user experience](https://www.loginradius.com/blog/growth/how-to-improve-the-customer-xperience/) (UX) by investing in research, testing, learning and providing feedback loops that keep everyone involved in a state of constant improvement.
 * Build empathy into your own business processes by listening carefully to what your customers say about their experiences, then using that information to build better versions.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### 3. A seamless customer onboarding.
@@ -82,4 +82,4 @@ So, here's what you can do:
 
 A customer-centric approach to marketing means that businesses are no longer focused on the products and services themselves, but instead prefer to understand the needs and wants of their customers. And that’s exactly what you need to do to lead this era of customer-centric marketing. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lead-era-customer-centric-marketing)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lead-era-customer-centric-marketing)

@@ -1,7 +1,7 @@
 ---
 title: "How to Install and Configure Istio"
 date: "2021-01-22"
-coverImage: "Istio.png"
+coverImage: "Istio.webp"
 author: "Piyush Kumar"
 tags: ["Istio", "Service Mesh"]
 description: "This article will provide a step by step process on how to install and configure services using Istio."

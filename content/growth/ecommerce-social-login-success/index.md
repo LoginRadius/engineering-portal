@@ -1,7 +1,7 @@
 ---
 title: "8 Essential Insights for Enabling E-Commerce Social Login"
 date: "2023-09-20"
-coverImage: "ecommerce-social-login.jpg"
+coverImage: "ecommerce-social-login.webp"
 tags: ["ecommerce","social login","data privacy","cx"]
 author: "Vishal Sharma"
 description: "E-commerce social login is the way forward for businesses looking to simplify user authentication and improve the overall user experience. However, success lies in the details, from offering multiple social login options to prioritizing data privacy and security. Explore these eight essential insights to ensure your e-commerce platform thrives in the age of social login."
@@ -34,7 +34,7 @@ While convenience is paramount, it's crucial to [prioritize data privacy and sec
 
 Your privacy policy and terms of service clearly outline how user data obtained through social login will be utilized. Be transparent about data protection measures and assure users that their information will not be misused or shared without consent. This transparency builds trust and encourages users to embrace social login.
 
-[![WP-social-login-reconsidered](WP-social-login-reconsidered.png)](https://www.loginradius.com/resource/whitepaper/social-login-reconsidered/)
+[![WP-social-login-reconsidered](WP-social-login-reconsidered.webp)](https://www.loginradius.com/resource/whitepaper/social-login-reconsidered/)
 
 ### #4. Streamline Checkout
 
@@ -60,4 +60,4 @@ Leverage the user data obtained through social login to provide tailored product
 
 Enabling social media profile login for users can be a game-changer for your e-commerce application/platform, enhancing user convenience and providing valuable data. However, balancing this convenience with robust data privacy and security measures is essential. By implementing these eight aspects, you can create a seamless experience for your customers for your e-commerce store. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ecommerce-social-login-success)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ecommerce-social-login-success)

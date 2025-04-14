@@ -1,7 +1,7 @@
 ---
 title: "Automation for Identity Experience Framework is now open-source !!!"
 date: "2020-06-04"
-coverImage: automation_ief.png
+coverImage: automation_ief.webp
 author: Sudhey Sharma
 tags: ["OpenSource","Automation"]
 canonical: https://www.loginradius.com/blog/identity/loginradius-identity-experience-framework/

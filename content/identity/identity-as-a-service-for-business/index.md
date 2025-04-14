@@ -1,7 +1,7 @@
 ---
 title: "Identity as a Service (IDAAS): Managing Digital Identities (Updated)"
 date: "2019-12-25"
-coverImage: "idaas-business.jpg"
+coverImage: "idaas-business.webp"
 tags: ["idaas","digital identity management","ciam solution"]
 author: "Rakesh Soni"
 description: "Identity as a service (IDaaS) refers to services provided via the cloud or through SaaS (software-as-a-service) systems for identity and access management. It provides cloud-based authentication provided and managed on a subscription basis by third-party providers."
@@ -53,7 +53,7 @@ With developers constantly bugged to build revenue-generating apps in shorter de
 
 Furthermore, IDaaS has the potential to deliver a secure, streamlined on-demand identity expertise. Such strategies can also do a great deal to reduce internal tension and eventually bridge the gap between developers and the security workforce.
 
-[![Guide-to-Modern-Customer-Identity-ebook](EB-Guide-to-Modern-Customer-Identity-1024x310.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![Guide-to-Modern-Customer-Identity-ebook](EB-Guide-to-Modern-Customer-Identity-1024x310.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## 3 Benefits of Identity as a Service (IDaaS) for Businesses
 
@@ -73,7 +73,7 @@ A modern IDaaS solution secures identities and protects your IT environment. Wit
 
 ## 7 Core Components of IDaaS in an Enterprise Environment 
 
-![](imgae2-1024x621.jpg)
+![](imgae2-1024x621.webp)
 
 The features and functionalities of an Identity as a Service solution vary across all market segments but generally include digital identity access and management. Here are some of the most common components.
 
@@ -120,7 +120,7 @@ Using analytics and intelligence capabilities in IDaaS lets enterprises report m
 
 Enterprises can leverage the intelligence capabilities of an Identity as a Service platform to manage [governance and compliance](https://www.loginradius.com/blog/2020/07/data-governance-best-practices/)\-related workflows. Real-world authentication processes can be aligned with governance policies to mitigate security risk.
 
-![](image-3-1-1024x621.jpg)
+![](image-3-1-1024x621.webp)
 
 ## Some new regulations that are protecting identities include:
 
@@ -174,4 +174,4 @@ CIAM experts are an asset to any company when it comes to implementing IDaaS and
 
 There is a lot of anticipation about Identity as a Service in solving real-world business problems. It is important, and no, you cannot mess it up. Because then, you will be out of business. No wonder, IDaaS has already entered the mainstream and will continue growing from here.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-as-a-service-for-business)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-as-a-service-for-business)

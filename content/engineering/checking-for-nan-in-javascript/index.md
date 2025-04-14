@@ -1,7 +1,7 @@
 ---
 title: "NaN in JavaScript: An Essential Guide"
 date: "2019-11-22"
-coverImage: "numbers-1.jpg"
+coverImage: "numbers-1.webp"
 author: "Greg Sakai"
 tags: ["JavaScript"]
 description: "In this guide you'll learn about JavasScript NaN, how to verify whether a value is NaN, and how to manage NaN effectively."

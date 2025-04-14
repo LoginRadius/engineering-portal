@@ -1,7 +1,7 @@
 ---
 title: Twitter authentication with Go Language and Goth
 date: "2020-06-15"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Ashish Sharma"
 tags: ["Go","SocialLogin","Oauth"]
 ---
@@ -215,21 +215,21 @@ Step 8. Visit the browser with the URL `http://127.0.0.1:3000`.
 
 
 
-![Login](login.png "Login")
+![Login](login.webp "Login")
 
 
 We need to click on **Authorize button**, which will redirect us to google login page  
 
 
 
-![Auth](auth.png "Auth")
+![Auth](auth.webp "Auth")
 
 
 After login with our twitter credentials, it will redirect back to our application and on the success page, we can see the details of the logged-in user and can save this detail in the database for future use also.
 
 
 
-![Profile](profile.png "Profile")
+![Profile](profile.webp "Profile")
 
 
 As we have seen it is fairly easy to build a twitter social authentication system with Go  and Goth, You can found the complete code used in this tutorial on our[ Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/GoLang/TwitterAuthenticationGoth)

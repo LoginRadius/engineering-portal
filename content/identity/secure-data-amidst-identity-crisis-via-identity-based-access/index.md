@@ -1,7 +1,7 @@
 ---
 title: "How Identity-Based Access Ensures Robust Infrastructure Security Amidst the Growing Identity Crisis?"
 date: "2022-11-09"
-coverImage: "id-crisis.jpg"
+coverImage: "id-crisis.webp"
 tags: ["identity management","robust security","mfa","cx"]
 author: "Rakesh Soni"
 description: "The conventional identity-management tools aren’t potent enough to shield modern threat vectors. There’s a need for a robust identity management solution that combines existing authentication strategies such as two-factor authentication, biometrics, one-time passwords etc. to help secure an organization's infrastructure."
@@ -50,7 +50,7 @@ Every individual has a unique biometric identity, so using it for authentication
 
 Hence, adding biometric authentication in the multi-factor authentication could help organizations secure their sensitive business information since the chances of data breaches or account takeover decrease significantly. 
 
-[![DS-mob-bio-auth](DS-mob-bio-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-mob-bio-auth](DS-mob-bio-auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 ## Why is Multi-factor authentication an Essential Component of Infrastructure Security?
 
@@ -81,4 +81,4 @@ And adding robust layers of multi-factor authentication through biometric authen
 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-data-amidst-identity-crisis-via-identity-based-access)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-data-amidst-identity-crisis-via-identity-based-access)

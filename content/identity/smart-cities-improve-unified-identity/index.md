@@ -1,7 +1,7 @@
 ---
 title: "How Cities Can Improve Civilians’ Digital Experience with Unified Identity"
 date: "2021-08-25"
-coverImage: "smart-cities-improve-unified-identity-cover.jpg"
+coverImage: "smart-cities-improve-unified-identity-cover.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -72,7 +72,7 @@ Hydro Ottawa is a regulated electricity local distribution company in eastern On
 
 As the third-largest municipally-owned electric utility in Ontario, Hydro Ottawa maintains one of the safest, most reliable, and most cost-effective electricity distribution systems in the province.  They serve about 332,000 residential and commercial customers across 1,116 square kilometers.
 
-[![smart-cities-improve-unified-identity-Hydro-Ottawa](smart-cities-improve-unified-identity-Hydro-Ottawa.png)](https://www.loginradius.com/resource/case-study-page-hydro-ottawa/)
+[![smart-cities-improve-unified-identity-Hydro-Ottawa](smart-cities-improve-unified-identity-Hydro-Ottawa.webp)](https://www.loginradius.com/resource/case-study-page-hydro-ottawa/)
 
 
 ### Client Requirements 
@@ -99,4 +99,4 @@ Digital identity is paving the path for a rich unified experience for citizens t
 Robust consumer identity and access management solutions like [LoginRadius](https://www.loginradius.com/contact-sales/) can help public sectors deliver great experiences tacked by adequate security to their civilians, reinforcing different smart city projects. 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-cities-improve-unified-identity)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-cities-improve-unified-identity)

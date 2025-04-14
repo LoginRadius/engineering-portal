@@ -1,7 +1,7 @@
 ﻿---
 title: "Multi-Factor Authentication - A Beginner’s Guide"
 date: "2021-03-23"
-coverImage: "MFA-Loginradius.jpg"
+coverImage: "MFA-Loginradius.webp"
 tags: ["mfa","password security","compliance"]
 author: "Ashish Kumar Yadav"
 description: "MFA or multi-factor authentication is a feature widely used by businesses to ensure that the consumers coming on their website are actually who they say they are. There are multiple ways to implement multifactor authentication. We will get to them one by one in this blog."
@@ -38,7 +38,7 @@ It is done by providing at least two pieces of proof or evidence to state their 
 
 MFA works in this way because, let’s suppose one of the factors is hacked by the attackers or invalid user, the chances of another factor also getting compromised are pretty low. That is why **[MFA authentication](https://www.loginradius.com/multi-factor-authentication/)** requires multiple  factors, and this is how it provides a higher level of API security to consumers’ identity data.
 
- [![book-a-demo-loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
+ [![book-a-demo-loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
 
 ## Why MFA is So Important
 
@@ -71,7 +71,7 @@ These are three main reasons which are most relevant to explain how and why **[I
 
 Now that you’ve learned why MFA is critical, you may be keen to know how this feature works and how you can implement it.
 
-![Types-of-mfa-loginradius](Type-of-mfa.jpg)
+![Types-of-mfa-loginradius](Type-of-mfa.webp)
 
 ## How Does Multi-Factor Authentication Work
 
@@ -115,5 +115,5 @@ In this article, we talked about applying a simple approach of using Multi-facto
 
 Cheers!
 
-[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-a-beginners-guide)
+[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-a-beginners-guide)
 

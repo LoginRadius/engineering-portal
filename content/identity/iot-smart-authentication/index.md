@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Smart and IoT Authentication to Offer Hassle-Free Login for Input-Constrained Devices"
 date: "2020-12-02"
-coverImage: "loginradius-iot-smart-authentication.png"
+coverImage: "loginradius-iot-smart-authentication.webp"
 tags: ["authentication","data security","cx"]
 author: "Rakesh Soni"
 description: "Smart and IoT Authentication from LoginRadius is a realistic solution to ensure customers are securely logged in. It removes the password entry burden and as a result, eliminates data protection threats related to password attacks."
@@ -54,7 +54,7 @@ LoginRadius offers in-built, multilingual email templates for businesses to add 
 
 LoginRadius allows businesses to set the login request limits for consumers and also manage the token expiry by restricting the validity of login links to ensure security.
 
-[![Loginradius IOT Smart Authentication Datasheet](iot-smart-authentication-datasheet.png)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
+[![Loginradius IOT Smart Authentication Datasheet](iot-smart-authentication-datasheet.webp)](https://www.loginradius.com/resource/smart-iot-authentication-datasheet)
 
 ## Implementation and Deployment
 
@@ -68,4 +68,4 @@ In an increasingly connected world where we see an explosion of networked device
 
 Given the fact that authentication is generally the first step for consumers when experiencing a product, the LoginRadius Smart and IoT Authentication is geared to set your consumer up for hassle-free and user-friendly methods to login. 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-smart-authentication)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-smart-authentication)

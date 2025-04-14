@@ -212,4 +212,4 @@ Whether managing a mobile app, enterprise platform, or IoT network, adopting int
 * Implement access identification controls and logging 
 * Leverage platforms like LoginRadius for seamless and secure identity and authentication
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

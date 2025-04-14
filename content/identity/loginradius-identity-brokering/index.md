@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Announces Identity Brokering To Establish Trust Between Identity and Service Providers"
 date: "2021-01-27"
-coverImage: "loginradius-identity-brokering.png"
+coverImage: "loginradius-identity-brokering.webp"
 tags: ["identity management","authentication","sso","cx"]
 author: "Rakesh Soni"
 description: "Using Identity Brokering, businesses do not require consumers to provide their credentials to authenticate. Instead, LoginRadius acts as an identity broker service between the Identity and Service Providers and enables the authentication process between the two."
@@ -27,7 +27,7 @@ With LoginRadius Identity Brokering service, businesses can enjoy a seamless aut
 *   **Verified digital identity**: Businesses need not worry about verifying the consumers who authenticate themselves using configured IdPs. Such identities are already verified with respective IdPs.
 
 
-[![identity-brokering](identity-brokering.png)](https://www.loginradius.com/resource/identity-brokering-datasheet)
+[![identity-brokering](identity-brokering.webp)](https://www.loginradius.com/resource/identity-brokering-datasheet)
 
 
 ## Key Features Offered by LoginRadius
@@ -46,4 +46,4 @@ With Identity Brokering, businesses can skip the use of complex protocols and en
 Moreover, businesses acquire flexibility and verified digital identities, whereas consumers gain a [seamless authentication experience](https://www.loginradius.com/authentication/). A win-win for both parties! 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-brokering)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-brokering)

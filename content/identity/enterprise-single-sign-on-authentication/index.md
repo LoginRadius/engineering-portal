@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons To Know Why B2C Enterprises Should Use Single Sign-On"
 date: "2019-06-18"
-coverImage: "sso-authentication.jpg"
+coverImage: "sso-authentication.webp"
 tags: ["sso authentication","data security","cx"]
 author: "Rakesh Soni" 
 description: "Today, consumers want to log into one place and access all of their favorite sites and services using their preferred login credentials. Single sign-on is a great way to show your consumers that you care about their security and convenience."
@@ -44,7 +44,7 @@ Today’s customers expect SSO. They might not be able to articulate this expect
 
 If you have more than one website or service that requires logging in, you _need_ [single sign-on](https://www.loginradius.com/single-sign-on/) if you don’t want to annoy your customers and appear behind the times. With single sign-on, you can eliminate several common roadblocks that can hurt your business.
 
-![single sign-on authentication](SSO-Blog-02.png)
+![single sign-on authentication](SSO-Blog-02.webp)
 
 For example, we heard from a consumer in the UK that there's a customer experience disconnect between different divisions at Virgin. People getting cable TV and home broadband services from Virgin Media are encouraged to sign up for Virgin Mobile with several competitively priced offers. However, even though the sites look similar, consumers need to have two separate logins for the two Virgin services. They even have different rules for password strength.
 
@@ -54,7 +54,7 @@ Don’t be one of these companies. You probably won’t end up with frustrated c
 
 ### 2. SSO Makes Companies Smarter
 
-![single sign-on authentication](SSO-Blog-03.png)
+![single sign-on authentication](SSO-Blog-03.webp)
 
 A unified customer profile is the first step to a smarter company. With [CIAM](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/), you’ll have a single location for everything about individual customers (including their login and service usage data).
 
@@ -91,7 +91,7 @@ Without any need for passwords, SSO enables your users to come back to your app 
 
 Single sign-on directly benefits your organization by gathering a wealth of customer data and credentials securely in one spot for your services, teams, and applications to use. Failing to use SSO will make your consumers notice you in a bad light as they try to navigate your apps and services. By contrast, leaders who bring an SSO solution to their organization will stand out because of the multitude of benefits that single sign-on provides.
 
-[![sso](sso.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![sso](sso.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## In Conclusion
 
@@ -101,4 +101,4 @@ Additionally, it saves time and effort for both customers and IT teams. With the
 
 Therefore, it's a valuable solution that every B2C enterprise should consider. In summary, the benefits of SSO for B2C enterprises are significant, and implementing it can be a game-changer in today's digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-single-sign-on-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-single-sign-on-authentication)

@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Offers Additional Security Layer through Newly-Enhanced Step-up Authentication Feature"
 date: "2021-06-17"
-coverImage: "step-up-authentication-loginradius-cover.jpg"
+coverImage: "step-up-authentication-loginradius-cover.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -51,4 +51,4 @@ Step-up authentication is a revolutionary feature when it comes to authenticatin
 Implementing step-up authentication on an online platform offers a competitive edge to businesses seeking innovative ways to enhance authentication and security for their website or application.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=step-up-authentication-loginradius)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=step-up-authentication-loginradius)

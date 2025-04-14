@@ -1,7 +1,7 @@
 ---
 title: "Identity Fraud Hits All-Time High in 2017"
 date: "2018-02-20"
-coverImage: "identity-fraud-hits-time-high-2017.jpg"
+coverImage: "identity-fraud-hits-time-high-2017.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -16,6 +16,6 @@ According to Javelin Strategy & Research's annual [Identity Fraud Study](https
 
 ### Key Highlights from the Study
 
-![](infographic-Final.jpg)
+![](infographic-Final.webp)
 
 [Learn more](https://www.loginradius.com/customer-identity/) about how LoginRadius can help secure your customers data.

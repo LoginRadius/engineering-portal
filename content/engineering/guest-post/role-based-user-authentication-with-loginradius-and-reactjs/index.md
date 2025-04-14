@@ -1,7 +1,7 @@
 ---
 title: "How to Implement Role-Based Authentication with React Apps"
 date: "2021-09-03"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Victory Tuduo"
 tags: ["Authentication", "React", "User Roles"]
 description: "This tutorial illustrates how to perform user authentication and assign roles to users in React apps using LoginRadius."
@@ -37,12 +37,12 @@ First, you need to [create a LoginRadius account](https://accounts.loginradius.c
 
 You'll get a page requesting you to create a new application. Click on "create a new application". After which, a page comes up where you should enter the name of your app and the URL to your app. Here, Input any name and URL of your choice.
 
-![Naming App](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245515754_Screenshot+97.png)
+![Naming App](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245515754_Screenshot+97.webp)
 
 ### Auth Page (IDX)
 LoginRadius allows you to create a custom login page (an auth page that you can customize from the dashboard), which you can then preview. This is a page provided by LoginRadius that you can easily customize to contain different form contents. Features like user log in, signup, email, and password have been pre-implemented on this page. You'll be using this page for registration and authentication with react application. To learn more on how to customize this page to contain more form contents, refer to [customizing Auth Page.](https://www.loginradius.com/developers/)
 
-![A preview of my Auth page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245718848_Screenshot+100.png)
+![A preview of my Auth page](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245718848_Screenshot+100.webp)
 
 To be able to use user roles within your app, you first have to set up these roles and their respective privileges from the dashboard. In this tutorial, you'll set up two roles, namely Admin and Client. 
 
@@ -52,7 +52,7 @@ Click on "manage roles" and click on "add roles". A popup opens in which you add
 
 This tutorial has added a "client" role with a permission called "view" and an "admin" role with permissions: "view, edit, delete". Enable "set as default" for the client role to automatically assign the client role to any user in our app by default.
 
-![Role Creation](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245829693_Screenshot+101.png)
+![Role Creation](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1627245829693_Screenshot+101.webp)
 
 ## Integrate LoginRadius into React
 ### Creating a React Application
@@ -287,13 +287,13 @@ npm start
 
 When it successfully starts the server, you would have a similar page as follows:
 
-![landing page](application-home.png)
+![landing page](application-home.webp)
 
 This is the landing page you've built in the `Auth` component and is your `/` path in your routes within `App.js`. If you click on the "login/register" button, you'll be redirected to your custom Auth Page (IDX) provided by LoginRadius, where you can create a user account and login. You can manage the users who have accounts from your dashboard in "manage users".
 
 After logging in auth react js, with your user, you'll get redirected to the /login route that then runs the CallAPI component and gives you a result similar to the following:
 
-![Login route](user-roles.png)
+![Login route](user-roles.webp)
 
 This is the current role of the user. Any user would have the role of client assigned since you've set to assign the client role by default to all our users from your dashboard during the creation of roles.
 
@@ -373,18 +373,18 @@ export default App;
 
 You then need to run the code by starting the server using the `npm start` command. Upon starting the server, when you log in, you'll have your user token displayed on the screen. Your output will be similar to the following:
 
-![access token](access-token.png)
+![access token](access-token.webp)
 
 Here, you can see the access token and its details. You can then return your code to the previous `CallAPI` component imported from `Return.js`.
 
 ### User Data 
 You can view and manage user accounts from the dashboard. You can find the panel for this under "User management":
 
-![User Manangement](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263707754_Screenshot+117.png)
+![User Manangement](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263707754_Screenshot+117.webp)
 
 Manage users:
 
-![Manage users](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263762129_Screenshot+119.png)
+![Manage users](https://paper-attachments.dropbox.com/s_14B4BD8EDBFA59296DCDB812AB5C6EF8CE164AAF0A2268A9E90E57893E23504E_1628263762129_Screenshot+119.webp)
 
 Here, you can view the account information of your users, search for a particular user details using the email, Uid, or phone number as the query in the search box. Also, the panel provides an option to reset the password of a user, block users, and delete users as the above image shows. You can create new users by clicking on the "add user" button and filling in the details of the new user.
 
@@ -393,7 +393,7 @@ To view all roles and permissions for your app, change the URL in the fetch requ
 
 Reload your page, and you'll have an output similar as follows:
 
-![All user Roles and permissions](user-roles-permissions.png)
+![All user Roles and permissions](user-roles-permissions.webp)
 
 ## Adding a Role to the Current User
 To add the Admin role to the current user, create objects for this by adding the following code within the parenthesis after your fetch URL:
@@ -410,7 +410,7 @@ method: "PUT",
 
 This adds the Admin role to the current logged-in user since it is the `Uid` that is within our URL. `fetch` uses a GET request by default. Since you're making a change to the URL, you're using a PUT method instead. You'll get a result similar to as follows:
 
-![Added admin role to current Uid](roles-client-admin.png)
+![Added admin role to current Uid](roles-client-admin.webp)
 
 The user has both client and admin roles because you've added client roles by default to all our users.
 
@@ -495,7 +495,7 @@ In the code above, you've created a const email that returned an array containin
 
 The `async` request block has now been modified to check if the user email being used for logging in is equivalent to a particular email which you've declared. Alternatively, you can have your emails pulled from a database and assign the admin roles to the ones you want. The else block assigns a client role to emails that do not meet the first criteria. When you create a new account with an email similar to what I have in the `if block`, that is admin@example.com; when rerouted to the `/login` path, you'll discover that the role of admin was assigned while any other email will have the client role assigned upon login. The return statement returns the user id of the logged-in user, the email, and then the role in a JSON format. The output would be similar to the following:
 
-![output on login route](output.png)
+![output on login route](output.webp)
 
 ## Conclusion
 This tutorial covered:

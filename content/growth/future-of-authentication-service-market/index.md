@@ -1,7 +1,7 @@
 ﻿---
 title: "How Does the Future Look Like for the Authentication Services Market?"
 date: "2021-09-02"
-coverImage: "future-of-authentication-market.jpg"
+coverImage: "future-of-authentication-market.webp"
 tags: ["data security","authentication","mfa","cybersecurity"] 
 author: "Rakesh Soni"
 description: "Authentication services have a lot to offer every sector possible, from healthcare to even defense. It is essentially the future of login security and will play an important role in reducing ransomware attacks."
@@ -31,7 +31,7 @@ The analysis of the authentication services market takes place after segmenting 
     
 -   Geography: The analysis of the adoption and growth of the market from a geographical standpoint. For example, what does the market look like on different continents or a specific region? These include regions like North America, Europe, Asia-Pacific, Latin America, Middle East and Africa.
     
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
   
 
 By analysing the market through different segments, it becomes possible to obtain a better understanding  of the digital identity trends.
@@ -74,5 +74,5 @@ According to analysis, from a geographical standpoint, North America will be the
 
 Therefore, authentication services have a lot to offer every sector possible, from healthcare to even defense. It is essentially the future of login security and will play an important role in reducing ransomware attacks.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-of-authentication-service-market)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-of-authentication-service-market)
 

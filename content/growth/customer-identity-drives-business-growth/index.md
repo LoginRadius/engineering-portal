@@ -1,7 +1,7 @@
 ---
 title: "The Strategic Impact of Customer Identity on Business Growth"
 date: "2024-07-03"
-coverImage: "business-growth.jpg"
+coverImage: "business-growth.webp"
 tags: ["customer identity management","cx"]
 author: "Cooper Matheson"
 description: "Understanding and leveraging customer identity is crucial for driving business growth in today's competitive market. By personalizing customer experiences and utilizing data effectively, businesses can meet customer expectations and achieve substantial growth."
@@ -30,7 +30,7 @@ For example, a customer who frequently purchases eco-friendly products would app
 
 Loyal customers are invaluable to any business. They not only make repeat purchases but also act as brand advocates, spreading positive word-of-mouth and attracting new customers. Understanding customer identity helps businesses identify loyal customers and reward them appropriately.
 
-[![DS-LR-loyalty](DS-LR-loyalty.png)](https://www.loginradius.com/resource/datasheet/ciam-loyalty-programs/)
+[![DS-LR-loyalty](DS-LR-loyalty.webp)](https://www.loginradius.com/resource/datasheet/ciam-loyalty-programs/)
 
 Loyalty programs tailored to individual customers' preferences and behaviors can significantly boost customer retention. Offering exclusive discounts, early access to sales, or personalized rewards based on past purchases can make customers feel valued and appreciated, strengthening their loyalty to the brand.
 
@@ -66,4 +66,4 @@ Understanding and leveraging customer identity is a powerful strategy for drivin
 
 Embrace the power of customer identity to unlock new opportunities and pave the way for sustained success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-drives-business-growth)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-drives-business-growth)

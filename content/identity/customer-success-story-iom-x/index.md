@@ -1,7 +1,7 @@
 ---
 title: "IOM X, a LoginRadius Customer Success Story"
 date: "2017-03-01"
-coverImage: "customer-success-story-iom-x.png"
+coverImage: "customer-success-story-iom-x.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig" 
@@ -29,4 +29,4 @@ By centralizing all of their user identities, IOM X was able to gain valuable in
 
 IOMX - LoginRadius Customer Success Story
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-success-story-iom-x)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-success-story-iom-x)

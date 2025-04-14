@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Recognized as the Top Customer IAM Platform of 2024 by CIOReview"
 date: "2024-03-18"
-coverImage: "cio-review-cover.jpg"
+coverImage: "cio-review-cover.webp"
 tags: ["ciam platform","coverage","cio review"]
 pinned: false
 author: "Rakesh Soni"
@@ -23,7 +23,7 @@ As the online marketplace experiences unprecedented growth, the challenge for br
 
 "Our CIAM platform can successfully support large-scale projects spanning one hundred million users across 50 countries while maintaining an efficiency of thousands of logins per second," explains Rakesh Soni, founder and CEO of LoginRadius.
 
-[![WP-resiliency](WP-resiliency.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-resiliency](WP-resiliency.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 ## Our Rapid Implementation and User-Centric Design
 
@@ -53,4 +53,4 @@ LoginRadius adopts a consultative methodology to build lasting partnerships. "Wh
 
 He also shares the company’s vision for 2024 and beyond, where LoginRadius would focus on developing AI capabilities to enhance user experience, simplify implementation processes, and strengthen the security of sensitive data. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-top-ciam-platform-cio-review)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-top-ciam-platform-cio-review)

@@ -1,7 +1,7 @@
 ---
 title: "GovTech is On The Rise: How Can This Technology Improve Government Services?"
 date: "2022-05-13"
-coverImage: "govtech.jpg"
+coverImage: "govtech.webp"
 tags: ["govtech", "digital-transformation", "consumer-experience"]
 author: "Rakesh Soni"
 description: "GovTech refers to the efforts to digitally transform public administrations and various government and public sector organizations through innovative technological solutions. This post will help you understand the aspects of GovTech and how it’s offering endless opportunities for the sake of citizens’ benefits."
@@ -55,7 +55,7 @@ What good is a centralized portal if citizens have to create multiple identities
  \
 Without a seamless user experience, engagement rates drop. But with GovTech incorporating [Single Sign-On](https://www.loginradius.com/single-sign-on/) (SSO),  cities and companies can allow customers to access all applications within their platform with a single set of unified credentials rather than register and log in to each service separately. 
 
-[![public-sector-ds](public-sector-ds.png)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
+[![public-sector-ds](public-sector-ds.webp)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
 
 
 ### 3. Integrating with third-party applications.
@@ -88,4 +88,4 @@ Whether it’s authentication or delivering a consistent omnichannel experience,
 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=govtech-shaping-future-gov-services)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=govtech-shaping-future-gov-services)

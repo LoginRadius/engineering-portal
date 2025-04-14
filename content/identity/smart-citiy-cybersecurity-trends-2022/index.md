@@ -1,7 +1,7 @@
 ---
 title: "Smart Cities and Cyber Security Trends to Watch Out in 2022"
 date: "2022-02-02"
-coverImage: "smart-cities.jpg"
+coverImage: "smart-cities.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -86,4 +86,4 @@ The threats mentioned above would continue to rise in the new year. Everyone mus
 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-citiy-cybersecurity-trends-2022)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-citiy-cybersecurity-trends-2022)

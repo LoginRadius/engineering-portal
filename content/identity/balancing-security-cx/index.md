@@ -1,7 +1,7 @@
 ---
 title: "How to Strike the Right Balance Between Security and Consumer Experience"
 date: "2021-07-22"
-coverImage: "balancing-security-cx-cover.jpg"
+coverImage: "balancing-security-cx-cover.webp"
 tags: ["data security","compliance","identity management","cx"]
 author: "Navanita Devi"
 description: "Delivering a perfect harmony of a great user experience along with the highest level of security is crucial today. Let’s learn why a great user experience shouldn’t be compromised for security and how LoginRadius helps enterprises create great personalized user experiences reinforced by strict security."
@@ -103,7 +103,7 @@ Make passwords harder to crack with rigorous password policies and LoginRadius M
 
 Our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all [major security compliances](https://www.loginradius.com/compliances-list/) for our application and data storage. 
 
-[![EB-GDPR-comp](EB-GDPR-comp.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
+[![EB-GDPR-comp](EB-GDPR-comp.webp)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
 
 * **Maintain Data Privacy**
 
@@ -124,4 +124,4 @@ You need a delightful yet secure[ consumer experience](https://www.loginradius.c
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=balancing-security-cx)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=balancing-security-cx)

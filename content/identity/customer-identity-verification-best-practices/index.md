@@ -1,7 +1,7 @@
 ---
 title: "Maintaining Trust: Customer Identity Verification Challenges & Best Practices"
 date: "2023-09-13"
-coverImage: "customer-id-verification.jpg"
+coverImage: "customer-id-verification.webp"
 tags: ["identity verification","customer trust","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Trust is paramount for successful customer relationships in our digital age. However, customer identity verification faces evolving challenges, from identity theft to balancing security with a seamless user experience. Explore how adopting multi-layered verification, leveraging AI, complying with regulations, and educating users can help businesses maintain trust in the ever-changing landscape of online interactions."
@@ -75,7 +75,7 @@ As we progress toward technological advancements, cyber attackers become more qu
 
 One of the foremost challenges is the prevalence of identity theft and fraud. Cybercriminals constantly seek ways to impersonate legitimate customers, gaining unauthorized access to accounts and sensitive data. This not only harms the business but erodes customer trust.
 
-[![WP-consumer-id-theft](WP-consumer-id-theft.png)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
+[![WP-consumer-id-theft](WP-consumer-id-theft.webp)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
 
 3. **Verification of documents:** 
 
@@ -139,4 +139,4 @@ The purpose of customer verification is to enhance security, prevent identity th
 
 Customer verification typically requires valid identification documents, biometric data, knowledge-based information, or a combination of these authentication factors to confirm identity accurately.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-verification-best-practices)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-verification-best-practices)

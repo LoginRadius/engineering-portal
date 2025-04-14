@@ -1,7 +1,7 @@
 ---
 title: How to add SSO for your WordPress Site!
 date: "2021-03-26"
-coverImage: "sso-wp.jpg"
+coverImage: "sso-wp.webp"
 author: "Saikiran Babladi"
 tags: ["WordPress", "SSO", "Single Sign On"]
 description: "Providing a seamless experience for your consumers is non-negotiable, especially when running multiple WordPress sites. Single Sign-On provides that experience to your users. Here's how to provide a frictionless experience to your users."
@@ -35,7 +35,7 @@ We have detailed [documentation](https://www.loginradius.com/developers/).
 LoginRadius aims to help developers, web development agencies, and businesses to add SSO in the simplest way possible. 
 LoginRadius allows you to store your consumer profiles securely and add our customizable login interfaces into your applications in minutes. By enabling our SSO, you can create a frictionless user experience, thus boosting your conversion rate.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
  
 ## Benefits
 
@@ -50,5 +50,5 @@ LoginRadius allows you to store your consumer profiles securely and add our cust
 ## Your Take?
 We always want to hear from our customers. Like many others in the market, we want developers to install it and offer feedback. This feedback will help us enhance the plugin and make it more user-friendly.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-for-wordpress-site)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-for-wordpress-site)
 

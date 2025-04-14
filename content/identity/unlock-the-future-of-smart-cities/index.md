@@ -1,7 +1,7 @@
 ---
 title: "Unlock the Future of Smart Cities"
 date: "2020-03-13"
-coverImage: "future-of-smart-cities.jpg"
+coverImage: "future-of-smart-cities.webp"
 tags: ["digital transformation","digital identity","sso"]
 author: "Rakesh Soni"
 description: "With population growth and the expansion of public services, cities need to be innovative about how to provide services to all people without compromising service quality. There is a need for a single platform where all facilities are centralised and customer experience is considered. Below, for municipalities to follow, we'll look at some examples and best practises."
@@ -29,10 +29,10 @@ Residents are accustomed to 24/7, anywhere access to consumer products and servi
       
     This enables organizations to use that customer data to better understand their customers, offer more useful information and deliver that information more directly.
 
-[![](CS-My-City-MySurrey-1024x310.png)](https://www.loginradius.com/resource/surrey-case-study)
+[![](CS-My-City-MySurrey-1024x310.webp)](https://www.loginradius.com/resource/surrey-case-study)
 
 The City of Surrey offers a great real-world example of what our Identity Platform can do. This bustling city in Metro Vancouver, British Columbia welcomes approximately 1,500 new residents per month – all in need of municipal services. The City was not able to expand its physical offices or add staff, so the solution was to move all services online.
 
 We’ve created a case study to show you how the LoginRadius Identity Platform helped the City of Surrey transform its online services and unlock its future as a smart city.
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=unlock-the-future-of-smart-cities)
+[![Book-a-demo-loginradius](Book-a-demo-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=unlock-the-future-of-smart-cities)

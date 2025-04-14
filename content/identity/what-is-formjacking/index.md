@@ -1,7 +1,7 @@
 ---
 title: "What is Formjacking"
 date: "2021-01-15"
-coverImage: "what-is-formjacking.jpg"
+coverImage: "what-is-formjacking.webp"
 tags: ["all, Security"]
 featured: false 
 author: "Rakesh Soni"
@@ -41,7 +41,7 @@ The group injects web-based card skimmers onto eCommerce sites to [steal payment
 Magecart group started hacking into Magneto online stores; however, they have now altered their strategies and are increasingly using formjacking attacks to steal payment card details. 
 
 
-![who-is-behind-formjacking-attacks](who-is-behind-formjacking-attacks.png)
+![who-is-behind-formjacking-attacks](who-is-behind-formjacking-attacks.webp)
 
 ## How Big Is This Formjacking Campaign
 
@@ -79,7 +79,7 @@ Use credit cards instead of debit cards while shopping online to reduce [financi
 If someone uses your credit card information deceptively or indulges in card fraud, they will be exhausting the funds of the credit card companies. In the case of debit cards, the funds are directly tied to your checking account balance.
 
 
-[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 
 ## How to Prevent Formjacking Attacks
@@ -99,4 +99,4 @@ Victims don't realize that they have fallen prey to formjacking attacks easily a
 Even with all preventive measures in place, it can still be exceedingly difficult to spot formjacking attacks. However, as an online business, you must have all the protocols in place to quickly alert consumers in the case of such attacks.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-formjacking)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-formjacking)

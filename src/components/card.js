@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./cardlist.module.scss"
 import { Link } from "gatsby"
 import Bio from "./bio"
-import defaultImg from "../../content/assets/default-blog.jpg"
+import defaultImg from "../../content/assets/default-blog.webp"
 
 // Utilities
 import kebabCase from "lodash/kebabCase"

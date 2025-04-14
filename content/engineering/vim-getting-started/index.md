@@ -2,7 +2,7 @@
 title: "Vim: What is it and Why to use it?"
 date: "2020-10-08"
 author: "Shubhankar Khare"
-coverImage: "Vim.png"
+coverImage: "Vim.webp"
 tags: ["Vim", "Text Editor"]
 description: "Vim is Vi's newest and most common reincarnation that is supported on every known platform, check out the article to learn about what is ViM, and why to use it."
 ---
@@ -70,7 +70,7 @@ So to sum up,
 
  First of all, don't get disheartened when you see VIM for the first time, it's known to make a **horrible first impression.** We'll learn to customize it later in the blog.
 
- ![BadVim](BadVim.png)
+ ![BadVim](BadVim.webp)
 
 
  To get started, get your hands dirty on **vimtutor** . It's a 20-30 minute vim tutorial which teaches you all the basics. Just type `vimtutor` in your terminal (in a machine where you have vim installed) to open it.
@@ -148,10 +148,10 @@ VIM makes you write code at the speed of thoughts. Just get started, and the res
 If you want to slowly blend in into the world of vim then use some vim plugin for your text editor. All popular text editors have a vim plugin ( [Here's one for VsCode ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim))
 Here you go, best of both worlds! When you're comfortable enough, go for that complete switch.
 
-![vscodevim](vscodevim.png)
+![vscodevim](vscodevim.webp)
 
 Here's how my vim setup looks.
 
-![Vim](Vim.png)
+![Vim](Vim.webp)
 
 Now go give it a try. I wish you luck!!

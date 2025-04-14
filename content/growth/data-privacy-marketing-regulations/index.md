@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Shifting Landscape of Data Privacy Regulations: Embracing Core Marketing Principles"
 date: "2024-04-30"
-coverImage: "data-privacy.jpg"
+coverImage: "data-privacy.webp"
 tags: ["data privacy","compliance","cx"]
 author: "Cooper Matheson"
 description: "In today's digital business landscape, navigating data privacy regulations is paramount. Discover how businesses worldwide are adapting to safeguard user data privacy while embracing transparency and responsible personalization. Explore the importance of empowering users through choice and accountability in the ever-evolving regulatory landscape."
@@ -24,7 +24,7 @@ Users are increasingly aware of the value of their personal information and dema
 
 Central to effective marketing in this era is transparency. Honesty about data collection and usage builds trust and fosters stronger relationships with customers. 
 
-[![DS-privacy](DS-privacy.png)](https://www.loginradius.com/resource/datasheet/privacy-policy-management/)
+[![DS-privacy](DS-privacy.webp)](https://www.loginradius.com/resource/datasheet/privacy-policy-management/)
 
 It's essential to communicate clearly with users about what data is being collected, how it's being used, and how they can opt-in or opt-out. Transparency should permeate every aspect of marketing, from email campaigns to targeted advertising. 
 
@@ -60,4 +60,4 @@ This might mean providing easy-to-use privacy settings, allowing users to opt ou
 
 By putting users in the driver's seat, businesses not only comply with regulations but also foster a sense of empowerment and respect that can lead to long-term loyalty and advocacy. In the ever-evolving landscape of data privacy regulations, prioritizing user empowerment is not just good ethics—it's good business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketing-regulations)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketing-regulations)

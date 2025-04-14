@@ -1,7 +1,7 @@
 ---
 title: "The Hidden Pitfalls: Why Most CIAM Systems Fail Under Pressure"
 date: "2024-08-06"
-coverImage: "hidden-pitfalls.jpg"
+coverImage: "hidden-pitfalls.webp"
 tags: ["data security","ciam resilience","cx"]
 author: "Karl Wittig"
 description: "In times of crisis, companies often find their Customer Identity and Access Management (CIAM) systems under immense pressure. This article explains the common reasons for CIAM failures during emergencies and offers actionable strategies to fortify these systems, ensuring robust security and seamless user experiences."
@@ -40,7 +40,7 @@ In a crisis, the stakes are higher: cyber threats increase, customer demands shi
 
     * **Inconsistent User Interfaces:** A disjointed user experience across different platforms and devices can confuse customers, leading to abandoned transactions and reduced engagement.
 
-[![GD-ciam](GD-ciam.png)](https://www.loginradius.com/resource/guide/ciam-buyers-guide-secure-roi/)
+[![GD-ciam](GD-ciam.webp)](https://www.loginradius.com/resource/guide/ciam-buyers-guide-secure-roi/)
 
 4. **Operational Disruptions:**
 
@@ -82,4 +82,4 @@ By understanding the common pitfalls and implementing robust, scalable, and secu
 
 Investing in resilient customer identity solutions is not just about crisis management; it is about building a foundation for long-term success and customer loyalty.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-systems-hidden-pitfalls)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-systems-hidden-pitfalls)

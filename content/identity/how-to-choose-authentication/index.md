@@ -200,4 +200,4 @@ Need help implementing secure and scalable authentication? [Contact LoginRadius]
 * Two-factor authentication (2FA)
 * Token-based systems These methods for authentication ensure only authorized users access your network. They are foundational for VPNs, remote desktop access, and zero trust architectures.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

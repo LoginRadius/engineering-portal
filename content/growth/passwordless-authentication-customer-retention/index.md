@@ -1,7 +1,7 @@
 ---
 title: "Boosting Customеr Rеtеntion Ratеs With Stratеgiеs for Passwordlеss Authеntication"
 date: "2024-01-04"
-coverImage: "customer-retntion.jpg"
+coverImage: "customer-retntion.webp"
 tags: ["passwordless authentication","customer retention","cx"]
 author: "Rakesh Soni"
 description: "With the rise in cyber crimes, like phishing attacks, due to weak passwords and password reuse, passwordless authentication is the new way businesses can improve customer retention by providing a sense of security to users."
@@ -22,7 +22,7 @@ Passwordless authentication is an authentication method where users can access a
 
 According to a recent [Oxford University study sponsored by Mastercard](https://www.cio.com/article/350323/seven-signs-that-your-consumers-are-ready-for-passwordless-authentication.html), an impressive 93% of consumers express a preference for biometric authentication over traditional passwords. This strong consumer inclination underscores the demand for more convenient and secure **passwordless authentication for customer retention.**
 
-[![DS-passwordless-login-magic-links](DS-passwordless-login-magic-links.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-login-magic-links](DS-passwordless-login-magic-links.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 To explain how passwordless authentication can improve the user journey, here is an example: a remote user must tap the fingerprint sensor and enter the one-time, short-lived SMS code sent on their phone to access a mobile application. 
 
@@ -70,4 +70,4 @@ Adopting **passwordless authentication for customer retention** not only as a se
 
 Marketers can utilize passwordless authentication to nurture leads into potential clients and build lasting relationships. The ultimate goal is to keep the end user happy, and in this competitive digital landscape, passwordless authentication emerges as a strong tool for achieving business goals. You can give what the consumer wants - a seamless, low-friction passwordless login experience- and Login Radius experts can help implement passwordless authentication with a customizable and fully configurable solution.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-customer-retention)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-customer-retention)

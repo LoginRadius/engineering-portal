@@ -1,7 +1,7 @@
 ---
 title: "5 Challenges for Government Adoption of Citizens’ Access Control"
 date: "2022-01-06"
-coverImage: "govt-access.jpg"
+coverImage: "govt-access.webp"
 tags: ["security"]
 featured: false 
 author: "Yash Rathi"
@@ -90,4 +90,4 @@ When it comes to adopting citizen access control, government agencies should inc
 
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=govt-access-control-challenges-2022)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=govt-access-control-challenges-2022)

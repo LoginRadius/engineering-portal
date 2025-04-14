@@ -1,7 +1,7 @@
 ﻿---
 title: "Steps to Grow Your Emotional Intelligence for Better Consumer Relations"
 date: "2021-03-31"
-coverImage: "emotional-intelligence-loginradius.jpg"
+coverImage: "emotional-intelligence-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Lesley Vos"
@@ -48,7 +48,7 @@ Psychologist and science journalist, Goleman examined EI with application to lea
 
 It appeared that the [top five components of EI](https://www.cognitiveinstitute.org/get-smart-about-emotional-intelligence/) — self-awareness, self-regulation, motivation, empathy, and social skills — result in an influence on business communication.
 
-![business-communication](1.png)
+![business-communication](1.webp)
 
 In plain English, emotional intelligence is "the ability to perceive, control and evaluate emotions – in oneself and others – and to use that information appropriately." ([Source](https://www.psychologytoday.com/intl/blog/your-mind-your-body/201201/10-ways-enhance-your-emotional-intelligence))
 
@@ -64,7 +64,7 @@ That's how Goleman explained the growing interest in emotional intelligence in t
 
 He described EI with four domains and [twelve competencies](https://hbr.org/2017/02/emotional-intelligence-has-12-elements-which-do-you-need-to-work-on) a person needed to develop to become emotionally intelligent:
 
-![business-communication](2.png)
+![business-communication](2.webp)
 
 
 Today, experts agree on two statements:
@@ -237,4 +237,4 @@ Emotional intelligence is the ability to control emotions and relate well to oth
 
 It takes commitment and time but yields loyalty. Grow the emotional intelligence of your agents, be emotionally intelligent yourself, and implement them across business communication systems for productive consumer relations.
 
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=emotional-intelligence)
+[![book-a-demo-Consultation](loginradius-book-a-demo.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=emotional-intelligence)
