@@ -1,7 +1,7 @@
 ---
 title: "Email is Hacked!: 7 Immediate Steps To Follow"
 date: "2020-12-03"
-coverImage: "what-to-do-when-email-is-hacked.jpg"
+coverImage: "what-to-do-when-email-is-hacked.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -70,7 +70,7 @@ You are more likely to open it and click on links inside it when an email comes 
 
 Let the people in your contact list know that your email has been compromised and that any suspicious emails should not be opened or connected to any emails you have recently got.
 
-[![Multi Factor Authentication](Multi-Factor-Authentication.png)](
+[![Multi Factor Authentication](Multi-Factor-Authentication.webp)](
 https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
@@ -98,4 +98,4 @@ In addition to your password, set your email account to require a [second form o
 As an additional security measure, several email providers provide two-factor authentication (2FA). To access an account, this approach requires both a password and some other form of identification.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-to-do-when-email-hacked)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-to-do-when-email-hacked)

@@ -1,7 +1,7 @@
 ---
 title: "LDAP Authentication: Meaning and How it Works?"
 date: "2023-07-20"
-coverImage: "ldap-authentication.jpg"
+coverImage: "ldap-authentication.webp"
 tags: ["user authentication", "identity management", "cx"]
 author: "Rakesh Soni" 
 description: "Explore the world of LDAP authentication, its meaning, and how it works. Discover its applications, including integration with Active Directory. Learn about the client-server authentication process and the challenges involved."
@@ -46,7 +46,7 @@ LDAP and Active Directory are closely related but not the same. LDAP is a protoc
 
 It extends LDAP functionality by incorporating additional security, replication, and domain management features. Active Directory provides a centralized and hierarchical structure for managing resources, including user accounts, computers, and printers.
 
-[![GD-enterpriseGD-to-RBA](GD-enterpriseGD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-enterpriseGD-to-RBA](GD-enterpriseGD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ## Common Challenges of LDAP Authentication
 
@@ -66,4 +66,4 @@ By understanding the fundamentals of LDAP authentication and the challenges asso
 
 With ongoing technological advancements, LDAP authentication plays a vital role in ensuring secure user access across diverse platforms and applications.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-ldap-authentication-and-how-it-works)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-ldap-authentication-and-how-it-works)

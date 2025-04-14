@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Evaluate the Quality of Your User Authentication System"
 date: "2021-11-18"
-coverImage: "user-authentication.jpg"
+coverImage: "user-authentication.webp"
 tags: ["user authentication","authorization","compliance"]
 author: "Arpita Garg"
 description: "Whether we talk about data leaks or identity thefts, businesses that become victims of security breaches compromise their brand reputation and lose millions of dollars every year. Hence, robust authentication and authorization mechanisms become a necessity and not just a luxury. Let’s understand how businesses can evaluate the quality of a user authentication system."
@@ -68,7 +68,7 @@ A CIAM solution uses authentication and authorization technologies like JWT, SAM
 * **OpenID Authorization:** It verifies user identity based on an authorization server's authentication.
 * **OAuth:** It allows the API to authenticate and access the requested system or resource.
 
-[![WP-digitization](WP-digitization.png)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
+[![WP-digitization](WP-digitization.webp)](https://www.loginradius.com/resource/how-to-secure-api-using-oauth2)
 
 Since we’ve got a fair understanding of the authentication and authorization system, let’s just quickly jump to the aspects that define the quality of the authentication system.
 
@@ -141,4 +141,4 @@ The aspects mentioned above could help businesses choose the most exemplary auth
 
 Moreover, businesses can witness the world-class authentication system in action with LoginRadius CIAM that helps establish a secure and user-friendly authentication and authorization system. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=assess-improve-your-authentication-system)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=assess-improve-your-authentication-system)

@@ -1,7 +1,7 @@
 ---
 title: "5 Tips to Enhance the Consumer Experience in B2B SaaS"
 date: "2021-01-15"
-coverImage: "5-tips-consumer-experience-b2b-saas.jpg"
+coverImage: "5-tips-consumer-experience-b2b-saas.webp"
 category: ["all"]
 featured: false 
 author: "Rakesh Soni"
@@ -43,7 +43,7 @@ Speak to them about the business principles they would anticipate from using you
 
 In reality, companies should organize their teams to facilitate and carry out substantive consumer discussions about adding value to their businesses. It includes pre-sales, post-sales, marketing, and consumer/technology support.
 
-[![omnichannel-retailer-whitepaper](omnichannel-retailer-whitepaper.jpg)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![omnichannel-retailer-whitepaper](omnichannel-retailer-whitepaper.webp)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 
 ## #4. Omnichannel approach for B2B SaaS.
@@ -71,4 +71,4 @@ To bring it all together, the basis of B2B SaaS consumer experience depends on h
 It is essential to make sure that anything your client comes across from your business should turn out to be an enjoyable experience.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-experience-b2b-saas)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-experience-b2b-saas)

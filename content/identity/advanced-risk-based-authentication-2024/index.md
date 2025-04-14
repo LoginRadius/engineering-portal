@@ -1,7 +1,7 @@
 ---
 title: "Reinforcing Security with Advanced Risk-Based Authentication in 2024 & Beyond"
 date: "2024-02-08"
-coverImage: "rba.jpg"
+coverImage: "rba.webp"
 tags: ["risk based authentication","mfa","cx"]
 author: "Rakesh Soni"
 description: "Explore the significance of Risk-Based Authentication (RBA) in today's digital landscape, where robust security measures are essential. Learn how RBA adds an extra layer of defense against sophisticated cyber threats, shields against modern attack vectors, and enhances security in high-risk situations."
@@ -42,7 +42,7 @@ Securing sensitive accounts and data against unauthorized access and fraudulent 
 
 The Device Factor in Risk-Based Authentication (RBA) offers a vital layer of defense by validating user authenticity through device characteristics, significantly reducing the risk of unauthorized access and bolstering overall security posture. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 LoginRadius’s Device Factor in RBA precisely considers factors such as device type, operating system, and security patches; RBA systems can make informed decisions about granting access, ensuring that only trusted devices are permitted. 
 
@@ -64,4 +64,4 @@ Advanced Risk-Based Authentication (RBA) is an indispensable component of modern
 
 By leveraging solutions like LoginRadius CIAM, businesses can harness the full potential of RBA to fortify their defenses, safeguard user accounts, and uphold trust in their digital ecosystems, both now and in the years to come.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-risk-based-authentication-2024)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-risk-based-authentication-2024)

@@ -1,7 +1,7 @@
 ﻿---
 title: "What is the Difference Between MFA vs. SSO?"
 date: "2022-04-12"
-coverImage: "sso-vs-mfa.jpg"
+coverImage: "sso-vs-mfa.webp"
 tags: ["authentication", "mfa", "sso", "ciam"]
 author: "Navanita Devi"
 description: "Security and user experience are all that a modern online platform demands. And businesses need to create a perfect harmony between security and usability to witness growth. Let’s understand the aspects of MFA vs. SSO in detail and learn how businesses can leverage MFA and SSO to scale growth, ensure security, and maintain a rich consumer experience."
@@ -93,7 +93,7 @@ Single Sign-On clearly minimizes the risk of poor password habits. Also, removin
 * **Unifies customer profiles:** Creating a single instance of the customer data provides a [centralized view of the customer](https://www.loginradius.com/profile-management/) across all channels.
 * **Reduces IT costs:** Due to fewer help desk calls about passwords, IT can spend less time helping users remember or reset their passwords for hundreds of applications. 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## Best Practices for Implementing MFA and SSO:
 
@@ -155,4 +155,4 @@ MFA adds layers of verification, making unauthorized access harder, while SSO re
 
 By evaluating security requirements, assessing complexities and usability, and also by considering specific organizational needs.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-vs-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-vs-sso)

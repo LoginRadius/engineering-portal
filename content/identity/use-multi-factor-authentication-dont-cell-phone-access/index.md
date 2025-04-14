@@ -1,7 +1,7 @@
 ---
 title: "How to Use Multi-Factor Authentication When You Don’t Have Cell Phone Access"
 date: "2018-12-19"
-coverImage: "use-mfa.jpg"
+coverImage: "use-mfa.webp"
 tags: ["mfa","data security","cx"]
 author: "Rakesh Soni"
 description: "To verify the identity of clients, many security-minded organisations use multi-factor authentication. The most popular approach is to send a code via SMS text message to customers, which the customer then enters on the website or app. But what if you drive and have no mobile phone service? For authenticating yourself, you have a few other choices. Before you fly, just make sure to set them up!"
@@ -26,7 +26,7 @@ These days a simple password isn’t always enough to make sure that someone is 
 
 ## The Problem with MFA When Traveling
 
-![](image-1.jpg)
+![](image-1.webp)
 
 MFA typically uses a code sent via SMS text message as the second verification factor.
 
@@ -48,7 +48,7 @@ Both Google and Microsoft offer Android and iOS authenticator apps as part of th
 
 LoginRadius offers a white-labeled version of Google Authenticator for [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) to companies that use our customer identity platform.
 
-[![multi factor authentication guide loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication-1024x310.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![multi factor authentication guide loginradius](EB-Buyer’s-Guide-to-Multi-Factor-Authentication-1024x310.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 #### Setting up Google Authenticator
 
@@ -108,7 +108,7 @@ There are also a number of third-party authenticator apps out there, from compan
 
 ## Balancing Security and Convenience with MFA
 
-![](chad-madden-445638-unsplash-1024x683.jpg "Multi-Factor Authentication")
+![](chad-madden-445638-unsplash-1024x683.webp "Multi-Factor Authentication")
 
 B2C companies that offer MFA for an extra level of security still have their eye on providing a convenient customer experience.
 
@@ -116,4 +116,4 @@ Travel can make [SMS-based MFA solutions](https://www.loginradius.com/integratio
 
 Providing travelers with easy-to-use MFA solutions doesn’t just keep your data and their data secure. It improves their digital experience and encourages them not to side-step essential security measures when traveling in potentially risky situations.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=use-multi-factor-authentication-dont-cell-phone-access)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=use-multi-factor-authentication-dont-cell-phone-access)

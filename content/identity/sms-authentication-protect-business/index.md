@@ -1,7 +1,7 @@
 ---
 title: "SMS Authentication — Can it Really Protect Your Business?"
 date: "2021-09-02"
-coverImage: "sms-authentication-protect-business-cover.jpg"
+coverImage: "sms-authentication-protect-business-cover.webp"
 tags: ["security"]
 featured: false
 author: "Ashish Kumar Yadav"
@@ -52,7 +52,7 @@ Even after being so convenient and easy to operate, there are some demerits also
 3. **Social Engineering Attacks:** Compared to earlier days, more devices are now connected to the internet today. Today, [a simple phishing link](https://www.loginradius.com/blog/identity/phishing-for-identity/) via a text msg or any advertisement will do the job. If a consumer clicks on the link by mistake or falls into any such trap, all his data will be gained by hackers, including SMS.
 
 
-[![phone-auth-DS](phone-auth-DS.png)](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/)
+[![phone-auth-DS](phone-auth-DS.webp)](https://www.loginradius.com/resource/loginradius-ciam-phone-authentication/)
 
 
 ## Should Businesses Use SMS Authentication?
@@ -76,4 +76,4 @@ But businesses need to find an alternative for this as SMS authentication cannot
 Cheers!
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sms-authentication-protect-business)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sms-authentication-protect-business)

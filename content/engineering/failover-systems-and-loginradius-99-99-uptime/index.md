@@ -1,7 +1,7 @@
 ---
 title: "Failover Systems and LoginRadius' 99.99% Uptime"
 date: "2019-06-24"
-coverImage: "tech.jpg"
+coverImage: "tech.webp"
 author: "Ruben Gonzalez"
 tags: ["Engineering","AWS"]
 ---

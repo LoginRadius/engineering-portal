@@ -1,7 +1,7 @@
 ---
 title: "4 Ways to Extend CIAM Capabilities of BigCommerce"
 date: "2022-01-27"
-coverImage: "4-ways-to-extend-ciam-capabilities.png"
+coverImage: "4-ways-to-extend-ciam-capabilities.webp"
 author: "Archna Yadav"
 tags: ["BigCommerce", "Authentication", "CIAM"]
 description: "Want to add Phone Login or Single Sign-on for customers of your BigCommerce application? This article explains it all. Towards the end, it talks about how LoginRadius can help you improve upsell and cross-sell."

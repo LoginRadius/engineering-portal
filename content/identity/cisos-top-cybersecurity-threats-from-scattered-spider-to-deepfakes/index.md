@@ -1,7 +1,7 @@
 ---
 title: "CISOs’ Top Cybersecurity Threats 2025: Scattered Spider, Deepfakes, and More"
 date: "2025-01-06"
-coverImage: "lock-business-background-security-concept-3d-rendering.jpg"
+coverImage: "lock-business-background-security-concept-3d-rendering.webp"
 tags: ["Cybersecurity"]
 author: "Kundan Singh"
 description: "From Scattered Spider ransomware to deepfake identities, 2025 poses critical cybersecurity challenges for CISOs. Discover strategies to protect your organization."

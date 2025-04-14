@@ -1,7 +1,7 @@
 ﻿---
 title: "Simplifying CX: How Passwordless Authentication Reduces Friction for Customers?"
 date: "2023-03-17"
-coverImage: "passwordless-auth.jpg"
+coverImage: "passwordless-auth.webp"
 tags: ["data security","passwordless authentication","cx"]
 author: "Rakesh Soni"
 description: "The traditional password-based authentication methods can frustrate customers, leading to poor customer experience (CX). Since a bit of friction in the onboarding process could force customers to switch. And passwordless authentication is emerging as a solution to address these pain points and enhance CX since a seamless customer journey is what every user is looking for."
@@ -54,7 +54,7 @@ Passwordless authentication is an emerging authentication method that addresses 
 
 Passwordless authentication methods, such as biometric and one-time passcodes, are more secure than passwords. Biometric authentication uses unique physical characteristics, such as fingerprints or facial recognition, to verify identity, making it more difficult for attackers to access customer data. One-time passcodes are only valid temporarily, reducing the risk of a successful attack.
 
-[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 ### 2. Improved convenience
 
@@ -77,5 +77,5 @@ Password authentication for CX can be a pain point for businesses and customers 
 
 By offering improved security, convenience, reduced friction, and increased trust, passwordless authentication can enhance customer experience, leading to improved customer retention and loyalty. As such, businesses should consider implementing passwordless authentication as part of their overall authentication strategy.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-auth-reduces-pain-points-cx)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-auth-reduces-pain-points-cx)
 

@@ -1,7 +1,7 @@
 ---
 title: "How Cookie Management Supports GDPR and CCPA Compliance"
 date: "2024-07-31"
-coverImage: "cookie-mngmnt.jpg"
+coverImage: "cookie-mngmnt.webp"
 tags: ["cookie management","data privacy","compliance"]
 author: "Jaqueline Kispert"
 description: "Discover the main principles of GDPR and CCPA, the purpose of cookie management, how it supports compliance, the different types of cookie management tools available, and tips for choosing the right tool for your business."
@@ -70,7 +70,7 @@ By ensuring users are aware of the types of data being collected, the purposes f
 
 This level of transparency not only benefits users by respecting their autonomy but also cultivates a positive relationship between companies and consumers.
 
-[![EB-LR-GDPR](EB-LR-GDPR.png)](https://www.loginradius.com/resource/ebook/loginradius-gdpr-compliance/)
+[![EB-LR-GDPR](EB-LR-GDPR.webp)](https://www.loginradius.com/resource/ebook/loginradius-gdpr-compliance/)
 
 ### Ensuring data security
 
@@ -162,4 +162,4 @@ Yes, all websites that collect personal data, including through the use of cooki
 
 Non-compliance with GDPR and CCPA regulations can result in hefty fines and penalties, as well as damage to a company's reputation. Proper cookie management is essential for protecting user data and avoiding legal consequences.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cookie-management-gdpr-ccpa)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cookie-management-gdpr-ccpa)

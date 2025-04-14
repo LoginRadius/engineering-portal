@@ -1,7 +1,7 @@
 ---
 title: "How Does Multi-Tenancy in Customer IAM Solutions Boost Security?"
 date: "2024-03-14"
-coverImage: "ciam-security.jpg"
+coverImage: "ciam-security.webp"
 tags: ["ciam solutions","identity management","cx"]
 author: "Rakesh Soni"
 description: "Multi-tenancy in Customer IAM architecture introduces a significant shift in how organizations manage and protect their users' identities in a shared environment. Let's discover how multi-tenancy enables multiple tenants or customers to co-exist securely within a single CIAM infrastructure."
@@ -68,7 +68,7 @@ The logical separation of tenants contains damage. If a user account on Tenant A
 
 Multi-tenant solutions make it easy to define and implement identity governance policies uniformly. Secure password policies, access reviews and certification, role lifecycle management, and de-provisioning workflows can be standardized across customers.
 
-[![WP-identity-mngmnt](WP-identity-mngmnt.png)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
+[![WP-identity-mngmnt](WP-identity-mngmnt.webp)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
 
 ### Consolidated Audit Trail
 
@@ -118,4 +118,4 @@ Architectural isolation mechanisms naturally provide tenant segmentation and res
 
 Whether you need to onboard business partners, merge acquired companies, or manage a contractor ecosystem, the LoginRadius CIAM platform has proven capabilities trusted by leading enterprises. Schedule a discussion to see the power of multi-tenancy in action!
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-tenancy-ciam-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-tenancy-ciam-security)

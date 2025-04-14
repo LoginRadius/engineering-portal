@@ -1,7 +1,7 @@
 ﻿---
 title: "Omnichannel CX : Your Key to Consumer Experience Success"
 date: "2021-06-30"
-coverImage: "Omnichannel-CX.jpg"
+coverImage: "Omnichannel-CX.webp"
 category: ["loginradius"]
 featured: false 
 author: "Tanvi Soni"
@@ -109,4 +109,4 @@ For seamless humanized omnichannel journeys and consumer experience,  [consumer 
 
 Continue the conversation effortlessly if consumers switch from one channel to another. Start with chat, move on to voice, and then interact through video seamlessly. [Contact LoginRadius](https://www.loginradius.com/contact-us/) to know more.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-omnichannel-cx)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-omnichannel-cx)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Do Consumer Identity Programs Really Work for Personalized Marketing?"
 date: "2021-12-14"
-coverImage: "personalized-marketing.jpg"
+coverImage: "personalized-marketing.webp"
 tags: ["identity management","ciam solution","mfa","cx"]
 author: "Navanita Devi"
 description: "Consumer identity management is actually a great way to help companies grow. It is through high quality CIAM that a business can create better targeted, safer, more meaningful marketing experiences for their customers."
@@ -49,7 +49,7 @@ When registering for an application the first time, you have to fill out details
 
 After this, the application observes your activities and keeps the interface evolving according to the user activities.
 
-[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 * **_Multi-factor authentication_**
 
@@ -73,4 +73,4 @@ Consumer data is precious for your business, and its safety is the number one co
 
 There are many benefits of consumer identity programs for marketing, the two most important benefits being safety and personalization. Both of these can be achieved by proper implementation of CIAM from the business leaders. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-rule-personalized-marketing-2022)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-rule-personalized-marketing-2022)

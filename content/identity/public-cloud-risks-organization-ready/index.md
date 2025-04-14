@@ -1,7 +1,7 @@
 ---
 title: "Public Cloud Risks - Is Your Organization Prepared for Cloud Threats?"
 date: "2022-09-22"
-coverImage: "public-cloud-risks.jpg"
+coverImage: "public-cloud-risks.webp"
 tags: ["cloud security","data privacy","mfa","zero trust"]
 author: "Rakesh Soni"
 description: "The rapid adoption of the public and hybrid cloud doesn’t necessarily mean that sensitive information stored on remote servers or shared clouds is secure. This blog highlights the risks associated with the public cloud and how businesses can take timely action to avoid the risks."
@@ -51,7 +51,7 @@ So, how should an organization protect the privacy and security of its consumer 
 
 The zero trust model believes no user can be trusted, and verification is no longer an option. It supports the theory that all users must be authenticated, authorized, and regularly verified to ensure they can be trusted with the data in any business hierarchy.
 
-[![WP-sero-trust-1](WP-sero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-sero-trust-1](WP-sero-trust-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ### #3. Availability risks.
 
@@ -73,4 +73,4 @@ Businesses considering leveraging the private cloud shouldn’t overlook the sec
 Enterprises thinking about accelerating business growth through cloud adoption shouldn't miss the aspects above. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=public-cloud-risks-organization-ready)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=public-cloud-risks-organization-ready)

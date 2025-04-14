@@ -1,7 +1,7 @@
 ---
 title: "What is Digital Transformation"
 date: "2021-01-11"
-coverImage: "what-is-digital-transformation.jpg"
+coverImage: "what-is-digital-transformation.webp"
 tags: ["digital transformation","cybersecurity","cx"]
 author: "Rakesh Soni"
 description: "Digital transformation is the process of leveraging digital technology to develop new business processes and consumer experiences to meet the changing market dynamics or to alter the existing ones. So, has the dynamics changed with the COVID-19 pandemic? You are about to find out."
@@ -75,7 +75,7 @@ Wherever you are... START!
 
 ## Has Digital Transformation Changed With the COVID-19 Pandemic
 
-![digital-transformation-changed-with-covid-19-pandemic](digital-transformation-changed-with-covid-19-pandemic.png)
+![digital-transformation-changed-with-covid-19-pandemic](digital-transformation-changed-with-covid-19-pandemic.webp)
 
 The answer is _yes_. The COVID-19 pandemic has pushed businesses over the "technology" edge forever. 
 
@@ -84,7 +84,7 @@ According to [McKinsey Global Survey](https://www.mckinsey.com/business-function
 The survey also shows that the rates of digital adoption are three times likelier now than before the crisis.
 
 
-![covid-19-stats-digital-transformation](covid-19-stats-digital-transformation.PNG)
+![covid-19-stats-digital-transformation](covid-19-stats-digital-transformation.webp)
 
 
 Source: Mckinsey
@@ -113,7 +113,7 @@ Lately, new, emerging technologies are being responsible for a huge part of any 
 However, in these trying times, it is also crucial that countries invest in digital products and services that aid in national security and the economy at large. We should anticipate strengthened regulatory structures and increased scrutiny on activities related to merger and acquisition (M&A).
 
 
-[![customer-identity-the-core-of-digital-transformation](customer-identity-the-core-of-digital-transformation.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![customer-identity-the-core-of-digital-transformation](customer-identity-the-core-of-digital-transformation.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 
 ### Futuristic workspaces will rule.
@@ -161,7 +161,7 @@ Digital transformation will be a powerful lever in the response of companies to 
 
 ## What Drives Digital Transformation
 
-![what-drives-digital-transformation](what-drives-digital-transformation.png)
+![what-drives-digital-transformation](what-drives-digital-transformation.webp)
 
 As we speak of digital transformation or digital conversion, we are often focused on technology. With technology evolving so rapidly, it is tempting to believe it's the main force that has been driving digital transformation all along the way.
 
@@ -241,7 +241,7 @@ Perform a digital maturity assessment to find how much you have fared in leverag
 
 ## Digital Transformation Trends to Watch Out in 2021
 
-![digital-transformation-trends-to-watch-out-in-2021](digital-transformation-trends-to-watch-out-in-2021.png)
+![digital-transformation-trends-to-watch-out-in-2021](digital-transformation-trends-to-watch-out-in-2021.webp)
 
 
 2020 witnessed a massive undertaking of digital transformation across industries. Simultaneously, digital transformation fatigue became a regular appearance. 
@@ -314,7 +314,7 @@ Despite the attacks, 2021 may witness an accelerated workload migration to the c
 ## The Role of Culture in Digital Transformation 
 
 
-![the-role-of-culture-in-digital-transformation](the-role-of-culture-in-digital-transformation.png)
+![the-role-of-culture-in-digital-transformation](the-role-of-culture-in-digital-transformation.webp)
 
 
 Culture in digital transformation has no mysterious or unseen presence. Digital is about embedding culture into business operations to succeed, and not just update technology, redesign products, and improve client relationships. 
@@ -380,4 +380,4 @@ Right now, businesses are rapidly including the creative use of data, be it via 
 Only the adapters will survive!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-digital-transformation)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-digital-transformation)

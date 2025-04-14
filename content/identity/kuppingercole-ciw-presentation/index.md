@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius presents at KuppingerCole Consumer Identity World"
 date: "2019-10-04"
-coverImage: "kuppingercole-ciw-presentation.jpg"
+coverImage: "kuppingercole-ciw-presentation.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Rakesh Soni"
@@ -77,7 +77,7 @@ Make it clear that they both have the same goal:
 
 Both teams want to provide a frictionless online experience for customers. 
 
-[![kuppingercole](kuppingercole.png)](https://www.loginradius.com/resource/kuppingercole-2019-consumer-authentication-report)
+[![kuppingercole](kuppingercole.webp)](https://www.loginradius.com/resource/kuppingercole-2019-consumer-authentication-report)
 
 Next, highlight each team’s strengths and how the other team contributes to the overall goal. Management should ensure their teams feel empowered and excited to work with each other. 
 

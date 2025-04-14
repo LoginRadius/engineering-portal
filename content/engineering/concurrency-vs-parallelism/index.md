@@ -1,7 +1,7 @@
 ---
 title: "Concurrency vs Parallelism: What's the Difference?"
 date: "2021-02-19"
-coverImage: "unsplash.jpg"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["Concurrency", "Parallelism", "Multithreading", "JavaScript"]
 description: "Concurrence and parallelism in relation to multithreaded applications are two concepts sometimes used. The distinction between concurrency and parallelism is clarified in this tutorial."
@@ -13,7 +13,7 @@ Whenever we talk about asynchronous programming in JavaScript, there is sometime
 
 Concurrency describes independent parts of a program to run in an arbitrary order without affecting the outcome. A concurrent application can execute multiple tasks over an overlapping period. This means that while we can start new tasks before the previous one is complete, we cannot perform work on each task simultaneously.
 
-![concurrent-diagram](concurrent-diagram.png)
+![concurrent-diagram](concurrent-diagram.webp)
 
 You can think of a concurrent execution model as a single chef preparing a meal. Any chef worth their salt can work on multiple dishes (or various parts of a dish) at once. They might chop the vegetables for their stir-fry while the rice is steamed in the rice cooker or leave the vegetables to fry in the pan while cleaning up their workspace. In this scenario, the chef can perform multiple tasks at once; however, at any given time, he is only able to work on a particular unit of work at a given time. 
 
@@ -25,7 +25,7 @@ Similarly, the [JavaScript Event Loop](https://www.loginradius.com/blog/engineer
 
 Parallelism describes the ability for independent parts of a program to be physically executed at the same time. A parallel application can distribute its tasks to independent processors (such as different cores or threads of a CPU) to be executed simultaneously. 
 
-![parallel-diagram](parallel-diagram.png)
+![parallel-diagram](parallel-diagram.webp)
 
 You can think of a parallel execution model as multiple chefs individually each preparing a meal. These individual chefs may be preparing their dishes in a concurrent manner (like the above) or a sequential one; either way, the result is that rather than producing a single meal, the kitchen has prepared multiple meals over a unit of time.
 

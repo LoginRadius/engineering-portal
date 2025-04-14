@@ -1,7 +1,7 @@
 ---
 title: "How to Verify Email Addresses in Google Sheet"
 date: "2021-02-22"
-coverImage: "eva.png"
+coverImage: "eva.webp"
 author: "Narendra Pareek"
 tags: ["EVA", "Google Script", "Email Validation"]
 description: "Directly checking email addresses for authenticity in the Google spreadsheet using EVA has never been easier. In this article, you will learn how to validate email addresses using EVA services in Google Sheets."

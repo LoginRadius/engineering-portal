@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Customer Retention with Magic Links: A User-Friendly Approach to Authentication"
 date: "2024-03-28"
-coverImage: "customer-retention.jpg"
+coverImage: "customer-retention.webp"
 tags: ["user authentication","customer retention","cx"]
 author: "Cooper Matheson"
 description: "Discover the magic of Magic Links, a frictionless authentication method that simplifies login. Easily enhance security and boost customer retention. Say goodbye to password woes and 2FA complexity. Learn how to implement Magic Links for a seamless user experience."
@@ -74,7 +74,7 @@ Inform your users about this new feature and highlight its benefits. Clear commu
 
 As with any new feature, monitoring its performance is essential. Gather user feedback and analyze metrics such as login success rates and user satisfaction. Use this data to make improvements and further optimize the Magic Links experience.
 
-[![DS-passwordless-login-magic-link-otp](DS-passwordless-login-magic-link-otp.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-login-magic-link-otp](DS-passwordless-login-magic-link-otp.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ## How LoginRadius's Passwordless Magic Link Thrives Business Success?
 
@@ -104,4 +104,4 @@ User authentication for customer retention is not just a technical necessity; it
 
 By adopting innovative approaches like Magic Links, businesses can transform a potentially tedious process into a delightful user experience. Remember, the magic lies in simplicity, security, and the profound impact it can have on customer loyalty.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-retention-magic-links)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-retention-magic-links)

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImage from "../../content/assets/contribute_lr.jpg"
+import HeroImage from "../../content/assets/contribute_lr.webp"
 import SEO from "../components/seo"
 import styles from "../components/cardlist.module.scss"
 import "./guest-blog.scss"

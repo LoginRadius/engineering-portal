@@ -1,7 +1,7 @@
 ---
 title: "Understanding event loop in JavaScript"
 date: "2020-09-19"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Aman Agrawal"
 tags: ["JavaScript", "event-loop", "call stack", "event queue", "multi-threaded"]
 description: "Learn the basic concepts about the JavaScript Event Loop."
@@ -57,7 +57,7 @@ The above snippet is an example of defining a `cube`  function, which is calling
  5. Since at this step, we have got the `square` function result, so `cube` function would be executed and popped out of the call stack. 
  6. At last, the `console.log()` would be executed and this function would be popped out of the stack and the stack would now be empty.
 
-![Call Stack Execution](call_stack.png)
+![Call Stack Execution](call_stack.webp)
 
 
 Now since we have understood that call stacks are possible to execute the function in a step by step manner, there seems to be no possibility of keeping something into parallel. But there is something called **"WEB APIs"** in the browser environment, which is some additional capabilities provided by browsers in addition to JavaScript Engine.
@@ -96,7 +96,7 @@ Now when a setTimeout operation is processed in the call stack. On its execution
 Here need to mention that, just placing our function does not necessarily imply that the function will get executed. This function has to be pushed into the call stack for execution and here the event loop comes into the picture. The event loop waits for the function stack to be empty, once the call stack is empty this will push the first function from the event queue to the call stack, and in this way, the desired function will be called.
 
 
-![Event Loop](event_loop_illustration.png)
+![Event Loop](event_loop_illustration.webp)
 
 Thus event loop works in a cyclic manner, where it continually checks whether or not the call stack is empty. If it is empty, new functions are added from the event queue. If it is not, then the current function call is processed.
 

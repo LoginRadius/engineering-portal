@@ -1,7 +1,7 @@
 ---
 title: "How to Implement JWT Authentication for CRUD APIs in Deno"
 date: "2022-07-28"
-coverImage: "jwt-authentication-with-deno.png"
+coverImage: "jwt-authentication-with-deno.webp"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["JWT", "Deno", "Authentication"]
 description: "In this hands-on tutorial, you'll learn from scratch how to implement JWT authentication for CRUD APIs in Deno."
@@ -573,21 +573,21 @@ Below is what your final project directory looks like:
 
 Now that your application is ready, you need to test the various routes to ensure they are working. To test the routes, rerun your server with `deno run --allow-net app.ts`.
 
-![deno run screenshot](./apk23wt.png)
+![deno run screenshot](./apk23wt.webp)
 
 Great! The app is running on port:8080. You can now head to the postman to test your routes.
 
 ### Signup Route
 
-![Sign up](./d2orbz0.png)
+![Sign up](./d2orbz0.webp)
 
-![](./trydtxn.png)
+![](./trydtxn.webp)
 
 ### Sign-in Route
 
-![Signin Route URL](./fee5d0s.png)
+![Signin Route URL](./fee5d0s.webp)
 
-![Signin Route](./wncqtya.png)
+![Signin Route](./wncqtya.webp)
 
 Amazing! Now that you have signed up and authenticated a user, the returned token, which shows that the user has been authenticated, can be used to access your todo CRUD APIs.
 
@@ -597,9 +597,9 @@ First, let's try accessing your todo routes without the token...
 
 #### Create Task Route
 
-![Create Task Route URL](./0bohcxv.png)  
+![Create Task Route URL](./0bohcxv.webp)  
 
-![Create Task Route Access Denied](./q6eetmg.png)
+![Create Task Route Access Denied](./q6eetmg.webp)
 
 As you can see, when you tried to create a task, you got a message `You are not authorized to access this route` because a random person did it without a token.
 
@@ -607,32 +607,32 @@ Now, let's also try accessing the delete by Id route without the token...
 
 #### Delete Task Route
 
-![Delete Task Route URL](./ngozekb.png)
+![Delete Task Route URL](./ngozekb.webp)
 
-![Delete Task Route Access Denied](./cdkr6ad.png)
+![Delete Task Route Access Denied](./cdkr6ad.webp)
 
 Your todo CRUD APIs have been protected, and the only way a user can access them is by getting authenticated. Now let's log in again and use the returned token to access the todo routes.
 
-![Tasks](./ehp4zwf.png)
+![Tasks](./ehp4zwf.webp)
 
 So, you have logged a user in and put the returned Bearer's token in the authorization header. You can access our todo APIs now because, with the bearer's token, you are authorized to access the todo APIs.
 
 #### Create Task Route
 
-![Create Task Route URL](./y9ilrk9.png)
+![Create Task Route URL](./y9ilrk9.webp)
 
-![Create Task Route Access Granted](./nbiaskx.png)
+![Create Task Route Access Granted](./nbiaskx.webp)
 
 #### Get All Tasks Route
-![Get All Tasks Route](./zosrr9u.png)
+![Get All Tasks Route](./zosrr9u.webp)
 
-![Get All Tasks Route Access Granted](./zxkgmsm.png)
+![Get All Tasks Route Access Granted](./zxkgmsm.webp)
 
 #### Get Task By Id Route
 
-![Get Task By Id Route](./hph0xmy.png)
+![Get Task By Id Route](./hph0xmy.webp)
 
-![Get Task By Id Route Access Granted](./get-task-by-id.png)
+![Get Task By Id Route Access Granted](./get-task-by-id.webp)
 
 Feel free to test the other routes to see how things work.
 

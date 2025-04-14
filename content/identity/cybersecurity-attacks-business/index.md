@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Awareness Month: Predicting the Deadliest Cyber Attacks in 2022"
 date: "2021-10-05"
-coverImage: "cybersecurity-attacks.jpg"
+coverImage: "cybersecurity-attacks.webp"
 tags: ["data security","cybersecurity","compliance","cx"]
 author: "Rakesh Soni"
 description: "Cybersecurity incidents take place by various means every day. From virtual banking breaches to semi-open attacks, 2021 has been rough on IT security. But, how did we get to this point of compromise and uncertainty?"
@@ -189,7 +189,7 @@ Cybercriminals may use it to distribute malware that could lead to malicious att
 *   Always download applications from official websites and app developers.
 *   Avoid clicking ads when possible, even in legitimate software. 
 
-![](2-4.jpg)
+![](2-4.webp)
 
 ## A Cyberattack’s Impact on Business 
 
@@ -230,7 +230,7 @@ Here’s what you can do if your customer data is ever compromised:
 
 This, of course, is all about the aftermath of a breach. 
 
-[![WP-credential-attack](WP-credential-attack.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![WP-credential-attack](WP-credential-attack.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 So, how can organizations prevent cybersecurity attacks from happening in the first place? 
 
@@ -251,7 +251,7 @@ No matter what state your security program is in now, these steps will help you 
 
 ## How Can LoginRadius Protect Enterprises From Cyberattacks
 
-![](security_compliance_cred_loginradius.png)
+![](security_compliance_cred_loginradius.webp)
 
 When it comes to bringing your business online, there are a lot of factors to consider. For instance, securing records and managing customer profiles require a lot of attention. That’s why having a strong [consumer identity and access management (CIAM) solution](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) in place is half the battle won. 
 
@@ -263,4 +263,4 @@ All of these features work together to help you mitigate cybersecurity attacks o
 
 While it seems like a scary world out there, you can protect your [enterprise from cyberattacks](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/) with the right tools. A CIAM software provides these tools via centralized monitoring and advanced security features, so you can get back to growing your business. Let’s [join hands](https://www.loginradius.com/contact-sales) for a better 2022!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-attacks-business)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-attacks-business)

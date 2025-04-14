@@ -1,7 +1,7 @@
 ---
 title: "Protecting Organization From Cyber-Threats: Business at Risk During COVID-19"
 date: "2020-05-18"
-coverImage: "cyber-threats.jpg"
+coverImage: "cyber-threats.webp"
 tags: ["cybersecurity","data security","ciam solution"]
 author: "Rakesh Soni"
 description: "Cyber risks have always been a big deal for corporations. With the self-quarantined world population at home and the stock market succumbing to the ill-fated Covid-19."
@@ -65,7 +65,7 @@ The [retail industry](https://www.loginradius.com/blog/2020/05/customer-experien
 
 No doubt, attackers have become more opportunist and automated with time. In response to the increasing impersonation attack campaigns and cyber threat for businesses, organizations need to review their cybersecurity strategies and add multiple layers of security as their first line of defense. 
 
-[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 ### **Gaming Industry**
 
@@ -87,7 +87,7 @@ The breach exposed details of 22 million users and listed 21,909,707 records for
 
 ## Best Practices for Companies to Deal With Cyber Threats During COVID-19
 
-![](Best-Practices-for-Companies-to-Deal-With-Cyber-Threats.jpg)
+![](Best-Practices-for-Companies-to-Deal-With-Cyber-Threats.webp)
 
 As companies across the globe are adapting to new working environments to remain socially distant, it seems like cybercriminals are competing within themselves to come up with innovative ways to devise new cyber threat for businesses and exploit new vulnerabilities. 
 
@@ -130,7 +130,7 @@ Because employees are working in their network environments, it has become imper
 
 ## How LoginRadius Mitigates the Risk for Organizations
 
-![Industries at Risk During COVID-19](Industries-at-Risk-During-COVID-19.jpg)
+![Industries at Risk During COVID-19](Industries-at-Risk-During-COVID-19.webp)
 
 The coronavirus outbreak has pushed more people to go digital. A [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) (CIAM) solution like the cloud-based LoginRadius can help businesses deal with scalability and offer a secure environment to sustain the newfound digital identities. 
 
@@ -146,4 +146,4 @@ Few of the advantages for business and its customers include:
 
 The digital space is all about identity, where cyber threat for businesses is at an all-time high. With the world on a standstill due to the pandemic, the idea of secure data governance and scalable identity management in the volatile environment should make the cut.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyber-threats-business-risk-covid-19)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyber-threats-business-risk-covid-19)

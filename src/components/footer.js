@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from "./footer.module.scss"
 
-import LogoLr from "../../static/logo.svg"
+import LogoLr from "../../static/logo.webp"
 import Modal from "./modal"
 const Footer = ({ menuLinks, socialLinks, postPage }) => {
   return (
@@ -302,7 +302,7 @@ const Footer = ({ menuLinks, socialLinks, postPage }) => {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require(`../../static/${link.name}.svg`)}
+                          src={require(`../../static/${link.name}.webp`)}
                           width="38px"
                           height="38px"
                           alt={link.name}

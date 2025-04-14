@@ -1,7 +1,7 @@
 ---
 title: "Mapegy, a LoginRadius Customer Success Story"
 date: "2017-06-15"
-coverImage: "Mapegy_LR.jpg"
+coverImage: "Mapegy_LR.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig" 
@@ -40,4 +40,4 @@ Throughout their implementation process, our support team has always been readil
 
 Mapegy - LoginRadius Customer Success Story
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mapegy-loginradius-customer-success-story)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mapegy-loginradius-customer-success-story)

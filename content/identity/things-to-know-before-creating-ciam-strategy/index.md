@@ -1,7 +1,7 @@
 ---
 title: "7 Things Your Security Team Need To Know Before Creating A CIAM Strategy"
 date: "2023-07-13"
-coverImage: "ciam-strategy.jpg"
+coverImage: "ciam-strategy.webp"
 tags: ["ciam solutions","compliance","mfa","cx"]
 author: "Alok Patidar"
 description: "The challenges of developing a CIAM strategy can be daunting. We have put together a comprehensive guide on how to create an effective CIAM strategy that will keep your customers happy and your business secure."
@@ -40,7 +40,7 @@ The first step is to conduct a comprehensive evaluation of your organization's e
 
 Defining your organization's goals and objectives is fundamental to developing an effective CIAM strategy. Determine the specific outcomes you wish to achieve, such as enhancing user authentication, securing personal data, or streamlining access management processes. These defined goals will serve as guiding principles throughout the strategy development process.
 
-[![EB-checklist-ciam-in-cloud](EB-checklist-ciam-in-cloud.png)](https://www.loginradius.com/resource/an-identity-checklist-to-strategize-ciam-in-the-cloud/)
+[![EB-checklist-ciam-in-cloud](EB-checklist-ciam-in-cloud.webp)](https://www.loginradius.com/resource/an-identity-checklist-to-strategize-ciam-in-the-cloud/)
 
 ### 3. Understand user profiles and behavior
 
@@ -80,4 +80,4 @@ With LoginRadius CIAM, organizations can confidently navigate the complexities o
 
 Creatig a CIAM strategy requires careful planning and execution. Following these seven essential actions, your security team can lay a strong foundation for a robust CIAM strategy that prioritizes data security, user experience, and regulatory compliance. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-to-know-before-creating-ciam-strategy)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-to-know-before-creating-ciam-strategy)

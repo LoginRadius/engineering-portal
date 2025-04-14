@@ -1,7 +1,7 @@
 ---
 title: "Social Provider Social Sharing Troubleshooting Resources"
 date: "2015-02-09"
-coverImage: "social.png"
+coverImage: "social.webp"
 author: "Karl Wittig"
 tags: ["Engineering","SocialSharing","Facebook","Google","LinkedIn"]
 ---
@@ -12,7 +12,7 @@ Social Sharing is an extremely powerful tool to expand your user base and produc
 
 Setting up custom sharing with Facebook uses Facebook Open Graph meta tags, which are cached on Facebooks end and can lead to some confusion when making updates to your customizations. In order to identify the cached details that are being used for your implementation Facebook provides the [Open Graph Debugger tool](https://developers.facebook.com/tools/debug/). All you need to do is input your sites URL and click on Debug.
 
-![karlblog1-1_001](karlblog1-1_001.png)
+![karlblog1-1_001](karlblog1-1_001.webp)
 
 This will then crawl your page and display some useful information on the currently scraped details and warnings and error messages. It also give you the option at this point to refresh this scrapped data with any changes that you have made to our existing cached details.
 
@@ -27,7 +27,7 @@ Google uses a combination of a few different methods in order to define the cust
 
 The [structured data testing tool](http://www.google.com/webmasters/tools/richsnippets) allows you to view what Google has interpreted from your webpage. Start by entering the URL of the page that you are sharing and click on preview.
 
-![karlblog1-2](karlblog1-2.png)
+![karlblog1-2](karlblog1-2.webp)
 
 You will be able to view the scrapped data as well as a listing of the meta tags that have been included on the page.
 
@@ -39,7 +39,7 @@ You can view the details that will be shared by generating out the sharing butto
 
 Insert the URL in the "URL to be shared field" and click on Get Code. This will generate a sample share icon in the preview section.
 
-![karlblog1-3](karlblog1-3.png)
+![karlblog1-3](karlblog1-3.webp)
 
 To test the share functionality click on the generated icon to display the share interface as determined by the provided URL.
 
@@ -49,7 +49,7 @@ Twitter also uses multiple systems to determine the content that will be tweeted
 
 To test the tweet you can use Twitters [button generator](https://about.twitter.com/resources/buttons). Select the "Share a link" option under "Choose a button".
 
-![karlblog1-4](karlblog1-4.png)
+![karlblog1-4](karlblog1-4.webp)
 
 Input your site URL in the "share URL" field, This will cause the Tweet button under "Preview and code" to be updated.
 

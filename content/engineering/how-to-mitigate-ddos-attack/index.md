@@ -1,7 +1,7 @@
 ---
 title: "What is a DDoS Attack and How to Mitigate it"
 date: "2021-02-24"
-coverImage: "What-is-a-DDoS-attack.png"
+coverImage: "What-is-a-DDoS-attack.webp"
 author: "Vijay Singh Shekhawat"
 description: Learn what a DDoS attack is, including the various classifications of attacks, and how to defend your site from one.
 tags: ["DDoS", "DDos mitigate","DDoS Prevention"]
@@ -11,7 +11,7 @@ Did you know that in only a few minutes, a DDoS attack can bring your website do
 
 ## What is DDoS Attack?
 
-![What is a DDoS attack?](What-is-a-DDoS-attack.png)
+![What is a DDoS attack?](What-is-a-DDoS-attack.webp)
 
 A Distributed Denial of Service (DDoS) is a targeted [cyber attack on a website](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-attacks-business/) or device where a malicious attacker's flood of traffic is sent from single or multiple sources. The primary purpose of DDoS is to make a machine or network resource unavailable to its genuine users by temporarily or disrupting the services of a host connected to the Internet. If we do not use appropriate security practices or tools, it makes your application into a non-functional situation.
 
@@ -49,7 +49,7 @@ Here is the list of [sites or services](https://en.wikipedia.org/wiki/2016_Dyn_c
 
 ## Best Practices for Preventing DDoS attacks
 
-![How to mitigate DDoS attack?](How-to-mitigate-DDoS-attack.png)
+![How to mitigate DDoS attack?](How-to-mitigate-DDoS-attack.webp)
 
 ### 1. Traffic Monitoring 
 Application traffic monitoring is essential. We can identify most of the attacks using the proper monitoring. Commonly DDoS attacks are made with high volume traffic but DDoS attacks could be possible with a single vulnerable HTTP endpoint. 

@@ -1,7 +1,7 @@
 ---
 title: "The Power Of Consent Marketing- A Deep Dive Into Its Endless Advantages"
 date: "2024-04-16"
-coverImage: "power-consent-mngmnt.jpg"
+coverImage: "power-consent-mngmnt.webp"
 tags: ["consent management","data security","compliance"]
 author: "Navanita Devi"
 description: "Discover the pivotal role of consent marketing in today's digital landscape. Explore how it goes beyond legal compliance to build trust, enhance targeting, ensure legal compliance, and foster long-term customer relationships."
@@ -38,7 +38,7 @@ Consent marketing allows for more targeted campaigns, ensuring that messages are
 
 This targeted approach improves engagement rates and enhances the overall [user experience](https://www.loginradius.com/blog/growth/4-tips-secure-frictionless-ux/). Users receive content that is meaningful to them, leading to higher conversion rates and customer satisfaction.
 
-[![DS-consent-mngmnt](DS-consent-mngmnt.png)](https://www.loginradius.com/resource/loginradius-consent-management) 
+[![DS-consent-mngmnt](DS-consent-mngmnt.webp)](https://www.loginradius.com/resource/loginradius-consent-management) 
 
 ### Legal Compliance
 
@@ -80,4 +80,4 @@ Consent marketing is not just a legal requirement; it's a strategic approach tha
 
 By respecting user preferences, businesses can create a more trustworthy and engaging brand image while fostering long-lasting customer relationships. With solutions like LoginRadius' consent management, businesses can navigate the complexities of consent marketing with ease, ensuring compliance and building customer trust every step of the way.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-business-advantages)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-business-advantages)

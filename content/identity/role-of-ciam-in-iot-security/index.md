@@ -1,7 +1,7 @@
 ---
 title: "The Role of Customer Identity Management in IoT Security: How It's a Must!"
 date: "2022-10-27"
-coverImage: "iot-ciam.jpg"
+coverImage: "iot-ciam.webp"
 tags: ["ciam", "iot security", "compliance"]
 author: "Rakesh Soni"
 description: "Just like agility is the way to move quickly and easily; digital agility is now the means to adopt digital transformation quickly through the right tools and processes. This blog explains the aspects of digital agility and how businesses can ensure they’re on the right path to achieving it through the right customer authentication tools and technologies."
@@ -37,7 +37,7 @@ There are huge security risks well documented in the cyber world that affect var
 
 And what’s worrisome is the fact that the [machine-to-machine communication](https://www.loginradius.com/blog/identity/rise-of-machine-identity-m2m-authorization-role/) and authentication in the IoT landscape isn’t secure and can be easily compromised by cybercriminals. Hence, a more robust authentication is required, and brands can’t rely on conventional methods.
 
-[![ciam-paradox-wp](ciam-paradox-wp.png)](https://www.loginradius.com/resource/ciam-in-iot-security-whitepaper)
+[![ciam-paradox-wp](ciam-paradox-wp.webp)](https://www.loginradius.com/resource/ciam-in-iot-security-whitepaper)
 
 Here’s where the critical role of a reliable CIAM comes into play. Let’s understand how CIAM paves the way for a secure IoT environment. 
 
@@ -73,4 +73,4 @@ Businesses need to understand that IoT environments are always on the radar of c
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-ciam-in-iot-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-ciam-in-iot-security)

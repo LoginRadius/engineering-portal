@@ -1,7 +1,7 @@
 ---
 title: "SSO vs. Social Login: What’s the Difference? [Infographic]"
 date: "2022-05-31"
-coverImage: "sso-social-login.jpg"
+coverImage: "sso-social-login.webp"
 tags: ["sso","social login","cx"]
 author: "Rakesh Soni"
 description: "The era of unified login has offered numerous ways through which users can authenticate themselves securely and seamlessly. Let’s understand the fundamental differences between SSO and Social Login that helps you choose the right authentication solution for your business requirements."
@@ -45,7 +45,7 @@ While both authentication mechanisms are widely used for securely and seamlessly
 
 To learn more about the Social Login vs. SSO - concept, differences, and techniques, check out the infographic created by LoginRadius.
 
-![social-login-sso](social-login-sso.png)
+![social-login-sso](social-login-sso.webp)
 
 ## Implementing Social Login and SSO with LoginRadius CIAM
 
@@ -55,4 +55,4 @@ With [LoginRadius’ social login](https://www.loginradius.com/social-login/) an
 
 If you wish to witness the future of CIAM and how it works for your business, schedule a free personalized demo today! 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-sso-social-login)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-sso-social-login)

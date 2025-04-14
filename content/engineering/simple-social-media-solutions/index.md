@@ -1,7 +1,7 @@
 ---
 title: "Social Media Solutions"
 date: "2015-10-08"
-coverImage: "social-media.png"
+coverImage: "social-media.webp"
 author: Karl Wittig
 tags: ["Social Media", "Social Login"]
 ---

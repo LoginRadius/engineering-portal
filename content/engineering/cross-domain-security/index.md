@@ -1,7 +1,7 @@
 ---
 title: "Cross Domain Security"
 date: "2020-08-16"
-coverImage: "cross_domain_security.png"
+coverImage: "cross_domain_security.webp"
 author: "Abhimanyu Singh Rathore"
 tags: ["Security", "Web Security", "Cross-Domain"]
 description: "Cross domain security address security threat by enabling the information sharing in more reliable and secure environments. Cross domain security is an inclusive approach to defending against all kind of threats to data connections at the boundaries of sensitive or classified networks."

@@ -1,7 +1,7 @@
 ---
 title: "Small Steps, Big Shields: Navigating Cybersecurity Awareness Month 2023 Safely"
 date: "2023-10-03"
-coverImage: "cybersecurity-awareness-2023.jpg"
+coverImage: "cybersecurity-awareness-2023.webp"
 tags: ["cybersecurity","passwordless authentication","multi-factor authentication"]
 author: "Alok Patidar"
 description: "Cybersecurity Awareness Month 2023 is a crucial reminder in the digital age where every click matters. Join us at LoginRadius as we spread the word about the importance of user endpoint security, employee training, strong passwords, multi-factor authentication, and phishing prevention. Discover how these small steps can create impenetrable shields, safeguarding your organization amid evolving cyber threats. Stay safe, stay vigilant, and empower your team with knowledge during Cybersecurity Awareness Month 2023!"
@@ -37,7 +37,7 @@ Ensure every device accessing your network adheres to strict security policies, 
 
 Additionally, incorporating the true potential of the zero-trust mechanism can help reinforce overall authentication security.
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-security](WP-zero-trust-security.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ## 2. Train Your Employees: Knowledge is Power
 
@@ -73,4 +73,4 @@ Remember, in cybersecurity, every small step you take today can fortify your org
 
 Stay tuned for more insights and tips on bolstering your organization's cybersecurity defenses amid Cybersecurity Awareness Month 2023!
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-awareness-month-2023)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-awareness-month-2023)

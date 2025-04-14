@@ -1,7 +1,7 @@
 ---
 title: "How to send emails in C#/.NET using SMTP"
 date: "2020-11-19"
-coverImage: "coverimage.jpg"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 description: " In this article, we will learn how to send emails in .NET/C# using SMTP"
 tags: [".NET","C#","SMTP"]

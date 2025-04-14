@@ -1,7 +1,7 @@
 ---
 title: "Customer Success: The Importance of Customer Onboarding"
 date: "2021-02-26"
-coverImage: "customer-onboarding-importance.jpg"
+coverImage: "customer-onboarding-importance.webp"
 tags: ["customer onboarding","authentication","cx"]
 author: "Karl Wittig"
 description: "Customer onboarding is one of the more delicate components of marketing. This process can make or break a business. In addition to increasing the revenue, it also allows businesses to create relationships with their customers."
@@ -104,4 +104,4 @@ In addition to receiving free marketing, one will also understand their customer
 
 Customer onboarding is one of the more delicate components of marketing. This process can make or break a business. In addition to increasing the revenue, it also allows businesses to create relationships with their customers through surveys or even phone calls. The most significant benefits of customer onboarding are that an individual can have an unprecedented amount of faith in the company and product.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=importance-customer-onboarding)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=importance-customer-onboarding)

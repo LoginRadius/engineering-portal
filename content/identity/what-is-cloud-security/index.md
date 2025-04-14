@@ -1,7 +1,7 @@
 ---
 title: "What is Cloud Security and How it Works?"
 date: "2022-06-09"
-coverImage: "cloud-security.jpg"
+coverImage: "cloud-security.webp"
 tags: ["cloud security","cloud identity management","data security"]
 author: "Navanita Devi"
 description: "Cloud security is a growing concern for businesses that rely on cloud-based services. The use of these services has become widespread over the past decade or so, but many companies still don't fully understand how to protect themselves from cyber threats. Read this blog to know what exactly is cloud security and how it works."
@@ -61,7 +61,7 @@ The accessibility capabilities granted to user accounts are managed by [customer
 
 The emphasis of governance is on threat prevention, detection, and mitigation strategies. Threat intelligence may assist SMBs and organizations in identifying and prioritizing threats in order to keep critical systems safe. These are particularly applicable in corporate settings, although standards for safe usage and threat response can be beneficial to any user.
 
-[![WP-identity-management](WP-identity-management.png)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
+[![WP-identity-management](WP-identity-management.webp)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
 
 
 * **Data Retention (DR) And Business Continuity (BC)**
@@ -109,4 +109,4 @@ The cloud is critical to the capacity of many firms to do business. They utilize
 
 In summary, cloud security is more about people and processes than technology. The cloud infrastructure must be designed to support secure operations, but ultimately the responsibility for security lies with the individual end user.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-security)

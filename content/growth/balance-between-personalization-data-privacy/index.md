@@ -1,7 +1,7 @@
 ﻿---
 title: "Finding The Balance Between Personalization and Data Privacy"
 date: "2022-01-20"
-coverImage: "personalize-cover.jpg"
+coverImage: "personalize-cover.webp"
 category: ["all"]
 featured: false 
 author: "Rashmi Mathur"
@@ -56,4 +56,4 @@ Implementing personalization in an effective manner is challenging. Hence, you n
 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=balance-between-personalization-data-privacy)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=balance-between-personalization-data-privacy)

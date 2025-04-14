@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of Authentication: From Passwords to Passwordless & More"
 date: "2022-05-27"
-coverImage: "evolution-auth.jpg"
+coverImage: "evolution-auth.webp"
 tags: ["passwordless authentication","new age authentication","cx"]
 author: "Navanita Devi"
 description: "Over the past years, the evolution of authentication portrays the risks associated with unauthorized access and the growing number of cybersecurity threats that leads to compromised user information and sensitive business data. Here’s an insightful read depicting authentication aspects and how it has evolved over a decade."
@@ -48,7 +48,7 @@ It simplifies the sign-in and registration experiences, providing a convenient a
 
 For consumers, social login is a single-click login method for accessing the website and mobile application—one in which there is no need for excess credentials and allows consumers to skip traditional registration methods.
 
-[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-rec](WP-social-login-rec.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### #2. Passwordless Authentication
 
@@ -86,4 +86,4 @@ And the crux of the matter is that businesses relying on old-school authenticati
 
 Businesses leveraging cutting-edge authentication technologies always stand ahead of their competitors since their customers enjoy a seamless user experience reinforced by robust security. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-evolution-to-passwordless)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-evolution-to-passwordless)

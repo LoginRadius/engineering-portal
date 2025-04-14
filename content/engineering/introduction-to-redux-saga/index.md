@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Redux Saga"
 date: "2020-11-23"
-coverImage: "unsplash.png"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["React", "Redux", "Redux Saga"]
 description: "A high level introduction to Redux Saga."

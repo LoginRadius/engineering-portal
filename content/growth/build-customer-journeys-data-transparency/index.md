@@ -1,7 +1,7 @@
 ﻿---
 title: "Why is Data Transparency Critical To Building Connected Consumer Journeys?"
 date: "2022-08-18"
-coverImage: "customer-journey.jpg"
+coverImage: "customer-journey.webp"
 tags: ["progressive profiling", "cx", "data transparency"]
 author: "Lucy Manole"
 description: "Data is your most valuable resource when it comes to enhancing customer transparency. But how exactly can your company sort and apply all the data you collect from different customer touchpoints? This blog shares some actionable ideas."
@@ -72,7 +72,7 @@ The last few years have seen a growth in the use of [progressive profiling](http
 
 This data can also help you come up with innovative ways to engage customers, such as immersive VR experiences that let them ‘try on’ a product or ‘walk through’ a showroom. Plus, the right data helps you be more transparent with your customers at the touchpoints where it’s needed the most.
 
-[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ### 3. Efficient decision-making
@@ -100,4 +100,4 @@ In short, data transparency can boost your brand reputation and customer loyalty
 
 Remember, honesty is always the best policy — tell your customers the truth, even if that truth is not always the most pleasant. They will respect your integrity and like you the most for it in the long run. Rely on data transparency to deliver a complete end-to-end experience from the customer’s perspective. All the best!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-customer-journeys-data-transparency)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-customer-journeys-data-transparency)

@@ -1,7 +1,7 @@
 ﻿---
 title: "How Consumer Identity Influence Brand Recognizability"
 date: "2021-08-31"
-coverImage: "brand-identity.jpg"
+coverImage: "brand-identity.webp"
 category: ["loginradius"]
 featured: false 
 author: "Conrad Sturdy"
@@ -17,7 +17,7 @@ Brand recognizability depends on various aspects, and consumer identity is one o
 
 Let’s explore more about how people's self-perception influences brand choice and the types of consumer identities for you to consider.
 
-![brand-recognizability](brand-recognizability.png)
+![brand-recognizability](brand-recognizability.webp)
 
 Image Source: <a rel="nofollow" href="https://liveinspiredmag.com/2020/10/01/5-tips-to-make-your-digital-brand-more-recognizable/">Live Inspired Mag</a>
 
@@ -41,7 +41,7 @@ The things we buy help us to better express who we are. Sounds fantastic, isn’
 
 Consumers try to express their internal feelings with external means such as brands. We can conclude that purchase is the form of self-expression, and brand is the symbol of our inner self.
 
-![brand-recognizability](brand-recognizability2.png)
+![brand-recognizability](brand-recognizability2.webp)
 
 
 Image Source: <a rel="nofollow" href="https://xo.ua/kuda-poehat-na-shopping-top-5-napravlen/">XO</a>
@@ -83,4 +83,4 @@ Emotions mean a lot to many of us, but the emotion-oriented type of consumers fi
 Now you understand the concept of [brand recognizability](https://www.loginradius.com/blog/growth/does-your-website-imagery-reflect-your-brand-identity/) and its bounds with customer identity. We explored four types of consumer identities you should pay attention to and defined their main preferences.
 
 Brand recognizability is based on the self-perceptions of potential consumers, and you should target their self-concepts properly. These findings can help you build stronger connections with consumers and increase your brand's success.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-consumer-identity-influence-brand-recognizability)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-consumer-identity-influence-brand-recognizability)

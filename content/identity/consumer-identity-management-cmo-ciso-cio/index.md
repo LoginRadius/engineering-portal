@@ -1,7 +1,7 @@
 ---
 title: "Consumer Identity Management for the CMO, CISO, and CIO"
 date: "2020-09-28"
-coverImage: "image1.jpg"
+coverImage: "image1.webp"
 tags: ["customer identity management","compliance","cx"]
 author: "Rakesh Soni"
 description: "A modern-day consumer identity management (CIAM) platform securely collects and manages consumer identity and profile data, along with securing access to apps, computers, and other resources in the network."
@@ -36,7 +36,7 @@ A few other features they look for include:
 
 ## Cyber Risk for CMOs CIOs and CISOs
 
-![Cyber risk for CMOs CIOs and CISOs](Cyber-risk-for-CMOs-CIOs-and-CISOs.png)
+![Cyber risk for CMOs CIOs and CISOs](Cyber-risk-for-CMOs-CIOs-and-CISOs.webp)
 
 In the past, cyber risks were often viewed as highly technical. Earlier leaders used to perceive security threats as an IT issue, but that's not the case today.
 
@@ -48,7 +48,7 @@ Therefore, cybersecurity is a critical problem for the boardroom, and every orga
 
 It takes equal effort from CIOs, CSOs, and CISOs to mitigate the architectural complexities that cybercriminals prey on. To get a headstart, the security team can develop holistic frameworks that can be later adopted and extended across the board.
 
-[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ## How Consumer Identity Management meets CIO, CMO, CISO Goals
 
@@ -88,7 +88,7 @@ For instance, with a seamless login experience, CIAM encourages consumers to try
 
 ## LoginRadius Identity Management for CIO, CISO, and CMO
 
-![LoginRadius Identity management for CIO, CISO and CMO](LoginRadius-Identity-management-for-CIO-CISO-and-CMO.png)
+![LoginRadius Identity management for CIO, CISO and CMO](LoginRadius-Identity-management-for-CIO-CISO-and-CMO.webp)
 
 LoginRadius is a comprehensive, streamlined consumer identity management solution that helps stakeholders of large enterprises to drive automation, authentication, effective compliance, among other requirements.
 
@@ -118,4 +118,4 @@ The consumer identity management platform lets CIOs, CISOs, and CMOs to manage i
 
 Consumer behavior has never been static—nor have their expectations. A consumer identity management solution can be a strategic asset for CIOs, CISOs, and CMOs to use it to their advantage in their respective departments. Speaking of possibilities, they are _endless_ here.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-management-cmo-ciso-cio)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-management-cmo-ciso-cio)

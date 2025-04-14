@@ -1,7 +1,7 @@
 ---
 title: "Use PHP to generate filter portfolio"
 date: "2015-05-19"
-coverImage: "php-filter-portfolio.png"
+coverImage: "php-filter-portfolio.webp"
 author: Lucius Yu
 tags: ["PHP"]
 ---
@@ -16,7 +16,7 @@ The logic is like this, first we have a folder to contain all the portfolio imag
 
 "assets->img->logos->businesses"
 
-![folder-structure](folder-structure.png)
+![folder-structure](folder-structure.webp)
 
 And in the "businesses" folder, we have some sub-folders to put all the images in different categories, like this:  
 

@@ -1,7 +1,7 @@
 ---
 title: "Corporate Account Takeover Attacks: Detecting and Preventing it"
 date: "2020-04-16"
-coverImage: "corporate-accnt-takeover.jpg"
+coverImage: "corporate-accnt-takeover.webp"
 tags: ["data security","ciam solution","compliance"]
 author: "Kundan Singh"
 description: "How do you defend your company against a Corporate Account Takeover (CATO) fraud with the COVID-19 pandemic causing workers to stay indoors?"
@@ -77,7 +77,7 @@ The goal is to trick the recipient (over a phone call, email, or text messages) 
 
 PII is any data that can be used to identify an individual. For example, name, geographic location, SSN, IP address, passport number, etc.
 
-[![](Protecting-PII-Against-Data-Breaches-1024x310.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![](Protecting-PII-Against-Data-Breaches-1024x310.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 **Tips to detect a phishing attack**
 
@@ -222,4 +222,4 @@ Corporate account takeover can translate into millions of dollars in losses, dam
 
 Stay informed about evolving threats, understand the warning signs, and practice responses to suspected takeovers.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=corporate-account-takeover-attacks)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=corporate-account-takeover-attacks)

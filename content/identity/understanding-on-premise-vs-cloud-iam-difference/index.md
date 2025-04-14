@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Difference Between Identity Access Management On-Premise and Cloud"
 date: "2023-07-31"
-coverImage: "on-premise-vs-cloud-iam.jpg"
+coverImage: "on-premise-vs-cloud-iam.webp"
 tags: ["identity management", "cloud identity", "compliance", "cx"]
 author: "Rakesh Soni"
 description: "Dive into comparing on-premise and cloud IAM solutions, understanding their unique features and factors to consider. Make the right choice to strengthen your organization's security and access management."
@@ -56,7 +56,7 @@ Cloud-based IAM solutions offer unlimited scalability, allowing organizations to
 
 Cloud-based IAM solutions eliminate the need for upfront infrastructure investments, reducing hardware and maintenance costs. Organizations can pay for the resources and services they use, optimizing cost-efficiency.
 
-[![WP-cloud](WP-cloud.png)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
+[![WP-cloud](WP-cloud.webp)](https://www.loginradius.com/resource/overcome-the-nightmare-of-on-prem-deployment-move-to-cloud/)
 
 #### Rapid Deployment
 
@@ -85,4 +85,4 @@ Identity Access Management is critical to an organization's overall security str
 
 Understanding the differences and evaluating factors such as control, scalability, cost, compliance, and legacy systems will help you make an informed decision to protect your valuable data and resources effectively.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-on-premise-vs-cloud-iam-difference)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-on-premise-vs-cloud-iam-difference)

@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Github APIs"
 date: "2020-11-02"
-coverImage: "GitHub_coverImage.png"
+coverImage: "GitHub_coverImage.webp"
 author: "Kapil Bansal"
 tags: ["Github", "API"]
 description: "Github APIs are a way to interact with Github. Here, we will learn about some basic things we can do with Github APIs."
@@ -29,7 +29,7 @@ API endpoint: /users/{username}
 
 Example :- `curl https://api.github.com/users/devkapilbansal`
 
-![user_details](user_details.png)
+![user_details](user_details.webp)
 
 As you can see, API returns us a JSON response with info about the user, like its image_url, name, mail_address.
 
@@ -39,7 +39,7 @@ API endpoint: /users/{username}/followers
 
 Example :- `curl https://api.github.com/devkapilbansal/followers`
 
-![followers](followers.png)
+![followers](followers.webp)
 
 This URL returns info about all the users that follow a particular user.
 
@@ -54,10 +54,10 @@ A status code of 204 means the `target_user` is followed by the user, whereas a 
 Example :- `curl https://api.github.com/devkapilbansal/following/KapilBansal`
 
 When a user follows another user
-![follow](user_follows.png)
+![follow](user_follows.webp)
 
 When a user doesn't follow another user
-![not_follow](user_not_follows.png)
+![not_follow](user_not_follows.webp)
 
 
 ### Performing tasks as an authenticated user
@@ -82,7 +82,7 @@ Required data: name
 
 Example :- `curl -H "Authorization: token ${token}" -d '{"name":"Github API Testing"}' https://api.github.com/user/repos`
 
-![create repo](create_repo.png)
+![create repo](create_repo.webp)
 
 #### List issues assigned to you
 
@@ -92,7 +92,7 @@ API endpoint: /issues
 Example :- `curl -H "Authorization: token ${token}" https://api.github.com/issues`
 
 
-![list issues](list_issues.png)
+![list issues](list_issues.webp)
 
 #### Creating an issue
 
@@ -102,7 +102,7 @@ Required data: title
 
 Example :- `curl -H "Authorization: token ${token}" -d '{"title":"Issue_For_Test"}' https://api.github.com/repos/devkapilbansal/Github-API-Testing/issues`
 
-![create_issue](create_issue.png)
+![create_issue](create_issue.webp)
 
 #### Commenting on issue
 
@@ -112,7 +112,7 @@ Required data: body
 
 Example :- `curl -H "Authorization: token ${token}" -d '{"body":"Test comment"}' https://api.github.com/repos/devkapilbansal/Github-API-Testing/issues/1/comments`
 
-![comment](comment_on_issue.png)
+![comment](comment_on_issue.webp)
 
 **Note** - The same endpoint is used for commenting on pull requests too. Just change the issue number with the pull request number.
 
@@ -126,7 +126,7 @@ Example :- `curl -H "Authorization: token ${token}" -d '{"state":"close"}' https
 
 #### Results
 The above results can be verified on the GitHub website too.
-![results](output.png)
+![results](output.webp)
 
 ## Conclusion
 There are a lot more endpoints that you can explore at [Github](https://developer.github.com/v3). Also, you can only do the work you are authorized to with that token.

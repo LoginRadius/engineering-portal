@@ -1,7 +1,7 @@
 ---
 title: "How to Authenticate Svelte Apps"
 date: "2022-03-10"
-coverImage: "authenticate-svelte-apps.png"
+coverImage: "authenticate-svelte-apps.webp"
 author: "Siddhant Varma"
 tags: ["Authentication", "Svelte", "LoginRadius"]
 description: "Are you building Svelte apps? In this tutorial, you'll learn to add secure user authentication in your Svelte apps using LoginRadius APIs."
@@ -90,7 +90,7 @@ You can refer to the complete `rollup.config.js` file for this project [here](ht
 
 Besides the initial set of files, your project will have the following directory structure:
 
-![Directory Structure Svelte App](./Directory-Structure-Svelte-App.PNG)
+![Directory Structure Svelte App](./Directory-Structure-Svelte-App.webp)
 
 So go ahead and create those files and folders accordingly. I'll talk about each of these as you start filling them with some code.
 
@@ -222,7 +222,7 @@ Let's render the Login component inside your `App.svelte` file:
 </main>
 ```
 
-![Login Page](./Login-Page.PNG)
+![Login Page](./Login-Page.webp)
 
 Awesome! Let's follow the same process to create your Signup form.
 
@@ -312,7 +312,7 @@ Your `signupFields` object has a specific format because it aligns with the stru
 
 Let's render the Signup component inside your `App.svelte` file:
 
-![Signup Page](./Signup-Page.PNG)
+![Signup Page](./Signup-Page.webp)
 
 ## The Home Component
 
@@ -354,19 +354,19 @@ The next step is to set up LoginRadius, so you can start using its Authenticatio
 
 Head over to [LoginRadius](https://accounts.loginradius.com/auth.aspx?plan=developer&action=register) and create a new account by filling in the following details:
 
-![Signup 2](./Signup-2.PNG)
+![Signup 2](./Signup-2.webp)
 
 You'll then see a form with the name of your App, a URL, and a Data Center:
 
-![Signup 3](./Signup-3.PNG)
+![Signup 3](./Signup-3.webp)
 
 Hit **Next** and LoginRadius will set up an authentication app for you. You can try the pre-built authentication page LoginRadius provides for your app by clicking on **Try Signing Up Now**.
 
-![Signup 4](./Signup-4.PNG)
+![Signup 4](./Signup-4.webp)
 
 Once you do that, you'll be shown a pre-built authentication page of your LoginRadius app:
 
-![LoginRadius Auth Page](./LoginRadius-Auth-Page.PNG)
+![LoginRadius Auth Page](./LoginRadius-Auth-Page.webp)
 
 However, for this tutorial, all you need are the LoginRadius APIs since you already have a frontend (your Svelte App) in place.
 
@@ -374,11 +374,11 @@ However, for this tutorial, all you need are the LoginRadius APIs since you alre
 
 Once you're inside your LoginRadius account, head over to the **Configurations** tab from your dashboard. Then expand the **API Credentials** tab of your application.
 
-![LoginRadius Configuration Tab](./LoginRadius-Configuration-Tab.PNG)
+![LoginRadius Configuration Tab](./LoginRadius-Configuration-Tab.webp)
 
 Inside that, you should see your APP Name, API Key, and API Secret.
 
-![LoginRadius API Credentials](./LoginRadius-API-Credentials.PNG)
+![LoginRadius API Credentials](./LoginRadius-API-Credentials.webp)
 
 ### Add API Credentials as Environment Variables
 
@@ -563,19 +563,19 @@ Lastly, render a conditional template based on the status of your Signup API.
 
 And that's it! Let's give your Signup functionality a whirl. Create a new account first:
 
-![Signup Success with API](./Signup-Success-with-API.PNG)
+![Signup Success with API](./Signup-Success-with-API.webp)
 
 And voila! You can see in the network tab that the API is successful. And you got back a bunch of data about the newly created user. You also have a success that appears underneath the Signup form.
 
 Let's also test an erroneous flow. What if you signup via the same credentials again?
 
-![Signup Failure Existing Email](./Signup-Failure-Existing-Email.PNG)
+![Signup Failure Existing Email](./Signup-Failure-Existing-Email.webp)
 
 The LoginRadius Signup API returns the error message, details, error code, etc., that you've handled accordingly.
 
 Also, if you use a simple password, the LoginRadius API returns an error based on a validation mechanism.
 
-![Signup Error Password Validation](./Signup-Error-Password-Validation.PNG)
+![Signup Error Password Validation](./Signup-Error-Password-Validation.webp)
 
 That's great because it makes your authentication workflow more air-tight.
 
@@ -684,11 +684,11 @@ If you relate it to the Signup component, it's almost identical. The only thing 
 
 Let's also test this out:
 
-![Login API Success](./Login-API-Success.PNG)
+![Login API Success](./Login-API-Success.webp)
 
 Let's also test an erroneous Login flow by entering the credentials for a user that doesn't exist:
 
-![Login Error](./Login-Error.PNG)
+![Login Error](./Login-Error.webp)
 
 Great! Let's now tie all these individual pages together by setting up routing in your Svelte app.
 
@@ -832,7 +832,7 @@ Now, all you need to do is use this `PrivateRoute` component to wrap your Home c
 
 And now you should be able to access the `/` route or the Home page only when you're authenticated:
 
-![Home Component](./Home-Component.PNG)
+![Home Component](./Home-Component.webp)
 
 ## Conclusion
 

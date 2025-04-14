@@ -1,7 +1,7 @@
 ---
 title: "Streamlining Access with Converged Identity Platforms"
 date: "2023-09-29"
-coverImage: "streamlined-access.jpg"
+coverImage: "streamlined-access.webp"
 tags: ["identity governance","user provisioning","sso","mfa"]
 author: "Rakesh Soni"
 description: "A Converged Identity Platform (CIP) is a unique solution that unifies the management of identities, access controls, and security policies across an organization. It brings together various components like Single Sign-On (SSO), Multi-Factor Authentication (MFA), User Provisioning, and Identity Governance and Administration (IGA) into a single digital ecosystem. CIP eliminates the need for numerous disjointed systems and offers a centralized process for identity management."
@@ -36,7 +36,7 @@ Mentioned below are approaches that CIP utilizes to streamline access management
 
 5. **Identity Federation**: CIP supports identity federation. This process allows the users to access resources across various domains and organizations using their home organization's credentials. This capability reduces the need for separate user accounts and passwords for each platform, making access management more efficient, easy, and less time-consuming. 
 
-[![DS-FIM](DS-FIM.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![DS-FIM](DS-FIM.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 6. **Role-Based Access Control (RBAC)**: CIP often includes Role-Based Access Control, enabling managers to assign access permissions based on users' tasks or job functions. RBAC facilitates access management by grouping users into predefined roles and giving them appropriate access privileges.
 
@@ -50,4 +50,4 @@ In this rapidly evolving digital world, where security breaches and cyber attack
 
 By integrating various Identity and Access Management (IAM) functionalities into a single ecosystem, CIPs facilitate identity management, authentication, and authorization complications. It offers a convenient user experience. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=converged-identity-platforms)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=converged-identity-platforms)

@@ -1,7 +1,7 @@
 ---
 title: "The Customer Experience is About to Get Even Better With Passive Authentication"
 date: "2022-11-17"
-coverImage: "passive-auth.jpg"
+coverImage: "passive-auth.webp"
 tags: ["customer experience", "passive authentication", "online shopping"]
 author: "Rakesh Soni"
 description: "Passive authentication lets companies respond to the need for speed and convenience by making authentication seamless and automatic, thus avoiding security risks. Making the shift from active to passive can be a delicate process. But when it's done right, the benefits are immense."
@@ -30,7 +30,7 @@ Passive authentication is the newest wave of customer experience, and it's set t
 
 Passive authentication is frictionless; it lets users get on with their day without taking extra steps or making different decisions that might slow them down or cause frustration.
 
-[![WP-user-authentication](WP-user-authentication.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+[![WP-user-authentication](WP-user-authentication.webp)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
 
 
 ## Active Authentication vs. Passive Authentication: What's The Difference?
@@ -57,4 +57,4 @@ In the end, it can be seen that passive authentication has spread over the years
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passive-authentication-cx-future)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passive-authentication-cx-future)

@@ -1,7 +1,7 @@
 ---
 title: "What is privacy compliance and why is it so important?"
 date: "2021-03-31"
-coverImage: "privacy-compliance-cover.jpg"
+coverImage: "privacy-compliance-cover.webp"
 tags: ["data privacy","compliance","cx"]
 author: "Vishal Sharma"
 description: "Privacy compliance is the line between the legal and the illegal. Such regulations help protect consumers in different countries by ensuring data is handled appropriately. Another reason why organizations must comply is to avoid heavy fines."
@@ -15,7 +15,7 @@ For those who don't know what privacy compliance is—it's an important data sec
 
 Here are the stats showcasing total data breaches and exposed records in the US alone from 2005-2020. 
 
-![privacy-compliance-1](privacy-compliance-1.png)
+![privacy-compliance-1](privacy-compliance-1.webp)
 
 
 Source: [Statista](https://www.statista.com/statistics/273550/data-breaches-recorded-in-the-united-states-by-number-of-breaches-and-records-exposed/)
@@ -68,7 +68,7 @@ DSAR (Data Subject Access Requests) is a request by an employee or a consumer to
 The below-mentioned stats depict the submission of Data Subject Access Requests in the UK in 2020. 
 
 
-![privacy-compliance-2](privacy-compliance-2.png)
+![privacy-compliance-2](privacy-compliance-2.webp)
 
 
 Source: [Statista](https://www.statista.com/statistics/1177143/submitters-of-data-subject-access-requests-uk/)
@@ -122,7 +122,7 @@ Our platform ensures you remain compliant with GDPR and stay ahead of your compe
 
 Need help in getting compliance-ready? [Reach us](https://www.loginradius.com/contact-sales/) for a Free Consultation.
 
-[![privacy-policy-management-datasheet](privacy-policy-management-datasheet.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
+[![privacy-policy-management-datasheet](privacy-policy-management-datasheet.webp)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 
 ## Conclusion
@@ -134,4 +134,4 @@ Any security breach leading to personal data theft of consumers could negatively
 As discussed earlier, businesses must seek professional help to ensure compliance to stay ahead of the curve.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-compliance)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-compliance)

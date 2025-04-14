@@ -1,7 +1,7 @@
 ---
 title: "What is Brute Force Attack"
 date: "2021-02-27"
-coverImage: "brute-force-lockout.jpg"
+coverImage: "brute-force-lockout.webp"
 tags: ["data security","cybersecurity","mfa","cx"]
 author: "Manish Tiwari"
 description: "In brute force attacks, you are not exploiting any vulnerability in the web application. Instead, you are trying all the possible combinations and permutations of passwords and usernames of the victim and trying to see if you get any of those right."
@@ -15,7 +15,7 @@ Brute Force is a hacking technique used to find out the user credentials by tryi
 
 So in brute force attacks, you are not exploiting any vulnerability in the web application. Instead, you are trying all the possible combinations and permutations of passwords and usernames of the victim and trying to see if you get any of those right. 
 
-![What is bruteforce](what-is-bruteforce.jpg)
+![What is bruteforce](what-is-bruteforce.webp)
 
 ## How Brute Force works
 
@@ -25,7 +25,7 @@ Thereafter, the tool sends the combinations of these usernames and passwords to 
 
 If the login is successful, then the username and password combination is considered as correct. If the login was a failure, then the combination of those credentials was wrong.
 
-![How bruteforce works](how-bruteforce-works.jpg)
+![How bruteforce works](how-bruteforce-works.webp)
 
 
 ## Types of Brute Force Attacks
@@ -40,7 +40,7 @@ If the login is successful, then the username and password combination is consid
 
 - **Credential Recycling:**  Credential recycling refers to the hacking practice of re-using username and password combinations gathered in previous brute-force attacks. A special form of credential recycling is passed the hash, where unsalted hashed credentials are stolen and re-used without first being brute-forced.
 
-[![credential-stuffing](WP-Credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![credential-stuffing](WP-Credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 - **Rainbow Table Attacks:** A rainbow table is a database used to gain authentication by cracking the password. It is a dictionary of plaintext passwords and their corresponding hash values that can be used to find out what plaintext password produces a particular hash.
 
@@ -63,4 +63,4 @@ Brute force attack takes time. It could take from a few weeks to even months. So
 In this blog we have tried to explain the brute force in simple language. Bruteforce is not only used for hacking purposes but many companies use it for testing their security system also. This gives us the knowledge about how we can protect our accounts from hackers.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=brute-force-lockout)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=brute-force-lockout)

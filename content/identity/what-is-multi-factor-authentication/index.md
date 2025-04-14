@@ -1,7 +1,7 @@
 ---
 title: "What is Multi Factor Authentication (MFA) and How does it Work?"
 date: "2019-06-28"
-coverImage: "mfa-cover.png"
+coverImage: "mfa-cover.webp"
 tags: ["mfa","authentication","ciam solution","cx"]
 author: "Rakesh Soni" 
 description: "In today’s digital landscape, cybersecurity threats are evolving rapidly. Businesses and individuals alike need stronger security measures to protect sensitive data. A highly effective method to improve security is through Multi-Factor Authentication (MFA). But what is multi factor authentication, and how does it work? Let’s dive into the details."
@@ -81,7 +81,7 @@ This method uses inherent factors like fingerprint scans, facial recognition, or
 
 Biometric authentication is gaining popularity because of its ease of use and strong security. Many modern devices, including smartphones and laptops, integrate biometric authentication as an additional layer of security.
 
-[![Buyers Guide to Multi-Factor Authentication ebook](eb-buyers-guide-to-multi-factor-authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![Buyers Guide to Multi-Factor Authentication ebook](eb-buyers-guide-to-multi-factor-authentication.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## What are the Different Types of Authentication Factors?
 

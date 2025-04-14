@@ -1,7 +1,7 @@
 ---
 title: "7 Tips on How CISOs Should Present Identity Security to Board Members"
 date: "2023-08-04"
-coverImage: "board-members.jpg"
+coverImage: "board-members.webp"
 tags: ["customer identity security","compliance","cx"]
 author: "Rakesh Soni"
 description: "While most CISOs are now concerned about the risks associated with customer identity security and identity thefts, they’re struggling to create a strategy to convince the board members to prepare beforehand. And to help CISOs present a compelling identity security strategy to board members, we’ve compiled a list of some helpful tips."
@@ -46,7 +46,7 @@ Hence, you must avoid using technical jargon and complex terms when presenting y
 
 You could translate technical concepts and terms into business terms that resonate with your C-level executives’ expertise. And it would be great if you could focus on tangible risks, potential financial and reputational implications, and regulatory compliance, as this will facilitate more productive and meaningful conversation. 
 
-[![WP-cmo-ciso-cio](WP-cmo-ciso-cio.png)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
+[![WP-cmo-ciso-cio](WP-cmo-ciso-cio.webp)](https://www.loginradius.com/resource/digital-identity-management-cio-ciso-cmo-whitepaper)
 
 ### 4. Provide Real-World Examples 
 
@@ -84,4 +84,4 @@ While cybercriminals are hunting new ways to exploit consumer identities, CISOs 
 
 And with a reliable customer identity and access management (CIAM) solution in place, security heads can ensure their customers’ identities are safe, and their board members don’t need to worry about the consequences of identity thefts. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-on-how-cisos-convince-board-members)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-on-how-cisos-convince-board-members)

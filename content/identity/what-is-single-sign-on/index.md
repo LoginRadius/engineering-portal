@@ -1,7 +1,7 @@
 ---
 title: "What is Single Sign-On (SSO) and How it Works?"
 date: "2019-05-30"
-coverImage: "what-is-sso.jpg"
+coverImage: "what-is-sso.webp"
 tags: ["sso","identity management","cx"]
 author: "Rakesh Soni" 
 description: "SSO is an essential feature of an Identity and Access Management (IAM) access control platform. User identity authentication is important when it comes to understanding which permissions a user will have. One example of controlling access that integrates user identity management solutions with SSO solutions is the LoginRadius Identity platform."
@@ -102,7 +102,7 @@ Because users only need to use one password, SSO makes generating, remembering, 
 
 The time spent on re-entering passwords for the same identity. Users will spend less time logging into various apps to do their work. Ultimately it enhances the productivity of businesses.
 
-[![LoginRadius Single Sign-on Datasheet](DS-LoginRadius-Single-Sign-on-1-1024x310.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![LoginRadius Single Sign-on Datasheet](DS-LoginRadius-Single-Sign-on-1-1024x310.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ### Benefits for Business
 
@@ -144,7 +144,7 @@ The identity provider must also be configured to authenticate users and provide 
 
 Your SSO solution must meet the basic needs to support IT needs. That means a stable solution and a highly functional one. Today, digital transformation relies on a platform for [Customer Identity and Access Management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM), which includes SSO and other tools. So, here what you need to keep in mind while narrowing down your SSO solution. 
 
-![](Loginradius-secure-sso-solution.jpg)
+![](Loginradius-secure-sso-solution.webp)
 
 ## 7 Key Points to Consider While Choosing a Secure Single Sign-On Solution   
 
@@ -186,7 +186,7 @@ Web single sign-on enables your customers to access any of your connected web pr
 
 [Web Single Sign-On](https://www.loginradius.com/docs/single-sign-on/web-and-mobile-sso/loginradius-web-sso/) also is known as LoginRadius Single Sign-On, is a browser-based session management system that uses browser storage mechanisms (sessionStorage, localStorage, Cookies) to hold the user session across your assets.
 
-![Loginradius-web-sso](web-sso-1-1024x294.png)
+![Loginradius-web-sso](web-sso-1-1024x294.webp)
 
 This storage is stored on a centralized domain managed by LoginRadius and can be accessed via our JavaScript Single Sign-On APIs, or directly through a JSONP call. This session is integrated seamlessly into our standard Customer Identity and Access Management scripts.
 
@@ -194,7 +194,7 @@ This storage is stored on a centralized domain managed by LoginRadius and can be
 
 Mobile single sign-on is like web SSO, except that customers can use a single identity to access connected mobile apps.
 
-![Loginradius-mobile-sso](mobile-sso-1-1024x247.png)
+![Loginradius-mobile-sso](mobile-sso-1-1024x247.webp)
 
 [Mobile SSO enables](https://www.loginradius.com/docs/single-sign-on/web-and-mobile-sso/loginradius-mobile-sso/) you to unify a user session across multiple apps that are serviced by a single account LoginRadius. It works by storing the LoginRadius access token in a shared session, either shared Android preferences or iOS keychain, which allows you to recognize a currently active session and access current user data sessions to configure your user account with each linked program.
 
@@ -204,7 +204,7 @@ Federated single sign-on [works a little differently](https://datafloq.com/read/
 
 LoginRadius also acts as an IdP that stores and authenticates the identities used by end-users to log in to customer systems, applications, file servers, and more depending on their configuration.
 
-![LoginRadius-Identity-Provider](LoginRadius-as-an-Identity-Provider-1024x974.png)
+![LoginRadius-Identity-Provider](LoginRadius-as-an-Identity-Provider-1024x974.webp)
 
 LoginRadius serves as a software provider providing end-user services. LoginRadius does not authenticate users but instead requests third-party Identity Provider authentication. LoginRadius relies on the identity provider to verify a user's identity and, if necessary, to verify other user attributes that the identity provider manages.
 
@@ -214,7 +214,7 @@ Security Assertion Markup Language (SAML) is an open standard enabling identity 
 
 [LoginRadius supports both SAML 1.1 and SAML 2.0](https://www.loginradius.com/docs/single-sign-on/federated-sso/saml/overview/) flows to support LoginRadius either as an IDP or as a Service Provider (SP). LoginRadius supports SAML flows, both initiated by IDP and initiated by SP. 
 
-![Loginradius SAML](SAML-1024x418.png)
+![Loginradius SAML](SAML-1024x418.webp)
 
 The LoginRadius Admin Console allows the SAML settings to be entirely self-service, allowing you to configure statements, keys, and endpoints to suit any SAML provider.
 #### JWT
@@ -229,7 +229,7 @@ OAuth is an open-standard authorization protocol or framework that describes how
 
 LoginRadius may either function as an OAuth 2.0 Identity Provider or as a Service Provider delegating the authentication process to an IDP supporting the OAuth Project. The specifications for OAuth 2.0 are protected in RFC 6749.
 
-![Loginradius OAuth](Loginradius-OAuth-1024x452.png)
+![Loginradius OAuth](Loginradius-OAuth-1024x452.webp)
 
 Such specs cover the various specifications and [structured processes OAuth embraces](https://www.loginradius.com/docs/single-sign-on/federated-sso/oauth-2-0/oauth-2-0-overview/). From the authorization of the service provider requesting authentication to the request for authorization from the end-user to the generation of the access token used to request the scoped data from the IDP after authentication.
 
@@ -284,4 +284,4 @@ Same Sign-On is not a standard term; Single Sign-On (SSO) allows users to log in
 
 Simplify authentication for users and enhance security by allowing access to multiple applications with one login.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-single-sign-on)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-single-sign-on)

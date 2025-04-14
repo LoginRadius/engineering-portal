@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Phonegap"
 date: "2015-03-31"
-coverImage: "dev-sprites2.png"
+coverImage: "dev-sprites2.webp"
 author: "Team LoginRadius"
 tags: ["Engineering","PhoneGap","Mobile"]
 ---

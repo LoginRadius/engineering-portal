@@ -1,7 +1,7 @@
 ---
 title: "Unlocking the Secret to Dominating the Market: How Can Give You a Competitive Edge"
 date: "2024-05-23"
-coverImage: "identity-convergence.jpg"
+coverImage: "identity-convergence.webp"
 tags: ["identity convergence","data privacy","cx"]
 author: "Cooper Matheson"
 description: "Identity convergence integrates diverse customer data into unified profiles, enabling unmatched personalization and efficiency. Learn how to leverage this strategy for superior business outcomes and gain a competitive edge in today's market."
@@ -40,7 +40,7 @@ Identity convergence allows for the creation of highly targeted marketing campai
 
 * **Predictive Analytics:** By utilizing predictive analytics, businesses can anticipate customer needs and behaviors, enabling proactive marketing efforts that capture attention at the right moment.
 
-[![WP-fundamentals-privacy](WP-fundamentals-privacy.png)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
+[![WP-fundamentals-privacy](WP-fundamentals-privacy.webp)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
 
 ### 3. Improved Product Development
 
@@ -103,4 +103,4 @@ By creating a unified view of the customer, companies can develop more effective
 
 Identity convergence is more than a buzzword; it's a strategic approach that can transform businesses' interactions with their customers and drive long-term growth. Embrace identity convergence today and watch your competitive edge soar.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-convergence-market-dominance)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-convergence-market-dominance)

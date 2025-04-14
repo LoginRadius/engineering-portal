@@ -1,7 +1,7 @@
 ---
 title: "Class Activation Mapping in Deep Learning"
 date: "2020-10-10"
-coverImage: "Cover.png"
+coverImage: "Cover.webp"
 author: "Ankit Choraria"
 tags: ["Explainable AI", "Deep Learning", "CNN", "Machine Learning"]
 description: "Learn about the importance of the explainability of deep learning models and Class Activation Map Technique"

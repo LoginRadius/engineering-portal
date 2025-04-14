@@ -1,7 +1,7 @@
 ---
 title: "The Major Challenges of Customer Identification in the Retail Industry"
 date: "2021-10-07"
-coverImage: "customer-identification-challenges-retail-cover.jpg"
+coverImage: "customer-identification-challenges-retail-cover.webp"
 tags: ["customer identity management","data security","ecommerce"]
 author: "Rakesh Soni"
 description: "Meeting the expectation of consumers these days isn’t a piece of cake for retailers as the modern consumer demands digital experiences at every touchpoint before making a purchase. This insightful read covers all the major challenges that retailers and e-commerce vendors face and how they can overcome them."
@@ -87,7 +87,7 @@ Adding stringent layers of security is a must for any retailer seeking substanti
 
 Whether it’s multi-factor authentication (MFA) or risk-based authentication (RBA), enterprises need to quickly put their best foot forward in adopting advanced security measures to safeguard consumer information to prevent financial and reputational losses. 
 
-[![retail-DS](retail-DS.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![retail-DS](retail-DS.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 ### #4. Engagement and Loyalty 
 
@@ -108,4 +108,4 @@ E-commerce and retail giants are leveraging the perfect symphony of user experie
 
 Brands seeking substantial growth in the ever-challenging retail ecosystem need to understand the importance of cutting-edge technology that paves the path for a rich consumer experience that drives sales and ensures customers’ loyalty. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identification-challenges-retail)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identification-challenges-retail)

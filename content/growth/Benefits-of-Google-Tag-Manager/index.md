@@ -1,7 +1,7 @@
 ﻿---
 title: "Benefits of Google Tag Manager — Easy To Use And Easy To Launch"
 date: "2021-05-11"
-coverImage: "Google-Tag-Manager.jpg"
+coverImage: "Google-Tag-Manager.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
@@ -37,7 +37,7 @@ A tag manager essentially acts as a platform where marketers can manage several 
 The best part is, only minimum technical knowledge is required to use the Tag Manager. The working of the Google Tag Manager relies heavily on a data layer  that  relays information from the website to the Tag Manager.
 
   
-![Benefits-of-Google-Tag-Manager](Benefits-of-Google-Tag-Manager.png)
+![Benefits-of-Google-Tag-Manager](Benefits-of-Google-Tag-Manager.webp)
 
   
 This information from the GTM data layer can then be used to deploy or fire desired tags. For example, the Google data layer will integrate the information in the tag to Google Analytics.
@@ -88,4 +88,4 @@ There can be some problems with the various components that are involved in the 
 ## Conclusion
 
 You can utilize Google Tag Assistant  to attain better functionality of GTM. This is a free Chrome extension that can be downloaded [here](https://get.google.com/tagassistant/). Now, get a user-friendly website that suits the needs and wants of your consumers with all the required analytics.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-of-google-tag-manager)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-of-google-tag-manager)

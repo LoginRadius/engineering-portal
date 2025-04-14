@@ -1,7 +1,7 @@
 ---
 title: "Okta Token Theft Implicated in Cloudflare's Security Breach"
 date: "2024-02-06"
-coverImage: "data-breach.jpg"
+coverImage: "data-breach.webp"
 tags: ["data security","cybersecurity","cx"]
 author: "Navanita Devi"
 description: "Uncover the connection between the recent Cloudflare breach and stolen Okta authentication tokens. Discover Cloudflare's immediate actions and ongoing efforts to strengthen security measures."
@@ -26,7 +26,7 @@ Cloudflare suspects the attack aimed to gather insights into its network archite
 
 Cloudflare remains committed to fortifying its defenses, exemplified by its thwarted phishing attack in August 2022, demonstrating the efficacy of robust security measures like FIDO2-compliant security keys.
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
+[![WP-zero-trust-security](WP-zero-trust-security.webp)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
 
 ## What Every Business Needs to Learn from Cloudflare's Recent Breach
 
@@ -40,4 +40,4 @@ The recent breach at Cloudflare, stemming from stolen Okta authentication tokens
 
 However, this incident serves as a reminder of the importance of continuous vigilance and proactive measures in the face of evolving cybersecurity threats. As Cloudflare continues to fortify its defenses and enhance security protocols, the broader tech community must remain diligent in combating cyber threats to ensure the integrity and safety of digital infrastructure worldwide.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-token-theft-cloudflare-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-token-theft-cloudflare-security)

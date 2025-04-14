@@ -1,7 +1,7 @@
 ---
 title: "Streaming Applications: How to Secure Your Customer Data"
 date: "2020-05-21"
-coverImage: "secure-customer-data.jpg"
+coverImage: "secure-customer-data.webp"
 tags: ["data security","authentication","cx"]
 author: "Rakesh Soni" 
 description: "OTT streaming apps should know how to mitigate data theft. Using a robust identity management solution in online streaming services helps secure digital identities."
@@ -82,7 +82,7 @@ Detecting MitM attacks is difficult, but they can be prevented through cybersecu
 
 ## OTT (Over-The-Top) Streaming Services and Apps
 
-![OTT (Over-The-Top) Streaming Services and Apps](OTT-Over-The-Top-Streaming-Services-and-Apps-1024x703.png)
+![OTT (Over-The-Top) Streaming Services and Apps](OTT-Over-The-Top-Streaming-Services-and-Apps-1024x703.webp)
 
 Streaming entertainment giants are completely [aware of the cyber threats](https://www.loginradius.com/blog/2020/05/cyber-threats-business-risk-covid-19/) - a reason why the media landscape is rapidly evolving to accommodate the growing security concerns.
 
@@ -200,7 +200,7 @@ Now, think of it this way. If nearly all of the population is attached to at lea
 
 ## 5 Things Video and Audio Streaming Industry Can Do to Secure the User Experience
 
-![Video and Audio Streaming Industry ](Video-and-Audio-Streaming-Industry-1024x703.png)
+![Video and Audio Streaming Industry ](Video-and-Audio-Streaming-Industry-1024x703.webp)
 
 Identity is the most important entity in the digital ecosystem. Streaming applications should know how to associate the required restrictions with the right users and secure customer experiences. Here are five other ways to enhance customer security. 
 
@@ -256,7 +256,7 @@ Wondering how? Let's find out. 
       
     Video broadcasting company BroadcastMed's successful implementation of SSO by LoginRadius is a good example.
 
-[![BroadcastMed case study](CS-BroadcstMed-1024x310.png)](https://www.loginradius.com/resource/broadcastmed-case-study)
+[![BroadcastMed case study](CS-BroadcstMed-1024x310.webp)](https://www.loginradius.com/resource/broadcastmed-case-study)
 
 The identity provider offered a centralized login system where users can seamlessly navigate to third-party sites and other syndication partners without the need to log in and out every time.
 
@@ -276,4 +276,4 @@ Frictionless user experience and optimal security drive the transformation of th
 
 Even then data security remains a crucial aspect. You need to balance both the worlds. An identity management platform can help you achieve that.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=streaming-applications-secure-customer-data)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=streaming-applications-secure-customer-data)

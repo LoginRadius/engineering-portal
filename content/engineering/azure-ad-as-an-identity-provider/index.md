@@ -1,7 +1,7 @@
 ---
 title: "Azure AD as an Identity provider"
 date: "2019-05-30"
-coverImage: "TN0lxUr0.png"
+coverImage: "TN0lxUr0.webp"
 author: "Team LoginRadius"
 tags: ["Engineering","Authentication","AzureAD"]
 ---
@@ -13,17 +13,17 @@ Windows Azure provides a number of identity-based technologies to support such k
 - Log in to the Azure Portal.
 - On the Azure active directory tab, click on the App registrations tab.  From the top of the screen, create a new application by clicking on "New application registration".
 
-![](1.png)
+![](1.webp)
 
 - Give your SaaS/Web application a name (company name Demo).  Using the drop-down, select the type of application i.e Web Application / Web API.
 - For Sign-On URL fill in the Assertion Consumer Service (ACS) URL for the Service Provider
 
-![](2.png)
+![](2.webp)
 
 - Go to the App setting at the top of the page and fill in the required fields
 - Go to the endpoints at the top of the application registration page and use these app endpoints to set up the azure ad with your saas application.
 
-![](A-1.png)
+![](A-1.webp)
 
 Here are the meanings of the terms, we have used above: 
 

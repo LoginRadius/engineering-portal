@@ -1,7 +1,7 @@
 ---
 title: "Integrating LinkedIn Social Login on a Website"
 date: "2015-02-11"
-coverImage: "linkedin-feat-img.png"
+coverImage: "linkedin-feat-img.webp"
 author: "Lucius Yu"
 tags: ["LinkedIn", "SocialLogin"]
 ---
@@ -16,7 +16,7 @@ Creating an app for the social platform is always the first step, no matter whic
 
 After creating the app, you need to set the "JavaScript API domain" field for your app.  In that field, fill in your website URL. Here we have used `http://localhost` for this article.
 
-![luciusblog2-1](luciusblog2-1.png)
+![luciusblog2-1](luciusblog2-1.webp)
 
 <h2>Implement the script in your html file</h2>
 
@@ -30,7 +30,7 @@ api_key: your_api_key_goes_here
 
 You can find your API key inside your application, the first entry under OAuth Keys "Consumer Key / API Key."  This script is used to load the LinkedIn script into your website, and it will not display anything on your page, at least not the frontend.
 
-![luciusblog2-2](luciusblog2-2.png)
+![luciusblog2-2](luciusblog2-2.webp)
 
 Next, you will need to add another script inside your body tag. It is actually used to display the sign-in button.
 
@@ -42,6 +42,6 @@ Hello, ; .
 
 If everything has been implemented correctly, load your page, and you will see this lovely button appear on your site.
 
-![luciusblog2-3](luciusblog2-3.png)
+![luciusblog2-3](luciusblog2-3.webp)
 
 Want to extend your social systems with additional provider functionality? Check out this post on [Twitter social login](https://www.loginradius.com/blog/engineering/integrating-twitter-social-login/ "Integrating Twitter Social Login").

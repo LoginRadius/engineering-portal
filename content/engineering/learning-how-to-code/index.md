@@ -1,7 +1,7 @@
 ---
 title: "Learning How to Code"
 date: "2015-12-29"
-coverImage: "begin-code-300x300.png"
+coverImage: "begin-code-300x300.webp"
 author: "Carling"
 tags: ["Learning", "Coding", "Learning resources"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Maven Dependency in Eclipse"
 date: "2017-07-11"
-coverImage: "maven.png"
+coverImage: "maven.webp"
 author: "Giriraj Yadav"
 tags: ["Java", "Maven", "Eclipse"]
 description: "Learn step by step setting up and resolution of maven dependency using eclipse IDE."

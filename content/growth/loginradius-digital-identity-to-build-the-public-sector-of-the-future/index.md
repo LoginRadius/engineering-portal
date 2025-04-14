@@ -1,7 +1,7 @@
 ﻿---
 title: "Using LR Digital Identity to Build the Public Sector of the Future"
 date: "2021-07-23"
-coverImage: "ciam-role-in-public-sector.jpg"
+coverImage: "ciam-role-in-public-sector.webp"
 tags: ["user management","single sign on","compliance","identity management"]
 author: "Deependra Singh"
 description: "Identity authentication and management play a key role in navigating the digital world that not only reinforces the public sector and government bodies and helps deliver a flawless user experience in diverse verticals. Let’s learn the importance of identity management and how LoginRadius identity management can help public sectors deliver a flawless and secure user experience."
@@ -63,7 +63,7 @@ Here’s where the need for a CIAM (consumer identity and access management) sol
 
 Let’s understand how LoginRadius digital identity paves the path for a secure public sector of the future.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
   
 
@@ -117,4 +117,4 @@ Until now, most countries have been managing the standard verification approach 
 
 Whether it’s authentication or delivering a consistent omnichannel experience, LoginRadius can help decision-makers build a flawless user experience coupled with enhanced security that ensures the overall [digital transformation](https://www.loginradius.com/blog/identity/what-is-digital-transformation/) of the public sector.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-digital-identity-to-build-the-public-sector-of-the-future)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-digital-identity-to-build-the-public-sector-of-the-future)

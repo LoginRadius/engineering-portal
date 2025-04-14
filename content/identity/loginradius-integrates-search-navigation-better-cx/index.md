@@ -3,7 +3,7 @@ title: "LoginRadius Integrates Search in Navigation for Better Customer Experien
 date: "2022-02-15"
 featured: false 
 author: "Archna Yadav"
-coverImage: "LR-search-navigation.jpg"
+coverImage: "LR-search-navigation.webp"
 tags: ["industry-news"]
 description: "Being a CIAM solution, LoginRadius understands the importance of customer experience. From time to time, we take a look back in the Admin Console and keep improvising it. This time we worked on the Search in navigation."
 metatitle: "LoginRadius Introduces Search in Navigation for Better CX"
@@ -33,14 +33,14 @@ Let’s have a look at the new search option.
 
 
 
-![1.png](1.png)
+![1.webp](1.webp)
 
 
 Click on the search section and type a keyword or phrase to view results. The following is an example of a feature search for the “Password” keyword:
 
 
 
-![2.png](2.png)
+![2.webp](2.webp)
 
 
 You can click the desired result, and it will land you on the respective feature page in the Admin Console. So, no more scrolling through the navigation menu to find out what you are looking for in the console.
@@ -58,7 +58,7 @@ You can quickly locate a customer by using the search filter options such as dom
 
 
 
-![3](3.png)
+![3](3.webp)
 
 
 Similarly, you can search and manage the blocked customers too. 
@@ -72,7 +72,7 @@ The following is an example of search options available in the Identity Analytic
 
 
 
-![4](4.png)
+![4](4.webp)
 
 
 
@@ -81,4 +81,4 @@ The following is an example of search options available in the Identity Analytic
 The purpose of all the above searches is to let our customers quickly locate the information or sections they want to access. If you value customer experience as much as we do, [reach out to us](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-integrates-search-navigation-better-cx), and we will help you improve the consumer experience of your application.
 
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-integrates-search-navigation-better-cx)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-integrates-search-navigation-better-cx)

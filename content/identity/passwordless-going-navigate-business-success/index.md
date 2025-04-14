@@ -1,7 +1,7 @@
 ---
 title: "Why Your Business Needs A Simple Passwordless Experience (Minus the User Friction)"
 date: "2022-07-13"
-coverImage: "passwordless-business.jpg"
+coverImage: "passwordless-business.webp"
 tags: ["passwordless", "login security", "progressive profiling"]
 author: "Vishal Sharma"
 description: "Whether it’s a little friction in login authentication or user fatigue in filling massive registration forms, everything counts when it comes to a bad user experience. Let’s uncover the importance of going passwordless for enterprises."
@@ -34,7 +34,7 @@ Users find it easier to authenticate themselves without remembering passwords fo
 
 Apart from the user experience perspective, passwordless authentication is swiftly becoming the preferred authentication method among businesses seeking ways to protect consumer identities and sensitive business information. Let’s understand how. 
 
-[![ds-passwordless](ds-passwordless.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![ds-passwordless](ds-passwordless.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 
 ## How Passwordless Experience Thrives Business Growth?
@@ -74,4 +74,4 @@ Hence, businesses need to understand the importance of passwordless authenticati
 Businesses leveraging cutting-edge authentication technologies always stand ahead of their competitors since their customers enjoy a seamless user experience reinforced by robust security.
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-going-navigate-business-success)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-going-navigate-business-success)

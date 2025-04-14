@@ -1,7 +1,7 @@
 ---
 title: "How to Use JWT with OAuth"
 date: "2019-03-11"
-coverImage: "photo-1454165804606-c3d57bc86b40.jpeg"
+coverImage: "photo-1454165804606-c3d57bc86b40.webp"
 author: Ti Zhang
 tags: ["JWT","Oauth", "JSON Web Token"]
 description: "Learn how to use JWT with OAuth and when & why"

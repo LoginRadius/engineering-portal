@@ -1,7 +1,7 @@
 ---
 title: "Customize User Login, Register and Forgot Password  Page in Drupal 7"
 date: "2015-08-11"
-coverImage: "drupal-custom-login-register-password-pages1.png"
+coverImage: "drupal-custom-login-register-password-pages1.webp"
 author: "Versha Gupta"
 tags: ["Drupal"]
 canonical: https://www.loginradius.com/blog/engineering/separate-login-page-for-admin-and-user/

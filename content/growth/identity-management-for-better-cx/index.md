@@ -1,7 +1,7 @@
 ---
 title: "How To Use Identity To Make Your Customers Feel Safe And Empowered?"
 date: "2022-10-28"
-coverImage: "id-cx.jpg"
+coverImage: "id-cx.webp"
 category: ["identity management", "cx", "data security"]
 author: "Navanita Devi"
 description: "It goes without saying that excellent UX can improve conversion rates, reduce churn and increase adoption rates. In this blog post, we'll help you figure out how to use digital identity to improve your relationships with customers and make them feel more confident in their interactions with you."
@@ -37,7 +37,7 @@ They want to be able to access their information from any device at any time, wh
 
 A CIAM improves the omnichannel experience for its customers by making them feel safe and empowered. All they need to do is provide them with one login that works across all their devices and channels.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### 3. Balancing between user experience and security
@@ -75,4 +75,4 @@ In the end, CIAM is all about driving revenue. A good CIAM solution can deliver 
 But if you don't consider all components of your CIAM, you'll miss out on valuable benefits for both businesses and consumers. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-better-cx)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-better-cx)

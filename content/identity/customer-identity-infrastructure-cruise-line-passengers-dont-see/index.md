@@ -1,7 +1,7 @@
 ---
 title: "The Customer Identity Infrastructure that Cruise Line Passengers Don’t See"
 date: "2018-12-11"
-coverImage: "peter-hansen-455710-unsplash-2.jpg"
+coverImage: "peter-hansen-455710-unsplash-2.webp"
 tags: ["travel-and-hospitality"]
 featured: false 
 author: "Rakesh Soni" 
@@ -19,13 +19,13 @@ I fantasize about spending a week in one place without having to make any arrang
 
 Cruise lines are well-known for their innovation in creating enormous ships and fun stuff to do on them. Some of the big players are also doing interesting things around [customer experience](https://www.loginradius.com/resource/customer-identity-your-cruise-brands-next-big-innovation/), both digital and onboard.
 
-![](leonardo-yip-551140-unsplash-1024x683.jpg)
+![](leonardo-yip-551140-unsplash-1024x683.webp)
 
 MSC Meraviglia and Royal Caribbean are simplifying embarkation so you don’t have to stand in line. Instead, you can upload all your travel documents and download boarding information ahead of time with online check-in ([Telegraph](https://www.telegraph.co.uk/travel/cruises/articles/cruise-ship-technology-innovation/)).
 
 Onboard, cruise brands are using technology to provide better service than you would get from humans alone. The Ocean Medallion from Carnival carries your guest ID, which connects to your encrypted customer profile in the cloud. You can wear it as a pendant or bracelet—Bluetooth Low Energy and NFC mean no swiping required. The Ocean Medallion automatically unlocks your cabin door as you approach, pays for drinks and merch, and locates your travel companions. Fifteen fewer things to worry about? Sign me up!
 
-![](Ocean-Medallion-Pendant-1.jpg)
+![](Ocean-Medallion-Pendant-1.webp)
 
 The Ocean Medallion also connects with the Ocean Compass, which acts like a digital concierge delivered on devices all over the ship. So the interactive screens and even the staff people learn your favourite drink and whether you prefer Broadway shows or dance lessons ([Wired](https://www.wired.com/2017/01/carnival-ocean-medallion-wearable/)).
 
@@ -33,9 +33,9 @@ Innovations like these are certainly attention-getting. But what travelers like 
 
 **Online check-in, smart wearables, and interactive screens all depend on a secure and centralized location for [customer profile data](https://www.loginradius.com/customer-profiling/).**
 
-[![cruise-brand](cruise-brand.png)](https://www.loginradius.com/resource/customer-identity-your-cruise-brands-next-big-innovation/)
+[![cruise-brand](cruise-brand.webp)](https://www.loginradius.com/resource/customer-identity-your-cruise-brands-next-big-innovation/)
 
 
 And finally, we explain how a customer identity and access management (CIAM) platform meets those challenges and makes customer experience innovations possible.
 
-[![Book-a-free-demo-request](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-infrastructure-cruise-line-passengers-dont-see)
+[![Book-a-free-demo-request](Book-a-free-demo-request.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-infrastructure-cruise-line-passengers-dont-see)

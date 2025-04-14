@@ -1,7 +1,7 @@
 ---
 title: "Guide to Authorization Code Flow for OAuth 2.0"
 date: "2021-03-24"
-coverImage: "unsplash.jpg"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["Oauth", "Authorization Code Flow"]
 description: "This article will help you to understand the OAuth 2.0 authorization code flow."
@@ -13,7 +13,7 @@ In the Authorization Code flow, the server-side component of the web application
 
 ### Overview
 
-![Authorization Code Flow Diagram](acf.png)
+![Authorization Code Flow Diagram](acf.webp)
 
 The flow illustrated above aims to provide a rough overview of a typical Authorization Code workflow:
 

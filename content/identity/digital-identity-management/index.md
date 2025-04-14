@@ -1,7 +1,7 @@
 ---
 title: "Digital Identity Management: 5 Ways to Win Customer Trust"
 date: "2019-10-01"
-coverImage: "digital-identity-mngmnt.jpg"
+coverImage: "digital-identity-mngmnt.webp"
 tags: ["digital identity management","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "In industry , digital identity management relates specifically to how the personal information of a customer is obtained, processed, and accessed safely."
@@ -13,7 +13,7 @@ In business, [digital identity management](https://www.loginradius.com/blog/grow
 
 While this may appear simple, many businesses fall prey to misconceptions about building or managing a customer’s digital identity. To help you leverage customer identity data, let’s discuss the top three misconceptions that trip businesses up.
 
-![](Digital-Identity-Management-5-Ways-to-Win-V01.02-02-1024x576.png)
+![](Digital-Identity-Management-5-Ways-to-Win-V01.02-02-1024x576.webp)
 
 ## 3 Common misconceptions around digital identity
 
@@ -33,7 +33,7 @@ With [customer identity and access management](https://www.loginradius.com/blog/
 
 Due to marketing’s reliance on user experience mapping, session analytics, and content engagements, this myth is rampant. As a result, many businesses mistakenly think “behavioral” data is all they need for digital identity management. Not true. In the next section, we’ll explain why.  
 
-- ![](01-dashboard-1024x865.png)
+- ![](01-dashboard-1024x865.webp)
     
 
 ## Why is digital identity management important?
@@ -44,7 +44,7 @@ We live in an era where data is the most valuable commodity in the world. Howeve
 
 Malicious software, hackers, online fraud, and user errors all pose a danger to the digital identification data that you collect or store. 
 
-[![digital-identity-trends-2019](digital-identity-trends-2019.png)](https://www.loginradius.com/resource/digital-identity-trends-2019/)
+[![digital-identity-trends-2019](digital-identity-trends-2019.webp)](https://www.loginradius.com/resource/digital-identity-trends-2019/)
 
 For businesses that collect or store customer data, security is vital to winning and maintaining customer trust. If you’re uncertain how, here are 5 methods that can help.
 
@@ -92,4 +92,4 @@ Did you know that requesting consent can also strengthen your brand reputation a
   
 Yes—with CIAM software. LoginRadius CIAM offers a variety of highly-secure customer identity management features. For added peace of mind, LoginRadius keeps its platforms ahead of emerging data regulations and consistently performs rigorous updates.
 
-[![LoginRadius Consumer Identity Trend Report](LoginRadius-Consumer-Identity-Trend-Report-1-1024x310.png)](https://www.loginradius.com/resource/digital-identity-trends-2020/)
+[![LoginRadius Consumer Identity Trend Report](LoginRadius-Consumer-Identity-Trend-Report-1-1024x310.webp)](https://www.loginradius.com/resource/digital-identity-trends-2020/)

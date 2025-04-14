@@ -1,7 +1,7 @@
 ---
 title: "Continuous Adaptive Trust - Adaptive Authentication Future"
 date: "2023-11-23"
-coverImage: "continuous-adptive-auth.jpg"
+coverImage: "continuous-adptive-auth.webp"
 tags: ["continuous adaptive authentication","compliance","cx"]
 author: "Rakesh Soni"
 description: "Discover the game-changing evolution of authentication with Continuous Adaptive Trust (CAT) in 2024 & beyond. CAT ensures a secure, seamless digital experience by continuously assessing trust in real time, making it a pivotal shift in cybersecurity."
@@ -32,7 +32,7 @@ This ongoing evaluation ensures that trust levels are dynamically adjusted, resp
 
 CAT enables organizations to assess risk continuously, allowing for immediate response to any suspicious activities. This real-time approach minimizes the window of opportunity for attackers, providing a proactive defense against emerging threats.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### Enhanced User Experience
 
@@ -52,4 +52,4 @@ The continuous evaluation in CAT minimizes false positives by understanding the 
 
 As we enter 2024, Continuous Adaptive Trust emerges as a beacon of innovation, promising a future where adaptive authentication secures digital interactions and does so with unparalleled precision and adaptability. This paradigm shift heralds a new era in cybersecurity, where trust is not a static state but an ever-evolving, continuous journey.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=continuous-adaptive-authentication-future-2024)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=continuous-adaptive-authentication-future-2024)

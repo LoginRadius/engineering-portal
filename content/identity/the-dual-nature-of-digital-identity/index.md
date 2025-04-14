@@ -1,7 +1,7 @@
 ---
 title: "Consumer vs. Enterprise: Navigating the Dual Nature of Digital Identity"
 date: "2023-05-11"
-coverImage: "dual-nature-dig-identity.jpg"
+coverImage: "dual-nature-dig-identity.webp"
 tags: ["digital identity", "consumer identity", "mfa","cx"]
 author: "Rakesh Soni"
 description: "The digital era has given rise to the concept of digital identity, the digital representation of our identity online. Consumer and enterprise identities are commonly used in today's digital landscape. In this blog, we dive into the world of digital identity, uncover the importance of securing it, and explore the differences and similarities between consumer and enterprise identity."
@@ -45,7 +45,7 @@ The security of digital identity is paramount in today's digital landscape, give
 
 One effective way to secure digital identity is by implementing a modern customer identity and access management (CIAM) solution. CIAM provides a secure and centralized platform to manage customer identity data, authentication, and authorization. 
 
-[![EB-GD-to-CI](EB-GD-to-CI.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-CI](EB-GD-to-CI.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 CIAM helps to prevent data breaches by securing personal data, managing customer identities, and implementing adequate access controls. With CIAM, businesses can ensure that their customers' personal information is secure and that only authorized users can access it. 
 
@@ -59,4 +59,4 @@ Consumers often create digital identities through self-registration, while enter
 
 Consumer identity is more prone to security risks, while enterprise identity is more prone to insider threats. However, both types of digital identity must be secured through access control, two-factor authentication, and encryption to mitigate security risks. As technology advances, the importance of digital identity will only continue to grow, and we must take the necessary steps to ensure its security.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-dual-nature-of-digital-identity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-dual-nature-of-digital-identity)

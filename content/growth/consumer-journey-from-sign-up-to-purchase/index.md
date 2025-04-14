@@ -1,7 +1,7 @@
 ﻿---
 title: "From Sign-Up to Purchase – How LoginRadius Offers a Frictionless Consumer Journey"
 date: "2021-07-14"
-coverImage: "consumer-signup-to-purchase.jpg"
+coverImage: "consumer-signup-to-purchase.webp"
 tags: ["user onboarding","ciam solution","cx"]
 author: "Vishal Sharma"
 description: " Enterprises, today, must be aware of the fact that the secret to success lies in quickly identifying and eliminating any pain point that occurs when consumers interact with their brand. Here’s an insightful read depicting how LoginRadius helps enterprises navigate their business success through a frictionless consumer journey."
@@ -124,4 +124,4 @@ LoginRadius understands the importance of consumer onboarding and has designed a
 
 Ready to leverage the next level of CIAM solution? Or have any doubts? [Schedule a Quick Personalized Call](https://www.loginradius.com/contact-sales/) and understand how LoginRadius can be a game-changer for your business success.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-journey-from-sign-up-to-purchase)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-journey-from-sign-up-to-purchase)

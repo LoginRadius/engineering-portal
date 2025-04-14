@@ -1,7 +1,7 @@
 ---
 title: "Extended LinkedIn API Usage"
 date: "2016-02-09"
-coverImage: "linkedin-feat-img.png"
+coverImage: "linkedin-feat-img.webp"
 author: "Karl Wittig"
 tags: ["LinkedIn", "SocialLogin"]
 ---

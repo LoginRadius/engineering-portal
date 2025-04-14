@@ -1,7 +1,7 @@
 ---
 title: "The Role of Passwordless Authentication in Securing Digital Identity"
 date: "2019-10-11"
-coverImage: "passwordless-auth.png"
+coverImage: "passwordless-auth.webp"
 tags: ["passwordless authentication","digital identity management","cx"]
 author: "Rakesh Soni"
 description: "The war cry among experts lately when it comes to online safety is: The future is passwordless! So, why does passwordless authentication matter so much?"
@@ -119,7 +119,7 @@ With passwords out of the picture, the following are a few attacks that business
 
 5. **Shoulder Surfing**: It is a type of data theft where the intruder steals login credentials by peeking over the target's shoulder.
 
-[![Passwordless Login Datasheet](DS-Product-Passwordless-Login-1024x310.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![Passwordless Login Datasheet](DS-Product-Passwordless-Login-1024x310.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 ## How Safe Is Passwordless Authentication as Compared to Other Login Methods
 
@@ -154,7 +154,7 @@ Here’s a convenient, easy-to-implement way to onboard a user. SMS-based login 
 
 Biometric authentication services focus on growing technologies like fingerprint, face, or iris scans. The technology works on smartphones where users press their thumbs on their smartphone scanners to authorize their identities and gain access to their accounts. Both Android and Apple offer biometric login options that are popular for their convenience.
 
-![image showing passwordless login is more secure and harder to hack](Passwordless-Authentication-shield-image-1024x576.png)
+![image showing passwordless login is more secure and harder to hack](Passwordless-Authentication-shield-image-1024x576.webp)
 
 ## How Does Passwordless Authentication Work  
 
@@ -169,7 +169,7 @@ This means that whenever a user wishes to create a secure account, a public-priv
 
 Today’s passwordless authentication follows the [FIDO2 standard](https://en.wikipedia.org/wiki/FIDO2_Project). It includes WebAuthn and CTAP that help organizations keep their passwords secure.
 
-![flowchart of Passwordless Login](Passwordless-Login-Flowchart-1024x549.png)
+![flowchart of Passwordless Login](Passwordless-Login-Flowchart-1024x549.webp)
 
 Wondering how it works? 
 
@@ -205,7 +205,7 @@ The LoginRadius Identity Platform is an out-of-the-box way for you to do this ea
 
 Here’s how the platform works.
 
-![activating passwordless login in loginradius dashboard](activating-passwordless-login-in-loginradius-1024x504.png)
+![activating passwordless login in loginradius dashboard](activating-passwordless-login-in-loginradius-1024x504.webp)
 
 ### Passwordless authentication with LoginRadius is a three-fold process. 
 
@@ -241,4 +241,4 @@ Q: What is 2FA or passwordless?
 
 A: 2FA (Two-Factor Authentication) requires two forms of verification for access. Passwordless authentication, on the other hand, allows users to log in without using a traditional password, using methods like biometrics or email links.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-the-future-of-identity-and-security)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-the-future-of-identity-and-security)

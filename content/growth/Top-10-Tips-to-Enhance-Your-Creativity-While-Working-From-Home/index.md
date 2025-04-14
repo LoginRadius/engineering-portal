@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 10 Tips to Enhance Your Creativity While Working From Home"
 date: "2021-04-14"
-coverImage: "work-from-home-loginradius.jpg"
+coverImage: "work-from-home-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -28,7 +28,7 @@ So, what does the picture look like now?
 
 According to statistics, [25-30% of the workforce will be working from home by the end of 2021.](https://globalworkplaceanalytics.com/work-at-home-after-covid-19-our-forecast)
 
- ![tips-for-work-from-home-creativity-loginradius](tips-for-work-from-home-creativity-loginradius.jpg) 
+ ![tips-for-work-from-home-creativity-loginradius](tips-for-work-from-home-creativity-loginradius.webp) 
 
 Living at home has its pros and cons. You can enjoy quality time with your family, save on travel expenses, and focus more on your kids.
 
@@ -69,7 +69,7 @@ Deadlines play a significant role in developing a sense of accountability, wheth
 
 Strict timelines generate a sense of urgency in the employee and motivate them to find creative solutions to finish the task in a specified duration. Creativity allows them to judge their capabilities well, increase productivity and submit deliverables on time.
 
- ![work-from-home-creativity-1-loginradius](work-from-home-creativity-1-loginradius.jpg)  
+ ![work-from-home-creativity-1-loginradius](work-from-home-creativity-1-loginradius.webp)  
 
 ### 3. Consider multiple perspectives while having meetings
 
@@ -99,7 +99,7 @@ For example, before you start discussing business issues, lighten your team's mo
 
 Share the recipe of your favorite cuisine or talk about the song your kid sang last night. You can gradually shift the focus towards more essential issues once you see people actively participating in the conversation.
 
-![work-from-home-creativity-loginradius](work-from-home-creativity-loginradius.jpg) 
+![work-from-home-creativity-loginradius](work-from-home-creativity-loginradius.webp) 
 
 ### 5. Read, read, and read!
 
@@ -168,4 +168,4 @@ But data alone doesn't lead anywhere. You need to have storytelling skills that 
 ## Conclusion
 
 As the second wave of the coronavirus pandemic has spread across the world, work from home is here to stay, at least for a while. So, this is the best time to identify your strengths, polish your skills, and learn something new. Follow the ten tips given in this article to enhance your creativity while working from home and make the best use of your skills, time, and money during the pandemic.
-[![book-a-demo-Consultation](book-a-demo-free-consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-tips-to-enhance-your-creativity-while-working-from-home)
+[![book-a-demo-Consultation](book-a-demo-free-consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-tips-to-enhance-your-creativity-while-working-from-home)

@@ -1,7 +1,7 @@
 ---
 title: "React's Context API Guide with Example"
 date: "2021-06-09"
-coverImage: "title-image.png"
+coverImage: "title-image.webp"
 author: "Versha Gupta"
 tags: ["React", "Redux", "Hooks"]
 description: "Deep Dive into React's Context API with example"

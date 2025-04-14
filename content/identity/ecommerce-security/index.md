@@ -1,7 +1,7 @@
 ---
 title: "E-commerce Security: 5 Ways to Enhance Data Protection During the Shopping Season"
 date: "2020-11-06"
-coverImage: "ecommerce-security.jpg"
+coverImage: "ecommerce-security.webp"
 tags: ["ecommerce security","data security","cx"]
 author: "Karl Wittig"
 description: "Security for e-commerce is a series of protocols that guarantee protected internet transactions. Major data violations have significantly eroded trust in digital security. Via common networks, consumers are comfortable making purchases. However, when it comes to sharing their credit card details with new businesses, they need a little more convincing."
@@ -62,7 +62,7 @@ WooCommerce is a free, open-source WordPress shopping cart plugin owned and deve
 
 ## Security Threats That E-Commerce Stores Face
 
-![](Ecommerce-security-1.png)
+![](Ecommerce-security-1.webp)
 
 Ecommerce security for e-commerce is a must-have and consumers need to be constantly reassured about the safety measures that have been taken to mitigate a security threat. Features which an e-commerce security needs to adapt are:
 
@@ -100,7 +100,7 @@ Credit card fraud is the unauthorized use of a credit or debit card to make 
 
 Bad bots are designed to perform a variety of malicious jobs. They are capable of stealing content from the website, such as product reviews, product pricing, catalogs and so on which they publish on some other site. This affects the search engine ranking of the retailers' website. Bad bots are able to make multiple page visits within a very short span of time thus straining Web servers, which makes the site slow for genuine users.
 
-[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](DS-How-Retail-Consumer-Goods-Companies.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![Datasheet-How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius](DS-How-Retail-Consumer-Goods-Companies.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 ## 5 Ways E-Commerce Can Keep Their Online Stores Safe Using Identity Management
 
@@ -128,7 +128,7 @@ By implementing [multi-factor authentication (MFA)](https://www.loginradius.com/
 
 ## How LoginRadius Enhances E-Commerce Security With Its Advance CIAM Solution 
 
-![](Ecommerce-security-2.png)
+![](Ecommerce-security-2.webp)
 
 LoginRadius is a customer identity and access management tool that offers a seamless and secure way to access customer information – in your case, shoppers’ data. 
 
@@ -146,4 +146,4 @@ With LoginRadius, you can get 360-degree customer profiling, with 100% customer 
 
 Consumers want to shop with [e-commerce retailers](https://www.loginradius.com/blog/identity/loginradius-ciam-retail-ecommerce-business/) whom they can trust. When they enter their personal information, like credit card numbers or other banking details, they expect it to be well protected. By implementing proper e-commerce security safeguards, you can protect your business and consumers from online threats. 
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ecommerce-security)
+[![](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ecommerce-security)

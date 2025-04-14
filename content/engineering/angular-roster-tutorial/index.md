@@ -1,7 +1,7 @@
 ---
 title: "Angular Roster Tutorial"
 date: "2016-01-12"
-coverImage: "roster-angularjs-1.png"
+coverImage: "roster-angularjs-1.webp"
 author: "Zakary Hughes"
 tags: ["Engineering","AngularJS","PlayersArray","Array","Search"]
 ---

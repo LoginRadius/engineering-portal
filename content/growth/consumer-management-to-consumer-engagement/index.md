@@ -1,7 +1,7 @@
 ---
 title: "How to Shift Focus From Consumer Management to Consumer Engagement"
 date: "2021-02-12"
-coverImage: "consumer-engagement.jpg"
+coverImage: "consumer-engagement.webp"
 category: ["customer-engagement", "customer-experience"]
 author: "Yash Rathi"
 description: "Historically, organizations were more focused on managing and facilitating consumers' to be on top of everything. However, in the past couple of years, the paradigm has shifted from working as the facilitator to acting as a consultant and driving consumer engagement."
@@ -72,4 +72,4 @@ Strategies that bring out the 'wow' factor are always the best ones. Be it via s
 I hope these consumer engagement strategies will induce you to get into action. Keep in touch for more strategies and possible outcomes. Keep reading :)
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-management-to-consumer-engagement)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-management-to-consumer-engagement)

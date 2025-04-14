@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Launches M2M Authorization for Seamless Business Operations"
 date: "2021-12-15"
-coverImage: "m2m-cover.jpg"
+coverImage: "m2m-cover.webp"
 tags: ["industry-news","authorization","authentication"]
 author: "Rakesh Soni"
 description: "Machine to Machine (M2M) authorization ensures that business systems communicate autonomously without human intervention and access the needed information securely and reliably."
@@ -40,7 +40,7 @@ Services require authorization while saving and reading the data to and from the
 
 For each M2M application, LoginRadius issues secure credentials, and services automatically get the authorization token from LoginRadius using these [secure credentials](https://www.loginradius.com/blog/identity/login-security/) to perform read or write operations. 
 
-[![DS-M2M](DS-M2M.png)](https://www.loginradius.com/resource/m-to-m-authorization-)
+[![DS-M2M](DS-M2M.webp)](https://www.loginradius.com/resource/m-to-m-authorization-)
 
 In a nutshell, LoginRadius acts as an authorization server. 
 
@@ -61,4 +61,4 @@ With LoginRadius M2M authorization, businesses can ensure a secure and reliable 
 
 LoginRadius M2M helps businesses to provide flexible machine-to-machine communication while ensuring granular access, authorization, and security requirements are enforced.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-m2m-authorization-data-access)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-m2m-authorization-data-access)

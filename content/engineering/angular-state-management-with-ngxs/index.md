@@ -1,7 +1,7 @@
 ---
 title: "Angular State Management With NGXS"
 date: "2020-09-08"
-coverImage: "title-image.png"
+coverImage: "title-image.webp"
 author: "Akshaya Sharma"
 tags: ["Angular","NGXS","Redux"]
 description: "NGXS is a state management pattern + library for Angular. It acts as a single source of truth for your application's state, providing simple rules for predictable state mutations."
@@ -11,7 +11,7 @@ In this article, we will learn about state management in Angular with NGXS. Here
 ## What is State
 In the bigger apps, managing the data states is very complicated. In angular, each component has its own state, to share the data/state between the components we normally use @Input and @Output decorators, but when the application goes bigger, its challenging to maintain the data consistency. So to solve this problem, redux was introduced. It provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.
 
-![Image](redux.png)
+![Image](redux.webp)
 
 
 ## What is NGXS
@@ -220,7 +220,7 @@ put this code in your `app.component.html`
   </ul>
 ```
 After lots of code, it's time to see the results. So here is the UI you will get. To get the complete code please go to [Github Repo.](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Angular/To-do-App-in-angular-with-NGXS)
-![Image](result.png)
+![Image](result.webp)
 
 ## Conclusion
 

@@ -1,7 +1,7 @@
 ---
 title: "How Businesses are Experiencing Digital Transformation with Consumer IAM"
 date: "2021-06-25"
-coverImage: "digital-transformation-consumer-iam-cover.jpg"
+coverImage: "digital-transformation-consumer-iam-cover.webp"
 tags: ["digital transformation","ciam solution","mfa","cx"]
 author: "Navanita Devi"
 description: "Digital transformation empowers businesses to change the way they operate. It’s not just a buzzword or marketing gimmick, it’s a real and tangible way to revamp how you do business and improve your company. Let’s understand it through the lens of consumer IAM."
@@ -44,7 +44,7 @@ The experience starts with a compelling registration process that can be complet
 
 Social login via platforms like Google or Facebook might alleviate registration fatigue, but it can also pose security problems which may necessitate the use of [multi-factor authentication](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/). With highly low-friction authentication, the consumer enjoys compelling and consistent interaction across channels.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/) 
 
 ### 2. **Single consumer view**
 
@@ -78,4 +78,4 @@ Consumer IAM has swiftly established itself as a critical component of a positiv
 
 If you’re interested in learning more about how the LoginRadius platform works, [schedule a demo](https://www.loginradius.com/schedule-demo/) today.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-transformation-consumer-iam)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-transformation-consumer-iam)

@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, withPrefix } from "gatsby"
-import lrLogoAdj from "../../static/logo.svg"
+import lrLogoAdj from "../../static/logo.webp"
 const SEO = ({
   title,
   description,
@@ -56,7 +56,7 @@ const SEO = ({
           name: "LoginRadius",
           logo: {
             "@type": "ImageObject",
-            url: `${withPrefix("/logo.svg")}`,
+            url: `${withPrefix("/logo.webp")}`,
           },
         },
       }
@@ -104,7 +104,7 @@ const SEO = ({
           >
             <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
             <title lang="en">{seo.title}</title>
-            <link rel="icon" href={withPrefix("/favicon.png")} />
+            <link rel="icon" href={withPrefix("/favicon.webp")} />
             <link
               rel="canonical"
               href={

@@ -1,7 +1,7 @@
 ---
 title: "4 Reasons Why SSO Integrations Are a Must-Have For Online Businesses"
 date: "2023-05-15"
-coverImage: "sso-integration.jpg"
+coverImage: "sso-integration.webp"
 tags: ["single sign on","identity and access management","data security","cx"]
 author: "Linda Gagaine"
 description: "The primary goal of single sign-on is to enable users to access many applications with just one set of credentials. This is convenient for the user since they won't have to sign in as often, and it's safer for the company because there will be fewer instances of forgotten passwords."
@@ -61,7 +61,7 @@ Verizon’s Data Breach Investigations Report 2022 revealed 81% of all hacking e
 
 Users are less likely to experience password fatigue, and hence fewer password resets are required when they are only required to remember one master password as opposed to several app-specific ones. In addition, you reduce the likelihood of users using the same password for several unsecured apps by having them log in just once each day. 
 
-[![DS-ciam-SSO](DS-ciam-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-ciam-SSO](DS-ciam-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ### 3. Fewer Costs
 
@@ -107,4 +107,4 @@ Bridge the divide between the current system and what is needed. [Existing IAM p
 
 Every day, the world of technology gives us new  tools to incorporate into our lives. It's difficult and maybe dangerous to remember different, complicated passwords for every single one of the apps related to your business. However, with single sign-on integration, you can provide your users with streamlined, streamlined, and more secure access to all of your apps and services.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-integrations-must-for-online-businesses)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-integrations-must-for-online-businesses)

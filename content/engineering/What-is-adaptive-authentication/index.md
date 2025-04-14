@@ -1,7 +1,7 @@
 ---
 title: "What is Adaptive Authentication or Risk-based Authentication?"
 date: "2021-03-09"
-coverImage: "adaptive-authentication.jpg"
+coverImage: "adaptive-authentication.webp"
 author: "Jitender Agarwal"
 tags: ["Adaptive Authentication", "Risk-based Authentication"]
 description: "Adaptive Authentication intelligently identifies malicious attempt based on the defined risk factors and prompt the consumers to complete an additional step to verify their identities"

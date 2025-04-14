@@ -64,7 +64,7 @@ Before we learn the benefits of multi-factor authentication, let’s understand 
 
 MFA significantly reduces the risk of cyber attacks such as phishing, credential stuffing, and brute-force attacks. It’s particularly valuable for businesses with remote employees, as it ensures that only verified users can access company systems, reducing the risk of a data breach. These are key MFA benefits that improve cybersecurity measures.
 
-[![WP-mfa-digital-identity](WP-mfa-digital-identity.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![WP-mfa-digital-identity](WP-mfa-digital-identity.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## Benefits of MFA (Multi-Factor Authentication)
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 10 Cybersecurity Predictions for 2021 That SMBs Must Know"
 date: "2021-03-19"
-coverImage: "cybersecurity-loginradius.jpg"
+coverImage: "cybersecurity-loginradius.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -43,7 +43,7 @@ Targeted phishing attacks are one of the leading cybersecurity threats that SMBs
 
 Last year, despite the pandemic, hackers actively targeted **[healthcare](https://www.loginradius.com/industry-healthcare/)** and pharma companies and spread fake news about vaccine development. Data breaches in the healthcare sector peaked in 2020 and are expected to continue in the short-term future.
 
- [![future-proof-your-security-loginradius](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper) 
+ [![future-proof-your-security-loginradius](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper) 
 
 [**McKinsey**](https://www.mckinsey.com/business-functions/risk/our-insights/covid-19-crisis-shifts-cybersecurity-priorities-and-budgets) predicts that the healthcare industry will be among the top four spenders in cybersecurity solutions in the coming decade. Apart from increasing their spending, SME players in the healthcare sector also need to evaluate their security infrastructure to counter these cyber threats.
 
@@ -107,4 +107,4 @@ Some of the common threats faced by the financial services industry include phis
 
 For SMBs, the global market for cybersecurity solutions is expected to touch [$80 billion](https://www.infosecurity-magazine.com/news/attacks-on-banks-spike-238-during/) in the future. This article has highlighted ten of the biggest cybersecurity predictions for SMBs in the coming decade.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-cybersecurity-predictions-for-2021-that-smbs-must-know)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-cybersecurity-predictions-for-2021-that-smbs-must-know)

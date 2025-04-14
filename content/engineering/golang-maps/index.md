@@ -1,7 +1,7 @@
 ---
 title: "Golang Maps - A Beginner’s Guide"
 date: "2020-09-25"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Chris Yee"
 tags: ["Go", "dictionaries", "maps"]
 description: "A map is a builtin sort used for storing key-value pairs. Find out more in this article on how Golang maps work and why to use them."
@@ -17,7 +17,7 @@ Maps (also called dictionaries) are a very useful tool in helping to store and o
 
 Most basic implementations of a map involve using a key to access a value in the map, resulting in key-value pairs, in which one key is associated with a specific value in the map. Within Golang, maps follow this definition.
 
-![Dictionary](dictionary.jpg)
+![Dictionary](dictionary.webp)
 
 ## How to create a map?
 
@@ -61,7 +61,7 @@ mapObject[“test”] = “test_value”
 
 ### Fetching
 
-![Fetching](fetching.jpg)
+![Fetching](fetching.webp)
 
 Retrieving a value uses the same format.
 

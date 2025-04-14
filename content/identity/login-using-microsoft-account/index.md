@@ -1,7 +1,7 @@
 ---
 title: "Login Using Microsoft Account"
 date: "2021-04-15"
-coverImage: "login-using-microsoft-account.png"
+coverImage: "login-using-microsoft-account.webp"
 tags: ["authentication"]
 featured: false 
 author: "Vaibhav Jain" 
@@ -65,4 +65,4 @@ In this article, we talked about applying [Social login](https://www.loginradius
 Cheers!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-using-microsoft-account)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-using-microsoft-account)

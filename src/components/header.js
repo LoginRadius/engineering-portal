@@ -97,7 +97,7 @@ const Header = ({ searchIndex, pathname, type }) => {
         <div className={headerStyles.logo}>
           <a target="_blank" href={"https://www.loginradius.com/"}>
             <img
-              src={`${withPrefix("/logo.svg")}`}
+              src={`${withPrefix("/logo.webp")}`}
               alt={`loginradius`}
               className={headerStyles.lrLogo}
               width="206"

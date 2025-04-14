@@ -1,7 +1,7 @@
 ---
 title: "Stand Out from the Crowd: Improve Your Customer Support with CIAM"
 date: "2021-09-14"
-coverImage: "ciam-improve-customer-support-cover.jpg"
+coverImage: "ciam-improve-customer-support-cover.webp"
 tags: ["ciam solution","cx","user management"]
 author: "Rajeev Sharma"
 description: "Whether it’s intuitive and personalized user onboarding or a unified view of every consumer, CIAM is becoming the need of the hour for diverse industries. Let’s learn about the endless possibilities of a CIAM that delivers the highest level of customer support services."
@@ -72,7 +72,7 @@ LoginRadius User Management includes tools for searching, browsing, and viewing 
 
 Administrators can also do manual actions on behalf of users, such as triggering verification and password reset emails, provisioning new accounts, and updating user information.
 
-[![DS-user-mngmnt](DS-user-mngmnt.png)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
+[![DS-user-mngmnt](DS-user-mngmnt.webp)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
 
 
 ### Unified View of Each Customer 
@@ -92,4 +92,4 @@ The ones finding ways to enhance support services must consider relying on a CIA
 
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-improve-customer-support)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-improve-customer-support)

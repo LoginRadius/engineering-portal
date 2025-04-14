@@ -1,7 +1,7 @@
 ---
 title: "The Role of Customer Authentication in Paving the Way for Digital Agility"
 date: "2022-09-06"
-coverImage: "digital-cx.jpg"
+coverImage: "digital-cx.webp"
 tags: ["customer authentication", "digital transformation", "ciam"]
 author: "Yash Rathi"
 description: "Just like agility is the way to move quickly and easily; digital agility is now the means to adopt digital transformation quickly through the right tools and processes. This blog explains the aspects of digital agility and how businesses can ensure they’re on the right path to achieving it through the right customer authentication tools and technologies."
@@ -54,7 +54,7 @@ A robust CIAM solution helps businesses stay ahead of the competition by offerin
 
 This information helps businesses quickly understand user demands and can eventually prepare strategies for future requirements. 
 
-[![ciam-ds](ciam-ds.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![ciam-ds](ciam-ds.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 
 ## How the LoginRadius CIAM Solution Can Help in Your Digital Agility
@@ -77,4 +77,4 @@ Businesses can leverage the true potential of digital agility by incorporating a
 Reach us if you wish to see the future of digital agility through a robust cloud-based CIAM solution. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-customer-authentication-digital-first-cx)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-customer-authentication-digital-first-cx)

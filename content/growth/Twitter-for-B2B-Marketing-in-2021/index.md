@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Use Twitter for B2B Marketing in 2021"
 date: "2021-05-13"
-coverImage: "Twitter-for-B2B-Marketing-in-2021.jpg"
+coverImage: "Twitter-for-B2B-Marketing-in-2021.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -14,7 +14,7 @@ Twitter launched way back in 2006 and hasn't undergone any radical changes like 
 
   
 
-Research by the Content Marketing Institute tells that [82% of B2B content marketers](https://contentmarketinginstitute.com/wp-content/uploads/2020/09/b2b-2021-research-final.pdf) use Twitter for running marketing campaigns.
+Research by the Content Marketing Institute tells that *82% of B2B content marketers* use Twitter for running marketing campaigns.
 
   
 
@@ -86,7 +86,7 @@ Community building is emerging as an essential B2B online marketing strategy. Ma
 
   
 
-A study found out that [32% of B2B marketers](https://contentmarketinginstitute.com/wp-content/uploads/2020/09/b2b-2021-research-final.pdf) work in organizations with established online communities, and 27% are looking forward to doing the same in the next 12 months.
+A study found out that *32% of B2B marketers* work in organizations with established online communities, and 27% are looking forward to doing the same in the next 12 months.
 
   
 
@@ -111,4 +111,4 @@ Each of the three marketing strategies explained in this article will help you g
   
 
 Firstly, you should check whether the Twitter B2B marketing strategies are aligned with your social media marketing strategy. Secondly, assess whether you have the resources and expertise to deal with businesses. And then, you are good to go! <p>
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=twitter-for-b2b-marketing-in-2021)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=twitter-for-b2b-marketing-in-2021)

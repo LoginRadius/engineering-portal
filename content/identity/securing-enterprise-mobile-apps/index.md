@@ -1,7 +1,7 @@
 ---
 title: "Securing Enterprise Mobile Apps with LoginRadius"
 date: "2020-08-07"
-coverImage: "Secure-Enterprise-Mobile-App.jpg"
+coverImage: "Secure-Enterprise-Mobile-App.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -45,7 +45,7 @@ Following are the major threats security teams need to deal with:
 
 **Insecure data storage**: There are many vulnerable places in an application where data can be stored: binary data stores, SQL databases, and cookie stores are a few. Majority of these vulnerabilities are triggered by the OS, frameworks, and compilers involved. Often, the poor storage of data results from inadequate processes to manage device gallery and data cache.
 
-[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 **Improper encryption**: Encryption is the method of translating data into an unreadable code that is only usable with the secret key after it has been re-translated. Therefore, it is important to evaluate how easy or difficult it might be to crack your application's secret code. This is a common vulnerability that hackers exploit with code and intellectual property theft, leading to [privacy violations](https://www.loginradius.com/blog/2019/12/digital-privacy-best-practices/), and damage to reputation.
 
@@ -57,11 +57,11 @@ Following are the major threats security teams need to deal with:
 
 A holistic approach to security for mobile devices is regarded as an essential part of a security ecosystem. Keeping data storage and application management at the center, here's what the entire ecosystem looks like.
 
-![](image2-1.png)
+![](image2-1.webp)
 
 ## Securing Mobile Apps Using LoginRadius' Secured Platform
 
-![](3-1024x621.jpg)
+![](3-1024x621.webp)
 
 LoginRadius, a [consumer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) (CIAM) solution, offers a comprehensive approach to protecting enterprise mobile applications. While human error is unavoidable, the platform is an all-in-one solution for all mobile security needs. Some of the features include:
 
@@ -92,4 +92,4 @@ Sadly, very few companies have a well-secured management policy, while still a l
 
 Enterprise mobile app security is the need of the hour. Businesses must consider the changing state of cybersecurity and mobility when implementing the above-mentioned [protection tips](https://www.loginradius.com/resource/infographic/cybersecurity-best-practices-for-enterprise/) to secure their devices. 
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-enterprise-mobile-apps)
+[![Book-a-demo-loginradius](Book-a-demo-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-enterprise-mobile-apps)

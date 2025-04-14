@@ -1,7 +1,7 @@
 ---
 title: "Calculating ROI, Build vs Buy (Part 1)"
 date: "2021-03-31"
-coverImage: "calcualting-roi-build-vs-buy-cover.jpg"
+coverImage: "calcualting-roi-build-vs-buy-cover.webp"
 tags: ["customer authentication","identity management","cx"]
 author: "Cooper Matheson"
 description: "Most businesses with legacy systems are stuck between choosing to maintain an existing in-house system, investing in building a new in-house system, or working with a vendor. Making the wrong decision can be expensive. This blog is a multi-part series where we have outlined the value of working with LoginRadius over maintaining and building up your existing systems."
@@ -95,7 +95,7 @@ When businesses embark on a project to improve or update those systems, those co
 
 Customer service efforts make up a huge chunk of the hidden costs associated with legacy authentication systems. These teams see large swaths of their time drained by dealing with end-users trying to reset their passwords, recover their accounts, cancel memberships, revoke access to data, and more.
 
-[![](The-Case-for-Buying-over-Building-1.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![](The-Case-for-Buying-over-Building-1.webp)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 
 ## Case Study
@@ -112,4 +112,4 @@ If the business decision is already made, you could easily add a [social login](
 
 **Stayed tuned for Part II of this series, where I will help you calculate lost revenue associated with authentication and system availability.**
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=calcualting-roi-build-vs-buy)
+[![](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=calcualting-roi-build-vs-buy)

@@ -1,7 +1,7 @@
 ---
 title: "How To Throw A Tiki Tech Party"
 date: "2019-09-20"
-coverImage: "how-to-throw-a-tiki-tech-party.jpg"
+coverImage: "how-to-throw-a-tiki-tech-party.webp"
 category: ["media-and-publication", "LoginRadius"]
 featured: false 
 author: "Karl Wittig"
@@ -13,7 +13,7 @@ metadescription: "Learn more about how LoginRadius organized its first Tiki Tech
 
 Last week, we had a great time participating in Vancouver Startup Week's Community Crawl. 
 
-![](VWS-V01.03_LinkedIn-1-1200x627-1-1024x536.png)
+![](VWS-V01.03_LinkedIn-1-1200x627-1-1024x536.webp)
 
 The Community Crawl is like a pub crawl except you hop from startup offices to startup offices. It’s an engaging open house event where guests can check out different startups. Over a dozen startups opened their doors, so **thanks to everyone who took the time to check us out!** 
 
@@ -21,7 +21,7 @@ Those who attended immediately noticed our new spacious office space, complete w
 
 To celebrate our move and christen our new space and tiki bar, we hosted a tiki party, replete with festive Hawaiian leis and shirts. 
 
-![](IMG_1257a-1-1024x658.jpg)
+![](IMG_1257a-1-1024x658.webp)
 
 _LoginRadius founder & CEO, Rakesh Soni, enjoying our new custom-made tiki bar._ 
 
@@ -37,11 +37,11 @@ Being a startup with a modest budget, we had to be creative with the DIY decor.�
 
 We painted colourful signs on cardboard and made little pineapple lanterns which we strung across the room. Then, to brighten the room, we added flamingo-pink dangling paper tissue balls from the ceiling. Hanging decorations from the ceiling are better than sticking them on walls. It makes a room look full and festive with very little material.
 
-![](IMG_1132a-1024x658.jpg)
+![](IMG_1132a-1024x658.webp)
 
 _We bought yellow lanterns and turned them into pineapples._ 
 
-![](IMG_1215a-1-1024x658.jpg)
+![](IMG_1215a-1-1024x658.webp)
 
 _We placed hand-painted signs, including our drinks menu, all over the room._
 
@@ -49,7 +49,7 @@ _We placed hand-painted signs, including our drinks menu, all over the room._
 
 Another easy way to add more tiki into a room is by playing music. We found a pre-made tiki playlist on a streaming app and let it loop throughout the night. There wasn’t any official dancing at our party, but we had lots of people bobbing their heads or tapping their feet to the beat. 
 
-![](IMG_1178a-1024x658.jpg)
+![](IMG_1178a-1024x658.webp)
 
 _Our team members and guests having fun at our tiki tech party._ 
 
@@ -59,7 +59,7 @@ The tiki bar was made by a local carpenter. He came by our office to look at the
 
 What he built was better than what we expected! The frame is made of durable wood and lined with the bamboo-like exterior. On the inside, we have a fridge for the keg and another fridge for other drinks. On the surface of the bar is the tap for the beer. The front was lined with LED lights that changed colours. Everything is covered by a thatched roof, completing the tiki look. 
 
-![](IMG_1238-1a-1024x658.jpg)
+![](IMG_1238-1a-1024x658.webp)
 
 _To the left is Mark from Torlay, our local carpenter, who designed and built our lovely tiki bar!_
 
@@ -73,7 +73,7 @@ To ensure a fun relaxing night for everyone, we hired a bartender. His lime marg
 
 The tap beer on the tiki bar was also a celebration on its own. Plus, right before the event, one of our team members whipped up some killer tropical sangria.
 
-![](IMG_1149a-1024x658.jpg)
+![](IMG_1149a-1024x658.webp)
 
 _Our bartender, Sam, making amazing tropical drinks for us all night long._ 
 
@@ -84,7 +84,7 @@ Whether you do or don’t have a tiki bar, you can create the vibe around your c
 
 The first impression is everything. Each guest who came through our doors received a flower lei over their heads. It’s a great way to create that instant tiki environment. We went a step further and created little tags for each lei with our company logo and a QR code that took them to our [Careers page](https://www.loginradius.com/careers/) for those who are interested in joining us for more than just a tiki party. 
 
-![](IMG_1244a-1024x658.jpg)
+![](IMG_1244a-1024x658.webp)
 
 _Lovely volunteers from Vancouver Startup Week helped us give leis to our guests._ 
 
@@ -92,7 +92,7 @@ _Lovely volunteers from Vancouver Startup Week helped us give leis to our guests
 
 On our TV, we displayed a one-minute online survey that can be taken on mobile phones. Since LoginRadius secures digital identities, we asked our guests to check all the different digital identities they used in the past week. This included emails, online banking, various video games, social media, and more. 
 
-![](IMG_1159a-1024x658.jpg)
+![](IMG_1159a-1024x658.webp)
 
 _Individuals scanned the QR code on our TV to take our one-minute digital identity survey._ 
 
@@ -109,7 +109,7 @@ On a weekend night, what better way to end a party than with an after-party? We 
 
 Planning fun parties can be exhausting. Allowing spontaneous after parties can help you feel free and serve as a reminder that an enjoyable event doesn’t always have to be stringently planned. 
 
-![](IMG_20190913_200408a-1024x659.jpg)
+![](IMG_20190913_200408a-1024x659.webp)
 
 _The after-party selfie—no party is complete without it!_
 

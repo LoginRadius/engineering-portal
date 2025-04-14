@@ -1,7 +1,7 @@
 ---
 title: "Why Identity Management for Education Sector has Become Crucial"
 date: "2020-07-08"
-coverImage: "Identity-Management-for-Education.jpg"
+coverImage: "Identity-Management-for-Education.webp"
 tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni"
@@ -46,7 +46,7 @@ Institutes allow students to store data on their own devices, tablets, or laptop
 
 Most students don't invest in paid antivirus software or anti-malware versions. Also, they download free, pirated apps. So, every time they plug their infected USB into the institute's network, the whole system gets affected. 
 
-[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### Potential open network vulnerabilities
 
@@ -104,7 +104,7 @@ The hacker may, in this case, plant requests that seem to come from a legitimate
 
 ## Data Risk and Vulnerabilities in Online Education Apps and Websites
 
-![Identity-Management-for-Education](Identity-Management-for-Education-1.jpg)
+![Identity-Management-for-Education](Identity-Management-for-Education-1.webp)
 
 Software applications – apps – are common on campuses nowadays. From in-class polling devices to driving university-wide learning management systems, educational institutions are swiftly adapting to the new trend. 
 
@@ -184,4 +184,4 @@ Given this rapid upgrade in the classroom environment, experts are curious wheth
 
 If it does (which sure, will), LoginRadius will certainly complement the complex, and unique CIAM needs for schools, colleges, and universities across the globe.
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-education)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-education)

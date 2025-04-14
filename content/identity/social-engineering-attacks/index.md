@@ -1,7 +1,7 @@
 ---
 title: "Social Engineering Attacks: Prevention and Best Practices [Infographic]"
 date: "2020-10-06"
-coverImage: "social-engineering-attacks.jpg"
+coverImage: "social-engineering-attacks.webp"
 tags: ["data security","authentication","mfa"]
 author: "Rakesh Soni"
 description: "Over the years, social engineering attacks have been a regular phenomenon against companies. It has actually become more and more sophisticated. It is high time for businesses to perform careful research and use the right instruments to remain ahead of fraudsters."
@@ -38,7 +38,7 @@ Here is a quick overview of the most common social engineering scams used agains
 
 For example, the fraudster might pretend to represent a bank, a government organization, or a major corporation trusted by the naive victim. The source can be an email asking the email recipients to click on a link to log in to their accounts. They are then redirected to a fake website appearing to be legitimate, and that's where the attack takes place.
 
-[![passwords are dead whitepaper](SET-1.png)](https://www.loginradius.com/resource/passwords-are-dead/)
+[![passwords are dead whitepaper](SET-1.webp)](https://www.loginradius.com/resource/passwords-are-dead/)
 
 ### Spear Phishing
 
@@ -88,6 +88,6 @@ Be careful of what you share. And no, you don't need to be paranoid about these 
 
 To learn more about Social Engineering Attacks – preventions and best practices, check out the infographic created by LoginRadius.
 
-![Social-Engineering-Attacks-infographic](Social-Engineering-Attacks-2.png)
+![Social-Engineering-Attacks-infographic](Social-Engineering-Attacks-2.webp)
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-engineering-attacks)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-engineering-attacks)

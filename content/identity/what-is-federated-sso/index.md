@@ -1,7 +1,7 @@
 ---
 title: "What is Federated SSO (Single Sign-On)?"
 date: "2022-08-17"
-coverImage: "federated-sso.jpg"
+coverImage: "federated-sso.webp"
 tags: ["single sign-on", "federated sso", "authentication"]
 author: "Rakesh Soni"
 description: "With fed SSO, businesses can bridge the authentication gap between multiple platforms and enable users to access services without needing a separate login at the partner platform. This blog explains fed SSO and how businesses should leverage it."
@@ -175,4 +175,4 @@ SAML (Security Assertion Markup Language) is favored for SSO due to its standard
 
 The main components are the Identity Provider (IdP) for authentication, the Service Provider (SP) for access, and the Digital Token that verifies a user's identity.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-sso)

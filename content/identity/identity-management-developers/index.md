@@ -1,7 +1,7 @@
 ---
 title: "Identity Management for Developers: Why it's required more than ever"
 date: "2020-10-29"
-coverImage: "Identity-Management-for-Developers.jpg"
+coverImage: "Identity-Management-for-Developers.webp"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
@@ -60,7 +60,7 @@ One of the best ways to fight security misconfiguration is through increased vis
 
 ## Developers are on the front foot
 
-![](Identity-Management-for-Developers2.png)
+![](Identity-Management-for-Developers2.webp)
 
 What can prevent someone from breaking into an application or online software system and stealing information or [accessing sensitive credentials](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/)? Both the challenges and the solutions rely on software, and the situation is well known to many developers. After all, they are the first line of defense.
 
@@ -78,13 +78,13 @@ To help developers prepare better, we come up with a list of the best applicatio
 
 ## Integrating Security in DevOps
 
-![](Identity-Management-for-Developers-3.png)
+![](Identity-Management-for-Developers-3.webp)
 
 The business IT infrastructure of today is more varied, diverse, and complex than ever before. Environments there were earlier confined to on-premises and are not hosted on multiple clouds and IoT devices. 
 
 However, this modern open perimeter has been posing fundamental challenges for cybersecurity. It requires a [zero-trust environment](https://www.loginradius.com/blog/2019/10/cloud-computing-security-challenges/) to thrive in the development and operations (DevOps) life cycle. It takes not only the right tools and technology to bring this approach into effect, but a shift in philosophy focused on the holistic integration of security within the DevOps lifecycle.
 
-[![](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![](protecting-pii-against-data-breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 
 The safety mechanisms embedded in DevOps offers the following benefits (but not confined to): 
@@ -97,7 +97,7 @@ The safety mechanisms embedded in DevOps offers the following benefits (but not 
 
 ## How LoginRadius Provides Ideal Identity Management for Developers
 
-![](Identity-Management-for-Developers-4.png)
+![](Identity-Management-for-Developers-4.webp)
 
 Identity is the cornerstone of the modern consumer experience. A good, scalable [CIAM solution](https://www.loginradius.com/blog/2019/06/perfect-ciam-platform/) allows you to manage consumer identity and access securely.
 
@@ -117,4 +117,4 @@ Identity management for developers is required more than ever. It should be seam
 
 No wonder meeting the demands of both businesses and consumers is an uphill ride. The right CIAM solution comes with improved data security and identity management features that meet the developers' need for top-notch experiences.  
 
-[![](Book-a-demo-banner.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-developers)
+[![](Book-a-demo-banner.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-developers)

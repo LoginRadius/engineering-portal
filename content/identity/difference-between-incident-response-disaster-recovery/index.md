@@ -1,7 +1,7 @@
 ---
 title: "Incident Response Vs. Disaster Recovery: What’s The Difference and Which Do You Need?"
 date: "2022-11-25"
-coverImage: "disaster-recovery.jpg"
+coverImage: "disaster-recovery.webp"
 tags: ["incident response", "disaster recovery", "enterprise security"]
 author: "Alok Patidar"
 description: "When a business has a disaster, its recovery falls into two categories: incident response and disaster recovery. This blog offers an overview of the most important aspects of each, as well as the reasons you might choose one over the other."
@@ -38,7 +38,7 @@ Disaster recovery plans focus on [business continuity](https://blog.loginradius.
 
 There's a lot of confusion around the difference between incident response vs. disaster recovery plans. It's understandable, as they both address similar types of events and can seem like they're interchangeable. But the truth is that they are very different, and you need to know which one you need before you start planning your company's security strategy.
 
-[![WP-enterprise-security](WP-enterprise-security.png)](https://www.loginradius.com/resource/principles-of-enterprise-security/)
+[![WP-enterprise-security](WP-enterprise-security.webp)](https://www.loginradius.com/resource/principles-of-enterprise-security/)
 
 Incident response plans are important to any organization's cyber security strategy. It's a set of policies and procedures that outline what steps need to be taken in case of a cyberattack and how the organization plan to respond to an attack if its networks become compromised. The goal of an incident response plan is to ensure that your business can respond quickly and efficiently when there’s been a breach or loss of data. It also helps you identify what went wrong and how you can prevent it from happening again.
 
@@ -53,4 +53,4 @@ If you have a disaster recovery plan but no incident response plan, you may ulti
 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-incident-response-disaster-recovery)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-incident-response-disaster-recovery)

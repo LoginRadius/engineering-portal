@@ -1,7 +1,7 @@
 ---
 title: "React's Reconciliation Algorithm"
 date: "2019-12-03"
-coverImage: "react-fiber.png"
+coverImage: "react-fiber.webp"
 author: "Team LoginRadius"
 tags: ["React"]
 ---

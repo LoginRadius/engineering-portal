@@ -1,7 +1,7 @@
 ---
 title: "How to Use Enum in C#"
 date: "2020-12-18"
-coverImage: "coverimage.jpg"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#","Enum"]
 description: "Would you like to become more proficient in your C# programming in the use of enums? To learn the basics and use cases for Enum in C#, read this post."

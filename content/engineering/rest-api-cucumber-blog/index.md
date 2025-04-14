@@ -1,7 +1,7 @@
 ---
 title: "Automating Rest API's using Cucumber and Java"
 date: "2020-11-05"
-coverImage: "cucumber_rest_assured.png"
+coverImage: "cucumber_rest_assured.webp"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "Cucumber", "Rest API", "Java"]
 description: "This article is about basic overview of how to automate Rest API using Cucumber and JAVA."

@@ -1,7 +1,7 @@
 ---
 title: "How to Get Email Alerts for Unhandled PHP Exceptions"
 date: "2015-10-26"
-coverImage: "email-alerts-unhandled-php.png"
+coverImage: "email-alerts-unhandled-php.webp"
 author: "Team LoginRadius"
 tags: ["PHP","Email"]
 ---

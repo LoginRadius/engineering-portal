@@ -1,7 +1,7 @@
 ---
 title: "Elevating Data Precision-Power of Identity Resolution"
 date: "2023-10-12"
-coverImage: "identity-resolution.jpg"
+coverImage: "identity-resolution.webp"
 tags: ["data governance","e-commerce","identity resolution"]
 author: "Vishal Sharma"
 description: "Dive into the world of identity resolution and learn how businesses connect data dots, ensuring precision in every interaction. Uncover real-life examples in healthcare and retail and understand the challenges organizations face. Embrace these techniques for unparalleled success in today's competitive landscape."
@@ -38,7 +38,7 @@ Accurate data is the foundation of numerous business operations, and identity re
 
 2. **Retail and Marketing:** In the retail industry, identity resolution can be a game-changer for understanding customer behavior. Let's say a customer shop online, subscribes to a newsletter, and makes in-store purchases. By accurately resolving the identity of this customer across different channels, the retailer can gain insights into their preferences and habits, allowing for targeted marketing campaigns that resonate with the customer's interests.
 
-[![WP-digital-transformation-ecommerce](WP-digital-transformation-ecommerce.png)](https://www.loginradius.com/resource/digital-transformation-retail-ecommerce-whitepaper) 
+[![WP-digital-transformation-ecommerce](WP-digital-transformation-ecommerce.webp)](https://www.loginradius.com/resource/digital-transformation-retail-ecommerce-whitepaper) 
 
 ### Considerations in Identity Resolution
 
@@ -54,4 +54,4 @@ From delivering personalized customer experiences to enhancing risk management, 
 
 By embracing these techniques and addressing the associated challenges, organizations can unlock a new level of efficiency and effectiveness in their operations, ultimately leading to tremendous success in today's competitive landscape. As technology evolves, identity resolution will remain a cornerstone of data accuracy and a driving force behind data-driven innovation.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-resolution-data-accuracy)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-resolution-data-accuracy)

@@ -1,7 +1,7 @@
 ---
 title: "CSS/HTML Animated Dropdown Navigation"
 date: "2015-12-15"
-coverImage: "drop-anim-300x300.png"
+coverImage: "drop-anim-300x300.webp"
 author: "Zakary Hughes"
 tags: ["HTML", "CSS", "UI", "CSS Animation"]
 ---
@@ -13,12 +13,12 @@ Navigation buttons, depending on your site of course, are likely going to be som
 A common featured for navigation menus is the drop down functionality for displaying sub options. This can be achieved through Javascript if you really feel like it (you don't), but why bother with that when CSS3 offers a much more elegant solution!
 
 First we start out building a simple un-ordered list, and give it some list items each of which contain a link that point nowhere in particular.  
-![dropdownscreen1](dropdownScreen1.png)
+![dropdownscreen1](dropdownScreen1.webp)
 
 By the way, if you're on Sublime Text there's a great shortcut for making lists: ul>li+li+li+li and then "Tab" creates an un-ordered list with 4 list item tags inside of it. For more excellent Sublime tips check out my amigo Lucius' [blog post](/beginners-guide-for-sublime-text/) on the topic.
 
 Now that we've got the bare bones, let's give this skeleton a spine. We're now going to put another ul inside of those list items, and once again more list items inside of those lists which contain, you guessed it, links to nowhere.  
-![dropdownscreen2](dropdownScreen2.png)
+![dropdownscreen2](dropdownScreen2.webp)
 
 That's all the HTML we have to write for this example, so now we move on to the CSS.
 
@@ -26,10 +26,10 @@ The first few things on the ul's and links are just to remove some default style
 
 The first actually relevant style is the inline-block display property on the list items to make them spread out horizontally. If you're unfamiliar with using inline-block for positioning I highly recommend reading up on it because it's an awesome alternative to floats or sometimes even flex-box. Next up we give these list items a relative position, so that the later absolutely positioned sub menu will use this as a reference point.
 
-![dropdownscreen3](dropdownScreen3.png)
+![dropdownscreen3](dropdownScreen3.webp)
 
 To quote every MTV cribs star ever, here's where the magic happens. We put a max-height (that is at least as tall as all of the list items on the sub menu) and a height of auto on the sub menu. Note the ul li:hover, meaning these styles only apply when the first level of list items are hovered over. This might seem weird now, but it'll hopefully make sense with the styles we make use of in a bit.  
-![dropdownscreen4](dropdownScreen4.png)
+![dropdownscreen4](dropdownScreen4.webp)
 
 Next up we just give the links some padding, which is highly preferable to giving the list item padding because then you can end up with a small hitbox for the actual link and a bunch of dead space around it. Only other thing to note here is the display block on the link which is required for the absolute positioning used later.
 

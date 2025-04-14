@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Supports Hacktoberfest 2020"
 date: "2020-09-18"
-coverImage: "hacktober-fest-banner.png"
+coverImage: "hacktober-fest-banner.webp"
 author: "Hridayesh Sharma"
 description: "Open Source is changing the world, One Pull Request at a time. Join LoginRadius this year in supporting hacktoerbest 2020 by contributing to open source and get cool swags from LoginRadius"
 tags: ["hacktoberfest", "open-source", "LoginRadius"]

@@ -1,7 +1,7 @@
 ---
 title: Getting Started with OAuth 2.0
 date: "2020-08-24"
-coverImage: "oauth2.png"
+coverImage: "oauth2.webp"
 author: "Indrasen Kumar"
 tags: ["Engineering", "Oauth", "Authentication"]
 description: "Using this blog one can easily understand the basic concept of Oauth 2.0"
@@ -41,7 +41,7 @@ In total, there are five different grant type flows defined and described to per
 ### Authorization Code Grant
 The Authorization Code Grant Type is the most commonly used grant type.
 
-![Authorization Code Grant](./image4.png)
+![Authorization Code Grant](./image4.webp)
 
 **The Story:** A user tries to log in on  abc.com  but he can’t remember his password and he discovers an option to sign in with google, by clicking on this, the user will easily get logged using google account.
 
@@ -72,7 +72,7 @@ In the entire flow, the access token is never exposed to a web browser.
 ### Implicit Grant
 The Implicit flow was a simplified OAuth flow previously recommended for client-side applications like JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.
 
-![Implicit Grant](./image2.png)
+![Implicit Grant](./image2.webp)
 
 The Story: In this flow abc.com directly get access token without an extra authorization code exchange steps and able to access resources on a resource server
 
@@ -108,7 +108,7 @@ The client then sends a POST request with following body parameters to the autho
 
 Using this flow the client can request an access token using only its client credentials (or other supported means of authentication).
 
-![Client Credentials Grant](./image3.png)
+![Client Credentials Grant](./image3.webp)
 
 **The Story:** The client application presents its client credentials (client identifier and client secret) to the authorization server requesting approval to access the protected resource (owned by the client application) on the resource server. 
 The authorization server authenticates the client credential and issues an access token.

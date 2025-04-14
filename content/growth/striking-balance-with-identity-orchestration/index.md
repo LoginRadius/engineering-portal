@@ -1,7 +1,7 @@
 ---
 title: "Striking the Perfect Balance: Leveraging Identity Orchestration for Cost, Security, & Enhanced UX"
 date: "2023-06-20"
-coverImage: "identity-orchestration.jpg"
+coverImage: "identity-orchestration.webp"
 tags: ["identity orchestration","compliance","cx"]
 author: "Rakesh Soni"
 description: "Discover the power of identity orchestration in achieving a balanced approach to cost, security, and user experience. Explore the advantages of centralized user management and streamlined authentication for a seamless digital environment that optimizes resources and enhances security measures."
@@ -58,7 +58,7 @@ As organizations expand their digital footprint or undergo mergers and acquisiti
 
 This scalability enables organizations to efficiently manage user identities and access controls across a dynamic and evolving technology landscape.
 
-[![WP-resilience](WP-resilience.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-resilience](WP-resilience.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 ### 7. Seamless integration with existing infrastructure
 
@@ -78,4 +78,4 @@ Achieving the perfect balance between cost, security, and user experience is a c
 
 By optimizing costs, strengthening security measures, and delivering an enhanced user experience, identity orchestration becomes a crucial component of a modern and successful digital strategy. Embracing this approach enables organizations to unlock the full potential of their digital ecosystems while maintaining a competitive edge in today's dynamic business landscape.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=striking-balance-with-identity-orchestration)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=striking-balance-with-identity-orchestration)

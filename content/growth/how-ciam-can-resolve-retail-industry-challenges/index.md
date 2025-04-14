@@ -1,7 +1,7 @@
 ﻿---
 title: "5 Key CIAM Benefits and Challenges in the Retail Industry"
 date: "2021-09-17"
-coverImage: "retail-industry.jpg"
+coverImage: "retail-industry.webp"
 tags: ["mfa","ciam provider","user experience","cx"]
 author: "Navanita Devi"
 description: "The modern retail industry has several challenges that can be solved by deploying a CIAM solution. Read this blog to learn how CIAM goes beyond just streamlining a platform to make it more intuitive, and how it boosts the marketing and sales efforts of a business in the retail industry."
@@ -39,7 +39,7 @@ It has been established that an [effective marketing strategy](https://www.login
 
 Another challenging aspect that online platforms face is the problem of personalization. Personalization, if executed properly, can urge the customer to make several purchases at a time and keep them coming back for more. In other words, it can improve the loyalty of the customer. However, this requires the platform to get to know the customer and their wants and needs, which is difficult.
 
-[![WP-omnichannel-retail](WP-omnichannel-retail.png)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![WP-omnichannel-retail](WP-omnichannel-retail.webp)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 ## 5 Benefits of Implementing CIAM for E-commerce Platforms
 
@@ -119,4 +119,4 @@ The critical issues in retailing are fluid platform experience for seamless cust
 
 Retail marketing faces challenges such as reaching customers across multiple platforms, managing data silos, and the need for personalized strategies to enhance customer loyalty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-can-resolve-retail-industry-challenges)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-can-resolve-retail-industry-challenges)

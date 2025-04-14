@@ -1,7 +1,7 @@
 ---
 title: "Protecting Your Cloud Data: The Power of SaaS Security and IAM Governance"
 date: "2023-02-16"
-coverImage: "saas-secure.jpg"
+coverImage: "saas-secure.webp"
 tags: ["saas", "identity-governance", "authentication"]
 author: "Rakesh Soni"
 description: "Since organizations today have thousands and even millions of users logging simultaneously into their accounts, ensuring security at every end-point becomes an uphill battle. Hence, a robust identity and access management system becomes more crucial than ever. Let’s glance at some aspects of securing SaaS environments by incorporating a robust identity and access management solution."
@@ -46,7 +46,7 @@ But what makes an IAM solution genuinely effective?
 
 For starters, it should allow you to authenticate users securely through multi-factor and adaptive authentication. Your customers and employees will never have to worry about having their credentials stolen or compromised.
 
-[![EB-Adaptive-auth](EB-Adaptive-auth.png)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
+[![EB-Adaptive-auth](EB-Adaptive-auth.webp)](https://www.loginradius.com/resource/adaptive-authentication-in-the-age-of-digital-apocalypse/)
 
 Also, the cutting-edge CIAM system like [LoginRadius](https://www.loginradius.com/) helps meet all the necessary global compliances like CCPA and GDPR to ensure businesses need not worry about hefty fines and regulations while serving their customers in parts of the world. 
 
@@ -90,4 +90,4 @@ As a solution provider of IAM solutions for SaaS companies, LoginRadius’s team
 
 We are keenly aware of the needs of SaaS enterprises, and we will continue to provide advanced identity management solutions that deliver the performance needed for any business to grow in this market.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saas-security-iam-effective-governance)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saas-security-iam-effective-governance)

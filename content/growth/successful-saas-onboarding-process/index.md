@@ -1,7 +1,7 @@
 ﻿---
 title: "The ABCs of a Successful Saas Onboarding Process"
 date: "2021-08-27"
-coverImage: "user-onboarding.jpg"
+coverImage: "user-onboarding.webp"
 tags: ["user onboarding","saas","login authentication"]
 author: "Navanita Devi"
 description: "The onboarding process is the lifeline for your customer, and it's one of the most valuable tools that you as a company can control. Here are a few tips for a stellar SaaS company onboarding process that will greatly improve your customer retention and overall satisfaction."
@@ -25,7 +25,7 @@ Here are a few phases you should know about when it comes to [consumer onboardin
 
 The initial onboarding phase does not occur on your website or blog but typically occurs on social media, in a forum or remark, or on another person's blog. Your onboarding experience begins with a customer's first interaction with your brand.
 
-![steps-user-onboarding](user-onboarding2.jpg)
+![steps-user-onboarding](user-onboarding2.webp)
 
 ### User Onboarding: Phase 2
 
@@ -55,7 +55,7 @@ The onboarding process should be done properly, it can take your business to new
 
 Now, below we will discuss some elements that you need to keep in mind while onboarding consumers for your SaaS business.
 
-[![DS-User-management](DS-User-management.png)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
+[![DS-User-management](DS-User-management.webp)](https://www.loginradius.com/resource/loginradius-ciam-user-management/)
 
 ## 4 Important SaaS Onboarding Elements
 
@@ -95,4 +95,4 @@ When it comes to [SaaS onboarding](https://www.loginradius.com/blog/fuel/why-is-
   
 
 Start working on fixing your weak points once you've recognized them. Begin by making one adjustment at a time and seeing how it affects your cohort analysis. Your onboarding strategy won't be built in a day, and it won't be modified in a day, either.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=successful-saas-onboarding-process)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=successful-saas-onboarding-process)

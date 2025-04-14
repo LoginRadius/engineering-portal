@@ -1,7 +1,7 @@
 ---
 title: "Planning to Reduce Your CPA By 50%? You Need ID Management"
 date: "2022-07-06"
-coverImage: "cpa-market.jpg"
+coverImage: "cpa-market.webp"
 category: ["cost per acquisition", "identity management", "marketing"]
 author: "Navanita Devi"
 description: "An essential marketing requirement is to know your customers first and then learn about their preferences. With a reliable CIAM system, marketers need not worry about collecting valuable customer insights; CIAM does it all without burning a pocket!  Let’s understand how."
@@ -59,7 +59,7 @@ Collecting unnecessary data wastes resources and increases the risk of identity 
 
 With a reliable CIAM, businesses can leverage the true potential of progressive profiling. 
 
-[![EB-Progressive-profiling](EB-Progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-Progressive-profiling](EB-Progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 Progressive profiling for customer registration allows you to split a potentially complicated registration process into multiple steps. You can capture a customer’s information upfront and then slowly build a holistic view of that customer through subsequent actions.
 
@@ -75,4 +75,4 @@ Apart from reducing the cost per acquisition, businesses can ensure robust custo
 Hence, if a business wishes to succeed with minimum investment, it must leverage the true potential of a CIAM solution. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-reduce-cpa-marketers)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-reduce-cpa-marketers)

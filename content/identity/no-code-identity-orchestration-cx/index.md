@@ -1,7 +1,7 @@
 ---
 title: "Gearing Up for Better Customer Experiences? Choose No-Code Identity Orchestration"
 date: "2024-07-01"
-coverImage: "no-code-id-orchestration.jpg"
+coverImage: "no-code-id-orchestration.webp"
 tags: ["identity orchestration","login authentication","cx"]
 author: "Cooper Matheson"
 description: "In today’s digital landscape, enhancing customer experience is crucial for business success. No-code identity orchestration offers a powerful solution to streamline user authentication, improve security, and personalize interactions without extensive coding. Discover how this technology can transform your CX strategy, offering speed, cost-efficiency, and innovation. Read on to explore its benefits and implementation tips."
@@ -38,7 +38,7 @@ Ensuring the security of user data is paramount. No-code identity orchestration 
 
 As businesses grow, their identity management needs evolve. No-code platforms offer scalability, allowing organizations to easily adapt to increasing user demands and integrate new services without overhauling their existing systems.
 
-[![WP-resiliency](WP-resiliency.png)](https://www.loginradius.com/resource/whitepaper/handling-resiliency-scale/)
+[![WP-resiliency](WP-resiliency.webp)](https://www.loginradius.com/resource/whitepaper/handling-resiliency-scale/)
 
 ## Benefits of No-Code Identity Orchestration
 
@@ -82,4 +82,4 @@ No-code identity orchestration is a game-changer for businesses looking to eleva
 
 By simplifying the development process, enhancing security, and enabling personalized interactions, the no-code identity orchestration empowers organizations to meet and exceed customer expectations. As digital experiences continue to evolve, investing in no-code identity orchestration will be key to staying competitive and achieving long-term success.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=no-code-identity-orchestration-cx)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=no-code-identity-orchestration-cx)

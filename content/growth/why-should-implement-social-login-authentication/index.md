@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Should You Implement Social Login Authentication?"
 date: "2021-08-16"
-coverImage: "social-login-1.jpg"
+coverImage: "social-login-1.webp"
 tags: ["social login authentication","data security","cx"]
 author: "Navanita Devi"
 description: "If you're building a startup today, social login should be the default, not an afterthought. It will give you a huge competitive advantage, because your users won't have to register or even create an email address to use your site."
@@ -28,7 +28,7 @@ Social logins is usually manifested using the following steps:
     
 4.  Finally, the social media provider will confirm the identity of the user, who will then obtain access to the application or site.
     
-[![social-login](Social-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![social-login](Social-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 Depending on the social network provider and their respective CIAM management practices, the process of social login authentication differs slightly. This is because each platform collects different user information and implements distinct consumer data security strategies.
 
@@ -129,4 +129,4 @@ Organizations can implement social login by using a robust CIAM solution like Lo
 
 Single Sign-On (SSO) allows users to access multiple applications with one set of credentials. At the same time, social login is an authentication mechanism that specifically uses social media credentials for user authentication.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-should-implement-social-login-authentication)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-should-implement-social-login-authentication)

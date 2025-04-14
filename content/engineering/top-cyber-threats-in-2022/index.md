@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Cyber Threats in 2022"
 date: "2022-05-31"
-coverImage: "top-10-cyber-threats-in-2022.png"
+coverImage: "top-10-cyber-threats-in-2022.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Cyber Threats", "Security"]
 description: "Cybercriminals are using an increasing number of attacks to exploit web apps and steal valuable data. This article teaches about the ten most common types of cyber threats."

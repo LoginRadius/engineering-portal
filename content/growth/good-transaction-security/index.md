@@ -1,7 +1,7 @@
 ﻿---
 title: "How Good Transaction Security Ensures Smooth Consumer Visits"
 date: "2021-09-07"
-coverImage: "smooth-transaction-security-with-loginradius.jpg"
+coverImage: "smooth-transaction-security-with-loginradius.webp"
 tags: ["ciam solution","compliance","data security"]
 author: "Vishal Sharma"
 description: "The sudden increase in the number of transaction-related security breaches is undeniably pointing towards the need for a robust security mechanism that can build consumer trust. This post uncovers the role of secure transactions and how businesses can ensure smooth consumer visits."
@@ -118,7 +118,7 @@ Data security and privacy are ensured through a built-in web application firewal
 
 RBA goes beyond a static list of rules and adapts to ask consumers for the types of verification that best suit a user session.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)  
 
 LoginRadius incorporates the following additional factors to its RBA solutions:
 
@@ -154,4 +154,4 @@ Good transaction security coupled with a great user experience is the key to onl
   
 
 Businesses can leverage the true potential of a robust CIAM solution like LoginRadius to secure their transactions without hampering user experience to get a competitive advantage in terms of smooth consumer visits.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=good-transaction-security)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=good-transaction-security)

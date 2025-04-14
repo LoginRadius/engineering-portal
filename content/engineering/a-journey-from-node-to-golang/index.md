@@ -2,7 +2,7 @@
 title: "A journey from Node to GoLang"
 date: "2020-08-11"
 author: "Narendra Pareek"
-coverImage: "node-go.png"
+coverImage: "node-go.webp"
 tags: ["NodeJs", "Golang", "Performance"]
 description: "If your existing technology is not fulfilling all your needs and you are thinking about switching to the new one. Also, if you are concerned about the performance. Here is the blog that can help you in this direction."
 ---
@@ -38,20 +38,20 @@ On the basis of our research, we also did some benchmarking on different node js
 
 **Benchmarking sever** we’ve used with below configurations
 
-![server](server.png)
+![server](server.webp)
 
 
 **The benchmarking result** was pretty much similor to what we are thinking. Here are the benchmarking results -
 
 #### 100000 Requests 5000 Concurrency
 
-![sheet1](sheet1.png)
+![sheet1](sheet1.webp)
 
 
 
 #### 100000 Requests 7500 Concurrency
 
-![sheet2](sheet2.png)
+![sheet2](sheet2.webp)
 
 There was a big difference. For better clarity let’s see the below graphs.
 
@@ -59,23 +59,23 @@ There was a big difference. For better clarity let’s see the below graphs.
 
 In the below chart, we can clearly see that Golang won the competition and Hapi has taken the maximum time to finish the test.
 
-![total-time-taken-for-test](total-time-taken-for-test.png)
+![total-time-taken-for-test](total-time-taken-for-test.webp)
 
 
 ### Request per second (s) and Transfer Rate kb/s
 
 In the below chart, we can see that Golang served maximum requests per second.
 
-![request-per-second-and-transfer-rate-kb-s](request-per-second-and-transfer-rate-kb-s.png)
+![request-per-second-and-transfer-rate-kb-s](request-per-second-and-transfer-rate-kb-s.webp)
 
 ### Request per second (s) and Time per request (ms)
 
 The below chart is showing that the Number of requests is very high compared to other node js frameworks.
 
-![request-per-second-and-time-per-request](request-per-second-and-time-per-request.png)
+![request-per-second-and-time-per-request](request-per-second-and-time-per-request.webp)
 
 ### Total Data Transferred
 
-![chart](chart.png)
+![chart](chart.webp)
 
 All the data clearly shows the direction so we decided to move to GoLang.

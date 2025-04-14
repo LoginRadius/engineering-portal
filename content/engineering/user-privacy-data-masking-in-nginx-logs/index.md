@@ -1,7 +1,7 @@
 ---
 title: "Data Masking In Nginx Logs For User Data Privacy And Compliance"
 date: "2021-05-18"
-coverImage: "data-masking-in-nginx-logs-for-user-data-privacy-and-compliance.jpg"
+coverImage: "data-masking-in-nginx-logs-for-user-data-privacy-and-compliance.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Nginx", "Logs", "Data Masking", "Compliance", "Privacy"]
 description: "Learn about data masking in nginx logs for user data privacy and compliance."

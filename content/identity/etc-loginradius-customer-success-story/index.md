@@ -1,7 +1,7 @@
 ---
 title: "Electronic Theatre Controls: A LoginRadius Customer Success Story"
 date: "2022-12-08"
-coverImage: "etc-connect.jpg"
+coverImage: "etc-connect.webp"
 tags: ["customer success", "identity management", "cx"]
 author: "Saikiran Babladi"
 description: "ETC now manages user identity centrally with LoginRadius CIAM. This allows the team to create and manage unified consumer profiles that can be used throughout the business’ entire digital ecosystem." 
@@ -54,7 +54,7 @@ With support from LoginRadius, ETC successfully unified its multiple products wi
 The centralized login system enables users to seamlessly navigate third-party sites without needing to log back whenever they return.
 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ## Identifying actionable behavioral insights
@@ -74,4 +74,4 @@ To guarantee ETC's success at every level, LoginRadius introduced dedicated acco
  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=etc-loginradius-customer-success-story)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=etc-loginradius-customer-success-story)

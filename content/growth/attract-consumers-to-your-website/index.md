@@ -1,7 +1,7 @@
 ---
 title: "5 Tricks to Attract MORE Consumers to Your Website"
 date: "2021-02-23"
-coverImage: "consumer-to-website.jpg"
+coverImage: "consumer-to-website.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -79,7 +79,7 @@ By considering these factors, you can get a hold of the social media channels ha
 
 Once you've identified and started concentrating on platforms, build a publishing plan for social media that allows you to keep to a schedule. You will find several resources that will help you plan social media posts in advance, giving you time to interact with your audience and checking out the competitors every day. Being disciplined about this will allow you to get more visitors to your site. 
 
-Many businesses today rely a lot on sharing and advertising their material on social media, with around [83% of marketers](https://contentmarketinginstitute.com/wp-content/uploads/2020/09/b2b-2021-research-final.pdf) using and viewing them as a lucrative marketing channel. They use social media to connect and share their content and that of others, and so should you. Through social media accounts, you can share your blog posts with your audience; doing so can increase traffic to your website. 
+Many businesses today rely a lot on sharing and advertising their material on social media, with around *83% of marketers* using and viewing them as a lucrative marketing channel. They use social media to connect and share their content and that of others, and so should you. Through social media accounts, you can share your blog posts with your audience; doing so can increase traffic to your website. 
 
 Since not many brands reply to follower comments, if you do it, your audience is more likely to go through the funnel quickly, i.e., they convert into consumers of your products or services._ _
 
@@ -122,4 +122,4 @@ Don't forget to build growth strategies after creating content to draw users to 
 
 By following these five tricks, you can make the most of your strategies to attract online consumers while also maintaining them and ensuring that they get converted into leads.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attract-consumers-to-your-website)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attract-consumers-to-your-website)

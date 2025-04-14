@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn Login using Node JS and passport"
 date: "2020-06-10"
-coverImage: "linkedin_login_node.png"
+coverImage: "linkedin_login_node.webp"
 author: "Aman Agrawal"
 tags: ["LinkedIn", "Login", "NodeJs", "PassportJS"]
 description: "Learn social login benefits and how we can implement LinkedIn Login on our website or mobile app."
@@ -24,7 +24,7 @@ Passport is an authentication middleware for Node, which authenticates requests 
   - Go to [Developer Linkedin](https://www.linkedin.com/developers/) and login with your Linkedin account. 
   - Once you have registered, click on the `create app` link and add the required details to create an app
 
-![Create Linkedin APP](create-app.png "Create Linkedin APP")
+![Create Linkedin APP](create-app.webp "Create Linkedin APP")
 
 Provide basic details about your app:
 - App name
@@ -35,7 +35,7 @@ Provide basic details about your app:
 
   - After creating apps go to the `auth` tab in the navigation bar as shown below. You can now copy your secret and ID from here 
 
-  ![App ID and Secret](app-credentials.png "App ID and Sceret")
+  ![App ID and Secret](app-credentials.webp "App ID and Sceret")
 
 
 2. Now enough, let's move to code, First of all, create a directory named `Linkedin-node-authentication`
@@ -320,10 +320,10 @@ npm start
 
 
 
-  ![Linkedin login home page](linkedin-login-page.png "Linkedin login home page")
+  ![Linkedin login home page](linkedin-login-page.webp "Linkedin login home page")
 
   Click on the sign in button, and you will be asked to login through Linkedin. Once logged in you will be redirected to profile page as below:
 
-  ![Linkedin login profile page](linkedin-profile-page.png "Linkedin login profile page")
+  ![Linkedin login profile page](linkedin-profile-page.webp "Linkedin login profile page")
 
   The complete sample code for the above tutorial can be found [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/LinkedinLoginPassport)

@@ -1,7 +1,7 @@
 ---
 title: "Strategic Insights: Leveraging Data Privacy for Marketers' Success"
 date: "2024-03-20"
-coverImage: "marketing-success.jpg"
+coverImage: "marketing-success.webp"
 tags: ["data privacy","compliance","cx"]
 author: "Rakesh Soni"
 description: "Data has become invaluable in digital marketing. However, amidst the quest for personalization, data privacy often takes a back seat. Explore how a strategic approach to data privacy can ensure compliance, build trust, and drive long-term success for marketers. Discover the importance of transparency and ethical data practices and how prioritizing privacy can set brands apart in a crowded marketplace."
@@ -39,7 +39,7 @@ Beyond legal compliance, marketers should prioritize ethical considerations in t
 
 An example of ethical data use is implementing granular consent mechanisms. Instead of blanket opt-ins, give consumers control over what they share. Allow them to choose the types of communication they receive and the data they're comfortable sharing. This not only builds trust but also ensures that the data collected is more accurate and relevant.
 
-[![WP-privacy](WP-privacy.png)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
+[![WP-privacy](WP-privacy.webp)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
 
 ## Data Privacy as a Competitive Advantage
 
@@ -53,4 +53,4 @@ Data privacy is not just a legal requirement for marketers; it's a strategic imp
 
 Brands that prioritize privacy comply with regulations and build lasting relationships with customers. In an era where data is abundant but trust is scarce, cultivating a privacy-first mindset is not just good ethics—it's good business. As marketers navigate the evolving landscape of digital marketing, let data privacy be their guiding star toward success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-boost-marketing-success)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-boost-marketing-success)

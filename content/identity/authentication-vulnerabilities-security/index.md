@@ -1,7 +1,7 @@
 ---
 title: "7 Common Authentication Vulnerabilities to Steer Clear of"
 date: "2023-11-09"
-coverImage: "auth-vulnerabilities.jpg"
+coverImage: "auth-vulnerabilities.webp"
 tags: ["data security","authentication","mfa","cx"]
 author: "Alok Patidar"
 description: "Explore the prevalent authentication vulnerabilities that put your online identity at risk. Learn how LoginRadius MFA enhances security, ensuring a safer online experience."
@@ -43,7 +43,7 @@ Credential stuffing occurs when cybercriminals use stolen usernames and password
 
 One of the most common authentication vulnerabilities is weak passwords. Many users still opt for easily guessable passwords, such as "123456" or "password." Creating strong, unique passwords for each account is essential to mitigate this risk. Hence, businesses must encourage their customers to use strong passwords. Also, companies should consider relying on secure password storage mechanisms to ensure the highest level of security. 
 
-[![GD-salt-hashing](GD-salt-hashing.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
+[![GD-salt-hashing](GD-salt-hashing.webp)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
 
 ### #4. Insecure Authentication Protocols
 
@@ -75,4 +75,4 @@ Staying vigilant and proactive in addressing these common authentication vulnera
 
 By adopting secure practices, using strong and unique passwords, and integrating multi-factor authentication solutions like LoginRadius MFA, you can significantly reduce the risk of falling victim to cyber threats and enjoy a safer online experience.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vulnerabilities-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vulnerabilities-security)

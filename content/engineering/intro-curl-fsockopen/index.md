@@ -1,7 +1,7 @@
 ---
 title: "An Intro to Curl & Fsockopen"
 date: "2015-03-09"
-coverImage: "fsock-and-curl.png"
+coverImage: "fsock-and-curl.webp"
 author: "Zoie Carnegie"
 tags: ["curl", "Fsock"]
 ---

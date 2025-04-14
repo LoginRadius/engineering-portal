@@ -1,7 +1,7 @@
 ---
 title: "10 Ways To Keep Your Business Safe On Black Friday and Cyber Monday"
 date: "2022-11-23"
-coverImage: "cyber-monday.jpg"
+coverImage: "cyber-monday.webp"
 tags: ["online shopping", "online security", "cx"]
 author: "Navanita Devi"
 description: "Black Friday and Cyber Monday mean big deals, but they also mean big risks. Take control of your security and privacy with these  tips to keep your business safe for cyber attacks."
@@ -61,7 +61,7 @@ As a retailer, your organization will likely experience a significant increase i
 
 To avoid this, retailers need to shift to a more pragmatic and strategic security approach to ensure the organization can recover quickly from a cybersecurity event and get back to business with zero data loss.
 
-[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ### 6. Think of uptime as an opportunity to maximize efficiency.
@@ -105,4 +105,4 @@ When you take some time to craft a post-purchase journey tailored to your custom
  
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-black-friday-cyber-monday-tips-for-businesses)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-black-friday-cyber-monday-tips-for-businesses)

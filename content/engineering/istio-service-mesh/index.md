@@ -1,7 +1,7 @@
 ---
 title: "Istio Service Mesh: A Beginners Guide"
 date: "2020-12-07"
-coverImage: "Istio.png"
+coverImage: "Istio.webp"
 author: "Piyush Kumar"
 tags: ["Istio", "Service Mesh"]
 description: "This post will give a high-level introduction to Istio and its related concepts and terminologies."
@@ -29,7 +29,7 @@ The data plane is composed of Envoy proxy deployed as sidecars. Envoy itself is 
 
 The control plane manages and configures the proxies to route traffic.
 
-![Istio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.svg)
+![Istio Architecture](https://istio.io/latest/docs/ops/deployment/architecture/arch.webp)
 
 ## Istio Core Components
 

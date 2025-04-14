@@ -1,7 +1,7 @@
 ---
 title: "IFMA, a LoginRadius Customer Success Story"
 date: "2018-01-15"
-coverImage: "ifma-loginradius-customer-success-story.png"
+coverImage: "ifma-loginradius-customer-success-story.webp"
 tags: ["other"]
 featured: false 
 author: "Karl Wittig" 
@@ -11,7 +11,7 @@ metadescription: "IFMA provides credentialing, education programs, and guidance 
 "
 ---
 
-![IFMAlogo](IFMAlogo.jpg)
+![IFMAlogo](IFMAlogo.webp)
 
 The [International Facility Management Association (IFMA)](https://www.ifma.org/) is the world’s largest international association and guidance body for facility management professionals. Founded in 1980, IFMA provides credentialing, education programs, and guidance to facility management professionals. Headquartered in Houston (USA), IFMA is a not-for-profit organization supporting professionals in 104 countries.
 
@@ -50,4 +50,4 @@ LoginRadius’ cIAM solution ensured that while an individual member can be asso
 
 IFMA - LoginRadius Customer Success Story
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ifma-loginradius-customer-success-story)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ifma-loginradius-customer-success-story)

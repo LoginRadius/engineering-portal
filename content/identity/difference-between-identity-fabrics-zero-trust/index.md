@@ -1,7 +1,7 @@
 ---
 title: "Identity Fabric vs. Zero Trust: Is One a Better Alternative Than The Other?"
 date: "2022-10-27"
-coverImage: "id-fabrics.jpg"
+coverImage: "id-fabrics.webp"
 tags: ["identity fabric", "zero trust", "identity management"]
 author: "Rakesh Soni"
 description: "Identity fabric and zero trust are two different ways of managing business resources, one focusing on identity and the other on data. This blog will help you understand the difference between the two approaches and their benefits for your organization's security strategy."
@@ -102,7 +102,7 @@ By using the Zero Trust strategy, you:
 </table>
 
 
-[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zero-Trust-Security-1](WP-Zero-Trust-Security-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## Identity Fabric vs Zero Trust: Which is Better?
@@ -119,4 +119,4 @@ Therefore, both identity fabric and zero trust are two different ways of managin
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-identity-fabrics-zero-trust)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-identity-fabrics-zero-trust)

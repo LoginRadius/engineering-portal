@@ -1,7 +1,7 @@
 ---
 title: "Discover the Benefits of Re-Authentication for Enhanced Security"
 date: "2021-09-16"
-coverImage: "benefits-of-reauthentication-cover.jpg"
+coverImage: "benefits-of-reauthentication-cover.webp"
 tags: ["data security","reauthentication","password management"]
 author: "Navanita Devi"
 description: "Re-authentication ensures that hackers don’t get easy access to a system’s content and leverage no other loopholes to exploit sensitive consumer credentials. Apart from internal combustion, re-authentication can also save you from external intrusion."
@@ -25,7 +25,7 @@ When a user requires to generate and remember more than one password, password f
 
 Thus, a re-authentication is considered ideal for the elimination of password fatigue. The system will undertake the identity test without the need to type the password and ensure a safe environment for the users.
 
-[![GD-salt-hashing](GD-salt-hashing.png)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
+[![GD-salt-hashing](GD-salt-hashing.webp)](https://www.loginradius.com/resource/adding-salt-to-hashing-a-step-by-step-guide-to-store-passwords/)
 
 
 ### 3. It reduces the need for IT support calls.
@@ -59,4 +59,4 @@ Re-authentication ensures that hackers don’t get easy access to a system’s c
 
 All-in-all, you can save a lot of time and password exploitation with re-authentication. Speaking of which, the LoginRadius Re-authentication feature can help businesses securely re-authenticate consumers without taking a toll on user experience. [Contact us](https://www.loginradius.com/contact-sales) today to find out more. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-of-reauthentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-of-reauthentication)

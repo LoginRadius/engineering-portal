@@ -1,7 +1,7 @@
 ---
 title: "Snapshot testing using Nightwatch and mocha"
 date: "2020-07-29"
-coverImage: "snapshot_nightwatch.png"
+coverImage: "snapshot_nightwatch.webp"
 author: "Nitesh Jain"
 tags: ["QA", "Nightwatch","snapshot-testing"]
 description: "Snapshot testing is one of many different testing tools, which compares the previous and current snapshot. Unlike TDD, snapshot testing relies on the fact that your component renders correctly already. "

@@ -1,7 +1,7 @@
 ---
 title: "Distributed Multi-Cloud Identity Management and Its Endless Business Benefits"
 date: "2022-12-06"
-coverImage: "multi-id.jpg"
+coverImage: "multi-id.webp"
 tags: ["multi cloud", "identity management", "cloud security"]
 author: "Rakesh Soni" 
 description: "Distributed identity management is a portal for combining cloud resources, services, and digital business applications. You can give your customers a robust customer experience by leveraging a distributed multi-cloud identity to ensure robust security and excellent customer experience."
@@ -32,7 +32,7 @@ And while these systems utilize a specific integrated identity management system
 
 This results in complex migration from the legacy system to the newly-adopted cloud systems as the organization has to manage a challenging transition to ensure the sustainability of the existing infrastructure without any hassle. 
 
-[![identity-ds](identity-ds.png)](https://www.loginradius.com/resource/loginradius-identity-import-manager)
+[![identity-ds](identity-ds.webp)](https://www.loginradius.com/resource/loginradius-identity-import-manager)
 
 Apart from this, the overall investments in legacy systems don’t necessarily mean a seamless and secure transition to a multi-cloud environment. 
 
@@ -82,4 +82,4 @@ Distributed multi-cloud identity management is helping businesses in handling mu
 
 If you wish to experience the future of distributed cloud identity management, reach us to schedule a quick demo of LoginRadius’cloud-based customer identity and access management platform. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-distributed-multi-cloud-identity-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-distributed-multi-cloud-identity-management)

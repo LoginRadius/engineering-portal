@@ -1,7 +1,7 @@
 ---
 title: "Improving Customer Experience in the Hospitality Industry"
 date: "2020-03-13"
-coverImage: "hospitality.jpg"
+coverImage: "hospitality.webp"
 tags: ["digital transformation","cx","ciam solution"]
 author: "Rakesh Soni"
 description: "It has always been about luxury, pleasure, and excellent customer service in the hospitality industry. Modern guests travel for both company and fun. They also want business owners to better connect and understand them well."
@@ -50,7 +50,7 @@ IoT solutions for hotels will add extra oomph to customer experience in 2020. 
 
 At the core of the hospitality industry lies the ultimate guest experience. People love to feel special – a reason why the concept of customization went mainstream. Blending hospitality with IoT will do [wonders for hotel operators](https://www.ezeeabsolute.com/blog/iot-in-hospitality-industry/).
 
-![IOT devices in hospitality sector](image2-1.png)
+![IOT devices in hospitality sector](image2-1.webp)
 
 Wondering how? Let’s find out.
 
@@ -85,7 +85,7 @@ Augmented Reality, on the other hand, simulates real-world surroundings with dig
 
 The hospitality industry can use it to its [advantage in a number of ways](https://www.revfine.com/augmented-reality-hospitality-industry/). Imagine the walls of your room are infused with AR-powered technology. At the tap of a button, it can transform into any surrounding (beach, forest, cloud, city heights) you like and let you enjoy the experience without actually being physically present.
 
-![augmented reality (AR) in hospitality industry](image3-1.png)
+![augmented reality (AR) in hospitality industry](image3-1.webp)
 
 ### 5\. Digital registration forms will replace the use of pen and paper
 
@@ -105,7 +105,7 @@ Simply put, data security is a crucial metric for hotel owners. Guests should ne
 
 Henceforth, advanced identity management policies, coupled with frictionless verification should make security seem effortless. 
 
-[![](image4-1.png)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
+[![](image4-1.webp)](https://www.loginradius.com/resource/how-travel-and-leisure-companies-use-loginradius-identity-solution/)
 
 When your business revolves around accommodating customer preferences, the need for identity verification becomes crucial. LoginRadius is a [customer identity and access management](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) (CIAM) platform that helps hotel owners to roll out strict security policies while offering excellent customer experiences. 
 
@@ -115,7 +115,7 @@ With LoginRadius, here’s what you can offer your customers:
 
 The hospitality industry is a booming market at the moment. With intense competition happening at the backdrop, taking charge of internal processes and increasing security within the hotel staff has become more crucial than ever.
 
-![seamless biometrics authentication - Loginradius](image5-1.png)
+![seamless biometrics authentication - Loginradius](image5-1.webp)
 
 Looking ahead, LoginRadius’ biometric technology will help you: 
 
@@ -146,4 +146,4 @@ Most businesses in the hospitality sector offer complex ownership structures. He
 
 After all, the hospitality industry is all about customer experiences and keeping up with their changing expectations.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-hospitality-industry)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-hospitality-industry)

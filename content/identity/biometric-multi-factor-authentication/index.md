@@ -1,7 +1,7 @@
 ---
 title: "7 Reasons to Use Biometric Authentication for Multi-Factor Authentication"
 date: "2024-01-30"
-coverImage: "biometric-auth-mfa.jpg"
+coverImage: "biometric-auth-mfa.webp"
 tags: ["biometric authentication","mfa","cx"]
 author: "Vishal Sharma"
 description: "Gone are the days when businesses used to rely on usernames, passwords, and OTPs to provide a secure and seamless user experience. Businesses are shifting to modern and advanced authentication methods, like multi-factor authorization (MFA), which is a crucial part of ensuring security. MFA comprises different authentication factors, but why is biometric authentication one of the secure options? Let’s find out!"
@@ -52,7 +52,7 @@ The key factor differentiating biometrics authentication from other multi-factor
 
 Implementing other authentication methods requires specialized software, and integrating it with other systems can be expensive. The best part of implementing the biometrics authentication method is there is no need to invest in additional capital once the biometric verification system is integrated. It significantly reduces upfront investment costs and prevents the risks of loss due to fraud and illegal entries. 
 
-[![WP-mfa-evolution](WP-mfa-evolution.png)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
+[![WP-mfa-evolution](WP-mfa-evolution.webp)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
 
 ### 4. Scalable
 
@@ -74,4 +74,4 @@ When fraudsters or hackers get their hands on the user’s identity, they can co
 
 Implementing **multi-factor authentication through biometrics** is an emerging trend to create a secure work environment for your end-users. Biometrics verification protects the data and keeps the information secure through encryption, secure storage, data minimization, secure data transmission, and Anonymization and Pseudonymization. [Customer Identity Access and Management solutions](https://www.loginradius.com/), like LoginRadius, can help businesses implement robust MFA authentication methods easily. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-multi-factor-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-multi-factor-authentication)

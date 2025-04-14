@@ -1,7 +1,7 @@
 ---
 title: "Top 4 Serverless Computing Platforms in 2021"
 date: "2021-03-04"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Andy Yeung"
 tags: ["Serverless"]
 description: "Traditional software development is being transformed by serverless computing. Check out the best serveless computing platforms that will assist you in getting started."

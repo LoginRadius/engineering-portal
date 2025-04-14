@@ -1,7 +1,7 @@
 ---
 title: "A Comprehensive Guide to Privileged Access Management (PAM)"
 date: "2021-08-26"
-coverImage: "what-is-privileged-access-management-cover.jpg"
+coverImage: "what-is-privileged-access-management-cover.webp"
 tags: ["data security","Privileged Access Management","cx"] 
 author: "Bhavya Tugnawat" 
 description: "Privileged access management—finding the right balance between security and convenience. This blog explains why PAM matters, highlights its key features and strategies that the organization should use to ensure the proper implementation of PAM."
@@ -59,7 +59,7 @@ Now, let's discuss the features that the PAM software provides:
 * It also provides the facility of dynamic authorization, which means access to individual users for a particular period.
 * It also has automatic provisioning and deprovisioning, which helps reduce insider threats, and the Audit logs feature that allows the organization to meet the compliance requirements.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## Common Strategies that the Organization Should Use to Ensure the Proper Implementation of PAM
 
@@ -91,4 +91,4 @@ In this article, we have learnt about Privileged Access Management, which helps 
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-privileged-access-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-privileged-access-management)

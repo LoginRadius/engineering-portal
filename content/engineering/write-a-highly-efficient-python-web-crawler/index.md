@@ -1,7 +1,7 @@
 ---
 title: "Write a highly efficient python Web Crawler"
 date: "2015-07-14"
-coverImage: "python-web-crawler.png"
+coverImage: "python-web-crawler.webp"
 author: Mark Duan
 tags: ["Python","Coding"]
 ---

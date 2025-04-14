@@ -1,7 +1,7 @@
 ---
 title: "Open Source Business Email Validator By Loginradius"
 date: "2017-04-25"
-coverImage: "Open-Source-Business-Validator-By-Loginradius.png"
+coverImage: "Open-Source-Business-Validator-By-Loginradius.webp"
 author: "Team LoginRadius"
 tags: ["Engineering"]
 ---

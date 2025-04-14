@@ -1,7 +1,7 @@
 ---
 title: "17 Tips to Avoid Shopping Scams on Black Friday & Cyber Monday"
 date: "2021-11-24"
-coverImage: "17-online-shopping-tips-for-consumer.jpg"
+coverImage: "17-online-shopping-tips-for-consumer.webp"
 tags: ["data protection","cybersecurity","ciam solution","mfa"]
 author: "Rakesh Soni"
 description: "Many people prefer shopping online these days rather than going to a conventional store. Therefore, securing the data of your customers online is an integral part of protecting the organisation as a whole. Your job is to let them shop with some of the best online shopping tips with confidence."
@@ -57,7 +57,7 @@ Consumer journey hijacking is a cyberattack where hackers inject unauthorized ad
 
 ## 17 Online Shopping Tips for Consumers To Follow While Shopping During This Holiday Season
 
-![alt_text](online-shopping-tips-for-consumers-to-follow-while-shopping.png "online-shopping-tips-for-consumers-to-follow-while-shopping")
+![alt_text](online-shopping-tips-for-consumers-to-follow-while-shopping.webp "online-shopping-tips-for-consumers-to-follow-while-shopping")
 
 Do not let the stress of untangling a case of identity theft or financial fraud ruin your consumers' Black Friday and Cyber Monday shopping. Stay ahead of cybercriminals with the best online tips. Here are the best places to start.
 
@@ -103,7 +103,7 @@ We mean [phishing](https://www.loginradius.com/blog/phishing-for-identity/) scam
 
 It is crucial that your consumers download applications only from trusted platforms like the App Store, the Google Play Store, Amazon App Store, etc. Most of the applications out there ask consumers for various permissions during installation. Encourage your consumers to read those carefully and only check boxes that make sense to them. They can also read reviews and ratings from existing consumers before making any decision. 
 
-[![WP-omnichannel-ret](WP-omnichannel-ret.png)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![WP-omnichannel-ret](WP-omnichannel-ret.webp)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 ### 9. Read return policies.
 
@@ -194,4 +194,4 @@ Q5. How can businesses enhance data security during these events?
 
 A: Solutions like LoginRadius offer secure registration, 360-degree consumer views, and multi-factor authentication.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-shopping-tips)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-shopping-tips)

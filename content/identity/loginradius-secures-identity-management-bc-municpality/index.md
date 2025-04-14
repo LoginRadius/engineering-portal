@@ -1,7 +1,7 @@
 ---
 title: "BC Municipality Digitizes its Citizen Services. LoginRadius Brings Identity to the Table."
 date: "2022-09-06"
-coverImage: "bc-municipal.jpg"
+coverImage: "bc-municipal.webp"
 tags: ["digital identity", "authentication", "cx"]
 author: "Saikiran Babladi"
 description: "A city in BC was looking for a CIAM solution that would secure the identities and streamline the authentication process for its citizens. Here's why they decided to try LoginRadius and the decision worked in their favor."
@@ -44,10 +44,10 @@ Whenever any citizen logs into the City’s website, they will be automatically 
 
 With this integration, citizens are able to access recreational services to search and register for programs with a single account giving them the best experience while surfing the City’s website.
 
-[![DS-perfectmindint](DS-perfectmindint.png)](https://www.loginradius.com/resource/perfectmind-integration)
+[![DS-perfectmindint](DS-perfectmindint.webp)](https://www.loginradius.com/resource/perfectmind-integration)
 
 ## Support
 
 Right from the [customer onboarding](https://www.loginradius.com/blog/identity/loginradius-streamlines-user-onboarding-harry-rosen/), the City had access to a customer success manager and multiple support channels to ensure the success of the project every step of the way. The LoginRadius team continues to work closely with the city to ensure project success.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-secures-identity-management-bc-municpality)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-secures-identity-management-bc-municpality)

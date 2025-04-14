@@ -1,7 +1,7 @@
 ---
 title: "Build Your First Smart Contract with Ethereum & Solidity"
 date: "2021-11-24"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Aritra Belel"
 tags: ["Blockchain", "Ethereum", "Solidity"]
 description: "Smart contracts are an exciting way to build decentralized applications (dapps) on a blockchain. This tutorial helps you learn and build your first smart contract using Solidity on Ethereum blockchain."
@@ -311,7 +311,7 @@ Now, click on the `Solidity Compile` option in the left sidebar.
 
 Similar to as follows:
 
-<img alt="Compiler" height="400px" src="img1.png"/>
+<img alt="Compiler" height="400px" src="img1.webp"/>
 
 ### Deploy
 
@@ -320,7 +320,7 @@ Click on the `Deploy & Run Transactions` option in the left sidebar.
 1. Choose `Environment` > `JavaScript VM (London)`
 2. Now click on `Deploy`
 
-<img alt="Deploy" height="400px" src="img2.png">
+<img alt="Deploy" height="400px" src="img2.webp">
 
 **🎉 Congratulations, your smart contract has been deployed. 🎉**
 
@@ -335,7 +335,7 @@ Now, under `Deployed Contract` click on `> HOSTEL AT ..... (MEMORY)`
 
 Similar to as follows:
 
-<img height="250px" alt="AddRoom" src="img3.png">
+<img height="250px" alt="AddRoom" src="img3.webp">
 
 > **Note:** You're entering your details in `wei` not in `ether` (1 ether = 1000000000000000000 wei)
 3. Then click on `transact`
@@ -348,24 +348,24 @@ Similar to as follows:
 
 4. Change the `Account Address` from the dropdown menu. (Choose anyone except the one with 99.99 ether)
 
-<img height="300px" alt="Change Address" src="img4.png">
+<img height="300px" alt="Change Address" src="img4.webp">
 
 5. Add the total amount you have previously chosen as (rent cost + security deposit)
 6. And then from the dropdown `wei`, choose `ether`
 
-<img height="300px" alt="Change Value" src="img5.png">
+<img height="300px" alt="Change Value" src="img5.webp">
 
 7. Scroll down and click on `signAgreement`, enter `1`, and press `signAgreement`
     
     You can check the same by entering `RoomAgreementNo` : `1`
 
-<img height="300px" alt="Agreement Details" src="img6.png">
+<img height="300px" alt="Agreement Details" src="img6.webp">
 
 **🎉 Congratulations, you've successfully signed your 1st agreement. 🎉**
 
 All your transactions are shown in the `terminal`.
 
-<img height="300px" alt="Terminal" src="img7.png">
+<img height="300px" alt="Terminal" src="img7.webp">
 
 Now, you can cross verify this by checking your `ether` account address.
 

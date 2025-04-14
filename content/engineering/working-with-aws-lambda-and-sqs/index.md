@@ -1,14 +1,14 @@
 ---
 title: "Working with AWS Lambda and SQS"
 date: "2020-02-13"
-coverImage: "blog-aws-lambda.png"
+coverImage: "blog-aws-lambda.webp"
 author: "Team LoginRadius"
 tags: ["Engineering", "General"]
 ---
 
 This blog is a short guide on implementing AWS Lambda and SQS together. First we’ll introduce these technologies and explain why they work well together, then walkthrough some configurations and invocation using a simple Nodejs script.
 
-![](blog-aws-lambda-sqs-1.png)
+![](blog-aws-lambda-sqs-1.webp)
 
 **What are they?**
 AWS Lambda is a popular choice in serverless computing. As an event-driven platform, AWS Lambda requires users to configure event sources in order to run a function. Their built-in support for many AWS services like S3 and SQS as event sources allow for relatively simple configuration. Note that Lambda functions can also be triggered via HTTP(S) by using AWS API Gateway service.
@@ -17,7 +17,7 @@ AWS SQS (Simple Queue Service) is a queue service with 2 types: standard and FIF
 
 As previously mentioned, AWS SQS can be an event source for AWS Lambda. This means that when a message is added to the queue, the configured Lambda function will be invoked with an event containing this message.
 
-![](blog-aws-lambda-sqs-2.png)
+![](blog-aws-lambda-sqs-2.webp)
 
 **But why use them together?**  
 Common reasons include better handling Lambda function invocations and errors. For function invocations, the default concurrency limit is 1000. If a function has reached this limit, any additional invocations will fail with a throttling error. However, with SQS as an event source, events resulting in throttling errors are automatically retried based on set configs. This prevents the loss of events due to unexpected jumps in usage. Additionally, dead-letter queues (DLQ) can be configured as a place where failed events go, to avoid retrying indefinitely. Failed events in DLQ can then be sent somewhere like a DB for analysis.
@@ -31,22 +31,22 @@ Let’s set up a basic “Hello World” application with SQS and Lambda.
 
 2\. Now, add a Lambda function:
 
-![](blog-aws-lambda-sqs-3-1024x447.png)
+![](blog-aws-lambda-sqs-3-1024x447.webp)
 
 3\. Create a new execution role with the following configs:  
 a. Trusted Entity: Lambda  
 b. Permissions: AWSLambdaBasicExecutionRole; AWSLambdaSQSQueueExecutionRole
 
-![](blog-aws-lambda-sqs-4.png)
+![](blog-aws-lambda-sqs-4.webp)
 
 4\. Use newly created role in Lambda function. Remember to save (top right).
 
-![](blog-aws-lambda-sqs-5.png)
+![](blog-aws-lambda-sqs-5.webp)
 
 5\. Add a trigger:  
 a. Batch size set to 1, so the Lambda Function will process 1 message at a time.
 
-![](blog-aws-lambda-sqs-6.png)
+![](blog-aws-lambda-sqs-6.webp)
 
 6\. Programmatically enqueue a message into SQS with the following code in Nodejs:
 
@@ -71,4 +71,4 @@ c. Fill in your specific AWS account details. Find AWS\_SQS\_URL by selecting th
 d. Run script with \`node app.js\`  
 e. Navigate to Monitoring tab in your Lambda function, the invocations graph should have a new data point (may take a few minutes to update).
 
-![](blog-aws-lambda-sqs-7.png)
+![](blog-aws-lambda-sqs-7.webp)

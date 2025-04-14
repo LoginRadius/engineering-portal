@@ -1,7 +1,7 @@
 ---
 title: "Move beyond Traditional Risk Management with Holistic APIs"
 date: "2021-06-01"
-coverImage: "risk-management-with-holistic apis-cover.jpg"
+coverImage: "risk-management-with-holistic apis-cover.webp"
 tags: ["oauth","identity management","data privacy","cx"]
 author: "Vishal Sharma"
 description: "Organizations are now struggling more than ever before to face new risks, vulnerabilities, and privacy issues since they adopted a paradigm shift to remote working. This valuable read focuses on the importance of the adequate deployment of APIs that further reduces vulnerabilities and helps maintain a unified user experience."
@@ -57,7 +57,7 @@ LoginRadius offers better insights into data from both a security and marketing 
 
 The API capabilities are endless as it covers all areas of threat intelligence that not only helps in predicting vulnerabilities but eventually provides a more insightful structure for overall business growth.
 
-[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## Integration with Third-Party Analytics Solution
 
@@ -100,4 +100,4 @@ In an era where things are going uncertain amid the global pandemic, there’s a
 As far as the risks involved in deploying APIs are concerned, LoginRadius CIAM helps businesses swiftly navigate the implementation processes with utmost security.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-management-with-holistic-apis)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-management-with-holistic-apis)

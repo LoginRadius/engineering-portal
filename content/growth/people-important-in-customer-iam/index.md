@@ -1,7 +1,7 @@
 ﻿---
 title: "Decoding the Importance of People’s in Customer IAM"
 date: "2022-04-29"
-coverImage: "people-iam.jpg"
+coverImage: "people-iam.webp"
 tags: ["omnichannel", "customer experience", "identity management", "digital identity"]
 author: "Navanita Devi"
 description: "As the market becomes increasingly competitive, it’s important to recognize that people are more than just customers. They are advocates and influencers, and they can make or break your business. But how do you keep them engaged? This blog will help you find out how."
@@ -40,7 +40,7 @@ However, recent research shows that customer experience plays a crucial role in 
 
 This means that when you are making an online purchase or applying for credit, your data is not being used just for security purposes but also for creating a better customer experience. This means that your data will be used to provide you with personalized content, targeted offers and recommendations based on your behavior and preferences.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ## Common Challenges in Identity Management
@@ -83,4 +83,4 @@ Businesses that strive to provide the best customer experience in identity manag
 
 Customer experience and identity management go hand in hand. So, organizations must make sure they have the best digital systems to provide a personalized experience. [LoginRadius](https://www.loginradius.com/) helps organizations manage user identities to deliver a unified customer experience. Overall, it provides a secure and delightful experience for the customers using the innovative customer identity platform. Reach us out if you want more information about our identity management services!
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=people-important-in-customer-iam)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=people-important-in-customer-iam)

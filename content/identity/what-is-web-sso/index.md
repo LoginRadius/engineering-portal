@@ -1,7 +1,7 @@
 ---
 title: "What is Web SSO"
 date: "2021-06-10"
-coverImage: "web-sso.jpg"
+coverImage: "web-sso.webp"
 tags: ["web sso","mfa","data security"]
 author: "Vaibhav Jain" 
 description: " Web SSO is a part of Single Sign-On that brings everything together. Each consumer has one account and one set of credentials that they can use anywhere to interact with your brand. Failing to use SSO will make your consumers notice you in a bad light as they try to navigate your apps and services."
@@ -150,4 +150,4 @@ However, before implementing any functionality on your website, analyze and cons
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-web-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-web-sso)

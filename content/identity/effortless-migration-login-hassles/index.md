@@ -1,7 +1,7 @@
 ---
 title: "No More Login Hassles: Effortless Migration to LoginRadius Awaits"
 date: "2024-08-01"
-coverImage: "effortless-migration.jpg"
+coverImage: "effortless-migration.webp"
 tags: ["ciam authentication","passwordless login","cx"]
 author: "Kundan Singh"
 description: "Tired of login woes? Discover how an effortless migration to LoginRadius can revolutionize your user identity management, providing a seamless, secure, and efficient experience for both your business and users."
@@ -38,7 +38,7 @@ LoginRadius stands out for several reasons:
 
 5. **Identity Orchestration**: LoginRadius provides granular flexibility in designing and deploying identity flows without the need for coding, enabling anyone with identity expertise to build production-ready identity workflows within minutes.
 
-[![DS-id-orchestration](DS-id-orchestration.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/) 
+[![DS-id-orchestration](DS-id-orchestration.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/) 
 
 ## Planning Your Migration
 
@@ -100,4 +100,4 @@ Migrating to LoginRadius is an investment in your business's future. By eliminat
 
 With a strategic approach and thorough preparation, the transition to LoginRadius can be effortless and highly rewarding. Don't let outdated login systems hold you back—embrace the future of user identity management with LoginRadius.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=effortless-migration-login-hassles)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=effortless-migration-login-hassles)

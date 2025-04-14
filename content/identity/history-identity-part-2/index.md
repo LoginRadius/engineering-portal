@@ -1,7 +1,7 @@
 ---
 title: "A History of Human Identity in Pictures  Part 2"
 date: "2019-08-20"
-coverImage: "history-identity-part-2.jpg"
+coverImage: "history-identity-part-2.webp"
 tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni"
@@ -18,7 +18,7 @@ The United Nations Convention on the Rights of the Child declares that every chi
 
 Clan names that seem to indicate matrilineal heritage, called _xìng_ (姓), emerged in China around 4000–3000 BC. Many of these names include the character for woman (女), and the character for _xìng_ reads as “born of a woman.” People with the same _xìng_ were not allowed to marry each other.
 
-[![Human Identity](image-1.jpg)](https://commons.wikimedia.org/wiki/File:Lacquer_painting_from_Ch%27u_State.jpg)
+[![Human Identity](image-1.webp)](https://commons.wikimedia.org/wiki/File:Lacquer_painting_from_Ch%27u_State.webp)
 
 
 **Lacquer painting from State of Ch'u (704–223 BC)**
@@ -29,7 +29,7 @@ A person’s _shì_ name might be derived from their state or fiefdom, their pos
 
 Chinese surnames were standardized in 221 BC under the first emperor of the Qin dynasty. The _xìng_ and _shì_ names, which people had been using interchangeably, were merged into the single concept of a family name.
 
-[![Human Identity](image-2.jpeg)](https://www.metmuseum.org/art/collection/search/248783)
+[![Human Identity](image-2.webp)](https://www.metmuseum.org/art/collection/search/248783)
 
 **Marble portrait of the co-emperor Lucius Verus (130 - 169 AD).** **His name at birth was Lucius Ceionius Commodus, changed to Lucius Aelius Aurelius Commodus when he was adopted.**
 
@@ -41,7 +41,7 @@ Family names first evolved in the Western world during the time of the Roman Emp
 
 The Roman three-name system started with the aristocracy and spread to the general citizenry as the population grew and people needed more names to distinguish among themselves.
 
-[![Human Identity](image-3.jpg)](https://commons.wikimedia.org/wiki/File:Jon_Ogmundsson_Icelandic_bishop.jpg)
+[![Human Identity](image-3.webp)](https://commons.wikimedia.org/wiki/File:Jon_Ogmundsson_Icelandic_bishop.webp)
 
 **Bishop** [**Jón Ögmundsson**](https://commons.wikimedia.org/w/index.php?title=J%C3%B3n_%C3%96gmundsson&action=edit&redlink=1) **of Hólar, from the 19th century Icelandic manuscript JS 629 4to, now in the care of the Icelandic National Library**
 
@@ -51,13 +51,13 @@ Surnames developed in the rest of Europe starting in the 11th century. Norman ba
 
 Iceland developed a system where children receive a new surname based on their father’s name (or occasionally mother’s name). For example, Iceland's current prime minister is Jóhanna Sigurðardóttir. Her father’s name is Sigurður, so her surname becomes Sigurðardóttir, meaning “daughter of Sigurður.”
 
-[![Human Identity](image-4.jpg)](https://www.english-heritage.org.uk/learn/story-of-england/early-medieval/architecture/)
+[![Human Identity](image-4.webp)](https://www.english-heritage.org.uk/learn/story-of-england/early-medieval/architecture/)
 
 **Part of Offa’s Dyke, an 8th-century earthwork boundary in Britain.**
 
 **Location**: Many Anglophone names come from the names of towns or regions (Hamilton, Murray), local topology (Landon means “long hill”), or features (Dyke, Wood, Fields).
 
-[![Human Identity](image-5.jpeg)](https://hausbuecher.nuernberg.de/75-Amb-2-279-81-v/data)
+[![Human Identity](image-5.webp)](https://hausbuecher.nuernberg.de/75-Amb-2-279-81-v/data)
 
 **A German tailor pictured in die Nürnberger Hausbücher, 1612.**
 
@@ -69,7 +69,7 @@ Iceland developed a system where children receive a new surname based on their f
 
 Aristocrats considered long names a show of their high place in society. Spanish and Arabic families would give their children paternal or maternal names from previous generations. This practice allowed them to keep track of the child’s family tree. 
 
-[![Human Identity](image-6.jpeg)](https://www.metmuseum.org/art/collection/search/451286?&searchField=All&sortBy=Relevance&when=A.D.+1600-1800&ft=royal+name&offset=0&rpp=20&amp;pos=1)
+[![Human Identity](image-6.webp)](https://www.metmuseum.org/art/collection/search/451286?&searchField=All&sortBy=Relevance&when=A.D.+1600-1800&ft=royal+name&offset=0&rpp=20&amp;pos=1)
 
 **"Rosette Bearing the Names and Titles of Shah Jahan," ca. 1645. The central inscription reads, “His Majesty Shihab al-Din Muhammad Shah Jahan, the king, the vanquisher, may God perpetuate his dominion and sovereignty.”**
 
@@ -95,7 +95,7 @@ The need to confirm someone’s identity also goes back to ancient times. As soc
 
 Some civilizations developed stamps and seals that represented a person’s identity. 
 
-[![Human Identity](image-7.jpeg)](https://www.metmuseum.org/art/collection/search/321391?&searchField=All&sortBy=Relevance&ft=cylinder+seal&offset=0&rpp=20&amp;pos=14)
+[![Human Identity](image-7.webp)](https://www.metmuseum.org/art/collection/search/321391?&searchField=All&sortBy=Relevance&ft=cylinder+seal&offset=0&rpp=20&amp;pos=14)
 
 **Modern impression of a Cypriot cylinder seal: female figure, ibex, lion, ca. 14th–13th century B.C.**
 
@@ -103,7 +103,7 @@ Cylinder seals go back to the fourth millennium BC in Mesopotamia. These [carved
 
 The earliest seals in China originated during the Shang Dynasty, 1600 to 1046 BC. Chinese seals known as [chops](https://www.thoughtco.com/chinese-chops-seals-2278409) were carved from jade, stone, or ivory and dipped in red paste to stamp a unique symbol on documents, letters, and artwork.
 
-[![Human Identity](Chinese_seal_Han_Dynasty.png)](https://nl.wikipedia.org/wiki/Bestand:Chinese_seal_(Han_Dynasty).png#/media/Bestand:Chinese_seal_(Han_Dynasty).png)
+[![Human Identity](Chinese_seal_Han_Dynasty.webp)](https://nl.wikipedia.org/wiki/Bestand:Chinese_seal_(Han_Dynasty).webp#/media/Bestand:Chinese_seal_(Han_Dynasty).webp)
 
 **Chinese seal with Han and Manchu characters** 
 
@@ -111,7 +111,7 @@ Other types of signature seals can also be found across East Asia. In Japan, sig
 
 In the 5th century BC, the Romans started to write sentences and names at the bottom of documents, in addition to creating wax seals with [signet rings](https://www.thehistorypress.co.uk/articles/a-brief-history-of-signet-rings/). The earliest surviving signature from a famous historical figure is that of Rodrigo Díaz de Vivar, a medieval Spanish nobleman known as El Cid, dated to 1098. 
 
-[![](223px-Signature_of_El_Cid.svg_.png)](https://commons.wikimedia.org/wiki/File:Signature_of_El_Cid.svg)
+[![](223px-Signature_of_El_Cid.webp_.webp)](https://commons.wikimedia.org/wiki/File:Signature_of_El_Cid.webp)
 
 **Autograph signature of Rodrigo Díaz, \[also\] called El Cid, Archive of the Cathedral of Salamanca.** **It reads in Latin: ego ruderico, "I, Rodrigo".**
 
@@ -119,4 +119,4 @@ To see how modern society uses and abuses identity, be sure to read Part III of 
 
 Learn how to create a unified digital identity for all of your customers. [Book a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=history-identity-part-2) today with LoginRadius.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=history-identity-part-2)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=history-identity-part-2)

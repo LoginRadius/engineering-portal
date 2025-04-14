@@ -1,7 +1,7 @@
 ---
 title: "6 Tips to Prevent Accidental Data Exposure Within Your Company"
 date: "2022-12-21"
-coverImage: "data-exposure.jpg"
+coverImage: "data-exposure.webp"
 tags: ["data leak", "customer data", "data security"]
 author: "Rakesh Soni"
 description: "The threat of data exposure is real. With the amount of sensitive personal information that companies are collecting and storing, accidental data exposure can be devastating to a company's reputation. Here are some ways to keep your organization's critical data safe."
@@ -49,7 +49,7 @@ Some of the biggest data breaches involved leaks of personally identifiable info
 
 
 
-[![databreach-rp](databreach-rp.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![databreach-rp](databreach-rp.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 
 ### 2. Company information
@@ -118,4 +118,4 @@ By using the recommendations we have outlined above, you can help prevent any ac
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-accidental-data-exposure-company)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-accidental-data-exposure-company)

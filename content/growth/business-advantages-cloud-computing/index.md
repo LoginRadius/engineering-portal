@@ -1,7 +1,7 @@
 ﻿---
 title: "Reaping the Benefits of the Cloud Beyond Marketing"
 date: "2022-06-21"
-coverImage: "cloud-marketg.jpg"
+coverImage: "cloud-marketg.webp"
 category: ["cloud computing", "marketing", "ciam"]
 author: "Navanita Devi"
 description: "Cloud computing offers more than just helping marketers plan and execute effective marketing campaigns. Let’s look at some advantages of adopting cloud computing and why enterprises should consider relying on cloud computing to thrive overall business success."
@@ -34,7 +34,7 @@ Cloud servers are made to support massive sign-ins and sudden, dramatic surges o
 
 The [LoginRadius Identity Platform](https://www.loginradius.com/) was designed with service provider-class scale in mind. The distributed CIAM network has regularly experienced peak transaction volumes of over 150,000 logins per second and typically handles 10,000 requests per second with less than 500 milliseconds latency. 
 
-[![WP-decoding-resiliency](WP-decoding-resiliency.png)](https://www.loginradius.com/scalability/)
+[![WP-decoding-resiliency](WP-decoding-resiliency.webp)](https://www.loginradius.com/scalability/)
 
 
 ### #2. Highly secure
@@ -80,4 +80,4 @@ With the changing digital landscape, businesses relying on on-premise infrastruc
 Hence, to ensure they stay ahead of the curve, businesses should put their best efforts into adopting the cloud since it’s secure, scalable, cost-efficient, and maintenance-free. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=business-advantages-cloud-computing)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=business-advantages-cloud-computing)

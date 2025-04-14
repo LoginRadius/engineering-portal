@@ -1,7 +1,7 @@
 ---
 title: "jCenter Dependencies in Android Studio"
 date: "2017-07-11"
-coverImage: "jCenter.png"
+coverImage: "jCenter.webp"
 author: "Hitesh Pamnani"
 tags: ["JCenter", "Android"]
 description: "Learn how to make use of jCenter dependencies in Android Studio."

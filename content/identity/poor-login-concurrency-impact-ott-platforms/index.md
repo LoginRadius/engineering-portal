@@ -1,7 +1,7 @@
 ---
 title: "How Poor Login Concurrency can Impact OTT Platforms' Business"
 date: "2021-08-31"
-coverImage: "poor-login-concurrency-impact-ott-platforms-cover.jpg"
+coverImage: "poor-login-concurrency-impact-ott-platforms-cover.webp"
 tags: ["data security","ciam solution","broken authentication"]
 author: "Rakesh Soni"
 description: "With the increase in subscriptions and the number of audiences online, several underlying threats have severely impacted the OTT businesses. One such issue is poor login concurrency. Learn how login concurrency is affecting OTT platforms and how they can overcome this dilemma."
@@ -47,7 +47,7 @@ Thus, to overcome the situation where concurrent login is exploited in OTT servi
 
 Here’s where the role of a [robust CIAM](https://www.loginradius.com/)  (Consumer Identity and Access Management) comes into play. 
 
-[![DS-CIAM](DS-CIAM101.png)](https://www.loginradius.com/resource/ciam-101/)
+[![DS-CIAM](DS-CIAM101.webp)](https://www.loginradius.com/resource/ciam-101/)
 
 Let’s dig deeper into this. 
 
@@ -104,4 +104,4 @@ With increasing OTT subscriptions and user expectations, OTT platforms need to g
 Adding stringent layers of security through a robust CIAM solution becomes the immediate need of the hour for OTT platforms facing concurrent login issues that affect their brand reputation and overall business revenues.  
 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=poor-login-concurrency-impact-ott-platforms)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=poor-login-concurrency-impact-ott-platforms)

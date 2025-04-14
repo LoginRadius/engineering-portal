@@ -1,7 +1,7 @@
 ﻿---
 title: "How Entertainment Companies Use the LoginRadius CIAM platform"
 date: "2021-05-25"
-coverImage: "media-entertainment-use-loginradius-platform-cover.jpg"
+coverImage: "media-entertainment-use-loginradius-platform-cover.webp"
 tags: ["LoginRadius"]
 author: "Navanita Devi"
 description: "Every industry takes a different approach to identity management. When it comes to media and entertainment, viewers love to move around a lot. As a result, before embarking on the journey, organizations must first understand a few things. For example, what goal they hope to achieve, how does a CIAM platform fits into the picture, and how do they find the best solution."
@@ -38,7 +38,7 @@ A single sign-on provides users with a convenient way to log in to multiple appl
 *   **Mobile SSO** operates through many mobile applications. If a consumer authenticates on one mobile app and then opens another operated by the same business, the CIAM platform recognizes the consumer. It grants access without requiring you to sign up or authenticate.
 *   **[Federated SSO](https://www.loginradius.com/federated-sso/)** is a set of rules that can be implemented between two or more trusted domains to allow users to use the same digital identity to access applications and services.
 
-[![DS-Fed-IM](DS-Fed-IM.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![DS-Fed-IM](DS-Fed-IM.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 LoginRadius supports industry-standard SSO protocols like SAML, JWT, OAuth 2.0, OpenID Connect, and Web Services Federation.
 
@@ -90,5 +90,5 @@ Every industry has a different set of identity challenges and a unique approach 
 For example, what goal they hope to achieve, how does [a CIAM platform fits into the picture](https://www.loginradius.com/resource/how-media-and-publication-companies-use-loginradius-identity-platform/), and identify the right solution to get the job done. LoginRadius allows you to equip and support your viewers well so you can adapt to the new way of entertainment. 
 
 
-[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=media-entertainment-use-loginradius-platform)
+[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=media-entertainment-use-loginradius-platform)
 

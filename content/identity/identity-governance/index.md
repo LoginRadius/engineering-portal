@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Governance & Administration?"
 date: "2020-12-16"
-coverImage: "identity-governanc.jpg"
+coverImage: "identity-governanc.webp"
 tags: ["data security","identity governance","compliance"]
 author: "Rakesh Soni"
 description: "Needless to mention, the question of relevant certification of access to specified stakeholders also applies. In an increasingly agility-intensive and virtual work environment, identity governance seems immensely relevant with the automation of policy management and auditing, adding to its benefit."
@@ -57,7 +57,7 @@ IGA adds more functionality to the mainstream Identity Management systems. IGA e
 ## 5 Benefits of Identity Governance
 
 
-![benefits-identity-governance](benefits-identity-governance.png)
+![benefits-identity-governance](benefits-identity-governance.webp)
 
 ### 1. Consumers can get timely access to the data they want.
 
@@ -78,7 +78,7 @@ The ongoing pandemic has made the importance of flexibility clear. Always workin
 This restates the importance of IGA, through which the firm can allow remote access, albeit limited for security, on employees’ personal devices for the operations to keep running.
 
 
-[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 
 ### 4. Helpful in meeting regulations.
@@ -94,7 +94,7 @@ Applications, devices, data, and stakeholders are all linked through the IGA sol
 ## Empower Your Business Using LoginRadius Identity Governance Solution
 
 
-![loginradius-identity-governance-solution](loginradius-identity-governance-solution.png)
+![loginradius-identity-governance-solution](loginradius-identity-governance-solution.webp)
 
 The fundamental factor underpinning IGA is [data governance](https://www.loginradius.com/blog/identity/2020/07/data-governance-best-practices/). LoginRadius offers world-class data governance, which, consequently, bolsters your organization’s cybersecurity and the virtual security of your consumers.
 
@@ -118,4 +118,4 @@ The demand for IGA is growing year on year. The increased agility granted by int
 Needless to say, so does the issue of relevant access certification to designated stakeholders. With the automation of policy management and auditing, adding to its favor, identity governance seems immensely important in an increasingly agility-demanding and virtual work environment.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance)

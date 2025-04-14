@@ -1,7 +1,7 @@
 ---
 title: "Beyond Passwords: Navigating Tomorrow's Authentication Landscape"
 date: "2024-02-15"
-coverImage: "passswordless-login.jpg"
+coverImage: "passswordless-login.webp"
 tags: ["passwordless login","compliance","cx"]
 author: "Rakesh Soni"
 description: "Dive into the future of authentication with our insightful exploration of passwordless technology. Learn why users are abandoning passwords, how passwordless authentication ensures compliance, and why LoginRadius is the top choice for a secure and frictionless authentication experience."
@@ -42,7 +42,7 @@ At the forefront of this passwordless revolution is LoginRadius – a leading pr
 
 LoginRadius has recently introduced a game-changing feature: registration without passwords. This innovation enables passwordless authentication, enhancing user convenience while fortifying security measures. 
 
-[![DS-passwordless-magic-link](DS-passwordless-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-magic-link](DS-passwordless-magic-link.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 With streamlined registration, users can swiftly access their accounts without the hassle of managing passwords. Simultaneously, businesses can ensure compliance with data protection regulations and accommodate diverse registration scenarios, fostering flexibility and trust.
 
@@ -58,4 +58,4 @@ By partnering with LoginRadius, organizations can unlock many benefits, includin
 
 The era of passwords is ending, paving the way for a new era of passwordless authentication. By embracing passwordless technologies, organizations can enhance security, improve user experience, and ensure compliance with regulatory requirements. And with LoginRadius leading the charge, the future of authentication has never looked brighter. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-login-future-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-login-future-authentication)

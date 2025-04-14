@@ -1,7 +1,7 @@
 ﻿---
 title: "Enhance Your Consumer Experience in Insurance Companies With CIAM"
 date: "2021-08-09"
-coverImage: "couple-meeting-with-insurance-agent.jpg"
+coverImage: "couple-meeting-with-insurance-agent.webp"
 tags: ["ciam solution","mfa","passwordless authentication"]
 author: "Deependra Singh"
 description: "Unaided consumer interactions are a lost opportunity. The main goal of an insurance company should be to reduce the time taken in all their consumer interactions and increase the consumer experience level. This can only happen by implementing excellent systems and processes, which is where a CIAM comes into play."
@@ -21,7 +21,7 @@ A [consumer identity and access management](https://www.loginradius.com/blog/ide
 
 The seamless user onboarding of new consumers, the overall [consumer experience](https://www.loginradius.com/resource/how-customer-identity-drives-digital-transformation-for-insurance-companies-2/), and good authentication services and identification process when individuals use their online apps are some of the primary concerns. Other issues include managing multiple brands within a single organization and managing personal data both within and outside the company.
 
-[![DS-dig-trans-insurance](DS-dig-trans-insurance.png)](https://www.loginradius.com/resource/how-customer-identity-drives-digital-transformation-for-insurance-companies-2/)   
+[![DS-dig-trans-insurance](DS-dig-trans-insurance.webp)](https://www.loginradius.com/resource/how-customer-identity-drives-digital-transformation-for-insurance-companies-2/)   
 
 ## What Businesses Use CIAM
 
@@ -100,4 +100,4 @@ Insurance companies will have to make trade-offs between protection and the clie
 Insurance companies often operate in a fast-paced environment, serving both consumers and businesses. They also deal with a complex IT infrastructure resulting from the multiple acquisitions that make up a typical contemporary insurance company.
 
 [Implementing the right CIAM](https://www.loginradius.com/) solution is critical in the digital world of insurance firms in order to achieve their objectives and go above and beyond. This [CIAM digital strategy](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/) can assist in the transformation of a conventional life insurance product into a more modern digital banking offering geared at wider consumer segments while still utilizing the traditional agent channel.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhance-customer-experience-in-insurance-companies-with-ciam)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhance-customer-experience-in-insurance-companies-with-ciam)

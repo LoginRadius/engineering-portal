@@ -1,7 +1,7 @@
 ---
 title: "Passkeys: Unlocking Benefits for a Better Online Shopping Experience"
 date: "2024-07-23"
-coverImage: "online-shopping.jpg"
+coverImage: "online-shopping.webp"
 tags: ["passkeys","data security","cx"]
 author: "Cooper Matheson"
 description: "Passkeys are revolutionizing how we shop online, providing a seamless, secure, and convenient experience. This blog explores the major benefits of using passkeys and how they can transform your online shopping journey."
@@ -38,7 +38,7 @@ One of the most frustrating aspects of online shopping can be the cumbersome aut
 
 * **Universal Access:** Passkeys work across different devices and platforms, providing a consistent and smooth experience whether you're shopping on your smartphone, tablet, or desktop.
 
-[![DS-passkeys](DS-passkeys.png)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
+[![DS-passkeys](DS-passkeys.webp)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
 
 ### 3. Greater Convenience
 
@@ -84,4 +84,4 @@ By embracing this innovative authentication method, both shoppers and retailers 
 
 Adopting this technology now can provide immediate benefits and prepare you for a password-free future. Embrace the change and unlock the full potential of your online shopping experience today.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-shopping-experience)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-shopping-experience)

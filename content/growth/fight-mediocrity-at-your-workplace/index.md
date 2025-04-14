@@ -1,7 +1,7 @@
 ---
 title: "Fight Mediocrity at Your Workplace, Dare to be Awesome!"
 date: "2017-04-07"
-coverImage: "Fight-mediocrity-at-your-workplace-dare-to-be-awesome.png"
+coverImage: "Fight-mediocrity-at-your-workplace-dare-to-be-awesome.webp"
 category: ["business","General"]
 featured: false 
 author: "Rakesh Soni"

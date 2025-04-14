@@ -1,7 +1,7 @@
 ---
 title: "A Comprehensive Guide to the Five A's of Cloud Identity Management"
 date: "2023-08-03"
-coverImage: "cloud-identity-mngmnt.jpg"
+coverImage: "cloud-identity-mngmnt.webp"
 tags: ["cloud identity","identity management","biometric authentication"]
 author: "Rakesh Soni"
 description: "Discover the vital elements contributing to a secure and efficient cloud identity framework, from strong authentication methods to centralized account management and comprehensive audit logging."
@@ -48,7 +48,7 @@ These logs provide an audit trail for compliance purposes, incident investigatio
 
 Regularly monitoring and analyzing these logs enable timely detection and response to security incidents.
 
-[![DS-consumer-audit-trail](DS-consumer-audit-trail.png)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![DS-consumer-audit-trail](DS-consumer-audit-trail.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 ### 5. Accountability: Establishing Responsibility and Oversight
 
@@ -64,4 +64,4 @@ This comprehensive guide to cloud identity management reveals the significance o
 
 By embracing these principles and remaining adaptable to emerging security challenges, organizations can confidently navigate the complex cloud security landscape and maintain a strong security posture in the cloud.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-to-five-a-of-cloud-identity-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-to-five-a-of-cloud-identity-management)

@@ -1,7 +1,7 @@
 ---
 title: "Seizing Opportunities: How Can Marketers Leverage Data Privacy for Success"
 date: "2024-01-16"
-coverImage: "data-privacy.jpg"
+coverImage: "data-privacy.webp"
 tags: ["data privacy","compliance","cx"]
 author: "Rakesh Soni"
 description: "Data privacy is one of the most essential aspects of data security. With stringent data privacy laws all around the world, marketers are finding it challenging to navigate through this new framework. Let’s discuss how data privacy laws for marketers are actually beneficial."
@@ -44,7 +44,7 @@ In this world with stringent data protection laws, it becomes the responsibility
 * Marketers are in a better position to explain what data will be required and where. So, while approaching the [customer for marketing consent](https://www.loginradius.com/consent-preference-management/), ensure to spell out clearly and specifically if an email address is required for daily mail-outs regarding specific product details. You can even give them options to narrow down how the customer wants to move forward with the relationship, like through emails, phones, or texts, SMS.
 * Marketers need to ensure data visibility is in accordance with the consent of the authority, like who has access to view and edit it. When it comes to data privacy for marketers, an identity access management tool can help define who can access it and change the data over time. 
 
-[![WP-building-privacy](WP-building-privacy.png)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
+[![WP-building-privacy](WP-building-privacy.webp)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
 
 * Email marketing is a boon, but as a marketer, it is best to clean and verify email lists. Like, perform regular sweeps for addresses that are no longer current. Most data regulations mention that storing obsolete data does not demonstrate a careful approach to the duty of data protection. 
 * When the data comes from different sources, there is a chance of data disparity. A DRM (Data Relationship Management) can provide a way to keep on top of multiple data inputs and structuring them in a meaningful way. 
@@ -53,4 +53,4 @@ In this world with stringent data protection laws, it becomes the responsibility
 
 Data privacy necessitates the requirement to preview the processes that can improve the entire company’s operation, not only the marketing vertical. With the help of the right tools for compliance and privacy regulations, marketers can implement their data-driven marketing strategies while capturing customer trust and providing enhanced user experience. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketers-success)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketers-success)

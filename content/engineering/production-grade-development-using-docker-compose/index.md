@@ -1,7 +1,7 @@
 ---
 title: "Production Grade Development using Docker-Compose"
 date: "2020-09-11"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Anurag Choudhary"
 tags: ["Docker", "Docker-compose"]
 ---
@@ -28,7 +28,7 @@ the developer has two choices, create a script in a scripting language of choice
 
 Here in this *kind of* practical example, we are going to demonstrate a similar situation, where multiple containers talk to each other. We are going to use docker-compose as our primary tool to build and deploy images.
 
-![title](example-arch.png)
+![title](example-arch.webp)
 
 
 The picture above depicts the architecture of a hypothetical portal of flash sale.
@@ -54,7 +54,7 @@ You may fork a copy from here.
 
 ``` git clone https://github.com/LoginRadius/engineering-blog-samples/tree/master/Docker/docker-compose-dev-sample ```
 
-![So what is the problem](what-is-the-problem.jpg)
+![So what is the problem](what-is-the-problem.webp)
 
 ### The use of docker-compose and why?
 
@@ -232,7 +232,7 @@ upstream apiserver{
 The Nginx container opens port 80 to an external port 5500. The Nginx container keeps configuration where the user can see just one port 5500 from out of the system, everything else is gray.
 
 
-![User to System](UserToSystem.png)
+![User to System](UserToSystem.webp)
 
 And this is, how it happens in the real world as well!
 
@@ -254,7 +254,7 @@ To stop
 
 This scratches the surface of using docker-compose for a production-grade development environment.
 
-![No Animals Harmed](noanimalsharmed.png)
+![No Animals Harmed](noanimalsharmed.webp)
 
 
 Thanks for reading the blog. For detailed information and execution example of this blog, please refer to the video below:

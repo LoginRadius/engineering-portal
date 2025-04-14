@@ -1,7 +1,7 @@
 ﻿---
 title: "Why is Consumer Onboarding Critical for Startups"
 date: "2021-03-18"
-coverImage: "client-onboard-loginradius-fuel-blog.jpg"
+coverImage: "client-onboard-loginradius-fuel-blog.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -30,7 +30,7 @@ It is imperative that consumers achieve desired results from your product or ser
 
 Approximately [52% of consumers abandon products](https://www.kickstartall.com/what-is-orchestrated-onboarding/) or services within 90 days due to a flawed onboarding process. 55% of people say they've [returned a product](https://www.wyzowl.com/customer-onboarding-statistics) because they didn't fully understand how to use it.
 
- ![customer-churn-loginradius](customer-churn--colorized.jpg)
+ ![customer-churn-loginradius](customer-churn--colorized.webp)
 
 A good consumer onboarding process ensures that your consumer is achieving the desired outcome of your product or services and as a result, it will help you reduce the churn rate.
 
@@ -65,7 +65,7 @@ There is no single method of successful consumer onboarding as it depends on the
 
 This is the first touchpoint of your consumer onboarding. Therefore, the signup process should be simple and secure. Nowadays, consumers are concerned with the lengthy signup process and data security. Instead of building your signup form, you can opt for [**Best CIAM providers**](https://www.loginradius.com/resource/loginradius-ciam-developers-whitepaper) to ensure a good user experience, data security, and compliance.
 
-![customer-churn-loginradius](customer-onboarding-logiradius.jpg)
+![customer-churn-loginradius](customer-onboarding-logiradius.webp)
 
 ### Welcome email
 
@@ -91,4 +91,4 @@ Don't forget to take feedback from the consumer after onboarding. Ask them if th
 
 There are many free and paid tools available that help you set up a good consumer onboarding process. You can also [**refer to this article**](https://www.loginradius.com/blog/fuel/2021/01/user-onboarding-tools/) for the list of highly recommended consumer onboarding tools for businesses.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-is-consumer-onboarding-critical-for-startups)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-is-consumer-onboarding-critical-for-startups)

@@ -1,7 +1,7 @@
 ---
 title: "A Detailed Guide on How UX/UI Affects Registration"
 date: "2021-04-16"
-coverImage: "how-ui-ux-affects-registration-cover.jpg"
+coverImage: "how-ui-ux-affects-registration-cover.webp"
 tags: ["other"]
 featured: false 
 author: "Rakesh Soni"
@@ -77,7 +77,7 @@ And last, perform A/B testing on your signup forms. You will surely get some spa
 
 
 
-![how-ui-ux-affects-registration-pinterest1](how-ui-ux-affects-registration-pinterest1.jpg)
+![how-ui-ux-affects-registration-pinterest1](how-ui-ux-affects-registration-pinterest1.webp)
 
 Image source: [Pinterest](https://www.pinterest.com/)
 
@@ -94,7 +94,7 @@ Image source: [Pinterest](https://www.pinterest.com/)
 
 
 
-![how-ui-ux-affects-registration-landcf](how-ui-ux-affects-registration-landcf.jpg)
+![how-ui-ux-affects-registration-landcf](how-ui-ux-affects-registration-landcf.webp)
 
 
 Image Source: [Lane Crawford](https://secure.lanecrawford.com/account/accountCreation.jsp)
@@ -111,7 +111,7 @@ Image Source: [Lane Crawford](https://secure.lanecrawford.com/account/accountCre
 
 
 
-![how-ui-ux-affects-registration-gnc](how-ui-ux-affects-registration-gnc.jpg)
+![how-ui-ux-affects-registration-gnc](how-ui-ux-affects-registration-gnc.webp)
 
 
 Image source: [GNC](https://www.gnc.com/checkout/index.jsp)
@@ -128,7 +128,7 @@ Image source: [GNC](https://www.gnc.com/checkout/index.jsp)
 
 
 
-![how-ui-ux-affects-registration-canva](how-ui-ux-affects-registration-canva.jpg)
+![how-ui-ux-affects-registration-canva](how-ui-ux-affects-registration-canva.webp)
 
 
 Image source: [Canva](https://www.canva.com/login)
@@ -145,7 +145,7 @@ Image source: [Canva](https://www.canva.com/login)
 ### 5. Make My Trip 
 
 
-![how-ui-ux-affects-registration-mmt](how-ui-ux-affects-registration-mmt.jpg)
+![how-ui-ux-affects-registration-mmt](how-ui-ux-affects-registration-mmt.webp)
 
 
 
@@ -171,7 +171,7 @@ In fact, according to [Consumer Digital Identity Trend Report 2020](https://www.
 Well, no surprise there! 
 
 
-![how-ui-ux-affects-registration-lr](how-ui-ux-affects-registration-lr.jpg)
+![how-ui-ux-affects-registration-lr](how-ui-ux-affects-registration-lr.webp)
 
 
 
@@ -220,36 +220,36 @@ Many companies overlook the crucial factors to consider when integrating social 
 
 
 
-![how-ui-ux-affects-registration-1](how-ui-ux-affects-registration-1.png)
+![how-ui-ux-affects-registration-1](how-ui-ux-affects-registration-1.webp)
 
 
 2. **38.69%** of females prefer social login compared to 48.55% males.
 
 
-![how-ui-ux-affects-registration-2](how-ui-ux-affects-registration-2.png)
+![how-ui-ux-affects-registration-2](how-ui-ux-affects-registration-2.webp)
 
 
 3. In **North America**, Facebook and Google are the most popular social networks preferred by 40.23% and 38.04% of consumers, respectively. 
 
 
 
-![how-ui-ux-affects-registration-3](how-ui-ux-affects-registration-3.png)
+![how-ui-ux-affects-registration-3](how-ui-ux-affects-registration-3.webp)
 
 
 4. In **Europe**, a similar trend is witnessed. Facebook is preferred by 36.12% of consumers, and Google is preferred by 34.89%.
 
 
-![how-ui-ux-affects-registration-4](how-ui-ux-affects-registration-4.png)
+![how-ui-ux-affects-registration-4](how-ui-ux-affects-registration-4.webp)
 
 
 5. **Facebook** is still preferred by 51.72% of consumers in the APAC region, and Google is preferred by 26.033%.
 
 
 
-![how-ui-ux-affects-registration-5](how-ui-ux-affects-registration-5.png)
+![how-ui-ux-affects-registration-5](how-ui-ux-affects-registration-5.webp)
 
 
 So, get cracking! Obviously, you do not want to lose out on your potential customers. Enjoy the endless benefits of Social Login with the [LoginRadius unified social API](https://www.loginradius.com/social-login/). 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ui-ux-affects-registration)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ui-ux-affects-registration)

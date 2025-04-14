@@ -1,7 +1,7 @@
 ---
 title: "Introduction to SolidJS"
 date: "2022-06-28"
-coverImage: "introduction-to-solidjs.png"
+coverImage: "introduction-to-solidjs.webp"
 author: "Siddhant Varma"
 tags: ["SolidJS", "React", "Frontend"]
 description: "In this tutorial, you’ll learn what SolidJS is, how it works, and its fundamentals such as reactivity, architecture, events, effects, etc. Then you’ll use this knowledge to build a simple todo app. Finally, you’ll understand how SolidJS compares with React and how it’s better and worse."
@@ -13,7 +13,7 @@ So in this tutorial, I'll give you a complete walkthrough of SolidJS and help yo
 
 ## What is SolidJS?
 
-![Features of SolidJS](./features-of-solidjs.png)
+![Features of SolidJS](./features-of-solidjs.webp)
 
 SolidJS takes the syntax and developer experience of React and combines it with the performance of Svelte to give you the best of both worlds.
 
@@ -48,7 +48,7 @@ render(() => <HelloWorld />, document.getElementById("app")!);
 
 From the above code, it's also clear that components are functions that return the HTML template using JSX.
 
-![HelloWorld Example](./hello-world-example.png)
+![HelloWorld Example](./hello-world-example.webp)
 
 Solid components allow only a single JSX element at the top level. To combat this, you can use special JSX elements called fragments: 
 
@@ -101,7 +101,7 @@ render(() => <App />, document.getElementById("app")!);
 
 That should give you both the components on the DOM like this:
 
-![Header and HelloWorld](./header-and-hello-world.png)
+![Header and HelloWorld](./header-and-hello-world.webp)
 
 #### Props
 
@@ -157,11 +157,11 @@ render(() => <DisplayName />, document.getElementById("app")!);
 
 Initially, the name outputs the string 'fuzzysid':
 
-![Reactivity Before Update](./reactivity-before-update.png)
+![Reactivity Before Update](./reactivity-before-update.webp)
 
 A click event is used on the button that fires a function called `changeName`. When you press the *Change Name* button, the `changeName` function updates the `name` signal to 'siddhant':
 
-![Reactivity After Update](./reactivity-after-update.png)
+![Reactivity After Update](./reactivity-after-update.webp)
 
 What a `state` is to React components, a `signal` is to Solid components. [Here's another useful and typical example](https://playground.solidjs.com/?hash=-1579873004&version=1.4.1) of reactive variables:
 
@@ -203,7 +203,7 @@ createEffect(()=>{
 
 So now, if you click on the *Increment* button, you should get an alert when it becomes greater than 5:
 
-![Effects Example](./effects-example.png)
+![Effects Example](./effects-example.webp)
 
 ### Conditionals
 
@@ -235,7 +235,7 @@ render(() => <Counter />, document.getElementById("app")!);
 
 Once the `count` becomes greater than 5, the `<p>` will start showing on the DOM:
 
-![Conditionals Example](./conditionals-example.png)
+![Conditionals Example](./conditionals-example.webp)
 
 ### Loops
 
@@ -274,7 +274,7 @@ render(() => <Counter />, document.getElementById("app")!);
 
 Here's what the list looks like when rendered in the DOM:
 
-![For Example](./for-example.png)
+![For Example](./for-example.webp)
 
 ### Lifecycle Methods 
 
@@ -318,7 +318,7 @@ render(() => <App />, document.getElementById('app'));
 
 It renders a list of posts fetched from a dummy API:
 
-![onMount Example](./on-mount-example.png)
+![onMount Example](./on-mount-example.webp)
 
 #### onCleanup 
 
@@ -360,7 +360,7 @@ render(() => <App />, document.getElementById('app'));
 
 When you enter the red box, the `mouseenter` event fires, and you get a message on the console. As a cleanup, when the component unmounts, we remove this event listener from that `<div>`. 
 
-![OnCleanup Example](./on-cleanup-example.png)
+![OnCleanup Example](./on-cleanup-example.webp)
 
 ## Build a Todo App with SolidJS
 
@@ -419,7 +419,7 @@ Notice that you also have an `App.module.css` file being imported here. It's the
 
 Now let's create some boilerplate files. Here's what the architecture of our Todo app would look like:
 
-![Todo App Architecture](./todo-app-architecture.png)
+![Todo App Architecture](./todo-app-architecture.webp)
 
 You'll have your top-most parent `<App/>` component that would store all the todos and the functions to manipulate these todos. This `<App/>` component will have two child components. 
 
@@ -541,7 +541,7 @@ export default App;
 
 Once you do that, you should see an input field with a submit button rendered by the `<AddTodo/>` component on the screen:
 
-![AddTodo Component](./add-todo-component.png)
+![AddTodo Component](./add-todo-component.webp)
 
 ### Rendering Todos
 
@@ -732,7 +732,7 @@ p:hover{
 
 And that should give us a much better-looking todo app now:
 
-![Updated-app](./updated-app.png)
+![Updated-app](./updated-app.webp)
 
 ## SolidJS vs. React
 
@@ -746,7 +746,7 @@ Solid differs from React in terms of performance, developer experience, renderin
 
 At the beginning of this tutorial, we discussed how Solid doesn't use a virtual DOM. Instead, it uses a compiled DOM. This gives it a significant edge over React and any other framework in terms of run-time performance. It generates a blazingly fast production bundle that is aimed to provide a more rich user experience for your users. 
 
-![SolidJS Performance](./solidjs-performance.png) 
+![SolidJS Performance](./solidjs-performance.webp) 
 
 If you wish to dive deeper into these stats and take a closer look at performance benchmarks, [here's a comparison guide you can refer to](https://krausest.github.io/js-framework-benchmark/current.html). 
 

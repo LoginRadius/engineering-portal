@@ -1,7 +1,7 @@
 ---
 title: "Will Apple’s ‘Lockdown Mode’ Reduce State-Sponsored Attacks?"
 date: "2022-07-07"
-coverImage: "apple-inc.jpg"
+coverImage: "apple-inc.webp"
 tags: ["cyberattacks", "apple", "zero trust"]
 author: "Rakesh Soni"
 description: "The ‘lockdown mode’ is considered a giant leap as a part of their information security for protecting operating systems of iPhone, iPad, and Mac against various threats, including spyware. Let’s understand what a state-sponsored attack is and how this new feature in Apple devices would work to protect critical customer information."
@@ -28,7 +28,7 @@ These attacks usually target a specific group of people that can be spied on to 
 
 Various states employ hackers through their government authorities or militaries, making it easier to deny any state involvement even if an attack is detected. 
 
-[![WP-Zerotrust-1](WP-Zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zerotrust-1](WP-Zerotrust-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## How Does Apple’s ‘Lockdown Mode’ Work?
@@ -52,4 +52,4 @@ However, the underlying risks associated with state-sponsored attacks can’t be
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=apple-lockdown-mode-robust-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=apple-lockdown-mode-robust-security)

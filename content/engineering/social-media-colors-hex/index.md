@@ -1,7 +1,7 @@
 ---
 title: "Social Media Colors in Hex"
 date: "2015-02-06"
-coverImage: "darrylblog1-150x150.png"
+coverImage: "darrylblog1-150x150.webp"
 author: "Team LoginRadius"
 tags: ["SocialMedia","Facebook","Google","Color"]
 ---

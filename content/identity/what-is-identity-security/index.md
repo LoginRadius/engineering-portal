@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Security?"
 date: "2021-08-03"
-coverImage: "purpose-identity-security-2021-cover.jpg"
+coverImage: "purpose-identity-security-2021-cover.webp"
 tags: ["digital identity management","ciam solution","data security"]
 author: "Rakesh Soni"
 description: "Thousands of individuals compromise their identities every day because of weak defense and poor authentication at the service providers’ end. Businesses need a robust identity management solution to navigate their digital transformation journey without compromising user identities and sensitive business information."
@@ -48,7 +48,7 @@ Apart from this, the sudden paradigm shift towards online platforms has also inc
 
 Also, specific privacy and data security compliances like the GDPR and CCPA requires organizations storing consumer information to adhere to their regulations to ensure maximum safety to consumers while their data is being collected, stored, and managed. 
 
-[![WP-future-dig-id](WP-future-dig-id.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
+[![WP-future-dig-id](WP-future-dig-id.webp)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 Hence there’s an immediate need to deploy a reliable [consumer identity and access management solution](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) (CIAM) that can offer identity security without hampering user experience.  
 
@@ -90,4 +90,4 @@ However, creating a perfect harmony between identity security and delivering a f
 
 A robust cloud-based CIAM solution like [LoginRadius](https://www.loginradius.com/contact-sales2/) can be a game-changer, especially in a world where data breaches are pretty frequent, leading to losses worth millions of dollars.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-security)

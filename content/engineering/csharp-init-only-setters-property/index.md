@@ -1,7 +1,7 @@
 ---
 title: "C# Init-Only Setters Property"
 date: "2021-07-15"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#","Properties","Init"]
 description: "In this article, we will talk about Init-Only Setters Property in C#."

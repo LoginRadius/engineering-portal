@@ -1,7 +1,7 @@
 ---
 title: "Working With Industry Authorization: A Beginner's Guide to OAuth 2.0"
 date: "2021-06-08"
-coverImage: "OAuth2.0-guide-cover.jpg"
+coverImage: "OAuth2.0-guide-cover.webp"
 tags: ["data security","authorization","cx"]
 author: "Vishal Sharma"
 description: " OAuth 2.0 is an authorization protocol designed to control access within a web application or a mobile application. Here’s an interesting read showcasing the role of OAuth 2.0 for offering secure access to resources and why enterprises should get it in place."
@@ -94,4 +94,4 @@ Businesses seeking the finest modes of authentication coupled with authorization
 The LoginRadius CIAM is designed to empower businesses by offering the finest user experience and maximum security through industry-standard protocols including OAuth 2.0.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth2-0-guide)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth2-0-guide)

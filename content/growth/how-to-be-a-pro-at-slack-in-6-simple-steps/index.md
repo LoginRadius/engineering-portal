@@ -1,7 +1,7 @@
 ---
 title: "How To Be A Pro At Slack In 6 Simple Steps"
 date: "2017-02-11"
-coverImage: "How-To-Be-A-Pro-At-Slack-In-6-Simple-Steps.png"
+coverImage: "How-To-Be-A-Pro-At-Slack-In-6-Simple-Steps.webp"
 category: ["general", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -30,9 +30,9 @@ So, for people who are still struggling with Slack at their workplace, this arti
 
 Well, there are two ways to access Slack: via browser and via app. But, everything gets faster and automatic with Slack desktop app.
 
-![Slack on browser and app]( Slack-on-browser-and-app.png?ver=1553881376)
+![Slack on browser and app]( Slack-on-browser-and-app.webp?ver=1553881376)
 
-[**Source**](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2015/03/slack-windows.png?ver=1553881376?itok=aTD2os-J)
+[**Source**](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2015/03/slack-windows.webp?ver=1553881376?itok=aTD2os-J)
 
 Slack app launches itself automatically by default every time you start your system. Thus, no need to open your browsers to use Slack from now.
 
@@ -62,7 +62,7 @@ Well, now coming to joining/choosing channels, you can join any channel that see
     - **Step 1:** Go to your channel’s **_notification preferences_** through settings (gear icon on top right corner).
     - **Step 2:** Select “mention of my name or highlights” for getting notifications related to your name or highlighted words.
 
-![How to set notification preferences in Slack]( How-to-set-notification-preferences-in-Slack.png?ver=1553881376)
+![How to set notification preferences in Slack]( How-to-set-notification-preferences-in-Slack.webp?ver=1553881376)
 
 **Note:** _You can mute a channel through “mute this channel” option. Moreover, you can clear all unread messages through **SHIFT + ESC.**_
 
@@ -77,7 +77,7 @@ Slack will notify you whenever your name is included in a message but if you wan
 - Click **_notifications_** tab.
 - Fill the **_highlight words_** box with your choice of highlighted phrases or words.
 
-![How to highlights words in Slack]( How-to-highlights-words-in-Slack.png?ver=1553881376)
+![How to highlights words in Slack]( How-to-highlights-words-in-Slack.webp?ver=1553881376)
 
 ### **Make SlackBot your multi-tasking friend:**
 
@@ -95,11 +95,11 @@ Neither you nor your team can forget a thing when Slackbot is here. Set reminder
 
 - Type ‘/remind \[#channel, a coworker, or yourself\] + \[the work\] + \[time\]. Press Enter.
 
-![How slackbot reminder works]( slackbot-reminder.png?ver=1553881376)
+![How slackbot reminder works]( slackbot-reminder.webp?ver=1553881376)
 
 - Slackbot will respond to your message.
 
-![How slackbot reminder responds]( How-slackbot-reminder-responds.png?ver=1553881376)
+![How slackbot reminder responds]( How-slackbot-reminder-responds.webp?ver=1553881376)
 
 _The response will be exclusively for you. So, your little secret about you ‘forgetting things’ will always remain a secret with Slackbot :D_
 
@@ -196,11 +196,11 @@ Join #CodeNewbie for hanging out with other coders who are mad about coding. You
 - **You can Search anything with Ctrl + F in Slack :** Now, don’t waste time by moving your pointer to find things. Just do Ctrl + F to open search dialogue and search your desired files and messages all over Slack.
 - You need to love and learn shortcuts at least when you work on Slack.You don’t need to learn all but even a handful of them can make working on Slack simpler.Check the list for shortcut keys through **Ctrl + /**.
 
-![Slack Shortcuts]( Slack-Shortcuts.png?ver=1553881376)
+![Slack Shortcuts]( Slack-Shortcuts.webp?ver=1553881376)
 
 - Using emoji can be really fun and an art worth mastering. There are two ways to use emoji in Slack. You can type the name of emoji starting with “:”. It will raise a menu
 
-![How to use emojis in Slack]( How-to-use-emojis-in-Slack.png?ver=1553881376)
+![How to use emojis in Slack]( How-to-use-emojis-in-Slack.webp?ver=1553881376)
 
 Or else just click on the smiley face in message box section to select your favorite emoji.
 

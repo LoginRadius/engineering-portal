@@ -1,7 +1,7 @@
 ---
 title: "What is API Testing? - Discover the Benefits"
 date: "2021-02-12"
-coverImage: "api-testing.png"
+coverImage: "api-testing.webp"
 author: "Surendranath Reddy Birudala"
 tags: ["Automation", "API Testing", "Agile", "Benefits"]
 description: "Communication between software components is handled by an API (Application Programming Interface). Discover the advantages of automated API testing."

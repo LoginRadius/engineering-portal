@@ -1,7 +1,7 @@
 ---
 title: "Everything You Need to Know About OAuth and How it Works"
 date: "2021-09-23"
-coverImage: "what-is-oauth-cover.jpg"
+coverImage: "what-is-oauth-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Vaibhav Jain"
@@ -22,7 +22,7 @@ To understand this, let's take the example of Facebook. When an app on Facebook 
 
 
 
-![what-is-oauth-1](what-is-oauth-1.png)
+![what-is-oauth-1](what-is-oauth-1.webp)
 
 
 The following explains the working of the above sequence diagram of Oauth 2.0 implementation: 
@@ -80,4 +80,4 @@ This article talked about OAuth 2.0 as an authorization framework for delegated 
 Cheers!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-oauth)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-oauth)

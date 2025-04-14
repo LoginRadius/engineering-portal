@@ -2,7 +2,7 @@
 title: "React Hooks: A Beginners Guide"
 date: "2020-08-07"
 author: "Mohammed Modi"
-coverImage: "react-hooks.png"
+coverImage: "react-hooks.webp"
 tags: ["React", "Hooks"]
 description: "A walkthrough guide on React Hooks, what is React Hooks, benefits of Hooks, and how to use Hooks in React and more."
 ---

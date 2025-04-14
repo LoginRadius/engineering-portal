@@ -1,7 +1,7 @@
 ---
 title: "React Router Basics: Routing in a Single-page Application"
 date: "2020-11-20"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: Nathan Nguyen
 tags: ["JavaScript", "Node", "React", "React Router"]
 description: "Everything essential you need to know about React Router."
@@ -105,7 +105,7 @@ If you are currently looking at the render of this structure from the CodePen, y
 
 
 
-![Example UI](image1.png)
+![Example UI](image1.webp)
 
 
 Clicking on the <code>&lt;Link></code>’s in the navigation bar will “navigate” you to the corresponding paths. In effect, what this does is twofold:

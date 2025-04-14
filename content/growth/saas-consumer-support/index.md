@@ -1,7 +1,7 @@
 ---
 title: "How to Deliver the Perfect Consumer Support System for SaaS Companies"
 date: "2021-02-12"
-coverImage: "saas-consumer-support.jpg"
+coverImage: "saas-consumer-support.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -232,4 +232,4 @@ They can help to define your organization and drive your organization's reputati
 Hopefully, the above insights into the <a href="https://www.loginradius.com/contact-us/">LoginRadius support team</a> and some of the things that have helped us to support our consumers enable you to drive efficiencies within your organization.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saas-consumer-support)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saas-consumer-support)

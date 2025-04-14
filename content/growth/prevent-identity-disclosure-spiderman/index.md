@@ -1,7 +1,7 @@
 ---
 title: "Not Sure About Spiderman, But You Can Prevent Identity Disclosure"
 date: "2021-12-02"
-coverImage: "spiderman.jpg"
+coverImage: "spiderman.webp"
 tags: ["data security","adaptive authentication","cx"]
 author: "Rakesh Soni"
 description: "What's most challenging about identity disclosure is that it is not only hard to avoid but also very difficult to repair once it has been disclosed. So, don't wait for a Mysterio to mess up your consumers’ identities! Security is just a click away with LoginRadius."
@@ -48,7 +48,7 @@ When dealing with personal information in business, it is crucial to be extra ca
 
 In a business theft, if you lose a significant amount of income, it will cause a delay in the salaries of the employees and other staff members. There might be certain situations where you might need to cut your operating expenses and reduce your budget. In some cases, the thieves can also impact your business credit score. Thus, it will draw your credit reports into negative scores. Such an event can drastically shake the trust of people for your company.             
 
-[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## How to Recover from Identity Disclosure in Business
@@ -65,7 +65,7 @@ If you have been a victim of identity disclosure, you will end up in danger of c
 ## Tips to Prevent Identity Disclosure in Business
 
 
-![1](1.jpg)
+![1](1.webp)
 
 
 [Protecting the identities of users](https://www.loginradius.com/security/) is critical for any business. Mentioned below are a few methods to prevent identity disclosure as a business:
@@ -97,4 +97,4 @@ If you have been a victim of identity disclosure, you will end up in danger of c
 Your consumer data privacy and security plan should keep up with technological advancements and the rise of cyber-attacks. To future-proof your consumer data protection plan, consider investing in accordance with the most recent regulations. [Contact us](https://www.loginradius.com/contact-sales) for more information on how we have been securing billions of identities globally. 
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-identity-disclosure-spiderman)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=prevent-identity-disclosure-spiderman)

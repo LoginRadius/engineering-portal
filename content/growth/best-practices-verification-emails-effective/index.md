@@ -1,7 +1,7 @@
 ﻿---
 title: "Tips to Make Verification Emails Effective: Best Practices & Examples"
 date: "2022-03-21"
-coverImage: "verification-email.jpg"
+coverImage: "verification-email.webp"
 category: ["all"]
 featured: false 
 author: "Maxim Grigoryev"
@@ -95,17 +95,17 @@ Besides, the examples of validation emails often have information regarding thei
 Here is an example of how Discord used fun facts in their [validation emails](https://reallygoodemails.com/emails/verify-email) in 2019:
 
 
-![discord-example](discord-example.jpg)
+![discord-example](discord-example.webp)
 
 
 While these examples show the usage of call to action buttons and tone of voice to produce additional value when engaging with customers:
 
-![typform-example](typform-example.jpg)
+![typform-example](typform-example.webp)
 
 The first case illustrates how the brand uses colors to create a space and underline non-intrusive elements. The particular template is pretty straightforward and suits its purpose.
 
 
-![harry-potter-example](harry-potter-example.jpg)
+![harry-potter-example](harry-potter-example.webp)
 
 
 
@@ -117,4 +117,4 @@ The second example has more to offer with regard to fonts, colors, and tone of v
 
 The goal of the particular article is to convince you that verification emails should not necessarily be basic and boring. They can add to the marketing strategy and be a starting point for your engagement with the customer.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-verification-emails-effective)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-verification-emails-effective)

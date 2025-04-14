@@ -1,7 +1,7 @@
 ---
 title: "What Brands Need to Know for Building the Future of Data Compliance?"
 date: "2022-09-19"
-coverImage: "id-first.jpg"
+coverImage: "id-first.webp"
 tags: ["identity management", "mfa", "ciam","cx"]
 author: "Rakesh Soni"
 description: "Identity management is undoubtedly the new leadership model for data protection and business growth. And an identity-first security mechanism is swiftly becoming the need of the hour. This blog highlights the aspects of incorporating identity-first security and how businesses can navigate their digital success."
@@ -49,7 +49,7 @@ With an identity-first security approach, businesses can:
 * Ensure access is granted to the right person at the right time via automated processes without compromising security.
 * Offer stringent layers of security through [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) and risk-based authentication (RBA)
 
-[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## The Crucial Role of An Identity Management Platform
 
@@ -70,4 +70,4 @@ If you wish to experience how LoginRadius works for your business, reach us toda
 Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution ensures robust security for your business.  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decoding-ethics-identity-first-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decoding-ethics-identity-first-security)

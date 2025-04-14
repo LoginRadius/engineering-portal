@@ -1,7 +1,7 @@
 ---
 title: "How to Deploy a REST API in Kubernetes"
 date: "2021-02-03"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Andy Yeung"
 tags: ["Kubernetes"]
 description: "Beginner guide on how to create and deploy a REST API in local Kubernetes."

@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Launches a CLI for Enterprise Dashboard"
 date: "2023-01-16"
-coverImage: "cli-1.png"
+coverImage: "cli-1.webp"
 author: "Kundan Singh"
 tags: ["enterprise", "admin console", "developers"]
 description: "We are happy to announce that we have launched LoginRadius CLI for enterprise dashboard."
@@ -35,7 +35,7 @@ To add a domain through LoginRadius Admin Console, you need to:  \
 On the flip side, you can do this by running a single command:
 
 
-![cl-1](cl-1.png)
+![cl-1](cl-1.webp)
 
 
 **Here are some more of LoginRadius CLI Enterprise's commands:**
@@ -43,7 +43,7 @@ On the flip side, you can do this by running a single command:
 **1. Login/Logout to your LoginRadius Dashboard**
 
 
-![cl-2](cl-2.png)
+![cl-2](cl-2.webp)
 
 
 This command (_lr login_) will help you to login to your LoginRadius Enterprise Dashboard. Once logged in, you can perform other operations and configure your LoginRadius Application through CLI.
@@ -51,7 +51,7 @@ This command (_lr login_) will help you to login to your LoginRadius Enterprise 
 **2. Manage Application Credentials**
 
 
-![cl-3](cl-3.png)
+![cl-3](cl-3.webp)
 
 
 You can get our App Credentials, reset Secret key, update account password and generate SOTT through LoginRadius CLI.
@@ -59,7 +59,7 @@ You can get our App Credentials, reset Secret key, update account password and g
 **Set Schema for Your LoginRadius Application**
 
 
-![4](4.png)
+![4](4.webp)
 
 
 
@@ -68,7 +68,7 @@ This command will help you set the schema for your application. We can get all t
 **Theme Management (LoginRadius Page)**
 
 
-![cl-5](cl-5.png)
+![cl-5](cl-5.webp)
 
 
 You can update the LoginRadius IDX Page(Hosted Page) from the available themes through LoginRadius CLI commands.  
@@ -87,4 +87,4 @@ We hope you will love trying LoginRadius CLI for Enterprise Dashboard. We will a
 We are eager to know your feedback, test cases and also what we can bring up next in our CLI. If you have any suggestions, please create an issue on our [open source github repository](https://github.com/LoginRadius/lr-cli/issues).
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-cli-enterprise-dashboard)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-cli-enterprise-dashboard)

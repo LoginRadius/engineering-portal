@@ -1,7 +1,7 @@
 ---
 title: "What is Identity and Access Management (IAM)?"
 date: "2021-01-29"
-coverImage: "What-is-IAM-Cover.jpg"
+coverImage: "What-is-IAM-Cover.webp"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
@@ -13,7 +13,7 @@ metadescription: "Learn about identity and access management in cybersecurity, i
 
 # What is IAM
 
-![What-is-IAM-1](What-is-IAM-1.jpg)
+![What-is-IAM-1](What-is-IAM-1.webp)
 
 Identity and Access Management (IAM) is a core discipline for any enterprise IT, as it is inseparably linked to the security and sustainability of companies. 
 
@@ -71,7 +71,7 @@ Here are some of the key terminologies that you will encounter while processing 
 
 ## How IAM Works
 
-![What is IAM-3](What-is-IAM-3.png)
+![What is IAM-3](What-is-IAM-3.webp)
 
 Identity and access management systems perform three main tasks viz. identification, authentication, and authorization. In other words, IAM functions to provide the right people access to devices, hardware, software applications, or any IT tool to perform a specific task. 
 
@@ -247,7 +247,7 @@ We live in the age of ever-growing cybersecurity threats. Organizations cannot a
 
 Although 2020 has been a year-long roller coaster with the pandemic hitting hard, there's one thing that happened for sure. Digital transformation has progressed at an unparalleled pace, and identity and access management (IAM) is a major part of that evolution. 
 
-[![future-of-digital-identity](future-of-digital-identity.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
+[![future-of-digital-identity](future-of-digital-identity.webp)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 Let's look at some of the most changing developments in the IAM market anticipated in 2021.
 
@@ -277,7 +277,7 @@ And when that happens, it will be easier for enterprises to capture and analyze 
 
 ## How LoginRadius IAM Solution Can Accommodate Your Enterprise Requirements 
 
-![What-is-IAM-4](What-is-IAM-4.png)
+![What-is-IAM-4](What-is-IAM-4.webp)
 
 With the [right IAM provider](https://www.loginradius.com/), organizations can enjoy enormous time-saving, efficiency-building, and security-boosting benefits, irrespective of where they operate. 
 
@@ -318,4 +318,4 @@ Powerful identity and access management solutions offer the right tools to ensur
 There is a huge demand to invest in new digital methods of communication.  And prioritizing [digital security](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) will go a long way. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-iam)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-iam)

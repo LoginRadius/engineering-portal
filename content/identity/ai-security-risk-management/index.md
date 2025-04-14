@@ -1,7 +1,7 @@
 ---
 title: "Managing Generative AI Security Risks in the Enterprise- A Quick Guide"
 date: "2023-10-25"
-coverImage: "ai-security.jpg"
+coverImage: "ai-security.webp"
 tags: ["data security","artificial intelligence","ciam solutions","cx"]
 author: "Rakesh Soni"
 description: "Navigate generative AI security with our concise guide for enterprises. From data encryption to countering adversarial attacks, discover essential strategies for safeguarding your digital assets. Embrace transparency and empower your team to stay ahead in the rapidly evolving landscape of AI innovation."
@@ -44,7 +44,7 @@ Ethical Implications: AI systems can inadvertently generate biased or inappropri
 
 The field of AI security is ever-evolving, with security threats and defense mechanisms advancing rapidly. Enterprises must adopt a proactive stance by staying updated with the latest AI security research and practice developments.
 
-[![WP-ai](wp-ai.png)](https://www.loginradius.com/resource/how-ai-is-going-to-change-your-iam-initiatives/)
+[![WP-ai](wp-ai.webp)](https://www.loginradius.com/resource/how-ai-is-going-to-change-your-iam-initiatives/)
 Regularly reassessing security protocols and investing in cutting-edge technologies can significantly enhance an organization's resilience against emerging threats. Moreover, fostering a culture of innovation within the organization can lead to the development of novel solutions and strategies. 
 
 Encouraging research and development in AI security benefits the enterprise and contributes to the broader cybersecurity community. 
@@ -65,4 +65,4 @@ By understanding the unique threats, implementing robust security measures, and 
 
 Staying informed and prepared is the key to success. As technologies continue advancing, enterprises must remain vigilant, adapt their security strategies, and explore innovative ways to protect their assets and stakeholders in the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-security-risk-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-security-risk-management)

@@ -1,7 +1,7 @@
 ---
 title: "A Simple Popup Tutorial"
 date: "2015-01-05"
-coverImage: "simplepop.png"
+coverImage: "simplepop.webp"
 author: Zoie Carnegie
 tags: ["HTML", "CSS", "UI"]
 ---
@@ -81,7 +81,7 @@ We’ve created a div with id overlay to cover all the page content when the pop
 
 We’ve now added some CSS for the overlay and the popup. At this point, we can see a white box above our grey overlay. We’ve added an h1 tag inside our popup a page title and some main page content. We should now see something like this:
 
-![popup-example-01](popup-example-01.png)
+![popup-example-01](popup-example-01.webp)
 
 Next let's add a control to close this popup. We’ll add a span containing an X that we can click on to close this popup and JavaScript to handle this event.
 

@@ -1,7 +1,7 @@
 ---
 title: "NodeJS Server using Core HTTP Module"
 date: "2020-11-27"
-coverImage: "coverImage.jpg"
+coverImage: "coverImage.webp"
 author: "Hridayesh Sharma"
 tags: ["NodeJs", "JavaScript"]
 description: "Let us understand the core http module in NodeJS, which is the basic building block of frameworks like ExpressJS etc."

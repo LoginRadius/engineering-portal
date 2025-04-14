@@ -1,7 +1,7 @@
 ---
 title: "Business On The Move: How Just-in-Time Migrations Are Making Smooth CIAM Transitions"
 date: "2023-01-11"
-coverImage: "ciam-intime.jpg"
+coverImage: "ciam-intime.webp"
 tags: ["ciam", "data migration", "identity import manager"]
 author: "Yash Rathi"
 description: "Just-in-time migrations are the latest buzz in the customer identity and access management (CIAM) industry. While most organizations still use bulk migrations, a growing segment of cloud services is implementing just-in-time (JIT)."
@@ -44,7 +44,7 @@ This process allows organizations to impose strict controls on sensitive informa
 The LoginRadius Identity Import Manager is a flexible tool that allows companies to import and manage multiple customer profile data from any different application, service, or database into the LoginRadius database via CSV files. 
 
 
-[![etl-ds](etl-ds.png)](https://www.loginradius.com/resource/loginradius-identity-import-manager)
+[![etl-ds](etl-ds.webp)](https://www.loginradius.com/resource/loginradius-identity-import-manager)
 
 With the new feature, companies can be confident about the consistency and accuracy of the imported data. Here are the LoginRadius’ identity import manager’s capabilities: 
 
@@ -72,4 +72,4 @@ This dramatically reduces the number of systems and platforms involved in a migr
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=just-in-time-migrations-ciam-transitions)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=just-in-time-migrations-ciam-transitions)

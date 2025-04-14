@@ -1,7 +1,7 @@
 ---
 title: "How to Manage Situation After a Data Breach"
 date: "2021-07-27"
-coverImage: "5-ways-to-handle-a-data-breach-cover.jpg"
+coverImage: "5-ways-to-handle-a-data-breach-cover.webp"
 tags: ["data security","cybersecurity","cx"]
 author: "Rakesh Soni"
 description: "Data breaches are becoming the new normal and enterprises aren’t aware of the necessary steps that should be taken immediately after a breach. This post offers valuable insights that help organizations to quickly and effectively manage a situation after a data breach is detected."
@@ -74,7 +74,7 @@ But many of you would wonder why we need to mention a breach if it isn’t causi
 
 Organizations must take adequate measures to maintain integrity and reputation since a data breach isn’t something that one can hide for an extended period. 
 
-[![RP-Data-Breaches](RP-Data-Breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![RP-Data-Breaches](RP-Data-Breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ### **4. Investigate- How did it Happen?**
 
@@ -104,4 +104,4 @@ The aspects mentioned above can be quite helpful in managing the overall situati
 
 It’s recommended that enterprises should consider stringent security measures to avoid any chance of sneaking into the company’s network. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-to-handle-a-data-breach)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-to-handle-a-data-breach)

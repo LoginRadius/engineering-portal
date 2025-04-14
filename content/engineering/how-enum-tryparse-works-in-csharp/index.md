@@ -1,7 +1,7 @@
 ---
 title: "How Enum.TryParse() works in C#"
 date: "2021-04-28"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#","Enum"]
 description: "In this article, I will talk about how Enum.TryParse() works in C# and mistake which we can make while using it."

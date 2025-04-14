@@ -1,7 +1,7 @@
 ---
 title: "Why You Should Customize Your Marketing Programs Based on Consumer Journey"
 date: "2021-11-10"
-coverImage: "customer-marketing.jpg"
+coverImage: "customer-marketing.webp"
 tags: ["ciam solution","cx","mfa"]
 author: "Vishal Sharma"
 description: "Personalized consumer experience is becoming the need of the hour. Let’s understand how a personalized consumer journey can help businesses stay ahead of the curve and how a CIAM solution like LoginRadius offers valuable insights for creating personalized user experiences."
@@ -38,7 +38,7 @@ Well, consumers are already interacting with established brands, including Apple
 
 As a vendor, if you have the data regarding the buyer’s behavior, you can pitch exactly the same product or service for which they have landed. 
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 ## How LoginRadius Helps Build Personalized Consumer Journeys? 
 
@@ -70,4 +70,4 @@ Consumer data can help businesses craft personalized consumer journeys that not 
 
 With a [consumer identity and access management (CIAM)](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/#:~:text=Customer%20identity%20and%20access%20management%20(CIAM)%20is%20a%20digital%20identity,while%20securely%20managing%20customer%20identities.) solution in place, enterprises can yield better results by creating rich, personalized user experiences that help engage potential clients and increase the chances of conversions. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customize-marketing-programs-on-consumer-journey)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customize-marketing-programs-on-consumer-journey)

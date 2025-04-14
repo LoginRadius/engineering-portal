@@ -1,7 +1,7 @@
 ---
 title: "Digital Privacy: Securing Consumer Privacy with LoginRadius"
 date: "2019-12-12"
-coverImage: "digital-privacy.jpg"
+coverImage: "digital-privacy.webp"
 tags: ["data privacy","compliance","ciam solution"]
 author: "Rakesh Soni"
 description: "Concerns over digital data security have always been at the forefront of a CIO 's mind. But it generated fresh concern when the 2017 Equifax hack struck. Here's how executives work to protect the digital privacy of consumer data across business verticals."
@@ -42,7 +42,7 @@ Simply put, data or digital privacy is a basic human right. The concept in busin
 
 After the European Union enacted the [General Data Protection Regulation (GDPR)](https://www.loginradius.com/gdpr-and-privacy/), many companies have begun exploring the role of privacy as a human right. It’s been giving a new direction to companies to develop the necessary tools and processes to collect consumer data and not exploit it. 
 
-[![CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance-whitepaper](CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance-whitepaper](CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 ## 5 Major Threats to Data Privacy in the Digital Age
 
@@ -110,7 +110,7 @@ Don’t wait to draft incident policies for your customers after a data breach. 
 
 The ability to demonstrate Return on Mitigation (ROM) is also a critical metric to CEOs. To do this, calculate [potential risks and assess](https://www.loginradius.com/loginradius-business-continuity-covid-19-outbreak/) how much can be saved through on-time mitigation.
 
-![digital privacy best practices](image2-3.jpg)
+![digital privacy best practices](image2-3.webp)
 
 ## How LoginRadius Helps Businesses Protect Consumer Data
 
@@ -140,4 +140,4 @@ LoginRadius complies with major regulatory laws and privacy requirements. It hel
 
 Getting your enterprise onboard with these best practices is the first step to attaining better digital privacy for your consumers. Start by setting up a data maintenance process—operational efficiencies will follow through. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-privacy-best-practices)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-privacy-best-practices)

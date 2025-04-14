@@ -1,7 +1,7 @@
 ---
 title: "Choosing Between Self-Managed and Service-Based SSO Solutions: A Comprehensive Comparison"
 date: "2023-07-03"
-coverImage: "self-managed-vs-service-based.jpg"
+coverImage: "self-managed-vs-service-based.webp"
 tags: ["single sign-on","compliance","authentication","cx"]
 author: "Rakesh Soni"
 description: "Here’s a comprehensive comparison between self-managed and service-based SSO solutions, exploring factors such as control, customization, maintenance, scalability, security, and cost. This blog will help you make an informed decision that aligns with your organization's needs and goals."
@@ -46,7 +46,7 @@ Service-based solutions excel in terms of scalability and flexibility. They are 
 
 As organizations grow or introduce new software, service-based solutions can quickly scale up or down to meet evolving requirements. In contrast, self-managed solutions may require additional resources, expertise, and time to scale effectively, which can challenge organizations with rapidly changing needs.
 
-[![WP-resilience](WP-resilience.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-resilience](WP-resilience.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 ### 4. Security and Compliance
 
@@ -72,4 +72,4 @@ Choosing between self-managed and service-based SSO solutions requires carefully
 
 When deciding, it is crucial to consider factors such as control, maintenance, scalability, security, and cost. Choosing between self-managed and service-based SSO solutions should align with your organization's unique requirements and priorities. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=self-managed-vs-service-based-sso-solutions)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=self-managed-vs-service-based-sso-solutions)

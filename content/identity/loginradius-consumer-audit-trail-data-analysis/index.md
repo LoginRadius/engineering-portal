@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Approves Consumer Audit Trail for In-Depth Data Analysis and Risk Assessment"
 date: "2020-07-02"
-coverImage: "Consumer-Audit-Trail.jpg"
+coverImage: "Consumer-Audit-Trail.webp"
 tags: ["industry-news"]
 featured: false 
 author: "Rakesh Soni"
@@ -26,7 +26,7 @@ In addition, audit logs can be used to gain deeper insights into an identity clo
 
 ## Core Capabilities of LoginRadius Consumer Audit Trail
 
-![Core Capabilities of LoginRadius Consumer Audit Trail](Core-Capabilities-of-LoginRadius-Consumer-Audit-Trail.jpg)
+![Core Capabilities of LoginRadius Consumer Audit Trail](Core-Capabilities-of-LoginRadius-Consumer-Audit-Trail.webp)
 
 - **Data Collection**: The LoginRadius Data Management Platform gathers data from various sources, APIs, and even from migrated data to enrich the user profile data. 
 - **Secure Data Management**: It offers end-to-end encryption at rest and in transit and ensures [data collection within the compliance](https://www.loginradius.com/data-governance/) boundaries of social networks and website privacy policy terms.
@@ -38,7 +38,7 @@ In addition, audit logs can be used to gain deeper insights into an identity clo
 - **Incident Response**: It provides case management, collaboration, and knowledge sharing around security incidents. 
 - **SIEM Complete Solution Analytics**: LoginRadius offers its SIEM solution via integration to showcase the analytical details for business decisions. It supports integrations with most-used tools like Splunk, logstash, sumo logic, etc.
 
-[![Consumer audit trail datasheet](DS-Cosumer-Audit-Trail-1024x310.jpg)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail/)
+[![Consumer audit trail datasheet](DS-Cosumer-Audit-Trail-1024x310.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail/)
 
 ## A Final Word
 
@@ -46,4 +46,4 @@ The world that we live in today falls under several regulatory laws - be it [the
 
 The LoginRadius' Consumer AuditTrail feature plays a vital role in the maintenance, security, availability, and integrity of the records so businesses can understand the [bigger picture in the cybersecurity threat](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/) landscape.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-audit-trail-data-analysis)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-audit-trail-data-analysis)

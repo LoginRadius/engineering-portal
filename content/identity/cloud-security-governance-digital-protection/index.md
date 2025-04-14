@@ -1,7 +1,7 @@
 ---
 title: "Cloud Security Governance: Protecting Assets in the Digital Frontier"
 date: "2024-04-30"
-coverImage: "cloud-security.jpg"
+coverImage: "cloud-security.webp"
 tags: ["cloud security","data governance","ciam solution"]
 author: "Alok Patidar"
 description: "Discover the significance of cloud security governance in safeguarding digital assets as businesses transition to cloud computing. Delve into the best practices and challenges organizations face to ensure data security and compliance in the ever-evolving digital frontier."
@@ -34,7 +34,7 @@ Organizations must implement best practices for cloud security governance to pro
 
 Furthermore, organizations should establish clear incident response plans to address security breaches swiftly and minimize their impact on operations.
 
-[![GD-response-plan](GD-response-plan.png)](https://www.loginradius.com/resource/guide/cyber-incident-response-plan/)
+[![GD-response-plan](GD-response-plan.webp)](https://www.loginradius.com/resource/guide/cyber-incident-response-plan/)
 
 ## The Future of Cloud Security Governance
 
@@ -62,4 +62,4 @@ In today's digital frontier, protecting assets in the cloud is paramount for org
 
 As technology continues to evolve and threats evolve, organizations must remain vigilant, continuously adapting and enhancing their cloud security governance practices to stay one step ahead of cyber adversaries.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-security-governance-digital-protection)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-security-governance-digital-protection)

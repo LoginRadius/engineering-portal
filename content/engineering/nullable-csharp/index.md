@@ -1,7 +1,7 @@
 ---
 title: "How to Work with Nullable Types in C#"
 date: "2021-01-29"
-coverImage: "coverimage.jpg"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#","Nullable"]
 description: "Nullable is a term in C# that allows an extra value null to be owned by a form. We will learn in this article how to work with Nullable types in C#."

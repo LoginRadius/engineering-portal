@@ -1,7 +1,7 @@
 ---
 title: "Unlocking Success: Marketing in a Cookieless World with Zero-Party Data"
 date: "2023-11-07"
-coverImage: "zero-party-data.jpg"
+coverImage: "zero-party-data.webp"
 tags: ["zero-party","progressive profiling","compliance","cx"]
 author: "Yash Rathi"
 description: "Discover the power of zero-party data in the cookieless era. Explore innovative strategies for personalized marketing and trust-building. Embrace ethical practices and human connection to unlock unprecedented success in the digital world."
@@ -35,7 +35,7 @@ Zero-party data enables businesses to tailor their marketing messages to individ
 
 Progressive profiling helps businesses collect useful customer details gradually over time. When customers willingly share their data, it fosters a sense of trust and transparency between the brand and the consumer. By respecting user privacy and preferences, businesses can create lasting relationships with their audience. 
 
-[![DS-Progressive-Profiling](DS-Progressive-Profiling.png)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
+[![DS-Progressive-Profiling](DS-Progressive-Profiling.webp)](https://www.loginradius.com/resource/progressive-profiling-by-loginradius-2/)
 
 ### 3. Improved Customer Engagement
 
@@ -85,4 +85,4 @@ By adopting innovative strategies to collect and utilize zero-party data effecti
 
 Embracing this paradigm shift not only meets the demands of the evolving digital ecosystem but also establishes a foundation for ethical and customer-centric marketing practices, leading to long-term brand loyalty and business growth.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data)

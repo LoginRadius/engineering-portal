@@ -1,7 +1,7 @@
 ---
 title: "Password hashing with NodeJS"
 date: "2020-06-25"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Ashish Sharma"
 tags: ["Security", "NodeJs"]
 ---

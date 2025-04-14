@@ -1,7 +1,7 @@
 ﻿---
 title: "Consumer Onboarding Strategies for SaaS Businesses"
 date: "2021-06-17"
-coverImage: "customer-onboarding.jpg"
+coverImage: "customer-onboarding.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -96,4 +96,4 @@ As an enterprise, you may have a lot of information regarding your potential cli
 LoginRadius can be your best onboarding partner that can help increase conversions and also minimize consumer churn.
 
 With a long list of features to enhance your business growth, LoginRadius paves the path for a successful onboarding journey.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-onboarding-strategies-for-saas-businesses)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-onboarding-strategies-for-saas-businesses)

@@ -1,7 +1,7 @@
 ---
 title: "Single-Tenant vs. Multi-Tenant: Which SaaS Architecture is better for Your Business? "
 date: "2021-12-01"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Rakesh Soni"
 tags: ["saas", "Architecture"]
 description: "When choosing a SaaS architecture for your business, the decision between single-tenant and multi-tenant models can significantly impact performance, security, and cost. This blog explores the key differences, advantages, and potential drawbacks of each approach, helping you determine which solution best aligns with your business needs."

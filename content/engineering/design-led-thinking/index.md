@@ -1,7 +1,7 @@
 ---
 title: "DESIGN THINKING -A visual approach to understand  user’s needs"
 date: "2020-08-06"
-coverImage: "design_led_thinking.png"
+coverImage: "design_led_thinking.webp"
 author: "Deepali Soni"
 tags: ["Design", "Design Thinking","UX"]
 description: "Design thinking is a solution-oriented, iterative process where the team creates the design while keeping the end customers in mind. This blog guides you about how does design-led thinking works."
@@ -19,7 +19,7 @@ Design Thinking plays an important role to reiterate the understanding of proble
 
 ### How to define a problem for the business problem with DESIGN THINKING
 
-![Design Thinking Process](design_thinking_process.png)
+![Design Thinking Process](design_thinking_process.webp)
 
   1. **Empathise** the emotions
   Observation of user needs with past and market trends and economic forecasts. It includes interaction with the target user to hear and see the user’s desire and the real cause within the contextual area.

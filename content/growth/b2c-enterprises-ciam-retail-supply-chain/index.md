@@ -1,7 +1,7 @@
 ﻿---
 title: "How B2C Industries are Leveraging CIAM in the Retail Supply Chain Management"
 date: "2021-10-25"
-coverImage: "retail-supply-chain-cover.jpg"
+coverImage: "retail-supply-chain-cover.webp"
 tags: ["ciam solution","iot authentication","cx"]
 author: "Navanita Devi"
 description: "Retailers hold access to a comprehensive range of technologies. From today's current options, such as RFID tags, to stimulating creativity, such as self-driving trucks, businesses will largely depend on computers to manage their daily operations. Learn how they are incorporating CIAM in their environment."
@@ -30,7 +30,7 @@ Currently, AI assembles and collects client information and consumer audit trail
 
 Retailers benefit from AI solutions that accumulate and analyze consumer data from social media, their purchasing habits, and other sources to render valuable business insights. Retailers who use this information make educated, data-driven decisions about when and ways to target consumers with the most definite promotion or deal.
 
-[![DS-consumer-audit-trail](DS-consumer-audit-trail.png)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![DS-consumer-audit-trail](DS-consumer-audit-trail.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 
 
@@ -75,4 +75,4 @@ Also, clients are now constantly anticipating deeper social connections supplied
 
 Customers likewise expect some control over how companies collect, store, manage, and share their personal information. With the competition just a click away, your company's misuse of customer data, whether intentional or unintentional, can severely harm brand equity. [Contact us](https://www.loginradius.com/contact-sales) to secure your operations with LoginRadius today!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2c-enterprises-ciam-retail-supply-chain)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2c-enterprises-ciam-retail-supply-chain)

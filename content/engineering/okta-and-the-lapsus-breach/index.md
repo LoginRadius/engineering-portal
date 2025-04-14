@@ -1,7 +1,7 @@
 ---
 title: "How Lapsus$ Breached Okta and What Organizations Should Learn"
 date: "2022-03-25"
-coverImage: "how-lapsus-breached-okta.png"
+coverImage: "how-lapsus-breached-okta.webp"
 author: "Kundan Singh"
 tags: ["Breach", "Cybersecurity"]
 description: "Businesses have to be extra vigilant in safeguarding customer data. Minor mistakes can cause a massive data breach, violating data privacy regulations and attracting penalties from regulatory authorities."
@@ -87,4 +87,4 @@ In this specific example, the hackers accessed the laptop of one of Okta's custo
 
 However, it offers a valuable learning experience that business entities should not ignore the minutest of details regarding network security. It surfaces the adage that ' A chain is only as strong as its weakest link.'
 
-[![Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-and-the-lapsus-breach)
+[![Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-and-the-lapsus-breach)

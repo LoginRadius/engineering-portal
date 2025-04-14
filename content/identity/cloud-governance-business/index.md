@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons Why Cloud Governance Matters For Your Business"
 date: "2021-05-07"
-coverImage: "cloud-governance-business-cover.jpg"
+coverImage: "cloud-governance-business-cover.webp"
 tags: ["cloud governance","compliance","data security"]
 author: "Vishal Sharma"
 description: "Security management platforms are designated systems that work towards providing network security to an enterprise for the storage of data that they have collected. This process involves security and compliance as well."
@@ -41,7 +41,7 @@ One of the biggest advantages of cloud governance is the delivery of precise acc
 
 A strong governance strategy allows enterprises to organize multiple accounts and provide access as per their requirement and designation. This not only strengthens data security but also lends a hand in organizing and maintaining resource allocation on the cloud.
 
-[![Future-proof-your-security](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![Future-proof-your-security](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 **2. Cloud governance minimizes compliance risk.**
 
@@ -77,4 +77,4 @@ Cloud governance should be the top-most priority for businesses leveraging [clou
 
 The aforementioned aspects depict the role of cloud governance and how it lays the foundation of security and data access within an organization.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-governance-business)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-governance-business)

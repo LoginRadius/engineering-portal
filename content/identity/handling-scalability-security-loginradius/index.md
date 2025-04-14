@@ -1,7 +1,7 @@
 ---
 title: "Handling Scalability and Enhancing Security with LoginRadius"
 date: "2021-04-30"
-coverImage: "handling-scalability-security-loginradius-cover.jpg"
+coverImage: "handling-scalability-security-loginradius-cover.webp"
 tags: ["data security","ciam platform","cx"]
 author: "Vishal Sharma"
 description: "Without a highly scalable infrastructure, it is not possible to handle increasing account creations and logins. Even peak loads can dramatically impede performance and degrade the consumer experience for any business. Learn how LoginRadius empowers businesses to deliver a secure and delightful user experience to their consumers."
@@ -21,7 +21,7 @@ For this, you need to ensure you have a robust identity solution that grows at t
 
 Here’s LoginRadius for you. A leading CIAM solution provider that empowers businesses to deliver a secure and delightful user experience to their clients through its comprehensive and scalable consumer identity and access management platform.
 
-[![modern-ciam](modern-ciam.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![modern-ciam](modern-ciam.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 Let’s understand how LoginRadius handles scalability with the ability to cater to 5-10x more users with the highest level of security.
 
@@ -74,4 +74,4 @@ The solution must ensure adequate security for both the clients and enterprise d
 
 LoginRadius is the leading CIAM solution provider that not only empowers businesses to deliver a rich user experience but eventually offers a robust and highly secure infrastructure that ensures the utmost level of [data and privacy security](https://www.loginradius.com/blog/identity/2021/03/privacy-compliance/).
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=handling-scalability-security-loginradius)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=handling-scalability-security-loginradius)

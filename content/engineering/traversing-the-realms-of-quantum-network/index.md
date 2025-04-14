@@ -1,7 +1,7 @@
 ---
 title: "Traversing the realms of Quantum Network"
 date: "2020-10-21"
-coverImage: "quantum_comp_FB.png"
+coverImage: "quantum_comp_FB.webp"
 author: "Devansh Markan"
 tags: ["Engineering","Quantum","Networking"]
 description: "Basic structure and knowledge of Quantum Networking and how it can change the field of technology."
@@ -13,7 +13,7 @@ Or, have you ever thought of the amplification of photon particles in a laser be
 
 With huge advancements in this field, the concept of quantum computers and quantum internet has now come to life. Typical computers are based on binary digits, that is, 0 and 1. Quantum computers, on the other hand, are based on qubits. A qubit or quantum bit is the basic unit for quantum information. They are based on particle's physical properties, such as the spin of an electron, and hence differ in various ways. We know that electron spin can either up or down, but things change when it comes to quantum mechanics. It follows the concept of superposition, according to which an electron can exist in a state in which it has a spin in both directions simultaneously. This may sound strange according to what we observe generally, yet this is how Quantum mechanics work. 
 
-![Quantum ](Phio-Network-by-Quantum-Xchange-1.jpg)
+![Quantum ](Phio-Network-by-Quantum-Xchange-1.webp)
 
 The peculiar behaviour that particles display can be useful in various ways. Qubits can store much more information than conventional bits. This can be explained as two bits with one of the four possible values, 00, 01, 10, or 11. Qubits, on the other hand, can be both 0 and 1 at once. This implies they can have all the four values all at once.
 Thus, the amount of information you store using qubits increases tremendously. 

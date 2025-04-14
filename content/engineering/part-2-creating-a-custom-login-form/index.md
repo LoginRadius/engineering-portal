@@ -1,7 +1,7 @@
 ---
 title: "Part 2 - Creating a Custom Login Form"
 date: "2015-12-08"
-coverImage: "cust-login-2-150x150.png"
+coverImage: "cust-login-2-150x150.webp"
 author: "Zoie Carnegie"
 tags: ["Engineering", "Login"]
 ---
@@ -10,7 +10,7 @@ In this tutorial I will demonstrate how to build a custom login form scratch. Th
 
 ## Building a Custom Login Form
 
-![wp-login-boring](./wp-login-boring.png)
+![wp-login-boring](./wp-login-boring.webp)
 
 This is what WordPress gives us out of the box.. Boring, right?
 
@@ -47,7 +47,7 @@ Remember me
 
 ```
 
-![login-2-custom](./login-2-custom.png)
+![login-2-custom](./login-2-custom.webp)
 
 Let's take a look at that custom form
 

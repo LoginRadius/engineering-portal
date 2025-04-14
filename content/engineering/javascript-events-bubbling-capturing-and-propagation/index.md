@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Events: Bubbling, Capturing, and Propagation"
 date: "2019-07-22"
-coverImage: "bubbles.png"
+coverImage: "bubbles.webp"
 author: "Greg Sakai"
 tags: ["JavaScript", "JavaScript Events"]
 ---

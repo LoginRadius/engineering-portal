@@ -1,7 +1,7 @@
 ﻿---
 title: "Maintaining Quality Data Security Practices"
 date: "2021-04-30"
-coverImage: "data-security-loginradius.jpg"
+coverImage: "data-security-loginradius.webp"
 tags: ["data security","mfa","cx"]
 author: "Rakesh Soni"
 description: "Data security is important for businesses today, more than it ever was. By definition, data security is the practice of protecting digital information from unauthorised access, cyber corruption or theft."
@@ -31,7 +31,7 @@ It's not uncommon for businesses to face security risks due to employee’s weak
 
 It's highly recommended to implement [multi-factor authentication](https://www.loginradius.com/blog/identity/2019/06/what-is-multi-factor-authentication/)  because it can reduce the likelihood of being attacked by a cyber-criminal.
 
-[![mfa](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![mfa](Multi-Factor-Authentication.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 **2. Strict Permissions** 
 
@@ -75,4 +75,4 @@ Therefore, educating and training employees is important as it ensures that ever
 
 To conclude, as technology advances and more activities are being processed in the digital space, it’s becoming more and more important to keep data private and secure. There are several ways organisations can do this; some of which are easy to implement while others may take more time, resources, and focus than others.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=maintaining-quality-data-security-practices)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=maintaining-quality-data-security-practices)

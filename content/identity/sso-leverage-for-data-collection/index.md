@@ -1,7 +1,7 @@
 ---
 title: "How Can Enterprises Use SSO to Boost Data Collection?"
 date: "2022-07-19"
-coverImage: "sso-leverage.jpg"
+coverImage: "sso-leverage.webp"
 tags: ["sso", "mfa", "data collection", "ux"]
 author: "Hanson Cheng"
 description: "SSO is a great way to collect data while providing a better user experience and increasing security. This blog will help you get the most out of SSO for data collection, ensuring that your data is collected effectively and efficiently."
@@ -35,7 +35,7 @@ There are two types of SSO:
 
 In general, SSO can also provide a[ more secure and frictionless user experience](https://www.loginradius.com/blog/growth/4-tips-secure-frictionless-ux/). If you have different applications, it can be difficult for users to set and remember passwords for all of them. With SSO, users would only have to remember one set of credentials. This would make it easier for them to access the applications they need and reduce the chance of forgetting their password.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## The Importance of SSO Tokens
 
@@ -83,7 +83,7 @@ Let's say customers need to log in to access a sample invoice template and other
 
 If we assume the template is in a PDF format and is behind a paywall, the customer must input their account details to access the content.
 
-![sample-invoice](sample-invoice.png)
+![sample-invoice](sample-invoice.webp)
 
 
 Without an SSO system, the customer would have to remember their username and password for your site. If they can't recall their login credentials, they'll have to go through the process of resetting their password. 
@@ -121,4 +121,4 @@ Overall, using SSO for data collection can offer many benefits for businesses. I
 If you're looking for a more efficient and secure way to collect data, consider implementing an SSO system in your business.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-leverage-for-data-collection)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-leverage-for-data-collection)

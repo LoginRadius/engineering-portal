@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Username and Password Authentication"
 date: "2023-03-09"
-coverImage: "username-pswrd.jpg"
+coverImage: "username-pswrd.webp"
 tags: ["passwordless authentication","user management","mfa","cx"]
 author: "Rakesh Soni"
 description: "While the username and password authentication method is convenient and widely used, it is also vulnerable to attacks and breaches, making it essential for organizations to implement best practices for secure authentication. Let’s discuss the best practices for username and password authentication to ensure the highest level of security."
@@ -99,7 +99,7 @@ There are several password alternatives that organizations can consider, includi
 
 * **Single sign-on (SSO):** Single sign-on allows users to access multiple systems with a single login credential. SSO offers a seamless user experience between multiple interconnected applications and ensures zero friction while users switch from one application to another since they need not re-authenticate themselves while switching. 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## Best Practices for Password Storage and Transmission
 
@@ -171,4 +171,4 @@ The authentication method that uses usernames and passwords is known as "usernam
 
 The best practice for user authentication includes creating a firm password policy, using salted and hashed passwords, implementing multi-factor authentication (MFA), and using password managers.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-username-password-authentication)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-username-password-authentication)

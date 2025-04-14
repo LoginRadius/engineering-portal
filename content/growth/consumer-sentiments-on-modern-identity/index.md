@@ -1,7 +1,7 @@
 ---
 title: "Uncovering Consumer Sentiments on Modern Identity: A Deep Dive Into Their Behavior"
 date: "2023-06-26"
-coverImage: "modern-identity.jpg"
+coverImage: "modern-identity.webp"
 tags: ["customer identity","identity management","authentication","cx"]
 author: "Rakesh Soni"
 description: "Today, consumers' attitudes toward modern identity are evolving rapidly. This blog explains the complexities of consumer sentiments, exploring the impact of social media, privacy concerns, inclusivity, and authenticity. Learn how businesses can effectively engage with their target audiences in this ever-changing landscape."
@@ -46,7 +46,7 @@ Modern identity is closely intertwined with the concepts of inclusivity and dive
 
 Brands that embrace and celebrate diversity resonate more with consumers as they align with their values and aspirations. Fostering inclusivity enhances brand perception and cultivates a sense of belonging and loyalty among consumers.
 
-[![EB-GD-to-Mod-Cust-id](EB-GD-to-Mod-Cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-id](EB-GD-to-Mod-Cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ### 5. Authenticity and purpose-driven brands
 
@@ -74,4 +74,4 @@ By recognizing and understanding the complexities of consumer perceptions, busin
 
 Brands that embrace inclusivity prioritize data security, and demonstrate authenticity will stand out in today's competitive landscape. Ultimately, brands can forge meaningful connections and build a loyal customer base by aligning their values with their consumers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-sentiments-on-modern-identity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-sentiments-on-modern-identity)

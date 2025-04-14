@@ -1,7 +1,7 @@
 ---
 title: "How To Secure GenAI by Implementing RBAC In The Enterprise"
 date: "2024-08-12"
-coverImage: "gen-ai-rbac.jpg"
+coverImage: "gen-ai-rbac.webp"
 tags: ["ai","data privacy","cx"]
 author: "Kundan Singh"
 description: "Generative AI (GenAI) is revolutionizing enterprises, but security challenges loom large. Implementing Role-Based Access Control (RBAC) offers a robust solution. This article explores how defining roles, mapping permissions, and enforcing access controls can protect your GenAI systems, ensuring secure and innovative AI-driven solutions."
@@ -70,7 +70,7 @@ With roles and permissions defined, the next step is to implement access control
 
 * **Authentication:** Ensure all users are authenticated before accessing the system. Use multi-factor authentication (MFA) for added security.
 
-[![WP-dig-id](WP-dig-id.png)](https://www.loginradius.com/resource/whitepaper/mfa-digital-identity-security/)
+[![WP-dig-id](WP-dig-id.webp)](https://www.loginradius.com/resource/whitepaper/mfa-digital-identity-security/)
 
 * **Authorization:** Implement authorization mechanisms to enforce RBAC policies. Use customer identity and access management (CIAM) tools to manage user roles and permissions.
 
@@ -100,4 +100,4 @@ By defining roles and responsibilities, mapping permissions, implementing access
 
 By embracing RBAC, organizations not only protect their valuable data but also build a foundation of trust and accountability, paving the way for innovative and secure AI-driven solutions.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-gen-ai-rbac-implementation)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-gen-ai-rbac-implementation)

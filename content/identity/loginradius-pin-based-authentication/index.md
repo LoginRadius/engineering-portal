@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Now Supports PIN Login with Enhanced Features"
 date: "2020-04-28"
-coverImage: "LoginRadius-Pin-Authentication.png"
+coverImage: "LoginRadius-Pin-Authentication.webp"
 tags: ["pin authentication","ciam solution","identity management"]
 author: "Kundan Singh"
 description: "LoginRadius is a rapidly-expanding identity management platform. And this time, for its current and new clients, the cloud-based client identity and access management solution has introduced a PIN Login authentication environment."
@@ -44,7 +44,7 @@ We have followed strict authentication protocols to make this launch a success. 
 
 **Forced account lockouts**: The account will be locked automatically upon hitting the configured number of failed PIN attempts. The PIN will act as the protection layer against vulnerabilities like brute force attacks.
 
-[![Pin login data sheet](DS-PIN-Login-1024x310.png)](https://www.loginradius.com/resource/loginradius-and-pin-auth)
+[![Pin login data sheet](DS-PIN-Login-1024x310.webp)](https://www.loginradius.com/resource/loginradius-and-pin-auth)
 
 **Pin Login Data Sheet**
 
@@ -60,4 +60,4 @@ PIN login is a successful attempt at not just embracing an alternative  two fact
 
 All-in-all, we aim to ensure that logins are secure, simple, seamless, and frictionless. And if it can turn customers into loyal advocates, that will serve our purpose even better.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-pin-based-authentication)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-pin-based-authentication)

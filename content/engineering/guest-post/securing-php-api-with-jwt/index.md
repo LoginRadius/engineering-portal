@@ -1,7 +1,7 @@
 ---
 title: "How to Secure a PHP API Using JWT"
 date: "2021-12-24"
-coverImage: "jwt.png"
+coverImage: "jwt.webp"
 author: "Harikrishna Kundariya"
 tags: ["PHP", "JWT", "Authentication"]
 description: "This tutorial helps you understand why you should secure your PHP API. Then, it helps you learn how to use JWT with Apache to secure your PHP API."

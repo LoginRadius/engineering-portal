@@ -1,7 +1,7 @@
 ---
 title: "Beginner's Guide for Sublime Text 3 Plugins"
 date: "2015-11-10"
-coverImage: "Beginner-Guide-Sublime-Text.png"
+coverImage: "Beginner-Guide-Sublime-Text.webp"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and introduction to Snippets, Project and Macros"
@@ -20,7 +20,7 @@ Back when i introduced Sublime editor to my friends,"Snippets" was among the fir
   
 This is definitely the feature you will use the most! To start using snippets, you can either create your own snippets according to your needs or download some ready-made snippets created by others to fulfill some generic coding needs. Like the one I demonstrated, it is pre-made from a plugin called `Html Page Snippets`, and command `docjq` will create a boiler template for a Html page that contains bootstrap and jQuery.
 
-![new-snippet](new-snippet.png)
+![new-snippet](new-snippet.webp)
 
 To create your own snippet, go to "Tools" => "New Snippet", an interface to create your own snippet will pop up, it would look something like this:  
 
@@ -37,7 +37,7 @@ Now save it, but keep in mind putting it in the correct location is important!
 
 If you can not find it, go to "Sublime" - > "Preferences" -> "Browse Packages", and create a folder called "User" if there isn't one already, and save it there.
 
-![browse-package](browse-package.png)
+![browse-package](browse-package.webp)
 
 ### Project
 
@@ -48,7 +48,7 @@ Saving and using your projects is very straightforward.
 - First drag some folders and files that you want to open into Sublime
 - Then go to the menu, click "Project" -> "Save Project As"  
     
-    ![save-proj](save-proj.png)
+    ![save-proj](save-proj.webp)
     
 - Note the extension is ".sublime-project" and you may want to put all your project files in one central location
 
@@ -62,7 +62,7 @@ Do you always feel frustrated by repeating the same tedious task again & again? 
 
 It takes about 8 shortcuts to finish each process, that's including the first paste action and then adding a space character after each comma. Imagine having to do this for each line of a table, and for every single spreadsheet you have to work on. It would be hundreds of shortcuts you need to press and each time you are just repeating the exact same sequence of keys.
 
-![start-macro](start-macro.png)
+![start-macro](start-macro.webp)
 
 Well you might think there must be a better way! You bet there is! "Macros" are designed to handle this kind of nasty situation and save you from all that boring work. Here I made a very quick and easy example, it converts a vertical line of data into an array:  
 
@@ -70,7 +70,7 @@ Magic! Lots of time and lives will be saved by this little gadget. So now, how t
 
 - Go to "Tools" -> "Record Mac  
     
-    ![start-macro1](start-macro1.png)
+    ![start-macro1](start-macro1.webp)
     
 - Do your operations
 
@@ -78,7 +78,7 @@ Usually you would have something copied in your clipboard, so it could start wit
 
 - Stop your macro  
     
-    ![stop-macro](stop-macro.png)
+    ![stop-macro](stop-macro.webp)
     
 - Playback
 

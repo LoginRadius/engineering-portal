@@ -1,7 +1,7 @@
 ---
 title: "Why We Re-engineered LoginRadius APIs with Go?"
 date: "2022-06-06"
-coverImage: "high-performance-identity-apis.png"
+coverImage: "high-performance-identity-apis.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Go", "API", ".NET", LoginRadius]
 description: "At Loginradius, we strive to leverage technology and ingenuity to push the boundaries of what our Identity Platform can deliver. In this engineering article, learn how we improved the performance of our APIs with Go."
@@ -44,11 +44,11 @@ We've been utilizing a multi-cloud and multi-region architecture for years based
 
 This is the basic architecture of the environment in the US:
 
-![Basic Architecture - US](basic-architecture.png)
+![Basic Architecture - US](basic-architecture.webp)
 
 Each request is processed as follows:
 
-![Request Processing Flow](request-processing-flow.png)
+![Request Processing Flow](request-processing-flow.webp)
 
 The above diagram shows two cloud regions — US East and US West.
 
@@ -161,17 +161,17 @@ Golang application has performed much better.
 #### Existing Application Matrix — .NET Core
 
 <figure align="center">
-  <img src="requests-and-responses-per-second-dot-net-core.png" alt="Requests and Responses per Second (.NET Core)">
+  <img src="requests-and-responses-per-second-dot-net-core.webp" alt="Requests and Responses per Second (.NET Core)">
   <figcaption> Graph - 1(a): Requests and Responses per Second (.NET Core)</figcaption>
 </figure>
  
 <figure align="center">
-  <img src="response-time-percentiles-dot-net-core.png" alt="API Response Time (.NET Core)">
+  <img src="response-time-percentiles-dot-net-core.webp" alt="API Response Time (.NET Core)">
   <figcaption> Graph -1(b): API Response Time (.NET Core)</figcaption>
 </figure>
 
 <figure align="center">
-  <img src="overall-matrix-dot-net-core.png" alt="Overall Matrix (.NET Core)">
+  <img src="overall-matrix-dot-net-core.webp" alt="Overall Matrix (.NET Core)">
   <figcaption> Graph - 1(c): Overall Matrix (.NET Core)</figcaption>
 </figure>
 
@@ -184,17 +184,17 @@ The application can recover after a couple of seconds, and after that, the appli
 We did the same stress test with the new Go application. It is easily able to handle this kind of concurrency without any issue. 
 
 <figure align="center">
-  <img src="requests-and-responses-per-second-go-lang.png" alt="Requests and Responses per Second (Go)">
+  <img src="requests-and-responses-per-second-go-lang.webp" alt="Requests and Responses per Second (Go)">
   <figcaption> Graph - 2(a): Requests and Responses per Second (Go)</figcaption>
 </figure>
  
 <figure align="center">
-  <img src="response-time-percentiles-go-lang.png" alt="API Response Time (Go)">
+  <img src="response-time-percentiles-go-lang.webp" alt="API Response Time (Go)">
   <figcaption> Graph -2(b): API Response Time (Go)</figcaption>
 </figure>
 
 <figure align="center">
-  <img src="overall-matrix-go-lang.png" alt="Overall Matrix (Go)">
+  <img src="overall-matrix-go-lang.webp" alt="Overall Matrix (Go)">
   <figcaption> Graph - 2(c): Overall Matrix (Go)</figcaption>
 </figure>
 

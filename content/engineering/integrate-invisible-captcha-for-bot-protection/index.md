@@ -1,7 +1,7 @@
 ---
 title: "How to Integrate Invisible reCAPTCHA for Bot Protection"
 date: "2022-04-08"
-coverImage: "configure-invisible-reCAPTCHA.png"
+coverImage: "configure-invisible-reCAPTCHA.webp"
 author: "Versha Gupta"
 tags: ["reCAPTCHA", "LoginRadius"]
 description: "If you only want to integrate reCAPTCHA invisibly on specific pages, LoginRadius can help you. This tutorial explains how you can quickly integrate invisible reCAPTCHA."

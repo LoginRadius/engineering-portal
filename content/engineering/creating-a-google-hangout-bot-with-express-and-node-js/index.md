@@ -1,7 +1,7 @@
 ---
 title: "Creating a Google Hangout Bot with Express and Node.js"
 date: "2018-06-06"
-coverImage: "hangoutchatimgage2.jpg"
+coverImage: "hangoutchatimgage2.webp"
 author: "Andy Yeung"
 tags: ["Express", "NodeJs", "Hangout"]
 ---
@@ -186,6 +186,6 @@ Restart your local server, and that’s it! Make sure you have your bot added to
 
 There are a lot of different ways to further extend this bot, such as setting reminders/notifications, making to-do lists, displaying server logs, and interacting with API’s.
 
-![](image2.png)
+![](image2.webp)
 
-![](image1.png)
+![](image1.webp)

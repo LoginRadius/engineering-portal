@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Open Source For Hacktoberfest 2020"
 date: "2020-09-25"
-coverImage: "hacktober-fest-banner.png"
+coverImage: "hacktober-fest-banner.webp"
 author: "Hridayesh Sharma"
 description: "Checkout LoginRadius Open Source Repositories where you can contribute for hackotberfest 2020"
 tags: ["hacktoberfest", "open-source", "LoginRadius"]
@@ -15,7 +15,7 @@ Just 1 week left in hacktoberfest 2020 and being part of it, we at LoginRadius a
 
 **Here is a list of our open source projects available on Github for hacktoberfest 2020**
 
-![loginradius-hacktoberfest](lr-open-source.png)
+![loginradius-hacktoberfest](lr-open-source.webp)
 
 - [LoginRadius Engineering Portal](https://github.com/LoginRadius/engineering-portal)
   - Our Engineering Blog where you can contribute by writing a guest blog of fixing any issue you find with any of the available blogs.

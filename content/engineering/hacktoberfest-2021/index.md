@@ -1,7 +1,7 @@
 ---
 title: "Hacktoberfest 2021: Contribute and Win Swag from LoginRadius"
 date: "2021-09-23"
-coverImage: "Hacktoberfest-2021.png"
+coverImage: "Hacktoberfest-2021.webp"
 author: "Raghunath Reddy"
 tags: ["Hacktoberfest","Open Source","LoginRadius"]
 description: "At LoginRadius, we're excited to celebrate Hacktoberfest 2021. Contribute to our open source projects and win cool LoginRadius branded swag to show off!"

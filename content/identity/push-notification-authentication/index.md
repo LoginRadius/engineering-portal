@@ -45,7 +45,7 @@ Push authentication follows a straightforward and user-friendly process:
 * **Phishing Resistance:** Unlike traditional authentication methods, push authentication minimizes the risk of phishing attacks by eliminating the need to enter credentials.
 * **Cost-Effective:** Reduces reliance on SMS-based OTPs, lowering operational costs and improving authentication efficiency.
 
-[![(An image showing downloadable data sheet named push notification mfa with free download button)](push-notification-mfa-free-download.png)](https://www.loginradius.com/resource/datasheet/push-notification-mfa)
+[![(An image showing downloadable data sheet named push notification mfa with free download button)](push-notification-mfa-free-download.webp)](https://www.loginradius.com/resource/datasheet/push-notification-mfa)
 
 ### Challenges of Push Notification Authentication
 
@@ -171,4 +171,4 @@ Yes, push notifications are more secure and user-friendly than OTPs, as they eli
 
 To enable push notifications, Navigate to [“Security” settings](https://accounts.loginradius.com/auth.aspx?return_url=https://console.loginradius.com/login&action=register) in your LoginRadius console and choose and enable multi-factor authentication. Choose Push Notification as an MFA Factor: Select “Push Notifications” as an MFA factor to integrate push authentication into your application.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=push-notification-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=push-notification-authentication)

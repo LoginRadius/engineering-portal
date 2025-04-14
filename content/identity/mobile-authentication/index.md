@@ -134,4 +134,4 @@ A: SMS 2FA is vulnerable to SIM swaps and interception—use authenticator apps,
 
 A: It includes biometrics, adaptive authentication, AI-driven threat detection, and encryption to protect mobile data from cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mobile-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mobile-authentication)

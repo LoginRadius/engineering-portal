@@ -1,7 +1,7 @@
 ---
 title: "Authentication Has Gone Mainstream: Are Marketers Ready to Take the Responsibility?"
 date: "2022-07-29"
-coverImage: "auth-marketers.jpg"
+coverImage: "auth-marketers.webp"
 category: ["authentication", "authorization", "customer verification"]
 author: "Navanita Devi"
 description: "Authentication is the most important security feature any application can have because it's the gateway through which users interact with your data. This blog explains how marketers can leverage user authentication."
@@ -77,4 +77,4 @@ As the world becomes more connected, users have become increasingly more aware o
 
 Marketers need to strike a balance between user security and experience when it comes to user privacy. That means providing security services that won't frustrate customers who want to get the most out of their devices and applications.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-critical-customer-acquistion-tool)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-critical-customer-acquistion-tool)

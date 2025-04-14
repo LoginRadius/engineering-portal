@@ -1,7 +1,7 @@
 ---
 title: "Content Security Policy (CSP)"
 date: "2021-07-14"
-coverImage: "content-security-policy.jpg"
+coverImage: "content-security-policy.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Secuirty Header", "CSP","Content Security Policy"]
 ---

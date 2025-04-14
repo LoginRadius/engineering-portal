@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 7 Security Tips from LoginRadius’ Cybersecurity Expert to Follow in 2023"
 date: "2022-01-20"
-coverImage: "security-expert.jpg"
+coverImage: "security-expert.webp"
 tags: ["cybersecurity tips","data privacy","digital transformation"]
 author: "Alok Patidar"
 description: "Alok Patidar, Information Security Manager at LoginRadius, shares his valuable insights for businesses to secure their sensitive information in 2023 and beyond. Read on to ensure the highest level of security across your organization."
@@ -77,7 +77,7 @@ Risk-based authentication only triggers an elevated-risk situation while keeping
 
 You can configure actions based on the severity of the risk factors like if the consumer logs normally into your system from Vancouver and makes an authentication request to access the application from Cancun, this is an elevated-risk situation, and you might want to block the account instead of sending the notification to the consumer.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### #5. Create data backups
 
@@ -117,4 +117,4 @@ Every business needs to think more carefully regarding the overall security mech
 
 Using the best industry practices and strictly following the tips mentioned earlier will help [enterprises secure their operations](https://www.loginradius.com/blog/identity/risk-management-essentials-enterprise/), protecting sensitive data.
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-from-loginradius-security-expert-2023)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-from-loginradius-security-expert-2023)

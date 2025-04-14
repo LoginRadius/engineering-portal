@@ -1,7 +1,7 @@
 ---
 title: "Voice OTP by LoginRadius: Revolutionizing Secure and Seamless User Authentication"
 date: "2024-02-01"
-coverImage: "voiceotp.jpg"
+coverImage: "voiceotp.webp"
 tags: ["data security","user authentication","cx"]
 author: "Rakesh Soni"
 description: "Discover Voice OTP – LoginRadius' innovative solution for secure and seamless user authentication. Explore how Voice OTP is reshaping the digital authentication landscape from strategic integration to inclusivity and global reach."
@@ -32,7 +32,7 @@ One of the key highlights of Voice OTP is its commitment to ensuring the highest
 
 This feature becomes particularly valuable when SMS delivery may encounter difficulties, guaranteeing uninterrupted account access and providing a smooth and dependable user experience.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ## Inclusivity as a Core Value
 
@@ -60,4 +60,4 @@ As businesses navigate the complexities of the digital landscape, solutions like
 
 Check out the Voice OTP datasheet to learn more about this innovative release.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-voice-otp-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-voice-otp-authentication)
