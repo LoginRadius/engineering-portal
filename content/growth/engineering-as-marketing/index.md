@@ -73,4 +73,4 @@ If it blends into the overall story with goal and vision, the use of resources t
 
 If you build the lead magnets so that they deliver a quick win and do not give too many possibilities to the consumer, you lay the foundation stone for throwing out a net in which you can attract the long-term attention of prospective customers to yourself.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=engineering-as-marketing)

@@ -78,4 +78,4 @@ Achieving the perfect balance between cost, security, and user experience is a c
 
 By optimizing costs, strengthening security measures, and delivering an enhanced user experience, identity orchestration becomes a crucial component of a modern and successful digital strategy. Embracing this approach enables organizations to unlock the full potential of their digital ecosystems while maintaining a competitive edge in today's dynamic business landscape.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=striking-balance-with-identity-orchestration)

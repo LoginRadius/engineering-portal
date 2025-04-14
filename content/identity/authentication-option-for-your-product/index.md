@@ -128,6 +128,6 @@ LoginRadius understands the importance of frictionless authentication and helps 
 
 With LoginRadius’ Passwordless Authentication and Social Authentication, businesses can ensure the highest level of security coupled with a flawless user experience while they prove their identity.
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-option-for-your-product)
 
 

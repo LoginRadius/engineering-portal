@@ -104,4 +104,4 @@ With increasing OTT subscriptions and user expectations, OTT platforms need to g
 Adding stringent layers of security through a robust CIAM solution becomes the immediate need of the hour for OTT platforms facing concurrent login issues that affect their brand reputation and overall business revenues.  
 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=poor-login-concurrency-impact-ott-platforms)

@@ -167,4 +167,4 @@ Even in this day and age of social media marketing, email marketing remains amon
 
 For any marketing business, protecting their customer identities is also important to prevent any data breaches. LoginRadius provides the **[best identity management tools](https://www.loginradius.com/)** that can protect your customers during the login, registration process, and other customer touchpoints on your website.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-best-marketing-emails-to-attract-consumers-right-away)

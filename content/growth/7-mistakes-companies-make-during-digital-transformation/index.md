@@ -107,4 +107,4 @@ Define metrics based on your digital transformation goals and measure the progre
 
 A venture as massive as digital transformation is never going to be an easy path. And there are high chances you will encounter numerous failures too. But you have a choice, to either fall prey to the fears that can lead to succumbing to the intense competition in the market or to wholeheartedly embrace these challenges and collectively look for solutions that can get you on a path to success. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-mistakes-companies-make-during-digital-transformation)

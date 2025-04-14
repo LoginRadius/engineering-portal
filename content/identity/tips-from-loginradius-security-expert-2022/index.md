@@ -131,4 +131,4 @@ Using the best industry practices and strictly following the tips mentioned earl
  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-from-loginradius-security-expert-2022)

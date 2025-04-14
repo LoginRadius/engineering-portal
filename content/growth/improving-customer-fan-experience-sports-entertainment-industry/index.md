@@ -128,4 +128,4 @@ Much has been added to the fan experience in the sports industry in a recent cou
 
 Having said that, fans will speculate the sports industry in a very different light in the post-pandemic world. To improve the fan experience in the sports industry, you need to be observant of what's happening in the market... And get real! 
 
-[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-fan-experience-sports-entertainment-industry)

@@ -100,4 +100,4 @@ Migrating to LoginRadius is an investment in your business's future. By eliminat
 
 With a strategic approach and thorough preparation, the transition to LoginRadius can be effortless and highly rewarding. Don't let outdated login systems hold you back—embrace the future of user identity management with LoginRadius.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=effortless-migration-login-hassles)

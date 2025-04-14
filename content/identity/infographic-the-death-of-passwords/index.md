@@ -31,4 +31,4 @@ Curious about learning more about these alternative authentication methods?
 
 We further dig into the problems businesses face with existing username/password authentication methods. We will then review the new authentication methods that are becoming popular in the marketplace and how in the near future they might very well replace passwords.
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=infographic-the-death-of-passwords)

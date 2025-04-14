@@ -82,5 +82,5 @@ Businesses can benefit from greater customer engagement and loyalty by providing
 Today, data is king. Sensitive information about the social identity of consumers is used by organisations for many reasons, but it's also organisations' responsibility to maintain privacy. This can only be achieved by investing in the best CIAM. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-protect-consumer-social-identity)
 

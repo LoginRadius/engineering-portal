@@ -125,4 +125,4 @@ With a large scale roll-out of the technology, 2020 promises to be the year of d
 
 Amidst the ever-changing regulatory landscape, there are high chances that new opportunities are waiting to be capitalized. _Now_ is your chance to reap the benefits.
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-media-entertainment-industry)

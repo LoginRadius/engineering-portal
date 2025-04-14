@@ -74,4 +74,4 @@ By recognizing and understanding the complexities of consumer perceptions, busin
 
 Brands that embrace inclusivity prioritize data security, and demonstrate authenticity will stand out in today's competitive landscape. Ultimately, brands can forge meaningful connections and build a loyal customer base by aligning their values with their consumers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-sentiments-on-modern-identity)

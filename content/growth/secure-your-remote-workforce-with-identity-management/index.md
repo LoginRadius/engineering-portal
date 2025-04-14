@@ -79,5 +79,5 @@ As your business migrates to a virtual workplace, you must learn how to maintain
 
 Through identity management, you reduce password issues and enhance security for your remote teams. It streamlines the process of logging in, authenticating, and authorizing access to your organization’s data and resources. To find out more about the benefits of identity management, [contact our team](https://www.loginradius.com/contact-sales2/).
 
-[![book-a-demo-Consultation](loginradius-free-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](loginradius-free-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-your-remote-workforce-with-identity-management)
 

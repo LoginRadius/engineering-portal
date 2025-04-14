@@ -271,4 +271,4 @@ A: Identity and Access Management (IAM) is a framework of policies and technolog
 
 IAM plays a crucial role in managing internal users' access to systems and applications, enforcing security policies, and maintaining compliance within an organization's network.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-choosing-right-ciam-solution)

@@ -69,4 +69,4 @@ The Internet Identity Ecosystem is disrupting the highly centralized paradigm of
 Self-sovereign identities are changing the way we interact online. Businesses are taking advantage of the security and transparency offered by this new paradigm to streamline their operations, reduce fraud, and rebuild customer trust.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-self-sovereign-identities)

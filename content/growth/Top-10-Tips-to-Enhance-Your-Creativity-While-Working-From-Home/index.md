@@ -168,4 +168,4 @@ But data alone doesn't lead anywhere. You need to have storytelling skills that 
 ## Conclusion
 
 As the second wave of the coronavirus pandemic has spread across the world, work from home is here to stay, at least for a while. So, this is the best time to identify your strengths, polish your skills, and learn something new. Follow the ten tips given in this article to enhance your creativity while working from home and make the best use of your skills, time, and money during the pandemic.
-[![book-a-demo-Consultation](book-a-demo-free-consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](book-a-demo-free-consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-tips-to-enhance-your-creativity-while-working-from-home)

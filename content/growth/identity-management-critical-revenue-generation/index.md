@@ -73,4 +73,4 @@ Identity management is a critical part of the revenue generation process. In tod
 
 A modern CIAM solution can help you manage your customers' information, enhance user experience, and ensures you build better-personalized experiences to convert your targetted audience into customers. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-critical-revenue-generation)

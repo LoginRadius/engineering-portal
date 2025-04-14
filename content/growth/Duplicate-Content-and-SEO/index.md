@@ -87,4 +87,4 @@ Besides the fact that duplicate content leads to traffic and ranking issues, som
 
 It’s advised to consider auditing your website frequently to shun any chance of availability of duplicate content or pages.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=duplicate-content-and-seo)

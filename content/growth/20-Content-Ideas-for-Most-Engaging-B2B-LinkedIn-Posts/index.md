@@ -120,4 +120,4 @@ Audiences love to share their opinion, especially if they are a passionate fanba
 
 Content on LinkedIn makes all the difference to the promotion of a brand. It can make or break one's presence on LinkedIn. Therefore, it is essential to figure out the tone of LinkedIn posts, depending on the target demographic. Once the tone is chosen, implementing the rest of the marketing strategy is easy to do.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=20-content-ideas-for-most-engaging-b2b-linkedin-posts)

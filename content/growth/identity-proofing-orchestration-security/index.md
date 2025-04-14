@@ -70,4 +70,4 @@ In a world where digital interactions are becoming the norm, businesses must pri
 
 By embracing comprehensive identity proofing solutions through orchestration, companies can enhance security, ensure compliance, and deliver a superior customer experience. As cyber threats continue to evolve, the adoption of orchestration will be crucial for businesses looking to stay ahead of the curve.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-proofing-orchestration-security)

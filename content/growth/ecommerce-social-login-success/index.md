@@ -60,4 +60,4 @@ Leverage the user data obtained through social login to provide tailored product
 
 Enabling social media profile login for users can be a game-changer for your e-commerce application/platform, enhancing user convenience and providing valuable data. However, balancing this convenience with robust data privacy and security measures is essential. By implementing these eight aspects, you can create a seamless experience for your customers for your e-commerce store. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ecommerce-social-login-success)

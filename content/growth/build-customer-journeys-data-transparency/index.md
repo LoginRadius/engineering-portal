@@ -100,4 +100,4 @@ In short, data transparency can boost your brand reputation and customer loyalty
 
 Remember, honesty is always the best policy — tell your customers the truth, even if that truth is not always the most pleasant. They will respect your integrity and like you the most for it in the long run. Rely on data transparency to deliver a complete end-to-end experience from the customer’s perspective. All the best!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-customer-journeys-data-transparency)

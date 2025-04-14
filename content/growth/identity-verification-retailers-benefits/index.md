@@ -86,4 +86,4 @@ Identity verification is a critical component of the online retail and financial
 
 Use cases encompass enhanced security, fraud prevention, regulatory compliance, personalized customer experiences, and operational efficiency.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-retailers-benefits)

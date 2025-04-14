@@ -77,4 +77,4 @@ As you plan your CIAM budget for 2023, consider which challenges pose the most s
 An intelligent approach to budget planning can make all the difference for your security team.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-budget-2023-recession)

@@ -50,4 +50,4 @@ LoginRadius’ cIAM solution ensured that while an individual member can be asso
 
 IFMA - LoginRadius Customer Success Story
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ifma-loginradius-customer-success-story)

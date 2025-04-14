@@ -173,7 +173,7 @@ Choosing the right MFA type depends on security needs, compliance requirements, 
 
 The different types of Multi Factor Authentication available today offer businesses and individuals a range of security options to protect digital assets.
 
-Looking to enhance security with the best MFA options? Start by choosing the right authentication methods today! To book a demo and learn more about LoginRadius MFA, [contact us](https://www.loginradius.com/book-a-demo/).
+Looking to enhance security with the best MFA options? Start by choosing the right authentication methods today! To book a demo and learn more about LoginRadius MFA, [contact us](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=types-of-mfa).
 
 ## FAQs
 

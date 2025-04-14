@@ -62,4 +62,4 @@ Advanced customer identity resolution is a powerful tool for driving exceptional
 
 As the digital landscape continues to evolve, investing in advanced identity management solutions will be crucial for staying ahead of the competition and achieving long-term success in your marketing efforts.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-resolution-marketing-success)

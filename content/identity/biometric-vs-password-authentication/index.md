@@ -118,4 +118,4 @@ When it comes to which is safer, **biometric authentication or password**-based 
 
 [Multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) is a powerful security measure that significantly enhances the protection of applications and data by adding two or more layers for identity verification. MFA is a core component of IAM (identity access management) and CIAM (customer identity access management). One of the layers with password-based authentication and a second layer with biometric authentication can strengthen your security infrastructure. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-vs-password-authentication)

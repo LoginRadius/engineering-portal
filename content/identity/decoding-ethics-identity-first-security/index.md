@@ -70,4 +70,4 @@ If you wish to experience how LoginRadius works for your business, reach us toda
 Our product experts will show you the power of the LoginRadius Identity Platform, discuss your use cases, and explain how our cloud-based identity management solution ensures robust security for your business.  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decoding-ethics-identity-first-security)

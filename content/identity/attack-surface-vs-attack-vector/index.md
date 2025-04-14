@@ -88,4 +88,4 @@ Choosing a robust security mechanism is essential to overall security hygiene wi
 Once a business knows potential threat vectors, it can deploy stringent authentication security mechanisms to mitigate the risks.  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attack-surface-vs-attack-vector)

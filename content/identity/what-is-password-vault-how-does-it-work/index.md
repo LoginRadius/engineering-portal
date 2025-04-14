@@ -200,4 +200,4 @@ Simply create a master password, add your passwords to the vault, and use the ma
 
 A vault stores and manages passwords, providing convenience and enhanced security for digital identity management.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-password-vault-how-does-it-work)

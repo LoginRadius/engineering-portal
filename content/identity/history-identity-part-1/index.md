@@ -93,6 +93,6 @@ For a history of identity in the modern world, read Part II of this series next 
 
  
 
-Learn how to create a unified digital identity for all of your customers. [Book a demo](https://www.loginradius.com/book-a-demo/) today with LoginRadius.
+Learn how to create a unified digital identity for all of your customers. [Book a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=history-identity-part-1) today with LoginRadius.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=history-identity-part-1)

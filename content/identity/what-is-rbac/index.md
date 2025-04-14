@@ -191,7 +191,7 @@ Understanding what RBAC is and implementing a role-based access control system i
 
 By aligning access permissions with user roles, businesses can enhance security, ensure compliance, and streamline administrative processes. 
 
-Leveraging platforms like LoginRadius further simplifies the implementation and management of RBAC, providing a scalable solution for role-based security needs. Reach us today [to book a live demo](https://www.loginradius.com/book-a-demo). 
+Leveraging platforms like LoginRadius further simplifies the implementation and management of RBAC, providing a scalable solution for role-based security needs. Reach us today [to book a live demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-rbac). 
 
 ## FAQs
 
@@ -211,4 +211,4 @@ Leveraging platforms like LoginRadius further simplifies the implementation and 
 
  **A:** RBAC manages access based solely on user roles, whereas IAM (Identity and Access Management) comprehensively manages users' identities, roles, policies, and access privileges.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-rbac)

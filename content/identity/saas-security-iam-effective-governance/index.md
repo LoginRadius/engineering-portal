@@ -90,4 +90,4 @@ As a solution provider of IAM solutions for SaaS companies, LoginRadius’s team
 
 We are keenly aware of the needs of SaaS enterprises, and we will continue to provide advanced identity management solutions that deliver the performance needed for any business to grow in this market.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saas-security-iam-effective-governance)

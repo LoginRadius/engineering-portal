@@ -103,4 +103,4 @@ By creating a unified view of the customer, companies can develop more effective
 
 Identity convergence is more than a buzzword; it's a strategic approach that can transform businesses' interactions with their customers and drive long-term growth. Embrace identity convergence today and watch your competitive edge soar.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-convergence-market-dominance)

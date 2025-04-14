@@ -72,4 +72,4 @@ The interconnected nature of modern business ecosystems makes supply chains susc
 
 As we stand on the brink of 2024, organizations must proactively address these cybersecurity trends 2024 to stay ahead of malicious actors. A holistic and adaptive cybersecurity strategy, coupled with ongoing education and compliance efforts, will be instrumental in safeguarding digital assets in the dynamic landscape of now and beyond.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-trends-2024)

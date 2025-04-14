@@ -75,4 +75,4 @@ By focusing on personalized communication, explicit onboarding materials, stream
 
 Investing in these strategies benefits the individual customer and contributes to business growth, increased customer retention, and a strong brand reputation. Businesses can pave the way for success in today's competitive landscape by optimizing the customer onboarding process.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-success-through-customer-onboarding)

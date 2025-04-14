@@ -60,4 +60,4 @@ A robust Customer Identity Management (CIAM) solution, like LoginRadius,  is cri
 
 As digital trade grows, cybersecurity will undoubtedly play a central role in shaping its future, unifying diverse stakeholders in pursuing a safe and reliable digital world.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-digital-trade)

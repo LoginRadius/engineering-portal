@@ -103,4 +103,4 @@ As email addresses have become ubiquitous and the messaging process more interac
 
 By taking simple precautions, including checking the source of the message and even flagging suspicious emails as spam, you can keep the scammers away, and remain in control of your inbox.
  
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stop-scammers-getting-email-address)

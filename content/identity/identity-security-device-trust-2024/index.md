@@ -69,4 +69,4 @@ As we navigate the digital landscape of 2024 and beyond, one thing is clear: ide
 
 Remember, in the realm of device trust, identity security is the key that unlocks a world of possibilities while safeguarding what matters most—our digital identities.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-device-trust-2024)

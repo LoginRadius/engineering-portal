@@ -74,5 +74,5 @@ According to analysis, from a geographical standpoint, North America will be the
 
 Therefore, authentication services have a lot to offer every sector possible, from healthcare to even defense. It is essentially the future of login security and will play an important role in reducing ransomware attacks.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-of-authentication-service-market)
 

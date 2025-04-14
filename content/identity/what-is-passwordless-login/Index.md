@@ -178,4 +178,4 @@ Passwordless login simplifies the process, reduces friction, and enhances overal
 
 Passwordless login's future is promising, with advancements in biometrics, multifactor authentication, and hardware tokens driving wider adoption.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-passwordless-login)

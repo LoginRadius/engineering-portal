@@ -72,4 +72,4 @@ Consumer identity and access management solutions help businesses achieve their 
 
 In simple words, a modern CIAM solution is undoubtedly paving the path for a rich consumer experience that leads to more subscriptions and sign-ups.  
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-role-enterprise-decision-making)

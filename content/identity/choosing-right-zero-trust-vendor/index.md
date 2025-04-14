@@ -64,4 +64,4 @@ Selecting the best zero-trust platform provider is a critical decision that requ
 
 By prioritizing these considerations and evaluating providers based on their ability to meet your organization's specific needs, you can make an informed choice that strengthens your security posture and mitigates cyber risks. Remember, in the realm of cybersecurity, vigilance, and proactive measures are key to staying ahead of evolving threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=choosing-right-zero-trust-vendor)

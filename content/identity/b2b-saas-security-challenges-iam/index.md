@@ -127,4 +127,4 @@ Robust identity and access management (IAM) solutions provide businesses with th
 
 By investing in [LoginRadius](https://www.loginradius.com/) cloud-native Identity-as-a-Service platform, SaaS companies can future-proof security while also enabling great customer experiences. Schedule a demo and discuss a risk-free pilot project for your **B2B SaaS** identity needs. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-challenges-iam)

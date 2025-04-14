@@ -84,4 +84,4 @@ A culture of identity governance and cutting-edge CIAM solutions are critical to
 
 By prioritizing identity governance and leveraging a robust CIAM solution, organizations can enhance security, improve user experience, increase efficiency, and ensure compliance with regulatory requirements. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-unlocks-digital-transformation)

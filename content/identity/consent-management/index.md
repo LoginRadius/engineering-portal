@@ -46,4 +46,4 @@ LoginRadius Consent Management is an effort from the cloud-based CIAM solution p
 
 In addition to the GDPR, the LoginRadius Platform is also compliant with other international data privacy [standards like the CCPA](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/), NIST, and HIPPA.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management)

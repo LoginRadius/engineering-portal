@@ -103,4 +103,4 @@ However, the associated risks with these OTT platforms can’t be overlooked. Bu
 
 A cutting-edge CIAM solution like LoginRadius can help OTT platforms deliver a frictionless user experience backed with stringent security. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ott-authentication-boost-lead-generation-2022)

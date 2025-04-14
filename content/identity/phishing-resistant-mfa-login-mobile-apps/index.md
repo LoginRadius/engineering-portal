@@ -71,4 +71,4 @@ In short, phishing-resistant MFA login technique for mobile applications is a di
 
 Applying the MFA login method to mobile applications will increase data security and reliability. Hence, being an impactful communication tool, mobile devices and applications can now resist cyber-attacks. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=phishing-resistant-mfa-login-mobile-apps)

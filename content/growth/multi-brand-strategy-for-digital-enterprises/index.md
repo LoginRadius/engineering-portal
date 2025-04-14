@@ -72,4 +72,4 @@ As the digital enterprise continues to evolve and thrive, branding has emerged a
 
 By harnessing the power of branding in the digital era, enterprises can unlock new growth opportunities and build lasting connections with their customers, paving the way for sustained success in the ever-evolving digital realm.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-brand-strategy-for-digital-enterprises)

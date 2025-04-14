@@ -46,4 +46,4 @@ These insights are crucial for those aiming to elevate their customer experience
 
 [Download your free copy](https://www.loginradius.com/resource/2024-consumer-digital-identity-trends-report/) of the report today and stay ahead in the dynamic field of customer identity management.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-digital-identity-trends-report-2024)

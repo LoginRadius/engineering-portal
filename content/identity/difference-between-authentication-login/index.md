@@ -89,4 +89,4 @@ LoginRadius CIAM platform is designed to help businesses reach their targeted go
 
 If you wish to experience how LoginRadius works for your business, reach us today to schedule a free personalized demo.
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-authentication-login)

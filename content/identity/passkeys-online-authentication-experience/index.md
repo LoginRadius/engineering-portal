@@ -46,4 +46,4 @@ Passkeys by LoginRadius revolutionize your customers' authentication experience 
 
 Passkeys are the future of secure and user-friendly authentication. They are quick to implement, reliable in performance, and scalable to meet enterprise demands. LoginRadius is setting a new standard in customer identity and access management by eliminating the need for passwords.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-authentication-experience)

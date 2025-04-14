@@ -60,4 +60,4 @@ The findings of this report are essential for those seeking to enhance their cus
 
 **<a href="https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023">Download your complimentary copy</a>** of the report today and stay ahead of the curve in the ever-evolving future of digital identity management. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-report-2023)

@@ -182,4 +182,4 @@ Typically, there are [different plans](https://www.loginradius.com/pricing/) for
 
 You can contact the [LoginRadius sales](https://www.loginradius.com/contact-sales/) team to schedule a free personalized demo and learn how the leading cloud-based CIAM works for your business. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-and-access-management)

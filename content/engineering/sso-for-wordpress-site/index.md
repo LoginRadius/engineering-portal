@@ -50,5 +50,5 @@ LoginRadius allows you to store your consumer profiles securely and add our cust
 ## Your Take?
 We always want to hear from our customers. Like many others in the market, we want developers to install it and offer feedback. This feedback will help us enhance the plugin and make it more user-friendly.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-for-wordpress-site)
 

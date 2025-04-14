@@ -129,4 +129,4 @@ Organizations can implement social login by using a robust CIAM solution like Lo
 
 Single Sign-On (SSO) allows users to access multiple applications with one set of credentials. At the same time, social login is an authentication mechanism that specifically uses social media credentials for user authentication.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-should-implement-social-login-authentication)

@@ -207,4 +207,4 @@ A social account refers to an individual's profile or account on a social media 
 
 Yes, social login is typically free for both businesses and users, although there may be costs associated with implementing and maintaining the integration.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-things-know-about-social-login)

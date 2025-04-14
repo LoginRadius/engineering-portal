@@ -74,4 +74,4 @@ Hence, businesses need to understand the importance of passwordless authenticati
 Businesses leveraging cutting-edge authentication technologies always stand ahead of their competitors since their customers enjoy a seamless user experience reinforced by robust security.
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-going-navigate-business-success)

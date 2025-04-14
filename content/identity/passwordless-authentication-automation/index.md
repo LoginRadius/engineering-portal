@@ -91,4 +91,4 @@ Automating passwordless authentication is a transformative step towards unlockin
 
 By eliminating the vulnerabilities associated with traditional passwords and streamlining the authentication process, you can achieve a higher level of security and user satisfaction. Embrace this innovative approach to stay ahead in the ever-evolving landscape of cybersecurity.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-automation)

@@ -70,4 +70,4 @@ LoginRadius can easily connect customer data to your existing API-driven tools, 
 
 If you wish to see the future of CIAM in action, [reach us](https://www.loginradius.com/contact-sales) for a personalized session. 
 
-[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-webhook-datasync-realtime)

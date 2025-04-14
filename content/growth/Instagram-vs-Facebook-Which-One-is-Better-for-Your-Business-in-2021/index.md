@@ -77,4 +77,4 @@ When it comes to choosing between Facebook and Instagram, both platforms have th
 
 We can’t say Facebook > Instagram or vice-versa. It’s just the fact that as a marketer, one needs to understand its audience and their behavior. This will help in building a winning social media marketing strategy.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=instagram-vs-facebook-which-one-is-better-for-your-business-in-2021)

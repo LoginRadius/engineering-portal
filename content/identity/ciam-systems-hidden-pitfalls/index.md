@@ -82,4 +82,4 @@ By understanding the common pitfalls and implementing robust, scalable, and secu
 
 Investing in resilient customer identity solutions is not just about crisis management; it is about building a foundation for long-term success and customer loyalty.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-systems-hidden-pitfalls)

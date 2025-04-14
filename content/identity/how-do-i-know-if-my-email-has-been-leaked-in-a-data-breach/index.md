@@ -65,4 +65,4 @@ If you're responsible for your company’s data security or digital platforms, t
 
 LoginRadius has a vested interest in maintaining the highest levels of data protection. 
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach)

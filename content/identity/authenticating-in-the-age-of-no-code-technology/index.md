@@ -107,4 +107,4 @@ Identification and authentication are two major processes that secure customer d
 The good news is that no-code technologies are helping businesses secure their services by enabling the developers to create processes faster.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authenticating-in-the-age-of-no-code-technology)

@@ -259,4 +259,4 @@ To incorporate MFA or advanced adaptive MFA from LoginRadius, you can [reach us 
 
 **A:** Absolutely. Two-factor authentication significantly enhances security compared to just using passwords, effectively reducing common cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=2fa-mfa-key-differences)

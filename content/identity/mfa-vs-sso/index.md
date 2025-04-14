@@ -155,4 +155,4 @@ MFA adds layers of verification, making unauthorized access harder, while SSO re
 
 By evaluating security requirements, assessing complexities and usability, and also by considering specific organizational needs.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-vs-sso)

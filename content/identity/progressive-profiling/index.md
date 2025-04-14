@@ -113,4 +113,4 @@ Progressive profiling allows companies to collect critical consumer information 
 As we saw, there are numerous ways of collecting data, including questionnaires, social media profiles, and tracking the consumer's digital footprints. Progressive profiling is emerging as an effective way of cementing the trust gap between the company and its consumers and [forming robust and evergreen client relationships](https://www.loginradius.com/blog/fuel/2021/02/customer-relationship-business/). 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling)

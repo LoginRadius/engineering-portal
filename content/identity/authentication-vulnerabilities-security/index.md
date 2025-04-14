@@ -75,4 +75,4 @@ Staying vigilant and proactive in addressing these common authentication vulnera
 
 By adopting secure practices, using strong and unique passwords, and integrating multi-factor authentication solutions like LoginRadius MFA, you can significantly reduce the risk of falling victim to cyber threats and enjoy a safer online experience.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vulnerabilities-security)

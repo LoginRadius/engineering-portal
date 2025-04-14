@@ -46,4 +46,4 @@ Our partnership's impact extends beyond mere operational enhancements; it has en
 
 As we celebrate these accomplishments, we remain excited about the future. Thanks for an amazing eight years! 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-reshapes-authentication-healthcare-company)

@@ -66,4 +66,4 @@ Time-Based One-Time Passwords (TOTP) stand at the forefront of this technologica
 
 Incorporating TOTP into your authentication processes isn't just a choice; it's a strategic investment in the future of digital security. Stay ahead of the curve, empower your security, and embrace the transformative advantages of Time-Based One-Time Passwords (TOTP). Your digital fortress awaits.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=one-time-passwords-security-benefits)

@@ -64,4 +64,4 @@ Advanced Risk-Based Authentication (RBA) is an indispensable component of modern
 
 By leveraging solutions like LoginRadius CIAM, businesses can harness the full potential of RBA to fortify their defenses, safeguard user accounts, and uphold trust in their digital ecosystems, both now and in the years to come.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-risk-based-authentication-2024)

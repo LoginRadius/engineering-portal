@@ -90,4 +90,4 @@ However, creating a perfect harmony between identity security and delivering a f
 
 A robust cloud-based CIAM solution like [LoginRadius](https://www.loginradius.com/contact-sales2/) can be a game-changer, especially in a world where data breaches are pretty frequent, leading to losses worth millions of dollars.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-security)

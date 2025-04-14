@@ -76,4 +76,4 @@ With the increasing adoption of the cloud worldwide, most organizations are worr
 The above tips could help organizations manage cloud storage and deployments and eventually reduce costs. 
  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-reduce-cloud-cost-optimization)

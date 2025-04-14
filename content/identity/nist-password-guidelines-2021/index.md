@@ -119,4 +119,4 @@ LoginRadius is self-attested to the NIST Cybersecurity Framework as part of its 
 Need help with NIST? [Reach us](https://www.loginradius.com/contact-sales/) for quick guidance today.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nist-password-guidelines-2021)

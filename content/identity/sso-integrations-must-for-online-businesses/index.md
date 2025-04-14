@@ -107,4 +107,4 @@ Bridge the divide between the current system and what is needed. [Existing IAM p
 
 Every day, the world of technology gives us new  tools to incorporate into our lives. It's difficult and maybe dangerous to remember different, complicated passwords for every single one of the apps related to your business. However, with single sign-on integration, you can provide your users with streamlined, streamlined, and more secure access to all of your apps and services.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-integrations-must-for-online-businesses)

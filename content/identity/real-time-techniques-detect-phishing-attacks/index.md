@@ -72,4 +72,4 @@ As real-time phishing attacks continue to pose a significant threat, adopting pr
 
 Prioritizing real-time detection empowers individuals and organizations to stay one step ahead of cybercriminals, safeguarding their valuable information and maintaining a robust defense against real-time phishing attacks.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=real-time-techniques-detect-phishing-attacks)

@@ -284,4 +284,4 @@ Same Sign-On is not a standard term; Single Sign-On (SSO) allows users to log in
 
 Simplify authentication for users and enhance security by allowing access to multiple applications with one login.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-single-sign-on)

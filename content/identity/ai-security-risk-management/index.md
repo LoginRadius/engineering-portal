@@ -65,4 +65,4 @@ By understanding the unique threats, implementing robust security measures, and 
 
 Staying informed and prepared is the key to success. As technologies continue advancing, enterprises must remain vigilant, adapt their security strategies, and explore innovative ways to protect their assets and stakeholders in the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-security-risk-management)

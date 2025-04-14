@@ -97,5 +97,5 @@ The multi-cloud challenge is difficult to solve without proper planning, and the
 Businesses should carefully consider a number of points before moving forward: which cloud services best meet the needs of their applications? What is the solution's total cost of ownership? And will users be satisfied with that solution?
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-cloud-environment-optmization-challenges)
 

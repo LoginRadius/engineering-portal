@@ -122,4 +122,4 @@ Enforcing identity and access management best practices require that you underst
 
 You also need a comprehensive overview of your organization’s IT infrastructure so you can monitor all your elements for potential and existing threats. Staying updated on the latest industry trends will help you improve your current IAM environment.
 
-[![book-a-demo-loginradius-banner](Book-a-demo-banner.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](Book-a-demo-banner.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-access-management-best-practices)

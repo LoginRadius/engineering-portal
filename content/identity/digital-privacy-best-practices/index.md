@@ -140,4 +140,4 @@ LoginRadius complies with major regulatory laws and privacy requirements. It hel
 
 Getting your enterprise onboard with these best practices is the first step to attaining better digital privacy for your consumers. Start by setting up a data maintenance process—operational efficiencies will follow through. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-privacy-best-practices)

@@ -50,4 +50,4 @@ With this integration, citizens are able to access recreational services to sear
 
 Right from the [customer onboarding](https://www.loginradius.com/blog/identity/loginradius-streamlines-user-onboarding-harry-rosen/), the City had access to a customer success manager and multiple support channels to ensure the success of the project every step of the way. The LoginRadius team continues to work closely with the city to ensure project success.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-secures-identity-management-bc-municpality)

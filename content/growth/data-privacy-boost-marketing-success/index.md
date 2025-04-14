@@ -53,4 +53,4 @@ Data privacy is not just a legal requirement for marketers; it's a strategic imp
 
 Brands that prioritize privacy comply with regulations and build lasting relationships with customers. In an era where data is abundant but trust is scarce, cultivating a privacy-first mindset is not just good ethics—it's good business. As marketers navigate the evolving landscape of digital marketing, let data privacy be their guiding star toward success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-boost-marketing-success)

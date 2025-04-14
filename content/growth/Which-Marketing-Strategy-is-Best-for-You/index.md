@@ -96,4 +96,4 @@ Marketing pixels allow companies to gather information about visitors and send t
   
 
 Companies would benefit from trying out new strategies while continuing to deploy those that work for them. Combining with regular data analysis to assess profitability will help companies stay on top of the game.
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=which-marketing-strategy-is-best-for-you)

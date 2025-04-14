@@ -140,4 +140,4 @@ The most common 2FA methods include SMS codes and authenticator apps like Google
 
 Authenticator apps like Google Authenticator are generally considered more secure than SMS codes, as SMS can be vulnerable to SIM swapping attacks. However, both methods offer an additional layer of security compared to passwords alone.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-secure-2fa)

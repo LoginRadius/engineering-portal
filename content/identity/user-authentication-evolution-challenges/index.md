@@ -78,4 +78,4 @@ The evolution of user authentication from legacy mechanisms to emerging technolo
 
 By embracing these innovations and prioritizing security and user experience, organizations can successfully navigate the complexities of user authentication evolution challenges in the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-authentication-evolution-challenges)

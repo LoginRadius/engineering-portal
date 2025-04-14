@@ -171,4 +171,4 @@ The authentication method that uses usernames and passwords is known as "usernam
 
 The best practice for user authentication includes creating a firm password policy, using salted and hashed passwords, implementing multi-factor authentication (MFA), and using password managers.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-username-password-authentication)

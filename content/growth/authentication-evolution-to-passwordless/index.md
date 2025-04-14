@@ -86,4 +86,4 @@ And the crux of the matter is that businesses relying on old-school authenticati
 
 Businesses leveraging cutting-edge authentication technologies always stand ahead of their competitors since their customers enjoy a seamless user experience reinforced by robust security. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-evolution-to-passwordless)

@@ -94,4 +94,4 @@ The future for AI in user authentication is promising, though more potential cha
 
 Although AI is changing the game in user authentication, everyone must be aware of its potential benefits and drawbacks to protect sensitive information and reduce security risks. In this way, organizations and companies will be able to secure important data and build trust with users. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-revolutionizing-user-authentication)

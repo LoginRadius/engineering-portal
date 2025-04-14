@@ -88,5 +88,5 @@ When you invest in proper training and technology, your team will be empowered t
 By looking at customer identity, both online and off, you should be able to create a connection with customers you could not have made before. This improves understanding between your brand and your audience and provides an insightful picture that can help build stronger relationships for more tremendous digital success.
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=evolution-digital-identity-better-cx)
 

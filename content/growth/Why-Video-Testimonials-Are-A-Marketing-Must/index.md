@@ -107,4 +107,4 @@ By now, it must be clear how important it is to develop video testimonials and t
   
 
 However, creating impactful video testimonials isn't a cakewalk. It requires a potent mixture of creativity, understanding of user needs, and digital marketing methods. So, start focusing more on video testimonials instead of investing resources for developing text-based marketing collaterals. With time, you will get better at it and create a massive impact on your audience.
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-video-testimonials-are-a-marketing-must)

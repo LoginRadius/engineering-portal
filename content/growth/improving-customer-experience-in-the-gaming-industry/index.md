@@ -105,4 +105,4 @@ Customer Identity and Access Management (CIAM) platform LoginRadius offers [out-
 
 No matter what platform or game, players demand a seamless experience with no downtime. With a CIAM solution from LoginRadius, you don’t have to compromise security to provide it. 
 
-[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-in-the-gaming-industry)

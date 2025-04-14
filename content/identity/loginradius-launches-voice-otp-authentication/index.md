@@ -60,4 +60,4 @@ As businesses navigate the complexities of the digital landscape, solutions like
 
 Check out the Voice OTP datasheet to learn more about this innovative release.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-voice-otp-authentication)

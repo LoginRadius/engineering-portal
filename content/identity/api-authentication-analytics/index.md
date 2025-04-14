@@ -57,7 +57,7 @@ The API analytical and performance data are available in the following three cat
 
 
 
-[![LoginRadius lets talk](lets-talk.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius lets talk](lets-talk.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=api-authentication-analytics)
 
 
 

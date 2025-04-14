@@ -87,4 +87,4 @@ Think of Identity Management as the gatekeeper, ensuring the right people can ac
 
 By blending these two approaches through a reliable CIAM solution, businesses can work smoothly and keep their sensitive information safe from prying eyes and cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-vs-identity-management)

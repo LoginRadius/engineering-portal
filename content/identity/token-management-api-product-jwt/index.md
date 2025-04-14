@@ -83,4 +83,4 @@ The precise use of secure token management through a robust [consumer identity a
 
 JWT can be the right option in most scenarios if implemented correctly and securely by following the proper security measures. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=token-management-api-product-jwt)

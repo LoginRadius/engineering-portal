@@ -58,4 +58,4 @@ As we stand at the intersection of technological advancement and heightened cybe
 
 By comprehending its significance, embracing its implementation, and adapting to evolving technologies, individuals and organizations can proactively defend against the ever-shifting landscape of cyber threats. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=2fa-security-measures)

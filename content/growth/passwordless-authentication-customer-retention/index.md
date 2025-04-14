@@ -70,4 +70,4 @@ Adopting **passwordless authentication for customer retention** not only as a se
 
 Marketers can utilize passwordless authentication to nurture leads into potential clients and build lasting relationships. The ultimate goal is to keep the end user happy, and in this competitive digital landscape, passwordless authentication emerges as a strong tool for achieving business goals. You can give what the consumer wants - a seamless, low-friction passwordless login experience- and Login Radius experts can help implement passwordless authentication with a customizable and fully configurable solution.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-customer-retention)

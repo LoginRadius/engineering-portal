@@ -81,4 +81,4 @@ Identity modernization can help bring about a new era of security and transparen
 Choosing a robust identity management solution like LoginRadius CIAM helps you put identity modernization to work for you today, and reap the rewards of increased security, increased customer confidence, and a future-proofed business that stands ahead of the curve when it comes to compliant data security.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-modernization)

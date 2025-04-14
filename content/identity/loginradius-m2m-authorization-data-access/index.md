@@ -61,4 +61,4 @@ With LoginRadius M2M authorization, businesses can ensure a secure and reliable 
 
 LoginRadius M2M helps businesses to provide flexible machine-to-machine communication while ensuring granular access, authorization, and security requirements are enforced.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-m2m-authorization-data-access)

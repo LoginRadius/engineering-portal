@@ -81,4 +81,4 @@ Businesses can’t ignore the importance of user insights that can help them und
 
 LoginRadius helps businesses transform the way they approach their marketing by taking the guesswork out of their efforts. One can quickly segment their customers and get specific about their population right from the LoginRadius Admin Console.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=scale-business-with-loginradius-customer-segmentation)

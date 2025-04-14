@@ -60,4 +60,4 @@ This might mean providing easy-to-use privacy settings, allowing users to opt ou
 
 By putting users in the driver's seat, businesses not only comply with regulations but also foster a sense of empowerment and respect that can lead to long-term loyalty and advocacy. In the ever-evolving landscape of data privacy regulations, prioritizing user empowerment is not just good ethics—it's good business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketing-regulations)

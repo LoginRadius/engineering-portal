@@ -184,4 +184,4 @@ Given this rapid upgrade in the classroom environment, experts are curious wheth
 
 If it does (which sure, will), LoginRadius will certainly complement the complex, and unique CIAM needs for schools, colleges, and universities across the globe.
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-education)

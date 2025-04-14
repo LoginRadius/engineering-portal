@@ -51,4 +51,4 @@ Step-up authentication is a revolutionary feature when it comes to authenticatin
 Implementing step-up authentication on an online platform offers a competitive edge to businesses seeking innovative ways to enhance authentication and security for their website or application.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=step-up-authentication-loginradius)

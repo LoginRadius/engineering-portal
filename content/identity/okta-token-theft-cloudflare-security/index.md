@@ -40,4 +40,4 @@ The recent breach at Cloudflare, stemming from stolen Okta authentication tokens
 
 However, this incident serves as a reminder of the importance of continuous vigilance and proactive measures in the face of evolving cybersecurity threats. As Cloudflare continues to fortify its defenses and enhance security protocols, the broader tech community must remain diligent in combating cyber threats to ensure the integrity and safety of digital infrastructure worldwide.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-token-theft-cloudflare-security)

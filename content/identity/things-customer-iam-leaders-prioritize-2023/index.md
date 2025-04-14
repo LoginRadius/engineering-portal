@@ -60,4 +60,4 @@ Aside from increasing efforts to secure identity, it is anticipated that custome
 
 While leaders will be able to continue streamlining the security and fraud prevention techniques; however, if they cannot apply the same level of efficiency and innovation to deliver a positive user experience, they risk alienating consumers and ultimately losing their loyalty. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-customer-iam-leaders-prioritize-2023)

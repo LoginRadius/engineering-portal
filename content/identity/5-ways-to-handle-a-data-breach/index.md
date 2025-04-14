@@ -104,4 +104,4 @@ The aspects mentioned above can be quite helpful in managing the overall situati
 
 It’s recommended that enterprises should consider stringent security measures to avoid any chance of sneaking into the company’s network. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-to-handle-a-data-breach)

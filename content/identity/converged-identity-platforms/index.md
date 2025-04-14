@@ -50,4 +50,4 @@ In this rapidly evolving digital world, where security breaches and cyber attack
 
 By integrating various Identity and Access Management (IAM) functionalities into a single ecosystem, CIPs facilitate identity management, authentication, and authorization complications. It offers a convenient user experience. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=converged-identity-platforms)

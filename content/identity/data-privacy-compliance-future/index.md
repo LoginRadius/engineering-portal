@@ -76,4 +76,4 @@ And with LoginRadius CIAM, businesses need not worry about getting compliant wit
 Need help in getting compliance-ready? [Reach us](https://www.loginradius.com/contact-sales/) for a free consultation today. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-compliance-future)

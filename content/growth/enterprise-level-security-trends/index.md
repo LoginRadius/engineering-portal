@@ -87,4 +87,4 @@ Cybersecurity is no longer just an IT concern but a top strategic priority for e
 
 Remember, a robust security posture prevents potential attacks and demonstrates to customers, investors, and stakeholders that your organization is committed to ensuring the highest levels of trust and confidence.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-level-security-trends)

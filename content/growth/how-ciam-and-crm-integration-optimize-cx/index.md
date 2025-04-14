@@ -100,4 +100,4 @@ In conclusion, customer-centric strategies are essential for your business or an
 
 The future holds exciting potential for CIAM and CRM integration. As digital innovations continue to appear, your company should embrace them or, better else, pioneer them. Consistently deliver excellent value and exceptional customer service.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-and-crm-integration-optimize-cx)

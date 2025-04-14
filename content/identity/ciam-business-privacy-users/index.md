@@ -88,4 +88,4 @@ With features like consent management, MFA, RBA, and progressive profiling, Logi
 
 Investing in these key areas will ensure your organization is well-positioned to thrive in a market where data privacy is a critical differentiator. Implementing these strategies will help you maintain a competitive edge while fostering a strong, trust-based relationship with your customers.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-business-privacy-users)

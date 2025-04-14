@@ -163,4 +163,4 @@ The decision centering around build vs buy needs some serious consideration. How
 
 Use our Build vs Buy [calculator to find out](https://www.loginradius.com/resource/ciam-build-vs-buy/) which option can deliver the most cost-effective solution for your business.
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=build-vs-buy-securing-customer-identity)

@@ -92,4 +92,4 @@ CIAM is a valuable tool to meet and understand consumer behavior in modern ident
 
 As businesses advance into the digital age, the strategic importance of CIAM becomes increasingly evident in understanding customer behavior in modern identity. CIAM not only safeguards user data and elevates security measures but also provides vital in crafting positive user experiences, streamlining account interactions, and unraveling valuable customer perceptive. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=modern-identity-customer-behavior)

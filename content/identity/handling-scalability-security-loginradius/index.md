@@ -74,4 +74,4 @@ The solution must ensure adequate security for both the clients and enterprise d
 
 LoginRadius is the leading CIAM solution provider that not only empowers businesses to deliver a rich user experience but eventually offers a robust and highly secure infrastructure that ensures the utmost level of [data and privacy security](https://www.loginradius.com/blog/identity/2021/03/privacy-compliance/).
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=handling-scalability-security-loginradius)

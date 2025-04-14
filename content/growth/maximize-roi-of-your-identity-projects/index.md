@@ -77,4 +77,4 @@ A customer identity and access management solution like LoginRadius can help bus
 
 By following these guidelines, businesses can reap the benefits of their identity projects, including improved user experience, reduced fraud, increased productivity, and enhanced customer satisfaction.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=maximize-roi-of-your-identity-projects)

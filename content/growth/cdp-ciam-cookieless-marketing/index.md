@@ -110,4 +110,4 @@ Complementing each other, CDP and CIAM help brands identify the customer across 
 
 Simply put, the ban on third-party cookies will inevitably affect marketers. However, the changes don't have to be too drastic. The blended approach of CDP and CIAM will give you the power to bridge the gaps and boost your marketing strategies in the cookieless world. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cdp-ciam-cookieless-marketing)

@@ -72,4 +72,4 @@ Embrace the future of digital identity management and position your brand at the
 
 Ready to transform your customer identity management? Book a personalized demo today to learn how LoginRadius CIAM transforms your business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=kuppingercole-names-lr-ciam-leader-2024)

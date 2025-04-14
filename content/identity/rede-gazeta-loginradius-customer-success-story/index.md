@@ -46,4 +46,4 @@ As one of the most important media corporations in Brazil, Rede Gazeta needs to 
 
 Rede Gazeta - LoginRadius Customer Success Story
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rede-gazeta-loginradius-customer-success-story)

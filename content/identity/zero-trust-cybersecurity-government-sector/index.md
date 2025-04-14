@@ -90,4 +90,4 @@ By embracing Zero-Trust, government agencies can better protect sensitive data, 
 
 Zero trust is not just a trend but a necessary evolution in the ongoing battle against cyber threats. The journey towards full Zero-Trust implementation may be challenging, but the benefits far outweigh the obstacles, paving the way for a more secure and resilient government infrastructure.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-cybersecurity-government-sector)

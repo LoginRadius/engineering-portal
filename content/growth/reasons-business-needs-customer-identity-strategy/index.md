@@ -61,4 +61,4 @@ A customer identity strategy is critical for businesses that want to grow and su
 
 By personalizing experiences, gaining better customer insights, enhancing security, improving marketing ROI, and increasing customer loyalty, businesses can create a strong foundation for growth and long-term success. If you haven't already implemented a customer identity strategy, now is the time to start.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reasons-business-needs-customer-identity-strategy)

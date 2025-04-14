@@ -158,4 +158,4 @@ Personalizing emails isn’t a choice anymore for brands. Customers expect you t
 
 This can help your brand in two ways. First, it can reduce your costs and increase your marketing efficiency. And second, it can make your marketing more personal, relevant, and effective, resulting in better engagement and more customers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-leverage-email-automation-personalization)

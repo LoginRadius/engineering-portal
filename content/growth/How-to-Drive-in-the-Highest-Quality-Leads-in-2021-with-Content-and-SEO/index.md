@@ -193,4 +193,4 @@ The only constant when working with content marketing strategies is change. As l
 
 SEO lead generation is all about constant change. Understanding the market trends and keeping up with them is necessary. With the proper keywords and SEO strategy, business owners can successfully generate leads and conversions to sell their products and services. SEO leads have a [14.6% close rate](https://cdn2.hubspot.net/hub/212967/file-28030930-pdf/the_2012_state_of_inbound_marketing.pdf), more than any type. Therefore, effective SEO usage is necessary for businesses to stand apart from other competitors in the market.
 
-[![try-with-us-Partner](try-with-us-Partner.png)](https://www.loginradius.com/book-a-demo/)
+[![try-with-us-Partner](try-with-us-Partner.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-drive-in-the-highest-quality-leads-in-2021-with-content-and-seo)

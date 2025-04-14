@@ -154,5 +154,5 @@ Internal communications 2021 especially requires comms professionals to remind t
 
 All the above internal communication strategies are tried and tested. See which one works best for your organization, and eventually, you'll be able to come up with your strategies that aid in your business's growth.
 
-[![loginradius-free-Consultation](loginradius-free-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![loginradius-free-Consultation](loginradius-free-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=8-effective-communication-strategies-for-internal-alignment-and-growth-in-2021)
 
