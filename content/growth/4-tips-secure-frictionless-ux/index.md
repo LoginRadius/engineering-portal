@@ -1,7 +1,7 @@
 ---
 title: "How to Blend Security with Frictionless User Experience"
 date: "2021-11-24"
-coverImage: "ux-cover.jpg"
+coverImage: "ux-cover.webp"
 tags: ["data security","social login","cybersecurity","cx"]
 author: "Shivangini Yadav"
 description: "By striking the right balance between UX and security, you can provide a product that consumers trust and enjoy using. If, on the other hand, you compromise one for the other, customer churn is a more likely scenario."
@@ -59,7 +59,7 @@ The only issue that often arises is password reuse. Many users tend to come up w
 
 All you can do is educate your users about the importance of strong, varied passwords. If you do offer social login, know that you are reaching for the most pleasant UX available. 
 
-[![WP-Social-Login-rec](WP-Social-Login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-Social-Login-rec](WP-Social-Login-rec.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### #3. Make use of Single Sign-on 
 
@@ -82,4 +82,4 @@ You can also outsource security testing, as it makes uncovering a potential thre
 
 By striking the right balance between UX and security, you can provide a product that consumers trust and enjoy using. If, on the other hand, you compromise one for the other, customer churn is a more likely scenario. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=4-tips-secure-frictionless-ux)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=4-tips-secure-frictionless-ux)

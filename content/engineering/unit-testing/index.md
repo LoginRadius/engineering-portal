@@ -1,7 +1,7 @@
 ---
 title: "Unit Testing: What is it and why do you need it?"
 date: "2020-09-29"
-coverImage: "unit-testing.jpg"
+coverImage: "unit-testing.webp"
 author: Sudhanshu Pandey
 tags: ["Unit Testing", "QA", "Testing"]
 description: "Unit testing is one of the types of software testing that requires an initial phase of testing. Find out the benefits and why its important for developers."

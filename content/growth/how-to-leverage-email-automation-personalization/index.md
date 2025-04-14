@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Make Your Automated Emails Sound Personal, Relevant, and Effective?"
 date: "2021-07-02"
-coverImage: "email-automation.jpg"
+coverImage: "email-automation.webp"
 tags: ["email marketing","customer experience","personalization"]
 author: "Akshay Deogiri"
 description: " The chances are that as a marketer, you’re already segmenting your audience and sending them targeted emails. But is that enough? Making your emails relevant is one thing, and making them interesting and engaging is something completely different. If implemented correctly, personalization is a powerful tool that can help you engage your audience and nurture your leads."
@@ -85,7 +85,7 @@ All email automation solutions support triggers. You can choose a trigger that�
 
 Here’s a great example from an automated welcome email from Healthline, a health information provider.
 
-![Healthline](image2.png)
+![Healthline](image2.webp)
 
 Image Source: [Healthline](https://www.healthline.com/)
 
@@ -93,7 +93,7 @@ Setting up triggers is great, but not enough. If you want to truly personalize y
 
 For example, Sephora, a cosmetics and personal care brand, sends an email providing a 20% discount to customers who shop for more than $200.
 
-![Healthline](image1.png)
+![Healthline](image1.webp)
 
 Image Source: [Sephora](https://www.sephora.com/)
 
@@ -158,4 +158,4 @@ Personalizing emails isn’t a choice anymore for brands. Customers expect you t
 
 This can help your brand in two ways. First, it can reduce your costs and increase your marketing efficiency. And second, it can make your marketing more personal, relevant, and effective, resulting in better engagement and more customers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-leverage-email-automation-personalization)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-leverage-email-automation-personalization)

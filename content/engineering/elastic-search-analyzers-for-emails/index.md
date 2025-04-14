@@ -1,7 +1,7 @@
 ---
 title: "ElasticSearch Analyzers for Emails"
 date: "2015-10-15"
-coverImage: "elastic-search.png"
+coverImage: "elastic-search.webp"
 author: "Lucius Yu"
 tags: ["Elastic Search", "Analyzers"]
 ---

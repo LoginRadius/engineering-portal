@@ -1,7 +1,7 @@
 ---
 title: "OAuth implementation with Node.js and Github"
 date: "2020-03-22"
-coverImage: "oauth.png"
+coverImage: "oauth.webp"
 author: "Puneet Singh"
 tags: ["Oauth", "NodeJs"]
 canonical: https://www.loginradius.com/blog/engineering/google-authentication-with-nodejs-and-passportjs/
@@ -23,14 +23,14 @@ To implement Github Auth we need to register a new application in [Github OAuth 
 
 Once you start the process you will get a form like this.
 
-![Github App](git_new_app.jpg "Github App")
+![Github App](git_new_app.webp "Github App")
 
 You need to fill all the required details and put the Authorization callback URL as `http://localhost:2400/github/callback` (This will be the URL on which Github will send the authorization code once authorization is finished)
 
 
 Once you register the application you will get the App's Client Id and Secret which we will use in our code.
 
-![Github App](github_cred.jpg "Github App")
+![Github App](github_cred.webp "Github App")
 
 
 
@@ -200,15 +200,15 @@ node index.js
 
 Once our server is running, we can see our social login page on `http://localhost:2400/`
 
-![Social Authentication Page](github_login.jpg "Social Authentication Page")
+![Social Authentication Page](github_login.webp "Social Authentication Page")
 
 We need to click on the **Github Login button**, which will redirect us to google login page.
 
-![GIthub Login](github_auth.jpg "GIthub Login")
+![GIthub Login](github_auth.webp "GIthub Login")
 
 After login with our GitHub credentials, it will redirect back to our application and on the success page, we can see the details of users' GitHub profile and can save this detail in a database for future use also.
 
-![GIthub Profile Info](github_profile.jpg "Github Profile Info")
+![GIthub Profile Info](github_profile.webp "Github Profile Info")
 
 You can implement the OAuth in Node.js by the above process, You can found the complete code used in this tutorial on out
 

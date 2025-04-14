@@ -1,7 +1,7 @@
 ---
 title: "Roadmap of idx-auto-tester"
 date: "2020-06-30"
-coverImage: "roadmap_idx_auto_tester.png"
+coverImage: "roadmap_idx_auto_tester.webp"
 author: "Rakesh Pareek"
 tags: ["Automation", "idx", "roadmap"]
 canonical: https://www.loginradius.com/blog/engineering/introduction-of-idx-auto-tester/

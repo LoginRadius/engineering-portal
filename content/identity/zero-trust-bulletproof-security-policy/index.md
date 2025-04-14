@@ -1,7 +1,7 @@
 ---
 title: "Implementing Zero Trust? Make Sure You're Doing It Correctly"
 date: "2022-08-23"
-coverImage: "zt-1.jpg"
+coverImage: "zt-1.webp"
 tags: ["zero trust", "MFA", "ciam solution", "cx"]
 author: "Rakesh Soni" 
 description: "Though zero trust architecture may be potent for reinforcing overall security, chances of sneaking and security breaches aren’t always zero. If not implemented correctly, zero trust could lead to various security and user experience issues and hampers overall business growth."
@@ -30,7 +30,7 @@ Implementing a zero-trust architecture in today’s era is crucial since cybercr
 
 Hence, it’s crucial for organizations to think outside the box and not just rely on conventional security mechanisms, including [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/). Zero trust architecture has become the new normal. 
 
-[![WP-zero-trust-2](WP-zero-trust-2.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-2](WP-zero-trust-2.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 ## Consequences of Poor Implementation of Zero Trust Architecture
 
@@ -64,4 +64,4 @@ Zero trust architecture is undeniably helping brands reinforce their overall sec
 
 A reliable customer identity and access management (CIAM) could help businesses integrate zero trust architecture across their platform seamlessly. It offers complete transparency reinforced with stringent security and a great user experience.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-bulletproof-security-policy)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-bulletproof-security-policy)

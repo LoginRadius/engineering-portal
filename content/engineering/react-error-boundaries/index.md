@@ -1,7 +1,7 @@
 ---
 title: "React Error Boundaries"
 date: "2021-05-20"
-coverImage: "error_boundary_cover.png"
+coverImage: "error_boundary_cover.webp"
 author: "Versha Gupta"
 tags: ["React", "Error Handling", "JavaScript"]
 description: "Error Handling in React using React Error Boundaries"

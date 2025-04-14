@@ -1,7 +1,7 @@
 ---
 title: "Cloud storage vs Traditional storage"
 date: "2015-04-21"
-coverImage: "cloud-vs-traditional-storage-1.png"
+coverImage: "cloud-vs-traditional-storage-1.webp"
 author: "Kundan Singh"
 tags: ["Cloud", "Storage"]
 ---

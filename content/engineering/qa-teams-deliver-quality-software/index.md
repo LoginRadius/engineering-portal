@@ -1,7 +1,7 @@
 ---
 title: "QA Testing Process: How to Deliver Quality Software"
 date: "2021-03-01"
-coverImage: "software-testing.png"
+coverImage: "software-testing.webp"
 author: "Neha Vyas"
 description: "A comprehensive overview of the QA testing process is given. Learn what it takes to get top-notch testing facilities."
 tags: ["QA", "Processes", "Testing"]

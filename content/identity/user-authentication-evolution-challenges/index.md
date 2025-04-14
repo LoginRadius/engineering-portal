@@ -1,7 +1,7 @@
 ---
 title: "From Past to Present: User Authentication's Evolution and Challenges"
 date: "2024-03-27"
-coverImage: "user-authentication.jpg"
+coverImage: "user-authentication.webp"
 tags: ["user authentication","data security","ciam solutions"]
 author: "Rakesh Soni"
 description: "From the humble beginnings of legacy authentication mechanisms to today's sophisticated technologies, the journey of user authentication has been a captivating evolution marked by relentless innovation."
@@ -54,7 +54,7 @@ The evolution of user authentication has brought forth a range of emerging techn
 
 Passwordless authentication, for example, eliminates the need for traditional passwords, relying instead on methods such as cryptographic keys, biometrics, and behavioral analytics. This not only enhances security but also simplifies the user experience.
 
-[![DS-passwordless-magic-link-OTP](DS-passwordless-magic-link-OTP.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-magic-link-OTP](DS-passwordless-magic-link-OTP.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ## How CIAM Helps Overcome the Authentication Challenges
 
@@ -78,4 +78,4 @@ The evolution of user authentication from legacy mechanisms to emerging technolo
 
 By embracing these innovations and prioritizing security and user experience, organizations can successfully navigate the complexities of user authentication evolution challenges in the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-authentication-evolution-challenges)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-authentication-evolution-challenges)

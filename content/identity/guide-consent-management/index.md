@@ -1,7 +1,7 @@
 ---
 title: "A Detail Guide to Consent Management and Processing Data"
 date: "2021-04-14"
-coverImage: "guide-consent-management-cover.jpg"
+coverImage: "guide-consent-management-cover.webp"
 tags: ["consent management","compliance","cx"]
 author: "Abhilash Menon"
 description: "The importance of consent management cannot be understated. Whether you are a small business that is starting out or a multinational brand, consent management is going to be a crucial piece of your organization's ability to grow sustainably while building trust within your consumer base. Learn how the GDPR and CCPA define conditions that allow user data to be processed without consent or unconditionally."
@@ -41,7 +41,7 @@ Both the GDPR and CCPA define specific conditions that allow user data to be pro
 8. **Business-to-Business Relationships**: Contact information collected as part of a business-to-business (B2B) relationship may also be exempt from CCPA compliance to qualify for this exemption, the product or service taking place between the businesses must have already been CCPA exempt.
 9. **Warranty and Recall Information**: Specific to new car dealers and buyers this exemption rules that vehicle ownership information may be kept and shared between dealers and manufacturers without the need to provide an opt-out option.
 
-[![ccpa-customer-identity](ccpa-customer-identity.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![ccpa-customer-identity](ccpa-customer-identity.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 ## Advantages of Having a Good Consent Management System
 
@@ -63,4 +63,4 @@ Whether you are a small business that is starting out or a Multinational brand, 
 
 There are a couple of ways you can have these implemented depending on your use case. While some companies will require only basic consent management pieces that can be written by developers fairly easily, others that use consumer data for analytics and personalization of services might find it more suitable to use a Consent Management platform from a third-party vendor.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-consent-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-consent-management)

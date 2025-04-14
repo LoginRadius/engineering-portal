@@ -1,7 +1,7 @@
 ---
 title: Optimal clusters for KMeans Algorithm
 date: "2020-10-12"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Neeraj Ap"
 tags: ["Machine Learning"]
 ---
@@ -38,7 +38,7 @@ We've got only two variables, x and y coordinates.
 
 Now, if we run the K means clustering algorithm on this dataset with three clusters or with K pre-determine the clusters to be three, then the result will look something like this.
 
-![initial](initial.png)
+![initial](initial.webp)
 
 
 We need a specific metric, we need a way to understand or evaluate how a certain number of clusters performs compared to a different number of clusters, and preferably, that metric should be quantifiable.
@@ -47,7 +47,7 @@ So what kind of metric can we impose upon our clustering algorithm that will tel
 There is such a metric called the within-cluster sum of squares. (WCSS)
 
 
-![Wcss](Wcss.png )
+![Wcss](Wcss.webp )
 
 
 So you can see here that it jumps from 8000 down to 3000, that's a massive change of 5000. Let's just call them units, 5000 units and then from 3000 as we increase the number of the close from 2 to 3, they jump from 3000 to 1000.

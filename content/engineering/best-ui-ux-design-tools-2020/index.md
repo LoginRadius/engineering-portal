@@ -1,7 +1,7 @@
 ---
 title: "Best Free UI/UX Design Tools/Resources 2020"
 date: "2020-08-13"
-coverImage: "ux-ui.jpg"
+coverImage: "ux-ui.webp"
 author: "Hitesh Kumawat"
 tags: ["Design", "UX", "Tools"]
 description: "As a designer, often wondered which new tools and utilities, other designers are using? So here is a list of all the tools and utilities famous around the world in designers."

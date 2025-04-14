@@ -1,7 +1,7 @@
 ﻿---
 title: "The Right Way to Use Identity Marketing in a Privacy-Centric World"
 date: "2022-02-15"
-coverImage: "identity-marketing.jpg"
+coverImage: "identity-marketing.webp"
 tags: ["identity management","compliance","cx"]
 author: "Navanita Devi"
 description: "There are numerous ways that you can use identity marketing to strengthen your business reputation. With the right techniques, you can make this an extremely powerful strategy. The points mentioned in this blog will help you to understand how identity marketing has transformed the modern digital age."
@@ -37,7 +37,7 @@ First, there's the issue of data protection. The GDPR requires businesses to giv
 
 Second, businesses need to rethink how they use their systems and communicate with their customers. The good news is that many of the issues can be resolved simply by taking an extra minute to verify if the legislations' conditions are met.
 
-[![WP-compliance](WP-compliance.png)](https://www.loginradius.com/resource/)
+[![WP-compliance](WP-compliance.webp)](https://www.loginradius.com/resource/)
 
 
 ## Exploring the Concept of Incrementality 
@@ -73,4 +73,4 @@ As mentioned above, there are many things that you might want to do with your co
 
 Another important point is that you need to understand when you are asking questions and gathering information from your consumers as well. All these aspects should be discussed with [privacy policies](https://www.loginradius.com/blog/identity/privacy-policy-management/) so that consumers know what they are doing in regards to your brand identity.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-use-identity-marketing-privacy-centric-world)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-use-identity-marketing-privacy-centric-world)

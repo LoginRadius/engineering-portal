@@ -1,7 +1,7 @@
 ---
 title: "9 Data Security Best Practices For your Business"
 date: "2020-12-09"
-coverImage: "9-data-security-best-practices-for-2021.jpg"
+coverImage: "9-data-security-best-practices-for-2021.webp"
 tags: ["data security","cybersecurity","cx"]
 author: "Rakesh Soni"
 description: "Confining data security best practices to the organization's size never helped in the past, nor will it work in the future. What cybercriminals gain is what consumers lose, and those losses add up."
@@ -98,7 +98,7 @@ Your network's endpoints are constantly under threat. Therefore, it is important
 
 *   **Firewalls**: Firewalls provide a barrier between your data and cybercriminals, which is why it is one of the highly recommended data security best practices by most experts. You can also install internal firewalls to provide additional protection.
 
-[![protecting-PII-against-data-breaches-report](protecting-PII-against-data-breaches-report.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![protecting-PII-against-data-breaches-report](protecting-PII-against-data-breaches-report.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ### 6. Document your cybersecurity policies.
 
@@ -146,4 +146,4 @@ Secure data by encrypting sensitive information, using access controls, implemen
 
 Data security in an enterprise involves protecting sensitive information through various measures such as encryption, access controls, and monitoring.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-security-best-practices)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-security-best-practices)

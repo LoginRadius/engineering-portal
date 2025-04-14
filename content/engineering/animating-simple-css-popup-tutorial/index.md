@@ -1,7 +1,7 @@
 ---
 title: "Animate the modal popup using CSS"
 date: "2015-03-23"
-coverImage: "simplepop.png"
+coverImage: "simplepop.webp"
 author: "Team LoginRadius"
 tags: ["Slide","CSS","Swirl","PopUp"]
 description: "Learn how to animate the modal popup using CSS keyframe"

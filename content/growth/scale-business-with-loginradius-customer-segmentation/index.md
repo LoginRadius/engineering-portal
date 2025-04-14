@@ -1,7 +1,7 @@
 ---
 title: "Driving Revenue Using LoginRadius' Customer Segmentation Insights"
 date: "2022-03-15"
-coverImage: "customer-segmt.jpg"
+coverImage: "customer-segmt.webp"
 category: ["business", "Marketing", "technology"]
 featured: false 
 author: "Manish Tiwari"
@@ -81,4 +81,4 @@ Businesses can’t ignore the importance of user insights that can help them und
 
 LoginRadius helps businesses transform the way they approach their marketing by taking the guesswork out of their efforts. One can quickly segment their customers and get specific about their population right from the LoginRadius Admin Console.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=scale-business-with-loginradius-customer-segmentation)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=scale-business-with-loginradius-customer-segmentation)

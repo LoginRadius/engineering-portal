@@ -1,7 +1,7 @@
 ---
 title: "eIDAS 2.0: The Digital Revolution Is Here – Is Your Business Ready to Comply?"
 date: "2024-05-21"
-coverImage: "digital-transformation.jpg"
+coverImage: "digital-transformation.webp"
 tags: ["digital revolution","consent management","compliance"]
 author: "Rakesh Soni"
 description: "Explore the impact of eIDAS 2.0 on business operations within the EU. Learn how to leverage this regulatory update to enhance security, streamline cross-border access, and expand service accessibility for a successful digital transformation."
@@ -42,7 +42,7 @@ eIDAS 2.0 represents a pivotal advancement in digital identity management within
 
 This regulation not only enhances the safety and flexibility of digital identities but also ensures their seamless use across various contexts, driving forward the digital transformation of Europe.
 
-[![WP-EU-GDPR](WP-EU-GDPR.png)](https://www.loginradius.com/resource/eu-gdpr-and-ciam/)
+[![WP-EU-GDPR](WP-EU-GDPR.webp)](https://www.loginradius.com/resource/eu-gdpr-and-ciam/)
 
 Hence, businesses have to ensure they meet the compliance requirements if they wish to serve the customers in the EU since failing to this could lead to hefty fines and reputational losses. 
 
@@ -72,4 +72,4 @@ The digital revolution demands robust security and seamless user experiences, an
 
 Embracing eIDAS 2.0 enhances data protection, streamlines cross-border access, and expands service accessibility, positioning businesses to thrive in the digital era. Leverage the full potential of eIDAS 2.0 to ensure your business is ready to survive and excel.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=eidas-2-0-digital-revolution-transformation)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=eidas-2-0-digital-revolution-transformation)

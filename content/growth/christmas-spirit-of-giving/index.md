@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Gets into the Christmas Spirit (of Giving)"
 date: "2019-12-17"
-coverImage: "christmas-spirit-of-giving.jpg"
+coverImage: "christmas-spirit-of-giving.webp"
 category: ["media-and-publication"]
 featured: false 
 author: "Rakesh Soni"

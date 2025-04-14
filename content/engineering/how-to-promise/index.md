@@ -1,7 +1,7 @@
 ---
 title: "How to Promise"
 date: "2016-01-05"
-coverImage: "promise-300x300.png"
+coverImage: "promise-300x300.webp"
 author: "Solomon Yu"
 tags: ["JavaScript", "Promise"]
 ---

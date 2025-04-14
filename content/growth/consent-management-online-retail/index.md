@@ -1,7 +1,7 @@
 ---
 title: "Exploring the Vital Role of Consent Management for Your Online Store"
 date: "2023-09-08"
-coverImage: "online-store-consent-mngmnt.jpg"
+coverImage: "online-store-consent-mngmnt.webp"
 tags: ["consent management","data privacy","compliance","cx"]
 author: "Vishal Sharma"
 description: "In today’s modern digital world, online success hinges on more than just great products and user-friendly interfaces. It's about respecting privacy, complying with regulations, and fostering trust. Consent management plays a vital role in achieving these goals. By being transparent about data usage, respecting customer privacy, and complying with regulations like GDPR, you not only avoid legal troubles but also gain a competitive edge."
@@ -55,7 +55,7 @@ Customers are often annoyed by relentless marketing emails and ads that seem irr
 
 Proper consent management includes safeguarding customer data. You reduce the risk of data breaches by implementing robust security measures, limiting data access to authorized personnel, and monitoring for suspicious activity. Customers appreciate the peace of mind that their data is protected.
 
-[![DS-ccpa-compliance](DS-ccpa-compliance.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-ccpa-compliance](DS-ccpa-compliance.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 ### 2. Data Portability
 
@@ -77,4 +77,4 @@ Consent management is a legal requirement and a strategic business practice. It'
 
 Implementing an effective consent management system should be a top priority for any online business looking to thrive in the digital era. Your commitment to data privacy can set you apart from competitors and create long-lasting customer relationships.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-online-retail)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-online-retail)

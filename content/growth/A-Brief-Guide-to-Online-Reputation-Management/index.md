@@ -1,7 +1,7 @@
 ﻿---
 title: "A Brief Guide to Online Reputation Management (ORM)"
 date: "2021-04-30"
-coverImage: "online-reputation-management-loginradius.jpg"
+coverImage: "online-reputation-management-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -108,4 +108,4 @@ It doesn’t matter how much you focus on the overall quality of the product or 
 
 The aforementioned aspects provide the basic introduction to ORM and can be considered by businesses to begin enhancing their online brand reputation.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=a-brief-guide-to-online-reputation-management)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=a-brief-guide-to-online-reputation-management)

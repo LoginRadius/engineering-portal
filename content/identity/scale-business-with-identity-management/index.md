@@ -1,7 +1,7 @@
 ---
 title: "How to Scale Your Business Quickly with Identity Management"
 date: "2021-07-29"
-coverImage: "scale-business-with-identity-management-cover.jpg"
+coverImage: "scale-business-with-identity-management-cover.webp"
 tags: ["identity management","ciam solution","customer identity","cx"]
 author: "Rakesh Soni"
 description: "Identity management is much more than just a security mechanism for securing consumer data and sensitive business information; it helps businesses accelerate growth. Learn how a CIAM solution can help businesses securely manage consumer identities and build trust that fosters growth."
@@ -50,7 +50,7 @@ Using the LoginRadius[ Consumer Identity APIs](https://www.loginradius.com/ident
 
 With its preconfigured integration with third-party tools and applications, you can pull your latest consumer data – thus eliminating data silos and generating valuable insights.
 
-[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## Scalability- The Backbone for Any Enterprise for Digital Transformation
@@ -85,4 +85,4 @@ Businesses embarking on their digital transformation journey must consider relyi
 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=scale-business-with-identity-management)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=scale-business-with-identity-management)

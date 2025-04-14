@@ -1,7 +1,7 @@
 ---
 title: "Securing the Digital Frontier: The Power of AI in Next-Gen CIAM"
 date: "2023-03-17"
-coverImage: "power-of-ai.jpg"
+coverImage: "power-of-ai.webp"
 tags: ["artificial intelligence","compliance","ciam"] 
 author: "Zach Norton"
 description: "CIAM platforms are utilizing the power of artificial intelligence to give customers a personalized experience. This blog gives a walkthrough of some of the key roles of AI in CIAM, including personalization, security and advanced analytics."
@@ -43,7 +43,7 @@ We’ve mentioned a few use cases of AI in security, but how can you take advant
 
 You can start by following the behavioral analytics for risk-based authentication. This will help you find fraudulent or suspicious activities to ensure you never miss a fraud attempt, even if it’s unsuccessful.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### 2. Biometric Authentication
 
@@ -105,4 +105,4 @@ In the meantime, your customers will receive quick responses from the chatbots a
 
 The use of AI in CIAM will continue to evolve, providing limitless capabilities to keep businesses safe and thriving in the future.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-digital-frontier-using-ai)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-digital-frontier-using-ai)

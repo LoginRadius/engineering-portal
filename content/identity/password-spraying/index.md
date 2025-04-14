@@ -1,7 +1,7 @@
 ---
 title: "Password Spraying: What Is It And How To Prevent It?"
 date: "2021-04-07"
-coverImage: "password-spraying.jpg"
+coverImage: "password-spraying.webp"
 tags: ["data security", "mfa", "password management"]
 author: "Navanita Devi"
 description: "Password spraying is not a targeted attack, it is just one malicious actor acquiring a list of email accounts or gaining access to an active directory and attempting to sign in to all the accounts using a list of the most likely, popular, or common passwords until they get a hit. In this article, we detail what is password spraying, how to not be vulnerable to password spraying."
@@ -87,7 +87,7 @@ As we mentioned earlier, password spraying attacks cannot be prevented but defin
 
 LoginRadius introduces seamless registration and authentication for your valued users with passwordless login. LoginRadius Identity Platform is a unique CIAM platform that is fully customizable to fit your company's needs.
 
-[![passwordless-login](passwordless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![passwordless-login](passwordless-login.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 The Consumer Identity and Access Management (CIAM) platform has also proved valuable to the retail and e-commerce industry, offering seamless and scalable identity management solutions that identify and protect consumer data.
 
@@ -132,4 +132,4 @@ Password spraying attacks can be detected by monitoring login attempts and looki
 
 Preventing password spraying attacks can be done by implementing multi-factor authentication, strong password policies, and monitoring for suspicious activity on the network.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-spraying)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-spraying)

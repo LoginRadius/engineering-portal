@@ -1,7 +1,7 @@
 ﻿---
 title: "Does Your Site’s Imagery Reflect Your Brand Identity"
 date: "2021-04-09"
-coverImage: "website-branding-loginradius.jpg"
+coverImage: "website-branding-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -105,4 +105,4 @@ The perfect intermingling of text and graphics with the right choice of colors i
 
 The aforementioned aspects help businesses in enhancing brand imagery that further improves brand identity in the long run.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=does-your-website-imagery-reflect-your-brand-identity)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=does-your-website-imagery-reflect-your-brand-identity)

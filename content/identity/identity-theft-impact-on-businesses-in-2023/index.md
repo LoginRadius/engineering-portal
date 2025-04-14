@@ -1,7 +1,7 @@
 ---
 title: "Learn the Impact of Identity Theft on Businesses in 2023"
 date: "2023-07-26"
-coverImage: "identity-theft.jpg"
+coverImage: "identity-theft.webp"
 tags: ["digital identity management","cybersecurity","cx"]
 author: "Alok Patidar"
 description: "In 2023, identity theft has become a pressing concern for businesses, posing significant risks and consequences. This blog explores the implications of identity theft, including financial loss, reputational damage, and legal consequences. Discover the importance of proactive measures and cybersecurity practices to mitigate the risks."
@@ -64,7 +64,7 @@ Customers rely on businesses to protect their personal information. If a company
 
 Recovering from an identity theft incident can disrupt a business's operations. Remediation efforts, including investigating the breach, implementing security measures, and restoring affected systems. This can consume valuable resources and time, affecting productivity and profitability.
 
-[![WP-identity-theft](WP-identity-theft.png)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
+[![WP-identity-theft](WP-identity-theft.webp)](https://www.loginradius.com/resource/ciam-role-in-customer-trust/)
 
 ## Preventing and Mitigating Identity Theft
 
@@ -116,4 +116,4 @@ To mitigate the risks, businesses must prioritize cybersecurity, implement robus
 
 Remember, prevention and preparedness are key in the fight against identity theft. Stay vigilant, stay informed, and stay secure.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-theft-impact-on-businesses-in-2023)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-theft-impact-on-businesses-in-2023)

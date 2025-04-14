@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Performing Identity Blogs in 2021"
 date: "2021-12-29"
-coverImage: "performing-blogs.jpg"
+coverImage: "performing-blogs.webp"
 tags: ["LoginRadius"]
 featured: false
 author: "Navanita Devi"
@@ -125,4 +125,4 @@ Reach us to know more about LoginRadius CIAM and how it can help scale your busi
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-top-performing-blogs-2021)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-top-performing-blogs-2021)

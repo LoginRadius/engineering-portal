@@ -1,7 +1,7 @@
 ---
 title: "North Star Metric: 6 steps to discover your NSM"
 date: "2021-01-05"
-coverImage: "north-star-metrics.jpg"
+coverImage: "north-star-metrics.webp"
 category: ["all"]
 featured: false 
 author: "Archna Yadav"
@@ -38,7 +38,7 @@ A north star metric must have these three factors:
 *   **Drive Revenue**
 
 
-![north-star-metric](north-star-metric.png)
+![north-star-metric](north-star-metric.webp)
 
 
 The metrics with the above factors and contributions from product teams for improvement provide sustainable company growth and improved user experience.
@@ -59,7 +59,7 @@ By now, it's understood that NSM is a metric to drive growth. Let’s see how th
 
 A good north star metric must indicate future success, and every product should have a north star metric. While the other key metrics like monthly revenue gives you an insight into what happened in the past rather than predicting future revenue.
 
-![north-star-metric-nsm](north-star-metric-nsm.png)
+![north-star-metric-nsm](north-star-metric-nsm.webp)
 
 
 
@@ -114,4 +114,4 @@ Your company will also need to set up the right analytics tools to measure the N
 What are you waiting for? Do the exercise to lock your NSM and then see the wonders! Also, feel free to load comment sections with your questions and feedback, I will be happy to address them.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=north-star-metrics-nsm)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=north-star-metrics-nsm)

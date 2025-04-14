@@ -1,7 +1,7 @@
 ---
 title: "Beginners Guide to Tweepy "
 date: "2020-11-02"
-coverImage: "coverimage.jpg"
+coverImage: "coverimage.webp"
 author: "Sameer Mahajan"
 tags: ["Twitter","Tweepy","Python"]
 description: "Learn how to use Twitter APIs using Tweepy, a python package,"
@@ -14,18 +14,18 @@ In simple words, Tweepy is an open-source python package that provides a way for
 
 ### Installation
 Tweepy can be installed by using Python package manager **pip**. A simple demonstration can be seen below:
-![installation](installation.PNG "Installation")
+![installation](installation.webp "Installation")
 
 Installation on Linux and macOS should follow similar steps as well.
 
 
 Twitter API uses OAuth for authentication, so initially, you need to apply for authentication credentials from Twitter. These authentication credentials basically consists of 4 components namely : _consumer_key, consumer_secret_key, access_token, access_token_secret_ . These credentials from Twitter are used to instantiate the API. **Each account gets a unique key, so don't reuse someone else's keys.** 
 For getting those credentials from Twitter, apply for a developer account on the [Twitter Developers](https://developer.twitter.com/en) page.
-![twitterdev](twitterdev.PNG "Twitter Dev Dashboard")
+![twitterdev](twitterdev.webp "Twitter Dev Dashboard")
 This is what the account looks like. Here you will get detailed information about the total no. of requests made, your API credentials, and much more information. After creating an account, you need to create an app wherein you will be asked to name your app and a short description. You must be wondering what an app is? 
 The app is like a gateway that contains a set of permissions and keys used to access the Twitter API. An app is needed for accessing the Twitter API as a part of Twitter's OAuth authentication. After creating an app, generate new authentication tokens for authorization purposes.
 
-![keys](keys.PNG)
+![keys](keys.webp)
 
 ### Getting Started: Tweepy
 There are four common basic steps in any Tweepy application.

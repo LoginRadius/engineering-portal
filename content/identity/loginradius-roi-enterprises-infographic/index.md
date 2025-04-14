@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Offers Customer-Centric Capabilities that Drive ROI"
 date: "2021-11-16"
-coverImage: "roi-cover.jpg"
+coverImage: "roi-cover.webp"
 tags: ["data management","digital transformation","cx"]
 author: "Rakesh Soni"
 description: "For businesses to grow and increase their profitability, there is a need to implement robust infrastructure to aid in productivity and increase efficiency. LoginRadius helps organizations scale up security, operability, data integration, and effective data management, among others. Check out our infographic for more ROI-centric details."
@@ -24,7 +24,7 @@ To address the potential of applications growing over time, our platform is desi
 
 LoginRadius offers matchless security with password protection, account verification, auto re-authentication, [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/), multi-factor authentication, and in-built fraud email blocks. All these elements come together to form the most formidable and intelligent security system with protocols that enable access to users after thorough verification and authentication, restrict access to unauthorized elements, protect users from external threats and keep sensitive data secure.
 
-[![EB-buy-build](EB-buy-build.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![EB-buy-build](EB-buy-build.webp)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 ### #3. Seamless integration
 
@@ -40,7 +40,7 @@ LoginRadius also provides two-way sync, allowing users to synchronize data irres
 
 
 To learn more on how LoginRadius empowers businesses and delivers the utmost ROI, check out the infographic below.
-![ROI](ROI.png)
+![ROI](ROI.webp)
 
 ## Implementing Customer-Obsessed Capabilities for Your Business
 
@@ -48,4 +48,4 @@ For businesses to grow and increase their profitability, there is a need to impl
 
 LoginRadius has 35 data centers worldwide and helps companies manage the needs of 1.17 billion user identities with its efficient 24/7 support for its valued customers.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-roi-enterprises-infographic)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-roi-enterprises-infographic)

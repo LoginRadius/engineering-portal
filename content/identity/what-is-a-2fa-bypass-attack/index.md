@@ -1,7 +1,7 @@
 ---
 title: "2FA Bypass Attacks- Everything You Should Know"
 date: "2022-11-04"
-coverImage: "2fa-bypass.jpg"
+coverImage: "2fa-bypass.webp"
 tags: ["2fa bypass", "cyberattacks", "risk based authentication"]
 author: "Rakesh Soni"
 description: "2FA bypass attacks are cyberattacks intended for account takeover when hackers have already accessed the credentials of a particular account, and they bypass the second layer of authentication in several ways. This post covers how businesses can shield themselves from the growing number of such threats."
@@ -69,7 +69,7 @@ These kinds of attacks may affect the privacy of a user/employee and may result 
 
 Risk-based authentication (RBA), also called adaptive authentication, monitors consumers’ identity and access using stringent rules. The objective is to authenticate a user profile before allowing access to ensure it is not a threat. These restrictions become more stringent with increasing risks.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk-based authentication works on a model that requires permission and response. A user asks for permission to access a file or software. In response, the file or software responds by presenting options to log in using an ID and password or sending mail or OTP to a registered contact number.
 
@@ -83,4 +83,4 @@ Also, with robust security mechanisms, including risk-based authentication, busi
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-a-2fa-bypass-attack)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-a-2fa-bypass-attack)

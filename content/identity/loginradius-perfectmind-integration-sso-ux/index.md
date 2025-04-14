@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Offers PerfectMind Integration for a Seamless UX"
 date: "2021-12-14"
-coverImage: "perfectmind-cover.jpg"
+coverImage: "perfectmind-cover.webp"
 tags: ["authentication","federated sso","passwordless login"]
 author: "Jitender Agarwal"
 description: "LoginRadius’ cutting-edge single sign-on helps overcome all the challenges related to consumer experience and data integration.  Let’s understand how LoginRadius paves the path for a robust user experience by integrating PerfectMind."
@@ -30,7 +30,7 @@ Canadian municipal and community organizations were looking for a way to connect
 
 Since, PerfectMind does not support industry-standard [federated Single Sign-On](https://www.loginradius.com/blog/identity/loginradius-federated-identity-management/) methods like SAML, OAuth/OIDC, or JWT, LoginRadius offered its out-of-the-box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and the PerfectMind applications by leveraging APIs.
 
-[![DS-perfectmind-int](DS-perfectmind-int.png)](https://www.loginradius.com/resource/perfectmind-integration)
+[![DS-perfectmind-int](DS-perfectmind-int.webp)](https://www.loginradius.com/resource/perfectmind-integration)
 
 Through LoginRadius PerfectMind integration, the PerfectMind consumers are leveraging all the powerful capabilities of the cutting-edge CIAM platform, including social login, [passwordless login](https://www.loginradius.com/blog/identity/passwordless-authentication-the-future-of-identity-and-security/), single sign-on, reinforced by robust security. 
 
@@ -39,4 +39,4 @@ Through LoginRadius PerfectMind integration, the PerfectMind consumers are lever
 
 With the LoginRadius PerfectMind SSO, businesses can establish a flawless user experience by overcoming the barriers of frictionless authentication and authorization across multiple platforms/ servers. 
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-perfectmind-integration-sso-ux)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-perfectmind-integration-sso-ux)

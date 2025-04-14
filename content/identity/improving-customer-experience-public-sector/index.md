@@ -1,7 +1,7 @@
 ---
 title: "Improving Customer Experience in the Public Sector"
 date: "2018-10-26"
-coverImage: "customer-experience.jpg"
+coverImage: "customer-experience.webp"
 tags: ["data security","ciam solutions","cx"]
 author: "Rakesh Soni" 
 description: "When people think of the experience of online users, they will not consider it relevant in the public sector. LoginRadius is currently helping a variety of public sector organisations enhance their customer service in various ways."
@@ -15,7 +15,7 @@ Implementing a [customer identity and access management](https://www.loginradius
 
 ## Cities: Centralizing Municipal Services
 
-![](imgae-1.jpeg)
+![](imgae-1.webp)
 
 In an effort to increase citizen engagement, [more and more cities are moving citizen services to their online platforms](https://www.loginradius.com/resource/how-cities-use-loginradius-identity-platform/). Paying taxes, obtaining a business license, getting election information, and more can all be done online through a centralized portal. Simplifying access to these services by creating a one-stop resource for all online applications increases not only citizen engagement, but also satisfaction with government and municipal services in general.
 
@@ -23,19 +23,19 @@ The [City of Surrey](https://my.surrey.ca/), British Columbia has implemented th
 
 ## Non-Profits & NGOs: Informing Centralized Groups
 
-![](image-2.jpeg)
+![](image-2.webp)
 
 Much like cities, many NGOs and non-profit groups depend on interacting with citizens in order to inform them about various initiatives. Without the ability to reach and inform large groups of citizens, these organizations are rendered ineffective. With this communication need in mind, a positive customer experience with their digital properties is extremely important, as it can help in extending the reach of these initiatives, as well as turning online visitors into known users. From there, these groups can individually target the various groups of people they need to interact with.
 
 For example, [Zero Waste Scotland](https://www.youtube.com/watch?v=_11VIYMZh2g&list=PL3PS687CKFEFv2nlnk6NKrmbg4_zwBImw&index=3) is a government non-profit organization that promotes the government’s policy on waste and resources. With a range of users and stakeholders to reach, they needed a CIAM solution that could easily allow these various identities to interact with their multiple digital touchpoints. LoginRadius was able to build centralized profiles for each user in order to gain a complete view of how people are using their services. Leveraging our User Profiling capabilities has helped Zero Waste Scotland and other organizations understand their users and build informed campaign strategies.
 
-[![public-sector](public-sector.png)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
+[![public-sector](public-sector.webp)](https://www.loginradius.com/resource/how-public-sector-companies-use-the-loginradius-identity-platform/)
 
 Lastly, when it comes to government agencies like Zero Waste Scotland, data security is one of the main priorities, especially with cloud storage. LoginRadius complies with all major security regulations in the industry, including [GDPR](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/). We also allow customers to choose which of our 29 global data centers they want personal data to be stored in, to comply with company policies.
 
 ## Utilities: Bringing Better Information to the Customer
 
-![](image-3.jpg)
+![](image-3.webp)
 
 For most people, a utility provider represents just another bill to pay at the end of the month. Customers are often limited in the ways that they can interact with utility companies, making customer experience an afterthought. With a CIAM solution, [utility companies can transform their customer experience](https://www.loginradius.com/resource/how-utility-companies-use-loginradius-identity-solution/) by integrating with third-party applications. These integrations help them better understand their customers, offer more useful information, and deliver that information more directly.
 
@@ -43,4 +43,4 @@ One of the best examples of customer experience innovation for utilities comes f
 
 If you’re ready to see how the LoginRadius CIAM platform can help your company, [schedule your demo now](https://www.loginradius.com/schedule-demo/).
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-public-sector)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-public-sector)

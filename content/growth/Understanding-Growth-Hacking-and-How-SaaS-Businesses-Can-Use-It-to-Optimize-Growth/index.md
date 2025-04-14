@@ -1,7 +1,7 @@
 ﻿---
 title: "Growth Hacking: What it is and How SaaS Businesses Can Use it to Optimize Growth"
 date: "2021-03-30"
-coverImage: "growth-hacking-2-colorized.jpg"
+coverImage: "growth-hacking-2-colorized.webp"
 category: ["loginradius"]
 featured: false 
 author: "Shachindra Saxena"
@@ -116,7 +116,7 @@ Revenue is what remains after the cost that you invested in the acquisition of t
 
 
 
-[![consumer-audit-trail](consumer-audit-trail.jpg)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![consumer-audit-trail](consumer-audit-trail.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 ## Beginner's Guide to Start With Growth Hacking
 
@@ -156,7 +156,7 @@ As you kickstart your business, set specific goals that you aim to achieve. For 
 Growth hacking  is based on analyzing data and implementing tasks based on the results. The data will dictate the prospect of the company. For example, if a SaaS company has a [retention rate of more than 35%](https://mixpanel.com/topics/whats-a-good-retention-rate/) then it is considered faring well.
 
 
-![Types_of_Data_Analysis_Methods--colorized](Types_of_Data_Analysis_Methods--colorized.jpg)
+![Types_of_Data_Analysis_Methods--colorized](Types_of_Data_Analysis_Methods--colorized.webp)
 
   
 
@@ -252,7 +252,7 @@ Another one of the case studies of growth hacking  is Dropbox. It offered 16 GB 
 
 Growth hacking is not a string of strategies that can be taught. It won't be wrong to call it a mindset one gains when their only focus is the business's growth. With affordable techniques suitable even for start-ups and analysis of the data, one can achieve millions of users in the least period.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-growth-hacking-and-how-saas-businesses-can-use-it-to-optimize-growth)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-growth-hacking-and-how-saas-businesses-can-use-it-to-optimize-growth)
 
 
 

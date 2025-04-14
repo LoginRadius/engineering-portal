@@ -1,7 +1,7 @@
 ---
 title: Email Verification API (EVA)
 date: "2020-08-31"
-coverImage: "eva.png"
+coverImage: "eva.webp"
 author: "Aman Agrawal"
 tags: ["Free tool","Developer Resources ","Verification", "Email"]
 description: "Email authentication, being the traditional way of authentication and used most widely. Increase in the spams has also increased the disposable email registrations. To reduce and identify such unwanted users, EVA(Email Verification API) is the tool, developed by LoginRadius developers."

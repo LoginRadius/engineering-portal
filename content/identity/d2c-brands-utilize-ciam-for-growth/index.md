@@ -1,7 +1,7 @@
 ---
 title: "Why Direct-to-Consumer (D2C) Businesses Must Take A Strategic Approach To CIAM?"
 date: "2023-02-10"
-coverImage: "d2c.jpg"
+coverImage: "d2c.webp"
 tags: ["direct to consumer", "authentication", "ciam"]
 author: "Nicholas Woodward"
 description: "The greatest value for direct-to-consumer companies comes from creating a valuable, seamless experience. In this blog we will discuss how CIAM allows D2C companies to improve the customer journey directly."
@@ -45,7 +45,7 @@ Along with being secure, CIAM can also be adaptive. You can assign different cri
 
 A few D2C brands also have brick-and-mortar retail outlets. With CIAM, the store can access details about the customers to provide a better experience. The customer can also use their digital identity to purchase at the store. This will add their in-store purchase to the online order history.
 
-[![EB-Omnichannel-world](EB-Omnichannel-world.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-Omnichannel-world](EB-Omnichannel-world.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 A CIAM system will ensure that all the information concerning a customer remains associated with one user identity. On the user’s end, it ensures a consistent brand experience across all channels. The customers can also begin the purchase journey on one device and complete it on another.
 
@@ -68,7 +68,7 @@ CIAM helps you understand the behavior and preferences of the customer. Based on
 You can find such opportunities for personalization in marketing and sales. You can use data to suggest products according to the customer’s preferences. You can identify upselling and cross-selling opportunities. These insights can also help you design offers or packages for different customers.
 
 
-![2](2.png)
+![2](2.webp)
 
 
 **_Image: Major benefits of personalizing customer experiences  (Evergage)_**
@@ -81,7 +81,7 @@ For instance, if a person has bought a skirt from your D2C store. You can sugges
 Online customers do not like complex sign-in or check-out processes. It is one of the biggest reasons for eCommerce cart abandonment and high bounce rates. An eCommerce platform with too many security measures usually creates a complex check-in process. On the other hand, customers also do not trust platforms without security measures either.
 
 
-![3(1)](3(1).png)
+![3(1)](3(1).webp)
 
 
 **_Image: Reasons for abandonment during check out (Baymard Institute)_**
@@ -99,4 +99,4 @@ A CIAM system works well for the customers as well as the sellers. It grants con
 
 Additionally, the CIAM also helps D2C brands control each interaction with their customers. It helps create an easy, secure, and personalized customer experience.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=d2c-brands-utilize-ciam-for-growth)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=d2c-brands-utilize-ciam-for-growth)

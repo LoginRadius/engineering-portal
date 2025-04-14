@@ -1,7 +1,7 @@
 ﻿---
 title: "Single Sign-On- A Beginner’s Guide"
 date: "2021-03-23"
-coverImage: "sso-loginradius.jpg"
+coverImage: "sso-loginradius.webp"
 tags: ["single sign on","data security","cx"]
 author: "Ashish Kumar Yadav"
 description: "The beauty of single sign-on lies in its simplicity. The feature authenticates you on a one-on-one designated platform, allowing you to utilize tons of available services without having to login and logout every time. Consumers can think of this as similar to the social sign-in via Google, Facebook, Twitter, etc."
@@ -26,7 +26,7 @@ Today, a single consumer interacts with various apps/websites which require them
 
 Unfortunately, when it comes to the protection of such data, 100% prevention is never possible. However, there are various methods to reduce this breach possibility to a bare minimum. One such way is Single Sign-On.
 
-[![Single-sign-on-loginradius](DS-LoginRadius-Single-Sign-on.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![Single-sign-on-loginradius](DS-LoginRadius-Single-Sign-on.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## What is Single Sign-On
 
@@ -72,4 +72,4 @@ In this article, we talked about applying a simple approach of using Single Sign
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-sign-on-a-beginners-guide)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-sign-on-a-beginners-guide)

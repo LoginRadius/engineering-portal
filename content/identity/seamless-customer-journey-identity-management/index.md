@@ -1,7 +1,7 @@
 ---
 title: "How to Use Identity Management at Every Stage of the Customer Journey?"
 date: "2023-02-28"
-coverImage: "identity-mngmnt.jpg"
+coverImage: "identity-mngmnt.webp"
 tags: ["identity management", "progressive profiling", "passwordless login"]
 author: "Yash Rathi"
 description: "While leveraging personalization at every stage of the customer journey can enhance customer experience and unwind great opportunities, it also ensures returning customers and more referrals. This blog highlights the role of identity management throughout the customer journey and how it helps businesses streamline user experience backed with security."
@@ -55,7 +55,7 @@ CIAM for customers can provide a passwordless experience and an adaptive access 
 
 Passwordless authentication provides a streamlined login experience using the customer’s device (something you have) and a biometric, typically via facial recognition or a smartphone’s fingerprint reader (something you are). 
 
-[![DS-PL-magic-link](DS-PL-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-PL-magic-link](DS-PL-magic-link.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 The customer does not need to remember overly complex passwords or tap into a clunky password manager for help.
 
@@ -97,4 +97,4 @@ Customer experience is vital to many aspects of your business and the success of
 
 Customer experience and customer journey have been codified in our industry, but changes are still happening in this brave new world under which many struggles to adapt. To build personalized and engaging customer journeys, you must consider using a cutting-edge CIAM solution. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=seamless-customer-journey-identity-management)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=seamless-customer-journey-identity-management)

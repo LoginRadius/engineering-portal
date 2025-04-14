@@ -1,7 +1,7 @@
 ---
 title: "A Journey Through Our Top 10 Blogs from 2023"
 date: "2023-12-20"
-coverImage: "top-blog.jpg"
+coverImage: "top-blog.webp"
 tags: ["identity blogs","growth blogs","ciam solutions"]
 author: "Vishal Sharma"
 description: "Embark on a journey through our top 10 blogs from 2023, where we unravel the complexities of CIAM, explore security measures, and delve into growth strategies. Learn about the importance of multi-factor authentication, cloud tenancy nuances, and user management. These blogs provide indispensable insights to secure your business and drive substantial growth."
@@ -108,4 +108,4 @@ The aforementioned blogs offer valuable insights into the CIAM landscape, provid
 
 Feel free to contact us to delve deeper into [LoginRadius CIAM ](https://www.loginradius.com/)and discover how it can effectively propel your business growth, even in unpredictable circumstances.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-blogs-2023)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-blogs-2023)

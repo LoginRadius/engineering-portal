@@ -1,7 +1,7 @@
 ---
 title: "Ajax and XHR using plain JS"
 date: "2020-09-22"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Apeksha Gupta"
 tags: ["XHR", "JavaScript", "AJAX"]
 description: "Learn the concept of AJAX and XHR in JavaScript, the benefits of AJAX, and how easy it is to implement the AJAX into our web application."
@@ -13,7 +13,7 @@ description: "Learn the concept of AJAX and XHR in JavaScript, the benefits of A
 
 **XHR** is the XMLHttpRequest Object which interacts with the server. Ajax technique in the nutshell leverages the XHR request to send and receive data from the webserver. This object is provided by the browser’s javascript environment. It transfers the data between the web browser and server.
 
-![Ajax Call](ajax.png)
+![Ajax Call](ajax.webp)
 
 #### Key technologies for incorporating AJAX - 
 - HTML DOM(document object model)

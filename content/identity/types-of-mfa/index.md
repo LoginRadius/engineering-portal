@@ -1,7 +1,7 @@
 ---
 title: "Types of Multi Factor Authentication & How to Pick the Best"
 date: "2025-02-28"
-coverImage: "types-of-mfa.jpg"
+coverImage: "types-of-mfa.webp"
 tags: ["Identity Management","User Authentication","CIAM Security"]
 author: "Kundan Singh"
 description: "Cyber threats are evolving, and passwords alone aren't enough. Multi-Factor Authentication (MFA) adds extra layers of security by requiring multiple verification methods. Explore different MFA types—from biometrics to passkeys—and find the best authentication strategy for your needs."
@@ -163,7 +163,7 @@ Selecting the appropriate MFA authentication method for your business needs depe
 
 If you want a detailed guide on MFA best practices, download this insightful guide:
 
-[![OTP verification screen displaying a secure login process via SMS. User enters a one-time password (OTP) sent to a masked phone number. A 'Verification Successful' message confirms authentication.](authenticateyour-customers-digital-assets-with-mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![OTP verification screen displaying a secure login process via SMS. User enters a one-time password (OTP) sent to a masked phone number. A 'Verification Successful' message confirms authentication.](authenticateyour-customers-digital-assets-with-mfa.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
   
 

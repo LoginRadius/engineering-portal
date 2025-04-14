@@ -5,7 +5,7 @@ module.exports = {
     description: "Company Updates, Technology Articles from LoginRadius",
     siteUrl: "https://www.loginradius.com",
     feedUrl: "https://www.loginradius.com/blog",
-    image: "/async.svg",
+    image: "/async.webp",
     owner: "LoginRadius",
     footerLinks: [
       {
@@ -129,7 +129,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/lr-icon.png`,
+        icon: `content/assets/lr-icon.webp`,
       },
     },
     `gatsby-plugin-react-helmet`,

@@ -1,7 +1,7 @@
 ---
 title: "Strengthening Your Business Security: 7 Key User Access Management Best Practices"
 date: "2024-05-14"
-coverImage: "user-access-mngmnt.jpg"
+coverImage: "user-access-mngmnt.webp"
 tags: ["user access management","data security","cx"]
 author: "Rakesh Soni"
 description: "Strengthen your business security with proven user access management strategies. Discover how role-based access control, regular permission reviews, and strong password policies can safeguard your sensitive data and ensure compliance with regulations."
@@ -42,7 +42,7 @@ Additionally, consider implementing [multi-factor authentication](https://www.lo
 
 With risk-based authentication, businesses can define adaptive authentication policies that tailor authentication requirements based on the assessed risk level. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 For low-risk access attempts, users may only need to provide basic credentials, while high-risk attempts may trigger additional authentication factors, such as biometric verification or one-time passwords.
 
@@ -70,4 +70,4 @@ Optimizing business security requires a proactive approach to user access manage
 
 Prioritize security and invest in comprehensive user access management strategies to protect your business from evolving cyber threats.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-access-management-business-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-access-management-business-security)

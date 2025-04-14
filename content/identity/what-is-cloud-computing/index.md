@@ -1,7 +1,7 @@
 ---
 title: "What is Cloud Computing?"
 date: "2022-05-24"
-coverImage: "cloud-computing.jpg"
+coverImage: "cloud-computing.webp"
 tags: ["cloud computing", "cloud security", "cx"]
 author: "Manish Tiwari"
 description: "The concept of cloud computing has offered endless possibilities to businesses since enterprises can avoid several upfront costs and can quickly rent access to any application or storage from a cloud provider. This post uncovers the role of cloud computing in shaping the future of a digitally-advanced modern world."
@@ -101,7 +101,7 @@ Edge computing brings processing power closer to data sources, enabling real-tim
 
 Artificial intelligence (AI) and machine learning (ML) will play a pivotal role in the future of cloud computing, with cloud platforms offering scalable and accessible AI and ML capabilities. As technology progresses, cloud computing will remain at the forefront, revolutionizing industries and driving digital transformation.
 
-[![EB-cloud-computing](EB-cloud-computing.png)](https://www.loginradius.com/resource/why-is-loginradius-your-best-cloud-identity-partner/)
+[![EB-cloud-computing](EB-cloud-computing.webp)](https://www.loginradius.com/resource/why-is-loginradius-your-best-cloud-identity-partner/)
 
 
 ## What is Single Tenant Cloud Architecture?
@@ -159,4 +159,4 @@ Public cloud is shared infrastructure accessible to the public, while private cl
 
 By implementing robust security measures, encryption, and compliance with relevant regulations.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-computing)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-computing)

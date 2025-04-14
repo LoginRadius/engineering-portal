@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Bans Video Conferencing App ‘Zoom’ Over Security Concerns"
 date: "2020-04-23"
-coverImage: "LoginRadius-Bans-Zoom.jpg"
+coverImage: "LoginRadius-Bans-Zoom.webp"
 tags: ["industry-news"]
 featured: false 
 author: "Rakesh Soni"
@@ -38,4 +38,4 @@ There is virtually no alternative to securing customer data than adopting string
 
 We are always on the lookout to counter any disruption rising from potential threats that may affect our customers. We assure that personal assets remain protected, and we respond quickly in the event of a disaster.
 
-[![](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-bans-zoom)
+[![](Book-a-demo-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-bans-zoom)

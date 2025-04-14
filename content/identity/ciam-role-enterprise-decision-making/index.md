@@ -1,7 +1,7 @@
 ---
 title: "The Changing Role of Identity Management in Enterprise Decision-Making"
 date: "2021-05-11"
-coverImage: "ciam-role-enterprise-decision-making-cover.jpg"
+coverImage: "ciam-role-enterprise-decision-making-cover.webp"
 tags: ["identity management","data security","cx"]
 author: "Vishal Sharma"
 description: "The increasingly sophisticated audience now considers digital interactions as the sole mechanism for interacting with brands. Let’s learn how an identity management solution helps these brands to deliver rich user experiences backed by adequate data security."
@@ -48,7 +48,7 @@ This not only helps in building trust over potential clients but eventually lend
 
 So, next time you’re thinking of delivering a rich consumer experience with the highest level of data security, get a CIAM in place.
 
-[![modern-customer-identity](modern-customer-identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![modern-customer-identity](modern-customer-identity.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ## Consumer On-Boarding
 
@@ -72,4 +72,4 @@ Consumer identity and access management solutions help businesses achieve their 
 
 In simple words, a modern CIAM solution is undoubtedly paving the path for a rich consumer experience that leads to more subscriptions and sign-ups.  
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-role-enterprise-decision-making)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-role-enterprise-decision-making)

@@ -1,7 +1,7 @@
 ---
 title: "Three Ways to do CRUD Operations On Redis"
 date: "2020-10-21"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Chris Yee"
 tags: ["Redis", "NodeJs", "CLI", "GUI"]
 description: "Start working with Redis in three different ways."
@@ -19,17 +19,17 @@ For users that do not like working with command-line interfaces, the first tool 
 
 After installing and running the application, you will add the connection information for your Redis instance. If running a local instance of Redis, the connection information in the image will typically suffice. If connecting to a remote instance, you might need to fill in some additional details for TLS, such as connection certificates.
 
-![Connect](connect.png)
+![Connect](connect.webp)
 
 When connected to your Redis instance, the dashboard UI appears. Clicking the Browser sidebar tab will display all existing keys in your database.
 
-![Browser](browser.png)
+![Browser](browser.webp)
 
 From here, CRUD operations are relatively straightforward. Key-value pair creation can be done by using the ADD KEY button. This will prompt for the type of key-value pair to be added (Hash, String, JSON, etc.) and the data that will be stored with the key.
 
 If a specific key is required to be queried, fill in the field next to the blue filter icon with search criteria, then click the icon. It will prompt the type of data stored with the key, and the results will be displayed.
 
-![Filter](filter.png)
+![Filter](filter.webp)
 
 Finally, keys can be deleted by clicking the trash can icon on the right side.
 

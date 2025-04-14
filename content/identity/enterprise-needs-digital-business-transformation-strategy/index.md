@@ -1,7 +1,7 @@
 ---
 title: "Why Your Enterprise Needs a Digital Business Transformation Strategy"
 date: "2018-11-26"
-coverImage: "rawpixel-579231-unsplash-1.jpg"
+coverImage: "rawpixel-579231-unsplash-1.webp"
 tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni" 
@@ -23,7 +23,7 @@ By 2020, businesses will have to develop new digital experiences and unique onli
 
 #### Digital capabilities are lagging
 
-![](rawpixel-570911-unsplash-e1543257473342.jpg)
+![](rawpixel-570911-unsplash-e1543257473342.webp)
 
 Additional Gartner data highlights the challenges that come with this changing landscape. Over half of all enterprises surveyed have less than expert-level capabilities for implementing or updating critical digital platforms, such as managing data systems for analytics and modernizing technology ecosystems to better serve users.
 
@@ -37,7 +37,7 @@ Imagine an online portal and an accompanying mobile app where customers have to 
 
 ## Customer Identity Management to Drive Revenue Growth
 
-![](damian-zaleski-843-unsplash.jpg)
+![](damian-zaleski-843-unsplash.webp)
 
 So how can you make sure that your organization stays ahead of the curve with a business digital transformation when faced with resource challenges and competitor pressure?
 
@@ -65,7 +65,7 @@ But what does this kind of digital identity strategy look like?
 
 #### Identity convergence: responding to the new, diverse customer
 
-![](daniel-gzz-105307-unsplash.jpg)
+![](daniel-gzz-105307-unsplash.webp)
 
 In today’s globalized world, your customers are no longer _merely_ customers when they access your digital services. Instead, they converge from multiple persona types:
 
@@ -87,7 +87,7 @@ A central, cloud-based solution to handle all of your customer identity needs ca
 
 #### “Device identity”: growing when the internet is everywhere
 
-![](bence-boros-573486-unsplash.jpg)
+![](bence-boros-573486-unsplash.webp)
 
 With the emergence of the internet of things and myriad mobile devices on the market, taking advantage of identity-based opportunities around all of the devices and electronic items can make the difference in leading the pack among your competitors or constantly having to play catch-up.
 
@@ -99,7 +99,7 @@ Whatever the device and the customer’s need, your organization has to prepare 
 
 ## Customer Identity and Access Management (CIAM)
 
-![](heidi-sandstrom-173946-unsplash.jpg)
+![](heidi-sandstrom-173946-unsplash.webp)
 
 Planning for Gartner’s 2020 threshold for digital transformation need not be a daunting task after all. A [B2C CIAM solution](https://www.loginradius.com/customer-identity-management-b2c-ciam/) for your company is an example of a cloud-based, holistic solution to store, manage, and secure all of your customer data and identities.
 
@@ -111,4 +111,4 @@ With the right CIAM platform, for example, you can track your customer’s entir
 
 If you’re interested in learning how a cloud-based CIAM solution can help your enterprise transform your digital infrastructure, download [4 Key Entry Points to a Digital Transformation](https://www.loginradius.com/resource/4-key-entry-points-to-a-digital-transformation/). This e-book features case studies for each specific entry point to help you understand how a best-of-breed identity platform could provide value to you.
 
-[![](4-key-entry-points-to-digital-transformation-1024x310.png)](https://www.loginradius.com/resource/4-key-entry-points-to-a-digital-transformation/)
+[![](4-key-entry-points-to-digital-transformation-1024x310.webp)](https://www.loginradius.com/resource/4-key-entry-points-to-a-digital-transformation/)

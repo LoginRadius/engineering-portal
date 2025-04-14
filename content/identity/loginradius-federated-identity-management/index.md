@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Simplifies the Implementation of Federated SSO With Federated Identity Management"
 date: "2020-10-15"
-coverImage: "fim-image.jpg"
+coverImage: "fim-image.webp"
 tags: ["industry-news"]
 featured: false 
 author: "Kundan Singh"
@@ -19,7 +19,7 @@ The recently launched Federated Identity Management by LoginRadius is an arrange
 
 Federated Identity Management by LoginRadius helps businesses and applications use a single set of identity data. Consumers need not create multiple accounts for multiple organizations to access their web applications. These applications do not  communicate with each other directly and standard SSO protocols like JWT, SAML, OAuth 2.0, OIDC etc are used to establish the communication.
 
-[![Federated Identity Management](DS-Product-Federated-Identity-Management-1.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![Federated Identity Management](DS-Product-Federated-Identity-Management-1.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 [Federated Identity Management](https://www.loginradius.com/federated-sso/) is designed by LoginRadius to help your business in the following ways: 
 
@@ -33,7 +33,7 @@ Federated Identity Management by LoginRadius helps businesses and applications u
 
 **Key Capabilities of Federated Identity Management by LoginRadius**
 
-![Federated Identity Management Features](image-2.png)
+![Federated Identity Management Features](image-2.webp)
 
 1\. **Support for industry-standard SSO protocols**: LoginRadius supports the following standard SSO protocols: 
 
@@ -53,4 +53,4 @@ Federated Identity Management by LoginRadius helps businesses and applications u
 
 Federated Identity Management by LoginRadius is a way to connect multiple web applications and services using the same identity data. It’s a many to one mapping to help your consumers access your business and partners with a single credential set.   
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-federated-identity-management)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-federated-identity-management)

@@ -1,7 +1,7 @@
 ---
 title: "Login Box Dilemma: Is it Boosting Your Brand or Driving Users Away?"
 date: "2023-05-29"
-coverImage: "login-box.jpg"
+coverImage: "login-box.webp"
 tags: ["social login", "authentication", "compliance","mfa","cx"]
 author: "Vishal Sharma"
 description: "Discover the transformative role of social login in creating seamless user experiences. Explore how the overlooked login box can impact user engagement and retention. Learn how social login simplifies registration, saves time, and leverages user data for personalization. Strike the right balance between convenience and privacy to captivate users and boost your brand."
@@ -31,7 +31,7 @@ However, the login box serves as the gateway for users to access your platform, 
 
 On the other hand, a well-designed login box coupled with a quick authentication mechanism like social login, which is visually appealing, user-friendly, and streamlined, can enhance user satisfaction and encourage them to continue engaging with your platform.
 
-[![EB-Login-Box](EB-Login-Box.png)](https://www.loginradius.com/resource/unified-login-box-for-customers)
+[![EB-Login-Box](EB-Login-Box.webp)](https://www.loginradius.com/resource/unified-login-box-for-customers)
 
 ## The Role of Social Login in Seamless User Experiences
 
@@ -71,4 +71,4 @@ Your platform’s login is critical to crafting a seamless user experience. And 
 
 However, offering alternative registration options and prioritizing user privacy and data security is essential. By striking the right balance, businesses can boost their brand and retain users, ensuring a positive and engaging customer journey from the first interaction. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-login-box-for-seamless-user-experience)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-login-box-for-seamless-user-experience)

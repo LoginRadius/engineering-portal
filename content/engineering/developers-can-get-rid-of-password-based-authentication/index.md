@@ -1,7 +1,7 @@
 ---
 title: "When Can Developers Get Rid of Password-based Authentication?"
 date: "2022-01-31"
-coverImage: "password-dev.png"
+coverImage: "password-dev.webp"
 author: "Kundan Singh"
 tags: ["Authentication"]
 description: "Authentication remains at the core of any application with user data and accounts. It ensures that only the authorized person is accessing the data and account. So far, Password-based authentication has been prevalent that developers mostly use."

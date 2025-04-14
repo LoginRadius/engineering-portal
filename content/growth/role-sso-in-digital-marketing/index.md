@@ -1,7 +1,7 @@
 ---
 title: "The Critical Role of SSO in Reshaping Digital Marketing Landscape"
 date: "2023-02-10"
-coverImage: "sso.jpg"
+coverImage: "sso.webp"
 tags: ["sso","ciam platform","customer retention"]
 author: "Vishal Sharma"
 description: "With SSO, enterprises can understand their target audience's needs, preferences, and behavior when they land on their platform for the first time. And this helps them in creating winning digital marketing campaigns to foster growth."
@@ -61,7 +61,7 @@ Another thing SSO does is reduce barriers for users. By leveraging single sign-o
 
 That means one login, one set of credentials, and one consistent experience—and we all know how important consistency is when converting new users. 
 
-[![DS-native-mob-app](DS-native-mob-app.png)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
+[![DS-native-mob-app](DS-native-mob-app.webp)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
 
 ### 4. Helps Craft Personalized Experiences 
 
@@ -77,4 +77,4 @@ While SSO offers a convenient, secure, and efficient way for users to access mul
 
 Brands that are thinking about accelerating their digital marketing efforts shouldn’t wait, and just put their best foot forward in implementing SSO into their website/mobile applications. 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-sso-in-digital-marketing)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-sso-in-digital-marketing)

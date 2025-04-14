@@ -1,7 +1,7 @@
 ---
 title: "Decoding the Rise of Zero-Trust Adoption in Government Sector"
 date: "2024-06-24"
-coverImage: "govt-sector.jpg"
+coverImage: "govt-sector.webp"
 tags: ["zero-trust security","cybersecurity","data security"]
 author: "Kundan Singh"
 description: "As cyber threats become increasingly sophisticated, government sectors turn to Zero-Trust architecture to revolutionize their cybersecurity measures. This strategy is crucial for safeguarding sensitive information and maintaining national security."
@@ -56,7 +56,7 @@ Implementing Zero-Trust architecture in government sectors offers numerous benef
 
 * **Improved Visibility**: Zero-Trust provides comprehensive visibility into network traffic, user activity, and device behavior, enabling faster detection and response to threats.
 
-[![WP-zero-trust-security-2](WP-zero-trust-security-2.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-business-2/)
+[![WP-zero-trust-security-2](WP-zero-trust-security-2.webp)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-business-2/)
 
 * **Reduced Attack Surface**: Micro-segmentation and least privilege access reduce the potential impact of a breach by limiting the reach of attackers within the network.
 
@@ -90,4 +90,4 @@ By embracing Zero-Trust, government agencies can better protect sensitive data, 
 
 Zero trust is not just a trend but a necessary evolution in the ongoing battle against cyber threats. The journey towards full Zero-Trust implementation may be challenging, but the benefits far outweigh the obstacles, paving the way for a more secure and resilient government infrastructure.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-cybersecurity-government-sector)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-cybersecurity-government-sector)

@@ -1,7 +1,7 @@
 ---
 title: "How to Implement OpenID Connect (OIDC) SSO with LoginRadius?"
 date: "2024-05-30"
-coverImage: "implementing-oidc-sso.png"
+coverImage: "implementing-oidc-sso.webp"
 author: "Sanjay Velu"
 tags: ["SSO", "OIDC", "LoginRadius"]
 description: "In this tutorial, you will learn how to implement Single Sign-On (SSO) using OpenID Connect (OIDC) with LoginRadius as your Identity Provider."
@@ -33,18 +33,18 @@ After setting up the OIDC app from the LoginRadius dashboard, you'll use the [`g
 
 Go to [OIDC Application Configuration](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/openid-connect) and click on **Add App button**
 
-![OIDC App Configuration](OIDC-App.jpeg)
+![OIDC App Configuration](OIDC-App.webp)
 
 Enter the **App name** and click one of the following:
 
 **Native App**, **Single page App** or **Web App** according to your application.
 
 
-![OIDC App Setup](App-Setup.jpeg)
+![OIDC App Setup](App-Setup.webp)
 
 After clicking the **Create** button, you'll get the OIDC application configuration page. This page contains details like your application's **Client ID** and **Client Secret**, which are necessary for setting up the OIDC provider and configuration when you code in Golang.
 
-![OIDC APP Credentials](App-Credentials.jpeg)
+![OIDC APP Credentials](App-Credentials.webp)
 
 #### Upon reaching the configuration page for your OIDC Application, you'll encounter a variety of fields ripe for customization:
 
@@ -72,7 +72,7 @@ To ensure seamless redirection of requests and successful callbacks to your endp
 1) Click on the __Add New Site__ button.
 2) Enter the domain name of the website (example: "`https://localhost:8080`").
 
-![Whitelisting Domain Name](Whitelisting-Domain.jpeg)
+![Whitelisting Domain Name](Whitelisting-Domain.webp)
 
 
 ### Whitelisting Domain from OIDC Application Configuration

@@ -1,7 +1,7 @@
 ---
 title: "The Future of Authentication is Passwordless With Magic links"
 date: "2021-05-05"
-coverImage: "passwordless-magic-links-cover.jpg"
+coverImage: "passwordless-magic-links-cover.webp"
 tags: ["passwordless login","authentication","cx"]
 author: "Navanita Devi"
 description: "By opting to add the magic link feature to your mobile apps or email accounts, you are likely trying to make your mobile app or site user-friendly, contributing to a strong security strategy. Here are some reasons for which you can opt passwordless magic links."
@@ -82,7 +82,7 @@ Though there are numerous benefits of using a passwordless magic link, there are
 
 Another challenge you might face with magic link apps is that the admins have no control over link sharing. Regardless of the user, admins are unable to keep track of the confidential or sensitive information shared with others. Apart from these challenges the major one is the increased cyber-attacks with nearly [7K global data breaches ](https://thepaypers.com/thought-leader-insights/goodbye-passwords-passwordless-authentication-is-here-to-stay--1245019)in 2019 that risked about 15 billion user records.
 
-[![DS-Product-Passwordless-Login-1024x310](DS-Product-Passwordless-Login-1024x310.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-Product-Passwordless-Login-1024x310](DS-Product-Passwordless-Login-1024x310.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 ## Examples of When Magic Links Are Used
 
@@ -138,4 +138,4 @@ Yes, magic links enhance security by mitigating password-related risks like brea
 
 Developers program the system to generate a one-time-use magic link upon user request, ensuring secure authentication without passwords.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-magic-links)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-magic-links)

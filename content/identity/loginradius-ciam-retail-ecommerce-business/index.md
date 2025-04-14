@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Help Retail and E-commerce Industry to Manage Customer Identities"
 date: "2020-04-08"
-coverImage: "retail-ecommerce.jpg"
+coverImage: "retail-ecommerce.webp"
 tags: ["ciam solution","compliance","cx"]
 author: "Rakesh Soni"
 description: "As the retail and e-commerce industry enters the modern digitalization age, a giant leap forward has been made by consumer experience when engaging with a brand. In reality, it has moved goods and services into the overall shopping experience as a secondary entity. For customers, they are no longer the motivating impetus to approach a store."
@@ -63,7 +63,7 @@ Among its solutions include the real-time ability for visitors to self-register 
 
 Retailers can manage customer profiles and provide a [personalized omnichannel experience](https://www.loginradius.com/blog/2020/04/omnichannel-customer-experience/) with consent and other preferences.
 
-![improving registration and authentication with loginradius](loginradius-ciam-retail-ecommerce-business-1.jpg)
+![improving registration and authentication with loginradius](loginradius-ciam-retail-ecommerce-business-1.webp)
 
 ### Improving Registration and Login Options
 
@@ -85,7 +85,7 @@ The concept of progressive profiling is getting a lot of attention these days. S
 
 Here's how this works. For example, you want some details from your customers to customize the end-user experience, or you want their consent to use some of your services, but you are afraid of losing them by asking to fill a long registration form. 
 
-[![](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius-Identity-Platform-1024x310.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![](How-Retail-Consumer-Goods-Companies-Use-the-LoginRadius-Identity-Platform-1024x310.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 Progressive profiling will do wonders here. For instance, when the customer has placed the first three orders, you can ask them to fill in a small questionnaire. They will more likely answer about their preferences at this stage rather than during the registration.
 
@@ -103,7 +103,7 @@ LoginRadius simplifies the shopper registration process with social sign-in and 
 
 **Single Sign-On:** It means a customer can access multiple accounts with a [single set of credentials](https://www.loginradius.com/blog/2019/05/what-is-single-sign-on/). It offers ease of authentication and reduces the risk of minimizing poor password habits.
 
-![customer and data security with loginradius](loginradius-3-1024x560.jpg)
+![customer and data security with loginradius](loginradius-3-1024x560.webp)
 
 ### Providing Customer Security
 
@@ -127,7 +127,7 @@ The LoginRadius identity platform protects customers and retailers from attacks 
 
 For any retailer, account management, verification, and password management is a huge deal. But when it comes to relying on an identity management provider platform, account management seems tricky and often falls short of expectations.
 
-![account security best practice for retail and ecommerce industry](loginradius-ciam-4-1024x620.jpg)
+![account security best practice for retail and ecommerce industry](loginradius-ciam-4-1024x620.webp)
 
 LoginRadius offers the following security benefits in the e-commerce spectrum.
 
@@ -142,4 +142,4 @@ Security and seamless customer experience in the retail and e-commerce industry 
 
 But, there is no magic formula for mastering security. So, if you are not careful, you can lose your customers' trust. Plan and give your shoppers a hassle-free experience with your brand, every time.
 
-[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-retail-ecommerce-business)
+[![](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-retail-ecommerce-business)

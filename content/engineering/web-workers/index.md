@@ -1,7 +1,7 @@
 ---
 title: "Web Workers in JS - An Introductory Guide"
 date: "2020-12-28"
-coverImage: "unsplash.png"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["Web Workers"]
 description: "Learn how to use JavaScript web workers to create parallel programming and execute multiple operations concurrently rather than interconnecting them."

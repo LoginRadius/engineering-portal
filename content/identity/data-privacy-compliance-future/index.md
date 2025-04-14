@@ -1,7 +1,7 @@
 ---
 title: "What Brands Need to Know for Building the Future of Data Compliance?"
 date: "2022-08-31"
-coverImage: "compliance.jpg"
+coverImage: "compliance.webp"
 tags: ["data privacy", "enterprises", "compliance"]
 author: "Rakesh Soni"
 description: "Unlike the conventional times when brands used to collect heaps of customer data without their consent, organizations must first build trust in clients before expecting even a bit of detail. Let’s look at some aspects that can help organizations stay ahead of the curve by leveraging digital privacy for compliance management."
@@ -47,7 +47,7 @@ Due to increased regulations, including the EU’s GDPR and the United States’
 
 Also, the increased number of cybersecurity threats pertaining to customers’ crucial information has impacted businesses; businesses must incorporate a robust security mechanism for better protection. 
 
-[![ccpa-ds](ccpa-ds.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![ccpa-ds](ccpa-ds.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
  
 
@@ -76,4 +76,4 @@ And with LoginRadius CIAM, businesses need not worry about getting compliant wit
 Need help in getting compliance-ready? [Reach us](https://www.loginradius.com/contact-sales/) for a free consultation today. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-compliance-future)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-compliance-future)

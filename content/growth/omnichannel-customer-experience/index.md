@@ -1,7 +1,7 @@
 ---
 title: "Deliver Exceptional Omnichannel Customer Experience [Infographic]"
 date: "2020-04-01"
-coverImage: "omnichannel-experience.jpg"
+coverImage: "omnichannel-experience.webp"
 tags: ["omnichannel cx","ciam solution","convenience"]
 author: "Rakesh Soni"
 description: "A multifold approach to advertising, selling, and helping consumers through various marketing touchpoints is an omnichannel consumer experience. To learn more, check out the infographic."
@@ -46,7 +46,7 @@ All-in-all, a brand that advocates the omnichannel customer experience module sh
 
 That being said, the following are a few industry figures that will highlight the importance of omnichannel customer experiences in the new world.
 
-[![](omnichannel-customer-experience-whitepaper-1024x310.jpg)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![](omnichannel-customer-experience-whitepaper-1024x310.webp)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 ## Omnichannel customer experience statistics
 
@@ -69,7 +69,7 @@ While the obvious benefit includes producing a consistent customer experience ac
 - It allows brands to interact with customers in real-time.
 - It enhances [shopping experiences by redefining](https://www.loginradius.com/blog/2018/11/improving-customer-experience-in-the-retail-e-commerce-industry/) personalized customer engagements as we know it.
 
-![Stats of businesses investing in customer experience](omnichallel-2.png)
+![Stats of businesses investing in customer experience](omnichallel-2.webp)
 
 ## The Role of LoginRadius in Building an Omnichannel Customer Experience
 
@@ -83,10 +83,10 @@ Along with robust data security, it offers the following capabilities for delive
 
 To learn more about the omnichannel customer experience, here is an infographic created by LoginRadius that describes the customer experience journey in an omnichannel world.
 
-![Omnichannel customer experience infographic](Making-Customers-Feel-Seen-in-an-Omnichannel-World-1-scaled.jpg)
+![Omnichannel customer experience infographic](Making-Customers-Feel-Seen-in-an-Omnichannel-World-1-scaled.webp)
 
 ## Conclusion
 
 Building an omnichannel customer experience does not necessarily mean having to invest in new-age digital technologies. It rather means channelizing your [customers in a centralized environment](https://www.loginradius.com/blog/identity/identity-as-a-service-for-business/). The LoginRadius identity solution supports automated pathways, doubles customer experiences, and humanizes interactions with every customer
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=omnichannel-customer-experience)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=omnichannel-customer-experience)

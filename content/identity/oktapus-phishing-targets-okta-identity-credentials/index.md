@@ -1,7 +1,7 @@
 ﻿---
 title: "Okta Identity Credentials on the Radar of Oktapus Phishing Campaign"
 date: "2022-09-08"
-coverImage: "oktapus.jpg"
+coverImage: "oktapus.webp"
 tags: ["Phishing", "Oktapus", "Okta"]
 author: "Alok Patidar"
 description: "The phishing campaign, Oktapus, targeted Okta who recently became victim of its phishing attempts. 169 unique domains were identified that fraudsters used to create fake websites."
@@ -38,4 +38,4 @@ The right combination of cybersecurity best practices and employee/customer awar
 
 Looking for an [Okta alternative](https://www.loginradius.com/)? Learn more about the highest rated, most secure CIAM technology in the world. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oktapus-phishing-targets-okta-identity-credentials)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oktapus-phishing-targets-okta-identity-credentials)

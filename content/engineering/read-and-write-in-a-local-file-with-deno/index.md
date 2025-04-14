@@ -1,7 +1,7 @@
 ---
 title: Read and Write in a local file with Deno
 date: "2020-06-09"
-coverImage: "deno_file_system.png"
+coverImage: "deno_file_system.webp"
 author: "Puneet Singh"
 tags: ["Deno"]
 ---

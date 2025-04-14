@@ -1,7 +1,7 @@
 ---
 title: "How is CIAM Solution a Critical Part of DNBs’ Digital Transformation Strategy?"
 date: "2024-02-16"
-coverImage: "ciam-dig-transformation.jpg"
+coverImage: "ciam-dig-transformation.webp"
 tags: ["digital transformation","ciam solutions","cx"]
 author: "Vishal Sharma"
 description: "Customer Identity and Access Management is about keeping customer data safe and giving them the proper access to things online. In today's interconnected era, digital native businesses must help them stay nimble and grow with evolving times. Let's explore the indispensable role of CIAM solutions in digital companies more!"
@@ -52,7 +52,7 @@ With CIAM solution, MFA is employed broadly in every business, including financi
 
 A **CIAM solution** can handle millions of users across web and mobile channels to accommodate large volumes of users and spikes in registrations and access requests without affecting the high level of performance.
 
-[![WP-LR-resiliency](WP-LR-resiliency.png)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
+[![WP-LR-resiliency](WP-LR-resiliency.webp)](https://www.loginradius.com/resource/enterprise-scalability-and-performance)
 
 ### 3. Privacy and Compliance
 
@@ -98,4 +98,4 @@ Today, CIAM has become more than just an identity gateway for customers. It has 
 
 At LoginRadius, we offer constructive CIAM solutions and add the factor of the outcome – a better performing, more scalable, flexible, and secure system that will scale your business to billions of customers. As a trustworthy **CIAM provider,** we help you earn their trust and set you up for long-term success in the digital age.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-solution-digital-native-business)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-solution-digital-native-business)

@@ -1,7 +1,7 @@
 ---
 title: "Spice Up Your Resume: Create a Visual One"
 date: "2017-05-15"
-coverImage: "Spice-up-your-resume-Create-a-virtual-one.jpg"
+coverImage: "Spice-up-your-resume-Create-a-virtual-one.webp"
 category: ["General"]
 featured: false 
 author: "Navanita Devi"
@@ -25,17 +25,17 @@ Visual resumes are welcomed as the next thing in the recruitment world. Still ma
 
 ### **Some Examples**
 
-![Virtual resume example 1](Virtual-resume-example-1.jpg?ver=1553881376)
+![Virtual resume example 1](Virtual-resume-example-1.webp?ver=1553881376)
 
 **[Source](https://www.behance.net/gallery/26611697/Curriculum-Vitae)**
 
-![Virtual resume example 3](Virtual-resume-example-3.jpg?ver=1553881376)
+![Virtual resume example 3](Virtual-resume-example-3.webp?ver=1553881376)
 
-**[Source](https://biginterview.com/wp-content/uploads/2013-6-18-infographic-resume-3.jpg?ver=1553881376)** 
+**[Source](https://biginterview.com/wp-content/uploads/2013-6-18-infographic-resume-3.webp?ver=1553881376)** 
 
-![Virtual resume example 4](Virtual-resume-example-4.jpg?ver=1553881376)
+![Virtual resume example 4](Virtual-resume-example-4.webp?ver=1553881376)
 
-**[Source](https://staticblog.virtualvocations.com/2012/12/4_PERSONALITY.jpg?ver=1553881376)**
+**[Source](https://staticblog.virtualvocations.com/2012/12/4_PERSONALITY.webp?ver=1553881376)**
 
 ### **How to Make a Visual Resume (using Adobe Photoshop)**
 
@@ -50,7 +50,7 @@ _Note:- The steps are written according to Adobe Photoshop CS6._
 
 You can also use Canva to create a stunning resume. There are many templates available in Canva which are well suited for visual resumes. Here’s an example which I carved out from my favorite tool Canva:-
 
-![Creating virtual resume with Canva](Creating-virtual-resume-with-Canva.png?ver=1553881376)
+![Creating virtual resume with Canva](Creating-virtual-resume-with-Canva.webp?ver=1553881376)
 
 Well, you can also use these FREE tools to have a seamless resume creation experience:-
 

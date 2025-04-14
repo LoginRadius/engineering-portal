@@ -1,7 +1,7 @@
 ---
 title: "What Should You Ask Your Identity Provider in 2022"
 date: "2021-12-21"
-coverImage: "id-provider.jpg"
+coverImage: "id-provider.webp"
 category: ["all"]
 featured: false
 author: "Yash Rathi"
@@ -144,4 +144,4 @@ However, LoginRadius offers endless possibilities and provides all the features,
 You can choose LoginRadius as your CIAM to witness substantial business growth. Reach us for a free personalized demo today.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=questions-to-ask-your-identity-provider-2022)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=questions-to-ask-your-identity-provider-2022)

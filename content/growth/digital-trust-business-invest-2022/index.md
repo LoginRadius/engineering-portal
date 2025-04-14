@@ -1,7 +1,7 @@
 ﻿---
 title: "Earning Digital Trust in 2022: Where Should Businesses Invest?"
 date: "2022-06-28"
-coverImage: "digital-trust.jpg"
+coverImage: "digital-trust.webp"
 tags: ["digital transformation", "customer trust", "enterprises"]
 author: "Rakesh Soni"
 description: "Whether securing access control or rethinking privacy policies, businesses skipping a small step in protecting customer information could lead to losses worth millions of dollars and reputational damages since bad actors are already exploring new ways to exploit customer information. Here’s an insightful post that uncovers the aspects of digital trust and where businesses need to invest to earn digital trust in 2022 and beyond."
@@ -81,7 +81,7 @@ The risk-based implementation allows your application to challenge the consumer 
 
 It is a method of applying various levels of stringency to authentication processes based on the likelihood that access to a given system could result in compromise. As the level of risk increases, the authentication process becomes more complicated and restrictive.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk-based authentication is an essential security feature because it works in real-time to prevent cyber frauds like accounts from getting compromised without causing an inconvenience for legitimate consumers. And thus building digital trust. 
 
@@ -96,6 +96,6 @@ Hence, businesses embarking on a digital transformation journey shouldn’t unde
 
 The aspects mentioned above could help businesses build digital trust that further fosters growth in the future. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-trust-business-invest-2022)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-trust-business-invest-2022)
 
 

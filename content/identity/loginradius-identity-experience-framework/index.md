@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Delivers Exceptional Authentication With The Launch Of Identity Experience Framework"
 date: "2020-09-18"
-coverImage: "IDx.png"
+coverImage: "IDx.webp"
 tags: ["authentication","identity management","cx"]
 author: "Karl Wittig"
 description: "Overall, companies need to keep their customers loyal to their goods, services , and brands — which is why the need for the hour is an effective user interface. It can have customer interactions that are most conducive to any company's success."
@@ -28,7 +28,7 @@ Hence, our LoginRadius Identity Experience Framework  benefits businesses in th
 
 ## Key Capabilities of LoginRadius Identity Experience Framework
 
-[![](IDX-Product.png)](https://www.loginradius.com/resource/loginradius-identity-experience-framework-datasheet)
+[![](IDX-Product.webp)](https://www.loginradius.com/resource/loginradius-identity-experience-framework-datasheet)
 
 **Predefined themes**: It offers predefined themes designed to fit all business requirements as per industry standards. 
 
@@ -44,4 +44,4 @@ Hence, our LoginRadius Identity Experience Framework  benefits businesses in th
 
 With the LoginRadius Identity Experience Framework, businesses can enjoy a complete set of customizable solutions and provide consumers with seamless experiences. Be it, tweaking the authentication flow or changing the interface designs—this feature can do them all. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-experience-framework)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-experience-framework)

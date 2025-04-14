@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Launches Identity Orchestration for Seamless Identity Workflows"
 date: "2024-07-24"
-coverImage: "identity-orchestration.jpg"
+coverImage: "identity-orchestration.webp"
 tags: ["identity orchestration","identity management","cx"]
 author: "Rakesh Soni"
 description: "Managing identity in today's digital world requires innovative solutions. LoginRadius launches Identity Orchestration, a no-code/low-code solution to streamline identity workflows and enhance user experiences. This feature empowers enterprises to easily dynamically build, test, deploy, and manage identity use cases."
@@ -44,7 +44,7 @@ LoginRadius Identity Orchestration offers a plethora of business benefits design
 
 Apart from this, the latest update offers a plethora of benefits for overall business growth. 
 
-[![DS-id-orchestration](DS-id-orchestration.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![DS-id-orchestration](DS-id-orchestration.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 ## Use Cases
 
@@ -60,4 +60,4 @@ LoginRadius Identity Orchestration  marks a significant advancement in identity 
 
 Offering a flexible, no-code/low-code approach, identity orchestration by LoginRadius enables organizations to swiftly create, test, and deploy customized identity workflows, thereby improving user experiences and ensuring robust security. This innovative solution is poised to revolutionize how enterprises handle identity management, making it easier and more efficient than ever before.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-identity-orchestration)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-identity-orchestration)

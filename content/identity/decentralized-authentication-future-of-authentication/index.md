@@ -1,7 +1,7 @@
 ---
 title: "Will Decentralized Auth Change the Perception of Consumer Identities in 2022?"
 date: "2022-01-18"
-coverImage: "dec-auth.jpg"
+coverImage: "dec-auth.webp"
 tags: ["authentication","identity verification","cx"]
 author: "Rakesh Soni"
 description: "Whether we talk about inappropriate data collection or a loophole in managing consumer identities, anything could lead to compromised sensitive information. Here’s where the concept of decentralized authentication in identity management comes into play."
@@ -43,7 +43,7 @@ If the person desires to get admission to a carrier, it's sufficient to give its
 
 If they match, admission is granted. In greater ideal scenarios, the person can derive separate key pairs from a non-public key to generate different identifiers for one-of-a-kind relationships to allow privacy-pleasant protocols.
 
-[![WP-decentralized-auth](WP-decentralized-auth.png)](https://www.loginradius.com/resource/decentralized-authentication/)
+[![WP-decentralized-auth](WP-decentralized-auth.webp)](https://www.loginradius.com/resource/decentralized-authentication/)
 
 
 ## Benefits of Decentralized Authentication
@@ -73,4 +73,4 @@ The modern technological ecosystem has offered endless possibilities to build a 
 Decentralized authentication can be the game-changer in mitigating the risks of [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) in both the government and private sectors.  Organizations thinking of enhancing consumer information security should strictly put their best foot forward to incorporate decentralized authentication for a secure experience. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decentralized-authentication-future-of-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decentralized-authentication-future-of-authentication)

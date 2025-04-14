@@ -1,7 +1,7 @@
 ---
 title: "The Role of Identity management in the media industry"
 date: "2021-04-21"
-coverImage: "identity-management-in-media-industry-cover.jpg"
+coverImage: "identity-management-in-media-industry-cover.webp"
 tags: ["identity management","digital transformation","ciam solution"]
 author: "Vishal Sharma"
 description: "Media industry has witnessed a tremendous digital transformation journey. But besides the rapid technological enhancement of the media industry, several security challenges linger on businesses serving in this vertical. Here’s an insightful read depicting the role of identity management in the media industry."
@@ -38,7 +38,7 @@ Honestly, nobody likes to remember long credentials, especially if they can util
 
 While [SSO](https://www.loginradius.com/blog/identity/2019/05/what-is-single-sign-on/) is on the verge of becoming an industry standard for authentication, the media industry needs to quickly gear up for enhancing the user experience through SSO and Federated SSO.
 
-[![federated-identity-management](federated-identity-management.png)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
+[![federated-identity-management](federated-identity-management.webp)](https://www.loginradius.com/resource/federated-identity-management-datasheet)
 
 Since the market is flooded with plenty of OTT platforms and publication websites, the ones offering a seamless experience to the users would get more signups and subscriptions.
 
@@ -84,4 +84,4 @@ Delivering the best user experience along with the assurance of secured privacy 
 
 Just like every other industry, the media industry can leverage a CIAM solution that helps in scaling business growth by meeting the industry-standard compliances and, at the same time, win consumer trust through flawless user experiences.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-in-media-industry)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-in-media-industry)

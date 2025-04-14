@@ -1,7 +1,7 @@
 ---
 title: "Image Colorizer Tool - Kolorizer"
 date: "2021-02-09"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Max Sergeyenko"
 tags: ["Design","Photos","Brand"]
 description: Kolorizer is a free photo coloring tool to help you align the images on a website with your brand.
@@ -30,7 +30,7 @@ You might be thinking right now: "Sounds like I need an expensive designer to fi
 ## The solution
 
 
-![Kolorizer Logo](logo.png "Kolorizer Logo")
+![Kolorizer Logo](logo.webp "Kolorizer Logo")
 
 
 This is where our little tool comes in - Kolorizer. This incredibly simple online tool will have a huge impact on your brand, whether you are kicking it off or simplifying and growing an existing one.
@@ -42,21 +42,21 @@ The task is simple - to make colors in all the imagery on your website match you
 In the **"The overlay" method**, the color overlay is simply applied on top of the image. While it is the easiest and quickest way of adding some brand colors to the images, it comes with some downsides. The image becomes darker and some other colors might still peek through, which is not great.
 
 
-![](01.jpg "Image created using "The overlay" method")
+![](01.webp "Image created using "The overlay" method")
 *Image created using "The overlay" method*
 		
 
 The second, **"The changing of the base color" method**, is less common because it requires a few more steps. First, the image is converted to black and white, making every pixel in the image based on black color. So every single pixel is a percentage of black color. Now we can replace that black color with any of the dark colors you have in your brand, like dark blue or dark orange. And voila! Every pixel in our image is now based on that color, without any overlay that darkens the image and without any other colors peeking through the overlay. This does create a little problem: since we are basing our image on a dark color that is not black, the image is lighter and we have to adjust the brightness of the image a little bit to compensate for this. The amount depends on the image itself - some would be good right after the conversion, some would need to be darkened or lightened.
 
 
-![](02.jpg "Image created using "The changing of the base color" method")
+![](02.webp "Image created using "The changing of the base color" method")
 *Image created using "The changing of the base color" method*
 
 
 Kolorizer is built using the second method, and most of the steps are done automatically.
 
 
-![](03.png "Kolorizer Tool")
+![](03.webp "Kolorizer Tool")
 
 
 After you upload the image, it is converted to your selected brand color right away. Adjust the color if you need to. Maybe try a different dark color out of your brand colors. Then adjust the brightness of the image if needed and download the finished colorized image. That is it!

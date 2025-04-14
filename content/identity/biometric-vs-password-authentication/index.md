@@ -1,7 +1,7 @@
 ---
 title: "Which is Safer: Biometric or Password?"
 date: "2024-01-31"
-coverImage: "biometric-vs-password.jpg"
+coverImage: "biometric-vs-password.webp"
 tags: ["biometric authentication","password authentication","data privacy"]
 author: "Rakesh Soni"
 description: "The ongoing debate over the use of traditional passwords and biometric authentication underscores the evolving digital security landscape. While traditional password-based authentication is less expensive and ensures minimum friction during the consumer journey, biometric password authentication overcomes all the drawbacks of traditional passwords. Let’s understand more about the strategies to find out the optimal solution to biometric authentication vs password debate."
@@ -58,7 +58,7 @@ When it comes to “**Are biometrics safer than passwords**, " yes, they are. [B
 
 Businesses prefer biometrics because they provide the convenience absent in password-based authentication. Users do not have to remember complex passwords, write them in a diary or somewhere, and save the passwords in the system, which third-party applications can steal. All they need to do is give their biometric information, and the system will verify their identity. 
 
-[![DS-mob-biometric-auth](DS-mob-biometric-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-mob-biometric-auth](DS-mob-biometric-auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 3. **Improved user experience**
 
@@ -118,4 +118,4 @@ When it comes to which is safer, **biometric authentication or password**-based 
 
 [Multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) is a powerful security measure that significantly enhances the protection of applications and data by adding two or more layers for identity verification. MFA is a core component of IAM (identity access management) and CIAM (customer identity access management). One of the layers with password-based authentication and a second layer with biometric authentication can strengthen your security infrastructure. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-vs-password-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-vs-password-authentication)

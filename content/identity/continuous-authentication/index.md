@@ -1,7 +1,7 @@
 ---
 title: "What is Continuous Authentication"
 date: "2021-03-03"
-coverImage: "continuous-authentication-cover.jpg"
+coverImage: "continuous-authentication-cover.webp"
 tags: ["continuous authentication","biometric authentication","cx"]
 author: "Rakesh Soni"
 description: "Continuous authentication estimates the likelihood that the discrete network users are the ones who they claim to be throughout an entire session. However, the method of continuous authentication is fairly new and has brought a novel perspective to network protection these days."
@@ -60,7 +60,7 @@ In this kind of continuous authentication, the system can easily track the bodil
 
 An example of this kind of continuous authentication can be large multinational companies that employ this authentication to track the movement of their employees. 
 
-[![continuous-authentication-whitepaper](continuous-authentication-whitepaper.png)](https://www.loginradius.com/resource/continuous-authentication-whitepaper)
+[![continuous-authentication-whitepaper](continuous-authentication-whitepaper.webp)](https://www.loginradius.com/resource/continuous-authentication-whitepaper)
 
 
 
@@ -93,7 +93,7 @@ In this method, the system uses digital certificates to identify its users. A di
 
 The use of certificate-based continuous authentication can be seen in software development companies where there is a more threat to data and its privacy. 
 
-![continuous-authentication-1](continuous-authentication-1.png)
+![continuous-authentication-1](continuous-authentication-1.webp)
 
 
 ## All About LoginRadius' Continuous Authentication Solution
@@ -134,4 +134,4 @@ Many businesses have progressed ahead of password-based authentication and embra
 
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=continuous-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=continuous-authentication)

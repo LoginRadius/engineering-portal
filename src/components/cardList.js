@@ -3,7 +3,7 @@ import styles from "./cardlist.module.scss"
 import Card from "./card"
 import Subscribe from "./subscribe"
 import headStyles from "./cardlist.module.scss"
-//import Docs from "../../static/consumer-digital-identity-trends-2023.jpg"
+//import Docs from "../../static/consumer-digital-identity-trends-2023.webp"
 import AsyncTagMenu from "./tagmenu/async"
 import IdentityTagMenu from "./tagmenu/identity"
 import { Link, withPrefix } from "gatsby"
@@ -112,7 +112,7 @@ export default function CardList({ posts, currentPage, type }) {
             >
               <div
                 style={{
-                  backgroundImage: `url(${withPrefix("/write-for-us.png")})`,
+                  backgroundImage: `url(${withPrefix("/write-for-us.webp")})`,
                 }}
               />
               <h3>Write for us</h3>
@@ -163,7 +163,7 @@ export default function CardList({ posts, currentPage, type }) {
               >
                 <div
                   style={{
-                    backgroundImage: `url(${withPrefix("/open-source.png")})`,
+                    backgroundImage: `url(${withPrefix("/open-source.webp")})`,
                   }}
                 />
                 <h3>LoginRadius Open Source</h3>

@@ -1,7 +1,7 @@
 ---
 title: "Don’t Waste Time! Facts to learn to write the Best Professional Bio"
 date: "2017-02-27"
-coverImage: "Quick-tips-to-learn-to-write-the-Best-Professional-Bio.png"
+coverImage: "Quick-tips-to-learn-to-write-the-Best-Professional-Bio.webp"
 category: ["general", "marketing", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -113,15 +113,15 @@ Most importantly, do not forget to proofread your bio. Always invite some of you
 
 ### **Some real life examples of best professional bios that I found in my research:**
 
-![real life professional bio example 1]( real-life-professional-bio-example-1.png?ver=1553881376)
+![real life professional bio example 1]( real-life-professional-bio-example-1.webp?ver=1553881376)
 
 [**Source**](https://twitter.com/adampopescu)
 
-![real life professional bio example 2]( real-life-professional-bio-example-2.png?ver=1553881376)
+![real life professional bio example 2]( real-life-professional-bio-example-2.webp?ver=1553881376)
 
 [**Source**](https://twitter.com/alisoncrowewine)
 
-![real life professional bio example 3]( real-life-professional-bio-example-3.png?ver=1553881376)
+![real life professional bio example 3]( real-life-professional-bio-example-3.webp?ver=1553881376)
 
 [**Source**](https://twitter.com/WaltHickey)
 

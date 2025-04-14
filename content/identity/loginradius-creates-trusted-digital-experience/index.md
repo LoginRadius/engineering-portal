@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Creates a Perfect Harmony of UX and Security"
 date: "2022-02-04"
-coverImage: "digital-exp.jpg"
+coverImage: "digital-exp.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -98,4 +98,4 @@ Learn more about the LoginRadius Identity Platform, starting with a [Quick Perso
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-creates-trusted-digital-experience)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-creates-trusted-digital-experience)

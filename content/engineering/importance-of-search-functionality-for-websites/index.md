@@ -1,7 +1,7 @@
 ---
 title: "Why Implement Search Functionality for Your Websites"
 date: "2022-02-24"
-coverImage: "search-functionality.png"
+coverImage: "search-functionality.webp"
 author: "Neha Vyas"
 tags: ["Search"]
 description: "Adding a search functionality is important for any website to improve user experience. Read more to understand the benefits of enabling search on your website."

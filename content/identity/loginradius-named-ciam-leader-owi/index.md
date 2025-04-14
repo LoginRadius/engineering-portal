@@ -1,7 +1,7 @@
 ---
 title: "One World Identity Report Names LoginRadius a Customer Identity and Access Management (CIAM) Industry Leader"
 date: "2019-12-02"
-coverImage: "blog-graphic-one-world-identity.png"
+coverImage: "blog-graphic-one-world-identity.webp"
 tags: ["media-and-publication", "LoginRadius"]
 featured: false 
 author: "Rakesh Soni"
@@ -24,7 +24,7 @@ The OWI team interacts with identity companies every day, from startups to enter
 
 “LoginRadius is honoured to be one of the 415 identity companies selected from a pool of over 2,000 companies in the industry,”. “We are committed to empowering businesses to safely secure their customers’ identities while complying with existing and future regulations and delivering a unified digital experience
 
-[![modern-ciam](modern-ciam.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![modern-ciam](modern-ciam.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 The OWI Identity Landscape is a tool to help companies keep track of market growth and trends and understand the strategic importance of digital identity moving into 2020 and beyond. OWI will be releasing a more detailed research report delving into the details of each market segment and how companies within the industry overlap and intersect in upcoming months. 
 
@@ -40,4 +40,4 @@ LoginRadius is a leading cloud-based [customer identity and access management](h
 
 The LoginRadius Identity Platform empowers business and government organizations to manage customer identities securely, deliver a unified digital experience, and comply with all major privacy regulations such as the EU’s General Data Protection Regulation (GDPR).
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-named-ciam-leader-owi)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-named-ciam-leader-owi)

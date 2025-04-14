@@ -1,7 +1,7 @@
 ---
 title: "The Pros & Cons of Reusable Digital Identity: What You Need To Know"
 date: "2022-06-14"
-coverImage: "reusable-id.jpg"
+coverImage: "reusable-id.webp"
 tags: ["digital identity management","compliance","cx"]
 author: "Alex Williams"
 description: "Keeping track of multiple digital identities is cumbersome and may lead users to adopt risky practices (like  duplicating passwords) just so they can remember them. A better way to deal with it is reusable digital identities. And as the technology matures, the upsides will only increase."
@@ -63,7 +63,7 @@ Making reusable digital IDs generally accessible poses quite a challenge. Many p
 
 But technology is only one side of the issue. Verifying IDs also remains problematic, as the UK experienced when launching its ID verification platform. The UK government projected a 90% verification success rate but managed only about half that after four years. Organizations must apply reasonable verification standards to drive adoption. 
 
-[![WP-reimagining](WP-reimagining.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
+[![WP-reimagining](WP-reimagining.webp)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 * Security concerns
 
@@ -80,4 +80,4 @@ Over the years, consumers have grown skeptical about effective interoperability 
 Consumers, businesses, and governments alike need an easier way to deal with ID verification. Reusable digital identities are the next stage in the [evolution of authentication](https://www.loginradius.com/blog/growth/authentication-evolution-to-passwordless/), providing a better customer experience and simplifying business compliance efforts as well as overall ID administration needs. Their use will grow substantially in the coming years to everyone’s benefit. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-reusable-digital-identity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-reusable-digital-identity)

@@ -1,7 +1,7 @@
 ﻿---
 title: "10 Tips to Ensure Your Wi-Fi is Private and Blocking Hackers"
 date: "2021-08-19"
-coverImage: "secure-wi-fi-against-hackers.jpg"
+coverImage: "secure-wi-fi-against-hackers.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
@@ -203,4 +203,4 @@ To maintain the system with firewalls and anti-malware software. Always keep the
   
 
 Many hackers are using different methods like [ransomware](https://www.loginradius.com/resource/with-ransomware-on-the-rise-how-safe-is-your-business/) and identity theft. To avoid all these issues, you can make some changes by practicing these tips.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-your-wi-fi-against-hackers)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-your-wi-fi-against-hackers)

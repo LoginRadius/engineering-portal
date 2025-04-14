@@ -1,7 +1,7 @@
 ---
 title: "Why Is Customer Relationship Important for Every Business in 2021"
 date: "2021-02-26"
-coverImage: "customer-relations-management.jpg"
+coverImage: "customer-relations-management.webp"
 tags: ["customer relation management","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Positive customer relations help you connect with your customers on a much more personal level. When you connect with the target audience deeply, you are much more likely to understand their requirements, resolve their problems, and create a sense of mutual understanding."
@@ -104,4 +104,4 @@ Some reasons as to why the CRM system(s) are so prevalent:
 
 So, having learned about customer relationship management, you would be able to decide hows of <a href="https://mobilemonkey.com/blog/best-ways-to-follow-up-with-customers" rel= "nofollow">customer relationships</a> approach it, and make the most of it! However, one thing that is sure to happen when you build profound customer relations is that you would witness an increasing customer base. Moreover, when you have a positive relationship with your customers, you are not very far from establishing some favourable B2B customer relationships!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-relationship-business)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-relationship-business)

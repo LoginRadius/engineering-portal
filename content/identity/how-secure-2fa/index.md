@@ -1,7 +1,7 @@
 ---
 title: "How Secure is Two-Factor Authentication (2FA)?"
 date: "2021-05-13"
-coverImage: "how-secure-2fa-cover.jpg"
+coverImage: "how-secure-2fa-cover.webp"
 tags: ["data security","2fa","mfa","cx"]
 author: "Navanita Devi"
 description: "While we know that it may seem childish to use a password and a username combination, unfortunately, many people don’t learn the risks associated with this type of authentication until they have been victimized by cybercrime. And when that happens, two-factor authentication is one the best ways to protect your consumers’ sensitive data from theft."
@@ -54,7 +54,7 @@ By offering 2FA, businesses demonstrate their commitment to protecting user data
 
 The working process of 2FA differs depending on what kind of information is requested from the user. The login process can involve a combination of two variations given below: 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 *    Data is already known to the individual, like login credentials. There are even apps to keep track of this information. For example, the Google Password Manager. 
 *   Data about one’s physical aspect like biometric data. 
@@ -140,4 +140,4 @@ The most common 2FA methods include SMS codes and authenticator apps like Google
 
 Authenticator apps like Google Authenticator are generally considered more secure than SMS codes, as SMS can be vulnerable to SIM swapping attacks. However, both methods offer an additional layer of security compared to passwords alone.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-secure-2fa)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-secure-2fa)

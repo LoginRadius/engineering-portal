@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Proofing and Why is it Important?"
 date: "2020-12-18"
-coverImage: "identity-proofing.jpg"
+coverImage: "identity-proofing.webp"
 tags: ["data security","identity proofing","ciam solution"]
 author: "Rakesh Soni"
 description: "Identity proofing is the process of verifying that the claimed identity of a person matches their actual identity. You’ve probably undergone this process a bunch of times yourself at hotels, financial institutions, and for retailers."
@@ -34,7 +34,7 @@ Therefore, effective identity solutions should be one of the top priorities for 
 
 ## How to Implement Effective Identity Proofing
 
-![importance-identity-proofing](importance-identity-proofing.png)
+![importance-identity-proofing](importance-identity-proofing.webp)
 
 As stated above, identity proofing can be done manually through documentation and interactive checks. This process, as already pointed out, is taxing and poorly affects the user experience. Manual identity solutions are also unscalable for large organizations dealing with hundreds of thousands of consumers every day.
 
@@ -53,7 +53,7 @@ An adequate identity proofing system should be able to perform most of these tas
 
 ## Protect Your Business Identity With LoginRadius CIAM Solutions
 
-![identity-proofing-loginradius](identity-proofing-loginradius.png)
+![identity-proofing-loginradius](identity-proofing-loginradius.webp)
 
 
 
@@ -87,7 +87,7 @@ LoginRadius identity and access management solutions offer password management t
     *   Multi-factor authentication: Optional to enable Google Authenticator or Phone SMS as the second authentication factor.
 
     
-[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 
 ### Built-in layers of protection
@@ -109,4 +109,4 @@ With the growing reliance on technology and cloud-based ecosystems, there is a h
 By improving privacy, the identity proofing process helps build a trustable image in the consumers’ minds towards your brand.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-proofing)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-proofing)

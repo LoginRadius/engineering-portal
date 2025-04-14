@@ -1,7 +1,7 @@
 ﻿---
 title: "Introduction of Idx-Auto-Tester"
 date: "2020-06-22"
-coverImage: idx-auto-tester.png
+coverImage: idx-auto-tester.webp
 author: Himanshi Sharma
 tags: ["Automation", "Idx-Auto-Tester"]
 ---

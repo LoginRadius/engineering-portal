@@ -1,7 +1,7 @@
 ---
 title: "A Complete Color Scheme Guide For Your Website"
 date: "2017-05-19"
-coverImage: "A-Complete-Color-Scheme-Guide-For-Your-Website.jpg"
+coverImage: "A-Complete-Color-Scheme-Guide-For-Your-Website.webp"
 category: ["business", "Marketing", "technology"]
 featured: false 
 author: "Rakesh Soni"
@@ -32,15 +32,15 @@ Whether it is your brand image or your website, colors can work like magic on yo
 
 What are the things that come to your mind when I say the word Coca Cola? Obviously, a bottle of it. Then, the red logo of Coca-Cola. There was a reason why Coca-Cola chose the color “Red”.
 
-![Coca Cola](Coca-Cola.png?ver=1553881376)
+![Coca Cola](Coca-Cola.webp?ver=1553881376)
 
-**[Source](http://1.bp.blogspot.com/-feRUkS6z3uo/VIctsB0pI1I/AAAAAAAAAAo/nbmsMeSl_ls/s1600/india.png?ver=1553881376)** 
+**[Source](http://1.bp.blogspot.com/-feRUkS6z3uo/VIctsB0pI1I/AAAAAAAAAAo/nbmsMeSl_ls/s1600/india.webp?ver=1553881376)** 
 
 Red shows excitement, passion and boldness and these were the emotions Coca-Cola wanted to convey with its product. Moreover, the color red makes it more visible on the shelves from its competitors. Well, here is an image showing reasons for different brands choosing respective colors in their logos.
 
-![Color emotion guide](Color-emotion-guide.png?ver=1553881376)
+![Color emotion guide](Color-emotion-guide.webp?ver=1553881376)
 
-**[Source](http://blog.dahmundfreunde.de/wp-content/uploads/2014/05/grafik.png?ver=1553881376)** 
+**[Source](http://blog.dahmundfreunde.de/wp-content/uploads/2014/05/grafik.webp?ver=1553881376)** 
 
 Kissmetrics says that there is an [80% increase in brand recognition](https://blog.kissmetrics.com/color-psychology/) when colors are used.
 
@@ -52,15 +52,15 @@ Create an awesome color scheme and here’s **how you can create a color scheme*
 
 Your customers will connect their emotions with your brand through your prominent color. Hence, choose a color that convey the emotions about your company (like the red color in Coca-Cola does). Your logo should contain your prominent color as the primary color. However, if you have no clue which color to cast as your prominent color, see this image to decide the color of your choice.
 
-![Colors and types of consumers](Colors-and-types-of-consumers.jpg?ver=1553881376)
+![Colors and types of consumers](Colors-and-types-of-consumers.webp?ver=1553881376)
 
-**[Source](https://mustafa12abdall.files.wordpress.com/2015/01/colors_customers_2.jpg?ver=1553881376)**
+**[Source](https://mustafa12abdall.files.wordpress.com/2015/01/colors_customers_2.webp?ver=1553881376)**
 
 You can also see for this chart to decide which colors to pick from the slot:-
 
-![Color psychology](Color-psychology.jpg?ver=1553881376)
+![Color psychology](Color-psychology.webp?ver=1553881376)
 
-[**Source**](https://s-media-cache-ak0.pinimg.com/originals/25/93/1f/25931fe9980a8a2e06cd66df76a055ee.jpg?ver=1553881376) 
+[**Source**](https://s-media-cache-ak0.pinimg.com/originals/25/93/1f/25931fe9980a8a2e06cd66df76a055ee.webp?ver=1553881376) 
 
 Other than these psychological facts, you can check whether you are going to serve a youthful and energetic audience or your product is targeting a female audience. Hence, you have to decide the color on the basis of your targeted audience. 
 
@@ -70,13 +70,13 @@ It is found out that most of the color blind patients are red-green color blinde
 
 _Some statistics that show what color do what men and women get attracted to while shopping_
 
-![Color psychology based on gender](Color-psychology-based-on-gender.png?ver=1553881376)
+![Color psychology based on gender](Color-psychology-based-on-gender.webp?ver=1553881376)
 
 [**Source**](https://blog.kissmetrics.com/how-colors-affect-conversions/)
 
 Also in another experiment, it was found that men preferred shades and bright colors while women preferred tints and soft colors.
 
-![Color naming based on gender](Color-naming-based-on-gender-2.png?ver=1553881376)**[Source](https://blog.kissmetrics.com/gender-and-color/)**
+![Color naming based on gender](Color-naming-based-on-gender-2.webp?ver=1553881376)**[Source](https://blog.kissmetrics.com/gender-and-color/)**
 
 By these data, you can certainly improve your color marketing strategies through color scheme.
 
@@ -88,7 +88,7 @@ Now, let’s discuss about the areas on your website where we can use the promin
 
 Only use prominent color on areas which you want to highlight to you customers like you logo, menu tabs, call to actions, and any important information. Here’s, how we do it at LoginRadius.
 
-![Using The Prominent Color](Using-The-Prominent-Color-2.png?ver=1553881376)
+![Using The Prominent Color](Using-The-Prominent-Color-2.webp?ver=1553881376)
 
 **[Source](https://loginradius.com/)** 
 
@@ -100,7 +100,7 @@ For example, you can use accent colors on secondary information, current menu ta
 
 Also, do not use more than two accent colors on your webpages. It may confuse your prospects. Here’s a simple example to use accent colors on your website:-
 
-![Using accent colors](Using-accent-colors.png?ver=1553881376) **[Source](https://loginradius.com/)** 
+![Using accent colors](Using-accent-colors.webp?ver=1553881376) **[Source](https://loginradius.com/)** 
 
 Now, there are two ways to select your color scheme. Pursue a Phd career in color psychology or use these color matching tools to create a color palette (well, hiring a good designer may cost you more).
 
@@ -130,7 +130,7 @@ Thus, here I have divided the websites into three types on the basis of their in
 
 You will find that majority of the content driven or e-commerce websites have neutral or white background. The intent of such websites is to promote their products or ideas rather than flashing the background of the website. Hence, the prominent and accent colors provide focus and personality to your website whereas the neutral background keeps your customers focused on your products or content.
 
-![Color psychology for E-commerce or Content Driven Websites](Color-psychology-for-E-commerce-or-Content-Driven-Websites.png?ver=1553881376)
+![Color psychology for E-commerce or Content Driven Websites](Color-psychology-for-E-commerce-or-Content-Driven-Websites.webp?ver=1553881376)
 
 #### **2\. Corporate Websites**
 
@@ -142,7 +142,7 @@ While you are promoting a brand, use your prominent colors as a part of your bac
 
 In case, you have a bold prominent color, then you can use less intense shades of the prominent colors. Here’s an example of how [Cadbury](https://www.cadbury.co.uk/) does it:-
 
-![Color psychology behind Cadbury](Color-psychology-behind-Cadbury.png?ver=1553881376)
+![Color psychology behind Cadbury](Color-psychology-behind-Cadbury.webp?ver=1553881376)
 
 You can use the above discussed tools to choose different shades of your prominent colors that will go well with your website’s background.
 
@@ -150,7 +150,7 @@ You can use the above discussed tools to choose different shades of your promine
 
 Now, when you want your services to be the attention grabbers, use light colors for background as it will automatically highlight the content (product) on the page. Our web designers have done a good job highlighting our services.
 
-![Color psychology while Promoting a Service or Product](Color-psychology-while-Promoting-a-Service-or-Product.png?ver=1553881376)
+![Color psychology while Promoting a Service or Product](Color-psychology-while-Promoting-a-Service-or-Product.webp?ver=1553881376)
 
 [**Source**](https://loginradius.com/)
 
@@ -158,9 +158,9 @@ Now, when you want your services to be the attention grabbers, use light colors 
 
 When it comes to creative or stylish websites (creative, beauty, restaurant, design and fashion industries), you can use any colors in the background of your website. You can design a black background to provide a luxurious look or you can inspire your visitors with a rainbow background. Don’t lose your content’s visibility for the sake of charm on your website. Here’s a great template you can use for your creative website.
 
-![color psychology for creative & stylish websites](color-psychology-for-creative-stylish-websites.jpg?ver=1553881376)
+![color psychology for creative & stylish websites](color-psychology-for-creative-stylish-websites.webp?ver=1553881376)
 
-[**Source**](https://blog.spoongraphics.co.uk/wp-content/uploads/2008/doodle-websites/24.jpg?ver=1553881376)
+[**Source**](https://blog.spoongraphics.co.uk/wp-content/uploads/2008/doodle-websites/24.webp?ver=1553881376)
 
 In a nutshell, the best background for your website will make your content more visible and will render a good feeling to your visitors while browsing. And still if you are struggling with the background color, use a light color for your background. Don’t expect your website to look inspirational enough, however, your content will be noticed.
 
@@ -178,37 +178,37 @@ Here are some websites you can take a look for some inspiration.
 
 #### **1.** [**Departika**](http://www.departika.com/)
 
-![Departika](Departika.png?ver=1553881376)
+![Departika](Departika.webp?ver=1553881376)
 
 Specialty: Minimal yet effective
 
 #### **2\. [Magoz](https://magoz.is/)** 
 
-![Magoz](Magoz.png?ver=1553881376)
+![Magoz](Magoz.webp?ver=1553881376)
 
 Specialty: Vibrant
 
 #### **3. [SecretKey](https://www.secretkey.it/)**
 
-![SecretKey](SecretKey.png?ver=1553881376)
+![SecretKey](SecretKey.webp?ver=1553881376)
 
 Specialty: Attractive combination of multiple colors
 
 #### **4. [Softwaremill](https://softwaremill.com/)**
 
-![Softwaremill](Softwaremill.png?ver=1553881376)
+![Softwaremill](Softwaremill.webp?ver=1553881376)
 
 Specialty: Beautiful yet elegant
 
 #### **5. [Spektrum](http://spektrummedia.com/)**
 
-![Spektrum](Spektrum.png?ver=1553881376)
+![Spektrum](Spektrum.webp?ver=1553881376)
 
 Specialty: Wise usage of neon colors to give it modern touch
 
 #### **6. [Enterprise England](http://enterpriseengland.org.uk/)**
 
-![Enterprise England](Enterprise-England.png?ver=1553881376)
+![Enterprise England](Enterprise-England.webp?ver=1553881376)
 
 Specialty: Beautiful color combination
 

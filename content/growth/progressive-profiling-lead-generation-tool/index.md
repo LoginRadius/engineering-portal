@@ -1,7 +1,7 @@
 ---
 title: "How Progressive Profiling Reduces Registration Fatigue and Improves Lead Quality?"
 date: "2022-07-15"
-coverImage: "lead-gen.jpg"
+coverImage: "lead-gen.webp"
 category: ["Progressive profiling", "lead generation", "marketing"]
 author: "Vishal Sharma"
 description: "Progressive profiling ensures valuable information about a user is gradually collected over time so that it doesn’t create friction while a user lands on a platform, which enhances the overall quality and number of leads. This blog explains the role of progressive profiling in improving overall lead quality and quantity."
@@ -38,7 +38,7 @@ In this way, digital marketing teams obtain several data points about a lead wit
 Hence, if a business strives for quality leads, it must incorporate the true potential of progressive profiling that eventually helps generate quality leads. 
 
 
-[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ## Why Your Business Needs Progressive Profiling in 2022 and Beyond
@@ -90,4 +90,4 @@ And if customers are bombarded with registration forms when they land on your we
 Progressive profiling is undeniably the best way to nurture and improve the quality of leads, which helps businesses enhance their overall growth and revenues. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling-lead-generation-tool)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling-lead-generation-tool)

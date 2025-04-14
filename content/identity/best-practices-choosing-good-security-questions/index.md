@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Choosing Good Security Questions"
 date: "2019-01-31"
-coverImage: "security-questions.jpg"
+coverImage: "security-questions.webp"
 tags: ["data security","password management","cx"]
 author: "Rakesh Soni"
 description: "Security questions will bring to your authentication process an extra layer of certainty. Security problems are an alternative way to recognise your customers when they have forgotten their password, entered too many times the wrong passwords, or attempted to log in from a location or unknown computer."
@@ -38,7 +38,7 @@ _You can see examples of good security questions from the_ _[University of Virgi
 
 ### 1. Safe
 
-![](boy-car-child-1266014.jpg)
+![](boy-car-child-1266014.webp)
 
 When choosing security question and answers, it’s extremely important that the correct answers cannot be guessed or researched over the internet.
 
@@ -51,7 +51,7 @@ This question could be considered unsafe because the information can be found on
 Aside from these issues, if a hacker was interested in a specific account, it might be easy to brute-force their way past this question since there are only a fixed number of counties in each US state.
 
 ### 2. Stable
-![](balance-beach-boulder-1051449.jpg)
+![](balance-beach-boulder-1051449.webp)
 
 
 A good security question should have a fixed answer, meaning that it won’t change over time.
@@ -74,7 +74,7 @@ Both of these examples make for poor security questions because their answers wi
 
 ### 3. Memorable
 
-![](adorable-blur-child-573293.jpg)
+![](adorable-blur-child-573293.webp)
 
 A good security question should be easily answered by the account holders but not readily obvious to others or quickly researched.
 
@@ -88,7 +88,7 @@ _“In what city or town did your mother and father meet?”_
 
 Most consumers know the answer to a question like this, making it fit the criteria of being memorable. It is also more difficult to guess or research this fact. Best of all, it fits the stability criteria as well.
 
-[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-buyers-GD-to-MFA](EB-buyers-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Some examples of question and answers that are unmemorable include:
 
@@ -102,7 +102,7 @@ The answer to this question may be quick to recall for someone younger, but for 
 
 ### 4. Simple
 
-![](automobile-automotive-car-1386649.jpg)
+![](automobile-automotive-car-1386649.webp)
 
 
 A simple question has a precise answer that doesn’t create confusion.
@@ -123,7 +123,7 @@ _“When is your anniversary?”_
 
 ### 5. Many
 
-![](arms-bonding-closeness-1645634.jpg)
+![](arms-bonding-closeness-1645634.webp)
 
 A good security question should have many potential answers. This makes guessing the answer much more difficult and will also slow down automated or brute-force attempts at gaining access to the consumer’s account.
 
@@ -181,13 +181,13 @@ Passwords and security questions aren’t the only methods for locking down cons
 
 As an example, the [MBNA bank](https://www.mbna.ca/) recently decided that security questions were not doing enough for them and their consumers to keep their accounts safe. To upgrade their security, they decided to go with two-factor authentication instead of security questions in order to verify their consumer’s identities.
 
-![](MBNA-2factor-steps.png)
+![](MBNA-2factor-steps.webp)
 
 _Source: MBNA website_
  
 In these screenshots, you can see that the transition from security questions to two-factor authentication was fairly seamless for MBNA consumers. They even had the option to choose how often they would be prompted to provide a security code as their second factor.
 
-![](MBNA-2factor-login-options.png)
+![](MBNA-2factor-login-options.webp)
 
 _Source: MBNA website_
 
@@ -203,4 +203,4 @@ By requiring your consumers to follow [strong password rules](https://www.loginr
 
 If you’re interested in learning why passwords are slowly becoming a thing of the past, download our e-book [The Death of Passwords](https://www.loginradius.com/resource/the-death-of-passwords/). There are better authentication methods than passwords and security questions available for your company—and with support from LoginRadius, you can adopt them quickly and easily.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-choosing-good-security-questions)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-choosing-good-security-questions)

@@ -1,7 +1,7 @@
 ---
 title: "What is User Session Management?"
 date: "2021-05-31"
-coverImage: "session_cover_pic.jpg"
+coverImage: "session_cover_pic.webp"
 tags: ["user management","token authentication","cx"]
 author: "Keshav Kumar"
 description: "Implementing proper session management usually increases the strength and security of the session token.  And if you have not implemented it, then many vulnerabilities can be introduced with insecure session cookies that attackers can leverage to benefit an authenticated user session."
@@ -19,7 +19,7 @@ Generally, if a consumer leaves a website or closes the browser, their session e
 
 Sessions  will end when a consumer logs out or when the session lifetime limit is completed. In addition, “**Force Logout**” can also cause sessions to expire.
 
-![Session-timeout](https://apidocs.lrcontent.com/images/session_cover_pic_83860b6666e6d2da1.12947413.jpg "user-session-timeout")
+![Session-timeout](https://apidocs.lrcontent.com/images/session_cover_pic_83860b6666e6d2da1.12947413.webp "user-session-timeout")
 
 ## Session Lifetime
 
@@ -39,7 +39,7 @@ After Password Reset or Password Change, it will expire all active sessions of t
 
 Implementing proper session management usually increases the strength and security of the session token.  And if you have not implemented it, then many vulnerabilities can be introduced with [insecure session cookies that attackers can leverage](https://www.loginradius.com/blog/identity/2021/01/7-web-app-sec-threats/) to benefit an authenticated user session.  
 
-![why should we use it](https://apidocs.lrcontent.com/images/coding_user_session_1203460b665f4b0b5a0.73078317.jpg "user-session-management")
+![why should we use it](https://apidocs.lrcontent.com/images/coding_user_session_1203460b665f4b0b5a0.73078317.webp "user-session-management")
 Attackers can take measures against Brute Force. They can predict and expose session tokens which ultimately can lead to session hijacking, where the malicious consumer can impersonate the victim and complete transactions from their account. 
 
 So to avoid such instances, we use session management so we can adequately secure the session, which helps to provide robust protection against session hijacking. 
@@ -130,4 +130,4 @@ User sessions should change when there is a change in authentication status (log
 The two types of sessions are: Client-Side Sessions: Stored on the user's browser, usually as cookies. Server-Side Sessions: Stored on the server, often in databases or server memory.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-session-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-session-management)

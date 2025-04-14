@@ -1,7 +1,7 @@
 ﻿---
 title: "Unleash the Power of Your Identity Projects: A Guide to Maximizing ROI"
 date: "2023-04-25"
-coverImage: "maximize-roi.jpg"
+coverImage: "maximize-roi.webp"
 tags: ["digital identity","roi","identity management","cx"]
 author: "Rakesh Soni"
 description: "In today's digital age, managing digital identities securely is critical for businesses across various industries. Implementing an identity project can be costly and time-consuming, making it essential to maximize ROI. By defining clear goals, and monitoring performances, businesses can unleash the full potential of their identity projects."
@@ -51,7 +51,7 @@ And if you wish to create a perfect balance between user experience and security
 
 LoginRadius CIAM helps businesses reinforce their identity strategy by offering the highest level of customer and business information security level while maintaining a seamless user experience across multiple channels. 
 
-[![EB-GD-to-CI](EB-GD-to-CI.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![EB-GD-to-CI](EB-GD-to-CI.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### 4. Focus on User Adoption
 
@@ -77,4 +77,4 @@ A customer identity and access management solution like LoginRadius can help bus
 
 By following these guidelines, businesses can reap the benefits of their identity projects, including improved user experience, reduced fraud, increased productivity, and enhanced customer satisfaction.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=maximize-roi-of-your-identity-projects)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=maximize-roi-of-your-identity-projects)

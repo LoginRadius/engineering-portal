@@ -1,7 +1,7 @@
 ---
 title: "8 Key Components of a Perfect CIAM Platform"
 date: "2019-06-10"
-coverImage: "fetaure-image-1.png"
+coverImage: "fetaure-image-1.webp"
 tags: ["ciam platform","compliance","cx"]
 author: "Rakesh Soni" 
 description: "More than just individuals, a perfect CIAM platform needs to be able to incorporate. There are plenty of business processes and activities loaded with identity, and the number of these is only set to increase in the future. Both native and third-party applications that manage customer data are linked by a well-designed customer identity solution."
@@ -39,7 +39,7 @@ This reputation will encourage customer loyalty in the long run.
 
 ### 3\. Integration with APIs
 
-![CIAM Platform](integration-graphic.png)
+![CIAM Platform](integration-graphic.webp)
 
 A perfect CIAM platform needs to be able to integrate more than just people. There are lots of identity-filled business processes and practices, and in the future the number of these is only set to grow.
 
@@ -63,7 +63,7 @@ All of these things need to be manageable across future system updates without f
 
 ### 5\. Security Compliance
 
-![CIAM Platform](global-compliance-graphic.png)
+![CIAM Platform](global-compliance-graphic.webp)
 
 Your CIAM platform must [meet compliance requirements on a global scale](https://secureprivacy.ai/complete-guide-to-international-data-privacy-laws/), even though many of these requirements are constantly changing and evolving. Currently, here’s what your CIAM platform needs to do:
 
@@ -86,7 +86,7 @@ One of the best things about an advanced CIAM solution is the ability to tie in 
 
 CIAM can be used to both extract and store many different data points, feeding them back to your other systems for use.
 
-[![buy-vs-build](buy-vs-build.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![buy-vs-build](buy-vs-build.webp)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 ### 7\. Scalability During High Demand
 
@@ -104,4 +104,4 @@ The main thing to remember is that customer IAM is all about customer experience
 
 Today that means you need to offer self-service data management and make use of the additional customer data that CIAM platform can give you. Only then can you improve what you offer customers at virtually every point in their journey.
 
-[![CIAM Platform](CTA-Graphics-for-Blogs-13.png)](https://www.loginradius.com/book-demo/)
+[![CIAM Platform](CTA-Graphics-for-Blogs-13.webp)](https://www.loginradius.com/book-demo/)

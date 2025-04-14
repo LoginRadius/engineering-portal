@@ -1,7 +1,7 @@
 ---
 title: "User Authentication in the Metaverse: What’s Changing?"
 date: "2022-10-12"
-coverImage: "metaverse.jpg"
+coverImage: "metaverse.webp"
 tags: ["user authentication", "mfa","passwordless login","biometric authentication"]
 author: "James Durr"
 description: "The importance of user authentication is paramount to maintaining the security of the metaverse. This blog looks into a number of widely-used authentication models and, in doing so, explores the future of user authentication in the metaverse."
@@ -50,7 +50,7 @@ While this approach is generally more secure than a basic password, many fraudst
 
 What is more, this method includes an additional friction point, which makes it less user-friendly and potentially frustrating.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### 3. Biometric authentication
 
@@ -94,4 +94,4 @@ The process works in this way:
 
 From user “behaviour” analysis to asymmetric encryption, we can expect the authentication experience to flow more and more easily as the metaverse develops. All changes to the “login” process are likely to follow this pattern throughout the foreseeable future.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=changing-user-authentication-in-metaverse)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=changing-user-authentication-in-metaverse)

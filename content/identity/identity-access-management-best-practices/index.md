@@ -1,7 +1,7 @@
 ---
 title: "9 Identity and Access Management Best Practices for 2021"
 date: "2020-11-11"
-coverImage: "Identity-and-Access-Management-Best-Practices.jpg"
+coverImage: "Identity-and-Access-Management-Best-Practices.webp"
 tags: ["identity management","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "Enforcing best practices for identity and access management allows you to know who can access the confidential data and under what conditions they can access it. You will need a detailed overview of the IT infrastructure of your company so that you can track all of your components for future and current threats."
@@ -25,7 +25,7 @@ The dust is still settling. With compromised credentials remaining a key compone
 - **BYOD-related challenges**: Bring Your Own Device or BYOD turns out to be carrying its own set of advantages and [cybersecurity challenges](https://www.loginradius.com/blog/2019/10/cybersecurity-attacks-business/) for enterprises. On the one hand, businesses enjoy a great deal of cost-cutting by letting employees work on their own devices. But on the other, it has been increasing the strain on security systems. Numerous data leaks and malware infections are already detected. It has turned out to be much harder to track and manage different types of devices.
 - **Internet Of Things (IoT)**: With the adoption of IoT, companies are becoming more dependent on interconnected technology. As a result, attackers are exploiting the vulnerabilities in the IoT infrastructure. Security threats like DDoS and ransomware are becoming a common occurrence. 
 
-![alt_text](Identity-and-Access-Management-img2.png "IOT")
+![alt_text](Identity-and-Access-Management-img2.webp "IOT")
 
 
 ## What Is Identity and Access Management
@@ -57,7 +57,7 @@ The former could be a key or a security pass. While the later means biometrics, 
 
 MFA ensures that even if one layer is compromised, the hacker still has to break in another layer of security to access your system. 
 
-[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### 3\. Avoid privileged accounts
 
@@ -122,4 +122,4 @@ Enforcing identity and access management best practices require that you underst
 
 You also need a comprehensive overview of your organization’s IT infrastructure so you can monitor all your elements for potential and existing threats. Staying updated on the latest industry trends will help you improve your current IAM environment.
 
-[![book-a-demo-loginradius-banner](Book-a-demo-banner.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-access-management-best-practices)
+[![book-a-demo-loginradius-banner](Book-a-demo-banner.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-access-management-best-practices)

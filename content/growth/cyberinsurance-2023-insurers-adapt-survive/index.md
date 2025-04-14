@@ -1,7 +1,7 @@
 ﻿---
 title: "Cyber Insurance in 2023: Takeaways For The Future And How To Prepare For It"
 date: "2023-01-06"
-coverImage: "cyber-insurance.jpg"
+coverImage: "cyber-insurance.webp"
 tags: ["cybersecurity", "cyberinsurance", "risk management"]
 author: "Alok Patidar"
 description: "As cyber risks continue to evolve and increase, it is no surprise that cyber insurance is becoming one of the fastest-growing insurance products in the market. Learn how it will shape the security space in 2023."
@@ -70,7 +70,7 @@ When it comes to cyber insurance renewals, here are a few things insurers will w
 Multi-factor authentication protection on all remote access to your network, including any remote desktop protocol connections, email server, cloud services, and backup data solutions. Ensure that all network administrator accounts and any other user accounts with elevated permissions have multi-factor authentication protection.
 
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 2. Endpoint security
@@ -103,6 +103,6 @@ As cyber security threats continue to grow and evolve into a full-blown crisis, 
 
 In 2023, we will have many more concrete innovations, propelling the insurance industry into a better place than it ever has before. This will put them in a prime position to meet the challenges of tomorrow with agility, not uncertainty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyberinsurance-2023-insurers-adapt-survive)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyberinsurance-2023-insurers-adapt-survive)
 
 

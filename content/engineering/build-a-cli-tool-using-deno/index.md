@@ -1,7 +1,7 @@
 ---
 title: "Build A Simple CLI Tool using Deno"
 date: "2020-06-08"
-coverImage: "cli-tool.png"
+coverImage: "cli-tool.webp"
 author: "Mohammed Modi"
 tags: ["Deno", "CLI", "Programming"]
 ---
@@ -123,15 +123,15 @@ To test our program, we're going to run $ deno run `--allow-net mod.ts -g`. We s
 
 * For Global Records
 
-![global-data](global-data.png)
+![global-data](global-data.webp)
 
 * For Country Wise Record
 
-![country-data](country-data.png)
+![country-data](country-data.webp)
 
 * For Help
 
-![help](help.png)
+![help](help.webp)
 
 That's all there is for our cli tool. If you'd like to see the full code, the repository is linked [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/covid-cli). In conclusion, Deno is a very exciting project especially because you get all the benefits of typescript out of the box without the need to compile your files to js. 
 

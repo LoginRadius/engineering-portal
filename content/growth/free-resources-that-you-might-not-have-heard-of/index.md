@@ -1,7 +1,7 @@
 ---
 title: "Free Resources That You Might Not Have Heard Of"
 date: "2017-01-23"
-coverImage: "free-resources-150x150.png"
+coverImage: "free-resources-150x150.webp"
 tags: ["resources","article","cx"]
 author: "Rakesh Soni"
 description: "It is said that every good thing comes with a price tag attached. Well, looks like this is not applicable to all good things. The articles lists down some useful free resources you might not have heard of."
@@ -31,4 +31,4 @@ Here are some things which are not that popular but are worth trying at least on
 
 So here are my favorite free resources that make my everyday life easier! Have you tried these? Or do you know about any other free resources that can make my job easier, would love to know in the comments below!
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=free-resources-that-you-might-not-have-heard-of)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=free-resources-that-you-might-not-have-heard-of)

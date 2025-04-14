@@ -1,7 +1,7 @@
 ---
 title: "Safe Data Act: A New Privacy Law in the Town"
 date: "2020-12-03"
-coverImage: "safe-data-act-privacy-law.jpg"
+coverImage: "safe-data-act-privacy-law.webp"
 tags: ["privacy-and-compliance"]
 featured: false 
 author: "Rakesh Soni"
@@ -29,7 +29,7 @@ The Safe Data Act combines three previously introduced privacy protection bills 
 Americans would have a greater choice of control over their data. In particular, the law would create rights to transparency, access, deletion, correction, and portability for consumers. Additionally, businesses would require to make a baseline level of data security, including opt-in consent for the process and transfer of sensitive data. 
 
 
-![alt_text](safe-data-act.png "safe-data-act")
+![alt_text](safe-data-act.webp "safe-data-act")
 
 
 Image source: [iapp]
@@ -58,7 +58,7 @@ Moving on, when a new legislation is about to come into force, the first step ev
 
 Here's how you can adopt the best risk management practices to ensure that your business is ready for compliance. 
 
-![protect-your-consumer-privacy-with-loginradius](protect-your-consumer-privacy-with-loginradius.png)
+![protect-your-consumer-privacy-with-loginradius](protect-your-consumer-privacy-with-loginradius.webp)
 
 
 ## 4 Ways to Strengthen Your Compliance and Risk Management Practices
@@ -71,7 +71,7 @@ Here's how you can adopt the best risk management practices to ensure that your 
 
 4. **Approach an already compliant identity provider**: Another way to look at this is to get the job done by onboarding providers who are already big names in the industry for their compliance-adherence standards, like LoginRadius. It takes [consumer data privacy](https://www.loginradius.com/blog/2020/06/consumer-data-privacy-security/) very seriously and is compliant with major regulations like the CCPA and the GDPR.
 
-[![WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity/)
+[![WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity/)
 
 
 ## Protect Your Consumer Privacy With the LoginRadius Identity Platform 
@@ -91,4 +91,4 @@ In a bid to ensure businesses the highest level of protection, the LoginRadius c
 
 It is in your businesses' best interest to comply with privacy regulations, like the Safe Data Act. Not only does it help you dodge off data breaches and [cyber attacks](https://www.loginradius.com/blog/identity/cybersecurity-attacks-business/), but it also confirms businesses that they can trust you with their confidential consumer data—and that's priceless! 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=safe-data-act)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=safe-data-act)

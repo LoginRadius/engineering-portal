@@ -1,7 +1,7 @@
 ---
 title: How to make a telegram bot
 date: "2020-10-20"
-coverImage: "bot.png"
+coverImage: "bot.webp"
 author: "Rajan Puri"
 tags: ["Telegram Bot", "Python"]
 description: "What is a bot and How to make our own Telegram bot."

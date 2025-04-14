@@ -1,7 +1,7 @@
 ---
 title: "The Growing Digital Enterprise: Achieving Success Through a Multi-Brand Strategy"
 date: "2023-07-05"
-coverImage: "multi-brand-strategy.jpg"
+coverImage: "multi-brand-strategy.webp"
 tags: ["customer loyalty","identity management","ciam solution","cx"]
 author: "Vishal Sharma"
 description: "Discover the power of a multi-brand strategy in the digital enterprise. From branding to market expansion and risk mitigation, this blog unveils the key elements that lead to success in the ever-changing digital landscape. Harness the potential of multiple brands to drive growth and deliver personalized experiences that resonate with your target audience."
@@ -54,7 +54,7 @@ The digital era has ushered in an era of personalized experiences, and customers
 
 A multi-brand strategy enables enterprises to adopt a customer-centric approach by customizing offerings, messaging, and experiences according to different target segments. 
 
-[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 By leveraging data analytics and insights, businesses can gain a deeper understanding of customer preferences and behaviors, enabling them to deliver hyper-relevant experiences that foster long-term loyalty.
 
@@ -72,4 +72,4 @@ As the digital enterprise continues to evolve and thrive, branding has emerged a
 
 By harnessing the power of branding in the digital era, enterprises can unlock new growth opportunities and build lasting connections with their customers, paving the way for sustained success in the ever-evolving digital realm.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-brand-strategy-for-digital-enterprises)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-brand-strategy-for-digital-enterprises)

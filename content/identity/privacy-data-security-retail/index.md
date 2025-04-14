@@ -1,7 +1,7 @@
 ---
 title: "How Retailers Can Balance Privacy While Foiling Thieves"
 date: "2023-09-27"
-coverImage: "privacy-balancing.jpg"
+coverImage: "privacy-balancing.webp"
 tags: ["data privacy","compliance","data security","ciam solutions","cx"]
 author: "Jackson Maven"
 description: "In the world of retail, finding the balance between privacy and security is paramount. This delicate equilibrium ensures compliance with evolving regulations and builds trust and loyalty among customers. By embracing modern technologies like passwordless authentication and robust data governance, retailers can safeguard privacy while enhancing the customer experience."
@@ -30,7 +30,7 @@ Policymakers must adjust their strategy to cater to their business model and vul
 
 Meanwhile, an ecommerce site would revoke employee ID access to reduce phantom accounts opening vulnerabilities to hackers. 
 
-[![DS-retail-and-ecommerce](DS-retail-and-ecommerce.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![DS-retail-and-ecommerce](DS-retail-and-ecommerce.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 ## Why Is Privacy Important to Retailers?
 
@@ -76,4 +76,4 @@ Modern measures such as passwordless authentication, cloud-based security, and f
 
 In some ways, they enhance it–improving access to personal accounts and the ability to maintain control over their shopping experience. Similarly, these measures help retailers comply with state and national laws, preventing financial loss through fines or breaches. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-data-security-retail)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-data-security-retail)

@@ -1,7 +1,7 @@
 ﻿---
 title: "CIAM Continues to Draw Attention as Okta acquires Auth0"
 date: "2021-03-04"
-coverImage: "loginradius-blog.jpg"
+coverImage: "loginradius-blog.webp"
 tags: ["LoginRadius"]
 featured: false 
 author: "Rakesh Soni"
@@ -92,4 +92,4 @@ I’m excited for all the CIAM players.
 
 Together, let's build a world which is more secure, where privacy is protected and where consumers have delighted digital experience.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-acquires-auth0)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-acquires-auth0)

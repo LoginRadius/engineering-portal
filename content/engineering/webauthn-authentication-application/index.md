@@ -1,7 +1,7 @@
 ---
 title: "WebAuthn: A Guide To Authenticate Your Application"
 date: "2020-12-09"
-coverImage: "webauthn-logo.png"
+coverImage: "webauthn-logo.webp"
 author: "Chris Yee"
 tags: ["WebAuthn", "FIDO", "Authentication"]
 description: "Web authentication, or WebAuthn in short. A go-to guide for developers to learn more about WebAuthn API, and how to set it up in their services.."
@@ -17,7 +17,7 @@ The WebAuthn authentication process involves the interaction between three entit
 
 The registration process begins when the client generates some sort of identifying information about themselves. Typically, this would be a user name or an email from the user but could be another identifier sent from the client, such as a randomly generated GUID. Using the Web Authentication APIs with JavaScript, the client can request the relying party to register the authenticator credentials.
 
-![WebAuthn Flow](webauthn-flow.png)
+![WebAuthn Flow](webauthn-flow.webp)
 
 After receiving the request from the client, the relying party generates a challenge based on the options provided by the client. The client receives the response and attempts to get the user to verify the authenticator being used. For example, with Windows Hello as the authenticator, the user can enter their PIN. After verifying the authenticator, it signs the challenge-response back with identifying details and returns it to the relying party, which validates the authenticator and registers the user.
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Implement Registration and Authentication in Django?"
 date: "2021-07-30"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Taminoturoko Briggs"
 tags: [Django, Authentication, User Registration]
 description: "In this tutorial, you will learn how to implement user registration and authentication in Django using LoginRadius."
@@ -35,13 +35,13 @@ To get started with LoginRadius, you have to first [create a free developer acco
 If you already have an account, log into your [LoginRadius dashboard](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login) 
 You will see a page like this:
 
-![Dashboard](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849810764_Screenshot+34.png)
+![Dashboard](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849810764_Screenshot+34.webp)
 
 When you create an account, LoginRadius sets up a free app for you. This is the app you are going to integrate with Django. Here my app name is "tammibriggs".
 
 Click on your app, and you will see a page like this:
 
-![LoginRadius app](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849852750_Screenshot+36.png)
+![LoginRadius app](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849852750_Screenshot+36.webp)
 
 There is one more thing LoginRadius automatically creates for you: an [Auth Page (IDX)](https://www.loginradius.com/developers/).
 
@@ -62,11 +62,11 @@ This section covers:
 Before using any of the APIs that LoginRadius provides, you need to get your **App Name**, **API Key**, and **API Secret**.
 On your LoginRadius app, navigate to [Configuration > API Credentials](https://dashboard.loginradius.com/configuration)
 
-![API credentials](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849573473_Screenshot+38.png)
+![API credentials](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849573473_Screenshot+38.webp)
 
 You will find your API key under the **API Key and Secret** subsection.
 
-![API key and secret](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849474291_Screenshot+44_LI.jpg)
+![API key and secret](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849474291_Screenshot+44_LI.webp)
 
 
 **Whitelist your Domain**
@@ -75,7 +75,7 @@ For security reasons, LoginRadius processes the API calls that are received from
 Local domains (`http://localhost` and `http://127.0.0.1`) are whitelisted by default. This means you don't have to worry about whitelisting your domain if you are running your application on Django's development server. But in a production environment, you definitely have to whitelist our domain.
 To whitelist your domain, in your LoginRadius Dashboard, navigate to [Configuration > Whitelist Your Domain](https://dashboard.loginradius.com/configuration) and add your domain name.
 
-![Whitelist your domain](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849403941_Screenshot+41.png)
+![Whitelist your domain](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849403941_Screenshot+41.webp)
 
 
 **Installation of Dependencies**
@@ -374,11 +374,11 @@ Also, in the register and login link, we replaced the {RETURN_URL} parameter wit
 
 Run the development server and open `http://127.0.0.1:8000/`, you will see a page like this:
 
-![Register and Login page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849064162_Screenshot+48.png)
+![Register and Login page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849064162_Screenshot+48.webp)
 
 Now, when you click the register or login button, you will see a page like this:
 
-![Auth page (IDX)](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849029873_Screenshot+46.png)
+![Auth page (IDX)](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626849029873_Screenshot+46.webp)
 
 > When LoginRadius successfully authenticates a user, it attaches an access token in the query string as a token parameter to the REDIRECT_URL.
 
@@ -515,7 +515,7 @@ Here we displayed the Provider, Email and NoOfLogins from the `user_data`. These
 
 Now, if you run your development server, and then register and login a user, you should see a page like this:
 
-![Profile page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626848979749_Screenshot+51.png)
+![Profile page](https://paper-attachments.dropbox.com/s_06CCF8584138C77AD580AFE76E986CC1E8C4C360158F4A6548D0F9EAC304864E_1626848979749_Screenshot+51.webp)
 
 
 To see the entire data present in the `user_data`, you can do something like this in your `profile.html`, file:

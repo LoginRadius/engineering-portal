@@ -1,7 +1,7 @@
 ---
 title: Google OAuth2 Authentication in NodeJS - A Guide to Implementing OAuth in Node.js
 date: "2020-02-12"
-coverImage: "google_cover.jpg"
+coverImage: "google_cover.webp"
 author: "Puneet Singh"
 tags: ["NodeJs","SocialLogin","Oauth"]
 description: "Learn how to implement Google OAuth2 Authentication in NodeJS using Passport"
@@ -219,14 +219,14 @@ node index.js
 
 Once our server is running, we can see our social login page on `http://localhost:3000/`
 
-![Social Authentication Page](social_login.jpg "Social Authentication Page")
+![Social Authentication Page](social_login.webp "Social Authentication Page")
 
 We need to click on **SignIn with Google button**, which will redirect us to the google login page.
 
-![Google Login](google_login.jpg "Google Login")
+![Google Login](google_login.webp "Google Login")
 
 After login with our google credentials, it will redirect back to our application and on the success page, we can see the details of the logged-in user and can save this detail in a database for future use also.
 
-![Social Profile Info](profileinfo_google.jpg "Social Profile Info")
+![Social Profile Info](profileinfo_google.webp "Social Profile Info")
 
 As we have seen it is fairly easy to build a google social authentication system with Node.js and Passport.js, You can found the complete code used in this tutorial on our [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/GoogleAuthenticationPassport)

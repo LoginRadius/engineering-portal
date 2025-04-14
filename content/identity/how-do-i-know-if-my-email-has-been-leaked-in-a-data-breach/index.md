@@ -1,7 +1,7 @@
 ---
 title: "How Do I Know If My Email Has Been Leaked in a Data Breach?"
 date: "2019-01-10"
-coverImage: "email-breach.jpg"
+coverImage: "email-breach.webp"
 tags: ["data security","password management","cx"]
 author: "Rakesh Soni" 
 description: "To log into their online accounts, many individuals use their email addresses and a short collection of passwords (or even only one password). Sadly, this means that every hacker already has half your login information with your email address. Add in multiple login violations from big-name digital service providers and you have a catastrophe recipe."
@@ -31,7 +31,7 @@ Check a few of your emails on the site, and chances are that at least one of the
 
 There's also a handy [password checker](https://haveibeenpwned.com/Passwords) to find out if a certain password has made its way into the public domain. (Don’t worry, the site uses hashing to keep your password anonymous and doesn’t store it.)
 
-[![Protecting-PII-Data-Breaches-industry-report](RP-Data-Breach-Report.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![Protecting-PII-Data-Breaches-industry-report](RP-Data-Breach-Report.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 Out of curiosity I checked the statistics for using "password" as a password—it turned out to have been pwned 3,533,661 times, a stark reminder that common sense doesn't always triumph when humans are left to their own devices [regarding password strength](https://www.loginradius.com/blog/2019/12/worst-passwords-list-2019/).
 
@@ -39,7 +39,7 @@ Subscribing to Have I Been Pwned is free and doing so will alert you to future l
 
 ### What Should I Do if I Find My Address in an Email Leak?
 
-![](image-2.jpg)
+![](image-2.webp)
 
 #### 1\. Change Your Passwords
 
@@ -65,4 +65,4 @@ If you're responsible for your company’s data security or digital platforms, t
 
 LoginRadius has a vested interest in maintaining the highest levels of data protection. 
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-do-i-know-if-my-email-has-been-leaked-in-a-data-breach)

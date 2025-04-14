@@ -1,7 +1,7 @@
 ﻿---
 title: "Planning a Digital Makeover For Your Business? LoginRadius CIAM Can Help!"
 date: "2022-05-27"
-coverImage: "business-ciam.jpg"
+coverImage: "business-ciam.webp"
 tags: ["ciam", "user experience", "sso", "compliance"]
 author: "Rakesh Soni"
 description: "Incorporating a CIAM solution could be the best way to overcome security and challenges related to customer experience. Learn how LoginRadius can help businesses navigate their digital transformation journey and scale growth."
@@ -75,7 +75,7 @@ Our modern cloud infrastructure is protected to the highest industry standards. 
 
 In a technologically-driven interconnected world where every second counts, LoginRadius CIAM guarantees unparalleled uptime of 99.99% every month. The cloud-based identity provider manages 180K logins per second, 20 times more than its major competitors offering similar services. 
 
-[![WP-decoding-resiliance](WP-decoding-resiliance.png)](https://www.loginradius.com/scalability/)
+[![WP-decoding-resiliance](WP-decoding-resiliance.webp)](https://www.loginradius.com/scalability/)
 
 Apart from delivering the industry's best consumer experience, the following are a few ways the platform excels compared to its global competitors.
 
@@ -97,4 +97,4 @@ When choosing the industry leader in the CIAM landscape, LoginRadius CIAM delive
 Whether it’s the overall performance or the peak load capacity, LoginRadius is helping global enterprises, including Fortune 500 companies, revamp their consumer journeys. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=transform-business-with-loginradius-ciam)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=transform-business-with-loginradius-ciam)

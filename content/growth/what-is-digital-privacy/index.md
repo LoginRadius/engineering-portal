@@ -1,7 +1,7 @@
 ﻿---
 title: "Decoding the Business Advantage of Digital Privacy for Customers"
 date: "2022-11-03"
-coverImage: "digi-privacy.jpg"
+coverImage: "digi-privacy.webp"
 category: ["digital privacy","compliance","passwordless authentication"]
 author: "Alok Patidar"
 description: "Investing in privacy isn’t just a matter of mitigating risks pertaining to data breaches; it’s also about navigating business success by building trust and offering value to customers through enhanced security and protections. Let’s understand how businesses can invoke the true potential of digital privacy."
@@ -57,7 +57,7 @@ Businesses operating in different parts of the world couldn’t deny that meetin
 
 However, digital privacy has more to offer besides the security and privacy advantages; it navigates overall business success. 
 
-[![WP-compliance-retailers](WP-compliance-retailers.png)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
+[![WP-compliance-retailers](WP-compliance-retailers.webp)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
 
 According to a consumer data protection and privacy survey conducted by [McKinsey](https://www.mckinsey.com/business-functions/risk-and-resilience/our-insights/the-consumer-data-opportunity-and-the-privacy-imperative), half of the respondents agreed that they are most likely to trust a business/organization that asks for only information relevant to its products/services. 
 
@@ -83,4 +83,4 @@ In conclusion, we’ve found that building a foundation of strong digital privac
 
 Brands can’t afford to lose a single customer because of non-compliance issues. Hence, it won’t be a good decision for businesses to miss out on the chance to stay ahead of the competition. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-digital-privacy)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-digital-privacy)

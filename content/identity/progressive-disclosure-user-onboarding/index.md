@@ -1,7 +1,7 @@
 ---
 title: "How Progressive Disclosure Makes Your User's Onboarding Easy"
 date: "2021-08-18"
-coverImage: "progressive-disclosure-user-onboarding-cover.jpg"
+coverImage: "progressive-disclosure-user-onboarding-cover.webp"
 tags: ["user onboarding","data security","progressive profiling"]
 author: "Vishal Sharma"
 description: "Progressive disclosure helps businesses portray essential information initially and then gradually uncover the rest of the features that ensure users aren’t overburdened and that their purpose is solved. This post helps businesses understand the importance of progressive disclosure and progressive profiling that work harmoniously to enhance conversions."
@@ -94,4 +94,4 @@ LoginRadius’ Progressive profiling is helping thousands of businesses to strea
 
 If you wish to see the future of progressive profiling and progressive disclosure in action, [contact us](https://www.loginradius.com/contact-sales/) now. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-disclosure-user-onboarding)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-disclosure-user-onboarding)

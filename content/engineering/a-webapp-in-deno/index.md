@@ -2,7 +2,7 @@
 title: "Creating a Web Application using Deno"
 date: "2020-06-03"
 author: "Mohammed Modi"
-coverImage: "deno.jpg"
+coverImage: "deno.webp"
 tags: ["Deno"]
 ---
 
@@ -91,7 +91,7 @@ deno run --allow-read --allow-net=0.0.0.0:8000 index.ts
 ```
 After successful compile, you will see the output as below.
 
-![deno-first-app](deno-first-app.png)
+![deno-first-app](deno-first-app.webp)
 
 ### Creating a basic calculator app
 Hence after the successful serving of our static file, we can also add `js` in it. Let start with the basic calculator app for now.
@@ -190,7 +190,7 @@ Great!!! Our calculator app is now almost ready, let's save all the file and rel
 
 You can see our calculator app in the browser like below.
 
-![basic-calculator](basic-calculator.png)
+![basic-calculator](basic-calculator.webp)
 
 If you'd like to see the full code, the repository is linked [here](https://github.com/LoginRadius/engineering-blog-samples/tree/master/Deno/WebAppWithDemo).
 

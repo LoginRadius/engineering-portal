@@ -1,7 +1,7 @@
 ---
 title: "Bootstrap 4 vs. Bootstrap 5: What is the Difference?"
 date: "2021-10-21"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Rutam Prita Mishra"
 tags: ["Bootstrap", "Frontend", "Sass"]
 description: "This article discusses the differences between Bootstrap 4 and Bootstrap 5 and helps you understand which version you should use for your projects."
@@ -129,7 +129,7 @@ Bootstrap 5 no longer supports Internet Explorer 10 and 11 like its predecessor,
 
 Bootstrap 4 had limited color options. But Bootstrap 5 has included many new color options to its color palette, enabling you to choose from the various shades available. You can find some of the color shades below.
 
-![Bootstrap 5 Color](colors.png)
+![Bootstrap 5 Color](colors.webp)
 
 ### Bootstrap Icons
 
@@ -137,7 +137,7 @@ Bootstrap 4 didn't have an SVG icon library. You had to use other third-Party li
 
 It also includes a web font version in the stable version release of the icon library.
 
-![Bootstrap 5 Icons](BootStrapIcons.png)
+![Bootstrap 5 Icons](BootStrapIcons.webp)
 
 
 ### Site Generation Strategy
@@ -156,19 +156,19 @@ Bootstrap 5 update brings in an update for Popper.js as well, `Popper.js v2`. Po
 
 Bootstrap 5 allows loading placeholders in your pages. This means that you can utilize the space of the components by showing placeholders in their place while they're still loading the actual content.
 
-![Placeholder Components](placeholders.png)
+![Placeholder Components](placeholders.webp)
 
 ### Floating Labels
 
 Bootstrap 5 adds support for floating labels in forms for the input fields. You can simply use the `form-floating` class to enable a floating label. When you enter some value into the input fields, they automatically adjust their position to their floated area.
 
-![Floating Labels](flabels.png)
+![Floating Labels](flabels.webp)
 
 ### RTL Support
 
 Bootstrap 5 has added support for RTL (Right-to-Left), which means you can develop content that needs writing from the right side of the page and continues to the left. As a result, websites in languages like Arabic, Sindhi, and Urdu can easily be developed.
 
-![RTL Dashboard Example](rtl.png)
+![RTL Dashboard Example](rtl.webp)
 
 ### jQuery Deprecation
 
@@ -196,7 +196,7 @@ Bootstrap used jQuery from the very beginning as a dependency to offer dynamic f
 
 - Lastly, Bootstrap 5 also adds a new `offcanvas` component that enables you to create hidden view panes that would pop out when you interact with component tied to it -- e.g., side navigation bars, shopping carts, etc. Here is an example of the bottom `offcanvas` component.
 
-![Offcanvas Bottom Bar](offcanvas.png)
+![Offcanvas Bottom Bar](offcanvas.webp)
 
 ## Summary
 

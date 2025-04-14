@@ -1,7 +1,7 @@
 ---
 title: "How AI-Enabled Cybersecurity Solutions Are Strengthening Our Online Security"
 date: "2024-09-30"
-coverImage: "cyber-security-technology-online-data-protection-by-ai-robot.jpg"
+coverImage: "cyber-security-technology-online-data-protection-by-ai-robot.webp"
 tags: ["cybersecurity","AI","customer identity"]
 author: "Carl Torrence"
 description: "CIAM gets a major upgrade with AI, which secures customer identities, streamlines access, and ensures only the right people get in. But we can't just set it and forget it. Discover why AI is a game changer, key applications in the field, and what the future looks like with AI advancements."
@@ -58,7 +58,7 @@ For example, the credit union knowledge base includes large volumes of sensitive
 
 This dual focus on security and efficiency helps credit unions maintain the trust of their members while navigating the complexities of modern digital threats.
 
-[![CTA](cta.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![CTA](cta.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### 4. Fraud detection and prevention
 

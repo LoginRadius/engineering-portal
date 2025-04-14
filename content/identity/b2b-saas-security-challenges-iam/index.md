@@ -1,7 +1,7 @@
 ---
 title: "How does identity management address the top 5 security challenges in B2B SaaS?"
 date: "2024-02-12"
-coverImage: "b2bsaas.jpg"
+coverImage: "b2bsaas.webp"
 tags: ["b2b","saas","identity management"]
 author: "Rakesh Soni"
 description: "As the usage and adoption of B2B SaaS applications are growing, businesses need to find a robust solution to overcome the associated security concerns. Presenting IAM or Identity Access Management, a world-class solution to create a secure digital experience for your business partners."
@@ -47,7 +47,7 @@ SaaS applications provide APIs for integration with other cloud services and on-
 
 Depending on the industry, companies have to comply with regulations like HIPAA, PCI DSS, GDPR, CCPA, etc. Non-compliance can lead to fines and reputational damage. Weak identity and access controls conflict with compliance mandates around data security, privacy, and user access governance. It leads to increased audit scrutiny and financial risk.
 
-[![DS-LR-CCPA](DS-LR-CCPA-comp.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-LR-CCPA](DS-LR-CCPA-comp.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 ## Identity and Access Management - Solution to B2B SaaS Security Challenges
 
@@ -127,4 +127,4 @@ Robust identity and access management (IAM) solutions provide businesses with th
 
 By investing in [LoginRadius](https://www.loginradius.com/) cloud-native Identity-as-a-Service platform, SaaS companies can future-proof security while also enabling great customer experiences. Schedule a demo and discuss a risk-free pilot project for your **B2B SaaS** identity needs. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-challenges-iam)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-challenges-iam)

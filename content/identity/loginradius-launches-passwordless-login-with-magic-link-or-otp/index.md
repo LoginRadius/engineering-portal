@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Launches Passwordless Login with Magic Link or OTP, Keeps Barriers Low During Registration and Login"
 date: "2020-10-29"
-coverImage: "DS-Login-with-Magic-Link-or-OTP.png"
+coverImage: "DS-Login-with-Magic-Link-or-OTP.webp"
 tags: ["passwordless login","data security","cx"]
 author: "Karl Wittig"
 description: "The problem with passwords is that they can be guessed, hacked, or coerced out of consumers through social engineering attacks. So, why not eliminate the main source of insecurity by going passwordless?"
@@ -16,7 +16,7 @@ The recently launched Passwordless Login with Magic Link or OTP feature by Login
 
 Passwordless Login with Magic Link or OTP reduces friction during the registration and login processes. Once the customer enters the Email Address or Phone Number, they receive a magic link via email or OTP on the phone number. As the consumer clicks the magic link or enters the OTP, LoginRadius creates an account (provided it doesn’t already exist), and the consumer automatically logs into the account.
 
-[![Passwordless Login with OTP](DS-Passwordless-Login-with-Magic-Link-or-OTP-1.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![Passwordless Login with OTP](DS-Passwordless-Login-with-Magic-Link-or-OTP-1.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 [Passwordless Login](https://www.loginradius.com/passwordless-login/) with Magic Link or OTP is designed by LoginRadius to help your business in the following ways: 
 
@@ -42,4 +42,4 @@ LoginRadius also supports various **implementation and deployment methods** that
 
 Times are changing. The majority of consumers do not look forward to creating and entering passwords anymore. Passwordless Login with Magic Link or OTP by LoginRadius is the one-click solution for consumers’ fast-paced authentication needs. It helps businesses improve their security posture while providing a better consumer experience. 
 
-[![LoginRadius Book Free Demo](Book-a-demo-1024x310-1-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-passwordless-login-with-magic-link-or-otp)
+[![LoginRadius Book Free Demo](Book-a-demo-1024x310-1-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-passwordless-login-with-magic-link-or-otp)

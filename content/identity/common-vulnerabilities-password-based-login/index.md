@@ -1,7 +1,7 @@
 ---
 title: "4 Common Security Issues Found In Password-Based Login"
 date: "2022-03-17"
-coverImage: "password-login.jpg"
+coverImage: "password-login.webp"
 tags: ["passwordless login","cx","mfa","authentication"]
 author: "Navanita Devi"
 description: "Password-based login is the most commonly used form of authentication, but it's not always the most secure. This blog covers some of the common security issues found in password-based login systems and how to avoid them."
@@ -76,7 +76,7 @@ The "Digital Shadows Photon Research" states that the number of stolen username 
 * Use risk-based  authentication.
 * Use bot management to stop malicious bots from making login attempts without impacting legitimate logins. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### 4. Dictionary Attack
 
@@ -99,4 +99,4 @@ The problem is that the current digital environment exposes [authentication syst
 
 The tips discussed in this blog can help you avoid the pitfalls that come with password-based login systems.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=common-vulnerabilities-password-based-login)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=common-vulnerabilities-password-based-login)

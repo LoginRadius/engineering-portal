@@ -1,7 +1,7 @@
 ﻿---
 title: "Role of Consumer Identity Authentication in Digital Banking"
 date: "2021-07-19"
-coverImage: "Digital-banking-platform-making-opt.jpg"
+coverImage: "Digital-banking-platform-making-opt.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -39,7 +39,7 @@ To put that in context, identity solutions for digital marketing and access mana
 
 The instruments that assure the legality of these distant movements are the electronic signature and systems for certified evidence retention. The main problem, however, is identity identification, which ensures the transaction's authenticity and intentionality. It is no longer sufficient to protect a basic user code and password.
 
-[![Product-Passwordless-Login](Product-Passwordless-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![Product-Passwordless-Login](Product-Passwordless-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 ## What To Do To Highlight Consumer Identity
 
@@ -75,4 +75,4 @@ If identification is the real cash, then digital identity and banking authentica
 
 [LoginRadius](https://www.loginradius.com/) provides seamless, call or SMS-based Multi-Factor Authentication with a visible layer of security protection. You get to choose whether this security system is mandatory or optional for your consumers. The SMS and call systems hold zero lag with global coverage! [Contact the team](https://www.loginradius.com/contact-sales/) today!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-role-in-the-digital-banking)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-role-in-the-digital-banking)

@@ -1,7 +1,7 @@
 ---
 title: "Announcement - Authentication API Analytics to Evaluate the Performance of LoginRadius APIs for Your Applications"
 date: "2021-03-23"
-coverImage: "api-authentication-analytics-cover.png"
+coverImage: "api-authentication-analytics-cover.webp"
 tags: ["authentication","ciam solution","cx"]
 author: "Kundan Singh"
 description: "Recently, LoginRadius launched Authentication API Analytics to provide an analytics report to businesses and their developers for requests made to different LoginRadius APIs. The feature contains useful charts and analytic tools to view and measure an application's overall performance (where using LoginRadius)."
@@ -25,7 +25,7 @@ The feature contains useful charts and analytic tools to view and measure an app
 
 
 
-[![LoginRadius API Authentication Analytics](loginradius-api-authentication.png)](https://www.loginradius.com/resource/authentication-api-analytics/)
+[![LoginRadius API Authentication Analytics](loginradius-api-authentication.webp)](https://www.loginradius.com/resource/authentication-api-analytics/)
 
 
 
@@ -44,7 +44,7 @@ The [Authentication API Analytics](https://www.loginradius.com/resource/authenti
 
 
 
-![Authentication API Analytics](https://apidocs.lrcontent.com/images/Api-Analytics-4_17205ea22900876201.71720532.png)
+![Authentication API Analytics](https://apidocs.lrcontent.com/images/Api-Analytics-4_17205ea22900876201.71720532.webp)
 
 
 The API analytical and performance data are available in the following three categories:
@@ -57,7 +57,7 @@ The API analytical and performance data are available in the following three cat
 
 
 
-[![LoginRadius lets talk](lets-talk.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=api-authentication-analytics)
+[![LoginRadius lets talk](lets-talk.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=api-authentication-analytics)
 
 
 

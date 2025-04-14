@@ -1,7 +1,7 @@
 ---
 title: "How Companies can Enable Account security for their Consumers"
 date: "2021-04-09"
-coverImage: "account-security-consumers-cover.jpg"
+coverImage: "account-security-consumers-cover.webp"
 tags: ["Security"]
 featured: false 
 author: "Navanita Devi"
@@ -68,7 +68,7 @@ Integrating a two-factor authentication process adds an extra layer of security 
 
 Multi-factor authentication can easily be done by adding a verification code, personal security question, or biometrics. These can easily be integrated into any business or company to increase overall account security. This reduces the likelihood of fraud and identity theft.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![mfa](mfa.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 However, integration of the two-factor or multi-factor authentication process can take time, especially because consumers upgrade their account security at their own pace. In the meanwhile, companies can take other security measures to increase their data security. 
 
@@ -131,4 +131,4 @@ What else makes [LoginRadius' Single Sign-On](https://www.loginradius.com/protoc
 With data at more risk than ever, more users are demanding businesses streamline their user onboarding process while protecting the data at the same time. This usually results in compromising the account security in favor of user-friendliness. As technology advances rapidly, businesses should keep track of the emerging cybersecurity trends and upgrade their data security systems accordingly.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=account-security-consumers)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=account-security-consumers)

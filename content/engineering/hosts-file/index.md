@@ -1,7 +1,7 @@
 ---
 title: "Benefits and usages of Hosts File"
 date: "2020-07-20"
-coverImage: "index.jpg"
+coverImage: "index.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Computer tricks","Networking", "Hosts File"]
 description: "Hosts file maps hostnames to IP addresses, sometimes required to be edited either to block some sites or to test some custom domain.This blog explains how can we edit the hosts in different operating systems."
@@ -31,13 +31,13 @@ Windows operating system we need to open the host file
 
 2. Right-click Notepad and choose Run as administrator
 
-  ![Start Menu](windows1.png)
+  ![Start Menu](windows1.webp)
 
 3. Open the hosts file. Click on File > Open and Copy and Paste the following path`
  
     `c:\Windows\System32\Drivers\etc\hosts`
 
-  ![edit-hosts-file-windows](windows2.png)
+  ![edit-hosts-file-windows](windows2.webp)
 
 You can edit the hosts file
 
@@ -49,16 +49,16 @@ Suppose you want to block facebook.com on your system and want to add a custom d
 0.0.0.0         www.facebook.com
 127.0.0.1       www.customdomain.com
 ```
-  ![Save-hosts-file-windows](windows3.png)
+  ![Save-hosts-file-windows](windows3.webp)
 
 After finishing the Editing, **Save your hosts file**
 
-  ![Save-hosts-file-windows](windows4.png)
+  ![Save-hosts-file-windows](windows4.webp)
 
 
 Open your browser and try to access www.facebook.com and see you can’t access this site
 
-  ![Facebook-windows](windows5.png)
+  ![Facebook-windows](windows5.webp)
 
 
 ##### Linux
@@ -68,7 +68,7 @@ Use following instructions for Linux
   $ sudo vim /etc/hosts
 ```
 
-  ![linux-hosts-file](linux1.png)
+  ![linux-hosts-file](linux1.webp)
 
 
   It will prompt for the password, enter your administrator password.
@@ -77,7 +77,7 @@ Use following instructions for Linux
 
 2. Using the vim or your favorite text editor you can easily edit. The Linux hosts file is similar to the windows hosts file. Now again I am blocking Facebook and adding a custom domain 
 
-  ![linux-hosts-file-edit](linux2.png)
+  ![linux-hosts-file-edit](linux2.webp)
   
 3. Save the Changes
 
@@ -87,7 +87,7 @@ Use following instructions for macOS
 1. Find the terminal application on your system 
  -- We can use Spotlight application to search 
 
-  ![linux-hosts-file-edit](mac1.png)
+  ![linux-hosts-file-edit](mac1.webp)
 
 
   
@@ -95,17 +95,17 @@ Use following instructions for macOS
 -- It will prompt for the password, enter your administrator password 
 -- Enter administrator Password 
             
-  ![mac-password](mac2.png)
+  ![mac-password](mac2.webp)
   
 *Using the vim text editor you can easily edit you. The macOS hosts file is also similar to the windows and Linux hosts file. I am blocking Facebook and adding custom domain here as well*.
 
-  ![mac-hosts-file-edit](mac3.png)
+  ![mac-hosts-file-edit](mac3.webp)
 
 
 3. Save Changes
 Open your browser and try to access www.facebook.com and see you can’t access this site.
 
-  ![edit-hosts-file-mac](mac4.png)
+  ![edit-hosts-file-mac](mac4.webp)
 
 
 ### Conclusion

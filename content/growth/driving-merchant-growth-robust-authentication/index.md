@@ -1,7 +1,7 @@
 ﻿---
 title: "The Crucial Role of Security and CX in Providing Robust Authentication for Merchants"
 date: "2023-03-09"
-coverImage: "robust-authntcation.jpg"
+coverImage: "robust-authntcation.webp"
 tags: ["online shopping","data security","cx"]
 author: "Vishal Sharma"
 description: "Customers expect great experiences backed with robust security while interacting with a brand online. Hence, businesses must cater to them with the appropriate services by leveraging a robust authentication mechanism. Let’s have a look at some of the authentication benefits for merchants."
@@ -61,7 +61,7 @@ CIAM helps merchants to better manage risk by identifying potentially fraudulent
 
 Merchants can implement CIAM using two-factor authentication (2FA) or multi-factor authentication (MFA). 2FA requires customers to provide two forms of identification: a password and a code sent to their mobile device. 
 
-[![EB-GD-to-MFA-EB](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA-EB](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 MFA requires customers to provide three or more forms of identification, such as a password, a code sent to their mobile device, and a fingerprint scan.
 
@@ -74,4 +74,4 @@ As e-commerce continues to grow, merchants must take measures to protect themsel
 
 By implementing CIAM, merchants can protect against fraud, comply with regulations, increase customer trust, improve the customer experience, and better manage risk. With the right tools and strategies, merchants can ensure the security of their online transactions and build a successful and profitable e-commerce business.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-merchant-growth-robust-authentication)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-merchant-growth-robust-authentication)

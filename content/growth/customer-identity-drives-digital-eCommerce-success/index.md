@@ -1,7 +1,7 @@
 ﻿---
 title: "How Customer Identity Solution Drives Digital eCommerce Success"
 date: "2021-07-10"
-coverImage: "ecommerce-digital-identity-solutions.jpg"
+coverImage: "ecommerce-digital-identity-solutions.webp"
 tags: ["identity management","digital transformation","cx"]
 author: "Vishal Sharma"
 description: "Learn how a CIAM solution paves the path for an eCommerce business success and why enterprises thinking to step into the eCommerce world should leverage a cutting-edge CIAM solution."
@@ -31,7 +31,7 @@ In a world when data and identity thefts lead to losses worth millions of dollar
 
 Adding more robust authentication layers, including multi-factor authentication (MFA) and [risk-based authentication](https://www.loginradius.com/blog/identity/risk-based-authentication/) (RBA) to log in and sign-up procedures, can help secure consumer data and prevent a breach.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Also, these secure authentication practices help enterprises to verify the individuals quickly they say they are.
 
@@ -78,4 +78,4 @@ Here's how this works. For example, you want some details from your customers to
 Ecommerce is the new normal in a pandemic era and beyond. Businesses that are swiftly adopting the new age of selling products and services must emphasize delivering a seamless and secure user experience.
 
 A consumer identity and access management solution is undoubtedly the key to win consumer success as enterprises can identify their visitors and [build personalized experiences](https://www.loginradius.com/customer-experience-solutions/) around foremost touchpoints, including research, purchase, discovery, and more.<p>
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-drives-digital-ecommerce-success)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-drives-digital-ecommerce-success)

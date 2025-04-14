@@ -2,7 +2,7 @@
 title: "LoginRadius 2024: A Year of CIAM Innovations"
 description: "LoginRadius wraps up 2024 with transformative CIAM innovations for developers. From Identity Orchestration and Multi-Brand Configuration to Passkeys and a new Admin Console, explore tools designed to simplify workflows and enhance security."
 date: "2024-12-31"
-coverImage: "background-red-3d-podium-with-mobile-screen-mockup-megaphone.jpg"
+coverImage: "background-red-3d-podium-with-mobile-screen-mockup-megaphone.webp"
 author: "Rakesh Soni"
 tags: ["CIAM Innovation","digital identity transformation", "ciam management​", "ciam security​", "ciam technology", "ciam integration​"]
 metatitle: "LoginRadius 2024: A Year of CIAM Innovations"
@@ -32,7 +32,7 @@ Key Highlights:
     
 -   Advanced Analytics: Gain actionable insights into journey performance and optimize based on real-time data.
 
-[![Identity Orchestration by LoginRadius](cta.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![Identity Orchestration by LoginRadius](cta.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 ### 2. Multi-Brand Configuration: Tailored Experiences for Every Brand
 

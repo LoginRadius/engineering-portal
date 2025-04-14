@@ -1,7 +1,7 @@
 ---
 title: "Apache Beam: A Basic Guide"
 date: "2020-10-16"
-coverImage: "main.png"
+coverImage: "main.webp"
 author: "Abhilash K R"
 tags: ["Engineering","Big Data","Streaming","Apache Beam","Java"]
 description: "Apache Beam simplifies large-scale data processing dynamics. Let’s read more about the features, basic concepts, and the fundamentals of Apache beam."
@@ -15,7 +15,7 @@ Different technologies came into existence for different paradigms, solving vari
 
 As a developer or a business, it's always challenging to maintain different tech stacks and technologies. Hence, Apache Beam to the rescue!
 
-![Timeline of Big Data Frameworks](timeline-bigdata-frameworks.png)
+![Timeline of Big Data Frameworks](timeline-bigdata-frameworks.webp)
 
 
 ## What is Apache Beam?
@@ -24,7 +24,7 @@ Apache Beam is an open source, centralised model for describing parallel-process
 
 The Apache Beam model offers helpful abstractions that insulate you from distributed processing information at low levels, such as managing individual staff, exchanging databases, and other activities. These low-level information are handled entirely by Dataflow. 
 
-![Beam-Model](beam_architecture.png)
+![Beam-Model](beam_architecture.webp)
 
 ## Features of Apache Beam
 
@@ -61,7 +61,7 @@ Apache Beam has three main abstractions. They are
 2. PCollection
 3. PTransform
 
-![Beam-Pipeline](pipeline-design.png)
+![Beam-Pipeline](pipeline-design.webp)
 
 ### Pipeline:
 

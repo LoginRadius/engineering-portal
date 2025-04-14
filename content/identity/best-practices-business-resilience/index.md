@@ -1,7 +1,7 @@
 ---
 title: "5 Best Practices of Implementing Business Resilience during a Data Breach"
 date: "2021-02-18"
-coverImage: "business-resilience.jpg"
+coverImage: "business-resilience.webp"
 tags: ["data security","resiliency","cx"]
 author: "Rakesh Soni"
 description: "Business resilience can be defined as a business’ ability to quickly adapt and respond to impending risks or disruptions. More like a combination of crisis management and business continuity strategies post-disaster."
@@ -11,7 +11,7 @@ metadescription: "What is business resiliency and the best practices of implemen
 
 Today, data breaches have become a significant threat to businesses across the globe.  Therefore, considering the long list of resultant consequences to be faced as an aftermath, it is crucial for companies to come out the other side of a breach intact.
 
-The Annual Cybercrime Report  2019 by [Cybersecurity Ventures](https://www.herjavecgroup.com/the-2019-official-annual-cybercrime-report/#:~:text=Cybersecurity%20Ventures%20has%20reaffirmed%20their,associated%20with%20cybercrime%20are%20vast.) says that these data breaches can cost global businesses around $6 trillion in 2021!
+The Annual Cybercrime Report  2019 by Cybersecurity Ventures says that these data breaches can cost global businesses around $6 trillion in 2021!
 
 According to experts, implementing business resilience best practices can help companies overcome issues that come with a data breach.
 
@@ -23,7 +23,7 @@ Read on!
  
 During a data breach, companies’ confidential data are accessed by attackers without permission.  It is not only about sensitive information going out to the wrong hands. These cyber attackers can also hack your database and conduct malicious activities, costing you both money and reputation. 
 
-As per [Cost of a Data Breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) by IBM, the global average total cost of a data breach in 2020 was $3.86M. If this situation continues, by 2021, a business is expected to fall victim to a [ransomware attack every 11 seconds](https://www.herjavecgroup.com/wp-content/uploads/2018/12/CV-HG-2019-Official-Annual-Cybercrime-Report.pdf). 
+As per [Cost of a Data Breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) by IBM, the global average total cost of a data breach in 2020 was $3.86M. If this situation continues, by 2021, a business is expected to fall victim to a ransomware attack every 11 seconds. 
 
 Now let’s consider some of the negative impacts of data breaches that make companies susceptible to financial and credibility loss.
 
@@ -62,7 +62,7 @@ On the other side, business resilience best practices will assure that all your 
 
 This can even cultivate a resilient organizational culture. It makes the whole business, including employees, quickly adapt to unforeseen challenges whenever the business operations or processes go awry. Or under threat like a data breach.
 
-[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![protecting-pii-against-data-breaches](protecting-pii-against-data-breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ## 5 Best Practices of Implementing Business Resiliency during a Data Breach
 
@@ -124,4 +124,4 @@ A standard business resilience plan in the need of the hour. A recent study show
 
 So, it is important to implement fail-proof business resilience practices in your business to survive unexpected data breaches.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

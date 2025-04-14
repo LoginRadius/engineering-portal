@@ -1,7 +1,7 @@
 ---
 title: "A Quick Look at the React Speech Recognition Hook"
 date: "2020-10-29"
-coverImage: "mic.jpg"
+coverImage: "mic.webp"
 author: "Krista Singleton"
 tags: ["React", "React Speech Recognition", "React Speech", "React Hook"]
 description: "Learning and exploring the react-speech-recognition hook basics."
@@ -31,7 +31,7 @@ Note: This framework uses WebSpeech API. Browser support for this API is current
 
 I will be making a simple voice memo app with basic voice commands that run in the browser. If you would like to follow this tutorial, please be ready to work with the create-react-app boilerplate.
 
-![example](styledExample.png)
+![example](styledExample.webp)
 
 ## Let's Get Started
 

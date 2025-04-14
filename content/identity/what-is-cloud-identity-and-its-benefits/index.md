@@ -1,7 +1,7 @@
 ---
 title: "What is Cloud Identity and its Benefits?"
 date: "2023-06-13"
-coverImage: "cloud-identity.jpg"
+coverImage: "cloud-identity.webp"
 tags: ["cloud identity", "identity management", "cx"]
 author: "Rakesh Soni" 
 description: "Cloud Identity has emerged as a game-changer in a digitally connected world. Learn how cloud identity simplifies user experiences, enhances security, and enables seamless integration with cloud services. Discover the advantages of centralized identity management and built-in compliance features for organizations of all sizes."
@@ -40,7 +40,7 @@ This simplifies [user provisioning](https://www.loginradius.com/blog/identity/us
 
 Security is a critical concern in the digital realm, and cloud identity offers robust security measures to safeguard user identities and data. It enables organizations to implement multi-factor authentication (MFA), which adds an extra layer of security by requiring users to provide additional credentials, such as a one-time password or a biometric scan, in addition to their username and password.
 
-[![EB-BG-to-MFA](EB-BG-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-BG-to-MFA](EB-BG-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Cloud Identity solutions also often enforce strong password policies, such as password complexity requirements and expiration, to mitigate the risk of weak or compromised passwords. Moreover, advanced security protocols like OAuth and SAML are commonly used for secure identity federation, ensuring secure authentication and authorization across different cloud services and applications.
 
@@ -76,4 +76,4 @@ By leveraging these advantages, organizations can enhance their security posture
 
 As businesses continue to embrace cloud-based solutions, adopting a robust cloud-based consumer identity and access management framework becomes indispensable in harnessing the full potential of the cloud while maintaining control and security over user identities and access controls. 
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-identity-and-its-benefits)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-identity-and-its-benefits)

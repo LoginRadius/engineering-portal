@@ -1,7 +1,7 @@
 ---
 title: "An Exclusive CIAM Benefit: The Role of Access Management in Cost Optimization"
 date: "2023-01-13"
-coverImage: "access-managemt.jpg"
+coverImage: "access-managemt.webp"
 category: ["ciam", "access managment", "user onboarding"]
 author: "Rakesh Soni"
 description: "Whether we talk about delivering a seamless authentication experience or reinforcing the overall business and customer identity security, a CIAM solution leaves no stone unturned in scaling business growth. This blog explains the aspects of leveraging the role of a CIAM’s access management in cost optimization."
@@ -58,7 +58,7 @@ CIAM is an integrated digital security platform combining advanced and user beha
 
 And if you're wondering how it all fits together, here's how: CIAM incorporates MFA and risk-based authentication that helps mitigate the risks of identity theft and prevents a breach by gathering data about user behavior patterns for each employee or user account based on their specific role within your organization. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk assessments are performed based on this data to determine whether or not an unauthorized user should have access to sensitive information via an online portal or application portal. 
 
@@ -88,4 +88,4 @@ LoginRadius' extensive experience in the identity and access management market w
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-minimizes-expenses-access-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-minimizes-expenses-access-management)

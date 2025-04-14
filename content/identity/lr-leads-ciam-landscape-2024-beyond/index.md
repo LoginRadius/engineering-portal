@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons Why LoginRadius Leads the Way in the CIAM Landscape in 2024 & Beyond"
 date: "2024-01-24"
-coverImage: "ciam-lead-2024.jpg"
+coverImage: "ciam-lead-2024.webp"
 tags: ["ciam solution","data security","cx"]
 author: "Rakesh Soni"
 description: "Discover how LoginRadius’ cutting-edge CIAM solution seamlessly integrates state-of-the-art technology for robust security and unparalleled user experiences, making it the go-to choice for businesses navigating the digital terrain."
@@ -64,7 +64,7 @@ This authentication trend is gaining popularity among users for its simplicity a
 
 LoginRadius's passwordless magic link aligns consumer expectations with advanced security measures, offering a seamless and protected authentication solution.
 
-[![DS-pswrdless-login-magic-links-otp](DS-pswrdless-login-magic-links-otp.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-pswrdless-login-magic-links-otp](DS-pswrdless-login-magic-links-otp.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ### 4. Autolookup IDP for Next Level of User Experience 
 
@@ -84,4 +84,4 @@ LoginRadius stands out as the definitive leader in the CIAM landscape for 2024 a
 
 By prioritizing innovation and adaptability, LoginRadius goes beyond industry norms, providing businesses with a comprehensive solution that not only meets but exceeds the dynamic demands of the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-leads-ciam-landscape-2024-beyond)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-leads-ciam-landscape-2024-beyond)

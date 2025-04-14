@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Releases Consumer Identity Trend Report 2023, Highlights The Future of Customer Identity"
 date: "2023-05-04"
-coverImage: "consumer-identity-trends-report-2023.png"
+coverImage: "consumer-identity-trends-report-2023.webp"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
 author: "Rakesh Soni"
 description: "LoginRadius has conducted a comprehensive analysis of its global customer base over the past year. The result is an annual report on Consumer Identity Trends for 2023, which showcases over 40 unique insights and observations."
@@ -29,7 +29,7 @@ The report shows that businesses that offer passwordless login or multi-factor a
 
 Additionally, implementing these authentication methods can help businesses mitigate the risk of identity theft and fraud. By providing a frictionless authentication experience, businesses can enhance the customer journey, increase customer loyalty, and ultimately drive business growth.
 
-[![RP-Industry-Report-2023](RP-Industry-Report-2023.png)](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023)
+[![RP-Industry-Report-2023](RP-Industry-Report-2023.webp)](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023)
 
 ## Key Highlights of the Consumer Identity Report 2023
 
@@ -42,7 +42,7 @@ As a leading provider of [Customer Identity and Access Management](https://www.l
 
 Some more findings of the report have been outlined in the infographic below.
 
-![Infographic-IR-2023](Infographic-IR-2023.png)
+![Infographic-IR-2023](Infographic-IR-2023.webp)
 
 Overall, the CIAM trend report highlights the following:
 
@@ -60,4 +60,4 @@ The findings of this report are essential for those seeking to enhance their cus
 
 **<a href="https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2023">Download your complimentary copy</a>** of the report today and stay ahead of the curve in the ever-evolving future of digital identity management. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-report-2023)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-report-2023)

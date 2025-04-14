@@ -1,7 +1,7 @@
 ---
 title: "Importance of Multi-factor Authentication for SSO"
 date: "2022-02-08"
-coverImage: "mfa-sso.jpg"
+coverImage: "mfa-sso.webp"
 tags: ["data security","mfa","sso","authentication","cx"]
 author: "Conrad Sturdy" 
 description: "Multi-factor authentication (MFA) is an essential layer of security that’s becoming standard in enterprise SSO deployments. While it’s not a silver bullet, it’s likely the last line of defense in most situations, so its importance shouldn’t be overlooked. Here’s an insightful read depicting the aspects of SSO authentication and MFA."
@@ -27,7 +27,7 @@ The strengths and weaknesses of multi-factor authentication are generally known.
 
 Password protection is popular but not ideal, so businesses have to use additional tools. SSO is a powerful and effective tool for simplifying employee access to personal websites and applications.
 
-**Also download**: [![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+**Also download**: [![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## What is the Authentication Process and Single Sign-On (SSO)? 
 
@@ -145,4 +145,4 @@ Multi-Factor Authentication (MFA) is broader and requires two or more factors fo
 
 Two-Factor Authentication (2FA) adds an extra layer of security to logins, requiring users to provide two types of credentials for verification.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-multi-factor-authentication-imp-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-multi-factor-authentication-imp-sso)

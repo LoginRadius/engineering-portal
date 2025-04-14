@@ -98,7 +98,7 @@ With cyber threats constantly evolving, risk-based MFA ensures security policies
 
 Want a detailed guide on risk-based authentication? Download this insightful guide:
 
-[![an enterprises guide to risk based authentication](an-enterprises-guide-to-risk-based-authentication.png)](https://www.loginradius.com/resource/guide/enterprise-risk-based-authentication/)
+[![an enterprises guide to risk based authentication](an-enterprises-guide-to-risk-based-authentication.webp)](https://www.loginradius.com/resource/guide/enterprise-risk-based-authentication/)
 
 ## Risk-based vs Traditional MFA
 

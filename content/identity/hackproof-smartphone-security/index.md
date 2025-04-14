@@ -1,7 +1,7 @@
 ---
 title: "Unlocking Smartphone Security: How to Hackproof Your Smartphone"
 date: "2023-09-06"
-coverImage: "hackproof-smartphone.jpg"
+coverImage: "hackproof-smartphone.webp"
 tags: ["data protection","cybersecurity","biometric authentication","cx"]
 author: "Alok Patidar"
 description: "In today's digital age, where smartphones are integral to our daily lives, securing them is paramount. But is it possible to truly hackproof your smartphone in an ever-expanding cyber threat landscape? Let’s dive into the types of hacks and attacks you need to be aware of and provide seven practical tips to bolster your smartphone's security."
@@ -60,7 +60,7 @@ Secure your smartphone with a strong, alphanumeric password or passphrase. Avoid
 
 Biometric authentication ensures robust authentication security since the biometric identity of every individual is unique and can’t be compromised easily. Hence, taking advantage of fingerprint or facial recognition features for an extra layer of security is a great option. 
 
-[![DS-Mob-biometric-auth](DS-Mob-biometric-auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-biometric-auth](DS-Mob-biometric-auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 ### #3. Regularly Update Your Operating System and Apps
 
@@ -92,4 +92,4 @@ In a world where our smartphones have become extensions of ourselves, safeguardi
 
 While achieving absolute hack-proof status might be an unattainable goal, the steps outlined in this blog can significantly enhance your smartphone's security.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hackproof-smartphone-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hackproof-smartphone-security)

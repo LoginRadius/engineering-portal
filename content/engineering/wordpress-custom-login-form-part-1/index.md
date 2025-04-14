@@ -1,7 +1,7 @@
 ---
 title: "Wordpress Custom Login Form Part 1"
 date: "2016-03-01"
-coverImage: "wordpress-icon-150x1501-150x150.png"
+coverImage: "wordpress-icon-150x1501-150x150.webp"
 author: Zoie Carnegie
 tags: ["WordPress","Learning"]
 ---
@@ -17,7 +17,7 @@ In this tutorial, I will demonstrate how to build a custom login form using the 
 
 This is what WordPress gives us out of the box.
 
-![wp-login](wp-login.png)  
+![wp-login](wp-login.webp)  
 There are quite a few different options available to make a custom login page. You can build a [shortcode](https://codex.wordpress.org/Shortcode_API) so that you could simply put \[wp-login\] or something you like on any page/post, make a page theme file and use that page to attach to a post/page, a widget could be a good solution too, or maybe you'd like to simply edit the existing form and add some pizzazz to it.
 
 I am going to show you all of this tutorial using the page-theme method because it is probably the easiest to implement for beginners. This will also give you an intro into page themes, if your not familiar with it.
@@ -65,7 +65,7 @@ To quickly show you how to get this login on the page Let's paste the following 
 
 Look at what that small piece of code do
 
-![custom-login](custom-login.png)
+![custom-login](custom-login.webp)
 
 Now we need to set some arguments that we can provide to this form to customize it. Let's take a look at the documentation for [wp_login_form()](https://developer.wordpress.org/reference/functions/wp_login_form/)
 

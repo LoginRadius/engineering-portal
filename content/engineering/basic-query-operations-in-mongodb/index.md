@@ -1,7 +1,7 @@
 ---
 title: How to Perform Basic Query Operations in MongoDB
 date: "2021-01-20"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Anil Gupta"
 Description: In this blog, we will learn how query operations can be performed in MongoDB. Also, how we can perform fundamental query operations, as we do in RDBMS.
 tags: ["MongoDB"]

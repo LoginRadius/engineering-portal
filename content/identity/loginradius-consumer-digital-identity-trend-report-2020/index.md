@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Releases Consumer Digital Identity Trend Report 2020"
 date: "2020-09-02"
-coverImage: "consumer-identity-report-loginradius.png"
+coverImage: "consumer-identity-report-loginradius.webp"
 tags: ["industry news","consumer identity","digital identity"]
 author: "Rakesh Soni"
 description: "LoginRadius, a pioneer in cloud-based customer identity and access management (CIAM) solution, has released an industry report titled 'Consumer Identity Trend 2020' for C-suite professionals and B2C business product managers concerned with customer identity."
@@ -35,9 +35,9 @@ The key findings of the report have been outlined in the infographic below. It w
 The report is available for download. [Request your copy here](https://www.loginradius.com/resource/digital-identity-trends-2020/).
 
 
-![consumer-identity-trends-2020](consumer-identity-trends-2020.png)
+![consumer-identity-trends-2020](consumer-identity-trends-2020.webp)
 
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-trend-report-2020)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-trend-report-2020)

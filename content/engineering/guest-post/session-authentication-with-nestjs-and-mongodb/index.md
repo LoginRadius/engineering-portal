@@ -1,7 +1,7 @@
 ---
 title: "NestJS: How to Implement Session-Based User Authentication"
 date: "2022-04-26"
-coverImage: "session-based-authentication-in-nestjs.png"
+coverImage: "session-based-authentication-in-nestjs.webp"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["Authentication", "NestJS", "MongoDB", "Node.js"]
 description: "Want to implement user authentication for your NestJS apps? Follow this tutorial to learn how you can implement session-based authentication for your NestJS apps along with MongoDB."
@@ -65,11 +65,11 @@ nest new session-based-auth
 
 The above command creates a Nest application with some boilerplates, then prompts you to choose your preferred package manager to install the required modules to run your application. For demonstration, this tutorial uses **npm**. Hit the enter key to continue with **npm**.
 
-![Choose your preferred package manager](hDnzpIVA.png)
+![Choose your preferred package manager](hDnzpIVA.webp)
 
 If everything went well, you should see an output like the one on the screenshot below on your terminal.
 
-![Screenshot - Thanks for installing NEST](Hv_Nxk_A.png)
+![Screenshot - Thanks for installing NEST](Hv_Nxk_A.webp)
 
 Once the installation is complete, move into your project directory, and run the application with the command below:
 
@@ -966,23 +966,23 @@ Head over to your Postman. And let’s finally test our application.
 
 ### Sign Up As a User
 
-![Sign Up As a User](j38BmlHQ.png)
+![Sign Up As a User](j38BmlHQ.webp)
 
 ### Log In As a User
 
-![Log In As a User](p0GhcMPw.png)
+![Log In As a User](p0GhcMPw.webp)
 
 ### Logged-in User’s Cookie ID
 
-![Logged-in User’s Cookie ID](mPo9j3Kg.png)
+![Logged-in User’s Cookie ID](mPo9j3Kg.webp)
 
 ### Request the Protected Route
 
-![Request the Protected Route](kkX-6pFQ.png)
+![Request the Protected Route](kkX-6pFQ.webp)
 
 ### User Logout
 
-![User Logout](UZCy1IHQ.png)
+![User Logout](UZCy1IHQ.webp)
 
 ## Alternatively, Implement User Authentication with LoginRadius
 

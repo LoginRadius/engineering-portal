@@ -1,7 +1,7 @@
 ---
 title: "7 Tips For Your Enterprise To Have A Great Cybersecurity Awareness Month 2022"
 date: "2022-10-06"
-coverImage: "cybermonth.jpg"
+coverImage: "cybermonth.webp"
 category: ["cybersecurity awareness month", "online security"]
 author: "Rakesh Soni"
 description: "This October, we're celebrating Cybersecurity Awareness Month by sharing a few ideas you can do with your team at work. The first step to keeping your company safe is knowing what to look for, and these activities will help you raise awareness about the vulnerabilities out there."
@@ -84,4 +84,4 @@ A breach readiness plan is a document that outlines what to do if your company e
 
 You don’t have to be a security expert to celebrate Cybersecurity Awareness Month—you just have to care about keeping your company safe! October is a great opportunity to implement strategies, ideas, and planning that will help you introduce better ways to maintain organizational resilience. Have a good month :) 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-tips-enjoy-cybersecurity-awareness-month)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-tips-enjoy-cybersecurity-awareness-month)

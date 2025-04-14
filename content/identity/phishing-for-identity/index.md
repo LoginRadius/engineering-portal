@@ -1,7 +1,7 @@
 ---
 title: "Phishing Attacks: How to Identify & Avoid Phishing Scams"
 date: "2018-02-13"
-coverImage: "phishing-for-identity.jpg"
+coverImage: "phishing-for-identity.webp"
 tags: ["security"]
 featured: false
 author: "Rakesh Soni"
@@ -51,7 +51,7 @@ A few examples of phishing attacks include:
 
 ## 7 Ways to Detect a Phishing Email - Here's How
 
-![ways-detect-phishing-email](ways-detect-phishing-email.jpeg)
+![ways-detect-phishing-email](ways-detect-phishing-email.webp)
 
 ### 1. The email is sent from a public domain.
 
@@ -85,7 +85,7 @@ You should be alarmed if you receive an email containing an attachment from a co
 It's good practice always to scan it using antivirus software first, even if you believe the attachment is real. 
 
 
-[![passwords-are-dead-whitepaper](passwords-are-dead-whitepaper.png)](https://www.loginradius.com/resource/passwords-are-dead/)
+[![passwords-are-dead-whitepaper](passwords-are-dead-whitepaper.webp)](https://www.loginradius.com/resource/passwords-are-dead/)
 
 ### 5. The message has made you panic. 
 
@@ -119,7 +119,7 @@ We have hashed out the different types of phishing attacks.
 ## What Are the Common Types of Phishing Attacks and How To Prevent Them
 
 
-![types-of-phishing-attacks](types-of-phishing-attacks.png)
+![types-of-phishing-attacks](types-of-phishing-attacks.webp)
 
 
 *   Spear Phishing
@@ -195,4 +195,4 @@ Using the tips mentioned above, businesses will be able to identify some of the 
 With that in mind, you need to be on top of the game every single day. Keep on conducting [security awareness training](https://www.loginradius.com/blog/identity/2019/10/cybersecurity-best-practices-for-enterprises/) so that your employees and executives never fall prey. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=phishing-for-identity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=phishing-for-identity)

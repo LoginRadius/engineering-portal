@@ -1,7 +1,7 @@
 ---
 title: "Your Ultimate Guide To Master CRO While Taking Care of Consumer Data Security"
 date: "2022-11-30"
-coverImage: "cro-customer.jpg"
+coverImage: "cro-customer.webp"
 tags: ["authentication", "roi", "customer data"]
 author: "Steven Macdonald"
 description: "Modern consumer authentication methods have made the buying process stress-free and conducive for consumers. This blog explains how they play a huge role in your conversion rate optimization and improve customer relationships."
@@ -39,7 +39,7 @@ The process simplifies the registration for consumers and offers a convenient al
 
 With almost instant consumer data authentication enabled by secure social authentication APIs, you can streamline your checkout process. This hassle-free experience will ensure your digital business sees fewer checkout abandonment and higher conversions.
 
-[![WP-social-login-reconsidrd](WP-social-login-reconsidrd.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-reconsidrd](WP-social-login-reconsidrd.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 
 ### 2. Biometric authentication for streamlined access
@@ -50,7 +50,7 @@ Biometric login eliminates the friction for consumers to reach the end of the ch
 
 
 
-![registration-method](registration-method.png)
+![registration-method](registration-method.webp)
 
 
 Furthermore, our [study on consumer digital identity](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022) found that a passwordless registration method like biometric authentication has the second highest consumer return rate. Thus, it not only helps in CRO but also improves the customer retention rate.
@@ -89,4 +89,4 @@ That’s where the methods like social login, biometric authentication, SSO, cer
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=master-cro-customer-data)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=master-cro-customer-data)

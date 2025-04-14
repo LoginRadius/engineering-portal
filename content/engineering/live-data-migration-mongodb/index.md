@@ -1,7 +1,7 @@
 ---
 title: "How to Migrate Data In MongoDB"
 date: "2020-12-14"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Chinmaya Pati"
 tags: ["MongoDB"]
 description: "This article covers the guide to migrate data from offline or live MongoDB instance using oplog replay alongside mitigate connection switch latency with existing utilities."

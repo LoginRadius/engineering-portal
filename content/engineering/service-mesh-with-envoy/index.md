@@ -1,7 +1,7 @@
 ---
 title: "Service Mesh with Envoy"
 date: "2020-07-06"
-coverImage: "front-image.jpeg"
+coverImage: "front-image.webp"
 author: "Piyush Kumar"
 tags: ["Service Mesh", "Envoy", "Microservices"]
 ---

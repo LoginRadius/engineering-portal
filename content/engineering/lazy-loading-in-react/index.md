@@ -1,7 +1,7 @@
 ---
 title: "Lazy loading in React"
 date: "2020-10-05"
-coverImage: "react.jpg"
+coverImage: "react.webp"
 author: "Akshay Avinash"
 tags: ["React", "Lazy loading", "React Suspense"]
 description: "Learn about lazy loading in React and how/when to use it"

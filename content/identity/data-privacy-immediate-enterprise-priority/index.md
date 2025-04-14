@@ -1,7 +1,7 @@
 ---
 title: "Why is Data Privacy an Immediate Enterprise Priority?"
 date: "2022-07-27"
-coverImage: "dg-privacy.jpg"
+coverImage: "dg-privacy.webp"
 tags: ["data privacy", "enterprises", "regulations"]
 author: "Rakesh Soni"
 description: "In the past ten years, the rise of privacy-conscious consumers and emerging data regulations have compelled enterprises to prioritize their data management programs. Read more to learn how data privacy has become an enterprise priority."
@@ -50,4 +50,4 @@ The chapters are as follows:
 In detail, I have organized the eBook into chapters mentioned above in addition to an Executive Summary intended for senior executives for a brief overview.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-immediate-enterprise-priority)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-immediate-enterprise-priority)

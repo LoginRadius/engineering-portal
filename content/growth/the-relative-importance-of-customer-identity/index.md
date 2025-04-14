@@ -1,7 +1,7 @@
 ﻿---
 title: "Exploring the Relative Importance of Identity in Today’s Digital Landscape"
 date: "2023-05-05"
-coverImage: "importance-of-customer-identity.jpg"
+coverImage: "importance-of-customer-identity.webp"
 tags: ["digital identity","authentication","identity management","cx"]
 author: "Vishal Sharma"
 description: "With the rapid growth of online platforms and digital communication, our identities are more important than ever. Let’s examine how our identities have evolved in the digital age and explore their relative role in shaping our online experiences."
@@ -42,7 +42,7 @@ Social media platforms have become a primary way to express our identities and c
 
 Understanding the impact of identity on social media can help us navigate these platforms in a way that aligns with our values and goals. This includes being mindful of the information we share, the people we connect with, and the communities we participate in.
 
-[![DS-Product-Social-Login](DS-Product-Social-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![DS-Product-Social-Login](DS-Product-Social-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 ## Identity and the Development of a Digital Society
 
@@ -64,4 +64,4 @@ Understanding the significance of identity in the digital world is crucial for n
 
 By taking steps to protect and leverage our identities, we can make the most of the benefits technology offers. As we continue integrating technology into our lives, the importance of identity will only continue to grow.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-relative-importance-of-customer-identity)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-relative-importance-of-customer-identity)

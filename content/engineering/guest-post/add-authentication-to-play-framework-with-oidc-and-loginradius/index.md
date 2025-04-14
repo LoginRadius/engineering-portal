@@ -2,7 +2,7 @@
 title: "Add Authentication to Play Framework With OIDC and LoginRadius"
 date: "2021-06-25"
 author: "Vishnu Chilamakuru"
-coverImage: "pac4j-authentication.png"
+coverImage: "pac4j-authentication.webp"
 tags: ["OIDC","Java","pac4j","Play Framework","Authentication"]
 description: "Learn how to integrate play-pac4j and use its OIDC support to authenticate with LoginRadius using JAVA play framework."
 ---
@@ -98,7 +98,7 @@ sbt run
 Now visit `http://localhost:9000`, and it should look like this.
 
 
-![play-project-homepage.png](play-project-homepage.png)
+![play-project-homepage.webp](play-project-homepage.webp)
 
 ## Integrate pac4j with Play Project
 
@@ -381,17 +381,17 @@ Login to your LoginRadius account or [signup here](https://www.loginradius.com/)
 Once you log in you can see by default, one application will be created for you. Otherwise, you can create a new application here from the following screen by clicking `New App`.
 
 
-![loginradius-dashboard.png](loginradius-dashboard.png)
+![loginradius-dashboard.webp](loginradius-dashboard.webp)
  
 I will be using the existing application itself for this demo as I am using a free plan. In the free plan, you can create only one application (no need for card details).
 
 Upgrade your application subscription to the `Developer Pro` Plan to configure OIDC. (`Developer Pro` Plan is available with 21 days trial).
 
 
-![loginradius-upgrade-subscription-1.png](loginradius-upgrade-subscription-1.png)
+![loginradius-upgrade-subscription-1.webp](loginradius-upgrade-subscription-1.webp)
 
 
-![loginradius-upgrade-subscription-2.png](loginradius-upgrade-subscription-2.png)
+![loginradius-upgrade-subscription-2.webp](loginradius-upgrade-subscription-2.webp)
 
 
 Now click on `Select & Configure` on your application and navigate to the `Integration` Section and Configure `Open ID` configuration. You can find step-by-step details to [configure OIDC](https://www.loginradius.com/developers/) here.
@@ -425,20 +425,20 @@ Let's run our application using `sbt clean run` and visit `http://localhost:9000
 
 ### Home Page
 
-![home-page.png](home-page.png)
+![home-page.webp](home-page.webp)
 
 ### LoginRadius Auth Page (IDX)
 
 Now click on the `protected url by OIDC` link on the home page that will redirect you to the LoginRadius Auth Page (IDX), which you configured.
 
-![loginradius-consent-page.png](loginradius-consent-page.png)
+![loginradius-consent-page.webp](loginradius-consent-page.webp)
 
 ### Redirect to Protected Index Page
 
 On successful login from the above step, you will be redirected to the `protectedindex.scala.html` page.
 
 
-![loginradius-protected-index-page.png](loginradius-protected-index-page.png)
+![loginradius-protected-index-page.webp](loginradius-protected-index-page.webp)
 
 ### Logout Action
 

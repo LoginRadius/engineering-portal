@@ -1,7 +1,7 @@
 ---
 title: "What is SAML SSO?"
 date: "2021-06-18"
-coverImage: "saml-sso.jpg"
+coverImage: "saml-sso.webp"
 tags: ["saml","sso","user authentication"]
 author: "Rajeev Sharma"
 description: "SAML SSO is an authentication standard for single sign-on (SSO) based on XML. Learn more about how it works, advantages and its components."
@@ -72,7 +72,7 @@ One can use SAML to 'reuse' a single act of authentication (like logging in with
 
 In SAML, the responsibility for the proper management of identities lies with the identity provider. It is more manageable and desirable rather than handling multiple service provider systems.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## SAML Components
 
@@ -113,7 +113,7 @@ Here, following process occurs:
 
 The below diagram illustrates the single sign-on flow for SAML SSO, i.e., when an application triggers SSO.
  
-![SAML FLOW](https://apidocs.lrcontent.com/images/SAMLflow_1484060cc3534702fa4.48760508.png "SAML FLOW")
+![SAML FLOW](https://apidocs.lrcontent.com/images/SAMLflow_1484060cc3534702fa4.48760508.webp "SAML FLOW")
 
 If you want to learn more on how LoginRadius can help implement IDP-initiated SSO and SP initiated SAML SSO, refer to the LoginRadius SAML overview documentation.
 
@@ -121,4 +121,4 @@ If you want to learn more on how LoginRadius can help implement IDP-initiated SS
 
 In this article, we talked about the basics of SAML SSO and its key components. However, before implementing any functionality on your website, it is recommended to analyze and consider the pros and cons from every possible angle. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-sso)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-sso)

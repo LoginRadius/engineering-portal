@@ -1,7 +1,7 @@
 ---
 title: "Website Authentication Protocols"
 date: "2015-12-01"
-coverImage: "server-proc-150x150.png"
+coverImage: "server-proc-150x150.webp"
 author: Karl Wittig
 tags: ["Authentication","Oauth"]
 ---

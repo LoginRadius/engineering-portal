@@ -1,7 +1,7 @@
 ---
 title: "Consumer Data Protection: How to Handle Data Breaches in Your Business"
 date: "2021-05-20"
-coverImage: "how-to-handle-data-breaches-cover.jpg"
+coverImage: "how-to-handle-data-breaches-cover.webp"
 tags: ["data security","mfa","compliance"]
 author: "Vishal Sharma"
 description: "With the increasing number of data breaches across the globe, securely managing consumer data is becoming more crucial than ever before. Here are some efficient ways for consumer data protection that every online business must emphasize to ensure a secure line of defense against cyber-attacks."
@@ -56,7 +56,7 @@ A CIAM solution could be the biggest weapon in protecting your consumers’ iden
 
 Many enterprises are leveraging a [CIAM solution](https://www.loginradius.com/customer-security/) that offers high-end data encryption while the data is managed, stored, and retrieved. This increases the overall defense line against any kind of unauthorized attacks by cybercriminals.
 
-[![EB-GD-to-mod-cust-ID](EB-GD-to-mod-cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-ID](EB-GD-to-mod-cust-ID.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 Moreover, a cloud-based CIAM solution can easily handle millions of identities, and that too without hampering the user experience.
 
@@ -88,4 +88,4 @@ As discussed earlier, a compliance-ready CIAM solution with security features li
 
 Moreover, companies that aren’t focussing on employee training must immediately put their best foot forward to organize cyber awareness training programs to minimize the risk of human error.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-handle-data-breaches)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-handle-data-breaches)

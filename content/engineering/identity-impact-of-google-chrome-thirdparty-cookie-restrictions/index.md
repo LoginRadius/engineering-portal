@@ -1,7 +1,7 @@
 ---
 title: "How Chrome’s Third-Party Cookie Restrictions Affect User Authentication?"
 date: "2024-07-08"
-coverImage: "third-party-cookies-phaseout-chrome.png"
+coverImage: "third-party-cookies-phaseout-chrome.webp"
 author: "Raghunath Reddy"
 tags: ["Identity", "Cookies", "Chrome"]
 description: "Google Chrome has planned to phase out third-party cookies, which will affect different website functionalities depending on third-party cookies. This blog focuses on how this phase-out affects identity and user authentication and discusses alternatives for overcoming challenges."

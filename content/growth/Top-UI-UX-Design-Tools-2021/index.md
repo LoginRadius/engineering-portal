@@ -1,7 +1,7 @@
 ﻿---
 title: "Top UI/UX Design Tools 2021"
 date: "2021-04-19"
-coverImage: "best-ui-ux-design-loginradius.jpg"
+coverImage: "best-ui-ux-design-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -161,4 +161,4 @@ User behavior and expectations constantly evolve, so designers need to adapt and
 
 You can also work with a web design agency that provides comprehensive web design services to create an excellent user interface and user experience design. This also helps ensure your website retains or improves its current search rankings after the Google page experience update.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-ui-ux-design-tools-2021)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-ui-ux-design-tools-2021)

@@ -1,7 +1,7 @@
 ---
 title: "Decoding the Role of Multi-Factor Authentication and IVR in Banking"
 date: "2021-10-21"
-coverImage: "ivr-cover.jpg"
+coverImage: "ivr-cover.webp"
 tags: ["mfa","adaptive mfa","cx"]
 author: "Navanita Devi"
 description: "One of the greatest adoptions in the banking industry is the introduction of multi-factor authentication (MFA) and Interactive Voice Response (IVR) systems. Both of them are considered effective ways that help banks to reduce fraud. This blog explains their individual roles in banking."
@@ -45,7 +45,7 @@ Adaptive Authentication is a method to send notifications or prompt the consumer
 
 For example, a user wants to access a company's data. He is sitting in a coffee shop and operating via an unsecured WiFi, then MFA would ask for additional verification data to ensure a secured network. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### 3. Enhances user experience
 
@@ -74,4 +74,4 @@ The use of technology in various ways has been a great factor in accelerating th
 Customers must feel and be sure that the bank's employees only can access their accounts and personal data. First-and second-factor authentication is now being replaced by newer technologies, specifically multi-factor authentication. This greater level of protection is gaining popularity in the wake of the growing threat of information theft and [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) due to cyber-attacks.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-ivr-banking)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-ivr-banking)

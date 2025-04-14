@@ -1,7 +1,7 @@
 ﻿---
 title: "Website Heat Mapping with Hotjar vs. Microsoft Clarity"
 date: "2021-05-07"
-coverImage: "hotjar-vs-ms-clarity.jpg"
+coverImage: "hotjar-vs-ms-clarity.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -89,7 +89,7 @@ Several case studies reveal how heatmap tracking can help you improve your websi
 
 After understanding what heatmaps are and why they are essential, it’s time to compare Hotjar with Microsoft Clarity.
 
-[![book-a-demo-Consultation](Heatmap-Tools-loginradius.jpg)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hotjar-vs-microsoft-clarity)
+[![book-a-demo-Consultation](Heatmap-Tools-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hotjar-vs-microsoft-clarity)
 
 ## Hotjar vs. Microsoft Clarity
 
@@ -230,4 +230,4 @@ But it’s adding plenty of features at a fast pace. Putting all drawbacks aside
 ## Our Verdict
 
 Ideally, you must go with Hotjar if you are looking to access highly advanced [website tracking and Analytics features](https://www.loginradius.com/integrations/google-analytics/). But if you receive less traffic on your website and are looking for excellent free heat map software, then Clarity is your best bet.
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hotjar-vs-microsoft-clarity)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hotjar-vs-microsoft-clarity)

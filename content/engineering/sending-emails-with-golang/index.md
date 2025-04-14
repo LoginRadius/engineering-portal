@@ -1,7 +1,7 @@
 ---
 title: Different ways to send an email with Golang
 date: "2020-08-03"
-coverImage: "email_cover.jpg"
+coverImage: "email_cover.webp"
 author: "Puneet Singh"
 tags: ["Go","Email"]
 description: "In this blog, we’ll look at different methods to send an email with Go, First we will explore inbuilt smtp package, then we will move to use a popular package Gomail and finally we will send HTML emails using custom templates."

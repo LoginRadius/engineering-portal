@@ -1,7 +1,7 @@
 ---
 title: "Password Security"
 date: "2015-05-14"
-coverImage: "password-security.png"
+coverImage: "password-security.webp"
 author: "Kundan Singh"
 tags: ["Security", "Password"]
 ---

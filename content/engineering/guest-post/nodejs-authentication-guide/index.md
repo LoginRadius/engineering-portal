@@ -1,7 +1,7 @@
 ---
 title: "Node.js User Authentication Guide"
 date: "2022-01-18"
-coverImage: "coverimage.jpeg"
+coverImage: "coverimage.webp"
 author: "Uma Victor"
 tags: ["JWT", "Authentication", "Node.js"]
 description: "Want to authenticate and manage users with specific roles in your Node.js app? This in-depth tutorial explains everything step-by-step to help you implement authentication in your Node.js apps."
@@ -261,7 +261,7 @@ You'll use [Postman](https://www.postman.com/downloads/) to test all the routes.
 
 Open up Postman to send a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
-![Register Route](registerRoute.jpeg)
+![Register Route](registerRoute.webp)
 
 ### Login Function
 
@@ -327,7 +327,7 @@ module.exports = router;
 
 Make a `POST` request at `http://localhost:5000/api/auth/login` and pass a valid username and password to the body:
 
-![login Route](loginroute.jpeg)
+![login Route](loginroute.webp)
 
 ### Update Function
 
@@ -413,7 +413,7 @@ router.route("/update").put(update);
 
 Send a `put` request to `http://localhost:5000/api/auth/update`:
 
-![update Route](updateroute.jpeg)
+![update Route](updateroute.webp)
 
 ### Delete Function
 
@@ -451,7 +451,7 @@ router.route("/deleteUser").delete(deleteUser);
 
 Send a `delete` request to `http://localhost:5000/api/auth/deleteUser` by passing a valid `id` to the body:
 
-![Delete Route](deleteroute.jpeg)
+![Delete Route](deleteroute.webp)
 
 ## Hash User Passwords
 
@@ -512,7 +512,7 @@ exports.register = async (req, res, next) => {
 
 Send a `POST` request to `http://localhost:5000/api/auth/register` and pass the username and password to the body:
 
-![Register Route](Hashedregisterroute.jpeg)
+![Register Route](Hashedregisterroute.webp)
 
 ### Refactor the Login Function
 
@@ -558,7 +558,7 @@ exports.login = async (req, res, next) => {
 
 Send a `POST` request to `http://localhost:5000/api/auth/login` and pass a valid username and password to the body:
 
-![Hashed Login Route](hashedloginroute.jpeg)
+![Hashed Login Route](hashedloginroute.webp)
 
 ## Authenticate Users with JSON Web Token (JWT)
 
@@ -583,7 +583,7 @@ require("crypto").randomBytes(35).toString("hex")
 
 Output:
 
-![Crypto](crypto.jpeg)
+![Crypto](crypto.webp)
 
 Storing this secret string in an environment variable is a safe practice. If this secret string is leaked, unauthenticated users can create fake tokens to access the route.
 
@@ -818,7 +818,7 @@ password
 
 After you've created the constant `password`, you need to enter `the` `password` in the node terminal to get your hashed password.
 
-![Node bcrypt](nodebycrypt.jpeg)
+![Node bcrypt](nodebycrypt.webp)
 
 You'll use the hashed password to create your admin:
 
@@ -1242,11 +1242,11 @@ This section briefly covers how authentication works with LoginRadius.
 
 After signing up for LoginRadius, choose a name for your Node.js app.
 
-> ![LoginRadius - Enter your app name](loginradius.png)
+> ![LoginRadius - Enter your app name](loginradius.webp)
 
 After completing your LoginRadius signup process, you can get your **App Name**, **API Key**, and **API Secret** from the `configuration` link on the sidebar. With these configurations, you can easily link the server-side of our application to LoginRadius.
 
-![LoginRadius API Credentials](loginradius1.png)
+![LoginRadius API Credentials](loginradius1.webp)
 
 LoginRadius automatically generates a link that will be used to authenticate users. This link contains the name of your LoginRadius application and a `URL` that authenticated users will be redirected to:
 

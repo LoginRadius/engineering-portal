@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 and Beyond: 5 Risk Management Essentials for Your Enterprise"
 date: "2021-07-20"
-coverImage: "risk-management-essentials-enterprise-cover.jpg"
+coverImage: "risk-management-essentials-enterprise-cover.webp"
 tags: ["risk management","cybersecurity","ciam solution","password management"]
 author: "Vishal Sharma"
 description: "Cybercriminals continuously exploit consumer data and have accelerated outbreaks by taking advantage of the chaotic time, and the weaker first line of defense as businesses adopt new working ecosystems. This post covers all the aspects that require immediate consideration to minimize the risk of identity theft or a security breach."
@@ -52,7 +52,7 @@ For the most secure user sign-ins, you should combine elements like biometrics, 
 
 LoginRadius’ CIAM (consumer identity and access management) solution provides multiple layers of security to ensure consumer data and enterprise information remain highly secure.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 3. Cyber Awareness Training to Avoid Human Error
@@ -91,4 +91,4 @@ With the rising number of identity thefts and security breaches amid the global 
 [LoginRadius](https://www.loginradius.com/contact-sales/) can be the most acceptable alternative for both the enterprises and startups that are collecting customer data and need to ensure a secure ecosystem without hampering the overall user experience.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-management-essentials-enterprise)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-management-essentials-enterprise)

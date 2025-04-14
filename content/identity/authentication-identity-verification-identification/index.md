@@ -1,7 +1,7 @@
 ---
 title: "Authentication, Identity Verification, and Identification: What's the Difference"
 date: "2022-07-06"
-coverImage: "auth-identity.jpg"
+coverImage: "auth-identity.webp"
 tags: ["authentication","identity verification","identity security"]
 author: "Rakesh Soni"
 description: "People usually consider authentication, id verification, and identification the same thing, but they are entirely different when we see stuff through the lens of information security experts. Learn the fundamental differences between the three and the importance of each from an information security perspective."
@@ -55,7 +55,7 @@ Moreover, identity theft is swiftly becoming the new way of exploiting customer 
 
 Adding stringent security layers in the form of multi-factor authentication (MFA) and risk-based authentication (RBA) could significantly decrease the chances of identity theft. 
 
-[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-ID](EB-GD-to-Mod-Cust-ID.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## What is the Purpose of Identity Security?
@@ -95,4 +95,4 @@ What puts LoginRadius ahead of the curve are the three most fundamental aspects:
 
 If you wish to experience the next level of account security and authentication, reach the LoginRadius team to schedule a personalized demo. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-identity-verification-identification)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-identity-verification-identification)

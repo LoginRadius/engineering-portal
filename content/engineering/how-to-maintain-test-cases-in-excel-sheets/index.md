@@ -1,7 +1,7 @@
 ---
 title: "Maintain Test Cases in Excel Sheets"
 date: "2015-11-03"
-coverImage: "test_cases.png"
+coverImage: "test_cases.webp"
 author: "Shefali Yaduvanshi"
 tags: ["Excel", "Tes"]
 description: "Learn how to maintain test cases in Excel sheets"
@@ -23,7 +23,7 @@ Test cases are the part of testing by which a product can be tested properly acc
 **Standard format of Test Cases**  
 Some common fields that are used in test case writing are:  
 
-![1](1.png)
+![1](1.webp)
 
 1. 1. **Test Case Id:** This field is defined by what type of system we are testing. Below are the standard rules:
         - If we are making a test case for any application which doesn’t belong to any specific module then ID would start as TEST\_ID 1.
@@ -74,7 +74,7 @@ Traceability Matrix can be divided into 2 parts:-
  1.7 **Test Summary**: This field contains the status of the product: how many test  
  cases are passed, how many are failed, how many are on hold or how many   are  Invalid etc.  
 
-![2](2.png)
+![2](2.webp)
 
 2. **Traceability Matrix** :  
       
@@ -90,7 +90,7 @@ Traceability Matrix can be divided into 2 parts:-
 
 As per the image below:  
 
-![3](3.png)  
+![3](3.webp)  
 Requirement ID REQ\_ID 1 covered in Test Case Id TEST\_ID 1 and TEST\_ID 2  
 Requirement ID REQ\_ID 2 covered in Test Case Id TEST\_ID 3 ,TEST\_ID 4, TEST\_ID 5
 

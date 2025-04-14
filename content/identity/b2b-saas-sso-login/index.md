@@ -1,7 +1,7 @@
 ---
 title: "B2B SaaS SSO Login: Exploring Enterprise Considerations in 2024"
 date: "2023-12-01"
-coverImage: "b2b-saas.jpg"
+coverImage: "b2b-saas.webp"
 tags: ["b2b","sso","saas","cx"]
 author: "Rakesh Soni"
 description: "Discover the role of SSO login in B2B SaaS. This blog explores challenges, emerging trends, and crucial considerations for enterprises in 2024. From security measures to user-centric design, stay ahead in the dynamic realm of B2B SaaS."
@@ -28,7 +28,7 @@ While the advantages of implementing SSO Login are evident, enterprises are not 
 
 From issues related to identity federation to the complexities of maintaining a balance between security and usability, we'll explore how enterprises proactively address these challenges. Moreover, the blog will shed light on innovative solutions and best practices that are emerging in the B2B SaaS sector to overcome these hurdles, offering readers practical insights for a smoother SSO implementation.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## Emerging Trends in B2B SaaS Single Sign-On for 2024
 
@@ -70,4 +70,4 @@ As we step into 2024, the landscape of B2B SSO login is marked by innovation, se
 
 Stay tuned for a comprehensive exploration of the considerations shaping the future of Single Sign-On in the enterprise space.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-sso-login)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-sso-login)

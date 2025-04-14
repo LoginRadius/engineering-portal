@@ -1,7 +1,7 @@
 ---
 title: "RBAC vs ABAC: A Developer’s Guide to Choosing the Right Fit"
 date: "2025-01-13"
-coverImage: "lock-business-background-security-concept-3d-rendering.jpg"
+coverImage: "lock-business-background-security-concept-3d-rendering.webp"
 tags: ["RBAC","ABAC"]
 author: "Kundan Singh"
 description: "RBAC vs ABAC: A detailed guide for developers to understand role-based and attribute-based access control, their differences, and the right fit for your projects."

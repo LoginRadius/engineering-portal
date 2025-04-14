@@ -1,7 +1,7 @@
 ---
 title: "Know The Types of Website Popups and How to Create Them"
 date: "2017-04-20"
-coverImage: "The-Ultimate-guide-to-website-pop-ups.png"
+coverImage: "The-Ultimate-guide-to-website-pop-ups.webp"
 author: "Team LoginRadius"
 tags: ["CSS"]
 ---
@@ -10,7 +10,7 @@ POPUPS! They can annoy you but if used properly, they can be a boon to any marke
 
 ### **1\. Creating a basic popup:**
 
-![Creating a simple pop-up](Creating-a-simple-pop-up.png)
+![Creating a simple pop-up](Creating-a-simple-pop-up.webp)
 
 This section talks about creating a basic popup using simple HTML and CSS. There is a separate section for header, footer and content. I have also added a close button at top right corner of the popup. There are three steps to create this popup.
 

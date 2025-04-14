@@ -1,7 +1,7 @@
 ---
 title: "Leading the Charge in Customer IAM: LoginRadius Recognized as an Overall Leader by KuppingerCole"
 date: "2024-07-10"
-coverImage: "kc-lr-ciam.jpg"
+coverImage: "kc-lr-ciam.webp"
 tags: ["ciam solutions","coverage","b2b"]
 author: "Rakesh Soni"
 description: "KuppingerCole's 2024 Leadership Compass reports recognize LoginRadius as an overall leader in customer identity and access management (CIAM). LoginRadius excels in innovative workflow management, extensive integration capabilities, comprehensive B2B features, and top-tier security standards. "
@@ -36,7 +36,7 @@ With a wide array of security certifications, including ISO 27001/27017/27018 an
 
 Built on a cloud-first approach with an auto-scalable architecture, LoginRadius provides a resilient foundation for organizations looking to future-proof their CIAM infrastructure.
 
-[![kc-cta](kc-cta.png)](https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/)
+[![kc-cta](kc-cta.webp)](https://www.loginradius.com/resource/analyst-report/kuppingercole-names-loginradius-top-ciam-platform-2024/)
 
 ## Your Customers Desire a Seamless User Experience with Security at Its Heart
 
@@ -72,4 +72,4 @@ Embrace the future of digital identity management and position your brand at the
 
 Ready to transform your customer identity management? Book a personalized demo today to learn how LoginRadius CIAM transforms your business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=kuppingercole-names-lr-ciam-leader-2024)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=kuppingercole-names-lr-ciam-leader-2024)

@@ -1,7 +1,7 @@
 ---
 title: "BroadcastMed, a LoginRadius Customer Success Story"
 date: "2018-07-05"
-coverImage: "LR-and-BroadcastMed.jpg"
+coverImage: "LR-and-BroadcastMed.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig"
@@ -55,4 +55,4 @@ BroadcastMed had a few concerns that they wanted to address as they evaluated th
 
 BroadcastMed - LoginRadius Customer Success Story
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=broadcastmed-loginradius-customer-success-story)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=broadcastmed-loginradius-customer-success-story)

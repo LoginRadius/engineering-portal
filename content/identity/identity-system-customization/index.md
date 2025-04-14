@@ -1,7 +1,7 @@
 ---
 title: "Why Should You be Customizing Your Identity System to Your Needs"
 date: "2021-09-07"
-coverImage: "identity-system-customization-cover.jpg"
+coverImage: "identity-system-customization-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Manish Tiwari"
@@ -33,7 +33,7 @@ Moreover, an identity system or a [consumer identity and access management](http
 
 A CIAM solution also offers valuable insights into a consumer’s behavior, which further allows businesses to tailor their marketing and onboarding strategies. 
 
-[![eb-iam-checklist](eb-iam-checklist.png)](https://www.loginradius.com/resource/an-identity-checklist-to-strategize-ciam-in-the-cloud/)
+[![eb-iam-checklist](eb-iam-checklist.webp)](https://www.loginradius.com/resource/an-identity-checklist-to-strategize-ciam-in-the-cloud/)
 
 
 ## Role of Identity System Customization
@@ -88,4 +88,4 @@ Brands that wish to invoke the true potential of personalization must consider r
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-system-customization)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-system-customization)

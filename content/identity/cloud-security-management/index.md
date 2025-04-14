@@ -1,7 +1,7 @@
 ---
 title: "Protecting a Unified Cloud Platform through Cloud Security Management"
 date: "2021-03-03"
-coverImage: "cloud-security-management.jpg"
+coverImage: "cloud-security-management.webp"
 tags: ["cloud security","identity management","cx"]
 author: "Rakesh Soni"
 description: "Security management platforms are designated systems that work towards providing network security to an enterprise for the storage of data that they have collected. This process involves security and compliance as well."
@@ -101,7 +101,7 @@ The [LoginRadius Directory for Cloud Storage](https://www.loginradius.com/cloud-
 *   **Gathering data:** The directory will employ the use of open APIs to gather data from third-party resources. 
 *   **Ownership:** The enterprise that uses the platform will receive full ownership of the customer data. Therefore, they can keep firm control over the operations of the business. 
 
-[![Future-proof-your-security](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![Future-proof-your-security](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 **2. Efficiency** 
 
@@ -129,4 +129,4 @@ LoginRadius provides top-notch cybersecurity through its openID connect system. 
 
 With most business operations going online in recent years, cloud security has started to receive more importance. This is because cloud storage can get easily convoluted and complicated as the number of information increases. This makes it easy for information to be leaked. A unified cloud platform provides its services to protect information while moving to the cloud.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-security-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-security-management)

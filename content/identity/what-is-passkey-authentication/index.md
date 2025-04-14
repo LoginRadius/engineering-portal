@@ -2,7 +2,7 @@
 title: "What is Passkey Authentication - A Complete Guide"
 description: "Learn about passkey authentication, its role in passwordless authentication, how it ensures secure logins, and its usability across multiple devices and users."
 date: "2024-12-30"
-coverImage: "hacker.png"
+coverImage: "hacker.webp"
 author: "Kundan Singh"
 tags: ["Engineering"]
 metatitle: "What is Passkey Authentication - A Complete Guide"
@@ -40,7 +40,7 @@ Passkeys are designed to function seamlessly across devices through cloud servic
 
 For shared devices, passkeys protect each user’s private keys using biometrics or PINs. By adhering to FIDO2 and WebAuthn standards, passkeys ensure cross-platform compatibility, making them a versatile choice for diverse ecosystems. Developers can effortlessly implement these features to cater to multi-user and multi-device scenarios.
 
-[![CTA](./cta.png)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
+[![CTA](./cta.webp)](https://www.loginradius.com/resource/datasheet/passkeys-passwordless-authentication)
 
 ## Passkey vs Password: Why are Passkeys a Better Choice?
 
@@ -67,7 +67,7 @@ Moreover, passkeys can complement existing [multi-factor authentication](https:/
 
 ## Why Choose LoginRadius for Passkey Authentication?
 
-![](./passkey.png)
+![](./passkey.webp)
 
 Image: A screenshot of LoginRadius Passkeys
 

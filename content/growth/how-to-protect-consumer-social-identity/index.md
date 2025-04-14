@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Consumers’ Social Identities Matter & How You Can Protect It?"
 date: "2021-12-07"
-coverImage: "social-id.jpg"
+coverImage: "social-id.webp"
 category: ["security"]
 featured: false 
 author: "Navanita Devi"
@@ -82,5 +82,5 @@ Businesses can benefit from greater customer engagement and loyalty by providing
 Today, data is king. Sensitive information about the social identity of consumers is used by organisations for many reasons, but it's also organisations' responsibility to maintain privacy. This can only be achieved by investing in the best CIAM. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-protect-consumer-social-identity)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-protect-consumer-social-identity)
 

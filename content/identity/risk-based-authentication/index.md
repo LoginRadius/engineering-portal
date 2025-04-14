@@ -1,7 +1,7 @@
 ---
 title: "What is Risk-Based Authentication"
 date: "2021-02-26"
-coverImage: "risk-based-authentication.png"
+coverImage: "risk-based-authentication.webp"
 tags: ["data security","risk based authentication","cx"]
 author: "Rajeev Sharma"
 description: "RBA is a method of applying various levels of stringency to authentication processes based on the likelihood that the access to a given system could result in it being compromised. As the level of risk increases, authentication becomes more restrictive."
@@ -27,7 +27,7 @@ Whenever a system identifies any risk with a login activity, there can be multip
 
 In addition to prompting the consumer with challenge and response, there are options to either send an email to the consumer about the suspicious activity or let the Site Administrator know that the account has been compromised. It will alert the consumer as well as the Site Administrator.
 
-[![mfa](mfa.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![mfa](mfa.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ## Why Should Businesses Use RBA
 Risk-based authentication is an essential security feature because it works in real-time to prevent cyber frauds like accounts getting compromised without causing an inconvenience for legitimate consumers. 
@@ -61,4 +61,4 @@ To learn more about this feature, please visit our [Risk-Based Authentication do
 In this article, we talked about making the accounts secured using Risk Based Authentication and learnt how it will enhance the consumer security. This feature helps define the risk areas and take actions if any risk is detected with respect to the defined constraints.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-based-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-based-authentication)

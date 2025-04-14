@@ -1,7 +1,7 @@
 ---
 title: "3 Best Stages of IT Security for Implementing Gartner's CARTA"
 date: "2021-11-10"
-coverImage: "carta.jpg"
+coverImage: "carta.webp"
 tags: ["security"]
 featured: false
 author: "Vishal Sharma"
@@ -72,4 +72,4 @@ CARTA’s risk reduction model is [built on the premise](https://www.loginradius
 Hence, businesses striving to implement the best security practices must consider relying on CARTA for enhanced risk management for their organization.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=3-stages-gartner-carta-it-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=3-stages-gartner-carta-it-security)

@@ -1,7 +1,7 @@
 ---
 title: "Integration with electronic identity (eID) "
 date: "2021-01-29"
-coverImage: "Integration_with_eID.jpg"
+coverImage: "Integration_with_eID.webp"
 author: "Jitender Agarwal"
 tags: ["Electronic Identity", "Bank ID", "Criipto", "LoginRadius"]
 description: "An electronic identity is an electronic card or device with a unique identity number issued by either a government agency or some banks.LoginRadius supports all the major industry federated SSO methods. Hence, you can integrate eID authentication with LoginRadius using some third application like Criipto, which supports the industry-standard SSO methods."
@@ -35,11 +35,11 @@ Please see the following steps to register your LoginRadius app in your Criipto 
 1.  Login in to your [Criipto account](https://manage.criipto.id/login ).
 2.  Click + sign to add an application under the Applications tab.
 3.  Add the following information:
-    ![criipto config](criipto-config1.jpg)
+    ![criipto config](criipto-config1.webp)
     - Name: Enter a name to identify your app in the Criipto.
     - Domain: choose an available domain
     - Callback URLs: Enter https://<LR appname>.hub.loginradius.com/access/jwt
-    ![criipto config](criipto-config2.jpg)
+    ![criipto config](criipto-config2.webp)
     - Enable the desired eIDs
     - Enable the **Enable OAuth2 Code Flow** under **OpenID Connect**
     - Click the Re-generate client secret button to generate a client secret. 
@@ -52,9 +52,9 @@ Please see the following steps to register your LoginRadius app in your Criipto 
 
 1. Login into the [Admin Console](https://adminconsole.loginradius.com/ )
 2.  Navigate to Platform Configuration>Authentication Configuration>Custom IDPs>JWT Provider
-![JWT config](LR-JWT-Config1.jpg)
+![JWT config](LR-JWT-Config1.webp)
 3. Click **+ Add A New Provider** button highlighted on the above screen, and the following JWT configuration form fields will appear:
-![JWT config](LR-JWT-Config2.jpg)
+![JWT config](LR-JWT-Config2.webp)
 4. Complete the following details in the JWT provider
     - Enter a unique name under the **Provider Name**. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the Include In Social Schema is selected while configuring the JWT app.
     - Select RS256 under the JWT signing **Algorithm** used by your application ( the selected algorithm is used in encrypting your consumers' information in the JWT).

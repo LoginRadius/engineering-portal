@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 3 CIAM Indicators That You’ll Get the Consumer Satisfaction You Deserve"
 date: "2021-07-06"
-coverImage: "ciam-loginradius.jpg"
+coverImage: "ciam-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -29,7 +29,7 @@ CIAM offers the luxury of a centralized consumer database that links all other a
 
 Moreover, a cutting-edge CIAM solution like LoginRadius offers a seamless login experience through Social Login, Single-Sign-On (SSO), and [Passwordless Login for customers](https://www.loginradius.com/passwordless-login/).
 
-[![LoginRadius-CIAM-Social-Login](social-login-loginradius.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![LoginRadius-CIAM-Social-Login](social-login-loginradius.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 
 ## CIAM Indicators that Describe Your Consumers Love Your Platform
@@ -102,4 +102,4 @@ The aspects above depict the role and responsibilities of a robust CIAM that can
 
 If you wish to experience the ease of consumer onboarding that increases consumer satisfaction and boosts your business revenues, it’s time to [experience the LoginRadius CIAM](https://www.loginradius.com/contact-sales/).
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-3-ciam-indicators)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-3-ciam-indicators)

@@ -2,7 +2,7 @@
 title: "Announcement - LoginRadius Announces Authentication and SSO for Native Mobile Apps"
 date: "2020-11-25"
 author: "Rakesh Soni"
-coverImage: "loginradius-mobile-native-app.png"
+coverImage: "loginradius-mobile-native-app.webp"
 tags: ["authentication","SSO","data security","compliance"]
 description: "Both companies and their customers benefit from LoginRadius Native Mobile SDKs. It allows companies to build and deploy seamless authentication and SSO functionality, while stable, easy and improved customer experiences are on-the-go for later."
 metatitle: "LoginRadius Authentication and SSO for Native Mobile Apps"
@@ -33,7 +33,7 @@ The recently launched LoginRadius Authentication and SSO for Native Mobile Apps 
 
 
 
-[![loginradius-native-mobile-apps-datasheet](loginradius-native-mobile-apps-datasheet.png)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
+[![loginradius-native-mobile-apps-datasheet](loginradius-native-mobile-apps-datasheet.webp)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
 
 
 ## Key Features Offered by LoginRadius Android and iOS SDKs
@@ -53,6 +53,6 @@ The recently launched LoginRadius Authentication and SSO for Native Mobile Apps 
 
 LoginRadius Native Mobile SDKs benefit both businesses and their consumers. It helps in developing and deploying seamless authentication and [SSO features for businesses](https://www.loginradius.com/single-sign-on/), while for the later, secure, simple, and enhanced consumer experiences are on-the-go. 
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-sso-native-mobile-apps)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-sso-native-mobile-apps)
 
 

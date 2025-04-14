@@ -1,7 +1,7 @@
 ---
 title: "How Identity Modernization Will Thrive Business Success in 2022 and Beyond"
 date: "2022-06-17"
-coverImage: "id-modern.jpg"
+coverImage: "id-modern.webp"
 tags: ["identity modernization", "ciam", "zero trust", "ciam"]
 author: "Rakesh Soni"
 description: "When done correctly, password resets can be easy and relatively painless for both the customer and the enterprise. By following tips mentioned in this blog, enterprises can ensure that the customers have a positive experience when resetting their passwords."
@@ -49,7 +49,7 @@ Zero trust is the security concept based on a belief that enterprises shouldn’
 
 In a nutshell, zero trust relies on the principle of “don’t trust anyone.” This architecture cuts all the access points until proper verification is done and trust is established.
 
-[![WP-Zerotrust-1](WP-Zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-Zerotrust-1](WP-Zerotrust-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 No access is provided until the system verifies the individual or device demanding n access to the IP address, device, or storage.
 
@@ -95,4 +95,4 @@ Incorporating a modern cloud-based identity management system could help busines
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-modernization-business-success-2022)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-modernization-business-success-2022)

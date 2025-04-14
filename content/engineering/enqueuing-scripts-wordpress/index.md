@@ -1,7 +1,7 @@
 ---
 title: "Enqueuing Scripts in WordPress"
 date: "2015-03-02"
-coverImage: "wordpress.png"
+coverImage: "wordpress.webp"
 author: "Zoie Carnegie"
 tags: ["WordPress", "PHP"]
 ---

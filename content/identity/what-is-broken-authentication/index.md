@@ -1,7 +1,7 @@
 ---
 title: "What is Broken Authentication Vulnerability and How to Prevent It?"
 date: "2021-02-17"
-coverImage: "broken-auth.jpg"
+coverImage: "broken-auth.webp"
 tags: ["broken authentication","mfa","data security"]
 author: "Rakesh Soni"
 description: "If a hacker successfully logs with stolen credentials, they can misuse your privileges and impact your company's sustainability. Authentication protects a consumer's identity by allowing only a verified user to enter into the system. But there are numerous ways through which a hacker can impersonate consumers and enter inside the system."
@@ -176,7 +176,7 @@ Sometime later, the hacker opens your Gmail account and gains access to your cru
 
 Thus, if the application session timeouts aren't set properly, hackers can execute a broken authentication attack.
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 #### Example 3: Passwords are not properly hashed and salted.
 
@@ -274,4 +274,4 @@ Risks include unauthorized access to sensitive data, manipulation or deletion of
 
 Effects include data breaches, privacy violations, fraudulent activities on compromised accounts, tarnished reputation for individuals or organizations, financial losses, and potential legal ramifications.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-broken-authentication)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-broken-authentication)

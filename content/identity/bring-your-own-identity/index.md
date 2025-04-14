@@ -1,7 +1,7 @@
 ---
 title: "The Rise of BYOI (Bring your own Identity)"
 date: "2021-07-09"
-coverImage: "bring-your-own-identity-cover.jpg"
+coverImage: "bring-your-own-identity-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Saikiran Babladi"
@@ -50,4 +50,4 @@ The possibilities are endless with the LoginRadius platform in how you can set u
  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=bring-your-own-identity)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=bring-your-own-identity)

@@ -1,7 +1,7 @@
 ---
 title: "Streamlining Authentication: Elevate User Experience with LoginRadius AutoLookup"
 date: "2023-12-21"
-coverImage: "autolookup-idp.jpg"
+coverImage: "autolookup-idp.webp"
 tags: ["identity provider","user authentication","cx"]
 author: "Rakesh Soni"
 description: "LoginRadius introduces AutoLookup IDP, a game-changer in the CIAM landscape. Simplify authentication, save time, and elevate user satisfaction. Explore the benefits of this innovative solution and step into the future of secure and efficient login experiences."
@@ -26,7 +26,7 @@ The primary goal of Auto Lookup IDP is to provide users with a [significantly im
 
 Users can now enjoy a smoother and more seamless login journey by simplifying the redirection process to the Identity Provider. This enhancement fosters user satisfaction and positions LoginRadius as a platform that prioritizes user-centric design.
 
-[![WP-omnichannel-retail](WP-omnichannel-retail.png)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
+[![WP-omnichannel-retail](WP-omnichannel-retail.webp)](https://www.loginradius.com/resource/omnichannel-retailer-customer-experience)
 
 ### Time-Saving for Customers
 
@@ -66,4 +66,4 @@ With a focus on improved user experience, streamlined login processes, and cost-
 
 As the digital landscape continues to evolve, LoginRadius stands at the forefront, empowering organizations to deliver secure, efficient, and user-friendly authentication experiences. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-autolookup-idp)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-autolookup-idp)

@@ -1,7 +1,7 @@
 ---
 title: "Understanding MITRE ATT&CK Framework?"
 date: "2022-10-28"
-coverImage: "mitre.jpg"
+coverImage: "mitre.webp"
 tags: ["mitre attack", "cyberattack", "cybersecurity"]
 author: "Alok Patidar"
 description: "Introduced in 2013 by MITRE, the ATT&CK (Adversarial Tactics, Techniques & Common Knowledge) is a way to describe adversarial behaviors expressed in matrices. The matrices contain different techniques and tactics associated with the usual behavior of attackers before they try to sneak into a network."
@@ -37,7 +37,7 @@ ATT&CK is a helpful way to map security controls to threat actor behaviors, but 
 
 Many of the ATT&CK techniques are performed in multiple ways, so trying to apply a single method of detection may not necessarily prevent all variations of the technique.
 
-[![WP-Dig-Trade-Zone](WP-Dig-Trade-Zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-Dig-Trade-Zone](WP-Dig-Trade-Zone.webp)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ## Using ATT&CK With Cyber Threat Intelligence
@@ -54,4 +54,4 @@ Organizations that are concerned about their cybersecurity hygiene shouldn’t i
 
 Globally, brands are using this framework to analyze cybersecurity vulnerabilities and to create adequate action plans for robust security. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-mitre-att-ck-framework)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-mitre-att-ck-framework)

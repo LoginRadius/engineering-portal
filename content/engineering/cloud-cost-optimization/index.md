@@ -1,7 +1,7 @@
 ---
 title: "Cloud Cost Optimization in 2021"
 date: "2020-07-09"
-coverImage: "cloud.png"
+coverImage: "cloud.webp"
 author: "Vijay Singh Shekhawat"
 description: Optimization of cloud costs lowers spending by recognizing mismanaged capital, reserving higher discount space, and proper sizing.
 tags: ["Cloud", "Optmization"]
@@ -27,7 +27,7 @@ Still business have more challenges OS software, Application security, Data stor
  
 The Cloud service provider is providing solutions for all the challenges. The cloud service provider takes total responsibility for hardware, network, space, power, maintaining, and security also they are managing all technical workforce for the whole infrastructure 
 
-  ![infra 1](infra1.png)
+  ![infra 1](infra1.webp)
   
 ## How to Reduce Cloud Cost 
 Reducing Cloud cost is not a one time task. it is a recurring process. We need to identify underutilized resources, Right size machine, reserving capacity for higher discounts also need to optimization Application for reducing hardware cost. Let's start 
@@ -56,12 +56,12 @@ Generally, people make mistakes during checking metrics. Most of the people pref
 
 You are running an online technology tutorial site. Suppose 1million active users on your website in normal days. Now you are hosting weekly technology webinars in your platform. During webinars time your platform traffic should increase. At that time CPU usages and memory usages should be high compared to the rest of the time. Now suppose you have checked the 24 hours average CPU usages and memory usages. It was around 40% and you have decided this is underutilized and scale down the lower size instance. It can impact you 5% - 10% traffic Let’s look at a real-world example. This chart shows the overall CPU usages 
 
-  ![image 1](image1.png)
+  ![image 1](image1.webp)
   
 First Image showing Average CPU utilization. You can see Maximum CPU was 18.6 %
 
 Now, let’s check the CPU 99th percentile:
-  ![image 2](image2.png)
+  ![image 2](image2.webp)
   
 As expected, the 99th percentile is higher than the average. 99th percentile is around 93% 
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Secure Your LoopBack REST API with JWT Authentication"
 date: "2022-02-04"
-coverImage: "secure-loopback-rest-api-with-jwt.png"
+coverImage: "secure-loopback-rest-api-with-jwt.webp"
 author: "Ekekenta Odionyenfe Clinton"
 tags: ["Authentication", "LoopBack", "JWT", "Node.js"]
 description: "Are you building dynamic REST APIs with LoopBack? In this tutorial, you'll learn how to implement user authentication and authorization in a Loopback REST API."
@@ -68,7 +68,7 @@ lb4 app
 
 Select the options as in the following screenshot to complete the prompts.
 
-![Creating a loopback project](l5wg0nTQ.png)
+![Creating a loopback project](l5wg0nTQ.webp)
 
 After completing the prompts, LoopBack will configure the TypeScript compiler and install all the required dependencies. Change directory to the `auth-with-loopback` folder.
 
@@ -86,7 +86,7 @@ lb4 model
 
 Select the options as in the following screenshot to complete the prompts.
 
-![Creating a News Model](lSCGXHs.png)
+![Creating a News Model](lSCGXHs.webp)
 
 After the `date_created` property definition, press the enter key to exit the prompt.
 
@@ -102,7 +102,7 @@ Run the following command in your terminal to create a data source:
 
 Select the options as in the following screenshot to complete the prompts.
 
-![Creating News datasource](pHvPgEQA.png)
+![Creating News datasource](pHvPgEQA.webp)
 
 After completing the prompts, LoopBack will create the `News` file in the `src/datasource` folder.
 
@@ -118,7 +118,7 @@ Select `NewsDatasource` as the data source, `NewsModel` as the model for generat
 
 Your selection for the prompts shall look like the screenshot below.
 
-![Creating News Repository](WWH5tYJQ.png)
+![Creating News Repository](WWH5tYJQ.webp)
 
 After completing the prompts, LoopBack will create the `NewsModelRepository` file in the `src/repository` folder.
 
@@ -130,7 +130,7 @@ Lastly, create a controller for the `NewsModel` you created with the command bel
 
 Your selection for the prompts should look like the screenshot below.
 
-![Creating News Controller](iHD6lPCg.png)
+![Creating News Controller](iHD6lPCg.webp)
 
 After completing the prompts, LoopBack will create the `NewsController` file in the `src/controller` folder. So far, your project structure, omitting the `node_modules` folder, should look as follows.
 
@@ -192,11 +192,11 @@ Now that you have the Model setup, run the server, and add some custom data to t
 
 The above command will start the TypeScript compiler, which will build the project and check for possible errors. If everything goes well with the code, you should see the output on the terminal, as follows:
 
-![Starting LoopBack Server](lSCGXHnw.png)
+![Starting LoopBack Server](lSCGXHnw.webp)
 
 Next, open your favorite browser and navigate to `http://localhost:3000`. You should see an output as follows:
 
-![LoopBack API Dashboard](hL9y8IIg.png)
+![LoopBack API Dashboard](hL9y8IIg.webp)
 
 Now, click on the explorer link, where you can make requests to your LoopBack application. On the explorer page, locate the post endpoint and add some custom data to the news collection by clicking the `try it out` button with the data below on the request body.
 
@@ -210,7 +210,7 @@ Now, click on the explorer link, where you can make requests to your LoopBack ap
 
 Then, click the `execute` button to run the query.
 
-![Executing Queries](jiC_1P0A.png)
+![Executing Queries](jiC_1P0A.webp)
 
 You can add as many records as you like to experiment with the endpoints. The important thing to note here is that the endpoints are not protected. Anyone may create, read, update, and delete records.
 
@@ -239,7 +239,7 @@ You’ll start with the signup controller to enable users to create an account. 
 
 Your selection for the prompts should be as follows:
 
-![Creating User Controller](6LCgT-Gw.png)
+![Creating User Controller](6LCgT-Gw.webp)
 
 Then, open the `src/controllers/user.controller.ts` file, and import the required modules with the following code snippet:
 
@@ -545,11 +545,11 @@ You've implemented user authentication in your REST API and secured the routes a
 
 If you open the explorer page, you should see the `UserController` endpoints.
 
-![User Controller Endpoints](IaV4R43g.png)
+![User Controller Endpoints](IaV4R43g.webp)
 
 If you try to execute any query on `NewsController`, you get a 404 (Unauthorized) error. So, sign up by clicking the `/signup` endpoint — and log in from the `/users/login` endpoint. On successful login, copy the token, scroll to the top, click on the `Authorize` button, and paste the token.
 
-![Authorizing Users](atU6nqmA.png)
+![Authorizing Users](atU6nqmA.webp)
 
 Now you can execute queries on the `NewController` endpoints.
 

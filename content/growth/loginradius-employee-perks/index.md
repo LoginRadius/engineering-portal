@@ -1,7 +1,7 @@
 ﻿---
 title: "Sharing My Journey With LoginRadius: A Look Inside the Best Employee Perks"
 date: "2021-11-26"
-coverImage: "picture04.jpg"
+coverImage: "picture04.webp"
 category: ["loginradius"]
 featured: false 
 author: "Hitesh Kumawat"
@@ -48,7 +48,7 @@ Yes, our association is highly valued, recognized, and respected in every step o
 
 From yoga and happy hours to on-campus meals and lunch reimbursements, LoginRadius values our health and happiness as much as it does our professional development.
 
-![picture05.jpg](picture05.jpg)
+![picture05.webp](picture05.webp)
 
 Working at LoginRadius means we’re always on top of our game. With team-oriented activities like regular Zumba and yoga classes, we stay together as a cohesive unit. Moreso, these perks support our overall health and wellbeing as an employee.
 
@@ -95,4 +95,4 @@ Working with LoginRadius has been flexible, energizing, and filled with people w
 
 Once You're a Part of LoginRadius, the Company Will Be a Part of You Forever!!
 
-[![career-page](career-page.png)](https://www.loginradius.com/careers/)
+[![career-page](career-page.webp)](https://www.loginradius.com/careers/)

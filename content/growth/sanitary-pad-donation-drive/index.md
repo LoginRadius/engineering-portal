@@ -1,7 +1,7 @@
 ﻿---
 title: "Making a Difference: LoginRadius' Sanitary Pad Donation Drive"
 date: "2023-09-27"
-coverImage: "social-cause.jpg"
+coverImage: "social-cause.webp"
 tags: ["LoginRadius donation drive","women empowerment","hope basket foundation"]
 author: "Azharuddin Mohammad"
 description: "Join LoginRadius in our mission to create a positive change in our community. Learn how we're providing sanitary pads, educating women, and making a difference in the lives of underprivileged girls. Together, we can ensure dignity, comfort, and safety for all during their menstrual cycles."
@@ -24,7 +24,7 @@ Many women still prefer using clothes during their menstrual cycles due to conce
 
 The market prices of sanitary pads are often beyond the reach of underprivileged women and girls. The high cost of these essential hygiene products forces them to compromise their health and well-being.
 
-![hope-basket](hope-basket.jpg "image_tooltip")
+![hope-basket](hope-basket.webp "image_tooltip")
 
 ### 3. Stigma and Shyness
 
@@ -40,7 +40,7 @@ Our donation drive is being carried out in phases, targeting different underpriv
 
 None of this would have been possible without the dedication and commitment of our operations team and volunteers who stepped up to make a difference. We thank Naveen, Vikas, Shreya, Soniya, Sudhey, and Pankaj for their invaluable contributions to this noble cause.
 
-![LR-donation-drive](LR-donation-drive.jpg "image_tooltip")
+![LR-donation-drive](LR-donation-drive.webp "image_tooltip")
 
 ## Conclusion:
 
@@ -50,4 +50,4 @@ Join us in our mission to create a positive change in our community. We can empo
 
 Stay tuned for updates on our Sanitary Pad Donation Drive and the impact we're creating in the lives of underprivileged girls. Together, we can make a difference.
 
-[![cta-careers](cta-careers.png)](https://www.loginradius.com/careers/)
+[![cta-careers](cta-careers.webp)](https://www.loginradius.com/careers/)

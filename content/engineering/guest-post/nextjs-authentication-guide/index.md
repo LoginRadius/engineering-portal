@@ -1,7 +1,7 @@
 ---
 title: "Your Ultimate Guide to Next.js Authentication"
 date: "2022-01-13"
-coverImage: "next-authentication.png"
+coverImage: "next-authentication.webp"
 author: "Emadamerho-Atori Nefe"
 tags: ["Authentication", "React", "Next.js", "LoginRadius"]
 description: "This tutorial describes Next.js authentication patterns and helps you learn step-by-step how to authenticate a Next.js application."
@@ -418,7 +418,7 @@ Here, the code snippet uses the `withAuthenticationRequired` higher-order compon
 
 The image below shows an authenticated user's profile page.
 
-![An authenticated user's profile page](profile-page.png)
+![An authenticated user's profile page](profile-page.webp)
 
 ## Conclusion
 

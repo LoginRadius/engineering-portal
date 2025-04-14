@@ -1,7 +1,7 @@
 ---
 title: "Identity Security for Device Trust: Navigating 2024 & Beyond"
 date: "2024-04-18"
-coverImage: "identity-security.jpg"
+coverImage: "identity-security.webp"
 tags: ["data security","cybersecurity","cx"]
 author: "Alok Patidar" 
 description: "In the rapidly evolving technology landscape, where our devices have become indispensable extensions of ourselves, ensuring their trustworthiness is paramount. Enter identity security for device trust, a concept that gained unprecedented significance in 2024 and is set to shape the future of cybersecurity. Let’s uncover the intricacies of this crucial topic, exploring its importance, challenges, and the path forward as we navigate the digital landscape of 2024 and beyond."
@@ -23,7 +23,7 @@ This assurance is achieved through robust identity security measures, such as es
 
 These identity security measures are designed to create a fortress around our digital lives, ensuring that only authorized users and trusted software can access sensitive information and critical resources. Whether it's personal photos, financial details, or confidential work documents, the sanctity of this data relies on the strength of our device trust.
 
-[![DS-M2M-auth](DS-M2M-auth.png)](https://www.loginradius.com/resource/datasheet/m-2-m-authorization)
+[![DS-M2M-auth](DS-M2M-auth.webp)](https://www.loginradius.com/resource/datasheet/m-2-m-authorization)
 
 In a nutshell, identity security forms the bedrock upon which device trust stands tall. It's the invisible shield that guards against unauthorized access, cyber intrusions, and data breaches. 
 
@@ -69,4 +69,4 @@ As we navigate the digital landscape of 2024 and beyond, one thing is clear: ide
 
 Remember, in the realm of device trust, identity security is the key that unlocks a world of possibilities while safeguarding what matters most—our digital identities.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-device-trust-2024)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-device-trust-2024)

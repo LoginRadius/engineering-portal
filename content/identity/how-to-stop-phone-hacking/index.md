@@ -1,7 +1,7 @@
 ---
 title: "How To Make Sure Your Phone Isn’t Hacked"
 date: "2020-12-09"
-coverImage: "stop-phone-hacking.jpg"
+coverImage: "stop-phone-hacking.webp"
 tags: ["data security","cybersecurity","authentication"]
 author: "Rakesh Soni"
 description: "Hacking your smartphone may feel like someone has stolen your home. Go through this checklist to protect your phone from being hacked."
@@ -21,7 +21,7 @@ Hackers do not even have to steal the victim's phone to download malware. They j
 
 If your smartphone is displaying one or more of the following unusual behavior, there is a possibility that your device has already been hacked.
 
-![6-signs-that-confirm-your-smartphone-has-already-been-hacked](6-signs-that-confirm-your-smartphone-has-already-been-hacked.png)
+![6-signs-that-confirm-your-smartphone-has-already-been-hacked](6-signs-that-confirm-your-smartphone-has-already-been-hacked.webp)
 
 ### 1. Noticeable decrease in battery life
 
@@ -73,7 +73,7 @@ Many smartphone users believe that their mobile service providers should deploy 
 Here are a few safety tips to ensure that you do not become a victim of phone hacking:
 
 
-![8-ways-to-stop-someone-from-hacking-your-phone-again](8-ways-to-stop-someone-from-hacking-your-phone-again.png)
+![8-ways-to-stop-someone-from-hacking-your-phone-again](8-ways-to-stop-someone-from-hacking-your-phone-again.webp)
 
 
 ### 1.   Keep up to date – and don’t dig in holes yourself.
@@ -100,7 +100,7 @@ Users should ensure that they keep their phone locked when not in use and also s
 
 Services like ‘find my device’ are provided by smartphone manufacturers to help users locate their stolen phone on a map and remotely erase their data. All users need to do is set their phone to automatically erase itself after a certain number of incorrect access attempts.  It is also possible to make a phone ring even if it is kept on silent. It is helpful in tracking down phone that was just stolen. 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 
@@ -126,4 +126,4 @@ Locking your phone is important but as a secondary security measure, lock indivi
 Smartphones have become an essential part of our daily lives. Once you know about how your phone can be hacked, you can take various safety precautions to protect it from data theft. Furthermore, it will also keep your data secure from opportunist thieves or state-sponsored spies!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-stop-phone-hacking)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-stop-phone-hacking)

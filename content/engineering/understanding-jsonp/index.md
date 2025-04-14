@@ -1,7 +1,7 @@
 ---
 title: "Understanding JSONP"
 date: "2018-06-29"
-coverImage: "Screenshot-2018-06-29-12.21.27.png"
+coverImage: "Screenshot-2018-06-29-12.21.27.webp"
 author: "Rakesh Soni"
 tags: ["JavaScript","JSONP","API"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "What is Dynamic Authorization & Why Does it Matter?"
 date: "2022-11-17"
-coverImage: "dynamic-authorization.jpg"
+coverImage: "dynamic-authorization.webp"
 tags: ["dynamic authorization","compliance","cx"]
 author: "Rakesh Soni" 
 description: "Dynamic authorization rewards customers with the security they need and effectively improves their experience with your brand. It helps to meet your customer’s needs and, at the same time, gives you much more control over how users access your services."
@@ -60,7 +60,7 @@ Dynamic authorization helps you stay ahead of regulations and protect your organ
 
 In other words, it ensures that if someone tries to access something they aren't supposed to, they won't be able to do it.
 
-[![WP-compliance-retailers](WP-compliance-retailers.png)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
+[![WP-compliance-retailers](WP-compliance-retailers.webp)](https://www.loginradius.com/resource/role-of-data-and-privacy-compliance-in-retail)
 
 
 ## How Can Dynamic Authorization Improve Customer Experience?
@@ -89,4 +89,4 @@ Dynamic authorization can adapt quickly to changing business requirements now an
 
 With solutions that enable dynamic policy changes, you can easily adapt to changes in your business environment, control access to sensitive data, and minimize loss of control over that data. This allows you to confidently navigate business processes, knowing that you are fully prepared for any data security or compliance challenges.
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-dynamic-authorization)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-dynamic-authorization)

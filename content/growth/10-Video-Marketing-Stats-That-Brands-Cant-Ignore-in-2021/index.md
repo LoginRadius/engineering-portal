@@ -1,7 +1,7 @@
 ﻿---
 title: "10 Video Marketing Stats That Brands Can't Ignore in 2021"
 date: "2021-04-26"
-coverImage: "video-marketing-loginradius.jpg"
+coverImage: "video-marketing-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -204,4 +204,4 @@ Even the most experienced video content creators use a system to make sure every
 
 If you're looking to draft a campaign, start by defining your goals and then create a video production plan that follows those goals.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-video-marketing-stats-that-brands-cant-ignore-in-2021)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-video-marketing-stats-that-brands-cant-ignore-in-2021)

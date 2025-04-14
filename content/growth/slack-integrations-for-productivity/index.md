@@ -1,7 +1,7 @@
 ---
 title: "11 Slack App Integrations to Boost Productivity at Your Workplace"
 date: "2017-02-28"
-coverImage: "Untitled-design-6.png"
+coverImage: "Untitled-design-6.webp"
 category: ["business", "technology", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -21,7 +21,7 @@ Slack is well known for its chatting environment. You can create various channel
 
 #### **Asana**
 
-![Asana logo](      Asana_logo_new.png?ver=1553881376)
+![Asana logo](      Asana_logo_new.webp?ver=1553881376)
 
 As one of the best tools to manage projects in many organizations, [Asana](https://asana.com/customers/) is widely used. So, if your organization is one of them, you can highly benefit in terms of productivity with this app integration.
 
@@ -33,7 +33,7 @@ As one of the best tools to manage projects in many organizations, [Asana](https
 
 #### **Mailchimp**
 
-![mailchimp](      mailchimp.jpg?ver=1553881376)
+![mailchimp](      mailchimp.webp?ver=1553881376)
 
 As one of the best online platforms for email marketing, [Mailchimp-Slack integration](https://slack.com/apps/new/A0F82E726-mailchimp) can help you to get updates about the number of subscriptions and you can check a campaign’ sent status. The process includes authentication from your Mailchimp account. Afterwards, you can also select which lists to monitor through Slack.
 
@@ -45,7 +45,7 @@ In a nutshell, you can [check the following events](https://connect.mailchimp.co
 
 #### **Github**
 
-![github](      github.jpg?ver=1553881376)
+![github](      github.webp?ver=1553881376)
 
 With [Github](https://github.com/)\-Slack integration, you can have access to the repository of source codes for your Git projects. This integration provides you with the privilege to cooperate, analyze, and practice codes for your private projects.
 
@@ -69,19 +69,19 @@ Process to [connect your Slack with Github](https://get.slack.help/hc/en-us/arti
 
 #### **Hubot**
 
-![hubot](      hubot.png?ver=1553881376)
+![hubot](      hubot.webp?ver=1553881376)
 
 [Hubot](https://hubot.github.com/) is a popular chatbot which can be used for anything in your team. For example, you can have a poll of what your team is going to have for lunch or you can look for people who want to have a coffee. Well, this bot is fun and this is how you can [integrate](https://slack.com/apps/A0F7XDU93-hubot) it with Slack.
 
 #### **Google Hangouts**
 
-![Hangouts](      Hangouts_Icon.png?ver=1553881376)
+![Hangouts](      Hangouts_Icon.webp?ver=1553881376)
 
 Integrating [Google Hangouts](https://hangouts.google.com/?hl=en&authuser=0) with Slack will help you to communicate with your team via voice calls and video conferencing. So, you can boost your communication in a certain channel and accelerate conversations through Hangout. People across different niche such as marketers, developers, and other professionals can benefit from [Google Hangouts-Slack](https://slack.com/apps/new/A0F7YS351-google-hangouts) integration.
 
 #### **Google Drive**
 
-![Google Drive](      2000px-Logo_of_Google_Drive.svg.png?ver=1553881376)
+![Google Drive](      2000px-Logo_of_Google_Drive.webp.webp?ver=1553881376)
 
 [Google drive](https://drive.google.com/) is used to create, save and **corporate** documents online. Many people can work simultaneously on a document in Google drive.
 
@@ -89,7 +89,7 @@ Well, it is one of the most popular integrations in Slack. You just simply need 
 
 #### **Intercom**
 
-![intercom](      intercom.png?ver=1553881376)
+![intercom](      intercom.webp?ver=1553881376)
 
 [Intercom](https://www.intercom.com/) is a great tool to interact with the users of your software. You can send in-app messages and targeted emails to your users through your app during special occurrences.
 
@@ -102,7 +102,7 @@ Integrating Slack to Intercom will allow you to receive following notifications 
 
 #### **WordPress**
 
-![Wordpress](      Wordpress-logo-hoz-rgb.png?ver=1553881376)
+![Wordpress](      Wordpress-logo-hoz-rgb.webp?ver=1553881376)
 
 [WordPress](https://wordpress.com/), which is another highly customizable tool which creates and manages your blog or website.
 
@@ -110,13 +110,13 @@ Integrating Slack to Intercom will allow you to receive following notifications 
 
 #### **Stripe**
 
-![Stripe ](      Stripe_logo_revised_2014.png?ver=1553881376)
+![Stripe ](      Stripe_logo_revised_2014.webp?ver=1553881376)
 
 [Stripe](https://stripe.com/) is an app for accepting payments online. You will be able to get updates about transfers, subscriptions, invoice payments, charges etc. through integrating [Stripe with Slack](https://slack.com/apps/new/A0F81FNVC-stripe).
 
 #### **Jira**
 
-![JIRA](      JIRA.png?ver=1553881376)
+![JIRA](      JIRA.webp?ver=1553881376)
 
 [Jira](https://www.atlassian.com/software/jira) is a powerful project management tool which can help to keep track of issues related to a project, assign tasks, and check team’s activity.
 
@@ -124,7 +124,7 @@ You can receive notifications about your new and existing [JIRA issues on Slack]
 
 #### **Zendesk**
 
-![zendesk](      zendesk-300x300.jpg?ver=1553881376)
+![zendesk](      zendesk-300x300.webp?ver=1553881376)
 
 [Zendesk](https://www.zendesk.com/), which is another tool to support tickets against issues can be [integrated to Slack](https://slack.com/apps/new/A0F81FPJS-zendesk) to get notifications about your tickets. The following events are notified on Slack:- 1\. Open 2\. Pending 3\. Solved  4. Closed
 

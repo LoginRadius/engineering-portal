@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Web Accessibility with Semantic HTML5"
 date: "2019-07-24"
-coverImage: "handicapped.png"
+coverImage: "handicapped.webp"
 author: "Greg Sakai"
 tags: ["HTML5", "HTML", "Web Accessibility", "Semantic HTML5"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Hello developers and designers!"
 date: "2014-05-02"
-coverImage: "desdev.png"
+coverImage: "desdev.webp"
 author: "Team LoginRadius"
 tags: ["Engineering"]
 ---

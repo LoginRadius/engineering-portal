@@ -1,7 +1,7 @@
 ---
 title: "How To Plan Your CIAM Budget In A Recession As We Look Ahead Towards 2023?"
 date: "2022-12-21"
-coverImage: "budget.jpg"
+coverImage: "budget.webp"
 category: ["ciam", "cybersecurity", "budget"]
 author: "Rakesh Soni"
 description: "The key to optimizing and protecting your CIAM budget is to be clear and sure about everything that adds value to your organization. Here are some tips that can help you plan your CIAM budget smartly for 2023 on the declining global economy."
@@ -54,7 +54,7 @@ Many organizations understand the importance of investing in cybersecurity tools
 * Enable risk-based authentication 
 * Frequent employee training sessions
 
-[![WP-zerotrust-1](WP-zerotrust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zerotrust-1](WP-zerotrust-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 
 ## Making the Most out of Your Current CIAM Budget 
@@ -77,4 +77,4 @@ As you plan your CIAM budget for 2023, consider which challenges pose the most s
 An intelligent approach to budget planning can make all the difference for your security team.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-budget-2023-recession)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-budget-2023-recession)

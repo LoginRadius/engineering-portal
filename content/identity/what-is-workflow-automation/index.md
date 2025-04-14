@@ -1,7 +1,7 @@
 ﻿---
 title: "Workflow Automation- What is it and Why Do You Need It?"
 date: "2021-04-14"
-coverImage: "what-is-workflow-automation-cover.jpg"
+coverImage: "what-is-workflow-automation-cover.webp"
 tags: ["workflow automation","scalability","cx"]
 author: "Navanita Devi"
 description: "Workflow automation refers to the process of automating a set of manual processes or tasks based on a set of pre-defined rules or conditions. It helps you reduce the use of resources and time, more importantly, the chances of human-made errors. As a result, it improves a business’s overall efficiency, audibility, and accountability."
@@ -106,4 +106,4 @@ Even though you can fully control the logical flows, it requires large resources
 
 Small and medium enterprises around the globe are expected to adopt business workflow automation on a large scale, creating a market of opportunity of US$ 1,600 million between 2017 and 2026. With its excellent built-in automation tools and solutions, multipurpose workflow software such as LoginRadius can help you meet your business goals by increasing efficiency, productivity, and other success factors. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-workflow-automation)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-workflow-automation)

@@ -1,7 +1,7 @@
 ---
 title: "5 Privacy Threats in Social Media You Should Know in 2022"
 date: "2022-02-11"
-coverImage: "social-privacy.jpg"
+coverImage: "social-privacy.webp"
 tags: ["social login","data security","cx"]
 author: "Nikola Sekulic"
 description: "With the rise in a number of highly publicized cybersecurity breaches, businesses and consumers must remain vigilant to protect sensitive information on social media. There is no doubt that cyber threats will continue to rise over the next few years, so being prepared is key."
@@ -28,7 +28,7 @@ This doesn’t mean that you shouldn’t invest in social media ads, but you nee
 
 Yes, it is important to target the right people, but you don’t want your ads to turn your followers against you - after all, people don’t like ads that seem to “know” too much.
 
-[![WP-social-login-rec](WP-social-login-rec.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![WP-social-login-rec](WP-social-login-rec.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 ### Identity theft and impersonation
 
@@ -79,4 +79,4 @@ Make sure to:
 
 Securing your sensitive data on social media and minimizing cybersecurity risks should be a top priority for companies and consumers in 2022. Make sure to keep these privacy threats in mind and use these tips to keep your business, your employees, and your customers safe in an increasingly dangerous online world.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-media-privacy-threats-2022)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-media-privacy-threats-2022)

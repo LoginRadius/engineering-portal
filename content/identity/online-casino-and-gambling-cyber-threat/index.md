@@ -1,7 +1,7 @@
 ---
 title: "Online Casino and Gambling Industry Is Gaining Momentum, So Is the Cyber Threat"
 date: "2020-06-25"
-coverImage: "Online-Casino-and-Gambling-Industry.jpg"
+coverImage: "Online-Casino-and-Gambling-Industry.webp"
 tags: ["security"]
 featured: false 
 author: "Rakesh Soni"
@@ -28,7 +28,7 @@ The online gambling industry has undergone various changes over the past decades
 
 For example, the online gambling market is expected to grow at a compound annual growth rate (CAGR) of 11.5% from 2020 to 2027. That's huge!
 
-![](usa-online-gambling-market-size.png)
+![](usa-online-gambling-market-size.webp)
 
 Source: www.grandviewresearch.com
 
@@ -62,7 +62,7 @@ It is no brainer that the customer's habit evolves with time. Social gambling an
 
 [Mobile technology](https://www.casino.org/features/gambling-statistics/) has been a massive influence on people with a huge percentage of the world's population owning a smartphone. Casinos are more than ever investing in gaming applications and creating mobile-friendly games. It seems like mobile games will soon take over their desktop competition.
 
-![](europe-online-gambling-market-share.png)
+![](europe-online-gambling-market-share.webp)
 
 _Source: www.grandviewresearch.com_
 
@@ -84,7 +84,7 @@ In 2020, reducing the effects of cyber attacks and online fraud is crucial to su
 
 Besides, Statista.com estimates that the global online gambling market will be valued at more than [$94 billion USD in 2024](https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/) - meaning more the figure, more the risk of cybercrime.
 
-![](online-gambling-market-2017-2024-1-1024x763.png)
+![](online-gambling-market-2017-2024-1-1024x763.webp)
 
 Source: statista
 
@@ -102,7 +102,7 @@ Here are a few instances of recent breaches that will help you understand its se
 
 ## Types of Attacks on Online Casino, Betting and Gambling Sites 
 
-![online gambling, casino and betting sectors](online-gambling-casino-and-betting-sectors.png)
+![online gambling, casino and betting sectors](online-gambling-casino-and-betting-sectors.webp)
 
 Online gambling and casino sites face security threats from several sources. For starters, some external hackers launch attacks to commit fraud from the comfort of their home or anywhere (for that matter). Next, some insiders hold administrative positions inside the business itself and [steal customer details](https://www.loginradius.com/blog/2019/09/prevent-credential-stuffing-attacks/). 
 
@@ -140,7 +140,7 @@ By breaking into application security measures, hackers can easily pass through 
 
 ## How LoginRadius Can Enhance the Experience of Online Gaming With Advance Security
 
-![How LoginRadius Can Enhance the Experience of Online Gaming](How-LoginRadius-Can-Enhance-the-Experience-of-Online-Gaming.png)
+![How LoginRadius Can Enhance the Experience of Online Gaming](How-LoginRadius-Can-Enhance-the-Experience-of-Online-Gaming.webp)
 
 LoginRadius is a powerful [customer identity and access management (CIAM)](https://www.loginradius.com/blog/2019/06/customer-identity-and-access-management/) platform that protects online gamblers' identity and prevents even the most sophisticated bots from infecting the gaming provider. It detects and blocks automated threats, including expediting, scraping, account takeover, DDoS, and more.
 
@@ -148,7 +148,7 @@ Here's how the LoginRadius platform protects the gaming industry from malicious 
 
 - **Multi-Factor Authentication**: The platform adds additional layers of protection by enabling two-factor or [multifactor authentication](https://www.loginradius.com/blog/2019/06/what-is-multi-factor-authentication/) on both player and admin accounts. It also offers real-time fraud analysis and data management features. 
 
-[![adaptive-mfa](adaptive-mfa.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
+[![adaptive-mfa](adaptive-mfa.webp)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
 
 
 - **Passwordless Login**: Eliminating the [use of passwords](https://www.loginradius.com/blog/2019/10/passwordless-authentication-the-future-of-identity-and-security/) altogether can surprisingly improve gamblers' retention and loyalty because there will be no passwords to hack in the first place. Also, there is a one-touch login feature where customers login with a magic link or OTP.
@@ -162,4 +162,4 @@ Adhering to the COVID situation and keeping social distancing in mind, more and 
 
 With the ongoing pandemic situation, gambling providers should primarily focus on ensuring that gambling is fair, crime-free, and protects minors. A [CIAM platform](https://www.loginradius.com/blog/identity/perfect-ciam-platform/) can help you tap all these touchpoints.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-casino-and-gambling-cyber-threat)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-casino-and-gambling-cyber-threat)

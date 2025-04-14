@@ -1,7 +1,7 @@
 ---
 title: "Identity Provider: What Is It And Why Should You Invest In One?"
 date: "2021-06-01"
-coverImage: "identity-provider.jpg"
+coverImage: "identity-provider.webp"
 tags: ["identity management","ciam solution","cx","mfa"]
 author: "Rakesh Soni" 
 description: "Identity management integration is an essential process in today’s consumer-driven world. Identity providers are a great way to offer your consumers an easy sign-in method. So, when they are connecting to your website or online store, it can allow them to login once with their unique details and not have to remember multiple logins."
@@ -95,7 +95,7 @@ Presenting [multi-factor authentication](https://www.loginradius.com/blog/identi
 
 Many businesses choose to include a Single Sign-on (SSO) feature instead of MFA; there can be various advantages. It allows end-users to use your services without logging in again and again.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ## How To Integrate An Identity Provider With A CIAM Solution?
 
@@ -222,4 +222,4 @@ IdPs and SPs work together by establishing trust relationships between them, ena
 
 MFA adds an extra layer of security to the authentication process by requiring users to provide two or more authentication factors, such as a password and a security token.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-provider)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-provider)

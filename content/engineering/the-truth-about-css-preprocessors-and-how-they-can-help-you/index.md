@@ -1,7 +1,7 @@
 ---
 title: "The truth about CSS preprocessors and how they can help you"
 date: "2015-11-17"
-coverImage: "desdev-150x150.png"
+coverImage: "desdev-150x150.webp"
 author: Zakary Hughes
 tags: ["CSS"]
 ---

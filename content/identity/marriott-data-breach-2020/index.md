@@ -1,7 +1,7 @@
 ---
 title: "Marriott Data Breach 2020: 5.2 Million Guest Records Were Stolen"
 date: "2020-04-13"
-coverImage: "marriott-data-breach.jpg"
+coverImage: "marriott-data-breach.webp"
 tags: ["other"]
 featured: false 
 author: "Rakesh Soni"
@@ -30,7 +30,7 @@ The hotel giant announced another [data breach in late 2018](https://news.marrio
 
 It could be considered an honest mistake to suffer one data breach but to suffer two in less than two years looks like carelessness. There are some promising signs that the company has learned some valuable information security lessons in spite of how it may look to an outsider. From this experience, the [entire hospitality industry](https://www.loginradius.com/blog/2020/03/improve-customer-experience-hospitality-industry/) should now know better.
 
-[![Protecting-PII-Data-Breaches-industry-report](Protecting-PII-Against-Data-Breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![Protecting-PII-Data-Breaches-industry-report](Protecting-PII-Against-Data-Breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ## What does the Hotel Industry do to avoid data breaches like Marriott’s?
 
@@ -48,4 +48,4 @@ Companies need to understand that customer data security is part of the revenue 
 
 Let’s hope that Marriott and its peers in the travel industry have learned that, while the security of customer accounts may not be their core business, it still needs to be priority number one.
 
-[![](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=marriott-data-breach-2020)
+[![](BD-Developers2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=marriott-data-breach-2020)

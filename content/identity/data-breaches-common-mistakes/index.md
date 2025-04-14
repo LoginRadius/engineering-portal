@@ -1,7 +1,7 @@
 ---
 title: "Avoid these Common Mistakes When Dealing with Data Breaches"
 date: "2021-10-01"
-coverImage: "data-breaches-common-mistakes-cover.jpg"
+coverImage: "data-breaches-common-mistakes-cover.webp"
 tags: ["data security","mfa","cx"]
 author: "Deependra Singh"
 description: "With hacking events on the rise, it would be wise to take a step back and consider where things went wrong. You can prevent data breach occurrences in your organization by learning to recognize the common mistakes that are committed."
@@ -45,7 +45,7 @@ As mentioned before, the roles that each person and every team plays in handling
 
 This leader will receive reports from every team involved in mitigating the attack and will, therefore, have to coordinate with every party involved. This person will have to be the voice of reason during this trying time and do everything in their power to ensure that the response plan is being implemented properly. 
 
-[![RP-data-breach-report](RP-data-breach-report.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![RP-data-breach-report](RP-data-breach-report.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 ### 5. No third-party agencies.
 
@@ -65,4 +65,4 @@ According to several reports, a data breach typically costs an organization anyw
 
 However, learning from the above mistakes, an organization can remain defenseless in the face of a data breach.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-breaches-common-mistakes)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-breaches-common-mistakes)

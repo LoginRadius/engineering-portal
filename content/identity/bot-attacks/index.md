@@ -1,7 +1,7 @@
 ---
 title: "How To Secure Your Contact Form From Bot Attacks"
 date: "2020-12-24"
-coverImage: "bot-attacks.jpg"
+coverImage: "bot-attacks.webp"
 tags: ["data security","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "It is no surprise that the contact form attracts a lot of bot attacks. Hackers not only create false traffic, but also result in malicious attacks on websites. The objective of this blog is to help you to secure contact form from random audacious attacks."
@@ -18,7 +18,7 @@ We will explore the various methods that can be used to prevent bots from submit
 
 # What Is a Spambot?
 
-![spambot](spambot.png)
+![spambot](spambot.webp)
 
 A spambot is a malicious program or unethical activity specially designed to gather email addresses or information from contact forms. It is usually done by sending spam emails. 
 As emails have a distinct structure, a bot creation process is easy for hackers. Hence, you need to be extra cautious while using contact forms for your website or important marketing campaigns. 
@@ -54,7 +54,7 @@ Honeypots are hidden fields that are added to the user registration form to prev
 
 This is again a great way to identify spammers since humans usually will take some time to fill out all the fields of a form while bots can do it instantly. So, measuring the time taken to fill a form can be helpful when finalizing your contact list.
 
-[![credential-stuffing](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![credential-stuffing](credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 
 ### 6. "Hide target request."
@@ -97,11 +97,11 @@ Another way to prevent contact form spam is to disable the right-click functiona
 LoginRadius offers all the options mentioned above to secure contact forms from spam or fake signups. The consumer identity and access provider also offers world-class security for consumers to ensure that their data is safe during login, registration, password setup, and any other data touchpoints. 
 The [CIAM platform](https://www.loginradius.com/) is a powerhouse of open source SDKs, pre-designed and customizable login interfaces, and robust data security products such as MFA, RBA, and Advanced Password Policies.    
 
-![LRbotprotection](LRbotprotection.png)
+![LRbotprotection](LRbotprotection.webp)
 
 
 ## Final Words
 Spambots will not go anywhere so soon. Take your time and learn to implement these strategies to make things easier for you in the long-run. It demands a lot of effort and practice to implement these ideas, but the result is worth it. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=bot-attacks)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=bot-attacks)

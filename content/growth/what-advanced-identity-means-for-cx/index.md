@@ -1,7 +1,7 @@
 ﻿---
 title: "The Future of Customer Experience is All About Advanced Identity"
 date: "2022-09-08"
-coverImage: "cx-identity.jpg"
+coverImage: "cx-identity.webp"
 category: ["customer experience", "identity management", "compliance"]
 author: "Vishal Sharma"
 description: "Since customer journeys are becoming increasingly complex, brands should focus more on improving their identity management infrastructure. This blog explains the aspects of identity management and how to deliver a rich and secure CX across multiple touchpoints."
@@ -42,7 +42,7 @@ A rich customer experience begins when users interact with their platform for th
 
 Besides, global data privacy and security compliances, including the GDPR and CCPA, are more stringent than ever. Hence, to comply with these regulations, brands should adopt a robust identity management solution to continue delivering services to their customers. 
 
-[![lr-ccpa](lr-ccpa.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![lr-ccpa](lr-ccpa.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 
 ## Your Customers Know What to Share What Not
@@ -71,4 +71,4 @@ The power of identity management is helping brands navigate their digital transf
 With a reliable customer identity and access management solution, brands can ensure they stand ahead of the curve by delivering rich customer experiences backed with robust security. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-advanced-identity-means-for-cx)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-advanced-identity-means-for-cx)

@@ -1,7 +1,7 @@
 ---
 title: "Styling Radio and Check buttons with CSS"
 date: "2015-06-16"
-coverImage: "radio-check-buttons-css-1.png"
+coverImage: "radio-check-buttons-css-1.webp"
 author: "Team LoginRadius"
 tags: ["CSS"]
 ---
@@ -64,9 +64,9 @@ label input[type="radio"]:checked ~ span:before {
 }
 ```
 
-![checked-radio](checked-radio.png)
+![checked-radio](checked-radio.webp)
 
-![unchecked-radio](unchecked-radio.png)
+![unchecked-radio](unchecked-radio.webp)
 
 By now it should like this.  
   
@@ -115,9 +115,9 @@ label.spin input[type="checkbox"]:checked ~ span:before {
   
 Oh yes! Beautiful toggle.
 
-![checked-check](checked-check.png)
+![checked-check](checked-check.webp)
 
-![unchecked-checkbox](unchecked-checkbox.png)
+![unchecked-checkbox](unchecked-checkbox.webp)
 
 **Bonus!**
 

@@ -196,4 +196,4 @@ Ready to implement token-based authentication with a powerful CIAM solution?[ Bo
 
 **A.** JWT is a specific type of token used in token-based authentication. While all JWTs are tokens, not all tokens are JWTs. JWTs contain payloads, are signed, and often used in OAuth2 systems.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-token-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-token-authentication)

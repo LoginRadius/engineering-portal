@@ -1,7 +1,7 @@
 ---
 title: "Upload files using NodeJS + Multer"
 date: "2020-10-12"
-coverImage: "node-multer-upload.png"
+coverImage: "node-multer-upload.webp"
 author: Gabriel Rabelo
 description: "Learn how to upload files in a NodeJS application using Multer, Multer is a middleware for handling multipart/form-data that is used to send files in forms."
 tags: ["NodeJs", "Express", "Multer"]

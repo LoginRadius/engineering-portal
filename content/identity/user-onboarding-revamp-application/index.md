@@ -1,7 +1,7 @@
 ---
 title: "5 Ways User Onboarding Software Can Revamp Your Application"
 date: "2021-01-27"
-coverImage: "user-onboarding-application.jpg"
+coverImage: "user-onboarding-application.webp"
 tags: ["customer-experience"]
 featured: false
 author: "Rakesh Soni"
@@ -33,7 +33,7 @@ When the user launches your app for the first time, the onboarding process reinf
 ## What Are the Primary Elements of an Ideal User Onboarding Process
 
 
-![ideal-user-onboarding-process](ideal-user-onboarding-process.png)
+![ideal-user-onboarding-process](ideal-user-onboarding-process.webp)
 
 The onboarding process should be a mix of inspiration, education, timely and actionable insights. Each product is unique, and how you are going to handle the onboarding will help you to know about your users, their needs, and how your product is going to stay with them.
 
@@ -84,7 +84,7 @@ This happens when your customer truly appreciates the value of your software. Co
 The main goal of onboarding is to show new users the key features and guide users towards the ‘Aha Moment,’ which is called the moment of delight, where the value of the product becomes instantly clear.
 
 
-[![ciam-101](ciam-101.png)](https://www.loginradius.com/resource/ciam-101/)
+[![ciam-101](ciam-101.webp)](https://www.loginradius.com/resource/ciam-101/)
 
 
 
@@ -137,4 +137,4 @@ You know by now how user onboarding software can revamp your application. But, o
 It takes time to build an onboarding process and a lot of work to update it. You cannot change everything immediately, but you can make small changes over a period of time to smoothen the onboarding process.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-onboarding-revamp-application)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-onboarding-revamp-application)

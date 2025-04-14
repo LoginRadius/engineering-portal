@@ -1,7 +1,7 @@
 ---
 title: "Qualities of an agile development team"
 date: "2020-07-27"
-coverImage: "agile.jpg"
+coverImage: "agile.webp"
 author: Vikram Jain
 tags: ["Agile", "Development", "Teamwork"]
 description: "Agile is becoming another SDLC methodology but in reality, it is beyond normal project management. With time It’s been accessorized a lot and leaving behind the basic building blocks and the important entity the Agile Development Teams."

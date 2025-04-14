@@ -1,7 +1,7 @@
 ---
 title: "Why Do Consumers Prefer Social Login [Infographic]"
 date: "2021-02-24"
-coverImage: "social-login.jpg"
+coverImage: "social-login.webp"
 tags: ["ciam","social login","cx"]
 author: "Rakesh Soni"
 description: "Social login simplifies registration and login for consumers. For this primary reason, social login is gaining popularity among ecommerce brands and retailers looking to turn visitors into buying customers."
@@ -29,7 +29,7 @@ You don't need to do a lot for work to implement social login. Here's how it wor
 **Step 3**: The consumer gets access to the app once the social provider confirms the identity.
 
 
-[![social-login-datasheet](social-login-datasheet.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![social-login-datasheet](social-login-datasheet.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 
 ## Benefits of Social Login
@@ -47,6 +47,6 @@ You don't need to do a lot for work to implement social login. Here's how it wor
 To learn more about Social login – how it works and advantages, check out the infographic created by LoginRadius.
 
 
-![social-login-infographic](social-login-infographic.png)
+![social-login-infographic](social-login-infographic.webp)
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-login-infographic)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-login-infographic)

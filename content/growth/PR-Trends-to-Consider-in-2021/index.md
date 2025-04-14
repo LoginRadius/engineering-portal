@@ -1,7 +1,7 @@
 ﻿---
 title: "Three Unique PR Trends to Consider in 2021"
 date: "2021-04-22"
-coverImage: "pr-trends-2021.jpg"
+coverImage: "pr-trends-2021.webp"
 category: ["loginradius"]
 featured: false 
 author: "Yash Rathi"
@@ -27,7 +27,7 @@ Can companies continue to pursue the "traditional" form of PR and risk falling b
 
 Along with the masks and social distancing, here are 3 unique PR trends to consider in 2021 – they are here to stay over the next decade. Let us discuss each one of them in detail.
 
-![book-a-demo-loginradius](PR-Strategy-2021.jpg)
+![book-a-demo-loginradius](PR-Strategy-2021.webp)
 
 ## PR Trends to Follow in 2021
 
@@ -122,4 +122,4 @@ As businesses adopt digital technologies, brand honesty is among the top concern
 ## Conclusion
 
 The evolving post-pandemic business world brings both challenges and opportunities to PR and communication teams. With more businesses going remote and to online platforms, it will be interesting to see how corporate PR responds to this change and devise their organizational strategy for the next decade.
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pr-trends-to-consider-in-2021)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pr-trends-to-consider-in-2021)

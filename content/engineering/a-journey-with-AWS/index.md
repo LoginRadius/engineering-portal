@@ -1,7 +1,7 @@
 ---
 title: "AWS Services-Walkthrough"
 date: "2020-11-03"
-coverImage: "aws.png"
+coverImage: "aws.webp"
 author: "Nitin Gupta"
 tags: ["AWS", "Serverless"]
 description: "Learn about various AWS services and how to set up in a step by step tutorial."
@@ -28,13 +28,13 @@ It is designed to make web-scale cloud computing easier for developers. <br>
 **Here are some of the important steps while setting up new EC2 Instance->** <br>
 
 Choose an Amazon AMI.
-![AWS](AWS_EC21.png)
+![AWS](AWS_EC21.webp)
 
 Choose the instance type.
-![AWS](AWS_EC22.png)
+![AWS](AWS_EC22.webp)
 
 Configure security group(It allows specific IP's that user will give permission to specific ports as per requirement.)
-![AWS](AWS_EC23.png)
+![AWS](AWS_EC23.webp)
 
 
 
@@ -50,7 +50,7 @@ sudo su
 Amazon Relational Database Service is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides a resizable,  cost-efficient capacity for an industry-standard relational database and manages everyday database administration tasks.
 After setting up RDS, you can be logged in to the local tool(SQL Developer/ MY SQL Workbench) and copy RDS's endpoint with Username/Password configured while setting RDS.
 
-![Available Databases](AWS_RDS.png)
+![Available Databases](AWS_RDS.webp)
 
 ## AWS ElastiCache
 Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud. This service is commonly used to avoid unnecessary calls to RDS and improve the user experience by displaying the data faster.
@@ -59,7 +59,7 @@ There are two types of cluster engine supported by AWS ElastiCache
 - Redis
 - Memcached
 
-![AWS Elasti Cache](AWS_EC.png)
+![AWS Elasti Cache](AWS_EC.webp)
 
 Login to Redis locally via this command (First port can be anything except 6379 as it will direct AWS Redis to local Redis installed on the machine) and after first port, just paste the endpoint of Redis.
 
@@ -75,11 +75,11 @@ There are a few components of BOT that need to be understood to build it.
 - Slots:- Data provided by the user to fulfill the intent.
 - Prompts:-These are queries/questions asked by the user to input the data.
 
-![AWS Lex](AWS_Lex.png)
+![AWS Lex](AWS_Lex.webp)
 
 Moreover, there are VERSIONS linked with bots, intents, and custom slots. With the help of versions, we can make changes in the dev version without any impact occurring in PROD; hence it helps to make Immutable versions of bot that is created using AWS Lex.
 
-![AWS Lex Versions](AWS_LexV.png)
+![AWS Lex Versions](AWS_LexV.webp)
 
 
 ## AWS API Gateway
@@ -92,7 +92,7 @@ Here are some of the pointers that explain the need for this service.
 
 This service enables us to make APIs on the go with a few clicks; also, we can use the Mocking approach to make dummy routes without any original data. In this faking data is used and bouncing back to without any activity.
 
-![AWS API Gateway](AWS_API.png)
+![AWS API Gateway](AWS_API.webp)
 
 ## AWS DynamoDB
 Dynamo DB is a NO SQL database provided by Amazon Web Services. The main job of Dynamo DB is to Store & Retrieve any amount of data and serve any level requests of traffic.
@@ -102,6 +102,6 @@ In this, there are different terminologies as that of a regular database. Second
   - Local Index: Index with same partition key as of base table but different sort key
   - Global Index: In the global index, both the partition key and sort key can differ from that of the base table.  
 
-![AWS Dynammo](AWS_Dynammo.png)
+![AWS Dynammo](AWS_Dynammo.webp)
 
 
