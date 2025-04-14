@@ -157,4 +157,4 @@ Federation identity management is a system allowing users from different organiz
 
 Identity federation in AWS enables users to access AWS resources securely using their existing identity credentials from external identity providers, such as Active Directory or SAML-based systems.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-management-vs-sso)

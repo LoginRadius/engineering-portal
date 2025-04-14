@@ -75,4 +75,4 @@ Account creation frauds are quickly rising, and businesses must ensure robust se
 To maintain the trust of your customers, you need to help them spend less time worrying about their security and more time enjoying their experience with your brand. And that's a promise that only a passwordless CIAM platform can fulfill!
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-account-creation-fraud)

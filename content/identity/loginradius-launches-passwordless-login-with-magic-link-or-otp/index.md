@@ -42,4 +42,4 @@ LoginRadius also supports various **implementation and deployment methods** that
 
 Times are changing. The majority of consumers do not look forward to creating and entering passwords anymore. Passwordless Login with Magic Link or OTP by LoginRadius is the one-click solution for consumers’ fast-paced authentication needs. It helps businesses improve their security posture while providing a better consumer experience. 
 
-[![LoginRadius Book Free Demo](Book-a-demo-1024x310-1-1.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book Free Demo](Book-a-demo-1024x310-1-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-passwordless-login-with-magic-link-or-otp)

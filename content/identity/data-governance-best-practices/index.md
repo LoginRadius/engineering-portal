@@ -150,4 +150,4 @@ As already mentioned, data governance revolves around people, processes, and tec
 
 Maximize benefits and optimize your use of data protection strategies in the new decade. Start with implementing the data governance best practices laid out in this article.
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-governance-best-practices)

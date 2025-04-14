@@ -73,4 +73,4 @@ Consumer data is precious for your business, and its safety is the number one co
 
 There are many benefits of consumer identity programs for marketing, the two most important benefits being safety and personalization. Both of these can be achieved by proper implementation of CIAM from the business leaders. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-rule-personalized-marketing-2022)

@@ -53,4 +53,4 @@ LoginRadius adopts a consultative methodology to build lasting partnerships. "Wh
 
 He also shares the company’s vision for 2024 and beyond, where LoginRadius would focus on developing AI capabilities to enhance user experience, simplify implementation processes, and strengthen the security of sensitive data. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-top-ciam-platform-cio-review)

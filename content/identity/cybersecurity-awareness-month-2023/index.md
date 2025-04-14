@@ -73,4 +73,4 @@ Remember, in cybersecurity, every small step you take today can fortify your org
 
 Stay tuned for more insights and tips on bolstering your organization's cybersecurity defenses amid Cybersecurity Awareness Month 2023!
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-awareness-month-2023)

@@ -142,4 +142,4 @@ Security and seamless customer experience in the retail and e-commerce industry 
 
 But, there is no magic formula for mastering security. So, if you are not careful, you can lose your customers' trust. Plan and give your shoppers a hassle-free experience with your brand, every time.
 
-[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-retail-ecommerce-business)

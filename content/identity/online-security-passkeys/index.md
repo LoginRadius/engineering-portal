@@ -139,4 +139,4 @@ Passkeys eliminate common password vulnerabilities, such as reuse and phishing, 
 
 Yes, passkeys can be part of Multi-Factor Authentication (MFA) when combined with another factor, such as biometrics or a security token, for added security.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-security-passkeys)

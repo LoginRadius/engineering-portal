@@ -75,4 +75,4 @@ In the end, CIAM is all about driving revenue. A good CIAM solution can deliver 
 But if you don't consider all components of your CIAM, you'll miss out on valuable benefits for both businesses and consumers. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-for-better-cx)

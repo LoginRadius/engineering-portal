@@ -58,4 +58,4 @@ Publishers can benefit from SSO technology by ensuring data protection and provi
 
 So, there you have it. SSO is a great way to improve the user experience and boost conversions on your site. If you're looking to implement a solution that will benefit your users, improve your bottom line, and make life easier for your team—all while being easy to manage—SSO is definitely worth considering.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=publishers-start-using-single-sign-on)

@@ -51,4 +51,4 @@ Based on consumers’ interaction with the application, Progressive Profiling au
 
 Implementing progressive profiling on an online platform offers a competitive edge to businesses seeking innovative ways to navigate their digital transformation for enhanced business growth. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-progressive-profiling)

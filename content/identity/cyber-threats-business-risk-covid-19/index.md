@@ -146,4 +146,4 @@ Few of the advantages for business and its customers include:
 
 The digital space is all about identity, where cyber threat for businesses is at an all-time high. With the world on a standstill due to the pandemic, the idea of secure data governance and scalable identity management in the volatile environment should make the cut.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyber-threats-business-risk-covid-19)

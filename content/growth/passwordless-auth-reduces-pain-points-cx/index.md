@@ -77,5 +77,5 @@ Password authentication for CX can be a pain point for businesses and customers 
 
 By offering improved security, convenience, reduced friction, and increased trust, passwordless authentication can enhance customer experience, leading to improved customer retention and loyalty. As such, businesses should consider implementing passwordless authentication as part of their overall authentication strategy.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-auth-reduces-pain-points-cx)
 

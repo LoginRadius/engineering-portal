@@ -67,4 +67,4 @@ The Password Policy feature also offers the following consumer-centric features:
 We can’t emphasize enough the importance of using a strong password. Implementing our comprehensive Password Policy can secure both your organization's and consumers' assets. With LoginRadius, you will always be a step ahead and mitigate the risks associated with passwords.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-password-policy-business-consumer)

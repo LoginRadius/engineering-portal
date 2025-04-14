@@ -66,4 +66,4 @@ With a focus on improved user experience, streamlined login processes, and cost-
 
 As the digital landscape continues to evolve, LoginRadius stands at the forefront, empowering organizations to deliver secure, efficient, and user-friendly authentication experiences. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-autolookup-idp)

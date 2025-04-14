@@ -87,4 +87,4 @@ Organizations need to understand the complexity of the situation and put their b
 [LoginRadius’](https://www.loginradius.com/) cutting-edge CIAM offers the best-in-class M2M authorization that helps businesses grow without compromising overall security. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rise-of-machine-identity-m2m-authorization-role)

@@ -217,4 +217,4 @@ Yes, a password is a common form of authentication credential.
 
 The best authentication method depends on the security needs of the system. Multi-factor authentication (MFA) is often considered one of the most secure methods.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-login-authentication)

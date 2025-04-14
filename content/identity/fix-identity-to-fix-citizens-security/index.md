@@ -88,4 +88,4 @@ And the public sector and government organizations shouldn’t delay a bit in ad
 Identity management in the government sector can also help resolve issues related to bad user experience. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=fix-identity-to-fix-citizens-security)

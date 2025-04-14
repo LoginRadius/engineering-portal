@@ -82,4 +82,4 @@ The modern digital business landscape has offered endless opportunities for ente
 
 Whether it’s the incorporation of a reliable CIAM or other privacy management solutions, brands have to put their best efforts into ensuring robust privacy management. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ceo-shifting-data-strategies)

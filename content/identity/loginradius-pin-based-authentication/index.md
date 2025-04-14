@@ -60,4 +60,4 @@ PIN login is a successful attempt at not just embracing an alternative  two fact
 
 All-in-all, we aim to ensure that logins are secure, simple, seamless, and frictionless. And if it can turn customers into loyal advocates, that will serve our purpose even better.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-pin-based-authentication)

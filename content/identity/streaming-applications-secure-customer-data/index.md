@@ -276,4 +276,4 @@ Frictionless user experience and optimal security drive the transformation of th
 
 Even then data security remains a crucial aspect. You need to balance both the worlds. An identity management platform can help you achieve that.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=streaming-applications-secure-customer-data)

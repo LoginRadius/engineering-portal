@@ -61,4 +61,4 @@ If you are trying to improve your customer experience, the finding of this repor
 Download a complimentary copy of the LoginRadius [Consumer Identity Trend Report](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022) here.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-identity-trend-report-2022)

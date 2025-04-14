@@ -86,4 +86,4 @@ Cloud-based [CIAM gives better ROI](https://www.loginradius.com/blog/fuel/ciam-o
 
 Even though it may sound like a daunting task, modernizing your CIAM is not impossible if you are willing to put in the work. The key lies in communicating how and why modernization will be beneficial for all stakeholders, and eventually getting everyone onboard with the plan. The tips mentioned in this blog will help you make this process easier since stakeholder engagement will simplify things for you. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stakeholder-engagement-modernize-ciam)

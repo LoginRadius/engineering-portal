@@ -58,4 +58,4 @@ By partnering with LoginRadius, organizations can unlock many benefits, includin
 
 The era of passwords is ending, paving the way for a new era of passwordless authentication. By embracing passwordless technologies, organizations can enhance security, improve user experience, and ensure compliance with regulatory requirements. And with LoginRadius leading the charge, the future of authentication has never looked brighter. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-login-future-authentication)

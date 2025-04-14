@@ -55,4 +55,4 @@ BroadcastMed had a few concerns that they wanted to address as they evaluated th
 
 BroadcastMed - LoginRadius Customer Success Story
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=broadcastmed-loginradius-customer-success-story)

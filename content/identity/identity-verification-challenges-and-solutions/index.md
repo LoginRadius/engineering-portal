@@ -84,4 +84,4 @@ Businesses can use intelligent authentication mechanisms like fingerprint or fac
 
 Here’s where regulated industries must partner with LoginRadius CIAM to make things easier!  With LoginRadius, businesses can stick to the rules without complicating things for users.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-challenges-and-solutions)

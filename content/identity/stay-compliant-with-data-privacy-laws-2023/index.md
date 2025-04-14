@@ -103,4 +103,4 @@ Staying compliant with these data privacy laws is crucial for organizations to m
 
 By understanding the requirements of each law and implementing appropriate data privacy practices, businesses can navigate the complex landscape of data protection and prioritize the security and privacy of personal information.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stay-compliant-with-data-privacy-laws-2023)

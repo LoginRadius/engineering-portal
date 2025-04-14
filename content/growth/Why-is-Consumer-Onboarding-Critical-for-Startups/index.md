@@ -91,4 +91,4 @@ Don't forget to take feedback from the consumer after onboarding. Ask them if th
 
 There are many free and paid tools available that help you set up a good consumer onboarding process. You can also [**refer to this article**](https://www.loginradius.com/blog/fuel/2021/01/user-onboarding-tools/) for the list of highly recommended consumer onboarding tools for businesses.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-is-consumer-onboarding-critical-for-startups)

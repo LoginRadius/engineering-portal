@@ -69,4 +69,4 @@ Identity Lifecycle Management is the cornerstone of modern cybersecurity strateg
 
 As businesses continue to embrace digital transformation, embracing Identity Lifecycle Management is not just a choice but a necessity in safeguarding sensitive data and maintaining a competitive edge in the market.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-lifecycle-management)

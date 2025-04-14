@@ -66,4 +66,4 @@ Understanding and leveraging customer identity is a powerful strategy for drivin
 
 Embrace the power of customer identity to unlock new opportunities and pave the way for sustained success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-drives-business-growth)

@@ -66,4 +66,4 @@ By understanding the fundamentals of LDAP authentication and the challenges asso
 
 With ongoing technological advancements, LDAP authentication plays a vital role in ensuring secure user access across diverse platforms and applications.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-ldap-authentication-and-how-it-works)

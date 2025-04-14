@@ -60,4 +60,4 @@ LoginRadius Identity Orchestration  marks a significant advancement in identity 
 
 Offering a flexible, no-code/low-code approach, identity orchestration by LoginRadius enables organizations to swiftly create, test, and deploy customized identity workflows, thereby improving user experiences and ensuring robust security. This innovative solution is poised to revolutionize how enterprises handle identity management, making it easier and more efficient than ever before.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-launches-identity-orchestration)

@@ -38,4 +38,4 @@ Privacy and security rule everything in China. With the LoginRadius China custom
 
 From social integration, [strong authentication](https://www.loginradius.com/multi-factor-authentication/), local language support to meeting the standard regional regulatory compliances, they are the key areas no clients should worry about.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-ciam-china-business)

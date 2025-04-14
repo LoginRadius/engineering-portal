@@ -91,4 +91,4 @@ Adding frictionless payment methods to their branding strategy is the need of th
 Businesses can quickly adopt frictionless payments by leveraging [seamless authentication methods](https://www.loginradius.com/blog/identity/authentication-option-for-your-product/) that offer a great experience and eventually reinforce payment security. 
 
 
-[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-frictionless-payments-for-businesses)

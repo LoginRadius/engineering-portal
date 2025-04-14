@@ -127,4 +127,4 @@ Users can perform social login by clicking on the respective social media button
 
 Facebook login can be integrated with your website or mobile application for seamless login by using the [LoginRadius CIAM](https://www.loginradius.com/social-login/).
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-social-login)

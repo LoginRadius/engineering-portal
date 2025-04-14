@@ -78,4 +78,4 @@ Consumer IAM has swiftly established itself as a critical component of a positiv
 
 If you’re interested in learning more about how the LoginRadius platform works, [schedule a demo](https://www.loginradius.com/schedule-demo/) today.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-transformation-consumer-iam)

@@ -39,4 +39,4 @@ Through LoginRadius PerfectMind integration, the PerfectMind consumers are lever
 
 With the LoginRadius PerfectMind SSO, businesses can establish a flawless user experience by overcoming the barriers of frictionless authentication and authorization across multiple platforms/ servers. 
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-perfectmind-integration-sso-ux)

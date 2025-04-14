@@ -121,4 +121,4 @@ Overall, using SSO for data collection can offer many benefits for businesses. I
 If you're looking for a more efficient and secure way to collect data, consider implementing an SSO system in your business.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-leverage-for-data-collection)

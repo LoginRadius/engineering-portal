@@ -108,4 +108,4 @@ The aforementioned blogs offer valuable insights into the CIAM landscape, provid
 
 Feel free to contact us to delve deeper into [LoginRadius CIAM ](https://www.loginradius.com/)and discover how it can effectively propel your business growth, even in unpredictable circumstances.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-10-blogs-2023)

@@ -41,4 +41,4 @@ Some more critical insights you can obtain from the report are:
 
 Read more detailed analysis and insights in LoginRadius’ Customer Identity Preference Trends report for Q2 2016. Go ahead, [download it now](https://www.loginradius.com/resource/customer-identity-preference-trends-2016/).
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-preference-trends-q2-2016)

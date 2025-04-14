@@ -72,4 +72,4 @@ By leveraging real-time risk assessment and personalized authentication measures
 
 By embracing adaptive authentication through CIAM solutions, businesses can establish trust, foster loyalty, and provide customers with the seamless experiences they desire in 2023 and beyond.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-adaptive-authentication)

@@ -98,4 +98,4 @@ Today, CIAM has become more than just an identity gateway for customers. It has 
 
 At LoginRadius, we offer constructive CIAM solutions and add the factor of the outcome – a better performing, more scalable, flexible, and secure system that will scale your business to billions of customers. As a trustworthy **CIAM provider,** we help you earn their trust and set you up for long-term success in the digital age.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-solution-digital-native-business)

@@ -90,4 +90,4 @@ And if customers are bombarded with registration forms when they land on your we
 Progressive profiling is undeniably the best way to nurture and improve the quality of leads, which helps businesses enhance their overall growth and revenues. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling-lead-generation-tool)

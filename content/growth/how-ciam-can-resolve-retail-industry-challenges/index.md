@@ -119,4 +119,4 @@ The critical issues in retailing are fluid platform experience for seamless cust
 
 Retail marketing faces challenges such as reaching customers across multiple platforms, managing data silos, and the need for personalized strategies to enhance customer loyalty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciam-can-resolve-retail-industry-challenges)

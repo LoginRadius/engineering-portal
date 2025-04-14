@@ -128,4 +128,4 @@ Rivalry in the retail industry has always been a big deal. Amidst online players
 
 It is only a matter of time that customer experience in the retail industry will win the war, and nothing else will matter.
 
-[![Book a demo](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book a demo](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-retail-industry)

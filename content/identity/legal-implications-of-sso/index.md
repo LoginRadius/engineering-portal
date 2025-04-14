@@ -79,4 +79,4 @@ By prioritizing user privacy, implementing robust security measures, ensuring co
 
 And for this, nothing can replace the true potential of a reliable CIAM like LoginRadius that helps businesses seamlessly integrate SSO without any legal setbacks. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=legal-implications-of-sso)

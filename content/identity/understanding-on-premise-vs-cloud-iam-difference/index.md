@@ -85,4 +85,4 @@ Identity Access Management is critical to an organization's overall security str
 
 Understanding the differences and evaluating factors such as control, scalability, cost, compliance, and legacy systems will help you make an informed decision to protect your valuable data and resources effectively.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-on-premise-vs-cloud-iam-difference)

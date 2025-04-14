@@ -76,4 +76,4 @@ But businesses need to find an alternative for this as SMS authentication cannot
 Cheers!
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sms-authentication-protect-business)

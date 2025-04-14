@@ -66,4 +66,4 @@ The new logo is an attempt at modernizing our brand and helping it connect more 
 
 Amidst the huge chunk of workload that rebranding brings along, we are super thrilled to share this news and would like to take a moment to thank our loyal customer base. Do share your comments about the change.
 
-[![](CTA-Graphics-for-Blogs-V03.01-05-2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](CTA-Graphics-for-Blogs-V03.01-05-2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=announcing-new-look-of-loginradius)

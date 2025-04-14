@@ -101,4 +101,4 @@ Additionally, it saves time and effort for both customers and IT teams. With the
 
 Therefore, it's a valuable solution that every B2C enterprise should consider. In summary, the benefits of SSO for B2C enterprises are significant, and implementing it can be a game-changer in today's digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-single-sign-on-authentication)

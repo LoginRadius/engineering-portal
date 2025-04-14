@@ -73,4 +73,4 @@ The modern technological ecosystem has offered endless possibilities to build a 
 Decentralized authentication can be the game-changer in mitigating the risks of [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) in both the government and private sectors.  Organizations thinking of enhancing consumer information security should strictly put their best foot forward to incorporate decentralized authentication for a secure experience. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=decentralized-authentication-future-of-authentication)

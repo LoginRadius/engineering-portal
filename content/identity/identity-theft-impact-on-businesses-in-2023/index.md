@@ -116,4 +116,4 @@ To mitigate the risks, businesses must prioritize cybersecurity, implement robus
 
 Remember, prevention and preparedness are key in the fight against identity theft. Stay vigilant, stay informed, and stay secure.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-theft-impact-on-businesses-in-2023)

@@ -252,7 +252,7 @@ Another one of the case studies of growth hacking  is Dropbox. It offered 16 GB 
 
 Growth hacking is not a string of strategies that can be taught. It won't be wrong to call it a mindset one gains when their only focus is the business's growth. With affordable techniques suitable even for start-ups and analysis of the data, one can achieve millions of users in the least period.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=understanding-growth-hacking-and-how-saas-businesses-can-use-it-to-optimize-growth)
 
 
 

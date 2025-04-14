@@ -139,4 +139,4 @@ The purpose of customer verification is to enhance security, prevent identity th
 
 Customer verification typically requires valid identification documents, biometric data, knowledge-based information, or a combination of these authentication factors to confirm identity accurately.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-verification-best-practices)

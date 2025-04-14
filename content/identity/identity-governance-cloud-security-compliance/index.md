@@ -52,4 +52,4 @@ Identity governance emerges as a vital component in this endeavor, offering comp
 
 By investing in cutting-edge identity governance tools and strategies, businesses can not only safeguard their cloud-stored data but also build a reputation for reliability and trustworthiness. As the cloud landscape evolves, staying ahead of the curve with effective identity governance will remain a cornerstone in the pursuit of unparalleled security and compliance in the digital realm. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-cloud-security-compliance)

@@ -99,4 +99,4 @@ A CIAM system works well for the customers as well as the sellers. It grants con
 
 Additionally, the CIAM also helps D2C brands control each interaction with their customers. It helps create an easy, secure, and personalized customer experience.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=d2c-brands-utilize-ciam-for-growth)

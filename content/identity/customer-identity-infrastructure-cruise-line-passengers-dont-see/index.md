@@ -38,4 +38,4 @@ Innovations like these are certainly attention-getting. But what travelers like 
 
 And finally, we explain how a customer identity and access management (CIAM) platform meets those challenges and makes customer experience innovations possible.
 
-[![Book-a-free-demo-request](Book-a-free-demo-request.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-free-demo-request](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-infrastructure-cruise-line-passengers-dont-see)

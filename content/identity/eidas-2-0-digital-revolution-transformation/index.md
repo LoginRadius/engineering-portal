@@ -72,4 +72,4 @@ The digital revolution demands robust security and seamless user experiences, an
 
 Embracing eIDAS 2.0 enhances data protection, streamlines cross-border access, and expands service accessibility, positioning businesses to thrive in the digital era. Leverage the full potential of eIDAS 2.0 to ensure your business is ready to survive and excel.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=eidas-2-0-digital-revolution-transformation)

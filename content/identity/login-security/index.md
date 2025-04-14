@@ -157,4 +157,4 @@ Protect your login information by using secure passwords, avoiding public Wi-Fi 
 
 Login security focuses on protecting the access to an account through authentication methods like passwords and biometrics. Rights security involves managing permissions and access levels within an account and determining what actions a user can perform once logged in.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-security)

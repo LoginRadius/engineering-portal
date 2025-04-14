@@ -165,4 +165,4 @@ The three most important components are the Identity Provider (IdP), the Service
 
 A federated identity enables seamless and secure access to multiple applications and services without the need for separate login credentials.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-identity-management)

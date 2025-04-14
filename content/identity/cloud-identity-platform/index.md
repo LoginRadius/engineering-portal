@@ -66,4 +66,4 @@ If managing identity and access isn't a core aspect of your business operations,
 
 Cloud identity platforms can make implementing a secure and reliable identity layer in applications easy. The role also extends beyond conventional security measures. These platforms become instrumental in seamlessly implementing a secure and reliable identity layer within applications, simplifying complex processes, and mitigating potential risks.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-identity-platform)

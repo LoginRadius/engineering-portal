@@ -65,4 +65,4 @@ According to several reports, a data breach typically costs an organization anyw
 
 However, learning from the above mistakes, an organization can remain defenseless in the face of a data breach.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-breaches-common-mistakes)

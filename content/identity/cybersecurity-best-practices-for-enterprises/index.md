@@ -78,4 +78,4 @@ To learn more about the cybersecurity best practices for your business in 2023 a
 
 Get the best cybersecurity solutions for your enterprise with LoginRadius.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-best-practices-for-enterprises)

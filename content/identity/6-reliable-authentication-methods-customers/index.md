@@ -115,4 +115,4 @@ Ultimately, the decision comes down to what you feel is best for your business. 
 
 It’s also important to keep in mind that no single authentication method is perfect. The best way to keep your site secure is to use a combination of methods. This will make it more difficult for hackers to gain access to your site and ensure that your customers’ data is safe. 
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=6-reliable-authentication-methods-customers)

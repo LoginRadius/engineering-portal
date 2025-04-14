@@ -39,4 +39,4 @@ Some more critical insights provided by the analysis are:
 
 - About 92% websites still prefer providing Facebook as one of the options for Social Login leading the favourites list since 2013.
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-preference-trends-q1-2016)

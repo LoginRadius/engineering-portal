@@ -54,4 +54,4 @@ Organizations that are concerned about their cybersecurity hygiene shouldn’t i
 
 Globally, brands are using this framework to analyze cybersecurity vulnerabilities and to create adequate action plans for robust security. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-mitre-att-ck-framework)

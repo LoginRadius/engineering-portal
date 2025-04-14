@@ -99,4 +99,4 @@ Victims don't realize that they have fallen prey to formjacking attacks easily a
 Even with all preventive measures in place, it can still be exceedingly difficult to spot formjacking attacks. However, as an online business, you must have all the protocols in place to quickly alert consumers in the case of such attacks.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-formjacking)

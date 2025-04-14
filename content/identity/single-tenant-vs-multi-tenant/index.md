@@ -76,4 +76,4 @@ To learn more about Single-Tenant vs Multi-Tenant Cloud, check out the infograph
 
 Contact us for your personalized deployment requirements.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-tenant-vs-multi-tenant)

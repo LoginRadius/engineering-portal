@@ -92,4 +92,4 @@ Hence, the critical role of a CIAM solution in enhancing customer security and i
 
 Businesses need to invoke the potential of a reliable CIAM like LoginRadius to ensure they get perfect harmony of user experience and security. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-businesses-approach-customer-security)

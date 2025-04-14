@@ -68,4 +68,4 @@ In an increasingly connected world where we see an explosion of networked device
 
 Given the fact that authentication is generally the first step for consumers when experiencing a product, the LoginRadius Smart and IoT Authentication is geared to set your consumer up for hassle-free and user-friendly methods to login. 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-smart-authentication)

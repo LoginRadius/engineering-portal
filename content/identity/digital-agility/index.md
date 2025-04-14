@@ -76,4 +76,4 @@ Organizations need to maximize their digital footprint – to stay relevant in t
 Built using extensive API functionalities and open-source SDKs, LoginRadius CIAM provides the best of customization and security – that can work for your business needs.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-agility)

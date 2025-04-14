@@ -239,4 +239,4 @@ Choose your method (SMS or authenticator app) during setup, then link the code t
 
 Yes, 2FA is user-friendly. It involves entering a code or approving a notification on your phone during logins.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-setup-2fa-in-online-accounts)

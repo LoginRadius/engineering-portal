@@ -35,4 +35,4 @@ The City of Surrey offers a great real-world example of what our Identity Platfo
 
 We’ve created a case study to show you how the LoginRadius Identity Platform helped the City of Surrey transform its online services and unlock its future as a smart city.
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=unlock-the-future-of-smart-cities)

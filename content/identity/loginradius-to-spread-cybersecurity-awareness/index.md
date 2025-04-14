@@ -131,4 +131,4 @@ Our developer-friendly Identity Platform provides a comprehensive set of APIs to
 We also offer open source SDKs, integrations with over 150 third-party applications, pre-designed and customizable login interfaces, and best-in-class data security products. LoginRadius is already loved by over 500 brands with a reach of 1.17 billion consumers worldwide.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-to-spread-cybersecurity-awareness)

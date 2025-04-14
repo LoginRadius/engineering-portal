@@ -115,4 +115,4 @@ What other steps can you take to reinforce your organization's cybersecurity fra
 Authenticating consumers is difficult and time-consuming. When used in conjunction, [a CIAM solution like LoginRadius](https://www.loginradius.com/contact-sales/) can significantly improve cybersecurity. It uses the approaches mentioned above and all recommended practices to filter permitted access and avoid typical attack situations.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersec-roundup-june-2021)

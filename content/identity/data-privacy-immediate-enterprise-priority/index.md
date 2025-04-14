@@ -50,4 +50,4 @@ The chapters are as follows:
 In detail, I have organized the eBook into chapters mentioned above in addition to an Executive Summary intended for senior executives for a brief overview.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-immediate-enterprise-priority)

@@ -109,4 +109,4 @@ The cloud is critical to the capacity of many firms to do business. They utilize
 
 In summary, cloud security is more about people and processes than technology. The cloud infrastructure must be designed to support secure operations, but ultimately the responsibility for security lies with the individual end user.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-security)

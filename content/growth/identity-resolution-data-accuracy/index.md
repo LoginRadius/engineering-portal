@@ -54,4 +54,4 @@ From delivering personalized customer experiences to enhancing risk management, 
 
 By embracing these techniques and addressing the associated challenges, organizations can unlock a new level of efficiency and effectiveness in their operations, ultimately leading to tremendous success in today's competitive landscape. As technology evolves, identity resolution will remain a cornerstone of data accuracy and a driving force behind data-driven innovation.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-resolution-data-accuracy)

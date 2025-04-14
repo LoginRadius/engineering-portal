@@ -85,5 +85,5 @@ Successful digital transformation involves the full breadth of an enterprise –
 
 If you or your company are currently going through digital transformation, see how [LoginRadius can help you speed this up](https://www.loginradius.com/customer-identity-management-b2c-ciam/)!
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=4-barriers-building-digital-business-overcome)
 

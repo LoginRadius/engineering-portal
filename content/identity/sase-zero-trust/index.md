@@ -108,6 +108,6 @@ The perimeter-based reactive methods that were the core of old and traditional s
 
 Proactive governments and businesses must adopt it to ensure a cyber-secure future for their employees, customers, partners, and citizens. This new-age cyber secure system provides network visibility and constantly monitors who is accessing the system. 
 
-If you too want to implement a zero trust security model in your organization, [book a demo](https://www.loginradius.com/book-a-demo/) with LoginRadius today! 
+If you too want to implement a zero trust security model in your organization, [book a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sase-zero-trust) with LoginRadius today! 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sase-zero-trust)

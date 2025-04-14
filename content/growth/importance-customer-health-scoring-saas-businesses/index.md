@@ -89,4 +89,4 @@ However, you can't simply add it as another feature and hope it'll work out magi
 You must understand that customer health scoring is a long-term investment with high returns.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=importance-customer-health-scoring-saas-businesses)

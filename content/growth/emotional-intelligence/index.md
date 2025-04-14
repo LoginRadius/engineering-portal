@@ -237,4 +237,4 @@ Emotional intelligence is the ability to control emotions and relate well to oth
 
 It takes commitment and time but yields loyalty. Grow the emotional intelligence of your agents, be emotionally intelligent yourself, and implement them across business communication systems for productive consumer relations.
 
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=emotional-intelligence)

@@ -118,4 +118,4 @@ Architectural isolation mechanisms naturally provide tenant segmentation and res
 
 Whether you need to onboard business partners, merge acquired companies, or manage a contractor ecosystem, the LoginRadius CIAM platform has proven capabilities trusted by leading enterprises. Schedule a discussion to see the power of multi-tenancy in action!
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-tenancy-ciam-security)

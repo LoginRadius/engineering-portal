@@ -64,4 +64,4 @@ Unfortunately, the current consumer experience and [data security practices](htt
 
 Consent as well as robust security protocols play key roles in walking the fine line between data management and consumer privacy expectations. An organization that handles their consumers’ data ethically stands to gain a considerable edge against competitors through greater access to data, greater consumer trust, and potential to secure more privacy-conscious consumers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-experience-and-privacy)

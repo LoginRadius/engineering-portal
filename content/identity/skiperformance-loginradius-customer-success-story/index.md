@@ -91,4 +91,4 @@ Skiperformance has achieved impressive results since that decision, including:
 * Better customer experience 
 * The e-platform meets the demands of resort customers, as well as complying with industry standards for social behavior, legal and privacy issues.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=skiperformance-loginradius-customer-success-story)

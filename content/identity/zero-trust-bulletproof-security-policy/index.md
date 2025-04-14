@@ -64,4 +64,4 @@ Zero trust architecture is undeniably helping brands reinforce their overall sec
 
 A reliable customer identity and access management (CIAM) could help businesses integrate zero trust architecture across their platform seamlessly. It offers complete transparency reinforced with stringent security and a great user experience.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-trust-bulletproof-security-policy)

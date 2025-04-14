@@ -97,4 +97,4 @@ Customer experience is vital to many aspects of your business and the success of
 
 Customer experience and customer journey have been codified in our industry, but changes are still happening in this brave new world under which many struggles to adapt. To build personalized and engaging customer journeys, you must consider using a cutting-edge CIAM solution. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=seamless-customer-journey-identity-management)

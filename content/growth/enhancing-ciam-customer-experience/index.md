@@ -66,4 +66,4 @@ By leveraging CIAM to create seamless digital experiences and harnessing data in
 
 As CX continues to evolve, CMOs must embrace innovative solutions like LoginRadius CIAM to stay ahead of the curve and deliver exceptional experiences that drive growth and loyalty.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhancing-ciam-customer-experience)

@@ -109,4 +109,4 @@ No company wants a disgruntled customer, but all too often password resets – a
 
 When done correctly, though, password resets can be easy and relatively painless for both the customer and the enterprise. By following these tips that we went through, enterprises can ensure that the customers have a positive experience when resetting their passwords.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=is-password-reset-ruining-cx)

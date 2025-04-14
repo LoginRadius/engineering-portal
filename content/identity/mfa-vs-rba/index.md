@@ -131,7 +131,7 @@ Implementing advanced security measures like multi-factor authentication and ris
 
 Multi-factor authentication enhances security by requiring multiple verification methods, while risk-based MFA dynamically assesses risk to provide a seamless yet secure user experience. Organizations that leverage these technologies benefit from stronger identity protection, compliance adherence, and improved cybersecurity resilience.
 
-If you wish to reinforce your security by leveraging cutting edge MFA and risk-based auth, [reach us for a quick demo.](https://www.loginradius.com/book-a-demo/)
+If you wish to reinforce your security by leveraging cutting edge MFA and risk-based auth, [reach us for a quick demo.](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-vs-rba)
 
 ## FAQs
 

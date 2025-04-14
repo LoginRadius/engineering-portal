@@ -132,4 +132,4 @@ Password spraying attacks can be detected by monitoring login attempts and looki
 
 Preventing password spraying attacks can be done by implementing multi-factor authentication, strong password policies, and monitoring for suspicious activity on the network.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-spraying)

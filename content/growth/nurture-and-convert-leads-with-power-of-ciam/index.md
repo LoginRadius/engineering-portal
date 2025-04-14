@@ -65,4 +65,4 @@ CIAM offers the proper strategies needed to achieve this goal. By harnessing the
 
 It's not just about managing identities; it's about forging connections that drive results. Embrace the most trusted CIAM- LoginRadius today and unlock the potential to nurture and convert leads like never before.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nurture-and-convert-leads-with-power-of-ciam)

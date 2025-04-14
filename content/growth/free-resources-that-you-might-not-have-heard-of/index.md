@@ -31,4 +31,4 @@ Here are some things which are not that popular but are worth trying at least on
 
 So here are my favorite free resources that make my everyday life easier! Have you tried these? Or do you know about any other free resources that can make my job easier, would love to know in the comments below!
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=free-resources-that-you-might-not-have-heard-of)

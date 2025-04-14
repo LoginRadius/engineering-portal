@@ -62,4 +62,4 @@ We were blown away by the results! We found that our employees are overwhelmingl
 This is no small feat: creating a workplace culture where everyone wins takes effort from everyone involved—not just management but also from each employee. And now, thanks to this survey and its encouraging results, we know we're on the right track!
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-certified-great-place-to-work)

@@ -71,4 +71,4 @@ Security keys are shaping the future of security and are pretty helpful in certa
 
 However, those that require excellent user experience coupled with robust security must consider relying on risk-based authentication (RBA) solutions designed to deliver exceptional user experience with stringent security mechanisms. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-security-keys)

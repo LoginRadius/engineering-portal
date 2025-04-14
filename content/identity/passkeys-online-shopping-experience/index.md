@@ -84,4 +84,4 @@ By embracing this innovative authentication method, both shoppers and retailers 
 
 Adopting this technology now can provide immediate benefits and prepare you for a password-free future. Embrace the change and unlock the full potential of your online shopping experience today.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passkeys-online-shopping-experience)

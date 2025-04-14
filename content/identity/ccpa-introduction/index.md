@@ -227,4 +227,4 @@ Last but not least, LoginRadius provides [top-notch security](https://www.loginr
 Following the old CCPA rules will _not automatically_ lead to CCPA 2.0 compliance; don’t wait to be sued to find out. Let LoginRadius help your business become globally compliant. Not only does our technology meet the new CPRA regulations, but we continuously update it to meet new international privacy laws.
 
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-introduction)

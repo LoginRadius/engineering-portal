@@ -282,4 +282,4 @@ Yes, MFA is highly secure as it requires multiple factors, reducing the chances 
 
 Yes, 2FA codes typically expire within 30–60 seconds, ensuring they can’t be reused by attackers.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=1fa-vs-2fa-vs-mfa)

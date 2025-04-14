@@ -72,4 +72,4 @@ This dramatically reduces the number of systems and platforms involved in a migr
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=just-in-time-migrations-ciam-transitions)

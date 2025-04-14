@@ -58,4 +58,4 @@ The reason we should all have an interest in smart credentials is simple. [Digit
 
 We will only be dependent on a physical card that might never be accepted where we want it to be. We will increasingly have greater control over protecting our identities by ensuring that sensitive personal information is not disseminated unnecessarily. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=smart-credentials-raising-bar-physical-ids)

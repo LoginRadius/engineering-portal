@@ -116,7 +116,7 @@ MFA enables businesses to track login attempts, enforce [role-based access contr
 
 MFA is not just another security feature—it’s a necessity in today’s cyber threat landscape. The benefits of multi-factor authentication range from stopping unauthorized access to reducing the impact of phishing attacks. Businesses that prioritize MFA in cyber security are safeguarding their future against cyber criminals.
 
-If you wish to incorporate MFA into your apps/website, you can [read the implementation docs](https://www.loginradius.com/docs/security/customer-security/multi-factor-authentication/overview/) or quickly [book a live demo.](https://www.loginradius.com/book-a-demo/)
+If you wish to incorporate MFA into your apps/website, you can [read the implementation docs](https://www.loginradius.com/docs/security/customer-security/multi-factor-authentication/overview/) or quickly [book a live demo.](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-of-mfa)
 
 ## FAQs
 

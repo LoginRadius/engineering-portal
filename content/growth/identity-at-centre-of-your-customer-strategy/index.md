@@ -63,4 +63,4 @@ Incorporating identity into your customer strategy is a strategic imperative in 
 
 By placing identity at the center of your customer strategy, you create a customer-centric approach that drives customer satisfaction, enhances brand reputation, and positions your business as a leader in your industry.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-at-centre-of-your-customer-strategy)

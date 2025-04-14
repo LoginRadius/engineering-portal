@@ -53,4 +53,4 @@ LoginRadius’ private cloud helps enterprises deliver a flawless user experienc
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-private-cloud-ciam-benefits)

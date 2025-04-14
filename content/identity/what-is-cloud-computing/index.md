@@ -159,4 +159,4 @@ Public cloud is shared infrastructure accessible to the public, while private cl
 
 By implementing robust security measures, encryption, and compliance with relevant regulations.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-computing)

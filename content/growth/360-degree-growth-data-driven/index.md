@@ -90,4 +90,4 @@ So, there you go —
 "Leverage" data, "analyze," "implement," "measure," and then "repeat success." 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=360-degree-growth-data-driven)

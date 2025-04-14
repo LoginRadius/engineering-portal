@@ -95,4 +95,4 @@ What puts LoginRadius ahead of the curve are the three most fundamental aspects:
 
 If you wish to experience the next level of account security and authentication, reach the LoginRadius team to schedule a personalized demo. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-identity-verification-identification)

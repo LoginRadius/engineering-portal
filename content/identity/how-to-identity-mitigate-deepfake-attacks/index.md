@@ -98,4 +98,4 @@ However, these methods are not the only measures to address the issue of deepfak
 
 Additionally, technological companies and governments should consider enacting legislation that criminalizes the usage of deepfakes with the goal of damaging individuals' reputations. In this way, we can stop this rising threat. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-identity-mitigate-deepfake-attacks)

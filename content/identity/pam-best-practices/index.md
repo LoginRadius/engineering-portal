@@ -63,4 +63,4 @@ As we navigate the treacherous waters of cybersecurity, Privileged Access Manage
 
 In digital security, PAM isn't just a choice; it's the sovereign shield protecting our most valuable assets from the shadows that seek to exploit vulnerability. As we unveil the best practices of PAM, let us fortify our defenses and ensure that only the worthy wield the keys to the kingdom.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pam-best-practices)

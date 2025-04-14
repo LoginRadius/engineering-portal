@@ -99,4 +99,4 @@ The problem is that the current digital environment exposes [authentication syst
 
 The tips discussed in this blog can help you avoid the pitfalls that come with password-based login systems.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=common-vulnerabilities-password-based-login)

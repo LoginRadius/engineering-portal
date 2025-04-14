@@ -77,4 +77,4 @@ Organizations can foster trust, enhance customer satisfaction, and drive long-te
 
 Through the strategic implementation of technology, adaptive verification processes, and a customer-centric approach, businesses can navigate the complexities of identity verification while ensuring a pleasant customer journey in today's digital landscape.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-in-customer-journey)

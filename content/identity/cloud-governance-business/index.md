@@ -77,4 +77,4 @@ Cloud governance should be the top-most priority for businesses leveraging [clou
 
 The aforementioned aspects depict the role of cloud governance and how it lays the foundation of security and data access within an organization.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-governance-business)

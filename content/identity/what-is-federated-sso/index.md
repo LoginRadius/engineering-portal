@@ -175,4 +175,4 @@ SAML (Security Assertion Markup Language) is favored for SSO due to its standard
 
 The main components are the Identity Provider (IdP) for authentication, the Service Provider (SP) for access, and the Digital Token that verifies a user's identity.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-federated-sso)

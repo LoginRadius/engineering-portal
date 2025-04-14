@@ -43,4 +43,4 @@ One of the best examples of customer experience innovation for utilities comes f
 
 If you’re ready to see how the LoginRadius CIAM platform can help your company, [schedule your demo now](https://www.loginradius.com/schedule-demo/).
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-experience-public-sector)

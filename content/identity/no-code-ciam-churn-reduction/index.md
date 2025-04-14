@@ -118,4 +118,4 @@ Reducing churn is paramount for the long-term success of any business, and No-co
 
 Implementing best practices, understanding customer journeys, and ensuring compliance are essential steps in harnessing the full potential of No-code CIAM. As technology advances, No-code CIAM is set to become an even more critical tool in reducing churn and fostering lasting customer relationships.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=no-code-ciam-churn-reduction)

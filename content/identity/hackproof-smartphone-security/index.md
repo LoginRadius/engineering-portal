@@ -92,4 +92,4 @@ In a world where our smartphones have become extensions of ourselves, safeguardi
 
 While achieving absolute hack-proof status might be an unattainable goal, the steps outlined in this blog can significantly enhance your smartphone's security.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hackproof-smartphone-security)

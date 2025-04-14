@@ -121,4 +121,4 @@ If you want to learn more on how LoginRadius can help implement IDP-initiated SS
 
 In this article, we talked about the basics of SAML SSO and its key components. However, before implementing any functionality on your website, it is recommended to analyze and consider the pros and cons from every possible angle. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-sso)

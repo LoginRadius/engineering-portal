@@ -87,7 +87,7 @@ Ensure that you get every vital feature as a part of the standard subscription p
 
 ### 13. Can I have a free personalized demo of the product? 
 
-It’s always a great idea to [book a free personalized demo](https://www.loginradius.com/book-a-demo/) before making a purchase. A customized demo helps you understand how the product works for your business since you get hands-on experience with every feature tailored for your organization. 
+It’s always a great idea to [book a free personalized demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=questions-to-ask-your-identity-provider-2022) before making a purchase. A customized demo helps you understand how the product works for your business since you get hands-on experience with every feature tailored for your organization. 
 
 
 ### 14. What if I need to import previous consumer data in the new CIAM?
@@ -144,4 +144,4 @@ However, LoginRadius offers endless possibilities and provides all the features,
 You can choose LoginRadius as your CIAM to witness substantial business growth. Reach us for a free personalized demo today.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=questions-to-ask-your-identity-provider-2022)

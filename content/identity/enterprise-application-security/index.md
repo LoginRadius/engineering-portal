@@ -82,4 +82,4 @@ In the face of evolving cyber threats, organizations must stay proactive and agi
 
 Remember, in the ever-changing landscape of cybersecurity, staying one step ahead is the key to safeguarding the digital assets that drive the modern enterprise.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-application-security)

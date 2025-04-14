@@ -44,4 +44,4 @@ Push Notification MFA is designed to introduce minimal friction in the customer 
 
 Embrace the future of secure digital interactions with Push Notification MFA from LoginRadius and provide your customers with the seamless, secure experience they deserve. You can now enhance your security measures, reduce password-related risks, and maintain an exceptional user experience.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-push-notification-mfa)

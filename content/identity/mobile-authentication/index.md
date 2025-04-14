@@ -110,7 +110,7 @@ As cyber threats evolve, mobile authentication continues to advance. Future tren
 
 Ensuring mobile security requires adopting advanced authentication methods that balance security and usability. Whether through biometric authentication for mobile devices, multi-factor authentication, or AI-driven security authentication methods, organizations must stay ahead of cyber threats.
 
-Protect your apps with cutting-edge security by LoginRadius! [Schedule a demo](https://www.loginradius.com/book-a-demo/) today and experience seamless mobile identity protection.
+Protect your apps with cutting-edge security by LoginRadius! [Schedule a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mobile-authentication) today and experience seamless mobile identity protection.
 
 ## FAQs
 
@@ -134,4 +134,4 @@ A: SMS 2FA is vulnerable to SIM swaps and interception—use authenticator apps,
 
 A: It includes biometrics, adaptive authentication, AI-driven threat detection, and encryption to protect mobile data from cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mobile-authentication)

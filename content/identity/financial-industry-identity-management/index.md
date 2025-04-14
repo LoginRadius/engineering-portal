@@ -133,4 +133,4 @@ One of the best examples of meeting international regulations comes from Juhll. 
 
 LoginRadius adheres to the best practices relating to authentication and access control. With features like multi-factor authentication and role-based data management, the identity management system reduces the risk of financial data theft. The end goal is to keep up with the changing trends and improve customer experience in the financial industry.
 
-[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-industry-identity-management)

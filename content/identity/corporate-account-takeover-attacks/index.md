@@ -222,4 +222,4 @@ Corporate account takeover can translate into millions of dollars in losses, dam
 
 Stay informed about evolving threats, understand the warning signs, and practice responses to suspected takeovers.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=corporate-account-takeover-attacks)

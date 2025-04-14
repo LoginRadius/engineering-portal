@@ -80,4 +80,4 @@ By staying ahead of potential threats and fostering a culture of transparency an
 
 In a world where digital threats are constantly evolving, LoginRadius stands as a beacon of proactive security, demonstrating that a vigilant and responsible approach is essential for safeguarding the digital identities of businesses and their customers.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-commitment-customer-security)
