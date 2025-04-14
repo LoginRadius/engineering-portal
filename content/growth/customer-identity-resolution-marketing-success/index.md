@@ -1,7 +1,7 @@
 ---
 title: "How to Leverage Advanced Customer Identity Resolution for Better Marketing Outcomes"
 date: "2024-06-27"
-coverImage: "customer-id-res.jpg"
+coverImage: "customer-id-res.webp"
 tags: ["identity resolution","compliance","cx"]
 author: "Cooper Matheson"
 description: "In the digital marketing landscape, understanding your customers is crucial for driving exceptional results. Advanced customer identity resolution unifies disparate data points to create comprehensive customer profiles. This enables personalized experiences, precise targeting, and higher ROI. Explore the power and implementation of this technology to enhance your marketing strategy."
@@ -28,7 +28,7 @@ This involves matching identifiers from different data sources, such as email ad
 
 3. **Increased ROI**: Personalization and precise targeting lead to more efficient marketing spend. By focusing efforts on high-potential customers and reducing wasted ad spend on uninterested audiences, businesses can achieve a higher return on investment (ROI) for their marketing campaigns.
 
-[![GD-ciam-roi](GD-ciam-roi.png)](https://www.loginradius.com/resource/guide/ciam-increase-roi-for-enterprise/)
+[![GD-ciam-roi](GD-ciam-roi.webp)](https://www.loginradius.com/resource/guide/ciam-increase-roi-for-enterprise/)
 
 4. **Omnichannel Consistency**: Customers today interact with brands across multiple touchpoints, including social media, websites, mobile apps, and in-store visits. Advanced identity resolution ensures a consistent and seamless experience across all these channels, fostering brand loyalty and trust.
 
@@ -62,4 +62,4 @@ Advanced customer identity resolution is a powerful tool for driving exceptional
 
 As the digital landscape continues to evolve, investing in advanced identity management solutions will be crucial for staying ahead of the competition and achieving long-term success in your marketing efforts.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-resolution-marketing-success)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-resolution-marketing-success)

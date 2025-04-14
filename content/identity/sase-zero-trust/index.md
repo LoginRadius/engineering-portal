@@ -1,7 +1,7 @@
 ---
 title: "10 Reasons For Businesses to Implement SASE with a Zero Trust Strategy"
 date: "2021-06-04"
-coverImage: "sase-zero-trust-cover.jpg"
+coverImage: "sase-zero-trust-cover.webp"
 tags: ["zero trust security","sase","cybersecurity"]
 author: "Navanita Devi"
 description: "The perimeter-based reactive methods that were the core of old and traditional security systems have become obsolete. The zero trust security model is the future of cybersecurity. But, it is valuable only when implemented across the company's entire network infrastructure. This is where SASE takes the lead."
@@ -110,4 +110,4 @@ Proactive governments and businesses must adopt it to ensure a cyber-secure futu
 
 If you too want to implement a zero trust security model in your organization, [book a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sase-zero-trust) with LoginRadius today! 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sase-zero-trust)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sase-zero-trust)

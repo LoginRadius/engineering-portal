@@ -1,7 +1,7 @@
 ---
 title: "M2M Authorization: Authenticate Apps, APIs, and Web Services"
 date: "2022-04-29"
-coverImage: "m2m-authorization-for-apis-apps-and-web-services.png"
+coverImage: "m2m-authorization-for-apis-apps-and-web-services.webp"
 author: "Kundan Singh"
 tags: ["M2M", "Authorization", "Authentication"]
 description: "How can you ensure APIs, web services, and business systems communicate and access the information securely without human intervention? The answer is machine-to-machine (M2M) authorization."
@@ -44,13 +44,13 @@ The following two scenarios explain how you can use LoginRadius M2M Authenticati
 
 To start using the M2M Authorization for this scenario, you need to create an M2M App and define the desired scope of API(s), as [explained here](https://www.loginradius.com/docs/api/v2/single-sign-on/Machine-to-Machine/overview/#adminconsoleconfigurationformmauthentication3).
 
-![Manage Machine to Machine App](manage-machine-to-machine-app.png)
+![Manage Machine to Machine App](manage-machine-to-machine-app.webp)
 
 **[Scenario 2](#implement-m2m-authorization-with-business-apis):** To grant desired access to your Business APIs.
 
 To start using the M2M Authorization for this scenario, you need to define your API in LoginRadius with name, identifier, and scope details and then create an M2M App with the desired scope of API(s), as [explained here](https://www.loginradius.com/docs/api/v2/single-sign-on/Machine-to-Machine/overview/#adminconsoleconfigurationformmauthentication3). 
 
-![Manage Authorization Server APIs](manage-authorization-server-apis.png)
+![Manage Authorization Server APIs](manage-authorization-server-apis.webp)
 
 In both scenarios, you get the Client Id and Client Secret for the created app, which you need to share with the partner or service who wants to access your APIs.
 
@@ -59,7 +59,7 @@ LoginRadius M2M Authorization uses client credentials grant flow from OAuth 2.0.
 
 This grant-type flow occurs strictly between a client app and the authorization server. The user does not participate in this grant-type flow.
 
-![Client Credentials Grant Flow](client-credentials-grant-flow.png)
+![Client Credentials Grant Flow](client-credentials-grant-flow.webp)
 
 - The client (server) requests with the Client ID, Client Secret, Audience, and Claims to the authorization server.
 

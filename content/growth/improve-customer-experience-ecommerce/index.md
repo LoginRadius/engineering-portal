@@ -1,7 +1,7 @@
 ---
 title: "5 Ways to Enhance Customer Experience in E-commerce"
 date: "2019-11-28"
-coverImage: "customer-experience.jpg"
+coverImage: "customer-experience.webp"
 tags: ["cx", "ecommerce", "digital identity"] 
 author: "Rakesh Soni"
 description: "A smart e-commerce customer service strategy is as critical as a marketing strategy when it comes to growing your business. You will get 360-degree customer profiling, with 100% customer consent, at all touchpoints, with a customer identity and access management solution."
@@ -41,7 +41,7 @@ When it comes to providing a superior customer experience, "people" and "product
 
 Providing excellent mobile e-commerce (m-commerce) shopping [experience can benefit retailers](https://www.loginradius.com/blog/2020/05/customer-experience-retail-industry/) significantly. By 2021, m-commerce sales are expected to be responsible for 54% of overall e-commerce revenue, [predicts](https://www.bigcommerce.com/blog/mobile-commerce/#why-does-mobile-commerce-matter) Big Commerce. 
 
-![](image-2.jpg)
+![](image-2.webp)
 
 This is one of the reasons why your online retail store should be easily accessible on mobile devices, not just desktops and laptops. 
 
@@ -79,7 +79,7 @@ In short, integrating digital and traditional touchpoints using CIAM tools will 
 
 **–** [**Rick Kenney**](https://twitter.com/rickkenney)**, Head of Consumer Insights, Salesforce** 
 
-![](image-3.jpg)
+![](image-3.webp)
 
 ### **3\. Emphasize the employee experience to boost customer retention.** 
 
@@ -113,7 +113,7 @@ No matter what e-commerce shopping experience you offer your customers, data sec
 
 What's worse is that most customers often don’t take the necessary steps to protect themselves. [CreditDonkey](https://www.creditdonkey.com/identity-theft-survey.html) reports that 68% of customers use the same password for multiple websites. That’s a good reason for you to be extra vigilant when building a secure e-commerce customer experience. Here’s how you can get started.
 
-![Woman with shopping bags](shopping-bags-XMAS_blog-300x150.jpg)
+![Woman with shopping bags](shopping-bags-XMAS_blog-300x150.webp)
 
 ## Tips to protect e-commerce customer data
 
@@ -134,4 +134,4 @@ What's worse is that most customers often don’t take the necessary steps to pr
 
 When it comes to growing your business, a smart e-commerce customer experience strategy is as important as a marketing strategy. With a customer identity and access management solution, you can get 360-degree customer profiling, with 100% customer consent, across all touchpoints. This allows you to personalize marketing and loyalty programs that engage your audience. And that’s a win-win for you and your customers.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-ecommerce)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-ecommerce)

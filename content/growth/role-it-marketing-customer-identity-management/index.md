@@ -1,7 +1,7 @@
 ---
 title: "How IT and Marketing Go Hand-in-Hand in the Business of Customer Identity Management?"
 date: "2022-05-31"
-coverImage: "it-marketing.jpg"
+coverImage: "it-marketing.webp"
 tags: ["marketing", "ciam", "IT"]
 author: "Rakesh Soni"
 description: "Promoting your brand and delivering out-of-the-box services reinforced with robust security is paramount for business success. However, delivering rich experiences remains the most underrated catalyst that can pave the path for exponential growth!"
@@ -48,7 +48,7 @@ A [customer identity and access management](https://www.loginradius.com/blog/ide
 
 Through progressive profiling, users aren’t bombarded with big registration forms; instead, they are asked to share their details when they interact with the platform gradually. This ensures a seamless and rich user experience. 
 
-[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 
 ## What About Security? Should it be a Part of Preference Management and Digital Experience Strategy?
@@ -105,4 +105,4 @@ Customer identity management is crucial for businesses striving for growth in a 
 With a new-age CIAM like LoginRadius, businesses can ensure they deliver a rich consumer experience backed with robust security that can offer endless marketing opportunities. 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-it-marketing-customer-identity-management)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-it-marketing-customer-identity-management)

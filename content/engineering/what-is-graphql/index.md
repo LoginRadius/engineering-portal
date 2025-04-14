@@ -1,7 +1,7 @@
 ---
 title: "What is GraphQL? - A Basic Guide"
 date: "2020-10-01"
-coverImage: "graph.png"
+coverImage: "graph.webp"
 author: "Anup Aglawe"
 description: "GraphQL is a syntax that specifies how data can be requested and is usually used to load data to a client from a server. Find out why to use it and any other advantages."
 tags: ["Engineering", "API", "GraphQL", "Performance"]
@@ -29,7 +29,7 @@ In the current scenario, traditional [REST APIs](/best-practice-guide-for-rest-a
 
 API endpoints generally fetch specific data, hence to load a certain data-rich application, there have to be **multiple requests to the server.** But, applications should fetch relevant data in one round trip to avoid **degrading performance.** The flexibility and richness of the GraphQL, allows us to define all the data to fetch in a single request, avoiding multiple Round trips
 
-![Wrapping a REST API in GraphQL](./wrapper.png)
+![Wrapping a REST API in GraphQL](./wrapper.webp)
 _Wrapping REST API in graphQL - Source - Joey Ng'ethe | TwigaTech_
 
 ## Fundamentals of GraphQL

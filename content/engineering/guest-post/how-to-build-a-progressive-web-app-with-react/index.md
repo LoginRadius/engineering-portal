@@ -2,7 +2,7 @@
 title: "How to Build a Progressive Web App (PWA) with React"
 date: "2021-10-22"
 author: "Abdullah Pathan"
-coverImage: "blog-image.png"
+coverImage: "blog-image.webp"
 tags: ["React","PWA","npm"]
 description: "Follow this article to understand how to develop a simple React PWA. It explains the step-by-step process to help you easily follow along."
 ---
@@ -42,9 +42,9 @@ The above command can be broken down as follows:
 
 Hitting 'Enter' after this command should initiate the build of your starter PWA React application. You should see a stream of prompts in your command-line interface. It may take a few minutes, but if you can see this screen after the command, you have created the project.
 
-![cra-pwa.png](cra-pwa.png)
+![cra-pwa.webp](cra-pwa.webp)
 
-![pwa-folder-structure.png](pwa-folder-structure.png)
+![pwa-folder-structure.webp](pwa-folder-structure.webp)
 
 Here, you can see the following folder structure of your application so far. There are a few files that you shall pay attention to when it comes to PWA's:
 
@@ -119,7 +119,7 @@ npm start
 
 This starts the application at a set `http://localhost` URL. Once the dev server is working and live on the command prompt, go to the URL to view the application. You should see something similar to this:
 
-![counter-base-app.png](counter-base-app.png)
+![counter-base-app.webp](counter-base-app.webp)
 
 Now, it's all good and ready to have the app live and working, but more interested in the PWA aspect.
 
@@ -146,11 +146,11 @@ serve -s build //if you encounter an error with this command, try 'npx serve -s 
 
 Once you use the `serve` command, you should see the following message, having your application deployed to `http://localhost:5000`. It automatically adds the URL to your clipboard as well for quick pasting in your browser.
 
-![pwa-serve.png](pwa-serve.png)
+![pwa-serve.webp](pwa-serve.webp)
 
 If you enter the `http://localhost` URL in your browser, you should see something similar to this:
 
-![pwa-service-worker.png](pwa-service-worker.png)
+![pwa-service-worker.webp](pwa-service-worker.webp)
 
 ## PWA Features
 
@@ -160,15 +160,15 @@ After registering your service worker from `index.js`, you should be able to see
 
 In the section above, you can see `Manifest` -- opening that should show you the relevant details you listed from your `manifest.json` files.
 
-![pwa-manifest.png](pwa-manifest.png)
+![pwa-manifest.webp](pwa-manifest.webp)
 
 With your PWA app running using React, you've successfully built your first PWA React application! From here, you can test many PWA features, such as installation, offline viewing, and Lighthouse audit testing.
 
-![pwa-install.png](pwa-install.png)
+![pwa-install.webp](pwa-install.webp)
 
 If you hit the '+' symbol on the right side of the URL ba,r you can install your PWA, just as done here.
 
-![pwa-lighthouse.png](pwa-lighthouse.png)
+![pwa-lighthouse.webp](pwa-lighthouse.webp)
 
 Use Workbox Lighthouse for testing the capabilities of your PWA: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 

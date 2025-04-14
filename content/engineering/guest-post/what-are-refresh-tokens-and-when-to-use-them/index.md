@@ -1,7 +1,7 @@
 ---
 title: What Are Refresh Tokens? When & How to Use Them
 date: "2021-10-05"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Mcvean Soans"
 tags: ["Authentication","Tokens", "UX"]
 description: "This is your guide to understanding refresh tokens, and why you may need to use them to enhance the user experience of your applications."

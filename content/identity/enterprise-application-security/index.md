@@ -1,7 +1,7 @@
 ---
 title: "Securing Corporate Applications: A Comprehensive Guide to Enterprise Application Security"
 date: "2023-11-22"
-coverImage: "application-security.jpg"
+coverImage: "application-security.webp"
 tags: ["data security","compliance","cx"]
 author: "Rakesh Soni"
 description: "In the tech-driven business world, safeguarding corporate applications is crucial. This blog guides you through evolving threats, proactive measures, and key components to ensure the security of critical applications."
@@ -35,7 +35,7 @@ In the realm of enterprise application security, compliance with regulations is 
 
 Adhering to these standards not only helps avoid legal consequences but also fosters a culture of ethical responsibility. Beyond compliance, ethical considerations involve transparency in data handling, respect for user privacy, and responsible disclosure of security incidents.
 
-[![EB-LR-GDPR-comp](EB-LR-GDPR-comp.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
+[![EB-LR-GDPR-comp](EB-LR-GDPR-comp.webp)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
 
 By aligning security practices with ethical principles, organizations not only safeguard their reputation but also contribute to the broader goal of creating a secure and trustworthy digital environment for all stakeholders.
 
@@ -82,4 +82,4 @@ In the face of evolving cyber threats, organizations must stay proactive and agi
 
 Remember, in the ever-changing landscape of cybersecurity, staying one step ahead is the key to safeguarding the digital assets that drive the modern enterprise.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-application-security)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-application-security)

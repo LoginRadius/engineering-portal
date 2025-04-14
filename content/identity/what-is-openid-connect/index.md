@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with OpenID Connect"
 date: "2021-09-21"
-coverImage: "what-is-openid-connect-cover.jpg"
+coverImage: "what-is-openid-connect-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Gurjyot Singh"
@@ -57,14 +57,14 @@ The OpenID Connect specification has a defined set of standard claims. The set o
 
 
 
-![what-is-openid-connect-1](what-is-openid-connect-1.png)
+![what-is-openid-connect-1](what-is-openid-connect-1.webp)
 
 
 For instance, let us say you want to use OpenID Connect to authenticate the user for your own application using Google’s OAuth URL.
 
 
 
-![what-is-openid-connect-2](what-is-openid-connect-2.png)
+![what-is-openid-connect-2](what-is-openid-connect-2.webp)
 
 
 **Step 1:** On clicking the sign-in button, you are required to pass a few parameters like **scope, **which is a space-delimited list of scopes, **response_type** having the value code, **client_id** having the client identifier, **redirect_uri** having the client redirect URI, and **state** having a random string. 
@@ -95,4 +95,4 @@ OpenID Connect, its predecessors, and other [public-key-encryption-based authent
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-openid-connect)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-openid-connect)

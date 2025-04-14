@@ -1,7 +1,7 @@
 ﻿---
 title: "Your Digital Identity Is Changing - So, What Does It Mean For Customer Experience?"
 date: "2022-12-16"
-coverImage: "digital.jpg"
+coverImage: "digital.webp"
 tags: ["digital id", "cx", "customer identity"]
 author: "Rakesh Soni"
 description: "Now, more than ever, customer experience is baked into every business. That means that as a business owner, you need to deliver great digital experiences and customer interactions every time. This blog covers some of the important aspects of an effective digital strategy."
@@ -65,7 +65,7 @@ When it comes to customer data management, laws are changing fast. New regulatio
 
 While this may seem to be a lot of work, your business must comply with new laws and regulations. While collecting data from your website, you will need to know how to get consent from your visitors and store that information securely.
 
-[![DS-consent-mngmnt](DS-consent-mngmnt.png)](https://www.loginradius.com/resource/loginradius-consent-management)
+[![DS-consent-mngmnt](DS-consent-mngmnt.webp)](https://www.loginradius.com/resource/loginradius-consent-management)
 
 
 ## How To Learn From Customer Behavior And Stay Ahead Of Evolving Needs?
@@ -88,5 +88,5 @@ When you invest in proper training and technology, your team will be empowered t
 By looking at customer identity, both online and off, you should be able to create a connection with customers you could not have made before. This improves understanding between your brand and your audience and provides an insightful picture that can help build stronger relationships for more tremendous digital success.
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=evolution-digital-identity-better-cx)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=evolution-digital-identity-better-cx)
 

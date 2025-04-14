@@ -1,7 +1,7 @@
 ---
 title: "React with Ref"
 date: "2021-04-16"
-coverImage: "title-image.png"
+coverImage: "title-image.webp"
 author: "Versha Gupta"
 tags: ["React","Refs","DOM"]
 description: "Learn about manipulation of DOM elements with Ref directly with React"

@@ -1,7 +1,7 @@
 ---
 title: "React state management: What is it and why to use it?"
 date: "2020-07-17"
-coverImage: "title-image.png"
+coverImage: "title-image.webp"
 author: "Versha Gupta"
 tags: ["React","Redux","Hooks"]
 description: "Learn about React state management and why we need state management and how to use it with React hooks and Redux in the best possible way."
@@ -39,7 +39,7 @@ Let’s discuss how to use react state management using react hooks and redux
 
 Redux was created to resolve this particular issue. it provides a central store that holds all states of your application. Each component can access the stored state without sending it from one component to another.  Here is a simple view of how Redux works.
 
-![using react state management with redux flowchart](image1.png)
+![using react state management with redux flowchart](image1.webp)
 
 There are three building parts: actions, store, and reducers. Let’s briefly discuss what each of them does.
 

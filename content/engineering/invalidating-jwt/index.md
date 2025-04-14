@@ -1,7 +1,7 @@
 ---
 title: "Invalidating JSON Web Tokens"
 date: "2021-01-18"
-coverImage: "unsplash.png"
+coverImage: "unsplash.webp"
 author: "Nick Chim"
 tags: ["JSON Web Tokens", "JWT"]
 description: "A discussion on invalidating JSON Web Tokens."

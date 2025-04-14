@@ -1,7 +1,7 @@
 ---
 title: "Setting Up and Running Apache Kafka on Windows OS"
 date: "2020-08-25"
-coverImage: "messagelog.png"
+coverImage: "messagelog.webp"
 author: "Ashish Sharma"
 tags: ["Kafka", "Windows"]
 ---
@@ -39,7 +39,7 @@ tar -xvzf kafka_2.12-2.4.1.tgz
 
 **Step 3:** Copy the path of the Kafka folder. Now go to _config_ inside Kafka folder and open _zookeeper.properties_ file. Copy the path against the field _dataDir_ and add _/zookeeper-data_ to the path.
 
-![](zookeeper.png)
+![](zookeeper.webp)
 **Step 4:** we have to modify the config/server.properties file. Below is the change:
 
 

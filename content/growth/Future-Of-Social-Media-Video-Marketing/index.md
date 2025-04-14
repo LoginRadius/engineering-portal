@@ -1,7 +1,7 @@
 ﻿---
 title: "Social Media Video Marketing: What Is In Store For Future Marketers"
 date: "2021-06-02"
-coverImage: "social-videos.jpg"
+coverImage: "social-videos.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -28,7 +28,7 @@ Fortunately, companies already know the reasons why using social media videos is
 
 Videos are one of the most profitable digital marketing tools. 91% of marketers believe video is crucial for business growth even during the coronavirus pandemic. Yet, if you are still not convinced, here are the reasons why marketers will love to use social media video marketing in 2021 and even in the years to come.
 
-![Social-video-marketing](1500-0-.jpg)
+![Social-video-marketing](1500-0-.webp)
 
 ## Reasons Why the Future of Social Media Video Marketing is Bright
 
@@ -74,7 +74,7 @@ Even though Facebook, YouTube, and Instagram are the giants in social media vide
 
 Twitter has also started using video with its newest feature, Fleets. With this feature, users can post videos to their timelines and promote their business creatively. Below is an example.
 
- ![Social-brand-videos](social-brand-videos.png) 
+ ![Social-brand-videos](social-brand-videos.webp) 
 
 Image Source: [Twitter](https://twitter.com/charts_k/status/1384136283547594757)
 
@@ -94,4 +94,4 @@ So, it is not surprising when YouTube reports mobile video consumption rising ev
 
 Today, many brands are posting consumer testimonial videos on their website and hosting Q&A sessions to boost their social content marketing with a dash of digital decoration. Therefore, it will be wiser to start creating videos that matter to you and your audiences and be a part of the golden <a rel="nofollow" href="https://instasize.com/blog/6-attention-grabbing-tricks-for-video-marketing">future of social media video marketing.</a><p>
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-of-social-media-video-marketing)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-of-social-media-video-marketing)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Brand Authenticity is Important & How to Build it"
 date: "2021-06-24"
-coverImage: "brand-engagement.jpg"
+coverImage: "brand-engagement.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -126,4 +126,4 @@ The final step towards achieving brand authenticity is to showcase your [brand r
 
 Brand authenticity is not a one-time activity, but a constant process of discovering what your brand means for your consumers. No matter which industry you are in, brand identity is critical for business success in today’s times. As outlined in this article, an authentic brand can connect with consumers and establish a brand value that goes way beyond profits and revenues.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-brand-authenticity-is-important)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-brand-authenticity-is-important)

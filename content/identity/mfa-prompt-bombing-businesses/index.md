@@ -1,7 +1,7 @@
 ﻿---
 title: "MFA Prompt Bombing: Is it a New Threat Vector to Worry About?"
 date: "2022-08-08"
-coverImage: "mfa-prompt.jpg"
+coverImage: "mfa-prompt.webp"
 tags: ["MFA", "risk-based authentication", "user access"]
 author: "Alok Patidar"
 description: "The MFA prompt attacks typically leverage MFA fatigue, where users get annoyed and unknowingly or unwillingly accept authentication attempts initiated by cyber attackers. This post uncovers the aspects associated with MFA prompt bombing attacks and how businesses can reinforce their overall security infrastructure."
@@ -45,7 +45,7 @@ RBA allows users to log in using a username and password without presenting any 
 
 Risk-based authentication is a great security mechanism that helps overcome the challenges associated with MFA prompt bombing since it automatically detects the risks and unusual behavior from a particular account and restricts access. 
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 
 ## How Risk-Based Authentication Works for Protecting Against MFA Prompt Bombing? 
@@ -69,5 +69,5 @@ Businesses need to understand the risks associated with account takeovers throug
 Organizations can invoke the true potential of risk-based authentication (RBA) to overcome the challenges pertaining to MFA prompt bombing. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-prompt-bombing-businesses)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-prompt-bombing-businesses)
 

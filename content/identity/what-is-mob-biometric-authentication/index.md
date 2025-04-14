@@ -1,7 +1,7 @@
 ﻿---
 title: "Introduction to Mobile Biometric Authentication"
 date: "2021-04-28"
-coverImage: "what-is-mob-biometric-authentication-cover.jpg"
+coverImage: "what-is-mob-biometric-authentication-cover.webp"
 tags: ["mobile biometric authentication","mfa","cx"]
 author: "Rajeev Sharma"
 description: "In an increasingly digitized world, password-based authentication is no longer sufficient to secure applications and software tools.  Can biometrics replace traditional passwords in user authentication? Biometrics does offer a safe and easy mode of authenticating users – without compromising their online experience."
@@ -29,7 +29,7 @@ Why is mobile biometric authentication gaining widespread popularity? Here are s
 
 *   Biometrics can also be used as part of the [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) (MFA) process – especially when signing into sensitive or confidential accounts.
 
-[![Multi-Factor-Authentication](Multi-Factor-Authentication.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![Multi-Factor-Authentication](Multi-Factor-Authentication.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 Next, let us look at a few use cases of biometric authentication in mobile phones.
 
@@ -256,4 +256,4 @@ Go to settings on your device, select security or biometrics, and follow prompts
 
 A biometric system verifies individuals based on their unique physical characteristics for secure authentication.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-mob-biometric-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-mob-biometric-authentication)

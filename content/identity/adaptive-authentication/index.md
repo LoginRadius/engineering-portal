@@ -1,7 +1,7 @@
 ﻿---
 title: "Adaptive Authentication- Is it the Next Breakthrough in Customer Authentication?"
 date: "2021-07-15"
-coverImage: "adaptive-authentication.jpg"
+coverImage: "adaptive-authentication.webp"
 tags: ["adaptive authentication","mfa","ciam solution"]
 author: "Vishal Sharma"
 description: "Adaptive authentication is a game-changer for enterprises that require strong fencing to protect consumer and enterprise data. Here’s a quick read depicting the role and need for adaptive authentication instead of just multi-factor authentication."
@@ -65,7 +65,7 @@ Apart from this, adaptive authentication is considered far smarter than multi-fa
 
 This means the mechanism automatically implements robust authentication controls whenever a login seems to be suspicious.
 
-[![LoginRadius-Adaptive-MFA](LoginRadius-Adaptive-MFA.png)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
+[![LoginRadius-Adaptive-MFA](LoginRadius-Adaptive-MFA.webp)](https://www.loginradius.com/resource/fixing-broken-authentication-with-adaptive-mfa/)
 
 ## Adaptive Authentication and Strong Customer Authentication
 
@@ -118,4 +118,4 @@ Enterprises seeking the highest level of consumer and organization data security
 
 Need more help? [Reach us](https://www.loginradius.com/contact-sales2/) to know how LoginRadius’ “Adaptive Authentication” can help secure your consumer identities and business information.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=adaptive-authentication)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=adaptive-authentication)

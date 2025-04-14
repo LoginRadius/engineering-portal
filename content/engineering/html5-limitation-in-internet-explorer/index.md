@@ -1,7 +1,7 @@
 ---
 title: "HTML5 Limitation in Internet Explorer"
 date: "2015-06-30"
-coverImage: "radio-check-buttons-css.png"
+coverImage: "radio-check-buttons-css.webp"
 author: "Team LoginRadius"
 tags: ["Java", "Maven", "Eclipse"]
 ---

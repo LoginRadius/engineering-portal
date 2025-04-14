@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Orchestration"
 date: "2024-09-23"
-coverImage: "identity-orchestration-hero.jpg"
+coverImage: "identity-orchestration-hero.webp"
 tags: ["authentication", "identity management", "cloud environment", "ux"]
 author: "Rakesh Soni"
 description: "Identity orchestration is revolutionizing the way businesses handle digital identities, offering a seamless and secure user experience. In this article, we explain the fundamental concepts of identity orchestration, explore its benefits, and discuss how it can transform identity management for organizations."
@@ -100,7 +100,7 @@ By centralizing policy enforcement through an integrated identity fabric, identi
 
 Transitioning from legacy identity systems to cloud-based solutions often involves migrating multiple applications from old to new infrastructure, typically requiring extensive re-coding for each individual application. This process can be overwhelming when dealing with a large number of applications. Identity orchestration provides a no-code approach to modernizing apps and facilitating the retirement of outdated identity infrastructure. By leveraging orchestration, organizations can achieve cost savings, streamline the migration process, and accelerate app modernization within minutes, rather than months.
 
-[![DS-identity-orchestration](./DS-identity-orchestration.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![DS-identity-orchestration](./DS-identity-orchestration.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 ## Increased developer productivity
 
@@ -118,7 +118,7 @@ Identity orchestration offers a scalable solution by seamlessly integrating with
 
 LoginRadius Identity Orchestration makes it easy for developers to create and customize identity workflows using a simple drag-and-drop interface. This feature allows teams with limited technical knowledge to quickly manage authentication processes, helping them adapt to changing customer needs and regulations.
 
-![](./identity-orchestration.png)
+![](./identity-orchestration.webp)
 
 With LoginRadius Identity Orchestration, you can seamlessly integrate with your existing CIAM systems. Whether you use single sign-on, multi-factor authentication, or passwordless login, LoginRadius ensures these elements work together smoothly. This integration doesn't just streamline identity management; it also boosts security and compliance.
 

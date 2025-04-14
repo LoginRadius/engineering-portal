@@ -1,7 +1,7 @@
 ---
 title: "Aurora WDC, a LoginRadius Customer Success Story"
 date: "2017-05-26"
-coverImage: "aurora-wdc-loginradius-customer-success-story.jpg"
+coverImage: "aurora-wdc-loginradius-customer-success-story.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig"
@@ -12,7 +12,7 @@ metadescription: "Aurora WDC is leading analytics & intelligence firm who, with 
 
 ---
 
-![](LR-Aurora-WDC.jpg)
+![](LR-Aurora-WDC.webp)
 
 Founded in 1995 by Arik Johnson, [Aurora Worldwide Development Corporation (WDC)](https://aurorawdc.com/) is a leading analytics and intelligence firm providing consultative services to corporate clients worldwide. We are grateful to be able to have such a long-standing relationship with Aurora WDC and glad that we have been able to help them in providing a better user experience and a well-rounded solution to better manage their client relationships.
 
@@ -49,4 +49,4 @@ As Aurora WDC transitioned to Hubspot, we stepped up our game and re-integrated 
 
 Aurora WDC - LoginRadius Customer Success Story
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=aurora-wdc-loginradius-customer-success-story)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=aurora-wdc-loginradius-customer-success-story)

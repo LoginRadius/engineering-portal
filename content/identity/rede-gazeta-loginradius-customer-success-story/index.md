@@ -1,7 +1,7 @@
 ---
 title: "Rede Gazeta, a LoginRadius Customer Success Story"
 date: "2018-09-06"
-coverImage: "lr-and-rede-gazeta.jpg"
+coverImage: "lr-and-rede-gazeta.webp"
 tags: ["media-and-publication"]
 featured: false 
 author: "Karl Wittig" 
@@ -10,7 +10,7 @@ metatitle: "Rede Gazeta | Customer Success Story | LoginRadius"
 metadescription: "By implementing LoginRadius, Rede Gazeta now have an even better understanding of what their readers are interested in."
 ---
 
-![](logo_redegazeta-300x212.png)
+![](logo_redegazeta-300x212.webp)
 
 Founded in 1928, [Rede Gazeta](https://en.wikipedia.org/wiki/TV_Gazeta) started with one newspaper, A Gazeta. Throughout the years, it has grown into the largest communication network in the Espírito Santo region of Brazil. It has  a network of 19 businesses that touches various forms of media outlets, including print newspapers, online media, editorial photography, radio stations, and broadcasting.
 
@@ -46,4 +46,4 @@ As one of the most important media corporations in Brazil, Rede Gazeta needs to 
 
 Rede Gazeta - LoginRadius Customer Success Story
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rede-gazeta-loginradius-customer-success-story)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rede-gazeta-loginradius-customer-success-story)

@@ -1,7 +1,7 @@
 ---
 title: "Authentication vs Login - What’s the Difference?"
 date: "2022-05-18"
-coverImage: "auth-login.jpg"
+coverImage: "auth-login.webp"
 tags: ["data security","authentication","login"]
 author: "Vishal Sharma"
 description: "Most cybercriminals attack users and exploit businesses by targeting weak authentication and login mechanisms. Businesses first need to understand the fundamental difference between authentication and login. Once they know the aspects of authentication vs. login, the next step is to ensure a stringent layer of security for their users."
@@ -89,4 +89,4 @@ LoginRadius CIAM platform is designed to help businesses reach their targeted go
 
 If you wish to experience how LoginRadius works for your business, reach us today to schedule a free personalized demo.
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-authentication-login)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-between-authentication-login)

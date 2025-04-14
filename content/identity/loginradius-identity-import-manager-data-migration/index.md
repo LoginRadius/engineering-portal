@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Identity Import Manager, An Automated Feature for Seamless Data Migration"
 date: "2020-07-15"
-coverImage: "LoginRadius-Identity-Import.jpg"
+coverImage: "LoginRadius-Identity-Import.webp"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
@@ -28,7 +28,7 @@ Other benefits of the LoginRadius Identity Import Manager include:
 - It improves data professionals' productivity as it codifies and reuses processes that move data without any technical intervention. 
 - It offers a robust built-in-error handling functionality that empowers companies to build well-instrumented data warehousing systems.
 
-[![](DS-ETL-Services-1.png)](https://loginradius.com/resource/loginradius-identity-import-manager)
+[![](DS-ETL-Services-1.webp)](https://loginradius.com/resource/loginradius-identity-import-manager)
 
 ## Core Capabilities of LoginRadius Identity Import Manager
 
@@ -47,4 +47,4 @@ Companies produce a wide range of data in a variety of forms that may not be ful
 
 The Identity Import Manager is a built-in feature of the LoginRadius [customer identity and access management](https://www.loginradius.com/blog/identity/customer-identity-and-access-management/) platform that offers frictionless access and integration of data for effective and accurate data processing.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-import-manager-data-migration)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-import-manager-data-migration)

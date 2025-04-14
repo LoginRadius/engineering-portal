@@ -1,7 +1,7 @@
 ---
 title: "How to Render React with optimization"
 date: "2020-09-23"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: Nathan Nguyen
 tags: ["Node.js", "React"]
 description: "Optimized rendering in the frontend is a crucial procedure. Let's learn how to optimize React rendering process."
@@ -30,7 +30,7 @@ If you have the [Codepen](https://codepen.io/n-nguyen/pen/WNwYrRG) opened at thi
 
 Once the set of alerts is dismissed, a very simple UI will render:
 
-![Example UI](image1.png)
+![Example UI](image1.webp)
 
 The dotted border line distinguishes between elements that belong to the Child component of the example (inside the dotted line) versus the Parent component.
 

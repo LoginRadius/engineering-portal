@@ -1,7 +1,7 @@
 ---
 title: "Hi, My Name is Darryl, and This is How I Work"
 date: "2015-09-22"
-coverImage: "darryl-how-i-work-300x300.png"
+coverImage: "darryl-how-i-work-300x300.webp"
 author: "Team LoginRadius"
 tags: ["Tools", "Engineering"]
 ---
@@ -39,4 +39,4 @@ As a normal human being — and not an extraterrestrial or alien as you tiny hum
 
 ### Getting out of a sticky situation
 
-Now that my brain is full of design food. How do I put it to work? There's this thing called a notebook. If you don't know what that is. It looks like this. ![notebook](./notebook.jpg) This is where I start sketching or wireframing all the things I need before moving on to the digital format. And there you have it. A sneak peek on how I work. I hope that this gave you an idea on how to improve your everyday design life. A word of advice. _There are a thousand ways to do 1 thing. If someone told you it can't be done; prove them wrong._
+Now that my brain is full of design food. How do I put it to work? There's this thing called a notebook. If you don't know what that is. It looks like this. ![notebook](./notebook.webp) This is where I start sketching or wireframing all the things I need before moving on to the digital format. And there you have it. A sneak peek on how I work. I hope that this gave you an idea on how to improve your everyday design life. A word of advice. _There are a thousand ways to do 1 thing. If someone told you it can't be done; prove them wrong._

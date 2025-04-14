@@ -1,7 +1,7 @@
 ---
 title: Using MongoDB as Datasource in GoLang
 date: "2020-09-21"
-coverImage: "gomongo.png"
+coverImage: "gomongo.webp"
 author: "Puneet Singh"
 tags: ["Go","MongoDB"]
 description: "Learn how to use MongoDB as a data source for your Go application using the mongo-go driver"

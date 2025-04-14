@@ -1,7 +1,7 @@
 ---
 title: "6 Strategies to Secure Your Cloud Operations Against Today's Cyber Threats"
 date: "2021-02-12"
-coverImage: "secure-cloud.jpg"
+coverImage: "secure-cloud.webp"
 tags: ["cloud security","cybersecurity","cx"]
 author: "Rakesh Soni"
 description: "One of the most important steps for successful cloud operations is to keep your cloud environment safe and secure. Generally, businesses are eager to adopt cloud solutions, but the primary factor that keeps enterprises on their toes is their security issues. In this article, we'll discuss a few strategies needed to secure your cloud operations from cyber threats."
@@ -75,7 +75,7 @@ Accidental deletions, stolen login credentials, dissatisfied employees, unsecure
 
 Mass adoption of cloud technology with ever-increasing sophistication and volume can pave the way for cyber threats that drive the need to implement cybersecurity. 
 
-[![Future-proof-your-security](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![Future-proof-your-security](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 Here a few tips about how you can improvise on the security of data on the cloud –
 
@@ -138,7 +138,7 @@ By protecting your cloud users with multi-factor authentication, only authorized
 
 ## Why Should Businesses Rely Completely on the LoginRadius Cloud IAM Solution
 
-![how-to-secure-cloud-operations](how-to-secure-cloud-operations.png)
+![how-to-secure-cloud-operations](how-to-secure-cloud-operations.webp)
 
 If you intend to build a Cloud IAM solution either in-house or through a third-party service on your servers, then you should be aware of its limitations too.  There is a time-consuming factor in hardware, software, security, and privacy. 
 
@@ -152,4 +152,4 @@ There is no doubt that cloud computing is the future. And it would be best if yo
 
 You need to think more carefully regarding the cloud security controls to ensure total security. Using the best industry practices and managing your cloud services will help you secure your cloud operations, thereby protecting sensitive data. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=strategies-secure-cloud-operations)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=strategies-secure-cloud-operations)

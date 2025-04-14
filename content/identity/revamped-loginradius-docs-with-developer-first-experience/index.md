@@ -1,7 +1,7 @@
 ---
 title: "Code Less, Build More: Unveiling LoginRadius' AI-Powered Developer Documentation"
 date: "2025-03-05"
-coverImage: "hero-section.png"
+coverImage: "hero-section.webp"
 tags: []
 author: "Rakesh Soni"
 description: "We rebuilt our docs from the ground up with a developer-first mindset. Now, navigation feels seamless, content follows a logical step-by-step approach, and jumping between topics feels effortless. Let’s start by exploring the new documentation structure and how it improves your workflow."

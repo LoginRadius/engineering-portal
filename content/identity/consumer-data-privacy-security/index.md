@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Future-Proofs Consumer Data Privacy and Security"
 date: "2020-06-17"
-coverImage: "consumer-data-privacy.jpg"
+coverImage: "consumer-data-privacy.webp"
 tags: ["data privacy","cx","compliance"]
 author: "Rakesh Soni"
 description: "The building blocks that sustain customer loyalty in the long run are authenticity, accountability and excellent customer experience. Organizations need to be clear about how cautious they are when it comes to the privacy and protection of customer data."
@@ -63,7 +63,7 @@ Today, consumers are more mindful of the effect data privacy has on their person
 
 New consumer data privacy regulations have been affecting every aspect of a business. Organizations must manage consumer interactions with privacy demands, develop new organizational positions to manage regulatory interactions, and educate employees on the current regulations.
 
-[![WP-CCPA-consumer-identity](WP-CCPA-consumer-identity.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![WP-CCPA-consumer-identity](WP-CCPA-consumer-identity.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 In general, consumer data privacy laws have three different impacts on every organization.
 
@@ -89,7 +89,7 @@ Consumers have the authority to set a brand apart from its competitors. So, when
 
 ## List of Popular Data Privacy Laws and Acts Around the World
 
-![Different data privacy laws and acts](Different-data-privacy-laws-and-acts.png)
+![Different data privacy laws and acts](Different-data-privacy-laws-and-acts.webp)
 
 #### **The European Union's Data Privacy Laws**
 
@@ -146,7 +146,7 @@ Organizations are working to build technology environments that can easily handl
 
 ## How LoginRadius Keeps Your Customer Data Private and Secure
 
-![How LoginRadius keeps your customer data private and secure](customer-data-private-and-secure.png)
+![How LoginRadius keeps your customer data private and secure](customer-data-private-and-secure.webp)
 
 One crucial aspect of an organization is the protection of the confidentiality and integrity of consumer data. LoginRadius provides layered security by limiting and monitoring access to consumer's data. The platform offers seamless security with [features like data management](https://www.loginradius.com/data-governance/) and real-time fraud analysis to improve customer experience and detect fraud attempts at the entrance.
 
@@ -167,4 +167,4 @@ The LoginRadius is an identity management system that continues to support [glob
 
 Your consumer data privacy and security plan should comply with the rapid development of technology and the increasing cyber-attacks. Consider investing in compliance with the latest regulations to future-proof your consumer data protection plan.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-data-privacy-security)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-data-privacy-security)

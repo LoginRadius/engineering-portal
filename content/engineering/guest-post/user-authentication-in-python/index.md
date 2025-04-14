@@ -1,7 +1,7 @@
 ---
 title: Implementing User Authentication in a Python Application
 date: "2021-07-07"
-coverImage: "coverImage.jpg"
+coverImage: "coverImage.webp"
 author: "Solomon Esenyi"
 description: "Learn about user authentication, user identity management, and implementing it correctly into a Python application using LoginRadius."
 tags: ["Python", "Authentication", "Flask"]
@@ -60,21 +60,21 @@ To proceed with this tutorial, you will need an account with LoginRadius. If you
 
 Login to your [LoginRadius dashboard](https://accounts.loginradius.com/auth.aspx?return_url=https://dashboard.loginradius.com/login), then navigate to the app you want to integrate with Python (LoginRadius will set up a free app for you when you create an account).
 
-![LoginRadius Dashboard](pw6s1mqnn-yrtard7nbx.png)
+![LoginRadius Dashboard](pw6s1mqnn-yrtard7nbx.webp)
 
 Next, head over to the `Configuration` tab on the LoginRadius sidebar (left side of the screen).
 
-![LoginRadius Configuration](i_alrgdnugpmtschkuuj.png)
+![LoginRadius Configuration](i_alrgdnugpmtschkuuj.webp)
 
 Your API credentials are located under the `API Key And Secret` section. Once you have retrieved this, copy the `APP Name`, `API Key`, and `API Secret` and store them somewhere secure and easily retrievable.
 
-![LoginRadius API credentials](7lev6yc_ebtxcg62wrbe.png)
+![LoginRadius API credentials](7lev6yc_ebtxcg62wrbe.webp)
 
 ### Whitelisting Your Domains
 
 LoginRadius requires you to whitelist domains you will be integrating with your app. To whitelist, a domain, scroll down to the `Whitelist Your Domain` section in the `Configuration` tab of your app dashboard and add it.
 
-![Domain Whitelisting](5ng50vbosmuhdhfuz-gi.png)
+![Domain Whitelisting](5ng50vbosmuhdhfuz-gi.webp)
 
 > By default, LoginRadius whitelists your local computer (localhost).
 
@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
 When you run the `server.py` script and open your browser, you will get a response similar to the image below:
 
-![Hello World](vordrrnvz-vekwuickak.png)
+![Hello World](vordrrnvz-vekwuickak.webp)
 
 ### Initializing the LoginRadius SDK
 
@@ -157,7 +157,7 @@ def register():
 
 In the code above, we created a `register` route that redirects users to our LoginRadius registration IDX. We also set our `AUTH_ACTION` to “register” and our `RETURN_URL` to our application home page.
 
-![LoginRadius Login Page](smn-8jr5ahgmhtynezje.png)
+![LoginRadius Login Page](smn-8jr5ahgmhtynezje.webp)
 
 > NOTE: Don’t forget to replace the <APP_NAME> placeholder with your LoginRadius app name we saved earlier.
 
@@ -182,9 +182,9 @@ def login():
 
 In the code above, we redirect users to our LoginRadius login IDX if the `token` parameter is absent (this means LoginRadius did not redirect the user here). We also set our `AUTH_ACTION` to “login” and our `RETURN_URL` to our login page.
 
-![LoginRadius Login Page](7gs3xz6qhxhas7qgtjma.png)
+![LoginRadius Login Page](7gs3xz6qhxhas7qgtjma.webp)
 
-![LoggedIn](xwzztcogdtmnyfq4j5nc.png)
+![LoggedIn](xwzztcogdtmnyfq4j5nc.webp)
 
 ## Fetching User Profiles From Access Tokens
 
@@ -220,7 +220,7 @@ def dashboard():
 
 In the code above, we used the `authentication.get_profile_by_access_token` method from the LoginRadius SDK to fetch our user’s details. If the request was successful and the result does not contain an `ErrorCode` parameter, we save the access token in the user’s session and redirect them to the `dashboard` route. But if an error occurs somewhere, e.g., the access token is invalid/expired, we redirect the user back to the `login` route.
 
-![LoggedIn](f2p7ddnwin3yihucx2em.png)
+![LoggedIn](f2p7ddnwin3yihucx2em.webp)
 
 Next, we want to add more functionality to the `dashboard` route. Instead of just displaying a dummy text, let it show the user information we fetched earlier. Update the `dashboard` route with the code below:
 
@@ -244,7 +244,7 @@ def dashboard():
 
 Here, we fetched the access token stored in the user’s session earlier, used it to get their details, and rendered the result.
 
-![LoggedIn](1zsvbg3rk013zlbpxx2u.png)
+![LoggedIn](1zsvbg3rk013zlbpxx2u.webp)
 
 ### Invalidating Access Tokens (User Logout)
 
@@ -266,7 +266,7 @@ def logout():
     return "You have successfully logged out!"
 ```
 
-![Log Out](xyvodwpjtxjrjgxoffx5.png)
+![Log Out](xyvodwpjtxjrjgxoffx5.webp)
 
 ## Conclusion
 

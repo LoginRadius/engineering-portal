@@ -1,7 +1,7 @@
 ---
 title: "Constructor vs getInitialState in React"
 date: "2021-01-05"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: Nathan Nguyen
 tags: ["JavaScript", "React"]
 description: "No ES6? No problem. getInitialState is the ES5 friendly method to define the initial state of a React component."

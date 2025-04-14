@@ -1,7 +1,7 @@
 ---
 title: "How CIAM Will Address The 5 Most Popular Issues In The Utility Industry"
 date: "2021-03-09"
-coverImage: "ciam-utility.jpg"
+coverImage: "ciam-utility.webp"
 tags: ["ciam solution","compliance","cx","data security"] 
 author: "Rakesh Soni"
 description: "A lot of utility companies require a good customer retention percentage—since the nature of their business is recurring and net revenue is dependent on how many times a consumer has used the service. Therefore, to retain consumers, it is vital to understand their needs."
@@ -51,7 +51,7 @@ A CIAM in utility sector comes with a centralized portal that allows the adminis
 
 A good **CIAM in utility sector** would have protocols and procedures (such as [SSO protocols](https://www.loginradius.com/protocols/) including SAML, OAuth, JWT, OpenID, Delegation, and Multipass) when a user is accessing high-risk networks and databases. It also comes with NGFW, next-generation firewalls, which provide application-level security against cyber attacks.
 
-[![SSO-loginradius](LoginRadius-Single-Sign-on.png)](https://www.loginradius.com/single-sign-on/)
+[![SSO-loginradius](LoginRadius-Single-Sign-on.webp)](https://www.loginradius.com/single-sign-on/)
 
 ## The LoginRadius CIAM In Utility Sector
 
@@ -94,4 +94,4 @@ With hackers getting smarter every day, companies need to implement stringent pr
 If this data is compromised, it would be a massive loss to the company's reputation, eventually leading to financial losses as users might withdraw from using their services. In extreme cases, the company might even go bankrupt! Implementing a CIAM in utility sector solution can prevent this from happening and make the consumer experience better!
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-addresses-utility-issues)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-addresses-utility-issues)

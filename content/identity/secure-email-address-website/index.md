@@ -1,7 +1,7 @@
 ---
 title: "How to secure an email address on your website"
 date: "2021-01-22"
-coverImage: "secure-email-address-website.jpg"
+coverImage: "secure-email-address-website.webp"
 tags: ["all, Security"]
 featured: false
 author: "Rakesh Soni"
@@ -63,7 +63,7 @@ Hackers use [credential stuffing](https://www.loginradius.com/blog/identity/2019
 
 This is possible because a huge proportion of online users still use the same username and passwords across multiple accounts.
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 
 ### 4. Use two-factor authentication or MFA, wherever possible.
@@ -98,4 +98,4 @@ The following techniques can be used to prevent email harvesting:
 
 Although it may take a while to get the hang of them, the results are worth spending time on. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-email-address-website)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-email-address-website)

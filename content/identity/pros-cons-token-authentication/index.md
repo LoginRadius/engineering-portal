@@ -1,7 +1,7 @@
 ---
 title: "What is a Token? What are its Pros and Cons?"
 date: "2021-07-29"
-coverImage: "pros-cons-token-authentication-cover.jpg"
+coverImage: "pros-cons-token-authentication-cover.webp"
 tags: ["token authentication","authorization","cx"]
 author: "Rakesh Soni"
 description: "Tokens are widely used to provide authorization and authentication to users when they access a website or a mobile application. This post covers detailed information about the use of tokens along with its advantages and disadvantages."
@@ -114,4 +114,4 @@ Although JWT can be the right option in most scenarios if implemented correctly 
 However, one should consider the above-mentioned aspects before relying on a token for [authentication and authorization](https://www.loginradius.com/blog/identity/authentication-vs-authorization-infographic/). 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-token-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-token-authentication)

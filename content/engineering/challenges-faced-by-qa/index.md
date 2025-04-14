@@ -1,7 +1,7 @@
 ---
 title: "Top 9 Challenges Faced by Every QA"
 date: "2021-03-05"
-coverImage: "testing-challenges.png"
+coverImage: "testing-challenges.webp"
 author: "Neha Vyas"
 description: "Software testing is a difficult task in and of itself. Top 9 QA challenges that any tester in the software testing industry would face are discussed in clear terms here."
 tags: ["QA","Processes","Testing"]

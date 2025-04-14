@@ -1,7 +1,7 @@
 ---
 title: "Customer Experience is Driving Digital Transformation"
 date: "2018-05-18"
-coverImage: "linkedin-sales-navigator-402831-unsplash1-1.jpg"
+coverImage: "linkedin-sales-navigator-402831-unsplash1-1.webp"
 tags: ["digital transformation","modern customer identity","cx"]
 author: "Rakesh Soni" 
 description: "Customers today demand meaningful content which is based on their preferences and behaviours. Companies have to accept these digital transformations to offer this connected customer experience."
@@ -11,7 +11,7 @@ metadescription: "In the era of digital transformation, customers today demand m
 
 Everywhere you look, companies are adopting digital transformations in the hopes of changing their business models and competing in the reality of the new market.
 
-![Digital Transformation](linkedin-sales-navigator-1.jpg)
+![Digital Transformation](linkedin-sales-navigator-1.webp)
 
 What’s interesting in this new trend, is that the change is being driven by the customer.
 
@@ -23,7 +23,7 @@ Digital technology has transformed [customers expectations](https://www.loginrad
 
 It’s a big statement, but mobile devices, apps, machine learning, automation and more allow customers to get what they want, when they want it.
 
-![](nordwood-themes.jpg)These new digital technologies have caused a shift in customer expectations, which has resulted in a new modern consumer - they are constantly connected, app-natives, and are very aware of what they can do with technology. 
+![](nordwood-themes.webp)These new digital technologies have caused a shift in customer expectations, which has resulted in a new modern consumer - they are constantly connected, app-natives, and are very aware of what they can do with technology. 
 
 Because of the opportunities that are available with modern technologies, customers are now judging companies on their digital customer experience first. Businesses are now having to rethink how they interact with their users, and are turning to these digital initiatives to help them transform how they engage their customers.
 
@@ -33,7 +33,7 @@ With a digital transformation, organizations are able to understand the modern c
 
 #### 1\. A Flexible, Cloud-Based Solution
 
-![cloud-based solution](rawpixel-369788-unsplash.jpg)
+![cloud-based solution](rawpixel-369788-unsplash.webp)
 
 Having the right technology to support your digital initiatives it essential. Many companies are recognizing this, and seeing the advantages to having a customer identity solution at the foundation of their digital transformation.
 
@@ -43,7 +43,7 @@ For example, with a customer identity solution, you can gather [first-party cust
 
 #### 2\. Personalizing your Customers Digital Experience
 
-![personalizing customer experience](john-schnobrich-520023-unsplash-1.jpg)
+![personalizing customer experience](john-schnobrich-520023-unsplash-1.webp)
 
 Modern customers that use your digital properties are looking for relevant content that is based on their interests and habits. They no longer have patients for ads that are not directly targeted towards them. This is why gathering customer data is so important in today’s market. With it, you can personalize the digital experience and paid advertisement towards the individual user.
 
@@ -55,7 +55,7 @@ But unfortunately, utilizing your customers data and personalizing the digital e
 
 #### 3\. Providing a Seamless Multi-channel Experience
 
-![multi-channel experience](rawpixel-660359-unsplash.jpg)
+![multi-channel experience](rawpixel-660359-unsplash.webp)
 
 Today’s customers are not tied down to a single channel. They browse in-store, shop online, share feedback through mobile apps and ask questions to your support team on social media.
 
@@ -69,7 +69,7 @@ Tying all these interactions together allows you to create a [single profile](ht
 
 Accomplishing these three steps is a great start at improving your customers digital experience. If you get identity right from the start, you will really be able to enjoy the benefits of a digital transformation in terms of scalability, availability, and flexibility.
 
-[![Customer Identity - The Core of Digital Transformation](guide-to-modern-cover.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![Customer Identity - The Core of Digital Transformation](guide-to-modern-cover.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 By utilizing a customer identity solution, you will be able to build a great foundation to your digital transformation.
 

@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Launches Consent Management to Support the EU's GDPR Compliance"
 date: "2020-05-29"
-coverImage: "Consent-Management.png"
+coverImage: "Consent-Management.webp"
 tags: ["data privacy","compliance","consent management"]
 author: "Rakesh Soni"
 description: "When the General Data Protection Regulation (GDPR) was officially laid out, it sparked an increasing need to re-consider their security arrangements for organisations running on Customer Identity & Access Management (CIAM) solutions."
@@ -21,7 +21,7 @@ GDPR exposed the world to a whole lot of data security concerns ranging from how
 
 LoginRadius Consent Management will help companies and their security professionals understand the core mechanism of GDPR requirements and improve customer experience in the process. 
 
-![](LoginRadius-Dashboard-Consent-Management.jpg)
+![](LoginRadius-Dashboard-Consent-Management.webp)
 
 ## Key Features of the LoginRadius Consent Management to Meet the EU's GDPR 
 
@@ -38,7 +38,7 @@ LoginRadius Consent Management will help companies and their security profession
 - Our consent repository is designed as a secure database and a single source of truth for all data processing based on customers’ consent.
 - It supports language localization for better and personalized communication.
 
-[![Loginraidus consent management datasheet](DS-Consent-Management-1024x310.png)](https://www.loginradius.com/resource/loginradius-consent-management/)
+[![Loginraidus consent management datasheet](DS-Consent-Management-1024x310.webp)](https://www.loginradius.com/resource/loginradius-consent-management/)
 
 ## A Final Word
 
@@ -46,4 +46,4 @@ LoginRadius Consent Management is an effort from the cloud-based CIAM solution p
 
 In addition to the GDPR, the LoginRadius Platform is also compliant with other international data privacy [standards like the CCPA](https://www.loginradius.com/blog/identity/how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020/), NIST, and HIPPA.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management)

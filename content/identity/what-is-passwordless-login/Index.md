@@ -1,7 +1,7 @@
 ---
 title: "What is Passwordless Login?"
 date: "2021-03-26"
-coverImage: "what-is-passwordless-login.jpg"
+coverImage: "what-is-passwordless-login.webp"
 tags: ["passwordless login","authentication","compliance","cx"]
 author: "Keshav Kumar"
 description: "Can you exactly recall which accounts what passwords belong to? How frequently do you reuse the same password because you can't have a unique, strong, and easily-remembered password for each of your accounts? Passwordless Login takes the frustration out of the equation to create a better consumer experience."
@@ -178,4 +178,4 @@ Passwordless login simplifies the process, reduces friction, and enhances overal
 
 Passwordless login's future is promising, with advancements in biometrics, multifactor authentication, and hardware tokens driving wider adoption.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-passwordless-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-passwordless-login)

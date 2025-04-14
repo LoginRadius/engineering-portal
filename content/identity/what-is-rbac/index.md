@@ -211,4 +211,4 @@ Leveraging platforms like LoginRadius further simplifies the implementation and 
 
  **A:** RBAC manages access based solely on user roles, whereas IAM (Identity and Access Management) comprehensively manages users' identities, roles, policies, and access privileges.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-rbac)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-rbac)

@@ -1,7 +1,7 @@
 ---
 title: "5 Tips for Choosing the Right Password Manager for Your Team"
 date: "2021-02-23"
-coverImage: "password-management.jpg"
+coverImage: "password-management.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -116,4 +116,4 @@ A password manager has become a vital [part of cyber security in today’s digit
 
 Another key thing is to intercommunicate with other teams - developers, project managers, etc. to finalize your choice of a password manager for teams. These tips will help you to find one that is just right for you and your team.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-manager-tips)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=password-manager-tips)

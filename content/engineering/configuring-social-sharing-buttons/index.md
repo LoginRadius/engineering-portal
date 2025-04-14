@@ -1,7 +1,7 @@
 ---
 title: "Configuring Your Social Sharing Buttons"
 date: "2015-06-09"
-coverImage: "configuring-social-share-buttons-300x300.png"
+coverImage: "configuring-social-share-buttons-300x300.webp"
 author: "Karl Wittig"
 tags: ["SocialSharing"]
 ---

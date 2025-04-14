@@ -1,7 +1,7 @@
 ---
 title: "Hello world with Deno"
 date: "2020-06-02"
-coverImage: "deno.png"
+coverImage: "deno.webp"
 author: "Ashish Sharma"
 tags: ["Deno", "HelloWorld","NodeJs"]
 ---
@@ -17,7 +17,7 @@ Btw, this is the best damn geeky one-liner code to explain what is Deno. Totally
 
 
 
-![alt_text](twitter.png "Twitter")
+![alt_text](twitter.webp "Twitter")
 
 
 ### Installation
@@ -87,7 +87,7 @@ deno run index.ts
 You can check the result here
 
 
-![alt_text](cmd.png "Result")
+![alt_text](cmd.webp "Result")
 
 
 Yupppp it works this is your first Deno program !!

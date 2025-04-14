@@ -1,7 +1,7 @@
 ---
 title: "How a Culture of Identity Governance Empowers Digital Transformation?"
 date: "2023-04-11"
-coverImage: "digital-transformation.jpg"
+coverImage: "digital-transformation.webp"
 tags: ["digital transformation","identity governance","ciam solution"]
 author: "Yash Rathi"
 description: "By prioritizing identity governance as a critical aspect of their digital transformation strategy, organizations can ensure that they are effectively managing user identities and access, both of which are critical to the success of any digital initiative. Here’s a deeper look at the aspects of leveraging identity governance."
@@ -44,7 +44,7 @@ Identity governance helps organizations to streamline access management processe
 
 Identity governance ensures that organizations comply with regulatory requirements around data privacy and security. For instance, the GDPR and the CCPA data privacy and security regulations require businesses to implement identity governance. 
 
-[![EB-GDPR-Comp](EB-GDPR-Comp.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
+[![EB-GDPR-Comp](EB-GDPR-Comp.webp)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
 
 ## How a Cutting-Edge CIAM Fulfills the Identity Governance Criteria?
 
@@ -84,4 +84,4 @@ A culture of identity governance and cutting-edge CIAM solutions are critical to
 
 By prioritizing identity governance and leveraging a robust CIAM solution, organizations can enhance security, improve user experience, increase efficiency, and ensure compliance with regulatory requirements. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-unlocks-digital-transformation)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-unlocks-digital-transformation)

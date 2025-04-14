@@ -1,7 +1,7 @@
 ---
 title: "SAML or OIDC: Which is Better For Your Business?"
 date: "2021-06-08"
-coverImage: "saml-or-oidc-for-business-cover.jpg"
+coverImage: "saml-or-oidc-for-business-cover.webp"
 tags: ["saml","sso","data security","authentication","cx"]
 author: "Rakesh Soni"
 description: "For any company concerned about securing its users' data, getting a grip on SSO can be a daunting task. But determining whether SAML or OIDC is right for your enterprise requires weighing a few characteristics against your business goals."
@@ -31,7 +31,7 @@ Before we look at the differences between these protocols, let us understand the
 *   This selection is then passed onto the browser or app using the IdP.
 *   The app verifies the user's identity before granting access to the information the end-user is looking for.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ## What are the Differences Between OIDC and SAML?
@@ -107,4 +107,4 @@ LoginRadius also supports federated [SSO protocols](https://www.loginradius.com/
 Whether you opt for a SAML or an OIDC verification method, the identity provider you choose can define your app's features and user-friendliness. Partnering with the right platform will help you provide the best security possible and ensure you don't fall victim to any cybercrimes.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-or-oidc-for-business)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-or-oidc-for-business)

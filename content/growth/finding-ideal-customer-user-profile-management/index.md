@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Target Your Ideal Customer with User Profile Management?"
 date: "2023-02-22"
-coverImage: "profile-mangemnt.jpg"
+coverImage: "profile-mangemnt.webp"
 category: ["user experience", "ciam", "user management"]
 author: "Rakesh Soni"
 description: "Targeting the right audience isn’t a piece of cake. It requires much effort, detailed user insights from user profiles, and research to develop a plan to increase engagement. This blog uncovers the aspects of user profile management with CIAM and how businesses can navigate their success journey by targeting the right audience."
@@ -87,5 +87,5 @@ Targeting your ideal customer is essential for any business looking to grow and 
 
 By following these steps, companies can build lasting relationships with their customers and drive long-term success.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=finding-ideal-customer-user-profile-management)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=finding-ideal-customer-user-profile-management)
 

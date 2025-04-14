@@ -1,7 +1,7 @@
 ---
 title: "Blockchain: The new technology of trust"
 date: "2020-10-08"
-coverImage: "CoverPage.jpg"
+coverImage: "CoverPage.webp"
 author: "Shraddha V Prasad"
 tags: ["Blockchain", "Cyber Security"]
 description: "Learn about Blockchain technology and how it works."
@@ -26,7 +26,7 @@ Hash: It is quite similar to human fingerprint and is unique to each block, once
  - LOCKING THE BLOCKS DOWN
 Hash of the previous block-the hash of one block gives the data for the next block, and this new block uses this hash function and traces of it is woven into the new hash this continues to build an enormous chain.
 
-![Blockchain](block.png)
+![Blockchain](block.webp)
 
 ## Establishing the trust
 

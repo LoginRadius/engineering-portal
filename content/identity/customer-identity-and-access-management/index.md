@@ -1,7 +1,7 @@
 ---
 title: "What is Customer Identity and Access Management(CIAM)?"
 date: "2019-06-03"
-coverImage: "ciam-cover.png"
+coverImage: "ciam-cover.webp"
 tags: ["ciam solution","compliance","cx"]
 author: "Rakesh Soni" 
 description: "The customer login experience is taken over by customer identity and access management (CIAM). There's more than just registration and authentication at stake. You're losing out on a host of advantages if all you get from your clients when they log in is an email address to send newsletters and passwords. We illustrate in this article how CIAM will help the organisation face the future head-on."
@@ -50,7 +50,7 @@ Every company wants to become a technology enterprise today. With the explosion 
 
 CIAM is a fundamental technology that serves increasingly complex consumer needs and enables businesses to deliver stable, seamless digital experiences.
 
-[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity-1024x310.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![Enterprise Buyer’s Guide to Consumer Identity Ebook](EB-The-Enterprise-Buyer’s-Guide-to-Consumer-Identity-1024x310.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### For Businesses:
 
@@ -72,7 +72,7 @@ By providing a [smooth login experience](https://blog.loginradius.com/identity/s
 
 For example, [implementing a single sign-on](https://www.loginradius.com/single-sign-on/) through a customer identity and access management system means a customer only needs one account for all of your digital touchpoints. Whether your customers are signing in from a browser or a mobile device, they’ll benefit from not having to sign in repeatedly to different services again and again—encouraging repeat use of your apps and services.
 
-![customer identity and access management](Medium-post-02.png)
+![customer identity and access management](Medium-post-02.webp)
 
 ### **2\. Security for Data and Accounts**
 
@@ -116,7 +116,7 @@ CIAM can also be tailored to meet the regulatory requirements of different regio
 
 **_“A modern CIAM solution enables you to meet all of these privacy requirements and more while simplifying the process and reducing the costs associated.“_**
 
-![customer identity and access management](Medium-post-V01.02-03.png)
+![customer identity and access management](Medium-post-V01.02-03.webp)
 
 ### **6\. Advanced Login Options**
 
@@ -128,7 +128,7 @@ In the world of CIAM, a business can gain an advantage by implementing new and a
 
 **Smart Login** gives users a quick and secure login for the internet of things (IoT) and smart devices, which are increasingly becoming a vital part of today’s digital ecosystem. Smart login delegates the authentication process for smart TVs, gaming consoles, and other IoT devices to other devices that are easier and more secure for entering and managing passwords.
 
-![customer identity and access management](Medium-post-V01.02-04.png)
+![customer identity and access management](Medium-post-V01.02-04.webp)
 
 ### **7\. Optimized Data Collection**
 
@@ -140,7 +140,7 @@ Progressive Profiling is a great way to leverage today’s limited social login 
 
 **Social Login** can be a risk as it is a benefit in today’s digital environment when data leaks and account breaches plague major social providers. With the right precautions in place, [social login can still be a great way](https://www.loginradius.com/blog/2018/11/reconsidering-social-login-security-privacy-angle/) for your customers to access your services.
 
-![customer identity and access management](progressive-data-gather.jpg)
+![customer identity and access management](progressive-data-gather.webp)
 
 ### **8\. Consent Management**
 
@@ -182,4 +182,4 @@ Typically, there are [different plans](https://www.loginradius.com/pricing/) for
 
 You can contact the [LoginRadius sales](https://www.loginradius.com/contact-sales/) team to schedule a free personalized demo and learn how the leading cloud-based CIAM works for your business. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-and-access-management)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-and-access-management)

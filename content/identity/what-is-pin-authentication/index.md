@@ -1,7 +1,7 @@
 ---
 title: "What is PIN Authentication"
 date: "2021-02-27"
-coverImage: "pin-authenticaton.jpg"
+coverImage: "pin-authenticaton.webp"
 tags: ["pin authentication","data security","ciam solution"]
 author: "Abhishek Singh"
 description: "Logging in through PIN is in popular culture nowadays. This feature allows the consumer to set a PIN in addition to the password during registration or login. Later, during the subsequent logins, the application requests the same PIN to authenticate."
@@ -30,7 +30,7 @@ Some other aspects which prove PIN authentication a robust and a secured model:
 
 3. It can also be used as a Re-Authentication model.
 
-![What is PIN Authentication](pin-authentication.jpg)
+![What is PIN Authentication](pin-authentication.webp)
 
 ## What is 3D Secure Authentication PIN 
 
@@ -89,7 +89,7 @@ To further enhance the security of PIN authentication, businesses can implement 
 
 By implementing these security measures, businesses can strengthen the integrity of PIN authentication and mitigate the risk of unauthorized access and data breaches.
 
-[![pin-login](pin-login.png)](https://www.loginradius.com/resource/loginradius-and-pin-auth)
+[![pin-login](pin-login.webp)](https://www.loginradius.com/resource/loginradius-and-pin-auth)
 
 ## **How to Implement PIN Authentication?**
 
@@ -123,4 +123,4 @@ Authentication methods include single-factor (e.g., passwords), two-factor (e.g.
 
 PIN verification data refers to information associated with a user's PIN, including its validity period, device-specificity, and dynamic nature, enhancing security and access control measures.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-pin-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-pin-authentication)

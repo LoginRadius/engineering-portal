@@ -1,7 +1,7 @@
 ---
 title: "Digital Identity: The Future of Successful Retail Operations"
 date: "2023-04-19"
-coverImage: "dig-identity-retail.jpg"
+coverImage: "dig-identity-retail.webp"
 tags: ["digital identity management","ecommerce","cx"]
 author: "Vishal Sharma"
 description: "With the rise of e-commerce, mobile shopping, and social media, retailers can use digital identity to personalize the customer experience, optimize marketing efforts, and drive sales. Let’s uncover the aspects of digital identity and how it thrives overall retail success."
@@ -45,7 +45,7 @@ Another key benefit of digital identity is the ability to create a seamless, omn
 
 By leveraging digital identity, retailers can create a unified view of each customer that spans all channels, allowing them to deliver a seamless experience whether browsing on a mobile device or shopping in-store.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 ### Privacy and Security Concerns
 
@@ -73,4 +73,4 @@ However, retailers must also be mindful of the privacy and security implications
 
 As the retail industry continues evolving and increasingly digitizing, digital identity will become an essential tool for retailers looking to stay competitive.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-digital-identity-unlock-success-in-retail)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-digital-identity-unlock-success-in-retail)

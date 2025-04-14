@@ -1,7 +1,7 @@
 ﻿---
 title: "Why Should Social Login Be a Part of Your E-Commerce Marketing?"
 date: "2023-02-28"
-coverImage: "ecommerce-mrktng.jpg"
+coverImage: "ecommerce-mrktng.webp"
 tags: ["ecommerce", "social login","cx"]
 author: "Vishal Sharma"
 description: "Social login is a seamless authentication process that allows users to sign in to an e-commerce site using their existing social media credentials, such as Facebook, Google, Twitter, and LinkedIn. By offering social login options, e-commerce sites can offer customers a more personalized, streamlined, and engaging shopping experience."
@@ -61,4 +61,4 @@ By incorporating social login into e-commerce sites, businesses can improve the 
 
 With these benefits in mind, it's easy to see why social login has become a must-have for businesses in the digital age.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=boosting-ecommerce-marketing-social-login)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=boosting-ecommerce-marketing-social-login)

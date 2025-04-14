@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Put Yourself In Control of Your Data by Leveraging LoginRadius' SSO"
 date: "2021-03-18"
-coverImage: "sso-loginradius.jpg"
+coverImage: "sso-loginradius.webp"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
@@ -38,7 +38,7 @@ With the advent of remote, mobile, and fluid workforces, several of whom may cho
 
 The costs of **[identity and access management](https://www.loginradius.com/blog/identity/2021/01/what-is-iam/)** often entail several components, including the technology platform, IT overheads, and any required physical infrastructure. The initial costs of establishing this system can be relatively high. It is easy to go overboard with it or make expensive choices that are not suitable for the company.
 
-[![SSO-loginradius](LoginRadius-Single-Sign-on.png)](https://www.loginradius.com/single-sign-on/)
+[![SSO-loginradius](LoginRadius-Single-Sign-on.webp)](https://www.loginradius.com/single-sign-on/)
 
 Smart investment is essential here, and the right tools can have a massive impact on the ROI in terms of minimizing risk, securing identities, and better compliance.
 
@@ -106,4 +106,4 @@ We have explained the importance of having an SSO strategy that fits the organiz
 
 If you would like to speak to an expert about developing an SSO strategy for your organization, please click to your Book A Demo Link. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=put-yourself-in-control-of-your-data-by-leveraging-loginradius-sso)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=put-yourself-in-control-of-your-data-by-leveraging-loginradius-sso)

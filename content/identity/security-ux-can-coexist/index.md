@@ -1,7 +1,7 @@
 ---
 title: "Can Security and User Experience Co-Exist in the Authenticating and Authorizing Space?"
 date: "2023-01-12"
-coverImage: "ux-security.jpg"
+coverImage: "ux-security.webp"
 tags: ["security", "user experience", "customer identity"]
 author: "Rakesh Soni"
 description: "Businesses have leveraged a robust customer identity and access management (CIAM) solution for years to secure customer identities and eventually deliver a seamless user experience across multiple touchpoints. Let’s figure out how a CIAM does wonders for a business while creating a perfect user experience and security harmony."
@@ -75,4 +75,4 @@ With a new-age CIAM solution like LoginRadius CIAM, balancing security with user
 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=security-ux-can-coexist)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=security-ux-can-coexist)

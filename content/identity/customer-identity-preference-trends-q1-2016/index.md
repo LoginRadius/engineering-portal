@@ -1,7 +1,7 @@
 ---
 title: "Customer Identity Preference Trends Q1 2016"
 date: "2016-04-15"
-coverImage: "customer-identity-preference-trends-q1-2016.png"
+coverImage: "customer-identity-preference-trends-q1-2016.webp"
 tags: ["customer identity management","ciam platform","cx"]
 author: "Rakesh Soni"
 description: "From the beginning to the end of the customer-business relationship, customer engagement is the central aspect of individual user interactions."
@@ -11,7 +11,7 @@ metadescription: "LoginRadius Customer Identity Preference Trends Report for Q1 
 
 In an expansive [article for Harvard Business Review](https://hbr.org/2013/09/the-truth-about-customer-experience), McKinsey and Company analysts have described Customer Experience as “cumulative experiences across multiple touch points and in multiple channels over time.” But if somebody asks for a mathematical definition of something as psychological as Customer Experience, one could blurt out: “Customer Experience is the integral from the beginning to the end of the customer-business relationship of the integral of individual user experiences across all touch points.” Why someone would ask for a mathematical definition is a discussion for another day.
 
-![](Q1_2016_featured.png)You can choose the definition you like (we bet you will go with the McKinsey guys) but the point here is about what customers want and what satisfies them. Often the seemingly simpler things matter the most, particularly when these things figure quite a number of times. For instance, let’s say you provide the means for your customers to sign in using their social identities. Owing to obvious constraints, you can only provide for direct links to login with two or three social identities. If your customers choice of identity doesn’t figure in your top two or three list, they are forced to go to another page to look for their choice of identity. It’s a simple thing made difficult because of the lack of knowledge of what your customers preferences are.
+![](Q1_2016_featured.webp)You can choose the definition you like (we bet you will go with the McKinsey guys) but the point here is about what customers want and what satisfies them. Often the seemingly simpler things matter the most, particularly when these things figure quite a number of times. For instance, let’s say you provide the means for your customers to sign in using their social identities. Owing to obvious constraints, you can only provide for direct links to login with two or three social identities. If your customers choice of identity doesn’t figure in your top two or three list, they are forced to go to another page to look for their choice of identity. It’s a simple thing made difficult because of the lack of knowledge of what your customers preferences are.
 
 To know what your customers like and prefer only makes things simpler and clearer. Customer preferences don’t just alter minor things but can also influence long term strategy. Analysis of customer preferences is critical to businesses.
 
@@ -21,15 +21,15 @@ The LoginRadius Analytics team analyzed customer behavior data from over 160,000
 
 Once again, Facebook held its forte and emerged as the most preferred social identity for logging into websites. Google+ followed in second place but with a much smaller share in the social identity space. About 94% customers use their Facebook or Google+ identities to sign into websites which is mammoth number telling you these two networks should be the top on your list.
 
-![2016-Q1-Social-Login_Preference-Users](2016-Q1-Social-Login_Preference-Users.png)
+![2016-Q1-Social-Login_Preference-Users](2016-Q1-Social-Login_Preference-Users.webp)
 
 But if your target audience is above 35 years, you will have to think again because only a third of all the customers who used their [social identity to sign into websites](https://www.loginradius.com/social-login/) were aged above 35 years. If that is not all, Social Login from desktop computers (both Windows and Mac) ran up to a mammoth 80% of all which should tell you that if you are targeting mobile, it should be the mobile app.
 
-![2016_Q1_Social-Login_Preference-Age](2016_Q1_Social-Login_Preference-Age.png)
+![2016_Q1_Social-Login_Preference-Age](2016_Q1_Social-Login_Preference-Age.webp)
 
 Facebook did lose some ground to Google+ in Q1 2016 but not by an amount that would worry the social giant. Nevertheless, Google+ will be heartened by its performance. Sharing, however, is a different story and not one that the search giant would be really happy about. More than half of the social content on the Web is hosted on Facebook while, like in Q4 2015, Twitter comes in second with 16%. Email is not be discounted again as it has notched up the third place and is expected to go strong in the coming quarters too.
 
-![2016_Q1_Social-Sharing-Global-Popularity](2016_Q1_Social-Sharing-Global-Popularity.png)
+![2016_Q1_Social-Sharing-Global-Popularity](2016_Q1_Social-Sharing-Global-Popularity.webp)
 
 Some more critical insights provided by the analysis are:
 
@@ -39,4 +39,4 @@ Some more critical insights provided by the analysis are:
 
 - About 92% websites still prefer providing Facebook as one of the options for Social Login leading the favourites list since 2013.
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-preference-trends-q1-2016)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-preference-trends-q1-2016)

@@ -1,7 +1,7 @@
 ---
 title: "What are the Authentication Challenges in the Retail Industry?"
 date: "2021-10-26"
-coverImage: "retail-auth.jpg"
+coverImage: "retail-auth.webp"
 tags: ["data security","retail authentication","cx"]
 author: "Rashmi Mathur"
 description: "Losing business means paying for remediation, business disruption, legal expenses, identity repair, regulatory penalties, and other clean-up costs. Although retail has some distinct differences from other industries regarding identity and authentication, it also faces many challenges."
@@ -39,7 +39,7 @@ Along with providing authentication solutions, it is important to protect the di
 
 Cloud applications have made applications and data accessible from anywhere in the world. However, the local laws require several retailers to be tight over how and from where the employees can access the data. Additionally, various governments might have different regulations. Hence, complying with multiple rules at the same time might prove to be a challenge. 
 
-[![DS-retail-consumer-goods](DS-retail-consumer-goods.png)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
+[![DS-retail-consumer-goods](DS-retail-consumer-goods.webp)](https://www.loginradius.com/resource/how-retail-and-consumer-goods-companies-use-loginradius-identity-solution/)
 
 
 ## Solving These Challenges
@@ -73,4 +73,4 @@ Typical business-to-employee scenarios, like e-commerce portals, require a much 
 
 The ability to authenticate customers in real time using multiple modalities is challenging. Understanding how solutions vary by use case, threat model and authentication technology used is crucial to choosing the right one for your unique requirements. [Contact us](https://www.loginradius.com/contact-sales) for better understanding. 
 
-[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-challenges-retail-industry)
+[![book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-challenges-retail-industry)

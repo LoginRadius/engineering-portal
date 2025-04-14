@@ -1,7 +1,7 @@
 ﻿---
 title: "Inbound Vs Outbound: Which Marketing Strategy is Best for You"
 date: "2021-03-31"
-coverImage: "marketing-plan.jpg"
+coverImage: "marketing-plan.webp"
 category: ["loginradius"]
 featured: false 
 author: "Shachindra Saxena"
@@ -37,7 +37,7 @@ Previously known just as simply ‘marketing,’ outbound marketing is an interr
 
 While once perhaps the only way to get people’s attention, outdoor marketing has steadily fallen out of favor with audiences. These days, audiences ignore these advances and do not feel obliged in the slightest.
 
-[![the-Future-of-Digital-Identity](the-Future-of-Digital-Identity.png)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
+[![the-Future-of-Digital-Identity](the-Future-of-Digital-Identity.webp)](https://www.loginradius.com/resource/digital-identity-future-whitepaper)
 
 ## Inbound Marketing Methodology
 
@@ -96,4 +96,4 @@ Marketing pixels allow companies to gather information about visitors and send t
   
 
 Companies would benefit from trying out new strategies while continuing to deploy those that work for them. Combining with regular data analysis to assess profitability will help companies stay on top of the game.
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=which-marketing-strategy-is-best-for-you)
+[![book-a-demo-Consultation](loginradius-book-a-demo.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=which-marketing-strategy-is-best-for-you)

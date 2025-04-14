@@ -1,7 +1,7 @@
 ---
 title: "How to Build Your Github Profile"
 date: "2022-02-28"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Abhimanyu Singh Rathore"
 tags: ["Github"]
 description: "Your GitHub profile is vital in showcasing your programming skills. Learn how you can leverage GitHub profile to showcase your skills and expertise."
@@ -45,11 +45,11 @@ There are some apps from contributors that extract the information based on your
 - [readme typing svg](https://readme-typing-svg.herokuapp.com)
   e.g.: `https://readme-typing-svg.herokuapp.com?size=50&center=true&vCenter=true&width=800&height=100&lines=Namaste%20%F0%9F%99%8F%3BPranam%20%F0%9F%99%8F%3BKhamma%20Ghani%20%F0%9F%99%8F%3BVanakkam%20%F0%9F%99%8F%3BSat%20Sri%20Akaal%20%F0%9F%99%8F%3BAssalam%20Alaikum%20%F0%9F%99%8F%3B`
 - [whatilearened](https://views.whatilearened.today)
-  e.g.: `https://views.whatilearened.today/views/github/abhir9/abhir9.svg?cache=remove`
+  e.g.: `https://views.whatilearened.today/views/github/abhir9/abhir9.webp?cache=remove`
 - [github readme streak stats](https://github-readme-streak-stats.herokuapp.com)
   e.g.: `https://github-readme-streak-stats.herokuapp.com/?user=abhir9&theme=react`
 - SVG Icons
-  e.g.: `https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg`
+  e.g.: `https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.webp`
 
 Many other online apps can be used per your need — e.g., how you want to decorate your profile page.
 

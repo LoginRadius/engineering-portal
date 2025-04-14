@@ -1,7 +1,7 @@
 ﻿---
 title: "Are You Thinking of Token Management for Your API Product? Think about JWT!"
 date: "2022-01-04"
-coverImage: "token-managmt.jpg"
+coverImage: "token-managmt.webp"
 tags: ["security"]
 author: "Rakesh Soni"
 description: "A token plays a crucial role in enhancing the overall security mechanism of an organization. This post will help you better understand what a token is, what is a JWT, and its pros that will help you decide why you need to invoke the potential of JWT for your API product."
@@ -34,7 +34,7 @@ Users can easily access the website or network for which the token is issued and
 
 Tokens are widely used for regular online transactions for enhancing overall security and accuracy.
 
-[![DS-pass-magic-link](DS-pass-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-pass-magic-link](DS-pass-magic-link.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 
 ## What is JWT? What is OAuth 2.0?
@@ -83,4 +83,4 @@ The precise use of secure token management through a robust [consumer identity a
 
 JWT can be the right option in most scenarios if implemented correctly and securely by following the proper security measures. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=token-management-api-product-jwt)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=token-management-api-product-jwt)

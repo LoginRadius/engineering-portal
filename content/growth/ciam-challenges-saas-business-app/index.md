@@ -1,7 +1,7 @@
 ﻿---
 title: "8 Common Challenges With Your SaaS Business that CIAM Can Solve"
 date: "2021-09-10"
-coverImage: "saas-buisness.jpg"
+coverImage: "saas-buisness.webp"
 tags: ["saas","customer identity management","ciam solution"]
 author: "Rashmi Mathur"
 description: "To be successful, your SaaS needs to use the right application performance management software. CIAM is the first step you need to take to avoid common challenges like lack of compliance, and incompetent onboarding."
@@ -13,7 +13,7 @@ Digital communication between clients and a company is now a regular practice ac
 
 The data gathered in databases can be vulnerable to cyber attacks that result in stolen customer and business identities. Hence, businesses look to increase their cybersecurity with the help of SaaS-based CIAM business solutions.
 
-[![DS-customer-identity](DS-customer-identity.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![DS-customer-identity](DS-customer-identity.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 ## Top Challenges With SaaS Apps and How CIAM Overcomes Them
 
@@ -61,4 +61,4 @@ One of the surpassing advantages of cloud applications is that admittance is obt
 
 To summarize, we can say that a cloud-based CIAM service should present accurate visibility of user access. Also, providing your customers with the required protection against identity theft is crucial in preserving your company prominence. This is why it is vital to overcome these challenges to better leverage the benefits of CIAM to protect your business and clients.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-challenges-saas-business-app)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-challenges-saas-business-app)

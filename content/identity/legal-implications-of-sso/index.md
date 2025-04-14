@@ -1,7 +1,7 @@
 ---
 title: "The Legal Implications of SSO: Privacy, Security, and Compliance"
 date: "2023-06-06"
-coverImage: "sso-legal.jpg"
+coverImage: "sso-legal.webp"
 tags: ["single sign on", "compliance", "data privacy","identity management"]
 author: "Rakesh Soni"
 description: "Learn about SSO's privacy concerns, the importance of robust data protection measures, and the need to align SSO implementations with various regulations. Discover how user consent and control play a pivotal role and the significance of implementing strong security measures."
@@ -47,7 +47,7 @@ Users should be able to manage their preferences regarding data usage and make i
 
 Transparent consent mechanisms, user-friendly privacy settings, and easy-to-understand privacy policies are vital in ensuring user trust and compliance with privacy regulations.
 
-[![DS-consent-mngmnt](DS-consent-mngmnt.png)](https://www.loginradius.com/resource/loginradius-consent-management)
+[![DS-consent-mngmnt](DS-consent-mngmnt.webp)](https://www.loginradius.com/resource/loginradius-consent-management)
 
 ### 5. Security Measures
 
@@ -79,4 +79,4 @@ By prioritizing user privacy, implementing robust security measures, ensuring co
 
 And for this, nothing can replace the true potential of a reliable CIAM like LoginRadius that helps businesses seamlessly integrate SSO without any legal setbacks. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=legal-implications-of-sso)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=legal-implications-of-sso)

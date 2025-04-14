@@ -1,7 +1,7 @@
 ---
 title: "How to Implement Facebook Social Login"
 date: "2015-02-24"
-coverImage: "fb-feat-img.png"
+coverImage: "fb-feat-img.webp"
 author: "Zoie Carnegie"
 tags: ["Facebook", "SocialLogin"]
 ---
@@ -89,7 +89,7 @@ Now if you save this page as index.html and open it in a browser you should see 
 
 **Facebook Page example**
 
-![zoie-facebookblog](Zoie-FacebookBlog.png)
+![zoie-facebookblog](Zoie-FacebookBlog.webp)
 
 Log In and look at the console output. You’ll now see some basic info including id, email, first\_name, gender, last\_name, link, locale, name, timezone, updated\_time, verified
 

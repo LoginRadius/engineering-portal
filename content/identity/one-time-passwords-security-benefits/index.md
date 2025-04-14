@@ -1,7 +1,7 @@
 ---
 title: "Empowering Your Security: Exploring the Advantages of Time-Based One-Time Passwords (TOTP)"
 date: "2023-10-17"
-coverImage: "one-time-passwords.jpg"
+coverImage: "one-time-passwords.webp"
 tags: ["data security","OTP","passwordless login","cx"]
 author: "Rakesh Soni"
 description: "From thwarting replay attacks to seamless integration across devices, TOTP ensures robust protection while providing a user-friendly experience. Embrace TOTP as more than a choice—it's a strategic investment in your digital security, promising a safer online journey for individuals and organizations alike."
@@ -40,7 +40,7 @@ Despite its advanced security features, TOTP offers a user-friendly experience. 
 
 Every time a user logs in using TOTP, a new, unique password is generated. This uniqueness ensures that even if a password is somehow compromised, it cannot be reused for subsequent logins. The constantly changing nature of TOTP adds an extra layer of complexity, making it exponentially more challenging for attackers to crack the authentication process.
 
-[![DS-passwordless-magic-link](DS-passwordless-magic-link.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-magic-link](DS-passwordless-magic-link.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ### Seamless Integration with Multiple Devices
 
@@ -66,4 +66,4 @@ Time-Based One-Time Passwords (TOTP) stand at the forefront of this technologica
 
 Incorporating TOTP into your authentication processes isn't just a choice; it's a strategic investment in the future of digital security. Stay ahead of the curve, empower your security, and embrace the transformative advantages of Time-Based One-Time Passwords (TOTP). Your digital fortress awaits.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=one-time-passwords-security-benefits)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=one-time-passwords-security-benefits)

@@ -1,7 +1,7 @@
 ---
 title: "IAM vs. Customer IAM: Understanding the Role of CIAM in Accelerating Business Growth"
 date: "2022-11-03"
-coverImage: "iam-ciam.jpg"
+coverImage: "iam-ciam.webp"
 tags: ["iam", "ciam", "data security","compliance"]
 author: "Rakesh Soni" 
 description: "A CIAM can be scaled in real-time depending on the load and number of users accessing the services from a single platform. On the other hand, the traditional IAM can’t deliver results for large-scale deployments. Let’s understand why organizations should switch to customer IAM and how it’s helping businesses stay ahead of the curve."
@@ -58,7 +58,7 @@ These aren’t the only potential costs you can save—legal fees can run high w
 
 Presenting customers with easily self-managed privacy choices and a solid privacy policy also shows them that their data is safe and shows your company is competent and professional in handling these issues. This reputation will encourage customer loyalty in the long run.
 
-[![DS-Priv-Pol-Mgnmnt](DS-Priv-Pol-Mgnmnt.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
+[![DS-Priv-Pol-Mgnmnt](DS-Priv-Pol-Mgnmnt.webp)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 ### #3. Scalability and uptime
 
@@ -83,4 +83,4 @@ The conventional IAM isn’t the right choice for handling many customers, espec
 
 The aspects mentioned above of leveraging a CIAM shouldn’t be ignored by businesses thinking to accelerate overall growth. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iam-or-ciam-right-call-business-growth)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iam-or-ciam-right-call-business-growth)

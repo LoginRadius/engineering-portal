@@ -1,7 +1,7 @@
 ---
 title: "Why Organizations Must Use API-Driven CIAM for Digital Agility"
 date: "2021-02-24"
-coverImage: "digital-agility.jpg"
+coverImage: "digital-agility.webp"
 tags: ["ciam solution","digital transformation","cx"]
 author: "Rakesh Soni"
 description: "Digital agility is the ease with which any organization can adapt to changing business needs – by enabling or changing their business processes. For a successful digital transformation, organizations need to invest in resilient business operations, consumer experience initiatives, and technology."
@@ -46,7 +46,7 @@ Business leaders must plan on having a flexible IAM solution in their working en
 For effective [digital transformation](https://www.loginradius.com/blog/identity/2021/01/what-is-digital-transformation/), technology-enabled companies must move from a fixed and rigid IT infrastructure – to a more flexible and component-based API architecture, which can easily be reconstructed or reused. Next, we shall see how an API-based [consumer Identity and Access Management (or CIAM)](https://www.loginradius.com/blog/identity/2019/06/customer-identity-and-access-management/) can be the foundation of digital agility and transformation.
 
 
-[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ## Importance and Benefits of API-driven CIAM
 
@@ -76,4 +76,4 @@ Organizations need to maximize their digital footprint – to stay relevant in t
 Built using extensive API functionalities and open-source SDKs, LoginRadius CIAM provides the best of customization and security – that can work for your business needs.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-agility)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-agility)

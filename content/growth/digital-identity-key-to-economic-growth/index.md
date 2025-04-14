@@ -1,7 +1,7 @@
 ﻿---
 title: "How Digital Identification Could Be the Key to Inclusive and Economic Growth?"
 date: "2022-11-09"
-coverImage: "digital-id.jpg"
+coverImage: "digital-id.webp"
 tags: ["digital identity","mfa","cx","data security"]
 author: "Alex Williams"
 description: "A digital ID is a digitized representation of legal identity, and unlike traditional paper-based IDs, digital identification allows for remote verification via digital channels.  In this article, we’ll look at  how digital identification can help with growth on an economic level."
@@ -59,7 +59,7 @@ At face value, these advantages appear to benefit institutions primarily. Howeve
 
 The fact that individuals are becoming savvier to the [benefits of digital ID](https://blog.loginradius.com/identity/pros-cons-reusable-digital-identity/) is seen with most consumers looking for banking accounts that <a rel="nofollow" href="https://www.creditdonkey.com/best-business-checking-account.html"> come with essential security features </a> such as Multi-Factor Authentication (MFA), among other digital identification features.
 
-[![EB-GD-to-MFA](EB-GD-to-MFA.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![EB-GD-to-MFA](EB-GD-to-MFA.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### 4. Financial inclusion
 
@@ -84,4 +84,4 @@ Besides enabling social and civic empowerment, digital identification is critica
 
 Through sound design principles and policy enforcement, digital protects individual rights from abuse and creates economic benefits for states, institutions, and people.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-key-to-economic-growth)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-key-to-economic-growth)

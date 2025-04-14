@@ -1,7 +1,7 @@
 ---
 title: "What is Login Authentication?"
 date: "2022-04-07"
-coverImage: "login-authentication.jpg"
+coverImage: "login-authentication.webp"
 tags: ["login authentication","identity management","cx"]
 author: "Vishal Sharma" 
 description: "Login authentication is the most common scenario where we’re asked to authenticate ourselves. Let’s look at some aspects and challenges of implementing a seamless authentication mechanism and learn how businesses can deliver a seamless user experience through a CIAM."
@@ -157,7 +157,7 @@ Let your users register and authenticate in seconds with LoginRadius’ social l
 
 With LoginRadius’ Passwordless Login, you can create a completely frictionless registration and authentication process for your customers, freeing them from the hassle of remembering yet another password.
 
-[![DS-passwordless-magic](DS-passwordless-magic.png)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
+[![DS-passwordless-magic](DS-passwordless-magic.webp)](https://www.loginradius.com/resource/passwordless-login-magic-link-otp-datasheet)
 
 ### Phone authentication and registration
 
@@ -217,4 +217,4 @@ Yes, a password is a common form of authentication credential.
 
 The best authentication method depends on the security needs of the system. Multi-factor authentication (MFA) is often considered one of the most secure methods.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-login-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-login-authentication)

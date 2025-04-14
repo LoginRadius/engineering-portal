@@ -1,7 +1,7 @@
 ---
 title: "Cyber Security Round-Up: What Happened in June 2021"
 date: "2021-07-01"
-coverImage: "cybersec-roundup-june-2021-cover.jpg"
+coverImage: "cybersec-roundup-june-2021-cover.webp"
 tags: ["other"]
 featured: false 
 author: "Navanita Devi"
@@ -52,7 +52,7 @@ In addition, the hackers claimed to have Microsoft Xbox and Sony SDKs and API ke
 
 
 
-![Dark-Web-Hackers-e1623404162841](Dark-Web-Hackers-e1623404162841.jpg)
+![Dark-Web-Hackers-e1623404162841](Dark-Web-Hackers-e1623404162841.webp)
 
 
 Screenshot: [Bleepingcomputer](https://www.bleepingcomputer.com/news/security/hackers-breach-gaming-giant-electronic-arts-steal-game-source-code/)
@@ -93,7 +93,7 @@ Seeing how cyber attacks can cause damage should be reason enough to take preven
 
 
 
-![mckinsey](mckinsey.JPG)
+![mckinsey](mckinsey.webp)
 
 
 **Image Source**: [McKinsey ](https://www.mckinsey.com/business-functions/risk/our-insights/covid-19-crisis-shifts-cybersecurity-priorities-and-budgets)
@@ -115,4 +115,4 @@ What other steps can you take to reinforce your organization's cybersecurity fra
 Authenticating consumers is difficult and time-consuming. When used in conjunction, [a CIAM solution like LoginRadius](https://www.loginradius.com/contact-sales/) can significantly improve cybersecurity. It uses the approaches mentioned above and all recommended practices to filter permitted access and avoid typical attack situations.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersec-roundup-june-2021)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersec-roundup-june-2021)

@@ -1,7 +1,7 @@
 ---
 title: "Announcement: LoginRadius Embraces Privacy Policy Management Amid Heightened Regulatory Updates"
 date: "2020-12-16"
-coverImage: "privacy-policy-management.png"
+coverImage: "privacy-policy-management.webp"
 tags: ["compliance","data privacy","data security","cx"]
 author: "Kundan Singh"
 description: "Our newly introduced Privacy Policy Management acts as the central place where companies retain versions of their privacy policy, inform customers when it changes, or get new versions adopted by them."
@@ -39,7 +39,7 @@ As the global compliance and data protection landscape continue to evolve, Login
 *   **Timestamps **- Businesses can set and manage the date and time from when a privacy policy version will be effective. They can set the schedule in advance, and the consumers are notified about the new version with a message of their choice to ensure personalization.
 *   **Flow Type **- Businesses can choose whether notifying the consumers about the privacy policy change is enough or [consumers should provide acceptance](https://www.loginradius.com/blog/identity/2020/06/consumer-data-privacy-security/) on the same. LoginRadius handles the notification or the acceptance process on their behalf. 
 
-[![privacy-policy-management-datasheet](privacy-policy-management-datasheet.png)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
+[![privacy-policy-management-datasheet](privacy-policy-management-datasheet.webp)](https://www.loginradius.com/resource/privacy-policy-management-datasheet)
 
 
 ## Implementation and Deployment 
@@ -56,4 +56,4 @@ LoginRadius supports the following implementation and deployment methods for Pri
 
 Businesses cannot escape from maintaining privacy policy versions and workflows for their consumers. Looking forward, LoginRadius' Privacy Policy Management will effortlessly ensure a holistic insight into privacy policies where consumers are notified about new updates, everytime. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-policy-management)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-policy-management)

@@ -1,7 +1,7 @@
 ---
 title: "Transforming Customer Experience: Enhancing CX through CIAM and Insights"
 date: "2024-04-25"
-coverImage: "customer-experience.jpg"
+coverImage: "customer-experience.webp"
 tags: ["ciam solutions","data security","cx"]
 author: "Vishal Sharma"
 description: "Learn how to elevate your CX strategies with CIAM and data-driven insights. From seamless digital experiences to proactive customer engagement, discover the key to driving growth and loyalty in a competitive market."
@@ -40,7 +40,7 @@ These insights empower CMOs to personalize marketing campaigns, tailor product o
 
 One of the key advantages of CIAM is its integration capabilities with other business systems such as CRM platforms, marketing automation tools, and analytics solutions. By integrating CIAM with these systems, CMOs can gain a comprehensive view of the customer journey, from initial interaction to post-purchase engagement. 
 
-[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 This holistic understanding enables organizations to identify areas for improvement, optimize touchpoints, and deliver consistent and personalized experiences across all channels.
 
@@ -66,4 +66,4 @@ By leveraging CIAM to create seamless digital experiences and harnessing data in
 
 As CX continues to evolve, CMOs must embrace innovative solutions like LoginRadius CIAM to stay ahead of the curve and deliver exceptional experiences that drive growth and loyalty.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhancing-ciam-customer-experience)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhancing-ciam-customer-experience)

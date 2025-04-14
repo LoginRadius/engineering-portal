@@ -3,7 +3,7 @@ title: How to Participate in Hacktoberfest as a Maintainer
 date: 2021-09-28 
 author: Narendra Pareek
 tags: ["Hacktoberfest", "Hacktoberfest 2021", "Open Source"]
-coverImage: "cover.png"
+coverImage: "cover.webp"
 description: This ultimate guide is the resource you need to open source your project and participate in Hacktoberfest to get valuable contributions from the community.
 ---
 

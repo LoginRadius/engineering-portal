@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons Why Publishers Should (Seriously) Consider Using SSO"
 date: "2022-09-20"
-coverImage: "sso-publish.jpg"
+coverImage: "sso-publish.webp"
 tags: ["sso","data privacy","cx"]
 author: "Navanita Devi"
 description: "Single sign-on allows publishers to seamlessly integrate their existing subscription services into one platform so they can collect first party data without having to worry about anything else."
@@ -46,7 +46,7 @@ With single sign-on, there’s no need for third parties by design; everything h
 
 The ability to track user behavior across multiple platforms allows publishers to offer customized content and advertising that is relevant to each individual reader's interests. This helps publishers retain loyal readers who value having access to personalized content and ads.
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ### 5. Combine seamless digitization with data privacy for reader trust
 
@@ -58,4 +58,4 @@ Publishers can benefit from SSO technology by ensuring data protection and provi
 
 So, there you have it. SSO is a great way to improve the user experience and boost conversions on your site. If you're looking to implement a solution that will benefit your users, improve your bottom line, and make life easier for your team—all while being easy to manage—SSO is definitely worth considering.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=publishers-start-using-single-sign-on)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=publishers-start-using-single-sign-on)

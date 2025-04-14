@@ -1,7 +1,7 @@
 ﻿---
 title: "Driving Success Through Customer Onboarding: The Role of Marketing Strategies"
 date: "2023-05-24"
-coverImage: "customer-onboarding.jpg"
+coverImage: "customer-onboarding.webp"
 tags: ["customer onboarding","customer experience"]
 author: "Yash Rathi"
 description: "Explore the role of marketing in enhancing customer onboarding. Learn practical strategies like personalized communication, clear materials, streamlined experience, and continuous support for successful onboarding."
@@ -41,7 +41,7 @@ Marketing strategies contribute significantly to creating a streamlined user exp
 
 This can involve optimizing the user interface, refining the registration process, and incorporating intuitive navigation elements. A seamless user experience enhances customer satisfaction and reduces the likelihood of customers abandoning the onboarding process prematurely.
 
-[![DS-Prod-Reg-Service](DS-Prod-Reg-Service.png)](https://www.loginradius.com/resource/loginradius-ciam-registration-service/)
+[![DS-Prod-Reg-Service](DS-Prod-Reg-Service.webp)](https://www.loginradius.com/resource/loginradius-ciam-registration-service/)
 
 ### 4. Continuous Support and Education
 
@@ -75,4 +75,4 @@ By focusing on personalized communication, explicit onboarding materials, stream
 
 Investing in these strategies benefits the individual customer and contributes to business growth, increased customer retention, and a strong brand reputation. Businesses can pave the way for success in today's competitive landscape by optimizing the customer onboarding process.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-success-through-customer-onboarding)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-success-through-customer-onboarding)

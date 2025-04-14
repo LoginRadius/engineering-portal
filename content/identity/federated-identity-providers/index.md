@@ -1,7 +1,7 @@
 ---
 title: "What are Federated Identity Providers?"
 date: "2021-03-26"
-coverImage: "federated-identity-providers.png"
+coverImage: "federated-identity-providers.webp"
 tags: ["federated identity management","saml","cx"]
 author: "Rajeev Sharma"
 description: "Federated identity management is a configuration that can be made between two or more trusted domains to allow consumers of those domains to access applications and services using the same digital identity. Such identity is known as federated identity, and the use of such a solution pattern is known as identity federation."
@@ -97,4 +97,4 @@ Federated Identity and Access Management (IAM) is a system that enables users to
 
 In cyber security, "federated" refers to a system where different organizations or domains trust each other to authenticate and authorize users, allowing seamless access to resources across these domains.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-providers)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-providers)

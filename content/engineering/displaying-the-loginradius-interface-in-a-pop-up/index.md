@@ -1,7 +1,7 @@
 ---
 title: "Displaying the LoginRadius interface in a pop-up"
 date: "2015-11-09"
-coverImage: "simplepop-150x150.png"
+coverImage: "simplepop-150x150.webp"
 author: "Karl Wittig"
 tags: ["HTML", "Login", "UI", "LoginRadius Interface"]
 ---

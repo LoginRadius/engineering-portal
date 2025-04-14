@@ -1,7 +1,7 @@
 ---
 title: "What is Progressive Profiling and How it Works?"
 date: "2021-04-08"
-coverImage: "progressive-profiling-cover.jpg"
+coverImage: "progressive-profiling-cover.webp"
 tags: ["progressive profiling","ciam platform","cx"]
 author: "Shachindra Saxena"
 description: "Progressive profiling is emerging as an effective way of cementing the trust gap between the company and its consumers. It is a systematic approach to collecting critical information through smart forms that ask questions intended to guide prospective consumers across the sales funnel. This article details how progressive profiling works and its benefits for your enterprise."
@@ -113,4 +113,4 @@ Progressive profiling allows companies to collect critical consumer information 
 As we saw, there are numerous ways of collecting data, including questionnaires, social media profiles, and tracking the consumer's digital footprints. Progressive profiling is emerging as an effective way of cementing the trust gap between the company and its consumers and [forming robust and evergreen client relationships](https://www.loginradius.com/blog/fuel/2021/02/customer-relationship-business/). 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=progressive-profiling)

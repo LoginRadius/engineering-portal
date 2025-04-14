@@ -1,7 +1,7 @@
 ---
 title: "What’s the Difference Between Attack Surface and Attack Vector?"
 date: "2022-11-11"
-coverImage: "attack-vector.jpg"
+coverImage: "attack-vector.webp"
 tags: ["surface attack", "attack vector", "login security"]
 author: "Vishal Sharma"
 description: "Vulnerability management is essential in security, but more is needed. Attack surface and attack vector are two terms that can help you understand where vulnerabilities are most likely to occur, so you can improve your security posture and reduce risk."
@@ -88,4 +88,4 @@ Choosing a robust security mechanism is essential to overall security hygiene wi
 Once a business knows potential threat vectors, it can deploy stringent authentication security mechanisms to mitigate the risks.  
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attack-surface-vs-attack-vector)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=attack-surface-vs-attack-vector)

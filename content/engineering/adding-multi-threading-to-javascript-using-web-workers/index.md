@@ -1,7 +1,7 @@
 ---
 title: "Web Workers: How to add multi-threading in JS"
 date: "2020-09-09"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Hridayesh Sharma"
 tags: ["JavaScript", "Web"]
 description: " Learn how web workers help with the success of the web app and get started by creating a simple web worker for JavaScript."

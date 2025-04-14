@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Guide to Craft Sign-up Forms That Convert Like Crazy"
 date: "2017-04-28"
-coverImage: "The-ultimate-guide-to-craft-sign-up-forms-that-covert-like-crazy.png"
+coverImage: "The-ultimate-guide-to-craft-sign-up-forms-that-covert-like-crazy.webp"
 category: ["technology"]
 featured: false 
 author: "Rakesh Soni"
@@ -32,7 +32,7 @@ _Your goal is to acquire leads!_
 
 Engaged time generally declines till the time the prospect hits below the fold of your page. Hence, make it a practice to introduce them above the fold. Other than forms, you can also introduce CTAs and other important elements on your page. Thus, you can acquire utmost exposure to your business prospects that can help you to convert maximum leads. For example, if you are selling a software, just introduce your product with an eye-catching title, some images and a call -to-action button. This layout should crack a deal for you. Modifying the Unbounce’s page layout and placing plans with a call-to-action button [increased their conversion to 41%](https://econsultancy.com/blog/63139-six-useful-case-studies-on-where-to-place-your-cta-to-maximise-conversions).
 
-![Above the fold registration form](Above-the-fold-registration-form.png?ver=1553881376)
+![Above the fold registration form](Above-the-fold-registration-form.webp?ver=1553881376)
 
 ### **Lessen your Number of Fields**
 
@@ -52,23 +52,23 @@ In the previous image, Semrush does a great job by keeping just two fields in th
 
 There is a golden rule when you want your prospects to perform an email signup- “ ask less but provide as good as you can”. It means that you need to trade your idea of an email signup with a commodity or a service. For example, if your prospect is on your website to download a file, ask them to provide their email address and a couple of data in return. Now, that’s a successful transaction!
 
-![Trade Your Email Signup while registration](Trade-Your-Email-Signup-while-registration.png?ver=1553881376)
+![Trade Your Email Signup while registration](Trade-Your-Email-Signup-while-registration.webp?ver=1553881376)
 
-[Source](https://help.aweber.com/hc/en-us/article_attachments/211926128/227394387_step01.png?ver=1553881376)
+[Source](https://help.aweber.com/hc/en-us/article_attachments/211926128/227394387_step01.webp?ver=1553881376)
 
 ### **Have an Effective CTA**
 
 I still wonder why [72% of B2B marketers](http://contentmarketinginstitute.com/2013/09/small-businesses-website-content-calls-to-action/) do not think of placing CTAs on their internal pages. Hence, while you are placing a CTA on your website, ensure to make it eye-catching. This will assist to change your bounce rates into conversion rates. Moreover, replace “Submit” buttons with some buttons that perform an action. For example, use “**Start your Free Trial**” or “**Start Bookmarking**” instead of “Submit”.
 
-![Have an Effective CTA in registration form](Have-an-Effective-CTA-in-registration-form.png?ver=1553881376)
+![Have an Effective CTA in registration form](Have-an-Effective-CTA-in-registration-form.webp?ver=1553881376)
 
-[Source](https://blog.aweber.com/wp-content/uploads/2016/08/marie-forleo-sign-up-form-cta.png?ver=1553881376)
+[Source](https://blog.aweber.com/wp-content/uploads/2016/08/marie-forleo-sign-up-form-cta.webp?ver=1553881376)
 
 ### **Show Your User Base**
 
 Giving a proof for your social acceptance is a good technique to attract more customers. Look at the different companies who have endorsed themselves with this technique. You can also add some client testimonials to support your brand.
 
-![Show Your User Base on registration page](Testimonial-on-registration-page.png?ver=1553881376)
+![Show Your User Base on registration page](Testimonial-on-registration-page.webp?ver=1553881376)
 
 [Source](https://signup.ballparkapp.com/)
 
@@ -94,7 +94,7 @@ _Perform A/B testing._
 
 Intuition, experience and expertise are certainly required for page positioning, nothing can replace testing. So, decide the appearance of your form with testing.
 
-![Test Your Forms with AB testing](Test-Your-Forms-with-AB-testing.png?ver=1553881376)
+![Test Your Forms with AB testing](Test-Your-Forms-with-AB-testing.webp?ver=1553881376)
 
 
 ### **Try Out Templates like Mad Libs**
@@ -111,9 +111,9 @@ Don’t be so choosy about the characteristics of your fields. For example, if t
 
 Many websites ask for passwords over again just for the sake that other websites have done it earlier. The sole purpose of asking passwords again is to prevent typo errors. Thus, a more user friendly method to do it is giving an option to view the password.
 
-![Add User Friendly Features to Your Forms](Add-User-Friendly-Features-to-Your-Forms.png?ver=1553881376)
+![Add User Friendly Features to Your Forms](Add-User-Friendly-Features-to-Your-Forms.webp?ver=1553881376)
 
-[Source](https://i.stack.imgur.com/pO6KD.png?ver=1553881376)
+[Source](https://i.stack.imgur.com/pO6KD.webp?ver=1553881376)
 
 ### **Use Auto-fill Fields instead of Drop Down Lists**
 
@@ -121,15 +121,15 @@ Drop down lists are not a good option when the list of choices are too long, eg:
 
 _Don’t do this_
 
-![Use Auto-fill Fields instead of Drop Down Lists](Use-Auto-fill-Fields-instead-of-Drop-Down-Lists.jpg?ver=1553881376)
+![Use Auto-fill Fields instead of Drop Down Lists](Use-Auto-fill-Fields-instead-of-Drop-Down-Lists.webp?ver=1553881376)
 
-[Source](https://i1.wp.com/conversionxl.com/wp-content/uploads/2011/12/dropdown.jpg?ver=1553881376)
+[Source](https://i1.wp.com/conversionxl.com/wp-content/uploads/2011/12/dropdown.webp?ver=1553881376)
 
 Instead,
 
-![Use Auto-fill Fields instead of Drop Down Lists](Use-Auto-fill-Fields-instead-of-Drop-Down-Lists-1.png?ver=1553881376)
+![Use Auto-fill Fields instead of Drop Down Lists](Use-Auto-fill-Fields-instead-of-Drop-Down-Lists-1.webp?ver=1553881376)
 
-[Source](https://www.smashingmagazine.com/wp-content/uploads/2011/03/signup4.png?ver=1553881376)
+[Source](https://www.smashingmagazine.com/wp-content/uploads/2011/03/signup4.webp?ver=1553881376)
 
  
 
@@ -137,9 +137,9 @@ Instead,
 
 Small CTA buttons are poor implementations and can look less effective from the users point of view. Hence, it is recommended to equal the width of submit button with the width of the adjacent input field.
 
-![Field Width = Submit Button Width](Field-Width-Submit-Button-Width.jpg?ver=1553881376)
+![Field Width = Submit Button Width](Field-Width-Submit-Button-Width.webp?ver=1553881376)
 
-[Source](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2012/10/CustomLoginForms_02.jpg?ver=1553881376)
+[Source](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2012/10/CustomLoginForms_02.webp?ver=1553881376)
 
 ### **Please! Don’t use Captchas**
 
@@ -147,9 +147,9 @@ Adding Captchas are new methods to put someone to eternal torture. I know that w
 
 ‘[Honeypot captcha technique](http://haacked.com/archive/2007/09/11/honeypot-captcha.aspx/)’ is an anti-spam technique which helps your website to identify spammers by hiding a field in your form that is only visible to spamming tools. Hence, if that field is checked or filled, you can easily confirm it as spam. Still, if you want captchas to be a part of your form, try out some fun questions that prove the user is a human. For example, ask simple math calculations like ‘2+7=’.
 
-![Don’t use Captchas](Don’t-use-Captchas.jpg?ver=1553881376)
+![Don’t use Captchas](Don’t-use-Captchas.webp?ver=1553881376)
 
-[Source](http://carlofontanos.com/wp-content/uploads/2014/04/Math_Captcha-300x202.jpg?ver=1553881376)
+[Source](http://carlofontanos.com/wp-content/uploads/2014/04/Math_Captcha-300x202.webp?ver=1553881376)
 
 ### **It’s all about user comfort and trust**
 

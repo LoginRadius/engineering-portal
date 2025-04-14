@@ -1,7 +1,7 @@
 ---
 title: "iOS App Development: How To Make Your First App"
 date: "2020-10-19"
-coverImage: "CoverImage.jpg"
+coverImage: "CoverImage.webp"
 author: "Tanvi Jain"
 tags: ["ios","swift","xcode","mac"]
 description: "I will guide you through the best approach to learning how to develop iOS apps in this post, so you can build and publish your own iOS apps from scratch."
@@ -44,7 +44,7 @@ Apple ID is used to authenticate a user in Apple devices. You may create it by v
 
 To install Xcode, go to the Mac App Store. App Store can be found in the dock. Login there with your Apple ID. In the Mac App Store, search "Xcode" and click the "Get" button to download it.
 
-![](Imag1.jpg)
+![](Imag1.webp)
 
 ## 3. Create your first ios app
 Now click and launch Xcode. Choose create a new Xcode project option to make a new project. Then choose the Single View App option as a type of the project and click Next. It will come with one view controller and a storyboard that you can customize further.
@@ -53,20 +53,20 @@ Let's name your project as HelloWorld as per the convention 😉. Choose Team No
 
 > Note: For creating a native [iOS app](https://www.loginradius.com/blog/engineering/secure-enclave-ios-app/), you have to use one from Objective-c or Swift. Swift is a new and easy language provided by Apple, got so much popularity in less time.
 
-![](Image2.jpg)
+![](Image2.webp)
 
 Not to worry, you will soon modify your created app saying Hello to the World. 😍
 In Xcode, you can navigate to a file or folder from the code editor's left panel. The right panel of the code editor, called Utility Area, will help you dealing with views or any component in the storyboard.
 
 On the top toolbar, you can see the Run and Stop buttons. At the bottom of the code area, you can see the debug/console area with breakpoint and other runtime tools.
 
-![](Image6.jpg)
+![](Image6.webp)
 
 Now find and open Main.storyboard in the project directory by clicking on it. The storyboard is a file to design your view to show and layout all the components such as buttons, labels, lists, tab and navigation bars, and many more. Here you will see a blank view. Select the view by clicking on it. 
 
 From Xcode 10 or above, for objects like a label to add, click on View menu in menu bar>click Show Library and drag the label to focused view. Or in older Xcode, you may find Object Library in the bottom right part of Xcode. Now double click on the label you have dropped on the view and change it's text to Hello World!
 
-![](Image3.jpg)
+![](Image3.webp)
 
 Feeling excited? 😃
 
@@ -78,12 +78,12 @@ Select the device destination or simulator from the Xcode screen's top left near
 
 For running the app on a real device, connect the device via cable to Mac. The device will automatically be shown in the list of device destinations. Now select the device and press Command ⌘ + R.
 
-![](Image4.jpg)
+![](Image4.webp)
 
 
 Share your first app with your parents and friends, and feel proud. 👏 
 
-![HelloWorld](hello_word.png)
+![HelloWorld](hello_word.webp)
 
 > Note: If you want to debug or run any existing app/demo instead of developing your own. For example, You might have some projects downloaded from Github on your local system. Now follow the instructions from project's Github to explore the project. 
 > Open the project in Xcode and run in a simulator or real device by following step 4 described above.

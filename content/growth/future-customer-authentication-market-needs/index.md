@@ -1,7 +1,7 @@
 ﻿---
 title: "Customer Authentication: Unfolding The Market Needs Of The Future"
 date: "2022-01-06"
-coverImage: "auth-future.jpg"
+coverImage: "auth-future.webp"
 tags: ["data security","biometric authentication","mfa","cx"]
 author: "Navanita Devi"
 description: "Consumer authentication is getting more challenging than ever. Learn how the biggest brands in the world are innovating their way through the disruption that's already underway, and get the tactics you need to deliver a seamless experience to your customers."
@@ -47,7 +47,7 @@ Here’s how you can implement biometric authentication into your system:
 * **Voice recognition:** The vocal input, analog data are taken in and converted into digital data. The comparator checks the stored patterns with the output of the A/D converter to confirm the authentication.
 * **Face recognition:** The captured face image details like alignment, size, and shape of the face are analysed and processed with deep learning techniques.
 
-[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Bio-Auth](DS-Mob-Bio-Auth.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### 3. Behavioural biometrics authentication
@@ -78,5 +78,5 @@ As another customer authentication future trend, cloud-based authentication uses
 Organizations need to enlarge and modify their capabilities to take control of security more efficiently in this new environment. Identity platforms like [LoginRadius](https://www.loginradius.com/) provide customer registration, SSO, MFA, directory services, user management, and data access governance to help companies achieve top-notch for their consumers.
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-customer-authentication-market-needs)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=future-customer-authentication-market-needs)
 

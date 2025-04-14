@@ -1,7 +1,7 @@
 ---
 title: "Loading spinner using CSS"
 date: "2015-05-05"
-coverImage: "css3-loading-spinner.png"
+coverImage: "css3-loading-spinner.webp"
 author: "Team LoginRadius"
 tags: ["CSS", "Loader"]
 description: "Learn how to create a loading spinner using CSS"
@@ -11,7 +11,7 @@ Hey there, yogi bear. Tired of creating gifs? Seriously, that takes time and mos
 
 CSS has come a long way we can now create our own GIF-ish contents and the best part, we have full control over it.
 
-![yeah-css](yeah-css.jpg)
+![yeah-css](yeah-css.webp)
 
 **Great, how do I do it?**
 

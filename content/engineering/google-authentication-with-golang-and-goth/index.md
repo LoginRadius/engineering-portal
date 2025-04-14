@@ -1,7 +1,7 @@
 ---
 title: Google OAuth2 Authentication in Golang
 date: "2020-06-11"
-coverImage: "google_golang.png"
+coverImage: "google_golang.webp"
 author: "Puneet Singh"
 tags: ["Go","SocialLogin","Oauth"]
 description: "Learn how to implement Google OAuth2 Authentication in Golang using Goath"
@@ -199,14 +199,14 @@ go run main.go
 
 Once our server is running, we can see our social login page on `http://localhost:3000/`
 
-![Social Authentication Page](go_google_login.jpg "Social Authentication Page")
+![Social Authentication Page](go_google_login.webp "Social Authentication Page")
 
 We need to click on **SignIn with Google button**, which will redirect us to the google login page.
 
-![Google Login](google_login.jpg "Google Login")
+![Google Login](google_login.webp "Google Login")
 
 After login with our google credentials, it will redirect back to our application and on the success page, we can see the details of the logged-in user and can save this detail in a database for future use also.
 
-![Social Profile Info](go_google_profile.jpg "Social Profile Info")
+![Social Profile Info](go_google_profile.webp "Social Profile Info")
 
 As we have seen it is fairly easy to build a google social authentication system with Go language and Goth package, You can found the complete code used in this tutorial on our [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/GoLang/GoogleAuthenticationGoth)

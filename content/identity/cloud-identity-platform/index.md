@@ -1,7 +1,7 @@
 ---
 title: "Above the Horizon: Exploring the Power of a Strong Cloud Identity Platform"
 date: "2024-01-12"
-coverImage: "cloud-identity-platform.jpg"
+coverImage: "cloud-identity-platform.webp"
 tags: ["cloud identity","user authentication","compliance"]
 author: "Rakesh Soni"
 description: "Organizations are investing in scalable cloud platforms; however, safeguarding user identities and information becomes fundamental. As technology becomes advanced, there is a chance to identify the gaps. That’s where the cloud identity platform comes in to secure the platform and bridge the gap that could possibly lead the attacker into the cloud platform."
@@ -44,7 +44,7 @@ With the [identity federation](https://www.loginradius.com/federated-sso/), user
 
 With LoginRadius, it becomes easy to customize the authentication and registration flows to match your business application needs. With the availability of SDKs and APIs, businesses can swiftly integrate authentication services into their web and mobile applications. 
 
-[![EB-cloud-identity-platform](EB-cloud-identity-platform.png)](https://www.loginradius.com/resource/ebook/loginradius-cloud-identity-partner/)
+[![EB-cloud-identity-platform](EB-cloud-identity-platform.webp)](https://www.loginradius.com/resource/ebook/loginradius-cloud-identity-partner/)
 
 ### 5. Security and Compliance 
 
@@ -66,4 +66,4 @@ If managing identity and access isn't a core aspect of your business operations,
 
 Cloud identity platforms can make implementing a secure and reliable identity layer in applications easy. The role also extends beyond conventional security measures. These platforms become instrumental in seamlessly implementing a secure and reliable identity layer within applications, simplifying complex processes, and mitigating potential risks.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-identity-platform)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-identity-platform)

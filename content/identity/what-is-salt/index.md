@@ -1,7 +1,7 @@
 ---
 title: "What Is a Salt and How Does It Boost Security?"
 date: "2021-04-16"
-coverImage: "what-is-salt-cover.jpg"
+coverImage: "what-is-salt-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Navanita Devi"
@@ -98,7 +98,7 @@ Most businesses are not well-versed in the language of password salts and hashes
 
 LoginRadius has also launched a unique password policy that provides additional features such as password complexity, profile password prevention, password expiration, and password history. 
 
-[![password-policy](password-policy.png)](https://www.loginradius.com/resource/password-policy-datasheet)
+[![password-policy](password-policy.webp)](https://www.loginradius.com/resource/password-policy-datasheet)
 
 This policy makes LoginRadius an excellent choice for password protection among businesses and consumers alike. 
 
@@ -108,4 +108,4 @@ This policy makes LoginRadius an excellent choice for password protection among 
 Protecting your data, whether you represent a company or simply for your personal accounts, is essential. Hashing and salting of passwords and cryptographic hash functions are the foolproof methods for this purpose. With salts, you can rest assured that your passwords and data are in good hands. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-salt)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-salt)

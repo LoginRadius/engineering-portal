@@ -1,7 +1,7 @@
 ---
 title: "What are JWT, JWS, JWE, JWK, and JWA?"
 date: "2021-11-24"
-coverImage: "coverImage.png"
+coverImage: "coverImage.webp"
 author: "Yashesvinee V"
 tags: ["JSON", "Encryption"]
 description: "Learn about the JOSE framework and its specifications, including JSON Web Token (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), and JSON Web Algorithms (JWA). For easier reference, bookmark this article."
@@ -173,21 +173,21 @@ The JWA specification focuses mainly on enumerating the algorithms necessary for
 **Algorithms for JWS:** These algorithms are used to sign the contents of the JWS Header and the JWS Payload
 
 <figure>
-  <img src="JWS_algo.png" alt="JWS algorithms" align="center">
+  <img src="JWS_algo.webp" alt="JWS algorithms" align="center">
   <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a></figcaption>
 </figure>
 
 **Algorithms for JWE** These algorithms encrypt the Content Encryption Key (CEK) and produce the JWE Encrypted Key
 
 <figure>
-  <img src="JWE_algo.png" alt="JWE algorithms" align="center">
+  <img src="JWE_algo.webp" alt="JWE algorithms" align="center">
   <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
 </figure>
 
 **Algorithms for JWK:** JWA specifies a set of algorithm families to be used for the public keys represented by JWK
 
 <figure>
-  <img src="JWK_algo.png" align="center">
+  <img src="JWK_algo.webp" align="center">
   <figcaption align="center">Source: <a href="https://tools.ietf.org/id/draft-ietf-jose-json-web-algorithms-10.html">ietf-jose-json-web-algorithms</a> </figcaption>
 </figure>
 

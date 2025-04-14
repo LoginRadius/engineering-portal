@@ -1,7 +1,7 @@
 ---
 title: "Presenting: Progressive Profiling from LoginRadius"
 date: "2019-02-07"
-coverImage: "progrssive-profiling.jpg"
+coverImage: "progrssive-profiling.webp"
 tags: ["progressive profiling","cx","ciam solution"]
 author: "Rakesh Soni"
 description: "A new feature of the LoginRadius Identity Platform is progressive profiling, which gradually collects data from customers in an automated way."
@@ -35,7 +35,7 @@ There are two types of progressive profiling: multi-step registration and social
 
 Progressive profiling for customer registration allows you to split a potentially complicated registration process into multiple steps. You can capture a customer’s information upfront and then slowly build out a holistic view of that customer through subsequent actions.
 
-![Progressive Profiling Workflow](progressive-data-gather.jpg) **As customer trust increases, businesses can request more data**.
+![Progressive Profiling Workflow](progressive-data-gather.webp) **As customer trust increases, businesses can request more data**.
 
 The subsequent actions often take the place of secondary registration forms or event-driven calls to action for your customer to supply additional profile metadata. For example, you could request more detailed data only after a customer has logged in a certain number of times or navigated to a certain digital property.
 
@@ -43,10 +43,10 @@ The subsequent actions often take the place of secondary registration forms or e
 
 Progressive profiling with social accounts is the process of progressively requesting additional OAuth Access permissions from your customers. This process allows you to minimize the access permissions requested and get business-critical access from your customers based on their social providers.
 
-![Progressive Profiling Workflow](final-feb-8.jpeg) **An example of progressive profiling with social accounts**
+![Progressive Profiling Workflow](final-feb-8.webp) **An example of progressive profiling with social accounts**
 
 Once the customer interacts more with your platform, you can begin requesting additional permissions from the social provider they are authenticating with. For example, you can ask for basic information, such as name and email, during registration, and then ask for birthdate, likes, and interests from the same customer at a later point.
 
 **To learn more about how LoginRadius can improve customer experience and data collection using Progressive Profiling or other features, Book a demo today.**
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=presenting-progressive-profiling-loginradius)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=presenting-progressive-profiling-loginradius)

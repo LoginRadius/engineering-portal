@@ -1,7 +1,7 @@
 ---
 title: "What is Identity Lifecycle Management?"
 date: "2023-11-02"
-coverImage: "lifecycle-management.jpg"
+coverImage: "lifecycle-management.webp"
 tags: ["identity management","user management","compliance","cx"]
 author: "Rakesh Soni"
 description: "In a digital age filled with online services and remote work, securing sensitive data is paramount. Our blog delves into Identity Lifecycle Management (ILM), an essential business solution. Discover the components of ILM, its role in cybersecurity, and how it ensures authorized access while addressing security concerns and compliance. Stay ahead in the digital landscape by embracing the power of Identity Lifecycle Management."
@@ -43,7 +43,7 @@ Lifecycle governance involves managing identities throughout their entire lifecy
 
 Compliance management ensures the organization's identity management practices align with industry regulations and internal policies. It involves regular audits, monitoring, and reporting to guarantee adherence to legal requirements and data protection standards.
 
-[![DS-ccpa-compliance](DS-ccpa-compliance.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+[![DS-ccpa-compliance](DS-ccpa-compliance.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 ## The Role of ILM in Modern Cybersecurity
 
@@ -69,4 +69,4 @@ Identity Lifecycle Management is the cornerstone of modern cybersecurity strateg
 
 As businesses continue to embrace digital transformation, embracing Identity Lifecycle Management is not just a choice but a necessity in safeguarding sensitive data and maintaining a competitive edge in the market.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-lifecycle-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-lifecycle-management)

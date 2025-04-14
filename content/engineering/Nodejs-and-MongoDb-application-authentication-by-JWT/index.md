@@ -1,7 +1,7 @@
 ---
 title: "NodeJS and MongoDB application authentication by JWT"
 date: "2020-03-20"
-coverImage: "jwt.png"
+coverImage: "jwt.webp"
 author: "Ashish Sharma"
 tags: ["NodeJs", "JWT","MongoDB","Authentication", "JSON Web Token"]
 ---
@@ -275,11 +275,11 @@ npm start
 
 Step 10. Open Postman and create a post request to **localhost:3000/auth/register** as below: 
 
-![Postman register](register.png "")
+![Postman register](register.webp "")
 
 Step 11. After this, let’s sign with this URL **localhost:3000/auth/sign_in** . Enter the keys and values for email and password 
 
-![Postman signin](signIn.png "")
+![Postman signin](signIn.webp "")
 
 
 
@@ -292,7 +292,7 @@ JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9sYXR1bmRlZ2FydWJhQGdtYWl
 Step 11. Then, enter the parameters for the key and value for fetching the profile. You want to create as shown below and send:
 
 
-![Postman signin](profile.png "")
+![Postman signin](profile.webp "")
 
 
 

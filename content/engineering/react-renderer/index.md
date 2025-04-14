@@ -1,7 +1,7 @@
 ---
 title: "React renderers, react everywhere?"
 date: "2021-06-23"
-coverImage: "react.png"
+coverImage: "react.webp"
 author: "Abhimanyu Singh Rathore"
 description: "There is an advanced feature of React is that it can write renderers for multiple different env."
 tags: ["JavaScript", "React", "Renderer"]

@@ -1,7 +1,7 @@
 ﻿---
 title: "7 Expert Tips on How to Improve the Customer Experience"
 date: "2021-09-22"
-coverImage: "consumer-exp-cover-page.jpg"
+coverImage: "consumer-exp-cover-page.webp"
 category: ["loginradius"]
 featured: false 
 author: "Alyse Falk"
@@ -12,7 +12,7 @@ metatitle: "Lets explore top 7 expert tips on how to improve the consumer experi
 
 Excellent customer experiences motivate people to become regular consumers. The main goal of any company is to put itself in the customer’s shoes. An improved user experience brings more leads that will convert into clients and the opportunity to increase your customer base.
 
-![book-a-demo-Consultation](consumer-exp.png)
+![book-a-demo-Consultation](consumer-exp.webp)
 
 Note that your perfect customer experience depends on numerous factors. These are positive feedback, brand awareness, a good reputation, the SEO-friendliness of your website, and many more.
 
@@ -27,7 +27,7 @@ According to a [Business2Community](https://www.business2community.com/customer-
 
 Additionally, your company will be able to generate more revenue via customer acquisition by renewing and upselling to your standing customers.
 
-![book-a-demo-Consultation](consumer-exp2.png)
+![book-a-demo-Consultation](consumer-exp2.webp)
 
 ## Overview of the CX Evolution (2017-2020)
 
@@ -66,7 +66,7 @@ If you are interested in the best practices that will come in handy for improvin
 
 If you still have not digitized your business, it is time to do it right now. Start with your website and social media network accounts. Your site should be mobile-friendly because about 70% of global traffic is generated via mobile device screens.
 
-![book-a-demo-Consultation](consumer-exp3.png)
+![book-a-demo-Consultation](consumer-exp3.webp)
 Besides the technical aspects that affect user experience, seven others are described in the following expert tips. Having implemented these approaches into practice, your CX will become significantly improved according to 2021 trends.
 
 ### #1 Understand Who Are Your Customers
@@ -83,7 +83,7 @@ For improved customer loyalty with a guaranteed individual approach, you can spl
     
 -   For entrepreneurs.
     
-![book-a-demo-Consultation](consumer-exp4.png)
+![book-a-demo-Consultation](consumer-exp4.webp)
 
 This way, first-time visitors are easily navigated to the information and features that best fit their segment. So, while being a single platform with many different SEO services, the company has improved the customer experience by providing their potential clients with a simple way to find the package designed for their needs.
 
@@ -100,7 +100,7 @@ Omnichannel CX is a way to provide an integrated customer experience through syn
 
 Omnichannel CX implements many approaches simultaneously to convert CX into a seamless process. Many integration strategies bring higher conversion rates and more traffic. Additionally, it benefits customer retention. It is worth noting that omnichannel and multichannel user experiences are not the same.
 
-![book-a-demo-Consultation](consumer-exp5.png)
+![book-a-demo-Consultation](consumer-exp5.webp)
 
 The main idea of the multichannel approach is to provide many customer service channels that are not linked to each other. It means that social media networks, websites, online shops, and call centers are not synchronized. But omnichannel CX infers that all these multiple channels are connected.
 
@@ -119,7 +119,7 @@ To strengthen the omnichannel customer experience, tie in a CX-driven combinatio
 
 A good example of omnichannel CX is the pharmaceutical brand [Walgreens](https://www.walgreens.com/). Brand communication takes place via a mobile-friendly app. The shopping experience is improved with the help of convenient digital features such as refilling prescriptions virtually, setting up reminders and notifications. The app saves customers time because they do not need to visit the pharmacy to get medications.
 
-![book-a-demo-Consultation](consumer-exp6.png)
+![book-a-demo-Consultation](consumer-exp6.webp)
 
 Simplified interactions and virtual communication is in high demand today and are highly appreciated by consumers and increases Walgreens’ customer retention.
 
@@ -141,7 +141,7 @@ The customer journey is a full cycle that takes place from the first interaction
     
 7.  Loyalty – An utterly positive experience means that the client will likely repeat the purchase and recommend your product. Encourage loyal customers to submit thankful reviews that will improve your reputation, brand awareness, and search rankings.
     
-![book-a-demo-Consultation](consumer-exp7.png)
+![book-a-demo-Consultation](consumer-exp7.webp)
 
 ## Tips for Customer Journey Optimization
 
@@ -223,7 +223,7 @@ The rule of a great CX-driven online community is the desire for your loyal cust
 
 For example, [Inkbox](https://inkbox.com/) consists of a community with millions (2 million) of followers. This company makes it a priority of tattooing and shares all completed work on the Internet. The community was created around the popular Instagram hashtag #tattoosfornow. People throughout the world shared beautiful photos with tattoos and grew the community.
 
-![book-a-demo-Consultation](consumer-exp8.png)
+![book-a-demo-Consultation](consumer-exp8.webp)
 
 
 ### #5 Take Advantage of Customer Reviews
@@ -234,7 +234,7 @@ You can use reviews for your customer experience purposes. Additionally, you can
     
 
   
-![book-a-demo-Consultation](consumer-exp9.png)
+![book-a-demo-Consultation](consumer-exp9.webp)
 
 
   
@@ -242,8 +242,8 @@ You can use reviews for your customer experience purposes. Additionally, you can
 2.  Use reviews for your search ranking. Add a Sitemap with reviews to engage people to visit your site and help Google consider your website as trusted.
     
 
-![book-a-demo-Consultation](consumer-exp10.png)
-![book-a-demo-Consultation](consumer-exp11.png)
+![book-a-demo-Consultation](consumer-exp10.webp)
+![book-a-demo-Consultation](consumer-exp11.webp)
 
 
 3.  Use reviews to prove your reputation on other online communication channels (social media platforms, forums, blogs).
@@ -253,13 +253,13 @@ You can use reviews for your customer experience purposes. Additionally, you can
 
 4.  Use client testimonials in newsletters and for other email marketing purposes. This way, you will increase the chances that your letter will be read and taken into consideration.
     
-![book-a-demo-Consultation](consumer-exp12.png)
+![book-a-demo-Consultation](consumer-exp12.webp)
 
 5.  Add reviews to your video marketing materials. You can use screenshots of some eye-catching and detailed testimonials in your advertising videos.
     
 6.  Analyze your customer satisfaction rates with the help of the percentages that rank positive, neutral, and negative reviews. For example, you can offer short online surveys to get more reviews after any customer journey stage (especially at the last two) and measure them. Here is a set of survey templates by [NiceReply](https://www.nicereply.com/).
     
-![book-a-demo-Consultation](consumer-exp13.png)
+![book-a-demo-Consultation](consumer-exp13.webp)
 
 
 ### #6 Personalize Your Content
@@ -268,13 +268,13 @@ According to [Harvard Business Review](https://hbr.org/2018/01/ads-that-dont-ove
 
 [Spotify](https://www.spotify.com/us/) decided to launch the option “Discover Weekly” for this purpose. A personalized playlist is generated according to the listener’s preferences. Some users like this option, while some Spotify fans dislike it. Nevertheless, this is a way to promote a personalized approach and show each customer your meaningful marketing strategy.
 
-![book-a-demo-Consultation](consumer-exp14.png)
+![book-a-demo-Consultation](consumer-exp14.webp)
 
 ### #7 Make the Customer Experience Safer
 
 A significant number of Internet users are still afraid of scammers and cyber hacks regarding the user experience on a website. Assure visitors that your ecommerce platform and corporate site are risk-free for them. For example, [LoginRadius](https://www.loginradius.com/customer-security/) provides businesses with adoptive safety tools to make their CX 100% secure.
 
-![book-a-demo-Consultation](consumer-exp15.png)
+![book-a-demo-Consultation](consumer-exp15.webp)
 
 Having implemented tech solutions to protect client accounts, your company strengthens its brand awareness, improves reputation and loyalty. Usually, the most challenging aspects for customers are the security of personal data and online payments. Your task in the context of CX improvement is to maintain privacy and guarantee safe transactions.
 
@@ -282,5 +282,5 @@ Having implemented tech solutions to protect client accounts, your company stren
 
 Your CX strategy should meet customer requirements and your business goals. Customer experience is a proven way to develop high retention, cross-sales, and up-sales. If people decide to come back and recommend your products, this is a good sign for your company. An improved user experience benefits SEO, brand awareness, and generally the online presence of your business. 2021 requires marketers, entrepreneurs, and SEO specialists to demonstrate an omnichannel CX approach with comprehensive security, reviews, and customer journey strategies.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-improve-the-customer-xperience)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-improve-the-customer-xperience)
 

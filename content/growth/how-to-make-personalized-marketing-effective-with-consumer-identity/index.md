@@ -1,7 +1,7 @@
 ﻿---
 title: "Personalize Your Marketing With The Help Of A CIAM Platform"
 date: "2021-07-30"
-coverImage: "personalized-marketing.jpg"
+coverImage: "personalized-marketing.webp"
 tags: ["ciam solution","data security","cx","authentication"]
 author: "Navanita Devi"
 description: "Personalized marketing is a promotional strategy tailored to the individual at the precise moment they require it, and there's no other communication like it. The question is, how will you fulfill that promise? You may utilize tools to acquire and aggregate information about your clients' preferences. Read on to find out what these tools are and how they benefit your business."
@@ -25,7 +25,7 @@ CIAM solutions also typically offer self-service capabilities for customers, suc
 
 ## Grow Your Business with CIAM
 
-![personalized-marketing-experience](personalized-marketing-experience.png)
+![personalized-marketing-experience](personalized-marketing-experience.webp)
 
 Providing consumers with digital services is a delicate balancing act. You must provide an exceptional client experience while also establishing trust in the security of your services. If you get one of these things incorrect, the consequences can be devastating.
 
@@ -81,4 +81,4 @@ By using a robust CIAM solution, organizations can build trust and loyalty with 
 
 In a nutshell, CIAM enables organizations to deliver an exceptional and secure personalized experience that meets the needs of their customers, ultimately leading to increased customer satisfaction and brand loyalty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-personalized-marketing-effective-with-consumer-identity)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-personalized-marketing-effective-with-consumer-identity)

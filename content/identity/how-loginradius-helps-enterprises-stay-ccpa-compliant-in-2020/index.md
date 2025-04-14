@@ -1,7 +1,7 @@
 ---
 title: "How LoginRadius Helps Enterprises Stay CCPA Compliant in 2020"
 date: "2020-03-06"
-coverImage: "ccpa-compliant.jpg"
+coverImage: "ccpa-compliant.webp"
 tags: ["data privacy","compliance","ciam solution"]
 author: "Rakesh Soni"
 description: "As the risk of data misuse is rising, more and more enterprises are trying to comply with current data protection and regulatory enforcement."
@@ -49,7 +49,7 @@ The California Consumer Privacy Act is a relatively new consumer privacy right e
 
 ### What rights do consumers enjoy under CCPA?
 
-![5 consumer rights under ccpa](image2.png)
+![5 consumer rights under ccpa](image2.webp)
 
 ### What data is considered personal under the CCPA?
 
@@ -89,7 +89,7 @@ When it comes to CCPA, the Californian data privacy law provides some excellent 
 
 Wondering how? Let’s find out.
 
-![CCPA optimize user experience](image3.png)
+![CCPA optimize user experience](image3.webp)
 
 **1\. CCPA ensures improved data security.**
 
@@ -107,7 +107,7 @@ Consumers should have the freedom to view or upgrade their consent approval. If 
 
 As such, CCPA requires enterprises to display easy-to-understand consent requests, so consumers know what they are getting into.
 
-[![](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![](WP-The-CCPA-and-Customer-Identity-Reaping-the-Benefits-of-Compliance.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 **3\. CCPA allows frictionless identity management.**
 
@@ -121,7 +121,7 @@ LoginRadius is a [customer identity and access management](https://www.loginradi
 
 It helps companies meet CCPA regulatory requirements without compromising the user experience. Its one-of-a-kind data protection features include client registration, sign-in, authentication, single sign-on, data governance, and consent management, among others.
 
-![](image4.png)
+![](image4.webp)
 
 The following capabilities further help enterprises meet privacy compliance regulations.
 
@@ -157,4 +157,4 @@ Consumers expect the privacy and security of their personal data, and it is the 
 
 With an identity solution like LoginRadius, you can eliminate lengthy processes that ruin the user experience, and still maintain international governance over data privacy. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020)

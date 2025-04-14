@@ -1,7 +1,7 @@
 ---
 title: "Python basics in minutes"
 date: "2020-11-06"
-coverImage: "python.png"
+coverImage: "python.webp"
 author: "Sara Lins"
 description: "Learn the basics of Python programming lanuage (For Beginners)"
 tags: ["Python"]

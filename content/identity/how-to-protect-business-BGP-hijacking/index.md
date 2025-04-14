@@ -1,7 +1,7 @@
 ---
 title: "How to Mitigate BGP Attacks and Secure Your User's Data"
 date: "2021-11-12"
-coverImage: "bgp-attacks.jpg"
+coverImage: "bgp-attacks.webp"
 tags: ["enterprise security","cybersecurity"]
 author: "Rakesh Soni"
 description: "The reliance on BGP can be a double-edged sword as, on the one hand, it can be extremely convenient, while on the other, it can have major security lapses. However, enterprises can drastically reduce the risk by adopting the practices mentioned in the blog."
@@ -63,7 +63,7 @@ Network operators from around the world will have to release their data so that 
 
 This is a technique that is used to identify and drop information that has false IP addresses. The anti-spoofing filters which are used can deny service to spoofed IP addresses which try to gain access to a network. In most cases, if a packet coming from an external network contains an internal IP address, it gets blocked. 
 
-[![WP-cybersecurty-training](WP-cybersecurty-training.png)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
+[![WP-cybersecurty-training](WP-cybersecurty-training.webp)](https://www.loginradius.com/resource/why-is-end-user-cyber-security-training-mandatory/)
 
 
 ### #2. RPKI adoption
@@ -79,4 +79,4 @@ However, the only downside of RPKI adoption is that it can be significantly expe
 The reliance on BGP can be a double-edged sword as, on the one hand, it can be extremely convenient, while on the other, it can have major security lapses. However, enterprises and ISPs can drastically reduce the risk of BGP hijacking by adopting the aforementioned safe practices. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-protect-business-bgp-hijacking)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-protect-business-bgp-hijacking)

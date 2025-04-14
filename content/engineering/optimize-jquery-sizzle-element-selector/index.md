@@ -1,7 +1,7 @@
 ---
 title: "Optimize jQuery & Sizzle Element Selector"
 date: "2015-11-05"
-coverImage: "jquery-sizzle-element-selector-150x150.png"
+coverImage: "jquery-sizzle-element-selector-150x150.webp"
 author: "Kundan Singh"
 tags: ["Engineering", "JQuery"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "4 Things to Consider When Starting a Digital Transformation"
 date: "2018-08-09"
-coverImage: "4-things-consider-starting-digital-transformation.jpg"
+coverImage: "4-things-consider-starting-digital-transformation.webp"
 category: ["all", "other"]
 featured: false 
 author: "Rakesh Soni"
@@ -16,7 +16,7 @@ A recent study by Gartner found that 66% of leaders have plans for a digital tra
 
 ## 1\. Get Connected and Bring Value to Your Organization
 
-![rawpixel](rawpixel-268378-unsplash-1024x683.jpg)
+![rawpixel](rawpixel-268378-unsplash-1024x683.webp)
 
 A good place to start your digital transformation is to build initiatives that focus on changing your operating model. But what does being more connected actually mean? Well, for starters, one of the main ways that companies are getting more connected is by making their data more available and transparent across their entire digital ecosystem. This will actually help you make money in new ways. For example, you can gather and use that data to create new revenue-generating services.
 
@@ -24,7 +24,7 @@ Being more connected will help your organization cross the threshold of your tra
 
 ## 2\. Optimize Your Business Initiatives with Automation Tools
 
-![](austin-chan-275638-unsplash-1024x683.jpg)
+![](austin-chan-275638-unsplash-1024x683.webp)
 
 Automation tends to overlap with all the other starting points, but it will truly help you reinvent the way that value is delivered. For example, with automation tools, data can flow in real-time and be automatically updated across your entire digital ecosystem.
 
@@ -32,7 +32,7 @@ This not only greatly improves productivity, but can also enable you to understa
 
 ## 3\. Empower Your Business Partners and Customers
 
-![](jordan-mcqueen-99269-unsplash-1024x683.jpg)
+![](jordan-mcqueen-99269-unsplash-1024x683.webp)
 
 While the first two steps are focused on improving your operating model, this one will help you change your business model completely. For example, by utilizing the right tools and technology, you will be able to empower your partners and customers to create value for themselves, which will multiply your business's potential.
 
@@ -42,7 +42,7 @@ Instead of you proving to your partners and customers the benefits of working wi
 
 ## 4\. Programmable Platforms to Bring Value to YOU
 
-![riccardo-annandale](riccardo-annandale-140624-unsplash-e1533839787184-1024x714.jpg)
+![riccardo-annandale](riccardo-annandale-140624-unsplash-e1533839787184-1024x714.webp)
 
 This last step is key, as it will help you focus on changing both your business and operating models. Simply by utilizing others to help create and deliver the value to your business. For example, instead of using your own resources to build tools that would help bring value, you can outsource and have experts do it for you, so you can focus on what you do best. 
 

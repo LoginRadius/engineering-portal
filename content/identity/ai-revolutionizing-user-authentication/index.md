@@ -1,7 +1,7 @@
 ---
 title: "How AI Is Changing the Game in User Authentication"
 date: "2024-05-23"
-coverImage: "artificial-intelligence.jpg"
+coverImage: "artificial-intelligence.webp"
 tags: ["user authentication","data security","artificial intelligence"]
 author: "Maya Kirianova"
 description: "This blog explores how AI can revolutionize authentication, from addressing the limitations of traditional methods to utilizing innovative techniques that use machine learning algorithms."
@@ -20,9 +20,9 @@ This blog explores how AI can revolutionize [authentication](https://www.loginra
 
 ## Traditional Methods of User Authentication
 
-![password-security](password-security.png "image_tooltip")
+![password-security](password-security.webp "image_tooltip")
 
-Source: [safety4sea.com](https://safety4sea.com/wp-content/uploads/2019/01/NCSC-Password-Security-1140x806.png)
+Source: [safety4sea.com](https://safety4sea.com/wp-content/uploads/2019/01/NCSC-Password-Security-1140x806.webp)
  
 [Password-based authentication](https://www.loginradius.com/blog/identity/common-vulnerabilities-password-based-login/) is the oldest and most widely used method. A user is required to enter a username and password and nothing else. However, this way of accessing the account is pretty vulnerable to phishing and brute-force attacks. Hackers can use automated tools to try different password combinations until they find the correct one or just send fraudulent emails or website links to compromise security. If a user utilizes the same password across multiple accounts, the threat of a security breach grows.
 
@@ -34,7 +34,7 @@ Source: [safety4sea.com](https://safety4sea.com/wp-content/uploads/2019/01/NCSC-
 
 AI-powered authentication involves the use of machine learning algorithms to analyze user behavior, detect anomalies, and verify identities in real-time. It can adapt to dynamic patterns and learn from user interactions. It means that AI provides continuous authentication. Such an approach can detect suspicious activities or authorized access attempts in real-time.
 
-[![WP-continuous-auth](WP-continuous-auth.png)](https://www.loginradius.com/resource/whitepaper/continuous-authentication/)
+[![WP-continuous-auth](WP-continuous-auth.webp)](https://www.loginradius.com/resource/whitepaper/continuous-authentication/)
 
 AI algorithms can evaluate the risks related to each authentication attempt. They use device characteristics, location, and behavioral patterns to adjust authentication requirements. Moreover, AI-powered authentication systems can identify unusual or suspicious behavior that may indicate fraud or cyber-attacks. They can flag potential security threats before they escalate.
 
@@ -94,4 +94,4 @@ The future for AI in user authentication is promising, though more potential cha
 
 Although AI is changing the game in user authentication, everyone must be aware of its potential benefits and drawbacks to protect sensitive information and reduce security risks. In this way, organizations and companies will be able to secure important data and build trust with users. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-revolutionizing-user-authentication)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-revolutionizing-user-authentication)

@@ -1,7 +1,7 @@
 ---
 title: "Is Your Database Secured? Think Again"
 date: "2016-02-23"
-coverImage: "database_secure-300x300.png"
+coverImage: "database_secure-300x300.webp"
 author: "Kunal"
 tags: ["Database", "Security"]
 ---
@@ -10,7 +10,7 @@ tags: ["Database", "Security"]
 
 Many known attacks are possible only once physically accessing a machine. For this reason, it is best to have the application server and the database server on different machines. If this is not possible, greater care must be taken, Otherwise, by executing remote commands via an application server, an attacker may be able to harm your database even without permissions. For this reason, any service running on the same machine as the database should be granted the lowest possible permission that still allows the service to operate.
 
-![server-network-structure](server-network-structure.png?ver=1552286291)  
+![server-network-structure](server-network-structure.webp?ver=1552286291)  
 Do not forget to install the whole security package: Antivirus and Anti-spam, Firewall, and all of the security packages recommended by your operating system's vendor. Also, do not forget to spend 10 minutes thinking of your server's physical location - in the wrong location, your server can be stolen, flooded, harmed by wild animals or vagrants.
 
 **2\. Localhost Security or Disable or restrict remote access**

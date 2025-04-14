@@ -1,7 +1,7 @@
 ---
 title: "React Security Vulnerabilities and How to Fix/Prevent Them"
 date: "2021-12-24"
-coverImage: "react-security.png"
+coverImage: "react-security.webp"
 author: "Gaurav Kumar Roy"
 tags: ["React", "Vulnerability"]
 description: "React security vulnerabilities are hard to detect. However, this article talks about the top 7 vulnerabilities and how to fix them to enjoy all the benefits React caters to in developing Progressive Web Applications."

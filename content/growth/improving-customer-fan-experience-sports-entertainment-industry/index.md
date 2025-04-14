@@ -1,7 +1,7 @@
 ---
 title: "  Improving Fan Experience in the Sports Industry"
 date: "2018-11-15"
-coverImage: "Fan-experience-in-sports-industry.jpg"
+coverImage: "Fan-experience-in-sports-industry.webp"
 category: ["all", "customer-experience", "other"]
 featured: false 
 author: "Rakesh Soni" 
@@ -111,7 +111,7 @@ Businesses are approaching identity management platforms to understand the journ
 
 ## How LoginRadius Can Help You to Improvise Customer Experience for Your Fans 
 
-![Fan-experience-in-sports-industry](Fan-experience-in-sports-industry.png)
+![Fan-experience-in-sports-industry](Fan-experience-in-sports-industry.webp)
 
 LoginRadius helps businesses use the data they collect to the fullest by creating unified profiles for each fan. The CIAM platform allows for the storage of highly customizable data fields, as well as custom objects, which track more dynamic sets of data such as purchase history. From there, the progressive profiling feature provides robust fan insights in order to segment them for more personalized and targeted campaigns.
 
@@ -128,4 +128,4 @@ Much has been added to the fan experience in the sports industry in a recent cou
 
 Having said that, fans will speculate the sports industry in a very different light in the post-pandemic world. To improve the fan experience in the sports industry, you need to be observant of what's happening in the market... And get real! 
 
-[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-fan-experience-sports-entertainment-industry)
+[![BD-Plexicon1-1024x310-1](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improving-customer-fan-experience-sports-entertainment-industry)

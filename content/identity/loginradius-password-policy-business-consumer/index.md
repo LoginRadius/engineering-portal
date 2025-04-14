@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Introduces Password Policy to Ensure Best Practices for Businesses and Consumers"
 date: "2021-02-11"
-coverImage: "loginradius-password-policy.png"
+coverImage: "loginradius-password-policy.webp"
 tags: ["password management","data security","cx"]
 author: "Rakesh Soni"
 description: "In securing company and customer data, the LoginRadius Password Policy provides the first line of protection. The newly released function offers a plethora of robust password management opportunities, from setting difficulty criteria to stopping users from choosing previously used passwords."
@@ -28,7 +28,7 @@ Using the Password Policy feature by LoginRadius, businesses can collectively ma
 *   Businesses can enforce auto-expiry of passwords and then restrict consumers from reusing a previous password.
 
 
-[![password-policy-datasheet](password-policy-datasheet.png)](https://www.loginradius.com/resource/password-policy-datasheet)
+[![password-policy-datasheet](password-policy-datasheet.webp)](https://www.loginradius.com/resource/password-policy-datasheet)
 
 ## Key Features Offered by LoginRadius
 
@@ -67,4 +67,4 @@ The Password Policy feature also offers the following consumer-centric features:
 We can’t emphasize enough the importance of using a strong password. Implementing our comprehensive Password Policy can secure both your organization's and consumers' assets. With LoginRadius, you will always be a step ahead and mitigate the risks associated with passwords.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-password-policy-business-consumer)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-password-policy-business-consumer)

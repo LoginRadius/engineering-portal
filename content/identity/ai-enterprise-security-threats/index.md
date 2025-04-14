@@ -1,7 +1,7 @@
 ---
 title: "AI and the Changing Face of Enterprise Security Threats"
 date: "2024-07-15"
-coverImage: "future-artificial-intelligence-robot-cyborg.jpg"
+coverImage: "future-artificial-intelligence-robot-cyborg.webp"
 tags: ["enterprise security", "ai", "cyberattacks"]
 author: "Rakesh Soni"
 description: "Explore how AI is revolutionizing enterprise security by improving threat detection, prevention, and response. Learn about the new challenges and opportunities that AI brings to the cybersecurity landscape."
@@ -52,7 +52,7 @@ Cybercriminals are leveraging AI to develop more sophisticated and targeted atta
 AI-generated deepfakes pose a significant threat to enterprise security. These realistic fake videos and audio can be used for social engineering attacks, manipulating individuals into divulging sensitive information or performing unauthorized actions.
 
 
-[![Securing User Authentication: Understanding the Basics & Best Practices](cta.png)](https://www.loginradius.com/resource/whitepaper/user-authentication-security/)
+[![Securing User Authentication: Understanding the Basics & Best Practices](cta.webp)](https://www.loginradius.com/resource/whitepaper/user-authentication-security/)
 
 ### 3. Automated Vulnerability Exploitation
 

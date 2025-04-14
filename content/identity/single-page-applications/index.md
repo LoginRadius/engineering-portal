@@ -1,7 +1,7 @@
 ---
 title: "Single-Page Applications: Building A Secure Login Pathway with LoginRadius"
 date: "2020-09-03"
-coverImage: "single-page-applications.jpg"
+coverImage: "single-page-applications.webp"
 tags: ["cx","authentication","ciam solution"]
 author: "Rakesh Soni"
 description: "Single-page apps, or SPAs, are web applications that load and update a single HTML page by dynamically rendering details from the browser as (and when) a user interacts with the programme."
@@ -58,7 +58,7 @@ These applications offer continuous user experiences, meaning they are easy to e
 
 Single-page applications can be the best bet for mobile users too. Users spend most of the time scrolling feeds on Facebook and Instagram. They can sit back, relax, and enjoy the show.
 
-[![Loginradius standard login datasheet](LoginRadius-Standard-Login-Datasheet.png)](https://www.loginradius.com/resource/loginradius-ciam-standard-login/)
+[![Loginradius standard login datasheet](LoginRadius-Standard-Login-Datasheet.webp)](https://www.loginradius.com/resource/loginradius-ciam-standard-login/)
 
 ## Security Challenges With Single-Page Applications
 
@@ -90,7 +90,7 @@ Here's an instance of how a CSRF can take place:
 
 ## Securing Single-Page Applications with LoginRadius
 
-![](single-page-app-2.png)
+![](single-page-app-2.webp)
 
 Now the questions arise, how do you safely [authorize and authenticate](https://www.loginradius.com/blog/2020/06/authentication-vs-authorization-infographic/#:~:text=Though%20both%20the%20terms%20sound,to%20perform%20a%20specific%20function.) your Single Page (SPA) users? Here, we are being particular about JavaScript web applications that run on the same domain as the API.
 
@@ -123,4 +123,4 @@ Cybersecurity issues aren't unique to Single-Page Applications. The users make r
 
 Unlike the traditional non-SPAs where you had to secure individual pages on the server, all you need is to secure the data endpoints in single-page applications. Going by the options above, [dodging cybercriminals](https://www.loginradius.com/blog/identity/digital-privacy-best-practices/) should not be a big deal.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-page-applications)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-page-applications)

@@ -1,7 +1,7 @@
 ---
 title: "Cocoapods : What It Is And How To Install?"
 date: "2017-09-06"
-coverImage: "cocoapods-orange-on-grey.jpg"
+coverImage: "cocoapods-orange-on-grey.webp"
 author: Thompson Sanjoto
 tags: ["Swift","Objective-C","xcode"]
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: "Top Priorities for Customer IAM Leaders in 2023 and How to Prepare"
 date: "2022-12-16"
-coverImage: "ciam-leaders.jpg"
+coverImage: "ciam-leaders.webp"
 tags: ["ciam", "authentication", "data security","cx"]
 author: "Rakesh Soni"
 description: "As we approach the next decade, it is worth looking at what technology will bring to the table and how it can impact the realm of intelligent authentication. Let’s look at some of the top priorities of CIAM leaders in 2023."
@@ -39,7 +39,7 @@ New-age companies are looking to create solutions that deliver a delightful cust
 
 The need for CIAM to lead the company in providing such an experience has never been more pertinent than today when customer expectations have reached an all-time high.
 
-[![EB-omnichannel](EB-omnichannel.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel](EB-omnichannel.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 
 ### 3. Retaining Customers and New Customer Acquisition
@@ -60,4 +60,4 @@ Aside from increasing efforts to secure identity, it is anticipated that custome
 
 While leaders will be able to continue streamlining the security and fraud prevention techniques; however, if they cannot apply the same level of efficiency and innovation to deliver a positive user experience, they risk alienating consumers and ultimately losing their loyalty. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-customer-iam-leaders-prioritize-2023)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-customer-iam-leaders-prioritize-2023)

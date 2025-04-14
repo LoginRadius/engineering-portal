@@ -1,7 +1,7 @@
 ---
 title: "Implement Authentication in Angular 2+ application using LoginRadius CLI in 5 mins"
 date: "2021-04-14"
-coverImage: "angulat_demo_auth.jpg"
+coverImage: "angulat_demo_auth.webp"
 author: "Mohammed Modi"
 description: "In this tutorial, you will learn about how to implement the authentication for Angular 2+ application in just 5 mins. We will be using LoginRadius for authentication."
 tags: ["Authentication", "Angular", "CLI", "LoginRadius CLI"]
@@ -44,7 +44,7 @@ $ lr register
 
 This command will open the Loginradius in the browser to register yourself and create the app.
 
-![Register Page](resgister_page.png "Register Page")
+![Register Page](resgister_page.webp "Register Page")
 
 Once you successfully register you will be able to see the below message on the browser, you can close the tab and come back to the CLI.
 
@@ -56,19 +56,19 @@ You are Successfully Authenticated, Kindly Close this browser window and go back
 
 Once you **login/register** using the CLI, You can now run the `lr get config` command to get your API credentials. 
 
-![LoginRadius CLI Get Config](lr_get_config.png "LoginRadius CLI Get Config")
+![LoginRadius CLI Get Config](lr_get_config.webp "LoginRadius CLI Get Config")
 
 ### Configuring Callback URLs
 
 A callback URL is a URL in your application where LoginRadius redirects the user after they have authenticated. The callback URL for your app must be added to your Application Configuration. If this field is not set, users will be unable to log in to the application and get an error.
 
-![Whitelist domain error](whitelist_domain_error.png "Whitelist domain error")
+![Whitelist domain error](whitelist_domain_error.webp "Whitelist domain error")
 
 To get the list of whitelisted domains, you can run `lr get domain` command from the cmd prompt. And to add a domain in the list using `lr add domain` command. 
 
 > If you are following this tutorial, you should set the  `http://localhost` as a whitelisted domain. Check the below image for how to add the domain using LoginRadius CLI.
 
-![LoginRadius CLI Add Domain](lr_add_domain.png "LoginRadius CLI Add Domain")
+![LoginRadius CLI Add Domain](lr_add_domain.webp "LoginRadius CLI Add Domain")
 
 ### Setup Angular application
 
@@ -298,21 +298,21 @@ Run `ng serve` to start the local server, and you will be able to see the output
 
 You can configure the LoginRadius Auth Page by adding social login methods like Facebook, Google, etc. To add the login method, you can use the command `lr get social` and `lr add social` command. Check the below image on how to add the social configuration.
 
-![Added Facebook as an loginmethod](lr_add_social.png "Added Facebook as an loginmethod")
+![Added Facebook as an loginmethod](lr_add_social.webp "Added Facebook as an loginmethod")
 
 After adding, visit the LoginRadius Auth Page either by visiting `locahost:4200` and log out. Or using the command `lr demo`. You will find the new login method added.
 
-![Added Facebook as an loginmethod](add_login_method.png "Added Facebook as an loginmethod")
+![Added Facebook as an loginmethod](add_login_method.webp "Added Facebook as an loginmethod")
 
 ### Customizing theme for LoginRadius Auth Page
 
 LoginRadius Dashboard Support three pre-defined themes for you. You can check out the [Theme Customization](https://dashboard.loginradius.com/auth-page) section in the LoginRadius Dashboard for all the customization options available. 
 
-![Theme Customization](theme_custom.png "Theme Customization")
+![Theme Customization](theme_custom.webp "Theme Customization")
 
 You can also get/set your current theme using LoginRadius CLI by using the commands like `lr get theme` and `lr set theme`.
 
-![Theme Customization CLI](theme_cli.png "Theme Customization CLI")
+![Theme Customization CLI](theme_cli.webp "Theme Customization CLI")
 
 ### Adding/Updating Registeration Schema for LoginRadius Auth Page
 
@@ -320,7 +320,7 @@ LoginRadius Auth Page supports 3 predefined fields for LoginRadius Auth Page i.e
 
 Check out the below commands to add the new registration field in your LoginRadius Application. After adding the new schema field you can always check your LoginRadius Auth Page by running `lr demo` command from the terminal.
 
-![Registration Schema LoginRadius CLI](registration_schema.png "Registration Schema LoginRadius CLI")
+![Registration Schema LoginRadius CLI](registration_schema.webp "Registration Schema LoginRadius CLI")
 
 ### LoginRadius Site Management
 
@@ -328,7 +328,7 @@ LoginRadius Dashboard provides a feature where you can create and manage multipl
 
 With the help of LoginRadius CLI you can manage your sites via terminal using commands like `lr get site`, `lr set site`, `lr add site`, `lr delete site`.
 
-![Site Management in LoginRadius CLI](site_management.png "Site Management in LoginRadius CLI")
+![Site Management in LoginRadius CLI](site_management.webp "Site Management in LoginRadius CLI")
 
 ### Contributing to LoginRadius CLI
 

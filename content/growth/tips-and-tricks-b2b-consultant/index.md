@@ -1,7 +1,7 @@
 ---
 title: "7 Tips and Tricks for B2B Consultant: How to Grow Your Client's Business"
 date: "2021-02-26"
-coverImage: "b2b-consultant.jpg"
+coverImage: "b2b-consultant.webp"
 category: ["all"]
 featured: false
 author: "Lidia Hovhannisyan"
@@ -104,7 +104,7 @@ If you are speaking with someone resistant to pain, focus on cutting costs, mini
 
 While [FedEx](https://www.fedex.com/en-us/home.html) is currently available to individual customers, it has been approved and rated as one of the best B2B companies in the world. The company is placed as [the 2nd most trusted B2B company](https://smallbiztrends.com/2018/08/most-trusted-b2b-brands-2018.html) by SageFrog and appears in Sacunas’ Top 100 B2B brands list. This company hasn’t made to these lists by mistake, this is because it is mostly committed towards customer service, experience, and open communication. Unlike most of its competitors, FedEx has taken into consideration its customers’ pain points and presented itself as a customer-centric company.
 
-![tips-b2b](tips-b2b.png)
+![tips-b2b](tips-b2b.webp)
 
 ## Be Your Client's Personal Trainer
 
@@ -145,4 +145,4 @@ As a B2B consultant, you are selling more than just a product. You are selling s
 
 Don't forget to qualify each prospect to see if they fit with your company. Doing so allows you to optimize your limited resources. When you do your due diligence, it would be so much easier to convert your leads and prospects to actual clients.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-and-tricks-b2b-consultant)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-and-tricks-b2b-consultant)

@@ -1,7 +1,7 @@
 ---
 title: "Get your FREE SSL Certificate!"
 date: "2017-07-13"
-coverImage: "letsencrypt.png"
+coverImage: "letsencrypt.webp"
 author: "Kundan Singh"
 tags: ["Engineering","SSL"]
 ---

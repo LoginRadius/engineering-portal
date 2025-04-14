@@ -1,7 +1,7 @@
 ---
 title: Facebook authentication using NodeJS and PassportJS
 date: "2020-06-01"
-coverImage: "facebook_node_passport.png"
+coverImage: "facebook_node_passport.webp"
 author: "Aman Agrawal"
 tags: ["Facebook","NodeJs","Authentication", "PassportJS"]
 ---
@@ -23,16 +23,16 @@ Passport is authentication middleware for Node, which authenticates requests and
   - Go to [Facebook](http://developers.facebook.com) and login with your Facebook account. 
   - Once you have registered, click on the `create app` link and you will need to enter the details in the following pop-up
 
-![Create Facebook APP](create-facebook-app.png "Create Facebook APP")
+![Create Facebook APP](create-facebook-app.webp "Create Facebook APP")
 
   - After creating an app you need to add the product of Facebook, here we are going to use **Facebook Login** 
 
-![Add a Facebook product](add-product.png "Add a Facebook product")
+![Add a Facebook product](add-product.webp "Add a Facebook product")
 
   - After adding up the product you can now choose to have 'web' and while setting up the URL, you can simply write `http://localhost:3000`
   - After this go to tab 'MyApps' and select the **App name**. Select the 'Basic` from *settings* options in the sidebar as shown below. You can now copy your secret and ID from here
 
-  ![App ID and Secret](app-id-secret.png "App ID and Sceret")
+  ![App ID and Secret](app-id-secret.webp "App ID and Sceret")
 
 
 2. Now enough, let's move to code, First of all, create a directory named `facebook-node-authentication`
@@ -319,10 +319,10 @@ npm start
 
 
 
-  ![Facebook login home page](facebook-login-home-page.png "Facebook login home page")
+  ![Facebook login home page](facebook-login-home-page.webp "Facebook login home page")
 
   
-  ![Facebook login profile page](Profile-page-facebook-login.png "Facebook login profile page")
+  ![Facebook login profile page](Profile-page-facebook-login.webp "Facebook login profile page")
 
 
  You can found the complete code used in this tutorial on our [Github Repo](https://github.com/LoginRadius/engineering-blog-samples/tree/master/NodeJs/FacebookAuthenticationPassport)

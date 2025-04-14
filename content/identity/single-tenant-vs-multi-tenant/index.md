@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Difference Between Single-Tenant and Multi-Tenant Cloud [Infographic]"
 date: "2021-02-26"
-coverImage: "single-tenant-vs-multi-tenant-cover.jpg"
+coverImage: "single-tenant-vs-multi-tenant-cover.webp"
 tags: ["cloud computing","single tenant","multi tenant"]
 author: "Rakesh Soni"
 description: "A single-tenant cloud runs on dedicated infrastructure, while a multi-tenant cloud is a single cloud infrastructure built to serve multiple businesses. Check out the infographic by LoginRadius to understand the difference between the two and find out which is the right solution for your business."
@@ -55,7 +55,7 @@ Cloud providers offer multi-tenancy as a gateway to share the same application w
 *   **Flexible**: A multi-tenant cloud can allocate a pool of resources to the users who need it, as their needs scale up and down.
 *   **Efficient**: Multitenancy reduces the need to manage infrastructure and handle updates. 
 
-[![Future-proof-your-security](Future-proof-your-security.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![Future-proof-your-security](Future-proof-your-security.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 
 
@@ -72,8 +72,8 @@ To learn more about Single-Tenant vs Multi-Tenant Cloud, check out the infograph
 
 
 
-![single-tenant-vs-multi-tenant-infographic](single-tenant-vs-multi-tenant-infographic.png) 
+![single-tenant-vs-multi-tenant-infographic](single-tenant-vs-multi-tenant-infographic.webp) 
 
 Contact us for your personalized deployment requirements.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-tenant-vs-multi-tenant)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=single-tenant-vs-multi-tenant)

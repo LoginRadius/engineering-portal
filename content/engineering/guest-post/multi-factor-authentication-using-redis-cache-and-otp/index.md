@@ -1,7 +1,7 @@
 ---
 title: "Multi-Factor Authentication (MFA) with Redis Cache and OTP"
 date: "2022-06-30"
-coverImage: "mfa-with-redis-cache-and-otp.png"
+coverImage: "mfa-with-redis-cache-and-otp.webp"
 author: "Fredrick Emmanuel"
 tags: ["Node.js", "Redis", "Authentication"]
 description: "Want to implement Multi-Factor Authentication (MFA)? Follow this tutorial to implement MFA using Redis Cache and OTP in your applications."
@@ -46,7 +46,7 @@ In this section, you will learn how to start an Express server.
 
     The Express dependency will be used to set up the backend server and nodemon, installed as a devDependency, which will watch the file system and restart the server when a change is made.
 
-    ![Express and Nodemon Installation](express-and-nodemon-install.jpg)
+    ![Express and Nodemon Installation](express-and-nodemon-install.webp)
 
 3. Create a new file named `server.js` in the project’s directory. For simplicity, this file will contain all the server code for this application.
 
@@ -88,7 +88,7 @@ In this section, you will learn how to start an Express server.
     
 6. Start the server in development mode by running `npm run dev` in your terminal.
 
-    ![Express server](npm-run-dev.jpg)
+    ![Express server](npm-run-dev.webp)
 
 ## Set Up Nodemailer
 
@@ -152,7 +152,7 @@ After setting up your Outlook account, the next step is to use your Outlook acco
 
 3. To test the application, use an API testing application like [Postman](https://www.postman.com/) and make a POST request to `http://localhost:5000/auth`, passing `email` and `message` to the body of the request.
 
-    ![Postman](postman.jpg)
+    ![Postman](postman.webp)
 
 ## Generate OTPs
 
@@ -216,11 +216,11 @@ This tutorial uses the `nanoid` module to generate random numbers.
     
 4. Make a POST request to `http://localhost:5000/auth`, passing only the email address.
 
-    ![Email test](email-test.jpg)
+    ![Email test](email-test.webp)
 
 5. Check the email address for which the OTP is sent.
 
-    ![Gmail](gmail.jpg)
+    ![Gmail](gmail.webp)
 
 ## Redis
 
@@ -248,17 +248,17 @@ This tutorial uses [Redis Cloud](https://redis.com/) to set up the Redis databas
 
 1. Create a new Redis Cloud account if you don’t have one.
 
-    ![Redis Cloud Set Up](redis-cloud-sign-in.jpg)
+    ![Redis Cloud Set Up](redis-cloud-sign-in.webp)
 
 2. Click on **Let’s start free** and let Redis create a cloud database.
 
 3. Click on **Configurations** and copy your **Public endpoint.** This endpoint will be used to set up the Redis application.
 
-    ![Public endpoint](fredrick-free-db.jpg)
+    ![Public endpoint](fredrick-free-db.webp)
 
 4. Still on the **Configurations** tab, copy your **Default user password**.
     
-    ![Password](password.jpg)
+    ![Password](password.webp)
 
 5. Run `npm i redis` in your terminal. Import the `redis` dependency into `server.js`, and set up the `redisClient` using the **Redis cloud endpoint**.
     
@@ -293,7 +293,7 @@ This tutorial uses [Redis Cloud](https://redis.com/) to set up the Redis databas
     
 6. Start up the server in your terminal and view the result.
     
-    ![Redis Test](redis-test.jpg)
+    ![Redis Test](redis-test.webp)
 
 ## Sessions
 
@@ -473,7 +473,7 @@ It’s time to put the backend code into actual functionality. This tutorial mak
 
     > When the server is rendering an ejs file, it checks in the views folder for the file. So, this name is not optional.
 
-    ![Folder Structure](folder-structure.png)
+    ![Folder Structure](folder-structure.webp)
 
 > Style these various routes as you like
 

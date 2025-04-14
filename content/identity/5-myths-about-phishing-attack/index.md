@@ -1,7 +1,7 @@
 ---
 title: "5 Myths About Phishing You Should Know"
 date: "2022-03-28"
-coverImage: "phish-email.jpg"
+coverImage: "phish-email.webp"
 tags: ["data security","mfa","cx"]
 author: "Lucy Manole"
 description: "Most of us think we can spot a phishing email, but are we really safe against online fraud? Here are some truths about credential phishing."
@@ -34,7 +34,7 @@ Credential phishing attacks are usually targeted attacks that are backed by exte
 
 The victims' credentials are then used to carry out secondary attacks like fraudulent funds transfer, stealing company data, identity fraud, and other fraudulent activities.
 
-[![WP-credential-stuffing](WP-credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![WP-credential-stuffing](WP-credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 
 ## Top 5 Myths About Credential Phishing You Should Know
@@ -75,7 +75,7 @@ copying the same messaging format, logo, and signature. They project urgency in 
 For example, this is a new email intercepted by MailGuard that seems like an auto-generated notification about password expiry. 
 
 
-![ss-1](ss-1.jpg)
+![ss-1](ss-1.webp)
 
 
 [Source](https://www.mailguard.com.au/blog/phishing-email-employing-cpanel-branding-claims-your-password-has-expired) 
@@ -126,4 +126,4 @@ Regardless of [how secure your email systems](https://www.loginradius.com/blog/i
 
 We are sure the information shared in this post will help keep your organization safe from such attacks. 
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-myths-about-phishing-attack)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-myths-about-phishing-attack)

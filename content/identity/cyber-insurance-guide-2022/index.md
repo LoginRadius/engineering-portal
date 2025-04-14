@@ -1,7 +1,7 @@
 ---
 title: "Everything You Need to Know Before Buying Cyber Insurance in 2022"
 date: "2022-01-11"
-coverImage: "cyber-insurance.jpg"
+coverImage: "cyber-insurance.webp"
 tags: ["cybersecurity","compliance","cx"]
 author: "Rajeev Sharma"
 description: "Before you buy cyber insurance in 2022, make sure you know everything there is to know about it. Learn the ins and outs of what to expect, how much wealth you can save, and more."
@@ -69,7 +69,7 @@ After a data breach or cyberattack, there is a very high chance that the company
 
 Regulatory bodies, both international and national, may require the company to pay a certain amount as a fine for being unable to implement the right security measures. 
 
-**Also Learn**[![DS-CCPA-comp](DS-CCPA-comp.png)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
+**Also Learn**[![DS-CCPA-comp](DS-CCPA-comp.webp)](https://www.loginradius.com/resource/loginradius-and-ccpa-compliance)
 
 
 ### 3. Public relations costs
@@ -92,4 +92,4 @@ Another requirement after a cyberattack is the need for a company to send out no
 Cyber insurance can be a source of hope in the dire circumstances of a cyber attack. Companies will no longer have to be financially handicapped and deprived of important resources during this time. Although cyber insurance can be an expensive investment option, in the beginning, it has valuable payoffs, especially for a company that is prone to cyberattacks.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyber-insurance-guide-2022)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyber-insurance-guide-2022)

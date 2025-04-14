@@ -1,7 +1,7 @@
 ---
 title: "Why You Should Use Open Source Project For Your Business"
 date: "2021-11-26"
-coverImage: "open-source.jpg"
+coverImage: "open-source.webp"
 tags: ["security"]
 featured: false 
 author: "Jitender Agarwal"
@@ -115,4 +115,4 @@ Experts recommend not to leverage the open-source project in the places where:
 Enterprises should carefully analyze and assess their suitability while adopting open source and be cautious when implementing the project.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-open-source-project)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-open-source-project)

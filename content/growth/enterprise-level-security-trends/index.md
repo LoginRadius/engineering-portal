@@ -1,7 +1,7 @@
 ---
 title: "Enterprise-Level Security Trends: 5 Things to Know As a CEO"
 date: "2023-05-17"
-coverImage: "ceo-enterprise-security.jpg"
+coverImage: "ceo-enterprise-security.webp"
 tags: ["enterprise level security","cybersecurity","cx"]
 author: "Lucy Manole"
 description: "A gradual transition towards a robust security culture signifies the importance of integrating cybersecurity awareness. As a result, many organizations are now building dedicated board-level cybersecurity committees under the CEO’s wing to better address this growing concern."
@@ -55,7 +55,7 @@ CEOs should consider some key aspects when building a dedicated board-level cybe
 * **Top-down approach:** A security culture must be driven from the top down, with the CEO and executive team demonstrating a commitment to security. This helps set a strong example for the rest of the organization.
 * **Incident response plan:** A CEO must approve a comprehensive incident response plan that outlines steps to be taken in case of a security breach, including communication, containment, and recovery.
 
-[![GD-Enterprise-RP](GD-Enterprise-RP.png)](https://www.loginradius.com/resource/survive-a-cyber-apocalypse)
+[![GD-Enterprise-RP](GD-Enterprise-RP.webp)](https://www.loginradius.com/resource/survive-a-cyber-apocalypse)
 
 * **Review and evaluation:** The committee periodically reviews and evaluates the organization's cybersecurity posture, including the effectiveness of its risk management strategies, incident response plans, and overall security controls.
 
@@ -87,4 +87,4 @@ Cybersecurity is no longer just an IT concern but a top strategic priority for e
 
 Remember, a robust security posture prevents potential attacks and demonstrates to customers, investors, and stakeholders that your organization is committed to ensuring the highest levels of trust and confidence.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-level-security-trends)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enterprise-level-security-trends)

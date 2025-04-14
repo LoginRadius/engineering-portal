@@ -1,7 +1,7 @@
 ---
 title: "Digital Trends Transforming the Media and Entertainment Industry in 2020"
 date: "2020-02-25"
-coverImage: "media-industry.jpg"
+coverImage: "media-industry.webp"
 tags: ["digital transformation","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "The worldwide media and entertainment industry is going through a huge transformation at the moment. 2020 aims to be the year of digital change in the media and entertainment sector with a large-scale roll-out of technology."
@@ -33,7 +33,7 @@ According to an estimation by Strategy Analytics, revenue from OTT video in the 
 
 These figures grab attention and are hard to ignore.
 
-![stats OTT video revenue and forecast](Identity-blog-graphic-02-1024x709.png)
+![stats OTT video revenue and forecast](Identity-blog-graphic-02-1024x709.webp)
 
 Data source: Strategy analytics OTT video forecast
 
@@ -55,7 +55,7 @@ Following suit came the [California Consumer Privacy Act (CCPA)](https://www.log
 
 But will it hit the right chords among organizations and individuals? Only time will tell.
 
-![GDPR and CCPA](Identity-blog-graphic-03-1024x709.png)
+![GDPR and CCPA](Identity-blog-graphic-03-1024x709.webp)
 
 ## 5 Technologies That Will Impact User Experience in Media and Entertainment Industry
 
@@ -91,7 +91,7 @@ Facial Recognition is swiftly turning into one of the most common forms of biome
 
 For instance, it will identify individuals in-store and offer purchasing recommendations based on their demographic.
 
-![](image4.jpg)
+![](image4.webp)
 
 ## How will CIAM solutions gain momentum in the media and entertainment industry?
 
@@ -111,7 +111,7 @@ The digitization of media content has also changed the way companies earn revenu
 
 A [CIAM platform like LoginRadius](https://www.loginradius.com/blog/identity/perfect-ciam-platform/) can record the preferences of their audience in unified customer profiles and generate relevant content.
 
-[![media and publication data sheet loginraidus](image5.png)](https://www.loginradius.com/resource/how-media-and-publication-companies-use-loginradius-identity-platform/)
+[![media and publication data sheet loginraidus](image5.webp)](https://www.loginradius.com/resource/how-media-and-publication-companies-use-loginradius-identity-platform/)
 
 ### **Frictionless customer interaction.**
 
@@ -125,4 +125,4 @@ With a large scale roll-out of the technology, 2020 promises to be the year of d
 
 Amidst the ever-changing regulatory landscape, there are high chances that new opportunities are waiting to be capitalized. _Now_ is your chance to reap the benefits.
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-media-entertainment-industry)
+[![](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-experience-media-entertainment-industry)

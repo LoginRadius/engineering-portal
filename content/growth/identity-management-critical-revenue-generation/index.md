@@ -1,7 +1,7 @@
 ---
 title: "Demystifying Identity Management For Revenue Generation - Going Beyond Compliance"
 date: "2022-10-17"
-coverImage: "revenue-generation.jpg"
+coverImage: "revenue-generation.webp"
 tags: ["digital identity management", "ciam", "compliance"]
 author: "Rakesh Soni"
 description: "Modern businesses quickly realize that leveraging digital identities as fuel for driving their organizational growth through personalization and robust identity security is becoming the need of the hour. This blog outlines the major depicting how identity management paves the way for organizational growth."
@@ -40,7 +40,7 @@ Your users always expect personalization from the moment they interact with your
 
 With a customer identity and access management (CIAM) solution for identity management, organizations can ensure they remain ahead of their competitors by leveraging the true potential of personalization. 
 
-[![EB-GD-to-Mod-Cust-Id](EB-GD-to-Mod-Cust-Id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-Mod-Cust-Id](EB-GD-to-Mod-Cust-Id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 As a brand, one could utilize customer-related details in a way that helps automatically generate suggestions based on a user’s interest and past behavior on your platform. This means you have a greater chance of lead generation and conversion. 
 
@@ -73,4 +73,4 @@ Identity management is a critical part of the revenue generation process. In tod
 
 A modern CIAM solution can help you manage your customers' information, enhance user experience, and ensures you build better-personalized experiences to convert your targetted audience into customers. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-critical-revenue-generation)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-critical-revenue-generation)

@@ -1,7 +1,7 @@
 ---
 title: "Big Data - Testing Strategy"
 date: "2020-09-02"
-coverImage: "big-data.png"
+coverImage: "big-data.webp"
 author: "Sudhey Sharma"
 tags: ["Testing", "Big Data","Big Data Testing"]
 description: "With the exponential growth in the number of big data applications in the world, Testing in big data applications is related to database, infrastructure and performance testing and functional testing. This blog guides what should be the strategy for testing Big Data applications."
@@ -23,7 +23,7 @@ Testing is an art of achieving quality in your software product, in terms of per
 
 Processing may be of three types:– 
 
-![Batch, Real Time, Interactive](BigDataTesting-2.png)
+![Batch, Real Time, Interactive](BigDataTesting-2.webp)
 
 And based on which, we need to integrate different components along with NoSQL data store as per the needs.
 
@@ -53,7 +53,7 @@ Scalability is also desired to be there in the test environment of big data test
 
 **Big Data Testing can be categorized into three stages:**
 
-![Big Data Testing - Phases](BigDataTesting-1.png)
+![Big Data Testing - Phases](BigDataTesting-1.webp)
 
 
 
@@ -87,7 +87,7 @@ The output validation process is the final or third stage involved in big data t
 Big data applications are meant to process a large amount of data, and it is expected that it should take minimum time to process maximum data. Along with it, application jobs should consume a considerable amount of memory and CPU. In big data testing, performance parameter plays an important role and helps to define SLA's. It covers the performance of the base machine and cluster. Also, for example, In the case of Hadoop, map-reduce jobs should be written with proper coding guidelines, to perform better in the production environment. Profiling can also be done on map-reduce jobs before integration, to ensure their optimized execution.
 
 ## Tools used in Big Data Scenarios
-![Big Data Scenarios - Tools](BigDataTesting-3.png)
+![Big Data Scenarios - Tools](BigDataTesting-3.webp)
 
 ## Big Data Testing - Challenges
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "7 Best Marketing Emails to Attract Consumers Right Away"
 date: "2021-03-30"
-coverImage: "email-business-Loginradius.jpg"
+coverImage: "email-business-Loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -24,7 +24,7 @@ The right type of marketing emails with an interesting subject line and body can
 
 Having said that, email fatigue is also a real problem – with thousands of promotional emails flooding our inboxes. How can you use email marketing to attract customers without sounding "too salesy" or making it a "hard sell?"
 
-  [![Credential-stuffing](Credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+  [![Credential-stuffing](Credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 Here are the seven best types of promotional emails that should be part of your email marketing strategy:
 
@@ -167,4 +167,4 @@ Even in this day and age of social media marketing, email marketing remains amon
 
 For any marketing business, protecting their customer identities is also important to prevent any data breaches. LoginRadius provides the **[best identity management tools](https://www.loginradius.com/)** that can protect your customers during the login, registration process, and other customer touchpoints on your website.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-best-marketing-emails-to-attract-consumers-right-away)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-best-marketing-emails-to-attract-consumers-right-away)

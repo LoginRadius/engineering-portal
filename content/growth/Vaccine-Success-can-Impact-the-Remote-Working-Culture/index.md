@@ -1,7 +1,7 @@
 ﻿---
 title: "COVID-19 Vaccine Success in USA and Remote Working – What’s The Connection"
 date: "2021-05-26"
-coverImage: "COVID-vaccines-for-remote-culture.jpg"
+coverImage: "COVID-vaccines-for-remote-culture.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -32,7 +32,7 @@ The study took a thorough look into the effectiveness of the mRNA vaccines among
 
 The findings clearly show that the USA has eventually got the better of the issue (or at least gotten very close to eliminating it) and is looking at a tomorrow that is safe and completely free from the pandemic that has claimed the lives of millions.
 
-![book-a-demo-Consultation](remot-working-in-covid.jpg)
+![book-a-demo-Consultation](remot-working-in-covid.webp)
 ## Slowly but Steadily, Work from Home in the USA has Begun to Ease
 
 Even though work from home has by and large been quite productive, there is no substitute for the real-world interaction that professionals have in the office. It not only bolsters collaboration but also enhances the much-needed bonds among colleagues that eventually turn out to be the key aspects for overall growth.
@@ -64,5 +64,5 @@ Considering that it would be apt to remain guarded against COVID-19 so that the 
 The remarkable [COVID-19 business success](https://www.loginradius.com/blog/fuel/2021/03/how-to-make-businesses-marketing-plans-after-coronavirus/) in the USA is going to pave the way forward for other countries as well, especially the ones that are struggling to find the right answers to get rid of the pandemic. This success is all set to have a huge impact on the work from home culture and help people return to real-world interaction and teamwork, which are essential for long-term growth. The hybrid model will most likely lead the change.
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=vaccine-success-can-impact-the-remote-working-culture)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=vaccine-success-can-impact-the-remote-working-culture)
 

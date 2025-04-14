@@ -1,7 +1,7 @@
 ﻿---
 title: "How CISOs Can Improve Collaboration on Security Risks"
 date: "2021-09-27"
-coverImage: "ciso-cover-image.jpg"
+coverImage: "ciso-cover-image.webp"
 tags: ["data security","cybersecurity","cx"]
 author: "Shivangini Yadav"
 description: "It no longer makes sense to think of security as a single system, because there are so many different layers, and so many different points of entry. This blog explains how  CISOs can respond to these multivalent threats across an organization."
@@ -55,7 +55,7 @@ Effective CISOs are those that encourage their team to share their skills with t
     
 Finally, make sure you are using the technology available to you in order to share information and insight across all the teams in your organization. A comprehensive security incident and event management (SIEM) can greatly improve network visibility, but also allow you to share real-time, actionable insights with teams that may be opening themselves up to attack.
 
-[![WP-Credential-stuffing](WP-Credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)  
+[![WP-Credential-stuffing](WP-Credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)  
 
 And, over time, it’s possible to leverage the power of big data to pull the insights drawn from your SIEM into a holistic picture of cybersecurity across your organization. By tracking the types of threats that you are exposed to, and their relative success, you can begin to plan a cybersecurity strategy that reduces your future vulnerability.
 
@@ -65,4 +65,4 @@ Ultimately, collaboration is a necessary part of the contemporary business envir
 
 Building collaborative ways of working is not a quick process, but it can be done. And just as we’ve seen the evolutionary development of cyber security over the past few years, now we are witnessing the evolution of the business environment itself.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciso-can-improve-collaboration-on-security-risks)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-ciso-can-improve-collaboration-on-security-risks)

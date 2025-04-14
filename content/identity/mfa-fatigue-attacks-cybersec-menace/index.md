@@ -1,7 +1,7 @@
 ﻿---
 title: "Why MFA Fatigue Attacks May Soon Be Your Worst Nightmare?"
 date: "2022-10-31"
-coverImage: "mfa-fatigue.jpg"
+coverImage: "mfa-fatigue.webp"
 tags: ["mfa fatigue", "risk-based authentication", "authentication process"]
 author: "Rakesh Soni"
 description: "MFA fatigue attacks bypass MFA by bombarding a user with multiple login attempts. The account owner accepts the MFA prompt out of desperation or annoyance, leading to an account takeover. Let’s learn how organizations can gear themselves to shield against these attacks."
@@ -49,7 +49,7 @@ It is a method of applying various levels of stringency to [authentication proce
 
 Risk-based authentication is an essential security feature because it works in real-time to prevent cyber frauds like accounts getting compromised without causing an inconvenience for legitimate consumers.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 Risk-based authentication helps businesses in achieving the following goals:
 
@@ -78,5 +78,5 @@ MFA fatigue attacks are on the rise, and businesses can’t afford to take the r
 Adding a more robust authentication mechanism in the form of risk-based authentication can help minimize the chances of MFA fatigue attack and help secure crucial information. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-fatigue-attacks-cybersec-menace)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-fatigue-attacks-cybersec-menace)
 

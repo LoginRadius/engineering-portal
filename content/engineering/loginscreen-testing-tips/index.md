@@ -2,7 +2,7 @@
 title: "Login Screen - Tips and Ideas for Testing"
 date: "2020-10-30"
 author: "Sudhey Sharma"
-coverImage: "CoverImage.jpg"
+coverImage: "CoverImage.webp"
 tags: ["LoginScreen", "TestingTips"]
 description: "Login process is the most important feature for any system/application as it provides access to an entire web-site/application or part of it. This article is providing you with some important tips & ideas about login testing."
 ---
@@ -10,7 +10,7 @@ description: "Login process is the most important feature for any system/applica
 A **login screen** is a web **page** or an entry **page** to a web/mobile application that requires user identification and authentication, regularly performed by entering a username and password combination. 
 The login process is the most essential feature for any system/application as it provides access to an entire **web-site/application** or part of it. So, testing of the login screen needs complete coverage. 
 
-![Login Screen](Login-Page.png)
+![Login Screen](Login-Page.webp)
 
 Mentioned below are few tips that can be referred for testing the login screen of any system/application.
 

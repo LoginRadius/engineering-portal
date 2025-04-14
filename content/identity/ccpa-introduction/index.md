@@ -1,7 +1,7 @@
 ---
 title: "California's CCPA 2.0 Passed: Everything You Need to Know About the New CPRA"
 date: "2019-05-03"
-coverImage: "ccpa-intro.jpg"
+coverImage: "ccpa-intro.webp"
 tags: ["ccpa","data privacy","compliance","customer trust"]
 author: "Rakesh Soni"
 description: "On November 3, 2020, the voters in California approved the Consumer Privacy Rights Act (on the ballot as Proposition 24) with 56.1% of the vote. This revised version of the CCPA will further strengthen the consumer privacy rights for California citizens."
@@ -55,7 +55,7 @@ A GDPR Privacy Policy will meet CalOPPA/CCPA requirements, but a CalOPPA/CCPA po
 
 It’s also helpful to train your customer-facing employees on how privacy policies and CCPA compliance can [improve customer trust](https://www.loginradius.com/customer-trust/) and increase engagement.
 
-[![](ccpa-and-customer-identity.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![](ccpa-and-customer-identity.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 
 ## **CCPA 2.0: What You Need to Know About the New CPRA**
@@ -227,4 +227,4 @@ Last but not least, LoginRadius provides [top-notch security](https://www.loginr
 Following the old CCPA rules will _not automatically_ lead to CCPA 2.0 compliance; don’t wait to be sued to find out. Let LoginRadius help your business become globally compliant. Not only does our technology meet the new CPRA regulations, but we continuously update it to meet new international privacy laws.
 
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-introduction)
+[![](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-introduction)

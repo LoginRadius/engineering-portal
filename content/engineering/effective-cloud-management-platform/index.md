@@ -1,7 +1,7 @@
 ---
 title: "Why You Need an Effective Cloud Management Platform"
 date: "2021-03-10"
-coverImage: "cover.png"
+coverImage: "cover.webp"
 author: "Aayushi Sanghavi"
 tags: ["Cloud", "Cloud Management"]
 description: "Cloud management platforms are an integral part of managing cloud resources and infrastructure. They are a real asset, especially for a modern and remote workforce. Here’s how they help in business operations."

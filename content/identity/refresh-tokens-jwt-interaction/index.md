@@ -1,7 +1,7 @@
 ---
 title: "Refresh Tokens: When to Use Them and How They Interact with JWTs"
 date: "2021-08-24"
-coverImage: "refresh-tokens-jwt-interaction-cover.jpg"
+coverImage: "refresh-tokens-jwt-interaction-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Saikiran Babladi"
@@ -108,4 +108,4 @@ Businesses can leverage LoginRadius’ authentication and authorization services
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=refresh-tokens-jwt-interaction)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=refresh-tokens-jwt-interaction)

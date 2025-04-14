@@ -1,7 +1,7 @@
 ---
 title: "Implement HTTP Streaming with Node.js and Fetch API"
 date: "2022-04-27"
-coverImage: "http-streaming-with-nodejs-and-fetch-api.png"
+coverImage: "http-streaming-with-nodejs-and-fetch-api.webp"
 author: "Nick Van Nieuwenhuyse"
 tags: ["Node.js", "Fetch API", "Streaming"]
 description: "Do you know that you can stream HTTP data for efficient visualization? Learn more about how you can stream data with HTTP using Node.js and Fetch API."

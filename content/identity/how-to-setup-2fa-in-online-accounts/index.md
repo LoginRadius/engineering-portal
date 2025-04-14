@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up Two-factor Authentication on All Your Online Accounts?"
 date: "2021-01-12"
-coverImage: "how-to-setup-2fa-online-accounts.jpg"
+coverImage: "how-to-setup-2fa-online-accounts.webp"
 tags: ["2fa","mfa","cx"]
 author: "Rakesh Soni"
 description: "2FA is one of the best security methods that use two layers to verify a consumer’s identity. This means, rather than simply entering the password to log into an account, two-factor authentication requires a code to be sent via text message to a consumer's phone number or generated through an app"
@@ -46,7 +46,7 @@ The next time you sign in to your app or service, it will ask for a numerical co
 
 ## **How to Set up 2FA on Your Social Media Accounts?**
 
-![how-to-set-up-2fa-on-your-social-media-accounts](how-to-set-up-2fa-on-your-social-media-accounts.png)
+![how-to-set-up-2fa-on-your-social-media-accounts](how-to-set-up-2fa-on-your-social-media-accounts.webp)
 
 A lot of applications offer 2FA currently, especially if you are storing important and sensitive data, financial information, emails, social media, files, contact details, etc. 
 
@@ -64,7 +64,7 @@ If you want to set up an authenticator on the Google account, first you need to 
 
 You can add the two-**step verification** process here.
 
-![how-to-setup-2fa-in-google](how-to-setup-2fa-in-google.png)
+![how-to-setup-2fa-in-google](how-to-setup-2fa-in-google.webp)
 
 Source: Google
 
@@ -87,7 +87,7 @@ To set up 2FA on your WhatsApp account, you will need to:
 *   Go to Look under Account > Two-step verification > Allow.
 *   You will be prompted to end a six-digit PIN to verify your account. If you forget your PIN, you can optionally add an email address.  
 
-![how-to-set-up-2fa-in-whatsapp](how-to-set-up-2fa-in-whatsapp.jpg)
+![how-to-set-up-2fa-in-whatsapp](how-to-set-up-2fa-in-whatsapp.webp)
 
 Source: lifewire
 
@@ -114,7 +114,7 @@ To set up 2FA on your Facebook account, you will need to:
 
 You can also use the Facebook mobile app for approving sign-ins on the web or set up a third-party authentication app for generating codes.
 
-![how-to-set-up-2fa-in-facebook](how-to-set-up-2fa-in-facebook.png "image_tooltip")
+![how-to-set-up-2fa-in-facebook](how-to-set-up-2fa-in-facebook.webp "image_tooltip")
 
 Source: Facebook
 
@@ -128,7 +128,7 @@ To set up 2FA on your Twitter account, you will need to:
 *   Verify your mobile number and then click Set up a code generator app. 
 *   Scan the QR code with the third-party authenticator app. 
 
-![how-to-set-up-2fa-in-twitter](how-to-set-up-2fa-in-twitter.jpg)
+![how-to-set-up-2fa-in-twitter](how-to-set-up-2fa-in-twitter.webp)
 
 ### 7. Apple iCloud
 
@@ -157,7 +157,7 @@ In 2017, two-factor authentication was added by Instagram to the mobile app, whi
 
 With Instagram, you also get to choose between SMS-based verification and a code sent to the authentication app. 
 
-![how-to-set-up-2fa-in-instagram](how-to-set-up-2fa-in-instagram.jpg "image_tooltip")
+![how-to-set-up-2fa-in-instagram](how-to-set-up-2fa-in-instagram.webp "image_tooltip")
 
 Source: Kaspersky
 
@@ -193,7 +193,7 @@ Users can consider these factors when choosing the most suitable authenticator a
 
 ## **Setting Up 2FA Login with LoginRadius Adaptive 2FA/ MFA solution**
 
-![setting-up-2fa-with-loginradius](setting-up-2fa-with-loginradius.png)
+![setting-up-2fa-with-loginradius](setting-up-2fa-with-loginradius.webp)
 
 LoginRadius provides multi-factor authentication via SMS, email, automated phone calls, account [security questions](https://www.loginradius.com/blog/identity/2019/01/best-practices-choosing-good-security-questions/), and authenticator apps to allow you a customized user experience.  
 
@@ -207,7 +207,7 @@ You can enable 2FA [SMS verification](https://www.loginradius.com/docs/api/v2/cu
 
 As the first step, you'll need to apply a first verification factor, like standard email and password login, username and password, automated phone call, or access token. The second factor can be a one-time password or code sent via SMS. 
 
-[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.png)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
+[![buyer-guide-to-multi-factor-authentication-ebook](buyer-guide-to-multi-factor-authentication-ebook.webp)](https://www.loginradius.com/resource/ebook/buyers-guide-to-multi-factor-authentication/)
 
 ### Google Authenticator Workflow
 
@@ -239,4 +239,4 @@ Choose your method (SMS or authenticator app) during setup, then link the code t
 
 Yes, 2FA is user-friendly. It involves entering a code or approving a notification on your phone during logins.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-setup-2fa-in-online-accounts)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-setup-2fa-in-online-accounts)

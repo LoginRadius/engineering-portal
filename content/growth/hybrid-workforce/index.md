@@ -1,7 +1,7 @@
 ---
 title: "Hybrid Workforce: Laying The Foundation of Remote Working"
 date: "2021-02-22"
-coverImage: "hybrid-workforce.jpg"
+coverImage: "hybrid-workforce.webp"
 category: ["all"]
 featured: false
 author: "Rakesh Soni"
@@ -113,4 +113,4 @@ Companies also need to provide the [employees working remotely](https://www.logi
 
 A Hybrid workforce can prove to be beneficial both for companies and the employees who would work remotely. This change was forced into action due to the covid-19 pandemic, but it'll be the future of the work. It'll lead to a great many changes. It will not only help businesses build more money, but it'll also help them lessen the workload on the employees. In a nutshell, the hybrid workforce model is a win-win for both employers and employees. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hybrid-workforce)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=hybrid-workforce)

@@ -1,7 +1,7 @@
 ---
 title: "5 Ways to Improve Your Customer Verification Process"
 date: "2022-04-04"
-coverImage: "customer-verifcn.jpg"
+coverImage: "customer-verifcn.webp"
 tags: ["identity verification","customer identity management","cx"]
 author: "Gaurav Belani"
 description: "In the wake of recent data breaches, many companies are realizing that they need to improve their customer verification process. Learn how to improve the process and make it easy and secure for your customers."
@@ -41,7 +41,7 @@ Now, check out these top ways to improve and streamline your customer verificati
 
 For instance, if you are doing email validation integration for Shopify with ZeroBounce, after a few initial steps, you will be asked to click the verification link to begin the verification process.
 
-![ss-1](ss-1.png)
+![ss-1](ss-1.webp)
 
 
 [Source](https://www.zerobounce.net/docs/api-integrations/shopify)
@@ -65,7 +65,7 @@ For instance, you can use behavioral biometrics.
 
 Biometrics is one of the most effective methods of customer verification because physical traits like fingerprints and retina scans cannot be faked. Behavioral biometrics go one step further by considering how a person types or handles their mouse or mobile device as well as their physical characteristics.
 
-[![DS-Mob-Biometric](DS-Mob-Biometric.png)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
+[![DS-Mob-Biometric](DS-Mob-Biometric.webp)](https://www.loginradius.com/resource/mobile-biometric-authentication-datasheet)
 
 
 ### 3. Speed things up with SSO.
@@ -105,4 +105,4 @@ In summary, there are many ways eCommerce retailers can improve the customer ver
 
 Whether you choose to [develop your own system](https://www.loginradius.com/blog/identity/build-vs-buy-securing-customer-identity/) or purchase a verification solution from a third-party vendor, ensuring this process is seamless for customers, and free of errors will go a long way towards ensuring that both merchants and buyers have a trusted and satisfying shopping experience every time.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-improve-customer-verification-process)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-improve-customer-verification-process)

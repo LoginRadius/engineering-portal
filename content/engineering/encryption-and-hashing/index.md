@@ -1,7 +1,7 @@
 ---
 title: "Encryption and Hashing"
 date: "2018-12-24"
-coverImage: "encryption-and-hashing.png"
+coverImage: "encryption-and-hashing.webp"
 author: "Andy Yeung"
 tags: ["Encryption", "Hashing"]
 ---

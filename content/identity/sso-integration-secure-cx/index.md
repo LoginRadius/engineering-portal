@@ -1,7 +1,7 @@
 ---
 title: "SSO Integration: How to Secure the Customer Experience on Loyalty Platforms"
 date: "2021-10-18"
-coverImage: "sso-integration-secure-cx-cover.jpg"
+coverImage: "sso-integration-secure-cx-cover.webp"
 tags: ["sso","identity management","compliance"]
 author: "Rakesh Soni"
 description: "Today, consumers are enjoying flawless experiences on every platform but can’t indulge in a seamless experience when they connect with a loyalty platform for potential benefits. This post helps you understand the biggest challenge for loyalty platforms and how Single Sign-On (SSO) integration for consumer loyalty platforms solves the purpose."
@@ -109,7 +109,7 @@ The LoginRadius Identity Platform offers SSO in the following ways:
 * **Federated SSO:** Login also helps you implement SSO with third-party applications. It is done through [federated SSO](https://www.loginradius.com/federated-sso/). LoginRadius Identity Platform supports all major industry single sign-on protocols like SAML, JWT, OAuth, and OpenID SSO protocols for interaction with various third-party web applications.
 * **Custom IDPs:** Consider this as Social Login. Custom IDPs are used to configure a Social Login provider that is not available in the default list of providers by LoginRadius. You can use any external database to authenticate your application users. 
 
-[![RP-KuppingerCole](RP-KuppingerCole.png)](https://www.loginradius.com/resource/kuppingercole-industry-report-2020)
+[![RP-KuppingerCole](RP-KuppingerCole.webp)](https://www.loginradius.com/resource/kuppingercole-industry-report-2020)
 
 ## Other Good Reasons to Rely on LoginRadius
 
@@ -129,4 +129,4 @@ Single Sign-On improves consumer experience and boosts productivity by a conside
 
 By implementing the benefits of the LoginRadius SSO as a unified solution, you increase business agility, security, convenient and streamlined experience for your business and consumers alike. [Contact us](https://www.loginradius.com/contact-sales) today. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-integration-secure-cx)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-integration-secure-cx)

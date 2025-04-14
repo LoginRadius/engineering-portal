@@ -1,7 +1,7 @@
 ---
 title: "How to Create List in C#"
 date: "2021-02-25"
-coverImage: "coverimage.jpg"
+coverImage: "coverimage.webp"
 author: "Hemant Manwani"
 tags: ["C#", "List"]
 description: "In this article, we will learn how to create lists in C# also how to use the C# list class to add, remove, and search items in a collection of objects."

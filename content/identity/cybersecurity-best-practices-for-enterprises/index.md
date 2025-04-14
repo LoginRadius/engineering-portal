@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Best Practices for Businesses in 2023 & Beyond [Infographic]"
 date: "2021-10-21"
-coverImage: "cybersecurity-best-practices.jpg"
+coverImage: "cybersecurity-best-practices.webp"
 tags: ["cybersecurity","data security","cx","password management"]
 author: "Rakesh Soni"
 description: "Today cybercriminals are increasingly able to cover their tracks, hide in the cloud, manipulate the infrastructure of the web, and exploit complex vulnerabilities. This infographic summarizes the key takeaway into the cybersecurity best practices that businesses should adopt in 2023."
@@ -74,8 +74,8 @@ Aside from login security tips, this infographic will also highlight:
 
 To learn more about the cybersecurity best practices for your business in 2023 and beyond, check out the infographic created by LoginRadius.
 
-![cybersecurity-infographic-2023](cybersecurity-infographic2023.png)
+![cybersecurity-infographic-2023](cybersecurity-infographic2023.webp)
 
 Get the best cybersecurity solutions for your enterprise with LoginRadius.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-best-practices-for-enterprises)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-best-practices-for-enterprises)

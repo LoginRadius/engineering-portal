@@ -1,7 +1,7 @@
 ---
 title: "9 Facts About Social Login & CRO That You Should Know About"
 date: "2021-08-12"
-coverImage: "conversion-rate-optimization.jpg"
+coverImage: "conversion-rate-optimization.webp"
 category: ["loginradius"]
 featured: false 
 author: "Rashmi Mathur"
@@ -15,7 +15,7 @@ Conversion rate is an all-important metric that every website keeps a close eye 
 
 CRO marketing focuses majorly on improving the experience that a user may have, which may result in them making purchases. To ensure that this takes place, businesses that also have websites use login services like [social login](https://www.loginradius.com/social-login/). These services allow them to cater to customers better.
 
-[![Product-Social-Login](Product-Social-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![Product-Social-Login](Product-Social-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 ## Essential Facts To Know Before Implementing Login Identity Solutions
 
@@ -60,7 +60,7 @@ Consumers are heavily influenced by the recommendations they see online. This fa
 
 Allowing users to register using social logins will mean that businesses can get to know their customers better. They can form a cohesive idea of what users belonging to a particular demographic may like. Therefore, a company can use social logins to create feedback loops to better understand its audience and [improve customer retention](https://www.loginradius.com/blog/fuel/how-customer-retention-can-help-businesses-grow/).
 
-  ![conversion-rate-increase](conversion-rate-increase.jpg) 
+  ![conversion-rate-increase](conversion-rate-increase.webp) 
 
 5.  Dislike Towards Account Creation
     
@@ -107,10 +107,10 @@ Implementing social logins and increasing the number of registrations will furth
 
   
 
-According to a research paper, around [77%](http://www.webhostingbuzz.com/blog/wp-content/uploads/2013/03/Who-s-sharing-what.jpg) of users believe that social logins are a safe and highly effective method to register users. The reason being that in addition to implementing important customer data security  measures, it can also [encourage user engagement](https://www.loginradius.com/blog/fuel/consumer-management-to-consumer-engagement/).
+According to a research paper, around [77%](http://www.webhostingbuzz.com/blog/wp-content/uploads/2013/03/Who-s-sharing-what.webp) of users believe that social logins are a safe and highly effective method to register users. The reason being that in addition to implementing important customer data security  measures, it can also [encourage user engagement](https://www.loginradius.com/blog/fuel/consumer-management-to-consumer-engagement/).
 
   
 
 Considering all these benefits that social login authentication offers, a marketing company can orient their social media marketing and user engagement to be more effective. Finally, a marketing team will surely improve their conversion rates and see a drastic improvement in sales.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=9-facts-about-social-login-and-cro)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=9-facts-about-social-login-and-cro)

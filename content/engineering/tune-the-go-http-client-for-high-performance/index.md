@@ -1,7 +1,7 @@
 ---
 title: How to Use the HTTP Client in GO To Enhance Performance
 date: "2021-01-12"
-coverImage: "index.jpg"
+coverImage: "index.webp"
 author: "Mayank Agarwal"
 tags: ["Golang", "HTTP", "Performance"]
 description: "In this post, we will discuss how to make HTTP requests for higher performance in Go, and also how to tune it."

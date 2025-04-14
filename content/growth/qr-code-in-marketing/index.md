@@ -1,7 +1,7 @@
 ﻿---
 title: "How QR Codes are Shaping the Future of Marketing"
 date: "2021-06-28"
-coverImage: "qr-codes-digital-contactless-payments.jpg"
+coverImage: "qr-codes-digital-contactless-payments.webp"
 tags: ["brand identity","smart authentication","cx"]
 author: "Vishal Sharma"
 description: "From redirecting customers to social media pages to asking them to leave feedback and review, enterprises can do a lot through a QR Code. This insightful read covers all the aspects that depict the role of QR codes in enhancing marketing for enterprises during uncertain times."
@@ -82,4 +82,4 @@ There’s no second thought to the fact that the market for QR Codes is helping 
 With correct marketing strategies, including adequate content placement and website responsiveness, marketers must quickly understand that just adding a QR Code won’t speed up sales.
 
 Also, adequate analysis strategies must be in place to trace the user behavior that can be further utilized to build personalized experiences for enhanced business growth during the uncertain times of COVID-19.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=qr-code-in-marketing)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=qr-code-in-marketing)

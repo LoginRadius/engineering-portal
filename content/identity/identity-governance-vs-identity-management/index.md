@@ -1,7 +1,7 @@
 ---
 title: "Identity Governance vs. Identity Management: Navigating the Differences"
 date: "2023-08-21"
-coverImage: "id-governance-vs-id-mngmnt.jpg"
+coverImage: "id-governance-vs-id-mngmnt.webp"
 tags: ["identity governance","identity management","compliance","cx"]
 author: "Rakesh Soni"
 description: "Explore the differences between Identity Governance and Identity Management in the dynamic world of digital identities. Discover why businesses must balance these concepts to achieve security, compliance, and operational efficiency in the modern landscape."
@@ -50,7 +50,7 @@ IG examines access controls from a comprehensive viewpoint, connecting the dots 
 
 Think of Identity Governance as the strategist who defines access policies and ensures they align with the organization's mission. On the other hand, Identity Management is the executor, ensuring that the defined strategies translate into effective access management.
 
-[![WP-critical-role-id-mngmnt](WP-critical-role-id-mngmnt.png)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
+[![WP-critical-role-id-mngmnt](WP-critical-role-id-mngmnt.webp)](https://www.loginradius.com/resource/the-critical-role-of-identity-management-in-data-governance/)
 
 ## Why Businesses Need a Perfect Blend of Identity Management and Identity Governance in 2023 & Beyond?
 
@@ -87,4 +87,4 @@ Think of Identity Management as the gatekeeper, ensuring the right people can ac
 
 By blending these two approaches through a reliable CIAM solution, businesses can work smoothly and keep their sensitive information safe from prying eyes and cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-vs-identity-management)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-governance-vs-identity-management)

@@ -1,7 +1,7 @@
 ---
 title: "Exciting Leadership Updates Amid Strategic Growth at LoginRadius"
 date: "2024-04-02"
-coverImage: "lr-updates.jpg"
+coverImage: "lr-updates.webp"
 tags: ["leadership updates","new beginnings"]
 author: "Ajoy Anand"
 description: "Embarking on this transformative journey goes beyond leadership shifts—it's a renewal of our commitment to excellence, innovation, and the unwavering pursuit of success. We are excited about the opportunities that lie ahead."
@@ -36,4 +36,4 @@ This moment signifies more than just leadership changes; it's a renewal of our c
 
 Thank you for being a part of our journey. Together, let's shape a future that's brighter than ever.
 
-[![cta-careers](cta-careers.png)](https://www.loginradius.com/careers/)
+[![cta-careers](cta-careers.webp)](https://www.loginradius.com/careers/)

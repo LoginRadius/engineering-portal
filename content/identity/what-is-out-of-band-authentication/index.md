@@ -1,7 +1,7 @@
 ---
 title: "What is Out-of-Band Authentication?"
 date: "2022-07-22"
-coverImage: "oob-auth.jpg"
+coverImage: "oob-auth.webp"
 tags: ["authentication", "MFA", "customer data security"]
 author: "Rakesh Soni"
 description: "Securing customer information is becoming more challenging, especially in a remote-first working environment with a poor line of defense. OOB authentication is used as a part of multi-factor authentication (MFA) or 2FA that verifies the identity of a user from two different communications channels, ensuring robust security."
@@ -41,7 +41,7 @@ Whether we talk about loopholes in access management or frail lines of defense, 
 
 Hence, a robust authentication mechanism is what every business organization needs. And OOB authentication fulfills their security requirements since it works on a dual means of verifying identity through different communication mechanisms. 
 
-[![WP-MFA](WP-MFA.png)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
+[![WP-MFA](WP-MFA.webp)](https://www.loginradius.com/resource/mfa-evolution-ebook/)
 
 
 ## How Does OOB Authentication Work? 
@@ -150,4 +150,4 @@ Yes, out-of-band authentication is secure due to the added layer of protection u
 
 Out-of-band authentication enhances security and protects against attacks by leveraging a secondary channel for verification.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-out-of-band-authentication)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-out-of-band-authentication)

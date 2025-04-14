@@ -1,7 +1,7 @@
 ---
 title: "All About Google One Tap Login—Explained!"
 date: "2021-06-11"
-coverImage: "google-onetaplogin-cover.jpg"
+coverImage: "google-onetaplogin-cover.webp"
 tags: ["social login"]
 author: "Manish Tiwari"
 description: "Consumers prefer basic login experiences over complicated signup procedures. The Google One-Tap Login feature, available on Android phones, allows users to quickly sign up for apps or web services with their Google credentials without creating an account."
@@ -24,7 +24,7 @@ The login widget appears as a popup, and it will prompt the users to sign in or 
 *   You are logged in to your Gmail account,
 *   You've signed in to your Chrome browser.
 
-![google one tap login](https://apidocs.lrcontent.com/images/google-onetap_2382160c344fde5f388.16537804.jpg "google one tap login")
+![google one tap login](https://apidocs.lrcontent.com/images/google-onetap_2382160c344fde5f388.16537804.webp "google one tap login")
 
 At first glance, it seems like a convenient feature: you click the web widget and sign in to a site with your existing Google account. There is no need to create a new user, no need to remember the email and password you used to log in before. Just click on a button, and you are good to go.
 
@@ -68,4 +68,4 @@ In this blog, we have learned how the Google one-tap login can be helpful for co
 
 Cheers!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=google-one-tap-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=google-one-tap-login)

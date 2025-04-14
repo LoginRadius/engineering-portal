@@ -1,7 +1,7 @@
 ---
 title: "CSS3 Responsive Icons"
 date: "2015-07-21"
-coverImage: "css3-responsive-icons-300x300.png"
+coverImage: "css3-responsive-icons-300x300.webp"
 author: "Team LoginRadius"
 tags: ["CSS", "Responsive", "UI"]
 ---
@@ -18,7 +18,7 @@ CSS - Cascading Style Sheet. If you don’t know what this is, I have bad news f
 
 ### Let's Begin
 
-![icons](icons.png)
+![icons](icons.webp)
 
 First things first, we need a sprite image that consists four icons – or more, it’s up to you. Luckily, I have one in my digital pocket.  
 
@@ -60,7 +60,7 @@ So, we get background-size: 100% auto.
 
 Cool, right? No crazy percentage. Your icon should look like this:
 
-![facebook-icon](facebook-icon.png)
+![facebook-icon](facebook-icon.webp)
 
 It’s time to map those icons properly. Facebook is not a problem because it’s first on the list. But for defaults sake, let’s add a code for it.
 
@@ -73,7 +73,7 @@ It’s time to map those icons properly. Facebook is not a problem because it’
 
 The positioning of 0 0 will map it to the top left of the element.
 
-![here-icon](here-icon.png)
+![here-icon](here-icon.webp)
 
 For the background-color, you can get almost all of the official social icon colors in hex [here](/social-media-colors-hex/).
 
@@ -151,7 +151,7 @@ Then call it.
   
 By now your icon should look like this.
 
-![color-icons](color-icons.png)
+![color-icons](color-icons.webp)
 
 It’s time to change that PNG background to an SVG background.
 

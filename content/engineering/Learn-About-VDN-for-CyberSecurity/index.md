@@ -1,7 +1,7 @@
 ---
 title:  Virtual Dispersive Networking
 date: "2020-10-07"
-coverImage: "MIM.jpg"
+coverImage: "MIM.webp"
 author: "Binay Agarwal"
 tags: ["VDN", "Cyber Security"]
 description: "Learn About VDN for CyberSecurity"

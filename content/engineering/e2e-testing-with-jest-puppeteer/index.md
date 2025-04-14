@@ -1,7 +1,7 @@
 ---
 title: "End-to-End Testing with Jest and Puppeteer"
 date: "2020-10-15"
-coverImage: "jest-puppeteer.png"
+coverImage: "jest-puppeteer.webp"
 author: "Shreya Sharma"
 tags: ["Testing", "Jest", "Puppeteer"]
 description: "Learn how to integrate Jest and Puppeteer in your project for End-to-End Testing."

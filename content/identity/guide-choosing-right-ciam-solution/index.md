@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Guide to Choosing the Right CIAM Solution"
 date: "2023-03-06"
-coverImage: "right-ciam-sol.jpg"
+coverImage: "right-ciam-sol.webp"
 tags: ["compliance","ciam solution","data privacy"]
 author: "Rakesh Soni"
 description: "With the market for CIAM solutions rapidly evolving, choosing the right one for your organization's unique needs can take time. Hence, you must analyze the entire CIAM landscape, and your business needs to decide wisely."
@@ -220,7 +220,7 @@ CIAM solutions enable businesses to manage customer data, streamline login proce
 
 Here’s the list of benefits of buying a CIAM solution rather than building one from scratch:
 
-[![EB-build-buy](EB-build-buy.png)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
+[![EB-build-buy](EB-build-buy.webp)](https://www.loginradius.com/resource/the-case-for-buying-over-building/)
 
 ### 1. Time and Cost Savings
 
@@ -271,4 +271,4 @@ A: Identity and Access Management (IAM) is a framework of policies and technolog
 
 IAM plays a crucial role in managing internal users' access to systems and applications, enforcing security policies, and maintaining compliance within an organization's network.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-choosing-right-ciam-solution)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-choosing-right-ciam-solution)

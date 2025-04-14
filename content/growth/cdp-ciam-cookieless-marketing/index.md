@@ -1,7 +1,7 @@
 ---
 title: "How do CDP and CIAM Help Marketers in Cookieless Marketing?"
 date: "2024-02-20"
-coverImage: "customer-data-platform.jpg"
+coverImage: "customer-data-platform.webp"
 tags: ["customer data platform","ciam solutions","cx"]
 author: "Navanita Devi"
 description: "Gone are the days when marketing strategy included collecting and using third-party cookies to target consumers. In today’s era, consumers are calling the shots to control their privacy, leading to a big change in how marketers manage customer data. While the concept evolved into reality, how can marketers move forward? Stay tuned as we explore how CDP and CIAM help marketers thrive in cookieless marketing."
@@ -76,7 +76,7 @@ The identity graphs encompass information about a particular customer. With the 
 
 Marketers can also integrate various information, including demographics, purchase data, lifestyle, and more, using CDP and CIAM solutions. The data can create a customer identity that enables targeted marketing campaigns for exclusive customers.
 
-[![WP-privacy](WP-privacy.png)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
+[![WP-privacy](WP-privacy.webp)](https://www.loginradius.com/resource/privacy-assured-marketing-whitepaper)
 
 ### 4. Remain compliant with regulations
 
@@ -110,4 +110,4 @@ Complementing each other, CDP and CIAM help brands identify the customer across 
 
 Simply put, the ban on third-party cookies will inevitably affect marketers. However, the changes don't have to be too drastic. The blended approach of CDP and CIAM will give you the power to bridge the gaps and boost your marketing strategies in the cookieless world. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cdp-ciam-cookieless-marketing)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cdp-ciam-cookieless-marketing)

@@ -1,7 +1,7 @@
 ---
 title: "How To Insert Keep Notes in Doc Plus other Keep Tips For Better Productivity"
 date: "2017-03-06"
-coverImage: "How-To-Insert-Keep-notes-in-Doc-Plus-other-Keep-tips-For-Better-Productivity.jpg"
+coverImage: "How-To-Insert-Keep-notes-in-Doc-Plus-other-Keep-tips-For-Better-Productivity.webp"
 category: ["general", "technology", "loginradius"]
 featured: false 
 author: "Rakesh Soni"
@@ -44,7 +44,7 @@ Using Keep for multiple things like homework or some event? Create Labels and ad
 
 ### **4\. Add Keep widget in your phone.**
 
-![Keep Widget Android](     Keep-Widget-Android.png?ver=1553881376)
+![Keep Widget Android](     Keep-Widget-Android.webp?ver=1553881376)
 
 Add your desired keep note to the home screen of your Android using the Keep widget. You can choose which note you want to display. Using the widget you can also add a note or an image and view the existing notes. For me, the Keep widget is a great way to remind myself about the important tasks I have.
 
@@ -56,7 +56,7 @@ Saw an awesome DIY bottle and want to make it too? Just save it to Keep by openi
 
 ### **6\. Voice Notes**
 
-![Keep Voice Note](     Keep-Voice-Note.png?ver=1553881376)
+![Keep Voice Note](     Keep-Voice-Note.webp?ver=1553881376)
 
 You can also add voice notes if you don’t want to type the notes!
 
@@ -76,13 +76,13 @@ Just like Google Docs, you can also share your keep notes with your team and fri
 
 ### **9\. Make a checklist!**
 
-![Keep Notes in Checklist](     Keep-Notes-in-Checklist.png?ver=1553881376)
+![Keep Notes in Checklist](     Keep-Notes-in-Checklist.webp?ver=1553881376)
 
 Add checkpoints to your tasks and mark them check when you are done. The checked points move down to the list.. \[Though you can change that in settings\]
 
 ### **10\. Add a pinned note**
 
-![Keep Pinned Note](     Keep-Pinned-Note.png?ver=1553881376)
+![Keep Pinned Note](     Keep-Pinned-Note.webp?ver=1553881376)
 
 Want to keep a note always at top? Pin it.
 

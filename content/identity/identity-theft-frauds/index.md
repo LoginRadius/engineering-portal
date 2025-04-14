@@ -1,7 +1,7 @@
 ---
 title: "Identity Theft Frauds- Staying Ahead in 2021"
 date: "2021-03-31"
-coverImage: "identity-theft-fraud-cover.jpg"
+coverImage: "identity-theft-fraud-cover.webp"
 tags: ["data security","mfa","cx"]
 author: "Vishal Sharma"
 description: "With so many businesses adopting diverse working environments, fraudsters are quickly finding new ways to breach security and gain access to confidential information. Businesses must anticipate potential frauds to minimize the risk for their employees’ and clients’ identities in 2021."
@@ -98,4 +98,4 @@ The aforementioned aspects also require adequate consideration when it comes to 
 
 Implementation of identity and access management solutions could be the game-changer for businesses that are striving to [protect consumer identities](https://www.loginradius.com/blog/identity/2019/12/digital-privacy-best-practices/).
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-theft-frauds)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-theft-frauds)

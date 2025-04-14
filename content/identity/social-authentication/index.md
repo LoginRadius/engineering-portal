@@ -1,7 +1,7 @@
 ---
 title: "Implementing Effective Social Authentication Solution with LoginRadius"
 date: "2021-05-07"
-coverImage: "social-authentication-cover.jpg"
+coverImage: "social-authentication-cover.webp"
 tags: ["social authentication","social login","cx"]
 author: "Vishal Sharma"
 description: "Social login enables users to use existing login credentials from a social networking platform including Facebook, Google, Twitter, and more enabling simplified logins and registrations. Let’s learn how LoginRadius simplifies social authentication and improves the overall user experience."
@@ -41,7 +41,7 @@ LoginRadius is the leading [consumer identity and access management (CIAM) ](htt
 
 Our social authentication solution is helping diverse businesses securely manage millions of identities along and offering quick sign-ups without hampering user experience.
 
-[![social-login-wp](social-login-wp.png)](https://www.loginradius.com/resource/social-login-reconsidered/)
+[![social-login-wp](social-login-wp.webp)](https://www.loginradius.com/resource/social-login-reconsidered/)
 
 Let’s learn why LoginRadius is the one-stop-solution for your online platform:
    
@@ -99,4 +99,4 @@ While social login inches towards the verge of becoming an industry standard for
 
 LoginRadius’ social authentication, driven by cutting-edge technology and backed by the highest level of security ensures clients get a seamless user experience that further improves conversion rate.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-authentication)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=social-authentication)

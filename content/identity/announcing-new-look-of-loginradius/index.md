@@ -1,7 +1,7 @@
 ---
 title: "Announcing New Look of LoginRadius"
 date: "2020-03-25"
-coverImage: "Announcing-New-Look-of-LoginRadius.png"
+coverImage: "Announcing-New-Look-of-LoginRadius.webp"
 tags: ["LoginRadius", "industry-news"]
 featured: false 
 author: "Rakesh Soni"
@@ -16,7 +16,7 @@ Yes! We loved the old one, but we decided to upgrade it as part of our ever-evol
 
 So, here’s our new look.
 
-![LoginRadius Logo](loginradius-logo-horizontal-full-colour-on-white-1024x211.png)
+![LoginRadius Logo](loginradius-logo-horizontal-full-colour-on-white-1024x211.webp)
 
 As a leader in cloud-based Customer Identity and Access Management (CIAM) solution that the following two core principles are reflected in the branding:
 
@@ -46,7 +46,7 @@ First, we would like to take a moment to highlight the retirement of our current
 
 Fast-forward to the present day, the new logo marks a crucial milestone towards representing our brand-building process.
 
-![LoginRadius Brandmark](logo-1024x991.png)
+![LoginRadius Brandmark](logo-1024x991.webp)
 
 - **Brandmark**:  It comprises two concentric circles. Most obvious is the negative space showing a keyhole which is also a literal radius from the centre to the outer edge. The keyhole represents robust security foundation of our platform. It can also be seen as a user icon, protected by white arms implied by the negative space and by the light blue circle. This demonstrates our philosophy of putting the user at the centre of everything. Both of these ideas speak to the concept of protecting identity.
 
@@ -58,7 +58,7 @@ Letting go of our core designing heritage was never our objective. Our color pal
 
 ## Logo Color Combinations
 
-![](logo-2-1024x589.png)
+![](logo-2-1024x589.webp)
 
 ## A Final Word
 
@@ -66,4 +66,4 @@ The new logo is an attempt at modernizing our brand and helping it connect more 
 
 Amidst the huge chunk of workload that rebranding brings along, we are super thrilled to share this news and would like to take a moment to thank our loyal customer base. Do share your comments about the change.
 
-[![](CTA-Graphics-for-Blogs-V03.01-05-2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=announcing-new-look-of-loginradius)
+[![](CTA-Graphics-for-Blogs-V03.01-05-2-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=announcing-new-look-of-loginradius)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Comprehensive Guide to Flexible CIAM Deployment Options with LoginRadius"
 date: "2023-10-06"
-coverImage: "ciam-deployment.jpg"
+coverImage: "ciam-deployment.webp"
 tags: ["single sign-on","social login","passwordless login","ciam solutions"]
 author: "Rakesh Soni"
 description: "User experience and security are non-negotiable in the modern digital world. Dive into our guide on CIAM deployment options with LoginRadius, a leader in the CIAM landscape. Explore seamless features like social login, Single Sign-On (SSO), passwordless login, and cloud integrations. Elevate user engagement, streamline access control, and fortify online security. Discover the strategic necessity of investing in advanced CIAM solutions, ensuring your users enjoy a secure, hassle-free online experience."
@@ -42,7 +42,7 @@ Passwordless login solutions are increasingly replacing traditional password-bas
 
 LoginRadius offers robust passwordless login options, including biometric authentication and one-time passcodes, ensuring top-notch security while enhancing user satisfaction.
 
-[![DS-passwordless-login](DS-pswrdless-login.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-passwordless-login](DS-pswrdless-login.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 ### #4. Cloud Integrations: Seamlessly Integrating CIAM with Existing Systems
 
@@ -56,4 +56,4 @@ Incorporating flexible CIAM deployment options from LoginRadius empowers busines
 
 In a world where user experience and security are paramount, investing in a robust CIAM solution like LoginRadius is not just a choice but a strategic necessity. Stay ahead of the curve by implementing these advanced CIAM deployment options and ensure your users enjoy a hassle-free, secure, and engaging online experience.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-deployment-flexibility)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-deployment-flexibility)

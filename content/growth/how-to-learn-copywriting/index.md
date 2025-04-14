@@ -1,7 +1,7 @@
 ﻿---
 title: "Want to Learn Copywriting? 3 Tips That Will Keep Readers Glued to Your Content"
 date: "2021-05-25"
-coverImage: "learn-copywriting.jpg"
+coverImage: "learn-copywriting.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -188,4 +188,4 @@ Remember that SEO-optimized content is essential to rank your blogs or website p
 
 To develop a unique [brand identity](https://www.loginradius.com/blog/fuel/2021/04/does-your-website-imagery-reflect-your-brand-identity/), you need to have a team of top-notch copywriters who can keep the readers glued to the content and eventually help increase your business.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-learn-copywriting)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-learn-copywriting)

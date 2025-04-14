@@ -1,7 +1,7 @@
 ---
 title: "The Peerless Role of Cookieless Identity Solution for Marketers"
 date: "2022-06-09"
-coverImage: "cookieless-auth.jpg"
+coverImage: "cookieless-auth.webp"
 category: ["marketing", "authentication", "ciam"]
 author: "Vishal Sharma"
 description: "With cookieless authentication, enterprises can leverage the true potential of a CIAM solution in marketing their products and services without compromising user experience. This post explains why businesses quickly need to put their best foot forward in adopting a cookieless authentication platform."
@@ -80,4 +80,4 @@ Businesses can choose [a reliable CIAM platform](https://www.loginradius.com/blo
 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-cookieless-authentication-marketers)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-cookieless-authentication-marketers)

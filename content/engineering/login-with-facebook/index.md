@@ -1,7 +1,7 @@
 ---
 title: "How to implement Facebook Login"
 date: "2020-09-16"
-coverImage: "index.png"
+coverImage: "index.webp"
 author: "Vijay Singh Shekhawat"
 tags: ["Login With Facebook", "Facebook","Facebook Login", "Login", "Oauth"]
 description: "This article will explain about social login benefits and how we can implement Sign In using Facebook on our website or mobile app."
@@ -11,7 +11,7 @@ There are more than 1 million websites or apps are using **"SignIn with Facebook
 
 According to multiple surveys, there are more than 3 billion users worldwide are using social media and it is around 50% of the world's population. 
 
-![login-with-facebook](facebook-login-wow.png)
+![login-with-facebook](facebook-login-wow.webp)
 
 The biggest challenge and most important things are to make user registration and login quick and easy while developing our application. The registration forms required a lot of data that need to be filled by users manually and it causes lost, potential users. Additionally, users need to enter their usernames/emails and passwords in the login forms to authenticate themselves and also need to remember more individual IDs and passwords. 
 
@@ -31,45 +31,45 @@ Go to [Facebook Developer](https://developers.facebook.com) and log in using you
 
 **NOTE**: Please do not log in using a business account as Facebook will not allow you to create an app if you do so.
 
-![Facebook Login](loginadius-facebook-img1.png)
+![Facebook Login](loginadius-facebook-img1.webp)
 
 #### Step 2
 Select the **My Apps** as displayed on the below screen.
 
-![Facebook Login](loginadius-facebook-img2.png)
+![Facebook Login](loginadius-facebook-img2.webp)
 
 #### Step 3
 Click on **Add a New App** as displayed in the below screen.
 
-![Facebook Login](loginadius-facebook-img3.png)
+![Facebook Login](loginadius-facebook-img3.webp)
 
 #### Step 4
 Input display name and contact email. Once you have done so, click on **Create App ID**
 
-![Facebook Login](loginadius-facebook-img4.png)
+![Facebook Login](loginadius-facebook-img4.webp)
 
 
 #### Step 5
 In the security check, Complete the security steps and click on the **submit** button.
 
-![Facebook Login](loginadius-facebook-img5.png)
+![Facebook Login](loginadius-facebook-img5.webp)
 
 #### Step 6
 Once you land on the App dashboard, Select Facebook Login, and click **Set Up**.
 
-![Facebook Login](loginadius-facebook-img6.png)
+![Facebook Login](loginadius-facebook-img6.webp)
 
 #### Step 7
 Click on Settings in the sidebar under Facebook Login. Turn on Client OAuth Login. Turn on Web OAuth Login. Put the valid redirect URL on **"Valid OAuth redirect URIs"**. Click on the Save button.
 
-![Facebook Login](loginadius-facebook-img7.png)
+![Facebook Login](loginadius-facebook-img7.webp)
 
 
 #### Step 8
 Click on Basic under settings in the sidebar. Under App, Domains include your website Url. Enter all the required details. Change the status of the app from Development to Live from the top-right corner. Click on the **Save Changes** button.
 
 Now your Facebook app is ready. You can start implementing Facebook login 
-![Facebook Login](loginadius-facebook-img8.png)
+![Facebook Login](loginadius-facebook-img8.webp)
 
  
 ### Data Selection

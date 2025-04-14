@@ -1,7 +1,7 @@
 ﻿---
 title: "Unveiling the Benefits of Identity Verification for Online Retailers "
 date: "2023-08-31"
-coverImage: "identity-verification.jpg"
+coverImage: "identity-verification.webp"
 tags: ["digital identity verification","compliance","cx"]
 author: "Vishal Sharma"
 description: "In the dynamic realm of online retail, establishing trust while countering cyber threats is paramount. Identity verification emerges as a game-changer, bolstering security, trust, compliance, and even personalization. Dive into the advantages it brings to businesses navigating the digital landscape."
@@ -36,7 +36,7 @@ In an increasingly regulated digital landscape, businesses must adhere to strict
 
 Identity verification aids in complying with various data security and privacy regulations, ensuring that businesses operate within legal boundaries and avoid penalties. These regulations include the EU’s GDPR and California’s CCPA. 
 
-[![GD-consumer-identity](GD-consumer-identity.png)](https://www.loginradius.com/resource/consumer-identity-in-challenges)
+[![GD-consumer-identity](GD-consumer-identity.webp)](https://www.loginradius.com/resource/consumer-identity-in-challenges)
 
 ### 4. Reducing Chargebacks and False Positives
 
@@ -86,4 +86,4 @@ Identity verification is a critical component of the online retail and financial
 
 Use cases encompass enhanced security, fraud prevention, regulatory compliance, personalized customer experiences, and operational efficiency.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-retailers-benefits)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-retailers-benefits)

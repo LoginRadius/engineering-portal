@@ -1,7 +1,7 @@
 ---
 title: "Can Cybersecurity Be a Unifying Factor in Digital Trade Negotiations?"
 date: "2024-06-05"
-coverImage: "identity-security.jpg"
+coverImage: "identity-security.webp"
 tags: ["cybersecurity","data security","ciam solutions"]
 author: "Karl Wittig"
 description: "Cybersecurity is crucial for safeguarding digital trade in the interconnected digital economy. This article explores how identity security, supported by robust Customer Identity Management (CIAM) solutions, can unify global digital trade negotiations by building trust and establishing common security standards."
@@ -46,7 +46,7 @@ A robust Customer Identity Management (CIAM) solution plays a pivotal role in ac
 
 2. **Data Privacy and Compliance**: CIAM systems help businesses comply with [data governance](https://www.loginradius.com/data-governance/) regulations such as GDPR and CCPA. They ensure that customer data is collected, stored, and processed in accordance with legal requirements, thereby fostering trust and reducing the risk of regulatory penalties.
 
-[![EB-LR-GDPR-Compliance](EB-LR-GDPR-Compliance.png)](https://www.loginradius.com/resource/ebook/loginradius-gdpr-compliance/)
+[![EB-LR-GDPR-Compliance](EB-LR-GDPR-Compliance.webp)](https://www.loginradius.com/resource/ebook/loginradius-gdpr-compliance/)
 
 3. **User Experience**: A robust CIAM solution balances security with user experience. It provides a frictionless login process, personalized experiences, and consistent access across multiple channels, enhancing customer satisfaction and loyalty.
 
@@ -60,4 +60,4 @@ A robust Customer Identity Management (CIAM) solution, like LoginRadius,  is cri
 
 As digital trade grows, cybersecurity will undoubtedly play a central role in shaping its future, unifying diverse stakeholders in pursuing a safe and reliable digital world.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-digital-trade)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-security-digital-trade)

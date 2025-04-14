@@ -1,7 +1,7 @@
 ---
 title: "Data Privacy Laws for 2023: A Closer Look at 9 Key Regulations"
 date: "2023-06-01"
-coverImage: "data-privacy-laws.jpg"
+coverImage: "data-privacy-laws.webp"
 tags: ["data privacy", "cx", "compliance"]
 author: "Alok Patidar"
 description: "In this digital-first era, data privacy is of paramount importance. Discover the essential data privacy laws for 2023, including GDPR, CCPA, HIPAA, and more. Stay informed, protect sensitive data, and honor individuals' privacy rights with our comprehensive guide."
@@ -29,7 +29,7 @@ The GDPR, implemented by the European Union (EU), remains one of the most influe
 
 The GDPR mandates several vital principles, including lawful and transparent data processing, purpose limitation, data minimization, accuracy, storage limitation, and accountability. It also grants individuals rights such as the right to access their data, the right to be forgotten, and the right to data portability. Non-compliance with the GDPR can result in substantial fines, making it essential for organizations to implement robust data privacy practices and mechanisms.
 
-[![EB-GDPR-Comp](EB-GDPR-Comp.png)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
+[![EB-GDPR-Comp](EB-GDPR-Comp.webp)](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/)
 
 ### 2. California Consumer Privacy Act (CCPA)
 
@@ -103,4 +103,4 @@ Staying compliant with these data privacy laws is crucial for organizations to m
 
 By understanding the requirements of each law and implementing appropriate data privacy practices, businesses can navigate the complex landscape of data protection and prioritize the security and privacy of personal information.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stay-compliant-with-data-privacy-laws-2023)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=stay-compliant-with-data-privacy-laws-2023)

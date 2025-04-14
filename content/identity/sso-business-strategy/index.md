@@ -1,7 +1,7 @@
 ---
 title: "How to Find the Right SSO Strategy that Fits Your Business"
 date: "2021-10-25"
-coverImage: "sso-business-strategy.jpg"
+coverImage: "sso-business-strategy.webp"
 tags: ["sso provider","data security","cx"]
 author: "Manish Tiwari"
 description: "In a competitive business environment, SSO (Single Sign-On) establishes a flawless user experience while providing the highest level of security and efficiency. Enterprises need to put their best foot forward in defining the right SSO strategy that fits right for their organization and helps pave the way for overall success."
@@ -77,7 +77,7 @@ Apart from delivering the industry's best consumer, the following are a few ways
 * **Globally compliant:** The LoginRadius platform also complies with major global compliances like the GDPR, CCPA, etc. You can keep track of your consumers, manage preferences, and customize the kind of consent consumers want. 
 * **Security Certifications:** LoginRadius is compliant with international regulatory bodies like AICPA SOC 2, ISAE 3000, Cloud Security Alliance, Privacy Shield, and more.
 
-[![native-mobile](native-mobile.png)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
+[![native-mobile](native-mobile.webp)](https://www.loginradius.com/resource/authentication-sso-native-mobile-apps-datasheet)
 
 ## Are You Ready to Experience a Future-Ready SSO? 
 
@@ -87,4 +87,4 @@ By implementing the benefits of the LoginRadius SSO as a unified solution, you i
 
 Need more information about how SSO benefits your business? [Contact us](https://www.loginradius.com/contact-sales) for a free personalized demo.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-business-strategy)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-business-strategy)

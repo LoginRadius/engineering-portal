@@ -1,7 +1,7 @@
 ---
 title: "Cloud Security Challenges Today: Expert Advice on Keeping your Business Safe"
 date: "2019-10-24"
-coverImage: "cloud-computing-security-challenges-cover.jpg"
+coverImage: "cloud-computing-security-challenges-cover.webp"
 tags: ["cloud computing","ciam solution","cx"]
 author: "Rakesh Soni"
 description: "For business owners and IT professionals around the world, security in the cloud is still a pressing concern. There are a lot of things you need to consider when moving your business to a cloud environment; from data protection, getting the right platform for your needs, how to protect data during transit, and more."
@@ -71,7 +71,7 @@ In August, we also achieved the ISO 27001 Information Security Standard Accredit
 
 In addition, we hold a Security Trust Assurance and Risk (STAR) certification issued by the Cloud Security Alliance (CSA). CSA describes the STAR program as the [most powerful cloud security assurance program](https://cloudsecurityalliance.org/wp-uploads/2015/04/CSA_STAR-Brochure_April_2015.pdf/), "encompassing key principles of transparency, rigorous auditing, and harmonization of standards."
 
-![](Cloud-Security-Challenges-Today-V01.01_02-1024x621.jpg)
+![](Cloud-Security-Challenges-Today-V01.01_02-1024x621.webp)
 
 ## Why choose cloud computing? 
 
@@ -103,7 +103,7 @@ The European Union's [General Data Protection Regulation (GDPR)](https://www.log
 
 Customer access to their data is a requirement of the [California Consumer Privacy Act (CCPA)](https://www.loginradius.com/blog/identity/ccpa-introduction/), and non-compliance can result in hefty fines. However, data stored on cloud services is instantly available to authorized users. On the cloud, centralized data can be backed up regularly and restored quickly in case [disaster recovery](https://searchdisasterrecovery.techtarget.com/definition/disaster-recovery) is ever necessary.
 
-[![SASE-approach](SASE-approach.png)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
+[![SASE-approach](SASE-approach.webp)](https://www.loginradius.com/resource/cloud-security-system-sase-whitepaper)
 
 
 **Better Performance**
@@ -124,5 +124,5 @@ The Cloud Security Alliance is the world's leading organization dedicated to def
 
 LoginRadius is a member, along with other experts in cloud security. Together, CSA members share up-to-date developments about the cloud computing environment. We recognize emerging security risks so that we can improve cloud security for everyone. 
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-computing-security-challenges)
+[![book-a-demo-loginradius](image5.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-computing-security-challenges)
 

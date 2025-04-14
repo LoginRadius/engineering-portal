@@ -1,7 +1,7 @@
 ---
 title: "What is SCIM? A Developer's Guide to Understanding and Using SCIM"
 date: "2025-01-17"
-coverImage: "scim.png"
+coverImage: "scim.webp"
 tags: ["SCIM"]
 author: "Kundan Singh"
 description: "Learn how SCIM streamlines cross-domain identity management, automates user provisioning, and ensures secure integration for modern applications."
@@ -58,7 +58,7 @@ Here are the steps to integrate SCIM into your application:
 
 By understanding what is SCIM and leveraging it effectively, developers can focus on enhancing application functionality while relying on the protocol to handle complex identity management workflows.
 
-[![identity orchestration workflow](cta.png)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
+[![identity orchestration workflow](cta.webp)](https://www.loginradius.com/resource/datasheet/identity-orchestration-workflow/)
 
 By leveraging the system for cross-domain identity management, organizations can ensure a more consistent and streamlined approach to handling identity data across multiple platforms.
 

@@ -1,7 +1,7 @@
 ---
 title: "CIAM for Digital Marketers: The Key to Nurture & Convert Leads"
 date: "2023-08-17"
-coverImage: "power-of-ciam.jpg"
+coverImage: "power-of-ciam.webp"
 tags: ["customer identity management","data security","cx"]
 author: "Vishal Sharma"
 description: "In a world where personalized digital experiences define customer success, businesses must put their best foot forward to deliver seamless and secure customized experiences. CIAM emerges as the ultimate solution, enabling marketers to nurture leads and achieve higher conversion rates. Learn how CIAM forges meaningful connections, instills trust, and transforms prospects into loyal customers."
@@ -47,7 +47,7 @@ CIAM solutions enable digital marketers to offer omnichannel experiences across 
 
 Omnichannel experience comprises a multichannel sales, consumer service, and marketing approach. It necessitates delivering a consistent consumer experience regardless of the channel via which consumers interact with your business.
 
-[![EB-omnichannel-ex](EB-omnichannel-ex.png)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
+[![EB-omnichannel-ex](EB-omnichannel-ex.webp)](https://www.loginradius.com/resource/making-customers-feel-seen-in-an-omnichannel-world/)
 
 This consistency in experiences ensures that leads and customers receive relevant content and offers regardless of their chosen channel, resulting in a cohesive and effective marketing strategy.
 
@@ -65,4 +65,4 @@ CIAM offers the proper strategies needed to achieve this goal. By harnessing the
 
 It's not just about managing identities; it's about forging connections that drive results. Embrace the most trusted CIAM- LoginRadius today and unlock the potential to nurture and convert leads like never before.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nurture-and-convert-leads-with-power-of-ciam)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=nurture-and-convert-leads-with-power-of-ciam)

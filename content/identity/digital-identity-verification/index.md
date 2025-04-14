@@ -1,7 +1,7 @@
 ---
 title: "Exploring Digital Identity Verification with Effective Crucial Data Checks"
 date: "2024-01-30"
-coverImage: "dig-identity-verification.jpg"
+coverImage: "dig-identity-verification.webp"
 tags: ["identity verification","digital identity management","cx"]
 author: "Rakesh Soni"
 description: "Ensuring the integrity of digital identities has become businesses' topmost concern in this rapidly evolving world. With every business, especially banking and finance, providing digital services for the customer’s convenience, how do they ensure they have the right person? Well, this blog delves into the intricacies of digital identity verification and how it can benefit businesses struggling with the same situation."
@@ -39,7 +39,7 @@ When a customer visits a new financial app or service, the company takes the use
 
 Multi-factor authentication adds a layer of protection beyond just a username and password. It is one of the **digital identity verification solutions** where users provide multiple forms of identification, like OTPs, email-based authentication, fingerprint scans, and others, which makes it more difficult for the unauthorized person to access the information. 
 
-[![WP-mfa](WP-mfa.png)](https://www.loginradius.com/resource/whitepaper/mfa-digital-identity-security/)
+[![WP-mfa](WP-mfa.webp)](https://www.loginradius.com/resource/whitepaper/mfa-digital-identity-security/)
 
 ### 3. ID Document Verification 
 
@@ -78,4 +78,4 @@ Investing in robust **digital identity verification solutions** is essential bec
 
 Fraudsters can easily identify and exploit improper verification methods; that’s why businesses require robust multi-layered identity and access management solutions, like [LoginRadius’s CIAM](https://www.loginradius.com/authentication/) and risk-based analytics. The robust CIAM solution makes the **digital identity verification** process easy as it works on the three main components of verification: identification, verification, and authentication. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-verification)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-verification)

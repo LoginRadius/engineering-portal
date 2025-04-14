@@ -1,7 +1,7 @@
 ﻿---
 title: "20 Content Ideas for Most Engaging B2B LinkedIn Posts"
 date: "2021-03-19"
-coverImage: "linkedin-post-loginradius.jpg"
+coverImage: "linkedin-post-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -20,7 +20,7 @@ In recent times, LinkedIn has become home to [94% of B2B marketers](https://busi
 
 The reason for the success of B2B LinkedIn Marketing is its massive network of professionals with [approximately 760 million users](https://kinsta.com/blog/linkedin-statistics/). This gives marketers access to entrepreneurs and professionals from varied social networks and backgrounds looking to invest in an interesting product or service.
 
-![sales-login-loginradius](linkedin-sales-post-loginradius.jpg)
+![sales-login-loginradius](linkedin-sales-post-loginradius.webp)
 
 ## Top 20 B2B LinkedIn Post Ideas
 
@@ -62,7 +62,7 @@ According to research, the LinkedIn algorithm does not promote posts that contai
 
 Short videos are all the rage at the moment. In fact, most video sharing platforms and **[social login](https://www.loginradius.com/social-login/)** platforms incorporate the short video format. The beauty of a short video is that the viewer will not mind devoting their attention to the content on the screen for just a few seconds. Therefore, one will be able to relay information easily and start building a large customer base.
 
-[![social-login-loginradius](Product-Social-Login.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![social-login-loginradius](Product-Social-Login.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 ### 8. Go live
 
@@ -120,4 +120,4 @@ Audiences love to share their opinion, especially if they are a passionate fanba
 
 Content on LinkedIn makes all the difference to the promotion of a brand. It can make or break one's presence on LinkedIn. Therefore, it is essential to figure out the tone of LinkedIn posts, depending on the target demographic. Once the tone is chosen, implementing the rest of the marketing strategy is easy to do.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=20-content-ideas-for-most-engaging-b2b-linkedin-posts)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=20-content-ideas-for-most-engaging-b2b-linkedin-posts)

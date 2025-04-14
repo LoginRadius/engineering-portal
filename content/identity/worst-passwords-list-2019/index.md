@@ -1,7 +1,7 @@
 ---
 title: "The Worst Passwords of 2019"
 date: "2019-12-23"
-coverImage: "worst-psswrd-list.jpg"
+coverImage: "worst-psswrd-list.webp"
 tags: ["passwordless login","password management","data security"]
 author: "Rakesh Soni"
 description: "Overall, a major challenge for corporations is poor passwords combined with smart hackers. You need cybersecurity that prevents access to your confidential data to protect your business from expensive hacks and breaches. Choose a globally-certified CIAM solution like LoginRadius for state-of-the-art safety and increased customer experience."
@@ -27,7 +27,7 @@ For example, passwords like zinch and g\_czechout may seem harder to crack, yet 
 
 You’ll also see popular female names like Jasmine or Jennifer. Another tactic is using a string of letters that forms a pattern or a line on the keyboard. Popular examples include asdfghjkl and 1qaz2wsx. 
 
-[![](credential-stuffing.png)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
+[![](credential-stuffing.webp)](https://www.loginradius.com/resource/understanding-credential-stuffing-attacks-whitepaper)
 
 Here they all are in top ranking order.  
 
@@ -95,7 +95,7 @@ Unfortunately, many don't. The biggest reason is that remembering multiple passw
 
 Another flawed approach is that people may think their information is insignificant, so they assume that no hacker would care about them. However, a ransomware attack can lock users out of their accounts and become quite costly.
 
-![](image2.jpg)
+![](image2.webp)
 
 ## How can you improve password security?
 
@@ -111,4 +111,4 @@ A CIAM solution also saves resources. Your support and development teams can dev
 
 Overall, bad passwords coupled with smart hackers are a big problem for  businesses. To protect your company from costly hacks and breaches, you need cybersecurity that prevents access to your sensitive data. For state-of-the-art cybersecurity and enhanced customer experience, choose a globally-certified CIAM solution like LoginRadius. 
 
-[![](CTA-book-demo-password-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=worst-passwords-list-2019)
+[![](CTA-book-demo-password-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=worst-passwords-list-2019)

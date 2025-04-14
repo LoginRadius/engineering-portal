@@ -1,7 +1,7 @@
 ---
 title: "Login Security: 7 Best Practice to Keep Your Online Accounts Secure"
 date: "2020-12-11"
-coverImage: "login-security.jpg"
+coverImage: "login-security.webp"
 tags: ["data security","login security","mfa","ciam solution"]
 author: "Rakesh Soni"
 description: "In reality, there are so many mistakes that can make your account vulnerable to cyber attacks. Hackers can read your email, steal money out of your bank account, or sell your data in the dark web. Therefore you need to eliminate as many vulnerabilities as possible to keep your login safe."
@@ -43,7 +43,7 @@ It happens when hackers psychologically manipulate consumers into giving up thei
 
 ## 7 Best Login Security Practices That Enterprises Should Follow
 
-![login-security-vulnerabilities](login-security-vulnerabilities.png)
+![login-security-vulnerabilities](login-security-vulnerabilities.webp)
 
 Each risk has individual implications. Therefore, to keep your consumer's login secure, you need to prevent as many vulnerabilities as possible. Here are a few best login security practices that every organization should follow. 
 
@@ -65,7 +65,7 @@ The greatest advantage of biometrics is that in order to gather the information 
 
 However, note that each security layer should be guarded by a different tags: something your consumers know, something they have, or something they are. For example, if your consumer has associated their phone number as the second layer of authentication, a one-time passcode (OTP) will be sent to the phone. So, if hackers do not have the phone, they cannot get the code, meaning they cannot log in. 
 
-[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.png)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
+[![enterprise-buyer-guide-to-consumer-identity](enterprise-buyer-guide-to-consumer-identity.webp)](https://www.loginradius.com/resource/the-enterprise-buyers-guide-to-consumer-identity/)
 
 ### 4. Password hygiene is a necessity. 
 
@@ -157,4 +157,4 @@ Protect your login information by using secure passwords, avoiding public Wi-Fi 
 
 Login security focuses on protecting the access to an account through authentication methods like passwords and biometrics. Rights security involves managing permissions and access levels within an account and determining what actions a user can perform once logged in.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-security)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=login-security)

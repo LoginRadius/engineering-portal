@@ -1,7 +1,7 @@
 ---
 title: "OAuth 1.0 VS OAuth 2.0"
 date: "2019-05-31"
-coverImage: "pexels-photo-373543.jpeg"
+coverImage: "pexels-photo-373543.webp"
 author: Ti Zhang
 tags: ["Oauth","Engineering"]
 description: "Learn about the differences between OAuth 1.0 and OAuth 2.0 and how OAuth 2.0 is superior to OAuth 1.0"

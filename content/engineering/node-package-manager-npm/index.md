@@ -1,12 +1,12 @@
 ---
 title: "Node Package Manager (NPM)"
 date: "2017-08-04"
-coverImage: "the-guide-to-NPM.png"
+coverImage: "the-guide-to-NPM.webp"
 author: "Eric Chan"
 tags: ["NodeJs", "NPM"]
 ---
 
-##### ![the guide to NPM](./the-guide-to-NPM.png)What is This, and Why Should I Care?
+##### ![the guide to NPM](./the-guide-to-NPM.webp)What is This, and Why Should I Care?
 
 NPM is a package manager for javascript. It is used to share and distribute code amongst the coding community. There are over half a million packages for free developed and shared to help your JavaScript development.
 
@@ -32,7 +32,7 @@ Head over here to search for your package. Once you’ve found it, type in your 
 
 Since NPM packages are open-source, be wary that some of the packages may not be built correctly. A good way to tell would be viewing the top of the page for any errors.
 
-![](./image1.png)
+![](./image1.webp)
 
 ##### How Do I Keep My Packages Up-To-Date?
 

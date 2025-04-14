@@ -1,7 +1,7 @@
 ---
 title: Deep Dive into Container Security Scanning
 date: "2020-08-04"
-coverImage: "cover_container_security.png"
+coverImage: "cover_container_security.webp"
 author: "Rashmi Jain"
 tags: ["Docker","Container","Security"]
 description: "At the heart of any image scanning tool is static analysis against a “Common Vulnerabilities and Exposures” (CVE) database. Each layer within the container image is analyzed and queried to discover known vulnerabilities."

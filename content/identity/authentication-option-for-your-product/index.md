@@ -2,7 +2,7 @@
 title: "How to Choose the Right User Authentication Option for your Product"
 date: "2021-11-08"
 author: "Rakesh Soni"
-coverImage: "user-authentication.jpg"
+coverImage: "user-authentication.webp"
 tags: ["data security","passwordless login","authentication","mfa"]
 description: "When choosing the right authentication option for your product, there’s a lot of confusion and misconceptions that may eventually make it difficult to finalize one or even more."
 metatitle: "Here’s the Ideal Authentication Option for Your Product"
@@ -80,7 +80,7 @@ Passwordless login eliminates the need to generate passwords altogether. There�
 
 Since one needs not type passwords anymore, it leads to a better screen time experience. While for organizations, it will lead to fewer breaches and support costs.
 
-[![DS-magic-link-pass](DS-magic-link-pass.png)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
+[![DS-magic-link-pass](DS-magic-link-pass.webp)](https://www.loginradius.com/resource/loginradius-ciam-passwordless-login/)
 
 **#5. Social Authentication**
 
@@ -128,6 +128,6 @@ LoginRadius understands the importance of frictionless authentication and helps 
 
 With LoginRadius’ Passwordless Authentication and Social Authentication, businesses can ensure the highest level of security coupled with a flawless user experience while they prove their identity.
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-option-for-your-product)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-option-for-your-product)
 
 

@@ -1,7 +1,7 @@
 ---
 title: "InfoSec Director, Alok Patidar Answers Your Most Difficult Questions on Cybersecurity"
 date: "2022-10-28"
-coverImage: "cyber.jpg"
+coverImage: "cyber.webp"
 tags: ["cybersecurity", "cyberattacks", "compliance"]
 author: "Vishal Sharma"
 description: "Every organization has unique needs, which means each one has to be protected in its own way. Therefore, we asked Alok Patidar to chip in. As the Director of Information Security at LoginRadius, he’s dedicated his career to helping businesses protect themselves from cyber criminals."
@@ -107,4 +107,4 @@ Hence, the aforementioned questions can help clear their doubts regarding cybers
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=alok-patidar-answers-cybersecurity-questions)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=alok-patidar-answers-cybersecurity-questions)

@@ -1,7 +1,7 @@
 ---
 title: "What are Self-Sovereign Identities?"
 date: "2023-02-03"
-coverImage: "sovereign-ids.jpg"
+coverImage: "sovereign-ids.webp"
 tags: ["digital identity", "self sovereign id", "customer data security"]
 author: "Rakesh Soni"
 description: "Today, we take a look at what self-sovereign identity is. And although it's easy to get confused with all the buzzwords floating around, incredibly, when many of them are hyped in the media, self-sovereign identity is an essential concept in the evolving landscape of digital identities."
@@ -69,4 +69,4 @@ The Internet Identity Ecosystem is disrupting the highly centralized paradigm of
 Self-sovereign identities are changing the way we interact online. Businesses are taking advantage of the security and transparency offered by this new paradigm to streamline their operations, reduce fraud, and rebuild customer trust.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-self-sovereign-identities)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-are-self-sovereign-identities)

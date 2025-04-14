@@ -1,7 +1,7 @@
 ---
 title: "What is an API"
 date: "2015-06-23"
-coverImage: "whats-an-api-300x300.png"
+coverImage: "whats-an-api-300x300.webp"
 author: Zoie Carnegie
 tags: ["API","Postman"]
 ---

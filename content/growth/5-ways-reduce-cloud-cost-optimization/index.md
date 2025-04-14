@@ -1,7 +1,7 @@
 ---
 title: "How to Reduce Your Cloud Bills Without Compromising Security"
 date: "2022-09-15"
-coverImage: "cloud-cost.jpg"
+coverImage: "cloud-cost.webp"
 category: ["cloud computing", "cloud storage", "single tenant", "multi tenant"]
 author: "Rakesh Soni"
 description: "Although cloud computing has offered endless opportunities to businesses embarking on a digital transformation journey, the cost associated with the number of unused resources could be a worrying aspect. This blog covers the aspects of cloud cost optimization with tips to reduce your cloud bills."
@@ -76,4 +76,4 @@ With the increasing adoption of the cloud worldwide, most organizations are worr
 The above tips could help organizations manage cloud storage and deployments and eventually reduce costs. 
  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-reduce-cloud-cost-optimization)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-ways-reduce-cloud-cost-optimization)

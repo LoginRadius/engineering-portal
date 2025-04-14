@@ -1,7 +1,7 @@
 ---
 title: "5 Tips to Prevent OAuth Authentication Vulnerabilities"
 date: "2021-04-01"
-coverImage: "OAuth-authentication-vulnerabilities-cover.jpg"
+coverImage: "OAuth-authentication-vulnerabilities-cover.webp"
 tags: ["security"]
 featured: false 
 author: "Vishal Sharma"
@@ -102,4 +102,4 @@ Avoiding implementation mistakes is the only way to ensure maximum safety for co
 The aforementioned methods are proven to minimize security threats and ensure seamless interaction between the end-user and resource owner.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth-authentication-vulnerabilities)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth-authentication-vulnerabilities)

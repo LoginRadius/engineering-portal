@@ -1,7 +1,7 @@
 ---
 title: "What to Do if Someone Steals Your JSON Web Token?"
 date: "2021-06-10"
-coverImage: "json-web-token-stolen-cover.jpg"
+coverImage: "json-web-token-stolen-cover.webp"
 tags: ["data security","authentication"]
 author: "Vishal Sharma"
 description: "JWT tokens provide secure access to an authenticated user, and attackers are always looking for ways to steal these tokens and quickly gain access by impersonating a consumer. Here we’ve clubbed efficient ways for enterprises to ensure maximum security and steps that can help in a situation where a client’s JSON web token is stolen."
@@ -63,7 +63,7 @@ If you suspect any token being used by an unauthorized professional, it is best 
 
 Once the token is revoked, ask the client to reset their password and ensure they choose a strong password and must utilize [multi-factor authentication](https://www.loginradius.com/multi-factor-authentication/) in place as offered by LoginRadius CIAM.
 
-[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![EB-GD-to-mod-cust-id](EB-GD-to-mod-cust-id.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 ### 3.   Look for a Security Breach Within your Network
 
@@ -89,4 +89,4 @@ The aforementioned aspects could help mitigate the risk and ensure minimum loss 
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=json-web-token-stolen)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=json-web-token-stolen)

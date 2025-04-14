@@ -1,7 +1,7 @@
 ---
 title: "Inside the Business of Digital Privacy: A Profitable Opportunity"
 date: "2022-11-18"
-coverImage: "digi-privacy.jpg"
+coverImage: "digi-privacy.webp"
 tags: ["roi", "digital privacy", "customer trust"]
 author: "Rakesh Soni"
 description: "Digital privacy is the key that drives business growth as it offers valuable insights to empower businesses to provide personalized experiences to users. This blog explores the aspects of leveraging digital privacy and how businesses can stay ahead of the curve."
@@ -51,7 +51,7 @@ When a business complies with data privacy and security regulations, the informa
 * **Reduced maintenance costs:** Complying with global data regulations like CCPA and GDPR helps reduce your organization’s information security maintenance costs. 
 
 
-![roi-chart](roi-chart.png)
+![roi-chart](roi-chart.webp)
 
 
 
@@ -133,7 +133,7 @@ Proper management of digital identity means you must be able to leverage the tru
 * Gather and manage consumer permissions and preferences more efficiently.
 * Provision data access rights of your customers. 
 
-[![GD-Corp-Acc-Takeover](GD-Corp-Acc-Takeover.png)](https://www.loginradius.com/resource/corporate-account-takeover-an-enterprises-guide-to-protecting-digital-identities/)
+[![GD-Corp-Acc-Takeover](GD-Corp-Acc-Takeover.webp)](https://www.loginradius.com/resource/corporate-account-takeover-an-enterprises-guide-to-protecting-digital-identities/)
 
 
 ### 2. Conduct regular risk assessments
@@ -159,4 +159,4 @@ Businesses need to start working on their marketing strategies and ensure to lev
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=inside-business-of-digital-privacy)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=inside-business-of-digital-privacy)

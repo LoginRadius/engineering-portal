@@ -1,7 +1,7 @@
 ---
 title: "Age of No-Code Technologies: Identification and Authentication"
 date: "2022-06-03"
-coverImage: "no-code.jpg"
+coverImage: "no-code.webp"
 tags: ["no code", "identification", "authentication"]
 author: "Tim Ferguson"
 description: "No code is a process of developing applications through a graphical interface that requires zero coding. All you need to know is your requirements and you are ready to go. Let’s take a look at how it has improved the identification and authentication process for businesses."
@@ -86,7 +86,7 @@ No-code development requires fewer engineers. This reduces all the auxiliaries t
 
 Updating processes and systems that were created using no-code technology is also easier. Often, it is taken care of by the platform.
 
-[![CIAM-buyers-GD](CIAM-buyers-GD.png)](https://www.loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
+[![CIAM-buyers-GD](CIAM-buyers-GD.webp)](https://www.loginradius.com/resource/ciam-buyers-guide-to-secure-your-roi)
 
 
 ### 4. Increased customer satisfaction.
@@ -107,4 +107,4 @@ Identification and authentication are two major processes that secure customer d
 The good news is that no-code technologies are helping businesses secure their services by enabling the developers to create processes faster.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authenticating-in-the-age-of-no-code-technology)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authenticating-in-the-age-of-no-code-technology)

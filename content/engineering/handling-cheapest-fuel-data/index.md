@@ -2,7 +2,7 @@
 title: "Handling the Cheapest Fuel- Data"
 date: "2020-10-06"
 author: "Samriddhi Mishra"
-coverImage: "a.png"
+coverImage: "a.webp"
 tags: ["Data", "BigData", "Hadoop"]
 description: "You can have data without information, but you cannot have information without data. Huge data is generated per day. What are the issues in handling it? How big companies manage and analyze it?"
 ---
@@ -27,7 +27,7 @@ This is the sixth edition of DOMO's report, and according to their research:
 ** "Over 2.5 quintillion bytes of data are created every single day, and it's only going to grow from there. By 2020, it's estimated that 1.7MB of data will be created every second for every person on earth."**
 As 1 Exabyte = 1 quintillion bytes, so 2.5 Exabytes ( 2.5 * 10¹⁸ bytes) of data is generated per day.
 
-![b](b.png)
+![b](b.webp)
 
 Big companies like Google, Amazon, Netflix, Instagram, Facebook, Twitter, and many more are generating tons of data daily. 
 Information is taken from [here](https://www.smartdatacollective.com/how-much-big-data-companies-make-on-internet/).
@@ -77,7 +77,7 @@ All these problems combined are called Big Data. Below are some subparts of the 
 
 3) Thirdly, **Velocity of data transfer(I/O Operations)**. If we ignore the above limitations, the next problem posed is the time taken by Processing units to process this data. Because of the huge volume of data stored in large-capacity storage devices, data transfer is time-consuming.
 
-![c](c.png)
+![c](c.webp)
 
 ## Solution:-
 
@@ -86,7 +86,7 @@ One of the concepts that solve the above problem is Distributed Storage.
 
 **Distributed Storage Cluster-**
 
-![d](d.png)
+![d](d.webp)
 
 Distributed storage is a method that provides huge storage(even exceeding from physical storage) shared by multiple systems. These systems or the servers are connected following horizontal scaling. This multiple commodity server hardware is comparatively cheap than optimized servers with large storage(Hard Disk). Each virtual machine contributes directory to a centralized system and thereby shares its storage. The team of master and slave nodes working together for one purpose called a cluster.
 
@@ -99,7 +99,7 @@ As the data is split and stored in(and loaded from) other devices/nodes, the I/O
 **Hence, distributed storage solves all the problems- Volume, Cost, and Velocity.**
 
 ## Apache Hadoop
-![e](e.png)
+![e](e.webp)
 
 Distributed storage is just a concept, and some companies have launched different software or products that work on this concept which solve the problem of Big Data. One such company is **APACHE and the software APACHE HADOOP**.
 The Apache Hadoop software is a collection of libraries that provides facility to create clusters/network of systems following the distributed system. It can be used in processing the huge data distributes in thousands of machines, each offering local computation and storage.

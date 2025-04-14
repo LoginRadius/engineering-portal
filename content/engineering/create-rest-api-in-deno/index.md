@@ -1,7 +1,7 @@
 ---
 title: "Create REST API using deno "
 date: "2020-06-08"
-coverImage: task.png
+coverImage: task.webp
 author: Aman Agrawal
 tags: ["Deno","REST", "API"]
 ---
@@ -78,7 +78,7 @@ Open the browser and hit the URL `http://localhost:8080/`
 
 You can see the following output in your browser
 
-![Browser output](output_localhost.png)
+![Browser output](output_localhost.webp)
 
 
 5. Now following the directory structure, we will create following folders in our project with the help of below command
@@ -279,7 +279,7 @@ deno run --allow-net server.ts
 
 Now open the postman and hit the get URL `http://localhost:8080/todos/`
 
-![Browser output](all_output.png)
+![Browser output](all_output.webp)
 
 To check the getByID router, copy the ID of any task and hit the URL like 
 

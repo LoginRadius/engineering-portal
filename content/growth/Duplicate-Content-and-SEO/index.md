@@ -1,7 +1,7 @@
 ﻿---
 title: "Duplicate Content and SEO: What’s the Big Deal"
 date: "2021-05-06"
-coverImage: "duplicate-content-and-seo.jpg"
+coverImage: "duplicate-content-and-seo.webp"
 category: ["loginradius"]
 featured: false 
 author: "Deependra Singh"
@@ -25,7 +25,7 @@ Let’s have a quick look at some of the aspects associated with duplicate conte
 Every business seeks substantial growth by leveraging best-in-class **[content marketing](https://www.loginradius.com/blog/fuel/2021/03/How-to-Drive-in-the-Highest-Quality-Leads-in-2021-with-Content-and-SEO/)** and website optimization tactics that also build a brand reputation.
 
 But if the content on a website is duplicated, the owner may face traffic issues and dwindling website rankings.<p>
-![Content-Writing-Skills](content-writing-skills.jpg)
+![Content-Writing-Skills](content-writing-skills.webp)
 
 Since search engines precisely crawl content on every website and won’t show multiple versions of content that is already published on different websites, there’s a huge chance that the duplicate one wouldn’t be listed in the search results.
 
@@ -51,7 +51,7 @@ Businesses need to quickly analyze their website and figure out the actual cause
 
 Here are few effective ways to ensure your website contains any duplicate content pages, especially due to some technical glitches. <p>
 
-![Avoid-Duplicate-Content](duplicate-content.jpg)
+![Avoid-Duplicate-Content](duplicate-content.webp)
 
 ### 1. Check your website’s indexed pages.
 
@@ -87,4 +87,4 @@ Besides the fact that duplicate content leads to traffic and ranking issues, som
 
 It’s advised to consider auditing your website frequently to shun any chance of availability of duplicate content or pages.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=duplicate-content-and-seo)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=duplicate-content-and-seo)

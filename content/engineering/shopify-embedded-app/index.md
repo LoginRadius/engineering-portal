@@ -1,7 +1,7 @@
 ---
 title: "Shopify Embedded App"
 date: "2015-06-02"
-coverImage: "shopify.png"
+coverImage: "shopify.webp"
 author: Lucius Yu
 tags: ["Shopify", "PHP"]
 ---

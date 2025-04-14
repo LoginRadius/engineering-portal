@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Releases Consumer Identity Trend Report 2022, Key Login Methods Highlighted"
 date: "2022-04-27"
-coverImage: "report-cover.jpg"
+coverImage: "report-cover.webp"
 tags: ["industry-news", "consumer-identity", "identity-trends", "digital-identity"]
 author: "Rakesh Soni"
 description: "As a company strongly focused on CIAM, LoginRadius analyzed its global customers over the past year and compiled over 40 unique trends in its annual Consumer Identity Trend report 2022."
@@ -24,7 +24,7 @@ The report findings highlight that if your business wants to stand out in a high
 
 Businesses can achieve this by tailoring authentication and login methods to their customers' preferences, such as passwordless login or multi-factor authentication via email or SMS, or social sign-on.
 
-[![RP-2022](RP-2022.png)](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022)
+[![RP-2022](RP-2022.webp)](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022)
 
 
 ## Key Highlights of the Consumer Identity Report 2022
@@ -40,7 +40,7 @@ As a company strongly focused on CIAM, we analyzed our global customers over the
 Some more findings of the report have been outlined in the infographic below. 
 
 
-![infographic-report-22](infographic-report-22.png)
+![infographic-report-22](infographic-report-22.webp)
 
 
 Overall, the CIAM trend report highlights: 
@@ -61,4 +61,4 @@ If you are trying to improve your customer experience, the finding of this repor
 Download a complimentary copy of the LoginRadius [Consumer Identity Trend Report](https://www.loginradius.com/resource/consumer-digital-identity-trend-report-2022) here.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-identity-trend-report-2022)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-identity-trend-report-2022)

@@ -1,7 +1,7 @@
 ---
 title: "Securing Centralized Access Without Compromising User Experience"
 date: "2022-10-17"
-coverImage: "centralized-access.jpg"
+coverImage: "centralized-access.webp"
 tags: ["centralized access management", "sso", "passwordless"]
 author: "Rakesh Soni"
 description: "While most platforms offer stringent security measures across their devices or applications, many businesses cannot provide a seamless user experience and security when a user switches from one app to another or device to another. Let’s understand how to enhance customer experience without compromising security."
@@ -34,7 +34,7 @@ SSO is an essential feature of an Identity and Access Management (IAM) platform 
 
 Enhanced user experience is one of the most valuable benefits of SSO. As repeated logins are no longer required, customers can enjoy a modern digital experience. The benefits for enterprises include increased customer loyalty and higher conversion rates.
 
-[![SSO-DS](SSO-DS.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![SSO-DS](SSO-DS.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 Hence, SSO is undeniably the perfect solution to improve centralized access between devices or applications without compromising security and user experience since users can jump from one app to another without friction. 
 
@@ -78,4 +78,4 @@ With secure centralized access through single sign-on and passwordless login, bu
 
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-centralized-access-management-without-compromising-cx)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-centralized-access-management-without-compromising-cx)

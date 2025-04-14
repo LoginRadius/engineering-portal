@@ -1,7 +1,7 @@
 ---
 title: "Local Storage vs. Session Storage vs. Cookies"
 date: "2022-01-12"
-coverImage: "blog-banner.png"
+coverImage: "blog-banner.webp"
 author: "Siddhant Varma"
 tags: ["Cookie", "Browser Storage", "Authentication", "JWT"]
 description: "This article helps you understand the differences between browser storage and cookies. By the end, you'll understand when to use cookies and browser storage (both local storage and session storage)."
@@ -57,11 +57,11 @@ Let's first take a peek at where the session storage resides in the browser:
 
 1. Open the developer tools in the browser and head over to the "Application" tab.
 
-   ![Application Tab Screenshot](./application-tab-screenshot.PNG)
+   ![Application Tab Screenshot](./application-tab-screenshot.webp)
 
 2. Under the storage section, you'll find a section named "Session Storage".
 
-   ![Session Storage Section Screenshot](./session-storage-tab-screenshot.PNG)
+   ![Session Storage Section Screenshot](./session-storage-tab-screenshot.webp)
 
 3. Click on it, and you'll be able to see the session storage for that website.
 
@@ -105,7 +105,7 @@ You now get your recently added data back!
 
 You'll also see this inside the session storage section of the browser's application tab:
 
-![Session Storage Example](./session-storage-example-1.PNG)
+![Session Storage Example](./session-storage-example-1.webp)
 
 #### Inserting Complex JSON Data
 
@@ -145,7 +145,7 @@ sessionStorage.setItem("user_data", JSON.stringify(data))
 
 It should now appear inside the session storage of the browser's application tab:
 
-![Complex JSON Data in Session Storage Example](./session-storage-example-2.PNG)
+![Complex JSON Data in Session Storage Example](./session-storage-example-2.webp)
 
 Awesome! Let's take a look at retrieving this data.
 
@@ -184,7 +184,7 @@ Every time a user reads a blog post or an article on a different tab, you can as
 
 Under the application tab where session storage resides, you'll find a section called local storage right underneath it.
 
-![Local Storage Tab Screenshot](./local-storage-tab-screenshot.PNG)
+![Local Storage Tab Screenshot](./local-storage-tab-screenshot.webp)
 
 That's where you can see everything you store inside the local storage of your browser. Local storage works, appears, and similar to session storage. For instance, just like Session storage, local storage can also store data ranging between 5mb - 10mb depending upon a browser's implementation.
 
@@ -243,7 +243,7 @@ However, since session storage and local storage have different data persistence
 
 Cookies allow you to automatically set a TTL or expiry time; are transferred with every HTTP request to the server; and, can also be accessed by the server. These features are missing in browser storage. Which brings us to the question — where would cookies be actually more useful than browser storage?
 
-![Comparison Table of Local Storage Session Storage and Cookies](./comparison-table.png)
+![Comparison Table of Local Storage Session Storage and Cookies](./comparison-table.webp)
 
 The answer is server side data! If you've dealt with authentication before, you know that at some point you need to store the authentication token or JWT of a user somewhere where it's easily accessible. That's where cookies are helpful. But why can't we use or why shouldn't we use browser storage here?
 

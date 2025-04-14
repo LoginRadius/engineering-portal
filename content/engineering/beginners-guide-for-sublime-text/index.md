@@ -1,7 +1,7 @@
 ---
 title: "Beginner's Guide for Sublime Text 3"
 date: "2015-09-15"
-coverImage: "Beginner-Guide-Sublime-Text.png"
+coverImage: "Beginner-Guide-Sublime-Text.webp"
 author: "Team LoginRadius"
 tags: ["SublimeText", "CodeEditor"]
 description: "Getting started with one of the lightweight Code Editor Sublime Text and it's package control and shortcut commends"
@@ -33,7 +33,7 @@ Cmd + Shift + p
 
 Then type "Install Package", you should see it now:  
 
-![install-package](install-package.png)
+![install-package](install-package.webp)
 
 2\. Theme
 
@@ -48,7 +48,7 @@ After installing your preferred theme, the font and color scheme for sublime may
 
 Navigate to:
 
-![user-preference](user-preference.png)
+![user-preference](user-preference.webp)
 
 What this file does is actually overwrite the settings in the default-setting JSON file, if you mess up with this user file, just delete them to recover back to the original settings. So feel free to play around with it, from here you can define the settings from your theme provider's guidance, here I will post mine as a sample
 
@@ -64,7 +64,7 @@ What this file does is actually overwrite the settings in the default-setting JS
 
 Please note JSON format is significant to Sublime Settings, when you are not sure about it, check it with an online JSON validator. Now with this step done, you will have a delightful working environment to write your code in:  
 
-![sample-code](sample-code.png)
+![sample-code](sample-code.webp)
 
 3\. Goto Everywhere
 

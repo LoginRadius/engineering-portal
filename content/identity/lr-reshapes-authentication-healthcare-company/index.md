@@ -1,7 +1,7 @@
 ---
 title: "Celebrating 8th Year Milestone: How Our Collaboration with a Leading Healthcare Company Transformed Millions of Lives"
 date: "2024-08-28"
-coverImage: "healthcare.jpg"
+coverImage: "healthcare.webp"
 tags: ["healthcare","digital transformation","cx"]
 author: "Ritika Kapahi"
 description: "Discover how LoginRadius transformed authentication for a global healthcare leader, enhancing patient identity management and boosting user accounts by 20.18%. Explore our 8-year journey of digital innovation, seamless integration, and exceptional service."
@@ -46,4 +46,4 @@ Our partnership's impact extends beyond mere operational enhancements; it has en
 
 As we celebrate these accomplishments, we remain excited about the future. Thanks for an amazing eight years! 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-reshapes-authentication-healthcare-company)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-reshapes-authentication-healthcare-company)

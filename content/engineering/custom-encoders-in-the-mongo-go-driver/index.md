@@ -1,7 +1,7 @@
 ---
 title: "Custom Encoders in the Mongo Go Driver"
 date: "2019-12-03"
-coverImage: "mongo-drivers.png"
+coverImage: "mongo-drivers.webp"
 author: "Chris Yee"
 tags : ["Go", "Golang", "MongoDriver"]
 ---

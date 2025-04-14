@@ -1,7 +1,7 @@
 ---
 title: "Replatforming 101: Everything You Need to Know"
 date: "2023-03-15"
-coverImage: "replatforming.jpg"
+coverImage: "replatforming.webp"
 tags: ["digital transformation","cloud migration","ciam solution"]
 author: "Rakesh Soni"
 description: "In today's rapidly evolving digital landscape, businesses must keep pace with the latest technology to remain competitive. One way to do this is through re-platforming or migrating from an outdated platform to a newer one, often in the cloud. Let’s have a look at the aspects associated with re-platforming."
@@ -76,7 +76,7 @@ Replatforming IAM solutions to cloud-based platforms can provide numerous benefi
 
 Hence, it’s always a great idea to switch to a robust customer IAM like LoginRadius that can help scale your business growth, enhance security, and meet all the compliances.
 
-[![GD-DIY-to-CIAM](GD-DIY-to-CIAM.png)](https://www.loginradius.com/resource/move-to-a-consumer-iam-solution/)
+[![GD-DIY-to-CIAM](GD-DIY-to-CIAM.webp)](https://www.loginradius.com/resource/move-to-a-consumer-iam-solution/)
 
 ## Customization and Integration of Cloud Replatform
 
@@ -116,4 +116,4 @@ Cloud re-platforming can provide numerous benefits, including enhanced scalabili
 
 By leveraging LoginRadius CIAM, businesses can stay ahead of the curve and thrive in the fast-paced digital landscape while planning to re-platform. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-replatforming)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-replatforming)

@@ -1,7 +1,7 @@
 ---
 title: "A Simple CSS3 Accordion Tutorial"
 date: "2020-10-27"
-coverImage: "cover-accordion.png"
+coverImage: "cover-accordion.webp"
 author: "Isaac Anohene"
 tags: ["CSS", "Accordion", "UI"]
 description: "Learn how to make a beautiful accordion with HTML and CSS only"
@@ -90,7 +90,7 @@ Repeat the ```div``` without a class for as many as you want depending on how ma
 </div>
 ```
 That's it with the HTML, and it should be looking like this:
-![plain-html](plain-html.png)
+![plain-html](plain-html.webp)
 
 Now let's start playing with the CSS part.
 We'll begin by styling the ```div``` with the class of ```accordion```.
@@ -179,4 +179,4 @@ The next thing to do is to show the accordion tab's content if the label is clic
 }
 ```
 Hurray🎉, we now have a lovely and functioning accordion that looks like this
-![css3-accordion](css3-accordion.png)
+![css3-accordion](css3-accordion.webp)

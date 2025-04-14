@@ -1,7 +1,7 @@
 ---
 title: "7 Benefits of Single Sign-On (SSO) and Why Your Business Needs It"
 date: "2019-11-12"
-coverImage: "benefits-sso.jpg"
+coverImage: "benefits-sso.webp"
 tags: ["single sign on","mfa","cx",]
 author: "Rakesh Soni"
 description: "Now that more enterprises are moving to the cloud, customers expect seamless access from anywhere, anywhere, and on any computer, to multiple applications. Likewise, as most large corporations have hundreds of touchpoints under different labels, trying to handle them all will strain their IT departments."
@@ -65,7 +65,7 @@ With single sign-on, you can: 
 
 As you can see, the ability to increase the productivity of end-users is one of the greatest single sign on benefits.  
 
-[![](DS-LoginRadius-Single-Sign-on-1024x310.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![](DS-LoginRadius-Single-Sign-on-1024x310.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 ### 2. It improves security capabilities.
 
@@ -77,7 +77,7 @@ Since users only need to remember one password for multiple applications, they�
 
 As explained in the next section, a single sign-on strategy can also be combined with [multi-factor authentication (MFA)](https://www.loginradius.com/blog/identity/what-is-multi-factor-authentication/) for extra security.
 
-![Customer uses SSO while Hacker is blocked via Risk-Based Authentication.](hacker-blocked-RBA-graphic-7-Benefits-SSO-1024x805.png)
+![Customer uses SSO while Hacker is blocked via Risk-Based Authentication.](hacker-blocked-RBA-graphic-7-Benefits-SSO-1024x805.webp)
 
 ### 3. It combines with Risk-Based Authentication (RBA).
 
@@ -97,7 +97,7 @@ How does password fatigue hurt enterprises? In short, more passwords, more probl
 
 A [recent usability study](https://baymard.com/blog/password-requirements-and-password-reset) by Baymard Institute proves this point. In this study, Baymard tested existing account users at two e-commerce sites (Amazon and ASOS) and found that 18.75% of users abandon their carts due to forgotten passwords or password reset issues.  
 
-![ Single Sign-On reduces shopping cart abandonment.](CART-abandonment-7-Benefits-of-Single-Sign-On-V01.03-08-1024x296.png)
+![ Single Sign-On reduces shopping cart abandonment.](CART-abandonment-7-Benefits-of-Single-Sign-On-V01.03-08-1024x296.webp)
 
 The benefit of single sign-on is that it’s only one password for customers to remember, for all of your applications.
 
@@ -203,4 +203,4 @@ SSO between two applications enables users to log in once and access both applic
 
 Single sign-on (SSO) is an authentication method that allows users to access multiple applications or systems with a single set of credentials, improving convenience and security.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-single-sign-on)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-single-sign-on)

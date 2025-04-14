@@ -1,7 +1,7 @@
 ---
 title: "Now and Beyond- Staying Ahead with the 10 Key Cybersecurity Trends of 2024"
 date: "2023-12-07"
-coverImage: "cybersecurity-trends.jpg"
+coverImage: "cybersecurity-trends.webp"
 tags: ["data security","cybersecurity","MFA","cx"]
 author: "Navanita Devi"
 description: "Dive into the future of cybersecurity with the top 10 trends for 2024. From Gen AI Attacks to Quantum Computing Threats, fortify your defense and stay ahead in the digital landscape."
@@ -42,7 +42,7 @@ Phishing attacks have evolved from generic email scams to highly targeted and so
 
 As traditional perimeter-based security models prove insufficient, the industry is witnessing a rapid adoption of Zero Trust frameworks. This approach assumes no inherent trust, requiring verification from everyone, regardless of their location or device. Implementing Zero Trust principles helps organizations fortify their defenses against both internal and external threats.
 
-[![WP-zero-trust-security](WP-zero-trust-security.png)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
+[![WP-zero-trust-security](WP-zero-trust-security.webp)](https://www.loginradius.com/resource/whitepaper/zero-trust-security-modern-business/)
 
 ### 5. Cyber Resilience:
 
@@ -72,4 +72,4 @@ The interconnected nature of modern business ecosystems makes supply chains susc
 
 As we stand on the brink of 2024, organizations must proactively address these cybersecurity trends 2024 to stay ahead of malicious actors. A holistic and adaptive cybersecurity strategy, coupled with ongoing education and compliance efforts, will be instrumental in safeguarding digital assets in the dynamic landscape of now and beyond.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-trends-2024)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-trends-2024)

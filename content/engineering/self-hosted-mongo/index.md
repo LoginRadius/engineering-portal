@@ -1,7 +1,7 @@
 ---
 title: "Self-Hosted MongoDB"
 date: "2020-06-30T12:00:00"
-coverImage: "cover.jpeg"
+coverImage: "cover.webp"
 author: "Chinmaya Pati"
 tags: ["MongoDB", "Mongo", "AWS", "Atlas"]
 description: "Learn how to optimize your DB cost? This article will help you with the complete migration steps from a cloud to a self-hosted environment."
@@ -15,11 +15,11 @@ BTW, how much savings are we talking about? Let’s do a quick comparison betwee
 
 **Atlas (~$166/month)**
 
-!["Atlas Pricing"](atlas.png "Atlas Pricing")
+!["Atlas Pricing"](atlas.webp "Atlas Pricing")
 $0.23/hour based on the above-selected requirements (~ [cloud.mongodb.com](https://cloud.mongodb.com))
 
 <br><br>**AWS (~$36/month)**
-!["AWS Pricing"](aws.png "AWS Pricing")
+!["AWS Pricing"](aws.webp "AWS Pricing")
 
 $0.0416/hour for the instance and additional pricing based on the EBS type and storage (~ [calculator.aws](https://calculator.aws/))
 
@@ -65,7 +65,7 @@ $ sudo lsblk
 
 The additional volumes will be listed right after the root block (refer to the arrows)
 
-!["sudo lsblk"](lsblk.png "List volume blocks")
+!["sudo lsblk"](lsblk.webp "List volume blocks")
 
 In the image above, you can see that the additional volumes are named
 1. **xvdb** (30Gb space to store data)
@@ -93,7 +93,7 @@ Before that let's copy the UUID of the above partitions(*because they are unique
 $ sudo blkid
 ```
 
-!["sudo blkid"](blkid.png "List attached block info")
+!["sudo blkid"](blkid.webp "List attached block info")
 
 Copy the UUIDs listed for **/dev/xvdb** and **/dev/xvdc**. Refer to the **“LABEL”** for block identification
 

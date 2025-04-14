@@ -1,7 +1,7 @@
 ---
 title: "Securing the Throne: Privileged Access Management (PAM) Best Practices Unveiled"
 date: "2023-11-14"
-coverImage: "pam.jpg"
+coverImage: "pam.webp"
 tags: ["identity access management","compliance","cx"]
 author: "Rakesh Soni"
 description: "Unveil the secrets of Privileged Access Management (PAM) and fortify your digital castle. Discover key practices like least privilege, secure shared accounts, and robust authentication. PAM is your sovereign shield against cyber threats in the ever-evolving cybersecurity landscape."
@@ -37,7 +37,7 @@ Privileged Access Management is the linchpin in cybersecurity, focusing on secur
 
 In the ever-evolving cybersecurity landscape, the threats we face are dynamic and sophisticated. PAM, too, must evolve to stay ahead. Regularly updating and adapting PAM strategies is akin to reinforcing the castle walls in response to new siege tactics. 
 
-[![GD-authn-autho-encr](GD-authn-autho-encr.png)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
+[![GD-authn-autho-encr](GD-authn-autho-encr.webp)](https://www.loginradius.com/resource/a-quick-guide-to-authentication-authorization-and-encryption/)
 
 Stay informed about emerging threats, update software, and conduct regular security assessments to ensure that PAM remains a stalwart defender against the shifting landscape of cyber risks.
 
@@ -63,4 +63,4 @@ As we navigate the treacherous waters of cybersecurity, Privileged Access Manage
 
 In digital security, PAM isn't just a choice; it's the sovereign shield protecting our most valuable assets from the shadows that seek to exploit vulnerability. As we unveil the best practices of PAM, let us fortify our defenses and ensure that only the worthy wield the keys to the kingdom.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pam-best-practices)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pam-best-practices)

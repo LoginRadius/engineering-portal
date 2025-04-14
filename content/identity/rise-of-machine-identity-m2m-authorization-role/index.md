@@ -1,7 +1,7 @@
 ---
 title: "Is the Rise of Machine Identity Posing a Threat to Enterprise Security?"
 date: "2022-02-24"
-coverImage: "machine-id.jpg"
+coverImage: "machine-id.webp"
 tags: ["data security","authorization","ciam solution"]
 author: "Rakesh Soni"
 description: "Cybercriminals are always on the hunt to exploit a loophole in the overall security mechanism in the digital world where machine-to-machine communication is the new normal. It’s no longer enough to assume services/devices accessing sensitive data can be trusted."
@@ -47,7 +47,7 @@ M2M Authorization is exclusively used for scenarios in which a business system a
 M2M Authorization provides remote systems with secure access to information. Using M2M Authorization, business systems can communicate autonomously and execute business functions based on predefined authorization.
 
 
-[![DS-m2m-auth](DS-m2m-auth.png)](https://www.loginradius.com/resource/m-to-m-authorization-)
+[![DS-m2m-auth](DS-m2m-auth.webp)](https://www.loginradius.com/resource/m-to-m-authorization-)
 
 
 ## Why Do Businesses Need M2M Authorization? 
@@ -87,4 +87,4 @@ Organizations need to understand the complexity of the situation and put their b
 [LoginRadius’](https://www.loginradius.com/) cutting-edge CIAM offers the best-in-class M2M authorization that helps businesses grow without compromising overall security. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rise-of-machine-identity-m2m-authorization-role)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=rise-of-machine-identity-m2m-authorization-role)

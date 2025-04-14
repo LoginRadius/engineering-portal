@@ -1,7 +1,7 @@
 ---
 title: "Introduction to JAMstack"
 date: "2020-10-29"
-coverImage: "jamstack_cover.png"
+coverImage: "jamstack_cover.webp"
 author: "Versha Gupta"
 tags: ["Jamstack", "Web"]
 description: "You may have heard the term JAMstack before, but you may not have understood what it means. In this article, We will introduce you to JAMstack as to why you need, best practice, and value."
@@ -47,7 +47,7 @@ We can easily understand the JAMstack value when comparing it with a monolithic 
 In a JAMstack architecture, the page request does not go to the server for Html because it directly fetches Html from CDN, where the Html file has been pre-built, and it's ready to be downloaded; that's why no server is involved here.
 
 ##  Workflow comparison (JAMstack vs. traditional)
-![jamstack-vs-traditional-workflow](image1.png)
+![jamstack-vs-traditional-workflow](image1.webp)
 
 **Traditional workflow**
 

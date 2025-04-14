@@ -1,7 +1,7 @@
 ---
 title: "Digital Transformation: Safeguarding the Customer Experience"
 date: "2018-10-03"
-coverImage: "digital-transformation-safeguarding.jpg"
+coverImage: "digital-transformation-safeguarding.webp"
 tags: ["digital transformation","customer identity management","cx"]
 author: "Rakesh Soni"
 description: "Superior customer service is one of the key factors for company success in today's digitally linked world. Personalization, which harnesses the power of digital transformation in order to create curated interactions that can fuel customer engagement and market differentiation, is at the core of the experience."
@@ -39,7 +39,7 @@ The LoginRadius CIAM platform has hosting and data security approval for all of 
 
 Many of these certifications involve rigorous third-party assessment of either our cloud service or our data management and security practices. They also help us achieve compliance with the EU GDPR: the most significant privacy legislation to impact how organizations deal with their customers’ information.
 
-[![core-of-digital-transformation](core-of-digital-transformation.png)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
+[![core-of-digital-transformation](core-of-digital-transformation.webp)](https://www.loginradius.com/resource/customer-identity-the-core-of-digital-transformation/)
 
 In order to [comply with the GDPR](https://www.loginradius.com/resource/loginradius-and-gdpr-compliance/), LoginRadius has worked hard to ensure that our products and capabilities are leveraged to guarantee data privacy and compliance for every one of our 3,000+ customers. Some of these features include gaining [customer consent](https://www.loginradius.com/blog/identity/consent-management/) for access to their personal data, allowing customers to view, export, and edit their personal data at any time, and providing customers with a _right to be forgotten_ by deleting their accounts entirely.
 

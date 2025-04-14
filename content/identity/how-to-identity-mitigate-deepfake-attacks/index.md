@@ -1,7 +1,7 @@
 ---
 title: "Emerging Threat of Deepfakes: How To Identify And Prepare Against It"
 date: "2022-01-13"
-coverImage: "deepfake.jpg"
+coverImage: "deepfake.webp"
 tags: ["digital transformation","identity management","cx"]
 author: "Vishal Sharma"
 description: "The emergence of deepfakes has led to many questions about how to identify and protect against them. This blog will provide an overview towards providing that understanding."
@@ -67,7 +67,7 @@ Algorithms are also emerging to assist video creators in authenticating their vi
 
 Similarly, security practices can help to deter fraudsters. Deepfake attacks, as an emerging threat, thrive on the degree of technology available to fraudsters, particularly machine learning and advanced analytics. Businesses can fight fire with fire by employing the same capabilities. 
 
-**Also Download**: [![WP-digital-trade](WP-digital-trade.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+**Also Download**: [![WP-digital-trade](WP-digital-trade.webp)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ## How to Prevent Deepfake Attacks
@@ -98,4 +98,4 @@ However, these methods are not the only measures to address the issue of deepfak
 
 Additionally, technological companies and governments should consider enacting legislation that criminalizes the usage of deepfakes with the goal of damaging individuals' reputations. In this way, we can stop this rising threat. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-identity-mitigate-deepfake-attacks)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-identity-mitigate-deepfake-attacks)

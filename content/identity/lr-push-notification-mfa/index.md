@@ -1,7 +1,7 @@
 ---
 title: "Announcement - LoginRadius Unveils the Future of Authentication with Push Notification MFA"
 date: "2024-06-19"
-coverImage: "Push-Notification-MFA.png"
+coverImage: "Push-Notification-MFA.webp"
 tags: ["industry news","MFA","digital security"]
 author: "Rakesh Soni"
 description: "LoginRadius introduces Push Notification Multi-Factor Authentication (MFA) to enhance digital security and provide a seamless customer authentication experience. This new feature addresses traditional password vulnerabilities intuitively and is user-friendly, ensuring robust security without compromising convenience."
@@ -34,7 +34,7 @@ Our new Push Notification Multi-Factor Authentication (MFA) feature is designed 
 
 5. **Detailed Activity Logs**: Gain insights into customer activity and authentication attempts with comprehensive logging capabilities. This feature allows for better monitoring and analysis of security events.
 
-[![DS-push-notification](DS-push-notification.png)](https://www.loginradius.com/resource/datasheet/push-notification-mfa)
+[![DS-push-notification](DS-push-notification.webp)](https://www.loginradius.com/resource/datasheet/push-notification-mfa)
 
 ## Seamless Integration and Deployment
 
@@ -44,4 +44,4 @@ Push Notification MFA is designed to introduce minimal friction in the customer 
 
 Embrace the future of secure digital interactions with Push Notification MFA from LoginRadius and provide your customers with the seamless, secure experience they deserve. You can now enhance your security measures, reduce password-related risks, and maintain an exceptional user experience.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-push-notification-mfa)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-push-notification-mfa)

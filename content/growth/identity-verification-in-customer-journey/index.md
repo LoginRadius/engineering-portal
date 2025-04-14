@@ -1,7 +1,7 @@
 ﻿---
 title: "Achieving Harmony: Balancing Identity Verification in the Customer Journey"
 date: "2023-06-07"
-coverImage: "identity-verification.jpg"
+coverImage: "identity-verification.webp"
 tags: ["identity verification","ciam authentication","cx"]
 author: "Vishal Sharma"
 description: "In today's digital landscape, businesses face the challenge of balancing identity verification throughout the customer journey. This blog dives into the complexities and offers actionable strategies to achieve harmony. Find out how to balance security and user experience, fostering trust and driving long-term success."
@@ -37,7 +37,7 @@ Here’s the list of actionable strategies that businesses can employ to achieve
 
 Adopting a risk-based approach allows businesses to calibrate the verification level according to the perceived risk associated with each interaction. By tailoring verification requirements based on factors such as transaction value, user behavior, and historical data, businesses can strike a balance between security and user experience.
 
-[![GD-to-RBA](GD-to-RBA.png)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
+[![GD-to-RBA](GD-to-RBA.webp)](https://www.loginradius.com/resource/an-enterprises-guide-to-risk-based-authentication/)
 
 ### Leveraging advanced authentication technologies
 
@@ -77,4 +77,4 @@ Organizations can foster trust, enhance customer satisfaction, and drive long-te
 
 Through the strategic implementation of technology, adaptive verification processes, and a customer-centric approach, businesses can navigate the complexities of identity verification while ensuring a pleasant customer journey in today's digital landscape.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-in-customer-journey)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-verification-in-customer-journey)

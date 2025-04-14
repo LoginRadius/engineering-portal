@@ -1,7 +1,7 @@
 ---
 title: "Social Network Branding Guidelines"
 date: "2015-09-08"
-coverImage: "social-network-branding-300x300.png"
+coverImage: "social-network-branding-300x300.webp"
 author: "Team LoginRadius"
 tags: ["Social","SocialLogin","Branding"]
 ---
@@ -12,15 +12,15 @@ Hello and welcome to another segment of me telling you things that you need to k
 
 Social Login and Social Sharing are everywhere. Some people even combine it with with their User Registration. There’s no surprise that on every website you go to, you’ll see either well designed social icons or just plain ugliness. We can’t blame them, they want their icons to be unique and eye catching.
 
-![1](1.png)_Beauty!_
+![1](1.webp)_Beauty!_
 
 But, the universe is full of holes inside an “A” whom sometimes destroy a thing of beauty.
 
-![2](2.jpg)_Just. Stop!_
+![2](2.webp)_Just. Stop!_
 
 Then there’s the “I use my own brand color” kind of people.
 
-![3](3.png)
+![3](3.webp)
 
 _So, what’s happening here? What’s the orange f? Does that stands for forangebook? \*badum tsss\* I’ll see myself out._
 
@@ -30,7 +30,7 @@ One thing we need to realize is, we don’t own these icons. The companies still
 
 Let’s start with the most used social network, Facebook and their “ f ” logo. They’re pretty straightforward, as long as you don’t modify the “ f ” logo’s design and color, you’re good to go. To simplify this more; don’t make the facebook logo look like it’s been scratched by a chicken and made it bleed too much that it turns red.
 
-![4](4.png)
+![4](4.webp)
 
 _Quick, somebody call 911!_
 
@@ -38,7 +38,7 @@ _Quick, somebody call 911!_
 
  
 
- ![5](5.png) Nonetheless, it’s simple.
+ ![5](5.webp) Nonetheless, it’s simple.
 
 - Don’t use their old logo (because, let’s face it, it’s ugly).
 - Don’t use a speech bubble (because that’s so 1995)
@@ -54,7 +54,7 @@ On Google+ (yes “ + “ not “plus“), they prefer that you don’t change o
 
 If you’re using the icon with the title, You should use “Google” without the plus (word and sign), because… well… that’s redundant.
 
-LinkedIn is kind of ridiculous with their [branding guidelines](https://brand.linkedin.com/en-us). They still have the same drill with no distorting or changing the color and so forth. But there’s one thing you won’t expect, you cannot change the radius or the box. ![6](6.png) 
+LinkedIn is kind of ridiculous with their [branding guidelines](https://brand.linkedin.com/en-us). They still have the same drill with no distorting or changing the color and so forth. But there’s one thing you won’t expect, you cannot change the radius or the box. ![6](6.webp) 
 
  
 

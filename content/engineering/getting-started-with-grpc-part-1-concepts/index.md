@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with gRPC - Part 1 Concepts"
 date: "2019-10-30"
-coverImage: "grpc.png"
+coverImage: "grpc.webp"
 author: "Andy Yeung"
 tags: ["Engineering","gRPC",]
 ---
@@ -12,7 +12,7 @@ _This blog is part 1 of a series on gRPC. Part 1 will go over some important con
 
 gRPC, simply put, is just another way to send data across networks. It can be used to communicate between services in a microservice architecture, where a single service can interact with multiple others. Similarly, in client-server models, there can be multiple clients communicating with a common backend server.
 
-![](Screen-Shot-2019-10-30-at-1.31.52-PM.png)
+![](Screen-Shot-2019-10-30-at-1.31.52-PM.webp)
 
 The gRPC framework was initially developed at Google and is now open-source. It is a modern implementation of the RPC (Remote Procedure Call) protocol, which has been around since the 80s. You will often see gRPC being compared to other technologies like SOAP, REST, and GraphQL.
 
@@ -31,7 +31,7 @@ gRPC is based on the idea of calling a remote procedure just like a local one. A
 
 Here is a diagram from the official grpc [docs](https://grpc.io/docs/guides/) showing the flow:
 
-![](Screen-Shot-2019-10-30-at-1.35.45-PM-768x480.png)
+![](Screen-Shot-2019-10-30-at-1.35.45-PM-768x480.webp)
 
 Each client service will include a stub, which is like an interface containing the available remote procedures. These stubs are auto-generated files.
 
@@ -103,7 +103,7 @@ Step 3: Use stubs in server and clients.
 
 **The Big Picture**
 
-![](Screen-Shot-2019-10-30-at-1.57.55-PM.png)
+![](Screen-Shot-2019-10-30-at-1.57.55-PM.webp)
 
 **Why gRPC?**
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "How Implementing the Right Identity Strategy Can Grow Your Business?"
 date: "2022-04-07"
-coverImage: "id-strategy.jpg"
+coverImage: "id-strategy.webp"
 tags: ["consumer iam solution","digital identity management","cx"] 
 author: "Rakesh Soni"
 description: "The right identity strategy can help businesses stay up and running even in challenging situations since enterprises can rely on valuable consumer insights, including their preferences, behavior, and purchase trends. Let’s understand the role of identity management and how a good strategy for managing consumer identities can help businesses excel in growth."
@@ -67,7 +67,7 @@ Here’s how LoginRadius manages security and usability:
 * **Safeguard sensitive data:** Our modern cloud infrastructure is protected to the highest industry standards. LoginRadius maintains all major security compliances for our application and data storage.
 * **Manage consumer consent:** Stay current on regulations for acquiring consumer consent, data collection and use, age verification, and site access. Give consumers transparency into the consent process to demonstrate good faith.
 
-[![WP-zero-trust-1](WP-zero-trust-1.png)](https://www.loginradius.com/resource/zero-trust-security/)
+[![WP-zero-trust-1](WP-zero-trust-1.webp)](https://www.loginradius.com/resource/zero-trust-security/)
 
 Hence, businesses must understand the importance of a modern CIAM solution like LoginRadius and consider incorporating it into their identity strategy.
 
@@ -79,4 +79,4 @@ By implementing the benefits of the LoginRadius CIAM as a unified solution, you 
 
 Need more information about how [LoginRadius CIAM benefits](https://www.loginradius.com/blog/identity/loginradius-private-cloud-ciam-benefits/) your business? Reach us for a free personalized demo.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=grow-business-with-right-identity-strategy)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=grow-business-with-right-identity-strategy)

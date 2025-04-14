@@ -1,7 +1,7 @@
 ---
 title: "The Power of No-code Customer IAM in Reducing Churn"
 date: "2023-09-22"
-coverImage: "no-code-ciam-churn.jpg"
+coverImage: "no-code-ciam-churn.webp"
 tags: ["ciam solutions","identity management","cx"]
 author: "Chirag Bhavsar"
 description: "In today's ever-expanding competitive business landscape, combating customer churn is a top priority. This article delves into the game-changing potential of No-code CIAM, exploring its impact on customer onboarding, engagement, security, and data-driven decision-making. Discover how businesses can harness No-code CIAM to foster lasting customer relationships and drive long-term success."
@@ -118,4 +118,4 @@ Reducing churn is paramount for the long-term success of any business, and No-co
 
 Implementing best practices, understanding customer journeys, and ensuring compliance are essential steps in harnessing the full potential of No-code CIAM. As technology advances, No-code CIAM is set to become an even more critical tool in reducing churn and fostering lasting customer relationships.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=no-code-ciam-churn-reduction)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=no-code-ciam-churn-reduction)

@@ -1,7 +1,7 @@
 ---
 title: "5 Breakthrough Innovations: How AI is Transforming Compliance"
 date: "2024-07-23"
-coverImage: "ai-compliance.jpg"
+coverImage: "ai-compliance.webp"
 tags: ["ai","consent management","compliance"]
 author: "Rakesh Soni"
 description: "Artificial Intelligence is reshaping the landscape of compliance with groundbreaking innovations. Here are five transformative ways AI is revolutionizing compliance, offering enhanced accuracy, efficiency, and risk management."
@@ -50,7 +50,7 @@ AI can analyze patterns and behaviors to detect anomalies indicative of fraudule
 
 * Deploy AI-powered behavioral analytics tools to continuously monitor transactions and activities, flagging any suspicious behavior for further investigation.
 
-[![WP-ai-iam](WP-ai-iam.png)](https://www.loginradius.com/resource/whitepaper/how-ai-change-iam-initiatives/)
+[![WP-ai-iam](WP-ai-iam.webp)](https://www.loginradius.com/resource/whitepaper/how-ai-change-iam-initiatives/)
 
 ### 5. Predictive Analytics for Compliance Trends
 
@@ -68,4 +68,4 @@ As regulatory landscapes continue to evolve, leveraging AI will be crucial for b
 
 Embrace these AI-driven innovations and position your organization at the forefront of compliance efficiency and accuracy.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-innovations-transforming-compliance)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ai-innovations-transforming-compliance)

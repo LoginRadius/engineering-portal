@@ -1,7 +1,7 @@
 ---
 title: "How to Achieve a 360-Degree Growth with Data-Driven Approach"
 date: "2021-01-25"
-coverImage: "360-degree-growth-with-data-driven.jpg"
+coverImage: "360-degree-growth-with-data-driven.webp"
 category: ["all"]
 featured: false
 author: "Shachindra Saxena"
@@ -62,7 +62,7 @@ Furthermore, to uncover key predictors of growth in existing customers and who a
 Finally, to reduce revenue leakage, you could capture data for pricing strategy or discount strategy. You could also be monitoring industry data, deal sizes, and details to analyze and maximize revenue for each deal.  
 
 
-[![consumer-audit-trail](consumer-audit-trail.jpg)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
+[![consumer-audit-trail](consumer-audit-trail.webp)](https://www.loginradius.com/resource/loginradius-consumer-audit-trail)
 
 
 ### **Analyze and capture insights.**
@@ -90,4 +90,4 @@ So, there you go —
 "Leverage" data, "analyze," "implement," "measure," and then "repeat success." 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=360-degree-growth-data-driven)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=360-degree-growth-data-driven)

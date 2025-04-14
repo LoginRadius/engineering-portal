@@ -1,7 +1,7 @@
 ---
 title: "Why LoginRadius Is the Best Akamai Identity Cloud (Janrain) Alternative"
 date: "2019-06-24"
-coverImage: "janrain-feature.png"
+coverImage: "janrain-feature.webp"
 tags: ["public-sector"]
 featured: false 
 author: "Rakesh Soni"
@@ -88,4 +88,4 @@ LoginRadius is a CIAM solution that offers seamless migration from your current 
 
 Want to hear more about making the switch to LoginRadius? Call a LoginRadius digital identity consultant today at 1-844-625-8889. We’ll be happy to give you a product demo so you can compare LoginRadius with your current provider. 
 
-[![Janrain alternative](CTA-Graphics-for-Blogs-V02.01-15.png)](https://www.loginradius.com/book-demo/)
+[![Janrain alternative](CTA-Graphics-for-Blogs-V02.01-15.webp)](https://www.loginradius.com/book-demo/)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Myth or True - Is AI Really Transforming the Digital Marketing Industry?"
 date: "2021-05-18"
-coverImage: "AI-Myth-True.jpg"
+coverImage: "AI-Myth-True.webp"
 category: ["loginradius"]
 featured: false 
 author: "Ashley Lipman"
@@ -62,4 +62,4 @@ While all artificially intelligent tools and software aren’t always cheap, the
 
 In conclusion, yes, AI is transforming the digital marketing industry. We hope the information in this [marketing growth blog](https://www.loginradius.com/blog/fuel/) has been able to show you how. <p>
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=is-ai-really-transforming-the-digital-marketing-industry)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=is-ai-really-transforming-the-digital-marketing-industry)

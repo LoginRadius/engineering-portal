@@ -1,7 +1,7 @@
 ---
 title: "Identity Management in Healthcare: Analyzing the Industry Needs"
 date: "2020-11-03"
-coverImage: "Identity-Management-in-Healthcare.jpg"
+coverImage: "Identity-Management-in-Healthcare.webp"
 tags: ["customer-experience"]
 featured: false 
 author: "Rakesh Soni"
@@ -25,7 +25,7 @@ First, though, we need to discuss what makes the control of healthcare identitie
 
 ## Current Security Challenges in the Healthcare Sector
 
-![](Identity-Management-in-Healthcare-1.png)
+![](Identity-Management-in-Healthcare-1.webp)
 
 Simply put, the more data compromised, the more it leads to regulatory penalties, loss of patient trust, and bad publicity. 
 
@@ -76,7 +76,7 @@ Protected health information (PHI) takes ten times the price of the dark web's f
 
 Modern identity management in healthcare is designed with an essential security strategy for hospitals embedded just right in. IAM prevents unauthorized people from accessing PHI and the right people from leaking it by accident. When obtaining access to sensitive information and facilities, a sound IAM approach would also minimize costs, decrease help desk calls, and improve the overall patient experience.
 
-[![](protecting-pii-against-data-breaches.png)](https://www.loginradius.com/resource/pii-data-breach-report/)
+[![](protecting-pii-against-data-breaches.webp)](https://www.loginradius.com/resource/pii-data-breach-report/)
 
 
 Below are a few things that identity management in healthcare businesses actually do as a cybersecurity and convenience gatekeeper. 
@@ -126,7 +126,7 @@ Security departments can produce reliable system audits and documentation effect
 
 ## How Can LoginRadius Help the Healthcare Industry Stay Secure and Compliant
 
-![](Identity-Management-in-Healthcare-2.png)
+![](Identity-Management-in-Healthcare-2.webp)
 
 LoginRadius is a powerful player that checks all the major boxes in securing patient identities and authentication throughout the healthcare infrastructure. 
 
@@ -160,4 +160,4 @@ Times are changing—IAM is no longer an administrator-driven set of capabilitie
 
 Moving forward, identity management in healthcare organizations is about to take a giant leap. LoginRadius can help you with that! 
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-healthcare)
+[![](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-healthcare)

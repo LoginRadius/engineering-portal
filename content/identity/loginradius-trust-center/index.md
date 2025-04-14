@@ -91,4 +91,4 @@ Visit the [LoginRadius Trust Center](https://trust.loginradius.com).
 
 And if you have feedback or ideas—we’re all ears!
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

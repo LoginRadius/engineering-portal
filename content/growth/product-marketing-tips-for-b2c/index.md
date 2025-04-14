@@ -1,7 +1,7 @@
 ---
 title: "3 Product Marketing Tips for B2C CMOs"
 date: "2021-06-14"
-coverImage: "Product-marketing.jpg"
+coverImage: "Product-marketing.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -124,4 +124,4 @@ Another tip you must follow for your product marketing strategy optimization is 
 ## Wrapping Up
 
 Without a well-developed product marketing strategy, it is difficult for businesses to thrive amongst consumers. Every company perceives diverse ideas for its product marketing and practices distinct actions to attain distinct goals. Hence, it can be asserted that developing a great product marketing strategy will ensure that your product receives great success amongst its target audience.<p>
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=product-marketing-tips-for-b2c)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=product-marketing-tips-for-b2c)

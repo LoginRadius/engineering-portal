@@ -1,7 +1,7 @@
 ---
 title: "7 Uncommon Cyber Attacks in 2023: Why Your Organization Needs To Be Ready  For The Worst-Case Scenarios"
 date: "2023-01-27"
-coverImage: "uncommon.jpg"
+coverImage: "uncommon.webp"
 tags: ["cybersecurity", "identity management", "cyberattacks"]
 author: "Alok Patidar"
 description: "Cybercriminals are resourceful and innovative creatures who constantly develop new ways to exploit businesses and customer information to reap benefits. While every organization is aware of the potential threats, they are equally unaware of the uncommon attacks that could severely impact their overall cybersecurity posture."
@@ -51,7 +51,7 @@ The Internet of Things is a growing industry; several intelligent, interconnecte
 
 IoT networks are mainly vulnerable to spoofing, denial-of-service attacks (DDoS), and phishing. And these kinds of attacks can be avoided by leveraging various network security measures, including encryption, identity management, robust authentication, and authorization.
 
-[![WP-Trade-Zone](WP-Trade-Zone.png)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
+[![WP-Trade-Zone](WP-Trade-Zone.webp)](https://www.loginradius.com/resource/digital-trade-zone-threats-cybersecurity-whitepaper)
 
 
 ### #5. Deepfake 
@@ -88,4 +88,4 @@ Cyberattacks are inevitable. As business teams continue to invest in securing th
 While organizations need to be wary of both, they should also gear up for complex commodity watering hole attacks and dark web compromises. These are some of the uncommon cyberattacks that all companies should keep an eye out for, especially in a digital transformation environment.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-uncommon-cyberattacks-2023)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-uncommon-cyberattacks-2023)

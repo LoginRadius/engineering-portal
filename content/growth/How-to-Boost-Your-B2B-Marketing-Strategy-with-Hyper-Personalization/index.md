@@ -1,7 +1,7 @@
 ﻿---
 title: "How to Boost Your B2B Marketing Strategy with Hyper-Personalization"
 date: "2021-03-31"
-coverImage: "Effective-Communication-Strategies.jpg"
+coverImage: "Effective-Communication-Strategies.webp"
 category: ["loginradius"]
 featured: false 
 author: "Vishal Sharma"
@@ -109,4 +109,4 @@ The ones that will leverage hyper-personalization by understanding its impact on
 
 The aforementioned aspects depict the role of artificial intelligence coupled with content strategies that helps in winning consumer trust and getting chosen over competitors.
 
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-boost-your-b2b-marketing-strategy-with-hyper-personalization)
+[![book-a-demo-Consultation](loginradius-book-a-demo.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-boost-your-b2b-marketing-strategy-with-hyper-personalization)

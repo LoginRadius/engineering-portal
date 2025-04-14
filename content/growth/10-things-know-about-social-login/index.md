@@ -1,7 +1,7 @@
 ---
 title: "10 Things You Need to Know About Allowing Users to Login With Their Social Media Profiles"
 date: "2022-09-27"
-coverImage: "social.jpg"
+coverImage: "social.webp"
 category: ["social media login","sso","cx"]
 author: "Ivana Radevska"
 description: "Businesses are still relying on old-school login and authentication mechanisms, including organization-level IAM, which is why their business lags behind their competitors. Let’s discuss why businesses need to replace their traditional IAM with new-age CIAM."
@@ -131,7 +131,7 @@ In addition, asking users to fill out a lengthy registration form with more than
 
 On the other hand, when users sign up via a social account, businesses typically access a larger amount of data points. They have an additional layer of verification of the user's information.   
 
-[![social-login-ds](social-login-ds.png)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
+[![social-login-ds](social-login-ds.webp)](https://www.loginradius.com/resource/loginradius-ciam-social-login/)
 
 ### 3. Eliminates Mistargeted Marketing  
 
@@ -207,4 +207,4 @@ A social account refers to an individual's profile or account on a social media 
 
 Yes, social login is typically free for both businesses and users, although there may be costs associated with implementing and maintaining the integration.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-things-know-about-social-login)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-things-know-about-social-login)

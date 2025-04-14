@@ -179,4 +179,4 @@ Need expert help implementing modern authentication mechanisms? [Contact LoginRa
 
 **A.** The process that authenticates clients to a network typically involves validating credentials using protocols like RADIUS or EAP. This ensures that only authorized users can connect securely.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)

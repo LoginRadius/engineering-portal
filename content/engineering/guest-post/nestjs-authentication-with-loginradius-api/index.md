@@ -1,7 +1,7 @@
 ---
 title: "NestJS User Authentication with LoginRadius API"
 date: "2022-03-23"
-coverImage: "coverimage.png"
+coverImage: "coverimage.webp"
 author: "Mary Gathoni"
 tags: ["NestJS", "Node.js", "Authentication"]
 description: "Want to authenticate users on your NestJS app? Follow this tutorial to learn how to authenticate users using a password and perform authorization using access tokens."
@@ -433,7 +433,7 @@ POST http://localhost:3000/auth/signup
 
 You should receive a "Sign up successful" message if the request is successful.
 
-![Create a user](./signup-route.png)
+![Create a user](./signup-route.webp)
 
 Next, log in the user by sending the login credentials to the login endpoint of your application.
 
@@ -443,7 +443,7 @@ POST http://localhost:3000/auth/login
 
 If successful, you should receive the access token.
 
-![Sign up a user](./login-route.png)
+![Sign up a user](./login-route.webp)
 
 Finally, use the access token to access the protected route. Add the token to the authorization header.
 
@@ -451,7 +451,7 @@ Finally, use the access token to access the protected route. Add the token to th
 GET http://localhost:3000/auth/protected
 ```
 
-![Sign up a user](./protected-route.png)
+![Sign up a user](./protected-route.webp)
 
 ## Conclusion
 

@@ -1,7 +1,7 @@
 ---
 title: "How CIAM can help in Preventing Abandoned Carts"
 date: "2021-11-16"
-coverImage: "cart-abandon.jpg"
+coverImage: "cart-abandon.webp"
 tags: ["progressive profiling","ciam solution","mfa","cx"]
 author: "Rashmi Mathur"
 description: "Shoppers leave their carts behind all the time. When this happens, it usually means that they're abandoning their purchase but also that they're possibly losing interest in your brand altogether. This blog takes a deeper look into how CIAM can stop the issue of abandoned carts."
@@ -34,7 +34,7 @@ Customer identity and other credentials are sensitive information that hackers c
 
 Thankfully, CIAM helps you collect data as well as secure it. What makes it even better is that you can collect customers’ data that is beyond just registration! That’s right, through CIAM, you can even collect helpful information such as customers’ shopping patterns, buying choices, etc. And of course, you can use this information to boost your targeted marketing strategies and other ventures. 
 
-[![EB-progressive-profiling](EB-progressive-profiling.png)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
+[![EB-progressive-profiling](EB-progressive-profiling.webp)](https://www.loginradius.com/resource/how-to-squeeze-every-drop-of-progressive-profiling/)
 
 Talking about security, CIAM solutions tokenize customer identities to detach them from sensitive data while it's in storage. Furthermore, these solutions also use robust [data encryption and hashing](https://www.loginradius.com/blog/engineering/encryption-and-hashing/) to ensure the privacy of sensitive information and credentials.
 
@@ -65,4 +65,4 @@ It helps enable the organizations to have greater control of their information a
 
 Consumers expect simplicity and speed with new-age authentication like the use of biometrics that replace passwords for secure and seamless login. Likewise, CIAM helps streamline the data storage and authentication to secure your customer experience and provide you with a competitive edge. The combination of these factors makes CIAM a powerful platform for any eCommerce enterprise. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-prevents-abandoned-carts)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-prevents-abandoned-carts)

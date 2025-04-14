@@ -1,7 +1,7 @@
 ---
 title: "Data Governance Best Practices for Enterprises"
 date: "2020-07-22"
-coverImage: "Data-Governance-Best-Practices.jpg"
+coverImage: "Data-Governance-Best-Practices.webp"
 tags: ["data governance","compliance","cx"]
 author: "Rakesh Soni"
 description: "The world has undergone a massive transformation in governing the data and is establishing methods to standardize, integrate, and protect such information. The EU's General Data Protection Regulation implemented in 2018 was a masterstroke to the data governance arrangement."
@@ -63,7 +63,7 @@ Data governance will be at the center of customer and business relationships. To
 
 Needless to say,  data governance will emerge as a competitive differentiator when delivering the best customer experiences.
 
-[![ccpa-customer-identity](ccpa-customer-identity.png)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
+[![ccpa-customer-identity](ccpa-customer-identity.webp)](https://www.loginradius.com/resource/the-ccpa-and-customer-identity)
 
 ## Data Governance Best Practices Enterprises Should Follow
 
@@ -113,7 +113,7 @@ Following suit, other countries like India, South Korea, Brazil, and Thailand ar
 
 ## How Does a Robust Data Governance Framework Impact Your Digital Business
 
-![](Data-Governance-Best-Practices-for-Enterprises-1.jpg)
+![](Data-Governance-Best-Practices-for-Enterprises-1.webp)
 
 Digital transformation is actively on the radar of data security professionals. A well-thought and proactively managed data governance framework can drive business transformation throughout organizational levels in the following ways:
 
@@ -127,7 +127,7 @@ Digital transformation is actively on the radar of data security professionals. 
 
 ## Choosing the LoginRadius CIAM Platform to Help Enterprises
 
-![](image3-1.png)
+![](image3-1.webp)
 
 Data governance isn’t a one-time project, rather a recurring one. To maintain and sustain such programs require a lot of work. LoginRadius is a customer identity and access management (CIAM) platform that prepares organizations to fuel data-driven decision-making and create better business opportunities. 
 
@@ -150,4 +150,4 @@ As already mentioned, data governance revolves around people, processes, and tec
 
 Maximize benefits and optimize your use of data protection strategies in the new decade. Start with implementing the data governance best practices laid out in this article.
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-governance-best-practices)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-governance-best-practices)

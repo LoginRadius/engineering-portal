@@ -1,7 +1,7 @@
 ---
 title: "Secure Enclave in iOS App"
 date: "2020-10-13"
-coverImage: "CoverImage.jpg"
+coverImage: "CoverImage.webp"
 author: "Tanvi Jain"
 description: "SecureEnclaveDemo is an xcode project containing helper named as SecEnclaveWrapper. You can use this wrapper in your project to encrypt/decrypt sensitive data using Secure Enclave. Let's understand more about in the blog."
 tags: ["ios","security","data","encryption","private key","xcode"]
@@ -14,7 +14,7 @@ The Secure Enclave is a hardware-based key manager that’s isolated from the ma
 We usually save data persistently in the app using UserDefaults, Keychain, Core Data or SQLite.
 For example, To save the session of logged in user, we save username and password. But this process puts our data at high-security risk. So it's always recommended to store sensitive data in an encrypted format. But again, it's a challenge to secure keys used in encryption/decryption.
 
-![Secure Enclave](image2.jpg)
+![Secure Enclave](image2.webp)
 
 Now here **Secure Enclave** comes in the role. 
 

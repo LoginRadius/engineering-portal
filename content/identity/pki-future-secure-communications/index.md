@@ -1,7 +1,7 @@
 ---
 title: "Why is PKI The Future of Secure Communications"
 date: "2021-10-26"
-coverImage: "pki-cover.jpg"
+coverImage: "pki-cover.webp"
 tags: ["single sign-on","sso","authentication"]
 author: "Vishal Sharma"
 description: "With PKI, one can ensure that data is adequately encrypted during transit, ensuring only the authorized user can access the data. Let’s understand what PKI is and how it paves the path for secure encryption for businesses."
@@ -83,7 +83,7 @@ Robust authentication mechanisms like PKI ensure that the devices and users are 
 
 Businesses can leverage the true potential of PKI through Single Sign-On. Though PKI isn’t an SSO service through specific alterations, enterprises can also benefit from Single Sign-On through PKI. 
 
-[![DS-SSO](DS-SSO.png)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
+[![DS-SSO](DS-SSO.webp)](https://www.loginradius.com/resource/loginradius-single-sign-on/)
 
 
 ### 4. Highly scalable 
@@ -109,4 +109,4 @@ PKI is a game-changer when it comes to managing secure access between devices an
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pki-future-secure-communications)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pki-future-secure-communications)

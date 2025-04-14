@@ -1,7 +1,7 @@
 ---
 title: "3 Simple Ways to Secure Your Websites/Applications"
 date: "2019-06-24"
-coverImage: "hacker.png"
+coverImage: "hacker.webp"
 author: "Karl Wittig"
 tags: ["Engineering"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Implement Authentication in React Applications using LoginRadius CLI "
 date: "2021-05-12"
-coverImage: "cover.jpg"
+coverImage: "cover.webp"
 author: "Akash Patil"
 tags: ["Authentication", "React", "CLI", "LoginRadius CLI"]
 description: "In this tutorial, we will learn about implementing authentication for React applications using LoginRadius in under 5 mins. We will be using the LoginRadius CLI, through which we can perform basic actions of the LoginRadius Dashboard on the command line in a fast and proficient manner."
@@ -43,7 +43,7 @@ $ lr register
 ```
 This command will open the Portal in the browser, where you can register yourself and create the app.
 
-![alt_text](register_page.png "Register Page")
+![alt_text](register_page.webp "Register Page")
 
 If you already have a LoginRadius account, use the command below to directly login :
 
@@ -70,19 +70,19 @@ $ lr login
 
 Once the **login/register** process has been completed, run the `lr get config` command to fetch your **API Key/Secret** as shown below. 
 
-![alt_text](api_creds.png "API Credentials") 
+![alt_text](api_creds.webp "API Credentials") 
 
 ### Configuring Callback URLs
 
 Here, a callback URL refers to a URL in your application that LoginRadius would redirect a user to after they have been authenticated.  These URLs must be added to your Application Configuration. If not set, users will be unable to login into the application and receive an error. 
 
-![alt_text](whitelist_error.png) 
+![alt_text](whitelist_error.webp) 
 
 For security reasons, LoginRadius only processes API calls that are received from the whitelisted domains. To get the list of whitelisted domains, run `lr get domain` command from the CLI. Similarly, to add a domain, use the `lr add domain` command.
 
 > For the purposes of this tutorial, make sure that you set `http://localhost` as a whitelisted domain. 
 
-![alt_text](domain.png "Add Domain") 
+![alt_text](domain.webp "Add Domain") 
 
 ## Setup React JS application
 
@@ -281,21 +281,21 @@ This section explains the use of the LoginRadius CLI in enabling users to quickl
 
 We can add social login methods like Google, Facebook, etc., to the LoginRadius Auth Page using the CLI. Use the `lr add social` command to add a Login method and the `lr get social` command to view the current active social login methods. Check the image below for a visual representation. 
 
-![alt_text](lr_social.png "Facebook Login Added") 
+![alt_text](lr_social.webp "Facebook Login Added") 
 
 After adding the new login method (in this example, it is Facebook), navigate to the LoginRadius Auth Page by using the `lr demo` command.
 
-![alt_text](add_login.png "Facebook Login Added on IDX") 
+![alt_text](add_login.webp "Facebook Login Added on IDX") 
 
 ### Updating the theme
 
 We can update the **theme** of the LoginRadius Auth Page using the `lr set theme` command. You can use the `lr get theme` command to get a list of all available themes and the currently active theme. See the image below for visual representation. 
 
-![alt_text](lr_theme.png "Theme changed to Tokyo") 
+![alt_text](lr_theme.webp "Theme changed to Tokyo") 
 
 After changing the theme, navigate to the LoginRadius Auth Page using `lr demo` command to view the changes. 
 
-![alt_text](set_theme.png "New Theme Tokyo") 
+![alt_text](set_theme.webp "New Theme Tokyo") 
 
 
 ### Adding to the Registration schema
@@ -305,11 +305,11 @@ After changing the theme, navigate to the LoginRadius Auth Page using `lr demo` 
 We can update the Registration Page schema using the `lr add schema` command. Use the `lr get schema` command with `--active` or `--all` flags to get the current Registration fields or view all available fields with their schemas. You can also configure addtional features by choosing the `setup advance configuration` option.  
 See the image below for a visual representation of the command flow. 
 
-![alt_text](lr_schema.png "Get and Add to Reg. Schema") 
+![alt_text](lr_schema.webp "Get and Add to Reg. Schema") 
 
 In the below image 2 fields have been added to the registration schema, `Confirm Password` and `Gender`. To view the changes, navigate to the LoginRadius Auth Page using `lr demo`command.
 
-![alt_text](add_schema.png "Added Fields") 
+![alt_text](add_schema.webp "Added Fields") 
 
 > Instead of using the `lr demo` command, you can also view the **LoginRadius Auth Page** by visiting locahost:3000 and following the same workflow as explained earlier.
 

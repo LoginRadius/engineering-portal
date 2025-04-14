@@ -1,7 +1,7 @@
 ---
 title: "Implementing The Power Of Continuous Authentication for Boundless Business Value"
 date: "2022-01-04"
-coverImage: "cont-auth.jpg"
+coverImage: "cont-auth.webp"
 tags: ["continuous authentication","data security","cx"]
 author: "Rakesh Soni"
 description: "With advancements in technology and the increasing rate of cybercrimes, continuous authentication for business is gaining popularity in modern times. As a smarter and better authentication method, it can help in reducing the number of these attacks."
@@ -42,7 +42,7 @@ Here's a list of the technologies used to implement continuous authentication:
 * **Behavioral biometrics** - Here, you can continuously [track a user's behavioral patterns](https://www.loginradius.com/blog/identity/biometric-authentication-mobile-apps/) like interactive gestures, typing style, finger pressure, how long a user holds a key on the keyboard, or how they swipe through the screen or hold the mouse. Variation from the normal behavioral patterns can then be marked. 
 * **Voice Authentication** - You can monitor pitch and frequency variations in voice for continuous authentication. Also, deviations from ordinary qualities can be identified by constantly tracking input speech against a reference control conversation. 
 
-[![WP-cont-auth](WP-cont-auth.png)](https://www.loginradius.com/resource/continuous-authentication-whitepaper)
+[![WP-cont-auth](WP-cont-auth.webp)](https://www.loginradius.com/resource/continuous-authentication-whitepaper)
 
 
 ## Benefits and Drawbacks
@@ -61,4 +61,4 @@ When executed the right way, it can massively enhance corporate security by decr
 
 After years of discussion and product development by security specialists, the concept of continuous authentication has emerged as a new wave in cybersecurity. And it is just the right time to embrace it! 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=implement-continuous-authentication-business-value)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=implement-continuous-authentication-business-value)

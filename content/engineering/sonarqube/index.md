@@ -1,7 +1,7 @@
 ---
 title: "Sonarqube: What it is and why to use it?"
 date: "2020-07-11"
-coverImage: "sonarqube.png"
+coverImage: "sonarqube.webp"
 author: "Kheenvraj Lomror"
 tags: ["Code Quality", "SonarQube"]
 description: "SonarQube is a universal tool for static code analysis that has become more or less the industry standard. Keeping code clean, simple, and easy to read is also a lot easier with SonarQube."

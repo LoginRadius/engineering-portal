@@ -1,7 +1,7 @@
 ---
 title: "How Authentication Leads The Way in Strategic Customer Acquisitions?"
 date: "2022-10-12"
-coverImage: "auth-benefit.jpg"
+coverImage: "auth-benefit.webp"
 tags: ["passwordless authentication","digital identity","sso","cx"]
 author: "Grigori Monaselidze"
 description: "With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business. This blog explains how authentication can help you increase your customer acquisition."
@@ -41,7 +41,7 @@ KBA, or Knowledge-based Authentication is a common method for securely aiding a 
 
 [Single sign-on](https://www.loginradius.com/single-sign-on/) or SSO, is mostly used by services using password as their main authentication method. SSO allows a customer to authenticate themselves once to use various accounts or systems. This provides comfort, as it eliminates the need to remember various passwords for various applications.
 
-[![WP-sec-user-auth](WP-sec-user-auth.png)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
+[![WP-sec-user-auth](WP-sec-user-auth.webp)](https://www.loginradius.com/resource/securing-user-authentication-understanding-the-basics-best-practices/)
 
 All of the three above-mentioned customer authentication methods present a challenge, where a business must determine a common ground between comfort and security.
 
@@ -96,4 +96,4 @@ Email campaigns certainly can be tricky, a lot of resources are invested in stra
 
 With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-mainstream-marketers-benefit)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-mainstream-marketers-benefit)

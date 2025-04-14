@@ -1,7 +1,7 @@
 ---
 title: "Is Your CIAM Adapting to Global Needs? 6 Key Areas to Win Privacy-Concerned Customers"
 date: "2024-06-11"
-coverImage: "ciam-privacy.jpg"
+coverImage: "ciam-privacy.webp"
 tags: ["ciam solutions","data privacy","compliance"]
 author: "Rakesh Soni"
 description: "In today's data-driven world, adapting your Customer Identity and Access Management (CIAM) system to meet global privacy needs is essential. Explore six key areas to ensure your CIAM solution remains compliant, secure, and user-friendly, building trust with privacy-conscious customers. From implementing enhanced security measures to offering user-centric privacy controls, learn how to stay ahead in a market where data privacy is paramount."
@@ -32,7 +32,7 @@ Data minimization and purpose limitation are essential for protecting user priva
 
 * **Minimal Data Collection**: Design forms and data collection processes that ask only for necessary information. Regularly audit your data collection practices to ensure they align with the principle of data minimization.
 
-[![DS-progressive-profiling](DS-progressive-profiling.png)](https://www.loginradius.com/resource/datasheet/progressive-profiling-cx/)
+[![DS-progressive-profiling](DS-progressive-profiling.webp)](https://www.loginradius.com/resource/datasheet/progressive-profiling-cx/)
 
 * **Purpose Specification**: Clearly define and document the specific purposes for which data is collected. Avoid using collected data for purposes beyond what was originally disclosed to users.
 
@@ -88,4 +88,4 @@ With features like consent management, MFA, RBA, and progressive profiling, Logi
 
 Investing in these key areas will ensure your organization is well-positioned to thrive in a market where data privacy is a critical differentiator. Implementing these strategies will help you maintain a competitive edge while fostering a strong, trust-based relationship with your customers.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-business-privacy-users)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-business-privacy-users)

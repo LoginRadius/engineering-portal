@@ -1,7 +1,7 @@
 ---
 title: "API Debugging Tools"
 date: "2015-05-26"
-coverImage: "api_debugging-tools-300x300.png"
+coverImage: "api_debugging-tools-300x300.webp"
 author: "Karl Wittig"
 tags: ["Engineering","GoogleChorme","MozilaFirefox","SoupUI","RunScope"]
 ---

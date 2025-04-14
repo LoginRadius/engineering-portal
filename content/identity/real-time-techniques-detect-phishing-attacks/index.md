@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Security: Leveraging 5 Real-Time Techniques to Detect Phishing Attacks"
 date: "2023-08-07"
-coverImage: "phishing-attacks.jpg"
+coverImage: "phishing-attacks.webp"
 tags: ["phishing attacks", "data security","cx"]
 author: "Alok Patidar"
 description: "Enhance your security with real-time techniques for detecting and preventing phishing attacks. Discover how behavior analysis, machine learning, URL reputation assessment, and collaboration empower proactive defense against real-time phishing threats."
@@ -48,7 +48,7 @@ Real-time detection systems employ URL and domain reputation analysis to identif
 
 Additionally, real-time systems can employ machine learning models to analyze the structure of URLs, looking for telltale signs of phishing attempts, such as slight misspellings or extra characters in domain names. By scrutinizing URLs in real time, security systems can thwart phishing attacks before users unknowingly interact with dangerous websites.
 
-[![WP-bot-attacks](WP-bot-attacks.png)](https://www.loginradius.com/resource/prevent-bot-attacks-with-loginradius/)
+[![WP-bot-attacks](WP-bot-attacks.webp)](https://www.loginradius.com/resource/prevent-bot-attacks-with-loginradius/)
 
 ### 4. Email and Content Analysis
 
@@ -72,4 +72,4 @@ As real-time phishing attacks continue to pose a significant threat, adopting pr
 
 Prioritizing real-time detection empowers individuals and organizations to stay one step ahead of cybercriminals, safeguarding their valuable information and maintaining a robust defense against real-time phishing attacks.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=real-time-techniques-detect-phishing-attacks)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=real-time-techniques-detect-phishing-attacks)

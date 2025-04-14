@@ -1,7 +1,7 @@
 ---
 title: "LoginRadius Announces Its Business Continuity Plan to Fight COVID-19 Outbreak"
 date: "2020-03-17"
-coverImage: "loginradius-business-continuity.png"
+coverImage: "loginradius-business-continuity.webp"
 tags: ["LoginRadius" , "industry-news"]
 featured: false 
 author: "Rakesh Soni"
@@ -58,4 +58,4 @@ We place the highest value on the partnerships that we've established with our c
 
 In the end, we wish our customers health, security, and good fortune.
 
-[![](CTA-Graphics-for-Blogs-V03.01-05-3-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-business-continuity-covid-19-outbreak)
+[![](CTA-Graphics-for-Blogs-V03.01-05-3-1024x310.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-business-continuity-covid-19-outbreak)

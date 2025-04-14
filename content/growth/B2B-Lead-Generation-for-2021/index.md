@@ -1,7 +1,7 @@
 ﻿---
 title: "B2B Lead Generation for 2021: 11 Proven Strategies"
 date: "2021-03-31"
-coverImage: "B2B-marketing-strategies-loginradius.jpg"
+coverImage: "B2B-marketing-strategies-loginradius.webp"
 category: ["loginradius"]
 featured: false 
 author: "Navanita Devi"
@@ -96,7 +96,7 @@ Depending upon the level a lead is at, B2B companies can launch nurturing campai
 
 After multiple meetings and discussions with all the stakeholders and a successful sales pitch, a prospect chooses you over others, and the deal is done. After a lead is successfully converted into a sale, they would be transferred to consumer services for onboarding and other processes.
 
-[![b2b-lead-generation-loginradius](b2b-lead-generation-loginradius.jpg)](https://www.loginradius.com/b2b-identity/)
+[![b2b-lead-generation-loginradius](b2b-lead-generation-loginradius.webp)](https://www.loginradius.com/b2b-identity/)
 
 ## Effective Channels for B2B Lead Generation (Online and Offline)
 
@@ -118,7 +118,7 @@ In order to come up with relevant B2B strategies for your organization, it’s e
     
 7.  Print media: Don’t knock it before at least trying it! There is still a segment of potential leads that get their information from newspapers and magazines and other print media forms. Based on your target audience, investing in print for leads might work, depending on your product or service.
     
-[![Guide-to-Modern-Customer-Identity](Guide-to-Modern-Customer-Identity.png)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
+[![Guide-to-Modern-Customer-Identity](Guide-to-Modern-Customer-Identity.webp)](https://www.loginradius.com/resource/guide-to-modern-customer-identity/)
 
 
 ## 12 B2B Lead Generation Strategies for 2021
@@ -200,6 +200,6 @@ Avoid marketing lingo and keep your message simple and straight, and get right t
 Our tried and tested list of B2B lead generation tips has helped many generate some quality leads. Make sure you have quality content as well to transform leads into sales successfully.
 
 
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-lead-generation-for-2021)
+[![book-a-demo-Consultation](loginradius-book-a-demo.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-lead-generation-for-2021)
 
 

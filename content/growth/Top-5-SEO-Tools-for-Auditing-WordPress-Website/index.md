@@ -1,7 +1,7 @@
 ﻿---
 title: "Top 5 tools to Audit Wordpress Website"
 date: "2021-05-06"
-coverImage: "top-5-wp-seo-tools.jpg"
+coverImage: "top-5-wp-seo-tools.webp"
 category: ["loginradius"]
 featured: false 
 author: "Tanvi Soni"
@@ -157,4 +157,4 @@ SEO tools help rank your website on the first page of Google and other search en
 
 It would be best if you begin by using free SEO tools available on the internet. If you notice any visible improvements on your website, you can purchase the paid version to get maximum benefits.
 
-[![book-a-demo-Consultation](book-a-demo-Consultation.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-5-seo-tools-for-auditing-wordpress-website)
+[![book-a-demo-Consultation](book-a-demo-Consultation.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-5-seo-tools-for-auditing-wordpress-website)
