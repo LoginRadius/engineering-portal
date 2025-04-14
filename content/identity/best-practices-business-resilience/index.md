@@ -11,7 +11,7 @@ metadescription: "What is business resiliency and the best practices of implemen
 
 Today, data breaches have become a significant threat to businesses across the globe.  Therefore, considering the long list of resultant consequences to be faced as an aftermath, it is crucial for companies to come out the other side of a breach intact.
 
-The Annual Cybercrime Report  2019 by Cybersecurity Ventures says that these data breaches can cost global businesses around $6 trillion in 2021!
+The Annual Cybercrime Report  2019 by [Cybersecurity Ventures](https://www.herjavecgroup.com/the-2019-official-annual-cybercrime-report/#:~:text=Cybersecurity%20Ventures%20has%20reaffirmed%20their,associated%20with%20cybercrime%20are%20vast.) says that these data breaches can cost global businesses around $6 trillion in 2021!
 
 According to experts, implementing business resilience best practices can help companies overcome issues that come with a data breach.
 
@@ -23,7 +23,7 @@ Read on!
  
 During a data breach, companies’ confidential data are accessed by attackers without permission.  It is not only about sensitive information going out to the wrong hands. These cyber attackers can also hack your database and conduct malicious activities, costing you both money and reputation. 
 
-As per [Cost of a Data Breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) by IBM, the global average total cost of a data breach in 2020 was $3.86M. If this situation continues, by 2021, a business is expected to fall victim to a ransomware attack every 11 seconds. 
+As per [Cost of a Data Breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) by IBM, the global average total cost of a data breach in 2020 was $3.86M. If this situation continues, by 2021, a business is expected to fall victim to a [ransomware attack every 11 seconds](https://www.herjavecgroup.com/wp-content/uploads/2018/12/CV-HG-2019-Official-Annual-Cybercrime-Report.pdf). 
 
 Now let’s consider some of the negative impacts of data breaches that make companies susceptible to financial and credibility loss.
 
