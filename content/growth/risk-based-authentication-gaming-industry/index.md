@@ -86,4 +86,4 @@ An effective RBA can make a huge difference between a safe and unsafe gaming exp
 
 The focus is to confide the users' personal information, and with LoginRadius, you will find more than just one solution to your digital predicaments. [Contact us](https://www.loginradius.com/contact-sales) to know more. 
 
-[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-based-authentication-gaming-industry)

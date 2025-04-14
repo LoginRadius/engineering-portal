@@ -108,4 +108,4 @@ E-commerce and retail giants are leveraging the perfect symphony of user experie
 
 Brands seeking substantial growth in the ever-challenging retail ecosystem need to understand the importance of cutting-edge technology that paves the path for a rich consumer experience that drives sales and ensures customers’ loyalty. 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identification-challenges-retail)

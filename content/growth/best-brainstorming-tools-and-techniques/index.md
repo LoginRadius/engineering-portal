@@ -84,4 +84,4 @@ You can also try the rapid virtual Ideation technique, where you give your parti
   
 Keep the ideas flowing!
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-brainstorming-tools-and-techniques)

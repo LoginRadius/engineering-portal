@@ -162,4 +162,4 @@ Yes, all websites that collect personal data, including through the use of cooki
 
 Non-compliance with GDPR and CCPA regulations can result in hefty fines and penalties, as well as damage to a company's reputation. Proper cookie management is essential for protecting user data and avoiding legal consequences.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cookie-management-gdpr-ccpa)

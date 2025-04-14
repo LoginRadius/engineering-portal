@@ -141,4 +141,4 @@ The aspects mentioned above could help businesses choose the most exemplary auth
 
 Moreover, businesses can witness the world-class authentication system in action with LoginRadius CIAM that helps establish a secure and user-friendly authentication and authorization system. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=assess-improve-your-authentication-system)

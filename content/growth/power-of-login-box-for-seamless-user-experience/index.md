@@ -71,4 +71,4 @@ Your platform’s login is critical to crafting a seamless user experience. And 
 
 However, offering alternative registration options and prioritizing user privacy and data security is essential. By striking the right balance, businesses can boost their brand and retain users, ensuring a positive and engaging customer journey from the first interaction. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=power-of-login-box-for-seamless-user-experience)

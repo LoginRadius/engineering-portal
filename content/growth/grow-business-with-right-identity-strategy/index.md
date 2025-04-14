@@ -79,4 +79,4 @@ By implementing the benefits of the LoginRadius CIAM as a unified solution, you 
 
 Need more information about how [LoginRadius CIAM benefits](https://www.loginradius.com/blog/identity/loginradius-private-cloud-ciam-benefits/) your business? Reach us for a free personalized demo.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=grow-business-with-right-identity-strategy)

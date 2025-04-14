@@ -62,4 +62,4 @@ In today's digital frontier, protecting assets in the cloud is paramount for org
 
 As technology continues to evolve and threats evolve, organizations must remain vigilant, continuously adapting and enhancing their cloud security governance practices to stay one step ahead of cyber adversaries.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-security-governance-digital-protection)

@@ -78,4 +78,4 @@ Investing in robust **digital identity verification solutions** is essential bec
 
 Fraudsters can easily identify and exploit improper verification methods; that’s why businesses require robust multi-layered identity and access management solutions, like [LoginRadius’s CIAM](https://www.loginradius.com/authentication/) and risk-based analytics. The robust CIAM solution makes the **digital identity verification** process easy as it works on the three main components of verification: identification, verification, and authentication. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-verification)

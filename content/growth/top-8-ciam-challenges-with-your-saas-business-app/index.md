@@ -60,4 +60,4 @@ One of the surpassing advantages of cloud applications is that admittance is obt
 ##  Conclusion
 
 To summarize, we can say that a cloud-based CIAM service should present accurate visibility of user access. Also, providing your customers with the required protection against identity theft is crucial in preserving your company prominence. This is why it is vital to overcome these challenges to better leverage the benefits of CIAM to protect your business and clients.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-8-ciam-challenges-with-your-saas-business-app)

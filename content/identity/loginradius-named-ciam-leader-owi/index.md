@@ -40,4 +40,4 @@ LoginRadius is a leading cloud-based [customer identity and access management](h
 
 The LoginRadius Identity Platform empowers business and government organizations to manage customer identities securely, deliver a unified digital experience, and comply with all major privacy regulations such as the EU’s General Data Protection Regulation (GDPR).
 
-[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](BD-Plexicon1-1024x310-1.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-named-ciam-leader-owi)

@@ -72,4 +72,4 @@ Choosing between self-managed and service-based SSO solutions requires carefully
 
 When deciding, it is crucial to consider factors such as control, maintenance, scalability, security, and cost. Choosing between self-managed and service-based SSO solutions should align with your organization's unique requirements and priorities. 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=self-managed-vs-service-based-sso-solutions)

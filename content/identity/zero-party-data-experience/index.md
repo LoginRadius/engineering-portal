@@ -58,4 +58,4 @@ As we venture into the digital age, embracing Zero-Party Data is the way forward
 
 In a nutshell, Zero-Party Data is revolutionizing personalization, making your online adventures more enjoyable and meaningful. So, go ahead, share your preferences, and get ready to be amazed by the tailored experiences that await you.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data-experience)

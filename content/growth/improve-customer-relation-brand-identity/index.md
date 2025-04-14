@@ -83,4 +83,4 @@ Think of it as an avatar you’ve created to attract your target demographic. Be
 By keeping the tips we’ve shared with you in mind, though, we are confident that you will be able to refine your branding to suit the goals of your business. Good luck! 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-relation-brand-identity)

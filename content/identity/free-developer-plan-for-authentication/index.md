@@ -197,4 +197,4 @@ We’d love to hear your feedback and answer any questions.
 Have an active CIAM project? Sign up for a free plan or talk to our experts and see how LoginRadius can help. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=free-developer-plan-for-authentication)

@@ -78,7 +78,7 @@ The following is an example of search options available in the Identity Analytic
 
 ## Summing Up
 
-The purpose of all the above searches is to let our customers quickly locate the information or sections they want to access. If you value customer experience as much as we do, [reach out to us](https://www.loginradius.com/book-a-demo/), and we will help you improve the consumer experience of your application.
+The purpose of all the above searches is to let our customers quickly locate the information or sections they want to access. If you value customer experience as much as we do, [reach out to us](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-integrates-search-navigation-better-cx), and we will help you improve the consumer experience of your application.
 
 
-[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-integrates-search-navigation-better-cx)

@@ -75,4 +75,4 @@ By adopting an advanced identity security approach that emphasizes Zero Trust, r
 
 As cybercriminals continue to evolve their tactics, staying ahead requires a proactive and comprehensive strategy that prioritizes identity security at every level.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=advanced-identity-security-based-attacks)

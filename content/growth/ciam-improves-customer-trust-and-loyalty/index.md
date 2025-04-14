@@ -66,4 +66,4 @@ CIAM is undoubtedly the need of the hour for businesses looking to build trust a
 
 By providing a personalized, secure, compliant, convenient, and transparent experience, businesses can differentiate themselves from their competitors and build long-lasting customer relationships.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-improves-customer-trust-and-loyalty)

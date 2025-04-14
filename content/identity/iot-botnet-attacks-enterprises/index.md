@@ -91,4 +91,4 @@ On the other hand, businesses relying on poor security mechanisms on the device 
 Hence, incorporating a robust security policy, as mentioned above, could be the best thing to ensure businesses, vendors, developers, and users in the IoT landscape remain secure. 
  
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iot-botnet-attacks-enterprises)

@@ -43,4 +43,4 @@ For more tips on CCPA and GDPR compliance, check out the infographic by LoginRad
 
 Want to get your company compliance-ready and keep it up-to-date, automatically? Contact a LoginRadius expert to learn how.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ccpa-vs-gdpr-the-compliance-war)

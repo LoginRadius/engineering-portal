@@ -76,4 +76,4 @@ By leveraging these advantages, organizations can enhance their security posture
 
 As businesses continue to embrace cloud-based solutions, adopting a robust cloud-based consumer identity and access management framework becomes indispensable in harnessing the full potential of the cloud while maintaining control and security over user identities and access controls. 
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-cloud-identity-and-its-benefits)

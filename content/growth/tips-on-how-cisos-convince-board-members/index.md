@@ -84,4 +84,4 @@ While cybercriminals are hunting new ways to exploit consumer identities, CISOs 
 
 And with a reliable customer identity and access management (CIAM) solution in place, security heads can ensure their customers’ identities are safe, and their board members don’t need to worry about the consequences of identity thefts. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=tips-on-how-cisos-convince-board-members)

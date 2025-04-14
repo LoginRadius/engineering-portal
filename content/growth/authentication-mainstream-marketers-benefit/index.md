@@ -96,4 +96,4 @@ Email campaigns certainly can be tricky, a lot of resources are invested in stra
 
 With digital businesses taking over the entire industry, improving customer authentication and email communication with customers has never been more important to maintaining a successful business.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-mainstream-marketers-benefit)

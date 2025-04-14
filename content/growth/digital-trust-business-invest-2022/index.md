@@ -96,6 +96,6 @@ Hence, businesses embarking on a digital transformation journey shouldn’t unde
 
 The aspects mentioned above could help businesses build digital trust that further fosters growth in the future. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-trust-business-invest-2022)
 
 

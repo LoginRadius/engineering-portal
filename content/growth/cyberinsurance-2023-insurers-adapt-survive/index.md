@@ -103,6 +103,6 @@ As cyber security threats continue to grow and evolve into a full-blown crisis, 
 
 In 2023, we will have many more concrete innovations, propelling the insurance industry into a better place than it ever has before. This will put them in a prime position to meet the challenges of tomorrow with agility, not uncertainty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cyberinsurance-2023-insurers-adapt-survive)
 
 

@@ -104,4 +104,4 @@ User authentication for customer retention is not just a technical necessity; it
 
 By adopting innovative approaches like Magic Links, businesses can transform a potentially tedious process into a delightful user experience. Remember, the magic lies in simplicity, security, and the profound impact it can have on customer loyalty.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-retention-magic-links)

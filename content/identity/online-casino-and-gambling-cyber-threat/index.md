@@ -162,4 +162,4 @@ Adhering to the COVID situation and keeping social distancing in mind, more and 
 
 With the ongoing pandemic situation, gambling providers should primarily focus on ensuring that gambling is fair, crime-free, and protects minors. A [CIAM platform](https://www.loginradius.com/blog/identity/perfect-ciam-platform/) can help you tap all these touchpoints.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-casino-and-gambling-cyber-threat)

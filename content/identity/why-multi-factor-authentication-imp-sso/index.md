@@ -145,4 +145,4 @@ Multi-Factor Authentication (MFA) is broader and requires two or more factors fo
 
 Two-Factor Authentication (2FA) adds an extra layer of security to logins, requiring users to provide two types of credentials for verification.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=why-multi-factor-authentication-imp-sso)

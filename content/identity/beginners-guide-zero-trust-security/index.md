@@ -91,4 +91,4 @@ With the increasing risk of security breaches from within a network, the need fo
 
 Decision-makers and IT department heads of an organization should consider putting their best foot forward in [securing important consumer information](https://www.loginradius.com/blog/identity/maintaining-quality-data-security-practices/) and business data by leveraging robust layers of defense through a zero trust security model. 
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=beginners-guide-zero-trust-security)

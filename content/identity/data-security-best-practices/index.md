@@ -146,4 +146,4 @@ Secure data by encrypting sensitive information, using access controls, implemen
 
 Data security in an enterprise involves protecting sensitive information through various measures such as encryption, access controls, and monitoring.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-security-best-practices)

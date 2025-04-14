@@ -81,4 +81,4 @@ By using a robust CIAM solution, organizations can build trust and loyalty with 
 
 In a nutshell, CIAM enables organizations to deliver an exceptional and secure personalized experience that meets the needs of their customers, ultimately leading to increased customer satisfaction and brand loyalty.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-personalized-marketing-effective-with-consumer-identity)

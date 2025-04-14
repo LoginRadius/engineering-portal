@@ -74,4 +74,4 @@ The use of technology in various ways has been a great factor in accelerating th
 Customers must feel and be sure that the bank's employees only can access their accounts and personal data. First-and second-factor authentication is now being replaced by newer technologies, specifically multi-factor authentication. This greater level of protection is gaining popularity in the wake of the growing threat of information theft and [identity theft](https://www.loginradius.com/blog/identity/identity-theft-frauds/) due to cyber-attacks.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-ivr-banking)

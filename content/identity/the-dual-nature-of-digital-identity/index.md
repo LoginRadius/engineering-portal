@@ -59,4 +59,4 @@ Consumers often create digital identities through self-registration, while enter
 
 Consumer identity is more prone to security risks, while enterprise identity is more prone to insider threats. However, both types of digital identity must be secured through access control, two-factor authentication, and encryption to mitigate security risks. As technology advances, the importance of digital identity will only continue to grow, and we must take the necessary steps to ensure its security.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-dual-nature-of-digital-identity)

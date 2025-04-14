@@ -75,4 +75,4 @@ Apart from reducing the cost per acquisition, businesses can ensure robust custo
 Hence, if a business wishes to succeed with minimum investment, it must leverage the true potential of a CIAM solution. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=identity-management-reduce-cpa-marketers)

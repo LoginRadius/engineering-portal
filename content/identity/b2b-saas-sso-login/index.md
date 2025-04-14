@@ -70,4 +70,4 @@ As we step into 2024, the landscape of B2B SSO login is marked by innovation, se
 
 Stay tuned for a comprehensive exploration of the considerations shaping the future of Single Sign-On in the enterprise space.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-sso-login)

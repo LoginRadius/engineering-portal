@@ -87,5 +87,5 @@ Targeting your ideal customer is essential for any business looking to grow and 
 
 By following these steps, companies can build lasting relationships with their customers and drive long-term success.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=finding-ideal-customer-user-profile-management)
 

@@ -105,4 +105,4 @@ When you take some time to craft a post-purchase journey tailored to your custom
  
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=10-black-friday-cyber-monday-tips-for-businesses)

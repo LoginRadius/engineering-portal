@@ -58,4 +58,4 @@ We place the highest value on the partnerships that we've established with our c
 
 In the end, we wish our customers health, security, and good fortune.
 
-[![](CTA-Graphics-for-Blogs-V03.01-05-3-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](CTA-Graphics-for-Blogs-V03.01-05-3-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-business-continuity-covid-19-outbreak)

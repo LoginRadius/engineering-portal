@@ -86,4 +86,4 @@ As digital transformation accelerates and reliance on federated identity systems
 
 By understanding the nuances of this vulnerability, implementing proactive security measures, and fostering a culture of vigilance, organizations can navigate the complexities of the modern cybersecurity landscape with resilience and confidence. Together, let us forge a path towards a safer, more secure digital future.
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=silver-saml-digital-identity-protection)

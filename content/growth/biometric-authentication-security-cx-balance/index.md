@@ -70,4 +70,4 @@ Behavioral Biometric Authentication represents a significant step forward in sec
 
 As the digital landscape continues to evolve, embracing innovative solutions like behavioral biometrics is not just a choice but a necessity for staying ahead of the curve and earning customer trust.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-authentication-security-cx-balance)

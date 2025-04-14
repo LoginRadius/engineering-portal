@@ -93,4 +93,4 @@ Here are some of the tangible benefits of implementing change management strateg
 Change management is the need of the hour in this internet driver business market. Enterprises can benefit a lot from focusing on customer identity and access management. A key part of this is ensuring customer security. The implementation of such change management strategies can also be outsourced to firms that specialize in [CIAM solutions](https://www.loginradius.com/), like LoginRadius. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=change-management-consumer-security-tool)

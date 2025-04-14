@@ -53,4 +53,4 @@ In this world with stringent data protection laws, it becomes the responsibility
 
 Data privacy necessitates the requirement to preview the processes that can improve the entire company’s operation, not only the marketing vertical. With the help of the right tools for compliance and privacy regulations, marketers can implement their data-driven marketing strategies while capturing customer trust and providing enhanced user experience. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=data-privacy-marketers-success)

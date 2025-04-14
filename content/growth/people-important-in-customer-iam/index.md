@@ -83,4 +83,4 @@ Businesses that strive to provide the best customer experience in identity manag
 
 Customer experience and identity management go hand in hand. So, organizations must make sure they have the best digital systems to provide a personalized experience. [LoginRadius](https://www.loginradius.com/) helps organizations manage user identities to deliver a unified customer experience. Overall, it provides a secure and delightful experience for the customers using the innovative customer identity platform. Reach us out if you want more information about our identity management services!
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=people-important-in-customer-iam)

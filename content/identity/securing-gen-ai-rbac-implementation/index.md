@@ -100,4 +100,4 @@ By defining roles and responsibilities, mapping permissions, implementing access
 
 By embracing RBAC, organizations not only protect their valuable data but also build a foundation of trust and accountability, paving the way for innovative and secure AI-driven solutions.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-gen-ai-rbac-implementation)

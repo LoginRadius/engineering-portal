@@ -203,4 +203,4 @@ SSO between two applications enables users to log in once and access both applic
 
 Single sign-on (SSO) is an authentication method that allows users to access multiple applications or systems with a single set of credentials, improving convenience and security.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=benefits-single-sign-on)

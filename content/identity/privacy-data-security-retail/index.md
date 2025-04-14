@@ -76,4 +76,4 @@ Modern measures such as passwordless authentication, cloud-based security, and f
 
 In some ways, they enhance it–improving access to personal accounts and the ability to maintain control over their shopping experience. Similarly, these measures help retailers comply with state and national laws, preventing financial loss through fines or breaches. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=privacy-data-security-retail)

@@ -123,4 +123,4 @@ Authentication methods include single-factor (e.g., passwords), two-factor (e.g.
 
 PIN verification data refers to information associated with a user's PIN, including its validity period, device-specificity, and dynamic nature, enhancing security and access control measures.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-pin-authentication)

@@ -102,4 +102,4 @@ Avoiding implementation mistakes is the only way to ensure maximum safety for co
 The aforementioned methods are proven to minimize security threats and ensure seamless interaction between the end-user and resource owner.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth-authentication-vulnerabilities)

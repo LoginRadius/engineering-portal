@@ -68,7 +68,7 @@ LoginRadius understands the critical role of identity and access management in s
 
 Beyond just tools, our solutions help you build a resilient cybersecurity strategy tailored to your unique needs. Whether you’re protecting customer data, securing internal systems, or mitigating risks from evolving threats, we’ve got you covered.
 
-[Schedule a demo](https://www.loginradius.com/book-a-demo/) to explore how our solutions can empower your CISO security strategy.
+[Schedule a demo](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cisos-top-cybersecurity-threats-from-scattered-spider-to-deepfakes) to explore how our solutions can empower your CISO security strategy.
 
 ## Conclusion
 

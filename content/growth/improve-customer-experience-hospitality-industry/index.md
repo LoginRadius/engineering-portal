@@ -146,4 +146,4 @@ Most businesses in the hospitality sector offer complex ownership structures. He
 
 After all, the hospitality industry is all about customer experiences and keeping up with their changing expectations.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-hospitality-industry)

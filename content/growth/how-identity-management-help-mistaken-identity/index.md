@@ -87,4 +87,4 @@ CIAM ensures brands have a better understanding of consumers. Hence, they can qu
 
 Add to that the top-of-the-line shield against the prying eyes, and the new-age CIAM seems to be a must for modern enterprises.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-identity-management-help-mistaken-identity)

@@ -90,4 +90,4 @@ The customer identity base case is the cornerstone of a successful business stra
 
 Embracing these strategies and understanding the value of the customer identity base case will undoubtedly pave the way for long-term success in the digital realm.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=customer-identity-use-case)

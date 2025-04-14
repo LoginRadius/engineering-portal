@@ -116,4 +116,4 @@ Travel can make [SMS-based MFA solutions](https://www.loginradius.com/integratio
 
 Providing travelers with easy-to-use MFA solutions doesn’t just keep your data and their data secure. It improves their digital experience and encourages them not to side-step essential security measures when traveling in potentially risky situations.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=use-multi-factor-authentication-dont-cell-phone-access)

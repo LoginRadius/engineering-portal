@@ -40,4 +40,4 @@ The report is available for download. [Request your copy here](https://www.login
 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-digital-identity-trend-report-2020)

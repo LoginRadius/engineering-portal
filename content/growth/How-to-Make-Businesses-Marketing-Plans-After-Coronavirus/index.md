@@ -138,4 +138,4 @@ High-value B2B rarely deals closely with a conversation, and companies need thei
 
 While there is no way to tell which B2B marketing trends post COVID continue to remain in favor, consumer-centric offerings will always find relevance in a post-pandemic world. Incorporate any of the above suggestions in your B2B marketing strategies to reap the combined benefits of maximum consumer loyalty, satisfaction, and sustained profitability.
 
-[![Makeover-book-a-demo](Makeover-book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![Makeover-book-a-demo](Makeover-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-make-businesses-marketing-plans-after-coronavirus)

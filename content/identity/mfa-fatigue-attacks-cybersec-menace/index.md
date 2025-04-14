@@ -78,5 +78,5 @@ MFA fatigue attacks are on the rise, and businesses can’t afford to take the r
 Adding a more robust authentication mechanism in the form of risk-based authentication can help minimize the chances of MFA fatigue attack and help secure crucial information. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-fatigue-attacks-cybersec-menace)
 

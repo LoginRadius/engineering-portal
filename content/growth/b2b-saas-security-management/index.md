@@ -58,4 +58,4 @@ In the face of evolving security challenges, B2B SaaS companies need proactive m
 
 By implementing robust authentication, access controls, and compliance measures, businesses can confidently navigate the security landscape. As the digital realm expands, let Identity Management lead the charge in securing the future of B2B SaaS.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-saas-security-management)

@@ -112,4 +112,4 @@ If the business decision is already made, you could easily add a [social login](
 
 **Stayed tuned for Part II of this series, where I will help you calculate lost revenue associated with authentication and system availability.**
 
-[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=calcualting-roi-build-vs-buy)

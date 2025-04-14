@@ -46,4 +46,4 @@ The world that we live in today falls under several regulatory laws - be it [the
 
 The LoginRadius' Consumer AuditTrail feature plays a vital role in the maintenance, security, availability, and integrity of the records so businesses can understand the [bigger picture in the cybersecurity threat](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/) landscape.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-consumer-audit-trail-data-analysis)

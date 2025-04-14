@@ -48,4 +48,4 @@ Companies need to understand that customer data security is part of the revenue 
 
 Let’s hope that Marriott and its peers in the travel industry have learned that, while the security of customer accounts may not be their core business, it still needs to be priority number one.
 
-[![](BD-Developers2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=marriott-data-breach-2020)

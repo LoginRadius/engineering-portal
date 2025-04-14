@@ -69,5 +69,5 @@ Businesses need to understand the risks associated with account takeovers throug
 Organizations can invoke the true potential of risk-based authentication (RBA) to overcome the challenges pertaining to MFA prompt bombing. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=mfa-prompt-bombing-businesses)
 

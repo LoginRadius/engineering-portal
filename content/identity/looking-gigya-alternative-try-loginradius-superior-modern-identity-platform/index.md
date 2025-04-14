@@ -100,4 +100,4 @@ We have automated software for a seamless migration and quick go-to-market, and 
 
 If you’d like to hear more about customers making the switch to LoginRadius, contact us at 1-844-625-8889. We can also [give you a demo](https://www.loginradius.com/schedule-demo/) so you can see how our features compare.
 
-[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=looking-gigya-alternative-try-loginradius-superior-modern-identity-platform)

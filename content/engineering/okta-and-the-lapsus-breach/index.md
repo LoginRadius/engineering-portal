@@ -87,4 +87,4 @@ In this specific example, the hackers accessed the laptop of one of Okta's custo
 
 However, it offers a valuable learning experience that business entities should not ignore the minutest of details regarding network security. It surfaces the adage that ' A chain is only as strong as its weakest link.'
 
-[![Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-and-the-lapsus-breach)

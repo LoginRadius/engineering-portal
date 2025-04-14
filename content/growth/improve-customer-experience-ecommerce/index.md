@@ -134,4 +134,4 @@ What's worse is that most customers often don’t take the necessary steps to pr
 
 When it comes to growing your business, a smart e-commerce customer experience strategy is as important as a marketing strategy. With a customer identity and access management solution, you can get 360-degree customer profiling, with 100% customer consent, across all touchpoints. This allows you to personalize marketing and loyalty programs that engage your audience. And that’s a win-win for you and your customers.
 
-[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](BD-Developers2-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=improve-customer-experience-ecommerce)

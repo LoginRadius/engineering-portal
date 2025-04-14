@@ -82,4 +82,4 @@ There’s no second thought to the fact that the market for QR Codes is helping 
 With correct marketing strategies, including adequate content placement and website responsiveness, marketers must quickly understand that just adding a QR Code won’t speed up sales.
 
 Also, adequate analysis strategies must be in place to trace the user behavior that can be further utilized to build personalized experiences for enhanced business growth during the uncertain times of COVID-19.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=qr-code-in-marketing)

@@ -84,4 +84,4 @@ Besides enabling social and civic empowerment, digital identification is critica
 
 Through sound design principles and policy enforcement, digital protects individual rights from abuse and creates economic benefits for states, institutions, and people.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=digital-identity-key-to-economic-growth)

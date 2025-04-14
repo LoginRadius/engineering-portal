@@ -117,4 +117,4 @@ The second example has more to offer with regard to fonts, colors, and tone of v
 
 The goal of the particular article is to convince you that verification emails should not necessarily be basic and boring. They can add to the marketing strategy and be a starting point for your engagement with the customer.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=best-practices-verification-emails-effective)

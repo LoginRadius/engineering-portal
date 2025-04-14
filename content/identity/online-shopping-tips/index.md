@@ -194,4 +194,4 @@ Q5. How can businesses enhance data security during these events?
 
 A: Solutions like LoginRadius offer secure registration, 360-degree consumer views, and multi-factor authentication.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=online-shopping-tips)

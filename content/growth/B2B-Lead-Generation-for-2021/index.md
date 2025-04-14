@@ -200,6 +200,6 @@ Avoid marketing lingo and keep your message simple and straight, and get right t
 Our tried and tested list of B2B lead generation tips has helped many generate some quality leads. Make sure you have quality content as well to transform leads into sales successfully.
 
 
-[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](loginradius-book-a-demo.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=b2b-lead-generation-for-2021)
 
 

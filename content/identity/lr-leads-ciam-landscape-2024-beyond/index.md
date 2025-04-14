@@ -84,4 +84,4 @@ LoginRadius stands out as the definitive leader in the CIAM landscape for 2024 a
 
 By prioritizing innovation and adaptability, LoginRadius goes beyond industry norms, providing businesses with a comprehensive solution that not only meets but exceeds the dynamic demands of the digital age.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lr-leads-ciam-landscape-2024-beyond)

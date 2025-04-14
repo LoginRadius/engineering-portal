@@ -92,4 +92,4 @@ Sadly, very few companies have a well-secured management policy, while still a l
 
 Enterprise mobile app security is the need of the hour. Businesses must consider the changing state of cybersecurity and mobility when implementing the above-mentioned [protection tips](https://www.loginradius.com/resource/infographic/cybersecurity-best-practices-for-enterprise/) to secure their devices. 
 
-[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo-loginradius](Book-a-demo-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=securing-enterprise-mobile-apps)

@@ -74,4 +74,4 @@ When fraudsters or hackers get their hands on the user’s identity, they can co
 
 Implementing **multi-factor authentication through biometrics** is an emerging trend to create a secure work environment for your end-users. Biometrics verification protects the data and keeps the information secure through encryption, secure storage, data minimization, secure data transmission, and Anonymization and Pseudonymization. [Customer Identity Access and Management solutions](https://www.loginradius.com/), like LoginRadius, can help businesses implement robust MFA authentication methods easily. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=biometric-multi-factor-authentication)

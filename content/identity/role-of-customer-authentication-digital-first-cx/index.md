@@ -77,4 +77,4 @@ Businesses can leverage the true potential of digital agility by incorporating a
 Reach us if you wish to see the future of digital agility through a robust cloud-based CIAM solution. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-of-customer-authentication-digital-first-cx)

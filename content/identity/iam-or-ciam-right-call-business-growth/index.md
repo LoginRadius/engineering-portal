@@ -83,4 +83,4 @@ The conventional IAM isn’t the right choice for handling many customers, espec
 
 The aspects mentioned above of leveraging a CIAM shouldn’t be ignored by businesses thinking to accelerate overall growth. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=iam-or-ciam-right-call-business-growth)

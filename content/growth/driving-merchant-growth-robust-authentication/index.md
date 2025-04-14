@@ -74,4 +74,4 @@ As e-commerce continues to grow, merchants must take measures to protect themsel
 
 By implementing CIAM, merchants can protect against fraud, comply with regulations, increase customer trust, improve the customer experience, and better manage risk. With the right tools and strategies, merchants can ensure the security of their online transactions and build a successful and profitable e-commerce business.
 
-[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![Book-a-demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=driving-merchant-growth-robust-authentication)

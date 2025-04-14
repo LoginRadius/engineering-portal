@@ -71,4 +71,4 @@ The power of identity management is helping brands navigate their digital transf
 With a reliable customer identity and access management solution, brands can ensure they stand ahead of the curve by delivering rich customer experiences backed with robust security. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-advanced-identity-means-for-cx)

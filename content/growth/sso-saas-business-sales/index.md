@@ -75,4 +75,4 @@ For SaaS businesses looking to gain a competitive advantage and boost sales, inv
 
 In the evolving SaaS landscape, where user experience is the ultimate differentiator, SSO for SaaS businesses is not just a convenience—it's a necessity for success.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=sso-saas-business-sales)

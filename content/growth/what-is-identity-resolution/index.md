@@ -76,4 +76,4 @@ By leveraging the power of identity resolution, businesses can unlock a wealth o
 
 Investing in identity resolution enables organizations to optimize their operations, deepen customer relationships, and stay ahead in a rapidly evolving marketplace. Embrace identity resolution as a core component of your business strategy and unlock its transformative potential.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-resolution)

@@ -87,4 +87,4 @@ We hope you will love trying LoginRadius CLI for Enterprise Dashboard. We will a
 We are eager to know your feedback, test cases and also what we can bring up next in our CLI. If you have any suggestions, please create an issue on our [open source github repository](https://github.com/LoginRadius/lr-cli/issues).
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-launches-cli-enterprise-dashboard)

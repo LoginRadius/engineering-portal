@@ -198,4 +198,4 @@ Digital identity verification is used in various industries like finance and hea
 
 Virtual identity verification is the process of verifying an individual's identity through digital channels without physical presence, often using methods like video calls or AI analysis of facial features or voice patterns. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-verification)

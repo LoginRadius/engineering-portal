@@ -76,4 +76,4 @@ These CIAM benefits that allow users to control their data and manage their iden
 
 In conclusion, CIAM techniques are beneficial for both business and their customers. It eases a user's purchase journey, requiring minimum effort and details. And side-by-side, CIAM also enhances data security and access control over sensitive information, which helps an organization maintain data integrity and privacy. Overall, CIAM eradicates the risk of security breaches and identity theft.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-data-security-user-trust)

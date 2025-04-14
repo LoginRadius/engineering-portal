@@ -70,4 +70,4 @@ Optimizing business security requires a proactive approach to user access manage
 
 Prioritize security and invest in comprehensive user access management strategies to protect your business from evolving cyber threats.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-access-management-business-security)

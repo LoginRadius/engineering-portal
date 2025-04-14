@@ -86,4 +86,4 @@ Technology has provided endless opportunities to enterprises. However, adopting 
 Companies need to understand that they may need to change their cybersecurity policies or rely on third-party vendors to ensure the highest level of security. 
 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=when-to-switch-your-security-vendor)

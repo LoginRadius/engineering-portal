@@ -64,4 +64,4 @@ Understanding the significance of identity in the digital world is crucial for n
 
 By taking steps to protect and leverage our identities, we can make the most of the benefits technology offers. As we continue integrating technology into our lives, the importance of identity will only continue to grow.
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=the-relative-importance-of-customer-identity)

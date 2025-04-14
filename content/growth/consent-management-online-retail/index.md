@@ -77,4 +77,4 @@ Consent management is a legal requirement and a strategic business practice. It'
 
 Implementing an effective consent management system should be a top priority for any online business looking to thrive in the digital era. Your commitment to data privacy can set you apart from competitors and create long-lasting customer relationships.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-online-retail)

@@ -81,4 +81,4 @@ Open banking is paving the way for the next generation of digital experiences, e
 However, the risks associated with open banking require organizations to put their best foot forward in adopting FAPI through a reliable service provider that helps enhance API integration security.  
 
 
-[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book a demo loginradius](BD-Plexicon1-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=financial-grade-api-open-banking)

@@ -94,4 +94,4 @@ Businesses seeking the finest modes of authentication coupled with authorization
 The LoginRadius CIAM is designed to empower businesses by offering the finest user experience and maximum security through industry-standard protocols including OAuth 2.0.
 
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oauth2-0-guide)

@@ -90,5 +90,5 @@ Every industry has a different set of identity challenges and a unique approach 
 For example, what goal they hope to achieve, how does [a CIAM platform fits into the picture](https://www.loginradius.com/resource/how-media-and-publication-companies-use-loginradius-identity-platform/), and identify the right solution to get the job done. LoginRadius allows you to equip and support your viewers well so you can adapt to the new way of entertainment. 
 
 
-[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=media-entertainment-use-loginradius-platform)
 

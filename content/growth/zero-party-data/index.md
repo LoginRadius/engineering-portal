@@ -85,4 +85,4 @@ By adopting innovative strategies to collect and utilize zero-party data effecti
 
 Embracing this paradigm shift not only meets the demands of the evolving digital ecosystem but also establishes a foundation for ethical and customer-centric marketing practices, leading to long-term brand loyalty and business growth.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=zero-party-data)

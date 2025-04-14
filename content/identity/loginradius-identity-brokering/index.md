@@ -46,4 +46,4 @@ With Identity Brokering, businesses can skip the use of complex protocols and en
 Moreover, businesses acquire flexibility and verified digital identities, whereas consumers gain a [seamless authentication experience](https://www.loginradius.com/authentication/). A win-win for both parties! 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=loginradius-identity-brokering)

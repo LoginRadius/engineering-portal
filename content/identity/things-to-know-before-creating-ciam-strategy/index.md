@@ -80,4 +80,4 @@ With LoginRadius CIAM, organizations can confidently navigate the complexities o
 
 Creatig a CIAM strategy requires careful planning and execution. Following these seven essential actions, your security team can lay a strong foundation for a robust CIAM strategy that prioritizes data security, user experience, and regulatory compliance. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=things-to-know-before-creating-ciam-strategy)

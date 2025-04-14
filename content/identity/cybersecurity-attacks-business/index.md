@@ -263,4 +263,4 @@ All of these features work together to help you mitigate cybersecurity attacks o
 
 While it seems like a scary world out there, you can protect your [enterprise from cyberattacks](https://www.loginradius.com/blog/identity/cyber-threats-business-risk-covid-19/) with the right tools. A CIAM software provides these tools via centralized monitoring and advanced security features, so you can get back to growing your business. Let’s [join hands](https://www.loginradius.com/contact-sales) for a better 2022!
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cybersecurity-attacks-business)

@@ -222,4 +222,4 @@ IdPs and SPs work together by establishing trust relationships between them, ena
 
 MFA adds an extra layer of security to the authentication process by requiring users to provide two or more authentication factors, such as a password and a security token.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-identity-provider)

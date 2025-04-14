@@ -217,4 +217,4 @@ Properly implemented authentication and authorization processes can ensure data 
 
 The future likely involves more advanced biometrics, continuous authentication, and AI-driven security measures to combat evolving cyber threats and enhance user experience. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-vs-authorization-infographic)

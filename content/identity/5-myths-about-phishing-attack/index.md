@@ -126,4 +126,4 @@ Regardless of [how secure your email systems](https://www.loginradius.com/blog/i
 
 We are sure the information shared in this post will help keep your organization safe from such attacks. 
  
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=5-myths-about-phishing-attack)

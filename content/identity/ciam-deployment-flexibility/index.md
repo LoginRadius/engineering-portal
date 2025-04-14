@@ -56,4 +56,4 @@ Incorporating flexible CIAM deployment options from LoginRadius empowers busines
 
 In a world where user experience and security are paramount, investing in a robust CIAM solution like LoginRadius is not just a choice but a strategic necessity. Stay ahead of the curve by implementing these advanced CIAM deployment options and ensure your users enjoy a hassle-free, secure, and engaging online experience.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=ciam-deployment-flexibility)

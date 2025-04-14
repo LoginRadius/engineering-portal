@@ -105,4 +105,4 @@ In summary, there are many ways eCommerce retailers can improve the customer ver
 
 Whether you choose to [develop your own system](https://www.loginradius.com/blog/identity/build-vs-buy-securing-customer-identity/) or purchase a verification solution from a third-party vendor, ensuring this process is seamless for customers, and free of errors will go a long way towards ensuring that both merchants and buyers have a trusted and satisfying shopping experience every time.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-improve-customer-verification-process)

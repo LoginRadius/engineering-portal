@@ -88,4 +88,4 @@ Cyberattacks are inevitable. As business teams continue to invest in securing th
 While organizations need to be wary of both, they should also gear up for complex commodity watering hole attacks and dark web compromises. These are some of the uncommon cyberattacks that all companies should keep an eye out for, especially in a digital transformation environment.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=7-uncommon-cyberattacks-2023)

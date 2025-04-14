@@ -61,4 +61,4 @@ When executed the right way, it can massively enhance corporate security by decr
 
 After years of discussion and product development by security specialists, the concept of continuous authentication has emerged as a new wave in cybersecurity. And it is just the right time to embrace it! 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=implement-continuous-authentication-business-value)

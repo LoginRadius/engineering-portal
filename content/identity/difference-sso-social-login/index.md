@@ -55,4 +55,4 @@ With [LoginRadius’ social login](https://www.loginradius.com/social-login/) an
 
 If you wish to witness the future of CIAM and how it works for your business, schedule a free personalized demo today! 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=difference-sso-social-login)

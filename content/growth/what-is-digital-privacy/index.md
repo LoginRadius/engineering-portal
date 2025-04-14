@@ -83,4 +83,4 @@ In conclusion, we’ve found that building a foundation of strong digital privac
 
 Brands can’t afford to lose a single customer because of non-compliance issues. Hence, it won’t be a good decision for businesses to miss out on the chance to stay ahead of the competition. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-digital-privacy)

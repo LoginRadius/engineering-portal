@@ -80,4 +80,4 @@ Over the years, consumers have grown skeptical about effective interoperability 
 Consumers, businesses, and governments alike need an easier way to deal with ID verification. Reusable digital identities are the next stage in the [evolution of authentication](https://www.loginradius.com/blog/growth/authentication-evolution-to-passwordless/), providing a better customer experience and simplifying business compliance efforts as well as overall ID administration needs. Their use will grow substantially in the coming years to everyone’s benefit. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=pros-cons-reusable-digital-identity)

@@ -63,4 +63,4 @@ Whether you are a small business that is starting out or a Multinational brand, 
 
 There are a couple of ways you can have these implemented depending on your use case. While some companies will require only basic consent management pieces that can be written by developers fairly easily, others that use consumer data for analytics and personalization of services might find it more suitable to use a Consent Management platform from a third-party vendor.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-consent-management)

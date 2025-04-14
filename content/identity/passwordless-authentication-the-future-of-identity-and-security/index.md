@@ -241,4 +241,4 @@ Q: What is 2FA or passwordless?
 
 A: 2FA (Two-Factor Authentication) requires two forms of verification for access. Passwordless authentication, on the other hand, allows users to log in without using a traditional password, using methods like biometrics or email links.
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=passwordless-authentication-the-future-of-identity-and-security)

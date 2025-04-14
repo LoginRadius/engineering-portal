@@ -84,4 +84,4 @@ Our mission is to empower businesses to provide secure, delightful experiences f
 
 And we will continue to develop and revisit our entire solution, as we have done for social login, to make sure we are fulfilling that mission.
 
-[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![](CTA-Graphics-for-Blogs-V02.01-14-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=reconsidering-social-login-security-privacy-angle)

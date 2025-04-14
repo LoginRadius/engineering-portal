@@ -77,4 +77,4 @@ As the world becomes more connected, users have become increasingly more aware o
 
 Marketers need to strike a balance between user security and experience when it comes to user privacy. That means providing security services that won't frustrate customers who want to get the most out of their devices and applications.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=authentication-critical-customer-acquistion-tool)

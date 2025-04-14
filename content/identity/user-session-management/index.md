@@ -130,4 +130,4 @@ User sessions should change when there is a change in authentication status (log
 The two types of sessions are: Client-Side Sessions: Stored on the user's browser, usually as cookies. Server-Side Sessions: Stored on the server, often in databases or server memory.
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=user-session-management)

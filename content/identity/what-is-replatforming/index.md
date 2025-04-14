@@ -116,4 +116,4 @@ Cloud re-platforming can provide numerous benefits, including enhanced scalabili
 
 By leveraging LoginRadius CIAM, businesses can stay ahead of the curve and thrive in the fast-paced digital landscape while planning to re-platform. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-replatforming)

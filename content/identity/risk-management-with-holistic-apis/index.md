@@ -100,4 +100,4 @@ In an era where things are going uncertain amid the global pandemic, there’s a
 As far as the risks involved in deploying APIs are concerned, LoginRadius CIAM helps businesses swiftly navigate the implementation processes with utmost security.
 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=risk-management-with-holistic-apis)

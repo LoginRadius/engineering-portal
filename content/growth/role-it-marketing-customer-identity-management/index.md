@@ -105,4 +105,4 @@ Customer identity management is crucial for businesses striving for growth in a 
 With a new-age CIAM like LoginRadius, businesses can ensure they deliver a rich consumer experience backed with robust security that can offer endless marketing opportunities. 
 
 
-[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius-banner](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=role-it-marketing-customer-identity-management)

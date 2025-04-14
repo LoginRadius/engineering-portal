@@ -115,5 +115,5 @@ In this article, we talked about applying a simple approach of using Multi-facto
 
 Cheers!
 
-[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=multi-factor-authentication-a-beginners-guide)
 

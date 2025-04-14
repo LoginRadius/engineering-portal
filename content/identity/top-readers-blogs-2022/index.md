@@ -194,4 +194,4 @@ The blogs mentioned above can help you understand the CIAM landscape and ensure 
 
 Reach us to learn more about the LoginRadius CIAM and how it can help scale your business growth even in the most unpredictable times.
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=top-readers-blogs-2022)

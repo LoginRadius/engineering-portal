@@ -150,4 +150,4 @@ Yes, out-of-band authentication is secure due to the added layer of protection u
 
 Out-of-band authentication enhances security and protects against attacks by leveraging a secondary channel for verification.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-out-of-band-authentication)

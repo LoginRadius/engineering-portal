@@ -64,4 +64,4 @@ The Okta breach demonstrates the vulnerability of all businesses to cyber-attack
 
 This incident emphasizes the critical need for businesses to prioritize cybersecurity, update protocols, and educate employees. Staying vigilant and proactive is essential in the face of evolving cyber threats.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=okta-hack-breach-lessons)

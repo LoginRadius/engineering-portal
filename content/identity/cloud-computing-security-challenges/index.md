@@ -124,5 +124,5 @@ The Cloud Security Alliance is the world's leading organization dedicated to def
 
 LoginRadius is a member, along with other experts in cloud security. Together, CSA members share up-to-date developments about the cloud computing environment. We recognize emerging security risks so that we can improve cloud security for everyone. 
 
-[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](image5.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=cloud-computing-security-challenges)
 

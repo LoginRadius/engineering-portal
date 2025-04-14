@@ -73,4 +73,4 @@ However, retailers must also be mindful of the privacy and security implications
 
 As the retail industry continues evolving and increasingly digitizing, digital identity will become an essential tool for retailers looking to stay competitive.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-digital-identity-unlock-success-in-retail)

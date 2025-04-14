@@ -64,4 +64,4 @@ This comprehensive guide to cloud identity management reveals the significance o
 
 By embracing these principles and remaining adaptable to emerging security challenges, organizations can confidently navigate the complex cloud security landscape and maintain a strong security posture in the cloud.
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=guide-to-five-a-of-cloud-identity-management)

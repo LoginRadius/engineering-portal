@@ -98,4 +98,4 @@ The following techniques can be used to prevent email harvesting:
 
 Although it may take a while to get the hang of them, the results are worth spending time on. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=secure-email-address-website)

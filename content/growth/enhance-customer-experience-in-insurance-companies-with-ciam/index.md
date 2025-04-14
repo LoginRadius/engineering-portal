@@ -100,4 +100,4 @@ Insurance companies will have to make trade-offs between protection and the clie
 Insurance companies often operate in a fast-paced environment, serving both consumers and businesses. They also deal with a complex IT infrastructure resulting from the multiple acquisitions that make up a typical contemporary insurance company.
 
 [Implementing the right CIAM](https://www.loginradius.com/) solution is critical in the digital world of insurance firms in order to achieve their objectives and go above and beyond. This [CIAM digital strategy](https://www.loginradius.com/blog/identity/digital-transformation-consumer-iam/) can assist in the transformation of a conventional life insurance product into a more modern digital banking offering geared at wider consumer segments while still utilizing the traditional agent channel.
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=enhance-customer-experience-in-insurance-companies-with-ciam)

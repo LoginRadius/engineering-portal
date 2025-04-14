@@ -38,4 +38,4 @@ The right combination of cybersecurity best practices and employee/customer awar
 
 Looking for an [Okta alternative](https://www.loginradius.com/)? Learn more about the highest rated, most secure CIAM technology in the world. 
 
-[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=oktapus-phishing-targets-okta-identity-credentials)

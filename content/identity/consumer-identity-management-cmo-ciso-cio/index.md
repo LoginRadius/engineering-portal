@@ -118,4 +118,4 @@ The consumer identity management platform lets CIOs, CISOs, and CMOs to manage i
 
 Consumer behavior has never been static—nor have their expectations. A consumer identity management solution can be a strategic asset for CIOs, CISOs, and CMOs to use it to their advantage in their respective departments. Speaking of possibilities, they are _endless_ here.
 
-[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-free-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consumer-identity-management-cmo-ciso-cio)

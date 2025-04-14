@@ -78,7 +78,7 @@ While both authentication protocols are powerful and have their benefits, busine
 
 ## **When to Choose SAML and When to OICD?**
 
-Given below are the factors that you should keep in mind when [choosing an authentication protocol](https://www.loginradius.com/book-a-demo/):
+Given below are the factors that you should keep in mind when [choosing an authentication protocol](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-or-oidc-for-business):
 
 
 ### 1. Application
@@ -107,4 +107,4 @@ LoginRadius also supports federated [SSO protocols](https://www.loginradius.com/
 Whether you opt for a SAML or an OIDC verification method, the identity provider you choose can define your app's features and user-friendliness. Partnering with the right platform will help you provide the best security possible and ensure you don't fall victim to any cybercrimes.
 
 
-[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![LoginRadius Book a Demo](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=saml-or-oidc-for-business)

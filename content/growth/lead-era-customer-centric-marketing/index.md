@@ -82,4 +82,4 @@ So, here's what you can do:
 
 A customer-centric approach to marketing means that businesses are no longer focused on the products and services themselves, but instead prefer to understand the needs and wants of their customers. And that’s exactly what you need to do to lead this era of customer-centric marketing. 
 
-[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-Consultation](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=lead-era-customer-centric-marketing)

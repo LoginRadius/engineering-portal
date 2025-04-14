@@ -80,4 +80,4 @@ Consent marketing is not just a legal requirement; it's a strategic approach tha
 
 By respecting user preferences, businesses can create a more trustworthy and engaging brand image while fostering long-lasting customer relationships. With solutions like LoginRadius' consent management, businesses can navigate the complexities of consent marketing with ease, ensuring compliance and building customer trust every step of the way.  
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=consent-management-business-advantages)

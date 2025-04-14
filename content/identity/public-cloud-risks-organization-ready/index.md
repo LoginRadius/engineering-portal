@@ -73,4 +73,4 @@ Businesses considering leveraging the private cloud shouldn’t overlook the sec
 Enterprises thinking about accelerating business growth through cloud adoption shouldn't miss the aspects above. 
 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=public-cloud-risks-organization-ready)

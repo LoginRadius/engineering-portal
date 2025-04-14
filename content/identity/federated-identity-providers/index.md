@@ -97,4 +97,4 @@ Federated Identity and Access Management (IAM) is a system that enables users to
 
 In cyber security, "federated" refers to a system where different organizations or domains trust each other to authenticate and authorize users, allowing seamless access to resources across these domains.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=federated-identity-providers)

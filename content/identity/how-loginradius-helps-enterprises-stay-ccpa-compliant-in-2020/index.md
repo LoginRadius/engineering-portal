@@ -157,4 +157,4 @@ Consumers expect the privacy and security of their personal data, and it is the 
 
 With an identity solution like LoginRadius, you can eliminate lengthy processes that ruin the user experience, and still maintain international governance over data privacy. 
 
-[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-free-demo-loginradius](Book-a-free-demo-request-1024x310.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-loginradius-helps-enterprises-stay-ccpa-compliant-in-2020)

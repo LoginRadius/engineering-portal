@@ -89,4 +89,4 @@ Dynamic authorization can adapt quickly to changing business requirements now an
 
 With solutions that enable dynamic policy changes, you can easily adapt to changes in your business environment, control access to sensitive data, and minimize loss of control over that data. This allows you to confidently navigate business processes, knowing that you are fully prepared for any data security or compliance challenges.
  
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-dynamic-authorization)

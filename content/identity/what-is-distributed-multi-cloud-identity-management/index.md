@@ -82,4 +82,4 @@ Distributed multi-cloud identity management is helping businesses in handling mu
 
 If you wish to experience the future of distributed cloud identity management, reach us to schedule a quick demo of LoginRadius’cloud-based customer identity and access management platform. 
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=what-is-distributed-multi-cloud-identity-management)

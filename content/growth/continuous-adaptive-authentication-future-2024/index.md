@@ -52,4 +52,4 @@ The continuous evaluation in CAT minimizes false positives by understanding the 
 
 As we enter 2024, Continuous Adaptive Trust emerges as a beacon of innovation, promising a future where adaptive authentication secures digital interactions and does so with unparalleled precision and adaptability. This paradigm shift heralds a new era in cybersecurity, where trust is not a static state but an ever-evolving, continuous journey.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/book-a-demo/)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.png)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=continuous-adaptive-authentication-future-2024)
