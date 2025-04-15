@@ -169,7 +169,7 @@ As threats become more sophisticated, your choice of authentication mechanisms c
 
 When done right, authentication becomes invisible yet secure, empowering users to interact with your brand confidently and securely. 
 
-Need help implementing secure and scalable authentication? [Contact LoginRadius](https://www.loginradius.com/contact-us) to speak with an expert.
+Need help implementing secure and scalable authentication? [Contact LoginRadius](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-choose-authentication) to speak with an expert.
 
 ## FAQs
 
@@ -200,4 +200,4 @@ Need help implementing secure and scalable authentication? [Contact LoginRadius]
 * Two-factor authentication (2FA)
 * Token-based systems These methods for authentication ensure only authorized users access your network. They are foundational for VPNs, remote desktop access, and zero trust architectures.
 
-[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us)
+[![book-a-demo-loginradius](../../assets/book-a-demo-loginradius.webp)](https://www.loginradius.com/contact-us?utm_source=blog&utm_medium=web&utm_campaign=how-to-choose-authentication)
