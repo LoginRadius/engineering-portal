@@ -140,19 +140,11 @@ Each part is Base64URL encoded and separated by a period (.).
 
 **Example:**
 
-php-template
-
-CopyEdit
-
 &lt;Header>.&lt;Payload>.&lt;Signature>
 
 ### 1. Header
 
 The header typically includes the token type and the signing algorithm being used.
-
-json
-
-CopyEdit
 
 {
 
@@ -165,10 +157,6 @@ CopyEdit
 ### 2. Payload
 
 The payload contains the **claims**—statements about an entity (usually the user) and additional metadata.
-
-json
-
-CopyEdit
 
 {
 
@@ -209,10 +197,6 @@ Note: The payload is not encrypted by default, and can be decoded by anyone. Do 
 ### 3. Signature
 
 The signature ensures the token has not been altered. It is created by signing the encoded header and payload using a secret or private key.
-
-text
-
-CopyEdit
 
 HMACSHA256(
 
@@ -299,10 +283,6 @@ If you are directly implementing your Login forms or already have an access toke
 * [JWT Token by Phone](https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone-and-password/): This API is used to get JWT by Phone and password.
 
 **API Response Example:**
-
-json
-
-CopyEdit
 
 {
 
