@@ -5,8 +5,8 @@ coverImage: "how-to-integrate-jwt.webp"
 author: "Kundan Singh"
 tags: ["JWT","JSON Web Token","Authentication","Authorization"]
 description: "Discover JWT (JSON Web Token) authentication, its advantages, and how to integrate it seamlessly using LoginRadius' hosted IDX and Direct API methods for secure, scalable identity management."
-metatitle: JWT Authentication with LoginRadius: Easy Integration Guide
-metadescription: Learn how JWT authentication works and quickly integrate it with LoginRadius. Understand JWT tokens, best practices, and secure implementation steps.
+metatitle: "JWT Authentication with LoginRadius - Easy Integration Guide"
+metadescription: "Learn how JWT authentication works and quickly integrate it with LoginRadius. Understand JWT tokens, best practices, and secure implementation steps."
 ---
 
 ## Introduction
