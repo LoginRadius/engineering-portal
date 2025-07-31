@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import kebabCase from "lodash/kebabCase"
 import React from "react"
 import ReactGA from "react-ga"
+import DOMPurify from "dompurify"
 import defaultImg from "../../content/assets/default-blog.webp"
 import freeTrialImg from "../../content/assets/freetrial.webp"
 import getTimeToRead from "../utils/timeToRead"
@@ -58,7 +59,7 @@ const PinnedCard = props => {
               <p
                 className={`${styles.descriptiontext} ${styles.pinned}`}
                 dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
+                  __html: DOMPurify.sanitize(node.frontmatter.description || node.excerpt),
                 }}
               />
             </div>

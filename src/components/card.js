@@ -8,6 +8,7 @@ import defaultImg from "../../content/assets/default-blog.webp"
 import kebabCase from "lodash/kebabCase"
 import Img from "gatsby-image"
 import getTimeToRead from "../utils/timeToRead"
+import DOMPurify from "dompurify"; // Import DOMPurify
 
 const Card = ({ node }) => {
   const tags = node.frontmatter.tags || ""
@@ -51,7 +52,7 @@ const Card = ({ node }) => {
             </h3>
             <p
               dangerouslySetInnerHTML={{
-                __html: descriptionText,
+                __html: DOMPurify.sanitize(descriptionText), // Sanitize the HTML
               }}
             />
           </div>
