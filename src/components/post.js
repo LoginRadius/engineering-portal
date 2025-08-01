@@ -19,6 +19,7 @@ import IdentityTagMenu from "./tagmenu/identity"
 import getTimeToRead from "../utils/timeToRead"
 import Bio from "./bio"
 import ToC from "./toc"
+import DOMPurify from 'dompurify';
 
 const eventLogger = function ({ category, action, label }) {
   ReactGA.event({
@@ -88,7 +89,7 @@ const Post = ({ post, relatedPost, type }) => {
       }
     })
 
-    setModifiedHtml(doc.body.innerHTML)
+    setModifiedHtml(DOMPurify.sanitize(doc.body.innerHTML))
   }, [post.html])
   const faqJsonData = extractFAQs(post.html)
   let faqSchema = {}
@@ -125,7 +126,7 @@ const Post = ({ post, relatedPost, type }) => {
               <p
                 className={`${headStyles.descriptiontext} ${headStyles.pinned}`}
                 dangerouslySetInnerHTML={{
-                  __html: post.frontmatter.description || post.excerpt,
+                  __html: DOMPurify.sanitize(post.frontmatter.description || post.excerpt),
                 }}
               />
             </div>
@@ -185,7 +186,7 @@ const Post = ({ post, relatedPost, type }) => {
                         {author.id}
                       </Link>
                     </h3>
-                    <p dangerouslySetInnerHTML={{ __html: author.bio }}></p>
+                    <p dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(author.bio) }}></p>
                   </div>
                 </div>
               </div>
