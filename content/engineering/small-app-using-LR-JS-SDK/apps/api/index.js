@@ -24,12 +24,26 @@ var config = {
 var lrv2 = require("loginradius-sdk")(config);
 // 🔐 Verify LoginRadius token
 async function verifyUser(token) {
-    console.log("token passed from frontend is ", token);
+    // console.log("token passed from frontend is ", token);
     lrv2.authenticationApi
         .authValidateAccessToken(token)
         .then((response) => {
             console.log(response);
             return true;
+        })
+        .catch((error) => {
+            console.log(error);
+            return false;
+        });
+}
+
+async function inValidateToken(token) {
+    var preventRefresh = true; //Optional
+    lrv2.authenticationApi
+        .authInValidateAccessToken(token, preventRefresh)
+        .then((response) => {
+            console.log(response);
+            return response;
         })
         .catch((error) => {
             console.log(error);
@@ -49,6 +63,18 @@ app.get("/protected", async (req, res) => {
         res.status(401).json({ error: "Unauthorized ❌" });
     }
 });
+
+app.get("/logout", async (req, res) => {
+    const token = req.headers.authorization?.split(" ")[1];
+    // console.log("token passed for logout is ", token);
+    try {
+        const response = await inValidateToken(token);
+        // console.log("api response for logout is ", response)
+        res.json({ message: "Success ✅", response })
+    } catch (error) {
+        res.status(500).json({ error: "Internal Server Error ❌" });
+    }
+})
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
