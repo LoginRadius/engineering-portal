@@ -142,3 +142,38 @@ input {
 .otp-input:hover {
   border-color: rgba(255, 255, 255, 0.4);
 }
+
+.mfa-options {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.mfa-options button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.phone-input-box {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phone-input-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.phone-input-box button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

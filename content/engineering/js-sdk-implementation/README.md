@@ -89,6 +89,7 @@ sdk-implementation/
 │   │       ├── Profile.tsx          # Profile page, refresh, logout
 │   │       ├── VerifyOTP.tsx        # 2FA OTP entry screen
 │   │       ├── verifyEmail.tsx      # Email verification callback page
+│   │       ├── SelectMfa.tsx        # MFA method picker; prompts for phone if none registered
 │   │       ├── PasswordChangePage.tsx
 │   │       ├── cookieUtils.ts       # Read/write/delete cookies
 │   │       └── ssoUtils.ts          # setSSOToken, checkSSOSession, clearSSOSession
@@ -179,6 +180,29 @@ We get back live tokens immediately after verification — so we can auto-login 
 
 ---
 
+### LoginRadius App Config (Called from the Frontend)
+
+#### `GET https://config.lrcontent.com/ciam/appinfo`
+
+Called on app load to read which MFA methods are enabled in the LoginRadius dashboard. This drives all post-login routing decisions — the app never hardcodes which OTP method to use.
+
+**Query params:** `apikey`
+
+**Response (relevant slice):**
+```json
+{
+  "TwoFactorAuthentication": {
+    "IsEnabled": true,
+    "IsEmailOTPAuthenticator": true,
+    "IsSmsOTPAuthenticator": false
+  }
+}
+```
+
+Based on this config the frontend decides whether to show a method-selection screen, auto-send OTP, or skip 2FA entirely.
+
+---
+
 ### Login with 2FA
 
 #### `POST https://api.loginradius.com/identity/v2/auth/login/2fa`
@@ -246,6 +270,32 @@ Sends an OTP via SMS when the user logged in with their phone number.
 ```
 
 The `Sid` is a Twilio message SID — useful for debugging if the SMS didn't arrive.
+
+---
+
+#### Express wrapper: `POST /api/sendManualOTPAfterLogin`
+
+This is the backend route that wraps both OTP-sending calls above into a single endpoint. The frontend always calls this one — it never calls the LoginRadius OTP endpoints directly.
+
+**Request body:**
+```json
+{
+  "secondfactorauthenticationtoken": "sfa-token-here",
+  "emailOrPhone": "jane@example.com",
+  "type": "email"
+}
+```
+
+Set `type` to `"phone"` to send SMS instead. The backend prepends `+91` to the phone number before calling LoginRadius.
+
+**Response:**
+```json
+{ "status": true, "message": "OTP sent in mail" }
+```
+
+This endpoint is called in two places:
+- **Auto-routing** in `App.tsx` when only one MFA method is enabled (email-only or phone-only)
+- **SelectMfa screen** after the user manually picks their preferred OTP method
 
 ---
 
@@ -505,8 +555,9 @@ Here's a quick reference for every route the backend exposes to the frontends:
 |--------|-------|--------------|
 | `POST` | `/api/register` | Create account + send verification email |
 | `GET` | `/api/verifyEmail` | Verify email token, return session tokens |
-| `POST` | `/api/login` | Validate credentials, trigger 2FA OTP |
+| `POST` | `/api/login` | Validate credentials, return 2FA staging token |
 | `GET` | `/api/verifyEmailOtpToLogin` | Verify 2FA OTP, return session tokens |
+| `POST` | `/api/sendManualOTPAfterLogin` | Send OTP to email or phone after login (used by SelectMfa and auto-routing) |
 | `POST` | `/api/forgot-password` | Send password reset email |
 | `POST` | `/api/resetPassword` | Set new password using reset token |
 | `GET` | `/api/sendMobileVerificationOTP` | Send OTP to phone number |
@@ -536,15 +587,47 @@ Here's a quick reference for every route the backend exposes to the frontends:
 
 ### Login with 2FA
 
+The frontend fetches MFA configuration from LoginRadius on app load and uses it to decide the OTP routing path:
+
+```
+GET https://config.lrcontent.com/ciam/appinfo?apikey=<api_key>
+→ Returns: { TwoFactorAuthentication: { IsEnabled, IsEmailOTPAuthenticator, IsSmsOTPAuthenticator } }
+```
+
+This drives the entire post-login routing:
+
 ```
 1. User enters email/phone + password → POST /api/login
 2. Express calls LoginRadius: POST /identity/v2/auth/login/2fa
-   → LoginRadius returns SecondFactorAuthenticationToken (not real tokens yet)
-3. Express immediately calls LoginRadius to send OTP:
+   → Returns SecondFactorAuthenticationToken (staging token, not real session tokens yet)
+   → Also returns: IsEmailOtpAuthenticatorVerified, IsOTPAuthenticatorVerified, Email, OTPPhoneNo
+
+3. Frontend checks mfaConfig and picks a path:
+
+   A) MFA disabled:
+      → Tokens come back directly → store in cookies → navigate to /profile
+
+   B) Both email AND phone MFA enabled, neither authenticator pre-verified:
+      → Navigate to /select-mfa (user picks Email OTP or SMS OTP)
+      → SelectMfa calls POST /api/sendManualOTPAfterLogin with chosen method
+      → If user selects phone but has no registered phone → prompts for phone input first
+
+   C) Both email AND phone enabled, one already verified:
+      → Skip SelectMfa, route directly to /verify for the pre-verified method
+
+   D) Only email MFA enabled:
+      → Auto-call POST /api/sendManualOTPAfterLogin (type: "email")
+      → Navigate to /verify
+
+   E) Only phone MFA enabled:
+      → Auto-call POST /api/sendManualOTPAfterLogin (type: "phone")
+      → Navigate to /verify
+
+4. Express calls LoginRadius to send OTP (via sendManualOTPAfterLogin):
    → Email OTP: POST /identity/v2/auth/login/2fa/otp/email
    → SMS OTP:   PUT  /identity/v2/auth/login/2FA
-4. Frontend shows OTP entry screen
-5. User enters OTP → GET /api/verifyEmailOtpToLogin?mfa_token=...&otp=...&email_id=...
+
+5. User enters OTP → GET /api/verifyEmailOtpToLogin?mfa_token=...&otp=...&email_id=...&otp_type=...
 6. Express calls LoginRadius:
    → Email OTP: PUT /identity/v2/auth/login/2fa/verification/otp/email
    → Phone OTP: PUT /identity/v2/auth/login/2FA/verification/otp
@@ -694,6 +777,9 @@ The hub sets a cookie on its own domain (`hub.loginradius.com`). For that cookie
 
 **Phone numbers and the +91 prefix**
 The login flow hardcodes `+91` for phone-based login. If you're building for other regions, you'll want to let users specify their country code or auto-detect it.
+
+**MFA routing is driven by the LoginRadius config endpoint**
+On every app load, both React apps fetch `https://config.lrcontent.com/ciam/appinfo` to check which MFA methods are enabled. Changing the setting in the LoginRadius dashboard (Security → Multi-Factor Authentication) takes effect without any code change — the app adapts automatically on next load. If both email and SMS OTP are enabled, users see a method-selection screen; if only one is enabled, the OTP is sent automatically.
 
 ---
 

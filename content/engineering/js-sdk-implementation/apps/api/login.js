@@ -69,12 +69,14 @@ const InvalidateAccessToken = async (req, res) => {
 const login = async (req, res) => {
     try {
         const { emailOrPhone, password } = req.body;
-        const loginBody = { password };
+        const loginBody = {};
         let type = "email";
         if (/^\S+@\S+\.\S+$/.test(emailOrPhone)) {
-            loginBody.email = emailOrPhone;
+            loginBody.Email = emailOrPhone;
+            loginBody.Password = password;
         } else {
             loginBody.phone = "+91" + emailOrPhone;
+            loginBody.password = password;
             type = "phone";
         }
         const api_res = await axios.post(process.env.API_URL + process.env.LOGIN_API,
@@ -84,9 +86,18 @@ const login = async (req, res) => {
                     apikey: process.env.API_KEY,
                 }
             })
+        // console.log("login api resposne is ", api_res.data);
         if (api_res && api_res.data && api_res.data.SecondFactorAuthentication && api_res.data.SecondFactorAuthentication.SecondFactorAuthenticationToken) {
-            await sendOtpAfterLogin(api_res.data.SecondFactorAuthentication.SecondFactorAuthenticationToken, emailOrPhone, type);
-            res.status(200).json({ status: true, message: "Logged In successfully", SecondFactorAuthentication: api_res.data.SecondFactorAuthentication.SecondFactorAuthenticationToken, type });
+            res.status(200).json({
+                status: true, message: "Logged In successfully", type,
+                SecondFactorAuthentication: api_res.data.SecondFactorAuthentication.SecondFactorAuthenticationToken,
+                IsEmailOtpAuthenticatorVerified: api_res.data.SecondFactorAuthentication.IsEmailOtpAuthenticatorVerified,
+                IsOTPAuthenticatorVerified: api_res.data.SecondFactorAuthentication.IsOTPAuthenticatorVerified,
+                OTPPhoneNo: api_res.data.SecondFactorAuthentication.OTPPhoneNo,
+                OTPStatus: api_res.data.SecondFactorAuthentication.OTPStatus,
+                Email: api_res.data.SecondFactorAuthentication.Email[0],
+                EmailOTPStatus: api_res.data.SecondFactorAuthentication.EmailOTPStatus
+            });
         }
     } catch (error) {
         if (error && error.response && error.response.data) {
@@ -97,8 +108,9 @@ const login = async (req, res) => {
         }
     }
 }
-const sendOtpAfterLogin = async (secondfactorauthenticationtoken, emailOrPhone, type) => {
+const sendOtpAfterLogin = async (req, res) => {
     try {
+        const { secondfactorauthenticationtoken, emailOrPhone, type } = req.body;
         let body = {
             "emailid": emailOrPhone
         }
@@ -113,14 +125,15 @@ const sendOtpAfterLogin = async (secondfactorauthenticationtoken, emailOrPhone, 
                     }
                 })
             if (api_res && api_res.data && api_res.data.IsPosted) {
-                return true;
+                res.status(200).json({ status: true, message: "OTP sent in mail" })
             } else {
-                return false;
+                res.status(200).json({ status: false, message: "some error had occured" })
             }
         } else {
             body = {
                 "phoneno2fa": "+91" + emailOrPhone
             };
+            // console.log("body is ", body);
             end_point = process.env.SEND_PHONE_MFA_OTP
             const api_res = await axios.put(process.env.API_URL + end_point,
                 body,
@@ -131,16 +144,19 @@ const sendOtpAfterLogin = async (secondfactorauthenticationtoken, emailOrPhone, 
                     }
                 })
             if (api_res.data && api_res.data.Sid) {
-                return true;
+                res.status(200).json({ status: true, message: "OTP sent to mobile" })
             } else {
-                return false;
+                res.status(200).json({ status: false, message: "some error had occured" })
             }
         }
     } catch (error) {
-        if (error.response.data) {
+        if (error && error.response && error.response.data) {
+            console.log("errro in login ", error.response.data);
+            res.status(500).json({ status: false, message: error.response.data.Description });
+        } else {
             console.log("error in sendOtpAfterLogin ", error);
+            res.status(500).json({ status: false, message: "Internal Server Error" });
         }
-        return false;
     }
 }
 const getAccessTokenByUID = async (req, res) => {
@@ -242,5 +258,6 @@ module.exports = {
     login,
     getAccessTokenByUID,
     validateAccessToken,
-    refreshAccessToken
+    refreshAccessToken,
+    sendOtpAfterLogin
 }

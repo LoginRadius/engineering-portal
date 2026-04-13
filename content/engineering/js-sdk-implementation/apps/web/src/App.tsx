@@ -2,7 +2,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import "./App.css";
 import { getCookie, setCookie } from "./cookieUtils";
-import { checkSSOSession } from "./ssoUtils";
+import { checkSSOSession, setSSOToken } from "./ssoUtils";
 import LoginSuccess from "./LoginSuccess";
 import RegisterSuccess from "./RegisterSuccess";
 import PasswordChangedSuccess from "./PasswordChangedSuccess";
@@ -11,6 +11,7 @@ import VerifyEmail from "./verifyEmail";
 import Profile from "./Profile";
 import VerifyOTP from "./VerifyOTP";
 import ResetPasswordLink from "./ResetPasswordLink";
+import SelectMFA from "./SelectMfa";
 
 function AuthPage() {
   const navigate = useNavigate();
@@ -26,6 +27,7 @@ function AuthPage() {
   const [errors, setErrors] = useState<any>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const isSubmittingRef = useRef(false);
+  const [mfaConfig, setMfaConfig] = useState<{ IsEnabled: Boolean, IsEmailOTPAuthenticator: boolean; IsSmsOTPAuthenticator: boolean } | null>(null);
 
   useEffect(() => {
     const token = getCookie("access_token");
@@ -41,6 +43,24 @@ function AuthPage() {
       }
     });
   }, []);
+  useEffect(() => {
+    fetch(`https://config.lrcontent.com/ciam/appinfo?apikey=${import.meta.env.VITE_LR_API_KEY}`)
+      .then((r) => r.json())
+      .then((data) => {
+        const tfa = data?.TwoFactorAuthentication;
+        console.log("tfa is ", tfa)
+        setMfaConfig({
+          IsEnabled: Boolean(tfa?.IsEnabled),
+          IsEmailOTPAuthenticator: tfa?.IsEmailOTPAuthenticator || false,
+          IsSmsOTPAuthenticator: tfa?.IsSmsOTPAuthenticator || false,
+        });
+        console.log("mfa config is on start ", mfaConfig)
+      })
+      .catch(() => setMfaConfig({ IsEnabled: false, IsEmailOTPAuthenticator: false, IsSmsOTPAuthenticator: false }));
+  }, []);
+  useEffect(() => {
+    console.log("mfa config updated:", mfaConfig);
+  }, [mfaConfig]);
 
   const changeView = (newView: "login" | "register" | "forgot") => {
     setView(newView);
@@ -139,8 +159,71 @@ function AuthPage() {
 
         const data = await res.json();
         if (res.status === 200 && data.status === true && data.SecondFactorAuthentication) {
+          const { SecondFactorAuthentication, IsEmailOtpAuthenticatorVerified, IsOTPAuthenticatorVerified, Email, OTPPhoneNo, OTPStatus, EmailOTPStatus } = data;
+          console.log("mfaconfig is ", mfaConfig);
+          if (!mfaConfig?.IsEnabled) {
+            setCookie("access_token", data.access_token);
+            setCookie("refresh_token", data.refresh_token);
+            await setSSOToken(data.access_token);
+            navigate("/profile");
+          } else if (mfaConfig?.IsEnabled && mfaConfig.IsEmailOTPAuthenticator && mfaConfig.IsSmsOTPAuthenticator) {
+            if (!IsEmailOtpAuthenticatorVerified && !IsOTPAuthenticatorVerified) {
+              navigate("/select-mfa", {
+                state: {
+                  emailOrPhone,
+                  SecondFactorAuthentication: SecondFactorAuthentication,
+                  emailEnabled: true,
+                  phoneEnabled: true,
+                  Email: Email,
+                  OTPPhoneNo: OTPPhoneNo
+                }
+              });
+            }
+            else {
+              if (IsEmailOtpAuthenticatorVerified && !IsOTPAuthenticatorVerified) {
+                navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=email`);
+              } else if (!IsEmailOtpAuthenticatorVerified && IsOTPAuthenticatorVerified) {
+                navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=phone`);
+              }
+            }
+          } else if (mfaConfig?.IsEnabled && mfaConfig.IsEmailOTPAuthenticator && !mfaConfig.IsSmsOTPAuthenticator) {
+            if (!IsEmailOtpAuthenticatorVerified) {
+              await fetch(`${import.meta.env.VITE_BACKENDURL}/api/sendManualOTPAfterLogin`, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  secondfactorauthenticationtoken: SecondFactorAuthentication,
+                  emailOrPhone,
+                  type: "email"
+                }),
+              });
+              navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=email`);
+            } else {
+              navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=email`);
+            }
+
+          } else if (mfaConfig?.IsEnabled && !mfaConfig.IsEmailOTPAuthenticator && mfaConfig.IsSmsOTPAuthenticator) {
+            if (!IsOTPAuthenticatorVerified) {
+              await fetch(`${import.meta.env.VITE_BACKENDURL}/api/sendManualOTPAfterLogin`, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  secondfactorauthenticationtoken: SecondFactorAuthentication,
+                  emailOrPhone,
+                  type: "phone"
+                }),
+              });
+              navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=phone`);
+            } else {
+              navigate(`/verify?type=otp_verification&mfa_token=${SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=phone`);
+            }
+          }
           // console.log("LOGIN SUCESSSS")
-          navigate(`/verify?type=otp_verification&mfa_token=${data.SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=${data.type}`);
+          // navigate(`/verify?type=otp_verification&mfa_token=${data.SecondFactorAuthentication}&email_id=${emailOrPhone}&otp_type=${data.type}`);
         } else {
           // ❌ Show backend message
           alert(data.message);
@@ -317,6 +400,7 @@ export default function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/verify" element={<VerifyOTP />} />
       <Route path="/password-reset" element={<ResetPasswordLink />} />
+      <Route path="/select-mfa" element={<SelectMFA />} />
     </Routes>
   );
 }
