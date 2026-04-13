@@ -1,0 +1,12 @@
+{
+  "name": "sdk-implementation",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "turbo run dev --concurrency=4",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}

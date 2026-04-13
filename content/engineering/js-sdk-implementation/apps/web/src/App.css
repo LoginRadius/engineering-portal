@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.primary {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary:hover {
+  background: #ddd;
+}
+
+.links {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.links span {
+  font-size: 14px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.links span:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ffb3b3;
+  font-size: 12px;
+  text-align: left;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+/* Profile Fields */
+.profile-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.profile-field label {
+  font-size: 12px;
+  color: #aaa;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.profile-field p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Logout button variation */
+.logout {
+  margin-top: 15px;
+  background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.otp-input {
+  width: 50px;
+  height: 50px;
+  /* ✅ perfect square */
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+
+  color: #fff;
+  outline: none;
+
+  transition: all 0.2s ease;
+}
+
+/* Focus effect */
+.otp-input:focus {
+  border: 1px solid #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.6);
+  transform: scale(1.05);
+}
+
+/* Optional: hover */
+.otp-input:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.mfa-options {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.mfa-options button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.phone-input-box {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phone-input-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.phone-input-box button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
